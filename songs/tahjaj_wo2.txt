@@ -1,0 +1,54 @@
+[2000­11­13] Zrajm C Akfohg.
+
+$tab: (3 -5 -5 -5 -10 -5 -5 -5 -10 -5 -5 -5 -10 -5 -5 -5 -10)
+
+For this file to be properly displayed you must set your tabs
+according to the given tabsstring above (negative numbers indicate
+that the tab length is relative to the previous tab).
+
+	-	-	 -	|	-	-	-	|	-	-	-	|	-	-	-	|	-
+
+C=ch, G=gh, F=ng, X=tlh, Y=y', (W=w')
+
+
+	·	x	·	·	·	x	·	·	·	x	·	·	·	x	·	·
+0:		x				x				x
+0:		x								x
+0:		x				x				x
+0:		x								x
+0:		x				x				x
+0:		x				x				x
+0:		x				x				x				x
+0:		x				x				x
+
+
+		
+1:		taH­	-	-		jaj	-	-		wo'	-	-
+1:	'ej	taH­	-	jaj		voD­	-	leH­		ma'	-	-
+1:		wI­	-	-		toY­	-	-		mo'	-	-
+1:	vaj	nu­	-	quv­		moH­	-	jaj		ta'	-	-
+1:		Dun	-	-		wo'­	-	-		maj	-	-
+1:	'ej	QoC­	-	-		CuG	-	-		vaY	-	-
+1:	vaj	DaS­	-	mey­		maj	-	bIF­		Daq	-	CaH		DI­	-	beQ­
+1:		moH­	-	-		Cu'	-	-		jaY!	-	-
+
+2:				taH				jaj		taH	jaj	wo'	'ej	taH	jaj	maH!
+2:										beC-	jaj	jaG-	ma'	HeG-	jaj	CaH!
+2:				wI­				toY		 wI­	toY­	bej	net	Sov	net	Sov!
+2:										val	'ej	may	voD­	leH­	ma'	pov!
+2:				Dun				wo'		Dun	wo'­	vam,	juH­	maj	not	Dej
+2:				QoC				CuG		QoC­	CuG­	vaY	vaj	DoG­	qu'­	bej!
+2:		DaS­	-	mey­	-	maj	-	bIF­	-	Daq	-	CaH		DI­	-	beQ­
+2:				moH­				Cu'		jaY!	-	-
+
+
+3:	ma-	Sop-	nIS-	be',	ma-	XuX-	nIS-	be',	'ej	ma-	Do'-	CuG,	ma-	XuH-	nIS-	be'
+3:	DoC	neH	wI-	ta'-	nIS-	boG	'oH	XI-	Fan	wo'-	'a'	HoS-	Gaj	toY-	GaC-	'e'
+3:	maY­	'a'­	mey­	Daq,	veS­	'a'­	mey­	Daq,	'ej	reH	'ej	reH	yay­	'a'­	mey­	Daq
+3:	Qap­	la'	wI­	Cav	'ej	baX	wI­	Suq	'ej	XI­	Fan	wo'	nIv­	GaC	wI­	maq
+3:	ma­	toY­	rup­	Cu',	ma­	Suv­	laH­	Cu',	ma­	HeG­	qaF­	Cu'	'ut­	CuG	'ut­	mo'
+3:	'aC	HeG­	may	yI­	pIH­	Qo'	Gay­	tan	wa'­	DIC	jaG­	'e'	wI­	HeG­	moH­	mo'
+3:	vaj	taH­	jaj	wo',	vaj	taH­	jaj	wo',	'u'	HeH­	Daq	XI­	Fan	juH­	qo'­	vo'
+3:	vaj	taH­	jaj	taH­	jaj	taH­	jaj	taH­	jaj	taH­	jaj	XI­	Fan	wo'
+
+[eof]

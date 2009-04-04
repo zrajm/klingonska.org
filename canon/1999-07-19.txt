@@ -1,0 +1,192 @@
+Date: Mon, 19 Jul 1999 18:58:34 -0400  | Header from the message
+To: tlhingan-hol@kli.org               | forwarded to tlhingan-hol
+From: TPO <cheesbro@rpa.net>           |
+Subject: gods (from Marc)              |
+
+From the startrek.klingon news group:
+
+There is a Klingon word that could be translated "god" or
+"supernatural being":  <Qun>.
+
+In talking of times long ago (pre-Kahless?), Klingons
+mention these beings, and there seem to have been a good
+number of them (the plural of <Qun> is <Qunpu'> since they
+are or were presumably capable of using language, which is
+what the plural suffix <-pu'> implies).  Though too little
+is known of ancient Klingon theology, there doesn't seem to
+have been a single <Qun> that stood out from the rest.
+Indeed, the <Qunpu'> appear to have acted collectively.
+
+<Qunpu'> are distinct from <qa'pu'> "spirits" (such as the
+spirits of the dishonored dead which reside at Gre'thor).
+
+<Qun'a'> "great god" (<Qun> plus <-'a'>, the augmentative
+suffix) may or may not be an appropriate translation for a
+single supernatural being in a monotheistic system, since
+the <Qun'a'> would still be one among many.
+
+
+===========================================================================
+
+
+Date: Mon, 19 Jul 1999 19:02:07 -0400              | Header from the message
+To: tlhingan-hol@kli.org                           | forwarded to tlhingan-hol
+From: TPO <cheesbro@rpa.net>                       |
+Subject: [chegh] and new word [tatlh] (from Marc)  |
+
+From the startrek.klingon news group:
+
+Will Martin wrote in message
+[snip]
+
+>And since I don't have the interview with me, was {chegh}
+>"return" one of
+>those verbs that acts like {ghoS} and {jaH} in terms of
+>having the locative
+>suffix optional on the direct object, or is it more like
+>{Hop} and {Sum}
+>with assumptions made about relating the speaker with the
+>place returned
+>to?
+
+
+{chegh} "return" seems to work like this:
+
+lupDujHomDaq jIchegh    "I return on the shuttle."
+
+lupDujHom vIchegh       "I return to the shuttle."
+
+lupDujHomDaq may'Duj vIchegh  "I return to the battle
+cruiser on the shuttle"
+
+tera'vo' Qo'noS vIchegh  "I return to Kronos from Earth"
+
+
+({lupDujHom} "shuttle," {-Daq} "locative suffix," {jIchegh}
+"I return" consisting of {jI-} "I" [no object] plus {chegh}
+"return"; {vIchegh} "I return to" consisting of {vI-} "I
+[do something to] it" plus {chegh} "return [to]"; {may'Duj}
+"battle cruiser"; {tera'} "Earth," {-vo'} "from", {Qo'noS}
+"Kronos")
+
+Note that {chegh} "return" means "return to a place"; the
+place being returned to is the object of the verb.  If the
+place being returned to is not mentioned (as in, for
+example, the first sentence above, "I return on the
+shuttle"), the verb takes a prefix indicating "no object"
+(here {jI-}). If the place being returned to is mentioned
+(as in the final three sentences), the verb takes a
+pronominal prefix that indicates the object ({vI-} in the
+examples).
+
+A different verb, {tatlh}, is used for "return" in the
+sense of returning a library book or returning a weapon to
+the weapons rack.
+
+If someone were to say something like "I return the plate
+to the table," the appropriate verb would be {tatlh}:
+
+    raSDaq jengva' vItatlh
+
+({raS} "table," {-Daq} "locative suffix," {jengva'}
+"plate," {vItatlh} "I return it" consisting of {vI-} "I [do
+something to] it" plus {tatlh} "return")
+
+Though not common, it is also possible to use {tatlh} with
+the reflexive suffix {-'egh} ("do something to oneself") to
+convey a meaning similar to that of {chegh}:
+
+    pa'Daq jItatlh'egh  "I return to the room"
+
+({pa'} "room," {-Daq} "locative suffix," jItatlh'egh "I
+return myself" consisting of {jI-} "I," {tatlh} "return,"
+{'egh} "reflexive suffix")
+
+The {tatlh'egh} form seems to suggest that the doer of the
+action is
+forcing himself/herself to do something, perhaps because it
+is difficult or not desirable.
+
+
+===========================================================================
+
+
+Date: Mon, 19 Jul 1999 19:04:17 -0400    | Header from the message
+To: tlhingan-hol@kli.org                 | forwarded to tlhingan-hol
+From: TPO <cheesbro@rpa.net>             |
+Subject: where do you live? (from Marc)  |
+
+From the startrek.klingon news group:
+
+Will Martin wrote in message
+
+[snip]
+
+
+>And which of the following would be the most common form
+>of the question,
+>"Where do you live?" and what form would the most common
+>answer take?:
+>
+>nuq DaDab?
+>
+>nuqDaq DaDab?
+>
+>nuqDaq bIDab?
+
+
+Actually, the most common form of the question "Where do
+you live?" is not a question at all, but a command such as:
+
+Daq DaDabbogh yIngu'    "Identify the place where you live"
+
+(<Daq> "place"; <DaDabbogh> "that you live at," made up of
+<Da-> "you [do something to] it," <Dab> "live in/at, dwell
+in/at, inhabit" <-bogh> "relative clause marker"; yIngu'
+"identify it!" consisting of <yI-> "imperative prefix,"
+<ngu'> "identify")
+
+Perhaps a translation such as "Identify the place that you
+live at" or "Identify the place that you inhabit" is more
+revealing.
+
+Answers are likely to be brief and to the point:
+
+Daqvam "this place"  (<Daq> "place," <-vam> "this")
+pa'    "there"
+naDev  "here"
+qachvetlh "that building"  (<qach> "building," <-vetlh>
+"that")
+Qo'noS    "Kronos"
+
+It is possible, however, to respond with a full sentence:
+
+Daqvam vIDab     "I live at this place"
+pa' vIDab        "I live there"
+naDev vIDab      "I live here"
+qachvetlh vIDab  "I live in/at that building"
+Qo'noS vIDab     "I live on Kronos"
+
+(<vIDab> "I live in/at," consisting of <vI-> "I [do
+something to] it," <Dab> "live in/at, dwell in/at,
+inhabit")
+
+Of the three suggested ways to ask "Where do you live?" the
+first is the most acceptable:
+
+nuq DaDab    "What do you inhabit? What do you dwell at?"
+
+(<nuq> "what?"; <DaDab> "you live in/at it, you dwell in/at
+it, you inhabit it," containing the prefix <Da-> "you [do
+something to] it")
+
+The English translations of <nuq DaDab> are very awkward
+(from an English point of view) and don't get across the
+sense of the Klingon all that well.  The less literal
+"Where do you live?" is what is really being asked.
+In Klingon, when one lives in a place or dwells in a place,
+he or she is thought of as "occupying" or "inhabiting" that
+place; not doing something at that location, but doing
+something to it (occupying it).
+
+[[eof]]

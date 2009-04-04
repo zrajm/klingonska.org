@@ -1,0 +1,265 @@
+From: Marc Okrand <mokrand@erols.com>
+Newsgroups: startrek.klingon
+Date: Mon, 2 Mar 1998 22:53:39 -0500
+Subject: Re: -be', -Ha'
+
+David Trimboli wrote ...
+>Qermaq wrote ...
+>>>par  parHa'   dislike    like
+>>>naD  naDHa'   commend    discommend
+>>>yuD  yuDHa'   dishonest  honest
+>>
+>>Dishonesty may be a default too. Odd that <voq> is "trust" though...
+>>
+>>>yep  yepHa'   careful    careless
+>
+>
+>An idea: ALL of these, including {voq}, could be the "default," as Qermaq
+>suggests.  Consider a battle (a fairly default Klingon activity).  Liking
+>and being honest are not particularly important in battle. However,
+>trusting and being careful are.  Whether or not this is the actual reason
+>for these alleged defaults, it shows that there might easily be a good
+>reason that {voq} defaults to what we consider a positive term.
+>
+>(Note: disliking and being dishonest may equate with positive terms in
+>Klingon, thus their being "defaults.")
+>
+>SuStel
+
+Learning about Klingon character or mindset by way of studying what Qermaq
+terms "defaults" in vocabulary will probably lead to interesting insights. 
+I think both Qermaq and SuStel are on the right track: {par} "dislike," for
+example, is probably the more neutral or expected reaction of a Klingon to
+someone else; {parHa'} "like" (or, more revealingly, "not dislike" or
+"undislike" or "misdislike"  or even "disdislike" [?!], since it's made up
+of {par} "dislike" plus {-Ha'}, the negative suffix implying that something
+is undone or done wrongly) is a modification (an undoing?) of this expected
+reaction. 
+
+It may be that not everything has a default.  Note, for example, {QuchHa'}
+"be unhappy" and {'IQ} "be sad."  These two words don't mean quite the same
+thing: {QuchHa'} is made up of {Quch} "be happy" plus the negative suffix
+{-Ha'}, suggesting a change from being happy to not being happy. {'IQ} does
+not have this connotation, nor does {Quchbe'} "be not happy" (or, if you
+prefer, "not be happy").  Nevertheless, is the default in this pair {Quch}
+"be happy" or is it {'IQ} "be sad"? 
+
+On the other hand, when the only way to express a certain idea is by
+modifying a word (for example, by adding a suffix) rather than using an
+entirely different word, perhaps one can argue that the nonmodified word is
+the default.  Thus, the only (known) way to express the opposite of {par}
+"dislike" is by adding a negative suffix to {par}.  Unlike {QuchHa'} "be
+unhappy" and {'IQ} "be sad," there's no choice when it comes to "like";
+you've got to use a word based on {par}: {parHa'}.  It appears that the
+only kind of "like" there is is the "undoing" or "misapplication" of
+"dislike."  (Of course, you could also say {parbe'} "like" or, more
+literally, "not dislike,"  using the negative suffix {-be'} "not"; but
+{parbe'} is also based on {par}.  {parHa'} is heard more frequently than
+{parbe'}, however, and this may be a hint at the usual way a Klingon looks
+at things.) 
+
+Interestingly (and bolstering the idea that "dislike" is a default),
+there's also the word {muS} "hate" (which is presumably stronger somehow
+than {par} "dislike").  It also has no known opposite except for the
+suffixed forms:  {muSHa'} "dis-hate" or "unhate"; {muSbe'} "not hate." 
+
+
+===========================================================================
+
+
+From: Marc Okrand <mokrand@erols.com>
+Newsgroups: startrek.klingon
+Date: Mon, 2 Mar 1998 22:53:45 -0500
+Subject: Re: -be', -Ha'
+
+
+TPO wrote....
+>par  parHa'   dislike    like
+>naD  naDHa'   commend    discommend
+>yuD  yuDHa'   dishonest  honest
+>yep  yepHa'   careful    careless
+>
+>etc etc
+>
+>but then we have:
+>
+>Qoch  Qochbe'  disagree  agree
+>
+>why not  QochHa'
+
+The short answer is that we *can* have QochHa', it's just not listed in the
+Dictionary.  As I wrote elsewhere (in the old MSN newsgroup, but repeated
+in another thread in this newsgroup), for the most part, words in The
+Klingon Dictionary consisting of verb + suffix are there as a matter of
+convenience.  That is, if you want to look up how to say "misinterpret,"
+it's there -- {yajHa'}.  {yajHa'} consists of {yaj} "understand" plus the
+negative suffix {-Ha'} "undo," and, even though {yajHa'} is an entry in the
+Dictionary, there is nothing to prevent other suffixes, including the other
+negative suffix {-be'}, from following {yaj}.  Thus {yajbe'} is a perfectly
+well-formed word meaning "not understand." 
+
+Because there is a meaning difference between the two negative suffixes
+(for sake of brevity, {-Ha'} suggests doing or being something in the wrong
+way or undoing something; {-be'} suggests simply not doing or not being
+something), there is a meaning difference between {yajbe'} and {yajHa'}. 
+The first word implies the absence of understanding ("not understand"); the
+second implies that any understanding that there may have been was
+imprecise or askew or not properly done ("misunderstand, misinterpret"). 
+
+Which brings us to {Qochbe'} and {QochHa'}.  Both consist of the verb
+{Qoch} "disagree" plus a negative suffix.  Parallel to the example above
+with {yaj} "understand,"  {Qochbe'} implies an absence of disagreeing
+(hence "agree"); {QochHa'} implies that any disagreeing was misplaced or
+misconstrued or perhaps has been "undone."  English lacks a simple way to
+say this.  (At least I couldn't think of one; if anyone has any
+suggestions, I'd be interested in seeing them.)  Made-up words like
+"misdisagree" or "undisagree" may get the idea across, but they're hardly
+elegant (unlike Klingon {QochHa'}, which is elegance itself). 
+
+Now this raises another question, slightly different from the original one:
+If both {Qochbe'} and {QochHa'} are acceptable Klingon words, why is one in
+the Dictionary and the other not?  For better or worse, the Dictionary is a
+"one size fits all" sort of work.  It's for those who want to study the
+language in depth (though it is far from exhaustive), but also for those
+who want a quick reference (How do you say "agree"?).  Since "agree" (that
+is, "not disagree") is probably going to be said more frequently that
+"misdisagree" (or a more felicitous equivalent), it got to be listed. 
+Similarly, {naDHa'} "discommend" is listed due to its importance in Klingon
+culture, though {naDbe'} "not commend" is a properly formed word. 
+
+
+===========================================================================
+
+
+From: Marc Okrand <mokrand@erols.com>
+Newsgroups: startrek.expertforum
+Date: Mon, 2 Mar 1998 00:27:06 -0500
+Subject: Re: Problem with {-meH} and negative meanings
+
+>Guy Vardaman wrote ...
+>>Marc, have you determined types of accents for Klingon language (for
+>>example, if Worf consistently pronounces his eh' sound differently than
+>>you do, is it consistent enough to consider it a dialect from a
+>>particular province? or a type of accent?) It would seem that you'd have
+>>heard a variety of similar mis-pronouncements from different Humans
+>>attempting the "Language of Warriors." 
+>>Well, I'm going to refrain from saying more before I show my ignorance
+>>of the language. One last thing along those lines though, could we talk
+>>about the difference between upper and lower case (as used in the Daily
+>>Klingon Language lesson)?
+
+Well, SuStel got to this before I did.  Not surprisingly (given his
+expertise in the language), much of what he said is what I would have said
+anyway. 
+
+David Trimboli wrote ...
+>I'm not Marc, but I do know the answer to this.  We now have
+>startrek.klingon, which is for the discussion of the Klingon language.
+>
+>Several Klingon dialects based on region or planet are described in Marc
+>Okrand's latest book, Klingon for the Galactic Traveler. There are also
+>generational and societal differences.
+
+[I've taken pieces of the original posting out here, just to make this one
+shorter.]
+
+>In Star Trek VI, we actually get to hear the Morskan
+>dialect INTENTIONALLY.
+
+This is true.  The original script for "Star Trek VI"  (well, the earliest
+version that I saw, anyway) had the English translations for the lines
+spoken by the Klingon at the Morska listening post in a peculiar kind of
+English to show that it was a different way of speaking.  As the filming
+proceeded, the character changed somewhat so that he became an inattentive
+Klingon rather than merely a Klingon from some different region, but we
+kept the nonstandard dialect anyway.  (So he became an inattentive Klingon
+from a part of the Empire we've not heard much about.) 
+
+>The letters used to represent Klingon are there to tell you the SOUNDS of
+>Klingon.  It's a transcription system.  Typically, certain letters are
+>capitalized to remind you that they are pronounced differently than they
+>would be in English.  For instance, {H} is not English "h," it's like the
+>German "ch" in the name "Bach."  {D} is not English "d," it's a retroflex
+>{D}.  That is, instead of putting your tongue just behind your top teeth,
+>you point the tongue straight up and touch the roof of your mouth, then say
+>a "d."  And so on.
+>
+>In one case, the capitization actually represents a different sound.  {q}
+>and {Q} are different sounds.
+>
+>See the first section of The Klingon Dictionary for a complete listing of
+>symbols used for writing the sounds of Klingon.
+
+All well said.  Let me elaborate just a bit.  The system used to transcribe
+Klingon, making use of letters from the English (well, Roman) alphabet, was
+devised so that the reader would have some notion of how to pronounce the
+words.  Since the system was originally developed as a guide for
+English-speaking actors (and then retained for English-speaking readers of
+the Dictionary), most of the letters represent the same sound that they
+represent in English.  Thus {b} is the same as "b" in "boy," {t} is like
+"t" in "toy," and so on. 
+
+But, as SuStel points out, there are some sounds in Klingon that do not
+occur in English (or have no standard ways to be represented by English
+letters), so a way was needed to write each of them.  This was handled by
+various means: 
+
+(1) In one case, the letter {q} was used to represent a sound sort of like
+English "k," but made farther back in the mouth.  In English words, "q" is
+always followed by "u"  (and then by another vowel) and the combination of
+the two, "qu," is pronounced like "kw."  (Words taken into English from
+other languages don't necessarily follow this pattern;  e.g., "quiche.") 
+Since "q" without its companion "u" isn't used in English (except in a few
+words of foreign origin), it was available to represent a non-English sound
+in Klingon.  And since "q" in English represents the "k" part of the "kw"
+sound, it was a good candidate to represent a "k"-like sound in Klingon. 
+{q} rather than {k} was chosen for this Klingon sound so that the reader
+would be aware that it's a sound different from "k." 
+
+(2) In two cases, a combination of letters which does not occur as such in
+English was used: {tlh} and {gh}. 
+
+(3) In one case, a symbol used in English writing, though, properly
+speaking, not a letter itself, was used for a sound: {'}, the apostrophe. 
+This is a "glottal stop" -- a quick pause in vocalization which occurs, for
+example, in between the two syllables in English "uh-uh" (meaning "no"). 
+
+And finally, since this is what the original question was about: 
+
+(4) In all other cases of non-English sounds, capital letters were used. 
+SuStel mentions {D}, {H}, and {Q};  another is {S}. 
+
+There is one other capital letter used in Klingon: {I}.  This represents
+the very English sound written with "i" in "sit."  In Klingon, {I} was
+chosen for this sound (rather than {i}) to help ensure that it would not be
+pronounced like the "i" in "mine" or in "machine." 
+
+(The other vowels in Klingon, {a}, {e}, {o}, and {u}, can be read with the
+values they have in Romance languages like Spanish.  But Romance/Spanish
+"i" is not the same as Klingon {I}, which is why the Klingon vowel gets
+singled out for capitalization.  [Actually, Klingon {e} and Spanish "e"
+aren't the same either, but they're close enough for this discussion.]) 
+
+It's important to remember that this system of transcribing Klingon with
+the weird letter combinations (like {tlh}) and capital letters is just
+that: a transcription.  It's a way to represent in writing the sounds of
+the spoken language.  And it's done so that a reader will have a reasonable
+shot at getting it right.  It's not the official Klingon way of writing! 
+The way Klingons write their own language is with a set of characters
+(called {pIqaD}) that you've seen on control panels and viewscreens and
+doorways in various episodes and films.  The Roman-letter transcription is
+a crutch for those of us who can't read {pIqaD}. 
+
+I got a little long-winded here.  But hope this helps.
+
+  - Marc
+
+
+>See the first section of The Klingon Dictionary for a complete listing of
+>symbols used for writing the sounds of Klingon.
+>
+>SuStel
+>Stardate 98153.8
+>
+
+[[eof]]

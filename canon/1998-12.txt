@@ -1,0 +1,541 @@
+[2000­08­27] OCR scanned by Zrajm C Akfohg.
+
+"Interview with Marc Okrand", from *{HolQeD} 7:4*, pages 2-12
+Article by Lawrence Schoen, December 1998
+Klingon Language Institute, Flourtown, PA
+ISSN 1061­2327
+
+
+Interview with Marc Okrand
+
+Trying to pin Mare Okrand down for an interview is almost as difficult as
+going after Maltz himself. The following exchange began as a discussion
+between Lawrence Schoen and Will Martin back in April, and resulted in a
+compelling list of thirteen questions. This list was presented to Okrand
+during a convention in May. Months passed before Okrand's and Martin's
+respective schedules coincided. Finally, over a dinner in mid­November, they
+were able to meet and converse. Maltz was nowhere in sight.
+
+WM: The one area that Klingonists have the most arguments about that
+    we can't resolve is transitivity of verbs. Are there any guidelines?
+
+MO: I would not say there are any guidelines. Some verbs can take one
+    noun. Some take two. And it does not necessarily fall the way that
+    English falls. The way the dictionary is put together is not really
+    helpful the way the definitions are written.
+
+WM: Right. Like {Dub} - "improve."
+
+MO: Right, although now we know from usage. The best way to know
+    this is from usage because when I made the dictionary, frankly, it
+    never occurred to me to put transitive or intransitive or whether
+    that was a relevant term in the first place. Usage is the way to go.
+
+    There are some verbs that I've used that by the one or two word
+    definition in the dictionary are intransitive and I've used them
+    transitively. It makes it more interesting, making Klingon more
+    different from English. For example, I've used the word {yIn}
+    transitively. "You live a Klingon life." That's perfectly acceptable in
+    Klingon. It's perfectly acceptable in English, too, but it is not
+    obvious from the short definition in the dictionary that that would
+    be an okay thing to do.
+
+    So you are right. You can't tell just by looking at the definition,
+    unless we went through and said, "Okay, this one you do this way
+    and that one you do that way..."
+
+    The other tricky thing is some people say you can put any prefix on
+    any verb. I suppose that you can, but just because you can doesn't
+    mean that you should. It doesn't mean that if you did that it would
+    be understood by everybody the way that you intended. But I think
+    it's fair to say that however it works, it is not necessarily the way
+    English works. Just because the English definition is X doesn't mean
+    that the Klingon word has to work the same way. The best way to
+    deal with all this is to examine usage...
+
+WM: ...some of which we have to wait for.
+
+MO: Yes. That's partly because Maltz doesn't want to paint me into a
+    corner.
+
+WM: I see that you need to strike a balance between restricting yourself
+    by making unnecessary claims about the language that do not
+    ultimately prove to be accurate and giving people enough
+    information, especially about particular verbs that are problematic
+    so that people can feel more confident about what they are doing
+    with the language. I think about verbs like {vIH} - "move, be in
+    motion," which, depending on which way you see it, you could
+    believe that the word "move" is there just to help you look it up.
+
+MO: A lot of the definitions are there just to help you look them up.
+    We're not just talking about transitivity. In general a lot of things
+    are there because if I'm looking for a word in Klingon, I've got to
+    have an English tag so I can find it. The best definition might not be
+    a good tag. Once you find the tag, then you can hopefully find the
+    better definition.
+
+WM: That makes sense with {vIH} in particular because "be in motion" is
+    not necessarily something that you could look up. But "move"
+    would.
+
+MO: Right.
+
+WM: People have interpreted that to mean both "move" and "be in
+    motion."
+
+MO: I'll tell you what the intent was. The intent was "be in motion."
+
+WM: So if I were to say, "I move this glass," it would be {HIvje'vam
+    vIvIHmoH}.
+
+MO: Right. Though, again, down the road... What I've learned is to never
+    say never.
+
+WM: One might eventually find oneself having used it without {­moH}.
+
+MO: Right. But you can say, "Usually..."
+
+WM: Okay, then in terms of "usually" could you address the best use of
+    {tlhob}?
+
+MO: What I intended to do with {tlhob}, though not necessarily what I
+    intended to do with {tlhob} when I first wrote the dictionary... The
+    language has evolved from what I set out to do for the movie to
+    what I set out to do for the dictionary to what I set out to do for... It
+    keeps changing.
+
+    But what I wanted to do with {tlhob} and {ghel} is to distinguish
+    between two different meanings for the English verb "ask." There
+    are two "ask's." There's the "ask" where you ask a question and
+    there's "ask" where you make a request. I wanted it to be two
+    different verbs, though apparently there are times when the
+    "request" verb is used to ask a question as well. [<PK>: {lutlhob
+    naDevvo' vaS'a'Daq majaHlaH'a'?}] So maybe the way it works is
+    that {ghel} can ask a question and only ask a question and the other
+    one can mean that and is also use to request or plead or something
+    like that.
+
+WM: And particularly, since the word {tlhob} was there longer, perhaps the
+    need for {ghel} was there before the word {ghel} was there.
+
+    I see something interesting in terms of the use of {tlhob} as the
+    second verb in a Sentence As Object construction and also the verb
+    {SIv}, which was really interesting.
+
+MO: That one, yes. I've wondered about that a lot. I spent a good chunk
+    of one summer, one or two summers ago, - I'm not trying to make
+    a pun here, but - wondering about how that works. How do you say,
+    "I wonder." I was going around asking people, "How do you say, 'I
+    wonder who's kissing her now?'" after that song. I was getting
+    utterly confused about how to do it. I was trying to figure out what's
+    the best way to do it in Klingon and I don't have an answer. But
+    that's a really good question. I'm not sure what to do with that. The
+    other ones I'm more comfortable with, but I'm having trouble
+    figuring out the semantics of it in English, much less in Klingon.
+
+    The other verbs of speech, I feel better about.
+
+WM: Do you see a division about which ones would be appropriate used
+    as verbs of speech?
+
+MO: Very few. Verbs of speech are "say" verbs, like {jatlh} and {ja'}.
+
+WM: In English, we use many of them.
+
+MO: Yes. In English, we say, "Give me some water," he said. "Give me
+    some water," he pleaded. "Give me some water," he yelled.
+
+WM: He added. He begged. He opined.
+
+MO: Exactly. I think that's an English thing to do. That's not a Klingon
+    thing to do. In Klingon, you {jatlh} and you {ja'}. That's about it. The
+    guard asked the prisoner a question. He replied. He said, "[gestures a
+    quotation he never quite made]"
+
+    <[After the interview, I made the following three lines of examples to show
+    how this worked:
+
+    {qama' yu' 'avwI'. jatlh Qu'lIj DarIn'a'?}
+
+    {avwI' jang qama'. jatlh tugh. vIrInmeH taj vIpoQ.}
+
+    {mon 'avwI'. jatlh chotojmeH bInIDchu'ta'.}
+
+    Dr. Okrand modified one sentence and said he accepted them as valid, but
+    wanted it noted that they were my sentences and not his, in his words, "a
+    suggestion by you, okayed by me." - WM]>
+
+WM: So, basically, in Klingon, you would just use {jatlh} a lot. If someone
+    is asking a question, would you state the question and say {jatlh}?
+
+MO: If it's a direct quotation, I would. Yes. If it's an indirect question...
+    How would you do indirect quotation?
+
+WM: Is there such a beast as indirect quotation in Klingon?
+
+MO: That's a good question.
+
+WM: Would that be something handled with the pronoun {'e'}?
+
+MO: It could.
+
+WM: In the example where you used that with the verb {tlhob} it was such
+    an example that because of the person and number of the subject
+    and object, you couldn't tell if it was a direct or indirect quotation.
+    Since it had the {'e'} it wasn't technically a quotation at all. That was
+    the reason I was drawn toward the concept that it would be an
+    indirect quotation. It was the "I asked you command this ship..."
+
+MO: That's not a quotation at all. That's just an "I ask you to do
+    something."
+
+WM: That's kind of what I think of as an indirect quotation, "I ask you to
+    do that."
+
+MO: If that's how you are defining it, that's fine. I have no problem with
+    that. An indirect quotation the way I'm thinking of it, I'm not sure
+    it is a technical term. "The person had said he would show up this
+    afternoon," The direct quotation would be, "The person said, "I will
+    show up this afternoon."
+
+WM: You can tell the difference in that because of the difference in
+    person.
+
+MO: Right. But if I'm referring to me, and I say, "The person said I will
+    show up this afternoon," then, which is that?
+
+WM: Well, you have to know which you are saying. But in an example
+    like, "I ask you to command the ship and..."
+
+MO: It doesn't matter again. I wouldn't call that an indirect quotation in
+    the way that I'm using it now. Maybe this is a clearer example of an
+    indirect quotation: "The warrior said the bloodwine was cold"
+    (which, in English, could also be "The warrior said that the
+    bloodwine was cold").
+
+WM: Okay.
+
+MO: The way I see I see the verbs of speech, there may be more than just
+    {ja'} and {jatlh}, but there is only a small number of words, unlike
+    English. You have to use a separate sentence for the replying,
+    pleading, screaming. "He screamed. He said, 'Come help me.'"
+
+WM: Since a direct quotation grammatically looks like two separate
+    sentences, you are saying that it would now look like three separate
+    sentences at that point. You'd have one describing what style of
+    verbalization he was having, one saying "he said" and one giving
+    the quotation.
+
+MO: Yes.
+
+WM: Very interesting.
+
+    While I feel that any examples that exist deserve respect and are
+    certainly what we have to go by, I don't feel like you should
+    perpetually be bound to every utterance because you wind up with
+    one of two things happening. Either you become overly restricted in
+    your ability to use the language, or the language becomes very
+    confusing because there is so much splintering because everything is
+    equally...
+
+MO: Well you have to remember that it is a spoken, living language.
+    What we say in English and what we write in English is not
+    necessarily the same thing. Klingon is the same way. What people
+    say and what people say they say is not necessarily the same thing.
+    There's kind of an ideal way of doing it and people have different
+    ideas about what is permissible and what is not permissible. Maybe
+    there's some old stick­in­the­mud who says "No" and someone else
+    says, "No, that's alright. There's nothing wrong with that."
+
+    And the course to follow for a student probably falls somewhere
+    between. You don't want to go too fast and loose or too far afield
+    because then nobody will understand what you are doing. You
+    won't have any rules at all. You don't want to be too rigorous,
+    either. It's not math.
+
+    One of the things that I think about when I read what people have
+    to say about Klingon sometimes is when someone argues that things
+    have to be one way, I think, "No, it shouldn't always be like that."
+    It should be like that in maybe 75% or 80% of the cases, but not
+    100%. Languages don't work that way. Maybe Vulcan does, I don't
+    know.
+
+WM: It would be a good candidate for it.
+
+    I know that I've been, myself, more of a formalist in that my own
+    interest has been less in encoding English sentences into Klingon
+    and say, "There! It's done!" than it is to create something that, once
+    it is in Klingon, anyone who knows the language would then be
+    able to understand it well. I feel like the burden is on the person
+    moving the thought into the language instead on the person who is
+    supposed to be able to figure out whatever it is I just said.
+
+MO: Right.
+
+WM: Just to mention particular verbs in terms of whether they can be
+    used for speech or not, you are saying that {ghel} is a word that
+    would probably not be used typically as a verb of speech. That even
+    if you are asking a question you would still tend to use {ja'} or {jatlh}.
+
+MO: Yes. "He asked me. He said, 'blah, blah, blah.'" Or "He said, 'blah,
+    blah, blah.' He asked me." It doesn't matter.
+
+WM: {jang} - "answer" would be similar?
+
+MO: Yes.
+
+WM: And {tlhob} would similarly be...
+
+MO: {tlhob} also has the non­quoting sense.
+
+WM: Things you would unlikely use for speech are {bach}, {chel}...
+
+MO: {bach} is slang. The rules might be a little bit different. For non­
+    slang...
+
+WM: {chup} "suggest." {jach} "cry out." {SIv} "wonder."
+
+MO: I've got to figure out what to do about "wonder." That summer, the
+    more I thought about it the more confused I got.
+
+WM: Are there any other verbs of speech that you would care to
+    comment on?
+
+MO: Are there any other verbs of speech?
+
+WM: And a typical direct object of {ja'} would be the person addressed and
+    a typical object of the verb {jatlh} would be the thing you say.
+
+MO: The speech event.
+
+WM: I like that term.
+
+MO: Including a direct quote. I'm telling a story. He "blah, blah, blah"
+    {jatlh}.
+
+WM: You've already mentioned about some special relationships between
+    verbs and direct objects in Klingon that would not necessarily be
+    typical to English, for example {ghoS}...
+
+MO: {ghoS} is a very interesting verb.
+
+WM: Oh boy. Is it. My personal sense of {ghoS}, just trying to figure out
+    what in the world all those different definition segments are
+    pointing towards, is that {ghoS} would be to follow a path associated
+    with the direct object.
+
+MO: Yes. That's good. I've never heard it phrased that way, but that's
+    good.
+
+WM: So, typically, the most common thing you'd associate with a path is
+    its destination, but it doesn't have to be. It could be its source.
+
+    Now, the usage that I've seen most commonly is that we'll use just
+    the noun if it is the destination, but we'll use {­vo'} on the noun
+    when we are moving away from it. Would that be typical Klingon
+    usage?
+
+MO: Yes. The short answer is yes. [Trademark mysterious smile.]
+
+WM: You said that you can't always judge by the definitions as given,
+    that you can't always tell as to whether something can be transitive
+    or not. There are certain things that are very similar to {ghoS} that
+    some of us are very tempted to use in a similar way. Things like {bav}
+    - "orbit."
+
+MO: Yes. I would do that.
+
+WM: Then there are some that some people are tempted to, and others
+    really don't like, like {jaH} - "go."
+
+MO: Here's the way {jaH} works. {jaH} can be used, using your terminology
+    both transitively and intransitively. So, {bIQtIqDaq jIjaH} is "I go in
+    the river."
+
+    I'm moving along in the river, traveling in the river. You can also
+    say {bIQtIqDaq vIjaH}...
+
+WM: You'd still use the ­Daq?
+
+MO: Yes. But you don't have to. That would be the way. {­Daq} or no
+    {­Daq}. The prefix makes the difference in meaning. {jI­} means I'm
+    moving along in someplace. {vI­} means I'm moving along to
+    someplace. You cannot say {bIQtIq jIjaH}.
+
+WM: At that point, {bIQtIq} has no function in the sentence.
+
+MO: Right.
+
+WM: {bav}
+
+MO: You don't need a {­Daq}. Just use whatever it is that you are orbiting.
+
+WM: {Dech} - "surround."
+
+MO: Same thing.
+
+WM: {ngaS} - "contain."
+
+MO: Same thing.
+
+WM: {vegh}
+
+MO: [laughs] Yes. "To go through." Same thing.
+
+WM: {'el} - "enter."
+
+MO: Same thing. Now, if you did say {pa'Daq vI'el} "I entered into the
+    room," you could say, well, that's overkill, but that's okay.
+
+    It's not like, "Oh, my God, I don't understand you," but you don't
+    need that.
+
+WM: In the dictionary, you said that {ghoS} could be used either with or
+    without {­Daq} but it would be somewhat marked with the {­Daq}. Is
+    this true for {jaH} as well?
+
+MO: Less marked? Yes, the same, with the {vI­}, not with the {jI­}.
+
+WM: {leng} - "roam, travel."
+
+MO: {leng} works like {jaH}. These are all okay:
+
+    {yuQ vIleng} or {yuQDaq vIleng}
+    I travel to the planet
+
+    {yuQvo' jIleng}
+    I roam away from the planet
+
+    {yuQDaq jIleng}
+    I roam (around/about) on the planet
+
+    This is not okay: {yuQ jIleng}
+
+WM: {paw} - "arrive."
+
+MO: Again, just like {jaH}, it depends. {Duj vIpaw} means "I arrive at the
+    ship;" {DujDaq jIpaw} means "I arrive on the ship," that is, I arrive
+    via the ship or something like that. And it would probably be okay
+    to say {DujDaq vIpaw} for "I arrive at the ship." But {Duj jIpaw}
+    strikes me as odd.
+
+WM: If you think of any other {ghoS} like verbs... Those were the only
+    ones I could come up with.
+
+    Two other verbs that are interesting in terms of whether you would
+    use {vI­} or {jI­} are {Sum} and {Hop}. Like {raS vISum} or {raS vIHop}.
+
+MO: Okay. This opens up a whole new issue. You see, there's this thing
+    called "deixis." This is the idea that an utterance is made at a
+    specific time and place, and certain words or grammatical elements
+    are interpreted correctly only by reference to that time and place.
+    So the same word may refer to a different real­world thing
+    depending on who's speaking, where, when, and so on. Like in the
+    statement "I am here," where is "here?" It has to do with where you
+    are when you make the statement. And who is "I?" "I" is Marc if I
+    say it; it's Will if you do.
+
+WM: And when somebody writes that on a blackboard and then walks
+    away. It was true when it was written, but later...
+
+MO: Yes. It's like the sign in a store window that says "Back in one
+    hour." If there's no indication of when the sign was put up, how do
+    you know how long to wait? It's the same in regular conversation.
+    You don't speak in a vacuum. There are elements in the speech
+    situation to let us interpret utterances correctly. Usually, anyway.
+
+MO: Using the verbs {Sum} and {Hop} involves this concept.
+
+WM: So I could not say {raSvam vISum} to say, "I am near the table."
+
+MO: No. You'd just say {Sum raS}. The verb {Sum} implies that the speaker
+    is the one the subject is near at the time of speaking.
+
+    {Hop jabwI'}.
+    The waiter is far <from me> right now.
+
+WM: Well, that resolves the conflict otherwise created if they could take
+    objects. It keeps them stative, so you can say, {HIvje' Sum yItlhap}.
+
+MO: Yes.
+
+WM: Otherwise, they'd be the only verbs we'd sometimes use as
+    adjectives and other times use transitively.
+
+MO: Take an object. Yes.
+
+WM: So, could that deictic anchor be shifted by using an indirect object?
+    Like if I wanted to say, "You are near the table," could I say {SoHvaD
+    Sum raS}?
+
+MO: No. You'd use {­Daq}: {SoHDaq Sum raS}. This throws the orientation
+    away from the speaker (unmarked, unstated) and to the listener
+    (marked, stated: "at you, where you are"). But you don't always
+    need to state this overtly. Context is critical. For example:
+
+    {qagh largh SuvwI' ghung. Sum qagh 'e' Sov.}
+    The hungry warrior smells the gagh.
+    He/she knows the gagh is nearby.
+
+    The only interpretation of this (absent other information) is that the
+    warrior knows the gagh is near the warrior, not the warrior knows
+    the gagh is near the speaker of the sentences. If context isn't clear,
+    you can clarify:
+
+    Question: {Sum'a' raS?}
+              Is the table near (me)? (Am I near the table?)
+
+    Answer: {HIja'. Sum raS.}
+            Yes. The table is near (you).
+    or
+    Answer: {ghobe'. jIHDaq Sum raS.}
+            No. The table is near me.
+
+WM: And could I say {maSumchuq}?
+
+MO: No. You'd just say {bISum} or {SuSum}. If you haven't, in the course of
+    the conversation, set things up otherwise, it's assumed that the
+    event being talked about is taking place where the speaker is. In fact,
+    {jISum} alone probably would make no everyday sense to a Klingon.
+    "I am near me." But it does have an idiomatic philosophical sense,
+    something like "I'm in touch with my inner self" (but in a Klingon
+    sort of way, of course).
+
+WM: Okay. Let's move on to verbs that seem to require a plural subject,
+    like {nIb} - "be identical."
+
+MO: Yes. {nIb HIvje'vam HIvje'vetlh je.} Both things have to be subject.
+
+WM: And {rap}?
+
+MO: It's the same. No pun intended.
+
+WM: {paw'}?
+
+MO: Same.
+
+WM: {ngeQ}?
+
+MO: No. {ngeQ} is completely different. {ngeQ} has one innocent party.
+
+WM: {qIH}? You've used {ghom} both as {maghom} and as {qaghom}. We were
+    wondering if {qIH} worked the same way.
+
+MO: No. It would be {maqIHchuq}.
+
+WM: And {ghom} is different.
+
+MO: Yes. {ghom} can be used either with or without an object, but {qIH}
+    would always have an object. Well, I guess I should never say
+    "always." The intent with {qIH} is that it should have a direct object
+    or {­chuq} in normal usage.
+
+WM: {quq}?
+
+MO: "Happen simultaneously." That's an interesting one. Yes, I think
+    that requires a plural subject and no object. Something like "This
+    answer and the end of this interview {quq}."
+
+WM: {yajchu', qaH!}
+	
+[[eof]]

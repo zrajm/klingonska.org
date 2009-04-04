@@ -1,0 +1,259 @@
+From: "Marc Okrand" <MarcOkrand@msn.com>
+Newsgroups: msn.onstage.startrek.expert.okrand
+Date: 29 Jun 1997
+Subject: Re: Some quick questions...
+
+
+Neal Schermerhorn <neal413@msn.com> wrote in article
+<01bc8033$1d3dad40$88472399@dtorvtwg>...
+
+> I have a few unrelated questions for Dr. Okrand.
+
+I'll take these up one at a time (in separate responses).
+ 
+> 1) Does qajatlh mean anything? Some feel this is poor grammar. I'm not
+> sure what to think. Can jatlh take an object other than a language?
+
+The object of  jatlh "speak" is that which is spoken.  Thus, it's OK to say
+"speak a language," for example:
+
+        tlhIngan Hol Dajatlh "you speak Klingon"
+        (tlhIngan Hol "Klingon language," Dajatlh "you speak it")
+
+But it's also OK to say "speak an address, speak a lecture," for example:
+
+        SoQ Dajatlh "you speak an address" or, more colloquially, "you
+        deliver an address" or "you make a speech"
+
+        (SoQ "speech, lecture, address," Dajatlh "you speak it")
+
+To say simply:
+
+        jatlh "he/she speaks"
+
+implies "he/she speaks it," where "it" is a language or a lecture or
+whatever.
+
+The indirect object of jatlh, when expressed, is the hearer/listener.
+Thus:
+
+        qama'pu'vaD tlhIngan Hol Dajatlh "you speak Klingon to the prisoners"
+        (qama'pu'vaD "for the prisoners," tlhIngan Hol "Klingon language,"
+        Dajatlh "you speak it")
+
+        qama'pu'vaD SoQ Dajatlh "you make a speech to the prisoners"
+        (qama'pu'vaD "for the prisoners," SoQ "speech, lecture, address,"
+        Dajatlh "you speak it")
+
+When the indirect object (in this case, the hearer) is first or second
+person, the pronominal prefix which normally indicates first or second
+person object may be used.  There are other examples of this sort of thing
+with other verbs.  For example, someone undergoing the Rite of Ascension
+says:
+
+        tIqwIj Sa'angnIS "I must show you [plural] my heart"
+        (tIqwIj "my heart," Sa'angnIS "I must show you [plural] it")
+
+The pronominal prefix in this phrase is Sa-, which means "I [do something
+to] all of you" in such sentences as:
+
+        Salegh "I see you [plural]"
+
+but when there's already an object (in this case, tIqwIj "my heart"), the
+"object" of the prefix is interpreted as the indirect object, so Sa- means
+"I [do something to] it for you" or the like.
+
+This, then, brings us back to your question.  Since the object of jatlh is
+that which is spoken, and since "you" or "I" or "we" cannot be spoken (and
+therefore cannot be the object of the verb), if the verb is used with a
+pronominal prefix indicating a first- or second-person object, that first
+or second person is the indirect object.
+
+Which is a not very elegant way of saying that qajatlh means "I speak to
+you" or, more literally, perhaps "I speak it to you," where "it" is a
+language or a speech or whatever:
+
+        qajatlh "I speak to you"
+
+        Sajatlh "I speak to you [plural]"
+
+        chojatlh "you speak to me"
+
+        tlhIngan Hol qajatlh "I speak Klingon to you"
+        (tlhIngan Hol "Klingon language," qajatlh "I speak it to you") 
+
+There's another wrinkle to this.  The verb jatlh can also be used when
+giving direct quotations:
+
+        tlhIngan jIH jatlh "he/she says, 'I am a Klingon'"
+        (tlhIngan "Klingon," jIH "I," jatlh "speak")
+
+        jatlh tlhIngan jIH "he/she says, 'I am a Klingon'"
+
+(With verbs of saying, such as jatlh, the phrase that is being said or
+cited may come before or after the verb.)
+
+If the speaker is first or second person, the pronominal prefix indicating
+"no object" is used:
+
+        tlhIngan jIH jIjatlh "I say, 'I am a Klingon'"
+        (jIjatlh "I speak")
+
+        tlhIngan jIH bIjatlh "you say, 'I am a Klingon'"
+        (bIjatlh "you speak")
+
+There are instances where the pronominal prefix marks a big distinction in
+meaning:
+
+        tlhIngan Hol Dajatlh "you speak Klingon"
+        (tlhIngan Hol "Klingon language," Dajatlh "you speak it")
+
+        tlhIngan Hol bIjatlh "you say, 'Klingon language'" [that is "you say
+        the phrase 'Klingon language'"]
+        (tlhIngan Hol "Klingon language," bIjatlh "you speak")
+
+I realize that this answer to your "quick" question is probably too quick
+itself.  It is not by any means a complete discussion of the several topics
+mentioned and I may have phrased things not as clearly as they might be
+phrased.  As a result, this answer may end up just raising other questions.
+qay'be'.  We'll get to them as they come along. 
+
+
+===========================================================================
+
+
+From: "Marc Okrand" <MarcOkrand@msn.com>
+Newsgroups: msn.onstage.startrek.expert.okrand
+Date: 29 Jun 1997 
+Subject: Re: Some quick questions... (2)
+
+Neal Schermerhorn wrote...
+> 2) Are there plans to release a complete Klingon Dictionary at any future
+> time? A more complete and easy-to-use Dictionary would be a very popular
+> item, I know. If letters to Simon + Schuster and Paramount would help
+> bring this about, you know you can count on us!
+
+I agree that a "complete" (or at least "as complete as possible") Klingon
+Dictionary would be a good thing to have.  In fact, I'd been mulling over
+something sort of along those lines as a next project for me (and for
+Maltz, of course).  There are currently, however, no official or concrete
+plans to come out with one, but as long as interest in Klingon (language
+and culture and history and so on) remains high (as it certainly is now),
+anything's possible.
+
+
+===========================================================================
+
+
+From: "Marc Okrand" <MarcOkrand@msn.com>
+Newsgroups: msn.onstage.startrek.expert.okrand
+Date: 29 Jun 1997 
+Subject: Re: Some quick questions...(3)
+
+Neal Schermerhorn wrote...
+> 3) Whatever possessed you to not 'pursue' the meaning of qIvon??? If
+> Maltz is awake, maybe you could ask him?
+
+Actually, I tried to "pursue" the meaning of qIvon.  Maltz seemed a little
+reluctant to talk about it.  (I'd say "embarrassed," but that word is
+entirely inappropriate to use in describing a Klingon.)  The next time the
+bloodwine is flowing freely, I'll try to remember to bring it up again. 
+But I've noticed that, for me, anyway, bloodwine and memory don't mix.
+
+
+===========================================================================
+
+
+From: "Marc Okrand" <MarcOkrand@msn.com>
+Newsgroups: msn.onstage.startrek.expert.okrand
+Date:  29 Jun 1997 
+Subject: Re: Tonight, this morning, etc.
+
+> Will Martin <charghwi@msn.com> wrote in article
+> <01bc7b9b$1f4e3e20$7666c5cd@will>...
+> > Marc,
+> > 
+> > How would you suggest we convey the terms "tonight", "this morning", etc.
+> > I was personally drawn toward sticking to time-centric terms rather than
+> > spacial-centric grammar and say {DaHjaj ram} and {DaHjaj po} rather than
+> > {ramvam} and {povam}, both because they didn't mix concepts of time and
+> > space and because it would naturally be extendable in the form of {wa'leS
+> > ram} or {wejHu' po}, while the use of {-vam} does not have that property.
+> > Meanwhile, in {HeghmeH QaQ jajvam}, you clearly showed that {-vam} works
+> > with time related terms.
+> > 
+> > So, I'm open. What's your preference?
+> > 
+> > charghwI'
+
+
+Regarding "tonight" and so forth, I'd go along with your suggestion:
+
+DaHjaj ram "tonight" (literally "today night" or "today's night")
+
+DaHjaj po "this morning" (literally "today morning" or "today's morning")
+
+DaHjaj pov "this afternoon" (literally "today afternoon" or "today's
+afternoon")
+
+DaHjaj DungluQ "this noon" (literally "today noon" or "today's noon") 
+
+DaHjaj ramjep "this midnight" (literally "today midnight" or "today's
+midnight")
+
+DaHjaj pemjep "this midday" (literally "today midday" or "today's midday") 
+
+(The phrases "this noon," "this midnight," and "this midday" are a little
+awkward in English -- we'd probably say "today at noon," "tonight at
+midnight," "today in the middle of the day" or something -- but in Klingon,
+they fall right into place.)
+
+In Klingon, you could even say DaHjaj pem "today's daytime," which would
+probably be typically contrasted with DaHjaj ram "today's night" (or
+"tonight").
+
+wa'leS po "tomorrow morning," cha'leS po "the morning of the day after
+tomorrow" (literally "two-days-from-now morning"), and so on work quite
+nicely.
+
+Adding -vam "this" to most words designating fixed periods of time seems to
+be the only way to indicate "current."  Thus the current year or "this
+year" is DISvam (referring, of course, to a Klingon year, or DIS), the
+current month or "this month" is jarvam (jar "[Klingon] month"), and the
+current week or "this week" is Hoghvam (Hogh "[Klingon] week").  There
+don't seem to be special words for "the current year" and so forth
+comparable to DaHjaj "the current day" or "today."  DaHjaj seems to be
+formed of the adverbial DaH "now" plus the noun jaj "day," a unique type of
+formation as far as I know.  It is perhaps by analogy to DISvam, jarvam,
+etc. -- all formed by simply adding a noun suffix to a noun -- that
+Klingons also refer to the current day as jajvam "this day" (jaj "day,
+period from dawn to dawn").
+
+Though they both can be translated "today," DaHjaj and jajvam are not quite
+interchangeable.  As the time element in a sentence, DaHjaj (and not
+jajvam) is used:
+
+	DaHjaj romuluSngan vIHoHpu' "today I killed a Romulan"
+	(DaHjaj "today," romuluSngan "Romulan," vIHoHpu' "I have killed 
+	him/her")
+
+As the subject of a sentence, on the other hand, jajvam is more typically
+found:
+
+	nI' jajvam "this day is long"
+	(nI' "[it] is long [in duration], jajvam "this day")
+
+though DaHjaj is not impossible:
+
+	nI' DaHjaj "today is long"
+	(nI' "[it] is long [in duration], DaHjaj "today")
+
+DaHjaj also behaves as a noun (as opposed to an adverbial element) in such
+noun-noun constructions as  DaHjaj gheD "today prey" or "today's prey," a
+term often heard in Klingon restaurants with a meaning comparable to "catch
+of the day."
+
+Phrases such as jajvam po "this day morning" or "this morning" are not
+common, but they're not ungrammatical either.
+
+[[eof]]

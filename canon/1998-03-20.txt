@@ -1,0 +1,58 @@
+From: Marc Okrand <mokrand@erols.com>
+Newsgroups: startrek.klingon
+Date: Fri, 20 Mar 1998 23:57:37 -0500
+Subject: Re: 'ej and sequence (for Dr. Okrand)
+
+Marc Paige wrote ...
+>There has been some discussion lately about whether or not the conjunction
+><'ej> has or does not have and sequential aspects. I agree with those that
+>say that the sequencial nature of a joined phrases depends on the context of
+>the phrases taken as a whole. This is the same way I treat 'and' in English.
+>Do you have any words of wisdom to settle this dust up?
+
+As far as I know, {'ej} means "and" in the sense of "in addition," "also,"
+"as well as," and the like.  It does not have any temporal or sequential
+implications.  That is, it does not (by itself) mean "and then." 
+
+For example, Klingon {jISop 'ej jItlhutlh} "I eat and I drink" ({jI-} "I,"
+{Sop} "eat,"  {tlhutlh} "drink") means "I eat and also I drink."  It could
+refer to events that occur in alternating fashion (eat some, drink some,
+eat some, drink some more) or, especially in the case of some Klingons,
+events that occur pretty much simultaneously.  It could also mean "I eat
+and then I drink," but it does not necessarily mean that.  If that is the
+intended meaning (and if being a little vague or ambiguous or unclear will
+cause misunderstanding and hence discomfort), additional stuff must be
+added or the whole thing must be rephrased to make the meaning explicit
+(such as {jItlhutlhpa' jISop} "before I drink, I eat" [{-pa'} "before"]). 
+
+Similarly, the most likely interpretation of {jItlhutlh 'ej jIQong} "I
+drink and I sleep" ({Qong} "sleep") is not that I drink in my sleep
+(though it could be used for that if I really did it), but rather simply
+"I drink and also I sleep," a listing of two things I do, presumably (but
+not explicitly) not at the same time. 
+
+Then there's {qaDuQ 'ej bIregh} "I stab you and you bleed"  ({qa-} "I [do
+something to] you," {DuQ} "stab," {bI-} "you," {regh} "bleed").  It
+probably would be used when the stabbing precedes (and is the direct cause
+of) the bleeding.  But it doesn't explicitly say that; it only says "I
+stab you" and it also says "you bleed."  The sequential interpretation
+(and/or the cause-and-effect interpretation)  is due to the way the world
+works.  Or some worlds. 
+
+Since it is possible to say either {jISop, jItlhutlh} "I eat, I drink" or
+{jISop 'ej jItlhutlh} "I eat and I drink"  to refer to the same thing, it
+might seem as though {'ej} is optional.  Grammatically, that's fair to
+say.  In terms of meaning, however, when {'ej} is used, it adds something; 
+it emphasizes or points out some sort of connection between the two events
+-- though not necessarily a temporal one. 
+
+Finally, although I've been referring to "events," the same holds for
+states and conditions and the like.  Thus, {jIghung 'ej jIQeH} "I'm hungry
+and I'm angry" ({ghung} "be hungry," {QeH} "be angry") could be used if
+first I'm hungry and then (whether as a result of the pangs or not) I get
+angry, or if I'm hungry and angry at the same time, or if I waver between
+the two. 
+
+In short, {'ej} is neutral as to time.
+
+[[eof]]

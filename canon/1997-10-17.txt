@@ -1,0 +1,83 @@
+From: "Marc Okrand" <MarcOkrand@msn.com>
+Newsgroups: msn.onstage.startrek.expert.okrand
+Date: Fri, 17 Oct 1997 19:34:45 -0700
+Subject: Re: Klingon Alphabet
+
+I'd love to know more about <pIqaD> as well.  At the risk of shedding very
+little light on the situation, I'll ramble a bit.
+
+I assume the distinction SuStel and Qermaq are making between a "phonic"
+(or "phonical") writing system and a "phonemic" (or "phonemical") one is
+that "phonic" refers to a writing system which indicates all sorts of
+phonetic detail (more, even, than the guides to pronunciation of words in
+English dictionaries provide).  I think I'd use "phonic" more generally.  A
+"phonic" writing system is one based on the sounds of the language (as
+opposed to the grammar or something else).  In such a system, a written
+character could stand for an individual sound (in which case we'd probably
+call the character a "letter" and refer to the writing system as an
+"alphabet"), or it could stand for a group of sounds (typically a
+syllable).
+
+A "nonphonic" (?) writing system would be one in which each written
+character was based on something other than the sound of the word (or part
+of a word or whatever) it represented.  Perhaps each character stands for
+a full word, regardless of the sound.  The system we use to write numbers
+(1, 2, 3, and so on) is of this type.  The character "4" stands for <four>
+in an English context, but for <cuatro> in Spanish and, I suppose, for
+<loS> in Klingon; same meaning (Klingon mathematicians, let us not quibble
+just now), different sounds.
+
+A "phonemic" system is one in which each character represents a distinctive
+sound in a language.  (It's possible to go on at great length about the
+meaning of the phrase "distinctive sound."  For now, let's just say it's a
+sound that speakers of a given language agree is the same sound, even
+though, if instruments were to analyze the specifics, it might be different
+for different speakers or vary depending on surrounding sounds.  English
+speakers agree that the <t> in "stuck" and in "tuck" and in "pats" is the
+same sound, and they also agree it's a different sound from the <d>, say,
+in "duck" and "pads.")  Ideally it's a one-to-one match, that is, one
+symbol represents only one distinctive sound, and any such individual sound
+is represented by only one symbol.  But it often doesn't work out quite
+that way.  Klingon, as luck would have it, is a good example of this.  The
+romanization system commonly used for Klingon is a phonemic one in that
+each distinctive sound of the language has a unique written representation.
+Thus, the sound <j> is always written with a "j" and the letter "j" always
+represents the sound <j> (as in <jej> "be sharp").  But in three cases, two
+(Roman) letters represent a single sound ("ch," "gh," "ng") and in a
+fourth, three letters are used ("tlh").  It didn't have to be this way. 
+For example, rather than using "c" plus "h" for the sound at the beginning
+and end of <chach> "emergency," using "c" alone could have sufficed ("c"
+would be described as a letter representing the sound at the beginning and
+end of the word for "emergency"); "emergency" would then be romanized as
+<cac>.  Anyway, if we look upon these four combinations ("ch," "gh," "ng,"
+"tlh") as if they were four individual symbols (as opposed to combinations
+of six Roman alphabet letters), then the Klingon romanization system can be
+said to be phonemic.
+
+(There's a good reason that "ch," rather than "c" alone, was chosen for
+that sound in the romanized version of Klingon; likewise "tlh" rather than,
+say "L," and so on.  But that gets us off the subject.)
+
+So the Klingon romanization system is a phonemic system, but what about
+<pIqaD>?  How, exactly, does <pIqaD> work?  I'm not sure.  Mike Okuda (who
+puts the characters on various control panels and other displays for the
+various Star Trek series and movies) and I have discussed it.  We're pretty
+sure it's not an alphabet (and it's therefore not phonemic in the way the
+romanized version is), but we don't know the details.  Prodding of Maltz is
+definitely in order here.
+
+There is no problem with <pIqaD> being used for the various dialects,
+regardless of how it works, because it does not necessarily work the same
+way (or, better, the details are not necessarily the same) for all of the
+dialects.  Since the system has been around for a long time (if Kahless
+was literate, he was literate in <pIqaD>), it could provide some insights
+into earlier stages of the language. The rules for mapping the old
+pronunciations represented by the <pIqaD> writing conventions onto the new
+pronunciations surely differ for the different dialects, but the rules --
+with varying degrees of complexity, to be sure -- certainly work. 
+
+I agree with SuStel.  Once we know the details of <pIqaD>, I'm sure we'll
+find it a more interesting system than the romanization system we're all
+used to.  
+
+[[eof]]

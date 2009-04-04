@@ -1,0 +1,251 @@
+From: Marc Okrand <mokrand@erols.com>
+Newsgroups: startrek.expertforum
+Date: Sunday, January 18, 1998 05:35 PM
+Subject: The Klingon language and this forum
+
+
+Hello to everyone.
+
+After coping with some fascinating (for some) computer problems and then
+working out the switch from the old MSN Klingon language forum to this new
+newsgroup, I am finally up and running.
+
+I've read the messages about whether discussions on the Klingon language
+should be in this newsgroup or in a separate one.  I'll let that issue
+resolve itself as time goes along.   For now, I hope to hear not only from
+Klingon language experts (and there are many out there who can claim that
+title), but also from those who are just curious about how the language
+works, how it came about or how it's changed, what Worf (or Gowron or Dax
+or even Kruge or Chang, for that matter) is really saying though sometimes
+this requires a bit of study, especially when they're speaking colloquially
+or using ritualistic speech), and so on.
+
+I'll try to check in every week or so and answer any questions I can.
+(Questions involving fine -- or even not so fine -- points of grammar
+usually don't lend themselves to quick responses, however, so have a little
+patience there.)
+
+Qapla'!
+
+   - Marc Okrand
+
+
+===========================================================================
+
+
+From: Marc Okrand <mokrand@erols.com>
+Newsgroups: startrek.expertforum
+Date: Sunday, January 18, 1998 05:42 PM
+Subject: Re: Problem with {-meH} and negative meanings
+
+
+[Shortly before the old MSN forum on the Klingon language disappeared (to be
+replaced by this new newsgroup), a message was posted there titled "Problem
+with {-meH} and negative meanings."  I wasn't able to write a response to it
+before the changeover, so, rather than just leaving that message floating
+around in some sort of limbo, I'm posting the response to it here.
+- Marc]
+
+
+Will Martin wrote...
+
+>I have a new approach to an old nagging problem in the language. There is
+>a temptation to translate "I was too late to visit you," as {qaSuchmeH
+>jIpaSqu'.} Meanwhile, to me, this sounds like I'm saying that I was
+>intentionally very late with the goal of my tardiness being that I visit
+>you.
+>
+>Instead, these days, I translate this sort of thing as: {qaSuch vIneH
+>'ach jIpaSqu'.} The contrast between the conjoined sentences implied in
+>{'ach} seems to carry for me the sense that the latter fact conflicted
+>with the former intent.
+>
+>Does this seem like an improved approach to you, or do you think there
+>was no problem with the first version using {-meH}?
+
+
+I can understand why you've been feeling nagged about this.  There are, I
+think, a couple of issues.
+
+First, we have to figure out what "I was too late to visit you" means.  It
+could mean (a) I came to visit you, but by the time I got there, you had
+left or were indisposed; or (b) I didn't come to visit you because I spent a
+long time, perhaps longer than expected, doing something else and by the
+time I was freed up to visit you, it was too late for you or for me or for
+both of us.  In any event, because I arrived past some sort of cutoff point
+(or because I wasn't ready to set out until that cutoff point had passed),
+the visit did not take place.  This cutoff point could be a specific time of
+day (12 midnight, perhaps), or an event that occurs at a certain time
+(visiting hours end at 6:00), or even an unscheduled event (a better offer
+came along and you left before I got there).
+
+I don't think that the first approach ({qaSuchmeH jIpaSqu'}) conveys the
+intended meaning as described above (if I'm right in my description of the
+intended meaning; if I'm not, all the rest of this discussion might not be
+answering the right question!).  The two words in the sentence are:
+
+    {qaSuchmeH} "in order that I visit you" (made up of {qa-} "I [do
+something to] you," {Such} "visit," {-meH} "for")
+
+    {jIpaSqu'} "I am very late" (made up of {jI-} "I," {paS} "be late,"
+{-qu'} "emphatic")
+
+Perhaps, then, a better English rendition of the Klingon sentence is "In
+order for me to visit you, I'll be very late."   This suggests that the
+visit did or will take place (though later, perhaps, than desired), which is
+not the intended meaning.
+
+The second approach suggests using the sentence {qaSuch vIneH 'ach jIpaSqu'}
+"I want to visit you, but I am very late," which is made up of:
+
+    {qaSuch} "I visit you" ({qa-} "I [do something to] you," {Such} "visit")
+
+    {vIneH} "I want it" ({vI-} "I [do something to] it," {neH} "want")
+
+    {'ach} "but, however"
+
+    {jIpaSqu'} "I am very late" (as above)
+
+This also could mean that the visit will take place: My being late is
+inconvenient, but we'll visit anyway.
+
+In both approaches, the phrase "I was too late" (of the original sentence "I
+was too late to visit you") is translated {jIpaSqu'}.  The prefix {jI-}, of
+course, is the "I" and there's no problem there.  {paSqu'} (that is, {paS}
+"be late" plus the rover {-qu'} "emphatic"), then, is being used for "too
+late."   {-qu'} is usually translated "very" or "extremely" or the like
+(that is, {paSqu'} means "very late"), so if "too late" means "very late,"
+all is well.  But in the example sentence ("I was too late to visit you"),
+the phrase "too late" doesn't mean "very late"; it means "excessively late"
+or "overly late."  Thus using {paSqu'} might not be the best course in the
+first place.  It doesn't get across the idea of going beyond some cutoff
+point.
+
+I'd probably take an idiomatic approach incorporating the phrase {nargh
+'eb} "the opportunity escapes" ({nargh} "escape," {'eb} "opportunity").
+This goes along with other expressions such as {'eb jon} "he/she captures
+the opportunity" or, more colloquially "he/she seizes the opportunity"
+({jon} "capture").
+
+This presents a number of options (there are certainly others):
+
+    {jIpaSqu'mo' narghpu' qaSuchmeH 'eb.} "Because I'm very late, the
+opportunity to visit you has escaped."  ({-mo'} "because," {narghpu'} "has
+escaped," {qaSuchmeH 'eb} "opportunity for me to visit you")
+
+    {qaSuch vIneH 'ach narghpu' 'eb.  jIpaSqu'.} "I want to visit you, but
+the opportunity has escaped.  I am very late."
+
+    {qaSuchlaHbe'.  jIpaSqu' vaj narghpu' 'eb.}  "I cannot visit you. I am
+very late, thus the opportunity has escaped."   ({qaSuchlaHbe'} "I cannot
+visit you" [{-laH} "can, able," {-be'} "negative"], vaj "thus")
+
+I hope this helps with the "I was too late to visit you" problem.  I don't
+know if it will help with the more general problem of "{-meH} and negative
+meanings," which is the topic of the original posting.
+
+
+===========================================================================
+
+
+From: Marc Okrand <mokrand@erols.com>
+Newsgroups: startrek.expertforum
+Date: Sun, 18 Jan 1998 17:42:52 -0500
+Subject: Re: Problem with {-meH} and negative meanings
+
+[Shortly before the old MSN forum on the Klingon language disappeared (to be
+replaced by this new newsgroup), a message was posted there titled "Problem
+with {-meH} and negative meanings."  I wasn't able to write a response to it
+before the changeover, so, rather than just leaving that message floating
+around in some sort of limbo, I'm posting the response to it here.
+- Marc]
+
+Will Martin wrote...
+>I have a new approach to an old nagging problem in the language. There is
+>a temptation to translate "I was too late to visit you," as {qaSuchmeH
+>jIpaSqu'.} Meanwhile, to me, this sounds like I'm saying that I was
+>intentionally very late with the goal of my tardiness being that I visit
+>you.
+>
+>Instead, these days, I translate this sort of thing as: {qaSuch vIneH
+>'ach jIpaSqu'.} The contrast between the conjoined sentences implied in
+>{'ach} seems to carry for me the sense that the latter fact conflicted
+>with the former intent.
+>
+>Does this seem like an improved approach to you, or do you think there 
+>was no problem with the first version using {-meH}?
+
+I can understand why you've been feeling nagged about this.  There are, I
+think, a couple of issues.
+
+First, we have to figure out what "I was too late to visit you" means.  It
+could mean (a) I came to visit you, but by the time I got there, you had
+left or were indisposed; or (b) I didn't come to visit you because I spent a
+long time, perhaps longer than expected, doing something else and by the
+time I was freed up to visit you, it was too late for you or for me or for
+both of us.  In any event, because I arrived past some sort of cutoff point
+(or because I wasn't ready to set out until that cutoff point had passed),
+the visit did not take place.  This cutoff point could be a specific time of
+day (12 midnight, perhaps), or an event that occurs at a certain time
+(visiting hours end at 6:00), or even an unscheduled event (a better offer
+came along and you left before I got there).
+
+I don't think that the first approach ({qaSuchmeH jIpaSqu'}) conveys the
+intended meaning as described above (if I'm right in my description of the
+intended meaning; if I'm not, all the rest of this discussion might not be
+answering the right question!).  The two words in the sentence are:
+
+    {qaSuchmeH} "in order that I visit you" 
+    {jIpaSqu'}  "I am very late" 
+
+Perhaps, then, a better English rendition of the Klingon sentence is "In
+order for me to visit you, I'll be very late."   This suggests that the
+visit did or will take place (though later, perhaps, than desired), which is
+not the intended meaning.
+
+The second approach suggests using the sentence {qaSuch vIneH 'ach jIpaSqu'}
+"I want to visit you, but I am very late," which is made up of:
+
+    {qaSuch}   "I visit you" 
+    {vIneH}    "I want it" 
+    {'ach}     "but, however"
+    {jIpaSqu'} "I am very late" 
+
+This also could mean that the visit will take place: My being late is
+inconvenient, but we'll visit anyway.
+
+In both approaches, the phrase "I was too late" (of the original sentence "I
+was too late to visit you") is translated {jIpaSqu'}.  The prefix {jI-}, of
+course, is the "I" and there's no problem there.  {paSqu'} (that is, {paS}
+"be late" plus the rover {-qu'} "emphatic"), then, is being used for "too
+late."   {-qu'} is usually translated "very" or "extremely" or the like
+(that is, {paSqu'} means "very late"), so if "too late" means "very late,"
+all is well.  But in the example sentence ("I was too late to visit you"),
+the phrase "too late" doesn't mean "very late"; it means "excessively late"
+or "overly late."  Thus using {paSqu'} might not be the best course in the
+first place.  It doesn't get across the idea of going beyond some cutoff
+point.
+
+I'd probably take an idiomatic approach incorporating the phrase {nargh
+'eb} "the opportunity escapes" ({nargh} "escape," {'eb} "opportunity").
+This goes along with other expressions such as {'eb jon} "he/she captures
+the opportunity" or, more colloquially "he/she seizes the opportunity"
+({jon} "capture").
+
+This presents a number of options (there are certainly others):
+
+    {jIpaSqu'mo' narghpu' qaSuchmeH 'eb.} 
+    "Because I'm very late, the opportunity to visit you has escaped."
+    ({qaSuchmeH 'eb} "opportunity for me to visit you")
+
+    {qaSuch vIneH 'ach narghpu' 'eb.  jIpaSqu'.} 
+    "I want to visit you, but the opportunity has escaped. I am very late."
+
+    {qaSuchlaHbe'.  jIpaSqu' vaj narghpu' 'eb.}
+    "I cannot visit you. I am very late, thus the opportunity has escaped."
+
+I hope this helps with the "I was too late to visit you" problem.  I don't
+know if it will help with the more general problem of "{-meH} and negative
+meanings," which is the topic of the original posting.
+
+[[eof]]

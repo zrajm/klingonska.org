@@ -1,0 +1,150 @@
+From: Marc Okrand <mokrand@erols.com>
+Newsgroups: startrek.klingon
+Date: Mon, 23 Feb 1998 23:47:30 -0500
+Subject: Re: For Dr Okrand
+
+
+Marc Paige wrote in message <6ctgqh$7ov21@picard.paramount.com>...
+>I have always wondered about this:
+>
+>Is the word <chenmoH> a verb on its own or is it a compound of the verb
+><chen> plus the type 4 suffix <-moH>. I have recently used this in a
+>sentence that stated:
+>	not Qaghvetlh vIchenmoHqa'
+>I have been told that this should be
+>	not Qaghvetlh vIchenqa'moH
+>Please help me on this.
+>
+>Thanks in advance
+>--
+>Marc Paige
+>"tired and shagged out from a prolonged squawk"
+
+
+The short answer is: {chenmoH} "form, make, create" is the
+verb {chen} "build up, take form" plus the Type 4 suffix
+{-moH} "cause."  To say "make again," the Type 3 suffix
+{-qa'} "do again" should come before the Type 4 suffix.
+Thus, you should say {vIchenqa'moH} "I make [it] again"
+({vI-} "I [do something to] he/she/it/them").
+
+But, of course, there's a longer answer.  Actually, this
+came up in the old MSN forum.  Here's what I wrote then
+(and the question I was responding to).
+
+[PS -- I'll leave for another time any discussion about
+using use the noun {Qagh} "error" and the verb {chenmoH}
+"form, make, create" to say {Qagh chenmoH} "make a
+mistake."]
+
+
+    - Marc
+
+
+-----Original Message-----
+
+Date: Sunday, November 30, 1997 11:23 PM
+Subject: Re: chenmoH, ja'chuq, etc.
+
+Neal wrote in message <#EEJChT98GA.244@upmsnnews02.moswest.msn.net>...
+>
+>Are entries in the dictionaries which are verbs with an attatched suffix,
+>such as <chenmoH>=create (v) and <ja'chuq>=discuss (v), words in themselves?
+>Or are they merely examples of usage, as I suspect? (With the exception of
+><lo'laH>.)
+>
+>In other words, do we say <*vIchenmoHnIS> or <vIchennISmoH> for "I need to
+>create it"? Can we say <ja'chuqlu'> and if so, what does it mean?
+>(Considering that <-chuq> and <-lu'> have contradictory prefix requirements,
+>it seems unlikely if <ja'chuq> is merely <ja'> plus <-chuq>.)
+
+This is one of those answers that starts off being simple
+and then gets hairy.
+
+For the most part, entries in The Klingon Dictionary (and
+also in the addendum in Klingon For the Galactic Traveler)
+that consist of verb + suffix are indeed just that, verb +
+suffix.  For example, one entry in the Dictionary is pujmoH
+"weaken."  This is really puj "be weak" and the suffix -moH
+"cause" (thus "weaken" is "cause to be weak").  Since -moH
+is a Type 4 suffix, if a suffix of Type 1, 2, or 3 is to be
+used (such as -chuq "each other" [Type 1] or
+-nIS "need" [Type 2]), it would precede the Type 4 -moH;
+for example, pujchuqmoH "they weaken each other" or
+pujnISmoH "he/she needs to weaken [somebody]."
+
+It is, of course, possible to add the suffix -moH to lots
+of verbs; not all of the verb + -moH combinations are
+listed in the Dictionary as distinct entries.  The ones
+that are listed are there as much as a matter of
+convenience for the user as anything else.  For example,
+there is an entry for "commit suicide" just in case anyone
+wants to look that word up; but the Klingon equivalent is
+simply HoH'egh, literally "kill oneself" (HoH "kill" plus
+Type 1 verb suffix -'egh "oneself").  The absence of a verb
++ -moH entry in the Dictionary lists does not mean that
+that particular formation cannot be made.
+
+The same goes for the negative suffixes -Ha' and -be'
+which, along with -moH, are the most common verb suffixes
+found in the Dictionary lists (except for -wI' "one who
+is/does," but that doesn't enter into any of this since
+it's always last in a string of verb suffixes).  Since the
+negative suffixes are Rovers, they follow different rules.
+(Well, actually, since -Ha' always occurs right after the
+verb and can never be preceded by suffixes anyway, it can
+be excluded from this discussion.)  The Rover -be' comes
+right after whatever it is negating.  Both Qochbe'nIS
+"he/she/they need to not disagree" (that is, "he/she/they
+need to agree") and QochnISbe' "he/she/they do not need to
+disagree" are acceptable Klingon formations.  The fact that
+the Dictionary lists Qochbe' "agree" (that is, literally,
+"not disagree") does not mean that no suffix may precede
+the -be'.  It's in there so that someone can easily look up
+how to say "agree."
+
+So far so good, I think.
+
+A problem comes in because some of these forms (that is,
+some of these verb + suffix combinations) are so common,
+they seem to, in the minds of some Klingons anyway, act as
+if they were simply verb and not verb + suffix at all.
+This seems to happen only when the suffix in question
+is -moH  "cause."   Maltz reports having heard both
+quv'eghmoH "he/she honors him/herself," which follows the
+expected order (verb-Type 1-Type 4: quv "be honored," -'egh
+"oneself," -moH "cause") as well as the weird quvmoH'egh
+"he/she honors him/herself," in which the Type 1
+suffix -'egh "oneself" follows the Type 4 suffix -moH
+"cause," an impossible formation unless the speaker is
+considering the verb to be quvmoH "honor" and not quv "be
+honored."   Speakers who do this seem to be aware that they
+are breaking the rules, so they are doing it for rhetorical
+effect.  (It has the same sort of feeling, perhaps, as if
+someone were to say in English "Don't cellular phone me
+this afternoon" or "I've been postnasal dripping all
+morning" or "It's lightninging and thundering outside" or,
+to follow the Klingon example, "He/she self-honors.")  If
+this sort of thing happens a lot, maybe, in time, the
+language will undergo some sort of reformation; maybe -moH
+will become a Rover.  Or quvmoH and similar forms will
+become simple (though two-syllable) verbs.  But neither is
+the case yet, and while some speakers of Klingon may treat
+them as such, the wisest course is to leave such things to
+the poets and keep -moH in its Type 4 position.
+
+On the other hand, you're right about lo'laH "be valuable."
+It is a simple verb in its own right (though it's an
+unusual two-syllable one), not the verb lo' "use" plus Type
+5 suffix -laH "can."  It is likely that there is some sort
+of historical connection to the verb + suffix form, but, if
+so, it is just that -- historical.
+
+Thus, finally and at long last, to answer your first
+specific question, say vIchennISmoH for "I need to create
+it."
+
+I'll try to answer your second question, about ja'chuq, in
+a separate posting.
+
+[[eof]]

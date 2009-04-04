@@ -1,0 +1,51 @@
+From: "Marc Okrand" <MarcOkrand@msn.com>
+Newsgroups: msn.onstage.startrek.expert.okrand
+Date: 01 Jul 1997
+Subject: Re: questions as objects
+
+These two notes about "questions as objects" actually raise a large number
+of issues, so this will end up being a stretched-out (over time) response.
+
+But here's a start.
+
+All four words asked about (tul "hope," Qub "think,"  Sov "know," and SIv
+"wonder") can be used in the construction S 'e' V, where S is a sentence,
+'e' is the pronoun ("that") which refers to a previous topic (in this case
+S), and V is one of the verbs listed above (as well as some others).
+
+If the sentence (S) is tlhIngan Hol Dajatlh "you speak Klingon" (tlhIngan
+Hol "Klingon language," Dajatlh "you speak it"), it's OK to say:
+
+	tlhIngan Hol Dajatlh 'e' vItul "I hope that you speak Klingon"
+	(vItul "I hope it")
+
+	tlhIngan Hol Dajatlh 'e' vIQub "I think that you speak Klingon"
+	(vIQub "I think it")
+
+	tlhIngan Hol Dajatlh 'e' vISov "I know that you speak Klingon"
+	(vISov "I know it")
+
+	tlhIngan Hol Dajatlh 'e' vISIv "I wonder if you speak Klingon"
+	(vISIv "I wonder it")
+
+The fourth example is weird from an English translation point of view, but
+it falls right in line in Klingon.  If the English translation matched the
+pattern of the other three sentences, it would be "I wonder that you speak
+Klingon."  In English, this means something like "I'm surprised that you
+speak Klingon" or "I don't understand how it can be that you speak
+Klingon," but this is not what the Klingon sentence means.  The Klingon
+sentence means something more like "I am curious about whether you speak
+Klingon."  The clumsiness here is the English, not the Klingon.
+
+One other verb that can be used in the V slot in such sentences is Hon
+"doubt":
+
+	tlhIngan Hol Dajatlh 'e' vIHon "I doubt that you speak Klingon"
+	(vIHon "I doubt it")
+
+I'll return on another occasion to the question of whether the sentence
+preceding the 'e' in such sentences can be a question.  This is a more
+general issue than whether you can do it with SIv "wonder" and I need some
+clear guidance from Maltz.
+
+[[eof]]
