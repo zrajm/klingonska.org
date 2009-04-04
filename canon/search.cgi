@@ -8,7 +8,7 @@
   <TR>
     <TD ALIGN=LEFT><I><FONT SIZE=1><A HREF="mailto:webmaster@klingonska.org">webmaster@klingonska.org</A></FONT></I></TD>
     <TD ALIGN=CENTER><I><FONT SIZE=1><A HREF="http://klingonska.org/canon/search.cgi">http://klingonska.org/canon/search.cgi</A></FONT></I></TD>
-    <TD ALIGN=RIGHT><I><FONT SIZE=1>Changed: 2007-08-17, 04.09</FONT></I></TD>
+    <TD ALIGN=RIGHT><I><FONT SIZE=1>Changed: 2007-08-17,Â 04.09</FONT></I></TD>
   </TR>
 </TABLE>
 
@@ -21,10 +21,10 @@
 <FORM ACTION="search.cgi" METHOD="GET">
 <table cellspacing=0 cellpadding=0 border=0>
   <tr>
-    <td>             </td>
+    <td>Â Â Â Â Â Â Â Â Â Â Â Â Â </td>
     <td><INPUT  TYPE=TEXT NAME=query VALUE="" SIZE=30></td>
-    <td> <INPUT TYPE=SUBMIT VALUE="Search"></td>
-    <td><font size="1">  · <A HREF="search.cgi?get=help">Search Help</A></font></td>
+    <td>Â <INPUT TYPE=SUBMIT VALUE="Search"></td>
+    <td><font size="1">Â Â Â·Â <A HREF="search.cgi?get=help">Search Help</A></font></td>
   </tr>
 </table>
 </FORM>
@@ -42,7 +42,7 @@
       report those bugs folks!</font></b>
 
       <p><b><font color="#FF0000" size=5>2001-10-12: This a new
-      version of the »Okrandian Canon Search«, so please bear with me,
+      version of the Â»Okrandian Canon SearchÂ«, so please bear with me,
       and <i>please</i> report any odd behaviour that you might
       spot.</font></b>
 
@@ -62,7 +62,7 @@
     copyrighted material will not be presented in full but each found
     word will be presented with some context and page
     references. (Right now you can search for things in TKD, CK and
-    PK, but you only get the context - no page references - so it
+    PK, but you only get the context -Â no page referencesÂ - so it
     doesn	 really do you any good.)
 
     <LI>Better, (more complete) info about each document in the search
@@ -73,9 +73,9 @@
     want to be able to link directly to a specific word (any word) in
     canon from just about anywhere else. This, labeling, also should
     not change over time. I want to be able to link to something like:
-    »...<TT>search.cgi?file=1997-09-01.txt#hello:2</tt>«, meaning »the
+    Â»...<TT>search.cgi?file=1997-09-01.txt#hello:2</tt>Â«, meaning Â»the
     second occurance of the word "hello" in the file
-    "1997-09-01.txt"«.
+    "1997-09-01.txt"Â«.
     </UL>
 
     Suggestions and criticism are always welcome. You may use email,
@@ -91,9 +91,9 @@
 <!-- ==================== Copyright ==================== -->
 <P><CENTER><TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0>
   <TR><TD VALIGN=BOTTOM COLSPAN=3><HR NOSHADE></TD></TR>
-  <TR><TD>         </TD><TD ALIGN=CENTER><B>©2001, Copyright <A HREF="mailto:zrajm@klingonska.org">Zrajm C Akfohg</A>,
+  <TR><TD>Â Â Â Â Â Â Â Â Â </TD><TD ALIGN=CENTER><B>Â©2001, Copyright <A HREF="mailto:zrajm@klingonska.org">Zrajm C Akfohg</A>,
     <A HREF="http://www.klingonska.org/">Klingonska Akademien</A>, Uppsala.</B></TD>
-    <TD>         </TD></TR>
+    <TD>Â Â Â Â Â Â Â Â Â </TD></TR>
   <TR><TD VALIGN=TOP COLSPAN=3><HR NOSHADE></TD></TR>
 </TABLE></CENTER>
 </BODY></HTML>

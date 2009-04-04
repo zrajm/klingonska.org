@@ -1,5 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
-<HTML><HEAD><TITLE>Klingonska Akademien - Klingon Data Download.</TITLE></HEAD>
+<HTML><HEAD><TITLE>Klingonska Akademien -Â Klingon Data Download.</TITLE></HEAD>
 <BODY VLINK="#777777" ALINK="#AAAAAA" LINK="#444444" TEXT="#000000" BGCOLOR="#FFFFFF">
 
 <!-- ==================== Adressinfo ==================== -->
@@ -43,9 +43,9 @@ line. <I>Case counts</I>.
 <TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0>
   <TR><TD VALIGN=BOTTOM COLSPAN=3><HR NOSHADE></TD></TR>
   <TR>
-    <TD>         </TD>
+    <TD>Â Â Â Â Â Â Â Â Â </TD>
     <TD ALIGN=CENTER>
-      <B>©1998-2001, Copyright 
+      <B>Â©1998-2001, Copyright 
       <A HREF="mailto:zrajm@klingonska.org">Zrajm C Akfohg</A>,
       <A HREF="http://www.klingonska.org/">Klingonska Akademien</A>,
       Uppsala.</B>

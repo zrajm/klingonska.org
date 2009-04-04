@@ -16,7 +16,7 @@
     <tr>
       <td align=center><b>Some info and a searchable version of the pocket dictionary database.</b></td>
     </tr>
-  </table> 
+  </table>Â 
 </center>
 
 
@@ -30,10 +30,10 @@
       </td>
     </tr>
     <tr align=center>
-      <td><font size=2><b>Search in:</b> 
-        <input name=field type=radio value=klin checked>Klingon 
-        <input name=field type=radio value=eng>English 
-        <input name=field type=radio value=swe>Swedish 
+      <td><font size=2><b>Search in:</b>Â 
+        <input name=field type=radio value=klin checked>KlingonÂ 
+        <input name=field type=radio value=eng>EnglishÂ 
+        <input name=field type=radio value=swe>SwedishÂ 
         <input name=field type=radio value=all>All data
         </font>
       </td>
@@ -48,26 +48,26 @@ from a simple database, which is very easy to update. This database
 has been continuously updated and improved since it was created in
 late 1997.
 
-<br>     The form above gives you access to a very crude search engine
+<br>Â Â Â Â Â The form above gives you access to a very crude search engine
 for searching in the database material. In the end I hope to provide
-the same search functionality here as in the »<a
-href="../canon/search.cgi">Okrandian Canon Search</a>« but for the
+the same search functionality here as in the Â»<a
+href="../canon/search.cgi">Okrandian Canon Search</a>Â« but for the
 moment, this will have to do.
 
-<br>     <b>Instructions:</b> You may type any word or part of a word
+<br>Â Â Â Â Â <b>Instructions:</b> You may type any word or part of a word
 to search for, the engine is totally ignorant about to different kinds
 of characters, and sees no difference between a space or any other
 character. The engine is also completely case insensetive, except if
-you make searches in »Klingon«, note though, that searches made in
-»All data« are <i>never</i> case sensetive, even when it comes to
+you make searches in Â»KlingonÂ«, note though, that searches made in
+Â»All dataÂ« are <i>never</i> case sensetive, even when it comes to
 words in Klingon.
 
 <!-- ==================== Copyright ==================== -->
 <P><CENTER><TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0>
   <TR><TD VALIGN=BOTTOM COLSPAN=3><HR NOSHADE></TD></TR>
-  <TR><TD>         </TD><TD ALIGN=CENTER><B>©1998-2007, Copyright <A HREF="mailto:zrajm@klingonska.org">Zrajm C Akfohg</A>,
+  <TR><TD>Â Â Â Â Â Â Â Â Â </TD><TD ALIGN=CENTER><B>Â©1998-2007, Copyright <A HREF="mailto:zrajm@klingonska.org">Zrajm C Akfohg</A>,
     <A HREF="http://www.klingonska.org/">Klingonska Akademien</A>, Uppsala.</B></TD>
-    <TD>         </TD></TR>
+    <TD>Â Â Â Â Â Â Â Â Â </TD></TR>
   <TR><TD VALIGN=TOP COLSPAN=3><HR NOSHADE></TD></TR>
 </TABLE></CENTER>
 </BODY></HTML>

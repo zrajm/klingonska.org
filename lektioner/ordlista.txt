@@ -2297,13 +2297,13 @@
       0	'Iv (ques)		: 
       0	'oy' (n)		: 
 
-Den listan innehåller alla klingonska ord ur min egen annoterade klingonska
-ordlista, plus frekvensstatistik genererat utifrån klingonsk text extraherad
-ifrån Klingonska språkinstitutets epostlista <tlhingan-hol@kli.org>. Vid
-frekvensanalysen har eventuella suffix används för ordklassbestämning av
-ordet innan de tagits bort, då denna process inte är särskilt finputsad kan
-en del fel förekomma, och frekvenserna bör betraktas som en grov uppskattning
-snarare än exakta värden.
+Den listan innehÃ¥ller alla klingonska ord ur min egen annoterade klingonska
+ordlista, plus frekvensstatistik genererat utifrÃ¥n klingonsk text extraherad
+ifrÃ¥n Klingonska sprÃ¥kinstitutets epostlista <tlhingan-hol@kli.org>. Vid
+frekvensanalysen har eventuella suffix anvÃ¤nds fÃ¶r ordklassbestÃ¤mning av
+ordet innan de tagits bort, dÃ¥ denna process inte Ã¤r sÃ¤rskilt finputsad kan
+en del fel fÃ¶rekomma, och frekvenserna bÃ¶r betraktas som en grov uppskattning
+snarare Ã¤n exakta vÃ¤rden.
 
 	Zrajm C Akfohg
 	Klingonska Akademiens grundare

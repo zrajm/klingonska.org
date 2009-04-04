@@ -1,5 +1,5 @@
-[[[2000­01­17] Transcribed from poster by Zrajm C Akfohg.]]
-[[[2000­04­05] Machine parsed for incorrect phonotax (no errors found).]]
+[[[2000Â­01Â­17] Transcribed from poster by Zrajm C Akfohg.]]
+[[[2000Â­04Â­05] Machine parsed for incorrect phonotax (no errors found).]]
 
 Star Trek Bird of Prey Cutaway Poster
 Published by SciPubTech November 1998
@@ -68,7 +68,7 @@ Klingon Bird of Prey Technical Callouts
     Transporter Room
 
 18. {beq pa'mey}
-    Non­commissioned Crew Quarters
+    NonÂ­commissioned Crew Quarters
 
 19. {tep}
     Cargo
@@ -141,7 +141,7 @@ Klingon Bird of Prey Technical Callouts
 Klingon Bird of Prey General Specifications
 
   {Segh: bI'rel tlharghDuj}
-  Model: B'rel­Class Scout
+  Model: B'relÂ­Class Scout
 
   {(qIvo'rIt may'Duj mach)}
   (Smaller Version of a K'vort Class Cruiser)
@@ -184,45 +184,45 @@ Klingon Bird of Prey General Specifications
 Impulse Drive System
 
   {Hong boq chuyDaH: loS}
-  Impulse Fusion Thrusters - 4
+  Impulse Fusion Thrusters -Â 4
 
   {muDDaq 'eDSeHcha lulaQlu'bogh: jav}
-  Atmospheric Take­Off/Landing Thursters - 6
+  Atmospheric TakeÂ­Off/Landing Thursters -Â 6
 
 
 {pIvghor pat}
 Warp Drive System
 
   {pIvchem lIngwI' DaHmey: cha'}
-  Warp Field Generation Arrays - 2
+  Warp Field Generation Arrays -Â 2
 
   {pIvchem SeHwI': cha'}
-  Warp Field Controller - 2
+  Warp Field Controller -Â 2
 
   {qughDo motlh: pIvlob vagh}
-  Normal Cruising Speed - Warp 5
+  Normal Cruising Speed -Â Warp 5
 
   {'aqroS qughDo: pIvlob Hut vI' vagh}
-  Maximum Cruising Speed - Warp 9.5
+  Maximum Cruising Speed -Â Warp 9.5
 
   {choH lISbogh Hap'e': cha'pujqut}
-  Reaction Moderating Element - Crystalline Dilithium
+  Reaction Moderating Element -Â Crystalline Dilithium
 
   {nIn: bIQSIp 'ugh}
-  Fuel - Deuterium Isotope
+  Fuel -Â Deuterium Isotope
 
   {nIn: rugh bIQSIp}
-  Fuel - Anti Hydrogen
+  Fuel -Â Anti Hydrogen
 
 
 {jolpatmey}
 Transporter Systems
 
   {wey jolpat: wa' (jav ghotpu')}
-  Personnel Transporter - 1 (6 Man)
+  Personnel Transporter -Â 1 (6 Man)
 
   {tep jolpat: wa'}
-  Cargo Transporter - 1
+  Cargo Transporter -Â 1
 
   {QeD patmey noch patmey je}
   Science and Remote Sensing Systems 
@@ -231,20 +231,20 @@ Transporter Systems
   Long Range
 
   {jabbI'ID pup: Qapchu'meH 'aqroS chuq: cha' vI' chorgh loghqammey}
-  High Resolution - Maximum Effective Range - 3.5 Light Years
+  High Resolution -Â Maximum Effective Range -Â 3.5 Light Years
 
   {jabbI'ID pupHa': Qapchu'meH chuq: chorgh vI' chorgh loghqammey}
-  Medium to Low Resolution - Effective Range - 11 Light Years
+  Medium to Low Resolution -Â Effective Range -Â 11 Light Years
 
 
 {ya patmey}
 Tactical Systems
 
   {nISwI' talmey: cha' (telDaq lujomlu')}
-  Disruptor Cannon - 2 (Wing Mounted)
+  Disruptor Cannon -Â 2 (Wing Mounted)
 
   {nISwI': cha' chang'engmey (telDaq lujomlu', nItebHa' lubaHlu')}
-  Disruptor - 2 Pairs (Wing Mounted, Fire Linked)
+  Disruptor -Â 2 Pairs (Wing Mounted, Fire Linked)
 
 
 {Qum patmey}
@@ -276,10 +276,10 @@ Marc Okrand
 Thanks for the support provided by the STAR TREK Art Department, John Eaves,
 Herman Zimmerman, Mike Okuda, Rick Sternbach, and Doug Drexler.
 
-TM, ® & © 1998 Paramount Pictures. All Rights Reserved. STAR TREK and Related
+TM, Â® & Â© 1998 Paramount Pictures. All Rights Reserved. STAR TREK and Related
 Marks are Trademarks of Paramout Pictures. SciPubTech Autorized User. Visit the
 official STAR TREK website at http://www.startrek.com
 
-1­888­STAR · http://www.scipubtech.com
+1Â­888Â­STAR Â· http://www.scipubtech.com
 
 [[eof]]
