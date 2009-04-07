@@ -5,8 +5,11 @@ TO REPLACE CURRENT KLINGONSKA.ORG
   * CGI scripts working
     o List CGI scripts on page
       * canon/download.cgi
-        o TKD / TKW / KGT transcripts
+        o TKD transcript added & UTF-ified
+        o TKW transcript added & UTF-ified
+        o KGT transcript added & UTF-ified
       * canon/search.cgi  
+        o make sure all canon transcripts are present
       * piqad/play.cgi
   * Working mail aliases
      o List the current mail aliases on manufrog
@@ -17,6 +20,8 @@ TO REPLACE CURRENT KLINGONSKA.ORG
 
 THEREAFTER
 ----------
+* canon/download.cgi
+  o Improve the word selection on the "copyright protection"
 * Move test site to test.klingonska.org
 * Automatic update of filedates listed in pages (using includes?)
   o Restore file dates for all unchanged files
@@ -57,6 +62,10 @@ FUTURE
 
 
 2009-04-07
+  * Fixe "canon/download.cgi" (now uses UTF-8)
+    o SBX transcript added & UTF-ified
+    o PK transcript added & UTF-ified
+    o CK transcript added & UTF-ified
   * Fixed "dict/lexicon.cgi" script so that it includes header/footer and
     inputs/outputs using UTF-8
 
