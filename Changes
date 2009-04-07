@@ -1,0 +1,68 @@
+TO REPLACE CURRENT KLINGONSKA.ORG
+=================================
+* Transfer test.zrajm.org -> klingonska.org
+  * Look for dead links, compare with current klingonska.org
+  * CGI scripts working
+    o List CGI scripts on page
+      * canon/download.cgi
+        o TKD / TKW / KGT transcripts
+      * canon/search.cgi  
+      * piqad/play.cgi
+  * Working mail aliases
+     o List the current mail aliases on manufrog
+     o How to config using domtool?
+  * Working mailing lists
+     o List current mailing lists on manufrog
+     o How to config on hcoop?
+
+THEREAFTER
+----------
+* Move test site to test.klingonska.org
+* Automatic update of filedates listed in pages (using includes?)
+  o Restore file dates for all unchanged files
+* Improved file structure
+* Various small fixes, as wanted/needed
+* Change all faulty Latin-1 173 chars into proper hyphens/minuses
+* dict/
+  o Fix bad colors on table borders in "dict/tables.html"
+  o separated headers & footers (using template)
+  o CSS redesign (removing tables used for layout)
+  o Add changes noted in my physical copy of the dictionary
+* canon/
+  o improve data directory structure
+  o add any missing transcripts
+  o remove tCK, tPK "$TAB:" header
+* Improve "akademien/" by removing old/irrelevant stuff ("Stadgar")
+
+
+FUTURE
+------
+* Add XHTML page tag specifying UTF8 as charset
+* Reinstate feedback form
+* CC licence on entire site (except KLO?)
+* Web pages generated from templates & using Markdown
+* XHTML compliant
+* CSS-based design
+* "Typographical" quotes
+* A "latest changes" indicator on page (& highlighting of recently changed stuff
+  -- one month old? Cookie, and based on visitor?)
+* RSS feed for changes
+* Call for participation from visitors
+* Wiki-ish dictionary (which can be partially updated [and moderated?] by
+  visitors)
+* Data download should have improved "login" based on transcripts of TKD (or all
+  books?)
+* Data download should include audio of CK and PK(?)
+* Make proper use of em- and en-dashes where appropriate
+
+
+2009-04-07
+  * Fixed "dict/lexicon.cgi" script so that it includes header/footer and
+    inputs/outputs using UTF-8
+
+
+2009-04-04
+  * Fetched current klingonska.org & installed that (= CGI's are not working)
+  * Converted all text from latin-1 to utf-8
+
+[eof]
