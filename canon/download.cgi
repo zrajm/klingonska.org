@@ -120,6 +120,8 @@ if ($answer eq $answer[$ques] && $answer ne '') {    # correct answer
     print "</form></center>\n\n";
     if ($infile ne '') {                             # insert file
 	include_file($infile);
+    } else {
+	print "<p align=\"center\">Please choose which transcript to view above.</p>\n";
     }
 } else {
     if ($ques eq '' || $ques >= scalar(@answer)) {   # no valid question?
@@ -132,64 +134,64 @@ if ($answer eq $answer[$ques] && $answer ne '') {    # correct answer
 	$subtitle = "Incorrect answer, try again.";
     }
     print "<H2>$subtitle</H2>\n";
-    &quest_form;
+    quest_form();
 }
 page_footer();                                       # page footer
 exit 0;                                              # quit
 
 
 sub page_header {
-    print <<eop;
+    print <<EOF;
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
-<HTML><HEAD><TITLE>Klingonska Akademien -&nbsp;Klingon Data Download.</TITLE></HEAD>
-<BODY VLINK="#777777" ALINK="#AAAAAA" LINK="#444444" TEXT="#000000" BGCOLOR="#FFFFFF">
+<html><head><title>Klingonska Akademien -&nbsp;Klingon Data Download.</title></head>
+<body vlink="#777777" alink="#aaaaaa" link="#444444" text="#000000" bgcolor="#ffffff">
 
 <!-- ==================== Adressinfo ==================== -->
-<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=100% ALIGN=CENTER>
-  <TR>
-    <TD ALIGN=LEFT><I><FONT SIZE=1><A HREF="mailto:webmaster\@klingonska.org">webmaster\@klingonska.org</A></FONT></I></TD>
-    <TD ALIGN=RIGHT><I><FONT SIZE=1><A HREF="$PLACE">$PLACE</A></FONT></I></TD>
-  </TR>
-</TABLE>
+<table border=0 cellpadding=0 cellspacing=0 width=100% align=center>
+  <tr>
+    <td align=left><i><font size=1><a href="mailto:webmaster\@klingonska.org">webmaster\@klingonska.org</a></font></i></td>
+    <td align=right><i><font size=1><a href="$PLACE">$PLACE</a></font></i></td>
+  </tr>
+</table>
 
 <!-- ==================== Titel ==================== -->
-<P ALIGN=CENTER><A HREF="$PREV"><IMG SRC="/pic/ka.gif" WIDTH="600" HEIGHT="176" ALT="Klingonska Akademien" BORDER=0 VSPACE=5></A>
+<p align=center><a href="$PREV"><img src="/pic/ka.gif" width="600" height="176" alt="Klingonska Akademien" border=0 vspace=5></a>
 
-<H1 ALIGN=CENTER>Klingon Data Download.</H1>
+<h1 align=center>Klingon Data Download.</h1>
 
-eop
+EOF
 }
 
 
 sub page_footer {                                    # HTML Footer
-    print <<eop;
+    print <<EOF;
 
 <!-- ==================== Copyright ==================== -->
-<P><CENTER>
-<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0>
-  <TR><TD VALIGN=BOTTOM COLSPAN=3><HR NOSHADE></TD></TR>
-  <TR>
-    <TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
-    <TD ALIGN=CENTER>
-      <B>&copy;1998-2001, Copyright 
-      <A HREF="mailto:zrajm\@klingonska.org">Zrajm C Akfohg</A>,
-      <A HREF="http://www.klingonska.org/">Klingonska Akademien</A>,
-      Uppsala.</B>
-    </TD>
-    <TD>         </TD>
-  </TR>
-  <TR><TD VALIGN=TOP COLSPAN=3><HR NOSHADE></TD></TR>
-</TABLE>
-</CENTER>
+<p><center>
+<table cellpadding=0 cellspacing=0 border=0>
+  <tr><td valign=bottom colspan=3><hr noshade></td></tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td align=center>
+      <b>&copy;1998-2001, Copyright 
+      <a href="mailto:zrajm\@klingonska.org">Zrajm C Akfohg</a>,
+      <a href="http://www.klingonska.org/">Klingonska Akademien</a>,
+      Uppsala.</b>
+    </td>
+    <td>         </td>
+  </tr>
+  <tr><td valign=top colspan=3><hr noshade></td></tr>
+</table>
+</center>
 
-</BODY>
-</HTML>
-eop
+</body>
+</html>
+EOF
 }
 
 
 sub quest_form {                                     # HTML form
-    print <<EOP;
+    print <<EOF;
 
 <p align="justify">For copyright reasons you must own a copy of Marc Okrand\'s
 book <i>The Klingon Dictionary</i> to access the information presented here. To
@@ -204,13 +206,13 @@ text of the TKD below.
 <h3>TKD, page $page[$ques], paragraph $para[$ques], line $line[$ques], word $word[$ques]:</h3>
 
 <p><input name="answer" value="$answer">
-<input type="submit">
+<input type="submit" value="Submit">
 </form></center>
 
 <p align="justify">When counting paragraphs, skip the Klingon example phrases.
 Hyphenated words are counted as one. Ending paragraphs at the top of a page are
 counted, as well as half words in the beginning of a line. <i>Case counts</i>.
-EOP
+EOF
 }
 
 
