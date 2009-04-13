@@ -1,53 +1,76 @@
-$TAB: {3,9,24}
-Side one:
+[[
+  [1997-10-03] transcribed most of side 1
+  [1998-01-18] intro dialogue added
+  [1998-02-16] finished transcription of side 1
+  [1998-05-13] transcribed 1/4 of side 2
+  [1998-09-25] finished transcription, some spellchecking
+  [1998-09-30] arranged layout and added special characters
+  [1999-10-01] compared with tape, corrected found errors
+               checked all numbers of () [] {} »« match
+  [1998-10-02] machine-parsed for capitalization errors
+  [1998-10-05] machine-parsed for incorrect syllables (errors: 1)
+  [1999-02-13] added timed length
+  [1999-02-14] compared with tape, correcting errors
+  [2000-03-27] corrected {chapujqut} to {cha'pujqut}
+  [2000-08-02] americanized spelling of "behavior", "ardor", "humor"
+  [2001-08-17] changed the word {Dachoqbe'} in the intro to
+               to the more likely {Daqotlhbe'}, also changed
+               {'Iw ghargh} to {'Iwghargh}. [Thanks Lieven!]
+  [2003-01-30] cleaned up text some
+  [2006-07-25] added additional ISBNs to "Publisher" field, added day to
+               release date (info from Amazon)
+  Style: {}=bold, <>=italics
 
-Business deal (untranslated dialogue)
-Foreword
-The four ideals of behavior
-	Accuracy (noun suffixes)
-	Accuracy (verb suffixes)
-	Straightforwardness
-	Aggressiveness and strength
-	Business deal (dialogue)
+  Type: audio cassette / CD
+  Date: (1 October) 1993
+  Title: <Power Klingon>
+  Author: Marc Okrand and Barry Levine, presented by Michael Dorn
+  Publisher: Audioworks, Simon & Schuster, London, ISBN 0-671-85319-8
+    (alternate ISBN 0-671-87975-8; CD released October 1996, ISBN
+    0-671-85667-7)
+  Summary: This audio cassette is number two in the series (beginning with
+    <Conversational Klingon>) and it is intended for the serious traveler,
+    student or bussinessman and people that will spend a lot of time in the
+    Empire. (Usually abbreviated <PK>.)
 
-[first break]
+  : Side one:
+  :   Business deal (untranslated dialogue)
+  :   Foreword
+  :   The four ideals of behavior
+  :      Accuracy (noun suffixes)
+  :      Accuracy (verb suffixes)
+  :      Straightforwardness
+  :      Aggressiveness and strength
+  :      Business deal (dialogue)
+  :      Ordering drinks (after first break)
+  :      Toasting
+  :      Cursing
+  :      Addressing a superior (after second break)
+  :      Use of the Standard Dialect
+  : Side two:
+  :      Replacement Proverbs (after third break)
+  :      Secrecy Proverbs
+  :      Holiday Proverbs ({QI'lop})
+  :      Empire Union Day
+  :      Rite of Ascension
+  :      Mating Ritual (after fourth break)
+  :      Clipped Klingon
+  :      Telling jokes (after fifth break)
+  :      Addressing Pets
+  :   Example Dialogues
+  :      A business deal (dialogue)
+  :      Toasting (dialogue)
+  :      Cursed warfare (dialogue)
+  :      Empire Union Day (dialogue)
+  :      Confronting a pet (dialogue)
+  :      Secrecy proverbs (dialogue)
+  :      Replacement proverbs (dialogue)
+  :      A mating ritual overture (dialogue)
+  :      Telling a joke (dialogue)
+  :   Afterword
 
-	Ordering drinks
-	Toasting
-	Cursing
+]]
 
-[second break]
-
-	Addressing a superior
-	Use of the Standard Dialect
-
-Side two:
-
-[third break]
-
-	Replacement Proverbs
-	Secrecy Proverbs
-	Holiday Proverbs ({QI'lop})
-	Empire Union Day
-	Rite of Ascension
-
-	Mating Ritual [after fourth break]
-	Clipped Klingon
-	Telling jokes [after fifth break]
-	Addressing Pets
-
-Example Dialogues
-	A business deal (dialogue)
-	Toasting (dialogue)
-	Cursed warfare (dialogue)
-	Empire Union Day (dialogue)
-	Confronting a pet (dialogue)
-	Secrecy proverbs (dialogue)
-	Replacement proverbs (dialogue)
-	A mating ritual overture (dialogue)
-	Telling a joke (dialogue)
-
-Afterword
 
   **********************************************************************
 ****                                                                  ****
@@ -63,30 +86,10 @@ Afterword
 ***                              New York                              ***
 ***                                                                    ***
 ***                                                                    ***
-***               Transcription, ©1997-2009 Zrajm C Akfohg             ***
+***               Transcription, ©1997-2003 Zrajm C Akfohg             ***
 ***                      (For private study only.)                     ***
 ****                                                                  ****
   **********************************************************************
-
-	Created: 1997-10-03, original transcription
-	Updated: 1998-01-18, intro dialogue added
-	Updated: 1998-02-16, finished transcription of side 1
-	Updated: 1998-05-13, transcribed 1/4 of side 2
-	Updated: 1998-09-25, finished transcription, some spellchecking
-	Updated: 1998-09-30, arranged layout and added special characters
-	Updated: 1999-10-01, comparing with tape, correcting found errors
-	                     checked all numbers of () [] {} »« match
-	Updated: 1998-10-02, machine-parsed for capitalization errors
-	Updated: 1998-10-05, machine-parsed for incorrect syllables (errors: 1)
-	Updated: 1999-02-13, added timed length
-	Updated: 1999-02-14, compared with tape, correcting errors
-	Updated: 2000-03-27, corrected {chapujqut} to {cha'pujqut}
-	Updated: 2000-08-02, changed "-our" to "-or" in "behaviour",
-	                     "ardour", "humour"
-	Updated: 2001-08-17, changed the word {Dachoqbe'} in the intro to
-	                     to the more likely {Daqotlhbe'}, also changed
-	                     {'Iw ghargh} to {'Iwghargh}. [Thanks Lieven!]
-	Updated: 2009-04-07, converted from latin-1 to utf-8
 
 I have attempted to proof-read this text as thoroughly as possible, using
 both a spell-checking program and going over the text several times while
@@ -99,25 +102,19 @@ The following characters have special meaning in this transcript:
 
    {...} Indicates a void you are supposed to fill with a Klingon phrase.
          (only used it the CK and PK transcriptions).
-   n/a   not available (i.e. no tranlation was given i the source).
-   |     is used to separate multiple translations.
-   +     follows a word that occurs for the first time in canon in this
-         source, or that get an expanded definition in regart to earlier
-         sources.
-   '     a Klingon letter. Not used for anything else.
    *     surrounds any *emphasised* word (normally written in italics)
          also used for words that are transliterated rather than
          translated, such as *bat'leth* or *d'k tagh*).
    #     surrounds any #non-standard# or #incorrect# Klingon (used mostly
          for dialects or examples illustrating non-standard phonology or
          incorrect grammar).
-   ""    signifies a phrase in English, that also is presented in Klingon.
-   »«    are used for quotation marks. Usually there is a describing quote
+   <>    signifies a phrase in English, that also is presented in Klingon.
+   ""    are used for quotation marks. Usually there is a describing quote
          from the main text, when no direct translation is available in
          that source.
    {}    surrounds all Klingon words and phrases (normally written in
          boldface).
-   []    surrounds my own thoughts or opinions, or a general comment about
+   [[.]] surrounds my own thoughts or opinions, or a general comment about
          something in the source (disturbing sound effect on the tapes,
          grammatical error, wierd translation, whatever). Most often this
          comment is a simple source reference however.
@@ -126,191 +123,191 @@ The following characters have special meaning in this transcript:
          spelling I have been unable to confirm).
 
 Special thanks for contributions go to:
-  No-one but myself, as of now.
+  Lieven.
 
 /Zrajm C Akfohg
 
 
-[Copied from the inlay folder:]
+[[Copied from the inlay folder:]]
 
 
-	========================
-	 KLINGON POWER PHRASES:
-	========================
+   ========================
+    KLINGON POWER PHRASES:
+   ========================
 
 
 SHOWING AGGRESSIVENESS AND STRENGTH
 
-"No problem."
-	{qay'be'.}
+<No problem.>
+   {qay'be'.}
 
-"Shut up!"
-	{bIjatlh 'e' yImev!}
+<Shut up!>
+   {bIjatlh 'e' yImev!}
 
-"If you shine my nose, I will give you your nose."
-	{ghIchwIj DabochmoHchugh, ghIchlIj qanob.}
+<If you shine my nose, I will give you your nose.>
+   {ghIchwIj DabochmoHchugh, ghIchlIj qanob.}
 
 
 CURSE WARFARE (MU'QAD VES)
 
-"Your face looks like a collapsed star!"
-	{Dejpu'bogh Hov rur qablIj!}
+<Your face looks like a collapsed star!>
+   {Dejpu'bogh Hov rur qablIj!}
 
-"You are a total waste of good energy!"
-	{HoS lI' Dalo'Ha'chu'!}
+<You are a total waste of good energy!>
+   {HoS lI' Dalo'Ha'chu'!}
 
-"You belong in a black hole in the netherworld!"
-	{ghe''orDaq luSpet 'oH DaqlIj'e'!}
+<You belong in a black hole in the netherworld!>
+   {ghe''orDaq luSpet 'oH DaqlIj'e'!}
 
-[Transcriber's note: Actually {ghe''orDaq} is misspelled {#ghe' 'orDaq#} in
-the folder.]
+[[Transcriber's note: In the cassette folder (no folder comes with the CD)
+the word {ghe''orDaq} is misspelled {#ghe' 'orDaq#}.]]
 
-"Your mother has a smooth forehead!"
-	{Hab SoSlI' Quch!}
+<Your mother has a smooth forehead!>
+   {Hab SoSlI' Quch!}
 
 
 TOASTING
 
-"May your blood scream."
-	{'IwlIj jachjaj.}
+<May your blood scream.>
+   {'IwlIj jachjaj.}
 
-"May you always find a bloodworm in your glass."
-	{reH HIvje'lIjDaq 'Iwghargh Datu'jaj.}
+<May you always find a bloodworm in your glass.>
+   {reH HIvje'lIjDaq 'Iwghargh Datu'jaj.}
 
-"May you coordinates be free of tribbles."
-	{QuvlIjDaq yIH tu'be'lu'jaj.}
+<May you coordinates be free of tribbles.>
+   {QuvlIjDaq yIH tu'be'lu'jaj.}
 
-"May you endure the pain."
-	{'oy' DaSIQjaj.}
+<May you endure the pain.>
+   {'oy' DaSIQjaj.}
 
 
 PET COMMANDS
 
-"Sit!"
-	{ba'!}
+<Sit!>
+   {ba'!}
 
-"Attack!"
-	{HIv!}
+<Attack!>
+   {HIv!}
 
-"Do not eat that!"
-	{mev!}
+<Do not eat that!>
+   {mev!}
 
-"Stand!"
-	{Qam!}
+<Stand!>
+   {Qam!}
 
-"Chew that arm!"
-	{DeSvetlh yIv!}
+<Chew that arm!>
+   {DeSvetlh yIv!}
 
-[Transcriber's note: Actually this is misspelled {#DeSveth yIv!#} in the
-folder.]
+[[Transcriber's note: In the cassette folder (no folder comes with the CD)
+the word {DeSvetlh} is misspelled {#DeSveth#}.]]
 
-"Bad animal!"
-	{Ha'DIbaH qab!}
+<Bad animal!>
+   {Ha'DIbaH qab!}
 
 
 REPLACEMENT PROVERBS
 
-"Set fire on the side when there is danger."
-	{DopDaq qul yIchenmoH QobDI' ghu'.}
+<Set fire on the side when there is danger.>
+   {DopDaq qul yIchenmoH QobDI' ghu'.}
 
-"A great warrior is always prepared."
-	{reH Suvrup SuvwI''a'.}
+<A great warrior is always prepared.>
+   {reH Suvrup SuvwI''a'.}
 
-"Only fools laugh while warriors die."
-	{Hagh qoHpu' neH HeghtaHvIS SuvwI'pu'.}
+<Only fools laugh while warriors die.>
+   {Hagh qoHpu' neH HeghtaHvIS SuvwI'pu'.}
 
-"The Fek'lhr strikes again."
-	{HIvqa' veqlargh.}
+<The Fek'lhr strikes again.>
+   {HIvqa' veqlargh.}
 
 
 RITE OF ASCENSION (NENTAY)
 
-"Today you are a warrior."
-	{DaHjaj SuvwI' SoH.}
+<Today you are a warrior.>
+   {DaHjaj SuvwI' SoH.}
 
-"May you travel the river of blood."
-	{'Iw bIQtIqDaq bIlengjaj.}
+<May you travel the river of blood.>
+   {'Iw bIQtIqDaq bIlengjaj.}
 
-"You must show your heart."
-	{tIqlIj Da'angnIS.}
+<You must show your heart.>
+   {tIqlIj Da'angnIS.}
 
 
 SECRECY PROVERBS
 
-"A day without secrets is like a night without stars."
-	{Hov ghajbe'bogh ram rur pegh ghajbe'bogh jaj.}
+<A day without secrets is like a night without stars.>
+   {Hov ghajbe'bogh ram rur pegh ghajbe'bogh jaj.}
 
-"Knowledge of useful information may be unfortunate."
-	{De' lI' Sovlu'DI' chaq Do'Ha'.}
+<Knowledge of useful information may be unfortunate.>
+   {De' lI' Sovlu'DI' chaq Do'Ha'.}
 
-"Secrets never cease."
-	{not mev peghmey.}
+<Secrets never cease.>
+   {not mev peghmey.}
 
-"The stars will talk before I will."
-	{jIjatlhpa' jatlh Hovmey.}
+<The stars will talk before I will.>
+   {jIjatlhpa' jatlh Hovmey.}
 
 
 HOLIDAY PROVERBS
 
-"Eat everything or you will die without honor."
-	{Hoch DaSopbe'chugh batlh bIHeghbe'.}
+<Eat everything or you will die without honor.>
+   {Hoch DaSopbe'chugh batlh bIHeghbe'.}
 
-"I will remember this dinner forever."
-	{reH 'uQvam vIqawtaH.}
+<I will remember this dinner forever.>
+   {reH 'uQvam vIqawtaH.}
 
-"May you encounter Kahless in your dreams."
-	{bInajtaHvIS qeylIS Daghomjaj.}
+<May you encounter Kahless in your dreams.>
+   {bInajtaHvIS qeylIS Daghomjaj.}
 
-"Death before shame."
-	{bItuHpa' bIHeghjaj.}
+<Death before shame.>
+   {bItuHpa' bIHeghjaj.}
 
 
-	========================================
-	 SIDE ONE: [34:15 Minutes Playing Time]
-	========================================
+   ==========================================
+    SIDE ONE: [[34:15 Minutes Playing Time]]
+   ==========================================
 
-<*** Mark: [0:00] Business deal (untranslated dialogue) ***>
+[[# Mark: [0:00] Business deal (untranslated dialogue) #]]
 
-»Power Klingon« by Barry Levine, with Marc Okrand.
+"Power Klingon" by Barry Levine, with Marc Okrand.
 
 {nuqneH.}
-	["What do you want?"]
+   [[<What do you want?>]]
 
 {'IH jaj, qar'a'. maja'chuqjaj.}
-	["Beautiful day, isn't it? May we talk?"]
+   [[<Beautiful day, isn't it? May we talk?>]]
 
 {jISaHbe'.}
-	["I don't care."]
+   [[<I don't care.>]]
 
 {bISaHbe'. qatlh bIjatlh.}
 {chaq SoHvo' vay' vIje' vIneH.}
-	["You don't care. Why do you say that?"]
-	["Maybe I'd like to buy something from you."]
+   [[<You don't care. Why do you say that?>]]
+   [[<Maybe I'd like to buy something from you.>]]
 
 {tugh. #SSS.# bIje'be'chugh vaj bIHegh.}
 {quvwIj DatIchpu', tera'ngan.}
 {bIyIntaH 'e' Daqotlhbe'.}
-	["Hurry up! Buy or die."]
-	["You have insulted my honor, Terran."]
-	["You do not deserve to live."]
+   [[<Hurry up! Buy or die.>]]
+   [[<You have insulted my honor, Terran.>]]
+   [[<You do not deserve to live.>]]
 
-[disruptor fire]
+[[disruptor fire]]
 
 {yIjotchoH.}
-	["Calm down!"]
+   [[<Calm down!>]]
 
-[more disruptor fire]
+[[more disruptor fire]]
 
 {Dochvetlh yItlhap.}
-	["Take that!"]
+   [[<Take that!>]]
 
-[phaser fire]
+[[phaser fire]]
 
-[disruptor fire]
+[[disruptor fire]]
 
-[scream]
+[[scream]]
 
-<*** Mark: [0:54] Foreword ***>
+[[# Mark: [0:54] Foreword #]]
 
 The scene you have just heard was a disaster of misunderstanding. Both the
 Klingon and the Terran misinterpreted each others words. The Terran entered
@@ -324,9 +321,9 @@ established relationships within the Klingon Empire, such incidents have
 been common.
 
 This tape addresses the problem. In the previous tape in this series,
-»Conversational Klingon«, we studied the words, grammar and simple
+"Conversational Klingon", we studied the words, grammar and simple
 phrases, that a tourist on a short term stay might require in the Empire.
-In »Power Klingon« we will concentrate on the phrases and situations that
+In "Power Klingon" we will concentrate on the phrases and situations that
 will be encountered by the serious Klingon traveler, whether a business
 person, a student in residence, a diplomat or anyone on a mission that
 requires long term interaction with Klingon society. To succeed in those
@@ -338,7 +335,7 @@ inhabitants of the Klingon planets do not tolerate mistakes gracefully.
 This is not Italian.
 
 The history of the Empire is filled with conflicts fought over misunderstood
-language, such as the bloody so-called »War of Insults«, which lasted nearly
+language, such as the bloody so-called "War of Insults", which lasted nearly
 eight generations. The first step to understanding Klingon is to grasp your own
 power. You need to feel the language becoming an extension of you physical self,
 much as a knife is. Practice the lessons on this tape in front of a mirror, full
@@ -351,7 +348,7 @@ exercise these hidden strengths you will feel your physical and spiritual
 muscles hardening, and your instincts becoming that of a language warrior. You
 will begin to find the Klingon hidden within you.
 
-<*** Mark: [04:05] The four ideals of behavior ***>
+[[# Mark: [04:05] The four ideals of behavior #]]
 
 Let us start by demonstrating how acceptable Klingon conduct, derived from
 generations of battle behavior, can be conveyed through language. Above all
@@ -366,113 +363,113 @@ behavior, is to use qualifying suffixes. These are short syllables,
 attached to either nouns or verbs, to indicate the degree of accuracy.
 There're three suffixes for nouns, and three others for verbs.
 
-<*** Mark: [05:04] Accuracy (noun suffixes) ***>
+[[# Mark: [05:04] Accuracy (noun suffixes) #]]
 
 For nouns the qualifying suffixes indicate whether the noun is
-"so-called", "apparent" or "definite". For these suffixes, and throughout
+<so-called>, <apparent> or <definite>. For these suffixes, and throughout
 this tape, repeat each Klingon word or phrase after you've heard it twice.
 
-The noun suffix for "so-called" is {-qoq}, it indicates that the word is
+The noun suffix for <so-called> is {-qoq}, it indicates that the word is
 being used ironically, or inappropriately:
-	{-qoq}
-	{-qoq}
-	{...}
+   {-qoq}
+   {-qoq}
+   {...}
 
 Be sure you pronounce the sound at the beginning and end of this suffix as
 far back in your mouth as you can. Again:
-	{-qoq}
-	{-qoq}
-	{...}
+   {-qoq}
+   {-qoq}
+   {...}
 
 For instance, the word for peace is {roj}. If you believe the peace is
-actually non-existent you could indicate that it is the "so-called peace"
+actually non-existent you could indicate that it is the <so-called peace>
 by adding the suffix {-qoq}:
-	{rojqoq}
-	{rojqoq}
-	{...}
+   {rojqoq}
+   {rojqoq}
+   {...}
 
-The noun suffix for "apparent" is {-Hey}:
-	{-Hey}
-	{-Hey}
-	{...}
+The noun suffix for <apparent> is {-Hey}:
+   {-Hey}
+   {-Hey}
+   {...}
 
-As an example, the word for "strength" is {HoS}. So if you wanted to
+As an example, the word for <strength> is {HoS}. So if you wanted to
 indicate someone's apparent, although not yet proven strength, you could
 say:
-	{HoSHey}
-	{HoSHey}
-	{...}
+   {HoSHey}
+   {HoSHey}
+   {...}
 
-And the noun suffix for "definite" is {-na'}. It's used when there's no
+And the noun suffix for <definite> is {-na'}. It's used when there's no
 doubt in your mind about the accuracy of the statement.
-	{-na'}
-	{-na'}
-	{...}
+   {-na'}
+   {-na'}
+   {...}
 
 Notice how the sound stops abruptly at the end of this suffix, it's {-na'},
 not {#-na#}. For instance the word for leader is {DevwI'}, but a true
 leader, a definitely unquestioned leader is:
-	{DevwI'na'}
-	{DevwI'na'}
-	{...}
+   {DevwI'na'}
+   {DevwI'na'}
+   {...}
 
-<*** Mark: [07:08] Accuracy (verb suffixes) ***>
+[[# Mark: [07:08] Accuracy (verb suffixes) #]]
 
 Similarly, the three qualifying suffixes for verbs also signify respect
-for accuracy. The verb suffix for "clearly" or "perfectly" is:
-	{-chu'}
-	{-chu'}
-	{...}
+for accuracy. The verb suffix for <clearly> or <perfectly> is:
+   {-chu'}
+   {-chu'}
+   {...}
 
 The sound stops abruptly at the end of this suffix also. Listen carefully:
-	{-chu'}
-	{-chu'}
-	{...}
+   {-chu'}
+   {-chu'}
+   {...}
 
 The use of this verb suffix indicates, that an action in performed
 absolutely properly.
 
-"He aims the photon torpedo."
-	{'otlh peng Qeq.}
-	{'otlh peng Qeq.}
-	{...}
+<He aims the photon torpedo.>
+   {'otlh peng Qeq.}
+   {'otlh peng Qeq.}
+   {...}
 
-"He aims the photon torpedo perfectly."
-	{'otlh peng Qeqchu'.}
-	{'otlh peng Qeqchu'.}
-	{...}
+<He aims the photon torpedo perfectly.>
+   {'otlh peng Qeqchu'.}
+   {'otlh peng Qeqchu'.}
+   {...}
 
-The suffix {-bej} means "certainly" or "undoubtedly" or "definitely":
-	{-bej}
-	{-bej}
-	{...}
+The suffix {-bej} means <certainly> or <undoubtedly> or <definitely>:
+   {-bej}
+   {-bej}
+   {...}
 
-For instance {Dal} means "It is boring". To get the first sound in that
+For instance {Dal} means <It is boring>. To get the first sound in that
 word right, make sure your tongue is pointed straight up, towards the roof
 of your mouth.
 
-If you wanted to say "It's undoubtedly boring." you would say:
-	{Dalbej.}
-	{Dalbej.}
-	{...}
+If you wanted to say <It's undoubtedly boring.> you would say:
+   {Dalbej.}
+   {Dalbej.}
+   {...}
 
-And the verb suffix for "seemingly" or "apparently" is:
-	{-law'}
-	{-law'}
-	{...}
+And the verb suffix for <seemingly> or <apparently> is:
+   {-law'}
+   {-law'}
+   {...}
 
-"That ship is tracking us."
-	{nughoch Dujvetlh.}
-	{nughoch Dujvetlh.}
-	{...}
+<That ship is tracking us.>
+   {nughoch Dujvetlh.}
+   {nughoch Dujvetlh.}
+   {...}
 
-"That ship is apparently tracking us."
-	{nughochlaw' Dujvetlh.}
-	{nughochlaw' Dujvetlh.}
-	{...}
+<That ship is apparently tracking us.>
+   {nughochlaw' Dujvetlh.}
+   {nughochlaw' Dujvetlh.}
+   {...}
 
-This last suffix could also mean "I suspect" or "I think" such as "I
-suspect that ship is tracking us."
+This last suffix could also mean <I suspect> or <I think> such as <I
+suspect that ship is tracking us.>
 
 The injection of just a few of these qualifying suffixes, either noun or
 verb, demonstrates that the Terran places a high value on accuracy, and
@@ -487,7 +484,7 @@ market economy, the Klingon system operates under nearly full-time war
 conditions. Extreme suspicioness, especially of foreigners, is considered
 prudent behavior.
 
-<*** Mark: [10:33] Straightforwardness ***>
+[[# Mark: [10:33] Straightforwardness #]]
 
 Klingons do not bargain or haggle, and every deal, whether you are buyer,
 or seller, is a take-it-or-leave-it proposition. Every business deal,
@@ -507,88 +504,88 @@ pleasantries and small talk are considered signs of duplicity. Remember how
 the unfortunate Terran, heard at the beginning of this tape, initiated his
 deal discussion.
 
-"What do you want?" 
-	{nuqneH.}
+<What do you want?> 
+   {nuqneH.}
 
-"Beautiful day, isn't it? Can we talk?"
-	{'IH jaj, qar'a'. maja'chuqjaj.}
+<Beautiful day, isn't it? Can we talk?>
+   {'IH jaj, qar'a'. maja'chuqjaj.}
 
-"I do not care."
-	{jISaHbe'.}
+<I do not care.>
+   {jISaHbe'.}
 
 The Terran began on the wrong foot, by indicating something much less than
 straightforwardness. He undoubtedly will not do that again. Let us see how
 attention to straightforwardness would have fared better:
 
-"What do you want?"
-	{nuqneH.}
+<What do you want?>
+   {nuqneH.}
 
-"I wanna buy dilithium crystals."
-	{cha'pujqutmey vIje' vIneH.}
+<I wanna buy dilithium crystals.>
+   {cha'pujqutmey vIje' vIneH.}
 
-"Come with me!"
-	{HItlhej.}
+<Come with me!>
+   {HItlhej.}
 
-<*** Mark: [13:21] Aggressiveness and strength ***>
+[[# Mark: [13:21] Aggressiveness and strength #]]
 
 Now, let us move on to the last two ideals, namely: Aggressiveness and
 strength. Here are a few phrases which indicate these ideals. Use them
 frequently in whatever circumstances that may be appropriate:
 
-"No problem."
-	{qay'be'.}
-	{qay'be'.}
-	{...}
+<No problem.>
+   {qay'be'.}
+   {qay'be'.}
+   {...}
 
-"Hurry up!"
-	{tugh.}
-	{tugh.}
-	{...}
+<Hurry up!>
+   {tugh.}
+   {tugh.}
+   {...}
 
-"Shut up!"
-	{bIjatlh 'e' yImev.}
-	{bIjatlh 'e' yImev.}
-	{...}
+<Shut up!>
+   {bIjatlh 'e' yImev.}
+   {bIjatlh 'e' yImev.}
+   {...}
 
 If you're the buyer you can say:
 
-"Sell it to me now!"
-	{DaH jIHvaD yIngev.}
-	{DaH jIHvaD yIngev.}
-	{...}
+<Sell it to me now!>
+   {DaH jIHvaD yIngev.}
+   {DaH jIHvaD yIngev.}
+   {...}
 
 That sound in the middle of the last word is the same as the sound at the
-end of the Federation Standard »sing«. Be sure to say {ngev}, not {#nev#}
+end of the Federation Standard "sing". Be sure to say {ngev}, not {#nev#}
 or {#nyev#}.
 
 Or, if you're the seller you can say:
 
-"Pay or die."
-	{bIDIlbe'chugh, vaj bIHegh.}
-	{bIDIlbe'chugh, vaj bIHegh.}
-	{...}
+<Pay or die.>
+   {bIDIlbe'chugh, vaj bIHegh.}
+   {bIDIlbe'chugh, vaj bIHegh.}
+   {...}
 
 These next two phrases, which also indicate aggressiveness and strength,
 may sound like invitations to begin fighting. In fact they are common
 idioms whose origins are lost to antiquity.
 
-The first one often has the same effect as saying »Do not try to mislead
-me, if you value your life.« but literally translated it means:
+The first one often has the same effect as saying "Do not try to mislead
+me, if you value your life." but literally translated it means:
 
-"If you shine my nose, I will give you your nose."
-	{ghIchwIj DabochmoHchugh, ghIchlIj qanob.}
-	{ghIchwIj DabochmoHchugh, ghIchlIj qanob.}
-	{...}
+<If you shine my nose, I will give you your nose.>
+   {ghIchwIj DabochmoHchugh, ghIchlIj qanob.}
+   {ghIchwIj DabochmoHchugh, ghIchlIj qanob.}
+   {...}
 
-The other idiomatic phrase generally means »I am much stronger than you.«
+The other idiomatic phrase generally means "I am much stronger than you."
 literally translated it means:
 
-"My blood is thicker than yours."
-	{'IwwIj jeD law' 'IwlIj jeD puS.}
-	{'IwwIj jeD law' 'IwlIj jeD puS.}
-	{...}
+<My blood is thicker than yours.>
+   {'IwwIj jeD law' 'IwlIj jeD puS.}
+   {'IwwIj jeD law' 'IwlIj jeD puS.}
+   {...}
 
-<*** Mark: [15:51] Business deal (dialogue) ***>
+[[# Mark: [15:51] Business deal (dialogue) #]]
 
 Now let us put this all together and see how our Terran could have used
 some of these suffixes and phrases, as well as a straightforward approach
@@ -596,38 +593,38 @@ to bolster his position. Note how the Klingon trader's attitude changes as
 he realizes that the Terran is exhibiting all the expected ideals of
 accuracy, straightforwardness, aggressiveness and strength.
 
-"What do you want?"
-	{nuqneH.}
+<What do you want?>
+   {nuqneH.}
 
-"I definitely wanna buy dilithium crystals."
-	{cha'pujqutmey vIje' vIneHbej.}
+<I definitely wanna buy dilithium crystals.>
+   {cha'pujqutmey vIje' vIneHbej.}
 
-"I understand. Come with me!"
-	{jIyaj. HItlhej.}
+<I understand. Come with me!>
+   {jIyaj. HItlhej.}
 
-"Here they are. Two thousand credits. Hurry up!"
-	{naDev bIHtaH. cha'SaD DeQ. tugh.}
+<Here they are. Two thousand credits. Hurry up!>
+   {naDev bIHtaH. cha'SaD DeQ. tugh.}
 
-"Pay or die."
-	{bIDIlbe'chugh, vaj bIHegh.}
+<Pay or die.>
+   {bIDIlbe'chugh, vaj bIHegh.}
 
-"Shut up! I definitely want them."
-	{bIjatlh 'e' yImev. vIneHbej.}
+<Shut up! I definitely want them.>
+   {bIjatlh 'e' yImev. vIneHbej.}
 
-"If you shine my nose, I will give you your nose."
-	{ghIchwIj DabochmoHchugh, ghIchlIj qanob.}
+<If you shine my nose, I will give you your nose.>
+   {ghIchwIj DabochmoHchugh, ghIchlIj qanob.}
 
-"Take the credits!"
-	{DeQ tItlhap.}
+<Take the credits!>
+   {DeQ tItlhap.}
 
-"You transact business honorably."
-	{batlh malja' DaHuq.}
+<You transact business honorably.>
+   {batlh malja' DaHuq.}
 
-Now, take a brief break. "Relax!" {yIleS.}
+Now, take a brief break. <Relax!> {yIleS.}
 
-<*** Mark: [17:40] Ordering drinks [after first break] ***>
+[[# Mark: [17:40] Ordering drinks (after first break) #]]
 
-"Stop relaxing!" {bIleS 'e' yImev.}
+<Stop relaxing!> {bIleS 'e' yImev.}
 
 We have seen how the careful use of a few suffixes, words and phrases can
 increase your position in a business deal. A successful deal with a Klingon
@@ -642,25 +639,25 @@ tolerance for the brew. If you do so, and are able to utter the following
 phrase to the waiter, you will see your standing literally jump in the eyes
 of your business acquaintance.
 
-"Waiter."
-	{jabwI'.}
-	{jabwI'.}
-	{...}
+<Waiter.>
+   {jabwI'.}
+   {jabwI'.}
+   {...}
 
-"I will drink Romulan ale."
-	{romuluS HIq vItlhutlh.}
-	{romuluS HIq vItlhutlh.}
-	{...}
+<I will drink Romulan ale.>
+   {romuluS HIq vItlhutlh.}
+   {romuluS HIq vItlhutlh.}
+   {...}
 
-"Fill a large glass!"
-	{HIvje' tIn yIteb.}
-	{HIvje' tIn yIteb.}
-	{...}
+<Fill a large glass!>
+   {HIvje' tIn yIteb.}
+   {HIvje' tIn yIteb.}
+   {...}
 
-"Do not bring ice!"
-	{chuch yIqemQo'.}
-	{chuch yIqemQo'.}
-	{...}
+<Do not bring ice!>
+   {chuch yIqemQo'.}
+   {chuch yIqemQo'.}
+   {...}
 
 If you simply can not tolerate, or have not yet tried Romulan ale, do *not*
 order it. Here are two phrases for other drinks, which not while having the
@@ -668,30 +665,30 @@ impact of Romulan ale, are still impressive. Skip the Regulan bloodwine and
 black ale, which are known as tourists' drinks, and as in most foreign
 establishments, ordering in the native language still counts for something.
 
-"I will drink boiling wormwine."
-	{pubtaHbogh ghargh HIq vItlhutlh.}
-	{pubtaHbogh ghargh HIq vItlhutlh.}
-	{...}
+<I will drink boiling wormwine.>
+   {pubtaHbogh ghargh HIq vItlhutlh.}
+   {pubtaHbogh ghargh HIq vItlhutlh.}
+   {...}
 
 Or you could say:
 
-"I will drink two century old ale."
-	{cha'vatlh ben HIq vItlhutlh.}
-	{cha'vatlh ben HIq vItlhutlh.}
-	{...}
+<I will drink two century old ale.>
+   {cha'vatlh ben HIq vItlhutlh.}
+   {cha'vatlh ben HIq vItlhutlh.}
+   {...}
 
-Be sure you say the word for "drink" correctly, it is {tlhutlh}. If you
+Be sure you say the word for <drink> correctly, it is {tlhutlh}. If you
 mispronounce it, who knows what you'll be saying you plan to do with the wine or
-the ale? The word begins and ends with the same sound, sort of a combination »t«
-and whispered »l«.
-	{tlhutlh}
-	{tlhutlh}
-	{...}
+the ale? The word begins and ends with the same sound, sort of a combination "t"
+and whispered "l".
+   {tlhutlh}
+   {tlhutlh}
+   {...}
 
-<*** Mark: [20:39] Toasting ***>
+[[# Mark: [20:39] Toasting #]]
 
 When the drinks arrive it is important to use only the handful of accepted
-toasts. You can not simply say »To your health!« even if it were in Klingon,
+toasts. You can not simply say "To your health!" even if it were in Klingon,
 because it would be considered to bland. The following are some acceptable
 toasts. It does not matter which ones are used by the deal initiator and which
 by the deal acceptor, but it does matter that you recite them in Klingon with
@@ -705,40 +702,40 @@ finding his pieces.
 
 So, repeat these toasts exactly:
 
-"May your blood scream."
-	{'IwlIj jachjaj.}
-	{'IwlIj jachjaj.}
-	{...}
+<May your blood scream.>
+   {'IwlIj jachjaj.}
+   {'IwlIj jachjaj.}
+   {...}
 
-"May you always find a bloodworm in your glass."
-	{reH HIvje'lIjDaq 'Iwghargh Datu'jaj.}
-	{reH HIvje'lIjDaq 'Iwghargh Datu'jaj.}
-	{...}
+<May you always find a bloodworm in your glass.>
+   {reH HIvje'lIjDaq 'Iwghargh Datu'jaj.}
+   {reH HIvje'lIjDaq 'Iwghargh Datu'jaj.}
+   {...}
 
-"May your coordinates be free of tribbles."
-	{QuvlIjDaq yIH tu'be'lu'jaj.}
-	{QuvlIjDaq yIH tu'be'lu'jaj.}
-	{...}
+<May your coordinates be free of tribbles.>
+   {QuvlIjDaq yIH tu'be'lu'jaj.}
+   {QuvlIjDaq yIH tu'be'lu'jaj.}
+   {...}
 
-"May you die in battle."
-	{bISuvtaHvIS bIHeghjaj.}
-	{bISuvtaHvIS bIHeghjaj.}
-	{...}
+<May you die in battle.>
+   {bISuvtaHvIS bIHeghjaj.}
+   {bISuvtaHvIS bIHeghjaj.}
+   {...}
 
-"May you endure the pain."
-	{'oy' DaSIQjaj.}
-	{'oy' DaSIQjaj.}
-	{...}
+<May you endure the pain.>
+   {'oy' DaSIQjaj.}
+   {'oy' DaSIQjaj.}
+   {...}
 
-"Klingons forever!"
-	{reH tlhInganpu' taHjaj.}
-	{reH tlhInganpu' taHjaj.}
-	{...}
+<Klingons forever!>
+   {reH tlhInganpu' taHjaj.}
+   {reH tlhInganpu' taHjaj.}
+   {...}
 
-<*** Mark: [23:14] Cursing ***>
+[[# Mark: [23:14] Cursing #]]
 
 After the toasts, your deal partner will probably participate in what is known
-as a {mu'qaD veS}. This can be translated as "cursed warfare". It is a
+as a {mu'qaD veS}. This can be translated as <cursed warfare>. It is a
 ritualized contest of cursing that the renowned galactic ethnologist, Dr.
 ¿Frederick Renenberg? of the Federation Institute for Biodiversed Studies, has
 compared to the ancient game of football, that some Federation planets still
@@ -756,58 +753,58 @@ performance is nearly as important as the words themselves.
 Here're a few of the most common curses. Repeat each one with as much power and
 style as you can project.
 
-"Go mate with your targ!"
-	{targhlIj yIngagh. yIruch.}
-	{targhlIj yIngagh. yIruch.}
-	{...}
+<Go mate with your targ!>
+   {targhlIj yIngagh. yIruch.}
+   {targhlIj yIngagh. yIruch.}
+   {...}
 
-"Your face looks like a collapsed star."
-	{Dejpu'bogh Hov rur qablIj.}
-	{Dejpu'bogh Hov rur qablIj.}
-	{...}
+<Your face looks like a collapsed star.>
+   {Dejpu'bogh Hov rur qablIj.}
+   {Dejpu'bogh Hov rur qablIj.}
+   {...}
 
-"Your targ has a bigger brain than all your ancestors put together."
-	{targhlIj yab tIn law' no'lI' Hoch yabDu' tIn puS.}
-	{targhlIj yab tIn law' no'lI' Hoch yabDu' tIn puS.}
-	{...}
+<Your targ has a bigger brain than all your ancestors put together.>
+   {targhlIj yab tIn law' no'lI' Hoch yabDu' tIn puS.}
+   {targhlIj yab tIn law' no'lI' Hoch yabDu' tIn puS.}
+   {...}
 
-"You belong in a black hole in the netherword."
-	{ghe''orDaq luSpet 'oH, DaqlIj'e'.}
-	{ghe''orDaq luSpet 'oH, DaqlIj'e'.}
-	{...}
+<You belong in a black hole in the netherword.>
+   {ghe''orDaq luSpet 'oH, DaqlIj'e'.}
+   {ghe''orDaq luSpet 'oH, DaqlIj'e'.}
+   {...}
 
-"You are a total waste of good energy."
-	{HoS lI' Dalo'Ha'chu'.}
-	{HoS lI' Dalo'Ha'chu'.}
-	{...}
+<You are a total waste of good energy.>
+   {HoS lI' Dalo'Ha'chu'.}
+   {HoS lI' Dalo'Ha'chu'.}
+   {...}
 
 And the most insulting curse of all:
 
-"Your mother has a smooth forehead."
-	{Hab SoSlI' Quch.}
-	{Hab SoSlI' Quch.}
-	{...}
+<Your mother has a smooth forehead.>
+   {Hab SoSlI' Quch.}
+   {Hab SoSlI' Quch.}
+   {...}
 
 Be sure to pronounce the word for forehead correctly, it is {Quch}. The sound at
 the beginning is a noisy one, made as far back in your throat as you can go {Q},
 {Q}. If you don't say it right you may end up saying {Huch} instead of {Quch}
-and then you'd be talking about "money" instead of a "forehead".
+and then you'd be talking about <money> instead of a <forehead>.
 
 If you ever do engage in a bout of Klingon cursed warfare, just remember that it
 is not personal, and should be kept on a purely verbal basis, unless of course
 you actually like physical contact, and are good at it. Which is beyond the
 scope of this tape.
 
-Now "We will take a quick break." {loQ mayev.}
+Now <We will take a quick break.> {loQ mayev.}
 
-[Transcriber's note: Sic! I would have expected the phrase {loQ yIyev.} since
+[[Transcriber's note: Sic! I would have expected the phrase {loQ yIyev.} since
 Okrand uses this imperative form later on in the tape, but here he is really
-saying {mayev} "we pause", or (since Klingon is neutral as to time) "we will
-pause".]
+saying {mayev} <we pause>, or (since Klingon is neutral as to time) <we will
+pause>.]]
 
-<*** Mark: [27:05] Addressing a superior [after second break] ***>
+[[# Mark: [27:05] Addressing a superior (after second break) #]]
 
-"Stop breaking!" {bIyev 'e' yImev.}
+<Stop breaking!> {bIyev 'e' yImev.}
 
 Cursed warfare is one arena of Klingon life where everyone begins as an equal,
 but in everyday life, Klingon society is divided by a class system. The Empire's
@@ -817,52 +814,52 @@ is it, and ally oneself with it, and in the Empire respect comes to those who
 assert power. You will usually know who is most powerful by the Klingon military
 markings. Virtually everyone wears them. You can become familiar with these
 markings though the database maintained by the Federation's Intergalactic Office
-of Military Protocol. As an old Klingon proverb says »If you want to prosper,
-remember to honor honor.«
+of Military Protocol. As an old Klingon proverb says "If you want to prosper,
+remember to honor honor."
 
 When addressing someone of higher rank you may use the suffix {-neS}. It's an
 honorific and it's attached to the verb when showing deference. It's never
 required. Here's some practical phrases:
 
-"I am honored to see you."
-	{qaleghneS.}
-	{qaleghneS.}
-	{...}
+<I am honored to see you.>
+   {qaleghneS.}
+   {qaleghneS.}
+   {...}
 
 Be sure to get the vowel right in this suffix. It's {e}, {e} do not say {I}. If
-you say {qaleghnIS} instead of {qaleghneS} you'll be saying "I need to see you."
-instead of "I'm honored to see you."
+you say {qaleghnIS} instead of {qaleghneS} you'll be saying <I need to see you.>
+instead of <I'm honored to see you.>
 
-"You gunners are skilled, your honor."
-	{po'neS baHwI'pu'lI'.}
-	{po'neS baHwI'pu'lI'.}
-	{...}
+<You gunners are skilled, your honor.>
+   {po'neS baHwI'pu'lI'.}
+   {po'neS baHwI'pu'lI'.}
+   {...}
 
-"Your wealth is impressive, your honor."
-	{DojneS mIplIj.}
-	{DojneS mIplIj.}
-	{...}
+<Your wealth is impressive, your honor.>
+   {DojneS mIplIj.}
+   {DojneS mIplIj.}
+   {...}
 
 If you're asking permission of a superior for something you could say:
 
-"Give me a permit to sell dilithium, your honor."
-	{cha'puj vIngevmeH chaw' HInobneS.}
-	{cha'puj vIngevmeH chaw' HInobneS.}
-	{...}
+<Give me a permit to sell dilithium, your honor.>
+   {cha'puj vIngevmeH chaw' HInobneS.}
+   {cha'puj vIngevmeH chaw' HInobneS.}
+   {...}
 
 Or, if you wanted to explain yourself, you could say:
 
-"Permit me to explain my mistake, your honor."
-	{QaghwIj vIQIj 'e' yIchaw'neS.}
-	{QaghwIj vIQIj 'e' yIchaw'neS.}
-	{...}
+<Permit me to explain my mistake, your honor.>
+   {QaghwIj vIQIj 'e' yIchaw'neS.}
+   {QaghwIj vIQIj 'e' yIchaw'neS.}
+   {...}
 
-<*** Mark: [29:51] Use of the Standard Dialect ***>
+[[# Mark: [29:51] Use of the Standard Dialect #]]
 
 But the most obvious attention to honor by language is to speak the Emperor's
 dialect. The visitor to the Klingon Empire must determine the dialect of the
 current, or most recent Emperor, as that dialect is, of course, considered
-»Standard Klingon«. There have been times in the Empire's history when the
+"Standard Klingon". There have been times in the Empire's history when the
 standard dialect changed rather frequently, as the Emperor did. So it is
 important to be certain who's dialect reins. For Klingons language is a weapon
 and an ally, use the wrong dialect and you risk your reputation, use the correct
@@ -875,13 +872,13 @@ transaction. Everyone is well aware of that for them, you are the alien. You
 wait for a slight pause in conversation, and then in a loud voice you could say:
 {ro'qegh'Iwchab HInob.}
 
-This simply means "Give me the Rokeg blood pie." but is signifies that you're
+This simply means <Give me the Rokeg blood pie.> but is signifies that you're
 well aware of the standard dialect. It also let's everyone know that you know at
 least some Klingon, so they shouldn't try to get anything past you. Remember to
-pause, ever so slightly, twice in the middle of the word for "Rokeg blood pie",
+pause, ever so slightly, twice in the middle of the word for <Rokeg blood pie>,
 it's {ro'qegh'Iwchab}, not {#roqeghIwchab#}.
 
-"Good." {maj.}
+<Good.> {maj.}
 
 Let us try some other standard dialect phrases. First we will hear how this
 sentence sounds in one of the non-standard dialects, spoken in some remote parts
@@ -892,49 +889,49 @@ standard dialect, but in the following phrases the difference is most notable.
 Frequent use of these standard dialect phrases will highlight your recognition
 of the status quo and will show that you are not from the hinterlands.
 
-Here is "Have you seen my phaser?" in the regional dialect:
-	{#puhIchwIj Dalegbu.#}
+Here is <Have you seen my phaser?> in the regional dialect:
+   {#puhIchwIj Dalegbu.#}
 
-[Transcriber's note: I am uncertain as to whether this should be {#Dalegbu#} or
+[[Transcriber's note: I am uncertain as to whether this should be {#Dalegbu#} or
 {#Dalegpu#}. Nevertheless, this could be Morskan dialect (judging by the soft
-{H}) on the other hand it may not. Take a look in the KGT (Chapter »The Fiction
-of Klingon Conformity« p.7-44) and judge for yourself.]
+{H}) on the other hand it may not. Take a look in the KGT (Chapter "The Fiction
+of Klingon Conformity" p.7-44) and judge for yourself.]]
 
 And here it is in the standard dialect:
-	{pu'HIchwIj Daleghpu'.}
+   {pu'HIchwIj Daleghpu'.}
 
-[Transcriber's note: This Klingon sentence is not a question at all, it's a
-simple statement "You have seen my phaser." The interrogative suffix {-'a'} is
+[[Transcriber's note: This Klingon sentence is not a question at all, it's a
+simple statement <You have seen my phaser.> The interrogative suffix {-'a'} is
 missing, the correct Klingon sentence here should be: {pu'HIchwIj
-Daleghpu''a'.}]
+Daleghpu''a'.}]]
 
 Hear the difference? Try the standard dialect version again.
-	{pu'HIchwIj Daleghpu'.}
-	{pu'HIchwIj Daleghpu'.}
-	{...}
+   {pu'HIchwIj Daleghpu'.}
+   {pu'HIchwIj Daleghpu'.}
+   {...}
 
-Now here is "I want eat meat." in the regional dialect:
-	{#hadba vISop, vIne.#}
+Now here is <I want eat meat.> in the regional dialect:
+   {#hadba vISop, vIne.#}
 
 And the standard dialect:
-	{Ha'DIbaH vISop vIneH.}
-	{Ha'DIbaH vISop vIneH.}
-	{...}
+   {Ha'DIbaH vISop vIneH.}
+   {Ha'DIbaH vISop vIneH.}
+   {...}
 
-Again, note the sudden pause in the middle of the word for "meat", in the
+Again, note the sudden pause in the middle of the word for <meat>, in the
 standard dialect it's {Ha'DIbaH}. The regional version is {#hadba#}. And
 finally, this is...
 
-"What is that food?" regional dialect:
-	{#sojvets o, nuk.#}
+<What is that food?> regional dialect:
+   {#sojvets o, nuk.#}
 
-[Transcriber's note: Morskan dialect. There is {#ts#} for {tlh} at the end of
-syllables, no {H} at end of syllable and no {-'e'}. *Definitely* Morskan!]
+[[Transcriber's note: Morskan dialect. There is {#ts#} for {tlh} at the end of
+syllables, no {H} at end of syllable and no {-'e'}. *Definitely* Morskan!]]
 
 Standard dialect:
-	{Sojvetlh 'oH nuq'e'.}
-	{Sojvetlh 'oH nuq'e'.}
-	{...}
+   {Sojvetlh 'oH nuq'e'.}
+   {Sojvetlh 'oH nuq'e'.}
+   {...}
 
 Of course, before you go to the Empire, be sure to check on the ruling Emperor.
 If a new Emperor is in power you may need to update these phrases with the
@@ -942,16 +939,16 @@ prevailing dialect. The Federation has an Office of Foreign Affairs, which
 maintains files on language use, and we suggest contacting them before your
 visit.
 
-Now, "Take a brief rest!" {loQ yIleS.}
+Now, <Take a brief rest!> {loQ yIleS.}
 
 
-	========================================
-	 SIDE TWO: [36:30 Minutes Playing Time]
-	========================================
+   ==========================================
+    SIDE TWO: [[36:30 Minutes Playing Time]]
+   ==========================================
 
-<*** Mark: [34:15] Replacement Proverbs [after third break] ***>
+[[# Mark: [34:15] Replacement Proverbs (after third break) #]]
 
-"Stop resting!" {bIleS 'e' yImev.}
+<Stop resting!> {bIleS 'e' yImev.}
 
 Social situations, especially those involving eating and drinking, are extremely
 important occasions to assert yourself, as an individual worthy of respect. We
@@ -959,7 +956,7 @@ have seen how your can assert yourself positively by some overt display of the
 dominate dialect or by demonstrating allegiance to the ideals of behavior. But,
 you can also damage yourself irreparably if you fail to decisively correct some
 social mistake. This is were knowledge of the replacement proverbs is handy. The
-exact origin of the term »replacement proverbs« is obscure, but it apparently
+exact origin of the term "replacement proverbs" is obscure, but it apparently
 has to do with the use of the proverbs to replace lost respect, with newly
 earned respect after one has been embarrassed in a public setting. It does not
 really matter which proverb you use in any given embarrassing situation, all of
@@ -967,7 +964,7 @@ the proverbs relate to the restoration of credibility and so are used
 interchangeably in many different situations.
 
 Suppose you are a guest at a state dinner. It is after the toasting and first
-round of drinking, after the first course of »gagh«. The entrée of slimy
+round of drinking, after the first course of "gagh". The entrée of slimy
 tongue-balls is being served. On the way to your mouth three tongue-balls slip
 out of your fingers and hit the floor with loud splats. Heads turn toward you in
 eager anticipation, thinking that a food fight has begun. But they discover it
@@ -978,48 +975,48 @@ According to Klingon custom you must issue a proverb that allows you to regain
 your respect. You grab the fallen food in your hands, stand up, and loudly say
 one, or more, of the following replacement proverbs.
 
-"Set fire on the side when there is danger."
-	{DopDaq qul yIchenmoH, QobDI' ghu'.}
-	{DopDaq qul yIchenmoH, QobDI' ghu'.}
-	{...}
+<Set fire on the side when there is danger.>
+   {DopDaq qul yIchenmoH, QobDI' ghu'.}
+   {DopDaq qul yIchenmoH, QobDI' ghu'.}
+   {...}
 
 *That* wasn't very convincing. Try it again, this time with more authority.
-	{DopDaq qul yIchenmoH, QobDI' ghu'.}
-	{DopDaq qul yIchenmoH, QobDI' ghu'.}
-	{...}
+   {DopDaq qul yIchenmoH, QobDI' ghu'.}
+   {DopDaq qul yIchenmoH, QobDI' ghu'.}
+   {...}
 
 Basically, this means that you have deliberately staged a diversion, or at least
 you can shield your honor with such a pretense. Or you could say:
 
-"To defeat the enemy, be ready to fight alone."
-	{jagh DajeymeH, nIteb yISuvrup.}
-	{jagh DajeymeH, nIteb yISuvrup.}
-	{...}
+<To defeat the enemy, be ready to fight alone.>
+   {jagh DajeymeH, nIteb yISuvrup.}
+   {jagh DajeymeH, nIteb yISuvrup.}
+   {...}
 
 Here's some others:
 
-"A great warrior is always prepared."
-	{reH Suvrup SuvwI''a'.}
-	{reH Suvrup SuvwI''a'.}
-	{...}
+<A great warrior is always prepared.>
+   {reH Suvrup SuvwI''a'.}
+   {reH Suvrup SuvwI''a'.}
+   {...}
 
-"The fire is always hotter on someone else's face."
-	{reH latlh qabDaq qul tuj law', Hoch tuj puS.}
-	{reH latlh qabDaq qul tuj law', Hoch tuj puS.}
-	{...}
+<The fire is always hotter on someone else's face.>
+   {reH latlh qabDaq qul tuj law', Hoch tuj puS.}
+   {reH latlh qabDaq qul tuj law', Hoch tuj puS.}
+   {...}
 
-"Only fools laugh while warriors die."
-	{Hagh qoHpu' neH, HeghtaHvIS SuvwI'pu'.}
-	{Hagh qoHpu' neH, HeghtaHvIS SuvwI'pu'.}
-	{...}
+<Only fools laugh while warriors die.>
+   {Hagh qoHpu' neH, HeghtaHvIS SuvwI'pu'.}
+   {Hagh qoHpu' neH, HeghtaHvIS SuvwI'pu'.}
+   {...}
 
 And this final proverb refers to a Klingon devil-like creature known as the
 "Fek'lhr".
 
-"The Fek'lhr strikes again."
-	{HIvqa' veqlargh.}
-	{HIvqa' veqlargh.}
-	{...}
+<The Fek'lhr strikes again.>
+   {HIvqa' veqlargh.}
+   {HIvqa' veqlargh.}
+   {...}
 
 You will know your credability has been restored if the host and other
 guests resume eating as if nothing had ever happened, if the silence and
@@ -1027,10 +1024,10 @@ staring continue, you have failed to regain control of the situation. If
 you have failed, word will spread and from that point on you are a tourist
 an should consider booking passage *home*.
 
-<*** Mark: [:] Secrecy Proverbs ***>
+[[# Mark: [:] Secrecy Proverbs #]]
 
 Another set of proverbs also proves very useful in many kinds of
-situations. The are known collectively as »the secrecy proverbs«, probably
+situations. The are known collectively as "the secrecy proverbs", probably
 because they are most frequently used in situations where you want to show
 that you can keep a secret under *any* conditions. We will go over the most
 common secrecy proverbs.
@@ -1053,52 +1050,52 @@ Sensing your trust has been challenged you can flip out one of these *secrecy
 proverbs* as confidentially as one might flip on a cloaking device on the
 way to battle.
 
-"A day without secrets is like a night without stars."
-	{Hov ghajbe'bogh ram rur pegh ghajbe'bogh jaj.}
-	{Hov ghajbe'bogh ram rur pegh ghajbe'bogh jaj.}
-	{...}
+<A day without secrets is like a night without stars.>
+   {Hov ghajbe'bogh ram rur pegh ghajbe'bogh jaj.}
+   {Hov ghajbe'bogh ram rur pegh ghajbe'bogh jaj.}
+   {...}
 
 That was about as energetic as a ¿Tippernissian? flower going to seed. Now,
 try again:
-	{Hov ghajbe'bogh ram rur pegh ghajbe'bogh jaj.}
-	{Hov ghajbe'bogh ram rur pegh ghajbe'bogh jaj.}
-	{...}
+   {Hov ghajbe'bogh ram rur pegh ghajbe'bogh jaj.}
+   {Hov ghajbe'bogh ram rur pegh ghajbe'bogh jaj.}
+   {...}
 
 When you say {ghajbe'bogh}, which come up twice in that phrase, be sure to
 make the beginning and ending sounds nice and raspy, {gh}, {gh}, {gh}.
-	{ghajbe'bogh}
+   {ghajbe'bogh}
 
 Here's another:
 
-"No-one eavesdrops at an open door."
-	{lojmIt poSDaq Daq pagh.}
-	{lojmIt poSDaq Daq pagh.}
-	{...}
+<No-one eavesdrops at an open door.>
+   {lojmIt poSDaq Daq pagh.}
+   {lojmIt poSDaq Daq pagh.}
+   {...}
 
 Try this one:
 
-"Knowledge of useful information may be unfortunate."
-	{De' lI' Sovlu'DI', chaq Do'Ha'.}
-	{De' lI' Sovlu'DI', chaq Do'Ha'.}
-	{...}
+<Knowledge of useful information may be unfortunate.>
+   {De' lI' Sovlu'DI', chaq Do'Ha'.}
+   {De' lI' Sovlu'DI', chaq Do'Ha'.}
+   {...}
 
 And another:
 
-"Secrets never cease."
-	{not mev peghmey.}
-	{not mev peghmey.}
-	{...}
+<Secrets never cease.>
+   {not mev peghmey.}
+   {not mev peghmey.}
+   {...}
 
 And finally, one of the oldest of the secrecy proverbs:
 
-"The stars will talk before I will."
-	{jIjatlhpa' jatlh Hovmey.}
-	{jIjatlhpa' jatlh Hovmey.}
-	{...}
+<The stars will talk before I will.>
+   {jIjatlhpa' jatlh Hovmey.}
+   {jIjatlhpa' jatlh Hovmey.}
+   {...}
 
-"Good." {maj.}
+<Good.> {maj.}
 
-<*** Mark: [:] Holiday Proverbs ***>
+[[# Mark: [:] Holiday Proverbs #]]
 
 Proverbs are not the only socially useful sayings, there are also special
 phrases, traditionally used on holidays. We will focus on two of the best
@@ -1110,83 +1107,83 @@ dish of stuffed {to'baj} legs to a host's house and in return is allowed to
 take any non-sacred item in the house. The actual origin of this custom is
 obscure. Here are a few of the holiday phrases:
 
-[Transcriber's note: The word {QI'lop} appears in KLI's list of new words
-and is there said to be »a guess as to what Michael Dorn was pronouncing«.
+[[Transcriber's note: The word {QI'lop} appears in KLI's list of new words
+and is there said to be "a guess as to what Michael Dorn was pronouncing".
 My guess would rather have involved an {e} as the first vowel, and
 possibly {t} instead of {'}, and maybe even {q} as the first letter. But
 then again, when it is Dorn talking, it isn't exactly easy to hear the
 difference between {Q}/{q} and {'}/{t}. I would think, however, that
 whoever did that list would know more than me about Dorn's pronounciation.
 (But he can't be entierly sane though, since he insist that the word
-{Qaw'} "destroy" is a noun. :-)]
+{Qaw'} <destroy> is a noun. :-)]]
 
-"Accept these stuffed {to'baj} legs."
-	{to'baj 'uS lughoDlu'bogh tIlaj.}
-	{to'baj 'uS lughoDlu'bogh tIlaj.}
-	{...}
+<Accept these stuffed {to'baj} legs.>
+   {to'baj 'uS lughoDlu'bogh tIlaj.}
+   {to'baj 'uS lughoDlu'bogh tIlaj.}
+   {...}
 
-"I will take *that* to my home."
-	{juHwIjDaq Dochvetlh vItlhap.}
-	{juHwIjDaq Dochvetlh vItlhap.}
-	{...}
+<I will take *that* to my home.>
+   {juHwIjDaq Dochvetlh vItlhap.}
+   {juHwIjDaq Dochvetlh vItlhap.}
+   {...}
 
-"You have some stuffed {to'baj} leg in your teeth."
-	{Ho'Du'lIjDaq to'baj 'uSHom lughoDlu'bogh tu'lu'.}
-	{Ho'Du'lIjDaq to'baj 'uSHom lughoDlu'bogh tu'lu'.}
-	{...}
+<You have some stuffed {to'baj} leg in your teeth.>
+   {Ho'Du'lIjDaq to'baj 'uSHom lughoDlu'bogh tu'lu'.}
+   {Ho'Du'lIjDaq to'baj 'uSHom lughoDlu'bogh tu'lu'.}
+   {...}
 
-"Eat everything or you will die without honor."
-	{Hoch DaSopbe'chugh, batlh bIHeghbe'.}
-	{Hoch DaSopbe'chugh, batlh bIHeghbe'.}
-	{...}
+<Eat everything or you will die without honor.>
+   {Hoch DaSopbe'chugh, batlh bIHeghbe'.}
+   {Hoch DaSopbe'chugh, batlh bIHeghbe'.}
+   {...}
 
 Of course that last expression is not meant literally, it's roughly like
-saying: »Eat! Eat!« Here's some others:
+saying: "Eat! Eat!" Here's some others:
 
-"I will remember this dinner forever."
-	{reH 'uQvam vIqawtaH.}
-	{reH 'uQvam vIqawtaH.}
-	{...}
+<I will remember this dinner forever.>
+   {reH 'uQvam vIqawtaH.}
+   {reH 'uQvam vIqawtaH.}
+   {...}
 
-"Between us, curses run like water."
-	{matay'DI', vIHtaHbogh bIQ rur mu'qaDmey.}
-	{matay'DI', vIHtaHbogh bIQ rur mu'qaDmey.}
-	{...}
+<Between us, curses run like water.>
+   {matay'DI', vIHtaHbogh bIQ rur mu'qaDmey.}
+   {matay'DI', vIHtaHbogh bIQ rur mu'qaDmey.}
+   {...}
 
 Practice these expressions, and during the next {QI'lop} holiday, use
 them. You might also want to practice eating some stuffed {to'baj} legs.
 
-<*** Mark: [:] Empire Union Day ***>
+[[# Mark: [:] Empire Union Day #]]
 
 Another well known holiday is Empire Union Day, which comes in the third
 month. It celebrates the honor of Kahless the Unforgettable, who united the
 Klingon Homeworld. Here are some well known traditional phrases for Empire
 Union Day:
 
-"May the Klingon Empire continue forever!"
-	{reH tlhIngan wo' taHjaj.}
-	{reH tlhIngan wo' taHjaj.}
-	{...}
+<May the Klingon Empire continue forever!>
+   {reH tlhIngan wo' taHjaj.}
+   {reH tlhIngan wo' taHjaj.}
+   {...}
 
-"May the spirit of Kahless live within you!"
-	{SoHDaq qeylIS qa' yInjaj.}
-	{SoHDaq qeylIS qa' yInjaj.}
-	{...}
+<May the spirit of Kahless live within you!>
+   {SoHDaq qeylIS qa' yInjaj.}
+   {SoHDaq qeylIS qa' yInjaj.}
+   {...}
 
-"May you encounter Kahless in your dreams!"
-	{bInajtaHvIS, qeylIS Daghomjaj.}
-	{bInajtaHvIS, qeylIS Daghomjaj.}
-	{...}
+<May you encounter Kahless in your dreams!>
+   {bInajtaHvIS, qeylIS Daghomjaj.}
+   {bInajtaHvIS, qeylIS Daghomjaj.}
+   {...}
 
-"Death before shame!"
-	{vItuHpa', bIHeghjaj.}
-	{vItuHpa', bIHeghjaj.}
-	{...}
+<Death before shame!>
+   {vItuHpa', bIHeghjaj.}
+   {vItuHpa', bIHeghjaj.}
+   {...}
 
-<*** Mark: [:] Rite of Ascension ***>
+[[# Mark: [:] Rite of Ascension #]]
 
 The biggest personal holiday in the life of any young Klingon is, of
-course, the coming of age ceremony, called "The Rite of Ascension" or the
+course, the coming of age ceremony, called <The Rite of Ascension> or the
 {nentay}. It takes place in the seventh month of the young Klingon's
 fifteenth year. If you are fortunate enough to be invited to a {nentay}, it
 is best to look over doctor ¿Leopold Miclics? book on the subject before
@@ -1202,38 +1199,38 @@ attention: Touch your left shoulder with your right hand, and then quickly
 make it into a fist in front of your chest. This should all be in one
 motion. You then say the following, which means:
 
-"Today, you are a warrior."
-	{DaHjaj, SuvwI' SoH.}
-	{DaHjaj, SuvwI' SoH.}
-	{...}
+<Today, you are a warrior.>
+   {DaHjaj, SuvwI' SoH.}
+   {DaHjaj, SuvwI' SoH.}
+   {...}
 
 Here are a couple of other phrases you might also use:
 
-"May you travel the river of blood."
-	{'Iw bIQtIqDaq bIlengjaj.}
-	{'Iw bIQtIqDaq bIlengjaj.}
-	{...}
+<May you travel the river of blood.>
+   {'Iw bIQtIqDaq bIlengjaj.}
+   {'Iw bIQtIqDaq bIlengjaj.}
+   {...}
 
-"You must show your heart!"
-	{tIqlIj Da'angnIS.}
-	{tIqlIj Da'angnIS.}
-	{...}
+<You must show your heart!>
+   {tIqlIj Da'angnIS.}
+   {tIqlIj Da'angnIS.}
+   {...}
 
-"May the bile of the vanquished fill your hands."
-	{jagh lucharghlu'ta'bogh HuH ghopDu'lIj lungaSjaj.}
-	{jagh lucharghlu'ta'bogh HuH ghopDu'lIj lungaSjaj.}
-	{...}
+<May the bile of the vanquished fill your hands.>
+   {jagh lucharghlu'ta'bogh HuH ghopDu'lIj lungaSjaj.}
+   {jagh lucharghlu'ta'bogh HuH ghopDu'lIj lungaSjaj.}
+   {...}
 
-"Good." {maj.}
+<Good.> {maj.}
 
 And do not forget to bring some kind of weapon, as a present, for the new
 adult.
 
-Now "Take a short pause!" {loQ yIyev.}
+Now <Take a short pause!> {loQ yIyev.}
 
-<*** Mark: [:] Mating Ritual [after fourth break] ***>
+[[# Mark: [:] Mating Ritual (after fourth break) #]]
 
-"Stop pausing." {bIyev 'e' yImev.}
+<Stop pausing.> {bIyev 'e' yImev.}
 
 Of course the most universal coming of age ceremony, in any part of the
 Galaxy, is the *mating* ritual. Except, of course, for one species reported
@@ -1257,25 +1254,25 @@ immediately turn a suitor into a combatant. The Federation has already
 received several dozen reports of such fatalities, including one
 unfortunate tourist who reportedly responded by *laughing*.
 
-[Transcriber's note: ¿Helenian Mynx? or perhaps ¿Hellenian Lynx? both have
-been used on the tlhIngan-Hol mailing list.]
+[[Transcriber's note: ¿Helenian Mynx? or perhaps ¿Hellenian Lynx? both have
+been used on the tlhIngan-Hol mailing list.]]
 
 If you wish to discourage such attention by either a male or female
 Klingon, turn your side to them, either right or left side will do, and say
 the following. It means:
 
-"The blood of the warrior grows cold."
-	{bIrchoH SuvwI' 'Iw.}
-	{bIrchoH SuvwI' 'Iw.}
-	{...}
+<The blood of the warrior grows cold.>
+   {bIrchoH SuvwI' 'Iw.}
+   {bIrchoH SuvwI' 'Iw.}
+   {...}
 
 Now, in most cases, that'll do the trick. If not, you could try to say
 the following, which means:
 
-"I must wash my hair now."
-	{DaH jIbwIj vISay'nISmoH.}
-	{DaH jIbwIj vISay'nISmoH.}
-	{...}
+<I must wash my hair now.>
+   {DaH jIbwIj vISay'nISmoH.}
+   {DaH jIbwIj vISay'nISmoH.}
+   {...}
 
 By this time the suitor should have resumed normal behavior again, as if
 *nothing* had happened. In the rare instance that these two warnings do not
@@ -1289,133 +1286,133 @@ non-verbal phrase, indicating interest and availability.
 
 For a female that means a low sound that's a cross between a growl and a
 purr. Ready females? Repeat this:
-	{#hghghghgh#}
-	{#hghghghgh#}
-	{...}
+   {#hghghghgh#}
+   {#hghghghgh#}
+   {...}
 
-[Transcriber's note: Initial "h" is a soft one, "gh" pronounced as usual.
+[[Transcriber's note: Initial <h> is a soft one, <gh> pronounced as usual.
 As you can understand this sound is somewhat hard to transcribe. To really
-grasp it you'll *have to* listen to the tape.]
+grasp it you'll *have to* listen to the tape.]]
 
 That was a little too much. Try once more.
-	{#hhhghghghgh#}
-	{#hhhghghghgh#}
-	{...}
+   {#hhhghghghgh#}
+   {#hhhghghghgh#}
+   {...}
 
-"Good." {maj.}
+<Good.> {maj.}
 
 And males, whether you're responding or initiating, the sound is this:
-	{#xxxxxhhh#}
-	{#xxxxxhhh#}
-	{...}
+   {#xxxxxhhh#}
+   {#xxxxxhhh#}
+   {...}
 
-[Transcriber's note: This simply don't fit within the Klingon romanized
+[[Transcriber's note: This simply don't fit within the Klingon romanized
 transcription, so I can't transcribe it at all. This growling has its base
-somewhere in the stomach region. - This time you really *must* listen to
-the tape to get it - there is no other way.]
+somewhere in the stomach region. -- This time you really *must* listen to
+the tape to get it -- there is no other way.]]
 
 That won't even attract a targ in heat! Try again.
 
-	{#XXXXXh#}
-	{#XXXXXh#}
-	{...}
+   {#XXXXXh#}
+   {#XXXXXh#}
+   {...}
 
-[Transcriber's note: Another untranscribeable line.]
+[[Transcriber's note: Another untranscribeable line.]]
 
-"Good." {maj.}
+<Good.> {maj.}
 
 If the other party *is* interested, nature will have taken over by this time
 and the rest is beyond the scope of this tape.
 
-<*** Mark: [:] Clipped Klingon ***>
+[[# Mark: [:] Clipped Klingon #]]
 
 As in the mating ritual, the Klingon battle ritual unfold through an
 accepted form of discourse and given that Klingon society is constantly on
 a war footing it is entirely possible the long-term visitor will be placed
 in a battle situation. Most Klingon language courses teaches *proper* Klingon
 and such language is acceptable in many situations, but for battle
-situations the prevailing speech is, what is known as »clipped Klingon«. In
-»clipped Klingon« syllables, or even entire words are left out. This manner
+situations the prevailing speech is, what is known as "clipped Klingon". In
+"clipped Klingon" syllables, or even entire words are left out. This manner
 of speaking evolved through a long history of constant battle situations
 which demanded rapid communication. Occasional use of such clipped phrases
 in everyday Klingon life can only *increase* one's standing as it indicates
 an allegiance to military jargon. It could also indicate the urgency of a
 statement.
 
-Here is "Do you understand?" in proper Klingon:
-	{bIyaj'a'.}
-	{bIyaj'a'.}
-	{...}
+Here is <Do you understand?> in proper Klingon:
+   {bIyaj'a'.}
+   {bIyaj'a'.}
+   {...}
 
-And here's the clipped Klingon version, which means "Understood?"
-	{yaj'a'.}
-	{yaj'a'.}
-	{...}
+And here's the clipped Klingon version, which means <Understood?>
+   {yaj'a'.}
+   {yaj'a'.}
+   {...}
 
 Now, here are some other useful phrases, first in proper Klingon, then in
 clipped Klingon:
 
-"I do not understand."
-	{jIyajbe'.}
-	{jIyajbe'.}
-	{...}
+<I do not understand.>
+   {jIyajbe'.}
+   {jIyajbe'.}
+   {...}
 
 And in clipped Klingon:
-	{yajbe'.}
-	{yajbe'.}
-	{...}
+   {yajbe'.}
+   {yajbe'.}
+   {...}
 
-"Where is the bathroom?"
-	{nuqDaq 'oH puchpa''e'.}
-	{nuqDaq 'oH puchpa''e'.}
-	{...}
-
-Clipped Klingon:
-	{nuqDaq puchpa'.}
-	{nuqDaq puchpa'.}
-	{...}
-
-"How much fuel do we have left?"
-	{nIn 'ar wIghaj.}
-	{nIn 'ar wIghaj.}
-	{...}
+<Where is the bathroom?>
+   {nuqDaq 'oH puchpa''e'.}
+   {nuqDaq 'oH puchpa''e'.}
+   {...}
 
 Clipped Klingon:
-	{nIn 'ar ghaj.}
-	{nIn 'ar ghaj.}
-	{...}
+   {nuqDaq puchpa'.}
+   {nuqDaq puchpa'.}
+   {...}
 
-"I'm lost."
-	{DaqwIj vISovbe'.}
-	{DaqwIj vISovbe'.}
-	{...}
+<How much fuel do we have left?>
+   {nIn 'ar wIghaj.}
+   {nIn 'ar wIghaj.}
+   {...}
 
 Clipped Klingon:
-	{DaqwIj Sovbe'.}
-	{DaqwIj Sovbe'.}
-	{...}
+   {nIn 'ar ghaj.}
+   {nIn 'ar ghaj.}
+   {...}
+
+<I'm lost.>
+   {DaqwIj vISovbe'.}
+   {DaqwIj vISovbe'.}
+   {...}
+
+Clipped Klingon:
+   {DaqwIj Sovbe'.}
+   {DaqwIj Sovbe'.}
+   {...}
 
 And finally...
 
-"Where do I sleep?"
-	{nuqDaq jIQong.}
-	{nuqDaq jIQong.}
-	{...}
+<Where do I sleep?>
+   {nuqDaq jIQong.}
+   {nuqDaq jIQong.}
+   {...}
 
 And the clipped Klingon:
-	{nuqDaq Qong.}
-	{nuqDaq Qong.}
-	{...}
+   {nuqDaq Qong.}
+   {nuqDaq Qong.}
+   {...}
 
-Good question! Now we will "Take a short nap!" {loQ yIDum.}
+Good question! Now we will <Take a short nap!> {loQ yIDum.}
 
-<*** Mark: [:] Telling jokes [after fifth break] ***>
+[[# Mark: [:] Telling jokes (after fifth break) #]]
 
-"Stop napping!" {bIDum 'e' yImev.}
+<Stop napping!> {bIDum 'e' yImev.}
 
-There is a saying that is popular on some Federation starships; »What is
-the difference between a Klingon joke and phaser dental surgery?« The
-answer, of course, is »nothing«.
+There is a saying that is popular on some Federation starships; "What is
+the difference between a Klingon joke and phaser dental surgery?" The
+answer, of course, is: "nothing".
 
 It is often said that Klingons have *no* sense of humor, this is *not* true.
 There *is* a Klingon sense of humor, but from the point of view of most
@@ -1427,52 +1424,52 @@ ears have have fallen off but the Klingons will be on the floor and you
 will once again enhance your status, this time by being *the hit* of the
 party. Here is the first one:
 
-"Two Federation crewmen arrive on Kronos."
-	{Qo'noSDaq paw cha' DIvI' beq.}
+<Two Federation crewmen arrive on Kronos.>
+   {Qo'noSDaq paw cha' DIvI' beq.}
 
-"They meet a Klingon guard."
-	{tlhIngan 'avwI' lughom.}
+<They meet a Klingon guard.>
+   {tlhIngan 'avwI' lughom.}
 
-"They ask him: »Can we get to the Great Hall from here?«"
-	{lutlhob; »naDevvo' vaS'a'Daq majaHlaH'a'.«}
+<They ask him: "Can we get to the Great Hall from here?">
+   {lutlhob; "naDevvo' vaS'a'Daq majaHlaH'a'."}
 
-"The guard answers: »If the bugs do not bite you.«"
-	{jang 'avwI'; »lIchopbe'chugh ghewmey.«}
+<The guard answers: "If the bugs do not bite you.">
+   {jang 'avwI'; "lIchopbe'chugh ghewmey."}
 
-[Michael Dorn chuckles.] That is the end of that Klingon joke... Here is
+[[Michael Dorn chuckles.]] That is the end of that Klingon joke... Here is
 another one: Memorize it!
 
-"Are warriors red?"
-	{Doq'a' SuvwI'pu'.}
+<Are warriors red?>
+   {Doq'a' SuvwI'pu'.}
 
-"No. They are green."
-	{ghobe'. SuD.}
+<No. They are green.>
+   {ghobe'. SuD.}
 
 There is one more to go: Memorize it!
 
-"A prisoner says to the guard: »I am hungry.«"
-	{'avwI'vaD jatlh qama'; »jIghung.«}
+<A prisoner says to the guard: "I am hungry.">
+   {'avwI'vaD jatlh qama'; "jIghung."}
 
-"The guard replies: »I am also hungry.«"
-	{jang 'avwI'; »jIghung je.«}
+<The guard replies: "I am also hungry.">
+   {jang 'avwI'; "jIghung je."}
 
-"The prisoner says: »I am thirsty.«"
-	{jatlh qama'; »jI'oj.«}
+<The prisoner says: "I am thirsty.">
+   {jatlh qama'; "jI'oj."}
 
-"The guard replies: »I am also thirsty.«"
-	{jang 'avwI'; »jI'oj je.«}
+<The guard replies: "I am also thirsty.">
+   {jang 'avwI'; "jI'oj je."}
 
-"The prisoner says: »I am very tired.«"
-	{jatlh qama'; »jIDoy'qu'.«}
+<The prisoner says: "I am very tired.">
+   {jatlh qama'; "jIDoy'qu'."}
 
-"The guard says: »I am not tired.«"
-	{jatlh 'avwI'; »jIDoy'be'.«}
+<The guard says: "I am not tired.">
+   {jatlh 'avwI'; "jIDoy'be'."}
 
 There is one good thing about Klingon humor, they *love* their jokes the
 way other cultures love their music. They will listen with delight to the
 same ones over and over again, so you need only remember these three jokes.
 
-<*** Mark: [:] Addressing Pets ***>
+[[# Mark: [:] Addressing Pets #]]
 
 Finally, we come to a subject that is no laughing matter. How to talk to
 your pets. It is becoming quite stylish for Terrans who are spending long
@@ -1492,7 +1489,7 @@ from a sitting position in the middle of a busy street.
 As with any stand-alone human commands, these pet commands should be
 spoken with great authority and should be preceded by the word {SuH},
 which some Klingon speakers pronounce as {#SSS#}. This sounds like the
-Federation Standard expression »Sh!«, which means to be quiet. But, in
+Federation Standard expression "Sh!", which means to be quiet. But, in
 Klingon, this simply means that the speaker is about to give a command.
 Here are the commands.
 
@@ -1503,84 +1500,84 @@ animal to go crazy, trying to obey *everything*.
 
 Here's the command for:
 
-"Sit!"
-	{ba'.}
-	{ba'.}
-	{...}
+<Sit!>
+   {ba'.}
+   {ba'.}
+   {...}
 
-"Stand!"
-	{Qam.}
-	{Qam.}
-	{...}
+<Stand!>
+   {Qam.}
+   {Qam.}
+   {...}
 
-"Come here!"
-	{naDev ghoS.}
-	{naDev ghoS.}
-	{...}
+<Come here!>
+   {naDev ghoS.}
+   {naDev ghoS.}
+   {...}
 
-"Eat!"
-	{Sop.}
-	{Sop.}
-	{...}
+<Eat!>
+   {Sop.}
+   {Sop.}
+   {...}
 
-"Stop eating!"
-	{Sop 'e' mev.}
-	{Sop 'e' mev.}
-	{...}
+<Stop eating!>
+   {Sop 'e' mev.}
+   {Sop 'e' mev.}
+   {...}
 
-"Attack!"
-	{HIv.}
-	{HIv.}
-	{...}
+<Attack!>
+   {HIv.}
+   {HIv.}
+   {...}
 
-"Bite his leg off!"
-	{'uSDaj chop. chev.}
-	{'uSDaj chop. chev.}
-	{...}
+<Bite his leg off!>
+   {'uSDaj chop. chev.}
+   {'uSDaj chop. chev.}
+   {...}
 
-"Bite her leg off!"
-	{'uSDaj chop. chev.}
-	{'uSDaj chop. chev.}
-	{...}
+<Bite her leg off!>
+   {'uSDaj chop. chev.}
+   {'uSDaj chop. chev.}
+   {...}
 
-Notice that there's no difference in Klingon between "his" and "her".
+Notice that there's no difference in Klingon between <his> and <her>.
 
-"Chew that arm!"
-	{DeSvetlh yIv.}
-	{DeSvetlh yIv.}
-	{...}
+<Chew that arm!>
+   {DeSvetlh yIv.}
+   {DeSvetlh yIv.}
+   {...}
 
-"Do not do that!"
-	{mev.}
-	{mev.}
-	{...}
+<Do not do that!>
+   {mev.}
+   {mev.}
+   {...}
 
-"Get off that transporter control panel!"
-	{jol SeHlaw lItHa'.}
-	{jol SeHlaw lItHa'.}
-	{...}
+<Get off that transporter control panel!>
+   {jol SeHlaw lItHa'.}
+   {jol SeHlaw lItHa'.}
+   {...}
 
-"Bring that here!"
-	{naDev Dochvetlh qem.}
-	{naDev Dochvetlh qem.}
-	{...}
+<Bring that here!>
+   {naDev Dochvetlh qem.}
+   {naDev Dochvetlh qem.}
+   {...}
 
-"I really mean it this time, bring that here!"
-	{naDev Dochvetlh qemqu'.}
-	{naDev Dochvetlh qemqu'.}
-	{...}
+<I really mean it this time, bring that here!>
+   {naDev Dochvetlh qemqu'.}
+   {naDev Dochvetlh qemqu'.}
+   {...}
 
-"Bad! Bad, animal!"
-	{qab. Ha'DIbaH, qab.}
-	{qab. Ha'DIbaH, qab.}
-	{...}
+<Bad! Bad, animal!>
+   {qab. Ha'DIbaH, qab.}
+   {qab. Ha'DIbaH, qab.}
+   {...}
 
-"Do not lick my forehead!"
-	{QuchwIj roSQo'.}
-	{QuchwIj roSQo'.}
-	{...}
+<Do not lick my forehead!>
+   {QuchwIj roSQo'.}
+   {QuchwIj roSQo'.}
+   {...}
 
-<*** Mark: [:] Example Dialogues ***>
+[[# Mark: [:] Example Dialogues #]]
 
 Finally we will hear several scenes that demonstrates how a Terran might
 use everything we have learned on this tape in the course of a single
@@ -1589,126 +1586,126 @@ cursed warfare, dinner at the house of a prominent Klingon on Empire Union
 Day, a mating ritual overture, confronting a pet and telling a Klingon
 joke.
 
-<*** Mark: [:] A business deal (dialogue) ***>
+[[# Mark: [:] A business deal (dialogue) #]]
 
-"What do you want?"
-	{nuqneH.}
+<What do you want?>
+   {nuqneH.}
 
-"I definitely want sixty ion triggers."
-	{javmaH tat chu'wI' vIneHbej.}
+<I definitely want sixty ion triggers.>
+   {javmaH tat chu'wI' vIneHbej.}
 
-"Give me five thousand credits! Pay now!"
-	{vaghSaD DeQ HInob. DaH yIDIl.}
+<Give me five thousand credits! Pay now!>
+   {vaghSaD DeQ HInob. DaH yIDIl.}
 
-"No problem! Here!"
-	{qay'be'. tItlhap.}
+<No problem! Here!>
+   {qay'be'. tItlhap.}
 
-"Good. Let us go get a drink."
-	{maj. Ha'. DaH matlhutlh.}
+<Good. Let us go get a drink.>
+   {maj. Ha'. DaH matlhutlh.}
 
-<*** Mark: [:] Toasting (dialogue) ***>
+[[# Mark: [:] Toasting (dialogue) #]]
 
-"Waiter, I will drink Romulan ale."
-	{jabwI', romuluS HIq vItlhutlh.}
+<Waiter, I will drink Romulan ale.>
+   {jabwI', romuluS HIq vItlhutlh.}
 
-"Waiter, bring two glasses! - You are an unusual Terran."
-	{jabwI', cha' HIvje' yIqem! tera'ngan motlhbe' SoH.}
+<Waiter, bring two glasses! -- You are an unusual Terran.>
+   {jabwI', cha' HIvje' yIqem! tera'ngan motlhbe' SoH.}
 
-"May your blood scream."
-	{'IwlIj jachjaj.}
+<May your blood scream.>
+   {'IwlIj jachjaj.}
 
-"May you always find a bloodworm in your glass."
-	{reH HIvje'lIjDaq 'Iwghargh Datu'jaj.}
+<May you always find a bloodworm in your glass.>
+   {reH HIvje'lIjDaq 'Iwghargh Datu'jaj.}
 
-<*** Mark: [:] Cursed warfare (dialogue) ***>
+[[# Mark: [:] Cursed warfare (dialogue) #]]
 
-"Cursed warfare has definitely begun."
-	{taghbej mu'qaD veS.}
+<Cursed warfare has definitely begun.>
+   {taghbej mu'qaD veS.}
 
-"Your targ has a bigger brain than all your ancestors put together."
-	{targhlIj yab tIn law', no'lI' Hoch yabDu' tIn puS.}
+<Your targ has a bigger brain than all your ancestors put together.>
+   {targhlIj yab tIn law', no'lI' Hoch yabDu' tIn puS.}
 
-"You belong in a black hole in the netherworld."
-	{ghe''orDaq luSpet 'oH DaqlIj'e'.}
+<You belong in a black hole in the netherworld.>
+   {ghe''orDaq luSpet 'oH DaqlIj'e'.}
 
-"Your mother has a smooth forehead."
-	{Hab SoSlI' Quch.}
+<Your mother has a smooth forehead.>
+   {Hab SoSlI' Quch.}
 
-[From the suprised crowd of Klingons:] Ohhh!
+[[From the suprised crowd of Klingons:]] Ohhh!
 
-<*** Mark: [:] Empire Union Day (dialogue) ***>
+[[# Mark: [:] Empire Union Day (dialogue) #]]
 
-"It would be an honor to eat twice, here at your house, your honor. I am
-very hungry."
-	{naDev juHlIjDaq cha'logh vISopneSchugh, vaj jIquv. jIghungqu'.}
+<It would be an honor to eat twice, here at your house, your honor. I am
+very hungry.>
+   {naDev juHlIjDaq cha'logh vISopneSchugh, vaj jIquv. jIghungqu'.}
 
-"May the spirit of Kahless live within you."
-	{SoHDaq qeylIS qa' yInjaj.}
+<May the spirit of Kahless live within you.>
+   {SoHDaq qeylIS qa' yInjaj.}
 
-<*** Mark: [:] Confronting a pet (dialogue) ***>
+[[# Mark: [:] Confronting a pet (dialogue) #]]
 
-[Repeated growling noises from some kind of doglike(?) animal.]
+[[Repeated growling noises from some kind of doglike(?) animal.]]
 
-"Your {Qogh} is definitely fierce. Do not do that! Sit!"
-	{qu'bej QoghlIj. #SSS!# mev! ba'.}
+<Your {Qogh} is definitely fierce. Do not do that! Sit!>
+   {qu'bej QoghlIj. #SSS!# mev! ba'.}
 
-[The animal whines, then becomes silent. Klingons in the background make
-approving sounds.]
-	{yoH tera'ngan. majQa'.}
-	["The Terran is brave. Very good."]
+[[The animal whines, then becomes silent. Klingons in the background make
+approving sounds.]]
+   {yoH tera'ngan. majQa'.}
+   [[<The Terran is brave. Very good.>]]
 
-"You follow Klingon customs well."
-	{tlhIngan tIgh Dapabchu'.}
+<You follow Klingon customs well.>
+   {tlhIngan tIgh Dapabchu'.}
 
-<*** Mark: [:] Secrecy proverbs (dialogue) ***>
+[[# Mark: [:] Secrecy proverbs (dialogue) #]]
 
-"I have secret information, you will find it useful. We will talk, after
-dinner."
-	{De' pegh vIghaj. lI', 'e' Datu'. 'uQ vISoppu'DI' maja'chuq.}
+<I have secret information, you will find it useful. We will talk, after
+dinner.>
+   {De' pegh vIghaj. lI', 'e' Datu'. 'uQ vISoppu'DI' maja'chuq.}
 
-"A day without secrets is like a night without stars."
-	{Hov ghajbe'bogh ram rur pegh ghajbe'bogh jaj.}
+<A day without secrets is like a night without stars.>
+   {Hov ghajbe'bogh ram rur pegh ghajbe'bogh jaj.}
 
-<*** Mark: [:] Replacement proverbs (dialogue) ***>
+[[# Mark: [:] Replacement proverbs (dialogue) #]]
 
-[A tray crashes to the floor. The crowd becomes silent. The Terran
-obviously talks to himself saying:] Uhm. Oh. Oh, great. Er. Ur-hm!
+[[A tray crashes to the floor. The crowd becomes silent. The Terran
+obviously talks to himself saying:]] Uhm. Oh. Oh, great. Er. Ur-hm!
 
-"The fire is always hotter on someone else's face."
-	{reH latlh qabDaq qul tuj law' Hoch tuj puS.}
+<The fire is always hotter on someone else's face.>
+   {reH latlh qabDaq qul tuj law' Hoch tuj puS.}
 
-[The background noise resumes, and the Terran relaxes with a sigh.]
+[[The background noise resumes, and the Terran relaxes with a sigh.]]
 
-<*** Mark: [:] A mating ritual overture (dialogue) ***>
+[[# Mark: [:] A mating ritual overture (dialogue) #]]
 
-[A female approaches.]
+[[A female approaches.]]
 
-"Terran, ahggrrrrr... Hggrrr... Do I please you?"
-	{tera'ngan, qabelmoH'a'.}
+<Terran, ahggrrrrr... Hggrrr... Do I please you?>
+   {tera'ngan, qabelmoH'a'.}
 
-[Transcriber's note: It's a bit of an anti-climax hear Marc Okrand's voice
-say this in Klingon, after listening to that - Hgggrrr... - female voice.]
+[[Transcriber's note: It's a bit of an anti-climax hear Marc Okrand's voice
+say this in Klingon, after listening to that -- Hgggrrr... -- female voice.]]
 
-"The blood of the warrior grows cold."
-	{bIrchoH SuvwI' 'Iw.}
+<The blood of the warrior grows cold.>
+   {bIrchoH SuvwI' 'Iw.}
 
-[The female groans and departs.]
+[[The female groans and departs.]]
 
-<*** Mark: [:] Telling a joke (dialogue) ***>
+[[# Mark: [:] Telling a joke (dialogue) #]]
 
-"Guest, do you know any funny stories?"
-	{meb, lut tlhaQ DaSov'a'.}
+<Guest, do you know any funny stories?>
+   {meb, lut tlhaQ DaSov'a'.}
 
-"Two Federation crewmen arrive on Kronos. They meet a Klingon guard. They
-ask him: »Can we get to the Great Hall?«"
-	{Qo'noSDaq paw cha' DIvI' beq. tlhIngan 'avwI' lughom. lutlhob;
-»naDevvo' vaS'a'Daq majaHlaH'a'.«}
+<Two Federation crewmen arrive on Kronos. They meet a Klingon guard. They
+ask him: "Can we get to the Great Hall?">
+   {Qo'noSDaq paw cha' DIvI' beq. tlhIngan 'avwI' lughom. lutlhob;
+"naDevvo' vaS'a'Daq majaHlaH'a'."}
 
-[The Klingon crowd laughs.]
+[[The Klingon crowd laughs.]]
 
-[Transcriber's note: What ever happened to the punch-line?]
+[[Transcriber's note: What ever happened to the punch-line?]]
 
-<*** Mark: [:] Afterword ***>
+[[# Mark: [:] Afterword #]]
 
 This concludes the tape on *power* Klingon. Go back to the beginning, and
 listen through again and again until you feel confident enough to issue
@@ -1717,33 +1714,15 @@ mastery of a phaser must be followed by an instinctual mastery of when to
 use it, so these lessons must be mastered in both technique and use. Only
 then will you be able to wield your newfound weapons.
 
-"It has been an honor to instruct you. Success!" {batlh qaghojmoH. Qapla'.}
+<It has been an honor to instruct you. Success!> {batlh qaghojmoH. Qapla'.}
 
-<*** Mark: [:] Credits ***>
+[[# Mark: [:] Credits #]]
 
-»Power Klingon« was written by Barry Levine with Marc Okrand. It was read
+"Power Klingon" was written by Barry Levine with Marc Okrand. It was read
 by Michael Dorn, with additional narration by Marc Okrand, ¿Allen Brown?,
 ¿Sam Gunsler? and ¿Jessica Wedline?. The recording engineer The recording
 engineer was ¿Lascheck Voichik?, with editing and post production by ¿Paul
-Goodridge?. The associate producer was Linda Wollman. »Power Klingon« was
+Goodridge?. The associate producer was Linda Wollman. "Power Klingon" was
 directed and produced by Susan Perrin, Totland.
 
-[End of transcript.]
-
-                                   * * *
-
-
-There are some words that had not previously been found in the language,
-that occurs for the first time on this tape. All these that I have
-discovered are listed below (note however that I have made no systematic
-search, there may be more of them). - I hope to complete this list by
-making use of a computer based Klingon sentence analyzer in the future.
-
-"mate with"
-	{ngagh} (v)	(totally new)
-
-"wealth"
-	{mIp} (n)	(there is only a *verb* {mIp} in TKD)
-
-=== end-of-file ===
 [[eof]]

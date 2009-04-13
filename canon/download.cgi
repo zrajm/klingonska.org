@@ -8,59 +8,33 @@
 #
 # History:
 #
-#  [1998-??-??] V1.0 - Working, but not neat version. Depending on
-#    cgi-lib.pl to do all the CGI-stuff.
-#  [2001-01-22] V2.0 - Completely rewritten, now uses CGI.pm (which
-#    wasn't invented back in 1998, but which I use in other scripts
-#    by now).
-#  [2001-02-07] V2.1 - Now accepts an argument in the form of
-#    "file=tkd-all". This argument is kept and upon answering it is
-#    the first file loaded (thus making it easy to link to a specific
-#    file, beyond the password protection).
-#  [2004-04-09] V2.1.1 - Bugfix. Word on page 58, was "mispronounced" now
-#    corrected to "category".
+# [1998-??-??] V1.0 - Working, but not neat version. Depending on cgi-lib.pl to
+# do all the CGI-stuff.
 #
-# To Do:
-#   o Add support for frames.
+# [2001-01-22] V2.0 - Completely rewritten, now uses CGI.pm (which wasn't
+# invented back in 1998, but which I use in other scripts by now).
 #
+# [2001-02-07] V2.1 - Now accepts an argument in the form of "file=tkd-all".
+# This argument is kept and upon answering it is the first file loaded (thus
+# making it easy to link to a specific file, beyond the password protection).
+#
+# [2004-04-09] V2.1.1 - Bugfix. Word on page 58, was "mispronounced" now
+# corrected to "category".
+#
+# [2009-04-13] adapted script for hcoop
+
+####################################################################
 # Variables used:
 #   question = question (0 to 10)
 #   answer   = answer   (0 to 10)
 #   file     = tkd, tkw, tkwe (sentences), kgt, ck, pk  
-#
-# Table of Answers:
-#   Q  PAGE     PARAGRAPH    LINE    WORD    ANSWER
-#   0  Page 41, paragraph 2, line 1, word 4  similar
-#   1  Page 41, paragraph 3, line 1, word 3  sentence
-#   2  Page 40, paragraph 2, line 1, word 5  tenses
-#   3  Page 39, paragraph 1, line 1, word 2  singular
-#   4  Page 37, paragraph 1, line 1, word 3  ghuS
-#   5  Page 36, paragraph 2, line 1, word 5  express
-#   6  Page 35, paragraph 1, line 1, word 2  indicate
-#   7  Page 32, paragraph 1, line 1, word 5  monosyllabic
-#   8  Page 31, paragraph 2, line 1, word 4  construction
-#   9  Page 30, paragraph 2, line 1, word 2  combinations
-#  10  Page 27, paragraph 4, line 1, word 7  happening
-#  11  Page 26, paragraph 2, line 1, word 4  translation
-#  12  Page 26, paragraph 4, line 3, word 2  conversation
-#  13  Page 24, paragraph 3, line 1, word 1  Inherently
-#  14  Page 24, paragraph 6, line 2, word 8  accurately
-#  15  Page 19, paragraph 4, line 2, word 4  earthworm
-#  16  Page 78, paragraph 2, line 3, word 6  Occasionally
-#  17  Page 71, paragraph 2, line 1, word 4  superlative
-#  18  Page 63, paragraph 4, line 2, word 8  convenience
-#  19  Page 58, paragraph 2, line 1, word 5  category
-#
 ####################################################################
 
 use utf8;
+use CGI qw(:standard);
 binmode(STDIN,  ":encoding(utf8)");
 binmode(STDOUT, ":encoding(utf8)");
 
-
-use CGI qw(:standard);                               # use CGI.pm
-
-$dir      = '';                                      # directory setting
 $file     = param('file');                           # get from HTML form
 $ques     = param('question');                       #      - || -
 $answer   = param('answer');                         #      - || -
@@ -72,9 +46,6 @@ if ($PREV eq '') {
     $PREV = $ENV{"HTTP_REFERER"};                    # set PREVious url
 #    $PREV =~ s/^http:\/\/.+?\/(.*)/\1/g;             # remove "http://.../"
 }
-
-
-
 
 # table of answers
 @answer =     qw( similar sentence  Occasionally earthworm    translation );
@@ -99,41 +70,26 @@ push @line,   qw( 1       1         1            2            1           );
 push @word,   qw( 5       7         4            8            5           );
 
 
-## table of files
-#%filename = (
-#    "tkd-dict"     => "wTKD"
-#    "tkd-examples" => "eTKD"
-#    "tkd-all"      => "tTKD"
-#    "tkw-words"    => "wTKW"
-#    "tkw-examples" => "eTKW"
-#    "kgt-dict"     => "wKGT"
-#    "kgt-examples" => "eKGT"
-#    "ck-all"       => "tCK"
-#    "pk-all"       => "tPK"
-#    "sbx-all"      => "tSBX"
-#);
+# table of files
+my @filename = (
+    [ tkd   => "major/1992-01-01-tkd.txt"   => "The Klingon Dictionary" ],
+    [ tkw   => "major/1996-05-01-tkw.txt"   => "The Klingon Way" ],
+    [ kgt   => "major/1997-11-01-kgt.txt"   => "Klingon for the Galactic Traveler" ],
+    [ ck    => "major/1992-10-01-ck.txt"    => "Conversational Klingon" ],
+    [ pk    => "major/1993-10-01-pk.txt"    => "Power Klingon" ],
+    [ bop   => "major/1998-11-01-bop.txt"   => "Bird of Prey Poster" ],
+    [ sarek => "major/1995-02-01-sarek.txt" => "Sarek (Partial Transcript)" ],
+    [ ftg   => "major/1997-07-01-ftg.txt"   => "Federation Travel Guide (Partial Transcript)" ],
+    [ sbx   => "major/tSBX.txt"             => "Skybox Trading Cards" ],
+);
 
+
+print header(-charset=>'utf-8');                 # Content-type header
+page_header();                                   # HTML page header
 if ($file ne '') {                               # set filename
-    if    ($file eq 'tkd-dict')     { $infile = 'wTKD' }
-    elsif ($file eq 'tkd-examples') { $infile = 'eTKD' }
-    elsif ($file eq 'tkd-all')      { $infile = 'tTKD' }
-    elsif ($file eq 'tkw-words')    { $infile = 'wTKW' }
-    elsif ($file eq 'tkw-examples') { $infile = 'eTKW' }
-    elsif ($file eq 'kgt-dict')     { $infile = 'wKGT' }
-    elsif ($file eq 'kgt-examples') { $infile = 'eKGT' }
-    elsif ($file eq 'ck-all')       { $infile = 'tCK'  }
-    elsif ($file eq 'pk-all')       { $infile = 'tPK'  }
-    elsif ($file eq 'sbx-all')      { $infile = 'tSBX' }
-    if ($infile ne '') { $infile = $dir . $infile . '.txt' }
+    my ($x) = grep { $$_[0] eq $file } @filename;
+    $infile = $$x[1];
 }
-
-print header(-charset=>'utf-8');                     # Content-type header
-&page_header;                                        # HTML page header
-
-#print "file=",$file,"<br>\n";
-#print "infile=",$infile,"<br>\n";
-
-
 
 
 ####################################################################
@@ -147,49 +103,23 @@ print header(-charset=>'utf-8');                     # Content-type header
 ## dump all environment variables (in a nice way)
 #print "<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0>";
 #foreach (sort keys %ENV) {
-#    print "<TR><TD ALIGN=RIGHT>",$_,"<TD> = <TD>",$ENV{$_},"</TR>";
+#    print "<TR><TD ALIGN=RIGHT>",$_,"<TD>&nbsp;=&nbsp;<TD>",$ENV{$_},"</TR>";
 #}; print "</TABLE>";
 
 ## end of debug code
 ####################################################################
 
 if ($answer eq $answer[$ques] && $answer ne '') {    # correct answer
-    print "<CENTER><FORM ACTION=$PLACE METHOD=\"POST\">\n";        # keep data as hidden
-    print "<INPUT TYPE=HIDDEN NAME=\"prev\" VALUE=\"$PREV\">\n";
-    print "<INPUT TYPE=HIDDEN NAME=\"question\" VALUE=$ques>\n";
-    print "<INPUT TYPE=HIDDEN NAME=\"answer\" VALUE=\"$answer\">\n\n";
-    print "<H3>Select a document:</H3>\n\n";
-    &file_selector;                                  # FORM file-selector
-    print "<INPUT TYPE=SUBMIT VALUE=\"Load\">\n";    # Submit-knapp
-    print "</FORM></CENTER>\n\n";
+    print "<center><form action=$PLACE method=\"post\">\n";        # keep data as hidden
+    print "<input type=hidden name=\"prev\" value=\"$PREV\">\n";
+    print "<input type=hidden name=\"question\" value=$ques>\n";
+    print "<input type=hidden name=\"answer\" value=\"$answer\">\n\n";
+    print "<h3>Select a document:</h3>\n\n";
+    file_selector($file);                            # FORM file-selector
+    print "<input type=submit value=\"Show\">\n";    # Submit-knapp
+    print "</form></center>\n\n";
     if ($infile ne '') {                             # insert file
-	print <<eop;
-<P ALIGN=JUSTIFY>The file displayed below is in plain text format
-(using the UTF-8 character set if you want to become all technical
-about it) and was specifically written with reference purposes in mind.
-If you want a copy of it you may either copy and paste it into your
-favourite editor or word processor, or you may select "Save as..." (or
-something similar) in your browser, and then manually remove the HTML-code
-at the beginning and end of the file.
-
-<HR NOSHADE WIDTH=85%>
-
-<!-- The 'less than' sign has been replaced with the HTML code "&lt;"
-in the text below, this to avoid weird things from happening to it in
-your browser. To restore this, simply do a 'search and replace' in your
-favourite text editor. (If you instead cut and paste the text directly
-from your browser window this most likely won\'t be a problem.) -->
-
-<PRE><!-- The text begins on the row below this. -->
-eop
-        open(infile, "<:encoding(utf8)", "$infile"); # open file
-	do {                                         # loop thru file
-	    read(infile,$row,1024);                  # read row
-	    $row =~ s/</&lt;/g;                      # change < to &lt;
-	    $row =~ s/>/&gt;/g;                      # change < to &lt;
-	    print $row;                              # output row
-	} until eof(infile);
-	print "<!-- The text ends on the row above this. --></PRE>\n";
+	include_file($infile);
     }
 } else {
     if ($ques eq '' || $ques >= scalar(@answer)) {   # no valid question?
@@ -204,14 +134,14 @@ eop
     print "<H2>$subtitle</H2>\n";
     &quest_form;
 }
-&page_footer;                                        # page footer
+page_footer();                                       # page footer
 exit 0;                                              # quit
 
 
 sub page_header {
     print <<eop;
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
-<HTML><HEAD><TITLE>Klingonska Akademien - Klingon Data Download.</TITLE></HEAD>
+<HTML><HEAD><TITLE>Klingonska Akademien -&nbsp;Klingon Data Download.</TITLE></HEAD>
 <BODY VLINK="#777777" ALINK="#AAAAAA" LINK="#444444" TEXT="#000000" BGCOLOR="#FFFFFF">
 
 <!-- ==================== Adressinfo ==================== -->
@@ -230,6 +160,7 @@ sub page_header {
 eop
 }
 
+
 sub page_footer {                                    # HTML Footer
     print <<eop;
 
@@ -238,9 +169,9 @@ sub page_footer {                                    # HTML Footer
 <TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0>
   <TR><TD VALIGN=BOTTOM COLSPAN=3><HR NOSHADE></TD></TR>
   <TR>
-    <TD>         </TD>
+    <TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
     <TD ALIGN=CENTER>
-      <B>©1998-2001, Copyright 
+      <B>&copy;1998-2001, Copyright 
       <A HREF="mailto:zrajm\@klingonska.org">Zrajm C Akfohg</A>,
       <A HREF="http://www.klingonska.org/">Klingonska Akademien</A>,
       Uppsala.</B>
@@ -256,51 +187,78 @@ sub page_footer {                                    # HTML Footer
 eop
 }
 
+
 sub quest_form {                                     # HTML form
-    print <<eop;
+    print <<EOP;
 
-<P ALIGN=JUSTIFY>For copyright reasons you must own a copy of Marc
-Okrand\'s book <I>The Klingon Dictionary</I> to access the information
-presented here. To certify that this is the case, please enter the
-specified word from the main text of the TKD below.
+<p align="justify">For copyright reasons you must own a copy of Marc Okrand\'s
+book <i>The Klingon Dictionary</i> to access the information presented here. To
+certify that this is the case, please enter the specified word from the main
+text of the TKD below.
 
-<CENTER><FORM METHOD="POST">
-<INPUT TYPE=HIDDEN NAME="prev" VALUE="$PREV">
-<INPUT TYPE=HIDDEN NAME="question" VALUE=$ques>
-<INPUT TYPE=HIDDEN NAME="file" VALUE="$file">
+<center><form method="post">
+<input type=hidden name="prev" value="$PREV">
+<input type=hidden name="question" value="$ques">
+<input type=hidden name="file" value="$file">
 
-<H3>TKD, page $page[$ques], paragraph $para[$ques], line $line[$ques], word $word[$ques]:</H3>
+<h3>TKD, page $page[$ques], paragraph $para[$ques], line $line[$ques], word $word[$ques]:</h3>
 
-<P><INPUT NAME="answer" VALUE="$answer">
-<INPUT TYPE="submit" VALUE="Access">
-</FORM></CENTER>
+<p><input name="answer" value="$answer">
+<input type="submit">
+</form></center>
 
-<P ALIGN=JUSTIFY>When counting paragraphs, skip the Klingon example
-phrases. Hyphenated words are counted as one. Ending paragraphs at the
-top of a page are counted, as well as half words in the beginning of a
-line. <I>Case counts</I>.
-eop
+<p align="justify">When counting paragraphs, skip the Klingon example phrases.
+Hyphenated words are counted as one. Ending paragraphs at the top of a page are
+counted, as well as half words in the beginning of a line. <i>Case counts</i>.
+EOP
 }
 
 
 sub file_selector {
-    print '<SELECT NAME="file">',"\n";
-    print '<OPTION VALUE="tkd-all"',($file eq 'tkd-all') ? ' SELECTED' : '','>TKD (Complete transcript)',"\n";
-    print '<OPTION VALUE="tkd-dict"',($file eq 'tkd-dict') ? ' SELECTED' : '','>TKD (Dictionary part)',"\n";
-    print '<OPTION VALUE="tkd-examples"',($file eq 'tkd-examples') ? ' SELECTED' : '','>TKD (Klingon phrases)',"\n";
-    print '<OPTION VALUE="tkw-words"',($file eq 'tkw-words') ? ' SELECTED' : '','>TKW (All Klingon words)',"\n";
-    print '<OPTION VALUE="tkw-examples"',($file eq 'tkw-examples') ? ' SELECTED' : '','>TKW (Klingon phrases)',"\n";
-    print '<OPTION VALUE="kgt-dict"',($file eq 'kgt-dict') ? ' SELECTED' : '','>KGT (Dictionary part)',"\n";
-    print '<OPTION VALUE="kgt-examples"',($file eq 'kgt-examples') ? ' SELECTED' : '','>KGT (Most example phrases)',"\n";
-    print '<OPTION VALUE="ck-all"',($file eq 'ck-all') ? ' SELECTED' : '','>CK (Complete transcript)',"\n";
-    print '<OPTION VALUE="pk-all"',($file eq 'pk-all') ? ' SELECTED' : '','>PK (Complete transcript)',"\n";
-    print '<OPTION VALUE="sbx-all"',($file eq 'sbx-all') ? ' SELECTED' : '','>SBX (Complete transcript)',"\n";
-    print "</SELECT>\n";
+    my ($selected_value) = @_;
+    print '<select name="file">',"\n";
+    foreach (@filename) {
+	my ($value, $file, $description) = @{$_};
+	my $selected = ($selected_value eq $value) ? " SELECTED" : "";
+	print "<option value=\"$value\"$selected>$description</option>\n";
+    }
+    print "</select>";
 }
 
 
+sub include_file {
+    my ($file) = @_;
+    open(my $in, "<:encoding(utf8)", "$infile") or do {
+	print "<h2 align=\"center\"><i>File not found.</i></h2>\n\n";
+	return "";
+    };
+    print <<EOF;
+<p align="justify">Below transcript is in UTF-8 plain text format. To save it,
+select "Save as..." (or similar) from the menu in your browser, and then remove
+the HTML-code at the beginning and end of the file.
+
+<hr noshade width=85% />
+
+<!-- The 'less than' sign has been replaced with the HTML code "&lt;"
+in the text below, this to avoid weird things from happening to it in
+your browser. To restore this, simply do a 'search and replace' in your
+favourite text editor. (If you instead cut and paste the text directly
+from your browser window this most likely won\'t be a problem.) -->
+
+<pre><!-- The text begins on the row below this. -->
+EOF
+    do {                                         # loop thru file
+	read($in, $row, 1024);                   # read row
+	$row =~ s/</&lt;/g;                      # change < to &lt;
+	$row =~ s/>/&gt;/g;                      # change < to &lt;
+	print $row;                              # output row
+    } until eof($in);
+    print "<!-- The text ends on the row above this. --></pre>\n";
+    return 1;
+}
+
 sub inc_counter {
-# Load inc and save counter
+    # Load inc and save counter
     open(FILE,"<count.$infile");
     flock (FILE, 2);
     $count = <FILE>;
@@ -313,3 +271,5 @@ sub inc_counter {
     flock (FILE, 8); 
     close(FILE); 
 }
+
+__END__

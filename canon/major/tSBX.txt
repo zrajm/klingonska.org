@@ -2,19 +2,18 @@ $TAB: (7,37)
 
 Klingon text from the SkyBox Trading Cards, translated by Marc Okrand.
 
-   Created: 1998-06-14 - 1998-06-15, by Zrajm C Akfohg
+   Created: 1998-06-14 -- 1998-06-15, by Zrajm C Akfohg
    Updated: 1998-10-05, machine-parsed for incorrect syllables (errors: 2)
-   Updated: 1999-07-14, added S31-S33 from HQ 6:2
+   Updated: 1999-07-14, added S31--S33 from HQ 6:2
    Updated: 2004-01-09, added missing last aphostophe on one occurance of
      {qItI'nga} in the S15 SkyBox Card (thanx to Steven Lytle
      <MorphemeAddict@wmconnect.com> for pointing it out!)
-   Updated: 2009-04-07, converted from latin-1 to utf-8
 
 This is an attempt at collecting all text in Klingon attributed to Marc
 Okrand on the SkyBox Trading Cards. It is probably far from finished, since
 I don't even know how many there are out there. So far all cards covered by
 HolQeD are included, (SkyBox Trading Cards 99 [from HQ 3:2 p.9] SP1, SP2,
-SP3 [from HQ 3:4 p.10-11], S19, S20, S21 [from HQ 5:2 p.14], S25, S26 and
+SP3 [from HQ 3:4 p.10--11], S19, S20, S21 [from HQ 5:2 p.14], S25, S26 and
 S27 [from HQ 5:3 p.15].) plus some card transcribed directly (SkyBox
 Trading Cards S7, S8, S9, S13, S14, S15). Unfortunately the descriptions in
 HolQeD are not detailed enough to guarantee total completeness and lack of
@@ -105,7 +104,7 @@ STAR TREK AND RELATED MARKS ARE TRADEMARKS OF
 PARAMOUNT PICTURES. SKYBOX INTERNATIONAL, INC.
 AUTHORIZED USER.
 
-[HQ 3:4 p.10-11 (there reproduced from SkyBox trading card SP1) including
+[HQ 3:4 p.10--11 (there reproduced from SkyBox trading card SP1) including
 corrections from HQ 4:1 p.7 ({ghIjpu'} was misspelled {#ghIpu'#}, twice.)
 the obvious mistake {#legntaHvIS#} for {lengtaHvIS} was also corrected.]
 
@@ -134,7 +133,7 @@ STAR TREK AND RELATED MARKS ARE TRADEMARKS OF
 PARAMOUNT PICTURES. SKYBOX INTERNATIONAL, INC.
 AUTHORIZED USER.
 
-[From SkyBox card SP2 as reproduced in HQ 3:4 pp.10-11]
+[From SkyBox card SP2 as reproduced in HQ 3:4 pp.10--11]
 
 ---------------------------------------------------------------------------
 
@@ -161,7 +160,7 @@ AUTHORIZED USER.
 
 [{HoS} is misspelled {#Hos#} on the original card, according to note in HQ.]
 
-[From SkyBox card SP3 as reproduced in HQ 3:4 pp.10-11]
+[From SkyBox card SP3 as reproduced in HQ 3:4 pp.10--11]
 
 ---------------------------------------------------------------------------
 
@@ -181,7 +180,7 @@ PICTURES. SKYBOX INTERNATIONAL, INC. AUTHORIZED USER.
 
 TM, ®, © {je tera' DIS wa'-Hut-Hut-loS} Paramount Pictures. {Hoch SeH.} Paramount Pictures
 {malja' permey bIH} Star Trek {pong'e' Deghmey'e' je}. {bIH lo'} SkyBox International, Inc. {'e' chaw'.}
-TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF *THE KLINGON DICTIONARY*.
+TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF *THE KLINGON DICTIONARY*.
 
 [From SkyBox card S7, 1995]
 
@@ -200,9 +199,9 @@ sword of honor descends from the time of
 Kahless the Unforgettable.
 
 [Editor's note: {#batleH#} is of course wrongly spelled, as the TKD give it
-as {betleH} - But this may be a canon translation now...]
+as {betleH} -- But this may be a canon translation now...]
 
-TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF *THE KLINGON DICTIONARY*.
+TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF *THE KLINGON DICTIONARY*.
 
 TM, ®, © {je tera' DIS wa'-Hut-Hut-loS} Paramount
 Pictures. {Hoch SeH.} Paramount Pictures {malja'
@@ -229,7 +228,7 @@ warriors who test him with painsticks.
 
 TM, ®, © {je tera' DIS wa'-Hut-Hut-loS} Paramount Pictures. {Hoch SeH.} Paramount Pictures
 {malja' permey bIH} Star Trek {pong'e' Deghmey'e' je}. {bIH lo'} SkyBox International, Inc. {'e' chaw'.}
-TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF *THE KLINGON DICTIONARY*.
+TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF *THE KLINGON DICTIONARY*.
 
 TM, ® & © 1995 PARAMOUNT PICTURES. ALL RIGHTS RESERVED.
 STAR TREK AND RELATED MARKS ARE TRADEMARKS OF PARAMOUNT
@@ -251,7 +250,7 @@ name is highly valued.
 
 TM, ®, © {je tera' DIS wa'-Hut-Hut-loS} Paramount Pictures. {Hoch SeH.} Paramount Pictures {malja'
 permey bIH} Star Trek {pong'e' Deghmey'e' je}. {bIH lo'} SkyBox International, Inc. {'e' chaw'.}
-TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF *THE KLINGON DICTIONARY*.
+TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF *THE KLINGON DICTIONARY*.
 
 TM, ® & © 1995 PARAMOUNT PICTURES, ALL RIGHTS RESERVED.
 STAR TREK AND RELATED MARKS ARE TRADEMARKS OF PARAMOUNT
@@ -273,7 +272,7 @@ disruptor, attached to an extended power supply stock.
 This serves to steady the aim of a warrior and increase
 the effective range for distance targeting.
 
-TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF THE KLINGON DICTIONARY.
+TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF THE KLINGON DICTIONARY.
 
 TM, ®, © {je tera' DIS wa'-Hut-Hut-loS} Paramount
 Pictures. {Hoch SeH.} Paramount Pictures {malja'
@@ -305,7 +304,7 @@ PICTURES. SKYBOX INTERNATIONAL, INC. AUTHORIZED USER.
 
 TM, ®, © {je tera' DIS wa'-Hut-Hut-loS} Paramount Pictures. {Hoch SeH.} Paramount Pictures
 {malja' permey bIH} Star Trek {pong'e' Deghmey'e' je}. {bIH lo'} SkyBox International, Inc. {'e' chaw'.}
-TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF *THE KLINGON DICTIONARY.*
+TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF *THE KLINGON DICTIONARY.*
 ILLUSTRATION FROM THE STAR TREK ENCYCLOPEDIA
 
 [From SkyBox card S15, 1995]

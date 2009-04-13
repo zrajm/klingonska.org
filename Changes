@@ -10,12 +10,17 @@ MILESTONE: NEW SITE ONLINE AT KLINGONSKA.ORG
       * make sure all canon transcripts are present
     o DONE [2009-04-10] Fix "piqad/play.cgi"
     o DONE [2009-04-07] Fix "canon/download.cgi"
-      * DONE [2009-04-07] Fix SBX transcript
-      * DONE [2009-04-07] Fix PK transcript
-      * DONE [2009-04-07] Fix CK transcript
-      * Fix TKD transcript
-      * Fix TKW transcript
-      * Fix KGT transcript
+      * DONE [2009-04-13] "minus" -> "minus-minus" & "&shy;" -> "minus"
+      * DONE [2009-04-13] Remove old partial transcripts, use following:
+        o DONE [2009-04-13] "The Klingon Dictionary"
+        o DONE [2009-04-13] "The Klingon Way"
+        o DONE [2009-04-13] "Klingon for the Galactic Traveler"
+        o DONE [2009-04-13] "Conversational Klingon"
+        o DONE [2009-04-13] "Power Klingon"
+        o DONE [2009-04-13] "Bird of Prey Poster"
+        o DONE [2009-04-13] "Sarek (Partial Transcript)"
+        o DONE [2009-04-13] "Federation Travel Guide (Partial Transcript)"
+        o DONE [2009-04-13] "Skybox Trading Cards"
     o DONE [2009-04-07] Fix "dict/lexicon.cgi"
       * DONE [2009-04-07] Include page header/footer in "dict/lexicon.cgi" output
   * DONE [2009-04-04] Get all HTML pages working
@@ -31,17 +36,34 @@ MILESTONE: NEW SITE ONLINE AT KLINGONSKA.ORG
 
 THEREAFTER
 ----------
+
+* scripts
+  o script unit tests
+  o all HTML in lower case
+  o XHTML compliant HTML
+  o make better use of module(s) / make object oriented
+  o "canon/download.cgi"
+    * Improve the word selection on copyright protection
+    * nicer file selector (i.e. a table)
+    * should use a (i)frame around the viewed file (?)
+  o "dict/lexicon.cgi"
+    * Add (verify that) google-like search expressions work (quoted phrases)
+    * search prefixes "tlh:" / "se:" / "en:" / "all:" for (language) specific searches
+    * Search suggestions and corrections?
+
+
+* update format of "canon/major/tSBX.txt" (?) -- used by "canon/download.cgi"
+* all canon sources data files downloadable as single zip-file (?)
+* "make test" target
+  o UTF8 is used everywhere
+  o &#173; is never used
+  o script-specific unit tests
+  o bad links
 * "make install" should check for tokens & kerberos tickets
-* "dict/lexicon.cgi"
-  o Add (verify that) google-like search expressions workk (quoted phrases)
-  o search prefixes "tlh:" / "se:" / "en:" / "all:" for (language) specific searches
-  o Search suggestions and corrections?
-* Publish git repo on web
-  o Secure "download.cgi" -- "passwords" should be encrypted
+* publish git repo on web
+  o secure "download.cgi" -- "passwords" should be encrypted
   o How can TKD, TKW and KGT be included? As-is? Encrypted? In a separate repo?
-* canon/download.cgi
-  o Improve the word selection on the "copyright protection"
-* Move test site to test.klingonska.org
+* move test site to test.klingonska.org
 * Automatic update of filedates listed in pages (using includes?)
   o Restore file dates for all unchanged files
 * Improved file structure
