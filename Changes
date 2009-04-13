@@ -1,16 +1,27 @@
-TO REPLACE CURRENT KLINGONSKA.ORG
+MILESTONE: NEW SITE ONLINE AT KLINGONSKA.ORG
 =================================
 * Transfer test.zrajm.org -> klingonska.org
   * Look for dead links, compare with current klingonska.org
-  * CGI scripts working
-    o List CGI scripts on page
-      * canon/download.cgi
-        o TKD transcript added & UTF-ified
-        o TKW transcript added & UTF-ified
-        o KGT transcript added & UTF-ified
-      * canon/search.cgi  
-        o make sure all canon transcripts are present
-      * piqad/play.cgi
+  * Get CGI scripts working and in UTF-8
+    o "Use strict"
+    o Taint checks
+    o Figure out which scripts there *are*
+    o Fix "canon/search.cgi"
+      * make sure all canon transcripts are present
+    o DONE [2009-04-10] Fix "piqad/play.cgi"
+    o DONE [2009-04-07] Fix "canon/download.cgi"
+      * DONE [2009-04-07] Fix SBX transcript
+      * DONE [2009-04-07] Fix PK transcript
+      * DONE [2009-04-07] Fix CK transcript
+      * Fix TKD transcript
+      * Fix TKW transcript
+      * Fix KGT transcript
+    o DONE [2009-04-07] Fix "dict/lexicon.cgi"
+      * DONE [2009-04-07] Include page header/footer in "dict/lexicon.cgi" output
+  * DONE [2009-04-04] Get all HTML pages working
+    o DONE [2009-09-09] Change <meta http-equiv="Content-Type"> tags into utf-8
+    o DONE [2009-04-04] Convert HTML latin-1 -> utf-8
+      * DONE [2009-04-04] Wget old site as a starting point
   * Working mail aliases
      o List the current mail aliases on manufrog
      o How to config using domtool?
@@ -20,6 +31,14 @@ TO REPLACE CURRENT KLINGONSKA.ORG
 
 THEREAFTER
 ----------
+* "make install" should check for tokens & kerberos tickets
+* "dict/lexicon.cgi"
+  o Add (verify that) google-like search expressions workk (quoted phrases)
+  o search prefixes "tlh:" / "se:" / "en:" / "all:" for (language) specific searches
+  o Search suggestions and corrections?
+* Publish git repo on web
+  o Secure "download.cgi" -- "passwords" should be encrypted
+  o How can TKD, TKW and KGT be included? As-is? Encrypted? In a separate repo?
 * canon/download.cgi
   o Improve the word selection on the "copyright protection"
 * Move test site to test.klingonska.org
@@ -33,6 +52,9 @@ THEREAFTER
   o separated headers & footers (using template)
   o CSS redesign (removing tables used for layout)
   o Add changes noted in my physical copy of the dictionary
+  o Add downloadable PDF & PostScript versions of dictionary (via download
+    feature) [notify Patrick McGrath <theblindburito@gmail.com> when this is
+    available]
 * canon/
   o improve data directory structure
   o add any missing transcripts
@@ -62,7 +84,7 @@ FUTURE
 
 
 2009-04-07
-  * Fixe "canon/download.cgi" (now uses UTF-8)
+  * Fixed "canon/download.cgi" (now uses UTF-8)
     o SBX transcript added & UTF-ified
     o PK transcript added & UTF-ified
     o CK transcript added & UTF-ified
