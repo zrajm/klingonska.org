@@ -27,7 +27,7 @@ binmode(STDOUT, ":encoding(utf8)");
 # (when used as SSI or loaded explicitly by
 # browser, but not when called by other script)
 if (not $ENV{X_CGI}) {                         # if not suppressed
-    print header(-charset=>'utf-8');                     # Content-type header
+    print header(-charset=>'utf-8');           # Content-type header
     $ENV{X_CGI} = "perl";                      #   and suppress it from now on
 }                                              #
 
