@@ -1,12 +1,18 @@
 MILESTONE: NEW SITE ONLINE AT KLINGONSKA.ORG
 =================================
 * Transfer test.zrajm.org -> klingonska.org
+  * "minus" -> "minus-minus" & "&shy;" -> "minus" everywhere
   * Look for dead links, compare with current klingonska.org
   * Get CGI scripts working and in UTF-8
     o "Use strict"
     o Taint checks
     o Figure out which scripts there *are*
+    o Fix "canon/"
+      * Make sure all sources are present in listing
+      * Fix all links
     o Fix "canon/search.cgi"
+      * DONE [2009-04-13] fix "changed" date in HTML page header
+      * DONE [2009-04-13] logo should link to script from help text 
       * make sure all canon transcripts are present
     o DONE [2009-04-10] Fix "piqad/play.cgi"
     o DONE [2009-04-07] Fix "canon/download.cgi"
@@ -37,6 +43,34 @@ MILESTONE: NEW SITE ONLINE AT KLINGONSKA.ORG
 THEREAFTER
 ----------
 
+* update online dictionary with info on KLI KLCP words
+* check that Stevo's suggestions (already done?) for corrections in CK and PK
+  are implemented
+
+* "canon/"
+  o scriptify generation of list of sources
+  o "canon/1995a.html" for SkyBox cards S7, S8 and S9 ("canon/1995b.html" already exists)
+  o "canon/1994.html" for SkyBox cards SP1, SP2 and SP3 ("canon/1995b.html" already exists)
+  o Incorporate everything under "Other (to-be-included) sources:" into main body of text
+
+  o transcript improvement
+    * "canon/1994-10--hallmark.txt"
+      o add image of the Hallmark christmas tree ornament
+      o get exact date (october or november 1994?)
+        * check hallmark website -- contact hallmark if necessary
+      o get video recording of commercial
+        * Voragh says: pre-tlhIngan Hol McDonalds hamburger commercial is at:
+          http://www.youtube.com/watch?v=UvRyBRVpJGw&feature=channel_page
+          - mebbe there's some link to the Hallmark commercial there?
+      o notify Steven "Voragh" Boozer <sboozer@uchicago.edu> / tlhingan-hol@kli.org
+        of any findings
+    * "1995-08--stc.txt"
+      o scan (relevant pages of) "Star Trek Communicator #104" & add
+    * "1992-01-01--tkd.txt", "1996-05-01--tkw.txt" and "1997-11-01--kgt.txt"
+      o add page headers and footers (see format of
+        "http://tools.ietf.org/html/rfc2822")
+      o add some formatting thingy capable of stripping headers/footers
+
 * scripts
   o script unit tests
   o all HTML in lower case
@@ -51,6 +85,11 @@ THEREAFTER
     * search prefixes "tlh:" / "se:" / "en:" / "all:" for (language) specific searches
     * Search suggestions and corrections?
 
+* links
+  o Link to "North Star Klingon Outpost" is out of date. New site:
+    http://mrklingo.freeshell.org/aol/jpklingon and www.mrklingon.org (which
+    includes my relexifier, the Universal Translator Assistant). Also my curious
+    Klingon Language Version of the World English Bible among other things.
 
 * update format of "canon/major/tSBX.txt" (?) -- used by "canon/download.cgi"
 * all canon sources data files downloadable as single zip-file (?)
@@ -61,8 +100,9 @@ THEREAFTER
   o bad links
 * "make install" should check for tokens & kerberos tickets
 * publish git repo on web
-  o secure "download.cgi" -- "passwords" should be encrypted
-  o How can TKD, TKW and KGT be included? As-is? Encrypted? In a separate repo?
+  o "download.cgi", "passwords" need to be stored in hashed form, not as plain
+    text strings
+  o how can TKD, TKW and KGT be included? As-is? Encrypted? In a separate repo?
 * move test site to test.klingonska.org
 * Automatic update of filedates listed in pages (using includes?)
   o Restore file dates for all unchanged files
@@ -70,6 +110,7 @@ THEREAFTER
 * Various small fixes, as wanted/needed
 * Change all faulty Latin-1 173 chars into proper hyphens/minuses
 * dict/
+  o Errata for the printed dictionary
   o Fix bad colors on table borders in "dict/tables.html"
   o separated headers & footers (using template)
   o CSS redesign (removing tables used for layout)
@@ -103,6 +144,9 @@ FUTURE
   books?)
 * Data download should include audio of CK and PK(?)
 * Make proper use of em- and en-dashes where appropriate
+
+* make sure all Klingon words on "http://teresh.tdonnelly.org/klinewest.html" is
+  in the dictionary
 
 
 2009-04-07
