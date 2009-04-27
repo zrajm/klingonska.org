@@ -14,6 +14,7 @@ MILESTONE: NEW SITE ONLINE AT KLINGONSKA.ORG
       * DONE [2009-04-13] fix "changed" date in HTML page header
       * DONE [2009-04-13] logo should link to script from help text 
       * make sure all canon transcripts are present
+      * fix links to documents on search result page
     o DONE [2009-04-10] Fix "piqad/play.cgi"
     o DONE [2009-04-07] Fix "canon/download.cgi"
       * DONE [2009-04-13] "minus" -> "minus-minus" & "&shy;" -> "minus"
@@ -47,7 +48,25 @@ THEREAFTER
 * check that Stevo's suggestions (already done?) for corrections in CK and PK
   are implemented
 
+* create a page for journalists (primary in Swedish, secondary in English) with
+  a *very brief* howto on Klingon, what mistakes to avoid and what people to
+  contact within the Klingon Scholarly Academy for more information
+
+* create a bragging page with a list of interviews, lectures, courses and other
+  things held by, or done in the name of, the Klingon Language Scholarly Academy
+  o add the following (google up more info, if possible):
+
+    U21243-1 Snick Snack om språk: Ett eget språk (10 min, från 6 till 9 år,
+    2002, UR-Video [DVD/VHS])
+
+    Vilket var det första ord du sa? Antagligen mamma. Och när man väl har lärt
+    sig att prata kan man ju börja hitta på hemliga språk . Björn kan prata
+    Klingonska och drömmer om att hitta på ett alldeles eget språk. Del 1 av 6.
+
+
 * "canon/"
+  o "canon/search.cgi"
+    * Search for "Why was it necessary" and "1992-06" has same text displayed multiple times
   o scriptify generation of list of sources
   o "canon/1995a.html" for SkyBox cards S7, S8 and S9 ("canon/1995b.html" already exists)
   o "canon/1994.html" for SkyBox cards SP1, SP2 and SP3 ("canon/1995b.html" already exists)
@@ -84,6 +103,8 @@ THEREAFTER
     * Add (verify that) google-like search expressions work (quoted phrases)
     * search prefixes "tlh:" / "se:" / "en:" / "all:" for (language) specific searches
     * Search suggestions and corrections?
+    * include matches from the "canon/" search engine? (so as to give better
+      context for usage etc.)
 
 * links
   o Link to "North Star Klingon Outpost" is out of date. New site:
@@ -148,6 +169,38 @@ FUTURE
 * make sure all Klingon words on "http://teresh.tdonnelly.org/klinewest.html" is
   in the dictionary
 
+* an inventory of klingon speakers? (Estimating the numbers of speakers, both
+  fluent, and those with rudimentary knowledge [able to write a letter with help
+  of a dictionary].)
+  o fluent (an outsider would note an actual conversation, not too many
+    repetions and {nuqjatlh}s), below is a list from a discussion on
+    tlhIngan-Hol in August 2007:
+    * charghwI' [Eric Andeen, 2007-08-02; Alan Andersson 2007-08-03]
+    * DaQtIq (provisionally) -- I can't really be sure of DaQtIq's fluency, as I
+      wasn't all that fluent myself when we spoke face to face. He was certainly
+      quick and skilled at online chat, however. [Alan Andersson 2007-08-03]
+    * DloraH, [Robyn Stewart, 2007-08-02; Alan Andersson 2007-08-03]
+    * ghunchu'wI' [Robyn Stewart, 2007-08-02; Alan Andersson 2007-08-03]
+    * Holtej [Robyn Stewart, 2007-08-02; Alan Andersson 2007-08-03]
+    * nIchyon [Robyn Stewart, 2007-08-02; Alan Andersson 2007-08-03]
+    * pagh [Robyn Stewart, 2007-08-02; Alan Andersson 2007-08-03]
+    * qoror -- qoror was an impressively skilled young lad from Texas who used
+      his mother's email account, a fact which thoroughly confused both me and
+      her when I decided to contact him by telephone one day. [Alan Andersson
+      2007-08-03]
+    * Qanqor [Robyn Stewart, 2007-08-02; Alan Andersson 2007-08-03]
+    * Qov [Robyn Stewart, 2007-08-02; Alan Andersson 2007-08-03]
+    * Quvar (Lieven) [Eric Andeen, 2007-08-02; Alan Andersson 2007-08-03]
+    * Seqram [Robyn Stewart, 2007-08-02; Alan Andersson 2007-08-03]
+    * SuStel [Eric Andeen, 2007-08-02; Alan Andersson 2007-08-03]
+    * taD [Robyn Stewart, 2007-08-02; Alan Andersson 2007-08-03]
+    * taj'IH (a very slight stretch) -- taj'IH and I had brief moments of
+      mutually understood conversation while wandering Brussels. Her command of
+      the grammar was very good, and she both pronounced and understood the
+      words wonderfully. Her vocabulary wasn't quite enough to keep it going for
+      long without having to pause for dictionary lookups, though. [Alan
+      Andersson 2007-08-03]
+    * 'ISqu' [Robyn Stewart, 2007-08-02; Alan Andersson 2007-08-03]
 
 2009-04-07
   * Fixed "canon/download.cgi" (now uses UTF-8)
@@ -156,7 +209,6 @@ FUTURE
     o CK transcript added & UTF-ified
   * Fixed "dict/lexicon.cgi" script so that it includes header/footer and
     inputs/outputs using UTF-8
-
 
 2009-04-04
   * Fetched current klingonska.org & installed that (= CGI's are not working)
