@@ -11,11 +11,15 @@ MILESTONE: NEW SITE ONLINE AT KLINGONSKA.ORG
       * Make sure all sources are present in listing
       * Fix all links
     o Fix "canon/search.cgi"
+      * DONE [2009-05-09] tested for '">' input field vulnerability
       * DONE [2009-04-13] fix "changed" date in HTML page header
       * DONE [2009-04-13] logo should link to script from help text 
       * make sure all canon transcripts are present
       * fix links to documents on search result page
+        o Should get info from file headers -- make
+          /xtra/web2/test.zrajm.org/canon/head-read work and use that.
     o DONE [2009-04-10] Fix "piqad/play.cgi"
+      * DONE [2009-05-09] tested for '">' input field vulnerability
     o DONE [2009-04-07] Fix "canon/download.cgi"
       * DONE [2009-04-13] "minus" -> "minus-minus" & "&shy;" -> "minus"
       * DONE [2009-04-13] Remove old partial transcripts, use following:
@@ -29,6 +33,7 @@ MILESTONE: NEW SITE ONLINE AT KLINGONSKA.ORG
         o DONE [2009-04-13] "Federation Travel Guide (Partial Transcript)"
         o DONE [2009-04-13] "Skybox Trading Cards"
     o DONE [2009-04-07] Fix "dict/lexicon.cgi"
+      * DONE [2009-05-09] fixed '">' input field vulnerability
       * DONE [2009-04-07] Include page header/footer in "dict/lexicon.cgi" output
   * DONE [2009-04-04] Get all HTML pages working
     o DONE [2009-09-09] Change <meta http-equiv="Content-Type"> tags into utf-8
@@ -39,7 +44,17 @@ MILESTONE: NEW SITE ONLINE AT KLINGONSKA.ORG
      o How to config using domtool?
   * Working mailing lists
      o List current mailing lists on manufrog
+       (Both old ISP [Manufrog] and HCoop uses mailman.)
+       * 2040@..
+         old conf: http://klingonska.org/mailman/admin/2040_klingonska.org
+       * klingonska@..
+         old conf: http://klingonska.org/mailman/admin/klingonska_klingonska.org
      o How to config on hcoop?
+       * http://wiki.hcoop.net/DomTool/Examples "5. Mailman"
+       * https://lists.hcoop.net/listinfo/ "lists.hcoop.net Mailing Lists"
+       * http://wiki.hcoop.net/MemberManual/Email/MailingLists
+         "MemberManual/Email/MailingLists"
+
 
 THEREAFTER
 ----------
@@ -51,6 +66,8 @@ THEREAFTER
 * create a page for journalists (primary in Swedish, secondary in English) with
   a *very brief* howto on Klingon, what mistakes to avoid and what people to
   contact within the Klingon Scholarly Academy for more information
+  o suggested reading: "The Quick 'n Dirty Guide to Klingon Grammar" by Teresh
+    Donnelly [http://teresh.tdonnelly.org/briefklingram.html]
 
 * create a bragging page with a list of interviews, lectures, courses and other
   things held by, or done in the name of, the Klingon Language Scholarly Academy
@@ -71,6 +88,8 @@ THEREAFTER
   o "canon/1995a.html" for SkyBox cards S7, S8 and S9 ("canon/1995b.html" already exists)
   o "canon/1994.html" for SkyBox cards SP1, SP2 and SP3 ("canon/1995b.html" already exists)
   o Incorporate everything under "Other (to-be-included) sources:" into main body of text
+  o BoP: Check spelling of "Thursters" with original
+  o BoP: hi-res scan of original
 
   o transcript improvement
     * "canon/1994-10--hallmark.txt"
@@ -131,7 +150,14 @@ THEREAFTER
 * Various small fixes, as wanted/needed
 * Change all faulty Latin-1 173 chars into proper hyphens/minuses
 * dict/
-  o Errata for the printed dictionary
+
+  o improve dictionary using grammar guides
+    * add stuff from Teresh Donnelly's "Klingon Grammar Addenda"
+      [http://teresh.tdonnelly.org/kliaddi.html]
+    * add comments from KLI's "Common Grammar Questions And Problems"
+      [http://www.kli.org/wiki/index.php?Common%20Grammar%20Questions%20And%20Problems]
+
+  o Errata for the {tlhIngan Hol mu'ghom mach}
   o Fix bad colors on table borders in "dict/tables.html"
   o separated headers & footers (using template)
   o CSS redesign (removing tables used for layout)
@@ -143,6 +169,7 @@ THEREAFTER
   o improve data directory structure
   o add any missing transcripts
   o remove tCK, tPK "$TAB:" header
+
 * Improve "akademien/" by removing old/irrelevant stuff ("Stadgar")
 
 
@@ -175,6 +202,7 @@ FUTURE
   o fluent (an outsider would note an actual conversation, not too many
     repetions and {nuqjatlh}s), below is a list from a discussion on
     tlhIngan-Hol in August 2007:
+    * list of all former beginner's grammarians?
     * charghwI' [Eric Andeen, 2007-08-02; Alan Andersson 2007-08-03]
     * DaQtIq (provisionally) -- I can't really be sure of DaQtIq's fluency, as I
       wasn't all that fluent myself when we spoke face to face. He was certainly
