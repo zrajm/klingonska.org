@@ -1,0 +1,125 @@
+From: MarcOkrand@msn.com
+Newsgroups: msn.onstage.startrek.expert.okrand
+Date: December 12, 1996
+
+Kenneth --
+Here's "what I think" about the two sentences in your note.
+
+But since this is a bulletin board, I'd be interested in seeing what
+people besides me think also.  So if anyone else has other thoughts on
+these or any future matters, please feel free to participate.  (No reason
+to wait for me to go first either.  And I'd also be interesting in seeing
+analyses that disagree with mine.) 
+
+Anyway, the two sentences you wrote raise some interesting points about
+Klingon grammar, so they're a great place from which to begin a
+discussion. 
+
+Taking them up in order:
+
+(1) You suggested translating "Do you think it's possible for a Klingon to
+feel love for a Ferengi?" as: 
+
+	verenganvaD bang HotmeH tlhIngan qIt 'e' DaQub'a'?
+
+The end of the sentence is fine.  The correct way to say "Do you think
+that...?" is ... 'e' DaQub'a'? ('e' is "that," referring to something that
+precedes it in the sentence or in the discussion; DaQub'a' is "do you
+think it?"). 
+
+Then it gets a little murky -- mostly because you're talking about a topic
+Klingons don't talk about much, namely love. 
+
+First, the word HotmeH means "in order to feel," (Hot "feel," -meH "in
+order to"), but Hot means "feel, touch,"  not "feel emotions." 
+
+Second, the word bang is indeed a noun meaning "love," but it refers to
+the object of one's affection, that is, "beloved one."  (In Star Trek III,
+Kruge refers to Valkris as bangwI' "my love" in this sense.) 
+
+So we need another way to say "feel love" for your sentence.  We do know
+that there is a Klingon word for "love," meaning something like what we
+mean by the word.  It is parmaq. We heard this word for the first time in
+a recent episode of Deep Space Nine where Dax says that parmaq is "the
+Klingon word for 'love,' but with more aggressive overtones."  She accuses
+Worf of having a "bad case" of parmaq, which suggests it's a noun.  (The
+episode is called "Looking for par'Mach in All the Wrong Places";  there
+may be a good historical reason for the Federation choosing the spelling
+"par'Mach," but, regardless, the pronunciation of the word is parmaq.) 
+Unfortunately, so far, that's about all we know about the Klingon word for
+"love."  I'll have to do some additional research to find out how the word
+is used correctly in a sentence.  Since it's Klingon love we're talking
+about here, I wouldn't be surprised to learn that it doesn't work in at
+all the same way as the Federation Standard word "love."  I'll get back to
+you on this in the future.  Whether it's appropriate to express "for a
+Ferengi" by using the noun suffix -vaD "for" awaits further research as
+well, since it depends on how the verb used for "feel love" works. 
+
+Finally, you use the word qIt to mean "it's possible."  qIt is a verb
+meaning "be possible."  In your sentence, however, it's used in an odd
+way.  As you know, in Klingon, objects precede the verb and subjects
+follow.  Since qIt is a verb, what precedes it should be the object (here,
+"a Klingon feels love for a Ferengi," regardless of how you say that);
+what follows should be the subject.  But nothing follows. ('e' DaQub'a' is
+something else, and 'e' is the object of DaQub'a'.)  It's possible that
+the subject of qIt is "it" (presumably 'oH) and that the pronoun is just
+not uttered (not impossible); but what is "it"?  It has to refer to
+something, but, in this case, it refers to nothing, making the entire
+construct suspect.  I'd suggest recasting the sentence by making use of
+the verb suffix -laH 'can, able,' so it would mean something like "...a
+Klingon is able to feel love for a Ferengi."  Of course, until we know how
+to say "feel love" we don't know what to attach the -laH to. 
+
+I realize this doesn't help much; it raises more questions than it
+answers.  But when it comes to matters of the heart... 
+
+(2) You suggested translating "What is your favorite month?" as: 
+
+	jarlIj qaq nuq?
+
+This one's a little easier to deal with.  Your sentence literally means
+"What is your preferable month?"  The basic syntax is correct.  Question
+words (in this case, nuq "what?") function the same way pronouns do in
+questions with "to be" in the English translations.  Thus, the question
+yIH nuq? "What is a tribble?" is exactly parallel the statement yIH 'oH
+"It is a tribble" (where yIH is "tribble" and 'oH is "it").  The answer to
+the question yIH nuq? ("What is a tribble?") would presumably be a
+definition or description of a tribble.  This being the case, then, the
+answer to the question jarlIj qaq nuq?  ("What is your preferable month?")
+would presumably be a definition of "your favorite month." But this is not
+what you want to find out by asking your question.  What you really mean
+to ask is something like "Of all the months, which one do you prefer?" 
+
+The first word in your sentence, jarlIj, means "your month"  (jar "month,"
+-lIj "your").  But given that what you're really asking is "Which month do
+you prefer?" it's not really "your month" at all.  The "you" should go
+with the verb, not with "month." 
+
+Which brings us to the verb.  You use qIb, "be preferable,"  adjectivally
+(jarlIj qIb is "your preferable month").  I think what you mean is better
+expressed by using the verb maS "prefer" with "you" as the subject: jar
+DamaS "you prefer the month."  If you want to highlight the notion of
+"most prefer," you can use the emphatic suffix -qu': jar DamaSqu' "you
+very much prefer the month."  (In this case, since "prefer" involves
+making a choice, the one chosen is automatically the one that is "most"
+preferred.) 
+
+So what about the "what" (or "which") of your original question
+("What/which is your favorite month?")?  When asking someone a question of
+this type, you are really asking him or her to make a choice.  So just be
+a Klingon and order them to do so: "Identify the month that you very much
+prefer!": 
+
+	jar DamaSqu'bogh yIngu' 
+
+DamaSqu'bogh "that you very much prefer" (DamaSqu' "you very much prefer
+it" plus -bogh "which," the relative-clause marker) modifies jar "month"
+and the whole phrase jar DamaSqu'bogh "the month that you very much
+prefer" is the object of the verb ngu' ("identify"), which is preceded by
+the imperative prefix yI- ("do something to it!"). 
+
+Given that there's an awful lot about Klingon grammar that's not yet known, 
+you did a good job coming up with the translations you came up with.  I hope 
+my explanations and clarifications make sense.
+
+[[eof]]

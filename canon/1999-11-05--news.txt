@@ -1,0 +1,156 @@
+[[
+  [2009-04-14] added document header
+  Style: {}=bold
+
+  Type: newsgroup posting
+  Date: 5 November 1999
+  Title: Re: And then...? And then...? (And then along came Jones...) - For MO
+  Author: Marc Okrand
+  Summary: On {ghIq}, {ngugh} and {tagha'}.
+]]
+
+From: Marc Okrand
+Newsgroups: startrek.klingon
+Date: Friday, November 05, 1999 01:39 AM
+Subject: Re: And then...? And then...? (And then along came Jones...) - For MO
+
+
+Mark E. Shoulson wrote in message
+<3803FADC.7E49AEE5@kli.org>...
+
+>We now have {ghIq}, meaning "then" in the sense of
+>"subsequently..."  That is, after the last thing happened,
+>this happened; emphasizing the sequential aspect of the
+>narrative.  But having that, what about another kind of
+>"then"?  Something like a temporal analogue to {pa'}:
+>"then" in the sense of "at that time."  We have something
+>like this with {-DI'}, but that requires a verb or clause
+>which isn't always necessarily available or convenient.
+>Maybe there's something idiomatic with {-DI'}?  Or an
+>adverb?
+
+
+Yes and yes.  There is an adverbial which means "then" in
+the sense of "at that time" (as opposed to "subsequently").
+And there is also an idiom meaning something like "by that
+time."
+
+The adverbial is (ngugh}.  It is used mainly to emphasize [[(ngugh}:={ngugh}]]
+that a particular event occurred at the same time as
+something else, though {ngugh} doesn't indicate what that
+time is.  Something else in the discussion makes that
+clear.  {ngugh} does not mean "at some (vague) time in the
+past" or "at some (unknown) time in the future."
+
+For example:
+
+(1) vagh SanID ben buDbe' wamwI'pu'.  ngugh Ho'Du'chaj lo'
+chaH, 'ach DaH tajmey lo'.
+
+"5,000 years ago, hunters were not lazy.  Then (at that
+time) they used their teeth, but now they use knives."
+
+({vagh SanID} "5,000," {ben} "years ago," {buD} "be lazy,"
+{-be'} "not," {wamwI'pu'} "hunters"; {ngugh} "then,"
+{Ho'Du'chaj} "their teeth", {chaH} "they," {'ach} "but,"
+{DaH} "now," {tajmey} "knives," {lo'} "they use")
+
+
+(2) DungluQ tIHIv.  ngugh Qongbe' chaH.
+
+"Attack them at noon!  They won't be sleeping then."  (or:
+"Attack them at noon.  They're not sleeping then.")
+
+({DungluQ} "noon," {tIHIv} "attack them! [imperative]";
+{ngugh} "then," {Qong} "they sleep," {-be'} "not," {chaH}
+"they")
+
+Note that in each case {ngugh} "then" refers to a time
+specified earlier in the discussion (here, "5,000 years
+ago" and "noon").  In the second example, the adverbial
+{ngugh} could be left out, and the basic meaning could
+still be the same ("Attack them at noon! They won't be
+sleeping.")  With {ngugh}, however, the speaker is
+emphasizing the time element.  The first example also could
+be recast without {ngugh} (for example, the second sentence
+could be two: {Ho'Du'chaj lo' chaH. DaH tajmey lo'.}  "They
+used their teeth.  Now they use knives.").  With {ngugh},
+however, the contrast between "then" and "now" is
+highlighted.
+
+The time reference need not occur in the immediately
+preceding sentence or clause (as it does in the examples
+above); it could be earlier in the discourse.
+
+Since {ngugh} points to or refers back to a previously
+established time reference, if that time reference is not
+clear (or is missing), an utterance containing {ngugh}
+would not make much sense.  If someone asks "When?" after
+hearing a sentence containing {ngugh}, unless the question
+resulted from inattentiveness, {ngugh} was probably used
+inappropriately.
+
+In addition to {ngugh}, there is an idiomatic expression
+involving the suffix {-DI'} "when, as soon as" used to mean
+"by that time, by the time that [something] occurred (or
+will occur)."  The event that has occurred (or will occur)
+is typically expressed in the immediately preceding
+sentence or clause, though it could have been uttered
+earlier.
+
+The idiom is found in two forms.  The shorter (and more
+frequently heard) version is the single word {pumDI'} "when
+it falls" ({pum} "fall" [that is, "fall down" or "fall off
+of something"], {-DI'} "when").  The longer version
+consists of {pumDI'} followed by a subject noun specifying
+what falls.  The most common noun heard is {'etlh} "sword,
+blade" (thus: {pumDI' 'etlh}, literally "when the blade
+falls").  Presumably the expression originally referred to
+a fight between two combatants wielding bladed weapons.
+The time at which one of them dropped the weapon and was
+thus defeated (or was as good as defeated) was a
+significant moment.
+
+Some speakers, however, are rather creative and use nouns
+other than {'etlh}.  For example: {pumDI' DaS} "when the
+boot falls," {pumDI' 'obmaQ} "when the ax falls," {pumDI'
+nagh} "when the stone falls," {pumDI' rutlh} "when the
+wheel falls."  There seems to be no restriction on what
+noun may be used here, as long as it is something that
+could possibly fall.  (Thus {pumDI' QoQ} "when the music
+falls" would not be used.)
+
+Choosing one noun or another to use in the idiomatic phrase
+is a form of word play.  Depending on the topic being
+discussed, the noun could add a touch of irony or even
+humor.  In any event, the choice of noun does not change
+the idiomatic meaning of the phrase. {pumDI' X}, where X is
+the subject noun, is used to mean "by then, by that time."
+
+The idiom might be used when talking about a feast that had
+taken place a few nights ago. If a guest arrived late --
+after the eating had already begun -- one might say
+something like:
+
+
+    tagha' pawpu' meb 'ach pumDI' Heghpu' qagh.
+
+or:
+
+    tagha' pawpu' meb 'ach pumDI' 'etlh Heghpu' qagh.
+
+
+"The guest finally arrived, but by then the gagh had died."
+
+({tagha'} "finally, at last," {pawpu'} "he/she has
+arrived," {meb} "guest," {'ach} "but," {pumDI' ('etlh)} "by
+then," {Heghpu'} "it has died," {qagh} "gagh")
+
+
+Unlike subordinate clauses in general, {pumDI' X}, when used
+idiomatically, always precedes the main clause ({Heghpu'
+qagh} in the example above).  When idiomatic usage is not
+involved, subordinate clauses may either precede or follow
+the main clause.
+
+[[eof]]

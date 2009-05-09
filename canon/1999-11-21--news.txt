@@ -1,0 +1,201 @@
+[[
+  [2009-03-14] added document header
+  Style: <>=bold
+
+  Type: newsgroup posting
+  Date: 21 November 1999
+  Title: Re: Cardinal Directions (to Marc Okrand)
+  Author: Marc Okrand
+  Summary: Klingon compass directions.
+]]
+
+Subject: Re: Cardinal Directions (to Marc Okrand)
+Date: Sun, 21 Nov 1999 23:53:05 -0500
+From: "Marc Okrand" <mokrand@erols.com>
+Newsgroups: startrek.klingon
+
+Kamala KordaS wrote in message
+<01be6bfa$95361c60$67b962cf@juniper>...
+>What are the cardinal directions in tlhIngan Hol?
+>east
+>west
+>south
+>north
+>As well as all the variants of directions such as
+>northeast, southeast etc. If Mr. Okrand could answer
+>that would be great. I have been unable to locate any
+>reference to these directions in the Dictionaries or
+>other books by Mr. Okrand.
+>
+
+
+Traditionally, in dealing with orientation, bearings,
+headings, and so forth, Klingons have divided things up
+into three, not four, primary directions or compass points.
+
+There are three nouns for these principal points.  The
+translations of these words using terminology familiar to
+the Federation are a little awkward, but they give an idea
+of the meanings:
+
+    chan    "area eastward" or "area towards the east"
+
+    'ev     "area northwestward" or "area towards the
+northwest"
+
+    tIng    "area southwestward" or "area towards the
+southwest"
+
+While the four main compass points used in the Federation
+(north, east, south, west) are distributed evenly (that is,
+they are 90 degrees apart from each other: north is 90
+degrees away from east, east is 90 degrees away from south,
+and so on), this is not the case in the Klingon system.
+The three directions are not evenly spaced (that is, they
+are not 120 degrees apart from each other).  Instead, the
+areas associated with <'ev> and <tIng> are closer to each
+other than either is to the area associated with <chan>.
+(The areas associated with <'ev> and <tIng> are something
+like 100 degrees apart from each other, and each is 130
+degrees away from the area associated with <chan>.)
+
+English words like "east" and "southwest" are, as noted,
+just convenient tags for what the Klingon words mean.
+Since <chan> actually refers to that part of the landscape
+in the direction of the sunrise, "east" is a reasonable
+English counterpart.  The standard translations of <'ev>
+and <tIng> follow from the standard translation of <chan>.
+But Klingon <chan> does not work the same as English
+"east."  From the Klingon point of view, it makes no sense
+to say that something is "in the east."  One can go towards
+the east, something can be to the east of something else,
+but nothing can actually be "in" the east.  No matter how
+far eastward you go, there's something still to your east.
+Thus the awkward translations "area eastward, area towards
+the east" and so forth.  (And, of course, the same can be
+said for the other directions.)
+
+These Klingon direction nouns work in the same manner as
+other nouns of location (nouns used to express
+prepositional concepts) such as <Dung> "area above," <bIng>
+"area below," and <retlh> "area beside, area next to."
+Thus, just as <nagh Dung>, literally "rock area-above" or
+"rock's area-above" (<nagh> "rock") is used for "above the
+rock," <veng chan>, literally "city area-eastward" or
+"city's eastward area" (<veng> "city") is commonly
+translated "east of the city."
+
+Depending on the sentence in which the phrase is used, the
+second noun in this construction (in this case <chan> "area
+eastward") could take the locative suffix <-Daq>, as in:
+
+    veng chanDaq jIwam  "I hunt east of the city"
+
+(<veng> "city," <chan> "area eastward," <jIwam> "I hunt")
+
+The "city in the east" (actually, "city toward the east")
+or "eastern city" would be the "area-eastward city": <chan
+veng>.
+
+Again, if appropriate, the locative suffix <-Daq> follows
+the second noun:
+
+    chan vengDaq jIwam  "I hunt in the city in the east"
+
+The "city's east," meaning "the eastern part of the city,"
+would make use of <yoS> "area, district": <veng chan yoS>
+(literally "city area-eastward district" or "city's
+eastward-area's district").
+
+The directional nouns may also be used with possessive
+suffixes.  For example (switching from the east, for the
+sake of variety):
+
+    'evwIj "northwest of me" (literally "my
+area-northwestward")
+
+    'evmaj "northwest of us" (literally "our
+area-northwestward")
+
+(<-wIj> "my," <-maj> "our")
+
+These words may also be translated "northwest of here."
+For example:
+
+    'evmajDaq jIwampu'  "I have hunted northwest of here"
+
+(<'evmaj> "northwest of us," <-Daq> "locative suffix,"
+<jIwampu'> "I have hunted")
+
+This works only when the speaker is indeed "here" (that is,
+referring to the place in which he or she is currently
+speaking).  If, however, "here" is a place on a map that
+the speaker is pointing to, "northwest of here" would be
+something along the lines of <Daqvam 'ev>, literally
+"this-location area-northwestward" or "this place's
+area-northwestward" (<Daq> "location, site," <-vam>
+"this").
+
+To express directions between the three cardinal points,
+the nouns are compounded.  Thus, halfway between
+"southwest" and "east" (that is, halfway between <tIng>
+"area southwestward" and <chan> "area eastward)"  is <tIng
+chan> (literally "area-southwestward area-eastward" or
+"area-southwestward's area-eastward" or, for short,
+"southwest's east").  Similarly, halfway between
+"northwest" and "east" is <'ev chan>.  Logically, these
+words could come in the other order (that is, <chan tIng>
+or <chan 'ev>), but, for whatever reason, <chan> always
+comes second.
+The area halfway between "northwest" and "southwest" is
+expressed as either <'ev tIng> or <tIng 'ev>, with neither
+version significantly more common than the other.
+
+To get even more specific, it is possible to make a
+compound of three words (though two would always be the
+same): <'ev chan 'ev> would be a direction halfway between
+<'ev chan> and <'ev); <'ev chan chan> would be a direction [[<'ev):=<'ev>]]
+halfway between <'ev chan> and <chan>.
+
+How this extends to even finer tuning is something pretty
+much lost except to those knowledgeable in the old ways of
+navigating.  In more recent times, those needing to express
+directions with greater precision use (numerical)
+instrumental readouts.
+
+There is an idiomatic expression still heard with
+reasonable frequency which makes use of all three cardinal
+direction terms:
+
+    tIngvo' 'evDaq chanDaq
+
+Literally, this means "from area-southwestward to
+area-northwestward to area eastward" (<-vo'> "from,"
+<-Daq>, the locative suffix, here indicating "to"), but the
+idiom means "all around, all over, all over the place."  It
+is used in the same place in a sentence that the noun <Dat>
+"everywhere" might be used, but it is much more emphatic:
+
+    tIngvo' 'evDaq chanDaq jIlengpu'  "I've traveled all
+over the place"
+
+(<jIlengpu'> "I have traveled")
+
+A more archaic form of the idiom is <tIngvo' 'evDaq 'evvo'
+chanDaq> (literally, "from area-southwestward to
+area-northwestward, from area-northwestward to area
+eastward"), but the three-word version (without the
+repetition of <'ev>) has all but totally replaced it.
+
+Finally, it should be noted that none of this terminology
+ever was adapted for navigation in space.  Klingons have
+made use of the system common throughout the galaxy by
+which courses, bearings, coordinates, and so forth are
+given numerically:
+
+    He wej pagh Soch DoD cha'  "course 3-0-7-mark-2"
+
+(<He> "course," <wej> "three," <pagh>, "zero," <Soch>
+"seven," <DoD> "mark," <cha'> "two")
+
+[[eof]]

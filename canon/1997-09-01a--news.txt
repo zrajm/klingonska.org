@@ -1,0 +1,77 @@
+[[
+  [2003-01-24, 21.28-40] added document header
+  Style: <>=bold, ""=italics, corrections
+
+  Type: newsgroup posting
+  Date: 1 September 1997
+  Title: Re: family names
+  Author: Marc Okrand
+  Summary: Instructions on how to introduce yourself and tell somebody what
+    family or house you come from.
+]]
+
+From: "Marc Okrand" <MarcOkrand@msn.com>
+Newsgroups: msn.onstage.startrek.expert.okrand
+Date: Mon, 01 Sep 1997 13:15:40 -0700
+Subject: Re: family names
+
+kay_fam@msn.com wrote in article <01bca1fe$094ae680$a5002299@default>...
+> Dr. Okrand,
+> 
+> I would like to know the proper way to express a Klingon's name using the
+> name of his house. For example, I have created a character named <qeylor>
+> whose father is named <qeylIn>. They are from the House of Molor. What
+> are the proper ways for <qeylor> to identify himself? If I were using
+> English, I would have him say, "I am Kahlor from the House of Molor." I
+> can also imagine that if spoken to in a formal manner, he might be
+> addressed as "Kahlor, son of Kahlin, from the House of Molor." Does this
+> simply become <qeylor, qeylIn puqloD, molor tuq>? What does Matlz say? [[Matlz:=Maltz]]
+> 
+> Deborah
+
+According to Maltz, there are at least a couple of ways to identify a
+Klingon's house (or <tuq>).
+
+One way is the way you suggested.  To say "Kahlor of the House of Molor"
+(or, if you prefer, "Kahlor from the House of Molor"), you'd say simply
+"Kahlor, House of Molor":
+
+    qeylor molor tuq
+
+If you want to be even more formal, the name of the father may be used as
+well -- again, as you suggested.  "Kahlor, son of Kahlin, of the House of
+Molor" is "Kahlor, son of Kahlin, House of Molor":
+
+    qeylor qeylIn puqloD molor tuq
+
+The other way is actually more formal and a bit formulaic.  To say "Kahlor
+is of the House of Molor" (or "Kahlor is from the House of Molor"), you
+could say:
+
+    tay' qeylor molor tuq je
+
+This is literally "Kahlor and the House of Molor are together" (<tay'> "be
+together," <je> "and").  The construction is no doubt based on the Klingon
+proverb "One is always of his tribe" (literally, "a person and his house
+are always together"):
+
+    reH tay' ghot tuqDaj je
+
+(<reH> "always," <ghot> "person," <tuqDaj> "his/her house")
+
+If Kahlor is speaking, he could say, "I am of the House of Molor": 
+
+    matay' jIH molor tuq je
+
+Or if one were speaking to Kahlor, one could say, "You are of the House of
+Molor":
+
+    Sutay' SoH molor tuq je
+
+Literally, these are "The House of Molor and I are together" (<matay'> "we
+are together," <jIH> "I," <molor tuq> "House of Molor," <je> "and"), "The
+House of Molor and you are together" (<Sutay'> "you [plural] are together,"
+<SoH> "you").  The independent pronouns (<jIH> "I" and <SoH> "you" in the
+examples above) are always used in this construction.  
+
+[[eof]]

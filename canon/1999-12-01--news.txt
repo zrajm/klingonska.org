@@ -1,0 +1,74 @@
+[[
+  [2009-04-14] added document header
+  Style: <>=bold
+
+  Type: newsgroup posting
+  Date: 1 December 1999
+  Title: Re: Cardinal Directions (to Marc Okrand)
+  Author: Marc Okrand
+  Summary: More notes on Klingon compass directions.
+]]
+
+Subject: Re: Cardinal Directions (to Marc Okrand)
+Date: Wed, 1 Dec 1999 00:22:18 -0500
+From: "Marc Okrand" <mokrand@erols.com>
+Newsgroups: startrek.klingon
+
+Alan Anderson wrote in message ...
+
+>> [...]
+>> The directional nouns may also be used with possessive
+>> suffixes.
+>
+>Is this a regional feature, or is it common to all
+>dialects?  As I understand it, the locative nouns
+>generally don't use the possessive suffixes, appearing
+>instead in constructions like {jIH retlh} "area next to
+>me".  The exception is the speech typical of the Sakrej
+>region, where the possessive suffixes are used to say
+>{retlhwIj}.
+> [...]
+
+Good point.  I should have been more explicit.
+
+In the standard dialect of Klingon (<ta' Hol>) and in most
+other dialects, the locative nouns (or nouns of location,
+or nouns expressing prepositional concepts) do not take
+possessive suffixes, while in the dialect of the Sakrej
+region, they do.
+
+The directional nouns (<chan, 'ev, tIng>), on the other
+hand, take possessive suffixes in all dialects (or at least
+in all dialects studied to date).
+
+It is also possible (though the Sakrej folks tend not to do
+this) to use the full pronoun plus locative noun
+construction with the directional nouns: <jIH chan> "east
+of me" (literally "I area eastward") (<jIH> "I").
+There is a slight meaning difference between <jIH chan>,
+using the full pronoun, and <chanwIj>, using the possessive
+suffix, however.  The construction with the full pronoun
+emphasizes the pronoun (in this case "I," the speaker
+him/herself) as the reference point; the construction with
+the pronominal suffix is more neutral.  Thus, <chanwIj> is
+"east of me, east of where I am, east of here," but <jIH
+chan> is "east of ME, to MY east."
+
+Perhaps what occurred historically (though there may well
+be other explanations) is that the speakers of the Sakrej
+dialect took a grammatical rule which had a restriction
+("possessive suffixes may follow directional nouns, but not
+other locative nouns") and generalized it (applied it more
+broadly) by eliminating the restriction ("possessive
+suffixes may follow locative nouns" -- or maybe even,
+simply, "possessive suffixes may follow nouns").  In
+theory, it could have happened the other way around.  The
+speakers of some dialect -- including <ta' Hol> -- could
+have interpreted the rule to be "possessive suffixes never
+follow locative nouns except for directional nouns" and
+then made the rule apply more generally by dropping the
+exception (yielding "possessive
+suffixes never follow locative nouns").  But this didn't
+happen.
+
+[[eof]]

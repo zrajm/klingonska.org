@@ -1,0 +1,191 @@
+[[
+  [2009-04-14] added document header
+  Style: <>=bold
+
+  Type: email
+  Date: 2 February 1999
+  Title: Re: wanI' to replace time related relative pronoun
+  Author: Marc Okrand
+  Summary: On how to tell time and ask what time it is.
+]]
+
+From: Marc Okrand
+Subject: Re: wanI' to replace time related relative pronoun
+Date: Tuesday, February 02, 1999 11:32 PM
+
+Actually, there are several ways to ask "What time is
+it?" in Klingon.  Here are a couple.
+
+In dealing with time in interplanetary communication,
+Klingons have come to use the 24-hour system favored by the
+Federation.  There are 24 hours in a day (meaning 24 Earth
+hours in an Earth day), numbered one through 24.  For
+example:
+
+    tera' rep wa'
+    "Earth hour one" or "one o'clock"
+    (<tera'> "Earth," <rep> "hour," <wa'> "one")
+
+    tera' rep cha'maH
+    "Earth hour 20" or "20 o'clock" or "eight o'clock p.m."
+    (<cha'maH> "20")
+
+    tera' rep loS wejmaH
+    "Earth hour 4:30"
+    (<loS> "four," <wejmaH> "30")
+
+If the context is clear, the word <tera'> "Earth" may be
+left out:
+
+    rep cha'maH  "20 o'clock, eight o'clock p.m."
+
+When working within this system, one doesn't inquire as to
+the time; one demands that the number of the current hour
+be specified.  Thus, the equivalent expression to "What
+time is it?" is a command:
+
+    rep yIper!  "Ascertain the hour! Specify the hour!"
+
+This is literally "Label the hour!" (<rep> "hour"; <yIper>
+"label [it]!," consisting of the imperative prefix <yI->
+plus <per> "label").  Though the verb <per> "label" is
+usually used in the sense of "attach or assign a name to,"
+it can also be used for such notions as "ascertain,
+specify, pin down."  This is not considered slang or
+idiomatic.
+
+When giving the time using this system, hours are numbered,
+not counted.  That is, one says <rep cha'> "hour two, hour
+number two, two o'clock," not <cha' rep> or <cha' repmey>
+"two hours" (<rep> "hour," <repmey> "hours"; a plural
+suffix, here <-mey>, is not needed when a number modifies a
+noun, but it is sometimes used anyway).  Accordingly, it is
+not customary to ask for the time by saying <rep tItogh> or
+<repmey tItogh> "Count the hours!" (<tItogh> "count them!"
+made up of <tI->, the imperative prefix used for plural
+objects, plus <togh> "count").
+
+In nonmilitary contexts (as rare as these
+may be) and in situations where interplanetary
+communication is not a concern, the most common way of
+asking "What time is it?" in Klingon is quite different.
+It is based on the way the question was asked long ago, in
+a time before Klingons traveled around the galaxy and
+before there was any significant amount of interaction
+between Klingons and residents of other planets:
+
+    'arlogh Qoylu'pu'?
+
+This is literally "How many times has (someone) heard
+(it)?" or "How many times has it been heard?"  (<'arlogh>
+"how many times?" a word that functions adverbially, made
+up of the question word <'ar> "how much? how many?" and the
+special number suffix <-logh> "times" [as in "six times"];
+<Qoylu'pu'> "someone has heard (it)," made up of <Qoy>
+"hear," <-lu'> "indefinite subject," <-pu'> "perfective,"
+that is, the action has been completed).
+
+What is not clear from this locution is what it is that has
+supposedly been heard.  In modern Klingon, the "what" in
+this phrase is never expressed.
+
+It appears as though, long ago, at least some Klingons were
+notified of the time by some audible signal (though what
+means were used to calculate the time in the first place
+remain to be discovered).  Perhaps this signal was a
+specific sound (a person shouting? a beat on a drum? a
+gong? the growl of an animal?) and that word was originally
+part of the expression, for example, <'arlogh bey
+Qoylu'pu'?> "How many times has someone heard the howl? How
+many times has the howl been heard?" (<bey> "wail, howl").
+Or maybe the expression contained a more general word such
+as <ghum> "alarm" or <wab> "sound, noise": <'arlogh wab
+Qoylu'pu'?> "How many times has someone heard the sound?
+How many times has the sound been heard?"
+
+It has also been speculated that there was once a bit more
+to this expression, namely an element stating the time
+period the questioner was concerned about.  For example,
+maybe people said:
+
+    DaHjaj 'arlogh Qoylu'pu'?
+
+That is, "Today, how many times has someone heard it?"
+(<DaHjaj> "today"), suggesting that the questioner is
+concerned about how much time has gone by "today" (as
+opposed to, say, "this week").
+
+Or maybe the fuller expression was a little less specific:
+
+    qen 'arlogh Qoylu'pu'?
+
+"Recently, how many times has someone heard it?" (<qen>
+"recently, a short time ago").
+
+Regardless of its original full form, the expression comes
+down to us now as simply <'arlogh Qoylu'pu'?>.  The phrase
+is considered an idiom because what it means ("What time is
+it?") cannot be understood on the basis of the meanings of
+its components ("How many times has someone heard it?").
+
+The answer to the question <'arlogh> "How many times?" is,
+as might be expected, <X-logh>, where X is some number.
+For example:
+
+    cha'logh Qoylu'pu'.
+
+This is literally "Someone has heard it twice" or "It has
+been heard twice" (<cha'logh> "twice," from <cha'> "two"
+plus <-logh> "times").  This is the Klingon equivalent to
+"It's two o'clock."   Originally, this was a statement of
+time in the traditional Klingon system, but it is now also
+used for the 24-hour system.
+
+The idiomatic <'arlogh Qoylu'pu'> also shows up in such
+questions as "What time do we leave?":
+
+    mamejDI' 'arlogh Qoylu'pu'?
+
+This is literally "When we leave, how many times
+will someone have heard (it)?" or "When we leave,
+how many times will it have been heard?" (<mamejDI'>
+"when we leave," made up of <ma-> "we," <mej> "leave,
+depart," <-DI'> "when").
+
+An answer might be "We (will) leave at eight o'clock:
+
+    mamejDI' chorghlogh Qoylu'pu'
+
+Literally, "When we leave, someone will have heard
+(it) eight times" (<chorghlogh> "eight times," from
+<chorgh> "eight" plus <-logh> "times").
+
+Since subordinate clauses such as <mamejDI'> "when we
+leave" can come before or after the main clause, it's also
+possible to say:
+
+    'arlogh Qoylu'pu' mamejDI'?
+    chorghlogh Qoylu'pu' mamejDI'.
+
+Literally, "How many times will someone have heard (it)
+when we leave?  Someone will have heard (it) eight
+times when we leave."
+
+In actual conversation, of course, it's usually not so
+repetitive.  You'd probably hear:
+
+    'arlogh Qoylu'pu' mamejDI'?
+    chorghlogh Qoylu'pu'.
+
+"How many times will someone have heard (it) when we leave?
+Someone will have heard (it) eight times."
+
+Or even:
+
+    'arlogh Qoylu'pu' mamejDI'?
+    chorghlogh.
+
+"How many times will someone have heard (it) when we leave?
+Eight times."
+
+[[eof]]

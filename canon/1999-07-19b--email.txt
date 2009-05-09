@@ -1,0 +1,90 @@
+[[
+  [2009-04-14] added document header
+  Style: {}=bold
+
+  Type: email
+  Date: 19 July 1999
+  Title: [chegh] and new word [tatlh] (from Marc)
+  Author: Marc Okrand, Will Martin, Roger Cheesbro
+  Summary: On the usage of {chegh} and {tatlh}.
+]]
+
+Date: Mon, 19 Jul 1999 19:02:07 -0400              | Header from the message
+To: tlhingan-hol@kli.org                           | forwarded to tlhingan-hol
+From: TPO <cheesbro@rpa.net>                       |
+Subject: [chegh] and new word [tatlh] (from Marc)  |
+
+From the startrek.klingon news group:
+
+Will Martin wrote in message
+[snip]
+
+>And since I don't have the interview with me, was {chegh}
+>"return" one of
+>those verbs that acts like {ghoS} and {jaH} in terms of
+>having the locative
+>suffix optional on the direct object, or is it more like
+>{Hop} and {Sum}
+>with assumptions made about relating the speaker with the
+>place returned
+>to?
+
+
+{chegh} "return" seems to work like this:
+
+lupDujHomDaq jIchegh    "I return on the shuttle."
+
+lupDujHom vIchegh       "I return to the shuttle."
+
+lupDujHomDaq may'Duj vIchegh  "I return to the battle
+cruiser on the shuttle"
+
+tera'vo' Qo'noS vIchegh  "I return to Kronos from Earth"
+
+
+({lupDujHom} "shuttle," {-Daq} "locative suffix," {jIchegh}
+"I return" consisting of {jI-} "I" [no object] plus {chegh}
+"return"; {vIchegh} "I return to" consisting of {vI-} "I
+[do something to] it" plus {chegh} "return [to]"; {may'Duj}
+"battle cruiser"; {tera'} "Earth," {-vo'} "from", {Qo'noS}
+"Kronos")
+
+Note that {chegh} "return" means "return to a place"; the
+place being returned to is the object of the verb.  If the
+place being returned to is not mentioned (as in, for
+example, the first sentence above, "I return on the
+shuttle"), the verb takes a prefix indicating "no object"
+(here {jI-}). If the place being returned to is mentioned
+(as in the final three sentences), the verb takes a
+pronominal prefix that indicates the object ({vI-} in the
+examples).
+
+A different verb, {tatlh}, is used for "return" in the
+sense of returning a library book or returning a weapon to
+the weapons rack.
+
+If someone were to say something like "I return the plate
+to the table," the appropriate verb would be {tatlh}:
+
+    raSDaq jengva' vItatlh
+
+({raS} "table," {-Daq} "locative suffix," {jengva'}
+"plate," {vItatlh} "I return it" consisting of {vI-} "I [do
+something to] it" plus {tatlh} "return")
+
+Though not common, it is also possible to use {tatlh} with
+the reflexive suffix {-'egh} ("do something to oneself") to
+convey a meaning similar to that of {chegh}:
+
+    pa'Daq jItatlh'egh  "I return to the room"
+
+({pa'} "room," {-Daq} "locative suffix," jItatlh'egh "I
+return myself" consisting of {jI-} "I," {tatlh} "return,"
+{'egh} "reflexive suffix")
+
+The {tatlh'egh} form seems to suggest that the doer of the
+action is
+forcing himself/herself to do something, perhaps because it
+is difficult or not desirable.
+
+[[eof]]

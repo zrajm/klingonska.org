@@ -1,0 +1,479 @@
+[[
+  [2001-04-13] transcribed page 6-8, Zrajm C Akfohg
+  [2001-04-16] transcribed page 9-10
+  [2001-04-19] spellchecked with ispell
+  [2001-10-11] some minor corrections
+  [2002-07-15] added a few missing curly brackets
+  [2003-01-29] added file header
+  [2006-08-21] corrected faulty {nogh} to {nagh}
+  Style: {}=bold, <>=italics, corrections, paginated
+
+  Type: article
+  Date: December 1999
+  Title: Maltz Online
+  Author: Marc Okrand
+  Source: <{HolQeD} 8:4>, pages 6-10
+  Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
+  Summary:
+
+  : "Maltz Online", from <{HolQeD} 8:4>, pages 6-10
+  : Article by Marc Okrand
+  : Klingon Language Institute, Flourtown, PA
+  : ISSN 1061-2327
+
+]][[p.6]]
+
+Maltz Online
+
+<Maltz has been a busy fellow,
+passing along several insightful
+tidbits (via Marc Okrand) to the online
+community. The following selections
+are reprinted with permission. --LMS>
+
+      Traditionally, in dealing with
+orientation, bearings, headings, and
+so forth, Klingons have divided
+things up into three, not four,
+primary directions or compass
+points.
+
+     There are three nouns for these
+principal points. The translation of
+these words using terminology
+familiar to the Federation are a little
+awkward, but they give an idea of
+the meanings:
+
+{chan}
+area eastward / area towards the east
+
+{'ev}
+area northwestward /
+area towards the northwest
+
+{tIng}
+area southwestward /
+area towards the southwest
+
+     While the four main compass
+points used in the Federation (north,
+east, south, west) are distributed
+evenly (that is, they are 90 degrees
+apart from each other: north is 90
+degrees away from east, east is 90
+degrees away from south, and so
+on), this is not the case in the
+Klingon system. The three directions
+are not evenly spaced(that is, they
+are not 120 degrees apart from each
+other). Instead, the areas associated
+with {'ev} and {tIng} are closer to each
+other than either is the the area
+associated with {chan}. (The areas
+associated with {'ev} and {tIng} are
+something like 100 degrees apart
+from each other, and each is 130
+degrees away from the area
+associated with {chan}.)
+
+     English words like "east" and
+"southwest" are, as noted, just
+convenient tags for what the
+Klingon words mean. Since {chan}
+actually refers to that part of the
+landscape in the direction of the
+sunrise, "east" is a reasonable
+English counterpart. The standard
+translations of {'ev} and {tIng} follow
+from the  standard translation of
+{chan}. But Klingon {chan} does not
+work the same as English "east."
+From the Klingon point of view, it
+makes no sense to say that
+something is "in the east." One can
+go towards the east, something can
+be to the east of something else, but
+nothing can actually be "in" the
+east. No matter how far eastward
+you go, there's something still to
+your east. Thus the awkward
+translations "area eastward, area
+towards the east" and so forth. (And,
+of course, the same can be said for
+the other directions.)
+
+     These Klingon direction nouns
+work in the same manner as other
+nouns of location (nouns used to
+express prepositional concepts) such
+as {Dung} <area above>, {bIng} <area below>,
+and {retlh} <area beside, area next to>.
+Thus, just as {nagh Dung}, literally
+<rock area-above> or <rock's area-above> is
+used for "above the rock," {veng
+chan}, literally <city area-eastward> or
+<city's eastward area> is commonly
+translated "east of the city."
+
+     Depending on the sentence in
+which the phrase is used, the second
+noun in this construction could take
+the locative suffix {-Daq}, as in:
+
+{veng chanDaq jIwam}
+I hunt east of the city
+
+     The "city in the east" (actually,
+"city toward the east") or "eastern
+city" should be the <area-eastword city>
+{chan veng}. [[p.7]]
+
+     Again, if appropriate, the
+locative suffix {-Daq} follows the
+second noun:
+
+{chan vengDaq jIwam}
+I hunt in the city in the east
+
+     The <city's east>, meaning "the
+eastern part of the city," would
+make use of {yoS} <area, district>: {veng
+chan yoS} (literally <city areal-eastward
+district> or <city's eastward-area's
+district>).
+
+     The directional nouns may also
+be used with possessive suffixes. For
+example (switching from the east,
+for the sake of variety):
+
+{'evwIj}
+northwest of me
+(literally "my area-northwestward")
+
+{'evmaj}
+northwest of us
+(literally "our area-northwestward")
+
+     These words may also be
+translated "northwest of here." For
+example:
+
+{'evmajDaq jIwampu'}
+I have hunted northwest of here
+
+     This work only when the
+speaker is indeed "here" (that is,
+she is currently speaking). If,
+however, "here is a place on a map
+that the speaker is pointing to,
+"northwest of here" would be
+something along the lines of
+{Daqvam 'ev}, literally <this-location
+area-northwestward> or <this place's
+area-northwestward>.
+
+     In the standard dialect of
+Klingon ({ta' Hol}) and in most other
+dialects, the locative nouns (or
+nouns of location, or nouns
+expressing prepositional concepts)
+do not take possessive suffixes, while
+in the dialect of the Sakrej region,
+they do.
+
+     The directional nouns ({chan},
+{'ev}, {tIng}), on the other hand, take
+possessive suffixes in all dialects (or
+at least in all dialects studied to
+date).
+
+     It is also possible (though the
+Sakrej folks tend not to do this) to
+use the full pronoun plus locative
+noun construction with the
+directional nouns: {jIH chan} "east of
+me" (literally <I area eastward>). There
+is a slight meaning difference
+between {jIH chan}, using the full
+pronoun, and {chanwIj}, using the
+possessive suffix, however. The
+construction with the full pronoun
+emphasize the pronoun (in this
+case "I," the speaker him-herself) as
+the reference point; the construction
+with the pronominal suffix is more
+neutral. Thus, {chanwIj} is <east of me,
+east of where I am, east of here> but
+{jIH chan} is <east of ME, to MY east>.
+
+     Perhaps what occurred
+historically (though there may well
+be other explanations) is that the
+speakers of the Sakrej dialect took a
+grammatical rule which had a
+restriction ("possessive suffixes may
+follow directional noun, but not
+other locative nouns") and
+generalized it (applied it more
+broadly) by eliminating the
+restriction ("possessive suffixes may
+follow locative nouns" --- or maybe
+even, simply, "possessive suffixes
+may follow nouns"). In theory, it
+could have happened the other way
+around. The speakers of some dialect
+--- including {ta' Hol} --- could have
+interpreted the rule to be "possessive
+suffixes never follow locative nouns
+except for directional nouns" and
+then made the rule apply more
+generally by dropping the exception
+(yielding "possessive suffixes never
+follow locative nouns"). But this [[p.8]]
+didn't happen.
+
+     To express directions between
+the three cardinal points, the nouns
+are compounded. Thus, halfway
+between southwest and east (that is,
+halfway between {tIng} <area
+southwestward> and {chan} <area
+eastward>) is {tIng chan} (literally <area- [[keep hyphen]]
+southwestward area-eastward> or <area- [[keep hyphen]]
+southwestward's area-eastward> or, for
+short, <southwest's east>). Similarly,
+halfway between northwest and east
+is {'ev chan}. Logically, these words
+could come in the other order (that
+is, {chan tIng} or {chan 'ev}), but, for
+whatever reason, {chan} always comes
+second.
+
+     The area halfway between
+northwest and southwest is
+expressed as either {'ev tIng} or {tIng
+'ev}, with neither version
+significantly more common than
+the other.
+
+     To get even more specific, it is
+possible to make a compound of
+three words (though two would
+always be the same): {'ev chan 'ev}
+would be a direction halfway
+between {'ev chan} and {'ev}; {'ev chan
+chan} would be a direction halfway
+between {'ev chan} and {chan}.
+
+     How this extends to even finer
+tuning is something pretty much
+lost except to those knowledgeable
+in the old ways of navigating. In
+more recent times, those needing to
+express directions with greater
+precision use (numerical)
+instrumental readouts.
+
+     There is an idiomatic expression
+still head with reasonable frequency
+which makes use of all three
+cardinal direction terms:
+
+{tIngvo' 'evDaq chanDaq}
+
+Literally, this means <from area- [[keep hyphen]]
+southwestward to area-northwestward
+to area eastward>" ({-Daq}, the locative [[":=]]
+suffix, here indicating <to>), but the
+idiom means "all around, all over,
+all over the place." It is used in the
+same place in a sentence in that the
+noun {Dat} <everywhere> might be used,
+but it is much more emphatic:
+
+{tIngvo' 'evDaq chanDaq jIlengpu'}
+I've traveled all over the place
+
+     A more archaic form of the
+idiom is {tIngvo' 'evDaq 'evvo'
+chanDaq} (literally, <from area- [[keep hyphen]]
+southwestward to area-northwestward,
+from area-northwestward to area
+eastward>), but the three-word
+version (without the repetition of
+{'ev}) has all but totally replaced it.
+
+     Finally, it should be noted that
+none of this terminology ever was
+adapted for navigation in space.
+Klingons have made use of the
+system common throughout the
+galaxy by which courses, bearings,
+coordinates, and so forth are given
+numerically:
+
+{He wej pagh Soch DoD cha'}
+course 3-0-7-mark-2
+
+-----------------------------------
+
+     There is an adverbial which
+means "then" in the sense of "at
+that time" (as opposed to
+"subsequently"). And there is also an
+idiom meaning something like "by
+that time."
+
+     The adverbial is {ngugh}. It is
+used mainly to emphasize that a
+particular event occurred at the
+same time as something else, though
+{ngugh} doesn't indicate what that
+time is. Something else in the
+discussion makes that clear. {ngugh}
+does not mean "at some (vague)
+time in the past" or "at some
+(unknown) time in the future." For
+example: [[p.9]]
+
+{vagh SanID ben buDbe' wamI'pu'.
+ngugh Ho'Hu'chaj lo' chaH,
+'ach DaH tajmey lo'.}
+5,000 years ago, hunters were not
+lazy. Then (at that time) they used
+their teeth, but now they use knives.
+
+{DungluQ tIHIv.
+ngugh Qongbe' chaH.}
+Attack them at noon!
+They won't be sleeping then. /
+Attack them at noon.
+They're not sleeping then.
+
+     Note that in each case {ngugh}
+<then> refers to a time specified earlier
+in the discussion (here, "5,000 years
+ago" and "noon"). In the second
+example, the adverbial {ngugh} could
+be left out, and the basic meaning
+could still be the same ("Attack
+them at noon! They won't be
+sleeping.") With {ngugh}, however
+the speaker is emphasizing the time
+element. The first example also
+could be recast without {ngugh} (e.g.,
+the second sentence could be two:
+{Ho'Du'chaj lo' chaH. DaH tajmey
+lo'.} <They used their teeth. Now they use
+knives.>). With {ngugh}, however, the
+contrast between "then" and "now"
+is highlighted.
+
+     The time reference need not
+occur in the immediately preceding
+sentence or clause (as it does in the
+examples above); it could be earlier
+in the discourse. Since {ngugh} points
+to or refers back to a previously
+established time reference, if that
+time reference is not clear (or is
+missing), an utterance containing
+{ngugh} would not make much sense.
+If someone asks "When?" after
+hearing a sentence containing
+{ngugh}, unless the question resulted
+from inattentiveness, {ngugh} was
+probably used inappropriately.
+
+     In addition to {ngugh}, there is
+an idiomatic expression involving
+the suffix {-DI'} <when, as soon as> used
+to mean "by that time, by the time
+that [something] occurred (or will
+occur)." The event that has occurred
+(or will occur) is typically expressed
+in the immediately preceding
+sentence or clause, though it could
+have been uttered earlier.
+
+     The idiom is found in two
+forms. The shorter (and more
+frequently heard) version is the
+single word {pumDI'} <when it falls>.
+The longer version consists of
+{pumDI'} followed by a subject noun
+specifying what falls. The most
+common noun heard is {'etlh} <sword,
+blande> (thus: {pumDI' 'etlh}, literally
+<when the blade falls>). Presumably the
+expression originally referred to a
+fight between two combatants
+wielding bladed weapons. The time
+at which one of them dropped the
+weapon and was thus defeated (or
+was as good as defeated) was a
+significant moment.
+
+     Some speakers, however, are
+rather creative and use nouns other
+than {'etlh}. For example:
+
+{pumDI' DaS}
+when the boot falls
+
+{pumDI' 'obmaQ}
+when the ax falls
+
+{pumDI' nagh}
+when the stone falls
+
+{pumDI' rutlh}
+when the wheel falls
+
+     There seems to be no restriction
+on what noun may be used here, as
+long as it is something that could
+possibly fall. (Thus {pumDI' QoQ}
+<whun the music falls> would not be
+used.)
+
+     Choosing one noun or another
+to use in the idiomatic phrase is a
+form of word play. Depending on
+the topic being discussed, the noun [[p.10]]
+could add a touch of irony or even
+humor. In any event, the choice of
+noun does not change the idiomatic
+meaning of the phrase. {pumDI'} X,
+where X is the subject noun, is used
+to mean "by then, by that time."
+
+     The idiom might be used when
+talking about a feast that had taken
+place a few nights ago. If a guest
+arrived late --- after the eating had
+already begin --- one might say
+something like:
+
+{tagha' pawpu' meb
+'ach pumDI' Heghpu' qagh}
+
+or
+
+{tagha' pawpu' meb
+'ach pumDI' 'etlh Heghpu' qagh}
+The guest finally arrived,
+but by then the gagh had died." [[":=]]
+
+     Unlike subordinate clauses in
+general, {pumDI'} X, when used
+idiomatically, always precedes the
+main clause ({Hughpu' qagh} in the
+example above). When idiomatic
+usage is not involved, subordinate
+clauses may either precede or follow
+the main clause.
+
+[[eof]]

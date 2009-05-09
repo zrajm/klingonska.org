@@ -1,0 +1,324 @@
+[[
+  [2000-08-24] OCR scanned by Zrajm C Akfohg.
+  [2003-01-29] added file header
+  Style: {}=bold, <>=italics, corrections, paginated
+
+  Type: article
+  Date: September 1999
+  Title: {matlh juppu' mu'mey}
+  Author: Marc Okrand
+  Source: <{HolQeD} 8:3>, pages 2-4
+  Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
+  Summary: 
+
+  : "{matlh juppu' mu'mey}", from <{HolQeD} 8:3>, pages 2-4
+  : Article by Marc Okrand, 1999
+  : Klingon Language Institute, Flourtown, PA
+  : ISSN 1061-2327
+
+]][[p.2]]
+
+{matlh juppu' mu'mey}
+
+Marc Okrand
+
+At the {qep'a' javDIch} Alan
+Anderson, Will Martin, Mark
+Shoulson, d'Armond Speers, and
+Rich Yampell were honored for their
+continuing service to the mission
+and goals of the KLI. Each received
+the title {matlh jupna'}. And, as a
+friend, each was given the
+opportunity to ask Maltz (via an
+intermediary) for a single word.
+Maltz's reply (again, via intermdiary)
+went beyond providing simply
+Klingon glosses for the specific
+English words, and often included
+additional terms and examples.
+
+1. top and bottom
+
+     The word for "top" is {yor}. This
+refers to the top side or top face of
+an object, such as the top of a box or
+the top of a table or even the top of
+one's head. It is not the word used
+for "lid" or "cover" or "cap" (as in
+"lid of a jar") or removable (and
+reusable) top of a box. The word for
+this kind of "top" or "lid" or "cover"
+is {yuvtlhe'}.
+
+     Similarly, {yor} is not the word
+for the inside of the top of
+something. If one were sitting under
+a table, the (presumably) flat surface
+above one is termed the {'aqroS}.
+
+     There are two special terms for
+the top of a room, or "ceiling."
+{rav'eq} refers to the ceiling of any
+room (though, more narrowly, it
+refers to the ceiling of a room that
+has a room above it, as in a
+multistory structure); {pa' beb} refers
+specifically to the ceiling of a room
+which is on the top (or only) story
+of a structure. It is possible to use
+{'aqroS} to refer to a ceiling, though
+the other two terms are more
+common.
+
+     The word for "bottom," the
+counterpart of {yor}, is {pIrmuS}. This
+word refers to the underside of
+something, not the interior bottom
+(such as the bottom of a well or the
+bottom of a bowl where a few drops
+of milk remain after eating cereal).
+The word for the interior bottom of
+something is {bIS'ub}. If an item is
+located in the bottom of a box, it is
+located in the box's {bIS'ub}. If
+something is found underneath a
+box, it is found beneath the box's
+{pIrmuS}.
+
+2. too much
+
+     The adverbial {tlhoy} means
+<overly, to an excessive degree>. It is used
+in such sentences as:
+
+{tlhoy jISop}
+I eat too much / I eat excessively
+
+{tlhoy bIQong}
+you sleep too much /
+you sleep excessively
+
+     When {tlhoy} is used, it denotes
+that the action expressed by the verb
+({Sop} <eat>, {Qong} <sleep>) is what is being
+overly done or done too much.
+Thus, the sentence:
+
+{tlhoy qagh vISop}
+I eat too much gagh /
+I eat gagh excessively /
+I overeat gagh
+
+expresses the notion that the eating
+is excessive, not that the amount of
+gagh is. (Note that although it is
+possible to say this, it is not
+something anybody would be likely
+to ever say). Similarly,
+
+{tlhoy yIHmey vIlegh}
+I see too many tribbles [[p.3]]
+
+means <I overly see tribbles> (perhaps
+this could be used if one meant
+something like "I see tribbles far too
+frequently and in far too many
+places"). To express the idea of "too
+much gagh" or "too many tribbles,"
+the verb {'Iq} <be too many, be too much>
+is used adjectivally. For example:
+
+{yIHmey 'Iq vIlegh}
+I see too many tribbles
+
+{qagh 'Iq vISop}
+I eat too much gagh
+
+     Sometimes, the word {law'qu'} <be
+very many> (formed from {law'} <be
+many> plus {-qu'}, the emphatic suffix)
+is translated "be too many." If the
+context is clear, this is acceptable,
+but if it is important to stress the
+idea of "overly many, overly much,
+more than there ought to be," {tlhoy}
+or {'Iq} is usually employed.
+
+3. ago / from now
+
+     Klingon has special words to
+refer to units of time (such as "day"
+and "year") preceding or following
+the current time. Words of this type
+which are already well-known are:
+
+{Hu'}
+days ago
+
+{leS}
+days from now
+
+{ben}
+years ago
+
+{nem}
+years from now
+
+     These words are used with
+numbers to indicate the number of
+time units ago (days ago, years ago)
+or time units from now (days from
+now, years from now).
+
+     Thus {wa'Hu'} is <yesterday> (one
+day before now, one day ago),
+{cha'Hu'} is <day before yesterday> (two
+days before now, two days ago),
+{wejnem} is <three years from now>, and
+so on. Another pair of words of this
+type refers to months:
+
+{wen}
+months ago
+
+{waQ}
+months from now
+
+     Thus, {loSwen} is <four months ago>
+and {wa'waQ} is <next month> (one
+month from now). As far as is
+known, there are no other terms
+associated with specific units of time
+(in the way {Hu'} and {leS} are
+associated with {jaj} <day>).
+
+     For other units of time (seconds,
+minutes, hours weeks), two more
+general words are used:
+
+{ret}
+time period ago
+
+{pIq}
+time period from now
+
+(One might say that these are
+associated with the word {poH} <period
+of time>.). These words follow the
+more specific time units. For
+example, <two minutes ago> is {cha' tup
+ret}, literally "two minute time- [[keep hyphen]]
+period-ago." <Two minutes from now> is
+{cha' tup pIq}. (It is also possible,
+though not necessary, to use the
+plural suffixes with the time units if
+there is more than one of them: {cha'
+tupmey ret}, {cha' tupmey pIq}.)
+
+     The words {ret} and {pIq} could
+also be used with days, months, and
+years (e.g., {wej jaj ret} <three days ago>,
+rather than {wejHu'}), but utterances
+of this type are not particularly
+common, sound a bit archaic, and
+are usually restricted to rather
+formal settings.
+
+     With longer time periods, such
+as a century ({vatlh DIS poH}),
+millennium ({SaD DIS poH}), or a
+period of 10,000 years ("myriad,"
+perhaps) ({netlh DIS poH}), the words
+{ret} or {pIq} may be used in place of
+{poH}, e.g., {cha' vatlh DIS poH} <two
+centuries>, but {cha' vatlh DIS ret} <two
+centuries ago>. The phrase {cha' vatlh
+ben} would mean "200 years ago."
+The choice of construction depends [[p.4]]
+on what is being emphasized: in this
+case, the total number of centuries
+(two) or the total number of years
+(200).
+
+4. jealousy
+
+     The verb {ghal} means <be jealous
+(of), envy>. It is used in such sentences
+as:
+
+{jIghal}
+I am jealous
+
+{choghal}
+you envy me /
+you are jealous of me
+
+{torgh vIghal}
+I am jealous of Torg
+
+     There is also an idiomatic
+phrase which conveys the idea of
+jealousy: {SuD veqlargh mInDu'.}
+Literally, this means <Fek'lhr's eyes are
+yellow/green>, but it is used to express
+the idea that somebody is jealous. It
+would be used in an exchange such
+as:
+
+A: {loSmaH romuluSngan
+   SuvwI'pu' HoHta' geng.}
+B: {SuD veqlargh mInDu'.}
+
+A: Kang killed 40 Romulan
+   warriors.
+B: Somebody is jealous!
+   (Fek'lhr's eyes are
+   yellow/green.)
+
+     Speaker "B" is saying that
+speaker "A" is jealous of Kang.
+
+5. then
+
+     The adverbial {ghIq} means <then>
+in the sense of <and then, after that, by
+then, subsequently> and the like. It is
+used as in the following examples:
+
+{Soppu'. ghIq tlhutlhpu'.}
+He/she ate.
+Then (after that) he/she drank.
+
+{wam chaH. ghIq Soj luvut.}
+They hunt.
+Then (after that) they prepare food.
+
+{wa'leS maghob. ghIq malop.}
+Tomorrow we will do battle.
+Then (after that) we'll celebrate.
+
+     It is possible to join the
+sentences with a conjunction such
+as {'ej} <and> or {'ach} <but>:
+
+{wam chaH 'ej ghIq Soj luvut.}
+They hunt and then
+they prepare food.
+
+{tlhoy Sop 'ach ghIq Qongchu'.}
+He/she eats too much,
+but then he/she sleeps soundly.
+
+     A final note: Maltz was honored
+by the fact that he now has official
+Friends and endeavored to provide
+the information that they were
+looking for. If, however, there was a
+misinterpretation of any of their
+requests such that they didn't get
+quite what they wanted, blame not
+Maltz or his Friends, but the
+messenger.
+
+[[eof]]

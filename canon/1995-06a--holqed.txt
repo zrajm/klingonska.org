@@ -1,0 +1,124 @@
+[[
+  [2000-08-24] OCR scanned by Zrajm C Akfohg
+  [2002-07-19] added new header, fixed some (very) minor errors
+  Style: {}=bold, <>=italics, corrections, paginated
+
+  Type: article
+  Date: June 1995
+  Title: Interview: Okrand on {-bogh} and more
+  Author: Lawrence M. Schoen (?)
+  Source: <{HolQeD} 4:2>, pages 5-6
+  Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
+  Summary: Okrand gives some (vague) answers on the topics of {-'e'} and
+    {-bogh}.
+
+  : "Interview: Okrand on {-bogh} and more", from *{HolQeD} 4:2*, pages 5-6
+  : Marc Okrand interviewed by Lawrence M. Schoen(?), June 1995
+  : Klingon Language Institute, Flourtown, PA
+  : ISSN 1061-2327
+
+]][[p.5]]
+
+Interview: Okrand on {-bogh} and more
+
+LS: We know that the head-noun of a relative clause can be the subject
+    or the object; the question is, can it be any other case? Nick
+    Nicholas has pointed out that Terrestrial languages follow an
+    accessibility hierarchy for the heads of relative clauses, first subjects,
+    then direct objects, followed in by order indirect objects, possessors,
+    and comparatives. Now, no one said that Klingon has to follow the
+    Terran hierarchy
+
+MO: In fact it shouldn't! I don't think Klingon fits into this hierarchy.
+    Well, it does, if you want to look at it that way. I couldn't make the
+    {-bogh} thing work for me with anything other than subject or
+    object.
+
+LS: It fits in the hierarchy way at the bottom.
+
+MO: Yeah, it's klutzy.
+
+LS: So only the subject or object of a verb can be the head-noun of a
+    relative clause. It doesn't allow possessing nouns either?
+
+MO: Right.
+
+LS: Then how can we say "The ship on which the captain kills the
+    prisoners is very large?"
+
+MO: I would do it with two sentences.
+
+LS: Just say "The ship's big," and "the captain kills prisoners on it."
+
+MO: Yeah. You can probably do all kinds of topicalizing things about
+    the ship, if you're talking about the ship and want to make a big
+    deal about the fact that it's big.
+
+LS: tInqu' Duj'e'
+
+MO: Yeah... "As far as the ship is concerned, it's big, and the captain kills
+    a prisoner on it too."
+
+LS: That's another thing people have been hassling about, because you
+    called "'e'" the topic marker, and all the time you use it as a focus
+    marker.
+
+MO: And they're making the distinction... You're using topic like topic/
+    comment.
+
+LS: You've been saying things like "As for the ship, it's big, which is
+    focus."
+
+MO: I stand corrected. [[p.6]]
+
+LS: So it really is a focus marker, then?
+
+MO: Yeah.
+
+LS: If you have a noun in one case in the relative clause and use it in
+    another in the main clause... I guess you'd have to use the two- [[keep hyphen]]
+    sentence trick.
+
+MO: Yes. What I find myself doing a lot, especially with these Skybox
+    things... The English is these long, long complicated sentences, and
+    I said, "no way," I'd take this long sentence and split it up into two
+    or three. So they went and counted the periods, and said "wait a
+    minute, we gave you two sentences, you're giving us back six,
+    what's going on here?"
+
+LS: Back to relative clauses...
+
+MO: One of the things you talk about was ambiguity. "{DujDaq puq
+    DaqIppu'bogh vIlegh}," <I see the child who you hit on the ship>, or <on
+    the ship I see the child...> and that's ambiguous. I thought about it
+    and I said "That's fine." And it's ambiguous in exactly the same way
+    that English is. You want ambiguity in language, I would think. It's
+    not math.
+
+    I was reading this bit about "I see the child you hit on the ship,"
+    and for whatever reason what popped into my head was Groucho
+    Marx, that old Groucho Marx joke, you know, "I just shot an
+    elephant in my pajamas... and how he got in my pajamas I'll never
+    know." You can say that in Klingon, no problem; they'll get the
+    joke. There's not many jokes you can get to translate into Klingon,
+    but that one would work.
+
+LS: Somebody was asking about if you have two nouns that both have
+    {-'e'} on them, and they're conjoined with {je}, do you put the {-'e'} on
+    the {je} or on the nouns?
+
+MO: Right. Can you topicalize a conjunction? I don't know... nah...
+    Though actually for me, one of the things that pleases me about all
+    this stuff is not so much when people talk about the details of the
+    language, although that's fine, is when they talk about language at
+    all. So this guy came up with this idea of putting {-'e'} at the end,
+    that's a very clever idea, right or wrong.
+
+LS: People are constantly saying "how would I say 'I killed the Ferengi
+    with the phaser,' there's no word for 'this'," there's no instrumental,
+    So people have been doing things like " In order to kill the Ferengi, I [[" In:="In]]
+    used the phaser."
+
+MO: Good. Good for them. That's exactly right.
+
+[[eof]]

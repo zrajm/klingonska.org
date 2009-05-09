@@ -1,0 +1,90 @@
+[[
+  [2009-04-14] added document header
+  Style: <>=bold
+
+  Type: email
+  Date: 19 July 1999
+  Title: where do you live? (from Marc)
+  Author: Marc Okrand, Will Martin, Roger Cheesbro
+  Summary: How to say "Where do you live?".
+]]
+
+Date: Mon, 19 Jul 1999 19:04:17 -0400    | Header from the message
+To: tlhingan-hol@kli.org                 | forwarded to tlhingan-hol
+From: TPO <cheesbro@rpa.net>             |
+Subject: where do you live? (from Marc)  |
+
+From the startrek.klingon news group:
+
+Will Martin wrote in message
+
+[snip]
+
+
+>And which of the following would be the most common form
+>of the question,
+>"Where do you live?" and what form would the most common
+>answer take?:
+>
+>nuq DaDab?
+>
+>nuqDaq DaDab?
+>
+>nuqDaq bIDab?
+
+
+Actually, the most common form of the question "Where do
+you live?" is not a question at all, but a command such as:
+
+Daq DaDabbogh yIngu'    "Identify the place where you live"
+
+(<Daq> "place"; <DaDabbogh> "that you live at," made up of
+<Da-> "you [do something to] it," <Dab> "live in/at, dwell
+in/at, inhabit" <-bogh> "relative clause marker"; yIngu'
+"identify it!" consisting of <yI-> "imperative prefix,"
+<ngu'> "identify")
+
+Perhaps a translation such as "Identify the place that you
+live at" or "Identify the place that you inhabit" is more
+revealing.
+
+Answers are likely to be brief and to the point:
+
+Daqvam "this place"  (<Daq> "place," <-vam> "this")
+pa'    "there"
+naDev  "here"
+qachvetlh "that building"  (<qach> "building," <-vetlh>
+"that")
+Qo'noS    "Kronos"
+
+It is possible, however, to respond with a full sentence:
+
+Daqvam vIDab     "I live at this place"
+pa' vIDab        "I live there"
+naDev vIDab      "I live here"
+qachvetlh vIDab  "I live in/at that building"
+Qo'noS vIDab     "I live on Kronos"
+
+(<vIDab> "I live in/at," consisting of <vI-> "I [do
+something to] it," <Dab> "live in/at, dwell in/at,
+inhabit")
+
+Of the three suggested ways to ask "Where do you live?" the
+first is the most acceptable:
+
+nuq DaDab    "What do you inhabit? What do you dwell at?"
+
+(<nuq> "what?"; <DaDab> "you live in/at it, you dwell in/at
+it, you inhabit it," containing the prefix <Da-> "you [do
+something to] it")
+
+The English translations of <nuq DaDab> are very awkward
+(from an English point of view) and don't get across the
+sense of the Klingon all that well.  The less literal
+"Where do you live?" is what is really being asked.
+In Klingon, when one lives in a place or dwells in a place,
+he or she is thought of as "occupying" or "inhabiting" that
+place; not doing something at that location, but doing
+something to it (occupying it).
+
+[[eof]]

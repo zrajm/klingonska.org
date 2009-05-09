@@ -1,0 +1,380 @@
+[[
+  [2004-10-27, 23.26-00.20] transcribed by Zrajm C Akfohg
+  [2004-10-28, 00.20-00.56] spell checked & proofread
+  [2008-05-07] corrected typo in title "Maltz'" -> "Maltz's"
+  Style: {}=bold, <>=italics, corrections, paginated
+
+  Type: article
+  Date: June 2003
+  Title: Maltz's Reward: Part I
+  Author: Marc Okrand
+  Source: <{HolQeD} 12:2>, pages 6-9
+  Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
+  Summary: Maltz tell which words to use to refer to ends of physical objects,
+    and periods of time. This is the reward for the first of those who
+    succeeded in solving the "Frasier's Klingon" challenge in {HolQeD} 11:4.
+
+]][[p.6]]
+
+Maltz's Reward
+Part I
+
+Maltz recently received what was,
+for him, an overwhelming
+number of requests for new
+vocabulary from those who were
+able to supply the missing words in
+Frasier's Klingon bar mitzvah
+speech. He's resolved to honor all
+the requests, but has chosen to do so
+piecemeal rather than all at once.
+Here is the first of what will be
+several installments.
+
+     After looking over the list of
+words, Maltz decided to start with
+the end. That is, to start with "end."
+
+     The requester of "end" specified
+that he was looking for "end" as in
+the end of a stick or the two ends of
+a piece of string, and noted that, in
+Klingon, there may be different
+words for the end of a hallway or
+the end of the week.
+
+     There are two general words
+used to refer to the end of an object
+that has discernible length (like a
+stick or a piece of string): {megh'an}
+and {'er'In}. The words seem to be
+used interchangeably when referring
+to only one end of the object, but
+one either {megh'an} or {'er'In} has
+been used for one end, that is the
+only word used for that end (within
+that sentence or conversation or bit
+of discourse). The speaker or 
+participants in a conversation do
+not go back and forth between the
+two. Similarly, if one means either
+end of the stick and it doesn't make
+any difference which end, the same
+rule applies: Either word is fine, but,
+for that discourse, only the one is
+used.
+
+     If a distinction is being made
+between the two ends, then both
+words are used. It is not the case,
+however, that, even during the
+conversation, {megh'an} is used for
+one specific end and {'er'In} for the
+other. They may flip-flop, as long as
+the intent of the speaker is to keep
+the ends distinct.
+
+     Maltz figured this would be a
+little confusing, so he provided some
+examples. Let's say, he said, that
+there were three commands given in
+a row. First, one would use either (1)
+or (2) to give the command "Grasp
+the end of the stick" when it didn't
+matter which end.
+
+(1) {naQ megh'an yI'uch}
+
+(2) {naQ 'er'In yI'uch}
+
+({naQ} <stick>, {yI-} <imperative, singular
+object>, {'uch} <grasp>)
+
+     If the next command were "Let
+go of the end of the stick," if (1)
+were used the first time, (3) would
+be used; if (2) were used the first
+time, (4) would be used.
+
+(3) {naQ megh'an yI'uchHa'}
+
+(4) {naQ 'er'In yI'uchHa'}
+
+({-Ha'} <undo>)
+
+     If the third command is, once
+again, "Grasp the end of the stick,"
+(1) would be repeated if it were used
+the first time, or (2) would be
+repeated if it were used the first
+time. It would be inappropriate to
+use (2) if (1) were used the first time
+and vice versa. But it does not
+matter which end of the stick is
+actually grasped. If the grasper
+grasped the end other than the one
+grasped the first time, this would be
+fine. The word {megh'an} or {'er'In}
+refers to an end, not to a specific
+end. [[p.7]]
+
+     Contrast this with these three
+commands, given one after the
+other:
+
+(5) {naQ megh'an yI'uch}
+grasp the end of the stick
+
+(6) {naQ megh'an yI'uchHa'}
+let go of the end of the stick
+
+(7) {naQ 'er'In yI'uch}
+grasp the (other) end of the stick
+
+     It doesn't matter which end of
+the stick the grasper grasps first. The
+point of (7) is to grasp the other end.
+The speaker is making a distinction
+between the two ends. Of course, if
+{'er'In} is used in (5) and (6), {megh'an}
+would be used in (7).
+
+     Note also:
+
+(8) {naQ megh'an 'er'In je tI'uch}
+
+(9) {naQ 'er'In megh'an je tI'uch}
+
+({je} <and>, {tI-} <imperative, plural object>)
+
+     Both of these would probably be
+translated "grasp both ends of the
+stick," but they are literally closer to
+"grasp the end and the other end of
+the stick." The notion of "ends"
+(plural) is normally expressed in this
+way. {megh'anmey} and {'er'Inmey}
+(with the plural suffix {-mey} would
+refer to ends of different things, not
+to two ends of the same thing.
+
+     Similarly:
+
+(10) {naQ megh'an
+'er'In ghap yI'uch}
+
+(11) {naQ 'er'In
+megh'an ghap yI'uch}
+
+({ghap} <either/or>)
+
+     These would probably be
+translated "grasp either end of the
+stick," but they are literally closer to
+"grasp the end or the other end of
+the stick." We don't know, at this
+point, whether the grasper will grasp
+the {megh'an} or the {'er'In}. In the rest
+of the conversation, the speaker
+would choose either {megh'an} or
+{'er'In} and stick with that for the end
+that the grasper grasps. Though both
+(10) and (11) are grammatical and
+perfectly fine, as a practical matter,
+they mean the same thing as (1) and
+(2), since the idea is to grasp one
+end of the stick and it doesn't
+matter which one.
+
+     Occasionally, there is a specific
+word for the end of something. For
+example, the sharp end of a spear is
+the {QIn} and the top of a cane
+(whether one used ceremonially or
+one that is simply a walking aid) is
+the {chaS}. It would be odd to hear
+either of these referred to as a
+{megh'an} or a {'er'In}.
+
+     When shown a pencil, Maltz
+said that the sharp end could be
+called a {QIn}, but if the pencil were
+new and did not yet have a point,
+the ready-to-be-sharpened end
+would be a {megh'an} or {'er'In}.
+
+     For the end of a longish
+enclosed space that one is typically
+inside or experiences from the
+inside, such as a corridor, tunnel, or
+conduit (say, Jeffries tube or a [[Jeffries:=Jefferies]]
+branch of the sewers of Paris), a
+different word is used: {qa'rI'}. This is
+the only word; it's used for both (or
+all) ends. The open entryway leading
+into such a space is called a {DIn}. If
+there's a door there, it's referred to
+by the usual word for door, {lojmIt}.
+
+     {qa'rI'} is also used for the end of
+bounded space which is seen as
+having length even if it is not
+enclosed space. Thus, it is used for
+the end of a road, the end of a
+bridge, the end of a long field. [[p.8]]
+(Maltz didn't think it would mean
+much of anything to refer to the
+{qar'I'} of a square field.) [[qar'I':=qa'rI']]
+
+     On the other hand, if a bridge is
+under construction and lies halfway
+across a river or gorge or freeway, it
+may be said to have a {megh'an} (or
+{'er'In}). One could, in theory, hang a
+sign or flag from the {megh'an} (or
+{'er'In}), but one could walk on this
+incomplete bridge only as far as the
+{qa'rI'}.
+
+     When dealing with temporal, as
+opposed to physical, length, the
+words for the "end" are altogether
+different.
+
+     Generally, one expresses the end
+of a stretch of time by using a verb
+rather than a noun. That is, one says
+"when the month ends" rather than
+"at the end of the month." The verb
+for this kind of "end' is {Dor}. For [[':="]]
+example:
+
+{DorDI' jar mejpu'}
+At the end of the month, he/she left
+
+     Literally, this sentence means
+"When the month ended, he/she
+left" ({-DI'} <when>, {jar} <month>, {mejpu'}
+<he/she left>).
+
+     When an event over which one
+has some control ends (one can't
+cause a month to end), a different
+verb is used: {van}. This would apply
+to such things as voyages, battles,
+plays, operas, stories, and songs.
+Here, the event (the voyage, the
+song) doesn't end; the participant in
+the event or the perpetrator of the
+event ends it. For example:
+
+{leng vanDI' SuvwI'pu' 'IQ chaH}
+At the end of the voyage,
+the warriors are sad
+
+{bom vanDI' SuvwI'pu' tlhutlh chaH}
+At the end of the song,
+the warriors drink
+
+     Literally, these sentences mean
+"When the warriors end the voyage,
+they are sad" ({leng} <voyage>, {-DI'}
+<when>, {SuvwI'pu'} <warriors>, {'IQ} <be sad>,
+{chaH} they) and "When the warriors
+end the song, they drink" ({bom}
+<song>, {tlhutlh} <drink>).
+
+     Another verb, {ghang}, is used to
+express the idea of a premature
+ending. If, using the same examples,
+the voyage is cut short or the song is
+interrupted before the final part is
+sung, one would say:
+
+{leng ghangDI' SuvwI'pu' 'IQ chaH}
+When the warriors end the voyage
+prematurely, they are sad
+
+{bom ghangDI' SuvwI'pu'
+tlhutlh chaH}
+When the warriors end the song
+prematurely, they drink
+
+Note that the voyage and the song
+cannot end themselves. Someone
+has to end them.
+
+     Maltz said he wasn't sure
+whether {van} <end> and {van} <salute>
+were really the same word, but he
+found it interesting that Klingons
+end things by saluting them. He said
+there was no connection at all
+between {Dor} <end> and {Dor} <escort>.
+
+     There is a difference between 
+the end of the performance of a
+song o opera or play, indicated by
+making use of the verbs {van} and
+{ghang}, and the ending, or final
+portion, of a song or opera or play
+itself.
+
+     For an opera, play, story
+speech, and so on, the final portion
+is its {bertlham}. This word usually
+refers to the last aria or other [[p.9]]
+musical portion in an opera, last
+speech in a play, last sentence or so
+of a story or an address. The
+{bertlham} of a well-known work is
+often well-known itself, as is its
+beginning ({bI'reS}).
+
+     For a song -- but only for a song
+-- The final portion is its {'o'megh}.
+Parallel to {bertlham}, {'o'megh} is the
+final phrase or so of the song, one
+that brings the song to a definite
+conclusion. All songs have endings
+({'o'meghmey}), some more elaborate
+or stirring than others. (Maltz noted
+that there are Federation songs with
+{'o'meghmey} he has never heard,
+and he finds this disconcerting. He
+said that performers of these songs
+just sort of fade away before the
+song has ended properly. He referred
+to the ending of such a song is its [[is:=as]]
+{'omeghqoq} <so-called ending>.) To
+begin to sing a song is to {lIH}
+(literally, <introduce>) the song, and
+that portion of the song that comes
+at the beginning --- a portion that is
+often so familiar that listeners know
+what song it is after hearing just that
+short portion --- is the {namtun}.
+
+     Finally, for the beginning of a
+list (of names or words, for example,
+whether spoken out loud or written
+on a scroll), one would say simply
+{pong wa'DIch} <first name> or {mu'
+wa'DIch} <first word>. For the end, one
+could say {pong HochDIch} <last name>
+or {mu' HochDIch} <last word>, but one
+could also use a special term for the
+end of the list, {natlIS}.
+
+     There are, of course, other ways
+to express notions of ends and
+endings, such as making use of the
+words {rIn} <be finished>, {mev} <stop>, {baq}
+<terminate, discontinue> and the
+perfective suffixes {-pu'} and {-ta'}. But
+Maltz did not want to get into these.
+He concluded the discussion by
+walking out of the room after
+uttering the single word {pItlh}.
+
+[[eof]]

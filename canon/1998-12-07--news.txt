@@ -1,0 +1,89 @@
+[[
+  [2009-04-14] added document header
+  Style: <>=bold
+
+  Type: newsgroup posting
+  Date: 7 December 1998
+  Title: Re: walls
+  Author: Marc Okrand, Roger "DloraH" Cheesbro
+  Summary: Various words for walls, floors, ceilings and roofs.
+]]
+
+From: Marc Okrand <mokrand@>
+Newsgroups: startrek.klingon
+Date: Monday, December 07, 1998 12:55 AM
+Subject: Re: walls
+
+
+Actually, there are several words referring to "wall":
+
+An interior wall (such as a wall separating your living
+room from your kitchen) is a <tlhoy'>.
+
+An exterior wall (that is, a wall which separates the
+inside of a building from the outside) is a <reD>.
+
+For the interior side of an exterior wall, it is quite
+common to use <tlhoy'>, but the phrase <pa' reD>, literally
+"room's exterior wall" (<pa'> "room") is also heard,
+referring to the wall in a room which faces outside (as
+opposed to the other walls in the room whose other sides
+are still indoors).
+
+The wall around a city is a <yergho>, which is apparently
+derived from <yer> "domain, holdings, territory" plus <gho>
+"circle."
+
+A wall which divides a territory into parts (such as the
+Berlin Wall) is also called a <tlhoy'>, even though neither
+side of it is the interior of a structure.  On occasion,
+for clarity, such a wall is termed a <chevwI' tlhoy'>
+"separator wall" (<chev> "separate," <-wI'> "that which
+does [something]") or a <pIn tlhoy'>, literally "boss
+wall," presumably dating back to a time when each
+subterritory had a specific person in charge.
+
+The phrase <pa' tlhoy'> "room's interior wall" is also
+heard from time to time, but usually only when it is
+necessary to distinguish the "interior wall" sense of
+<tlhoy'> from the "separator wall" sense.
+
+
+A <tlhoy'> "interior wall" need not be vertical.  In a
+multistory structure, the stories are separated by what
+Klingon architects and builders call a <tlhoy' SaS>
+"horizontal wall" (<tlhoy'> "interior wall," <SaS> "be
+horizontal").  The side of this "wall" which is the bottom
+of the upper story is the <rav> "floor"; the side which is
+the top of the lower story is the <rav'eq> "ceiling" (based
+on <rav> "floor" plus <'eq>, an element otherwise unknown
+(there is no evidence it is connected to <'eq> "be early"). [[").:=")).]]
+
+<rav> "floor" is also used for the floor of a room on
+ground level (or a basement floor, for that matter), even
+though there is no corresponding <rav'eq> and no <tlhoy'
+SaS>.
+
+Similarly, though in general <rav'eq> "ceiling" refers to
+the ceiling of a room that has a room above it, it may also
+be used for the ceiling of a room on the top floor, even
+though there is no corresponding <rav> and no <tlhoy' SaS>.
+On occasion, though, the ceiling of the top floor is called
+<pa' beb>, literally "room's roof" (from <pa'> "room" plus
+<beb> "roof").  The term <beb> refers to the covering on
+top of a structure.
+
+Hope this helps your story.
+
+
+TPO wrote in message <3660B2F0.20F8@rpa.net>...
+>Marc, you here?
+>
+>I'm working on a literary piece that makes many references
+to a wall or
+>walls.
+>Any ideas how I can handle this? (recast, metaphor, ...)
+>
+>DloraH
+
+[[eof]]

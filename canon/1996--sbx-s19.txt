@@ -1,0 +1,53 @@
+[[
+  [1998-06-14] transcribed from HolQeD 5:2, p.14, by Zrajm C Akfohg
+  [1998-10-05] machine checked for incorrect syllables
+  [2000-07-13] reformatted from earlier file
+  [2000-07-30] corrected text using the actual cards
+  [2003-01-29] split this card into separate file and added file header
+  [2003-01-30] hunted down errors using Steven Boozer's transcript
+  Style: ^=superscript
+
+  Type: trading card
+  Date: 1996
+  Title: {QumwI'} <Klingon Communicator> (SkyBox S19)
+  Author: Marc Okrand (translation)
+  Publisher: SkyBox International Inc.
+  Summary: This is the first of the three <Star Trek: The Next Generation>
+    fourth season trading cards. (The text of this card, except for the small
+    print, was also reproduced in <{HolQeD} 5:2>, p.14, but unfortunately that
+    reprint mistakenly left out the word {lo'} in the first sentence.)
+  Credit: Nancy Nielsen-Brown gave me this card at the {qep'a' SochDIch}.
+
+  : [From SkyBox trading card S19, 1996 (TNG 4th season). The text of
+  : this card was also reprinted in HQ5:2 p.14. (In the HolQeD reprint
+  : the word {lo'} is missing in the first sentence.)]
+
+]]
+
+S19
+
+QumwI'
+Klingon Communicator
+
+labmeH 'evnagh Se' lo' tlhIngan QumwI'. janmey
+ngo' lulo'lu'DI' pIj jabbI'ID nISpu' woj.
+
+A Klingon^TM^ communicator sends a signal through
+subspace radio. Older models were susceptible to
+radiation.
+
+TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF THE KLINGON DICTIONARY.
+
+TM, ®, © je tera' DIS wa'­Hut­Hut­loS Paramount
+Pictures. Hoch SeH. Paramount Pictures malja'
+permey bIH STAR TREK pong'e' Deghmey'e' je. bIH
+lo' Fleer/SkyBox. 'e' chaw'.
+
+Paramount®
+SkyBox TM
+
+TM, ® & © 1996 PARAMOUNT PICTURES. ALL RIGHTS RESERVED.
+STAR TREK AND RELATED MARKS ARE TRADEMARKS OF PARAMOUNT
+PICTURES. FLEER/SKYBOX AUTHORIZED USER. PRINTED IN USA.
+
+[[eof]]

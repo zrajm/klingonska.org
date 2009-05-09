@@ -1,0 +1,53 @@
+[[
+  [1998-06-14] transcribed from HolQeD 3:4, p.10, by Zrajm C Akfohg
+  [1998-10-05] machine checked for incorrect syllables
+  [2000-07-13] reformatted from earlier file
+  [2000-07-30] corrected text using the actual cards
+  [2003-01-29] split this card into separate file and added file header
+  [2003-01-30] hunted down errors using Steven Boozer's transcript
+  Style: {}=bold, <>=italic, ^=superscript
+
+  Type: trading card
+  Date: 1994
+  Title: {tlhIngan wIy} <Klingon Tactical Display> (SkyBox SP3)
+  Author: Marc Okrand (translation)
+  Publisher: SkyBox International Inc.
+  Summary: This is the third of the three <Star Trek: The Next Generation>
+    first season trading cards. (The text of this card was also reproduced in
+    <{HolQeD} 3:4>, pp.10-11.)
+  Credit: Nancy Nielsen-Brown gave me this card at the {qep'a' SochDIch}.
+
+  : [From SkyBox trading card SP3, 1994 (TNG 1st season). The text of
+  : this card was also reprinted in HQ3:4 p.10-11. On the SkyBox card
+  : the word {HoS} is incorrectly spelled {Hos} (this error is retained
+  : above).]
+
+]]
+
+SP3
+
+tlhIngan wIy
+Klingon Tactical Display
+
+'ejyo' luch rurbe'qu' tlhIngan Duj luch. Hos law'qu' luch law'qu' je lo' Duj [[Hos:=HoS]]
+nuH pat Hub pat je. motlh ray' luSamlaHmeH De' Qatlh cha' tlhIngan Duj
+jIH'a'. motlh pIm 'ejyo' Dujmey.
+
+Klingon starship design is vastly different from Starfleet technology.
+A huge amount of the ship's power and technology is devoted to its
+weapons grid and defensive systems. Unlike most Starfleet vessels, the
+main viewer on a Klingon ship is usually overlaid with a complex target
+acquisition grid.
+
+Paramount®
+SkyBox TM
+
+TM, ®, © je tera' DIS wa'­Hut­Hut­loS Paramount Pictures. Hoch SeH. Paramount Pictures
+malja' permey bIH Star Trek pong'e' Deghmey'e' je. bIH lo' SkyBox International, Inc. 'e' chaw'.
+TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF <THE KLINGON DICTIONARY>.
+
+TM, ® & © 1994 PARAMOUNT PICTURES. ALL RIGHTS RESERVED.
+STAR TREK AND RELATED MARKS ARE TRADEMARKS OF PARAMOUNT
+PICTURES. SKYBOX INTERNATIONAL, INC. AUTHORIZED USER.
+
+[[eof]]

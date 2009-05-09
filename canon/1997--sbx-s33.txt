@@ -1,0 +1,72 @@
+[[
+  [1999-07-14] transcribed from HolQeD 6:2, p.9, by Zrajm C Akfohg
+  [2000-07-13] reformatted from earlier file
+  [2000-07-30] corrected text using the actual cards
+  [2003-01-29] split this card into separate file and added file header
+  [2003-01-30] hunted down errors using Steven Boozer's transcript
+  Style: {}=bold, <>=italic, ^=superscript
+
+  Type: trading card
+  Date: 1997
+  Title: {So'wI'} <Cloaking Device> (SkyBox S33)
+  Author: Marc Okrand (translation)
+  Publisher: SkyBox International Inc.
+  Summary: This is the third of the three <Star Trek: The Next Generation>
+    sixth season trading cards. Notice especially that not all of the Klingon
+    text is translated on the card. (The text of this card, except for the
+    small print, was also reproduced in <{HolQeD} 6:2>, p.9, but the word
+    {puvtaHbogh} was there mistakenly given as {puVlaHbogh} and the word
+    {Suqpu'} wrongly given as {Soqpu'}.)
+  Credit: Nancy Nielsen-Brown gave me this card at the {qep'a' SochDIch}.
+
+  : [From SkyBox trading card S33, 1996 (TNG 6th season). The text of
+  : this card was also reprinted in HQ6:2 p.9. In the HolQeD reprint the
+  : word {puvtaHbogh} is misspelled {puVlaHbogh}, and the word {Suqpu'}
+  : incorrecly spelled {Soqpu'}.
+
+  : On the SkyBox card the words {Duj ngabmoHlaw'} are incorrectly
+  : written {DujngabmoHlaw'} as one word, the period preceeding the
+  : sentence {chaq tampu'.} is not followed by a space, and the word
+  : {romuluSnganpu'vaD} is incorrectly spelled {romulu Snganpu'vaD} as
+  : two words (these errors are retained above).]
+
+  : From Steven Boozer's notes:
+  : There were a few typos in the version published in HolQeD 6.2 due to the
+  : artistic font used on the cards but ghunchu'wI' has verified the text.
+  : The card reads HovpoH Hut vagh cha' wa' vI' jav but it seems likely
+  : Okrand's eye slipped a line when looking up "mark" in the Addendum:
+  :        mark (in coordinates) (n)               DoD
+  :        marksmanship, sharpshooting (n)         vI'
+  : They are listed right next to each other (TKD, p. 189).]
+
+]]
+
+S33
+
+Cloaking Device
+So'wI'
+
+All Klingon vessels are equipped with a cloaking device, allowing the ship to fly in a
+state of practical invisibility. Cloaking technology was gained through an alliance with
+the Romulan Star Empire, possibly in exchange for Warp Drive technology. Due to the
+tremendous energy drain of a cloaking device, weapons cannot be discharged while the
+cloak is in operation.
+
+Hoch tlhIngan DujDaq So'wI' jomlu'. puvtaHbogh DujngabmoHlaw' So'wI'. boq lucherDI' tlhIngan wo' romuluS [[DujngabmoHlaw':=Duj ngabmoHlaw']]
+Hov wo' je So'wI' cham Suqpu' tlhIngan wo'.chaq tampu'. chaq romulu Snganpu'vaD pIvghor cham lunobpu' [[wo'.:=wo'. ]][[romulu Snganpu'vaD:=romuluSnganpu'vaD]]
+tlhInganpu'. HoS law'qu' natlhmo' So'wI' QaptaHvIS So'wI' QaplaHbe' nuHmey. ngongmeH wa' DujDaq
+nuHmey nISbe'bogh So'wI' jomlu'pu'. HovpoH Hut vagh cha' wa' vI' jav Dujvam 'aghlu'pu' 'ach Qaw'lu'pu'.
+
+SkyBox TM
+
+TM, ® & © 1996 PARAMOUNT PICTURES. ALL RIGHTS RESERVED. <STAR TREK> AND RELATED MARKS ARE TRADEMARKS OF
+PARAMOUNT PICTURES. FLEER/SKYBOX AUTHORIZED USER. PRINTED IN USA.
+
+TM, ®, © je tera' DIS wa'­Hut­Hut­loS Paramount Pictures. Hoch SeH. Paramount Pictures
+malja' permey bIH <STAR TREK> pong'e' Deghmey'e' je. bIH lo' Fleer/SkyBox. 'e' chaw'.
+TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF <the Klingon Dictionary>.
+ILLUSTRATION FROM THE <STAR TREK> ENCYCLOPEDIA
+
+Paramount®
+
+[[eof]]

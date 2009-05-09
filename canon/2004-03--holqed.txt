@@ -1,0 +1,323 @@
+[[
+  [2008-04-25] transcription sent to me by Sangqar@hotmail.com
+  [2008-04-29, 20:25-20:31] added metainfo
+  [2008-05-02, 20:29-21:19] reformatted transcript, checked paragraph
+    indentation, added summary
+  [2008-05-03, 22:19-22:53] spell checked English using "aspell", reformatted
+    example phrases to conform to earlier transcript style
+  [2008-05-07, 15:52-16:25] carefully checked spelling of all Klingon
+    words/phrases against original
+
+  Style: {}=bold, <>=italics, corrections, paginated
+
+  Type: article
+  Date: January 2004
+  Title: Maltz's Reward: Part IV
+  Author: Marc Okrand
+  Source: <{HolQeD} 13:1>, pages 8-10
+  Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
+  Summary: Maltz explains how to say "A is as Q as B" (e.g. expressing that two
+    different things are equally beautiful) and how to say "A isn't Q:er than
+    B". This is the reward for the fourth of those who succeeded in solving the
+    "Frasier's Klingon" challenge in {HolQeD} 11:4.
+
+  TODO:
+    * machine-check the Klingon syllables
+    * in the name of the article the word "Maltz's" is spelled with an "s" at
+      the end here, but in "2003-12--holqed.txt" the "s" is excluded -- which
+      one is correct?
+    * compare line breaks to original
+
+]][[p.8]]
+
+Maltz's Reward
+Part IV
+
+The fourth person who correctly
+filled in the missing line of
+Frasier's bar mitzvah speech didn't
+ask for a word, but instead for a
+grammatical construction. Or maybe
+it was for the word "as."
+
+     The winner said he would like
+to know how to express "A is as Q as
+B," where A and B are the two things
+being compared and Q is a quality.
+
+     Maltz said there were a few ways
+to say this. (Maltz is answering more
+and more questions this way these
+days.)
+
+     One way to express the notion
+of "A is as Q a B" is by attributing
+the quality in question to A and
+saying that B is the same, that is, Q
+A, {rap} B "A is Q, B is the same" ({rap}
+<be the same>), though the translation
+into English is usually "H is as Q as
+A," For example:
+
+{ghun 'Iw HIq, rap boqrat chej}
+the bokrat liver is
+as warm as the bloodwine
+
+literally, "The bloodwine is warm,
+the bokrat liver is the same" ({ghun}
+<be warm,> {'Iw HIq} <bloodwine,> {boqrat}
+<bokrat,> {chej} <liver> [bokrat liver is
+typically served hot in a stew]).
+
+{'ey ro'qegh'Iwchab, rap qagh}
+the gagh is as delicious
+as the rokeg blood pie
+
+literally, "The rokeg blood pie is
+delicious, the gagh is the same" ({'ey}
+<be delicious,> {ro'qegh'Iwchab} <rokeg
+blood pie,> {qagh} <gagh>).
+
+     It is also possible to use {nIb} <be
+identical> rather than {rap}. For
+example:
+
+{'ugh ro'qegh'Iwchab, nIb raHta'}
+the racht is as heavy
+as the rokeg blood pie
+
+literally, "The rokeg blood pie is
+heavy, the racht is identical" ({'ugh}
+<be heavy,>, {raHta'} <racht>).
+
+     Using {nIb} carries a connotation
+of preciseness -- the rokeg blood pie[[ -- :=---]]
+and the racht are exactly the same
+weight. Thus, it might be used when
+referring to something that can be
+measured, such as weight, but it is
+not likely to be used with less
+quantifiable qualities where the
+assertion of sameness is more a
+judgment, such as deliciousness. It is
+never improper to use {rap} even in
+cases where the quality is
+measurable.
+
+     The most common ways to
+express "A is as Q as B," however,
+involve constructions which parallel
+the "{law'}/{puS}" construction for [["{law'}/{puS}":={law'}/{puS}]]
+comparatives and superlatives.
+
+     The normal way to express
+comparatives (A is Q-er than B) is A
+Q {law'}, B Q {puS} ({law'} <be many,> {puS}
+<be few>), as in:
+
+{tlhIngan qu' law' tera'ngan qu' puS}
+the Klingon is more fierce
+than the Terran
+({tlhIngan} <Klingon,> {qu'} <be fierce,>
+{tera'ngan} <Terran>)
+
+     The normal way to express
+superlatives (A is the Q-est) is to use
+{Hoch} <all> in the B position:
+
+{tlhIngan qu' law' Hoch qu' puS}
+the Klingon is the fiercest (of all)
+
+     If the quality being discussed is
+the same for both A and B, that is, if
+A and B are the same as far as Q [[p.9]]
+goes, there are a number of options.
+The most frequently heard, and
+most neutral, construction is A Q
+{law'} B Q {rap,} as in:
+
+{tlhIngan woch law'
+tera'ngan woch rap}
+the Klingon is as tall as the Terran
+({woch} <be tall>)
+
+     While, in theory, it is possible to
+use the same construction with {puS}
+instead of {law'} (that is A Q {puS} B Q
+{rap}), this is seldom done and when
+it is done, there is a connotation of
+disparagement.
+
+     A variant of this construction
+uses {nIb} instead of {rap}:
+
+{tlhIngan woch law'
+tera'ngan woch nIb}
+the Klingon is as tall as the Terran
+
+     Again, {nIb} implies precision
+(the Klingon and the Terran are that
+exactly as tall as each other) and is
+not likely to be used unless the
+quality being discussed is
+quantifiable or measurable. {rap}, on
+the other hand, may be used
+regardless of whether the quality is
+quantifiable.
+
+     It should be noted that this
+restriction on {nIb} applies only in
+this sort of construction It is
+perfectly natural to say, for example,
+{nIb va'nuchDu'chaj} "their heels are
+identical" ({va'nuch} <heel,> {-Du'} <plural>,
+{-chaj} <their>) without suggesting in
+what way they are identical and
+without implying that any precise
+measuring has or has not occurred
+or could or could not occur.
+
+     If the quality being discussed is
+a positive one, or if having the
+quality is a positive attribute,
+another (similar) construction may
+be used: A Q {law'} B Q {law'}. Likewise,
+if the quality is a negative one, or if
+having the quality is considered a
+negative attribute, one may use the
+construction A Q {puS} B Q {puS}.
+Compare:
+
+{ro'qegh'Iwchab 'ey law'
+qagh 'ey law'}
+the rokeg blood pie is
+as delicious as the gagh
+
+{'Iw HIq bIr puS
+chuch bIr puS}
+the bloodwine is as cold
+as the ice is (<or,> the bloodwine
+is as cold as ice)
+({bIr} <be cold,> {chuch} <ice>)
+
+     Being delicious is a good thing
+as applied to food, so using {law'}
+twice emphasizes just how delicious
+the two dishes are. On the other
+hand, bloodwine is best when served
+warm. Using {puS} twice emphasizes
+how inappropriate the coldness of
+the bloodwine is. (It is not likely
+even cold bloodwine is really as
+cold as ice, but a disgruntled
+Klingon is not beyond hyperbole.)
+
+     Maltz pointed out that although
+these constructions may be used to
+form similes, they are generally used
+only when comparing similar
+things. Commonly, a simile (where
+two basically unlike things are
+compared) is of the form Q A; B {rur}
+({rur} <resemble>) (thus, A resembles B
+with regard to a particular quality,
+Q, though otherwise A and B would
+probably not even be compared). For
+example:
+
+{puj verengan; bIQ rur}
+the Ferengi is as weak as water
+({puj} <be weak,> {verengan} <Ferengi> {bIQ}
+<water>)
+
+literally, "The Ferengi is weak;
+he/she resembles water."
+
+     When the {law'}/{rap}, {law'}/{law'} or
+{puS}/{puS} constructions are used to [[p.10]]
+compare unlike things, they
+generally make reference to (or,
+better, are recastings of) well-known
+similes. For example:
+
+{SuvwI' ghung law'
+qagh ghung rap}
+the warrior is as hungry as gagh
+({SuvwI'} <warrior,> {ghung} <be hungry>)
+
+Compare:
+
+{ghung; qagh rur}
+hungry as gagh
+
+{tlhIngan HoS law', 'Iw HoS law'}
+the Klingon is as strong as blood
+({HoS} <be strong,> {'Iw} <blood>)
+
+Compare:
+
+{HoS; 'Iw rur}
+strong as blood
+
+{verengan puj puS, bIQ puj puS}
+the Ferengi is as weak as water
+
+Compare:
+
+{puj; bIQ rur}
+weak as water
+
+     To express the opposite notion,
+that is "A is not as Q as B," the most
+common locution is A Q {law'} B Q
+{pIm} ({pIm} <be different>), as in:
+
+{QuchlIj vIl law' QuchwIj vIl pIm}
+your forehead is not as ridgy
+as my forehead
+({Quch} <forehead,> {-lIj} <your,> {vIl} <be ridgy,>
+{-wIj} <my>)
+
+     Here is an instance where the
+English translation does not
+properly capture the Klingon
+meaning. The English "your
+forehead is not as ridgy as my
+forehead" implies (though it does
+not explicitly state) that my
+forehead is ridgier than yours. This
+implication is not in the Klingon.
+{QuchlIj vIl law' QuchwIj vIl pIm}
+means only that the ridginess of
+your forehead and mine is not the
+same. If the intended meaning is
+what the English implies, one would
+use the normal {law'}/{puS}
+construction:
+
+{Quchwlj vIl law' QuchlIj vIl puS}
+my forehead is ridgier
+than your forehead
+
+     To disagree with this notion,
+that is, to assert that your forehead
+is not ridgier than mine (it may be
+less ridgy, or the ridginess may be
+the same), one would use the
+construction A Q {law'be'} B Q {puSbe'}
+(A's Q is not many, B's Q is not few)
+({-be'} <not>):
+
+{QuchlIj vIl law'be'
+QuchwIj vIl puSbe'}
+your forehead isn't ridgier
+than my forehead
+
+     With that, Maltz said {jIH Doy'
+law' SoH Doy' puS} (<I am more tired
+than you are>) and left the room,
+muttering something about
+considering the next Frasier request
+at another time.
+
+[[eof]]

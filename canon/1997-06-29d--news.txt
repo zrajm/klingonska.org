@@ -1,0 +1,93 @@
+From: "Marc Okrand" <MarcOkrand@msn.com>
+Newsgroups: msn.onstage.startrek.expert.okrand
+Date:  29 Jun 1997 
+Subject: Re: Tonight, this morning, etc.
+
+> Will Martin <charghwi@msn.com> wrote in article
+> <01bc7b9b$1f4e3e20$7666c5cd@will>...
+> > Marc,
+> > 
+> > How would you suggest we convey the terms "tonight", "this morning", etc.
+> > I was personally drawn toward sticking to time-centric terms rather than
+> > spacial-centric grammar and say {DaHjaj ram} and {DaHjaj po} rather than
+> > {ramvam} and {povam}, both because they didn't mix concepts of time and
+> > space and because it would naturally be extendable in the form of {wa'leS
+> > ram} or {wejHu' po}, while the use of {-vam} does not have that property.
+> > Meanwhile, in {HeghmeH QaQ jajvam}, you clearly showed that {-vam} works
+> > with time related terms.
+> > 
+> > So, I'm open. What's your preference?
+> > 
+> > charghwI'
+
+
+Regarding "tonight" and so forth, I'd go along with your suggestion:
+
+DaHjaj ram "tonight" (literally "today night" or "today's night")
+
+DaHjaj po "this morning" (literally "today morning" or "today's morning")
+
+DaHjaj pov "this afternoon" (literally "today afternoon" or "today's
+afternoon")
+
+DaHjaj DungluQ "this noon" (literally "today noon" or "today's noon") 
+
+DaHjaj ramjep "this midnight" (literally "today midnight" or "today's
+midnight")
+
+DaHjaj pemjep "this midday" (literally "today midday" or "today's midday") 
+
+(The phrases "this noon," "this midnight," and "this midday" are a little
+awkward in English -- we'd probably say "today at noon," "tonight at
+midnight," "today in the middle of the day" or something -- but in Klingon,
+they fall right into place.)
+
+In Klingon, you could even say DaHjaj pem "today's daytime," which would
+probably be typically contrasted with DaHjaj ram "today's night" (or
+"tonight").
+
+wa'leS po "tomorrow morning," cha'leS po "the morning of the day after
+tomorrow" (literally "two-days-from-now morning"), and so on work quite
+nicely.
+
+Adding -vam "this" to most words designating fixed periods of time seems to
+be the only way to indicate "current."  Thus the current year or "this
+year" is DISvam (referring, of course, to a Klingon year, or DIS), the
+current month or "this month" is jarvam (jar "[Klingon] month"), and the
+current week or "this week" is Hoghvam (Hogh "[Klingon] week").  There
+don't seem to be special words for "the current year" and so forth
+comparable to DaHjaj "the current day" or "today."  DaHjaj seems to be
+formed of the adverbial DaH "now" plus the noun jaj "day," a unique type of
+formation as far as I know.  It is perhaps by analogy to DISvam, jarvam,
+etc. -- all formed by simply adding a noun suffix to a noun -- that
+Klingons also refer to the current day as jajvam "this day" (jaj "day,
+period from dawn to dawn").
+
+Though they both can be translated "today," DaHjaj and jajvam are not quite
+interchangeable.  As the time element in a sentence, DaHjaj (and not
+jajvam) is used:
+
+	DaHjaj romuluSngan vIHoHpu' "today I killed a Romulan"
+	(DaHjaj "today," romuluSngan "Romulan," vIHoHpu' "I have killed 
+	him/her")
+
+As the subject of a sentence, on the other hand, jajvam is more typically
+found:
+
+	nI' jajvam "this day is long"
+	(nI' "[it] is long [in duration], jajvam "this day")
+
+though DaHjaj is not impossible:
+
+	nI' DaHjaj "today is long"
+	(nI' "[it] is long [in duration], DaHjaj "today")
+
+DaHjaj also behaves as a noun (as opposed to an adverbial element) in such
+noun-noun constructions as  DaHjaj gheD "today prey" or "today's prey," a
+term often heard in Klingon restaurants with a meaning comparable to "catch
+of the day."
+
+Phrases such as jajvam po "this day morning" or "this morning" are not
+common, but they're not ungrammatical either.
+
+[[eof]]

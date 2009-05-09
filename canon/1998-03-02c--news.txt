@@ -1,0 +1,132 @@
+From: Marc Okrand <mokrand@erols.com>
+Newsgroups: startrek.expertforum
+Date: Mon, 2 Mar 1998 00:27:06 -0500
+Subject: Re: Problem with {-meH} and negative meanings
+
+>Guy Vardaman wrote ...
+>>Marc, have you determined types of accents for Klingon language (for
+>>example, if Worf consistently pronounces his eh' sound differently than
+>>you do, is it consistent enough to consider it a dialect from a
+>>particular province? or a type of accent?) It would seem that you'd have
+>>heard a variety of similar mis-pronouncements from different Humans
+>>attempting the "Language of Warriors." 
+>>Well, I'm going to refrain from saying more before I show my ignorance
+>>of the language. One last thing along those lines though, could we talk
+>>about the difference between upper and lower case (as used in the Daily
+>>Klingon Language lesson)?
+
+Well, SuStel got to this before I did.  Not surprisingly (given his
+expertise in the language), much of what he said is what I would have said
+anyway. 
+
+David Trimboli wrote ...
+>I'm not Marc, but I do know the answer to this.  We now have
+>startrek.klingon, which is for the discussion of the Klingon language.
+>
+>Several Klingon dialects based on region or planet are described in Marc
+>Okrand's latest book, Klingon for the Galactic Traveler. There are also
+>generational and societal differences.
+
+[I've taken pieces of the original posting out here, just to make this one
+shorter.]
+
+>In Star Trek VI, we actually get to hear the Morskan
+>dialect INTENTIONALLY.
+
+This is true.  The original script for "Star Trek VI"  (well, the earliest
+version that I saw, anyway) had the English translations for the lines
+spoken by the Klingon at the Morska listening post in a peculiar kind of
+English to show that it was a different way of speaking.  As the filming
+proceeded, the character changed somewhat so that he became an inattentive
+Klingon rather than merely a Klingon from some different region, but we
+kept the nonstandard dialect anyway.  (So he became an inattentive Klingon
+from a part of the Empire we've not heard much about.) 
+
+>The letters used to represent Klingon are there to tell you the SOUNDS of
+>Klingon.  It's a transcription system.  Typically, certain letters are
+>capitalized to remind you that they are pronounced differently than they
+>would be in English.  For instance, {H} is not English "h," it's like the
+>German "ch" in the name "Bach."  {D} is not English "d," it's a retroflex
+>{D}.  That is, instead of putting your tongue just behind your top teeth,
+>you point the tongue straight up and touch the roof of your mouth, then say
+>a "d."  And so on.
+>
+>In one case, the capitization actually represents a different sound.  {q}
+>and {Q} are different sounds.
+>
+>See the first section of The Klingon Dictionary for a complete listing of
+>symbols used for writing the sounds of Klingon.
+
+All well said.  Let me elaborate just a bit.  The system used to transcribe
+Klingon, making use of letters from the English (well, Roman) alphabet, was
+devised so that the reader would have some notion of how to pronounce the
+words.  Since the system was originally developed as a guide for
+English-speaking actors (and then retained for English-speaking readers of
+the Dictionary), most of the letters represent the same sound that they
+represent in English.  Thus {b} is the same as "b" in "boy," {t} is like
+"t" in "toy," and so on. 
+
+But, as SuStel points out, there are some sounds in Klingon that do not
+occur in English (or have no standard ways to be represented by English
+letters), so a way was needed to write each of them.  This was handled by
+various means: 
+
+(1) In one case, the letter {q} was used to represent a sound sort of like
+English "k," but made farther back in the mouth.  In English words, "q" is
+always followed by "u"  (and then by another vowel) and the combination of
+the two, "qu," is pronounced like "kw."  (Words taken into English from
+other languages don't necessarily follow this pattern;  e.g., "quiche.") 
+Since "q" without its companion "u" isn't used in English (except in a few
+words of foreign origin), it was available to represent a non-English sound
+in Klingon.  And since "q" in English represents the "k" part of the "kw"
+sound, it was a good candidate to represent a "k"-like sound in Klingon. 
+{q} rather than {k} was chosen for this Klingon sound so that the reader
+would be aware that it's a sound different from "k." 
+
+(2) In two cases, a combination of letters which does not occur as such in
+English was used: {tlh} and {gh}. 
+
+(3) In one case, a symbol used in English writing, though, properly
+speaking, not a letter itself, was used for a sound: {'}, the apostrophe. 
+This is a "glottal stop" -- a quick pause in vocalization which occurs, for
+example, in between the two syllables in English "uh-uh" (meaning "no"). 
+
+And finally, since this is what the original question was about: 
+
+(4) In all other cases of non-English sounds, capital letters were used. 
+SuStel mentions {D}, {H}, and {Q};  another is {S}. 
+
+There is one other capital letter used in Klingon: {I}.  This represents
+the very English sound written with "i" in "sit."  In Klingon, {I} was
+chosen for this sound (rather than {i}) to help ensure that it would not be
+pronounced like the "i" in "mine" or in "machine." 
+
+(The other vowels in Klingon, {a}, {e}, {o}, and {u}, can be read with the
+values they have in Romance languages like Spanish.  But Romance/Spanish
+"i" is not the same as Klingon {I}, which is why the Klingon vowel gets
+singled out for capitalization.  [Actually, Klingon {e} and Spanish "e"
+aren't the same either, but they're close enough for this discussion.]) 
+
+It's important to remember that this system of transcribing Klingon with
+the weird letter combinations (like {tlh}) and capital letters is just
+that: a transcription.  It's a way to represent in writing the sounds of
+the spoken language.  And it's done so that a reader will have a reasonable
+shot at getting it right.  It's not the official Klingon way of writing! 
+The way Klingons write their own language is with a set of characters
+(called {pIqaD}) that you've seen on control panels and viewscreens and
+doorways in various episodes and films.  The Roman-letter transcription is
+a crutch for those of us who can't read {pIqaD}. 
+
+I got a little long-winded here.  But hope this helps.
+
+  - Marc
+
+
+>See the first section of The Klingon Dictionary for a complete listing of
+>symbols used for writing the sounds of Klingon.
+>
+>SuStel
+>Stardate 98153.8
+>
+
+[[eof]]

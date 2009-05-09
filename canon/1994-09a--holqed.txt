@@ -1,0 +1,222 @@
+[[
+  [2000­08­24] OCR scanned by Zrajm C Akfohg.
+  [2003­01-28] added file header
+  Style: {}=bold, <>=italics, corrections, paginated
+
+  Type: article
+  Date: September 1994
+  Title: Interview: Okrand on {­ghach}
+  Author: Lawrence M. Schoen (?)
+  Source: <{HolQeD} 3:3>, pages 10-13
+  Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061­2327
+  Summary:
+
+  : "Interview: Okrand on {­ghach}", from <{HolQeD} 3:3>, pages 10-13
+  : Interview by Lawrence M. Schoen (?), 1994
+  : Klingon Language Institute, Flourtown, PA
+  : ISSN 1061­2327
+
+]][[p.10]]
+
+Interview: Okrand on {­ghach}
+
+HQ: We have many examples of single syllable words which are both
+    verbs and nouns, and the description of {­ghach} given in <TKD>
+    explidtly states that you use {­ghach} on a verb that carries a suffix.
+    Is {­ghach} only used on verbs that already have suffixes, and can we
+    otherwise presume that any monosyllabic Klingon verb has the
+    identical nominal form?
+
+MO: Do all monosyllabic verbs have an identical nominal form? I don't
+    know. The phrase I used in <TKD> was "it is not known if all verbs
+    can be used as nouns." It was true when I wrote the thing and it's
+    true now. I wouldn't be surprised to find nouns identical to the
+    verb forms that no one has seen yet, I'm sure there's more. But I'm
+    not prepared to say that any verb is a noun and any noun is a verb.
+
+    The semantic relationship between the two is not straightforward
+    either, there are some, like {bach}, which means <shoot> (v) or a <shot> (n)
+    where the noun is the instrument or means of the verb. When you
+    shoot something what you shoot is the shot,
+
+HQ: And we have the same parallel with {nob}, <give> and <gift>.
+
+MO: Exactly. Then there's another kind like {leH} when means <maintain> or
+    <maintenance>, which is different because you don't maintain a
+    maintenance. It's a different type of thing - it's like the noun form
+    is the activity the verb describes or is the result of doing the verb.
+
+HQ: Almost a gerund form.
+
+MO: Yeah. And another kind; {boQ}, the verb means <assist> but the noun
+    means <aide>, which is the doer or the agent. It's a wholly different
+    semantic relationship.
+
+HQ: It there any apparent pattern to this?
+
+MO: Not that I have discovered yet, but I think that would be worth
+    looking into. I think that would be a good study. That's the way to
+    pursue it rather than all nouns can be verbs or all verbs can be
+    nouns, because that is not the case.
+
+    When the verb is one of those adjective type of verbs, what we have
+    been calling stative verbs, it's different again. There's {nov} which is
+    <be alien> and also an <alien>, the noun is what is described by the verb
+    - an alien is alien. And there's {bel} which means <be pleased> but also
+    means <pleasure> which is causation or something, pleasure results
+    from being pleased. And {quv} meaning <be honored> and <honor>. And
+    then there are some that are not noun/verb pairs but
+    verb/something else pairs. There's {Do'} which means <be lucky> but it's
+    also an adverb meaning <luckily> and {batlh} meaning <honor> the noun
+    and also the adverb <with honor>, so it's not simply that all verbs can [[p.11]]
+    be nouns, there are more identical forms going on. Exactly
+    what the patterns are isn't apparent to me yet.
+
+HQ: When you add {­ghach} onto a word what do you get? One
+    argument is if you can't add {­ghach} onto a bare stem, and you are
+    trying for a gerund form, you should be able to add {­taH} then
+    {­ghach}. Would you care to comment?
+
+MO: That's fine, I think it's a legitimate thing to do assuming the verb
+    plus {­taH} is legitimate. It depends on the verb. In the dictionary I
+    give four examples and that's all there is. There's <value>, which is
+    used kind of like <*worthness> and also <worthlessness>, and then
+    <discommendation> and <re­commendation>. So what {­ghach} means on
+    the basis of these is <­ness> or <­tion>. <­ness> means something like the
+    state of being X, or the quality of being X. <*Bigness> means the
+    quality of being big. <­tion> involves more activity, so it's an action
+    involved with something, or a process involving something. So
+    <recommendation> is the action or result of recommending, as opposed
+    to the <­ness> ones which are more stative in English. The examples
+    of {­ghach} there go with both kinds: the stative with <­ness> and the
+    activity kind with <­tion>.
+
+HQ: Just to be clear, you're saying that if it is a stative verb with {­ghach}
+    that you are creating a <­ness> equivalent in English? And if it's a
+    more active or transitive verb you're creating a <­tion> type of noun?
+
+MO: Yes. So {­ghach} means something like condition of being X, if X is
+    stative. Or action or process involved with, or maybe result of the action,
+    but the process involved with Y where Y is, for the lack of a
+    better term, an active verb.
+
+HQ: Can we use the suffix {­ghach} on a naked stem?
+
+MO: The answer is yes and no - and I'll elaborate so I don't leave it at
+    that. In general no (this is my understanding from Maltz). As far as
+    I can tell {­ghach} is at least at first blush restricted to a position
+    following a verb suffix of another type which means 1 through 8
+    because it's a nine.
+
+HQ: Or a rover?
+
+MO: Absolutely. I personally have never heard a Klingon say
+    {tlhutlhghach}. On the other hand, throw in the {­taH} as we were
+    saying earlier and you have {tlhutlhtaHghach}, which means <ongoing
+    drinking> or the <process of continuing to drink>, which is just fine but the
+    English translation overemphasizes the "continuing" part, Because
+    in English it's a separate word or phrase as opposed to just a little
+    suffix like it is in Klingon. So as a result of the translation it takes
+    on a little more oomph than it has.
+
+HQ: And yet, it feels like a very badly repaired word in English. [[p.12]]
+
+MO: In English right, but not in Klingon. It's just fine and semantically
+    even makes sense because if it's going to be one of these - to use
+    your word - gerund like things - a <drinking>, that's a continuous
+    thing. You don't have a <drinking> at a finite point in time it has to
+    carry on in time it has to be ongoing.
+
+HQ: So, <can> we use the suffix {­ghach} on a naked stem?
+
+MO: The general answer to that is "no." Now having said that, can you
+    do it? Can you say {belghach}, or {nobghach} or anything like that?
+    Yeah you can, but, it has a feeling in Klingon kind of like the
+    English word <*pleasureness> or something like <*collapsation> - it follows
+    the rules, it's a <­tion>, an activity and all, but it doesn't happen to
+    work, however, if you said it would you be understood? Yes, but
+    it's weird. Klingon is a little more forgiving than English, people
+    wouldn't jump up and down and say that's horrible and
+    ungrammatical, but they would say that's a unique formation.
+    Perhaps appropriate for the occasion, but not necessarily a word
+    for all times.
+
+HQ: So, if we use {­ghach} on a bare stem...
+
+MO: It's a highly marked form. It's a word you are forming for a specific
+    occasion and a specific effect. If you were a poet or philosopher or
+    hard scientist and had to describe something very specifically these
+    kinds of words might be appropriate but it carries the feeling of very
+    technical arcane vocabulary, not normal everyday stuff. So can you
+    say it? Yes, but you are saying more, rather than less or neutral.
+
+HQ: And you are drawing a great deal of attention to it in the process.
+
+MO: Right, I suppose over time some of these things could be lexicalized,
+    but my hunch would be if they are lexicalized they would drop
+    stuff. And there may even be some kind of morphological change
+    - what used to be the last consonant of the stem will change to the
+    {ch} of {­ghach} or something like that. There are limited examples of
+    that type of stuff happening in the dictionary, though not with {­ghach}.
+
+HQ: Okay, if you can add {­ghach} to a bare stem, what happens if you
+    add it to one of those verbs that already has a noun counterpart?
+    Like {nob}?
+
+MO: You won't necessarily end up with a noun that means the same thing.
+    Remember, there is no single semantic or case relationship
+    between a noun and a verb, there are different ones, probably half a
+    dozen different relationships going on, and the {­ghach} one will
+    only be one of those, and it will be a different kind, not the same
+    thing at all. So if you add {­ghach} to {nob} you end of with <*givation>.
+    If what you mean to express is an ongoing giving, {nobtaHghach},
+    stick in the {-taH}. [[p.13]]
+
+HQ: Well, if {nobtaHghach} means something like <ongoing giving>, would
+    {nobghach} mean a one­time donation?
+
+MO: Yes, but it's a funny word for that. It could also be {nobpu'ghach}, a
+    <*given>. Not a past event necessarily, just finished. Now if you use
+    {­ghach}, and Klingons do this, they play with their language like
+    everyone does, you can get some interesting semantic distinctions
+    you can't get otherwise. For example, you have two nouns that
+    mean honor - like you would expect because it's such a big deal.
+    There's {batlh} and there's {quv} and both are nouns meaning <honor>.
+    And there's a verb meaning <honor>, {quvmoH}, that's a regular
+    ordinary construction. So you can have {quvmoHghach} which is a
+    noun that would mean the <process of honoring>. {quvghach}, the
+    naked stem one, that would mean <*honoredness>. It has the same odd
+    feeling to it, but the same understandability, but not quite as bizarre
+    in Klingon as in English. It's a highlighter.
+
+HQ: One of the things I like about Klingon is that you can put together
+    combinations that give you semantic qualities that you would never
+    think of in English. You could take a perfective suffix and add
+    {­ghach}; what would that mean?
+
+MO: Say, <give> - <having given> - {nobta'ghach}, it's over already, done already,
+    a gift giving, but not the general notion of a process of giving.
+
+HQ: So this might be a word to describe the occasion of the last
+    exchange of gifts at a holiday, that event.
+
+MO: Right, the particular instance of - as opposed to the general notion
+    of - something that goes on all the time. Now let's put that on a
+    stative verb like to be pleased. {belpu'ghach}, <having been pleased>. It
+    would be something like a particular instance of pleasure.
+
+HQ: Let's carry this to the next extreme. Can you have prefixes on words
+    that use {­ghach}?
+
+MO: My initial reaction is that this needs more study. That is, just as
+    bare stem + {­ghach} is okay, but weird, prefix + verb (with or
+    without a suffix) + {­ghach} is even weirder. But not unheard of, and
+    the semantic feel, say with {legh}, would be something like <*I­/you­
+    seeing>, or a <sighting of you by me> as a single concept. I suppose you
+    could say that, and people would understand it, but it's weird. An I­
+    seeing­you happened. I can imagine someone saying that in English,
+    and you'd look up and say "huh?" but know exactly what was
+    meant. It's following the rules, but it's following them into a place
+    they don't normally go.
+
+[[eof]]

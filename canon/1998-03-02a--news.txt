@@ -1,0 +1,66 @@
+From: Marc Okrand <mokrand@erols.com>
+Newsgroups: startrek.klingon
+Date: Mon, 2 Mar 1998 22:53:39 -0500
+Subject: Re: -be', -Ha'
+
+David Trimboli wrote ...
+>Qermaq wrote ...
+>>>par  parHa'   dislike    like
+>>>naD  naDHa'   commend    discommend
+>>>yuD  yuDHa'   dishonest  honest
+>>
+>>Dishonesty may be a default too. Odd that <voq> is "trust" though...
+>>
+>>>yep  yepHa'   careful    careless
+>
+>
+>An idea: ALL of these, including {voq}, could be the "default," as Qermaq
+>suggests.  Consider a battle (a fairly default Klingon activity).  Liking
+>and being honest are not particularly important in battle. However,
+>trusting and being careful are.  Whether or not this is the actual reason
+>for these alleged defaults, it shows that there might easily be a good
+>reason that {voq} defaults to what we consider a positive term.
+>
+>(Note: disliking and being dishonest may equate with positive terms in
+>Klingon, thus their being "defaults.")
+>
+>SuStel
+
+Learning about Klingon character or mindset by way of studying what Qermaq
+terms "defaults" in vocabulary will probably lead to interesting insights. 
+I think both Qermaq and SuStel are on the right track: {par} "dislike," for
+example, is probably the more neutral or expected reaction of a Klingon to
+someone else; {parHa'} "like" (or, more revealingly, "not dislike" or
+"undislike" or "misdislike"  or even "disdislike" [?!], since it's made up
+of {par} "dislike" plus {-Ha'}, the negative suffix implying that something
+is undone or done wrongly) is a modification (an undoing?) of this expected
+reaction. 
+
+It may be that not everything has a default.  Note, for example, {QuchHa'}
+"be unhappy" and {'IQ} "be sad."  These two words don't mean quite the same
+thing: {QuchHa'} is made up of {Quch} "be happy" plus the negative suffix
+{-Ha'}, suggesting a change from being happy to not being happy. {'IQ} does
+not have this connotation, nor does {Quchbe'} "be not happy" (or, if you
+prefer, "not be happy").  Nevertheless, is the default in this pair {Quch}
+"be happy" or is it {'IQ} "be sad"? 
+
+On the other hand, when the only way to express a certain idea is by
+modifying a word (for example, by adding a suffix) rather than using an
+entirely different word, perhaps one can argue that the nonmodified word is
+the default.  Thus, the only (known) way to express the opposite of {par}
+"dislike" is by adding a negative suffix to {par}.  Unlike {QuchHa'} "be
+unhappy" and {'IQ} "be sad," there's no choice when it comes to "like";
+you've got to use a word based on {par}: {parHa'}.  It appears that the
+only kind of "like" there is is the "undoing" or "misapplication" of
+"dislike."  (Of course, you could also say {parbe'} "like" or, more
+literally, "not dislike,"  using the negative suffix {-be'} "not"; but
+{parbe'} is also based on {par}.  {parHa'} is heard more frequently than
+{parbe'}, however, and this may be a hint at the usual way a Klingon looks
+at things.) 
+
+Interestingly (and bolstering the idea that "dislike" is a default),
+there's also the word {muS} "hate" (which is presumably stronger somehow
+than {par} "dislike").  It also has no known opposite except for the
+suffixed forms:  {muSHa'} "dis-hate" or "unhate"; {muSbe'} "not hate." 
+
+[[eof]]

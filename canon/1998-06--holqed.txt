@@ -1,0 +1,101 @@
+[[
+  [2000-10-02] OCR scanned by Zrajm C Akfohg.
+  [2003-01-28] added file header
+  Style: {}=bold, <>=italics, paginated
+
+  Type: article
+  Date: June 1998
+  Title: Maltz Online
+  Author: Marc Okrand (edited by Lawrence M. Schoen)
+  Source: <{HolQeD} 7:2>, pages 8-9
+  Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
+  Summary:
+
+  : "Maltz Online", from <{HolQeD} 7:2>, pages 8-9
+  : Article edited by Lawrence M. Schoen, text by Marc Okrand, June 1998
+  : Klingon Language Institute, Flourtown, PA
+  : ISSN 1061-2327
+
+]][[p.8]]
+
+Maltz Online
+
+<The internet is an astounding place. Not only does it permit rapid communication
+across the face of the Earth, but apparently through time as well. How else to
+account for the two inclusions below? These explanations from Marc Okrand have
+appeared in various electronic mailing lists and bulletin boards. We reprint them here
+with Okrand's kind permission. -LMS>
+
+     All four words asked about ({tul} <hope>, {Qub} <think>, {Sov} <know>, and {SIv}
+<wonder>) can be used in the construction <S> {'e'} <V>, where <S> is a sentence, {'e'} is
+the pronoun <that> which refers to a previous topic (in this case <S>), and <V> is
+one of the verbs listed above (as well as some others).
+
+     If the sentence (<S>) is {tlhIngan Hol Dajatlh} <you speak Klingon> ({tlhIngan
+Hol} <Klingon language>, {Dajatlh} <you speak it>), it's OK to say:
+
+     {tlhIngan Hol Dajatlh 'e' vItul}
+     I hope that you speak Klingon
+     ({vItul} I hope it)
+
+     {tlhIngan Hol Dajatlh 'e' vIQub}
+     I think that you speak Klingon
+     ({vIQub} I think it)
+
+     {tlhlngan Hol Dajatlh 'e' vISov}
+     I know that you speak Klingon
+     ({vISov} I know it)
+
+     {tlhIngan Hol Dajatlh 'e' vISIv}
+     I wonder if you speak Klingon
+     ({vISIv} I wonder it)
+
+     The fourth example is weird from an English translation point of view,
+but it falls right in line in Klingon. If the English translation matched the
+pattern of the other three sentences, it would be "I wonder that you speak
+Klingon." In English, this means something like "I'm surprised that you
+speak Klingon" or "I don't understand how it can be that you speak
+Klingon," but this is not what the Klingon sentence means. The Klingon
+sentence means something more like "I am curious about whether you speak
+Klingon." The clumsiness here is the English, not the Klingon.
+
+     One other verb that can be used in the <V> slot in such sentences is {Hon}
+<doubt>:
+
+     {tlhIngan Hol Dajatlh 'e' vIHon}     I doubt that you speak Klingon
+     ({vIHon} I doubt it)
+
+     I'll return on another occasion to the question of whether the sentence
+preceding the 'e' in such sentences can be a question. This is a more general
+issue than whether you can do it with {SIv} "wonder" and I need some clear
+guidance from Maltz.
+
+                ----------------------------------------
+
+     The Klingon word for "fork" is {puq chonnaQ}.
+
+     As is well known, Klingons prefer to get food into their mouths without
+the aid of implements (except for such things as the bowl containing soup or
+the goblet containing bloodwine). Nevertheless, they have become
+acquainted with the eating habits of other cultures and have become aware [[p.9]]
+of such things as forks. On occasion, they'll even use the implements, most
+commonly when partaking of a non-Klingon meal (whether on a Klingon
+planet or elsewhere) but sometimes when eating Klingon food, as if to add
+an exotic touch to the meal experience. (Not all Klingons are skilled in using
+forks, however, and some simply refuse to deal with them. Those who do
+not use them seem to be not at all troubled by eating "foreign" food using
+Klingon means --- that is, hands.)
+
+     The term {puq chonnaQ} is, at least in origin, somewhat derisive. It
+literally means "child's hunting spear," suggesting that the eating
+implement is small and not very effective (though the actual child's spear, as
+opposed to the "fork," is useful for training in the art of hunting).
+
+     The Klingon word for "spoon" is {baghneQ}. Even though spoons were
+never typically used when eating, the word appears to have been in the
+language for a long time, suggesting that it may once have meant something
+else. One theory is that it comes from {nagh beQ} "flat stone, flat rock" and
+that the initial sounds of the two words, {n} and {b}, were, for some reason,
+transposed. This is, however, just speculation.
+
+[[eof]]

@@ -1,0 +1,70 @@
+[[
+  [1998-06-14] transcribed from HolQeD 3:2, p.9, by Zrajm C Akfohg
+  [1998-10-05] machine checked for incorrect syllables
+  [2001­09­15, 15.29-15.34] reformatted from earlier file
+  [2003­01-29] corrected using image of card and added file header
+  [2003-01-30] hunted down errors using Steven Boozer's transcript
+  Style: {}=bold, ^=superscript
+
+  Type: trading card
+  Date: 1993
+  Title: {QU'} (SkyBox 99)
+  Author: Marc Okrand (translation)
+  Publisher: SkyBox International Inc.
+  Summary: This is the <Star Trek: Deep Space Nine> first season trading card.
+    It features a text similar to the classic opening voice over of the
+    original <Star Trek> series. The card was produced available in several
+    versions in different languages, among them English, Japanese and Klingon.
+    (The text of this card was also reproduced in <{HolQeD} 3:2>, p.9.)
+
+  Picture: sbx-99a-big.jpg(900x649), sbx-99b-big.jpg(900x653),
+    sbx-99a-sml.jpg(550x397), sbx-99b-sml.jpg(550x399),
+    sbx-99a-thmb.jpg(250x180), sbx-99b-thmb.jpg(250x180)
+
+  : [HQ 3:2 p.9, there reproduced from SkyBox trading card 99]
+
+  : [The SkyBox card no. 99 was produced for the first season of DS9, this card
+  : features a text similar to the classic opening voice over of TOS. The cards was
+  : produced in several different versions, the difference being the language of
+  : the text, among the languages used where English, Japanese and Klingon. (It was
+  : available in somewhere between five and ten different languages.)]
+
+]]
+
+
+KLINGON
+
+99                           QU'
+
+Phonetic Translation:
+
+loS...qIb HeHDaq, 'u' SepmeyDaq
+Sovbe'lu'bogh lenglu'meH He
+ghoSlu'bogh retlhDaq 'oHtaH.
+HaDlu'meH, QuSlu'meH, SuDlu'meH
+lojmIt Da logh Hop Hut tengchaH.
+vaj loghDaq lenglaHtaH Humanpu'.
+veH Qav 'oH logh'e'.
+
+
+Klingon Script:
+
+[[nonsense]]
+
+
+1993 SERIES
+
+STAR TREK^®^
+DEEP SPACE NINE^TM^
+
+TM, ® & © 1993 Paramount Pictures. All Rights Reserved.
+STAR TREK and Related Marks are Trademarks of Paramount
+Pictures. SkyBox International, Inc. Authorized User.
+
+Phonetic translation by Marc Okrand, author of the Klingon Dictionary.
+
+Paramount^®^
+SkyBox^TM^
+
+
+[[eof]]

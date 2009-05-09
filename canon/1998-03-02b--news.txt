@@ -1,0 +1,61 @@
+From: Marc Okrand <mokrand@erols.com>
+Newsgroups: startrek.klingon
+Date: Mon, 2 Mar 1998 22:53:45 -0500
+Subject: Re: -be', -Ha'
+
+
+TPO wrote....
+>par  parHa'   dislike    like
+>naD  naDHa'   commend    discommend
+>yuD  yuDHa'   dishonest  honest
+>yep  yepHa'   careful    careless
+>
+>etc etc
+>
+>but then we have:
+>
+>Qoch  Qochbe'  disagree  agree
+>
+>why not  QochHa'
+
+The short answer is that we *can* have QochHa', it's just not listed in the
+Dictionary.  As I wrote elsewhere (in the old MSN newsgroup, but repeated
+in another thread in this newsgroup), for the most part, words in The
+Klingon Dictionary consisting of verb + suffix are there as a matter of
+convenience.  That is, if you want to look up how to say "misinterpret,"
+it's there -- {yajHa'}.  {yajHa'} consists of {yaj} "understand" plus the
+negative suffix {-Ha'} "undo," and, even though {yajHa'} is an entry in the
+Dictionary, there is nothing to prevent other suffixes, including the other
+negative suffix {-be'}, from following {yaj}.  Thus {yajbe'} is a perfectly
+well-formed word meaning "not understand." 
+
+Because there is a meaning difference between the two negative suffixes
+(for sake of brevity, {-Ha'} suggests doing or being something in the wrong
+way or undoing something; {-be'} suggests simply not doing or not being
+something), there is a meaning difference between {yajbe'} and {yajHa'}. 
+The first word implies the absence of understanding ("not understand"); the
+second implies that any understanding that there may have been was
+imprecise or askew or not properly done ("misunderstand, misinterpret"). 
+
+Which brings us to {Qochbe'} and {QochHa'}.  Both consist of the verb
+{Qoch} "disagree" plus a negative suffix.  Parallel to the example above
+with {yaj} "understand,"  {Qochbe'} implies an absence of disagreeing
+(hence "agree"); {QochHa'} implies that any disagreeing was misplaced or
+misconstrued or perhaps has been "undone."  English lacks a simple way to
+say this.  (At least I couldn't think of one; if anyone has any
+suggestions, I'd be interested in seeing them.)  Made-up words like
+"misdisagree" or "undisagree" may get the idea across, but they're hardly
+elegant (unlike Klingon {QochHa'}, which is elegance itself). 
+
+Now this raises another question, slightly different from the original one:
+If both {Qochbe'} and {QochHa'} are acceptable Klingon words, why is one in
+the Dictionary and the other not?  For better or worse, the Dictionary is a
+"one size fits all" sort of work.  It's for those who want to study the
+language in depth (though it is far from exhaustive), but also for those
+who want a quick reference (How do you say "agree"?).  Since "agree" (that
+is, "not disagree") is probably going to be said more frequently that
+"misdisagree" (or a more felicitous equivalent), it got to be listed. 
+Similarly, {naDHa'} "discommend" is listed due to its importance in Klingon
+culture, though {naDbe'} "not commend" is a properly formed word. 
+
+[[eof]]

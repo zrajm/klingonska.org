@@ -1,0 +1,54 @@
+[[
+  [1998-06-14] transcribed from HolQeD 5:3, p.15, by Zrajm C Akfohg
+  [1998-10-05] machine checked for incorrect syllables
+  [2000-07-13] reformatted from earlier file
+  [2000-07-30] corrected text using the actual cards
+  [2003-01-29] split this card into separate file and added file header
+  [2003-01-30] hunted down errors using Steven Boozer's transcript
+  Style: {}=bold, <>=italic, ^=superscript
+
+  Type: trading card
+  Date: 1996
+  Title: {Qo'noS} <Klingon Homeworld> (SkyBox S27)
+  Author: Marc Okrand (translation)
+  Publisher: SkyBox International Inc.
+  Summary: This is the third of the three <Star Trek: The Next Generation>
+    fifth season trading cards. (The text of this card, except for the small
+    print, was also reproduced in <{HolQeD} 5:3>, p.15, but in that reprint the
+    word {ponglu'} was missing.)
+  Credit: Nancy Nielsen-Brown gave me this card at the {qep'a' SochDIch}.
+
+  : [From SkyBox trading card S27, 1996 (TNG 5th season). The text of
+  : this card was also reprinted in HQ5:3 p.15. In the HolQeD reprint
+  : The word {ponglu'} is missing. On the SkyBox card the word
+  : {vaS'a''e'} is incorrectly written as {vaS'a' 'e'} in two words
+  : (this error is retained above).]
+
+]]
+
+S27
+
+Qo'noS
+Klingon^TM^ Homeworld
+
+tlhIngan wo' yuQmey chovlu'chugh Qo'noS potlh law' Hoch potlh puS.
+roD 'oHvaD juHqo' ponglu' neH. pa' 'oHtaH vaS'a' 'e'. tlhIngan qum waw' [[vaS'a' 'e':=vaS'a''e']]
+'oH. yoq yIn yuQ 'oH Qo'noS'e'. yInSIp voQSIp je ngaS muDDaj.
+
+The principal planet of the Klingon Empire, Qo'noS is usually referred to
+as simply "The Homeworld." This is where the Klingon Great Hall is
+located, the center of the Klingon government. Qo'noS is a class­M
+planet with an oxygen/nitrogen atmosphere.
+
+Paramount®
+SkyBox TM
+
+TM, ® & © 1996 PARAMOUNT PICTURES. ALL RIGHTS RESERVED.
+<STAR TREK> AND RELATED MARKS ARE TRADEMARKS OF PARAMOUNT
+PICTURES. FLEER/SKYBOX AUTHORIZED USER. PRINTED IN USA.
+
+TM, ®, © je tera' DIS wa'­Hut­Hut­loS Paramount Pictures. Hoch SeH. Paramount Pictures
+malja' permey bIH STAR TREK pong'e' Deghmey'e' je. bIH lo' Fleer/SkyBox. 'e' chaw'.
+TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF <THE KLINGON DICTIONARY>.
+
+[[eof]]
