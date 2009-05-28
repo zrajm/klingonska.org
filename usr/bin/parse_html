@@ -1,0 +1,332 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use feature "switch";
+
+
+{
+    package HTML;
+
+    # HTML tags which does not end in </tag>
+    my @without_end_tag = qw(!doctype br hr img input meta);
+    my %html = (
+	a => {
+	    href         => \&file,
+	    name         => \&string,
+	},
+	body => {
+	    bgcolor      => \&color,
+	    text         => \&color,
+	    link         => \&color,
+	    alink        => \&color,
+	    vlink        => \&color,
+	    topmargin    => \&number,
+	    marginheight => \&number,
+	},
+	form => {
+	    method       => \&form_method,
+	    action       => \&file,
+	},
+	font => {
+	    color        => \&color,
+	    size         => \&number,
+	},
+	h1 => {
+	    align        => \&align,
+	},
+	hr => {
+	    align        => \&align,
+	    noshade      => \&noshade,
+	    size         => \&number,
+	    width        => \&percent,
+	},
+	img => {
+	    align        => \&img_align,
+	    alt          => \&string,
+	    border       => \&number,
+	    height       => \&number,
+	    src          => \&file,
+	    vspace       => \&number,
+	    hspace       => \&number,
+	    width        => \&number,
+	},
+	input => {
+	    name         => \&string,
+	    size         => \&number,
+	    type         => \&input_type,
+	    value        => \&string,
+	},
+	meta => {
+	    "http-equiv" => \&meta_http_equiv,
+	    content      => \&meta_content,
+	},
+	p => {
+	    align        => \&align,
+	},
+	table => {
+	    align        => \&align,
+	    border       => \&number,
+	    cellspacing  => \&number,
+	    cellpadding  => \&number,
+	    width        => \&percent,
+	},
+	th => { 
+	    align        => \&align,
+	    colspan      => \&number,
+	},
+	td => { 
+	    align        => \&align,
+	    bgcolor      => \&color,
+	    colspan      => \&number,
+	    valign       => \&valign,
+	},
+	"tr" => { 
+	    valign       => \&valign,
+	},
+    );
+
+    # internal variables
+    my %cfg = (
+	line => 1,
+	file => "",
+	dir  => "",
+	unknown_attr => "warn", # "warn" "remove"
+	base_dir => "",
+    );
+
+    
+
+
+    my @stack = ();
+    my %unterminated_html_tag = map { $_, 1 } @without_end_tag;
+
+    sub set {
+	my %opt = @_;
+	foreach (keys %opt) {
+	    $cfg{$_} = $opt{$_} if exists($cfg{$_});
+	}
+	# append any missing slash to "dir"
+	for (@cfg{qw(dir)}) {
+	    s#/*$#/# unless $_ eq "";
+	}
+    }
+
+
+    sub parse_file {
+	my ($file) = @_;
+	$file =~ m#^((?:.*/)*)#x;
+	set(file => $file, dir => $1);
+	open my $in, "<", $file or die "Cannot open file \"$file\": $?\n";
+	local $/ = undef;
+	parse(<$in>);
+    }
+
+    sub parse {
+	local ($_) = (@_ ? shift : $_);
+	my @output = ();
+	$cfg{line} = 1;
+	my @x;
+	while (m/\G( [^<]+ | <!--.*?--> | <[^>]*> )/gsx) {
+	    local $_ = $1;
+	    $cfg{line} += tr/\n//;
+	    given ($_) {
+		when (/^<!--/) { @x = check_html_comment($_) }
+		when (/^</)    { @x = check_html_tag($_)     }
+		default        { @x = check_html_text($_)    }
+	    }
+	    push @output, @x;
+	}
+	return join("", @output);
+    }
+
+    sub check_html_tag {
+	my @tag = @_ > 1 ? @_ : split_html_tag(@_ ? $_[0] : $_);
+	my $lctag = lc($tag[1]);
+	if ($tag[0] eq "</") {                         # end tag: pop from stack
+	    if (@stack and ${$stack[-1]}[0] eq $lctag) {
+		pop @stack;
+	    } else {
+		my ($tag, $preline, @pretag) = @{$stack[-1]};
+		warn "Unexpected end tag \"", @tag, "\" in $cfg{line} (expected end of \"",@pretag,"\" in $preline.)\n";
+	    }
+	} else {                                       # start tag: push to stack
+	    if (not exists($unterminated_html_tag{$lctag})) {
+		if (@stack and ${$stack[-1]}[0] eq $lctag) {
+		    my ($tag, $preline, @pretag) = @{$stack[-1]};
+		    warn "Unexpected start tag \"", @tag, "\" in $cfg{line} (expected end of \"",@pretag,"\" in $preline.)\n";
+		}		
+		push @stack, [ $lctag, $cfg{line}, @tag ];
+	    }
+	}
+	return wantarray() ? @tag : join("", @tag);
+    }
+    sub valign {
+	local $_ = @_ ? shift : $_;
+	s/^(['"])(.*)\1$/$2/;
+	return $_ if s/^(top|middle|bottom)$/\L$1/i;
+	return undef;
+    }
+    sub meta_http_equiv {
+	local $_ = @_ ? shift : $_;
+	s/^(['"])(.*)\1$/$2/;
+	return $_ if s/^Content-Type$/Content-Type/i;
+	return undef;
+    }
+    sub meta_content {
+	local $_ = @_ ? shift : $_;
+	s/^(['"])(.*)\1$/$2/;
+	return $_ if s#^text/html; charset=utf-8$#text/html; charset=utf-8#i;
+	return undef;
+    }
+    sub string {
+	local $_ = @_ ? shift : $_;
+	s/^(['"])(.*)\1$/$2/;
+	return $_;
+    }
+    sub file {
+	local $_ = @_ ? shift : $_;
+	s/^(['"])(.*)\1$/$2/;
+	return $_ if m/^(http|mailto):/;
+	if (defined($cfg{file})) {
+	    if ($cfg{file} eq "") {
+		warn "Cannot resolve file names\n";
+		$cfg{file} = undef;
+	    } else {
+		if ($_ eq "") {
+		    warn "Empty link in $cfg{line}\n";
+		} else {
+		    my ($link) = m/^([^#?]*)/;
+		    my $dir = ($link =~ m#^/# ? $cfg{base_dir} : $cfg{dir});
+		    warn "Link to non-existing file \"$dir$link\" in $cfg{line}\n"
+			unless $link eq "" or -e "$dir$link";
+		}
+	    }
+	}
+	return $_;
+    }
+    sub number {
+	local $_ = @_ ? shift : $_;
+	s/^(['"])(.*)\1$/$2/;
+	return $_ if m/^\d+$/;
+	return undef;
+    }
+    sub percent {
+	local $_ = @_ ? shift : $_;
+	s/^(['"])(.*)\1$/$2/;
+	return $_ if m/^\d+%$/;
+	return undef;
+    }
+    sub img_align {
+	local $_ = @_ ? shift : $_;
+	s/^(['"])(.*)\1$/$2/;
+	return $_ if s/^(top)$/\L$1/i;
+	return undef;
+    }
+    sub align {
+	local $_ = @_ ? shift : $_;
+	s/^(['"])(.*)\1$/$2/;
+	return $_ if s/^(left|center|right|justify)$/\L$1/i;
+	return undef;
+    }
+    sub noshade {
+	local $_ = @_ ? shift : $_;
+	s/^(['"])(.*)\1$/$2/;
+	return $_ if s/^(noshade)$/\L$1/i;
+	return undef;
+    }    
+    sub form_method {
+	local $_ = @_ ? shift : $_;
+	s/^(['"])(.*)\1$/$2/;
+	return $_ if s/^(get|post)$/\L$1/i;
+	return undef;
+    }
+    sub input_type {
+	local $_ = @_ ? shift : $_;
+	s/^(['"])(.*)\1$/$2/;
+	return $_ if s/^(text|submit)$/\L$1/i;
+	return undef;
+    }
+    sub color {
+	local $_ = @_ ? shift : $_;
+	s/^(['"])(.*)\1$/$2/;
+	return $_ if s/^(#[a-f0-9]{6})$/\L$1/i;
+	return undef;
+    }
+
+    # clean up @tag
+    sub clean_html_tag {
+	my @tag = @_ > 1 ? @_ : split_html_tag(@_ ? $_[0] : $_);
+	my ($first, $prev, $attr) = (lc($tag[1]), "", "");
+	return wantarray() ? @tag : join("", @tag)
+	    if $first =~ m/^!/;
+	$tag[1] = $first;                                       # EDITS: downcases tag
+	foreach my $word (@tag) {
+	    given ($prev) {
+		when ($word =~ /^\s+$/) {                    #
+		    $word = " "                                  # EDITS: squash spaces
+		}
+		when (" ") {                               # after space
+		    $attr = lc($word);
+		    $word  = $attr;                              # EDITS: downcases attr
+		}
+		when ("=") {                               # after "="
+		    if (exists($html{$first}{$attr})) {
+			my $value = $html{$first}{$attr}($word);
+			if (defined($value)) {
+			    $word = "\"$value\"";
+			} else {
+			    warn "Unknown attribute value \"<$first $attr=$word>\" in $cfg{line}\n";
+			}
+		    } else {
+			warn "Unknown attribute \"<$first $attr=$word>\" in $cfg{line}\n";
+		    }
+		}
+	    }
+	    $prev = $word;
+	}
+	# make sure unterminated HTML tags end in " />"
+	if (exists($unterminated_html_tag{$first})) {
+	    $tag[-1] = "/>";
+	    splice(@tag, -1, 1, " ", $tag[-1]) if $tag[-2] !~ /\s$/;
+	}
+	return wantarray() ? @tag : join("", @tag);
+    }
+    
+
+    sub split_html_tag {
+	local $_ = @_ ? shift : $_;
+	my ($start, $cont, $end) = m#^(</?)(.*?)(/?>)\z#s;
+	my @tag = ($start);
+	$_ = $cont;
+	while (m/\G ([^=\s]*) (?: (=) ("[^"]*"|'[^']*'|\S*) )? (\s*) /gsx) {
+	    my @x = grep { defined($_) } ($1, $2, $3, $4);
+	    #$x[2] =~ s/['"](.*)\1/$1/ if @x == 4;
+	    push @tag, @x;
+	}
+	@tag = grep { $_ ne ""   } @tag;    # strip empty elements (artefact of parse)
+	push @tag, $end;
+
+	@tag = clean_html_tag(@tag);
+	return @tag;
+    }
+
+    sub check_html_text {
+	local $_ = @_ ? shift : $_;
+	return $_;
+    }
+
+    sub check_html_comment {
+	local $_ = @_ ? shift : $_;
+	return $_;
+    }
+}
+
+
+HTML::set(base_dir => "/home/zrajm/web/test.zrajm.org");
+
+foreach (@ARGV) {
+    print HTML::parse_file($_);
+}
+
+__END__
