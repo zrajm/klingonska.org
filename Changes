@@ -10,6 +10,11 @@ MILESTONE: NEW SITE ONLINE AT KLINGONSKA.ORG
     o Fix "canon/"
       * Make sure all sources are present in listing
       * Fix all links
+        o DONE [2009-05-29] "canon/1994--sbx-sp1.html" created document
+        o DONE [2009-05-29] "canon/1995--sbx-s7.html" created document
+        o DONE [2009-05-29] "canon/1996--sbx-s19.html" created document
+        o DONE [2009-05-29] "canon/1996--sbx-s25.html" created document
+        o DONE [2009-05-29] "canon/1997--sbx-s31.html" created document
     o Fix "canon/search.cgi"
       * DONE [2009-05-09] tested for '">' input field vulnerability
       * DONE [2009-04-13] fix "changed" date in HTML page header
@@ -21,6 +26,8 @@ MILESTONE: NEW SITE ONLINE AT KLINGONSKA.ORG
     o DONE [2009-04-10] Fix "piqad/play.cgi"
       * DONE [2009-05-09] tested for '">' input field vulnerability
     o DONE [2009-04-07] Fix "canon/download.cgi"
+      * DONE [2009-05-09] now uses "use strict" and "use warnings"
+      * DONE [2009-05-09] fixed '">' input field vulnerability
       * DONE [2009-04-13] "minus" -> "minus-minus" & "&shy;" -> "minus"
       * DONE [2009-04-13] Remove old partial transcripts, use following:
         o DONE [2009-04-13] "The Klingon Dictionary"
@@ -82,6 +89,17 @@ THEREAFTER
 
 
 * "canon/"
+  o add movie transcripts & link to them from "canon/"
+  o "canon/*--sbx-*.html" create thumbnail pictures
+  o "canon/1994--sbx-sp1.html" add card text
+  o "canon/1995--sbx-s7.html" add card text
+  o "canon/1996--sbx-s19.html" add card text
+  o "canon/1996--sbx-s25.html" add card text
+  o "canon/1997--sbx-s31.html" add card text
+  o "canon/pic/1997--sbx-s32a.jpg" add image
+  o "canon/pic/1997--sbx-s32b.jpg" add image
+  o "canon/pic/1997--sbx-s33a.jpg" add image
+  o "canon/pic/1997--sbx-s33b.jpg" add image
   o "canon/search.cgi"
     * Search for "Why was it necessary" and "1992-06" has same text displayed multiple times
   o scriptify generation of list of sources
