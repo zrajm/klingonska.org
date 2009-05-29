@@ -4,6 +4,28 @@ use strict;
 use warnings;
 use feature "switch";
 
+=head1 FIXME
+
+=over 4
+
+=item o
+
+Only defined HTML/XHTML tags should be allowed. (Right now -- as long as the tag
+does not have any attribute -- it is allowed no matter what.)
+
+=item o
+
+Support for required attributes (e.g. the "summary" for tables in XHTL).
+
+=item o
+
+Support for required tags (e.g. a html page must contain a "body" tag, unless
+it's a frameset).
+
+=back
+
+=cut
+
 
 {
     package HTML;
@@ -11,6 +33,10 @@ use feature "switch";
     # HTML tags which does not end in </tag>
     my @without_end_tag = qw(!doctype br hr img input meta);
     my %html = (
+	"?xml" => {
+	    version      => \&string,
+	    encoding     => \&string,
+	},
 	a => {
 	    href         => \&file,
 	    name         => \&string,
@@ -41,6 +67,11 @@ use feature "switch";
 	    size         => \&number,
 	    width        => \&percent,
 	},
+	html => {
+	    xmlns        => \&html_xmlns,
+	    "xml:lang"   => \&html_lang,
+	    lang         => \&html_lang,
+	},
 	img => {
 	    align        => \&img_align,
 	    alt          => \&string,
@@ -69,6 +100,7 @@ use feature "switch";
 	    border       => \&number,
 	    cellspacing  => \&number,
 	    cellpadding  => \&number,
+	    summary      => \&string,
 	    width        => \&percent,
 	},
 	th => { 
@@ -204,6 +236,18 @@ use feature "switch";
 	    }
 	}
 	return $_;
+    }
+    sub html_xmlns {
+	local $_ = @_ ? shift : $_;
+	s/^(['"])(.*)\1$/$2/;
+	return $_ if m#^http://www.w3.org/1999/xhtml$#;
+	return undef;
+    }
+    sub html_lang {
+	local $_ = @_ ? shift : $_;
+	s/^(['"])(.*)\1$/$2/;
+	return $_ if s/^(en)$/\L$1/;
+	return undef;
     }
     sub number {
 	local $_ = @_ ? shift : $_;
