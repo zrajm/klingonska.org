@@ -22,6 +22,12 @@
 # corrected to "category".
 #
 # [2009-04-13] adapted script for hcoop
+#
+# [2009-05-09] removed '">' exploit opportunity, added "use warnings" and "use
+# strict"
+#
+# TODO
+#   o test answer using "Digest::SHA1::sha1_base64(USER_INPUTTED);"
 
 ####################################################################
 # Variables used:
@@ -31,65 +37,116 @@
 ####################################################################
 
 use utf8;
+use warnings;
+use strict;
+use Digest::SHA1;
 use CGI qw(:standard);
 binmode(STDIN,  ":encoding(utf8)");
 binmode(STDOUT, ":encoding(utf8)");
 
-$file     = param('file');                           # get from HTML form
-$ques     = param('question');                       #      - || -
-$answer   = param('answer');                         #      - || -
-$PLACE    = "http://" . $ENV{"HTTP_HOST"} . $ENV{"REQUEST_URI"}; # script url
-$PLACE    =~ s/(.*)[?].*/\1/;                        # remove any 'get' args
+my $file     = param('file')     || "";                 # get from HTML form
+my $ques     = param('question');                       #      - || -
+my $answer   = param('answer')   || "";                 #      - || -
+my $PLACE    = "http://" . 
+    (exists($ENV{HTTP_HOST})   ? $ENV{HTTP_HOST} : "localhost") .
+    (exists($ENV{REQUEST_URI}) ? $ENV{REQUEST_URI}:  ""); # script url
+$PLACE    =~ s/(.*)[?].*/$1/;                        # remove any 'get' args
 
-$PREV     = param('prev');
-if ($PREV eq '') {
-    $PREV = $ENV{"HTTP_REFERER"};                    # set PREVious url
+my $PREV     = param('prev');
+if (not defined($PREV)) {
+    $PREV =                                          # set PREVious url
+	exists($ENV{"HTTP_REFERER"}) ? $ENV{"HTTP_REFERER"} : "";
 #    $PREV =~ s/^http:\/\/.+?\/(.*)/\1/g;             # remove "http://.../"
 }
 
 # table of answers
-@answer =     qw( similar sentence  Occasionally earthworm    translation );
-@page   =     qw( 41      41        78           19           26          );
-@para   =     qw( 2       3         2            4            2           );
-@line   =     qw( 1       1         3            2            1           );
-@word   =     qw( 4       3         6            4            4           );
+my @answer =  qw( similar sentence  Occasionally earthworm    translation );
+my @page   =  qw( 41      41        78           19           26          );
+my @para   =  qw( 2       3         2            4            2           );
+my @line   =  qw( 1       1         3            2            1           );
+my @word   =  qw( 4       3         6            4            4           );
+my @sha1   =  qw( r2LzAhBR+8lMo2NNL7IPJ971WFM
+                          oX27mms/+Gmn/yjVf2HiEskNfbc
+                                    zXkqbFloHg5QJrx2TX5prFTiad4
+                                                 7Mufq7jLPox7ipKozDGZFj3l0Nk
+                                                              79f9fylUcTwe5/rPl1D+U+jPWJw);
 push @answer, qw( express indicate  monosyllabic construction combinations);
 push @page,   qw( 36      35        32           31           30          );
 push @para,   qw( 2       1         1            2            2           );
 push @line,   qw( 1       1         1            1            1           );
 push @word,   qw( 5       2         5            4            2           );
+push @sha1,   qw( 88Yt5FWWL72s3fOEPe5ZFEd2gsE
+                          9+2vMoLa+2CcfUIbeGSG8Sc3HnY
+                                    L7aOPrqJcyiQ8mLRma+J9giax2I
+                                                 U1rmeP0zyqIvM1ZnRHBnJK16p0w
+                                                              dxXPMeNGyfESb8ItThPxx1dywo0);
 push @answer, qw( ghuS    singular  conversation Inherently   accurately  );
 push @page,   qw( 37      39        26           24           24          );
 push @para,   qw( 1       1         4            3            6           );
 push @line,   qw( 1       1         3            1            2           );
 push @word,   qw( 3       2         2            1            8           );
+push @sha1,   qw( dsiifTcSUJdVYieDwrkeXnq3SJM
+                          CsqZW5Ot3uk0jc75AWwPliTfrjo
+                                    eLb5RENOrBjhRiKVLhLjJVGxmXc
+                                                 ng++9cFXKmrgqMueRS2Bxs3QZqY
+                                                              ZZ5TdXwzlMuuW4kvY3GZ2gwdJ50);
 push @answer, qw( tenses  happening superlative  convenience  category    );
 push @page,   qw( 40      27        71           63           58          );
 push @para,   qw( 2       4         2            4            2           );
 push @line,   qw( 1       1         1            2            1           );
 push @word,   qw( 5       7         4            8            5           );
+push @sha1,   qw( TeSTY+sWi/F2HhY+UIyZkwV02sg% 
+                          ykY6vM2Ah9S6KvbSrosJ5ACdDWo
+                                    5+hkWGBpf9aqtWIaSkVsiHLJ7lo
+                                                 8s3nuioYUTDqJwVpgyqD8LN4UNg
+                                                              XMv5ycX8G8NN+COKlwlJaPOPUWU );
 
+
+
+# table of sources
+my @source_abbr = qw/tkd tkw kgt ck pk bop sarek ftg/; # listed in order
+my %source_label = (
+    tkd   => "1992 - The Klingon Dictionary (2nd ed.)",
+    tkw   => "1996 - The Klingon Way",
+    kgt   => "1997 - Klingon for the Galactic Traveler",
+    ck    => "1992 - Conversational Klingon (Transcript)",
+    pk    => "1993 - Power Klingon (Transcript)",
+    bop   => "1998 - Bird of Prey Poster",
+    sarek => "1995 - Sarek (Partial Transcript)",
+    ftg   => "1997 - Federation Travel Guide (Partial Transcript)",
+);
+my %source_file = (
+    tkd   => "1992-01-01--tkd.txt",
+    tkw   => "1996-05-01--tkw.txt",
+    kgt   => "1997-11-01--kgt.txt",
+    ck    => "1992-10-01--ck.txt",
+    pk    => "1993-10-01--pk.txt",
+    bop   => "1998-11-01--bop.txt",
+    sarek => "1995-02-01--sarek.txt",
+    ftg   => "1997-07-01--ftg.txt",
+);
 
 # table of files
 my @filename = (
-    [ tkd   => "major/1992-01-01-tkd.txt"   => "The Klingon Dictionary" ],
-    [ tkw   => "major/1996-05-01-tkw.txt"   => "The Klingon Way" ],
-    [ kgt   => "major/1997-11-01-kgt.txt"   => "Klingon for the Galactic Traveler" ],
+    [ tkd   => "1992-01-01--tkd.txt"   => "The Klingon Dictionary" ],
+    [ tkw   => "1996-05-01--tkw.txt"   => "The Klingon Way" ],
+    [ kgt   => "1997-11-01--kgt.txt"   => "Klingon for the Galactic Traveler" ],
     [ ck    => "major/1992-10-01-ck.txt"    => "Conversational Klingon" ],
     [ pk    => "major/1993-10-01-pk.txt"    => "Power Klingon" ],
     [ bop   => "major/1998-11-01-bop.txt"   => "Bird of Prey Poster" ],
     [ sarek => "major/1995-02-01-sarek.txt" => "Sarek (Partial Transcript)" ],
     [ ftg   => "major/1997-07-01-ftg.txt"   => "Federation Travel Guide (Partial Transcript)" ],
-    [ sbx   => "major/tSBX.txt"             => "Skybox Trading Cards" ],
 );
 
 
 print header(-charset=>'utf-8');                 # Content-type header
 page_header();                                   # HTML page header
-if ($file ne '') {                               # set filename
-    my ($x) = grep { $$_[0] eq $file } @filename;
-    $infile = $$x[1];
+
+my $infile = "";
+if (defined($file) and exists($source_file{$file})) {
+    $infile = $source_file{$file};
 }
+
 
 
 ####################################################################
@@ -109,22 +166,27 @@ if ($file ne '') {                               # set filename
 ## end of debug code
 ####################################################################
 
-if ($answer eq $answer[$ques] && $answer ne '') {    # correct answer
-    print "<center><form action=$PLACE method=\"post\">\n";        # keep data as hidden
-    print "<input type=hidden name=\"prev\" value=\"$PREV\">\n";
-    print "<input type=hidden name=\"question\" value=$ques>\n";
-    print "<input type=hidden name=\"answer\" value=\"$answer\">\n\n";
-    print "<h3>Select a document:</h3>\n\n";
-    file_selector($file);                            # FORM file-selector
-    print "<input type=submit value=\"Show\">\n";    # Submit-knapp
-    print "</form></center>\n\n";
+if (defined($ques) and $answer eq $answer[$ques] && $answer ne '') {    # correct answer
+    print
+	"<center>",
+	start_form({-method=>"post", -action=>$PLACE}),
+	hidden(prev     => $PREV),
+	hidden(question => $ques),
+	hidden(answer   => $answer),
+	h3("Select a document:</h3>"),
+	popup_menu("file", [ @source_abbr ], "tkd", \%source_label),
+	" ",
+	submit("", "Show"),
+        end_form(),
+	"</center>\n\n";
     if ($infile ne '') {                             # insert file
 	include_file($infile);
     } else {
 	print "<p align=\"center\">Please choose which transcript to view above.</p>\n";
     }
 } else {
-    if ($ques eq '' || $ques >= scalar(@answer)) {   # no valid question?
+    my $subtitle = "";
+    if (!defined($ques) or $ques eq '' or $ques >= scalar(@answer)) {   # no valid question?
 	srand;                                       # ..seed random generator
 	$ques = int(rand(scalar(@answer)));          # ..pick question
 	$subtitle = "Authourization request.";
@@ -173,14 +235,14 @@ sub page_footer {                                    # HTML Footer
   <tr>
     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td align=center>
-      <b>&copy;1998-2001, Copyright 
+      <b>&copy;1998-2009, Copyright 
       <a href="mailto:zrajm\@klingonska.org">Zrajm C Akfohg</a>,
       <a href="http://www.klingonska.org/">Klingonska Akademien</a>,
       Uppsala.</b>
     </td>
-    <td>         </td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
-  <tr><td valign=top colspan=3><hr noshade></td></tr>
+  <tr><td valign="top" colspan="3"><hr noshade></td></tr>
 </table>
 </center>
 
@@ -216,18 +278,6 @@ EOF
 }
 
 
-sub file_selector {
-    my ($selected_value) = @_;
-    print '<select name="file">',"\n";
-    foreach (@filename) {
-	my ($value, $file, $description) = @{$_};
-	my $selected = ($selected_value eq $value) ? " SELECTED" : "";
-	print "<option value=\"$value\"$selected>$description</option>\n";
-    }
-    print "</select>";
-}
-
-
 sub include_file {
     my ($file) = @_;
     open(my $in, "<:encoding(utf8)", "$infile") or do {
@@ -250,7 +300,7 @@ from your browser window this most likely won\'t be a problem.) -->
 <pre><!-- The text begins on the row below this. -->
 EOF
     do {                                         # loop thru file
-	read($in, $row, 1024);                   # read row
+	read($in, my $row, 1024);                # read row
 	$row =~ s/</&lt;/g;                      # change < to &lt;
 	$row =~ s/>/&gt;/g;                      # change < to &lt;
 	print $row;                              # output row
@@ -263,7 +313,7 @@ sub inc_counter {
     # Load inc and save counter
     open(FILE,"<count.$infile");
     flock (FILE, 2);
-    $count = <FILE>;
+    my $count = <FILE>;
     flock (FILE, 8);
     close(FILE);
     $count++;
