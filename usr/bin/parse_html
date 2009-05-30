@@ -22,6 +22,20 @@ Support for required attributes (e.g. the "summary" for tables in XHTL).
 Support for required tags (e.g. a html page must contain a "body" tag, unless
 it's a frameset).
 
+=item o
+
+Removal of unknown attributes, e.g. <body yadda=no> would cause "yadda=no" to be
+removed in output.
+
+=item o
+
+Silent mode, which only checks but produces no output.
+
+=item o
+
+Mode which preserves original quoting and upper/lower case, so as to produce
+output easily diff:able with original.
+
 =back
 
 =cut
@@ -29,6 +43,15 @@ it's a frameset).
 
 {
     package HTML;
+
+    # internal variables
+    my %cfg = (
+	line     => 1,
+	file     => "",
+	dir      => "",
+	base_dir => "",
+	exitcode => 0,
+    );
 
     # HTML tags which does not end in </tag>
     my @without_end_tag = qw(!doctype br hr img input meta);
@@ -118,20 +141,11 @@ it's a frameset).
 	},
     );
 
-    # internal variables
-    my %cfg = (
-	line => 1,
-	file => "",
-	dir  => "",
-	unknown_attr => "warn", # "warn" "remove"
-	base_dir => "",
-    );
-
-    
     $SIG{__WARN__} = sub {
 	my $file = defined($cfg{file}) ? $cfg{file} : "";
 	$file .= ": " unless $file eq "";
 	warn $file.$_[0];
+	$cfg{exitcode} = 1,
     };
 
 
@@ -369,6 +383,10 @@ it's a frameset).
 	local $_ = @_ ? shift : $_;
 	return $_;
     }
+
+    sub exitcode {
+	return $cfg{exitcode};
+    }
 }
 
 
@@ -377,5 +395,7 @@ HTML::set(base_dir => "/home/zrajm/web/test.zrajm.org");
 foreach (@ARGV) {
     print HTML::parse_file($_);
 }
+
+exit HTML::exitcode();
 
 __END__
