@@ -16,7 +16,7 @@ rsync_options =       \
 # returns nothing, which causes the rsync to proceed. (Because no dependancy =
 # always run.) 
 rsync_dep = $(shell [ -e $(rsync) ] && \
-    find -type f -newer $(rsync) ! -name .rsync )
+    find -name .git -prune -o -type f -newer $(rsync) ! -name .rsync )
 
 
 all:
