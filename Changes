@@ -119,9 +119,16 @@ THEREAFTER
         "Snick Snack om språk: Ett eget språk" (part 1 of 6)
 
         Vilket var det första ord du sa? Antagligen mamma. Och när man väl har
-        lärt sig att prata kan man ju börja hitta på hemliga språk . Björn kan
+        lärt sig att prata kan man ju börja hitta på hemliga språk. Björn kan
         prata Klingonska och drömmer om att hitta på ett alldeles eget språk.
         Del 1 av 6.
+
+
+* "piqad/play.cgi"
+  o fixed missparsing of {nenghep}
+    * notify Johan Krook <j.f.krook@tudelft.nl>
+  o output in UTF-8 -- see support file "TODO/piqad-utf8.txt"
+    * notify Edward Cherlin <echerlin@gmail.com>
 
 
 * "canon/"
