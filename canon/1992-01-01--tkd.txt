@@ -38,6 +38,7 @@
   [2006-07-25] added day to release date (info from Amazon)
   [2006-08-26] added correction for {qIbHes} on page 102 (thanks Stevo!)
   [2006-08-28] added two missing (English) words on page 65 (thanks Stevo!)
+  [2009-08-14] faulty hyphen in heading 3.4 fixed to en-dash
 
   Style: {}=bold, <>=italics, corrections, paginated, hidden
 
@@ -1080,7 +1081,7 @@ exactly the same fashion.
       {-vam}    (4)     <this>
 
 
-3.4. The noun-noun construction
+3.4. The noun--noun construction
 
 Some combinations of two (or more) nouns in a row are so
 common as to have become everyday words. These are the
