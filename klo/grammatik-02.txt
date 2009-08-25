@@ -1,0 +1,21 @@
+title: Klingonsk ordbok
+author: zrajm
+year: 1998-2000
+lang: sv
+prev: grammatik-01
+next: grammatik-03
+
+2. Grammatisk skiss -- Introduktion [[**]]
+===================================
+
+I en kortfattad guide av det har slaget är det inte möjligt att beskriva
+klingonsk grammatik fullständigt. Det som följer är endast ett utkast eller en
+skiss av den klingonska grammatiken. Trots att många detaljer har utelämmnats,
+så gör utkastet det möjligt för den studerar klingonska att komma underfund med
+vad en klingon säger och svara på ett begripligt, om än något grovhugget, sätt.
+De flesta klingoner kommer aldrig att märka skillnaden.
+
+Det finns tre grundläggande ordklasser i klingonska: _substantiv, verb_ och
+_allting annat._
+
+[[eof]]

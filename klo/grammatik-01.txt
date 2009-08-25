@@ -1,0 +1,136 @@
+title: Klingonsk ordbok
+author: zrajm
+year: 1998-2000
+lang: sv
+prev: grammatik-00
+next: grammatik-02
+
+
+1. Klingonskans ljud [[**]]
+====================
+
+Det är svårt att exakt beskriva det klingonska språkets ljud utan att använda
+komplex fonologisk och anatomisk terminologi. Det som här följer, därför, är
+tänkt bara som en guide till uttalet. Det bästa sättet att lära sig uttalet utan
+spår av jordisk eller annan brytning är att bli vän med en grupp klingoner och
+sedan tillbringa mycket tid med att umgås med dem. Väldigt få icke-klingoner
+talar klingonska utan bryting.
+
+Systemet som används för att skriva klingonska i den här ordboken
+har utvecklats så att de som redan kan engelska ska få ett minimala
+svårigheter att ungefärligen kunna uttala klingonska ord och meningar.
+
+[[Som Marc Okrand själv säger ovan undviks fonologisk teminologi helt och hållet
+i beskrivningen av klingonskans ljud. Då jag finner detta onödigt förlamande,
+har jag här valt att inkludera dessa beskrivingar, såsom jag förstått dem vara
+efter diskussion med lingvister och klingonintresserade medlemmar av [Klingonska
+språkinstitutet][KLI]. Särskilt vill jag i sammanhanget nämna Nick Nicholas, som
+kommit med många värdefulla synpunkter. Om termerna känns tillkrånglade eller
+obekanta, kan du lungt ignorera dem, och ändå ha behållning av texten.]]
+
+[KLI]: http://www.kli.org
+
+
+1.1. Konsonanter [[*]]
+----------------
+
+{b} [[Tonande bilabial klusil.]] Som i engelskans _bronchitis_ eller _gazebo_.
+En del klingoner uttalar detta ljud som om det vore ett {m} och ett {b} uttalat
+nästan samtidigt. Engelsktalande kan närma sig detta ljud genom att säga
+_imbalance_ utan det inledande _i_-ljudet. Ett litet fåtal klingoner uttalar {b}
+som om det vore {m}.
+
+{ch} [[Tonlös palato-alveolär affrikata.]] Som i engelskans _chew_ eller
+_artichoke_.
+
+{D} [[Tonande retroflex klusil.]] Det här ljudet är nästan som engelskans _d_
+som i _dream_ eller _android_, men inte riktigt. Engelskans _d_ görs genom att
+tungspetsen nuddar den del av gommen som är precis bakom överkäkens tänder.
+Klingonskans {D} kan närmast uppnås av engelsktalande genom att nudda med
+tungspetsen vid gommen vid en punkt mitt emellan tänderna och gomseglet (eller
+mjuka gommen), den del av gommen som är ganska mjuk. [[Detta är ett ljud som i
+svenskan stavas _rd_ och återfinns i ord som _värd_, _mord_ etc.]] Som med
+klingonska {b}, uttalar en del talare {D} mer som _nd_, och en distinkt
+minoritet det som om det vore {n} -- men, naturligtvis, med tungan i samma
+position som för {D}.
+
+{gh} [[Tonande velar frikativa.]] Det här liknar ingenting i svenskan. Det kan
+uttalat genom att placera tungan i samma position som du skulle för att säga _g_
+som i _glufsa_, men slappna av något i tungan och humma. Detta är är samma sak
+som klingonskans {H} (se nedan), fast stämbanden vibrerar samtidigt.
+
+{H} [[Tonlös velar frikativa.]] Det här ljudet liknar inte heller något i
+svenskan, utan uttalas som _ch_ i namnet på den tyska kopositören _Bach_ eller
+den jiddiska skålen _l'chaim_, eller _j_et i den mexicanska staden _Tijuana_ i
+_Baja California_. Det görs på samma sätt som klingonska {gh}, men artikuleras
+med ett väldigt grovt, starkt raspande. Till skillnad från klingonska {gh},
+vibrerar stämbanden inte när man säger klingonska {H}.
+
+{j} [[Tonande palato-alveolär frikativa.]] Som i engelskans _junk_, med ett
+inledande _d_-ljud; aldrig någonsin som i svenskans _ljus_.
+
+{l} [[Tonande alveolär lateral approximant.]] Som i svenskans _löpa_ eller
+_alkemi_.
+
+{m} [[Tonande bilabial nasal.]] Som i svenskans _muddra_ eller _pneumatisk_. De
+fåtalet klingoner som uttalar {b} som {m} skulle säga klingonskans {baH} _fire
+(a torpedo)_ och {maH} _vi_ på samma sätt, och bli tvugna att memorera vilket
+ord som stavas på vilket sätt.
+
+{n} [[Tonande alveolär nasal.]] Som i svenskans _nektarin_ eller _tunna_. De
+klingoner som uttalar {D} mera som {n} kan utan svårighet artikulera och höra
+skillnad mellan de två ljuden. Även ett {D} som låter som {n} uttalas med tungan
+i samma position i klingonskans {D}, inte det vanliga svenska _d_. Klingonska
+{n} produceras med tungan i samma position som det vanliga svenska _d_.
+
+{ng} [[Tonande velar nasal.]] Som i svenskans _kung_; aldrig som i _angrepp_
+eller _angelägen_. Bokstaven _g_ uttalas aldrig som ett eget ljud. Detta ljud
+förekommer aldrig först i ett ord i svenskan, men däremot i ett flertal ord på
+klingonska. Svensktalande kan öva på på att säga detta ljud genom att säga
+_finger_, och sen säga det ingen utan det inledande _fi-_.
+
+{p} [[Aspirerad tonlös bilabial klusil.]] Som i _parallax_ eller _förolämpning_
+[[¿bra exempel?]]
+
+{q} [[Aspirerad tonlös uvular klusil.]] FIXME
+
+{Q} [[Tonlös uvular affrikata.]] FIXME
+
+{r} [[Tonande apiko-alveolär vibrant.]] FIXME
+
+{S} [[Tonlös retroflex frikativa.]] FIXME
+
+{t} [[Aspirerad tonlös alveolär eller dental klusil.]] FIXME
+
+{tlh} [[Alveolär lateral affrikata.]] FIXME
+
+{v} [[Tonande labiodental affrikata.]] FIXME
+
+{w} [[Tonande rundad labiovelar approximant.]] FIXME
+
+{y} [[Tonande palatal central approximant.]] FIXME
+
+{'} [[Laryngal klusil.]] FIXME
+
+
+1.2. Vokaler
+------------
+
+{a} [[Öppen bakre orundad vokal.]] FIXME
+
+{e} [[Halvöppen främre orundad vokal.]] FIXME
+
+{I} [[Slapp sluten främre orundad vokal.]] FIXME
+
+{o} [[Halvsluten bakre rundad vokal.]] FIXME
+
+{u} [[Sluten bakre rundad vokal.]] FIXME
+
+
+1.3. Betoning
+-------------
+
+FIXME -- Oöversatt delkapitel
+
+
+[[eof]]

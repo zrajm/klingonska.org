@@ -1,0 +1,205 @@
+title: Klingonsk ordbok
+author: wallius, zrajm
+year: 1998-2009
+lang: sv
+prev: grammatik-05
+next: grammatik-07
+
+
+6. Syntax [[**]]
+=========
+
+Precis som på alla språk varierar klingonskans meningar ifrån de
+väldigt enkla och okomplicerade till de väldigt invecklade och
+avancerade. Det som följer här är endast det grundläggande i det
+klingonska språkets meningsstruktur. Informationen är avsedd att ge
+den som studerar klingonska en god grund och tillåta en korrekt, om än
+inte vältalig, konversation, under tiden denne lär sig mer om språket.
+
+
+6.1. Enkla meningar [[**]]
+-------------------
+
+Den grundläggande strukturen hos en klingonsk mening är:
+
+> OBJEKT--VERB--SUBJEKT
+
+Detta är omvänd ordning gentemot den svenska, så försiktighet bör iaktas för
+att undvika att tolka meningar baklänges. Subjektet är den person som eller
+tingest som utför handlingen som beskrivs av verbet; objektet är mottagaren av
+den handlingen.
+
+Ordföljdens vikt kan iaktas genom att jämföra följande två meningar.
+
+> |---------------------------------------|
+> | {puq legh yaS} _Officern ser barnet._ |
+> | {yaS legh puq} _Barnet ser officern._ |
+
+I båda meningarna är orden identiska: {puq} _barn_, {legh} _han/hon
+ser honom/henne_, {yaS} _officer_. Det enda sättet att avgöra vem det är
+som ser vem är genom ordföljden i meningen. Verbet {legh} föregås
+av prefixet 0 _han/hon--honom/henne_.
+
+När subjektet och/eller objektet är första eller andra person, måste
+verbets prefix överensstämma.
+
+> |------------------|---------------------|
+> | {puq vIlegh jIH} _Jag ser barnet._    ||
+> | <> | ({vIlegh} _jag ser honom/henne_)  |
+> | {jIH mulegh puq} _Barnet ser mig._    ||
+> | <> | ({mulegh} _han/hon ser mig_)      |
+
+Faktum är att första och andra person pronomina sällan används för meningar
+av det här slaget (även om de kan, som ovan, användas för betoning) de följande
+meningarna illustrerar mer vanligt förekommande meningstyper.
+
+> |--------------------------------|
+> | {puq vIlegh} _Jag ser barnet._ |
+> | {mulegh puq} _Barnet ser mig._ |
+
+Imperativa meningar (kommandon) följer samma regler.
+
+> |-----------------|---------------------------------------------------------------|
+> | {So'wI' yIchu'} _Aktivera maskering!_                                          ||
+> | <> | ({So'wI'} _maskering, maskeringsannordning_, {yIchu'} _aktivera den/det!_) |
+> | {DoS yIbuS} _Koncentrera dig på målet!_                                        ||
+> | <> | ({DoS} _mål(tavla)_, {yIbuS} _koncentrera dig på den/det!_)                |
+> | {yaSpu' tIHoH} _Döda officererna!_                                             ||
+> | <> | ({yaSpu'} _officerer_, {tIHoH} _döda dem!_)                                |
+
+Ett substantiv som idikerar något annat är subjekt eller objekt kommer först,
+före objektets substantiv. Dessa substantiv slutar vanligen med ett Typ 5
+substantivsuffix (sektion 3.3.5).
+
+> |----|---------------------------------------------------------------------------|
+> | {pa'Daq yaS vIleghpu'} _Jag såg officern i rummet._                           ||
+> | <> | ({pa'Daq} _i rummet_, {yaS} _officer_, {vIleghpu'} _jag såg honom/henne_) |
+
+Andra exempel på den här konstruktionen ges i sektion 3.3.5.
+
+
+6.2. Komplexa meningar [[**]]
+----------------------
+
+Här illustreras några vanliga varianter av de mer komplicerade meningarna.
+
+
+6.2.1. Sammansatta meningar [[*]]
+---------------------------
+
+Två meningar kan fogas samman till en sammansatt mening. Bägge av dessa meningar
+måste var för sig utgöra fullständiga meningar. När de kombineras följer den ena
+helt enkelt på den andra med en konjunktion där emellan (se sektion 5.3).
+
+FIXME -- Exempel
+
+6.2.2. Bisatser
+---------------
+
+FIXME -- Oöversatt delkapitel
+
+
+6.2.3. Relativa bisatser [[**]]
+------------------------
+
+Relativa bisatser översätts till svenska med en fraser som börjar
+med _vilken_, _vilka_, _där_ och, i de flesta fall, _som_.
+Precis som adjektiv beskriver de substantiv: _hunden som springer_,
+_katten som sover_, _barnet som leker_, _restaurangen där vi
+åt_. Substantivet som modifieras av en relativ bisats kallas korrelat.
+
+På klingonska slutar verbet i den relativa bisatsen med ett verbsuffix
+Typ 9, {-bogh}, viken här, för bekvämlighets skull, kommer att översättas
+med _som_.
+
+Hurvida korrelatet följer eller föregår den relativa bisatsen beror på
+dess förhållande till satsen. Jämför följande:
+
+> |-------------------------------------------------|
+> | {qIppu'bogh yaS} _officer som slog honom/henne_ |
+> | {yaS qIppu'bogh} _officer som han/hon slog_     |
+
+I båda fraserna är den relativa bisatsen {qIppu'bogh} ({qIp} _slå_,
+{-pu'} _perfektiv_, {-bogh} _som_), och korrelat är {yaS}
+_officer_. I den första frasen är {yaS} subjekt till verbet {qIp} (det
+är officern som slår), så det följer {qIppu'bogh}, precis som alla subject
+följer verbet. I den andra frasen är {yaS} objekt (officern blir slagen),
+så den föregår {qIppu'bogh}, precis som alla object föregår verbet.
+
+Hela konstruktionen (den relativa bisatsen plus dess korrelat), som en
+enhet, används i en mening som ett substantiv. Således följer eller föregår
+denna konstruktion verbet i meningen, beroende på om det är subjekt eller
+objekt.
+
+> {qIppu'bogh yaS vIlegh} _Jag ser officern som slog honom/henne._
+
+Hela den relativa konstruktionen {qIppu'bogh yaS} _officer som slog
+honom/henne_ är objektet till verbet {vIlegh} _Jag ser honom/henne_, så den
+föregår verbet.
+
+> {mulegh qIppu'bogh yaS} _officern som slog honom/henne ser mig._
+
+Här är {qIppu'bogh yaS} subjekt till verbet {mulegh} _han/hon ser
+mig_, så därför kommer det efter verbet.
+
+Det här mönstret följs även när korrelatet är objekt till den relativa
+bisatsens verb, som i {yaS qIppu'bogh} _officer som han/hon slog_.
+
+> |------------------------------------------------------------------|
+> | {qIppu'bogh yaS vIlegh} _Jag ser officern som slog honom/henne._ |
+> | {mulegh yaS qIppu'bogh} _Officern som han/hon slog ser mig._     |
+
+I den svenska översättningen kan de relativa pronomina (_som_, _vilken_,
+etc.) ibland utelämnas: _officern han/hon slog ser mig_. På klingonska,
+däremot, är {-bogh} obligatoriskt.
+
+
+6.2.4. Kausala bisatser
+-----------------------
+
+FIXME -- Oöversatt delkapitel
+
+
+6.2.5. Meningar som objekt
+--------------------------
+
+FIXME -- Oöversatt delkapitel
+
+
+6.3. "Att vara"
+---------------
+
+FIXME -- Oöversatt delkapitel
+
+
+6.4. Frågor
+-----------
+
+FIXME -- Oöversatt delkapitel
+
+
+6.5. Kommandon
+--------------
+
+FIXME -- Oöversatt delkapitel
+
+
+6.6. Komparativ och superlativ
+------------------------------
+
+FIXME -- Oöversatt delkapitel
+
+
+6.7. Placering av adverbial [TKDa]
+----------------------------------
+
+FIXME -- Oöversatt delkapitel
+
+
+6.8. Indirekta objekt [TKDa]
+----------------------------
+
+FIXME -- Oöversatt delkapitel
+
+
+[[eof]]

@@ -1,0 +1,129 @@
+title: Klingonsk ordbok
+author: zrajm
+year: 1998-2009
+lang: sv
+
+
+Innehåll
+=========
+
+&lowast;&lowast; = helt översatt; &lowast; = delvis översatt; i övrigt endast rubriker översatta.
+
+<!--
+<DL><DT><A HREF="forord.html">Förord till den svenska översättningen</A> &dagger;&dagger;[1999-04-17]
+<DT><A HREF="00.html">Inledning</A> &dagger;&dagger;[1999-04-17]
+<DT><A HREF="01.html">1. Uttal</A> &dagger;&dagger;
+	<DD><A HREF="01.html#1.1">1.1. Konsonanter</A> &dagger;
+	<DD><A HREF="01.html#1.2">1.2. Vokaler</A>
+	<DD><A HREF="01.html#1.3">1.3. Betoning</A>
+<DT><A HREF="02.html">2. Grammatisk skiss -- introduktion</A> &dagger;&dagger;
+<DT><A HREF="03.html">3. Substantiv</a> &dagger;&dagger;
+	<DD><A HREF="03.html#3.1">3.1. Enkla substantiv</a> &dagger;&dagger;
+	<DD><A HREF="03.html#3.2">3.2. Komplexa substantiv</a> &dagger;&dagger;
+		<DL>
+		<DD><A HREF="03.html#3.2.1">3.2.1. Sammansatta substantiv</a> &dagger;&dagger;
+		<DD><A HREF="03.html#3.2.2">3.2.2. Verb plus {-wI'}</a> &dagger;&dagger;
+		<DD><A HREF="03.html#3.2.3">3.2.3. Andra komplexa substantiv</a> &dagger;&dagger;
+		</DL>
+	<DD><A HREF="03.html#3.3">3.3. Substantivsuffix</a> &dagger;&dagger;
+		<DL>
+		<DD><A HREF="03.html#3.3.1">3.3.1. Typ 1: Augmentativ/diminutiv, affektion</a> &dagger;&dagger;
+		<DD><A HREF="03.html#3.3.2">3.3.2. Typ 2: Numerus</a> &dagger;
+		<DD><A HREF="03.html#3.3.3">3.3.3. Typ 3: Kvalifikation</a>
+		<DD><A HREF="03.html#3.3.4">3.3.4. Typ 4: Possesiv/demonstrativ</a>
+		<DD><A HREF="03.html#3.3.5">3.3.5. Typ 5: Syntaktiska markörer</A>
+		<DD><A HREF="03.html#3.3.6">3.3.6. Inbördes placering av suffix</a>
+		</DL>
+	<DD><A HREF="03.html#3.4">3.4. Substantiv-substantiv konstruktionen</a>
+<DT><A HREF="04.html">4. Verb</A> &dagger;&dagger;[2000-02-20]
+	<DD><A HREF="04.html#4.1">4.1. Pronominella prefix</A> &dagger;&dagger;[2000-02-20]
+		<DL>
+		<DD><A HREF="04.html#4.1.1">4.1.1. Grundläggande prefix</A> &dagger;&dagger;[2000-02-20]
+		<DD><A HREF="04.html#4.1.2">4.1.2. Imperativprefix</A> &dagger;&dagger;[2000-02-20]
+		<DD><A HREF="04.html#4.1.3">4.1.3. Notationskonventioner</A> &dagger;&dagger;[2000-02-20]
+		</DL>
+	<DD><A HREF="04.html#4.2">4.2. Verbsuffix</A> &dagger;&dagger;[2000-02-20]
+		<DL>
+		<DD><A HREF="04.html#4.2.1">4.2.1. Typ 1: Sig själv/varandra</A> &dagger;&dagger;[2000-02-20]
+		<DD><A HREF="04.html#4.2.2">4.2.2. Typ 2: Villighet/benägenhet</A> &dagger;&dagger;[2000-02-20]
+		<DD><A HREF="04.html#4.2.3">4.2.3. Typ 3: Förändring</A> &dagger;&dagger;[2001-01-08]
+		<DD><A HREF="04.html#4.2.4">4.2.4. Typ 4: Orsak</A> &dagger;&dagger;[2001-01-08]
+		<DD><A HREF="04.html#4.2.5">4.2.5. Typ 5: Indefinit subjekt/förmåga</A> &dagger;&dagger;[2001-01-08]
+		<DD><A HREF="04.html#4.2.6">4.2.6. Typ 6: Kvalifikation</A> &dagger;&dagger;[2001-01-08]
+		<DD><A HREF="04.html#4.2.7">4.2.7. Typ 7: Aspekt</A> &dagger;[2001-01-08]
+		<DD><A HREF="04.html#4.2.8">4.2.8. Typ 8: Hedersbetygande</A>
+		<DD><A HREF="04.html#4.2.9">4.2.9. Typ 9: Syntaktiska markörer</A>
+		<DD><A HREF="04.html#4.2.10">4.2.10. Inbördes placering av suffix</A>
+		</DL>
+	<DD><A HREF="04.html#4.3">4.3 Strövare</A>
+	<DD><A HREF="04.html#4.4">4.4 Adjektiv</A>
+<DT><A HREF="05.html">5. Andra slags ord</A> &dagger;&dagger;
+	<DD><A HREF="05.html#5.1">5.1. Pronomen</A> &dagger;&dagger;
+	<DD><A HREF="05.html#5.2">5.2. Siffror</A> &dagger;&dagger;
+	<DD><A HREF="05.html#5.3">5.3. Konjunktioner</A>
+	<DD><A HREF="05.html#5.4">5.4. Adverbial</A>
+	<DD><A HREF="05.html#5.5">5.5. Interjektioner</A>
+	<DD><A HREF="05.html#5.6">5.6. Namn och tilltal</A>
+<DT><A HREF="06.html">6. Syntax</A> &dagger;&dagger;
+	<DD><A HREF="06.html#6.1">6.1 Enkla meningar</A>
+	<DD><A HREF="06.html#6.2">6.2 Komplexa meningar</A>
+		<DL>
+		<DD><A HREF="06.html#6.2.1">6.2.1. Sammansatta meningar</A>
+		<DD><A HREF="06.html#6.2.2">6.2.2. Bisatser</A>
+		<DD><A HREF="06.html#6.2.3">6.2.3. Relativa bisatser</A> &dagger;&dagger;
+		<DD><A HREF="06.html#6.2.4">6.2.4. Kausala bisatser</A>
+		<DD><A HREF="06.html#6.2.5">6.2.5. Meningar som objekt</A>
+		</DL>
+	<DD><A HREF="06.html#6.3">6.3. "Att vara"</A>
+	<DD><A HREF="06.html#6.4">6.4. Frågor</A>
+	<DD><A HREF="06.html#6.5">6.5. Kommandon</A>
+	<DD><A HREF="06.html#6.6">6.6. Komparativ och superlativ</A>
+	<DD><A HREF="06.html#6.7">6.7. Placering av adverbial</A> [TKDa]
+	<DD><A HREF="06.html#6.8">6.8. Indirekta objekt</A> [TKDa]
+<DT><A HREF="07.html">7. Klippt klingonska</A> &dagger;&dagger;[1999-04-17]
+	<DD><A HREF="07.html#7.1">7.1. Kommandon</A> &dagger;&dagger;[1999-04-17]
+	<DD><A HREF="07.html#7.2">7.2. Svar på kommandon, statusrapporter</A> &dagger;&dagger;[1999-04-17]
+	<DD><A HREF="07.html#7.3">7.3. Tvång, upphetsning</A> &dagger;&dagger;[1999-04-17]
+
+<DT>Ordlista
+	<DD><A HREF="a.html">Inledande kommentarer</A>
+	<DD><A HREF="b.html">Klingonsk-svensk ordlista</A> &dagger;[2000-12-06]
+	<DD><A HREF="c.html">Svensk-klingonsk ordlista</A>
+	<DD><A HREF="d.html">Klingonska affix</A> &dagger;&dagger;[1999-07-14]
+		<DL>
+		<DD><A HREF="d.html#1">1. Substantivsuffix</A> &dagger;&dagger;
+		<DD><A HREF="d.html#2">2. Pronominella prefix</A> &dagger;&dagger;
+		<DD><A HREF="d.html#3">3. Verbsuffix</A> &dagger;&dagger;
+		<DD><A HREF="d.html#4">4. Särskilda numeriska suffix</A> &dagger;&dagger;
+		</DL>
+	<DD><A HREF="e.html">Svenskt index till de klingonska affixen</A>
+<DT><A HREF="f.html">Appendix: En lista med utvalda användbara klingonska uttryck</A> &dagger;[1999-04-17]
+
+<DT>Tillägg till den svenska översättningen
+	<DD><A HREF="g.html">Alternativ guide till de klingonska affixen</A> &dagger;&dagger;[1999-07-23]
+		<DL>
+		<DD><A HREF="g.html#1">1. Pronominella prefix</A> &dagger;&dagger;
+		<DD><A HREF="g.html#2">2. Verbsuffix</A> &dagger;&dagger;
+		<DD><A HREF="g.html#3">3. Substantivsuffix</A> &dagger;&dagger;
+		<DD><A HREF="g.html#4">4. Särskilda numeriska suffix</A> &dagger;&dagger;
+		</DL>
+	<DD><A HREF="h.html">Förklaringar till grammatiska termer</A>
+	<DD><A HREF="i.html">Engelsk-svensk guide till översatta termer</A> &dagger;
+</DL>
+-->
+
+<!--TOC-->
+
+
+Involverade
+===========
+
+<a href="mailto:anna.frimodig@sebank.se">Anna Frimodig</a> -- Potentiell medverkande.
+<br /><a href="mailto:bkhl@klingonska.org">Björn Lindström</a> -- Översättare.
+<br /><a href="mailto:mp@klingonska.org">Markus Persson</a> -- Korrekturläsare & idéspruta.
+<br /><a href="mailto:wallius@rit.se">Robert Wallius</a> -- Översättare.
+<br /><a href="mailto:yenswahlgren@hotmail.com">Yens Wahlgren</a> -- Översättare.
+<br /><a href="mailto:zrajm@klingonska.org">Zrajm C Akfohg</a> -- Koordinatör och översättare.
+
+
+[[eof]]

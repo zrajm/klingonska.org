@@ -1,0 +1,222 @@
+title: Klingonsk ordbok
+author: yens, zrajm
+year: 1998-2009
+lang: sv
+prev: grammatik-04
+next: grammatik-06
+
+
+5. Andra slags ord [[**]]
+==================
+
+Den överlägset största delen av klingonskans ordförråd utgörs av
+substantiv och verb. Det finns ett fåtal andra vilka, förmodligen som
+en lösning, klumpas ihop av klingonska språklärda i en klass som
+kallas för {chuvmey} _rester_. Det är möjligt att någon mån dela
+upp dessa {chuvmey}.
+
+
+5.1. Pronomen [[**]]
+-------------
+
+Utöver de possesiva suffixen för substantiv (sektion
+3.3.4) och de pronominella prefixen för verb (sektion
+4.1) finns det en uppsättning på nio pronomen som är självständiga ord.
+
+> |--------|------------------------|---------|-----------|
+> | {jIH}  | _jag, mig_             | {maH}   | _vi, oss_ |
+> | {SoH}  | _du, dig_              | {tlhIH} | _ni, er_  |
+> | {ghaH} | _han/hon, honom/henne_ | {chaH}  | _de, dem_ |
+> | {'oH}  | _den/det_              | {bIH}   | _de, dem_ |
+> | {'e'}  | _det_                  |
+> | {net}  | _det_                  |
+
+Pronomenet {chaH} _de_ används när det syftar på en grupp av
+varelser som kan använda språk; annars används {bIH} _de_. Pronomina
+{'e'} och {net} används bara i särskilda meningskonstruktioner (se sektion
+6.2.5).
+
+Klingonska har inget genus. Pronomen i tredje person singular kan
+översättas _han_ eller _hon_ beroende på sammanhang.
+
+Pronomen kan användas som substantiv, men bara för eftertryck eller
+ökad tydlighet. De är inte nödvändiga. Sålunda är följande
+meningar allihop grammatiskt korrekta.
+
+> |-------------------|-------------------------|
+> | {yaS vIlegh jIH}  | _Jag ser officerarna._  |
+> | {yaS vIlegh}                               ||
+> |                                            ||
+> | {jIH mulegh yaS}  | _Officern ser mig._     |
+> | {mulegh yaS}                               ||
+> |                                            ||
+> | {ghaH vIlegh jIH} | _Jag ser honom/henne._  |
+> | {ghaH vIlegh}                              ||
+> | {vIlegh jIH}                               ||
+> | {vIlegh}                                   ||
+> |                                            ||
+> | ({yaS} _officer_, {vIlegh} _jag ser honom/henne_, {mulegh} han/hon ser mig_) ||
+
+Faktum är att de två sista meningarna ({vIlegh jIH}, {vIlegh}) är tvetydiga. De
+kunde gärna väl betyda _jag ser dem_. (Verbprefixet {vI-} betyder antingen
+_jag--honom/henne_ eller _jag--dem_.) Om det inte framgår av sammanhanget vilken
+mening som åsyftas kan pronomina användas:
+
+> |-------------------------------------|
+> |{ghaH vIlegh} _Jag ser honom/henne._ |
+> |{chaH vIlegh} _Jag ser dem._         |
+
+I possesiva konstruktioner används inte pronomen på det sätt som
+substantiv används; istället används uppsättingen av possesivsuffix för
+substantiv (sektion 3.3.4).
+
+Slutligen kan pronomen användas som verb i betydelsen "jag är" etc. (se
+sektion 6.3).
+
+
+5.2. Siffror [[**]]
+------------
+
+Klingonerna hade ursprungligen numeriskt system med talbasen tre. De räknade
+på följande sätt: 1, 2, 3; 3+1, 3+2, 3+3; 2×3+1, 2×3+2, 2×3+3; 3×3+1, 3×3+2,
+3×3+3; och sen blev det komplicerat. Någon tid tillbaka anammade det Klingonska
+Imperiet, i enlighet med mer accepterad praxis, ett decimalt numeriskt system,
+med talbasen tio. Trots att så inte kan sägas med säkerhet, verkar det sannorlikt
+att denna förändring skedde mer på grund av en strävan att förstå sig på
+andra civilisationers vetenskapliga fakta, än i samarbetets namn.
+
+De klingonska siffrorna är:
+
+> |----------|-------------|
+> | 1 {wa'}  | 6 {jav}     |
+> | 2 {cha'} | 7 {Soch}    |
+> | 3 {wej}  | 8 {chorgh}  |
+> | 4 {loS}  | 9 {Hut}     |
+> | 5 {vagh} | 10 {wa'maH} |
+
+Större tal formas genom att lägga till särskilda sifferbildande
+element till grundsiffrorna (1-9). Sålunda består {wa'maH} _tio_ av
+{wa'} _ett_ plus det sifferbildande elementet för _tio_, {-maH}.
+Man fortsätter räkna:
+
+> |------------------|
+> | 11 {wa'maH wa'}  |
+> | 12 {wa'maH cha'} |
+> | etc.             |
+
+Större tal baseras på {-maH} _tio_, {-vatlh} _hundra_ och
+{-SaD} eller {-SanID} _tusen_. {-SaD} och {-SanID} är båda
+lika korrekta för _tusen_ och används ungefär lika ofta. Det är inte känt varför
+det finns två varianter av endast detta tal.
+
+> |------|-----------------------------|----------------------|
+> | 20   |{cha'maH}                    | (dvs, _två tior_)    |
+> | 30   |{wejmaH}                     | (dvs, _tre tior_)    |
+> | etc.                                                    |||
+> |                                                         |||
+> | 100  |{wa'vatlh}                   | (dvs, _ett hundra_)  |
+> | 200  |{cha'vatlh}                  | (dvs, _två hundror_) |
+> | etc.                                                    |||
+> |                                                         |||
+> | 1000 | {wa'SaD} eller {wa'SanID}   | (dvs, _ett tusen_)   |
+> | 2000 | {cha'SaD} eller {cha'SanID} | (dvs, _två tusen_)   |
+> | etc.                                                    |||
+
+Tal fogas samman på ungefär samma sätt som på svenska, med
+den skillnaden att varje enskild faktor om tio bildar ett ord
+(precis som på engelska):
+
+> |------|-----------------------------------------------------------------------|
+> | 5347 | {vaghSaD wejvatlh loSmaH Soch} eller {vaghSanID wejvatlh loSmaH Soch} |
+> | 604  | {javvatlh loS}                                                        |
+> | 31   | {wejmaH wa'}                                                          |
+
+Några av de sifferbildande elementen för större tal är:
+
+> |-------------|----------|
+> | tiotusen    | {-netlh} |
+> | hundratusen | {-bIp}   |
+> | miljon      | {-'uy'}  |
+
+Noll heter {pagh}.
+
+Siffror används som substantiv. Som sådant kan de ensamt fungera som
+subjekt eller objekt eller så kan de modifiera ett annat substantiv.
+
+> |---------------|---------------------------------------|
+> | {mulegh cha'} | _Två (av dem) ser mig._               |
+> |               | ({mulegh} _de ser mig_, {cha'} _två_) |
+
+
+> |-------------|-------------------------------------------|
+> | {wa' yIHoH} | _Döda en (av dem)!_                       |
+> |             | ({wa'} _en_, {yIHoH} _döda honom/henne!_) |
+
+Föregående mening är grammatiskt korrekt även utan {wa'} eftersom
+prefixet {yI-} indikerar singular objekt. Således används {wa'}
+endast för eftertryck.
+
+Siffror som används modifierande föregår det substantiv de modifierar.
+
+> |--------------------------------------------------------|
+> | {loS puqpu'} eller {loS puq} _fyra barn_               |
+> | {vaghmaH yuQmey} eller {vaghmaH yuQ} _femtio planeter_ |
+
+Pluralsuffixen ({-pu'}, {-mey}) är inte nödvändiga när en siffra
+används.
+
+När siffror används för numrering, till skillnad från att räkna,
+så kommer de efter substantivet. Jämför:
+
+> |--------------------------------|
+> | {DuS wa'} _torpedtub nummer 1_ |
+> | {wa' DuS} _en torpedtub_       |
+
+Ordningstal (_första_, _andra_, etc.) bildas genom att lägga till
+{-DIch} till talen.
+
+> |------------|----------|
+> | {wa'DIch}  | _första_ |
+> | {cha'DIch} | _andra_  |
+> | {HutDIch}  | _nionde_ |
+
+Ordningstal följer substantivet.
+
+> |-------------------------------|
+> | {meb cha'DIch} _andra gästen_ |
+
+Att lägga till {-logh} indikerar att något upprepas.
+
+> |------------|--------------|
+> | {wa'logh}  | _en gång_    |
+> | {cha'logh} | _två gånger_ |
+> | {Hutlogh}  | _nio gånger_ |
+
+Dessa siffror fungerar som adverbial i meningen (sektion 5.4).
+
+
+5.3. Konjunktioner
+------------------
+
+FIXME -- Oöversatt delkapitel
+
+
+5.4. Adverbial
+--------------
+
+FIXME -- Oöversatt delkapitel
+
+
+5.5. Interjektioner
+-------------------
+
+FIXME -- Oöversatt delkapitel
+
+
+5.6. Namn och tilltal
+---------------------
+
+FIXME -- Oöversatt delkapitel
+
+
+[[eof]]

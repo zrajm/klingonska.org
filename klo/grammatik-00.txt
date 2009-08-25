@@ -1,0 +1,122 @@
+title: Klingonsk ordbok
+author: bkhl, zrajm
+year: 1998-2009
+lang: sv
+prev: forord
+next: grammatik-01
+
+
+Inledning [[**1999-04-17]]
+=========
+
+Klingonska är det Klingonska Imperiets officiella språk. Under lång tid har
+endast ett fåtal icke-klingoner haft möjlighet att lära sig språket tillräckligt
+väl för att kunna föra en meningsfull diskussion med en klingon. Nyligen har,
+under ledning av Federationens vetenskapliga forskningsråd (Federation
+Scientific Research Council), en studie inletts för att dokumentera och
+analysera klingonernas språk och kultur, med det yttersta målet att skapa en
+encyklopedi, och därtill undervisningsmateriel. Den här ordboken utgör de första
+resultaten av denna ansträngning.
+
+Ordboken är indelad i två huvudsakliga delar: ett utkast till grammatiken och
+själva ordlistan.
+
+Utkastet till grammatiken är avsedd att vara en sammanfattning av den klingonska
+grammatiken, inte en fullständig beskrivning. Den torde dock vara tillräckling
+för att låta läsaren att sätta samman klingonska ord på ett acceptabelt sätt.
+Många av de grammatiska reglerna i denna utkast till grammatiken är de som
+nedpräntats av klingonska grammatiker. Man bör dock minnas att att trots att
+reglerna säger "alltid" och "aldrig" så bryts de stundtals när klingonska
+verkligen talas. Reglerna representerar, med andra ord, det som klingonska
+grammatiker anser vara den "bästa" klingonskan.
+
+Eftersom efterforskningarna ännu inte är avslutade, är denna ordbok av
+nödvändighet något begränsad i sitt omfång. Det finns med visshet fler
+klingonska ord än de som upptas här. Tre specifika grupper ord är till största
+delen orepresenterade: vetenskaplig terminologi; ord för inhemska verktyg,
+sedvänjor, flora och fauna; och uttryck som handlar om mat. Termer förknippade
+med de olika vetenskaperna är ämnet för en särskild studie och en rapport
+förbereds i dagsläget. Klingonska uttryck för traditionella verktyg och
+mångåriga traditioner är svåra att översätta till svenska, likaså är det svårt
+att vid denna tidpunkt innefatta inhemska växter och djur. Dessa ämnen kommer
+istället att belysas fullständigt i det kommande verket _Klingonsk
+encyklopedi._ Ord för mat saknas på grund av begränsade resurser -- det har
+varit problematiskt att rekrytera personal som varit intresserad av att
+undersöka klingonska matvanor -- och innan denna studie har inletts har det har
+bedömts som olämpligt presentera en lista med ord vilkas innebörd inte är
+ordentligt förstådd.
+
+Allt eftersom fler uppgifter samlas in kommer ordlistan tveklöst att
+växa. Redan på detta stadium kan man dock urskilja en del mönster. Exempelvis
+finns inga hälsningsfraser, såsom _hej_, _hur är det_, _god morgon_ med mera.
+Det tycks uppenbart att sådana ord och fraser helt enkelt inte existerar i
+klingonska. Om något av inledande natur blir sagt när två klingoner möts är det
+(utom i de fall då militärt bruk bestämmer uppträdandet) en fras som bäst kan
+översättas till _Vad vill du?_. Till skillnad från de flesta svensktalande som
+inleder konversationer med hälsningar, förfrågningar om de talandes hälsa och
+anmärkningar om vädret, tenderar klingoner att inleda konversationer genom att
+helt enkelt upplysa om huvudpoängerna.
+
+Trots att klingoner är stolta över sitt modersmål och ofta ger sig in i
+långvariga diskussioner om dess uttrycksfullhet och skönhet har de funnit det
+opraktiskt för kommunikation utanför det Klingonska Imperiet. För intra- och
+intergalaktisk kommunikation har den klingonska regeringen, liksom de flesta
+andra regeringar, accepterat engelska som lingua franca. I allmänhet är det bara
+klingoner av de högre klasserna (inklusive högre regeringstjänstemän och
+militära officerare) som lär sig engelska. Som ett resultat av detta har
+engelska fått två ytterligare funktioner i det klingonska samhället. För det
+första används det som en symbol för rang och status. De klingoner som kan
+engelska talar det sinsemellan för att visa sin högre bildning och demonstrera
+sin plats i samhället för alla som råkar lyssna. För det andra används engelska
+då man anser det bäst att hålla tjänare, soldater eller till och med den vanliga
+befolkningen oinformerad. Följaktligen addresserar befälhavaren på ett
+klingonskt rymdskepp ofta sin besättning på klingonska, men väljer att tala
+engelska i diskussioner med sina officerare. Å andra sidan kan en klingonsk
+officerare använda klingonska i närvaro av icke-klingoner för att hindra dem
+från att förstå vad som pågår. Detta bruk av klingonska verkar vara mycket
+effektivt.
+
+Det finns ett antal dialekter av klingonska. Endast en av dialekterna,
+den nuvarande kejsarens, finns representerad i denna bok. När en klingonsk
+kejsare ersätts, oavsett orsak, har det historiskt sett varit så att den
+efterföljande kejsaren talat en annan dialekt än den föregående. Som ett
+resultat därav blir den nye kejsarens dialekt den officiella dialekten. De
+klingoner som inte talar den officiella dialekten anses antingen korkade eller
+statsfientliga och tvingas ofta åta sig uppgifter som de som talar den
+officiella dialekten finner motbjudande. De flesta klingoner försöker lära sig
+att tala flera dialekter flytande.
+
+Vissa dialekter skiljer sig endast obetydligt från dialekten i denna
+ordbok. Skillnaderna tenderar att bestå i skillnader i ordförråd (ordet för
+_panna_, exempelvis, är olika i nästan alla dialekter) och i uttalet av några
+ljud. Å andra sidan skiljer sig vissa dialekter sig avsevärt från den nuvarande
+officiella dialekten, en del till och med så mycket att de som talar dem har
+stora problem att kommunicera med den nuvarande klingonska byråkratin. Den som
+studerar klingonska råds kontrollera den politiska situationen i det Klingonska
+Imperiet innan han försöker tala.
+
+Det finns ett inhemskt skrivsystem för klingonska (kallat {pIqaD})
+vilket tycks vara väl avpassat för de olika dialekterna. Detta skriftsystem dock
+inte är förstått till fullo och används därför inte i denna ordbok. Istället har
+ett transkriptionssystem baserat på det latinska alfabetet konstruerats. En
+artikel som beskriver {pIqaD} i detalj förbereds för nuvarande för det
+kommande verket _Klingonsk encyklopedi._
+
+I utkastet till grammatik i denna ordbok kommer följande konvention för
+beteckningar att användas, klingonska kommer att skrivas med fetstil att svenska
+översättningar kommer att skrivas med kursiv stil: {tlhIngan} _klingon_.
+
+Författaren skulle vilja tacka Federationens vetenskapliga
+forskningsråd för att ha ställt medel till förfogande för denna undersöknings
+genomförande, liksom de olika medlemmar av Federationens tvärspråkliga institut
+(Federation Interlanguage Institute) som varit väl behjälpliga med att kritisera
+tidiga utkast till denna bok. Författaren ber om ursäkt för alla eventuella
+misstag och hoppas uppriktigt att inga av dem leder till några olyckliga
+missförstånd.
+
+Till slut måste stor förtjänst ges till den klingonske informatör som
+tillhandahållit alla de fakta på vilken denna bok är baserad. Trots att han är
+fånge hos Federationen har han arbetat många långa timmar för att göra sina
+kunskaper tillgängliga för dess medborgare. Maltz, vi tackar dig.
+
+[[eof]]

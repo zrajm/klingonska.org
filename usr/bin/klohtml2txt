@@ -1,0 +1,99 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+sub FALSE { '' }
+sub TRUE  {  1 }
+
+
+use utf8;
+binmode(STDIN,  ":encoding(utf8)");
+binmode(STDOUT, ":encoding(utf8)");
+
+
+my $ATTR = qr/[^<>]*/;
+
+my $output = FALSE;
+my $prefix = "";
+my $suffix = "";
+my $blank = 0;
+
+while (<>) {
+
+    # skip preamble
+    m/<h1/i and do {
+	$output = TRUE;
+	$/ = "";
+    };
+
+    if ($output) {
+	s/\n+$/\n/;
+
+	# skip footer
+	m/<!--.*copyright.*-->/i and do {
+	    $output = FALSE;
+	    next;
+	};
+
+	s{<FONT SIZE=-1>\[TKDa\]</FONT>}{[TKDa]}g;
+
+
+	# <A HREF="04.html#4.1">sektion 4.1</A>):
+	s{<A (\s+) HREF="0(\d).html\#\2([.\d]*)">sektion (\s+) \2\3</A>}{
+	    my ($section, $space) = ("$2$3", "$1$4");
+		"sektion" .
+		($space =~ /\n/ ? "\n" : " ") .
+		$section;
+	}gixe;
+
+	# "h1"
+	s{ ^ <h1 $ATTR > (.*) </h1 $ATTR> \n* $ }{$1}xi and do {
+	    s{</?a$ATTR>}{}gix;
+	    $_ = "\n" x (2-$blank) . $_ . "\n". "=" x length($_) . "\n\n";
+	};
+
+	# "h2"
+	s{ ^ <h2 $ATTR > (.*) </h2 $ATTR> \n* $ }{$1}xi and do {
+	    s{</?a$ATTR>}{}gix;
+	    $_ = "\n" x (2-$blank) . $_ . "\n". "-" x length($_) . "\n\n";
+	};
+
+
+	s{ <FONT $ATTR \bCOLOR="\#006600" $ATTR> (.*?) </FONT> }{[[$1]]}xisg;
+
+
+	s# <b> #{#gix;
+	s#</b> #}#gix;
+
+
+	m{ ^ \Q<P ALIGN=CENTER><IMG SRC="/klo/pic/hr.gif" WIDTH=575 HEIGHT=34>\E $ }xism and next;
+
+	# "<p>" / "<br>"
+	if (s/ ^ <(br|p)$ATTR> //gmix) {
+	    $_ = "\n" x (1-$blank) . $_; # if $1 eq "p";
+	}
+	
+	# 5 nbsp
+	#s/ ^ \xa0{5} /     /gmix;
+	s/ ^ \xa0{5} //gmix;
+
+
+
+
+	if ($prefix) {
+	    print $prefix;
+	    $prefix ="";
+	}
+	print;
+
+	m/(\n*)$/;
+	$blank = length($1)-1;
+
+
+	if ($suffix) {
+	    print $suffix;
+	    $suffix ="";
+	}
+    }
+}

@@ -1,0 +1,476 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use utf8;
+use open qw(:std :utf8);
+#binmode(STDIN,  ":encoding(utf8)");
+#binmode(STDOUT, ":encoding(utf8)");
+
+if (not @ARGV) {
+    print <DATA>;
+    exit 5;
+}
+
+
+my %code = (
+    AUTHOR   => \&page_author,
+    CHANGED  => \&page_date,
+    FOOT     => \&page_footer,
+    HEAD     => \&page_header,
+    LOGOLINK => \&page_logolink_url,
+    MAIN     => \&page_main,
+    META     => \&page_meta,
+    PREVNEXT => \&page_prevnext,
+    TITLE    => \&page_title,
+    TOC      => \&page_toc,
+    URL      => \&page_url,
+    YEAR     => \&page_year,
+);
+
+
+my %author = (
+    bkhl    => "<a href=\"bkhl\@elektrubadur.se\">Björn Lindström</a>",
+    markus  => "<a href=\"mp\@klingonska.org\">Markus Persson</a>",
+    wallius => "<a href=\"wallius\@rit.se\">Robert Wallius</a>",
+    yens    => "<a href=\"yenswahlgren\@hotmail.com\">Yens Wahlgren</a>",
+    zrajm   => "<a href=\"zrajm\@klingonska.org\">Zrajm C Akfohg</a>",
+);
+
+
+
+###############################################################################
+##                                                                           ##
+##  Functions                                                                ##
+##                                                                           ##
+###############################################################################
+
+
+{
+    package HTML::Template::KA;
+    use Carp;
+
+    sub new {
+	my ($class, @arg) = @_;
+	my $self = bless({}, $class);
+	return $self->set(@arg);
+    }
+
+    # return the object
+    # allow for () as args
+    sub set {
+	my ($self) = shift;
+	croak "set(): must be called with an even number of arguments" if @_ % 2 != 0;
+	my %arg = @_;
+	$self->{$_} = $arg{$_} foreach (keys %arg);
+	return $self;
+    }
+
+    # Usage: $o->get([setting[,...]]);
+    #
+    # If called with no args, return the keys of the self object. If called with
+    # one (or more) args return the value of all the mentioned keys (in order as
+    # named in the args). In scalar context only the first value requested is
+    # returned.
+    sub get {
+	my ($self) = shift;
+	return keys %$self unless @_;
+	if (wantarray) {
+	    return map { $self->{$_} } @_;
+	} else {
+	    return $self->{$_[0]};
+	}
+    }
+
+    # Usage: read_file(FILE);
+    #
+    # Reads the entire (utf8) FILE and returns its contents as a string.
+    sub read_file {
+	my ($file) = shift;
+	local $/   = undef;
+	open(my $in, "<:utf8", $file) or croak "cannot open file \"$file\": $!";
+	defined(my $text = <$in>)     or croak "cannot read file \"$file\": $!";
+	return $text;
+    }
+
+
+    # Usage: %meta = get_metadata(TEXT);
+    #
+    # Returns the metadata portion of TEXT.
+    sub get_metadata {
+	my ($self, $text) = @_;
+	# strip off non-metadata (all after first blank line)
+	$text =~ s/(?<=\n)\n+(.*)//s;
+	carp "read_metadata(): only metadata found in this file -- isn't that odd?" unless $1;
+	my %meta = ();
+	my ($tag, $line) = (undef, 0);
+	for (split(/(?<=\n)/, $text)) {
+	    $line ++;
+	    m/^ \s+ (.*) $/xs and do {
+		croak "read_metadata(): continuation line with no preceding metadata field in line $line"
+		    unless defined($tag);
+		$meta{$tag} .= "\n" . $1;
+		next;
+	    };
+	    m/^ ([^:]*) : \s* (.*) $/x and do {
+		$meta{$tag = $1} .= $2;
+		next;
+	    };
+	    croak "get_metadata(): failed to parse metadata in line $line";
+	}
+	return %meta;
+    }
+
+
+    sub get_text {
+	my ($self, $text) = @_;
+	$text =~ s/^(.*?)\n{2,}//s;
+	return $text;
+    }
+
+
+    # Usage: $obj->process_file(filename[,...])
+    #
+    # Process the named file, return processed result as a string.
+    sub process_file {
+	my ($self, $file, $template) = @_;
+
+	my $text = read_file($file);
+	my %meta = $self->get_metadata($text);
+
+
+	use File::Spec;
+	$file = File::Spec->rel2abs($file)
+	    unless File::Spec->file_name_is_absolute($file);
+	$text    = $self->get_text($text);
+
+	# add some extra metadata
+	$meta{filename} = $file;
+	$meta{filedate} = (stat($file))[9];
+	$meta{text}     = $text;
+
+	#print "$file\n";
+	#print "$_ => $meta{$_}" foreach keys %meta;
+	#print $text;
+
+	my $page = read_file($template);
+
+
+	$page = $self->process_template($page, %meta);
+	return $page;
+    }
+
+    sub process_template {
+	my ($self, $text, %meta) = @_;
+	$text =~ s{ <!--(.*?)--> \n? }{
+	    exists($code{$1}) ?
+		&{$code{$1}}($self, %meta) : "";
+	}gexs;
+	return $text;
+    }
+
+}
+
+# Usage: $abs_filename = find_include_file(REL_INCLUDE_FILE, SOURCE_FILE);
+
+# Returns the absolute filename of the file which should be included in
+# SOURCE_FILE. Name of REL_INCLUDE_FILE should be given relative to
+# SOURCE_FILE's position in the file hiearchy.
+#
+# Dies if REL_INCLUDE_FILE could not be found.
+sub find_include_file {
+    my ($relfile, $basefile) = @_;
+    $basefile = dirname(abs_filename($basefile));
+    use File::Spec;
+    my ($vol, $dirs) = File::Spec->splitpath($basefile);
+    my @dir = File::Spec->splitdir($dirs);
+    while (@dir) {
+	my $absfile = File::Spec->catpath(
+	    $vol, File::Spec->catdir(@dir), $relfile
+	);
+	return $absfile if -e $absfile;
+	pop @dir;
+    }
+    die "couldn't find include file \"$relfile\"";
+}
+
+sub page_meta {
+    return "";
+}
+
+
+sub filename_to_url {
+    my ($file) = @_;
+    $file =~ m#([^/]*.(org|se|com)/.*)#;
+    return $1;
+}
+
+# return page url
+sub page_url {
+    my ($self, %meta) = @_;
+    my $url = filename_to_url($meta{filename});
+    $url =~ s/\.[^.]{1,4}$/.html/;
+    $url = "http://$url";
+    return "<a href=\"$url\">$url</a>";
+}
+
+# return time in "2009-12-31, 24:59" format
+sub page_date {
+    my ($self, %meta) = @_;
+    my ($sec, $min, $hour, $mday, $mon, $year) =
+	localtime($meta{filedate});
+    return sprintf(
+	"%d-%02d-%02d, %02d:%02d",
+	$year+1900, $mon+1, $mday, $hour, $min);
+}
+
+# if index.html point to previous dir
+# otherwise point to this dir
+sub page_logolink_url {
+    my ($self, %meta) = @_;
+    local $_ = filename_to_url($meta{filename});
+    m#/index.[^.]*$# and return "..";
+    return ".";
+}
+
+sub page_year {
+    my ($self, %meta) = @_;
+    return $meta{year} if exists($meta{year});
+    return "MISSING COPYRIGHT YEAR";
+}
+
+sub page_author {
+    my ($self, %meta) = @_;
+
+    my @author = map {
+	"<span class=\"author\">" .
+	    (exists($author{$_}) ? $author{$_} : $_) .
+	    "</span>";
+    } sort split(/,\s*/, $meta{author});
+
+    if (@author >= 2) {
+	my $last = pop(@author);
+	$author[-1] = join(" & ", $author[-1], $last);
+    }
+
+
+    my $credit = join(", ", @author);
+
+
+    return $credit;
+}
+
+sub page_title {
+    my ($self, %meta) = @_;
+
+    my @title = ();
+    push(@title, exists($meta{title}) ? $meta{title} : "MISSING TITLE");
+    push(@title, $1) if $meta{text} =~ m/^\n*(.*)/;
+#    @title = ("MISSING TITLE") unless @title;
+
+    return join(" &ndash; ", @title)." (Klingonska Akademien)";;
+}
+
+sub abs_filename {
+    my ($file) = @_;
+    # FIXME should return the absolutely resolved, symlink-followed filename
+    use File::Spec;
+    $file = File::Spec->rel2abs($file)
+	unless File::Spec->file_name_is_absolute($file);
+    return $file;
+}
+
+
+sub dirname {
+    my ($file) = @_;
+    use File::Spec;
+    return File::Spec->catpath((File::Spec->splitpath($file))[0,1]);
+}
+
+
+sub page_toc {
+    # FIXME: should combine title metadata field with first header in text
+    my ($self, %meta) = @_;
+    my $toc = "";
+    (my $dir = $meta{filename}) =~ s#/*[^/]*$##;
+
+    local $/ = undef;
+    local $_;
+    my $depth = 0;
+    my $prev_depth = 0;
+
+
+    $toc .= "<div class=\"toc\">\n";
+    for my $file (glob("$dir/*.txt")) {
+	next if abs_filename($file) eq abs_filename($meta{filename});
+
+	$_ = read_file($file);
+	$file =~ s#^$dir/##;
+
+	while (m/\n([^\n]+)\n+([=-])\2+\n/g) {
+
+	    # get full heading
+	    my $heading = $1;
+
+	    # get section number
+	    $heading =~ m/^([0-9.]*)\s/x;
+	    my $section = $1;
+	    $section =~ s/\.$//;
+	    $section =~ s/ \s * \[\[.*?\]\] //gx;
+
+	    # put any [[...]] after heading's link
+	    my $post    = "";
+	    $heading =~ s/ ( \s * \[\[.*?\]\] ) //gx and
+		$post = $1;
+
+	    # get section depth
+	    my @x = split(/\./, $section);
+	    $depth = scalar(@x);
+
+	    # output <ul>/</ul> when depth changes
+	    if ($depth > $prev_depth) {
+		$toc .= ("    " x $prev_depth) . "<ul>\n";
+	    } elsif ($depth < $prev_depth) {
+		for ($prev_depth--; $prev_depth >= $depth; $prev_depth --) {
+		    $toc .= ("    " x $prev_depth) . "</ul>\n";
+		}
+	    }
+	    $prev_depth = $depth;
+
+	    # output entry
+
+	    (my $file2 = $file) =~ s#\.[^.]+$#.html#;
+	    $toc .= ("    " x $depth)."<li><a href=\"$file2#$section\">$heading</a>$post\n";
+	}
+    }
+    # output trailing </ul>s
+    for ($depth--; $depth >= 0; $depth --) {
+	$toc .= ("    " x $depth)."</ul>\n";
+    }
+    $toc .= "</div>\n";
+    return $toc;
+}
+
+
+
+sub page_header {
+    # FIXME: should find headerfile relative to the processed file's name
+    my ($self, %meta) = @_;
+    my $text = read_file(find_include_file("includes/header.html", $meta{filename}));
+    return $self->process_template($text, %meta);
+}
+
+sub page_prevnext {
+    my ($self, %meta) = @_;
+    return "" if $meta{filename} =~ m#/index.[^.]*$#;
+    my @x = ();
+    push @x, "<a href=\"$meta{prev}.html\">&larr;</a>" if exists $meta{prev};
+    push @x, "<a href=\".\">Innehåll</a>";
+    push @x, "<a href=\"$meta{next}.html\">&rarr;</a>" if exists $meta{next};
+    return "" unless @x;
+    return "<p class=\"prevnext\">" . join(" ", @x) . "</p>";
+}
+
+sub page_footer {
+    # FIXME: should find headerfile relative to the processed file's name
+    my ($self, %meta) = @_;
+    my $text = read_file(find_include_file("includes/footer.html", $meta{filename}));
+    return $self->process_template($text, %meta);
+}
+
+
+sub page_main {
+    my ($self, %meta) = @_;
+    local $_ = $meta{text};
+
+    # strip eof marker
+    s{ \n* \[\[eof\]\] \n* $ }{}ix;
+
+    # klingon stuff
+    s#<>#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#g;
+
+    # typographical quotes
+    #s#"\b#&ldquo;#g;  # english only
+    s#"#&rdquo;#g;
+    #s#"\b#&lsquo;#g;  # english only (not in Klingon!)
+    s#'#&rsquo;#g;
+
+    # parse with multimarkdown
+    use Text::MultiMarkdown;
+    my $obj = new Text::MultiMarkdown(
+	use_metadata => '',
+	strip_metadata => '',
+	#empty_element_suffix => '>',
+	#use_wikilinks => 0,
+	tab_width => 4,
+    );
+
+    $_ = $obj->markdown($_);
+
+    $_ = $self->process_template($_, %meta);
+
+    s#{#<strong class="tlh">#g;
+    s#}#</strong>#g;
+
+
+
+    # typographical en- and em-dashes
+    s#--#&ndash;#g;
+    s#---#&mdash;#g;
+
+
+    # [[...]] comments
+    s{ <p> \[\[ (.*?) \]\] </p> }{<div class="comment"><p>$1</p></div>}gxs;
+    s{ \[\[ (.*?) \]\] }{<span class="comment">$1</span>}gxs;
+
+    # fix bad HTML
+    s{(<td\b[^>]*>) \s+ (</td>)}{$1$2}xig;
+
+    return $_;
+}
+
+
+
+sub read_file {
+    my ($file) = shift;
+    local $/ = undef;
+    open my $in, "<:utf8", $file;
+    return <$in>;
+}
+
+
+
+
+###############################################################################
+##                                                                           ##
+##  Main Program                                                             ##
+##                                                                           ##
+###############################################################################
+
+# init "language"
+my $obj = new HTML::Template::KA(rules => \%code);
+
+#print "$_ => ".$obj->get($_)."\n" foreach($obj->get());
+#my %x = %{$obj->get("rules")};
+#foreach (keys %x) {
+#    print "$_ = $x{$_}\n";
+#}
+
+
+while (@ARGV) {
+    my $file = shift;
+    print $obj->process_file($file,
+	find_include_file("includes/template.html", $file));    # process file
+}
+
+
+
+
+__DATA__
+Takes the name of one multimarkdown text file, and outputs a fully generated
+HTML version of it on standard output.
+
+Scans this dir, and all below dirs, until finding any of:
+    o includes/template.html
+    o includes/footer.html
+    o includes/header.html

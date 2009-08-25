@@ -1,0 +1,132 @@
+title: Klingonsk ordbok
+author: zrajm
+year: 1998-2009
+lang: sv
+prev: ordlista-02
+next: ordlista-04
+
+
+Klingonska affix [[**1999-07-14]]
+================
+
+
+1. Substantivsuffix [[**]]
+-------------------
+
+Nummer indikerar suffixtyp.
+
+|----------|---|--------------------------------------------|
+| {-chaj}  | 4 | deras                                      |
+| {-Daj}   | 4 | hans, hennes, dess                         |
+| {-Daq}   | 5 | lokativ                                    |
+| {-Du'}   | 2 | plural (kroppsdel)                         |
+| {-Hey}   | 3 | synbar, skenbar                            |
+| {-Hom}   | 1 | diminutiv                                  |
+| {-lIj}   | 4 | din, ditt                                  |
+| {-lI'}   | 4 | din, ditt (substantiv förmöget till språk) |
+| {-maj}   | 4 | vår, vårt                                  |
+| {-ma'}   | 4 | vår, vårt (substantiv förmöget till språk) |
+| {-mey}   | 2 | plural (generellt)                         |
+| {-mo'}   | 5 | på grund av, beroende på                   |
+| {-na'}   | 3 | definitiv                                  |
+| {-oy}    | 1 | affektion <FONT SIZE=2>[TKDa]</FONT>       |
+| {-pu'}   | 2 | plural (varelser förmögna till språk)      |
+| {-qoq}   | 3 | så kallad                                  |
+| {-raj}   | 4 | er, ert                                    |
+| {-ra'}   | 4 | er, ert (substantiv förmöget till språk)   |
+| {-vaD}   | 5 | för, avsedd för                            |
+| {-vam}   | 4 | den här                                    |
+| {-vetlh} | 4 | den där                                    |
+| {-vo'}   | 5 | från                                       |
+| {-wIj}   | 4 | min, mitt                                  |
+| {-wI'}   | 4 | min, mitt (substantiv förmöget till språk) |
+| {-'a'}   | 1 | augmentativ                                |
+| {-'e'}   | 5 | tema, ämne                                 |
+
+
+2. Pronominella prefix [[**]]
+----------------------
+
+|--------|-----------------------------------------------------------|
+| {-}    | han/hon/det-ingen/honom/henne/det/dem<BR>de-ingen/dem     |
+| {bI-}  | du-ingen                                                  |
+| {bo-}  | ni-honom/henne/det/dem                                    |
+| {che-} | ni-oss                                                    |
+| {cho-} | du-mig                                                    |
+| {Da-}  | du-honom/henne/det/dem                                    |
+| {DI-}  | vi-dem                                                    |
+| {Du-}  | han/hon/det-dig                                           |
+| {gho-} | imperativ: du/ni-oss                                      |
+| {HI-}  | imperativ: du/ni-mig                                      |
+| {jI-}  | jag-ingen                                                 |
+| {ju-}  | du-oss                                                    |
+| {lI-}  | han/hon/det/de-er                                         |
+| {lu-}  | de-honom/henne/det                                        |
+| {ma-}  | vi-ingen                                                  |
+| {mu-}  | han/hon/det/dem-mig                                       |
+| {nI-}  | de-dig                                                    |
+| {nu-}  | han/hon/det/de-oss                                        |
+| {pe-}  | imperativ: ni-ingen                                       |
+| {pI-}  | vi-dig                                                    |
+| {qa-}  | jag-dig                                                   |
+| {re-}  | vi-er                                                     |
+| {Sa-}  | jag-er                                                    |
+| {Su-}  | ni-ingen                                                  |
+| {tI-}  | imperativ: du/ni-dem                                      |
+| {tu-}  | ni-mig                                                    |
+| {vI-}  | jag-honom/henne/det/dem                                   |
+| {wI-}  | vi-honom/henne/det                                        |
+| {yI-}  | imperativ: du-ingen/honom/henne/det<BR>ni-honom/henne/det |
+
+
+3. Verbsuffix [[**]]
+-------------
+
+|----------|---|-----------------------------------------------|
+| {-ba'}   | 6 | uppenbarligen [TKDa]                          |
+| {-beH}   | 2 | redo, iordningställd (om apparater)           |
+| {-bej}   | 6 | definitivt, tveklöst                          |
+| {-be'}   | S | inte                                          |
+| {-bogh}  | 9 | som (relativ bisats-markör)                   |
+| {-choH}  | 3 | förändring i tillstånd, förändring i riktning |
+| {-chugh} | 9 | om, ifall                                     |
+| {-chuq}  | 1 | varandra                                      |
+| {-chu'}  | 6 | perfekt, tydligt                              |
+| {-DI'}   | 9 | när, så snart som                             |
+| {-ghach} | 9 | substantiviserare [TKDa]                      |
+| {-Ha'}   | S | negera, göra ogjort                           |
+| {-jaj}   | 9 | må, månde (konjunktiv) [TKDa]                 |
+| {-laH}   | 5 | kan                                           |
+| {-law'}  | 6 | antagligen, nog, verkar vara                  |
+| {-lI'}   | 7 | fortskridande, framskridande                  |
+| {-lu'}   | 5 | indefinit subjekt                             |
+| {-meH}   | 9 | i syfte att                                   |
+| {-moH}   | 4 | orsaka                                        |
+| {-mo'}   | 9 | på grund av [TKDa]                            |
+| {-neS}   | 8 | hedrande                                      |
+| {-nIS}   | 2 | behöver                                       |
+| {-pa'}   | 9 | innan, före                                   |
+| {-pu'}   | 7 | perfektiv                                     |
+| {-qang}  | 2 | villig                                        |
+| {-qa'}   | 3 | fortsätta, göra igen                          |
+| {-qu'}   | S | emfatiskt, framhävande                        |
+| {-Qo'}   | S | gör inte!, tänker inte                        |
+| {-rup}   | 2 | redo, beredd (om varelser)                    |
+| {-taH}   | 7 | pågående                                      |
+| {-ta'}   | 7 | utfört, gjort                                 |
+| {-vIp}   | 2 | rädd                                          |
+| {-vIS}   | 9 | medan                                         |
+| {-wI'}   | 9 | en som gör, sak som gör, en som är            |
+| {-'a'}   | 9 | interrogativ                                  |
+| {-'egh}  | 1 | sig själv                                     |
+
+
+4. Särskilda numeriska suffix [[**]]
+------------------------------
+
+|---------|---------------------------------------------------|
+| {-DIch} | bildar ordningstal (_första_, _andra_ etc.)       |
+| {-logh} | bildar _en gång_, _två gånger_, _tre gånger_ etc. |
+
+
+[[eof]]

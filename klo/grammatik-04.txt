@@ -1,0 +1,615 @@
+title: Klingonsk ordbok
+author: bkhl
+year: 1998-2009
+lang: sv
+prev: grammatik-03
+next: grammatik-05
+
+
+4. Verb [[**2000-02-20]]
+=======
+
+[[Detta kapitel är ej korrekturläst.]]
+
+Klingonska verb är vanligtvis enstaviga och kan följas av flera
+suffix. Liksom hos substantiven kan de klingonska verbens suffix
+indelas i typer efter sin relativa position i verbet. Det finns nio
+typer av verbsuffix. Till skillnad från substantiven kan de klingonska
+verben också föregås av prefix. Om suffixtyp anges med nummer är
+sålunda strukturen hos ett klingonskt verb:
+
+> PREFIX--VERB--1--2--3--4--5--6--7--8--9
+
+
+4.1. Pronominella prefix [[**2000-02-20]]
+------------------------
+
+Varje klingonskt verb inleds med ett prefix som indikerar vem som
+utför handlingen beskriven av verbet och, när detta är fallet, vem
+eller vad som är målet för handlingen. Klingonskans verbprefix anger
+alltså både subjektet och objektet i en mening.
+
+
+4.1.1. Grundläggande prefix [[**2000-02-20]]
+---------------------------
+
+De grundläggande prefixen kan visas med en tabell. (För att göra
+tabellen så tydlig som möjligt förekommer vissa prefix på flera
+ställen).
+
+> |-------------------|-------|--------|-------|-----------|--------|-------|-------|
+> | OBJEKT            | inget | _mig_  | _dig_ | _honom/_  | _oss_  | _er_  | _dem_ |
+> |                   |       |        |       | _henne/_  |        |       |       |
+> |                   |       |        |       | _den/det_ |        |       |       |
+> | SUBJEKT           |       |        |       |           |        |       |       |
+> | _jag_             | {jI-} | --     | {qa-} | {vI-}     | --     | {Sa-} | {vI-} |
+> | _du_              | {bI-} | {cho-} | --    | {Da-}     | {ju-}  | --    | {Da-} |
+> | _han/hon/den/det_ | 0     | {mu-}  | {Du-} | 0         | {nu-}  | {lI-} | 0     |
+> | _vi_              | {ma-} | --     | {pI-} | {wI-}     | --     | {re-} | {DI-} |
+> | _ni_              | {Su-} | {tu-}  | --    | {bo-}     | {che-} | --    | {bo-} |
+> | _de_              | 0     | {mu-}  | {nI-} | {lu-}     | {nu-}  | {lI-} | 0     |
+
+Notera att både subjekt och objekt kombineras till ett enda prefix. 0
+i tabellen betyder att dessa kombinationer av subjekt och objekt
+indikeras av frånvaron av ett prefix före verbet; kombinationer av
+subjekt och objekt som inte kan uttryckas med det klingonska
+verbprefixsystemet markeras med --. För sådana meningar måste suffix
+(avsnitt 4.2.1) och/eller pronomen (avsnitt 5.1) användas.
+
+Prefixen i den första kolumnen i tabellen (med rubrik "inget") används när det
+inte finns något objekt; det vill säga när handlingen som uttrycks med verbet
+endast påverkar subjektet (den handlande). Verbet {Qong} _sova_ förekommer med
+följande pronominella prefix:
+
+> |------------------------------------------|
+> | {jIQong} _jag sover_
+> | {bIQong} _du sover_
+> | {Qong} _han/hon/den/det sover, de sover_
+> | {maQong} _vi sover_
+> | {SuQong} _ni sover_
+
+I fallet {Qong} _han/hon/den/det sover, de sover_ skulle subjektet
+anges exakt i meningen eller av sammanhanget.
+
+Denna uppsättning prefix används också när ett objekt är möjligt, men
+okänd eller vagt. Sålunda kan {jIyaj} _jag förstår_ användas när den
+talande förstår saker i allmänhet, vet vad som pågår, eller förstår
+vad en annan talande just har sagt. Det kan dock inte användas om att
+förstå ett språk eller att förstå en person. Likaledes kan {maSop} _vi
+äter_ användas om den allmänna handlingen att äta, men inte om en
+specifik maträtt nämns.
+
+De återstående prefixen kombinerar subjekt och objekt. Vissa av dem
+exemplifieras nedan med verbet {legh} _se_.
+
+> |----------|----------------------------------------------|-----------|------------------------------|
+> | {qalegh} | _jag ser dig_                                | {cholegh} | _du ser mig_
+> | {vIlegh} | _jag ser honom/henne/den/det/dem_            | {mulegh}  | _han/hon/den/det/dem ser mig_
+> | {Salegh} | _jag ser er_                                 | {tulegh}  | _ni ser mig_
+> | {Dalegh} | _du ser honom/henne/den/det/dem_             | {Dulegh}  | _han/hon/den/det ser dig_
+> | {julegh} | _du ser oss_                                 | {pIlegh}  | _vi ser dig_
+> | {legh}   | _han/hon/den/de ser honom/henne/den/det/dem_ | {lulegh}  | _de ser honom/henne/den/det_
+
+
+4.1.2. Imperativprefix [[**2000-02-20]]
+----------------------
+
+En speciell uppsättning prefix används för imperativ, det vill säga
+kommandon. Kommandon kan bara ges till _du_ och _ni_.
+
+> |---------|-------|-------|-----------|--------|-------|
+> | OBJEKT  | inget | _mig_ | _honom/_  | _oss_  | _dem_ |
+> |         |       |       | _henne/_  |        |       |
+> |         |       |       | _den/det_ |        |       |
+> | SUBJEKT |       |       |           |        |       |
+> | _du_    | {yI-} | {HI-} | {yI-}     | {gho-} | {tI-} |
+> | _ni_    | {pe-} | {HI-} | {yI-}     | {gho-} | {tI-} |
+
+Notera att, bortsett från ett undantag, används samma prefix oavsett
+om kommandot ges till en eller flera personer. Det enda undantaget är
+då ett kommando utan objekt ges. I sådana fall används det speciella
+prefixet {pe-} om kommandot ges till flera personer. Här är några
+exempel på imperativprefix. Utropstecknen i översättningen anger att
+det är frågan om kommandon.
+
+> |----------------------------|
+> | {yIQong} _(du) sov!_
+> | {peQong} _(ni) sov!_
+> | {HIqIp} _slå mig!_
+> | {ghoqIp} _slå oss!_
+> | {yIqIp} _slå honom/henne/den/det!_
+> | {tIqIp} _slå dem!_
+
+För att ange en handling riktad mot sig själv i ett imperativt verb
+(t.ex. tvätta dig!), används suffixet {-'egh} _sig själv_
+tillsammans med {yI-} eller {pe-} (se avsnitt 4.2.1)
+
+
+4.1.3. Konventioner för notation [[**2000-02-20]]
+--------------------------------
+
+Prefix som anger subjekt och objekt kommer att översättas med
+_subjekt--objekt_; t.ex. {qa-} _jag--dig_, {DI-} _vi--dem_.
+Imperativprefix kommer att översättas på liknande sätt, föregått av
+ordet _imperativ_: {tI-} _imperativ: du--dem_.
+
+Dessutom kommer prefix som kan indikera genus, och singular eller
+plural att översättas korrekt, men vanligtvis utan alla alternativ
+(t.ex. jag--honom/henne). Denna konvention kommer också att användas
+vid översättning av meningar som innehåller dessa prefix; t.ex.
+{vIlegh} _jag ser honom/henne_.
+
+
+4.2. Verbsuffix [[**2000-02-20]]
+---------------
+
+Det finns nio typer av verbsuffix.
+
+
+4.2.1. Typ 1: Sig själv/varandra [[**2000-02-20]]
+--------------------------------
+
+{-'egh} _sig själv_
+
+Detta suffix används för att ange att handlingen som beskrivs av verbet påverkar
+utföraren av handlingen, subjektet. Det kan översättas med svenskans _sig
+själv_. Detta suffix kan endast användas med prefix som anger "inget objekt".
+
+> |------------------------------------------------|
+> | {jIqIp'egh} _jag slår mig själv_ ({qIp} _slå_) |
+> | {bIqIp'egh} _du slår dig själv_                |
+> | {qIp'egh} _han/hon slår sig själv_             |
+
+Det är också möjligt att använda detta suffix tillsammans med
+imperativ-verb. Liksom med icke-imperativ måste ett prefix som
+indikerar "inget objekt" användas.
+
+> |------------------------------|
+> | {yIqIp'egh} _slå dig själv!_ |
+> | {peqIp'egh} _slå er själva!_ |
+
+{-chuq} _varandra_
+
+Detta suffix används endast tillsammans med pluralsubjekt. Det
+översätts med _varandra_. Prefix som anger "inget objekt" används
+också när detta suffix används.
+
+> |--------------------------------|
+> | {maqIpchuq} _vi slår varandra_ |
+> | {SuqIpchuq} _ni slår varandra_ |
+> | {qIpchuq} _de slår varandra_   |
+> | {peqIpchuq} _slå varandra!_    |
+
+
+4.2.2. Typ 2: Villighet/benägenhet [[**2000-02-20]]
+----------------------------------
+
+Suffix av denna typ uttrycker hur mycket val subjektet har när det
+gäller att utföra den handling som verbet beskriver eller hur benägen
+subjektet är att utföra den.
+
+{-nIS} _behöver_
+
+> |--------------------------------------------------------|
+> | {vIleghnIS} _jag behöver se honom/henne_ ({legh} _se_) |
+> | {bISopnIS} _du behöver äta_ ({Sop} _äta_)              |
+
+{-qang} _villig_
+
+> |-------------------------------------------------------------------|
+> | {Heghqang} _han är villig att dö_ ({Hegh} _dö_)                   |
+> | {qaja'qang} _jag är villig att berätta för dig_ ({ja'} _berätta_) |
+
+{-rup} _redo, beredd (om varelser)_
+
+> |---------------------------------------------------------------|
+> | {Heghrup} _han/hon är beredd att dö_ ({Hegh} _dö_)            |
+> | {qaleghrup} _jag är redo att se dig_ ({legh} _se_)            |
+> | {nuja'rup} _de är redo att berätta för oss_ ({ja'} _berätta_) |
+
+{-beH} _redo, iordningställd (om apparater)_
+
+> |-----------------------------------------------------------------------|
+> | {pojbeH} _(föremålet) är klart att analysera det_ ({poj} _analysera_) |
+> | {labbeH} _(föremålet) är klart att sända data_ ({lab} _sända data_)   |
+
+Det finns också, är värt att notera, ett verb , {ghuS}, som betyder
+_att vara beredd att avfyra eller projicera (något)_. Detta verb får
+aldrig suffixet {-rup}. Det används främst om torpeder, så mycket att
+objektet om det inte uttalas och inte framgår av sammanhanget antas
+vara _torpeder_. Följaktligen betyder de båda följande meningarna _Var
+redo att avfyra torpederna!_ eller _Var redo vid torpederna!_
+
+> |--------------|
+> | {cha yIghuS} |
+> | {yIghuS}     |
+
+Verbet {ghuS} kan också användas om exempelvis raketer, missiler och
+olika sorters energistrålar (vilka liksom torpeder förflyttar sig från
+en punkt till en annan). Det används också om handlingen att spänna
+det elastiska bandet på en slangbella. I det flesta andra fall då det
+är fråga om att vara beredd krävs {-rup}.
+
+{-vIp} _rädd_
+
+> |--------------------------------------------------------|
+> | {choHoHvIp} _du törs inte döda mig_ ({HoH} _döda_)     |
+> | {nuqIpvIp} _de är rädda för att slå oss_ ({qIp} _slå_) |
+
+Detta suffix används sällan tillsammans med ett prefix som betyder
+_jag_ eller _vi_. Även om det är grammatiskt korrekt, är det ett
+kulturellt tabu.
+
+
+4.2.3. Typ 3: Förändring [[**2001-01-08]]
+------------------------
+
+Suffix av denna typ visar att den av verbet beskrivna handlingen
+involverar en förändring av något slag jämfört med de förhållanden som
+rådde innan handlingen ägde rum.
+
+{-choH} _ändring i tillstånd, ändring i riktning_
+
+> |-------------|----------------------------------------------------|
+> | {maDo'choH} | _vi börjar få tur, lyckan vänder_ ({Do'} _ha tur_) |
+
+
+> |------------|-----------------------------------|
+> | {ghoSchoH} | _han/hon börjar gå_ ({ghoS} _gå_) |
+
+Det andra exemplet implicerar att att han eller hon inte gick eller
+var på väg någon annanstans innan meningen yttrades. Lägg märke till
+att översättningen av detta suffix kan vara svenskans _bli_ eller
+_börja_.
+
+{-qa'} _fortsätta, göra igen_
+
+När man använder detta suffix menar man att en handling har pågått,
+avbrutits och sedan påbörjats igen.
+
+> |------------|----------------------------------------------------------------------------|
+> | {vInejqa'} | _jag fortsätter sökandet, jag letar efter honom/henne igen_ ({nej} _leta_) |
+
+
+4.2.4. Typ 4: Orsak [[**2001-01-08]]
+-------------------
+
+{-moH} _orsaka_
+
+Att lägga detta suffix till ett verb visar att subjektet orsakar en
+förändring av förhållanden eller får ett nytt läge att uppkomma.
+
+> |------------------------|----------------------------------------------------------------------------------------------|
+> | {tIjwI'ghom vIchenmoH} | _jag bildar en bordningspatrull_ ({tIjwI'ghom} _bordningspatrull_, {chen} _ta form, bildas_) |
+
+Denna mening kan också översättas till _jag får en äntringsgrupp att
+bildas_.
+
+> |------------|---------------------------------------|
+> | {HIQoymoH} | _låt mig höra (något)_ ({Qoy} _höra_) |
+
+Denna mening skulle tydligare kunna översättas till _orsaka att jag hör
+något_. Notera att den inte skulle användas för att be om tillstånd att
+lyssna; det är ett kommando.
+
+Normalt innehåller inte den bästa svenska översättningen av ett verb
+med {-moH} ordet _orsaka_. Till exempel skulle
+{chenmoH} _han/hon tillverkar, skapar_ översättas till
+_han/hon får det att ta form_ ({chen} _ta form, ta
+skepnad_, men det skulle vara en klumpig svensk mening.
+
+
+4.2.5. Typ 5: Indefinit subjekt/förmåga [[**2001-01-08]]
+---------------------------------------
+
+De två suffix som tillhör typ 5 har inte mycket med varandra att göra
+förutom att de båda tillhör typ 5. Resultatet av detta är att inget
+verb kan förekomma med båda dessa suffix.
+
+{-lu'} _indefinit subjekt_
+
+Detta suffix andvänds för att visa att subjektet är okänt,
+odefinierat eller allmänt. Eftersom subjektet alltid är detsamma (det
+vill säga, det nämns aldrig), används de pronominella prefixen på ett
+annat sätt. De prefix som normalt indikerar första eller andra
+persons subjekt och tredje persons singular objekt ({vI-, Da-, wI-,
+bo-}) används för att indikera första eller andra persons
+objekt. Alltså betyder {vI-}, som normalt betyder _jag gör
+något med honom/henne_ i ett verb med suffixet {-lu'}
+_någon/något gör något med mig_. På samma sätt blir prefixet
+{vI-}, som normalt betyder _de gör något med honom/henne_,
+_någon/något gör något med dem_.
+
+> |-------------|------------------------------------------|
+> | {Daqawlu'}  | _någon/något minns dig_ ({qaw} _minnas_) |
+> | {wIleghlu'} | _någon/något ser oss_ ({legh} _se_)      |
+> | {Soplu'}    | _någon/något äter det_ ({Sop} _äta_)     |
+
+Verb med {-lu'} översätts ofta till svenska med passiv form.
+
+> |-------------|--------------------|
+> | {Daqawlu'}  | _du är ihågkommen_ |
+> | {wIleghlu'} | _vi är sedda_      |
+> | {Soplu'}    | _det blir ätet_    |
+
+När det används med verbet {tu'} _finna, observera_ och
+ett tredje persons singularobjekt (0) översätts resultatet,
+{tu'lu'} _någon/något finner det_ ofta till svenskans _det
+finns_.
+
+> |-----------------------|----------------------------------------------------------------------------------------------------|
+> | {naDev puqpu' tu'lu'} | _det finns barn här, någon/något finner barn här_ ({naDev} _häromkring_, {puqpu'} _barn (plural)_) |
+
+{-laH} _kan_
+
+> |--------------|-----------------------------------------------|
+> | {jIQonglaH}  | _jag kan sova_ ({Qong} _sova_)                |
+> | {choleghlaH} | _du kan se mig_ ({legh} _se_)                 |
+> | {nuQaw'laH}  | _han/hon kan förgöra oss_ ({Qaw'} _förstöra_) |
+
+
+4.2.6. Typ 6: Kvalifikation [[**2001-01-08]]
+---------------------------
+
+Liksom substantivsuffix av typ 3, visar dessa suffix hur säker den
+talande är på det som sägs.
+
+{-chu'} _perfekt, tydligt_
+
+> |-------------|------------------------------------------------------------------|
+> | {jIyajchu'} | _jag förstår utmärkt_ ({yaj} _förstå_)                           |
+> | {baHchu'}   | _han/hon avfyrade torpeden perfekt_ ({baH} _avfyra (en torped)_) |
+
+{-bej} _definitivt, tveklöst_
+
+> |------------|----------------------------------------------------------------------|
+> | {chImbej}  | _den är tveklöst tom_ ({chIm} _vara tom_)                            |
+> | {nuSeHbej} | _han/hon kontrollerar oss verkligen_ ({SeH} _kontrollera, behärska_) |
+
+{-law'} _antagligen, nog, verkar vara_
+
+> |-------------|-----------------------------------------------------------------|
+> | {chImlaw'}  | _den verkar vara tom_ ({chIm} _vara tom_)                       |
+> | {nuSeHlaw'} | _han/hon tycks kontrollera oss_ ({SeH} _kontrollera, behärska_) |
+
+Det sista suffixet uttrycker osäkerhet hos talaren och kan till och
+med översättas till _jag tror_ eller _jag misstänker_. Följaktligen
+skulle de två senaste meningarna översättas till _jag tror att den är
+tom_ och _jag misstänker att han/hon kontrollerar oss_.
+
+{-ba'} _uppenbarligen_
+
+Detta suffix används när talaren tycker att hans eller hennes
+påstående borde vara uppenbart för lyssnaren. Icke desto mindre
+finns det fortfarande utrymme för tvivel; suffixet antyder inte en
+lika stark övertygelse som {-bej} _definitivt, tveklöst_.
+
+> |----------------|---------------------------------------------------------------------------------------------------|
+> | {nepwI' Daba'} | _han/hon ljuger uppenbarligen_ ({nepwI'} _lögnare_, {Da} _bete sig som, agera på samma sätt som_) |
+
+
+4.2.7. Typ 7: Aspekt [[*2001-01-08]]
+--------------------
+
+Klingonska uttrycker inte tempus (preteritum, presens, futurum).
+Detta framkommer av sammanhanget eller av andra ord i meningen (så
+som t.ex. {wa'leS} _imorgon_). Språket kan dock uttrycka
+aspekt, d.v.s. hurvida en handling är avslutad eller oavslutad och
+hurvida den är en enstaka händelse eller ett pågående förlopp.
+
+Frånvaro av ett suffix an typ 7 betyder vanligen att handlingen
+inte är avslutad och inte är ett pågående förlopp (det vill säga,
+den är inte någon av de saker som indikeras med suffix av typ 7).
+Verb utan typ 7-prefix översätts till svenska med presens.
+
+> |----------|------------------------------------------|
+> | {Dalegh} | _du ser honom/henne_ ({legh} _se_)       |
+> | {qaja'}  | _jag berättar för dig_ ({ja'} _berätta_) |
+
+När det är lämpligt i sammanhanget, kan ett verb som saknar typ
+7-suffix översättas till svenska med futurum (_kommer att, ska_),
+men i klingonska ligger dessa meningar egentligen närmare meningar
+som _vi flyger imorgon i gryningen_, där ett verb i presens-form
+refererar till en framtida händelse.
+
+{-pu'} _perfektiv_
+
+Detta suffix uttrycker att en handling är avslutad. Det översätts
+ofta till svenskans perfekt (_har gjort något_).
+
+> |-------------|----------------------------------------------|
+> | {Daleghpu'} | _du har sett det_ ({legh} _se_)              |
+> | {vIneHpu'}  | _jag ville ha dem_ ({neH} _vilja, vilja ha_) |
+> | {qaja'pu'}  | _jag berättade för dig_ ({ja'} _berätta_)    |
+
+{-ta'} _utfört, gjort_
+
+Det här suffixet liknar {-pu'}, men används endast när en
+aktivitet avsiktligt påbörjades, det används för att uttrycka att
+någon hade för avsikt att göra något och därefter faktiskt gjorde
+det. Skillnaden syns oftast inte i svenska översättningar.
+
+> |------------|------------------------------------------------------------|
+> | {vISuqta'} | _jag har skaffat det_ ({Suq} _förvärva, skaffa, få tag i_) |
+> | {luHoHta'} | _de har dödat honom/henne_ ({HoH} _döda_)                  |
+
+Den andra av meningarna ovan skulle inte ha används om dödandet
+var ett resultat av större attack som inte hade för avsikt att döda
+den specifika personen, eller om dödandet var oavsiktligt. I sådana
+fall skulle istället {-pu'} användas:
+
+> |------------|-------------------------------------------|
+> | {luHoHpu'} | _de har dödat honom/henne_ ({HoH} _döda_) |
+
+Den innebörd som {-ta'} har kan också uttrycka syntaktiskt,
+d.v.s. istället för att använda suffixet {-ta'} kan en särskild
+verbkonstruktion som kommer efter verbet i meningen användas för att
+indikera den avslutade handlingen. Detta verb är {rIn} _vara
+åstadkommen, vara färdig_ och i den här användningen tar det alltid
+suffixet {-taH} _pågående_ (se nedan) och ett prefix som
+uttrycker tredje person (0). Den resulterande konstruktionen,
+{rIntaH} betyder bokstavligen _det forstätter vara färdigt_
+eller _det förblir åstadkommet_ och används för att uttrycka att
+handlingen som beskrivs av föregående verb är ett fullbordat faktum:
+det är gjort, och kan inte göras ogjort.
+
+> |----------------|-------------------------------------------|
+> | {luHoH rIntaH} | _de har dödat honom/henne_ ({HoH} _döda_) |
+> | {vIje' rIntaH} | _jag har köpt den_ ({je'} _köpa, handla_) |
+
+De svenska översättningarna av {rIntaH} och {-ta'} är
+ser vanligtvis likadana ut och det intryck av total slutgiltighet
+som förmedlas av {rIntaH} märks sällan.
+
+Det bör noteras att {rIntaH} ibland används för
+dramatisk effekt, även i fall då handlingen skulle kunna göras
+ogjord.
+
+{-taH} _pågående_
+
+Detta suffix indikerar att en handling är pågående.
+
+> |-------------|--------------------------------------------------------------------------------------------|
+> | {nughoStaH} | _det kommer närmare oss_ ({ghoS} _komma närmare, nalkas_)                                  |
+> | {yIghoStaH} | _håll kursen!, följ den här kursen!_ ({ghoS} _nalkas, fortsätta frammåt, följa (en kurs)_) |
+
+Båda de ovanförvarande meningarna indikerar att det rör sig om en
+pågående handling. Betydelsen av {-taH} kan ses tydligt genom
+att jämföra följande två kommandon:
+
+> |------------|------------------------------|
+> | {yIjun}    | _gör en undvikande manöver!_ |
+> | {yIjuntaH} | _vidta undvikande åtgärder!_ |
+
+I det första fallet ska manövern utföras endast en gång, i det
+andra ska en serie manövrar utföras -- handlingen ska vara pågående.
+
+{-lI'} _fortskridande, framskridande_
+
+FIXME
+
+
+4.2.8. Typ 8: Hedersbetygande
+-----------------------------
+
+{-neS} _hedersbetygande_
+
+FIXME
+
+
+4.2.9. Typ 9: Syntaktiska markörer
+----------------------------------
+
+{-DI'} _när, så snart som_
+
+FIXME
+
+{-chugh} _om, ifall_
+
+FIXME
+
+{-pa'} _innan, före_
+
+FIXME
+
+{-vIS} _medan_
+
+FIXME
+
+{-bogh} _som_ (relativ bisats-markör)
+
+FIXME
+
+{-meH} _i syfte att_
+
+FIXME
+
+{-'a'} _interrogativ_
+
+Detta suffix indikerar att meningen ar en ja/nej fråga; det vill säga en fråga
+som kan besvaras med "ja" eller "nej". (Se även sektion 6.4.)
+
+> |----------------------------------------------|
+> | {cholegh'a'} _ser du mig?_ ({legh} _se_)     |
+> | {yaj'a'} _förstår han/hon?_ ({yaj} _förstå_) |
+
+Frågor av andra slag kräver användandet av särskilda frågeord (sektion 6.4).
+
+{-wI'} _en som gör, sak som gör, en som är_
+
+FIXME
+
+{-mo'} _på grund av_ [TKDa]
+
+FIXME
+
+{-jaj} _må, månde_ (konjunktiv) [TKDa]
+
+FIXME
+
+{-ghach} _substantiviserare_ [TKDa]
+
+FIXME
+
+
+4.2.10. Inbördes ordning av suffix
+----------------------------------
+
+FIXME
+
+
+4.3. Strövare
+------------
+
+FIXME
+
+{-be'} _inte_
+
+FIXME
+
+{-Qo'} _gör inte!, tänker inte_
+
+FIXME
+
+{-Ha'} _negera, göra ogjort_
+
+FIXME
+
+{-qu'} _emfatiskt, framhävande_
+
+FIXME
+
+
+4.4. Adjektiv
+------------
+
+FIXME
+
+[[David Trimboli, Torsdag 1999-04-08, på KLIs epost-lista:
+
+This is not quite right. We've seen {-qu'}, {-be'}, and {-Ha'} on adjectival verbs.
+
+> |-----------------------------------------------|
+> | {veng tInqu'Daq}                              |
+> | _In the very big city_ [TKD p.50]             |
+> |                                               |
+> | {wa'maH yIHmey lI'be'}                        |
+> | _Ten useless tribbles_  [CK, on how to count] |
+> |                                               |
+> | {Duj ngaDHa'}                                 |
+> | _Unstable vessel_ [KGT p.150]                 |
+
+Therefore, a more accurate description might be that when a verb is acting
+adjectivally, it may only have rovers for suffixes (not counting the migrating
+Type 5 noun suffix).
+
+It might possibly be true that an adjectival verb can take any suffix which
+doesn't change the verb's _quality_ nature. For instance, {tIn} means _be big_
+and is a verb of quality. {tInba'} means _obviously big,_ and is still a verb of
+quality. {tInchoH} means _become big,_ and no longer refers to only a quality.
+
+However, the above paragraph is merely speculation, and there are absolutely no
+examples of anything other than a rover on an adjectivally-acting verb.
+/{SuStel}]]
+
+[[eof]]

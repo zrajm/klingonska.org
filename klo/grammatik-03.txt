@@ -1,0 +1,342 @@
+title: Klingonsk ordbok
+author: zrajm
+year: 1998-2000
+lang: sv
+prev: grammatik-03
+next: grammatik-04
+
+
+3. Substantiv [[**]]
+=============
+
+Det finns olika slags substantiv i klingonska.
+
+
+3.1. Enkla substantiv [[**]]
+---------------------
+
+Enkla substantiv, liksom enkla substantiv på svenska, är enkla ord; till
+exempel, {DoS} _mål(-tavla)_ eller {QIH} _förintelse_.
+
+
+3.2. Komplexa substantiv [[**]]
+------------------------
+
+Komplexa substantiv, å andra sidan, består av mer än en del.
+
+
+3.2.1. Sammansatta substantiv [[**]]
+-----------------------------
+
+Sammansatta substantiv består av två eller tre substantiv i rad, i
+likhet med svenskans _daggmask_ (_dagg_ plus _mask_) eller _lösenord_
+(_lösen_ plus _ord_). Till exempel, {jolpa'} _transporter rum_ som
+består av {jol} _transportstråle_ plus {pa'} _rum_.
+
+
+3.2.2. Verb plus {-wI'}  [[**]]
+-----------------------
+
+En annan grupp komplexa substantiv består av ett verb följt av ett
+suffix som betyder _någon som gör_ eller _sak som gör_. Det svenska
+suffixet _-are_ (som i _arbetare_ "en som arbetar") fungerar ungefär
+likadant. På klingonska är suffixet {-wI'}. Det förekommer, till
+exempel, i {baHwI'} _skytt, artillerist_, vilket består av verbet
+{baH} _avfyra, skjuta (en torped)_ plus {-wI'} _någon som gör_.
+{baHwI'} betyder altså bokstavligen "någon som avfyrar [en torped]".
+På samma sätt kommer {QumwI'} _kommunikator_ av {Qum}
+_kommunicera_ plus {-wI'} _sak som gör_. {QumwI'} är en "sak som
+kommunicerar".
+
+Ett substantiv bildat genom att lägga till {-wI'} är ett
+regelrätt substantiv, och kan således användas tillsammans med ett annat
+substantiv för att bilda ett sammansatt substantiv. Till exempel,
+{tIjwI'ghom} _bordningspatrull_ kommer av {tIjwI'} _någon som
+bordar_ och {ghom} _grupp_; och {tIjwI'} kommer av {tIj}
+_borda_ plus {-wI'}.
+
+[[Exemplet {QumwI'} ovan har ersatts {So'wI'} tills vidare (hur i h-e säger man
+_cloaking device_ på svenska?) /övers.anm.]]
+
+
+3.2.3. Andra komplexa substantiv [[**]]
+--------------------------------
+
+Det finns åtskilliga substantiv i klingonskan som består av två eller,
+mer sällan, tre stavelser, men som inte är komplexa substantiv av typerna
+beskrivna ovan. Dessa substantiv bildades förmodligen någon gång genom
+kombinerandet av flera enkla substantiv, men ett eller alla av de
+substantiv som bildar det komplexa substantivet används inte längre, så det
+är inte möjligt (utan omfattande etymologiska undersökningar) att veta vad
+de individuella delarna betyder.
+
+Till exempel betyder {'ejDo'} _stjänkryssare_. Stavelsen
+{'ej} förekommer också i {'ejyo'} _Stjärnflottan_. Det finns,
+emellertid, inga kända klingonska ord {'ej}, {Do'} eller {yo'}
+som har något att göra med Stjärnflottan, stjärnkryssare, Federationen,
+eller rymdfarkoster av något slag. Det förefaller sannorlikt att {Do'}
+är ett gammal-klingonskt ord som betyder _rymdfarkost_ (det moderna
+klingonska ordet är {Duj}) som inte används någonstans utom i
+substantivet {'ejDo'}. Utan vidare studier för blir dock detta en ren
+hypotes.
+
+[[_Stjärnflottan_ avser naturligtvis _Starfleet_, _stjärnkryssare_ är ett
+försökt till översätting av _starship_, som behåller distiktionen mellan
+_starship_ och _spaceship_. Kritik kring denna översätting mottages tacksamt av
+[mig][zrajm]. /övers.anm.]]
+
+[zrajm]: mailto:zrajm@klingonska.org
+
+
+3.3. Substantivsuffix [[**]]
+---------------------
+
+All substantiv, både enkla och komplexa, kan följas av ett eller fler
+suffix. Om det är två eller fler suffix, måste suffixen följa en bestämd
+ordning. Suffixen kan kan klassificeras med utgångspunkt från deras
+inbörders ordning efter substantivet. Det finns fem typer av suffix (vilka,
+av bekvämlighesskäl, kommer att nummreras från 1 till 5). Typ 1 suffix
+följer direkt efter substantivet, Typ 2 följer efter de av Typ 1; Typ 5
+suffix kommer sist. Detta kan illustreras på följande sätt:
+
+> SUBSTANTIV--1--2--3--4--5
+
+Naturligtvis, om inget suffix av Typen 1 används, men ett suffix av
+Typen 2 används, så kommer Typ 2 suffixet direkt efter substantivet. Om ett
+suffix av Typen 5 är det enda förekommande suffixet, så kommer det direkt
+efter substantivet. Bara när två eller fler suffix används blir deras
+ordning uppenbar.
+
+Det finns åtminstonde två suffix av varje suffixtyp. Bara ett
+suffix av varje typ kan användas sammtidigt. Det vill säga, ett substantiv
+kan inte följas av, till exempel, två eller tre Typ 4 suffix,
+
+De ingående suffixen för varje typ av suffix följer här.
+
+
+3.3.1. Typ 1: Augmentativ/diminutiv, affektion [[**]]
+----------------------------------------------
+
+{-'a'} _augmentativ_
+
+Detta suffix indikerar att det substantivet refererar till är
+större, viktigare, eller kraftfullare än det skulle vara utan suffixet.
+
+> |--------------------|------------------------------|
+> | {SuS} _vind, bris_ | {SuS'a'} _stark vind, storm_ |
+> | {Qagh} _misstag_   | {Qagh'a'} _rejäl blunder_    |
+> | {woQ} _makt_       | {woQ'a'} _yttersta makten_   |
+
+
+{-Hom} _diminutiv_
+
+Detta är motsattsen till augumentativsuffixet. Det indikerar att
+det substantivet refererar till är mindre, mindre viktigt eller mindre
+kraftfullt än det skulle vara utan suffixet.
+
+> |--------------------|---------------------------------------|
+> | {SuS} _vind, bris_ | {SuSHom} _vindpust_                   |
+> | {roj} _fred_       | {rojHom} _vapenvila, tillfällig fred_ |
+
+
+{-oy} _affektion_ [TKDa]
+
+Detta är ett sällan använt, men i vilket fall mycket intressant
+suffix. Det är ett väldigt karakteristiskt då det är det enda suffixet som
+börjar med en vokal snarare än en konsonant. (Även då det inte finns några
+exempel på detta, så misstänks det att {'} sätts in framför detta
+suffix när det följer något av de få substantiv som slutar på vokal.)
+Suffixet följer vanligen ett substantiv som referar till en släkting
+(_mor_, _far_, etc.), men det kan också följa ett substantiv för ett djur,
+särskilt ett sällskapsdjur, och betyder att talaren är särsklit fäst vid
+det som substantivet refererar till. Det rekomenderas starkt att
+icke-infödda klingonsktalande undviker detta suffix om de inte är säkra vad
+de ger sig in på.
+
+> |-------------------|------------------|
+> | {vav} _far_       | {vavoy} _pappa_  |
+> | {be'nI'} _syster_ | {be'nI'} _syrra_ |
+
+
+3.3.2. Typ 2: Numerus [[*]]
+---------------------
+
+Precis som på svenska har ett klingonskt substantiv i singular inget
+speciellt suffix som indikerar att det är singular: {nuH} _vapen_ refererar
+till ett enda vapen av vilket slag som helst. Till skillnad från svenska,
+däremot, innebär avsaknaden av ett specifikt singularsuffix inte alltid att
+substantivet är i singularis. På klingonska kan nämligen ett substantiv utan
+pluralsuffix ändå referera till fler än en enhet. Att substantivet är i plural
+indikeras då med pronomen, antingen genom verbprefix (se sektion
+4.1), eller i kontexten. Till exempel, {yaS}
+_officer_ kan referera till en enda officer eller en grupp officerare, beroende
+på andra ord i meningen, eller diskussionens kontext.
+
+Jämför:
+
+> |--------------------------------------|
+> | {yaS vImojpu'} _Jag blev officer._   |
+> | {yaS DImojpu'} _Vi blev officerare._ |
+> | {yaS jIH} _Jag är officer._          |
+> | {yaS maH} _Vi är officerare._        |
+
+I det första meningsparet är verbprefixet den enda skillnaden (här endast
+ofullständigt beskrivet; se sektion 4.1): {vI-}
+_jag_, {DI-} _vi_. I det andra paret är det pronomina är skillnaden:
+{jIH} _jag_, {maH} _vi_.
+
+Under vissa omständigheter är kontexten det enda sättet att veta
+hurvida substantivet refererar till en eller flera enheter. Sålunda kan {yaS
+mojpu'} översättas antingen _han/hon blev officer_ eller _de blev
+officerer_. De som deltar i diskussionen där denna mening används förmodas redan
+veta vem det talas om och sålunda skulle de också känna till hurvida _han_ eller
+_hon_ eller _de_ är den korrekta betydelsen.
+
+Som tur är, för de som studerar klingonska, är det aldrig felaktigt att
+lägga använda pluralsuffix på ett substantiv som refererar till fler än en
+enhet, även i de fall då det inte är nödvändigt att göra det. Följaktligen är
+både {yaS maH} och {yaSpu' maH} korrekt, båda två betydande _vi är
+officerer_ ({-pu'} är ett pluralsuffix). Å andra sidan kan ett pluralsuffix
+aldrig läggas till ett substantiv som refererar till endast en enhet, även om
+pronomina finns med i meningen. På klingonska är {yaSpu' jIH} _jag är
+officerer_ lika felaktigt som dess svenska översättning.
+
+Det finns tre olika plural suffix på klingonska.
+
+{-pu'} _plural för varelser förmögna till språk_
+
+Detta suffix används för att indikera plural för klingoner, jordlingar,
+romulaner, vulkaniter, och så vidare, men inte för någon slags lägre stående
+djur, växter, icke-levande föremål, elektomagnetisk eller annan strålning eller
+vågor, etc.
+
+> |-------------------|-------------------------------------------|
+> | {yaS} _officer_   | {yaSpu'} _officerare_                     |
+> | {Duy} _emissarie_ | {Duypu'} _emissarier_ (d.v.s. sändebud)   |
+
+
+{-Du'} _plural för kroppsdelar_
+
+Detta suffix används då kroppsdelar tillhörande varelser förmögna till
+språk, liksom andra djurs kroppsdelar åsyftas.
+
+> |--------------------|------------------------|
+> | {qam} _fot_        | {qamDu'} _fötter_      |
+> | {tlhon} _näsborre_ | {tlhonDu'} _näsborrar_ |
+
+
+{-mey} _plural, generell användning_
+
+Detta suffix markerar plural på vilket substantiv som helst.
+
+> |----------------|---------------------|
+> | {mID} _koloni_ | {mIDmey} _kolonier_ |
+> | {yuQ} _planet_ | {yuQmey} _planeter_ |
+
+FIXME -- Oöversatt text
+
+
+3.3.3. Typ 3: Kvalifikation
+---------------------------
+
+{-qoq} _så kallad_
+
+FIXME -- Oöversatt text
+
+{-Hey} _synbar, skenbar_
+
+FIXME -- Oöversatt text
+
+{-na'} _definitiv_
+
+
+3.3.4. Typ 4: Possesiv/demonstrativ
+-----------------------------------
+
+Typ 4 är den största klassen substantivsuffix. Den består av alla
+possesivsuffixen plus suffix som kan översättas till svenskans _det här_ och
+_det där_.
+
+Possesivsuffixen är:
+
+|-----------------------------|--------------------|
+| {-wIj} _min, mitt_          | {-maj} _vår, vårt_ |
+| {-lIj} _din, ditt_          | {-raj} _er, ert_   |
+| {-Daj} _hans, hennes, dess_ | {-chaj} _deras_    |
+
+FIXME
+
+|--------------------|--------------------|
+| {-wI'} _min, mitt_ | {-ma'} _vår, vårt_ |
+| {-lI'} _din, ditt_ | {-ra'} _er, ert_   |
+
+FIXME
+
+{-vam} _det här_
+
+FIXME
+
+{-vetlh} _det där_
+
+FIXME
+
+
+3.3.5. Typ 5: Syntaktiska markörer
+----------------------------------
+
+FIXME
+
+{-Daq} _lokativ_
+
+FIXME
+
+{-vo'} _från_
+
+FIXME
+
+{-mo'} _på grund av, beroende på_
+
+FIXME
+
+{-vaD} _för, avsedd för_
+
+FIXME
+
+{-'e'} _tema, ämne_
+
+Detta suffix betonar att substantivet det är fäst på är meningens
+tema. På svenska åstadkoms detta ofta genom att betona substantivet (säga
+det med eftertryck) eller genom särskilda syntaktiska konstruktioner.
+
+> |-----------------|---------------------------------------|
+> | {lujpu' jIH'e'} | _Jag, och bara jag, har misslyckats._ |
+> |                 | _Det är jag som har misslyckats._     |
+
+
+> |------------------------|----------------------------------------------------------------|
+> | {De''e' vItlhapnISpu'} | _Jag behövde få tag i _informationen.__                        |
+> |                        | _Det var informationen (och ingenting annat) som jag behövde._ |
+
+Utan {-'e'} skulle dessa meningar inte ha tonvikten på något
+utpekat substantiv.
+
+> |--------------------------------------------------------------|
+> | {lujpu' jIH} _Jag har misslyckats._                          |
+> | {De''e' vItlhapnISpu'} _Jag behövde få tag i informationen._ |
+
+För ytterligare användning av {-'e'}, se sektion 6.3.
+
+
+3.3.6. Inbördes ordning av suffix
+---------------------------------
+
+FIXME
+
+
+3.4. Substantiv--substantiv konstruktionen
+------------------------------------------
+
+FIXME
+
+
+[[eof]]

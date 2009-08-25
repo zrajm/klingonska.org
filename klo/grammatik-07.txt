@@ -1,0 +1,109 @@
+title: Klingonsk ordbok
+author: bkhl, zrajm
+year: 1998-2009
+lang: sv
+prev: grammatik-06
+next: ordlista-00
+
+
+7. Klippt klingonska [[**1999-04-17]]
+====================
+
+Föregående grammatiska skiss beskriver "korrekt" klingonska, det vill säga
+klingonska som den lärs ut i klingonska skolor och till icke-klingoner. När
+klingonska talas till vardags brukar den dock avvika något från sin "korrekta"
+form, normalt sett genom att en del element utelämnas. Detta förkortade sätt att
+tala, kallat _klippt klingonska_ av klingonska grammtiker, hörs ofta i
+militära sammanhang, då snabbhet -- snarare än vältalighet -- anses vara en dygd.
+Förmodligen av liknande skäl används klippt klingonska i ganska stor omfattning
+i alla klingonska samhällsklasser.
+
+Några av den klippta klingonskans drag beskrivs här nedan.
+
+
+7.1. Kommandon [[**1999-04-17]]
+--------------
+
+Vid ordergivning kan imperativprefixet (sektion
+4.1.2) utelämnas och lämna kvar ett bart verb.
+
+> |----|-----------------------------------------------------------------|
+> | Korrekt klingonska: {yIbaH} _Avfyra (torpederna)!_                  ||
+> | Klippt klingonska: {baH}                                            ||
+> |                                                                     ||
+> | Korrekt klingonska: {wIy yIcha'} _Visa den taktiska skärmen!_       ||
+> | Klippt klingonska: {wIy cha'}                                       ||
+> | <> | ({wIy} _taktisk skärm på monitor_, {cha'} _visa, projicera_)    |
+> |                                                                     ||
+> | Korrekt klingonska: {He chu' yIghoS} _Följ en ny kurs!_             ||
+> | Klippt klingonska: {He chu' ghoS}                                   ||
+> | <> | ({He} _kurs_, {chu'} _vara ny_, {ghoS} _följa en kurs_)         |
+
+När objektet är avgörande, och det som ska göras med det är uppenbart
+(eller borde vara uppenbart) för lyssnaren, kan detta substantiv ensamt tjäna
+som kommando.
+
+> |----|-----------------------------------------------------------------|
+> | Korrekt klingonska: {chuyDaH yIlaQ} _Aktivera raketmotorerna!_      ||
+> | Klippt klingonska: {chuyDaH} _Raketmotorer!_                        ||
+> | <> | ({chuyDaH} _raketmotorer_, {laQ} _tända, aktivera_)             |
+> |                                                                     ||
+> | Korrekt klingonska: {HaSta yIcha'} _Visa bildskärmen!_              ||
+> | Klippt klingonska: {HaSta} _Bildskärm!_                             ||
+> | <> | ({HaSta} _bildskärm på monitor_, {cha'} _visa, projicera_)      |
+
+Slutligen kan andra grammatiska markörer, särskilt substantivsuffix,
+utelämnas från kommandon.
+
+> |----|-----------------------------------------------------------------|
+> | Korrekt klingonska: {jolpa'Daq yIcha'} _Gå till transporterrummet!_ ||
+> | Klippt klingonska: {jolpa' yIjaH}                                   ||
+> | <> | ({jolpa'} _transporterrum_, {-Daq} _lokativ_, {jaH} _gå_)       |
+
+Det är inte brukligt att när substantivsuffix har kapats,
+därutöver låta verbets imperativprefix falla.
+
+
+7.2. Svar på kommandon, statusrapporter [[**1999-04-17]]
+---------------------------------------
+
+Svar på kommandon och statusrapporter har också en benägenhet att bli
+klippta.
+
+> |----|----------------------------------------------------------------------|
+> | Korrekt klingonska: {So'wI' vIchu'ta'} _Jag har slagit på maskeringen._  ||
+> | Korrekt klingonska: {So'wI' chu'lu'ta'} _Maskeringen har slagits på._    ||
+> | Klippt klingonska: {So'wI' chu'ta'} _Maskeringen påslagen._              ||
+> | <> | ({So'wI'} _maskering, maskeringsannordning_, {vIchu'ta'} _jag har slagit på den_, {chu'lu'ta'} _den har slagits på_) |
+
+I det föregående exemplet kan den klippta formen motsvara antingen i en
+kapning av prefixet {vI-} _jag--den_ eller suffixet {-lu'}
+_indefinit subjekt_.
+
+> |----|-----------------------------------------------------|
+> | Korrekt klingonska: {jIyajchu'} _Jag förstår tydligt._  ||
+> | Klippt klingonska: {yajchu'} _Förstått tydligt._        ||
+> | <> | ({yaj} _förstå_, {-chu'} _tydligt, perfekt_)        |
+
+I detta slutliga exempel är den klippta formen ett sannorlikt svar på en
+fråga i klippt form, såsom {yaj'a'} _Förstått?_ (jämför med {bIyaj'a'}
+_Förstår du?_ på korrekt klingonska).
+
+
+7.3. Tvång, upphetsning [[**1999-04-17]]
+-----------------------
+
+I farofyllda situationer eller då omedelbar handling krävs är en klingon
+benägen att kapa pronominella prefix. Denna klippta form är också vanlig då en
+klingon är upphetsad av någon anledning.
+
+> |----|---------------------------------------------------------------------------------------|
+> | Korrekt klingonska: {qama'pu' vIjonta' vIneH} _Jag ville ta fångar._                      ||
+> | Klippt klingonska: {qama'pu' jonta' neH} _Ville ha fångar!_                               ||
+> | <> | ({qama'pu'} _fångar_, {vIjonta'} _jag tog dem till fånga_, {vIneH} _jag vill ha dem_) |
+	
+I sammanhanget torde det stå klart att den talande är den som gör
+önskandet (och fångandet), trots att det pronominella prefixet {vI-}
+_jag--dem_ saknas.
+
+[[eof]]

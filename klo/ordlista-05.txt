@@ -1,0 +1,116 @@
+title: Klingonsk ordbok
+author: zrajm
+year: 1998-2009
+lang: sv
+prev: ordlista-04
+next: tillagg-01
+
+
+Appendix: En lista med utvalda användbara klingonska uttryck [[*1999-04-17]]
+=============================================================
+
+|--------------------------|-----|-----|------|-----|-----|------|-----|-----|-----|-----|-----|-----|------|-----|-----|-----|-----|-----|-----|-----|-------|-----|-----|-----|-----|-----|
+| Normal translitterering: | {a} | {b} | {ch} | {D} | {e} | {gh} | {H} | {I} | {j} | {l} | {m} | {n} | {ng} | {o} | {p} | {q} | {Q} | {r} | {S} | {t} | {tlh} | {u} | {v} | {w} | {y} | {'} |
+| Grov uttalsanvisning:    | _a_ | _b_ | _tch_ | _d_ | _e_ | _g_ | _sj_ | _i_ | _dj_ | _l_ | _m_ | _n_ | _ng_ | _å_ | _p_ | _k_ | _kr_ | _r_ | _s_ | _t_ | _tl_ | _u_ | _v_ | _w_ | _y_ | _'_ |
+
+
+För den som vill försöka sig på att tala klingonska utan att läsa den
+grammatiska beskrivningen av språket ges här en grov uttalsanvisning som guide.
+Bokstäverna kan läsas med sina vanliga svenska ljudvärden, med följande
+särskilda konventioner:
+
+|-----|-------|----------|
+| _a_ | som i | _far_    |
+| _e_ | som i | _effekt_ |
+| _i_ | som i | _iller_  |
+| _å_ | som i | _åska_   |
+| _u_ | som i | _bula_   |
+
+I ord med mer än en stavelse är betonade stavelser skrivna med enbart
+stora bokstäver.
+
+De som följer den grova uttalsanvisningen utan att lära sig verkligt
+klingonskt uttal, beskrivet i den här ordbokens sektion
+1, bör vara medvetna om att de kommer att tala med en stark jordisk
+brytning.
+
+| Svenska                          | Klingonska                        | Grovt uttal   |
+|----------------------------------|-----------------------------------|---------------|
+| Ja.                              | {HIja'} eller {HISlaH}            | _sji-DJA'_ eller _sjis-LASJ_ |
+| Nej.                             | {ghobe'}                          | _gå-BE'_ |
+| Jag har gjort det! Jag är klar!  | {pItlh}                           | _pitl_ |
+| Jaså! Aha!                       | {toH}                             | _tåsj_ |
+| Hur hände det här? Vad pågår?    | {chay'}                           | _tchay'_ |
+| Jag förstår inte.                | {jIyajbe'}                        | _dji-YADJ-be'_ |
+| Jag bryr mig inte.               | {jISaHbe'}                        | _dji-SASJ-be'_ |
+| Inga problem!                    | {qay'be'}                         | _kay'-BE'_ |
+| Talar du klingonska?             | {tlhIngan Hol Dajatlh'a'}         | _TLIngan sjål da-djatl-'A'_ |
+| Jag kan inte tala klingonska.    | {tlhIngan Hol vIjatlhlaHbe'}      | _TLIngan sjål vi-DJATL-lasj-BE'_ |
+| Var finns det en bra restaurang? | {nuqDaq 'oH Qe' QaQ'e'}           | _nuk-DAK 'åsj kre' KRAKR-'e'_ |
+| Var är toaletten?                | {nuqDaq 'oH puchpa''e'}           | _nuk-DAK 'åsj putch-PA'-'e'_ |
+| Hur mycket bränsle har vi kvar?  | {nIn 'ar wIghaj}                  | _nin 'ar wi-GADJ_ |
+| Jag vägrar (göra det)!           | {Qo'}                             | _krå'_ |
+| Mata honom!                      | {yIje'}                           | _yi-DJE'_ |
+| Du har rätt.                     | {bIlugh}                          | _bi-LUG_ |
+| Du har fel.                      | {bIlughbe'}                       | _bi-lug-BE'_ |
+| Stör jag dig?                    | {qaSuj'a'}                        | _ka-sudj-'A'_ |
+| Det är inte mitt fel.            | {pIch vIghajbe'}                  | _pitch vi-gadj-BE'_ |
+| Min kronometer har stannat.      | {tlhaqwIj chu'Ha'lu'pu'}          | _TLAK-widj tchu'-SJA'-lu'-pu'_ |
+| Motorn blir överhettad.          | {tujqu'choH QuQ}                  | _tudj-KU'-tchåsj krukr_ |
+| Var kan jag få mina skor rengjorda? | {nuqDaq waqwIj vIlamHa'choHmoH} | _nuk-DAK WAK-widj vi-lam-SJA'-tchåsj-måsj_ |
+| Kommer det att göra ont?         | {'oy''a'}                         | _'åy'-'A'_ |
+| Stråla ombord mig.               | {HIjol}                           | _sji-DJÅL_ |
+| Aktivera transportstrålen!       | {jol yIchu'}                      | _djål yi-TCHU'_ |
+| Ge dig eller dö!                 | {bIjeghbe'chugh vaj bIHegh}       | _bi-djeg-BE'-tchug vadj bi-SJEG_ |
+| Vi möts i cocktailbaren.         | {tachDaq maghom}                  | _TATCH-dak ma-GÅM_ |
+| Din näsa är blank.               | {boch ghIchraj}                   | _båtch GITCH-radj_ |
+| Lita alltid på dina instinkter.  | {Duj tIvoqtaH}                    | _dudj ti-VÅK-tasj_ |
+| Det finns klingoner häromkring.  | {naDev tlhInganpu' tu'lu'}        | _na-DEV tlingan-PU' TU'-lu'_ |
+| Berätta inget för honom/henne!   | {yIja'Qo'}                        | _yi-dja'-KRÅ'_ |
+| Kom hit!                         | {HIghoS}                          | _sji-GÅS_ |
+| Gå i fängelse.                   | {bIghHa'Daq yIghoS}               | _big-SJA'-dak yi-GÅS_ |
+| Visa honom på skärmen.           | {yIHotlh}                         | _yi-SJÅTL_ |
+| Det är otur.                     | {Do'Ha'}                          | _då'-SJA'_ |
+| Förstått. Jag förstår.           | {jIyaj}                           | _dji-YADJ_ |
+| Framgång!                        | {Qapla'}                          | _krap-LA'_ |
+| Du kommer att bli ihågkommen med ära. | {batlh Daqawlu'taH}          | _batl da-KAW-lu'-tasj_ |
+| Djur!                            | {Ha'DIbaH}                        | _SJA'-di-basj_ |
+| Här händer ingenting.            | {naDev qaS wanI' ramqu'}          | _na-DEV kas wa-NI' ram-KU'_ |
+| (Är det) förstått?               | {yaj'a'}                          | _yadj-'A'_ |
+| Ditt skepp är en avfallspråm.    | {veQDuj 'oH DujlIj'e'}            | _vekr-DUDJ 'åsj DUDJ-lidj-'E'_ |
+| Jag har huvudvärk.               | {jIwuQ}                           | _dji-WUKR_ |
+| Skynda på! Skynda dig!           | {tugh}                            | _tug_ |
+| Mycket bra! Bra gjort!           | {majQa'}                          | _madj-KRA'_ |
+| Vad vill du? (hälsning)          | {nuqneH}                          | _nuk-NESJ_ |
+| Ok.                              | {lu'} eller {luq}                 | _lu'_ eller _luk_ |
+| När blir vattnet varmt?          | {ghorgh tujchoHpu' bIQ}           | _gårg TUDJ-tchåsj-pu' bikr_ |
+| Är den här platsen upptagen?     | {quSDaq ba'lu''a'}                | _KUS-dak BA'-lu'-'a'_ |
+| Jag kan inte hitta min kommunikator. | {QumwI'wIj vItu'laHbe'}       | _krum-WI'-widj vi-TU'-lasj-be'_ |
+| Den här hjälmen passar dig.      | {Du'IHchoHmoH mIvvam}             | _du-'ISJ-tchåsj-måsj MIV-vam_ |
+| Du behöver vila.                 | {bIleSnIS}                        | _bi-LES-nis_ |
+| Betala nu!                       | {DaH yIDIl}                       | _dasj yi-DIL_ |
+| Fyratusen halsar kan skäras av på en natt av en springande man.      | {qaStaHvIS wa' ram loSSaD Hugh SIjlaH qetbogh loD} | _KAS-tasj-vis wa' ram lås-sad sjug SIDJ-lasj KET-båg låd_ |
+| Hämnd är en rätt som bäst serveras kall. | {bortaS bIr jablu'DI' reH QaQqu' nay'} | _bår-TAS bir DJAB-lu'-DI' resj krakr-KU' nay'_ |
+| Hur mycket vill du ha för den?   | {Dochvetlh DIlmeH Huch 'ar DaneH} | _DÅTCH-vetl DIL-mesj sjutch 'ar da-NESJ_ |
+| Jag är vilse.                    | {jIHtaHbogh naDev vISovbe'}       | _DJISJ-tasj-båg na-DEV vi-såv-BE'_ |
+| Det där kan jag inte äta.        | {Dochvetlh vISoplaHbe'}           | _DÅTCH-vetl vi-SÅP-lasj-BE'_ |
+| Det där kan jag inte dricka.     | {Dochvetlh vItlhutlhlaHbe'}       | _DÅTCH-vetl vi-TLUTL-lasj-BE'_ |
+| Gå härifrån! Stick!              | {naDevvo' yIghoS}                 | _na-dev-VÅ' yI-GÅS_ |
+| Vad gör jag med den här? (d.v.s. Hur använder jag den här?)          | {chay' Dochvam vIlo'} | _tchay' DÅTCH-vam vi-LÅ'_ |
+| Vad gör jag med den här? (d.v.s. Var lägger jag den här?)            | {nuqDaq Dochvam vIlan} | _nuk-DAK DÅTCH-vam vi-LAN_ |
+| Jag har aldrig sett honom/henne förut. | {not vIleghpu'}             | _nåt vi-LEG-pu'_ |
+| Det var inte jag som gjorde det. | {vIta'pu'be'}                     | _vi-TA'-pu'-BE'_ |
+| Jag var inte där.                | {pa' jIHpu'be'}                   | _pa' DJISJ-pu'-BE'_ |
+| Du ser hemsk ut. (d.v.s. Du verkar sjuk.) | {bIpIvHa'law'}           | _bi-piv-SJA'-law'_ |
+| Du ser hemsk ut. (d.v.s. Du är väldigt ful.) | {bImoHqu'}            | _bi-måsj-KU'_ |
+| Du ljuger.                       | {bInep}                           | _bi-NEP_ |
+| Var tyst! (d.v.s. Sluta göra ljud!) | {yItamchoH}                    | _yi-TAM-tchåsj_ |
+| Var tyst! (d.v.s. Säg inget!)    | {yIjatlhQo'}                      | _yi-djatl-KRÅ'_ |
+| Var tyst! (d.v.s. Sluta prata!)  | {bIjatlh 'e' yImev}               | _bi-DJATL 'e' yi-MEV_ |
+| Var sover jag?                   | {nuqDaq jIQong}                   | _nuk-DAK dji-KRÅNG_ |
+| Bits den?                        | {chop'a'}                         | _tchåp-'A'_ |
+| Läser du mitt manuskript?        | {ghItlh vIghItlhta'bogh DalaD'a'} | _gitl vi-GITL-ta'-båg da-lad-'A'_ |
+| Var förvarar du chokladen?       | {nuqDaq yuch Dapol}               | _nuk-DAK yutch da-PÅL_ |
+
+
+[[eof]]
