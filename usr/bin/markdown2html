@@ -171,6 +171,11 @@ my %author = (
 
 }
 
+
+sub FALSE { "" }
+sub TRUE  { 1  }
+
+
 # Usage: $abs_filename = find_include_file(REL_INCLUDE_FILE, SOURCE_FILE);
 
 # Returns the absolute filename of the file which should be included in
@@ -292,6 +297,7 @@ sub page_toc {
     # FIXME: should combine title metadata field with first header in text
     my ($self, %meta) = @_;
     my $toc = "";
+    my $li_open = FALSE;
     (my $dir = $meta{filename}) =~ s#/*[^/]*$##;
 
     local $/ = undef;
@@ -329,10 +335,12 @@ sub page_toc {
 
 	    # output <ul>/</ul> when depth changes
 	    if ($depth > $prev_depth) {
-		$toc .= ("    " x $prev_depth) . "<ul>\n";
+		$toc .= "\n" . ("    " x $prev_depth) . "<ul>\n";
+		$li_open = FALSE;
 	    } elsif ($depth < $prev_depth) {
 		for ($prev_depth--; $prev_depth >= $depth; $prev_depth --) {
-		    $toc .= ("    " x $prev_depth) . "</ul>\n";
+		    $toc .= "</li>\n";
+		    $toc .= ("    " x $prev_depth) . "</ul>";
 		}
 	    }
 	    $prev_depth = $depth;
@@ -340,11 +348,17 @@ sub page_toc {
 	    # output entry
 
 	    (my $file2 = $file) =~ s#\.[^.]+$#.html#;
-	    $toc .= ("    " x $depth)."<li><a href=\"$file2#$section\">$heading</a>$post\n";
+	    if ($li_open) {
+		$toc .= "</li>\n";
+		$li_open = FALSE;
+	    }
+	    $toc .= ("    " x $depth) . "<li><a href=\"$file2#$section\">$heading</a>$post";
+	    $li_open = TRUE;
 	}
     }
     # output trailing </ul>s
     for ($depth--; $depth >= 0; $depth --) {
+	$toc .= "</li>\n";
 	$toc .= ("    " x $depth)."</ul>\n";
     }
     $toc .= "</div>\n";
