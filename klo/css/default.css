@@ -96,18 +96,20 @@ a:hover   {                   /* mouse over link */
 a:active  { color: #aaaaaa; } /* selected link -- button pressed on link */
 
 
-
-
-#main td:empty {
-    min-width: 2em;
+#main table {
+    border-collapse: collapse;
+    display: block;            /* make margins between tables collapse */
+    empty-cells: show;
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
-#main table {
+#main tr td:first-child {
+    padding-left: 0em;
 }
 
 #main td {
-    padding-left:  .25em;
-    padding-right: .25em;
+    padding: 0em .5em;
 }
 
 
@@ -130,6 +132,8 @@ a:active  { color: #aaaaaa; } /* selected link -- button pressed on link */
 
 
 /* DEBUG-STUFF */
+/* NOTE: Does not validate! Don't use in production! */
+/*
 img[alt=""] { border: 3px dotted red; }
 img:not([alt]) { border: 5px solid red; }
 a[href="#"] { background-color: lime; }
@@ -138,5 +142,6 @@ span:empty, li:empty, p:empty, td:empty, th:empty {
     padding: .5em;
     background-color: yellow;
 }
+*/
 
 /* eof */

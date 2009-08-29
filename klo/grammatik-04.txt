@@ -62,11 +62,11 @@ endast påverkar subjektet (den handlande). Verbet {Qong} _sova_ förekommer med
 följande pronominella prefix:
 
 > |------------------------------------------|
-> | {jIQong} _jag sover_
-> | {bIQong} _du sover_
-> | {Qong} _han/hon/den/det sover, de sover_
-> | {maQong} _vi sover_
-> | {SuQong} _ni sover_
+> | {jIQong} _jag sover_                     |
+> | {bIQong} _du sover_                      |
+> | {Qong} _han/hon/den/det sover, de sover_ |
+> | {maQong} _vi sover_                      |
+> | {SuQong} _ni sover_                      |
 
 I fallet {Qong} _han/hon/den/det sover, de sover_ skulle subjektet
 anges exakt i meningen eller av sammanhanget.
@@ -82,13 +82,13 @@ specifik maträtt nämns.
 De återstående prefixen kombinerar subjekt och objekt. Vissa av dem
 exemplifieras nedan med verbet {legh} _se_.
 
-> |----------|----------------------------------------------|-----------|------------------------------|
-> | {qalegh} | _jag ser dig_                                | {cholegh} | _du ser mig_
-> | {vIlegh} | _jag ser honom/henne/den/det/dem_            | {mulegh}  | _han/hon/den/det/dem ser mig_
-> | {Salegh} | _jag ser er_                                 | {tulegh}  | _ni ser mig_
-> | {Dalegh} | _du ser honom/henne/den/det/dem_             | {Dulegh}  | _han/hon/den/det ser dig_
-> | {julegh} | _du ser oss_                                 | {pIlegh}  | _vi ser dig_
-> | {legh}   | _han/hon/den/de ser honom/henne/den/det/dem_ | {lulegh}  | _de ser honom/henne/den/det_
+> |----------|----------------------------------------------|-----------|-------------------------------|
+> | {qalegh} | _jag ser dig_                                | {cholegh} | _du ser mig_                  |
+> | {vIlegh} | _jag ser honom/henne/den/det/dem_            | {mulegh}  | _han/hon/den/det/dem ser mig_ |
+> | {Salegh} | _jag ser er_                                 | {tulegh}  | _ni ser mig_                  |
+> | {Dalegh} | _du ser honom/henne/den/det/dem_             | {Dulegh}  | _han/hon/den/det ser dig_     |
+> | {julegh} | _du ser oss_                                 | {pIlegh}  | _vi ser dig_                  |
+> | {legh}   | _han/hon/den/de ser honom/henne/den/det/dem_ | {lulegh}  | _de ser honom/henne/den/det_  |
 
 
 4.1.2. Imperativprefix [[**2000-02-20]]
@@ -112,13 +112,13 @@ prefixet {pe-} om kommandot ges till flera personer. Här är några
 exempel på imperativprefix. Utropstecknen i översättningen anger att
 det är frågan om kommandon.
 
-> |----------------------------|
-> | {yIQong} _(du) sov!_
-> | {peQong} _(ni) sov!_
-> | {HIqIp} _slå mig!_
-> | {ghoqIp} _slå oss!_
-> | {yIqIp} _slå honom/henne/den/det!_
-> | {tIqIp} _slå dem!_
+> |------------------------------------|
+> | {yIQong} _(du) sov!_               |
+> | {peQong} _(ni) sov!_               |
+> | {HIqIp} _slå mig!_                 |
+> | {ghoqIp} _slå oss!_                |
+> | {yIqIp} _slå honom/henne/den/det!_ |
+> | {tIqIp} _slå dem!_                 |
 
 För att ange en handling riktad mot sig själv i ett imperativt verb
 (t.ex. tvätta dig!), används suffixet {-'egh} _sig själv_

@@ -30,11 +30,15 @@ Vid ordergivning kan imperativprefixet (sektion
 > |----|-----------------------------------------------------------------|
 > | Korrekt klingonska: {yIbaH} _Avfyra (torpederna)!_                  ||
 > | Klippt klingonska: {baH}                                            ||
-> |                                                                     ||
+
+
+> |----|-----------------------------------------------------------------|
 > | Korrekt klingonska: {wIy yIcha'} _Visa den taktiska skärmen!_       ||
 > | Klippt klingonska: {wIy cha'}                                       ||
 > | <> | ({wIy} _taktisk skärm på monitor_, {cha'} _visa, projicera_)    |
-> |                                                                     ||
+
+
+> |----|-----------------------------------------------------------------|
 > | Korrekt klingonska: {He chu' yIghoS} _Följ en ny kurs!_             ||
 > | Klippt klingonska: {He chu' ghoS}                                   ||
 > | <> | ({He} _kurs_, {chu'} _vara ny_, {ghoS} _följa en kurs_)         |
@@ -47,7 +51,9 @@ som kommando.
 > | Korrekt klingonska: {chuyDaH yIlaQ} _Aktivera raketmotorerna!_      ||
 > | Klippt klingonska: {chuyDaH} _Raketmotorer!_                        ||
 > | <> | ({chuyDaH} _raketmotorer_, {laQ} _tända, aktivera_)             |
-> |                                                                     ||
+
+
+> |----|-----------------------------------------------------------------|
 > | Korrekt klingonska: {HaSta yIcha'} _Visa bildskärmen!_              ||
 > | Klippt klingonska: {HaSta} _Bildskärm!_                             ||
 > | <> | ({HaSta} _bildskärm på monitor_, {cha'} _visa, projicera_)      |

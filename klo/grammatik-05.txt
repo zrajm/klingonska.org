@@ -46,15 +46,15 @@ meningar allihop grammatiskt korrekta.
 > |-------------------|-------------------------|
 > | {yaS vIlegh jIH}  | _Jag ser officerarna._  |
 > | {yaS vIlegh}                               ||
-> |                                            ||
+> | <>                                         ||
 > | {jIH mulegh yaS}  | _Officern ser mig._     |
 > | {mulegh yaS}                               ||
-> |                                            ||
+> | <>                                         ||
 > | {ghaH vIlegh jIH} | _Jag ser honom/henne._  |
 > | {ghaH vIlegh}                              ||
 > | {vIlegh jIH}                               ||
 > | {vIlegh}                                   ||
-> |                                            ||
+> | <>                                         ||
 > | ({yaS} _officer_, {vIlegh} _jag ser honom/henne_, {mulegh} han/hon ser mig_) ||
 
 Faktum är att de två sista meningarna ({vIlegh jIH}, {vIlegh}) är tvetydiga. De
