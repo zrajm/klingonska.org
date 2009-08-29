@@ -401,7 +401,7 @@ sub page_main {
     s{ \n* \[\[eof\]\] \n* $ }{}ix;
 
     # klingon stuff
-    s#<>#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#g;
+    s#<>#&nbsp;#g;
 
     # typographical quotes
     #s#"\b#&ldquo;#g;  # english only
