@@ -426,18 +426,19 @@ sub page_main {
     s#{#<strong class="tlh">#g;
     s#}#</strong>#g;
 
-
-
     # typographical en- and em-dashes
     s#--#&ndash;#g;
     s#---#&mdash;#g;
-
 
     # [[...]] comments
     s{ <p> \[\[ (.*?) \]\] </p> }{<div class="comment"><p>$1</p></div>}gxs;
     s{ \[\[ (.*?) \]\] }{<span class="comment">$1</span>}gxs;
 
-    # fix bad HTML
+    # clean up some (useless) empty HTML elements
+    s{ \s* <thead> \s* </thead> }{}xg;
+    s{ \s* <col \s* /> }{}xg;
+
+    # clear away whitspace inside empty <td> cells
     s{(<td\b[^>]*>) \s+ (</td>)}{$1$2}xig;
 
     return $_;
