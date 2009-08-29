@@ -30,6 +30,7 @@ all: html
 html: $(generated_html_files)
 
 
+# FIXME: should depend on all includes required by the HMTL file
 %.html: %.txt
 	usr/bin/markdown2html $? >$@
 
@@ -40,7 +41,7 @@ clean:
 
 
 .PHONY: install
-install: $(rsync)
+install: all $(rsync)
 
 
 $(rsync): $(rsync_dep)
