@@ -19,22 +19,24 @@ my %code = (
     FOOT     => \&page_footer,
     HEAD     => \&page_header,
     LOGOLINK => \&page_logolink_url,
+    LOGOKA   => \&page_logoimage_ka,
     MAIN     => \&page_main,
     META     => \&page_meta,
     PREVNEXT => \&page_prevnext,
     TITLE    => \&page_title,
     TOC      => \&page_toc,
     URL      => \&page_url,
+    URLLINK  => \&page_urllink,
     YEAR     => \&page_year,
 );
 
 
 my %author = (
-    bkhl    => "<a href=\"bkhl\@elektrubadur.se\">Björn Lindström</a>",
-    markus  => "<a href=\"mp\@klingonska.org\">Markus Persson</a>",
-    wallius => "<a href=\"wallius\@rit.se\">Robert Wallius</a>",
-    yens    => "<a href=\"yenswahlgren\@hotmail.com\">Yens Wahlgren</a>",
-    zrajm   => "<a href=\"zrajm\@klingonska.org\">Zrajm C Akfohg</a>",
+    bkhl    => "<a href=\"mailto:bkhl\@elektrubadur.se\">Björn Lindström</a>",
+    markus  => "<a href=\"mailto:mp\@klingonska.org\">Markus Persson</a>",
+    wallius => "<a href=\"mailto:wallius\@rit.se\">Robert Wallius</a>",
+    yens    => "<a href=\"mailto:yenswahlgren\@hotmail.com\">Yens Wahlgren</a>",
+    zrajm   => "<a href=\"mailto:zrajm\@klingonska.org\">Zrajm C Akfohg</a>",
 );
 
 
@@ -176,13 +178,40 @@ sub FALSE { "" }
 sub TRUE  { 1  }
 
 
-# Usage: $abs_filename = find_include_file(REL_INCLUDE_FILE, SOURCE_FILE);
 
+
+# Usage: $OUTPUT = process_text(\&CODEREF, [$INPUT]);
+#
+# INPUT is assumed to in HTML or XML format. Each string of plain text in INPUT
+# is passed along CODEREF and replaced by the return value therefrom. Plain text
+# is all text not found inside any <...> + the values of any attribute inside
+# such tags.
+#
+# If $INPUT is not provided, $_ is used.
+#
+sub process_xml {
+    die "1st argument must be code reference"
+	unless ref($_[0]) eq "CODE";
+    my ($coderef, $_) = (@_, $_);
+    s{ ([^<]*) (<[^>]*?>)? }{
+	my ($text, $tag) = ($1, $2 || "");
+	# process attribute values of HTML/XML tag
+	# (but ignore the rest if it)
+	$tag =~ s# (?<==") ([^"]*) (?=") # &$coderef($1); #gex;
+	# replace with processed text + tag
+	&$coderef($text) . $tag;
+    }gex;
+    return $_;
+}
+
+# Usage: $abs_filename = find_include_file(REL_INCLUDE_FILE, SOURCE_FILE);
+#
 # Returns the absolute filename of the file which should be included in
 # SOURCE_FILE. Name of REL_INCLUDE_FILE should be given relative to
 # SOURCE_FILE's position in the file hiearchy.
 #
 # Dies if REL_INCLUDE_FILE could not be found.
+#
 sub find_include_file {
     my ($relfile, $basefile) = @_;
     $basefile = dirname(abs_filename($basefile));
@@ -196,7 +225,7 @@ sub find_include_file {
 	return $absfile if -e $absfile;
 	pop @dir;
     }
-    die "couldn't find include file \"$relfile\"";
+    die "couldn't find include file \"$relfile\" for \"$basefile\"";
 }
 
 sub page_meta {
@@ -215,7 +244,15 @@ sub page_url {
     my ($self, %meta) = @_;
     my $url = filename_to_url($meta{filename});
     $url =~ s/\.[^.]{1,4}$/.html/;
+    $url =~ s/index\.[^.]{1,4}//;
     $url = "http://$url";
+    return $url;
+}
+
+
+sub page_urllink {
+    my ($self, %meta) = @_;
+    my $url = page_url($self, %meta);
     return "<a href=\"$url\">$url</a>";
 }
 
@@ -238,41 +275,41 @@ sub page_logolink_url {
     return ".";
 }
 
+sub page_logoimage_ka {
+    my ($self, %meta) = @_;
+    my $file = find_include_file("pic/ka.gif", $meta{filename});
+    $file = rel_filename($file, $meta{filename});
+    # FIXME "width" and "height" should be read from the image itself
+    return "<img src=\"$file\" width=\"600\" height=\"176\" alt=\"Klingonska Akademien\" />";
+}
+
 sub page_year {
     my ($self, %meta) = @_;
-    return $meta{year} if exists($meta{year});
-    return "MISSING COPYRIGHT YEAR";
+    return "MISSING YEAR" unless exists($meta{year});
+    return $meta{year};
 }
 
 sub page_author {
     my ($self, %meta) = @_;
-
+    return "MISSING AUTHOR" unless exists($meta{author});
     my @author = map {
 	"<span class=\"author\">" .
 	    (exists($author{$_}) ? $author{$_} : $_) .
 	    "</span>";
     } sort split(/,\s*/, $meta{author});
-
     if (@author >= 2) {
 	my $last = pop(@author);
 	$author[-1] = join(" & ", $author[-1], $last);
     }
-
-
     my $credit = join(", ", @author);
-
-
     return $credit;
 }
 
 sub page_title {
     my ($self, %meta) = @_;
-
     my @title = ();
-    push(@title, exists($meta{title}) ? $meta{title} : "MISSING TITLE");
-    push(@title, $1) if $meta{text} =~ m/^\n*(.*)/;
-#    @title = ("MISSING TITLE") unless @title;
-
+    push(@title, exists($meta{title}) ? $meta{title} : ());
+    push(@title, $1) if $meta{text} =~ m/^\n*(.*)\n==+\n/;
     return join(" &ndash; ", @title)." (Klingonska Akademien)";;
 }
 
@@ -282,6 +319,16 @@ sub abs_filename {
     use File::Spec;
     $file = File::Spec->rel2abs($file)
 	unless File::Spec->file_name_is_absolute($file);
+    return $file;
+}
+
+
+sub rel_filename {
+    my ($file, $base) = @_;
+    $base = dirname(abs_filename($base));
+    use File::Spec;
+    $file = File::Spec->abs2rel($file, $base)
+	if File::Spec->file_name_is_absolute($file);
     return $file;
 }
 
@@ -397,38 +444,36 @@ sub page_main {
     my ($self, %meta) = @_;
     local $_ = $meta{text};
 
-    # strip eof marker
-    s{ \n* \[\[eof\]\] \n* $ }{}ix;
-
-    # klingon stuff
-    s#<>#&nbsp;#g;
-
-    # typographical quotes
-    #s#"\b#&ldquo;#g;  # english only
-    s#"#&rdquo;#g;
-    #s#"\b#&lsquo;#g;  # english only (not in Klingon!)
-    s#'#&rsquo;#g;
+    s{ \n* \[\[eof\]\] \n* $ }{}ix;  # strip eof marker
+    s#<>#&nbsp;#g;                   # <> = &nbsp;
 
     # parse with multimarkdown
     use Text::MultiMarkdown;
     my $obj = new Text::MultiMarkdown(
 	use_metadata => '',
 	strip_metadata => '',
-	#empty_element_suffix => '>',
-	#use_wikilinks => 0,
 	tab_width => 4,
     );
-
     $_ = $obj->markdown($_);
 
     $_ = $self->process_template($_, %meta);
 
-    s#{#<strong class="tlh">#g;
-    s#}#</strong>#g;
-
-    # typographical en- and em-dashes
-    s#--#&ndash;#g;
-    s#---#&mdash;#g;
+    $_ = process_xml(
+	sub {
+	    local $_ = shift;
+	    # typographical quotes
+	    #s#"\b#&ldquo;#g;  # english only
+	    s#"#&rdquo;#g;
+	    #s#"\b#&lsquo;#g;  # english only (not in Klingon!)
+	    s#'#&rsquo;#g;
+	    # {...} marks klingon
+	    s#{#<strong class="tlh">#g;
+	    s#}#</strong>#g;
+	    # typographical en- and em-dashes
+	    s#--#&ndash;#g;
+	    s#---#&mdash;#g;
+	    return $_;
+	}, $_);
 
     # [[...]] comments
     s{ <p> \[\[ (.*?) \]\] </p> }{<div class="comment"><p>$1</p></div>}gxs;

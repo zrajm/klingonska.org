@@ -82,8 +82,8 @@ MILESTONE: NEW SITE ONLINE AT KLINGONSKA.ORG
   * index.html should have blank lines between grammar & dictionary &
     additional parts
   * verify (X?)HTML against w3c validator
-    * " -> &rdquo; needs to not happen inside HTML <...> tags (XHTML validation
-      of index.html is broken)
+    o DONE [2009-09-01] " -> &rdquo; needs to not happen inside HTML <...> tags
+      (XHTML validation of "klo/index.html" is broken)
   * check for dead links
   * Makefile should produce/update RSS + Atom feed
     compare: http://xkcd.com/rss.xml + http://xkcd.com/atom.xml
@@ -306,6 +306,22 @@ FUTURE
       long without having to pause for dictionary lookups, though. [Alan
       Andersson 2007-08-03]
     * 'ISqu' [Robyn Stewart, 2007-08-02; Alan Andersson 2007-08-03]
+
+o "akademien/logo/" subpage:
+  * add link to the "akademien/logo/" subpage
+  * first paragraph should be illustrated with examples of the Klingon Empire
+    logo and the KLI logo
+  * all pictures on the page should have thumbnails and picture captions stating
+    pixel size and file format
+  * add images in "logo/ka-logo/" and "logo/ka-moon-logo"
+  * add photograph of my paper version of the logo
+
+o Add a "fonts/" subpage:
+  * starting with the following dirs & contens:
+    o /xtra/web/public_html/stp_deb/nerd/klingon/kapiqad/
+    o /xtra/web/public_html/stp/nerd/klingon/kapiqad/
+    o /ytra/zrajm/stp/public_html/nerd/klingon/kapiqad/
+    o /ytra/zrajm/stp/zopt/tex/packages/kapiqad/
 
 2009-04-07
   * Fixed "canon/download.cgi" (now uses UTF-8)
