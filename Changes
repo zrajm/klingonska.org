@@ -63,11 +63,33 @@ MILESTONE: NEW SITE ONLINE AT KLINGONSKA.ORG
     o DONE [2009-04-04] Convert HTML latin-1 -> utf-8
       * DONE [2009-04-04] Wget old site as a starting point
   * DONE [2009-05-30] "make install" runs kinit if required
+  * DONE [2009-08-29] "make install" now builds before uploading
   * "make test" target
     o UTF8 is used everywhere
     o &#173; is never used
     o script-specific unit tests
-    o bad links
+    o bad links (including # references to "id" attributes)
+
+* klo/
+  * DONE [2009-08-25] HTML pages now generated from MultiMarkdown source
+  * DONE [2009-08-29] BUGFIX: klo/index.html now has valid nested <UL> tables
+  * DONE [2009-08-29] BUGFIX: Spacing between tables fixed (CSS)
+  * DONE [2009-08-31] <h1>...</h1> et al. should get proper names (for use with
+    <a href="...#NAME">...</a>)
+  * DONE [2009-08-29] fix link in page footer to CSS validator
+  * DONE [2009-08-31] verify CSS against w3c validator
+  * typographical " and ' in links (see e.g. index.html)
+  * index.html should have blank lines between grammar & dictionary &
+    additional parts
+  * verify (X?)HTML against w3c validator
+    * " -> &rdquo; needs to not happen inside HTML <...> tags (XHTML validation
+      of index.html is broken)
+  * check for dead links
+  * Makefile should produce/update RSS + Atom feed
+    compare: http://xkcd.com/rss.xml + http://xkcd.com/atom.xml
+    look at: http://www.nabble.com/git2rss-----publish-changes-from-git-log-via-RSS-td5172008.html
+    usr/bin/git2rss
+  * use HTML meta tags (Dublin Core?) for creation date etc
 
 
 THEREAFTER

@@ -29,7 +29,7 @@ Nummer indikerar suffixtyp.
 | {-mey}   | 2 | plural (generellt)                         |
 | {-mo'}   | 5 | på grund av, beroende på                   |
 | {-na'}   | 3 | definitiv                                  |
-| {-oy}    | 1 | affektion <FONT SIZE=2>[TKDa]</FONT>       |
+| {-oy}    | 1 | affektion [TKDa]                           |
 | {-pu'}   | 2 | plural (varelser förmögna till språk)      |
 | {-qoq}   | 3 | så kallad                                  |
 | {-raj}   | 4 | er, ert                                    |

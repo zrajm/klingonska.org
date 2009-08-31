@@ -13,12 +13,12 @@ Alternativ guide till de klingonska affixen [[**1999-07-23]]
 1. Pronominella prefix [[**]]
 ----------------------
 
-<TABLE CELLSPACING=0 BORDER=2 BORDERCOLOR="#000000" CELLPADDING=2 ALIGN=CENTER FRAME=VOID>
-<TR ALIGN=CENTER>
-<TD COLSPAN=2 ROWSPAN=2> </TD>
-<TD COLSPAN=7><FONT SIZE=4>O B J E K T</TD>
+<TABLE>
+<TR ALIGN="CENTER">
+<TD COLSPAN="2" ROWSPAN="2"> </TD>
+<TD COLSPAN="7"><FONT SIZE="4">O B J E K T</TD>
 </TR>
-<TR ALIGN=CENTER>
+<TR ALIGN="CENTER">
 <TD>{jIH}</TD>
 <TD>{maH}</TD>
 <TD>{SoH}</TD>
@@ -27,8 +27,8 @@ Alternativ guide till de klingonska affixen [[**1999-07-23]]
 <TD>{chaH<BR>bIH}</TD>
 <TD>{pagh}</TD>
 </TR>
-<TR ALIGN=CENTER>
-<TD ROWSPAN=9><FONT SIZE=4>S<BR>U<BR> B <BR>J<BR>E<BR>K<BR>T</TD>
+<TR ALIGN="CENTER">
+<TD ROWSPAN="9"><FONT SIZE="4">S<BR>U<BR> B <BR>J<BR>E<BR>K<BR>T</TD>
 <TD>{SoH (ra')}</TD>
 <TD>{HI-}</TD>
 <TD>{gho-}</TD>
@@ -38,7 +38,7 @@ Alternativ guide till de klingonska affixen [[**1999-07-23]]
 <TD>{tI-}</TD>
 <TD>{yI-}</TD>
 </TR>
-<TR ALIGN=CENTER>
+<TR ALIGN="CENTER">
 <TD>{tlhIH (ra')}</TD>
 <TD>{HI-}</TD>
 <TD>{gho-}</TD>
@@ -48,7 +48,7 @@ Alternativ guide till de klingonska affixen [[**1999-07-23]]
 <TD>{tI-}</TD>
 <TD>{pe-}</TD>
 </TR>
-<TR ALIGN=CENTER>
+<TR ALIGN="CENTER">
 <TD>{jIH}</TD>
 <TD BACKGROUND="pic/empty.gif"> </TD>
 <TD BACKGROUND="pic/empty.gif"> </TD>
@@ -58,7 +58,7 @@ Alternativ guide till de klingonska affixen [[**1999-07-23]]
 <TD>{vI-}</TD>
 <TD>{jI-}</TD>
 </TR>
-<TR ALIGN=CENTER>
+<TR ALIGN="CENTER">
 <TD>{maH}</TD>
 <TD BACKGROUND="pic/empty.gif"> </TD>
 <TD BACKGROUND="pic/empty.gif"> </TD>
@@ -68,7 +68,7 @@ Alternativ guide till de klingonska affixen [[**1999-07-23]]
 <TD>{DI-}</TD>
 <TD>{ma-}</TD>
 </TR>
-<TR ALIGN=CENTER>
+<TR ALIGN="CENTER">
 <TD>{SoH}</TD>
 <TD>{cho-}</TD>
 <TD>{ju-}</TD>
@@ -78,7 +78,7 @@ Alternativ guide till de klingonska affixen [[**1999-07-23]]
 <TD>{Da-}</TD>
 <TD>{bI-}</TD>
 </TR>
-<TR ALIGN=CENTER>
+<TR ALIGN="CENTER">
 <TD>{tlhIH}</TD>
 <TD>{tu-}</TD>
 <TD>{che-}</TD>
@@ -88,7 +88,7 @@ Alternativ guide till de klingonska affixen [[**1999-07-23]]
 <TD>{bo-}</TD>
 <TD>{Su-}</TD>
 </TR>
-<TR ALIGN=CENTER>
+<TR ALIGN="CENTER">
 <TD>{ghaH/'oH}</TD>
 <TD>{mu-}</TD>
 <TD>{nu-}</TD>
@@ -98,7 +98,7 @@ Alternativ guide till de klingonska affixen [[**1999-07-23]]
 <TD>{-}</TD>
 <TD>{-}</TD>
 </TR>
-<TR ALIGN=CENTER>
+<TR ALIGN="CENTER">
 <TD>{chaH/bIH}</TD>
 <TD>{mu-}</TD>
 <TD>{nu-}</TD>
@@ -108,7 +108,7 @@ Alternativ guide till de klingonska affixen [[**1999-07-23]]
 <TD>{-}</TD>
 <TD>{-}</TD>
 </TR>
-<TR ALIGN=CENTER>
+<TR ALIGN="CENTER">
 <TD>{vay'}</TD>
 <TD>{vI-lu'}</TD>
 <TD>{wI-lu'}</TD>
@@ -120,293 +120,292 @@ Alternativ guide till de klingonska affixen [[**1999-07-23]]
 </TR>
 </TABLE>
 
-Bindestrecket i tabellen symboliserar verbet. Då ett bindestreck förekommer
-utan prefix, betyder detta att verbet ska vara prefixlöst. En tom ruta betyder
-att denna kombination av subjekt/objekt inte kan skrivas med endast ett
-verbprefix. (Det reflexiva suffixet {-'egh} "sig själv" kan användas
-tillsammans med alla objektlösa prefix [sista kolumnen, med rubriken {pagh}
-"ingen"], likaså kan det reciproka suffixet {-chuq} "varandra" användas av
-de objektlösa suffix vars subjekt är i plural.) Då ordet {ra'} "beordra,
-kommendera" står i samband med subjektet betyder att det är ett imperativ.
+Bindestrecket i tabellen symboliserar verbet. Då ett bindestreck förekommer utan
+prefix, betyder detta att verbet ska vara prefixlöst. En tom ruta betyder att
+denna kombination av subjekt/objekt inte kan skrivas med endast ett verbprefix.
+(Det reflexiva suffixet {-'egh} "sig själv" kan användas tillsammans med alla
+objektlösa prefix [sista kolumnen, med rubriken {pagh} "ingen"], likaså kan det
+reciproka suffixet {-chuq} "varandra" användas av de objektlösa suffix vars
+subjekt är i plural.) Då ordet {ra'} "beordra, kommendera" står i samband med
+subjektet betyder att det är ett imperativ.
 
-Den här tabellen över klingonskans pronomeniella suffix är konstruerad
-så att likadana prefix placerats intill varandra. Detta underlättar sökningen
-efter ett visst klingonskt prefix och dess betydelser. Alla pronomen i tabellen
-har översatts till klingonska, vilket tvingar läsare att lära sig dessa
-grundläggande ord. Kombinationer med prefix plus suffixet {-lu'} har tagits
-med i tabellen, eftersom jag ofta funnit dem förvirrande och lätta att ta miste
-på.
+Den här tabellen över klingonskans pronomeniella suffix är konstruerad så att
+likadana prefix placerats intill varandra. Detta underlättar sökningen efter ett
+visst klingonskt prefix och dess betydelser. Alla pronomen i tabellen har
+översatts till klingonska, vilket tvingar läsare att lära sig dessa
+grundläggande ord. Kombinationer med prefix plus suffixet {-lu'} har tagits med
+i tabellen, eftersom jag ofta funnit dem förvirrande och lätta att ta miste på.
 
 
 2. Verbsuffix [[**]]
 -------------
 
-<TABLE ALIGN=CENTER CELLSPACING=0 CELLPADDING=0 BORDER=0>
-	<TR VALIGN=TOP>
-		<TD ROWSPAN=3><FONT SIZE=4><A HREF="04.html#4.2.1">1</A>. </FONT></TD>
-		<TD COLSPAN=4 NOWRAP><FONT SIZE=4>Sig själv/varandra</FONT></TD>
+<TABLE ALIGN="CENTER" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+	<TR VALIGN="TOP">
+		<TD ROWSPAN="3"><FONT SIZE="4"><A HREF="04.html#4.2.1">1</A>. </FONT></TD>
+		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Sig själv/varandra</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-'egh}</TD>
 		<TD>   </TD>
 		<TD>sig själv</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-chuq}</TD>
 		<TD>   </TD>
 		<TD>varandra
-		<BR><FONT SIZE=1>(kan endast användas med plural subjekt)</FONT></TD>
+		<BR><FONT SIZE="1">(kan endast användas med plural subjekt)</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD ROWSPAN=6><FONT SIZE=4><A HREF="04.html#4.2.2">2</A>. </FONT></TD>
-		<TD COLSPAN=4 NOWRAP><FONT SIZE=4>Villighet/benägenhet</FONT></TD>
+	<TR VALIGN="TOP">
+		<TD ROWSPAN="6"><FONT SIZE="4"><A HREF="04.html#4.2.2">2</A>. </FONT></TD>
+		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Villighet/benägenhet</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-nIS}</TD>
 		<TD>   </TD>
 		<TD>behöver</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-qang}</TD>
 		<TD>   </TD>
 		<TD>villig</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-rup}</TD>
 		<TD>   </TD>
 		<TD>redo, beredd
-		<BR><FONT SIZE=1>(används om varelser)</FONT></TD>
+		<BR><FONT SIZE="1">(används om varelser)</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-beH}</TD>
 		<TD>   </TD>
 		<TD>redo, iordningställd
-		<BR><FONT SIZE=1>(används om apparater)</FONT></TD>
+		<BR><FONT SIZE="1">(används om apparater)</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-vIp}</TD>
 		<TD>   </TD>
 		<TD>rädd
-		<BR><FONT SIZE=1>(kulturellt tabu att använda med subjekt i första
+		<BR><FONT SIZE="1">(kulturellt tabu att använda med subjekt i första
 		person)</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD ROWSPAN=3><FONT SIZE=4><A HREF="04.html#4.2.3">3</A>. </FONT></TD>
-		<TD COLSPAN=4 NOWRAP><FONT SIZE=4>Förändring</FONT></TD>
+	<TR VALIGN="TOP">
+		<TD ROWSPAN="3"><FONT SIZE="4"><A HREF="04.html#4.2.3">3</A>. </FONT></TD>
+		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Förändring</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-choH}</TD>
 		<TD>   </TD>
 		<TD>förändring i tillstånd, förändring i riktning</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-qa'}</TD>
 		<TD>   </TD>
 		<TD>fortsätta, göra igen</TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD ROWSPAN=2><FONT SIZE=4><A HREF="04.html#4.2.4">4</A>. </FONT></TD>
-		<TD COLSPAN=4 NOWRAP><FONT SIZE=4>Orsak</FONT></TD>
+	<TR VALIGN="TOP">
+		<TD ROWSPAN="2"><FONT SIZE="4"><A HREF="04.html#4.2.4">4</A>. </FONT></TD>
+		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Orsak</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-moH}</TD>
 		<TD>   </TD>
 		<TD>orsaka</TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD ROWSPAN=3><FONT SIZE=4><A HREF="04.html#4.2.5">5</A>. </FONT></TD>
-		<TD COLSPAN=4 NOWRAP><FONT SIZE=4>Indefinit subjekt/förmåga</FONT></TD>
+	<TR VALIGN="TOP">
+		<TD ROWSPAN="3"><FONT SIZE="4"><A HREF="04.html#4.2.5">5</A>. </FONT></TD>
+		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Indefinit subjekt/förmåga</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-lu'}</TD>
 		<TD>   </TD>
 		<TD>indefinit subjekt</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-laH}</TD>
 		<TD>   </TD>
 		<TD>kan</TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD ROWSPAN=5><FONT SIZE=4><A HREF="04.html#4.2.6">6</A>. </FONT></TD>
-		<TD COLSPAN=4 NOWRAP><FONT SIZE=4>Kvalifikation</FONT></TD>
+	<TR VALIGN="TOP">
+		<TD ROWSPAN="5"><FONT SIZE="4"><A HREF="04.html#4.2.6">6</A>. </FONT></TD>
+		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Kvalifikation</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-chu'}</TD>
 		<TD>   </TD>
 		<TD>perfekt, tydligt</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-bej}</TD>
 		<TD>   </TD>
 		<TD>definitivt, tveklöst</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-law'}</TD>
 		<TD>   </TD>
 		<TD>antagligen, nog, verkar vara</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-ba'}</TD>
 		<TD>   </TD>
-		<TD>uppenbarligen <FONT SIZE=2>[TKDa]</FONT></TD>
+		<TD>uppenbarligen [TKDa]</TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD ROWSPAN=5><FONT SIZE=4><A HREF="04.html#4.2.7">7</A>. </FONT></TD>
-		<TD COLSPAN=4 NOWRAP><FONT SIZE=4>Aspekt</FONT></TD>
+	<TR VALIGN="TOP">
+		<TD ROWSPAN="5"><FONT SIZE="4"><A HREF="04.html#4.2.7">7</A>. </FONT></TD>
+		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Aspekt</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-pu'}</TD>
 		<TD>   </TD>
 		<TD>perfektiv</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-ta'}</TD>
 		<TD>   </TD>
 		<TD>utfört, gjort</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-taH}</TD>
 		<TD>   </TD>
 		<TD>pågående</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-lI'}</TD>
 		<TD>   </TD>
 		<TD>fortskridande, framskridande</TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD ROWSPAN=2><FONT SIZE=4><A HREF="04.html#4.2.8">8</A>. </FONT></TD>
-		<TD COLSPAN=4 NOWRAP><FONT SIZE=4>Hedersbetygande</FONT></TD>
+	<TR VALIGN="TOP">
+		<TD ROWSPAN="2"><FONT SIZE="4"><A HREF="04.html#4.2.8">8</A>. </FONT></TD>
+		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Hedersbetygande</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-neS}</TD>
 		<TD>   </TD>
 		<TD>hedersbetygande
-		<BR><FONT SIZE=1>(används endast vid tilltal av överordnad, aldrig
+		<BR><FONT SIZE="1">(används endast vid tilltal av överordnad, aldrig
 	nödvändigt)</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD ROWSPAN=12><FONT SIZE=4><A HREF="04.html#4.2.9">9</A>. </FONT></TD>
-		<TD COLSPAN=4 NOWRAP><FONT SIZE=4>Syntaktiska markörer</FONT></TD>
+	<TR VALIGN="TOP">
+		<TD ROWSPAN="12"><FONT SIZE="4"><A HREF="04.html#4.2.9">9</A>. </FONT></TD>
+		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Syntaktiska markörer</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-DI'}</TD>
 		<TD>   </TD>
 		<TD>när, så snart som</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-chugh}</TD>
 		<TD>   </TD>
 		<TD>om, ifall</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-pa'}</TD>
 		<TD>   </TD>
 		<TD>innan, före</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-vIS}</TD>
 		<TD>   </TD>
 		<TD>medan</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-bogh}</TD>
 		<TD>   </TD>
 		<TD>som
-		<BR><FONT SIZE=1>(markerar relativ bisats)</FONT></TD>
+		<BR><FONT SIZE="1">(markerar relativ bisats)</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-meH}</TD>
 		<TD>   </TD>
 		<TD>i syfte att</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-mo'}</TD>
 		<TD>   </TD>
-		<TD>på grund av <FONT SIZE=2>[TKDa]</FONT></TD>
+		<TD>på grund av [TKDa]</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-'a'}</TD>
 		<TD>   </TD>
 		<TD>interrogativ</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-jaj}</TD>
 		<TD>   </TD>
-		<TD>må, månde (konjunktiv) <FONT SIZE=2>[TKDa]</FONT></TD>
+		<TD>må, månde (konjunktiv) [TKDa]</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-wI'}</TD>
 		<TD>   </TD>
 		<TD>en som gör, sak som gör, en som är</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-ghach}</TD>
 		<TD>   </TD>
-		<TD>substantiviserare <FONT SIZE=2>[TKDa]</FONT>
-		<BR><FONT SIZE=1>(föregås alltid av minst ett annat suffix)</FONT></TD>
+		<TD>substantiviserare [TKDa]
+		<BR><FONT SIZE="1">(föregås alltid av minst ett annat suffix)</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD ROWSPAN=5><FONT SIZE=4><A HREF="04.html#4.3">S</A>. </FONT></TD>
-		<TD COLSPAN=4 NOWRAP><FONT SIZE=4>Strövare</FONT></TD>
+	<TR VALIGN="TOP">
+		<TD ROWSPAN="5"><FONT SIZE="4"><A HREF="04.html#4.3">S</A>. </FONT></TD>
+		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Strövare</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-be'}</TD>
 		<TD>   </TD>
 		<TD>inte
-		<BR><FONT SIZE=1>(används ej i imperativ, då används {-Qo'}
+		<BR><FONT SIZE="1">(används ej i imperativ, då används {-Qo'}
 		istället)</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-Qo'}</TD>
 		<TD>   </TD>
 		<TD>gör inte!, tänker inte
-		<BR><FONT SIZE=1>(kommer sist, om inte följd av ett suffix typ
+		<BR><FONT SIZE="1">(kommer sist, om inte följd av ett suffix typ
 		9)</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-Ha'}</TD>
 		<TD>   </TD>
 		<TD>negera, göra ogjort
-		<BR><FONT SIZE=1>(kommer alltid direkt efter verbet)</FONT></TD>
+		<BR><FONT SIZE="1">(kommer alltid direkt efter verbet)</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-qu'}</TD>
 		<TD>   </TD>
@@ -423,185 +422,185 @@ ngaDHa'} "instabil farkost" [KGT s.150])
 3. Substantivsuffix [[**]]
 -------------------
 
-<TABLE ALIGN=CENTER CELLSPACING=0 CELLPADDING=0 BORDER=0>
-	<TR VALIGN=TOP>
-		<TD ROWSPAN=4><FONT SIZE=4><A HREF="03.html#3.3.1">1</A>. </FONT></TD>
-		<TD COLSPAN=4 NOWRAP><FONT SIZE=4>Augmentativ, diminutiv, affektion</FONT></TD>
+<TABLE ALIGN="CENTER" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+	<TR VALIGN="TOP">
+		<TD ROWSPAN="4"><FONT SIZE="4"><A HREF="03.html#3.3.1">1</A>. </FONT></TD>
+		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Augmentativ, diminutiv, affektion</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-'a'}</TD>
 		<TD>   </TD>
 		<TD>augmentativ</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-Hom}</TD>
 		<TD>   </TD>
 		<TD>diminutiv</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-oy}</TD>
 		<TD>   </TD>
-		<TD>affektion <FONT SIZE=2>[TKDa]</FONT></TD>
+		<TD>affektion [TKDa]</TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD ROWSPAN=4><FONT SIZE=4><A HREF="03.html#3.3.2">2</A>. </FONT></TD>
-		<TD COLSPAN=4 NOWRAP><FONT SIZE=4>Numerus</FONT></TD>
+	<TR VALIGN="TOP">
+		<TD ROWSPAN="4"><FONT SIZE="4"><A HREF="03.html#3.3.2">2</A>. </FONT></TD>
+		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Numerus</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-pu'}</TD>
 		<TD>   </TD>
 		<TD>plural
-		<BR><FONT SIZE=1>(för varelser förmögna till språk)</FONT></TD>
+		<BR><FONT SIZE="1">(för varelser förmögna till språk)</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-Du'}</TD>
 		<TD>   </TD>
 		<TD>plural
-		<BR><FONT SIZE=1>(för kroppsdelar)</FONT></TD>
+		<BR><FONT SIZE="1">(för kroppsdelar)</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-mey}</TD>
 		<TD>   </TD>
 		<TD>plural
-		<BR><FONT SIZE=1>(generell användning)</FONT></TD>
+		<BR><FONT SIZE="1">(generell användning)</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD ROWSPAN=4><FONT SIZE=4><A HREF="03.html#3.3.3">3</A>. </FONT></TD>
-		<TD COLSPAN=4 NOWRAP><FONT SIZE=4>Kvalifikation</FONT></TD>
+	<TR VALIGN="TOP">
+		<TD ROWSPAN="4"><FONT SIZE="4"><A HREF="03.html#3.3.3">3</A>. </FONT></TD>
+		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Kvalifikation</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-qoq}</TD>
 		<TD>   </TD>
 		<TD>så kallad</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-Hey}</TD>
 		<TD>   </TD>
 		<TD>synbar, skenbar</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-na'}</TD>
 		<TD>   </TD>
 		<TD>definitiv</TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD ROWSPAN=13><FONT SIZE=4><A HREF="03.html#3.3.4">4</A>. </FONT></TD>
-		<TD COLSPAN=4 NOWRAP><FONT SIZE=4>Possesiv/demonstrativ</FONT></TD>
+	<TR VALIGN="TOP">
+		<TD ROWSPAN="13"><FONT SIZE="4"><A HREF="03.html#3.3.4">4</A>. </FONT></TD>
+		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Possesiv/demonstrativ</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-wIj}</TD>
 		<TD>   </TD>
 		<TD>min, mitt</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-wI'}</TD>
 		<TD>   </TD>
 		<TD>min, mitt
-		<BR><FONT SIZE=1>(substantiv förmöget till språk)</FONT></TD>
+		<BR><FONT SIZE="1">(substantiv förmöget till språk)</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-maj}</TD>
 		<TD>   </TD>
 		<TD>vår, vårt</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-ma'}</TD>
 		<TD>   </TD>
 		<TD>vår, vårt
-		<BR><FONT SIZE=1>(substantiv förmöget till språk)</FONT></TD>
+		<BR><FONT SIZE="1">(substantiv förmöget till språk)</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-lIj}</TD>
 		<TD>   </TD>
 		<TD>din, ditt</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-lI'}</TD>
 		<TD>   </TD>
 		<TD>din, ditt
-		<BR><FONT SIZE=1>(substantiv förmöget till språk)</FONT></TD>
+		<BR><FONT SIZE="1">(substantiv förmöget till språk)</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-raj}</TD>
 		<TD>   </TD>
 		<TD>er, ert</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-ra'}</TD>
 		<TD>   </TD>
 		<TD>er, ert
-		<BR><FONT SIZE=1>(substantiv förmöget till språk)</FONT></TD>
+		<BR><FONT SIZE="1">(substantiv förmöget till språk)</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-Daj}</TD>
 		<TD>   </TD>
 		<TD>hans, hennes, dess</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-chaj}</TD>
 		<TD>   </TD>
 		<TD>deras</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-vam}</TD>
 		<TD>   </TD>
 		<TD>den här</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-vetlh}</TD>
 		<TD>   </TD>
 		<TD>den där</TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD ROWSPAN=6><FONT SIZE=4><A HREF="03.html#3.3.5">5</A>. </FONT></TD>
-		<TD COLSPAN=4 NOWRAP><FONT SIZE=4>Syntaktiska markörer</FONT></TD>
+	<TR VALIGN="TOP">
+		<TD ROWSPAN="6"><FONT SIZE="4"><A HREF="03.html#3.3.5">5</A>. </FONT></TD>
+		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Syntaktiska markörer</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-Daq}</TD>
 		<TD>   </TD>
 		<TD>lokativ</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-vo'}</TD>
 		<TD>   </TD>
 		<TD>från</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-mo'}</TD>
 		<TD>   </TD>
 		<TD>på grund av, beroende på</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-vaD}</TD>
 		<TD>   </TD>
 		<TD>för, avsedd för</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-'e'}</TD>
 		<TD>   </TD>
@@ -613,64 +612,64 @@ ngaDHa'} "instabil farkost" [KGT s.150])
 4. Särskilda numeriska suffix [[**]]
 -----------------------------
 
-[[<TABLE ALIGN=CENTER CELLSPACING=0 CELLPADDING=0 BORDER=0>
-	<TR VALIGN=TOP>
-		<TD ROWSPAN=7><FONT SIZE=4><A HREF="05.html#5.2">1</A>. </FONT></TD>
-		<TD COLSPAN=4 NOWRAP><FONT SIZE=4>Sifferbildande element</FONT></TD>
+[[<TABLE ALIGN="CENTER" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+	<TR VALIGN="TOP">
+		<TD ROWSPAN="7"><FONT SIZE="4"><A HREF="05.html#5.2">1</A>. </FONT></TD>
+		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Sifferbildande element</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-maH}</TD>
 		<TD>   </TD>
 		<TD>tio</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-vatlh}</TD>
 		<TD>   </TD>
 		<TD>hundra</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-SaD} / {-SanID}</TD>
 		<TD>   </TD>
 		<TD>tusen</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-netlh}</TD>
 		<TD>   </TD>
 		<TD>tiotusen</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-bIp}</TD>
 		<TD>   </TD>
 		<TD>hundratusen</TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-'uy'}</TD>
 		<TD>   </TD>
 		<TD>miljon</TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD ROWSPAN=3><FONT SIZE=4><A HREF="05.html#5.2">2</A>. </FONT></TD>
-		<TD COLSPAN=4 NOWRAP><FONT SIZE=4>Ordningstal/upprepningar</FONT></TD>
+	<TR VALIGN="TOP">
+		<TD ROWSPAN="3"><FONT SIZE="4"><A HREF="05.html#5.2">2</A>. </FONT></TD>
+		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Ordningstal/upprepningar</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-DIch}</TD>
 		<TD>   </TD>
 		<TD>bildar ordningstal
-		<BR><FONT SIZE=1>("första", "andra" etc., ordet följer substantivet)</FONT></TD>
+		<BR><FONT SIZE="1">("första", "andra" etc., ordet följer substantivet)</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
+	<TR VALIGN="TOP">
 		<TD>   </TD>
 		<TD>{-logh}</TD>
 		<TD>   </TD>
 		<TD>bildar upprepningar
-		<BR><FONT SIZE=1>("en gång", "två gånger" etc., ordet fungerar som adverb)</FONT></TD>
+		<BR><FONT SIZE="1">("en gång", "två gånger" etc., ordet fungerar som adverb)</FONT></TD>
 	</TR>
 </TABLE>
 

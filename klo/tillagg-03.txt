@@ -9,14 +9,13 @@ next: tillagg-04
 Engelsk-svensk guide till översatta termer [[*]]
 ===========================================
 
-Detta är tänkt att utgöra en guide vid översättningen till
-svenska och syftar till att åstadkomma en möjlighet till konsekvent
-använd grammatisk terminologi. "¿?" indikerar att jag ännu inte
-funnit någon lämplig översättning. Har du åsikter om översättingen,
-skicka då ett brev till mig (<I>Zrajm C Akfohg &lt;<A
-HREF="mailto:zrajm@klingonska.org">zrajm@klingonska.org</A>&gt;</I>)
-och tala om det. All form av feedback (positiv liksom negativ) är
-välkommen, och konstruktiv kritik värderas högt.
+Detta är tänkt att utgöra en guide vid översättningen till svenska och syftar
+till att åstadkomma en möjlighet till konsekvent använd grammatisk terminologi.
+"¿?" indikerar att jag ännu inte funnit någon lämplig översättning. Har du
+åsikter om översättingen, skicka då ett brev till mig (_Zrajm C Akfohg &lt;<A
+HREF="mailto:zrajm@klingonska.org">zrajm@klingonska.org</A>&gt;_) och tala om
+det. All form av feedback (positiv liksom negativ) är välkommen, och konstruktiv
+kritik värderas högt.
 
 
 {accent} -- brytning [TKD sid.13 m.fl.]
@@ -33,11 +32,11 @@ välkommen, och konstruktiv kritik värderas högt.
 
 {glottal stop} -- laryngal klusil
 
-{head noun} -- korrelat/¿huvudsubstantiv? [TKD sid.63 m.fl.] (se även "relative clause")
--- Att MO syftar på korrelatet tycks stå utom tvekan, däremot verkar hans "head
-noun" vara en hemkokt terminologi -- kanske med någon nyansskillnad -- således
-kanske denna terminologiska skillnad borde bibehållas genom översättningen
-"huvudsubstantiv"?
+{head noun} -- korrelat/¿huvudsubstantiv? [TKD sid.63 m.fl.] (se även "relative
+clause") -- Att MO syftar på korrelatet tycks stå utom tvekan, däremot verkar
+hans "head noun" vara en hemkokt terminologi -- kanske med någon nyansskillnad
+-- således kanske denna terminologiska skillnad borde bibehållas genom
+översättningen "huvudsubstantiv"?
 
 {grammatical gender} -- genus [TKD sid.51]
 

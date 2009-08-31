@@ -89,49 +89,49 @@ tribblar/tribbeln/tribblarna, tricorder=trikorder [trikårder] (bygger på
 vad? recorder?), targ=en targ/flera targer/targen/targarna (klingonskt
 husdjur, ser ut som en gris med taggar), trillium
 
-<TABLE CELLSPACING=0 BORDER=1 ALIGN=CENTER>
-  <TR VALIGN=TOP>
-    <TD COLSPAN=3><FONT SIZE=5>Rang och arbetsuppgifter inom Starfleet/Enterprise:</FONT></TD>
+<TABLE CELLSPACING="0" BORDER="1" ALIGN="CENTER">
+  <TR VALIGN="TOP">
+    <TD COLSPAN="3"><FONT SIZE="5">Rang och arbetsuppgifter inom Starfleet/Enterprise:</FONT></TD>
   </TR>
-  <TR VALIGN=TOP>
-    <TD><FONT SIZE=4>admiral</FONT></TD>
-    <TD><FONT SIZE=4>amiral</FONT></TD>
+  <TR VALIGN="TOP">
+    <TD><FONT SIZE="4">admiral</FONT></TD>
+    <TD><FONT SIZE="4">amiral</FONT></TD>
     <TD></TD>
   </TR>
-  <TR VALIGN=TOP>
-    <TD><FONT SIZE=4>captain</FONT></TD>
-    <TD><FONT SIZE=4>kapten</FONT></TD>
+  <TR VALIGN="TOP">
+    <TD><FONT SIZE="4">captain</FONT></TD>
+    <TD><FONT SIZE="4">kapten</FONT></TD>
     <TD></TD>
   </TR>
-  <TR VALIGN=TOP>
-    <TD><FONT SIZE=4>commander</FONT></TD>
-    <TD><FONT SIZE=4>kommendör</FONT></TD>
+  <TR VALIGN="TOP">
+    <TD><FONT SIZE="4">commander</FONT></TD>
+    <TD><FONT SIZE="4">kommendör</FONT></TD>
     <TD></TD>
   </TR>
-  <TR VALIGN=TOP>
-    <TD><FONT SIZE=4>lieutenant commander</FONT></TD>
-    <TD><FONT SIZE=4>löjtnants kommendör
+  <TR VALIGN="TOP">
+    <TD><FONT SIZE="4">lieutenant commander</FONT></TD>
+    <TD><FONT SIZE="4">löjtnants kommendör
         <BR>chefslöjtnant</FONT></TD>
     <TD></TD>
   </TR>
-  <TR VALIGN=TOP>
-    <TD><FONT SIZE=4>lieutenant</FONT></TD>
-    <TD><FONT SIZE=4>löjtnant</FONT></TD>
+  <TR VALIGN="TOP">
+    <TD><FONT SIZE="4">lieutenant</FONT></TD>
+    <TD><FONT SIZE="4">löjtnant</FONT></TD>
     <TD></TD>
   </TR>
-  <TR VALIGN=TOP>
-    <TD><FONT SIZE=4>lieutenant (junior grade)</FONT></TD>
-    <TD><FONT SIZE=4>löjtnant (underordnad/junior-rang/klass/grad)</FONT></TD>
+  <TR VALIGN="TOP">
+    <TD><FONT SIZE="4">lieutenant (junior grade)</FONT></TD>
+    <TD><FONT SIZE="4">löjtnant (underordnad/junior-rang/klass/grad)</FONT></TD>
     <TD></TD>
   </TR>
-  <TR VALIGN=TOP>
-    <TD><FONT SIZE=4>ensign</FONT></TD>
-    <TD><FONT SIZE=4>fänrik</FONT></TD>
+  <TR VALIGN="TOP">
+    <TD><FONT SIZE="4">ensign</FONT></TD>
+    <TD><FONT SIZE="4">fänrik</FONT></TD>
     <TD></TD>
   </TR>
-  <TR VALIGN=TOP>
-    <TD><FONT SIZE=4>chief warrant officer</FONT></TD>
-    <TD><FONT SIZE=4>förvaltare</FONT></TD>
+  <TR VALIGN="TOP">
+    <TD><FONT SIZE="4">chief warrant officer</FONT></TD>
+    <TD><FONT SIZE="4">förvaltare</FONT></TD>
     <TD></TD>
   </TR>
 </TABLE>
@@ -142,55 +142,55 @@ lieutenant commander=chefslöjtnant, chief engineer=¿chefsingenjör?,
 yeoman=¿assistent?, ship's couselor, Bird-of-Prey=¿Rovfågel?
 Communicator=¿Kommunikatör/Kommunikator? etc.
 
-<TABLE CELLSPACING=0 BORDER=1 ALIGN=CENTER>
-	<TR VALIGN=TOP>
-		<TD COLSPAN=3><FONT SIZE=5>Delar/sektioner av skeppet:</FONT></TD>
+<TABLE CELLSPACING="0" BORDER="1" ALIGN="CENTER">
+	<TR VALIGN="TOP">
+		<TD COLSPAN="3"><FONT SIZE="5">Delar/sektioner av skeppet:</FONT></TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD><FONT SIZE=4>bridge</FONT></TD>
-		<TD><FONT SIZE=4>[kommando-]brygga</FONT></TD>
+	<TR VALIGN="TOP">
+		<TD><FONT SIZE="4">bridge</FONT></TD>
+		<TD><FONT SIZE="4">[kommando-]brygga</FONT></TD>
 		<TD>Förslagsvis används den längre formen "kommandobrygga" första
 		gången termen används, sen räcker "brygga" men möjligheten finns
 		alltid att falla tillbaka på den längre formen om skäl finnes.</TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD><FONT SIZE=4>brig</FONT></TD>
-		<TD><FONT SIZE=4>arrest</FONT></TD>
+	<TR VALIGN="TOP">
+		<TD><FONT SIZE="4">brig</FONT></TD>
+		<TD><FONT SIZE="4">arrest</FONT></TD>
 		<TD>Blanda _inte_ ihop detta med "the bridge" för då blir det
 		fel.</TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD><FONT SIZE=4>engineering</FONT></TD>
-		<TD><FONT SIZE=4>Maskin<BR>tekniken<BR>ingengör</FONT></TD>
+	<TR VALIGN="TOP">
+		<TD><FONT SIZE="4">engineering</FONT></TD>
+		<TD><FONT SIZE="4">Maskin<BR>tekniken<BR>ingengör</FONT></TD>
 		<TD>"Maskin" med stort "M" förekommer i SVT1s textning av VGR,
 		"tekniken" har förekommit i TNG.</TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD><FONT SIZE=4>engineering section</FONT></TD>
-		<TD><FONT SIZE=4>Maskinsektionen
+	<TR VALIGN="TOP">
+		<TD><FONT SIZE="4">engineering section</FONT></TD>
+		<TD><FONT SIZE="4">Maskinsektionen
 			<BR>tekniksektionen
 			<BR>ingengörssektionen</FONT></TD>
 		<TD></TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD><FONT SIZE=4>nacelle</FONT></TD>
-		<TD><FONT SIZE=4>[warp-]gondol</FONT></TD>
+	<TR VALIGN="TOP">
+		<TD><FONT SIZE="4">nacelle</FONT></TD>
+		<TD><FONT SIZE="4">[warp-]gondol</FONT></TD>
 		<TD></TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD><FONT SIZE=4>primary hull</FONT></TD>
-		<TD><FONT SIZE=4>primära skrovet
+	<TR VALIGN="TOP">
+		<TD><FONT SIZE="4">primary hull</FONT></TD>
+		<TD><FONT SIZE="4">primära skrovet
 			<BR>primärskrovet</FONT></TD>
 		<TD></TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD><FONT SIZE=4>saucer section</FONT></TD>
-		<TD><FONT SIZE=4>tefats-sektionen</FONT></TD>
+	<TR VALIGN="TOP">
+		<TD><FONT SIZE="4">saucer section</FONT></TD>
+		<TD><FONT SIZE="4">tefats-sektionen</FONT></TD>
 		<TD></TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD><FONT SIZE=4>secondary hull</FONT></TD>
-		<TD><FONT SIZE=4>sekundära skrovet
+	<TR VALIGN="TOP">
+		<TD><FONT SIZE="4">secondary hull</FONT></TD>
+		<TD><FONT SIZE="4">sekundära skrovet
 			<BR>sekundärskrovet</FONT></TD>
 		<TD></TD>
 	</TR>
@@ -198,37 +198,37 @@ Communicator=¿Kommunikatör/Kommunikator? etc.
 
 disruptor=¿disruptor? (sprängpistol är iaf enbart löjligt) etc.
 
-<TABLE CELLSPACING=0 BORDER=1 ALIGN=CENTER>
-	<TR VALIGN=TOP>
-		<TD><FONT SIZE=4>combadge</FONT></TD>
-		<TD><FONT SIZE=4>kombricka
+<TABLE CELLSPACING="0" BORDER="1" ALIGN="CENTER">
+	<TR VALIGN="TOP">
+		<TD><FONT SIZE="4">combadge</FONT></TD>
+		<TD><FONT SIZE="4">kombricka
 			<BR>kommärke</FONT></TD>
 		<TD></TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD><FONT SIZE=4>communicator</FONT></TD>
-		<TD><FONT SIZE=4>kommunikatör</FONT>
+	<TR VALIGN="TOP">
+		<TD><FONT SIZE="4">communicator</FONT></TD>
+		<TD><FONT SIZE="4">kommunikatör</FONT>
 			<BR>eller
-			<BR><FONT SIZE=4>kommunikator</FONT></TD>
+			<BR><FONT SIZE="4">kommunikator</FONT></TD>
 		<TD></TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD><FONT SIZE=4>phaser</FONT></TD>
-		<TD><FONT SIZE=4>phaser</FONT></TD>
+	<TR VALIGN="TOP">
+		<TD><FONT SIZE="4">phaser</FONT></TD>
+		<TD><FONT SIZE="4">phaser</FONT></TD>
 		<TD>"PHASed Energy Rectification" (akronym). Böjs och
 		andvänds på samma sätt som "laser". (s. obest. »phaser«, best.
 		»phasern«, pl. obest. »phasrar«, best. »phasrarna«.)</TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD><FONT SIZE=4>transporter</FONT></TD>
-		<TD><FONT SIZE=4>transportör</FONT>
+	<TR VALIGN="TOP">
+		<TD><FONT SIZE="4">transporter</FONT></TD>
+		<TD><FONT SIZE="4">transportör</FONT>
 			<BR>eller
-			<BR><FONT SIZE=4>transporter</FONT></TD>
+			<BR><FONT SIZE="4">transporter</FONT></TD>
 		<TD></TD>
 	</TR>
-	<TR VALIGN=TOP>
-		<TD><FONT SIZE=4></FONT></TD>
-		<TD><FONT SIZE=4></FONT></TD>
+	<TR VALIGN="TOP">
+		<TD><FONT SIZE="4"></FONT></TD>
+		<TD><FONT SIZE="4"></FONT></TD>
 		<TD></TD>
 	</TR>
 </TABLE></TD></TR>
