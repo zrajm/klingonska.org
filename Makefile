@@ -3,7 +3,10 @@
 #
 
 # list of HTML files to generate
-generated_html_files = $(patsubst %.txt, %.html, $(wildcard klo/*.txt)) # KLO files
+generated_html_files = $(patsubst %.txt, %.html, \
+	$(wildcard klo/*.txt) \
+	akademien/logo/index.txt \
+)
 
 webpage := $(shell basename `pwd`)
 
