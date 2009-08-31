@@ -435,11 +435,23 @@ sub page_main {
     s{ \[\[ (.*?) \]\] }{<span class="comment">$1</span>}gxs;
 
     # clean up some (useless) empty HTML elements
-    s{ \s* <thead> \s* </thead> }{}xg;
-    s{ \s* <col \s* /> }{}xg;
+    s{ \s* <thead> \s* </thead> }{}gix;
+    s{ \s* <col \s* /> }{}gix;
 
     # clear away whitspace inside empty <td> cells
-    s{(<td\b[^>]*>) \s+ (</td>)}{$1$2}xig;
+    s{(<td\b[^>]*>) \s+ (</td>)}{$1$2}gix;
+
+    # clean up headline "id" attribute
+    s{ <h([1-7])( \s+ [^>]*)> (.*?) </h\1> }{
+        my ($num, $attr, $cont, $name) = ($1, $2, $3, $3);
+	$name =~ s{ \s* < (\w+) [^>]*> .*? </\1> \s* }{}gix;
+	$name =~ s{ \s* \[ .*? \] \s* }{}gix;
+	if ($name =~ /^ ((?:\d+\.)* \d+) /x) {
+	    $name = $1;
+	}
+        $attr =~ s{ id="[^"]*" }{id="$name"}xi;
+	"<h$num$attr>$cont</h$num>"
+    }gixme;
 
     return $_;
 }
