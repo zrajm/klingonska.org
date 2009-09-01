@@ -35,7 +35,7 @@ html: $(generated_html_files)
 
 # FIXME: should depend on all includes required by the HMTL file
 %.html: %.txt
-	usr/bin/markdown2html $? >$@
+	usr/bin/markdown2html "$?" >"$@" || rm -f "$@"
 
 
 .PHONY: clean
