@@ -81,9 +81,12 @@ MILESTONE: NEW SITE ONLINE AT KLINGONSKA.ORG
   * DONE [2008-08-25] typographical " and ' in links (see e.g. index.html)
   * index.html should have blank lines between grammar & dictionary &
     additional parts
+  * clean away table cells with only nbsps in "tillagg-01.txt"
 
 THEREAFTER
 ----------
+* Make sure klingonska.org is POSH (http://microformats.org/wiki/POSH)
+
 * verify (X?)HTML against w3c validator
   o DONE [2009-09-01] " -> &rdquo; needs to not happen inside HTML <...> tags
     (XHTML validation of "klo/index.html" is broken)
@@ -255,6 +258,11 @@ THEREAFTER
 
 FUTURE
 ------
+* No email address should be specified in markdown source <!--AUTH yadda-->
+  should expand to a name within a mailto link, while <!--AUTH--> (without
+  arguments) should expand to a list of all the authors specified in metadata
+  for the page.
+* CSS for printible media should show the contents links and mailto: links.
 * Add XHTML page tag specifying UTF8 as charset
 * Reinstate feedback form
 * CC licence on entire site (except KLO?)
@@ -325,6 +333,10 @@ o Add a "fonts/" subpage:
     o /xtra/web/public_html/stp/nerd/klingon/kapiqad/
     o /ytra/zrajm/stp/public_html/nerd/klingon/kapiqad/
     o /ytra/zrajm/stp/zopt/tex/packages/kapiqad/
+
+2009-09-13
+  * Added license-link in footer (CC BY-SA license)
+    http://microformats.org/wiki/rel-license
 
 2009-04-07
   * Fixed "canon/download.cgi" (now uses UTF-8)
