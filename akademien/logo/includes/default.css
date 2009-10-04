@@ -1,0 +1,166 @@
+
+.prevnext {
+    font-family: sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+body {
+    margin: 0em 1em;
+}
+
+div#head {
+    font-family: sans-serif;
+    margin-bottom: 2.5em;
+    text-align: center;
+}
+
+div#head img {
+    border: 0em;
+    margin-bottom: .5em;
+    margin-top: .75em;
+}
+
+
+div#head table.status {
+    border: 0em;
+    font-size: x-small;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0em;
+    padding: 0em;
+    width: 100%;
+}
+
+div#head table.disclaimer {
+    background-color: #000000;
+    border: 0em;
+    color: #ffff00;
+    font-family: serif;
+    font-size: 150%;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0em;
+    padding: 1em 2em;
+}
+
+div#head table.disclaimer tr.big {
+    font-size: 175%;
+}
+
+div#head p {
+    text-align: center;
+}
+
+.author {
+    font-style: italic;
+}
+
+td.left   { text-align: left;   }
+td.right  { text-align: right;  }
+td.center { text-align: center; }
+
+#foot {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 2em;
+}
+
+#foot .copyright {
+    border-bottom: .2em solid black;
+    border-top: .2em solid black;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: .5em;
+    padding-bottom: .75em;
+    padding-top: .75em;
+}
+
+#foot .validator {
+    margin-bottom: 2em;
+    font-size: x-small;
+}
+
+.comment {
+    background-color: #aaaaaa;
+}
+
+
+
+/* Don't change order of the following "a" pseudo classes! */
+/* [http://www.w3schools.com/CSS/css_pseudo_classes.asp]   */
+a:link    { color: #444444; } /* unvisited link  */
+a:visited { color: #777777; } /* visited link    */
+a:hover   {                   /* mouse over link */
+    background-color: #cccccc;
+    color: black;
+}
+a:active  { color: #aaaaaa; } /* selected link -- button pressed on link */
+
+
+#main table {
+    border-collapse: collapse;
+    display: block;            /* make margins between tables collapse */
+    empty-cells: show;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#main table .empty {
+    background-color: #aaaaaa;
+}
+
+#main tr td:first-child {
+    padding-left: 0em;
+}
+
+#main td {
+    padding: 0em .5em;
+}
+
+
+.toc ul {
+    list-style-type: none;
+}
+
+
+#main p + p {
+    margin-top: -1em;
+    text-indent: 1.5em;
+}
+
+
+/* used by "index.html" table of contents */
+.toc span.comment:before { content: "["; }
+.toc span.comment:after  { content: "]"; }
+.toc span.comment {
+    background-color: white;
+    color: #888888;
+    font-style: italic;
+    font-size: x-small;
+    vertical-align: top;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+
+/* DEBUG-STUFF */
+/* NOTE: Does not validate! Don't use in production! */
+/*
+img[alt=""] { border: 3px dotted red; }
+img:not([alt]) { border: 5px solid red; }
+a[href="#"] { background-color: lime; }
+a[href=""] { background-color: lime; }
+span:empty, li:empty, p:empty, td:empty, th:empty {
+    padding: .5em;
+    background-color: yellow;
+}
+*/
+
+/* eof */

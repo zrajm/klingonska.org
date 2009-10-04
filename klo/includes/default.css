@@ -1,6 +1,8 @@
 
 .prevnext {
+    font-family: sans-serif;
     font-size: large;
+    text-align: center;
 }
 
 body {
@@ -8,7 +10,9 @@ body {
 }
 
 div#head {
+    font-family: sans-serif;
     margin-bottom: 2.5em;
+    text-align: center;
 }
 
 div#head img {
@@ -33,18 +37,18 @@ div#head table.disclaimer {
     background-color: #000000;
     border: 0em;
     color: #ffff00;
+    font-family: serif;
+    font-size: 150%;
     font-style: italic;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0em;
     padding: 1em 2em;
-    font-size: 150%;
 }
 
 div#head table.disclaimer tr.big {
     font-size: 175%;
 }
-
 
 div#head p {
     text-align: center;
@@ -76,7 +80,7 @@ td.center { text-align: center; }
 
 #foot .validator {
     margin-bottom: 2em;
-    font-size: small;
+    font-size: x-small;
 }
 
 .comment {
@@ -102,6 +106,10 @@ a:active  { color: #aaaaaa; } /* selected link -- button pressed on link */
     empty-cells: show;
     margin-bottom: 1em;
     margin-top: 1em;
+}
+
+#main table .empty {
+    background-color: #aaaaaa;
 }
 
 #main tr td:first-child {

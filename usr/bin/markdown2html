@@ -16,6 +16,7 @@ if (not @ARGV) {
 my %code = (
     AUTHOR   => \&page_author,
     CHANGED  => \&page_date,
+    CSS      => \&page_css,
     FOOT     => \&page_footer,
     HEAD     => \&page_header,
     LOGOLINK => \&page_logolink_url,
@@ -262,6 +263,13 @@ sub page_urllink {
     my ($self, %meta) = @_;
     my $url = page_url($self, %meta);
     return "<a href=\"$url\">$url</a>";
+}
+
+sub page_css {
+    my ($self, %meta) = @_;
+    my $file = find_include_file("includes/default.css", $meta{filename});
+    $file = rel_filename($file, $meta{filename});
+    return "<link rel=\"stylesheet\" type=\"text/css\" href=\"$file\" />";
 }
 
 # return time in "2009-12-31, 24:59" format

@@ -50,7 +50,6 @@ div#head table.disclaimer tr.big {
     font-size: 175%;
 }
 
-
 div#head p {
     text-align: center;
 }
@@ -109,6 +108,10 @@ a:active  { color: #aaaaaa; } /* selected link -- button pressed on link */
     margin-top: 1em;
 }
 
+#main table .empty {
+    background-color: #aaaaaa;
+}
+
 #main tr td:first-child {
     padding-left: 0em;
 }
@@ -123,6 +126,12 @@ a:active  { color: #aaaaaa; } /* selected link -- button pressed on link */
 }
 
 
+#main p + p {
+    margin-top: -1em;
+    text-indent: 1.5em;
+}
+
+
 /* used by "index.html" table of contents */
 .toc span.comment:before { content: "["; }
 .toc span.comment:after  { content: "]"; }
@@ -132,6 +141,11 @@ a:active  { color: #aaaaaa; } /* selected link -- button pressed on link */
     font-style: italic;
     font-size: x-small;
     vertical-align: top;
+}
+
+
+h1 {
+    text-align: center;
 }
 
 
