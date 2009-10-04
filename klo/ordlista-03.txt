@@ -47,36 +47,36 @@ Nummer indikerar suffixtyp.
 2. Pronominella prefix [[**]]
 ----------------------
 
-|--------|-----------------------------------------------------------|
-| {-}    | han/hon/det-ingen/honom/henne/det/dem<BR>de-ingen/dem     |
-| {bI-}  | du-ingen                                                  |
-| {bo-}  | ni-honom/henne/det/dem                                    |
-| {che-} | ni-oss                                                    |
-| {cho-} | du-mig                                                    |
-| {Da-}  | du-honom/henne/det/dem                                    |
-| {DI-}  | vi-dem                                                    |
-| {Du-}  | han/hon/det-dig                                           |
-| {gho-} | imperativ: du/ni-oss                                      |
-| {HI-}  | imperativ: du/ni-mig                                      |
-| {jI-}  | jag-ingen                                                 |
-| {ju-}  | du-oss                                                    |
-| {lI-}  | han/hon/det/de-er                                         |
-| {lu-}  | de-honom/henne/det                                        |
-| {ma-}  | vi-ingen                                                  |
-| {mu-}  | han/hon/det/dem-mig                                       |
-| {nI-}  | de-dig                                                    |
-| {nu-}  | han/hon/det/de-oss                                        |
-| {pe-}  | imperativ: ni-ingen                                       |
-| {pI-}  | vi-dig                                                    |
-| {qa-}  | jag-dig                                                   |
-| {re-}  | vi-er                                                     |
-| {Sa-}  | jag-er                                                    |
-| {Su-}  | ni-ingen                                                  |
-| {tI-}  | imperativ: du/ni-dem                                      |
-| {tu-}  | ni-mig                                                    |
-| {vI-}  | jag-honom/henne/det/dem                                   |
-| {wI-}  | vi-honom/henne/det                                        |
-| {yI-}  | imperativ: du-ingen/honom/henne/det<BR>ni-honom/henne/det |
+|--------|-------------------------------------------------------------|
+| {-}    | han/hon/det-ingen/honom/henne/det/dem<br />de-ingen/dem     |
+| {bI-}  | du-ingen                                                    |
+| {bo-}  | ni-honom/henne/det/dem                                      |
+| {che-} | ni-oss                                                      |
+| {cho-} | du-mig                                                      |
+| {Da-}  | du-honom/henne/det/dem                                      |
+| {DI-}  | vi-dem                                                      |
+| {Du-}  | han/hon/det-dig                                             |
+| {gho-} | imperativ: du/ni-oss                                        |
+| {HI-}  | imperativ: du/ni-mig                                        |
+| {jI-}  | jag-ingen                                                   |
+| {ju-}  | du-oss                                                      |
+| {lI-}  | han/hon/det/de-er                                           |
+| {lu-}  | de-honom/henne/det                                          |
+| {ma-}  | vi-ingen                                                    |
+| {mu-}  | han/hon/det/dem-mig                                         |
+| {nI-}  | de-dig                                                      |
+| {nu-}  | han/hon/det/de-oss                                          |
+| {pe-}  | imperativ: ni-ingen                                         |
+| {pI-}  | vi-dig                                                      |
+| {qa-}  | jag-dig                                                     |
+| {re-}  | vi-er                                                       |
+| {Sa-}  | jag-er                                                      |
+| {Su-}  | ni-ingen                                                    |
+| {tI-}  | imperativ: du/ni-dem                                        |
+| {tu-}  | ni-mig                                                      |
+| {vI-}  | jag-honom/henne/det/dem                                     |
+| {wI-}  | vi-honom/henne/det                                          |
+| {yI-}  | imperativ: du-ingen/honom/henne/det<br />ni-honom/henne/det |
 
 
 3. Verbsuffix [[**]]

@@ -13,112 +13,112 @@ Alternativ guide till de klingonska affixen [[**1999-07-23]]
 1. Pronominella prefix [[**]]
 ----------------------
 
-<TABLE>
-<TR ALIGN="CENTER">
-<TD COLSPAN="2" ROWSPAN="2"> </TD>
-<TD COLSPAN="7"><FONT SIZE="4">O B J E K T</TD>
-</TR>
-<TR ALIGN="CENTER">
-<TD>{jIH}</TD>
-<TD>{maH}</TD>
-<TD>{SoH}</TD>
-<TD>{tlhIH}</TD>
-<TD>{ghaH<BR>'oH}</TD>
-<TD>{chaH<BR>bIH}</TD>
-<TD>{pagh}</TD>
-</TR>
-<TR ALIGN="CENTER">
-<TD ROWSPAN="9"><FONT SIZE="4">S<BR>U<BR> B <BR>J<BR>E<BR>K<BR>T</TD>
-<TD>{SoH (ra')}</TD>
-<TD>{HI-}</TD>
-<TD>{gho-}</TD>
-<TD BACKGROUND="pic/empty.gif"> </TD>
-<TD BACKGROUND="pic/empty.gif"> </TD>
-<TD>{yI-}</TD>
-<TD>{tI-}</TD>
-<TD>{yI-}</TD>
-</TR>
-<TR ALIGN="CENTER">
-<TD>{tlhIH (ra')}</TD>
-<TD>{HI-}</TD>
-<TD>{gho-}</TD>
-<TD BACKGROUND="pic/empty.gif"> </TD>
-<TD BACKGROUND="pic/empty.gif"> </TD>
-<TD>{yI-}</TD>
-<TD>{tI-}</TD>
-<TD>{pe-}</TD>
-</TR>
-<TR ALIGN="CENTER">
-<TD>{jIH}</TD>
-<TD BACKGROUND="pic/empty.gif"> </TD>
-<TD BACKGROUND="pic/empty.gif"> </TD>
-<TD>{qa-}</TD>
-<TD>{Sa-}</TD>
-<TD>{vI-}</TD>
-<TD>{vI-}</TD>
-<TD>{jI-}</TD>
-</TR>
-<TR ALIGN="CENTER">
-<TD>{maH}</TD>
-<TD BACKGROUND="pic/empty.gif"> </TD>
-<TD BACKGROUND="pic/empty.gif"> </TD>
-<TD>{pI-}</TD>
-<TD>{re-}</TD>
-<TD>{wI-}</TD>
-<TD>{DI-}</TD>
-<TD>{ma-}</TD>
-</TR>
-<TR ALIGN="CENTER">
-<TD>{SoH}</TD>
-<TD>{cho-}</TD>
-<TD>{ju-}</TD>
-<TD BACKGROUND="pic/empty.gif"> </TD>
-<TD BACKGROUND="pic/empty.gif"> </TD>
-<TD>{Da-}</TD>
-<TD>{Da-}</TD>
-<TD>{bI-}</TD>
-</TR>
-<TR ALIGN="CENTER">
-<TD>{tlhIH}</TD>
-<TD>{tu-}</TD>
-<TD>{che-}</TD>
-<TD BACKGROUND="pic/empty.gif"> </TD>
-<TD BACKGROUND="pic/empty.gif"> </TD>
-<TD>{bo-}</TD>
-<TD>{bo-}</TD>
-<TD>{Su-}</TD>
-</TR>
-<TR ALIGN="CENTER">
-<TD>{ghaH/'oH}</TD>
-<TD>{mu-}</TD>
-<TD>{nu-}</TD>
-<TD>{Du-}</TD>
-<TD>{lI-}</TD>
-<TD>{-}</TD>
-<TD>{-}</TD>
-<TD>{-}</TD>
-</TR>
-<TR ALIGN="CENTER">
-<TD>{chaH/bIH}</TD>
-<TD>{mu-}</TD>
-<TD>{nu-}</TD>
-<TD>{nI-}</TD>
-<TD>{lI-}</TD>
-<TD>{lu-}</TD>
-<TD>{-}</TD>
-<TD>{-}</TD>
-</TR>
-<TR ALIGN="CENTER">
-<TD>{vay'}</TD>
-<TD>{vI-lu'}</TD>
-<TD>{wI-lu'}</TD>
-<TD>{Da-lu'}</TD>
-<TD>{bo-lu'}</TD>
-<TD>{-lu'}</TD>
-<TD>{lu-lu'}</TD>
-<TD>{-lu'}</TD>
-</TR>
-</TABLE>
+<table>
+<tr align="center">
+<td colspan="2" rowspan="2"></td>
+<td colspan="7"><big>O B J E K T</big></td>
+</tr>
+<tr align="center">
+<td>{jIH}</td>
+<td>{maH}</td>
+<td>{SoH}</td>
+<td>{tlhIH}</td>
+<td>{ghaH<br />'oH}</td>
+<td>{chaH<br />bIH}</td>
+<td>{pagh}</td>
+</tr>
+<tr align="center">
+<td rowspan="9"><big>S<br />U<br /> B <br />J<br />E<br />K<br />T</big></td>
+<td>{SoH (ra')}</td>
+<td>{HI-}</td>
+<td>{gho-}</td>
+<td class="empty"></td>
+<td class="empty"></td>
+<td>{yI-}</td>
+<td>{tI-}</td>
+<td>{yI-}</td>
+</tr>
+<tr align="center">
+<td>{tlhIH (ra')}</td>
+<td>{HI-}</td>
+<td>{gho-}</td>
+<td class="empty"></td>
+<td class="empty"></td>
+<td>{yI-}</td>
+<td>{tI-}</td>
+<td>{pe-}</td>
+</tr>
+<tr align="center">
+<td>{jIH}</td>
+<td class="empty"></td>
+<td class="empty"></td>
+<td>{qa-}</td>
+<td>{Sa-}</td>
+<td>{vI-}</td>
+<td>{vI-}</td>
+<td>{jI-}</td>
+</tr>
+<tr align="center">
+<td>{maH}</td>
+<td class="empty"></td>
+<td class="empty"></td>
+<td>{pI-}</td>
+<td>{re-}</td>
+<td>{wI-}</td>
+<td>{DI-}</td>
+<td>{ma-}</td>
+</tr>
+<tr align="center">
+<td>{SoH}</td>
+<td>{cho-}</td>
+<td>{ju-}</td>
+<td class="empty"></td>
+<td class="empty"></td>
+<td>{Da-}</td>
+<td>{Da-}</td>
+<td>{bI-}</td>
+</tr>
+<tr align="center">
+<td>{tlhIH}</td>
+<td>{tu-}</td>
+<td>{che-}</td>
+<td class="empty"></td>
+<td class="empty"></td>
+<td>{bo-}</td>
+<td>{bo-}</td>
+<td>{Su-}</td>
+</tr>
+<tr align="center">
+<td>{ghaH/'oH}</td>
+<td>{mu-}</td>
+<td>{nu-}</td>
+<td>{Du-}</td>
+<td>{lI-}</td>
+<td>{-}</td>
+<td>{-}</td>
+<td>{-}</td>
+</tr>
+<tr align="center">
+<td>{chaH/bIH}</td>
+<td>{mu-}</td>
+<td>{nu-}</td>
+<td>{nI-}</td>
+<td>{lI-}</td>
+<td>{lu-}</td>
+<td>{-}</td>
+<td>{-}</td>
+</tr>
+<tr align="center">
+<td>{vay'}</td>
+<td>{vI-lu'}</td>
+<td>{wI-lu'}</td>
+<td>{Da-lu'}</td>
+<td>{bo-lu'}</td>
+<td>{-lu'}</td>
+<td>{lu-lu'}</td>
+<td>{-lu'}</td>
+</tr>
+</table>
 
 Bindestrecket i tabellen symboliserar verbet. Då ett bindestreck förekommer utan
 prefix, betyder detta att verbet ska vara prefixlöst. En tom ruta betyder att
@@ -140,278 +140,278 @@ i tabellen, eftersom jag ofta funnit dem förvirrande och lätta att ta miste p�
 2. Verbsuffix [[**]]
 -------------
 
-<TABLE ALIGN="CENTER" CELLSPACING="0" CELLPADDING="0" BORDER="0">
-	<TR VALIGN="TOP">
-		<TD ROWSPAN="3"><FONT SIZE="4"><A HREF="04.html#4.2.1">1</A>. </FONT></TD>
-		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Sig själv/varandra</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-'egh}</TD>
-		<TD>   </TD>
-		<TD>sig själv</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-chuq}</TD>
-		<TD>   </TD>
-		<TD>varandra
-		<BR><FONT SIZE="1">(kan endast användas med plural subjekt)</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD ROWSPAN="6"><FONT SIZE="4"><A HREF="04.html#4.2.2">2</A>. </FONT></TD>
-		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Villighet/benägenhet</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-nIS}</TD>
-		<TD>   </TD>
-		<TD>behöver</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-qang}</TD>
-		<TD>   </TD>
-		<TD>villig</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-rup}</TD>
-		<TD>   </TD>
-		<TD>redo, beredd
-		<BR><FONT SIZE="1">(används om varelser)</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-beH}</TD>
-		<TD>   </TD>
-		<TD>redo, iordningställd
-		<BR><FONT SIZE="1">(används om apparater)</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-vIp}</TD>
-		<TD>   </TD>
-		<TD>rädd
-		<BR><FONT SIZE="1">(kulturellt tabu att använda med subjekt i första
-		person)</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD ROWSPAN="3"><FONT SIZE="4"><A HREF="04.html#4.2.3">3</A>. </FONT></TD>
-		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Förändring</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-choH}</TD>
-		<TD>   </TD>
-		<TD>förändring i tillstånd, förändring i riktning</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-qa'}</TD>
-		<TD>   </TD>
-		<TD>fortsätta, göra igen</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD ROWSPAN="2"><FONT SIZE="4"><A HREF="04.html#4.2.4">4</A>. </FONT></TD>
-		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Orsak</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-moH}</TD>
-		<TD>   </TD>
-		<TD>orsaka</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD ROWSPAN="3"><FONT SIZE="4"><A HREF="04.html#4.2.5">5</A>. </FONT></TD>
-		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Indefinit subjekt/förmåga</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-lu'}</TD>
-		<TD>   </TD>
-		<TD>indefinit subjekt</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-laH}</TD>
-		<TD>   </TD>
-		<TD>kan</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD ROWSPAN="5"><FONT SIZE="4"><A HREF="04.html#4.2.6">6</A>. </FONT></TD>
-		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Kvalifikation</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-chu'}</TD>
-		<TD>   </TD>
-		<TD>perfekt, tydligt</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-bej}</TD>
-		<TD>   </TD>
-		<TD>definitivt, tveklöst</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-law'}</TD>
-		<TD>   </TD>
-		<TD>antagligen, nog, verkar vara</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-ba'}</TD>
-		<TD>   </TD>
-		<TD>uppenbarligen [TKDa]</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD ROWSPAN="5"><FONT SIZE="4"><A HREF="04.html#4.2.7">7</A>. </FONT></TD>
-		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Aspekt</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-pu'}</TD>
-		<TD>   </TD>
-		<TD>perfektiv</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-ta'}</TD>
-		<TD>   </TD>
-		<TD>utfört, gjort</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-taH}</TD>
-		<TD>   </TD>
-		<TD>pågående</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-lI'}</TD>
-		<TD>   </TD>
-		<TD>fortskridande, framskridande</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD ROWSPAN="2"><FONT SIZE="4"><A HREF="04.html#4.2.8">8</A>. </FONT></TD>
-		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Hedersbetygande</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-neS}</TD>
-		<TD>   </TD>
-		<TD>hedersbetygande
-		<BR><FONT SIZE="1">(används endast vid tilltal av överordnad, aldrig
-	nödvändigt)</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD ROWSPAN="12"><FONT SIZE="4"><A HREF="04.html#4.2.9">9</A>. </FONT></TD>
-		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Syntaktiska markörer</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-DI'}</TD>
-		<TD>   </TD>
-		<TD>när, så snart som</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-chugh}</TD>
-		<TD>   </TD>
-		<TD>om, ifall</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-pa'}</TD>
-		<TD>   </TD>
-		<TD>innan, före</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-vIS}</TD>
-		<TD>   </TD>
-		<TD>medan</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-bogh}</TD>
-		<TD>   </TD>
-		<TD>som
-		<BR><FONT SIZE="1">(markerar relativ bisats)</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-meH}</TD>
-		<TD>   </TD>
-		<TD>i syfte att</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-mo'}</TD>
-		<TD>   </TD>
-		<TD>på grund av [TKDa]</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-'a'}</TD>
-		<TD>   </TD>
-		<TD>interrogativ</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-jaj}</TD>
-		<TD>   </TD>
-		<TD>må, månde (konjunktiv) [TKDa]</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-wI'}</TD>
-		<TD>   </TD>
-		<TD>en som gör, sak som gör, en som är</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-ghach}</TD>
-		<TD>   </TD>
-		<TD>substantiviserare [TKDa]
-		<BR><FONT SIZE="1">(föregås alltid av minst ett annat suffix)</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD ROWSPAN="5"><FONT SIZE="4"><A HREF="04.html#4.3">S</A>. </FONT></TD>
-		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Strövare</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-be'}</TD>
-		<TD>   </TD>
-		<TD>inte
-		<BR><FONT SIZE="1">(används ej i imperativ, då används {-Qo'}
-		istället)</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-Qo'}</TD>
-		<TD>   </TD>
-		<TD>gör inte!, tänker inte
-		<BR><FONT SIZE="1">(kommer sist, om inte följd av ett suffix typ
-		9)</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-Ha'}</TD>
-		<TD>   </TD>
-		<TD>negera, göra ogjort
-		<BR><FONT SIZE="1">(kommer alltid direkt efter verbet)</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-qu'}</TD>
-		<TD>   </TD>
-		<TD>emfatiskt, framhävande</TD>
-	</TR>
-</TABLE>
+<table>
+	<tr valign="top">
+		<td rowspan="3"><big><a href="04.html#4.2.1">1</a>.</big></td>
+		<td colspan="4"><big>Sig själv/varandra</big></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-'egh}</td>
+		<td>  </td>
+		<td>sig själv</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-chuq}</td>
+		<td>  </td>
+		<td>varandra
+		<br /><small>(kan endast användas med plural subjekt)</small></td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="6"><big><a href="04.html#4.2.2">2</a>.</big></td>
+		<td colspan="4"><big>Villighet/benägenhet</big></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-nIS}</td>
+		<td>  </td>
+		<td>behöver</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-qang}</td>
+		<td>  </td>
+		<td>villig</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-rup}</td>
+		<td>  </td>
+		<td>redo, beredd
+		<br /><small>(används om varelser)</small></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-beH}</td>
+		<td>  </td>
+		<td>redo, iordningställd
+		<br /><small>(används om apparater)</small></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-vIp}</td>
+		<td>  </td>
+		<td>rädd
+		<br /><small>(kulturellt tabu att använda med subjekt i första
+		person)</small></td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="3"><big><a href="04.html#4.2.3">3</a>.</big></td>
+		<td colspan="4"><big>Förändring</big></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-choH}</td>
+		<td>  </td>
+		<td>förändring i tillstånd, förändring i riktning</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-qa'}</td>
+		<td>  </td>
+		<td>fortsätta, göra igen</td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="2"><big><a href="04.html#4.2.4">4</a>.</big></td>
+		<td colspan="4"><big>Orsak</big></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-moH}</td>
+		<td>  </td>
+		<td>orsaka</td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="3"><big><a href="04.html#4.2.5">5</a>.</big></td>
+		<td colspan="4"><big>Indefinit subjekt/förmåga</big></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-lu'}</td>
+		<td>  </td>
+		<td>indefinit subjekt</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-laH}</td>
+		<td>  </td>
+		<td>kan</td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="5"><big><a href="04.html#4.2.6">6</a>.</big></td>
+		<td colspan="4"><big>Kvalifikation</big></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-chu'}</td>
+		<td>  </td>
+		<td>perfekt, tydligt</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-bej}</td>
+		<td>  </td>
+		<td>definitivt, tveklöst</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-law'}</td>
+		<td>  </td>
+		<td>antagligen, nog, verkar vara</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-ba'}</td>
+		<td>  </td>
+		<td>uppenbarligen [TKDa]</td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="5"><big><a href="04.html#4.2.7">7</a>.</big></td>
+		<td colspan="4"><big>Aspekt</big></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-pu'}</td>
+		<td>  </td>
+		<td>perfektiv</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-ta'}</td>
+		<td>  </td>
+		<td>utfört, gjort</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-taH}</td>
+		<td>  </td>
+		<td>pågående</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-lI'}</td>
+		<td>  </td>
+		<td>fortskridande, framskridande</td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="2"><big><a href="04.html#4.2.8">8</a>.</big></td>
+		<td colspan="4"><big>Hedersbetygande</big></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-neS}</td>
+		<td>  </td>
+		<td>hedersbetygande
+		<br /><small>(används endast vid tilltal av överordnad, aldrig
+	nödvändigt)</small></td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="12"><big><a href="04.html#4.2.9">9</a>.</big></td>
+		<td colspan="4"><big>Syntaktiska markörer</big></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-DI'}</td>
+		<td>  </td>
+		<td>när, så snart som</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-chugh}</td>
+		<td>  </td>
+		<td>om, ifall</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-pa'}</td>
+		<td>  </td>
+		<td>innan, före</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-vIS}</td>
+		<td>  </td>
+		<td>medan</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-bogh}</td>
+		<td>  </td>
+		<td>som
+		<br /><small>(markerar relativ bisats)</small></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-meH}</td>
+		<td>  </td>
+		<td>i syfte att</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-mo'}</td>
+		<td>  </td>
+		<td>på grund av [TKDa]</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-'a'}</td>
+		<td>  </td>
+		<td>interrogativ</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-jaj}</td>
+		<td>  </td>
+		<td>må, månde (konjunktiv) [TKDa]</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-wI'}</td>
+		<td>  </td>
+		<td>en som gör, sak som gör, en som är</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-ghach}</td>
+		<td>  </td>
+		<td>substantiviserare [TKDa]
+		<br /><small>(föregås alltid av minst ett annat suffix)</small></td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="5"><big><a href="04.html#4.3">S</a>.</big></td>
+		<td colspan="4"><big>Strövare</big></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-be'}</td>
+		<td>  </td>
+		<td>inte
+		<br /><small>(används ej i imperativ, då används {-Qo'}
+		istället)</small></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-Qo'}</td>
+		<td>  </td>
+		<td>gör inte!, tänker inte
+		<br /><small>(kommer sist, om inte följd av ett suffix typ
+		9)</small></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-Ha'}</td>
+		<td>  </td>
+		<td>negera, göra ogjort
+		<br /><small>(kommer alltid direkt efter verbet)</small></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-qu'}</td>
+		<td>  </td>
+		<td>emfatiskt, framhävande</td>
+	</tr>
+</table>
 
 De tre strövarna {-be'}, {-qu'} och {-Ha'} har alla setts på
 verb som fungerar adjektivistiskt. ({wanI' ramqu'} "en väldigt oviktig
@@ -422,262 +422,262 @@ ngaDHa'} "instabil farkost" [KGT s.150])
 3. Substantivsuffix [[**]]
 -------------------
 
-<TABLE ALIGN="CENTER" CELLSPACING="0" CELLPADDING="0" BORDER="0">
-	<TR VALIGN="TOP">
-		<TD ROWSPAN="4"><FONT SIZE="4"><A HREF="03.html#3.3.1">1</A>. </FONT></TD>
-		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Augmentativ, diminutiv, affektion</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-'a'}</TD>
-		<TD>   </TD>
-		<TD>augmentativ</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-Hom}</TD>
-		<TD>   </TD>
-		<TD>diminutiv</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-oy}</TD>
-		<TD>   </TD>
-		<TD>affektion [TKDa]</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD ROWSPAN="4"><FONT SIZE="4"><A HREF="03.html#3.3.2">2</A>. </FONT></TD>
-		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Numerus</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-pu'}</TD>
-		<TD>   </TD>
-		<TD>plural
-		<BR><FONT SIZE="1">(för varelser förmögna till språk)</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-Du'}</TD>
-		<TD>   </TD>
-		<TD>plural
-		<BR><FONT SIZE="1">(för kroppsdelar)</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-mey}</TD>
-		<TD>   </TD>
-		<TD>plural
-		<BR><FONT SIZE="1">(generell användning)</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD ROWSPAN="4"><FONT SIZE="4"><A HREF="03.html#3.3.3">3</A>. </FONT></TD>
-		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Kvalifikation</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-qoq}</TD>
-		<TD>   </TD>
-		<TD>så kallad</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-Hey}</TD>
-		<TD>   </TD>
-		<TD>synbar, skenbar</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-na'}</TD>
-		<TD>   </TD>
-		<TD>definitiv</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD ROWSPAN="13"><FONT SIZE="4"><A HREF="03.html#3.3.4">4</A>. </FONT></TD>
-		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Possesiv/demonstrativ</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-wIj}</TD>
-		<TD>   </TD>
-		<TD>min, mitt</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-wI'}</TD>
-		<TD>   </TD>
-		<TD>min, mitt
-		<BR><FONT SIZE="1">(substantiv förmöget till språk)</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-maj}</TD>
-		<TD>   </TD>
-		<TD>vår, vårt</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-ma'}</TD>
-		<TD>   </TD>
-		<TD>vår, vårt
-		<BR><FONT SIZE="1">(substantiv förmöget till språk)</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-lIj}</TD>
-		<TD>   </TD>
-		<TD>din, ditt</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-lI'}</TD>
-		<TD>   </TD>
-		<TD>din, ditt
-		<BR><FONT SIZE="1">(substantiv förmöget till språk)</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-raj}</TD>
-		<TD>   </TD>
-		<TD>er, ert</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-ra'}</TD>
-		<TD>   </TD>
-		<TD>er, ert
-		<BR><FONT SIZE="1">(substantiv förmöget till språk)</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-Daj}</TD>
-		<TD>   </TD>
-		<TD>hans, hennes, dess</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-chaj}</TD>
-		<TD>   </TD>
-		<TD>deras</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-vam}</TD>
-		<TD>   </TD>
-		<TD>den här</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-vetlh}</TD>
-		<TD>   </TD>
-		<TD>den där</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD ROWSPAN="6"><FONT SIZE="4"><A HREF="03.html#3.3.5">5</A>. </FONT></TD>
-		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Syntaktiska markörer</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-Daq}</TD>
-		<TD>   </TD>
-		<TD>lokativ</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-vo'}</TD>
-		<TD>   </TD>
-		<TD>från</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-mo'}</TD>
-		<TD>   </TD>
-		<TD>på grund av, beroende på</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-vaD}</TD>
-		<TD>   </TD>
-		<TD>för, avsedd för</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-'e'}</TD>
-		<TD>   </TD>
-		<TD>tema, ämne</TD>
-	</TR>
-</TABLE>
+<table>
+	<tr valign="top">
+		<td rowspan="4"><big><a href="03.html#3.3.1">1</a>.</big></td>
+		<td colspan="4"><big>Augmentativ, diminutiv, affektion</big></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-'a'}</td>
+		<td>  </td>
+		<td>augmentativ</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-Hom}</td>
+		<td>  </td>
+		<td>diminutiv</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-oy}</td>
+		<td>  </td>
+		<td>affektion [TKDa]</td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="4"><big><a href="03.html#3.3.2">2</a>.</big></td>
+		<td colspan="4"><big>Numerus</big></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-pu'}</td>
+		<td>  </td>
+		<td>plural
+		<br /><small>(för varelser förmögna till språk)</small></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-Du'}</td>
+		<td>  </td>
+		<td>plural
+		<br /><small>(för kroppsdelar)</small></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-mey}</td>
+		<td>  </td>
+		<td>plural
+		<br /><small>(generell användning)</small></td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="4"><big><a href="03.html#3.3.3">3</a>.</big></td>
+		<td colspan="4"><big>Kvalifikation</big></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-qoq}</td>
+		<td>  </td>
+		<td>så kallad</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-Hey}</td>
+		<td>  </td>
+		<td>synbar, skenbar</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-na'}</td>
+		<td>  </td>
+		<td>definitiv</td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="13"><big><a href="03.html#3.3.4">4</a>.</big></td>
+		<td colspan="4"><big>Possesiv/demonstrativ</big></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-wIj}</td>
+		<td>  </td>
+		<td>min, mitt</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-wI'}</td>
+		<td>  </td>
+		<td>min, mitt
+		<br /><small>(substantiv förmöget till språk)</small></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-maj}</td>
+		<td>  </td>
+		<td>vår, vårt</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-ma'}</td>
+		<td>  </td>
+		<td>vår, vårt
+		<br /><small>(substantiv förmöget till språk)</small></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-lIj}</td>
+		<td>  </td>
+		<td>din, ditt</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-lI'}</td>
+		<td>  </td>
+		<td>din, ditt
+		<br /><small>(substantiv förmöget till språk)</small></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-raj}</td>
+		<td>  </td>
+		<td>er, ert</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-ra'}</td>
+		<td>  </td>
+		<td>er, ert
+		<br /><small>(substantiv förmöget till språk)</small></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-Daj}</td>
+		<td>  </td>
+		<td>hans, hennes, dess</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-chaj}</td>
+		<td>  </td>
+		<td>deras</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-vam}</td>
+		<td>  </td>
+		<td>den här</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-vetlh}</td>
+		<td>  </td>
+		<td>den där</td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="6"><big><a href="03.html#3.3.5">5</a>.</big></td>
+		<td colspan="4"><big>Syntaktiska markörer</big></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-Daq}</td>
+		<td>  </td>
+		<td>lokativ</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-vo'}</td>
+		<td>  </td>
+		<td>från</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-mo'}</td>
+		<td>  </td>
+		<td>på grund av, beroende på</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-vaD}</td>
+		<td>  </td>
+		<td>för, avsedd för</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-'e'}</td>
+		<td>  </td>
+		<td>tema, ämne</td>
+	</tr>
+</table>
 
 
 4. Särskilda numeriska suffix [[**]]
 -----------------------------
 
-[[<TABLE ALIGN="CENTER" CELLSPACING="0" CELLPADDING="0" BORDER="0">
-	<TR VALIGN="TOP">
-		<TD ROWSPAN="7"><FONT SIZE="4"><A HREF="05.html#5.2">1</A>. </FONT></TD>
-		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Sifferbildande element</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-maH}</TD>
-		<TD>   </TD>
-		<TD>tio</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-vatlh}</TD>
-		<TD>   </TD>
-		<TD>hundra</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-SaD} / {-SanID}</TD>
-		<TD>   </TD>
-		<TD>tusen</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-netlh}</TD>
-		<TD>   </TD>
-		<TD>tiotusen</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-bIp}</TD>
-		<TD>   </TD>
-		<TD>hundratusen</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-'uy'}</TD>
-		<TD>   </TD>
-		<TD>miljon</TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD ROWSPAN="3"><FONT SIZE="4"><A HREF="05.html#5.2">2</A>. </FONT></TD>
-		<TD COLSPAN="4" NOWRAP><FONT SIZE="4">Ordningstal/upprepningar</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-DIch}</TD>
-		<TD>   </TD>
-		<TD>bildar ordningstal
-		<BR><FONT SIZE="1">("första", "andra" etc., ordet följer substantivet)</FONT></TD>
-	</TR>
-	<TR VALIGN="TOP">
-		<TD>   </TD>
-		<TD>{-logh}</TD>
-		<TD>   </TD>
-		<TD>bildar upprepningar
-		<BR><FONT SIZE="1">("en gång", "två gånger" etc., ordet fungerar som adverb)</FONT></TD>
-	</TR>
-</TABLE>
+[[<table>
+	<tr valign="top">
+		<td rowspan="7"><big><a href="05.html#5.2">1</a>.</big></td>
+		<td colspan="4"><big>Sifferbildande element</big></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-maH}</td>
+		<td>  </td>
+		<td>tio</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-vatlh}</td>
+		<td>  </td>
+		<td>hundra</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-SaD} / {-SanID}</td>
+		<td>  </td>
+		<td>tusen</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-netlh}</td>
+		<td>  </td>
+		<td>tiotusen</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-bIp}</td>
+		<td>  </td>
+		<td>hundratusen</td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-'uy'}</td>
+		<td>  </td>
+		<td>miljon</td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="3"><big><a href="05.html#5.2">2</a>.</big></td>
+		<td colspan="4"><big>Ordningstal/upprepningar</big></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-DIch}</td>
+		<td>  </td>
+		<td>bildar ordningstal
+		<br /><small>("första", "andra" etc., ordet följer substantivet)</small></td>
+	</tr>
+	<tr valign="top">
+		<td>  </td>
+		<td>{-logh}</td>
+		<td>  </td>
+		<td>bildar upprepningar
+		<br /><small>("en gång", "två gånger" etc., ordet fungerar som adverb)</small></td>
+	</tr>
+</table>
 
-Indelningen av de numeriska suffixen i typer görs inte i TKD. Denna
-indelning har sitt ursprung i ett datorprogram jag skrev som behövde kunna
-distingera de två sorterna numeriska suffix. Indelningen känns dock logisk och
-har därför inkluderats här. Jag vill dock på intet sätt hävda att detta skulle
-vara auktoriserat av varken MO eller KLI. /övers.anm.]]
+Indelningen av de numeriska suffixen i typer görs inte i TKD. Denna indelning
+har sitt ursprung i ett datorprogram jag skrev som behövde kunna distingera de
+två sorterna numeriska suffix. Indelningen känns dock logisk och har därför
+inkluderats här. Jag vill dock på intet sätt hävda att detta skulle vara
+auktoriserat av varken MO eller KLI. /övers.anm.]]
 
 
 [[eof]]
