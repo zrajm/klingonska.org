@@ -21,29 +21,29 @@ white circle appeared to me as the Moon. Inspired, I created the moon version of
 our logo. (It has been pointed out to me that it should be the moon of the
 Klingon Homeworld, there in the middle, and not the Earth's, but I have never
 been able to find a picture of that moon -- _Praxis_ -- from before its
-destruction in _The Undiscovered Country_.)
+destruction in _Star Trek VI: The Undiscovered Country_.)
 
 
 Cellphone Background Versions
 -----------------------------
 
 These are some images I use as a background on my Nokia cellphone. Pardon the
-picture quality here, but these are actually photos of my X Windows background
+picture quality here, but these are actually photos of my _X Windows_ background
 taken with my lo-rez cellphone camera. (None of which matter when you're just
 going to display the pic on a 208 by 208 pixel display.)
 
 First a version with most of the logo visible:
 
-<img width="208" height="208" src="cellphone/ka-logo-208x208.jpg" />
-<img width="208" height="208" src="cellphone/ka-logo-208x208.gif" />
-<img width="1280" height="1024" src="cellphone/ka-logo.jpg" />
+<img width="208" height="208" src="cellphone/ka-logo-208x208.jpg" alt="Klingonska Akademien's logo, 208x208 pixel, JPG format" />
+<img width="208" height="208" src="cellphone/ka-logo-208x208.gif" alt="Klingonska Akademien's logo, 208x208 pixel, GIF format" />
+<img width="1280" height="1024" src="cellphone/ka-logo.jpg" alt="Klingonska Akademien's logo, 1280x1024 pixel, JPG format" />
 
 
 Now a more zoomed in version (which is the one I like the best):
 
-<img width="208" height="208" src="cellphone/ka-logo-zoomed-208x208.jpg" />
-<img width="208" height="208" src="cellphone/ka-logo-zoomed-208x208.gif" />
-<img width="1280" height="1024" src="cellphone/ka-logo-zoomed.jpg" />
+<img width="208" height="208" src="cellphone/ka-logo-zoomed-208x208.jpg" alt="Klingonska Akademien's logo, 208x208 pixel, JPG format" />
+<img width="208" height="208" src="cellphone/ka-logo-zoomed-208x208.gif" alt="Klingonska Akademien's logo, 208x208 pixel, GIF format" />
+<img width="1280" height="1024" src="cellphone/ka-logo-zoomed.jpg" alt="Klingonska Akademien's logo, 1280x1024 pixel, JPG format" />
 
 
 [[eof]]
