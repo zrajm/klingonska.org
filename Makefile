@@ -4,8 +4,9 @@
 
 # list of HTML files to generate
 generated_html_files = $(patsubst %.txt, %.html, \
-	$(wildcard klo/*.txt) \
-	akademien/logo/index.txt \
+	$(wildcard klo/*.txt)                    \
+	akademien/logo/index.txt                 \
+	canon/index.txt                          \
 )
 
 webpage := $(shell basename `pwd`)
@@ -35,8 +36,8 @@ html: $(generated_html_files)
 
 # FIXME: should depend on all includes required by the HMTL file
 %.html: %.txt
-	usr/bin/markdown2html "$?" >"$@" || rm -f "$@"
-
+	@rm -vf "$@"
+	@usr/bin/markdown2html "$?" --output="%.html"
 
 .PHONY: clean
 clean:
@@ -61,5 +62,14 @@ help:
 	@echo ""
 	@echo "FIXME: Not yet implemented"
 	@echo ""
+
+
+.SECONDEXPANSION:
+good = $(patsubst %.txt, %.good, $(wildcard usr/test/*.txt))
+test: $(good)
+.PHONY: $(good)
+$(good): $$(patsubst %.good, %.html, $$@)
+	@diff $@ $< && \
+	    echo "OK $<"
 
 #[eof]

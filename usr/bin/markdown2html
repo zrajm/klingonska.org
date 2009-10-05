@@ -7,10 +7,12 @@ use open qw(:std :utf8);
 #binmode(STDIN,  ":encoding(utf8)");
 #binmode(STDOUT, ":encoding(utf8)");
 
-if (not @ARGV) {
-    print <DATA>;
-    exit 5;
-}
+
+###############################################################################
+##                                                                           ##
+##  Settings                                                                 ##
+##                                                                           ##
+###############################################################################
 
 
 my %code = (
@@ -44,10 +46,105 @@ my %author = (
 
 ###############################################################################
 ##                                                                           ##
-##  Functions                                                                ##
+##  Initialization                                                           ##
 ##                                                                           ##
 ###############################################################################
 
+
+# CAVEAT: short opts cannot be bundled
+# (Comments displayed by "--help" begin with "##".)
+my %cfg = ( output => -t STDOUT ? "%.html" : "-" );
+{
+    (local $0 = $0) =~ s{^.*/}{};
+    die "Try `$0 --help' for more information.\n" unless @ARGV;
+    ## Usage: $0 [OPTION]... FILE
+    ## Generate XHTML from MultiMarkdown source in FILE.
+    ##
+    my ($bad, @unparsed) = (0, ());
+    while (@ARGV) {
+	local $_ = shift @ARGV;
+	m/^--$/ and last;
+	m/^(--[^=]+)=(.*)$/ and do { $_ = $1; unshift @ARGV, $2 }; # longopt arg
+	m/^(-[^-])(.+)$/    and do { $_ = $1; unshift @ARGV, $2 }; # shortopt arg
+	##   -h, --help         display this help and exit
+	m/^(-h|--help)$/ and do { help(); exit 0 };
+	##   -o, --output=FILE  output filename (default: %.html, '-' if piped)
+	m/^(-o|--output)$/ and do { $cfg{output} = shift; next };
+
+	# ADD OPTS HERE
+	/^-/ and do { warn "$0: unknown option '$_'\n"; $bad++; next };
+	push @unparsed, $_;
+    }
+    exit 1 if $bad;
+    @ARGV = @unparsed;
+    ##
+    ## NOTE: Input cannot be given on STDIN since file date/time is used.
+    ##
+    ## If FILE for '--output' begins with '%', it is interpreted as a pattern.
+    ## Each leading '%' strips off one file extension from the input filename,
+    ## and any trailing characters are thereafter added to form the output
+    ## filename ('--output=%.html' thus turns 'index.txt' into 'index.html').
+    ##
+    ## If FILE is '-', then output is sent to standard output (not possible if there are
+    ## more than one input file).
+    ##
+    ## When looking for templates, CSS, etc scans the current dir, then below dirs,
+    ## until finding:
+    ##     o includes/template.html
+    ##     o includes/footer.html
+    ##     o includes/header.html
+}
+if ($cfg{output} =~ m/^(%*)(.*)$/g) {
+    $cfg{add} = $2 eq "-" ? "" : $2;
+    $cfg{output} = "";
+    if ($1) {                                  # pattern (leading '%')
+	my $num = length($1);
+	$cfg{strip} = qr/(?:\.[^.]+){0,$num}$/;
+    } else {                                   # filename (= no pattern)
+	$cfg{strip} = qr/.*/;
+	die "$0: with multiple input files '--output' requires a pattern\n"
+	    if @ARGV > 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+###############################################################################
+##                                                                           ##
+##  Informational Functions                                                  ##
+##                                                                           ##
+###############################################################################
+
+
+sub help {
+    use Cwd 'realpath';                        # resolves symlinks
+    my @source = do {
+	my $file = realpath($0);               # get name of source file
+        open(my $fh, '<', $file) or 
+            die "$0: Can't open source code for reading of docstrings: $!\n";
+	<$fh>;
+    };
+    foreach (@source) {
+	m/^\s+##\s?(.*\n)/ or next;            # only lines beginning with "## "
+	local $_ = $1;
+	s/(\$\w+)/"$1"/ee;                     # expand variable names
+	print $_;
+    }
+}
+
+
+
+###############################################################################
+##                                                                           ##
+##  Functions                                                                ##
+##                                                                           ##
+###############################################################################
 
 {
     package HTML::Template::KA;
@@ -129,7 +226,7 @@ my %author = (
 	return $text;
     }
 
-    # Usage: $OUTPUT = process_text(\&CODEREF, [$INPUT]);
+    # Usage: $OUTPUT = process_xml(\&CODEREF, [$INPUT]);
     #
     # INPUT is assumed to in HTML or XML format. Each string of plain text in
     # INPUT is passed along CODEREF and replaced by the return value therefrom.
@@ -153,11 +250,12 @@ my %author = (
 	return $_;
     }
 
-    # Usage: $obj->process_file(filename[,...])
+    # Usage: $obj->process_file($FILE, $TEMPLATE_FILE);
     #
-    # Process the named file, return processed result as a string.
+    # Process named $FILE, applying the $TEMPLATE_FILE and return processed
+    # result as a string.
     sub process_file {
-	my ($self, $file, $template) = @_;
+	my ($self, $file, $template_file) = @_;
 
 	my $text = read_file($file);
 	my %meta = $self->get_metadata($text);
@@ -176,7 +274,7 @@ my %author = (
 	#print "$_ => $meta{$_}" foreach keys %meta;
 	#print $text;
 
-	my $page = read_file($template);
+	my $page = read_file($template_file);
 
 	$page = $self->process_template($page, %meta);
 
@@ -267,7 +365,7 @@ sub page_urllink {
 
 sub page_css {
     my ($self, %meta) = @_;
-    my $file = find_include_file("includes/default.css", $meta{filename});
+    my $file = find_include_file("includes/page.css", $meta{filename});
     $file = rel_filename($file, $meta{filename});
     return "<link rel=\"stylesheet\" type=\"text/css\" href=\"$file\" />";
 }
@@ -513,12 +611,19 @@ sub page_main {
 
 
 sub read_file {
-    my ($file) = shift;
-    local $/ = undef;
-    open my $in, "<:utf8", $file;
-    return <$in>;
+    my ($file) = @_;
+    local $/ = undef unless wantarray;
+    open my $in, "<", $file or die "$file: Can't open file for reading: $!\n";
+    return <$in>            or die "$file: Can't read file: $!\n";
 }
 
+
+sub write_file {
+    my ($file, $data) = @_;
+    open my $out, ">", $file or die "$file: Can't open file for writing: $!\n";
+    print $out $data         or die "$file: Can't write to file: $!\n";
+    return 1;
+}
 
 
 
@@ -537,21 +642,17 @@ my $obj = new HTML::Template::KA(rules => \%code);
 #    print "$_ = $x{$_}\n";
 #}
 
-
-while (@ARGV) {
-    my $file = shift;
-    print $obj->process_file($file,
-	find_include_file("includes/template.html", $file));    # process file
+foreach my $file (@ARGV) {
+    (my $outfile = $file) =~ s/$cfg{strip}/$cfg{add}/;
+    print "Processing '$file' -> '$outfile'\n" if $outfile;
+    my $template_file = find_include_file("includes/template.html", $file);
+    my $template = read_file($template_file);
+    my $data = $obj->process_file($file, $template_file);
+    if ($outfile) {
+	write_file($outfile, $data);
+    } else {
+	print $data;
+    }
 }
 
-
-
-
-__DATA__
-Takes the name of one multimarkdown text file, and outputs a fully generated
-HTML version of it on standard output.
-
-Scans this dir, and all below dirs, until finding any of:
-    o includes/template.html
-    o includes/footer.html
-    o includes/header.html
+#[eof]
