@@ -1,71 +1,50 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html><head><title>Klingonska Akademien - Archive of Okrandian Canon.</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
-<body topmargin="0" marginheight="0" vlink="#777777" alink="#aaaaaa" link="#444444" text="#000000" bgcolor="#ffffff">
+author: zrajm
+year: 1999-2009
+lang: en
 
+Archive of Okrandian Canon
+==========================
 
-<!-- =================== Page Status =================== -->
-<table border="0" cellpadding="0" cellspacing="0" width="100%" align="center">
-  <tr>
-    <td align="left"><i><font size="1"><a href="mailto:webmaster@klingonska.org">webmaster@klingonska.org</a></font></i></td>
-    <td align="center"><i><font size="1"><a href="http://klingonska.org/canon/">http://klingonska.org/canon/</a></font></i></td>
-    <td align="right"><i><font size="1">Changed: 2007-07-15, 05:46</font></i></td>
-  </tr>
-</table>
-
-
-<!-- ==================== Page Logo ==================== -->
-<p align="center"><a href="../"><img src="/pic/ka.gif" width="600" height="176" alt="Klingonska Akademien" border="0" vspace="5" /></a></p>
-
-
-<!-- ================== Main Contents ================== -->
-<h1 align="center">Archive of Okrandian Canon.</h1>
 <!-- Created: 1999-08-08 -->
 
-<p align="justify">This is an attempt to collect all known okrandian
-sources in one place. If you feel that anything is missing, please
-report that to me (either write me a mail at <i>&lt;<a href="mailto:zrajm@klingonska.org">zrajm@klingonska.org</a>&gt;</i> or
-type in your comment in the textfield at the bottom of this page).
+This is an attempt to collect all known okrandian sources in one place. If you
+feel that anything is missing or inaccurate, please send an email to
+*[zrajm@klingonska.org][1]*, so that I may fix it.
 
-<br />     This archive also contains the text of almost everyone of the
-sources (well, not exactly all of them, <i>yet</i>) and these may be
-searched using the form below (however keep in mind that the search
-engine is still in a beta-stage of development, and may contain
-oddities or even some <b>ghewmey</b>, should you spot any of those I
-would be delighted if you could tell me about it). For information on
-how to use the search engine, press »Help«.
+[1]: mailto:zrajm@klingonska.org "Zrajm's email address"
 
-<br />     I'm afraid you will find some weird stuff when searching
-through the archive using this engine. This is because the data files
-haven't been fully organised into a single system/format yet. This is
-something I'm working on, but I though it better to offer the search
-facility to you now, than to wait for perfection (which might well
-take yet some time to achieve).</p>
+This archive also contains the text of almost everyone of the sources (well, not
+exactly all of them, *yet*) and these may be searched using the form below
+(however keep in mind that the search engine is still in a beta-stage of
+development, and may contain oddities or even some {ghewmey}, should you spot
+any of those I would be delighted if you could tell me about it). For
+information on how to use the search engine, press »Help«.
+
+I'm afraid you will find some weird stuff when searching through the archive
+using this engine. This is because the data files haven't been fully organised
+into a single system/format yet. This is something I'm working on, but I though
+it better to offer the search facility to you now, than to wait for perfection
+(which might well take yet some time to achieve).
 
 <form action="search.cgi" method="get">
-<table cellspacing="0" cellpadding="0" border="0" align="center">
+<table>
   <tr valign="middle">
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><input type="text" name="query" value="" size="30" /></td>
-    <td>&nbsp;</td>
     <td><input type="submit" value="Search" /></td>
-    <td>&nbsp;</td>
     <td><font size="1"><a href="search.cgi?get=help">Search Help</a></font></td>
   </tr>
 </table>
 </form>
 
-<p align="justify">If you prefer, you may instead use the table below to
-browse through the sources in chronological order.
+If you prefer, you may instead use the table below to browse through the sources
+in chronological order.
 
-<br />     Titles given in <i>italics</i> are the names of a production
-(such as a movie or book) while titles surrounded by »angle quotation
-marks« are the names of articles etc. which are part of a larger
-publication. In most cases the text of the source in question is
-available; just follow the link »text«. In some cases some additional
-information is also available (such as where to buy the publication,
-or a description of its contents and/or form).</p>
-
+Titles given in _italics_ are the names of a production (such as a movie or
+book) while titles surrounded by »angle quotation marks« are the names of
+articles etc. which are part of a larger publication. In most cases the text of
+the source in question is available; just follow the link »text«. In some cases
+some additional information is also available (such as where to buy the
+publication, or a description of its contents and/or form).
 
 <p align="center"><b>Years:</b> <a href="#1979">1979</a>, <a href="#1984">1984</a>,
   <a href="#1985">1985</a>, <a href="#1989">1989</a>,
@@ -88,7 +67,7 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4"><a name="1979">1979</a></font></td><td></td>
-    <td><font size="4"><i>Star Trek: The Motion Picture</i></font>
+    <td><font size="4">_Star Trek: The Motion Picture_</font>
       <br /><font size="2"><i>Motion picture produced by Paramount Pictures</i></font>
       <br />Features dialogue written by James Doohan which was later
         backfitted into Klingon by Marc Okrand. (Usually abbreviated <i>ST1</i>,
@@ -170,7 +149,7 @@ or a description of its contents and/or form).</p>
   <tr valign="top">
     <td><font size="4">1992-06</font></td><td></td>
     <td><font size="4">»An Interview with Marc Okrand«</font>
-      <br /><font size="2"><i>Article by David Barron, <b>HolQeD</b> 1:2 p.10-15,
+      <br /><font size="2"><i>Article by David Barron, {HolQeD} 1:2 p.10-15,
       Klingon Language Institute, Lake Bluff, IL, ISSN 1061-2327</i></font>
       <br />(<a href="1992-06--holqed.txt">text</a>)
       Marc Okrand talks about how he invented the language (chose
@@ -214,7 +193,7 @@ or a description of its contents and/or form).</p>
   <tr valign="top">
     <td><font size="4">1993-06</font></td><td></td>
     <td><font size="4">»Letters to the Editor«</font>
-      <br /><font size="2"><i>Letter from Marc Okrand, <b>HolQeD</b> 2:2 p.12,
+      <br /><font size="2"><i>Letter from Marc Okrand, {HolQeD} 2:2 p.12,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="1993-06--holqed.txt">text</a>)
     </td>
@@ -223,7 +202,7 @@ or a description of its contents and/or form).</p>
   <tr valign="top">
     <td><font size="4">1993-12</font></td><td></td>
     <td><font size="4">»Okrand's notes«</font>
-      <br /><font size="2"><i>Article by Marc Okrand <b>HolQeD</b> 2:4 p.17-18,
+      <br /><font size="2"><i>Article by Marc Okrand {HolQeD} 2:4 p.17-18,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="1993-12--holqed.txt">text</a>)
     </td>
@@ -242,9 +221,9 @@ or a description of its contents and/or form).</p>
       <a href="1994--sbx-sp3.txt">SP3</a>) (<a href="1994--sbx-sp1.html">images</a>)
       A set of three <i>Star Trek: The Next Generation</i> first season trading
       cards. (The text of this card was also reproduced, with several errors, in
-      <i><b>HolQeD</b> 3:4</i>, pp.10-11. Some of the errors of that reprint
+      <i>{HolQeD} 3:4</i>, pp.10-11. Some of the errors of that reprint
       were pointed out by Will Martin in a letter to the editor
-      in <i><b>HolQeD</b> 4:1</i>, p.7.) (Usually abbreviated <i>SBX,</i>
+      in <i>{HolQeD} 4:1</i>, p.7.) (Usually abbreviated <i>SBX,</i>
       but the abbreviation <i>SBC</i> is also used sometimes.)
     </td>
   </tr>
@@ -252,7 +231,7 @@ or a description of its contents and/or form).</p>
   <tr valign="top">
     <td><font size="4">1994-06</font></td><td></td>
     <td><font size="4">»Everyday Klingon«</font>
-      <br /><font size="2"><i>Article by Lawrence M. Schoen, <b>HolQeD</b> 3:2, page 9
+      <br /><font size="2"><i>Article by Lawrence M. Schoen, {HolQeD} 3:2, page 9
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="1994-06--holqed.txt">text</a>)
       A description of SkyBox Trading card <i>99</i> (1993 series) and
@@ -263,8 +242,8 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4">1994-09a</font></td><td></td>
-    <td><font size="4">»Interview: Okrand on <b>-ghach</b>«</font>
-      <br /><font size="2"><i><b>HolQeD</b> 3:3 p.10-13,
+    <td><font size="4">»Interview: Okrand on {-ghach}«</font>
+      <br /><font size="2"><i>{HolQeD} 3:3 p.10-13,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="1994-09a--holqed.txt">text</a>)
     </td>
@@ -272,12 +251,12 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4">1994-09b</font></td><td></td>
-    <td><font size="4">»<b>chuvmey</b>«</font>
-      <br /><font size="2"><i><b>HolQeD</b> 3:3 p.20,
+    <td><font size="4">»{chuvmey}«</font>
+      <br /><font size="2"><i>{HolQeD} 3:3 p.20,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="1994-09b--holqed.txt">text</a>)
       Some leftovers, from the big interview (above) with Marc
-      Okrand in the same issue of <b>HolQeD</b>, at revailing the
+      Okrand in the same issue of {HolQeD}, at revailing the
       spelling of some new words on PK.
     </td>
   </tr>
@@ -341,18 +320,18 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4">1995-06a</font></td><td></td>
-    <td><font size="4">»Interview: Okrand on <b>-bogh</b> and more«</font>
-      <br /><font size="2"><i><b>HolQeD</b> 4:2 p.5-6, Klingon Language
+    <td><font size="4">»Interview: Okrand on {-bogh} and more«</font>
+      <br /><font size="2"><i>{HolQeD} 4:2 p.5-6, Klingon Language
         Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="1995-06a--holqed.txt">text</a>) Okrand gives some (vague)
-        answers on the topics of <b>-'e'</b> and <b>-bogh</b>.
+        answers on the topics of {-'e'} and {-bogh}.
     </td>
   </tr>
 
   <tr valign="top">
     <td><font size="4">1995-06b</font></td><td></td>
-    <td><font size="4">»<b>chuvmey</b>«</font>
-      <br /><font size="2"><i><b>HolQeD</b> 4:2 p.7,
+    <td><font size="4">»{chuvmey}«</font>
+      <br /><font size="2"><i>{HolQeD} 4:2 p.7,
         Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="1995-06b--holqed.txt">text</a>)
       A small note on the existance of the word <i>coffee</i> in Klingon.
@@ -373,7 +352,7 @@ or a description of its contents and/or form).</p>
   <tr valign="top">
     <td><font size="4">1995-12</font></td><td></td>
     <td><font size="4">»More from Maltz«</font>
-      <br /><font size="2"><i>Article by Marc Okrand, <b>HolQeD</b> 4:4 p.11,
+      <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 4:4 p.11,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="1995-12--holqed.txt">text</a>)
     </td>
@@ -412,7 +391,7 @@ or a description of its contents and/or form).</p>
   <tr valign="top">
     <td><font size="4">1996-03</font></td><td></td>
     <td><font size="4">»A Note on Proverbs«</font>
-      <br /><font size="2"><i>Article by Marc Okrand, <b>HolQeD</b> 5:1 p.10,
+      <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 5:1 p.10,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="1996-03--holqed.txt">text</a>)
     </td>
@@ -478,7 +457,7 @@ or a description of its contents and/or form).</p>
     <td><font size="4">(unknown title)</font>
       <br /><font size="2"><i>Newsgroup posting by Marc Okrand to »msn.onstage.startrek.expert.okrand«</i></font>
       <br />(<a href="1996-08-06b--news.txt">text</a>)
-      Some comments on the word <b>mon</b> and on what to do when a word you
+      Some comments on the word {mon} and on what to do when a word you
       need can't be found in the dictionary.
     </td>
   </tr>
@@ -495,8 +474,8 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4">1996-09</font></td><td></td>
-    <td><font size="4">»The Tale of <b>'I'</b>«</font>
-      <br /><font size="2"><i>Column by Mark Schoulson, <b>HolQeD</b> 5:3 p.14,
+    <td><font size="4">»The Tale of {'I'}«</font>
+      <br /><font size="2"><i>Column by Mark Schoulson, {HolQeD} 5:3 p.14,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="1996-09--holqed.txt">text</a>)
     </td>
@@ -571,11 +550,11 @@ or a description of its contents and/or form).</p>
   <tr valign="top">
     <td><font size="4">1997-04-07</font></td><td></td>
     <td><font size="4">»BabelCon 2«</font>
-      <br /><font size="2"><i>Mailing list posting by Bill Willmerdinger to <b>tlhIngan-Hol</b></i></font>
+      <br /><font size="2"><i>Mailing list posting by Bill Willmerdinger to {tlhIngan-Hol}</i></font>
       <br />(<a href="1997-04-07--email.txt">text</a>)
       Bill describes a meeting with Marc Okrand at
       <i>BabelCon 2</i>, in which he talks about the words
-      <b>toQ</b> and <b>yoymoHwI'</b>; the suffix <b>-Ha'</b>; the
+      {toQ} and {yoymoHwI'}; the suffix {-Ha'}; the
       new book, <i>KGT;</i> humor in the language; and the MSN word
       definitions.
     </td>
@@ -619,7 +598,7 @@ or a description of its contents and/or form).</p>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
       <br />(<a href="1997-06-18a--news.txt">text</a>)
-        Explanation of the word <b>jeq</b> "protrude from".
+        Explanation of the word {jeq} "protrude from".
     </td>
   </tr>
 
@@ -630,10 +609,10 @@ or a description of its contents and/or form).</p>
         <i>msn.onstage.startrek.expert.okrand</i></font>
       <br />(<a href="1997-06-18b--news.txt">text</a>)
         Discussion on compound nouns that (apparently) are created from a verb
-        and a noun, like <b>QongDaq</b> "bed" and <b>vutpa'</b> "galley", also
+        and a noun, like {QongDaq} "bed" and {vutpa'} "galley", also
         some talk about verb-noun homonyms, and about constructing new words
-        from verbs using <b>-pa'</b> and
-        <b>-Daq</b>.
+        from verbs using {-pa'} and
+        {-Daq}.
     </td>
   </tr>
 
@@ -654,7 +633,7 @@ or a description of its contents and/or form).</p>
       <br /><font size="2">Newsgorup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
       <br />(<a href="1997-06-29a--news.txt">text</a>)
-        About <b>jatlh</b> &ldquo;speak&rdquo;, and how to use it&mdash;verb prefixes,
+        About {jatlh} &ldquo;speak&rdquo;, and how to use it&mdash;verb prefixes,
         object/indirect object, the prefix trick and direct quotations.
     </td>
   </tr>
@@ -665,7 +644,7 @@ or a description of its contents and/or form).</p>
       <br /><font size="2">Newsgorup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
       <br />(<a href="1997-06-29b--news.txt">text</a>)
-        Some more info on <b>jatlh</b>, including the meaning of <b>qajatlh</b>.
+        Some more info on {jatlh}, including the meaning of {qajatlh}.
     </td>
   </tr>
 
@@ -675,7 +654,7 @@ or a description of its contents and/or form).</p>
       <br /><font size="2">Newsgorup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
       <br />(<a href="1997-06-29c--news.txt">text</a>)
-        On the meaning of the word <b>qIvon</b>.
+        On the meaning of the word {qIvon}.
     </td>
   </tr>
 
@@ -686,7 +665,7 @@ or a description of its contents and/or form).</p>
         <i>msn.onstage.startrek.expert.okrand</i></font>
       <br />(<a href="1997-06-29d--news.txt">text</a>)
         A (quite lengthy) discussion about different time elements (such
-        as <b>DaHjaj po</b> vs. <b>povam</b>).
+        as {DaHjaj po} vs. {povam}).
     </td>
   </tr>
 
@@ -699,7 +678,7 @@ or a description of its contents and/or form).</p>
       This small booklet describes various tourist attractions
       available for the federation tourist. It doesn't contain much
       Klingon, but apparently Marc Okrand made the translations, and the
-      word <b>jeq</b> »protrude« occures here for the first time.
+      word {jeq} »protrude« occures here for the first time.
     </td>
   </tr>
 
@@ -734,7 +713,7 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4">1997-09-01b</font></td><td></td>
-    <td><font size="4">»Re: <b>yu</b> - <b>bIm</b> - <b>'egh</b>«</font>
+    <td><font size="4">»Re: {yu} - {bIm} - {'egh}«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
       <br />(<a href="1997-09-01b--news.txt">text</a>)
@@ -755,13 +734,13 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4">1997-09-01d</font></td><td></td>
-    <td><font size="4">»Re: <b>qIb lengwI' tlhIngan Hol</b>«</font>
+    <td><font size="4">»Re: {qIb lengwI' tlhIngan Hol}«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
       <br />(<a href="1997-09-01d--news.txt">text</a>)
         Okrand is impressed that people already have begun to use vocabulary
-        from <i>KGT</i> and promise to talk to Maltz about <b>Sum</b>
-        and <b>Hop</b>.
+        from <i>KGT</i> and promise to talk to Maltz about {Sum}
+        and {Hop}.
     </td>
   </tr>
 
@@ -807,7 +786,7 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4">1997-11-30</font></td><td></td>
-    <td><font size="4">»Re: <b>chenmoH</b>, <b>ja'chuq</b>, etc.«</font>
+    <td><font size="4">»Re: {chenmoH}, {ja'chuq}, etc.«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
       <br />(<a href="1997-11-30--news.txt">text</a>)
@@ -848,7 +827,7 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4">1998-01-18b</font></td><td></td>
-    <td><font size="4">»Re: Problem with <b>-meH</b> and negative meanings«</font>
+    <td><font size="4">»Re: Problem with {-meH} and negative meanings«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.expertforum</i></font>
       <br />(<a href="1998-01-18b--news.txt">text</a>)
@@ -858,7 +837,7 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4">1998-01-18c</font></td><td></td>
-    <td><font size="4">»Re: Problem with <b>-meH</b> and negative meanings«</font>
+    <td><font size="4">»Re: Problem with {-meH} and negative meanings«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.expertforum</i></font>
       <br />(<a href="1998-01-18c--news.txt">text</a>)
@@ -904,7 +883,7 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4">1998-03-02a</font></td><td></td>
-    <td><font size="4">»Re: <b>-be'</b>, <b>-Ha'</b>«</font>
+    <td><font size="4">»Re: {-be'}, {-Ha'}«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
       <br />(<a href="1998-03-02a--news.txt">text</a>)
@@ -913,7 +892,7 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4">1998-03-02b</font></td><td></td>
-    <td><font size="4">»Re: <b>-be'</b>, <b>-Ha'</b>«</font>
+    <td><font size="4">»Re: {-be'}, {-Ha'}«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
       <br />(<a href="1998-03-02b--news.txt">text</a>)
@@ -922,7 +901,7 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4">1998-03-02c</font></td><td></td>
-    <td><font size="4">»Re: Problem with <b>-meH</b> and negative meanings«</font>
+    <td><font size="4">»Re: Problem with {-meH} and negative meanings«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
       <br />(<a href="1998-03-02c--news.txt">text</a>)
@@ -931,7 +910,7 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4">1998-03-20</font></td><td></td>
-    <td><font size="4">»Re: <b>'ej</b> and sequence (for Dr. Okrand)«</font>
+    <td><font size="4">»Re: {'ej} and sequence (for Dr. Okrand)«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font> 
       <br />(<a href="1998-03-20--news.txt">text</a>)
@@ -949,7 +928,7 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4">1998-03-23a</font></td><td></td>
-    <td><font size="4">»Re: <b>DIrmey pagh DIrDu'</b>«</font>
+    <td><font size="4">»Re: {DIrmey pagh DIrDu'}«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
       <br />(<a href="1998-03-23a--news.txt">text</a>)
@@ -958,7 +937,7 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4">1998-03-23b</font></td><td></td>
-    <td><font size="4">»Re: <b>DIrmey pagh DIrDu'</b>«</font>
+    <td><font size="4">»Re: {DIrmey pagh DIrDu'}«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
       <br />(<a href="1998-03-23b--news.txt">text</a>)
@@ -976,7 +955,7 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4">1998-05-05a</font></td><td></td>
-    <td><font size="4">»Re: <b>muqaD veS!!!!!!!</b>«</font>
+    <td><font size="4">»Re: {muqaD veS!!!!!!!}«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
       <br />(<a href="1998-05-05a--news.txt">text</a>)
@@ -994,7 +973,7 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4">1998-05-22</font></td><td></td>
-    <td><font size="4">»Re: <b>naDev vay' tu'lu''a'?</b>«</font>
+    <td><font size="4">»Re: {naDev vay' tu'lu''a'?}«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
       <br />(<a href="1998-05-22--news.txt">text</a>)
@@ -1013,7 +992,7 @@ or a description of its contents and/or form).</p>
   <tr valign="top">
     <td><font size="4">1998-06</font></td><td></td>
     <td><font size="4">»Maltz Online«</font>
-      <br /><font size="2"><i>Article in <b>HolQeD</b> 7:2 p.8-9, excerpt
+      <br /><font size="2"><i>Article in {HolQeD} 7:2 p.8-9, excerpt
         from Marc Okrand's newspostings, Klingon Language Institute,
         Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="1998-06--holqed.txt">text</a>)
@@ -1058,7 +1037,7 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4">1998-07-09</font></td><td></td>
-    <td><font size="4">»Re: <b>maHeghlaw'lI'</b>«</font>
+    <td><font size="4">»Re: {maHeghlaw'lI'}«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
       <br />(<a href="1998-07-09--news.txt">text</a>)
@@ -1107,7 +1086,7 @@ or a description of its contents and/or form).</p>
   <tr valign="top">
     <td><font size="4">1998-12</font></td><td></td>
     <td><font size="4">»Interview with Marc Okrand«</font>
-      <br /><font size="2"><i>Article by Will Martin &amp; Lawrence M. Schoen, <b>HolQeD</b> 7:4 p.2-12,
+      <br /><font size="2"><i>Article by Will Martin &amp; Lawrence M. Schoen, {HolQeD} 7:4 p.2-12,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="1998-12--holqed.txt">text</a>)
     </td>
@@ -1117,7 +1096,7 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4"><a name="1999">1999-01-04a</a></font></td><td></td>
-    <td><font size="4">»Re: <b>ghew qab</b>«</font>
+    <td><font size="4">»Re: {ghew qab}«</font>
       <br /><font size="2"><i>Newsgroup posting by Marc Okrand to
         »startrek.klingon«</i></font>
       <br />How to say "looks like" in Klingon.
@@ -1127,7 +1106,7 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4">1999-01-04b</font></td><td></td>
-    <td><font size="4">»Re: <b>ghew qab</b>«</font>
+    <td><font size="4">»Re: {ghew qab}«</font>
       <br /><font size="2"><i>Newsgroup posting by Marc Okrand to
         »startrek.klingon«</i></font>
       <br />On how to express "with" in Klingon.
@@ -1137,7 +1116,7 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4">1999-02-02</font></td><td></td>
-    <td><font size="4">»Re: <b>wanI'</b> to replace time related
+    <td><font size="4">»Re: {wanI'} to replace time related
         relative pronoun«</font>
       <br /><font size="2"><i>Newsgroup posting by Marc Okrand to
         »startrek.klingon«</i></font>
@@ -1148,7 +1127,7 @@ or a description of its contents and/or form).</p>
   <tr valign="top">
     <td><font size="4">1999-03</font></td><td></td>
     <td><font size="4">»Maltz Online«</font>
-      <br /><font size="2"><i>Article in <b>HolQeD</b> 8:1 p.7-12, excerpt
+      <br /><font size="2"><i>Article in {HolQeD} 8:1 p.7-12, excerpt
         from Marc Okrand's newspostings, Klingon Language Institute,
         Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="1999-03--holqed.txt">text</a>)
@@ -1159,16 +1138,16 @@ or a description of its contents and/or form).</p>
     <td><font size="4">1999-07-19a</font></td><td></td>
     <td><font size="4">»gods (from Marc)«</font>
       <br /><font size="2"><i>Newsgroup posting by Marc
-        Okrand to »startrek.klingon« (forwarded to <b>tlhIngan-Hol</b> by Roger Cheesbro)</i></font>
+        Okrand to »startrek.klingon« (forwarded to {tlhIngan-Hol} by Roger Cheesbro)</i></font>
       <br />(<a href="1999-07-19a--email.txt">text</a>)
     </td>
   </tr>
 
   <tr valign="top">
     <td><font size="4">1999-07-19b</font></td><td></td>
-    <td><font size="4">»<b>chegh</b> and new word <b>tatlh</b> (from Marc)«</font>
+    <td><font size="4">»{chegh} and new word {tatlh} (from Marc)«</font>
       <br /><font size="2"><i>Newsgroup posting by Marc
-        Okrand to »startrek.klingon« (forwarded to <b>tlhIngan-Hol</b> by Roger Cheesbro)</i></font>
+        Okrand to »startrek.klingon« (forwarded to {tlhIngan-Hol} by Roger Cheesbro)</i></font>
       <br />(<a href="1999-07-19b--email.txt">text</a>)
     </td>
   </tr>
@@ -1177,15 +1156,15 @@ or a description of its contents and/or form).</p>
     <td><font size="4">1999-07-19c</font></td><td></td>
     <td><font size="4">»where do you live? (from Marc)«</font>
       <br /><font size="2"><i>Newsgroup posting by Marc
-        Okrand to »startrek.klingon« (forwarded to <b>tlhIngan-Hol</b> by Roger Cheesbro)</i></font>
+        Okrand to »startrek.klingon« (forwarded to {tlhIngan-Hol} by Roger Cheesbro)</i></font>
       <br />(<a href="1999-07-19c--email.txt">text</a>)
     </td>
   </tr>
 
   <tr valign="top">
     <td><font size="4">1999-09</font></td><td></td>
-    <td><font size="4">»<b>matlh juppu' mu'mey</b>«</font>
-      <br /><font size="2"><i>Article by Marc Okrand, <b>HolQeD</b> 8:3 p.2-4,
+    <td><font size="4">»{matlh juppu' mu'mey}«</font>
+      <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 8:3 p.2-4,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="1999-09--holqed.txt">text</a>)
     </td>
@@ -1222,7 +1201,7 @@ or a description of its contents and/or form).</p>
   <tr valign="top">
     <td><font size="4">1999-12</font></td><td></td>
     <td><font size="4">»Maltz Online«</font>
-      <br /><font size="2"><i>Article in <b>HolQeD</b> 8:4, p.6-10, excerpt from Marc Okrand's newspostings,
+      <br /><font size="2"><i>Article in {HolQeD} 8:4, p.6-10, excerpt from Marc Okrand's newspostings,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="1999-12--holqed.txt">text</a>)
     </td>
@@ -1232,8 +1211,8 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4"><a name="2000">2000-09</a></font></td><td></td>
-    <td><font size="4">»<b>matlh juppu' mu'mey</b>«</font>
-      <br /><font size="2"><i>Article by Marc Okrand, <b>HolQeD</b> 9:3 p.8-10,
+    <td><font size="4">»{matlh juppu' mu'mey}«</font>
+      <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 9:3 p.8-10,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="2000-09--holqed.txt">text</a>)
       Marc Okrand talks about kinship terms, and how to express basic
@@ -1244,7 +1223,7 @@ or a description of its contents and/or form).</p>
   <tr valign="top">
     <td><font size="4">2000-12</font></td><td></td>
     <td><font size="4">»More From Maltz«</font>
-      <br /><font size="2"><i>Article by Marc Okrand, <b>HolQeD</b> 9:4 p.16,
+      <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 9:4 p.16,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="2000-12--holqed.txt">text</a>)
       A brief description of the Klingon word for <i>bull</i>.
@@ -1255,9 +1234,9 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4"><a name="2001">2001-06</a></font></td><td></td>
-    <td><font size="4">»A Friend of Maltz: <b>nItlhDu' yaDDu' je</b>«</font>
+    <td><font size="4">»A Friend of Maltz: {nItlhDu' yaDDu' je}«</font>
       <br /><font size="2"><i>Article by Marc Okrand, edited by Lawrence M.
-      Schoen, <b>HolQeD</b> 10:2 p.7-11, Klingon Language Institute,
+      Schoen, {HolQeD} 10:2 p.7-11, Klingon Language Institute,
       Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="2001-06--holqed.txt">text</a>)
       How do the Klingons relate to their fingers? And then how do they
@@ -1269,8 +1248,8 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4">2001-12</font></td><td></td>
-    <td><font size="4">»<b>matlh juppu' mu'mey</b>«</font>
-      <br /><font size="2"><i>Article by Marc Okrand, <b>HolQeD</b> 10:4 p.4-5,
+    <td><font size="4">»{matlh juppu' mu'mey}«</font>
+      <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 10:4 p.4-5,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="2001-12--holqed.txt">text</a>)
         Maltz gives us a lesson in Klingon bird-watching, and talks about
@@ -1284,8 +1263,8 @@ or a description of its contents and/or form).</p>
 
   <tr valign="top">
     <td><font size="4"><a name="2002">2002-06</a></font></td><td></td>
-    <td><font size="4">»<b>matlh jup mu'mey</b>«</font>
-      <br /><font size="2"><i>Article by Marc Okrand, <b>HolQeD</b> 11:2 p.8-9,
+    <td><font size="4">»{matlh jup mu'mey}«</font>
+      <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 11:2 p.8-9,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="2002-06--holqed.txt">text</a>)
       Maltz tells us something about how to discuss flying and piloting of
@@ -1297,11 +1276,11 @@ or a description of its contents and/or form).</p>
   <tr valign="top">
     <td><font size="4">2002-09a</font></td><td></td>
     <td><font size="4">»Errata«</font>
-      <br /><font size="2"><i>Article by Lawrence M. Schoen, <b>HolQeD</b> 11:3 p.9,
+      <br /><font size="2"><i>Article by Lawrence M. Schoen, {HolQeD} 11:3 p.9,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="2002-09a--holqed.txt">text</a>)
-      Some corrections concerning a <b>-meH</b>/<b>-moH</b> suffix mix-up in the article
-      <i><b>matlh jup mu'mey</b></i> published in <i><b>HolQeD</b> 11:2</i>, p.8-9.
+      Some corrections concerning a {-meH}/{-moH} suffix mix-up in the article
+      <i>{matlh jup mu'mey}</i> published in <i>{HolQeD} 11:2</i>, p.8-9.
     </td>
   </tr>
 
@@ -1309,10 +1288,10 @@ or a description of its contents and/or form).</p>
   <tr valign="top">
     <td><font size="4">2002-09b</font></td><td></td>
     <td><font size="4">»More from Maltz«</font>
-      <br /><font size="2"><i>Article by Lawrence M. Schoen (?), <b>HolQeD</b> 11:3 p.13,
+      <br /><font size="2"><i>Article by Lawrence M. Schoen (?), {HolQeD} 11:3 p.13,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="2002-09b--holqed.txt">text</a>)
-      Anecdote telling the origin of the word <b>Hutvagh</b>.
+      Anecdote telling the origin of the word {Hutvagh}.
     </td>
   </tr>
 
@@ -1320,7 +1299,7 @@ or a description of its contents and/or form).</p>
   <tr valign="top">
     <td><font size="4">2002-12</font></td><td></td>
     <td><font size="4">»Frasier's Klingon«</font>
-      <br /><font size="2"><i>Article by Marc Okrand, <b>HolQeD</b> 11:4 p.10-11,
+      <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 11:4 p.10-11,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="2002-12--holqed.txt">text</a>)
       Maltz delivers a challenge to the Klingon speaking community through Marc
@@ -1334,12 +1313,12 @@ or a description of its contents and/or form).</p>
   <tr valign="top">
     <td><font size="4"><a name="2003">2003-06</a></font></td><td></td>
     <td><font size="4">»Maltz's Reward: Part I«</font>
-      <br /><font size="2"><i>Article by Marc Okrand, <b>HolQeD</b> 12:2 p.6-9
+      <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 12:2 p.6-9
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="2003-06--holqed.txt">text</a>)
       Maltz tell which words to use to refer to ends of physical objects, and
       periods of time. This is the reward for the first of those who succeeded
-      in solving the "Frasier's Klingon" challenge in <i><b>HolQeD</b> 11:4</i>.
+      in solving the "Frasier's Klingon" challenge in <i>{HolQeD} 11:4</i>.
     </td>
   </tr>
 
@@ -1347,13 +1326,13 @@ or a description of its contents and/or form).</p>
   <tr valign="top">
     <td><font size="4">2003-09</font></td><td></td>
     <td><font size="4">»Maltz's Reward: Part II«</font>
-      <br /><font size="2"><i>Article by Marc Okrand, <b>HolQeD</b> 12:3 p.8-10
+      <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 12:3 p.8-10
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="2003-09--holqed.txt">text</a>)
       Maltz talks about the concept of <i>false honor</i>, and as a side note
       tells us how to say <i>Oh, yeah?!?</i> in Klingon. This is the reward for
       the second of those who succeeded in solving the "Frasier's Klingon"
-      challenge in <i><b>HolQeD</b> 11:4</i>.
+      challenge in <i>{HolQeD} 11:4</i>.
     </td>
   </tr>
 
@@ -1361,13 +1340,13 @@ or a description of its contents and/or form).</p>
   <tr valign="top">
     <td><font size="4">2003-12</font></td><td></td>
     <td><font size="4">»Maltz's Reward: Part III«</font>
-      <br /><font size="2"><i>Article by Marc Okrand, <b>HolQeD</b> 12:4 p.8-9
+      <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 12:4 p.8-9
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="2003-12--holqed.txt">text</a>)
       Maltz talks about the names of the head's varying bodily functions, and
       tells us the words for snoring, spitting, vomiting and the like. This is
       the reward for the third of those who succeeded in solving the "Frasier's
-      Klingon" challenge in <i><b>HolQeD</b> 11:4</i>.
+      Klingon" challenge in <i>{HolQeD} 11:4</i>.
     </td>
   </tr>
 
@@ -1377,20 +1356,20 @@ or a description of its contents and/or form).</p>
   <tr valign="top">
     <td><font size="4"><a name="2004">2004-03</a></font></td><td></td>
     <td><font size="4">»Maltz's Reward: Part IV«</font>
-      <br /><font size="2"><i>Article by Marc Okrand, <b>HolQeD</b> 13:1 p.8-10
+      <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 13:1 p.8-10
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
       <br />(<a href="2004-03--holqed.txt">text</a>)
       Maltz explains how to say "A is as Q as B" (e.g. expressing that two
       different things are equally beautiful) and how to say "A isn't Q:er than
       B". This is the reward for the fourth of those who succeeded in solving
-      the "Frasier's Klingon" challenge in <i><b>HolQeD</b> 11:4</i>.
+      the "Frasier's Klingon" challenge in <i>{HolQeD} 11:4</i>.
     </td>
   </tr>
 
   <tr valign="top">
     <td><font size="4">2004-04-02</font></td><td></td>
     <td><font size="4">»Re: New Wiki page: "Common Grammar Questions And Problems"«</font>
-      <br /><font size="2"><i>Mailing list posting by Steven Boozer to <b>tlhIngan-Hol</b></i></font>
+      <br /><font size="2"><i>Mailing list posting by Steven Boozer to {tlhIngan-Hol}</i></font>
       <br />(<a href="2004-04-02--email.txt">text</a>)
       On questions-as-objects (QAO).
     </td>
@@ -1400,32 +1379,11 @@ or a description of its contents and/or form).</p>
 
 </table>
 
-<h2>References</h2>
 
-<ul>
-  <li><i><a href="http://qurgh.wizage.net/cards/cards.html"><b>qurgh</b>&lsquo;s
-    Skybox Card Page</a></i> &ndash; Most of the Skybox card images were taken
-    from this page.</li>
-</ul>
+References
+----------
 
+* [{qurgh}'s Skybox Card Page](http://qurgh.wizage.net/cards/cards.html) -- Most
+  of the Skybox card images were taken from this page.
 
-<!-- ==================== Copyright ==================== -->
-<table cellpadding="0" cellspacing="0" border="0" align="center">
-  <tr>
-    <td valign="bottom" colspan="3"><hr noshade /></td>
-  </tr>
-  <tr>
-    <td>         </td>
-    <td align="center"><b>©1999-2009, Copyright
-      <a href="mailto:zrajm@klingonska.org">Zrajm C Akfohg</a>, 
-      <a href="http://klingonska.org/">Klingonska Akademien</a>, Uppsala.</b></td>
-    <td>         </td>
-  </tr>
-  <tr>
-    <td valign="top" colspan="3"><hr noshade /></td>
-  </tr>
-</table>
-
-</body>
-</html>
-
+[[eof]]
