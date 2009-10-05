@@ -33,4 +33,9 @@ example phrases and simle tables in a style imitative of the TKD layout.
     padding-left: 0em;
 }
 
+h3 {
+    font-size: normal;
+    font-weight: normal;
+}
+
 /* eof */

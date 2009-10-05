@@ -55,7 +55,7 @@ substantiv för att bilda ett sammansatt substantiv. Till exempel,
 bordar_ och {ghom} _grupp_; och {tIjwI'} kommer av {tIj}
 _borda_ plus {-wI'}.
 
-[[Exemplet {QumwI'} ovan har ersatts {So'wI'} tills vidare (hur i h-e säger man
+[[Exemplet {QumwI'} ovan har ersatt {So'wI'} tills vidare (hur i h-e säger man
 _cloaking device_ på svenska?) /övers.anm.]]
 
 
@@ -117,7 +117,7 @@ De ingående suffixen för varje typ av suffix följer här.
 3.3.1. Typ 1: Augmentativ/diminutiv, affektion [[**]]
 ----------------------------------------------
 
-{-'a'} _augmentativ_
+### {-'a'} _augmentativ_
 
 Detta suffix indikerar att det substantivet refererar till är
 större, viktigare, eller kraftfullare än det skulle vara utan suffixet.
@@ -128,7 +128,7 @@ större, viktigare, eller kraftfullare än det skulle vara utan suffixet.
 > | {woQ} _makt_       | {woQ'a'} _yttersta makten_   |
 
 
-{-Hom} _diminutiv_
+### {-Hom} _diminutiv_
 
 Detta är motsattsen till augumentativsuffixet. Det indikerar att
 det substantivet refererar till är mindre, mindre viktigt eller mindre
@@ -139,7 +139,7 @@ kraftfullt än det skulle vara utan suffixet.
 > | {roj} _fred_       | {rojHom} _vapenvila, tillfällig fred_ |
 
 
-{-oy} _affektion_ [TKDa]
+### {-oy} _affektion_ [TKDa]
 
 Detta är ett sällan använt, men i vilket fall mycket intressant
 suffix. Det är ett väldigt karakteristiskt då det är det enda suffixet som
@@ -203,7 +203,7 @@ officerer_ lika felaktigt som dess svenska översättning.
 
 Det finns tre olika plural suffix på klingonska.
 
-{-pu'} _plural för varelser förmögna till språk_
+### {-pu'} _plural för varelser förmögna till språk_
 
 Detta suffix används för att indikera plural för klingoner, jordlingar,
 romulaner, vulkaniter, och så vidare, men inte för någon slags lägre stående
@@ -215,7 +215,7 @@ vågor, etc.
 > | {Duy} _emissarie_ | {Duypu'} _emissarier_ (d.v.s. sändebud)   |
 
 
-{-Du'} _plural för kroppsdelar_
+### {-Du'} _plural för kroppsdelar_
 
 Detta suffix används då kroppsdelar tillhörande varelser förmögna till
 språk, liksom andra djurs kroppsdelar åsyftas.
@@ -225,7 +225,7 @@ språk, liksom andra djurs kroppsdelar åsyftas.
 > | {tlhon} _näsborre_ | {tlhonDu'} _näsborrar_ |
 
 
-{-mey} _plural, generell användning_
+### {-mey} _plural, generell användning_
 
 Detta suffix markerar plural på vilket substantiv som helst.
 
@@ -239,15 +239,15 @@ FIXME -- Oöversatt text
 3.3.3. Typ 3: Kvalifikation
 ---------------------------
 
-{-qoq} _så kallad_
+### {-qoq} _så kallad_
 
 FIXME -- Oöversatt text
 
-{-Hey} _synbar, skenbar_
+### {-Hey} _synbar, skenbar_
 
 FIXME -- Oöversatt text
 
-{-na'} _definitiv_
+### {-na'} _definitiv_
 
 
 3.3.4. Typ 4: Possesiv/demonstrativ
@@ -272,11 +272,11 @@ FIXME
 
 FIXME
 
-{-vam} _det här_
+### {-vam} _det här_
 
 FIXME
 
-{-vetlh} _det där_
+### {-vetlh} _det där_
 
 FIXME
 
@@ -286,23 +286,23 @@ FIXME
 
 FIXME
 
-{-Daq} _lokativ_
+### {-Daq} _lokativ_
 
 FIXME
 
-{-vo'} _från_
+### {-vo'} _från_
 
 FIXME
 
-{-mo'} _på grund av, beroende på_
+### {-mo'} _på grund av, beroende på_
 
 FIXME
 
-{-vaD} _för, avsedd för_
+### {-vaD} _för, avsedd för_
 
 FIXME
 
-{-'e'} _tema, ämne_
+### {-'e'} _tema, ämne_
 
 Detta suffix betonar att substantivet det är fäst på är meningens
 tema. På svenska åstadkoms detta ofta genom att betona substantivet (säga

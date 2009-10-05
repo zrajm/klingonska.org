@@ -13,114 +13,115 @@ Alternativ guide till de klingonska affixen [[**1999-07-23]]
 1. Pronominella prefix [[**]]
 ----------------------
 
-<table>
-<tr align="center">
-<td colspan="2" rowspan="2"></td>
-<td colspan="7"><big>O B J E K T</big></td>
-</tr>
-<tr align="center">
-<td>{jIH}</td>
-<td>{maH}</td>
-<td>{SoH}</td>
-<td>{tlhIH}</td>
-<td>{ghaH<br />'oH}</td>
-<td>{chaH<br />bIH}</td>
-<td>{pagh}</td>
-</tr>
-<tr align="center">
-<td rowspan="9"><big>S<br />U<br /> B <br />J<br />E<br />K<br />T</big></td>
-<td>{SoH (ra')}</td>
-<td>{HI-}</td>
-<td>{gho-}</td>
-<td class="empty"></td>
-<td class="empty"></td>
-<td>{yI-}</td>
-<td>{tI-}</td>
-<td>{yI-}</td>
-</tr>
-<tr align="center">
-<td>{tlhIH (ra')}</td>
-<td>{HI-}</td>
-<td>{gho-}</td>
-<td class="empty"></td>
-<td class="empty"></td>
-<td>{yI-}</td>
-<td>{tI-}</td>
-<td>{pe-}</td>
-</tr>
-<tr align="center">
-<td>{jIH}</td>
-<td class="empty"></td>
-<td class="empty"></td>
-<td>{qa-}</td>
-<td>{Sa-}</td>
-<td>{vI-}</td>
-<td>{vI-}</td>
-<td>{jI-}</td>
-</tr>
-<tr align="center">
-<td>{maH}</td>
-<td class="empty"></td>
-<td class="empty"></td>
-<td>{pI-}</td>
-<td>{re-}</td>
-<td>{wI-}</td>
-<td>{DI-}</td>
-<td>{ma-}</td>
-</tr>
-<tr align="center">
-<td>{SoH}</td>
-<td>{cho-}</td>
-<td>{ju-}</td>
-<td class="empty"></td>
-<td class="empty"></td>
-<td>{Da-}</td>
-<td>{Da-}</td>
-<td>{bI-}</td>
-</tr>
-<tr align="center">
-<td>{tlhIH}</td>
-<td>{tu-}</td>
-<td>{che-}</td>
-<td class="empty"></td>
-<td class="empty"></td>
-<td>{bo-}</td>
-<td>{bo-}</td>
-<td>{Su-}</td>
-</tr>
-<tr align="center">
-<td>{ghaH/'oH}</td>
-<td>{mu-}</td>
-<td>{nu-}</td>
-<td>{Du-}</td>
-<td>{lI-}</td>
-<td>{-}</td>
-<td>{-}</td>
-<td>{-}</td>
-</tr>
-<tr align="center">
-<td>{chaH/bIH}</td>
-<td>{mu-}</td>
-<td>{nu-}</td>
-<td>{nI-}</td>
-<td>{lI-}</td>
-<td>{lu-}</td>
-<td>{-}</td>
-<td>{-}</td>
-</tr>
-<tr align="center">
-<td>{vay'}</td>
-<td>{vI-lu'}</td>
-<td>{wI-lu'}</td>
-<td>{Da-lu'}</td>
-<td>{bo-lu'}</td>
-<td>{-lu'}</td>
-<td>{lu-lu'}</td>
-<td>{-lu'}</td>
-</tr>
+<table class="prefix">
+  <caption>Klingonska verbprefix</caption>
+  <tr align="center">
+    <th colspan="7" class="object"><big>Objekt</big></th>
+    <th colspan="2" rowspan="2"></th>
+  </tr>
+  <tr align="center">
+    <th>{jIH}</th>
+    <th>{maH}</th>
+    <th>{SoH}</th>
+    <th>{tlhIH}</th>
+    <th>{ghaH<br />'oH}</th>
+    <th>{chaH<br />bIH}</th>
+    <th>{<em>pagh</em>}</th>
+  </tr>
+  <tr align="center">
+    <td>{HI-}</td>
+    <td>{gho-}</td>
+    <td></td>
+    <td></td>
+    <td>{yI-}</td>
+    <td>{tI-}</td>
+    <td>{yI-}</td>
+    <th>{SoH <em>ra'</em>}</th>
+    <th rowspan="9" class="subject"><big>S<br />u<br />b<br />j<br />e<br />k<br />t</big></th>
+  </tr>
+  <tr align="center">
+    <td>{HI-}</td>
+    <td>{gho-}</td>
+    <td></td>
+    <td></td>
+    <td>{yI-}</td>
+    <td>{tI-}</td>
+    <td>{pe-}</td>
+    <th>{tlhIH <em>ra'</em>}</th>
+  </tr>
+  <tr align="center">
+    <td></td>
+    <td></td>
+    <td>{qa-}</td>
+    <td>{Sa-}</td>
+    <td>{vI-}</td>
+    <td>{vI-}</td>
+    <td>{jI-}</td>
+    <th>{jIH}</th>
+  </tr>
+  <tr align="center">
+    <td></td>
+    <td></td>
+    <td>{pI-}</td>
+    <td>{re-}</td>
+    <td>{wI-}</td>
+    <td>{DI-}</td>
+    <td>{ma-}</td>
+    <th>{maH}</th>
+  </tr>
+  <tr align="center">
+    <td>{cho-}</td>
+    <td>{ju-}</td>
+    <td></td>
+    <td></td>
+    <td>{Da-}</td>
+    <td>{Da-}</td>
+    <td>{bI-}</td>
+    <th>{SoH}</th>
+  </tr>
+  <tr align="center">
+    <td>{tu-}</td>
+    <td>{che-}</td>
+    <td></td>
+    <td></td>
+    <td>{bo-}</td>
+    <td>{bo-}</td>
+    <td>{Su-}</td>
+    <th>{tlhIH}</th>
+  </tr>
+  <tr align="center">
+    <td>{mu-}</td>
+    <td>{nu-}</td>
+    <td>{Du-}</td>
+    <td>{lI-}</td>
+    <td>{-}</td>
+    <td>{-}</td>
+    <td>{-}</td>
+    <th>{ghaH/'oH}</th>
+  </tr>
+  <tr align="center">
+    <td>{mu-}</td>
+    <td>{nu-}</td>
+    <td>{nI-}</td>
+    <td>{lI-}</td>
+    <td>{lu-}</td>
+    <td>{-}</td>
+    <td>{-}</td>
+    <th>{chaH/bIH}</th>
+  </tr>
+  <tr align="center">
+    <td>{vI-lu'}</td>
+    <td>{wI-lu'}</td>
+    <td>{Da-lu'}</td>
+    <td>{bo-lu'}</td>
+    <td>{-lu'}</td>
+    <td>{lu-lu'}</td>
+    <td>{-lu'}</td>
+    <th>{<em>vay'</em>}</th>
+  </tr>
 </table>
 
-Bindestrecket i tabellen symboliserar verbet. Då ett bindestreck förekommer utan
+Bindestrecket i tabellen motsvarar verbet. Då ett bindestreck förekommer utan
 prefix, betyder detta att verbet ska vara prefixlöst. En tom ruta betyder att
 denna kombination av subjekt/objekt inte kan skrivas med endast ett verbprefix.
 (Det reflexiva suffixet {-'egh} "sig själv" kan användas tillsammans med alla
@@ -140,538 +141,175 @@ i tabellen, eftersom jag ofta funnit dem förvirrande och lätta att ta miste p�
 2. Verbsuffix [[**]]
 -------------
 
-<table>
-	<tr valign="top">
-		<td rowspan="3"><big><a href="04.html#4.2.1">1</a>.</big></td>
-		<td colspan="4"><big>Sig själv/varandra</big></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-'egh}</td>
-		<td>  </td>
-		<td>sig själv</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-chuq}</td>
-		<td>  </td>
-		<td>varandra
-		<br /><small>(kan endast användas med plural subjekt)</small></td>
-	</tr>
-	<tr valign="top">
-		<td rowspan="6"><big><a href="04.html#4.2.2">2</a>.</big></td>
-		<td colspan="4"><big>Villighet/benägenhet</big></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-nIS}</td>
-		<td>  </td>
-		<td>behöver</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-qang}</td>
-		<td>  </td>
-		<td>villig</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-rup}</td>
-		<td>  </td>
-		<td>redo, beredd
-		<br /><small>(används om varelser)</small></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-beH}</td>
-		<td>  </td>
-		<td>redo, iordningställd
-		<br /><small>(används om apparater)</small></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-vIp}</td>
-		<td>  </td>
-		<td>rädd
-		<br /><small>(kulturellt tabu att använda med subjekt i första
-		person)</small></td>
-	</tr>
-	<tr valign="top">
-		<td rowspan="3"><big><a href="04.html#4.2.3">3</a>.</big></td>
-		<td colspan="4"><big>Förändring</big></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-choH}</td>
-		<td>  </td>
-		<td>förändring i tillstånd, förändring i riktning</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-qa'}</td>
-		<td>  </td>
-		<td>fortsätta, göra igen</td>
-	</tr>
-	<tr valign="top">
-		<td rowspan="2"><big><a href="04.html#4.2.4">4</a>.</big></td>
-		<td colspan="4"><big>Orsak</big></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-moH}</td>
-		<td>  </td>
-		<td>orsaka</td>
-	</tr>
-	<tr valign="top">
-		<td rowspan="3"><big><a href="04.html#4.2.5">5</a>.</big></td>
-		<td colspan="4"><big>Indefinit subjekt/förmåga</big></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-lu'}</td>
-		<td>  </td>
-		<td>indefinit subjekt</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-laH}</td>
-		<td>  </td>
-		<td>kan</td>
-	</tr>
-	<tr valign="top">
-		<td rowspan="5"><big><a href="04.html#4.2.6">6</a>.</big></td>
-		<td colspan="4"><big>Kvalifikation</big></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-chu'}</td>
-		<td>  </td>
-		<td>perfekt, tydligt</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-bej}</td>
-		<td>  </td>
-		<td>definitivt, tveklöst</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-law'}</td>
-		<td>  </td>
-		<td>antagligen, nog, verkar vara</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-ba'}</td>
-		<td>  </td>
-		<td>uppenbarligen [TKDa]</td>
-	</tr>
-	<tr valign="top">
-		<td rowspan="5"><big><a href="04.html#4.2.7">7</a>.</big></td>
-		<td colspan="4"><big>Aspekt</big></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-pu'}</td>
-		<td>  </td>
-		<td>perfektiv</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-ta'}</td>
-		<td>  </td>
-		<td>utfört, gjort</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-taH}</td>
-		<td>  </td>
-		<td>pågående</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-lI'}</td>
-		<td>  </td>
-		<td>fortskridande, framskridande</td>
-	</tr>
-	<tr valign="top">
-		<td rowspan="2"><big><a href="04.html#4.2.8">8</a>.</big></td>
-		<td colspan="4"><big>Hedersbetygande</big></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-neS}</td>
-		<td>  </td>
-		<td>hedersbetygande
-		<br /><small>(används endast vid tilltal av överordnad, aldrig
-	nödvändigt)</small></td>
-	</tr>
-	<tr valign="top">
-		<td rowspan="12"><big><a href="04.html#4.2.9">9</a>.</big></td>
-		<td colspan="4"><big>Syntaktiska markörer</big></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-DI'}</td>
-		<td>  </td>
-		<td>när, så snart som</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-chugh}</td>
-		<td>  </td>
-		<td>om, ifall</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-pa'}</td>
-		<td>  </td>
-		<td>innan, före</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-vIS}</td>
-		<td>  </td>
-		<td>medan</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-bogh}</td>
-		<td>  </td>
-		<td>som
-		<br /><small>(markerar relativ bisats)</small></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-meH}</td>
-		<td>  </td>
-		<td>i syfte att</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-mo'}</td>
-		<td>  </td>
-		<td>på grund av [TKDa]</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-'a'}</td>
-		<td>  </td>
-		<td>interrogativ</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-jaj}</td>
-		<td>  </td>
-		<td>må, månde (konjunktiv) [TKDa]</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-wI'}</td>
-		<td>  </td>
-		<td>en som gör, sak som gör, en som är</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-ghach}</td>
-		<td>  </td>
-		<td>substantiviserare [TKDa]
-		<br /><small>(föregås alltid av minst ett annat suffix)</small></td>
-	</tr>
-	<tr valign="top">
-		<td rowspan="5"><big><a href="04.html#4.3">S</a>.</big></td>
-		<td colspan="4"><big>Strövare</big></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-be'}</td>
-		<td>  </td>
-		<td>inte
-		<br /><small>(används ej i imperativ, då används {-Qo'}
-		istället)</small></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-Qo'}</td>
-		<td>  </td>
-		<td>gör inte!, tänker inte
-		<br /><small>(kommer sist, om inte följd av ett suffix typ
-		9)</small></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-Ha'}</td>
-		<td>  </td>
-		<td>negera, göra ogjort
-		<br /><small>(kommer alltid direkt efter verbet)</small></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-qu'}</td>
-		<td>  </td>
-		<td>emfatiskt, framhävande</td>
-	</tr>
-</table>
+| [1.][v1] | Sig själv/varandra                                          ||
+|----------|----------|---------------------------------------------------|
+|          | {-'egh}  | sig själv                                         |
+|          | {-chuq}  | varandra (kan endast användas med plural subjekt) |
 
-De tre strövarna {-be'}, {-qu'} och {-Ha'} har alla setts på
-verb som fungerar adjektivistiskt. ({wanI' ramqu'} "en väldigt oviktig
-händelse" [TKD s.50] {yIHmey lI'be'} "oanvändbara tribblar" [CK] {Duj
-ngaDHa'} "instabil farkost" [KGT s.150])
+
+| [2.][v2] | Villighet/benägenhet                                                     ||
+|----------|----------|----------------------------------------------------------------|
+|          | {-nIS}   | behöver                                                        |
+|          | {-qang}  | villig                                                         |
+|          | {-rup}   | redo, beredd (används om varelser)                             |
+|          | {-beH}   | redo, iordningställd (används om apparater)                    |
+|          | {-vIp}   | rädd (kulturellt tabu att använda med subjekt i första person) |
+
+
+| [3.][v3] | Förändring                                              ||
+|----------|----------|-----------------------------------------------|
+|          | {-choH}  | förändring i tillstånd, förändring i riktning |
+|          | {-qa'}   | fortsätta, göra igen                          |
+
+
+| [4.][v4] | Orsak                                  ||
+|----------|----------|------------------------------|
+|          | {-moH}   | orsaka                       |
+
+
+| [5.][v5] | Indefinit subjekt/förmåga              ||
+|----------|----------|------------------------------|
+|          | {-lu'}   | indefinit subjekt            |
+|          | {-laH}   | kan                          |
+
+
+| [6.][v6] | Kvalifikation                          ||
+|----------|----------|------------------------------|
+|          | {-chu'}  | perfekt, tydligt             |
+|          | {-bej}   | definitivt, tveklöst         |
+|          | {-law'}  | antagligen, nog, verkar vara |
+|          | {-ba'}   | uppenbarligen [TKDa]         |
+
+
+| [7.][v7] | Aspekt                                 ||
+|----------|----------|------------------------------|
+|          | {-pu'}   | perfektiv                    |
+|          | {-ta'}   | utfört, gjort                |
+|          | {-taH}   | pågående                     |
+|          | {-lI'}   | fortskridande, framskridande |
+
+
+| [8.][v8] | Hedersbetygande                                                                         ||
+|----------|----------|-------------------------------------------------------------------------------|
+|          | {-neS}   | hedersbetygande (används endast vid tilltal av överordnad, aldrig nödvändigt) |
+
+
+| [9.][v9] | Syntaktiska markörer                                                          ||
+|----------|----------|---------------------------------------------------------------------|
+|          | {-DI'}   | när, så snart som                                                   |
+|          | {-chugh} | om, ifall                                                           |
+|          | {-pa'}   | innan, före                                                         |
+|          | {-vIS}   | medan                                                               |
+|          | {-bogh}  | som (markerar relativ bisats)                                       |
+|          | {-meH}   | i syfte att                                                         |
+|          | {-mo'}   | på grund av [TKDa]                                                  |
+|          | {-'a'}   | interrogativ                                                        |
+|          | {-jaj}   | må, månde (konjunktiv) [TKDa]                                       |
+|          | {-wI'}   | en som gör, sak som gör, en som är                                  |
+|          | {-ghach} | substantiviserare [TKDa] (föregås alltid av minst ett annat suffix) |
+
+
+| [S.][vs] | Strövare                                                                          ||
+|----------|----------|-------------------------------------------------------------------------|
+|          | {-be'}   | inte (används ej i imperativ, då används {-Qo'} istället)               |
+|          | {-Qo'}   | gör inte!, tänker inte (kommer sist, om inte följd av ett suffix typ 9) |
+|          | {-Ha'}   | negera, göra ogjort (kommer alltid direkt efter verbet)                 |
+|          | {-qu'}   | emfatiskt, framhävande                                                  |
+
+[v1]: grammatik-04.html#_4_2_1
+[v2]: grammatik-04.html#_4_2_2
+[v3]: grammatik-04.html#_4_2_3
+[v4]: grammatik-04.html#_4_2_4
+[v5]: grammatik-04.html#_4_2_5
+[v6]: grammatik-04.html#_4_2_6
+[v7]: grammatik-04.html#_4_2_7
+[v8]: grammatik-04.html#_4_2_8
+[v9]: grammatik-04.html#_4_2_9
+[vs]: grammatik-04.html#_4_3
+
+
+De tre strövarna {-be'}, {-qu'} och {-Ha'} har då och då setts vidhäfta verb som
+används som adjektiv. ({wanI' ramqu'} _en väldigt oviktig händelse_ [TKD s.50],
+{yIHmey lI'be'} _oanvändbara tribblar_ [CK], {Duj ngaDHa'} _instabil farkost_
+[KGT s.150])
 
 
 3. Substantivsuffix [[**]]
 -------------------
 
-<table>
-	<tr valign="top">
-		<td rowspan="4"><big><a href="03.html#3.3.1">1</a>.</big></td>
-		<td colspan="4"><big>Augmentativ, diminutiv, affektion</big></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-'a'}</td>
-		<td>  </td>
-		<td>augmentativ</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-Hom}</td>
-		<td>  </td>
-		<td>diminutiv</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-oy}</td>
-		<td>  </td>
-		<td>affektion [TKDa]</td>
-	</tr>
-	<tr valign="top">
-		<td rowspan="4"><big><a href="03.html#3.3.2">2</a>.</big></td>
-		<td colspan="4"><big>Numerus</big></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-pu'}</td>
-		<td>  </td>
-		<td>plural
-		<br /><small>(för varelser förmögna till språk)</small></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-Du'}</td>
-		<td>  </td>
-		<td>plural
-		<br /><small>(för kroppsdelar)</small></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-mey}</td>
-		<td>  </td>
-		<td>plural
-		<br /><small>(generell användning)</small></td>
-	</tr>
-	<tr valign="top">
-		<td rowspan="4"><big><a href="03.html#3.3.3">3</a>.</big></td>
-		<td colspan="4"><big>Kvalifikation</big></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-qoq}</td>
-		<td>  </td>
-		<td>så kallad</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-Hey}</td>
-		<td>  </td>
-		<td>synbar, skenbar</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-na'}</td>
-		<td>  </td>
-		<td>definitiv</td>
-	</tr>
-	<tr valign="top">
-		<td rowspan="13"><big><a href="03.html#3.3.4">4</a>.</big></td>
-		<td colspan="4"><big>Possesiv/demonstrativ</big></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-wIj}</td>
-		<td>  </td>
-		<td>min, mitt</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-wI'}</td>
-		<td>  </td>
-		<td>min, mitt
-		<br /><small>(substantiv förmöget till språk)</small></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-maj}</td>
-		<td>  </td>
-		<td>vår, vårt</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-ma'}</td>
-		<td>  </td>
-		<td>vår, vårt
-		<br /><small>(substantiv förmöget till språk)</small></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-lIj}</td>
-		<td>  </td>
-		<td>din, ditt</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-lI'}</td>
-		<td>  </td>
-		<td>din, ditt
-		<br /><small>(substantiv förmöget till språk)</small></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-raj}</td>
-		<td>  </td>
-		<td>er, ert</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-ra'}</td>
-		<td>  </td>
-		<td>er, ert
-		<br /><small>(substantiv förmöget till språk)</small></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-Daj}</td>
-		<td>  </td>
-		<td>hans, hennes, dess</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-chaj}</td>
-		<td>  </td>
-		<td>deras</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-vam}</td>
-		<td>  </td>
-		<td>den här</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-vetlh}</td>
-		<td>  </td>
-		<td>den där</td>
-	</tr>
-	<tr valign="top">
-		<td rowspan="6"><big><a href="03.html#3.3.5">5</a>.</big></td>
-		<td colspan="4"><big>Syntaktiska markörer</big></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-Daq}</td>
-		<td>  </td>
-		<td>lokativ</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-vo'}</td>
-		<td>  </td>
-		<td>från</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-mo'}</td>
-		<td>  </td>
-		<td>på grund av, beroende på</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-vaD}</td>
-		<td>  </td>
-		<td>för, avsedd för</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-'e'}</td>
-		<td>  </td>
-		<td>tema, ämne</td>
-	</tr>
-</table>
+| [1.][s1] | Augmentativ, diminutiv, affektion                    ||
+|----------|----------|--------------------------------------------|
+|          | {-'a'}   | augmentativ                                |
+|          | {-Hom}   | diminutiv                                  |
+|          | {-oy}    | affektion [TKDa]                           |
+
+
+| [2.][s2] | Numerus                                              ||
+|----------|----------|--------------------------------------------|
+|          | {-pu'}   | plural (för varelser förmögna till språk)  |
+|          | {-Du'}   | plural (för kroppsdelar)                   |
+|          | {-mey}   | plural (generell användning)               |
+
+
+| [3.][s3] | Kvalifikation                                        ||
+|----------|----------|--------------------------------------------|
+|          | {-qoq}   | så kallad                                  |
+|          | {-Hey}   | synbar, skenbar                            |
+|          | {-na'}   | definitiv                                  |
+
+
+| [4.][s4] | Possesiv/demonstrativ                                ||
+|----------|----------|--------------------------------------------|
+|          | {-wIj}   | min, mitt                                  |
+|          | {-wI'}   | min, mitt (substantiv förmöget till språk) |
+|          | {-maj}   | vår, vårt                                  |
+|          | {-ma'}   | vår, vårt (substantiv förmöget till språk) |
+|          | {-lIj}   | din, ditt                                  |
+|          | {-lI'}   | din, ditt (substantiv förmöget till språk) |
+|          | {-raj}   | er, ert                                    |
+|          | {-ra'}   | er, ert (substantiv förmöget till språk)   |
+|          | {-Daj}   | hans, hennes, dess                         |
+|          | {-chaj}  | deras                                      |
+|          | {-vam}   | den här                                    |
+|          | {-vetlh} | den där                                    |
+
+
+| [5.][s5] | Syntaktiska markörer                                 ||
+|----------|----------|--------------------------------------------|
+|          | {-Daq}   | lokativ                                    |
+|          | {-vo'}   | från                                       |
+|          | {-mo'}   | på grund av, beroende på                   |
+|          | {-vaD}   | för, avsedd för                            |
+|          | {-'e'}   | tema, ämne                                 |
+
+[s1]: grammatik-03.html#_3_3_1
+[s2]: grammatik-03.html#_3_3_2
+[s3]: grammatik-03.html#_3_3_3
+[s4]: grammatik-03.html#_3_3_4
+[s5]: grammatik-03.html#_3_3_5
 
 
 4. Särskilda numeriska suffix [[**]]
 -----------------------------
 
-[[<table>
-	<tr valign="top">
-		<td rowspan="7"><big><a href="05.html#5.2">1</a>.</big></td>
-		<td colspan="4"><big>Sifferbildande element</big></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-maH}</td>
-		<td>  </td>
-		<td>tio</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-vatlh}</td>
-		<td>  </td>
-		<td>hundra</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-SaD} / {-SanID}</td>
-		<td>  </td>
-		<td>tusen</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-netlh}</td>
-		<td>  </td>
-		<td>tiotusen</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-bIp}</td>
-		<td>  </td>
-		<td>hundratusen</td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-'uy'}</td>
-		<td>  </td>
-		<td>miljon</td>
-	</tr>
-	<tr valign="top">
-		<td rowspan="3"><big><a href="05.html#5.2">2</a>.</big></td>
-		<td colspan="4"><big>Ordningstal/upprepningar</big></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-DIch}</td>
-		<td>  </td>
-		<td>bildar ordningstal
-		<br /><small>("första", "andra" etc., ordet följer substantivet)</small></td>
-	</tr>
-	<tr valign="top">
-		<td>  </td>
-		<td>{-logh}</td>
-		<td>  </td>
-		<td>bildar upprepningar
-		<br /><small>("en gång", "två gånger" etc., ordet fungerar som adverb)</small></td>
-	</tr>
-</table>
+[[
+
+| [1.][n1] | Sifferbildande element          ||
+|----------|-------------------|--------------|
+|          | {-maH}            | tio          |
+|          | {-vatlh}          | hundra       |
+|          | {-SaD} / {-SanID} | tusen        |
+|          | {-netlh}          | tiotusen     |
+|          | {-bIp}            | hundratusen  |
+|          | {-'uy'}           | miljon       |
+
+
+| [2.][n1] | Ordningstal/upprepningar                                                                ||
+|----------|----------|-------------------------------------------------------------------------------|
+|          | {-DIch}  | bildar ordningstal ("första", "andra" etc., ordet följer substantivet)        |
+|          | {-logh}  | bildar upprepningar ("en gång", "två gånger" etc., ordet fungerar som adverb) |
+
+[n1]: grammatik-05.html#_5_2
 
 Indelningen av de numeriska suffixen i typer görs inte i TKD. Denna indelning
 har sitt ursprung i ett datorprogram jag skrev som behövde kunna distingera de

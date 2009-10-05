@@ -94,10 +94,9 @@ De klingonska siffrorna är:
 > | 4 {loS}  | 9 {Hut}     |
 > | 5 {vagh} | 10 {wa'maH} |
 
-Större tal formas genom att lägga till särskilda sifferbildande
-element till grundsiffrorna (1-9). Sålunda består {wa'maH} _tio_ av
-{wa'} _ett_ plus det sifferbildande elementet för _tio_, {-maH}.
-Man fortsätter räkna:
+Större tal formas genom att lägga till särskilda sifferbildande element till
+grundsiffrorna (1-9). Sålunda består {wa'maH} _tio_ av {wa'} _ett_ plus det
+sifferbildande elementet för _tio_, {-maH}. Man fortsätter räkna:
 
 > |------------------|
 > | 11 {wa'maH wa'}  |

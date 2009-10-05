@@ -149,7 +149,7 @@ Det finns nio typer av verbsuffix.
 4.2.1. Typ 1: Sig själv/varandra [[**2000-02-20]]
 --------------------------------
 
-{-'egh} _sig själv_
+### {-'egh} _sig själv_
 
 Detta suffix används för att ange att handlingen som beskrivs av verbet påverkar
 utföraren av handlingen, subjektet. Det kan översättas med svenskans _sig
@@ -168,7 +168,7 @@ indikerar "inget objekt" användas.
 > | {yIqIp'egh} _slå dig själv!_ |
 > | {peqIp'egh} _slå er själva!_ |
 
-{-chuq} _varandra_
+### {-chuq} _varandra_
 
 Detta suffix används endast tillsammans med pluralsubjekt. Det
 översätts med _varandra_. Prefix som anger "inget objekt" används
@@ -188,26 +188,26 @@ Suffix av denna typ uttrycker hur mycket val subjektet har när det
 gäller att utföra den handling som verbet beskriver eller hur benägen
 subjektet är att utföra den.
 
-{-nIS} _behöver_
+### {-nIS} _behöver_
 
 > |--------------------------------------------------------|
 > | {vIleghnIS} _jag behöver se honom/henne_ ({legh} _se_) |
 > | {bISopnIS} _du behöver äta_ ({Sop} _äta_)              |
 
-{-qang} _villig_
+### {-qang} _villig_
 
 > |-------------------------------------------------------------------|
 > | {Heghqang} _han är villig att dö_ ({Hegh} _dö_)                   |
 > | {qaja'qang} _jag är villig att berätta för dig_ ({ja'} _berätta_) |
 
-{-rup} _redo, beredd (om varelser)_
+### {-rup} _redo, beredd (om varelser)_
 
 > |---------------------------------------------------------------|
 > | {Heghrup} _han/hon är beredd att dö_ ({Hegh} _dö_)            |
 > | {qaleghrup} _jag är redo att se dig_ ({legh} _se_)            |
 > | {nuja'rup} _de är redo att berätta för oss_ ({ja'} _berätta_) |
 
-{-beH} _redo, iordningställd (om apparater)_
+### {-beH} _redo, iordningställd (om apparater)_
 
 > |-----------------------------------------------------------------------|
 > | {pojbeH} _(föremålet) är klart att analysera det_ ({poj} _analysera_) |
@@ -230,7 +230,7 @@ en punkt till en annan). Det används också om handlingen att spänna
 det elastiska bandet på en slangbella. I det flesta andra fall då det
 är fråga om att vara beredd krävs {-rup}.
 
-{-vIp} _rädd_
+### {-vIp} _rädd_
 
 > |--------------------------------------------------------|
 > | {choHoHvIp} _du törs inte döda mig_ ({HoH} _döda_)     |
@@ -248,7 +248,7 @@ Suffix av denna typ visar att den av verbet beskrivna handlingen
 involverar en förändring av något slag jämfört med de förhållanden som
 rådde innan handlingen ägde rum.
 
-{-choH} _ändring i tillstånd, ändring i riktning_
+### {-choH} _ändring i tillstånd, ändring i riktning_
 
 > |-------------|----------------------------------------------------|
 > | {maDo'choH} | _vi börjar få tur, lyckan vänder_ ({Do'} _ha tur_) |
@@ -262,7 +262,7 @@ var på väg någon annanstans innan meningen yttrades. Lägg märke till
 att översättningen av detta suffix kan vara svenskans _bli_ eller
 _börja_.
 
-{-qa'} _fortsätta, göra igen_
+### {-qa'} _fortsätta, göra igen_
 
 När man använder detta suffix menar man att en handling har pågått,
 avbrutits och sedan påbörjats igen.
@@ -274,7 +274,7 @@ avbrutits och sedan påbörjats igen.
 4.2.4. Typ 4: Orsak [[**2001-01-08]]
 -------------------
 
-{-moH} _orsaka_
+### {-moH} _orsaka_
 
 Att lägga detta suffix till ett verb visar att subjektet orsakar en
 förändring av förhållanden eller får ett nytt läge att uppkomma.
@@ -306,7 +306,7 @@ De två suffix som tillhör typ 5 har inte mycket med varandra att göra
 förutom att de båda tillhör typ 5. Resultatet av detta är att inget
 verb kan förekomma med båda dessa suffix.
 
-{-lu'} _indefinit subjekt_
+### {-lu'} _indefinit subjekt_
 
 Detta suffix andvänds för att visa att subjektet är okänt,
 odefinierat eller allmänt. Eftersom subjektet alltid är detsamma (det
@@ -340,7 +340,7 @@ finns_.
 > |-----------------------|----------------------------------------------------------------------------------------------------|
 > | {naDev puqpu' tu'lu'} | _det finns barn här, någon/något finner barn här_ ({naDev} _häromkring_, {puqpu'} _barn (plural)_) |
 
-{-laH} _kan_
+### {-laH} _kan_
 
 > |--------------|-----------------------------------------------|
 > | {jIQonglaH}  | _jag kan sova_ ({Qong} _sova_)                |
@@ -354,19 +354,19 @@ finns_.
 Liksom substantivsuffix av typ 3, visar dessa suffix hur säker den
 talande är på det som sägs.
 
-{-chu'} _perfekt, tydligt_
+### {-chu'} _perfekt, tydligt_
 
 > |-------------|------------------------------------------------------------------|
 > | {jIyajchu'} | _jag förstår utmärkt_ ({yaj} _förstå_)                           |
 > | {baHchu'}   | _han/hon avfyrade torpeden perfekt_ ({baH} _avfyra (en torped)_) |
 
-{-bej} _definitivt, tveklöst_
+### {-bej} _definitivt, tveklöst_
 
 > |------------|----------------------------------------------------------------------|
 > | {chImbej}  | _den är tveklöst tom_ ({chIm} _vara tom_)                            |
 > | {nuSeHbej} | _han/hon kontrollerar oss verkligen_ ({SeH} _kontrollera, behärska_) |
 
-{-law'} _antagligen, nog, verkar vara_
+### {-law'} _antagligen, nog, verkar vara_
 
 > |-------------|-----------------------------------------------------------------|
 > | {chImlaw'}  | _den verkar vara tom_ ({chIm} _vara tom_)                       |
@@ -377,7 +377,7 @@ med översättas till _jag tror_ eller _jag misstänker_. Följaktligen
 skulle de två senaste meningarna översättas till _jag tror att den är
 tom_ och _jag misstänker att han/hon kontrollerar oss_.
 
-{-ba'} _uppenbarligen_
+### {-ba'} _uppenbarligen_
 
 Detta suffix används när talaren tycker att hans eller hennes
 påstående borde vara uppenbart för lyssnaren. Icke desto mindre
@@ -412,7 +412,7 @@ men i klingonska ligger dessa meningar egentligen närmare meningar
 som _vi flyger imorgon i gryningen_, där ett verb i presens-form
 refererar till en framtida händelse.
 
-{-pu'} _perfektiv_
+### {-pu'} _perfektiv_
 
 Detta suffix uttrycker att en handling är avslutad. Det översätts
 ofta till svenskans perfekt (_har gjort något_).
@@ -422,7 +422,7 @@ ofta till svenskans perfekt (_har gjort något_).
 > | {vIneHpu'}  | _jag ville ha dem_ ({neH} _vilja, vilja ha_) |
 > | {qaja'pu'}  | _jag berättade för dig_ ({ja'} _berätta_)    |
 
-{-ta'} _utfört, gjort_
+### {-ta'} _utfört, gjort_
 
 Det här suffixet liknar {-pu'}, men används endast när en
 aktivitet avsiktligt påbörjades, det används för att uttrycka att
@@ -465,7 +465,7 @@ Det bör noteras att {rIntaH} ibland används för
 dramatisk effekt, även i fall då handlingen skulle kunna göras
 ogjord.
 
-{-taH} _pågående_
+### {-taH} _pågående_
 
 Detta suffix indikerar att en handling är pågående.
 
@@ -484,7 +484,7 @@ att jämföra följande två kommandon:
 I det första fallet ska manövern utföras endast en gång, i det
 andra ska en serie manövrar utföras -- handlingen ska vara pågående.
 
-{-lI'} _fortskridande, framskridande_
+### {-lI'} _fortskridande, framskridande_
 
 FIXME
 
@@ -492,7 +492,7 @@ FIXME
 4.2.8. Typ 8: Hedersbetygande
 -----------------------------
 
-{-neS} _hedersbetygande_
+### {-neS} _hedersbetygande_
 
 FIXME
 
@@ -500,31 +500,31 @@ FIXME
 4.2.9. Typ 9: Syntaktiska markörer
 ----------------------------------
 
-{-DI'} _när, så snart som_
+### {-DI'} _när, så snart som_
 
 FIXME
 
-{-chugh} _om, ifall_
+### {-chugh} _om, ifall_
 
 FIXME
 
-{-pa'} _innan, före_
+### {-pa'} _innan, före_
 
 FIXME
 
-{-vIS} _medan_
+### {-vIS} _medan_
 
 FIXME
 
-{-bogh} _som_ (relativ bisats-markör)
+### {-bogh} _som_ (relativ bisats-markör)
 
 FIXME
 
-{-meH} _i syfte att_
+### {-meH} _i syfte att_
 
 FIXME
 
-{-'a'} _interrogativ_
+### {-'a'} _interrogativ_
 
 Detta suffix indikerar att meningen ar en ja/nej fråga; det vill säga en fråga
 som kan besvaras med "ja" eller "nej". (Se även sektion 6.4.)
@@ -535,19 +535,19 @@ som kan besvaras med "ja" eller "nej". (Se även sektion 6.4.)
 
 Frågor av andra slag kräver användandet av särskilda frågeord (sektion 6.4).
 
-{-wI'} _en som gör, sak som gör, en som är_
+### {-wI'} _en som gör, sak som gör, en som är_
 
 FIXME
 
-{-mo'} _på grund av_ [TKDa]
+### {-mo'} _på grund av_ [TKDa]
 
 FIXME
 
-{-jaj} _må, månde_ (konjunktiv) [TKDa]
+### {-jaj} _må, månde_ (konjunktiv) [TKDa]
 
 FIXME
 
-{-ghach} _substantiviserare_ [TKDa]
+### {-ghach} _substantiviserare_ [TKDa] |
 
 FIXME
 
@@ -563,25 +563,25 @@ FIXME
 
 FIXME
 
-{-be'} _inte_
+### {-be'} _inte_
 
 FIXME
 
-{-Qo'} _gör inte!, tänker inte_
+### {-Qo'} _gör inte!, tänker inte_
 
 FIXME
 
-{-Ha'} _negera, göra ogjort_
+### {-Ha'} _negera, göra ogjort_
 
 FIXME
 
-{-qu'} _emfatiskt, framhävande_
+### {-qu'} _emfatiskt, framhävande_
 
 FIXME
 
 
 4.4. Adjektiv
-------------
+-------------
 
 FIXME
 
