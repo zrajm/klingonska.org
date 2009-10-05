@@ -1,0 +1,36 @@
+@import url("../../includes/page.css");
+@import url("toc.css");
+@import url("prefix-table.css");
+
+/*
+
+Tables are in the KLO section built for left alignment, as they are used for
+example phrases and simle tables in a style imitative of the TKD layout.
+
+*/
+
+#main table {
+    border-collapse: collapse;
+    caption-side: bottom;
+    display: block;            /* make margins between tables collapse */
+    empty-cells: show;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#main table td, #main table th {
+    padding: 0em .5em;
+    text-align: left;
+    vertical-align: text-top;
+}
+
+#main table th {
+    font-size: large;
+}
+
+/* for left-aligned tables: remove left padding in leftmost cells */
+#main table tr td:first-child, #main table tr th:first-child {
+    padding-left: 0em;
+}
+
+/* eof */

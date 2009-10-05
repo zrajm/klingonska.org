@@ -1,0 +1,47 @@
+/* for prefix table */
+#main table.prefix {
+    border-collapse: collapse;
+    display: table;
+    empty-cells: show;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .5em;
+}
+
+#main table.prefix td, #main table.prefix th,
+#main table.prefix tr td:first-child, #main table.prefix tr th:first-child {
+    border: 2px solid black;
+    padding: .25em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#main table.prefix em {
+    color: #666666;
+}
+
+#main table.prefix big {
+    font-size: x-large;
+}
+
+#main table.prefix th.object, #main table.prefix th.subject {
+    font-size: x-large;
+    padding: .25em;
+    text-transform: uppercase;
+}
+
+#main table.prefix th.object {
+    letter-spacing: .75em;
+    padding: .5em .25em;
+}
+
+#main table.prefix th.subject {
+    line-height: 125%;
+    padding: .25em .75em;
+}
+
+#main table.prefix td:empty {
+    background-color: #aaaaaa;
+}
+
+/* eof */

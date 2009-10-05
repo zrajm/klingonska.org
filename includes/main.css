@@ -1,0 +1,12 @@
+/* center all tables */
+#main table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main table caption {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* eof */

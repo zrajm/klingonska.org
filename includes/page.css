@@ -1,0 +1,46 @@
+@import url("head.css");
+@import url("main.css");
+@import url("foot.css");
+
+body {
+    margin: 0em 1em;
+}
+
+/* Don't change order of the following "a" pseudo classes! */
+/* [http://www.w3schools.com/CSS/css_pseudo_classes.asp]   */
+a:link    { color: #444444; } /* unvisited link  */
+a:visited { color: #777777; } /* visited link    */
+a:hover   {                   /* mouse over link */
+    background-color: #cccccc;
+    color: black;
+}
+a:active  { color: #aaaaaa; } /* selected link -- button pressed on link */
+
+.prevnext {
+    font-family: sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+.author {
+    font-style: italic;
+}
+
+td.left   { text-align: left;   }
+td.right  { text-align: right;  }
+td.center { text-align: center; }
+
+.comment {
+    background-color: #aaaaaa;
+}
+
+h1 {
+    text-align: center;
+}
+
+#main p + p {
+    margin-top: -1em;
+    text-indent: 1.5em;
+}
+
+/* eof */
