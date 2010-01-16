@@ -26,12 +26,12 @@ into a single system/format yet. This is something I'm working on, but I though
 it better to offer the search facility to you now, than to wait for perfection
 (which might well take yet some time to achieve).
 
-<form action="search.cgi" method="get">
+<form action="search/" method="get">
 <table>
   <tr valign="middle">
     <td><input type="text" name="query" value="" size="30" /></td>
     <td><input type="submit" value="Search" /></td>
-    <td><font size="1"><a href="search.cgi?get=help">Search Help</a></font></td>
+    <td><font size="1"><a href="search/?get=help">Search Help</a></font></td>
   </tr>
 </table>
 </form>
