@@ -51,13 +51,46 @@ my %author = (
 ###############################################################################
 
 
+# load perl modules
+# (gracefully suggest which Debian packages are missing on failure)
+BEGIN {
+    my %module = (
+	"Text::MultiMarkdown" => {
+	    deb  => "libtext-markdown-perl",
+	    #import => [ "markdown" ],
+	},
+    );
+    my @failed = ();
+    for my $module (keys %module) {
+	(my $file = "$module.pm") =~ s{::}{/}g;
+	my $bad = 1;
+	for my $dir (@INC) {
+	    if (-e "$dir/$file") {
+		$bad = "";
+		eval "require $module;";
+		$module->import(@{$module{$module}{import}});
+		last;
+	    }
+	}
+	push @failed, $module if $bad;
+    }
+    if (@failed) {
+	warn "Cannot find perl module(s): ", join(", ", sort(@failed)), "\n",
+	    "To install them (on Debian/Ubuntu) run:\n\n",
+	    "    apt-get install ",
+            join(" ", sort map $module{$_}{deb}, @failed),
+	    "\n\n";
+	exit 50;
+    }
+}
+
+
 # CAVEAT: short opts cannot be bundled
 # (Comments displayed by "--help" begin with "##".)
-my %cfg = ( output => -t STDOUT ? "%.html" : "-" );
+my %cfg = ( output => -t STDOUT ? "%.html" : "-", template => 1 );
 {
-    (local $0 = $0) =~ s{^.*/}{};
-    die "Try `$0 --help' for more information.\n" unless @ARGV;
-    ## Usage: $0 [OPTION]... FILE
+    (my $bin = $0) =~ s{^.*/}{};
+    ## Usage: markdown2html [OPTION]... FILE
     ## Generate XHTML from MultiMarkdown source in FILE.
     ##
     my ($bad, @unparsed) = (0, ());
@@ -70,9 +103,10 @@ my %cfg = ( output => -t STDOUT ? "%.html" : "-" );
 	m/^(-h|--help)$/ and do { help(); exit 0 };
 	##   -o, --output=FILE  output filename (default: %.html, '-' if piped)
 	m/^(-o|--output)$/ and do { $cfg{output} = shift; next };
-
+	##   -T, --no-template  suppress page template for header/footer
+	m/^(-T|--no-template)$/ and do { $cfg{template} = ""; next };
 	# ADD OPTS HERE
-	/^-/ and do { warn "$0: unknown option '$_'\n"; $bad++; next };
+	/^-/ and do { warn "$bin: unknown option '$_'\n"; $bad++; next };
 	push @unparsed, $_;
     }
     exit 1 if $bad;
@@ -89,10 +123,9 @@ my %cfg = ( output => -t STDOUT ? "%.html" : "-" );
     ## more than one input file).
     ##
     ## When looking for templates, CSS, etc scans the current dir, then below dirs,
-    ## until finding:
-    ##     o includes/template.html
-    ##     o includes/footer.html
-    ##     o includes/header.html
+    ## for "includes/template.html" and "includes/page.css".
+    die "$bin: not enough arguments\n" .
+	"Try `$bin --help' for more information.\n" unless @ARGV;
 }
 if ($cfg{output} =~ m/^(%*)(.*)$/g) {
     $cfg{add} = $2 eq "-" ? "" : $2;
@@ -109,12 +142,6 @@ if ($cfg{output} =~ m/^(%*)(.*)$/g) {
 
 
 
-
-
-
-
-
-
 ###############################################################################
 ##                                                                           ##
 ##  Informational Functions                                                  ##
@@ -126,15 +153,13 @@ sub help {
     use Cwd 'realpath';                        # resolves symlinks
     my @source = do {
 	my $file = realpath($0);               # get name of source file
-        open(my $fh, '<', $file) or 
+        open(my $fh, '<', $file) or
             die "$0: Can't open source code for reading of docstrings: $!\n";
 	<$fh>;
     };
     foreach (@source) {
 	m/^\s+##\s?(.*\n)/ or next;            # only lines beginning with "## "
-	local $_ = $1;
-	s/(\$\w+)/"$1"/ee;                     # expand variable names
-	print $_;
+	print $1;
     }
 }
 
@@ -187,10 +212,50 @@ sub help {
     # Reads the entire (utf8) FILE and returns its contents as a string.
     sub read_file {
 	my ($file) = shift;
-	local $/   = undef;
 	open(my $in, "<:utf8", $file) or croak "cannot open file \"$file\": $!";
-	defined(my $text = <$in>)     or croak "cannot read file \"$file\": $!";
-	return $text;
+	return <$in>                  or croak "cannot read file \"$file\": $!";
+    }
+
+
+    # Usage: BOOL = metadata(%META, @TEXT);
+    #
+    # Extracts any leading metadata fields from @TEXT. Returns FALSE on failure,
+    # TRUE otherwise.
+    sub metadata(\%\@) {
+	my ($hashref, $arrayref) = @_;
+	use feature "switch";
+	my ($field, $count) = ("", 0, 0);
+	foreach (@$arrayref) {
+	    $count ++;
+	    given ($_) {
+		when (m/^ (\w+): \s* ([^\n]*\n) /x) {
+		    $$hashref{$1} ="" if !exists($$hashref{$1});
+		    $$hashref{$1} .= $2;
+		    $field = $1;
+		}
+		when (m/^ \s+ ([^\n]*\n) /x) {
+		    if ($field ne "") {
+			$$hashref{$field} .= $1;
+		    } else {
+			warn "$0: 1st line in file may not be metadata continuation line (in line $count)\n";
+			return '';
+		    }
+		}
+		when (m/^ \s* $/x) {
+		    if ($count == 1) {
+			warn "$0: 1st line in file may not be blank (in line $count)\n";
+			return '';
+		    }
+		    last;
+		}
+		default {
+		    warn "$0: metadata is not terminated by blank line (in line $count)\n";
+		    return '';
+		}
+	    }
+	}
+	splice(@$arrayref, 0, $count);
+	return 1;
     }
 
     # Usage: %meta = get_metadata(TEXT);
@@ -220,12 +285,6 @@ sub help {
 	return %meta;
     }
 
-    sub get_text {
-	my ($self, $text) = @_;
-	$text =~ s/^(.*?)\n{2,}//s;
-	return $text;
-    }
-
     # Usage: $OUTPUT = process_xml(\&CODEREF, [$INPUT]);
     #
     # INPUT is assumed to in HTML or XML format. Each string of plain text in
@@ -250,6 +309,53 @@ sub help {
 	return $_;
     }
 
+
+    sub markdown {
+	my ($self, $hashref) = @_;
+	local $_ = $$hashref{text};
+
+	s{ \n* \[\[eof\]\] \n* $ }{}ix;  # strip eof marker
+	s#<>#&nbsp;#g;                   # <> = &nbsp;
+
+	# parse with multimarkdown
+	my $obj = new Text::MultiMarkdown(
+	    use_metadata => '',
+	    strip_metadata => '',
+	    tab_width => 4,
+	    );
+	$_ = $obj->markdown($_);
+
+	$_ = $self->process_template($_, %$hashref);
+
+	# [[...]] comments
+	s{ <p> \[\[ (.*?) \]\] </p> }{<div class="comment"><p>$1</p></div>}gxs;
+	s{ \[\[ (.*?) \]\] }{<span class="comment">$1</span>}gxs;
+
+	# clean up some (useless) empty HTML elements
+	s{ \s* <thead> \s* </thead> }{}gix;
+	s{ \s* <col \s* /> }{}gix;
+
+	# clear away whitspace inside empty <td> cells
+	s{(<td\b[^>]*>) \s+ (</td>)}{$1$2}gix;
+
+	# clean up headline "id" attribute
+	s{ <h([1-7])( \s+ [^>]*)> (.*?) </h\1> }{
+	    my ($num, $attr, $cont, $name) = ($1, $2, $3, $3);
+	    $name =~ s{ \s* < (\w+) [^>]*> .*? </\1> \s* }{}gix; # strip <x>...</x>
+	    $name =~ s{ \s* \[ .*? \] \s* }{}gix;                # strip [...]
+	    if ($name =~ /^ ((?:\d+\.)* \d+) /x) {
+		$name = $1;
+	    }
+	    $name =~ s/ ^ (?=\d) /_/x;      # precede leading digit with underscore
+	    $name =~ s/ [^\d\w]+ /_/xg;     # replace non-alphanumeric with underscore
+	    $attr =~ s{ id="[^"]*" }{id="$name"}xi;
+	    "<h$num$attr>$cont</h$num>"
+	}gixme;
+
+	return $_;
+    }
+
+
     # Usage: $obj->process_file($FILE, $TEMPLATE_FILE);
     #
     # Process named $FILE, applying the $TEMPLATE_FILE and return processed
@@ -257,26 +363,29 @@ sub help {
     sub process_file {
 	my ($self, $file, $template_file) = @_;
 
-	my $text = read_file($file);
-	my %meta = $self->get_metadata($text);
+	use Cwd 'realpath';
+	$file = realpath($file);
+	my @text = read_file($file);
+	my %meta = (
+	    filename => $file,
+	    filedate => (stat($file))[9],
+	);
+	metadata(%meta, @text) or exit 5;
 
-	use File::Spec;
-	$file = File::Spec->rel2abs($file)
-	    unless File::Spec->file_name_is_absolute($file);
-	$text = $self->get_text($text);
+	$meta{text} = join("", @text);
+	$meta{text} = $self->markdown(\%meta);
 
-	# add some extra metadata
-	$meta{filename} = $file;
-	$meta{filedate} = (stat($file))[9];
-	$meta{text}     = $text;
 
-	#print "$file\n";
-	#print "$_ => $meta{$_}" foreach keys %meta;
-	#print $text;
 
-	my $page = read_file($template_file);
+	my $page = "";
+	if (defined($template_file)) {
+	    $page = join("", read_file($template_file));
 
-	$page = $self->process_template($page, %meta);
+
+	    $page = $self->process_template($page, %meta);
+	} else {
+	    $page = $self->process_template($meta{text}, %meta);
+	}
 
 	return process_xml(
 	    sub {
@@ -564,50 +673,8 @@ sub page_footer {
 
 sub page_main {
     my ($self, %meta) = @_;
-    local $_ = $meta{text};
-
-    s{ \n* \[\[eof\]\] \n* $ }{}ix;  # strip eof marker
-    s#<>#&nbsp;#g;                   # <> = &nbsp;
-
-    # parse with multimarkdown
-    use Text::MultiMarkdown;
-    my $obj = new Text::MultiMarkdown(
-	use_metadata => '',
-	strip_metadata => '',
-	tab_width => 4,
-    );
-    $_ = $obj->markdown($_);
-
-    $_ = $self->process_template($_, %meta);
-
-    # [[...]] comments
-    s{ <p> \[\[ (.*?) \]\] </p> }{<div class="comment"><p>$1</p></div>}gxs;
-    s{ \[\[ (.*?) \]\] }{<span class="comment">$1</span>}gxs;
-
-    # clean up some (useless) empty HTML elements
-    s{ \s* <thead> \s* </thead> }{}gix;
-    s{ \s* <col \s* /> }{}gix;
-
-    # clear away whitspace inside empty <td> cells
-    s{(<td\b[^>]*>) \s+ (</td>)}{$1$2}gix;
-
-    # clean up headline "id" attribute
-    s{ <h([1-7])( \s+ [^>]*)> (.*?) </h\1> }{
-        my ($num, $attr, $cont, $name) = ($1, $2, $3, $3);
-	$name =~ s{ \s* < (\w+) [^>]*> .*? </\1> \s* }{}gix; # strip <x>...</x>
-	$name =~ s{ \s* \[ .*? \] \s* }{}gix;                # strip [...]
-	if ($name =~ /^ ((?:\d+\.)* \d+) /x) {
-	    $name = $1;
-	}
-	$name =~ s/ ^ (?=\d) /_/x;      # precede leading digit with underscore
-	$name =~ s/ [^\d\w]+ /_/xg;     # replace non-alphanumeric with underscore
-        $attr =~ s{ id="[^"]*" }{id="$name"}xi;
-	"<h$num$attr>$cont</h$num>"
-    }gixme;
-
-    return $_;
+    return $meta{text};
 }
-
 
 
 sub read_file {
@@ -646,8 +713,15 @@ foreach my $file (@ARGV) {
     (my $outfile = $file) =~ s/$cfg{strip}/$cfg{add}/;
     print "Processing '$file' -> '$outfile'\n" if $outfile;
     my $template_file = find_include_file("includes/template.html", $file);
-    my $template = read_file($template_file);
-    my $data = $obj->process_file($file, $template_file);
+
+    my $data = do {
+	if ($cfg{template}) {
+	    $obj->process_file($file, $template_file);
+	} else {
+	    $obj->process_file($file);
+	}
+    };
+
     if ($outfile) {
 	write_file($outfile, $data);
     } else {
