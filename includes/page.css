@@ -38,6 +38,14 @@ h1 {
     text-align: center;
 }
 
+# paragraphs following another paragraph should be indented and with no blank line
+# (unless the <p> has an "align=center" in it)
+#main p + p[align="center"] {
+    margin-top: 1em;
+    text-indent: 0em;
+}
+
+# paragraphs following another paragraph should be indented and with no blank line
 #main p + p {
     margin-top: -1em;
     text-indent: 1.5em;

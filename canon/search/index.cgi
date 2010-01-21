@@ -76,7 +76,7 @@ binmode(STDOUT, ":encoding(utf8)");
 sub FALSE { "" }
 sub TRUE  {  1 }
 our %cfg = (
-    VERSION        => "BETA 0.7b",
+    VERSION        => "BETA 0.8b",
     MAX_MATCHES    => 30,                      # max allowed number of hits
     DESC_LENGTH    => 300,                     # max length of file descr.
     # context length is always shortened, so this is only an approximate value
@@ -232,7 +232,14 @@ sub page_header {
     return <<EOF;
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html><head><title>Klingonska Akademien - $ENV{X_TITLE}</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript"><!--
+  function formfocus() {
+    document.getElementById('query').focus();
+  }
+  window.onload = formfocus;
+--></script>
+</head>
 <body topmargin=0 vlink="#777777" alink="#aaaaaa" link="#444444" text="#000000" bgcolor="#ffffff">
 
 <!-- =================== Page Status =================== -->
@@ -327,11 +334,11 @@ sub store_match {
     # without the file header
 
     # extract date
-    my @date = do {
+    my $date = do {
 	my ($year, $month, $day) = $file =~ m#^ (?:.*/)? (\d+) (?: -(\d+) (?:-(\d+))? )? \w?--#x;
 	$month =  $month{$month} if defined($month);
 	$day   =~ s/^0+//        if defined($day);
-	($day, $month, $year);
+	"$day $month $year";
     };
 
     # FIXME: we should display matches of TKD, CK, PK the other canon works
@@ -341,9 +348,15 @@ sub store_match {
     $title = transcript2html($head{title}) if exists($head{title});
 
     my $output_buffer = 
-	"<dl>\n" .              # add it to output buffer
         "  <dt><b><a href=\"$link\">$title</a></b></dt>\n" .   # XXXFIXME
-        "  <dd><font size=\"-1\"><font color=\"#888888\">".join(" ", @date)."</font>";
+        "  <dd><font size=\"-1\">\n" .
+	"    <font color=\"#888888\"><i>" .
+	join(" - ",
+	     (exists($head{type})      ? $head{type}      : ()), # type (book, email etc.)
+	     (exists($head{author})    ? $head{author}    : ()), # author
+	     $date,                                              # publish date
+	     (exists($head{publisher}) ? $head{publisher} : ()), # author
+	) . "<i></font>\n";
 
     my $characters = 0;
     $context = "";
@@ -392,14 +405,13 @@ sub store_match {
         $context     =~ s#\Q[[\E#<font color="\#FF0000"><b>#go;
         $context     =~ s#\Q]]\E#</b></font>#go;#
 
-        $output_buffer .= "\n  " . ($incomplete >= 0 ? "<B>...</B>" : "").
+        $output_buffer .= "    <br />" . ($incomplete >= 0 ? "<b>...</b>" : "").
 #            " ".($linked?"":"[$page****]").     # this should add the page number
             " $context";
     }                                           #
-    $output_buffer .= "\n  " . ($incomplete <= 0 ? "<B>...</B>" : "") .
-	($source_link ? "\n<br /><font color=\"#888888\"><a href=\"$source_link\">Transcript</a>" : "") .
-	(exists($head{author}) ? " - <i>by $head{author}</i>" : "") .
-	"</font></font></dl>\n\n";
+    $output_buffer .= ($incomplete <= 0 ? " <b>...</b>" : "") . "\n" .
+	($source_link ? "    <br /><font color=\"#888888\"><a href=\"$source_link\">Transcript</a>" : "") .
+	"</font></font></dd>\n\n";
     return $output_buffer;
 }
 
@@ -432,9 +444,9 @@ return <<EOF;
   <tr><td>
     <table cellspacing="0" cellpadding="0" border="0">
       <tr valign="middle">
-        <td><input type="text" name="query" value="${\&html_encode($form{query})}" size="35"></td>
+        <td><input type="text" id="query" name="query" value="${\&html_encode($form{query})}" size="35" /></td>
         <td>&nbsp;</td>
-        <td><input type="submit" value="Search"></td>
+        <td><input type="submit" value="Search" /></td>
         <td>&nbsp;</td>
         <td><font size="1"><a href="$cfg{SCRIPT_URL}?get=help">Search Help</A>$clean_link</font></td>
       </tr>
@@ -453,9 +465,9 @@ print <<"EOF";
 <table cellspacing="0" cellpadding="0" border="0">
   <tr valign="middle">
     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td><input type="text" name="query" value="" size="30"></td>
+    <td><input type="text" id="query" name="query" value="" size="30" /></td>
     <td>&nbsp;</td>
-    <td><input type="submit" value="Search"></td>
+    <td><input type="submit" value="Search" /></td>
     <td>&nbsp;</td>
     <td><font size="1"><a href="$cfg{SCRIPT_URL}?get=help">Search Help</a></font></td>
   </tr>

@@ -29,7 +29,7 @@ it better to offer the search facility to you now, than to wait for perfection
 <form action="search/" method="get">
 <table>
   <tr valign="middle">
-    <td><input type="text" name="query" value="" size="30" /></td>
+    <td><input type="text" id="query" name="query" value="" size="30" /></td>
     <td><input type="submit" value="Search" /></td>
     <td><font size="1"><a href="search/?get=help">Search Help</a></font></td>
   </tr>
