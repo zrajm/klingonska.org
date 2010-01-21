@@ -205,23 +205,18 @@ if (FALSE) {
 
 sub page_footer {
     return <<EOF;
-<!-- ==================== Copyright ==================== -->
-<p><center>
-<table cellpadding=0 cellspacing=0 border=0>
-  <tr><td valign=bottom colspan=3><hr noshade /></td></tr>
-  <tr>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td align="center">
-      <b>&copy;1998&ndash;2010, Copyright 
-      <a href="mailto:zrajm\@klingonska.org">Zrajm C Akfohg</a>,
-      <a href="http://www.klingonska.org/">Klingonska Akademien</a>,
-      Uppsala.</b>
-    </td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-  <tr><td valign=top colspan=3><hr noshade /></td></tr>
-</table>
-</center>
+
+<div id="foot">
+<p class="copyright">&copy;1998&ndash;2010, Copyright <span class="author"><a href="mailto:zrajm\@klingonska.org">Zrajm C Akfohg</a></span>, <a href="http://klingonska.org/">Klingonska Akademien</a>, Uppsala.</p>
+<p class="validator">
+ Validate:
+  <a href="http://validator.w3.org/check?uri=http://test.zrajm.org/canon/">XHTML</a>,
+  <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://test.zrajm.org/canon/&amp;profile=css3">CSS3</a>,
+  <a href="http://validator.w3.org/checklink?uri=http://test.zrajm.org/canon/">links</a>.
+ License:
+  <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">CC BY&ndash;SA</a>.&nbsp;
+</p>
+</div>
 </body>
 </html>
 EOF
@@ -229,10 +224,18 @@ EOF
 
 
 sub page_header {
-    return <<EOF;
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html><head><title>Klingonska Akademien - $ENV{X_TITLE}</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    my (%hash) = @_;
+    my $output = <<EOF;
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>$ENV{X_TITLE} (Klingonska Akademien)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="geo.region" content="SE-C" />
+<meta name="geo.placename" content="Europe, Sweden, Uppsala, Kåbo" />
+<meta name="geo.position" content="59.845658;17.630797" />
+<link rel="stylesheet" type="text/css" href="../../includes/page.css" />
 <script type="text/javascript"><!--
   function formfocus() {
     document.getElementById('query').focus();
@@ -240,17 +243,36 @@ sub page_header {
   window.onload = formfocus;
 --></script>
 </head>
-<body topmargin=0 vlink="#777777" alink="#aaaaaa" link="#444444" text="#000000" bgcolor="#ffffff">
+<body>
 
-<!-- =================== Page Status =================== -->
-<table border="0" cellpadding="0" cellspacing="0" width="100%" align="center">
+<div id="head">
+<table class="status">
   <tr>
-    <td align="left"><i><font size="1"><a href="mailto:webmaster\@klingonska.org">webmaster\@klingonska.org</a></font></i></td>
-    <td align="center"><i><font size="1"><a href="$PAGE_URL">$PAGE_URL</a></font></i></td>
-    <td align="right"><i><font size="1">$changed</font></i></td>
+    <td class="left"><a href="mailto:webmaster\@klingonska.org">webmaster\@klingonska.org</a></td>
+    <td class="center"><a href="$PAGE_URL">$PAGE_URL</a></td>
+    <td class="right">$changed</td>
   </tr>
 </table>
 EOF
+if (exists($hash{title}) and $hash{title}) {
+    $output .= <<EOF;
+<p><a href=".."><img src="../../pic/ka.gif" width="600" height="176" alt="Klingonska Akademien" /></a></p>
+</div>
+
+<div id="main">
+<h1>$ENV{X_TITLE}</h1>
+
+EOF
+} else {
+    $output .= <<EOF;
+</div>
+
+<div id="main">
+EOF
+}
+$output .= <<EOF;
+EOF
+    return $output;
 }
 
 
@@ -298,6 +320,7 @@ sub display_result {
         $output  = "<h2>You may not negate all search words.</h2>\n\n";
         $output .= suggest_search();     #
     } else {                                    # not all words are negated
+	$output .= "<dl>";
         FILE: foreach my $file (@file) {        #   for each file
 	    # read file
 	    my ($text, %head) = read_file($file);
@@ -309,6 +332,7 @@ sub display_result {
 		}
 	    }
         }
+	$output .= "</dl>";
         # override search result (if too many, or none at all)
 #        if ($matches == 0) {
 #	    $output = no_matches($matches) . suggest_search();
@@ -349,14 +373,14 @@ sub store_match {
 
     my $output_buffer = 
         "  <dt><b><a href=\"$link\">$title</a></b></dt>\n" .   # XXXFIXME
-        "  <dd><font size=\"-1\">\n" .
-	"    <font color=\"#888888\"><i>" .
+        "  <dd><font size=\"-1\"><font color=\"#888888\"><i>" .
 	join(" - ",
-	     (exists($head{type})      ? $head{type}      : ()), # type (book, email etc.)
-	     (exists($head{author})    ? $head{author}    : ()), # author
+	     (exists($head{type})      ? ucfirst($head{type}) : ()), # type (book, email etc.)
+	     (exists($head{author})    ? $head{author}        : ()), # author
 	     $date,                                              # publish date
-	     (exists($head{publisher}) ? $head{publisher} : ()), # author
-	) . "<i></font>\n";
+	     (exists($head{publisher}) ? $head{publisher}     : ()), # author
+	) . "<i></font>\n" .
+	"    <br />";
 
     my $characters = 0;
     $context = "";
@@ -405,7 +429,7 @@ sub store_match {
         $context     =~ s#\Q[[\E#<font color="\#FF0000"><b>#go;
         $context     =~ s#\Q]]\E#</b></font>#go;#
 
-        $output_buffer .= "    <br />" . ($incomplete >= 0 ? "<b>...</b>" : "").
+        $output_buffer .= ($incomplete >= 0 ? "<b>...</b>\n      " : "").
 #            " ".($linked?"":"[$page****]").     # this should add the page number
             " $context";
     }                                           #
@@ -479,8 +503,7 @@ EOF
 
 
 sub new_form {
-    print page_header();                         # page header
-    print page_title();
+    print page_header(title => TRUE);                         # page header
     empty_form();
     print <<EOF;                                 # empty form
 <center>
@@ -492,8 +515,7 @@ EOF
 }
 
 sub help_page {
-    print page_header();                    # page header
-    print page_title();
+    print page_header(title => TRUE);                         # page header
     empty_form();
     print <<EOF;
 
