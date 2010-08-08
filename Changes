@@ -338,6 +338,10 @@ o Add a "fonts/" subpage:
   * Added license-link in footer (CC BY-SA license)
     http://microformats.org/wiki/rel-license
 
+2009-08-14 -- 2009-08-17
+  * Converted KLO ("Klingonsk Ordbok") into Multimarkdown format & wrote program
+    to generate HTML from that source
+
 2009-04-07
   * Fixed "canon/download.cgi" (now uses UTF-8)
     o SBX transcript added & UTF-ified
