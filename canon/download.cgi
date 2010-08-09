@@ -116,27 +116,16 @@ my %source_label = (
     ftg   => "1997 - Federation Travel Guide (Partial Transcript)",
 );
 my %source_file = (
-    tkd   => "1992-01-01--tkd.txt",
-    tkw   => "1996-05-01--tkw.txt",
-    kgt   => "1997-11-01--kgt.txt",
-    ck    => "1992-10-01--ck.txt",
-    pk    => "1993-10-01--pk.txt",
-    bop   => "1998-11-01--bop.txt",
-    sarek => "1995-02-01--sarek.txt",
-    ftg   => "1997-07-01--ftg.txt",
+    tkd   => "1992-01-01-tkd.txt",
+    tkw   => "1996-05-01-tkw.txt",
+    kgt   => "1997-11-01-kgt.txt",
+    ck    => "1992-10-01-ck.txt",
+    pk    => "1993-10-01-pk.txt",
+    bop   => "1998-11-01-bop.txt",
+    sarek => "1995-02-01-sarek.txt",
+    ftg   => "1997-07-01-ftg.txt",
 );
 
-# table of files
-my @filename = (
-    [ tkd   => "1992-01-01--tkd.txt"   => "The Klingon Dictionary" ],
-    [ tkw   => "1996-05-01--tkw.txt"   => "The Klingon Way" ],
-    [ kgt   => "1997-11-01--kgt.txt"   => "Klingon for the Galactic Traveler" ],
-    [ ck    => "major/1992-10-01-ck.txt"    => "Conversational Klingon" ],
-    [ pk    => "major/1993-10-01-pk.txt"    => "Power Klingon" ],
-    [ bop   => "major/1998-11-01-bop.txt"   => "Bird of Prey Poster" ],
-    [ sarek => "major/1995-02-01-sarek.txt" => "Sarek (Partial Transcript)" ],
-    [ ftg   => "major/1997-07-01-ftg.txt"   => "Federation Travel Guide (Partial Transcript)" ],
-);
 
 
 print header(-charset=>'utf-8');                 # Content-type header
