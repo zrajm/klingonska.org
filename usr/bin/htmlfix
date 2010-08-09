@@ -1,0 +1,41 @@
+#!/usr/bin/perl
+
+# This downcases all HTML tags, and quote all attribute values.
+#
+# Attribute values which were not previously quoted will be downcased, quoted
+# attribute values are left as-is. Trailing slash "/>" part of a tag will be
+# preserved, and a space inserted before it if missing.
+#
+# TODO:
+#   o Do so that "/>" is added for those tags that require it (e.g. <img>,
+#     <br>, <hr> + others?)
+#
+# /zrajm 2010-08-09
+
+use strict;
+use warnings;
+
+$/ = undef;
+my $_ = <>;
+s{
+    <([^<>]*?)\s*(/?)>
+}{
+    my ($content, $slash) = ($1, $2);
+    if ($content =~ m{^!--}) {
+        "<$content>";
+    } else {
+        $content =~ s{
+            ([^=\s]+)(?:= (?| ("[^"]*") | (\S+) ))?
+        }{
+            my ($name, $value) = ($1, $2);
+            $value = '"' . lc($value) . '"'
+                if defined($value) && $value !~ /^".*"$/;
+            lc($name) . (defined($value) ? "=$value" : "")
+        }gxe;
+        "<$content" . ($slash && " /") . ">";
+    }
+}gxe;
+
+print;
+
+#[eof]
