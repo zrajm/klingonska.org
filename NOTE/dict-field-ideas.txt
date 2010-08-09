@@ -1,0 +1,57 @@
+Doq's fields [http://mail.google.com/mail/#search/KCD+1/119e024181cfeb6a]:
+
+Text fields:
+Klingon word (Romanized alphabet, as in TKD)
+Sort Key (I replace every {n} with "n1", every {ng} with "n2", every
+"{q} with "q1", every {Q} with "q2", every {t} with "t1", every {tlh}
+with "t2" and every apostrophe with "z".)
+Definition
+Grammar note
+Source
+Comment
+
+Date fields:
+Date reviewed most recently (checking source)
+Modified
+Created
+
+Drop down lists:
+Part of Speech
+
+Check boxes:
+Pun
+Derivative
+Slang
+Archaic
+Regional
+
+Check boxes to help me find words by category (I forget to use this
+most of the time)
+Animal
+Art
+Body Function
+Clothing
+Color
+Curse
+Device
+Emotion
+Food
+House
+Job
+Landscape
+Material
+Math
+Military
+Mind
+Motion
+Music
+Politics
+Prepositional
+Rank
+Ship
+Speech
+Symbol
+Time
+Trek
+Vegetation
+Weapon

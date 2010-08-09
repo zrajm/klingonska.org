@@ -1,0 +1,136 @@
+from	Edward Cherlin <echerlin@gmail.com>
+to	Zrajm C Akfohg <zrajm@klingonska.org>
+date	Wed, May 27, 2009 at 3:12 AM
+subject	Re: pIqaD-->Unicode
+signed-by	gmail.com
+	
+hide details May 27 (11 days ago)
+	
+	
+Reply
+	
+	Follow up message
+On Tue, May 26, 2009 at 4:54 PM, Zrajm C Akfohg <zrajm@klingonska.org> wrote:
+> On Tue, May 26, 2009 at 10:21 PM, Edward Cherlin <echerlin@gmail.com> wrote:
+>> Thank you for the pIqaD Playground. Would you be willing to offer an
+>> option to create pIqaD text readable in the Code2000 font? If so, I
+>> would want to create a site offering a choice of public domain and
+>> Creative-Commons licensed Klingon in Romanization, pIqaD graphics, and
+>> pIqaD text, with links on how to read and write pIqaD.
+>>
+>> The main obstacle to getting an official Unicode code block for pIqaD
+>> is the lack of use, which is hampered by the lack of an encoding and
+>> of Klingon locales in widely used software. I have friends willing to
+>> work on Klingon-pIqaD locales for Linux and Macintosh, and I have seen
+>> some work done for Windows.
+>
+> I'd be delighted to include some unicode pIqaD on the pIqaD Playground
+> page, as well as use klingonska.org to distribute the locale packages
+> necessary for Klingon translations of any program or operating system.
+
+Excellent.
+
+> When it comes to locale-related stuff I'd have to strictly rely on
+> other people's contributions (for lack of time on my part).
+
+As is usual in such matters. "Only do what only you can do."--Edsger Dijkstra
+
+> As to the pIqaD Playground I'm not sure I'd be able to test the result
+> in Unicode,
+
+All you need to do is to download and install the Code2000 font, and
+set your browser Preferences to use it. Instructions for Windows are
+at http://www.kli.org/wiki/index.php?Chatting%20in%20pIqaD.
+
+You may need to tell your e-mail software to use Unicode UTF-8.
+
+> but given a character code table I'm sure I could produce
+> the output and an option for displaying stuff that way rather than the
+> currently used graphics.
+
+Here is the link to the table.
+
+http://www.evertype.com/standards/csur/klingon.html
+ConScript Unicode Registry
+Klingon: U+F8D0 - U+F8FF
+
+U+F8D0  KLINGON LETTER A
+U+F8D1  KLINGON LETTER B
+U+F8D2  KLINGON LETTER CH
+U+F8D3  KLINGON LETTER D
+U+F8D4  KLINGON LETTER E
+U+F8D5  KLINGON LETTER GH
+U+F8D6  KLINGON LETTER H
+U+F8D7  KLINGON LETTER I
+U+F8D8  KLINGON LETTER J
+U+F8D9  KLINGON LETTER L
+U+F8DA  KLINGON LETTER M
+U+F8DB  KLINGON LETTER N
+U+F8DC  KLINGON LETTER NG
+U+F8DD  KLINGON LETTER O
+U+F8DE  KLINGON LETTER P
+U+F8DF  KLINGON LETTER Q
+U+F8E0  KLINGON LETTER QH
+U+F8E1  KLINGON LETTER R
+U+F8E2  KLINGON LETTER S
+U+F8E3  KLINGON LETTER T
+U+F8E4  KLINGON LETTER TLH
+U+F8E5  KLINGON LETTER U
+U+F8E6  KLINGON LETTER V
+U+F8E7  KLINGON LETTER W
+U+F8E8  KLINGON LETTER Y
+U+F8E9  KLINGON LETTER GLOTTAL STOP
+U+F8EA  (This position shall not be used)
+U+F8EB  (This position shall not be used)
+U+F8EB  (This position shall not be used)
+U+F8ED  (This position shall not be used)
+U+F8EE  (This position shall not be used)
+U+F8EF  (This position shall not be used)
+U+F8F0  KLINGON DIGIT ZERO
+U+F8F1  KLINGON DIGIT ONE
+U+F8F2  KLINGON DIGIT TWO
+U+F8F3  KLINGON DIGIT THREE
+U+F8F4  KLINGON DIGIT FOUR
+U+F8F5  KLINGON DIGIT FIVE
+U+F8F6  KLINGON DIGIT SIX
+U+F8F7  KLINGON DIGIT SEVEN
+U+F8F8  KLINGON DIGIT EIGHT
+U+F8F9  KLINGON DIGIT NINE
+U+F8FA  (This position shall not be used)
+U+F8FB  (This position shall not be used)
+U+F8FC  (This position shall not be used)
+U+F8FD  KLINGON COMMA
+U+F8FE  KLINGON FULL STOP
+U+F8FF  KLINGON MUMMIFICATION GLYPH
+
+When you get Code2000 installed, you will be able to see the entire
+pIqaD alphabet below, in the order given above.
+
+pIqaD  
+
+
+
+
+
+> I've also been considering adding more typefaces, and various other
+> peoples interpretation of pIqaD, but have not yet had the opportunity
+> to go back and do this.
+>
+>> Also, I would be grateful if you could help me restore my name, Silent
+>> Thunder, to the original Klingon. ^_^
+>
+> {wab tam} is the closest I can get "Silent Noise" {wab} "noise", {tam}
+> "be silent". Note that it is all in lower case. Uppercasing any of the
+> letters would be a spelling error.
+
+Look Inside This Book at Amazon shows that some word for thunder
+occurs three times in the Klingon Hamlet, but I have not determined
+which Klingon word it is.
+
+> /maHvatlh, 'upSala tlhIngan Hol yej'an che'wI'
+>
+> --
+>  Zrajm C Akfohg   Mobil: 076-211 50 43   E-post: zrajm@klingonska.org
+>  Villav.33, 2tr   Telefon: 018-500 911   http://zrajm.klingonska.org/
+>  Upsala, Sweden   ICQ-nummer: 16769663   voDleH Hol DajatlhlaH'a' je?
+>

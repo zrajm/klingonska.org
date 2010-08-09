@@ -1,0 +1,352 @@
+#+STARTUP: overview hidestars -*- org -*-
+
+* Transfer test.zrajm.org -> klingonska.org
+** TODO Eliminate dead links
+*** Figure out a way to fetch page and check links
+*** DONE canon/ has a whole bunch
+    CLOSED: [2010-08-09 Mon 03:02]
+    Quite a lot of trascripts have changed names.
+** TODO Working mail aliases
+*** TODO List the current mail aliases on manufrog
+*** TODO How to config using domtool?
+** TODO Working mailing lists
+*** TODO List current mailing lists on manufrog
+*** TODO How to config on hcoop?
+
+** DONE Fetched current klingonska.org & installed that
+   (= CGI's are not working)
+   CLOSED: [2009-04-04 Sat]
+** DONE Converted all text from latin-1 to utf-8
+   CLOSED: [2009-04-04 Sat]
+** DONE CGI scripts working
+   CLOSED: [2010-08-09 Mon 03:01]
+*** DONE List CGI scripts on page
+    CLOSED: [2010-08-09 Mon 03:00]
+*** canon/download.cgi - ok
+**** fix page footer
+*** canon/search/index.cgi - not pretty, but passable
+**** searched for "bird" -- several matches were lacking file/article names
+*** dict/lexicon.cgi - ok
+*** piqad/play.cgi - ok
+**** need new header/footer though
+
+* THEREAFTER
+** Automatic update of filedates listed in pages (using includes?)
+*** Restore file dates for all unchanged files
+** Improved file structure
+** Various small fixes, as wanted/needed
+** Change all faulty Latin-1 173 chars into proper hyphens/minuses
+
+* FUTURE
+** CC licence on entire site (except KLO?)
+** Web pages generated from templates & using Markdown
+** XHTML compliant
+** CSS-based design
+** "Typographical" quotes
+** Feedback form at end of each page (again)
+   This is the old code, using SSI:
+
+   <!-- ================== Feedback Form ================== -->
+   <!-- [2007-07-15] Below stuff disabled in move to ManuFrog -->
+   <!-- (remove spaces before "#" to re-enable) -->
+   <!--#include virtual="/feedback.cgi"
+   --><!--#if expr="!$X_NOLOG"
+   --><!--#include virtual="/.log.cgi"
+   --><!--#endif -->
+
+
+
+
+* paqHom
+** "data: derived form" words should not be included in en-tlh side
+
+
+* Systematic changes
+** TODO CSS: name in footer/copyright notice should not be italics
+
+** TODO CSS: line width should max become something readable
+** TODO <p> tag should default to align=justify
+* Article improvements
+** TODO Title page
+*** Add some thing (javascript?) to indicate pages that have been recently updated
+    This should maybe be displayed as "New!" for a week, and "New" (with less
+    exclamation marks) for a month, or somesuch.
+
+    This is remnant markup from an earlier such thought:
+
+    <tr><td align=right valign=center><img src="/pic/ny.gif" width=31 height=14 alt="Ny" hspace=5></td>
+    <tr><td align=right valign=center><img src="/pic/andrad.gif" width=54 height=14 alt="Ändrad" hspace=5></td>
+    <tr><td align=right valign=center><img src="/pic/dot.gif" width=15 height=14 alt="*" hspace=5></td>
+
+** TODO "Archive of Okrandian Canon"
+*** "KCD 1" (to "KCD 6" at least)
+     qa'vaj has transcribed KCD, (subject "KCD" etc in my gmail) 
+**** "Klingon words from _Diplomatic Implausibility_ (DI)"
+     (found in email to tlhingan-hol with same subject)
+*** New transcripts should be added to article/table
+*** Typography in main article
+**** Should dashes in ISBN numbers be endash or hyphen sized?
+     (Also make them non-line-breaking)
+**** Make ranges use non-line-breaking emdash
+*** Reference for {nIyma'}
+    http://mail.google.com/mail/#search/niyma'/11dcaa2b915a07df
+*** Reference for {pu'jIn}
+    http://mail.google.com/mail/?shva=1#search/jin+to%3Atlhingan-hol%40kli.org/125280bf1b4e53a6
+*** Corrections for "canon/2003-06--holqed-12-2.txt"
+**** Transcript error: {'omeghqoq}
+**** Transcript error: "song o opera"
+**** Period after: "the warriors are sad"?
+**** Period after: "the warriors drink"?
+**** "one either {megh'an}" should be "once either {megh'an}"?
+*** ST5 transcript
+    http://mail.google.com/mail/#label/imported/12a129c1002403f8
+** TODO "pIqad, And How to Read It"
+*** add pIqaD style from cover of ghIlghameS
+   https://mail.google.com/mail/?shva=1#search/skybox+piqad+cards/11b5909603f5df5c
+
+   The version of {pIqaD} developed by Okruda and used by the KLI was modeled
+   on the appearance of Tibetan. ("Encyclopedia of fictional and fantastic
+   languages" by Tim Conley & Stephen Cain, 2006).
+
+   Steven Boozer / Voragh (Ca'Non Master of the Klingons) in email 2008-07-25
+
+*** should contain a link to "The {pIqaD} Playground"
+*** links to wikipages for the various sounds?
+** TODO "Klingon Pocket Dictionary"
+*** commit changes to git repos
+*** index.html
+**** DONE image captions should be same size as rest of text
+     CLOSED: [2010-08-09 Mon 02:16]
+**** DONE new header
+     CLOSED: [2010-08-08 Sun 10:09]
+**** DONE new footer
+     CLOSED: [2010-08-08 Sun 10:09]
+**** DONE proper UTF8 header
+     CLOSED: [2010-08-08 Sun 10:09]
+**** DONE klingon surrounded with <strong lang="tlh">...</strong>
+     CLOSED: [2010-08-08 Sun 15:52]
+**** DONE translations circumfixed with <em class="translation">...</em>
+     CLOSED: [2010-08-08 Sun 15:54]
+**** DONE typographical apostrophes, quotes and dashes
+     CLOSED: [2010-08-08 Sun 15:54]
+**** DONE convert all xx=yy to xx="yy"
+     CLOSED: [2010-08-08 Sun 10:09]
+**** DONE verify HTML
+     CLOSED: [2010-08-09 Mon 02:16]
+**** DONE verify CSS
+     CLOSED: [2010-08-09 Mon 02:16]
+*** intro.html
+**** TODO update number of words in text
+**** TODO update url to "The Klingon Mailing List FAQ"
+**** DONE new header
+     CLOSED: [2010-08-08 Sun 08:53]
+**** DONE new footer
+     CLOSED: [2010-08-08 Sun 09:08]
+**** DONE proper UTF8 header
+     CLOSED: [2010-08-08 Sun 09:08]
+**** DONE klingon surrounded with <strong lang="tlh">...</strong>
+     CLOSED: [2010-08-08 Sun 10:01]
+**** DONE translations circumfixed with <em class="translation">...</em>
+     CLOSED: [2010-08-08 Sun 10:01]
+**** DONE typographical apostrophes, quotes and dashes
+     CLOSED: [2010-08-08 Sun 09:11]
+**** DONE convert all xx=yy to xx="yy"
+     CLOSED: [2010-08-08 Sun 10:12]
+**** DONE use stylesheet to get 1st line indented in paragraphs
+     CLOSED: [2010-08-09 Mon 02:16]
+**** DONE verify HTML
+     CLOSED: [2010-08-09 Mon 02:16]
+**** DONE verify CSS
+     CLOSED: [2010-08-09 Mon 02:16]
+*** lexicon.cgi
+**** TODO typographical apostrophes, quotes and dashes
+**** DONE new header
+     CLOSED: [2010-08-08 Sun 10:31]
+**** DONE new footer
+     CLOSED: [2010-08-08 Sun 10:31]
+**** DONE proper UTF8 header
+     CLOSED: [2010-08-08 Sun 10:31]
+**** DONE klingon surrounded with <strong lang="tlh">...</strong>
+     CLOSED: [2010-08-09 Mon 02:17]
+**** DONE translations circumfixed with <em class="translation">...</em>
+     CLOSED: [2010-08-09 Mon 02:17]
+**** DONE convert all xx=yy to xx="yy"
+     CLOSED: [2010-08-08 Sun 10:31]
+**** DONE verify HTML
+     CLOSED: [2010-08-09 Mon 02:19]
+**** DONE verify CSS
+     CLOSED: [2010-08-09 Mon 02:19]
+*** tables.html
+**** TODO add character names to "{pIqaD} Table" (?)
+     http://cibo/dict/tables.html#piqad_table
+**** TODO typographical apostrophes, quotes and dashes
+
+**** DONE new header
+     CLOSED: [2010-08-08 Sun]
+**** DONE new footer
+     CLOSED: [2010-08-08 Sun]
+**** DONE proper UTF8 header
+     CLOSED: [2010-08-08 Sun]
+**** DONE klingon surrounded with <strong lang="tlh">...</strong>
+     CLOSED: [2010-08-08 Sun]
+**** DONE translations circumfixed with <em class="translation">...</em>
+     CLOSED: [2010-08-08 Sun]
+**** DONE convert all xx=yy to xx="yy"
+     CLOSED: [2010-08-08 Sun 10:13]
+**** DONE {pIqaD} table is (slightly) broken in Firefox (fine in chrome)
+     CLOSED: [2010-08-08 Sun 15:40]
+
+     There shouldn't be any borders between {pIqaD}, romanized and IPA versions
+     of the same character. Maybe this could be fixed using clases: e.g.
+     "no-left", "no-right" to suppress left/right borders of a cell.
+
+**** DONE make prefix table use stylesheets
+     CLOSED: [2010-08-09 Mon 02:18]
+**** DONE verify HTML
+     CLOSED: [2010-08-09 Mon 02:18]
+**** DONE verify CSS
+     CLOSED: [2010-08-09 Mon 02:18]
+*** suffix.html
+**** TODO table cells should be ended properly (with </td> & </tr>)
+
+     "head2" and "head3" followed by text should have </td></tr> inserted after
+     the text, while those not followed by text should have it inserted
+     immediately after the heading.
+
+     "usr/bin/parse" needs a new transform stage in which "sg_head2" &
+     subsequent "sg_paragraph"s should be lifted into "sg_div2" context and
+     "sg_head3" + subsequent "sg_paragraph"s should be lifted into "sg_div3"
+     context.
+
+     Then the composer should be rewritten accordingly.
+**** TODO apostrophes in english text should be typographic
+**** DONE new header
+     CLOSED: [2010-08-08 Sun]
+**** DONE new footer
+     CLOSED: [2010-08-08 Sun]
+**** DONE proper UTF8 header
+     CLOSED: [2010-08-08 Sun]
+**** DONE klingon surrounded with <strong lang="tlh">...</strong>
+     CLOSED: [2010-08-08 Sun]
+**** DONE translations circumfixed with <em class="translation">...</em>
+     CLOSED: [2010-08-08 Sun]
+**** DONE convert all xx=yy to xx="yy"
+     CLOSED: [2010-08-08 Sun 10:13]
+**** DONE table is (slightly) broken in Firefox (fine in chrome)
+     CLOSED: [2010-08-09 Mon 02:17]
+**** DONE verify HTML
+     CLOSED: [2010-08-09 Mon 02:17]
+**** DONE verify CSS
+     CLOSED: [2010-08-09 Mon 02:17]
+*** DONE headings should be sans-serif
+    CLOSED: [2010-08-09 Mon 02:19]
+*** replace all <b>...</b> with Klingon in to <strong lang="tlh>...</strong>
+    Done in dict/, check elsewhere.
+*** replace all relevant <i>...</i> with <em class="translation">...</em>
+    Done in dict/, check elsewhere.
+*** dict.zdb
+**** Add words
+***** Make sure words from NKW and KLI lists are in the dictionary
+      (and tagged in "ref:" field accordingly)
+****** [NKW] http://teresh.tdonnelly.org/klinewest.html
+****** [KLI] http://www.kli.org/tlh/newwords.html
+***** {Qompu'} -- hmm. seems to be a "bad word" (from Terrence's list)
+***** {jIn}
+****** Verify this word!
+      Terrence Donnelly says this means "to brew" and was mentioned somewhere,
+      and people remarked that it was very much like "gin".
+***** {qolqoS}, {'elI'jaH}, {wIlpuq}
+      http://mail.google.com/mail/#search/jIn/1217ffac4948e9ab
+***** {pu'jIn}
+      http://mail.google.com/mail/?shva=1#search/jin+to%3Atlhingan-hol%40kli.org/125280bf1b4e53a6
+***** {nIyma'}
+      http://mail.google.com/mail/#search/niyma'/11dcaa2b915a07df
+***** HolQeD 10:2, p.10 word ({nan} (martial arts move))
+      http://mail.google.com/mail/#search/Qompu'+to%3Atlhingan-hol/1162c03998bc2094
+***** HolQeD 13:1, p.9 words ({vIl}, {woch}, {va'nuch}...)
+      http://mail.google.com/mail/#search/Qompu'+to%3Atlhingan-hol/1162c03998bc2094
+***** HolQeD 12:3 words
+      Continue extraction of words in "2003-09--holqed.txt", from {wogh} and
+      onwards.
+
+***** KGT main text words (names etc.)
+      e.g. "Kayvak", "digna", "ka'raj", "bregit", "Saurian", "raktaj"
+     
+**** Re-sort dictionary
+**** Systematic corrections / new markup
+***** Move part-of-speech info into own field
+      (removing trailing POS-definitions from the end of the english and
+      swedish translation fields. (How should entries marked "(slang)" etc. be
+      handled?)
+***** Remove brackets from "def" and "ref" fields.
+      (Are there any problems in doing this?)
+***** Abbreviate "MO at {qep'a'}" sources
+      "[MO at {qep'a' wa'maH cha'DIch}]" is not very pretty. Abbreviate? Or
+      refer to written sources (both would be nice).
+***** Add notes on puns from list
+****** http://www.kli.org/wiki/index.php?Puns%20in%20the%20Vocabulary%20of%20tlhIngan%20Hol
+***** Add "ref: [KLI]" to all words after {chaDvay'} in KLI new word list
+***** Check words ending {-moH}, mark with "data: derived form"
+      (unless the word without the {-moH} suffix is not in the dictionary by
+      itself)
+***** New value field for the question words, adverbs etc.
+***** KLCP level 1 markup
+****** Move into "cat:" rather than "data:" field
+****** Check against KLCP 1 list.
+***** KLCP level 2 markup
+***** Add markup for KLCP level 2
+****** Add "KLCP-2" to all relevant word's "data:" field
+***** Consider new fields?
+      [[file:NOTE/dict-field-ideas.txt][x]]
+***** Mark lookup words in klingon words with spaces («...»)
+**** Minor/individual corrections
+***** Add notes on puns
+****** {pe'vIl} apparently is a private reference of MO's -- what?
+****** {natlIS} "end of list" -- pun?
+****** {bertlham} -- pun? Shakespeare?
+****** {bop} pun?
+***** Swedish translation of "officer"
+      Should be "personal" or "tjänsteman" or somesuch? [2006-08-22]
+***** Spelling of "flatulence"?
+***** {bop} check URL in statement
+      "Got this from http://www.livejournal.com/community/klingon/ entry August
+      1, 2005 by ubykhlives Example: {HolQeD bopbe' paqvam} = 'This book is not
+      about linguistics.'" [KLI]
+
+***** Math terms
+      From: 2000-09--holqed-09-3.txt: {boq}, {boqHa'}, {boq'egh}, {boqHa''egh},
+      {chen} should have translations "plus", "minus", "equals" etc.
+
+* Communicate
+** Reply to http://community.livejournal.com/klingon/
+   The Archive of Okrandian Canon of the Swedish Klingonska Akademien doesn't
+   seem to be updated anymore, since 2002. Or does it?
+
+* Add all tlhingan-hol archive stuff to gmail
+
+* Send paqHommey to
+** Terrence Donnelly <terrence.donnelly@sbcglobal.net>
+** Louse Whitty {lu'lu'}
+** {Qov}
+
+
+* Links to have from klingonska.org
+** Klingon Unicode Table "Klingon: U+F8D0 - U+F8FF"
+    http://www.evertype.com/standards/csur/klingon.html
+    (include comma and period glyphs)
+** "wordiQ - Klingon Language" article
+    http://www.wordiq.com/definition/Klingon_language
+    (A pretty good article on the klingon language)
+** "Wikipedia: Klingon writing systems"
+    http://en.wikipedia.org/wiki/Klingon_writing_systems
+
+    
+
+
+
+
+
+[eof]
+
+
+
