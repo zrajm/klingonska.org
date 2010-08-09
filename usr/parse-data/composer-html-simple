@@ -1,0 +1,56 @@
+#!/usr/bin/perl
+
+use warnings;
+use strict;
+use feature ":5.10";
+
+my $WIDTH = 79;
+{
+    blockquote      => sub { "<blockquote>" . shift() . "</blockquote>\n\n" },
+    bulletlist      => sub { "<ul>" . shift() . "</ul>\n\n" },
+    bulletlist_item => sub { "<li>" . shift() . "</li>\n" },
+    code            => sub { "<code>" . shift() . "</code>" },
+    doublequote     => sub { "&ldquo;" . shift() . "&rdquo;" },
+    emdash          => sub { "&mdash;" },
+    emphasis        => sub { "<em>" . shift() . "</em>" },
+    endash          => sub { "&ndash;" },
+    head1           => sub { wrap("<h1>" . shift() . "</h1>", $WIDTH) . "\n\n" },
+    head2           => sub { wrap("<h2>" . shift() . "</h2>", $WIDTH) . "\n\n" },
+    head3           => sub { wrap("<h3>" . shift() . "</h3>", $WIDTH) . "\n\n" },
+    head4           => sub { wrap("<h4>" . shift() . "</h4>", $WIDTH) . "\n\n" },
+    head5           => sub { wrap("<h5>" . shift() . "</h5>", $WIDTH) . "\n\n" },
+    head6           => sub { wrap("<h6>" . shift() . "</h6>", $WIDTH) . "\n\n" },
+    hr              => sub { "<hr>\n\n" },
+    html            => sub { shift() . "\n\n" },
+    numberlist      => sub { "<ol>" . shift() . "</ol>\n\n" },
+    numberlist_item => sub { "<li>" . shift() . "</li>\n\n" },
+    paragraph       => sub { wrap("<p>" . shift() . "</p>", $WIDTH) . "\n\n" },
+    plain           => sub { use HTML::Entities; encode_entities(shift(), "<>&") },
+    root            => sub { "<body>\n\n" . shift() . "</body>\n" },
+    strong          => sub { "<strong>" . shift() . "</strong>" },
+    verbatim        => sub { "<pre>" . shift() . "</pre>\n\n" },
+
+    # KA-specific
+    english         => sub { "<em class=\"en\">" . shift() . "</em>" },
+    klingon         => sub { "<strong class=\"tlh\">" . regex(
+        klinhyphenate(shift(), "&shy;"),
+        qr/'/,
+        "&rsquo;"
+    ) . "</strong>" },
+    reference       => sub { "<small class=\"ref\">[" . shift() . "]</small>" },
+    suffix_guide    => sub { "<div class=\"suffixguide\">\n\n" .
+                               shift() . "</div>\n\n";
+    },
+    sg_head1        => sub { wrap('<h1 class="sg">' . shift() . "</h1>", $WIDTH) . "\n\n" },
+    sg_head2        => sub { wrap('<h2 class="sg">' . shift() . "</h2>", $WIDTH) . "\n\n" },
+    sg_head3        => sub { wrap('<h3 class="sg">' . shift() . "</h3>", $WIDTH) . "\n\n" },
+    sg_paragraph    => sub { wrap('<p class="sg">' . shift() . "</p>", $WIDTH) . "\n\n" },
+        sg_head1_type      => sub { shift() . ". " },
+        sg_head1_text      => sub { shift() },
+        sg_head1_reference => sub { indent(shift(), " ") },
+        sg_head2_klingon   => sub { shift() },
+        sg_head2_english   => sub { indent(shift(), " ") },
+        sg_head2_reference => sub { indent(shift(), " ") },
+}
+
+#[eof]

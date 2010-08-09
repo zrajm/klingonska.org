@@ -1,0 +1,187 @@
+#!/usr/bin/perl
+
+# TODO
+#   o HTML output for actual dictionary suffix guide.
+#   o LaTeX output for actual dictionary suffix guide.
+#   o Links (esp. links not defined inline).
+#   o Numbered lists must be able to get item number.
+#   o Implement full markdown.
+#   o Implement nested structures. (e.g. *emphasised *doubly emphasised**)
+#
+use warnings;
+use strict;
+use feature ':5.10';                           # loads features for perl 5.10
+use lib do {
+    use Cwd "realpath";   # resolves symlinks
+    realpath($0) =~ m#^(.*)/[^/]*/#;
+    "$1/perl";
+};
+
+use Data::Dumper;
+$Data::Dumper::Indent = 1;
+$Data::Dumper::Terse  = 1;
+
+my $WIDTH = 79;  # number of columns to use in word wrap
+
+
+###############################################################################
+##                                                                           ##
+##  Functions                                                                ##
+##                                                                           ##
+###############################################################################
+
+sub help {
+    print <<"EOF";
+Usage: $0 OPTION < FILE.txt
+Parse markdown input and give output in specified format.
+
+  -h,--help         display this information
+  -i,--input=FILE   load parser from FILE
+  -l,--list         output contexts template for new parser
+  -o,--output=FILE  load composer from FILE
+  -p,--plot         output graphviz program for plotting parser contexts
+     --raw          output "raw" parse tree (builtin)
+     --html         output HTML ("data/composer-html")
+     --markdown     output Markdown ("data/composer-markdown")
+EOF
+}
+
+
+# Usage: $NEWTREE = insert_branch($FINDBRANCH, $INSERTBRANCH, @TREE);
+#
+# Moves a subsection of $TREE (from $FINDBRANCH and onwards, up until the next
+# occurance of $FINDBRANCH if any) into a new branch (called $INSERTBRANCH).
+#
+# Only the first level of branches in $TREE traversed (i.e. the search is not
+# recursive).
+#
+# Example: assuming the following tree to begin with:
+#
+#     $tree = [
+#       [ a => "" ],
+#       [ b => "" ],
+#       [ a => "" ],
+#       [ b => "" ],
+#       [ c => "" ],
+#     ]
+#
+# If we now call insert_branch() $tree using '$newtree = insert_branch("b",
+# "new", $tree);' the resulting newtree will look like this:
+#
+#     $newtree =[
+#       [ a => "" ],
+#       [ new =>
+#         [ b => "" ],
+#       ],
+#       [ new =>
+#         [ b => "" ],
+#         [ c => "" ],
+#       ],
+#     ]
+#
+sub first { ${shift()}[0] }
+sub insert_branch {
+    my ($findbranch, $newtree, @tree) = @_;
+    my (@whole, @part) = ();
+    for (@tree) {
+        if (first($_) eq $findbranch) {
+            push(@whole, [ $newtree => @part ]) if @part;
+            @part = ();
+        }
+        if (@part) {
+            push(@part, $_);
+        } else {
+            push(@whole, $_);
+        }
+    }
+    push(@whole, [ $newtree => @part ]) if @part;
+    return @whole;
+}
+
+
+###############################################################################
+##                                                                           ##
+##  Main Program                                                             ##
+##                                                                           ##
+###############################################################################
+
+my $bad = 0;
+my %cfg = (
+    command  => "",      # do what?
+    output   => undef,   # output format
+    input    => undef,   # input format
+);
+%SIG = (
+    __DIE__  => sub { warn         "$0: ", @_; exit 255 },
+    __WARN__ => sub { print STDERR "$0: ", @_; $bad++   },
+);
+
+# parse command line options
+{
+    my @arg = ();
+    while (@ARGV) {
+        my $opt = shift();
+        unshift(@ARGV, $1) if $opt =~ s{ = (.*) $ }{}x;
+        given ($opt) {
+            when (/^--$/) { last }
+            when (/^(-h|--help)$/)  { help(); exit }
+            when (/^(-i|--input)/)  { $cfg{input}   = shift() }
+            when (/^(-l|--list)/)   { $cfg{command} = "list"  }
+            when (/^(-o|--output)/) { $cfg{output}  = shift() }
+            when (/^(-p|--plot)/)   { $cfg{command} = "plot"  }
+            when (/^--html$/)       { $cfg{output}  = "usr/parse-data/composer-html" }
+            when (/^--markdown$/)   { $cfg{output}  = "usr/parse-data/composer-markdown" }
+            when (/^--raw$/)        { $cfg{output}  = "" }
+            when (/^-/) { warn "unknown option '$opt'\n" }
+            default { push @arg, $opt }
+        }
+    }
+    warn "no --output given\n" unless defined($cfg{output});
+    warn "no --input given\n" unless defined($cfg{input});
+    exit 255 if $bad;
+    @ARGV = (@arg, @ARGV);
+}
+
+use ParserComposer;
+my $block = new ParserComposer($cfg{input}, $cfg{output} || {});
+
+# 
+if ($cfg{command}) {
+    given ($cfg{command}) {
+        when("plot") { print $block->plot_contexts() }
+        when("list") { 
+            print "# -*- perl -*-\n",
+              "my \$WIDTH = $WIDTH;\n",
+              "{\n",
+              sort(map { "    $_ => sub { },\n" } $block->context()),
+              "};\n",
+              "#[eof]\n";
+        }
+    }
+    exit;
+}
+
+die "nothing to read on standard input\n" if -t 0;
+
+my $text = join("", <>);
+$text =~ s/^TODO.*//sm; # strip everything after 1st "TODO"
+
+$text =~ s/(?<=\n)\n*\Q[eof]\E\n+$//; # strip everything after 1st "TODO"
+
+
+my $tree = $block->parse([ "root", $text ]);
+
+($tree) = $block->transform({
+    "suffix_guide" => sub {
+        [ shift() => insert_branch("sg_head2", "sg_div2", @_) ];
+    }
+}, $tree);
+
+#print STDERR "=" x 80 . "\n";
+
+#use Data::Dumper;
+#print Dumper $tree;
+
+print $block->compose($tree);
+
+# [eof]

@@ -1,0 +1,389 @@
+Verb Suffixes
+=============
+
+[[start:suffixguide]]
+
+1. Oneself/One Another [TKD 4.2.1]
+==================================
+
+{-'egh} <oneself>
+-----------------
+Indicates that the action affects the subject; requires a prefix indicating
+that there is no object. Can be used together with {-moH} to form a command of
+a stative verb, e.g. {yItuj'eghmoH} <Heat yourself!> [KGT 117]
+
+{-chuq} <one another, each other>
+---------------------------------
+Requires a prefix indicating plural subject and no object.
+
+
+2. Volition/Predisposition [TKD 4.2.2]
+======================================
+
+{-nIS} <need>
+-------------
+{-qang} <willing>
+-----------------
+{-rup} <ready, prepared (referring to beings)>
+----------------------------------------------
+{-beH} <ready, set up (referring to devices)>
+---------------------------------------------
+{-vIp} <afraid>
+---------------
+It is a cultural taboo to use the suffix {-vIp} with <I> or <we> as subject.
+
+
+3. Change [TKD 4.2.3]
+=====================
+
+{-choH} <change in state, change in direction>
+----------------------------------------------
+E.g. {chomuSchoH} <I am beginning to hate you> (but I did not hate you before).
+The sentence {pa' ghoSchoH} <He/she is starting to go there> implies that
+either the person was not going anywhere before, or that he/she changed
+direction.
+
+{-qa'} <resume, do again>
+-------------------------
+Indicates that the action stopped, then began again, e.g. {wInejqa'} <We are
+resuming searching for it> or <We search for it again.>
+
+
+4. Cause [TKD 4.2.4]
+====================
+
+{-moH} <cause>
+--------------
+The subject causes a change in condition or creates a new one, e.g. {qul
+vIchenmoH} <I light a fire> (lit. <I cause a fire to take form>). Makes
+intransitive verbs transitive, e.g. {yIqIjmoH} <Blacken it!> (lit. <Cause it to
+be black!>). Required when making an imperative out of a stative verb (see also
+{-'egh} above).
+
+
+5. Indefinite Subject/Ability [TKD 4.2.5]
+=========================================
+
+{-lu'} <indefinite subject>
+---------------------------
+Indicates that the subject is unknown, indefinite, and/or general, the verb can
+not have a subject, and the prefixes are used in a different way (see bottom
+row of prefix table). Sentences using {-lu'} are often translated into English
+passive voice, e.g. {Daqawlu'} <You are remembered.>
+
+{-laH} <can, able>
+------------------
+E.g. {jIQonglaH} <I can sleep;> {tlhIngan Hol vIjatlhlaH} <I am able to speak
+Klingon.>
+
+
+6. Qualification [TKD 4.2.6]
+============================
+
+{-chu'} <clearly, perfectly>
+----------------------------
+Indicates that an action is performed absolutely properly. [PK]
+
+{-bej} <certainly, undoubtedly>
+-------------------------------
+{-ba'} <obviously> [TKDa]
+-------------------------
+Indicates that the speaker thinks what he/she says should be obvious to the
+listener, e.g. {QIpba'} <He/she is obviously stupid.> There is still room for
+doubt though, the suffix does not imply as strong a conviction as {-bej.}
+
+{-law'} <seemingly, apparently>
+-------------------------------
+Expresses that the speaker is uncertain, and may even be thought of as meaning
+<I think> or <I suspect,> e.g. {DuSeHlaw'} <He/she seems to be controlling you>
+or <I think he/she is controlling you.>
+
+
+7. Aspect [TKD 4.2.7]
+=====================
+
+{-pu'} <perfective>
+-------------------
+Indicates that the action is completed.
+
+{-ta'} <accomplished, done>
+---------------------------
+Indicates that the action was deliberately undertaken and completed.
+
+{-taH} <continuous>
+-------------------
+Indicates that the action is ongoing.
+
+{-lI'} <in progress>
+--------------------
+Indicates that the action is ongoing and proceeding toward a known goal.
+
+
+8. Honorific [TKD 4.2.8]
+========================
+
+{-neS} <honorific>
+------------------
+Indicates extreme politeness or deference. Used *only* when addressing a
+superior, e.g. {HIja'neS} <Do me the honor of telling me.> It is never
+required.
+
+
+9. Syntactic Markers [TKD 4.2.9]
+================================
+
+Subordinate-Clause Markers
+--------------------------
+A subordinate clause can occur either before or after the rest of the sentence,
+e.g. {cha yIbaH qara'DI'} or {qara'DI' cha yIbaH} <Fire the torpedoes at my
+command!>
+
+{-DI'} <when, as soon as>
+-------------------------
+{-chugh} <if>
+-------------
+{-pa'} <before>
+---------------
+{-vIS} <while>
+--------------
+The suffix {-vIS} is always used along with the type 7 suffix {-taH}, e.g.
+{bIQongtaHvIS} <while you are sleeping.>
+
+{-mo'} <due to, because of> [TKDa]
+----------------------------------
+Note that there is also a noun suffix {-mo'} with the same meaning. [TKD 6.2.2]
+
+Relative-Clause Marker
+----------------------
+{-bogh} <which>
+---------------
+A relative clause takes the place of a noun in a sentence. It has a head noun
+to which its verb refers, e.g. {qIpbogh yaS} <the officer who hit him/her> or
+{yaS qIpbogh} <the officer whom he/she hit.> If there is more than one noun in
+the clause, the head noun is indicated with the suffix {-'e'} <topic,> e.g.
+{loDHom qIpbogh mang'e'} <the soldier who hit the boy.> [TKD 6.2.3; TKW p.142,
+189]
+
+Purpose-Clause Marker
+---------------------
+{-meH} <for, for the purpose of, in order to>
+---------------------------------------------
+The purpose clause always precedes the noun or verb whose purpose it is
+describing, e.g. {ja'chuqmeH rojHom} <a truce in order to confer;> {jagh
+luHoHmeH lunejtaH} <They are searching for the enemy in order to kill him/her.>
+[TKD 6.2.4]
+
+Main-Clause Modifiers
+---------------------
+{-'a'} <interrogative>
+----------------------
+Indicates that a sentence is a yes/no question, e.g. {bIjang'a'} <Will you
+answer?> [TKD 6.4]
+
+{-jaj} <may, let> [TKDa]
+------------------------
+Expresses a desire or wish on the part of the speaker that something take place
+in the future. If used in a toast (but not otherwise) the sentence word order
+becomes object--subject--verb. E.g. {wo' ghawran DevtaHjaj} <May Gowron
+continue to lead the Empire,> if the same thing were to be expressed as a wish
+or aspiration on the speaker's part, and not a toast, it would be said {wo'
+DevtaHjaj ghawran} instead. Note: Klingons seem to be a bit touchy on the
+subject of toasts, and so it is important to use only the handful of accepted
+toasts. [PK; KGT p.25--26]
+
+Nominalizers (Turns Verb into Noun)
+-----------------------------------
+{-wI'} <one who does/is, thing which does/is>
+---------------------------------------------
+In reference to inanimate objects it means <thing which does/is> or <thing
+which is used for,> when referring to beings it means <one who does/is.> E.g.
+{joqwI'} <flag;> {nanwI'} <chisel;> {baHwI'} <gunner;> {pujwI'} <weakling.>
+Also used to say things like {DoqwI'} <the red one.> [TKD 3.2.2]
+
+{-ghach} <nominalizer> [TKDa]
+-----------------------------
+Turns a verb (which must have at least one other suffix attached) into a noun.
+The use of this suffix often makes for bad Klingon, and it is strongly
+suggested that you refrain from using any word with {-ghach,} unless it is
+found in the dictionary. E.g. {naDHa'ghach} <discommendation;> {naDqa'ghach}
+<re-commendation.>
+
+
+R. Rovers [TKD 4.3]
+===================
+
+{-be'} <not>
+------------
+This suffix follows the element (verb or verb suffix) which it negates, e.g.
+{choHoHvIpbe'} <You are not afraid to kill me,> {choHoHbe'vIp} <You are afraid
+to not kill me.> It cannot be used in imperatives (where {-Qo'} is used
+instead), but it can be applied to verbs used adjectivally, e.g. {yIHmey
+lI'be'} <useless tribbles> [TKDa 4.2.9; CK]
+
+{-Qo'} <don't!, won't!>
+-----------------------
+This suffix always occurs last, unless followed by a type 9 suffix. It is used
+in imperatives and to denote refusal.
+
+{-Ha'} <undo>
+-------------
+Always occurs immediately after the verb, before any other suffixes. It
+indicates that something that was previously done is now undone, or that
+something is done wrongly, e.g. {nobHa'} <give back;> {yajHa'} <misunderstand.>
+Can also be applied to verbs used adjectivally, e.g. {'eyHa'} <undelicious;>
+{yepHa'} <careless.> [KGT pp. 30, 84, 150]
+
+{-qu'} <emphatic>
+-----------------
+This suffix follows the element (verb or verb suffix) which it emphasizes, e.g.
+{nImuSlaw'qu'} <They SEEM to hate you,> {nImuSqu'law'} <They seem to HATE you.>
+Can also be applied to verbs used adjectivally, e.g. {veng tInqu'} <very big
+city.> [TKD 4.4]
+
+[[end:suffixguide]]
+
+
+Noun Suffixes
+=============
+
+[[start:suffixguide]]
+
+1. Size/Importance [TKD 3.3.1]
+==============================
+
+{-'a'} <augmentative>
+---------------------
+Indicates that the noun is bigger, more important, or more powerful than it
+would be without the suffix.
+
+{-Hom} <diminutive>
+-------------------
+Indicates that the noun is smaller, less important, or less powerful than it
+would be without the suffix.
+
+{-oy} <endearment> [TKDa]
+-------------------------
+A {'} is probably inserted before this suffix, if the noun it attaches to ends
+in a vowel.
+
+
+2. Number [TKD 3.3.2]
+=====================
+
+{-pu'} <plural for beings capable of using language>
+----------------------------------------------------
+{-Du'} <plural for body parts>
+------------------------------
+{-mey} <plural, general usage>
+------------------------------
+The suffix {-mey} carries a notion of "scattered all about" when applied to
+words that normally take the suffix {-pu'} ({puqmey} <children all over the
+place> versus {puqpu'} <children>). The same thing happens when the {-mey}
+plural suffix is applied to the singular form of a noun that is irregularly
+pluralized ({DoSmey} <targets scattered all about> versus {ray'} <targets>).
+
+
+3. Qualification [TKD 3.3.3]
+============================
+
+{-qoq} <so-called>
+------------------
+{-Hey} <apparent>
+-----------------
+{-na'} <definite>
+-----------------
+
+4. Possession/Specification [TKD 3.3.4]
+=======================================
+
+Possessives for Beings Capable of Using Language
+------------------------------------------------
+{-wI'} <my>
+-----------
+{-ma'} <our>
+------------
+{-lI'} <your>
+-------------
+{-ra'} <your (plural)>
+----------------------
+These suffixes are used to indicate possessives when referring to beings
+capable of speech, e.g. {jupwI'} <my friend;> {be'nallI'} <your wife;> {puqma'}
+<our child.> The general possessive suffixes may also be used, but they are
+considered derogatory; {juHwIj} for <my lord> borders on the taboo.
+
+Possessives, General Usage
+--------------------------
+{-wIj} <my>
+-----------
+{-maj} <our>
+------------
+{-lIj} <your>
+-------------
+{-raj} <your (plural)>
+----------------------
+{-Daj} <his, her, its>
+----------------------
+{-chaj} <their>
+---------------
+Though grammatically correct, it is considered derogatory to use these general
+possessive suffixes when referring to first or second persons that are are
+capable of language (i.e. <I, we, you> or <you [plural]>).
+
+Specification
+-------------
+{-vam} <this>
+-------------
+Indicates that the noun refers to an object which is nearby or which is the
+topic of the conversation, e.g. {nuHvam} <this weapon (near me as I speak);>
+{yuQvam} <this planet (that we have been talking about).>
+
+{-vetlh} <that>
+---------------
+Indicates that the noun refers to an object which is not nearby or which is
+being brought up again as topic of the conversation, e.g. {nuHvetlh} <that
+weapon (over there);> {yuQvetlh} <that planet (as opposed to the one we were
+just talking about).>
+
+
+5. Syntactic Markers [TKD 3.3.5]
+================================
+
+{-Daq} <locative>
+-----------------
+This corresponds to English prepositions such as: <at, to, in, on,> depending
+on context, e.g. {juHDaq jIH} <I'm at home;> {meHDaq yIqet} <Run to the
+bridge!> It is not used in the abstract sense of <in English>. Some nouns never
+take this suffix (notably {naDev} <hereabouts;> {pa'} <thereabouts;> {Dat}
+<everywhere>). {pa'} can mean both <room> and <thereabouts> but is distinct in
+use, e.g. {pa' yIjaH} <Go over there!> {pa'Daq yIjaH} <Go to the room!> Some
+verbs include locative notions, and take a place as object rather than
+locative, e.g. {Duj ghoStaH} <It is approaching the ship.>
+
+{-vo'} <from>
+-------------
+Similar to {-Daq} but used only for actions directed away from a place, e.g.
+{pa'vo' yIjaH} <Leave the room!> This suffix cannot be used in the abstract
+sense of <from the past.>
+
+{-mo'} <due to, because of>
+---------------------------
+E.g. {HIqmo' bI'uH} <You have a hangover because of the alcohol.> Note that
+there is also a verb suffix {-mo'} with the same meaning.
+
+{-vaD} <for, intended for>
+--------------------------
+Indicates the indirect object, or beneficiary of the action. The indirect
+object precedes the object, e.g. {chaHvaD Soj qem yaS} <The officer brings them
+food;> {Qu'vaD lI' De'vam} <This information is useful for the mission.> [TKDa
+6.8]
+
+{-'e'} <topic>
+--------------
+Emphasizes that the noun it is attached to is the topic of the sentence. Is
+also used to mark the head noun of a relative clause (see verb suffix {-bogh}
+<which> above). If the object of a sentence is marked with {-'e'} adverbials
+may come after the object instead at the beginning of the sentence. [TKDa 6.7]
+
+[[end:suffixguide]]
+
+[eof]

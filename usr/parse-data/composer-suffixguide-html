@@ -1,0 +1,119 @@
+#!/usr/bin/perl
+
+use warnings;
+use strict;
+use feature ":5.10";
+
+my $WIDTH = 79;
+my $PAGE_HEAD = <<"EOF";
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML><HEAD><TITLE>Klingon Pocket Dictionary: Suffix Guide.</TITLE></HEAD>
+<BODY VLINK="#777777" ALINK="#AAAAAA" LINK="#444444" TEXT="#000000" BGCOLOR="#FFFFFF">
+
+
+<TABLE BORDER=0 CELLPADDING=1 CELLSPACING=0 WIDTH="100%">
+<TR><TD VALIGN=TOP>
+
+
+<!-- ==================== Title. ==================== -->
+<center>
+<a href="../"><img src="pic/title.gif" width="400" height="166" alt="tlhIngan Hol mu'ghom mach" border=0></a>
+<h1>Klingon Pocket Dictionary: Suffix Guide</h1>
+<p>
+  <table align=center bgcolor="#BBBBBB" cellpadding=5>
+    <tr>
+      <td align=center><b>The last pages of text from the book.</b></td>
+    </tr>
+  </table> 
+</center>
+EOF
+my $PAGE_FOOT = <<"EOF";
+
+
+
+
+
+<!-- ==================== Copyright ==================== -->
+<P><CENTER><TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0>
+  <TR>
+    <TD VALIGN=BOTTOM COLSPAN=3><HR NOSHADE></TD>
+  </TR>
+  <TR>
+    <TD>         </TD>
+    <TD ALIGN=CENTER><B>©1998-2002, Copyright 
+      <A HREF="mailto:zrajm@klingonska.org">Zrajm C Akfohg</A>, 
+      <A HREF="http://www.klingonska.org/">Klingonska Akademien</A>, Uppsala.</B></TD>
+    <TD>         </TD>
+  </TR>
+  <TR>
+    <TD VALIGN=TOP COLSPAN=3><HR NOSHADE></TD>
+  </TR>
+</TABLE>
+
+
+<!-- ================== Feedback Form ================== -->
+<!-- [2007-07-15] Below stuff disabled in move to ManuFrog -->
+<!-- (remove spaces before "#" to re-enable) -->
+<!-- #include virtual="/feedback.cgi"
+--><!-- #if expr="!$X_NOLOG"
+  --><!-- #include virtual="/.log.cgi"
+--><!-- #endif -->
+</CENTER>
+</BODY>
+</HTML>
+
+</TD>
+
+<!-- ==================== Navigation flaps ==================== -->
+<TD VALIGN=TOP><TABLE CELLSPACING=2 CELLPADDING=0>
+  <TR><TD><A HREF="./"               ><IMG
+    SRC="pic/about.gif"   WIDTH=21 HEIGHT=65  ALT="About"            BORDER=2></A></TD>
+  </TR><TR><TD><A HREF="intro.html"  ><IMG
+    SRC="pic/intro.gif"   WIDTH=21 HEIGHT=124 ALT="Introduction"     BORDER=2></A></TD>
+  </TR><TR><TD><A HREF="lexicon.cgi"><IMG
+    SRC="pic/lexicon.gif" WIDTH=21 HEIGHT=84  ALT="Lexicon"          BORDER=2></A></TD>
+  </TR><TR><TD                       ><IMG
+    SRC="pic/suffix.gif"  WIDTH=21 HEIGHT=128 ALT="Suffix Guide"     BORDER=0></TD>
+  </TR><TR><TD><A HREF="tables.html" ><IMG
+    SRC="pic/tables.gif"  WIDTH=21 HEIGHT=180 ALT="Reference Tables" BORDER=2></A></TD>
+  </TR>
+</TABLE></TD></TR></TABLE>
+</BODY></HTML>
+EOF
+
+{
+    blockquote      => sub { "<blockquote>" . shift() . "</blockquote>\n\n" },
+    bulletlist      => sub { "<ul>" . shift() . "</ul>\n\n" },
+    bulletlist_item => sub { "<li>" . shift() . "</li>\n" },
+    code            => sub { "<code>" . shift() . "</code>" },
+    doublequote     => sub { "&ldquo;" . shift() . "&rdquo;" },
+    emdash          => sub { "&mdash;" },
+    emphasis        => sub { "<em>" . shift() . "</em>" },
+    endash          => sub { "&ndash;" },
+    head1           => sub { wrap("<h1>" . shift() . "</h1>", $WIDTH) . "\n\n" },
+    head2           => sub { wrap("<h2>" . shift() . "</h2>", $WIDTH) . "\n\n" },
+    head3           => sub { wrap("<h3>" . shift() . "</h3>", $WIDTH) . "\n\n" },
+    head4           => sub { wrap("<h4>" . shift() . "</h4>", $WIDTH) . "\n\n" },
+    head5           => sub { wrap("<h5>" . shift() . "</h5>", $WIDTH) . "\n\n" },
+    head6           => sub { wrap("<h6>" . shift() . "</h6>", $WIDTH) . "\n\n" },
+    hr              => sub { "<hr>\n\n" },
+    html            => sub { shift() . "\n\n" },
+    numberlist      => sub { "<ol>" . shift() . "</ol>\n\n" },
+    numberlist_item => sub { "<li>" . shift() . "</li>\n\n" },
+    paragraph       => sub { wrap("<p>" . shift() . "</p>", $WIDTH) . "\n\n" },
+    plain           => sub { use HTML::Entities; encode_entities(shift(), "<>&") },
+    root            => sub { $PAGE_HEAD . shift() . $PAGE_FOOT },
+    strong          => sub { "<strong>" . shift() . "</strong>" },
+    verbatim        => sub { "<pre>" . shift() . "</pre>\n\n" },
+
+    # KA-specific
+    english         => sub { "<em class=\"en\">" . shift() . "</em>" },
+    klingon         => sub { "<strong class=\"tlh\">" . regex(
+        klinhyphenate(shift(), "&shy;"),
+        qr/'/,
+        "&rsquo;"
+    ) . "</strong>" },
+    reference       => sub { "<small class=\"ref\">[" . shift() . "]</small>" },
+}
+
+#[eof]

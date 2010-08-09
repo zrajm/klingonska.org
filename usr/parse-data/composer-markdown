@@ -1,0 +1,55 @@
+#!/usr/bin/perl
+
+use warnings;
+use strict;
+use feature ":5.10";
+
+my $WIDTH = 79;
+{
+    blockquote      => sub { indent(wrap(shift(), $WIDTH-2), "> ") . "\n"; },
+    bulletlist      => sub { shift() . "\n\n" },
+    bulletlist_item => sub { indent(wrap(shift(), $WIDTH-4), "  * ", "    ") . "\n" },
+    code            => sub { "`" . shift() . "`" },
+    doublequote     => sub { '"' . shift() . '"' },
+    emdash          => sub { "---" },
+    emphasis        => sub { "*" . shift() . "*" },
+    endash          => sub { "--" },
+    head1           => sub { "\n" . underline(shift(), "=") . "\n\n" },
+    head2           => sub { underline(shift(), "-") . "\n" },
+    head3           => sub { "### " . shift() . " ###\n\n" },
+    head4           => sub { "#### " . shift() . " ####\n\n" },
+    head5           => sub { "##### " . shift() . " #####\n\n" },
+    head6           => sub { "###### " . shift() . " ######\n\n" },
+    hr              => sub { center("* * *", $WIDTH) . "\n\n" },
+    html            => sub { shift() . "\n\n" },
+    numberlist      => sub { shift() . "\n\n" },
+    numberlist_item => sub { indent(wrap(shift(), $WIDTH-4), "    ", " 1. ") },
+    paragraph       => sub { wrap(shift(), $WIDTH) . "\n\n" },
+    plain           => sub { shift() },
+    root            => sub { my $_ = shift(); s{\n\z}{}; s{\A\n+}{}; $_ },
+    strong          => sub { "**" . shift() . "**" },
+    verbatim        => sub { indent(shift(), "    ") . "\n\n" },
+
+    # KA-specific
+    english         => sub { "<" . shift() . ">" },
+    klingon         => sub { "{" . shift() . "}" },
+    reference       => sub { "[" . shift() . "]" },
+    suffix_guide    => sub { my $_ = shift(); s{\n\z}{}; s{\A\n+}{};
+                             "[[start:suffixguide]]\n\n" . $_ .
+                                 "\n[[end:suffixguide]]\n\n" },
+    sg_head1        => sub { "\n" . underline(shift(), "=") . "\n\n" },
+    sg_head2        => sub { underline(shift(), "-") . "\n" },
+    sg_head3        => sub { underline(shift(), "-") . "\n" },
+    sg_paragraph    => sub { wrap(shift(), $WIDTH) . "\n\n" },
+
+        sg_head1_type      => sub { shift() . ". " },
+        sg_head1_text      => sub { shift() },
+        sg_head1_reference => sub { indent(shift(), " ") },
+
+        sg_head2_klingon   => sub { shift() },
+        sg_head2_english   => sub { indent(shift(), " ") },
+        sg_head2_reference => sub { indent(shift(), " ") },
+
+}
+#[eof]
+

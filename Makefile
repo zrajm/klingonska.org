@@ -1,10 +1,11 @@
+# -*- makefile -*-
 #
 # Note: SSI HCOOP only works if the included page is *not* a script.
 #
 
 # list of HTML files to generate
 generated_html_files = $(patsubst %.txt, %.html, \
-	$(wildcard klo/*.txt)                    \
+	$(wildcard klo/*.txt dict/*.txt)         \
 	akademien/logo/index.txt                 \
 	canon/index.txt                          \
 )
@@ -26,24 +27,34 @@ rsync_dep = $(shell [ -e $(rsync) ] && \
     find -name .git -prune -o -type f -newer $(rsync) ! -name .rsync )
 
 
+## all - alias for "html"
 .PHONY: all
 all: html
 
 
+## html - build HTML files (which files are build is given in Makefile)
 .PHONY: html
 html: $(generated_html_files)
 
+dict/%.html: dict/%.txt
+	@echo "Processing '$<' -> '$@'";                \
+	usr/bin/parse                                   \
+	     --input=usr/parse-data/parser-markdown-ka  \
+	    --output=usr/parse-data/composer-html-ka2   \
+	    <"$<" >"$@";                                \
+	    [ -s "$@" ] || rm "$@"
 
 # FIXME: should depend on all includes required by the HMTL file
 %.html: %.txt
 	@rm -f "$@"
 	@usr/bin/markdown2html "$?" --output="%.html"
 
+## clean - remove generated HTML files
 .PHONY: clean
 clean:
 	@rm -vf $(generated_html_files)
 
-
+## install - copy webpage to HCoop
 .PHONY: install
 install: all $(rsync)
 
@@ -56,14 +67,14 @@ $(rsync): $(rsync_dep)
 	@touch $(rsync)
 	@ssh $(ssh_host) "fsr setacl . zrajm.daemon rl" &
 
-
+## help - Display this information
 .PHONY: help
 help:
-	@echo ""
-	@echo "FIXME: Not yet implemented"
-	@echo ""
+	@echo "Available targets:"
+	@cat $(CURDIR)/Makefile | awk '/^## [^ ]/ { sub(/^## */, "  "); print }' | sort
+	@echo
 
-
+## test - some sort of test of something
 .SECONDEXPANSION:
 good = $(patsubst %.txt, %.good, $(wildcard usr/test/*.txt))
 test: $(good)
