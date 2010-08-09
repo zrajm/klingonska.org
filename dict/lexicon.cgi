@@ -66,28 +66,31 @@ our %fieldnames = (
 ###                                                                           ##
 ################################################################################
 
-
 sub print_buffer($@) {
     my $matches = shift;
     foreach (@_) {                             # output result (in this post)
-        my ($field, $cont) = m/^([^:]+):\s+(.*)/; # field name & cont
-        $cont =~ s/([<>«»])//g;                # remove <>«»
-        $cont =~ s#([{}])#($1 eq "{"?"<b>":"</b>")#ge;  # boldify
-        $cont =~ s#~(.*?)~#<i>$1</i>#g;        # apply italics
-        $cont =~ s#(.*)¿\?(.*)#$1$2 (uncertain translation)#g; #
-        if ($field eq "tlh") {                 #
-            print "  <tr><td colspan=\"3\"><hr noshade></td></tr>";
-            print "  <tr>\n";                  #
-            print "    <td>$matches. </td>\n"; #
-            print "  <th align=\"left\">$fieldnames{$field}: </th>\n";
-            print "<td>$cont</td>\n";          #
-        } elsif ($field ne "data") {           #
-            print "<tr valign=\"top\">\n";         #
-            print "    <td></td>\n";           #
-            print "  <th align=\"left\">$fieldnames{$field}: </th>\n";
-            print "<td>$cont</td>\n";          #
-        }                                      #
-    }                                          #
+        my ($key, $value) = m/^([^:]+):\s+(.*)/; # field name & cont
+        for ($value) {
+            s/([<>«»])//g;                # remove <>«»
+            s#([{}])# $1 eq "{" ? "<strong lang=\"tlh\">" : "</strong>" #ge;  # boldify
+            s#~(.*?)~#<em>$1</em>#g;      # apply italics
+            s#(.*)¿\?(.*)#$1$2 (uncertain translation)#g;
+        }
+        if ($key eq "tlh") {
+            print '  <tr><td colspan="3"><hr /></td></tr>' . "\n";
+            print '  <tr>'."\n";
+            print "    <th>$matches. </th>\n";
+            print '    <th class="left">' . "$fieldnames{$key}: </th>\n";
+            print "    <td>$value</td>\n";
+            print "  </tr>\n";
+        } elsif ($key ne "data") {
+            print "  <tr class=\"top\">\n";
+            print "    <td></td>\n";
+            print '    <th class="left">' . "$fieldnames{$key}: </th>\n";
+            print "    <td>$value</td>\n";
+            print "  </tr>\n";
+        }
+    }
 }
 
 sub in_buffer($@) {
@@ -101,52 +104,75 @@ sub in_buffer($@) {
 
 sub html_head {
 return <<"EOF";
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
-<html><head><title>Klingon Pocket Dictionary: Lexicon.</title></head>
-<body vlink="#777777" alink="#aaaaaa" link="#444444" text="#000000" bgcolor="#ffffff">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Klingon Pocket Dictionary &ndash; Lexicon.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="geo.region" content="SE-C" />
+<meta name="geo.placename" content="Europe, Sweden, Uppsala, Kåbo" />
+<meta name="geo.position" content="59.845658;17.630797" />
+<link rel="stylesheet" type="text/css" href="../includes/page.css" />
+<link rel="stylesheet" type="text/css" href="../includes/dict.css" />
+<link rel="stylesheet" type="text/css" href="../includes/dict-layouttable.css" />
+</head>
+<body>
 
-<table border="0" cellpadding="1" cellspacing="0" width="100%">
-<tr><td valign="top">
+<div id="head">
+<table class="status">
+  <tr>
+    <td class="left"><a href="mailto:webmaster\@klingonska.org">webmaster\@klingonska.org</a></td>
+<!-- FIXME -->    <td class="center"><a href="http://test.zrajm.org/dict/lexicon.cgi">http://test.zrajm.org/dict/lexicon.cgi</a></td>
+<!-- FIXME -->    <td class="right">Updated: 2009&#8209;10&#8209;18, 20:17</td>
+  </tr>
+</table>
 
-<!-- ==================== Title. ==================== -->
-<center>
-<a href="../"><img src="pic/title.gif" width="400" height="166" alt="tlhIngan Hol mu'ghom mach" border="0"></a>
+<table class="navigation">
+  <tr>
+    <td><a href="./">About</a></td>
+    <td><a href="intro.html">Introduction</a></td>
+    <td><strong>Lexicon</strong></td>
+    <td><a href="suffix.html">Suffix Guide</a></td>
+    <td><a href="tables.html">Reference Tables</a></td>
+  </tr>
+</table>
+
+<a href=".."><img src="pic/title.gif" width="400" height="166" alt="tlhIngan Hol mu&rsquo;ghom mach" /></a>
+
 <h1>Klingon Pocket Dictionary: Lexicon</h1>
-<p>
-  <table align="center" bgcolor="#BBBBBB" cellpadding="5">
-    <tr>
-      <td align="center"><b>Some info and a searchable version of the pocket
-        dictionary database.</b></td>
-    </tr>
-  </table> 
-</center>
 
+<p class="note">Some info + searchable version of the pocket dictionary
+  database.</p>
+</div>
+
+<div id="main">
 EOF
 }
 
 sub html_form {
     (my $script_name = $0) =~ s#^.*/##;
     return
-	start_form({-method=>"get", -action=>$script_name}),
-	table({-border=>0, -cellpadding=>0, -cellspacing=>0, -align=>"center"},
-	      Tr({-align=>"center"},[
-		     td([
-			 textfield("query", "", 30) . " " . submit("Search"),
-		     ]),
-		     td([
-			 small(
-			     b("Search in:"),
-			     radio_group(
-				 -name    => "field",
-				 -values  => [ "tlh", "en", "sv", "all"],
-				 -default => "tlh",
-				 -labels  => {
-				     tlh => "Klingon",
-				     en  => "English",
-				     sv  => "Swedish",
-				     all => "All data",
-		         }))
-		     ]),
+        start_form({ -method => "get", -action => $script_name }),
+        table({ -class => "layout" },
+            Tr({ -class => "center" },[
+                td([
+                    textfield("query", "", 30) . " " . submit("Search"),
+                ]),
+                td([
+                    small(
+                        b("Search in:"),
+                        radio_group(
+                            -name    => "field",
+                            -values  => [ "tlh", "en", "sv", "all"],
+                            -default => "tlh",
+                            -labels  => {
+                                tlh => "Klingon",
+                                en  => "English",
+                                sv  => "Swedish",
+                                all => "All data",
+                    }))
+                ]),
         ])),
         end_form();
 }
@@ -154,43 +180,23 @@ sub html_form {
 
 sub html_foot {
 return <<"EOF";
+</div>
 
-<!-- ==================== Copyright ==================== -->
-<p><center><table cellpadding="0" cellspacing="0" border="0">
-  <tr>
-    <td valign="bottom" colspan="3"><hr noshade></td>
-  </tr>
-  <tr>
-    <td>         </td>
-    <td align="center"><b>©1998&ndash;2009, Copyright 
-      <a href="mailto:mp\@klingonska.org">Markus Persson</a> & 
-      <a href="mailto:zrajm\@klingonska.org">Zrajm C Akfohg</a>, 
-      <a href="http://www.klingonska.org/">Klingonska Akademien</a>, Uppsala.</b></td>
-    <td>         </td>
-  </tr>
-  <tr>
-    <td valign="top" colspan="3"><hr noshade></td>
-  </tr>
-</table>
-</center>
-
-</td>
-
-<!-- ==================== Navigation flaps ==================== -->
-<td valign="top"><table cellspacing="2" cellpadding="0">
-  <tr><td><a href="./"               ><img
-    src="pic/about.gif"   width="21" height="65"  alt="About"            border="2"></a></td>
-  </tr><tr><td><a href="intro.html"  ><img
-    src="pic/intro.gif"   width="21" height="124" alt="Introduction"     border="2"></a></td>
-  </tr><tr><td                       ><img
-    src="pic/lexicon.gif" width="21" height="84"  alt="Lexicon"          border="0"></td>
-  </tr><tr><td><a href="suffix.html"><img
-    src="pic/suffix.gif"  width="21" height="128" alt="Suffix Guide"     border="2"></a></td>
-  </tr><tr><td><a href="tables.html" ><img
-    src="pic/tables.gif"  width="21" height="180" alt="Reference Tables" border="2"></a></td>
-  </tr>
-</table></td></tr></table>
-</body></html>
+<div id="foot">
+<p class="copyright">©1998&ndash;2010, Copyright <!-- FIXME autogenerate dates -->
+<span class="author"><a href="mailto:zrajm\@klingonska.org">Zrajm C Akfohg</a></span>,
+<a href="http://klingonska.org/">Klingonska Akademien</a>, Uppsala.</p>
+<p class="validator">
+  Validate:
+  <a href="http://validator.w3.org/check?uri=http://test.zrajm.org/dict/lexicon.cgi">XHTML</a>,
+  <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://test.zrajm.org/dict/lexicon.cgi&amp;profile=css3">CSS3</a>,
+  <a href="http://validator.w3.org/checklink?uri=http://test.zrajm.org/dict/lexicon.cgi">links</a>.
+  License:
+  <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">CC BY&ndash;SA</a>.&nbsp;
+</p>
+</div>
+</body>
+</html>
 EOF
 }
 
@@ -226,11 +232,7 @@ my $query       = quotemeta $form{query};      # quote metachars
 $form{field} = "tlh" if $form{field} eq "";
 
 print html_head();
-print "\n<p><center>\n";
 print html_form();
-print "</center>\n\n";
-
-
 
 for ($form{field}) {
     $query="^tlh:.*?$query",    last if /^tlh$/;  # klingon search
@@ -242,9 +244,9 @@ for ($form{field}) {
 if ($form{query} ne "") {
     my @buf  = ();                             # clear buffer
     my $matches = 0;                           # clear no of matches
-    print "<p><table align=\"center\" border=0 cellpadding=0 cellspacing=0>\n";
-    print "<tr><td colspan=3>You searched for »$form{query}« ";
-    print "in all $fieldnames{$form{field}} fields.";
+    print '<table class="layout">' . "\n";
+    print '<tr><td colspan="3">You searched for' . " »$form{query}« ";
+    print "in all $fieldnames{$form{field}} fields.</td></tr>\n";
     open DICT, "<:encoding(utf8)", "dict.zdb";
     while(<DICT>) {                            # skip past data file header
         last if $_ eq "=== start-of-word-list ===\n";
@@ -275,36 +277,37 @@ if ($form{query} ne "") {
             push @buf, $_;                     #   put a new line to buffer
         }                                      #
     }                                          #
+    # summary at end of found page
     if ($matches == 0) {
-	print "<tr><td colspan=3><hr noshade></td></tr>\n";
-	print "<tr><td colspan=3>There were no matches.</td></tr>\n";
+        print "  <tr><td colspan=\"3\"><hr /></td></tr>\n";
+        print "  <tr><td colspan=\"3\">There were no matches.</td></tr>\n";
     }
     close DICT;
-    print "<tr><td colspan=3><hr noshade></td></tr>";
-    print "<tr><td colspan=3>$matches match".($matches==1?"":"es").".</td></tr>";
+    print "  <tr><td colspan=\"3\"><hr /></td></tr>\n";
+    print "  <tr><td colspan=\"3\">$matches match" . ($matches==1 ? "" : "es") . ".</td></tr>\n";
     print "</table>\n";
 } else {
 print <<"EOF";
 
-<p align="justify">The book has both a Klingon&ndash;English, and an English&ndash;Klingon
+<p>The book has both a Klingon&ndash;English, and an English&ndash;Klingon
 wordlist. These wordlists are automatically extracted from a simple database,
 which is very easy to update. This database has been continuously updated and
-improved since it was created in late 1997.
+improved since it was created in late 1997.</p>
 
-<br>     The form above gives you access to a very crude search engine for
-searching the database material. In the end I hope to provide the same search
+<p>The form above gives you access to a very crude search engine for searching
+the database material. In the end I hope to provide the same search
 functionality here as in the <i><a href="../canon/">Archive of Okrandian
-Canon</a></i> but for the moment, this will have to do.
+Canon</a></i> but for the moment, this will have to do.</p>
 
-<br>     <b>Instructions:</b> You may type any word or part of a word to search
-for, the engine is totally ignorant about to different kinds of characters, and
-treat spaces like any other character. The engine is case insensetive, except if
-you make searches using »Klingon«. Note, however, that searches made using »All
-data« are always case insensetive, even when it comes to words in Klingon.
+<p><strong>Instructions:</strong> You may type any word or part of a word to
+search for, the engine is totally ignorant about to different kinds of
+characters, and treat spaces like any other character. The engine is case
+insensetive, except if you make searches using »Klingon«. Note, however, that
+searches made using »All data« are always case insensetive, even when it comes
+to words in Klingon.</p>
 
 EOF
 }
-
 
 print html_foot();
 

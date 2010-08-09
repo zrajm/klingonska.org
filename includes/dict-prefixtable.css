@@ -1,0 +1,24 @@
+
+table.prefix {
+    border: 4px solid black;
+    border-spacing: 0em;
+    border-collapse: collapse;
+}
+
+table.prefix td {
+    border: 2px solid black;
+    text-align: center;
+    padding: .25em .25em;
+    font-size: 120%;
+    font-family: sans-serif;
+}
+
+table.prefix td.na {
+    background-color: gray;
+    color: gray;
+}
+
+table.prefix h2 {
+    margin: .25em;
+}
+

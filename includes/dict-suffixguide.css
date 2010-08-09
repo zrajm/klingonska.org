@@ -1,0 +1,70 @@
+/* Suffix guide: Border around table */
+table.suffixguide {
+    /* border: 2px solid black; */
+    border: 0px;
+    border-collapse: collapse;
+    margin: 0em 2em;
+    margin-left: 1em;
+}
+
+/* Suffix guide: No margins around paragraphs */
+table.suffixguide p {
+    margin: 0em;
+    text-align: justify;
+    padding-right: 3em;
+}
+
+/* Suffix guide: Border above headlines in table */
+table.suffixguide tr.head1 td {
+    /* border-top: 2px solid black; */
+    padding-top: .75em;
+    padding-bottom: .5em;
+}
+
+/* Suffix guide: Put some extra padding above subheadings */
+table.suffixguide tr.head3 td {
+    padding-top: .5em;
+    padding-bottom: .25em;
+}
+
+/* Suffix guide: <h3> should be inline element */
+/* (this way <br> does not add a blank line beneath it) */
+table.suffixguide tr h3 {
+    font-family: sans-serif;
+    margin: 0em;
+    display: block;
+}
+
+/* Suffix guide: Right align references in headline */
+table.suffixguide tr.head1 small.ref {
+    float: right;
+    font-size: 75%;
+}
+
+/* Suffix guide: Settings for table cells with only klingon suffix, e.g. {-moH} */
+/* (should not be wordwrapped, or hypen ends up on a line of its own,           */
+/* 'valign="top"' is used in HTML to display properly in text browser)          */
+table.suffixguide td[valign="top"] {
+    font-family: sans-serif;
+    padding-left: 2em; /* = .25em + "width" + 2nd value of "padding" below */
+}
+
+/* Suffix guide: General settings for all table cells*/
+table.suffixguide td {
+    vertical-align: top;
+    border: 0px solid blue;
+    padding: .1em .5em; /* add 2nd of these to "padding-left" above */
+}
+
+/* Suffix guide: Make suffix number specific width in headline */
+table.suffixguide tr.head1 span.type {
+    width: 1.25em;       /* add this to "padding-left" above */
+    display: inline-block;
+}
+
+table.suffixguide td > em.translation:first-child,
+table.suffixguide td > em.translation:first-child + small.ref {
+    font-family: sans-serif;
+}
+
+/* eof */

@@ -22,33 +22,65 @@ a:active  { color: #aaaaaa; } /* selected link -- button pressed on link */
     text-align: center;
 }
 
-.author {
-    font-style: italic;
-}
+.author { font-style: italic; }
 
-td.left   { text-align: left;   }
-td.right  { text-align: right;  }
-td.center { text-align: center; }
+.sans { font-family: sans-serif; }
+
+th.left,   td.left   { text-align: left;   }
+th.right,  td.right  { text-align: right;  }
+th.center, td.center { text-align: center; }
+th.top,    td.top    { vertical-align: top;    }
+th.middle, td.middle { vertical-align: middle; }
+th.bottom, td.bottom { vertical-align: bottom; }
 
 .comment {
     background-color: #aaaaaa;
+}
+
+h1, h2, h3, h4 {
+    font-family: sans-serif;
 }
 
 h1 {
     text-align: center;
 }
 
-# paragraphs following another paragraph should be indented and with no blank line
-# (unless the <p> has an "align=center" in it)
-#main p + p[align="center"] {
+/* Paragraphs immediately following a paragraph of class "center" or  */
+/* "right", or paragraphs themselves of those classes should never be */
+/* indented, but reparated from above pagragraph by a blank line.     */
+/* Explicitly specifying class "noindent" also forces this behaviour. */
+#main p + p[align="center"],
+#main p.center,
+#main p.center + p,
+#main p.right,
+#main p.right  + p,
+#main p.noindent {
     margin-top: 1em;
     text-indent: 0em;
 }
 
-# paragraphs following another paragraph should be indented and with no blank line
-#main p + p {
+/* Paragraphs immediately following another paragraph should be       */
+/* indented (unless overridden by above rule). Explicitly specifying  */
+/* class "indent" also forces this behaviour.                         */
+#main p + p,
+#main p.indent {
     margin-top: -1em;
     text-indent: 1.5em;
 }
+
+/* Classes "left", "right", "center" and "justify" do the obvious      */
+/* thing. No class at all defaults to "justify". "blank" adds an extra */
+/* blank line above. */
+#main p,
+#main p.justify { text-align: justify; }
+#main p.center  { text-align: center;  }
+#main p.right   { text-align: right;   }
+#main p.left    { text-align: left;    }
+#main p + p.blank,
+#main .blank    { margin-top: 2em;     }
+
+/* Color is intentionally not specified, thus, when used on a linked */
+/* image the color will respect hover yadda yadda...                 */
+#main .border { border: 2px solid; }
 
 /* eof */

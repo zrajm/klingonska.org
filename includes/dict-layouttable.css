@@ -1,0 +1,31 @@
+table.layout h2 {
+    margin: .5em 0em .25em 0em;
+}
+
+/* center outermost layout table */
+table.layout {
+    margin: 1em auto;
+    border-collapse: collapse;
+}
+
+/* no margins for layout tables in layout tables */
+table.layout table.layout { margin: 0em; }
+
+table.layout tr { vertical-align: top; }
+table.layout td { padding: 0em; }
+
+td.width-single { width: 4.25em; }
+td.width-double { width: 8.5em;  }
+
+table.layout table.no-left  { border-left:  0em; }
+table.layout table.no-right { border-right: 0em; }
+
+table.layout tr.center td {
+    text-align: center;
+}
+
+table.layout tr.bottom td { vertical-align: bottom; }
+table.layout tr.middle td { vertical-align: middle; }
+table.layout tr.top    td { vertical-align: top;    }
+
+/* eof */
