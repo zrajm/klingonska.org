@@ -104,7 +104,7 @@ push @sha1,   qw( TeSTY+sWi/F2HhY+UIyZkwV02sg%
 
 
 # table of sources
-my @source_abbr = qw/tkd tkw kgt ck pk bop sarek ftg/; # listed in order
+my @source_abbr = qw/tkd tkw kgt ck pk bop sarek ftg zdb/; # listed in order
 my %source_label = (
     tkd   => "1992 - The Klingon Dictionary (2nd ed.)",
     tkw   => "1996 - The Klingon Way",
@@ -114,6 +114,7 @@ my %source_label = (
     bop   => "1998 - Bird of Prey Poster",
     sarek => "1995 - Sarek (Partial Transcript)",
     ftg   => "1997 - Federation Travel Guide (Partial Transcript)",
+    zdb   => "2010 - Klingonska Akademien's Word Database",
 );
 my %source_file = (
     tkd   => "1992-01-01-tkd.txt",
@@ -124,6 +125,7 @@ my %source_file = (
     bop   => "1998-11-01-bop.txt",
     sarek => "1995-02-01-sarek.txt",
     ftg   => "1997-07-01-ftg.txt",
+    zdb   => "../dict/dict.zdb",
 );
 
 
@@ -206,7 +208,7 @@ sub page_header {
 </table>
 
 <!-- ==================== Titel ==================== -->
-<p align=center><a href="$PREV"><img src="/pic/ka.gif" width="600" height="176" alt="Klingonska Akademien" border=0 vspace=5></a>
+<p align=center><a href=".."><img src="/pic/ka.gif" width="600" height="176" alt="Klingonska Akademien" border=0 vspace=5></a>
 
 <h1 align=center>Klingon Data Download.</h1>
 
