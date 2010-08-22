@@ -1,17 +1,104 @@
 #+STARTUP: overview hidestars -*- org -*-
 
 * Transfer test.zrajm.org -> klingonska.org
+** DOING Figure out how to transfer control of klingonska.org Manufrog -> HCoop
+   zrajm.org har loopia.se som registrar
+   klingonska.org har spacepro.net som registrar
+
+*** DOING Request that SpacePro changes to HCoop's DNS
+    http://wdrp.name-services.com/whois.asp?key=771416DB433
+    Spacepro:
+    email: registry@spacepro.net
+    phone: +46 (0)8-545 75 00
+
+    Enligt deras webbsida: Brightness Reef AB | Östgötagatan 100 | 116 64 Stockholm | 08-556 00 310
+
+** DOING Change registrar from SpacePro to Loopia
+*** DOING What does Loopia need in order to transfer klingonska.org there?
+    EPP/auth-code: (message sent asking this to support@spacepro.net)
+    Domain Name: klingonska.org
+    Loopia customer number: FA07-15-07-06 (verified)
+    SpacePro customer number(?):
+    Send to: registry@loopia.se.
+
+    "En domänflytt kan ta mellan 5-18 dagar och när flytten är klar så kommer
+    du att motta en årsfaktura. Ditt domännamn förnyas i samband med flytten."
+
+    Om du vill lägga till domänen i ett befintligt konto gör du detta genom att
+    logga in och sedan använda menyvalet "Domän och webb" -> "Lägg till
+    domännamn".
+
+    Kontrollera även att domännamnet är upplåst för överföring samt att den
+    administrativa kontakten är aktuell.
+
+    Överföringen av domännamnet beställer du sedan via ditt konto och menyvalet
+    "Domän och webb" -> "Transfer av domännamn".
+    [https://customerzone.loopia.se/domains/transfer]
+
+    Ref: https://mail.google.com/mail/?ui=2&shva=1#inbox/12a85dafd3a92ddf
+
+*** TODO Ta reda pa DNS-uppgifter som behovs
+*** TODO After move: verify that klingonska.org and zrajm.org have same whois settings
+    Compare http://whois.webhosting.info/zrajm.org and
+    http://whois.webhosting.info/klingonska.org
+** DOING Create mailing lists
+*** DOING Create 2040@klingonska.org on HCoop
+**** DONE Request new mailing list at https://members.hcoop.net/portal/list
+     CLOSED: [2010-08-18 Wed 19:33]
+*** DOING Create klingonska@klingonska.org on HCoop
+**** DONE Request new mailing list at https://members.hcoop.net/portal/list
+     CLOSED: [2010-08-18 Wed 19:33]
+*** DONE List current mailing lists on manufrog
+    CLOSED: [2010-08-17 Tue 20:54]
+**** 2040@klingonska.org
+     http://mail.thaning.se/mailman/admin/2040_klingonska.org
+**** klingonska@klingonska.org
+     http://mail.thaning.se/mailman/admin/klingonska_klingonska.org/members/list
+*** DONE List mailman settings for 2040@klingonska.org on Manufrog
+    CLOSED: [2010-08-18 Wed 17:58]
+*** DONE List mailman settings for klingonska@klingonska.org on Manufrog
+    CLOSED: [2010-08-18 Wed 17:58]
+
 ** TODO Eliminate dead links
 *** Figure out a way to fetch page and check links
 *** DONE canon/ has a whole bunch
     CLOSED: [2010-08-09 Mon 03:02]
     Quite a lot of trascripts have changed names.
-** TODO Working mail aliases
-*** TODO List the current mail aliases on manufrog
-*** TODO How to config using domtool?
-** TODO Working mailing lists
-*** TODO List current mailing lists on manufrog
-*** TODO How to config on hcoop?
+** DONE Create mail aliases
+   CLOSED: [2010-08-17 Tue 20:51]
+   * ->           zrajmc@gmail.com
+   adam ->        adam.thorp@swipnet.se
+   darnia ->      marie.engfors@gmail.com
+   joacim ->      jojo8043@student.tdb.uu.se
+   lrc ->         kalle.brisland@lillsjon.net
+   marie ->       marie.engfors@home.se
+   mp ->          mackampackam@gmail.com
+   newydd ->      newydd.maria@gmail.com
+   qanaq ->       mackampackam@gmail.com
+   sekreterare -> mackampackam@gmail.com
+   troi ->        daniel_troi@hotmail.com
+*** DONE List the current mail aliases on manufrog
+    CLOSED: [2010-08-17 Tue 20:48]
+*** DONE How to config using domtool?
+    CLOSED: [2010-08-17 Tue 20:49]
+    According to "domtool-admin describe zrajm.org" email is now configured on
+    zrajm.org, but I don't receive testmails to neither zrajm@zrajm.org nor
+    anyone@zrajm.org. Maybe it'll work in a day or so?
+
+    Mail sent to zrajm@klingonska.org (on manufrog) appears immediately in
+    gmail. /zrajm 2010-08-09
+*** DONE Added the following to ~/.domtool/zrajm.org
+    CLOSED: [2010-08-17 Tue 20:51]
+    emailAlias "adam"        "adam.thorp@swipnet.se";
+    emailAlias "darnia"      "marie.engfors@gmail.com";
+    emailAlias "joacim"      "jojo8043@student.tdb.uu.se";
+    emailAlias "lrc"         "kalle.brisland@lillsjon.net";
+    emailAlias "marie"       "marie.engfors@home.se";
+    emailAlias "mp"          "mackampackam@gmail.com";
+    emailAlias "newydd"      "newydd.maria@gmail.com";
+    emailAlias "qanaq"       "mackampackam@gmail.com";
+    emailAlias "sekreterare" "mackampackam@gmail.com";
+    emailAlias "troi"        "daniel_troi@hotmail.com";
 
 ** DONE Fetched current klingonska.org & installed that
    (= CGI's are not working)
@@ -31,6 +118,16 @@
 **** need new header/footer though
 
 * THEREAFTER
+** Migrate old 2040 mailinglist archives to hcoop
+   Requires mailinglist archive in mbox format.
+   http://wiki.hcoop.net/MemberManual/Email/MailingLists#MigratinganExistingList
+** Migrate old klingonska mailinglist archives to hcoop
+   Requires mailinglist archive in mbox format.
+   http://wiki.hcoop.net/MemberManual/Email/MailingLists#MigratinganExistingList
+** Remove mail redirects from zrajm.org when klingonska.org is working
+** Set up 2040 wiki again
+** Redirect test.zrajm.org -> test.klingonska.org
+** Redirect 2040.klingonska.org -> 2040.zrajm.org
 ** Automatic update of filedates listed in pages (using includes?)
 *** Restore file dates for all unchanged files
 ** Improved file structure
@@ -79,27 +176,35 @@
     <tr><td align=right valign=center><img src="/pic/dot.gif" width=15 height=14 alt="*" hspace=5></td>
 
 ** TODO "Archive of Okrandian Canon"
-*** "KCD 1" (to "KCD 6" at least)
-     qa'vaj has transcribed KCD, (subject "KCD" etc in my gmail) 
-**** "Klingon words from _Diplomatic Implausibility_ (DI)"
-     (found in email to tlhingan-hol with same subject)
-*** New transcripts should be added to article/table
+*** Search engine improvements
+**** Add Chrome integration (some sort of open protocol?)
 *** Typography in main article
 **** Should dashes in ISBN numbers be endash or hyphen sized?
      (Also make them non-line-breaking)
 **** Make ranges use non-line-breaking emdash
-*** Reference for {nIyma'}
-    http://mail.google.com/mail/#search/niyma'/11dcaa2b915a07df
-*** Reference for {pu'jIn}
-    http://mail.google.com/mail/?shva=1#search/jin+to%3Atlhingan-hol%40kli.org/125280bf1b4e53a6
+*** New transcripts should be added to article/table
+*** Stuff to add/transcribe
+**** Add "KCD 1" (to "KCD 6" at least)
+      qa'vaj has transcribed KCD, (subject "KCD" etc in my gmail) 
+**** "Klingon words from _Diplomatic Implausibility_ (DI)"
+     (found in email to tlhingan-hol with same subject)
+**** Reference for {nIyma'}
+     http://mail.google.com/mail/#search/niyma'/11dcaa2b915a07df
+**** Reference for {pu'jIn}
+     http://mail.google.com/mail/?shva=1#search/jin+to%3Atlhingan-hol%40kli.org/125280bf1b4e53a6
+**** ST5 transcript
+     http://mail.google.com/mail/#label/imported/12a129c1002403f8
+**** HolQeD 5:2 p.11 (article about {Hoch})
+     Mentioned in:
+     file:///home/zrajm/2010-07-08/teresh.tdonnelly.org/kliadd5.html
 *** Corrections for "canon/2003-06--holqed-12-2.txt"
 **** Transcript error: {'omeghqoq}
 **** Transcript error: "song o opera"
 **** Period after: "the warriors are sad"?
 **** Period after: "the warriors drink"?
 **** "one either {megh'an}" should be "once either {megh'an}"?
-*** ST5 transcript
-    http://mail.google.com/mail/#label/imported/12a129c1002403f8
+** TODO "The {pIqaD} Playground"
+*** should support unicode output
 ** TODO "pIqad, And How to Read It"
 *** add pIqaD style from cover of ghIlghameS
    https://mail.google.com/mail/?shva=1#search/skybox+piqad+cards/11b5909603f5df5c
@@ -113,6 +218,8 @@
 *** should contain a link to "The {pIqaD} Playground"
 *** links to wikipages for the various sounds?
 ** TODO "Klingon Pocket Dictionary"
+*** Search engine improvements
+**** Add Chrome integration (some sort of open protocol?)
 *** commit changes to git repos
 *** index.html
 **** DONE image captions should be same size as rest of text
@@ -159,6 +266,10 @@
 **** DONE verify CSS
      CLOSED: [2010-08-09 Mon 02:16]
 *** lexicon.cgi
+**** TODO move inline <style> CSS into separate file
+**** TODO implement "Advanced search"
+     A la http://www.google.se/advanced_search. Shows different fields, and
+     displays the current query. Mostly for helping inexperienced searchers.
 **** TODO typographical apostrophes, quotes and dashes
 **** DONE new header
      CLOSED: [2010-08-08 Sun 10:31]
@@ -207,6 +318,8 @@
 **** DONE verify CSS
      CLOSED: [2010-08-09 Mon 02:18]
 *** suffix.html
+**** TODO user choice of pictures of UTF8 IPA characters
+**** TODO user choice of pictures of UTF8 {pIqaD} characters
 **** TODO table cells should be ended properly (with </td> & </tr>)
 
      "head2" and "head3" followed by text should have </td></tr> inserted after
