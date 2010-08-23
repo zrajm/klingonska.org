@@ -65,7 +65,7 @@ $(rsync): $(rsync_dep)
 	@klist -t || kinit $(krb_name)
 	rsync -Pa $(rsync_options) . $(strip $(ssh_host)):$(webpage)
 	@touch $(rsync)
-	@ssh $(ssh_host) "fsr setacl . zrajm.daemon rl" &
+	@ssh $(ssh_host) "fsr setacl $(webpage) zrajm.daemon rl" &
 
 ## help - Display this information
 .PHONY: help
