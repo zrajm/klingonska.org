@@ -67,7 +67,7 @@ our %field = (
 );
 
 our @tips = (
-    "Example: <strong>def:HQ10:4</strong> lists all words first occuring in <strong lang=\"tlh\">HolQed</strong> 10:4.",
+    "Example: <strong>def:HQ10:4</strong> lists all words first occuring in <strong lang=\"tlh\">HolQed</strong> issue 10:4.",
     "Prefixes: <strong>tlh:</strong> = Klingon, <strong>en:</strong> = English, <strong>sv:</strong> = Swedish",
     "Prefixes: <strong>com:</strong> = comment, <strong>def:</strong> = defining source, " .
         "<strong>ref:</strong> = source",
@@ -147,12 +147,12 @@ sub split_query {
         if ($field eq "tlh") {
             my $w = "[\\w']";  # word character class
             # replace asterisks and spaces
-            for ($phrase) { s/\\\*/$w*/g; s/\s+/\s+/g; }
+            for ($phrase) { s/\\\*/$w*/g; s/\s+/\\s+/g; }
             $_ = qr/($field:.*)(?<!$w)($phrase)(?!$w)/;
         } else {
             my $w = "[\\w]";  # word character class
             # replace asterisks and spaces
-            for ($phrase) { s/\\\*/$w*/g; s/\s+/\s+/g; }
+            for ($phrase) { s/\\\*/$w*/g; s/\s+/\\s+/g; }
             $_ = qr/($field:.*)(?<!$w)($phrase)(?!$w)/i;
         }
     }
@@ -223,7 +223,7 @@ page</a>.</p>
 </table>
 
 <p>A search word that is not preceeded by a colon prefix will look through all
-data case-insensetivelly &ndash; even the Klingon data. Thus
+data case-insensitively &ndash; even the Klingon data. Thus
 <strong>hej</strong> will find the Klingon word for &ldquo;rob&rdquo;, while
 <strong>tlh:hej</strong> does case-sensetive search and find nothing at
 all.</p>
@@ -247,7 +247,7 @@ return <<"EOF";
 <link rel="stylesheet" type="text/css" href="../includes/dict-layouttable.css" />
 <style><!--
   .match {
-      background-color: #bbbbbb;
+    background-color: #bbbbbb;
   }
 --></style>
 </head>
@@ -276,8 +276,7 @@ return <<"EOF";
 
 <h1>Klingon Pocket Dictionary: Lexicon</h1>
 
-<p class="note">Some info + searchable version of the pocket dictionary
-  database.</p>
+<p class="note">Some info + searchable version of the pocket dictionary database.</p>
 </div>
 
 <div id="main">
@@ -291,12 +290,13 @@ sub html_form {
     my $tips = $tips[int(rand(@tips))];
     return <<"EOF";
 
-<form method="get" action="lexicon.cgi">
 <table class="layout">
   <tr class="center">
     <td>
-      <input type="text" name="q" value="$query" size="30"
-        /><input type="submit" />
+      <form method="get" action="lexicon.cgi">
+        <input type="text" name="q" value="$query" size="30"
+          /><input type="submit" />
+      </form>
     </td>
   </tr>
   <tr class="center">
@@ -331,27 +331,11 @@ EOF
 }
 
 
-
 ###############################################################################
 ##                                                                           ##
-##  Older, non-cleaned up code                                               ##
+##  Main Program                                                             ##
 ##                                                                           ##
 ###############################################################################
-
-
-$ENV{X_TITLE}   = "Lexicon.";
-$ENV{X_YEAR}    = "1998-2003";
-$ENV{X_LANG}    = "en";
-$ENV{X_THEME}   = "paqHom";
-$ENV{X_SUMMARY} = <<"EOF";
-
-    The dictionary parts (Klingon&ndash;English / English&ndash;Klingon) of in the
-    <i>Klingon Pocket Dictionary</i> are automatically extracted from a
-    database, which has been continuously updated and improved since it was
-    created in late 1997. You may use the below form to search that database.
-
-EOF
-
 
 # no query: display empty search form & exit
 if (not param("q")) {
@@ -364,7 +348,9 @@ if (not param("q")) {
 }
 
 # read query from HTML form value
-my $query = decode("UTF-8", param("q") // "");
+my $query = param("q");             # read form "q" value
+$query = "" unless defined($query); # make sure it's never undef
+$query = decode("UTF-8", $query);   # UTF-8 decode it
 
 print html_head() . html_form($query);
 {
