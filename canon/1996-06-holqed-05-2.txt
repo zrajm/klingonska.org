@@ -1,0 +1,64 @@
+[[
+  [2010-08-26, 09:57-10:15] transcribed article
+  [2010-08-26, 15:20-15:50] proofread, checked page references & quotes against
+  source
+  Style: {}=bold, <>=italics, corrections, paginated
+
+  Type: article
+  Date: June 1996
+  Title: More on {Hoch}
+  Author: Mark Shoulson (describing discussion with Marc Okrand)
+  Source: <{HolQeD} 5:2>, page 11
+  Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
+  Summary: Clarifies the usage of {Hoch} (when it comes before a noun).
+    Describes the difference in meaning when using it with an explicitly
+    pluralized noun and a non-pluralized noun. -- Nothing is said about {Hoch}
+    occuring after a noun, though.
+
+]][[p.11]]
+
+More on {Hoch}
+
+Mark Shoulson
+
+While reading the new book from Marc Okrand, <The Klingon Way,> I
+noticed that several sentences used {Hoch} as a quantifier, for "all of" or
+"every." As Captain Krankor has already pointed out elsewhere in this issue,
+the use of {Hoch} has been a topic of some debate in the past. We weren't
+sure quite how to use it as a quantifier. Some believed it should be used as a
+numeral, and placed before the noun (?{Hoch paq[mey]} for "all the books"),
+and some (including this writer) believed that it should be treated as a noun
+in a noun-noun construction, since it was listed as a noun in the dictionary
+(i.e., {paq[mey] Hoch}). Canon to this point has been mostly ambiguous. But
+in <TKW> we have many examples clearly showing that the supporters of the
+first opinion were in fact correct: {Hoch} comes before, and not after.
+
+     In asking Dr. Okrand about this (grumbling slightly, since I had been
+shown to be wrong), he told me something else interesting about {Hoch}. You
+may notice that sometimes {Hoch} is followed by a noun with explicit plural
+markings, and sometimes it isn't. This is hardly surprising: Klingon plural
+markings are always optional anyway, so an unmarked noun can still be
+plural. But apparently in {Hoch} constructions there <is> a difference. When
+{Hoch} precedes an <explicitly> plural noun (he was very careful on this point: by
+"explicitly plural" we mean a noun which is either an irregular, inherent
+plural [e.g., {cha} <torpedoes,> {ray'} <targets>] or a noun with a <stated> plural suffix
+[{-pu',} {-Du'} or {-mey}] attached), it means "All the X's" taken collectively. So
+{Hoch tlhInganpu'} is "all Klingons," and {Hoch paqmey} is "all the books."
+<But,> if the noun is <not> explicitly plural (i.e., it's a normal noun, not an
+irregular plural and not marked with a pluralizing suffix), it means "each X,"
+considered individually. So {Hoch 'ebmey tIjon} (<TKW,> p.51) is well- [[keep hyphen]]
+translated by "capture all opportunities" (and not "each opportunity"), but
+{wo' toy'taHvIS Hegh 'e' tul Hoch tlhIngan} (<TKW,> p. 74) refers (as the
+English implies) to "every Klingon," individually. It's a fine shade of
+meaning, which may not always be significant, but it's important to
+understand that the distinction is available.
+
+     It's notable that this shows us that sometimes it <does> matter if a noun is
+pluralized, that unmarked nouns can't totally substitute for plural ones due
+to their unspecified nature with respect to number. This isn't completely
+surprising, though, since we already have seen examples of how using {-mey}
+instead of an irregular plural or another pluralizing suffix changes the
+meaning. We still await clarification as to how {Hoch} can be applied to
+pronouns ("all of us," etc.)
+
+[[eof]]
