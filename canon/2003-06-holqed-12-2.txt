@@ -2,6 +2,8 @@
   [2004-10-27, 23.26-00.20] transcribed by Zrajm C Akfohg
   [2004-10-28, 00.20-00.56] spell checked & proofread
   [2008-05-07] corrected typo in title "Maltz'" -> "Maltz's"
+  [2010-08-26, 09:42-09:52] fixed several typos
+  [2010-08-26] proofreading
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
@@ -12,7 +14,7 @@
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
   Summary: Maltz tell which words to use to refer to ends of physical objects,
     and periods of time. This is the reward for the first of those who
-    succeeded in solving the "Frasier's Klingon" challenge in {HolQeD} 11:4.
+    succeeded in solving the "Frasier's Klingon" challenge in <{HolQeD} 11:4>.
 
 ]][[p.6]]
 
@@ -50,18 +52,18 @@ stick or a piece of string): {megh'an}
 and {'er'In}. The words seem to be
 used interchangeably when referring
 to only one end of the object, but
-one either {megh'an} or {'er'In} has
+once either {megh'an} or {'er'In} has
 been used for one end, that is the
 only word used for that end (within
 that sentence or conversation or bit
-of discourse). The speaker or 
+of discourse). The speaker or
 participants in a conversation do
 not go back and forth between the
 two. Similarly, if one means either
 end of the stick and it doesn't make
 any difference which end, the same
 rule applies: Either word is fine, but,
-for that discourse, only the one is
+for that discourse, only the one is [[the:=that]]
 used.
 
      If a distinction is being made
@@ -314,7 +316,7 @@ between {Dor} <end> and {Dor} <escort>.
 
      There is a difference between 
 the end of the performance of a
-song o opera or play, indicated by
+song or opera or play, indicated by
 making use of the verbs {van} and
 {ghang}, and the ending, or final
 portion, of a song or opera or play
@@ -332,7 +334,7 @@ often well-known itself, as is its
 beginning ({bI'reS}).
 
      For a song -- but only for a song
--- The final portion is its {'o'megh}.
+-- the final portion is its {'o'megh}.
 Parallel to {bertlham}, {'o'megh} is the
 final phrase or so of the song, one
 that brings the song to a definite
@@ -346,14 +348,14 @@ said that performers of these songs
 just sort of fade away before the
 song has ended properly. He referred
 to the ending of such a song is its [[is:=as]]
-{'omeghqoq} <so-called ending>.) To
+{'o'meghqoq} <so-called ending>.) To
 begin to sing a song is to {lIH}
 (literally, <introduce>) the song, and
 that portion of the song that comes
-at the beginning --- a portion that is
+at the beginning --- a portion that is [[---:=--]]
 often so familiar that listeners know
 what song it is after hearing just that
-short portion --- is the {namtun}.
+short portion --- is the {namtun}. [[---:=--]]
 
      Finally, for the beginning of a
 list (of names or words, for example,
