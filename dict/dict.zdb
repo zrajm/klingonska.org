@@ -28,7 +28,7 @@ SUGGESTED NEW FIELDS:
 
 		Examples: {tIb}, {woj} (for "sterilize") and that word used
 		instead of {lo'} in one of the SkyBox transcript in
-		HolQeD---whichever it was. 
+		HolQeD---whichever it was.
 
 FIELD NAMES USED IN DICTIONARY BELOW
 
@@ -39,6 +39,7 @@ FIELD NAMES USED IN DICTIONARY BELOW
                       part-of-speech
     def:   (required) source where definition can be found (within [])
     ref:   (optional) canon sources where it also occurs
+    gram:  (optional) very short grammatical notes (for inclusion in paqHom)
     com:   (optional) special comment concerning the entry
     pun:   (optional) comments about puns and/or word play
     see:   (optional) pointer to related word(s) (separated by semicolon)
@@ -84,6 +85,7 @@ tlh:	{bachHa'}
 sv:	«fela», göra ett «misstag» (v) (slang)
 en:	<err>, make a <mistake> (v) (slang)
 def:	[KGT]
+ref:	[KLI]
 com:	Should this word even be used? {Qagh} seem to mean the same thing.
 pun:	This is the first word in the K-E side of the dictionary, and is
 	incorrectly given as a noun. MO has confirmed this to be an
@@ -99,6 +101,7 @@ tlh:	{baghneQ}
 sv:	«sked» (s)
 en:	«spoon» (n)
 def:	[News 1998-05-05]
+ref:	[KLI]
 pun:	Spoonerism on {nagh beQ} "flat stone".
 
 tlh:	{baH}
@@ -111,6 +114,7 @@ tlh:	{baHjan}
 sv:	¿?«avfyrningstub», «utskjutningsanordning» (s)
 en:	«launcher» (n)
 def:	[BoP]
+ref:	[KLI]
 
 tlh:	{baHwI'}
 sv:	«skytt», «artillerist» (s)
@@ -153,6 +157,7 @@ tlh:	{baq}
 sv:	«avsluta», «avbryta» (v)
 en:	<terminate>, <discontinue> (v)
 def:	[KGT]
+ref:	[HQ12:2 p.9]
 
 tlh:	{baqghol}
 sv:	en slags «sprit», «~bahgol~» (s)
@@ -173,6 +178,7 @@ tlh:	{baQa'}
 sv:	(generellt «invektiv») (interj)
 en:	(general «invective») (excl)
 def:	[TKDa 5.5 (p.178)]
+ref:	[KLI]
 
 tlh:	{bargh}
 sv:	flatbottnad «skål» för matberedning (s)
@@ -200,7 +206,7 @@ tlh:	{batlh}
 sv:	«ära» (s)
 en:	<honor> (n)
 def:	[TKD]
-ref:	[TKW pp.53, 67; HQ12:3 p.9]
+ref:	[TKW pp.53, 67; HQ12:3 p.9; KLI]
 com:	"{batlh}, [...] is a grander [than {quv}], more general, more
 	philosophical concept, associated with integrity, rectitude, scruples,
 	and principles." [HQ12:3 p.9]
@@ -233,6 +239,7 @@ tlh:	{beb}
 sv:	«tak», yttertak (s)
 en:	«roof» (n)
 def:	[News 1998-12-07]
+ref:	[KLI]
 
 tlh:	{bech}
 sv:	«lida» (v)
@@ -280,8 +287,8 @@ en:	be <displeased> (v)
 def:	[TKD]
 
 tlh:	{bem}
-sv:	«fotsula» (s)
-en:	<sole> of foot (n)
+sv:	«fot«sula»» (s)
+en:	<sole of «foot»> (n)
 def:	[KGT]
 cat:	body part
 
@@ -329,17 +336,24 @@ sv:	vara «irritabel», vara «lättretlig», vara «retlig» (v)
 en:	be <irritable> (v)
 def:	[TKD]
 
+tlh:	{bertlham}
+sv:	«avslutning», «slut» (på sång, pjäs, historia, etc.) (s)
+en:	«ending», «final portion» (of a song, play, story etc.) (n)
+def:	[HQ12:2 pp.8--9]
+ref:	[KLI; NKW]
+see:	{bI'reS}
+
 tlh:	{betleH}
 sv:	ett slags hand«vapen», «~bat'leth~» (s)
 en:	type of hand <weapon>, «~bat'leth~» (n)
 def:	[TKDa]
 ref:	[TKW p.79]
-com:	Translation "~bat'leth~" inserted.
 
 tlh:	{betleH «bey'»}
 sv:	¿?«~bat'leth~-ställ» (s)
 en:	«~bat'leth~ display» (n)
 def:	[KCD]
+ref:	[KLI]
 data:	phrase
 
 tlh:	{betleH «'obe'»}
@@ -371,6 +385,7 @@ tlh:	{be'etor}
 sv:	«B'Etor» (namn)
 en:	«B'Etor» (name)
 def:	[S26; KGT p.197]
+ref:	[KLI]
 com:	S26 was reprinted in HQ5:3 p.15.
 	B'Etor is one of the Duras sisters.
 
@@ -386,6 +401,7 @@ sv:	«kvinnotortyr» (rituell tortyr av fångar, utförd av kvinnor) (s)
 en:	«torture-by-women» (ritualized torture of prisoners, performed by
 	women) (n)
 def:	[Sarek pp.163, 164, 180, 181]
+ref:	[KLI]
 
 tlh:	{be'nal}
 sv:	«maka», «hustru», «fru» (s)
@@ -452,8 +468,8 @@ tlh:	{bIQ}
 sv:	«vatten» (s)
 en:	<water> (n)
 def:	[TKD]
-ref:	[TKW pp.34, 35]
-com:	Used metaphorically as the symbol of weakness and distain.
+ref:	[TKW pp.34--35; KLI]
+com:	Used metaphorically as the symbol of weakness and distain. [TKW pp.34--35]
 data:	KLCP-1
 
 tlh:	{bIQ «bal»}
@@ -471,11 +487,13 @@ tlh:	{bIQSIp}
 sv:	«väte» (s)
 en:	«hydrogen» (n)
 def:	[BoP]
+ref:	[KLI]
 
 tlh:	{bIQSIp «'ugh»}
 sv:	«deuterium-isotop» (s)
 en:	«deuterium isotope» (n)
 def:	[BoP]
+ref:	[KLI]
 data:	phrase
 
 tlh:	{bIQtIq}
@@ -512,12 +530,14 @@ tlh:	{bIreQtagh}
 sv:	«bregitlunga» (s)
 en:	<bregit lung> (n)
 def:	[TKDa]
+ref:	[KLI]
 com:	Food item shown and described on KCD.
 
 tlh:	{bIS'ub}
 sv:	«botten» (invändig botten) (s)
 en:	«bottom» (interior bottom) (n)
 def:	[HQ8:3 p.2]
+ref:	[KLI]
 com:	Article in HQ is called "{matlh juppu' mu'mey}".
 see:	{yor}; {pIrmuS}
 cat:	locative
@@ -543,6 +563,14 @@ tlh:	{bI'rel}
 sv:	«~B'rel~-klass» (av farkost) (s)
 en:	«~B'rel~ class» (vessel) (n)
 def:	[BoP]
+com:	"{bI'rel tlharghDuj} B'rel-class Scout" [KLI]
+
+tlh:	{bI'reS}
+sv:	«inledning», «början» (på sång, pjäs, historia, etc.) (s)
+en:	«beginning» (of a song, play, story etc.) (n)
+def:	[HQ12:2 pp.8--9]
+ref:	[KLI; NKW]
+see:	{bertlham}
 
 tlh:	{bobcho'}
 sv:	«modul» (s)
@@ -624,31 +652,43 @@ sv:	av «misstag», «oavsiktligt» (adv)
 en:	<accidentally>, by accident (adv)
 def:	[TKD]
 
-tlh:	{boq} (1)
-sv:	«allians», «block», «sammanslutning», «koalition» (s)
-en:	<alliance>, <bloc>, <coalition> (n)
-def:	[TKD; KGT]
-com:	Entries from TKD and KGT have been combined here.
+tlh:	{bop}
+sv:	vara om (något), handla om (något) (v)
+en:	be about (something), be concerned with (v)
+def:	[MO at {qep'a' wa'maH cha'DIch}]
+ref:	[NKW; KLI]
+com:	{'e' bop} "That's what it's all about." [NKW]; "Got this from
+	http://www.livejournal.com/community/klingon/ entry August 1, 2005 by
+	ubykhlives Example: {HolQeD bopbe' paqvam} = 'This book is not about
+	linguistics.'" [KLI]
 
-tlh:	{boq} (2)
-sv:	«fusion» (s)
-en:	«fusion» (n)
-def:	[BoP]
+tlh:	{boq} (1)
+sv:	«allians», «block», «sammanslutning», «koalition», «fusion» (s)
+en:	<alliance>, <bloc>, <coalition>, «fusion» (n)
+def:	[TKD; KGT; BoP]
+ref:	[KLI]
+com:	Entries from TKD, KGT and BoP have been combined here. "{Hong boq
+	chuyDaH: loS} 'Impulse Fusion Thrusters -- 4'" [BoP]
 
 tlh:	{boq}
 sv:	«alliera» med, «förena» med, skapa en allians med (v)
 en:	«ally» with, «form» an alliance with (v)
 def:	[HQ9:3 p.9]
+ref:	[KLI]
 com:	Article in HQ is called "{matlh juppu' mu'mey}". HQ: Used in math:
 	{boq} for addition, {boqHa'} for subtraction, {X-logh boq'egh Y} for
 	multiplication, {X-logh boqHa''egh Y} for division. See also {chen}.
+	[KLI]
 cat:	math
 
 tlh:	{boqHa'}
 sv:	«skilja» ifrån (v)
 en:	«dissociate» from (v)
 def:	[HQ9:3 p.9]
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+ref:	[KLI]
+com:	Article in HQ is called "{matlh juppu' mu'mey}". "{boqHa''egh}" and
+	"{boq'egh}" [KLI]
+data:	derived form
 
 tlh:	{boqrat}
 sv:	ett slags «djur», «~bokrat~» (s)
@@ -682,9 +722,10 @@ en:	<aide-de-camp> (n)
 def:	[TKD]
 
 tlh:	{bor}
-sv:	«kurra», «klucka» (ljud från mage) (v)
+sv:	«kurra», «knorra» (ljud från mage) (v)
 en:	«gurgle» (sound from stomach) (v)
 def:	[HQ12:4 p.8]
+ref:	[NKW; KLI]
 
 tlh:	{bortaS}
 sv:	«hämnd» (s)
@@ -764,6 +805,7 @@ tlh:	{bur}
 sv:	«hicka» (v)
 en:	«hiccup» (v)
 def:	[HQ12:4 p.8]
+ref:	[NKW; KLI]
 
 tlh:	{burgh}
 sv:	«mage», «magsäck» (s)
@@ -793,7 +835,7 @@ tlh:	{butlh}
 sv:	«smuts» under naglarna (s)
 en:	<dirt> under fingernails (n)
 def:	[TKD]
-ref:	[TKW p.142]
+ref:	[TKW p.142; KLI]
 com:	Symbolic equivalent of gall, an admirable trait to have.
 
 tlh:	{buv}
@@ -845,10 +887,11 @@ en:	<emergency> (n)
 def:	[TKD]
 
 tlh:	{chaDvay'}
-sv:	«radiofrekvens» (s)
-en:	radio <frequency> (n)
+sv:	«radio«frekvens»» (s)
+en:	«radio <frequency>», Hertz (n)
 def:	[KGT]
 com:	According to HQ1:3 p.9, this means "Hertz (frequency)".
+ref:	[NKW]
 
 tlh:	{chagh}
 sv:	«släppa», «tappa» (v)
@@ -889,8 +932,7 @@ tlh:	{chan}
 sv:	område österut, område i «öster» (s)
 en:	area eastward, area towards the «east» (n)
 def:	[News 1999-11-21]
-com:	"90 degrees on Terran compass" according to the KLI new words
-	list.
+com:	"90 degrees on Terran compass" [KLI]
 cat:	locative
 
 tlh:	{chanDoq}
@@ -937,6 +979,12 @@ sv:	«segrare», «erövrare» (s)
 en:	<victor>, <conqueror> (n)
 def:	[KGT]
 ref:	[TKW p.179]
+
+tlh:	{chaS}
+sv:	topp (på käpp eller stav) (s)
+en:	top (of cane or walkin stick) (n)
+def:	[HQ12:2 p.7]
+ref:	[NKW]
 
 tlh:	{chatlh} (1)
 sv:	«nonsens», «gallimatias» (s) (slang)
@@ -1044,7 +1092,7 @@ en:	«unit» of «weight», 9 «~cheb~» (about 45 «pound»s or 20.25 «kilogra
 com:	(n) unit weight approx. 45--46.4 pounds (20.4--21.05 kg) (9--9.28 cheb)
 	[The numbers don't quite mesh, but this is the best I can figure
 	from different equivalences we've been given.] [BoP poster] (Added:
-	12 March 2002) [from KLI new word's list]
+	12 March 2002) [KLI]
 def:	[News 1997-10-22]
 
 tlh:	{chech}
@@ -1065,8 +1113,8 @@ tlh:	{chegh}
 sv:	«återvända» (till) (v)
 en:	<return> (to) (v)
 def:	[TKD]
-com:	"direct object is place returned to" according to KLI new
-	words list.
+ref:	[NKW]
+com:	"direct object is place returned to" [KLI; NKW]
 data:	KLCP-1
 
 tlh:	{cheH}
@@ -1319,7 +1367,7 @@ com:	Entries differ and have been combined here.
 
 tlh:	{chong} (3)
 sv:	vara «grundlig», vara «ordentlig», vara «omsorgsfull», vara
-	«noggrann» (v) (slang) 
+	«noggrann» (v) (slang)
 en:	be <profound>, be <thorough>, be «careful» (v) (slang)
 def:	[KGT]
 
@@ -1436,6 +1484,7 @@ tlh:	{chuH} (2)
 sv:	«kasta» (ett spjut) mot, «slunga» (ett spjut) mot (v)
 en:	<throw> (a spear) at, <hurl> (a spear) at (v)
 def:	[KGT]
+com:	"the direct object is the target" [NKW]
 
 tlh:	{chuHchu'}
 sv:	«träffa» med ett kastat spjut (v)
@@ -1508,6 +1557,7 @@ tlh:	{chuy}
 sv:	«nysa» (v)
 en:	«sneeze» (v)
 def:	[HQ12:4 p.8]
+ref:	[NKW]
 see:	{'IqnaH}
 
 tlh:	{chuyDaH}
@@ -1692,6 +1742,7 @@ tlh:	{Dat}
 sv:	«överallt», alla platser (s)
 en:	<everywhere>, all places (n)
 def:	[TKD 3.3.5 (p.27--28) et al.]
+gram:	never takes {-Daq} [TKD 3.3.5 (p.27--28)]
 com:	Locative word, never followed by {-Daq} [TKD 3.3.5 (p.27--28)].
 cat:	locative
 
@@ -1699,11 +1750,13 @@ tlh:	{DavHam}
 sv:	«falsk» «ära» (s)
 en:	«false» «honor» (n)
 def:	[HQ12:3 p.9]
-com:	"[..] covers the same semantic ground as both {HoQ} and {Qaq} (but not
-	really {mIl}). {DavHam} is different from {quvHa'ghach} <dishonor>
-	(noun) in that the latter does not imply seeming to be honorable or the
-	appearance of honorability, but rather the lack of or loss of honor."
-	[HQ12:3 p.9]
+ref:	[NKW]
+com:	"[...] covers the same semantic ground as both {HoQ} [<be honored
+	falsely>] and {Qaq} [<behave falsely honorably>] (but not really {mIl}
+	[<be formerly honored>]). {DavHam} is different from {quvHa'ghach}
+	<dishonor> (noun) in that the latter does not imply seeming to be
+	honorable or the appearance of honorability, but rather the lack of or
+	loss of honor." [HQ12:3 p.9]; "undeserved honor" [NKW]
 see:	{HoQ}; {Qaq}; {quvHa'ghach}
 
 tlh:	{Daw'}
@@ -1905,6 +1958,15 @@ def:	[TKD]
 com:	STE: "Trillium. Gemstone traded on planet Organia."
 	TOS "Errand of Mercy", DS9 "Trials and Tribble-ations"
 
+tlh:	{DIn}
+sv:	«ingång», «öppning» (till en tunnel, rör etc., utan dörr)
+en:	«entryway» (to a tunnel, conduit, etc.; not a door) (n)
+def:	[HQ12:2 p.7]
+ref:	[NKW]
+com:	"If there's a door there, it's referred to by the usual word for door,
+	{lojmIt}." [HQ12:2 p.7]
+see:	{qa'rI'}, {lojmIt}
+
 tlh:	{DIng}
 sv:	«rotera» (v)
 en:	<spin> (v)
@@ -2060,10 +2122,26 @@ com:	This definition combines information from the definition of
 	{tebwI'} with information from the main text.
 data:	phrase
 
-tlh:	{Dor}
+tlh:	{Dor} (1)
 sv:	«eskortera» (v)
 en:	<escort> (v)
 def:	[TKD]
+
+tlh:	{Dor} (2)
+sv:	«ta «slut»» (om tidsperiod, t.ex. månad, år) (v)
+en:	«come to an «end»» (about period of time, e.g. month, year) (v)
+def:	[HQ12:2 p.8]
+ref:	[NKW]
+com:	"Generally, one expresses the end of a stretch of time by using a verb
+	rather than a noun. That is, one says 'when the month ends' rather than
+	'at the end of the month.' The verb for this kind of 'end' is {Dor}.
+	For example: {DorDI' jar mejpu'} 'At the end of the month, he/she
+	left'. Literally, this sentence means 'When the month ended, he/she
+	left' ({-DI'} <when>, {jar} <month>, {mejpu'} <he/she left>)." [HQ12:2
+	p.8]; "He [Maltz] said there was no connection at all between {Dor}
+	<end> and {Dor} <escort>." [HQ12:2 p.8]
+see:	{van} (2), {ghang}
+cat:	time
 
 tlh:	{DoS}
 sv:	«mål»(-tavla) (s)
@@ -2289,12 +2367,12 @@ def:	[KGT]
 data:	phrase
 
 tlh:	{ghab}
-sv:	«kött» från djurs mittdel (s)
+sv:	«kött» från mittdelen av djur (s)
 en:	<meat> from midsection of animal (n)
 def:	[KGT]
 
 tlh:	{ghab tun}
-sv:	«kött» från djurs mittdel, utan ben (s) (regionalt)
+sv:	«kött» från mittdelen av djur, utan ben (s) (regionalt)
 en:	<meat> from midsection of animal, no bones (n) (regional)
 def:	[KGT]
 data:	phrase
@@ -2334,9 +2412,24 @@ sv:	«spira» (s)
 en:	<mace> (stick, club) (n)
 def:	[KGT]
 
+tlh:	{ghang}
+sv:	avsluta i förtid (en händelse, t.ex. resa, strid, sång) (v)
+en:	prematurely end (an event, e.g. a voyage, battle, song) (v)
+def:	[HQ12:2 p.8]
+ref:	[NKW]
+gram:	participants end the event
+see:	{van} (2), {Dor} (2)
+com:	"[...] {ghang}, is used to express the idea of a premature ending. If [...]
+	the voyage is cut short or the song is interrupted before the final
+	part is sung, one would say: {leng ghangDI' SuvwI'pu' 'IQ chaH} 'When
+	the warriors end the voyage prematurely, they are sad.'; {bom ghangDI'
+	SuvwI'pu' tlhutlh chaH} 'When the warriors end the song prematurely,
+	they drink.' Note that the voyage and the song cannot end themselves.
+	Someone has to end them." [HQ12:2 p.8]
+
 tlh:	{ghap}
-sv:	«eller», antingen eller (förenar substantiv) (konj)
-en:	<or>, either/or (joining nouns) (conj)
+sv:	«eller», antingen eller (kommer efter förenade substantiv) (konj)
+en:	<or>, either/or (follows joined nouns) (conj)
 def:	[TKD]
 ref:	[TKW p.119]
 
@@ -2378,9 +2471,9 @@ com:	S25 and S26 were reprinted in HQ5:3 p.15
 
 tlh:	{ghaw'} (1)
 sv:	«osäker person», någon uppfylld av självtvivel, «självtvivlare» (s)
-	(regionalt, slang) 
+	(regionalt, slang)
 en:	<insecure one>, one full of self-doubt, <self-doubter> (n)
-	(regional, slang) 
+	(regional, slang)
 def:	[KGT]
 com:	Entries differ and have been combined here.
 
@@ -2391,8 +2484,9 @@ def:	[KGT]
 
 tlh:	{ghaytan}
 sv:	«sannolikt», «antagligen», «förmodligen» (adv)
-en:	<likely> (adv)
+en:	<likely>, «probably» (adv)
 def:	[TKDa]
+com:	"probably" is included as a lookup synonym (does not occur in sources)
 
 tlh:	{ghaytanHa'}
 sv:	«osannolikt» (adv)
@@ -3122,7 +3216,7 @@ en:	<baldric>, <sash> (n)
 def:	[KGT]
 
 tlh:	{He}
-sv:	«kurs», «rutt», «riktning» (s)
+sv:	«bana», «kurs», «rutt», «riktning» (s)
 en:	<course>, <route> (n)
 def:	[TKD]
 
@@ -3388,6 +3482,7 @@ tlh:	{HochDIch}
 sv:	«allte», «slutgiltiga», «sista» (räkn)
 en:	«allth», «final», «last» (num)
 def:	[KGT p.177]
+ref:	[HQ12:2 p.9]
 
 tlh:	{HochHom}
 sv:	«mesta», «större delen» (s)
@@ -3398,6 +3493,7 @@ tlh:	{Hochlogh}
 sv:	«alla gånger», «alltid» (emfatiskt) (adv)
 en:	«all times», «always» (emphatic) (adv)
 def:	[KGT p.178]
+see:    {reH} (adv)
 
 tlh:	{HoD}
 sv:	«kapten» (rang) (s)
@@ -3782,7 +3878,9 @@ sv:	för många människor/saker på samma plats samtidigt (interj)
 en:	too many people/things in a place all at once (excl)
 def:	[HQ11:3 p.13]
 com:	Word play on {Qu'vatlh} which is more commonly heard in situations
-	described by {Hutvagh}.
+	described by {Hutvagh}. {Hutvagh} also reads as "nine five", and one
+	would not be surprised if the amount of "too many people" was along
+	highway 95.
 
 tlh:	{Hutlh}
 sv:	«sakna», vara «utan», «inte «ha»» (v)
@@ -4025,17 +4123,13 @@ en:	<succession ritual> (ancient) (n)
 def:	[TKDa]
 
 tlh:	{je}
-sv:	«också», «likaså» (adv)
-en:	«also», «too» (adv)
+sv:	«också», «och» (kommer efter verb/förenade substantiv) (konj)
+en:	<also>, <and>, «too» (follows verb/nouns) (conj)
 def:	[TKD 5.3 (p.55)]
-com:	Described in TKD 5.3, follows the verb it modifies.
-
-tlh:	{je}
-sv:	«också», «och» (förenar substantiv) (konj)
-en:	<also>, <and> (joining nouns) (conj)
-def:	[TKD]
 ref:	[TKW pp.34, 155, 187]
-com:	When following a verb it means "also, too".
+gram:	follows verb/nouns [TKD 5.3 (p.55)]
+com:	When following a verb it means "also, too", when following nouns it
+	means "and".
 
 tlh:	{jech}
 sv:	«förkläda», «klä ut» (v)
@@ -4118,10 +4212,11 @@ cat:	landscape
 
 tlh:	{jev} (2)
 sv:	«väsa», «rossla», «andas» ljudligt (v)
-en:	«wheeze», «breate» nosily (v)
+en:	«wheeze», «breathe» nosily (v)
 def:	[HQ12:4 p.8]
+ref:	[NKW]
 com:	Most likely MO reinvented this word without realizing it already
-	existed: {tlhov} "wheeze" -- occurs only in the Klingon--English side
+	existed: {tlhov} "wheeze"---it occurs only in the Klingon--English side
 	of TKD.
 see:	{tlhov} is a synonym
 
@@ -4254,7 +4349,7 @@ def:	[TKDa]
 
 tlh:	{joH}
 sv:	«Dam», «Fru» (kvinnligt familjeöverhuvud), «Herre» (manligt
-	familjeöverhuvud) (s) 
+	familjeöverhuvud) (s)
 en:	<Lady> (female head of house), <Lord> (male head of house) (n)
 def:	[TKD; KGT]
 com:	Entries differ and have been combined here.
@@ -4335,8 +4430,8 @@ def:	[TKD]
 com:	used about banner or sail [HQ10:4 p.5]
 
 tlh:	{joq}
-sv:	«eller», och/eller (förenar substantiv) (konj)
-en:	<or>, and/or (joining nouns) (conj)
+sv:	«eller», och/eller (kommer efter förenade substantiv) (konj)
+en:	<or>, and/or (follows joined nouns) (conj)
 def:	[TKD]
 ref:	[TKW p.119]
 
@@ -4365,12 +4460,15 @@ tlh:	{jorneb}
 sv:	«stridsspets» (på en torped) (s)
 en:	<warhead> (of a torpedo) (n)
 def:	[KGT p.57, E-K]
-com:	Spellings alternate: {jornub} in K-E, {jorneb} in E-K.
+com:	WARNING - Spellings alternate: {jornub} in KGT K-E, {jorneb} in KGT
+	E-K.
 
 tlh:	{jornub}
 sv:	«stridsspets» (på en torped) (s)
 en:	«warhead» (of a torpedo) (n)
 def:	[KGT K-E]
+com:	WARNING - Spellings alternate: {jornub} in KGT K-E, {jorneb} in KGT
+	E-K.
 
 tlh:	{jorwI'}
 sv:	«sprängämne» (s)
@@ -4574,8 +4672,8 @@ en:	<shrub> (n)
 def:	[KGT]
 
 tlh:	{law'}
-sv:	vara «många», vara «talrika» (v)
-en:	be <many>, be <numerous> (v)
+sv:	vara «många», vara «talrika», vara «mycket» (v)
+en:	be <many>, be <numerous>, be «much»  (v)
 def:	[TKD]
 ref:	[TKW pp.35, 53, 95, 179; S33]
 com:	Entries differ and have been combined here.
@@ -4754,6 +4852,10 @@ tlh:	{lIH}
 sv:	«presentera», «introducera» (v)
 en:	<introduce> (v)
 def:	[TKD]
+ref:	[NKW]
+com:	"To begin to sing a song is to {lIH} (literally, <introduce>) the song
+	[...]" [HQ12:2 p.9]
+see:	{namtun}, {'o'megh}
 
 tlh:	{lIj}
 sv:	«glömma» (v)
@@ -4878,7 +4980,7 @@ sv:	«rymd» (s)
 en:	<space> (n)
 def:	[TKD]
 ref:	[TKW p.33]
-com:	Refering to "outer space".
+com:	Referring to "outer space".
 
 tlh:	{loghqam}
 sv:	«längd«enhet»» (cirka 1,25 «ljusår») (s)
@@ -4905,8 +5007,9 @@ tlh:	{lojmIt}
 sv:	«dörr», «grind», «port» (s)
 en:	<door>, <gate> (n)
 def:	[TKD]
-ref:	[TKW p.186]
+ref:	[TKW p.186; HQ12:2 p.7]
 data:	KLCP-1
+see:	{DIn}, {qa'rI'}
 
 tlh:	{lolSeHcha}
 sv:	«positionskontrollraketer», «lägeskontrollraketer», «styrraketer» (s)
@@ -5092,9 +5195,9 @@ def:	[TKD K-E]
 
 tlh:	{luH} (2)
 sv:	«få» (någon) att erkänna eller avslöja en hemlighet, «utkräva» ett
-	erkännande, få att «erkänna» (v) (slang) 
+	erkännande, få att «erkänna» (v) (slang)
 en:	<cause (someone) to confess> or reveal a secret, <exact> a
-	confession (v) (slang) 
+	confession (v) (slang)
 def:	[KGT]
 com:	Entries differ and have been combined here.
 
@@ -5158,7 +5261,7 @@ def:	[TKD 5.5 (p.57) et al.]
 
 tlh:	{lur}
 sv:	«pupill» (s)
-en:	<pupil> (of eye) (n)
+en:	<pupil> (of «eye») (n)
 def:	[TKD]
 cat:	body part
 
@@ -5424,9 +5527,9 @@ def:	[TKD]
 
 tlh:	{ma'veq}
 sv:	ett slags «ceremoniell «kniv»», «~mevak~» (används i
-	~Mauk-To'Vor~-ritualen) (s) 
+	~Mauk-To'Vor~-ritualen) (s)
 en:	type of «ceremonial «knife»», «~mevak~» (used in the ~Mauk-To'Vor~
-	ritual) (n) 
+	ritual) (n)
 def:	[MO at ~1998 Praxis~ (recording); STE]
 com:	Seen in the DS9 "Sons of Mogh".
 	English spelling (according to STE) is ~mevak~.
@@ -5450,6 +5553,13 @@ tlh:	{megh}
 sv:	«lunch» (s)
 en:	<lunch> (n)
 def:	[TKD]
+
+tlh:	{megh'an}
+sv:	«ände» (på pinne, tråd etc.; motsatt {'er'In}) (s)
+en:	«end» (of stick, piece of string etc.; opposite {'er'In}) (n)
+def:	[HQ12:2 pp.6--8]
+ref:	[NKW]
+see:	{'er'In}
 
 tlh:	{meH}
 sv:	«brygga» (på skepp) (s)
@@ -5545,7 +5655,7 @@ tlh:	{mev}
 sv:	«sluta», «upphöra» (v)
 en:	<stop>, <cease> (v)
 def:	[TKD]
-ref:	[TKW p.87]
+ref:	[TKW p.87; HQ12:2 p.9]
 data:	KLCP-1
 
 tlh:	{mevyap}
@@ -5583,8 +5693,8 @@ en:	be <evil> (v)
 def:	[TKD]
 
 tlh:	{mIl}
-sv:	vara «fordom» «ärad», vara «tidigare» «hedrad» (v)
-en:	be «formerly» «honored» (v)
+sv:	vara «fordom «ärad»», vara «tidigare «hedrad»» (v)
+en:	be «formerly «honored»» (v)
 def:	[HQ12:3 p.8]
 com:	"This would be applied to a leader who left office is disgrace, for
 	example, or an ousted ship's captain. It would not be used of a
@@ -5629,7 +5739,7 @@ en:	<fry>, <deep-fry> (v)
 def:	[KGT]
 com:	Entries differ in source. One of the E-K entries is used here.
 pun:	"Marc nodded, smiling infuriatingly, to confirm {mIQ} (deep fry) as
-	in mIQ-Donald's french fries." (Qov, qep'a' loSDIch)
+	in mIQ-Donald's french fries." (Qov, {qep'a' loSDIch})
 
 tlh:	{mIQ}
 sv:	«panna» (s) (regionalt)
@@ -5691,7 +5801,7 @@ tlh:	{mIw} (1)
 sv:	«procedur», «process» (s)
 en:	<procedure>, «process» (n)
 def:	[TKDa]
-com:	¿?Is this a valid word -- shouldn't {nab} be used instead, and
+com:	¿?Is this a valid word---shouldn't {nab} be used instead, and
 	{mIw} be used for "step, stage (in a process)"?
 
 tlh:	{mIw} (2)
@@ -5778,7 +5888,7 @@ tlh:	{mojaQ}
 sv:	«suffix» (s)
 en:	<suffix> (n)
 def:	[TKD E-K]
-com:	DON'T USE THIS WORD.
+com:	WARNING - DON'T USE THIS WORD.
 see:	{mojaQ} (probably correct form)
 
 tlh:	{mol}
@@ -5870,7 +5980,7 @@ en:	be <unusual> (v)
 def:	[TKD]
 
 tlh:	{mov}
-sv:	«ovansida av «fot»» (s)
+sv:	«ovansida av fot», «fotrygg» (s)
 en:	<top of «foot»> (n)
 def:	[KGT]
 cat:	body part
@@ -6145,6 +6255,7 @@ tlh:	{naDev}
 sv:	«här», «häromkring» (s)
 en:	<here>, hereabouts (n)
 def:	[TKD 3.3.5 (p.27--28) et al.]
+gram:	never takes {-Daq} [TKD 3.3.5 (p.27--28)]
 com:	Locative word, never followed by {-Daq} [TKD 3.3.5 (p.27--28)].
 cat:	locative
 
@@ -6240,6 +6351,13 @@ sv:	¿?«parningsutmaning» (s)
 en:	<mate challenge> (n)
 def:	[KGT]
 
+tlh:	{namtun}
+sv:	«inledning», «början» (på sång) (s)
+en:	«beginning» (of song) (n)
+ref:	[HQ12:2 p.9]
+ref:	[NKW]
+see:	{lIH}, {'o'megh}
+
 tlh:	{namwech}
 sv:	«tass» (s)
 en:	<paw> (n)
@@ -6319,6 +6437,13 @@ sv:	vara «illvillig», vara «elak», vara «hätsk», vara «rasande» (v)
 en:	be <vicious> (v)
 def:	[TKD]
 
+tlh:	{natlIS}
+sv:	«sista posten i en «lista»», «slut»et på en lista» (s)
+en:	«last entry in «list»», end of list (n)
+def:	[HQ12:2 p.9]
+ref:	[NKW]
+see:	{tetlh}
+
 tlh:	{natlh} (1)
 sv:	«konsumera», «förtära», «förbruka» (v)
 en:	<use> up, <consume>, <expend> (v)
@@ -6328,7 +6453,7 @@ com:	S33 was reprinted in HQ6:2 p.9
 
 tlh:	{natlh} (2)
 sv:	vara «förkastlig», vara «äcklig», vara «vidrig», vara «usel», vara
-	«motbjudande» (v) (slang) 
+	«motbjudande» (v) (slang)
 en:	be <reprehensible>, be <disgusting>, be <contemptible> (v) (slang)
 def:	[KGT]
 
@@ -6340,7 +6465,7 @@ data:	KLCP-1
 
 tlh:	{nav HablI'}
 sv:	«fax» (apparat) (s)
-en:	«FAX machine» (n)
+en:	«fax machine» (n)
 def:	[HQ5:2 p.20]
 data:	phrase
 
@@ -6409,10 +6534,11 @@ ref:	[TKW p.185]
 data:	KLCP-1
 
 tlh:	{neH}
-sv:	«bara», «enbart», «endast» (adv)
-en:	<only>, <merely>, <just>, «alone» (adv)
+sv:	«bara», «enbart», «endast» (kommer efter verb eller substantiv) (adv)
+en:	<only>, <merely>, <just>, «alone» (follows verb or noun) (adv)
 def:	[TKD]
 ref:	[TKW pp.21, 61, 81, 105, 111, 113, 115, 191]
+gram:	follows verb/noun [TKD 5.4 (p.56)]
 com:	Follows the verb or noun it modifies. When following a noun
 	it means "only, alone".
 
@@ -6420,7 +6546,7 @@ tlh:	{neHjej}
 sv:	«tistel» (s)
 en:	<thistle> (n)
 def:	[KGT]
-com:	DON'T USE THIS WORD.
+com:	WARNING - DON'T USE THIS WORD.
 see:	{naHjej} (probably correct form)
 
 tlh:	{neHmaH}
@@ -6772,6 +6898,7 @@ tlh:	{nop}
 sv:	«utelämna», «underlåta» (v)
 en:	<omit> (v)
 def:	[TKD]
+pun:	"No operation" = an omitted instruction (e.g. in assembly programming language).
 
 tlh:	{norgh}
 sv:	ett slags «djur», «~norg~» («haj»liknande havsvarelse) (s)
@@ -7359,7 +7486,7 @@ cat:	clothing
 
 tlh:	{ngup} (2)
 sv:	«auktoritet», «befogenhet», «makt», någon med auktoritet eller i
-	ledarposition (s) (slang) 
+	ledarposition (s) (slang)
 en:	<authority>, <power>, one in authority or in charge (n) (slang)
 def:	[KGT]
 
@@ -7428,8 +7555,8 @@ def:	[TKD]
 cat:	math
 
 tlh:	{pagh}
-sv:	«eller», antingen eller (förenar meningar) (konj)
-en:	<or>, either/or (joining sentences) (conj)
+sv:	«eller», antingen eller (kommer mellan förenade meningar) (konj)
+en:	<or>, either/or (comes between joined sentences) (conj)
 def:	[TKD]
 
 tlh:	{paghDIch}
@@ -7562,6 +7689,7 @@ tlh:	{pa'} (2)
 sv:	«där», där borta, däromkring (s)
 en:	<there>, over there, thereabouts (n)
 def:	[TKD 3.3.5 (p.27--28) et al.]
+gram:	never takes {-Daq} [TKD 3.3.5 (p.27--28)]
 com:	Locative word, never followed by {-Daq} [TKD 3.3.5 (p.27--28)].
 cat:	locative
 data:	KLCP-1
@@ -7673,7 +7801,7 @@ def:	[TKDa]
 data:	phrase; {chem} (n)
 
 tlh:	{per}
-sv:	«beteckna», «fastställa», «specificera», «namnge» (v)
+sv:	«beteckna», «fastställa», «specificera», «namnge», ge «namn» åt/till (v)
 en:	<label>, «ascertain», «specify» (v)
 def:	[TKD; News 1999-02-02]
 com:	¿?What does this word really mean? (Check swedish translation.)
@@ -7870,6 +7998,7 @@ sv:	«warpfaktor» (s)
 en:	«warp factor» (n)
 def:	[TKD K-E]
 ref:	[BoP]
+gram:	precedes number when indicating speed [BoP]
 com:	Numbers are placed after when giving speed: {pIvlob vagh} "warp
 	factor five".
 
@@ -8011,12 +8140,17 @@ tlh:	{porgh mIw}
 sv:	«kroppsfunktion» (s)
 en:	«bodily function» (n)
 def:	[HQ12:4 p.8]
+ref:	[NKW]
 data:	phrase
 
 tlh:	{porghQeD}
-sv:	«biologi» (vetenskapliga studier av kroppsfunktioner) (s)
-en:	«biology» (scientific study of bodily functions) (n)
+sv:	«biologi», «anatomi» (vetenskapliga studier av kroppsfunktioner) (s)
+en:	«biology», «anatomy» (scientific study of bodily functions) (n)
 def:	[HQ12:4 p.8]
+ref:	[NKW]
+com:	"Maltz was familiar with the scientific study of bodily functions, or
+	{porghQeD}, but he didn't consider himself terribly well versed in the
+	field." [HQ12:4 p.8]
 
 tlh:	{poS}
 sv:	vara «öppen», vara «öppnad» (v)
@@ -8224,6 +8358,7 @@ tlh:	{pur}
 sv:	«andas in» (s)
 en:	«inhale» (v)
 def:	[HQ12:4 p.8]
+ref:	[NKW]
 
 tlh:	{puS} (1)
 sv:	vara «få», vara «några», vara en «handfull» (v)
@@ -8268,7 +8403,7 @@ tlh:	{pu'bej}
 sv:	«phaser-gevär» (s)
 en:	«phaser rifle» (n)
 def:	[KGT p.56]
-com:	Probably {pu'beH} misspelled.
+com:	WARNING - Probably {pu'beH} misspelled.
 
 tlh:	{pu'beq}
 sv:	«phaser-manskap» (s)
@@ -8340,17 +8475,20 @@ ref:	[TKW pp.137, 141]
 com:	The word "~gagh~" found in definition of {ghevI'} in KGT.
 
 tlh:	{qaH}
-sv:	«herr», «sir» (s)
-en:	<sir> (n)
+sv:	«herr», «sir» (använd endast som tilltal) (s)
+en:	<sir> (used only in direct address) (n)
 def:	[TKD]
 data:	KLCP-1
+com:	"The word {qaH} is interesting because it is never heard except in
+	direct address. Thus, while one might say {yoH qor HoD} ('Captain Kor
+	is brave') or {yoH HoD} ('The captain is brave'), one would never say
+	{yoH qaH} ('Sir is brave.')" [KGT p.198]
 
 tlh:	{qajunpaQ}
 sv:	«mod», «tapperhet», «djärvhet» (s)
 en:	<courage>, <audacity> (n)
 def:	[KGT]
-com:	STE: "kajanpak't. Klingon word for courage. ('Blood Oath'
-	[DS9])"
+com:	STE: "kajanpak't. Klingon word for courage. ('Blood Oath' [DS9])"
 
 tlh:	{qal}
 sv:	vara «korrupt» (v)
@@ -8395,7 +8533,7 @@ def:	[HQ10:2 p.7]
 com:	An idiomatic gesture: to point your pinky at someone is to
 	comment that you believe they are old.
 	** «lill«fingret»» som uppslagsord borde vara i obest form, hur fixa
-	detta? ** 
+	detta? **
 cat:	body part
 
 tlh:	{qanwI'}
@@ -8406,9 +8544,9 @@ cat:	body part
 
 tlh:	{qang} (1)
 sv:	rutinmässigt «hålla med», alltid hålla med, alltid samarbeta med,
-	rutinmässigt «samarbeta» med (v) (slang) 
+	rutinmässigt «samarbeta» med (v) (slang)
 en:	<agree> with routinely, always agree with, always cooperate with,
-	<cooperate> with routinely (v) (slang) 
+	<cooperate> with routinely (v) (slang)
 def:	[KGT]
 com:	Entries differ and have been combined here.
 
@@ -8449,7 +8587,7 @@ def:	[S7]
 com:	S7 was reprinted in HQ4:3 p.4
 
 tlh:	{qaS}
-sv:	«ske», «hända» (v)
+sv:	«ske», «hända», «inträffa» (v)
 en:	<occur>, <happen> (v)
 def:	[TKD]
 ref:	[TKW pp.127, 155]
@@ -8528,6 +8666,22 @@ en:	«replacement proverb» (n)
 def:	[HQ5:1 p.10]
 data:	phrase
 
+tlh:	{qa'rI'}
+sv:	«slut», «ände» (på långsmalt avgränsat utrymme, t.ex. korridor, rör, väg, bro, fält etc.)
+en:	«end» (of a long bounded space, e.g. corridor, conduit, road, bridge, field etc.) (n)
+def:	[HQ12:2 pp.7--8]
+ref:	[NKW]
+see:	{DIn}, {lojmIt}
+com:	"For the end of a longish enclosed space that one is typically inside
+	or experiences from the inside, such as a corridor, tunnel, or conduit
+	(say, Jefferies tube or a branch of the sewers of Paris), a different
+	word is used: {qa'rI'}. [...] it's used for both (or all) ends. [...]
+	{qa'rI'} is also used for the end of bounded space which is seen as
+	having length even if it is not enclosed space. Thus, it is used for
+	the end of a road, the end of a bridge, the end of a long field. (Maltz
+	didn't think it would mean much of anything to refer to the {qa'rI'} of
+	a square field.)" [HQ12:2 pp.7--8]
+
 tlh:	{qa'vam}
 sv:	«Genesis» (s)
 en:	<Genesis> (n)
@@ -8589,7 +8743,7 @@ tlh:	{qelI'qam}
 sv:	«längd«enhet»», «~kellicam~» (cirka 2 «kilometer») (s)
 en:	«unit» of linear «measure», <~kellicam~> (about 2 «kilometer»s) (n)
 def:	[TKD; STE]
-com:	Incorrect spelled {quelI'qam} in TKD E-K.
+com:	Incorrectly spelled {quelI'qam} in TKD E-K.
 
 tlh:	{qem}
 sv:	«hämta», «ta med» (sig) (v)
@@ -8886,8 +9040,8 @@ def:	[TKD]
 cat:	landscape
 
 tlh:	{qoj}
-sv:	«eller», och/eller (förenar meningar) (konj)
-en:	<or>, and/or (joining sentences) (conj)
+sv:	«eller», och/eller (kommer mellan förenade meningar) (konj)
+en:	<or>, and/or (comes between joined sentences) (conj)
 def:	[TKD]
 ref:	[TKW p.139]
 
@@ -9192,7 +9346,8 @@ tlh:	{quy'Ip}
 sv:	«kräkning», «spya» (n)
 en:	«vomit» (n)
 def:	[HQ12:4 p.8]
-see:	{'em} is the verb "vomit"
+ref:	[NKW]
+see:	{'em}
 
 tlh:	{qu'} (1)
 sv:	vara «vildsint», vara «häftig», vara «våldsam» (v)
@@ -9201,9 +9356,9 @@ def:	[TKD]
 
 tlh:	{qu'} (2)
 sv:	vara «storslagen», vara «underbar», vara «utmärkt», vara «bra» (v)
-	(slang) 
+	(slang)
 en:	be <great>, be <wonderful>, be <excellent>, be <splendid>, be <good>
-	(v) (slang) 
+	(v) (slang)
 def:	[KGT]
 com:	Entries differ and have been combined here.
 
@@ -9376,7 +9531,7 @@ def:	[TKD]
 
 tlh:	{Qay'}
 sv:	förlora «besinningen», tappa «behärskningen», tappa «humöret», bli
-	«ursinning», bli «rasande» (v) 
+	«ursinning», bli «rasande» (v)
 en:	<blow> one's top, «lose» one's «temper» (v)
 def:	[TKD; HQ10:2 p.11]
 
@@ -9469,10 +9624,11 @@ def:	[KGT]
 com:	Entries differ and have been combined here.
 
 tlh:	{Qep'It}
-sv:	«rap» (gas alstrad inuti kroppen) (n)
-en:	«belch» (gas produced within the body) (n)
+sv:	«gas» alstrad inuti kroppen («rap», «fis» etc.) (n)
+en:	«gas» produced within the body («belch», «flatulence» etc.) (n)
 def:	[HQ12:4 p.8]
-see:	{SIp} is the general term for gas; {ruq}
+ref:	[NKW]
+see:	{SIp} (general term for gas); {ruq}
 
 tlh:	{Qeq}
 sv:	«rikta», «sikta» (med sikte) (v)
@@ -9568,9 +9724,14 @@ en:	<message> (n)
 def:	[KGT]
 
 tlh:	{QIn} (2)
-sv:	«spjutspets» (s)
-en:	<spearhead> (n)
-def:	[KGT]
+sv:	«vass spets» (t.ex. på penna), «spjut«spets»» (s)
+en:	«sharp end» (e.g. on pen), <spearhead> (n)
+def:	[KGT; HQ12:2 p.7]
+ref:	[NKW]
+com:	"When shown a pencil, Maltz said that the sharp end could be called a
+	{QIn}, but if the pencil were new and did not yet have a point, the
+	ready-to-be-sharpened end would be a {megh'an} or {'er'In}." [HQ12:2
+	p.7]
 
 tlh:	{QIn pup}
 sv:	slät «spjutspets» (med en enda vass spets) (s)
@@ -9657,7 +9818,7 @@ ref:	[TKW p.37]
 data:	KLCP-1
 
 tlh:	{Qoch}
-sv:	inte «hålla med», inte «samtycka» (v)
+sv:	inte «hålla med» (varandra), inte «samtycka», vara «oense» (v)
 en:	<disagree> (v)
 def:	[TKD]
 data:	KLCP-1
@@ -10043,7 +10204,7 @@ en:	<table> (n)
 def:	[KGT]
 
 tlh:	{ratlh}
-sv:	stanna «kvar», finnas kvar, «återstå» (v)
+sv:	stanna «kvar», finnas kvar, «återstå», «ha» kvar (v)
 en:	<remain> (v)
 def:	[TKD]
 data:	KLCP-1
@@ -10094,9 +10255,10 @@ tlh:	{rech}
 sv:	«andas ut» (v)
 en:	«exhale» (v)
 def:	[HQ12:4 p.8]
+ref:	[NKW]
 pun:	"Maltz was quite amused whet he realized that Klingon word {rech}
-	'exhale' sounded like the English word 'retch' -- that is, 'vomit' --
-	but he couldn't explain why he thought it was so funny." [HQ12:4]
+	'exhale' sounded like the English word 'retch'---that is, 'vomit'---
+	but he couldn't explain why he thought it was so funny." [HQ12:4 p.8]
 
 tlh:	{reD}
 sv:	ytter«vägg» (s)
@@ -10136,6 +10298,7 @@ en:	<always> (adv)
 def:	[TKD]
 ref:	[TKW pp.34, 49, 77, 79, 103, 123, 133, 141, 159, 170, 179, 200]
 cat:	time
+see:	{Hochlogh}
 
 tlh:	{rejmorgh}
 sv:	¿?«ängsling» (ängslig person) (s)
@@ -10222,6 +10385,7 @@ tlh:	{rIn}
 sv:	vara «åstadkommen», vara «färdig» (v)
 en:	be <accomplished>, be <finished> (v)
 def:	[TKD]
+ref:	[HQ12:2 p.9]
 com:	Entries differ and have been combined here.
 data:	KLCP-1
 
@@ -10370,7 +10534,7 @@ tlh:	{ropchoH}
 sv:	bli «sjuk», bli «illamående» (v)
 en:	get «sick», get «ill» (v)
 def:	[TKW p.40]
-com:	¿?Should this word be here? -- {rop} is already present.
+com:	¿?Should this word be here?---{rop} is already present.
 
 tlh:	{ropyaH}
 sv:	«sjukhus», «sjukavdelning» (s)
@@ -10457,7 +10621,8 @@ tlh:	{ruq}
 sv:	«rapa» (v)
 en:	«belch», «burp» (v)
 def:	[HQ12:4 p.8]
-see:	{Qep'It} is the term for gas produced when belching
+ref:	[NKW]
+see:	{Qep'It} (term for gas produced when belching)
 
 tlh:	{ruq'e'vet}
 sv:	«Ruk'evet» (stad i Gevchok-regionen) (s)
@@ -10601,7 +10766,7 @@ pun:	You're a sap if you volunteer.
 
 tlh:	{Saq}
 sv:	«landa», «landsätta», gå i land (v)
-en:	<land> (v)
+en:	<land> (on ground) (v)
 def:	[TKD]
 com:	also used about a bird landing on ground [HQ10:4 p.5]
 see:	{tlhot} (for landing on water)
@@ -10618,8 +10783,8 @@ def:	[BoP]
 
 tlh:	{SaQ}
 sv:	«gråta» (v)
-en:	<cry> (v)
-def:	[TKD]
+en:	<cry> (not scream) (v)
+def:	[TKD; HQ12:4 p.9]
 com:	Does not include tears, since Klingon don't have any tear ducts.
 	[HQ12:4 p.9]
 data:	KLCP-1
@@ -10794,9 +10959,13 @@ def:	[TKD]
 tlh:	{Serrum}
 sv:	«öronvax» (s)
 en:	«earwax» (n)
-def:	[HQ12:4 p.8]
+def:	[HQ12:4 p.9]
+ref:	[NKW]
 see:	{qogh} "ear (external, cartilaginous flap)" (n); {teS} "ear (internal,
 	organ of hearing)" (n)
+com:	"Ears (at least healthy ones) produce no byproducts other than earwax
+	({Serrum}), which is said to somehow just {vI'} 'accumulate' in the
+	ear." [HQ12:4 p.9]
 
 tlh:	{SermanyuQ}
 sv:	«Shermans planet» (s)
@@ -10878,7 +11047,7 @@ data:	KLCP-1
 
 tlh:	{SIj} (2)
 sv:	vara «insiktsfull», vara «smart», vara «klipsk», vara «skarpsinnig»
-	(v) (slang) 
+	(v) (slang)
 en:	be <insightful>, be <clever> (v) (slang)
 def:	[KGT]
 
@@ -10985,8 +11154,8 @@ sv:	«mat» (s)
 en:	<food> (n)
 def:	[TKDa]
 ref:	[HQ12:3 p.9]
-com:	"Maltz said, '{tlhIngan Soj 'oH --- not bIyaj},' literally, 'It is
-	Klingon food --- you will not understand,' using {Soj} <food> in its
+com:	"Maltz said, '{tlhIngan Soj 'oH---not bIyaj},' literally, 'It is
+	Klingon food---you will not understand,' using {Soj} <food> in its
 	idiomatic sense of <matter, concern, affair>." [HQ12:3 p.9]
 data:	KLCP-1
 
@@ -11154,9 +11323,9 @@ def:	[TKD]
 
 tlh:	{Sub} (2)
 sv:	vara «modig», vara «heroisk», vara «djärv», vara «dristig», vara
-	«tapper», vara «oförskräckt» (v) (slang) 
+	«tapper», vara «oförskräckt» (v) (slang)
 en:	be <brave>, be <heroic>, be <bold>, be <valiant>, be <intrepid> (v)
-	(slang) 
+	(slang)
 def:	[KGT]
 com:	Entries differ in source. The K-E entry is used here.
 
@@ -11696,6 +11865,7 @@ tlh:	{tetlh}
 sv:	«förteckning», «lista», «rulla», «register», «skrivelse» (s)
 en:	<roll>, <scroll>, <list> (n)
 def:	[KGT]
+see:    {natlIS}
 
 tlh:	{tev}
 sv:	«pris», «trofé» (s)
@@ -11759,8 +11929,8 @@ tlh:	{tIb}
 sv:	vara «nervös», vara «rastlös» (v)
 en:	be «nervous», be «uneasy» (v)
 def:	[KGT p.132]
-com:	DON'T USE THIS WORD. It is a typo for {bIt} (maHvatlh: confirmed as
-	unintentional by MO at {qep'a' SochDIch}).
+com:	WARNING - DON'T USE THIS WORD. It is a typo for {bIt} (maHvatlh:
+	confirmed as unintentional by MO at {qep'a' SochDIch}).
 see:	{jotHa'}; {bIt} (correct form)
 
 tlh:	{tIch}
@@ -11806,6 +11976,7 @@ tlh:	{tIl}
 sv:	utsöndra «saliv» (v)
 en:	«salivate» (v)
 def:	[HQ12:4 p.8]
+ref:	[NKW]
 see:	{tlhepQe'} "saliva" (n)
 
 tlh:	{tIn}
@@ -11818,8 +11989,7 @@ tlh:	{tIng}
 sv:	område sydvästerut, område i «sydväst» (s)
 en:	area southwestward, area towards the «southwest» (n)
 def:	[News 1999-11-21]
-com:	"approx 220 degrees on terran compass" according to the KLI
-	new words list.
+com:	"approx 220 degrees on terran compass" [KLI]
 cat:	locative
 
 tlh:	{tIngDagh}
@@ -11996,7 +12166,7 @@ data:	phrase; {toqvIr} (n)
 tlh:	{toQ}
 sv:	en slags «fågel» («rovfågel») (s)
 en:	type of «bird» (bird of prey) (n)
-def:	[KLI's mailing list 1997-04-04]
+def:	[KLIML 1997-04-07]
 ref:	[HQ10:4 p.5]
 
 tlh:	{toQDuj}
@@ -12219,9 +12389,10 @@ en:	be <patient> (v)
 def:	[TKD]
 
 tlh:	{tuy'}
-sv:	spotta (v)
-en:	«spit» (v)
-def:	[HQ12:4 p.8]
+sv:	«spotta» ut (om vätska) (v)
+en:	«spit» out (liquids) (v)
+def:	[HQ12:4 pp.8--9]
+ref:	[NKW]
 com:	Used when spitting out saliva and/or other liquids. Not used when
 	spitting out solid things. [HQ12:4 p.9]
 see:	{tlhepQe'} "saliva" (n); {bol} "drool" (v); {tlhIS} "spit out" (v)
@@ -12369,6 +12540,7 @@ tlh:	{tlhepQe'}
 sv:	«saliv», «spott» (s)
 en:	«saliva» (n)
 def:	[HQ12:4 p.8]
+ref:	[NKW]
 see:	{tIl} "salivate" (v); {bol} "drool" (v); {tuy'} "spit" (v)
 
 tlh:	{tlher}
@@ -12484,13 +12656,14 @@ en:	<stew> (n)
 def:	[KGT]
 
 tlh:	{tlhIS}
-sv:	«spotta» ut (v)
-en:	<spit> out (v)
-def:	[KGT]
+sv:	«spotta» ut (föremål) (v)
+en:	<spit> out (solid thing) (v)
+def:	[KGT; HQ12:4 pp.8--9]
+ref:	[NKW]
 com:	Used when spitting out solid things, possibly accopanied by some
 	saliva. Not used when just spitting saliva, or when spitting out
 	liquid. [HQ12:4 p.9]
-see:	{tuy'} "spit" (v)
+see:	{tuy'} "spit out (liquids)" (v)
 
 tlh:	{tlhIv}
 sv:	vara «olydig», vara «upprorisk» (mot överordnad) (v)
@@ -12584,7 +12757,7 @@ see:	{'Iq}
 tlh:	{tlhoy'}
 sv:	«vägg», innervägg, insida av yttervägg, territorial«mur» (s)
 en:	«wall», interior wall, interior face of exterior wall, territorial
-	wall (n) 
+	wall (n)
 def:	[News 1998-12-07]
 
 tlh:	{tlhoy' SaS}
@@ -12727,12 +12900,34 @@ sv:	«Valkris» (namn)
 en:	«Valkris» (name)
 def:	[TKD 5.6 (p.58)]
 
-tlh:	{van}
+tlh:	{van} (1)
 sv:	«hälsa», «salutera» (v)
 en:	<salute> (v)
 def:	[TKD]
 ref:	[TKW p.83]
 data:	KLCP-1
+
+tlh:	{van} (2)
+sv:	avsluta (en händelse, t.ex. resa, strid, sång) (v)
+en:	end (an event, e.g. a voyage, battle, song) (v)
+def:	[HQ12:2 p.8]
+ref:	[NKW]
+gram:	participants end the event
+see:	{Dor} (2), {ghang}
+com:	"When an event over which one has some control ends (one can't cause a
+	month to end), a different verb is used: {van}. This would apply to
+	such things as voyages, battles, plays, operas, stories, and songs.
+	Here, the event (the voyage, the song) doesn't end; the participant in
+	the event or the perpetrator of the event ends it. For example: {leng
+	vanDI' SuvwI'pu' 'IQ chaH} 'At the end of the voyage, the warriors are
+	sad.' {bom vanDI' SuvwI'pu' tlhutlh chaH} 'At the end of the song, the
+	warriors drink.'---Literally, these sentences mean 'When the warriors
+	end the voyage, they are sad' ({leng} <voyage>, {-DI'} <when>,
+	{SuvwI'pu'} <warriors>, {'IQ} <be sad>, {chaH} they) and 'When the
+	warriors end the song, they drink' ({bom} <song>, {tlhutlh} <drink>)."
+	[HQ12:2 p.8]; "Maltz said he wasn't sure whether {van} <end> and {van}
+	<salute> were really the same word, but he found it interesting that
+	Klingons end things by saluting them." [HQ12:2 p.8]
 
 tlh:	{van}
 sv:	«hyllning», «honnör», «hälsning» (s)
@@ -12824,7 +13019,7 @@ def:	[KGT]
 tlh:	{vay'}
 sv:	«något», «någon», «någonting» (s)
 en:	<somebody>, «someone», «something»,
-	«anybody», <anyone>, «anything», (n)
+	«anybody», <anyone>, «anything» (n)
 def:	[TKD]
 ref:	[TKW pp.88, 109, 129, 149, 157, 167]
 com:	Entries differ and have been combined here.
@@ -13537,7 +13732,7 @@ tlh:	{woj}
 sv:	«sterilisera» (v)
 en:	<sterilize> (v)
 def:	[KGT]
-com:	DON'T USE THIS WORD.
+com:	WARNING - DON'T USE THIS WORD.
 	Oops! MO seem to have canonified an error occuring on KLI's
 	list of new words, originally caused by a slip of the eye
 	while reading/transcribing the {veS QonoS} list in HQ1:3 p.9.
@@ -13608,6 +13803,7 @@ tlh:	{wuD}
 sv:	«snarka» (v)
 en:	«snore» (v)
 def:	[HQ12:4 p.8]
+ref:	[NKW]
 
 tlh:	{wup}
 sv:	«brista ut i sång» (v)
@@ -13826,8 +14022,8 @@ en:	«domain», «holdings», «territory» (n)
 def:	[News 1998-12-07]
 
 tlh:	{yergho}
-sv:	stads«mur» (s)
-en:	«wall» of a city (n)
+sv:	«stads«mur»» (s)
+en:	«city «wall»» (n)
 def:	[News 1998-12-07]
 
 tlh:	{yev}
@@ -14288,15 +14484,11 @@ sv:	«sticka», «stinga», «svida», göra «ont» (v)
 en:	<sting> (v)
 def:	[TKD]
 
-tlh:	{'ay'} (1)
-sv:	«sektion» (s)
-en:	<section> (n)
-def:	[TKD]
-
-tlh:	{'ay'} (2)
-sv:	«del», «komponent», «bit», «stycke» (s)
-en:	<part>, <component>, <piece> (n)
-def:	[KGT]
+tlh:	{'ay'}
+sv:	«sektion», «del», «komponent», «bit», «stycke» (s)
+en:	<section>, <part>, <component>, <piece> (n)
+def:	[TKD, KGT]
+src:	"section" [TKD]; "part", "piece", "component" [KGT]
 
 tlh:	{'eb}
 sv:	«möjlighet», «chans», «öppning» (s)
@@ -14333,8 +14525,8 @@ en:	<ready>! (excl)
 def:	[TKD 5.5 (p.57) et al.]
 
 tlh:	{'ej}
-sv:	«och» (förenar meningar) (konj)
-en:	<and> (joining sentences) (conj)
+sv:	«och» (kommer mellan förenade meningar) (konj)
+en:	<and> (comes between joined sentences) (conj)
 def:	[TKD]
 ref:	[TKW pp.5, 8, 13, 101, 197, 211]
 
@@ -14374,7 +14566,8 @@ tlh:	{'em}
 sv:	«kräkas», «spy» (v)
 en:	«vomit» (v)
 def:	[HQ12:4 p.8]
-see:	{quy'Ip} is the name for the matter vomited
+ref:	[NKW]
+see:	{quy'Ip} (name for the matter vomited)
 
 tlh:	{'em}
 sv:	«bakom», område bakom (s)
@@ -14397,9 +14590,10 @@ cat:	landscape
 data:	KLCP-1
 
 tlh:	{'ep}
-sv:	«konsumera» soppa, konsumera gryta (v)
-en:	<consume> soup (v)
+sv:	«konsumera» «soppa», konsumera «gryta» (v)
+en:	<consume> «soup», «eat» soup (v)
 def:	[KGT]
+com:	"eat" is included as a lookup synonym (does not occur in sources)
 
 tlh:	{'eq}
 sv:	vara «tidig» (v)
@@ -14410,6 +14604,13 @@ tlh:	{'er}
 sv:	ett slags «djur» (s)
 en:	type of <animal> (n)
 def:	[TKD]
+
+tlh:	{'er'In}
+sv:	«ände» (på pinne, tråd etc.; motsatt {megh'an}) (s)
+en:	«end» (of stick, piece of string etc.; opposite {megh'an}) (n)
+def:	[HQ12:2 pp.6--8]
+ref:	[NKW]
+see:	{megh'an}
 
 tlh:	{'eS}
 sv:	vara «låg» (v)
@@ -14432,8 +14633,7 @@ tlh:	{'ev}
 sv:	område nordvästerut, område i «nordväst» (s)
 en:	area northwestward, area towards the «northwest» (n)
 def:	[News 1999-11-21]
-com:	"320 degrees on terran compass" according to the KLI new
-	words list.
+com:	"320 degrees on terran compass" [KLI]
 cat:	locative
 
 tlh:	{'evnagh}
@@ -14542,7 +14742,15 @@ tlh:	{'IqnaH}
 sv:	«snor», «slem» (s)
 en:	«mucus» (n)
 def:	[HQ12:4 p.8]
+ref:	[NKW]
 see:	{chuy}
+
+tlh:	{'IqnaH QaD}
+sv:	torrt slem, torrt snor (s)
+en:	dry mucus, booger(?) (n)
+def:	[HQ12:4 p.8]
+ref:	[NKW]
+data:	phrase
 
 tlh:	{'IQ}
 sv:	vara «sorgsen», vara «nerstämd» (v)
@@ -14685,7 +14893,7 @@ com:	Entries differ and have been combined here.
 
 tlh:	{'op}
 sv:	«någon», «något», «några», en «del», en okänd eller ospecificerad
-	mängd (s) 
+	mängd (s)
 en:	<some>, an unknown or unspecified quantity (n)
 def:	[KGT]
 
@@ -14780,6 +14988,13 @@ sv:	ett slags «trumma» (s)
 en:	type of <drum> (n)
 def:	[KGT]
 
+tlh:	{'o'megh}
+sv:	«avsluting», «slut» (på sång) (s)
+en:	«end» (of song) (n)
+ref:	[HQ12:2 p.9]
+ref:	[NKW]
+see:	{lIH}, {namtun}
+
 tlh:	{'uch}
 sv:	«hålla» (i), «gripa» (om) (v)
 en:	<hold>, <grasp> (v)
@@ -14859,9 +15074,9 @@ data:	phrase
 
 tlh:	{'up}
 sv:	vara «smaklös», vara «äcklig», vara «frånstötande», vara
-	«avskyvärd», vara «motbjudande», vara «osmaklig» (v) 
+	«avskyvärd», vara «motbjudande», vara «osmaklig» (v)
 en:	be <unsavory>, be <disgusting>, be <repugnant>, be <loathsome>, be
-	icky (v) 
+	icky (v)
 def:	[KGT]
 
 tlh:	{'uQ}
@@ -14941,8 +15156,8 @@ tlh:	{lo' law'}
 sv:	«» (s)
 en:	«utility» (preceeds noun it modifies) (n)
 def:	[BoP]
-com:	¿?I'm sceptic. Is this a real word or only some KLI new
-	words list maintainer's wet dream?
+com:	WARNING - ¿?I'm sceptic. Is this a real word or only some KLI new words
+	list maintainer's wet dream? [KLI]
 data:	phrase
 
 tlh:	{yo'SeH yaHnIv}
@@ -14957,16 +15172,19 @@ tlh:	{bo}
 sv:	«fjäder» (på fågel) (s)
 en:	«feather» (n)
 def:	[HQ10:4 p.5]
+ref:	[KLI]
 
 tlh:	{borghel}
 sv:	ett slags «fågel» (väldigt liten, dess ägg anses mycket goda) (s)
 en:	type of «bird» (very small, its eggs are considered quite tasty) (n)
 def:	[HQ10:4 p.4]
+ref:	[KLI]
 
 tlh:	{bo'Degh}
 sv:	«fågel» (s)
 en:	«bird» (n)
 def:	[HQ10:4 p.4]
+ref:	[KLI]
 com:	general word for bird-like creature
 
 tlh:	{cha'bIp}
@@ -15058,7 +15276,7 @@ tlh:	{ngun}
 sv:	«sätta» sig, «slå» sig ner (v)
 en:	«perch» (v)
 def:	[HQ10:4 p.5]
-com:	If bird lands on land, use Saq, on water, use tlhot.
+com:	If bird lands on land, use {Saq}, on water, use {tlhot}.
 
 tlh:	{parbIng}
 sv:	en slags «fågel» (mellanstorlek, med särskilt grälla färger) (s)
@@ -15227,7 +15445,6 @@ com:	"And when the nose of the plane moves up or down, the plane is said
 	with either its hind legs or its front legs, it is able to pitch or
 	tilt up or down.)" [HQ11:2 p.9]
 
-
 tlh:	{jIm}
 sv:	«höja», «sänka» (om flygmaskin) (v)
 en:	«heave» (about aircraft) (v)
@@ -15255,6 +15472,7 @@ com:	"if it suddenly moves forwards or backwards" [HQ11:2 p.9]
 tlh:	{tajvaj}
 sv:	«vinkel» (s)
 en:	«angle» (n)
+def:	[HQ11:2 p.9]
 see:	{taH}
 
 
@@ -15576,6 +15794,7 @@ tlh:	{-pu'}
 sv:	perfektiv (vs7)
 en:	perfective (vs7)
 def:	[TKD 4.2.7 (p.41)]
+ref:	[HQ12:2 p.9]
 
 tlh:	{-qang}
 sv:	villig (vs2)
@@ -15617,6 +15836,7 @@ tlh:	{-ta'}
 sv:	utfört, gjort (vs7)
 en:	accomplished, done (vs7)
 def:	[TKD 4.2.7 (p.41)]
+ref:	[HQ12:2 p.9]
 
 tlh:	{-vIp}
 sv:	rädd (vs2)
@@ -15761,7 +15981,7 @@ tlh:	{-vaD}
 sv:	för, avsedd för (ss5)
 en:	for, intended for (ns5)
 def:	[TKD 3.3.5 (p.28); TKDa 6.8 (p.180)]
-com:	Used to indicate indirect objects. 
+com:	Used to indicate indirect objects.
 
 tlh:	{-vam}
 sv:	den här, de här (ss4)
@@ -15845,6 +16065,33 @@ SUGGESTIONS FOR IMPROVEMENT OF THE POCKET DICTIONARY
   o Cross references between irregular plural and singular forms.
     (E.g. {mang} refers to {negh} and vice versa.)
 
+  o Add option of having free text for an entry which need further explanation,
+    (e.g. {Hoch}):
+
+    Current entry:
+
+        {Hoch} /n/ everyone, all, everything, each, every [TKD, TKW]
+
+    Suggested new entry:
+
+        {Hoch} /n/ everyone, all, everything, each, every [TKD, TKW]
+
+          {Hoch} noun(sg) "each X"
+          {Hoch} noun(pl) "all X"
+          noun {Hoch} "all of the X"
+
+Most quantity words appear to behave like numbers and come before the noun: Hoch X 
+
+     X {Hoch} "all of X" [KGT p. 155]
+       {nIn Hoch} "all of the fuel" [KGT p. 155]
+     {Hoch} X(sg) "each X" [HQ 5:2 p.11]
+       {Hoch nuH} "every weapon" [KGT p.108]
+     {Hoch} X(pl) "all the Xs" [HQ 5:2 p.11]
+       {Hoch jaghpu'Daj} "all his enemies" [KGT p.107]
+     {'op} X "some Xs" [S7],
+     {latlh} X "(an)other X/Xs" [S31],
+     {bID} X "half an X, a half X" [BOP] 
+
   o A change of layout in the English--Klingon part, so that it looks
     something like this (typographic key: |sans serif| /italic/ {bold})
 
@@ -15878,14 +16125,14 @@ SUGGESTIONS FOR IMPROVEMENT OF THE POCKET DICTIONARY
     Let's take a look at the word defined as "<buddy>, <pal>, <close male
     <friend>> of a male (n)" in the database below. Currently you can find
     the entries:
-    
+
        _buddy_ /n/ {maqoch} pal, close male friend of a male
        _close male friend_ /n/ {maqoch} buddy, pal, ~ of a male
        _friend_ /n/ {maqoch} buddy, pal, close male ~ of a male
        _pal_ /n/ {maqoch} buddy, close male friend of a male
-       
+
     But I think this should instead be represented as:
-    
+
        _buddy_ /n/ {maqoch} pal, close male friend of a male
        _close male friend_ /n/ ~ of a male {maqoch} buddy, pal
        _friend_ /n/ close male ~ of a male {maqoch} buddy, pal
@@ -15943,7 +16190,6 @@ PARTS-OF-SPEECH
     vs#      vs#      verb suffix type # (# is 1--9)
     ns#      ss#      noun suffix type # (# is 1--5)
 
-
 SOURCES REFERENCES AND ABBREVIATIONS
 
     TKD    The Klingon Dictionary (Book)
@@ -15954,7 +16200,7 @@ SOURCES REFERENCES AND ABBREVIATIONS
     KCD    Star Trek: Klingon! (CD-ROM Game)
     MO     Marc Okrand (personally)
     HQ     HolQeD (Quarterly journal of KLI)
-    KLI    KLI's {tlhIngan-Hol} mailing list.
+    KLIML  Klingon Language Institute's mailing list, {tlhIngan-Hol}.
     News   Posting to any Klingon newsgroup (usually by MO himself) (Over
            time the names of these newsgroups have changed quite a bit.)
     S#     SkyBox trading card number #.
@@ -15963,144 +16209,130 @@ SOURCES REFERENCES AND ABBREVIATIONS
     BoP    Bird-of-Prey poster, 1998
     STE    Star Trek Encyclopedia (used for some English translations)
     ST#    Star Trek movie, No. #
-
-
-TODO
-
-  o make sure that all words on http://teresh.tdonnelly.org/klinewest.html and
-    http://www.kli.org/tlh/newwords.html are present in the dictionary
-
-  o stoppa in «...» (där så behövs) i klingonska ord (tlh:) som innehåller
-    mellanslag
-
-  o Svenska översättningen av "officer" = officer där det borde vara "personal"
-    eller "tjänsteman" eller dyl.? [2006-08-22]
-
-  o Check all Klingon words ending {-moH} and mark them "data: derived form"
-    where appropriate.
-
-  o Create part-of-speech field, and move part-of-speech info there (removing
-    trailing POS-definitions from the end of the english and swedish
-    translation fields. (How should entries marked "(slang)" etc. be handled?)
-
-  o Remove brackets from "def" and "ref" fields. (Are there any problems in
-    doing this?)
+    KLI    KLI's "Klingon Words Not in The Klingon Dictionary"
+           [http://www.kli.org/tlh/newwords.html]
+           The Klingon Language Institute's list of new words. Last cited
+           source seems to be HolQeD 12:4 (published December 2003).
+    NKW    "The Newest Klingon Words"
+           [http://teresh.tdonnelly.org/klinewest.html]
+           Terrence Donnelly's list of new words, copyright 2005. This list has
+           no source references, but has nontheless been important in hunting
+           down some of the more elusive newer words for inclusion.
 
 HISTORY (LATEST CHANGES FIRST)
 
-    [??] -- TODO: Add markup for the question words, adverbs etc. given for
-    KLCP level 1. Add markup for KLCP level 2. Put all that markup in the
-    »cat:« field, rather in the current »data:« field.
+    [2010-07-25] Added words from HQ12:2 ({bertlham}, {bI'reS} etc.); started
+    to add "ref: [KLI]" for, up to {bI'reS} words occuring on KLI's list of new
+    words; started to check dictionary against Terrence Donnelly's list of new
+    words (denoted "NKW"); separated TODO list into separate file
 
-    TODO:
+    [2010-05-12] Removed erraneous comma in {vay'}, occuring at the very end of
+    the English definition, added missing source reference for {tajvaj}
 
-      o continue extraction of words in "2003-09--holqed.txt", from {wogh} and
-        onwards.
+    [2010-05-11] Corrected dashes. Now uses LaTeX conventions of "-" for
+    hyphen, "--" for en-dash and "---" for em-dash.
 
-      o Add words present in the KGT main text (mainly some names, e.g.
-        "Kayvak", "digna", "ka'raj", "bregit", "Saurian", "raktaj" etc.).
-
-    [2006-08-28] -- Corrected "Take'ev" to "Tak'ev" in the translation of
+    [2006-08-28] Corrected "Take'ev" to "Tak'ev" in the translation of
     {taq'ev}, "challange" to "challenge" in translation of {nalqaD}, and
     erroneous {qom} ("compose") to {qon) (thanks to Stevo
     <MorphemeAddict@wmconnect.com> for reporting the errors---some years ago
     actually [I'm not good at reading my mail]).
 
-    [2006-08-22, 03:51-05:43] -- Added words from HolQeD 12:3. {HoQ}, {Qaq},
+    [2006-08-22, 03:51-05:43] Added words from HolQeD 12:3. {HoQ}, {Qaq},
     {ghet}, {mIl}, {DavHam}, {nguq}, {'eDjen} (did not include {HoQmoH},
     {mIlmoH} and {QaqmoH}). Also added additional definition of {'utlh} from
     KGT, and several comments to other words mentioned by MO in HolQeD 12:3.
 
-    [2006-08-21, 15:05-17:02] -- Added the rest of the words from HolQeD 12:4.
+    [2006-08-21, 15:05-17:02] Added the rest of the words from HolQeD 12:4.
     {jev}, {wuD}, {ruq}, {Qep'It}, {'em}, {quy'Ip}, {bur}, {bor}, {chuy},
     {'IqnaH}, {tuS}, {qo'qaD}, {tlhepQe'}, {tIl}, {tuy'} and {Serrum}. Changed
     field names of language fields "klin", "eng", and "sve" (to "tlh", "en" and
     "sv", respectively). The new names are taken from the ISO639-1 and ISO639-2
     standard language abbreviation charts.
 
-    [2006-08-21, 06:01-06:21] -- Started adding the words from HolQeD 12:4:
+    [2006-08-21, 06:01-06:21] Started adding the words from HolQeD 12:4:
     {porghQeD}, {porgh mIw}, {pur} and {rech}.
 
-    [2003-11-30] -- Added markup for the 46 affixes required for the KLCP
+    [2003-11-30] Added markup for the 46 affixes required for the KLCP
     level 1. This has not been as thoroughly checked as the added words, but I
     would never the less be surprised if there were any errors of note.
 
-    [2003-11-29] -- Added markup for the 502 words given in the KLCP (Klingon
+    [2003-11-29] Added markup for the 502 words given in the KLCP (Klingon
     Language Certification Program) level I. This was very carefully done and
     double checked with scripts. 100% accurate. Some unclarities were found in
     the list list, and I email {Holtej} for explanations. The idea of marking
     words belonging to the KLCP level 1 was given to me by Philip Newton
-    (thanx Philip!). -- Also added the »cat:« category »time« for time related
+    (thanx Philip!). Also added the »cat:« category »time« for time related
     words (times of day, time related verbs etc.).
 
-    [2003-11-17] -- Corrected {beqquj} to {beqpuj} (thanks to Philip Newton
+    [2003-11-17] Corrected {beqquj} to {beqpuj} (thanks to Philip Newton
     <tlhIngan-Hol@gmx.net> for spotting the error).
 
-    [2003-11-10] -- Added the word {DoHmoH} after anonymous tip from the KA
+    [2003-11-10] Added the word {DoHmoH} after anonymous tip from the KA
     webpage (this word was apparently the word of the day Saturday, July 19,
     2003). Also added "dragon" as a translation of {lung}, which I found when
     looking at the source for {DoHmoH}. (Both of these occur on pages 48--19 of
     KGT.)
 
-    [2002-09-11] -- Corrected the Klingon spelling of "Dikus plant" from
+    [2002-09-11] Corrected the Klingon spelling of "Dikus plant" from
     {Daypus} to {DayquS}. Thanks to d'Armond Speers [USA] for pointing out the
     error!
 
-    [2002-06-28] -- Translated the words from HQ10:4 p.5 into Swedish.
+    [2002-06-28] Translated the words from HQ10:4 p.5 into Swedish.
 
-    [2002-03-09] -- Corrected the Klingon spelling of "racht" from {taHta'}
+    [2002-03-09] Corrected the Klingon spelling of "racht" from {taHta'}
     to {raHta'}. Thanks to Agnieska Solska [Poland] for pointing out the
     error!
 
-    [2002-01-21] -- Added the 35 new words ({po Ha'DIbaH} excepted since it
+    [2002-01-21] Added the 35 new words ({po Ha'DIbaH} excepted since it
     really isn't a "new word") from MO's article in HQ10:4. Most of these
     words are about birds.
 
-    [2001-08-23] -- Added some 27 new words related to fingers and toes, and
+    [2001-08-23] Added some 27 new words related to fingers and toes, and
     everything else from the HQ10:2 article "A Friend of Maltz: {nItlhDu'
     yaDDu' je}". The following three words had to be given lemma numbers,
     since they were homonymous to other words already present in the
     dictionary: {nanwI'}, {qan}, {rIl}. Re-sorted these history events into
     proper order (they were in disarray).
 
-    [2001-03-20] -- Added the field "data:".
+    [2001-03-20] Added the field "data:".
 
-    [2001-03-19] -- Added the word "be" before occuring adjectivals where it
+    [2001-03-19] Added the word "be" before occuring adjectivals where it
     was previously missing in the translations of the words: {ghuS}, {Huv},
     {naQ}, {nI'}, {noy}, {poS}, {tIq} and {'Itlh}. (Machine-parsed out all
     occurances of stative verbs [=verbs whose translation contains the word
     "be"] and hand checked those on the list which had both active and static
     translations. Thus I found and corrected these "errors".)
 
-    [2001-02-12] -- Added the new word {tangqa'} from HQ 9:4.
+    [2001-02-12] Added the new word {tangqa'} from HQ 9:4.
 
-    [2001-01-06] -- Added the word {mevyap} (Why on earth haven't I found
-    this before! -- I must check the KGT more thoroughly!)
+    [2001-01-06] Added the word {mevyap} (Why on earth haven't I found
+    this before!---I must check the KGT more thoroughly!)
 
-    [2000-11-01] -- Added Swedish translation "åker" to {yotlh}, tagged some
+    [2000-11-01] Added Swedish translation "åker" to {yotlh}, tagged some
     more words with "cat: landcape" and "cat: body part".
 
-    [2000-10-24] -- Made sure all references to TKD & TKDa had section
+    [2000-10-24] Made sure all references to TKD & TKDa had section
     numbers, and not just page numbers.
 
-    [2000-10-20] -- Updated all verb suffix source references to include
+    [2000-10-20] Updated all verb suffix source references to include
     section numbers. Also added some comments of useage for the rovers and
     type 9 verb suffixes.
 
-    [2000-10-13] -- Added the "see:" field, and changed most "see also"
+    [2000-10-13] Added the "see:" field, and changed most "see also"
     refereces into these instead.
 
-    [2000-10-11 to 2000-10-12] -- Added 24 new words from the latest issue of
+    [2000-10-11 to 2000-10-12] Added 24 new words from the latest issue of
     HolQeD (most of these are names of different family relations) and added
     some additional comments to {chen} from the same source. Translated the
     new words into Swedish.
 
-    [2000-10-09] -- Changed italics marker to "~" instead of "+" (this makes
+    [2000-10-09] Changed italics marker to "~" instead of "+" (this makes
     this dictionary follow the ~Project Gutenberg~ specifications in this
     regard). Added category "locative" (for words like "inside", "area below"
     etc.) and "math" (for words like "add", "divide", the numbers etc.).
 
-    [2000-09-09] -- Checked that all sequences of lemma numbers are complete
+    [2000-09-09] Checked that all sequences of lemma numbers are complete
     (i.e. begins with 1, and counts up without any skipped numbers) and that
     all homonymns with the same part-of-speech are tagged with lemma numbers.
     Checked that this database is sorted correctly: first after Klingon word,
@@ -16108,33 +16340,33 @@ HISTORY (LATEST CHANGES FIRST)
     conj) and finally after lemma numbering (lemma numbers are given
     chronologically, with the lowest number to the first defined word).
 
-    [2000-09-08] -- Introduced lemma numbering for homonyms of same word
+    [2000-09-08] Introduced lemma numbering for homonyms of same word
     class.
 
-    [2000-08-14] -- Removed the word {Soq} from S33 (now confirmed to be
+    [2000-08-14] Removed the word {Soq} from S33 (now confirmed to be
     incorrect).
 
-    [2000-07-31] -- Translated "skink" and "blow one's top" into Swedish.
+    [2000-07-31] Translated "skink" and "blow one's top" into Swedish.
 
-    [2000-07-03] -- Changed italics marker from '*' to '+' to avoid
+    [2000-07-03] Changed italics marker from '*' to '+' to avoid
     confusions with useage of '*' as a literal letter (as three curses uses
     this).
 
-    [2000-05-09] -- Corrected some Swedish spelling errors.
+    [2000-05-09] Corrected some Swedish spelling errors.
 
-    [2000-05-03] -- Machine-checked Klingon graphotax. Machine-checked all
+    [2000-05-03] Machine-checked Klingon graphotax. Machine-checked all
     parenthetic structures (including ~xx~ used for italics). Machine-checked
     for lines ending in white space(s) (none found). Machine-checked for
     identical fields within same post (2 corrected) Checked that there is a
     matching «« or »» in the Swedish translation for each »», >>, «« or <<
     occuring in the English field.
 
-    [2000-04-30 to 2000-05-02] -- Sort tagged the remaining Swedish
+    [2000-04-30 to 2000-05-02] Sort tagged the remaining Swedish
     translations (about 1600) using a lot of ad hoc ARexx-code.
 
-    [2000-04-03] -- All references to MSN etc. corrected to ~News~ and
+    [2000-04-03] All references to MSN etc. corrected to ~News~ and
     provided with correct dates. Machine-checked all parentheses.
 
-    [2000-02-24] -- Part of speech for Swedish translation machine-checked.
+    [2000-02-24] Part of speech for Swedish translation machine-checked.
 
 [[eof]]
