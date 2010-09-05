@@ -2,6 +2,7 @@
 *~
 .#*
 .git
-.rsync
+.uploaded_beta
+.uploaded_release
 \#*\#
 *.db

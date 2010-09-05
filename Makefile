@@ -1,7 +1,33 @@
 # -*- makefile -*-
 #
-# Note: SSI HCOOP only works if the included page is *not* a script.
+# NOTE: Server-Side Includes on HCOOP only works if the included page is *not*
+# a script, but a plain HTML file.
 #
+
+###############################################################################
+##                                                                           ##
+##  Settings                                                                 ##
+##                                                                           ##
+###############################################################################
+
+# data for remote host (used by "beta" and "release" targets)
+REMOTE_HOST           := hcoop
+REMOTE_KERB_PRINCIPAL := zrajm@HCOOP.NET
+REMOTE_PATH_BETA      := klingonska.org/beta
+REMOTE_PATH_RELEASE   := klingonska.org/main
+
+TIMESTAMP_FILE_BETA   := .uploaded_beta
+TIMESTAMP_FILE_RELEASE:= .uploaded_release
+
+# options for uploading with rsync
+RSYNCFLAGS = --delete-after --delete-excluded --exclude-from=".gitignore"
+
+
+###############################################################################
+##                                                                           ##
+##  Functions                                                                ##
+##                                                                           ##
+###############################################################################
 
 # list of HTML files to generate
 generated_html_files = $(patsubst %.txt, %.html, \
@@ -10,27 +36,53 @@ generated_html_files = $(patsubst %.txt, %.html, \
 	canon/index.txt                          \
 )
 
-webpage := $(shell basename `pwd`)
+# Some terminal escape settings
+bold   = \\033[1m# Escape sequence for bold text
+normal = \\033[m#  Escape sequence to reset text settings
 
-krb_name = zrajm@HCOOP.NET #   # Kerberos principal name
-ssh_host = hcoop #             # host to connect to via SSH
-rsync    = .rsync #            # "rsync" target timestamp file
-rsync_options =       \
-    --delete-after    \
-    --delete-excluded \
-    --exclude-from=".gitignore"
+# Usage: $(call upload,REMOTE_HOST,REMOTE_PATH[,KERBEROS_PRINCIPAL])
+#
+# Uses rsync to upload stuff to REMOTE_PATH of REMOTE_HOST. If
+# KERBEROS_PRINCIPAL is specified (this also requires the appropriate GSSAPI
+# settings in ~/.ssh/config to work) then ACLs will be set for the uploaded
+# files (this only works on HCoop since the "fsr" command is used -- a
+# HCoop-specific recursive version of the normal "fs" command -- and the ACL
+# username is hardcoded as "zrajm.daemon").
+upload = \
+    if [ "$(3)" ]; then                                \
+        if klist | grep -q "Principal: $(3)$$"; then   \
+            echo "Got credentials,"                    \
+                 "password not needed ($(3))";         \
+        else                                           \
+            kinit "$(3)" || exit 1;                    \
+        fi;                                            \
+    fi;                                                \
+    rsync -Pa $(RSYNCFLAGS) . $(1):$(2);               \
+    if [ "$(3)" ]; then                                \
+        ssh "$(1)" "fsr setacl $(2) zrajm.daemon rl" & \
+    fi
 
-# Note: This returns a list of the updated files $(rsync) exist, otherwise it
-# returns nothing, which causes the rsync to proceed. (Because no dependancy =
-# always run.) 
-rsync_dep = $(shell [ -e $(rsync) ] && \
-    find -name .git -prune -o -type f -newer $(rsync) ! -name .rsync )
+# Usage: $(call upload_dependencies,TIMESTAMP_FILE)
+#
+# Returns a list of files changed after TIMESTAMP_FILE, or if no TIMESTAMP_FILE
+# exists, returns an empty list. (Because no dependancy = always run.)
+#
+# Never lists any of the files mentioned in .gitignore.
+upload_dependencies = $(shell [ -e $(1) ] &&      \
+    find -name .git -prune -o -type f -newer $(1) \
+        `sed 's/^/\\! -name /' .gitignore`        \
+)
 
+
+###############################################################################
+##                                                                           ##
+##  Targets                                                                  ##
+##                                                                           ##
+###############################################################################
 
 ## all - alias for "html"
 .PHONY: all
 all: html
-
 
 ## html - build HTML files (which files are build is given in Makefile)
 .PHONY: html
@@ -49,23 +101,30 @@ dict/%.html: dict/%.txt
 	@rm -f "$@"
 	@usr/bin/markdown2html "$?" --output="%.html"
 
-## clean - remove generated HTML files
+## clean - remove all generated files
 .PHONY: clean
 clean:
 	@rm -vf $(generated_html_files)
 
-## install - copy webpage to HCoop
-.PHONY: install
-install: all $(rsync)
+## beta - upload new beta to http://beta.klingonska.org/
+.PHONY: beta
+beta: all $(TIMESTAMP_FILE_BETA)
+$(TIMESTAMP_FILE_BETA): $(call upload_dependencies,$(TIMESTAMP_FILE_BETA))
+	@echo "$(bold)Uploading new beta to HCoop"                                  \
+	    "($(REMOTE_HOST):$(REMOTE_PATH_BETA))$(normal)";                        \
+	[ -e $@ ] && echo "Changed: $^";                                            \
+	$(call upload,$(REMOTE_HOST),$(REMOTE_PATH_BETA),$(REMOTE_KERB_PRINCIPAL)); \
+	touch $@
 
-
-$(rsync): $(rsync_dep)
-	@echo "\033[1mUploading \"$(webpage)\" to HCOOP\033[0m"
-	@echo Updated files: $(rsync_dep)
-	@klist -t || kinit $(krb_name)
-	rsync -Pa $(rsync_options) . $(strip $(ssh_host)):$(webpage)
-	@touch $(rsync)
-	@ssh $(ssh_host) "fsr setacl $(webpage) zrajm.daemon rl" &
+## release - upload new release to http://klingonska.org/
+.PHONY: release
+release: all $(TIMESTAMP_FILE_RELEASE)
+$(TIMESTAMP_FILE_RELEASE): $(call upload_dependencies,$(TIMESTAMP_FILE_RELEASE))
+	@echo "$(bold)Uploading new release to HCoop"                                  \
+	    "($(REMOTE_HOST):$(REMOTE_PATH_RELEASE))$(normal)";                        \
+	[ -e $@ ] && echo "Changed: $^";                                               \
+	$(call upload,$(REMOTE_HOST),$(REMOTE_PATH_RELEASE),$(REMOTE_KERB_PRINCIPAL)); \
+	touch $@
 
 ## help - Display this information
 .PHONY: help
