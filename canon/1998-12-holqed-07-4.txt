@@ -1,6 +1,7 @@
 [[
   [2000-08-27] OCR scanned by Zrajm C Akfohg.
   [2003-01-28] added file header
+  [2010-08-31] found {'avwI'} misstake in source when machine-parsing Klingon
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
@@ -169,7 +170,7 @@ MO: Exactly. I think that's an English thing to do. That's not a Klingon
 
     {qama' yu' 'avwI'. jatlh Qu'lIj DarIn'a'?}
 
-    {avwI' jang qama'. jatlh tugh. vIrInmeH taj vIpoQ.}
+    {avwI' jang qama'. jatlh tugh. vIrInmeH taj vIpoQ.} [[avwI':='avwI']]
 
     {mon 'avwI'. jatlh chotojmeH bInIDchu'ta'.}
 

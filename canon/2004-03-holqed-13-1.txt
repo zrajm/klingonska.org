@@ -7,7 +7,7 @@
     example phrases to conform to earlier transcript style
   [2008-05-07, 15:52-16:25] carefully checked spelling of all Klingon
     words/phrases against original
-
+  [2010-08-31] fixed transcription typo found when machine-parsing Klingon
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
@@ -295,7 +295,7 @@ what the English implies, one would
 use the normal {law'}/{puS}
 construction:
 
-{Quchwlj vIl law' QuchlIj vIl puS}
+{QuchwIj vIl law' QuchlIj vIl puS}
 my forehead is ridgier
 than your forehead
 

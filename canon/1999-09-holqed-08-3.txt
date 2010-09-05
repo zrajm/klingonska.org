@@ -1,6 +1,7 @@
 [[
   [2000-08-24] OCR scanned by Zrajm C Akfohg.
   [2003-01-29] added file header
+  [2010-08-31] fixed transcription typo found when machine-parsing Klingon
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
@@ -267,7 +268,7 @@ would be used in an exchange such
 as:
 
 A: {loSmaH romuluSngan
-   SuvwI'pu' HoHta' geng.}
+   SuvwI'pu' HoHta' qeng.}
 B: {SuD veqlargh mInDu'.}
 
 A: Kang killed 40 Romulan
