@@ -256,6 +256,13 @@
 
 ** TODO CSS: line width should max become something readable
 ** TODO <p> tag should default to align=justify
+* Build/check tools
+** usr/bin/klingon_spell_check
+*** Support for syllable {-oy}
+    Do I have this somewhere?
+*** Allow use for #...# words excepted from normal rules
+    E.g. "{#Quvatlh#}", or "{tlhIngan #badword# something}"
+*** Support " between words in Klingon
 * Article improvements
 ** TODO Title page
 *** Add some thing (javascript?) to indicate pages that have been recently updated
