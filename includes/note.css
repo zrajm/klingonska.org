@@ -1,0 +1,10 @@
+#head p.note {
+    background-color: yellow;
+    border: 2px solid black;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5em;
+    text-align: justify;
+    width: 75%;
+}
