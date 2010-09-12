@@ -48,26 +48,11 @@ sub apply_corrections {
     return wantarray ? @text : $text[0];
 }
 
-# sort by source reference
-sub by_source {
-    # get FILENAME:LINENUMBER strings
-    my ($a, $b) = (${$klingon_string{$a}}[0], ${$klingon_string{$b}}[0]);
-    # extract filename & line number
-    my ($file1, $line1, $file2, $line2) = map {
-        defined($_) ? /^(.*):(\d+)$/ : ("", 0);
-    } ($a, $b);
-    return ($file1 cmp $file2) || ($line1 <=> $line2);
-}
-
 my %klingon_string = ();
 {
     my $text = "";
     while (<>) {
-        #my $b = $_;
         $_ = apply_corrections($_);
-        # if ($_ ne $b && $b =~ m/:=/) {
-        #     print ">$b>$_\n";
-        # }
         chomp($_);
 
         s/^\s*/ /;
@@ -77,6 +62,17 @@ my %klingon_string = ();
         }
         close(ARGV) if eof;
     }
+}
+
+# sort by source reference
+sub by_source {
+    # get FILENAME:LINENUMBER strings
+    my ($a, $b) = (${$klingon_string{$a}}[0], ${$klingon_string{$b}}[0]);
+    # extract filename & line number
+    my ($file1, $line1, $file2, $line2) = map {
+        defined($_) ? /^(.*):(\d+)$/ : ("", 0);
+    } ($a, $b);
+    return ($file1 cmp $file2) || ($line1 <=> $line2);
 }
 
 foreach my $phrase (sort by_source keys %klingon_string) {
