@@ -4,21 +4,17 @@
 ** singing {taHjaj wo'}
 ** correspond in SMS:es
 
-* Transfer test.zrajm.org -> klingonska.org
-** DOING Figure out how to transfer control of klingonska.org Manufrog -> HCoop
-   zrajm.org har loopia.se som registrar
-   klingonska.org har spacepro.net som registrar
 
-*** DOING Request that SpacePro changes to HCoop's DNS
-    http://wdrp.name-services.com/whois.asp?key=771416DB433
-    Spacepro:
-    email: registry@spacepro.net
-    phone: +46 (0)8-545 75 00
-
-    Enligt deras webbsida: Brightness Reef AB | Östgötagatan 100 | 116 64 Stockholm | 08-556 00 310
-
-** DOING Change registrar from SpacePro to Loopia
-*** DOING What does Loopia need in order to transfer klingonska.org there?
+* DONE Transfer test.zrajm.org -> klingonska.org
+  CLOSED: [2010-09-03 Sat 00:44]
+** DONE Figure out how to transfer control of klingonska.org Manufrog -> HCoop
+   CLOSED: [2010-09-03 Fri 19:45]
+   zrajm.org has loopia.se as registrar
+   klingonska.org has spacepro.net as registrar
+** DONE Change registrar from SpacePro to Loopia
+   CLOSED: [2010-09-02 Thu 18:41]
+*** DONE What does Loopia need in order to transfer klingonska.org there?
+    CLOSED: [2010-09-02 Thu 18:40]
     EPP/auth-code: (message sent asking this to support@spacepro.net)
     Domain Name: klingonska.org
     Loopia customer number: FA07-15-07-06 (verified)
@@ -41,15 +37,24 @@
 
     Ref: https://mail.google.com/mail/?ui=2&shva=1#inbox/12a85dafd3a92ddf
 
-*** TODO Ta reda pa DNS-uppgifter som behovs
-*** TODO After move: verify that klingonska.org and zrajm.org have same whois settings
-    Compare http://whois.webhosting.info/zrajm.org and
-    http://whois.webhosting.info/klingonska.org
-** DOING Create mailing lists
-*** DOING Create 2040@klingonska.org on HCoop
+** DONE Update DNS for web klingonska.org @ HCoop
+   CLOSED: [2010-09-03 Fri 19:44]
+** DONE Move mailing lists
+   CLOSED: [2010-09-04 Sat 17:12]
+*** DONE Copy mailing list settings Manufrog -> HCoop for klingonska@
+    CLOSED: [2010-09-03 Fri 19:37]
+    http://mail.thaning.se/mailman/admin/klingonska_klingonska.org
+    https://lists.hcoop.net/admin/klingonska
+*** DONE Copy mailing list settings Manufrog -> HCoop for 2040@
+    CLOSED: [2010-09-03 Fri 19:21]
+    http://mail.thaning.se/mailman/admin/2040_klingonska.org
+    https://lists.hcoop.net/admin/2040
+*** DONE Create 2040@klingonska.org on HCoop
+    CLOSED: [2010-08-18 Wed 19:33]
 **** DONE Request new mailing list at https://members.hcoop.net/portal/list
      CLOSED: [2010-08-18 Wed 19:33]
-*** DOING Create klingonska@klingonska.org on HCoop
+*** DONE Create klingonska@klingonska.org on HCoop
+    CLOSED: [2010-09-03 Fri 15:58]
 **** DONE Request new mailing list at https://members.hcoop.net/portal/list
      CLOSED: [2010-08-18 Wed 19:33]
 *** DONE List current mailing lists on manufrog
@@ -60,27 +65,27 @@
      http://mail.thaning.se/mailman/admin/klingonska_klingonska.org/members/list
 *** DONE List mailman settings for 2040@klingonska.org on Manufrog
     CLOSED: [2010-08-18 Wed 17:58]
+    http://mail.thaning.se/mailman/admin/klingonska_klingonska.org
 *** DONE List mailman settings for klingonska@klingonska.org on Manufrog
     CLOSED: [2010-08-18 Wed 17:58]
-
-** TODO Eliminate dead links
-*** Figure out a way to fetch page and check links
-*** DONE canon/ has a whole bunch
-    CLOSED: [2010-08-09 Mon 03:02]
-    Quite a lot of trascripts have changed names.
+    http://mail.thaning.se/mailman/admin/2040_klingonska.org
+** DONE After move: verify that klingonska.org and zrajm.org have same whois settings
+   CLOSED: [2010-09-03 Fri 22:21]
+   Compare http://whois.webhosting.info/zrajm.org and
+   http://whois.webhosting.info/klingonska.org
 ** DONE Create mail aliases
    CLOSED: [2010-08-17 Tue 20:51]
-   * ->           zrajmc@gmail.com
-   adam ->        adam.thorp@swipnet.se
-   darnia ->      marie.engfors@gmail.com
-   joacim ->      jojo8043@student.tdb.uu.se
-   lrc ->         kalle.brisland@lillsjon.net
-   marie ->       marie.engfors@home.se
-   mp ->          mackampackam@gmail.com
-   newydd ->      newydd.maria@gmail.com
-   qanaq ->       mackampackam@gmail.com
+   *           -> zrajmc@gmail.com
+   adam        -> adam.thorp@swipnet.se
+   darnia      -> marie.engfors@gmail.com
+   joacim      -> jojo8043@student.tdb.uu.se
+   lrc         -> kalle.brisland@lillsjon.net
+   marie       -> marie.engfors@home.se
+   mp          -> mackampackam@gmail.com
+   newydd      -> newydd.maria@gmail.com
+   qanaq       -> mackampackam@gmail.com
    sekreterare -> mackampackam@gmail.com
-   troi ->        daniel_troi@hotmail.com
+   troi        -> daniel_troi@hotmail.com
 *** DONE List the current mail aliases on manufrog
     CLOSED: [2010-08-17 Tue 20:48]
 *** DONE How to config using domtool?
@@ -121,30 +126,114 @@
 *** piqad/play.cgi - ok
 **** need new header/footer though
 
-* THEREAFTER
-** Migrate old 2040 mailinglist archives to hcoop
-   Requires mailinglist archive in mbox format.
-   http://wiki.hcoop.net/MemberManual/Email/MailingLists#MigratinganExistingList
-** Migrate old klingonska mailinglist archives to hcoop
-   Requires mailinglist archive in mbox format.
-   http://wiki.hcoop.net/MemberManual/Email/MailingLists#MigratinganExistingList
-** Remove mail redirects from zrajm.org when klingonska.org is working
-** Set up 2040 wiki again
-** Redirect test.zrajm.org -> test.klingonska.org
-** Redirect 2040.klingonska.org -> 2040.zrajm.org
-** Automatic update of filedates listed in pages (using includes?)
-*** Restore file dates for all unchanged files
-** Improved file structure
-** Various small fixes, as wanted/needed
-** Change all faulty Latin-1 173 chars into proper hyphens/minuses
 
-* FUTURE
-** CC licence on entire site (except KLO?)
-** Web pages generated from templates & using Markdown
-** XHTML compliant
-** CSS-based design
-** "Typographical" quotes
-** Feedback form at end of each page (again)
+* DOING Makefile: Upload handling of beta.klingonska.org vs. klingonska.org
+** DONE improved directory structure on hcoop
+   CLOSED: [2010-09-05 Sun 00:09]
+   * klingonska.org/{beta,main,manufrog}
+   * zrajm.org/{main,2040}
+
+** DONE "make beta" -> upload beta version of site
+   CLOSED: [2010-09-05 Sun 04:49]
+   Should upload new site to hcoop:klingonska.org/beta.
+** DOING "make release" -> upload new official release of site
+*** DONE Uploads the site to main directory (http://klingonska.org/)
+    CLOSED: [2010-09-05 Sun 05:13]
+*** TODO Enforcing of tests?
+*** TODO Automatic tagging in git repo of uploaded material?
+    This seems problematic, as it would require all files to be checked in,
+    before upload (in order to have the directory tree and the repo being
+    competely concronized -- if they're not, the git tag doesn't really signify
+    anything).
+
+    Should add an official release tag in the git repository + upload new site
+    to hcoop:klingonska.org/main
+
+    http://ariejan.net/2009/09/05/git-tag-mini-cheat-sheet-revisited/
+
+
+* TODO FIXES
+** DOING Email
+*** DOING Loopia mail settings
+*** DONE Test that mails sent to zrajm@zrajm are received
+    CLOSED: [2010-09-03 Fri 22:28]
+*** DONE Fix email settings for zrajm.org
+    CLOSED: [2010-09-03 Fri 22:18]
+    Removed all attempted (but non-working) Google Apps settings for zrajm.org. 
+*** TODO Fix email settings for klingonska.org
+    Email should be handled by HCoop as well, not by Loopia. MX thingies in DNS
+    (on Loopia) should point to HCoop.
+*** TODO Copy HCoop email settings used on zrajm.org to klingonska.org
+*** TODO Configure Loopia to use this
+*** TODO Test that email to *@klingonska.org (still) works
+
+*** TODO Why can't I sent mail to zrajm@zrajm.org from gmail and have them wind up in my gmail inbox?
+    (This works excellently if I send mail to zrajm@klingonska.org.)
+*** TODO Remove mail redirects from zrajm.org when klingonska.org is working
+
+** DOING Mailing lists
+*** DOING Move mailing lists
+*** DOING test that aliases {qanaq,sekreterare}@klingonska.org works
+*** TODO Set up so that list.klingonska.org works for mailing lists
+*** TODO Migrate old klingonska mailinglist archives to HCoop
+    old: http://mail.thaning.se/pipermail/klingonska_klingonska.org/
+    new: https://lists.hcoop.net/pipermail/klingonska/
+
+    Requires mailinglist archive in mbox format.
+    http://wiki.hcoop.net/MemberManual/Email/MailingLists#MigratinganExistingList
+
+*** TODO Migrate old 2040 mailinglist archives to HCoop
+    old: http://mail.thaning.se/pipermail/2040_klingonska.org/
+    new: https://lists.hcoop.net/pipermail/2040/
+
+    Requires mailinglist archive in mbox format.
+    http://wiki.hcoop.net/MemberManual/Email/MailingLists#MigratinganExistingList
+*** TODO Delete mailing lists on manufrog
+    http://thaning.se:2082/frontend/rvskin/mail/lists.html?domain=klingonska.org
+
+** DONE Web redirects
+   http://klingonska.org/~USER -> external site
+   LRC emailed, asking why is redirect had stopped working 2010-09-07,
+   notifying me of the problem. I realized that there were settings in an old
+   Apache .htaccess file I had forgot to take into consideration in the new
+   HCoop setup. I copied the relevant rewriteRules from the Apache file to
+   HCoop's domtool, and web redirects seem to be up and working again.
+   CLOSED: [2010-09-08 Wed 20:34]
+
+** DOING Webpage
+*** TODO Find/eliminate faulty latin1 hyphens
+    173 chars into proper hyphens/minuses
+*** TODO Page "Updated" dates...
+**** TODO Automatic update of filedates listed in pages (using includes?)
+
+**** TODO Restore file dates for all unchanged files
+*** TODO Find/eliminate dead links
+**** TODO Eliminate dead links
+**** TODO Figure out a way to fetch page and check links
+**** TODO Add link check to Makefile
+**** TODO Dead links on canon/
+     Quite a lot of trascripts have changed names.
+
+*** TODO Delete old files on Manufrog (for 2040.klingonska.org & klingonska.org)
+*** TODO Set up 2040 wiki again
+
+*** DONE Redirect test.zrajm.org -> test.klingonska.org
+    CLOSED: [2010-09-03 Fri 22:19]
+*** DONE Redirect 2040.klingonska.org -> 2040.zrajm.org
+    CLOSED: [2010-09-08 Wed 20:48]
+
+
+* TODO ENHANCEMENTS
+** DOING Webpage
+*** TODO Add "site news"/updated page
+
+* TODO FUTURE
+** TODO CC licence on entire site (except KLO?)
+** TODO Web pages generated from templates & using Markdown
+** TODO XHTML compliant
+** TODO CSS-based design
+** TODO "Typographical" quotes
+** TODO Feedback form at end of each page (again)
    This is the old code, using SSI:
 
    <!-- ================== Feedback Form ================== -->
@@ -180,49 +269,95 @@
     <tr><td align=right valign=center><img src="/pic/dot.gif" width=15 height=14 alt="*" hspace=5></td>
 
 ** TODO "Some Songs in Klingon"
+*** prettify page (HTML instead of text pages)
 *** {taHjaj wo'}
 **** should have it's own subpage
 **** include lilypond score (and source)
 ** TODO "Archive of Okrandian Canon"
-*** Search engine improvements
+*** TODO canon/search/index.cgi
+**** query prefix "file:" to search only a specific file
+     This should allow globs and comma-separated file names, e.g.
+     "file:*holqed*", "file:*email,*news" etc.
+**** list of files should be available
+**** source file display should allow choice between original/corrected version
+     When displaying files, should implement button to change between
+     "original", "corrected" and "difference" views of the same text.
+
+     JavaScript version for this is there:
+     NOTE/2010-09-01-original+corrected-display/index.html
+
+     NOTE: <noscript> alternative is implemented in above HTML, but needs CGI
+     support to work as well (test this out using Firefox with JavaScript disabled).
+
+     [http://test.zrajm.org/canon/search/?file=1997-09-01c-news.txt&query=hello]
+*** TODO General corrections
+**** TODO Strip any trailing whitespace at eof (anywhere)
+**** TODO Machine-check Klingon syllable structure
+**** TODO Machine-extract & check that all words are in dict.zdb
+**** TODO Spell check English
+     (Should involve creating document-specific dictionaries so that it can be
+     fully automated in future.)
+**** TODO Check that all brackets match
+*** TODO Search engine improvements
 **** Add Chrome integration (some sort of open protocol?)
-*** Typography in main article
+*** TODO Typography in main article
 **** Should dashes in ISBN numbers be endash or hyphen sized?
      (Also make them non-line-breaking)
 **** Make ranges use non-line-breaking emdash
-*** New transcripts should be added to article/table
-*** Stuff to add/transcribe
-**** Add "KCD 1" (to "KCD 6" at least)
-      qa'vaj has transcribed KCD, (subject "KCD" etc in my gmail) 
-**** "Klingon words from _Diplomatic Implausibility_ (DI)"
-     (found in email to tlhingan-hol with same subject)
-**** Reference for {nIyma'}
-     http://mail.google.com/mail/#search/niyma'/11dcaa2b915a07df
-**** Reference for {pu'jIn}
-     http://mail.google.com/mail/?shva=1#search/jin+to%3Atlhingan-hol%40kli.org/125280bf1b4e53a6
-**** ST5 transcript
-     http://mail.google.com/mail/#label/imported/12a129c1002403f8
-**** DOING HolQeD 5:2 p.11 (article about {Hoch})
+*** TODO New transcripts should be added to article/table
+*** TODO Add "KCD 1" (to "KCD 6" at least)
+    qa'vaj has transcribed KCD, (subject "KCD" etc in my gmail) 
+*** TODO Add reference for {nIyma'}
+    http://mail.google.com/mail/#search/niyma'/11dcaa2b915a07df
+*** TODO Add reference for {pu'jIn}
+    http://mail.google.com/mail/?shva=1#search/jin+to%3Atlhingan-hol%40kli.org/125280bf1b4e53a6
+*** TODO Add ST5 transcript
+    http://mail.google.com/mail/#label/imported/12a129c1002403f8
+*** DOING Add "Klingon words from _Diplomatic Implausibility_ (DI)"
+    (found in email to tlhingan-hol with same subject)
+**** DONE Order book from UEB
+     CLOSED: [2010-08-26 Thu 19:47]
+**** TODO transcribe relevant portions
+*** DOING Add HolQeD 5:2 p.11 (article about {Hoch})
      Mentioned in:
      file:///home/zrajm/2010-07-08/teresh.tdonnelly.org/kliadd5.html
-***** DONE Transcribe
-      CLOSED: [2010-08-26 Thu 15:39]
-***** DONE Proofread
-      CLOSED: [2010-08-26 Thu 15:39]
-***** DONE Check page references
-      CLOSED: [2010-08-26 Thu 15:47]
-***** DONE Check quotes with their sources
-      CLOSED: [2010-08-26 Thu 15:47]
-***** DONE Check hyphenations
-      CLOSED: [2010-08-26 Thu 15:43]
-***** TODO Check that all brackets match
-***** TODO Machine-spellcheck English
-***** TODO Machine-spellcheck Klingon
-***** TODO "?{Hoch paq[mey]}" vs. "{paq[mey] Hoch}"
+**** TODO Email Mark about "?{Hoch paq[mey]}" vs. "{paq[mey] Hoch}"
+***** TODO Get Mark Shoulson's email address
+***** TODO Email him about it
       The question mark comes in front of the wrong sentence, does it not?
-      Write to Mark Shouldson and verify this.
-*** TODO Corrections for "canon/2003-06-holqed-12-2.txt"
-**** TODO Proofread
+**** DONE Transcribe
+      CLOSED: [2010-08-26 Thu 15:39]
+**** DONE Proofread
+      CLOSED: [2010-08-26 Thu 15:39]
+**** DONE Check page references
+      CLOSED: [2010-08-26 Thu 15:47]
+**** DONE Check quotes with their sources
+      CLOSED: [2010-08-26 Thu 15:47]
+**** DONE Check hyphenations
+      CLOSED: [2010-08-26 Thu 15:43]
+*** DONE HolQeD 7:2 p.8 spelling fix
+    CLOSED: [2010-08-31 Tue 21:35]
+    Check original article. {tlhlngan Hol Dajatlh 'e' vISov} should there
+    really be an {l} instead of an {I} here? 1998-06-holqed-07-2.txt Fixed
+    transcription typo.
+*** DONE HolQeD 7:4 p.4 spelling fix
+    CLOSED: [2010-08-31 Tue 21:45]
+    Check original article. {avwI' jang qama'. [...]} is the initial {'} really
+    missing? 1998-12-holqed-07-4.txt Typo in original source (added correction
+    comment).
+*** DONE HolQeD 8:3 p.4 spelling fix
+    CLOSED: [2010-08-31 Tue 21:47]
+    Check original article. {[...] SuvwI'pu' HoHta' geng.} should the {g} be a
+    {q}, perhaps? 1999-09-holqed-08-3.txt Fixed transcription typo.
+*** DONE HolQeD 13:1 p.10 spelling fix
+    CLOSED: [2010-08-31 Tue 21:51]
+    Check original article. {Quchwlj vIl law' QuchlIj vIl puS} should there
+    really be an {l} instead of an {I} here? 2004-03-holqed-13-1.txt Fixed
+    transcription typo.
+*** DONE Correct "canon/2003-06-holqed-12-2.txt"
+    CLOSED: [2010-08-26 Thu 19:45]
+**** DONE Proofread
+     CLOSED: [2010-08-26 Thu 19:45]
 **** DONE Transcript error: {'omeghqoq}
      CLOSED: [2010-08-26 Thu 09:46]
 **** DONE Transcript error: "song o opera"
@@ -248,10 +383,11 @@
 *** should contain a link to "The {pIqaD} Playground"
 *** links to wikipages for the various sounds?
 ** TODO "Klingon Pocket Dictionary"
-*** Search engine improvements
+*** TODO Search engine improvements
 **** Add Chrome integration (some sort of open protocol?)
-*** commit changes to git repos
-*** index.html
+*** TODO commit changes to git repos
+*** DONE index.html
+    CLOSED: [2010-08-26 Thu 19:49]
 **** DONE image captions should be same size as rest of text
      CLOSED: [2010-08-09 Mon 02:16]
 **** DONE new header
@@ -272,7 +408,7 @@
      CLOSED: [2010-08-09 Mon 02:16]
 **** DONE verify CSS
      CLOSED: [2010-08-09 Mon 02:16]
-*** intro.html
+*** DOING intro.html
 **** TODO update number of words in text
 **** TODO update url to "The Klingon Mailing List FAQ"
 **** DONE new header
@@ -295,7 +431,7 @@
      CLOSED: [2010-08-09 Mon 02:16]
 **** DONE verify CSS
      CLOSED: [2010-08-09 Mon 02:16]
-*** lexicon.cgi
+*** DOING lexicon.cgi
 **** TODO list of source reference abbreviations
 **** TODO forward/backward buttons to flip through the lexicon
 **** TODO typographical apostrophes, quotes and dashes
@@ -321,7 +457,7 @@
      CLOSED: [2010-08-09 Mon 02:19]
 **** DONE verify CSS
      CLOSED: [2010-08-09 Mon 02:19]
-*** tables.html
+*** DOING tables.html
 **** TODO add character names to "{pIqaD} Table" (?)
      http://cibo/dict/tables.html#piqad_table
 **** TODO typographical apostrophes, quotes and dashes
@@ -351,7 +487,7 @@
      CLOSED: [2010-08-09 Mon 02:18]
 **** DONE verify CSS
      CLOSED: [2010-08-09 Mon 02:18]
-*** suffix.html
+*** DOING suffix.html
 **** TODO user choice of pictures of UTF8 IPA characters
 **** TODO user choice of pictures of UTF8 {pIqaD} characters
 **** TODO table cells should be ended properly (with </td> & </tr>)
@@ -387,12 +523,12 @@
      CLOSED: [2010-08-09 Mon 02:17]
 *** DONE headings should be sans-serif
     CLOSED: [2010-08-09 Mon 02:19]
-*** replace all <b>...</b> with Klingon in to <strong lang="tlh>...</strong>
+*** TODO replace all <b>...</b> with Klingon in to <strong lang="tlh>...</strong>
     Done in dict/, check elsewhere.
-*** replace all relevant <i>...</i> with <em class="translation">...</em>
+*** TODO replace all relevant <i>...</i> with <em class="translation">...</em>
     Done in dict/, check elsewhere.
-*** dict.zdb
-**** Add words
+*** TODO dict.zdb
+**** TODO Add words
 ***** Make sure words from NKW and KLI lists are in the dictionary
       (and tagged in "ref:" field accordingly)
 ****** [NKW] http://teresh.tdonnelly.org/klinewest.html
@@ -403,9 +539,14 @@
       Terrence Donnelly says this means "to brew" and was mentioned somewhere,
       and people remarked that it was very much like "gin".
 ***** {qolqoS}, {'elI'jaH}, {wIlpuq}
-      http://mail.google.com/mail/#search/jIn/1217ffac4948e9ab
-***** {pu'jIn}
+      qolqoS n. Core of a group, the essential part of something; essence.
+      http://mail.google.com/mail/#search/jIn/1217ffac4948e9abw     
+      [[file://new_sources/1217ffac4948e9ab]]
+***** {pu'jIn} - "map"
       http://mail.google.com/mail/?shva=1#search/jin+to%3Atlhingan-hol%40kli.org/125280bf1b4e53a6
+***** {meyrI'} square [shape] (n.)
+      ("More from Maltz," HQ 14.2-3:21 < qep'a' 2005)
+      {meyrI'Daq 'oHtaH gho'e'} "The circle is in the square." [qep'a' 2005]
 ***** {nIyma'}
       http://mail.google.com/mail/#search/niyma'/11dcaa2b915a07df
 ***** HolQeD 10:2, p.10 word ({nan} (martial arts move))
@@ -415,12 +556,10 @@
 ***** HolQeD 12:3 words
       Continue extraction of words in "2003-09-holqed.txt", from {wogh} and
       onwards.
-
 ***** KGT main text words (names etc.)
       e.g. "Kayvak", "digna", "ka'raj", "bregit", "Saurian", "raktaj"
-     
-**** Re-sort dictionary
-**** Systematic corrections / new markup
+**** TODO Re-sort dictionary
+**** TODO Systematic corrections / new markup
 ***** Move part-of-speech info into own field
       (removing trailing POS-definitions from the end of the english and
       swedish translation fields. (How should entries marked "(slang)" etc. be
@@ -446,7 +585,7 @@
 ***** Consider new fields?
       [[file:NOTE/dict-field-ideas.txt][x]]
 ***** Mark lookup words in klingon words with spaces («...»)
-**** Minor/individual corrections
+**** TODO Minor/individual corrections
 ***** Add notes on puns
 ****** {pe'vIl} apparently is a private reference of MO's -- what?
 ****** {natlIS} "end of list" -- pun?
