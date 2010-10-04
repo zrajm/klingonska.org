@@ -189,36 +189,12 @@ binmode(STDOUT, ":encoding(utf8)");
 }
 
 
-
 ###############################################################################
 ##                                                                           ##
 ##  Settings                                                                 ##
 ##                                                                           ##
 ###############################################################################
 
-sub dump {
-    use Data::Dumper;
-    $Data::Dumper::Sortkeys = 1;
-    $Data::Dumper::Indent   = 1;
-    print "<pre>", Dumper(@_), "</pre>";
-}
-
-# Returns file modification time of this script.
-sub script_date {
-    my @time = localtime((stat $0)[9]);            # file modification date
-    return sprintf "%04u-%02u-%02u, %02u.%02u",    #   YYYY-MM-DD, HH.MM
-	1900+$time[5], 1+$time[4], @time[3,2,1];   #   year, month, day, hour, min
-}
-
-# Returns url of this script.
-# FIXME taint checks
-sub script_url {
-    my $url = "http://" . env("SERVER_NAME") . env("REQUEST_URI");
-    $url =~ s/\?.*$//;  #   chop off any "get" args
-    return $url;
-}
-
-# global settings
 sub FALSE { "" }
 sub TRUE  {  1 }
 our %cfg = (
@@ -260,6 +236,29 @@ my $path = ""; #"$ENV{DOCUMENT_ROOT}";               # path
 ##  Functions                                                                ##
 ##                                                                           ##
 ###############################################################################
+
+
+sub dump {
+    use Data::Dumper;
+    $Data::Dumper::Sortkeys = 1;
+    $Data::Dumper::Indent   = 1;
+    print "<pre>", Dumper(@_), "</pre>";
+}
+
+# Returns file modification time of this script.
+sub script_date {
+    my @time = localtime((stat $0)[9]);            # file modification date
+    return sprintf "%04u-%02u-%02u, %02u.%02u",    #   YYYY-MM-DD, HH.MM
+	1900+$time[5], 1+$time[4], @time[3,2,1];   #   year, month, day, hour, min
+}
+
+# Returns url of this script.
+# FIXME taint checks
+sub script_url {
+    my $url = "http://" . env("SERVER_NAME") . env("REQUEST_URI");
+    $url =~ s/\?.*$//;  #   chop off any "get" args
+    return $url;
+}
 
 sub env {
     my ($envname) = @_;
@@ -388,6 +387,7 @@ EOF
 <meta name="geo.placename" content="Europe, Sweden, Uppsala, Kåbo" />
 <meta name="geo.position" content="59.845658;17.630797" />
 <link rel="stylesheet" type="text/css" href="../../includes/page.css" />
+<link rel="stylesheet" type="text/css" href="../../includes/dict-layouttable.css" />
 $javascript</head>
 <body>
 
@@ -584,7 +584,7 @@ sub old_form {
     # "Clean Up Query" link
     my $clean_link = "";
     unless ($query_clean eq $form{query}) {     # is query string messy?
-        $clean_link = "\n      <br />" .        #   create "clean up" link
+        $clean_link = "\n      <br />&nbsp;" .  #   create "clean up" link
             "<a href=\"$cfg{SCRIPT_URL}?query=".#   to add in form
             url_encode($query_clean) .          #
             "\">Clean Up Query</a>";            #
@@ -595,27 +595,23 @@ sub old_form {
 
 sub xx {
     my ($clean_link, $message, %form) = @_;
-    my $file_arg = "\n".'<input type="hidden" name="file" value="'.html_encode($form{file}).'" />'
+    my $file_arg = "\n".'<input type="hidden" name="file" value="' . html_encode($form{file}) . '" />'
             if $form{file};
-    $message = "<tr><td align=\"center\"><small>$message</small></td></tr>\n    " if $message;
+    $message = "\n      ".'<tr><td align="center"><small>' . $message . "</small></td></tr>" if $message;
     my $backlink = $form{query} ? "?query=$form{query}" : "..";
 return <<EOF;
 <p><form action="$cfg{SCRIPT_URL}" method="get">$file_arg
-<table cellspacing="0" cellpadding="0" border="0" align="center">
+<table class="layout">
   <tr>
-    <td rowspan="2" align="center"><a href="$backlink"><img
-      src="/pic/kabutton.gif" width="92" height="82" alt="Klingonska Akdemien" border="0"
-      hspace="10" /></a></td>
-    <td colspan="4"><h2>$ENV{X_TITLE}</h2></td>
+    <td rowspan="2" align="center"><a href="$backlink"><img src="../../pic/kabutton.gif" width="92" height="82" alt="Klingonska Akdemien" border="0" /></a></td>
+    <td><h2>$ENV{X_TITLE}</h2></td>
   </tr>
   <tr><td>
-    <table cellspacing="0" cellpadding="0" border="0">
-      $message<tr valign="middle">
-        <td><input type="text" id="query" name="query" value="${\&html_encode($form{query})}" size="35" /></td>
-        <td>&nbsp;</td>
-        <td><input type="submit" value="Search" /></td>
-        <td>&nbsp;</td>
-        <td><font size="1"><a href="$cfg{SCRIPT_URL}?get=help">Search Help</a>$clean_link</font></td>
+    <table class="layout">$message
+      <tr class="middle">
+        <td><input type="text" id="query" name="query" value="${\&html_encode($form{query})}" size="35"
+          /><input type="submit" value="Search" /></td>
+        <td><small>&nbsp;<a href="$cfg{SCRIPT_URL}?get=help">Search Help</a>$clean_link</small></td>
       </tr>
     </table>
   </td></tr>
@@ -649,10 +645,8 @@ sub new_form {
     print page_header(title => TRUE);                         # page header
     empty_form();
     print <<EOF;                                 # empty form
-<center>
-<p><b>Modifiers:</b> .=case insensetive / -=negative search
-<br /><b>Wildcards:</b> *=alphanumeric / space=other (only in phrases)
-</center>
+<p class="center"><b>Modifiers:</b> &ldquo;=&rdquo; = case sensetive / &ldquo;-&rdquo; = negative search
+<br /><b>Wildcards:</b> &ldquo;*&rdquo; = alphanumeric / space = other (only in phrases)</p>
 EOF
     print page_footer();                        # page footer
 }
@@ -744,51 +738,72 @@ any number of letters, numbers or aphostrophes.
 </tr>
 </table>
 
-
 <h3>Search Terms</h3>
 
-A search term may consist of either a word or a phrase. If you have more than
-one search term then they are combined with logical "and", i.e. for a document
-to match all search terms must be present (except when using negative search
-terms, see below). A phrase is a search term containing one or more spaces,
-these search terms must be given within <b>quotes</b> ("like this"). Asterisks
-and spaces are wildcard characters inside a phrase, while all other characters
-are interpreted literally, outside a phrases only the asterisk can be used as a
-wildcard character. One can not use quotes within a phrase (as this would
-terminate the phrase).
-
+<p>A search term may consist of either a word or a phrase. If you have more
+than one search term then they are combined with logical "and", i.e. for a
+document to match all search terms must be present (except when using negative
+search terms, see below). A phrase is a search term containing one or more
+spaces, these search terms must be given within <b>quotes</b> ("like this").
+Asterisks and spaces are wildcard characters inside a phrase, while all other
+characters are interpreted literally, outside a phrases only the asterisk can
+be used as a wildcard character. One can not use quotes within a phrase (as
+this would terminate the phrase).</p>
 
 <h3>Modifiers</h3>
 
-There are two modifiers which may be prefixed to a search term (either phrase or
-word). If any of these occur within a phrase (inside quotes) they are
-interpreted literally. An <b>equal</b> sign makes the search term case sensetive
-(quite useful when searching for something in Klingon) meaning that it will only
-match words which are <i>identical</i> even when it comes to upper/lower case.
-E.g. the search term »<tt>=voDleH</tt>« only matches the word "voDleH", while
-the term »<tt>voDleH</tt>« would also match "VODLEH", "vodleh", "VoDlEh" etc. A
-<b>minus</b> inverts the matching so that only a document which does <i>not</i>
-contain the search term matches.
+<p>There are two modifiers which may be prefixed to a search term (either
+phrase or word). If any of these occur within a phrase (inside quotes) they are
+interpreted literally. An <b>equal</b> sign makes the search term case
+sensetive (quite useful when searching for something in Klingon) meaning that
+it will only match words which are <i>identical</i> even when it comes to
+upper/lower case. E.g. the search term »<tt>=voDleH</tt>« only matches the word
+"voDleH", while the term »<tt>voDleH</tt>« would also match "VODLEH", "vodleh",
+"VoDlEh" etc. A <b>minus</b> inverts the matching so that only a document which
+does <i>not</i> contain the search term matches.</p>
 
-<br />     If you use minus and equal at the same time, they may come in either
-order (»<tt>-=voDleH</tt>« and »<tt>=-voDleH</tt>« mean the same thing) but they
-must always be placed outside any quotes (i.e. the search term
-»<tt>-="voDleH"</tt>« means the same thing as the two previous examples, while
-»<tt>"-=voDleH"</tt>« does not).
-
+<p>If you use minus and equal at the same time, they may come in either order
+(»<tt>-=voDleH</tt>« and »<tt>=-voDleH</tt>« mean the same thing) but they must
+always be placed outside any quotes (i.e. the search term »<tt>-="voDleH"</tt>«
+means the same thing as the two previous examples, while »<tt>"-=voDleH"</tt>«
+does not).</p>
 
 <h3>Wildcards</h3>
 
-The <b>asterisk</b> is a wildcard character matching any sequence consisting of
-zero or more letters (a-z), aphostrophes (\') and/or numbers (0-9). The
+<p>The <b>asterisk</b> is a wildcard character matching any sequence consisting
+of zero or more letters (a-z), aphostrophes (\') and/or numbers (0-9). The
 <b>space</b> is also a wildcard (when used within quotes) which matches the
 exact opposite of the asterisk, i.e. any sequence of characters that <i>does
-not</i> include a letter, aphostrophe or number. This means that the search term
-»<tt>=jatlh qama\' jI\'oj</tt>« e.g. will find any file that contains the text
-"jatlh qama'; jI'oj", even though when there is a semi-colon between the two
-sentences.
+not</i> include a letter, aphostrophe or number. This means that the search
+term »<tt>=jatlh qama\' jI\'oj</tt>« e.g. will find any file that contains the
+text "jatlh qama'; jI'oj", even though when there is a semi-colon between the
+two sentences.</p>
+
+<!--
+<h3>Source Files</h3>
+
 EOF
+    my @source = list_source_files();
+    my $part = 3;
+    my $step = $#source / $part + 1;
+    print "<table class=\"layout\">\n";
+    print "  <tr>\n";
+    foreach (1..$part) {
+        print "    <td><code><ul>\n";
+        print "      <li>$_</li>\n" foreach splice(@source, 0, $step);
+        print "    </ul></code></td>\n";
+    }
+    print "  </tr>\n";
+    print "</table>\n";
+    print "-->\n";
     print page_footer();                        # page footer
+}
+
+sub list_source_files {
+    return map {
+        m#^\.\./(.*)\.txt$#;
+        $1;
+    } glob("../[0-9]*.txt");
 }
 
 # url encode ascii/latin1 strings
@@ -1099,12 +1114,12 @@ sub display_file {
     my $query = new Query($form{query});
     print old_form($query->clean(), "Search only this file.", %form);      # output page header & form
 
-    print status_row("Displaying the file »<tt>$form{file}</tt>« ",
+    print status_row("Displaying file »<tt>$form{file}</tt>« ",
         "according to the query ",
         "»<tt>", html_encode($query->clean()), "</tt>«.");
 
     if ($form{file} =~ m#-(tkd|tkw|kgt)\.txt$#) {
-	print "Sorry, TKD, TKW and KGT cannot be displayed yet.\n";
+	print "Sorry, TKD, TKW and KGT cannot be displayed yet. :(\n";
 	return;
     }
 
@@ -1254,6 +1269,10 @@ EOF
 # main selection
 SWITCH: {
     $form{get} eq "help" and do {                # help page
+	help_page();
+	last SWITCH;
+    };
+    $form{get} eq "list" and do {                # help page
 	help_page();
 	last SWITCH;
     };
