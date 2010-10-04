@@ -196,6 +196,8 @@
 *** TODO Delete mailing lists on manufrog
     http://thaning.se:2082/frontend/rvskin/mail/lists.html?domain=klingonska.org
 
+*** TODO Update mailing list webpage to reflect current info
+    http://klingonska.org/lista.html
 ** DONE Web redirects
    http://klingonska.org/~USER -> external site
    LRC emailed, asking why is redirect had stopped working 2010-09-07,
@@ -206,8 +208,19 @@
    CLOSED: [2010-09-08 Wed 20:34]
 
 ** DOING Webpage
-*** TODO Find/eliminate faulty latin1 hyphens
+*** DOING Find/eliminate faulty latin1 hyphens
     173 chars into proper hyphens/minuses
+    find occurances of "&#173;", too
+    Find with: grep `echo -n $'\xad'|iconv -flatin1 -tutf8` **/*~*.(mp3|jpg|png|gif)(.)
+
+    Should use &ndash;
+    "Klingon-English" / "English-Klingon"
+    YEAR-YEAR
+    " - " / "&nbsp;- " etc. " - "
+
+    Should use minus:
+    YYYY-MM-DD
+
 *** TODO Page "Updated" dates...
 **** TODO Automatic update of filedates listed in pages (using includes?)
 
@@ -222,6 +235,8 @@
 *** TODO Delete old files on Manufrog (for 2040.klingonska.org & klingonska.org)
 *** TODO Set up 2040 wiki again
 
+*** DONE Change all occurances of www.klingonska.org into klingonska.org
+    CLOSED: [2010-10-04 Mon 16:51]
 *** DONE Redirect test.zrajm.org -> test.klingonska.org
     CLOSED: [2010-09-03 Fri 22:19]
 *** DONE Redirect 2040.klingonska.org -> 2040.zrajm.org
@@ -229,7 +244,7 @@
 
 
 * TODO ENHANCEMENTS
-** DOING Webpage
+** TODO Webpage
 *** TODO Add "site news"/updated page
 
 * TODO FUTURE
