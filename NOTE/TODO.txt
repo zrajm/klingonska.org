@@ -152,6 +152,11 @@
     http://ariejan.net/2009/09/05/git-tag-mini-cheat-sheet-revisited/
 
 
+* TODO Do a surf-through check for weird/old shit
+** TODO Remove KA bylaws
+** TODO Remove link page
+
+
 * TODO FIXES
 ** DOING Email
 *** DOING Loopia mail settings
@@ -253,7 +258,6 @@
 
 * Systematic changes
 ** TODO CSS: name in footer/copyright notice should not be italics
-
 ** TODO CSS: line width should max become something readable
 ** TODO <p> tag should default to align=justify
 * Build/check tools
