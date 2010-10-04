@@ -228,7 +228,7 @@ sub page_footer {                                    # HTML Footer
     <td align=center>
       <b>&copy;1998-2009, Copyright 
       <a href="mailto:zrajm\@klingonska.org">Zrajm C Akfohg</a>,
-      <a href="http://www.klingonska.org/">Klingonska Akademien</a>,
+      <a href="http://klingonska.org/">Klingonska Akademien</a>,
       Uppsala.</b>
     </td>
     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>

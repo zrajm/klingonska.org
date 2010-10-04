@@ -151,7 +151,7 @@ sub html_footer {
 <P><CENTER><TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0>
   <TR><TD VALIGN=BOTTOM COLSPAN=3><HR NOSHADE></TD></TR>
   <TR><TD>         </TD><TD ALIGN=CENTER><B>©2000&ndash;2009, Copyright <A HREF="mailto:zrajm\@klingonska.org">Zrajm C Akfohg</A>,
-    <A HREF="http://www.klingonska.org/">Klingonska Akademien</A>, Uppsala.</B></TD>
+    <A HREF="http://klingonska.org/">Klingonska Akademien</A>, Uppsala.</B></TD>
     <TD>         </TD></TR>
   <TR><TD VALIGN=TOP COLSPAN=3><HR NOSHADE></TD></TR>
 </TABLE></CENTER>
