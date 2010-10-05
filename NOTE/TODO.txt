@@ -212,14 +212,18 @@
     173 chars into proper hyphens/minuses
     find occurances of "&#173;", too
     Find with: grep `echo -n $'\xad'|iconv -flatin1 -tutf8` **/*~*.(mp3|jpg|png|gif)(.)
-
-    Should use &ndash;
-    "Klingon-English" / "English-Klingon"
-    YEAR-YEAR
-    " - " / "&nbsp;- " etc. " - "
-
-    Should use minus:
-    YYYY-MM-DD
+**** TODO Should use &ndash;
+***** TODO " - " / "&nbsp;- " etc. " - "
+***** DONE "Klingon-English" / "English-Klingon"
+      CLOSED: [2010-10-05 Tue 02:38]
+***** DONE YEAR-YEAR
+      CLOSED: [2010-10-05 Tue 01:53]
+***** DONE pp. XX-YY / p. XX-YY
+      CLOSED: [2010-10-05 Tue 02:30]
+***** DONE object-verb-subject
+      CLOSED: [2010-10-05 Tue 02:34]
+**** TODO Should use minus
+***** TODO YYYY-MM-DD
 
 *** TODO Page "Updated" dates...
 **** TODO Automatic update of filedates listed in pages (using includes?)
@@ -317,13 +321,14 @@
 
      [http://test.zrajm.org/canon/search/?file=1997-09-01c-news.txt&query=hello]
 *** TODO General corrections
-**** TODO Strip any trailing whitespace at eof (anywhere)
 **** TODO Machine-check Klingon syllable structure
 **** TODO Machine-extract & check that all words are in dict.zdb
 **** TODO Spell check English
      (Should involve creating document-specific dictionaries so that it can be
      fully automated in future.)
 **** TODO Check that all brackets match
+**** DONE Strip any trailing whitespace at eof (anywhere)
+     CLOSED: [2010-10-05 Tue 02:49]
 *** TODO Search engine improvements
 **** Add Chrome integration (some sort of open protocol?)
 *** TODO Typography in main article
@@ -629,6 +634,8 @@
       From: 2000-09-holqed-09-3.txt: {boq}, {boqHa'}, {boq'egh}, {boqHa''egh},
       {chen} should have translations "plus", "minus", "equals" etc.
 
+** TODO "A Quick Reference to Adverbials in Klingon"
+*** Update list of adverbials
 * Communicate
 ** Reply to http://community.livejournal.com/klingon/
    The Archive of Okrandian Canon of the Swedish Klingonska Akademien doesn't
