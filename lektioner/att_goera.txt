@@ -15,7 +15,7 @@ Att göra på lektionerna:
     notation.
 
   o Inkludera +referenser till likaljudande glosor, oavsett typ [dvs
-    tex referens ifrån {­law'} "antagligen, nog, verkar vara" (vs6)
+    tex referens ifrån {-law'} "antagligen, nog, verkar vara" (vs6)
     till {law'} "vara många, vara talrika" (v)].
 
   o Se till att allt är märkt med ordklass (även tal etc på

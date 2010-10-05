@@ -99,14 +99,14 @@ binmode(STDOUT, ":encoding(utf8)");
 	    my $not_count = 0;
 	    for (split_query($string)) {
 		next if /^[-+=]*[ *]*$/; # skip wildcard-only words
-		my ($prefix, $word) = m#^([-­+=]*)"?([^"]*)#;    # extract prefix & del quotes
+		my ($prefix, $word) = m#^([-+=]*)"?([^"]*)#;    # extract prefix & del quotes
 		$word =~ s/([ *])\1*/$1/g;                       # compress multiple stars/spaces
 		my $not   = ($prefix =~ m/-/ ? "-" : "");
 		my $case  = ($prefix =~ m/=/ ? "=" : "");
 		my $regex = regexify($word, $case);
 		push @case,  $case;                  # ignore case prefix
 		push @clean, $not . $case .          # cleaned-up version of query
-		    ($word =~ m/(?:^[-­+=]|\s)/ ? '"'.$word.'"' : $word);
+		    ($word =~ m/(?:^[-+=]|\s)/ ? '"'.$word.'"' : $word);
 		if ($not) {
 		    $not_count ++;
 		} else {
@@ -182,7 +182,7 @@ binmode(STDOUT, ":encoding(utf8)");
 	my ($string) = @_;
 	return grep {                      # split string into list
 	    defined($_) and $_ ne "";      #   of quoted or unquoted words
-	} split m#(?: *([-­+=]*"[^"]*"?) *| +)#, $string;
+	} split m#(?: *([-+=]*"[^"]*"?) *| +)#, $string;
     }
 
     1;
@@ -421,10 +421,10 @@ EOF
 sub strip_comments {
     my ($text) = @_;
     for ($text) {
-        s/(?<=[$cfg{re_alph}])[-­] *\Q[[keep hyphen]]\E\n/-/g; # keep hyphen
-        s/(?<=[$cfg{re_alph}])[-­]\n//g;   # remove hypenation
-        s/(?<=[-­][-­])\n//g;      # keep en-dashes
-	s# *\Q[[\E.*?\Q]]\E##g;    # remove comments [[...]]
+        s/(?<=[$cfg{re_alph}])- *\Q[[keep hyphen]]\E\n/-/g; # keep hyphen
+        s/(?<=[$cfg{re_alph}])-\n//g;          # remove hypenation
+        s/(?<=--)\n//g;                        # keep en-dashes
+	s# *\Q[[\E.*?\Q]]\E##g;                # remove comments [[...]]
     }
     return $text;
 }
@@ -1099,10 +1099,10 @@ sub display_source {
 sub apply_corrections {
     my ($text) = @_;
     foreach ($text) {
-	s/(?<=[$cfg{re_alph}])[-­] *\Q[[keep hyphen]]\E\n/-/g; # keep hyphen
-	s/(?<=[$cfg{re_alph}])[-­]\n//g;           # remove hypenation
-	s/(?<=[-­][-­])\n//g;              # keep en-dashes
-	s# *\[\[.*?\]\]##g;                # remove comments [[...]]
+	s/(?<=[$cfg{re_alph}])- *\Q[[keep hyphen]]\E\n/-/g; # keep hyphen
+	s/(?<=[$cfg{re_alph}])-\n//g;          # remove hypenation
+	s/(?<=--)\n//g;                        # keep en-dashes
+	s# *\[\[.*?\]\]##g;                    # remove comments [[...]]
     }
     return $text;
 }

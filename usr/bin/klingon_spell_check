@@ -27,9 +27,9 @@ sub verb {
 sub apply_corrections {
     my (@text) = @_;
     foreach (wantarray ? @text : $text[0]) {
-	s/(?<=[$cfg{re_alph}])[-­] *\Q[[keep hyphen]]\E\n/-/g; # keep hyphen
-	s/(?<=[$cfg{re_alph}])[-­]\n//g;       # remove hypenation
-	s/(?<=[-­][-­])\n//g;                  # keep en-dashes
+	s/(?<=[$cfg{re_alph}])- *\Q[[keep hyphen]]\E\n/-/g; # keep hyphen
+	s/(?<=[$cfg{re_alph}])-\n//g;          # remove hypenation
+	s/(?<=--)\n//g;                        # keep en-dashes
         # remove comments & perform corrections
         while (s{ \s* \[\[
                   (?:

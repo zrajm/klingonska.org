@@ -118,13 +118,15 @@
    CLOSED: [2010-08-09 Mon 03:01]
 *** DONE List CGI scripts on page
     CLOSED: [2010-08-09 Mon 03:00]
-*** canon/download.cgi - ok
-**** fix page footer
-*** canon/search/index.cgi - not pretty, but passable
-**** searched for "bird" -- several matches were lacking file/article names
-*** dict/lexicon.cgi - ok
-*** piqad/play.cgi - ok
-**** need new header/footer though
+*** TODO canon/download.cgi - ok
+**** TODO fix page footer
+*** TODO canon/search/index.cgi - not pretty, but passable
+**** TODO searched for "bird" -- several matches were lacking file/article names
+**** TODO merge apply_corrections() and strip_comments() (they are identical?)
+*** DONE dict/lexicon.cgi - ok
+    CLOSED: [2010-10-05 Tue 15:53]
+*** TODO piqad/play.cgi - ok
+**** TODO need new header/footer though
 
 
 * DOING Makefile: Upload handling of beta.klingonska.org vs. klingonska.org
@@ -210,23 +212,19 @@
 ** DOING Webpage
 *** DOING Find/eliminate faulty latin1 hyphens
     173 chars into proper hyphens/minuses
-    find occurances of "&#173;", too
     Find with: grep `echo -n $'\xad'|iconv -flatin1 -tutf8` **/*~*.(mp3|jpg|png|gif)(.)
 **** TODO Telephone numbers - &ndash; or hyphen?
 **** TODO Should use &ndash;
-***** TODO " - " / "&nbsp;- " etc. " - "
-      perl -ne '/[\s\xa0][-\xad][\s\xa0]/ and print "$ARGV:$_"' **/*.html
-***** DONE "Klingon-English" / "English-Klingon"
-      CLOSED: [2010-10-05 Tue 02:38]
-***** DONE YEAR-YEAR
-      CLOSED: [2010-10-05 Tue 01:53]
-***** DONE pp. XX-YY / p. XX-YY
-      CLOSED: [2010-10-05 Tue 02:30]
-***** DONE object-verb-subject
-      CLOSED: [2010-10-05 Tue 02:34]
+***** TODO " - " (where <space> could also be <non-breaking space>, or "&nbsp;" / "&#160;")
+***** TODO "Klingon-English" / "English-Klingon" / "Klingonsk-svensk" / "Svensk-klingonsk"
+***** TODO YEAR-YEAR
+***** TODO pp. XX-YY / p. XX-YY
+***** TODO object-verb-subject
 **** TODO Should use minus
 ***** TODO YYYY-MM-DD
-
+**** DONE Remove all occurances of latin1 char 173 (shy/soft hyphen)
+     CLOSED: [2010-10-05 Tue 16:26]
+     Remove occurances of "&#173;" & "&shy;", too
 *** TODO Page "Updated" dates...
 **** TODO Automatic update of filedates listed in pages (using includes?)
 
