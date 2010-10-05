@@ -5,6 +5,7 @@
   [2000-07-30] corrected text using the actual cards
   [2003-01-29] split this card into separate file and added file header
   [2003-01-30] hunted down errors using Steven Boozer's transcript
+  [2010-10-05] replaced shy (latin1 char 173) with minus/hyphen (ascii char 45)
   Style: {}=bold, <>=italic, ^=superscript
 
   Type: trading card
@@ -31,7 +32,7 @@ qIvo'rIt toQDuj 'oH tlhIngan wo' Duj <pagh'e'>. ra' qarghan HoD. DujvamDaq
 tlhIngan nuH tu'lu'bogh pov law' Hoch pov puS 'ej DujvamDaq 'op SuvwI'
 tu'lu'bogh po' law' tlhIngan yo' SuvwI' law' po' puS.
 
-The Imperial Klingon Vessel <Pagh> is a K'Vort­class Bird­of­Prey under the
+The Imperial Klingon Vessel <Pagh> is a K'Vort-class Bird-of-Prey under the
 command of Captain Kargan. It has the best weapons and some of the
 finest warriors in the Klingon fleet.
 
@@ -42,7 +43,7 @@ TM, ® & © 1995 PARAMOUNT PICTURES. ALL RIGHTS RESERVED.
 STAR TREK AND RELATED MARKS ARE TRADEMARKS OF PARAMOUNT
 PICTURES. SKYBOX INTERNATIONAL INC. AUTHORIZED USER.
 
-TM, ®, © je tera' DIS wa'­Hut­Hut­loS Paramount Pictures. Hoch SeH. Paramount Pictures
+TM, ®, © je tera' DIS wa'-Hut-Hut-loS Paramount Pictures. Hoch SeH. Paramount Pictures
 malja' permey bIH Star Trek pong'e' Deghmey'e' je. bIH lo' SkyBox International Inc. 'e' chaw'.
 TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF <THE KLINGON DICTIONARY>.
 

@@ -5,6 +5,7 @@
   [2000-07-30] corrected text using the actual cards
   [2003-01-29] split this card into separate file and added file header
   [2003-01-30] hunted down errors using Steven Boozer's transcript
+  [2010-10-05] replaced shy (latin1 char 173) with minus/hyphen (ascii char 45)
   Style: {}=bold, <>=italic, ^=superscript
 
   Type: trading card
@@ -38,7 +39,7 @@ warriors who test him with painsticks. [[painsticks:=painstiks]]
 Paramount®
 SkyBox TM
 
-TM, ®, © je tera' DIS wa'­Hut­Hut­loS Paramount Pictures. Hoch SeH. Paramount Pictures
+TM, ®, © je tera' DIS wa'-Hut-Hut-loS Paramount Pictures. Hoch SeH. Paramount Pictures
 malja' permey bIH Star Trek pong'e' Deghmey'e' je. bIH lo' SkyBox International Inc. 'e' chaw'.
 TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF <THE KLINGON DICTIONARY>.
 

@@ -1,9 +1,10 @@
 [[
   [1998-06-14] transcribed from HolQeD 3:2, p.9, by Zrajm C Akfohg
   [1998-10-05] machine checked for incorrect syllables
-  [2001­09­15, 15.29-15.34] reformatted from earlier file
-  [2003­01-29] corrected using image of card and added file header
+  [2001-09-15, 15.29-15.34] reformatted from earlier file
+  [2003-01-29] corrected using image of card and added file header
   [2003-01-30] hunted down errors using Steven Boozer's transcript
+  [2010-10-05] replaced shy (latin1 char 173) with minus/hyphen (ascii char 45)
   Style: {}=bold, ^=superscript
 
   Type: trading card

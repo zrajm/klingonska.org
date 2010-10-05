@@ -212,8 +212,10 @@
     173 chars into proper hyphens/minuses
     find occurances of "&#173;", too
     Find with: grep `echo -n $'\xad'|iconv -flatin1 -tutf8` **/*~*.(mp3|jpg|png|gif)(.)
+**** TODO Telephone numbers - &ndash; or hyphen?
 **** TODO Should use &ndash;
 ***** TODO " - " / "&nbsp;- " etc. " - "
+      perl -ne '/[\s\xa0][-\xad][\s\xa0]/ and print "$ARGV:$_"' **/*.html
 ***** DONE "Klingon-English" / "English-Klingon"
       CLOSED: [2010-10-05 Tue 02:38]
 ***** DONE YEAR-YEAR
@@ -321,12 +323,15 @@
 
      [http://test.zrajm.org/canon/search/?file=1997-09-01c-news.txt&query=hello]
 *** TODO General corrections
+**** TODO canon/old/1996-09.txt contains oct char \222 (apostrophe)
+     (do any other documents?) latin1 -> utf8 convert these?
 **** TODO Machine-check Klingon syllable structure
 **** TODO Machine-extract & check that all words are in dict.zdb
 **** TODO Spell check English
      (Should involve creating document-specific dictionaries so that it can be
      fully automated in future.)
 **** TODO Check that all brackets match
+***** <...> (...) [...] etc.
 **** DONE Strip any trailing whitespace at eof (anywhere)
      CLOSED: [2010-10-05 Tue 02:49]
 *** TODO Search engine improvements

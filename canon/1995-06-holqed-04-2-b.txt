@@ -1,6 +1,7 @@
 [[
-  [2000­08­24] OCR scanned by Zrajm C Akfohg.
-  [2003­01-28] added file header
+  [2000-08-24] OCR scanned by Zrajm C Akfohg.
+  [2003-01-28] added file header
+  [2010-10-05] replaced shy (latin1 char 173) with minus/hyphen (ascii char 45)
   Style: {}=bold, <>=italic, paginated
 
   Type: article
@@ -14,7 +15,7 @@
   : "{chuvmey}", from <{HolQeD} 4:2>, page 7
   : Article by Lawrence M. Schoen (?), 1995
   : Klingon Language Institute, Flourtown, PA
-  : ISSN 1061­2327
+  : ISSN 1061-2327
 
 ]][[p.7]]
 
