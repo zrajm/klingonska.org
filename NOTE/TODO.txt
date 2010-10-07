@@ -155,7 +155,8 @@
 
 
 * TODO Do a surf-through check for weird/old shit
-** TODO Remove KA bylaws
+** DONE Remove KA bylaws
+   CLOSED: [2010-10-07 Thu 07:27]
 ** TODO Remove link page
 
 
@@ -230,10 +231,20 @@
 
 **** TODO Restore file dates for all unchanged files
 *** TODO Find/eliminate dead links
-**** TODO Eliminate dead links
-**** TODO Figure out a way to fetch page and check links
-**** TODO Add link check to Makefile
-**** TODO Dead links on canon/
+**** TODO usr/bin/linkcheck
+***** TODO Add capacity to check external link
+***** TODO Add capacity to check for CSS existance
+      <link rel="stylesheet" type="text/css" href="..." />
+***** TODO Add capacity to check for image existance
+      <img src="..."> tags
+**** DONE Eliminate dead links internally
+     CLOSED: [2010-10-07 Thu 07:37]
+**** DONE Figure out a way to fetch page and check links
+     CLOSED: [2010-10-07 Thu 07:37]
+**** DONE Add link check to Makefile
+     CLOSED: [2010-10-07 Thu 07:36]
+**** DONE Dead links on canon/
+     CLOSED: [2010-10-07 Thu 07:27]
      Quite a lot of trascripts have changed names.
 
 *** TODO Delete old files on Manufrog (for 2040.klingonska.org & klingonska.org)
@@ -320,9 +331,17 @@
      support to work as well (test this out using Firefox with JavaScript disabled).
 
      [http://test.zrajm.org/canon/search/?file=1997-09-01c-news.txt&query=hello]
-*** TODO General corrections
-**** TODO canon/old/1996-09.txt contains oct char \222 (apostrophe)
+*** TODO canon/old/1996-09.txt contains oct char \222 (apostrophe)
      (do any other documents?) latin1 -> utf8 convert these?
+*** TODO canon/1997-sbx-s31.html missing Skybox S32 and S33 images
+*** TODO re-scan Skybox trading cards and add to
+        canon/1994-sbx-sp1.html
+        canon/1995-sbx-s7.html
+        canon/1995-sbx-s13.html
+        canon/1996-sbx-s19.html
+        canon/1996-sbx-s25.html
+        canon/1997-sbx-s31.html
+*** TODO General corrections
 **** TODO Machine-check Klingon syllable structure
 **** TODO Machine-extract & check that all words are in dict.zdb
 **** TODO Spell check English

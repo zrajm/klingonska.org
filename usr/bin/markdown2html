@@ -228,14 +228,14 @@ sub help {
 	foreach (@$arrayref) {
 	    $count ++;
 	    given ($_) {
-		when (m/^ (\w+): \s* ([^\n]*\n) /x) {
-		    $$hashref{$1} ="" if !exists($$hashref{$1});
+		when (m/^ (\w+): \s* ([^\n]*)\n /x) {
+		    $$hashref{$1} = "" unless exists($$hashref{$1});
 		    $$hashref{$1} .= $2;
 		    $field = $1;
 		}
-		when (m/^ \s+ ([^\n]*\n) /x) {
+		when (m/^ \s+ ([^\n]*)\n /x) {
 		    if ($field ne "") {
-			$$hashref{$field} .= $1;
+			$$hashref{$field} .= " " . $1;
 		    } else {
 			warn "$0: 1st line in file may not be metadata continuation line (in line $count)\n";
 			return '';
@@ -656,9 +656,9 @@ sub page_prevnext {
     my ($self, %meta) = @_;
     return "" if $meta{filename} =~ m#/index.[^.]*$#;
     my @x = ();
-    push @x, "<a href=\"$meta{prev}.html\">&larr;</a>" if exists $meta{prev};
-    push @x, "<a href=\".\">Innehåll</a>";
-    push @x, "<a href=\"$meta{next}.html\">&rarr;</a>" if exists $meta{next};
+    push @x, q{<a href="$meta{prev}.html">&larr;</a>} if exists $meta{prev};
+    push @x, q{<a href=".">Innehåll</a>};
+    push @x, q{<a href="$meta{next}.html">&rarr;</a>} if exists $meta{next};
     return "" unless @x;
     return "<p class=\"prevnext\">" . join(" ", @x) . "</p>";
 }

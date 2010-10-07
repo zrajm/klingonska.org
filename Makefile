@@ -126,12 +126,18 @@ $(TIMESTAMP_FILE_RELEASE): $(call upload_dependencies,$(TIMESTAMP_FILE_RELEASE))
 	$(call upload,$(REMOTE_HOST),$(REMOTE_PATH_RELEASE),$(REMOTE_KERB_PRINCIPAL)); \
 	touch $@
 
-## help - Display this information
+## help - display this information
 .PHONY: help
 help:
 	@echo "Available targets:"
 	@cat $(CURDIR)/Makefile | awk '/^## [^ ]/ { sub(/^## */, "  "); print }' | sort
 	@echo
+
+## check_links - check internal web page links
+.PHONY: check_links
+check_links:
+	@echo "Checking <a href=\"...\"> links in all HTML files:"
+	@usr/bin/linkcheck `find . -type f '(' -iname "*.html" '!' -iname ".*" ')'`
 
 ## test - some sort of test of something
 .SECONDEXPANSION:
