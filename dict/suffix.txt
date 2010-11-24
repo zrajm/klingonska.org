@@ -325,8 +325,8 @@ Possessives, General Usage
 ----------------------
 {-chaj} <their>
 ---------------
-Though grammatically correct, it is considered derogatory to use these general
-possessive suffixes when referring to first or second persons that are are
+Though it is grammatically correct, it is considered derogatory to use these
+general possessive suffixes when referring to first or second persons that are
 capable of language (i.e. <I, we, you> or <you [plural]>).
 
 Specification

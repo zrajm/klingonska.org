@@ -1,8 +1,9 @@
 *.bak
+*.db
 *~
 .#*
 .git
 .uploaded_beta
 .uploaded_release
 \#*\#
-*.db
+dict/suffix.html
