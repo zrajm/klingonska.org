@@ -323,14 +323,19 @@
 ** TODO "Some Songs in Klingon"
 *** TODO prettify page (HTML instead of text pages)
 *** TODO {taHjaj wo'}
+**** TODO add HTML redirects for moved files
+***** songs/tahjaj_wo2.txt => NOTE/tahjaj_wo_tabbed.txt
+***** songs/tahjaj_wo1.gif => songs/tahjaj_wo/pic/tahjaj_wo1.gif
+***** songs/tahjaj_wo2.gif => songs/tahjaj_wo/pic/tahjaj_wo2.gif
+***** songs/tahjaj_wo.txt  => songs/tahjaj_wo/
+**** TODO add link to text version of lyrics
+     Use "NOTE/tahjaj_wo.txt" file for this.
 **** TODO add missing voices
 ***** TODO pick out and add second voice
 ***** TODO pick out and add third voice
 **** TODO get source code icon for lilypond source
 **** TODO convert GIF images into HTML tables
      Use "NOTE/tahjaj_wo_tabbed.txt" file for this.
-**** TODO add link to text version of lyrics
-     Use "NOTE/tahjaj_wo.txt" file for this.
 **** DONE include lilypond source
      CLOSED: [2010-11-24 Wed 18:05]
 **** DONE add link to {DaHjaj po}
