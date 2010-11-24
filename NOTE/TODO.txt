@@ -263,8 +263,12 @@
 *** TODO Add "site news"/updated page
 
 * TODO FUTURE
+** TODO Use microformats where applicable
+   (Where is this? Page datestamps? Page geolocation? Are there more?)
 ** TODO CC licence on entire site (except KLO?)
 ** TODO Web pages generated from templates & using Markdown
+   Various contexts which should (maybe?) have special handling.
+   * gallery (e.g. "http://klingonska.org/songs/tahjaj_wo/")
 ** TODO XHTML compliant
 ** TODO CSS-based design
 ** TODO "Typographical" quotes
@@ -281,12 +285,19 @@
 
 
 
+** TODO Switch to HTML5(?)
+   Read up on the stuff here:
+   http://www.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/
+*** TODO Benefit - Autofocus for forms
+*** TODO Benefit - Place holder text for forms
 
 * paqHom
 ** "data: derived form" words should not be included in en-tlh side
 
 
 * Systematic changes
+** TODO CSS: images should have borders when linked
+   Use CSS from: http://klingonska.org/songs/tahjaj_wo/index.html
 ** TODO CSS: name in footer/copyright notice should not be italics
 ** TODO CSS: line width should max become something readable
 ** TODO <p> tag should default to align=justify
@@ -310,17 +321,34 @@
     <tr><td align=right valign=center><img src="/pic/dot.gif" width=15 height=14 alt="*" hspace=5></td>
 
 ** TODO "Some Songs in Klingon"
-*** prettify page (HTML instead of text pages)
-*** {taHjaj wo'}
-**** should have it's own subpage
-**** include lilypond score (and source)
+*** TODO prettify page (HTML instead of text pages)
+*** TODO {taHjaj wo'}
+**** TODO add missing voices
+***** TODO pick out and add second voice
+***** TODO pick out and add third voice
+**** TODO get source code icon for lilypond source
+**** TODO convert GIF images into HTML tables
+     Use "NOTE/tahjaj_wo_tabbed.txt" file for this.
+**** TODO add link to text version of lyrics
+     Use "NOTE/tahjaj_wo.txt" file for this.
+**** DONE include lilypond source
+     CLOSED: [2010-11-24 Wed 18:05]
+**** DONE add link to {DaHjaj po}
+     CLOSED: [2010-11-18 Thu 14:41]
+**** DONE images should have alt and title attributes correctly set
+     CLOSED: [2010-11-18 Thu 14:37]
+**** DONE should have it's own subpage
+     CLOSED: [2010-11-18 Thu 09:55]
+**** DONE include lilypond score (and source)
+     CLOSED: [2010-11-18 Thu 09:55]
 ** TODO "Archive of Okrandian Canon"
+*** TODO Add a text containing {Sa'Hut} "buttocks" (from {qep'a'} 2003)
 *** TODO canon/search/index.cgi
-**** query prefix "file:" to search only a specific file
+**** TODO query prefix "file:" to search only a specific file
      This should allow globs and comma-separated file names, e.g.
      "file:*holqed*", "file:*email,*news" etc.
-**** list of files should be available
-**** source file display should allow choice between original/corrected version
+**** TODO list of files should be available
+**** TODO source file display should allow choice between original/corrected version
      When displaying files, should implement button to change between
      "original", "corrected" and "difference" views of the same text.
 
@@ -388,6 +416,11 @@
       CLOSED: [2010-08-26 Thu 15:47]
 **** DONE Check hyphenations
       CLOSED: [2010-08-26 Thu 15:43]
+*** TODO The Klingon Dictionary
+    Dictionary part contains, "just, only, merely, (adv)     neH". Check the trailing comma.
+*** TODO HolQeD 12:3 p.9 correction(?)
+    "do more that is acceptable" should probably be "do more than is
+    acceptable". ("than", rather than "that")
 *** DONE HolQeD 7:2 p.8 spelling fix
     CLOSED: [2010-08-31 Tue 21:35]
     Check original article. {tlhlngan Hol Dajatlh 'e' vISov} should there
