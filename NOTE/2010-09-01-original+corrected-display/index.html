@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!doctype html public "-//w3c//dtd xhtml 1.0 strict//en" "http://www.w3.org/tr/xhtml1/dtd/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Klingonska Akademien.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="geo.region" content="SE-C" />
+<meta name="geo.placename" content="Europe, Sweden, Uppsala, Kåbo" />
+<meta name="geo.position" content="59.845658;17.630797" />
+<link rel="stylesheet" type="text/css" href="../includes/page.css" />
+<style><!--
+.original {
+    display: none;
+}
+.corrected {
+    display: inline;
+}
+//-->
+</style>
+
+
+</head>
+<body>
+
+<script type="text/javascript" src="changecss.js"></script>
+<script type="text/javascript">
+  function changeTextVersion(object) {
+    var textVersion = (object.options[object.selectedIndex].value);
+    switch(textVersion) {
+      case "original":
+        changecss('.original',  'display',          'inline');
+        changecss('.original',  'background-color', 'transparent');
+        changecss('.corrected', 'display',          'none');
+        changecss('.corrected', 'background-color', 'transparent');
+        break;
+      case "difference":
+        changecss('.original',  'display',          'inline');
+        changecss('.original',  'background-color', 'pink');
+        changecss('.corrected', 'display',          'inline');
+        changecss('.corrected', 'background-color', 'lightgreen');
+        break;
+      default:
+        changecss('.original',  'display',          'none');
+        changecss('.original',  'background-color', 'transparent');
+        changecss('.corrected', 'display',          'inline');
+        changecss('.corrected', 'background-color', 'transparent');
+    }
+  }
+</script>
+
+<form method="get" action=".">Showing:
+  <select onchange="changeTextVersion(this)" name="version">
+    <option value="original">Original text</option>
+    <option value="corrected" selected="selected">Corrected text</option>
+    <option value="difference">Difference</option>
+  </select><noscript><input type="submit" value="&gt;"></noscript>
+</form>
+
+<p><span class="original">Ehlo</span><span class="corrected">Hello</span>, hello, hello.</p>
+
+</body>
+</html>
