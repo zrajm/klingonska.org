@@ -1,5 +1,73 @@
 #+STARTUP: overview hidestars -*- org -*-
 
+* TODO Gitify upload
+** TODO Sketch infrastructure
+
+   When the master branch is pushed, it should cause an update of the entire
+   page.
+
+   git push          # should rebuild basic web page
+    |
+    +--> site content should be built by "make" un upload
+
+
+** TODO Publish klingonska.org git repo on HCoop
+   Instructions: http://wiki.hcoop.net/MemberManual/VersionControl/git
+
+   Repo names:
+       git://git.hcoop.net/git/zrajm/klingonska-website.git
+       http://git.hcoop.net/git/zrajm/klingonska-website.git
+       http://klingonska.org/.git
+       http://klingonska.org/git
+
+   fsr setacl klingonska.org system:anyuser read
+
+   ln -s ~/klingonska.org/main/.git ~/.hcoop-git/klingonska-website.git
+
+** TODO Use "git push" for upload instead of "make release"
+
+   Should make use of server side git hook 'post-receive' updating web page.
+
+   The following works for just populating a git work tree from a repo:
+
+       #!/bin/sh
+       #
+       # update website
+       # "git-diff" cwd can be anything
+       # $GIT_WORK_TREE must always be specified if using bare repo
+       # $GIT_DIR is assumed to be cwd if not specified
+       env -i git --work-tree=../experiment checkout -f
+
+       # test that website does not diff from repository
+       # "git-diff" cwd may be $GIT_DIR or $GIT_WORK_TREE
+       # if $GIT_WORK_TREE, then $GIT_DIR must be specified
+       # if $GIT_DIR, then both $GIT_DIR and $GIT_WORK_TREE must be specified
+       XXX=`git --git-dir=. --work-tree=../experiment diff HEAD`
+       if [ -z "$XXX" ]; then
+           echo "WEBSITE UPDATED"
+       else
+           echo "WEBSITE UPDATE FAILED: The following files differ from repository"
+           echo "XXX" | grep '^diff '
+           echo
+           echo "Fix by running: 'git --git-dir=experiment.git --work-tree=experiment check\
+       out -f'"
+           echo
+       fi
+
+* TODO RSS/Atom feed for updates
+  http://klingonska.org/feed.atom
+
+  Should be based on information from git, include description and links to all
+  changed (browsable) pages. If the dictionary updates, link should point to
+  dict/lexicon.cgi. Maybe make a list of file relations?
+
+
+
+* TODO Optimize images for site
+  Johan at work mentioned that JPEGs can be radically shrunk by optimizin hash
+  tables in them.
+
+
 * Lesson ideas
 ** singing {taHjaj wo'}
 ** correspond in SMS:es
@@ -167,7 +235,7 @@
     CLOSED: [2010-09-03 Fri 22:28]
 *** DONE Fix email settings for zrajm.org
     CLOSED: [2010-09-03 Fri 22:18]
-    Removed all attempted (but non-working) Google Apps settings for zrajm.org. 
+    Removed all attempted (but non-working) Google Apps settings for zrajm.org.
 *** TODO Fix email settings for klingonska.org
     Email should be handled by HCoop as well, not by Loopia. MX thingies in DNS
     (on Loopia) should point to HCoop.
@@ -392,7 +460,7 @@
 **** Make ranges use non-line-breaking emdash
 *** TODO New transcripts should be added to article/table
 *** TODO Add "KCD 1" (to "KCD 6" at least)
-    qa'vaj has transcribed KCD, (subject "KCD" etc in my gmail) 
+    qa'vaj has transcribed KCD, (subject "KCD" etc in my gmail)
 *** TODO Add reference for {nIyma'}
     http://mail.google.com/mail/#search/niyma'/11dcaa2b915a07df
 *** TODO Add reference for {pu'jIn}
@@ -502,6 +570,7 @@
 *** DOING intro.html
 **** TODO update number of words in text
 **** TODO update url to "The Klingon Mailing List FAQ"
+**** TODO Update list of Source Abbreviations to reflect dict.zdb content
 **** DONE new header
      CLOSED: [2010-08-08 Sun 08:53]
 **** DONE new footer
@@ -631,7 +700,7 @@
       and people remarked that it was very much like "gin".
 ***** {qolqoS}, {'elI'jaH}, {wIlpuq}
       qolqoS n. Core of a group, the essential part of something; essence.
-      http://mail.google.com/mail/#search/jIn/1217ffac4948e9abw     
+      http://mail.google.com/mail/#search/jIn/1217ffac4948e9abw
       [[file://new_sources/1217ffac4948e9ab]]
 ***** {pu'jIn} - "map"
       http://mail.google.com/mail/?shva=1#search/jin+to%3Atlhingan-hol%40kli.org/125280bf1b4e53a6
@@ -719,7 +788,7 @@
 ** "Wikipedia: Klingon writing systems"
     http://en.wikipedia.org/wiki/Klingon_writing_systems
 
-    
+
 
 
 
