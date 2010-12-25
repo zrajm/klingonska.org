@@ -1,10 +1,11 @@
 [[
   [2009-04-27] added document
+  [2010-12-25] changed author name to real name instead of Klingon alias
 
   Type: email
   Date: 2 April 2004
   Title: Re: New Wiki page: "Common Grammar Questions And Problems"
-  Author: DloraH (quoting conversation with Marc Okrand)
+  Author: Roger Cheesbro (quoting conversation with Marc Okrand)
   Summary: On questions-as-objects (QAO).
 ]]
 
