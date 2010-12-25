@@ -14822,7 +14822,7 @@ tlh:	{'elI'jaH}
 sv:	«oväntad «gäst»» (s)
 en:	«unexpected «visitor»» (n)
 def:	[{qep'a'} 2007]
-com:	29 July 2008: ghunchu'wI' in email to tlhIngan-Hol
+ref:	29 July 2008: ghunchu'wI' in email to tlhIngan-Hol
 
 tlh:	{'elpI'}
 sv:	«serverings«fat»», «uppläggsfat» (s)
@@ -15636,6 +15636,26 @@ sv:	vara «fårad» (v)
 en:	be «ridgy» (v)
 def:	[HQ13:1 p.10]
 ref:	[TDNW]
+
+tlh:	{vIl}
+sv:	¿?«fartgupp», «vägbula» (s)
+en:	¿?«speed bump» (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: ghunchu'wI' in email to tlhIngan-Hol
+com:	"The noun {vIl} is hard to define. Maltz had given a description of
+	something which was immediately recognized as a speed bump by everyone
+	present, but it was apparently intended not as an actual definition but
+	as an example of something which is 'just there'. There is obviously an
+	etymological relationship with and {vIlle'}, which is currently the
+	best clue we have to its true meaning. ['Groupie' and 'entourage' were
+	suggested by those present at the time, but Marc didn't think they
+	fit.]"
+
+tlh:	{vIlle'}
+sv:	«underhuggare», servil «tjänare» (s)
+en:	«minion» (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: ghunchu'wI' in email to tlhIngan-Hol
 
 tlh:	{vIlInHoD}
 sv:	en slags «fågel» (förmögen att härma språk) (s)
@@ -16490,14 +16510,14 @@ PARTS-OF-SPEECH
 {qep'a'mey} as Sources
 ======================
 
-1994 -- qep'a' wa'DIch
-----------------------
+1994 -- {qep'a' wa'DIch}
+------------------------
 
-1995 -- qep'a' cha'DIch
------------------------
+1995 -- {qep'a' cha'DIch}
+-------------------------
 
-1996 -- qep'a' wejDIch
-----------------------
+1996 -- {qep'a' wejDIch}
+------------------------
 MO attended[1].
 
 * New word: {nughI'} "twist knuckle into someone's head" (v)
@@ -16506,8 +16526,8 @@ MO attended[1].
 * Pun: MO had a neighbor named Jill (Qov)
 * Pun: {mon'a'} "Is she smiling?" (source?).
 
-1997 -- qep'a' loSDIch
-----------------------
+1997 -- {qep'a' loSDIch}
+------------------------
 MO attended -- winner of contest got to request a word[1][4]. 
 
 * Pun: {mIQ} "deep fry" is as in "{mIQ}-Donald's french fries" (Qov).
@@ -16518,16 +16538,16 @@ MO attended -- winner of contest got to request a word[1][4].
   industry standard. (Qov)
 * New word: {vegh} "go through (an open door, a tunnel, etc.)" (v)
 
-1998 -- qep'a' vaghDIch
------------------------
+1998 -- {qep'a' vaghDIch}
+-------------------------
 MO attended (though is not in {qep'a'} photo)[5].
 
-1999 -- qep'a' javDIch
-----------------------
+1999 -- {qep'a' javDIch}
+------------------------
 MO attended; held in Las Vegas[1][5].
 
-2000 -- qep'a' SochDIch
------------------------
+2000 -- {qep'a' SochDIch}
+-------------------------
 MO attended (me and & Markus there)[1][7].
 
 * {tIb} "be nervous, be uneasy" (v) [KGT p.132] confirmed as typo (real word is
@@ -16535,16 +16555,16 @@ MO attended (me and & Markus there)[1][7].
 * Verified that {woj} "sterilize" (v) is canon and synonymous to older word
   {Say'qu'moH}. (maHvatlh)
 
-2001 -- qep'a' chorghDIch
--------------------------
+2001 -- {qep'a' chorghDIch}
+---------------------------
 MO attended; held in Brussels, Belgium[1][8].
 
-2002 -- qep'a' HutDIch
-----------------------
+2002 -- {qep'a' HutDIch}
+------------------------
 MO attended for some of the event[9].
 
-2003 -- qep'a' wa'maHDIch
--------------------------
+2003 -- {qep'a' wa'maHDIch}
+---------------------------
 MO attended. During the course of the qep'a' Cabaret (specifically our usual
 game of Klingon Hokey Pokey) he favored us with a newly-discovered Klingon
 word[10]. Earthlings was filmed[1].
@@ -16556,12 +16576,12 @@ word[10]. Earthlings was filmed[1].
   his twin nieces Megan ({megh'an}) and Erin ({'er'In}).
 
 
-2004 -- qep'a' wa'maH wa'DIch
------------------------------
+2004 -- {qep'a' wa'maH wa'DIch}
+-------------------------------
 MO not attended, held in Phoenix, Arizona. Small attendance.
 
-2005 -- qep'a' wa'maH cha'DIch
-------------------------------
+2005 -- {qep'a' wa'maH cha'DIch}
+--------------------------------
 MO attended.
 
 * New word: {bop} "be about (something), be concerned with" (v) ("{'e' bop}"
@@ -16569,29 +16589,37 @@ MO attended.
 * New word: {meyrI'} "square (geometrical shape)" (n)
 * New word: {lev} "roof of mouth, hard palate" (n)
 
-2006 -- qep'a' wa'maH wejDIch
------------------------------
+2006 -- {qep'a' wa'maH wejDIch}
+-------------------------------
 
-2007 -- qep'a' wa'maH loSDIch
------------------------------
+2007 -- {qep'a' wa'maH loSDIch}
+-------------------------------
 MO attended.
 
 * New word: {pu'jIn} "map" (n) -- it contains private pun. (Eric Andeen)
 * New word: {qolqoS} "core, heart" (n)
 * New word: {'elI'jaH} "unexpected visitor" (n)
 
-2008 -- qep'a' wa'maH vaghDIch
-------------------------------
+2008 -- {qep'a' wa'maH vaghDIch}
+--------------------------------
 MO attended.
 
 * {wIlpuq} "pudding" (n)
 
-2009 -- qep'a' wa'maH javDIch
------------------------------
-MO attended, I was there. New words. 
+2009 -- {qep'a' wa'maH javDIch}
+-------------------------------
+MO attended, I was there.
 
-2010 -- qep'a' wa'maH SochDIch
-------------------------------
+* New word: {vIlle'} "minion" (n)
+* New word: {vIl} ? (n)
+* New words: Names for Klingon vowels: {'at} "a", {'et} "e", {'It} "I", {'ot}
+  "o", {'ut} "u"
+* New words: Names for Klingon consonants: {bay} "b", {chay} "ch", {Day} "D"
+  etc.
+* New word: Name for glottal stop: {qaghwI'} "'"
+
+2010 -- {qep'a' wa'maH SochDIch}
+--------------------------------
 
 
 [1]: http://www.kli.org/wiki/index.php?qep%27a%27
