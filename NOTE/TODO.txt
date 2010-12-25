@@ -1,7 +1,15 @@
 #+STARTUP: overview hidestars -*- org -*-
 
 * TODO Gitify upload
-** TODO Sketch infrastructure
+** TODO Makefile must not require perl 5.10
+** TODO Improve and optimize pre-commit hook
+   Commits are veeeeryy slow because of (I assume) the fact that find is runt
+   on all files in the repository.
+
+   Instead of searching all files for changed metadata, the pre-commit hook
+   should only fetch metadata for files changed in the commit.
+** DONE Sketch infrastructure
+   CLOSED: [2010-12-20 Mon 05:14]
 
    When the master branch is pushed, it should cause an update of the entire
    page.
@@ -10,8 +18,8 @@
     |
     +--> site content should be built by "make" un upload
 
-
-** TODO Publish klingonska.org git repo on HCoop
+** DONE Publish klingonska.org git repo on HCoop
+   CLOSED: [2010-12-20 Mon 05:14]
    Instructions: http://wiki.hcoop.net/MemberManual/VersionControl/git
 
    Repo names:
@@ -24,7 +32,8 @@
 
    ln -s ~/klingonska.org/main/.git ~/.hcoop-git/klingonska-website.git
 
-** TODO Use "git push" for upload instead of "make release"
+** DONE Use "git push" for upload instead of "make release"
+   CLOSED: [2010-12-20 Mon 05:14]
 
    Should make use of server side git hook 'post-receive' updating web page.
 
@@ -62,6 +71,12 @@
   dict/lexicon.cgi. Maybe make a list of file relations?
 
 
+
+* TODO {paqHom}
+** TODO Add zip archive of files for last {paqHom} printed
+** TODO Google Chrome should autodetect search engine for {paqHom]
+** TODO Search of dictionary should first page to appear
+   I.e. instead of dict/lexicon.cgi, this should be the index.cgi file.
 
 * TODO Optimize images for site
   Johan at work mentioned that JPEGs can be radically shrunk by optimizin hash
@@ -694,10 +709,15 @@
 ****** [NKW] http://teresh.tdonnelly.org/klinewest.html
 ****** [KLI] http://www.kli.org/tlh/newwords.html
 ***** {Qompu'} -- hmm. seems to be a "bad word" (from Terrence's list)
+***** Add name of Klingon sounds
+      described in: canon/2009-07-27-email.txt     
+      https://mail.google.com/mail/#mbox/122bf3f1c1e794e5
+***** Check correctness of {vIl} - "speed bump" 
+      https://mail.google.com/mail/#mbox/122bf3f1c1e794e5
 ***** {jIn}
 ****** Verify this word!
-      Terrence Donnelly says this means "to brew" and was mentioned somewhere,
-      and people remarked that it was very much like "gin".
+       Terrence Donnelly says this means "to brew" and was mentioned somewhere,
+       and people remarked that it was very much like "gin".
 ***** {qolqoS}, {'elI'jaH}, {wIlpuq}
       qolqoS n. Core of a group, the essential part of something; essence.
       http://mail.google.com/mail/#search/jIn/1217ffac4948e9abw
@@ -774,9 +794,13 @@
 
 * Send paqHommey to
 ** Terrence Donnelly <terrence.donnelly@sbcglobal.net>
-** Louse Whitty {lu'lu'}
-** {Qov}
+** DONE Louse Whitty {lu'lu'}
+   CLOSED: [2010-12-25 Sat 05:47]
+** DONE {Qov}
+   CLOSED: [2010-12-25 Sat 05:47]
 
+** DONE Marc Okrand
+   CLOSED: [2010-12-25 Sat 05:48]
 
 * Links to have from klingonska.org
 ** Klingon Unicode Table "Klingon: U+F8D0 - U+F8FF"
