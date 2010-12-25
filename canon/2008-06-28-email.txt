@@ -1,14 +1,17 @@
-Mime-Version: 1.0 (Apple Message framework v753.1)
-Message-Id: <90261C15-243F-4546-823C-3149D557F28A@klingonguy.com>
-Content-type: text/plain
+[[
+  [2010-07-23] added document
+
+  Type: email
+  Date: 28 July 2008
+  Title: More from Maltz
+  Author: Lawrence M. Schoen (describing discussion with Marc Okrand)
+  Summary: New word from {qep'a' wa'maH javDIch} 2008, {wIlpuq} "pudding".
+]]
+
 To: tlhIngan-Hol@kli.org
 Subject: More from Maltz
 From: "Dr. Lawrence M. Schoen" <lawrence@klingonguy.com>
 Date: Mon, 28 Jul 2008 11:44:34 -0400
-Content-Transfer-Encoding: 8bit
-Sender: tlhingan-hol-bounce@kli.org
-Precedence: bulk
-Reply-to: tlhingan-hol@kli.org
 
 Dr. Marc Okrand, creator of the Klingon language, put in an  
 appearance (as he usually does) at this year's <B>qep'a'</B>.
@@ -38,3 +41,4 @@ pItlh.
 Lawrence M. Schoen, Ph.D.
 http://www.lawrencemschoen.com
 Author / Publisher / Psychologist / Klingonist
+[[eof]]
