@@ -233,6 +233,14 @@ sv:	röra sig i en «omloppsbana» kring, «kretsa» kring (v)
 en:	<orbit> (v)
 def:	[TKD]
 
+tlh:	{bay}
+sv:	namn på klingonskans {b}-ljud (s)
+en:	name of klingon sound {b} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
+
 tlh:	{ba'}
 sv:	«sitta» (v)
 en:	<sit> (v)
@@ -1030,6 +1038,14 @@ en:	<permit> (n)
 def:	[TKD E-K]
 com:	Used in PK; {cha'puj vIngevmeH chaw' HInobneS}.
 
+tlh:	{chay}
+sv:	namn på klingonskans {ch}-ljud (s)
+en:	name of klingon sound {ch} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
+
 tlh:	{chay'}
 sv:	«hur»? (fråg)
 en:	<how>? (ques)
@@ -1746,7 +1762,7 @@ sv:	«känga», «stövel» (s)
 en:	<boot> (n)
 def:	[TKD]
 pun:	"Das Boot"! "Last year, I asked Marc Okrand if it was intentional;
-	he said yes." (ghunchu'wI', {qep'a' wejDIch} [1996])
+	he said yes." ({ghunchu'wI'}, {qep'a' wejDIch} [1996])
 cat:	clothing
 data:	KLCP-1
 
@@ -1786,6 +1802,14 @@ tlh:	{Daw'}
 sv:	«revolt», «revolution» (s)
 en:	<revolt>, revolution (n)
 def:	[TKD]
+
+tlh:	{Day}
+sv:	namn på klingonskans {D}-ljud (s)
+en:	name of klingon sound {D} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
 
 tlh:	{DayquS}
 sv:	en slags «planta», «dikusplanta» (s)
@@ -2511,6 +2535,14 @@ sv:	«~igvah~»-leversoppa (s)
 en:	<~igvah~> liver soup (n)
 def:	[KGT]
 
+tlh:	{ghay}
+sv:	namn på klingonskans {gh}-ljud (s)
+en:	name of klingon sound {gh} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
+
 tlh:	{ghaytan}
 sv:	«sannolikt», «antagligen», «förmodligen» (adv)
 en:	<likely>, «probably» (adv)
@@ -3235,6 +3267,14 @@ sv:	«fly» från, «ta» sig ur, «smita» ifrån (v)
 en:	<flee>, <get> out, «run» away (v)
 def:	[TKD; TKW p.91]
 
+tlh:	{Hay}
+sv:	namn på klingonskans {H}-ljud (s)
+en:	name of klingon sound {H} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
+
 tlh:	{Hay'}
 sv:	«duellera» (v)
 en:	<duel> (v)
@@ -3557,7 +3597,7 @@ tlh:	{HoD}
 sv:	«kapten» (rang) (s)
 en:	<captain> (n)
 def:	[TKD]
-pun:	{HoD} = H.o.D. = "Head of Department".
+pun:	{HoD} = H.o.D. = "Head of Department"
 data:	KLCP-1
 
 tlh:	{Hogh}
@@ -3681,6 +3721,7 @@ tlh:	{HoS}
 sv:	vara «stark» (v)
 en:	be <strong> (v)
 def:	[TKD]
+pun:	{HoS} = H.o.S. = "Head of State" (¿?)
 data:	KLCP-1
 
 tlh:	{HoS}
@@ -4170,6 +4211,14 @@ sv:	«herre» (s)
 en:	<lord> (n)
 def:	[TKD]
 
+tlh:	{jay}
+sv:	namn på klingonskans {j}-ljud (s)
+en:	name of klingon sound {j} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
+
 tlh:	{jay'}
 sv:	«intensivt» («invektiv») (adv)
 en:	<intensely> («invective») (adv)
@@ -4365,7 +4414,7 @@ sv:	«granne» (s)
 en:	<neighbor> (n)
 def:	[TKD]
 pun:	Okrand confirmed at {qep'a' wejDIch} (1996) that he had a neighbor
-	named "Jill." (Qov)
+	named "Jill." ({Qov})
 
 tlh:	{jInaq}
 sv:	«amulett» som symboliserar en flickas mognad (s)
@@ -4756,6 +4805,14 @@ ref:	[TKW pp.35, 53, 95, 179; S33]
 com:	Entries differ and have been combined here.
 	S33: {HoS law'qu'} "very much energy"
 data:	KLCP-1
+
+tlh:	{lay}
+sv:	namn på klingonskans {l}-ljud (s)
+en:	name of klingon sound {l} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
 
 tlh:	{lay'}
 sv:	«lova» (v)
@@ -5572,6 +5629,14 @@ sv:	vara «rättvis» (v)
 en:	be <fair> (v)
 def:	[TKD]
 
+tlh:	{may}
+sv:	namn på klingonskans {m}-ljud (s)
+en:	name of klingon sound {m} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
+
 tlh:	{may'}
 sv:	«strid» (ett enskild strid) (s)
 en:	<battle> (an individual battle) (n)
@@ -5852,7 +5917,7 @@ en:	<fry>, <deep-fry> (v)
 def:	[KGT]
 com:	Entries differ in source. One of the E-K entries is used here.
 pun:	"Marc nodded, smiling infuriatingly, to confirm {mIQ} (deep fry) as in
-	mIQ-Donald's french fries." (Qov, {qep'a' loSDIch} [1997])
+	mIQ-Donald's french fries." ({Qov}, {qep'a' loSDIch} [1997])
 
 tlh:	{mIQ}
 sv:	«panna» (s) (regionalt)
@@ -6619,6 +6684,14 @@ pun:	Okrand confirmed at {qep'a' loSDIch} (1997) that {nay} came from "nay"
 	(no). (HetaQ)
 cat:	family
 
+tlh:	{nay}
+sv:	namn på klingonskans {n}-ljud (s)
+en:	name of klingon sound {n} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
+
 tlh:	{nay'}
 sv:	«rätt», «maträtt» (vid en måltid) (s)
 en:	<course>, <dish> (at a meal) (n)
@@ -7368,6 +7441,14 @@ sv:	«omrörnings«pinne»» med tillplattad, paddelliknande ände (s)
 en:	<mixing «stick»> with flattened, paddlelike end (n)
 def:	[KGT]
 
+tlh:	{ngay}
+sv:	namn på klingonskans {ng}-ljud (s)
+en:	name of klingon sound {ng} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
+
 tlh:	{nga'chuq}
 sv:	«sex» (d.v.s. ha sex; alltid subjekt) (v)
 en:	have «sex», perform sex (v)
@@ -7817,6 +7898,14 @@ sv:	«ångra» (v)
 en:	<regret> (v)
 def:	[TKD]
 data:	KLCP-1
+
+tlh:	{pay}
+sv:	namn på klingonskans {p}-ljud (s)
+en:	name of klingon sound {p} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
 
 tlh:	{pay'}
 sv:	«plötsligt» (adv)
@@ -8576,7 +8665,7 @@ tlh:	{pu'jIn}
 sv:	«karta» (s)
 en:	«map» (n)
 def:	[{qep'a'} 2007]
-ref:	29 July 2008: ghunchu'wI' in email to tlhIngan-Hol
+ref:	29 July 2008: {ghunchu'wI'} in email to tlhIngan-Hol
 com:	Marc said that {pu'jIn} is a pun/joke, but it was a personal reference
 	(presumably similar to {jIl} or {pe'vIl}), so it wouldn't be something
 	we'd get. (Tad, email to tlhingan-hol 3 August 2007)
@@ -8634,6 +8723,14 @@ en:	<serpent worm> (as food), «~gagh~» (n)
 def:	[TKDa]
 ref:	[TKW pp.137, 141]
 com:	The word "~gagh~" found in definition of {ghevI'} in KGT.
+
+tlh:	{qaghwI'}
+sv:	namn på klingonskans {'}-ljud (s)
+en:	name of klingon sound {'} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
 
 tlh:	{qaH}
 sv:	«herr», «sir» (använd endast som tilltal) (s)
@@ -8795,6 +8892,14 @@ sv:	¿?«använda» «lång«fingret»» (v)
 en:	«use» the «middle «finger»» («second finger») (v)
 def:	[HQ10:2 p.7]
 cat:	body part
+
+tlh:	{qay}
+sv:	namn på klingonskans {q}-ljud (s)
+en:	name of klingon sound {q} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
 
 tlh:	{qaywI'}
 sv:	«lång«finger»» (s)
@@ -9221,7 +9326,7 @@ sv:	«kärna», «hjärta» (s)
 en:	«core», «heart» (n)
 def:	[{qep'a'} 2007]
 com:	John Colicos (1928--2000) is the name of the Canadian actor who played
-	"Kor". (Qov, email to tlhingan-hol 2 August 2007)
+	"Kor". ({Qov}, email to tlhingan-hol 2 August 2007)
 
 tlh:	{qompogh}
 sv:	en slags «mat» (s)
@@ -9707,6 +9812,14 @@ sv:	«överföra» (v)
 en:	<transfer> (v)
 def:	[TKD]
 
+tlh:	{Qay}
+sv:	namn på klingonskans {Q}-ljud (s)
+en:	name of klingon sound {Q} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
+
 tlh:	{Qay'}
 sv:	förlora «besinningen», tappa «behärskningen», tappa «humöret», bli
 	«ursinning», bli «rasande» (v)
@@ -9764,7 +9877,7 @@ tlh:	{QeD}
 sv:	«vetenskap» (s)
 en:	<science> (n)
 def:	[TKD]
-pun:	{QeD} = Q.E.D. = "quod erat demonstrandum".
+pun:	{QeD} = Q.E.D. = "quod erat demonstrandum"
 data:	KLCP-1
 
 tlh:	{QeDpIn}
@@ -10411,6 +10524,14 @@ def:	[News 1998-12-07; HQ8:3 p.2]
 com:	Article in HQ is called "{matlh juppu' mu'mey}".
 see:	{pa' beb}
 
+tlh:	{ray}
+sv:	namn på klingonskans {r}-ljud (s)
+en:	name of klingon sound {r} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
+
 tlh:	{ray'}
 sv:	«mål»(-tavlor) (plural) (s)
 en:	<targets> (n)
@@ -10688,17 +10809,15 @@ tlh:	{rom}
 sv:	«överenskommelse», «fördrag», «samstämmighet» (s)
 en:	<accord> (n)
 def:	[TKD]
-com:	Klingon grammarians refer to the rule that governs
-	the use of pronominal prefixes as the rule of {rom} (liter-
-	ally, "accord"). Grammarians of Federation Standard and
-	many Earth languages call the phenomenon "agree-
-	ment." Thus, in the case of Klingon, the prefix used must
-	"agree" with the noun to which it refers; if the object
-	noun is plural, for example, the prefix must be one that is
-	used with plural objects. Agreeing is not a trait typically
-	associated with Klingon nature, however, and appar-
-	ently, at least under certain circumstances, this may ex-
-	tend to grammar as well. [KGT p.172]
+com:	Klingon grammarians refer to the rule that governs the use of
+	pronominal prefixes as the rule of {rom} (literally, "accord").
+	Grammarians of Federation Standard and many Earth languages call the
+	phenomenon "agreement." Thus, in the case of Klingon, the prefix used
+	must "agree" with the noun to which it refers; if the object noun is
+	plural, for example, the prefix must be one that is used with plural
+	objects. Agreeing is not a trait typically associated with Klingon
+	nature, however, and apparently, at least under certain circumstances,
+	this may extend to grammar as well. [KGT p.172]
 
 tlh:	{romuluS}
 sv:	«Romulus» (s)
@@ -11027,6 +11146,14 @@ tlh:	{Saw'}
 sv:	«ha» ett «djup» av (v)
 en:	<have> a <depth of> (v)
 def:	[KGT]
+
+tlh:	{Say}
+sv:	namn på klingonskans {S}-ljud (s)
+en:	name of klingon sound {S} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
 
 tlh:	{Say'}
 sv:	vara «ren», vara «fläckfri» (v)
@@ -11908,6 +12035,14 @@ sv:	«ceremoni», «rit», «ritual» (s)
 en:	<ceremony>, <rite>, «ritual» (n)
 def:	[TKDa]
 
+tlh:	{tay}
+sv:	namn på klingonskans {t}-ljud (s)
+en:	name of klingon sound {t} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
+
 tlh:	{taymoH}
 sv:	«civilisera», göra civiliserad (v)
 en:	<civilize> (v)
@@ -12725,6 +12860,14 @@ sv:	«ärm» (s)
 en:	<sleeve> (n)
 def:	[KGT]
 
+tlh:	{tlhay}
+sv:	namn på klingonskans {tlh}-ljud (s)
+en:	name of klingon sound {tlh} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
+
 tlh:	{tlha'}
 sv:	«jaga», «följa» efter (v)
 en:	<chase>, <follow> (v)
@@ -13238,6 +13381,14 @@ sv:	«slåss», «strida» (mellanstor vildsinthet) (v)
 en:	<fight>, <battle> (midlevel ferocity) (v)
 def:	[KGT]
 
+tlh:	{vay}
+sv:	namn på klingonskans {v}-ljud (s)
+en:	name of klingon sound {v} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
+
 tlh:	{vay'}
 sv:	«något», «någon», «någonting» (s)
 en:	<somebody>, «someone», «something»,
@@ -13746,6 +13897,14 @@ sv:	«bas» (militär term) (s)
 en:	<base> (military term) (n)
 def:	[TKD]
 
+tlh:	{way}
+sv:	namn på klingonskans {w}-ljud (s)
+en:	name of klingon sound {w} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
+
 tlh:	{way'}
 sv:	«parera», «avleda» en stöt, (v)
 en:	<parry>, <deflect> a lunge (v)
@@ -13929,7 +14088,7 @@ tlh:	{wIlpuq}
 sv:	«pudding» (s)
 en:	«pudding» (n)
 def:	[{qep'a'} 2008]
-com:	{'angghal}, email to tlhingan-hol 28 July 2008
+com:	28 July 2008: {'angghal} in email to tlhingan-hol ("More from Maltz")
 
 tlh:	{wItlh}
 sv:	«bryta» av (något) (v)
@@ -14215,6 +14374,14 @@ en:	<victory>, <triumph> (n)
 def:	[TKD]
 ref:	[TKW pp.125, 135, 179, 211]
 data:	KLCP-1
+
+tlh:	{yay}
+sv:	namn på klingonskans {y}-ljud (s)
+en:	name of klingon sound {y} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
 
 tlh:	{yay'}
 sv:	vara «chockad», vara «mållös», vara «förstummad» (v)
@@ -14822,7 +14989,7 @@ tlh:	{'elI'jaH}
 sv:	«oväntad «gäst»» (s)
 en:	«unexpected «visitor»» (n)
 def:	[{qep'a'} 2007]
-ref:	29 July 2008: ghunchu'wI' in email to tlhIngan-Hol
+ref:	29 July 2008: {ghunchu'wI'} in email to tlhIngan-Hol
 
 tlh:	{'elpI'}
 sv:	«serverings«fat»», «uppläggsfat» (s)
@@ -15333,7 +15500,7 @@ def:	[KGT]
 pun:	At {qep'a' loSDIch} (1997) Okrand confirmed the suspicion of a list
 	member about its origin: electronic goods sold in the United States
 	have a sticker on them saying UL ("Underwriter's Laboratory") showing
-	they meet industry safety standards. (Qov)
+	they meet industry safety standards. ({Qov})
 
 tlh:	{'um}
 sv:	vara «kvalificerad» (v)
@@ -15641,7 +15808,7 @@ tlh:	{vIl}
 sv:	¿?«fartgupp», «vägbula» (s)
 en:	¿?«speed bump» (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: ghunchu'wI' in email to tlhIngan-Hol
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
 com:	"The noun {vIl} is hard to define. Maltz had given a description of
 	something which was immediately recognized as a speed bump by everyone
 	present, but it was apparently intended not as an actual definition but
@@ -15655,7 +15822,7 @@ tlh:	{vIlle'}
 sv:	«underhuggare», servil «tjänare» (s)
 en:	«minion» (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: ghunchu'wI' in email to tlhIngan-Hol
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
 
 tlh:	{vIlInHoD}
 sv:	en slags «fågel» (förmögen att härma språk) (s)
@@ -15680,6 +15847,46 @@ sv:	en slags «fågel» (grå, ibland vit, flyger långa sträckor utan
 en:	type of «bird» (gray, sometimes white, travel long distances without
 	pausing) (n)
 def:	[HQ10:4 p.5]
+
+tlh:	{'at}
+sv:	namn på klingonskans {a}-ljud (s)
+en:	name of klingon sound {a} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
+
+tlh:	{'et}
+sv:	namn på klingonskans {e}-ljud (s)
+en:	name of klingon sound {e} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
+
+tlh:	{'It}
+sv:	namn på klingonskans {I}-ljud (s)
+en:	name of klingon sound {I} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
+
+tlh:	{'ot}
+sv:	namn på klingonskans {o}-ljud (s)
+en:	name of klingon sound {o} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
+
+tlh:	{'ut}
+sv:	namn på klingonskans {u}-ljud (s)
+en:	name of klingon sound {u} (n)
+def:	[{qep'a'} 2009]
+ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+com:	FIXME shouldn't be included included in Klingon-English side of
+	dictionary
 
 tlh:	{'uSgheb}
 sv:	en slags «fågel» (för oljud i gryningen, vildsintare än en tupp) (s)
@@ -16522,20 +16729,20 @@ MO attended[1].
 
 * New word: {nughI'} "twist knuckle into someone's head" (v)
 * New meaning: {ngech} "woman's cleavage" (source?)
-* Pun: "DaS boot" confirmed as intentional (ghunchu'wI')
-* Pun: MO had a neighbor named Jill (Qov)
+* Pun: "DaS boot" confirmed as intentional ({ghunchu'wI'})
+* Pun: MO had a neighbor named Jill ({Qov})
 * Pun: {mon'a'} "Is she smiling?" (source?).
 
 1997 -- {qep'a' loSDIch}
 ------------------------
-MO attended -- winner of contest got to request a word[1][4]. 
+MO attended -- winner of contest got to request a word[1][4].
 
-* Pun: {mIQ} "deep fry" is as in "{mIQ}-Donald's french fries" (Qov).
+* Pun: {mIQ} "deep fry" is as in "{mIQ}-Donald's french fries" ({Qov}).
 * Pun: {nay} "marry (wife does this)" and {Saw} "marry (husband does this)"
   comes from "nay" (no) and "sure" with a Southern drawl (HetaQ).
 * Pun: {'ul} "electricity" (n) comes from "UL" ("Underwriter's Laboratory")
   sticker on electric stuff sold in US -- denoting that the thing meets
-  industry standard. (Qov)
+  industry standard. ({Qov})
 * New word: {vegh} "go through (an open door, a tunnel, etc.)" (v)
 
 1998 -- {qep'a' vaghDIch}
