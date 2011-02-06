@@ -62,17 +62,6 @@ upload = \
         ssh "$(1)" "fsr setacl $(2) zrajm.daemon rl" & \
     fi
 
-# Usage: $(call upload_dependencies,TIMESTAMP_FILE)
-#
-# Returns a list of files changed after TIMESTAMP_FILE, or if no TIMESTAMP_FILE
-# exists, returns an empty list. (Because no dependancy = always run.)
-#
-# Never lists any of the files mentioned in .gitignore.
-upload_dependencies = $(shell [ -e $(1) ] &&      \
-    find -name .git -prune -o -type f -newer $(1) \
-        `sed 's/^/\\! -name /' .gitignore`        \
-)
-
 
 ###############################################################################
 ##                                                                           ##
@@ -105,26 +94,6 @@ dict/%.html: dict/%.txt
 .PHONY: clean
 clean:
 	@rm -vf $(generated_html_files)
-
-## beta - upload new beta to http://beta.klingonska.org/
-.PHONY: beta
-beta: all $(TIMESTAMP_FILE_BETA)
-$(TIMESTAMP_FILE_BETA): $(call upload_dependencies,$(TIMESTAMP_FILE_BETA))
-	@echo "$(bold)Uploading new beta to HCoop"                                  \
-	    "($(REMOTE_HOST):$(REMOTE_PATH_BETA))$(normal)";                        \
-	[ -e $@ ] && echo "Changed: $^";                                            \
-	$(call upload,$(REMOTE_HOST),$(REMOTE_PATH_BETA),$(REMOTE_KERB_PRINCIPAL)); \
-	touch $@
-
-## release - upload new release to http://klingonska.org/
-.PHONY: release
-release: all $(TIMESTAMP_FILE_RELEASE)
-$(TIMESTAMP_FILE_RELEASE): $(call upload_dependencies,$(TIMESTAMP_FILE_RELEASE))
-	@echo "$(bold)Uploading new release to HCoop"                                  \
-	    "($(REMOTE_HOST):$(REMOTE_PATH_RELEASE))$(normal)";                        \
-	[ -e $@ ] && echo "Changed: $^";                                               \
-	$(call upload,$(REMOTE_HOST),$(REMOTE_PATH_RELEASE),$(REMOTE_KERB_PRINCIPAL)); \
-	touch $@
 
 ## help - display this information
 .PHONY: help
