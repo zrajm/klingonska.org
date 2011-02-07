@@ -1,0 +1,77 @@
+[[
+  [2011-02-07] added document
+
+  Type: email
+  Date: 15 July 2004
+  Title: Re: Klingon WOTD: pub (v) > jIn
+  Author: Steven Boozer
+  Summary: Clarifications on the hypothetical (but now disproven) word {jIn}
+    "brew".
+]]
+
+Date: Thu, 15 Jul 2004 09:50:32 -0500
+To: tlhingan-hol@kli.org
+From: Steven Boozer <sboozer@midway.uchicago.edu>
+Subject: Re: Klingon WOTD: pub (v) > jIn
+
+Voragh:
+> > Cf. also {jIn} "brew".
+
+lay'tel SIvten:
+>What is the source of this word?  And its part of speech?
+
+Hmmm, this seems to come from an old entry in my notes:
+
+   I remember [Okrand] and I actually were discussing *raktajino*
+   while he was working on the book [KGT], as soon as we both found
+   out that it was Klingon coffee... He really hated the /-ino/
+   ending, since it sounded too obviously like cappuccino, and said
+   he'd have to check with Maltz about *raktaj* ... and I had the
+   theory that the Klingon wasn't "raktaj" or whatever, but actually
+   *raktajin* and the /-o/ was added by marketers for similarity with
+   Terran brews. Why *raktajin*? Because it was brewed from {raHta'},
+   making it {raHta'jIn}."  (~mark)
+
+I had {jIn} "brew" in my notes, probably because I thought it had been 
+vetted by Okrand, since he was discussing it as a possibility.  But as it 
+happened, Okrand rejected this hypothesis - no doubt because {raHta'} 
+*racht* is a type of large food worm served live.  While Klingons might 
+enjoy a beverage made from liquefied worms, humans definitely won't and 
+*raktajino* wouldn't have become one of the favorite beverages on DS9.  We 
+now read in KGT (pp. 95-96) that:
+
+   Though not native to the Empire, Klingons have developed a way to
+   make coffee ({qa'vIn}) particularly strong, both in flavor and in
+   its effect as a stimulant, and it is a very popular beverage. As a
+   rule, coffee is consumed plain--that is, black--but some Klingons
+   prefer to mix other ingredients in with the coffee. If some kind
+   of {HIq} ("liquor") is added to the coffee, the drink is called
+   {ra'taj}. It is said that the drink was originally nicknamed {ra'wI'
+   taj} ("commander's knife," suggestive of its potency), and that the
+   name was shortened over time. This often repeated story cannot be
+   confirmed. In any event, {ra'taj} became one of the few Klingon
+   foods to become popular outside of the Empire, though in an altered
+   form. Instead of containing liquor, as does the genuine Klingon
+   {ra'taj}, the "export" version (which came to be pronounced *raktaj*
+   in Federation Standard) consists of strong Klingon coffee plus a
+   nutlike flavoring. Eventually, a new fashion developed--adding cream
+   to the *raktaj*--and with this innovation came yet another name,
+   *raktajino*, modeled after the name of another popular coffee drink,
+   cappuccino. *Raktajino* is now served hot or iced, with or without
+   extra cream, and with or without the rind of some fruit to add even
+   more flavor. Though it is sometimes called "Klingon coffee," it is
+   quite different from both plain {qa'vIn} and the alcoholic {ra'taj}.
+
+So, I will make the correction to my notes and mark *{jIn} as speculation.
+
+Thanks for catching this.
+
+
+
+-- 
+Voragh
+Ca'Non Master of the Klingons 
+
+
+
+[[eof]]

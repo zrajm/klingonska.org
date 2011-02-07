@@ -74,9 +74,9 @@ our @tips = (
     "Example: <strong>tlh:*'egh</strong> finds all Klingon words ending in <em>&rsquo;egh</em>",
     "Example: <strong>data:klcp</strong> lists all Klingon Language Certification Program words.",
     "Example: <strong>def:kgt</strong> lists all words first occuring in KGT.",
-    "Put <strong>tlh:</strong> before a word to search only Klingon definitions.",
-    "Put <strong>sv:</strong> before a word to search only Swedish definitions.",
-    "Put <strong>en:</strong> before a word to search only English definitions.",
+    "Put <strong>tlh:</strong> before a word to search in Klingon definitions.",
+    "Put <strong>sv:</strong> before a word to search in Swedish definitions.",
+    "Put <strong>en:</strong> before a word to search in English definitions.",
     "Use <strong>*</strong> to mean any sequence of letters.",
     "Use <strong>\"...\"</strong> to search for a phrase.",
 );

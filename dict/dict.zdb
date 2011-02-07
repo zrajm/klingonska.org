@@ -70,6 +70,13 @@ FIELD NAMES USED IN DICTIONARY BELOW
 		      English--Klingon side of the dictionary (and contain a
 		      warning in the Klingon--English?)
 
+		      »incorrect form« = A word that is given as an example of
+		      something that *does not* exist in the language.
+		      Sometimes non-existant words are discussed, or there is a
+		      hypothesis of a word which is later disproven, if/when a
+		      word is discussed in this fashion it gets the "incorrect
+		      form" status so as to not confuse it with an actual word.
+
 === start-of-word-list ===
 
 tlh:	{bach}
@@ -430,6 +437,14 @@ def:	[TKD]
 cat:	family
 data:	KLCP-1
 
+tlh:	{be'nI'nal}
+sv:	«svägerska» (s) (exempel på felaktig användning)
+en:	«sister-in-law» (n) (example of incorrect use)
+def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
+ref:	22 December 2010: {Quvar} in email to tlhIngan-Hol ("latlh 'e'nalpu'")
+com:	DON'T USE THIS WORD. Use {loDnI' be'nal} and {be'nI' be'nal} instead.
+data:	incorrect form; derived form
+
 tlh:	{bID}
 sv:	«halva», «hälft» (s)
 en:	<half> (n)
@@ -508,7 +523,7 @@ sv:	«deuterium-isotop» (s)
 en:	«deuterium isotope» (n)
 def:	[BoP]
 ref:	[KLINW]
-data:	phrase
+data:	phrase; derived form
 
 tlh:	{bIQtIq}
 sv:	«flod», «älv» (s)
@@ -809,6 +824,12 @@ tlh:	{bup}
 sv:	«sluta», «avsluta» (v)
 en:	<quit> (v)
 def:	[TKD]
+
+tlh:	{buq}
+sv:	«påse», «säck», «pung», «ficka» (s)
+en:	«bag», «sack», «pouch», «pocket» (n)
+def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
+ref:	7 December 2010: {Quvar} in email to tlhIngan-Hol ("News from Maltz")
 
 tlh:	{buQ}
 sv:	«hota» (v)
@@ -1219,13 +1240,13 @@ en:	<tolerate> (v)
 def:	[TKD]
 
 tlh:	{cheSvel} (1)
-sv:	«kappa», «jacka» (generell term) (s) (regionalt)
+sv:	«rock», «jacka» (generell term) (s) (regionalt)
 en:	<coat>, jacket (general term) (n) (regional)
 def:	[KGT]
 com:	Entries differ and have been combined here.
 
 tlh:	{cheSvel} (2)
-sv:	en slags «kappa» (s)
+sv:	en slags «rock» (s)
 en:	type of <coat> (n)
 def:	[KGT]
 
@@ -2709,6 +2730,20 @@ tlh:	{ghIm}
 sv:	sända i «exil» (v)
 en:	<exile> (v)
 def:	[TKD]
+
+tlh:	{ghIn}
+sv:	«kloster» (s)
+en:	<monastery> (n)
+def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
+ref:	19 December 2010: {Quvar} in email to tlhIngan-Hol ("monastery");
+	16 January 2011: {Quvar} in email to tlhIngan-Hol ("monastery: more")
+com:	"The word for monastery is {ghIn}. [...] A {ghIn'a'} would be a pretty
+	important monastery, for example. {ghIn} would be a single building if
+	that's all the monastery was, it could also refer to a group of
+	buildings and accompanying grounds (gardens or whatever) -- the whole
+	defined area where the members of the religious community live or work
+	or do whatever they do there. It doesn't mean the group of people."
+	/Quvar
 
 tlh:	{ghIntaq}
 sv:	«strids«spjut»», «~gin'tak~» (s)
@@ -4416,6 +4451,51 @@ def:	[TKD]
 pun:	Okrand confirmed at {qep'a' wejDIch} (1996) that he had a neighbor
 	named "Jill." ({Qov})
 
+tlh:	{jIn}
+sv:	«brygga» (v) (hypotetiskt ord som senare visade sig vara felaktigt)
+en:	«brew» (v) (hypothetic word later disproven)
+com:	Hmmm, this seems to come from an old entry in my notes:
+	> I remember [Okrand] and I actually were discussing *raktajino* while
+	> he was working on the book [KGT], as soon as we both found out that
+	> it was Klingon coffee... He really hated the /-ino/ ending, since it
+	> sounded too obviously like cappuccino, and said he'd have to check
+	> with Maltz about *raktaj* ... and I had the theory that the Klingon
+	> wasn't "raktaj" or whatever, but actually *raktajin* and the /-o/ was
+	> added by marketers for similarity with Terran brews. Why *raktajin*?
+	> Because it was brewed from {raHta'}, making it {raHta'jIn}." (~mark)
+	I had {jIn} "brew" in my notes, probably because I thought it had been
+	vetted by Okrand, since he was discussing it as a possibility. But as
+	it happened, Okrand rejected this hypothesis - no doubt because
+	{raHta'} *racht* is a type of large food worm served live. While
+	Klingons might enjoy a beverage made from liquefied worms, humans
+	definitely won't and *raktajino* wouldn't have become one of the
+	favorite beverages on DS9. We now read in KGT (pp. 95-96) that:
+	> Though not native to the Empire, Klingons have developed a way to
+	> make coffee ({qa'vIn}) particularly strong, both in flavor and in its
+	> effect as a stimulant, and it is a very popular beverage. As a rule,
+	> coffee is consumed plain--that is, black--but some Klingons prefer to
+	> mix other ingredients in with the coffee. If some kind of {HIq}
+	> ("liquor") is added to the coffee, the drink is called {ra'taj}. It
+	> is said that the drink was originally nicknamed {ra'wI' taj}
+	> ("commander's knife," suggestive of its potency), and that the name
+	> was shortened over time. This often repeated story cannot be
+	> confirmed. In any event, {ra'taj} became one of the few Klingon foods
+	> to become popular outside of the Empire, though in an altered form.
+	> Instead of containing liquor, as does the genuine Klingon {ra'taj},
+	> the "export" version (which came to be pronounced *raktaj* in
+	> Federation Standard) consists of strong Klingon coffee plus a nutlike
+	> flavoring. Eventually, a new fashion developed--adding cream to the
+	> *raktaj*--and with this innovation came yet another name,
+	> *raktajino*, modeled after the name of another popular coffee drink,
+	> cappuccino. *Raktajino* is now served hot or iced, with or without
+	> extra cream, and with or without the rind of some fruit to add even
+	> more flavor. Though it is sometimes called "Klingon coffee," it is
+	> quite different from both plain {qa'vIn} and the alcoholic {ra'taj}.
+	So, I will make the correction to my notes and mark *{jIn} as
+	speculation. Thanks for catching this.
+        /Steven Boozer on tlhIngan-Hol, 15 July 2004
+data:	incorrect form
+
 tlh:	{jInaq}
 sv:	«amulett» som symboliserar en flickas mognad (s)
 en:	<amulet> symbolizing a girl's coming of age (n)
@@ -5118,6 +5198,14 @@ def:	[TKD]
 cat:	family
 data:	KLCP-1
 
+tlh:	{loDnI'nal}
+sv:	«svåger» (s) (exempel på felaktig användning)
+en:	«brother-in-law» (n) (example of incorrect use)
+def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
+ref:	22 December 2010: {Quvar} in email to tlhIngan-Hol ("latlh 'e'nalpu'")
+com:	DON'T USE THIS WORD. Use {loDnI' loDnal} or {be'nI' loDnal} instead.
+data:	incorrect form; derived form
+
 tlh:	{logh}
 sv:	«rymd» (s)
 en:	<space> (n)
@@ -5349,6 +5437,13 @@ tlh:	{luH}
 sv:	«tarmar», «inälvor» (s)
 en:	<intestine> (n)
 def:	[KGT]
+
+tlh:	{luHwI' tIH}
+sv:	«dragstråle» (s)
+en:	«tractor beam» (n)
+def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
+ref:	13 December 2010: {Quvar} in email to tlhIngan-Hol ("tractor beam")
+data:	phrase; derived form
 
 tlh:	{luj}
 sv:	«misslyckas», «förlora» (v)
@@ -5685,7 +5780,7 @@ sv:	ett slags «ceremoniell «kniv»», «~mevak~» (används i
 en:	type of «ceremonial «knife»», «~mevak~» (used in the ~Mauk-To'Vor~
 	ritual) (n)
 def:	[MO at ~1998 Praxis~ (recording); STE]
-com:	Seen in the DS9 "Sons of Mogh".
+com:	Seen in DS9 "Sons of Mogh".
 	English spelling (according to STE) is ~mevak~.
 
 tlh:	{meb}
@@ -5868,9 +5963,11 @@ pun:	{mIl} = MILhouse! Think about it: "This would be applied to a leader
 	to tlhIngan-Hol)
 
 tlh:	{mIllogh}
-sv:	«picture» (n)
-en:	«bild» (s)
-def:	http://www.facebook.com/home.php?sk=group_165201996829401
+sv:	«bild» (ritning, foto, serieteckning, datorikon, etc) (s)
+en:	«picture» (drawing, photo, cartoon, computer icons, etc) (n)
+def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
+ref:	5 December 2010: {R Fenwick} in email to tlhIngan-Hol ("{latlh mu' chu'}");
+        http://www.facebook.com/home.php?sk=group_165201996829401
 com:	Lieven Litaer: Finally, someone last year asked for the word for
 	"picture." At first, Maltz wondered why nagh beQ wasn't good enough.
 	But then he thought about it some more and said that another word,
@@ -6108,7 +6205,7 @@ def:	[TKD]
 cat:	clothing
 
 tlh:	{mop}
-sv:	«kappa», «rock» (s)
+sv:	«kappa», «dräkt» (s)
 en:	<robe> (n)
 def:	[TKD]
 cat:	clothing
@@ -7599,6 +7696,23 @@ sv:	«faktum», «fakta» (s)
 en:	<fact> (n)
 def:	[TKD]
 data:	KLCP-1
+
+tlh:	{ngogh}
+sv:	«block», «klump», «kloss» (s)
+en:	«block», «lump», «brick» (n)
+def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
+ref:	22 December 2010: {Quvar} in email to tlhIngan-Hol ("latlh 'e'nalpu'")
+
+tlh:	{ngogh tun}
+sv:	«kudde» (s)
+en:	«pillow» (n)
+def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
+ref:	7 December 2010: {Quvar} in email to tlhIngan-Hol ("News from Maltz")
+com:	"Maltz first said, as did you, that Klingons don't have pillows and he
+	wondered why anyone would want one. But he's seen them (somewhere) and
+	knows what they are. So when pushed -- 'If you have to call it
+	something, what would you call it?' -- he said {ngogh tun}."
+data:	phrase; derived form
 
 tlh:	{ngoH} (1)
 sv:	«kleta», «smeta», «bestryka» (v)
@@ -10182,6 +10296,13 @@ en:	<bed> (n)
 def:	[KGT]
 ref:	[TKW p.40]
 
+tlh:	{QongDaq buq}
+sv:	«kudde», «sängpåse» (s)
+en:	«pillow», «bed pouch» (n)
+def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
+ref:	7 December 2010: {Quvar} in email to tlhIngan-Hol ("News from Maltz")
+data:	phrase; derived form
+
 tlh:	{Qop} (1)
 sv:	vara «utsliten» (v)
 en:	be <worn> out (v)
@@ -11478,8 +11599,8 @@ ref:	[HQ12:3 p.9]
 data:	KLCP-1
 
 tlh:	{Soj}
-sv:	«sak», «fråga», «angelägenhet» (s)
-en:	«matter», «concern», «affair» (n)
+sv:	«sak», «fråga», «angelägenhet» (idiomatisk användning) (s)
+en:	«matter», «concern», «affair» (idiomatic use) (n)
 def:	[HQ12:3 p.9]
 ref:	[TDNW]
 gram:	{tlhIngan Soj 'oH; not bIyaj} ~It's a Klingon affair; you wouldn't
@@ -12387,6 +12508,12 @@ tlh:	{tIr}
 sv:	«gryn», «korn», «frö» (s)
 en:	<grain> (n)
 def:	[TKD]
+
+tlh:	{tIr ngogh}
+sv:	«bröd» (s)
+en:	«bread» (n)
+def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
+data:	phrase
 
 tlh:	{tIS}
 sv:	vara «lätt» (om vikt) (v)
@@ -14024,7 +14151,7 @@ com:	Article in HQ is called "{matlh juppu' mu'mey}".
 cat:	time
 
 tlh:	{wep} (1)
-sv:	«jacka», «kappa» (s)
+sv:	«jacka», «rock» (s)
 en:	<jacket>, <coat> (n)
 def:	[TKD]
 cat:	clothing
@@ -14034,6 +14161,14 @@ tlh:	{wep} (2)
 sv:	«skjorta» med ärmar (s) (regional)
 en:	<shirt> with sleeves (n) (regional)
 def:	[KGT]
+
+tlh:	{wep buq}
+sv:	«jack«påse»», «rock«ficka»» (s)
+en:	«jacket «pouch»», «coat «pocket»» (n)
+def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
+ref:	7 December 2010: {Quvar} in email to tlhIngan-Hol ("News from Maltz")
+cat:	clothing
+data:	phrase; derived form
 
 tlh:	{weq}
 sv:	«slå» (på slaginstrument) med handflata (v)
@@ -14606,9 +14741,17 @@ def:	[TKD]
 
 tlh:	{yopwaH}
 sv:	«byxor» (s)
-en:	<pants> (n)
+en:	<pants>, «trousers» (n)
 def:	[TKD]
 cat:	clothing
+
+tlh:	{wep buq}
+sv:	byx«pung», byx«ficka» (s)
+en:	«pants «pouch»», «trouser «pocket»» (n)
+def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
+ref:	7 December 2010: {Quvar} in email to tlhIngan-Hol ("News from Maltz")
+cat:	clothing
+data:	phrase; derived form
 
 tlh:	{yoq}
 sv:	«humanoid» (s)

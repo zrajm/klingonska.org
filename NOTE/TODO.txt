@@ -2,12 +2,21 @@
 
 * TODO Gitify upload
 ** TODO Makefile must not require perl 5.10
+** TODO Pre-commit hook should be checked in
+   "make hooks" should create the client-side relevant hooks.
 ** TODO Improve and optimize pre-commit hook
-   Commits are veeeeryy slow because of (I assume) the fact that find is runt
-   on all files in the repository.
+   Commits are veeeeryy slow because of (I assume) the fact that find is run on
+   all files in the repository.
 
    Instead of searching all files for changed metadata, the pre-commit hook
    should only fetch metadata for files changed in the commit.
+
+   Lists all files included in a commit:
+
+       git ls-files --stage
+
+   metadata <
+
 ** DONE Sketch infrastructure
    CLOSED: [2010-12-20 Mon 05:14]
 
@@ -78,6 +87,9 @@
 ** TODO Search of dictionary should first page to appear
    I.e. instead of dict/lexicon.cgi, this should be the index.cgi file.
 
+** TODO "data: derived form" words should not be included in en-tlh side
+** TODO Suffix Guide: {-'e'} <Topic> should include {nuqDaq 'oH puchpa''e'}
+   I.e. the usage of {-'e'} in "it is" type of sentences.
 * TODO Optimize images for site
   Johan at work mentioned that JPEGs can be radically shrunk by optimizin hash
   tables in them.
@@ -373,10 +385,6 @@
    http://www.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/
 *** TODO Benefit - Autofocus for forms
 *** TODO Benefit - Place holder text for forms
-
-* paqHom
-** "data: derived form" words should not be included in en-tlh side
-
 
 * Systematic changes
 ** TODO CSS: images should have borders when linked
@@ -702,41 +710,245 @@
     Done in dict/, check elsewhere.
 *** TODO replace all relevant <i>...</i> with <em class="translation">...</em>
     Done in dict/, check elsewhere.
-*** TODO dict.zdb
-**** TODO Add words
-***** Make sure words from NKW and KLI lists are in the dictionary
+*** TODO add {pIqaD} longhand table
+*** TODO Add irregular plurals in dictionary (already done?)
+*** TODO KA logo on front
+*** DOING dict.zdb
+**** DOING Add words
+***** DOING Check that all mughom.wizage.net "New Words" are present
+      http://mughom.wizage.net
+      This is a list of the last 100 words added to the database.
+
+****** DONE 'uj'a'	(noun)	unit of measurement, 9 'uj
+       CLOSED: [2011-02-06 Sun 13:30]
+****** DONE 'elI'jaH	(noun)	Unexpected visitor
+       CLOSED: [2011-02-06 Sun 13:30]
+****** DONE ghIn	(noun)	monestary
+       CLOSED: [2011-02-07 Mon 02:14]
+****** DONE wep buq	(noun)	coat pouch, pocket
+       CLOSED: [2011-02-07 Mon 02:14]
+****** DONE yopwaH buq	(noun)	pant (trouser) pouch, pocket
+       CLOSED: [2011-02-07 Mon 02:18]
+****** TODO QongDaq buqHom	(noun)	pillow
+****** TODO QongDaq buq'a'	(noun)	sleeping bag
+****** DONE buq	(noun)	bag, sack, pouch, pocket
+       CLOSED: [2011-02-07 Mon 02:18]
+****** DONE ngogh	(noun)	block, brick, lump
+       CLOSED: [2011-02-07 Mon 02:18]
+****** DONE mIllogh	(noun)	picture, image, graphic, photograph, icon, drawing, cartoon
+       CLOSED: [2011-02-07 Mon 02:21]
+****** TODO SaHHa'ghach	(noun)	disinterest
+****** TODO pIlHa'	(verb)	be unmotivated
+****** TODO SaHHa'	(verb)	be unconcerned (about)
+****** TODO -	(excl)	bye, bye-bye, good-bye, goodbye (Klingons do not say good-bye, they simply leave the conversation)
+****** TODO -	(excl)	hello (Klingons do not say hello, they just start talking about the topic at hand))
+****** TODO ghIv	(noun)	limb (of a person)
+****** TODO maQ	(noun)	sign, signal
+****** TODO chalqach	(noun)	tower (sky building)
+****** DONE woch	(verb)	be tall
+       CLOSED: [2011-02-07 Mon 02:25]
+****** DONE va'nuch	(noun)	heel
+       CLOSED: [2011-02-07 Mon 02:25]
+****** DONE vIl	(verb)	be ridgy
+       CLOSED: [2011-02-07 Mon 02:25]
+****** DONE Soj	(noun)	matter, concern, affair (idiomatic)
+       CLOSED: [2011-02-07 Mon 02:26]
+****** TODO qa'rI'	(noun)	end (of corridor, tunnel, conduit, Jeffries tube, sewer, road, bridge, long field, etc.)
+****** TODO pur	(verb)	inhale
+****** TODO nguq	(verb)	be arrogant, haughty, conceited
+****** TODO ghun	(verb)	be warm
+****** TODO quy'Ip	(noun)	vomit
+****** TODO qo'qaD	(noun)	phlegm
+****** TODO puq chonnaQ	(noun)	fork
+****** TODO ngugh	(adv)	then, at that time
+****** TODO pa' reD	(noun)	interior face of exterior wall
+****** TODO pa' beb	(noun)	ceiling of top story room
+****** TODO pIn tlhoy'	(noun)	territorial wall
+****** TODO qolqoS	(noun)	core of a group, the essential part of something; essence
+****** TODO pu'jIn	(noun)	map, plan (as in a building plan)
+****** TODO tlhongaD	(noun)	klongat - Animal native to Qo'noS that is much larger than a targ and more difficult to subdue.
+****** TODO vIHbe'	(noun)	A paralyzing poison that leaves no trace. Word literally means not move
+****** TODO tlhIghaq	(noun)	trigak - A predatory animal with sharp teeth that it bares before it attacks.
+****** TODO ngIS	(noun)	Lubricant used on disruptor cannons
+****** TODO ghInaq	(noun)	grinnak - A game
+****** TODO bolmaq	(noun)	An animal native to the planet Boreth that makes a bleating sound and tends to run around in circles a lot.
+****** TODO QaS DevwI'	(noun)	Troop commander, troop leader, roughly analogous to sergeant, used as title such as QaS DevwI' Vok (Vok being the name of one of the characters in the book)
+****** TODO tIqleH	(noun)	tik'leth - An edged weapon similar to Earth long sword.
+****** TODO taqnar	(noun)	taknar gizzards
+****** TODO Suto'vo'qor	(noun)	Sto-Vo-Kor
+****** TODO So'HIp	(noun)	Literally uniform of hiding, this is a camouflage outfit that changes color in order to blend with the background of the environment the wearer is currently inhabiting.
+****** TODO ramjep	(noun)	a type of bird (probably nocturnal)
+****** TODO moqbara	(noun)	mok'bara
+****** TODO mevaq	(noun)	mevak dagger
+****** TODO ma'to'vor	(noun)	Mauk-to'Vor
+****** TODO jeghpu'wI'	(noun)	conquered people -- more than slaves, less than citizens. The status given to natives of worlds conquered by the Klingon Empire
+****** TODO Habnagh	(noun)	a type of stone indigenous to Qo'noS. Often used in statuary
+****** TODO ghISnar	(noun)	grishnar cat
+****** TODO gha'poq	(noun)	grapok sauce
+****** TODO Da'ar	(noun)	Dahar (master)
+****** TODO boqrat chej	(noun)	bok-rat liver, stewed
+****** TODO 'aDanjI'	(noun)	adanji
+****** TODO vIlle'	(noun)	minion
+****** TODO vIl	(noun)	speed bump
+****** TODO reghuluS 'Iwghargh	(noun)	Regulan bloodworm
+****** TODO nImbuS wej	(noun)	Nimbus III
+****** TODO yaDpach	(noun)	toenail
+****** TODO wovmoH	(verb)	light, enlighten
+****** TODO telun Hovtay'	(noun)	Tellun Star System
+****** TODO veH tIn	(noun)	great barrier
+****** TODO tlhIngan wo'	(noun)	Klingon Empire
+****** TODO Say'qu'	(verb)	be sterile
+****** TODO qung	(noun)	hole in a musical instrument (wind instruments; not stringed ones)
+****** TODO qughDo	(noun)	crusing speed
+****** TODO qay	(verb)	use the second (middle) finger
+****** TODO roSHa'	(verb)	be paralyzed
+****** TODO qen	(adv)	recently, a short time ago
+****** TODO qaryoq'a'	(noun)	bird capable of mimicking speech, larger than qaryoq
+****** TODO qaryoq	(noun)	bird capable of mimicking speech
+****** TODO qa'rol	(noun)	a really big bird
+****** TODO qanraD	(noun)	a bird known for its song
+****** TODO puyjaq'a'	(noun)	super nova
+****** TODO qa'meH vIttlhegh	(noun)	replacement proverb
+****** TODO pIvchem	(noun)	warp field
+****** TODO pIrmuS	(noun)	bottom (exterior)
+****** TODO pIq	(noun)	time period from now (future)
+****** TODO peQ chem	(noun)	magnetic field
+****** TODO qan	(verb)	use the fourth finger (pinky/little finger)
+****** TODO qanwI'	(noun)	fourth finger, little finger
+****** TODO qaywI'	(noun)	second finger, middle finger
+****** TODO qewwI'	(noun)	ring finger, third finger
+****** TODO qew	(verb)	use the ring (third) finger
+****** TODO rIlwI'	(noun)	thumb
+****** TODO SenwI'	(noun)	thumb
+****** TODO Sen	(verb)	use the thumb
+****** TODO Do QIn	(noun)	Instant Message (IM)
+****** TODO moD Soj	(noun)	fast food
+****** TODO Do Qe'	(noun)	fast food resturant
+****** TODO nIyma'	(noun)	phantom, apparition, something that appears to be there but is not
+****** TODO jorneb	(noun)	warhead (of a torpedo)
+****** TODO 'uSu'	(noun)	sauce for *gladst*
+****** TODO 'uQ'a'	(noun)	banquet, feast
+****** TODO 'up	(verb)	be unsavory, be disgusting, be repugnant, be loathsome, be icky
+****** TODO 'un quD	(noun)	artificially produced *qud*
+****** TODO 'un naQ	(noun)	stirring stick, mixing stick
+
+***** TODO Add meaning "minimum" of {rav}
+      B.J. Felix Malmenbeck
+      De' Daj vItu'pu'!
+
+      Visar sig att man kan använda ordet «rav» ("golv") som "minimum", ungefär
+      som man använder «'aqroS» ("undersidan av överdelen") för "maximum". Det
+      används på BoP-affischen i meningen «Hung buv rav: patlh Hut», som
+      översätts som "Classified Level 9 and Above" men bokstavligen betyder
+      "säkerhetsklassifikationsgolv: nivå 9". Kan vara värt att lägga till i
+      {tlhIngan Hol mu'ghomlIj mach}.
+
+      Facebook: December 14 at 11:24pm
+
+***** DONE {qep'a'} 2010 words
+      CLOSED: [2011-02-07 Mon 02:29]
+****** DONE News from Maltz: mIllogh
+       CLOSED: [2011-02-07 Mon 02:27]
+
+
+       /Okay, here it comes. Besides of the students at the qepHom in
+       Saarbrücken, you are the first to read this. Note for the newbies: This
+       is canon, i.e. official, directly from Marc Okrand, the creator of the
+       Klingon Language:/
+
+       Finally, someone last year asked for the word for "picture." At first,
+       Maltz wondered why {nagh beQ} wasn't good enough. But then he thought
+       about it some more and said that another word, {mIllogh}, could be used
+       for any sort of depiction, including drawings, photographs, cartoons,
+       icons on 21st-century computers, and so on.
+
+       (Marc Okrand's Email of November 15th, 2010)
+
+       /Lieven Litaer
+       http://www.facebook.com/home.php?sk=group_165201996829401&view=doc&id=180285285321072
+
+****** DONE News from Maltz: buq + ngogh
+       CLOSED: [2011-02-07 Mon 02:28]
+
+       /Here's another word revealed at the qepHom in Saarbrücken. Note for the
+       newbies: This is canon, i.e. official, directly from Marc Okrand, the
+       creator of the Klingon Language:/
+
+       Maltz first said that Klingons don't have pillows and he wondered why
+       anyone would want one. But he's seen them (somewhere) and knows what
+       they are. So when pushed -- "If you have to call it something, what
+       would you call it?" -- he said {ngogh tun}. A {ngogh} is a "block" or
+       "lump" or "brick." He said he's seen humans eating {yuch ngoghmey} and
+       found that strange. I'm not sure what form he'd prefer his {yuch} to be.
+
+       He thought more about it and said maybe another way to say "pillow" was
+       {QongDaq buq} "bed pouch," but he said that could also apply to a
+       sleeping bag. Perhaps a sleeping bag is {QongDaq buq'a'} and a pillow is
+       {QongDaq buqHom}. The word {buq} could be "bag, sack, pouch" or even
+       "pocket." When clarity is needed, one could say, for example, {yopwaH
+       buq} "pants pouch" or {wep buq} "coat pouch" for "pants pocket" or "coat
+       pocket," but when the context is clear, {buq} alone would suffice for
+       "pocket."
+
+      (Mail from Marc Okrand, 15th of november 2010)
+
+      /Lieven Litaer
+      http://www.facebook.com/home.php?sk=group_165201996829401&view=doc&id=181021535247447
+
+****** DONE News from Maltz: Part 3
+       CLOSED: [2011-02-07 Mon 02:28]
+
+       There was a question about whether {tlhaptIH} was a good way to say
+       "tractor beam." Maltz said he'd never heard that before, but he has
+       heard {luHwI' tIH}.
+
+       (Marc Okrand's Email of November 15th, 2010)
+
+       /Lieven Litaer
+       http://www.facebook.com/home.php?sk=group_165201996829401&view=doc&id=182172488465685
+
+***** TODO Make sure words from NKW and KLI lists are in the dictionary
       (and tagged in "ref:" field accordingly)
 ****** [NKW] http://teresh.tdonnelly.org/klinewest.html
 ****** [KLI] http://www.kli.org/tlh/newwords.html
-***** {Qompu'} -- hmm. seems to be a "bad word" (from Terrence's list)
-***** Add name of Klingon sounds
-      described in: canon/2009-07-27-email.txt     
+***** TODO {Qompu'} -- hmm. seems to be a "bad word" (from Terrence's list)
+***** TODO Add name of Klingon sounds
+      These shouldn't be included in the English-Klingon side of the pocket
+      dictionary, as they should be in the a alphabet reference table. How
+      should this be marked in dict.zdb?
+
+      described in: canon/2009-07-27-email.txt
       https://mail.google.com/mail/#mbox/122bf3f1c1e794e5
-***** Check correctness of {vIl} - "speed bump" 
+***** TODO Check correctness of {vIl} - "speed bump"
       https://mail.google.com/mail/#mbox/122bf3f1c1e794e5
-***** {jIn}
+***** DONE {jIn}
+      CLOSED: [2011-02-07 Mon 03:13]
 ****** Verify this word!
        Terrence Donnelly says this means "to brew" and was mentioned somewhere,
        and people remarked that it was very much like "gin".
-***** {qolqoS}, {'elI'jaH}, {wIlpuq}
+
+       Steven Boozer says, in posting from 8 july 2004: "Cf. also {jIn} 'brew'."
+       [https://mail.google.com/mail/?shva=1#search/to%3Atlhingan-hol%40kli.org+%22jIn%22+-%22pu'jin%22/fd9f586a97a799c]
+
+***** TODO {qolqoS}, {'elI'jaH}, {wIlpuq}
       qolqoS n. Core of a group, the essential part of something; essence.
       http://mail.google.com/mail/#search/jIn/1217ffac4948e9abw
       [[file://new_sources/1217ffac4948e9ab]]
-***** {pu'jIn} - "map"
+***** TODO {pu'jIn} - "map"
       http://mail.google.com/mail/?shva=1#search/jin+to%3Atlhingan-hol%40kli.org/125280bf1b4e53a6
-***** {meyrI'} square [shape] (n.)
+***** TODO {meyrI'} square [shape] (n.)
       ("More from Maltz," HQ 14.2-3:21 < qep'a' 2005)
       {meyrI'Daq 'oHtaH gho'e'} "The circle is in the square." [qep'a' 2005]
-***** {nIyma'}
+***** TODO {nIyma'}
       http://mail.google.com/mail/#search/niyma'/11dcaa2b915a07df
-***** HolQeD 10:2, p.10 word ({nan} (martial arts move))
+***** TODO HolQeD 10:2, p.10 word ({nan} (martial arts move))
       http://mail.google.com/mail/#search/Qompu'+to%3Atlhingan-hol/1162c03998bc2094
-***** HolQeD 13:1, p.9 words ({vIl}, {woch}, {va'nuch}...)
+***** TODO HolQeD 13:1, p.9 words ({vIl}, {woch}, {va'nuch}...)
       http://mail.google.com/mail/#search/Qompu'+to%3Atlhingan-hol/1162c03998bc2094
-***** HolQeD 12:3 words
+***** TODO HolQeD 12:3 words
       Continue extraction of words in "2003-09-holqed.txt", from {wogh} and
       onwards.
-***** KGT main text words (names etc.)
+***** TODO KGT main text words (names etc.)
       e.g. "Kayvak", "digna", "ka'raj", "bregit", "Saurian", "raktaj"
 **** TODO Re-sort dictionary
 **** TODO Systematic corrections / new markup
