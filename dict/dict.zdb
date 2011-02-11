@@ -104,6 +104,7 @@ pun:	This is the first word in the K-E side of the dictionary, and is
 	incorrectly given as a noun. MO has confirmed this to be an
 	intentional error (since there is always an error somewhere, in
 	every dictionary).
+file:	1997-11-01-kgt.txt
 
 tlh:	{bagh}
 sv:	«knyta», «binda» (v)
@@ -143,11 +144,13 @@ sv:	«tjäna», göra sig «förtjänt» av, «arbeta» för (aktivt) (v)
 en:	<earn>, <work> for (actively) (v)
 def:	[KGT]
 ref:	[TKW p.125]
+file:	1997-11-01-kgt.txt
 
 tlh:	{bal}
 sv:	«krus», «kanna», «kruka», «burk», «flaska» (s)
 en:	<jug>, <jar>, <bottle> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{bang}
 sv:	«älskad», någon som är älskad, älskade (s)
@@ -163,33 +166,39 @@ en:	<love song> (n)
 def:	[KGT]
 cat:	music
 data:	phrase; derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{bang «pong»}
 sv:	«smeknamn», «ömhetsbetygelse» (s)
 en:	pet name, <endearment> (n)
 def:	[KGT]
 data:	phrase; derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{baq}
 sv:	«avsluta», «avbryta» (v)
 en:	<terminate>, <discontinue> (v)
 def:	[KGT]
 ref:	[HQ12:2 p.9]
+file:	1997-11-01-kgt.txt
 
 tlh:	{baqghol}
 sv:	en slags «sprit», «~bahgol~» (s)
 en:	type of <liquor>, <~bahgol~> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{baQ} (1)
 sv:	vara «färsk», vara «nyplockad» (om frukt, grönsak) (v)
 en:	be <fresh>, be just picked (fruit, vegetable) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{baQ} (2)
 sv:	«kasta» en «~bat'leth~» från den ena handen till den andra (v)
 en:	<toss> «~bat'leth~» from one hand to the other (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{baQa'}
 sv:	(generellt «invektiv») (interj)
@@ -202,11 +211,13 @@ tlh:	{bargh}
 sv:	flatbottnad «skål» för matberedning (s)
 en:	flat-bottomed <pot> for food preparation (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{barot}
 sv:	«Barot» (namn)
 en:	«Barot» (name)
 def:	[KGT p.182]
+file:	1997-11-01-kgt.txt
 
 tlh:	{baS}
 sv:	«metall» (s)
@@ -220,6 +231,7 @@ en:	«bell» (percussion instrument made of metal) (n)
 def:	[KGT p.75]
 cat:	music
 data:	phrase; derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{batlh}
 sv:	«ära» (s)
@@ -244,6 +256,7 @@ sv:	«skamligt», med «vanära» (adv)
 en:	<dishonorably> (adv)
 def:	[KGT]
 ref:	[TKW pp.55, 139]
+file:	1997-11-01-kgt.txt
 
 tlh:	{bav}
 sv:	röra sig i en «omloppsbana» kring, «kretsa» kring (v)
@@ -302,6 +315,7 @@ tlh:	{bej} (2)
 sv:	vara helt «säker», vara «viss» (v) (slang)
 en:	be <sure>, be <definite>, be <positive>, be <certain> (v) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{bel}
 sv:	vara «nöjd», vara «belåten» (v)
@@ -330,6 +344,7 @@ sv:	«fot«sula»» (s)
 en:	<sole of «foot»> (n)
 def:	[KGT]
 cat:	body part
+file:	1997-11-01-kgt.txt
 
 tlh:	{ben} (1)
 sv:	¿?för ... «år» sedan (s)
@@ -344,6 +359,7 @@ en:	<years old> (n)
 def:	[KGT]
 com:	¿?Check this and previous one with ~News~.
 cat:	time
+file:	1997-11-01-kgt.txt
 
 tlh:	{bep}
 sv:	«klaga», «invända», «gnälla» (v)
@@ -368,6 +384,7 @@ tlh:	{beqpuj}
 sv:	en slags «mineral», «~bekpuj~» (orange till färgen) (s)
 en:	type of <mineral>, <~bekpuj~> (orange in color) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{beQ}
 sv:	vara «platt» (v)
@@ -407,11 +424,13 @@ sv:	«~Bat'leth~-ordern» (ett ordensällskap) (s)
 en:	«Order of the «~Bat'leth~»» (n)
 def:	[KGT p.182]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{bey}
 sv:	«tjuta», «yla» (s)
 en:	<howl>, <wail> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{bey'}
 sv:	«ceremoniell utställning», «ceremoniell uppvisning» (s)
@@ -419,6 +438,7 @@ en:	<ceremonial display> (n)
 def:	[KGT]
 com:	¿?Eller ska det översättas med "ställ", liksom de andra
 	"display"-orden?
+file:	1997-11-01-kgt.txt
 
 tlh:	{be'}
 sv:	«kvinna», «hona» (s)
@@ -435,6 +455,7 @@ def:	[S26; KGT p.197]
 ref:	[KLINW]
 com:	S26 was reprinted in HQ5:3 p.15.
 	B'Etor is one of the Duras sisters.
+file:	1997-11-01-kgt.txt
 
 tlh:	{be'Hom}
 sv:	«flicka» (s)
@@ -512,6 +533,7 @@ sv:	andra «tonen» på den nonatoniska skalan (s)
 en:	second <tone> of nonatonic musical scale (n)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{bIng}
 sv:	område «nedanför», område «under» (s)
@@ -543,12 +565,14 @@ sv:	«vattenkrus», «vattenkanna» (s)
 en:	<water jug> (n)
 def:	[KGT]
 data:	phrase; derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{bIQDep}
 sv:	«fisk» (s)
 en:	<fish> (n)
 def:	[KGT]
 see:	{ghotI'}
+file:	1997-11-01-kgt.txt
 
 tlh:	{bIQSIp}
 sv:	«väte» (s)
@@ -590,11 +614,13 @@ tlh:	{bIraqlul}
 sv:	«~brak'lul~» (dubbel uppsättning av kroppsorgan) (s)
 en:	<~brak'lul~> (redundancy in body parts) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{bIreqtal}
 sv:	«~Brek'tal~ ritual» (s)
 en:	<~Brek'tal~ ritual> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{bIreQtagh}
 sv:	«bregitlunga» (s)
@@ -631,6 +657,7 @@ tlh:	{bI'}
 sv:	«svepa» undan, «avskaffa», «röja» undan (v)
 en:	<sweep> (away) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{bI'rel}
 sv:	«~B'rel~-klass» (av farkost) (s)
@@ -662,12 +689,14 @@ tlh:	{bochmoHwI'}
 sv:	«smickrare», «lismare» (s) (slang)
 en:	<sycophant>, <flatterer> (n) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{boD}
 sv:	«panna» (s) (regionalt)
 en:	<forehead> (n) (regional)
 def:	[KGT]
 cat:	body part
+file:	1997-11-01-kgt.txt
 
 tlh:	{bogh}
 sv:	vara «född» (v)
@@ -693,11 +722,13 @@ sv:	«dregla» (v)
 en:	<drool> (v)
 def:	[TKD E-K; KGT]
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{bolwI'}
 sv:	«förrädare» (s) (slang)
 en:	<traitor> (n) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{bom}
 sv:	«sjunga», «mässa» (v)
@@ -705,6 +736,7 @@ en:	<sing>, <chant> (v)
 def:	[KGT]
 ref:	[TKW p.17]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{bom}
 sv:	«sång» (s)
@@ -712,6 +744,7 @@ en:	<song>, <chant> (n)
 def:	[KGT]
 ref:	[TKW p.15]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{bom «mu'»}
 sv:	«sångtext» (s)
@@ -719,6 +752,7 @@ en:	<lyric>, lyrics (n)
 def:	[KGT]
 cat:	music
 data:	phrase; derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{bomwI'}
 sv:	«sångare», «sångerska» (s)
@@ -726,6 +760,7 @@ en:	«singer» (n)
 def:	[KGT p.71]
 cat:	music
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{bong}
 sv:	av «misstag», «oavsiktligt» (adv)
@@ -751,6 +786,7 @@ ref:	[KLINW]
 com:	Entries from TKD, KGT and BoP have been combined here. "{Hong boq
 	chuyDaH: loS} 'Impulse Fusion Thrusters -- 4'" [BoP]
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{boq}
 sv:	«alliera» med, «förena» med, skapa en allians med (v)
@@ -776,12 +812,14 @@ tlh:	{boqrat}
 sv:	ett slags «djur», «~bokrat~» (s)
 en:	type of <animal>, <~bokrat~> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{boq «ru'»}
 sv:	«koalition» (s)
 en:	<coalition> (n)
 def:	[KGT]
 data:	phrase; derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{boQ}
 sv:	«hjälpa» till, «assistera» (v)
@@ -828,6 +866,7 @@ def:	[KGT]
 ref:	[TKW p.121]
 com:	a legal right
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{boS}
 sv:	«samla» (v)
@@ -851,6 +890,7 @@ tlh:	{botjan}
 sv:	«sköldar» (kraftfält omkring ett skepp) (s)
 en:	<shields> (force field on ship) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{botlh}
 sv:	«center», «mitt» (s)
@@ -869,6 +909,7 @@ tlh:	{bo'Dagh}
 sv:	«skopa», «skyffel» (för att servera mat) (s)
 en:	<scoop>, scooping implement (to serve food) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{bo'DIj}
 sv:	«domstol», «rätt», «rättssal» (s)
@@ -919,6 +960,7 @@ sv:	«naturligt framställd «~qud~»» (s)
 en:	<naturally produced «~qud~»> (n)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{buS}
 sv:	«koncentrera» sig på, «fokusera» på, «tänka» enbart på (v)
@@ -933,6 +975,7 @@ sv:	«ignorera» (v)
 en:	<ignore> (v)
 def:	[KGT]
 ref:	[TKW p.139]
+file:	1997-11-01-kgt.txt
 
 tlh:	{butlh}
 sv:	«smuts» under naglarna (s)
@@ -958,12 +1001,14 @@ tlh:	{buy'}
 sv:	vara «full», vara «fylld» (v)
 en:	be <full>, be <filled> up (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{buy' «ngop»}
 sv:	«goda nyheter», det var «gott att höra» (interj) (slang)
 en:	<good news>, it's «good to hear» that (excl) (slang)
 def:	[KGT p.147 et al.]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{bu'}
 sv:	«sergeant» (rang) (s)
@@ -989,6 +1034,7 @@ tlh:	{chab} (2)
 sv:	«uppfinning», «innovation» (s) (slang)
 en:	<invention>, <innovation> (n) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{chach}
 sv:	«nödläge», «nödsituation» (s)
@@ -1002,6 +1048,7 @@ en:	«radio <frequency>», Hertz (n)
 def:	[KGT]
 com:	According to HQ1:3 p.9, this means "Hertz (frequency)".
 ref:	[TDNW]
+file:	1997-11-01-kgt.txt
 
 tlh:	{chagh}
 sv:	«släppa», «tappa» (v)
@@ -1022,6 +1069,7 @@ tlh:	{chaj}
 sv:	«väninna», «nära kvinnlig «vän»» till en kvinna (s)
 en:	<close female <friend>> of a female (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{chal}
 sv:	«himmel» (s)
@@ -1035,6 +1083,7 @@ tlh:	{cham}
 sv:	«teknologi» (s)
 en:	<technology> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{chamwI'}
 sv:	«tekniker» (s)
@@ -1053,6 +1102,7 @@ tlh:	{chanDoq}
 sv:	«marinad» (s)
 en:	<marinade> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{chang'eng}
 sv:	«par» (s)
@@ -1077,11 +1127,13 @@ tlh:	{chaQ}
 sv:	«stöta» uppåt med spetsen på en «~bat'leth~» (v)
 en:	<thrust> upward with end of «~bat'leth~» (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{char}
 sv:	vara «slemmig», vara «hal» (v)
 en:	be <slimy> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{chargh}
 sv:	«erövra» (v)
@@ -1097,6 +1149,7 @@ en:	<victor>, <conqueror> (n)
 def:	[KGT]
 ref:	[TKW p.179]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{chaS}
 sv:	«topp», «överdel» (på käpp eller stav) (s)
@@ -1108,11 +1161,13 @@ tlh:	{chatlh} (1)
 sv:	«nonsens», «gallimatias» (s) (slang)
 en:	<nonsense>, <balderdash> (n) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{chatlh} (2)
 sv:	«gryta», «soppa» (tjock) (s)
 en:	<soup> (thick) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{chav}
 sv:	«uppnå» (v)
@@ -1207,6 +1262,7 @@ tlh:	{cha'nob}
 sv:	«rituella «gåvor»» (s)
 en:	<ritual <gifts>> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{cha'puj}
 sv:	«dilitium» (s)
@@ -1248,6 +1304,7 @@ def:	[KGT]
 com:	Entries differ in source.
 	The "~baceh'tluth~" found in K-E is presumed an error and
 	excluded here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{chegh}
 sv:	«återvända» (till) (v)
@@ -1269,6 +1326,7 @@ sv:	«lever» (s)
 en:	<liver> (n)
 def:	[KGT]
 cat:	body part
+file:	1997-11-01-kgt.txt
 
 tlh:	{chel}
 sv:	«addera», «lägga ihop», «lägga till» (v)
@@ -1283,6 +1341,7 @@ sv:	«kamrer», «revisor», «finansman» (s) (slang)
 en:	<accountant>, <financier> (n) (slang)
 def:	[KGT]
 cat:	math
+file:	1997-11-01-kgt.txt
 
 tlh:	{chemvaH}
 sv:	ett slags «djur», «~chemvah~» (s)
@@ -1290,6 +1349,7 @@ en:	type of <animal>, ~chemvah~ (n)
 def:	[KGT]
 com:	Klingon females sound like this animal when courting a
 	potential mate.
+file:	1997-11-01-kgt.txt
 
 tlh:	{chen}
 sv:	«bygga» upp, «bildas», «formas», «ta» «form», anta «skepnad»
@@ -1309,17 +1369,20 @@ sv:	«forma», «göra», «skapa», «bilda» (v)
 en:	<form>, <make>, <create> (v)
 def:	[KGT]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{chenmoHwI'}
 sv:	«skapare», «tillverkare» (s)
 en:	<creator>, <maker> (n)
 def:	[KGT]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{cheng}
 sv:	«Chang» (namn)
 en:	«Chang» (name)
 def:	[KGT p.52]
+file:	1997-11-01-kgt.txt
 
 tlh:	{chep}
 sv:	ha «framgång», vara «framgångsrik» (v)
@@ -1346,11 +1409,13 @@ sv:	«rock», «jacka» (generell term) (s) (regionalt)
 en:	<coat>, jacket (general term) (n) (regional)
 def:	[KGT]
 com:	Entries differ and have been combined here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{cheSvel} (2)
 sv:	en slags «rock» (s)
 en:	type of <coat> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{chetvI'} (1)
 sv:	«torped«tub»» (s)
@@ -1364,6 +1429,7 @@ sv:	«~chetvi~», «spjut-slunga» (s)
 en:	«~chetvi~», <spear-throwing device> (n)
 def:	[KGT]
 com:	The word "~chetvi~" found in definition of {wob} in KGT K-E.
+file:	1997-11-01-kgt.txt
 
 tlh:	{chev}
 sv:	«separera», «dela», «avskilja» (v)
@@ -1382,11 +1448,13 @@ sv:	«regera», «styra», «härska», «leda», «presidera», sitta «ordför
 en:	<rule>, <reign>, <run>, <preside> (v)
 def:	[TKD; KGT]
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{che'ron}
 sv:	«slagfält» (s)
 en:	<battlefield> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{chIch}
 sv:	«avsiktligt», med «flit» (adv)
@@ -1464,6 +1532,7 @@ tlh:	{choghvat}
 sv:	«trappuppgång» vid skeppsdörr, «landgång» (s)
 en:	<stairway> leading to door of a ship, «gangplank» (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{choH}
 sv:	«ändras», «förändras» (v)
@@ -1501,6 +1570,7 @@ tlh:	{chon}
 sv:	«jakt» (s)
 en:	<hunt> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{chon «bom»}
 sv:	«jaktsång» (s)
@@ -1508,16 +1578,19 @@ en:	<hunting song> (n)
 def:	[KGT]
 cat:	music
 data:	phrase; derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{chonnaQ}
 sv:	«jakt«spjut»» (s)
 en:	<hunting <spear>> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{chontay}
 sv:	«rituell «jakt»» (s)
 en:	<ritual <hunt>> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{chong} (1)
 sv:	vara «vertikal» (v)
@@ -1533,12 +1606,14 @@ en:	be <good>, be <excellent>, be <great>, be <wonderful>, be <splendid>
 	(v) (slang)
 def:	[KGT]
 com:	Entries differ and have been combined here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{chong} (3)
 sv:	vara «grundlig», vara «ordentlig», vara «omsorgsfull», vara
 	«noggrann» (v) (slang)
 en:	be <profound>, be <thorough>, be «careful» (v) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{chop}
 sv:	«bita» (v)
@@ -1552,6 +1627,7 @@ sv:	«gnaga», «tugga» (v)
 en:	<gnaw> (v)
 def:	[KGT]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{choq}
 sv:	«bevara», «skydda» (v)
@@ -1576,18 +1652,21 @@ tlh:	{chor} (2)
 sv:	flatbottnad «skål» av keramik (s) (regionalt)
 en:	ceramic flat-bottomed <pot> (n) (regional)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{chor «bargh»}
 sv:	flatbottnad «skål» av keramik (s) (regionalt)
 en:	ceramic flat-bottomed <pot> (n) (regional)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{chorgh}
 sv:	åttonde «tonen» på den nonatoniska skalan (s)
 en:	eight <tone> of nonatonic musical scale (n)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{chorgh}
 sv:	«åtta» (räkn)
@@ -1627,6 +1706,7 @@ sv:	«mördare» (s)
 en:	«murderer» (n)
 def:	[KGT p.25]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{chov}
 sv:	«bedöma», «utvärdera» (v)
@@ -1663,18 +1743,21 @@ tlh:	{chuH} (1)
 sv:	«förklara» noga för, «förtydliga» för, närmare «ange» för (v) (slang)
 en:	<explain> clearly to, <clarify> for, <specify> for (v) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{chuH} (2)
 sv:	«kasta» (ett spjut) mot, «slunga» (ett spjut) mot (v)
 en:	<throw> (a spear) at, <hurl> (a spear) at (v)
 def:	[KGT]
 com:	"the direct object is the target" [TDNW]
+file:	1997-11-01-kgt.txt
 
 tlh:	{chuHchu'}
 sv:	«träffa» med ett kastat spjut (v)
 en:	«hit» with a thrown spear (v)
 def:	[KGT p.64]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{chun}
 sv:	vara «oskyldig» (v)
@@ -1782,6 +1865,7 @@ sv:	«spela» (ett musikinstrument) (v)
 en:	<play> (a musical instrument) (v)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{chu'wI'} (1)
 sv:	«avtryckare» (s)
@@ -1796,6 +1880,7 @@ en:	<player> (of an instrument) (n)
 def:	[KGT]
 cat:	music
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{Da}
 sv:	«bete» sig som, «agera» på samma sätt som (v)
@@ -1807,6 +1892,7 @@ tlh:	{Dab}
 sv:	«vistas» hos/i, «bo» hos/i, «vara» hos (v)
 en:	<dwell> in/at, <reside> in/at (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Dach} (1)
 sv:	vara «frånvarande» (v)
@@ -1822,17 +1908,20 @@ en:	be <not attentive>, be <distracted>, <lack focus>, to not pay
 	attention (v) (slang)
 def:	[KGT]
 com:	Entries differ and have been combined here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{Daghtuj}
 sv:	«blandning» av djurdelar, ihopblandade «djurdelar» (s)
 en:	<mixture> of animal parts, <animal parts> mixed together (n)
 def:	[KGT]
 com:	Entries differ and have been combined here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{DaH}
 sv:	«batteri», «uppsättning» (av vapen) (s)
 en:	«bank», «array» (of weapons) (n)
 def:	[KGT p.56; BoP]
+file:	1997-11-01-kgt.txt
 
 tlh:	{DaH}
 sv:	«nu» (adv)
@@ -1854,6 +1943,7 @@ sv:	«rätt» på restaurang, "«dagens fångst»" (s)
 en:	<dish> in a restaurant, "«catch of the day»" (n)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{Daj} (1)
 sv:	vara «intressant» (v)
@@ -1897,6 +1987,7 @@ en:	<nonsense «song»> (n)
 def:	[KGT]
 cat:	music
 data:	phrase; derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{Daq}
 sv:	«tjuv«lyssna»» (v)
@@ -1915,6 +2006,7 @@ tlh:	{Daqtagh}
 sv:	«krigares «kniv»», «~d'k tahg~» (s)
 en:	<warrior's <knife>>, <~d'k tahg~> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{DaQ}
 sv:	«hästsvans» (s)
@@ -1933,11 +2025,13 @@ sv:	«témugg», «tékopp» (s)
 en:	<teacup> (n)
 def:	[KGT]
 data:	phrase; derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{DarSeq}
 sv:	«valuta«enhet»», «~darsek~» (s)
 en:	<~darsek~>, <unit> of <currency> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{DaS}
 sv:	«känga», «stövel» (s)
@@ -2002,6 +2096,7 @@ tlh:	{DayquS}
 sv:	en slags «planta», «dikusplanta» (s)
 en:	type of <plant>, <dikus plant> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Da'}
 sv:	«korpral» (rang) (s)
@@ -2025,6 +2120,7 @@ tlh:	{Degh}
 sv:	«handla» utan uppgjord plan, «improvisera» (v) (slang)
 en:	<act> without a plan, <improvise> (v) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Degh} (1)
 sv:	«roder» (s)
@@ -2051,6 +2147,7 @@ tlh:	{DeH}
 sv:	vara «mogen», vara «övermogen» (frukt, grönsak) (v)
 en:	be <ripe>, be overripe (fruit, vegetable) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Dej}
 sv:	«kollapsa» (v)
@@ -2129,12 +2226,14 @@ sv:	«skaft», «yxskaft» (s)
 en:	<handle>, <ax handle> (n)
 def:	[KGT]
 com:	Entries differ in source. One of the E-K entries is used here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{DeSqIv}
 sv:	«armbåge» (s)
 en:	<elbow> (n)
 def:	[KGT]
 cat:	body part
+file:	1997-11-01-kgt.txt
 
 tlh:	{Dev}
 sv:	«leda», «guida» (v)
@@ -2150,6 +2249,7 @@ en:	<leader> (n)
 def:	[KGT]
 ref:	[TKW pp.63, 66]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{De'}
 sv:	«data», «fakta», «information» (s)
@@ -2176,6 +2276,7 @@ sv:	«rätt», «privilegium», «rättighet» (s)
 en:	<privilege>, <right> (n)
 def:	[TKD; KGT]
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{DIch}
 sv:	«säkerhet», «visshet» (s)
@@ -2187,16 +2288,19 @@ tlh:	{DIghna'}
 sv:	en slags «planta» (s)
 en:	type of <plant> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{DIj} (1)
 sv:	«slå» med svärd längsmed motståndares klinga (v)
 en:	<slide> sword blade along opponent's blade (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{DIj} (2)
 sv:	använda en pigmentpinne, «måla» med pigmentpinne (v)
 en:	use a pigment stick, <paint> with pigment stick (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{DIl}
 sv:	«betala» för (v)
@@ -2246,6 +2350,7 @@ tlh:	{DIron}
 sv:	«säckpipa» (s)
 en:	<bagpipes> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{DIr «'In»}
 sv:	«trumma» (slaginstrument med ett sträckt djurskinn) (s)
@@ -2253,6 +2358,7 @@ en:	«drum» (percussion instrument with a stretched animal skin) (n)
 def:	[KGT p.75]
 cat:	music
 data:	phrase; derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{DIS}
 sv:	«bekänna» (v)
@@ -2345,6 +2451,7 @@ sv:	«driva» tillbaka (v)
 en:	<drive> back (v)
 def:	[KGT p.48]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{Doj}
 sv:	vara «imponerande» (v)
@@ -2399,6 +2506,7 @@ def:	[KGT pp.102, 103 et al.]
 com:	This definition combines information from the definition of
 	{tebwI'} with information from the main text.
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{Dor} (1)
 sv:	«eskortera» (v)
@@ -2441,6 +2549,7 @@ tlh:	{Dov'agh}
 sv:	«pipa», «vissla», «flöjt» (s)
 en:	<flute>, <fife> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Doy'}
 sv:	vara «trött» (v)
@@ -2479,6 +2588,7 @@ tlh:	{Do'Ha'}
 sv:	«olyckligtvis» (adv)
 en:	<unfortunately> (adv)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Dub}
 sv:	«förbättra» (v)
@@ -2507,6 +2617,7 @@ en:	<stirring <stick>>, <mixing stick> (n)
 def:	[KGT]
 com:	Entries differ in source. The E-K entry is used here.
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{Dugh}
 sv:	vara «vaksam», vara «försiktig» (v)
@@ -2546,6 +2657,7 @@ sv:	«oansvarig» person, «odisciplinerad» person (s) (slang)
 en:	<irresponsible> person, <undisciplined> person (n) (slang)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{Dum}
 sv:	ta (sig) en «tupplur» (v)
@@ -2586,6 +2698,7 @@ tlh:	{Duq}
 sv:	«skål» (liten) (s)
 en:	<bowl> (small) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{DuQ} (1)
 sv:	«hugga», «sticka» ner, «genomborra» (v)
@@ -2598,18 +2711,21 @@ tlh:	{DuQ} (2)
 sv:	göra (någon) «rörd» (v)
 en:	<touch> (emotionally) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{DuQwI'}
 sv:	«tagg», «pigg» (s)
 en:	<spike> (n)
 def:	[KGT]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{DuQwI'Hommey}
 sv:	«pommel«spik»»ar, «pigg»ar på pommeln till en «~d'k tahg~» (s)
 en:	small «spike»s on the «~d'k tahg~» pommel (n)
 def:	[KGT p.61]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{Duran «lung» «DIr»}
 sv:	«Duraniska ödleskinn» (en slags «mat», tar aldrig
@@ -2680,17 +2796,20 @@ sv:	«jordbruksprodukter», «jordbruksvaror» (s)
 en:	<produce> (n)
 def:	[KGT]
 data:	phrase; derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghab}
 sv:	«kött» från mittdelen av djur (s)
 en:	<meat> from midsection of animal (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghab tun}
 sv:	«kött» från mittdelen av djur, utan ben (s) (regionalt)
 en:	<meat> from midsection of animal, no bones (n) (regional)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghagh}
 sv:	«gurgla» (v)
@@ -2724,11 +2843,13 @@ tlh:	{gham}
 sv:	«lem», «kroppsdel» (på djur) (s)
 en:	<limb> (of an animal) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghanjaq}
 sv:	«spira» (s)
 en:	<mace> (stick, club) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghang}
 sv:	«avsluta» i förtid (en händelse, t.ex. resa, strid, sång) (v)
@@ -2796,6 +2917,7 @@ sv:	«Gowron» (namn)
 en:	«Gowron» (name)
 def:	[S25; S26; KGT pp.25, 26, 197, 198]
 com:	S25 and S26 were reprinted in HQ5:3 p.15
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghaw'} (1)
 sv:	«osäker person», någon uppfylld av självtvivel, «självtvivlare» (s)
@@ -2804,11 +2926,13 @@ en:	<insecure one>, one full of self-doubt, <self-doubter> (n)
 	(regional, slang)
 def:	[KGT]
 com:	Entries differ and have been combined here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghaw'} (2)
 sv:	«~igvah~»-leversoppa (s)
 en:	<~igvah~> liver soup (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghay}
 sv:	namn på klingonskans {gh}-ljud (s)
@@ -2842,6 +2966,7 @@ sv:	«vördnadskväde», «aktningsode» (s)
 en:	<ode of respect> (n)
 def:	[KGT]
 ref:	[KCD]
+file:	1997-11-01-kgt.txt
 
 tlh:	{gheb}
 sv:	«horn», «lur» (musikinstrument) (s)
@@ -2854,6 +2979,7 @@ sv:	«byte», «rov», «villebråd» (s)
 en:	<prey> (n)
 def:	[KGT]
 ref:	[TKW p.161]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghegh}
 sv:	vara «ojämn», vara «skrovlig» (v)
@@ -2866,6 +2992,7 @@ tlh:	{ghel}
 sv:	«fråga», ställa en «fråga» (v)
 en:	<ask> (a question) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghem}
 sv:	«nattmat» (s)
@@ -2887,6 +3014,7 @@ tlh:	{gheS}
 sv:	«anta «plikter»» ifrån, «ta på sig «ansvar»» ifrån (v)
 en:	<assume «duties»> of, <take on «responsibilities»> of (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghet}
 sv:	«låtsas», «rollspela» (v)
@@ -2908,11 +3036,13 @@ sv:	«Gevchok»-regionen (s)
 en:	«Gevchok» region (n)
 def:	[KGT p.17]
 data:	phrase; {ghevchoq} (n)
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghevI'}
 sv:	«sås» till «~gagh~» (s)
 en:	<sauce> for «~gagh~» (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghew}
 sv:	«småkryp», «lus» (s)
@@ -2925,12 +3055,14 @@ tlh:	{ghe'naQ}
 sv:	«opera» (s)
 en:	<opera> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghe'tor}
 sv:	«~Gre'thor~» (där de vanärades själar hamnar) (s)
 en:	<~Gre'thor~> (where spirits of dishonored go) (n)
 def:	[KGT]
 com:	mythological place; similar to Hell
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghe''or}
 sv:	«dödsrike» (där vanärade hamnar) (s)
@@ -2962,6 +3094,7 @@ tlh:	{ghIgh} (2)
 sv:	«uppdrag», «uppgift», «plikt» (s) (slang)
 en:	<assignment>, <task>, <duty> (n) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghIH}
 sv:	vara «slarvig», vara «sjabbig», vara «rörig», vara «kladdig» (v)
@@ -2985,6 +3118,7 @@ en:	<glob fly> (n)
 def:	[KGT]
 ref:	[TKW pp.171, 173]
 data:	phrase; {ghIlab} (n)
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghIlaSnoS}
 sv:	en ålderdomlig «politisk rörelse» (s)
@@ -3017,6 +3151,7 @@ en:	<battle <spear>>, <~gin'tak~> (n)
 def:	[KGT]
 com:	An advisor to a house so trusted that he becomes a part of the
 	family is called *gin'tak* according to the TNG episode "Firstborn".
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghIpDIj}
 sv:	ställa inför «krigsrätt» (v)
@@ -3035,6 +3170,7 @@ tlh:	{ghIqtal}
 sv:	«till «död»s»! (interj) (arkaiskt)
 en:	<to the <death>>! (excl) (archaic)
 def:	[KGT p.49 et al.]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghIQ}
 sv:	«semestra», ta semester (v)
@@ -3052,23 +3188,27 @@ tlh:	{ghIrIlqa'}
 sv:	«Grilka» (namn)
 en:	«Grilka» (name)
 def:	[KGT p.41]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghISDen}
 sv:	«fjäll» (på djur) (s)
 en:	<scales> (animal covering) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghIt} (1)
 sv:	«yxhuvud», «huvud» på yxa (s)
 en:	<ax blade>, <blade> of axe (n)
 def:	[KGT]
 com:	Entries differ and have been combined here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghIt} (2)
 sv:	«öppen», plan «hand» (s)
 en:	<open>, flat «hand» (n)
 def:	[KGT]
 cat:	body part
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghItlh}
 sv:	«skriva», «gravera», «rista» in, «skära» in, «märka» (v)
@@ -3082,6 +3222,7 @@ com:	Entries from all sources have been combined here.
 	mean 'to create a composition.')"
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghItlh}
 sv:	«manuskript» (s)
@@ -3095,6 +3236,7 @@ sv:	«stylus», «skriftverktyg», «person som skriver» (s)
 en:	«stylus», «writing implement», «person who writes» (n)
 def:	[KGT p.79]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{gho} (1)
 sv:	«cirkel» (s)
@@ -3106,12 +3248,14 @@ tlh:	{gho} (2)
 sv:	«tunnband», «rullband» (s)
 en:	<hoop> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghob}
 sv:	«slåss», «strida», «föra krig» (v)
 en:	<fight>, <battle>, do battle, <wage war> (v)
 def:	[KGT]
 ref:	[TKW pp.vii, 61, 179]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghob}
 sv:	«etik», «moral», «dygd» (s)
@@ -3119,6 +3263,7 @@ en:	<ethics>, <virtue> (n)
 def:	[TKD; KGT]
 ref:	[TKW pp.vii, 47, 48]
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghobchuq loDnI'pu'}
 sv:	«Bröderna slåss med varandra» (känd staty) (namn)
@@ -3235,6 +3380,7 @@ en:	<group>, <party>, <band> (n)
 def:	[TKD; KGT]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghomHa'}
 sv:	«spridas» (v)
@@ -3255,6 +3401,7 @@ tlh:	{ghonDoq}
 sv:	en slags «kniv» (långsmalt blad) (s)
 en:	type of <knife> (slender blade) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghong}
 sv:	«missbruka» (v)
@@ -3287,6 +3434,7 @@ sv:	«spionera» (på) (v)
 en:	<spy> (on) (v)
 def:	[TKD; KGT]
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghoqwI'}
 sv:	«spion», «spejare» (s)
@@ -3299,6 +3447,7 @@ tlh:	{ghoQ}
 sv:	vara «färsk», vara «nydödad» (om kött) (v)
 en:	be <fresh>, be just killed (meat) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghor}
 sv:	«bryta» (v)
@@ -3454,6 +3603,7 @@ tlh:	{ghuS} (2)
 sv:	«sänka» (spjut) till horisontellt läge inför attack (v)
 en:	<lower> (spear) to horizontal to attack (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ghuv}
 sv:	«rekryt», ny «medlem» (s)
@@ -3523,11 +3673,13 @@ tlh:	{HaH} (1)
 sv:	«blöta» upp, «dränka» in (v)
 en:	<soak>, <drench> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{HaH} (2)
 sv:	«marinera» (v)
 en:	<marinade> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Haj}
 sv:	«frukta» (v)
@@ -3539,6 +3691,7 @@ tlh:	{HajDob}
 sv:	«ben», «lår» (serverat som mat) (s)
 en:	<leg> (served as food) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Hal}
 sv:	«källa» (s)
@@ -3563,11 +3716,13 @@ tlh:	{Haq} (1)
 sv:	«ingripa» i (en situation), «träda» emellan (v) (slang)
 en:	<intervene> in (a situation) (v) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Haq} (2)
 sv:	utföra «kirurgi» (på), «operera» (v)
 en:	<perform <surgery>> (on) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Haq}
 sv:	«kirurgi» (s)
@@ -3605,6 +3760,7 @@ tlh:	{Hargh}
 sv:	«slåss», «strida» (stor konfrontation) (v)
 en:	<fight>, <battle> (major confrontation) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{HaSta}
 sv:	«bildskärm» (på monitor) (s)
@@ -3656,6 +3812,7 @@ tlh:	{Hay'chu'}
 sv:	«duellera» på liv och död (v)
 en:	«duel» to the death (v)
 def:	[KGT p.49]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Ha'}
 sv:	«kom»!, «vi går»! (interj)
@@ -3676,11 +3833,13 @@ tlh:	{Ha'DIbaH} (2)
 sv:	«fähund», «usling», «tölp», «underlägsen person» (s) (slang)
 en:	<dog>, <cur>, <inferior person> (n) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Ha'quj}
 sv:	«axelgehäng», «gehäng» (s)
 en:	<baldric>, <sash> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{He}
 sv:	«bana», «kurs», «rutt», «riktning» (s)
@@ -3729,6 +3888,7 @@ sv:	«rituellt «självmord»» (s)
 en:	<ritual <suicide>> (n)
 def:	[KGT]
 ref:	[TKW p.147]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Heghba'}
 sv:	«rituellt «självmord»» (s)
@@ -3747,6 +3907,7 @@ tlh:	{Heghtay}
 sv:	«dödsritual» (s)
 en:	<death ritual> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{HeH}
 sv:	«kant» (s)
@@ -3765,6 +3926,7 @@ sv:	«rånare» (s)
 en:	«robber» (n)
 def:	[KGT p.191]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{Hem}
 sv:	vara «stolt» (v)
@@ -3782,6 +3944,7 @@ sv:	«fingra på» (hål, strängar på instrument) för att variera ljud (v)
 en:	<finger> (holes, strings of instrument) to vary sound (v)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{HeQ}
 sv:	«ge efter», «foga» sig, «lyda» (v)
@@ -3839,12 +4002,14 @@ tlh:	{Hew}
 sv:	«staty» (s)
 en:	<statue> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Hew chenmoHwI'}
 sv:	«skulptör» (s)
 en:	<sculptor> (n)
 def:	[KGT]
 data:	phrase; derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{He'}
 sv:	«lukta», «avge lukt» (v)
@@ -3901,6 +4066,7 @@ sv:	«leverantör», «bud» (s)
 en:	«delivery person» (n)
 def:	[KGT p.191]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{HIp}
 sv:	«uniform» (s)
@@ -3914,6 +4080,7 @@ en:	<liquor>, <ale>, <beer>, <wine> (n)
 def:	[TKD; KGT]
 ref:	[TKW pp.35, 181]
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{HISlaH}
 sv:	«ja» (svar på ja/nej fråga) (interj)
@@ -3934,6 +4101,7 @@ tlh:	{HIvDuj}
 sv:	«attackskepp» (s)
 en:	<attack fighter> (vessel) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{HIvje'}
 sv:	«glas» (dryckeskärl) (s)
@@ -3948,11 +4116,13 @@ en:	<drinking «song»> (n)
 def:	[KGT]
 cat:	music
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{HIvneS}
 sv:	«äro-attack» («självmordsuppdrag») (v)
 en:	«honor-attack» («suicide mission») (v)
 def:	[KGT p.49]
+file:	1997-11-01-kgt.txt
 
 tlh:	{HI'}
 sv:	«diktator» (s)
@@ -3990,17 +4160,20 @@ sv:	«allte», «slutgiltiga», «sista» (räkn)
 en:	«allth», «final», «last» (num)
 def:	[KGT p.177]
 ref:	[TDNW; HQ12:2 p.9]
+file:	1997-11-01-kgt.txt
 
 tlh:	{HochHom}
 sv:	«mesta», «större delen» (s)
 en:	<most>, «greater part» (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Hochlogh}
 sv:	«alla gånger», «alltid» (emfatiskt) (adv)
 en:	«all times», «always» (emphatic) (adv)
 def:	[KGT p.178]
 see:	{reH} (adv)
+file:	1997-11-01-kgt.txt
 
 tlh:	{HoD}
 sv:	«kapten» (rang) (s)
@@ -4057,11 +4230,13 @@ sv:	«slang», "«färskt språk»" (mestadels använt av yngre klingoner) (s)
 en:	«slang», "«fresh language»" (mostly used by younger Klingons) (n)
 def:	[KGT p.35]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{HolQeD}
 sv:	«lingvistik» (s)
 en:	<linguistics> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Hom} (1)
 sv:	«ben» (i skelett) (s)
@@ -4073,6 +4248,7 @@ tlh:	{Hom} (2)
 sv:	«vekling», «liten en», «mager en», «utmärglad person» (s) (slang)
 en:	<weakling>, <runt>, <scrawny one>, <skinny one> (n) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Hom}
 sv:	«använda» «andra«tå»n» (v) (arkaiskt)
@@ -4217,6 +4393,7 @@ tlh:	{HovpoH}
 sv:	«stjärndatum» (s)
 en:	<stardate> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Hovtay'}
 sv:	«solsystem» (s)
@@ -4248,12 +4425,14 @@ tlh:	{Ho'} (2)
 sv:	«idol» (s) (slang)
 en:	<idol> (n) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Ho' 'etlh}
 sv:	«sågtandat blad» (t.ex. ~kut'luch~) (s)
 en:	«serrated blade» (e.g., ~kut'luch~) (n)
 def:	[KGT p.61]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{Ho''oy'}
 sv:	«tandvärk» (s)
@@ -4284,6 +4463,7 @@ tlh:	{HubneS}
 sv:	«äro-försvar» («självmordsuppdrag») (v)
 en:	«honor-defend» («suicide mission») (v)
 def:	[KGT p.49]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Huch}
 sv:	«pengar» (s)
@@ -4297,6 +4477,7 @@ sv:	«ekonomi» (s)
 en:	«economics» (n)
 def:	[KGT p.148]
 com:	Slang expression with no non-slang counterpart.
+file:	1997-11-01-kgt.txt
 
 tlh:	{HuD}
 sv:	«berg», «kulle» (s)
@@ -4310,6 +4491,7 @@ sv:	«Flacka bergs-distriktet» (i Sakrej-regionen) (s)
 en:	«Flat Mountain district» (in Sakrej region) (n)
 def:	[KGT p.17]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{Hugh}
 sv:	«hals», «strupe» (s)
@@ -4327,6 +4509,7 @@ ref:	[PK; KCD]
 com:	PK: "'May the bile of the vanquished fill your hands.'
 	{jagh lucharghlu'ta'bogh HuH ghopDu'lIj lungaSjaj.}"
 	See also comments in TKW p.142.
+file:	1997-11-01-kgt.txt
 
 tlh:	{Huj} (1)
 sv:	vara «konstig», vara «underlig» (v)
@@ -4383,6 +4566,7 @@ sv:	«sträng«instrument»» (generell term) (s)
 en:	<stringed <instrument>> (general term) (n)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{Hurgh}
 sv:	vara «mörk» (v)
@@ -4400,11 +4584,13 @@ tlh:	{Hur'Iq}
 sv:	«outsider», «främling» (s) (slang)
 en:	<outsider>, <foreigner> (n) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Hur'Iqngan}
 sv:	«Hur'q» (person) (s)
 en:	<Hur'q> (person) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{HuS}
 sv:	«hänga» (v)
@@ -4416,6 +4602,7 @@ tlh:	{HuS}
 sv:	«Huss» (namn)
 en:	«Huss» (name)
 def:	[KGT p.197]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Hut}
 sv:	«nio» (räkn)
@@ -4445,6 +4632,7 @@ sv:	«sakna», vara «utan», «inte «ha»» (v)
 en:	<lack>, be <without>, to <not «have»> (v)
 def:	[KGT]
 ref:	[TKW pp.59, 61, 142]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Huv}
 sv:	vara «klar», vara icke-skymd (v)
@@ -4465,6 +4653,7 @@ sv:	«panna» (s) (regionalt)
 en:	<forehead> (n) (regional)
 def:	[KGT]
 cat:	body part
+file:	1997-11-01-kgt.txt
 
 tlh:	{Hu'}
 sv:	«gå» upp, «kliva» upp (v)
@@ -4508,6 +4697,7 @@ en:	<food <server>>, <waiter>, «waitress» (n)
 def:	[KGT]
 see:	{tebwI'}
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{jach}
 sv:	«skrika», «ropa», «tjuta», «vråla» (v)
@@ -4521,6 +4711,7 @@ tlh:	{jaD}
 sv:	«kasta» runt, «slunga» omkring (v)
 en:	<throw> around, <hurl> about (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{jagh}
 sv:	«fiende» (s)
@@ -4577,6 +4768,7 @@ sv:	«musik«instrument»» (s)
 en:	<musical <instrument>> (n)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{janluq «pIqarD»}
 sv:	«Jean-Luc Picard» (namn)
@@ -4604,6 +4796,7 @@ sv:	göra «djärv», inge «mod», «uppmuntra» (v)
 en:	«embolden» (v)
 def:	[KGT p.71]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{jar}
 sv:	«månad» (klingonsk) (s)
@@ -4618,6 +4811,7 @@ sv:	«panna» (s) (regionalt)
 en:	<forehead> (n) (regional)
 def:	[KGT]
 cat:	body part
+file:	1997-11-01-kgt.txt
 
 tlh:	{jaS}
 sv:	«annorlunda», på ett annat sätt (adv)
@@ -4629,6 +4823,7 @@ tlh:	{jat}
 sv:	«tala» otydligt, «mumla» (v) (slang)
 en:	<speak> incoherently, <mumble> (v) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{jat}
 sv:	«tunga» (s)
@@ -4641,6 +4836,7 @@ tlh:	{jatyIn}
 sv:	¿?«andlig hemsökelse», «besatthet» (s)
 en:	<spiritual possession> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{jatlh}
 sv:	«säga», «berätta», «tala», «prata» (v)
@@ -4655,6 +4851,7 @@ sv:	sjätte «tonen» på den nonatoniska skalan (s)
 en:	sixth <tone> of nonatonic musical scale (n)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{jav} (2)
 sv:	«fånge» (s) (slang)
@@ -4663,6 +4860,7 @@ def:	[KGT]
 pun:	{jav} also means "six" in Klingon---and "Number Six" is the designation
 	of the main character in the well-known tv series "The Prisoner" from
 	1967 (played by Patrick McGoohan).
+file:	1997-11-01-kgt.txt
 
 tlh:	{jav}
 sv:	«sex» (räkn)
@@ -4750,6 +4948,7 @@ tlh:	{jeD}
 sv:	vara «tjock», vara «seg», vara «trögflytande» (v)
 en:	be <thick>, be <dense>, be <viscous> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{jegh}
 sv:	«kapitulera», «ge upp» (v)
@@ -4779,6 +4978,7 @@ en:	be <dull>, be <blunt> (of blades) (v)
 def:	[KGT]
 ref:	[TKW p.101]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{jen}
 sv:	vara «hög» (v)
@@ -4791,16 +4991,19 @@ sv:	«tallrik» (s)
 en:	<plate> (for eating) (n)
 def:	[KGT]
 see:	{ngop} is the plural form
+file:	1997-11-01-kgt.txt
 
 tlh:	{jeq}
 sv:	«sticka ut» från, «skjuta ut» ur (v)
 en:	<protrude> from (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{jeqqIj}
 sv:	«klubba», «påk» (s)
 en:	<club>, <bludgeon> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{jeQ}
 sv:	vara «självsäker» (v)
@@ -4851,6 +5054,7 @@ sv:	dubbelhövdad yxa, «yxa» med dubbelt blad (s)
 en:	double-headed ax, <ax> with double head (n)
 def:	[KGT]
 com:	Entries differ and have been combined here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{je'} (1)
 sv:	«köpa», «handla» (v)
@@ -4910,6 +5114,7 @@ sv:	vara «samarbetsvillig» (v)
 en:	be <cooperative> (v)
 def:	[KGT]
 see:	{yeq}
+file:	1997-11-01-kgt.txt
 
 tlh:	{jIl}
 sv:	«granne» (s)
@@ -4968,6 +5173,7 @@ tlh:	{jInaq}
 sv:	«amulett» som symboliserar en flickas mognad (s)
 en:	<amulet> symbolizing a girl's coming of age (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{jInmol}
 sv:	«projekt» (s)
@@ -4985,11 +5191,13 @@ tlh:	{jIr}
 sv:	«rotera», «snurra» (v)
 en:	<rotate>, <twirl> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{jIrmoH}
 sv:	«snurra» en «~bat'leth~», få en ~bat'leth~ att «rotera» (v)
 en:	<twirl> «~bat'leth~», cause ~bat'leth~ to «rotate» (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{jIv}
 sv:	vara «okunnig», vara «obildad» (v)
@@ -5029,6 +5237,7 @@ en:	<Lady> (female head of house), <Lord> (male head of house) (n)
 def:	[TKD; KGT]
 com:	Entries differ and have been combined here.
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{joj}
 sv:	område «mellan», område «emellan» (s)
@@ -5078,6 +5287,7 @@ tlh:	{jom}
 sv:	«installera» (en apparat) (v)
 en:	<install> (a device) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{jon}
 sv:	«fånga», ta till fånga (v)
@@ -5090,6 +5300,7 @@ tlh:	{jonpIn}
 sv:	«maskinofficer» (s)
 en:	<engineering officer> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{jonta'}
 sv:	«motor» (s)
@@ -5107,6 +5318,7 @@ tlh:	{jop}
 sv:	«stöta», «sticka» (v)
 en:	<lunge>, <thrust> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{joq}
 sv:	«fladdra», «flaxa» (v)
@@ -5135,11 +5347,13 @@ sv:	«tygremsa» i ett «~susdek~» instrument (s)
 en:	<strip of material> in a «~susdek~» instrument (n)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{joQ} (2)
 sv:	«revben» (s)
 en:	<rib> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{jor}
 sv:	«explodera», «spränga» (v)
@@ -5153,6 +5367,7 @@ en:	<warhead> (of a torpedo) (n)
 def:	[KGT p.57, E-K]
 com:	WARNING - Spellings alternate: {jornub} in KGT K-E, {jorneb} in KGT
 	E-K.
+file:	1997-11-01-kgt.txt
 
 tlh:	{jornub}
 sv:	«stridsspets» (på en torped) (s)
@@ -5160,6 +5375,7 @@ en:	«warhead» (of a torpedo) (n)
 def:	[KGT K-E]
 com:	WARNING - Spellings alternate: {jornub} in KGT K-E, {jorneb} in KGT
 	E-K.
+file:	1997-11-01-kgt.txt
 
 tlh:	{jorwI'}
 sv:	«sprängämne» (s)
@@ -5332,6 +5548,7 @@ sv:	«förkasta», «avslå» (v)
 en:	<reject> (v)
 def:	[KGT]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{lalDan}
 sv:	«religion» (s)
@@ -5387,6 +5604,7 @@ tlh:	{lat}
 sv:	«helgedom» (s)
 en:	<shrine> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{latlh}
 sv:	«ytterligare en», «en annan», «en till» (s)
@@ -5399,6 +5617,7 @@ tlh:	{lav}
 sv:	«buske» (s)
 en:	<shrub> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{law'}
 sv:	vara «många», vara «talrika», vara «mycket» (v)
@@ -5429,6 +5648,7 @@ sv:	«bryta sitt ord» (v)
 en:	<break one's word> (v)
 def:	[KGT]
 ref:	[TKW p.80]
+file:	1997-11-01-kgt.txt
 
 tlh:	{la'}
 sv:	«kommendörkapten» (rang) (s)
@@ -5478,6 +5698,7 @@ tlh:	{lem}
 sv:	«hov» (s)
 en:	<hoof> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{len}
 sv:	«uppehåll», «avbrott», «paus», «rast» (s)
@@ -5529,6 +5750,7 @@ sv:	ett slags sträng«instrument» (s)
 en:	type of stringed <instrument> (n)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{leSpoH}
 sv:	«permission», «landpermission» (s)
@@ -5553,16 +5775,19 @@ tlh:	{letlh} (1)
 sv:	«trappa», «trappuppgång» (s)
 en:	<stairs>, «stairway» (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{letlh} (2)
 sv:	«trappuppgång» vid skeppsdörr (s) (regionalt)
 en:	<stairway> leading to door of a ship (n) (regional)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{lev}
 sv:	«förflytta» en «~bat'leth~» från vertikal till horisontell position (v)
 en:	<move> «~bat'leth~» from vertical to horizontal orientation (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{lev}
 sv:	«gom» (s)
@@ -5576,6 +5801,7 @@ sv:	«näsa» (s) (regionalt)
 en:	<nose> (n) (regional)
 def:	[KGT]
 cat:	body part
+file:	1997-11-01-kgt.txt
 
 tlh:	{le'}
 sv:	vara «speciell», vara «exceptionell», vara «särskild» (v)
@@ -5589,11 +5815,13 @@ tlh:	{le'be'}
 sv:	vara «icke-exeptionell», vara «icke-utmärkande» (v)
 en:	be <unexceptional>, be <nonspecific> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{lIch}
 sv:	«hälla» (i/på något) (v)
 en:	<pour> (into/onto anything) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{lIgh}
 sv:	«rida» (v)
@@ -5605,6 +5833,7 @@ tlh:	{lIghon}
 sv:	«Ligon» (s)
 en:	<Ligon> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{lIghon DuQwI' pogh}
 sv:	«glavin», «ligonsk «spikhandske»» (s)
@@ -5612,6 +5841,7 @@ en:	<glavin>, <Ligonian <spike glove>> (n)
 def:	[KGT]
 cat:	clothing
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{lIH}
 sv:	«presentera», «introducera» (v)
@@ -5652,6 +5882,7 @@ tlh:	{lIngta'}
 sv:	ett slags «djur», «~lingta~» (s)
 en:	type of <animal>, <~lingta~> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{lIngwI'}
 sv:	«generator» (s)
@@ -5675,18 +5906,21 @@ tlh:	{lIt}
 sv:	¿?«gå» ombord (på), «gå» upp (på), «kliva» upp (på) (v)
 en:	<get> on (to) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{lItHa'}
 sv:	¿?«gå» av (ifrån), «gå» ner (ifrån), «kliva» av (ifrån) (v)
 en:	<get> off (of) (v)
 def:	[KGT]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{lIw}
 sv:	«ersättning», «ersättare», tillfälligt «surrogat» (s)
 en:	<substitute>, <stand-in>, temporary <surrogate> (n)
 def:	[KGT]
 see:	{qa'meH}
+file:	1997-11-01-kgt.txt
 
 tlh:	{lIy}
 sv:	«komet» (s)
@@ -5840,16 +6074,19 @@ tlh:	{lop} (2)
 sv:	«fira», «följa» (en ritual) (v)
 en:	<observe>, <celebrate> (a ritual) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{lop}
 sv:	«firande», «fest» (s)
 en:	<celebration> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{lopno'}
 sv:	«fest», «firande» (s)
 en:	<party>, <celebration> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{loQ}
 sv:	«lite grann», till viss del (adv)
@@ -5903,6 +6140,7 @@ sv:	fjärde «tonen» på den nonatoniska skalan (s)
 en:	fourth <tone> of nonatonic musical scale (n)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{loS}
 sv:	«fyra» (räkn)
@@ -5992,6 +6230,7 @@ tlh:	{lu}
 sv:	«falla» (förlora status) (v)
 en:	<fall> (suffer loss of status) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{luch}
 sv:	«utrustning», «redskap» (s)
@@ -6021,11 +6260,13 @@ en:	<cause (someone) to confess> or reveal a secret, <exact> a
 	confession (v) (slang)
 def:	[KGT]
 com:	Entries differ and have been combined here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{luH}
 sv:	«tarmar», «inälvor» (s)
 en:	<intestine> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{luHwI' tIH}
 sv:	«dragstråle» (s)
@@ -6040,11 +6281,13 @@ en:	<fail>, <lose> (not win) (v)
 def:	[TKD; KGT]
 ref:	[TKW pp.56, 211]
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{lul}
 sv:	«slåss», «strida» (relativt stort slagsmål) (v)
 en:	<fight>, <battle> (relatively major fight) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{lulIgh}
 sv:	«tillflykt», «skydd», «fristad» (s)
@@ -6063,6 +6306,7 @@ tlh:	{lung}
 sv:	ett slags «djur», «drake», «~loong~» (ödleliknande) (s)
 en:	type of <animal>, «dragon», «~loong~» (lizardlike) (n)
 def:	[KGT; KGT p.48--49]
+file:	1997-11-01-kgt.txt
 
 tlh:	{lup}
 sv:	«transportera» (v)
@@ -6087,6 +6331,7 @@ tlh:	{lupwI'}
 sv:	«buss» (s)
 en:	<jitney>, <bus> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{luq}
 sv:	«ja», «okej», jag ska (göra det) (interj)
@@ -6119,11 +6364,13 @@ en:	«Lursa» (name)
 def:	[S26; KGT p.197]
 com:	S26 was reprinted in HQ5:3 p.15
 	Lursa is one of the Duras sisters.
+file:	1997-11-01-kgt.txt
 
 tlh:	{luSpet}
 sv:	«svart hål» (astronomiskt fenomen) (s)
 en:	<black hole> (astronomical phenomenon) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{lut}
 sv:	«historia», «berättelse», «saga» (s)
@@ -6193,6 +6440,7 @@ tlh:	{maHpIn}
 sv:	«skål» (stor) (s)
 en:	<bowl> (large) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{maj}
 sv:	«bra» (uttrycker belåtenhet) (interj)
@@ -6243,6 +6491,7 @@ tlh:	{maqoch}
 sv:	«polare», «nära manlig «vän»» till en man (s)
 en:	<buddy>, <pal>, <close male <friend>> of a male (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{maQmIgh}
 sv:	illavarslade «omen», «tecken» på förestående ondska, «järtecken» (s)
@@ -6274,6 +6523,7 @@ tlh:	{martaq}
 sv:	«Martok» (namn)
 en:	«Martok» (name)
 def:	[KGT p.198]
+file:	1997-11-01-kgt.txt
 
 tlh:	{maS}
 sv:	«föredra» (v)
@@ -6319,11 +6569,13 @@ en:	be <disloyal> (v)
 def:	[KGT]
 ref:	[TKW p.139]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{mavje'}
 sv:	«lever» (s) (regionalt)
 en:	<liver> (n) (regional)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{mavjop}
 sv:	«gem» (s)
@@ -6366,6 +6618,7 @@ ref:	[TKW pp.38, 91, 147, 211]
 see:	{vIq}
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{may' bom}
 sv:	«stridssång» (s)
@@ -6373,6 +6626,7 @@ en:	<battle song> (n)
 def:	[KGT]
 cat:	music
 data:	phrase; derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{may'Duj}
 sv:	«stridskryssare» (s)
@@ -6386,6 +6640,7 @@ sv:	«stridsdon», full «rustning», full uppsättning av rustning
 en:	<battle gear>, <panoply>, complete set of <armor> and weapons
 	(n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{may'morgh}
 sv:	¿?«slagordning», «slaguppställning» (s)
@@ -6397,6 +6652,7 @@ tlh:	{may'ron}
 sv:	«dragspel», «bälg» (s)
 en:	<accordion>, <concertina> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ma'}
 sv:	«inhysa», ge «husrum», «betjäna», «utrusta», «förse» (v)
@@ -6423,6 +6679,7 @@ tlh:	{mebpa'mey}
 sv:	«hotell» (s)
 en:	<hotel> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{mech}
 sv:	«handla», idka handel (v)
@@ -6463,6 +6720,7 @@ tlh:	{melchoQ}
 sv:	«märg», «benmärg» (s)
 en:	<marrow>, <bone marrow> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{mellota'}
 sv:	«Melota» (namn)
@@ -6495,12 +6753,14 @@ def:	[TKD; KGT p.154]
 com:	¿?Are {meq} (1) and {meq} (2) actually the same thing?
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{meq} (2)
 sv:	«motiv», «orsak», «anledning» (s)
 en:	<motive>, «reason» (n)
 def:	[KGT]
 ref:	[TKW p.143]
+file:	1997-11-01-kgt.txt
 
 tlh:	{meqba'}
 sv:	ett slags «rättegångsförfarande», «~Mek'ba~» (s)
@@ -6516,11 +6776,13 @@ en:	type of <weapon>, <~mek'leth~> (n)
 def:	[KGT]
 com:	The short sword thing that Worf uses on DS9 and in the movie
 	"First Contact".
+file:	1997-11-01-kgt.txt
 
 tlh:	{meqro'vaq}
 sv:	«Mekro'vak» (region) (s)
 en:	«Mekro'vak» (region) (n)
 def:	[KGT p.29]
+file:	1997-11-01-kgt.txt
 
 tlh:	{meQ}
 sv:	«brinna» (v)
@@ -6543,6 +6805,7 @@ sv:	stort blås«instrument» (s)
 en:	large wind <instrument> (n)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{mev}
 sv:	«sluta», «upphöra» (v)
@@ -6556,6 +6819,7 @@ tlh:	{mevyap}
 sv:	«stopp», det är «bra», det är «nog» (interj)
 en:	«stop», (it is) «enough» (excl)
 def:	[KGT p.113]
+file:	1997-11-01-kgt.txt
 
 tlh:	{meyrI'}
 sv:	«fyrkant», «kvadrat» (s)
@@ -6626,6 +6890,7 @@ tlh:	{mIl'oD}
 sv:	ett slags «djur», «sabelbjörn» (s)
 en:	type of <animal>, <sabre bear> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{mIm}
 sv:	«försena», «fördröja», «skjuta upp» (v)
@@ -6651,6 +6916,7 @@ tlh:	{mIp}
 sv:	«förmögenhet» (s)
 en:	<wealth>, <richness> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{mIqta'}
 sv:	«maskineri», «mekanism» (s)
@@ -6665,12 +6931,14 @@ def:	[KGT]
 com:	Entries differ in source. One of the E-K entries is used here.
 pun:	"Marc nodded, smiling infuriatingly, to confirm {mIQ} (deep fry) as in
 	mIQ-Donald's french fries." ({Qov}, {qep'a' loSDIch} [1997])
+file:	1997-11-01-kgt.txt
 
 tlh:	{mIQ}
 sv:	«panna» (s) (regionalt)
 en:	<forehead> (n) (regional)
 def:	[KGT]
 cat:	body part
+file:	1997-11-01-kgt.txt
 
 tlh:	{mIr}
 sv:	«kedja» (s)
@@ -6716,17 +6984,20 @@ tlh:	{mIv} (2)
 sv:	flatbottnad «skål» av metall (s) (regionalt)
 en:	metal flat-bottomed <pot> (n) (regional)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{mIv bargh}
 sv:	flatbottnad «skål» av metall (s) (regionalt)
 en:	metal flat-bottomed <pot> (n) (regional)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{mIv'a'}
 sv:	«krona» (s)
 en:	<crown> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{mIw} (1)
 sv:	«procedur», «process» (s)
@@ -6740,6 +7011,7 @@ tlh:	{mIw} (2)
 sv:	«steg», «del» (i en process) (s)
 en:	<step>, <stage> (in a process) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{mIy}
 sv:	«skryta» (v)
@@ -6753,6 +7025,7 @@ sv:	¿?«dansa», «springa» på stället, «träna» (v)
 en:	<dance>, <run> in place, do <calisthenics>, <exercise> (v)
 def:	[KGT]
 com:	Entries differ and have been combined here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{mI'}
 sv:	«nummer», «siffra» (s)
@@ -6791,6 +7064,7 @@ tlh:	{mogh}
 sv:	«Mogh» (namn)
 en:	«Mogh» (name)
 def:	[KGT pp.41, 197]
+file:	1997-11-01-kgt.txt
 
 tlh:	{moH} (1)
 sv:	vara «ful» (v)
@@ -6804,6 +7078,7 @@ en:	<influence>, <exert undue influence> on (v) (slang)
 def:	[KGT]
 com:	Entries differ in source. One of the E-K entries is used
 	here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{moHaq}
 sv:	«prefix» (s)
@@ -6855,6 +7130,7 @@ def:	[KGT]
 ref:	[TKW p.167]
 pun:	"Mona Lisa" ({mon'a'} "Is she smiling?") Confirmed by MO at {qep'a'
 	wejDIch} (1996).
+file:	1997-11-01-kgt.txt
 
 tlh:	{mon}
 sv:	«huvudstad» (s)
@@ -6887,6 +7163,7 @@ tlh:	{moq}
 sv:	«slå» (något med ett redskap) (v)
 en:	<beat> (something with an implement) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{moQ} (1)
 sv:	«sfär» (s)
@@ -6898,12 +7175,14 @@ tlh:	{moQ} (2)
 sv:	spikförsedd «pommel» på en «~d'k tahg~»-kniv (s)
 en:	spiked «pommel» of a «~d'k tahg~» knife (n)
 def:	[KGT p.61]
+file:	1997-11-01-kgt.txt
 
 tlh:	{moQbara'}
 sv:	«stridskonstform», «kampkonstform», «~Mok'bara~» (s)
 en:	<martial arts> form, <~Mok'bara~> (n)
 def:	[KGT]
 ref:	[TKW p.199]
+file:	1997-11-01-kgt.txt
 
 tlh:	{morgh}
 sv:	«protestera», «invända» emot (v)
@@ -6928,6 +7207,7 @@ sv:	«vanligtvis», som vanligt, som «väntat», «normal sett» (adv)
 en:	<usually>, <typically>, as expected, <expectedly> (adv)
 def:	[KGT]
 com:	Entries differ and have been combined here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{motlhbe'}
 sv:	vara «ovanlig» (v)
@@ -6941,6 +7221,7 @@ sv:	«ovansida av fot», «fotrygg» (s)
 en:	<top of «foot»> (n)
 def:	[KGT]
 cat:	body part
+file:	1997-11-01-kgt.txt
 
 tlh:	{moy'bI'}
 sv:	¿?«slunga», «slungmanöver» (runt himlakropp med rymdskepp) (s)
@@ -6958,6 +7239,7 @@ tlh:	{mo'} (2)
 sv:	«motiv», «motivation», «orsak», «anledning», «skäl» (s) (slang)
 en:	<motive>, motivation, <grounds>, <reason>, rationale (n) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{mub}
 sv:	vara «laglig» (v)
@@ -6976,6 +7258,7 @@ tlh:	{much} (2)
 sv:	«framföra» (musik) (v)
 en:	<perform> (music) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{much}
 sv:	«presentation» (s)
@@ -6988,6 +7271,7 @@ sv:	«musiker» (s)
 en:	<musician> (n)
 def:	[KGT]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{muD} (1)
 sv:	«atmosfär» (s)
@@ -6999,12 +7283,14 @@ tlh:	{muD} (2)
 sv:	«väder» (generellt) (s)
 en:	<weather> (in general) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{muD Dotlh}
 sv:	«väder» (vid ett givet tillfälle) (s)
 en:	<weather> (at any given moment) (n)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{mugh}
 sv:	«översätta» (v)
@@ -7072,6 +7358,7 @@ tlh:	{mum}
 sv:	«smaka», «känna smak» (v)
 en:	<taste>, <sense flavors> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{mun}
 sv:	«ingripa», «komma emellan» (v)
@@ -7097,17 +7384,20 @@ sv:	«hammare» (s)
 en:	<hammer> (n)
 def:	[KGT]
 ref:	[TKW p.120]
+file:	1997-11-01-kgt.txt
 
 tlh:	{mupwI'Hom}
 sv:	«klubba» (mindre) (för att slå an musikinstrument) (s)
 en:	<mallet> (for striking a musical instrument) (n)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{muq}
 sv:	«ha» en «volym» av (v)
 en:	<have> a <volume> of (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{muS}
 sv:	«hata», «avsky» (v)
@@ -7165,24 +7455,28 @@ sv:	«trötta ord» (används om äldre klingoners språk) (s)
 en:	«tired words» (used to refer to older Klingons language) (n)
 def:	[KGT p.35]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{mu'mey ghoQ}
 sv:	«slang», "«färska ord»" (används mest av yngre klingoner) (s)
 en:	<slang>, "«fresh words»" (mostly used by younger Klingons) (n)
 def:	[KGT p.35 et al.]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{mu'mey ru'}
 sv:	«tillfälliga ord» (ogrammatiskt uttryck använt för effekt) (s)
 en:	«temporary words» (ungrammatical expression used for impact) (n)
 def:	[KGT p.176]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{mu'qaD}
 sv:	«svordom», «förbannelse» (s)
 en:	<curse> (n)
 def:	[KGT]
 ref:	[TKW p.148]
+file:	1997-11-01-kgt.txt
 
 tlh:	{mu'qaD veS}
 sv:	«svordomskamp», «svordomskrig» (s)
@@ -7273,6 +7567,7 @@ sv:	¿?«rekommendationslista» (s)
 en:	<Commendation List> (n)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{nagh} (1)
 sv:	«klippa», «sten» (s)
@@ -7284,23 +7579,27 @@ tlh:	{nagh} (2)
 sv:	«keramiskt material» (s)
 en:	<ceramic material> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{nagh beQ}
 sv:	«sten«panel»» (konstverk, liknande en målning) (s)
 en:	<stone <panel>> (artwork, similar to a painting) (n)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{naghboch}
 sv:	«ädelsten» (s)
 en:	<gemstone> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{nagh DIr}
 sv:	«skal» (på ett djur) (s)
 en:	<shell> (of an animal) (n)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{naH}
 sv:	«frukt», «grönsak» (s)
@@ -7313,22 +7612,26 @@ sv:	«tistel» (s)
 en:	«thistle» (n)
 def:	[KGT p.88]
 see:	{neHjej} (probably incorrect form)
+file:	1997-11-01-kgt.txt
 
 tlh:	{naHlet}
 sv:	«nöt», nötter (s)
 en:	<nut>, nuts (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{naHnagh}
 sv:	«kärna» (i frukt) (s)
 en:	«pit» (of fruit) (n)
 def:	[KGT p.89]
+file:	1997-11-01-kgt.txt
 
 tlh:	{naH taj}
 sv:	«grönsakskniv», «frukt«kniv»» (liten kniv) (s)
 en:	<vegetable> knife, <fruit <knife>> (small knife) (n)
 def:	[KGT]
 data:	phrase; derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{naj}
 sv:	«drömma» (v)
@@ -7342,11 +7645,13 @@ sv:	«vagg«visa»» (s)
 en:	<lullaby> (n)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{nalqaD}
 sv:	¿?«parningsutmaning» (s)
 en:	<mate challenge> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{namtun}
 sv:	«inledning», «början» (på sång) (s)
@@ -7360,6 +7665,7 @@ sv:	«tass» (s)
 en:	<paw> (n)
 def:	[KGT]
 cat:	body part
+file:	1997-11-01-kgt.txt
 
 tlh:	{nan}
 sv:	ett slags kampsport«spark» (s)
@@ -7371,6 +7677,7 @@ tlh:	{nan}
 sv:	«holka ur», «gröpa ur», «gräva ur» (v)
 en:	<gouge> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{nan}
 sv:	«använda» «fjärde«tå»n» (v) (arkaiskt)
@@ -7383,6 +7690,7 @@ sv:	«mejsel», «huggjärn» (s)
 en:	<chisel> (n)
 def:	[KGT]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{nanwI'} (2)
 sv:	«fjärde«tå»» (s)
@@ -7415,17 +7723,20 @@ tlh:	{naQ} (2)
 sv:	«hästsvans» (s) (slang)
 en:	<ponytail> (n) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{naQHom}
 sv:	«pinne» (används för att slå på slaginstrument) (s)
 en:	<stick> (used to strike percussion instrument) (n)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{naQjej}
 sv:	«spjut» (s)
 en:	<spear> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{nargh} (1)
 sv:	«dyka upp» (v)
@@ -7460,12 +7771,14 @@ en:	<use> up, <consume>, <expend> (v)
 def:	[KGT]
 ref:	[S33]
 com:	S33 was reprinted in HQ6:2 p.9
+file:	1997-11-01-kgt.txt
 
 tlh:	{natlh} (2)
 sv:	vara «förkastlig», vara «äcklig», vara «vidrig», vara «usel», vara
 	«motbjudande» (v) (slang)
 en:	be <reprehensible>, be <disgusting>, be <contemptible> (v) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{nav}
 sv:	«papper» (s)
@@ -7526,17 +7839,20 @@ tlh:	{na'} (1)
 sv:	vara «saltsmakande», vara «bräckt» (v)
 en:	be <salty>, be <brackish> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{na'} (2)
 sv:	vara «säker», vara helt säker, vara «viss» (v) (slang)
 en:	be <sure>, be <definite>, be <positive>, be <certain> (v)
 	(slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{na'ran}
 sv:	en slags «frukt» (s)
 en:	type of <fruit> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{nech}
 sv:	vara «sidoställd», vara placerad åt/vid «sidan», «röra sig» i
@@ -7579,6 +7895,7 @@ gram:	incorrect form of {naHjej}
 com:	WARNING - DON'T USE THIS WORD.
 see:	{naHjej} (probably correct form)
 data:	mistaken form
+file:	1997-11-01-kgt.txt
 
 tlh:	{neHmaH}
 sv:	«neutral zon» (s)
@@ -7612,11 +7929,13 @@ sv:	vara «mogen», vara «vuxen» (v)
 en:	be <mature>, be <grown-up>, be <adult> (v)
 def:	[KGT]
 ref:	[TKW p.177]
+file:	1997-11-01-kgt.txt
 
 tlh:	{nen}
 sv:	«mognad», «vuxenhet» (s)
 en:	<growth>, <maturation> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{nenchoH}
 sv:	«mogna», «växa upp» (v)
@@ -7624,6 +7943,7 @@ en:	<mature>, <grow up> (v)
 def:	[KGT]
 com:	Entries differ in source. The K-E entry is used here.
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{nenghep}
 sv:	«Uppstigandets ålder» (Age of Ascension) (s)
@@ -7643,12 +7963,14 @@ sv:	¿?Andra «Uppstigningsriten» (s)
 en:	Second «Rite of Ascension» (n)
 def:	[KGT p.65]
 data:	phrase; derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{nentay wa'DIch}
 sv:	¿?Första «Uppstigningsriten» (s)
 en:	First «Rite of Ascension» (n)
 def:	[KGT p.177]
 data:	phrase; derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{nep}
 sv:	«ljuga» (v)
@@ -7683,6 +8005,7 @@ sv:	en slags «skål» med handtag (används vid matberedning) (s)
 en:	type of <pot> with handles (used for food preparation) (n)
 def:	[KGT]
 com:	Entries differ in source. The K-E entry is used here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{ne'}
 sv:	«assistent», «betjänt» (rang) (s)
@@ -7704,6 +8027,7 @@ def:	[KGT]
 com:	From TNG episode "Cause And Effect". Worf says "I am experiencing
 	nIb'poH, the feeling I've done this before." at the poker table the
 	third time we see that scene.
+file:	1997-11-01-kgt.txt
 
 tlh:	{nIch}
 sv:	«ammunition» (s)
@@ -7748,6 +8072,7 @@ tlh:	{nIm}
 sv:	«mjölk» (s)
 en:	<milk> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{nImbuS wej}
 sv:	«Nimbus III» (s)
@@ -7779,12 +8104,14 @@ tlh:	{nISwI'}
 sv:	«disruptor» (s)
 en:	<disruptor> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{nISwI' beH}
 sv:	«disruptorgevär» (s)
 en:	<disruptor rifle> (n)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{nISwI' bej}
 sv:	«disruptorgevär» (s)
@@ -7792,29 +8119,34 @@ en:	«disruptor rifle» (n)
 def:	[KGT p.56]
 com:	Probably misspelled {nISwI' beH}.
 data:	phrase; {bej} (n)
+file:	1997-11-01-kgt.txt
 
 tlh:	{nISwI' DaH}
 sv:	«disruptorbatteri», «disruptoruppsättning» (s)
 en:	«disruptor banks» (n)
 def:	[KGT p.56]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{nISwI' HIch}
 sv:	«disruptorpistol», handhållen disruptor (s)
 en:	<disruptor pistol>, hand-held disruptor (n)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{nISwI' tIH}
 sv:	«disruptorstråle» (s)
 en:	«disruptor beam» (n)
 def:	[KGT p.56]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{nIt}
 sv:	vara «enkel», vara «ren», vara «okorrumperad», vara «ofläckad» (v)
 en:	be <plain>, be <pure>, be <uncorrupted>, be <unsullied> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{nIteb}
 sv:	«ensam», på «egen hand» (adv)
@@ -7841,6 +8173,7 @@ sv:	«pigment«pinne»» (s) (slang)
 en:	<pigment «stick»> (n) (slang)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{nItlhpach} (1)
 sv:	«fingernagel» (s)
@@ -7853,6 +8186,7 @@ tlh:	{nItlhpach} (2)
 sv:	platt «ände på pigmentpinne» (s)
 en:	flat <end of pigment stick> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{nIv}
 sv:	vara «överlägsen», vara «mäktig» (v)
@@ -7902,6 +8236,7 @@ en:	<give back>, <return> (v)
 def:	[KGT]
 ref:	[TKW p.189]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{noch}
 sv:	«sensor», «detektor» (s)
@@ -7935,6 +8270,7 @@ def:	[TKDa; KGT pp.46, 47 et al.]
 ref:	[TKW pp.179, 211]
 see:	{veS}
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{noj}
 sv:	«låna» (v)
@@ -7986,11 +8322,13 @@ com:	Sarek (p.218): "A shark is an Earth animal, a huge fish...
 	"An animal that swims in the sea, a dangerous predator, you
 	know?"
 	  "Oh!" she cried. "you mean ~norgh?~"
+file:	1997-11-01-kgt.txt
 
 tlh:	{noS}
 sv:	«äta» i små munfullar, «nafsa» på (v)
 en:	<eat> in small mouthfuls, <nibble> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{noSvagh}
 sv:	«deodorant» (s)
@@ -8024,6 +8362,7 @@ en:	<alien>, <foreigner>, <outsider> (n)
 def:	[TKD; KGT]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{noy}
 sv:	vara «känd», vara «välkänd» (v)
@@ -8045,18 +8384,21 @@ sv:	«förfadersbonad» (s)
 en:	<ancestor hanging> (wall ornament) (n)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{no' Hol}
 sv:	«ålderdomligt språk» (s)
 en:	<ancient language> (n)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{no''och}
 sv:	«panna» (s) (regionalt)
 en:	<forehead> (n) (regional)
 def:	[KGT]
 cat:	body part
+file:	1997-11-01-kgt.txt
 
 tlh:	{nub}
 sv:	vara «misstänkt» (v)
@@ -8089,6 +8431,7 @@ sv:	«samhälle» (grupp människor med gemensam kultur) (s)
 en:	<society> (group of people with shared culture) (n)
 def:	[TKD; KGT]
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{nughI'}
 sv:	«gnugga» knogarna mot någons «huvud» (v)
@@ -8104,6 +8447,7 @@ pun:	{SuSvaj} happened to be sitting next to Okrand at {qep'a' wejDIch}
 	{tlhIngan Hol}! "He suggested that some word-borrowing was going on,
 	and I think he said he wasn't sure which culture had borrowed from
 	which." (SuStel)
+file:	1997-11-01-kgt.txt
 
 tlh:	{nuH} (1)
 sv:	«vapen» (s)
@@ -8117,6 +8461,7 @@ tlh:	{nuH} (2)
 sv:	«möjlighet» (s)
 en:	<possibility> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{nuH bey'}
 sv:	«Vapenstolthet» (s)
@@ -8143,6 +8488,7 @@ tlh:	{nuHpIn}
 sv:	«vapenofficer» (s)
 en:	<weapons officer> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{nuj}
 sv:	«mun» (s)
@@ -8270,33 +8616,39 @@ tlh:	{ngaD}
 sv:	vara «stabil», vara «balanserad» (v)
 en:	be <stable>, be <balanced> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ngaDmoH}
 sv:	«stabilisera» (v)
 en:	<stabilize> (v)
 def:	[KGT]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{ngaDmoHwI'}
 sv:	«stabilisator» (del av ett skepp) (s)
 en:	<stabilizer> (component of a ship) (n)
 def:	[KGT]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{ngagh}
 sv:	«para» sig med (v)
 en:	<mate> with (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ngaj}
 sv:	vara «kort» (i tid) (v)
 en:	be <short> (in duration) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ngal}
 sv:	¿?vara «seg», vara «kraftig», vara «fast» (ha tuggmotstånd) (v)
 en:	be <chewy> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ngan}
 sv:	«invånare» (s)
@@ -8316,6 +8668,7 @@ sv:	vara «låst», vara «förseglad», vara «säkrad», vara «fäst» (v)
 en:	be <locked>, be <sealed>, be <secured>, be <fastened> (v)
 def:	[KGT]
 ref:	[TKW p.186]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ngaS}
 sv:	«innehålla» (v)
@@ -8334,6 +8687,7 @@ tlh:	{ngat} (2)
 sv:	örtkryddat kornat «brosk» (för matberedning) (s)
 en:	herbed granulated <cartilage> (for food preparation) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ngav}
 sv:	«skriv«kramp»» (s)
@@ -8345,6 +8699,7 @@ tlh:	{ngawDeq}
 sv:	«omrörnings«pinne»» med tillplattad, paddelliknande ände (s)
 en:	<mixing «stick»> with flattened, paddlelike end (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ngay}
 sv:	namn på klingonskans {ng}-ljud (s)
@@ -8441,11 +8796,13 @@ tlh:	{ngep'oS}
 sv:	«trappa», «trappuppgång» (utom vid skeppsdörr) (s) (regionalt)
 en:	<stairs>, «stairway» (except at ship door) (n) (regional)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ngeQ}
 sv:	«stöta på», «springa in» i, «kollidera» med (v)
 en:	<bump> into, <run into>, <collide> with (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{nger}
 sv:	«teori» (s)
@@ -8474,11 +8831,13 @@ sv:	«vrist», «fotled» (även slanguttryck för ogillande) (s)
 en:	<ankle> (also slang term of deprecation) (n)
 def:	[KGT]
 cat:	body part
+file:	1997-11-01-kgt.txt
 
 tlh:	{ngIj}
 sv:	vara «bråkig», vara «stökig», vara «oregerlig», vara «bångstyrig» (v)
 en:	be «rowdy», be «unruly» (v)
 def:	[KGT p.150]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ngIl}
 sv:	«våga» (v)
@@ -8509,6 +8868,7 @@ tlh:	{ngI'}
 sv:	«ha» en «vikt» av, «väga» (v)
 en:	<have> a <weight> of, weigh (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ngoch}
 sv:	¿?«policy», «politik» (s)
@@ -8550,6 +8910,7 @@ tlh:	{ngoH} (2)
 sv:	«måla» med fingrarna (v)
 en:	<paint> using fingers (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ngoj}
 sv:	vara «rastlös» (v)
@@ -8561,6 +8922,7 @@ tlh:	{ngol}
 sv:	«förflytta» en «~bat'leth~» från horisontell till vertikal position (v)
 en:	<move> «~bat'leth~» from horizontal to vertical orientation (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ngong}
 sv:	«experimentera» (v)
@@ -8579,6 +8941,7 @@ sv:	«tallrikar» (s)
 en:	<plates> (for eating) (n)
 def:	[KGT]
 see:	{jengva'} is the singular form
+file:	1997-11-01-kgt.txt
 
 tlh:	{ngoq}
 sv:	«kod» (s)
@@ -8603,6 +8966,7 @@ def:	[TKD; KGT]
 ref:	[TKW p.165]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{ngor}
 sv:	«fuska» (v)
@@ -8649,6 +9013,7 @@ sv:	«munstycke» (på blåsinstrument) (s)
 en:	<mouthpiece> (of a wind instrument) (n)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{ngup} (1)
 sv:	¿?«cape» (klädesplagg) (s)
@@ -8662,6 +9027,7 @@ sv:	«auktoritet», «befogenhet», «makt», någon med auktoritet eller i
 	ledarposition (s) (slang)
 en:	<authority>, <power>, one in authority or in charge (n) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{nguq}
 sv:	vara «arrogant», vara «inbilsk», vara «högfärdig», vara «egenkär» (v)
@@ -8679,12 +9045,14 @@ tlh:	{nguv}
 sv:	vara «färgad», vara «fläckad», vara «tonad» (v)
 en:	be <dyed>, be <stained>, be <tinted> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{nguvmoH}
 sv:	«färga», «fläcka», «tona» (v)
 en:	<dye>, <stain>, <tint> (v)
 def:	[KGT]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{ngu'}
 sv:	«identifiera» (v)
@@ -8713,6 +9081,7 @@ sv:	«felanvända» (regler), «följa» (regler) felaktigt (v)
 en:	«misfollow» (rules), «follow» (rules) wrongly (v)
 def:	[KGT p.176]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{pach}
 sv:	«klo», «fågelklo» (s)
@@ -8728,6 +9097,7 @@ def:	[TKD; KGT]
 ref:	[TKW pp.139, 201]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{pagh}
 sv:	«noll» (räkn)
@@ -8748,11 +9118,13 @@ sv:	«nollte» (om något som inte har hänt) (räkn)
 en:	«zeroth» (about something that has not occurred) (num)
 def:	[KGT p.177]
 cat:	math
+file:	1997-11-01-kgt.txt
 
 tlh:	{paghlogh}
 sv:	«ingen gång», «aldrig» (emfatiskt) (adv)
 en:	«zero times», «never» (emphatic) (adv)
 def:	[KGT p.178]
+file:	1997-11-01-kgt.txt
 
 tlh:	{paH}
 sv:	«dräkt» (s)
@@ -8772,6 +9144,7 @@ sv:	«knäppa» (på ett stränginstrument) (v)
 en:	<pluck> (a stringed instrument) (v)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{paq}
 sv:	«bok» (s)
@@ -8804,16 +9177,19 @@ tlh:	{parmaq}
 sv:	«kärlek», «romans» (s)
 en:	<love>, <romance> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{parmaqqay}
 sv:	«romantisk partner», «romantisk sällskap» (s)
 en:	<romantic companion>, «romantic partner» (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{paS}
 sv:	vara «sen» (v)
 en:	be <late> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{paSlogh}
 sv:	«strumpor» (s)
@@ -8838,6 +9214,7 @@ tlh:	{patlh} (2)
 sv:	«nivå», «ställning», «status», «anseende» (s)
 en:	<level>, <layer>, <standing> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{pav}
 sv:	vara «brådskande», vara «angelägen», vara «akut» (v)
@@ -8863,6 +9240,7 @@ tlh:	{paw'} (2)
 sv:	«skallas», «stångas» (panna mot panna) (v) (slang)
 en:	<butt «head»s> (v) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{pay}
 sv:	«ångra» (v)
@@ -8906,6 +9284,7 @@ tlh:	{pa'} (3)
 sv:	«inhägnat område» (s) (slang)
 en:	<enclosed area> (n) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{pa' beb}
 sv:	inner«tak» (i ett rum högst upp en byggnad eller konstruktion) (s)
@@ -8925,6 +9304,7 @@ tlh:	{peb'ot}
 sv:	ett slags «frukt» (s)
 en:	type of <fruit> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{peD}
 sv:	«snöa» (v)
@@ -8978,6 +9358,7 @@ tlh:	{pel'aQ}
 sv:	«skal» (på ett egg) (s)
 en:	<shell> (of an egg) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{pem}
 sv:	«dag», «dagtid» (s)
@@ -8999,6 +9380,7 @@ en:	<torpedo>, «missile» (n)
 def:	[TKD; KGT p.56]
 see:	{cha} is the plural form
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{pep}
 sv:	«höja» (v)
@@ -9038,6 +9420,7 @@ sv:	«kodnamn» (s)
 en:	<code name> (n)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{petaQ}
 sv:	(«epitet») (interj)
@@ -9063,6 +9446,7 @@ sv:	«styckings«kniv»» (s)
 en:	«cutting <knife>» (n)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{pe'vIl}
 sv:	«kraftfullt», med kraft (adv)
@@ -9076,6 +9460,7 @@ sv:	«räkna» poäng (v)
 en:	keep <score> (v)
 def:	[KGT]
 ref:	[TKW p.135]
+file:	1997-11-01-kgt.txt
 
 tlh:	{pIch}
 sv:	«skylla på» (v)
@@ -9094,6 +9479,7 @@ tlh:	{pID}
 sv:	«bestryka», «täcka» (mat) med örtkryddad blandning (v)
 en:	<coat> (food) with herbed mixture (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{pIgh}
 sv:	«ruiner» (s)
@@ -9120,22 +9506,26 @@ en:	<often>, <frequently> (adv)
 def:	[TKD; KGT]
 ref:	[TKW p.167]
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{pIjHa'}
 sv:	«sällan» (adv)
 en:	<seldom>, <infrequently> (adv)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{pIl}
 sv:	vara «stimulerad», vara «inspirerad», vara «motiverad» (v)
 en:	be <stimulated>, be <inspired>, be motivated (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{pIlmoH}
 sv:	«stimulera», «inspirera», «motivera» (v)
 en:	<stimulate>, <inspire>, <motivate> (v)
 def:	[KGT]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{pIm}
 sv:	vara «annorlunda», vara «olika» (v)
@@ -9155,6 +9545,7 @@ tlh:	{pIn} (2)
 sv:	«expert», «auktoritet» (s) (slang)
 en:	<expert>, <authority> (n) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{pIn tlhoy'}
 sv:	territorial«mur» (t.ex. Berlinmuren) (s)
@@ -9340,6 +9731,7 @@ sv:	«slänga» bort (v)
 en:	<discard> (v)
 def:	[KGT]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{pom}
 sv:	«dysenteri», «rödsot» (s)
@@ -9394,6 +9786,7 @@ tlh:	{por}
 sv:	«löv», «blad» (s)
 en:	<leaf> (of a plant) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{porgh}
 sv:	«kropp» (s)
@@ -9605,6 +9998,7 @@ sv:	«barnspråk» (s)
 en:	«baby talk» (chilren's language) (n)
 def:	[KGT p.34]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{puqloD}
 sv:	«son» (s)
@@ -9643,6 +10037,7 @@ def:	[KGT]
 ref:	[TKW p.155]
 cat:	family
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{puQ}
 sv:	vara «utled», vara «uttråkad» (v)
@@ -9707,6 +10102,7 @@ sv:	«phaser-gevär» (s)
 en:	«phaser rifle» (n)
 def:	[KGT p.56]
 com:	WARNING - Probably {pu'beH} misspelled.
+file:	1997-11-01-kgt.txt
 
 tlh:	{pu'beq}
 sv:	«phaser-manskap» (s)
@@ -9770,6 +10166,7 @@ sv:	«motsätta» sig, «motarbeta», «bekämpa», «konfrontera»,
 	«bemöta» (v)
 en:	<resist>, <oppose>, <confront>, <face> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{qaD} (1)
 sv:	«utmaning» (s)
@@ -9781,6 +10178,7 @@ tlh:	{qaD} (2)
 sv:	«test» av ens förmågor (s)
 en:	<test> of one's abilities (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{qagh}
 sv:	«avbryta», «hålla upp» (v)
@@ -9820,6 +10218,7 @@ sv:	«mod», «tapperhet», «djärvhet» (s)
 en:	<courage>, <audacity> (n)
 def:	[KGT]
 com:	STE: "kajanpak't. Klingon word for courage. ('Blood Oath' [DS9])"
+file:	1997-11-01-kgt.txt
 
 tlh:	{qal}
 sv:	vara «korrupt» (v)
@@ -9854,6 +10253,7 @@ tlh:	{qamor}
 sv:	«Kahmor» (namn)
 en:	«Kahmor» (name)
 def:	[KGT p.198]
+file:	1997-11-01-kgt.txt
 
 tlh:	{qan} (1)
 sv:	vara «gammal» (inte ung) (v)
@@ -9886,11 +10286,13 @@ en:	<agree> with routinely, always agree with, always cooperate with,
 	<cooperate> with routinely (v) (slang)
 def:	[KGT]
 com:	Entries differ and have been combined here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{qang} (2)
 sv:	«hälla» (från en behållare till en annan) (v)
 en:	<pour> (from one container into another) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{qap}
 sv:	«insistera» (v)
@@ -9914,11 +10316,13 @@ tlh:	{qarDaS}
 sv:	«Cardassia» (s)
 en:	<Cardassia> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{qarDaSngan}
 sv:	«cardassian» (person) (s)
 en:	<Cardassian> (person) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{qarghan}
 sv:	«Kargan» (namn)
@@ -9939,12 +10343,14 @@ sv:	«svepa in», «omsvepa», «innesluta» (v)
 en:	«wrap», <encase> (v)
 def:	[TKD K-E; KGT]
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{qat} (2)
 sv:	«ackompanjera» (sång) med instrumental musik (v)
 en:	<accompany> (singing) with instrumental music (v)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{qatlh}
 sv:	«varför»? (fråg)
@@ -10006,6 +10412,7 @@ sv:	«ande» (s)
 en:	<spirit> (n)
 def:	[KGT]
 ref:	[TKW pp.7, 145, 147]
+file:	1997-11-01-kgt.txt
 
 tlh:	{qa'meH}
 sv:	«ersättning» (permanent) (s)
@@ -10015,6 +10422,7 @@ com:	HQ: "...something that takes over for or is used instead of
 	something that is gone or that has been lost. It is not used
 	for a temporary substitute or stand-in; the word for that is
 	{lIw}."
+file:	1997-11-01-kgt.txt
 
 tlh:	{qa'meH vIttlhegh}
 sv:	«ersättningsordspråk» (s)
@@ -10051,6 +10459,7 @@ sv:	«käpp-och-tunnbands-övning», «~qa'vak~» (traditionell lek) (s)
 en:	«hoop-and-stick maneuver», «~qa'vak~» (traditional game) (n)
 def:	[KGT]
 ref:	[TKW p.199]
+file:	1997-11-01-kgt.txt
 
 tlh:	{qa'vIn}
 sv:	«kaffe», ett slags «dryck» (s)
@@ -10058,12 +10467,14 @@ en:	<coffee>, type of <beverage> (n)
 def:	[KGT]
 com:	Entries differ and have been combined here.
 pun:	Probably intended as a word borrowed from English.
+file:	1997-11-01-kgt.txt
 
 tlh:	{qeb}
 sv:	«klämma» (på ett säckpipeinstrument) (v)
 en:	<squeeze> (windbag instrument) (v)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{qech}
 sv:	«idé» (s)
@@ -10082,6 +10493,7 @@ tlh:	{qegh}
 sv:	«fat», «tunna» (för lagring av vätska) (s)
 en:	<vat>, <barrel> (for storage of liquor) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{qeH}
 sv:	«förnärmad», «stött», «kränkt» (v)
@@ -10192,6 +10604,7 @@ tlh:	{qettlhup}
 sv:	ett slags «sås» (s)
 en:	type of <sauce> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{qetlh}
 sv:	vara «tråkig», vara «ointressant» (v)
@@ -10228,6 +10641,7 @@ def:	[TKD; KGT]
 cat:	body part
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{qew}
 sv:	¿?«använda» «ring«fingret»» (v)
@@ -10252,6 +10666,7 @@ sv:	«Kahless svärd» (s)
 en:	<Sword of Kahless> (n)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{qeylIS mInDu'}
 sv:	«Kahless ögon» (gissningslek) (s)
@@ -10283,12 +10698,14 @@ sv:	«skämta», berätta ett skämt (v)
 en:	<joke>, make a joke, tell a joke (v)
 def:	[KGT]
 pun:	{qID} pronunced as English "kid".
+file:	1997-11-01-kgt.txt
 
 tlh:	{qID}
 sv:	«skämt» (s)
 en:	<joke> (n)
 def:	[KGT]
 pun:	{qID} pronunced similar to English "kid" as in "Are you kidding?"
+file:	1997-11-01-kgt.txt
 
 tlh:	{qIgh}
 sv:	«genväg» (s)
@@ -10333,6 +10750,7 @@ tlh:	{qImlaq}
 sv:	«K'mlak» (namn)
 en:	«K'mlak» (name)
 def:	[KGT p.53]
+file:	1997-11-01-kgt.txt
 
 tlh:	{qIp}
 sv:	«slå» (med hand eller sak) (v)
@@ -10365,6 +10783,7 @@ tlh:	{qItI'nga'}
 sv:	«~K'Tinga~-klass» (av farkost) (s)
 en:	<~K'Tinga~ class> (vessel) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{qIv}
 sv:	«knä» (s)
@@ -10380,11 +10799,13 @@ en:	<body part> (not further identified) (n)
 def:	[KGT]
 ref:	[TKW p.174]
 cat:	body part
+file:	1997-11-01-kgt.txt
 
 tlh:	{qIvo'rIt}
 sv:	«~K'Vort~-klass» (av farkost) (s)
 en:	<~K'Vort~ class> (vessel) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{qI'}
 sv:	«skriva» på, «underteckna» (ett avtal) (v)
@@ -10408,6 +10829,7 @@ sv:	«insida» (s)
 en:	<inside>, <interior> (n)
 def:	[KGT]
 cat:	locative
+file:	1997-11-01-kgt.txt
 
 tlh:	{qogh} (1)
 sv:	«bälte» (s)
@@ -10421,6 +10843,7 @@ en:	<ear> (external, cartilaginous flap) (n)
 def:	[KGT]
 see:	{teS} "ear (internal, organ of hearing)" (n); {Serrum} earwax (n)
 cat:	body part
+file:	1997-11-01-kgt.txt
 
 tlh:	{qoH}
 sv:	«dåre», «fåne», «tok», «idiot» (s)
@@ -10464,6 +10887,7 @@ en:	type of <food> (n)
 def:	[KGT]
 pun:	"Compost" it probably looks like one too (with all mashed up pieces
 	of food).
+file:	1997-11-01-kgt.txt
 
 tlh:	{qon} (1)
 sv:	«nedteckna», «spela in» (all slags inspelning och skrift) (v)
@@ -10475,6 +10899,7 @@ tlh:	{qon} (2)
 sv:	«komponera» (v)
 en:	<compose> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{qonwI'}
 sv:	«sångförfattare», «låtskrivare» (s)
@@ -10482,6 +10907,7 @@ en:	«songwriter», «composer» (n)
 def:	[KGT p.71]
 cat:	music
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{qop}
 sv:	«arrestera» (v)
@@ -10541,6 +10967,7 @@ tlh:	{qotlh} (2)
 sv:	¿?«förtjäna», vara «värd», «rättfärdiga», «försvara» (v)
 en:	<deserve>, <warrant> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{qoy'}
 sv:	«be om», «böna» för, «tigga» om (v)
@@ -10565,6 +10992,7 @@ tlh:	{qo'leq}
 sv:	«Ko'lek» (namn)
 en:	«Ko'lek» (name)
 def:	[KGT p.41]
+file:	1997-11-01-kgt.txt
 
 tlh:	{qub}
 sv:	vara «sällsynt» (v)
@@ -10582,6 +11010,7 @@ tlh:	{quD}
 sv:	ett slags «sås» (s)
 en:	type of <sauce> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{qugh}
 sv:	«kryssa», «färdas» med vanlig hastighet (v)
@@ -10604,6 +11033,7 @@ tlh:	{quH}
 sv:	«arv», «arvedel» (s)
 en:	<heritage> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{quHvaj}
 sv:	«mjäll» (s)
@@ -10624,6 +11054,7 @@ sv:	«elddansare», «elddansös» (s)
 en:	<fire dancer> (n)
 def:	[KGT]
 data:	phrase; derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{qul tuq}
 sv:	"«Eldssläktet»" (en opera) (namn)
@@ -10702,6 +11133,7 @@ tlh:	{qurgh}
 sv:	«böna», «bönor» (s)
 en:	<bean>, beans (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{quS}
 sv:	«stol» (s)
@@ -10727,11 +11159,13 @@ sv:	«~Kut'luch~-ceremoni» (s)
 en:	«~Kut'luch~ ceremony» (n)
 def:	[KGT p.62]
 data:	phrase; derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{qutlh}
 sv:	vara «billig» (v)
 en:	be <cheap> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{quv}
 sv:	vara «ärad», vara «hedrad» (v)
@@ -10766,12 +11200,14 @@ en:	be <dishonored> (v)
 def:	[KGT]
 ref:	[TKW p.155]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{quvHa'ghach}
 sv:	«vanära», «skam» (s)
 en:	<dishonor> (n)
 def:	[KGT]
 ref:	[TKW p.155; HQ12:3 p.9]
+file:	1997-11-01-kgt.txt
 
 tlh:	{quvHa'moH}
 sv:	«vanära», «vanhedra» (v)
@@ -10806,6 +11242,7 @@ en:	be <great>, be <wonderful>, be <excellent>, be <splendid>, be <good>
 	(v) (slang)
 def:	[KGT]
 com:	Entries differ and have been combined here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{Qab}
 sv:	«teragen» (s)
@@ -10818,6 +11255,7 @@ tlh:	{Qach}
 sv:	«svinga», «använda» (ett vapen) (v)
 en:	<wield>, <swing> (a weapon) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{QaD} (1)
 sv:	vara «torr», vara «uttorkad» (v)
@@ -10825,11 +11263,13 @@ en:	be <dry>, be <dried> out (v)
 def:	[TKD; KGT]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{QaD} (2)
 sv:	vara «säker», vara «skyddad» (v) (slang)
 en:	be <safe>, be <protected> (v) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Qagh}
 sv:	ha «fel», ta fel, «misstaga» sig, göra ett misstag (v)
@@ -10862,12 +11302,14 @@ tlh:	{Qaj}
 sv:	ett slags «djur», «~kradge~» (s)
 en:	type of <animal>, <~kradge~> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Qaj tlhuQ}
 sv:	en slags «mat», «~kradge~-svans» (s)
 en:	type of <food>, «~kradge~ tail» (n)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{Qam}
 sv:	«stå» (upp) (v)
@@ -10897,6 +11339,7 @@ def:	[TKD; KGT]
 ref:	[TKW pp.56, 73, 175, 183, 209, 211]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{Qap} (2)
 sv:	«vinna» (en tävlan) (v)
@@ -10907,6 +11350,7 @@ com:	HQ: "To win" a competition is {Qap}. (If it's a decisive or
 	though that's a bit redundant.) In TKD, {Qap} is translated
 	as "succeed, work, function". To a Klingon, to win is to
 	function perfectly.
+file:	1997-11-01-kgt.txt
 
 tlh:	{Qapla'}
 sv:	«framgång» (s)
@@ -10970,6 +11414,7 @@ tlh:	{Qatlh} (2)
 sv:	vara «komplex», vara «komplicerad» (v)
 en:	be <complex> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Qav}
 sv:	vara «sist», vara «slutgiltig» (v)
@@ -11040,12 +11485,14 @@ com:	The {Qa'Hom}, an animal similar to a {Qa'} but smaller, has been
 	confused with a bird by some; Maltz does not know why, especially
 	since it is the {jajlo' Qa'}, not the {Qa'Hom}, that makes a fuss
 	in the morning like the {'uSgheb} does. [HQ10:4 p.5]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Qa'raj}
 sv:	ett slags «djur», «~ka'raj~» (s)
 en:	type of <animal>, <~ka'raj~> (n)
 def:	[KGT]
 com:	Entries differ and have been combined here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{Qeb} (1)
 sv:	«ring» (för finger) (s)
@@ -11057,6 +11504,7 @@ tlh:	{Qeb} (2)
 sv:	«hästsvanshållare» (s) (slang)
 en:	<ponytail holder> (n) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{QeD}
 sv:	«vetenskap» (s)
@@ -11104,6 +11552,7 @@ sv:	mald, torkad «blandning» för tétillagning, «téblandning» (s)
 en:	ground-up, dried-up <mixture> for brewing tea, <tea-brewing mixture> (n)
 def:	[KGT]
 com:	Entries differ and have been combined here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{Qep'It}
 sv:	«gas» alstrad inuti kroppen («rap», «fis» etc.) (n)
@@ -11117,11 +11566,13 @@ sv:	«rikta», «sikta» (med sikte) (v)
 en:	<aim> (v)
 def:	[KGT]
 ref:	[TKW p.191]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Qev}
 sv:	«stuva» (v)
 en:	<stew> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Qey}
 sv:	vara «åtsittande», vara «fastsittande», vara «tät» (v)
@@ -11193,6 +11644,7 @@ tlh:	{QIH} (2)
 sv:	göra «orätt» (mot), behandla «oschyst» (v)
 en:	<wrong>, <treat unjustly> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{QIH}
 sv:	«skada», «förstörelse» (s)
@@ -11211,11 +11663,13 @@ tlh:	{QIm}
 sv:	«ägg» (s)
 en:	<egg> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{QIn} (1)
 sv:	«meddelande» (s)
 en:	<message> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{QIn} (2)
 sv:	«vass spets» (t.ex. på penna), «spjut«spets»» (s)
@@ -11226,18 +11680,21 @@ com:	"When shown a pencil, Maltz said that the sharp end could be called a
 	{QIn}, but if the pencil were new and did not yet have a point, the
 	ready-to-be-sharpened end would be a {megh'an} or {'er'In}." [HQ12:2
 	p.7]
+file:	1997-11-01-kgt.txt
 
 tlh:	{QIn pup}
 sv:	slät «spjutspets» (med en enda vass spets) (s)
 en:	plain «spearhead» (with single sharp point) (n)
 def:	[KGT p.64]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{QIn vagh}
 sv:	«spjutspets» (med flera spetsar) (s)
 en:	«spearhead» (with multiple points) (n)
 def:	[KGT p.64]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{QIp}
 sv:	vara «dum», vara «korkad» (v)
@@ -11251,6 +11708,7 @@ sv:	vågbladig «kniv» (s)
 en:	wavy-bladed <knife> (n)
 def:	[KGT]
 pun:	There is a type of wavy-bladed knife called "kris", or "creese".
+file:	1997-11-01-kgt.txt
 
 tlh:	{QIt}
 sv:	«långsamt» (adv)
@@ -11350,12 +11808,14 @@ tlh:	{QoghIj}
 sv:	«hjärna» (organ) (s)
 en:	<brain> (organ) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Qoj}
 sv:	starta «krig» (v)
 en:	make <war> (v)
 def:	[TKD K-E; KGT]
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{Qol}
 sv:	«stråla» bort, «beama» iväg (v)
@@ -11374,6 +11834,7 @@ tlh:	{Qom} (2)
 sv:	vara «riskfylld», vara «riskabel», vara «förrädisk», vara «opålitlig» (v) (slang)
 en:	be <hazardous>, be <perilous>, be <treacherous> (v) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Qompu'}
 sv:	vara «farlig», vara «förrädisk», vara «opålitlig» (v)
@@ -11382,6 +11843,7 @@ def:	[KGT p.163]
 ref:	[TDNW]
 gram:	{Qompu' Duj} ~the ship is hazardous/has been left in a hazardous
 	condition~ (lit. ~the ship has experienced a tremor~)
+file:	1997-11-01-kgt.txt
 
 tlh:	{QonoS}
 sv:	«journal», «logg» (s)
@@ -11402,6 +11864,7 @@ sv:	«säng» (s)
 en:	<bed> (n)
 def:	[KGT]
 ref:	[TKW p.40]
+file:	1997-11-01-kgt.txt
 
 tlh:	{QongDaq buq}
 sv:	«kudde», «sängpåse» (s)
@@ -11415,11 +11878,13 @@ sv:	vara «utsliten» (v)
 en:	be <worn> out (v)
 def:	[TKD K-E; KGT]
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{Qop} (2)
 sv:	vara «död» (om mat) (v) (slang)
 en:	be <dead> (referring to food) (v) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{QopmoH}
 sv:	«slita ut» (v)
@@ -11433,6 +11898,7 @@ sv:	«musik» (s)
 en:	<music> (n)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{QoQ jan}
 sv:	«musik«instrument»» (s)
@@ -11440,12 +11906,14 @@ en:	«musical «instrument»» (n)
 def:	[KGT p.74]
 cat:	music
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{Qor}
 sv:	«slåss», «strida» (väldigt litet slagsmål) (v)
 en:	<fight>, <battle> (very minor fight) (v)
 def:	[KGT]
 com:	Entries differ somewhat in source. The K-E version is used here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{Qorgh}
 sv:	«ta hand om», «bry sig om» (v)
@@ -11458,6 +11926,7 @@ tlh:	{Qorwagh}
 sv:	«fönster» (s)
 en:	<window> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{QoS}
 sv:	vara «ledsen» (v)
@@ -11476,12 +11945,14 @@ tlh:	{Qotmagh}
 sv:	«Krotmag» (namn)
 en:	«Krotmag» (name)
 def:	[KGT p.17]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Qotmagh Sep}
 sv:	«Krotmag-regionen» (s)
 en:	«Krotmag region» (n)
 def:	[KGT p.17]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{Qotlh}
 sv:	«odugliggöra», «invalidisera» (v)
@@ -11701,11 +12172,13 @@ en:	<decay>, <rust>, <corrode> (v)
 def:	[TKD; KGT]
 ref:	[TKW p.101]
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{raHta'}
 sv:	en slags «mat», «~racht~» (s)
 en:	type of <food>, «~racht~» (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ral}
 sv:	vara «våldsam» (v)
@@ -11721,6 +12194,7 @@ ref:	[TKW p.143]
 com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{ram}
 sv:	«natt» (s)
@@ -11749,6 +12223,7 @@ tlh:	{raQ}
 sv:	«hantera» för hand, «handha» (v)
 en:	<manipulate> by hand, <handle> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{raQ}
 sv:	«läger» (militär term) (s)
@@ -11773,6 +12248,7 @@ tlh:	{raS}
 sv:	«bord» (s)
 en:	<table> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ratlh}
 sv:	stanna «kvar», finnas kvar, «återstå», «ha» kvar (v)
@@ -11829,6 +12305,7 @@ sv:	«kaffe» med «sprit» i, ett slags «dryck» (s)
 en:	<coffee> with «liquor», type of <beverage> (n)
 def:	[KGT]
 com:	Entries differ and have been combined here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{ra'wI'}
 sv:	«befälhavare» (person som ger order) (s)
@@ -11856,6 +12333,7 @@ sv:	«blöda» (v)
 en:	<bleed> (v)
 def:	[KGT]
 ref:	[TKW p.131]
+file:	1997-11-01-kgt.txt
 
 tlh:	{reghuluS}
 sv:	«Regulus» (s)
@@ -11916,6 +12394,7 @@ tlh:	{ret'aq}
 sv:	«skaft», «handtag» (på kniv, ~bat'leth~) (s)
 en:	<handle>, <hilt> (of knife, ~bat'leth~) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{retlh}
 sv:	område «brevid», område «intill» (s)
@@ -11936,6 +12415,7 @@ sv:	«trycka» ihop och sträcka ut (säckpipeinstrument) (v)
 en:	<squeeze> and stretch out (windbag instrument) (v)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{rIgh}
 sv:	vara «lam» (v)
@@ -12012,12 +12492,14 @@ tlh:	{rItlh}
 sv:	«pigment», «färg» (s)
 en:	<pigment>, <paint>, <dye> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{rItlh naQ}
 sv:	«pigment«pinne»» (s)
 en:	<pigment «stick»> (n)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{rIvSo'}
 sv:	«ambasad» (s)
@@ -12054,17 +12536,20 @@ tlh:	{roD}
 sv:	«vanligtvis», «brukar», «vanemässigt», «regelbundet» (adv)
 en:	<customarily>, <habitually>, <regularly> (adv)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{rogh}
 sv:	«jäsa» (v)
 en:	<ferment> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{roghmoH}
 sv:	få att «jäsa», bringa i jäsning (v)
 en:	<cause to «ferment»> (v)
 def:	[KGT]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{roghvaH}
 sv:	«befolkning» (s)
@@ -12172,6 +12657,7 @@ tlh:	{roS}
 sv:	«slicka» (v)
 en:	<lick> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{roS}
 sv:	«använda» «tredje«tå»n» (v) (arkaiskt)
@@ -12183,6 +12669,7 @@ tlh:	{roSHa'moH}
 sv:	«paralysera» (v)
 en:	<paralyze> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{roSwI'}
 sv:	«tredje«tå»» (s)
@@ -12226,11 +12713,13 @@ tlh:	{run}
 sv:	vara «kort» (kroppslängd) (v)
 en:	be <short> (in stature) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{runpI'}
 sv:	«tékanna» (s)
 en:	<teapot> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{rup}
 sv:	«bötfälla», «beskatta», «taxera» (v)
@@ -12249,11 +12738,13 @@ tlh:	{ruq'e'vet}
 sv:	«Ruk'evet» (stad i Gevchok-regionen) (s)
 en:	«Ruk'evet» (city in Gevchok region) (n)
 def:	[KGT pp.17, 30]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ruq'e'vet}
 sv:	«Ruk'evet» (namn)
 en:	«Ruk'evet» (name)
 def:	[KGT p.17]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ruQ}
 sv:	kontrollera «manuellt», för hand (v)
@@ -12290,6 +12781,7 @@ def:	[TKD; KGT]
 ref:	[TKW p.184]
 cat:	time
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{rutlh}
 sv:	«hjul» (s)
@@ -12314,6 +12806,7 @@ sv:	vara «permanent» (v)
 en:	be <permanent> (v)
 def:	[KGT]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{Sab}
 sv:	«gå utför», «försämras», «förfalla» (v)
@@ -12453,6 +12946,7 @@ en:	type of <animal>, <~sark~> (n)
 def:	[KGT]
 com:	Entries differ and have been combined here. Mentioned in TNG episode
 	"Pen Pals", as "a Klingon Sark"---a riding animal (similar to a horse).
+file:	1997-11-01-kgt.txt
 
 tlh:	{SaS} (1)
 sv:	vara «horisontell» (v)
@@ -12465,11 +12959,13 @@ tlh:	{SaS} (2)
 sv:	vara «ytlig», vara «okritisk» (v) (slang)
 en:	be <shallow>, be <superficial>, be <uncritical> (v) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{SaS} (3)
 sv:	vara «oturlig», vara «icke-bra» (v) (slang)
 en:	be <unfortunate>, be <not good> (v) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Satlh}
 sv:	«jordbruk», «agrikultur» (s)
@@ -12490,6 +12986,7 @@ tlh:	{Saw'}
 sv:	«ha» ett «djup» av (v)
 en:	<have> a <depth of> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Say}
 sv:	namn på klingonskans {S}-ljud (s)
@@ -12535,16 +13032,19 @@ sv:	«Sakrej-regionen» (s)
 en:	«Sakrej region» (n)
 def:	[KGT pp.17, 24]
 data:	phrase; {Sa'Qej} (n)
+file:	1997-11-01-kgt.txt
 
 tlh:	{Sech}
 sv:	«fackla», handhållen «lampa» (s)
 en:	<torch> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{SeDveq}
 sv:	«spjutspets» med hullingar (s)
 en:	barbed <spearhead> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Segh}
 sv:	«ras», «art» (typ, slag, sort, klass) (s)
@@ -12609,11 +13109,13 @@ sv:	«region», «område», «land» (s)
 en:	<region>, «country» (n)
 def:	[TKD; KGT p.16]
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{Separ}
 sv:	ett slags «ädelsten», «~separ~» (s)
 en:	type of <gemstone>, «~separ~» (n)
 def:	[KGT p.127 et al.]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Seq}
 sv:	«förkastning» (s)
@@ -12625,6 +13127,7 @@ tlh:	{SeQ}
 sv:	vara «formell», vara «rituell», vara «ceremoniell» (v)
 en:	be <formal>, be <ritualistic>, be <ceremonial> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Ser}
 sv:	«framsteg» (s)
@@ -12740,11 +13243,13 @@ sv:	vara «insiktsfull», vara «smart», vara «klipsk», vara «skarpsinnig»
 	(v) (slang)
 en:	be <insightful>, be <clever> (v) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{SIjwI'}
 sv:	ett slags «kniv» (används vid matberedning) (s)
 en:	type of <knife> (used for food preparation) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{SIm}
 sv:	«beräkna», «räkna», «kalkylera» (v)
@@ -12784,11 +13289,13 @@ tlh:	{SIQwI'}
 sv:	«celebrant», «mottagare» (s)
 en:	<celebrant>, <recipient> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{SIrgh}
 sv:	«snöre», «tråd», «sträng», «snodd», «fiber» (s)
 en:	<string>, <thread>, <filament> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{SIS}
 sv:	«regna» (v)
@@ -12810,6 +13317,7 @@ sv:	sjunde «tonen» på den nonatoniska skalan (s)
 en:	seventh <tone> of nonatonic musical scale (n)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{Soch}
 sv:	«sju» (räkn)
@@ -12874,6 +13382,7 @@ sv:	¿?fin «kokonst», sällsynt mat (s)
 en:	<haute cuisine> (n)
 def:	[KGT p.84]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{Sol}
 sv:	«gräla» (v)
@@ -12917,6 +13426,7 @@ tlh:	{SopwI'pa'}
 sv:	«mäss», «matsal» (s)
 en:	<mess hall> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{SoQ}
 sv:	vara «stängd» (v)
@@ -12958,6 +13468,7 @@ sv:	«skog» (s)
 en:	<wood> (n)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{Sor Hap 'In}
 sv:	«slag«instrument»» gjort i trä (s)
@@ -12965,11 +13476,13 @@ en:	«percussion «instrument»» made of wood (n)
 def:	[KGT p.75]
 cat:	music
 data:	phrase; derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{Sorya'}
 sv:	«Sauria» (s)
 en:	<Sauria> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{SoS}
 sv:	«mor», «moder» (s)
@@ -13061,17 +13574,20 @@ en:	be <brave>, be <heroic>, be <bold>, be <valiant>, be <intrepid> (v)
 	(slang)
 def:	[KGT]
 com:	Entries differ in source. The K-E entry is used here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{Sub}
 sv:	«hjälte» (s)
 en:	<hero> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Subpu' vaS}
 sv:	«Hjältarnas sal» (s)
 en:	«Hall of Heroes» (n)
 def:	[KGT p.79]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{Such}
 sv:	«besöka» (v)
@@ -13118,6 +13634,7 @@ sv:	vara «nära», vara i «närheten» (v)
 en:	be <near>, be nearby (v)
 def:	[KGT]
 cat:	locative
+file:	1997-11-01-kgt.txt
 
 tlh:	{Sun}
 sv:	«ordning», «tukt», «disciplin», «lydnad» (s)
@@ -13149,6 +13666,7 @@ sv:	ett slags sträng«instrument» (s)
 en:	type of stringed <instrument> (n)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{Suq}
 sv:	«förvärva», «skaffa» (sig), «få», «erhålla», «få tag i» (v)
@@ -13165,6 +13683,7 @@ tlh:	{Suqqa'}
 sv:	«bereda» «~qud~» på ett särskilt sätt (v)
 en:	<prepare> «~qud~» in a specific way (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{SuQ}
 sv:	vara «giftig» (v)
@@ -13189,6 +13708,7 @@ sv:	«blåsa» (i blåsinstrument) för att producera ljud (v)
 en:	<blow> (into wind instrument) to produce sound (v)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{SuS}
 sv:	«vind», «bris» (s)
@@ -13203,6 +13723,7 @@ tlh:	{SuSDeq}
 sv:	«vindsäck», «bälg», «blåsbälg» (s)
 en:	<windbag>, <bellows> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Sut}
 sv:	«kläder», «beklädnad» (s)
@@ -13240,6 +13761,7 @@ tlh:	{Suvchu'}
 sv:	«slåss» på liv och död (v)
 en:	«fight» to the death (v)
 def:	[KGT p.49]
+file:	1997-11-01-kgt.txt
 
 tlh:	{SuvwI'}
 sv:	«krigare» (s)
@@ -13267,6 +13789,7 @@ tlh:	{Suy'}
 sv:	ett slags «djur», «~shooy~» (s)
 en:	type of <animal>, <~shooy~> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{Su'}
 sv:	var «redo»!, jag är «beredd»! (interj)
@@ -13278,6 +13801,7 @@ tlh:	{Su'lop}
 sv:	en slags «mat» (s)
 en:	type of <food> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{ta}
 sv:	«dokument», «inspelning», «förteckning» (s)
@@ -13343,6 +13867,7 @@ en:	<continue>, «go» on, <endure>, <survive> (v)
 def:	[TKDa; KGT]
 ref:	[TKW pp.11, 147]
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{taHqeq}
 sv:	(«epitet») (interj)
@@ -13364,11 +13889,13 @@ tlh:	{tajHommey}
 sv:	små infällbara «blad» på en «~d'k tahg~» kniv (s)
 en:	retractable small «blade»s on a «~d'k tahg~» knife (n)
 def:	[KGT p.61]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tajtIq}
 sv:	ett slags «kniv» (s)
 en:	type of <knife> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tal}
 sv:	«kanon» (s)
@@ -13379,6 +13906,7 @@ tlh:	{talarngan}
 sv:	«talarit» (person) (s)
 en:	<Talarian> (person) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tam} (1)
 sv:	vara «tyst» (v)
@@ -13411,11 +13939,13 @@ tlh:	{tap}
 sv:	«mosa», «krossa» (v)
 en:	<mash>, <squash> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{taq'ev}
 sv:	«Tak'ev» (stad eller region) (s)
 en:	«Tak'ev» (city or region) (n)
 def:	[KGT p.22]
+file:	1997-11-01-kgt.txt
 
 tlh:	{taQ}
 sv:	vara «konstig», vara «knäpp» (v)
@@ -13524,6 +14054,7 @@ def:	[TKD; KGT]
 ref:	[TKW p.15]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{ta'} (2)
 sv:	«kejsare» (s)
@@ -13536,12 +14067,14 @@ sv:	«standarddialekt» (s)
 en:	<standard dialect> (n)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{ta' tlhIngan Hol}
 sv:	«standarddialekt» (s)
 en:	«standard dialect» (n)
 def:	[KGT p.15]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{teb}
 sv:	«fylla» (v)
@@ -13560,11 +14093,13 @@ tlh:	{tebwI'}
 sv:	«servitris»/«servitör» i en «~Dok'e~» (snabbmatsservering) (s)
 en:	<food <server>> in a «~Dok'e~» (fast-food restaurant) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{teghbat}
 sv:	ett slags «djur», «~teg'bat~» (s)
 en:	type of <animal>, «~teg'bat~» (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{teH}
 sv:	vara «sann», vara «äkta» (v)
@@ -13667,6 +14202,7 @@ en:	<ear> (internal, organ of hearing) (n)
 def:	[KGT]
 see:	{qogh} "ear (external, cartilaginous flap)" (n); {Serrum} earwax (n)
 cat:	body part
+file:	1997-11-01-kgt.txt
 
 tlh:	{tet}
 sv:	«smälta» (v)
@@ -13680,6 +14216,7 @@ sv:	«förteckning», «lista», «rulla», «register», «skrivelse» (s)
 en:	<roll>, <scroll>, <list> (n)
 def:	[KGT]
 see:	{natlIS}
+file:	1997-11-01-kgt.txt
 
 tlh:	{tev}
 sv:	«pris», «trofé» (s)
@@ -13691,12 +14228,14 @@ tlh:	{tey}
 sv:	«skrapa bort», «hyvla» (v)
 en:	<scrape> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{teywI'}
 sv:	«fil», «rasp» (s)
 en:	<file> (n)
 def:	[KGT]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{tey'}
 sv:	«anförtro» (v)
@@ -13752,6 +14291,7 @@ com:	WARNING - DON'T USE THIS WORD. It is a typo for {bIt} (maHvatlh:
 	confirmed as unintentional by MO at {qep'a' SochDIch} [2000]).
 see:	{jotHa'}; {bIt} (correct form)
 data:	mistaken form
+file:	1997-11-01-kgt.txt
 
 tlh:	{tIch}
 sv:	«förolämpa» (v)
@@ -13778,6 +14318,7 @@ tlh:	{tIH} (2)
 sv:	«skaft» (på spjut) (s)
 en:	<shaft> (of spear) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tIj}
 sv:	«borda», «gå ombord» (v)
@@ -13826,6 +14367,7 @@ sv:	ett slags sträng«instrument» (s)
 en:	type of stringed <instrument> (n)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{tIq}
 sv:	vara «lång», vara «långsträckt» (om ett föremål) (v)
@@ -13847,6 +14389,7 @@ tlh:	{tIqnagh}
 sv:	ett slags «djur», «~tknag~» (s)
 en:	type of <animal>, «~tknag~» (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tIqnagh lemDu'}
 sv:	en slags «mat», «~tknag~-hovar», (refereras alltid till i
@@ -13906,11 +14449,13 @@ sv:	ett slags «djur», «~tika~ katt» (s)
 en:	type of <animal>, <~tika~ cat> (n)
 def:	[KGT]
 data:	phrase; {tI'qa'} (n)
+file:	1997-11-01-kgt.txt
 
 tlh:	{tI'vIS}
 sv:	«T'vis» (namn)
 en:	«T'vis» (name)
 def:	[KGT p.182]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tob}
 sv:	slutgiltigt «pröva», «testa» (på ett avgörande sätt),
@@ -13981,11 +14526,13 @@ en:	<deceive>, <trick>, <bluff> (v)
 def:	[TKD; KGT]
 ref:	[TKW p.46]
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{tonSaw'}
 sv:	«stridsteknik» (s)
 en:	<fighting technique> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tongDuj}
 sv:	«fraktare», «fraktskepp» (s)
@@ -14004,6 +14551,7 @@ sv:	ett slags «djur», «~topah~» (s)
 en:	type of <animal>, «~topah~» (n)
 def:	[KGT]
 ref:	[KGT p.132]
+file:	1997-11-01-kgt.txt
 
 tlh:	{toq}
 sv:	vara «befolkad» (v)
@@ -14016,6 +14564,7 @@ sv:	¿?ett slags «djur», «Tokvarisk miniödla» (s)
 en:	type of <animal>, <Tokvarian skink> (n)
 def:	[KGT]
 data:	phrase; {toqvIr} (n)
+file:	1997-11-01-kgt.txt
 
 tlh:	{toQ}
 sv:	en slags «fågel» («rovfågel») (s)
@@ -14059,6 +14608,7 @@ tlh:	{tova'Daq}
 sv:	¿?«tankedelning», «medvetandefusion» (att dela medvetande) (s)
 en:	<mind sharing> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{toy'}
 sv:	«tjäna» (en härskare) (v)
@@ -14091,11 +14641,13 @@ tlh:	{to'baj}
 sv:	ett slags «djur», «~tobbaj~» (s)
 en:	type of <animal>, «~tobbaj~» (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{to'waQ}
 sv:	«ligament», «sena» (s)
 en:	<ligament>, <tendon> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tuch}
 sv:	«förbjuda» (v)
@@ -14202,6 +14754,7 @@ en:	<tribe>, <house>, <ancestral unit> (n)
 def:	[KGT]
 ref:	[TKW p.34]
 cat:	family
+file:	1997-11-01-kgt.txt
 
 tlh:	{tuq Degh}
 sv:	«familje«vapen»» (heraldiskt) (s)
@@ -14209,6 +14762,7 @@ en:	<family <crest>> (n)
 def:	[KGT]
 cat:	family
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{tuqnIgh}
 sv:	«familjemedlem», «släktmedlem», «släkting» (s)
@@ -14222,6 +14776,7 @@ sv:	«panna» (s) (regionalt)
 en:	<forehead> (n) (regional)
 def:	[KGT]
 cat:	body part
+file:	1997-11-01-kgt.txt
 
 tlh:	{tuQ}
 sv:	«bära» (kläder) (v)
@@ -14294,11 +14849,13 @@ sv:	«något «odugligt»», «oanvändbar sak» (s)
 en:	<something useless>, <useless thing> (n)
 def:	[KGT]
 com:	Entries differ and have been combined here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{tu'lum}
 sv:	«tékopp» (s) (äldre ord eller överklassord)
 en:	<teacup> (n) (older or upper-class word)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tu'lu'}
 sv:	någon/något «påträffa»r det, «det» «finns» (v)
@@ -14325,17 +14882,20 @@ tlh:	{tlhach}
 sv:	«sekt», «fraktion» (s)
 en:	<sect>, <faction> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlhach mu'mey}
 sv:	«jargong», «fikonspråk» (s)
 en:	«argot», «jargon» (n)
 def:	[KGT p.45]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlhagh}
 sv:	«fett», «djurfett» (s)
 en:	<fat>, «animal fat» (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlham} (1)
 sv:	«gravitation» (s)
@@ -14347,6 +14907,7 @@ tlh:	{tlham} (2)
 sv:	«ordning», «struktur» (på samhälle) (s) (slang)
 en:	<order>, <structure> (societal) (n) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlhap}
 sv:	«ta» (v)
@@ -14380,22 +14941,26 @@ tlh:	{tlhaS}
 sv:	«slåss», «strida» (relativt litet slagsmål) (v)
 en:	<fight>, <battle> (relatively minor fight) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlhatlh}
 sv:	en slags «mat», «~gladst~» (s)
 en:	type of <food>, <~gladst~> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlhaw'}
 sv:	«slå» (på slaginstrument) med knytnäve (v)
 en:	<hit> (percussion instrument) with fist (v)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlhay}
 sv:	«ärm» (s)
 en:	<sleeve> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlhay}
 sv:	namn på klingonskans {tlh}-ljud (s)
@@ -14416,6 +14981,7 @@ tlh:	{tlha'a}
 sv:	«Klaa» (namn)
 en:	«Klaa» (name)
 def:	[KGT pp.52, 198]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlheD}
 sv:	«avresa», «avlägsna» sig (v)
@@ -14451,6 +15017,7 @@ tlh:	{tlher}
 sv:	vara «klimpig», vara full av «klumpar», vara «ojämn» (v)
 en:	be <lumpy> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlhetlh}
 sv:	«utvecklas», «gå framåt», «göra framsteg» (v)
@@ -14463,6 +15030,7 @@ sv:	«spjut» kastat dem hjälp av ett särskilt verktyg (s)
 en:	<spear> thrown with aid of a special tool (n)
 def:	[KGT]
 com:	Entries differ in source. The E-K entry is used here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlhe'}
 sv:	«vända», «svänga», «vrida» (v)
@@ -14525,6 +15093,7 @@ tlh:	{tlhImqaH}
 sv:	en slags «mat», «~zilm'kach~» (s)
 en:	type of <food>, <~zilm'kach~> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlhIngan}
 sv:	«klingon» (s)
@@ -14561,6 +15130,7 @@ sv:	Klingonska «Högsta Rådet» (s)
 en:	Klingon «High Council» (n)
 def:	[KGT p.36]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlhIng yoS}
 sv:	«Kling-distriktet» (s)
@@ -14572,6 +15142,7 @@ tlh:	{tlhIq}
 sv:	«stuvning» (s)
 en:	<stew> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlhIS}
 sv:	«spotta» ut (föremål) (v)
@@ -14582,6 +15153,7 @@ com:	Used when spitting out solid things, possibly accopanied by some
 	saliva. Not used when just spitting saliva, or when spitting out
 	liquid. [HQ12:4 p.9]
 see:	{tuy'} "spit out (liquids)" (v)
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlhIv}
 sv:	vara «olydig», vara «upprorisk» (mot överordnad) (v)
@@ -14625,6 +15197,7 @@ tlh:	{tlhombuS}
 sv:	en slags «mat» (s)
 en:	type of <food> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlhon}
 sv:	«näsborre» (s)
@@ -14645,6 +15218,7 @@ sv:	«framför», område framför (s)
 en:	<front>, area in front of (n)
 def:	[KGT]
 cat:	locative
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlhoQ}
 sv:	«gytter», «samling», «anhopning», «konglomerat» (s)
@@ -14656,18 +15230,21 @@ tlh:	{tlhorgh}
 sv:	vara «besk», vara «skarp» (om smak på mat) (v)
 en:	be <pungent> (referring to food) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlhorghHa'}
 sv:	vara «menlös», vara «mild» (om mat) (v)
 en:	be <bland> (referring to food) (v)
 def:	[KGT]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlhoS}
 sv:	«nästan», så gott som, «inte helt» (adv)
 en:	<almost>, <nearly>, <virtually>, <not quite> (adv)
 def:	[KGT]
 com:	Incorrectly given as verb in E-K, "not quite", adverb everywhere else.
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlhov}
 sv:	«väsa», «rossla» (v)
@@ -14722,6 +15299,7 @@ tlh:	{tlhuD}
 sv:	«avge», «stråla» ut (energi, strålning, etc.) (v)
 en:	<emit> (energy, radiation, etc.) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlhuH} (1)
 sv:	«andas» (v)
@@ -14735,6 +15313,7 @@ tlh:	{tlhuH} (2)
 sv:	vara «upprymd», vara «stimulerad», vara «upplivad» (v) (slang)
 en:	be <exhilarated>, be <stimulated>, be <invigorated> (v) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlhuH}
 sv:	«andedräkt», «andhämtning», «andetag» (s)
@@ -14753,6 +15332,7 @@ sv:	«svans» (s)
 en:	<tail> (n)
 def:	[KGT]
 cat:	body part
+file:	1997-11-01-kgt.txt
 
 tlh:	{tlhutlh}
 sv:	«dricka» (v)
@@ -14791,6 +15371,7 @@ sv:	femte «tonen» på den nonatoniska skalan (s)
 en:	fifth <tone> of nonatonic musical scale (n)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{vagh}
 sv:	«fem» (räkn)
@@ -14811,11 +15392,13 @@ sv:	«hölster», «slida», «knivfodral» (s)
 en:	<holster>, <sheath>, <knife case> (n)
 def:	[TKD; KGT]
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{vaHbo'}
 sv:	«lava» (s)
 en:	<lava> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{vaj}
 sv:	«krigare» (som koncept) (s)
@@ -14888,6 +15471,7 @@ en:	<anthem>, <hymn> (n)
 def:	[KGT]
 cat:	music
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{van'a'}
 sv:	«pris», «belöning» (s)
@@ -14919,6 +15503,7 @@ tlh:	{vaQ} (2)
 sv:	vara «effektiv», vara «energisk», vara «kraftfull» (v)
 en:	be <effective>, be <vigorous> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{vaS}
 sv:	«sal», «mötessal» (s)
@@ -14945,6 +15530,7 @@ sv:	«sekel» (s)
 en:	<century> (n)
 def:	[KGT]
 data:	phrase; {vatlh} (n)
+file:	1997-11-01-kgt.txt
 
 tlh:	{vatlhvI'}
 sv:	«procent» (s)
@@ -14973,6 +15559,7 @@ tlh:	{vay}
 sv:	«slåss», «strida» (mellanstor vildsinthet) (v)
 en:	<fight>, <battle> (midlevel ferocity) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{vay}
 sv:	namn på klingonskans {v}-ljud (s)
@@ -15003,16 +15590,19 @@ tlh:	{veb}
 sv:	vara «nästa», vara «efterföljande» (i ordning, serie) (v)
 en:	be <next> (in a series, sequence) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{veD}
 sv:	«pälshår», «lurv» (s)
 en:	<fur> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{veDDIr}
 sv:	«päls» (skinn där håret lämnats kvar) (s)
 en:	<pelt> (skin with fur still attached) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{vegh}
 sv:	«gå» igenom (en öppen dörr, tunnel etc.) (v)
@@ -15066,12 +15656,14 @@ sv:	«Första Staden» (Kronos huvudstad) (s)
 en:	«First City» (capital of Kronos) (n)
 def:	[KGT pp.10, 17]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{veng wa'DIch Sep}
 sv:	«Första Stads-regionen» (s)
 en:	«First City region» (n)
 def:	[KGT p.16]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{veqlargh}
 sv:	«djävul», «demon», «~Fek'lhr~» (s)
@@ -15098,6 +15690,7 @@ tlh:	{veragh}
 sv:	«nit» (s)
 en:	<rivet> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{verengan}
 sv:	«ferengi» (s)
@@ -15134,6 +15727,7 @@ def:	[TKD; KGT pp.46, 47, 50 et al.]
 see:	{noH}
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{veSDuj}
 sv:	«krigsskepp» (s)
@@ -15162,6 +15756,7 @@ tlh:	{vIghro'}
 sv:	ett slags «djur», «~v'gro~» («katt»lik) (s)
 en:	type of <animal>, «~v'gro~» (like a «cat») (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{vIH}
 sv:	«röra» sig, vara i rörelse (v)
@@ -15206,11 +15801,13 @@ sv:	«slag», «strid» (som koncept) (s)
 en:	«battle», «combat» (as a concept) (n)
 def:	[KGT pp.47, 50]
 see:	{may'}
+file:	1997-11-01-kgt.txt
 
 tlh:	{vIqSIS}
 sv:	«Vixis» (namn)
 en:	«Vixis» (name)
 def:	[KGT p.197]
+file:	1997-11-01-kgt.txt
 
 tlh:	{vIt}
 sv:	säga «sanningen» (v)
@@ -15234,11 +15831,13 @@ tlh:	{vIttlhegh}
 sv:	«talesätt», «ordspråk» (s)
 en:	<proverb> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{vIychorgh}
 sv:	«juice», «saft» ifrån en växt (s)
 en:	<juice>, <sap> of a plant (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{vI'}
 sv:	«ackumulera», «samlas», «lagra» upp (v)
@@ -15257,6 +15856,7 @@ tlh:	{vI'} (2)
 sv:	«decimalpunkt» (s)
 en:	<decimal point> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{voDleH}
 sv:	«kejsare» (s)
@@ -15289,11 +15889,13 @@ tlh:	{von}
 sv:	«snara», «snärja», «fånga» (i fälla), «förleda», «lura» (v)
 en:	<trap>, <entrap> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{vonlu'}
 sv:	«misslyckas» totalt (v) (slang)
 en:	<fail> utterly (v) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{vong}
 sv:	«hypnotisera» (v)
@@ -15326,6 +15928,7 @@ tlh:	{voQSIp}
 sv:	«kväve» (s)
 en:	<nitrogen> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{vor}
 sv:	«hela», «bota» (v)
@@ -15338,6 +15941,7 @@ sv:	«Vospeg-regionen» (s)
 en:	«Vospeg region» (n)
 def:	[KGT p.16]
 data:	phrase; {voSpegh} (n)
+file:	1997-11-01-kgt.txt
 
 tlh:	{vo'}
 sv:	«driva» fram (v)
@@ -15421,6 +16025,7 @@ sv:	flatbottnad «skål» för matberedning (s) (regionalt)
 en:	flat-bottomed <pot> for food preparation (n) (regional)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{vutpa'}
 sv:	«kök», «kabyss» (s)
@@ -15432,6 +16037,7 @@ tlh:	{vut'un}
 sv:	flatbottnad «skål» för matberedning (s) (regionalt)
 en:	flat-bottomed <pot> for food preparation (n) (regional)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{vuv}
 sv:	«respektera» (v)
@@ -15463,16 +16069,19 @@ tlh:	{wagh}
 sv:	vara «dyr» (v)
 en:	be <expensive> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{waH} (1)
 sv:	«smaka», «prova» (mat) (v)
 en:	<taste>, <try> out (food) (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{waH} (2)
 sv:	«pröva», «testa», använda på försök (v)
 en:	<try> out, <test>, use experimentally (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{wam}
 sv:	«jaga» (v)
@@ -15487,6 +16096,7 @@ en:	<hunter> (n)
 def:	[KGT]
 ref:	[TKW p.161]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{wanI'}
 sv:	«fenomen», «händelse», «tilldragelse», «upplevelse» (s)
@@ -15525,6 +16135,7 @@ tlh:	{warjun}
 sv:	ett slags «kniv» (används vid matberedning) (s)
 en:	type of <knife> (used for food preparation) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{watlh}
 sv:	vara «ren», vara «oblandad» (v)
@@ -15557,6 +16168,7 @@ tlh:	{way'}
 sv:	«parera», «avleda» en stöt, (v)
 en:	<parry>, <deflect> a lunge (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{wa'}
 sv:	«ett» (räkn)
@@ -15621,6 +16233,7 @@ tlh:	{wech}
 sv:	¿?«servera» jäst mat när den är som bäst (v)
 en:	<serve> fermented food at its peak (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{wegh}
 sv:	«fängsla», «spärra in», «stänga in» (v)
@@ -15699,6 +16312,7 @@ tlh:	{wep} (2)
 sv:	«skjorta» med ärmar (s) (regional)
 en:	<shirt> with sleeves (n) (regional)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{wep buq}
 sv:	«jack«påse»», «rock«ficka»» (s)
@@ -15713,6 +16327,7 @@ sv:	«slå» (på slaginstrument) med handflata (v)
 en:	<hit> (percussion instrument) with palm (v)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{weQ}
 sv:	«ljus» (stearinljus o.dyl.) (s)
@@ -15731,6 +16346,7 @@ tlh:	{wey}
 sv:	«kompani» (s)
 en:	<company> (military unit) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{wIb}
 sv:	vara sur, vara «bitter», vara «besk», vara «syrlig» (v)
@@ -15738,6 +16354,7 @@ en:	be <sour>, be <bitter>, be <tart> (v)
 def:	[TKD; KGT]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{wIch}
 sv:	«myt» (s)
@@ -15774,6 +16391,7 @@ tlh:	{wItlh}
 sv:	«bryta» av (något) (v)
 en:	<break> (something) off (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{wIv}
 sv:	«välja» (v)
@@ -15799,6 +16417,7 @@ tlh:	{wob}
 sv:	«kasta» spjut med en «~chetvi~» (v)
 en:	<hurl> a spear by means of a «~chetvi~» (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{woch}
 sv:	vara «lång», vara «reslig» (om person) (v)
@@ -15813,6 +16432,7 @@ def:	[TKD; KGT p.91]
 ref:	[TDNW]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{wogh}
 sv:	«överträda», göra mer än vad som är «acceptabelt», gå för långt (v)
@@ -15839,6 +16459,7 @@ com:	Oops! MO seem to have canonified an error occuring on KLI's list of new
 	dictionary to MO, who as a kind of a joke incorporated the error into
 	the language.
 see:	{Say'qu'moH} (synonym)
+file:	1997-11-01-kgt.txt
 
 tlh:	{woj}
 sv:	«strålning» (s)
@@ -15863,6 +16484,7 @@ tlh:	{wornagh}
 sv:	«~warnog~», klingonskt «öl» (s)
 en:	<~warnog~>, Klingon <ale> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{woS}
 sv:	«haka» (s)
@@ -15915,6 +16537,7 @@ sv:	«brista ut i sång» (v)
 en:	<burst into song> (v)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{wuq}
 sv:	«besluta» (sig för), «bestämma» (sig för) (v)
@@ -15974,6 +16597,7 @@ sv:	«knäppa på», «slå på» (ett stränginstrument) (v)
 en:	<strum> (a stringed instrument) (v)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{yaD} (1)
 sv:	«tå» (s)
@@ -15986,6 +16610,7 @@ tlh:	{yaD} (2)
 sv:	«svärd» (s) (slang)
 en:	<sword> (n) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{yagh}
 sv:	«organism» (s)
@@ -16025,17 +16650,20 @@ sv:	«svinga», «använda», «hantera» (ett svärd) (v)
 en:	<wield>, <use>, <manipulate> (a <sword>) (v)
 def:	[KGT]
 com:	Entries differ and have been combined here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{yan}
 sv:	«svärd» (s)
 en:	<sword> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{yanwI'}
 sv:	«svärdsman» (s)
 en:	«swordfighter» (n)
 def:	[KGT p.61]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{yap}
 sv:	vara «nog», vara «tillräcklig» (v)
@@ -16058,17 +16686,20 @@ sv:	«andre«officer»» (s)
 en:	«second «officer»» (on a ship) (n)
 def:	[KGT p.53]
 data:	phrase; derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{yaS wa'DIch}
 sv:	«försteofficer» (s)
 en:	«first officer» (on a ship) (n)
 def:	[KGT p.53]
 data:	phrase; derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{yatlh}
 sv:	vara «gravid» (v)
 en:	be <pregnant> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{yav}
 sv:	«mark» (s)
@@ -16105,6 +16736,7 @@ sv:	«handled» (även slanguttryck för ogillande) (s)
 en:	<wrist> (also slang term of deprecation) (n)
 def:	[KGT]
 cat:	body part
+file:	1997-11-01-kgt.txt
 
 tlh:	{yej}
 sv:	«samling», «råd» (s)
@@ -16116,6 +16748,7 @@ tlh:	{yejHaD}
 sv:	«institut», «institution» (s)
 en:	<institute>, «institution» (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{yejquv}
 sv:	«Högsta Rådet» (s)
@@ -16127,6 +16760,7 @@ tlh:	{yej'an}
 sv:	«sällskap» (t.ex. akademiskt sällskap) (s)
 en:	<society> (e.g., scholarly society) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{yem}
 sv:	«synda» (v)
@@ -16212,6 +16846,7 @@ tlh:	{yInSIp}
 sv:	«syre» (s)
 en:	<oxygen> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{yIntagh}
 sv:	«livsuppehållande system» (s)
@@ -16237,6 +16872,7 @@ sv:	«yridian» (person) (s)
 en:	<Yiridian> (person) (n)
 def:	[KGT]
 ref:	[TKW p.189]
+file:	1997-11-01-kgt.txt
 
 tlh:	{yIt}
 sv:	«gå» (v)
@@ -16256,6 +16892,7 @@ tlh:	{yIv} (2)
 sv:	«förarga», «besvära», «reta», «irritera» (v) (slang)
 en:	<annoy>, <bother>, <irk>, <irritate> (v) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{yIvbeH} (1)
 sv:	«tunika», «uniformsjacka», «uniformsrock» (s)
@@ -16269,6 +16906,7 @@ sv:	«ärmlös «skjorta»» (s) (regionalt)
 en:	<sleeveless <shirt>> (n) (regional)
 def:	[KGT]
 cat:	clothing
+file:	1997-11-01-kgt.txt
 
 tlh:	{yob}
 sv:	«skörda» (v)
@@ -16294,6 +16932,7 @@ sv:	«skydda» sig själv (med sköld) (v)
 en:	«shield» oneself (v)
 def:	[KGT p.67]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{yoH}
 sv:	vara «modig», vara «djärv» (v)
@@ -16309,6 +16948,7 @@ en:	<brave one> (n)
 def:	[KGT]
 ref:	[TKW p.123]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{yoj}
 sv:	«dom», «domslut», «bedömning» (s)
@@ -16377,6 +17017,7 @@ sv:	«distrikt», «område» (inom ett land) (s)
 en:	<district>, <area> (within a country) (n)
 def:	[TKD; KGT p.16]
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{yot}
 sv:	«invadera» (v)
@@ -16420,11 +17061,13 @@ sv:	första (och sista) «tonen» på den nonatoniska skalan (s)
 en:	first (and last) <tone> of nonatonic musical scale (n)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{yub}
 sv:	«skal» (på frukt, nöt) (s)
 en:	<husk>, <rind>, <peel>, <shell> (of fruit, nut) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{yuch}
 sv:	«choklad» (s)
@@ -16543,6 +17186,7 @@ tlh:	{'aD}
 sv:	«ha» en «längd» av, «mäta» (v)
 en:	<have> a <length> of, <measure> (v)
 def:	[KGT; News 1997-10-22]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'aD}
 sv:	«ven», «blodåder» (s)
@@ -16555,6 +17199,7 @@ tlh:	{'agh}
 sv:	«visa», «demonstrera», «förevisa», «visa upp» (v)
 en:	<show>, <demonstrate>, <display> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'aH}
 sv:	«grejor», «tillbehör», «attiraljer» (s)
@@ -16572,6 +17217,7 @@ tlh:	{'alngegh}
 sv:	«yxa» med med spets i änden (s)
 en:	<ax> with spike at end (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'ampaS}
 sv:	«akademi», «skola» (s)
@@ -16579,6 +17225,7 @@ en:	<academy> (n)
 def:	[KGT]
 pun:	Could this have anything to do with "Academy of Motion Picture Arts
 	and Sciences", perhaps?
+file:	1997-11-01-kgt.txt
 
 tlh:	{'ang}
 sv:	«visa», «exponera», «röja», «avslöja» (v)
@@ -16592,6 +17239,7 @@ tlh:	{'aqleH}
 sv:	ett slags «vapen» (hälften «yxa», hälften «~bat'leth~») (s)
 en:	type of <weapon> (half «ax», half «~bat'leth~») (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'aqnaw}
 sv:	ett slags «kniv» (allmän användning) (s)
@@ -16601,6 +17249,7 @@ pun:	Marc Okrand really gets going in the KGT section about (kitchen)
 	knives, so this is probably a travesty of all those soap-opera
 	commercials: ...And finally, *act now*, and get this small all purpose
 	knife for free...!"
+file:	1997-11-01-kgt.txt
 
 tlh:	{'aqroS} (1)
 sv:	«överdel» (under- eller insidan av överdelen) (s)
@@ -16620,6 +17269,7 @@ sv:	«Aktuh» (namn)
 en:	«Aktuh» (name)
 def:	[TKW p.187; KGT p.49]
 com:	Name from a famous Klingon opera.
+file:	1997-11-01-kgt.txt
 
 tlh:	{'aqtu' mellota' je}
 sv:	«Aktuh och Melota» (känd opera) (namn)
@@ -16632,6 +17282,7 @@ sv:	«panna» (s) (regionalt)
 en:	<forehead> (n) (regional)
 def:	[KGT]
 cat:	body part
+file:	1997-11-01-kgt.txt
 
 tlh:	{'ar}
 sv:	«hur» många?, hur mycket? (fråg)
@@ -16655,11 +17306,13 @@ tlh:	{'atrom}
 sv:	«A'trom» (namn)
 en:	«A'trom» (name)
 def:	[KGT p.197]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'atlhqam}
 sv:	ett slags «svamp» (s)
 en:	type of <fungus> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'av}
 sv:	«vakta» (v)
@@ -16680,6 +17333,7 @@ tlh:	{'awje'}
 sv:	ett slags «dryck» (root beer) (s)
 en:	type of <beverage> (root beer) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'aw'}
 sv:	«sticka», «stinga», «svida», göra «ont» (v)
@@ -16693,6 +17347,7 @@ en:	<section>, <part>, <component>, <piece> (n)
 def:	[TKD, KGT]
 src:	"section" [TKD]; "part", "piece", "component" [KGT]
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{'eb}
 sv:	«möjlighet», «chans», «öppning» (s)
@@ -16701,6 +17356,7 @@ def:	[TKD; KGT]
 ref:	[TKW pp.49, 51]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{'ech}
 sv:	«överste» (rang) (s)
@@ -16725,6 +17381,7 @@ sv:	tredje «tonen» på den nonatoniska skalan (s)
 en:	third <tone> of nonatonic musical scale (n)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{'eH}
 sv:	var «redo»! (interj)
@@ -16782,6 +17439,7 @@ tlh:	{'elpI'}
 sv:	«serverings«fat»», «uppläggsfat» (s)
 en:	<serving <platter>> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'em}
 sv:	«kräkas», «spy» (v)
@@ -16795,6 +17453,7 @@ sv:	«bakom», område bakom (s)
 en:	<behind>, area behind (n)
 def:	[KGT]
 cat:	locative
+file:	1997-11-01-kgt.txt
 
 tlh:	{'entepray'}
 sv:	«Enterprise» (ett skepp) (namn)
@@ -16816,11 +17475,13 @@ sv:	«konsumera» «soppa», konsumera «gryta» (v)
 en:	<consume> «soup», «eat» soup (v)
 def:	[KGT]
 com:	"eat" is included as a lookup synonym (does not occur in sources)
+file:	1997-11-01-kgt.txt
 
 tlh:	{'eq}
 sv:	vara «tidig» (v)
 en:	be <early> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'er}
 sv:	ett slags «djur» (s)
@@ -16841,6 +17502,7 @@ tlh:	{'eS}
 sv:	vara «låg» (v)
 en:	be <low> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'et}
 sv:	«för» (ej akter) (s)
@@ -16855,6 +17517,7 @@ def:	[TKD; KGT]
 ref:	[TKW pp.101, 177]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{'ev}
 sv:	område nordvästerut, område i «nordväst» (s)
@@ -16873,6 +17536,7 @@ tlh:	{'ey}
 sv:	vara «god», vara «delikat», vara «välsmakande», vara «harmonisk» (v)
 en:	be <good>, be <delicious>, be <tasty>, be <harmonious> (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'e'}
 sv:	«det» (föregående ämne) (pro)
@@ -16908,16 +17572,19 @@ tlh:	{'Ib}
 sv:	«kar» (s)
 en:	<tub> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'Igh}
 sv:	vara «förbannad», vara «olycksbringande» (v) (slang)
 en:	be <cursed>, be <jinxed> (v) (slang)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'IghvaH}
 sv:	ett slags «djur», «~igvah~» (s)
 en:	type of <animal>, <~igvah~> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'IH}
 sv:	vara «vacker», vara «stilig» (v)
@@ -16944,12 +17611,14 @@ tlh:	{'Im}
 sv:	«smälta», «koka» fett (v)
 en:	<render>, <boil> fat (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'In}
 sv:	«slag«instrument»» (trumma, klocka) (s)
 en:	<percussion <instrument>> (drum, bell) (n)
 def:	[KGT]
 cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{'Ip}
 sv:	«svära», gå «ed» på (v)
@@ -17057,6 +17726,7 @@ sv:	ett slags «djur», «blodmask» (s)
 en:	type of <animal>, <bloodworm> (n)
 def:	[KGT]
 com:	Entries differ and have been combined here.
+file:	1997-11-01-kgt.txt
 
 tlh:	{'Iw 'Ip ghomey}
 sv:	«Blodseds-cirklar» (känd skulptur) (namn)
@@ -17070,17 +17740,20 @@ sv:	«armhåla» (s)
 en:	<armpit> (n)
 def:	[KGT]
 cat:	body part
+file:	1997-11-01-kgt.txt
 
 tlh:	{'obe'}
 sv:	«orden», grupp officiellt erkänd av regering (s)
 en:	<order>, group officially recognized by government (n)
 def:	[KGT]
 pun:	"Order of the British Empire"
+file:	1997-11-01-kgt.txt
 
 tlh:	{'obmaQ}
 sv:	«yxa» (s)
 en:	<ax> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'och}
 sv:	«tunnel», «ledning», «rör» (s)
@@ -17099,6 +17772,7 @@ sv:	«medlare» (s)
 en:	<arbitrator> (n)
 def:	[KGT]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{'ogh}
 sv:	«uppfinna», «hitta på» (v)
@@ -17133,6 +17807,7 @@ tlh:	{'om}
 sv:	«motsätta» sig, «avvärja» (v)
 en:	<resist>, <fend> off (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'ong}
 sv:	vara «listig», vara «slug» (v)
@@ -17146,11 +17821,13 @@ sv:	«någon», «något», «några», en «del», en okänd eller ospecificera
 	mängd (s)
 en:	<some>, an unknown or unspecified quantity (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'oQqar}
 sv:	«rot», «rotknöl», «rotfrukt» (s)
 en:	<root>, <tuber> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'orghen}
 sv:	«Organia» (s)
@@ -17252,6 +17929,7 @@ tlh:	{'o'lav}
 sv:	ett slags «trumma» (s)
 en:	type of <drum> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'o'megh}
 sv:	«avsluting», «slut» (på sång) (s)
@@ -17265,6 +17943,7 @@ sv:	«hålla» (i), «gripa» (om) (v)
 en:	<hold>, <grasp> (v)
 def:	[KGT]
 ref:	[TKW pp.120, 177]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'uchHa'}
 sv:	«släppa»
@@ -17276,6 +17955,7 @@ tlh:	{'uD}
 sv:	«laser» (s)
 en:	<laser> (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'uD Haqtaj}
 sv:	«laserskalpell» (s)
@@ -17313,6 +17993,7 @@ en:	«unit» of linear «measure», <~uj~> (about 35 «centi«meter»»s) (n)
 def:	[KGT; News 1997-10-22]
 com:	More exactly one ~uj~ is 34.83 cm (as caluculated from useage
 	on BoP).
+file:	1997-11-01-kgt.txt
 
 tlh:	{'uj'a'}
 sv:	«längd«enhet»», stor «~uj~» (cirka 315 «centi«meter»») (s)
@@ -17329,6 +18010,7 @@ pun:	At {qep'a' loSDIch} (1997) Okrand confirmed the suspicion of a list
 	member about its origin: electronic goods sold in the United States
 	have a sticker on them saying UL ("Underwriter's Laboratory") showing
 	they meet industry safety standards. ({Qov})
+file:	1997-11-01-kgt.txt
 
 tlh:	{'um}
 sv:	vara «kvalificerad» (v)
@@ -17341,18 +18023,21 @@ tlh:	{'un}
 sv:	«skål» (för matberedning, generell term) (s)
 en:	<pot> (for food preparation, general term) (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'un naQ}
 sv:	«blandningskäpp», «omrörningspinne», «käpp»/«pinne» för omrörning (s)
 en:	<stirring «stick»>, <mixing stick> (n)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{'un quD}
 sv:	«artificiellt framställd «~qud~»» (s)
 en:	<artificially produced «~qud~»> (n)
 def:	[KGT]
 data:	phrase
+file:	1997-11-01-kgt.txt
 
 tlh:	{'up}
 sv:	vara «smaklös», vara «äcklig», vara «frånstötande», vara
@@ -17360,6 +18045,7 @@ sv:	vara «smaklös», vara «äcklig», vara «frånstötande», vara
 en:	be <unsavory>, be <disgusting>, be <repugnant>, be <loathsome>, be
 	icky (v)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'uQ}
 sv:	«kvällsmat» (s)
@@ -17373,6 +18059,7 @@ sv:	«bankett», «fest» (s)
 en:	<banquet>, <feast> (n)
 def:	[KGT]
 data:	derived form
+file:	1997-11-01-kgt.txt
 
 tlh:	{'ur}
 sv:	«förråda», «begå» förräderi (v)
@@ -17405,6 +18092,7 @@ tlh:	{'uSu'}
 sv:	«sås» till «~gladst~» (s)
 en:	<sauce> for «~gladst~» (n)
 def:	[KGT]
+file:	1997-11-01-kgt.txt
 
 tlh:	{'ut}
 sv:	vara «väsentlig», vara «nödvändig» (v)
@@ -17424,6 +18112,7 @@ com:	"[T]here are not many officers who end their service to the Empire by
 	{'utlh} is used to refer to an officer of this type. Perhaps 'officer
 	emeritus' is an appropriate translation." [KGT p.51]
 file:	1992-01-01-tkd.txt
+file:	1997-11-01-kgt.txt
 
 tlh:	{'uy}
 sv:	«trycka» ner, trycka på (v)
