@@ -131,6 +131,7 @@ sv:	¿?«avfyrningstub», «utskjutningsanordning» (s)
 en:	«launcher» (n)
 def:	[BoP]
 ref:	[KLINW]
+file:	1998-11-01-bop.txt
 
 tlh:	{baHwI'}
 sv:	«skytt», «artillerist» (s)
@@ -579,6 +580,7 @@ sv:	«väte» (s)
 en:	«hydrogen» (n)
 def:	[BoP]
 ref:	[KLINW]
+file:	1998-11-01-bop.txt
 
 tlh:	{bIQSIp «'ugh»}
 sv:	«deuterium-isotop» (s)
@@ -586,6 +588,7 @@ en:	«deuterium isotope» (n)
 def:	[BoP]
 ref:	[KLINW]
 data:	phrase; derived form
+file:	1998-11-01-bop.txt
 
 tlh:	{bIQtIq}
 sv:	«flod», «älv» (s)
@@ -664,6 +667,7 @@ sv:	«~B'rel~-klass» (av farkost) (s)
 en:	«~B'rel~ class» (vessel) (n)
 def:	[BoP]
 com:	"{bI'rel tlharghDuj} B'rel-class Scout" [KLINW]
+file:	1998-11-01-bop.txt
 
 tlh:	{bI'reS}
 sv:	«inledning», «början» (på sång, pjäs, historia, etc.) (s)
@@ -787,6 +791,7 @@ com:	Entries from TKD, KGT and BoP have been combined here. "{Hong boq
 	chuyDaH: loS} 'Impulse Fusion Thrusters -- 4'" [BoP]
 file:	1992-01-01-tkd.txt
 file:	1997-11-01-kgt.txt
+file:	1998-11-01-bop.txt
 
 tlh:	{boq}
 sv:	«alliera» med, «förena» med, skapa en allians med (v)
@@ -1109,6 +1114,7 @@ sv:	«par» (s)
 en:	«pair» (n)
 def:	[BoP]
 cat:	math
+file:	1998-11-01-bop.txt
 
 tlh:	{chap}
 sv:	«handrygg» (s)
@@ -1521,12 +1527,14 @@ tlh:	{chob}
 sv:	«korridor» (s)
 en:	«corridor» (n)
 def:	[BoP]
+file:	1998-11-01-bop.txt
 
 tlh:	{chob'a'}
 sv:	huvud«korridor» (s)
 en:	main «corridor» (n)
 def:	[BoP]
 data:	derived form
+file:	1998-11-01-bop.txt
 
 tlh:	{choghvat}
 sv:	«trappuppgång» vid skeppsdörr, «landgång» (s)
@@ -1640,6 +1648,7 @@ tlh:	{choQ}
 sv:	«däck» (på ett skepp) (s)
 en:	«deck» (on a ship) (n)
 def:	[BoP]
+file:	1998-11-01-bop.txt
 
 tlh:	{chor} (1)
 sv:	«mage», «buk» (s)
@@ -1795,6 +1804,7 @@ sv:	«stor räckvidd», «stort avstånd» (s)
 en:	«long range» (n)
 def:	[BoP]
 data:	derived form
+file:	1998-11-01-bop.txt
 
 tlh:	{chuQun}
 sv:	«adelsstånd», «ädelhet», «upphöjdhet» (s)
@@ -1922,6 +1932,7 @@ sv:	«batteri», «uppsättning» (av vapen) (s)
 en:	«bank», «array» (of weapons) (n)
 def:	[KGT p.56; BoP]
 file:	1997-11-01-kgt.txt
+file:	1998-11-01-bop.txt
 
 tlh:	{DaH}
 sv:	«nu» (adv)
@@ -4280,11 +4291,13 @@ sv:	«impuls-fusions«raketer»» (s)
 en:	«impulse fusion «thrusters»» (n)
 def:	[BoP]
 data:	phrase
+file:	1998-11-01-bop.txt
 
 tlh:	{Hongghor}
 sv:	«impulsdrift», «impulsmotor» (s)
 en:	«impulse drive» (n)
 def:	[BoP]
+file:	1998-11-01-bop.txt
 
 tlh:	{Hop}
 sv:	vara «avlägsen», vara «långt bort» (v)
@@ -5270,6 +5283,7 @@ tlh:	{jolpat}
 sv:	«transporter-system» (s)
 en:	«transporter system» (n)
 def:	[BoP]
+file:	1998-11-01-bop.txt
 
 tlh:	{jolpa'}
 sv:	«transporterrum» (s)
@@ -6014,6 +6028,7 @@ tlh:	{loghqam}
 sv:	«längd«enhet»» (cirka 1,25 «ljusår») (s)
 en:	«unit» of linear «measure» (about 1.25 «light year»s) (n)
 def:	[BoP]
+file:	1998-11-01-bop.txt
 
 tlh:	{loH}
 sv:	«administrera» (v)
@@ -7201,6 +7216,7 @@ sv:	vara «vanlig», vara «normal», vara «standard» (v)
 en:	be <usual>, be «normal», be «standard» (v)
 def:	[TKD; S14; BoP]
 file:	1992-01-01-tkd.txt
+file:	1998-11-01-bop.txt
 
 tlh:	{motlh}
 sv:	«vanligtvis», som vanligt, som «väntat», «normal sett» (adv)
@@ -8159,6 +8175,7 @@ tlh:	{nItebHa'}
 sv:	«tillsammans», «gemensamt» (adv)
 en:	«together» (adv)
 def:	[BoP]
+file:	1998-11-01-bop.txt
 
 tlh:	{nItlh}
 sv:	«finger» (s)
@@ -9040,6 +9057,7 @@ tlh:	{nguSDI'}
 sv:	«motor» (s)
 en:	«motor» (n)
 def:	[BoP]
+file:	1998-11-01-bop.txt
 
 tlh:	{nguv}
 sv:	vara «färgad», vara «fläckad», vara «tonad» (v)
@@ -9269,6 +9287,7 @@ en:	<room>, «chamber» (n)
 def:	[TKD; BoP]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+file:	1998-11-01-bop.txt
 
 tlh:	{pa'} (2)
 sv:	«där», där borta, däromkring (s)
@@ -9619,6 +9638,7 @@ tlh:	{pIvchem}
 sv:	«warpfält» (s)
 en:	«warp field» (n)
 def:	[BoP]
+file:	1998-11-01-bop.txt
 
 tlh:	{pIvghor}
 sv:	«warpdrift», «warpmotor» (s)
@@ -11022,6 +11042,7 @@ tlh:	{qughDo}
 sv:	«marschfart», «kryssningshastighet» (s)
 en:	«cruising speed» (n)
 def:	[BoP]
+file:	1998-11-01-bop.txt
 
 tlh:	{qughDuj}
 sv:	«kryssare» (s)
@@ -12061,6 +12082,7 @@ tlh:	{Qulpa'}
 sv:	«forskningslabb» (s)
 en:	«research lab» (n)
 def:	[BoP]
+file:	1998-11-01-bop.txt
 
 tlh:	{Qum}
 sv:	«kommunicera» (v)
@@ -12073,6 +12095,7 @@ tlh:	{Qum}
 sv:	«kommunikation»er, kommunikationsrelaterad teknologi (s)
 en:	«communication»s, communication related technology (n)
 def:	[BoP]
+file:	1998-11-01-bop.txt
 
 tlh:	{QumpIn}
 sv:	«kommunikationsofficer» (s)
@@ -12126,6 +12149,7 @@ tlh:	{Qutlh}
 sv:	«stödja», «understödja», «hjälpa» (v)
 en:	«support» (v)
 def:	[BoP]
+file:	1998-11-01-bop.txt
 
 tlh:	{Quv}
 sv:	«koordinater» (s)
@@ -12917,6 +12941,7 @@ tlh:	{Saqjan}
 sv:	«landningsställ» (s)
 en:	«landing gear» (n)
 def:	[BoP]
+file:	1998-11-01-bop.txt
 
 tlh:	{SaQ}
 sv:	«gråta» (v)
@@ -13497,6 +13522,7 @@ sv:	¿?«enhet», «kärna» (s)
 en:	«core» (n)
 def:	[BoP]
 com:	BoP: {De'wI' SoSbor'a'} "Main Computer Core"
+file:	1998-11-01-bop.txt
 
 tlh:	{SoSbor'a'}
 sv:	¿?«huvud«kärna»», «huvud«enhet»» (s)
@@ -13504,6 +13530,7 @@ en:	«main «core»» (n)
 def:	[BoP]
 com:	BoP: {De'wI' SoSbor'a'} "Main Computer Core"
 data:	derived form
+file:	1998-11-01-bop.txt
 
 tlh:	{SoSnI'}
 sv:	«mormor», «farmor» (s)
@@ -13901,6 +13928,7 @@ tlh:	{tal}
 sv:	«kanon» (s)
 en:	«cannon» (n)
 def:	[BoP]
+file:	1998-11-01-bop.txt
 
 tlh:	{talarngan}
 sv:	«talarit» (person) (s)
@@ -14175,6 +14203,7 @@ sv:	«lasttransportör», «lastkran», «lasthiss» (s)
 en:	<cargo carrier>, «cargo lift» (n)
 def:	[TKD; BoP]
 file:	1992-01-01-tkd.txt
+file:	1998-11-01-bop.txt
 
 tlh:	{teq}
 sv:	«avlägsna», «ta bort», «ta av» (v)
@@ -14936,6 +14965,7 @@ tlh:	{tlharghDuj}
 sv:	«spaningsskepp» (s)
 en:	«scout» (vessel) (n)
 def:	[BoP]
+file:	1998-11-01-bop.txt
 
 tlh:	{tlhaS}
 sv:	«slåss», «strida» (relativt litet slagsmål) (v)
@@ -15137,6 +15167,7 @@ sv:	«Kling-distriktet» (s)
 en:	«Kling district» (n)
 def:	[BoP]
 data:	phrase; {tlhIng} (n)
+file:	1998-11-01-bop.txt
 
 tlh:	{tlhIq}
 sv:	«stuvning» (s)
@@ -15751,6 +15782,7 @@ tlh:	{vID'Ir}
 sv:	¿?«platta», «baffelplåt», «skiljevägg», «mellanvägg» (s)
 en:	«baffle» (n)
 def:	[BoP]
+file:	1998-11-01-bop.txt
 
 tlh:	{vIghro'}
 sv:	ett slags «djur», «~v'gro~» («katt»lik) (s)
@@ -16512,6 +16544,7 @@ sv:	«strålkastare», «belysning» (s)
 en:	«light» (for illumination) (n)
 def:	[BoP]
 data:	derived form
+file:	1998-11-01-bop.txt
 
 tlh:	{wo'}
 sv:	«imperium» (s)
@@ -17263,6 +17296,7 @@ tlh:	{'aqroS} (2)
 sv:	«maximum» (s)
 en:	«maximum» (n)
 def:	[BoP]
+file:	1998-11-01-bop.txt
 
 tlh:	{'aqtu'}
 sv:	«Aktuh» (namn)
@@ -17375,6 +17409,7 @@ tlh:	{'eDSeHcha}
 sv:	start-/landnings-«raketer» (pluralform) (s)
 en:	take-off/landing «thrusters» (plural form) (n)
 def:	[BoP]
+file:	1998-11-01-bop.txt
 
 tlh:	{'egh}
 sv:	tredje «tonen» på den nonatoniska skalan (s)
@@ -17760,6 +17795,7 @@ sv:	«tunnel», «ledning», «rör» (s)
 en:	<tunnel>, «conduit» (n)
 def:	[TKD; BoP]
 file:	1992-01-01-tkd.txt
+file:	1998-11-01-bop.txt
 
 tlh:	{'oD}
 sv:	«medla» (v)
@@ -18142,6 +18178,7 @@ def:	[BoP]
 com:	WARNING - ¿?I'm sceptic. Is this a real word or only some KLI new words
 	list maintainer's wet dream? [KLINW]
 data:	phrase; derived form; mistaken form
+file:	1998-11-01-bop.txt
 
 tlh:	{yo'SeH yaHnIv}
 sv:	«» (s)
