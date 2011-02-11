@@ -7506,6 +7506,7 @@ en:	«curse» warfare (n)
 def:	[PK]
 com:	Written on the printed card of PK.
 data:	phrase
+file:	1993-10-01-pk.txt
 
 tlh:	{mu'tay'}
 sv:	«ordförråd» (s)
@@ -9355,6 +9356,7 @@ def:	[PK]
 ref:	[CK]
 com:	PK: "'I have secret information, you will find it useful.'
 	{De' pegh vIghajlI' 'e' Datu'.}"
+file:	1993-10-01-pk.txt
 
 tlh:	{pegh}
 sv:	«hemlighet» (s)
@@ -11766,6 +11768,7 @@ def:	[PK]
 com:	This is a guess as to what Michael Dorn was pronouncing.
 	PK: "One which comes every tenth Klingon month is {QI'lop}.
 	{QI'lop} celebrates the superiority of the Klingon military."
+file:	1993-10-01-pk.txt
 
 tlh:	{QI'tomer}
 sv:	«Khitomer» (planet) (s)
