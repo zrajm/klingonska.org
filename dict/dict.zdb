@@ -9124,6 +9124,7 @@ en:	<claw>, «talon» (n)
 def:	[TKDa, HQ10:4 p.5]
 ref:	[TKW p.185]
 file:	1992-01-01-tkd.txt
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{pagh}
 sv:	«ingenting», «inget», «ingen» (s)
@@ -18237,12 +18238,14 @@ sv:	«fjäder» (på fågel) (s)
 en:	«feather» (n)
 def:	[HQ10:4 p.5]
 ref:	[KLINW]
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{borghel}
 sv:	ett slags «fågel» (väldigt liten, dess ägg anses mycket goda) (s)
 en:	type of «bird» (very small, its eggs are considered quite tasty) (n)
 def:	[HQ10:4 p.4]
 ref:	[KLINW]
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{bo'Degh}
 sv:	«fågel» (s)
@@ -18250,43 +18253,51 @@ en:	«bird» (n)
 def:	[HQ10:4 p.4]
 ref:	[KLINW]
 com:	general word for bird-like creature
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{cha'bIp}
 sv:	en slags «fågel» (berömd för sin snabbhet) (s)
 en:	type of «bird» (noted for its speed) (n)
 def:	[HQ10:4 p.4]
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{cha'Do'}
 sv:	en slags «fågel» (om vilken litet är känt) (s)
 en:	type of «bird» (about which little is known) (n)
 def:	[HQ10:4 p.4]
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{cha'naS}
 sv:	en slags «fågel» (liten, gräver upp småkryp att äta) (s)
 en:	type of «bird» (small, digs up bugs to eat) (n)
 def:	[HQ10:4 p.4]
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{cha'par}
 sv:	en slags «fågel» (berömd för sin sång) (s)
 en:	type of «bird» (noted for its song) (n)
 def:	[HQ10:4 p.4]
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{cha'qu'}
 sv:	en slags «fågel» (med ett högljutt, enformigt skrik) (s)
 en:	type of «bird» (with a noisy, repetitive cry) (n)
 def:	[HQ10:4 p.4]
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{Da'nal}
 sv:	en slags «fågel» (kännetecknad av irrande, oförutsägbart beteende) (s)
 en:	type of «bird» (characterized by erratic, unpredictable behavior) (n)
 def:	[HQ10:4 p.4]
 com:	similar to {Da'vI'}
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{Da'vI'}
 sv:	en slags «fågel» (kännetecknad av irrande, oförutsägbart beteende) (s)
 en:	type of «bird» (characterized by erratic, unpredictable behavior) (n)
 def:	[HQ10:4 p.4]
 com:	similar to {Da'nal}
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{ghotI'}
 sv:	«fisk» (s)
@@ -18295,12 +18306,14 @@ def:	[HQ10:4 p.5]
 ref:	[TDNW]
 pun:	Bernard Shaw's famous spelling of "fish".
 see:	{bIQDep}
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{jajlo' Qa'}
 sv:	ett slags «djur» (för oljud i gryningen) (s)
 en:	type of «animal» (makes a ruckus at dawn) (n)
 def:	[HQ10:4 p.5]
 data:	derived form
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{laq}
 sv:	«flaxa», «slå» (om fågelvingar) (v)
@@ -18308,11 +18321,13 @@ en:	«flap» (bird's wings do this) (v)
 def:	[HQ10:4 p.5]
 com:	Used about a birds wings. "[...] in flight, a bird's wings {laq}
 	(the bird is said to {laqmoH} its wings)" [HQ10:4 p. 5]
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{lIr}
 sv:	en slags «fågel» (nattlevande) (s)
 en:	type of «bird» (nocturnal) (n)
 def:	[HQ10:4 p.4]
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{lotlhmoq}
 sv:	en slags «fågel» (slår ner i vattnet för att fånga mat, men kan inte
@@ -18320,17 +18335,20 @@ sv:	en slags «fågel» (slår ner i vattnet för att fånga mat, men kan inte
 en:	type of «bird» (swoops into the water to catch food, but cannot
 	swim) (n)
 def:	[HQ10:4 p.4]
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{neb}
 sv:	«näbb» (s)
 en:	«beak», «bill» (n)
 def:	[HQ10:4 p.5]
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{neSlo'}
 sv:	«spegel» (mindre) (s)
 en:	«mirror» (smaller) (n)
 def:	[HQ10:4 p.5]
 com:	smaller than {SIla'}
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{notqa'}
 sv:	en slags «fågel» (stor, svart) (s)
@@ -18338,27 +18356,32 @@ en:	type of «bird» (large, black) (n)
 def:	[HQ10:4 p.4]
 com:	nowhere near as large as a qa'rol, which is really big
 pun:	"`Nevermore' quoth the raven." ({notqa'} "never again").
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{ngun}
 sv:	«sätta» sig, «slå» sig ner (v)
 en:	«perch» (v)
 def:	[HQ10:4 p.5]
 com:	If bird lands on land, use {Saq}, on water, use {tlhot}.
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{parbIng}
 sv:	en slags «fågel» (mellanstorlek, med särskilt grälla färger) (s)
 en:	type of «bird» (mid-sized, with particularly garish coloring) (n)
 def:	[HQ10:4 p.4]
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{qaj}
 sv:	«glidflyga», «sväva» (v)
 en:	«soar» (v)
 def:	[HQ10:4 p.5]
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{qanraD}
 sv:	en slag «fågel» (berömd för sin sång) (s)
 en:	type of «bird» (noted for its song) (n)
 def:	[HQ10:4 p.4]
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{qaryoq}
 sv:	en slags «fågel» (förmögen att härma språk) (s)
@@ -18366,6 +18389,7 @@ en:	type of «bird» (capable of mimicking speech) (n)
 def:	[HQ10:4 p.5]
 com:	Some people pluralize these with {-pu'}, but most use {-mey}.
 pun:	Wordplay on "kareoke". (?)
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{qaryoq'a'}
 sv:	en slags «fågel» (stor, förmögen att härma språk) (s)
@@ -18374,17 +18398,20 @@ def:	[HQ10:4 p.5]
 com:	Some people pluralize these with {-pu'}, but most use {-mey}.
 pun:	Wordplay on "karaoke". (?)
 data:	derived form
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{qa'rol}
 sv:	en slags «fågel» (verkligt stor, svart) (s)
 en:	type of «bird» (really big, black) (n)
 def:	[HQ10:4 p.4]
 com:	much larger than a {notqa'}
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{raw'}
 sv:	en slags «fågel» (vattenlevande, färgrik fjäderdräkt) (s)
 en:	type of «bird» (aquatic, colorful plumage) (n)
 def:	[HQ10:4 p.5]
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{SIla'}
 sv:	«spegel» (större) (s)
@@ -18392,12 +18419,14 @@ en:	«mirror» (larger) (n)
 def:	[HQ10:4 p.5]
 com:	larger than {neSlo'}
 pun:	"Alice" backwards.
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{tlhot}
 sv:	«landa» (på vatten) (v)
 en:	«land» (on water, like a bird) (v)
 def:	[HQ10:4 p.5]
 com:	if bird lands on land, use {Saq}, in a tree, use {ngun}
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{vem'eq}
 sv:	en slags «fågel» (livnär sig nästan enbart på den sorts orm-maskar
@@ -18406,6 +18435,7 @@ en:	type of «bird» (feeds almost exclusively on the serpent worm from
 	which ~gagh~ is made) (n)
 def:	[HQ10:4 p.5]
 com:	Klingons are not particularly fond of this bird.
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{vIl}
 sv:	vara «fårad» (v)
@@ -18438,17 +18468,20 @@ sv:	en slags «fågel» (förmögen att härma språk) (s)
 en:	type of «bird» (capable of mimicking speech) (n)
 def:	[HQ10:4 p.5]
 com:	Some people pluralize these with {-pu'}, but most use {-mey}.
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{waqboch}
 sv:	en slags «fågel» (med en väldigt lång näbb) (s)
 en:	type of «bird» (with a very long beak) (n)
 def:	[HQ10:4 p.5]
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{wom}
 sv:	«picka», «hacka» (på/i) (med näbb) (v)
 en:	«peck» (v)
 def:	[HQ10:4 p.5]
 com:	used for both eating and attacking by pecking
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{yatqap}
 sv:	en slags «fågel» (grå, ibland vit, flyger långa sträckor utan
@@ -18456,6 +18489,7 @@ sv:	en slags «fågel» (grå, ibland vit, flyger långa sträckor utan
 en:	type of «bird» (gray, sometimes white, travel long distances without
 	pausing) (n)
 def:	[HQ10:4 p.5]
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{'at}
 sv:	namn på klingonskans {a}-ljud (s)
@@ -18502,6 +18536,7 @@ sv:	en slags «fågel» (för oljud i gryningen, vildsintare än en tupp) (s)
 en:	type of «bird» (makes a ruckus at dawn, fiercer than a rooster) (n)
 def:	[HQ10:4 p.5]
 com:	much fiercer than a rooster
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{'or}
 sv:	«manövrera», «styra» (en flygmaskin) (s)
