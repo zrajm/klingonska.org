@@ -18542,52 +18542,61 @@ tlh:	{'or}
 sv:	«manövrera», «styra» (en flygmaskin) (s)
 en:	«pilot», «operate» (an aircraft) (v)
 def:	[HQ11:2 p.8]
+file:	2002-06-holqed-11-2.txt
 
 tlh:	{'orwI'}
 sv:	«pilot», någon som «manövrera»r (en flygmaskin) (s)
 en:	«pilot», one who «operates» (an aircraft) (n)
 def:	[HQ11:2 p.8]
 data:	derived form
+file:	2002-06-holqed-11-2.txt
 
 tlh:	{ghangwI'}
 sv:	«horisont» (s)
 en:	«horizon» (n)
 def:	[HQ11:2 p.8]
+file:	2002-06-holqed-11-2.txt
 
 tlh:	{lol}
 sv:	vara i en «position», vara i ett «läge», vara i en «pose», vara i
 	en «ställning», vara i en «hållning» (v)
 en:	be in an «attitude», be in a «stance», be in a «pose» (v)
 def:	[HQ11:2 p.8]
+file:	2002-06-holqed-11-2.txt
 
 tlh:	{lol}
 sv:	en särskild ~Mok'bara~-«position» (s)
 en:	a specific ~Mok'bara~ «position» (n)
 def:	[HQ11:2 p.8]
+file:	2002-06-holqed-11-2.txt
 
 tlh:	{lolchu'}
 sv:	vara i en korrekt «position», vara i ett riktigt «läge» (v)
 en:	be in a correct «attitude» (v)
 def:	[HQ11:2 p.8]
 data:	derived form
+file:	2002-06-holqed-11-2.txt
 
 tlh:	{loltaH}
 sv:	upprätthålla en «position», bibehålla ett «läge» (v)
 en:	maintain an «attitude» (v)
 def:	[HQ11:2 p.8]
 data:	derived form
+file:	2002-06-holqed-11-2.txt
 
 tlh:	{lolchu'taH}
 sv:	upprätthålla en korrekt «position», bibehålla ett riktigt «läge» (v)
 en:	maintain a correct «attitude» (v)
 def:	[HQ11:2 p.8]
 data:	derived form
+file:	2002-06-holqed-11-2.txt
 
 tlh:	{lolmoH}
 sv:	«manövrera» (en flygmaskin) (v)
 en:	«maneuver» (an aircraft) (v)
 def:	[HQ11:2 p.8]
 data:	derived form
+file:	2002-06-holqed-11-2.txt
 
 tlh:	{Der}
 sv:	«gira» (om flygmaskin) (v)
@@ -18595,6 +18604,7 @@ en:	«yaw» (about aircraft) (v)
 def:	[HQ11:2 p.9]
 com:	"When the nose of an airplane or similar craft moves to the left or
 	the right [...]" [HQ11:2 p.9]
+file:	2002-06-holqed-11-2.txt
 
 tlh:	{ron}
 sv:	«banka», «rolla» (om flygmaskin) (v)
@@ -18604,6 +18614,7 @@ com:	"When the plane banks or rolls to one side or the other so that,
 	say, the left wing is pointed somewhat (or even a lot) upwards while
 	the right wing is pointed somewhat (or a lot) downwards, or vice
 	versa [...]" [HQ11:2 p.9]
+file:	2002-06-holqed-11-2.txt
 
 tlh:	{tor}
 sv:	«tippa», «kränga» (om flygmaskin) (v)
@@ -18614,6 +18625,7 @@ com:	"And when the nose of the plane moves up or down, the plane is said
 	thought was apt, since if a four-legged animal is able to kneel
 	with either its hind legs or its front legs, it is able to pitch or
 	tilt up or down.)" [HQ11:2 p.9]
+file:	2002-06-holqed-11-2.txt
 
 tlh:	{jIm}
 sv:	«höja», «sänka» (om flygmaskin) (v)
@@ -18624,6 +18636,7 @@ com:	"When the plane moves up or down (not when the nose points up or
 	whole plane is being pushed up or down)" [HQ11:2 p.9]
 pun:	This is whan "Jim" Kirk does to outsmart Khan in the nebula, at the
 	end of "Star Trek II: The Wrath of Khan".
+file:	2002-06-holqed-11-2.txt
 
 tlh:	{Dav}
 sv:	«svänga», förflytta sig i sidled (om flygmaskin) (v)
@@ -18632,18 +18645,21 @@ def:	[HQ11:2 p.9]
 com:	"When it moves to the side (not when the nose points to the left or
 	right, but when the plane slides to the left or right without
 	otherwise changing its orientation)" [HQ11:2 p.9]
+file:	2002-06-holqed-11-2.txt
 
 tlh:	{jer}
 sv:	«rycka», plötsligt röra sig framåt eller bakåt (om flygmaskin) (v)
 en:	«surge», suddenly move forward or backward (about aircraft) (v)
 def:	[HQ11:2 p.9]
 com:	"if it suddenly moves forwards or backwards" [HQ11:2 p.9]
+file:	2002-06-holqed-11-2.txt
 
 tlh:	{tajvaj}
 sv:	«vinkel» (s)
 en:	«angle» (n)
 def:	[HQ11:2 p.9]
 see:	{taH}
+file:	2002-06-holqed-11-2.txt
 
 
 === end-of-word-list ===
