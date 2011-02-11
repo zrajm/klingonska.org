@@ -496,6 +496,7 @@ def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
 ref:	22 December 2010: {Quvar} in email to tlhIngan-Hol ("latlh 'e'nalpu'")
 com:	DON'T USE THIS WORD. Use {loDnI' be'nal} and {be'nI' be'nal} instead.
 data:	incorrect form; derived form
+file:	2010-12-25-email.txt
 
 tlh:	{bID}
 sv:	«halva», «hälft» (s)
@@ -940,6 +941,7 @@ sv:	«påse», «säck», «pung», «ficka» (s)
 en:	«bag», «sack», «pouch», «pocket» (n)
 def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
 ref:	7 December 2010: {Quvar} in email to tlhIngan-Hol ("News from Maltz")
+file:	2010-12-25-email.txt
 
 tlh:	{buQ}
 sv:	«hota» (v)
@@ -3155,6 +3157,7 @@ com:	"The word for monastery is {ghIn}. [...] A {ghIn'a'} would be a pretty
 	defined area where the members of the religious community live or work
 	or do whatever they do there. It doesn't mean the group of people."
 	/Quvar
+file:	2010-12-25-email.txt
 
 tlh:	{ghIntaq}
 sv:	«strids«spjut»», «~gin'tak~» (s)
@@ -6015,6 +6018,7 @@ def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
 ref:	22 December 2010: {Quvar} in email to tlhIngan-Hol ("latlh 'e'nalpu'")
 com:	DON'T USE THIS WORD. Use {loDnI' loDnal} or {be'nI' loDnal} instead.
 data:	incorrect form; derived form
+file:	2010-12-25-email.txt
 
 tlh:	{logh}
 sv:	«rymd» (s)
@@ -6289,6 +6293,7 @@ en:	«tractor beam» (n)
 def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
 ref:	13 December 2010: {Quvar} in email to tlhIngan-Hol ("tractor beam")
 data:	phrase; derived form
+file:	2010-12-25-email.txt
 
 tlh:	{luj}
 sv:	«misslyckas», «förlora» (v)
@@ -6900,6 +6905,7 @@ com:	Lieven Litaer: Finally, someone last year asked for the word for
 	photographs, cartoons, icons on 21st-century computers, and so on.
 	(Marc Okrand) Tuesday [30 November 2010] at 10:51pm · Unlike · 6 people
 	[http://www.facebook.com/home.php?sk=group_165201996829401]
+file:	2010-12-25-email.txt
 
 tlh:	{mIl'oD}
 sv:	ett slags «djur», «sabelbjörn» (s)
@@ -8905,6 +8911,7 @@ sv:	«block», «klump», «kloss» (s)
 en:	«block», «lump», «brick» (n)
 def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
 ref:	22 December 2010: {Quvar} in email to tlhIngan-Hol ("latlh 'e'nalpu'")
+file:	2010-12-25-email.txt
 
 tlh:	{ngogh tun}
 sv:	«kudde» (s)
@@ -8916,6 +8923,7 @@ com:	"Maltz first said, as did you, that Klingons don't have pillows and he
 	knows what they are. So when pushed -- 'If you have to call it
 	something, what would you call it?' -- he said {ngogh tun}."
 data:	phrase; derived form
+file:	2010-12-25-email.txt
 
 tlh:	{ngoH} (1)
 sv:	«kleta», «smeta», «bestryka» (v)
@@ -11893,6 +11901,7 @@ en:	«pillow», «bed pouch» (n)
 def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
 ref:	7 December 2010: {Quvar} in email to tlhIngan-Hol ("News from Maltz")
 data:	phrase; derived form
+file:	2010-12-25-email.txt
 
 tlh:	{Qop} (1)
 sv:	vara «utsliten» (v)
@@ -14445,6 +14454,7 @@ sv:	«bröd» (s)
 en:	«bread» (n)
 def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
 data:	phrase
+file:	2010-12-25-email.txt
 
 tlh:	{tIS}
 sv:	vara «lätt» (om vikt) (v)
@@ -16353,6 +16363,7 @@ def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
 ref:	7 December 2010: {Quvar} in email to tlhIngan-Hol ("News from Maltz")
 cat:	clothing
 data:	phrase; derived form
+file:	2010-12-25-email.txt
 
 tlh:	{weq}
 sv:	«slå» (på slaginstrument) med handflata (v)
@@ -17029,6 +17040,7 @@ def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
 ref:	7 December 2010: {Quvar} in email to tlhIngan-Hol ("News from Maltz")
 cat:	clothing
 data:	phrase; derived form
+file:	2010-12-25-email.txt
 
 tlh:	{yoq}
 sv:	«humanoid» (s)
