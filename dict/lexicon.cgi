@@ -53,6 +53,20 @@ $lang = $lang eq "sve" ? "sv" :                #
         $lang eq "eng" ? "en" : $lang;         #
 $lang = "en" unless $lang =~ /^(en|sv)$/;      #
 
+our %postprocess = (
+    file => sub {
+        my ($value) = @_;
+        my $i = 0;
+        return map {
+            $value !~ /-(tkd|tkw|kgt)\.txt$/
+                ? ($i++ ? "\n      <br />" : "") . "<a href=\"../canon/$_\">$_</a>"
+                : ();
+        } split(/;\s*/, $value);
+        #return undef if $value =~ /-(tkd|tkw|kgt)\.txt$/;
+        #return '<a href="../canon/' . $value . '">' . $value . '</a>';
+        #undef;
+    },
+);
 our %field = (
     tlh  => "Klingon",
     sv   => "Swedish",
@@ -64,6 +78,7 @@ our %field = (
     see  => "See also",
     cat  => "Category",
     data => "Data",
+    file => "Transcript",
 );
 
 our @tips = (
@@ -372,10 +387,15 @@ print html_head() . html_form($query);
         s#(.*)¿\?(.*)#$1$2 (uncertain translation)#g;
         s/^\n//;
         foreach (split(/\n/, $_)) {
-            my ($field, $content) = split(/:/, $_, 2);
+            my ($field, @content) = split(/:/, $_, 2);
+            s/^\s+//, s/\s+$// foreach @content;
+            if (exists($postprocess{$field})) {
+                @content = &{$postprocess{$field}}(@content);
+                next unless @content;
+            }
             push @output, "  <tr>\n";
             push @output, "    <td>" . (exists($field{$field}) ? $field{$field} : ucfirst($field)) . ":&nbsp;</td>\n";
-            push @output, "    <td>$content</td>\n";
+            push @output, "    <td>@content</td>\n";
             push @output, "  </tr>";
         }
     }
