@@ -310,7 +310,8 @@ sub html_form {
     <td>
       <form method="get" action="lexicon.cgi">
         <input type="text" name="q" value="$query" size="30"
-          /><input type="submit" />
+          autofocus="autofocus" placeholder="Words to search for"
+          /><input type="submit" value="Search" />
       </form>
     </td>
   </tr>
