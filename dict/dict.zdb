@@ -76,6 +76,9 @@ FIELD NAMES USED IN DICTIONARY BELOW
 		      hypothesis of a word which is later disproven, if/when a
 		      word is discussed in this fashion it gets the "incorrect
 		      form" status so as to not confuse it with an actual word.
+    file:  (optional) contains file name(s) of the source transcript in
+                      "Archive of Okrandian Canon". Multiple filenames are
+                      separated with ";" (semicolon + space/linebreak)
 
 === start-of-word-list ===
 
