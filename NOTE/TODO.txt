@@ -1,6 +1,7 @@
 #+STARTUP: overview hidestars -*- org -*-
 
 * TODO Gitify upload
+** TODO Git "add" hook to store file dates/metadata?
 ** TODO Makefile must not require perl 5.10
 ** TODO Pre-commit hook should be checked in
    "make hooks" should create the client-side relevant hooks.
@@ -439,6 +440,33 @@
      CLOSED: [2010-11-18 Thu 09:55]
 ** TODO "Archive of Okrandian Canon"
 *** TODO Add a text containing {Sa'Hut} "buttocks" (from {qep'a'} 2003)
+*** TODO Block direct access to TKD, TKW and KGT transcripts
+    The following pages should not be accessible directly:
+
+    http://klingonska.org/canon/1992-01-01-tkd.txt
+    http://klingonska.org/canon/1997-11-01-kgt.txt
+    http://klingonska.org/canon/1996-05-01-tkw.txt
+
+    Could we do an invisible redirect to a CGI that demands a word from the
+    requested book? This script should then set a cookie, which is retained
+    throughout the site.
+
+    I.e. when I try to access e.g. canon/1992-01-01-tkd.txt I get a form
+    requesting me to enter a specified word from the book (in the same manner
+    as the current download script), if I then enter correctly, a cookie is set
+    and any subsquent access to the same URL gives me the transcript (as
+    expected to begin with).
+
+    Is this possible with Apache? Creating a symlink from a .txt file to a .cgi
+    results in the source of the CGI being displayed, rather than the CGI
+    executed. So it would have to be some URL rewrite, I think. Can URL
+    rewrites be made based on cookies?
+
+    The form should explicitly state that it uses cookies.
+
+    Or could the URL redirect point to a CGI that in turn outputs the text file
+    only if the cookie is set?
+
 *** TODO canon/search/index.cgi
 **** TODO query prefix "file:" to search only a specific file
      This should allow globs and comma-separated file names, e.g.
@@ -517,6 +545,10 @@
 *** TODO HolQeD 12:3 p.9 correction(?)
     "do more that is acceptable" should probably be "do more than is
     acceptable". ("than", rather than "that")
+*** DONE Add HolQeD 1:3 p.9 transcript
+    CLOSED: [2011-02-24 Thu 10:41]
+
+
 *** DONE HolQeD 7:2 p.8 spelling fix
     CLOSED: [2010-08-31 Tue 21:35]
     Check original article. {tlhlngan Hol Dajatlh 'e' vISov} should there
@@ -615,11 +647,33 @@
 **** DONE verify CSS
      CLOSED: [2010-08-09 Mon 02:16]
 *** DOING lexicon.cgi
+**** TODO take a look at why UTF-8 does not work on localhost
+     (Does it work on klingonska.org? Test by searching for "råna".)
+**** TODO add proof of having TKD/TKW/KGT
+     There should be a separate set-cookie script. Cookie should be encoded
+     somehow (based on browser originating IP?).
+
+     dict/lexicon.cgi should have a link to the cookie-setter script. And if
+     the auth-cookie is set TKD/TKW/KGT transcript links should be unlocked.
+
+     (This would have to be done in such a fashion that just accessing the link
+     to e.g. the TKD transcript does not return the actual transcript, unless
+     the user has the security cookie set properly.)
+
+**** TODO source references should be links to canon/
+**** TODO links to "Archive of Okrandian Canon" transcripts should look better
+     Instead of filenames, there should be the title of the transcript (and
+     possibly other information, such source date, author etc.).
+
+     This should probably be solved by having an index of transcript metadata
+     in a Perl on-disk database (indexed on filename) in the canon/ directory.
+     This would have to be automatically rebuilt on the server when doing "git
+     push", and on the client side on "git commit".
+
 **** TODO list of source reference abbreviations
 **** TODO forward/backward buttons to flip through the lexicon
 **** TODO typographical apostrophes, quotes and dashes
 **** TODO add negated search expressions ("-PHRASE")
-**** TODO source references should be links to canon/
 **** TODO move inline <style> CSS into separate file
 **** TODO implement an "Advanced search" form
      A la http://www.google.se/advanced_search. Shows different fields, and
@@ -718,7 +772,8 @@
 ***** DOING Check that all mughom.wizage.net "New Words" are present
       http://mughom.wizage.net
       This is a list of the last 100 words added to the database.
-
+****** TODO Tell {qurgh} that {veH tIn} "great barrier" is a place name
+       (and thus should be capitalized, as in TKDa)
 ****** DONE 'uj'a'	(noun)	unit of measurement, 9 'uj
        CLOSED: [2011-02-06 Sun 13:30]
 ****** DONE 'elI'jaH	(noun)	Unexpected visitor
@@ -753,17 +808,28 @@
        CLOSED: [2011-02-07 Mon 02:25]
 ****** DONE Soj	(noun)	matter, concern, affair (idiomatic)
        CLOSED: [2011-02-07 Mon 02:26]
-****** TODO qa'rI'	(noun)	end (of corridor, tunnel, conduit, Jeffries tube, sewer, road, bridge, long field, etc.)
-****** TODO pur	(verb)	inhale
-****** TODO nguq	(verb)	be arrogant, haughty, conceited
-****** TODO ghun	(verb)	be warm
-****** TODO quy'Ip	(noun)	vomit
-****** TODO qo'qaD	(noun)	phlegm
-****** TODO puq chonnaQ	(noun)	fork
-****** TODO ngugh	(adv)	then, at that time
-****** TODO pa' reD	(noun)	interior face of exterior wall
-****** TODO pa' beb	(noun)	ceiling of top story room
-****** TODO pIn tlhoy'	(noun)	territorial wall
+****** DONE qa'rI'	(noun)	end (of corridor, tunnel, conduit, Jeffries tube, sewer, road, bridge, long field, etc.)
+       CLOSED: [2011-02-07 Mon 12:07]
+****** DONE pur	(verb)	inhale
+       CLOSED: [2011-02-07 Mon 12:07]
+****** DONE nguq	(verb)	be arrogant, haughty, conceited
+       CLOSED: [2011-02-07 Mon 12:07]
+****** DONE ghun	(verb)	be warm
+       CLOSED: [2011-02-07 Mon 12:08]
+****** DONE quy'Ip	(noun)	vomit
+       CLOSED: [2011-02-07 Mon 12:08]
+****** DONE qo'qaD	(noun)	phlegm
+       CLOSED: [2011-02-07 Mon 12:13]
+****** DONE puq chonnaQ	(noun)	fork
+       CLOSED: [2011-02-07 Mon 12:14]
+****** DONE ngugh	(adv)	then, at that time
+       CLOSED: [2011-02-07 Mon 12:14]
+****** DONE pa' reD	(noun)	interior face of exterior wall
+       CLOSED: [2011-02-07 Mon 12:15]
+****** DONE pa' beb	(noun)	ceiling of top story room
+       CLOSED: [2011-02-07 Mon 12:15]
+****** DONE pIn tlhoy'	(noun)	territorial wall
+       CLOSED: [2011-02-07 Mon 12:16]
 ****** TODO qolqoS	(noun)	core of a group, the essential part of something; essence
 ****** TODO pu'jIn	(noun)	map, plan (as in a building plan)
 ****** TODO tlhongaD	(noun)	klongat - Animal native to Qo'noS that is much larger than a targ and more difficult to subdue.
@@ -775,7 +841,8 @@
 ****** TODO QaS DevwI'	(noun)	Troop commander, troop leader, roughly analogous to sergeant, used as title such as QaS DevwI' Vok (Vok being the name of one of the characters in the book)
 ****** TODO tIqleH	(noun)	tik'leth - An edged weapon similar to Earth long sword.
 ****** TODO taqnar	(noun)	taknar gizzards
-****** TODO Suto'vo'qor	(noun)	Sto-Vo-Kor
+****** DONE Suto'vo'qor	(noun)	Sto-Vo-Kor
+       CLOSED: [2011-02-07 Mon 12:19]
 ****** TODO So'HIp	(noun)	Literally uniform of hiding, this is a camouflage outfit that changes color in order to blend with the background of the environment the wearer is currently inhabiting.
 ****** TODO ramjep	(noun)	a type of bird (probably nocturnal)
 ****** TODO moqbara	(noun)	mok'bara
@@ -788,30 +855,49 @@
 ****** TODO Da'ar	(noun)	Dahar (master)
 ****** TODO boqrat chej	(noun)	bok-rat liver, stewed
 ****** TODO 'aDanjI'	(noun)	adanji
-****** TODO vIlle'	(noun)	minion
-****** TODO vIl	(noun)	speed bump
-****** TODO reghuluS 'Iwghargh	(noun)	Regulan bloodworm
-****** TODO nImbuS wej	(noun)	Nimbus III
+****** DONE vIlle'	(noun)	minion
+       CLOSED: [2011-02-07 Mon 12:22]
+****** DONE vIl	(noun)	speed bump
+       CLOSED: [2011-02-07 Mon 12:23]
+****** DONE reghuluS 'Iwghargh	(noun)	Regulan bloodworm
+       CLOSED: [2011-02-07 Mon 12:24]
+****** DONE nImbuS wej	(noun)	Nimbus III
+       CLOSED: [2011-02-07 Mon 12:24]
 ****** TODO yaDpach	(noun)	toenail
 ****** TODO wovmoH	(verb)	light, enlighten
-****** TODO telun Hovtay'	(noun)	Tellun Star System
-****** TODO veH tIn	(noun)	great barrier
-****** TODO tlhIngan wo'	(noun)	Klingon Empire
+****** DONE telun Hovtay'	(noun)	Tellun Star System
+       CLOSED: [2011-02-07 Mon 12:25]
+****** DONE veH tIn	(noun)	great barrier
+       CLOSED: [2011-02-07 Mon 12:26]
+****** DONE tlhIngan wo'	(noun)	Klingon Empire
+       CLOSED: [2011-02-07 Mon 12:28]
 ****** TODO Say'qu'	(verb)	be sterile
-****** TODO qung	(noun)	hole in a musical instrument (wind instruments; not stringed ones)
-****** TODO qughDo	(noun)	crusing speed
-****** TODO qay	(verb)	use the second (middle) finger
+****** DONE qung	(noun)	hole in a musical instrument (wind instruments; not stringed ones)
+       CLOSED: [2011-02-07 Mon 12:30]
+****** DONE qughDo	(noun)	crusing speed
+       CLOSED: [2011-02-07 Mon 12:30]
+****** DONE qay	(verb)	use the second (middle) finger
+       CLOSED: [2011-02-07 Mon 12:31]
 ****** TODO roSHa'	(verb)	be paralyzed
-****** TODO qen	(adv)	recently, a short time ago
-****** TODO qaryoq'a'	(noun)	bird capable of mimicking speech, larger than qaryoq
-****** TODO qaryoq	(noun)	bird capable of mimicking speech
-****** TODO qa'rol	(noun)	a really big bird
-****** TODO qanraD	(noun)	a bird known for its song
+****** DONE qen	(adv)	recently, a short time ago
+       CLOSED: [2011-02-07 Mon 12:32]
+****** DONE qaryoq'a'	(noun)	bird capable of mimicking speech, larger than qaryoq
+       CLOSED: [2011-02-07 Mon 12:32]
+****** DONE qaryoq	(noun)	bird capable of mimicking speech
+       CLOSED: [2011-02-07 Mon 12:33]
+****** DONE qa'rol	(noun)	a really big bird
+       CLOSED: [2011-02-07 Mon 12:33]
+****** DONE qanraD	(noun)	a bird known for its song
+       CLOSED: [2011-02-07 Mon 12:33]
 ****** TODO puyjaq'a'	(noun)	super nova
-****** TODO qa'meH vIttlhegh	(noun)	replacement proverb
-****** TODO pIvchem	(noun)	warp field
-****** TODO pIrmuS	(noun)	bottom (exterior)
-****** TODO pIq	(noun)	time period from now (future)
+****** DONE qa'meH vIttlhegh	(noun)	replacement proverb
+       CLOSED: [2011-02-07 Mon 12:34]
+****** DONE pIvchem	(noun)	warp field
+       CLOSED: [2011-02-07 Mon 12:34]
+****** DONE pIrmuS	(noun)	bottom (exterior)
+       CLOSED: [2011-02-07 Mon 12:34]
+****** DONE pIq	(noun)	time period from now (future)
+       CLOSED: [2011-02-07 Mon 12:35]
 ****** TODO peQ chem	(noun)	magnetic field
 ****** TODO qan	(verb)	use the fourth finger (pinky/little finger)
 ****** TODO qanwI'	(noun)	fourth finger, little finger
