@@ -1301,6 +1301,7 @@ tlh:	{cheb}
 sv:	«vikt«enhet»», «~cheb~» (cirka 2,25 «kilogram») (s)
 en:	«unit» of «weight», «~cheb~» (about 5 «pound»s or 2.25 «kilogram»s) (n)
 def:	[News 1997-10-22]
+file:	1997-10-22-news.txt
 
 tlh:	{cheb'a'}
 sv:	«vikt«enhet»», 9 «~cheb~» (cirka 20,25 «kilogram») (s)
@@ -1310,6 +1311,7 @@ com:	(n) unit weight approx. 45--46.4 pounds (20.4--21.05 kg) (9--9.28 cheb)
 	from different equivalences we've been given.] [BoP poster] (Added:
 	12 March 2002) [KLINW]
 def:	[News 1997-10-22; BoP]
+file:	1997-10-22-news.txt
 file:	1998-11-01-bop.txt
 
 tlh:	{chech}
@@ -5506,6 +5508,7 @@ tlh:	{juch}
 sv:	«ha» en «bredd» av (v)
 en:	«have» a «width» of (v)
 def:	[News 1997-10-22]
+file:	1997-10-22-news.txt
 
 tlh:	{juH}
 sv:	«hem» (s)
@@ -15481,6 +15484,7 @@ tlh:	{tlho'ren}
 sv:	«volym«enhet»» (cirka en «liter») (s)
 en:	«unit» of «measure» (about one «quart» or «liter») (n)
 def:	[News 1997-10-22]
+file:	1997-10-22-news.txt
 
 tlh:	{tlhuch}
 sv:	«tömma», «förbruka», «göra slut» på, «pumpa ut» (v)
@@ -17385,6 +17389,7 @@ sv:	«ha» en «längd»/«höjd» av (v)
 en:	«have» a «length»/«height» of (v)
 def:	[S32; News 1997-10-22]
 com:	S32 was reprinted in HQ6:2 p.9
+file:	1997-10-22-news.txt
 
 tlh:	{'ach}
 sv:	«men», «ändå», «dock», «trots allt», «emellertid» (konj)
@@ -17396,7 +17401,8 @@ file:	1992-01-01-tkd.txt
 tlh:	{'aD}
 sv:	«ha» en «längd» av, «mäta» (v)
 en:	<have> a <length> of, <measure> (v)
-def:	[KGT; News 1997-10-22]
+def:	[News 1997-10-22; KGT]
+file:	1997-10-22-news.txt
 file:	1997-11-01-kgt.txt
 
 tlh:	{'aD}
@@ -18221,9 +18227,10 @@ file:	1992-01-01-tkd.txt
 tlh:	{'uj}
 sv:	«längd«enhet»», «~uj~» (cirka 35 «centi«meter»») (s)
 en:	«unit» of linear «measure», <~uj~> (about 35 «centi«meter»»s) (n)
-def:	[KGT; News 1997-10-22]
+def:	[News 1997-10-22; KGT]
 com:	More exactly one ~uj~ is 34.83 cm (as caluculated from useage
 	on BoP).
+file:	1997-10-22-news.txt
 file:	1997-11-01-kgt.txt
 
 tlh:	{'uj'a'}
