@@ -3653,6 +3653,7 @@ def:	[ST5; HQ8:4 p.13]
 com:	ST5: {ghuy' po'qu'} "Damn he's good."
 	Article in HQ is called "Notes from Star Trek V: The Final
 	Frontier".
+file:	1999-12-holqed-08-4.txt
 
 tlh:	{ghuy'cha'}
 sv:	*@$% («svordom») (interj)
@@ -9023,6 +9024,7 @@ com:	ST5: {DIvI' Se' wI'IjtaHvIS DaH ngoqDe' wIHevta'.} "We've
 	frequency."
 	Article in HQ is called "Notes from Star Trek V: The Final
 	Frontier".
+file:	1999-12-holqed-08-4.txt
 
 tlh:	{ngoQ}
 sv:	«mål», «syfte» (s)
@@ -10861,6 +10863,7 @@ def:	[HQ8:4 p.12]
 com:	ST5: {'entepray''a'. qIrq Duj 'oH} "Enterprise? That's Kirk's
 	ship."
 	Word does not follow standard Klingon phonotax.
+file:	1999-12-holqed-08-4.txt
 
 tlh:	{qIt}
 sv:	vara «möjlig» (v)
@@ -14619,6 +14622,7 @@ en:	«rescue ship» (n)
 def:	[ST5; HQ8:4 p.11]
 com:	ST5: {vaj toDDujDaj ngeHbej DIvI'.} "That means the
 	Federation will be sending a rescue ship of its own."
+file:	1999-12-holqed-08-4.txt
 
 tlh:	{toDSaH}
 sv:	(«epitet») (interj)
@@ -18315,6 +18319,7 @@ en:	«operations command» (n)
 def:	[ST5; HQ8:4 p.11]
 com:	¿?Is this correctly formed?
 data:	phrase; {yo'SeH} (n); {yaHnIv} (n)
+file:	1999-12-holqed-08-4.txt
 
 tlh:	{bo}
 sv:	«fjäder» (på fågel) (s)
