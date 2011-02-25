@@ -1117,6 +1117,7 @@ en:	area eastward, area towards the «east» (n)
 def:	[News 1999-11-21]
 com:	"90 degrees on Terran compass" [KLINW]
 cat:	locative
+file:	1999-11-21-news.txt
 
 tlh:	{chanDoq}
 sv:	«marinad» (s)
@@ -14564,6 +14565,7 @@ en:	area southwestward, area towards the «southwest» (n)
 def:	[News 1999-11-21]
 com:	"approx 220 degrees on terran compass" [KLINW]
 cat:	locative
+file:	1999-11-21-news.txt
 
 tlh:	{tIngDagh}
 sv:	ett slags sträng«instrument» (s)
@@ -17777,6 +17779,7 @@ en:	area northwestward, area towards the «northwest» (n)
 def:	[News 1999-11-21]
 com:	"320 degrees on terran compass" [KLINW]
 cat:	locative
+file:	1999-11-21-news.txt
 
 tlh:	{'evnagh}
 sv:	«subrymd», «underrymd» (s)
