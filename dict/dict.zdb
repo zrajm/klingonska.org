@@ -289,6 +289,7 @@ sv:	«tak», yttertak (s)
 en:	«roof» (n)
 def:	[News 1998-12-07]
 ref:	[KLINW]
+file:	1998-12-07-news.txt
 
 tlh:	{bech}
 sv:	«lida» (v)
@@ -1467,6 +1468,7 @@ sv:	territorial«mur» (t.ex. Berlinmuren) (s)
 en:	territorial «wall» (e.g. Berlin Wall) (n)
 def:	[News 1998-12-07]
 data:	phrase
+file:	1998-12-07-news.txt
 
 tlh:	{che'}
 sv:	«regera», «styra», «härska», «leda», «presidera», sitta «ordförande» (v)
@@ -9394,6 +9396,7 @@ def:	[News 1998-12-07; HQ8:3 p.2]
 com:	Article in HQ is called "{matlh juppu' mu'mey}".
 see:	{rav'eq}
 data:	phrase
+file:	1998-12-07-news.txt
 file:	1999-09-holqed-08-3.txt
 
 tlh:	{pa' reD}
@@ -9401,6 +9404,7 @@ sv:	insida av ytter«vägg» (s)
 en:	interior face of exterior «wall» (n)
 def:	[News 1998-12-07]
 data:	phrase
+file:	1998-12-07-news.txt
 
 tlh:	{peb'ot}
 sv:	ett slags «frukt» (s)
@@ -9656,6 +9660,7 @@ sv:	territorial«mur» (t.ex. Berlinmuren) (s)
 en:	territorial «wall» (e.g. Berlin Wall) (n)
 def:	[News 1998-12-07]
 data:	phrase
+file:	1998-12-07-news.txt
 
 tlh:	{pIn'a'}
 sv:	«mästare» (s)
@@ -12426,6 +12431,7 @@ en:	«ceiling» (of a room that has a room above it) (n)
 def:	[News 1998-12-07; HQ8:3 p.2]
 com:	Article in HQ is called "{matlh juppu' mu'mey}".
 see:	{pa' beb}
+file:	1998-12-07-news.txt
 file:	1999-09-holqed-08-3.txt
 
 tlh:	{ray}
@@ -12485,6 +12491,7 @@ tlh:	{reD}
 sv:	ytter«vägg» (s)
 en:	exterior «wall» (n)
 def:	[News 1998-12-07]
+file:	1998-12-07-news.txt
 
 tlh:	{regh}
 sv:	«blöda» (v)
@@ -15466,12 +15473,14 @@ sv:	«vägg», innervägg, insida av yttervägg, territorial«mur» (s)
 en:	«wall», interior wall, interior face of exterior wall, territorial
 	wall (n)
 def:	[News 1998-12-07]
+file:	1998-12-07-news.txt
 
 tlh:	{tlhoy' SaS}
 sv:	«tak»/«golv» mellan våningar (s)
 en:	«ceiling»/«floor» between stories (n)
 def:	[News 1998-12-07]
 data:	phrase
+file:	1998-12-07-news.txt
 
 tlh:	{tlho'}
 sv:	«tacka» (v)
@@ -17010,11 +17019,13 @@ tlh:	{yer}
 sv:	«domän», «egendom», «besittning», «territorium» (s)
 en:	«domain», «holdings», «territory» (n)
 def:	[News 1998-12-07]
+file:	1998-12-07-news.txt
 
 tlh:	{yergho}
 sv:	«stads«mur»» (s)
 en:	«city «wall»» (n)
 def:	[News 1998-12-07]
+file:	1998-12-07-news.txt
 
 tlh:	{yev}
 sv:	ta en «paus», stanna upp (v)
