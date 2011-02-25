@@ -3263,6 +3263,7 @@ com:	Entries from all sources have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 file:	1997-11-01-kgt.txt
+file:	1993-12-holqed-02-4.txt
 
 tlh:	{ghItlh}
 sv:	«manuskript» (s)
@@ -11484,6 +11485,7 @@ com:	HQ: "To win" a competition is {Qap}. (If it's a decisive or
 	function perfectly.
 file:	1997-11-01-kgt.txt
 file:	1996-05-01-tkw.txt
+file:	1993-12-holqed-02-4.txt
 
 tlh:	{Qapla'}
 sv:	«framgång» (s)
