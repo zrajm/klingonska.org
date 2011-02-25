@@ -9518,6 +9518,7 @@ def:	[TKD; News 1999-02-02]
 com:	¿?What does this word really mean? (Check swedish translation.)
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+file:	1999-02-02-email.txt
 
 tlh:	{per}
 sv:	«etikett», «namn» (s)
@@ -10677,6 +10678,7 @@ sv:	«nyligen», för ett litet tag sedan, alldeles «nyss» (adv)
 en:	«recently», a short time ago (adv)
 def:	[News 1999-02-02]
 cat:	time
+file:	1999-02-02-email.txt
 
 tlh:	{qeng}
 sv:	«bära», «medföra», «forsla» (v)
@@ -16283,6 +16285,7 @@ tlh:	{wab}
 sv:	«ljud», «oljud» (s)
 en:	«sound», «noise» (n)
 def:	[News 1999-02-02]
+file:	1999-02-02-email.txt
 
 tlh:	{wagh}
 sv:	vara «dyr» (v)
@@ -17540,6 +17543,7 @@ tlh:	{'arlogh}
 sv:	«hur många gånger»? (fråg)
 en:	«how many times»? (ques)
 def:	[News 1999-02-02]
+file:	1999-02-02-email.txt
 
 tlh:	{'atrom}
 sv:	«A'trom» (namn)
