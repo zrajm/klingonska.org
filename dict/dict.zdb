@@ -2089,9 +2089,9 @@ file:	1992-01-01-tkd.txt
 tlh:	{Dat}
 sv:	«överallt», alla platser (s)
 en:	<everywhere>, all places (n)
-def:	[TKD 3.3.5 (p.27--28) et al.]
-gram:	never takes {-Daq} [TKD 3.3.5 (p.27--28)]
-com:	Locative word, never followed by {-Daq} [TKD 3.3.5 (p.27--28)].
+def:	[TKD 3.3.5 (pp.27--28) et al.]
+gram:	never takes {-Daq} [TKD 3.3.5 (pp.27--28)]
+com:	Locative word, never followed by {-Daq} [TKD 3.3.5 (pp.27--28)].
 cat:	locative
 file:	1992-01-01-tkd.txt
 
@@ -2635,10 +2635,11 @@ file:	1997-11-01-kgt.txt
 tlh:	{Dub}
 sv:	«förbättra» (v)
 en:	<improve> (v)
-def:	[TKD; S13; S14; S26]
+def:	[TKD; S14; S26]
 ref:	[TDNW]
 gram:	{patlhwIj vIDub} ~I improve my status;~ object is the thing improved
 file:	1992-01-01-tkd.txt
+file:	1995-sbx-s14.txt
 file:	1996-sbx-s26.txt
 
 tlh:	{Dub}
@@ -6388,7 +6389,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{lung}
 sv:	ett slags «djur», «drake», «~loong~» (ödleliknande) (s)
 en:	type of <animal>, «dragon», «~loong~» (lizardlike) (n)
-def:	[KGT; KGT p.48--49]
+def:	[KGT pp.48--49]
 file:	1997-11-01-kgt.txt
 
 tlh:	{lup}
@@ -7293,7 +7294,9 @@ tlh:	{motlh}
 sv:	vara «vanlig», vara «normal», vara «standard» (v)
 en:	be <usual>, be «normal», be «standard» (v)
 def:	[TKD; S14; BoP]
+com:	Translation "standard" found on S14.
 file:	1992-01-01-tkd.txt
+file:	1995-sbx-s14.txt
 file:	1998-11-01-bop.txt
 
 tlh:	{motlh}
@@ -7632,9 +7635,9 @@ file:	1992-01-01-tkd.txt
 tlh:	{naDev}
 sv:	«här», «häromkring» (s)
 en:	<here>, hereabouts (n)
-def:	[TKD 3.3.5 (p.27--28) et al.]
-gram:	never takes {-Daq} [TKD 3.3.5 (p.27--28)]
-com:	Locative word, never followed by {-Daq} [TKD 3.3.5 (p.27--28)].
+def:	[TKD 3.3.5 (pp.27--28) et al.]
+gram:	never takes {-Daq} [TKD 3.3.5 (pp.27--28)]
+com:	Locative word, never followed by {-Daq} [TKD 3.3.5 (pp.27--28)].
 cat:	locative
 file:	1992-01-01-tkd.txt
 
@@ -9388,9 +9391,9 @@ file:	1998-11-01-bop.txt
 tlh:	{pa'} (2)
 sv:	«där», där borta, däromkring (s)
 en:	<there>, over there, thereabouts (n)
-def:	[TKD 3.3.5 (p.27--28) et al.]
-gram:	never takes {-Daq} [TKD 3.3.5 (p.27--28)]
-com:	Locative word, never followed by {-Daq} [TKD 3.3.5 (p.27--28)].
+def:	[TKD 3.3.5 (pp.27--28) et al.]
+gram:	never takes {-Daq} [TKD 3.3.5 (pp.27--28)]
+com:	Locative word, never followed by {-Daq} [TKD 3.3.5 (pp.27--28)].
 cat:	locative
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
@@ -17430,6 +17433,7 @@ en:	«have» a «length»/«height» of (v)
 def:	[S32; News 1997-10-22]
 com:	S32 was reprinted in HQ6:2 p.9
 file:	1997-10-22-news.txt
+file:	1997-sbx-s32.txt
 
 tlh:	{'ach}
 sv:	«men», «ändå», «dock», «trots allt», «emellertid» (konj)
@@ -19182,7 +19186,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{-meH}
 sv:	i syfte att, för att (vs9)
 en:	for, for the purpose of, in order to (purpose-clause marker) (vs9)
-def:	[TKD 4.2.9 (p.44), 6.2.4 (p.64--65)]
+def:	[TKD 4.2.9 (p.44), 6.2.4 (pp.64--65)]
 com:	Entries differ and have been combined here.
 	The purpose clause always precedes the noun or verb whose
 	purpose it is describing.
