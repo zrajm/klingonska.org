@@ -400,7 +400,7 @@
 *** Allow use for #...# words excepted from normal rules
     E.g. "{#Quvatlh#}", or "{tlhIngan #badword# something}"
 *** Support " between words in Klingon
-* Article improvements
+* Web page improvement
 ** TODO Title page
 *** Add some thing (javascript?) to indicate pages that have been recently updated
     This should maybe be displayed as "New!" for a week, and "New" (with less
@@ -439,60 +439,152 @@
 **** DONE include lilypond score (and source)
      CLOSED: [2010-11-18 Thu 09:55]
 ** TODO "Archive of Okrandian Canon"
-*** TODO Add a text containing {Sa'Hut} "buttocks" (from {qep'a'} 2003)
-*** TODO Block direct access to TKD, TKW and KGT transcripts
-    The following pages should not be accessible directly:
+*** TODO Script/Apache config
+**** TODO Block direct access to TKD, TKW and KGT transcripts
+     The following pages should not be accessible directly:
 
-    http://klingonska.org/canon/1992-01-01-tkd.txt
-    http://klingonska.org/canon/1997-11-01-kgt.txt
-    http://klingonska.org/canon/1996-05-01-tkw.txt
+     http://klingonska.org/canon/1992-01-01-tkd.txt
+     http://klingonska.org/canon/1997-11-01-kgt.txt
+     http://klingonska.org/canon/1996-05-01-tkw.txt
 
-    Could we do an invisible redirect to a CGI that demands a word from the
-    requested book? This script should then set a cookie, which is retained
-    throughout the site.
+     Could we do an invisible redirect to a CGI that demands a word from the
+     requested book? This script should then set a cookie, which is retained
+     throughout the site.
 
-    I.e. when I try to access e.g. canon/1992-01-01-tkd.txt I get a form
-    requesting me to enter a specified word from the book (in the same manner
-    as the current download script), if I then enter correctly, a cookie is set
-    and any subsquent access to the same URL gives me the transcript (as
-    expected to begin with).
+     I.e. when I try to access e.g. canon/1992-01-01-tkd.txt I get a form
+     requesting me to enter a specified word from the book (in the same manner
+     as the current download script), if I then enter correctly, a cookie is
+     set and any subsquent access to the same URL gives me the transcript (as
+     expected to begin with).
 
-    Is this possible with Apache? Creating a symlink from a .txt file to a .cgi
-    results in the source of the CGI being displayed, rather than the CGI
-    executed. So it would have to be some URL rewrite, I think. Can URL
-    rewrites be made based on cookies?
+     Is this possible with Apache? Creating a symlink from a .txt file to a
+     .cgi results in the source of the CGI being displayed, rather than the CGI
+     executed. So it would have to be some URL rewrite, I think. Can URL
+     rewrites be made based on cookies?
 
-    The form should explicitly state that it uses cookies.
+     The form should explicitly state that it uses cookies.
 
-    Or could the URL redirect point to a CGI that in turn outputs the text file
-    only if the cookie is set?
+     Or could the URL redirect point to a CGI that in turn outputs the text
+     file only if the cookie is set?
 
-*** TODO canon/search/index.cgi
-**** TODO query prefix "file:" to search only a specific file
-     This should allow globs and comma-separated file names, e.g.
-     "file:*holqed*", "file:*email,*news" etc.
-**** TODO list of files should be available
-**** TODO source file display should allow choice between original/corrected version
-     When displaying files, should implement button to change between
-     "original", "corrected" and "difference" views of the same text.
+***** TODO Apache config(?)
+****** TODO Block access to tkd/kgt/tkw files
+****** TODO Invisibly rewrite tkd/kgt/tkw urls to script
+****** TODO Script should auth before returning transcripts
 
-     JavaScript version for this is there:
-     NOTE/2010-09-01-original+corrected-display/index.html
+**** TODO Search engine improvements (canon/search/index.cgi)
+***** TODO Add Chrome integration (some sort of open protocol?)
+      Most sites search functions (e.g. YouTube, Wikipedia etc.) are
+      automatically detected by Chrome, so that you can auto-complete the site
+      name in the navigation bar, and then automatically do a search on that
+      site without first having to visit it.
 
-     NOTE: <noscript> alternative is implemented in above HTML, but needs CGI
-     support to work as well (test this out using Firefox with JavaScript disabled).
+      I want that for klingonska!
 
-     [http://test.zrajm.org/canon/search/?file=1997-09-01c-news.txt&query=hello]
-*** TODO canon/old/1996-09.txt contains oct char \222 (apostrophe)
+      How is this done? Is it some kind of microformat that makes Chrome detect
+      search engines?
+
+***** TODO query prefix "file:" to search only a specific file
+      This should allow globs and comma-separated file names, e.g.
+      "file:*holqed*", "file:*email,*news" etc.
+***** TODO list of files should be available
+***** TODO source file display should allow choice between original/corrected version
+      When displaying files, should implement button to change between
+      "original", "corrected" and "difference" views of the same text.
+
+      JavaScript version for this is there:
+      NOTE/2010-09-01-original+corrected-display/index.html
+
+      NOTE: <noscript> alternative is implemented in above HTML, but needs CGI
+      support to work as well (test this out using Firefox with JavaScript disabled).
+
+      [http://test.zrajm.org/canon/search/?file=1997-09-01c-news.txt&query=hello]
+*** TODO Transcripts updating/improvement
+**** TODO Add a text containing {Sa'Hut} "buttocks" (from {qep'a'} 2003)
+**** TODO canon/old/1996-09.txt contains oct char \222 (apostrophe)
      (do any other documents?) latin1 -> utf8 convert these?
-*** TODO canon/1997-sbx-s31.html missing Skybox S32 and S33 images
-*** TODO re-scan Skybox trading cards and add to
-        canon/1994-sbx-sp1.html
-        canon/1995-sbx-s7.html
-        canon/1995-sbx-s13.html
-        canon/1996-sbx-s19.html
-        canon/1996-sbx-s25.html
-        canon/1997-sbx-s31.html
+**** TODO canon/1997-sbx-s31.html missing Skybox S32 and S33 images
+**** TODO re-scan Skybox trading cards and add to
+         canon/1994-sbx-sp1.html
+         canon/1995-sbx-s7.html
+         canon/1995-sbx-s13.html
+         canon/1996-sbx-s19.html
+         canon/1996-sbx-s25.html
+         canon/1997-sbx-s31.html
+**** TODO Add KCD transcripts
+     "KCD 1" (to "KCD 6" at least)
+     qa'vaj has transcribed KCD, (subject "KCD" etc in my gmail)
+***** Add "file:" for dictionary entries with "KCD" in "def" field
+**** TODO Add reference for {nIyma'}
+     http://mail.google.com/mail/#search/niyma'/11dcaa2b915a07df
+**** TODO Add reference for {pu'jIn}
+     http://mail.google.com/mail/?shva=1#search/jin+to%3Atlhingan-hol%40kli.org/125280bf1b4e53a6
+**** TODO Add ST5 transcript
+     http://mail.google.com/mail/#label/imported/12a129c1002403f8
+**** TODO Add "Klingon words from _Diplomatic Implausibility_ (DI)"
+     (found in email to tlhingan-hol with same subject)
+***** TODO transcribe relevant portions
+***** DONE Order book from UEB
+      CLOSED: [2010-08-26 Thu 19:47]
+**** TODO Add HolQeD 5:2 p.11 (article about {Hoch})
+      Mentioned in:
+      file:///home/zrajm/2010-07-08/teresh.tdonnelly.org/kliadd5.html
+***** TODO Email Mark about "?{Hoch paq[mey]}" vs. "{paq[mey] Hoch}"
+****** TODO Get Mark Shoulson's email address
+****** TODO Email him about it
+       The question mark comes in front of the wrong sentence, does it not?
+***** DONE Transcribe
+       CLOSED: [2010-08-26 Thu 15:39]
+***** DONE Proofread
+       CLOSED: [2010-08-26 Thu 15:39]
+***** DONE Check page references
+       CLOSED: [2010-08-26 Thu 15:47]
+***** DONE Check quotes with their sources
+       CLOSED: [2010-08-26 Thu 15:47]
+***** DONE Check hyphenations
+       CLOSED: [2010-08-26 Thu 15:43]
+**** TODO TKD correction
+     Dictionary part contains, "just, only, merely, (adv) neH". Check the
+     trailing comma with original source
+**** TODO HolQeD 12:3 p.9 correction
+     "do more that is acceptable" should probably be "do more than is
+     acceptable". ("than", rather than "that")
+**** DONE Add HolQeD 1:3 p.9 transcript
+     CLOSED: [2011-02-24 Thu 10:41]
+**** DONE HolQeD 7:2 p.8 spelling fix
+     CLOSED: [2010-08-31 Tue 21:35]
+     Check original article. {tlhlngan Hol Dajatlh 'e' vISov} should there
+     really be an {l} instead of an {I} here? 1998-06-holqed-07-2.txt Fixed
+     transcription typo.
+**** DONE HolQeD 7:4 p.4 spelling fix
+     CLOSED: [2010-08-31 Tue 21:45]
+     Check original article. {avwI' jang qama'. [...]} is the initial {'} really
+     missing? 1998-12-holqed-07-4.txt Typo in original source (added correction
+     comment).
+**** DONE HolQeD 8:3 p.4 spelling fix
+     CLOSED: [2010-08-31 Tue 21:47]
+     Check original article. {[...] SuvwI'pu' HoHta' geng.} should the {g} be a
+     {q}, perhaps? 1999-09-holqed-08-3.txt Fixed transcription typo.
+**** DONE HolQeD 13:1 p.10 spelling fix
+     CLOSED: [2010-08-31 Tue 21:51]
+     Check original article. {Quchwlj vIl law' QuchlIj vIl puS} should there
+     really be an {l} instead of an {I} here? 2004-03-holqed-13-1.txt Fixed
+     transcription typo.
+**** DONE Correct "canon/2003-06-holqed-12-2.txt"
+     CLOSED: [2010-08-26 Thu 19:45]
+***** DONE Proofread
+      CLOSED: [2010-08-26 Thu 19:45]
+***** DONE Transcript error: {'omeghqoq}
+      CLOSED: [2010-08-26 Thu 09:46]
+***** DONE Transcript error: "song o opera"
+      CLOSED: [2010-08-26 Thu 09:47]
+***** DONE Period after: "the warriors are sad"? -- was correct
+      CLOSED: [2010-08-26 Thu 09:48]
+***** DONE Period after: "the warriors drink"? -- was correct
+      CLOSED: [2010-08-26 Thu 09:48]
+***** DONE "one either {megh'an}" should be "once either {megh'an}"?
+      CLOSED: [2010-08-26 Thu 09:55]
+
 *** TODO General corrections
 **** TODO Machine-check Klingon syllable structure
 **** TODO Machine-extract & check that all words are in dict.zdb
@@ -501,87 +593,14 @@
      fully automated in future.)
 **** TODO Check that all brackets match
 ***** <...> (...) [...] etc.
-**** DONE Strip any trailing whitespace at eof (anywhere)
+**** DONE Strip any trailing whitespace at eof/eol (anywhere)
      CLOSED: [2010-10-05 Tue 02:49]
-*** TODO Search engine improvements
-**** Add Chrome integration (some sort of open protocol?)
-*** TODO Typography in main article
-**** Should dashes in ISBN numbers be endash or hyphen sized?
-     (Also make them non-line-breaking)
-**** Make ranges use non-line-breaking emdash
-*** TODO New transcripts should be added to article/table
-*** TODO Add "KCD 1" (to "KCD 6" at least)
-    qa'vaj has transcribed KCD, (subject "KCD" etc in my gmail)
-*** TODO Add reference for {nIyma'}
-    http://mail.google.com/mail/#search/niyma'/11dcaa2b915a07df
-*** TODO Add reference for {pu'jIn}
-    http://mail.google.com/mail/?shva=1#search/jin+to%3Atlhingan-hol%40kli.org/125280bf1b4e53a6
-*** TODO Add ST5 transcript
-    http://mail.google.com/mail/#label/imported/12a129c1002403f8
-*** DOING Add "Klingon words from _Diplomatic Implausibility_ (DI)"
-    (found in email to tlhingan-hol with same subject)
-**** DONE Order book from UEB
-     CLOSED: [2010-08-26 Thu 19:47]
-**** TODO transcribe relevant portions
-*** DOING Add HolQeD 5:2 p.11 (article about {Hoch})
-     Mentioned in:
-     file:///home/zrajm/2010-07-08/teresh.tdonnelly.org/kliadd5.html
-**** TODO Email Mark about "?{Hoch paq[mey]}" vs. "{paq[mey] Hoch}"
-***** TODO Get Mark Shoulson's email address
-***** TODO Email him about it
-      The question mark comes in front of the wrong sentence, does it not?
-**** DONE Transcribe
-      CLOSED: [2010-08-26 Thu 15:39]
-**** DONE Proofread
-      CLOSED: [2010-08-26 Thu 15:39]
-**** DONE Check page references
-      CLOSED: [2010-08-26 Thu 15:47]
-**** DONE Check quotes with their sources
-      CLOSED: [2010-08-26 Thu 15:47]
-**** DONE Check hyphenations
-      CLOSED: [2010-08-26 Thu 15:43]
-*** TODO The Klingon Dictionary
-    Dictionary part contains, "just, only, merely, (adv)     neH". Check the trailing comma.
-*** TODO HolQeD 12:3 p.9 correction(?)
-    "do more that is acceptable" should probably be "do more than is
-    acceptable". ("than", rather than "that")
-*** DONE Add HolQeD 1:3 p.9 transcript
-    CLOSED: [2011-02-24 Thu 10:41]
-
-
-*** DONE HolQeD 7:2 p.8 spelling fix
-    CLOSED: [2010-08-31 Tue 21:35]
-    Check original article. {tlhlngan Hol Dajatlh 'e' vISov} should there
-    really be an {l} instead of an {I} here? 1998-06-holqed-07-2.txt Fixed
-    transcription typo.
-*** DONE HolQeD 7:4 p.4 spelling fix
-    CLOSED: [2010-08-31 Tue 21:45]
-    Check original article. {avwI' jang qama'. [...]} is the initial {'} really
-    missing? 1998-12-holqed-07-4.txt Typo in original source (added correction
-    comment).
-*** DONE HolQeD 8:3 p.4 spelling fix
-    CLOSED: [2010-08-31 Tue 21:47]
-    Check original article. {[...] SuvwI'pu' HoHta' geng.} should the {g} be a
-    {q}, perhaps? 1999-09-holqed-08-3.txt Fixed transcription typo.
-*** DONE HolQeD 13:1 p.10 spelling fix
-    CLOSED: [2010-08-31 Tue 21:51]
-    Check original article. {Quchwlj vIl law' QuchlIj vIl puS} should there
-    really be an {l} instead of an {I} here? 2004-03-holqed-13-1.txt Fixed
-    transcription typo.
-*** DONE Correct "canon/2003-06-holqed-12-2.txt"
-    CLOSED: [2010-08-26 Thu 19:45]
-**** DONE Proofread
-     CLOSED: [2010-08-26 Thu 19:45]
-**** DONE Transcript error: {'omeghqoq}
-     CLOSED: [2010-08-26 Thu 09:46]
-**** DONE Transcript error: "song o opera"
-     CLOSED: [2010-08-26 Thu 09:47]
-**** DONE Period after: "the warriors are sad"? -- was correct
-     CLOSED: [2010-08-26 Thu 09:48]
-**** DONE Period after: "the warriors drink"? -- was correct
-     CLOSED: [2010-08-26 Thu 09:48]
-**** DONE "one either {megh'an}" should be "once either {megh'an}"?
-     CLOSED: [2010-08-26 Thu 09:55]
+*** TODO Main article
+**** TODO Typography in main article
+***** Should dashes in ISBN numbers be endash or hyphen sized?
+      (Also make them non-line-breaking)
+***** Make ranges use non-line-breaking emdash
+**** TODO Transcript list/table in article should be autogenerated
 ** TODO "The {pIqaD} Playground"
 *** should support unicode output
 ** TODO "pIqad, And How to Read It"
@@ -768,6 +787,7 @@
 *** TODO Add irregular plurals in dictionary (already done?)
 *** TODO KA logo on front
 *** DOING dict.zdb
+**** TODO Make sure all words have "file:" field
 **** DOING Add words
 ***** DOING Check that all mughom.wizage.net "New Words" are present
       http://mughom.wizage.net
