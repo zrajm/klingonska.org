@@ -1,5 +1,19 @@
 #+STARTUP: overview hidestars -*- org -*-
 
+* TODO Prettified show script should use <ins> and <del>
+
+  HTML tags intended for showing edits in texts. Should be used to show the
+  corrections.
+
+
+* TODO Apache config
+** Use "MultiView" so users don't have to type the file suffix
+   Apache's "MultiView" seems like a cool config option. It makes it so that
+   visitors can leave off the file suffix. (E.g. http://klingonska.org/links/
+   would load "links.html" if there isn't also a "/links/index.html".)
+
+   More on that topic
+   http://httpd.apache.org/docs/current/content-negotiation.html#multiviews
 * TODO Gitify upload
 ** TODO Git "add" hook to store file dates/metadata?
 ** TODO Makefile must not require perl 5.10
@@ -440,38 +454,52 @@
      CLOSED: [2010-11-18 Thu 09:55]
 ** TODO "Archive of Okrandian Canon"
 *** TODO Script/Apache config
-**** TODO Block direct access to TKD, TKW and KGT transcripts
+**** TODO Allow only "authorized" access to TKD/TKW/KGT/CK/PK transcripts
      The following pages should not be accessible directly:
 
      http://klingonska.org/canon/1992-01-01-tkd.txt
-     http://klingonska.org/canon/1997-11-01-kgt.txt
      http://klingonska.org/canon/1996-05-01-tkw.txt
+     http://klingonska.org/canon/1997-11-01-kgt.txt
+     http://klingonska.org/canon/1992-10-01-ck.txt
+     http://klingonska.org/canon/1993-10-01-pk.txt
 
-     Could we do an invisible redirect to a CGI that demands a word from the
-     requested book? This script should then set a cookie, which is retained
-     throughout the site.
+     Make an invisible redirect to a CGI that deals with "authentication" -- if
+     user is "authenticated" -- serves the transcript data. This script sets a
+     cookie which is retained throughout the site (so only the first transcript
+     request requires auth).
 
-     I.e. when I try to access e.g. canon/1992-01-01-tkd.txt I get a form
-     requesting me to enter a specified word from the book (in the same manner
-     as the current download script), if I then enter correctly, a cookie is
-     set and any subsquent access to the same URL gives me the transcript (as
-     expected to begin with).
-
-     Is this possible with Apache? Creating a symlink from a .txt file to a
-     .cgi results in the source of the CGI being displayed, rather than the CGI
-     executed. So it would have to be some URL rewrite, I think. Can URL
-     rewrites be made based on cookies?
-
-     The form should explicitly state that it uses cookies.
-
-     Or could the URL redirect point to a CGI that in turn outputs the text
-     file only if the cookie is set?
+     The form should state explicitly that it uses cookies.
 
 ***** TODO Apache config(?)
-****** TODO Block access to tkd/kgt/tkw files
-****** TODO Invisibly rewrite tkd/kgt/tkw urls to script
-****** TODO Script should auth before returning transcripts
+****** TODO Make script work under redirect on HCoop
+       Script "canon/show.cgi" works, if accessed directly, e.g.:
+           http://klingonska.org/canon/show.cgi?file=1992-01-01-tkd.txt
 
+       But not when using the redirected URL:
+           http://klingonska.org/canon/1992-01-01-tkd.txt
+
+       Both urls work on my developer's laptop, however.
+
+****** DONE Block/rewrite accesses to TKD/KGT/TKW transcripts
+       CLOSED: [2010-03-24 Thu 10:28]
+       The following Apache config seem to work excellently:
+
+           RewriteEngine On
+           RewriteRule /canon/([^/]*-(tkd|tkw|kgt|ck|pk).txt)$ canon/show.cgi?file=$1 [last]
+
+       This will case redirects so that:
+           http://klingonska.org/canon/1992-01-01-tkd.txt
+
+       Is rewritten to:
+           http://klingonska.org/canon/show.cgi?file=1992-01-01-tkd.txt
+
+****** DONE Write script for showing transcripts
+       CLOSED: [2011-04-09 Sat 21:57]
+       Name: canon/show.cgi
+
+       This script works the same as the old download.cgi, but also stores a
+       cookie. If user already has valid cookie, no login procedure is
+       required.
 **** TODO Search engine improvements (canon/search/index.cgi)
 ***** TODO Add Chrome integration (some sort of open protocol?)
       Most sites search functions (e.g. YouTube, Wikipedia etc.) are
