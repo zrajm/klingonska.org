@@ -384,6 +384,13 @@
    * gallery (e.g. "http://klingonska.org/songs/tahjaj_wo/")
 ** TODO XHTML compliant
 ** TODO CSS-based design
+*** TODO List pages which need site navigation menu update
+*** DONE Design CSS for site navigation
+    CLOSED: [2011-04-10 Sun 19:44]
+    Now uses definition list with class "navigation" instead of the old tables
+    for layout.
+*** DONE Implement CSS for main menu page
+    CLOSED: [2011-04-10 Sun 19:45]
 ** TODO "Typographical" quotes
 ** TODO Feedback form at end of each page (again)
    This is the old code, using SSI:
