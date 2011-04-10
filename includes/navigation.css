@@ -1,0 +1,47 @@
+/*
+   32px is one indentation used
+   16px is the width of the list bullet
+*/
+
+dl.navigation {
+    /* border: 1px solid black; */
+    list-style-type: none;
+    margin: 32px 0;
+    padding: 0;
+    text-align: left;
+}
+
+dl.navigation dt {
+    background: transparent url(/pic/dot.gif) no-repeat scroll 8px center;
+    display: list-item;
+    font-size: 120%;
+    margin: 0;
+    padding: 0 0 0 32px;
+}
+
+dl.navigation dd {
+    margin: 0;
+    padding: 0 0 0 32px;
+}
+
+/* nested navigation tables should have no vertical margin */
+dl.navigation dl {
+    margin: 16px 0;
+}
+
+/* used to create columns inside navigation menu */
+/* (for the "Quick References to..." on main page) */
+dl.navigation table {
+    border-collapse: collapse;
+    width: 100%;
+}
+dl.navigation table,
+dl.navigation table tr,
+dl.navigation table td {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* eof */
