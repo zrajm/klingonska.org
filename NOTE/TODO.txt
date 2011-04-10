@@ -454,7 +454,8 @@
      CLOSED: [2010-11-18 Thu 09:55]
 ** TODO "Archive of Okrandian Canon"
 *** TODO Script/Apache config
-**** TODO Allow only "authorized" access to TKD/TKW/KGT/CK/PK transcripts
+**** DONE Allow only "authorized" access to TKD/TKW/KGT/CK/PK transcripts
+     CLOSED: [2011-04-10 Sun 02:36]
      The following pages should not be accessible directly:
 
      http://klingonska.org/canon/1992-01-01-tkd.txt
@@ -470,16 +471,14 @@
 
      The form should state explicitly that it uses cookies.
 
-***** TODO Apache config(?)
-****** TODO Make script work under redirect on HCoop
-       Script "canon/show.cgi" works, if accessed directly, e.g.:
-           http://klingonska.org/canon/show.cgi?file=1992-01-01-tkd.txt
+***** DONE Apache config(?)
+      CLOSED: [2011-04-10 Sun 02:36]
+****** DONE Make script work under redirect on HCoop
+       CLOSED: [2011-04-10 Sun 02:35]
+       The following rewrite rule in ~/.domtool/klingonska.org did the trick:
 
-       But not when using the redirected URL:
-           http://klingonska.org/canon/1992-01-01-tkd.txt
-
-       Both urls work on my developer's laptop, however.
-
+           (* transcripts requiring authentication for access *)
+           rewriteRule "^/canon/([^/]*-(tkd|tkw|kgt|ck|pk)\.txt)$" "/canon/show.cgi?file=$1" [last];
 ****** DONE Block/rewrite accesses to TKD/KGT/TKW transcripts
        CLOSED: [2010-03-24 Thu 10:28]
        The following Apache config seem to work excellently:
