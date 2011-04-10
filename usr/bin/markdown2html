@@ -223,35 +223,30 @@ sub help {
     # TRUE otherwise.
     sub metadata(\%\@) {
 	my ($hashref, $arrayref) = @_;
-	use feature "switch";
+	#use feature "switch";
 	my ($field, $count) = ("", 0, 0);
 	foreach (@$arrayref) {
 	    $count ++;
-	    given ($_) {
-		when (m/^ (\w+): \s* ([^\n]*)\n /x) {
-		    $$hashref{$1} = "" unless exists($$hashref{$1});
-		    $$hashref{$1} .= $2;
-		    $field = $1;
-		}
-		when (m/^ \s+ ([^\n]*)\n /x) {
-		    if ($field ne "") {
-			$$hashref{$field} .= " " . $1;
-		    } else {
-			warn "$0: 1st line in file may not be metadata continuation line (in line $count)\n";
-			return '';
-		    }
-		}
-		when (m/^ \s* $/x) {
-		    if ($count == 1) {
-			warn "$0: 1st line in file may not be blank (in line $count)\n";
-			return '';
-		    }
-		    last;
-		}
-		default {
-		    warn "$0: metadata is not terminated by blank line (in line $count)\n";
+	    if (m/^ (\w+): \s* ([^\n]*)\n /x) {
+		$$hashref{$1} = "" unless exists($$hashref{$1});
+		$$hashref{$1} .= $2;
+		$field = $1;
+	    } elsif (m/^ \s+ ([^\n]*)\n /x) {
+		if ($field ne "") {
+		    $$hashref{$field} .= " " . $1;
+		} else {
+		    warn "$0: 1st line in file may not be metadata continuation line (in line $count)\n";
 		    return '';
 		}
+	    } elsif (m/^ \s* $/x) {
+		if ($count == 1) {
+		    warn "$0: 1st line in file may not be blank (in line $count)\n";
+		    return '';
+		}
+		last;
+	    } else  {
+		warn "$0: metadata is not terminated by blank line (in line $count)\n";
+		return '';
 	    }
 	}
 	splice(@$arrayref, 0, $count);
@@ -293,12 +288,11 @@ sub help {
     # attribute inside such tags.
     #
     # If $INPUT is not provided, $_ is used.
-    #
     sub process_xml {
 	die "1st argument must be code reference"
 	    unless ref($_[0]) eq "CODE";
-	my ($coderef, $_) = (@_, $_);
-	s{ ([^<]*) (<[^>]*?>)? }{
+	my ($coderef, $input) = (@_, $_);
+	$input =~ s{ ([^<]*) (<[^>]*?>)? }{
 	    my ($text, $tag) = ($1, $2 || "");
 	    # process attribute values of HTML/XML tag
 	    # (but ignore the rest if it)
@@ -306,7 +300,7 @@ sub help {
 	    # replace with processed text + tag
 	    &$coderef($text) . $tag;
 	}gex;
-	return $_;
+	return $input;
     }
 
 

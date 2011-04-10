@@ -87,8 +87,9 @@ dict/%.html: dict/%.txt
 
 # FIXME: should depend on all includes required by the HMTL file
 %.html: %.txt
-	@rm -f "$@"
-	@usr/bin/markdown2html "$?" --output="%.html"
+	@rm -f "$@"; \
+	export PERL5LIB=$$PERL5LIB:~/usr/share/perl; \
+	usr/bin/markdown2html "$?" --output="%.html"
 
 ## clean - remove all generated files
 .PHONY: clean
