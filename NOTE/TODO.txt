@@ -14,7 +14,7 @@
 
    More on that topic
    http://httpd.apache.org/docs/current/content-negotiation.html#multiviews
-* TODO Gitify upload
+* TODO Gitify site ("git push" for upload + publish repo)
 ** TODO Git "add" hook to store file dates/metadata?
 ** TODO Makefile must not require perl 5.10
 ** TODO Pre-commit hook should be checked in
@@ -32,6 +32,9 @@
 
    metadata <
 
+** TODO Include HCoop domtool config in git repo
+** DONE Redirect git.klingonska.org to site git repo
+   CLOSED: [2011-04-10 Sun 03:59]
 ** DONE Sketch infrastructure
    CLOSED: [2010-12-20 Mon 05:14]
 
