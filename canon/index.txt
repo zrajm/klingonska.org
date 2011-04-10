@@ -122,7 +122,7 @@ publication, or a description of its contents and/or form).
     <td><font size="4"><a name="1992">1992&#8209;01</a></font></td><td></td>
     <td><font size="4"><i>The Klingon Dictionary</i> (2nd edition, with new addendum)</font>
       <br /><font size="2"><i>Book by Marc Okrand, Pocket Books, Simon &amp; Schuster, New York, ISBN 0-671-74559-X</i></font>
-      <br />(<a href="download.cgi?file=tkd-all">text</a>)
+      <br />(<a href="1992-01-01-tkd.txt">text</a>)
       This is the standard dictionary of Klingon, containing the
       entire basis of the language, including grammar and
       dictionary. This book was originally released in 1985, but a
@@ -140,7 +140,7 @@ publication, or a description of its contents and/or form).
     <td><font size="4">1992</font></td><td></td>
     <td><font size="4"><i>Conversational Klingon</i></font>
       <br /><font size="2"><i>Audio cassette produced by Audioworks, Simon &amp; Schuster, London, ISBN 0-671-85316-3</i></font>
-      <br />(<a href="download.cgi?file=ck-all">text</a>)
+      <br />(<a href="1992-10-01-ck.txt">text</a>)
       This audio cassette is a quick introduction to Klingon,
       intended for the tourist to the Empire. (Abbreviated <i>CK.</i>)
     </td>
@@ -165,7 +165,7 @@ publication, or a description of its contents and/or form).
     <td><font size="4"><a name="1993">1993</a></font></td><td></td>
     <td><font size="4"><i>Power Klingon</i></font>
       <br /><font size="2"><i>Audio cassette produced by Audioworks, Simon &amp; Schuster, London, ISBN 0-671-85319-8</i></font>
-      <br />(<a href="download.cgi?file=pk-all">text</a>)
+      <br />(<a href="1993-10-01-pk.txt">text</a>)
       This audio cassette is number two in the series (beginning
       with <i>Conversational Klingon</i>) and it is intended for
       the serious traveler, student or bussinessman and people
@@ -411,7 +411,7 @@ publication, or a description of its contents and/or form).
     <td><font size="4">1996&#8209;05</font></td><td></td>
     <td><font size="4"><i>The Klingon Way - A Warrior's Guide</i></font>
       <br /><font size="2"><i>Book by Marc Okrand, Pocket Books, Simon &amp; Schuster, New York, ISBN 0-671-53755-5.</i></font>
-      <br />(<a href="download.cgi?file=tkw-examples">text</a>)
+      <br />(<a href="1996-05-01-tkw.txt">text</a>)
       This book covers a lot of Klingon culture. It contains
       Klingon sayings mostly, not any new grammar. But it sure is a
       nice book. (Abbreviated <i>TKW.</i>)
@@ -776,7 +776,7 @@ publication, or a description of its contents and/or form).
     <td><font size="4"><i>Klingon For the Galactic Traveler</i></font>
       <br /><font size="2"><i>Book by Marc Okrand, Pocket Books, Simon &amp;
         Schuster, New York, ISBN 0-671-00995-8</i></font>
-      <br />(<a href="download.cgi?file=kgt-dict">text</a>)
+      <br />(<a href="1997-11-01-kgt.txt">text</a>)
         This was really the book we had been waiting for. It
         contains some true insights into Klingon cooking, dialects and
         pronounciation. It tells you what to avoid, and how to enhance
