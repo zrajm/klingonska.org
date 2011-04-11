@@ -25,6 +25,8 @@ dl.navigation dd {
 }
 
 /* nested navigation tables should have no vertical margin */
+dl.navigation ul,
+dl.navigation ol,
 dl.navigation dl {
     margin: 16px 0;
 }

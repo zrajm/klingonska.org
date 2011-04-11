@@ -7,7 +7,11 @@
 
 
 * TODO Apache config
-** Use "MultiView" so users don't have to type the file suffix
+** TODO All files should have just *one* canonical URL
+   "http://klingonska.org/" should never be referred to as
+   "http://klingonska.org/index.html". Any references to the index.html version
+   should be rewritten to the former.
+** TODO Configure "MultiView" so users don't have to type the file suffix
    Apache's "MultiView" seems like a cool config option. It makes it so that
    visitors can leave off the file suffix. (E.g. http://klingonska.org/links/
    would load "links.html" if there isn't also a "/links/index.html".)
@@ -377,14 +381,15 @@
 
 * TODO FUTURE
 ** TODO Use microformats where applicable
-   (Where is this? Page datestamps? Page geolocation? Are there more?)
+   Where is this? Page datestamps? Page geolocation? Are there more?
 ** TODO CC licence on entire site (except KLO?)
 ** TODO Web pages generated from templates & using Markdown
    Various contexts which should (maybe?) have special handling.
    * gallery (e.g. "http://klingonska.org/songs/tahjaj_wo/")
 ** TODO XHTML compliant
 ** TODO CSS-based design
-*** TODO List pages which need site navigation menu update
+*** DONE Replace all occurances of <table> navigation menu with <dl>
+    CLOSED: [2011-04-12 Tue 00:12]
 *** DONE Design CSS for site navigation
     CLOSED: [2011-04-10 Sun 19:44]
     Now uses definition list with class "navigation" instead of the old tables
@@ -416,6 +421,7 @@
    Use CSS from: http://klingonska.org/songs/tahjaj_wo/index.html
 ** TODO CSS: name in footer/copyright notice should not be italics
 ** TODO CSS: line width should max become something readable
+** TODO "[Updated <DATE>]" should be shaded, not extra small
 ** TODO <p> tag should default to align=justify
 * Build/check tools
 ** usr/bin/klingon_spell_check
@@ -541,6 +547,7 @@
 **** TODO canon/old/1996-09.txt contains oct char \222 (apostrophe)
      (do any other documents?) latin1 -> utf8 convert these?
 **** TODO canon/1997-sbx-s31.html missing Skybox S32 and S33 images
+**** TODO Add transcript of The Klingon Way (audio book)
 **** TODO re-scan Skybox trading cards and add to
          canon/1994-sbx-sp1.html
          canon/1995-sbx-s7.html
@@ -1141,6 +1148,8 @@
 
 ** TODO "A Quick Reference to Adverbials in Klingon"
 *** Update list of adverbials
+** TODO "Links to Other Pages About the Klingon Language"
+*** TODO Javascript to display only a single tag/category  
 * Communicate
 ** Reply to http://community.livejournal.com/klingon/
    The Archive of Okrandian Canon of the Swedish Klingonska Akademien doesn't
