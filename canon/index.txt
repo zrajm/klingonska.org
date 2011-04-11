@@ -380,8 +380,8 @@ publication, or a description of its contents and/or form).
       <i>S27</i></font>
       <br /><font size="2"><i>Trading cards translated by Marc Okrand,
       SkyBox International</i></font>
-      <br />(Text: <a href="1996-sbx-s25.txt">S19</a>, <a href="1996-sbx-s26.txt">S20</a>,
-      <a href="1996-sbx-s27.txt">S21</a>) (<a href="1996-sbx-s25.html">images</a>)
+      <br />(Text: <a href="1996-sbx-s25.txt">S25</a>, <a href="1996-sbx-s26.txt">S26</a>,
+      <a href="1996-sbx-s27.txt">S27</a>) (<a href="1996-sbx-s25.html">images</a>)
       A set of three collectible trading cards produced for the fifth season
       of <i>Star Trek: The Next Generation</i>. (Usually abbreviated <i>SBX,</i>
       but the abbreviation <i>SBC</i> is also used sometimes.)
@@ -409,7 +409,7 @@ publication, or a description of its contents and/or form).
 
   <tr valign="top">
     <td><font size="4">1996&#8209;05</font></td><td></td>
-    <td><font size="4"><i>The Klingon Way - A Warrior's Guide</i></font>
+    <td><font size="4"><i>The Klingon Way -- A Warrior's Guide</i></font>
       <br /><font size="2"><i>Book by Marc Okrand, Pocket Books, Simon &amp; Schuster, New York, ISBN 0-671-53755-5.</i></font>
       <br />(<a href="1996-05-01-tkw.txt">text</a>)
       This book covers a lot of Klingon culture. It contains
@@ -420,7 +420,7 @@ publication, or a description of its contents and/or form).
 
   <tr valign="top">
     <td><font size="4">1996</font></td><td></td>
-    <td><font size="4"><i>The Klingon Way - A Warrior's Guide</i> (Audio Book)</font>
+    <td><font size="4"><i>The Klingon Way -- A Warrior's Guide</i> (Audio Book)</font>
       <br /><font size="2"><i>Audio cassette produced by Audioworks, Simon &amp; Schuster, London</i></font>
       <br />This audio cassette is a recording of parts of the book
       with the same name. This cassette was based upon the book with
@@ -831,7 +831,7 @@ publication, or a description of its contents and/or form).
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.expertforum</i></font>
       <br />(<a href="1998-01-18b-news.txt">text</a>)
-        Marc Okrand contemplates what it means to be "to late to visit someone".
+        Marc Okrand contemplates what it means to be "too late to visit someone".
     </td>
   </tr>
 
@@ -841,7 +841,7 @@ publication, or a description of its contents and/or form).
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.expertforum</i></font>
       <br />(<a href="1998-01-18c-news.txt">text</a>)
-        Marc Okrand contemplates what it means to be "to late to visit someone".
+        Marc Okrand contemplates what it means to be "too late to visit someone".
     </td>
   </tr>
 
