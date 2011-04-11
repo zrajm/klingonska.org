@@ -180,7 +180,7 @@ if (defined($ques) and $answer eq $answer[$ques] && $answer ne '') {    # correc
     if (!defined($ques) or $ques eq '' or $ques >= scalar(@answer)) {   # no valid question?
 	srand;                                       # ..seed random generator
 	$ques = int(rand(scalar(@answer)));          # ..pick question
-	$subtitle = "Authourization request.";
+	$subtitle = "Authorization request.";
     } elsif ( $answer eq '' ) {                      # no answer
 	$subtitle = "Empty answer, try again.";
     } else {                                         # wrong answer
