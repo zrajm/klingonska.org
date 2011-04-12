@@ -46,7 +46,8 @@ the source in question is available; just follow the link »text«. In some case
 some additional information is also available (such as where to buy the
 publication, or a description of its contents and/or form).
 
-<p align="center"><b>Years:</b> <a href="#1979">1979</a>, <a href="#1984">1984</a>,
+<p style="text-align: center;"><b>Years:</b>
+  <a href="#1979">1979</a>, <a href="#1984">1984</a>,
   <a href="#1985">1985</a>, <a href="#1989">1989</a>,
   <a href="#1991">1991</a>, <a href="#1992">1992</a>,
   <a href="#1993">1993</a>, <a href="#1994">1994</a>,
