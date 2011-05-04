@@ -231,61 +231,123 @@ sub question_page {
     my $question = question();                 # random question
     my $answer   = undef;                      # clear answer
     my ($book, $page, $paragraph, $line, $word) = split(/_/, $question);
+    my $place = "http://$ENV{HTTP_HOST}$ENV{REQUEST_URI}";
     use CGI ":standard";
     return
-        start_html("Access Form") .
-        (defined($message) and p({
-            -style =>
-                "background-color: pink;" .
-                "padding: .5em;" .
-                "font-weight: bold;"
-        }, $message)) .
-        p({ -align => "justify" },
-            "For copyright reasons you must own a copy of Marc",
-            "Okrand&rsquo;s book", i("The Klingon Dictionary"), "to",
-            "access the information presented here. To certify that this",
-            "is the case, please enter the specified word from the main",
-            "text of the TKD below.",
-        ) .
-        div({ -align => "center" },
-            start_form({
-                -action  => "",
-                -method  => "POST",
-            }),
-            h3(escapeHTML(
-                "$book, " .
-                "page $page, " .
-                "paragraph $paragraph, " .
-                "line $line, " .
-                "word $word:"
-            )) .
-            p(
-                hidden({
-                    -name     => "file",
-                    -override => 1,
-                    -value    => $file,
-                }) .
-                hidden({
-                    -name     => "question",
-                    -override => 1,
-                    -value    => $question,
-                }) .
-                textfield({
-                    -autofocus   => "autofocus",
-                    -name        => "answer",
-                    -override    => 1,
-                    -placeholder => "Enter word",
-                    -value       => $answer,
-                }) .
-                submit({ -value => "Reply" })
+        start_html({
+            -style => { src => "../includes/page.css" },
+            -title => "Access Form",
+        }) .
+        div({ -id => "head" },
+            table({ -class => "status" },
+                Tr(
+                    td({ -class => "left" },
+                        a({ -href => 'mailto:webmaster@klingonska.org' },
+                            'webmaster@klingonska.org'),
+                    ),
+                    td({ -class => "right" },
+                        a({ -href => $place }, $place),
+                    ),
+                )
             ),
-            end_form(),
+            p({ -align => "center" },
+                a({ -href => ".." },
+                    img({
+                        -alt    => "Klingonska Akademien",
+                        -border => "0",
+                        -height => "176",
+                        -src    => "/pic/ka.gif",
+                        -vspace => "5",
+                        -width  => "600",
+                    })
+                )
+            )
         ) .
-        p({ -align => "justify" },
-            "When counting paragraphs, skip Klingon example phrases.",
-            "Hyphenated words counts as one. Ending paragraphs at the",
-            "top of a page are counted, as well as half words at",
-            "beginning of line.", i("Case counts."),
+        div({ -id => "main" },
+            (defined($message) and p({
+                -style =>
+                    "background-color: pink;" .
+                    "padding: .5em;" .
+                    "font-weight: bold;"
+            }, $message)) .
+            p({ -align => "justify" },
+                "For copyright reasons you must own a copy of Marc",
+                "Okrand&rsquo;s book", i("The Klingon Dictionary"), "to",
+                "access this document. To certify that this",
+                "is the case, please enter the specified word from the main",
+                "text of the TKD below.",
+            ) .
+            div({ -align => "center" },
+                start_form({
+                    -action  => "",
+                    -method  => "POST",
+                }),
+                h3(escapeHTML(
+                    "$book, " .
+                    "page $page, " .
+                    "paragraph $paragraph, " .
+                    "line $line, " .
+                    "word $word:"
+                )) .
+                p({ class => "center" },
+                    hidden({
+                        -name     => "file",
+                        -override => 1,
+                        -value    => $file,
+                    }) .
+                    hidden({
+                        -name     => "question",
+                        -override => 1,
+                        -value    => $question,
+                    }) .
+                    textfield({
+                        -autofocus   => "autofocus",
+                        -name        => "answer",
+                        -override    => 1,
+                        -placeholder => "Enter word",
+                        -value       => $answer,
+                    }) .
+                    submit({ -value => "Reply" })
+                ),
+                end_form(),
+            ) .
+            p({ -align => "justify" },
+                "When counting paragraphs, skip Klingon example phrases.",
+                "Hyphenated words counts as one. Ending paragraphs at the",
+                "top of a page are counted, as well as half words at",
+                "beginning of line.", i("Case counts."),
+            )
+        ) .
+        div({ -id => "foot" },
+            p({ class => "copyright" },
+                "&copy;1998&ndash;2011, Copyright ",
+                span({ -class => "author" },
+                     a({ -href => 'mailto:zrajm@klingonska.org' },
+                       "Zrajm C Akfohg"
+                     )
+                ) . ", " .
+                a({ -href => 'http://klingonska.org/' },
+                    "Klingonska Akademien"
+              ) . ", Uppsala"
+            ) .
+            p({ class => "validator" },
+                "Validate:",
+                a({
+                    -href => "http://validator.w3.org/check?uri=$place",
+                }, "XHTML") . ",",
+                a({
+                    -href => "http://jigsaw.w3.org/css-validator/validator" .
+                        "?uri=$place&amp;profile=css3",
+                }, "CSS3") . ",",
+                a({
+                    -href => "http://validator.w3.org/checklink?uri=$place"
+                }, "links") . ".",
+                "License:",
+                a({
+                    -href => "http://creativecommons.org/licenses/by-sa/3.0/",
+                    -rel  => "license",
+                }, "CC BY&ndash;SA") . ".",
+            )
         ) .
         end_html();
 }

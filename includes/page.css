@@ -47,7 +47,7 @@ h1 {
 
 /* Paragraphs immediately following a paragraph of class "center" or  */
 /* "right", or paragraphs themselves of those classes should never be */
-/* indented, but reparated from above pagragraph by a blank line.     */
+/* indented, but separated from above pagragraph by a blank line. */
 /* Explicitly specifying class "noindent" also forces this behaviour. */
 #main p + p[align="center"],
 #main p.center,
