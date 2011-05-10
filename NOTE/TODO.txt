@@ -19,7 +19,16 @@
    More on that topic
    http://httpd.apache.org/docs/current/content-negotiation.html#multiviews
 * TODO Gitify site ("git push" for upload + publish repo)
+** TODO Server-side commit hook should fail if make fails
+
+   E.g. when a rebuilding of canon/index.html from markdown fails, the entire
+   push operation should fail. This happens if if not
+
+       PERL5LIB=$PERL5LIB:~/usr/share/perl
+
+   is set. Since the Markdown module is installed there.
 ** TODO Git "add" hook to store file dates/metadata?
+   No such hook exist. :( Use some sort of server-side hook at push instead?
 ** TODO Makefile must not require perl 5.10
 ** TODO Pre-commit hook should be checked in
    "make hooks" should create the client-side relevant hooks.
@@ -105,7 +114,7 @@
 
 * TODO {paqHom}
 ** TODO Add zip archive of files for last {paqHom} printed
-** TODO Google Chrome should autodetect search engine for {paqHom]
+** TODO Google Chrome should autodetect search engine for {paqHom}
 ** TODO Search of dictionary should first page to appear
    I.e. instead of dict/lexicon.cgi, this should be the index.cgi file.
 
@@ -442,6 +451,12 @@
     <tr><td align=right valign=center><img src="/pic/andrad.gif" width=54 height=14 alt="Ändrad" hspace=5></td>
     <tr><td align=right valign=center><img src="/pic/dot.gif" width=15 height=14 alt="*" hspace=5></td>
 
+** TODO Search engine optimizations
+*** TODO Add site search
+    Using google? Chrome should autodetect this.
+*** TODO Add a sitemap for improved search results?
+    http://www.google.com/support/webmasters/bin/answer.py?answer=183668
+
 ** TODO "Some Songs in Klingon"
 *** TODO prettify page (HTML instead of text pages)
 *** TODO {taHjaj wo'}
@@ -543,6 +558,10 @@
 
       [http://test.zrajm.org/canon/search/?file=1997-09-01c-news.txt&query=hello]
 *** TODO Transcripts updating/improvement
+**** TODO "Major" source transcripts should be indexed by Google
+     Transcriptions of TKD/TKW/KGT/CK and PK should be indexable by Google
+     (i.e. script should detect and allow anyone with a user agent string
+     matching m#\bGooglebot\b#i).
 **** TODO Add a text containing {Sa'Hut} "buttocks" (from {qep'a'} 2003)
 **** TODO canon/old/1996-09.txt contains oct char \222 (apostrophe)
      (do any other documents?) latin1 -> utf8 convert these?
