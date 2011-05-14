@@ -695,7 +695,9 @@
 
 *** TODO Should contain a link to "The {pIqaD} Playground"
 *** TODO Links to wikipages for the various sounds?
-*** TODO Lowercase all html
+*** TODO Make sure relevant HTML tags end with '/>'
+*** DONE Lowercase all html
+    CLOSED: [2011-05-15 Sun 00:17]
 *** TODO Spell check
 *** TODO Mark klingon with lang="tlh"
 *** TODO Make all {HolQeD} references links to /canon/
