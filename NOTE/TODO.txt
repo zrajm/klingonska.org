@@ -699,9 +699,13 @@
 *** TODO Spell check
 *** TODO Mark klingon with lang="tlh"
 *** TODO Make all {HolQeD} references links to /canon/
-*** TODO Replace "-" with &ndash; & &mdash;
-*** TODO Replace " with &sdquo; / &rdquo;
-*** TODO Replace ' with &lsquo; / &rsquo
+*** TODO Add list of references(?)
+*** DONE Replace "-" with &ndash; & &mdash;
+    CLOSED: [2011-05-14 Sat 22:02]
+*** DONE Replace " with &sdquo; / &rdquo;
+    CLOSED: [2011-05-14 Sat 22:02]
+*** DONE Replace ' with &lsquo; / &rsquo
+    CLOSED: [2011-05-14 Sat 22:02]
 ** TODO "Klingon Pocket Dictionary"
 *** TODO Search engine improvements
 **** Add Chrome integration (some sort of open protocol?)
