@@ -695,7 +695,10 @@
 
 *** TODO Should contain a link to "The {pIqaD} Playground"
 *** TODO Links to wikipages for the various sounds?
-*** TODO Make sure relevant HTML tags end with '/>'
+*** DONE Make sure all HTML tags are terminated
+    CLOSED: [2011-05-16 Mon 02:55]
+*** DONE Make sure relevant HTML tags end with '/>'
+    CLOSED: [2011-05-16 Mon 02:55]
 *** DONE Lowercase all html
     CLOSED: [2011-05-15 Sun 00:17]
 *** TODO Spell check
