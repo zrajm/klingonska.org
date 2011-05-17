@@ -7,8 +7,8 @@
 # preserved, and a space inserted before it if missing.
 #
 # TODO:
-#   o Do so that "/>" is added for those tags that require it (e.g. <img>,
-#     <br>, <hr> + others?)
+#   o Do so that "/>" is added for those tags that require it (e.g. <br>, <hr>,
+#     <img>, <meta> + others?)
 #
 # /zrajm 2010-08-09
 
