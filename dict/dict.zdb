@@ -47,7 +47,8 @@ FIELD NAMES USED IN DICTIONARY BELOW
 		      prepositional concepts, body parts etc. (categories
 		      separated by semicolon) Right now the following
 		      categories exist: "body part", "clothing", "locative",
-		      "math", "music", "family", "landscape", "time"
+		      "math", "music", "family", "landscape", "time",
+		      "fighting"
     data:  (optional) contains additional data about a word:
 
 		      »KLCP-1« = one of the 500 basic words, required for
@@ -87,6 +88,7 @@ sv:	«skjuta» (v)
 en:	<shoot> (v)
 def:	[TKD]
 ref:	[TKW p.148]
+cat:	fighting
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -94,6 +96,7 @@ tlh:	{bach}
 sv:	«skott» (s)
 en:	<shot> (n)
 def:	[TKD]
+cat:	fighting
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -127,6 +130,7 @@ tlh:	{baH}
 sv:	«eld», «avfyra» (torped, raket, missil) (v)
 en:	<fire> (torpedo, rocket, missile) (v)
 def:	[TKD]
+cat:	fighting
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -141,6 +145,7 @@ tlh:	{baHwI'}
 sv:	«skytt», «artillerist» (s)
 en:	<gunner> (n)
 def:	[TKD]
+cat:	fighting
 data:	KLCP-1; derived form
 file:	1992-01-01-tkd.txt
 
@@ -203,6 +208,7 @@ tlh:	{baQ} (2)
 sv:	«kasta» en «~bat'leth~» från den ena handen till den andra (v)
 en:	<toss> «~bat'leth~» from one hand to the other (v)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{baQa'}
@@ -307,6 +313,7 @@ tlh:	{beH}
 sv:	«gevär» (s)
 en:	<rifle> (n)
 def:	[TKD]
+cat:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{bej} (1)
@@ -417,6 +424,7 @@ sv:	ett slags hand«vapen», «~bat'leth~» (s)
 en:	type of hand <weapon>, «~bat'leth~» (n)
 def:	[TKDa]
 ref:	[TKW p.79]
+cat:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{betleH «bey'»}
@@ -424,6 +432,7 @@ sv:	¿?«~bat'leth~-ställ» (s)
 en:	«~bat'leth~ display» (n)
 def:	[KCD]
 ref:	[KLINW]
+cat:	fighting
 data:	phrase
 
 tlh:	{betleH «'obe'»}
@@ -1146,6 +1155,7 @@ tlh:	{chaQ}
 sv:	«stöta» uppåt med spetsen på en «~bat'leth~» (v)
 en:	<thrust> upward with end of «~bat'leth~» (v)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{char}
@@ -1452,6 +1462,7 @@ sv:	«~chetvi~», «spjut-slunga» (s)
 en:	«~chetvi~», <spear-throwing device> (n)
 def:	[KGT]
 com:	The word "~chetvi~" found in definition of {wob} in KGT K-E.
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{chev}
@@ -1609,6 +1620,7 @@ tlh:	{chonnaQ}
 sv:	«jakt«spjut»» (s)
 en:	<hunting <spear>> (n)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{chontay}
@@ -1776,12 +1788,14 @@ sv:	«kasta» (ett spjut) mot, «slunga» (ett spjut) mot (v)
 en:	<throw> (a spear) at, <hurl> (a spear) at (v)
 def:	[KGT]
 com:	"the direct object is the target" [TDNW]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{chuHchu'}
 sv:	«träffa» med ett kastat spjut (v)
 en:	«hit» with a thrown spear (v)
 def:	[KGT p.64]
+cat:	fighting
 data:	derived form
 file:	1997-11-01-kgt.txt
 
@@ -1949,6 +1963,7 @@ tlh:	{DaH}
 sv:	«batteri», «uppsättning» (av vapen) (s)
 en:	«bank», «array» (of weapons) (n)
 def:	[KGT p.56; BoP]
+cat:	fighting
 file:	1997-11-01-kgt.txt; 1998-11-01-bop.txt
 
 tlh:	{DaH}
@@ -3190,6 +3205,7 @@ en:	<battle <spear>>, <~gin'tak~> (n)
 def:	[KGT]
 com:	An advisor to a house so trusted that he becomes a part of the
 	family is called *gin'tak* according to the TNG episode "Firstborn".
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{ghIpDIj}
@@ -3294,6 +3310,7 @@ sv:	«slåss», «strida», «föra krig» (v)
 en:	<fight>, <battle>, do battle, <wage war> (v)
 def:	[KGT]
 ref:	[TKW pp.vii, 61, 179]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{ghob}
@@ -3642,6 +3659,7 @@ tlh:	{ghuS} (2)
 sv:	«sänka» (spjut) till horisontellt läge inför attack (v)
 en:	<lower> (spear) to horizontal to attack (v)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{ghuv}
@@ -3800,6 +3818,7 @@ tlh:	{Hargh}
 sv:	«slåss», «strida» (stor konfrontation) (v)
 en:	<fight>, <battle> (major confrontation) (v)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{HaSta}
@@ -4069,6 +4088,7 @@ sv:	«pistol», «revolver» (s)
 en:	<handgun>, <gun> (n)
 def:	[TKD]
 com:	Entries differ and have been combined here.
+cat:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{HIchDal}
@@ -4087,6 +4107,7 @@ tlh:	{HIgh}
 sv:	«slåss» «oärlig»t (v)
 en:	<fight> «dirty» (v)
 def:	[TKD]
+cat:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{HIj}
@@ -4141,6 +4162,7 @@ tlh:	{HIvDuj}
 sv:	«attackskepp» (s)
 en:	<attack fighter> (vessel) (n)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{HIvje'}
@@ -4758,6 +4780,7 @@ tlh:	{jaD}
 sv:	«kasta» runt, «slunga» omkring (v)
 en:	<throw> around, <hurl> about (v)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{jagh}
@@ -5247,6 +5270,7 @@ tlh:	{jIrmoH}
 sv:	«snurra» en «~bat'leth~», få en ~bat'leth~ att «rotera» (v)
 en:	<twirl> «~bat'leth~», cause ~bat'leth~ to «rotate» (v)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{jIv}
@@ -5838,6 +5862,7 @@ tlh:	{lev}
 sv:	«förflytta» en «~bat'leth~» från vertikal till horisontell position (v)
 en:	<move> «~bat'leth~» from vertical to horizontal orientation (v)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{lev}
@@ -6343,6 +6368,7 @@ tlh:	{lul}
 sv:	«slåss», «strida» (relativt stort slagsmål) (v)
 en:	<fight>, <battle> (relatively major fight) (v)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{lulIgh}
@@ -6523,6 +6549,7 @@ sv:	«soldat» (en krigare i en grupp om flera) (s)
 en:	<soldier> (a warrior who is part of a unit) (n)
 def:	[TKD]
 see:	{negh} is the plural form; {SuvwI'}; {vaj}
+cat:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{mangghom}
@@ -6608,6 +6635,7 @@ tlh:	{matHa'}
 sv:	«skytt», «artillerist» (s)
 en:	<gunner> (n)
 def:	[TKD]
+cat:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{matlh}
@@ -6698,6 +6726,7 @@ sv:	«stridsdon», full «rustning», full uppsättning av rustning
 en:	<battle gear>, <panoply>, complete set of <armor> and weapons
 	(n)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{may'morgh}
@@ -6835,6 +6864,7 @@ en:	type of <weapon>, <~mek'leth~> (n)
 def:	[KGT]
 com:	The short sword thing that Worf uses on DS9 and in the movie
 	"First Contact".
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{meqro'vaq}
@@ -7245,6 +7275,7 @@ sv:	«stridskonstform», «kampkonstform», «~Mok'bara~» (s)
 en:	<martial arts> form, <~Mok'bara~> (n)
 def:	[KGT]
 ref:	[TKW p.199]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{morgh}
@@ -7738,6 +7769,7 @@ sv:	ett slags kampsport«spark» (s)
 en:	type of martial arts «kick» (n)
 def:	[HQ10:2 p.11]
 ref:	[TDNW]
+cat:	fighting
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{nan}
@@ -7805,6 +7837,7 @@ tlh:	{naQjej}
 sv:	«spjut» (s)
 en:	<spear> (n)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{nargh} (1)
@@ -8175,12 +8208,14 @@ tlh:	{nISwI'}
 sv:	«disruptor» (s)
 en:	<disruptor> (n)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{nISwI' beH}
 sv:	«disruptorgevär» (s)
 en:	<disruptor rifle> (n)
 def:	[KGT]
+cat:	fighting
 data:	phrase
 file:	1997-11-01-kgt.txt
 
@@ -8189,6 +8224,7 @@ sv:	«disruptorgevär» (s)
 en:	«disruptor rifle» (n)
 def:	[KGT p.56]
 com:	Probably misspelled {nISwI' beH}.
+cat:	fighting
 data:	phrase; {bej} (n)
 file:	1997-11-01-kgt.txt
 
@@ -8196,6 +8232,7 @@ tlh:	{nISwI' DaH}
 sv:	«disruptorbatteri», «disruptoruppsättning» (s)
 en:	«disruptor banks» (n)
 def:	[KGT p.56]
+cat:	fighting
 data:	phrase
 file:	1997-11-01-kgt.txt
 
@@ -8203,6 +8240,7 @@ tlh:	{nISwI' HIch}
 sv:	«disruptorpistol», handhållen disruptor (s)
 en:	<disruptor pistol>, hand-held disruptor (n)
 def:	[KGT]
+cat:	fighting
 data:	phrase
 file:	1997-11-01-kgt.txt
 
@@ -8210,6 +8248,7 @@ tlh:	{nISwI' tIH}
 sv:	«disruptorstråle» (s)
 en:	«disruptor beam» (n)
 def:	[KGT p.56]
+cat:	fighting
 data:	phrase
 file:	1997-11-01-kgt.txt
 
@@ -8524,6 +8563,7 @@ sv:	«vapen» (s)
 en:	<weapon> (n)
 def:	[TKD]
 ref:	[TKW p.151]
+cat:	fighting
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -8544,6 +8584,7 @@ tlh:	{nuHHom}
 sv:	hand«vapen» (s)
 en:	small <arms> (n)
 def:	[TKD]
+cat:	fighting
 data:	derived form
 file:	1992-01-01-tkd.txt
 
@@ -8551,6 +8592,7 @@ tlh:	{nuHmey}
 sv:	«arsenal» (s)
 en:	<arsenal> (n)
 def:	[TKDa]
+cat:	fighting
 data:	derived form
 file:	1992-01-01-tkd.txt
 
@@ -8558,6 +8600,7 @@ tlh:	{nuHpIn}
 sv:	«vapenofficer» (s)
 en:	<weapons officer> (n)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{nuj}
@@ -8751,6 +8794,7 @@ tlh:	{ngat} (1)
 sv:	«krut» (s)
 en:	<gunpowder> (n)
 def:	[TKD]
+cat:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{ngat} (2)
@@ -8995,6 +9039,7 @@ tlh:	{ngol}
 sv:	«förflytta» en «~bat'leth~» från horisontell till vertikal position (v)
 en:	<move> «~bat'leth~» from horizontal to vertical orientation (v)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{ngong}
@@ -10052,6 +10097,7 @@ tlh:	{pup} (2)
 sv:	«sparka» (v)
 en:	<kick> (v)
 def:	[TKD]
+cat:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{puq}
@@ -10154,6 +10200,7 @@ en:	<sight> (with gunsight) (v)
 def:	[TKD]
 com:	ST5: {tlha'a HoD, DoS wIpuSta'.} "Captain Klaa, we have a
 	target in [the ship's] sight."
+cat:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{puv}
@@ -10178,12 +10225,14 @@ tlh:	{pu'}
 sv:	«phaser» (s)
 en:	<phaser> (n)
 def:	[TKD]
+cat:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{pu'beH}
 sv:	«phaser-gevär» (s)
 en:	<phaser rifle> (n)
 def:	[TKD]
+cat:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{pu'bej}
@@ -10191,24 +10240,28 @@ sv:	«phaser-gevär» (s)
 en:	«phaser rifle» (n)
 def:	[KGT p.56]
 com:	WARNING - Probably {pu'beH} misspelled.
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{pu'beq}
 sv:	«phaser-manskap» (s)
 en:	<phaser crew> (n)
 def:	[TKD]
+cat:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{pu'DaH}
 sv:	«phaser-batteri», «phaser-uppsättning» (s)
 en:	<phaser banks> (n)
 def:	[TKD]
+cat:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{pu'HIch}
 sv:	«phaser-pistol» (s)
 en:	<phaser pistol> (n)
 def:	[TKD]
+cat:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{pu'jIn}
@@ -10855,6 +10908,7 @@ sv:	«slå» (med hand eller sak) (v)
 en:	<hit> (with hand, fist, implement) (v)
 def:	[TKD]
 ref:	[TKW pp.8, 191]
+cat:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{qIQ}
@@ -11255,12 +11309,14 @@ tlh:	{qutluch}
 sv:	ett slags hand«vapen», «~kut'luch~» (traditionell lönnmördarkniv) (s)
 en:	type of hand <weapon>, «~kut'luch~» (traditional assassin's knife) (n)
 def:	[TKDa; TKW p.103; STE]
+cat:	fighting
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
 tlh:	{qutluch tay}
 sv:	«~Kut'luch~-ceremoni» (s)
 en:	«~Kut'luch~ ceremony» (n)
 def:	[KGT p.62]
+cat:	fighting
 data:	phrase; derived form
 file:	1997-11-01-kgt.txt
 
@@ -11360,6 +11416,7 @@ tlh:	{Qach}
 sv:	«svinga», «använda» (ett vapen) (v)
 en:	<wield>, <swing> (a weapon) (v)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{QaD} (1)
@@ -11787,6 +11844,7 @@ com:	"When shown a pencil, Maltz said that the sharp end could be called a
 	{QIn}, but if the pencil were new and did not yet have a point, the
 	ready-to-be-sharpened end would be a {megh'an} or {'er'In}." [HQ12:2
 	p.7]
+cat:	fighting
 file:	1997-11-01-kgt.txt; 2003-06-holqed-12-2.txt
 
 tlh:	{QIn pup}
@@ -11794,12 +11852,14 @@ sv:	slät «spjutspets» (med en enda vass spets) (s)
 en:	plain «spearhead» (with single sharp point) (n)
 def:	[KGT p.64]
 data:	phrase
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{QIn vagh}
 sv:	«spjutspets» (med flera spetsar) (s)
 en:	«spearhead» (with multiple points) (n)
 def:	[KGT p.64]
+cat:	fighting
 data:	phrase
 file:	1997-11-01-kgt.txt
 
@@ -12020,6 +12080,7 @@ sv:	«slåss», «strida» (väldigt litet slagsmål) (v)
 en:	<fight>, <battle> (very minor fight) (v)
 def:	[KGT]
 com:	Entries differ somewhat in source. The K-E version is used here.
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{Qorgh}
@@ -13167,6 +13228,7 @@ tlh:	{SeDveq}
 sv:	«spjutspets» med hullingar (s)
 en:	barbed <spearhead> (n)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{Segh}
@@ -13884,6 +13946,7 @@ sv:	«slåss» (v)
 en:	<fight> (v)
 def:	[TKD]
 ref:	[TKW pp.5, 7, 19, 21, 33, 63, 77, 88, 111, 151, 193]
+cat:	fighting
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -13891,6 +13954,7 @@ tlh:	{Suvchu'}
 sv:	«slåss» på liv och död (v)
 en:	«fight» to the death (v)
 def:	[KGT p.49]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{SuvwI'}
@@ -13900,6 +13964,7 @@ def:	[TKDa]
 ref:	[TKW pp.iii, 5, 29, 32, 33, 37, 38, 46, 77, 88, 136, 139, 145,
 	147, 155, 193, 195, 203]
 see:	{mang}; {vaj}
+cat:	fighting
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -14455,6 +14520,7 @@ tlh:	{tIH} (2)
 sv:	«skaft» (på spjut) (s)
 en:	<shaft> (of spear) (n)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{tIj}
@@ -14673,6 +14739,7 @@ tlh:	{tonSaw'}
 sv:	«stridsteknik» (s)
 en:	<fighting technique> (n)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{tongDuj}
@@ -15088,6 +15155,7 @@ tlh:	{tlhaS}
 sv:	«slåss», «strida» (relativt litet slagsmål) (v)
 en:	<fight>, <battle> (relatively minor fight) (v)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{tlhatlh}
@@ -15178,6 +15246,7 @@ sv:	«spjut» kastat dem hjälp av ett särskilt verktyg (s)
 en:	<spear> thrown with aid of a special tool (n)
 def:	[KGT]
 com:	Entries differ in source. The E-K entry is used here.
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{tlhe'}
@@ -15559,6 +15628,7 @@ en:	<warrior> (as a concept) (n)
 def:	[TKDa]
 ref:	[TKW p.104]
 see:	{mang}; {SuvwI'}
+cat:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{vaj}
@@ -15713,6 +15783,7 @@ tlh:	{vay}
 sv:	«slåss», «strida» (mellanstor vildsinthet) (v)
 en:	<fight>, <battle> (midlevel ferocity) (v)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{vay}
@@ -16006,6 +16077,7 @@ sv:	«skjutfärdighet», «träffsäkerhet» (s)
 en:	<sharpshooting>, <marksmanship> (n)
 def:	[TKDa]
 ref:	[TKW p.104]
+cat:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{vI'} (2)
@@ -16577,6 +16649,7 @@ tlh:	{wob}
 sv:	«kasta» spjut med en «~chetvi~» (v)
 en:	<hurl> a spear by means of a «~chetvi~» (v)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{woch}
@@ -16826,6 +16899,7 @@ tlh:	{yanwI'}
 sv:	«svärdsman» (s)
 en:	«swordfighter» (n)
 def:	[KGT p.61]
+cat:	fighting
 data:	derived form
 file:	1997-11-01-kgt.txt
 
@@ -17409,6 +17483,7 @@ tlh:	{'aqleH}
 sv:	ett slags «vapen» (hälften «yxa», hälften «~bat'leth~») (s)
 en:	type of <weapon> (half «ax», half «~bat'leth~») (n)
 def:	[KGT]
+cat:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{'aqnaw}
@@ -18768,7 +18843,6 @@ en:	«angle» (n)
 def:	[HQ11:2 p.9]
 see:	{taH}
 file:	2002-06-holqed-11-2.txt
-
 
 === end-of-word-list ===
 === start-of-verb-prefix-list ===
