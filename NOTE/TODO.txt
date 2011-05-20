@@ -1,10 +1,10 @@
 #+STARTUP: overview hidestars -*- org -*-
 
 * TODO Prettified show script should use <ins> and <del>
+  See also: NOTE/2010-09-01-original+corrected-display/index.html
 
   HTML tags intended for showing edits in texts. Should be used to show the
   corrections.
-
 
 * TODO Apache config
 ** TODO All files should have just *one* canonical URL
