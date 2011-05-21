@@ -1,6 +1,7 @@
 author: zrajm
 year: 1999-2009
 lang: en
+title: Archive of Okrandian Canon
 
 Archive of Okrandian Canon
 ==========================
@@ -892,7 +893,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998-03-02b</font></td><td></td>
+    <td><font size="4"style="white-space:nowrap;">1998-03-02b</font></td><td></td>
     <td><font size="4">»Re: {-be'}, {-Ha'}«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
