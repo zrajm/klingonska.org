@@ -1,0 +1,36 @@
+#!/usr/bin/perl -w0777
+use strict;
+use 5.10.0;
+
+@ARGV or die <<EOF;
+Usage: $0 COMPONENT FILE...
+Process HTML blocks of the following kind.
+
+    <!-- begin:COMPONENT -->
+    ...
+    <!-- end:COMPONENT -->
+EOF
+
+
+my %component = (
+    status => sub {
+        my ($file, $text) = @_;
+        print "$ARGV:\n$1\n\n"
+    }
+);
+
+
+
+my $component = shift(@ARGV);
+exists($component{$component})
+    or die "$0: unknown component '$component'\n";
+@ARGV or die "$0: no filenames specified\n";
+
+while (<>) {
+    s{<!-- begin:$component -->\n(.*?)\n<!-- end:$component -->}
+        { &{$component{$component}}($ARGV, $1) }se;
+
+
+}
+
+#[eof]
