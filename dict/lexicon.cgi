@@ -273,7 +273,7 @@ return <<"EOF";
   <tr>
     <td class="left"><a href="mailto:webmaster\@klingonska.org">webmaster\@klingonska.org</a></td>
 <!-- FIXME -->    <td class="center"><a href="http://klingonska.org/dict/lexicon.cgi">http://klingonska.org/dict/lexicon.cgi</a></td>
-<!-- FIXME -->    <td class="right">Updated: 2009&#8209;10&#8209;18, 20:17</td>
+<!-- FIXME -->    <td class="right">Updated: 2009-10-18, 20:17</td>
   </tr>
 </table>
 

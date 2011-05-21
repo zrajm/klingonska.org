@@ -120,7 +120,7 @@ publication, or a description of its contents and/or form).
   <tr><td colspan="4"><hr noshade size="1" /></td></tr>
 
   <tr valign="top">
-    <td><font size="4"><a name="1992">1992&#8209;01</a></font></td><td></td>
+    <td><font size="4"><a name="1992">1992-01</a></font></td><td></td>
     <td><font size="4"><i>The Klingon Dictionary</i> (2nd edition, with new addendum)</font>
       <br /><font size="2"><i>Book by Marc Okrand, Pocket Books, Simon &amp; Schuster, New York, ISBN 0-671-74559-X</i></font>
       <br />(<a href="1992-01-01-tkd.txt">text</a>)
@@ -148,7 +148,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1992&#8209;06</font></td><td></td>
+    <td><font size="4">1992-06</font></td><td></td>
     <td><font size="4">»An Interview with Marc Okrand«</font>
       <br /><font size="2"><i>Article by David Barron, {HolQeD} 1:2 p.10-15,
       Klingon Language Institute, Lake Bluff, IL, ISSN 1061-2327</i></font>
@@ -192,7 +192,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1993&#8209;06</font></td><td></td>
+    <td><font size="4">1993-06</font></td><td></td>
     <td><font size="4">»Letters to the Editor«</font>
       <br /><font size="2"><i>Letter from Marc Okrand, {HolQeD} 2:2 p.12,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -201,7 +201,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1993&#8209;12</font></td><td></td>
+    <td><font size="4">1993-12</font></td><td></td>
     <td><font size="4">»Okrand's notes«</font>
       <br /><font size="2"><i>Article by Marc Okrand {HolQeD} 2:4 pp.17&ndash;18,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -230,7 +230,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1994&#8209;06</font></td><td></td>
+    <td><font size="4">1994-06</font></td><td></td>
     <td><font size="4">»Everyday Klingon«</font>
       <br /><font size="2"><i>Article by Lawrence M. Schoen, {HolQeD} 3:2, page 9
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -242,7 +242,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1994&#8209;09a</font></td><td></td>
+    <td><font size="4">1994-09a</font></td><td></td>
     <td><font size="4">»Interview: Okrand on {-ghach}«</font>
       <br /><font size="2"><i>{HolQeD} 3:3 pp.10&ndash;13,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -251,7 +251,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1994&#8209;09b</font></td><td></td>
+    <td><font size="4">1994-09b</font></td><td></td>
     <td><font size="4">»{chuvmey}«</font>
       <br /><font size="2"><i>{HolQeD} 3:3 p.20,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -263,7 +263,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1994&#8209;11</font></td><td></td>
+    <td><font size="4">1994-11</font></td><td></td>
     <td><font size="4">Hallmark Klingon commercial</font>
       <br /><font size="2"><i>TV-commercial starring Robert O'Reilly and Guy Vardaman.</i></font>
       <br />(<a href="1994-10-hallmark.txt">text</a>)
@@ -305,7 +305,7 @@ publication, or a description of its contents and/or form).
   </tr>
   
   <tr valign="top">
-    <td><font size="4">1995&#8209;02</font></td><td></td>
+    <td><font size="4">1995-02</font></td><td></td>
     <td><font size="4"><i>Sarek</i></font>
       <br /><font size="2"><i>Novel by Ann C. Crispin, Pocket Books, Simon &amp; Schuster, New York, ISBN 0-671-79562-7</i></font>
       <br />(<a href="1995-02-01-sarek.txt">text</a>)
@@ -320,7 +320,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1995&#8209;06a</font></td><td></td>
+    <td><font size="4">1995-06a</font></td><td></td>
     <td><font size="4">»Interview: Okrand on {-bogh} and more«</font>
       <br /><font size="2"><i>{HolQeD} 4:2 pp.5&ndash;6, Klingon Language
         Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -330,7 +330,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1995&#8209;06b</font></td><td></td>
+    <td><font size="4">1995-06b</font></td><td></td>
     <td><font size="4">»{chuvmey}«</font>
       <br /><font size="2"><i>{HolQeD} 4:2 p.7,
         Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -340,7 +340,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1995&#8209;08</font></td><td></td>
+    <td><font size="4">1995-08</font></td><td></td>
     <td><font size="4"><i>Star Trek Communicator #104</i></font>
       <br /><font size="2"><i>Magazine</i></font>
       <br />(<a href="1995-08-stc.txt">text</a>)
@@ -351,7 +351,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1995&#8209;12</font></td><td></td>
+    <td><font size="4">1995-12</font></td><td></td>
     <td><font size="4">»More from Maltz«</font>
       <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 4:4 p.11,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -390,7 +390,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1996&#8209;03</font></td><td></td>
+    <td><font size="4">1996-03</font></td><td></td>
     <td><font size="4">»A Note on Proverbs«</font>
       <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 5:1 p.10,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -399,7 +399,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1996&#8209;04</font></td><td></td>
+    <td><font size="4">1996-04</font></td><td></td>
     <td><font size="4"><i>Star Trek: Klingon</i></font>
       <br /><font size="2"><i>Computer game on CD-ROM</i></font>
       <br />Some new words, and a voice recognizing software developed
@@ -409,7 +409,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1996&#8209;05</font></td><td></td>
+    <td><font size="4">1996-05</font></td><td></td>
     <td><font size="4"><i>The Klingon Way -- A Warrior's Guide</i></font>
       <br /><font size="2"><i>Book by Marc Okrand, Pocket Books, Simon &amp; Schuster, New York, ISBN 0-671-53755-5.</i></font>
       <br />(<a href="1996-05-01-tkw.txt">text</a>)
@@ -433,7 +433,7 @@ publication, or a description of its contents and/or form).
 
 
   <tr valign="top">
-    <td><font size="4">1996&#8209;08</font></td><td></td>
+    <td><font size="4">1996-08</font></td><td></td>
     <td><font size="4"><i>Radio Times</i></font>
       <br /><font size="2"><i>Article in »Radio Times« special Star Trek 30th
         anniversary issue (a British TV magazine)</i></font>
@@ -445,7 +445,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1996&#8209;08&#8209;06a</font></td><td></td>
+    <td><font size="4">1996-08-06a</font></td><td></td>
     <td><font size="4">(unknown title)</font>
       <br /><font size="2"><i>Newsgroup posting by Marc Okrand to »msn.onstage.startrek.expert.okrand«</i></font>
       <br />(<a href="1996-08-06a-news.txt">text</a>)
@@ -454,7 +454,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1996&#8209;08&#8209;06b</font></td><td></td>
+    <td><font size="4">1996-08-06b</font></td><td></td>
     <td><font size="4">(unknown title)</font>
       <br /><font size="2"><i>Newsgroup posting by Marc Okrand to »msn.onstage.startrek.expert.okrand«</i></font>
       <br />(<a href="1996-08-06b-news.txt">text</a>)
@@ -464,7 +464,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1996&#8209;08&#8209;06c</font></td><td></td>
+    <td><font size="4">1996-08-06c</font></td><td></td>
     <td><font size="4">(unknown title)</font>
       <br /><font size="2"><i>Newsgroup posting by Marc Okrand to »msn.onstage.startrek.expert.okrand«</i></font>
       <br />(<a href="1996-08-06c-news.txt">text</a>)
@@ -474,7 +474,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1996&#8209;09</font></td><td></td>
+    <td><font size="4">1996-09</font></td><td></td>
     <td><font size="4">»The Tale of {'I'}«</font>
       <br /><font size="2"><i>Column by Mark Schoulson, {HolQeD} 5:3 p.14,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -483,7 +483,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1996&#8209;11&#8209;06</font></td><td></td>
+    <td><font size="4">1996-11-06</font></td><td></td>
     <td><font size="4">»This BBS«</font>
       <br /><font size="2"><i>Newsgroup posting by Marc Okrand to »msn.onstage.startrek.expert.okrand«</i></font>
       <br />(<a href="1996-11-06-news.txt">text</a>)
@@ -493,7 +493,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1996&#8209;11&#8209;10a</font></td><td></td>
+    <td><font size="4">1996-11-10a</font></td><td></td>
     <td><font size="4">(unknown title)</font>
       <br /><font size="2"><i>Newsgroup posting by Marc Okrand to »msn.onstage.startrek.expert.okrand«</i></font>
       <br />(<a href="1996-11-10a-news.txt">text</a>)
@@ -503,7 +503,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1996&#8209;11&#8209;10b</font></td><td></td>
+    <td><font size="4">1996-11-10b</font></td><td></td>
     <td><font size="4">(unknown title)</font>
       <br /><font size="2"><i>Newsgroup posting by Marc Okrand to »msn.onstage.startrek.expert.okrand«</i></font>
       <br />(<a href="1996-11-10b-news.txt">text</a>)
@@ -513,7 +513,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1996&#8209;12&#8209;12a</font></td><td></td>
+    <td><font size="4">1996-12-12a</font></td><td></td>
     <td><font size="4">(unknown title)</font>
       <br /><font size="2"><i>Newsgroup posting by Marc Okrand to »msn.onstage.startrek.expert.okrand«</i></font>
       <br />(<a href="1996-12-12a-news.txt">text</a>)
@@ -522,7 +522,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1996&#8209;12&#8209;12b</font></td><td></td>
+    <td><font size="4">1996-12-12b</font></td><td></td>
     <td><font size="4">(unknown title)</font>
       <br /><font size="2"><i>Newsgroup posting by Marc Okrand to »msn.onstage.startrek.expert.okrand«</i></font>
       <br />(<a href="1996-12-12b-news.txt">text</a>)
@@ -549,7 +549,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;04&#8209;07</font></td><td></td>
+    <td><font size="4">1997-04-07</font></td><td></td>
     <td><font size="4">»BabelCon 2«</font>
       <br /><font size="2"><i>Mailing list posting by Bill Willmerdinger to {tlhIngan-Hol}</i></font>
       <br />(<a href="1997-04-07-email.txt">text</a>)
@@ -562,7 +562,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;06&#8209;11a</font></td><td></td>
+    <td><font size="4">1997-06-11a</font></td><td></td>
     <td><font size="4">»This forum«</font>
       <br /><font size="2"><i>Newsgroup posting by Marc Okrand to
         »msn.onstage.startrek.expert.okrand«</i></font>
@@ -574,7 +574,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;06&#8209;11b</font></td><td></td>
+    <td><font size="4">1997-06-11b</font></td><td></td>
     <td><font size="4">»Re: Translation, Please?«</font>
       <br /><font size="2"><i>Newsgroup posting by Marc Okrand to
         »msn.onstage.startrek.expert.okrand«</i></font>
@@ -583,7 +583,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;06&#8209;14</font></td><td></td>
+    <td><font size="4">1997-06-14</font></td><td></td>
     <td><font size="4">»Re: is there really a ferengi language«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
@@ -594,7 +594,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;06&#8209;18a</font></td><td></td>
+    <td><font size="4">1997-06-18a</font></td><td></td>
     <td><font size="4">(unknown title)</font> 
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
@@ -604,7 +604,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;06&#8209;18b</font></td><td></td>
+    <td><font size="4">1997-06-18b</font></td><td></td>
     <td><font size="4">(unknown title)</font> 
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
@@ -618,7 +618,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;06&#8209;23</font></td><td></td>
+    <td><font size="4">1997-06-23</font></td><td></td>
     <td><font size="4">»Re: MSN Wordlist«</font>
       <br /><font size="2">Newsgroup posting by Josh Schroeder (<i>Star
         Trek: Continuum</i> staff) to
@@ -629,7 +629,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;06&#8209;29a</font></td><td></td>
+    <td><font size="4">1997-06-29a</font></td><td></td>
     <td><font size="4">»Re: Some quick questions...«</font>
       <br /><font size="2">Newsgorup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
@@ -640,7 +640,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;06&#8209;29b</font></td><td></td>
+    <td><font size="4">1997-06-29b</font></td><td></td>
     <td><font size="4">»Re: Some quick questions...«</font>
       <br /><font size="2">Newsgorup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
@@ -650,7 +650,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;06&#8209;29c</font></td><td></td>
+    <td><font size="4">1997-06-29c</font></td><td></td>
     <td><font size="4">»Re: Some quick questions...«</font>
       <br /><font size="2">Newsgorup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
@@ -660,7 +660,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;06&#8209;29d</font></td><td></td>
+    <td><font size="4">1997-06-29d</font></td><td></td>
     <td><font size="4">»Re: Tonight, this morning, etc.«</font>
       <br /><font size="2">Newsgorup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
@@ -671,7 +671,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;07&#8209;01a</font></td><td></td>
+    <td><font size="4">1997-07-01a</font></td><td></td>
     <td><font size="4"><i>Federation Travel Guide</i></font>
       <br /><font size="2"><i>Booklet by Michael Jan Freedman, Pocket
         Books, Simon &amp; Schuster, New York, ISBN 0-671-00978-8</i></font>
@@ -684,7 +684,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;07&#8209;01b</font></td><td></td>
+    <td><font size="4">1997-07-01b</font></td><td></td>
     <td><font size="4">»Re: questions as objects«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
@@ -693,7 +693,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;07&#8209;13</font></td><td></td>
+    <td><font size="4">1997-07-13</font></td><td></td>
     <td><font size="4">»Re: Expensive word«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
@@ -702,7 +702,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;09&#8209;01a</font></td><td></td>
+    <td><font size="4">1997-09-01a</font></td><td></td>
     <td><font size="4">»Re: family names«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
@@ -713,7 +713,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;09&#8209;01b</font></td><td></td>
+    <td><font size="4">1997-09-01b</font></td><td></td>
     <td><font size="4">»Re: {yu} - {bIm} - {'egh}«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
@@ -723,7 +723,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;09&#8209;01c</font></td><td></td>
+    <td><font size="4">1997-09-01c</font></td><td></td>
     <td><font size="4">»Re: Casual?«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
@@ -734,7 +734,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;09&#8209;01d</font></td><td></td>
+    <td><font size="4">1997-09-01d</font></td><td></td>
     <td><font size="4">»Re: {qIb lengwI' tlhIngan Hol}«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
@@ -746,7 +746,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;09&#8209;04</font></td><td></td>
+    <td><font size="4">1997-09-04</font></td><td></td>
     <td><font size="4">(unknown title)</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
@@ -755,7 +755,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;10&#8209;17</font></td><td></td>
+    <td><font size="4">1997-10-17</font></td><td></td>
     <td><font size="4">»Re: Klingon Alphabet«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
@@ -764,7 +764,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;10&#8209;22</font></td><td></td>
+    <td><font size="4">1997-10-22</font></td><td></td>
     <td><font size="4">»Re: Weights and Measures«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
@@ -773,7 +773,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;11</font></td><td></td>
+    <td><font size="4">1997-11</font></td><td></td>
     <td><font size="4"><i>Klingon For the Galactic Traveler</i></font>
       <br /><font size="2"><i>Book by Marc Okrand, Pocket Books, Simon &amp;
         Schuster, New York, ISBN 0-671-00995-8</i></font>
@@ -786,7 +786,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;11&#8209;30</font></td><td></td>
+    <td><font size="4">1997-11-30</font></td><td></td>
     <td><font size="4">»Re: {chenmoH}, {ja'chuq}, etc.«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>msn.onstage.startrek.expert.okrand</i></font>
@@ -795,7 +795,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1997&#8209;12&#8209;31</font></td><td></td>
+    <td><font size="4">1997-12-31</font></td><td></td>
     <td><font size="4">»Welcome!«</font>
       <br /><font size="2">Newsgroup posting by Marc Wade (Senior
         Producer/Designer, <i>Star Trek: Continuum</i>) to
@@ -807,7 +807,7 @@ publication, or a description of its contents and/or form).
   <tr><td colspan="4"><hr noshade size="1" /></td></tr>
 
   <tr valign="top">
-    <td><font size="4"><a name="1998">1998&#8209;01&#8209;09</a></font></td><td></td>
+    <td><font size="4"><a name="1998">1998-01-09</a></font></td><td></td>
     <td><font size="4">»Newsgroups have moved!«</font>
       <br /><font size="2">Newsgroup posting by Leslie Wade (<i>Star Trek:
         Continuum</i> staff) to <i>msn.onstage.startrek.expert.okrand</i></font> 
@@ -816,7 +816,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;01&#8209;18a</font></td><td></td>
+    <td><font size="4">1998-01-18a</font></td><td></td>
     <td><font size="4">»The Klingon language and this forum«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.expertforum</i></font>
@@ -827,7 +827,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;01&#8209;18b</font></td><td></td>
+    <td><font size="4">1998-01-18b</font></td><td></td>
     <td><font size="4">»Re: Problem with {-meH} and negative meanings«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.expertforum</i></font>
@@ -837,7 +837,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;01&#8209;18c</font></td><td></td>
+    <td><font size="4">1998-01-18c</font></td><td></td>
     <td><font size="4">»Re: Problem with {-meH} and negative meanings«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.expertforum</i></font>
@@ -847,7 +847,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;02&#8209;02</font></td><td></td>
+    <td><font size="4">1998-02-02</font></td><td></td>
     <td><font size="4">»Re: Klingon - to be or not to be?«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.expertforum</i></font>
@@ -856,7 +856,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;02&#8209;21</font></td><td></td>
+    <td><font size="4">1998-02-21</font></td><td></td>
     <td><font size="4">»Re: color (for Okrand)«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
@@ -865,7 +865,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;02&#8209;23</font></td><td></td>
+    <td><font size="4">1998-02-23</font></td><td></td>
     <td><font size="4">»Re: For Dr Okrand«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
@@ -874,7 +874,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;02&#8209;24</font></td><td></td>
+    <td><font size="4">1998-02-24</font></td><td></td>
     <td><font size="4">»Re: color (for Okrand)«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
@@ -883,7 +883,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;03&#8209;02a</font></td><td></td>
+    <td><font size="4">1998-03-02a</font></td><td></td>
     <td><font size="4">»Re: {-be'}, {-Ha'}«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
@@ -892,7 +892,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;03&#8209;02b</font></td><td></td>
+    <td><font size="4">1998-03-02b</font></td><td></td>
     <td><font size="4">»Re: {-be'}, {-Ha'}«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
@@ -901,7 +901,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;03&#8209;02c</font></td><td></td>
+    <td><font size="4">1998-03-02c</font></td><td></td>
     <td><font size="4">»Re: Problem with {-meH} and negative meanings«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
@@ -910,7 +910,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;03&#8209;20</font></td><td></td>
+    <td><font size="4">1998-03-20</font></td><td></td>
     <td><font size="4">»Re: {'ej} and sequence (for Dr. Okrand)«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font> 
@@ -919,7 +919,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;03&#8209;22</font></td><td></td>
+    <td><font size="4">1998-03-22</font></td><td></td>
     <td><font size="4">»Re: Need to know some words«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.expertforum</i></font> 
@@ -928,7 +928,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;03&#8209;23a</font></td><td></td>
+    <td><font size="4">1998-03-23a</font></td><td></td>
     <td><font size="4">»Re: {DIrmey pagh DIrDu'}«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
@@ -937,7 +937,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;03&#8209;23b</font></td><td></td>
+    <td><font size="4">1998-03-23b</font></td><td></td>
     <td><font size="4">»Re: {DIrmey pagh DIrDu'}«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
@@ -946,7 +946,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;04&#8209;01</font></td><td></td>
+    <td><font size="4">1998-04-01</font></td><td></td>
     <td><font size="4">»Re: What about Jimmy Dr Okrand?«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
@@ -955,7 +955,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;05&#8209;05a</font></td><td></td>
+    <td><font size="4">1998-05-05a</font></td><td></td>
     <td><font size="4">»Re: {muqaD veS!!!!!!!}«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
@@ -964,7 +964,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;05&#8209;05b</font></td><td></td>
+    <td><font size="4">1998-05-05b</font></td><td></td>
     <td><font size="4">»Re: New Klingon Language Lab Disks«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
@@ -973,7 +973,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;05&#8209;22</font></td><td></td>
+    <td><font size="4">1998-05-22</font></td><td></td>
     <td><font size="4">»Re: {naDev vay' tu'lu''a'?}«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
@@ -982,7 +982,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;05&#8209;28</font></td><td></td>
+    <td><font size="4">1998-05-28</font></td><td></td>
     <td><font size="4">»long weekend with MO«</font>
       <br /><font size="2">Mailing list posting by Roger Cheesbro to
         <i>tlhIngan-Hol</i></font>
@@ -991,7 +991,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;06</font></td><td></td>
+    <td><font size="4">1998-06</font></td><td></td>
     <td><font size="4">»Maltz Online«</font>
       <br /><font size="2"><i>Article in {HolQeD} 7:2 pp.8&ndash;9, excerpt
         from Marc Okrand's newspostings, Klingon Language Institute,
@@ -1001,7 +1001,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;06&#8209;16</font></td><td></td>
+    <td><font size="4">1998-06-16</font></td><td></td>
     <td><font size="4">»Re: "cleric" - Dr. Okrand?«</font>
       <br /><font size="2">Newsgroup posting by Alan Anderson to
         <i>startrek.klingon</i></font>
@@ -1010,7 +1010,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;06&#8209;17</font></td><td></td>
+    <td><font size="4">1998-06-17</font></td><td></td>
     <td><font size="4">»Re: "cleric" - Dr. Okrand?«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
@@ -1019,7 +1019,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;07&#8209;06</font></td><td></td>
+    <td><font size="4">1998-07-06</font></td><td></td>
     <td><font size="4">»Re: Marc Okrand«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.expertforum</i></font>
@@ -1028,7 +1028,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;07&#8209;07</font></td><td></td>
+    <td><font size="4">1998-07-07</font></td><td></td>
     <td><font size="4">»Re: Marc Okrand - apologies to all.«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.expertforum</i></font>
@@ -1037,7 +1037,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;07&#8209;09</font></td><td></td>
+    <td><font size="4">1998-07-09</font></td><td></td>
     <td><font size="4">»Re: {maHeghlaw'lI'}«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
@@ -1046,7 +1046,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;10&#8209;20a</font></td><td></td>
+    <td><font size="4">1998-10-20a</font></td><td></td>
     <td><font size="4">»Re: The spelling of the name of a weapon and the
         Klingon alphbet.«</font> 
       <br /><font size="2">Newsgroup posting by Marc Okrand to
@@ -1056,7 +1056,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;10&#8209;20b</font></td><td></td>
+    <td><font size="4">1998-10-20b</font></td><td></td>
     <td><font size="4">»Re: Just curious...«</font> 
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
@@ -1065,7 +1065,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;11</font></td><td></td>
+    <td><font size="4">1998-11</font></td><td></td>
     <td><font size="4"><i>Star Trek Klingon Bird of Prey Cutaway
         Poster</i></font>
       <br /><font size="2">Poster, translation by Marc Okrand, published
@@ -1076,7 +1076,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;12&#8209;07</font></td><td></td>
+    <td><font size="4">1998-12-07</font></td><td></td>
     <td><font size="4">»Re: walls«</font>
       <br /><font size="2">Newsgroup posting by Marc Okrand to
         <i>startrek.klingon</i></font>
@@ -1085,7 +1085,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1998&#8209;12</font></td><td></td>
+    <td><font size="4">1998-12</font></td><td></td>
     <td><font size="4">»Interview with Marc Okrand«</font>
       <br /><font size="2"><i>Article by Will Martin &amp; Lawrence M. Schoen, {HolQeD} 7:4 pp.2&ndash;12,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -1096,7 +1096,7 @@ publication, or a description of its contents and/or form).
   <tr><td colspan="4"><hr noshade size="1" /></td></tr>
 
   <tr valign="top">
-    <td><font size="4"><a name="1999">1999&#8209;01&#8209;04a</a></font></td><td></td>
+    <td><font size="4"><a name="1999">1999-01-04a</a></font></td><td></td>
     <td><font size="4">»Re: {ghew qab}«</font>
       <br /><font size="2"><i>Newsgroup posting by Marc Okrand to
         »startrek.klingon«</i></font>
@@ -1106,7 +1106,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1999&#8209;01&#8209;04b</font></td><td></td>
+    <td><font size="4">1999-01-04b</font></td><td></td>
     <td><font size="4">»Re: {ghew qab}«</font>
       <br /><font size="2"><i>Newsgroup posting by Marc Okrand to
         »startrek.klingon«</i></font>
@@ -1116,7 +1116,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1999&#8209;02&#8209;02</font></td><td></td>
+    <td><font size="4">1999-02-02</font></td><td></td>
     <td><font size="4">»Re: {wanI'} to replace time related
         relative pronoun«</font>
       <br /><font size="2"><i>Newsgroup posting by Marc Okrand to
@@ -1126,7 +1126,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1999&#8209;03</font></td><td></td>
+    <td><font size="4">1999-03</font></td><td></td>
     <td><font size="4">»Maltz Online«</font>
       <br /><font size="2"><i>Article in {HolQeD} 8:1 pp.7&ndash;12, excerpt
         from Marc Okrand's newspostings, Klingon Language Institute,
@@ -1136,7 +1136,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1999&#8209;07&#8209;19a</font></td><td></td>
+    <td><font size="4">1999-07-19a</font></td><td></td>
     <td><font size="4">»gods (from Marc)«</font>
       <br /><font size="2"><i>Newsgroup posting by Marc
         Okrand to »startrek.klingon« (forwarded to {tlhIngan-Hol} by Roger Cheesbro)</i></font>
@@ -1145,7 +1145,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1999&#8209;07&#8209;19b</font></td><td></td>
+    <td><font size="4">1999-07-19b</font></td><td></td>
     <td><font size="4">»{chegh} and new word {tatlh} (from Marc)«</font>
       <br /><font size="2"><i>Newsgroup posting by Marc
         Okrand to »startrek.klingon« (forwarded to {tlhIngan-Hol} by Roger Cheesbro)</i></font>
@@ -1154,7 +1154,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1999&#8209;07&#8209;19c</font></td><td></td>
+    <td><font size="4">1999-07-19c</font></td><td></td>
     <td><font size="4">»where do you live? (from Marc)«</font>
       <br /><font size="2"><i>Newsgroup posting by Marc
         Okrand to »startrek.klingon« (forwarded to {tlhIngan-Hol} by Roger Cheesbro)</i></font>
@@ -1163,7 +1163,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1999&#8209;09</font></td><td></td>
+    <td><font size="4">1999-09</font></td><td></td>
     <td><font size="4">»{matlh juppu' mu'mey}«</font>
       <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 8:3 pp.2&ndash;4,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -1172,7 +1172,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1999&#8209;11&#8209;05</font></td><td></td>
+    <td><font size="4">1999-11-05</font></td><td></td>
     <td><font size="4">»Re: And then...? And then...? (And then along
         came Jones...) - For MO«</font>
       <br /><font size="2"><i>Newsgroup posting by Marc Okrand to
@@ -1182,7 +1182,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1999&#8209;11&#8209;21</font></td><td></td>
+    <td><font size="4">1999-11-21</font></td><td></td>
     <td><font size="4">»Re: Cardinal Directions (to Marc Okrand)«</font>
       <br /><font size="2"><i>Newsgroup posting by Marc Okrand to
         »startrek.klingon«</i></font>
@@ -1191,7 +1191,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1999&#8209;12&#8209;01</font></td><td></td>
+    <td><font size="4">1999-12-01</font></td><td></td>
     <td><font size="4">»Re: Cardinal Directions (to Marc Okrand)«</font>
       <br /><font size="2"><i>Newsgroup posting by Marc Okrand to
         »startrek.klingon«</i></font>
@@ -1200,7 +1200,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1999&#8209;12</font></td><td></td>
+    <td><font size="4">1999-12</font></td><td></td>
     <td><font size="4">»Maltz Online«</font>
       <br /><font size="2"><i>Article in {HolQeD} 8:4, pp.6&ndash;10, excerpt from Marc Okrand's newspostings,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -1211,7 +1211,7 @@ publication, or a description of its contents and/or form).
   <tr><td colspan="4"><hr noshade size="1" /></td></tr>
 
   <tr valign="top">
-    <td><font size="4"><a name="2000">2000&#8209;09</a></font></td><td></td>
+    <td><font size="4"><a name="2000">2000-09</a></font></td><td></td>
     <td><font size="4">»{matlh juppu' mu'mey}«</font>
       <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 9:3 pp.8&ndash;10,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -1222,7 +1222,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">2000&#8209;12</font></td><td></td>
+    <td><font size="4">2000-12</font></td><td></td>
     <td><font size="4">»More From Maltz«</font>
       <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 9:4 p.16,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -1234,7 +1234,7 @@ publication, or a description of its contents and/or form).
   <tr><td colspan="4"><hr noshade size="1" /></td></tr>
 
   <tr valign="top">
-    <td><font size="4"><a name="2001">2001&#8209;06</a></font></td><td></td>
+    <td><font size="4"><a name="2001">2001-06</a></font></td><td></td>
     <td><font size="4">»A Friend of Maltz: {nItlhDu' yaDDu' je}«</font>
       <br /><font size="2"><i>Article by Marc Okrand, edited by Lawrence M.
       Schoen, {HolQeD} 10:2 pp.7&ndash;11, Klingon Language Institute,
@@ -1248,7 +1248,7 @@ publication, or a description of its contents and/or form).
 
 
   <tr valign="top">
-    <td><font size="4">2001&#8209;12</font></td><td></td>
+    <td><font size="4">2001-12</font></td><td></td>
     <td><font size="4">»{matlh juppu' mu'mey}«</font>
       <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 10:4 pp.4&ndash;5,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -1263,7 +1263,7 @@ publication, or a description of its contents and/or form).
   <tr><td colspan="4"><hr noshade size="1" /></td></tr>
 
   <tr valign="top">
-    <td><font size="4"><a name="2002">2002&#8209;06</a></font></td><td></td>
+    <td><font size="4"><a name="2002">2002-06</a></font></td><td></td>
     <td><font size="4">»{matlh jup mu'mey}«</font>
       <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 11:2 pp.8&ndash;9,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -1275,7 +1275,7 @@ publication, or a description of its contents and/or form).
 
 
   <tr valign="top">
-    <td><font size="4">2002&#8209;09a</font></td><td></td>
+    <td><font size="4">2002-09a</font></td><td></td>
     <td><font size="4">»Errata«</font>
       <br /><font size="2"><i>Article by Lawrence M. Schoen, {HolQeD} 11:3 p.9,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -1287,7 +1287,7 @@ publication, or a description of its contents and/or form).
 
 
   <tr valign="top">
-    <td><font size="4">2002&#8209;09b</font></td><td></td>
+    <td><font size="4">2002-09b</font></td><td></td>
     <td><font size="4">»More from Maltz«</font>
       <br /><font size="2"><i>Article by Lawrence M. Schoen (?), {HolQeD} 11:3 p.13,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -1298,7 +1298,7 @@ publication, or a description of its contents and/or form).
 
 
   <tr valign="top">
-    <td><font size="4">2002&#8209;12</font></td><td></td>
+    <td><font size="4">2002-12</font></td><td></td>
     <td><font size="4">»Frasier's Klingon«</font>
       <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 11:4 pp.10&ndash;11,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -1312,7 +1312,7 @@ publication, or a description of its contents and/or form).
   <tr><td colspan="4"><hr noshade="noshade" size="1" /></td></tr>
 
   <tr valign="top">
-    <td><font size="4"><a name="2003">2003&#8209;06</a></font></td><td></td>
+    <td><font size="4"><a name="2003">2003-06</a></font></td><td></td>
     <td><font size="4">»Maltz's Reward: Part I«</font>
       <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 12:2 pp.6&ndash;9
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -1325,7 +1325,7 @@ publication, or a description of its contents and/or form).
 
 
   <tr valign="top">
-    <td><font size="4">2003&#8209;09</font></td><td></td>
+    <td><font size="4">2003-09</font></td><td></td>
     <td><font size="4">»Maltz's Reward: Part II«</font>
       <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 12:3 pp.8&ndash;10
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -1339,7 +1339,7 @@ publication, or a description of its contents and/or form).
 
   
   <tr valign="top">
-    <td><font size="4">2003&#8209;12</font></td><td></td>
+    <td><font size="4">2003-12</font></td><td></td>
     <td><font size="4">»Maltz's Reward: Part III«</font>
       <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 12:4 pp.8&ndash;9
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -1355,7 +1355,7 @@ publication, or a description of its contents and/or form).
   <tr><td colspan="4"><hr noshade="noshade" size="1" /></td></tr>
 
   <tr valign="top">
-    <td><font size="4"><a name="2004">2004&#8209;03</a></font></td><td></td>
+    <td><font size="4"><a name="2004">2004-03</a></font></td><td></td>
     <td><font size="4">»Maltz's Reward: Part IV«</font>
       <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 13:1 pp.8&ndash;10
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -1368,7 +1368,7 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">2004&#8209;04&#8209;02</font></td><td></td>
+    <td><font size="4">2004-04-02</font></td><td></td>
     <td><font size="4">»Re: New Wiki page: "Common Grammar Questions And Problems"«</font>
       <br /><font size="2"><i>Mailing list posting by Steven Boozer to {tlhIngan-Hol}</i></font>
       <br />(<a href="2004-04-02-email.txt">text</a>)
