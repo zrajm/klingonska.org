@@ -1,0 +1,83 @@
+
+<h1>About the <i>Klingonska Akademien</i> Website</h1>
+
+<p>This is a collection of info on the guiding principles of the design behind
+this site.</p>
+
+
+<h2>HTML5</h2>
+
+
+<h2>Troublesome Unicode Characters</h2>
+
+<p>Most unicode is unproblematic, but there are some exceptions with those
+characters that in some way control the flow of text on the page.</p>
+
+<p><b>Soft hyphen (<code>&amp;#173;</code> or <code>&amp;shy;</code>)</b>
+&ndash; USED. Indicates a line-breaking point. I line break may be inserted at
+this point, and if it is, a hyphen is added. Quite common, e.g. to indicate
+line break points in the Klingon phrases on this web page.</p>
+
+<p><b>Hard hyphen (<code>&amp;#8208;</code> or
+&ldquo;<code>-</code>&rdquo;)</b> &ndash; USED. Indicate a hyphen, after which
+a line break may, or may not, be inserted. Used in all places where a hyphen is
+required, e.g. when writing isolated Klingon affixes like <b lang="tlh">yI-</b>
+and <b lang="tlh">-laH</b>, or in some English words
+like <i>non-commissioned</i> or names <i>Nielsen-Brown</i>.
+
+<p><b>Non-breaking hyphen (<code>&amp;#8209;</code>)</b> &ndash; NOT USED.
+Always displays a hyphen, keeps the entire word together in one unit when
+broken across lines. Could be handy, when writing ISO dates
+(e.g. <code>YYYY-MM-DD</code>) or unattached Klingon affixes
+(e.g. <b lang="tlh">HI-</b>), however, this character cannot be found using
+most browsers search-on-the-page function (<code>ctrl-f</code>), so on this
+site other means are used to ensure that those words are not being broken.</p>
+
+<p><b>Minus sign (<code>&amp;minus;</code> or <code>&amp;#8722;</code>) </b>
+&ndash; USED. This is only used in mathematics. E.g. <i>4+3&minus;1=6</i>.</p>
+
+<p><b>En dash (<code>&amp;ndash;</code> or <code>&amp;8211;</code>) </b>
+&ndash; </p>
+
+<p><b>Em dash (<code>&amp;mdash;</code> or <code>&amp;#8212;</code>) </b>
+&ndash; </p>
+
+<p><b>Left single quotation mark (<code>&amp;lsquo;</code>
+or <code>&amp;#8216;</code>) </b> &ndash; </p>
+
+<p><b>Right single quotation mark (<code>&amp;rsquo;</code>
+or <code>&amp;#8217;</code>) </b> &ndash; Used for Klingon
+letter <b lang="tlh">&rsquo;</b> and as a right-side quotation mark.</p>
+
+<p><b>Left double quotation mark (<code>&amp;ldquo;</code>
+or <code>&amp;#8220;</code>) </b> &ndash; </p>
+
+<p><b>Right double quotation mark (<code>&amp;rdquo;</code>
+or <code>&amp;#8221;</code>) </b> &ndash; </p>
+
+
+<h2>HTML Microdata</h2>
+
+<p><i>Klingonska Akademien</i> strives to provide as much Microdata (Semantic
+Web info) as possible.</p>
+
+<h3>Datetimes</h3>
+
+<p>Should be used for page update times, as well as times elsewhere (e.g. the
+publication dates listed in the <a href="../canon/">Archive of Okrandian
+Canon</a>).
+Uses <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-time-element"><abbr title="Web
+Hypertext Application Technology Working Group">WHATWG</abbr>&rsquo;s
+HTML5 <tt>time</tt> element</a>.</p>
+
+<blockquote><code>&lt;time pubdate datetime="2009-10-18T20:17"&gt;2009-10&#8209;18,
+20:17&lt;/time&gt;</code></blockquote>
+
+<h3>Person Names / Contact Information</h3>
+
+
+<h3>Books</h3>
+
+<p>ISBNs, titles etc. should be included.</p>
+
+<!-- [eof] -->
