@@ -2,7 +2,6 @@ package ParserComposer;
 
 use strict;
 use warnings;
-use feature ":5.10";
 #use Carp "carp";
 use Carp 'verbose';
 
@@ -21,7 +20,7 @@ use Carp 'verbose';
 
     sub mywarn {
         my ($msg, $stacklevel) = (@_, 0);
-        my ($file, $line, $sub) = mycaller($stacklevel+1 // 1);
+        my ($file, $line, $sub) = mycaller($stacklevel+1 || 1);
         warn "$msg to $sub(), at $file line $line\n";
     }
 
@@ -122,15 +121,17 @@ sub nl { join("\n", @_) . "\n" }
 # one for all subsequent lines. If no $WIDTH is specified, a width of 79 is
 # assumed.
 sub wrap {
-    my ($_, $width1, $width2) = (@_);
-    $width1 //= 79;
-    $width2 //= $width1;                       # use same for 1st & other
-    s{ \s+ }{ }xg;                             # remove duplicate space/newline
-    s{ (.{1,$width1})(\s+|\z) }{$1\n}x;
-    substr($_, $+[0] + 1) =~
-        s{ (.{1,$width2})(\s+|\z) }{$1\n}xg;
-    s{\n\z}{};
-    return $_;
+    my ($text, $width1, $width2) = (@_);
+    $width1 = 79      unless defined($width1);
+    $width2 = $width1 unless defined($width2); # use same for 1st & other
+    for ($text) {
+        s{ \s+ }{ }xg;                         # remove duplicate space/newline
+        s{ (.{1,$width1})(\s+|\z) }{$1\n}x;
+        substr($_, $+[0] + 1) =~
+            s{ (.{1,$width2})(\s+|\z) }{$1\n}xg;
+        s{\n\z}{};
+    }
+    return $text;
 }
 
 # Usage: $TEXT = center($TEXT, $WIDTH);
@@ -167,10 +168,8 @@ sub mycarp {
 # return a hash reference to a data structure.
 sub load {
     my ($file) = @_;
-    # lexicals in surrounding scope visible
-    my $hashref = eval `cat $file`;
-    # lexicals in surrounding scope not visible
-    # my $hashref = do $file;
+    my $hashref = do $file;          # lexicals in surrounding scope not visible
+    #my $hashref = eval `cat $file`; # lexicals in surrounding scope visible
     if (not defined($hashref)) {
         die "failed to open file '$file' for reading: $!\n" if $!;
         die "failed to load file '$file' code content: $@\n" if $@;
@@ -257,8 +256,8 @@ sub match {
 # want to use '$TEXT = indent($TEXT, " * ", " ")' or similar).
 sub indent {
     my ($text, $prefix1, $prefix2) = (@_);
-    $prefix1 //= "";                           # default prefix = ""
-    $prefix2 //= $prefix1;                     # use same for 1st & other
+    $prefix1 = ""       unless defined($prefix1);# default prefix = ""
+    $prefix2 = $prefix1 unless defined($prefix2);# use same for 1st & other
     $text =~ s{ (?<!\A)^ }{$prefix2}xgm;       # indent all but 1st line
     return $prefix1 . $text;
 }
@@ -285,7 +284,7 @@ sub underline {
 # between "-" and "m". (NOTE: Don't use "-" as $HYPHEN, if you specify a
 # $HARD_HYPHEN -- if you do this, then all hyphens will become $HARD_HYPHENs).
 sub klinhyphenate($$;$) {
-    my ($_, $hyphen, $hard_hyphen) = @_;
+    my ($text, $hyphen, $hard_hyphen) = @_;
     my $cons = "tlh|ch|gh|ng|[bDHjlmnpqQrStv']";# consonants (except {w} and {y})
     my $syll = qr{                              #
       (?:                                       #
@@ -297,9 +296,11 @@ sub klinhyphenate($$;$) {
           )                                     #
         ) | oy                                  # or possibly just 'oy'
       )}x;                                      #
-    s{ ($syll) (?=$syll) }{$1$hyphen}xg;
-    s{-}{$hard_hyphen}g if defined($hard_hyphen);
-    return $_;
+    for ($text) {
+        s{ ($syll) (?=$syll) }{$1$hyphen}xg;
+        s{-}{$hard_hyphen}g if defined($hard_hyphen);
+    }
+    return $text;
 }
 
 # Usage: $OUTPUT = process($CONTEXT, $TEXT);
@@ -339,8 +340,8 @@ sub parse_rule_check {
     return $self if exists($self->{parser_checked}); # only check once
     foreach my $context (keys %{$self->{parser}}) {
         # defaults
-        $self->{parser}{$context}[1] //= [];
-        $self->{parser}{$context}[2] //= sub { first(pop()) };
+        $self->{parser}{$context}[1] ||= [];
+        $self->{parser}{$context}[2] ||= sub { first(pop()) };
         # 1st: context-matching regex
         die "1st element not a regex in context '$context' \n"
             if ref($self->{parser}{$context}[0]) ne "Regexp";
@@ -504,7 +505,7 @@ sub compose_rule_check {
 sub compose {
     my ($self, $treeref, $ruleref) =
         arg::test(@_, [ qw(object listref) ], [ qw(hashref) ]) or return ();
-    $ruleref //= $self->{composer};             # default (specified in new())
+    $ruleref = $self->{composer} unless defined($ruleref);# default (given in new())
     return _dump($treeref) unless %{$ruleref};  # "raw" dump of parsed tree
     # ERROR CHECKS default rule OR all contexts defined should be defined
     my @missing = grep { !exists($ruleref->{$_}) } $self->context();
@@ -523,7 +524,7 @@ sub _compose {
     my $out = "";
     foreach my $tag (@tagref) {
         if (ref($tag) eq "") {   # not array reference,
-            $out .= $tag // "";  #   just insert contents
+            $out .= defined($tag) ? $tag : "";  #   just insert contents
             next;
         }
         my ($context, @content) = @$tag;

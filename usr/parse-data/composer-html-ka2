@@ -1,8 +1,5 @@
-#!/usr/bin/perl
-
-use warnings;
+#!/usr/bin/perl -w
 use strict;
-use feature ":5.10";
 
 my $WIDTH = 79;
 my $PAGE_HEAD = <<"EOF";

@@ -1,8 +1,5 @@
-#!/usr/bin/perl
-
-use warnings;
+#!/usr/bin/perl -w
 use strict;
-use feature ":5.10";
 
 # TODO span element
 # LOOK INTO:
@@ -43,10 +40,12 @@ my $sources = qr/(?:tkd|tkw|kgt|hq|ck)/i;
         )+) }xi,
         [],    # no sub-contexts
         sub {
-            my $_ = first(pop());
-            s{ \s+ }{ }xg; # remove newlines
-            s{ (?| \\(.) | ([^\\]) ) }{$1}xmg;# remove escapes
-            return $_;
+            my $x = first(pop());
+            for ($x) {
+                s{ \s+ }{ }xg; # remove newlines
+                s{ (?: \\(.) | ([^\\]) ) }{ $1 or $2 }xmge;# remove escapes
+            }
+            return $x;
         },
     ],
     endash => [ qr{ (--)  }x, [], sub { '--' }  ],
@@ -56,36 +55,40 @@ my $sources = qr/(?:tkd|tkw|kgt|hq|ck)/i;
         [ qw( emdash endash english klingon strong emphasis code plain ) ],
     ],
     strong => [
-        qr{  (?|
+        qr{  (?:
             \_\_(?!\s) ( (?:[^\\\_]|\\.|\s\_)* ) (?<![\s])\_\_ |    # _..._
             \*\*(?!\s) ( (?:[^\\\*]|\\.|\s\*)* ) (?<![\s])\*\*      # *...*
         ) }x,
         [ qw( doublequote emphasis plain ) ],
+        sub { join("", grep { defined() } list(pop())) },
     ],
     emphasis => [
-        qr{ (?|
+        qr{ (?:
             \_(?!\s) ( (?:[^\\\_]|\\.|\s\_)* ) (?<![\s])\_ |        # _..._
             \*(?!\s) ( (?:[^\\\*]|\\.|\s\*)* ) (?<![\s])\*          # *...*
         ) }x,
         [ qw( doublequote plain ) ],
+        sub { join("", grep { defined() } list(pop())) },
     ],
     code  => [                          # `code`
         qr{ \`( (?: [^`] | \\[`] )* )\` }x,
         [],
     ],
     head1 => [
-        qr{ (?|                     # "#" or "===" line
+        qr{ (?:                     # "#" or "===" line
             \#{1}(?!\#) \s* (.+?) \s* \#* (?:\n+|\z) |
             (.+) \n ={3,} (?:\n+|\z)
         ) }x,
         [ qw( emdash endash english klingon strong emphasis code doublequote reference plain ) ],
+        sub { join("", grep { defined() } list(pop())) },
     ],
     head2 => [
-        qr{ (?|                     # "##" or "---" line
+        qr{ (?:                     # "##" or "---" line
             \#{2}(?!\#) \s* (.+?) \s* \#* (?:\n+|\z) |
             (.+) \n -{3,} (?:\n+|\z)
         ) }x,
         [ qw( emdash endash english klingon strong emphasis code doublequote reference plain ) ],
+        sub { join("", grep { defined() } list(pop())) },
     ],
     head3 => [                         # "###"
         qr{ \#{3}(?!\#) \s* (.+?) \s* \#* (?:\n+|\z) }x,
@@ -109,7 +112,7 @@ my $sources = qr/(?:tkd|tkw|kgt|hq|ck)/i;
         sub { regex(first(pop()), qr{ ^ \s{0,3} > }mx) },
     ],
     bulletlist => [                            # "* " (preceded by 1-3 spaces)
-        qr{ ( \s{0,3} [o*+-] \h+ (?:.+\n)* .+ ) \n* }x,
+        qr{ ( \s{0,3} [o*+-] [\t ]+ (?:.+\n)* .+ ) \n* }x,
         [ qw( bulletlist_item ) ],
         sub { regex(first(pop()), qr{ ^ \s{0,3} [o*+-] \s+ }mx) },
     ],
@@ -119,7 +122,7 @@ my $sources = qr/(?:tkd|tkw|kgt|hq|ck)/i;
         sub { regex(first(pop()), qr{ ^ \s{0,3} \d+\. \s+ }mx) },
     ],
     numberlist => [                            # "1. " (preceded by 1-3 spaces)
-        qr{ ( \s{0,3} \d+\. \h+ (?:.+\n)* .+ ) \n* }x,
+        qr{ ( \s{0,3} \d+\. [\t ]+ (?:.+\n)* .+ ) \n* }x,
         [ qw( numberlist_item ) ],
     ],
     numberlist_item => [
@@ -127,7 +130,7 @@ my $sources = qr/(?:tkd|tkw|kgt|hq|ck)/i;
         [ qw( emdash endash english klingon strong emphasis code doublequote reference plain ) ],
     ],
     hr => [                            # 3 or more -_*
-        qr{ \h* (?: [-_*]\h* ){2,} [-_*] \s* (?:\n+|\z) }x,
+        qr{ [\t ]* (?: [-_*][\t ]* ){2,} [-_*] \s* (?:\n+|\z) }x,
         [],
     ],
     verbatim => [                     # 4 or more spaces

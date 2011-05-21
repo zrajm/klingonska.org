@@ -1,4 +1,5 @@
-#!/usr/bin/perl
+#!/usr/bin/perl -w
+use strict;
 
 # TODO
 #   o HTML output for actual dictionary suffix guide.
@@ -8,15 +9,11 @@
 #   o Implement full markdown.
 #   o Implement nested structures. (e.g. *emphasised *doubly emphasised**)
 #
-use warnings;
-use strict;
-use feature ':5.10';                           # loads features for perl 5.10
 use lib do {
     use Cwd "realpath";   # resolves symlinks
     realpath($0) =~ m#^(.*)/[^/]*/#;
     "$1/perl";
 };
-
 use Data::Dumper;
 $Data::Dumper::Indent = 1;
 $Data::Dumper::Terse  = 1;
@@ -120,21 +117,19 @@ my %cfg = (
 {
     my @arg = ();
     while (@ARGV) {
-        my $opt = shift();
-        unshift(@ARGV, $1) if $opt =~ s{ = (.*) $ }{}x;
-        given ($opt) {
-            when (/^--$/) { last }
-            when (/^(-h|--help)$/)  { help(); exit }
-            when (/^(-i|--input)/)  { $cfg{input}   = shift() }
-            when (/^(-l|--list)/)   { $cfg{command} = "list"  }
-            when (/^(-o|--output)/) { $cfg{output}  = shift() }
-            when (/^(-p|--plot)/)   { $cfg{command} = "plot"  }
-            when (/^--html$/)       { $cfg{output}  = "usr/parse-data/composer-html" }
-            when (/^--markdown$/)   { $cfg{output}  = "usr/parse-data/composer-markdown" }
-            when (/^--raw$/)        { $cfg{output}  = "" }
-            when (/^-/) { warn "unknown option '$opt'\n" }
-            default { push @arg, $opt }
-        }
+        local $_ = shift();
+        unshift(@ARGV, $1) if s/ = (.*) $ //x;
+        m/^--$/           and do { last,                     next };
+        m/^(-h|--help)$/  and do { help();                   exit };
+        m/^(-i|--input)/  and do { $cfg{input}   = shift();  next };
+        m/^(-l|--list)/   and do { $cfg{command} = "list";   next };
+        m/^(-o|--output)/ and do { $cfg{output}  = shift();  next };
+        m/^(-p|--plot)/   and do { $cfg{command} = "plot";   next };
+        m/^--html$/       and do { $cfg{output}  = "usr/parse-data/composer-html";     next };
+        m/^--markdown$/   and do { $cfg{output}  = "usr/parse-data/composer-markdown"; next };
+        m/^--raw$/        and do { $cfg{output}  = "";       next };
+        m/^-/             and do { warn "unknown option '$_'\n";  next };
+        push @arg, $_;
     }
     warn "no --output given\n" unless defined($cfg{output});
     warn "no --input given\n" unless defined($cfg{input});
@@ -146,18 +141,16 @@ use ParserComposer;
 my $block = new ParserComposer($cfg{input}, $cfg{output} || {});
 
 # 
-if ($cfg{command}) {
-    given ($cfg{command}) {
-        when("plot") { print $block->plot_contexts() }
-        when("list") { 
-            print "# -*- perl -*-\n",
-              "my \$WIDTH = $WIDTH;\n",
-              "{\n",
-              sort(map { "    $_ => sub { },\n" } $block->context()),
-              "};\n",
-              "#[eof]\n";
-        }
-    }
+if ($cfg{command} eq "plot") {
+    print $block->plot_contexts();
+    exit;
+} elsif ($cfg{command} eq "list") {
+    print "# -*- perl -*-\n",
+        "my \$WIDTH = $WIDTH;\n",
+        "{\n",
+        sort(map { "    $_ => sub { },\n" } $block->context()),
+        "};\n",
+        "#[eof]\n";
     exit;
 }
 
