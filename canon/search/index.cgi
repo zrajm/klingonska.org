@@ -342,9 +342,9 @@ sub page_footer {
 <p class="copyright">&copy;1998&ndash;2010, Copyright <span class="author"><a href="mailto:zrajm\@klingonska.org">Zrajm C Akfohg</a></span>, <a href="http://klingonska.org/">Klingonska Akademien</a>, Uppsala.</p>
 <p class="validator">
  Validate:
-  <a href="http://validator.w3.org/check?uri=http://test.zrajm.org/canon/">XHTML</a>,
-  <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://test.zrajm.org/canon/&amp;profile=css3">CSS3</a>,
-  <a href="http://validator.w3.org/checklink?uri=http://test.zrajm.org/canon/">links</a>.
+  <a href="http://validator.w3.org/check?uri=http://klingonska.org/canon/">XHTML</a>,
+  <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://klingonska.org/canon/&amp;profile=css3">CSS3</a>,
+  <a href="http://validator.w3.org/checklink?uri=http://klingonska.org/canon/">links</a>.
  License:
   <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">CC BY&ndash;SA</a>.&nbsp;
 </p>

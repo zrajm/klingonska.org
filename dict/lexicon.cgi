@@ -272,7 +272,7 @@ return <<"EOF";
 <table class="status">
   <tr>
     <td class="left"><a href="mailto:webmaster\@klingonska.org">webmaster\@klingonska.org</a></td>
-<!-- FIXME -->    <td class="center"><a href="http://test.zrajm.org/dict/lexicon.cgi">http://test.zrajm.org/dict/lexicon.cgi</a></td>
+<!-- FIXME -->    <td class="center"><a href="http://klingonska.org/dict/lexicon.cgi">http://klingonska.org/dict/lexicon.cgi</a></td>
 <!-- FIXME -->    <td class="right">Updated: 2009&#8209;10&#8209;18, 20:17</td>
   </tr>
 </table>
@@ -334,9 +334,9 @@ sub html_foot {
 <a href="http://klingonska.org/">Klingonska Akademien</a>, Uppsala.</p>
 <p class="validator">
   Validate:
-  <a href="http://validator.w3.org/check?uri=http://test.zrajm.org/dict/lexicon.cgi">XHTML</a>,
-  <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://test.zrajm.org/dict/lexicon.cgi&amp;profile=css3">CSS3</a>,
-  <a href="http://validator.w3.org/checklink?uri=http://test.zrajm.org/dict/lexicon.cgi">links</a>.
+  <a href="http://validator.w3.org/check?uri=http://klingonska.org/dict/lexicon.cgi">XHTML</a>,
+  <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://klingonska.org/dict/lexicon.cgi&amp;profile=css3">CSS3</a>,
+  <a href="http://validator.w3.org/checklink?uri=http://klingonska.org/dict/lexicon.cgi">links</a>.
   License:
   <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">CC BY&ndash;SA</a>.&nbsp;
 </p>

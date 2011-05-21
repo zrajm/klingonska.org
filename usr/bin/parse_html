@@ -390,7 +390,7 @@ output easily diff:able with original.
 }
 
 
-HTML::set(base_dir => "/home/zrajm/web/test.zrajm.org");
+HTML::set(base_dir => "/home/zrajm/web/klingonska.org");
 
 foreach (@ARGV) {
     print HTML::parse_file($_);
