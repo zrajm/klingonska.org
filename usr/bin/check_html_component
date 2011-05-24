@@ -11,11 +11,83 @@ Process HTML blocks of the following kind.
     <!-- end:COMPONENT -->
 EOF
 
+# Usage: $CONTENT = read_file($FILENAME)
+#            or die "Cannot open file '$FILENAME' for reading: $!\n"
+#
+# Reads content of $FILENAME and returns scalar $CONTENT. If file couldn't be
+# opened, returns undef.
+sub read_file {
+    my ($file) = @_;
+    open(my $in, "<", $file) or return undef;
+    return join("", <$in>);
+}
+
+# Usage: $TITLE = page_title($HTMLFILE);
+#
+# Returns $TITLE of $HTMLFILE. If $HTMLFILE ends in slash (/) "index.html" is
+# appended to the filename before an attempt is made to read it.
+#
+# $TITLE is stripped of any leading or trailing "Klingonska Akademien" string.
+#
+
+sub page_title {
+    my ($file) = @_;
+    my $_ = read_file($file);
+
+    # missing file (e.g. no "index.html" in that dir) - use part of path
+    if (not defined($_)) {
+        $file =~ m#([^/]+)(/|/index.html)?$#;
+        return ucfirst($1);
+    }
+
+    if (my ($title) = m#<title>(.*?)</title>#i) {
+        for ($title) {
+            s/\.$//;
+            s/ \s* &ndash;.*//x or
+                s/^ \s* Klingonska \s+ Akademien \s+ (&ndash;|-) \s* //x or
+                s/  \s* - \s+ Klingonska \s+ Akademien \s* $//x or
+                s/ \s* \( \s* Klingonska \s+ Akademien \s* \) \s* //x;
+        }
+        return $title;
+    }
+
+    return undef;
+}
 
 my %component = (
     status => sub {
-        my ($file, $text) = @_;
-        print "$ARGV:\n$1\n\n"
+        my ($file, $_) = @_;
+        print $file,"\n";
+        my $srcfile = m#<A HREF="http://klingonska\.org(/[a-z0-9/._-]*)">#i
+            ? $1 : '';
+
+        my ($date, $time) = m#(\d\d\d\d-\d\d-\d\d), (\d\d:\d\d)# ? ($1, $2) : ();
+
+        my $lang    = m#Ändrad# ? "se" : "en";
+        my $changed = $lang eq "se" ? "Ändrad" : "Updated";
+
+        $srcfile =~ s#/$#/index.html#;
+        $srcfile =~ s#^/##;
+
+        my @file = split(m#/#, $file);
+        my @crumb = ("index.html");  # Home
+        for my $i (0..$#file) {
+            my $_ = join("/", @file[0..$i]);
+            /\.[a-z]+$/ or $_ .= "/index.html";
+            push @crumb, $_ unless $_ eq $crumb[-1];
+        }
+        @crumb = map {
+            # FIXME should error if page_title() returt undef
+            my $title = ($_ eq "index.html") ? "Home" : page_title($_);
+            s#index\.html$##;
+            "<a href=\"$_\">$title</a>";
+        } @crumb;
+
+        print "<div id=\"status\">\n",
+            "  <div id=\"crumbs\">\n    " . join(" &gt;\n    ", @crumb) . "\n  </div>\n",
+            "  <div id=\"pubdate\">$changed <time pubdate datetime=\"${date}T$time\">$date, $time</time></div>\n",
+            "</div>\n\n";
+
     }
 );
 
@@ -28,9 +100,8 @@ exists($component{$component})
 
 while (<>) {
     s{<!-- begin:$component -->\n(.*?)\n<!-- end:$component -->}
-        { &{$component{$component}}($ARGV, $1) }se;
-
-
+        { &{$component{$component}}($ARGV, $1) }se
+            or warn "$0: <!-- begin:$component --> did not occur in file '$ARGV'\n";
 }
 
 #[eof]
