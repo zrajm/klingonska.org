@@ -1,0 +1,59 @@
+/*
+Created: May 26, 2011
+Author: Zrajm C Akfohg
+Description: Stylesheet to make a banner shaped like this:
+     ____________________
+    /                    \
+    \____________________/
+
+Use the following HTML to produce one:
+
+    <table class="banner">
+      <tr>
+        <td class="left edge"></td>
+        <td><img src="/pic/flag-swe.gif" width="35" height="21" alt="Svenska" /></td>
+        <td>Om du gillar den här sidan, glöm inte att länka hit!</td>
+        <td class="right edge"></td>
+      </tr>
+    </table>
+
+*/
+
+table.banner {
+    background-color: transparent;
+    border-spacing: 0;
+    empty-cells: show;
+    font-size: 110%;
+    margin: 1em auto;
+}
+
+table.banner td {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0 .5em;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+table.banner td.edge {
+    background-color: transparent;
+    border-color: transparent black;
+    border-style: solid;
+    border-width: 1.25em 0 1.25em .625em;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    width: 0;
+}
+
+table.banner td.left {
+    border-width: 1.25em .625em 1.25em 0;
+}
+
+table.banner td.right {
+    border-width: 1.25em 0 1.25em .625em;
+}
+
+/* eof */
