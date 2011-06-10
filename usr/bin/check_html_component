@@ -1,6 +1,8 @@
-#!/usr/bin/perl -w0777
+#!/usr/bin/perl -w
 use strict;
 use 5.10.0;
+
+my $suffix = '.2.html';
 
 @ARGV or die <<EOF;
 Usage: $0 COMPONENT FILE...
@@ -10,6 +12,19 @@ Process HTML blocks of the following kind.
     ...
     <!-- end:COMPONENT -->
 EOF
+
+# Usage: $PATH = dirname($FILE)
+#
+# Strips the final filename from $FILE, returning the $PATH part of the
+# filename. If $FILE ends in a slash, then nothing is stripped.
+#
+sub dirname {
+    my ($_) = @_;
+    s#/+#/#g;        # squeeze multiple slashes
+    s#(^|/)[^/]*$##; # remove trailing filename (if any)
+    s#[^/]+#..#g;    # replace all path components with '..'
+    return $_;
+}
 
 # Usage: $CONTENT = read_file($FILENAME)
 #            or die "Cannot open file '$FILENAME' for reading: $!\n"
@@ -22,6 +37,18 @@ sub read_file {
     return join("", <$in>);
 }
 
+# Usage: $BOOL = write_file($FILENAME, @CONTENT)
+#            or die "Cannot open file '$FILENAME' for writing: $!\n"
+#
+# Writes @CONTENT to $FILENAME. Returns true if successful, false otherwise.
+# @CONTENT is concatenated.
+sub write_file {
+    my ($file, @content) = @_;
+    open(my $out, ">", $file) or return undef;
+    print $out join("", @content);
+    return 1;
+}
+
 # Usage: $TITLE = page_title($HTMLFILE);
 #
 # Returns $TITLE of $HTMLFILE. If $HTMLFILE ends in slash (/) "index.html" is
@@ -29,17 +56,14 @@ sub read_file {
 #
 # $TITLE is stripped of any leading or trailing "Klingonska Akademien" string.
 #
-
 sub page_title {
     my ($file) = @_;
     my $_ = read_file($file);
-
     # missing file (e.g. no "index.html" in that dir) - use part of path
     if (not defined($_)) {
         $file =~ m#([^/]+)(/|/index.html)?$#;
         return ucfirst($1);
     }
-
     if (my ($title) = m#<title>(.*?)</title>#i) {
         for ($title) {
             s/\.$//;
@@ -50,58 +74,145 @@ sub page_title {
         }
         return $title;
     }
-
     return undef;
 }
+
+# Usage: @HTML = get_crumbs($FILE[, $BASEURL]);
+#
+# Return list of '<a href="URL">LINKTEXT</a>' links, with the first pointing to
+# the index page in current directory, the last pointing $FILE, and those in
+# between links to all the intermediate pages in the directory structure.
+#
+# If $FILE ends in slash "index.html" is appended.
+
+# URL is prefixed with $BASEURL (if specified). Any trailing "index.html" is
+# also removed from URL.
+#
+# LINKTEXT is read from each file in turn. It is extracted from this file's
+# <title> element (everything up to the first &ndash; is included in LINKTEXT).
+#
+# Example output:
+#     <a href="http://klingonska.org/">Home</a>
+#     <a href="http://klingonska.org/songs/">Songs in Klingon</a>
+#     <a href="http://klingonska.org/songs/tahjaj_wo/">taHjaj wo&rsquo;</a>
+#
+# NOTE: "&rsquo;" above was read literally from "songs/tahjaj_wo/index.html" --
+# thus function does not do any HTML conversion or escaping of any kind.
+#
+sub get_crumbs {
+    my ($file, $base_url) = @_;
+    my @file = split(m#/#, $file);
+    my @crumb = ("index.html");  # Home
+    for my $i (0..$#file) {
+        my $_ = join("/", @file[0..$i]);
+        /\.[a-z]+$/ or $_ .= "/index.html";
+        push @crumb, $_ unless $_ eq $crumb[-1];
+    }
+    return map {
+        # FIXME should error if page_title() returt undef
+        my $title = ($_ eq "index.html") ? "Home" : page_title($_);
+        s#(?:^|(?<=/))index\.html$##;
+        '<a href="' . ($base_url // "") . $_ . '">' . $title . '</a>';
+    } @crumb;
+}
+
+my %string = (
+    changed => { en => "Changed", sv => "Ändrad" },
+    month => {
+        en => sub {
+            my ($year, $month, $day, $hour, $minute) = @_;
+            my @month = qw(
+                January   February  March      April    May       June
+                July      August    September  October  November  December
+            );
+            "$month[$month-1] $day, $year";
+        },
+        sv => sub {
+            my ($year, $month, $day, $hour, $minute) = @_;
+            my @month = qw(
+                januari   februari  mars       april    maj       juni
+                juli      augusti   september  oktober  november  december
+            );
+            "$day $month[$month-1] $year";
+        }
+    },
+);
+
+
+
+my %css = (
+    status => "includes/pagestats.css",
+);
 
 my %component = (
     status => sub {
         my ($file, $_) = @_;
-        print $file,"\n";
-        my $srcfile = m#<A HREF="http://klingonska\.org(/[a-z0-9/._-]*)">#i
-            ? $1 : '';
+        my ($year, $month, $day, $hour, $minute) =
+            m#(\d\d\d\d)-(\d\d)-(\d\d), (\d\d):(\d\d)#;
 
-        my ($date, $time) = m#(\d\d\d\d-\d\d-\d\d), (\d\d:\d\d)# ? ($1, $2) : ();
+        my $lang = m#Ändrad# ? "sv" : "en";
+        my $changed = $string{changed}{$lang} .
+            ' <time pubdate datetime="' .
+            "$year-$month-${day}T$hour:$minute" . '">' .
+            &{$string{month}{$lang}}($year, $month, $day, $hour, $minute) .
+            '</time>';
 
-        my $lang    = m#Ändrad# ? "se" : "en";
-        my $changed = $lang eq "se" ? "Ändrad" : "Updated";
-
-        $srcfile =~ s#/$#/index.html#;
-        $srcfile =~ s#^/##;
-
-        my @file = split(m#/#, $file);
-        my @crumb = ("index.html");  # Home
-        for my $i (0..$#file) {
-            my $_ = join("/", @file[0..$i]);
-            /\.[a-z]+$/ or $_ .= "/index.html";
-            push @crumb, $_ unless $_ eq $crumb[-1];
-        }
-        @crumb = map {
-            # FIXME should error if page_title() returt undef
-            my $title = ($_ eq "index.html") ? "Home" : page_title($_);
-            s#index\.html$##;
-            "<a href=\"$_\">$title</a>";
-        } @crumb;
-
-        print "<div id=\"status\">\n",
-            "  <div id=\"crumbs\">\n    " . join(" &gt;\n    ", @crumb) . "\n  </div>\n",
-            "  <div id=\"pubdate\">$changed <time pubdate datetime=\"${date}T$time\">$date, $time</time></div>\n",
-            "</div>\n\n";
-
+        return join("\n",
+            '<div id="pagestats">',
+            '  <span id="crumbs">',
+            '    ' . join(" &gt;\n    ", get_crumbs($file, 'http://klingonska.org/')),
+            '  </span>',
+            '  <span id="pubdate">',
+            '    ' . $changed,
+            '  </span>',
+            '</div>',
+        ) . "\n";
     }
 );
-
-
 
 my $component = shift(@ARGV);
 exists($component{$component})
     or die "$0: unknown component '$component'\n";
 @ARGV or die "$0: no filenames specified\n";
 
-while (<>) {
-    s{<!-- begin:$component -->\n(.*?)\n<!-- end:$component -->}
-        { &{$component{$component}}($ARGV, $1) }se
-            or warn "$0: <!-- begin:$component --> did not occur in file '$ARGV'\n";
+my %css_used = ();  # count CSS files to be included
+undef $/;
+FILE: while (<>) {
+    s{
+        (<!-- \s+ begin:\Q$component\E \s+ -->\n)
+        (.*? \n)
+        (<!-- \s+ end:\Q$component\E \s+ -->\n)
+    }{
+        $css_used{$component} ++;
+        $1 . &{$component{$component}}($ARGV, $2) . $3;
+    }sex
+        or do {
+            warn "$0: <!-- begin:$component --> did not occur in file '$ARGV'\n";
+            next FILE;
+        };
+
+    # remove/extract existing CSS tag
+    my @css_link = ();
+    s{(<link\b [^>]* >)\s?}{ push(@css_link, $1); "" }exg;
+
+    # CSS
+    foreach my $css (sort keys %css_used) {
+        # match the stylesheet tags in HTML
+        my $path = dirname($ARGV);
+        my $css_file = join("/", ($path eq "" ? () : $path), $css{$css});
+        unless (grep m/href="$css_file"/, @css_link) {
+            push(@css_link, '<link rel="stylesheet" type="text/css" href="' . $css_file . '" />');
+        }
+    }
+
+    # reinsert CSS links just before </head>
+    s{ (?=</head>) }{ join("\n", sort @css_link) . "\n"; }ixe;
+
+    # write ouput
+    print "$ARGV -> $ARGV$suffix\n";
+    write_file("$ARGV$suffix", $_);
 }
+select(STDOUT);
+
 
 #[eof]
