@@ -1,5 +1,6 @@
 #+STARTUP: overview hidestars -*- org -*-
 
+
 * TODO Prettified show script should use <ins> and <del>
   See also: NOTE/2010-09-01-original+corrected-display/index.html
 
@@ -453,16 +454,39 @@
     E.g. "{#Quvatlh#}", or "{tlhIngan #badword# something}"
 *** Support " between words in Klingon
 * Web page improvement
-** TODO Title page
-*** Add some thing (javascript?) to indicate pages that have been recently updated
-    This should maybe be displayed as "New!" for a week, and "New" (with less
-    exclamation marks) for a month, or somesuch.
+** TODO General changes
+   I.e. changes that need to be applied to the web page as a whole.
+*** TODO Mark all Klingon with <b lang="tlh">...</b>
+**** TODO Disable word-wrap for naked Klingon affixes
+     Use 'class="affix"', e.g. <b lang="tlh" class="affix">...</b>.
 
-    This is remnant markup from an earlier such thought:
+     Naked suffixes (e.g. {-moH}) (in e.g. dict/suffix.html) are sometimes
+     wordwrapped, causing the hyphen to occur on a line of its own, and the
+     suffix to come first on the following line. Like this:
 
-    <tr><td align=right valign=center><img src="/pic/ny.gif" width=31 height=14 alt="Ny" hspace=5></td>
-    <tr><td align=right valign=center><img src="/pic/andrad.gif" width=54 height=14 alt="Ändrad" hspace=5></td>
-    <tr><td align=right valign=center><img src="/pic/dot.gif" width=15 height=14 alt="*" hspace=5></td>
+         text text -
+         moH text text
+
+     That looks ugly. Such suffixes should have a class of "affix" and a
+     stylesheet preventing wordwrap (i.e. "white-space: nowrap;").
+
+     NOTE: Previously used Unicode character for non-breaking hyphen, but this
+     is bad -- since that means one cannot search for them on a page using the
+     ^F browser function.
+*** TODO Mark translated phrases?
+*** TODO Page headers
+**** TODO Right hand pagestats should say "Updated" not "Changed"
+     (and "Uppdaterad" not "Ändrad")
+**** TODO Title page
+***** Add some thing (javascript?) to indicate pages that have been recently updated
+      This should maybe be displayed as "New!" for a week, and "New" (with less
+      exclamation marks) for a month, or somesuch.
+
+      This is remnant markup from an earlier such thought:
+
+      <tr><td align=right valign=center><img src="/pic/ny.gif" width=31 height=14 alt="Ny" hspace=5></td>
+      <tr><td align=right valign=center><img src="/pic/andrad.gif" width=54 height=14 alt="Ändrad" hspace=5></td>
+      <tr><td align=right valign=center><img src="/pic/dot.gif" width=15 height=14 alt="*" hspace=5></td>
 
 ** TODO Search engine optimizations
 *** TODO Add site search
@@ -702,7 +726,7 @@
 *** DONE Lowercase all html
     CLOSED: [2011-05-15 Sun 00:17]
 *** TODO Spell check
-*** TODO Mark klingon with lang="tlh"
+*** TODO Mark Klingon with lang="tlh"
 *** TODO Make all {HolQeD} references links to /canon/
 *** TODO Add list of references(?)
 *** DONE Replace "-" with &ndash; & &mdash;
@@ -1207,17 +1231,14 @@
    seem to be updated anymore, since 2002. Or does it?
 
 * Add all tlhingan-hol archive stuff to gmail
-
 * Send paqHommey to
 ** Terrence Donnelly <terrence.donnelly@sbcglobal.net>
 ** DONE Louse Whitty {lu'lu'}
    CLOSED: [2010-12-25 Sat 05:47]
 ** DONE {Qov}
    CLOSED: [2010-12-25 Sat 05:47]
-
 ** DONE Marc Okrand
    CLOSED: [2010-12-25 Sat 05:48]
-
 * Links to have from klingonska.org
 ** Klingon Unicode Table "Klingon: U+F8D0 - U+F8FF"
     http://www.evertype.com/standards/csur/klingon.html
@@ -1227,12 +1248,6 @@
     (A pretty good article on the klingon language)
 ** "Wikipedia: Klingon writing systems"
     http://en.wikipedia.org/wiki/Klingon_writing_systems
-
-
-
-
-
-
 
 [eof]
 
