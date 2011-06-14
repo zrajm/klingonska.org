@@ -1225,6 +1225,11 @@
 *** Update list of adverbials
 ** TODO "Links to Other Pages About the Klingon Language"
 *** TODO Javascript to display only a single tag/category  
+** TODO Lesson list
+   http://klingonska.org/lektioner/
+*** TODO Fix icons
+*** TODO List should use Apaches built-in filelist thingy
+
 * Communicate
 ** Reply to http://community.livejournal.com/klingon/
    The Archive of Okrandian Canon of the Swedish Klingonska Akademien doesn't
