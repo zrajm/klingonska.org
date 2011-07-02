@@ -1,4 +1,4 @@
-#!/usr/bin/perl 
+#!/usr/bin/perl
 ####################################################################
 #  $VER: download.cgi V2.1, by Zrajm C Akfohg (2001-02-07)
 #
@@ -33,7 +33,7 @@
 # Variables used:
 #   question = question (0 to 10)
 #   answer   = answer   (0 to 10)
-#   file     = tkd, tkw, tkwe (sentences), kgt, ck, pk  
+#   file     = tkd, tkw, tkwe (sentences), kgt, ck, pk
 ####################################################################
 
 use utf8;
@@ -180,11 +180,11 @@ if (defined($ques) and $answer eq $answer[$ques] && $answer ne '') {    # correc
     if (!defined($ques) or $ques eq '' or $ques >= scalar(@answer)) {   # no valid question?
 	srand;                                       # ..seed random generator
 	$ques = int(rand(scalar(@answer)));          # ..pick question
-	$subtitle = "Authorization request.";
+	$subtitle = "Authorization request";
     } elsif ( $answer eq '' ) {                      # no answer
-	$subtitle = "Empty answer, try again.";
+	$subtitle = "Empty answer, try again";
     } else {                                         # wrong answer
-	$subtitle = "Incorrect answer, try again.";
+	$subtitle = "Incorrect answer, try again";
     }
     print "<H2>$subtitle</H2>\n";
     quest_form();
@@ -196,21 +196,30 @@ exit 0;                                              # quit
 sub page_header {
     print <<EOF;
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
-<html><head><title>Klingonska Akademien -&nbsp;Klingon Data Download.</title></head>
+<html><head><title>Klingon Data Download &ndash; Klingonska Akademien</title>
+<link rel="stylesheet" type="text/css" href="../includes/page.css" />
+<link rel="stylesheet" type="text/css" href="../includes/pagestats.css" />
+</head>
 <body vlink="#777777" alink="#aaaaaa" link="#444444" text="#000000" bgcolor="#ffffff">
 
-<!-- ==================== Adressinfo ==================== -->
-<table border=0 cellpadding=0 cellspacing=0 width=100% align=center>
-  <tr>
-    <td align=left><i><font size=1><a href="mailto:webmaster\@klingonska.org">webmaster\@klingonska.org</a></font></i></td>
-    <td align=right><i><font size=1><a href="$PLACE">$PLACE</a></font></i></td>
-  </tr>
-</table>
+<div id="head">
+<!-- begin:status -->
+<div id="pagestats">
+  <span id="crumbs">
+    <a href="http://klingonska.org/">Home</a> &gt;
+    <a href="http://klingonska.org/canon/">Archive of Okrandian Canon</a> &gt;
+    <a href="http://klingonska.org/canon/download.cgi">Klingon Data Download</a>
+  </span>
+  <span id="pubdate">
+    Updated <time pubdate datetime="2009-05-09">May 9, 2009</time>
+  </span>
+</div>
+<!-- end:status -->
 
-<!-- ==================== Titel ==================== -->
-<p align=center><a href=".."><img src="/pic/ka.gif" width="600" height="176" alt="Klingonska Akademien" border=0 vspace=5></a>
+<p><a href="."><img src="../pic/ka.gif" width="600" height="176" alt="Klingonska Akademien" /></a></p>
+</div>
 
-<h1 align=center>Klingon Data Download.</h1>
+<h1 align=center>Klingon Data Download</h1>
 
 EOF
 }
@@ -226,7 +235,7 @@ sub page_footer {                                    # HTML Footer
   <tr>
     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td align=center>
-      <b>&copy;1998-2009, Copyright 
+      <b>&copy;1998&ndash;2009, Copyright
       <a href="mailto:zrajm\@klingonska.org">Zrajm C Akfohg</a>,
       <a href="http://klingonska.org/">Klingonska Akademien</a>,
       Uppsala.</b>
@@ -272,7 +281,7 @@ EOF
 sub include_file {
     my ($file) = @_;
     open(my $in, "<:encoding(utf8)", "$infile") or do {
-	print "<h2 align=\"center\"><i>File not found.</i></h2>\n\n";
+	print "<h2 align=\"center\"><i>File not found</i></h2>\n\n";
 	return "";
     };
     print <<EOF;

@@ -381,27 +381,35 @@ EOF
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<title>$ENV{X_TITLE} (Klingonska Akademien)</title>
+<title>$ENV{X_TITLE} &ndash; Klingonska Akademien</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="geo.region" content="SE-C" />
 <meta name="geo.placename" content="Europe, Sweden, Uppsala, Kåbo" />
 <meta name="geo.position" content="59.845658;17.630797" />
-<link rel="stylesheet" type="text/css" href="../../includes/page.css" />
 <link rel="stylesheet" type="text/css" href="../../includes/dict-layouttable.css" />
+<link rel="stylesheet" type="text/css" href="../../includes/page.css" />
+<link rel="stylesheet" type="text/css" href="../../includes/pagestats.css" />
 $javascript</head>
 <body>
 
 <div id="head">
-<table class="status">
-  <tr>
-    <td class="left"><a href="mailto:webmaster\@klingonska.org">webmaster\@klingonska.org</a></td>
-    <td class="center"><a href="$url">$url</a></td>
-    <td class="right">$changed</td>
-  </tr>
-</table>
+<!-- begin:status -->
+<div id="pagestats">
+  <span id="crumbs">
+    <a href="http://klingonska.org/">Home</a> &gt;
+    <a href="http://klingonska.org/canon/">Archive of Okrandian Canon</a> &gt;
+    <a href="http://klingonska.org/canon/search/">Search</a>
+  </span>
+  <span id="pubdate">
+    Updated <time pubdate datetime="2010-03-03">March 3, 2010</time>
+  </span>
+</div>
+<!-- end:status -->
+
 $big_logo</div>
 
-<div id="main">$headline
+<div id="main">
+$headline
 EOF
 }
 
@@ -454,7 +462,7 @@ sub display_result {
     my $matches = 0;                           # number of matches found
     my $output  = "";                          # output buffer
     if ($query->error()) {
-        $output  = "<h2>" . $query->error() . ".</h2>\n\n";
+        $output  = "<h2>" . $query->error() . "</h2>\n\n";
         $output .= suggest_search();     #
     } else {                                    # not all words are negated
 	$output .= "<dl>";
@@ -1055,7 +1063,7 @@ sub no_matches {
     my ($number_of_matches) = @_;
     my ($pl) = ($number_of_matches == 1 ? "" : "s");
     return <<EOF;
-<h2>There are no documents containing the string$pl you searched for.</h2>\n\n
+<h2>There are no documents containing the string$pl you searched for</h2>\n\n
 EOF
 }
 
@@ -1063,7 +1071,7 @@ sub too_many_matches {
     my ($number_of_matches) = @_;
     return <<"EOF";
 <h2>Allowed number of matches ($cfg{MAX_MATCHES}) exceeded, search result
-withheld.</h2>
+withheld</h2>
 
 <p align="justify">There are $number_of_matches files matching your query,
 however the maximum allowed number of matches is $cfg{MAX_MATCHES}, and the

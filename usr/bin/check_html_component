@@ -117,7 +117,7 @@ sub get_crumbs {
 }
 
 my %string = (
-    changed => { en => "Changed", sv => "Ändrad" },
+    changed => { en => "Updated", sv => "Uppdaterad" },
     month => {
         en => sub {
             my ($year, $month, $day, $hour, $minute) = @_;

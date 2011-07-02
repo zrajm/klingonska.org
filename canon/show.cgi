@@ -232,24 +232,56 @@ sub question_page {
     my $answer   = undef;                      # clear answer
     my ($book, $page, $paragraph, $line, $word) = split(/_/, $question);
     my $place = "http://$ENV{HTTP_HOST}$ENV{REQUEST_URI}";
-    use CGI ":standard";
+    use CGI qw(:standard Time); # "Time" is custom function for microdata
     return
         start_html({
-            -style => { src => "../includes/page.css" },
+            -style => { src => [
+                "../includes/page.css",
+                "../includes/pagestats.css",
+            ]},
             -title => "Access Form",
         }) .
         div({ -id => "head" },
-            table({ -class => "status" },
-                Tr(
-                    td({ -class => "left" },
-                        a({ -href => 'mailto:webmaster@klingonska.org' },
-                            'webmaster@klingonska.org'),
-                    ),
-                    td({ -class => "right" },
-                        a({ -href => $place }, $place),
-                    ),
-                )
+            # <!-- begin:status -->
+            # <div id="pagestats">
+            #   <span id="crumbs">
+            #     <a href="http://klingonska.org/">Home</a> &gt;
+            #     <a href="http://klingonska.org/canon/">Archive of Okrandian Canon</a> &gt;
+            #     <a href="http://klingonska.org/canon/$file">$file</a>
+            #   </span>
+            #   <span id="pubdate">
+            #     Updated <time pubdate datetime="2007-07-15T05:44">July 15, 2007</time>
+            #   </span>
+            # </div>
+            # <!-- end:status -->
+            comment("begin:status"),
+            div({ -id => "pagestats" },
+                span({ -id => "crumbs" },
+                     a({ href => "http://klingonska.org/" },
+                         "Home",
+                     ), "&gt;",
+                     a({ href => "http://klingonska.org/canon/" },
+                         "Archive of Okrandian Canon",
+                     ), "&gt;",
+                     defined($file)
+                         ? a({ href => "http://klingonska.org/canon/$file" },
+                             "$file",
+                         )
+                         : a({ href => "http://klingonska.org/canon/show.cgi" },
+                             "Access Form",
+                         ),
+                ),
+                span({ id => "pubdate" },
+                     "Updated",
+                     Time({
+                             -datetime => "2011-05-04T18:33",
+                             -pubdate  => undef,
+                         },
+                         "May 4, 2011",
+                     ),
+                 ),
             ),
+            comment("end:status"),
             p({ -align => "center" },
                 a({ -href => ".." },
                     img({

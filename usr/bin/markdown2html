@@ -14,11 +14,12 @@ use open qw(:std :utf8);
 ##                                                                           ##
 ###############################################################################
 
-
 my %code = (
     AUTHOR   => \&page_author,
     CHANGED  => \&page_date,
+    CRUMBS   => \&page_crumbs,
     CSS      => \&page_css,
+    EOF      => sub { "" },
     FOOT     => \&page_footer,
     HEAD     => \&page_header,
     LOGOLINK => \&page_logolink_url,
@@ -29,19 +30,39 @@ my %code = (
     TITLE    => \&page_title,
     TOC      => \&page_toc,
     URL      => \&page_url,
-    URLLINK  => \&page_urllink,
     YEAR     => \&page_year,
 );
 
-
 my %author = (
-    bkhl    => "<a href=\"mailto:bkhl\@elektrubadur.se\">Björn Lindström</a>",
-    markus  => "<a href=\"mailto:mp\@klingonska.org\">Markus Persson</a>",
-    wallius => "<a href=\"mailto:wallius\@rit.se\">Robert Wallius</a>",
-    yens    => "<a href=\"mailto:yenswahlgren\@hotmail.com\">Yens Wahlgren</a>",
-    zrajm   => "<a href=\"mailto:zrajm\@klingonska.org\">Zrajm C Akfohg</a>",
+    bkhl    => '<a href="mailto:bkhl@elektrubadur.se">Björn Lindström</a>',
+    markus  => '<a href="mailto:mp@klingonska.org">Markus Persson</a>',
+    wallius => '<a href="mailto:wallius@rit.se">Robert Wallius</a>',
+    yens    => '<a href="mailto:yenswahlgren@hotmail.com">Yens Wahlgren</a>',
+    zrajm   => '<a href="mailto:zrajm@klingonska.org">Zrajm C Akfohg</a>',
 );
 
+my $lang = "en";
+my %string = (
+    changed => { en => "Updated", sv => "Uppdaterad" },
+    month => {
+        en => sub {
+            my ($year, $month, $day, $hour, $minute) = @_;
+            my @month = qw(
+                January   February  March      April    May       June
+                July      August    September  October  November  December
+            );
+            "$month[$month-1] $day, $year";
+        },
+        sv => sub {
+            my ($year, $month, $day, $hour, $minute) = @_;
+            my @month = qw(
+                januari   februari  mars       april    maj       juni
+                juli      augusti   september  oktober  november  december
+            );
+            "$day $month[$month-1] $year";
+        }
+    },
+);
 
 
 ###############################################################################
@@ -83,7 +104,6 @@ BEGIN {
 	exit 50;
     }
 }
-
 
 # CAVEAT: short opts cannot be bundled
 # (Comments displayed by "--help" begin with "##".)
@@ -228,28 +248,57 @@ sub help {
 	foreach (@$arrayref) {
 	    $count ++;
 	    if (m/^ (\w+): \s* ([^\n]*)\n /x) {
-		$$hashref{$1} = "" unless exists($$hashref{$1});
+		$$hashref{$1}  = "" unless exists($$hashref{$1});
 		$$hashref{$1} .= $2;
 		$field = $1;
 	    } elsif (m/^ \s+ ([^\n]*)\n /x) {
 		if ($field ne "") {
 		    $$hashref{$field} .= " " . $1;
 		} else {
-		    warn "$0: 1st line in file may not be metadata continuation line (in line $count)\n";
+		    warn "$0: 1st line in file may not be metadata " .
+                        "continuation line (in line $count)\n";
 		    return '';
 		}
 	    } elsif (m/^ \s* $/x) {
 		if ($count == 1) {
-		    warn "$0: 1st line in file may not be blank (in line $count)\n";
+		    warn "$0: 1st line in file may not be blank " .
+                        "(in line $count)\n";
 		    return '';
 		}
 		last;
 	    } else  {
-		warn "$0: metadata is not terminated by blank line (in line $count)\n";
+		warn "$0: metadata is not terminated by blank line " .
+                    "(in line $count)\n";
 		return '';
 	    }
 	}
 	splice(@$arrayref, 0, $count);
+
+        if (not exists($hashref->{title})) {
+            $hashref->{title} = do {
+                my $i = 0;
+                $i ++ while ${$arrayref}[$i] =~ /^$/;
+                ${$arrayref}[$i];
+            };
+            for ($hashref->{title}) {
+                s#\s* \[\[.*?\]\]##gx;
+                chomp();
+            }
+        }
+
+        # my $page_title = do {
+        #     my $i = 0;
+        #     $i ++ while ${$arrayref}[$i] =~ /^$/;
+        #     ${$arrayref}[$i];
+        # };
+        # for ($page_title) {
+        #     s#\s* \[\[.*?\]\]##gx;
+        #     chomp();
+        # }
+        # $hashref->{title} =
+        #     exists($hashref->{title})
+        #         ? "$page_title -- $hashref->{title}"
+        #         : $page_title;
 	return 1;
     }
 
@@ -289,17 +338,25 @@ sub help {
     #
     # If $INPUT is not provided, $_ is used.
     sub process_xml {
-	die "1st argument must be code reference"
-	    unless ref($_[0]) eq "CODE";
+	die "1st argument must be code reference" unless ref($_[0]) eq "CODE";
 	my ($coderef, $input) = (@_, $_);
-	$input =~ s{ ([^<]*) (<[^>]*?>)? }{
-	    my ($text, $tag) = ($1, $2 || "");
-	    # process attribute values of HTML/XML tag
-	    # (but ignore the rest if it)
-	    $tag =~ s# (?<==") ([^"]*) (?=") # &$coderef($1); #gex;
-	    # replace with processed text + tag
-	    &$coderef($text) . $tag;
-	}gex;
+	$input =~ s{ ([^<]*) (<!--(.*?)-->|<[^>]*?>)? }{
+	    my ($text, $tag, $comment) = ($1, $2 || "", $3);
+            &$coderef($text) .
+            do {
+                if (defined($comment)) {
+                    # HTML comments containing HTML code
+                    # (call process_xml() recursivelly)
+                    "<!--" . process_xml($coderef, $comment) . "-->";
+                } else {
+                    # process attribute values of HTML/XML tag
+                    # (but ignore the rest if it)
+                    $tag =~ s# (?<==") ([^"]*) (?=") # &$coderef($1); #gex;
+                    # replace with processed text + tag
+                    $tag;
+                }
+            };
+	}gsex;
 	return $input;
     }
 
@@ -313,10 +370,10 @@ sub help {
 
 	# parse with multimarkdown
 	my $obj = new Text::MultiMarkdown(
-	    use_metadata => '',
+	    use_metadata   => '',
 	    strip_metadata => '',
-	    tab_width => 4,
-	    );
+	    tab_width      => 4,
+	);
 	$_ = $obj->markdown($_);
 
 	$_ = $self->process_template($_, %$hashref);
@@ -374,8 +431,6 @@ sub help {
 	my $page = "";
 	if (defined($template_file)) {
 	    $page = join("", read_file($template_file));
-
-
 	    $page = $self->process_template($page, %meta);
 	} else {
 	    $page = $self->process_template($meta{text}, %meta);
@@ -403,7 +458,7 @@ sub help {
 	my ($self, $text, %meta) = @_;
 	$text =~ s{ <!--(.*?)--> \n? }{
 	    exists($code{$1}) ?
-		&{$code{$1}}($self, %meta) : "";
+		&{$code{$1}}($self, %meta) : $&;
 	}gexs;
 	return $text;
     }
@@ -413,6 +468,106 @@ sub help {
 
 sub FALSE { "" }
 sub TRUE  { 1  }
+
+# Usage: @HTML = get_crumbs($FILE[, $BASEURL]);
+#
+# Return list of '<a href="URL">LINKTEXT</a>' links, with the first pointing to
+# the index page in current directory, the last pointing $FILE, and those in
+# between links to all the intermediate pages in the directory structure.
+#
+# If $FILE ends in slash "index.html" is appended.
+#
+# URL is prefixed with $BASEURL (if specified). Any trailing "index.html" is
+# also removed from URL.
+#
+# LINKTEXT is read from each file in turn. It is extracted from this file's
+# <title> element (everything up to the first &ndash; is included in LINKTEXT).
+#
+# Example output:
+#     <a href="http://klingonska.org/">Home</a>
+#     <a href="http://klingonska.org/songs/">Songs in Klingon</a>
+#     <a href="http://klingonska.org/songs/tahjaj_wo/">taHjaj wo&rsquo;</a>
+#
+# NOTE: "&rsquo;" above was read literally from "songs/tahjaj_wo/index.html" --
+# thus function does not do any HTML conversion or escaping of any kind.
+#
+sub get_crumbs {
+    my ($file, $base_url) = @_;
+    if ($file =~ m#^/#) {
+        use Cwd;
+        my $cd = quotemeta(getcwd());
+        $file =~ s#^$cd(?:/|$)##;
+    }
+
+    $file =~ s#/index\.(html|txt)$##;
+
+    my @file = split(m#/#, $file);
+
+    my @crumb = ("index.html");  # Home
+    for my $i (0..$#file) {
+        my $_ = join("/", @file[0..$i]);
+        /\.[a-z]+$/ or $_ .= "/index.html";
+        push(@crumb, $_) unless m#^index\.(html|txt)$#; #$_ eq $crumb[-1];
+    }
+    my @x = map {
+        # FIXME should error if page_title() return undef
+        my $file = $_;
+        -e $file or $file =~ s/\.html$/.txt/;
+
+        my $title = ($_ =~ /^index.(txt|html)$/) ? "Home" : file_title($file);
+        s#(?:^|(?<=/))index\.(?:html|txt)$##;
+        '<a href="' . ($base_url // "") . $_ . '">' . $title . '</a>';
+    } @crumb;
+    return @x;
+}
+
+# Usage: $TITLE = file_title($HTMLFILE);
+#
+# Returns $TITLE of $HTMLFILE. If $HTMLFILE ends in slash (/) "index.html" is
+# appended to the filename before an attempt is made to read it.
+#
+# $TITLE is stripped of any leading or trailing "Klingonska Akademien" string.
+#
+sub file_title {
+    my ($file) = @_;
+    my $_ = read_file($file);
+    if (not defined($_)) {                # file didn't exist
+        $file =~ m#([^/]+)(/|/index.html)?$#;
+        return ucfirst($1);               # use part of path
+    }
+
+    if ($file =~ m/\.html$/) {            # HTML file
+        if (my ($title) = m#<title>(.*?)</title>#i) {
+            for ($title) {
+                s/\.$//;
+                s/ \s* &ndash;.*//x
+                    or s/^ \s* Klingonska \s+ Akademien \s+ (&ndash;|-) \s* //x
+                    or s/  \s* - \s+ Klingonska \s+ Akademien \s* $//x
+                    or s/ \s* \( \s* Klingonska \s+ Akademien \s* \) \s* //x;
+            }
+            return $title;
+        }
+    }
+
+    # If file is an index file (index.txt) it should use only the 'title'
+    # metadata field, not any title given in the text body (text body title
+    # will only be used if 'title' metadata is missing).
+    if ($file =~ m/\.txt$/) {
+        my ($head, $body) = split(/\n\n+/, $_, 2);
+        my $page_title = do {
+            my ($x) = $body =~ m/^([^\n]+)$/mx;      # 1st line in body
+            $file =~ m#(?:^|/)index\.txt$#           # but in 'index.txt'
+                and $head =~ m/^title: \s* (.*) $/mx #   use 'title' field
+                and $x = $1;                         #   if there is one
+            $x;
+        };
+        $page_title =~ s/ \s * \[\[.*?\]\] //gx;
+        # return "$page_title -- $project_title"
+        #     if defined($project_title);
+        return $page_title;
+    }
+    return undef;
+}
 
 # Usage: $abs_filename = find_include_file(REL_INCLUDE_FILE, SOURCE_FILE);
 #
@@ -442,53 +597,72 @@ sub page_meta {
     return "";
 }
 
-
-sub filename_to_url {
+# Return path to first dir above current dir that contains a directory called
+# '.git'. Returns empty string if none found.
+sub find_git_dir {
     my ($file) = @_;
-    $file =~ m#([^/]*.(org|se|com)/.*)#;
-    return $1;
+    my @path = split(m#/#, $file);
+    for my $i (reverse 0..$#path) {
+        my $dir = join("/", @path[0..$i]);
+        return $dir if -d "$dir/.git";
+    }
+    return ""; # failed
 }
 
 # return page url
 sub page_url {
     my ($self, %meta) = @_;
-    my $url = filename_to_url($meta{filename});
-    $url =~ s/\.[^.]{1,4}$/.html/;
-    $url =~ s/index\.[^.]{1,4}//;
-    $url = "http://$url";
-    return $url;
+    my $file    = $meta{filename};
+    for ($file) {
+        my $git_dir = find_git_dir($file);
+        s#^\Q$git_dir/\E##;     # strip git dir from filename
+        s#\.[^/.]{1,4}$#.html#; # replace any extension with '.html'
+        s#index\.html$##;       # remove trailing 'index.html'
+    }
+    return "http://klingonska.org/$file";
 }
 
-
-sub page_urllink {
+sub page_crumbs {
     my ($self, %meta) = @_;
-    my $url = page_url($self, %meta);
-    return "<a href=\"$url\">$url</a>";
+    return join(" &gt;\n    ",
+        get_crumbs($meta{filename}, 'http://klingonska.org/')) . "\n";
 }
 
 sub page_css {
     my ($self, %meta) = @_;
-    my $file = find_include_file("includes/page.css", $meta{filename});
-    $file = rel_filename($file, $meta{filename});
-    return "<link rel=\"stylesheet\" type=\"text/css\" href=\"$file\" />";
+    my $file  = find_include_file("includes/page.css",      $meta{filename});
+    my $file2 = find_include_file("includes/pagestats.css", $meta{filename});
+    $file  = rel_filename($file,  $meta{filename});
+    $file2 = rel_filename($file2, $meta{filename});
+    return <<"EOF";
+<link rel="stylesheet" type="text/css" href="$file" />
+<link rel="stylesheet" type="text/css" href="$file2" />
+EOF
 }
 
 # return time in "2009-12-31, 24:59" format
 sub page_date {
     my ($self, %meta) = @_;
-    my ($sec, $min, $hour, $mday, $mon, $year) =
+    my ($sec, $minute, $hour, $day, $month, $year) =
 	localtime($meta{filedate});
-    return sprintf(
-	"%d-%02d-%02d, %02d:%02d",
-	$year+1900, $mon+1, $mday, $hour, $min);
+    $year  += 1900;
+    $month ++;
+    #<time pubdate datetime="2008-09-21T16:34">September 21, 2008</time>
+    return $string{changed}{$lang} .
+        ' <time pubdate datetime="' .
+            sprintf(
+                "%04d-%02d-%02dT%02d:%02d",
+                $year, $month, $day, $hour, $minute
+            ) . '">' .
+        &{$string{month}{$lang}}($year, $month, $day, $hour, $minute) .
+        "</time>\n";
 }
 
 # if index.html point to previous dir
 # otherwise point to this dir
 sub page_logolink_url {
     my ($self, %meta) = @_;
-    local $_ = filename_to_url($meta{filename});
-    m#/index.[^.]*$# and return "..";
+    return ".." if $meta{filename} =~ m#(?:^|(?<=/))index.[^/.]*$#;
     return ".";
 }
 
@@ -526,13 +700,16 @@ sub page_title {
     my ($self, %meta) = @_;
     my @title = ();
     push(@title, exists($meta{title}) ? $meta{title} : ());
-    if ($meta{text} =~ m/^\n*(.*)\n==+\n/) {
-	local $_ = $1;
-	s/\.$//;
-	s/ \s * \[\[.*?\]\] //gx;
-	push(@title, $_);
+
+    if ($meta{filename} !~ m#(?:^|/)index.txt$#) {
+        if ($meta{text} =~ m/^\n*(.*)\n==+\n/) {
+            local $_ = $1;
+            s/\.$//;
+            s/ \s * \[\[.*?\]\] //gx;
+            push(@title, $_);
+        }
     }
-    return join(" &ndash; ", @title)." (Klingonska Akademien)";;
+    return join(" -- ", @title)." -- Klingonska Akademien";
 }
 
 sub abs_filename {
@@ -637,8 +814,6 @@ sub page_toc {
     return $toc;
 }
 
-
-
 sub page_header {
     # FIXME: should find headerfile relative to the processed file's name
     my ($self, %meta) = @_;
@@ -674,15 +849,15 @@ sub page_main {
 sub read_file {
     my ($file) = @_;
     local $/ = undef unless wantarray;
-    open my $in, "<", $file or die "$file: Can't open file for reading: $!\n";
-    return <$in>            or die "$file: Can't read file: $!\n";
+    open my $in, "<", $file or die "Can't open file '$file' for reading: $!\n";
+    return <$in>            or die "Can't read file '$file': $!\n";
 }
 
 
 sub write_file {
     my ($file, $data) = @_;
-    open my $out, ">", $file or die "$file: Can't open file for writing: $!\n";
-    print $out $data         or die "$file: Can't write to file: $!\n";
+    open my $out, ">", $file or die "Can't open file '$file' for writing: $!\n";
+    print $out $data         or die "Can't write to file '$file': $!\n";
     return 1;
 }
 

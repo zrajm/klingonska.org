@@ -111,22 +111,28 @@ sub html_header {
 
     return <<"EOF";
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML><HEAD><TITLE>Klingonska Akademien - The pIqaD Playground.</TITLE></HEAD>
+<HTML><HEAD><TITLE>The pIqaD Playground &ndash; Klingonska Akademien</TITLE>
+<link rel="stylesheet" type="text/css" href="../includes/pagestats.css" />
+</HEAD>
 <BODY VLINK="#777777" ALINK="#AAAAAA" LINK="#444444" TEXT="#000000" BGCOLOR="#FFFFFF">
 
-<!-- ==================== Adressinfo ==================== -->
-<table border=0 cellpadding=0 cellspacing=0 width="100%" align=center>
-  <tr>
-    <td align=left><i><font size=1><a href="mailto:webmaster\@klingonska.org">webmaster\@klingonska.org</a></font></i></td>
-    <td align=center><i><font size=1><a href="http://klingonska.org/piqad/play.cgi">http://klingonska.org/piqad/play.cgi</a></font></i></td>
-    <td align=right><i><font size=1>Changed: 2007-08-17, 02.53</font></i></td>
-  </tr>
-</table>
+<!-- begin:status -->
+<div id="pagestats">
+  <span id="crumbs">
+    <a href="http://klingonska.org/">Home</a> &gt;
+    <a href="http://klingonska.org/piqad/">pIqaD, And How to Read It</a> &gt;
+    <a href="http://klingonska.org/piqad/play.cgi">The pIqaD Playground</a>
+  </span>
+  <span id="pubdate">
+    Updated <time pubdate datetime="2007-08-17T02:53">August 17, 2007</time>
+  </span>
+</div>
+<!-- end:status -->
 
 <!-- ==================== KA-logo ==================== -->
 <p align=center><a href="$link"><img src="/pic/ka.gif" width="600" height="176" alt="klingonska akademien" border=0 vspace=5></a></p>
 
-<h1 align=center>The <b>pIqaD</b> Playground.</h1>
+<h1 align=center>The <b>pIqaD</b> Playground</h1>
 EOF
 }
 

@@ -252,14 +252,16 @@ return <<"EOF";
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<title>Klingon Pocket Dictionary &ndash; Lexicon.</title>
+<title>Lexicon &ndash; Klingon Pocket Dictionary &ndash; Klingonska Akademien</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="geo.region" content="SE-C" />
 <meta name="geo.placename" content="Europe, Sweden, Uppsala, Kåbo" />
 <meta name="geo.position" content="59.845658;17.630797" />
-<link rel="stylesheet" type="text/css" href="../includes/page.css" />
-<link rel="stylesheet" type="text/css" href="../includes/dict.css" />
 <link rel="stylesheet" type="text/css" href="../includes/dict-layouttable.css" />
+<link rel="stylesheet" type="text/css" href="../includes/dict-suffixguide.css" />
+<link rel="stylesheet" type="text/css" href="../includes/dict.css" />
+<link rel="stylesheet" type="text/css" href="../includes/page.css" />
+<link rel="stylesheet" type="text/css" href="../includes/pagestats.css" />
 <style><!--
   .match {
     background-color: #bbbbbb;
@@ -269,13 +271,18 @@ return <<"EOF";
 <body>
 
 <div id="head">
-<table class="status">
-  <tr>
-    <td class="left"><a href="mailto:webmaster\@klingonska.org">webmaster\@klingonska.org</a></td>
-<!-- FIXME -->    <td class="center"><a href="http://klingonska.org/dict/lexicon.cgi">http://klingonska.org/dict/lexicon.cgi</a></td>
-<!-- FIXME -->    <td class="right">Updated: 2009-10-18, 20:17</td>
-  </tr>
-</table>
+<!-- begin:status -->
+<div id="pagestats">
+  <span id="crumbs">
+    <a href="http://klingonska.org/">Home</a> &gt;
+    <a href="http://klingonska.org/dict/">Klingon Pocket Dictionary</a> &gt;
+    <a href="http://klingonska.org/dict/lexicon.cgi">Lexicon</a>
+  </span>
+  <span id="pubdate">
+    Updated <time pubdate datetime="2009-10-18T20:17">October 18, 2009</time>
+  </span>
+</div>
+<!-- end:status -->
 
 <table class="navigation">
   <tr>
