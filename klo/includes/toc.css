@@ -13,9 +13,8 @@ This is a stylesheet for table-of-contents menus.
 /* used by "index.html" table of contents */
 .toc span.comment {
     background-color: transparent;
-    color: #888;
-    font-style: italic;
-    font-size: x-small;
+    color: #999;
+    font-size: small;
     vertical-align: top;
 }
 
