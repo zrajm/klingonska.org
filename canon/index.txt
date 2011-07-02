@@ -1,7 +1,6 @@
 author: zrajm
 year: 1999-2009
 lang: en
-title: Archive of Okrandian Canon
 
 Archive of Okrandian Canon
 ==========================
@@ -47,7 +46,7 @@ the source in question is available; just follow the link »text«. In some case
 some additional information is also available (such as where to buy the
 publication, or a description of its contents and/or form).
 
-<p style="text-align: center;"><b>Years:</b>
+<p class="center"><b>Years:</b>
   <a href="#1979">1979</a>, <a href="#1984">1984</a>,
   <a href="#1985">1985</a>, <a href="#1989">1989</a>,
   <a href="#1991">1991</a>, <a href="#1992">1992</a>,
@@ -58,7 +57,7 @@ publication, or a description of its contents and/or form).
   <a href="#2001">2001</a>, <a href="#2002">2002</a>,
   <a href="#2003">2003</a>, <a href="#2004">2004</a></p>
 
-<br /><table width="90%" border="0" align="center">
+<table width="90%" border="0" align="center">
 
   <tr><td colspan="4"><hr noshade size="3" /></td></tr>
 
@@ -69,7 +68,7 @@ publication, or a description of its contents and/or form).
 
   <tr valign="top">
     <td><font size="4"><a name="1979">1979</a></font></td><td></td>
-    <td><font size="4">_Star Trek: The Motion Picture_</font>
+    <td><font size="4"><i>Star Trek: The Motion Picture</i></font>
       <br /><font size="2"><i>Motion picture produced by Paramount Pictures</i></font>
       <br />Features dialogue written by James Doohan which was later
         backfitted into Klingon by Marc Okrand. (Usually abbreviated <i>ST1</i>,
