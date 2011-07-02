@@ -823,13 +823,15 @@ sub page_header {
 
 sub page_prevnext {
     my ($self, %meta) = @_;
-    return "" if $meta{filename} =~ m#/index.[^.]*$#;
+    return "" if $meta{filename} =~ m#/index.[^/.]*$#;
     my @x = ();
-    push @x, q{<a href="$meta{prev}.html">&larr;</a>} if exists $meta{prev};
-    push @x, q{<a href=".">Innehåll</a>};
-    push @x, q{<a href="$meta{next}.html">&rarr;</a>} if exists $meta{next};
+    push @x, qq{<a href="$meta{prev}.html">&larr;</a>} if exists $meta{prev};
+    push @x, qq{<a href=".">Innehåll</a>};
+    push @x, qq{<a href="$meta{next}.html">&rarr;</a>} if exists $meta{next};
     return "" unless @x;
-    return "<p class=\"prevnext\">" . join(" ", @x) . "</p>";
+    return "\n" .
+        join("\n", '<p class="prevnext">', map("    $_", @x), '</p>',) .
+        "\n\n";
 }
 
 sub page_footer {
