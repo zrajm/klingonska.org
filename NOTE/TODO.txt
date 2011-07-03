@@ -1,291 +1,13 @@
 #+STARTUP: overview hidestars -*- org -*-
+#+TAGS: { CONF(k) CGI(g) HTML(h) CSS(c) CLI(l) JS(j) }
+#+PRIORITIES: 1 5 4
 
-
-* TODO Prettified show script should use <ins> and <del>
-  See also: NOTE/2010-09-01-original+corrected-display/index.html
-
-  HTML tags intended for showing edits in texts. Should be used to show the
-  corrections.
-
-* TODO Apache config
-** TODO All files should have just *one* canonical URL
-   "http://klingonska.org/" should never be referred to as
-   "http://klingonska.org/index.html". Any references to the index.html version
-   should be rewritten to the former.
-** TODO Configure "MultiView" so users don't have to type the file suffix
-   Apache's "MultiView" seems like a cool config option. It makes it so that
-   visitors can leave off the file suffix. (E.g. http://klingonska.org/links/
-   would load "links.html" if there isn't also a "/links/index.html".)
-
-   More on that topic
-   http://httpd.apache.org/docs/current/content-negotiation.html#multiviews
-* TODO Gitify site ("git push" for upload + publish repo)
-** TODO Server-side commit hook should fail if make fails
-
-   E.g. when a rebuilding of canon/index.html from markdown fails, the entire
-   push operation should fail. This happens if if not
-
-       PERL5LIB=$PERL5LIB:~/usr/share/perl
-
-   is set. Since the Markdown module is installed there.
-** TODO Git "add" hook to store file dates/metadata?
-   No such hook exist. :( Use some sort of server-side hook at push instead?
-** TODO Makefile must not require perl 5.10
-** TODO Pre-commit hook should be checked in
-   "make hooks" should create the client-side relevant hooks.
-** TODO Improve and optimize pre-commit hook
-   Commits are veeeeryy slow because of (I assume) the fact that find is run on
-   all files in the repository.
-
-   Instead of searching all files for changed metadata, the pre-commit hook
-   should only fetch metadata for files changed in the commit.
-
-   Lists all files included in a commit:
-
-       git ls-files --stage
-
-   metadata <
-
-** TODO Include HCoop domtool config in git repo
-** DONE Redirect git.klingonska.org to site git repo
-   CLOSED: [2011-04-10 Sun 03:59]
-** DONE Sketch infrastructure
-   CLOSED: [2010-12-20 Mon 05:14]
-
-   When the master branch is pushed, it should cause an update of the entire
-   page.
-
-   git push          # should rebuild basic web page
-    |
-    +--> site content should be built by "make" un upload
-
-** DONE Publish klingonska.org git repo on HCoop
-   CLOSED: [2010-12-20 Mon 05:14]
-   Instructions: http://wiki.hcoop.net/MemberManual/VersionControl/git
-
-   Repo names:
-       git://git.hcoop.net/git/zrajm/klingonska-website.git
-       http://git.hcoop.net/git/zrajm/klingonska-website.git
-       http://klingonska.org/.git
-       http://klingonska.org/git
-
-   fsr setacl klingonska.org system:anyuser read
-
-   ln -s ~/klingonska.org/main/.git ~/.hcoop-git/klingonska-website.git
-
-** DONE Use "git push" for upload instead of "make release"
-   CLOSED: [2010-12-20 Mon 05:14]
-
-   Should make use of server side git hook 'post-receive' updating web page.
-
-   The following works for just populating a git work tree from a repo:
-
-       #!/bin/sh
-       #
-       # update website
-       # "git-diff" cwd can be anything
-       # $GIT_WORK_TREE must always be specified if using bare repo
-       # $GIT_DIR is assumed to be cwd if not specified
-       env -i git --work-tree=../experiment checkout -f
-
-       # test that website does not diff from repository
-       # "git-diff" cwd may be $GIT_DIR or $GIT_WORK_TREE
-       # if $GIT_WORK_TREE, then $GIT_DIR must be specified
-       # if $GIT_DIR, then both $GIT_DIR and $GIT_WORK_TREE must be specified
-       XXX=`git --git-dir=. --work-tree=../experiment diff HEAD`
-       if [ -z "$XXX" ]; then
-           echo "WEBSITE UPDATED"
-       else
-           echo "WEBSITE UPDATE FAILED: The following files differ from repository"
-           echo "XXX" | grep '^diff '
-           echo
-           echo "Fix by running: 'git --git-dir=experiment.git --work-tree=experiment check\
-       out -f'"
-           echo
-       fi
-
-* TODO RSS/Atom feed for updates
-  http://klingonska.org/feed.atom
-
-  Should be based on information from git, include description and links to all
-  changed (browsable) pages. If the dictionary updates, link should point to
-  dict/lexicon.cgi. Maybe make a list of file relations?
-
-
-
-* TODO {paqHom}
-** TODO Add zip archive of files for last {paqHom} printed
-** TODO Google Chrome should autodetect search engine for {paqHom}
-** TODO Search of dictionary should first page to appear
-   I.e. instead of dict/lexicon.cgi, this should be the index.cgi file.
-
-** TODO "data: derived form" words should not be included in en-tlh side
-** TODO Suffix Guide: {-'e'} <Topic> should include {nuqDaq 'oH puchpa''e'}
-   I.e. the usage of {-'e'} in "it is" type of sentences.
-* TODO Optimize images for site
-  Johan at work mentioned that JPEGs can be radically shrunk by optimizin hash
-  tables in them.
-
-
-* Lesson ideas
-** singing {taHjaj wo'}
-** correspond in SMS:es
-
-
-* DONE Transfer test.zrajm.org -> klingonska.org
-  CLOSED: [2010-09-03 Sat 00:44]
-** DONE Figure out how to transfer control of klingonska.org Manufrog -> HCoop
-   CLOSED: [2010-09-03 Fri 19:45]
-   zrajm.org has loopia.se as registrar
-   klingonska.org has spacepro.net as registrar
-** DONE Change registrar from SpacePro to Loopia
-   CLOSED: [2010-09-02 Thu 18:41]
-*** DONE What does Loopia need in order to transfer klingonska.org there?
-    CLOSED: [2010-09-02 Thu 18:40]
-    EPP/auth-code: (message sent asking this to support@spacepro.net)
-    Domain Name: klingonska.org
-    Loopia customer number: FA07-15-07-06 (verified)
-    SpacePro customer number(?):
-    Send to: registry@loopia.se.
-
-    "En domänflytt kan ta mellan 5-18 dagar och när flytten är klar så kommer
-    du att motta en årsfaktura. Ditt domännamn förnyas i samband med flytten."
-
-    Om du vill lägga till domänen i ett befintligt konto gör du detta genom att
-    logga in och sedan använda menyvalet "Domän och webb" -> "Lägg till
-    domännamn".
-
-    Kontrollera även att domännamnet är upplåst för överföring samt att den
-    administrativa kontakten är aktuell.
-
-    Överföringen av domännamnet beställer du sedan via ditt konto och menyvalet
-    "Domän och webb" -> "Transfer av domännamn".
-    [https://customerzone.loopia.se/domains/transfer]
-
-    Ref: https://mail.google.com/mail/?ui=2&shva=1#inbox/12a85dafd3a92ddf
-
-** DONE Update DNS for web klingonska.org @ HCoop
-   CLOSED: [2010-09-03 Fri 19:44]
-** DONE Move mailing lists
-   CLOSED: [2010-09-04 Sat 17:12]
-*** DONE Copy mailing list settings Manufrog -> HCoop for klingonska@
-    CLOSED: [2010-09-03 Fri 19:37]
-    http://mail.thaning.se/mailman/admin/klingonska_klingonska.org
-    https://lists.hcoop.net/admin/klingonska
-*** DONE Copy mailing list settings Manufrog -> HCoop for 2040@
-    CLOSED: [2010-09-03 Fri 19:21]
-    http://mail.thaning.se/mailman/admin/2040_klingonska.org
-    https://lists.hcoop.net/admin/2040
-*** DONE Create 2040@klingonska.org on HCoop
-    CLOSED: [2010-08-18 Wed 19:33]
-**** DONE Request new mailing list at https://members.hcoop.net/portal/list
-     CLOSED: [2010-08-18 Wed 19:33]
-*** DONE Create klingonska@klingonska.org on HCoop
-    CLOSED: [2010-09-03 Fri 15:58]
-**** DONE Request new mailing list at https://members.hcoop.net/portal/list
-     CLOSED: [2010-08-18 Wed 19:33]
-*** DONE List current mailing lists on manufrog
-    CLOSED: [2010-08-17 Tue 20:54]
-**** 2040@klingonska.org
-     http://mail.thaning.se/mailman/admin/2040_klingonska.org
-**** klingonska@klingonska.org
-     http://mail.thaning.se/mailman/admin/klingonska_klingonska.org/members/list
-*** DONE List mailman settings for 2040@klingonska.org on Manufrog
-    CLOSED: [2010-08-18 Wed 17:58]
-    http://mail.thaning.se/mailman/admin/klingonska_klingonska.org
-*** DONE List mailman settings for klingonska@klingonska.org on Manufrog
-    CLOSED: [2010-08-18 Wed 17:58]
-    http://mail.thaning.se/mailman/admin/2040_klingonska.org
-** DONE After move: verify that klingonska.org and zrajm.org have same whois settings
-   CLOSED: [2010-09-03 Fri 22:21]
-   Compare http://whois.webhosting.info/zrajm.org and
-   http://whois.webhosting.info/klingonska.org
-** DONE Create mail aliases
-   CLOSED: [2010-08-17 Tue 20:51]
-   *           -> zrajmc@gmail.com
-   adam        -> adam.thorp@swipnet.se
-   darnia      -> marie.engfors@gmail.com
-   joacim      -> jojo8043@student.tdb.uu.se
-   lrc         -> kalle.brisland@lillsjon.net
-   marie       -> marie.engfors@home.se
-   mp          -> mackampackam@gmail.com
-   newydd      -> newydd.maria@gmail.com
-   qanaq       -> mackampackam@gmail.com
-   sekreterare -> mackampackam@gmail.com
-   troi        -> daniel_troi@hotmail.com
-*** DONE List the current mail aliases on manufrog
-    CLOSED: [2010-08-17 Tue 20:48]
-*** DONE How to config using domtool?
-    CLOSED: [2010-08-17 Tue 20:49]
-    According to "domtool-admin describe zrajm.org" email is now configured on
-    zrajm.org, but I don't receive testmails to neither zrajm@zrajm.org nor
-    anyone@zrajm.org. Maybe it'll work in a day or so?
-
-    Mail sent to zrajm@klingonska.org (on manufrog) appears immediately in
-    gmail. /zrajm 2010-08-09
-*** DONE Added the following to ~/.domtool/zrajm.org
-    CLOSED: [2010-08-17 Tue 20:51]
-    emailAlias "adam"        "adam.thorp@swipnet.se";
-    emailAlias "darnia"      "marie.engfors@gmail.com";
-    emailAlias "joacim"      "jojo8043@student.tdb.uu.se";
-    emailAlias "lrc"         "kalle.brisland@lillsjon.net";
-    emailAlias "marie"       "marie.engfors@home.se";
-    emailAlias "mp"          "mackampackam@gmail.com";
-    emailAlias "newydd"      "newydd.maria@gmail.com";
-    emailAlias "qanaq"       "mackampackam@gmail.com";
-    emailAlias "sekreterare" "mackampackam@gmail.com";
-    emailAlias "troi"        "daniel_troi@hotmail.com";
-
-** DONE Fetched current klingonska.org & installed that
-   (= CGI's are not working)
-   CLOSED: [2009-04-04 Sat]
-** DONE Converted all text from latin-1 to utf-8
-   CLOSED: [2009-04-04 Sat]
-** DONE CGI scripts working
-   CLOSED: [2010-08-09 Mon 03:01]
-*** DONE List CGI scripts on page
-    CLOSED: [2010-08-09 Mon 03:00]
-*** TODO canon/download.cgi - ok
-**** TODO fix page footer
-*** TODO canon/search/index.cgi - not pretty, but passable
-**** TODO searched for "bird" -- several matches were lacking file/article names
-**** TODO merge apply_corrections() and strip_comments() (they are identical?)
-*** DONE dict/lexicon.cgi - ok
-    CLOSED: [2010-10-05 Tue 15:53]
-*** TODO piqad/play.cgi - ok
-**** TODO need new header/footer though
-
-
-* DOING Makefile: Upload handling of beta.klingonska.org vs. klingonska.org
-** DONE improved directory structure on hcoop
-   CLOSED: [2010-09-05 Sun 00:09]
-   * klingonska.org/{beta,main,manufrog}
-   * zrajm.org/{main,2040}
-
-** DONE "make beta" -> upload beta version of site
-   CLOSED: [2010-09-05 Sun 04:49]
-   Should upload new site to hcoop:klingonska.org/beta.
-** DOING "make release" -> upload new official release of site
-*** DONE Uploads the site to main directory (http://klingonska.org/)
-    CLOSED: [2010-09-05 Sun 05:13]
-*** TODO Enforcing of tests?
-*** TODO Automatic tagging in git repo of uploaded material?
-    This seems problematic, as it would require all files to be checked in,
-    before upload (in order to have the directory tree and the repo being
-    competely concronized -- if they're not, the git tag doesn't really signify
-    anything).
-
-    Should add an official release tag in the git repository + upload new site
-    to hcoop:klingonska.org/main
-
-    http://ariejan.net/2009/09/05/git-tag-mini-cheat-sheet-revisited/
-
-
-* TODO Do a surf-through check for weird/old shit
-** DONE Remove KA bylaws
-   CLOSED: [2010-10-07 Thu 07:27]
-** TODO Remove link page
-
+Priorities:
+1) IMPORTANT -- page visibly broken in bad way (bad link or somesuch)
+2) ugly -- page has minor flaw which looks unprofessional (but works)
+3) EASY -- change or addition, material exists but is not shown/wasted
+4) WANTED -- could be better, but is okay
+5) MAYBE -- would be nice to have, but needs to be though about
 
 * TODO FIXES
 ** DOING Email
@@ -336,7 +58,6 @@
    HCoop setup. I copied the relevant rewriteRules from the Apache file to
    HCoop's domtool, and web redirects seem to be up and working again.
    CLOSED: [2010-09-08 Wed 20:34]
-
 ** DOING Webpage
 *** DOING Find/eliminate faulty latin1 hyphens
     173 chars into proper hyphens/minuses
@@ -384,78 +105,51 @@
 *** DONE Redirect 2040.klingonska.org -> 2040.zrajm.org
     CLOSED: [2010-09-08 Wed 20:48]
 
-
-* TODO ENHANCEMENTS
-** TODO Webpage
-*** TODO Add "site news"/updated page
-* TODO FUTURE
-** TODO Use microdata where applicable
-   Where is this? Page datestamps? Page geolocation? Are there more?
-
-   When occuring in text:
-*** Author names
-*** Source references
-** TODO CC licence on entire site (except KLO?)
-** TODO Web pages generated from templates & using Markdown
-   Various contexts which should (maybe?) have special handling.
-   * gallery (e.g. "http://klingonska.org/songs/tahjaj_wo/")
-** TODO XHTML compliant
-** TODO CSS-based design
-*** DONE Replace all occurances of <table> navigation menu with <dl>
-    CLOSED: [2011-04-12 Tue 00:12]
-*** DONE Design CSS for site navigation
-    CLOSED: [2011-04-10 Sun 19:44]
-    Now uses definition list with class "navigation" instead of the old tables
-    for layout.
-*** DONE Implement CSS for main menu page
-    CLOSED: [2011-04-10 Sun 19:45]
-** TODO "Typographical" quotes
-** TODO Feedback form at end of each page (again)
-   This is the old code, using SSI:
-
-   <!-- ================== Feedback Form ================== -->
-   <!-- [2007-07-15] Below stuff disabled in move to ManuFrog -->
-   <!-- (remove spaces before "#" to re-enable) -->
-   <!--#include virtual="/feedback.cgi"
-   --><!--#if expr="!$X_NOLOG"
-   --><!--#include virtual="/.log.cgi"
-   --><!--#endif -->
-
-
-
-** TODO Switch to HTML5(?)
-   Read up on the stuff here:
-   http://www.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/
-*** TODO Benefit - Autofocus for forms
-*** TODO Benefit - Place holder text for forms
-
-* Systematic changes
-** TODO CSS: images should have borders when linked
-   Use CSS from: http://klingonska.org/songs/tahjaj_wo/index.html
-** TODO CSS: name in footer/copyright notice should not be italics
-** TODO CSS: line width should max become something readable
-** TODO "[Updated <DATE>]" should be shaded, not extra small
-** TODO <p> tag should default to align=justify
-** TODO Same style for all source references
-   E.g. "(published in <B>HolQeD</B> 2:2 pp.10&ndash;11)" (from
-   http://klingonska.org/piqad/).
-
-   Use microdata? Use standardized abbbreviation style -- what should it look
-   like? Include chapter number where possible (e.g. TKD)?
-
-       <{HolQeD} 2:2>, pp.10--12
-       <{HolQeD} 2:2> (pp.10--12)
-       <{HolQeD} 2:2> (pages 10--12)
-* Build/check tools
-** usr/bin/klingon_spell_check
-*** Support for syllable {-oy}
-    Do I have this somewhere?
-*** Allow use for #...# words excepted from normal rules
-    E.g. "{#Quvatlh#}", or "{tlhIngan #badword# something}"
-*** Support " between words in Klingon
-* Web page improvement
+* Site content
+** TODO Do a surf-through check for weird/old shit
 ** TODO General changes
    I.e. changes that need to be applied to the web page as a whole.
+*** TODO "page.css" should be included by all pages(?)
+*** TODO [#4] Site search
+    Using google? Chrome should autodetect this.
+*** TODO [#2] Fix icons & broken images
+    http://klingonska.org/lektioner/
+    http://klingonska.org/lektioner/gammalt/
+    http://klingonska.org/lektioner/ref/
+*** TODO Use microdata where applicable
+    Where is this? Page datestamps? Page geolocation? Are there more?
+
+    When occuring in text:
+**** Author names
+**** Source references
+*** TODO CC licence on entire site (except KLO?)
+*** TODO HTML Upgrade
+**** TODO Add "lang" attribute to <body> tags on all pages
+**** TODO Lower-case all HTML
+**** TODO XHTML compliant
+***** TODO <meta> should be terminated with />
+***** TODO Quote all attribute values
+*** TODO "Typographical" quotes
+*** TODO Feedback form at end of each page (again)
+    This is the old code, using SSI:
+
+    <!-- ================== Feedback Form ================== -->
+    <!-- [2007-07-15] Below stuff disabled in move to ManuFrog -->
+    <!-- (remove spaces before "#" to re-enable) -->
+    <!--#include virtual="/feedback.cgi"
+    --><!--#if expr="!$X_NOLOG"
+    --><!--#include virtual="/.log.cgi"
+    --><!--#endif -->
+
+*** TODO Switch to HTML5(?)
+    Read up on the stuff here:
+    http://www.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/
+**** TODO Benefit - Autofocus for forms
+**** TODO Benefit - Place holder text for forms
+*** TODO Optimize jpeg images
+    Johan at work mentioned that JPEGs can be radically shrunk by optimizing
+    the hash tables in them.
+*** TODO Replace <strong lang="tlh"> with <b lang="tlh">
 *** TODO Mark all Klingon with <b lang="tlh">...</b>
 **** TODO Disable word-wrap for naked Klingon affixes
      Use 'class="affix"', e.g. <b lang="tlh" class="affix">...</b>.
@@ -473,29 +167,74 @@
      NOTE: Previously used Unicode character for non-breaking hyphen, but this
      is bad -- since that means one cannot search for them on a page using the
      ^F browser function.
-*** TODO Mark translated phrases?
-*** TODO Page headers
-**** TODO Right hand pagestats should say "Updated" not "Changed"
-     (and "Uppdaterad" not "Ändrad")
-**** TODO Title page
-***** Add some thing (javascript?) to indicate pages that have been recently updated
-      This should maybe be displayed as "New!" for a week, and "New" (with less
-      exclamation marks) for a month, or somesuch.
+*** TODO Mark translated phrases with <i ...>...</i>?
+    What should be the markup? 'class="translation"'? No "lang" attribute
+    generally be necessary, since it would (usually) be the same language as
+    the surrounding text.
+*** TODO Title page
+**** Add some thing (javascript?) to indicate pages that have been recently
+     updated This should maybe be displayed as "New!" for a week, and "New"
+     (with less exclamation marks) for a month, or somesuch.
 
-      This is remnant markup from an earlier such thought:
+     This is remnant markup from an earlier such thought:
 
-      <tr><td align=right valign=center><img src="/pic/ny.gif" width=31 height=14 alt="Ny" hspace=5></td>
-      <tr><td align=right valign=center><img src="/pic/andrad.gif" width=54 height=14 alt="Ändrad" hspace=5></td>
-      <tr><td align=right valign=center><img src="/pic/dot.gif" width=15 height=14 alt="*" hspace=5></td>
+     <tr><td align=right valign=center><img src="/pic/ny.gif" width=31 height=14 alt="Ny" hspace=5></td>
+     <tr><td align=right valign=center><img src="/pic/andrad.gif" width=54 height=14 alt="Ändrad" hspace=5></td>
+     <tr><td align=right valign=center><img src="/pic/dot.gif" width=15 height=14 alt="*" hspace=5></td>
+*** TODO CSS-based design
+**** TODO Images should have borders when linked
+     Use CSS from: http://klingonska.org/songs/tahjaj_wo/index.html
+**** TODO Name in footer/copyright notice should not be italics
+**** TODO Line width should max become something readable
+**** DONE Replace all occurances of <table> navigation menu with <dl>
+     CLOSED: [2011-04-12 Tue 00:12]
+**** DONE Design CSS for site navigation
+     CLOSED: [2011-04-10 Sun 19:44]
+     Now uses definition list with class "navigation" instead of the old tables
+     for layout.
+**** DONE Implement CSS for main menu page
+     CLOSED: [2011-04-10 Sun 19:45]
 
-** TODO Search engine optimizations
-*** TODO Add site search
-    Using google? Chrome should autodetect this.
-*** TODO Add a sitemap for improved search results?
+*** TODO <p> tag should default to align=justify
+*** TODO Same style for all source references
+    E.g. "(published in <B>HolQeD</B> 2:2 pp.10&ndash;11)" (from
+    http://klingonska.org/piqad/).
+
+    Use microdata? Use standardized abbbreviation style -- what should it look
+    like? Include chapter number where possible (e.g. TKD)?
+
+        <{HolQeD} 2:2>, pp.10--12
+        <{HolQeD} 2:2> (pp.10--12)
+        <{HolQeD} 2:2> (pages 10--12)
+*** DONE Add navigation breadcrumbs to all pages
+    CLOSED: [2011-07-02 Sat 22:29]
+    Commit breadcrumb on all pages in a single commit.
+**** DONE List pages that need manual fixes
+     CLOSED: [2011-07-02 Sat 22:28]
+**** DONE Right hand pagestats should say "Updated" not "Changed"
+     CLOSED: [2011-06-14 Tue 10:34]
+     (and "Uppdaterad" not "Ändrad" in Swedish)
+** TODO Pages to add
+*** TODO RSS/Atom feed for updates
+    http://klingonska.org/feed.atom
+
+    Should be based on information from git, include description and links to all
+    changed (browsable) pages. If the dictionary updates, link should point to
+    dict/lexicon.cgi. Maybe make a list of file relations?
+
+*** TODO [#4] Add "site news"/updated page
+    This should be tied in to "git push" updating process, and not require any
+    separate maintenance. It should use log messages, but also include list of
+    files + links to files whose contents has beeen updated.
+*** TODO [#3] Klingon language apps/software page
+    I.e. dictionary apps for Palm, Android etc. Flash card programs for various
+    platforms. Programs strictly focused on the Klingon *language*.
+*** TODO [#3] Scholarly works about Klingon
+*** TODO [#4] Add a sitemap for improved search results?
     http://www.google.com/support/webmasters/bin/answer.py?answer=183668
-
+** TODO Search engine optimizations
 ** TODO "Some Songs in Klingon"
-*** TODO prettify page (HTML instead of text pages)
+*** TODO Prettify song pages (HTML instead of text pages)
 *** TODO {taHjaj wo'}
 **** TODO add HTML redirects for moved files
 ***** songs/tahjaj_wo2.txt => NOTE/tahjaj_wo_tabbed.txt
@@ -594,20 +333,35 @@
       support to work as well (test this out using Firefox with JavaScript disabled).
 
       [http://test.zrajm.org/canon/search/?file=1997-09-01c-news.txt&query=hello]
-*** TODO Transcripts updating/improvement
-**** TODO "Major" source transcripts should be indexed by Google
+*** TODO Improved transcript display script
+    See also: NOTE/2010-09-01-original+corrected-display/index.html
+
+    HTML tags intended for showing edits in texts. Should be used to show the
+    corrections.
+
+    Script used to display transcripts prettily should have a function to
+    enable/disable the displaying of original/corrected versions of the text.
+
+        http://klingonska.cibo/canon/search/?file=1996-08-rt.txt&query=hello
+
+    Each transcript in the http://klingonska.org/canon/ list should have a link
+    to the prettified version (as well as to the original text formatted
+    transcript).
+
+*** [28%] Transcripts updating/improvement
+**** TODO "Major" source transcripts should be indexed by Google        :CGI:
      Transcriptions of TKD/TKW/KGT/CK and PK should be indexable by Google
      (i.e. script should detect and allow anyone with a user agent string
      matching m#\bGooglebot\b#i).
-**** TODO Add movie transcripts
+**** TODO Add movie transcripts                                        :HTML:
 ***** TODO 1991-12-03-tuc.txt
 ****** TODO Improve summary
-**** TODO Add a text containing {Sa'Hut} "buttocks" (from {qep'a'} 2003)
-**** TODO canon/old/1996-09.txt contains oct char \222 (apostrophe)
+**** TODO Add text containing {Sa'Hut} "buttocks" (from {qep'a'} 2003) :HTML:
+**** TODO canon/old/1996-09.txt contains oct char \222 (apostrophe)    :HTML:
      (do any other documents?) latin1 -> utf8 convert these?
 **** TODO canon/1997-sbx-s31.html missing Skybox S32 and S33 images
-**** TODO Add transcript of The Klingon Way (audio book)
-**** TODO re-scan Skybox trading cards and add to
+**** TODO Add transcript of The Klingon Way (audio book)         :TRANSCRIBE:
+**** TODO Re-scan Skybox trading cards and add to                      :SCAN:
          canon/1994-sbx-sp1.html
          canon/1995-sbx-s7.html
          canon/1995-sbx-s13.html
@@ -646,29 +400,29 @@
        CLOSED: [2010-08-26 Thu 15:47]
 ***** DONE Check hyphenations
        CLOSED: [2010-08-26 Thu 15:43]
-**** TODO TKD correction
+**** TODO TKD correction                                          :PROOFREAD:
      Dictionary part contains, "just, only, merely, (adv) neH". Check the
      trailing comma with original source
-**** TODO HolQeD 12:3 p.9 correction
+**** TODO HolQeD 12:3 p.9 correction                              :PROOFREAD:
      "do more that is acceptable" should probably be "do more than is
      acceptable". ("than", rather than "that")
-**** DONE Add HolQeD 1:3 p.9 transcript
+**** DONE Add HolQeD 1:3 p.9 transcript                           :PROOFREAD:
      CLOSED: [2011-02-24 Thu 10:41]
-**** DONE HolQeD 7:2 p.8 spelling fix
+**** DONE HolQeD 7:2 p.8 spelling fix                             :PROOFREAD:
      CLOSED: [2010-08-31 Tue 21:35]
      Check original article. {tlhlngan Hol Dajatlh 'e' vISov} should there
      really be an {l} instead of an {I} here? 1998-06-holqed-07-2.txt Fixed
      transcription typo.
-**** DONE HolQeD 7:4 p.4 spelling fix
+**** DONE HolQeD 7:4 p.4 spelling fix                             :PROOFREAD:
      CLOSED: [2010-08-31 Tue 21:45]
      Check original article. {avwI' jang qama'. [...]} is the initial {'} really
      missing? 1998-12-holqed-07-4.txt Typo in original source (added correction
      comment).
-**** DONE HolQeD 8:3 p.4 spelling fix
+**** DONE HolQeD 8:3 p.4 spelling fix                             :PROOFREAD:
      CLOSED: [2010-08-31 Tue 21:47]
      Check original article. {[...] SuvwI'pu' HoHta' geng.} should the {g} be a
      {q}, perhaps? 1999-09-holqed-08-3.txt Fixed transcription typo.
-**** DONE HolQeD 13:1 p.10 spelling fix
+**** DONE HolQeD 13:1 p.10 spelling fix                           :PROOFREAD:
      CLOSED: [2010-08-31 Tue 21:51]
      Check original article. {Quchwlj vIl law' QuchlIj vIl puS} should there
      really be an {l} instead of an {I} here? 2004-03-holqed-13-1.txt Fixed
@@ -699,7 +453,7 @@
 **** DONE Strip any trailing whitespace at eof/eol (anywhere)
      CLOSED: [2010-10-05 Tue 02:49]
 *** TODO Main article
-**** TODO Typography/laout in main article
+**** TODO Typography/layout in main article
 ***** TODO 1st paragraph after search form overlaps search form
 ***** TODO Use en-dash or hyphen in in ISBNs?
       (Also make them non-line-breaking)
@@ -735,10 +489,20 @@
     CLOSED: [2011-05-14 Sat 22:02]
 *** DONE Replace ' with &lsquo; / &rsquo
     CLOSED: [2011-05-14 Sat 22:02]
+
 ** TODO "Klingon Pocket Dictionary"
+*** TODO Add zip archive of files for last {paqHom} printed
+*** TODO Google Chrome should autodetect search engine for {paqHom}
+*** TODO Search of dictionary should first page to appear
+    I.e. instead of dict/lexicon.cgi, this should be the index.cgi file.
+
+*** TODO "data: derived form" words should not be included in en-tlh side
+*** TODO Suffix Guide: {-'e'} <Topic> should include {nuqDaq 'oH puchpa''e'}
+    I.e. the usage of {-'e'} in "it is" type of sentences.
+
 *** TODO Search engine improvements
 **** Add Chrome integration (some sort of open protocol?)
-*** TODO commit changes to git repos
+*** TODO Commit changes to git repos
 *** DONE index.html
     CLOSED: [2010-08-26 Thu 19:49]
 **** DONE image captions should be same size as rest of text
@@ -899,17 +663,17 @@
      CLOSED: [2010-08-09 Mon 02:17]
 *** DONE headings should be sans-serif
     CLOSED: [2010-08-09 Mon 02:19]
-*** TODO replace all <b>...</b> with Klingon in to <strong lang="tlh>...</strong>
+*** TODO Replace all <b>...</b> with Klingon in to <strong lang="tlh>...</strong>
     Done in dict/, check elsewhere.
-*** TODO replace all relevant <i>...</i> with <em class="translation">...</em>
+*** TODO Replace all relevant <i>...</i> with <em class="translation">...</em>
     Done in dict/, check elsewhere.
-*** TODO add {pIqaD} longhand table
+*** TODO Add {pIqaD} longhand table
 *** TODO Add irregular plurals in dictionary (already done?)
 *** TODO KA logo on front
 *** DOING dict.zdb
 **** TODO Make sure all words have "file:" field
-**** DOING Add words
-***** DOING Check that all mughom.wizage.net "New Words" are present
+**** TODO Add words
+***** DOING Check that all mughom.wizage.net "New Words" are present [42%]
       http://mughom.wizage.net
       This is a list of the last 100 words added to the database.
 ****** TODO Tell {qurgh} that {veH tIn} "great barrier" is a place name
@@ -1071,11 +835,10 @@
 
       Facebook: December 14 at 11:24pm
 
-***** DONE {qep'a'} 2010 words
+***** [100%] {qep'a'} 2010 words
       CLOSED: [2011-02-07 Mon 02:29]
 ****** DONE News from Maltz: mIllogh
        CLOSED: [2011-02-07 Mon 02:27]
-
 
        /Okay, here it comes. Besides of the students at the qepHom in
        Saarbrücken, you are the first to read this. Note for the newbies: This
@@ -1224,37 +987,338 @@
 ** TODO "A Quick Reference to Adverbials in Klingon"
 *** Update list of adverbials
 ** TODO "Links to Other Pages About the Klingon Language"
-*** TODO Javascript to display only a single tag/category  
+*** TODO Javascript to display only a single tag/category
+*** TODO Weed out links to non-existing pages
+*** TODO Links to add
+**** TODO Klingon Unicode Table "Klingon: U+F8D0 - U+F8FF"
+      http://www.evertype.com/standards/csur/klingon.html
+      (include comma and period glyphs)
+**** TODO "wordiQ - Klingon Language" article
+      http://www.wordiq.com/definition/Klingon_language
+      (A pretty good article on the klingon language)
+**** TODO "Wikipedia: Klingon writing systems"
+      http://en.wikipedia.org/wiki/Klingon_writing_systems
+** TODO Project "Klingonsk ordbok" (KLO)
+*** TODO [#2] Phonetic descriptions should use IPA
+    The sound transcription used in the cheat sheet (e.g. "sjis-LASJ") is
+    stupid, ugly and US-centric. Since IPA is used in schools in Sweden, it
+    should be used here as well. [http://klingonska.org/klo/ordlista-05.html]
+*** DONE [#1] Prev/next links on KLO are broken
+    CLOSED: [2011-07-03 Sun 03:56]
+    E.g. http://klingonska.cibo/klo/grammatik-05.html
+*** DONE [#2] Broken translation dates in TOC
+    CLOSED: [2011-07-03 Sun 03:56]
+    The translation dates are circumscribed with [...] which are not
+    superscript like the date itself. [http://klingonska.org/klo/]
+*** DONE [#2] TOC links should point to top of page instead of top headline
+    CLOSED: [2011-07-03 Sun 03:56]
+*** DONE [#3] Tables with suffixes should be linked
+    CLOSED: [2011-07-03 Sun 04:00]
+    http://klingonska.org/klo/tillagg-01.txt
 ** TODO Lesson list
    http://klingonska.org/lektioner/
-*** TODO Fix icons
+*** Should be listed
+    These are linked to from http://klingonska.org/lektioner/ref/prefix.html.
+
+    lektioner/ref/=prefix_small.html
+    lektioner/ref/=prefix_big.html
 *** TODO List should use Apaches built-in filelist thingy
+** DONE [100%] Home page replaces
+   CLOSED: [2011-07-03 Sun 04:29]
+*** DONE [#3] "Quick References to..."
+    CLOSED: [2011-07-03 Sun 04:11]
+    -> "Quick References"
+*** DONE [#3] "The Klingon Way &ndash; A Warrior's Guide"
+    CLOSED: [2011-07-03 Sun 04:12]
+    -> "The Klingon Way in {pIqaD}".
+*** DONE [#3] "Lektionsmaterialet till studiecirkeln"
+    CLOSED: [2011-07-03 Sun 04:29]
+    -> "Lektionsmaterial till studiecirkeln"
+
+** DONE Remove KA bylaws
+   CLOSED: [2010-10-07 Thu 07:27]
+* Build/check tools
+** TODO [#4] HTML quality tester
+   Should check the following:
+*** Spellcheck Klingon inside <b lang="tlh">...</b>
+*** Check that no <title> nor <h#> ends in period
+*** Check that all <body> have "lang" specified
+*** Check that all HTML is downcased
+
+*** Check that all HTML have quoted attribute names
+*** Check that HTML uses only approved tag/attribute names
+** DOING Makefile: Uploading of beta.klingonska.org / klingonska.org    :CLI:
+*** DONE improved directory structure on hcoop
+    CLOSED: [2010-09-05 Sun 00:09]
+    * klingonska.org/{beta,main,manufrog}
+    * zrajm.org/{main,2040}
+
+*** DONE "make beta" -> upload beta version of site
+    CLOSED: [2010-09-05 Sun 04:49]
+    Should upload new site to hcoop:klingonska.org/beta.
+*** DOING "make release" -> upload new official release of site
+**** DONE Uploads the site to main directory (http://klingonska.org/)
+     CLOSED: [2010-09-05 Sun 05:13]
+**** TODO Enforcing of tests?
+**** TODO Automatic tagging in git repo of uploaded material?
+     This seems problematic, as it would require all files to be checked in,
+     before upload (in order to have the directory tree and the repo being
+     competely concronized -- if they're not, the git tag doesn't really signify
+     anything).
+
+     Should add an official release tag in the git repository + upload new site
+     to hcoop:klingonska.org/main
+
+     http://ariejan.net/2009/09/05/git-tag-mini-cheat-sheet-revisited/
+
+** TODO Gitify site ("git push" for upload + publish repo)              :CLI:
+*** TODO Server-side commit hook should fail if make fails
+
+    E.g. when a rebuilding of canon/index.html from markdown fails, the entire
+    push operation should fail. This happens if if not
+
+        PERL5LIB=$PERL5LIB:~/usr/share/perl
+
+    is set. Since the Markdown module is installed there.
+*** TODO Git "add" hook to store file dates/metadata?
+    No such hook exist. :( Use some sort of server-side hook at push instead?
+*** TODO Makefile must not require perl 5.10
+*** TODO Pre-commit hook should be checked in
+    "make hooks" should create the client-side relevant hooks.
+*** TODO Improve and optimize pre-commit hook
+    Commits are veeeeryy slow because of (I assume) the fact that find is run on
+    all files in the repository.
+
+    Instead of searching all files for changed metadata, the pre-commit hook
+    should only fetch metadata for files changed in the commit.
+
+    Lists all files included in a commit:
+
+        git ls-files --stage
+
+    metadata <
+
+*** TODO Include HCoop domtool config in git repo
+*** DONE Redirect git.klingonska.org to site git repo
+    CLOSED: [2011-04-10 Sun 03:59]
+*** DONE Sketch infrastructure
+    CLOSED: [2010-12-20 Mon 05:14]
+
+    When the master branch is pushed, it should cause an update of the entire
+    page.
+
+    git push          # should rebuild basic web page
+     |
+     +--> site content should be built by "make" un upload
+
+*** DONE Publish klingonska.org git repo on HCoop
+    CLOSED: [2010-12-20 Mon 05:14]
+    Instructions: http://wiki.hcoop.net/MemberManual/VersionControl/git
+
+    Repo names:
+        git://git.hcoop.net/git/zrajm/klingonska-website.git
+        http://git.hcoop.net/git/zrajm/klingonska-website.git
+        http://klingonska.org/.git
+        http://klingonska.org/git
+
+    fsr setacl klingonska.org system:anyuser read
+
+    ln -s ~/klingonska.org/main/.git ~/.hcoop-git/klingonska-website.git
+
+*** DONE Use "git push" for upload instead of "make release"
+    CLOSED: [2010-12-20 Mon 05:14]
+
+    Should make use of server side git hook 'post-receive' updating web page.
+
+    The following works for just populating a git work tree from a repo:
+
+        #!/bin/sh
+        #
+        # update website
+        # "git-diff" cwd can be anything
+        # $GIT_WORK_TREE must always be specified if using bare repo
+        # $GIT_DIR is assumed to be cwd if not specified
+        env -i git --work-tree=../experiment checkout -f
+
+        # test that website does not diff from repository
+        # "git-diff" cwd may be $GIT_DIR or $GIT_WORK_TREE
+        # if $GIT_WORK_TREE, then $GIT_DIR must be specified
+        # if $GIT_DIR, then both $GIT_DIR and $GIT_WORK_TREE must be specified
+        XXX=`git --git-dir=. --work-tree=../experiment diff HEAD`
+        if [ -z "$XXX" ]; then
+            echo "WEBSITE UPDATED"
+        else
+            echo "WEBSITE UPDATE FAILED: The following files differ from repository"
+            echo "XXX" | grep '^diff '
+            echo
+            echo "Fix by running: 'git --git-dir=experiment.git --work-tree=experiment check\
+        out -f'"
+            echo
+        fi
+
+** TODO Generate web pages from templates & using Markdown              :CLI:
+   Various contexts which should (maybe?) have special handling.
+   * gallery (e.g. "http://klingonska.org/songs/tahjaj_wo/")
+** TODO usr/bin/klingon_spell_check                                     :CLI:
+*** TODO Support for syllable {-oy}
+    Do I have this somewhere?
+*** TODO Allow use for #...# words excepted from normal rules
+    E.g. "{#Quvatlh#}", or "{tlhIngan #badword# something}"
+*** TODO Support " between words in Klingon
+
+* Web server config
+** TODO All files should have just *one* canonical URL                 :CONF:
+   "http://klingonska.org/" should never be referred to as
+   "http://klingonska.org/index.html". Any references to the index.html version
+   should be rewritten to the former.
+** TODO Configure "MultiView" so users don't have to type file suffix  :CONF:
+   Apache's "MultiView" seems like a cool config option. It makes it so that
+   visitors can leave off the file suffix. (E.g. http://klingonska.org/links/
+   would load "links.html" if there isn't also a "/links/index.html".)
+
+   More on that topic
+   http://httpd.apache.org/docs/current/content-negotiation.html#multiviews
+
 
 * Communicate
 ** Reply to http://community.livejournal.com/klingon/
    The Archive of Okrandian Canon of the Swedish Klingonska Akademien doesn't
    seem to be updated anymore, since 2002. Or does it?
+** Send paqHommey to
+*** TODO Terrence Donnelly <terrence.donnelly@sbcglobal.net>
+*** DONE Louse Whitty {lu'lu'}
+    CLOSED: [2010-12-25 Sat 05:47]
+*** DONE {Qov}
+    CLOSED: [2010-12-25 Sat 05:47]
+*** DONE Marc Okrand
+    CLOSED: [2010-12-25 Sat 05:48]
 
-* Add all tlhingan-hol archive stuff to gmail
-* Send paqHommey to
-** Terrence Donnelly <terrence.donnelly@sbcglobal.net>
-** DONE Louse Whitty {lu'lu'}
-   CLOSED: [2010-12-25 Sat 05:47]
-** DONE {Qov}
-   CLOSED: [2010-12-25 Sat 05:47]
-** DONE Marc Okrand
-   CLOSED: [2010-12-25 Sat 05:48]
-* Links to have from klingonska.org
-** Klingon Unicode Table "Klingon: U+F8D0 - U+F8FF"
-    http://www.evertype.com/standards/csur/klingon.html
-    (include comma and period glyphs)
-** "wordiQ - Klingon Language" article
-    http://www.wordiq.com/definition/Klingon_language
-    (A pretty good article on the klingon language)
-** "Wikipedia: Klingon writing systems"
-    http://en.wikipedia.org/wiki/Klingon_writing_systems
-
-[eof]
+* Add all tlhingan-hol archive stuff to my Gmail
+* Lesson ideas
+** singing {taHjaj wo'}
+** correspond in SMS:es
 
 
+* DONE ACCOMPLISHED STUFF
+** DONE Transfer test.zrajm.org -> klingonska.org
+   CLOSED: [2010-09-03 Sat 00:44]
+*** DONE Figure out how to transfer control of klingonska.org Manufrog -> HCoop
+    CLOSED: [2010-09-03 Fri 19:45]
+    zrajm.org has loopia.se as registrar
+    klingonska.org has spacepro.net as registrar
+*** DONE Change registrar from SpacePro to Loopia
+    CLOSED: [2010-09-02 Thu 18:41]
+**** DONE What does Loopia need in order to transfer klingonska.org there?
+     CLOSED: [2010-09-02 Thu 18:40]
+     EPP/auth-code: (message sent asking this to support@spacepro.net)
+     Domain Name: klingonska.org
+     Loopia customer number: FA07-15-07-06 (verified)
+     SpacePro customer number(?):
+     Send to: registry@loopia.se.
 
+     "En domänflytt kan ta mellan 5-18 dagar och när flytten är klar så kommer
+     du att motta en årsfaktura. Ditt domännamn förnyas i samband med flytten."
+
+     Om du vill lägga till domänen i ett befintligt konto gör du detta genom att
+     logga in och sedan använda menyvalet "Domän och webb" -> "Lägg till
+     domännamn".
+
+     Kontrollera även att domännamnet är upplåst för överföring samt att den
+     administrativa kontakten är aktuell.
+
+     Överföringen av domännamnet beställer du sedan via ditt konto och menyvalet
+     "Domän och webb" -> "Transfer av domännamn".
+     [https://customerzone.loopia.se/domains/transfer]
+
+     Ref: https://mail.google.com/mail/?ui=2&shva=1#inbox/12a85dafd3a92ddf
+
+*** DONE Update DNS for web klingonska.org @ HCoop
+    CLOSED: [2010-09-03 Fri 19:44]
+*** DONE Move mailing lists
+    CLOSED: [2010-09-04 Sat 17:12]
+**** DONE Copy mailing list settings Manufrog -> HCoop for klingonska@
+     CLOSED: [2010-09-03 Fri 19:37]
+     http://mail.thaning.se/mailman/admin/klingonska_klingonska.org
+     https://lists.hcoop.net/admin/klingonska
+**** DONE Copy mailing list settings Manufrog -> HCoop for 2040@
+     CLOSED: [2010-09-03 Fri 19:21]
+     http://mail.thaning.se/mailman/admin/2040_klingonska.org
+     https://lists.hcoop.net/admin/2040
+**** DONE Create 2040@klingonska.org on HCoop
+     CLOSED: [2010-08-18 Wed 19:33]
+***** DONE Request new mailing list at https://members.hcoop.net/portal/list
+      CLOSED: [2010-08-18 Wed 19:33]
+**** DONE Create klingonska@klingonska.org on HCoop
+     CLOSED: [2010-09-03 Fri 15:58]
+***** DONE Request new mailing list at https://members.hcoop.net/portal/list
+      CLOSED: [2010-08-18 Wed 19:33]
+**** DONE List current mailing lists on manufrog
+     CLOSED: [2010-08-17 Tue 20:54]
+***** 2040@klingonska.org
+      http://mail.thaning.se/mailman/admin/2040_klingonska.org
+***** klingonska@klingonska.org
+      http://mail.thaning.se/mailman/admin/klingonska_klingonska.org/members/list
+**** DONE List mailman settings for 2040@klingonska.org on Manufrog
+     CLOSED: [2010-08-18 Wed 17:58]
+     http://mail.thaning.se/mailman/admin/klingonska_klingonska.org
+**** DONE List mailman settings for klingonska@klingonska.org on Manufrog
+     CLOSED: [2010-08-18 Wed 17:58]
+     http://mail.thaning.se/mailman/admin/2040_klingonska.org
+*** DONE After move: verify that klingonska.org and zrajm.org have same whois settings
+    CLOSED: [2010-09-03 Fri 22:21]
+    Compare http://whois.webhosting.info/zrajm.org and
+    http://whois.webhosting.info/klingonska.org
+*** DONE Create mail aliases
+    CLOSED: [2010-08-17 Tue 20:51]
+    *           -> zrajmc@gmail.com
+    adam        -> adam.thorp@swipnet.se
+    darnia      -> marie.engfors@gmail.com
+    joacim      -> jojo8043@student.tdb.uu.se
+    lrc         -> kalle.brisland@lillsjon.net
+    marie       -> marie.engfors@home.se
+    mp          -> mackampackam@gmail.com
+    newydd      -> newydd.maria@gmail.com
+    qanaq       -> mackampackam@gmail.com
+    sekreterare -> mackampackam@gmail.com
+    troi        -> daniel_troi@hotmail.com
+**** DONE List the current mail aliases on manufrog
+     CLOSED: [2010-08-17 Tue 20:48]
+**** DONE How to config using domtool?
+     CLOSED: [2010-08-17 Tue 20:49]
+     According to "domtool-admin describe zrajm.org" email is now configured on
+     zrajm.org, but I don't receive testmails to neither zrajm@zrajm.org nor
+     anyone@zrajm.org. Maybe it'll work in a day or so?
+
+     Mail sent to zrajm@klingonska.org (on manufrog) appears immediately in
+     gmail. /zrajm 2010-08-09
+**** DONE Added the following to ~/.domtool/zrajm.org
+     CLOSED: [2010-08-17 Tue 20:51]
+     emailAlias "adam"        "adam.thorp@swipnet.se";
+     emailAlias "darnia"      "marie.engfors@gmail.com";
+     emailAlias "joacim"      "jojo8043@student.tdb.uu.se";
+     emailAlias "lrc"         "kalle.brisland@lillsjon.net";
+     emailAlias "marie"       "marie.engfors@home.se";
+     emailAlias "mp"          "mackampackam@gmail.com";
+     emailAlias "newydd"      "newydd.maria@gmail.com";
+     emailAlias "qanaq"       "mackampackam@gmail.com";
+     emailAlias "sekreterare" "mackampackam@gmail.com";
+     emailAlias "troi"        "daniel_troi@hotmail.com";
+
+*** DONE Fetched current klingonska.org & installed that
+    (= CGI's are not working)
+    CLOSED: [2009-04-04 Sat]
+*** DONE Converted all text from latin-1 to utf-8
+    CLOSED: [2009-04-04 Sat]
+*** DONE CGI scripts working
+    CLOSED: [2010-08-09 Mon 03:01]
+**** DONE List CGI scripts on page
+     CLOSED: [2010-08-09 Mon 03:00]
+**** TODO canon/download.cgi - ok
+***** TODO fix page footer
+**** TODO canon/search/index.cgi - not pretty, but passable
+***** TODO searched for "bird" -- several matches were lacking file/article names
+***** TODO merge apply_corrections() and strip_comments() (they are identical?)
+**** DONE dict/lexicon.cgi - ok
+     CLOSED: [2010-10-05 Tue 15:53]
+**** TODO piqad/play.cgi - ok
+***** TODO need new header/footer though
