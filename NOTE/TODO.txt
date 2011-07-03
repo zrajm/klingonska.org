@@ -310,6 +310,9 @@ Priorities:
        cookie. If user already has valid cookie, no login procedure is
        required.
 **** TODO Search engine improvements (canon/search/index.cgi)
+***** TODO [#2] Review/improve match listings
+      This should, preferably, be as similar as possible to the list of sources
+      in the main article. Try to imitate Google search results in appearance?
 ***** TODO Add Chrome integration (some sort of open protocol?)
       Most sites search functions (e.g. YouTube, Wikipedia etc.) are
       automatically detected by Chrome, so that you can auto-complete the site
@@ -321,11 +324,11 @@ Priorities:
       How is this done? Is it some kind of microformat that makes Chrome detect
       search engines?
 
-***** TODO query prefix "file:" to search only a specific file
+***** TODO Query prefix "file:" to search only a specific file
       This should allow globs and comma-separated file names, e.g.
       "file:*holqed*", "file:*email,*news" etc.
-***** TODO list of files should be available
-***** TODO source file display should allow choice between original/corrected version
+***** TODO List of files should be available
+***** TODO Source file display should allow choice between original/corrected version
       When displaying files, should implement button to change between
       "original", "corrected" and "difference" views of the same text.
 
@@ -336,6 +339,8 @@ Priorities:
       support to work as well (test this out using Firefox with JavaScript disabled).
 
       [http://test.zrajm.org/canon/search/?file=1997-09-01c-news.txt&query=hello]
+***** DONE [#1] Logo beside search form should link back to main article
+      CLOSED: [2011-07-03 Sun 20:09]
 *** TODO Improved transcript display script
     See also: NOTE/2010-09-01-original+corrected-display/index.html
 

@@ -43,9 +43,14 @@
 #
 # [2010-03-03]
 #     o search at top of page doesn't work when displaying a file
-#     o focus text input on page load (javascript?)
 #     o proper scoping of all variables fixed
 #
+# [2011-07-03]
+#     o Now uses HTML5 "autofocus" attribute instead of Javascript
+#     o Added $PUBDATE variable for page update time
+#     o Changed logo so that it links back to "Archive of Okrandian Canon"
+
+my $PUBDATE = "2011-07-03T20:05";
 
 # Implementera vettig standardheader för filformatet.
 #
@@ -237,6 +242,24 @@ my $path = ""; #"$ENV{DOCUMENT_ROOT}";               # path
 ##                                                                           ##
 ###############################################################################
 
+# Usage: $TEXTDATE = text_date($ISODATE);
+#
+# Converts datestring (beginning with a YEAR-MM-DD) into a descriptive plain
+# text date like "January 1, 2012". Only year, month and day is included, and
+# anything coming after the initial date in $ISODATE is ignored.
+sub text_date {
+    my ($date) = @_;
+    # Accepts only ISO dates beginning with "1999-12-31"
+    if ($date =~ m/^(\d{4})-0?(\d{1,2})-0?(\d{1,2})/) {
+        my ($year, $month, $day) = ($1, $2, $3);
+        my @month = qw(
+            January   February  March      April    May       June
+            July      August    September  October  November  December
+        );
+        return "$month[$month] $day, $year";
+    }
+    return "UNKNOWN DATE";
+}
 
 sub dump {
     use Data::Dumper;
@@ -359,7 +382,7 @@ sub page_header {
     my (%hash) = @_;
     my $changed = script_date();
     my $url     = script_url();
-    my ($javascript, $headline, $big_logo) = ("", "", "");
+    my ($headline, $big_logo) = ("", "");
     if (exists($hash{title}) and $hash{title}) {
 	$headline = <<EOF;
 <h1>$ENV{X_TITLE}</h1>
@@ -367,15 +390,9 @@ EOF
 	$big_logo = <<EOF;
 <p><a href=".."><img src="../../pic/ka.gif" width="600" height="176" alt="Klingonska Akademien" /></a></p>
 EOF
-	$javascript = <<EOF;
-<script type="text/javascript"><!--
-  function formfocus() {
-    document.getElementById('query').focus();
-  }
-  window.onload = formfocus;
---></script>
-EOF
     }
+    my $pubdate   = $PUBDATE;
+    my $text_date = text_date($pubdate);
     return <<EOF;
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -389,7 +406,7 @@ EOF
 <link rel="stylesheet" type="text/css" href="../../includes/dict-layouttable.css" />
 <link rel="stylesheet" type="text/css" href="../../includes/page.css" />
 <link rel="stylesheet" type="text/css" href="../../includes/pagestats.css" />
-$javascript</head>
+</head>
 <body>
 
 <div id="head">
@@ -401,7 +418,7 @@ $javascript</head>
     <a href="http://klingonska.org/canon/search/">Search</a>
   </span>
   <span id="pubdate">
-    Updated <time pubdate datetime="2010-03-03">March 3, 2010</time>
+    Updated <time pubdate datetime="$pubdate">$text_date</time>
   </span>
 </div>
 <!-- end:status -->
@@ -606,18 +623,17 @@ sub xx {
     my $file_arg = "\n".'<input type="hidden" name="file" value="' . html_encode($form{file}) . '" />'
             if $form{file};
     $message = "\n      ".'<tr><td align="center"><small>' . $message . "</small></td></tr>" if $message;
-    my $backlink = $form{query} ? "?query=$form{query}" : "..";
 return <<EOF;
 <p><form action="$cfg{SCRIPT_URL}" method="get">$file_arg
 <table class="layout">
   <tr>
-    <td rowspan="2" align="center"><a href="$backlink"><img src="../../pic/kabutton.gif" width="92" height="82" alt="Klingonska Akdemien" border="0" /></a></td>
+    <td rowspan="2" align="center"><a href=".."><img src="../../pic/kabutton.gif" width="92" height="82" alt="Klingonska Akdemien" border="0" /></a></td>
     <td><h2>$ENV{X_TITLE}</h2></td>
   </tr>
   <tr><td>
     <table class="layout">$message
       <tr class="middle">
-        <td><input type="text" id="query" name="query" value="${\&html_encode($form{query})}" size="35"
+        <td><input autofocus type="text" id="query" name="query" value="${\&html_encode($form{query})}" size="35"
           /><input type="submit" value="Search" /></td>
         <td><small>&nbsp;<a href="$cfg{SCRIPT_URL}?get=help">Search Help</a>$clean_link</small></td>
       </tr>
@@ -636,7 +652,7 @@ print <<"EOF";
 <table cellspacing="0" cellpadding="0" border="0">
   <tr valign="middle">
     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td><input type="text" id="query" name="query" value="" size="30" /></td>
+    <td><input autofocus type="text" id="query" name="query" value="" size="30" /></td>
     <td>&nbsp;</td>
     <td><input type="submit" value="Search" /></td>
     <td>&nbsp;</td>
@@ -650,17 +666,17 @@ EOF
 
 
 sub new_form {
-    print page_header(title => TRUE);                         # page header
+    print page_header(title => TRUE);          # page header
     empty_form();
-    print <<EOF;                                 # empty form
+    print <<EOF;                               # empty form
 <p class="center"><b>Modifiers:</b> &ldquo;=&rdquo; = case sensetive / &ldquo;-&rdquo; = negative search
 <br /><b>Wildcards:</b> &ldquo;*&rdquo; = alphanumeric / space = other (only in phrases)</p>
 EOF
-    print page_footer();                        # page footer
+    print page_footer();                       # page footer
 }
 
 sub help_page {
-    print page_header(title => TRUE);                         # page header
+    print page_header(title => TRUE);          # page header
     empty_form();
     print <<EOF;
 
