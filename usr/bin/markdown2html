@@ -742,56 +742,57 @@ sub dirname {
 sub page_toc {
     # FIXME: should combine title metadata field with first header in text
     my ($self, %meta) = @_;
-    my $toc = "";
     my $li_open = FALSE;
     (my $dir = $meta{filename}) =~ s#/*[^/]*$##;
 
-    local $/ = undef;
-    local $_;
     my $depth = 0;
     my $prev_depth = 0;
 
-    $toc .= "<div class=\"toc\">\n";
+    my $toc .= qq{<div class="toc">\n};
     for my $file (glob("$dir/*.txt")) {
 	next if abs_filename($file) eq abs_filename($meta{filename});
 
-	$_ = read_file($file);
-	$file =~ s#^$dir/##;
+        my $count   = 0;
+	my $text    = read_file($file);
+        my $outfile = $file;
+        for ($outfile) {
+            s#^$dir/(.*?)##;
+            s#\.[^.]+$#.html#;
+        }
 
-	while (m/\n([^\n]+)\n+([=-])\2+\n/g) {
+	while ($text =~ m/\n ([^\n]+)\n+ ([=-])\2+\n /gx) {
+	    # get full heading + underline type ("=" or "-")
+            my ($heading, $underline) = ($1, $2);
 
-	    # get full heading
-	    my $heading = $1;
-
-	    # get section number
-	    $heading =~ m/^([0-9.]*)\s/x;
-	    my $section = $1;
-	    $section =~ s/\.$//;
-	    $section =~ s/ \s * \[\[.*?\]\] //gx;
+	    # get section id (part after # in HTML-link)
+	    my $section = "";
+	    if ($heading =~ m/^([0-9.]*?)\.?\s/x) {     # heading with number
+                $section = $1;
+                # subsection depth based on section number
+                $depth = my @x = split(/\./, $section); #   subsection depth
+            } else {                                    # heading without number
+                $section = $heading;
+                $section =~ s/ \s * \[\[.*?\]\] $//x;
+                $depth = 1;
+            }
+            $depth ++ if $depth == 1 and $underline eq "-";
+            $section =~ s/\.$//;
 
 	    # put any [[...]] after heading's link
-	    my $post    = "";
-	    $heading =~ s/ ( \s * \[\[.*?\]\] ) //gx and
-		$post = $1;
+	    my $comment = ($heading =~ s#( \s* \[\[ .*? \]\] $ )##x ? $1 : "");
 
-	    # get section depth
-	    my @x = split(/\./, $section);
-	    $depth = scalar(@x);
-
-	    # output <ul>/</ul> when depth changes
+	    # output <ul> / </ul> when depth changes
 	    if ($depth > $prev_depth) {
 		$toc .= "\n" . ("    " x $prev_depth) . "<ul>\n";
 		$li_open = FALSE;
 	    } elsif ($depth < $prev_depth) {
-		for ($prev_depth--; $prev_depth >= $depth; $prev_depth --) {
-		    $toc .= "</li>\n";
-		    $toc .= ("    " x $prev_depth) . "</ul>";
+                for (reverse $depth .. $prev_depth-1) {
+		    $toc .= "</li>\n" . ("    " x $_) . "</ul>";
 		}
 	    }
 	    $prev_depth = $depth;
 
 	    # output entry
-	    (my $file2 = $file) =~ s#\.[^.]+$#.html#;
 	    if ($li_open) {
 		$toc .= "</li>\n";
 		$li_open = FALSE;
@@ -801,14 +802,14 @@ sub page_toc {
 		s/ ^ (?=\d) /_/x;      # precede leading digit with underscore
 		s/ [^\d\w]+ /_/xg;     # replace non-alphanumeric with underscore
 	    }
-	    $toc .= ("    " x $depth) . "<li><a href=\"$file2#$section\">$heading</a>$post";
+	    $toc .= ("    " x $depth) . qq{<li><a href="$outfile} . ($count ? "#$section" : "") . qq{">$heading</a>$comment};
+            $count ++;
 	    $li_open = TRUE;
 	}
     }
     # output trailing </ul>s
-    for ($depth--; $depth >= 0; $depth --) {
-	$toc .= "</li>\n";
-	$toc .= ("    " x $depth)."</ul>\n";
+    for (reverse 0 .. $depth-1) {
+        $toc .= "</li>\n" . ("    " x $_) . "</ul>\n";
     }
     $toc .= "</div>\n";
     return $toc;
