@@ -52,12 +52,12 @@ my $sources = qr/(?:tkd|tkw|kgt|hq|ck)/i;
     emdash => [ qr{ (---) }x, [], sub { '---' } ],
     doublequote => [
         qr{ \"(?!\s) ( .*? ) (?<![\s])\" }x,                  # "..."
-        [ qw( emdash endash english klingon strong emphasis code plain ) ],
+        [ qw( emdash endash english klingon bold emphasis code plain ) ],
     ],
-    strong => [
+    bold => [
         qr{  (?:
-            \_\_(?!\s) ( (?:[^\\\_]|\\.|\s\_)* ) (?<![\s])\_\_ |    # _..._
-            \*\*(?!\s) ( (?:[^\\\*]|\\.|\s\*)* ) (?<![\s])\*\*      # *...*
+            \_\_(?!\s) ( (?:[^\\\_]|\\.|\s\_)* ) (?<![\s])\_\_ |    # __...__
+            \*\*(?!\s) ( (?:[^\\\*]|\\.|\s\*)* ) (?<![\s])\*\*      # **...**
         ) }x,
         [ qw( doublequote emphasis plain ) ],
         sub { join("", grep { defined() } list(pop())) },
@@ -79,7 +79,7 @@ my $sources = qr/(?:tkd|tkw|kgt|hq|ck)/i;
             \#{1}(?!\#) \s* (.+?) \s* \#* (?:\n+|\z) |
             (.+) \n ={3,} (?:\n+|\z)
         ) }x,
-        [ qw( emdash endash english klingon strong emphasis code doublequote reference plain ) ],
+        [ qw( emdash endash english klingon bold emphasis code doublequote reference plain ) ],
         sub { join("", grep { defined() } list(pop())) },
     ],
     head2 => [
@@ -87,24 +87,24 @@ my $sources = qr/(?:tkd|tkw|kgt|hq|ck)/i;
             \#{2}(?!\#) \s* (.+?) \s* \#* (?:\n+|\z) |
             (.+) \n -{3,} (?:\n+|\z)
         ) }x,
-        [ qw( emdash endash english klingon strong emphasis code doublequote reference plain ) ],
+        [ qw( emdash endash english klingon bold emphasis code doublequote reference plain ) ],
         sub { join("", grep { defined() } list(pop())) },
     ],
     head3 => [                         # "###"
         qr{ \#{3}(?!\#) \s* (.+?) \s* \#* (?:\n+|\z) }x,
-        [ qw( emdash endash english klingon strong emphasis code doublequote reference plain ) ],
+        [ qw( emdash endash english klingon bold emphasis code doublequote reference plain ) ],
     ],
     head4 => [                         # "####"
         qr{ \#{4}(?!\#) \s* (.+?) \s* \#* (?:\n+|\z) }x,
-        [ qw( emdash endash english klingon strong emphasis code doublequote reference plain ) ],
+        [ qw( emdash endash english klingon bold emphasis code doublequote reference plain ) ],
     ],
     head5 => [                         # "#####"
         qr{ \#{5}(?!\#) \s* (.+?) \s* \#* (?:\n+|\z) }x,
-        [ qw( emdash endash english klingon strong emphasis code doublequote reference plain ) ],
+        [ qw( emdash endash english klingon bold emphasis code doublequote reference plain ) ],
     ],
     head6 => [                         # "######"
         qr{ \#{6}(?!\#) \s* (.+?) \s* \#* (?:\n+|\z) }x,
-        [ qw( emdash endash english klingon strong emphasis code doublequote reference plain ) ],
+        [ qw( emdash endash english klingon bold emphasis code doublequote reference plain ) ],
     ],
     blockquote => [                            # ">" (preceded by 1-3 spaces)
         qr{ ( \s{0,3} \> (?:.+\n)* .+ ) \n* }x,
@@ -118,7 +118,7 @@ my $sources = qr/(?:tkd|tkw|kgt|hq|ck)/i;
     ],
     bulletlist_item => [
         qr{ (.*) (?= \n \s{0,3} [o*+-] \s+ | \z ) \n* }x,
-        [ qw( emdash endash english klingon strong emphasis code doublequote reference plain ) ],
+        [ qw( emdash endash english klingon bold emphasis code doublequote reference plain ) ],
         sub { regex(first(pop()), qr{ ^ \s{0,3} \d+\. \s+ }mx) },
     ],
     numberlist => [                            # "1. " (preceded by 1-3 spaces)
@@ -127,7 +127,7 @@ my $sources = qr/(?:tkd|tkw|kgt|hq|ck)/i;
     ],
     numberlist_item => [
         qr{ (.*) (?= \n \s{0,3} \d+\. \s+ | \z ) \n* }x,
-        [ qw( emdash endash english klingon strong emphasis code doublequote reference plain ) ],
+        [ qw( emdash endash english klingon bold emphasis code doublequote reference plain ) ],
     ],
     hr => [                            # 3 or more -_*
         qr{ [\t ]* (?: [-_*][\t ]* ){2,} [-_*] \s* (?:\n+|\z) }x,
@@ -150,7 +150,7 @@ my $sources = qr/(?:tkd|tkw|kgt|hq|ck)/i;
     ],
     paragraph => [
         qr{ ( (?:.+\n)* .+ ) \n* }x,
-        [ qw( emdash endash english klingon strong emphasis code doublequote reference plain ) ],
+        [ qw( emdash endash english klingon bold emphasis code doublequote reference plain ) ],
         sub { regex(first(pop()), qr{ ^ \s{0,3} }mx) },
     ],
 
@@ -211,7 +211,7 @@ my $sources = qr/(?:tkd|tkw|kgt|hq|ck)/i;
     ],
     sg_paragraph => [
         qr{ ( (?:.+\n)* .+ ) \n* }x,
-        [ qw( emdash endash english klingon strong emphasis code doublequote reference plain ) ],
+        [ qw( emdash endash english klingon bold emphasis code doublequote reference plain ) ],
     ],
 },
 

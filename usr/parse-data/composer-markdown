@@ -27,7 +27,7 @@ my $WIDTH = 79;
     paragraph       => sub { wrap(shift(), $WIDTH) . "\n\n" },
     plain           => sub { shift() },
     root            => sub { my $_ = shift(); s{\n\z}{}; s{\A\n+}{}; $_ },
-    strong          => sub { "**" . shift() . "**" },
+    bold            => sub { "**" . shift() . "**" },
     verbatim        => sub { indent(shift(), "    ") . "\n\n" },
 
     # KA-specific

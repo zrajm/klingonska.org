@@ -82,18 +82,18 @@ our %field = (
 );
 
 our @tips = (
-    "Example: <strong>def:HQ10:4</strong> lists all words first occuring in <strong lang=\"tlh\">HolQed</strong> issue 10:4.",
-    "Prefixes: <strong>tlh:</strong> = Klingon, <strong>en:</strong> = English, <strong>sv:</strong> = Swedish",
-    "Prefixes: <strong>com:</strong> = comment, <strong>def:</strong> = defining source, " .
-        "<strong>ref:</strong> = source",
-    "Example: <strong>tlh:*'egh</strong> finds all Klingon words ending in <em>&rsquo;egh</em>",
-    "Example: <strong>data:klcp</strong> lists all Klingon Language Certification Program words.",
-    "Example: <strong>def:kgt</strong> lists all words first occuring in KGT.",
-    "Put <strong>tlh:</strong> before a word to search in Klingon definitions.",
-    "Put <strong>sv:</strong> before a word to search in Swedish definitions.",
-    "Put <strong>en:</strong> before a word to search in English definitions.",
-    "Use <strong>*</strong> to mean any sequence of letters.",
-    "Use <strong>\"...\"</strong> to search for a phrase.",
+    "Example: <b>def:HQ10:4</b> lists all words first occuring in <b lang=\"tlh\">HolQed</b> issue 10:4.",
+    "Prefixes: <b>tlh:</b> = Klingon, <b>en:</b> = English, <b>sv:</b> = Swedish",
+    "Prefixes: <b>com:</b> = comment, <b>def:</b> = defining source, " .
+        "<b>ref:</b> = source",
+    "Example: <b>tlh:*'egh</b> finds all Klingon words ending in <em>&rsquo;egh</em>",
+    "Example: <b>data:klcp</b> lists all Klingon Language Certification Program words.",
+    "Example: <b>def:kgt</b> lists all words first occuring in KGT.",
+    "Put <b>tlh:</b> before a word to search in Klingon definitions.",
+    "Put <b>sv:</b> before a word to search in Swedish definitions.",
+    "Put <b>en:</b> before a word to search in English definitions.",
+    "Use <b>*</b> to mean any sequence of letters.",
+    "Use <b>\"...\"</b> to search for a phrase.",
 );
 
 
@@ -177,7 +177,7 @@ sub split_query {
 sub html_no_match {
     my ($query) = @_;
 return <<"EOF";
-<p>Your search &ndash; <strong>$query</strong> &ndash; did not match any
+<p>Your search &ndash; <b>$query</b> &ndash; did not match any
 dictionary entries.</p>
 
 <p>Suggestions:</p>
@@ -208,39 +208,39 @@ page</a>.</p>
     <th colspan="2">Search Expressions</th>
   </tr>
   <tr>
-    <td class="center"><strong>"</strong>...<strong>"</strong>&nbsp;</td>
+    <td class="center"><b>"</b>...<b>"</b>&nbsp;</td>
     <td>search for a phrase (containing more than one word)</td>
   </tr>
   <tr>
-    <td class="center"><strong>*</strong>&nbsp;</td>
+    <td class="center"><b>*</b>&nbsp;</td>
     <td>matches any alphabetical character</td>
   </tr>
   <tr>
-    <td class="center"><strong>tlh:</strong>...&nbsp;</td>
+    <td class="center"><b>tlh:</b>...&nbsp;</td>
     <td>search Klingon definitions (case sensetive!)</td>
   </tr>
   <tr>
-    <td class="center"><strong>en:</strong>...&nbsp;</td>
+    <td class="center"><b>en:</b>...&nbsp;</td>
     <td>search English definitions</td>
   </tr>
   <tr>
-    <td class="center"><strong>sv:</strong>...&nbsp;</td>
+    <td class="center"><b>sv:</b>...&nbsp;</td>
     <td>search Swedish definitions</td>
   </tr>
   <tr>
-    <td class="center"><strong>def:</strong>...&nbsp;</td>
+    <td class="center"><b>def:</b>...&nbsp;</td>
     <td>search defining source references</td>
   </tr>
   <tr>
-    <td class="center"><strong>ref:</strong>...&nbsp;</td>
+    <td class="center"><b>ref:</b>...&nbsp;</td>
     <td>search non-defining source references</td>
   </tr>
 </table>
 
 <p>A search word that is not preceeded by a colon prefix will look through all
 data case-insensitively &ndash; even the Klingon data. Thus
-<strong>hej</strong> will find the Klingon word for &ldquo;rob&rdquo;, while
-<strong>tlh:hej</strong> does case-sensetive search and find nothing at
+<b>hej</b> will find the Klingon word for &ldquo;rob&rdquo;, while
+<b>tlh:hej</b> does case-sensetive search and find nothing at
 all.</p>
 
 EOF
@@ -288,7 +288,7 @@ return <<"EOF";
   <tr>
     <td><a href="./">About</a></td>
     <td><a href="intro.html">Introduction</a></td>
-    <td><strong>Lexicon</strong></td>
+    <td><b>Lexicon</b></td>
     <td><a href="suffix.html">Suffix Guide</a></td>
     <td><a href="tables.html">Reference Tables</a></td>
   </tr>
@@ -390,7 +390,7 @@ print html_head() . html_form($query);
             if $matches > 0;
         $matches ++;
         # presentation
-        s#([{}])# $1 eq "{" ? "<strong lang=\"tlh\">" : "</strong>" #ge;  # boldify
+        s#([{}])# $1 eq "{" ? "<b lang=\"tlh\">" : "</b>" #ge;  # boldify
         s#~(.*?)~#<em>$1</em>#g;      # apply italics
         s#(.*)¿\?(.*)#$1$2 (uncertain translation)#g;
         s/^\n//;

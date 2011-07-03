@@ -46,7 +46,7 @@ my $PAGE_HEAD = <<"EOF";
     <td><a href="./">About</a></td>
     <td><a href="intro.html">Introduction</a></td>
     <td><a href="lexicon.cgi">Lexicon</a></td>
-    <td><strong>Suffix Guide</strong></td>
+    <td><b>Suffix Guide</b></td>
     <td><a href="tables.html">Reference Tables</a></td>
   </tr>
 </table>
@@ -103,19 +103,19 @@ EOF
     paragraph       => sub { wrap("<p>" . shift() . "</p>", $WIDTH) . "\n\n" },
     plain           => sub { use HTML::Entities; encode_entities(shift(), "<>&") },
     root            => sub { $PAGE_HEAD . shift() . $PAGE_FOOT },
-    strong          => sub { "<strong>" . shift() . "</strong>" },
+    bold            => sub { "<b>" . shift() . "</b>" },
     verbatim        => sub { "<pre>" . shift() . "</pre>\n\n" },
 
     # KA-specific
     english         => sub { '<em class="translation">' . shift() . '</em>' 
                                  #"<em class=\"en\">" . shift() . "</em>"
                            },
-    klingon         => sub { #'<strong lang="tlh">' . shift() . '</strong>';
-                             '<strong lang="tlh">' . regex(
+    klingon         => sub { #'<b lang="tlh">' . shift() . '</b>';
+                             '<b lang="tlh">' . regex(
                                  klinhyphenate(shift(), "&shy;", "-"),
                                  qr/'/,
                                  "&rsquo;"
-                             ) . "</strong>"
+                             ) . "</b>"
                            },
     reference       => sub { '<small class="ref">[' . regex(shift(), qr/ /, " ") . ']</small>' },
     suffix_guide    => sub { nl('<table class="suffixguide" border="1">', shift(), '</table>') },

@@ -845,8 +845,8 @@ sub transcript2html {
 	# single quote/aphostrophe
 	s#(?<![[:alpha:]])'#&lsquo;#g; 	# FIXME this should never happen in Klingon text!
 	s#'#&rsquo;#g;
-	$_ = matched_pair_subst($_, "<", ">", "<em>", "</em>");
-	$_ = matched_pair_subst($_, "{", "}", "<strong class=\"tlh\">", "</strong>");
+	$_ = matched_pair_subst($_, "<", ">", "<i>", "</i>");
+	$_ = matched_pair_subst($_, "{", "}", '<b lang="tlh">', '</b>');
     }
     return $str;
 }

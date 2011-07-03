@@ -17,11 +17,6 @@ p.note {
     padding: .5em;
 }
 
-strong.underline {
-    text-decoration: underline;
-    font-weight: normal;
-}
-
 hr {
     background-color: black;
     border: none;

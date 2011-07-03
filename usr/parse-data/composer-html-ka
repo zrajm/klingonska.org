@@ -108,19 +108,19 @@ EOF
     paragraph       => sub { wrap("<p>" . shift() . "</p>", $WIDTH) . "\n\n" },
     plain           => sub { use HTML::Entities; encode_entities(shift(), "<>&") },
     root            => sub { $PAGE_HEAD . shift() . $PAGE_FOOT },
-    strong          => sub { "<strong>" . shift() . "</strong>" },
+    bold            => sub { "<b>" . shift() . "</b>" },
     verbatim        => sub { "<pre>" . shift() . "</pre>\n\n" },
 
     # KA-specific
     english         => sub { '<i>' . shift() . '</i>' 
                                  #"<em class=\"en\">" . shift() . "</em>"
                            },
-    klingon         => sub { '<b>' . shift() . '</b>';
-                                 # "<strong class=\"tlh\">" . regex(
+    klingon         => sub { '<b lang="tlh">' . shift() . '</b>';
+                                 # "<b lang=\"tlh\">" . regex(
                                  #     klinhyphenate(shift(), "&shy;"),
                                  #     qr/'/,
                                  #     "&rsquo;"
-                                 # ) . "</strong>"
+                                 # ) . "</b>"
                            },
     reference       => sub { '<font size=2>[' . regex(shift(), qr/ /, " ") . ']</font>'
                              #"<small class=\"ref\">[" . shift() . "]</small>"

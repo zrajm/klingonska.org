@@ -27,16 +27,16 @@ my $WIDTH = 79;
     paragraph       => sub { wrap("<p>" . shift() . "</p>", $WIDTH) . "\n\n" },
     plain           => sub { use HTML::Entities; encode_entities(shift(), "<>&") },
     root            => sub { "<body>\n\n" . shift() . "</body>\n" },
-    strong          => sub { "<strong>" . shift() . "</strong>" },
+    bold            => sub { "<b>" . shift() . "</b>" },
     verbatim        => sub { "<pre>" . shift() . "</pre>\n\n" },
 
     # KA-specific
     english         => sub { "<em class=\"en\">" . shift() . "</em>" },
-    klingon         => sub { "<strong class=\"tlh\">" . regex(
+    klingon         => sub { "<b lang=\"tlh\">" . regex(
         klinhyphenate(shift(), "&shy;"),
         qr/'/,
         "&rsquo;"
-    ) . "</strong>" },
+    ) . "</b>" },
     reference       => sub { "<small class=\"ref\">[" . shift() . "]</small>" },
     suffix_guide    => sub { "<div class=\"suffixguide\">\n\n" .
                                shift() . "</div>\n\n";

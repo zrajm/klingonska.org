@@ -445,8 +445,8 @@ sub help {
 		#s#"\b#&lsquo;#g;  # english only (not in Klingon!)
 		s#'#&rsquo;#g;
 		# {...} marks klingon
-		s#{#<strong class="tlh">#g;
-		s#}#</strong>#g;
+		s#{#<b lang="tlh">#g;
+		s#}#</b>#g;
 		# typographical en- and em-dashes
 		s#--#&ndash;#g;
 		s#---#&mdash;#g;
@@ -802,7 +802,9 @@ sub page_toc {
 		s/ ^ (?=\d) /_/x;      # precede leading digit with underscore
 		s/ [^\d\w]+ /_/xg;     # replace non-alphanumeric with underscore
 	    }
-	    $toc .= ("    " x $depth) . qq{<li><a href="$outfile} . ($count ? "#$section" : "") . qq{">$heading</a>$comment};
+	    $toc .= ("    " x $depth) . qq{<li><a href="$outfile} .
+                ($count ? "#$section" : "") .
+                qq{">$heading</a>$comment};
             $count ++;
 	    $li_open = TRUE;
 	}

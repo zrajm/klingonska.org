@@ -149,7 +149,9 @@ Priorities:
 *** TODO Optimize jpeg images
     Johan at work mentioned that JPEGs can be radically shrunk by optimizing
     the hash tables in them.
-*** TODO Replace <strong lang="tlh"> with <b lang="tlh">
+*** DONE Replace <strong lang="tlh"> with <b lang="tlh">
+    CLOSED: [2011-07-03 Sun 18:19]
+*** TODO Replace <em>...</em> for translation with <i class="transl">...</i>
 *** TODO Mark all Klingon with <b lang="tlh">...</b>
 **** TODO Disable word-wrap for naked Klingon affixes
      Use 'class="affix"', e.g. <b lang="tlh" class="affix">...</b>.
@@ -172,7 +174,8 @@ Priorities:
     generally be necessary, since it would (usually) be the same language as
     the surrounding text.
 *** TODO Title page
-**** Add some thing (javascript?) to indicate pages that have been recently
+**** [#5] Time limited displaying of new pages?
+     Add some thing (javascript?) to indicate pages that have been recently
      updated This should maybe be displayed as "New!" for a week, and "New"
      (with less exclamation marks) for a month, or somesuch.
 
@@ -491,6 +494,9 @@ Priorities:
     CLOSED: [2011-05-14 Sat 22:02]
 
 ** TODO "Klingon Pocket Dictionary"
+*** TODO Restructure pages
+**** "Lexicon" should be the default "tab".
+**** Rename "about" -> "description".
 *** TODO Add zip archive of files for last {paqHom} printed
 *** TODO Google Chrome should autodetect search engine for {paqHom}
 *** TODO Search of dictionary should first page to appear
@@ -502,7 +508,6 @@ Priorities:
 
 *** TODO Search engine improvements
 **** Add Chrome integration (some sort of open protocol?)
-*** TODO Commit changes to git repos
 *** DONE index.html
     CLOSED: [2010-08-26 Thu 19:49]
 **** DONE image captions should be same size as rest of text
@@ -1003,6 +1008,8 @@ Priorities:
     The sound transcription used in the cheat sheet (e.g. "sjis-LASJ") is
     stupid, ugly and US-centric. Since IPA is used in schools in Sweden, it
     should be used here as well. [http://klingonska.org/klo/ordlista-05.html]
+
+    http://klingonska.org/dict/tables.html - Already uses IPA.
 *** DONE [#1] Prev/next links on KLO are broken
     CLOSED: [2011-07-03 Sun 03:56]
     E.g. http://klingonska.cibo/klo/grammatik-05.html
@@ -1040,8 +1047,10 @@ Priorities:
 * Build/check tools
 ** TODO [#4] HTML quality tester
    Should check the following:
+*** Check that all HTML elements are closed properly
 *** Spellcheck Klingon inside <b lang="tlh">...</b>
-*** Check that no <title> nor <h#> ends in period
+*** Check that Klingon inside <b lang="tlh">...</b> is hyphenated (correctly)
+*** Check that no <title> nor <h#> text ends in a period
 *** Check that all <body> have "lang" specified
 *** Check that all HTML is downcased
 
