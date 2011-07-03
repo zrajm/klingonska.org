@@ -5,13 +5,11 @@ lang: sv
 prev: ordlista-05
 next: tillagg-02
 
-
 Alternativ guide till de klingonska affixen [[**1999-07-23]]
-===========================================
-
+============================================================
 
 1. Pronominella prefix [[**]]
-----------------------
+-----------------------------
 
 <table class="prefix">
   <caption>Klingonska verbprefix</caption>
@@ -139,82 +137,82 @@ i tabellen, eftersom jag ofta funnit dem förvirrande och lätta att ta miste p�
 
 
 2. Verbsuffix [[**]]
--------------
+--------------------
 
-| [1.][v1] | Sig själv/varandra                                          ||
-|----------|----------|---------------------------------------------------|
-|          | {-'egh}  | sig själv                                         |
-|          | {-chuq}  | varandra (kan endast användas med plural subjekt) |
-
-
-| [2.][v2] | Villighet/benägenhet                                                     ||
-|----------|----------|----------------------------------------------------------------|
-|          | {-nIS}   | behöver                                                        |
-|          | {-qang}  | villig                                                         |
-|          | {-rup}   | redo, beredd (används om varelser)                             |
-|          | {-beH}   | redo, iordningställd (används om apparater)                    |
-|          | {-vIp}   | rädd (kulturellt tabu att använda med subjekt i första person) |
+| 1. | [Sig själv/varandra][v1]                                    ||
+|----|----------|---------------------------------------------------|
+|    | {-'egh}  | sig själv                                         |
+|    | {-chuq}  | varandra (kan endast användas med plural subjekt) |
 
 
-| [3.][v3] | Förändring                                              ||
-|----------|----------|-----------------------------------------------|
-|          | {-choH}  | förändring i tillstånd, förändring i riktning |
-|          | {-qa'}   | fortsätta, göra igen                          |
+| 2. | [Villighet/benägenhet][v2]                                               ||
+|----|----------|----------------------------------------------------------------|
+|    | {-nIS}   | behöver                                                        |
+|    | {-qang}  | villig                                                         |
+|    | {-rup}   | redo, beredd (används om varelser)                             |
+|    | {-beH}   | redo, iordningställd (används om apparater)                    |
+|    | {-vIp}   | rädd (kulturellt tabu att använda med subjekt i första person) |
 
 
-| [4.][v4] | Orsak                                  ||
-|----------|----------|------------------------------|
-|          | {-moH}   | orsaka                       |
+| 3. | [Förändring][v3]                                        ||
+|----|----------|-----------------------------------------------|
+|    | {-choH}  | förändring i tillstånd, förändring i riktning |
+|    | {-qa'}   | fortsätta, göra igen                          |
 
 
-| [5.][v5] | Indefinit subjekt/förmåga              ||
-|----------|----------|------------------------------|
-|          | {-lu'}   | indefinit subjekt            |
-|          | {-laH}   | kan                          |
+| 4. | [Orsak][v4]                            ||
+|----|----------|------------------------------|
+|    | {-moH}   | orsaka                       |
 
 
-| [6.][v6] | Kvalifikation                          ||
-|----------|----------|------------------------------|
-|          | {-chu'}  | perfekt, tydligt             |
-|          | {-bej}   | definitivt, tveklöst         |
-|          | {-law'}  | antagligen, nog, verkar vara |
-|          | {-ba'}   | uppenbarligen [TKDa]         |
+| 5. | [Indefinit subjekt/förmåga][v5]        ||
+|----|----------|------------------------------|
+|    | {-lu'}   | indefinit subjekt            |
+|    | {-laH}   | kan                          |
 
 
-| [7.][v7] | Aspekt                                 ||
-|----------|----------|------------------------------|
-|          | {-pu'}   | perfektiv                    |
-|          | {-ta'}   | utfört, gjort                |
-|          | {-taH}   | pågående                     |
-|          | {-lI'}   | fortskridande, framskridande |
+| 6. | [Kvalifikation][v6]                    ||
+|----|----------|------------------------------|
+|    | {-chu'}  | perfekt, tydligt             |
+|    | {-bej}   | definitivt, tveklöst         |
+|    | {-law'}  | antagligen, nog, verkar vara |
+|    | {-ba'}   | uppenbarligen [TKDa]         |
 
 
-| [8.][v8] | Hedersbetygande                                                                         ||
-|----------|----------|-------------------------------------------------------------------------------|
-|          | {-neS}   | hedersbetygande (används endast vid tilltal av överordnad, aldrig nödvändigt) |
+| 7. | [Aspekt][v7]                           ||
+|----|----------|------------------------------|
+|    | {-pu'}   | perfektiv                    |
+|    | {-ta'}   | utfört, gjort                |
+|    | {-taH}   | pågående                     |
+|    | {-lI'}   | fortskridande, framskridande |
 
 
-| [9.][v9] | Syntaktiska markörer                                                          ||
-|----------|----------|---------------------------------------------------------------------|
-|          | {-DI'}   | när, så snart som                                                   |
-|          | {-chugh} | om, ifall                                                           |
-|          | {-pa'}   | innan, före                                                         |
-|          | {-vIS}   | medan                                                               |
-|          | {-bogh}  | som (markerar relativ bisats)                                       |
-|          | {-meH}   | i syfte att                                                         |
-|          | {-mo'}   | på grund av [TKDa]                                                  |
-|          | {-'a'}   | interrogativ                                                        |
-|          | {-jaj}   | må, månde (konjunktiv) [TKDa]                                       |
-|          | {-wI'}   | en som gör, sak som gör, en som är                                  |
-|          | {-ghach} | substantiviserare [TKDa] (föregås alltid av minst ett annat suffix) |
+| 8. | [Hedersbetygande][v8]                                                                   ||
+|----|----------|-------------------------------------------------------------------------------|
+|    | {-neS}   | hedersbetygande (används endast vid tilltal av överordnad, aldrig nödvändigt) |
 
 
-| [S.][vs] | Strövare                                                                          ||
-|----------|----------|-------------------------------------------------------------------------|
-|          | {-be'}   | inte (används ej i imperativ, då används {-Qo'} istället)               |
-|          | {-Qo'}   | gör inte!, tänker inte (kommer sist, om inte följd av ett suffix typ 9) |
-|          | {-Ha'}   | negera, göra ogjort (kommer alltid direkt efter verbet)                 |
-|          | {-qu'}   | emfatiskt, framhävande                                                  |
+| 9. | [Syntaktiska markörer][v9]                                                    ||
+|----|----------|---------------------------------------------------------------------|
+|    | {-DI'}   | när, så snart som                                                   |
+|    | {-chugh} | om, ifall                                                           |
+|    | {-pa'}   | innan, före                                                         |
+|    | {-vIS}   | medan                                                               |
+|    | {-bogh}  | som (markerar relativ bisats)                                       |
+|    | {-meH}   | i syfte att                                                         |
+|    | {-mo'}   | på grund av [TKDa]                                                  |
+|    | {-'a'}   | interrogativ                                                        |
+|    | {-jaj}   | må, månde (konjunktiv) [TKDa]                                       |
+|    | {-wI'}   | en som gör, sak som gör, en som är                                  |
+|    | {-ghach} | substantiviserare [TKDa] (föregås alltid av minst ett annat suffix) |
+
+
+| S. | [Strövare][vs]                                                                    ||
+|----|----------|-------------------------------------------------------------------------|
+|    | {-be'}   | inte (används ej i imperativ, då används {-Qo'} istället)               |
+|    | {-Qo'}   | gör inte!, tänker inte (kommer sist, om inte följd av ett suffix typ 9) |
+|    | {-Ha'}   | negera, göra ogjort (kommer alltid direkt efter verbet)                 |
+|    | {-qu'}   | emfatiskt, framhävande                                                  |
 
 [v1]: grammatik-04.html#_4_2_1
 [v2]: grammatik-04.html#_4_2_2
@@ -235,52 +233,52 @@ används som adjektiv. ({wanI' ramqu'} _en väldigt oviktig händelse_ [TKD s.50
 
 
 3. Substantivsuffix [[**]]
--------------------
+--------------------------
 
-| [1.][s1] | Augmentativ, diminutiv, affektion                    ||
-|----------|----------|--------------------------------------------|
-|          | {-'a'}   | augmentativ                                |
-|          | {-Hom}   | diminutiv                                  |
-|          | {-oy}    | affektion [TKDa]                           |
-
-
-| [2.][s2] | Numerus                                              ||
-|----------|----------|--------------------------------------------|
-|          | {-pu'}   | plural (för varelser förmögna till språk)  |
-|          | {-Du'}   | plural (för kroppsdelar)                   |
-|          | {-mey}   | plural (generell användning)               |
+| 1. | [Augmentativ/diminutiv, affektion][s1]               ||
+|----|----------|--------------------------------------------|
+|    | {-'a'}   | augmentativ                                |
+|    | {-Hom}   | diminutiv                                  |
+|    | {-oy}    | affektion [TKDa]                           |
 
 
-| [3.][s3] | Kvalifikation                                        ||
-|----------|----------|--------------------------------------------|
-|          | {-qoq}   | så kallad                                  |
-|          | {-Hey}   | synbar, skenbar                            |
-|          | {-na'}   | definitiv                                  |
+| 2. | [Numerus][s2]                                        ||
+|----|----------|--------------------------------------------|
+|    | {-pu'}   | plural (för varelser förmögna till språk)  |
+|    | {-Du'}   | plural (för kroppsdelar)                   |
+|    | {-mey}   | plural (generell användning)               |
 
 
-| [4.][s4] | Possesiv/demonstrativ                                ||
-|----------|----------|--------------------------------------------|
-|          | {-wIj}   | min, mitt                                  |
-|          | {-wI'}   | min, mitt (substantiv förmöget till språk) |
-|          | {-maj}   | vår, vårt                                  |
-|          | {-ma'}   | vår, vårt (substantiv förmöget till språk) |
-|          | {-lIj}   | din, ditt                                  |
-|          | {-lI'}   | din, ditt (substantiv förmöget till språk) |
-|          | {-raj}   | er, ert                                    |
-|          | {-ra'}   | er, ert (substantiv förmöget till språk)   |
-|          | {-Daj}   | hans, hennes, dess                         |
-|          | {-chaj}  | deras                                      |
-|          | {-vam}   | den här                                    |
-|          | {-vetlh} | den där                                    |
+| 3. | [Kvalifikation][s3]                                  ||
+|----|----------|--------------------------------------------|
+|    | {-qoq}   | så kallad                                  |
+|    | {-Hey}   | synbar, skenbar                            |
+|    | {-na'}   | definitiv                                  |
 
 
-| [5.][s5] | Syntaktiska markörer                                 ||
-|----------|----------|--------------------------------------------|
-|          | {-Daq}   | lokativ                                    |
-|          | {-vo'}   | från                                       |
-|          | {-mo'}   | på grund av, beroende på                   |
-|          | {-vaD}   | för, avsedd för                            |
-|          | {-'e'}   | tema, ämne                                 |
+| 4. | [Possesiv/demonstrativ][s4]                          ||
+|----|----------|--------------------------------------------|
+|    | {-wIj}   | min, mitt                                  |
+|    | {-wI'}   | min, mitt (substantiv förmöget till språk) |
+|    | {-maj}   | vår, vårt                                  |
+|    | {-ma'}   | vår, vårt (substantiv förmöget till språk) |
+|    | {-lIj}   | din, ditt                                  |
+|    | {-lI'}   | din, ditt (substantiv förmöget till språk) |
+|    | {-raj}   | er, ert                                    |
+|    | {-ra'}   | er, ert (substantiv förmöget till språk)   |
+|    | {-Daj}   | hans, hennes, dess                         |
+|    | {-chaj}  | deras                                      |
+|    | {-vam}   | den här                                    |
+|    | {-vetlh} | den där                                    |
+
+
+| 5. | [Syntaktiska markörer][s5]                           ||
+|----|----------|--------------------------------------------|
+|    | {-Daq}   | lokativ                                    |
+|    | {-vo'}   | från                                       |
+|    | {-mo'}   | på grund av, beroende på                   |
+|    | {-vaD}   | för, avsedd för                            |
+|    | {-'e'}   | tema, ämne                                 |
 
 [s1]: grammatik-03.html#_3_3_1
 [s2]: grammatik-03.html#_3_3_2
@@ -289,25 +287,25 @@ används som adjektiv. ({wanI' ramqu'} _en väldigt oviktig händelse_ [TKD s.50
 [s5]: grammatik-03.html#_3_3_5
 
 
-4. Särskilda numeriska suffix [[**]]
------------------------------
-
 [[
 
-| [1.][n1] | Sifferbildande element          ||
-|----------|-------------------|--------------|
-|          | {-maH}            | tio          |
-|          | {-vatlh}          | hundra       |
-|          | {-SaD} / {-SanID} | tusen        |
-|          | {-netlh}          | tiotusen     |
-|          | {-bIp}            | hundratusen  |
-|          | {-'uy'}           | miljon       |
+4. Särskilda numeriska suffix [[**]]
+------------------------------------
+
+| 1. | [Nummerbildande element][n1]    ||
+|----|-------------------|--------------|
+|    | {-maH}            | tio          |
+|    | {-vatlh}          | hundra       |
+|    | {-SaD} / {-SanID} | tusen        |
+|    | {-netlh}          | tiotusen     |
+|    | {-bIp}            | hundratusen  |
+|    | {-'uy'}           | miljon       |
 
 
-| [2.][n1] | Ordningstal/upprepningar                                                                ||
-|----------|----------|-------------------------------------------------------------------------------|
-|          | {-DIch}  | bildar ordningstal ("första", "andra" etc., ordet följer substantivet)        |
-|          | {-logh}  | bildar upprepningar ("en gång", "två gånger" etc., ordet fungerar som adverb) |
+| 2. | [Ordningstal/upprepningar][n1]                                                          ||
+|----|----------|-------------------------------------------------------------------------------|
+|    | {-DIch}  | bildar ordningstal ("första", "andra" etc., ordet följer substantivet)        |
+|    | {-logh}  | bildar upprepningar ("en gång", "två gånger" etc., ordet fungerar som adverb) |
 
 [n1]: grammatik-05.html#_5_2
 
@@ -315,7 +313,7 @@ Indelningen av de numeriska suffixen i typer görs inte i TKD. Denna indelning
 har sitt ursprung i ett datorprogram jag skrev som behövde kunna distingera de
 två sorterna numeriska suffix. Indelningen känns dock logisk och har därför
 inkluderats här. Jag vill dock på intet sätt hävda att detta skulle vara
-auktoriserat av varken MO eller KLI. /övers.anm.]]
-
+auktoriserat av varken Marc Okrand eller <i>The Klingon Language Institute</i>.
+/övers.anm.]]
 
 [[eof]]

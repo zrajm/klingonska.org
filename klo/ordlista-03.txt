@@ -5,13 +5,12 @@ lang: sv
 prev: ordlista-02
 next: ordlista-04
 
-
 Klingonska affix [[**1999-07-14]]
-================
+=================================
 
 
 1. Substantivsuffix [[**]]
--------------------
+--------------------------
 
 Nummer indikerar suffixtyp.
 
@@ -45,7 +44,7 @@ Nummer indikerar suffixtyp.
 
 
 2. Pronominella prefix [[**]]
-----------------------
+-----------------------------
 
 |--------|-------------------------------------------------------------|
 | {-}    | han/hon/det-ingen/honom/henne/det/dem<br />de-ingen/dem     |
@@ -80,7 +79,7 @@ Nummer indikerar suffixtyp.
 
 
 3. Verbsuffix [[**]]
--------------
+--------------------
 
 |----------|---|-----------------------------------------------|
 | {-ba'}   | 6 | uppenbarligen [TKDa]                          |
@@ -122,11 +121,10 @@ Nummer indikerar suffixtyp.
 
 
 4. Särskilda numeriska suffix [[**]]
-------------------------------
+------------------------------------
 
 |---------|---------------------------------------------------|
 | {-DIch} | bildar ordningstal (_första_, _andra_ etc.)       |
 | {-logh} | bildar _en gång_, _två gånger_, _tre gånger_ etc. |
-
 
 [[eof]]

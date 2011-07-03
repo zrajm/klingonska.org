@@ -5,9 +5,8 @@ lang: sv
 prev: grammatik-04
 next: grammatik-06
 
-
 5. Andra slags ord [[**]]
-==================
+=========================
 
 Den överlägset största delen av klingonskans ordförråd utgörs av
 substantiv och verb. Det finns ett fåtal andra vilka, förmodligen som
@@ -17,7 +16,7 @@ upp dessa {chuvmey}.
 
 
 5.1. Pronomen [[**]]
--------------
+--------------------
 
 Utöver de possesiva suffixen för substantiv (sektion
 3.3.4) och de pronominella prefixen för verb (sektion
@@ -75,7 +74,7 @@ sektion 6.3).
 
 
 5.2. Siffror [[**]]
-------------
+-------------------
 
 Klingonerna hade ursprungligen numeriskt system med talbasen tre. De räknade
 på följande sätt: 1, 2, 3; 3+1, 3+2, 3+3; 2×3+1, 2×3+2, 2×3+3; 3×3+1, 3×3+2,
@@ -94,9 +93,9 @@ De klingonska siffrorna är:
 > | 4 {loS}  | 9 {Hut}     |
 > | 5 {vagh} | 10 {wa'maH} |
 
-Större tal formas genom att lägga till särskilda sifferbildande element till
+Större tal formas genom att lägga till särskilda nummerbildande element till
 grundsiffrorna (1-9). Sålunda består {wa'maH} _tio_ av {wa'} _ett_ plus det
-sifferbildande elementet för _tio_, {-maH}. Man fortsätter räkna:
+nummerbildande elementet för _tio_, {-maH}. Man fortsätter räkna:
 
 > |------------------|
 > | 11 {wa'maH wa'}  |
@@ -130,7 +129,7 @@ den skillnaden att varje enskild faktor om tio bildar ett ord
 > | 604  | {javvatlh loS}                                                        |
 > | 31   | {wejmaH wa'}                                                          |
 
-Några av de sifferbildande elementen för större tal är:
+Några av de nummerbildande elementen för större tal är:
 
 > |-------------|----------|
 > | tiotusen    | {-netlh} |
@@ -216,6 +215,5 @@ FIXME -- Oöversatt delkapitel
 ---------------------
 
 FIXME -- Oöversatt delkapitel
-
 
 [[eof]]

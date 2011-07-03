@@ -5,9 +5,7 @@ lang: sv
 prev: grammatik-07
 next: ordlista-01
 
-
 Inledande kommentarer
 =====================
-
 
 [[eof]]

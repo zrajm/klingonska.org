@@ -5,11 +5,10 @@ lang: sv
 prev: grammatik-03
 next: grammatik-05
 
-
 4. Verb [[**2000-02-20]]
-=======
+========================
 
-[[Detta kapitel är ej korrekturläst.]]
+[[Detta kapitel är inte korrekturläst.]]
 
 Klingonska verb är vanligtvis enstaviga och kan följas av flera
 suffix. Liksom hos substantiven kan de klingonska verbens suffix
@@ -22,7 +21,7 @@ sålunda strukturen hos ett klingonskt verb:
 
 
 4.1. Pronominella prefix [[**2000-02-20]]
-------------------------
+-----------------------------------------
 
 Varje klingonskt verb inleds med ett prefix som indikerar vem som
 utför handlingen beskriven av verbet och, när detta är fallet, vem
@@ -31,7 +30,7 @@ alltså både subjektet och objektet i en mening.
 
 
 4.1.1. Grundläggande prefix [[**2000-02-20]]
----------------------------
+--------------------------------------------
 
 De grundläggande prefixen kan visas med en tabell. (För att göra
 tabellen så tydlig som möjligt förekommer vissa prefix på flera
@@ -92,7 +91,7 @@ exemplifieras nedan med verbet {legh} _se_.
 
 
 4.1.2. Imperativprefix [[**2000-02-20]]
-----------------------
+---------------------------------------
 
 En speciell uppsättning prefix används för imperativ, det vill säga
 kommandon. Kommandon kan bara ges till _du_ och _ni_.
@@ -126,7 +125,7 @@ tillsammans med {yI-} eller {pe-} (se avsnitt 4.2.1)
 
 
 4.1.3. Konventioner för notation [[**2000-02-20]]
---------------------------------
+-------------------------------------------------
 
 Prefix som anger subjekt och objekt kommer att översättas med
 _subjekt--objekt_; t.ex. {qa-} _jag--dig_, {DI-} _vi--dem_.
@@ -141,13 +140,13 @@ vid översättning av meningar som innehåller dessa prefix; t.ex.
 
 
 4.2. Verbsuffix [[**2000-02-20]]
----------------
+--------------------------------
 
 Det finns nio typer av verbsuffix.
 
 
 4.2.1. Typ 1: Sig själv/varandra [[**2000-02-20]]
---------------------------------
+-------------------------------------------------
 
 ### {-'egh} _sig själv_
 
@@ -182,7 +181,7 @@ också när detta suffix används.
 
 
 4.2.2. Typ 2: Villighet/benägenhet [[**2000-02-20]]
-----------------------------------
+---------------------------------------------------
 
 Suffix av denna typ uttrycker hur mycket val subjektet har när det
 gäller att utföra den handling som verbet beskriver eller hur benägen
@@ -242,7 +241,7 @@ kulturellt tabu.
 
 
 4.2.3. Typ 3: Förändring [[**2001-01-08]]
-------------------------
+-----------------------------------------
 
 Suffix av denna typ visar att den av verbet beskrivna handlingen
 involverar en förändring av något slag jämfört med de förhållanden som
@@ -272,7 +271,7 @@ avbrutits och sedan påbörjats igen.
 
 
 4.2.4. Typ 4: Orsak [[**2001-01-08]]
--------------------
+------------------------------------
 
 ### {-moH} _orsaka_
 
@@ -300,7 +299,7 @@ skepnad_, men det skulle vara en klumpig svensk mening.
 
 
 4.2.5. Typ 5: Indefinit subjekt/förmåga [[**2001-01-08]]
----------------------------------------
+--------------------------------------------------------
 
 De två suffix som tillhör typ 5 har inte mycket med varandra att göra
 förutom att de båda tillhör typ 5. Resultatet av detta är att inget
@@ -349,7 +348,7 @@ finns_.
 
 
 4.2.6. Typ 6: Kvalifikation [[**2001-01-08]]
----------------------------
+--------------------------------------------
 
 Liksom substantivsuffix av typ 3, visar dessa suffix hur säker den
 talande är på det som sägs.
@@ -389,7 +388,7 @@ lika stark övertygelse som {-bej} _definitivt, tveklöst_.
 
 
 4.2.7. Typ 7: Aspekt [[*2001-01-08]]
---------------------
+------------------------------------
 
 Klingonska uttrycker inte tempus (preteritum, presens, futurum).
 Detta framkommer av sammanhanget eller av andra ord i meningen (så

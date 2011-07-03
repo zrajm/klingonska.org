@@ -5,9 +5,8 @@ lang: sv
 prev: ordlista-04
 next: tillagg-01
 
-
 Appendix: En lista med utvalda användbara klingonska uttryck [[*1999-04-17]]
-============================================================
+============================================================================
 
 |--------------------------|-----|-----|------|-----|-----|------|-----|-----|-----|-----|-----|-----|------|-----|-----|-----|-----|-----|-----|-----|-------|-----|-----|-----|-----|-----|
 | Normal translitterering: | {a} | {b} | {ch} | {D} | {e} | {gh} | {H} | {I} | {j} | {l} | {m} | {n} | {ng} | {o} | {p} | {q} | {Q} | {r} | {S} | {t} | {tlh} | {u} | {v} | {w} | {y} | {'} |
@@ -111,6 +110,5 @@ brytning.
 | Bits den?                        | {chop'a'}                         | _tchåp-'A'_ |
 | Läser du mitt manuskript?        | {ghItlh vIghItlhta'bogh DalaD'a'} | _gitl vi-GITL-ta'-båg da-lad-'A'_ |
 | Var förvarar du chokladen?       | {nuqDaq yuch Dapol}               | _nuk-DAK yutch da-PÅL_ |
-
 
 [[eof]]

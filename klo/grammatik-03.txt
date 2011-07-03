@@ -5,28 +5,27 @@ lang: sv
 prev: grammatik-03
 next: grammatik-04
 
-
 3. Substantiv [[**]]
-=============
+====================
 
 Det finns olika slags substantiv i klingonska.
 
 
 3.1. Enkla substantiv [[**]]
----------------------
+----------------------------
 
 Enkla substantiv, liksom enkla substantiv på svenska, är enkla ord; till
 exempel, {DoS} _mål(-tavla)_ eller {QIH} _förintelse_.
 
 
 3.2. Komplexa substantiv [[**]]
-------------------------
+-------------------------------
 
 Komplexa substantiv, å andra sidan, består av mer än en del.
 
 
 3.2.1. Sammansatta substantiv [[**]]
------------------------------
+------------------------------------
 
 Sammansatta substantiv består av två eller tre substantiv i rad, i
 likhet med svenskans _daggmask_ (_dagg_ plus _mask_) eller _lösenord_
@@ -34,8 +33,8 @@ likhet med svenskans _daggmask_ (_dagg_ plus _mask_) eller _lösenord_
 består av {jol} _transportstråle_ plus {pa'} _rum_.
 
 
-3.2.2. Verb plus {-wI'}  [[**]]
------------------------
+3.2.2. Verb plus {-wI'} [[**]]
+------------------------------
 
 En annan grupp komplexa substantiv består av ett verb följt av ett
 suffix som betyder _någon som gör_ eller _sak som gör_. Det svenska
@@ -60,7 +59,7 @@ _cloaking device_ på svenska?) /övers.anm.]]
 
 
 3.2.3. Andra komplexa substantiv [[**]]
---------------------------------
+---------------------------------------
 
 Det finns åtskilliga substantiv i klingonskan som består av två eller,
 mer sällan, tre stavelser, men som inte är komplexa substantiv av typerna
@@ -89,7 +88,7 @@ _starship_ och _spaceship_. Kritik kring denna översätting mottages tacksamt a
 
 
 3.3. Substantivsuffix [[**]]
----------------------
+----------------------------
 
 All substantiv, både enkla och komplexa, kan följas av ett eller fler
 suffix. Om det är två eller fler suffix, måste suffixen följa en bestämd
@@ -115,7 +114,7 @@ De ingående suffixen för varje typ av suffix följer här.
 
 
 3.3.1. Typ 1: Augmentativ/diminutiv, affektion [[**]]
-----------------------------------------------
+-----------------------------------------------------
 
 ### {-'a'} _augmentativ_
 
@@ -159,7 +158,7 @@ de ger sig in på.
 
 
 3.3.2. Typ 2: Numerus [[*]]
----------------------
+---------------------------
 
 Precis som på svenska har ett klingonskt substantiv i singular inget
 speciellt suffix som indikerar att det är singular: {nuH} _vapen_ refererar
@@ -337,6 +336,5 @@ FIXME
 ------------------------------------------
 
 FIXME
-
 
 [[eof]]

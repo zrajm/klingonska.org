@@ -5,9 +5,8 @@ lang: sv
 prev: forord
 next: grammatik-01
 
-
 Inledning [[**1999-04-17]]
-=========
+==========================
 
 Klingonska är det Klingonska Imperiets officiella språk. Under lång tid har
 endast ett fåtal icke-klingoner haft möjlighet att lära sig språket tillräckligt

@@ -5,9 +5,8 @@ lang: sv
 prev: grammatik-06
 next: ordlista-00
 
-
 7. Klippt klingonska [[**1999-04-17]]
-====================
+=====================================
 
 Föregående grammatiska skiss beskriver "korrekt" klingonska, det vill säga
 klingonska som den lärs ut i klingonska skolor och till icke-klingoner. När
@@ -22,7 +21,7 @@ Några av den klippta klingonskans drag beskrivs här nedan.
 
 
 7.1. Kommandon [[**1999-04-17]]
---------------
+-------------------------------
 
 Vid ordergivning kan imperativprefixet (sektion
 4.1.2) utelämnas och lämna kvar ett bart verb.
@@ -71,7 +70,7 @@ därutöver låta verbets imperativprefix falla.
 
 
 7.2. Svar på kommandon, statusrapporter [[**1999-04-17]]
----------------------------------------
+--------------------------------------------------------
 
 Svar på kommandon och statusrapporter har också en benägenhet att bli
 klippta.
@@ -97,7 +96,7 @@ _Förstår du?_ på korrekt klingonska).
 
 
 7.3. Tvång, upphetsning [[**1999-04-17]]
------------------------
+----------------------------------------
 
 I farofyllda situationer eller då omedelbar handling krävs är en klingon
 benägen att kapa pronominella prefix. Denna klippta form är också vanlig då en
@@ -107,7 +106,7 @@ klingon är upphetsad av någon anledning.
 > | Korrekt klingonska: {qama'pu' vIjonta' vIneH} _Jag ville ta fångar._                      ||
 > | Klippt klingonska: {qama'pu' jonta' neH} _Ville ha fångar!_                               ||
 > | <> | ({qama'pu'} _fångar_, {vIjonta'} _jag tog dem till fånga_, {vIneH} _jag vill ha dem_) |
-	
+
 I sammanhanget torde det stå klart att den talande är den som gör
 önskandet (och fångandet), trots att det pronominella prefixet {vI-}
 _jag--dem_ saknas.

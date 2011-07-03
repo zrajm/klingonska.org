@@ -5,9 +5,8 @@ lang: sv
 prev: ordlista-00
 next: ordlista-02
 
-
 Klingonsk-svensk ordlista [[*2000-12-06]]
-=========================
+=========================================
 
 <!-- HTML conversion started: 2001-01-23, 22.39 -->
 <table>
@@ -12588,6 +12587,5 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 </tr>
 </table>
 <!-- HTML conversion ended: 2001-01-23, 22.41 -->
-
 
 [[eof]]

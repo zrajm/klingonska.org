@@ -5,9 +5,8 @@ lang: sv
 prev: grammatik-05
 next: grammatik-07
 
-
 6. Syntax [[**]]
-=========
+================
 
 Precis som på alla språk varierar klingonskans meningar ifrån de
 väldigt enkla och okomplicerade till de väldigt invecklade och
@@ -18,7 +17,7 @@ inte vältalig, konversation, under tiden denne lär sig mer om språket.
 
 
 6.1. Enkla meningar [[**]]
--------------------
+--------------------------
 
 Den grundläggande strukturen hos en klingonsk mening är:
 
@@ -79,13 +78,13 @@ Andra exempel på den här konstruktionen ges i sektion 3.3.5.
 
 
 6.2. Komplexa meningar [[**]]
-----------------------
+-----------------------------
 
 Här illustreras några vanliga varianter av de mer komplicerade meningarna.
 
 
 6.2.1. Sammansatta meningar [[*]]
----------------------------
+---------------------------------
 
 Två meningar kan fogas samman till en sammansatt mening. Bägge av dessa meningar
 måste var för sig utgöra fullständiga meningar. När de kombineras följer den ena
@@ -100,7 +99,7 @@ FIXME -- Oöversatt delkapitel
 
 
 6.2.3. Relativa bisatser [[**]]
-------------------------
+-------------------------------
 
 Relativa bisatser översätts till svenska med en fraser som börjar
 med _vilken_, _vilka_, _där_ och, i de flesta fall, _som_.
@@ -200,6 +199,5 @@ FIXME -- Oöversatt delkapitel
 ----------------------------
 
 FIXME -- Oöversatt delkapitel
-
 
 [[eof]]

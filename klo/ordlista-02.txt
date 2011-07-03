@@ -5,7 +5,6 @@ lang: sv
 prev: ordlista-01
 next: ordlista-03
 
-
 Svensk-klingonsk ordlista
 =========================
 

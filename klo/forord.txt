@@ -4,9 +4,8 @@ year: 1998-2009
 lang: sv
 next: grammatik-00
 
-
 Förord till den svenska översättningen [[**1999-04-17]]
-======================================
+=======================================================
 
 Den huvudsakliga poängen med en översättning av Marc Okrands _The
 Klingon Dictionary_ till svenska är att föra det klingonska språket
@@ -34,6 +33,5 @@ bearbetning, och be läsaren att vänligen informera oss om alla funna
 felaktigheter eller avvikelser ifrån originalet. Det är vår fromma förhoppning
 att ingen skall komma till skada över ett misstag som vi begått, och att denna
 bok skall komma så många intresserade till användning som möjligt.
-
 
 [[eof]]
