@@ -516,7 +516,7 @@ sub get_crumbs {
 
         my $title = ($_ =~ /^index.(txt|html)$/) ? "Home" : file_title($file);
         s#(?:^|(?<=/))index\.(?:html|txt)$##;
-        '<a href="' . ($base_url // "") . $_ . '">' . $title . '</a>';
+        '<a href="' . ($base_url || "") . $_ . '">' . $title . '</a>';
     } @crumb;
     return @x;
 }
