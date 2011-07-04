@@ -505,9 +505,10 @@ sub get_crumbs {
 
     my @crumb = ("index.html");  # Home
     for my $i (0..$#file) {
-        my $_ = join("/", @file[0..$i]);
-        /\.[a-z]+$/ or $_ .= "/index.html";
-        push(@crumb, $_) unless m#^index\.(html|txt)$#; #$_ eq $crumb[-1];
+        my $file = join("/", @file[0..$i]);
+        $file =~ /\.[a-z]+$/ or $file .= "/index.html";
+        push(@crumb, $file)
+            unless $file =~ m#^index\.(html|txt)$#; #$_ eq $crumb[-1];
     }
     my @x = map {
         # FIXME should error if page_title() return undef
@@ -530,7 +531,7 @@ sub get_crumbs {
 #
 sub file_title {
     my ($file) = @_;
-    my $_ = read_file($file);
+    local $_ = read_file($file);
     if (not defined($_)) {                # file didn't exist
         $file =~ m#([^/]+)(/|/index.html)?$#;
         return ucfirst($1);               # use part of path
