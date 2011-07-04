@@ -1092,6 +1092,9 @@ Priorities:
 * Build/check tools
 ** TODO [#4] HTML quality tester
    Should check the following:
+*** Check that all text have a "lang" property set
+    Rudimentary checks to see whether it's correctly set to "en", "sv" or "tlh"
+    as well?
 *** Check that all HTML elements are closed properly
 *** Spellcheck Klingon inside <b lang="tlh">...</b>
 *** Check that Klingon inside <b lang="tlh">...</b> is hyphenated (correctly)
