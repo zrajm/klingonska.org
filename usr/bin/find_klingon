@@ -1,0 +1,46 @@
+#!/usr/bin/perl -w
+use strict;
+use 5.10.0;
+use utf8;
+use open IO  => ':locale';
+
+my $hilite = "\e[41m";
+my $normal = "\e[m";
+
+# 'oy'-na'
+
+my $consonant = qr/[bDHjlmnpqQrStvwy']|ch|gh|ng|tlh|&rsquo;/;
+my $final     = qr/[bDHjlmnpqQrStvwy']|ch|gh|ng|tlh|&rsquo;|[wy](?:&rsquo;|\')|rgh/;
+my $vowel     = qr/[aeIouáéÍóú]/;
+my $postpunct = qr/[.:,;<>?!")]/;
+my $prepunct  = qr/[(]/;
+my $beg       = qr/(?:^|(?<=\s|$postpunct))/;
+my $end       = qr/(?:$|(?=\s|$postpunct))/;
+my $hyphen    = qr/&shy;|&\#173;|-/;
+
+
+sub found {
+    my ($file, $text, $line) = @_;
+    length($text) <= 3 and return $line;
+
+    return $line
+        if $text eq "meta" and $line =~ m/<meta/;
+
+
+    $line =~ s/\Q$text\E/$hilite$&$normal/g;
+
+    print "$file:$line";
+    return $line;
+}
+
+# find naked suffixes -taHvIS
+# naked prefixes pI-
+
+# >KLINGON<
+# (KLINGON) etc.
+# exclude klingon tagged with lang="tlh"
+
+while (<>) {
+    s/ $beg ($prepunct? $consonant$vowel($final)? (?:$hyphen|$postpunct?\s*) )+  $end/ found($ARGV, $&, $_); /gex;
+
+}

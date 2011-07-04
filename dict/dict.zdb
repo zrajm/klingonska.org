@@ -14563,7 +14563,7 @@ tlh:	{tIng}
 sv:	område sydvästerut, område i «sydväst» (s)
 en:	area southwestward, area towards the «southwest» (n)
 def:	[News 1999-11-21]
-com:	"approx 220 degrees on terran compass" [KLINW]
+com:	"approx 220 degrees on Terran compass" [KLINW]
 cat:	locative
 file:	1999-11-21-news.txt
 
@@ -17774,7 +17774,7 @@ tlh:	{'ev}
 sv:	område nordvästerut, område i «nordväst» (s)
 en:	area northwestward, area towards the «northwest» (n)
 def:	[News 1999-11-21]
-com:	"320 degrees on terran compass" [KLINW]
+com:	"320 degrees on Terran compass" [KLINW]
 cat:	locative
 file:	1999-11-21-news.txt
 
