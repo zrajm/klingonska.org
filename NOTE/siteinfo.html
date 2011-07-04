@@ -1,9 +1,60 @@
 
 <h1>About the <i>Klingonska Akademien</i> Website</h1>
 
-<p>This is a collection of info on the guiding principles of the design behind
+<p>This is a collection of info on the guiding principles of the design for
 this site.</p>
 
+<ul>
+  <li>Text in page titles and headings (<code>&lt;title&gt;</code>
+    and <code>&lt;h<var>N</var>&gt;</code>) should not end in period.</li>
+  <li>HTML should be:</li>
+  <ul>
+    <li>Lower case
+      (<code>&lt;html&gt;</code> <em>not</em> <code>&lt;HTML&gt;</code>).</li>
+    <li>Empty tags should end in <code>/&gt;</code>.</li>
+    <li>All tags should be properly terminated (no <code>&lt;p&gt;</code> tag
+      without a <code>&lt;/p&gt;</code> etc).</li>
+    <li>Attribute values should be quoted
+      (<code>height="500"</code> <em>not</em> <code>height=500</code>).</li>
+    <li>Attributes are allowed to have no value
+      (<code>pubdate</code> <em>not</em> the
+      redundant <code>pubdate="pubdate"</code>).</li>
+    <li>Translations from Klingon should be marked with <code>&lt;i
+        class="transl"&gt;<var>...</var>&lt;/i&gt;</code>.</li>
+    <li>The <code>&lt;html&gt;</code> tag should have <code>lang</code>
+      attribute specified (e.g. <code>&lt;html lang="en"&gt;</code>).</li>
+
+    <li>Klingon should be marked with
+      <ul>
+        <li>Language <code>tlh</code> is used for Klingon text. When Klingon is
+          mixed with other text this usually means using that the language goes
+          on a <code>&lt;b&gt;</code> tag
+          (e.g. <code>&lt;b <b>lang="tlh"</b>&gt;tlhIngan
+          Hol&lt;/b&gt;</code>). Longer texts (like e.g.
+          <a href="qq/"><b lang="tlh">Qo'noS QonoS</b></a>) are less commonly
+          set in bold, and the language attribute is more likely to go on
+          a <code>&lt;p&gt;</code> or <code>&lt;div&gt;</code> wrapping all the
+          paragraphs of text. If the whole page is set in
+          Klingon <code>&lt;html lang="tlh"&gt;</code> might be used for that
+          page.</li>
+        <li>Class <code>affix</code> is used for content of one or more
+          prefixes or suffixes without any root word. It disables word-wrapping
+          for this text &ndash; this is to prevent a lone hyphen to wind up
+          last on a line, and the suffix following first on the next line
+          &ndash; something which occasionally happens, at least with <i>Google
+          Chrome</i> v8.0 (seen July 2011). E.g. <code>&lt;b lang="tlh"
+          <b>class="affix</b>"&gt;<nobr>-moH</nobr>&lt;/b&gt;</code>.</li>
+        <li>Class <code>sic</code> is used for content supposedly in Klingon,
+          but which does not adhere to correct Klingon spelling (this includes,
+          for example, quoted typos in the <a href="errors.html">Errors in
+          Okrandian Sources</a> article). It is used to note known errors, and
+          may as such be used for also for errors which still renders the word
+          with graphotactically correct spelling. E.g. <code>&lt;b lang="tlh"
+          <b>class="sic</b>"&gt;gan&lt;/b&gt;</code>.</li>
+      </ul>
+    </li>
+  </ul>
+</ul>
 
 <h2>Page Titles</h2>
 
@@ -14,10 +65,12 @@ this site.</p>
 </code></blockquote>
 
 <p>The &ldquo;<code>&amp;ndash; PROJECT TITLE</code>&rdquo; part is optional
-and only appear on certain subpages, e.g. that of the <i>Klingon Pocket
-Dictionary</i> or <i>Klingonsk Ordbok</i>. The first part of the title
-(everything up to the first <code>&amp;ndash;</code>) is extracted and used in
-the page breadcrumb navigation.</p>
+and only appear on certain subpages (e.g. <a href="dict/">Klingon Pocket
+Dictionary</a> or <a href="klo/">Klingonsk Ordbok</a>). The first part of the
+title (everything up to the first <code>&amp;ndash;</code>) is extracted and
+used in the page breadcrumb navigation. If there is a <code>PROJECT
+TITLE</code> defined, then that is used as the page title in
+the <code>index.html</code> file.</p>
 
 <p>Page titles are used by Google to determine title in the search result
 presentation. See
@@ -76,7 +129,7 @@ or <code>&amp;#8220;</code>) </b> &ndash; </p>
 or <code>&amp;#8221;</code>) </b> &ndash; </p>
 
 
-<h2>HTML Microdata</h2>
+<h2>HTML5 Microdata</h2>
 
 <p><i>Klingonska Akademien</i> strives to provide as much Microdata (Semantic
 Web info) as possible.</p>
@@ -88,10 +141,12 @@ publication dates listed in the <a href="../canon/">Archive of Okrandian
 Canon</a>).
 Uses <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-time-element"><abbr title="Web
 Hypertext Application Technology Working Group">WHATWG</abbr>&rsquo;s
-HTML5 <tt>time</tt> element</a>.</p>
+HTML5 <code>&lt;time&gt;</code> element</a>.</p>
 
-<blockquote><code>&lt;time pubdate datetime="2009-10-18T20:17"&gt;2009-10&#8209;18,
-20:17&lt;/time&gt;</code></blockquote>
+<blockquote><code>
+    &lt;time pubdate datetime="2008-09-21T16:34"&gt;September 21, 2008&lt;/time&gt;
+</code></blockquote>
+
 
 <h3>Person Names / Contact Information</h3>
 
@@ -99,5 +154,16 @@ HTML5 <tt>time</tt> element</a>.</p>
 <h3>Books</h3>
 
 <p>ISBNs, titles etc. should be included.</p>
+
+<h2>To think about</h2>
+<ul>
+  <li>How should images with <code>alt</code> or <code>title</code> in Klingon
+    be handled? Add <code>lang="tlh"</code> as well?</li>
+  <li>How should <code>&lt;title&gt;</code>s be handled? <i>Google Chrome</i>
+    v8.0 (July 2011) does not seem to handle Unicode well
+    in <code>&lt;title&gt;</code>s. Neither does it look like additional HTML
+    tags are allowed. How should languages be marked up in mixed language
+    titles (such as in "<b lang="tlh">pIqaD</b>, And How to Read It").</li>
+</ul>
 
 <!-- [eof] -->
