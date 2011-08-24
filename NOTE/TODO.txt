@@ -3,7 +3,8 @@
 #+PRIORITIES: 1 5 4
 
 Priorities:
-1) IMPORTANT -- page visibly broken in bad way (bad link or somesuch)
+1) IMPORTANT -- page visibly broken in bad way (bad link or somesuch) or
+   new, very important information (like a new word in dictionary)
 2) ugly -- page has minor flaw which looks unprofessional (but works)
 3) EASY -- change or addition, material exists but is not shown/wasted
 4) WANTED -- could be better, but is okay
@@ -723,6 +724,8 @@ Priorities:
 *** DOING dict.zdb
 **** TODO Make sure all words have "file:" field
 **** TODO Add words
+***** TODO [#1] New words from {qep'a'} 2011
+      Add the words from canon/2011-08-22-email.txt
 ***** DOING Check that all mughom.wizage.net "New Words" are present [42%]
       http://mughom.wizage.net
       This is a list of the last 100 words added to the database.
