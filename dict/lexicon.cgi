@@ -69,6 +69,7 @@ our %postprocess = (
 );
 our %field = (
     tlh  => "Klingon",
+    pos  => "Part-of-Speech",
     sv   => "Swedish",
     en   => "English",
     def  => "Source",
@@ -82,16 +83,17 @@ our %field = (
 );
 
 our @tips = (
-    "Example: <b>def:HQ10:4</b> lists all words first occuring in <b lang=\"tlh\">HolQed</b> issue 10:4.",
-    "Prefixes: <b>tlh:</b> = Klingon, <b>en:</b> = English, <b>sv:</b> = Swedish",
+    "Example: <b>def:HQ10:4</b> lists all words first occuring in <b lang=\"tlh\">HolQeD</b> issue 10:4.",
+    "Prefixes: <b>tlh:</b> = Klingon, <b>en:</b> = English, <b>sv:</b> = Swedish, <b>pos:</b> = part-of-speech",
     "Prefixes: <b>com:</b> = comment, <b>def:</b> = defining source, " .
         "<b>ref:</b> = source",
     "Example: <b>tlh:*'egh</b> finds all Klingon words ending in <em>&rsquo;egh</em>",
-    "Example: <b>data:klcp</b> lists all Klingon Language Certification Program words.",
-    "Example: <b>def:kgt</b> lists all words first occuring in KGT.",
+    "Example: <b>data:klcp</b> finds only <i>Klingon Language Certification Program</i> words.",
+    "Example: <b>def:kgt</b> lists all words first defined in KGT.",
     "Put <b>tlh:</b> before a word to search in Klingon definitions.",
     "Put <b>sv:</b> before a word to search in Swedish definitions.",
     "Put <b>en:</b> before a word to search in English definitions.",
+    "Use <b>pos:n</b> to find only <i>nouns,</i> <b>pos:v</b> for only <i>verbs,</i> etc.",
     "Use <b>*</b> to mean any sequence of letters.",
     "Use <b>\"...\"</b> to search for a phrase.",
 );
@@ -226,6 +228,10 @@ page</a>.</p>
   <tr>
     <td class="center"><b>sv:</b>...&nbsp;</td>
     <td>search Swedish definitions</td>
+  </tr>
+  <tr>
+    <td class="center"><b>pos:</b>...&nbsp;</td>
+    <td>search part-of-speech field</td>
   </tr>
   <tr>
     <td class="center"><b>def:</b>...&nbsp;</td>

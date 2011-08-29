@@ -994,10 +994,17 @@ Priorities:
       e.g. "Kayvak", "digna", "ka'raj", "bregit", "Saurian", "raktaj"
 **** TODO Re-sort dictionary
 **** TODO Systematic corrections / new markup
-***** Move part-of-speech info into own field
+***** TODO Move part-of-speech info into own field
       (removing trailing POS-definitions from the end of the english and
       swedish translation fields. (How should entries marked "(slang)" etc. be
       handled?)
+****** DONE Add 'pos:' field for all words
+       This makes the 'pos' searchable in its own right in the web
+       dictionary! :)
+       CLOSED: [2011-08-29 Mon 19:01]
+****** TODO Remove part-of-speech markers in 'en:' and 'sv:' fields
+       How will pocket dictionary extractor will have to be modified
+****** TODO Should 'pos:' field have 'noun' instead as value of 'n' (etc.)?
 ***** Remove brackets from "def" and "ref" fields.
       (Are there any problems in doing this?)
 ***** Abbreviate "MO at {qep'a'}" sources
