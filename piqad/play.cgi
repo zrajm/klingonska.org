@@ -27,7 +27,12 @@ binmode(STDOUT, ":encoding(utf8)");
 sub klinprint {
     my @text = @_;
     foreach (@text) {
-        s/($find_chars)/$alphabet{$1}/ge;          # translate alphabet
+        # match the character following the current character (used in order
+        # to split {ngh} into {n} and {gh}, rather than {ng} and *{h})
+        s{
+            ($find_chars)
+            (?=$find_chars|[^a-z]|$)
+        }{$alphabet{$1}}gex;          # translate alphabet
     }
     return @text;
 }
