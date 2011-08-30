@@ -4,16 +4,14 @@ Sorted in Klingon alphabetical order (except for some new words at the end).
 ----------------------
 
 KLINGON IDEALS OF BEHAVIOR
-
+--------------------------
     accuracy             {yIqarchu'!} -- Be accurate!
     straightforwardness  {yI'utchu'!} -- Be essential!
     aggressiveness       {yIvaQchu'!} -- Be aggressive!
     strength             {yIHoSchu'!} -- Be strong!
 
-
-SUGGESTED NEW FIELDS:
-
-    pos:	part-of-speech
+SUGGESTED NEW FIELDS
+--------------------
     use:	slang|regional|bad
 
 		"bad" denotes a non-canon word, occuring in a canon source (or
@@ -31,8 +29,23 @@ SUGGESTED NEW FIELDS:
 		HolQeD---whichever it was.
 
 FIELD NAMES USED IN DICTIONARY BELOW
-
-    tlh:   (required) Klingon word (all klingon text within {})
+------------------------------------
+    tlh:   (required) Klingon word (all Klingon text within {})
+    pos:   (required) part-of-speech
+                      Abbr  Meaning
+                      v     verb
+                      n     noun
+                      name  name
+                      adv   adverb(ial)
+                      conj  conjuction
+                      excl  exclamation
+                      num   number/number-forming element
+                      pro   pronoun
+                      ques  question word
+                      vp    verb prefix
+                      vsr   verb suffix rover
+                      vs#   verb suffix type # (# is 1--9)
+                      ns#   noun suffix type # (# is 1--5)
     sv:    (required) Swedish translation and part-of-speech
                       missing translation marked with «»
     en:    (required) English definition (from canon sources) and
@@ -79,7 +92,8 @@ FIELD NAMES USED IN DICTIONARY BELOW
 		      form" status so as to not confuse it with an actual word.
     file:  (optional) contains file name(s) of the source transcript in
                       "Archive of Okrandian Canon". Multiple filenames are
-                      separated with ";" (semicolon + space/linebreak)
+                      separated with ";" (semicolon + whitespace [= space or
+                      linebreak])
 
 === start-of-word-list ===
 
@@ -4731,6 +4745,10 @@ pos:	excl
 sv:	«ja» (svar på ja/nej fråga) (interj)
 en:	<yes>, «true» (answer to yes/no question) (excl)
 def:	[TKD 5.5 (p.57) et al.]
+com:	In ST3: Only Cathie Shirriff (Valkris) was filmed without benefit of
+	on-set coaching. It's her peculiar take on pronunciation which gives us
+	the variant words {jaw} for "lord" and {HISlaH} for "yes".
+	/{ghunchu'wI'} in email to tlhingan-hol mailing list, 2011-08-29
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -5658,6 +5676,10 @@ pos:	n
 sv:	«herre» (s)
 en:	<lord> (n)
 def:	[TKD]
+com:	In ST3: Only Cathie Shirriff (Valkris) was filmed without benefit of
+	on-set coaching. It's her peculiar take on pronunciation which gives us
+	the variant words {jaw} for "lord" and {HISlaH} for "yes".
+	/{ghunchu'wI'} in email to tlhingan-hol mailing list, 2011-08-29
 file:	1992-01-01-tkd.txt
 
 tlh:	{jay}
@@ -9573,6 +9595,13 @@ def:	[TKDa; KGT pp.46, 47 et al.]
 ref:	[TKW pp.179, 211]
 see:	{veS}
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
+
+tlh:	{noHva'Dut}
+pos:	n
+sv:	«No'hvadut» (a geographic region) (s)
+en:	«No'hvadut» (ett geografisk region) (n)
+def:	[KGT p.26]
+file:	1997-11-01-kgt.txt
 
 tlh:	{noj}
 pos:	v
@@ -15094,6 +15123,14 @@ pos:	n
 sv:	«Sakrej-regionen» (s)
 en:	«Sakrej region» (n)
 def:	[KGT pp.17, 24]
+com:	Sakrej Region {Sa'Qej Sep} is the source of many odd pronunciations and
+        grammar, some of which have been more widely adopted as slang (cf. KGT
+        pp. 24-26 for details). As someone on the list once pointed out,
+        {Sa'Qej} is *{jeQ'aS} - "jackass" - backwards, which may well have been
+        a frustrated Okrand's comment on some actor or Paramount's writing
+        staff!
+
+
 data:	phrase; {Sa'Qej} (n)
 file:	1997-11-01-kgt.txt
 
@@ -22403,24 +22440,6 @@ KLINGON WORDS NEVER OCCURING BY THEM SELVES
 	{voSpegh}   Vospeg (region)
 	{yaHnIv}    Operations (command)
 
-
-PARTS-OF-SPEECH
-
-    English  Swedish  Meaning
-    v        v        verb
-    n        s        noun
-    name     namn     name
-    adv      adv      adverb(ial)
-    conj     konj     conjuction
-    excl     interj   exclamation
-    num      räkn     number/number-forming element
-    pro      pro      pronoun
-    ques     fråg     question word
-    vp       vp       verb prefix
-    vsr      vss      verb suffix rover
-    vs#      vs#      verb suffix type # (# is 1--9)
-    ns#      ss#      noun suffix type # (# is 1--5)
-
 {qep'a'mey} as Sources
 ======================
 
@@ -22489,7 +22508,6 @@ word[10]. Earthlings was filmed[1].
 * Pun: {qa'rI'} Okrand confirmed that this is named after Kari, the mother of
   his twin nieces Megan ({megh'an}) and Erin ({'er'In}).
 
-
 2004 -- {qep'a' wa'maH wa'DIch}
 -------------------------------
 MO not attended, held in Phoenix, Arizona. Small attendance.
@@ -22534,8 +22552,6 @@ MO attended, I was there.
 
 2010 -- {qep'a' wa'maH SochDIch}
 --------------------------------
-
-
 [1]: http://www.kli.org/wiki/index.php?qep%27a%27
      "qep'a'"
 
@@ -22604,7 +22620,15 @@ SOURCES REFERENCES AND ABBREVIATIONS
            no source references, but has nontheless been important in hunting
            down some of the more elusive newer words for inclusion.
 
-HISTORY (LATEST CHANGES FIRST)
+HISTORY (LAST CHANGES FIRST)
+============================
+
+    [2011-08-30] Added missing word "No'hvadut" (from KGT p.26)
+
+    [2011-08-29] Added 'pos' (part-of-speech) field (part-of-speech information
+    still remains in the 'en' and 'sv' fields -- but the plan is to remove it
+    from there, however the pocket dictionary extraction program needs to be
+    modified accordingly).
 
     [2010-10-28] Changed source abbreviations to easier distinguish betwen the
     two lists of new Klingon words: KLI -> KLINW (for KLI's list), NKW -> TDNW

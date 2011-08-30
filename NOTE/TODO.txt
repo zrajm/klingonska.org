@@ -725,9 +725,13 @@ Priorities:
 *** TODO KA logo on front
 *** DOING dict.zdb
 **** TODO Make sure all words have "file:" field
+     ..and make it a 'required' field (i.e. change the description at the top
+     of the dictionary file).
 **** TODO Add words
 ***** TODO [#1] New words from {qep'a'} 2011
       Add the words from canon/2011-08-22-email.txt
+***** TODO Is there a word for "Morska"?
+      (as in "the Morskan dialect")
 ***** DOING Check that all mughom.wizage.net "New Words" are present [42%]
       http://mughom.wizage.net
       This is a list of the last 100 words added to the database.
@@ -1013,6 +1017,7 @@ Priorities:
       "[MO at {qep'a' wa'maH cha'DIch}]" is not very pretty. Abbreviate? Or
       refer to written sources (both would be nice).
 ***** Add notes on puns from list
+****** See email: "Reversals for puns" https://mail.google.com/mail/?shva=1#search/reversals+for+puns/dd76f056a011a30
 ****** http://www.kli.org/wiki/index.php?Puns%20in%20the%20Vocabulary%20of%20tlhIngan%20Hol
 ***** Add "ref: [KLI]" to all words after {chaDvay'} in KLI new word list
 ***** Check words ending {-moH}, mark with "data: derived form"
