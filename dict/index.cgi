@@ -12,17 +12,20 @@
 # [2009-04-07] V1.2 - Changed for move to hcoop. All input & output now it
 # utf-8. header & footer now internal again.
 #
-# [2009-05-09] V1.3 - added "use warning" and "use strict" & fixed code that it
+# [2009-05-09] V1.3 - Added "use warning" and "use strict" & fixed code that it
 # works, fixed '">' input vulnerability, now uses CGI module to generate output
 # form (instead of only using it to read the form input)
 #
-# [2010-08-21] v1.4 - major rewrite; implemented search prefixes a la Google to
+# [2010-08-21] v1.4 - Major rewrite; implemented search prefixes a la Google to
 # search different fields, and removed old radio button (radio button affected
 # all of search, prefixes can be defined individually for each word or phrase
 # in the query); implemented "..." to search for entire phrases, and glob "*"
 # which matches any part of a word, also made handling of spaces somewhat
 # smarter (though, for good or bad, a space in a phrase will not match over
 # punctuation marks); added randomized search tips to help user
+#
+# [2011-08-29] v1.5 - Added 'pos' field to database, and modified this script
+# to present is as "part-of-speech" in search results
 
 
 ###############################################################################
@@ -258,7 +261,7 @@ return <<"EOF";
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<title>Lexicon &ndash; Klingon Pocket Dictionary &ndash; Klingonska Akademien</title>
+<title>Klingon Pocket Dictionary &ndash; Klingonska Akademien</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="geo.region" content="SE-C" />
 <meta name="geo.placename" content="Europe, Sweden, Uppsala, Kåbo" />
@@ -281,18 +284,17 @@ return <<"EOF";
 <div id="pagestats">
   <span id="crumbs">
     <a href="http://klingonska.org/">Home</a> &gt;
-    <a href="http://klingonska.org/dict/">Klingon Pocket Dictionary</a> &gt;
-    <a href="http://klingonska.org/dict/lexicon.cgi">Lexicon</a>
+    <a href="http://klingonska.org/dict/">Klingon Pocket Dictionary</a>
   </span>
   <span id="pubdate">
-    Updated <time pubdate datetime="2009-10-18T20:17">October 18, 2009</time>
+    Updated <time pubdate datetime="2011-08-30T13:28">August 30, 2011</time>
   </span>
 </div>
 <!-- end:status -->
 
 <table class="navigation">
   <tr>
-    <td><a href="./">About</a></td>
+    <td><a href="about.html">About</a></td>
     <td><a href="intro.html">Introduction</a></td>
     <td><b>Lexicon</b></td>
     <td><a href="suffix.html">Suffix Guide</a></td>
@@ -300,7 +302,7 @@ return <<"EOF";
   </tr>
 </table>
 
-<a href=".."><img src="pic/title.gif" width="400" height="166" alt="tlhIngan Hol mu&rsquo;ghom mach" /></a>
+<a href="../"><img src="pic/title.gif" width="400" height="166" alt="tlhIngan Hol mu&rsquo;ghom mach" /></a>
 
 <h1>Klingon Pocket Dictionary: Lexicon</h1>
 
@@ -321,9 +323,9 @@ sub html_form {
 <table class="layout">
   <tr class="center">
     <td>
-      <form method="get" action="lexicon.cgi">
+      <form method="get" action="">
         <input type="text" name="q" value="$query" size="30"
-          autofocus="autofocus" placeholder="Words to search for"
+          autofocus="autofocus" placeholder="Search terms..."
           /><input type="submit" value="Search" />
       </form>
     </td>
@@ -342,14 +344,14 @@ sub html_foot {
 </div>
 
 <div id="foot">
-<p class="copyright">©1998&ndash;2010, Copyright <!-- FIXME autogenerate dates -->
+<p class="copyright">©1998&ndash;2011, Copyright <!-- FIXME autogenerate dates -->
 <span class="author"><a href="mailto:zrajm\@klingonska.org">Zrajm C Akfohg</a></span>,
 <a href="http://klingonska.org/">Klingonska Akademien</a>, Uppsala.</p>
 <p class="validator">
   Validate:
-  <a href="http://validator.w3.org/check?uri=http://klingonska.org/dict/lexicon.cgi">XHTML</a>,
-  <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://klingonska.org/dict/lexicon.cgi&amp;profile=css3">CSS3</a>,
-  <a href="http://validator.w3.org/checklink?uri=http://klingonska.org/dict/lexicon.cgi">links</a>.
+  <a href="http://validator.w3.org/check?uri=http://klingonska.org/dict/">XHTML</a>,
+  <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://klingonska.org/dict/&amp;profile=css3">CSS3</a>,
+  <a href="http://validator.w3.org/checklink?uri=http://klingonska.org/dict/">links</a>.
   License:
   <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">CC BY&ndash;SA</a>.&nbsp;
 </p>

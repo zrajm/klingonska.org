@@ -544,8 +544,11 @@ Priorities:
 
 ** TODO "Klingon Pocket Dictionary"
 *** TODO Restructure pages
-**** "Lexicon" should be the default "tab".
-**** Rename "about" -> "description".
+**** TODO Add page forwarding for renamed pages
+     http://klingonska.org/dict/index.html -> http://klingonska.org/dict/about.html
+     http://klingonska.org/dict/lexicon.cgi -> http://klingonska.org/dict/
+**** DONE "Lexicon" should be the default "tab"
+     CLOSED: [2011-08-30 Tue 13:51]
 *** TODO Add zip archive of files for last {paqHom} printed
 *** TODO Google Chrome should autodetect search engine for {paqHom}
 *** TODO Search of dictionary should first page to appear
