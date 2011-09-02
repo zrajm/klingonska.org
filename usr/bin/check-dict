@@ -1,0 +1,122 @@
+#!/usr/bin/perl -w
+use strict;
+use 5.10.0;
+use utf8;
+binmode(STDIN,  ":encoding(utf8)");
+binmode(STDOUT, ":encoding(utf8)");
+
+if (-t STDIN and @ARGV == 0) {
+    print <<"EOF";
+Usage: $0 [<] FILE
+Perform various syntax/consistency checks of a the KA dictionary.
+EOF
+    exit;
+}
+
+=pod
+
+=head1 TODO
+
+* Check that <...> marks occur in all 'sv' and 'en' fields
+* Check Klingon spelling
+* Check that all 'file' files exist
+* Check that pos in 'en' and 'sv' fields correspond with 'pos' field
+* Check that all homonymous words have an enumeration (1) etc in 'tlh' field
+* Should use English (not Klingon) names.
+* Email should require "by", "to" and a subject in parentheses.
+
+=cut
+
+my @field = qw(tlh pos sv en def ref gram com pun see cat data file);
+
+my %field_num = do {
+    my $count = 1;
+    map { $_ => $count++ } @field;
+};
+
+
+my %x = ();
+
+# skip header
+while (<>) {
+    last if /^=== start-of-word-list ===$/;
+}
+
+# read file up to footer (ignoring section separators)
+my $line_num  = -1;
+my $field_num = -1;
+while (<>) {
+    last if /^=== end-of-noun-suffix-list ===$/;
+    next if /^=== /;
+
+    if ($_ eq "\n" and $line_num > -1) {                 # blank line
+        # check that all required fields exist
+        foreach (qw(tlh pos sv en def)) {
+            $x{$line_num} =~ /^$_:\t/m
+                or warn "missing required field '$_' in $line_num\n";
+        }
+        $line_num = $field_num = -1;
+        next;
+    }
+    if ($line_num == -1) {
+        $line_num = $.;
+        $x{$line_num} = "";
+    }
+
+    if (/^([^:\s]*):/) {                # new field
+        my $field_name = $1;
+        if (not exists($field_num{$field_name})) {
+            warn "unknown field '$1' in line $.\n";
+        } elsif ($field_num{$field_name} < $field_num) {
+            warn "field '$1' is too late in field order in line $.\n";
+        }
+        $field_num = $field_num{$field_name} // $field_num;
+    } elsif (s/^\t+/ /) {             # continuation line
+        chomp($x{$line_num});
+    }
+    $x{$line_num} .= $_;
+}
+
+# check def/ref fields
+foreach my $num (sort { $a <=> $b } keys %x) {
+    my $_ = $x{$num};
+
+    my $s  = qr/[  ]/x;                                     # spaces
+    my $p  = qr/[ivx]+|\d+/x;                               # a page number
+    my $pp = qr/ p\.$p | pp\.$p(--$p|(,$s$p(--$p)?)+) /x;   # p.#PAGE or pp.#RANGE
+
+    my $chapter  = qr/[0-9]+(\.[0-9]+)+ ($s\($pp\))?/x;     # CHAPTER [ (PAGE) ]
+    my $chapters = qr/$s$chapter(,$s$chapter)*/x;           # CHAPTER [ (PAGE) ], ...
+
+    # page numbers, chapter numbers, 'E-K' or 'K-E'
+    my $tkd_ref  = qr/(K-E|E-K|$chapter|$pp)/x;             #
+    my $tkd_refs = qr/ $s $tkd_ref(, $s $tkd_ref)*/x;       #
+
+    # page numbers, 'E-K' or 'K-E'
+    my $kgt_ref  = qr/(K-E|E-K|$pp)/x;
+    my $kgt_refs = qr/ $s $kgt_ref(, $s $kgt_ref)*/x;
+
+    # simple page numbers
+    my $page_refs = qr/ $s $pp(, $s $pp)*/x;
+
+    my $paged_source   = qr/( TKDa? $tkd_refs? |KGT $kgt_refs? | (DI|Sarek|TKW|HQ[0-9]+:[0-9]+) $page_refs?) (${s}et${s}al\.)? /x;
+    my $unpaged_source = qr/BoP|CK|PK|KCD|KLINW|TDNW|Radio $s Times|S7|S8|S14|S15|S20|S25|S26|S32|S33|ST5|STE|
+                            \{qep'a'\}$s\d{4}|(News|Email) $s [0-9]{4}-[0-9]{2}-[0-9]{2} ($s \([^)]*\))?/x;
+
+    my $source       = qr/ $paged_source|$unpaged_source /x;
+
+    if (s/^ [dr]ef: \t //xm) {
+        /^\[  $source (;$s$source)* \]$/x or
+            print "$num:$x{$num}";
+    }
+}
+
+
+
+foreach my $num (sort { $a <=> $b } keys %x) {
+    print "=" x 80, "\n",
+        "==  $num\n",
+        "$x{$num}";
+}
+
+#[eof]

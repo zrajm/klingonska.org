@@ -320,9 +320,8 @@ pos:	n
 sv:	namn på klingonskans {b}-ljud (s)
 en:	name of klingon sound {b} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{ba'}
 pos:	v
@@ -581,11 +580,11 @@ tlh:	{be'nI'nal}
 pos:	n
 sv:	«svägerska» (s) (exempel på felaktig användning)
 en:	«sister-in-law» (n) (example of incorrect use)
-def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
-ref:	22 December 2010: {Quvar} in email to tlhIngan-Hol ("latlh 'e'nalpu'")
+def:	[Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")]
+ref:	[Email 2010-12-22 (by {Quvar}, to tlhingan-hol, "latlh 'e'nalpu'")]
 com:	DON'T USE THIS WORD. Use {loDnI' be'nal} and {be'nI' be'nal} instead.
 data:	incorrect form; derived form
-file:	2010-12-25-email.txt
+file:	2010-12-25-email.txt; 2010-12-22-email.txt
 
 tlh:	{bID}
 pos:	n
@@ -1019,7 +1018,7 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{boS}
 pos:	v
-sv:	«samla» (v)
+sv:	«samla in», «hämta in»,  (v)
 en:	<collect> (v)
 def:	[TKD]
 file:	1992-01-01-tkd.txt
@@ -1092,9 +1091,9 @@ tlh:	{buq}
 pos:	n
 sv:	«påse», «säck», «pung», «ficka» (s)
 en:	«bag», «sack», «pouch», «pocket» (n)
-def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
-ref:	7 December 2010: {Quvar} in email to tlhIngan-Hol ("News from Maltz")
-file:	2010-12-25-email.txt
+def:	[Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")]
+ref:	[Email 2010-12-07 (by {Quvar}, to tlhingan-hol, "News from Maltz")]
+file:	2010-12-25-email.txt; 2010-12-07-email.txt
 
 tlh:	{buQ}
 pos:	v
@@ -1408,9 +1407,8 @@ pos:	n
 sv:	namn på klingonskans {ch}-ljud (s)
 en:	name of klingon sound {ch} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{chay'}
 pos:	ques
@@ -1574,7 +1572,7 @@ file:	1997-11-01-kgt.txt
 tlh:	{chemvaH}
 pos:	n
 sv:	ett slags «djur», «~chemvah~» (s)
-en:	type of <animal>, ~chemvah~ (n)
+en:	type of <animal>, «~chemvah~» (n)
 def:	[KGT]
 com:	Klingon females sound like this animal when courting a
 	potential mate.
@@ -2437,9 +2435,8 @@ pos:	n
 sv:	namn på klingonskans {D}-ljud (s)
 en:	name of klingon sound {D} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{DayquS}
 pos:	n
@@ -3415,9 +3412,8 @@ pos:	n
 sv:	namn på klingonskans {gh}-ljud (s)
 en:	name of klingon sound {gh} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{ghaytan}
 pos:	adv
@@ -3522,8 +3518,10 @@ tlh:	{ghetwI'}
 pos:	n
 sv:	någon som «låtsas», person som låtsas (s)
 en:	«pretender» (n)
+def:	[HQ12:3 p.8]
 ref:	[TDNW]
 data:	derived form
+file:	2003-09-holqed-12-3.txt
 
 tlh:	{ghevchoq Sep}
 pos:	n
@@ -3645,9 +3643,9 @@ tlh:	{ghIn}
 pos:	n
 sv:	«kloster» (s)
 en:	<monastery> (n)
-def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
-ref:	19 December 2010: {Quvar} in email to tlhIngan-Hol ("monastery");
-	16 January 2011: {Quvar} in email to tlhIngan-Hol ("monastery: more")
+def:	[Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")]
+ref:	[Email 2010-12-19 (by {Quvar}, to tlhingan-hol, "monastery");
+	Email 2011-01-16 (by {Quvar}, to tlhingan-hol, "monastery: more")]
 com:	"The word for monastery is {ghIn}. [...] A {ghIn'a'} would be a pretty
 	important monastery, for example. {ghIn} would be a single building if
 	that's all the monastery was, it could also refer to a group of
@@ -3655,7 +3653,7 @@ com:	"The word for monastery is {ghIn}. [...] A {ghIn'a'} would be a pretty
 	defined area where the members of the religious community live or work
 	or do whatever they do there. It doesn't mean the group of people."
 	/Quvar
-file:	2010-12-25-email.txt
+file:	2010-12-25-email.txt; 2010-12-19-email.txt; 2011-01-16-email.txt
 
 tlh:	{ghIntaq}
 pos:	n
@@ -4412,9 +4410,8 @@ pos:	n
 sv:	namn på klingonskans {H}-ljud (s)
 en:	name of klingon sound {H} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{Hay'}
 pos:	v
@@ -5272,6 +5269,22 @@ def:	[TKD]
 pun:	Ever heard the disgust in the voice of a Ferengi saying "Human"?
 file:	1992-01-01-tkd.txt
 
+tlh:	{Hun}
+pos:	n
+sv:	ett slags «djur», «~khrun~» (s)
+en:	type of «animal», «~khrun~» (n)
+def:	[Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
+	from qep'a' 18")]
+com:	I didn't read that section of the opera myself, but I think I heard
+	someone say it was a fast animal. The khrun is described in other
+	resources as a Klingon riding animal. Note: This isn't the way we saw
+	it in the draft of the opera. After being reminded that the name of the
+	animal had been given a tlhIngan Hol rendering in Keith DeCandido's
+	book "A Burning House", Marc Okrand decided to use the already
+	published spelling. /Alan Anderson (talking about the Klingon opera
+	{'u'})
+file:	2011-08-22-email.txt
+
 tlh:	{Hung}
 pos:	n
 sv:	«säkerhet» (s)
@@ -5687,9 +5700,8 @@ pos:	n
 sv:	namn på klingonskans {j}-ljud (s)
 en:	name of klingon sound {j} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{jay'}
 pos:	adv
@@ -5956,7 +5968,10 @@ tlh:	{jIn}
 pos:	v
 sv:	«brygga» (v) (hypotetiskt ord som senare visade sig vara felaktigt)
 en:	«brew» (v) (hypothetic word later disproven)
-com:	Hmmm, this seems to come from an old entry in my notes:
+def:	[Email 2004-07-15 (by Steven Boozer, to tlhingan-hol, "Re: Klingon
+	WOTD: pub (v) > jIn")]
+com:	DON'T USE THIS WORD.
+	Hmmm, this seems to come from an old entry in my notes:
 	> I remember [Okrand] and I actually were discussing *raktajino* while
 	> he was working on the book [KGT], as soon as we both found out that
 	> it was Klingon coffee... He really hated the /-ino/ ending, since it
@@ -5994,9 +6009,10 @@ com:	Hmmm, this seems to come from an old entry in my notes:
 	> more flavor. Though it is sometimes called "Klingon coffee," it is
 	> quite different from both plain {qa'vIn} and the alcoholic {ra'taj}.
 	So, I will make the correction to my notes and mark *{jIn} as
-	speculation. Thanks for catching this.
-        /Steven Boozer on tlhIngan-Hol, 15 July 2004
+	speculation. Thanks for catching this. /Steven Boozer on tlhingan-hol,
+	15 July 2004
 data:	incorrect form
+file:	canon/2004-07-15-email.txt
 
 tlh:	{jInaq}
 pos:	n
@@ -6225,7 +6241,7 @@ tlh:	{jorneb}
 pos:	n
 sv:	«stridsspets» (på en torped) (s)
 en:	<warhead> (of a torpedo) (n)
-def:	[KGT p.57, E-K]
+def:	[KGT E-K, p.57]
 com:	WARNING - Spellings alternate: {jornub} in KGT K-E, {jorneb} in KGT
 	E-K.
 file:	1997-11-01-kgt.txt
@@ -6335,6 +6351,16 @@ sv:	«hemvärld» (s)
 en:	<home world> (n)
 def:	[TKDa]
 file:	1992-01-01-tkd.txt
+
+tlh:	{jul}
+pos:	n
+sv:	«sol» (generell term) (s)
+en:	«sun» (general term) (n)
+def:	[Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
+	from qep'a' 18")]
+com:	This is a general term for a planet's sun. It is not the name of a
+	specific sun. /Alan Anderson
+file:	2011-08-22-email.txt
 
 tlh:	{jum}
 pos:	v
@@ -6536,9 +6562,8 @@ pos:	n
 sv:	namn på klingonskans {l}-ljud (s)
 en:	name of klingon sound {l} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{lay'}
 pos:	v
@@ -6749,6 +6774,16 @@ en:	be <unexceptional>, be <nonspecific> (v)
 def:	[KGT]
 file:	1997-11-01-kgt.txt
 
+tlh:	{le'yo'}
+pos:	n
+sv:	«stolthet» (s)
+en:	«pride» (n)
+def:	[Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
+	from qep'a' 18")]
+com:	Just to be clear, this describes an emotion, as opposed to a tribe of
+	lions. /Alan Anderson
+file:	2011-08-22-email.txt
+
 tlh:	{lIch}
 pos:	v
 sv:	«hälla» (i/på något) (v)
@@ -6956,11 +6991,11 @@ tlh:	{loDnI'nal}
 pos:	n
 sv:	«svåger» (s) (exempel på felaktig användning)
 en:	«brother-in-law» (n) (example of incorrect use)
-def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
-ref:	22 December 2010: {Quvar} in email to tlhIngan-Hol ("latlh 'e'nalpu'")
+def:	[Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")]
+ref:	[Email 2010-12-22 (by {Quvar}, to tlhingan-hol, "latlh 'e'nalpu'")]
 com:	DON'T USE THIS WORD. Use {loDnI' loDnal} or {be'nI' loDnal} instead.
 data:	incorrect form; derived form
-file:	2010-12-25-email.txt
+file:	2010-12-25-email.txt; 2010-12-22-email.txt
 
 tlh:	{logh}
 pos:	n
@@ -7274,10 +7309,10 @@ tlh:	{luHwI' tIH}
 pos:	n
 sv:	«dragstråle» (s)
 en:	«tractor beam» (n)
-def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
-ref:	13 December 2010: {Quvar} in email to tlhIngan-Hol ("tractor beam")
+def:	[Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")]
+ref:	[Email 2010-12-13 (by {Quvar}, to tlhingan-hol, "tractor beam")]
 data:	phrase; derived form
-file:	2010-12-25-email.txt
+file:	2010-12-25-email.txt; 2010-12-13-email.txt
 
 tlh:	{luj}
 pos:	v
@@ -7666,9 +7701,8 @@ pos:	n
 sv:	namn på klingonskans {m}-ljud (s)
 en:	name of klingon sound {m} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{may'}
 pos:	n
@@ -7733,7 +7767,7 @@ sv:	ett slags «ceremoniell «kniv»», «~mevak~» (används i
 	~Mauk-To'Vor~-ritualen) (s)
 en:	type of «ceremonial «knife»», «~mevak~» (used in the ~Mauk-To'Vor~
 	ritual) (n)
-def:	[MO at ~1998 Praxis~ (recording); STE]
+def:	[Recording 1998 (of Marc Okrand, at ~Praxis~ convention, held May 22--25 1998); STE]
 com:	Seen in DS9 "Sons of Mogh".
 	English spelling (according to STE) is ~mevak~.
 
@@ -7971,16 +8005,15 @@ com:	"This would be applied to a leader who left office is disgrace, for
 	is still respected." [HQ12:3 p.8-9]
 pun:	{mIl} = MILhouse! Think about it: "This would be applied to a leader
 	who left office in disgrace". (Steven Boozer, 10 October 2003 in email
-	to tlhIngan-Hol)
+	to tlhingan-hol)
 file:	2003-09-holqed-12-3.txt
 
 tlh:	{mIllogh}
 pos:	n
 sv:	«bild» (ritning, foto, serieteckning, datorikon, etc) (s)
 en:	«picture» (drawing, photo, cartoon, computer icons, etc) (n)
-def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
-ref:	5 December 2010: {R Fenwick} in email to tlhIngan-Hol ("{latlh mu' chu'}");
-        http://www.facebook.com/home.php?sk=group_165201996829401
+def:	[Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")]
+ref:	[Email 2010-12-05 (by R Fenwick, to tlhingan-hol, "{latlh mu' chu'}")]
 com:	Lieven Litaer: Finally, someone last year asked for the word for
 	"picture." At first, Maltz wondered why nagh beQ wasn't good enough.
 	But then he thought about it some more and said that another word,
@@ -7988,7 +8021,7 @@ com:	Lieven Litaer: Finally, someone last year asked for the word for
 	photographs, cartoons, icons on 21st-century computers, and so on.
 	(Marc Okrand) Tuesday [30 November 2010] at 10:51pm · Unlike · 6 people
 	[http://www.facebook.com/home.php?sk=group_165201996829401]
-file:	2010-12-25-email.txt
+file:	2010-12-25-email.txt; 2010-12-05-email.txt
 
 tlh:	{mIl'oD}
 pos:	n
@@ -9077,9 +9110,8 @@ pos:	n
 sv:	namn på klingonskans {n}-ljud (s)
 en:	name of klingon sound {n} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{nay'}
 pos:	n
@@ -9143,7 +9175,7 @@ en:	<only>, <merely>, <just>, «alone» (adv)
 def:	[TKD]
 ref:	[TKW pp.21, 61, 81, 105, 111, 113, 115, 191]
 gram:	{chomuS neH} ~you merely hate me;~ {Dargh neH vItlhutlh} ~I drink only
-        tea;~ follows a verb or noun [TKD 5.4 (p.56)]
+	tea;~ follows a verb or noun [TKD 5.4 (p.56)]
 com:	Follows the verb or noun it modifies. When following a noun it means
 	"only, alone".
 file:	1992-01-01-tkd.txt
@@ -10100,9 +10132,8 @@ pos:	n
 sv:	namn på klingonskans {ng}-ljud (s)
 en:	name of klingon sound {ng} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{nga'chuq}
 pos:	v
@@ -10110,7 +10141,7 @@ sv:	«sex» (d.v.s. ha sex; alltid subjekt) (v)
 en:	have «sex», perform sex (v)
 def:	[HQ1:3 p.9]
 gram:	{nga'chuq bangwI'pu'} ~my loved ones have sex;~ all participants are
- 	subject
+	subject
 com:	Article in HQ is called "Additional Vocabulary" and contains the {veS
 	QonoS} list of words. It is unclear about what part of speech this may
 	be, though it is probably a verb and "always subject" probably refers
@@ -10275,6 +10306,23 @@ def:	[TKD]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
+tlh:	{ngIq}
+pos:	n
+sv:	«enda en», «enstaka en» (s)
+en:	«singular one», «individual one» (n)
+def:	[Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
+	from qep'a' 18")]
+com:	There were two distinct examples of this word's use seen in the opera.
+	One of them was obviously detailing how a group of warriors was killed
+	one at a time: {ngIq nuv luHoH} "they killed the warriors one by one."
+	The other was a thrice-repeated {ngIq tonSaw' lo' 'ej...} "in one
+	single move, he...", making it clear that each of several results was
+	the result of the same action. I surmise that {ngIq} by itself could
+	mean "the one and only". Again, I didn't copy the lyrics, and what I
+	have written here is probably not exactly what was on the pages we
+	inspected. /Alan Anderson (talking about the Klingon opera {'u'})
+file:	2011-08-22-email.txt
+
 tlh:	{ngIv}
 pos:	v
 sv:	«patrullera» (v)
@@ -10308,22 +10356,22 @@ tlh:	{ngogh}
 pos:	n
 sv:	«block», «klump», «kloss» (s)
 en:	«block», «lump», «brick» (n)
-def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
-ref:	22 December 2010: {Quvar} in email to tlhIngan-Hol ("latlh 'e'nalpu'")
-file:	2010-12-25-email.txt
+def:	[Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")]
+ref:	[Email 2010-12-22 (by {Quvar}, to tlhingan-hol, "latlh 'e'nalpu'")]
+file:	2010-12-25-email.txt; 2010-12-22-email.txt
 
 tlh:	{ngogh tun}
 pos:	n
 sv:	«kudde» (s)
 en:	«pillow» (n)
-def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
-ref:	7 December 2010: {Quvar} in email to tlhIngan-Hol ("News from Maltz")
+def:	[Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")]
+ref:	[Email 2010-12-07 (by {Quvar}, to tlhingan-hol, "News from Maltz")]
 com:	"Maltz first said, as did you, that Klingons don't have pillows and he
 	wondered why anyone would want one. But he's seen them (somewhere) and
 	knows what they are. So when pushed -- 'If you have to call it
 	something, what would you call it?' -- he said {ngogh tun}."
 data:	phrase; derived form
-file:	2010-12-25-email.txt
+file:	2010-12-25-email.txt; 2010-12-07-email.txt
 
 tlh:	{ngoH} (1)
 pos:	v
@@ -10543,7 +10591,7 @@ tlh:	{pach}
 pos:	n
 sv:	«klo», «fågelklo» (s)
 en:	<claw>, «talon» (n)
-def:	[TKDa, HQ10:4 p.5]
+def:	[TKDa; HQ10:4 p.5]
 ref:	[TKW p.185]
 file:	1992-01-01-tkd.txt; 2001-12-holqed-10-4.txt
 
@@ -10601,6 +10649,19 @@ sv:	«avstå» (från), «avsäga» sig, «avgå» (ifrån) (v)
 en:	<resign> (v)
 def:	[TKD]
 file:	1992-01-01-tkd.txt
+
+tlh:	{pan}
+pos:	v
+sv:	«gnistra», «avge gnistor» (v)
+en:	«spark», «emit sparks» (v)
+def:	[Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
+	from qep'a' 18")]
+com:	As the duel between Kahless and Molor continues, the opera repeats a
+	phrase several times: {pan qeylIS betleH 'ej jach molor 'etlh}
+	"Kahless's batlh'etlh sparks and Molor's sword roars." I might not be
+	remembering the lyrics exactly, so please don't take them as perfect
+	canon. /Alan Anderson (talking about the Klingon opera {'u'})
+file:	2011-08-22-email.txt
 
 tlh:	{pang}
 pos:	v
@@ -10734,9 +10795,8 @@ pos:	n
 sv:	namn på klingonskans {p}-ljud (s)
 en:	name of klingon sound {p} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{pay'}
 pos:	adv
@@ -11755,10 +11815,11 @@ pos:	n
 sv:	«karta» (s)
 en:	«map» (n)
 def:	[{qep'a'} 2007]
-ref:	29 July 2008: {ghunchu'wI'} in email to tlhIngan-Hol
+ref:	[Email 2008-07-29 (by {ghunchu'wI'}, to tlhingan-hol)]
 com:	Marc said that {pu'jIn} is a pun/joke, but it was a personal reference
 	(presumably similar to {jIl} or {pe'vIl}), so it wouldn't be something
 	we'd get. (Tad, email to tlhingan-hol 3 August 2007)
+file:	2007-08-03-email.txt; 2008-07-29-email.txt
 
 tlh:	{qab}
 pos:	v
@@ -11837,13 +11898,12 @@ pos:	n
 sv:	namn på klingonskans {'}-ljud (s)
 en:	name of klingon sound {'} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{qaH}
 pos:	n
-sv:	«herr», «sir» (använd endast som tilltal) (s)
+sv:	«herr», «sir» (används endast i tilltal) (s)
 en:	<sir> (used only in direct address) (n)
 def:	[TKD]
 data:	KLCP-1
@@ -12059,9 +12119,8 @@ pos:	n
 sv:	namn på klingonskans {q}-ljud (s)
 en:	name of klingon sound {q} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{qaywI'}
 pos:	n
@@ -12213,7 +12272,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{qem}
 pos:	v
-sv:	«hämta», «ta med» (sig) (v)
+sv:	«hämta», «ta» med sig, «bära» med sig (v)
 en:	<bring> (v)
 def:	[TKD]
 ref:	[TKW p.189]
@@ -13281,9 +13340,8 @@ pos:	n
 sv:	namn på klingonskans {Q}-ljud (s)
 en:	name of klingon sound {Q} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{Qay'}
 pos:	v
@@ -13311,13 +13369,13 @@ file:	2001-06-holqed-10-2.txt
 
 tlh:	{Qa'}
 pos:	n
-sv:	~Qa'~, ett slags «djur» (s)
-en:	~Qa'~, type of <animal> (n)
+sv:	ett slags «djur» (s)
+en:	type of <animal> (n)
 def:	[TKD]
 com:	There are a few animals that make a particular ruckus at dawn. [...]
 	Another, though not a bird, is the {Qa'}, specifically the {jajlo'
 	Qa'}. [HQ10:4 p.5]]
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 2001-12-holqed-10-4.txt
 
 tlh:	{Qa'Hom}
 pos:	n
@@ -13557,6 +13615,21 @@ com:	"When shown a pencil, Maltz said that the sharp end could be called a
 cat:	fighting
 file:	1997-11-01-kgt.txt; 2003-06-holqed-12-2.txt
 
+tlh:	{QIncha'}
+pos:	n
+sv:	ett slags «djur», «~krincha~» (s)
+en:	type of «animal», «~krincha~» (n)
+def:	[Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
+	from qep'a' 18")]
+com:	The English accompanying the opera said "Krincha, short and fierce". I
+	found references to a "krencha" in several places, including the KLI's
+	Extended Corpus Project and the Memory Beta wiki. It is described as a
+	large, quick lizard native to {Qo'noS}, variously said to have either
+	four or six legs. I suspect that the opera's author intended to invoke
+	that animal but misspelled its name. /Alan Anderson (talking about the
+	Klingon opera {'u'})
+file:	2011-08-22-email.txt
+
 tlh:	{QIn pup}
 pos:	n
 sv:	slät «spjutspets» (med en enda vass spets) (s)
@@ -13773,10 +13846,10 @@ tlh:	{QongDaq buq}
 pos:	n
 sv:	«kudde», «sängpåse» (s)
 en:	«pillow», «bed pouch» (n)
-def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
-ref:	7 December 2010: {Quvar} in email to tlhIngan-Hol ("News from Maltz")
+def:	[Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")]
+ref:	[Email 2010-12-07 (by {Quvar}, to tlhingan-hol, "News from Maltz")]
 data:	phrase; derived form
-file:	2010-12-25-email.txt
+file:	2010-12-25-email.txt; 2010-12-07-email.txt
 
 tlh:	{Qop} (1)
 pos:	v
@@ -14246,9 +14319,8 @@ pos:	n
 sv:	namn på klingonskans {r}-ljud (s)
 en:	name of klingon sound {r} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{ray'}
 pos:	n
@@ -15078,9 +15150,8 @@ pos:	n
 sv:	namn på klingonskans {S}-ljud (s)
 en:	name of klingon sound {S} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{Say'}
 pos:	v
@@ -15124,13 +15195,11 @@ sv:	«Sakrej-regionen» (s)
 en:	«Sakrej region» (n)
 def:	[KGT pp.17, 24]
 com:	Sakrej Region {Sa'Qej Sep} is the source of many odd pronunciations and
-        grammar, some of which have been more widely adopted as slang (cf. KGT
-        pp. 24-26 for details). As someone on the list once pointed out,
-        {Sa'Qej} is *{jeQ'aS} - "jackass" - backwards, which may well have been
-        a frustrated Okrand's comment on some actor or Paramount's writing
-        staff!
-
-
+	grammar, some of which have been more widely adopted as slang (cf. KGT
+	pp. 24-26 for details). As someone on the list once pointed out,
+	{Sa'Qej} is *{jeQ'aS} - "jackass" - backwards, which may well have been
+	a frustrated Okrand's comment on some actor or Paramount's writing
+	staff!
 data:	phrase; {Sa'Qej} (n)
 file:	1997-11-01-kgt.txt
 
@@ -16272,9 +16341,8 @@ pos:	n
 sv:	namn på klingonskans {t}-ljud (s)
 en:	name of klingon sound {t} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{taymoH}
 pos:	v
@@ -16735,7 +16803,7 @@ tlh:	{tIr ngogh}
 pos:	n
 sv:	«bröd» (s)
 en:	«bread» (n)
-def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
+def:	[Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")]
 data:	phrase
 file:	2010-12-25-email.txt
 
@@ -16906,8 +16974,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{toqvIr lung}
 pos:	n
-sv:	¿?ett slags «djur», «Tokvarisk miniödla» (s)
-en:	type of <animal>, <Tokvarian skink> (n)
+sv:	¿?ett slags «djur», «Tokvarisk «miniödla»» (s)
+en:	type of <animal>, <Tokvarian «skink»> (n)
 def:	[KGT]
 data:	phrase; {toqvIr} (n)
 file:	1997-11-01-kgt.txt
@@ -16916,7 +16984,7 @@ tlh:	{toQ}
 pos:	n
 sv:	en slags «fågel» («rovfågel») (s)
 en:	type of «bird» (bird of prey) (n)
-def:	[KLIML 1997-04-07]
+def:	[Email 1997-04-07 (by Bill Willmerdinger, to tlhingan-hol, "BabelCon 2")]
 ref:	[HQ10:4 p.5]
 file:	1997-04-07-email.txt
 
@@ -17378,9 +17446,8 @@ pos:	n
 sv:	namn på klingonskans {tlh}-ljud (s)
 en:	name of klingon sound {tlh} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{tlha'}
 pos:	v
@@ -18074,9 +18141,8 @@ pos:	n
 sv:	namn på klingonskans {v}-ljud (s)
 en:	name of klingon sound {v} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{vay'}
 pos:	n
@@ -18764,9 +18830,8 @@ pos:	n
 sv:	namn på klingonskans {w}-ljud (s)
 en:	name of klingon sound {w} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{way'}
 pos:	v
@@ -18944,11 +19009,11 @@ tlh:	{wep buq}
 pos:	n
 sv:	«jack«påse»», «rock«ficka»» (s)
 en:	«jacket «pouch»», «coat «pocket»» (n)
-def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
-ref:	7 December 2010: {Quvar} in email to tlhIngan-Hol ("News from Maltz")
+def:	[Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")]
+ref:	[Email 2010-12-07 (by {Quvar}, to tlhingan-hol, "News from Maltz")]
 cat:	clothing
 data:	phrase; derived form
-file:	2010-12-25-email.txt
+file:	2010-12-25-email.txt; 2010-12-07-email.txt
 
 tlh:	{weq}
 pos:	v
@@ -19412,9 +19477,8 @@ pos:	n
 sv:	namn på klingonskans {y}-ljud (s)
 en:	name of klingon sound {y} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{yay'}
 pos:	v
@@ -19583,6 +19647,18 @@ def:	[TKD K-E]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
+tlh:	{yIr}
+pos:	v
+sv:	«samla» ihop, «plocka» ihop (v)
+en:	«gather» (v)
+def:	[Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
+	from qep'a' 18")]
+com:	This was used in a command for a warrior to gather his armor and
+	weapons before a battle. Before seeing this word, I might have used
+	{boS} "collect" to refer to packing for a trip. Now, {yIr} seems a
+	better choice. /Alan Anderson
+file:	2011-08-22-email.txt
+
 tlh:	{yIrIDngan}
 pos:	n
 sv:	«yridian» (person) (s)
@@ -19727,11 +19803,11 @@ tlh:	{wep buq}
 pos:	n
 sv:	byx«pung», byx«ficka» (s)
 en:	«pants «pouch»», «trouser «pocket»» (n)
-def:	[25 December 2010: {Quvar} in email to tlhIngan-Hol ("Letter from Maltz")]
-ref:	7 December 2010: {Quvar} in email to tlhIngan-Hol ("News from Maltz")
+def:	[Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")]
+ref:	[Email 2010-12-07 (by {Quvar}, to tlhingan-hol, "News from Maltz")]
 cat:	clothing
 data:	phrase; derived form
-file:	2010-12-25-email.txt
+file:	2010-12-25-email.txt; 2010-12-07-email.txt
 
 tlh:	{yoq}
 pos:	n
@@ -20140,7 +20216,7 @@ tlh:	{'ay'}
 pos:	n
 sv:	«sektion», «del», «komponent», «bit», «stycke» (s)
 en:	<section>, <part>, <component>, <piece> (n)
-def:	[TKD, KGT]
+def:	[TKD; KGT]
 src:	"section" [TKD]; "part", "piece", "component" [KGT]
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
@@ -20242,7 +20318,8 @@ pos:	n
 sv:	«oväntad «gäst»» (s)
 en:	«unexpected «visitor»» (n)
 def:	[{qep'a'} 2007]
-ref:	29 July 2008: {ghunchu'wI'} in email to tlhIngan-Hol
+ref:	[Email 2008-07-29 (by {ghunchu'wI'}, to tlhingan-hol)]
+file:	2008-07-29-email.txt
 
 tlh:	{'elpI'}
 pos:	n
@@ -20606,6 +20683,26 @@ def:	[KGT]
 cat:	body part
 file:	1997-11-01-kgt.txt
 
+tlh:	{'o}
+pos:	excl
+sv:	«O» (före namn i tilltal) (interj)
+en:	«O» (before a name in direct address) (excl)
+def:	[Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
+	from qep'a' 18")]
+com:	Appears before a name used as direct address. As we saw it used, it
+	acted a little like a vocative prefix: {'o qeylIS, qeylIS, qeylIS...}
+	It seems to be an honorific exclamation, or maybe it's just used for
+	direct address in general and doesn't actually have the implication of
+	deference or reverence that I inferred. If it hadn't been consistently
+	present when the opera "speaks to" Kahless, and consistently absent
+	when it "speaks to" Molor, I might have ignored it as an unimportant
+	background sound. English has almost exactly the same sound with pretty
+	much the same meaning: "O Mouse, do you know the way out of this pool?
+	I am very tired of swimming about here, O Mouse!" (from Alice's
+	Adventures in Wonderland) /Alan Anderson (talking about the Klingon
+	opera {'u'})
+file:	2011-08-22-email.txt
+
 tlh:	{'obe'}
 pos:	n
 sv:	«orden», grupp officiellt erkänd av regering (s)
@@ -20842,9 +20939,10 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{'uchHa'}
 pos:	v
-sv:	«släppa»
+sv:	«släppa» (v)
 en:	«let go» of (v)
-ref:	[HQ12:2; TDNW]
+def:	[HQ12:2]
+ref:	[TDNW]
 data:	derived form
 
 tlh:	{'uD}
@@ -21013,7 +21111,7 @@ en:	<sauce> for «~gladst~» (n)
 def:	[KGT]
 file:	1997-11-01-kgt.txt
 
-tlh:	{'ut}
+tlh:	{'ut} (1)
 pos:	v
 sv:	vara «väsentlig», vara «nödvändig» (v)
 en:	be <essential>, be <necessary> (v)
@@ -21323,7 +21421,7 @@ pos:	n
 sv:	¿?«fartgupp», «vägbula» (s)
 en:	¿?«speed bump» (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
 com:	"The noun {vIl} is hard to define. Maltz had given a description of
 	something which was immediately recognized as a speed bump by everyone
 	present, but it was apparently intended not as an actual definition but
@@ -21332,13 +21430,15 @@ com:	"The noun {vIl} is hard to define. Maltz had given a description of
 	best clue we have to its true meaning. ['Groupie' and 'entourage' were
 	suggested by those present at the time, but Marc didn't think they
 	fit.]"
+file:	2009-07-27-email.txt
 
 tlh:	{vIlle'}
 pos:	n
 sv:	«underhuggare», servil «tjänare» (s)
 en:	«minion» (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{vIlInHoD}
 pos:	n
@@ -21354,6 +21454,19 @@ sv:	en slags «fågel» (med en väldigt lång näbb) (s)
 en:	type of «bird» (with a very long beak) (n)
 def:	[HQ10:4 p.5]
 file:	2001-12-holqed-10-4.txt
+
+tlh:	{wel}
+pos:	v
+sv:	stå i «skuld» till (v)
+en:	«owe» (someone) (v)
+def:	[Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
+	from qep'a' 18")]
+com:	When someone has earned a reward but the prize is not yet available to
+	be given, the person in charge of presenting it can say {qawel} "I owe
+	you." It is probably also appropriate when you have convinced someone
+	to give you some service or product with the understanding that you
+	will pay for it later. /Alan Anderson
+file:	2011-08-22-email.txt
 
 tlh:	{wom}
 pos:	v
@@ -21377,45 +21490,40 @@ pos:	n
 sv:	namn på klingonskans {a}-ljud (s)
 en:	name of klingon sound {a} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{'et}
 pos:	n
 sv:	namn på klingonskans {e}-ljud (s)
 en:	name of klingon sound {e} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{'It}
 pos:	n
 sv:	namn på klingonskans {I}-ljud (s)
 en:	name of klingon sound {I} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{'ot}
 pos:	n
 sv:	namn på klingonskans {o}-ljud (s)
 en:	name of klingon sound {o} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
-tlh:	{'ut}
+tlh:	{'ut} (2)
 pos:	n
 sv:	namn på klingonskans {u}-ljud (s)
 en:	name of klingon sound {u} (n)
 def:	[{qep'a'} 2009]
-ref:	27 July 2009: {ghunchu'wI'} in email to tlhIngan-Hol ("News from Maltz")
-com:	FIXME shouldn't be included included in Klingon-English side of
-	dictionary
+ref:	[Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")]
+file:	2009-07-27-email.txt
 
 tlh:	{'uSgheb}
 pos:	n
@@ -22600,7 +22708,7 @@ SOURCES REFERENCES AND ABBREVIATIONS
     KCD    Star Trek: Klingon! (CD-ROM Game)
     MO     Marc Okrand (personally)
     HQ     HolQeD (Quarterly journal of KLI)
-    KLIML  KLI's mailing list, {tlhIngan-Hol}.
+    Email  An email (most commonly to "tlhingan-hol")
     News   Posting to any Klingon newsgroup (usually by MO himself) (Over
            time the names of these newsgroups have changed quite a bit.)
     S#     SkyBox trading card number #.
@@ -22622,6 +22730,14 @@ SOURCES REFERENCES AND ABBREVIATIONS
 
 HISTORY (LAST CHANGES FIRST)
 ============================
+
+    [2011-09-01] Added new words from {qep'a'} 2011 (from Alan Andersons
+    posting to tlhingan-hol in 2011-08-22-email.txt). Added enumerator on the
+    two occurances of {'ut}. Decided to keep all letter names in the
+    Klingon-English side of the pocket dictionary (and removed FIXMEs
+    corresponding to this). Fixed syntax of most 'ref' and 'def' fields -- and
+    wrote small program ('usr/bin/check-dict') to check this. Added 'def'
+    missing fields (for words *{jIn}, {ghetwI'} and {'uchHa'}).
 
     [2011-08-30] Added missing word "No'hvadut" (from KGT p.26)
 
