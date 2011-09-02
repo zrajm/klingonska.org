@@ -1223,8 +1223,8 @@ pos:	n
 sv:	«radio«frekvens»» (s)
 en:	«radio <frequency>», Hertz (n)
 def:	[KGT]
-com:	According to HQ1:3 p.9, this means "Hertz (frequency)".
 ref:	[TDNW]
+com:	According to HQ1:3 p.9, this means "Hertz (frequency)".
 file:	1997-11-01-kgt.txt
 
 tlh:	{chagh}
@@ -1502,11 +1502,11 @@ tlh:	{cheb'a'}
 pos:	n
 sv:	«vikt«enhet»», 9 «~cheb~» (cirka 20,25 «kilogram») (s)
 en:	«unit» of «weight», 9 «~cheb~» (about 45 «pound»s or 20.25 «kilogram»s) (n)
+def:	[News 1997-10-22; BoP]
 com:	(n) unit weight approx. 45--46.4 pounds (20.4--21.05 kg) (9--9.28 cheb)
 	[The numbers don't quite mesh, but this is the best I can figure
 	from different equivalences we've been given.] [BoP poster] (Added:
 	12 March 2002) [KLINW]
-def:	[News 1997-10-22; BoP]
 file:	1997-10-22-news.txt; 1998-11-01-bop.txt
 
 tlh:	{chech}
@@ -2331,9 +2331,9 @@ file:	1992-01-01-tkd.txt
 tlh:	{Daq}
 pos:	n
 sv:	«plats», «ställe» (s)
-en:	<site>, <location> (n)
-en-x:	<place>
+en:	<site>, <location>, «place» (n)
 def:	[TKDa]
+com:	"place" is included as a lookup synonym (does not occur in sources)
 file:	1992-01-01-tkd.txt
 
 tlh:	{Daqtagh}
@@ -3319,7 +3319,6 @@ en:	prematurely «end» (an event, e.g. a voyage, battle, song) (v)
 def:	[HQ12:2 p.8]
 ref:	[TDNW]
 gram:	{may' ghang SuvwI'} ~the warrior ends the battle prematurely;~ participants are subject
-see:	{van} (2), {Dor} (2)
 com:	"[...] {ghang}, is used to express the idea of a premature ending. If [...]
 	the voyage is cut short or the song is interrupted before the final
 	part is sung, one would say: {leng ghangDI' SuvwI'pu' 'IQ chaH} 'When
@@ -3327,6 +3326,7 @@ com:	"[...] {ghang}, is used to express the idea of a premature ending. If [...]
 	SuvwI'pu' tlhutlh chaH} 'When the warriors end the song prematurely,
 	they drink.' Note that the voyage and the song cannot end themselves.
 	Someone has to end them." [HQ12:2 p.8]
+see:	{van} (2), {Dor} (2)
 file:	2003-06-holqed-12-2.txt
 
 tlh:	{ghap}
@@ -5533,11 +5533,11 @@ sv:	«idag» (s)
 en:	«today» (n)
 def:	[TKW p.69]
 ref:	[TDNW]
-data:	derived form; mistaken form
-cat:	time
 com:	This word (meaning "this day") need not be part of the dictionary, it
 	is mostly famous for occuring in the Klingon proverb {Heghlu'meH QaQ
 	jajvam.} "It is a good day to die."
+cat:	time
+data:	derived form; mistaken form
 file:	1996-05-01-tkw.txt
 
 tlh:	{jan} (1)
@@ -7041,8 +7041,8 @@ sv:	«dörr», «grind», «port» (s)
 en:	<door>, <gate> (n)
 def:	[TKD]
 ref:	[TKW p.186; HQ12:2 p.7]
-data:	KLCP-1
 see:	{DIn}, {qa'rI'}
+data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
 tlh:	{lolSeHcha}
@@ -11906,11 +11906,11 @@ pos:	n
 sv:	«herr», «sir» (används endast i tilltal) (s)
 en:	<sir> (used only in direct address) (n)
 def:	[TKD]
-data:	KLCP-1
 com:	"The word {qaH} is interesting because it is never heard except in
 	direct address. Thus, while one might say {yoH qor HoD} ('Captain Kor
 	is brave') or {yoH HoD} ('The captain is brave'), one would never say
 	{yoH qaH} ('Sir is brave.')" [KGT p.198]
+data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qajunpaQ}
@@ -12171,7 +12171,6 @@ sv:	«slut», «ände» (på långsmalt avgränsat utrymme, t.ex. korridor, rör
 en:	«end» (of a long bounded space, e.g. corridor, conduit, road, bridge, field etc.) (n)
 def:	[HQ12:2 pp.7--8]
 ref:	[TDNW]
-see:	{DIn}, {lojmIt}
 com:	"For the end of a longish enclosed space that one is typically inside
 	or experiences from the inside, such as a corridor, tunnel, or conduit
 	(say, Jefferies tube or a branch of the sewers of Paris), a different
@@ -12183,6 +12182,7 @@ com:	"For the end of a longish enclosed space that one is typically inside
 	a square field.)" [HQ12:2 pp.7--8]
 pun:	Okrand confirmed that this is named after Kari, the mother of his twin
 	nieces Megan ({megh'an}) and Erin ({'er'In}). ({qep'a'} 2003)
+see:	{DIn}, {lojmIt}
 file:	2003-06-holqed-12-2.txt
 
 tlh:	{qa'vam}
@@ -13635,8 +13635,8 @@ pos:	n
 sv:	slät «spjutspets» (med en enda vass spets) (s)
 en:	plain «spearhead» (with single sharp point) (n)
 def:	[KGT p.64]
-data:	phrase
 cat:	fighting
+data:	phrase
 file:	1997-11-01-kgt.txt
 
 tlh:	{QIn vagh}
@@ -14423,8 +14423,8 @@ sv:	«alltid», «ständigt» (adv)
 en:	<always> (adv)
 def:	[TKD]
 ref:	[TKW pp.34, 49, 77, 79, 103, 123, 133, 141, 159, 170, 179, 200]
-cat:	time
 see:	{Hochlogh}
+cat:	time
 file:	1992-01-01-tkd.txt
 
 tlh:	{rejmorgh}
@@ -15185,9 +15185,9 @@ sv:	«rumpa», «bakdel» (s)
 en:	«ass», «rear end», «buttocks» (n)
 def:	[{qep'a'} 2003]
 ref:	[TDNW]
-cat:	body part
 com:	This word was revealed during a session of singing and dancing the
 	Hokey Pokey.
+cat:	body part
 
 tlh:	{Sa'Qej Sep}
 pos:	n
@@ -15327,11 +15327,11 @@ sv:	«öronvax» (s)
 en:	«earwax» (n)
 def:	[HQ12:4 p.9]
 ref:	[TDNW]
-see:	{qogh} "ear (external, cartilaginous flap)" (n); {teS} "ear (internal,
-	organ of hearing)" (n)
 com:	"Ears (at least healthy ones) produce no byproducts other than earwax
 	({Serrum}), which is said to somehow just {vI'} 'accumulate' in the
 	ear." [HQ12:4 p.9]
+see:	{qogh} "ear (external, cartilaginous flap)" (n); {teS} "ear (internal,
+	organ of hearing)" (n)
 file:	2003-12-holqed-12-4.txt
 
 tlh:	{SermanyuQ}
@@ -18001,7 +18001,6 @@ en:	«end» (an event, e.g. a voyage, battle, song) (v)
 def:	[HQ12:2 p.8]
 ref:	[TDNW]
 gram:	{may' van SuvwI'} ~the warrior ends the battle;~ participants are subject
-see:	{Dor} (2), {ghang}
 com:	"When an event over which one has some control ends (one can't cause a
 	month to end), a different verb is used: {van}. This would apply to
 	such things as voyages, battles, plays, operas, stories, and songs.
@@ -18016,6 +18015,7 @@ com:	"When an event over which one has some control ends (one can't cause a
 	[HQ12:2 p.8]; "Maltz said he wasn't sure whether {van} <end> and {van}
 	<salute> were really the same word, but he found it interesting that
 	Klingons end things by saluting them." [HQ12:2 p.8]
+see:	{Dor} (2), {ghang}
 file:	2003-06-holqed-12-2.txt
 
 tlh:	{van}
@@ -19419,8 +19419,8 @@ pos:	v
 sv:	vara «nog», vara «tillräcklig» (v)
 en:	be <enough>, be <sufficient> (v)
 def:	[TKD]
-com:	Entries differ and have been combined here.
 ref:	[TKW p.21]
+com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -19990,8 +19990,8 @@ pos:	v
 sv:	«förhöra», «fråga» ut (v)
 en:	<question>, <interrogate> (v)
 def:	[TKD]
-data:	KLCP-1
 pun:	Compare with {mIy}.
+data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
 tlh:	{yu'egh}
@@ -20217,7 +20217,6 @@ pos:	n
 sv:	«sektion», «del», «komponent», «bit», «stycke» (s)
 en:	<section>, <part>, <component>, <piece> (n)
 def:	[TKD; KGT]
-src:	"section" [TKD]; "part", "piece", "component" [KGT]
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{'eb}
@@ -20570,8 +20569,8 @@ sv:	«snor», «slem» (s)
 en:	«mucus» (n)
 def:	[HQ12:4 p.8]
 ref:	[TDNW]
-see:	{chuy}
 com:	booger
+see:	{chuy}
 file:	2003-12-holqed-12-4.txt
 
 tlh:	{'IqnaH QaD}
@@ -21001,9 +21000,9 @@ tlh:	{'uj'a'}
 pos:	n
 sv:	«längd«enhet»», stor «~uj~» (cirka 315 «centi«meter»») (s)
 en:	«unit» of linear «measure», big <~uj~> (about 315 «centi«meter»»s) (n)
-gram:	1 {'uj'a'} = 9 {'uj}
 def:	[News 1999-02-03]
 ref:	[TDNW]
+gram:	1 {'uj'a'} = 9 {'uj}
 file:	1999-02-03-news.txt
 
 tlh:	{'ul}

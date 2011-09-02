@@ -747,6 +747,30 @@ Priorities:
 *** TODO Add irregular plurals in dictionary (already done?)
 *** TODO KA logo on front
 *** DOING dict.zdb
+**** TODO Field for synonyms?
+     E.g. to make words easier to look up. E.g. {'IqnaH} has a 'com' field
+     specifying 'booger', which is a useful synonym for the purpose of
+     searching.
+
+     Some synonyms of this kind are already in dictionary. Search for "synonym"
+     in the 'com' field to find them.
+**** TODO Better listing of sources
+     Specificly, since the 'en' and 'sv' fields are created from different
+     sources, it would be desireble to list exactly which part of this fields
+     that come from what source. -- Maybe one should rework the syntax of these
+     fields?
+
+     Perhaps something like this?
+
+         tlh: {'ay'}
+         en: "section" [TKD]; "part", "piece", "component" [KGT]
+
+     or
+
+         tlh: {'ay'}
+         en: <section> [TKD]; <part>, <piece>, <component> [KGT]; «chapter»
+
+     Where "chapter" would then be a synonym (without support in canon).
 **** TODO Standardize tlhingan-hol mailing refereces
      As of now refereces to the tlhingan-hol mailing list vary in form. They
      should always look the same. Model them after the "News" references?
@@ -1036,6 +1060,11 @@ Priorities:
       e.g. "Kayvak", "digna", "ka'raj", "bregit", "Saurian", "raktaj"
 **** TODO Re-sort dictionary
 **** TODO Systematic corrections / new markup
+***** DONE Check/fix field sort order
+      CLOSED: [2011-09-02 Fri 13:50]
+***** DONE Remove illegal fields
+      One occurance of 'src', one of 'en-x'.
+      CLOSED: [2011-09-02 Fri 13:50]
 ***** DOING Move part-of-speech info into own field
       (removing trailing POS-definitions from the end of the english and
       swedish translation fields. (How should entries marked "(slang)" etc. be
@@ -1050,11 +1079,15 @@ Priorities:
        Yes it should. the search function should still allow for using the
        abbreviated forms (as specified in the pocket dictionary, e.g. pos:v,
        pos:conj).
-***** Remove brackets from "def" and "ref" fields.
+***** TODO Remove brackets from "def" and "ref" fields.
       (Are there any problems in doing this?)
-***** Abbreviate "MO at {qep'a'}" sources
+***** DONE Abbreviate "MO at {qep'a'}" sources
       "[MO at {qep'a' wa'maH cha'DIch}]" is not very pretty. Abbreviate? Or
       refer to written sources (both would be nice).
+
+      All new words given by Marc Okrand at {qep'a'mey} now have a source
+      reference of "{qep'a'} 2009" (or whichever year it was), rather than a
+      very lengthy description.
 ***** Add notes on puns from list
 ****** See email: "Reversals for puns" https://mail.google.com/mail/?shva=1#search/reversals+for+puns/dd76f056a011a30
 ****** http://www.kli.org/wiki/index.php?Puns%20in%20the%20Vocabulary%20of%20tlhIngan%20Hol
