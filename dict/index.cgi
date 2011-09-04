@@ -86,19 +86,31 @@ our %field = (
 );
 
 our @tips = (
-    "Example: <b>def:HQ10:4</b> lists all words first occuring in <b lang=\"tlh\">HolQeD</b> issue 10:4.",
-    "Prefixes: <b>tlh:</b> = Klingon, <b>en:</b> = English, <b>sv:</b> = Swedish, <b>pos:</b> = part-of-speech",
+    "Example: <b>def:HQ10:4</b> lists all words first occuring in " .
+        "<b lang=\"tlh\">HolQeD</b> issue 10:4.",
+    "Prefixes: <b>tlh:</b> = Klingon, <b>en:</b> = English, <b>sv:</b> = " .
+        "Swedish, <b>pos:</b> = part-of-speech",
     "Prefixes: <b>com:</b> = comment, <b>def:</b> = defining source, " .
         "<b>ref:</b> = source",
-    "Example: <b>tlh:*'egh</b> finds all Klingon words ending in <em>&rsquo;egh</em>",
-    "Example: <b>data:klcp</b> finds only <i>Klingon Language Certification Program</i> words.",
+    "Example: <b>tlh:*'egh</b> finds all Klingon words ending in " .
+        "<em>&rsquo;egh</em>",
+    "Example: <b>data:klcp</b> finds only <i>Klingon Language Certification " .
+        "Program</i> words.",
     "Example: <b>def:kgt</b> lists all words first defined in KGT.",
-    "Put <b>tlh:</b> before a word to search in Klingon definitions.",
-    "Put <b>sv:</b> before a word to search in Swedish definitions.",
-    "Put <b>en:</b> before a word to search in English definitions.",
-    "Use <b>pos:n</b> to find only <i>nouns,</i> <b>pos:v</b> for only <i>verbs,</i> etc.",
-    "Use <b>*</b> to mean any sequence of letters.",
-    "Use <b>\"...\"</b> to search for a phrase.",
+    "Put <b>tlh:</b> before a word to search only in Klingon definitions.",
+    "Put <b>sv:</b> before a word to search only in Swedish definitions.",
+    "Put <b>en:</b> before a word to search only in English definitions.",
+    'Use <b>pos:n</b> to search for <i>nouns,</i> <b>pos:v</b> for ' .
+        '<i>verbs</i> etc (see <i><a href="intro.html">Introduction</a></i> ' .
+        'for abbreviations).</i>',
+    'Use <b>pos:ns2</b> to find only <i>noun suffixes type 2</i> (use any ' .
+        'numbers 1&ndash;5).',
+    'Use <b>pos:vs1</b> to find only <i>verb suffixes type 1</i> (use ' .
+        'numbers <i>1&ndash;9</i> or letter <i>r</i>).',
+    'Use <b>pos:vsr</b> or <b>pos:rover</b> to search for <i>verb suffix ' .
+        'rovers</i>.',
+    'Use <b>*</b> to mean any sequence of letters.',
+    'Use <b>"..."</b> to search for several words in a row.',
 );
 
 
@@ -120,7 +132,7 @@ sub read_dictionary {
     my @buf = ();
     while (<$fh>) {
         # terminate at file footer
-        last if $_ eq "=== end-of-word-list ===\n";
+        last if $_ eq "=== end-of-suffix-list ===\n";
         chomp();
         # beginning of a new post
         if (s/^(:|\s*$)//) {                  # beginning of new post?
@@ -156,6 +168,35 @@ sub split_query {
     my ($query) = @_;
     # split query into words and quoted strings
     my @subquery = $query =~ m/( [^\s"]+(?:"[^"]+"?)? | "[^"]+"? )/xg;
+    my %pos = (
+        v    => qr/verb/,
+        n    => qr/noun/,
+        name => qr/name/,
+        adv  => qr/adverbial/,
+        conj => qr/conjuction/,
+        excl => qr/exclamation/,
+        num  => qr/numeral/,
+        pro  => qr/pronoun/,
+        ques => qr/question word/,
+        ns1  => qr/noun suffix type 1/,
+        ns2  => qr/noun suffix type 2/,
+        ns3  => qr/noun suffix type 3/,
+        ns4  => qr/noun suffix type 4/,
+        ns5  => qr/noun suffix type 5/,
+        vp   => qr/verb prefix/,
+        vsr  => qr/verb suffix type rover/,
+        vs1  => qr/verb suffix type 1/,
+        vs2  => qr/verb suffix type 2/,
+        vs3  => qr/verb suffix type 3/,
+        vs4  => qr/verb suffix type 4/,
+        vs5  => qr/verb suffix type 5/,
+        vs6  => qr/verb suffix type 6/,
+        vs7  => qr/verb suffix type 7/,
+        vs8  => qr/verb suffix type 8/,
+        vs9  => qr/verb suffix type 9/,
+        number => qr/numeral/,
+        rover  => qr/verb suffix type rover/,
+    );
     # turn subqueries into regexes
     for (@subquery) {
         # split subquery into field name & search phrase
@@ -164,7 +205,10 @@ sub split_query {
         $field  = defined($field) ? quotemeta(lc($field)) : "[^:]*";
         $phrase = quotemeta($phrase);
         # all fields are case-insensetive, except "tlh"
-        if ($field eq "tlh") {
+        my $lcphrase = lc $phrase;
+        if ($field eq "pos" and exists($pos{$lcphrase})) {
+            $_ = qr/($field:)\t($pos{$lcphrase})$/m;
+        } elsif ($field eq "tlh") {
             my $w = "[\\w']";  # word character class
             # replace asterisks and spaces
             for ($phrase) { s/\\\*/$w*/g; s/\s+/\\s+/g; }
@@ -222,7 +266,7 @@ page</a>.</p>
   </tr>
   <tr>
     <td class="center"><b>tlh:</b>...&nbsp;</td>
-    <td>search Klingon definitions (case sensetive!)</td>
+    <td>search Klingon definitions <i>(case sensetive)</i></td>
   </tr>
   <tr>
     <td class="center"><b>en:</b>...&nbsp;</td>
@@ -234,7 +278,7 @@ page</a>.</p>
   </tr>
   <tr>
     <td class="center"><b>pos:</b>...&nbsp;</td>
-    <td>search part-of-speech field</td>
+    <td>search part-of-speech field<br />(use abbrev from <i><a href="intro.html">Introduction</a></i>, <i>ns#,</i> <i>vs#</i> or free text)</td>
   </tr>
   <tr>
     <td class="center"><b>def:</b>...&nbsp;</td>
@@ -246,11 +290,10 @@ page</a>.</p>
   </tr>
 </table>
 
-<p>A search word that is not preceeded by a colon prefix will look through all
-data case-insensitively &ndash; even the Klingon data. Thus
-<b>hej</b> will find the Klingon word for &ldquo;rob&rdquo;, while
-<b>tlh:hej</b> does case-sensetive search and find nothing at
-all.</p>
+<p>A search word without one of the above prefixes prefix is always
+case-insensetive. Thus a search for &lsquo;hej&rsquo; will find the Klingon
+word <i>rob,</i> but a search for &lsquo;tlh:hej&rsquo; is case-sensetive and
+will find nothing at all.</p>
 
 EOF
 }

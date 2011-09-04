@@ -1062,10 +1062,15 @@ Priorities:
        CLOSED: [2011-08-29 Mon 19:01]
 ****** TODO Remove part-of-speech markers in 'en:' and 'sv:' fields
        How will pocket dictionary extractor will have to be modified
-****** TODO Should 'pos:' field have 'noun' instead as value of 'n' (etc.)?
-       Yes it should. the search function should still allow for using the
-       abbreviated forms (as specified in the pocket dictionary, e.g. pos:v,
-       pos:conj).
+****** DONE Have 'verb', 'noun' etc. as values for 'pos' field (no abbrev)
+       CLOSED: [2011-09-05 Mon 00:31]
+       No longer use abbreviations in the 'pos' field, and adjusted
+       'lexicon.cgi' to expand the abbreviations used in the pocket dictionary
+       to the full description use in the online dictionary.
+
+       Using 'pos:v' when searching finds only 'pos' fields with a value of
+       'verb', while 'pos:verb' will find any 'pos' field *containing* the word
+       'verb' (e.g. 'verb suffix type rover').
 ***** DONE Remove brackets from "def" and "ref" fields.
       CLOSED: [2011-09-04 Sun 16:56]
       This will require minor re-write of the program used to extract words for
