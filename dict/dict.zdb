@@ -320,7 +320,7 @@ pos:	n
 sv:	namn på klingonskans {b}-ljud (s)
 en:	name of klingon sound {b} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{ba'}
@@ -580,8 +580,8 @@ tlh:	{be'nI'nal}
 pos:	n
 sv:	«svägerska» (s) (exempel på felaktig användning)
 en:	«sister-in-law» (n) (example of incorrect use)
-def:	Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")
-ref:	Email 2010-12-22 (by {Quvar}, to tlhingan-hol, "latlh 'e'nalpu'")
+def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from Maltz")
+ref:	Email 2010-12-22 (by Lieven L. Litaer, to tlhingan-hol, "latlh 'e'nalpu'")
 com:	DON'T USE THIS WORD. Use {loDnI' be'nal} and {be'nI' be'nal} instead.
 data:	incorrect form; derived form
 file:	2010-12-25-email.txt; 2010-12-22-email.txt
@@ -1091,9 +1091,11 @@ tlh:	{buq}
 pos:	n
 sv:	«påse», «säck», «pung», «ficka» (s)
 en:	«bag», «sack», «pouch», «pocket» (n)
-def:	Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")
-ref:	Email 2010-12-07 (by {Quvar}, to tlhingan-hol, "News from Maltz")
-file:	2010-12-25-email.txt; 2010-12-07-email.txt
+def:	{qep'a'} 2010
+ref:	Email 2010-12-07 (by Lieven L. Litaer, to tlhingan-hol, "News from
+	Maltz"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol,
+	"Letter from Maltz")
+file:	2010-12-07-email.txt; 2010-12-25-email.txt
 
 tlh:	{buQ}
 pos:	v
@@ -1407,7 +1409,7 @@ pos:	n
 sv:	namn på klingonskans {ch}-ljud (s)
 en:	name of klingon sound {ch} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{chay'}
@@ -2377,8 +2379,9 @@ pos:	n
 sv:	«känga», «stövel» (s)
 en:	<boot> (n)
 def:	TKD
+ref:	{qep'a'} 1996
 pun:	"Das Boot"! "Last year, I asked Marc Okrand if it was intentional;
-	he said yes." ({ghunchu'wI'}, {qep'a' wejDIch} [1996])
+	he said yes." (Alan Anderson, {qep'a'} 1996)
 cat:	clothing
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
@@ -2435,7 +2438,7 @@ pos:	n
 sv:	namn på klingonskans {D}-ljud (s)
 en:	name of klingon sound {D} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{DayquS}
@@ -3412,7 +3415,7 @@ pos:	n
 sv:	namn på klingonskans {gh}-ljud (s)
 en:	name of klingon sound {gh} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{ghaytan}
@@ -3643,16 +3646,16 @@ tlh:	{ghIn}
 pos:	n
 sv:	«kloster» (s)
 en:	<monastery> (n)
-def:	Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")
-ref:	Email 2010-12-19 (by {Quvar}, to tlhingan-hol, "monastery");
-        Email 2011-01-16 (by {Quvar}, to tlhingan-hol, "monastery: more")
+def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from Maltz")
+ref:	Email 2010-12-19 (by Lieven L. Litaer, to tlhingan-hol, "monastery");
+	Email 2011-01-16 (by Lieven L. Litaer, to tlhingan-hol, "monastery: more")
 com:	"The word for monastery is {ghIn}. [...] A {ghIn'a'} would be a pretty
 	important monastery, for example. {ghIn} would be a single building if
 	that's all the monastery was, it could also refer to a group of
 	buildings and accompanying grounds (gardens or whatever) -- the whole
 	defined area where the members of the religious community live or work
 	or do whatever they do there. It doesn't mean the group of people."
-	/Quvar
+	/Lieven L. Litaer
 file:	2010-12-25-email.txt; 2010-12-19-email.txt; 2011-01-16-email.txt
 
 tlh:	{ghIntaq}
@@ -4410,7 +4413,7 @@ pos:	n
 sv:	namn på klingonskans {H}-ljud (s)
 en:	name of klingon sound {H} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{Hay'}
@@ -4745,7 +4748,7 @@ def:	TKD 5.5 (p.57) et al.
 com:	In ST3: Only Cathie Shirriff (Valkris) was filmed without benefit of
 	on-set coaching. It's her peculiar take on pronunciation which gives us
 	the variant words {jaw} for "lord" and {HISlaH} for "yes".
-	/{ghunchu'wI'} in email to tlhingan-hol mailing list, 2011-08-29
+	/Alan Anderson in email to tlhingan-hol mailing list, 2011-08-29
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -5273,7 +5276,8 @@ tlh:	{Hun}
 pos:	n
 sv:	ett slags «djur», «~khrun~» (s)
 en:	type of «animal», «~khrun~» (n)
-def:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
+def:	{qep'a'} 2011
+ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
 	from qep'a' 18")
 com:	I didn't read that section of the opera myself, but I think I heard
 	someone say it was a fast animal. The khrun is described in other
@@ -5692,7 +5696,7 @@ def:	TKD
 com:	In ST3: Only Cathie Shirriff (Valkris) was filmed without benefit of
 	on-set coaching. It's her peculiar take on pronunciation which gives us
 	the variant words {jaw} for "lord" and {HISlaH} for "yes".
-	/{ghunchu'wI'} in email to tlhingan-hol mailing list, 2011-08-29
+	/Alan Anderson in email to tlhingan-hol mailing list, 2011-08-29
 file:	1992-01-01-tkd.txt
 
 tlh:	{jay}
@@ -5700,7 +5704,7 @@ pos:	n
 sv:	namn på klingonskans {j}-ljud (s)
 en:	name of klingon sound {j} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{jay'}
@@ -5960,8 +5964,9 @@ pos:	n
 sv:	«granne» (s)
 en:	<neighbor> (n)
 def:	TKD
-pun:	Okrand confirmed at {qep'a' wejDIch} (1996) that he had a neighbor
-	named "Jill." ({Qov})
+ref:	{qep'a'} 1996
+pun:	Okrand confirmed at {qep'a'} 1996 that he had a neighbor named "Jill."
+	(Robyn Stewart)
 file:	1992-01-01-tkd.txt
 
 tlh:	{jIn}
@@ -6356,7 +6361,8 @@ tlh:	{jul}
 pos:	n
 sv:	«sol» (generell term) (s)
 en:	«sun» (general term) (n)
-def:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
+def:	{qep'a'} 2011
+ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
 	from qep'a' 18")
 com:	This is a general term for a planet's sun. It is not the name of a
 	specific sun. /Alan Anderson
@@ -6562,7 +6568,7 @@ pos:	n
 sv:	namn på klingonskans {l}-ljud (s)
 en:	name of klingon sound {l} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{lay'}
@@ -6778,9 +6784,10 @@ tlh:	{le'yo'}
 pos:	n
 sv:	«stolthet» (s)
 en:	«pride» (n)
-def:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
+def:	{qep'a'} 2011
+ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
 	from qep'a' 18")
-com:	Just to be clear, this describes an emotion, as opposed to a tribe of
+com:	Just to be clear, this describes an emotion, as opposed to a pribe of
 	lions. /Alan Anderson
 file:	2011-08-22-email.txt
 
@@ -6991,8 +6998,8 @@ tlh:	{loDnI'nal}
 pos:	n
 sv:	«svåger» (s) (exempel på felaktig användning)
 en:	«brother-in-law» (n) (example of incorrect use)
-def:	Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")
-ref:	Email 2010-12-22 (by {Quvar}, to tlhingan-hol, "latlh 'e'nalpu'")
+def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from Maltz")
+ref:	Email 2010-12-22 (by Lieven L. Litaer, to tlhingan-hol, "latlh 'e'nalpu'")
 com:	DON'T USE THIS WORD. Use {loDnI' loDnal} or {be'nI' loDnal} instead.
 data:	incorrect form; derived form
 file:	2010-12-25-email.txt; 2010-12-22-email.txt
@@ -7309,10 +7316,12 @@ tlh:	{luHwI' tIH}
 pos:	n
 sv:	«dragstråle» (s)
 en:	«tractor beam» (n)
-def:	Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")
-ref:	Email 2010-12-13 (by {Quvar}, to tlhingan-hol, "tractor beam")
+def:	{qep'a'} 2010
+ref:	Email 2010-12-13 (by Lieven L. Litaer, to tlhingan-hol, "tractor
+	beam"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter
+	from Maltz")
 data:	phrase; derived form
-file:	2010-12-25-email.txt; 2010-12-13-email.txt
+file:	2010-12-13-email.txt; 2010-12-25-email.txt
 
 tlh:	{luj}
 pos:	v
@@ -7701,7 +7710,7 @@ pos:	n
 sv:	namn på klingonskans {m}-ljud (s)
 en:	name of klingon sound {m} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{may'}
@@ -8012,16 +8021,18 @@ tlh:	{mIllogh}
 pos:	n
 sv:	«bild» (ritning, foto, serieteckning, datorikon, etc) (s)
 en:	«picture» (drawing, photo, cartoon, computer icons, etc) (n)
-def:	Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")
-ref:	Email 2010-12-05 (by R Fenwick, to tlhingan-hol, "{latlh mu' chu'}")
+def:	{qep'a'} 2010
+ref:	Email 2010-12-05 (by R Fenwick, to tlhingan-hol, "latlh mu' chu'");
+	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from
+	Maltz")
 com:	Lieven Litaer: Finally, someone last year asked for the word for
-	"picture." At first, Maltz wondered why nagh beQ wasn't good enough.
+	"picture." At first, Maltz wondered why {nagh beQ} wasn't good enough.
 	But then he thought about it some more and said that another word,
-	mIllogh, could be used for any sort of depiction, including drawings,
+	{mIllogh}, could be used for any sort of depiction, including drawings,
 	photographs, cartoons, icons on 21st-century computers, and so on.
 	(Marc Okrand) Tuesday [30 November 2010] at 10:51pm · Unlike · 6 people
 	[http://www.facebook.com/home.php?sk=group_165201996829401]
-file:	2010-12-25-email.txt; 2010-12-05-email.txt
+file:	2010-12-05-email.txt; 2010-12-25-email.txt
 
 tlh:	{mIl'oD}
 pos:	n
@@ -8072,9 +8083,10 @@ pos:	v
 sv:	«steka», «fritera» (v)
 en:	<fry>, <deep-fry> (v)
 def:	KGT
+ref:	{qep'a'} 1997
 com:	Entries differ in source. One of the E-K entries is used here.
 pun:	"Marc nodded, smiling infuriatingly, to confirm {mIQ} (deep fry) as in
-	mIQ-Donald's french fries." ({Qov}, {qep'a' loSDIch} [1997])
+	mIQ-Donald's french fries." (Robyn Stewart, {qep'a'} 1997)
 file:	1997-11-01-kgt.txt
 
 tlh:	{mIQ}
@@ -8300,9 +8312,9 @@ pos:	v
 sv:	«le», «grina», «hånle» (v)
 en:	<smile>, <grin>, «sneer» (v)
 def:	KGT
-ref:	TKW p.167
-pun:	"Mona Lisa" ({mon'a'} "Is she smiling?") Confirmed by MO at {qep'a'
-	wejDIch} (1996).
+ref:	TKW p.167; {qep'a'} 1996
+pun:	"Mona Lisa" ({mon'a'} "Is she smiling?") Confirmed by MO at {qep'a'}
+	1996.
 file:	1997-11-01-kgt.txt
 
 tlh:	{mon}
@@ -9100,8 +9112,9 @@ pos:	v
 sv:	«gifta» sig med (hustru gör detta) (v)
 en:	<marry> (wife does this) (v)
 def:	TKD
-pun:	Okrand confirmed at {qep'a' loSDIch} (1997) that {nay} came from "nay"
-	(no). (HetaQ)
+ref:	{qep'a'} 1997
+pun:	Okrand confirmed at {qep'a'} 1997 that {nay} came from "nay" (no).
+	(Chet Braun)
 cat:	family
 file:	1992-01-01-tkd.txt
 
@@ -9110,7 +9123,7 @@ pos:	n
 sv:	namn på klingonskans {n}-ljud (s)
 en:	name of klingon sound {n} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{nay'}
@@ -10132,7 +10145,7 @@ pos:	n
 sv:	namn på klingonskans {ng}-ljud (s)
 en:	name of klingon sound {ng} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{nga'chuq}
@@ -10310,7 +10323,8 @@ tlh:	{ngIq}
 pos:	n
 sv:	«enda en», «enstaka en» (s)
 en:	«singular one», «individual one» (n)
-def:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
+def:	{qep'a'} 2011
+ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
 	from qep'a' 18")
 com:	There were two distinct examples of this word's use seen in the opera.
 	One of them was obviously detailing how a group of warriors was killed
@@ -10356,22 +10370,26 @@ tlh:	{ngogh}
 pos:	n
 sv:	«block», «klump», «kloss» (s)
 en:	«block», «lump», «brick» (n)
-def:	Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")
-ref:	Email 2010-12-22 (by {Quvar}, to tlhingan-hol, "latlh 'e'nalpu'")
-file:	2010-12-25-email.txt; 2010-12-22-email.txt
+def:	{qep'a'} 2010
+ref:	Email 2010-12-22 (by Lieven L. Litaer, to tlhingan-hol, "latlh
+	'e'nalpu'"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol,
+	"Letter from Maltz");
+file:	2010-12-22-email.txt; 2010-12-25-email.txt
 
 tlh:	{ngogh tun}
 pos:	n
 sv:	«kudde» (s)
 en:	«pillow» (n)
-def:	Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")
-ref:	Email 2010-12-07 (by {Quvar}, to tlhingan-hol, "News from Maltz")
+def:	{qep'a'} 2010
+ref:	Email 2010-12-07 (by Lieven L. Litaer, to tlhingan-hol, "News from
+	Maltz"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol,
+	"Letter from Maltz")
 com:	"Maltz first said, as did you, that Klingons don't have pillows and he
 	wondered why anyone would want one. But he's seen them (somewhere) and
 	knows what they are. So when pushed -- 'If you have to call it
 	something, what would you call it?' -- he said {ngogh tun}."
 data:	phrase; derived form
-file:	2010-12-25-email.txt; 2010-12-07-email.txt
+file:	2010-12-07-email.txt; 2010-12-25-email.txt
 
 tlh:	{ngoH} (1)
 pos:	v
@@ -10654,7 +10672,8 @@ tlh:	{pan}
 pos:	v
 sv:	«gnistra», «avge gnistor» (v)
 en:	«spark», «emit sparks» (v)
-def:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
+def:	{qep'a'} 2011
+ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
 	from qep'a' 18")
 com:	As the duel between Kahless and Molor continues, the opera repeats a
 	phrase several times: {pan qeylIS betleH 'ej jach molor 'etlh}
@@ -10795,7 +10814,7 @@ pos:	n
 sv:	namn på klingonskans {p}-ljud (s)
 en:	name of klingon sound {p} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{pay'}
@@ -11815,7 +11834,7 @@ pos:	n
 sv:	«karta» (s)
 en:	«map» (n)
 def:	{qep'a'} 2007
-ref:	Email 2008-07-29 (by {ghunchu'wI'}, to tlhingan-hol)
+ref:	Email 2008-07-29 (by Alan Anderson, to tlhingan-hol)
 com:	Marc said that {pu'jIn} is a pun/joke, but it was a personal reference
 	(presumably similar to {jIl} or {pe'vIl}), so it wouldn't be something
 	we'd get. (Tad, email to tlhingan-hol 3 August 2007)
@@ -11898,7 +11917,7 @@ pos:	n
 sv:	namn på klingonskans {'}-ljud (s)
 en:	name of klingon sound {'} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{qaH}
@@ -12119,7 +12138,7 @@ pos:	n
 sv:	namn på klingonskans {q}-ljud (s)
 en:	name of klingon sound {q} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{qaywI'}
@@ -12686,7 +12705,7 @@ sv:	«kärna», «hjärta» (s)
 en:	«core», «heart» (n)
 def:	{qep'a'} 2007
 com:	John Colicos (1928--2000) is the name of the Canadian actor who played
-	"Kor". ({Qov}, email to tlhingan-hol 2 August 2007)
+	"Kor". (Robyn Stewart, email to tlhingan-hol 2 August 2007)
 
 tlh:	{qompogh}
 pos:	n
@@ -13340,7 +13359,7 @@ pos:	n
 sv:	namn på klingonskans {Q}-ljud (s)
 en:	name of klingon sound {Q} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{Qay'}
@@ -13619,7 +13638,8 @@ tlh:	{QIncha'}
 pos:	n
 sv:	ett slags «djur», «~krincha~» (s)
 en:	type of «animal», «~krincha~» (n)
-def:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
+def:	{qep'a'} 2011
+ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
 	from qep'a' 18")
 com:	The English accompanying the opera said "Krincha, short and fierce". I
 	found references to a "krencha" in several places, including the KLI's
@@ -13846,10 +13866,12 @@ tlh:	{QongDaq buq}
 pos:	n
 sv:	«kudde», «sängpåse» (s)
 en:	«pillow», «bed pouch» (n)
-def:	Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")
-ref:	Email 2010-12-07 (by {Quvar}, to tlhingan-hol, "News from Maltz")
+def:	{qep'a'} 2010
+ref:	Email 2010-12-07 (by Lieven L. Litaer, to tlhingan-hol, "News from
+	Maltz"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol,
+	"Letter from Maltz")
 data:	phrase; derived form
-file:	2010-12-25-email.txt; 2010-12-07-email.txt
+file:	2010-12-07-email.txt; 2010-12-25-email.txt
 
 tlh:	{Qop} (1)
 pos:	v
@@ -13946,7 +13968,7 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{Qotlh}
 pos:	v
-sv:	«odugliggöra», «invalidisera» (v)
+sv:	«odugliggöra», «oskadliggöra» (v)
 en:	<disable> (v)
 def:	TKD
 file:	1992-01-01-tkd.txt
@@ -14319,7 +14341,7 @@ pos:	n
 sv:	namn på klingonskans {r}-ljud (s)
 en:	name of klingon sound {r} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{ray'}
@@ -15133,8 +15155,9 @@ pos:	v
 sv:	«gifta» sig med (make gör detta) (v)
 en:	<marry> (husband does this) (v)
 def:	TKD
-pun:	Okrand confirmed at {qep'a' loSDIch} (1997) that {Saw} came from "sure"
-	with a Southern drawl. (HetaQ)
+ref:	{qep'a'} 1997
+pun:	Okrand confirmed at {qep'a'} 1997 that {Saw} came from "sure" with a
+	Southern drawl. (Chet Braun)
 cat:	family
 file:	1992-01-01-tkd.txt
 
@@ -15150,7 +15173,7 @@ pos:	n
 sv:	namn på klingonskans {S}-ljud (s)
 en:	name of klingon sound {S} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{Say'}
@@ -16341,7 +16364,7 @@ pos:	n
 sv:	namn på klingonskans {t}-ljud (s)
 en:	name of klingon sound {t} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{taymoH}
@@ -16655,8 +16678,8 @@ sv:	vara «nervös», vara «rastlös» (v)
 en:	be «nervous», be «uneasy» (v)
 def:	KGT p.132
 gram:	incorrect form of {bIt}
-com:	WARNING - DON'T USE THIS WORD. It is a typo for {bIt} (maHvatlh:
-	confirmed as unintentional by MO at {qep'a' SochDIch} [2000]).
+com:	WARNING - DON'T USE THIS WORD. It is a typo for {bIt} (Zrajm C Akfohg:
+	confirmed as unintentional by MO at {qep'a'} 2000).
 see:	{jotHa'}; {bIt} (correct form)
 data:	mistaken form
 file:	1997-11-01-kgt.txt
@@ -16803,7 +16826,7 @@ tlh:	{tIr ngogh}
 pos:	n
 sv:	«bröd» (s)
 en:	«bread» (n)
-def:	Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")
+def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from Maltz")
 data:	phrase
 file:	2010-12-25-email.txt
 
@@ -17446,7 +17469,7 @@ pos:	n
 sv:	namn på klingonskans {tlh}-ljud (s)
 en:	name of klingon sound {tlh} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{tlha'}
@@ -18141,7 +18164,7 @@ pos:	n
 sv:	namn på klingonskans {v}-ljud (s)
 en:	name of klingon sound {v} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{vay'}
@@ -18830,7 +18853,7 @@ pos:	n
 sv:	namn på klingonskans {w}-ljud (s)
 en:	name of klingon sound {w} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{way'}
@@ -19009,11 +19032,13 @@ tlh:	{wep buq}
 pos:	n
 sv:	«jack«påse»», «rock«ficka»» (s)
 en:	«jacket «pouch»», «coat «pocket»» (n)
-def:	Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")
-ref:	Email 2010-12-07 (by {Quvar}, to tlhingan-hol, "News from Maltz")
+def:	{qep'a'} 2010
+ref:	Email 2010-12-07 (by Lieven L. Litaer, to tlhingan-hol, "News from
+	Maltz"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol,
+	"Letter from Maltz")
 cat:	clothing
 data:	phrase; derived form
-file:	2010-12-25-email.txt; 2010-12-07-email.txt
+file:	2010-12-07-email.txt; 2010-12-25-email.txt
 
 tlh:	{weq}
 pos:	v
@@ -19166,14 +19191,14 @@ en:	<sterilize> (v)
 def:	KGT
 com:	Oops! MO seem to have canonified an error occuring on KLI's list of new
 	words, originally caused by a slip of the eye while reading/
-	transcribing the {veS QonoS} list in HQ1:3 p.9. {maHvatlh}: Actually,
-	when I was at the {qep'a' SochDIch} (2000), Will Martin told me that
+	transcribing the {veS QonoS} list in HQ1:3 p.9. Zrajm C Akfohg:
+	Actually, when I was at the {qep'a'} 2000, Will Martin told me that
 	this error was *his* fault, since he was the one who read the {veS
 	QonoS} list wrong when writing his dictionary. He gave a copy of this
 	dictionary to MO, who as a kind of a joke incorporated the error into
 	the language.
 see:	{Say'qu'moH} (synonym)
-file:	1997-11-01-kgt.txt
+file:	1997-11-01-kgt.txt; 1992-09-holqed-01-3.txt
 
 tlh:	{woj}
 pos:	n
@@ -19477,7 +19502,7 @@ pos:	n
 sv:	namn på klingonskans {y}-ljud (s)
 en:	name of klingon sound {y} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{yay'}
@@ -19651,7 +19676,8 @@ tlh:	{yIr}
 pos:	v
 sv:	«samla» ihop, «plocka» ihop (v)
 en:	«gather» (v)
-def:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
+def:	{qep'a'} 2011
+ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
 	from qep'a' 18")
 com:	This was used in a command for a warrior to gather his armor and
 	weapons before a battle. Before seeing this word, I might have used
@@ -19799,15 +19825,17 @@ def:	TKD
 cat:	clothing
 file:	1992-01-01-tkd.txt
 
-tlh:	{wep buq}
+tlh:	{yopwaH buq}
 pos:	n
 sv:	byx«pung», byx«ficka» (s)
 en:	«pants «pouch»», «trouser «pocket»» (n)
-def:	Email 2010-12-25 (by {Quvar}, to tlhingan-hol, "Letter from Maltz")
-ref:	Email 2010-12-07 (by {Quvar}, to tlhingan-hol, "News from Maltz")
+def:	{qep'a'} 2010
+ref:	Email 2010-12-07 (by Lieven L. Litaer, to tlhingan-hol, "News from
+	Maltz"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol,
+	"Letter from Maltz")
 cat:	clothing
 data:	phrase; derived form
-file:	2010-12-25-email.txt; 2010-12-07-email.txt
+file:	2010-12-07-email.txt; 2010-12-25-email.txt
 
 tlh:	{yoq}
 pos:	n
@@ -19899,6 +19927,20 @@ en:	<chocolate> (n)
 def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+
+tlh:	{yuch ngogh}
+pos:	n
+sv:	«chokladkaka» (s)
+en:	<chocolate bar> (n)
+def:	{qep'a'} 2010
+ref:	Email 2010-12-07 (by Lieven L. Litaer, to tlhingan-hol, "News from
+	Maltz"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol,
+	"Letter from Maltz")
+com:	He [Maltz] said he's seen humans eating {yuch ngoghmey} and found that
+	strange. I'm not sure what form he'd prefer his {yuch} to be. (part of
+	an email from Marc Okrand)
+data:	phrase; derived form
+file:	2010-12-07-email.txt; 2010-12-25-email.txt
 
 tlh:	{yuD}
 pos:	v
@@ -20317,7 +20359,7 @@ pos:	n
 sv:	«oväntad «gäst»» (s)
 en:	«unexpected «visitor»» (n)
 def:	{qep'a'} 2007
-ref:	Email 2008-07-29 (by {ghunchu'wI'}, to tlhingan-hol)
+ref:	Email 2008-07-29 (by Alan Anderson, to tlhingan-hol)
 file:	2008-07-29-email.txt
 
 tlh:	{'elpI'}
@@ -20686,7 +20728,8 @@ tlh:	{'o}
 pos:	excl
 sv:	«O» (före namn i tilltal) (interj)
 en:	«O» (before a name in direct address) (excl)
-def:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
+def:	{qep'a'} 2011
+ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
 	from qep'a' 18")
 com:	Appears before a name used as direct address. As we saw it used, it
 	acted a little like a vocative prefix: {'o qeylIS, qeylIS, qeylIS...}
@@ -21010,10 +21053,11 @@ pos:	n
 sv:	«elektricitet» (s)
 en:	<electricity> (n)
 def:	KGT
-pun:	At {qep'a' loSDIch} (1997) Okrand confirmed the suspicion of a list
-	member about its origin: electronic goods sold in the United States
-	have a sticker on them saying UL ("Underwriter's Laboratory") showing
-	they meet industry safety standards. ({Qov})
+ref:	{qep'a'} 1997
+pun:	At {qep'a'} 1997 Okrand confirmed the suspicion of a list member about
+	its origin: electronic goods sold in the United States have a sticker
+	on them saying UL ("Underwriter's Laboratory") showing they meet
+	industry safety standards. (Robyn Stewart)
 file:	1997-11-01-kgt.txt
 
 tlh:	{'um}
@@ -21420,7 +21464,7 @@ pos:	n
 sv:	¿?«fartgupp», «vägbula» (s)
 en:	¿?«speed bump» (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 com:	"The noun {vIl} is hard to define. Maltz had given a description of
 	something which was immediately recognized as a speed bump by everyone
 	present, but it was apparently intended not as an actual definition but
@@ -21436,7 +21480,7 @@ pos:	n
 sv:	«underhuggare», servil «tjänare» (s)
 en:	«minion» (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{vIlInHoD}
@@ -21458,7 +21502,8 @@ tlh:	{wel}
 pos:	v
 sv:	stå i «skuld» till (v)
 en:	«owe» (someone) (v)
-def:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
+def:	{qep'a'} 2011
+ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
 	from qep'a' 18")
 com:	When someone has earned a reward but the prize is not yet available to
 	be given, the person in charge of presenting it can say {qawel} "I owe
@@ -21489,7 +21534,7 @@ pos:	n
 sv:	namn på klingonskans {a}-ljud (s)
 en:	name of klingon sound {a} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{'et}
@@ -21497,7 +21542,7 @@ pos:	n
 sv:	namn på klingonskans {e}-ljud (s)
 en:	name of klingon sound {e} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{'It}
@@ -21505,7 +21550,7 @@ pos:	n
 sv:	namn på klingonskans {I}-ljud (s)
 en:	name of klingon sound {I} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{'ot}
@@ -21513,7 +21558,7 @@ pos:	n
 sv:	namn på klingonskans {o}-ljud (s)
 en:	name of klingon sound {o} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{'ut} (2)
@@ -21521,7 +21566,7 @@ pos:	n
 sv:	namn på klingonskans {u}-ljud (s)
 en:	name of klingon sound {u} (n)
 def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by {ghunchu'wI'}, to tlhingan-hol, "News from Maltz")
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
 tlh:	{'uSgheb}
@@ -22562,25 +22607,25 @@ MO attended[1].
 
 * New word: {nughI'} "twist knuckle into someone's head" (v)
 * New meaning: {ngech} "woman's cleavage" (source?)
-* Pun: "DaS boot" confirmed as intentional ({ghunchu'wI'})
-* Pun: MO had a neighbor named Jill ({Qov})
+* Pun: "DaS boot" confirmed as intentional (Alan Anderson)
+* Pun: MO had a neighbor named Jill (Robyn Stewart)
 * Pun: {mon'a'} "Is she smiling?" (source?).
 
 1997 -- {qep'a' loSDIch}
 ------------------------
 MO attended -- winner of contest got to request a word[1][4].
 
-* Pun: {mIQ} "deep fry" is as in "{mIQ}-Donald's french fries" ({Qov}).
+* Pun: {mIQ} "deep fry" is as in "{mIQ}-Donald's french fries" (Robyn Stewart)
 * Pun: {nay} "marry (wife does this)" and {Saw} "marry (husband does this)"
-  comes from "nay" (no) and "sure" with a Southern drawl (HetaQ).
+  comes from "nay" (no) and "sure" with a Southern drawl (Chet Braun)
 * Pun: {'ul} "electricity" (n) comes from "UL" ("Underwriter's Laboratory")
   sticker on electric stuff sold in US -- denoting that the thing meets
-  industry standard. ({Qov})
+  industry standard. (Robyn Stewart)
 * New word: {vegh} "go through (an open door, a tunnel, etc.)" (v)
 
 1998 -- {qep'a' vaghDIch}
 -------------------------
-MO attended (though is not in {qep'a'} photo)[5].
+MO attended (though he is not in {qep'a'} photo)[5].
 
 1999 -- {qep'a' javDIch}
 ------------------------
@@ -22591,9 +22636,9 @@ MO attended; held in Las Vegas[1][5].
 MO attended (me and & Markus there)[1][7].
 
 * {tIb} "be nervous, be uneasy" (v) [KGT p.132] confirmed as typo (real word is
-  {bIt}. (maHvatlh)
+  {bIt} (Zrajm C Akfohg)
 * Verified that {woj} "sterilize" (v) is canon and synonymous to older word
-  {Say'qu'moH}. (maHvatlh)
+  {Say'qu'moH} (Zrajm C Akfohg)
 
 2001 -- {qep'a' chorghDIch}
 ---------------------------
@@ -22659,6 +22704,22 @@ MO attended, I was there.
 
 2010 -- {qep'a' wa'maH SochDIch}
 --------------------------------
+
+2011 -- {qep'a' wa'maH chorghDIch}
+----------------------------------
+MO attended and presented transcript of the Klingon opera {'u'}.
+
+* {jul} (n) - sun
+* {pan} (v) - spark, emit sparks
+* {le'yo'} (n) - pride
+* {ngIq} (n) - singular one, individual one
+* {Hun} (n) - /khrun/, type of animal
+* {QIncha'} (n) - /krincha/, type of animal
+* {yIr} (v) - gather
+* {'o} (excl) - O
+* {wel} (v) - owe (someone)
+
+
 [1]: http://www.kli.org/wiki/index.php?qep%27a%27
      "qep'a'"
 

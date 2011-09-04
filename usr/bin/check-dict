@@ -101,22 +101,25 @@ foreach my $num (sort { $a <=> $b } keys %x) {
 
     my $paged_source   = qr/( TKDa? $tkd_refs? |KGT $kgt_refs? | (DI|Sarek|TKW|HQ[0-9]+:[0-9]+) $page_refs?) (${s}et${s}al\.)? /x;
     my $unpaged_source = qr/BoP|CK|PK|KCD|KLINW|TDNW|Radio $s Times|S7|S8|S14|S15|S20|S25|S26|S32|S33|ST5|STE|
-                            \{qep'a'\}$s\d{4}|(News|Email) $s [0-9]{4}-[0-9]{2}-[0-9]{2} ($s \([^)]*\))?/x;
+                            \{qep'a'\}$s\d{4}|(News|Email) $s [0-9]{4}-[0-9]{2}-[0-9]{2} ($s \(.*?\))?/x;
 
     my $source       = qr/ $paged_source|$unpaged_source /x;
 
-    if (s/^ [dr]ef: \t //xm) {
-        /^ $source (;$s$source)* $/x or
-            print "$num:$x{$num}";
+    if (/^ ([dr]ef): \t ([^\n]*)$/xm) {
+        my ($field, $_) = ($1, $2);
+        if (!/^ $source (;$s$source)* $/x) {
+            warn "unknown source reference in post beginning at line $num\n",
+                "    $field: $_\n";
+        }
     }
 }
 
 
 
-foreach my $num (sort { $a <=> $b } keys %x) {
-    print "=" x 80, "\n",
-        "==  $num\n",
-        "$x{$num}";
-}
+# foreach my $num (sort { $a <=> $b } keys %x) {
+#     print "=" x 80, "\n",
+#         "==  $num\n",
+#         "$x{$num}";
+# }
 
 #[eof]

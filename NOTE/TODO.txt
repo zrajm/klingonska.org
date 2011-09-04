@@ -738,7 +738,7 @@ Priorities:
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** DOING dict.zdb
-*** TODO Add irregular plurals in dictionary (already done?)
+**** TODO Add irregular plurals in dictionary (already done?)
 **** TODO Field for synonyms?
      E.g. to make words easier to look up. E.g. {'IqnaH} has a 'com' field
      specifying 'booger', which is a useful synonym for the purpose of
@@ -779,7 +779,8 @@ Priorities:
      ..and make it a 'required' field (i.e. change the description at the top
      of the dictionary file).
 **** TODO Add words
-***** TODO [#1] New words from {qep'a'} 2011
+***** DONE [#1] New words from {qep'a'} 2011
+      CLOSED: [2011-09-04 Sun 20:35]
       Add the words from canon/2011-08-22-email.txt
 ***** TODO Is there a word for "Morska"?
       (as in "the Morskan dialect")
@@ -965,7 +966,6 @@ Priorities:
 
        /Lieven Litaer
        http://www.facebook.com/home.php?sk=group_165201996829401&view=doc&id=180285285321072
-
 ****** DONE News from Maltz: buq + ngogh
        CLOSED: [2011-02-07 Mon 02:28]
 
@@ -993,7 +993,6 @@ Priorities:
 
       /Lieven Litaer
       http://www.facebook.com/home.php?sk=group_165201996829401&view=doc&id=181021535247447
-
 ****** DONE News from Maltz: Part 3
        CLOSED: [2011-02-07 Mon 02:28]
 
@@ -1005,13 +1004,12 @@ Priorities:
 
        /Lieven Litaer
        http://www.facebook.com/home.php?sk=group_165201996829401&view=doc&id=182172488465685
-
 ***** TODO Make sure words from NKW and KLI lists are in the dictionary
       (and tagged in "ref:" field accordingly)
 ****** [NKW] http://teresh.tdonnelly.org/klinewest.html
 ****** [KLI] http://www.kli.org/tlh/newwords.html
 ***** TODO {Qompu'} -- hmm. seems to be a "bad word" (from Terrence's list)
-***** TODO Add name of Klingon sounds
+***** DONE Add name of Klingon sounds
       These shouldn't be included in the English-Klingon side of the pocket
       dictionary, as they should be in the a alphabet reference table. How
       should this be marked in dict.zdb?
@@ -1020,15 +1018,13 @@ Priorities:
       https://mail.google.com/mail/#mbox/122bf3f1c1e794e5
 ***** TODO Check correctness of {vIl} - "speed bump"
       https://mail.google.com/mail/#mbox/122bf3f1c1e794e5
-***** DONE {jIn}
+***** DONE Verify word {jIn}
       CLOSED: [2011-02-07 Mon 03:13]
-****** Verify this word!
-       Terrence Donnelly says this means "to brew" and was mentioned somewhere,
-       and people remarked that it was very much like "gin".
+      Terrence Donnelly says this means "to brew" and was mentioned somewhere,
+      and people remarked that it was very much like "gin".
 
-       Steven Boozer says, in posting from 8 july 2004: "Cf. also {jIn} 'brew'."
-       [https://mail.google.com/mail/?shva=1#search/to%3Atlhingan-hol%40kli.org+%22jIn%22+-%22pu'jin%22/fd9f586a97a799c]
-
+      Steven Boozer says, in posting from 8 july 2004: "Cf. also {jIn} 'brew'."
+      [https://mail.google.com/mail/?shva=1#search/to%3Atlhingan-hol%40kli.org+%22jIn%22+-%22pu'jin%22/fd9f586a97a799c]
 ***** TODO {qolqoS}, {'elI'jaH}, {wIlpuq}
       qolqoS n. Core of a group, the essential part of something; essence.
       http://mail.google.com/mail/#search/jIn/1217ffac4948e9abw
@@ -1081,7 +1077,8 @@ Priorities:
       All new words given by Marc Okrand at {qep'a'mey} now have a source
       reference of "{qep'a'} 2009" (or whichever year it was), rather than a
       very lengthy description.
-***** TODO Use English (not Klingon) names in ref/def
+***** DONE Use English (not Klingon) names in ref/def
+      CLOSED: [2011-09-04 Sun 20:27]
 ***** Add notes on puns from list
 ****** See email: "Reversals for puns" https://mail.google.com/mail/?shva=1#search/reversals+for+puns/dd76f056a011a30
 ****** http://www.kli.org/wiki/index.php?Puns%20in%20the%20Vocabulary%20of%20tlhIngan%20Hol
