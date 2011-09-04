@@ -106,7 +106,7 @@ foreach my $num (sort { $a <=> $b } keys %x) {
     my $source       = qr/ $paged_source|$unpaged_source /x;
 
     if (s/^ [dr]ef: \t //xm) {
-        /^\[  $source (;$s$source)* \]$/x or
+        /^ $source (;$s$source)* $/x or
             print "$num:$x{$num}";
     }
 }

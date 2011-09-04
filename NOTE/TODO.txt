@@ -1079,8 +1079,10 @@ Priorities:
        Yes it should. the search function should still allow for using the
        abbreviated forms (as specified in the pocket dictionary, e.g. pos:v,
        pos:conj).
-***** TODO Remove brackets from "def" and "ref" fields.
-      (Are there any problems in doing this?)
+***** DONE Remove brackets from "def" and "ref" fields
+      CLOSED: [2011-09-04 Sun 16:56]
+      This will require minor re-write of the program used to extract words for
+      the printed dictionary.
 ***** DONE Abbreviate "MO at {qep'a'}" sources
       "[MO at {qep'a' wa'maH cha'DIch}]" is not very pretty. Abbreviate? Or
       refer to written sources (both would be nice).
