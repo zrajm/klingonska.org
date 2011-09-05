@@ -118,8 +118,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{bachHa'}
 pos:	verb
-sv:	«fela», göra ett «misstag» (v) (slang)
-en:	<err>, make a <mistake> (v) (slang)
+sv:	«fela», göra ett «misstag» (v) [slang]
+en:	<err>, make a <mistake> (v) [slang]
 def:	KGT
 ref:	KLINW
 com:	Should this word even be used? {Qagh} seem to mean the same thing.
@@ -372,8 +372,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{bej} (2)
 pos:	verb
-sv:	vara helt «säker», vara «viss» (v) (slang)
-en:	be <sure>, be <definite>, be <positive>, be <certain> (v) (slang)
+sv:	vara helt «säker», vara «viss» (v) [slang]
+en:	be <sure>, be <definite>, be <positive>, be <certain> (v) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -578,8 +578,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{be'nI'nal}
 pos:	noun
-sv:	«svägerska» (s) (exempel på felaktig användning)
-en:	«sister-in-law» (n) (example of incorrect use)
+sv:	«svägerska» (s) [exempel på felaktig användning]
+en:	«sister-in-law» (n) [example of incorrect use]
 def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from Maltz")
 ref:	Email 2010-12-22 (by Lieven L. Litaer, to tlhingan-hol, "latlh 'e'nalpu'")
 com:	DON'T USE THIS WORD. Use {loDnI' be'nal} and {be'nI' be'nal} instead.
@@ -809,15 +809,15 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{bochmoHwI'}
 pos:	noun
-sv:	«smickrare», «lismare» (s) (slang)
-en:	<sycophant>, <flatterer> (n) (slang)
+sv:	«smickrare», «lismare» (s) [slang]
+en:	<sycophant>, <flatterer> (n) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
 tlh:	{boD}
 pos:	noun
-sv:	«panna» (s) (regionalt)
-en:	<forehead> (n) (regional)
+sv:	«panna» (s) [regionalt]
+en:	<forehead> (n) [regional]
 def:	KGT
 cat:	body part
 file:	1997-11-01-kgt.txt
@@ -853,8 +853,8 @@ file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{bolwI'}
 pos:	noun
-sv:	«förrädare» (s) (slang)
-en:	<traitor> (n) (slang)
+sv:	«förrädare» (s) [slang]
+en:	<traitor> (n) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -1177,8 +1177,8 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{buy' «ngop»}
 pos:	exclamation
-sv:	«goda nyheter», det var «gott att höra» (interj) (slang)
-en:	<good news>, it's «good to hear» that (excl) (slang)
+sv:	«goda nyheter», det var «gott att höra» (interj) [slang]
+en:	<good news>, it's «good to hear» that (excl) [slang]
 def:	KGT p.147 et al.
 data:	phrase
 file:	1997-11-01-kgt.txt
@@ -1208,8 +1208,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{chab} (2)
 pos:	noun
-sv:	«uppfinning», «innovation» (s) (slang)
-en:	<invention>, <innovation> (n) (slang)
+sv:	«uppfinning», «innovation» (s) [slang]
+en:	<invention>, <innovation> (n) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -1358,8 +1358,8 @@ file:	2003-06-holqed-12-2.txt
 
 tlh:	{chatlh} (1)
 pos:	noun
-sv:	«nonsens», «gallimatias» (s) (slang)
-en:	<nonsense>, <balderdash> (n) (slang)
+sv:	«nonsens», «gallimatias» (s) [slang]
+en:	<nonsense>, <balderdash> (n) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -1565,8 +1565,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{chelwI'}
 pos:	noun
-sv:	«kamrer», «revisor», «finansman» (s) (slang)
-en:	<accountant>, <financier> (n) (slang)
+sv:	«kamrer», «revisor», «finansman» (s) [slang]
+en:	<accountant>, <financier> (n) [slang]
 def:	KGT
 cat:	math
 file:	1997-11-01-kgt.txt
@@ -1642,8 +1642,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{cheSvel} (1)
 pos:	noun
-sv:	«rock», «jacka» (generell term) (s) (regionalt)
-en:	<coat>, jacket (general term) (n) (regional)
+sv:	«rock», «jacka» (generell term) (s) [regionalt]
+en:	<coat>, jacket (general term) (n) [regional]
 def:	KGT
 com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
@@ -1872,9 +1872,9 @@ file:	1992-01-01-tkd.txt
 tlh:	{chong} (2)
 pos:	verb
 sv:	vara «bra», vara «utmärkt», vara «storslagen», vara «underbar» (v)
-	(slang)
+	[slang]
 en:	be <good>, be <excellent>, be <great>, be <wonderful>, be <splendid>
-	(v) (slang)
+	(v) [slang]
 def:	KGT
 com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
@@ -1882,8 +1882,8 @@ file:	1997-11-01-kgt.txt
 tlh:	{chong} (3)
 pos:	verb
 sv:	vara «grundlig», vara «ordentlig», vara «omsorgsfull», vara
-	«noggrann» (v) (slang)
-en:	be <profound>, be <thorough>, be «careful» (v) (slang)
+	«noggrann» (v) [slang]
+en:	be <profound>, be <thorough>, be «careful» (v) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -1928,15 +1928,15 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{chor} (2)
 pos:	noun
-sv:	flatbottnad «skål» av keramik (s) (regionalt)
-en:	ceramic flat-bottomed <pot> (n) (regional)
+sv:	flatbottnad «skål» av keramik (s) [regionalt]
+en:	ceramic flat-bottomed <pot> (n) [regional]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
 tlh:	{chor «bargh»}
 pos:	noun
-sv:	flatbottnad «skål» av keramik (s) (regionalt)
-en:	ceramic flat-bottomed <pot> (n) (regional)
+sv:	flatbottnad «skål» av keramik (s) [regionalt]
+en:	ceramic flat-bottomed <pot> (n) [regional]
 def:	KGT
 data:	phrase
 file:	1997-11-01-kgt.txt
@@ -2033,8 +2033,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{chuH} (1)
 pos:	verb
-sv:	«förklara» noga för, «förtydliga» för, närmare «ange» för (v) (slang)
-en:	<explain> clearly to, <clarify> for, <specify> for (v) (slang)
+sv:	«förklara» noga för, «förtydliga» för, närmare «ange» för (v) [slang]
+en:	<explain> clearly to, <clarify> for, <specify> for (v) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -2225,9 +2225,9 @@ file:	1992-01-01-tkd.txt
 tlh:	{Dach} (2)
 pos:	verb
 sv:	vara icke-«uppmärksam», vara «distraherad», sakna «koncentration»
-	(v) (slang)
+	(v) [slang]
 en:	be <not attentive>, be <distracted>, <lack focus>, to not pay
-	attention (v) (slang)
+	attention (v) [slang]
 def:	KGT
 com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
@@ -2471,8 +2471,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{Degh}
 pos:	verb
-sv:	«handla» utan uppgjord plan, «improvisera» (v) (slang)
-en:	<act> without a plan, <improvise> (v) (slang)
+sv:	«handla» utan uppgjord plan, «improvisera» (v) [slang]
+en:	<act> without a plan, <improvise> (v) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -3086,8 +3086,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{Duj ngaDHa'}
 pos:	noun
-sv:	«oansvarig» person, «odisciplinerad» person (s) (slang)
-en:	<irresponsible> person, <undisciplined> person (n) (slang)
+sv:	«oansvarig» person, «odisciplinerad» person (s) [slang]
+en:	<irresponsible> person, <undisciplined> person (n) [slang]
 def:	KGT
 data:	phrase
 file:	1997-11-01-kgt.txt
@@ -3262,8 +3262,8 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{ghab tun}
 pos:	noun
-sv:	«kött» från mittdelen av djur, utan ben (s) (regionalt)
-en:	<meat> from midsection of animal, no bones (n) (regional)
+sv:	«kött» från mittdelen av djur, utan ben (s) [regionalt]
+en:	<meat> from midsection of animal, no bones (n) [regional]
 def:	KGT
 data:	phrase
 file:	1997-11-01-kgt.txt
@@ -3396,9 +3396,9 @@ file:	1996-sbx-s25.txt; 1996-sbx-s26.txt; 1997-11-01-kgt.txt
 tlh:	{ghaw'} (1)
 pos:	noun
 sv:	«osäker person», någon uppfylld av självtvivel, «självtvivlare» (s)
-	(regionalt, slang)
+	[regionalt, slang]
 en:	<insecure one>, one full of self-doubt, <self-doubter> (n)
-	(regional, slang)
+	[regional, slang]
 def:	KGT
 com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
@@ -3596,8 +3596,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{ghIgh} (2)
 pos:	noun
-sv:	«uppdrag», «uppgift», «plikt» (s) (slang)
-en:	<assignment>, <task>, <duty> (n) (slang)
+sv:	«uppdrag», «uppgift», «plikt» (s) [slang]
+en:	<assignment>, <task>, <duty> (n) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -3686,8 +3686,8 @@ file:	1999-09-holqed-08-3.txt
 
 tlh:	{ghIqtal}
 pos:	exclamation
-sv:	«till «död»s»! (interj) (arkaiskt)
-en:	<to the <death>>! (excl) (archaic)
+sv:	«till «död»s»! (interj) [arkaiskt]
+en:	<to the <death>>! (excl) [archaic]
 def:	KGT p.49 et al.
 file:	1997-11-01-kgt.txt
 
@@ -4314,8 +4314,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{Haq} (1)
 pos:	verb
-sv:	«ingripa» i (en situation), «träda» emellan (v) (slang)
-en:	<intervene> in (a situation) (v) (slang)
+sv:	«ingripa» i (en situation), «träda» emellan (v) [slang]
+en:	<intervene> in (a situation) (v) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -4449,8 +4449,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{Ha'DIbaH} (2)
 pos:	noun
-sv:	«fähund», «usling», «tölp», «underlägsen person» (s) (slang)
-en:	<dog>, <cur>, <inferior person> (n) (slang)
+sv:	«fähund», «usling», «tölp», «underlägsen person» (s) [slang]
+en:	<dog>, <cur>, <inferior person> (n) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -4932,15 +4932,15 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{Hom} (2)
 pos:	noun
-sv:	«vekling», «liten en», «mager en», «utmärglad person» (s) (slang)
-en:	<weakling>, <runt>, <scrawny one>, <skinny one> (n) (slang)
+sv:	«vekling», «liten en», «mager en», «utmärglad person» (s) [slang]
+en:	<weakling>, <runt>, <scrawny one>, <skinny one> (n) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
 tlh:	{Hom}
 pos:	verb
-sv:	«använda» «andra«tå»n» (v) (arkaiskt)
-en:	«use» the «second «toe»» (v) (archaic)
+sv:	«använda» «andra«tå»n» (v) [arkaiskt]
+en:	«use» the «second «toe»» (v) [archaic]
 def:	HQ10:2 p.10
 cat:	body part
 file:	2001-06-holqed-10-2.txt
@@ -5142,8 +5142,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{Ho'} (2)
 pos:	noun
-sv:	«idol» (s) (slang)
-en:	<idol> (n) (slang)
+sv:	«idol» (s) [slang]
+en:	<idol> (n) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -5342,8 +5342,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{Hur'Iq}
 pos:	noun
-sv:	«outsider», «främling» (s) (slang)
-en:	<outsider>, <foreigner> (n) (slang)
+sv:	«outsider», «främling» (s) [slang]
+en:	<outsider>, <foreigner> (n) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -5421,8 +5421,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{Huy'Dung}
 pos:	noun
-sv:	«panna» (s) (regionalt)
-en:	<forehead> (n) (regional)
+sv:	«panna» (s) [regionalt]
+en:	<forehead> (n) [regional]
 def:	KGT
 cat:	body part
 file:	1997-11-01-kgt.txt
@@ -5603,8 +5603,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{jargh}
 pos:	noun
-sv:	«panna» (s) (regionalt)
-en:	<forehead> (n) (regional)
+sv:	«panna» (s) [regionalt]
+en:	<forehead> (n) [regional]
 def:	KGT
 cat:	body part
 file:	1997-11-01-kgt.txt
@@ -5618,8 +5618,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{jat}
 pos:	verb
-sv:	«tala» otydligt, «mumla» (v) (slang)
-en:	<speak> incoherently, <mumble> (v) (slang)
+sv:	«tala» otydligt, «mumla» (v) [slang]
+en:	<speak> incoherently, <mumble> (v) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -5657,8 +5657,8 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{jav} (2)
 pos:	noun
-sv:	«fånge» (s) (slang)
-en:	<prisoner> (n) (slang)
+sv:	«fånge» (s) [slang]
+en:	<prisoner> (n) [slang]
 def:	KGT
 pun:	{jav} also means "six" in Klingon---and "Number Six" is the designation
 	of the main character in the well-known tv series "The Prisoner" from
@@ -5971,8 +5971,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{jIn}
 pos:	verb
-sv:	«brygga» (v) (hypotetiskt ord som senare visade sig vara felaktigt)
-en:	«brew» (v) (hypothetic word later disproven)
+sv:	«brygga» (v) [hypotetiskt ord som senare visade sig vara felaktigt]
+en:	«brew» (v) [hypothetic word later disproven]
 def:	Email 2004-07-15 (by Steven Boozer, to tlhingan-hol, "Re: Klingon WOTD:
 	pub (v) > jIn")
 com:	DON'T USE THIS WORD.
@@ -6735,8 +6735,8 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{letlh} (2)
 pos:	noun
-sv:	«trappuppgång» vid skeppsdörr (s) (regionalt)
-en:	<stairway> leading to door of a ship (n) (regional)
+sv:	«trappuppgång» vid skeppsdörr (s) [regionalt]
+en:	<stairway> leading to door of a ship (n) [regional]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -6758,8 +6758,8 @@ cat:	body part
 
 tlh:	{ley'}
 pos:	noun
-sv:	«näsa» (s) (regionalt)
-en:	<nose> (n) (regional)
+sv:	«näsa» (s) [regionalt]
+en:	<nose> (n) [regional]
 def:	KGT
 cat:	body part
 file:	1997-11-01-kgt.txt
@@ -6996,8 +6996,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{loDnI'nal}
 pos:	noun
-sv:	«svåger» (s) (exempel på felaktig användning)
-en:	«brother-in-law» (n) (example of incorrect use)
+sv:	«svåger» (s) [exempel på felaktig användning]
+en:	«brother-in-law» (n) [example of incorrect use]
 def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from Maltz")
 ref:	Email 2010-12-22 (by Lieven L. Litaer, to tlhingan-hol, "latlh 'e'nalpu'")
 com:	DON'T USE THIS WORD. Use {loDnI' loDnal} or {be'nI' loDnal} instead.
@@ -7298,9 +7298,9 @@ file:	1992-01-01-tkd.txt
 tlh:	{luH} (2)
 pos:	verb
 sv:	«få» (någon) att erkänna eller avslöja en hemlighet, «utkräva» ett
-	erkännande, få att «erkänna» (v) (slang)
+	erkännande, få att «erkänna» (v) [slang]
 en:	<cause (someone) to confess> or reveal a secret, <exact> a
-	confession (v) (slang)
+	confession (v) [slang]
 def:	KGT
 com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
@@ -7586,8 +7586,8 @@ file:	1992-09-holqed-01-3.txt
 
 tlh:	{mar}
 pos:	verb
-sv:	«använda» «stor«tå»n» («förstatå»n) (v) (arkaiskt)
-en:	«use» the «big «toe»» («first toe») (v) (archaic)
+sv:	«använda» «stor«tå»n» («förstatå»n) (v) [arkaiskt]
+en:	«use» the «big «toe»» («first toe») (v) [archaic]
 def:	HQ10:2 p.10
 cat:	body part
 file:	2001-06-holqed-10-2.txt
@@ -7671,8 +7671,8 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{mavje'}
 pos:	noun
-sv:	«lever» (s) (regionalt)
-en:	<liver> (n) (regional)
+sv:	«lever» (s) [regionalt]
+en:	<liver> (n) [regional]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -8091,8 +8091,8 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{mIQ}
 pos:	noun
-sv:	«panna» (s) (regionalt)
-en:	<forehead> (n) (regional)
+sv:	«panna» (s) [regionalt]
+en:	<forehead> (n) [regional]
 def:	KGT
 cat:	body part
 file:	1997-11-01-kgt.txt
@@ -8145,15 +8145,15 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{mIv} (2)
 pos:	noun
-sv:	flatbottnad «skål» av metall (s) (regionalt)
-en:	metal flat-bottomed <pot> (n) (regional)
+sv:	flatbottnad «skål» av metall (s) [regionalt]
+en:	metal flat-bottomed <pot> (n) [regional]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
 tlh:	{mIv bargh}
 pos:	noun
-sv:	flatbottnad «skål» av metall (s) (regionalt)
-en:	metal flat-bottomed <pot> (n) (regional)
+sv:	flatbottnad «skål» av metall (s) [regionalt]
+en:	metal flat-bottomed <pot> (n) [regional]
 def:	KGT
 data:	phrase
 file:	1997-11-01-kgt.txt
@@ -8251,8 +8251,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{moH} (2)
 pos:	verb
-sv:	«influera», utöva otillbörligt «inflytande» på (v) (slang)
-en:	<influence>, <exert undue influence> on (v) (slang)
+sv:	«influera», utöva otillbörligt «inflytande» på (v) [slang]
+en:	<influence>, <exert undue influence> on (v) [slang]
 def:	KGT
 com:	Entries differ in source. One of the E-K entries is used
 	here.
@@ -8440,8 +8440,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{mo'} (2)
 pos:	noun
-sv:	«motiv», «motivation», «orsak», «anledning», «skäl» (s) (slang)
-en:	<motive>, motivation, <grounds>, <reason>, rationale (n) (slang)
+sv:	«motiv», «motivation», «orsak», «anledning», «skäl» (s) [slang]
+en:	<motive>, motivation, <grounds>, <reason>, rationale (n) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -8952,8 +8952,8 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{nan}
 pos:	verb
-sv:	«använda» «fjärde«tå»n» (v) (arkaiskt)
-en:	«use» the «fourth «toe»» (v) (archaic)
+sv:	«använda» «fjärde«tå»n» (v) [arkaiskt]
+en:	«use» the «fourth «toe»» (v) [archaic]
 def:	HQ10:2 p.10
 cat:	body part
 file:	2001-06-holqed-10-2.txt
@@ -9000,8 +9000,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{naQ} (2)
 pos:	noun
-sv:	«hästsvans» (s) (slang)
-en:	<ponytail> (n) (slang)
+sv:	«hästsvans» (s) [slang]
+en:	<ponytail> (n) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -9065,8 +9065,8 @@ file:	1997-11-01-kgt.txt
 tlh:	{natlh} (2)
 pos:	verb
 sv:	vara «förkastlig», vara «äcklig», vara «vidrig», vara «usel», vara
-	«motbjudande» (v) (slang)
-en:	be <reprehensible>, be <disgusting>, be <contemptible> (v) (slang)
+	«motbjudande» (v) [slang]
+en:	be <reprehensible>, be <disgusting>, be <contemptible> (v) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -9143,9 +9143,8 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{na'} (2)
 pos:	verb
-sv:	vara «säker», vara helt säker, vara «viss» (v) (slang)
-en:	be <sure>, be <definite>, be <positive>, be <certain> (v)
-	(slang)
+sv:	vara «säker», vara helt säker, vara «viss» (v) [slang]
+en:	be <sure>, be <definite>, be <positive>, be <certain> (v) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -9524,8 +9523,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{nItlh naQ}
 pos:	noun
-sv:	«pigment«pinne»» (s) (slang)
-en:	<pigment «stick»> (n) (slang)
+sv:	«pigment«pinne»» (s) [slang]
+en:	<pigment «stick»> (n) [slang]
 def:	KGT
 data:	phrase
 file:	1997-11-01-kgt.txt
@@ -9787,8 +9786,8 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{no''och}
 pos:	noun
-sv:	«panna» (s) (regionalt)
-en:	<forehead> (n) (regional)
+sv:	«panna» (s) [regionalt]
+en:	<forehead> (n) [regional]
 def:	KGT
 cat:	body part
 file:	1997-11-01-kgt.txt
@@ -10245,8 +10244,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{ngep'oS}
 pos:	noun
-sv:	«trappa», «trappuppgång» (utom vid skeppsdörr) (s) (regionalt)
-en:	<stairs>, «stairway» (except at ship door) (n) (regional)
+sv:	«trappa», «trappuppgång» (utom vid skeppsdörr) (s) [regionalt]
+en:	<stairs>, «stairway» (except at ship door) (n) [regional]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -10536,8 +10535,8 @@ file:	1992-01-01-tkd.txt
 tlh:	{ngup} (2)
 pos:	noun
 sv:	«auktoritet», «befogenhet», «makt», någon med auktoritet eller i
-	ledarposition (s) (slang)
-en:	<authority>, <power>, one in authority or in charge (n) (slang)
+	ledarposition (s) [slang]
+en:	<authority>, <power>, one in authority or in charge (n) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -10796,8 +10795,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{paw'} (2)
 pos:	verb
-sv:	«skallas», «stångas» (panna mot panna) (v) (slang)
-en:	<butt «head»s> (v) (slang)
+sv:	«skallas», «stångas» (panna mot panna) (v) [slang]
+en:	<butt «head»s> (v) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -10845,8 +10844,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{pa'} (3)
 pos:	noun
-sv:	«inhägnat område» (s) (slang)
-en:	<enclosed area> (n) (slang)
+sv:	«inhägnat område» (s) [slang]
+en:	<enclosed area> (n) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -11147,8 +11146,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{pIn} (2)
 pos:	noun
-sv:	«expert», «auktoritet» (s) (slang)
-en:	<expert>, <authority> (n) (slang)
+sv:	«expert», «auktoritet» (s) [slang]
+en:	<expert>, <authority> (n) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -12012,9 +12011,9 @@ file:	2001-06-holqed-10-2.txt
 tlh:	{qang} (1)
 pos:	verb
 sv:	rutinmässigt «hålla med», alltid hålla med, alltid samarbeta med,
-	rutinmässigt «samarbeta» med (v) (slang)
+	rutinmässigt «samarbeta» med (v) [slang]
 en:	<agree> with routinely, always agree with, always cooperate with,
-	<cooperate> with routinely (v) (slang)
+	<cooperate> with routinely (v) [slang]
 def:	KGT
 com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
@@ -13124,9 +13123,9 @@ file:	1992-01-01-tkd.txt
 tlh:	{qu'} (2)
 pos:	verb
 sv:	vara «storslagen», vara «underbar», vara «utmärkt», vara «bra» (v)
-	(slang)
+	[slang]
 en:	be <great>, be <wonderful>, be <excellent>, be <splendid>, be <good>
-	(v) (slang)
+	(v) [slang]
 def:	KGT
 com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
@@ -13157,8 +13156,8 @@ file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{QaD} (2)
 pos:	verb
-sv:	vara «säker», vara «skyddad» (v) (slang)
-en:	be <safe>, be <protected> (v) (slang)
+sv:	vara «säker», vara «skyddad» (v) [slang]
+en:	be <safe>, be <protected> (v) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -13372,8 +13371,8 @@ file:	1992-01-01-tkd.txt; 2001-06-holqed-10-2.txt
 
 tlh:	{Qay'}
 pos:	verb
-sv:	«använda» «lill«tå»n» («femtetå»n) (v) (arkaiskt)
-en:	«use» the «little «toe»» («fifth toe») (v) (archaic)
+sv:	«använda» «lill«tå»n» («femtetå»n) (v) [arkaiskt]
+en:	«use» the «little «toe»» («fifth toe») (v) [archaic]
 def:	HQ10:2 p.10
 cat:	body part
 file:	2001-06-holqed-10-2.txt
@@ -13425,8 +13424,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{Qeb} (2)
 pos:	noun
-sv:	«hästsvanshållare» (s) (slang)
-en:	<ponytail holder> (n) (slang)
+sv:	«hästsvanshållare» (s) [slang]
+en:	<ponytail holder> (n) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -13823,8 +13822,9 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{Qom} (2)
 pos:	verb
-sv:	vara «riskfylld», vara «riskabel», vara «förrädisk», vara «opålitlig» (v) (slang)
-en:	be <hazardous>, be <perilous>, be <treacherous> (v) (slang)
+sv:	vara «riskfylld», vara «riskabel», vara «förrädisk», vara «opålitlig»
+	(v) [slang]
+en:	be <hazardous>, be <perilous>, be <treacherous> (v) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -13882,8 +13882,8 @@ file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{Qop} (2)
 pos:	verb
-sv:	vara «död» (om mat) (v) (slang)
-en:	be <dead> (referring to food) (v) (slang)
+sv:	vara «död» (om mat) (v) [slang]
+en:	be <dead> (referring to food) (v) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -14787,8 +14787,8 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{roS}
 pos:	verb
-sv:	«använda» «tredje«tå»n» (v) (arkaiskt)
-en:	«use» the «third «toe»» (v) (archaic)
+sv:	«använda» «tredje«tå»n» (v) [arkaiskt]
+en:	«use» the «third «toe»» (v) [archaic]
 def:	HQ10:2 p.10
 cat:	body part
 file:	2001-06-holqed-10-2.txt
@@ -15131,15 +15131,15 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{SaS} (2)
 pos:	verb
-sv:	vara «ytlig», vara «okritisk» (v) (slang)
-en:	be <shallow>, be <superficial>, be <uncritical> (v) (slang)
+sv:	vara «ytlig», vara «okritisk» (v) [slang]
+en:	be <shallow>, be <superficial>, be <uncritical> (v) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
 tlh:	{SaS} (3)
 pos:	verb
-sv:	vara «oturlig», vara «icke-bra» (v) (slang)
-en:	be <unfortunate>, be <not good> (v) (slang)
+sv:	vara «oturlig», vara «icke-bra» (v) [slang]
+en:	be <unfortunate>, be <not good> (v) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -15466,8 +15466,8 @@ file:	1992-01-01-tkd.txt
 tlh:	{SIj} (2)
 pos:	verb
 sv:	vara «insiktsfull», vara «smart», vara «klipsk», vara «skarpsinnig»
-	(v) (slang)
-en:	be <insightful>, be <clever> (v) (slang)
+	(v) [slang]
+en:	be <insightful>, be <clever> (v) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -15848,9 +15848,9 @@ file:	1992-01-01-tkd.txt
 tlh:	{Sub} (2)
 pos:	verb
 sv:	vara «modig», vara «heroisk», vara «djärv», vara «dristig», vara
-	«tapper», vara «oförskräckt» (v) (slang)
+	«tapper», vara «oförskräckt» (v) [slang]
 en:	be <brave>, be <heroic>, be <bold>, be <valiant>, be <intrepid> (v)
-	(slang)
+	[slang]
 def:	KGT
 com:	Entries differ in source. The K-E entry is used here.
 file:	1997-11-01-kgt.txt
@@ -17243,8 +17243,8 @@ file:	2000-09-holqed-09-3.txt
 
 tlh:	{tuqvol}
 pos:	noun
-sv:	«panna» (s) (regionalt)
-en:	<forehead> (n) (regional)
+sv:	«panna» (s) [regionalt]
+en:	<forehead> (n) [regional]
 def:	KGT
 cat:	body part
 file:	1997-11-01-kgt.txt
@@ -17336,8 +17336,8 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{tu'lum}
 pos:	noun
-sv:	«tékopp» (s) (äldre ord eller överklassord)
-en:	<teacup> (n) (older or upper-class word)
+sv:	«tékopp» (s) [äldre ord eller överklassord]
+en:	<teacup> (n) [older or upper-class word]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -17396,8 +17396,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{tlham} (2)
 pos:	noun
-sv:	«ordning», «struktur» (på samhälle) (s) (slang)
-en:	<order>, <structure> (societal) (n) (slang)
+sv:	«ordning», «struktur» (på samhälle) (s) [slang]
+en:	<order>, <structure> (societal) (n) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -17871,8 +17871,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{tlhuH} (2)
 pos:	verb
-sv:	vara «upprymd», vara «stimulerad», vara «upplivad» (v) (slang)
-en:	be <exhilarated>, be <stimulated>, be <invigorated> (v) (slang)
+sv:	vara «upprymd», vara «stimulerad», vara «upplivad» (v) [slang]
+en:	be <exhilarated>, be <stimulated>, be <invigorated> (v) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -18542,8 +18542,8 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{vonlu'}
 pos:	verb
-sv:	«misslyckas» totalt (v) (slang)
-en:	<fail> utterly (v) (slang)
+sv:	«misslyckas» totalt (v) [slang]
+en:	<fail> utterly (v) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -18692,8 +18692,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{vutmeH 'un}
 pos:	noun
-sv:	flatbottnad «skål» för matberedning (s) (regionalt)
-en:	flat-bottomed <pot> for food preparation (n) (regional)
+sv:	flatbottnad «skål» för matberedning (s) [regionalt]
+en:	flat-bottomed <pot> for food preparation (n) [regional]
 def:	KGT
 data:	phrase
 file:	1997-11-01-kgt.txt
@@ -18707,8 +18707,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{vut'un}
 pos:	noun
-sv:	flatbottnad «skål» för matberedning (s) (regionalt)
-en:	flat-bottomed <pot> for food preparation (n) (regional)
+sv:	flatbottnad «skål» för matberedning (s) [regionalt]
+en:	flat-bottomed <pot> for food preparation (n) [regional]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -19023,8 +19023,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{wep} (2)
 pos:	noun
-sv:	«skjorta» med ärmar (s) (regional)
-en:	<shirt> with sleeves (n) (regional)
+sv:	«skjorta» med ärmar (s) [regional]
+en:	<shirt> with sleeves (n) [regional]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -19372,8 +19372,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{yaD} (2)
 pos:	noun
-sv:	«svärd» (s) (slang)
-en:	<sword> (n) (slang)
+sv:	«svärd» (s) [slang]
+en:	<sword> (n) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -19711,8 +19711,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{yIv} (2)
 pos:	verb
-sv:	«förarga», «besvära», «reta», «irritera» (v) (slang)
-en:	<annoy>, <bother>, <irk>, <irritate> (v) (slang)
+sv:	«förarga», «besvära», «reta», «irritera» (v) [slang]
+en:	<annoy>, <bother>, <irk>, <irritate> (v) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -19726,8 +19726,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{yIvbeH} (2)
 pos:	noun
-sv:	«ärmlös «skjorta»» (s) (regionalt)
-en:	<sleeveless <shirt>> (n) (regional)
+sv:	«ärmlös «skjorta»» (s) [regionalt]
+en:	<sleeveless <shirt>> (n) [regional]
 def:	KGT
 cat:	clothing
 file:	1997-11-01-kgt.txt
@@ -20181,8 +20181,8 @@ file:	1996-05-01-tkw.txt
 
 tlh:	{'aQlo'}
 pos:	noun
-sv:	«panna» (s) (regionalt)
-en:	<forehead> (n) (regional)
+sv:	«panna» (s) [regionalt]
+en:	<forehead> (n) [regional]
 def:	KGT
 cat:	body part
 file:	1997-11-01-kgt.txt
@@ -20529,8 +20529,8 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{'Igh}
 pos:	verb
-sv:	vara «förbannad», vara «olycksbringande» (v) (slang)
-en:	be <cursed>, be <jinxed> (v) (slang)
+sv:	vara «förbannad», vara «olycksbringande» (v) [slang]
+en:	be <cursed>, be <jinxed> (v) [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
