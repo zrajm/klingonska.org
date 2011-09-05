@@ -72,7 +72,7 @@ our %postprocess = (
 );
 our %field = (
     tlh  => "Klingon",
-    pos  => "Part-of-Speech",
+    pos  => "Part-of-speech",
     sv   => "Swedish",
     en   => "English",
     def  => "Source",
@@ -315,6 +315,14 @@ return <<"EOF";
 <link rel="stylesheet" type="text/css" href="../includes/page.css" />
 <link rel="stylesheet" type="text/css" href="../includes/pagestats.css" />
 <style><!--
+  td, th {
+    vertical-align: text-top;
+  }
+  th {
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: left;
+  }
   .match {
     background-color: #bbbbbb;
   }
@@ -453,7 +461,7 @@ print html_head() . html_form($query);
                 next unless @content;
             }
             push @output, "  <tr>\n";
-            push @output, "    <td>" . (exists($field{$field}) ? $field{$field} : ucfirst($field)) . ":&nbsp;</td>\n";
+            push @output, "    <th>" . (exists($field{$field}) ? $field{$field} : ucfirst($field)) . ":&nbsp;</th>\n";
             push @output, "    <td>@content</td>\n";
             push @output, "  </tr>";
         }
