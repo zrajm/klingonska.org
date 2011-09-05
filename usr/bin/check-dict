@@ -27,6 +27,63 @@ EOF
 
 =cut
 
+my %pos_en = (
+    v    => 'verb',
+    n    => 'noun',
+    name => 'name',
+    adv  => 'adverbial',
+    conj => 'conjuction',
+    excl => 'exclamation',
+    num  => 'numeral',
+    pro  => 'pronoun',
+    ques => 'question word',
+    ns1  => 'noun suffix type 1',
+    ns2  => 'noun suffix type 2',
+    ns3  => 'noun suffix type 3',
+    ns4  => 'noun suffix type 4',
+    ns5  => 'noun suffix type 5',
+    vp   => 'verb prefix',
+    vsr  => 'verb suffix type rover',
+    vs1  => 'verb suffix type 1',
+    vs2  => 'verb suffix type 2',
+    vs3  => 'verb suffix type 3',
+    vs4  => 'verb suffix type 4',
+    vs5  => 'verb suffix type 5',
+    vs6  => 'verb suffix type 6',
+    vs7  => 'verb suffix type 7',
+    vs8  => 'verb suffix type 8',
+    vs9  => 'verb suffix type 9',
+);
+
+my %pos_sv = (
+    v    => 'verb',
+    s    => 'noun',
+    namn => 'name',
+    adv  => 'adverbial',
+    konj => 'conjuction',
+    interj => 'exclamation',
+    'räkn' => 'numeral',
+    pro  => 'pronoun',
+    'fråg' => 'question word',
+    ss1  => 'noun suffix type 1',
+    ss2  => 'noun suffix type 2',
+    ss3  => 'noun suffix type 3',
+    ss4  => 'noun suffix type 4',
+    ss5  => 'noun suffix type 5',
+    vp   => 'verb prefix',
+    vss  => 'verb suffix type rover',
+    vs1  => 'verb suffix type 1',
+    vs2  => 'verb suffix type 2',
+    vs3  => 'verb suffix type 3',
+    vs4  => 'verb suffix type 4',
+    vs5  => 'verb suffix type 5',
+    vs6  => 'verb suffix type 6',
+    vs7  => 'verb suffix type 7',
+    vs8  => 'verb suffix type 8',
+    vs9  => 'verb suffix type 9',
+);
+
+
 my @field = qw(tlh pos sv en def ref gram com pun see cat data file);
 
 my %field_num = do {
@@ -77,10 +134,36 @@ while (<>) {
     $x{$line_num} .= $_;
 }
 
-# check def/ref fields
 foreach my $num (sort { $a <=> $b } keys %x) {
     my $_ = $x{$num};
 
+    my ($pos) = /^pos:\t(.*)$/m;
+
+    my $pos_en_re = '(' . join("|", sort keys %pos_en) . ')';
+    my $pos_sv_re = '(' . join("|", sort keys %pos_sv) . ')';
+
+    my ($pos_en, $use_en) = /^en:.*?\($pos_en_re\)(.*)/m;
+    my ($pos_sv, $use_sv) = /^sv:.*?\($pos_sv_re\)(.*)/m;
+
+    if ($pos ne $pos_en{$pos_en} or $pos ne $pos_sv{$pos_sv}) {
+        warn "pos does not match at line $num\n";
+    }
+
+    # check all def/ref fields
+    while (/^ ([dr]ef): \t ([^\n]*)$/xmg) {
+        my ($field, $_) = ($1, $2);
+        warn "unknown source reference in post beginning at line $num\n",
+            "    $field: $_\n"
+            unless source_ref_syntax($_);
+    }
+}
+
+
+sub TRUE  {  1 }
+sub FALSE { '' }
+
+sub source_ref_syntax {
+    my ($_) = @_;
     my $s  = qr/[  ]/x;                                     # spaces
     my $p  = qr/[ivx]+|\d+/x;                               # a page number
     my $pp = qr/ p\.$p | pp\.$p(--$p|(,$s$p(--$p)?)+) /x;   # p.#PAGE or pp.#RANGE
@@ -105,15 +188,9 @@ foreach my $num (sort { $a <=> $b } keys %x) {
 
     my $source       = qr/ $paged_source|$unpaged_source /x;
 
-    if (/^ ([dr]ef): \t ([^\n]*)$/xm) {
-        my ($field, $_) = ($1, $2);
-        if (!/^ $source (;$s$source)* $/x) {
-            warn "unknown source reference in post beginning at line $num\n",
-                "    $field: $_\n";
-        }
-    }
-}
 
+    return /^ $source (;$s$source)* $/x ? TRUE : FALSE;
+}
 
 
 # foreach my $num (sort { $a <=> $b } keys %x) {

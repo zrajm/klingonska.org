@@ -2701,7 +2701,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{DIn}
 pos:	noun
-sv:	«ingång», «öppning» (till en tunnel, rör etc., utan dörr)
+sv:	«ingång», «öppning» (till en tunnel, rör etc., utan dörr) (s)
 en:	«entryway» (to a tunnel, conduit, etc.; not a door) (n)
 def:	HQ12:2 p.7
 ref:	TDNW
@@ -10373,7 +10373,7 @@ en:	«block», «lump», «brick» (n)
 def:	{qep'a'} 2010
 ref:	Email 2010-12-22 (by Lieven L. Litaer, to tlhingan-hol, "latlh
 	'e'nalpu'"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol,
-	"Letter from Maltz");
+	"Letter from Maltz")
 file:	2010-12-22-email.txt; 2010-12-25-email.txt
 
 tlh:	{ngogh tun}
@@ -11734,7 +11734,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{pur}
 pos:	verb
-sv:	«andas in» (s)
+sv:	«andas in» (v)
 en:	«inhale» (v)
 def:	HQ12:4 p.8
 ref:	TDNW
@@ -12186,7 +12186,7 @@ file:	1996-03-holqed-05-1.txt
 
 tlh:	{qa'rI'}
 pos:	noun
-sv:	«slut», «ände» (på långsmalt avgränsat utrymme, t.ex. korridor, rör, väg, bro, fält etc.)
+sv:	«slut», «ände» (på långsmalt avgränsat utrymme, t.ex. korridor, rör, väg, bro, fält etc.) (s)
 en:	«end» (of a long bounded space, e.g. corridor, conduit, road, bridge, field etc.) (n)
 def:	HQ12:2 pp.7--8
 ref:	TDNW
@@ -12438,7 +12438,7 @@ file:	2001-06-holqed-10-2.txt
 
 tlh:	{qewwI'}
 pos:	noun
-sv:	«ring«finger» (v)
+sv:	«ring«finger» (s)
 en:	«ring «finger»», «third finger» (n)
 def:	HQ10:2 p.7
 cat:	body part
@@ -13107,7 +13107,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{quy'Ip}
 pos:	noun
-sv:	«kräkning», «spya» (n)
+sv:	«kräkning», «spya» (s)
 en:	«vomit» (n)
 def:	HQ12:4 p.8
 ref:	TDNW
@@ -13487,7 +13487,7 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{Qep'It}
 pos:	noun
-sv:	«gas» alstrad inuti kroppen («rap», «fis» etc.) (n)
+sv:	«gas» alstrad inuti kroppen («rap», «fis» etc.) (s)
 en:	«gas» produced within the body («belch», «flatulence» etc.) (n)
 def:	HQ12:4 p.8
 ref:	TDNW
@@ -21523,7 +21523,7 @@ file:	2001-12-holqed-10-4.txt
 tlh:	{yatqap}
 pos:	noun
 sv:	en slags «fågel» (grå, ibland vit, flyger långa sträckor utan
-	att göra uppehåll) (v)
+	att göra uppehåll) (s)
 en:	type of «bird» (gray, sometimes white, travel long distances without
 	pausing) (n)
 def:	HQ10:4 p.5
@@ -21579,7 +21579,7 @@ file:	2001-12-holqed-10-4.txt
 
 tlh:	{'or}
 pos:	verb
-sv:	«manövrera», «styra» (en flygmaskin) (s)
+sv:	«manövrera», «styra» (en flygmaskin) (v)
 en:	«pilot», «operate» (an aircraft) (v)
 def:	HQ11:2 p.8
 file:	2002-06-holqed-11-2.txt
