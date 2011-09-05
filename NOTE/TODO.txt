@@ -1052,7 +1052,8 @@ Priorities:
 ***** DONE Remove illegal fields
       One occurance of 'src', one of 'en-x'.
       CLOSED: [2011-09-02 Fri 13:50]
-***** DOING Move part-of-speech info into own field
+***** DONE Move part-of-speech info into own field
+      CLOSED: [2011-09-06 Tue 00:13]
       (removing trailing POS-definitions from the end of the english and
       swedish translation fields. (How should entries marked "(slang)" etc. be
       handled?)
@@ -1060,7 +1061,8 @@ Priorities:
        This makes the 'pos' searchable in its own right in the web
        dictionary! :)
        CLOSED: [2011-08-29 Mon 19:01]
-****** TODO Remove part-of-speech markers in 'en:' and 'sv:' fields
+****** DONE Remove part-of-speech markers in 'en:' and 'sv:' fields
+       CLOSED: [2011-09-06 Tue 00:13]
        How will pocket dictionary extractor will have to be modified
 ****** DONE Have 'verb', 'noun' etc. as values for 'pos' field (no abbrev)
        CLOSED: [2011-09-05 Mon 00:31]
@@ -1125,6 +1127,8 @@ Priorities:
 ***** TODO "data: derived form" words should not be included in en-tlh side
 ***** TODO 'ref' and 'def' field contents is no longer surrounded with brackets
 ***** TODO Use field 'pos' for part of speech
+***** TODO Usage of word found in brackets in 'en' and 'sv' fields
+      Usage could be e.g. 'regional', 'archaic' or 'slang'.
 ** TODO "A Quick Reference to Adverbials in Klingon"
 *** Update list of adverbials
 ** TODO "Links to Other Pages About the Klingon Language"
@@ -1188,6 +1192,7 @@ Priorities:
     Required fields: tlh, pos, sv, en, def
     CLOSED: [2011-09-01 Thu]
 *** TODO Add 'file' to required fields
+*** TODO Check that if theres a [...] in 'sv' there is also one in 'en'
 *** TODO Check that <...> and «...» marks occur in 'sv' and 'en' fields
 *** TODO Check sort order (each section separately)
 *** TODO Check that irregular plurals links between singular <-> plural form

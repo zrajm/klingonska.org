@@ -134,25 +134,29 @@ while (<>) {
     $x{$line_num} .= $_;
 }
 
+my $pos_en_re = '(' . join("|", sort keys %pos_en) . ')';
+my $pos_sv_re = '(' . join("|", sort keys %pos_sv) . ')';
 foreach my $num (sort { $a <=> $b } keys %x) {
     my $_ = $x{$num};
 
-    my ($pos) = /^pos:\t(.*)$/m;
-
-    my $pos_en_re = '(' . join("|", sort keys %pos_en) . ')';
-    my $pos_sv_re = '(' . join("|", sort keys %pos_sv) . ')';
-
-    my ($pos_en, $use_en) = /^en:.*?\($pos_en_re\)(.*)/m;
-    my ($pos_sv, $use_sv) = /^sv:.*?\($pos_sv_re\)(.*)/m;
-
-    foreach ($use_en, $use_sv) {
-        next if /^ ( \s \[[^]]*\])? $/x;
-        warn "bad use comment '$_' in 'en' or 'sv' field at line $num \n";
+    if (/^en:.*\($pos_en_re\)/m) {
+        warn "pos specified inside 'en' field at line $num\n";
+    }
+    if (/^sv:.*\($pos_sv_re\)/m) {
+        warn "pos specified inside 'sv' field at line $num\n";
     }
 
-    if ($pos ne $pos_en{$pos_en} or $pos ne $pos_sv{$pos_sv}) {
-        warn "pos does not match at line $num\n";
-    }
+    # my ($pos_en, $use_en) = /^en:.*?\($pos_en_re\)(.*)/m;
+    # my ($pos_sv, $use_sv) = /^sv:.*?\($pos_sv_re\)(.*)/m;
+    # foreach ($use_en, $use_sv) {
+    #     next if /^ ( \s \[[^]]*\])? $/x;
+    #     warn "bad use comment '$_' in 'en' or 'sv' field at line $num\n";
+    # }
+
+    # my ($pos) = /^pos:\t(.*)$/m;
+    # if ($pos ne $pos_en{$pos_en} or $pos ne $pos_sv{$pos_sv}) {
+    #     warn "pos does not match at line $num\n";
+    # }
 
     # check all def/ref fields
     while (/^ ([dr]ef): \t ([^\n]*)$/xmg) {
