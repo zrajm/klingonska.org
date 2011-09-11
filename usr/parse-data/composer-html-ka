@@ -117,7 +117,7 @@ EOF
                            },
     klingon         => sub { '<b lang="tlh">' . shift() . '</b>';
                                  # "<b lang=\"tlh\">" . regex(
-                                 #     klinhyphenate(shift(), "&shy;"),
+                                 #     hyphenate_tlh(shift(), "&shy;"),
                                  #     qr/'/,
                                  #     "&rsquo;"
                                  # ) . "</b>"

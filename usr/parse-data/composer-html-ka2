@@ -111,8 +111,11 @@ EOF
                                  #"<em class=\"en\">" . shift() . "</em>"
                            },
     klingon         => sub { #'<b lang="tlh">' . shift() . '</b>';
-                             '<b lang="tlh">' . regex(
-                                 klinhyphenate(shift(), "&shy;", "-"),
+                             my ($string) = @_;
+                             my $class = ($string =~ qr/(^-|-$)/)
+                                 ? ' class="affix"' : '';
+                             '<b lang="tlh"' . $class . '>' . regex(
+                                 hyphenate_tlh($string, "&shy;", "-"),
                                  qr/'/,
                                  "&rsquo;"
                              ) . "</b>"

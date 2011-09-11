@@ -99,4 +99,30 @@ h1 {
 /* image the color will respect hover yadda yadda...                 */
 #main .border { border: 2px solid; }
 
+/*
+
+Klingon Text
+============
+
+<b lang="tlh">...</b> is used to mark Klingon text.
+
+Suffixes occuring alone (with a leading hyphen, e.g. "-moH") are sometimes
+broken apart in word wrap. This happens as several browsers freely insert
+linebreaks after "-". Use 'class="affix"' to mark a piece of Klingon text as an
+affix which is not to be word wrapped -- don't use this for longer texts
+though. E.g.
+
+    <b lang="tlh" class="affix">-moH</b>
+
+Longer constructions containing naked prefixes could possibly be marked up
+along these lines (using the example "-taHvIS"):
+
+    <b lang="tlh"><span class="affix">-taH</span>&shy;vIS</b>
+
+/zrajm 2011-09-11
+
+*/
+
+[lang="tlh"].affix { white-space: nowrap; }
+
 /* eof */

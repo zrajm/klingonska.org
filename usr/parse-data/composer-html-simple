@@ -33,7 +33,7 @@ my $WIDTH = 79;
     # KA-specific
     english         => sub { "<em class=\"en\">" . shift() . "</em>" },
     klingon         => sub { "<b lang=\"tlh\">" . regex(
-        klinhyphenate(shift(), "&shy;"),
+        hyphenate_tlh(shift(), "&shy;"),
         qr/'/,
         "&rsquo;"
     ) . "</b>" },

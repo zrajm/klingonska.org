@@ -717,6 +717,10 @@ Priorities:
 
       Then the composer should be rewritten accordingly.
 ***** TODO apostrophes in english text should be typographic
+***** DONE Suffixes should not line breaked after "-"
+      CLOSED: [2011-09-11 Sun 19:53]
+      This happens in my browser on some of the longer suffixes like {-Hom} and
+      {-vetlh}.
 ***** TODO Suffix Guide: {-'e'} <Topic> should include {nuqDaq 'oH puchpa''e'}
       I.e. the usage of {-'e'} in "it is" type of sentences.
 ***** DONE new header

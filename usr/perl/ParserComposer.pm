@@ -272,7 +272,7 @@ sub underline {
       ($char x length($text));
 }
 
-# Usage: $HYPHENATED = klinhyphenate($TEXT, $HYPHEN[, $HARD_HYPHEN ]);
+# Usage: $HYPHENATED = hyphenate_tlh($TEXT, $HYPHEN[, $HARD_HYPHEN ]);
 #
 # Insert $HYPHEN between each klingon syllable in $TEXT. $HYPHEN need not be a
 # single character (e.g. in HTML a good hyphen is "&shy;").
@@ -283,7 +283,7 @@ sub underline {
 # when a string like "-moH" accurs in in text and is rendered with a linebreak
 # between "-" and "m". (NOTE: Don't use "-" as $HYPHEN, if you specify a
 # $HARD_HYPHEN -- if you do this, then all hyphens will become $HARD_HYPHENs).
-sub klinhyphenate($$;$) {
+sub hyphenate_tlh($$;$) {
     my ($text, $hyphen, $hard_hyphen) = @_;
     my $cons = "tlh|ch|gh|ng|[bDHjlmnpqQrStv']";# consonants (except {w} and {y})
     my $syll = qr{                              #
