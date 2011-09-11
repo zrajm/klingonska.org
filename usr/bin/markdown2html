@@ -77,7 +77,7 @@ my %string = (
 BEGIN {
     my %module = (
 	"Text::MultiMarkdown" => {
-	    deb  => "libtext-markdown-perl",
+	    deb => "libtext-multimarkdown-perl",
 	    #import => [ "markdown" ],
 	},
     );
