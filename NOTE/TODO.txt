@@ -380,22 +380,15 @@ Priorities:
     to the prettified version (as well as to the original text formatted
     transcript).
 
-*** [23%] Transcripts updating/improvement
-**** TODO [#1] Add Alan Anderson's 2008-07-29 mail on {pu'jIn} and {'elI'jaH}
-     "29 July 2008: {ghunchu'wI'} in email to tlhingan-hol"
-     File should be called "canon/2008-07-29-email.txt".
-     NOTE: This file already has references to it from dict.zdb!!!
-**** TODO [#1] Add Tad's 2008-08-03 email to tlhingan-hol on {pu'jIn}
-     "Tad, email to tlhingan-hol 3 August 2007"
-     Marc said that {pu'jIn} is a pun/joke, but it was a personal reference
-     (presumably similar to {jIl} or {pe'vIl}), so it wouldn't be something
-     we'd get.
-     File should be called "canon/2007-08-03-email.txt".
-     NOTE: This file already has references to it from dict.zdb!!!
-**** TODO Check spelling of {tonSaw'} in KGT                          :PROOF:
+*** [34%] Transcripts updating/improvement
+**** DONE Check spelling of {tonSaw'} in KGT                          :PROOF:
+     CLOSED: [2011-09-15 Thu 17:42]
      Has Alan Andersson really missed the final apostrophe in
      "2011-08-22-email.txt", or is it correctly spelled there and need to be
      fixed elsewhere (= in KGT + dict.zdb, at least).
+
+     FIXED: The misspelling was in Alan Anderssons email (verified against
+     KGT).
 **** TODO "Major" source transcripts should be indexed by Google        :CGI:
      Transcriptions of TKD/TKW/KGT/CK and PK should be indexable by Google
      (i.e. script should detect and allow anyone with a user agent string
@@ -404,8 +397,6 @@ Priorities:
 ***** TODO 1991-12-03-tuc.txt
 ****** TODO Improve summary
 **** TODO Add text containing {Sa'Hut} "buttocks" (from {qep'a'} 2003) :HTML:
-**** TODO canon/old/1996-09.txt contains oct char \222 (apostrophe)    :HTML:
-     (do any other documents?) latin1 -> utf8 convert these?
 **** TODO canon/1997-sbx-s31.html missing Skybox S32 and S33 images
 **** TODO Add transcript of The Klingon Way (audio book)         :TRANSCRIBE:
 **** TODO Re-scan Skybox trading cards and add to                      :SCAN:
@@ -451,7 +442,8 @@ Priorities:
      This article is referenced in "{pIqaD}, And How to Read It", and so should
      be transcribed so that the {pIqaD} article can link to it.
 **** TODO All HolQeD articles referred to in "{pIqaD}, And How to Read It"
-**** TODO TKD correction                                              :PROOF:
+**** DONE TKD correction: "just,only, merely" (p.139)                 :PROOF:
+     CLOSED: [2011-09-15 Thu 17:48]
      Dictionary part contains, "just, only, merely, (adv) neH". Check the
      trailing comma with original source
 **** TODO HolQeD 12:3 p.9 correction                                  :PROOF:
