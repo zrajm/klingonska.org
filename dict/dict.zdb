@@ -11824,15 +11824,16 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{pu'jIn}
 pos:	noun
-sv:	«karta»
-en:	«map»
+sv:	«karta», «ritning»
+en:	«map», «plan» (architect's plan of a building etc.)
 def:	{qep'a'} 2007
 ref:	Email 2007-08-02 (by Eric Andeen, to tlhingan-hol, "RE: mu' chu'");
-	Email 2007-08-03 (by Eric Andeen, to tlhingan-hol, "RE: mu' chu'")
+	Email 2007-08-03 (by Eric Andeen, to tlhingan-hol, "RE: mu' chu'");
+	Email 2009-11-24 (by Lieven Litaer, to tlhingan-hol, "pu'jIn")
 com:	Marc said that {pu'jIn} is a pun/joke, but it was a personal reference
 	(presumably similar to {jIl} or {pe'vIl}), so it wouldn't be something
 	we'd get. (Tad, email to tlhingan-hol 3 August 2007)
-file:	2007-08-02-email.txt; 2007-08-03-email.txt
+file:	2007-08-02-email.txt; 2007-08-03-email.txt; 2009-11-24-email.txt
 
 tlh:	{qab}
 pos:	verb
