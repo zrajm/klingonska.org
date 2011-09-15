@@ -1195,19 +1195,26 @@ Priorities:
 *** DONE Check that all required fields exist in each post
     Required fields: tlh, pos, sv, en, def
     CLOSED: [2011-09-01 Thu]
-*** TODO Add 'file' to required fields
+*** DONE Add 'file' to required fields
+    CLOSED: [2011-09-15 Thu 15:48]
+*** TODO Text fields should not be allowed to end in [,:; ]
 *** TODO Check that if theres a [...] in 'sv' there is also one in 'en'
-*** TODO Check that <...> and «...» marks occur in 'sv' and 'en' fields
+*** DONE Check that <...> and «...» marks occur in 'sv' and 'en' fields
+    CLOSED: [2011-09-15 Thu 15:49]
 *** TODO Check sort order (each section separately)
 *** TODO Check that irregular plurals links between singular <-> plural form
-*** TODO Check that all files mentioned in field 'file' exist
-*** TODO Check that pos in 'en' and 'sv' fields correspond with 'pos' field
-*** TODO Homonymous klingon words must have enumeration in 'tlh' field
+*** DONE Check that all files mentioned in field 'file' exist
+    CLOSED: [2011-09-15 Thu 15:49]
+*** TODO Homonymous Klingon words must have enumeration in 'tlh' field
     I.e. the 'tlh' field should contain number within parenthesis ("(1)" for
     the oldest meaning of a word, "(2)" for the second oldest etc., if both
     homonyms have same source number is assigned in alphabetically.)
 *** TODO Email should require "by", "to" and a subject in parentheses.
-*** TODO Check Klingon spelling
+*** TODO Improve checks of Klingon spelling
+    Dissallow combinations ("uw" and maybe others?) that are explicitly
+    forbidden in TKD.
+*** DONE Check Klingon spelling
+    CLOSED: [2011-09-15 Thu 15:50]
 ** TODO [#4] HTML quality tester
    Should check the following:
 *** Check that all text have a "lang" property set

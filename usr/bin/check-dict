@@ -20,25 +20,38 @@ EOF
 
 =head1 TODO
 
-* Check that all 'file' files exist
 * Check that all homonymous words have an enumeration (1) etc in 'tlh' field
-* Should use English (not Klingon) names.
 * Email should require "by", "to" and a subject in parentheses.
+* check_tlh() -- TKD talks about "uw" -- and some other letter combination? --
+  being disallowed in Klingon: insert test for that, too, here
+* Text fields should not be allowed to end in comma, space, colon or semicolon
 
 =cut
 
 my %cfg = (
+    canon_path     => "../../canon", # relative to this file's path
     field_order    => [ qw(tlh pos sv en def ref gram com pun see cat data file) ],
-    field_required => [ qw(tlh pos sv en def) ],
+    field_required => [ qw(tlh pos sv en def file) ],
     field_subs     => {
-        tlh => \&check_tlh,
-        en  => \&check_en,
-        sv  => \&check_sv,
-        pos => \&check_pos,
-        def => \&check_source,
-        ref => \&check_source,
+        tlh  => \&check_tlh,
+        en   => \&check_en,
+        sv   => \&check_sv,
+        pos  => \&check_pos,
+        def  => \&check_source,
+        ref  => \&check_source,
+        file => \&check_file,
     },
 );
+
+# absolutify path to canon files
+$cfg{canon_path} = do {
+    use Cwd 'realpath';             # scripts absolute name
+    my $script = realpath($0);
+    use File::Spec 'splitpath';     # dir part of scripts name
+    my ($volume, $scriptdir) = File::Spec->splitpath($script);
+    realpath($scriptdir . "/" . $cfg{canon_path});
+};
+
 
 my %pos_en = (
     v    => 'verb',
@@ -109,6 +122,18 @@ fields_ok(@cfg{qw(field_required field_order field_subs)}, %record) or exit 1;
 
 exit;
 
+
+###############################################################################
+##                                                                           ##
+##  Functions                                                                ##
+##                                                                           ##
+###############################################################################
+
+sub TRUE  {  1 }
+sub FALSE { '' }
+
+sub numerically { $a <=> $b }
+
 sub check_en {
     my ($_, $field, $record) = @_;
     if (/\((v|n|name|adv|conj|excl|num|pro|ques|ns[1-5]|vp|vs[1-9r])\)/m) {
@@ -136,6 +161,16 @@ sub check_en {
         my $ket = () = m/»/g;
         warn "mismatched «...» brackets ($bra open, $ket close) in '$field' field\n"
             if $bra != $ket;
+    }
+}
+
+sub check_file {
+    my ($_, $field, $record) = @_;
+    foreach (split("; ", $_)) {
+        my $abs = "$cfg{canon_path}/$_";
+        my $rel = File::Spec->abs2rel($abs);
+        warn "non-existant file '$rel' in 'file' field\n"
+            unless -e $abs;
     }
 }
 
@@ -201,18 +236,6 @@ sub check_tlh {
     }
 }
 
-
-###############################################################################
-##                                                                           ##
-##  Functions                                                                ##
-##                                                                           ##
-###############################################################################
-
-sub TRUE  {  1 }
-sub FALSE { '' }
-
-sub numerically { $a <=> $b }
-
 # Usage: %RECORD = read_dict();
 #
 # Reads all records from a zdb file into %RECORD. Keys of the hash will be the
@@ -265,10 +288,10 @@ sub read_dict {
 #
 # Field names to be checked are the keys, values are coderefs for functions
 # called to check the field content. Each code reference is called with the
-# content of the field as the first argument, and the name of the field as the
-# second. Within the check function, call warn() with the appropriate error
-# message for each detected problem. Only if warn() never was called does
-# fields_ok() return true.
+# following arguments (1) the content of the field (2) name of the field and
+# (3) the complete content of the record. Within the check function, call
+# warn() with the appropriate error message for each detected problem. Only if
+# warn() never was called does fields_ok() return true.
 #
 # %RECORD should contain dict-type records as values, and with their line
 # numbers (in the original file) as keys. The keys of %RECORD are not tested in
