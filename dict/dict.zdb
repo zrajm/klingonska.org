@@ -3826,12 +3826,12 @@ tlh:	{ghochwI'}
 pos:	name
 sv:	«Spanaren» (en stjärnbild)
 en:	«Tracker» (a constellation)
-def:	KCD Lab
+def:	KCD
 ref:	TDNW
 
 tlh:	{ghoD}
 pos:	verb
-sv:	«proppa» (in), «packa» (full), «stoppa» (upp), 
+sv:	«proppa» (in), «packa» (full), «stoppa» (upp)
 en:	<stuff>
 def:	TKD
 data:	KLCP-1
@@ -6013,7 +6013,7 @@ com:	DON'T USE THIS WORD.
 	speculation. Thanks for catching this. /Steven Boozer on tlhingan-hol,
 	15 July 2004
 data:	incorrect form
-file:	canon/2004-07-15-email.txt
+file:	2004-07-15-email.txt
 
 tlh:	{jInaq}
 pos:	noun
@@ -6244,7 +6244,9 @@ sv:	«stridsspets» (på en torped)
 en:	<warhead> (of a torpedo)
 def:	KGT E-K, p.57
 com:	WARNING - Spellings alternate: {jornub} in KGT K-E, {jorneb} in KGT
-	E-K.
+	E-K. Recommended spelling is {jorneb} -- based on the fact than {neb}
+	means "beak" or "bill", while {nub} does not seem to have any
+	particular relevance in the situation.
 file:	1997-11-01-kgt.txt
 
 tlh:	{jornub}
@@ -6253,7 +6255,9 @@ sv:	«stridsspets» (på en torped)
 en:	«warhead» (of a torpedo)
 def:	KGT K-E
 com:	WARNING - Spellings alternate: {jornub} in KGT K-E, {jorneb} in KGT
-	E-K.
+	E-K. Recommended spelling is {jorneb} -- based on the fact than {neb}
+	means "beak" or "bill", while {nub} does not seem to have any
+	particular relevance in the situation.
 file:	1997-11-01-kgt.txt
 
 tlh:	{jorwI'}
@@ -11823,11 +11827,12 @@ pos:	noun
 sv:	«karta»
 en:	«map»
 def:	{qep'a'} 2007
-ref:	Email 2008-07-29 (by Alan Anderson, to tlhingan-hol)
+ref:	Email 2007-08-02 (by Eric Andeen, to tlhingan-hol, "RE: mu' chu'");
+	Email 2007-08-03 (by Eric Andeen, to tlhingan-hol, "RE: mu' chu'")
 com:	Marc said that {pu'jIn} is a pun/joke, but it was a personal reference
 	(presumably similar to {jIl} or {pe'vIl}), so it wouldn't be something
 	we'd get. (Tad, email to tlhingan-hol 3 August 2007)
-file:	2007-08-03-email.txt; 2008-07-29-email.txt
+file:	2007-08-02-email.txt; 2007-08-03-email.txt
 
 tlh:	{qab}
 pos:	verb
@@ -14301,7 +14306,7 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{ratlh}
 pos:	verb
-sv:	stanna «kvar», finnas kvar, «återstå», «ha» kvar
+sv:	stanna «kvar», finnas kvar, «återstå», «ha» kvar, vara kvar
 en:	<remain>
 def:	TKD
 data:	KLCP-1
@@ -20335,9 +20340,14 @@ tlh:	{'elI'jaH}
 pos:	noun
 sv:	«oväntad «gäst»»
 en:	«unexpected «visitor»»
-def:	{qep'a'} 2007
-ref:	Email 2008-07-29 (by Alan Anderson, to tlhingan-hol)
-file:	2008-07-29-email.txt
+def:	{qep'a'} 2006
+ref:	Email 2007-08-11 (by Agnieszka Solska, to tlhingan-hol)
+com:	Mark Okrand wrote the word in Angieszka Solska's notebook during
+	{qep'a'} 2006, but she expected it to be published {HolQeD}, and did
+	not want to spoil the surprise, therefore the word was not made public
+	until a year later, in a discussion about new words from the next
+	{qep'a'} on the tlhingan-hol mailing list.
+file:	2007-08-11-email.txt
 
 tlh:	{'elpI'}
 pos:	noun
@@ -22649,6 +22659,13 @@ MO attended.
 
 2006 -- {qep'a' wa'maH wejDIch}
 -------------------------------
+MO attended.
+
+* New word: {'elI'jaH} "unexpected visitor" (n) -- Mark Okrand wrote the word
+  in Angieszka Solska's notebook during {qep'a'} 2006, but she expected it to
+  be published {HolQeD}, and did not want to spoil the surprise, therefore the
+  word was not made public until a year later, in a discussion about new words
+  from the next {qep'a'} on the tlhingan-hol mailing list.
 
 2007 -- {qep'a' wa'maH loSDIch}
 -------------------------------
@@ -22656,7 +22673,6 @@ MO attended.
 
 * New word: {pu'jIn} "map" (n) -- it contains private pun. (Eric Andeen)
 * New word: {qolqoS} "core, heart" (n)
-* New word: {'elI'jaH} "unexpected visitor" (n)
 
 2008 -- {qep'a' wa'maH vaghDIch}
 --------------------------------
@@ -22764,6 +22780,12 @@ SOURCES REFERENCES AND ABBREVIATIONS
 
 HISTORY (LAST CHANGES FIRST)
 ============================
+
+    [2011-09-15] Added spelling recommendation for {jorneb} / {jornub};
+    corrected sources for {pu'jIn} and {'elI'jaH} (discovered that the latter
+    originated, not from {qep'a'} 2007, but *2006*); added Swedish translation
+    "vara kvar" for {ratlh}; fixed broken «...» brackets in Swedish
+    translations + other minor corrections.
 
     [2011-09-01] Added new words from {qep'a'} 2011 (from Alan Andersons
     posting to tlhingan-hol in 2011-08-22-email.txt). Added enumerator on the
