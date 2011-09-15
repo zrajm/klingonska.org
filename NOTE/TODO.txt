@@ -380,7 +380,7 @@ Priorities:
     to the prettified version (as well as to the original text formatted
     transcript).
 
-*** [34%] Transcripts updating/improvement
+*** [39%] Transcripts updating/improvement
 **** DONE Check spelling of {tonSaw'} in KGT                          :PROOF:
      CLOSED: [2011-09-15 Thu 17:42]
      Has Alan Andersson really missed the final apostrophe in
@@ -446,7 +446,8 @@ Priorities:
      CLOSED: [2011-09-15 Thu 17:48]
      Dictionary part contains, "just, only, merely, (adv) neH". Check the
      trailing comma with original source
-**** TODO HolQeD 12:3 p.9 correction                                  :PROOF:
+**** DONE HolQeD 12:3 p.9 correction                                  :PROOF:
+     CLOSED: [2011-09-15 Thu 17:53]
      "do more that is acceptable" should probably be "do more than is
      acceptable". ("than", rather than "that")
 **** DONE Add HolQeD 1:3 p.9 transcript                               :PROOF:
