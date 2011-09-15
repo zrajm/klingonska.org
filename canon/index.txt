@@ -130,10 +130,10 @@ publication, or a description of its contents and/or form).
       second edition was published 1992, including an addendum with
       some futher grammar, and an list of additional
       words. (Abbreviated <i>TKD,</i> we recommend that you use the
-      abbreviation <i>TKDa</i> when refering to the addendum, and that
+      abbreviation <i>TKDa</i> when referring to the addendum, and that
       you use section references [rather than page references] since
       the section numbering presumably will be retained in
-      translations of the book.) 
+      translations of the book.)
     </td>
   </tr>
 
@@ -303,7 +303,7 @@ publication, or a description of its contents and/or form).
       but the abbreviation <i>SBC</i> is also used sometimes.)
     </td>
   </tr>
-  
+
   <tr valign="top">
     <td><font size="4">1995-02</font></td><td></td>
     <td><font size="4"><i>Sarek</i></font>
@@ -1337,7 +1337,7 @@ publication, or a description of its contents and/or form).
     </td>
   </tr>
 
-  
+
   <tr valign="top">
     <td><font size="4">2003-12</font></td><td></td>
     <td><font size="4">»Maltz's Reward: Part III«</font>
@@ -1375,7 +1375,7 @@ publication, or a description of its contents and/or form).
       On questions-as-objects (QAO).
     </td>
   </tr>
-  
+
   <tr><td colspan="4"><hr noshade="noshade" size="3" /></td></tr>
 
 </table>
