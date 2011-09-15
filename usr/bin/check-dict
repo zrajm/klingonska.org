@@ -1,9 +1,12 @@
 #!/usr/bin/perl -w
 use strict;
 use 5.10.0;
+
+# enable UTF-8
 use utf8;
 binmode(STDIN,  ":encoding(utf8)");
 binmode(STDOUT, ":encoding(utf8)");
+binmode(STDERR, ":encoding(utf8)");
 
 if (-t STDIN and @ARGV == 0) {
     print <<"EOF";
@@ -17,15 +20,25 @@ EOF
 
 =head1 TODO
 
-* Check that <...> marks occur in all 'sv' and 'en' fields
-* Check Klingon spelling
 * Check that all 'file' files exist
-* Check that pos in 'en' and 'sv' fields correspond with 'pos' field
 * Check that all homonymous words have an enumeration (1) etc in 'tlh' field
 * Should use English (not Klingon) names.
 * Email should require "by", "to" and a subject in parentheses.
 
 =cut
+
+my %cfg = (
+    field_order    => [ qw(tlh pos sv en def ref gram com pun see cat data file) ],
+    field_required => [ qw(tlh pos sv en def) ],
+    field_subs     => {
+        tlh => \&check_tlh,
+        en  => \&check_en,
+        sv  => \&check_sv,
+        pos => \&check_pos,
+        def => \&check_source,
+        ref => \&check_source,
+    },
+);
 
 my %pos_en = (
     v    => 'verb',
@@ -84,92 +97,243 @@ my %pos_sv = (
 );
 
 
-my @field = qw(tlh pos sv en def ref gram com pun see cat data file);
+###############################################################################
+##                                                                           ##
+##  Main                                                                     ##
+##                                                                           ##
+###############################################################################
 
-my %field_num = do {
-    my $count = 1;
-    map { $_ => $count++ } @field;
-};
+my %record = read_dict();
 
+fields_ok(@cfg{qw(field_required field_order field_subs)}, %record) or exit 1;
 
-my %x = ();
+exit;
 
-# skip header
-while (<>) {
-    last if /^=== start-of-word-list ===$/;
-}
-
-# read file up to footer (ignoring section separators)
-my $line_num  = -1;
-my $field_num = -1;
-while (<>) {
-    last if /^=== end-of-noun-suffix-list ===$/;
-    next if /^=== /;
-
-    if ($_ eq "\n" and $line_num > -1) {                 # blank line
-        # check that all required fields exist
-        foreach (qw(tlh pos sv en def)) {
-            $x{$line_num} =~ /^$_:\t/m
-                or warn "missing required field '$_' in $line_num\n";
+sub check_en {
+    my ($_, $field, $record) = @_;
+    if (/\((v|n|name|adv|conj|excl|num|pro|ques|ns[1-5]|vp|vs[1-9r])\)/m) {
+        warn "part-of-speech '($1)' must not be given inside '$field' field\n";
+        print STDERR "    $field: $_\n";
+    }
+    {
+        # «...» or <...> are required except for affixes
+        if (!/[«<]/ and $record !~ /^pos:.*\b(suf|pre)fix\b/m) {
+            warn "missing «...» or <...> brackets in '$field' $field\n";
+            print STDERR "    $field: $_\n";
         }
-        $line_num = $field_num = -1;
-        next;
     }
-    if ($line_num == -1) {
-        $line_num = $.;
-        $x{$line_num} = "";
-    }
+    {
+        # check for matching <...>
+        my $bra = () = m/</g;
+        my $ket = () = m/>/g;
+        warn "mismatched <...> brackets ($bra open, $ket close) in '$field' field\n"
+            if $bra != $ket;
 
-    if (/^([^:\s]*):/) {                # new field
-        my $field_name = $1;
-        if (not exists($field_num{$field_name})) {
-            warn "unknown field '$1' in line $.\n";
-        } elsif ($field_num{$field_name} < $field_num) {
-            warn "field '$1' is too late in field order in line $.\n";
+    }
+    {
+        # check for matching «...»
+        my $bra = () = m/«/g;
+        my $ket = () = m/»/g;
+        warn "mismatched «...» brackets ($bra open, $ket close) in '$field' field\n"
+            if $bra != $ket;
+    }
+}
+
+sub check_pos {
+    my ($_, $field) = @_;
+    my $re = qr{
+        verb(\s(prefix|suffix\stype\s([1-9]|rover)))?|
+        noun(\ssuffix\stype\s[1-5])?|
+        name|adverbial|conjuction|exclamation|numeral|pronoun|question\sword
+    }x;
+    if (not /^($re)$/) {
+        warn "invalid part-of-speech in '$field' field\n";
+        print STDERR "    $field: $_\n";
+    }
+}
+
+# used for both 'def' and 'ref'
+sub check_source {
+    my ($_, $field) = @_;
+    if (not source_ref_syntax($_)) {
+        warn "invalid source reference in '$field' field\n";
+        print STDERR "    $field: $_\n";
+    }
+}
+
+sub check_sv {
+    my ($_, $field, $record) = @_;
+    if (/\((v|s|namn|adv|konj|interj|räkn|pro|fråg|ss[1-5]|vp|vs[1-9]s)\)/m) {
+        warn "part-of-speech '($1)' must not be given inside '$field' field\n";
+        print STDERR "    $field: $_\n";
+    }
+    {
+        # «...» are required except for affixes
+        if (!/«/ and $record !~ /^pos:.*\b(suf|pre)fix\b/m) {
+            warn "missing «...» brackets in '$field' $field\n";
+            print STDERR "    $field: $_\n";
         }
-        $field_num = $field_num{$field_name} // $field_num;
-    } elsif (s/^\t+/ /) {             # continuation line
-        chomp($x{$line_num});
     }
-    $x{$line_num} .= $_;
-}
-
-my $pos_en_re = '(' . join("|", sort keys %pos_en) . ')';
-my $pos_sv_re = '(' . join("|", sort keys %pos_sv) . ')';
-foreach my $num (sort { $a <=> $b } keys %x) {
-    my $_ = $x{$num};
-
-    if (/^en:.*\($pos_en_re\)/m) {
-        warn "pos specified inside 'en' field at line $num\n";
+    {
+        # <...> are not allowed
+        if (/</) {
+            warn "<...> brackets are not allowed in '$field' $field\n";
+            print STDERR "    $field: $_\n";
+        }
     }
-    if (/^sv:.*\($pos_sv_re\)/m) {
-        warn "pos specified inside 'sv' field at line $num\n";
-    }
-
-    # my ($pos_en, $use_en) = /^en:.*?\($pos_en_re\)(.*)/m;
-    # my ($pos_sv, $use_sv) = /^sv:.*?\($pos_sv_re\)(.*)/m;
-    # foreach ($use_en, $use_sv) {
-    #     next if /^ ( \s \[[^]]*\])? $/x;
-    #     warn "bad use comment '$_' in 'en' or 'sv' field at line $num\n";
-    # }
-
-    # my ($pos) = /^pos:\t(.*)$/m;
-    # if ($pos ne $pos_en{$pos_en} or $pos ne $pos_sv{$pos_sv}) {
-    #     warn "pos does not match at line $num\n";
-    # }
-
-    # check all def/ref fields
-    while (/^ ([dr]ef): \t ([^\n]*)$/xmg) {
-        my ($field, $_) = ($1, $2);
-        warn "unknown source reference in post beginning at line $num\n",
-            "    $field: $_\n"
-            unless source_ref_syntax($_);
+    {
+        # check for matching «...»
+        my $bra = () = m/«/g;
+        my $ket = () = m/»/g;
+        warn "mismatched «...» brackets ($bra open, $ket close) in '$field' field\n"
+            if $bra != $ket;
     }
 }
 
+sub check_tlh {
+    my ($_, $field) = @_;
+    my $re = qr/([bDHjlmnpqQrStvwy']|ch|gh|ng|tlh)[aeIou]([bDHjlmnpqQrStv']|ch|gh|ng|tlh|[wy]'?|rgh)?/;
+    if (not /^\{($re+(\s$re+|\s«($re+|pIqarD)»)*|$re?-|-$re|-oy|qIrq)\} ( \s \([0-9]+\) )? $/x) {
+        # TKD talks about "uw" -- and some other letter combination? -- being
+        # disallowed in Klingon: insert test for that, too, here
+        warn "bad syllable structure in '$field' field\n";
+        print STDERR "    $field: $_\n";
+    }
+}
+
+
+###############################################################################
+##                                                                           ##
+##  Functions                                                                ##
+##                                                                           ##
+###############################################################################
 
 sub TRUE  {  1 }
 sub FALSE { '' }
+
+sub numerically { $a <=> $b }
+
+# Usage: %RECORD = read_dict();
+#
+# Reads all records from a zdb file into %RECORD. Keys of the hash will be the
+# line number each record started at. Values will be the complete content of
+# the record (with any continuation lines unwrapped).
+#
+sub read_dict {
+    # skip header
+    while (<>) {
+        last if /^=== start-of-word-list ===$/;
+    }
+
+    # read file up to footer (ignoring section separators)
+    my $line   = -1;
+    my %record = ();
+    while (<>) {
+        /^=== end-of-noun-suffix-list ===$/ and last;
+        /^=== / and next;
+        /^$/ and $line = -1, next;
+
+        if (/^[^:\s]*:/) {                  # new field
+            if ($line == -1) {              #   if 1st in record
+                $line = $.;                 #     remember line
+                $record{$line} = "";        #     init record value
+            }
+        } elsif (s/^\t+/ /) {               # continuation line
+            chomp($record{$line});          #   strip previous newline
+        }
+        $record{$line} .= $_;               # append value to record
+    }
+
+    return %record;
+}
+
+# Usage: BOOL = fields_ok(\@REQUIRED, \@ORDER, \%SUBS, %RECORD);
+#
+# Checks the order and existance of field names in %RECORD, warn()s if any
+# problems were found. Returns true if no warnings were outputted, FALSE
+# otherwise.
+#
+# \@REQUIRED is a reference to a list containing the names of the required
+# fiels (in no particular order).
+#
+# \@ORDER is a reference to a list containing the names of all allowed fields
+# in the order which they must occur within a record.
+#
+# \%SUBS is a reference to a hash containing check functions for specified
+# named fields. (Fields for which there exist no check function is assumed to
+# be valid as-is.)
+#
+# Field names to be checked are the keys, values are coderefs for functions
+# called to check the field content. Each code reference is called with the
+# content of the field as the first argument, and the name of the field as the
+# second. Within the check function, call warn() with the appropriate error
+# message for each detected problem. Only if warn() never was called does
+# fields_ok() return true.
+#
+# %RECORD should contain dict-type records as values, and with their line
+# numbers (in the original file) as keys. The keys of %RECORD are not tested in
+# any way, only outputted as a hint to the user of where (in the source file) a
+# problem was found.
+#
+sub fields_ok {
+    my ($field_required, $field_order, $field_subs, %record) = @_;
+    my $result = TRUE;
+
+    my $field_subs_re = do {
+        my $x = join("|", sort keys %$field_subs);
+        qr/$x/ if $x;
+    };
+
+    # field name -> field number hash
+    # (used to check that fields come in right order within record)
+    my %field_number = do {
+        my $count = 1;
+        map { $_ => $count++ } @$field_order;
+    };
+
+    # check fields
+    foreach my $line (sort numerically keys %record) {
+        my $_ = $record{$line};  # record content
+
+        local $SIG{__WARN__} = sub {
+            chomp(my @x = @_);
+            $result = FALSE;
+            warn "@x, in record at line $line\n";
+        };
+
+        # check that required fields exist
+        foreach my $field (@$field_required) {
+            if (not /^$field:\t/m) {
+                warn "missing required field '$field'\n";
+            }
+        }
+
+        # check field order
+        my $num = -1;
+        while (/^([^:\s]*):/gm) {
+            my $field = $1;
+            if (not exists($field_number{$field})) {
+                warn "unknown field '$field'\n";
+                next;
+            }
+            if ($field_number{$field} < $num) {
+                warn "field '$field' is too late in field order\n";
+                next;
+            }
+            $num = $field_number{$field};
+        }
+
+
+        if ($field_subs_re) {
+            while (/^($field_subs_re): \t (.*) /gmx) {
+                $field_subs->{$1}($2, $1, $_);
+            }
+        }
+
+    }
+
+    return $result;
+}
 
 sub source_ref_syntax {
     my ($_) = @_;
@@ -202,10 +366,10 @@ sub source_ref_syntax {
 }
 
 
-# foreach my $num (sort { $a <=> $b } keys %x) {
+# foreach my $num (sort { $a <=> $b } keys %record) {
 #     print "=" x 80, "\n",
 #         "==  $num\n",
-#         "$x{$num}";
+#         "$record{$num}";
 # }
 
 #[eof]
