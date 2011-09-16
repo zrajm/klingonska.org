@@ -27,8 +27,9 @@
   [2006-07-25] added day to release date (info from Amazon)
   [2006-08-26] added {{...}} around all images, corrected faulty page numbers
   [2006-09-18] minor corrections
+  [2011-09-16] added style "{{}}=float" line
 
-  Style: {}=bold, <>=italics, corrections, paginated, hidden
+  Style: {}=bold, <>=italics, {{}}=float, corrections, paginated, hidden
 
   Type: book
   Date: (1) May 1996
@@ -323,7 +324,7 @@ ROBBIE ROBINSON
 {A clone of Kahless (Kevin Conway) created with all the
 memories and values of the true Kahless.}
 
-}} [[p.3]]
+}}[[p.3]]
 
 
 We are Klingons!
@@ -353,7 +354,7 @@ ROBBIE ROBINSON
 {To extract the needed information, Worf (Michael Dorn)
 uses a Klingon approach.}
 
-}} [[p.5]]
+}}[[p.5]]
 
 
 Klingons are born, live as warriors, then die.
@@ -396,7 +397,7 @@ ROBBIE ROBINSON
 {The son of Mogh confronts his own "lack of faith"
 with action.}
 
-}} [[p.7]]
+}}[[p.7]]
 
 
 When threatened, fight.
@@ -501,7 +502,7 @@ ROBBIE ROBINSON
 {Gowron (Robert O'Reilly) clashes with his friend over
 how to survive as Klingons.}
 
-}} [[p.11]]
+}}[[p.11]]
 
 
 To survive, we must expand.
@@ -541,7 +542,7 @@ ROBBIE ROBINSON
 {Believing he has only one course of action,
 Gowron takes it.}
 
-}} [[p.13]]
+}}[[p.13]]
 
 
 Klingons are a proud race, and we intend
@@ -587,7 +588,7 @@ ROBBIE ROBINSON
 {Huraga (William Dennis Hunt) raises voice and drink
 with his old friend's son.}
 
-}} [[p.15]]
+}}[[p.15]]
 
 
 Great deeds, great songs.
@@ -619,7 +620,7 @@ well known for their extensive collection of drinking songs.
 K'Ehleyr (Suzie Plakson) shares the joy of
 battle with Worf.}
 
-}} [[p.17]]
+}}[[p.17]]
 
 
 The memory of you sings in my blood.
@@ -652,7 +653,7 @@ ROBBIE ROBINSON
 chief's prime concern. He knows that the Klingon
 way will serve them well.}
 
-}} [[p.19]]
+}}[[p.19]]
 
 
 Choose to fight, not negotiate.
@@ -686,7 +687,7 @@ fer to negotiate eye to eye with my enemy."
 {Worf and his brother Kurn (Tony Todd) listen silently as
 the charges are read against their father.}
 
-}} [[p.21]]
+}}[[p.21]]
 
 
 Brute strength is not the most important
@@ -729,7 +730,7 @@ ROBBIE ROBINSON
 leverage needed to have Gowron proclaim the clone of
 Kahless as Emperor.}
 
-}} [[p.23]]
+}}[[p.23]]
 
 
 Real power is in the heart.
@@ -800,7 +801,7 @@ vessel was not as deserted as it appeared to be.
 {Korris (Vaughn Armstrong) tries to play on Worf's
 sympathies and sway him to his position.}
 
-}} [[p.27]]
+}}[[p.27]]
 
 
 Trust your instincts.
@@ -839,7 +840,7 @@ reveals a deep truth.
 {Challenged by an inferior officer, Commander Riker
 (Jonathan Frakes) reacts in time-tested Klingon fashion.}
 
-}} [[p.29]]
+}}[[p.29]]
 
 
 There are no old warriors.
@@ -863,7 +864,7 @@ ated successfully for centuries."
 {Alone in a ship of humans, the renegade Klingons Konmel
 (Charles H. Hyman) and Korris try to gain an ally.}
 
-}} [[p.31]]
+}}[[p.31]]
 
 
 Listen to the voice of your blood.
@@ -996,7 +997,7 @@ DANNY FELD
 (William Campbell), and Kang (Michael Ansara)---unite
 to take actions against a deadly foe.}
 
-}} [[p.37]]
+}}[[p.37]]
 
 
 A warrior does not let a friend face danger alone.
@@ -1142,7 +1143,7 @@ to teach his shipmates Klingon ways.}
 {Worf passes the rite marking the anniversary of his
 Age of Ascension.}
 
-}} [[p.43]]
+}}[[p.43]]
 
 
 To understand life, endure pain.
@@ -1166,7 +1167,7 @@ ROBBIE ROBINSON
 {Although half-human, Ambassador K'Ehleyr
 understands what it is to be Klingon.}
 
-}} [[p.45]]
+}}[[p.45]]
 
 
 Pleasure is nonessential.
@@ -1304,7 +1305,7 @@ possible.
 
 {The new security officer offers advice to his captain.}
 
-}} [[p.51]]
+}}[[p.51]]
 
 
 Capture all opportunities.
@@ -1326,7 +1327,7 @@ missed opportunity is said to have escaped.
 {Worf's newly discovered brother brings him word of the
 charges of treason against their father.}
 
-}} [[p.53]]
+}}[[p.53]]
 
 
 Honor is more important than life.
@@ -1369,7 +1370,7 @@ ROBBIE ROBINSON
 {Worf finds that the uniform of the Empire
 is not an easy fit.}
 
-}} [[p.55]]
+}}[[p.55]]
 
 
 One does not achieve honor while
@@ -1457,7 +1458,7 @@ play key roles. [[p.58]]
 {His own machinations lead K'mpec (Charles Cooper) to
 chose a human as the Arbiter of Succession.}
 
-}} [[p.59]]
+}}[[p.59]]
 
 
 The Klingon who kills without showing
@@ -1486,7 +1487,7 @@ ROBBIE ROBINSON
 {His is an old and honored house, with a deep affinity
 for the teachings of Kahless.}
 
-}} [[p.61]]
+}}[[p.61]]
 
 
 Only an enemy without honor refuses to
@@ -1516,7 +1517,7 @@ ROBBIE ROBINSON
 understand the human ways of dealing with death after
 a member of his away team was killed.}
 
-}} [[p.63]]
+}}[[p.63]]
 
 
 A leader must stand alone.
@@ -1542,7 +1543,7 @@ refers to a basic tenet of Klingon society, self-sufficiency. [[p.64]]
 {Kurn takes up the duties of Worf's cha'DIch
 before the High Council.}
 
-}} [[p.65]]
+}}[[p.65]]
 
 
 May you enemies run with fear.
@@ -1604,7 +1605,7 @@ DANNY FELD
 {Koloth encounters a guard of the Albino and teaches
 him a proverb.}
 
-}} [[p.69]]
+}}[[p.69]]
 
 
 It is a good day to die.
@@ -1632,7 +1633,7 @@ chance to defeat an adversary, he altered this expression to
 {Commander Riker understands how Worf feels, but he
 will not aid in his friend's suicide.}
 
-}} [[p.71]]
+}}[[p.71]]
 
 
 May you die well.
@@ -1782,7 +1783,7 @@ DANNY FELD
 {Strategy in honed before the fortress of the
 Albino is stormed.}
 
-}} [[p.77]]
+}}[[p.77]]
 
 
 A Klingon warrior is always
@@ -1813,7 +1814,7 @@ flee, to surrender, or to apologize, is particularly insulting.
 
 {The honor blade of the House of Worf.}
 
-}} [[p.79]]
+}}[[p.79]]
 
 
 Never leave without your bat'telh.
@@ -1877,7 +1878,7 @@ ROBBIE ROBINSON
 Shull). It is Molor who is attributed with first saying
 "You salute the stars" to Kahless.}
 
-}} [[p.83]]
+}}[[p.83]]
 
 
 You salute the stars.
@@ -1913,7 +1914,7 @@ ROBBIE ROBINSON
 {The duty of maintaining tradition falls to the only
 Klingon to wear a Starfleet uniform.}
 
-}} [[p.85]]
+}}[[p.85]]
 
 
 A beard is a symbol of courage.
@@ -1942,7 +1943,7 @@ ROBBIE ROBINSON
 
 {Not prune juice, this time.}
 
-}} [[p.87]]
+}}[[p.87]]
 
 
 Stop talking! Drink!
@@ -2018,7 +2019,7 @@ give up easily."
 {Worf listens to the lies about his father spread
 by the House of Duras.}
 
-}} [[p.91]]
+}}[[p.91]]
 
 
 A Klingon does not run away from his battles.
@@ -2049,7 +2050,7 @@ ROBBIE ROBINSON
 (James Cromwell) comes to a closer understanding
 of Klingon culture.}
 
-}} [[p.93]]
+}}[[p.93]]
 
 
 May you die before you are captured.
@@ -2081,7 +2082,7 @@ GREG SCHWARTZ
 her closest advisor cannot accept the tentative
 step towards peace.}
 
-}} [[p.95]]
+}}[[p.95]]
 
 
 Better to die on our feet than
@@ -2120,7 +2121,7 @@ JOHN SHANNON
 planet provides Commander Kruge (Christopher Lloyd)
 with the answers he needs.}
 
-}} [[p.97]]
+}}[[p.97]]
 
 
 Cowards take hostages. Klingons do not.
@@ -2170,7 +2171,7 @@ ROBBIE ROBINSON
 {Captain Picard (Patrick Stewart) understands when Worf
 assures him that there were "no survivors."}
 
-}} [[p.99]]
+}}[[p.99]]
 
 
 No one survived Khitomer.
@@ -2206,7 +2207,7 @@ ROBBIE ROBINSON
 
 {The story is told of how the first bat'telh was forged.}
 
-}} [[p.101]]
+}}[[p.101]]
 
 
 Even the best blade will rust and grow
@@ -2236,7 +2237,7 @@ must take care of oneself, both physically and spiritually.
 [[Note: The knife depicted on the above image is a warrior's d'k tahg (and not
 an assassin's kut'luch, as stated in the image's caption).]]
 
-}} [[p.103]]
+}}[[p.103]]
 
 
 The used kut'luch is always shiny.
@@ -2308,7 +2309,7 @@ ROBBIE ROBINSON
 {Faced with Gowron's disbelief, Kahless recounts
 an ancient story.}
 
-}} [[p.107]]
+}}[[p.107]]
 
 
 The wind does not respect a fool.
@@ -2337,7 +2338,7 @@ ROBBIE ROBINSON
 {His position as leader of the High Council is not
 secure, and Gowron knows it.}
 
-}} [[p.109]]
+}}[[p.109]]
 
 
 Fear is power.
@@ -2364,7 +2365,7 @@ threat to Gowron's rule.
 {United against a common foe are wary allies --- Klingon,
 human, and Vulcan.}
 
-}} [[p.111]]
+}}[[p.111]]
 
 
 Only a fool fights in a burning house.
@@ -2397,7 +2398,7 @@ imposed from the outside by the powerful Organians.
 subtleties of Klingon strategy to his human
 first officer}
 
-}} [[p.113]]
+}}[[p.113]]
 
 
 Only fools don't attack.
@@ -2436,7 +2437,7 @@ ROBBIE ROBINSON
 and Lursa (Barbara Marsh), to control the High Council
 does not end with the death of their brother.}
 
-}} [[p.115]]
+}}[[p.115]]
 
 
 A fool's only achievement is death.
@@ -2466,7 +2467,7 @@ ROBBIE ROBINSON
 {Highly skeptical of Kahless's "appearance," Gowron
 confront the clerics from the monastery on Boreth}
 
-}} [[p.117]]
+}}[[p.117]]
 
 
 Fools die young.
@@ -2490,7 +2491,7 @@ belief.
 {Secure in his power as a military governor of Organia,
 Kor gloats over his captive.}
 
-}} [[p.119]]
+}}[[p.119]]
 
 
 Mercy or power.
@@ -2557,7 +2558,7 @@ no Klingon at all."
 {Kor admires the virtues in one Organian, unaware
 that he is a Starfleet officer.}
 
-}} [[p.123]]
+}}[[p.123]]
 
 
 Always it is the brave ones who die.
@@ -2584,7 +2585,7 @@ ROBBIE ROBINSON
 {Worf tries to impart Klingon teachings to his son,
 Alexander (Jon Steuer).}
 
-}} [[p.125]]
+}}[[p.125]]
 
 
 Survival must be earned.
@@ -2618,7 +2619,7 @@ told him, meaning earning it in an honorable fashion.
 command take heed that not even a single Klingon
 can be discounted.}
 
-}} [[p.127]]
+}}[[p.127]]
 
 
 Four thousand throats may be cut in
@@ -2654,7 +2655,7 @@ ROBBIE ROBINSON
 "brave warrior" (Armin Shimerman) who "honorably"
 killed her husband.}
 
-}} [[p.129]]
+}}[[p.129]]
 
 
 An honorable death requires no vengeance.
@@ -2692,7 +2693,7 @@ GREG SCHWARTZ
 {Aboard a Starfleet ship, General Chang (Christopher
 Plummer) find solace in "Klingon" literature.}
 
-}} [[p.131]]
+}}[[p.131]]
 
 
 Tickle us, do we not laugh? Prick us, do
@@ -2721,7 +2722,7 @@ BRUCE BIRMELIN
 {Khan Noonien Singh (Ricard Montalban) relates this
 proverb to his "old friend" Admiral James Kirk.}
 
-}} [[p.133]]
+}}[[p.133]]
 
 
 Revenge is a dish which is best served cold.
@@ -2755,7 +2756,7 @@ an uninhabitable planet.
 {Raised among humans, the son of Mogh still finds
 them a puzzle.}
 
-}} [[p.135]]
+}}[[p.135]]
 
 
 If winning is not important,
@@ -2839,7 +2840,7 @@ also capable of expressing ideas subtly. [[p.138]]
 
 {Worf knows his is the heart of a warrior.}
 
-}} [[p.139]]
+}}[[p.139]]
 
 
 If a warrior ignores duty, acts dishonorably,
@@ -2868,7 +2869,7 @@ is nothing?"
 
 {A true delicacy that cannot be properly replicated.}
 
-}} [[p.141]]
+}}[[p.141]]
 
 
 Gagh is always best when served live.
@@ -2936,7 +2937,7 @@ day as a true Klingon."
 {Voices are raised as a warrior's spirit travels
 to Sto-Vo-Kor.}
 
-}} [[p.145]]
+}}[[p.145]]
 
 
 When a warrior dies, his spirit escapes.
@@ -2974,7 +2975,7 @@ ROBBIE ROBINSON
 {Determined to keep fighting, Worf makes a
 momentous and dangerous choice.}
 
-}} [[p.147]]
+}}[[p.147]]
 
 If the warrior's spirit has not escaped, the
 battle is still going on.
@@ -3058,7 +3059,7 @@ ROBBIE ROBINSON
 {Gowron offers Worf no support to overcome
 his discommendation.}
 
-}} [[p.151]]
+}}[[p.151]]
 
 
 You have chosen your weapon, so fight!
@@ -3080,7 +3081,7 @@ choices. Gowron expressed the thought more literally:
 {Seeing Worf puzzled by the revelry in a Klingon bar,
 Kurn reminds his brother of this warrior's cry.}
 
-}} [[p.153]]
+}}[[p.153]]
 
 
 Celebrate! Tomorrow we may die!
@@ -3110,7 +3111,7 @@ chance."
 {Worf shoulders the burden of the accusations
 against his father.}
 
-}} [[p.155]]
+}}[[p.155]]
 
 
 The family of a Klingon warrior is
@@ -3155,7 +3156,7 @@ ROBBIE ROBINSON
 {Toq (Sterling Macer, Jr.) reminds his elders of what
 it is to be truly Klingon.}
 
-}} [[p.157]]
+}}[[p.157]]
 
 
 Remember the scent.
@@ -3188,7 +3189,7 @@ riences."
 
 {K'Ehleyr will not accept Worf's distance.}
 
-}} [[p.159]]
+}}[[p.159]]
 
 
 Love is always smelled.
@@ -3214,7 +3215,7 @@ scent that first speaks of love."
 own can wear the uniform of Starfleet and still
 be a Klingon warrior.}
 
-}} [[p.161]]
+}}[[p.161]]
 
 
 The hunter does not lie down with the prey.
@@ -3239,7 +3240,7 @@ more to make Worf angry than to offend him.
 {Awakened to what it is to be Klingon, Toq embraces
 the ancient warrior ways.}
 
-}} [[p.163]]
+}}[[p.163]]
 
 
 Do not kill an animal unless you intend to eat it.
@@ -3265,7 +3266,7 @@ explained, "There are poor planets in the Klingon system."
 {Presented with the opportunity to kill a Starfleet captain,
 Kang refuses to be manipulated.}
 
-}} [[p.165]]
+}}[[p.165]]
 
 
 Klingons kill for their own purposes.
@@ -3292,7 +3293,7 @@ the ability to maintain control over one's own actions.
 {The "placid sheep" of the Council and their smiles disgust
 Kor, who prefers the nonsmiling "Organian" beside him.}
 
-}} [[p.167]]
+}}[[p.167]]
 
 
 Don't trust those who frequently smile.
@@ -3323,7 +3324,7 @@ DANNY FELD
 {Koloth will let nothing come between him and
 his vengeance on the Albino.}
 
-}} [[p.169]]
+}}[[p.169]]
 
 
 A sharp knife is nothing without a sharp eye.
@@ -3382,7 +3383,7 @@ GENE TRINDEL
 {A strange phenomenon reunites Worf with
 his childhood pet.}
 
-}} [[p.173]]
+}}[[p.173]]
 
 
 If you sleep with targs, you'll
@@ -3446,7 +3447,7 @@ ROBBIE ROBINSON
 {Trapped by his own traditions, Worf must ask Alexander
 (Brian Bonsall) to help with his suicide.}
 
-}} [[p.177]]
+}}[[p.177]]
 
 
 The son of a Klingon is a man the day
@@ -3484,7 +3485,7 @@ ROBBIE ROBINSON
 {The warrior spirit courses through him, and Gowron can-
 not bear to hear the platitudes of the Federation.}
 
-}} [[p.179]]
+}}[[p.179]]
 
 
 The victor is always right.
@@ -3528,7 +3529,7 @@ ROBBIE ROBINSON
 {The owner of the bar on Deep Space 9 finds his
 new regular...different.}
 
-}} [[p.181]]
+}}[[p.181]]
 
 
 To find ale, go into a bar.
@@ -3667,7 +3668,7 @@ ROBBIE ROBINSON
 {Assurances to the contrary, Worf is skeptical
 of the Yridian's information.}
 
-}} [[p.189]]
+}}[[p.189]]
 
 Don't trust Yridians who bring gifts.
 
@@ -3741,7 +3742,7 @@ ROBBIE ROBINSON
 {Worf hears the clarion call of the Klingon warrior
 rise within him.}
 
-}} [[p.193]]
+}}[[p.193]]
 
 
 If a warrior does not fight,
@@ -3778,7 +3779,7 @@ ROBBIE ROBINSON
 {Gowron tries to convince his friends to join with him
 in the upcoming battle.}
 
-}} [[p.195]]
+}}[[p.195]]
 
 
 Hear the warrior cry out!
@@ -3851,7 +3852,7 @@ ROBBIE ROBINSON
 {By blindfolding Ensign Sito (Shannon Fill), Worf hopes to
 teach her the importance of self-reliance.}
 
-}} [[p.199]]
+}}[[p.199]]
 
 
 Care about your students.
@@ -3916,7 +3917,7 @@ according to Klingon thinking, one must have an enemy. [[p.202]]
 {Celebrating his birthday, Worf travels the gauntlet that
 marks the rite of the Age of Ascension}
 
-}} [[p.203]]
+}}[[p.203]]
 
 
 Today I am a warrior.
@@ -3950,7 +3951,7 @@ ing warriors, expresses his or her deepest feelings.
 
 {Ritual tools used in the Age of Ascension ceremony.}
 
-}} [[p.205]]
+}}[[p.205]]
 
 
 If you don't use the painstik, the child will
@@ -4002,7 +4003,7 @@ there is no ready explanation as to why he was so amused.
 {Captured by Starfleet officers, Kor cares not
 for his own fate.}
 
-}} [[p.209]]
+}}[[p.209]]
 
 
 We succeed together in a greater whole.
@@ -4024,7 +4025,7 @@ greater whole."
 {Revered throughout the Empire, the image of Kahless
 is a constant in Klingon dwellings.}
 
-}} [[p.211]]
+}}[[p.211]]
 
 
 Destroying an empire to win a war is no
