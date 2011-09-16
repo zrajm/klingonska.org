@@ -380,7 +380,7 @@ Priorities:
     to the prettified version (as well as to the original text formatted
     transcript).
 
-*** [43%] Transcripts updating/improvement
+*** [48%] Transcripts updating/improvement
 **** DONE Check spelling of {tonSaw'} in KGT                          :PROOF:
      CLOSED: [2011-09-15 Thu 17:42]
      Has Alan Andersson really missed the final apostrophe in
@@ -424,7 +424,7 @@ Priorities:
 ***** TODO transcribe relevant portions
 ***** DONE Order book from UEB
       CLOSED: [2010-08-26 Thu 19:47]
-**** TODO Add HolQeD 5:2 p.11 (article about {Hoch})
+**** DOING Add HolQeD 5:2 p.11 (article about {Hoch})
       Mentioned in:
       file:///home/zrajm/2010-07-08/teresh.tdonnelly.org/kliadd5.html
 ***** TODO Email Mark about "?{Hoch paq[mey]}" vs. "{paq[mey] Hoch}"
@@ -441,10 +441,16 @@ Priorities:
        CLOSED: [2010-08-26 Thu 15:47]
 ***** DONE Check hyphenations
        CLOSED: [2010-08-26 Thu 15:43]
-**** TODO Add HolQeD 1:1 p.19 (article about {pIqaD})
-     This article is referenced in "{pIqaD}, And How to Read It", and so should
-     be transcribed so that the {pIqaD} article can link to it.
-**** TODO All HolQeD articles referred to in "{pIqaD}, And How to Read It"
+**** TODO HolQeD 1:1 pp.3-10 -- "First Stepws Towards a Phonological Theory of Klingon" by Allan C. Wechsler
+     Referenced in "{pIqaD}, And How to Read It".
+**** TODO HolQeD 2:2 pp.10-11 -- "Writing Klingon: The Easy Way" by Theron P. Elliot
+     Referenced in "{pIqaD}, And How to Read It".
+**** DONE HolQeD 1:1 p.18-20 -- "Some Comments on Orthography" by Lawrence M. Schoen
+     CLOSED: [2011-09-16 Fri 18:14]
+     Referenced in "{pIqaD}, And How to Read It".
+**** DONE HolQeD 1:4 p.17 -- "Numerals" by Lawrence M. Schoen
+     CLOSED: [2011-09-16 Fri 17:28]
+     Referenced in "{pIqaD}, And How to Read It".
 **** DONE TKD correction: "just,only, merely" (p.139)                 :PROOF:
      CLOSED: [2011-09-15 Thu 17:48]
      Dictionary part contains, "just, only, merely, (adv) neH". Check the

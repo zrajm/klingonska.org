@@ -1,0 +1,117 @@
+[[
+  [2011-09-16] transcribed by Zrajm C Akfohg
+  Style: {}=bold, <>=italics, ^=superscript, {{}}=float, corrections, paginated
+
+  Type: article
+  Date: March 1992
+  Title: Some Comments on Orthography
+  Author: Lawrence M. Schoen
+  Source: <{HolQeD} 1:1>, pages 18-20
+  Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
+  Summary: Descriptions of the alphabets of the Mandel and {pIqaD} writing
+    systems. Later followed up by the article "Numerals", published in {HolQeD}
+    1:4 (p.17) by the same author.
+
+]][[p.18]]
+
+Some Comments on Orthography
+
+Lawrence M. Schoen
+
+Those first three years of <TOS> where rather stingy. While we were allowed
+the occasional inference of Klingon culture, our exposure to Klingon
+language was limited to the rare and frustrating glimpse of signage aboard a
+Bird of Prey. Frustrting because there is something about unfamiliar writing
+system that tantalizes and entices, that beckons to us promising exotica,
+that hits of secrets and understand if only we could read those strange
+glyphs. If only...
+
+     In 1980 the <U.S.S Enterprise Officer's manual> was published. Though now  [[U.S.S:=U.S.S.]]
+out of print, in its time this volume was perceived as a great treasure trove of
+information. Among its inclusions was the following table of characters,
+which has since come to be known as the Mandel system:
+
+     [[Image: Mandel alphabet
+         K, L, I, NG, O, N, F, B, D
+         G, A, M, X, TH, H, V, J, E
+         S, Y, W, P, OO, T, R, U, Z
+     ]]
+
+     And so at last, after so many years of wondering, there was a key to the
+Klingon writing system! Except, it wasn't. This incredible alien alphabet
+was presented to us as little more than another way of encoding English; a
+second--order symbol system in which the letters of the roman alphabet
+could be mapped onto a different collection of symbols, not so different
+from similar systems such as Morse code or semaphor. Admittedly there [[semaphor:=semaphore]]
+were a few differences. A character for a velar nasal stop was included
+("NG"), as well as one for dental fricatives was added ("TH"). Unfortunately [[sic: weird sentence]]
+in the case of the latter, no indication of voicing was provided. And
+although the "C" and "Q" characters were left out (though they
+subsequently surfaced in several fan variations of the alphabet), one
+supposes because of redundancy, the "X" character was retained, though
+with no indication of being a voiceless velar fricative (a common
+substitution). There is also the addition of a sixth vowel character. But
+that's all. Nothing alien, nothing particularly exotic. Sure the letters looked
+interesting and may have caused some speculation as to what instrument [[p.19]]
+(stylus? brush?) might have been used to shape them, but that was the extent of it.
+And yet, none of it seemed to matter. It was Klingon, and fans eagerly
+clasped it to their collective breast. No matter that there was nothing to
+write in it, it served quite well for English, and that was enough until real
+Klingon came along.
+
+     More recently we've been treated to a different alphabet, (often
+incorrectly attributed to Michael Okuda, scenic designer for <TNG>). one
+which corresponds to the phonemes of Klingon ad described by Okrand in
+<TKD>. While the characters themselves are easily identifiable from
+background displays on <TNG> (assuming one has access to video equipment
+and a reasonably large television screen), there has never been an <official"
+release describing the particular relation ship between individual glyphs and
+specific sounds. As Okuda has indicated (<see the interview elsewhere in this
+issue>) all Klingon background displays are composed for appearance, not
+communication. And yet, an unofficial letter to a Klingon fan group from
+an unnamed source at Paramount resulted in the following  alphabet^1^:
+
+     [[Image: {pIqaD} alphabet
+         a, b, ch, D, e, ng, gh, H, I
+         j, q ,l, m, n, o, p, Q, r
+         S, t, u, v, w, tlh, '
+     ]]
+
+     Unlike its predecessor, these glyphs provide an excellent fit to the
+phonology of Klingon, or more specifically that of tlhIngan Hol.  However,
+other questions still remain.
+
+     The keen observer^2^ of <ST6> will note several Klingon glyphs which are not
+included in the alphabet above. While some appear to be simple rotations of
+characters (and one is reminded of Sequoyah's creation of the Cherokee
+syllabary), others appear to be completely novel. That they are not included
+in the alphabet need not necessarily be cause for distress, nor tempt us to
+suspect the assignment of sound to sign. Our own writing system is replete
+with logographs, single characters representing whole ideas or words (e.g. !,
+@, #, $, %) clearly a part of the system but not part of the alphabet.
+
+{{
+
+^1^ Laser fonts of both alphabets are available for Macintosh and PC computers for $11.50 ($10 +
+     $1.5 shipping et al.) from the KLI.
+
+^2^ I am indebted to David Sturm, this article's original keen observer.
+
+}}[[p.20]]
+
+     Then too, it may be helpful to keep in mind Allan Wechsler's remarks
+<(also elsewhere in this issue)> on the sparse distribution of consonants in
+tlhIngan Hol.  While perhaps a bit far fetched, the unexplained characters
+might be instances of alphabetic characters from an earlier, and
+phonemically larger, form of the language, maintained either for historical
+purposes in affairs of state (I refer here to the trial scene in <ST6>), or more
+simply as decoration.
+
+     In any case, there is clearly much much more to be learned about
+Klingon orthography, more tantilizing promises and secrets to discovered. [[tantilizing:=tantalizing]][[discovered:=discover]]
+Of course it's unknown whether any further explanations are apt to be
+forthcoming, but at least the exotica is there.  Or, to make the case more
+clear by example, what precisely is "the Klingon mummification glyph," and
+what is its role in a larger writing system?
+
+[[eof]]

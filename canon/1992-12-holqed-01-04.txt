@@ -1,0 +1,42 @@
+[[
+  [2011-09-16] transcribed by Zrajm C Akfohg
+  Style: {}=bold, <>=italics, corrections, paginated
+
+  Type: article
+  Date: December 1992
+  Title: Numerals
+  Author: Lawrence M. Schoen
+  Source: <{HolQeD} 1:4>, page 17
+  Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
+  Summary: Brief descriptions of the numerals in the Mandel and {pIqaD} writing
+    systems. Follow-up on the article "Some Comments on Orthography", published
+    in {HolQeD} 1:1 (pp. 18-20) by the same author.
+
+]][[p.17]]
+
+Numerals
+
+Lawrence M. Schoen
+
+In the first issue of <{HolQeD}> I put forth a short piece describing two Klingon
+writing systems in popular use and for which I had designed digital
+typefaces (i.e., "laserfonts").  Through a small oversight no numerals were
+shown, and the Klingon Language Institute has received a surprising number
+of inquiries regarding them.  So, at last, here they are.
+
+     From the Mandel writing system, generally considered to be a simple
+cipher of the Roman alphabet, and published in the <U.S.S. Enterprise Officer's
+Manual>:
+
+     [[Image: Mandel numerals
+         0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+     ]]
+
+     And from the syllabary created by Astra Image Corporation (though
+usually attributed to <ST:TNG> Scenic Designer Michael Okuda):
+
+     [[Image: {pIqaD} numerals
+         0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+     ]]
+
+[[eof]]
