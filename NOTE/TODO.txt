@@ -1129,6 +1129,24 @@ Priorities:
 ***** TODO Use field 'pos' for part of speech
 ***** TODO Usage of word found in brackets in 'en' and 'sv' fields
       Usage could be e.g. 'regional', 'archaic' or 'slang'.
+** TODO "Errors in Okrandian Sources"
+*** DONE Fix spelling of {me'mey} -> {mu'mey}
+    CLOSED: [2011-09-16 Fri 14:14]
+    From: Philip Newton <philip.newton@gmail.com>
+    Date: Fri, 2 Sep 2011 20:04:24 +0200
+    Subject: Errata for the errata
+    To: Zrajm C Akfohg <zrajm@klingonska.org>
+
+    Hello maHvatlh,
+
+    I notice that http://klingonska.org/errors.html lists near the bottom of
+    the page, in the section "Words Found Only in the Main Text [of KGT]":
+    {me'mey Doy'}.
+
+    That should be {mu'mey Doy'}, of course.
+
+    Cheers,
+    Philip
 ** TODO "A Quick Reference to Adverbials in Klingon"
 *** Update list of adverbials
 ** TODO "Links to Other Pages About the Klingon Language"
