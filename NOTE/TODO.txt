@@ -380,7 +380,7 @@ Priorities:
     to the prettified version (as well as to the original text formatted
     transcript).
 
-*** [48%] Transcripts updating/improvement
+*** [52%] Transcripts updating/improvement
 **** DONE Check spelling of {tonSaw'} in KGT                          :PROOF:
      CLOSED: [2011-09-15 Thu 17:42]
      Has Alan Andersson really missed the final apostrophe in
@@ -410,7 +410,8 @@ Priorities:
      "KCD 1" (to "KCD 6" at least)
      qa'vaj has transcribed KCD, (subject "KCD" etc in my gmail)
 ***** Add "file:" for dictionary entries with "KCD" in "def" field
-**** DOING Add reference for {nIyma'}
+**** DONE Add reference for {nIyma'}
+     CLOSED: [2011-09-17 Sat 19:08]
      http://mail.google.com/mail/#search/niyma'/11dcaa2b915a07df
 **** DONE Add reference for {pu'jIn}
      CLOSED: [2011-09-15 Thu 18:04]
@@ -785,6 +786,15 @@ Priorities:
      ..and make it a 'required' field (i.e. change the description at the top
      of the dictionary file).
 **** TODO Add words
+***** DONE Add {tuQmoH} and {tuQHa'moH}
+      CLOSED: [2011-09-17 Sat 19:34]
+      Date: Thu, 15 Sep 2011 10:06:13 -0700
+      To: paqhom@klingonska.org
+      From: Robyn Stewart <robyn@flyingstart.ca>
+      Subject: tuQmoH & tuQHa'moH
+
+      Just realized that tuQmoH & tuQHa'moH are in TKD but not the paqHom.
+      Choice or accident? /Qov
 ***** DONE [#1] New words from {qep'a'} 2011
       CLOSED: [2011-09-04 Sun 20:35]
       Add the words from canon/2011-08-22-email.txt

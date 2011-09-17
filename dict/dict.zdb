@@ -17264,6 +17264,32 @@ cat:	clothing
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
+tlh:	{tuQHa'moH}
+pos:	verb
+sv:	«klä av» sig, «ta av» sig (kläder)
+en:	<undress>, «take off» (clothes)
+def:	TKD
+ref:	HQ2:4 p.17
+com:	In <{HolQeD} 2:4> p. 17 (article named "Okrand's Notes"): "[...] the
+	Klingon slang expression {qogh tuQmoHHa'}, literally 'take off one's
+	belt' is used to mean 'to not hear,' for example, {qogh vItuQmoHHa'pu'}
+	'I've taken off my belt; your secret is safe with me.'"
+cat:	clothing
+file:	1992-01-01-tkd.txt; 1993-12-holqed-02-4.txt
+
+tlh:	{tuQmoH}
+pos:	verb
+sv:	«klä på» sig, «sätta på» sig
+en:	«dress», <put on> (clothes)
+def:	TKD
+ref:	HQ2:4 p.17
+com:	In <{HolQeD} 2:4> p. 17 (article named "Okrand's Notes"): "[...] the
+	Klingon slang expression {qogh tuQmoHHa'}, literally 'take off one's
+	belt' is used to mean 'to not hear,' for example, {qogh vItuQmoHHa'pu'}
+	'I've taken off my belt; your secret is safe with me.'"
+cat:	clothing
+file:	1992-01-01-tkd.txt; 1993-12-holqed-02-4.txt
+
 tlh:	{tuQDoq}
 pos:	noun
 sv:	¿?«tankesikt», «tankesil», «psykisk sond» (klingonsk sinnessond)
