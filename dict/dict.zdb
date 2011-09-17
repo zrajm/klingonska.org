@@ -14178,10 +14178,17 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{Qutlh}
 pos:	verb
-sv:	«stödja», «understödja», «hjälpa»
+sv:	«stödja», «stötta», «bära»
 en:	«support»
 def:	BoP
-file:	1998-11-01-bop.txt
+ref:	{qep'a'} 2010; Email 2010-07-26 (by Chris Lipscombe, to tlhingan-hol,
+	"Re: mu' chu'")
+com:	At {qep'a'} 2010: "Marc also clarified that {Qutlh} (support) can only
+	refer to physically supporting something. It can't refer to monetary
+	(he said {ghaq} is for this), psychological or any other non-physical
+	type of support." (Email 2010-07-26 [by Chris Lipscombe, to
+	tlhingan-hol, "Re: mu' chu'"])
+file:	1998-11-01-bop.txt; 2010-07-26-email.txt
 
 tlh:	{Quv}
 pos:	noun

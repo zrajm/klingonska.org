@@ -786,6 +786,17 @@ Priorities:
      ..and make it a 'required' field (i.e. change the description at the top
      of the dictionary file).
 **** TODO Add words
+***** TODO [0%] Words from the Klingon opera {'u'}
+      https://mail.google.com/mail/#search/tlheng'IQ/12a0fa8c18c6f6a3
+****** TODO {ghIv} limb (of a person)
+       Marc was listening in while Eric was telling me the words. When we got
+       to {ghIv}, {gham} was brought up. Marc described {ghIv} as the "person"
+       version of {gham}. (file: 2010-07-26-email.txt)
+****** TODO {maQ} "omen, sign"
+****** TODO {ruS} "bond", as between blood brothers
+****** TODO {chalqach} "tower"
+****** TODO {Suto'vo'qor} confirmed as correct (previously in DI)
+****** TODO {wa'DIch} confirmed as adverbial (previously in {taHjaj wo'} and SBX S15)
 ***** DONE Add {tuQmoH} and {tuQHa'moH}
       CLOSED: [2011-09-17 Sat 19:34]
       Date: Thu, 15 Sep 2011 10:06:13 -0700
