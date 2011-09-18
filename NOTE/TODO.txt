@@ -380,7 +380,7 @@ Priorities:
     to the prettified version (as well as to the original text formatted
     transcript).
 
-*** [52%] Transcripts updating/improvement
+*** [56%] Transcripts updating/improvement
 **** DONE Check spelling of {tonSaw'} in KGT                          :PROOF:
      CLOSED: [2011-09-15 Thu 17:42]
      Has Alan Andersson really missed the final apostrophe in
@@ -406,10 +406,11 @@ Priorities:
          canon/1996-sbx-s19.html
          canon/1996-sbx-s25.html
          canon/1997-sbx-s31.html
-**** TODO Add KCD transcripts
-     "KCD 1" (to "KCD 6" at least)
-     qa'vaj has transcribed KCD, (subject "KCD" etc in my gmail)
-***** Add "file:" for dictionary entries with "KCD" in "def" field
+**** DONE Add Mike Neff's KCD transcripts
+     CLOSED: [2011-09-18 Sun]
+     Mike Neff posted KCD transcripts to tlhingan-hol in January 2008 with
+     subjects "KCD 1" ... "KCD 8" and "KCD IP set #1". Add those to
+     canon/1996-04-kcd.txt
 **** DONE Add reference for {nIyma'}
      CLOSED: [2011-09-17 Sat 19:08]
      http://mail.google.com/mail/#search/niyma'/11dcaa2b915a07df
@@ -785,6 +786,10 @@ Priorities:
 **** TODO Make sure all words have "file:" field
      ..and make it a 'required' field (i.e. change the description at the top
      of the dictionary file).
+***** DONE Add "file:" for dictionary entries with "KCD" in def/ref
+      CLOSED: [2011-09-18 Sun 22:22]
+**** TODO All words with def/ref PK should have file: 1993-10-01-pk.txt
+     E.g. {HuH}.
 **** TODO Add words
 ***** TODO [0%] Words from the Klingon opera {'u'}
       https://mail.google.com/mail/#search/tlheng'IQ/12a0fa8c18c6f6a3

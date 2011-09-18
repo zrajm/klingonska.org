@@ -496,6 +496,7 @@ def:	KCD
 ref:	KLINW
 cat:	fighting
 data:	phrase
+file:	1996-04-kcd.txt
 
 tlh:	{betleH «'obe'»}
 pos:	noun
@@ -737,9 +738,9 @@ pos:	noun
 sv:	«bregitlunga»
 en:	<bregit lung>
 def:	TKDa
-ref:	KLINW
+ref:	KLINW; KCD
 com:	Food item shown and described on KCD.
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
 
 tlh:	{bIS'ub}
 pos:	noun
@@ -3174,6 +3175,7 @@ sv:	«Duraniska ödleskinn» (en slags «mat», tar aldrig pluralsuffix)
 en:	«Durani lizard skins» (type of «food», never takes plural suffix)
 def:	KCD
 data:	phrase; {Duran} (n)
+file:	1996-04-kcd.txt
 
 tlh:	{DuraS}
 pos:	name
@@ -3443,7 +3445,7 @@ sv:	«vördnadskväde», «aktningsode»
 en:	<ode of respect>
 def:	KGT
 ref:	KCD
-file:	1997-11-01-kgt.txt
+file:	1997-11-01-kgt.txt; 1996-04-kcd.txt
 
 tlh:	{gheb}
 pos:	noun
@@ -3798,6 +3800,7 @@ sv:	«Bröderna slåss med varandra» (känd staty)
 en:	The «Brothers Fight One Another» (famous statue)
 def:	KCD
 data:	phrase
+file:	1996-04-kcd.txt
 
 tlh:	{ghobe'}
 pos:	exclamation
@@ -3828,6 +3831,7 @@ sv:	«Spanaren» (en stjärnbild)
 en:	«Tracker» (a constellation)
 def:	KCD
 ref:	TDNW
+file:	1996-04-kcd.txt
 
 tlh:	{ghoD}
 pos:	verb
@@ -3877,6 +3881,7 @@ en:	«boy's knife»
 def:	KCD
 com:	Literally; "knife for (the purpose of) learning".
 data:	phrase
+file:	1996-04-kcd.txt
 
 tlh:	{ghojmoH}
 pos:	verb
@@ -5237,7 +5242,7 @@ ref:	PK; KCD
 com:	PK: "'May the bile of the vanquished fill your hands.'
 	{jagh lucharghlu'ta'bogh HuH ghopDu'lIj lungaSjaj.}"
 	See also comments in TKW p.142.
-file:	1996-05-01-tkw.txt; 1997-11-01-kgt.txt
+file:	1996-04-kcd.txt; 1996-05-01-tkw.txt; 1997-11-01-kgt.txt
 
 tlh:	{Huj} (1)
 pos:	verb
@@ -8129,6 +8134,7 @@ sv:	en känd «skulptör»
 en:	a famous «sculptor»
 def:	KCD
 com:	¿?What's the Paramount Hol name?
+file:	1996-04-kcd.txt
 
 tlh:	{mIv} (1)
 pos:	noun
@@ -9883,6 +9889,7 @@ en:	«Pride of Weapons»
 def:	KCD
 com:	This may refer to a rack for weapons (though I'm not sure).
 data:	phrase
+file:	1996-04-kcd.txt
 
 tlh:	{nuHHom}
 pos:	noun
@@ -11234,7 +11241,7 @@ ref:	KCD
 com:	KCD: "a common exclamation uttered upon the completion of a
 	project."
 data:	KLCP-1
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
 
 tlh:	{pIv}
 pos:	verb
@@ -12479,6 +12486,7 @@ en:	«Eyes of Kahless» (a guessing game)
 def:	KCD
 com:	A guessing game with dice where the winner receives a punch.
 data:	phrase
+file:	1996-04-kcd.txt
 
 tlh:	{qIb}
 pos:	noun
@@ -12930,6 +12938,7 @@ sv:	"«Eldssläktet»" (en opera)
 en:	"«House of Fire»" (an opera)
 def:	KCD
 data:	phrase
+file:	1996-04-kcd.txt
 
 tlh:	{qum}
 pos:	verb
@@ -13084,6 +13093,7 @@ sv:	¿?«hedersställ»
 en:	«honor display»
 def:	KCD
 data:	phrase
+file:	1996-04-kcd.txt
 
 tlh:	{quvHa'}
 pos:	verb
@@ -13746,7 +13756,7 @@ ref:	KCD
 com:	mythological place; source of all creation
 	According to KCD this was the source of all creation in
 	Klingon mythology.
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
 
 tlh:	{QI'yaH}
 pos:	exclamation
@@ -13756,7 +13766,7 @@ def:	TKD 5.5 (p.58)
 ref:	KCD
 com:	KCD: Vulgar Klingon expression; one of the strongest, most
 	foul Klingon expressions; it defies translation.
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
 
 tlh:	{Qob}
 pos:	verb
@@ -16342,6 +16352,7 @@ en:	type of «food», «heart of «targ»»
 def:	KCD
 com:	Food item described and shown on KCD.
 data:	phrase
+file:	1996-04-kcd.txt
 
 tlh:	{taS}
 pos:	noun
@@ -16821,6 +16832,7 @@ sv:	en slags «mat», «~tknag~-hovar», (refereras alltid till i plural)
 en:	type of «food», «~tknag~ hooves», (always referred to in plural)
 def:	KCD
 data:	phrase
+file:	1996-04-kcd.txt
 
 tlh:	{tIQ}
 pos:	verb
@@ -17682,6 +17694,7 @@ sv:	«Jag är en klingon» (känd opera)
 en:	«I am a Klingon» (famous opera)
 def:	KCD; STE
 data:	phrase
+file:	1996-04-kcd.txt
 
 tlh:	{tlhIngan wo'}
 pos:	noun
@@ -18322,7 +18335,7 @@ en:	<devil>, «demon», «~Fek'lhr~»
 def:	TKDa; KCD
 ref:	TKW p.197; HQ12:3 p.9
 com:	KCD: "The beast who guards the dwelling place of the dishonored dead"
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
 
 tlh:	{veQ}
 pos:	noun
@@ -18361,6 +18374,7 @@ en:	«Ferengi dog»
 def:	KCD
 com:	According to KCD this is "a classic insult".
 data:	phrase; derived form
+file:	1996-04-kcd.txt
 
 tlh:	{vergh}
 pos:	verb
@@ -18457,6 +18471,7 @@ sv:	«finova bönor»
 en:	«finova beans»
 def:	KCD
 data:	phrase; {vIno'va'} (n)
+file:	1996-04-kcd.txt
 
 tlh:	{vIng}
 pos:	verb
@@ -18500,6 +18515,7 @@ pos:	noun
 sv:	«sanningstestet»
 en:	the «truth test»
 def:	KCD
+file:	1996-04-kcd.txt
 
 tlh:	{vIttlhegh}
 pos:	noun
@@ -19590,7 +19606,7 @@ sv:	«synda»
 en:	<sin>
 def:	TKD
 ref:	KCD
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
 
 tlh:	{yep}
 pos:	verb
@@ -20755,6 +20771,7 @@ en:	«Blood Oath Circles» (famous sculpture)
 def:	KCD
 com:	The sculpture was made by {mIStaq}.
 data:	phrase
+file:	1996-04-kcd.txt
 
 tlh:	{'I'}
 pos:	noun
