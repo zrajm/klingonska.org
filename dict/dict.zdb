@@ -4218,7 +4218,7 @@ def:	TKD 5.5 (p.58)
 ref:	CK
 com:	CK: "A Klingon might say it after receiving an unsettling
 	communiqué. It's a lot stronger that the Terran 'Darn it!'"
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1992-10-01-ck.txt
 
 tlh:	{ghu'}
 pos:	noun
@@ -5247,7 +5247,8 @@ ref:	PK; KCD
 com:	PK: "'May the bile of the vanquished fill your hands.'
 	{jagh lucharghlu'ta'bogh HuH ghopDu'lIj lungaSjaj.}"
 	See also comments in TKW p.142.
-file:	1996-04-kcd.txt; 1996-05-01-tkw.txt; 1997-11-01-kgt.txt
+file:	1993-10-01-pk.txt; 1996-04-kcd.txt; 1996-05-01-tkw.txt;
+	1997-11-01-kgt.txt
 
 tlh:	{Huj} (1)
 pos:	verb
@@ -8075,8 +8076,8 @@ tlh:	{mIp}
 pos:	noun
 sv:	«förmögenhet»
 en:	<wealth>, <richness>
-def:	KGT
-file:	1997-11-01-kgt.txt
+def:	PK; KGT
+file:	1993-10-01-pk.txt; 1997-11-01-kgt.txt
 
 tlh:	{mIqta'}
 pos:	noun
@@ -8728,7 +8729,7 @@ pos:	noun
 sv:	«svordomskamp», «svordomskrig»
 en:	«curse» warfare
 def:	PK
-com:	Written on the printed card of PK.
+com:	Written on inlay folder of PK.
 data:	phrase
 file:	1993-10-01-pk.txt
 
@@ -10092,8 +10093,8 @@ tlh:	{ngagh}
 pos:	verb
 sv:	«para» sig med
 en:	<mate> with
-def:	KGT
-file:	1997-11-01-kgt.txt
+def:	PK; KGT
+file:	1993-10-01-pk.txt; 1997-11-01-kgt.txt
 
 tlh:	{ngaj}
 pos:	verb
@@ -10920,7 +10921,7 @@ en:	«keep» something <secret>
 def:	TKD
 ref:	CK; PK
 data:	KLCP-1
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1992-10-01-ck.txt; 1993-10-01-pk.txt
 
 tlh:	{pegh} (2)
 pos:	verb
@@ -10930,7 +10931,7 @@ def:	PK
 ref:	CK
 com:	PK: "'I have secret information, you will find it useful.'
 	{De' pegh vIghajlI' 'e' Datu'.}"
-file:	1993-10-01-pk.txt
+file:	1992-10-01-ck.txt; 1993-10-01-pk.txt
 
 tlh:	{pegh}
 pos:	noun
@@ -14235,7 +14236,7 @@ def:	TKD 5.5 (p.58); TKDa 5.5 (p.178)
 ref:	CK
 com:	CK: "This is something you might hear someone say in moments
 	of extreme anger."
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1992-10-01-ck.txt
 
 tlh:	{rach}
 pos:	verb
@@ -16242,7 +16243,7 @@ en:	(«epithet»)
 def:	TKDa 5.5 (p.178)
 ref:	CK
 com:	CK: "This is a classic insult."
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1992-10-01-ck.txt
 
 tlh:	{taj}
 pos:	noun
@@ -16962,7 +16963,7 @@ ref:	CK
 com:	CK: "This word is something one Klingon would call another,
 	if they weren't on the best of terms"
 	Paramount Hol: "tohzah".
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1992-10-01-ck.txt
 
 tlh:	{toDuj}
 pos:	noun
@@ -20258,7 +20259,7 @@ sv:	«hur» många?, hur mycket?
 en:	<how> many?, how much?
 def:	TKD
 ref:	CK
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1992-10-01-ck.txt
 
 tlh:	{'argh}
 pos:	verb

@@ -788,8 +788,8 @@ Priorities:
      of the dictionary file).
 ***** DONE Add "file:" for dictionary entries with "KCD" in def/ref
       CLOSED: [2011-09-18 Sun 22:22]
-**** TODO All words with def/ref PK should have file: 1993-10-01-pk.txt
-     E.g. {HuH}.
+**** DONE Add relevant links to words with def/ref CK and PK
+     CLOSED: [2011-09-20 Tue 00:54]
 **** TODO Add words
 ***** TODO [0%] Words from the Klingon opera {'u'}
       https://mail.google.com/mail/#search/tlheng'IQ/12a0fa8c18c6f6a3
