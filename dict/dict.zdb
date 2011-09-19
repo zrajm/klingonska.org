@@ -58,10 +58,10 @@ FIELD NAMES USED IN DICTIONARY BELOW
     see:   (optional) pointer to related word(s) (separated by semicolon)
     cat:   (optional) tagging of words by category, useful for noting
 		      prepositional concepts, body parts etc. (categories
-		      separated by semicolon) Right now the following
-		      categories exist: "body part", "clothing", "locative",
-		      "math", "music", "family", "landscape", "time",
-		      "fighting"
+		      separated by semicolon). Right now the following
+		      categories exist: "body part", "clothing", "family",
+		      "fighting", "landscape", "locative", "math", "money",
+		      "music", "time"
     data:  (optional) contains additional data about a word:
 
 		      »KLCP-1« = one of the 500 basic words, required for
@@ -2371,6 +2371,7 @@ pos:	noun
 sv:	«valuta«enhet»», «~darsek~»
 en:	<~darsek~>, <unit> of <currency>
 def:	KGT
+cat:	money
 file:	1997-11-01-kgt.txt
 
 tlh:	{DaS}
@@ -2578,6 +2579,7 @@ pos:	noun
 sv:	«kredit» (monetär «enhet»)
 en:	<credit> (monetary «unit»)
 def:	TKD
+cat:	money
 file:	1992-01-01-tkd.txt
 
 tlh:	{DeS} (1)
@@ -2686,6 +2688,7 @@ pos:	verb
 sv:	«betala» för
 en:	<pay> for
 def:	TKD
+cat:	money
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -3345,6 +3348,7 @@ pos:	verb
 sv:	«bidra»
 en:	<contribute>
 def:	TKD
+cat:	money
 file:	1992-01-01-tkd.txt
 
 tlh:	{ghar}
@@ -5198,6 +5202,7 @@ sv:	«pengar»
 en:	<money>
 def:	TKD
 ref:	TKW p.189
+cat:	money
 file:	1992-01-01-tkd.txt
 
 tlh:	{HuchQeD}
@@ -5898,6 +5903,7 @@ sv:	«köpa», «handla»
 en:	<buy>, <purchase>
 def:	TKD
 ref:	TKW pp.7, 213
+cat:	money
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -7537,6 +7543,7 @@ pos:	noun
 sv:	«affär», «ärende», «syssla», «göromål», «angelägenhet»
 en:	<business>
 def:	TKD
+cat:	money
 file:	1992-01-01-tkd.txt
 
 tlh:	{mang}
@@ -9600,6 +9607,7 @@ pos:	verb
 sv:	«ge»
 en:	<give>
 def:	TKD
+cat:	money
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -9609,6 +9617,7 @@ sv:	«gåva»
 en:	<gift>
 def:	TKD
 ref:	TKW p.189
+cat:	money
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -9618,6 +9627,7 @@ sv:	«ge» tillbaka, «lämna» tillbaka
 en:	<give back>, <return>
 def:	KGT
 ref:	TKW p.189
+cat:	money
 data:	derived form
 file:	1997-11-01-kgt.txt
 
@@ -10290,6 +10300,7 @@ sv:	«sälja»
 en:	<sell>
 def:	TKD
 ref:	TKW p.190
+cat:	money
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -14894,6 +14905,7 @@ pos:	verb
 sv:	«bötfälla», «beskatta», «taxera»
 en:	<fine>, <tax>
 def:	TKD
+cat:	money
 file:	1992-01-01-tkd.txt
 
 tlh:	{ruq}

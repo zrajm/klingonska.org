@@ -816,10 +816,11 @@ Priorities:
       Add the words from canon/2011-08-22-email.txt
 ***** TODO Is there a word for "Morska"?
       (as in "the Morskan dialect")
-***** DOING Check that all mughom.wizage.net "New Words" are present [42%]
+***** DOING Check that all mughom.wizage.net "New Words" are present [43%]
       http://mughom.wizage.net
       This is a list of the last 100 words added to the database.
-****** TODO Tell {qurgh} that {veH tIn} "great barrier" is a place name
+****** DONE Tell {qurgh} that {veH tIn} "great barrier" is a place name
+       CLOSED: [2011-09-19 Mon 15:26]
        (and thus should be capitalized, as in TKDa)
 ****** DONE 'uj'a'	(noun)	unit of measurement, 9 'uj
        CLOSED: [2011-02-06 Sun 13:30]
