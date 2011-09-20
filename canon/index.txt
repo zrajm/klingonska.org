@@ -401,10 +401,21 @@ publication, or a description of its contents and/or form).
   <tr valign="top">
     <td><font size="4">1996-04</font></td><td></td>
     <td><font size="4"><i>Star Trek: Klingon</i></font>
-      <br /><font size="2"><i>Computer game on CD-ROM</i></font>
-      <br />Some new words, and a voice recognizing software developed
-      with Marc Okrand's assistance. (Sometimes abbreviated <i>STK</i>.)
-      <br />(<a href="1996-04-stk.html">info</a>)
+      <br /><font size="2"><i>Computer game (CD-ROM) with translation and
+      language coaching by Marc Okrand, Simon & Schuster Interactive, Simon &
+      Schuster, New York, ISBN 0-671-52873-4 (Windows) or ISBN 0-671-52872-6
+      (Macintosh)</i></font>
+      <br />Computer game (on 2 CDs) and Language Lab (1 additional CD). The
+      game is video-based interactive story featuring actors known from TNG.
+      There is lots of dialogue, but not much game play. Dialogue is
+      predominantly in English, but some Klingon phrases are to be found. One
+      CD contains a teaching tool with a Klingon style interface, you may
+      choose what kind of words you wish to learn from several different
+      categories. A speech recognition feature is also present ho help you with
+      pronunciation. Okrand was involved in the production and some new words
+      appeared here. (Usually abbreviated <i>KCD</i>, sometimes abbreviated
+      <i>STK</i>.)
+      <br />(<a href="1996-04-kcd.txt">text</a>) (<a href="1996-04-kcd.html">info</a>)
     </td>
   </tr>
 

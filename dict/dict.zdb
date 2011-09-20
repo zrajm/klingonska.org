@@ -58,10 +58,10 @@ FIELD NAMES USED IN DICTIONARY BELOW
     see:   (optional) pointer to related word(s) (separated by semicolon)
     cat:   (optional) tagging of words by category, useful for noting
 		      prepositional concepts, body parts etc. (categories
-		      separated by semicolon) Right now the following
-		      categories exist: "body part", "clothing", "locative",
-		      "math", "music", "family", "landscape", "time",
-		      "fighting"
+		      separated by semicolon). Right now the following
+		      categories exist: "body part", "clothing", "family",
+		      "fighting", "landscape", "locative", "math", "money",
+		      "music", "time"
     data:  (optional) contains additional data about a word:
 
 		      »KLCP-1« = one of the 500 basic words, required for
@@ -496,6 +496,7 @@ def:	KCD
 ref:	KLINW
 cat:	fighting
 data:	phrase
+file:	1996-04-kcd.txt
 
 tlh:	{betleH «'obe'»}
 pos:	noun
@@ -737,9 +738,9 @@ pos:	noun
 sv:	«bregitlunga»
 en:	<bregit lung>
 def:	TKDa
-ref:	KLINW
+ref:	KLINW; KCD
 com:	Food item shown and described on KCD.
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
 
 tlh:	{bIS'ub}
 pos:	noun
@@ -2370,6 +2371,7 @@ pos:	noun
 sv:	«valuta«enhet»», «~darsek~»
 en:	<~darsek~>, <unit> of <currency>
 def:	KGT
+cat:	money
 file:	1997-11-01-kgt.txt
 
 tlh:	{DaS}
@@ -2577,6 +2579,7 @@ pos:	noun
 sv:	«kredit» (monetär «enhet»)
 en:	<credit> (monetary «unit»)
 def:	TKD
+cat:	money
 file:	1992-01-01-tkd.txt
 
 tlh:	{DeS} (1)
@@ -2685,6 +2688,7 @@ pos:	verb
 sv:	«betala» för
 en:	<pay> for
 def:	TKD
+cat:	money
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -3174,6 +3178,7 @@ sv:	«Duraniska ödleskinn» (en slags «mat», tar aldrig pluralsuffix)
 en:	«Durani lizard skins» (type of «food», never takes plural suffix)
 def:	KCD
 data:	phrase; {Duran} (n)
+file:	1996-04-kcd.txt
 
 tlh:	{DuraS}
 pos:	name
@@ -3343,6 +3348,7 @@ pos:	verb
 sv:	«bidra»
 en:	<contribute>
 def:	TKD
+cat:	money
 file:	1992-01-01-tkd.txt
 
 tlh:	{ghar}
@@ -3443,7 +3449,7 @@ sv:	«vördnadskväde», «aktningsode»
 en:	<ode of respect>
 def:	KGT
 ref:	KCD
-file:	1997-11-01-kgt.txt
+file:	1997-11-01-kgt.txt; 1996-04-kcd.txt
 
 tlh:	{gheb}
 pos:	noun
@@ -3798,6 +3804,7 @@ sv:	«Bröderna slåss med varandra» (känd staty)
 en:	The «Brothers Fight One Another» (famous statue)
 def:	KCD
 data:	phrase
+file:	1996-04-kcd.txt
 
 tlh:	{ghobe'}
 pos:	exclamation
@@ -3828,6 +3835,7 @@ sv:	«Spanaren» (en stjärnbild)
 en:	«Tracker» (a constellation)
 def:	KCD
 ref:	TDNW
+file:	1996-04-kcd.txt
 
 tlh:	{ghoD}
 pos:	verb
@@ -3877,6 +3885,7 @@ en:	«boy's knife»
 def:	KCD
 com:	Literally; "knife for (the purpose of) learning".
 data:	phrase
+file:	1996-04-kcd.txt
 
 tlh:	{ghojmoH}
 pos:	verb
@@ -4209,7 +4218,7 @@ def:	TKD 5.5 (p.58)
 ref:	CK
 com:	CK: "A Klingon might say it after receiving an unsettling
 	communiqué. It's a lot stronger that the Terran 'Darn it!'"
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1992-10-01-ck.txt
 
 tlh:	{ghu'}
 pos:	noun
@@ -5193,6 +5202,7 @@ sv:	«pengar»
 en:	<money>
 def:	TKD
 ref:	TKW p.189
+cat:	money
 file:	1992-01-01-tkd.txt
 
 tlh:	{HuchQeD}
@@ -5237,7 +5247,8 @@ ref:	PK; KCD
 com:	PK: "'May the bile of the vanquished fill your hands.'
 	{jagh lucharghlu'ta'bogh HuH ghopDu'lIj lungaSjaj.}"
 	See also comments in TKW p.142.
-file:	1996-05-01-tkw.txt; 1997-11-01-kgt.txt
+file:	1993-10-01-pk.txt; 1996-04-kcd.txt; 1996-05-01-tkw.txt;
+	1997-11-01-kgt.txt
 
 tlh:	{Huj} (1)
 pos:	verb
@@ -5893,6 +5904,7 @@ sv:	«köpa», «handla»
 en:	<buy>, <purchase>
 def:	TKD
 ref:	TKW pp.7, 213
+cat:	money
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -7532,6 +7544,7 @@ pos:	noun
 sv:	«affär», «ärende», «syssla», «göromål», «angelägenhet»
 en:	<business>
 def:	TKD
+cat:	money
 file:	1992-01-01-tkd.txt
 
 tlh:	{mang}
@@ -8020,7 +8033,7 @@ def:	{qep'a'} 2010
 ref:	Email 2010-12-05 (by R Fenwick, to tlhingan-hol, "latlh mu' chu'");
 	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from
 	Maltz")
-com:	Lieven Litaer: Finally, someone last year asked for the word for
+com:	Lieven L. Litaer: Finally, someone last year asked for the word for
 	"picture." At first, Maltz wondered why {nagh beQ} wasn't good enough.
 	But then he thought about it some more and said that another word,
 	{mIllogh}, could be used for any sort of depiction, including drawings,
@@ -8063,8 +8076,8 @@ tlh:	{mIp}
 pos:	noun
 sv:	«förmögenhet»
 en:	<wealth>, <richness>
-def:	KGT
-file:	1997-11-01-kgt.txt
+def:	PK; KGT
+file:	1993-10-01-pk.txt; 1997-11-01-kgt.txt
 
 tlh:	{mIqta'}
 pos:	noun
@@ -8129,6 +8142,7 @@ sv:	en känd «skulptör»
 en:	a famous «sculptor»
 def:	KCD
 com:	¿?What's the Paramount Hol name?
+file:	1996-04-kcd.txt
 
 tlh:	{mIv} (1)
 pos:	noun
@@ -8715,7 +8729,7 @@ pos:	noun
 sv:	«svordomskamp», «svordomskrig»
 en:	«curse» warfare
 def:	PK
-com:	Written on the printed card of PK.
+com:	Written on inlay folder of PK.
 data:	phrase
 file:	1993-10-01-pk.txt
 
@@ -9562,6 +9576,25 @@ def:	TKW pp.101, 121, 141
 data:	derived form
 file:	1996-05-01-tkw.txt
 
+tlh:	{nIyma'}
+pos:	noun
+sv:	«fantom», «uppenbarelse»
+en:	«phantom», «apparition»
+def:	Email 2008-11-23 (by Lieven L. Litaer, to tlhingan-hol, "nIyma'")
+com:	"[...] is the Klingon word for 'phantom' or 'apparition' -- something
+	that seems to appear, but isn't really there. It's not the same as
+	'ghost,' which is the spirit of a dead person (and may or may not look
+	like that person, or may not be visible at all), and it's not the same
+	as 'spirit' (or {qa'}), which is sort of a life force within a person
+	(that escapes when a person dies and may exist somewhere somehow). He
+	said using {qa'} for 'ghost' was OK, but I got the impression there may
+	be another word as well (though he didn't offer one). He said that
+	although the word doesn't really mean 'invited guest that doesn't show
+	up,' it made a lot of sense to him to use {nIyma'} to refer to such a
+	person." /Lieven L. Litaer, quoting email from Marc Okrand (23 November
+	2008)
+file:	2008-11-23-email.txt
+
 tlh:	{nI'}
 pos:	verb
 sv:	vara «lång», vara «långdragen» (varaktighet)
@@ -9575,6 +9608,7 @@ pos:	verb
 sv:	«ge»
 en:	<give>
 def:	TKD
+cat:	money
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -9584,6 +9618,7 @@ sv:	«gåva»
 en:	<gift>
 def:	TKD
 ref:	TKW p.189
+cat:	money
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -9593,6 +9628,7 @@ sv:	«ge» tillbaka, «lämna» tillbaka
 en:	<give back>, <return>
 def:	KGT
 ref:	TKW p.189
+cat:	money
 data:	derived form
 file:	1997-11-01-kgt.txt
 
@@ -9864,6 +9900,7 @@ en:	«Pride of Weapons»
 def:	KCD
 com:	This may refer to a rack for weapons (though I'm not sure).
 data:	phrase
+file:	1996-04-kcd.txt
 
 tlh:	{nuHHom}
 pos:	noun
@@ -10056,8 +10093,8 @@ tlh:	{ngagh}
 pos:	verb
 sv:	«para» sig med
 en:	<mate> with
-def:	KGT
-file:	1997-11-01-kgt.txt
+def:	PK; KGT
+file:	1993-10-01-pk.txt; 1997-11-01-kgt.txt
 
 tlh:	{ngaj}
 pos:	verb
@@ -10264,6 +10301,7 @@ sv:	«sälja»
 en:	<sell>
 def:	TKD
 ref:	TKW p.190
+cat:	money
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -10883,7 +10921,7 @@ en:	«keep» something <secret>
 def:	TKD
 ref:	CK; PK
 data:	KLCP-1
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1992-10-01-ck.txt; 1993-10-01-pk.txt
 
 tlh:	{pegh} (2)
 pos:	verb
@@ -10893,7 +10931,7 @@ def:	PK
 ref:	CK
 com:	PK: "'I have secret information, you will find it useful.'
 	{De' pegh vIghajlI' 'e' Datu'.}"
-file:	1993-10-01-pk.txt
+file:	1992-10-01-ck.txt; 1993-10-01-pk.txt
 
 tlh:	{pegh}
 pos:	noun
@@ -11215,7 +11253,7 @@ ref:	KCD
 com:	KCD: "a common exclamation uttered upon the completion of a
 	project."
 data:	KLCP-1
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
 
 tlh:	{pIv}
 pos:	verb
@@ -11829,7 +11867,7 @@ en:	«map», «plan» (architect's plan of a building etc.)
 def:	{qep'a'} 2007
 ref:	Email 2007-08-02 (by Eric Andeen, to tlhingan-hol, "RE: mu' chu'");
 	Email 2007-08-03 (by Eric Andeen, to tlhingan-hol, "RE: mu' chu'");
-	Email 2009-11-24 (by Lieven Litaer, to tlhingan-hol, "pu'jIn")
+	Email 2009-11-24 (by Lieven L. Litaer, to tlhingan-hol, "pu'jIn")
 com:	Marc said that {pu'jIn} is a pun/joke, but it was a personal reference
 	(presumably similar to {jIl} or {pe'vIl}), so it wouldn't be something
 	we'd get. (Tad, email to tlhingan-hol 3 August 2007)
@@ -12460,6 +12498,7 @@ en:	«Eyes of Kahless» (a guessing game)
 def:	KCD
 com:	A guessing game with dice where the winner receives a punch.
 data:	phrase
+file:	1996-04-kcd.txt
 
 tlh:	{qIb}
 pos:	noun
@@ -12911,6 +12950,7 @@ sv:	"«Eldssläktet»" (en opera)
 en:	"«House of Fire»" (an opera)
 def:	KCD
 data:	phrase
+file:	1996-04-kcd.txt
 
 tlh:	{qum}
 pos:	verb
@@ -13065,6 +13105,7 @@ sv:	¿?«hedersställ»
 en:	«honor display»
 def:	KCD
 data:	phrase
+file:	1996-04-kcd.txt
 
 tlh:	{quvHa'}
 pos:	verb
@@ -13727,7 +13768,7 @@ ref:	KCD
 com:	mythological place; source of all creation
 	According to KCD this was the source of all creation in
 	Klingon mythology.
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
 
 tlh:	{QI'yaH}
 pos:	exclamation
@@ -13737,7 +13778,7 @@ def:	TKD 5.5 (p.58)
 ref:	KCD
 com:	KCD: Vulgar Klingon expression; one of the strongest, most
 	foul Klingon expressions; it defies translation.
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
 
 tlh:	{Qob}
 pos:	verb
@@ -14159,10 +14200,17 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{Qutlh}
 pos:	verb
-sv:	«stödja», «understödja», «hjälpa»
+sv:	«stödja», «stötta», «bära»
 en:	«support»
 def:	BoP
-file:	1998-11-01-bop.txt
+ref:	{qep'a'} 2010; Email 2010-07-26 (by Chris Lipscombe, to tlhingan-hol,
+	"Re: mu' chu'")
+com:	At {qep'a'} 2010: "Marc also clarified that {Qutlh} (support) can only
+	refer to physically supporting something. It can't refer to monetary
+	(he said {ghaq} is for this), psychological or any other non-physical
+	type of support." (Email 2010-07-26 [by Chris Lipscombe, to
+	tlhingan-hol, "Re: mu' chu'"])
+file:	1998-11-01-bop.txt; 2010-07-26-email.txt
 
 tlh:	{Quv}
 pos:	noun
@@ -14188,7 +14236,7 @@ def:	TKD 5.5 (p.58); TKDa 5.5 (p.178)
 ref:	CK
 com:	CK: "This is something you might hear someone say in moments
 	of extreme anger."
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1992-10-01-ck.txt
 
 tlh:	{rach}
 pos:	verb
@@ -14858,6 +14906,7 @@ pos:	verb
 sv:	«bötfälla», «beskatta», «taxera»
 en:	<fine>, <tax>
 def:	TKD
+cat:	money
 file:	1992-01-01-tkd.txt
 
 tlh:	{ruq}
@@ -16197,7 +16246,7 @@ en:	(«epithet»)
 def:	TKDa 5.5 (p.178)
 ref:	CK
 com:	CK: "This is a classic insult."
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1992-10-01-ck.txt
 
 tlh:	{taj}
 pos:	noun
@@ -16319,6 +16368,7 @@ en:	type of «food», «heart of «targ»»
 def:	KCD
 com:	Food item described and shown on KCD.
 data:	phrase
+file:	1996-04-kcd.txt
 
 tlh:	{taS}
 pos:	noun
@@ -16798,6 +16848,7 @@ sv:	en slags «mat», «~tknag~-hovar», (refereras alltid till i plural)
 en:	type of «food», «~tknag~ hooves», (always referred to in plural)
 def:	KCD
 data:	phrase
+file:	1996-04-kcd.txt
 
 tlh:	{tIQ}
 pos:	verb
@@ -16915,7 +16966,7 @@ ref:	CK
 com:	CK: "This word is something one Klingon would call another,
 	if they weren't on the best of terms"
 	Paramount Hol: "tohzah".
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1992-10-01-ck.txt
 
 tlh:	{toDuj}
 pos:	noun
@@ -17247,6 +17298,34 @@ def:	TKD
 cat:	clothing
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+
+tlh:	{tuQHa'moH}
+pos:	verb
+sv:	«klä av» sig, «ta av» sig (kläder)
+en:	<undress>, «take off» (clothes)
+def:	TKD
+ref:	HQ2:4 p.17
+com:	In <{HolQeD} 2:4> p. 17 (article named "Okrand's Notes"): "[...] the
+	Klingon slang expression {qogh tuQmoHHa'}, literally 'take off one's
+	belt' is used to mean 'to not hear,' for example, {qogh vItuQmoHHa'pu'}
+	'I've taken off my belt; your secret is safe with me.'"
+cat:	clothing
+data:	derived form
+file:	1992-01-01-tkd.txt; 1993-12-holqed-02-4.txt
+
+tlh:	{tuQmoH}
+pos:	verb
+sv:	«klä på» sig, «sätta på» sig
+en:	«dress», <put on> (clothes)
+def:	TKD
+ref:	HQ2:4 p.17
+com:	In <{HolQeD} 2:4> p. 17 (article named "Okrand's Notes"): "[...] the
+	Klingon slang expression {qogh tuQmoHHa'}, literally 'take off one's
+	belt' is used to mean 'to not hear,' for example, {qogh vItuQmoHHa'pu'}
+	'I've taken off my belt; your secret is safe with me.'"
+cat:	clothing
+data:	derived form
+file:	1992-01-01-tkd.txt; 1993-12-holqed-02-4.txt
 
 tlh:	{tuQDoq}
 pos:	noun
@@ -17633,6 +17712,7 @@ sv:	«Jag är en klingon» (känd opera)
 en:	«I am a Klingon» (famous opera)
 def:	KCD; STE
 data:	phrase
+file:	1996-04-kcd.txt
 
 tlh:	{tlhIngan wo'}
 pos:	noun
@@ -18273,7 +18353,7 @@ en:	<devil>, «demon», «~Fek'lhr~»
 def:	TKDa; KCD
 ref:	TKW p.197; HQ12:3 p.9
 com:	KCD: "The beast who guards the dwelling place of the dishonored dead"
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
 
 tlh:	{veQ}
 pos:	noun
@@ -18312,6 +18392,7 @@ en:	«Ferengi dog»
 def:	KCD
 com:	According to KCD this is "a classic insult".
 data:	phrase; derived form
+file:	1996-04-kcd.txt
 
 tlh:	{vergh}
 pos:	verb
@@ -18408,6 +18489,7 @@ sv:	«finova bönor»
 en:	«finova beans»
 def:	KCD
 data:	phrase; {vIno'va'} (n)
+file:	1996-04-kcd.txt
 
 tlh:	{vIng}
 pos:	verb
@@ -18451,6 +18533,7 @@ pos:	noun
 sv:	«sanningstestet»
 en:	the «truth test»
 def:	KCD
+file:	1996-04-kcd.txt
 
 tlh:	{vIttlhegh}
 pos:	noun
@@ -19541,7 +19624,7 @@ sv:	«synda»
 en:	<sin>
 def:	TKD
 ref:	KCD
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
 
 tlh:	{yep}
 pos:	verb
@@ -20179,7 +20262,7 @@ sv:	«hur» många?, hur mycket?
 en:	<how> many?, how much?
 def:	TKD
 ref:	CK
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1992-10-01-ck.txt
 
 tlh:	{'argh}
 pos:	verb
@@ -20706,6 +20789,7 @@ en:	«Blood Oath Circles» (famous sculpture)
 def:	KCD
 com:	The sculpture was made by {mIStaq}.
 data:	phrase
+file:	1996-04-kcd.txt
 
 tlh:	{'I'}
 pos:	noun

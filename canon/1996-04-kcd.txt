@@ -1,0 +1,794 @@
+[[
+  [2008-02] Mike Neff transcribed large parts of KCD
+  [2011-09-18] copied Mike Neff's transcript from tlhingan-hol (and improved
+               inaccuracies, where possible)
+  Style: {}=bold, <>=italics
+
+  FIXME: This transcript is incomplete!
+  Type: computer game (CD-ROM)
+  Date: April 1996
+  Title: <Star Trek: Klingon>
+  Author: Marc Okrand (translation and language coaching)
+  Publisher: Simon & Schuster Interactive, Simon & Schuster, New York, ISBN
+    0-671-52873-4 (Windows) or ISBN 0-671-52872-6 (Macintosh)
+  Summary: Computer game (on 2 CDs) and Language Lab (1 additional CD). The
+    game is video-based interactive story featuring actors known from TNG.
+    There is lots of dialogue, but not much game play. Dialogue is
+    predominantly in English, but some Klingon phrases are to be found. One CD
+    contains a teaching tool with a Klingon style interface, you may choose
+    what kind of words you wish to learn from several different categories. A
+    speech recognition feature is also present ho help you with pronunciation.
+    Okrand was involved in the production and some new words appeared here.
+    (Usually abbreviated <KCD>, sometimes abbreviated <STK>.)
+]]
+
+================================================================================
+Posted by Mike Neff <darqang99@gmail.com> to tlhingan-hol, 2008-01-18
+
+[if I understood the Klingon word while transcribing, I put it in braces
+{},  If I wasn't sure or didn't know, I marked the word with * and spelled
+phonetically for later lookup.]
+
+Gowron: "Did you think I would kill you {loDHom}? You've heard this about
+Klingons. We kill anything that stands in our way. We enjoy the taste of
+innocent blood. Lies. Honor is what we treasure. Honor above all things. And
+you? You are as weak and frightened as a {Qa'Hom}. And there is no honor in
+killing a {Qa'Hom}. But you, {nov}. You outsiders, you see only our fierceness,
+our love of battle. You do not see the {tIgh} that shades our every act. [[see also: KCD book, p.10]]
+
+Gowron: "This is why, I, Gowron, leader of the Klingon High Council have
+decided to break the secrecy that shrouds our culture, and show you, {DIvI'
+yoq}, that which truly makes us Klingon.
+
+Gowron: "You are freightened young human? Yes. You should be. Your strength,
+your skills are no better than that of a Klingon boy. But that will change.
+When you have finished this holodeck adventure with me, this test, you will
+have learned more than how to *live* as a Klingon, you will learn how to *be*
+Klingon. You will no longer be {nov}, weak as a {Qa'Hom}, but you will be a
+warrior.
+
+Gowron: "Then, it will be an honor to kill you. Hahahaha.
+
+Gowron: "Take your knife."
+
+================================================================================
+
+Steven Boozer's comments:
+
+"My understanding is that Marc Okrand wasn't able to coach Robert O'Reilly
+[Gowron] in person, but gave him detailed instructions on how to pronounce
+everything. O'Reilly tried really hard to get it right, but he's an actor,
+not a linguist. He knew what he was saying, in that he had both the English
+and Klingon texts to work from, but he doesn't actually know
+Klingon.  O'Reilly should be given credit: he's always done his best to be
+authentic." (SuStel, 4/18/03)
+
+"The only other person you could trust being canon and having correct
+pronunciation is Gowron speaking on the Klingon Language Lab:
+http://www.kli.org/wiki/index.php?Klingon%20CD
+
+Of course he speaks "different" than Marc Okrand, but he is a different
+person. Since he was trained by MO for this project, and he is really doing
+a good job on this, I would say this (i.e. KCD including Gowron) really is
+a canon source." (Quvar, 2/04/06)
+
+Gowron's KCD Introductory speech (by Robert O'Reilly)
+
+AFAIK no one has ever been able to decipher this speech. "This has
+frustrated me for years. Considering how closely Okrand was involved in
+producing this game, I keep feeling that Gowron's speech must actually mean
+something, but whatever it is, it has eluded me. I can't go back to the
+original anymore, since the game appears not to work on XP, but maybe
+Quvar's transcript will be a good start." (ter'eS, 5/12,2003)
+
+"I remember hearing that Marc Okrand wrote it and it was sent to Robert
+O'Reilly, who learned it by heart and was really proud of his effort,
+unaware that he completely butchered it.  I THOUGHT there was a copy of
+Okrand's original text floating about..." (SuStel, 12/20/07)
+
+"I found a bit of information about this: an interview with Robert O'Reilly
+(http://tinyurl.com/393lpx):
+
+    Q: Mr. O'Reilly--You said you did not learn Klingon--but how did you
+       do the introduction sequence on Star Trek Klingon?  I_am_Klingon
+  ROR: Believe it or not, they flew Marc Okrand in to be about 2 feet
+       from me, not ONLY to hold my hand, but to mouth the words so that I
+       would say it correctly. Some were more difficult than others and I
+       had to do quite a few takes on some of them.
+
+O'Reilly is quite the STAR TREK fan... and really, really bad at Klingon,
+if Okrand had several takes and couldn't get anything better than that out
+of him." (SuStel, 12/21/07)
+
+FYI here's Quvar's transcription:
+
+   ro ba qa DevwI' So na jaj
+   wIv la ta laH chaH
+   'oH quv 'oH puS
+   SoH Da'oS
+   logh'e' lujlu'
+   luchatlhpu' wo' SaS SuvwI'pu''e'
+   neSlu', luSaS lujbej
+   laS puqleS lo
+   bIratlh, lutoy'meH
+   puSlaH qa', Ha'DIbaH je, Daqa'vam!
+   buS chap qevaDaq 'a ghen toq
+   chaq luwISpu' chaH
+   mIv ya meS'e' DIHoHlaH chaH!
+   mIv yImeS
+   Ha ha ha ha haaa! .... ouargh!
+
+And finally here's various bits from the CD (direct quotes from the game
+and Language Lab as well as second-hand information from those who've
+played the game):
+
+{qIm tera'ngan!} "Attention Earther!" (bumper sticker, c1998, included in
+game box)
+
+{'Iw 'Ip ghomey} "Blood Oath Circles" (title of a well-known sculpture by
+the artist {mIStaq}. Apparently made of metal, the sculpture is a
+collection of hoops of different sizes representing all the blood oaths,
+complete and unfinished, as well as the circles of vengeance. It was in
+Torghn's house along with other pieces of sculpture.)
+
+{bIyem'a'} "Will you sin?"
+
+{botjan yIchu'} "Raise shields!"
+
+{charghbej vIt} "The truth shall conquer." Okrand adds, "In this Klingon
+proverb, the suffix {-bej}, following the verb {chargh} 'conquer', means
+'certainly' or 'undoubtedly'. Thus, 'there's no doubt that the truth shall
+conquer.' The word for 'truth' is {vIt}, and it's also found in the word
+{vItHay'}, the 'truth test'."
+
+{Dajatlhbogh vIyajlaHbe'. yIjatlhqa'!} "I find no match for what you just
+said. Please say it again." (Disk 3, files \wav\3k.wav and \wav\3e.wav)
+
+{DenIb Qatlh} Denebian Slime Devil
+
+{Duran lung DIr} Durani lizard skins
+
+{ghobchuq loDnI'pu'} "The Brothers Battle One Another" (title of the
+well-known Kahless and Morath statuette in Torghn's house)
+
+{ghochwI'} "The Tracker" [title of a sculpture in Torghn's house. It is a
+3D representation of the constellation {ghochwI'} which is also the name of
+the constellation in the Kahless myth containing the bright star which
+Boreth orbits.] KCD
+
+{ghojmeH taj} boy's knife ("knife for learning")
+
+{HuH} slime. "This word literally means `bile.'"
+
+{lIghon DuQwI' pogh} Ligonian spike glove
+
+{luq, ratlh.} "Okay, he remains."
+
+{nuchpu'} cowards
+
+{petaQ} a Klingon insult. "No appropriate translation for this epithet has
+yet been found."
+
+{Qa'Hom} a little animal (e.g. Ligonian titmouse) "The translation
+`titmouse' is really only an approximation of what this word means. A
+{Qa'Hom} is a small animal considered rather insignificant. The word
+literally means 'little {Qa'}.' A {Qa'} is a larger, more dangerous animal.
+A {Qa'Hom} is not a young {Qa'}, but it does bear a vague resemblance to
+its namesake." (Note: the picture is of a small, four-footed rodent with a
+lot of hair.)
+
+{qeylIS mInDu'} "Eyes of Kahless" (a game)
+
+{QI'yaH} vulgar Klingon expression. "This is one of the strongest, most foul
+expressions in the Klingon language. It defies adequate translation."
+
+{qoH} idiot, fool
+
+{Qoy, qeylIS puqloD!} the Klingon national anthem
+
+{reH nuHmey tu'lu'.} "There are always weapons."
+
+{romuluSngan Sambogh 'ej HoHbogh nejwI'} Romulan hunter-killer probe (long
+form); the short form is {HoHwI'}
+
+{tu'HomI'raH} something useless: {HurDaq tu'HomI'raHvetlh yIlan} "Get that
+piece of junk out of here!"
+
+{veQ} garbage. One should enunciate this insult clearly. The KCD entry mentions
+that the word {veH} "boundary" carries no negative connotations at all.
+
+{verengan Ha'DIbaH} Ferengi dog. "This phrase literally means 'Ferengi animal,'
+but translating it as 'Ferengi dog' carries more of the flavor of the insult."
+
+{wIy yIcha'} [untranslated]
+
+{yIntagh} a Klingon curse. "This is one of a number of Klingon curses that
+doesn't have an adequate translation."
+
+{yItamchoH} "Shut up!" (lit. "Become quiet!") When Gowron is talking with the
+Pakled commander, he says this to T'Var (pronounced badly & untranslated in the
+game).
+
+================================================================================
+
+I ignored Gowron's tlhIngan-Hol speech at the beginning since I had read
+comments that it is poorly pronounced. However, after reading Voragh's
+compilation, I thought it might be useful if I just transcribed the phonetic
+sounds for anyone who wants to try and break the "Gowron code". :) Here's the
+way his speech sounds to me: /Mike Neff <darqang99@gmail.com> [2008-01-29]
+
+    og-loo-mesh-kool
+    ro-va-ka dev-wee
+    jo-na-zhazh
+    gweev-la-tov-lo
+    cha oo-koo
+    wuv-bush shouk-ta osh
+    lo-hey luch-lu
+    lo-cha-wee-pu
+    o-shash shuv-wee-pu-'e'
+    nesh-luu lo-shash losh-bezh
+    lazh bu-glesh-lo
+    vee-ash lo-toyl-ma
+    gosh-la-ka
+    sha-dee-wa
+    chea do-go-vam
+    oools-cha kay-va-dak
+    ungadok chak lu-eesh-puzh-a
+    me-vee-ya-mesha
+    dee-hoh-la-cha
+
+================================================================================
+Posted by Mike Neff <darqang99@gmail.com> to tlhingan-hol. 2008-01-20
+
+Pok's father: "Ah.. Yes. Nothing tastes as good as the beast killed in the
+*junta! Ah! and here is the hunter himself, Pok, come! come! Here is the boy
+who's {naQjej} brought down the largest *dignok ever to be taken down on this
+planet! Yes, I'm proud to call him son. And, tomorrow, after the Rite of
+Ascension, I will be prouder still to call him *warrior* son.
+
+[toasting]
+
+"To my son, who has chosen to follow the path of his grandfather's. To Pok,
+{Qapla'}."
+
+Two Klingons [together]: "{Qapla'}"
+
+One Klingon [just before head butting Pok]: "{Qapla'}"
+
+[head butt]
+
+================================================================================
+Posted by Mike Neff <darqang99@gmail.com> to tlhingan-hol, 2008-01-22
+Subject: KCD 3
+
+Gowron: "It pleases me that I should be here at my friend Torghn's side to
+watch his son become a man"
+
+Pok's father: "Gowron, your presence brings my house honor."
+
+Gowron: "May the house always deserve it. I have brought your son the {cha'nob}
+gifts."
+
+Gowron [to Pok]: "Honor me by taking them."
+
+Pok's father [hand pointing to gifts]: "Pok!"
+
+** the knife appears **
+
+{... choose to do nothing and wait: ...}
+
+Gowron: "Indecision! It is like a disease with you off-worlders. You think too
+much. There is a Klingon saying: Act and you shall have dinner, think and you
+shall *be* dinner. You understand human, take action! Try again."
+
+{... choose to do nothing again ...}
+
+Gowron: "Naaaahhh! Did you not understand me last time? Indecision is death!
+You are still thinking like a human."
+
+[very snarky] "Will this be the right decision, will that be the right
+decision. Choose! Deal with the consequences later! But choose now! Aaaaah!"
+
+[kindler, gentler Gowron]
+
+"It is not your fault. Klingons learn this when they are children. If your
+brother says do this, then you do it!"
+
+[raising fists like a boxer] "...or you poise yourself for a fight. ...Or if a
+woman bares her teeth at you, you hold her off, or, poise yourself... to love
+her. Either way, the path is action! Go try again."
+
+{... choose to do nothing and wait ....}
+
+Gowron [grabbing a hold and shaking/jostling the camera/player]: "Are you sick?
+Injured? Surely you can move faster than that! What is the matter, do you not
+understand what is being said to you?! Try again, faster, faster,
+faaassterrrr!"
+
+{.... do nothing again .....}
+
+Gowron [holding painstick]: "This is the last time I will tell you this. Four
+times is enough even for a Pakled dog to learn. Do something!"
+
+"I see, I cannot teach you to be Klingon using human methods, from now on I
+will teach you using *Klingon* methods."
+
+[puts painstick in his palm]
+
+[game resets - no more Gowron scenes if you wait]
+
+{... choose to attack Gowron's guard ....}
+
+Pok's father [grabs camera]: "What did you do?! You would challange one of
+Gowron's personal guards? They are not here for sport, they are guarding the
+leader of the High Council, allied to the house of SepIch -- your house Pok --
+Stop your games before someone takes true offense."
+
+{... choose to attack Gowron ....}
+
+Gowron [to his guard as he stops him from attacking Pok]: "*dirag! It is
+alright, it was meant as a challenge of respect, isn't that right, Pok?"
+
+Gowron [to Pok]: "My guards would be happy to die for me, and happier still to
+kill for me. You are just learning, but next time you challenge me, I won't
+stop them."
+
+{... choose the gifts ....}
+
+(this advances to next scene)
+
+================================================================================
+Posted by Mike Neff <darqang99@gmail.com> to tlhingan-hol, 2008-01-24
+Subject: KCD 4
+
+Torghn: "My house thanks you for all you have given us, Gowron."
+
+Gowron: "I above all know what you give up for me, for the empire."
+
+Torghn: "When my ancestors conqured Tanganika, and set up rule over the planets
+of this sector, they did so to the service of the empire. But the empire's
+needs have changed, and we must change with it."
+
+Gowron: "Others here on Tanganika do not see things as you do my friend. The
+ancient houses have ruled these planets many years, and it has brought them
+great wealth. They may not be as willing as you to give up their power."
+
+Torghn: "For the future of the empire, we must sacrifice the planet our
+grandfathers conquered, and that will bring us great honor."
+
+[Gowron and Torghn hug, guard intervenes.]
+
+Gowron [to guard]: "Enough! Do you think Torghn would allow me to come to harm
+in this house? I trust the house of SepIch to protect me. Leave! Hahhahaha!"
+
+Gowron: "Your wife, K'Tar, looks well."
+
+Torghn: "Yes. Do you regret that you did not take her for your wife?"
+
+Gowron: "She has brought you great happiness. And a son. There is nothing to
+regret. Hahhahah!"
+
+Torghn [to Pok]: "Why do you stand? Put the presents down!"
+
+================================================================================
+Posted by Mike Neff <darqang99@gmail.com> to tlhingan-hol, 2008-01-26
+Subject: KCD 5
+
+[Pok drops the {cha'nob} on the floor.]
+
+Vok: "It's hard to believe one so clumsy and slow could even begin to hunt a
+{tIqnagh}."
+
+K'Tar: "My son saves his skills for the hunting of beasts... and enemies."
+
+Vok: "Our houses have stood door-to-door for generations, must we continue to
+be enemies."
+
+[attempts to caress K'Tar's face]
+
+K'Tar [pulls knife and holds to Vok's throat]: "It's hard to believe one so
+stupid and weak is capable of running a Klingon house."
+
+Vok: "Why K'tar, flirting at your age? What will Torghn say?"
+
+K'Tar: "Throw this {veQ} out."
+
+Vok [a hand reaches for Vok]: "{bIyem'a'?} The celebration was declared a
+{lopno'}. You have invited all the spirits of our Klingon ancestors. Tradition
+dictates that all are welcome to the {lopno'}. Even ancient rivals. Even me,
+K'Tar."
+
+K'Tar: "{chut Quj}" [[Quj:=QIj]]
+
+Pok [to Vok]: "{luq. ratlh.}"
+
+** knife appears **
+
+(.. choose K'Tar ..)
+
+K'Tar: "You side with Vok, against your own mother! Or do you just test me? You
+are a boy until tomorrow, Pok, And I am still your mother. Do as you are told!"
+
+(.. choose Vok ..)
+
+K'Tar: "Are you deaf? Did you hear what I said? Would you disobey me and
+dishonor your ancestors by ignoring the dictates of the {lopno'}? Listen to my
+words!"
+
+(.. choose nothing ..)
+
+Vok: "I knew you would not dishonor your house. I accept your welcome."
+
+K'Tar: "Do not confuse tolerance with welcome, Vok. You may stay, but keep
+clear of Torghn and Gowron. Do not spoil the day with... politics!"
+
+Vok: "A pity I did not bring my mate. T'Var could learn so much from you about
+Klingon hospitality."
+
+K'Tar: "Kkkkkkkk."
+
+K'Tar [to Pok]: "Your father asked you to get him some food. Go! I will see to
+these."
+
+================================================================================
+Posted by Mike Neff <darqang99@gmail.com> to tlhingan-hol, 2008-01-27.
+
+Information Points
+------------------
+
+Here is information embedded as "Information Points" in the scenes up through
+the ones that I have transcribed for translation.
+
+Some thoughts:
+
+There are three words not in my dictionary:
+
+{Hovlat}/{Hov lat} -"Star Shrine" for "The Tracker" constellation
+
+"*fellka/*vellka/*mellka" - a dessert dish
+
+"*jebQa'/*jevQa" - a marriage robe hung on the wall.
+
+Interesting that "water jug" was given in English, even though we do have
+Klingon for water jug. Wonder if the Klingon came later in the production of
+the game/language lab?
+
+A lot of tapestry on the walls, but we weren't given the vocab for that form of
+art in the "Argot" section of KGT.
+
+Interesting Klingon names, like "*Seeth" with unusual vowel/consonents for
+Klingon. *{SIytlh}?
+
+The Information Points:
+
+---
+
+"{betleH}"
+
+"A two-handed battle sword. The proper weapon of choice for most Klingon ritual
+combat. One of three weapons traditionally displayed on the {nuH bey'}. The
+weapon is deeply rooted in Klingon history beginning with Kahless's defeat of
+the tyrant Molar. Though training in {betleH} begins early in a Klingon's life,
+mastery is rarely reached until years after the rite of ascension."
+
+---
+
+"{naQjej}"
+
+"A hunting spear weighted and balanced for throwing. Used only for the killing
+of feral beast. One of three weapons traditionally displayed on the {nuH
+bey'}."
+
+--
+
+"{ghob'etlh}"
+
+"A gutting device used in balance with a shield when practicing the Klingon
+warrior fighting style of *qIjatlh (or *qIjat). One of three weapons
+traditionally displayed on the {nuH bey'}."
+
+--
+
+"*{Hovlat}"
+
+"A symbolic representation of the constellation known as 'The Tracker'. The
+constellation contains the star which is believed to be where Kahless was
+pointing when he said 'I will be there'."
+
+--
+
+"Chalice of Kahless"
+
+"Found in every warrior home. The Chalice is placed before the *{Hovlat}, where
+it is always left, filled with wine, in case - the saying goes - Kahless come.
+The wine is replaced every ninth day."
+
+--
+
+[no name given - stone tablet on wall]
+
+"The 8 houses of power on Tanganika listed in ascending order. All homes on
+Tanganika display this tablet. The house of SepIch as the most powerful house
+is in the lower right hand corner. Symbol of the house of *Inqa was removed
+from the tablet by *Seeth, direct ancestor to Pok and Torghn, after the start
+of the SepIch-*Inqa feud."
+
+--
+
+[no name given - tapestry on wall]
+
+"Striped banner with the colors of the planet Tanganika on a field of green. It
+represents Tanganika's allegiance to the emperor and the empire. It has come to
+symbolize the enemy for those on Tanganika that do not agree with the empire's,
+and Gowron's, latest actions.
+
+--
+
+" *jebQa' " (or *jevQa' *jebqan )
+
+"A large panel of embroidered cloth, taken from the ritual marriage robes worn
+by the mother of the head of ..." [sound hiccups at end]
+
+--
+
+"{'uSu'}"
+
+"A dish native to the original inhabitants of Tanganika. When the 8 houses
+began their rule of this sector, all natives of Tanganika were banished to
+outlying planets. The Klingons, however, adopted a number of their local
+dishes."
+
+---
+
+"gagh"
+
+"A worm-like creature native to the Klingon home world. A favorite Klingon
+delicacy, rarely, if ever, eaten as a replicator dish, as it is properly served
+live."
+
+---
+
+"Heart of Targh"
+
+"The heart of the targh beast. Although targh are bred for food throughout the
+empire, the heart of bred targ is considered weakened by domestication. Only
+the heart of a wild-hunted targh is considered worthy of eating, making it a
+rare delicacy."
+
+---
+
+"bregit lung"
+
+"The breathing organ of any of a number of Klingon beasts, prepared in a manner
+that preserves its tough texture and blanched color."
+
+---
+
+"rokeg blood pie"
+
+"A much favored klingon dish. Difficult to prepare properly. There are many
+regional variations of this dish. A blood feud between house of *Renghat and
+house of *Dor began when warriors of each house claimed to have the better
+recipe."
+
+---
+
+"*vellka" (or *fellka or *mellka )
+
+"A dessert dish made from the seeds of the *peelime plant. The seeds are
+fermented, crushed, and jellied."
+
+---
+
+"hooves of the tknag beast"
+
+"The tknag is a dangerous carnivore native to Tanganika. The skin is tough and
+leathery. The tknag is a formidable prey."
+
+---
+
+[no name given - tapestry on wall]
+
+"Tapestery honoring the life and honorable death of *aygon, first head of the
+house of SepIch on Tanganika. It represents the story of {qul tuq}, the famouse
+opera. *aygon alone stood toe-to-toe with the largest tknag beast ever seen.
+With only a d'k tagh knife he brought it down. The natives, terrified by a
+warrior of such prowess, surrendered themselves wholly to *aygon. Thus alone he
+began the conquest of this part of the Klingon imperial frontier."
+
+---
+
+[no name given - Blood Oath Circles sculpture]
+
+"A work by the Klingon artist {mIstaq}. In it's closed and broken circles, it
+is said to represent both the fulfilled and unfulfilled blood oath. It is a
+warning to those who would hesitate to fulfill that which is sworn."
+
+---
+
+"{cha'nob} gifts"
+
+"Presents brought by a close family ally to celebrate the coming of age of a
+young man or woman. They are to be opened before the actual ritual, as they are
+believed to bring the youth strength and courage. Traditionally, the gifts
+include money, food, and tokens of family history."
+
+---
+
+[no name given - K'Tar's knife - turns out to be {SoStaj}]
+
+"A wickedly shaped weapon, the wounds inflicted by the {SoStaj} are
+particularly painful and deadly."
+
+---
+
+[no name given - Statue of the brothers Kahless and Morath]
+
+"Kahless is the Klingon who brought discipline, order, and honor to the
+Klingons. He is held in the highest regard. The statue represents the great
+battle fought between Kahless and Morath. Although there are many versions of
+this theme, this particular rendering is commonly found in cultured Klingon's
+homes."
+
+---
+
+[no name given - large round item with {pIqaD}]
+
+"Shield emblem of the house of SepIch. Ornamental. Smaller, practical versions
+of the shield were carried into battle by House of SepIch warriors in ancient
+Klingon times. The existence of a shield emblem shows that the house of SepIch
+is a noble and very ancient house."
+
+---
+
+"Water jug"
+
+"Traditionally kept filled and set at the front door of every warrior home. It
+is said, when a warrior returns from battle, he thirsts, and should not want
+for satisfaction."
+
+================================================================================
+Posted by Mike Neff <darqang99@gmail.com> to tlhingan-hol, 2008-01-31.
+Subject: KCD 6
+
+Klingon 1: "Pok, a word of warning, stay away from the rokeg blood pie.
+Chakto's mate brought it, and she could overcook a dikus plant."
+
+Klingon 2: "If Chakto heard that, he'd rip out your tongue."
+
+Klingon 1: "Worse, he would have his mate cook it and make me eat it."
+
+Klingon 2: "My mate's rokeg, mmm, is the best in the world."
+
+Klingon 1: "True."
+
+Klingon 2: "A recipe from a Federation woman -- human. The secret's in a liquid
+spice they call 'woodka.'"
+
+Klingon 1: "'Woodka.'"
+
+Klingon 2: "'Wooodka.'"
+
+Klingon 1: "'Woooodka.'"
+
+Torghn: "Pok! Where's the food. Bring Gowron some gagh."
+
+** the knife appears **
+
+(.. choose nothing, wait ..)
+
+.. replays the "indecision" stuff from Gowron.
+
+(.. choose rokeg ..)
+
+Klingon 1: "After what we have told you, you would bring this rokeg to Gowron?
+He asked for gagh. A smart boy would bring it to him."
+
+(.. choose bregit lung ..)
+
+Klingon 2: "Are your ears stuffed? I distinctly heard your father call for
+gagh. Gagh!"
+
+Klingon 1: "Does brigit lung look like gagh to you? put it back, and pay better
+attention to your father."
+
+(.. choose heart of targh ..)
+
+Klingon 2: "Bring Gowron heart of targh, and his next dish is liable to be
+heart of Pok."
+
+
+================================================================================
+Posted by Mike Neff <darqang99@gmail.com> to tlhingan-hol, 2008-02-10.
+Subject: KCD 7
+
+Gowron: "Ah! The gagh, lad, I hope they're still alive. Did you trip over a
+woman on your way here?"
+
+Qua'lon: "A woman? I doubt he would know what to do with a woman."
+
+Gowron: "Enough joking. Soon we will go too far and find a {ghojmeH taj} at our
+throat! Hahaha! Open your {cha'nob} boy."
+
+Qua'lon: "Do you not know what it is."
+
+K'Tar: "The young are ignorant of their family's history."
+
+Qua'lon: "It is a score to {qul tuq}. {qul tuq}. Can it be you have never heard
+the opera that tells the tale of our family's house?"
+
+Qua'lon [singing: "Uuaaooo ma-kool aaaooo ma-sar reshuv tak yak bo ej gogh bow
+ghotpu'."
+
+Qua'lon: "Torghn, the boy is ignorant."
+
+Torghn: "Perhaps I have spent too much time teaching him to hunt, brother, and
+not enough teaching him to sing."
+
+Gowron: "The next! Open another! Another one, yes."
+
+Torghn: "An acta crystal."
+
+Gowron: "It's as useful as latinum. The crystal is bigger than it."
+
+Torghn: "{HoHwI'}! A hunter killer! {petaD}!"
+
+** knife appears **
+
+(choose acta crystal)
+
+K'Tar: "The hunter probe may strike any of us, where is your warrior instinct?
+Someone is about to die, and this is what you care about? A trinket? Are you
+Klingon or Ferengi?"
+
+(choose knife)
+
+Klingon 1: "Do you think you can defend yourself with a {ghojmeH taj}? Your
+knife against a Romulan hunter-killer probe? You must stalk it as it stalks
+us."
+
+(choose {HoHwI'})
+
+Torghn: "Did you not hear what I said? {petaD}! Or someone will die!"
+
+
+(choose nothing)
+(.. story continues)
+
+
+
+================================================================================
+Posted by Mike Neff <darqang99@gmail.com> to tlhingan-hol, 2008-02-10.
+Subject: KCD 8
+
+
+Qua'lon: "He did not even see the face of his enemies! I must have vengence!"
+
+Gowron: "Do not let vengence cloud your mind, there is a ritual to be
+performed. Vengence will wait for that."
+
+Qua'lon: "You are right. I will perform the ritual."
+
+Gowron: "No! It is not your place. Pok."
+
+
+** knife appears **
+
+(.. choose Gowron ..)
+
+Gowron: "I know this scene of death is shocking to you human. The cowardlieness
+of this assassination shocks even a Klingons heart. But do not be confused, if
+you touch me again in front of the others, I will defend myself. You have a
+duty to perform. Do it!"
+
+(.. choose Qua'lon ..)
+
+Qua'lon: "Do you challange me, here, over your fathers unmourned corpse?"
+
+Gowron: "I think he only meant for you to lead the ritual."
+
+Gowron [to Pok]: "But it is not his place. It is yours. Try again."
+
+(.. choose Torghn's eyes ..)
+
+(the story continues)

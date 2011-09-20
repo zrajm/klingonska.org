@@ -18,7 +18,7 @@ Some Comments on Orthography
 
 Lawrence M. Schoen
 
-Those first three years of <TOS> where rather stingy. While we were allowed
+Those first three years of <TOS> were rather stingy. While we were allowed
 the occasional inference of Klingon culture, our exposure to Klingon
 language was limited to the rare and frustrating glimpse of signage aboard a
 Bird of Prey. Frustrting because there is something about unfamiliar writing
@@ -26,14 +26,14 @@ system that tantalizes and entices, that beckons to us promising exotica,
 that hits of secrets and understand if only we could read those strange
 glyphs. If only...
 
-     In 1980 the <U.S.S Enterprise Officer's manual> was published. Though now  [[U.S.S:=U.S.S.]]
+     In 1980 the <U.S.S Enterprise Officer's manual> was published. Though now [[U.S.S:=U.S.S.]]
 out of print, in its time this volume was perceived as a great treasure trove of
 information. Among its inclusions was the following table of characters,
 which has since come to be known as the Mandel system:
 
      [[Image: Mandel alphabet
-         K, L, I, NG, O, N, F, B, D
-         G, A, M, X, TH, H, V, J, E
+         K, L, I, NG, O, N, F, B, D,
+         G, A, M, X, TH, H, V, J, E,
          S, Y, W, P, OO, T, R, U, Z
      ]]
 
@@ -64,7 +64,7 @@ incorrectly attributed to Michael Okuda, scenic designer for <TNG>). one
 which corresponds to the phonemes of Klingon ad described by Okrand in
 <TKD>. While the characters themselves are easily identifiable from
 background displays on <TNG> (assuming one has access to video equipment
-and a reasonably large television screen), there has never been an <official"
+and a reasonably large television screen), there has never been an "official"
 release describing the particular relation ship between individual glyphs and
 specific sounds. As Okuda has indicated (<see the interview elsewhere in this
 issue>) all Klingon background displays are composed for appearance, not
@@ -72,8 +72,8 @@ communication. And yet, an unofficial letter to a Klingon fan group from
 an unnamed source at Paramount resulted in the following  alphabet^1^:
 
      [[Image: {pIqaD} alphabet
-         a, b, ch, D, e, ng, gh, H, I
-         j, q ,l, m, n, o, p, Q, r
+         a, b, ch, D, e, ng, gh, H, I,
+         j, q ,l, m, n, o, p, Q, r,
          S, t, u, v, w, tlh, '
      ]]
 
