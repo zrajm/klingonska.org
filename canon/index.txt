@@ -92,7 +92,8 @@ publication, or a description of its contents and/or form).
     <td><font size="4"><a name="1985">1985</a></font></td><td></td>
     <td><font size="4"><i>The Klingon Dictionary</i> (1st edition)</font>
       <br /><font size="2"><i>Book by Marc Okrand, Pocket Books, Simon &amp; Schuster, New York, ISBN 0-671-74559-X</i></font>
-      <br />Klingon grammar/dictionary, see the second
+      <br />(<a href="1992-01-01-tkd.txt">text</a>)
+      Klingon grammar/dictionary, see the second
       edition below. (Abbreviated <i>TKD.</i>)
     </td>
   </tr>
@@ -405,7 +406,8 @@ publication, or a description of its contents and/or form).
       language coaching by Marc Okrand, Simon & Schuster Interactive, Simon &
       Schuster, New York, ISBN 0-671-52873-4 (Windows) or ISBN 0-671-52872-6
       (Macintosh)</i></font>
-      <br />Computer game (on 2 CDs) and Language Lab (1 additional CD). The
+      <br />(<a href="1996-04-kcd.txt">text</a>) (<a href="1996-04-kcd.html">info</a>)
+      Computer game (on 2 CDs) and Language Lab (1 additional CD). The
       game is video-based interactive story featuring actors known from TNG.
       There is lots of dialogue, but not much game play. Dialogue is
       predominantly in English, but some Klingon phrases are to be found. One
@@ -415,7 +417,6 @@ publication, or a description of its contents and/or form).
       pronunciation. Okrand was involved in the production and some new words
       appeared here. (Usually abbreviated <i>KCD</i>, sometimes abbreviated
       <i>STK</i>.)
-      <br />(<a href="1996-04-kcd.txt">text</a>) (<a href="1996-04-kcd.html">info</a>)
     </td>
   </tr>
 
@@ -1081,8 +1082,11 @@ publication, or a description of its contents and/or form).
         Poster</i></font>
       <br /><font size="2">Poster, translation by Marc Okrand, published
         by SciPubTech, Michigan</font>
-      <br />(Abbreviated <i>BoP.</i>)
       <br />(<a href="1998-11-01-bop.txt">text</a>) (<a href="1998-11-01-bop.html">info</a>)
+      A large poster portaying a space battle between Enterprise and several
+      Klingo bird-of-preys. One of the bird-of-preys is cutaway drawing, with
+      numbered points of interest labeled in both English and Klingon. Klingon
+      translations were provided by Marc Okrand. (Abbreviated <i>BoP.</i>)
     </td>
   </tr>
 
@@ -1111,8 +1115,8 @@ publication, or a description of its contents and/or form).
     <td><font size="4">»Re: {ghew qab}«</font>
       <br /><font size="2"><i>Newsgroup posting by Marc Okrand to
         »startrek.klingon«</i></font>
-      <br />How to say "looks like" in Klingon.
       <br />(<a href="1999-01-04a-news.txt">text</a>)
+      How to say "looks like" in Klingon.
     </td>
   </tr>
 
@@ -1121,8 +1125,8 @@ publication, or a description of its contents and/or form).
     <td><font size="4">»Re: {ghew qab}«</font>
       <br /><font size="2"><i>Newsgroup posting by Marc Okrand to
         »startrek.klingon«</i></font>
-      <br />On how to express "with" in Klingon.
       <br />(<a href="1999-01-04b-news.txt">text</a>)
+      On how to express "with" in Klingon.
     </td>
   </tr>
 
