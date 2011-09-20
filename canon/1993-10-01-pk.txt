@@ -18,8 +18,10 @@
   [2003-01-30] cleaned up text some
   [2006-07-25] added additional ISBNs to "Publisher" field, added day to
                release date (info from Amazon)
-  [2011-09-29] incorporated *many* suggestions given to me by Stevo in
-               2004-03-14; added time information for all "mark"s
+  [2011-09-29] incorporated *many* suggestions sent to me by Stevo (in
+               2004-03-14), e.g. speaker indication, spelling corrections;
+               added missing timing information for [[# mark: ... #]]s at the
+               end of the file
   Style: {}=bold, <>=italics
 
   Type: audio cassette / CD
