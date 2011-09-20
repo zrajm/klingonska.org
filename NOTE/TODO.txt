@@ -575,7 +575,25 @@ Priorities:
 ***** TODO Make dict.zdb downloadable
 **** TODO Search engine improvements
 ***** TODO Properly indexed search, instead of linear grepping
-***** TODO Google Chrome should autodetect search engine
+***** TODO Google Chrome should autodetect search engine(s)
+      The following form is enough to enable the Chrome "Press [Tab] to search
+      <hostname>" *if* (and only if) it resides on a hostname-only URL. (e.g.
+      http://localhost/ works, but http://localhost/y/ does not work).
+
+          <form method="get" action="">
+              <input name="days" type="text" />
+              <input type="submit" value="visa" />
+          </form>
+
+      This seems to work with added <input type="hidden"> fields as well..
+
+      http://dict.klingonska.org/ or maybe http://paqhom.klingonska.org/ could
+      be used for the paqhom dictionary.
+
+      Mebbe add a http://klingonska.org/ (linked to google) for searches of the
+      entire site.
+
+      And http://canon.klingonska.org/ for http://klingonska.org/canon/ searches.
 **** DONE headings should be sans-serif
      CLOSED: [2010-08-09 Mon 02:19]
 **** DONE index.html
