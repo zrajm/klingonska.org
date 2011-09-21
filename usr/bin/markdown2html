@@ -678,7 +678,12 @@ sub page_logoimage_ka {
 sub page_year {
     my ($self, %meta) = @_;
     return "MISSING YEAR" unless exists($meta{year});
-    return $meta{year};
+    my $year = $meta{year};
+    for ($year) {
+        s#(\d{4})#<time>$1</time>#g;
+        s#(?<!-)-{1,2}(?!-)#&ndash;#g;
+    }
+    return $year;
 }
 
 sub page_author {

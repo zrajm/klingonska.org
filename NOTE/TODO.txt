@@ -110,6 +110,12 @@ Priorities:
 ** TODO Do a surf-through check for weird/old shit
 ** TODO Systematic/site-wide changes
    I.e. changes that need to be applied to the web page as a whole.
+*** TODO All <time> tags should include time zone
+    Can "yyyy-mm-dd+zz:zz" be used? Or does the "+zz:zz" *require* that a time
+    is used too (i.e. "yyyy-mm-ddThh:hh:ss+zz:zz")?
+
+    Time zone data should be +01:00 or +02:00 depending on whether the time
+    described was during daylight savings time or not.
 *** TODO Linking Klingon phrases to English translation?
     Is there a microdata for this? Should one surround the phrases using <span>
     like this: <span><b lang="tlh">ya'Da ya'Da</b> <i class="transl">yadda
@@ -135,8 +141,10 @@ Priorities:
     Where is this? Page datestamps? Page geolocation? Are there more?
 
     When occuring in text:
-**** Author names
-**** Source references
+**** TODO Author names
+**** TODO Source references
+**** DONE Dates
+     CLOSED: [2011-09-21 Wed 18:39]
 *** TODO CC licence on entire site (except KLO?)
 *** TODO Add "lang" attribute to <html> tag on all pages
 *** TODO Lower-case all HTML

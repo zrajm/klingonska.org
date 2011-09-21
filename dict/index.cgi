@@ -248,7 +248,7 @@ return <<"EOF";
 <p>The book has both a Klingon&ndash;English, and an English&ndash;Klingon
 wordlist. These wordlists are automatically extracted from a simple text-based
 database, which is very easy to update. This database has been continuously
-updated and improved since it was created in late 1997. The word database can
+updated and improved since it was created in late <time>1997</time>. The word database can
 be downloaded via the <a href="../canon/download.cgi">Klingon Data Download
 page</a>.</p>
 
@@ -395,7 +395,7 @@ sub html_foot {
 </div>
 
 <div id="foot">
-<p class="copyright">©1998&ndash;2011, Copyright <!-- FIXME autogenerate dates -->
+<p class="copyright">©<time>1998</time>&ndash;<time>2011</time>, Copyright <!-- FIXME autogenerate dates -->
 <span class="author"><a href="mailto:zrajm\@klingonska.org">Zrajm C Akfohg</a></span>,
 <a href="http://klingonska.org/">Klingonska Akademien</a>, Uppsala.</p>
 <p class="validator">

@@ -65,7 +65,7 @@ my $PAGE_FOOT = <<"EOF";
 </div>
 
 <div id="foot">
-<p class="copyright">©1998&ndash;2010, Copyright <!-- FIXME autogenerate dates -->
+<p class="copyright">©<time>1998</time>&ndash;<time>2010</time>, Copyright <!-- FIXME autogenerate dates -->
 <span class="author"><a href="mailto:zrajm\@klingonska.org">Zrajm C Akfohg</a></span>,
 <a href="http://klingonska.org/">Klingonska Akademien</a>, Uppsala.</p>
 <p class="validator">

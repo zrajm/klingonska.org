@@ -5,7 +5,7 @@ lang: sv
 prev: ordlista-00
 next: ordlista-02
 
-Klingonsk-svensk ordlista [[*2000-12-06]]
+Klingonsk-svensk ordlista [[*<time>2000-12-06</time>]]
 =========================================
 
 <!-- HTML conversion started: 2001-01-23, 22.39 -->
@@ -33,7 +33,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{baghneQ}</td>
 	<td><i>s</i></td>
-	<td>sked <small>[News 1998-05-05]</small></td>
+	<td>sked <small>[News <time>1998-05-05</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{baH}</td>
@@ -148,7 +148,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{beb}</td>
 	<td><i>s</i></td>
-	<td>tak, yttertak <small>[News 1998-12-07]</small></td>
+	<td>tak, yttertak <small>[News <time>1998-12-07</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{bech}</td>
@@ -701,7 +701,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{chan}</td>
 	<td><i>s</i></td>
-	<td>område österut, område i öster <small>[News 1999-11-21]</small></td>
+	<td>område österut, område i öster <small>[News <time>1999-11-21</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{chanDoq}</td>
@@ -831,7 +831,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{cheb}</td>
 	<td><i>s</i></td>
-	<td>viktenhet (cirka 2,25 kilogram) <small>[News 1997-10-22]</small></td>
+	<td>viktenhet (cirka 2,25 kilogram) <small>[News <time>1997-10-22</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{chech}</td>
@@ -936,7 +936,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{chevwI' tlhoy'}</td>
 	<td><i>s</i></td>
-	<td>territorialmur (t.ex. Berlinmuren) <small>[News 1998-12-07]</small></td>
+	<td>territorialmur (t.ex. Berlinmuren) <small>[News <time>1998-12-07</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{che'}</td>
@@ -2047,7 +2047,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{gher}</td>
 	<td><i>v</i></td>
-	<td>formulera, sammanställa, sätta ihop <small>[News 1998-07-09]</small></td>
+	<td>formulera, sammanställa, sätta ihop <small>[News <time>1998-07-09</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{gheS}</td>
@@ -3758,7 +3758,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{juch}</td>
 	<td><i>v</i></td>
-	<td>ha en bredd av <small>[News 1997-10-22]</small></td>
+	<td>ha en bredd av <small>[News <time>1997-10-22</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{juH}</td>
@@ -4644,7 +4644,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{ma'veq}</td>
 	<td><i>s</i></td>
-	<td>ett slags ceremoniell kniv, <i>mevak</i> (används i <i>Mauk-To'Vor</i>-ritualen) <small>[MO at <i>1998 Praxis</i>; STE]</small></td>
+	<td>ett slags ceremoniell kniv, <i>mevak</i> (används i <i>Mauk-To'Vor</i>-ritualen) <small>[MO at <i><time>1998</time> Praxis</i>; STE]</small></td>
 </tr>
 <tr valign="top">
 	<td>{meb}</td>
@@ -6265,7 +6265,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{ngugh}</td>
 	<td><i>adv</i></td>
-	<td>då, vid den tiden <small>[News 1999-11-05]</small></td>
+	<td>då, vid den tiden <small>[News <time>1999-11-05</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{ngujlep}</td>
@@ -6468,12 +6468,12 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{pa' beb}</td>
 	<td><i>s</i></td>
-	<td>innertak (i ett rum högst upp en byggnad eller konstruktion) <small>[News 1998-12-07; HQ8:3 s.2]</small></td>
+	<td>innertak (i ett rum högst upp en byggnad eller konstruktion) <small>[News <time>1998-12-07</time>; HQ8:3 s.2]</small></td>
 </tr>
 <tr valign="top">
 	<td>{pa' reD}</td>
 	<td><i>s</i></td>
-	<td>insida av yttervägg <small>[News 1998-12-07]</small></td>
+	<td>insida av yttervägg <small>[News <time>1998-12-07</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{peb'ot}</td>
@@ -6553,7 +6553,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{per}</td>
 	<td><i>v</i></td>
-	<td>beteckna, fastställa, specificera, namnge <small>[TKD; News 1999-02-02]</small></td>
+	<td>beteckna, fastställa, specificera, namnge <small>[TKD; News <time>1999-02-02</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{per}</td>
@@ -6663,7 +6663,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{pIn tlhoy'}</td>
 	<td><i>s</i></td>
-	<td>territorialmur (t.ex. Berlinmuren) <small>[News 1998-12-07]</small></td>
+	<td>territorialmur (t.ex. Berlinmuren) <small>[News <time>1998-12-07</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{pIn'a'}</td>
@@ -6963,7 +6963,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{puq chonnaQ}</td>
 	<td><i>s</i></td>
-	<td>gaffel <small>[News 1998-05-05]</small></td>
+	<td>gaffel <small>[News <time>1998-05-05</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{puq Hol}</td>
@@ -7306,7 +7306,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{qen}</td>
 	<td><i>adv</i></td>
-	<td>nyligen, för ett litet tag sedan, alldeles nyss <small>[News 1999-02-02]</small></td>
+	<td>nyligen, för ett litet tag sedan, alldeles nyss <small>[News <time>1999-02-02</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{qeng}</td>
@@ -8364,7 +8364,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{Qun}</td>
 	<td><i>s</i></td>
-	<td>gud, övernaturlig varelse <small>[News 1999-07-19]</small></td>
+	<td>gud, övernaturlig varelse <small>[News <time>1999-07-19</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{Qup}</td>
@@ -8417,12 +8417,12 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{rach}</td>
 	<td><i>v</i></td>
-	<td>stärka, styrka, liva (upp); stimulera <small>[News 1998-10-20]</small></td>
+	<td>stärka, styrka, liva (upp); stimulera <small>[News <time>1998-10-20</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{rachwI'}</td>
 	<td><i>s</i></td>
-	<td>sjuksköterska, sjukskötare <small>[News 1998-10-20]</small></td>
+	<td>sjuksköterska, sjukskötare <small>[News <time>1998-10-20</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{raD}</td>
@@ -8497,7 +8497,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{rav'eq}</td>
 	<td><i>s</i></td>
-	<td>innertak (i ett rum med ett rum till ovanför) <small>[News 1998-12-07; HQ8:3 s.2]</small></td>
+	<td>innertak (i ett rum med ett rum till ovanför) <small>[News <time>1998-12-07</time>; HQ8:3 s.2]</small></td>
 </tr>
 <tr valign="top">
 	<td>{ray'}</td>
@@ -8527,7 +8527,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{reD}</td>
 	<td><i>s</i></td>
-	<td>yttervägg <small>[News 1998-12-07]</small></td>
+	<td>yttervägg <small>[News <time>1998-12-07</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{regh}</td>
@@ -8842,7 +8842,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{rutlh}</td>
 	<td><i>s</i></td>
-	<td>hjul <small>[News 1999-11-05]</small></td>
+	<td>hjul <small>[News <time>1999-11-05</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{ruv}</td>
@@ -9573,7 +9573,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{tagha'}</td>
 	<td><i>adv</i></td>
-	<td>slutligen, till sist <small>[News 1999-11-05]</small></td>
+	<td>slutligen, till sist <small>[News <time>1999-11-05</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{taH}</td>
@@ -9683,7 +9683,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{tatlh}</td>
 	<td><i>v</i></td>
-	<td>placera tillbaka, återbörda, återlämna <small>[News 1999-07-19]</small></td>
+	<td>placera tillbaka, återbörda, återlämna <small>[News <time>1999-07-19</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{tay}</td>
@@ -9928,7 +9928,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{tIng}</td>
 	<td><i>s</i></td>
-	<td>område sydvästerut, område i sydväst <small>[News 1999-11-21]</small></td>
+	<td>område sydvästerut, område i sydväst <small>[News <time>1999-11-21</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{tIngDagh}</td>
@@ -10078,7 +10078,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{toQ}</td>
 	<td><i>s</i></td>
-	<td>djur liknande en jordisk rovfågel <small>[KLI's mailing list 1997-04-04]</small></td>
+	<td>djur liknande en jordisk rovfågel <small>[KLI's mailing list <time>1997-04-04</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{toQDuj}</td>
@@ -10571,12 +10571,12 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{tlhoy'}</td>
 	<td><i>s</i></td>
-	<td>vägg, innervägg, insida av yttervägg, territorialmur <small>[News 1998-12-07]</small></td>
+	<td>vägg, innervägg, insida av yttervägg, territorialmur <small>[News <time>1998-12-07</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{tlhoy' SaS}</td>
 	<td><i>s</i></td>
-	<td>tak/golv mellan våningar <small>[News 1998-12-07]</small></td>
+	<td>tak/golv mellan våningar <small>[News <time>1998-12-07</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{tlho'}</td>
@@ -10591,7 +10591,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{tlho'ren}</td>
 	<td><i>s</i></td>
-	<td>volymenhet (cirka en liter) <small>[News 1997-10-22]</small></td>
+	<td>volymenhet (cirka en liter) <small>[News <time>1997-10-22</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{tlhuch}</td>
@@ -11147,7 +11147,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{wab}</td>
 	<td><i>s</i></td>
-	<td>ljud, oljud <small>[News 1999-02-02]</small></td>
+	<td>ljud, oljud <small>[News <time>1999-02-02</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{wagh}</td>
@@ -11645,12 +11645,12 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{yer}</td>
 	<td><i>s</i></td>
-	<td>domän, egendom, besittning, territorium <small>[News 1998-12-07]</small></td>
+	<td>domän, egendom, besittning, territorium <small>[News <time>1998-12-07</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{yergho}</td>
 	<td><i>s</i></td>
-	<td>stadsmur <small>[News 1998-12-07]</small></td>
+	<td>stadsmur <small>[News <time>1998-12-07</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{yev}</td>
@@ -11928,7 +11928,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{'ab}</td>
 	<td><i>v</i></td>
-	<td>ha en längd/höjd av <small>[S32; News 1997-10-22]</small></td>
+	<td>ha en längd/höjd av <small>[S32; News <time>1997-10-22</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{'ach}</td>
@@ -11938,7 +11938,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{'aD}</td>
 	<td><i>v</i></td>
-	<td>ha en längd av, mäta <small>[KGT; News 1997-10-22]</small></td>
+	<td>ha en längd av, mäta <small>[KGT; News <time>1997-10-22</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{'aD}</td>
@@ -12023,7 +12023,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{'arlogh}</td>
 	<td><i>fråg</i></td>
-	<td>hur många gånger? <small>[News 1999-02-02]</small></td>
+	<td>hur många gånger? <small>[News <time>1999-02-02</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{'atrom}</td>
@@ -12173,7 +12173,7 @@ Klingonsk-svensk ordlista [[*2000-12-06]]
 <tr valign="top">
 	<td>{'ev}</td>
 	<td><i>s</i></td>
-	<td>område nordvästerut, område i nordväst <small>[News 1999-11-21]</small></td>
+	<td>område nordvästerut, område i nordväst <small>[News <time>1999-11-21</time>]</small></td>
 </tr>
 <tr valign="top">
 	<td>{'evnagh}</td>
