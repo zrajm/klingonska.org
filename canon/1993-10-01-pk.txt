@@ -18,7 +18,7 @@
   [2003-01-30] cleaned up text some
   [2006-07-25] added additional ISBNs to "Publisher" field, added day to
                release date (info from Amazon)
-  [2011-09-29] incorporated *many* suggestions sent to me by Stevo (in
+  [2011-09-19] incorporated *many* suggestions sent to me by Stevo (in
                2004-03-14), e.g. speaker indication, spelling corrections;
                added missing timing information for [[# mark: ... #]]s at the
                end of the file
@@ -33,7 +33,7 @@
     0-671-85667-7)
   Summary: This audio cassette is number two in the series (beginning with
     <Conversational Klingon>) and it is intended for the serious traveler,
-    student or bussinessman and people that will spend a lot of time in the
+    student or businessman and people that will spend a lot of time in the
     Empire. The audio cassette version comes with an inlay folder, which is
     missing from the CD version. (Usually abbreviated <PK>.)
 
