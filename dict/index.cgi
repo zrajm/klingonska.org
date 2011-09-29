@@ -94,8 +94,8 @@ our @tips = (
         "<b>ref:</b> = source",
     "Example: <b>tlh:*'egh</b> finds all Klingon words ending in " .
         "<em>&rsquo;egh</em>",
-    "Example: <b>data:klcp</b> finds only <i>Klingon Language Certification " .
-        "Program</i> words.",
+    'Example: <b>data:klcp</b> finds only words from the <i><a ' .
+        'href="../klcp.html">Klingon Language Certification Program</a></i>.',
     "Example: <b>def:kgt</b> lists all words first defined in KGT.",
     "Put <b>tlh:</b> before a word to search only in Klingon definitions.",
     "Put <b>sv:</b> before a word to search only in Swedish definitions.",
