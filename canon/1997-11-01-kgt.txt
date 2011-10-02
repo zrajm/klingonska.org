@@ -40,6 +40,7 @@
                also confirms the existance of a still photographer named Bruce
                Birmelin)
   [2006-09-22] added some corrections submitted by stevo
+  [2011-10-02] improved correction comments for {jorneb} and {beH}
 
     TODO:
         o *very* carefully hand check everything marked [[check!]] -- since
@@ -1962,7 +1963,7 @@ function and operation to the Federation's phasers. The
 general term for disruptor is {nISwI'}. A disruptor pistol
 or hand-held disruptor (and there are several models of
 these) is a {nISwI' HIch}; a disruptor rifle (likewise with
-several models) is a {nISwI' bej}. Larger and more power- [[bej:=beH?]]
+several models) is a {nISwI' bej}. Larger and more power- [[bej:=beH]]
 ful disruptors are mounted on the ship, laid out as
 {nISwI' DaH} or "disruptor banks." These terms are used
 only for these Klingon weapons. The more general term
@@ -1972,7 +1973,7 @@ ruptor, Federation phaser, and other similar devices.
 Since the word is short, {pu'} is heard frequently---even
 more frequently than {nISwI'}---especially in the throes of
 combat, in such formations as {pu'HIch} ("phaser pistol"),
-{pu'bej} ("phaser rifle"), {pu'DaH} ("phaser banks"), and [[pu'bej:=pu'beH]]
+{pu'bej} ("phaser rifle"), {pu'DaH} ("phaser banks"), and [[bej:=beH]]
 even {pu'beq} ("phaser crew," the crew members responsi-
 ble for the operation of the weapons). Despite the preva-
 lence of the {pu'} words, in the strictest sense, the correct
@@ -1999,7 +2000,7 @@ how the projectile is actually loaded into the tube. The
 verb used for "launch" or "fire" a weapon of this type is
 {baH}, and there is even a special word, {ghuS}, meaning
 "prepare to launch." The warhead of the torpedo is called
-its {jorneb} (which seems to contain the verb {jor} ["ex- [[?? {jorneb} or {jornub}?]]
+its {jorneb} (which seems to contain the verb {jor} ["ex-
 plode"] but is otherwise not analyzable).
 
 
@@ -7248,7 +7249,7 @@ KLINGON--FEDERATION STANDARD
   {jop}               lunge, thrust (v)
   {joQ}               strip of material in a <susdek> instrument (n)
   {joQ}               rib (n)
-  {jornub}            warhead (of a torpedo) (n) [[?? {jorneb} or {jornub}?]]
+  {jornub}            warhead (of a torpedo) (n) [[jornub:=jorneb]]
 
   {lajQo'}            reject (v)
   {lat}               shrine (n)
@@ -8624,7 +8625,7 @@ FEDERATION STANDARD--KLINGON
   war, warfare (n)                                      {veS}
   [make] war (v)                                        {Qoj}
   war (an individual war) (n)                           {noH}
-  warhead (of a torpedo) (n)                            {jorneb} [[?? {jorneb} or {jornub}?]]
+  warhead (of a torpedo) (n)                            {jorneb}
   <warnog,> Klingon ale (n)                             {wornagh}
   warrant, deserve (v)                                  {qotlh}
   warrior's knife, <d'k tahg> (n)                       {Daqtagh}
