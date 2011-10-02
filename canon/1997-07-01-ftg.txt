@@ -2,6 +2,7 @@
   [2000-06-25] OCR scanned from booklet by Zrajm C Akfohg.
   [2003-01-24, 21.14-21.28] added document header
   [2006-07-25] added day to "Date" field
+  [2011-10-02] Wrote new summary, added abbreviation
   Style: {}=bold, <>=italics, hyphenation
 
   Type: booklet
@@ -9,11 +10,12 @@
   Title: Star Trek: Federation Travel Guide (excerpt)
   Author: Michael Jan Freedman (Klingon by Marc Okrand)
   Publisher: Pocket Books, Simon & Schuster, New York, ISBN 0-671-00978-8
-  Summary: This is a small booklet with information about various vacation
-    spots throughout the Federation. It contains brief description of many of
-    the places visited in Star Trek episodes, recommendations on lodging,
-    restaurants etc. This is a transcript of the article about {Qo'noS}, which
-    contains a sentence translated into Klingon by Marc Okrand.
+  Summary: A small booklet describing various tourist attractions available for
+    the Federation tourist. This is a transcription of the article about
+    {Qo'noS}, which contains a sentence translated into Klingon by Marc Okrand.
+    The word {jeq} <protrude> occures here for the first time. (Abbreviated
+    <FTG>.)
+
 ]]
 
 

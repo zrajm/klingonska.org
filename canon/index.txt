@@ -688,10 +688,11 @@ publication, or a description of its contents and/or form).
       <br /><font size="2"><i>Booklet by Michael Jan Freedman, Pocket
         Books, Simon &amp; Schuster, New York, ISBN 0-671-00978-8</i></font>
       <br />(<a href="1997-07-01-ftg.txt">text</a>)
-      This small booklet describes various tourist attractions
-      available for the federation tourist. It doesn't contain much
-      Klingon, but apparently Marc Okrand made the translations, and the
-      word {jeq} »protrude« occures here for the first time.
+      A small booklet describing various tourist attractions available for the
+      Federation tourist. This is a transcription of the article about
+      {Qo'noS}, which contains a sentence translated into Klingon by Marc
+      Okrand. The word <b lang="tlh">jeq</b> <i>protrude</i> occures here for
+      the first time. (Abbreviated <i>FTG</i>.)
     </td>
   </tr>
 
