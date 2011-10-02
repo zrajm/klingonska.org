@@ -793,6 +793,14 @@ ref:	KLINW; TDNW
 see:	{bertlham}
 file:	2003-06-holqed-12-2.txt
 
+tlh:	{bo}
+pos:	noun
+sv:	«fjäder» (på fågel)
+en:	«feather»
+def:	HQ10:4 p.5
+ref:	KLINW
+file:	2001-12-holqed-10-4.txt
+
 tlh:	{bobcho'}
 pos:	noun
 sv:	«modul»
@@ -998,6 +1006,14 @@ def:	HQ12:4 p.8
 ref:	TDNW; KLINW
 file:	2003-12-holqed-12-4.txt
 
+tlh:	{borghel}
+pos:	noun
+sv:	ett slags «fågel» (väldigt liten, dess ägg anses mycket goda)
+en:	type of «bird» (very small, its eggs are considered quite tasty)
+def:	HQ10:4 p.4
+ref:	KLINW
+file:	2001-12-holqed-10-4.txt
+
 tlh:	{bortaS}
 pos:	noun
 sv:	«hämnd»
@@ -1065,6 +1081,15 @@ sv:	«skopa», «skyffel» (för att servera mat)
 en:	<scoop>, scooping implement (to serve food)
 def:	KGT
 file:	1997-11-01-kgt.txt
+
+tlh:	{bo'Degh}
+pos:	noun
+sv:	«fågel»
+en:	«bird»
+def:	HQ10:4 p.4
+ref:	KLINW
+com:	general word for bird-like creature
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{bo'DIj}
 pos:	noun
@@ -1435,6 +1460,13 @@ def:	TKD
 cat:	math
 file:	1992-01-01-tkd.txt
 
+tlh:	{cha'bIp}
+pos:	noun
+sv:	en slags «fågel» (berömd för sin snabbhet)
+en:	type of «bird» (noted for its speed)
+def:	HQ10:4 p.4
+file:	2001-12-holqed-10-4.txt
+
 tlh:	{cha'DIch}
 pos:	noun
 sv:	«medhjälpare», «sekond»
@@ -1449,6 +1481,13 @@ en:	<second>
 def:	TKD
 cat:	math
 file:	1992-01-01-tkd.txt
+
+tlh:	{cha'Do'}
+pos:	noun
+sv:	en slags «fågel» (om vilken litet är känt)
+en:	type of «bird» (about which little is known)
+def:	HQ10:4 p.4
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{cha'Hu'}
 pos:	noun
@@ -1473,12 +1512,26 @@ en:	<twice>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
+tlh:	{cha'naS}
+pos:	noun
+sv:	en slags «fågel» (liten, gräver upp småkryp att äta)
+en:	type of «bird» (small, digs up bugs to eat)
+def:	HQ10:4 p.4
+file:	2001-12-holqed-10-4.txt
+
 tlh:	{cha'nob}
 pos:	noun
 sv:	«rituella «gåvor»»
 en:	<ritual <gifts>>
 def:	KGT
 file:	1997-11-01-kgt.txt
+
+tlh:	{cha'par}
+pos:	noun
+sv:	en slags «fågel» (berömd för sin sång)
+en:	type of «bird» (noted for its song)
+def:	HQ10:4 p.4
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{cha'puj}
 pos:	noun
@@ -1493,6 +1546,13 @@ sv:	«dilitiumkristall»
 en:	<dilithium crystal>
 def:	TKD
 file:	1992-01-01-tkd.txt
+
+tlh:	{cha'qu'}
+pos:	noun
+sv:	en slags «fågel» (med ett högljutt, enformigt skrik)
+en:	type of «bird» (with a noisy, repetitive cry)
+def:	HQ10:4 p.4
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{cheb}
 pos:	noun
@@ -2404,6 +2464,16 @@ com:	Locative word, never followed by {-Daq} [TKD 3.3.5 (pp.27--28)].
 cat:	locative
 file:	1992-01-01-tkd.txt
 
+tlh:	{Dav}
+pos:	verb
+sv:	«svänga», förflytta sig i sidled (om flygmaskin)
+en:	«sway», move to the side (about aircraft)
+def:	HQ11:2 p.9
+com:	"When it moves to the side (not when the nose points to the left or
+	right, but when the plane slides to the left or right without
+	otherwise changing its orientation)" [HQ11:2 p.9]
+file:	2002-06-holqed-11-2.txt
+
 tlh:	{DavHam}
 pos:	noun
 sv:	«falsk» «ära»
@@ -2454,6 +2524,22 @@ sv:	«korpral» (rang)
 en:	<corporal> (rank)
 def:	TKD
 file:	1992-01-01-tkd.txt
+
+tlh:	{Da'nal}
+pos:	noun
+sv:	en slags «fågel» (kännetecknad av irrande, oförutsägbart beteende)
+en:	type of «bird» (characterized by erratic, unpredictable behavior)
+def:	HQ10:4 p.4
+com:	similar to {Da'vI'}
+file:	2001-12-holqed-10-4.txt
+
+tlh:	{Da'vI'}
+pos:	noun
+sv:	en slags «fågel» (kännetecknad av irrande, oförutsägbart beteende)
+en:	type of «bird» (characterized by erratic, unpredictable behavior)
+def:	HQ10:4 p.4
+com:	similar to {Da'nal}
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{Deb}
 pos:	noun
@@ -2581,6 +2667,15 @@ en:	<credit> (monetary «unit»)
 def:	TKD
 cat:	money
 file:	1992-01-01-tkd.txt
+
+tlh:	{Der}
+pos:	verb
+sv:	«gira» (om flygmaskin)
+en:	«yaw» (about aircraft)
+def:	HQ11:2 p.9
+com:	"When the nose of an airplane or similar craft moves to the left or
+	the right [...]" [HQ11:2 p.9]
+file:	2002-06-holqed-11-2.txt
 
 tlh:	{DeS} (1)
 pos:	noun
@@ -3333,6 +3428,13 @@ com:	"[...] {ghang}, is used to express the idea of a premature ending. If [...]
 see:	{van} (2), {Dor} (2)
 file:	2003-06-holqed-12-2.txt
 
+tlh:	{ghangwI'}
+pos:	noun
+sv:	«horisont»
+en:	«horizon»
+def:	HQ11:2 p.8
+file:	2002-06-holqed-11-2.txt
+
 tlh:	{ghap}
 pos:	conjuction
 sv:	«eller», antingen eller (kommer efter förenade substantiv)
@@ -4064,6 +4166,16 @@ ref:	TKW p.34
 see:	{Dep}; {nuv}; {yoq}
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+
+tlh:	{ghotI'}
+pos:	noun
+sv:	«fisk»
+en:	«fish»
+def:	HQ10:4 p.5
+ref:	TDNW
+pun:	Bernard Shaw's famous spelling of "fish".
+see:	{bIQDep}
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{ghov}
 pos:	verb
@@ -5004,6 +5116,13 @@ en:	<expedition>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
+tlh:	{Hoqra'}
+pos:	noun
+sv:	«trikorder»
+en:	<tricorder>
+def:	TKD
+file:	1992-01-01-tkd.txt
+
 tlh:	{HoQ}
 pos:	verb
 sv:	vara «falskt» «ärad», vara «felaktigt» «hedrad»
@@ -5014,13 +5133,6 @@ com:	"[It can] be used in the same places {quv} 'be honored, be honorable'
 	could be used, but only when the honor was not legitimate." [HQ12:3]
 see:	{quv} "be honored, be honorable" (v)
 file:	2003-09-holqed-12-3.txt
-
-tlh:	{Hoqra'}
-pos:	noun
-sv:	«trikorder»
-en:	<tricorder>
-def:	TKD
-file:	1992-01-01-tkd.txt
 
 tlh:	{HoS}
 pos:	verb
@@ -5538,6 +5650,14 @@ def:	TKD
 cat:	time
 file:	1992-01-01-tkd.txt
 
+tlh:	{jajlo' Qa'}
+pos:	noun
+sv:	ett slags «djur» (för oljud i gryningen)
+en:	type of «animal» (makes a ruckus at dawn)
+def:	HQ10:4 p.5
+data:	derived form
+file:	2001-12-holqed-10-4.txt
+
 tlh:	{jajvam}
 pos:	noun
 sv:	«idag»
@@ -5846,6 +5966,14 @@ en:	be <self-confident>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
+tlh:	{jer}
+pos:	verb
+sv:	«rycka», plötsligt röra sig framåt eller bakåt (om flygmaskin)
+en:	«surge», suddenly move forward or backward (about aircraft)
+def:	HQ11:2 p.9
+com:	"if it suddenly moves forwards or backwards" [HQ11:2 p.9]
+file:	2002-06-holqed-11-2.txt
+
 tlh:	{jeS}
 pos:	verb
 sv:	«deltaga»
@@ -5976,6 +6104,18 @@ ref:	{qep'a'} 1996
 pun:	Okrand confirmed at {qep'a'} 1996 that he had a neighbor named "Jill."
 	(Robyn Stewart)
 file:	1992-01-01-tkd.txt
+
+tlh:	{jIm}
+pos:	verb
+sv:	«höja», «sänka» (om flygmaskin)
+en:	«heave» (about aircraft)
+def:	HQ11:2 p.9
+com:	"When the plane moves up or down (not when the nose points up or
+	down, but when the plane increases or decreases altitude, as if the
+	whole plane is being pushed up or down)" [HQ11:2 p.9]
+pun:	This is whan "Jim" Kirk does to outsmart Khan in the nebula, at the
+	end of "Star Trek II: The Wrath of Khan".
+file:	2002-06-holqed-11-2.txt
 
 tlh:	{jIn}
 pos:	verb
@@ -6520,6 +6660,15 @@ en:	be <thin>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
+tlh:	{laq}
+pos:	verb
+sv:	«flaxa», «slå» (om fågelvingar)
+en:	«flap» (bird's wings do this)
+def:	HQ10:4 p.5
+com:	Used about a birds wings. "[...] in flight, a bird's wings {laq}
+	(the bird is said to {laqmoH} its wings)" [HQ10:4 p. 5]
+file:	2001-12-holqed-10-4.txt
+
 tlh:	{laQ}
 pos:	verb
 sv:	«tända», «aktivera», «starta» (t.ex. raketmotorer)
@@ -6894,6 +7043,13 @@ en:	<round up>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
+tlh:	{lIr}
+pos:	noun
+sv:	en slags «fågel» (nattlevande)
+en:	type of «bird» (nocturnal)
+def:	HQ10:4 p.4
+file:	2001-12-holqed-10-4.txt
+
 tlh:	{lIS}
 pos:	verb
 sv:	«justera»
@@ -7064,12 +7220,59 @@ see:	{DIn}, {qa'rI'}
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
+tlh:	{lol}
+pos:	verb
+sv:	vara i en «position», vara i ett «läge», vara i en «pose», vara i en
+	«ställning», vara i en «hållning»
+en:	be in an «attitude», be in a «stance», be in a «pose»
+def:	HQ11:2 p.8
+file:	2002-06-holqed-11-2.txt
+
+tlh:	{lol}
+pos:	noun
+sv:	en särskild ~Mok'bara~-«position»
+en:	a specific ~Mok'bara~ «position»
+def:	HQ11:2 p.8
+file:	2002-06-holqed-11-2.txt
+
+tlh:	{lolchu'}
+pos:	verb
+sv:	vara i en korrekt «position», vara i ett riktigt «läge»
+en:	be in a correct «attitude»
+def:	HQ11:2 p.8
+data:	derived form
+file:	2002-06-holqed-11-2.txt
+
+tlh:	{lolchu'taH}
+pos:	verb
+sv:	upprätthålla en korrekt «position», bibehålla ett riktigt «läge»
+en:	maintain a correct «attitude»
+def:	HQ11:2 p.8
+data:	derived form
+file:	2002-06-holqed-11-2.txt
+
+tlh:	{lolmoH}
+pos:	verb
+sv:	«manövrera» (en flygmaskin)
+en:	«maneuver» (an aircraft)
+def:	HQ11:2 p.8
+data:	derived form
+file:	2002-06-holqed-11-2.txt
+
 tlh:	{lolSeHcha}
 pos:	noun
 sv:	«positionskontrollraketer», «lägeskontrollraketer», «styrraketer»
 en:	<attitude-control «thrusters»>
 def:	TKD
 file:	1992-01-01-tkd.txt
+
+tlh:	{loltaH}
+pos:	verb
+sv:	upprätthålla en «position», bibehålla ett «läge»
+en:	maintain an «attitude»
+def:	HQ11:2 p.8
+data:	derived form
+file:	2002-06-holqed-11-2.txt
 
 tlh:	{lom}
 pos:	noun
@@ -7213,6 +7416,14 @@ en:	<rebel>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
+tlh:	{lotlhmoq}
+pos:	noun
+sv:	en slags «fågel» (slår ner i vattnet för att fånga mat, men kan inte
+	simma)
+en:	type of «bird» (swoops into the water to catch food, but cannot swim)
+def:	HQ10:4 p.4
+file:	2001-12-holqed-10-4.txt
+
 tlh:	{lotlhwI'}
 pos:	noun
 sv:	«rebell»
@@ -7271,6 +7482,16 @@ sv:	«värde», «användbarhet»
 en:	«value»
 def:	TKDa 4.2.9 (p.176)
 file:	1992-01-01-tkd.txt
+
+tlh:	{lo' law'}
+pos:	noun
+sv:	«»
+en:	«utility» (preceeds noun it modifies)
+def:	BoP
+com:	WARNING - ¿?I'm sceptic. Is this a real word or only some KLI new words
+	list maintainer's wet dream? [KLINW]
+data:	phrase; derived form; mistaken form
+file:	1998-11-01-bop.txt
 
 tlh:	{lu}
 pos:	verb
@@ -7601,14 +7822,6 @@ def:	HQ10:2 p.10
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
-tlh:	{marwI'}
-pos:	noun
-sv:	«stor«tå»», «förstatå»
-en:	«big «toe»», «first toe»
-def:	HQ10:2 p.7
-cat:	body part
-file:	2001-06-holqed-10-2.txt
-
 tlh:	{mara}
 pos:	name
 sv:	«Mara»
@@ -7623,6 +7836,14 @@ sv:	«Martok»
 en:	«Martok»
 def:	KGT p.198
 file:	1997-11-01-kgt.txt
+
+tlh:	{marwI'}
+pos:	noun
+sv:	«stor«tå»», «förstatå»
+en:	«big «toe»», «first toe»
+def:	HQ10:2 p.7
+cat:	body part
+file:	2001-06-holqed-10-2.txt
 
 tlh:	{maS}
 pos:	verb
@@ -9163,6 +9384,13 @@ en:	type of <fruit>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
+tlh:	{neb}
+pos:	noun
+sv:	«näbb»
+en:	«beak», «bill»
+def:	HQ10:4 p.5
+file:	2001-12-holqed-10-4.txt
+
 tlh:	{nech}
 pos:	verb
 sv:	vara «sidoställd», vara placerad åt/vid «sidan», «röra sig» i «sidled»,
@@ -9312,6 +9540,14 @@ en:	«liar»
 def:	TKDa 4.2.6 (p.175)
 data:	derived form
 file:	1992-01-01-tkd.txt
+
+tlh:	{neSlo'}
+pos:	noun
+sv:	«spegel» (mindre)
+en:	«mirror» (smaller)
+def:	HQ10:4 p.5
+com:	smaller than {SIla'}
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{net}
 pos:	pronoun
@@ -9758,6 +9994,15 @@ def:	TKD
 ref:	TKW pp.46, 80, 105, 205
 cat:	time
 file:	1992-01-01-tkd.txt
+
+tlh:	{notqa'}
+pos:	noun
+sv:	en slags «fågel» (stor, svart)
+en:	type of «bird» (large, black)
+def:	HQ10:4 p.4
+com:	nowhere near as large as a qa'rol, which is really big
+pun:	"`Nevermore' quoth the raven." ({notqa'} "never again").
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{notlh}
 pos:	verb
@@ -10556,6 +10801,14 @@ def:	KGT
 cat:	music
 file:	1997-11-01-kgt.txt
 
+tlh:	{ngun}
+pos:	verb
+sv:	«sätta» sig, «slå» sig ner
+en:	«perch»
+def:	HQ10:4 p.5
+com:	If bird lands on land, use {Saq}, on water, use {tlhot}.
+file:	2001-12-holqed-10-4.txt
+
 tlh:	{ngup} (1)
 pos:	noun
 sv:	¿?«cape» (klädesplagg)
@@ -10744,6 +10997,13 @@ en:	<dislike>
 def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+
+tlh:	{parbIng}
+pos:	noun
+sv:	en slags «fågel» (mellanstorlek, med särskilt grälla färger)
+en:	type of «bird» (mid-sized, with particularly garish coloring)
+def:	HQ10:4 p.4
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{parHa'}
 pos:	verb
@@ -11964,6 +12224,13 @@ com:	"The word {qaH} is interesting because it is never heard except in
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
+tlh:	{qaj}
+pos:	verb
+sv:	«glidflyga», «sväva»
+en:	«soar»
+def:	HQ10:4 p.5
+file:	2001-12-holqed-10-4.txt
+
 tlh:	{qajunpaQ}
 pos:	noun
 sv:	«mod», «tapperhet», «djärvhet»
@@ -12033,6 +12300,13 @@ com:	An idiomatic gesture: to point your pinky at someone is to
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
+tlh:	{qanraD}
+pos:	noun
+sv:	en slag «fågel» (berömd för sin sång)
+en:	type of «bird» (noted for its song)
+def:	HQ10:4 p.4
+file:	2001-12-holqed-10-4.txt
+
 tlh:	{qanwI'}
 pos:	noun
 sv:	«lill«finger»»
@@ -12100,6 +12374,25 @@ en:	«Kargan»
 def:	S7
 com:	S7 was reprinted in HQ4:3 p.4
 file:	1995-sbx-s07.txt
+
+tlh:	{qaryoq}
+pos:	noun
+sv:	en slags «fågel» (förmögen att härma språk)
+en:	type of «bird» (capable of mimicking speech)
+def:	HQ10:4 p.5
+com:	Some people pluralize these with {-pu'}, but most use {-mey}.
+pun:	Wordplay on "kareoke". (?)
+file:	2001-12-holqed-10-4.txt
+
+tlh:	{qaryoq'a'}
+pos:	noun
+sv:	en slags «fågel» (stor, förmögen att härma språk)
+en:	type of «bird» (large, capable of mimicking speech)
+def:	HQ10:4 p.5
+com:	Some people pluralize these with {-pu'}, but most use {-mey}.
+pun:	Wordplay on "karaoke". (?)
+data:	derived form
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{qaS}
 pos:	verb
@@ -12235,6 +12528,14 @@ pun:	Okrand confirmed that this is named after Kari, the mother of his twin
 	nieces Megan ({megh'an}) and Erin ({'er'In}). ({qep'a'} 2003)
 see:	{DIn}, {lojmIt}
 file:	2003-06-holqed-12-2.txt
+
+tlh:	{qa'rol}
+pos:	noun
+sv:	en slags «fågel» (verkligt stor, svart)
+en:	type of «bird» (really big, black)
+def:	HQ10:4 p.4
+com:	much larger than a {notqa'}
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{qa'vam}
 pos:	noun
@@ -12855,6 +13156,13 @@ en:	<world>, <realm>
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
+tlh:	{qo'leq}
+pos:	name
+sv:	«Ko'lek»
+en:	«Ko'lek»
+def:	KGT p.41
+file:	1997-11-01-kgt.txt
+
 tlh:	{qo'qaD}
 pos:	noun
 sv:	«slem» (som man hostar upp)
@@ -12863,13 +13171,6 @@ def:	HQ12:4 p.8
 ref:	TDNW
 see:	{tuS}
 file:	2003-12-holqed-12-4.txt
-
-tlh:	{qo'leq}
-pos:	name
-sv:	«Ko'lek»
-en:	«Ko'lek»
-def:	KGT p.41
-file:	1997-11-01-kgt.txt
 
 tlh:	{qub}
 pos:	verb
@@ -14378,6 +14679,13 @@ com:	Article in HQ is called "{matlh juppu' mu'mey}".
 see:	{pa' beb}
 file:	1998-12-07-news.txt; 1999-09-holqed-08-3.txt
 
+tlh:	{raw'}
+pos:	noun
+sv:	en slags «fågel» (vattenlevande, färgrik fjäderdräkt)
+en:	type of «bird» (aquatic, colorful plumage)
+def:	HQ10:4 p.5
+file:	2001-12-holqed-10-4.txt
+
 tlh:	{ray}
 pos:	noun
 sv:	namn på klingonskans «{r}»-ljud
@@ -14780,6 +15088,17 @@ sv:	«romulan»
 en:	<Romulan>
 def:	TKD
 file:	1992-01-01-tkd.txt
+
+tlh:	{ron}
+pos:	verb
+sv:	«banka», «rolla» (om flygmaskin)
+en:	«bank», «roll» (about aircraft)
+def:	HQ11:2 p.9
+com:	"When the plane banks or rolls to one side or the other so that,
+	say, the left wing is pointed somewhat (or even a lot) upwards while
+	the right wing is pointed somewhat (or a lot) downwards, or vice
+	versa [...]" [HQ11:2 p.9]
+file:	2002-06-holqed-11-2.txt
 
 tlh:	{rop}
 pos:	verb
@@ -15387,6 +15706,13 @@ en:	<progress>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
+tlh:	{SermanyuQ}
+pos:	noun
+sv:	«Shermans planet»
+en:	<Sherman's Planet>
+def:	TKD
+file:	1992-01-01-tkd.txt
+
 tlh:	{Serrum}
 pos:	noun
 sv:	«öronvax»
@@ -15399,13 +15725,6 @@ com:	"Ears (at least healthy ones) produce no byproducts other than earwax
 see:	{qogh} "ear (external, cartilaginous flap)" (n); {teS} "ear (internal,
 	organ of hearing)" (n)
 file:	2003-12-holqed-12-4.txt
-
-tlh:	{SermanyuQ}
-pos:	noun
-sv:	«Shermans planet»
-en:	<Sherman's Planet>
-def:	TKD
-file:	1992-01-01-tkd.txt
 
 tlh:	{SeS}
 pos:	noun
@@ -15520,6 +15839,15 @@ sv:	ett slags «kniv» (används vid matberedning)
 en:	type of <knife> (used for food preparation)
 def:	KGT
 file:	1997-11-01-kgt.txt
+
+tlh:	{SIla'}
+pos:	noun
+sv:	«spegel» (större)
+en:	«mirror» (larger)
+def:	HQ10:4 p.5
+com:	larger than {neSlo'}
+pun:	"Alice" backwards.
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{SIm}
 pos:	verb
@@ -16270,6 +16598,14 @@ sv:	ett slags «kniv»
 en:	type of <knife>
 def:	KGT
 file:	1997-11-01-kgt.txt
+
+tlh:	{tajvaj}
+pos:	noun
+sv:	«vinkel»
+en:	«angle»
+def:	HQ11:2 p.9
+see:	{taH}
+file:	2002-06-holqed-11-2.txt
 
 tlh:	{tal}
 pos:	noun
@@ -17067,6 +17403,18 @@ def:	TKD
 ref:	TKW p.95
 file:	1992-01-01-tkd.txt
 
+tlh:	{tor}
+pos:	verb
+sv:	«tippa», «kränga» (om flygmaskin)
+en:	«pitch» (about aircraft)
+def:	HQ11:2 p.9
+com:	"And when the nose of the plane moves up or down, the plane is said
+	to {tor} <pitch>. (the word {tor} also means <kneel>, which Maltz
+	thought was apt, since if a four-legged animal is able to kneel
+	with either its hind legs or its front legs, it is able to pitch or
+	tilt up or down.)" [HQ11:2 p.9]
+file:	2002-06-holqed-11-2.txt
+
 tlh:	{torgh}
 pos:	name
 sv:	«Torg»
@@ -17299,6 +17647,13 @@ cat:	clothing
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
+tlh:	{tuQDoq}
+pos:	noun
+sv:	¿?«tankesikt», «tankesil», «psykisk sond» (klingonsk sinnessond)
+en:	<mind sifter> (Klingon psychic probe)
+def:	TKD
+file:	1992-01-01-tkd.txt
+
 tlh:	{tuQHa'moH}
 pos:	verb
 sv:	«klä av» sig, «ta av» sig (kläder)
@@ -17315,7 +17670,7 @@ file:	1992-01-01-tkd.txt; 1993-12-holqed-02-4.txt
 
 tlh:	{tuQmoH}
 pos:	verb
-sv:	«klä på» sig, «sätta på» sig
+sv:	«klä på» sig, «sätta på» sig (kläder)
 en:	«dress», <put on> (clothes)
 def:	TKD
 ref:	HQ2:4 p.17
@@ -17326,31 +17681,6 @@ com:	In <{HolQeD} 2:4> p. 17 (article named "Okrand's Notes"): "[...] the
 cat:	clothing
 data:	derived form
 file:	1992-01-01-tkd.txt; 1993-12-holqed-02-4.txt
-
-tlh:	{tuQDoq}
-pos:	noun
-sv:	¿?«tankesikt», «tankesil», «psykisk sond» (klingonsk sinnessond)
-en:	<mind sifter> (Klingon psychic probe)
-def:	TKD
-file:	1992-01-01-tkd.txt
-
-tlh:	{tuQHa'moH}
-pos:	verb
-sv:	«klä av» (sig)
-en:	<undress>
-def:	TKD
-cat:	clothing
-data:	derived form
-file:	1992-01-01-tkd.txt
-
-tlh:	{tuQmoH}
-pos:	verb
-sv:	«ta på» (sig) kläder
-en:	<put> on (clothes)
-def:	TKD
-cat:	clothing
-data:	derived form
-file:	1992-01-01-tkd.txt
 
 tlh:	{tuS}
 pos:	verb
@@ -17862,6 +18192,14 @@ def:	KGT
 com:	Incorrectly given as verb in E-K, "not quite", adverb everywhere else.
 file:	1997-11-01-kgt.txt
 
+tlh:	{tlhot}
+pos:	verb
+sv:	«landa» (på vatten)
+en:	«land» (on water, like a bird)
+def:	HQ10:4 p.5
+com:	if bird lands on land, use {Saq}, in a tree, use {ngun}
+file:	2001-12-holqed-10-4.txt
+
 tlh:	{tlhov}
 pos:	verb
 sv:	«väsa», «rossla»
@@ -18314,6 +18652,16 @@ def:	TKD
 data:	derived form
 file:	1992-01-01-tkd.txt
 
+tlh:	{vem'eq}
+pos:	noun
+sv:	en slags «fågel» (livnär sig nästan enbart på den sorts orm-maskar som
+	~gagh~ görs av)
+en:	type of «bird» (feeds almost exclusively on the serpent worm from which
+	~gagh~ is made)
+def:	HQ10:4 p.5
+com:	Klingons are not particularly fond of this bird.
+file:	2001-12-holqed-10-4.txt
+
 tlh:	{veng}
 pos:	noun
 sv:	«stad»
@@ -18468,6 +18816,46 @@ en:	<thruster>
 def:	TKD
 see:	{chuyDaH} is the plural form
 file:	1992-01-01-tkd.txt
+
+tlh:	{vIl}
+pos:	verb
+sv:	vara «fårad»
+en:	be «ridgy»
+def:	HQ13:1 p.10
+ref:	TDNW
+file:	2004-03-holqed-13-1.txt
+
+tlh:	{vIl}
+pos:	noun
+sv:	¿?«fartgupp», «vägbula»
+en:	¿?«speed bump»
+def:	{qep'a'} 2009
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
+com:	"The noun {vIl} is hard to define. Maltz had given a description of
+	something which was immediately recognized as a speed bump by everyone
+	present, but it was apparently intended not as an actual definition but
+	as an example of something which is 'just there'. There is obviously an
+	etymological relationship with and {vIlle'}, which is currently the
+	best clue we have to its true meaning. ['Groupie' and 'entourage' were
+	suggested by those present at the time, but Marc didn't think they
+	fit.]"
+file:	2009-07-27-email.txt
+
+tlh:	{vIlInHoD}
+pos:	noun
+sv:	en slags «fågel» (förmögen att härma språk)
+en:	type of «bird» (capable of mimicking speech)
+def:	HQ10:4 p.5
+com:	Some people pluralize these with {-pu'}, but most use {-mey}.
+file:	2001-12-holqed-10-4.txt
+
+tlh:	{vIlle'}
+pos:	noun
+sv:	«underhuggare», servil «tjänare»
+en:	«minion»
+def:	{qep'a'} 2009
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
+file:	2009-07-27-email.txt
 
 tlh:	{vIn}
 pos:	noun
@@ -18868,6 +19256,13 @@ cat:	clothing
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
+tlh:	{waqboch}
+pos:	noun
+sv:	en slags «fågel» (med en väldigt lång näbb)
+en:	type of «bird» (with a very long beak)
+def:	HQ10:4 p.5
+file:	2001-12-holqed-10-4.txt
+
 tlh:	{waQ}
 pos:	verb
 sv:	«hindra», vara i vägen för
@@ -19055,6 +19450,20 @@ en:	<charming> (used only ironically)
 def:	TKD 5.5 (p.57) et al.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+
+tlh:	{wel}
+pos:	verb
+sv:	stå i «skuld» till
+en:	«owe» (someone)
+def:	{qep'a'} 2011
+ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
+	from qep'a' 18")
+com:	When someone has earned a reward but the prize is not yet available to
+	be given, the person in charge of presenting it can say {qawel} "I owe
+	you." It is probably also appropriate when you have convinced someone
+	to give you some service or product with the understanding that you
+	will pay for it later. /Alan Anderson
+file:	2011-08-22-email.txt
 
 tlh:	{wem}
 pos:	verb
@@ -19283,6 +19692,14 @@ en:	<reactor>
 def:	TKDa
 data:	phrase
 file:	1992-01-01-tkd.txt
+
+tlh:	{wom}
+pos:	verb
+sv:	«picka», «hacka» (på/i) (med näbb)
+en:	«peck»
+def:	HQ10:4 p.5
+com:	used for both eating and attacking by pecking
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{woQ}
 pos:	noun
@@ -19541,6 +19958,15 @@ en:	«first officer» (on a ship)
 def:	KGT p.53
 data:	phrase; derived form
 file:	1997-11-01-kgt.txt
+
+tlh:	{yatqap}
+pos:	noun
+sv:	en slags «fågel» (grå, ibland vit, flyger långa sträckor utan att göra
+	uppehåll)
+en:	type of «bird» (gray, sometimes white, travel long distances without
+	pausing)
+def:	HQ10:4 p.5
+file:	2001-12-holqed-10-4.txt
 
 tlh:	{yatlh}
 pos:	verb
@@ -19974,6 +20400,15 @@ en:	<fleet> (of ships)
 def:	TKD
 file:	1992-01-01-tkd.txt
 
+tlh:	{yo'SeH yaHnIv}
+pos:	noun
+sv:	«»
+en:	«operations command»
+def:	ST5; HQ8:4 p.11
+com:	¿?Is this correctly formed?
+data:	phrase; {yo'SeH} (n); {yaHnIv} (n)
+file:	1999-12-holqed-08-4.txt
+
 tlh:	{yu}
 pos:	noun
 sv:	första (och sista) «tonen» på den nonatoniska skalan
@@ -20278,6 +20713,14 @@ en:	«how many times»?
 def:	News 1999-02-02
 file:	1999-02-02-email.txt
 
+tlh:	{'at}
+pos:	noun
+sv:	namn på klingonskans «{a}»-ljud
+en:	name of Klingon sound «{a}»
+def:	{qep'a'} 2009
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
+file:	2009-07-27-email.txt
+
 tlh:	{'atrom}
 pos:	name
 sv:	«A'trom»
@@ -20525,6 +20968,14 @@ en:	<fore>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
+tlh:	{'et}
+pos:	noun
+sv:	namn på klingonskans «{e}»-ljud
+en:	name of Klingon sound «{e}»
+def:	{qep'a'} 2009
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
+file:	2009-07-27-email.txt
+
 tlh:	{'etlh}
 pos:	noun
 sv:	«svärd», «klinga»
@@ -20741,6 +21192,14 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
+tlh:	{'It}
+pos:	noun
+sv:	namn på klingonskans «{I}»-ljud
+en:	name of Klingon sound «{I}»
+def:	{qep'a'} 2009
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
+file:	2009-07-27-email.txt
+
 tlh:	{'Itlh}
 pos:	verb
 sv:	vara «avancerad», vara högt utvecklad
@@ -20919,6 +21378,13 @@ en:	<root>, <tuber>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
+tlh:	{'or}
+pos:	verb
+sv:	«manövrera», «styra» (en flygmaskin)
+en:	«pilot», «operate» (an aircraft)
+def:	HQ11:2 p.8
+file:	2002-06-holqed-11-2.txt
+
 tlh:	{'orghen}
 pos:	noun
 sv:	«Organia»
@@ -20963,6 +21429,14 @@ en:	«Organian»
 def:	TKD K-E
 file:	1992-01-01-tkd.txt
 
+tlh:	{'orwI'}
+pos:	noun
+sv:	«pilot», någon som «manövrera»r (en flygmaskin)
+en:	«pilot», one who «operates» (an aircraft)
+def:	HQ11:2 p.8
+data:	derived form
+file:	2002-06-holqed-11-2.txt
+
 tlh:	{'oS}
 pos:	verb
 sv:	«representera»
@@ -20978,6 +21452,14 @@ en:	<emissary>
 def:	TKD
 data:	derived form
 file:	1992-01-01-tkd.txt
+
+tlh:	{'ot}
+pos:	noun
+sv:	namn på klingonskans «{o}»-ljud
+en:	name of Klingon sound «{o}»
+def:	{qep'a'} 2009
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
+file:	2009-07-27-email.txt
 
 tlh:	{'otlh}
 pos:	noun
@@ -21220,6 +21702,14 @@ cat:	body part
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
+tlh:	{'uSgheb}
+pos:	noun
+sv:	en slags «fågel» (för oljud i gryningen, vildsintare än en tupp)
+en:	type of «bird» (makes a ruckus at dawn, fiercer than a rooster)
+def:	HQ10:4 p.5
+com:	much fiercer than a rooster
+file:	2001-12-holqed-10-4.txt
+
 tlh:	{'uSu'}
 pos:	noun
 sv:	«sås» till «~gladst~»
@@ -21236,6 +21726,14 @@ ref:	TKW p.45
 com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+
+tlh:	{'ut} (2)
+pos:	noun
+sv:	namn på klingonskans «{u}»-ljud
+en:	name of Klingon sound «{u}»
+def:	{qep'a'} 2009
+ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
+file:	2009-07-27-email.txt
 
 tlh:	{'utlh}
 pos:	noun
@@ -21271,522 +21769,6 @@ sv:	«universum»
 en:	<universe>
 def:	TKD
 file:	1992-01-01-tkd.txt
-
-tlh:	{lo' law'}
-pos:	noun
-sv:	«»
-en:	«utility» (preceeds noun it modifies)
-def:	BoP
-com:	WARNING - ¿?I'm sceptic. Is this a real word or only some KLI new words
-	list maintainer's wet dream? [KLINW]
-data:	phrase; derived form; mistaken form
-file:	1998-11-01-bop.txt
-
-tlh:	{yo'SeH yaHnIv}
-pos:	noun
-sv:	«»
-en:	«operations command»
-def:	ST5; HQ8:4 p.11
-com:	¿?Is this correctly formed?
-data:	phrase; {yo'SeH} (n); {yaHnIv} (n)
-file:	1999-12-holqed-08-4.txt
-
-tlh:	{bo}
-pos:	noun
-sv:	«fjäder» (på fågel)
-en:	«feather»
-def:	HQ10:4 p.5
-ref:	KLINW
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{borghel}
-pos:	noun
-sv:	ett slags «fågel» (väldigt liten, dess ägg anses mycket goda)
-en:	type of «bird» (very small, its eggs are considered quite tasty)
-def:	HQ10:4 p.4
-ref:	KLINW
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{bo'Degh}
-pos:	noun
-sv:	«fågel»
-en:	«bird»
-def:	HQ10:4 p.4
-ref:	KLINW
-com:	general word for bird-like creature
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{cha'bIp}
-pos:	noun
-sv:	en slags «fågel» (berömd för sin snabbhet)
-en:	type of «bird» (noted for its speed)
-def:	HQ10:4 p.4
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{cha'Do'}
-pos:	noun
-sv:	en slags «fågel» (om vilken litet är känt)
-en:	type of «bird» (about which little is known)
-def:	HQ10:4 p.4
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{cha'naS}
-pos:	noun
-sv:	en slags «fågel» (liten, gräver upp småkryp att äta)
-en:	type of «bird» (small, digs up bugs to eat)
-def:	HQ10:4 p.4
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{cha'par}
-pos:	noun
-sv:	en slags «fågel» (berömd för sin sång)
-en:	type of «bird» (noted for its song)
-def:	HQ10:4 p.4
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{cha'qu'}
-pos:	noun
-sv:	en slags «fågel» (med ett högljutt, enformigt skrik)
-en:	type of «bird» (with a noisy, repetitive cry)
-def:	HQ10:4 p.4
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{Da'nal}
-pos:	noun
-sv:	en slags «fågel» (kännetecknad av irrande, oförutsägbart beteende)
-en:	type of «bird» (characterized by erratic, unpredictable behavior)
-def:	HQ10:4 p.4
-com:	similar to {Da'vI'}
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{Da'vI'}
-pos:	noun
-sv:	en slags «fågel» (kännetecknad av irrande, oförutsägbart beteende)
-en:	type of «bird» (characterized by erratic, unpredictable behavior)
-def:	HQ10:4 p.4
-com:	similar to {Da'nal}
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{ghotI'}
-pos:	noun
-sv:	«fisk»
-en:	«fish»
-def:	HQ10:4 p.5
-ref:	TDNW
-pun:	Bernard Shaw's famous spelling of "fish".
-see:	{bIQDep}
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{jajlo' Qa'}
-pos:	noun
-sv:	ett slags «djur» (för oljud i gryningen)
-en:	type of «animal» (makes a ruckus at dawn)
-def:	HQ10:4 p.5
-data:	derived form
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{laq}
-pos:	verb
-sv:	«flaxa», «slå» (om fågelvingar)
-en:	«flap» (bird's wings do this)
-def:	HQ10:4 p.5
-com:	Used about a birds wings. "[...] in flight, a bird's wings {laq}
-	(the bird is said to {laqmoH} its wings)" [HQ10:4 p. 5]
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{lIr}
-pos:	noun
-sv:	en slags «fågel» (nattlevande)
-en:	type of «bird» (nocturnal)
-def:	HQ10:4 p.4
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{lotlhmoq}
-pos:	noun
-sv:	en slags «fågel» (slår ner i vattnet för att fånga mat, men kan inte
-	simma)
-en:	type of «bird» (swoops into the water to catch food, but cannot swim)
-def:	HQ10:4 p.4
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{neb}
-pos:	noun
-sv:	«näbb»
-en:	«beak», «bill»
-def:	HQ10:4 p.5
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{neSlo'}
-pos:	noun
-sv:	«spegel» (mindre)
-en:	«mirror» (smaller)
-def:	HQ10:4 p.5
-com:	smaller than {SIla'}
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{notqa'}
-pos:	noun
-sv:	en slags «fågel» (stor, svart)
-en:	type of «bird» (large, black)
-def:	HQ10:4 p.4
-com:	nowhere near as large as a qa'rol, which is really big
-pun:	"`Nevermore' quoth the raven." ({notqa'} "never again").
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{ngun}
-pos:	verb
-sv:	«sätta» sig, «slå» sig ner
-en:	«perch»
-def:	HQ10:4 p.5
-com:	If bird lands on land, use {Saq}, on water, use {tlhot}.
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{parbIng}
-pos:	noun
-sv:	en slags «fågel» (mellanstorlek, med särskilt grälla färger)
-en:	type of «bird» (mid-sized, with particularly garish coloring)
-def:	HQ10:4 p.4
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{qaj}
-pos:	verb
-sv:	«glidflyga», «sväva»
-en:	«soar»
-def:	HQ10:4 p.5
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{qanraD}
-pos:	noun
-sv:	en slag «fågel» (berömd för sin sång)
-en:	type of «bird» (noted for its song)
-def:	HQ10:4 p.4
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{qaryoq}
-pos:	noun
-sv:	en slags «fågel» (förmögen att härma språk)
-en:	type of «bird» (capable of mimicking speech)
-def:	HQ10:4 p.5
-com:	Some people pluralize these with {-pu'}, but most use {-mey}.
-pun:	Wordplay on "kareoke". (?)
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{qaryoq'a'}
-pos:	noun
-sv:	en slags «fågel» (stor, förmögen att härma språk)
-en:	type of «bird» (large, capable of mimicking speech)
-def:	HQ10:4 p.5
-com:	Some people pluralize these with {-pu'}, but most use {-mey}.
-pun:	Wordplay on "karaoke". (?)
-data:	derived form
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{qa'rol}
-pos:	noun
-sv:	en slags «fågel» (verkligt stor, svart)
-en:	type of «bird» (really big, black)
-def:	HQ10:4 p.4
-com:	much larger than a {notqa'}
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{raw'}
-pos:	noun
-sv:	en slags «fågel» (vattenlevande, färgrik fjäderdräkt)
-en:	type of «bird» (aquatic, colorful plumage)
-def:	HQ10:4 p.5
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{SIla'}
-pos:	noun
-sv:	«spegel» (större)
-en:	«mirror» (larger)
-def:	HQ10:4 p.5
-com:	larger than {neSlo'}
-pun:	"Alice" backwards.
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{tlhot}
-pos:	verb
-sv:	«landa» (på vatten)
-en:	«land» (on water, like a bird)
-def:	HQ10:4 p.5
-com:	if bird lands on land, use {Saq}, in a tree, use {ngun}
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{vem'eq}
-pos:	noun
-sv:	en slags «fågel» (livnär sig nästan enbart på den sorts orm-maskar som
-	~gagh~ görs av)
-en:	type of «bird» (feeds almost exclusively on the serpent worm from which
-	~gagh~ is made)
-def:	HQ10:4 p.5
-com:	Klingons are not particularly fond of this bird.
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{vIl}
-pos:	verb
-sv:	vara «fårad»
-en:	be «ridgy»
-def:	HQ13:1 p.10
-ref:	TDNW
-file:	2004-03-holqed-13-1.txt
-
-tlh:	{vIl}
-pos:	noun
-sv:	¿?«fartgupp», «vägbula»
-en:	¿?«speed bump»
-def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
-com:	"The noun {vIl} is hard to define. Maltz had given a description of
-	something which was immediately recognized as a speed bump by everyone
-	present, but it was apparently intended not as an actual definition but
-	as an example of something which is 'just there'. There is obviously an
-	etymological relationship with and {vIlle'}, which is currently the
-	best clue we have to its true meaning. ['Groupie' and 'entourage' were
-	suggested by those present at the time, but Marc didn't think they
-	fit.]"
-file:	2009-07-27-email.txt
-
-tlh:	{vIlle'}
-pos:	noun
-sv:	«underhuggare», servil «tjänare»
-en:	«minion»
-def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
-file:	2009-07-27-email.txt
-
-tlh:	{vIlInHoD}
-pos:	noun
-sv:	en slags «fågel» (förmögen att härma språk)
-en:	type of «bird» (capable of mimicking speech)
-def:	HQ10:4 p.5
-com:	Some people pluralize these with {-pu'}, but most use {-mey}.
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{waqboch}
-pos:	noun
-sv:	en slags «fågel» (med en väldigt lång näbb)
-en:	type of «bird» (with a very long beak)
-def:	HQ10:4 p.5
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{wel}
-pos:	verb
-sv:	stå i «skuld» till
-en:	«owe» (someone)
-def:	{qep'a'} 2011
-ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
-	from qep'a' 18")
-com:	When someone has earned a reward but the prize is not yet available to
-	be given, the person in charge of presenting it can say {qawel} "I owe
-	you." It is probably also appropriate when you have convinced someone
-	to give you some service or product with the understanding that you
-	will pay for it later. /Alan Anderson
-file:	2011-08-22-email.txt
-
-tlh:	{wom}
-pos:	verb
-sv:	«picka», «hacka» (på/i) (med näbb)
-en:	«peck»
-def:	HQ10:4 p.5
-com:	used for both eating and attacking by pecking
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{yatqap}
-pos:	noun
-sv:	en slags «fågel» (grå, ibland vit, flyger långa sträckor utan att göra
-	uppehåll)
-en:	type of «bird» (gray, sometimes white, travel long distances without
-	pausing)
-def:	HQ10:4 p.5
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{'at}
-pos:	noun
-sv:	namn på klingonskans «{a}»-ljud
-en:	name of Klingon sound «{a}»
-def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
-file:	2009-07-27-email.txt
-
-tlh:	{'et}
-pos:	noun
-sv:	namn på klingonskans «{e}»-ljud
-en:	name of Klingon sound «{e}»
-def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
-file:	2009-07-27-email.txt
-
-tlh:	{'It}
-pos:	noun
-sv:	namn på klingonskans «{I}»-ljud
-en:	name of Klingon sound «{I}»
-def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
-file:	2009-07-27-email.txt
-
-tlh:	{'ot}
-pos:	noun
-sv:	namn på klingonskans «{o}»-ljud
-en:	name of Klingon sound «{o}»
-def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
-file:	2009-07-27-email.txt
-
-tlh:	{'ut} (2)
-pos:	noun
-sv:	namn på klingonskans «{u}»-ljud
-en:	name of Klingon sound «{u}»
-def:	{qep'a'} 2009
-ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
-file:	2009-07-27-email.txt
-
-tlh:	{'uSgheb}
-pos:	noun
-sv:	en slags «fågel» (för oljud i gryningen, vildsintare än en tupp)
-en:	type of «bird» (makes a ruckus at dawn, fiercer than a rooster)
-def:	HQ10:4 p.5
-com:	much fiercer than a rooster
-file:	2001-12-holqed-10-4.txt
-
-tlh:	{'or}
-pos:	verb
-sv:	«manövrera», «styra» (en flygmaskin)
-en:	«pilot», «operate» (an aircraft)
-def:	HQ11:2 p.8
-file:	2002-06-holqed-11-2.txt
-
-tlh:	{'orwI'}
-pos:	noun
-sv:	«pilot», någon som «manövrera»r (en flygmaskin)
-en:	«pilot», one who «operates» (an aircraft)
-def:	HQ11:2 p.8
-data:	derived form
-file:	2002-06-holqed-11-2.txt
-
-tlh:	{ghangwI'}
-pos:	noun
-sv:	«horisont»
-en:	«horizon»
-def:	HQ11:2 p.8
-file:	2002-06-holqed-11-2.txt
-
-tlh:	{lol}
-pos:	verb
-sv:	vara i en «position», vara i ett «läge», vara i en «pose», vara i en
-	«ställning», vara i en «hållning»
-en:	be in an «attitude», be in a «stance», be in a «pose»
-def:	HQ11:2 p.8
-file:	2002-06-holqed-11-2.txt
-
-tlh:	{lol}
-pos:	noun
-sv:	en särskild ~Mok'bara~-«position»
-en:	a specific ~Mok'bara~ «position»
-def:	HQ11:2 p.8
-file:	2002-06-holqed-11-2.txt
-
-tlh:	{lolchu'}
-pos:	verb
-sv:	vara i en korrekt «position», vara i ett riktigt «läge»
-en:	be in a correct «attitude»
-def:	HQ11:2 p.8
-data:	derived form
-file:	2002-06-holqed-11-2.txt
-
-tlh:	{loltaH}
-pos:	verb
-sv:	upprätthålla en «position», bibehålla ett «läge»
-en:	maintain an «attitude»
-def:	HQ11:2 p.8
-data:	derived form
-file:	2002-06-holqed-11-2.txt
-
-tlh:	{lolchu'taH}
-pos:	verb
-sv:	upprätthålla en korrekt «position», bibehålla ett riktigt «läge»
-en:	maintain a correct «attitude»
-def:	HQ11:2 p.8
-data:	derived form
-file:	2002-06-holqed-11-2.txt
-
-tlh:	{lolmoH}
-pos:	verb
-sv:	«manövrera» (en flygmaskin)
-en:	«maneuver» (an aircraft)
-def:	HQ11:2 p.8
-data:	derived form
-file:	2002-06-holqed-11-2.txt
-
-tlh:	{Der}
-pos:	verb
-sv:	«gira» (om flygmaskin)
-en:	«yaw» (about aircraft)
-def:	HQ11:2 p.9
-com:	"When the nose of an airplane or similar craft moves to the left or
-	the right [...]" [HQ11:2 p.9]
-file:	2002-06-holqed-11-2.txt
-
-tlh:	{ron}
-pos:	verb
-sv:	«banka», «rolla» (om flygmaskin)
-en:	«bank», «roll» (about aircraft)
-def:	HQ11:2 p.9
-com:	"When the plane banks or rolls to one side or the other so that,
-	say, the left wing is pointed somewhat (or even a lot) upwards while
-	the right wing is pointed somewhat (or a lot) downwards, or vice
-	versa [...]" [HQ11:2 p.9]
-file:	2002-06-holqed-11-2.txt
-
-tlh:	{tor}
-pos:	verb
-sv:	«tippa», «kränga» (om flygmaskin)
-en:	«pitch» (about aircraft)
-def:	HQ11:2 p.9
-com:	"And when the nose of the plane moves up or down, the plane is said
-	to {tor} <pitch>. (the word {tor} also means <kneel>, which Maltz
-	thought was apt, since if a four-legged animal is able to kneel
-	with either its hind legs or its front legs, it is able to pitch or
-	tilt up or down.)" [HQ11:2 p.9]
-file:	2002-06-holqed-11-2.txt
-
-tlh:	{jIm}
-pos:	verb
-sv:	«höja», «sänka» (om flygmaskin)
-en:	«heave» (about aircraft)
-def:	HQ11:2 p.9
-com:	"When the plane moves up or down (not when the nose points up or
-	down, but when the plane increases or decreases altitude, as if the
-	whole plane is being pushed up or down)" [HQ11:2 p.9]
-pun:	This is whan "Jim" Kirk does to outsmart Khan in the nebula, at the
-	end of "Star Trek II: The Wrath of Khan".
-file:	2002-06-holqed-11-2.txt
-
-tlh:	{Dav}
-pos:	verb
-sv:	«svänga», förflytta sig i sidled (om flygmaskin)
-en:	«sway», move to the side (about aircraft)
-def:	HQ11:2 p.9
-com:	"When it moves to the side (not when the nose points to the left or
-	right, but when the plane slides to the left or right without
-	otherwise changing its orientation)" [HQ11:2 p.9]
-file:	2002-06-holqed-11-2.txt
-
-tlh:	{jer}
-pos:	verb
-sv:	«rycka», plötsligt röra sig framåt eller bakåt (om flygmaskin)
-en:	«surge», suddenly move forward or backward (about aircraft)
-def:	HQ11:2 p.9
-com:	"if it suddenly moves forwards or backwards" [HQ11:2 p.9]
-file:	2002-06-holqed-11-2.txt
-
-tlh:	{tajvaj}
-pos:	noun
-sv:	«vinkel»
-en:	«angle»
-def:	HQ11:2 p.9
-see:	{taH}
-file:	2002-06-holqed-11-2.txt
 
 === end-of-word-list ===
 === start-of-verb-prefix-list ===

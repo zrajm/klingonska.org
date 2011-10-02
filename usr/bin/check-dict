@@ -118,9 +118,59 @@ my %pos_sv = (
 
 my %record = read_dict();
 
-fields_ok(@cfg{qw(field_required field_order field_subs)}, %record) or exit 1;
+fields_ok(@cfg{qw(field_required field_order field_subs)}, %record);
 
+
+# check sort order in dictionary
+# FIXME each section should be tested in its own
+my $last_sortkey = "";
+my $last_word    = "";
+foreach my $line (sort { $a <=> $b } keys %record) {
+    my $_ = $record{$line};
+
+    if (my ($word) = /^tlh:\t\{(.*)\}/m) {
+        my $sortkey = sortkey_tlh($word);
+        my $order = ($last_sortkey cmp $sortkey);
+        if ($order == 1) {
+            warn "wrong sort order: {$last_word} comes before {$word}, in record at line $line\n";
+        }
+        $last_sortkey = $sortkey;
+        $last_word    = $word;
+    }
+}
 exit;
+
+
+sub sortkey_tlh {
+    my ($_) = @_;
+    # %alph{klingon_letter} = sort_key
+    my %alph = (
+        a   => 'a',   b => 'b',   ch => 'c',   D => 'd',   e => 'e',
+        gh  => 'f',   H => 'g',   I  => 'h',   j => 'i',   l => 'j',
+        m   => 'k',   n => 'l',   ng => 'm',   o => 'n',   p => 'o',
+        q   => 'p',   Q => 'q',   r  => 'r',   S => 's',   t => 't',
+        tlh => 'u',   u => 'v',   v  => 'w',   w => 'x',   y => 'y',
+        "'" => 'z',
+    );
+
+    # prefix/suffix?
+    my $pre = "a";
+    $pre = "b" if s/-$//; # prefix (ending with "-")
+    $pre = "c" if s/^-//; # suffix (beginning with "-")
+
+    # strip non-alphabetical chars
+    s/[^a-zA-Z']//g;
+
+    # replace alpha chars with sourt count
+    my $re1 = join("|", sort keys %alph);
+    #print $re1, "\n";
+    s{($re1)(?=($re1)*$)}{ $alph{$1} }eg;
+
+    # insert prefix/suffix/word
+    $_ = $pre . "-" . $_;
+
+    return $_;
+}
 
 
 ###############################################################################
