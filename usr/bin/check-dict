@@ -30,13 +30,14 @@ EOF
 
 my %cfg = (
     canon_path     => "../../canon", # relative to this file's path
-    field_order    => [ qw(tlh pos sv en def ref gram com pun see cat data file) ],
+    field_order    => [ qw(tlh warn pos sv en def ref gram com pun see cat data file) ],
     field_required => [ qw(tlh pos sv en def file) ],
     field_subs     => {
         tlh  => \&check_tlh,
+        warn => \&check_warn,
+        pos  => \&check_pos,
         en   => \&check_en,
         sv   => \&check_sv,
-        pos  => \&check_pos,
         def  => \&check_source,
         ref  => \&check_source,
         file => \&check_file,
@@ -276,14 +277,24 @@ sub check_sv {
 }
 
 sub check_tlh {
-    my ($_, $field) = @_;
+    my ($_, $field, $record) = @_;
     my $re = qr/([bDHjlmnpqQrStvwy']|ch|gh|ng|tlh)[aeIou]([bDHjlmnpqQrStv']|ch|gh|ng|tlh|[wy]'?|rgh)?/;
-    if (not /^\{($re+(\s$re+|\s«($re+|pIqarD)»)*|$re?-|-$re|-oy|qIrq)\} ( \s \([0-9]+\) )? $/x) {
+    if (not /^\*?\{($re+(\s$re+|\s«($re+|pIqarD)»)*|$re?-|-$re|-oy|qIrq)\} ( \s \([0-9]+\) )? $/x) {
         # TKD talks about "uw" -- and some other letter combination? -- being
         # disallowed in Klingon: insert test for that, too, here
         warn "bad syllable structure in '$field' field\n";
         print STDERR "    $field: $_\n";
     }
+
+    if (/^\*/ and not $record =~ /^warn:\t/m) {
+        warn "leading asterisk in '$field' field requires that 'warn' field is present\n";
+    }
+}
+
+sub check_warn {
+    my ($_, $field, $record) = @_;
+    warn "leading asterisk is required in 'tlh' field when '$field' field is present\n"
+        if not $record =~ /^tlh:\t\*/;
 }
 
 # Usage: %RECORD = read_dict();

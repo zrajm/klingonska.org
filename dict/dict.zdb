@@ -30,7 +30,24 @@ SUGGESTED NEW FIELDS
 
 FIELD NAMES USED IN DICTIONARY BELOW
 ------------------------------------
-    tlh:   (required) Klingon word (all Klingon text within {})
+    tlh:   (required) Klingon word
+                      Klingon text is given in {...}.
+
+                      Deprecated words are preceded by asterisk (e.g.
+                      "*{be'nI'nal}"). These words *might* be included in the
+                      Klingon--English side of a dictionary, but it should be
+                      noted that they are considered incorrect. Words that are
+                      deprecated in this way must have a 'warn' field as well,
+                      explaining why.
+
+                      If the word is on of a set of homonyms it shall be
+                      enumerated (e.g. "{boQ} (1)", "{boQ} (2)"...). The
+                      earliest mention in canon gets number 1, second mention 2
+                      etc. If both words are mentioned in the same source, then
+                      they are numbered in order of first occurance.
+    warn:  (optional) Comment for words that are deprecated
+                      Required for words with asterisk in 'tlh' field, may not
+                      occur otherwise.
     pos:   (required) part-of-speech
                       Abbr  Meaning
                       v     verb
@@ -577,13 +594,22 @@ cat:	family
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{be'nI'nal}
+tlh:	*{be'nI'nal}
+warn:	use {loDnI' be'nal} or {be'nI' be'nal} instead
 pos:	noun
 sv:	«svägerska» [exempel på felaktig användning]
 en:	«sister-in-law» [example of incorrect use]
 def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from Maltz")
 ref:	Email 2010-12-22 (by Lieven L. Litaer, to tlhingan-hol, "latlh 'e'nalpu'")
-com:	DON'T USE THIS WORD. Use {loDnI' be'nal} and {be'nI' be'nal} instead.
+com:	"There was another question about whether {loDnI'nal} and {be'nI'nal}
+	could be 'brother-in-law' and 'sister-in-law.' Maltz said he didn't
+	think there were specific words for these concepts. He said to just
+	describe the relationship: {loDnI' loDnal} and {be'nI' loDnal} for
+	'brother-in-law' and {loDnI' be'nal} and {be'nI' be'nal} for
+	'sister-in-law.' He said you could even say things like {be'nal loDnI'
+	be'nal} 'wife's brother's wife.' But he preferred to call all these
+	people {'e'nalpu'} 'people who married into the family.'" /Marc Okrand
+	in email to Lieven L. Litaer (2010-11-15)
 data:	incorrect form; derived form
 file:	2010-12-25-email.txt; 2010-12-22-email.txt
 
@@ -5668,7 +5694,7 @@ com:	This word (meaning "this day") need not be part of the dictionary, it
 	is mostly famous for occuring in the Klingon proverb {Heghlu'meH QaQ
 	jajvam.} "It is a good day to die."
 cat:	time
-data:	derived form; mistaken form
+data:	derived form
 file:	1996-05-01-tkw.txt
 
 tlh:	{jan} (1)
@@ -6117,14 +6143,14 @@ pun:	This is whan "Jim" Kirk does to outsmart Khan in the nebula, at the
 	end of "Star Trek II: The Wrath of Khan".
 file:	2002-06-holqed-11-2.txt
 
-tlh:	{jIn}
+tlh:	*{jIn}
+warn:	hypothetic word later disproven
 pos:	verb
 sv:	«brygga» [hypotetiskt ord som senare visade sig vara felaktigt]
 en:	«brew» [hypothetic word later disproven]
 def:	Email 2004-07-15 (by Steven Boozer, to tlhingan-hol, "Re: Klingon WOTD:
 	pub (v) > jIn")
-com:	DON'T USE THIS WORD.
-	Hmmm, this seems to come from an old entry in my notes:
+com:	Hmmm, this seems to come from an old entry in my notes:
 	> I remember [Okrand] and I actually were discussing *raktajino* while
 	> he was working on the book [KGT], as soon as we both found out that
 	> it was Klingon coffee... He really hated the /-ino/ ending, since it
@@ -6395,21 +6421,26 @@ pos:	noun
 sv:	«stridsspets» (på en torped)
 en:	<warhead> (of a torpedo)
 def:	KGT E-K, p.57
-com:	WARNING - Spellings alternate: {jornub} in KGT K-E, {jorneb} in KGT
-	E-K. Recommended spelling is {jorneb} -- based on the fact than {neb}
-	means "beak" or "bill", while {nub} does not seem to have any
-	particular relevance in the situation.
+com:	This word occurs in KGT where it is spelled {jornub} once, and {jorneb}
+	twice, {jorneb} is therefore assumed to be the correct form by count
+	alone. (Also note that {jorneb} can be thought of as loosely consisting
+	of the components {jor} ~explode~ and {neb} ~beak, bill~, while {nub}
+	~be suspect~, does not fit into the word in the same way.)
 file:	1997-11-01-kgt.txt
 
-tlh:	{jornub}
+tlh:	*{jornub}
+warn:	incorrect form of {jorneb}
 pos:	noun
 sv:	«stridsspets» (på en torped)
 en:	«warhead» (of a torpedo)
 def:	KGT K-E
-com:	WARNING - Spellings alternate: {jornub} in KGT K-E, {jorneb} in KGT
-	E-K. Recommended spelling is {jorneb} -- based on the fact than {neb}
-	means "beak" or "bill", while {nub} does not seem to have any
-	particular relevance in the situation.
+gram:	incorrect form of {jorneb}
+com:	This word occurs in KGT where it is spelled {jornub} once, and {jorneb}
+	twice, {jorneb} is therefore assumed to be the correct form by count
+	alone. (Also note that {jorneb} can be thought of as loosely consisting
+	of the components {jor} ~explode~ and {neb} ~beak, bill~, while {nub}
+	~be suspect~, does not fit into the word in the same way.)
+data:	mistaken form
 file:	1997-11-01-kgt.txt
 
 tlh:	{jorwI'}
@@ -7162,13 +7193,22 @@ cat:	family
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{loDnI'nal}
+tlh:	*{loDnI'nal}
+warn:	use {loDnI' loDnal} or {be'nI' loDnal}
 pos:	noun
 sv:	«svåger» [exempel på felaktig användning]
 en:	«brother-in-law» [example of incorrect use]
 def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from Maltz")
 ref:	Email 2010-12-22 (by Lieven L. Litaer, to tlhingan-hol, "latlh 'e'nalpu'")
-com:	DON'T USE THIS WORD. Use {loDnI' loDnal} or {be'nI' loDnal} instead.
+com:	"There was another question about whether {loDnI'nal} and {be'nI'nal}
+	could be 'brother-in-law' and 'sister-in-law.' Maltz said he didn't
+	think there were specific words for these concepts. He said to just
+	describe the relationship: {loDnI' loDnal} and {be'nI' loDnal} for
+	'brother-in-law' and {loDnI' be'nal} and {be'nI' be'nal} for
+	'sister-in-law.' He said you could even say things like {be'nal loDnI'
+	be'nal} 'wife's brother's wife.' But he preferred to call all these
+	people {'e'nalpu'} 'people who married into the family.'" /Marc Okrand
+	in email to Lieven L. Litaer (2010-11-15)
 data:	incorrect form; derived form
 file:	2010-12-25-email.txt; 2010-12-22-email.txt
 
@@ -7485,12 +7525,15 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{lo' law'}
 pos:	noun
-sv:	«»
+sv:	«nytto», «bruks»
 en:	«utility» (preceeds noun it modifies)
 def:	BoP
-com:	WARNING - ¿?I'm sceptic. Is this a real word or only some KLI new words
-	list maintainer's wet dream? [KLINW]
-data:	phrase; derived form; mistaken form
+com:	Canon use indicates that this simply means "many uses". Used (in canon)
+        in the following sentences (both on BoP): {lo' law' lojmIt} ~utility
+        hatch~ and {cha' choQmey naQ tu'lu' 'ej tep choQ bIngDaq lo' law' bID
+        choQ tu'lu'} ~2 Full Decks and a Half Utility Deck under the Cargo
+        Deck~
+data:	phrase; derived form
 file:	1998-11-01-bop.txt
 
 tlh:	{lu}
@@ -8512,13 +8555,13 @@ def:	TKD K-E
 see:	{mojaQ} (probably incorrect form)
 file:	1992-01-01-tkd.txt
 
-tlh:	{mojaQ}
+tlh:	*{mojaQ}
+warn:	incorrect form of {mojaq}
 pos:	noun
 sv:	«suffix»
 en:	<suffix>
 def:	TKD E-K
 gram:	incorrect form of {mojaq}
-com:	WARNING - DON'T USE THIS WORD.
 see:	{mojaQ} (probably correct form)
 data:	mistaken form
 file:	1992-01-01-tkd.txt
@@ -9428,13 +9471,13 @@ com:	Follows the verb or noun it modifies. When following a noun it means
 	"only, alone".
 file:	1992-01-01-tkd.txt
 
-tlh:	{neHjej}
+tlh:	*{neHjej}
+warn:	incorrect form of {naHjej}
 pos:	noun
 sv:	«tistel»
 en:	<thistle>
 def:	KGT
 gram:	incorrect form of {naHjej}
-com:	WARNING - DON'T USE THIS WORD.
 see:	{naHjej} (probably correct form)
 data:	mistaken form
 file:	1997-11-01-kgt.txt
@@ -9693,18 +9736,29 @@ pos:	noun
 sv:	«disruptorgevär»
 en:	<disruptor rifle>
 def:	KGT
+com:	The word {beH} occurs in several canon sources [TKD, SBX S14, KGT], but
+	the three times it occurs in the main text of KGT (twice on p.56 and
+	once on p.80) it is misspelled {bej}. It is, however, spelled {beH} in
+	the dictionary part of KGT, and all other sources. {bej} is therefore
+	judged a misspelling for {beH} ~rifle~.
 cat:	fighting
 data:	phrase
 file:	1997-11-01-kgt.txt
 
-tlh:	{nISwI' bej}
+tlh:	*{nISwI' bej}
+warn:	incorrect form of {nISwI' beH}
 pos:	noun
 sv:	«disruptorgevär»
 en:	«disruptor rifle»
 def:	KGT p.56
-com:	Probably misspelled {nISwI' beH}.
+gram:	incorrect form of {nISwI' beH}
+com:	The word {beH} occurs in several canon sources [TKD, SBX S14, KGT], but
+	the three times it occurs in the main text of KGT (twice on p.56 and
+	once on p.80) it is misspelled {bej}. It is, however, spelled {beH} in
+	the dictionary part of KGT, and all other sources. {bej} is therefore
+	judged a misspelling for {beH} ~rifle~.
 cat:	fighting
-data:	phrase; {bej} (n)
+data:	phrase; mistaken form
 file:	1997-11-01-kgt.txt
 
 tlh:	{nISwI' DaH}
@@ -12084,16 +12138,28 @@ pos:	noun
 sv:	«phaser-gevär»
 en:	<phaser rifle>
 def:	TKD
+com:	The word {beH} occurs in several canon sources [TKD, SBX S14, KGT], but
+	the three times it occurs in the main text of KGT (twice on p.56 and
+	once on p.80) it is misspelled {bej}. It is, however, spelled {beH} in
+	the dictionary part of KGT, and all other sources. {bej} is therefore
+	judged a misspelling for {beH} ~rifle~.
 cat:	fighting
 file:	1992-01-01-tkd.txt
 
-tlh:	{pu'bej}
+tlh:	*{pu'bej}
+warn:	incorrect form of {pu'beH}
 pos:	noun
 sv:	«phaser-gevär»
 en:	«phaser rifle»
 def:	KGT p.56
-com:	WARNING - Probably {pu'beH} misspelled.
+gram:	incorrect form of {pu'beH}
+com:	The word {beH} occurs in several canon sources [TKD, SBX S14, KGT], but
+	the three times it occurs in the main text of KGT (twice on p.56 and
+	once on p.80) it is misspelled {bej}. It is, however, spelled {beH} in
+	the dictionary part of KGT, and all other sources. {bej} is therefore
+	judged a misspelling for {beH} ~rifle~.
 cat:	fighting
+data:	mistaken form
 file:	1997-11-01-kgt.txt
 
 tlh:	{pu'beq}
@@ -17051,14 +17117,15 @@ en:	<vegetation>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{tIb}
+tlh:	*{tIb}
+warn:	incorrect form of {bIt}
 pos:	verb
 sv:	vara «nervös», vara «rastlös»
 en:	be «nervous», be «uneasy»
 def:	KGT p.132
 gram:	incorrect form of {bIt}
-com:	WARNING - DON'T USE THIS WORD. It is a typo for {bIt} (Zrajm C Akfohg:
-	confirmed as unintentional by MO at {qep'a'} 2000).
+com:	This is a typo for {bIt} (Zrajm C Akfohg: confirmed as unintentional by
+	Marc Okrand at {qep'a'} 2000).
 see:	{jotHa'}; {bIt} (correct form)
 data:	mistaken form
 file:	1997-11-01-kgt.txt
@@ -17808,6 +17875,22 @@ def:	TKD
 ref:	TKW p.79
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+
+tlh:	*{tlhaptIH}
+warn:	incorrect form of {luHwI' tIH}
+pos:	noun
+sv:	«dragstråle» [exempel på felaktig användning]
+en:	«tractor beam» [example of incorrect use]
+def:	{qep'a'} 2010
+ref:	Email 2010-12-13 (by Lieven L. Litaer, to tlhingan-hol, "tractor
+	beam"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter
+	from Maltz")
+com:	"There was a question about whether {tlhaptIH} was a good way to say
+	'tractor beam.' Maltz said he'd never heard that before, but he has
+	heard {luHwI' tIH}." /Marc Okrand in email to Lieven L. Litaer
+	(2010-11-15)
+data:	incorrect form
+file:	2010-12-25-email.txt; 2010-12-22-email.txt
 
 tlh:	{tlhaq}
 pos:	noun
