@@ -772,6 +772,14 @@ Priorities:
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** DOING dict.zdb
+**** TODO "Bad" words should have * before the word in the tlh field
+     I.e. words marked with "DON'T USE THIS WORD" or "WARNING" in the 'com'
+     field. -- These words should be included in the Klingon--English version
+     of the dictionary, but with a leading asterisk, and a warning they're not
+     supposed to be used. Maybe add a 'warn' field, explaining why?
+**** TODO Add 'date' field
+     With date of when word was added to dictionary. This field should be used
+     for sorting of otherwise identical words.
 **** TODO Add irregular plurals in dictionary (already done?)
 **** TODO Field for synonyms?
      E.g. to make words easier to look up. E.g. {'IqnaH} has a 'com' field
@@ -1104,6 +1112,10 @@ Priorities:
       onwards.
 ***** TODO KGT main text words (names etc.)
       e.g. "Kayvak", "digna", "ka'raj", "bregit", "Saurian", "raktaj"
+**** TODO Translate words into Swedish
+***** TODO {yo'SeH yaHnIv}
+**** TODO Check words
+***** TODO {lo' law'}
 **** TODO Re-sort dictionary
 **** TODO Systematic corrections / new markup
 ***** DONE Check/fix field sort order
