@@ -76,9 +76,9 @@ FIELD NAMES USED IN DICTIONARY BELOW
     cat:   (optional) tagging of words by category, useful for noting
 		      prepositional concepts, body parts etc. (categories
 		      separated by semicolon). Right now the following
-		      categories exist: "body part", "clothing", "family",
-		      "fighting", "landscape", "locative", "math", "money",
-		      "music", "time"
+		      categories exist: "architecture", "body part",
+		      "clothing", "family", "fighting", "landscape",
+		      "locative", "math", "money", "music", "time"
     data:  (optional) contains additional data about a word:
 
 		      »KLCP-1« = one of the 500 basic words, required for
@@ -354,6 +354,7 @@ sv:	«tak», yttertak
 en:	«roof»
 def:	News 1998-12-07
 ref:	KLINW
+cat:	architecture
 file:	1998-12-07-news.txt
 
 tlh:	{bech}
@@ -1784,6 +1785,7 @@ pos:	noun
 sv:	territorial«mur» (t.ex. Berlinmuren)
 en:	territorial «wall» (e.g. Berlin Wall)
 def:	News 1998-12-07
+cat:	architecture
 data:	phrase
 file:	1998-12-07-news.txt
 
@@ -1883,6 +1885,7 @@ pos:	noun
 sv:	huvud«korridor»
 en:	main «corridor»
 def:	BoP
+cat:	architecture
 data:	derived form
 file:	1998-11-01-bop.txt
 
@@ -1891,6 +1894,7 @@ pos:	noun
 sv:	«trappuppgång» vid skeppsdörr, «landgång»
 en:	<stairway> leading to door of a ship, «gangplank»
 def:	KGT
+cat:	architecture
 file:	1997-11-01-kgt.txt
 
 tlh:	{choH}
@@ -2845,6 +2849,7 @@ ref:	TDNW
 com:	"If there's a door there, it's referred to by the usual word for door,
 	{lojmIt}." [HQ12:2 p.7]
 see:	{qa'rI'}, {lojmIt}
+cat:	architecture
 file:	2003-06-holqed-12-2.txt
 
 tlh:	{DIng}
@@ -6937,6 +6942,7 @@ pos:	noun
 sv:	«trappa», «trappuppgång»
 en:	<stairs>, «stairway»
 def:	KGT
+cat:	architecture
 file:	1997-11-01-kgt.txt
 
 tlh:	{letlh} (2)
@@ -6944,6 +6950,7 @@ pos:	noun
 sv:	«trappuppgång» vid skeppsdörr [regionalt]
 en:	<stairway> leading to door of a ship [regional]
 def:	KGT
+cat:	architecture
 file:	1997-11-01-kgt.txt
 
 tlh:	{lev}
@@ -7271,6 +7278,7 @@ en:	<door>, <gate>
 def:	TKD
 ref:	TKW p.186; HQ12:2 p.7
 see:	{DIn}, {qa'rI'}
+cat:	architecture
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -10591,6 +10599,7 @@ pos:	noun
 sv:	«trappa», «trappuppgång» (utom vid skeppsdörr) [regionalt]
 en:	<stairs>, «stairway» (except at ship door) [regional]
 def:	KGT
+cat:	architecture
 file:	1997-11-01-kgt.txt
 
 tlh:	{ngeQ}
@@ -11216,6 +11225,7 @@ en:	«ceiling» (of a room on the top story of a structure)
 def:	News 1998-12-07; HQ8:3 p.2
 com:	Article in HQ is called "{matlh juppu' mu'mey}".
 see:	{rav'eq}
+cat:	architecture
 data:	phrase
 file:	1998-12-07-news.txt; 1999-09-holqed-08-3.txt
 
@@ -11224,6 +11234,7 @@ pos:	noun
 sv:	insida av ytter«vägg»
 en:	interior face of exterior «wall»
 def:	News 1998-12-07
+cat:	architecture
 data:	phrase
 file:	1998-12-07-news.txt
 
@@ -11516,6 +11527,7 @@ pos:	noun
 sv:	territorial«mur» (t.ex. Berlinmuren)
 en:	territorial «wall» (e.g. Berlin Wall)
 def:	News 1998-12-07
+cat:	architecture
 data:	phrase
 file:	1998-12-07-news.txt
 
@@ -12607,6 +12619,7 @@ com:	"For the end of a longish enclosed space that one is typically inside
 pun:	Okrand confirmed that this is named after Kari, the mother of his twin
 	nieces Megan ({megh'an}) and Erin ({'er'In}). ({qep'a'} 2003)
 see:	{DIn}, {lojmIt}
+cat:	architecture
 file:	2003-06-holqed-12-2.txt
 
 tlh:	{qa'rol}
@@ -14350,6 +14363,7 @@ pos:	noun
 sv:	«fönster»
 en:	<window>
 def:	KGT
+cat:	architecture
 file:	1997-11-01-kgt.txt
 
 tlh:	{QoS}
@@ -14747,6 +14761,7 @@ pos:	noun
 sv:	«golv»
 en:	<floor>
 def:	TKD
+cat:	architecture
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -14757,6 +14772,7 @@ en:	«ceiling» (of a room that has a room above it)
 def:	News 1998-12-07; HQ8:3 p.2
 com:	Article in HQ is called "{matlh juppu' mu'mey}".
 see:	{pa' beb}
+cat:	architecture
 file:	1998-12-07-news.txt; 1999-09-holqed-08-3.txt
 
 tlh:	{raw'}
@@ -14830,6 +14846,7 @@ pos:	noun
 sv:	ytter«vägg»
 en:	exterior «wall»
 def:	News 1998-12-07
+cat:	architecture
 file:	1998-12-07-news.txt
 
 tlh:	{regh}
@@ -18319,6 +18336,7 @@ pos:	noun
 sv:	«vägg», innervägg, insida av yttervägg, territorial«mur»
 en:	«wall», interior wall, interior face of exterior wall, territorial wall
 def:	News 1998-12-07
+cat:	architecture
 file:	1998-12-07-news.txt
 
 tlh:	{tlhoy' SaS}
@@ -20185,6 +20203,7 @@ pos:	noun
 sv:	«stads«mur»»
 en:	«city «wall»»
 def:	News 1998-12-07
+cat:	architecture
 file:	1998-12-07-news.txt
 
 tlh:	{yev}
@@ -20762,6 +20781,7 @@ pos:	noun
 sv:	«maximum»
 en:	«maximum»
 def:	BoP
+cat:	math
 file:	1998-11-01-bop.txt
 
 tlh:	{'aqtu'}
