@@ -771,7 +771,20 @@ Priorities:
       CLOSED: [2010-08-09 Mon 02:17]
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
-*** DOING dict.zdb
+*** dict.zdb
+**** TODO Check source of words (from a Saarbrücken {qepHom}?)
+     Are they really from {qep'a'} 2010? I would think that they would be from
+     from a Saarbrücken {qepHom}?
+***** TODO {buq}
+***** TODO {luHwI' tIH}
+***** TODO {mIllogh}
+***** TODO {ngogh}
+***** TODO {ngogh tun}
+***** TODO {QongDaq buq}
+***** TODO *{tlhaptIH}
+***** TODO {wep buq}
+***** TODO {yopwaH buq}
+***** TODO {yuch ngogh}
 **** TODO "Bad" words should have * before the word in the tlh field
      I.e. words marked with "DON'T USE THIS WORD" or "WARNING" in the 'com'
      field. -- These words should be included in the Klingon--English version
@@ -1071,10 +1084,10 @@ Priorities:
 
        /Lieven Litaer
        http://www.facebook.com/home.php?sk=group_165201996829401&view=doc&id=182172488465685
-***** TODO Make sure words from NKW and KLI lists are in the dictionary
+***** TODO Make sure words from TDNW and KLINW lists are in the dictionary
       (and tagged in "ref:" field accordingly)
-****** [NKW] http://teresh.tdonnelly.org/klinewest.html
-****** [KLI] http://www.kli.org/tlh/newwords.html
+****** [TDNW] http://teresh.tdonnelly.org/klinewest.html
+****** [KLINW] http://www.kli.org/tlh/newwords.html
 ***** TODO {Qompu'} -- hmm. seems to be a "bad word" (from Terrence's list)
 ***** DONE Add name of Klingon sounds
       These shouldn't be included in the English-Klingon side of the pocket
@@ -1096,7 +1109,8 @@ Priorities:
       qolqoS n. Core of a group, the essential part of something; essence.
       http://mail.google.com/mail/#search/jIn/1217ffac4948e9abw
       [[file://new_sources/1217ffac4948e9ab]]
-***** TODO {pu'jIn} - "map"
+***** DONE {pu'jIn} - "map"
+      CLOSED: [2011-10-03 Mon 04:51]
       http://mail.google.com/mail/?shva=1#search/jin+to%3Atlhingan-hol%40kli.org/125280bf1b4e53a6
 ***** TODO {meyrI'} square [shape] (n.)
       ("More from Maltz," HQ 14.2-3:21 < qep'a' 2005)
@@ -1157,38 +1171,43 @@ Priorities:
       very lengthy description.
 ***** DONE Use English (not Klingon) names in ref/def
       CLOSED: [2011-09-04 Sun 20:27]
-***** Add notes on puns from list
-****** See email: "Reversals for puns" https://mail.google.com/mail/?shva=1#search/reversals+for+puns/dd76f056a011a30
-****** http://www.kli.org/wiki/index.php?Puns%20in%20the%20Vocabulary%20of%20tlhIngan%20Hol
-***** Add "ref: [KLI]" to all words after {chaDvay'} in KLI new word list
-***** Check words ending {-moH}, mark with "data: derived form"
+***** TODO Puns
+****** TODO See emails
+******* "Reversals for puns"
+        https://mail.google.com/mail/?shva=1#search/reversals+for+puns/dd76f056a011a30
+******* http://www.kli.org/wiki/index.php?Puns%20in%20the%20Vocabulary%20of%20tlhIngan%20Hol
+****** TODO Pun for {pe'vIl} apparently is a private reference of MO's -- what?
+****** TODO Pun for {natlIS} "end of list" -- pun?
+****** TODO Pun for {bertlham} -- pun? Shakespeare?
+****** TODO Pun for {bop} pun?
+
+***** TODO Add "ref: [KLINW]" to all words after {chaDvay'} in KLI new word list
+***** TODO Check words ending {-moH}, mark with "data: derived form"
       (unless the word without the {-moH} suffix is not in the dictionary by
       itself)
-***** New value field for the question words, adverbs etc.
-***** KLCP level 1 markup
+***** TODO New value field for the question words, adverbs etc.
+***** TODO KLCP level 1 markup
 ****** Move into "cat:" rather than "data:" field
 ****** Check against KLCP 1 list.
-***** KLCP level 2 markup
-***** Add markup for KLCP level 2
+***** TODO KLCP level 2 markup
 ****** Add "KLCP-2" to all relevant word's "data:" field
-***** Consider new fields?
+***** TODO Consider new fields?
       [[file:NOTE/dict-field-ideas.txt][x]]
-***** Mark lookup words in klingon words with spaces («...»)
+***** TODO Mark lookup words in klingon words with spaces («...»)
 **** TODO Minor/individual corrections
-***** Add notes on puns
-****** {pe'vIl} apparently is a private reference of MO's -- what?
-****** {natlIS} "end of list" -- pun?
-****** {bertlham} -- pun? Shakespeare?
-****** {bop} pun?
-***** Swedish translation of "officer"
+***** TODO Swedish translation of "officer"
       Should be "personal" or "tjänsteman" or somesuch? [2006-08-22]
-***** Spelling of "flatulence"?
-***** {bop} check URL in statement
+***** DONE Spelling of "flatulence"?
+      Spelling was good.
+      CLOSED: [2011-10-03 Mon 04:33]
+***** DONE {bop} check URL in statement
+      CLOSED: [2011-10-03 Mon 04:21]
       "Got this from http://www.livejournal.com/community/klingon/ entry August
       1, 2005 by ubykhlives Example: {HolQeD bopbe' paqvam} = 'This book is not
-      about linguistics.'" [KLI]
-***** Source "KCD Lab" should perhaps be only "KCD"
-***** Math terms
+      about linguistics.'" [KLINW]
+***** DONE Source "KCD Lab" should perhaps be only "KCD"
+      CLOSED: [2011-10-03 Mon 04:21]
+***** TODO Math terms
       From: 2000-09-holqed-09-3.txt: {boq}, {boqHa'}, {boq'egh}, {boqHa''egh},
       {chen} should have translations "plus", "minus", "equals" etc.
 
