@@ -1,10 +1,12 @@
 [[
   [2011-02-07] added document
+  [2011-10-03] Added 1st name "Rohan" of author + "Style:"
+  Style: {}=bold
 
   Type: email
   Date: 5 December 2010
   Title: {latlh mu' chu'}
-  Author: R Fenwick, reposting a facebook post of Lieven L. Litaer (in turn
+  Author: Rohan Fenwick, reposting a facebook post of Lieven L. Litaer (in turn
     reposting an email from Marc Okrand)
   Summary: New word {mIllogh} for "picture".
 ]]
