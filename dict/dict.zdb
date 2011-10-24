@@ -9521,6 +9521,10 @@ pos:	noun
 sv:	«neutral zon»
 en:	<neutral zone>
 def:	TKD
+com:	"Krankor's favorite word (he told me so) is {neHmaH} 'neutral zone'
+        because when separated into two words {neH maH} means 'We want it.' Yes
+        it is cute but Okrand did not intentionally do it." (Chet Braun,
+        {qep'a'} 1997)
 file:	1992-01-01-tkd.txt
 
 tlh:	{nej}
@@ -21383,9 +21387,13 @@ tlh:	{'I'}
 pos:	noun
 sv:	«armhåla»
 en:	<armpit>
-def:	KGT
+def:	{qep'a'} 1996; KGT
+ref:	HQ5:3 p.14
+com:	Confirmed by Okrand at {qep'a'} 1996. (Mark Shoulson) "At {qep'a'
+	wejDIch} [in 1996] we played the hokey pokey with Klingon body part
+	names. Of course, {'I'} was quickly used." (Alan Anderson)
 cat:	body part
-file:	1997-11-01-kgt.txt
+file:	1997-11-01-kgt.txt; 1996-09-holqed-05-3.txt
 
 tlh:	{'o}
 pos:	exclamation
@@ -22794,6 +22802,9 @@ MO attended[1].
 * {mon} "smile" (n) -- Pun. {mon'a'} "Is she smiling?" (source?).
 * {nughI'} "twist knuckle into someone's head" (v) -- New word.
 * {ngech} "woman's cleavage" (n) -- New meaning for word.
+* {'I'} "armpit" (n) -- New word. Confirmed by Okrand at {qep'a'} 1996. (Mark
+  Shoulson) "At {qep'a' wejDIch} [in 1996] we played the hokey pokey with
+  Klingon body part names. Of course, {'I'} was quickly used." (Alan Anderson)
 
 1997 -- {qep'a' loSDIch}
 ------------------------
@@ -22803,6 +22814,10 @@ MO attended -- winner of contest got to request a word[1][4].
 * {nay} "marry (wife does this)" and {Saw} "marry (husband does this)" -- Marc
   Okrand verified that this comes from "nay" (no) and "sure" with a Southern
   drawl. (Chet Braun)
+* {neHmaH} "neutral zone" (n) -- Pun. "Krankor's favorite word (he told me so)
+  is {neHmaH} 'neutral zone' because when separated into two words {neH maH}
+  means 'We want it.' Yes it is cute but Okrand did not intentionally do it."
+  (Chet Braun)
 * {vegh} "go through (an open door, a tunnel, etc.)" (v) -- New word.
 * {'ul} "electricity" (n) -- Pun. Okrand confirmed the suspicion of a list
   member about its origin: electronic goods sold in the United States have a
