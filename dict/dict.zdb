@@ -942,11 +942,14 @@ pos:	verb
 sv:	vara «om» (något), «handla» om (något)
 en:	be «about» (something), be «concerned» with
 def:	{qep'a'} 2005
-ref:	TDNW; KLINW
+ref:	Web 2005-08-01 (by Rohan Fenwick,
+	http://klingon.livejournal.com/26647.html, "Marc Okrand nob: qep'a'
+	mu'mey chu'"); TDNW; KLINW
 com:	{'e' bop} "That's what it's all about." [TDNW]; "Got this from
 	http://www.livejournal.com/community/klingon/ entry August 1, 2005 by
 	ubykhlives Example: {HolQeD bopbe' paqvam} = 'This book is not about
 	linguistics.'" [KLINW]
+file:	2005-08-01-web.txt
 
 tlh:	{boq} (1)
 pos:	noun
@@ -6966,8 +6969,11 @@ pos:	noun
 sv:	«gom»
 en:	«roof» of «mouth», hard «palate»
 def:	{qep'a'} 2005
-ref:	TDNW
+ref:	Web 2005-08-01 (by Rohan Fenwick,
+	http://klingon.livejournal.com/26647.html, "Marc Okrand nob: qep'a'
+	mu'mey chu'"); TDNW
 cat:	body part
+file:	2005-08-01-web.txt
 
 tlh:	{ley'}
 pos:	noun
@@ -8255,7 +8261,10 @@ pos:	noun
 sv:	«fyrkant», «kvadrat»
 en:	«square» (geometrical shape)
 def:	{qep'a'} 2005
-ref:	TDNW
+ref:	Web 2005-08-01 (by Rohan Fenwick,
+	http://klingon.livejournal.com/26647.html, "Marc Okrand nob: qep'a'
+	mu'mey chu'"); TDNW
+file:	2005-08-01-web.txt
 
 tlh:	{me'}
 pos:	noun
