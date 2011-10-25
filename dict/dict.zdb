@@ -12240,7 +12240,7 @@ ref:	Email 2007-08-02 (by Eric Andeen, to tlhingan-hol, "RE: mu' chu'");
 com:	Marc said that {pu'jIn} is a pun/joke, but it was a personal reference
 	(presumably similar to {jIl} or {pe'vIl}), so it wouldn't be something
 	we'd get. (Tad, email to tlhingan-hol 3 August 2007)
-file:	2007-08-02-email.txt; 2007-08-03-email.txt; 2009-11-24-email.txt
+file:	2007-08-02b-email.txt; 2007-08-03-email.txt; 2009-11-24-email.txt
 
 tlh:	{qab}
 pos:	verb
@@ -13148,8 +13148,10 @@ pos:	noun
 sv:	«kärna», «hjärta»
 en:	«core», «heart»
 def:	{qep'a'} 2007
+ref:	Email 2007-08-02 (by Robyn Stewart, to tlhingan-hol, "Re: mu' chu'")
 com:	John Colicos (1928--2000) is the name of the Canadian actor who played
 	"Kor". (Robyn Stewart, email to tlhingan-hol 2 August 2007)
+file:	2007-08-02a-email.txt
 
 tlh:	{qompogh}
 pos:	noun
@@ -21002,16 +21004,18 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{'elI'jaH}
 pos:	noun
-sv:	«oväntad «gäst»»
-en:	«unexpected «visitor»»
+sv:	«oväntad «besökare»», «oinbjuden «gäst»»
+en:	«unexpected «visitor»», «uninvited «guest»»
 def:	{qep'a'} 2006
-ref:	Email 2007-08-11 (by Agnieszka Solska, to tlhingan-hol)
+ref:	Email 2007-08-02 (by Robyn Stewart, to tlhingan-hol, "Re: mu' chu'");
+	Email 2007-08-11 (by Agnieszka Solska, to tlhingan-hol, "Re: mu' chu' -
+	'el'I'jaH (?)")
 com:	Mark Okrand wrote the word in Angieszka Solska's notebook during
 	{qep'a'} 2006, but she expected it to be published {HolQeD}, and did
 	not want to spoil the surprise, therefore the word was not made public
 	until a year later, in a discussion about new words from the next
 	{qep'a'} on the tlhingan-hol mailing list.
-file:	2007-08-11-email.txt
+file:	2007-08-02a-email.txt; 2007-08-11-email.txt
 
 tlh:	{'elpI'}
 pos:	noun
