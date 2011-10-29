@@ -8443,7 +8443,10 @@ pos:	name
 sv:	en känd «skulptör»
 en:	a famous «sculptor»
 def:	KCD
-com:	¿?What's the Paramount Hol name?
+com:	"This is also one of the rare cases where we know the tlhIngan Hol
+	spelling of a Klingon name but not the "Paramount {Hol}" - M'Stak (?)."
+	/Email 2008-01-28 (by Steven Boozer, to tlhingan-hol, "Re: KCD IP set
+	#1")
 file:	1996-04-kcd.txt
 
 tlh:	{mIv} (1)
