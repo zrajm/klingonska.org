@@ -16525,17 +16525,18 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{Suto'vo'qor}
 pos:	noun
-sv:	«Sto-vo-kor»
-en:	«Sto-vo-kor»
+sv:	«Sto-Vo-Kor»
+en:	«Sto-Vo-Kor»
 def:	DI p.248
-ref:	TDNW
-com:	mythological place; similar to Valhalla
-	The spelling {Sutovoqor} occurs in TDNW. This spelling is given in the
-	glossaries to several of Keith R. A. DeCandido's novels, beginning with
-	"Diplomatic Implausability". He writes (in the Acknowledgments of that
-	book): "Helpful people included Dr. Lawrence M. Schoen and his cronies
-	at the Klingon Language Institute and the aforementioned Marc Okrand,
-	who kept my linguistics straight and vetted the glossary[...]"
+ref:	Email 2001-02-17 (by David Yeung, to tlhingan-hol, "Diplomatic
+	Implausibility glossary"); TDNW
+com:	"{Sutovoqor} (n) Stovokor (spelling correction from {S'to...})" (NOTE:
+	Terrence Donnelly's spelling is without source reference and is assumed
+	wrong here.) [TDNW]
+	"The afterlife for the honored dead, where all true warriors go after
+	they die to fight an eternal battle. The closest Klingon equivalent to
+	heaven. [First mentioned by name in 'Rightful Heir' (TNG).]" [DI]
+file:	2001-02-17-email.txt
 
 tlh:	{Sutlh}
 pos:	verb
@@ -23002,7 +23003,12 @@ SOURCES REFERENCES AND ABBREVIATIONS
            time the names of these newsgroups have changed quite a bit.)
     S#     SkyBox trading card number #.
            (S7, S8, S14, S15, S20, S25, S26, S32 and S33 occurs here.)
-    DI     Diplomatic Implausibility, a novel containing some words by MO.
+    DI     [2001-02-01] "Diplomatic Implausibility" A novel by Keith R. A.
+           DeCandido. Acknowledgments include ""Helpful people included Dr.
+           Lawrence M. Schoen and his cronies at the Klingon Language Institute
+           and the aforementioned Marc Okrand, who kept my linguistics straight
+           and vetted the glossary [...]". The Klingon used in this novel is
+           therefore generally assumed to be canon.
     Sarek  A novel by A.C. Crispin, containing some words given by MO.
     BoP    Bird-of-Prey poster, 1998
     STE    Star Trek Encyclopedia (used for some English translations)

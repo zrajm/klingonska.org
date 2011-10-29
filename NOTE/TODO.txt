@@ -295,6 +295,8 @@ Priorities:
 **** DONE include lilypond score (and source)
      CLOSED: [2010-11-18 Thu 09:55]
 ** TODO "Archive of Okrandian Canon"
+*** TODO Add link to YouTube version of Star Trek Klingon
+    http://www.youtube.com/watch?v=hVo2kVVChU0&feature=youtu.be
 *** TODO Script/Apache config
 **** DONE Allow only "authorized" access to TKD/TKW/KGT/CK/PK transcripts
      CLOSED: [2011-04-10 Sun 02:36]
@@ -1126,6 +1128,11 @@ Priorities:
       onwards.
 ***** TODO KGT main text words (names etc.)
       e.g. "Kayvak", "digna", "ka'raj", "bregit", "Saurian", "raktaj"
+**** TODO "Diplomatic Implausibility"
+     canon/2001-02-17-email.txt
+***** Add comments from glossary to the various words
+***** Determine how canon source is
+***** Add missing words to dictionary (if source is judged canon)
 **** TODO Translate words into Swedish
 ***** TODO {yo'SeH yaHnIv}
 **** TODO Check words
