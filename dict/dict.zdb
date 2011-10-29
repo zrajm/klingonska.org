@@ -3496,10 +3496,14 @@ file:	1992-01-01-tkd.txt
 tlh:	{ghaq}
 pos:	verb
 sv:	«bidra»
-en:	<contribute>
+en:	<contribute>, «support» (financially)
 def:	TKD
+ref:	{qep'a'} 2010; Email 2010-07-26 (by Chris Lipscombe, to tlhingan-hol
+	"Re: mu' chu'")
+com:	Second translation, "support (financially)", was given by Marc Okrand
+	at {qep'a'} 2010.
 cat:	money
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 2010-07-26-email.txt
 
 tlh:	{ghar}
 pos:	verb
