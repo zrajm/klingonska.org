@@ -72,6 +72,7 @@ our %postprocess = (
 );
 our %field = (
     tlh  => "Klingon",
+    warn => "Warning",
     pos  => "Part-of-speech",
     sv   => "Swedish",
     en   => "English",
@@ -460,10 +461,10 @@ print html_head() . html_form($query);
                 @content = &{$postprocess{$field}}(@content);
                 next unless @content;
             }
-            push @output, "  <tr>\n";
-            push @output, "    <th>" . (exists($field{$field}) ? $field{$field} : ucfirst($field)) . ":&nbsp;</th>\n";
-            push @output, "    <td>@content</td>\n";
-            push @output, "  </tr>";
+            push @output, "  <tr>\n",
+                "    <th>" . (exists($field{$field}) ? $field{$field} : ucfirst($field)) . ":&nbsp;</th>\n",
+                "    <td>@content</td>\n",
+                "  </tr>";
         }
     }
     # output page
