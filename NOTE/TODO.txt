@@ -10,6 +10,10 @@ Priorities:
 4) WANTED -- could be better, but is okay
 5) MAYBE -- would be nice to have, but needs to be though about
 
+* INBOX
+  These should be inserted in the hierachy below.
+** NWL seems to be establish abbrev for KLI's new word list
+** Email Will Martin about the Praxis recording
 * TODO FIXES
 ** DOING Email
 *** DOING Loopia mail settings
@@ -390,7 +394,68 @@ Priorities:
     to the prettified version (as well as to the original text formatted
     transcript).
 
-*** [56%] Transcripts updating/improvement
+*** [50%] Transcripts updating/improvement
+**** TODO Fix correction comments with "??" in KGT transcript
+**** TODO More canon stuff mentioned here (by Steven Boozer)
+     https://mail.google.com/mail/?shva=1#search/in%3Atlhingan-hol+stconst/1217ffac4948e9ab
+**** TODO What is "STX" ?
+     {tera' poH jaj wa', jar wa', jaj loSDIch, DIS wa'-Hut-Hut-chorgh:
+     HovpoHvetlh latlh nab yIHutlh}
+     <Save this Stardate: Sunday, January 4, 1998.> STX
+
+**** TODO Add "Star Trek: Constellations"
+
+
+     An anthology with Star Trek short stories, at least one of which contains
+     sentences translated by Marc Okrand.
+
+     Abbreviation
+
+     Paperback: 382 pages
+     Publisher: Pocket Books (September 5, 2006)
+     Language: English
+     ISBN-10: 0743492544
+     ISBN-13: 978-0743492546
+
+     {yIntaH qIrq 'e' vIneH.  DaSwIj bIngDaq latlhpu' vItap.}
+     <Kirk I want alive. The rest I will grind beneath my boot.>
+     ("I want that Kirk keeps living. I will mash the others under my boot.")
+     [STConst p.232]
+
+     >> {belHa'moH}  displease, disappoint [STConst]
+
+     {chobelHa'moH, DI'qar.} <You disappoint me, D'Kar.>
+     ("You displease me, D'Kar.) [STConst p.259]
+
+     >> {'aghHa'}  dis-display [STConst]
+
+     {qab yon Da'agh. qablIj yon yI'aghHa' 'aghHa'pa' 'etlhwIj.}
+     <Scrape that smug look from your face before my blade does it for you.>
+     ("You display a satisfied face. Dis-display your satisfied face before my
+     blade dis-displays it.") [STConst p.259]
+
+
+     {SajlIj 'oHbe' quvwIj'e'.}
+     <My honor is not your play-thing.>
+     ("My honor is not your pet.") [STConst p.259]
+
+**** DONE Add "Message to Kronos" video
+     CLOSED: [2011-10-31 Mon 07:52]
+***** DONE Create thumbnail for "Message to Kronos" video
+      CLOSED: [2011-10-31 Mon 07:50]
+      Used following commad:
+      ffmpeg -i 2010-04-29-u-mtk.flv -an -ss '00:00:02' -an -r 1 -vframes 1 -y -f mjpeg 2010-04-29-u-mtk.jpg
+***** DONE Convert "Message to Kronos" FLV -> MP4
+      CLOSED: [2011-10-31 Mon 07:50]
+      Used following commad to replace FLV envelope with MP4 envelope, without
+      remuxing any of the video and sound problem.
+      ffmpeg -vcodec copy -acodec copy -i 2010-04-29-u-mtk.flv 2010-04-29-u-mtk.mp4
+***** DONE Add .html file with inline video for "Message to Kronos"
+      CLOSED: [2011-10-31 Mon 07:49]
+      Page should be called "canon/2010-04-29-u-mtk.html" and show video + transcript.
+***** DONE Add Marc Okrand's "Message to Kronos"
+      CLOSED: [2011-10-30 Sun 18:31]
+      https://mail.google.com/mail/?shva=1#search/in%3Atlhingan-hol/12a1a9f6820b160c
 **** DONE Check spelling of {tonSaw'} in KGT                          :PROOF:
      CLOSED: [2011-09-15 Thu 17:42]
      Has Alan Andersson really missed the final apostrophe in
@@ -787,7 +852,31 @@ Priorities:
 ***** TODO {wep buq}
 ***** TODO {yopwaH buq}
 ***** TODO {yuch ngogh}
-**** TODO "Bad" words should have * before the word in the tlh field
+**** TODO Add 'excl' field for excluding a word from the paper dictionary
+     excl: tlh-, -tlh
+
+     Should have values for excluding a word from the K-E, E-K or both sides.
+
+     {jajvam} tlh- (everything of "mistaken form" and "derived form")
+**** TODO Mark "quantity" words
+     The act as numerals and come before a word (usually). Is {Hoch} a special
+     case, or is {Hoch}'s behaviour extrapolatable to all of them?
+
+     {HochHom}
+
+     X {Hoch} "all of X" [KGT p. 155]
+       {nIn Hoch} "all of the fuel" [KGT p. 155]
+     {Hoch} X(sg) "each X" [HQ 5:2 p.11]
+       {Hoch nuH} "every weapon" [KGT p.108]
+     {Hoch} X(pl) "all the Xs" [HQ 5:2 p.11]
+       {Hoch jaghpu'Daj} "all his enemies" [KGT p.107]
+
+     {'op} X "some Xs" [S7],
+     {latlh} X "(an)other X/Xs" [S31],
+     {bID} X "half an X, a half X" [BOP]
+
+**** DONE "Bad" words should have * before the word in the tlh field
+     CLOSED: [2011-10-30 Sun 18:40]
      I.e. words marked with "DON'T USE THIS WORD" or "WARNING" in the 'com'
      field. -- These words should be included in the Klingon--English version
      of the dictionary, but with a leading asterisk, and a warning they're not
@@ -820,7 +909,8 @@ Priorities:
          en: <section> [TKD]; <part>, <piece>, <component> [KGT]; «chapter»
 
      Where "chapter" would then be a synonym (without support in canon).
-**** TODO Standardize tlhingan-hol mailing refereces
+**** DONE Standardize tlhingan-hol mailing refereces
+     CLOSED: [2011-10-03 Mon 04:20]
      As of now refereces to the tlhingan-hol mailing list vary in form. They
      should always look the same. Model them after the "News" references?
 
@@ -1137,7 +1227,8 @@ Priorities:
 ***** TODO {yo'SeH yaHnIv}
 **** TODO Check words
 ***** TODO {lo' law'}
-**** TODO Re-sort dictionary
+**** DONE Re-sort dictionary
+     CLOSED: [2011-10-02 Sun 18:10]
 **** TODO Systematic corrections / new markup
 ***** DONE Check/fix field sort order
       CLOSED: [2011-09-02 Fri 13:50]
