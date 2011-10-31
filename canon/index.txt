@@ -1401,7 +1401,6 @@ publication, or a description of its contents and/or form).
     <td><font size="4"><i>Message to Kronos</i></font>
       <br /><font size="2">Video, recorded by Marc Okrand, published
         via YouTube</font>
-      
       <br />(<a href="2010-04-29-u-mtk.txt">text</a>)
       (<a href="2010-04-29-u-mtk.html">info</a>) Transcript of YouTube video
       "Message to Kronos". A video recording of Marc Okrand reading an
@@ -1412,7 +1411,6 @@ publication, or a description of its contents and/or form).
       also: <a href="http://www.youtube.com/watch?v=ujliyG96Cf8">Original
       YouTube video</a> and <a href="http://www.u-theopera.org/">web page
       for {'u'} -- The Opera</a>. Abbreviated <i>'u'-MTK</i>.
-
     </td>
   </tr>
 
