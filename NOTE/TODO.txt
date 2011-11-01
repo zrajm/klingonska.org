@@ -299,6 +299,21 @@ Priorities:
 **** DONE include lilypond score (and source)
      CLOSED: [2010-11-18 Thu 09:55]
 ** TODO "Archive of Okrandian Canon"
+*** TODO New header fields for transcripts
+**** TODO Reason for canonicity
+     Should be explaining the source's tie to Marc Okrand. E.g. "Translation by
+     Marc Okrand", "Book's glossary vetted by Marc Okrand", "Written by Marc
+     Okrand" etc.
+**** TODO URL of transcript in question
+     The address of the original page, so that people can find their way back
+     if it circulates.
+**** TODO "Video" -- URL of video on klingonska.org
+     Maybe this should be more general? "Attachment"(?) -- Could then be used
+     to point out HTML, video and all other versions of the document.
+**** TODO A "see also" field
+     URL + description of sources outside of klingonska.org.
+**** TODO A field for abbreviated name of source
+     Examples: TKD, Hallmark, 'u'-MTK, BoP (KBoP), KGT, HQ12:1, etc
 *** TODO Add link to YouTube version of Star Trek Klingon
     http://www.youtube.com/watch?v=hVo2kVVChU0&feature=youtu.be
 *** TODO Script/Apache config

@@ -264,13 +264,15 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1994-11</font></td><td></td>
-    <td><font size="4">Hallmark Klingon commercial</font>
-      <br /><font size="2"><i>TV-commercial starring Robert O'Reilly and Guy Vardaman.</i></font>
+    <td><font size="4">1994-10</font></td><td></td>
+    <td><font size="4">Hallmark TV Commercial for Bird-of-Prey Christmas Ornament</font>
+      <br /><font size="2"><i>Video, TV commercial starring Robert O'Reilly and Guy Vardaman</i></font>
       <br />(<a href="1994-10-hallmark.txt">text</a>)
-      Hallmark Entertainment commercial promoting a Klingon Bird-of-Prey
-      Christmas tree ornament. Done entirely in Klingon, with English subtitles.
-      Klingon translation by Marc Okrand. (Abbreviated <i>HMC.</i>)
+      (<a href="1994-10-hallmark.html">info</a>) Hallmark Entertainment TV
+      commercial for promoting a Klingon Bird-of-Prey Christmas ornament.
+      Dialogue in Klingon, with English subtitles. Klingon translation by Marc
+      Okrand. See also: http://www.youtube.com/watch?v=9eM1OSNGLwI (YouTube
+      video uploaded by garymalone1701). Abbreviated <i>Hallmark</i>.
     </td>
   </tr>
 
