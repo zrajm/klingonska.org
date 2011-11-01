@@ -1,13 +1,12 @@
 [[
-  [2011-10-30] added document
+  [2011-10-30] added document + video
   Style: {}=bold, <>=italics
 
-  Type: email
+  Type: video
   Date: 29 April 2010
   Title: Message to Kronos
   Author: Marc Okrand
-  Video: 2010-04-29-u-mtk.flv
-  
+  Video: http://klingonska.org/canon/2010-04-29-u-mtk.mp4
   Summary: Transcript of YouTube video "Message to Kronos". A video recording
     of Marc Okrand reading an invitation for Klingons to come watch the
     performance of {'u'} -- "The First Authentic Klingon Opera on Earth", first
