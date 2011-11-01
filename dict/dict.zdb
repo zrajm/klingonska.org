@@ -1,5 +1,5 @@
 ----------------------
-[2011-11-01] 2687 Klingon words (not counting affixes & words marked with "*").
+[2011-11-01] 2698 Klingon words (not counting affixes & words marked with "*").
 Sorted in Klingon alphabetical order.
 ----------------------
 
@@ -14318,6 +14318,17 @@ ref:	TKW p.40
 file:	1997-11-01-kgt.txt
 
 tlh:	{QongDaq buq}
+pos:	noun
+sv:	«kudde», «sängpåse»
+en:	«pillow», «bed pouch»
+def:	{qep'a'} 2010
+ref:	Email 2010-12-07 (by Lieven L. Litaer, to tlhingan-hol, "News from
+	Maltz"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol,
+	"Letter from Maltz")
+data:	phrase; derived form
+file:	2010-12-07-email.txt; 2010-12-25-email.txt
+
+tlh:	{QongDaq buqHom}
 pos:	noun
 sv:	«kudde», «sängpåse»
 en:	«pillow», «bed pouch»
