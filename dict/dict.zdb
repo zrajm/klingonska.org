@@ -166,10 +166,10 @@ tlh:	{baH}
 pos:	verb
 sv:	«eld», «avfyra» (torped, raket, missil)
 en:	<fire> (torpedo, rocket, missile)
-def:	TKD
+def:	ST1; TKD
 cat:	fighting
 data:	KLCP-1
-file:	1992-01-01-tkd.txt
+file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
 tlh:	{baHjan}
 pos:	noun
@@ -1251,9 +1251,9 @@ tlh:	{cha}
 pos:	noun
 sv:	«torpeder»
 en:	<torpedoes>
-def:	TKD
+def:	ST1; TKD
 see:	{peng} is the singular form
-file:	1992-01-01-tkd.txt
+file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
 tlh:	{chab} (1)
 pos:	noun
@@ -1493,8 +1493,8 @@ tlh:	{cha'}
 pos:	verb
 sv:	«visa» (en bild), «projicera»
 en:	<show>, <display> (picture), «project»
-def:	TKD 7.1 (p.73) et al.
-file:	1992-01-01-tkd.txt
+def:	ST1; TKD 7.1 (p.73) et al.
+file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
 tlh:	{cha'}
 pos:	numeral
@@ -4345,9 +4345,9 @@ tlh:	{ghuS} (1)
 pos:	verb
 sv:	vara «beredd», vara «redo» (att avfyra)
 en:	be <prepared>, be ready (to launch)
-def:	TKD
+def:	ST1; TKD
 com:	The word "be" was inserted before the adjectival "ready".
-file:	1992-01-01-tkd.txt
+file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
 tlh:	{ghuS} (2)
 pos:	verb
@@ -4544,8 +4544,8 @@ tlh:	{HaSta}
 pos:	noun
 sv:	«bildskärm» (på monitor)
 en:	<visual display> (on monitor)
-def:	TKD 7.1 (p.73) et al.
-file:	1992-01-01-tkd.txt
+def:	ST1; TKD 7.1 (p.73) et al.
+file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
 tlh:	{Hat}
 pos:	verb
@@ -6588,8 +6588,8 @@ tlh:	{jun}
 pos:	verb
 sv:	«undvika», vidta undvikande åtgärder
 en:	<evade>, take evasive action
-def:	TKD
-file:	1992-01-01-tkd.txt
+def:	ST1; TKD
+file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
 tlh:	{jup}
 pos:	noun
@@ -16412,9 +16412,9 @@ tlh:	{SuH}
 pos:	exclamation
 sv:	var «redo»!, jag är «beredd»!
 en:	<ready>!, <standing by>!
-def:	TKD 5.5 (p.57) et al.
+def:	ST1; TKD 5.5 (p.57) et al.
 data:	KLCP-1
-file:	1992-01-01-tkd.txt
+file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
 tlh:	{Suj}
 pos:	verb
@@ -19784,8 +19784,8 @@ tlh:	{wIy}
 pos:	noun
 sv:	«taktisk skärm» (på monitor)
 en:	<tactical display> (on monitor)
-def:	TKD 7.1 (p.72) et al.
-file:	1992-01-01-tkd.txt
+def:	ST1; TKD 7.1 (p.72) et al.
+file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
 tlh:	{wob}
 pos:	verb
@@ -20984,8 +20984,8 @@ tlh:	{'eH}
 pos:	exclamation
 sv:	var «redo»!
 en:	<ready>!
-def:	TKD 5.5 (p.57) et al.
-file:	1992-01-01-tkd.txt
+def:	ST1; TKD 5.5 (p.57) et al.
+file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
 tlh:	{'ej}
 pos:	conjuction
@@ -22156,8 +22156,8 @@ tlh:	{yI-}
 pos:	verb prefix
 sv:	imperativ: du--ingen/honom/henne/det, ni--honom/henne/det
 en:	imperative: you--none/him/her/it, you (plural)--him/her/it
-def:	TKD 4.1.2 (p.34)
-file:	1992-01-01-tkd.txt
+def:	ST1; TKD 4.1.2 (p.34)
+file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
 === end-of-verb-prefix-list ===
 === start-of-verb-suffix-list ===
@@ -22209,9 +22209,9 @@ tlh:	{-choH}
 pos:	verb suffix type 3
 sv:	förändring i tillstånd, förändring i riktning
 en:	change in state, change in direction
-def:	TKD 4.2.3 (p.37)
+def:	ST1; TKD 4.2.3 (p.37)
 data:	KLCP-1
-file:	1992-01-01-tkd.txt
+file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
 tlh:	{-chugh}
 pos:	verb suffix type 9

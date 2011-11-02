@@ -1,0 +1,71 @@
+[[
+  [1998­09­09] Retagged everything with own symbols
+  [2011-11-02] Added header, reformatted, corrected subtitles
+  Style: {}=bold, <>=italics
+
+  Type: movie
+  Date: 6 December 1979
+  Title: <Star Trek: The Motion Picture>
+  Publisher: Paramount Pictures
+  Summary: James Doohan created the Klingon words used in this movie, Marc
+    Okrand later backfitted these into the Klingon language. Klingon is spoken
+    only at the beginning of the movie by a Klingon captain portrayed by Marc
+    Lenard. See also: http://www.youtube.com/watch?v=W9xaO55LipQ Usually
+    abbreviated ST1, though sometimes abbreviated ST:MP.
+
+]]
+
+Star Trek: The Motion Picture
+
+Marc Okrand has always given full credit to James Doohan and Mark Lenard (who
+plays the Klingon captain) for creating the eleven original words that he used
+as the basis for {tlhIngan Hol}. (Not a great deal to base a whole language
+upon really.) This is Okrand's version of the opening scene (done after the
+fact) with the subtitles as they appeared in the movie:
+
+Klingon captain: {wIy cha'}
+"Tactical..."
+
+Klingon captain: {HaSta}
+"Visual..."
+
+Klingon captain: {cha yIghuS}
+"Tactical, stand by on torpedoes."
+
+Klingon captain: {'eH}
+"Ready..."
+
+[Klingon captain raises his hand in preparation for the order to fire.]
+
+Klingon captain: {SSS... baH}
+"Fire!"
+
+Klingon captain: {junchoH}
+"Evasive!"
+
+However, according to an interview with actor Mark Lenard in <{HolQeD} 4:3>:
+"They never had a real meaning, they had various translations of it..." His
+lines were (prounouncing "ch" as in Yiddish/German):
+
+	HUIT TCHA
+	("Did you see what I saw?")
+
+	ECHSS TU
+
+	HUIT TCHA EK'KOOS or HUIT TCHA ECH'CHOOS
+
+	HUISS HA ZOONTAHK
+
+	PSHAAH BISMACHT
+
+	KAIYI KLINGON KUZIMA PSHAAH
+
+	KUZUG OCHS MUJI AZAK
+
+	ICH ACH KOS ZZTUT TUDJIOCHS
+	HARAS MUJIA UDJIK KAMAZAK
+	SPUZ KAZUK GARAND - KAIYI
+	KLINGON KUZIMA AK ZO AK
+
+
+[[eof]]
