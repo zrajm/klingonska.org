@@ -1,5 +1,5 @@
 [[
-  [1998­09­09] Retagged everything with own symbols
+  [1998-09-09] Retagged everything with own symbols
   [2011-11-02] Added header, reformatted, corrected subtitles
   Style: {}=bold, <>=italics
 
@@ -66,6 +66,5 @@ lines were (prounouncing "ch" as in Yiddish/German):
 	HARAS MUJIA UDJIK KAMAZAK
 	SPUZ KAZUK GARAND - KAIYI
 	KLINGON KUZIMA AK ZO AK
-
 
 [[eof]]
