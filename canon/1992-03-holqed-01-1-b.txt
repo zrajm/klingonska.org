@@ -1,5 +1,8 @@
 [[
-  [2011-09-16] transcribed by Zrajm C Akfohg
+  [2011-09-16] Transcribed by Zrajm C Akfohg
+  [2011-11-03] Compared transcript with http://www.kli.org/pdf/Orthography.pdf,
+    changed discrepancies to correspond to printed {HolQeD} issue
+
   Style: {}=bold, <>=italics, ^=superscript, {{}}=float, corrections, paginated
 
   Type: article
@@ -18,17 +21,17 @@ Some Comments on Orthography
 
 Lawrence M. Schoen
 
-Those first three years of <TOS> were rather stingy. While we were allowed
+Those first three years of <TOS> were rather stingy.  While we were allowed
 the occasional inference of Klingon culture, our exposure to Klingon
 language was limited to the rare and frustrating glimpse of signage aboard a
-Bird of Prey. Frustrting because there is something about unfamiliar writing
-system that tantalizes and entices, that beckons to us promising exotica,
-that hits of secrets and understand if only we could read those strange
-glyphs. If only...
+Bird of Prey.  Frustrating because there is something about unfamiliar writing
+systems that tantalizes and entices, that beckons to us promising exotica,
+that hints of secrets and understanding if only we could read those strange
+glyphs.  If only...
 
-     In 1980 the <U.S.S Enterprise Officer's manual> was published. Though now [[U.S.S:=U.S.S.]]
+     In 1980 the <U.S.S Enterprise Officer's Manual> was published.  Though now [[U.S.S:=U.S.S.]]
 out of print, in its time this volume was perceived as a great treasure trove of
-information. Among its inclusions was the following table of characters,
+information.  Among its inclusions was the following table of characters,
 which has since come to be known as the Mandel system:
 
      [[Image: Mandel alphabet
@@ -38,43 +41,43 @@ which has since come to be known as the Mandel system:
      ]]
 
      And so at last, after so many years of wondering, there was a key to the
-Klingon writing system! Except, it wasn't. This incredible alien alphabet
+Klingon writing system!  Except, it wasn't.  This incredible alien alphabet
 was presented to us as little more than another way of encoding English; a
 second--order symbol system in which the letters of the roman alphabet
 could be mapped onto a different collection of symbols, not so different
-from similar systems such as Morse code or semaphor. Admittedly there [[semaphor:=semaphore]]
-were a few differences. A character for a velar nasal stop was included
-("NG"), as well as one for dental fricatives was added ("TH"). Unfortunately [[sic: weird sentence]]
-in the case of the latter, no indication of voicing was provided. And
+from similar systems such as Morse code or semaphor.  Admittedly there [[semaphor:=semaphore]]
+were a few differences.  A character for a velar nasal stop was included
+("NG"), as well as one for dental fricatives was added ("TH").  Unfortunately [[as well as:=and]] [[added:=added as well]]
+in the case of the latter, no indication of voicing was provided.  And
 although the "C" and "Q" characters were left out (though they
 subsequently surfaced in several fan variations of the alphabet), one
 supposes because of redundancy, the "X" character was retained, though
 with no indication of being a voiceless velar fricative (a common
-substitution). There is also the addition of a sixth vowel character. But
-that's all. Nothing alien, nothing particularly exotic. Sure the letters looked
+substitution).  There is also the addition of a sixth vowel character.  But
+that's all.  Nothing alien, nothing particularly exotic. Sure the letters looked [[. Sure:=.  Sure]]
 interesting and may have caused some speculation as to what instrument [[p.19]]
-(stylus? brush?) might have been used to shape them, but that was the extent of it.
-And yet, none of it seemed to matter. It was Klingon, and fans eagerly
-clasped it to their collective breast. No matter that there was nothing to
+(stylus? brush?) might be used to shape them, but that was the extent of it.
+And yet, none of it seemed to matter.  It was Klingon, and fans eagerly
+clasped it to their collective breast.  No matter that there was nothing to
 write in it, it served quite well for English, and that was enough until real
 Klingon came along.
 
      More recently we've been treated to a different alphabet, (often
-incorrectly attributed to Michael Okuda, scenic designer for <TNG>). one
-which corresponds to the phonemes of Klingon ad described by Okrand in
-<TKD>. While the characters themselves are easily identifiable from
+incorrectly attributed to Michael Okuda, scenic designer for <TNG>), one
+which corresponds to the phonemes of Klingon as described by Okrand in
+<TKD>.  While the characters themselves are easily identifiable from
 background displays on <TNG> (assuming one has access to video equipment
 and a reasonably large television screen), there has never been an "official"
-release describing the particular relation ship between individual glyphs and
-specific sounds. As Okuda has indicated (<see the interview elsewhere in this
+release describing the particular relationship between individual glyphs and
+specific sounds.  As Okuda has indicated (<see the interview elsewhere in this
 issue>) all Klingon background displays are composed for appearance, not
-communication. And yet, an unofficial letter to a Klingon fan group from
-an unnamed source at Paramount resulted in the following  alphabet^1^:
+communication.  And yet, an unofficial letter to a Klingon fan group from
+an unnamed source at Paramount resulted in the following alphabet^1^:
 
      [[Image: {pIqaD} alphabet
          a, b, ch, D, e, ng, gh, H, I,
-         j, q ,l, m, n, o, p, Q, r,
-         S, t, u, v, w, tlh, '
+         j, q, l, m, n, o, p, Q, r,
+         S, t, u, v, w, tlh, y, '
      ]]
 
      Unlike its predecessor, these glyphs provide an excellent fit to the
@@ -82,13 +85,13 @@ phonology of Klingon, or more specifically that of tlhIngan Hol.  However,
 other questions still remain.
 
      The keen observer^2^ of <ST6> will note several Klingon glyphs which are not
-included in the alphabet above. While some appear to be simple rotations of
+included in the alphabet above.  While some appear to be simple rotations of
 characters (and one is reminded of Sequoyah's creation of the Cherokee
-syllabary), others appear to be completely novel. That they are not included
+syllabary), others appear to be completely novel.  That they are not included
 in the alphabet need not necessarily be cause for distress, nor tempt us to
-suspect the assignment of sound to sign. Our own writing system is replete
-with logographs, single characters representing whole ideas or words (e.g. !,
-@, #, $, %) clearly a part of the system but not part of the alphabet.
+suspect the assignment of sound to sign.  Our own writing system is replete
+with logographs, single characters representing whole ideas or words (e.g., !,
+@, #, $, %), clearly a part of the system but not a part of the alphabet.
 
 {{
 
@@ -101,17 +104,17 @@ with logographs, single characters representing whole ideas or words (e.g. !,
 
      Then too, it may be helpful to keep in mind Allan Wechsler's remarks
 <(also elsewhere in this issue)> on the sparse distribution of consonants in
-tlhIngan Hol.  While perhaps a bit far fetched, the unexplained characters
+tlhIngan Hol.  While perhaps a bit far fetched, the unexplained characters [[tlhIngan Hol:={tlhIngan Hol}]]
 might be instances of alphabetic characters from an earlier, and
 phonemically larger, form of the language, maintained either for historical
 purposes in affairs of state (I refer here to the trial scene in <ST6>), or more
 simply as decoration.
 
      In any case, there is clearly much much more to be learned about
-Klingon orthography, more tantilizing promises and secrets to discovered. [[tantilizing:=tantalizing]][[discovered:=discover]]
-Of course it's unknown whether any further explanations are apt to be
+Klingon orthography, more tantilizing promises and secrets to discovered. [[tantilizing:=tantalizing]] [[discovered:=discover]]
+Of course it's unknown whether any further explantions are apt to be [[explantions:=explanations]]
 forthcoming, but at least the exotica is there.  Or, to make the case more
-clear by example, what precisely is "the Klingon mummification glyph," and
+clear by example, what precisely is "the Klingon mummification glyph," and [[,":=" mentioned in <ST4>,]]
 what is its role in a larger writing system?
 
 [[eof]]
