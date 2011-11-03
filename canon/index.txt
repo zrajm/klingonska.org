@@ -71,9 +71,11 @@ publication, or a description of its contents and/or form).
     <td><font size="4"><i>Star Trek: The Motion Picture</i></font>
       <br /><font size="2"><i>Motion picture produced by Paramount Pictures</i></font>
       <br />(<a href="1979-12-06-st1.txt">text</a>)
-      Features dialogue written by James Doohan which was later backfitted into
-      Klingon by Marc Okrand. (Usually abbreviated <i>ST1</i>, sometimes
-      abbreviated <i>ST:MP</i>.)
+      James Doohan created the Klingon words used in this movie, Marc Okrand
+      later backfitted these into the Klingon language. Klingon is spoken only
+      at the beginning of the movie by a Klingon captain portrayed by Mark
+      Lenard. See also: http://www.youtube.com/watch?v=W9xaO55LipQ. Usually
+      abbreviated <i>ST1</i>, sometimes abbreviated <i>ST:TMP</i>.
     </td>
   </tr>
 
@@ -351,6 +353,20 @@ publication, or a description of its contents and/or form).
       Various headlines and tidbits for the special Klingon issue of <i>Star
       Trek Communicator</i> (the Star Trek Official Fan Club's magazine) was
       translated by Marc Okrand. (Sometimes abbreviated <i>STC.</i>)
+    </td>
+  </tr>
+
+  <tr valign="top">
+    <td><font size="4">1995-09</font></td><td></td>
+    <td><font size="4">»Interview: Mark Lenard, The First Klingon Speaker«</font>
+      <br /><font size="2"><i>Article by Lawrence Schoen(?), {HolQeD} 4:3 pp.10&ndash;12
+      Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
+      <br />(<a href="1995-09-holqed-04-3.txt">text</a>)
+
+
+      Mark Lenard talks about how it was to record the Klingon scenes of
+      <i>ST1</i>. The lines spoken are listed (with the spelling originally
+      used, i.e. not the transcription that we use nowadays).
     </td>
   </tr>
 
