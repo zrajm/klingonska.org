@@ -10,7 +10,7 @@ Verb Suffixes
 -----------------
 Indicates that the action affects the subject; requires a prefix indicating
 that there is no object. Can be used together with {-moH} to form a command of
-a stative verb, e.g. {yItuj'eghmoH} <Heat yourself!> [KGT 117]
+a stative verb, e.g. {yItuj'eghmoH} <Heat yourself!> [KGT p.117]
 
 {-chuq} <one another, each other>
 ---------------------------------
@@ -22,12 +22,16 @@ Requires a prefix indicating plural subject and no object.
 
 {-nIS} <need>
 -------------
+
 {-qang} <willing>
 -----------------
+
 {-rup} <ready, prepared (referring to beings)>
 ----------------------------------------------
+
 {-beH} <ready, set up (referring to devices)>
 ---------------------------------------------
+
 {-vIp} <afraid>
 ---------------
 It is a cultural taboo to use the suffix {-vIp} with <I> or <we> as subject.
@@ -86,6 +90,7 @@ Indicates that an action is performed absolutely properly. [PK]
 
 {-bej} <certainly, undoubtedly>
 -------------------------------
+
 {-ba'} <obviously> [TKDa]
 -------------------------
 Indicates that the speaker thinks what he/she says should be obvious to the
@@ -140,10 +145,13 @@ command!>
 
 {-DI'} <when, as soon as>
 -------------------------
+
 {-chugh} <if>
 -------------
+
 {-pa'} <before>
 ---------------
+
 {-vIS} <while>
 --------------
 The suffix {-vIS} is always used along with the type 7 suffix {-taH}, e.g.
@@ -153,8 +161,10 @@ The suffix {-vIS} is always used along with the type 7 suffix {-taH}, e.g.
 ----------------------------------
 Note that there is also a noun suffix {-mo'} with the same meaning. [TKD 6.2.2]
 
+
 Relative-Clause Marker
 ----------------------
+
 {-bogh} <which>
 ---------------
 A relative clause takes the place of a noun in a sentence. It has a head noun
@@ -164,8 +174,10 @@ the clause, the head noun is indicated with the suffix {-'e'} <topic,> e.g.
 {loDHom qIpbogh mang'e'} <the soldier who hit the boy.> [TKD 6.2.3; TKW p.142,
 189]
 
+
 Purpose-Clause Marker
 ---------------------
+
 {-meH} <for, for the purpose of, in order to>
 ---------------------------------------------
 The purpose clause always precedes the noun or verb whose purpose it is
@@ -173,8 +185,10 @@ describing, e.g. {ja'chuqmeH rojHom} <a truce in order to confer;> {jagh
 luHoHmeH lunejtaH} <They are searching for the enemy in order to kill him/her.>
 [TKD 6.2.4]
 
+
 Main-Clause Modifiers
 ---------------------
+
 {-'a'} <interrogative>
 ----------------------
 Indicates that a sentence is a yes/no question, e.g. {bIjang'a'} <Will you
@@ -189,10 +203,12 @@ continue to lead the Empire,> if the same thing were to be expressed as a wish
 or aspiration on the speaker's part, and not a toast, it would be said {wo'
 DevtaHjaj ghawran} instead. Note: Klingons seem to be a bit touchy on the
 subject of toasts, and so it is important to use only the handful of accepted
-toasts. [PK; KGT p.25--26]
+toasts. [PK; KGT pp.25--26]
+
 
 Nominalizers (Turns Verb into Noun)
 -----------------------------------
+
 {-wI'} <one who does/is, thing which does/is>
 ---------------------------------------------
 In reference to inanimate objects it means <thing which does/is> or <thing
@@ -272,8 +288,10 @@ in a vowel.
 
 {-pu'} <plural for beings capable of using language>
 ----------------------------------------------------
+
 {-Du'} <plural for body parts>
 ------------------------------
+
 {-mey} <plural, general usage>
 ------------------------------
 The suffix {-mey} carries a notion of "scattered all about" when applied to
@@ -288,8 +306,10 @@ pluralized ({DoSmey} <targets scattered all about> versus {ray'} <targets>).
 
 {-qoq} <so-called>
 ------------------
+
 {-Hey} <apparent>
 -----------------
+
 {-na'} <definite>
 -----------------
 
@@ -298,12 +318,16 @@ pluralized ({DoSmey} <targets scattered all about> versus {ray'} <targets>).
 
 Possessives for Beings Capable of Using Language
 ------------------------------------------------
+
 {-wI'} <my>
 -----------
+
 {-ma'} <our>
 ------------
+
 {-lI'} <your>
 -------------
+
 {-ra'} <your (plural)>
 ----------------------
 These suffixes are used to indicate possessives when referring to beings
@@ -313,24 +337,32 @@ considered derogatory; {juHwIj} for <my lord> borders on the taboo.
 
 Possessives, General Usage
 --------------------------
+
 {-wIj} <my>
 -----------
+
 {-maj} <our>
 ------------
+
 {-lIj} <your>
 -------------
+
 {-raj} <your (plural)>
 ----------------------
+
 {-Daj} <his, her, its>
 ----------------------
+
 {-chaj} <their>
 ---------------
 Though it is grammatically correct, it is considered derogatory to use these
 general possessive suffixes when referring to first or second persons that are
 capable of language (i.e. <I, we, you> or <you [plural]>).
 
+
 Specification
 -------------
+
 {-vam} <this>
 -------------
 Indicates that the noun refers to an object which is nearby or which is the
