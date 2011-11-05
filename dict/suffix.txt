@@ -10,7 +10,7 @@ Verb Suffixes
 -----------------
 Indicates that the action affects the subject; requires a prefix indicating
 that there is no object. Can be used together with {-moH} to form a command of
-a stative verb, e.g. {yItuj'eghmoH} <Heat yourself!> [KGT p.117]
+a stative verb, e.g. {yItuj'eghmoH} <Heat yourself!> [KGT p. 117]
 
 {-chuq} <one another, each other>
 ---------------------------------
@@ -171,8 +171,8 @@ A relative clause takes the place of a noun in a sentence. It has a head noun
 to which its verb refers, e.g. {qIpbogh yaS} <the officer who hit him/her> or
 {yaS qIpbogh} <the officer whom he/she hit.> If there is more than one noun in
 the clause, the head noun is indicated with the suffix {-'e'} <topic,> e.g.
-{loDHom qIpbogh mang'e'} <the soldier who hit the boy.> [TKD 6.2.3; TKW p.142,
-189]
+{loDHom qIpbogh mang'e'} <the soldier who hit the boy.> [TKD 6.2.3; TKW pp.
+142, 189]
 
 
 Purpose-Clause Marker
@@ -203,7 +203,7 @@ continue to lead the Empire,> if the same thing were to be expressed as a wish
 or aspiration on the speaker's part, and not a toast, it would be said {wo'
 DevtaHjaj ghawran} instead. Note: Klingons seem to be a bit touchy on the
 subject of toasts, and so it is important to use only the handful of accepted
-toasts. [PK; KGT pp.25--26]
+toasts. [PK; KGT pp. 25--26]
 
 
 Nominalizers (Turns Verb into Noun)
@@ -312,6 +312,7 @@ pluralized ({DoSmey} <targets scattered all about> versus {ray'} <targets>).
 
 {-na'} <definite>
 -----------------
+
 
 4. Possession/Specification [TKD 3.3.4]
 =======================================
