@@ -1,5 +1,5 @@
 ----------------------
-[2011-11-01] 2698 Klingon words (not counting affixes & words marked with "*").
+[2011-11-01] 2698 Klingon words (not counting affixes & words marked with '*').
 Sorted in Klingon alphabetical order.
 ----------------------
 
@@ -9,24 +9,6 @@ KLINGON IDEALS OF BEHAVIOR
     straightforwardness  {yI'utchu'!} -- Be essential!
     aggressiveness       {yIvaQchu'!} -- Be aggressive!
     strength             {yIHoSchu'!} -- Be strong!
-
-SUGGESTED NEW FIELDS
---------------------
-    use:        slang|regional|bad
-
-                "bad" denotes a non-canon word, occuring in a canon source (or
-                semi-canon, such as {HolQeD}), in a complete wordlist this word
-                should appear in the Klingon-English side, but FOR REFERENCE
-                ONLY, with a note stating that is sometimes occuring, but
-                incorrect, a reference to the correct word should also be
-                included.
-
-                When a dictionary scaled down (e.g. the KA {paqHom}) a "bad"
-                word may be excluded entirely.
-
-                Examples: {tIb}, {woj} (for "sterilize") and that word used
-                instead of {lo'} in one of the SkyBox transcript in
-                HolQeD---whichever it was.
 
 FIELD NAMES USED IN DICTIONARY BELOW
 ------------------------------------
@@ -49,21 +31,23 @@ FIELD NAMES USED IN DICTIONARY BELOW
                       field, may not occur otherwise. These words must also be
                       labeled 'non-canon' or 'deprecated' in their 'data'
                       field.
-    pos:   (required) part-of-speech
-                      Abbr  Meaning
-                      v     verb
-                      n     noun
-                      name  name
-                      adv   adverb(ial)
-                      conj  conjuction
-                      excl  exclamation
-                      num   number/number-forming element
-                      pro   pronoun
-                      ques  question word
-                      vp    verb prefix
-                      vsr   verb suffix rover
-                      vs#   verb suffix type # (# is 1--9)
-                      ns#   noun suffix type # (# is 1--5)
+    pos:   (required) Part-of-speech
+                      Identifies the (non-abbreviated) part-of-speech for a
+                      word. Value is a full description rather than an
+                      abbreviation. Allowed values are:
+                          * adverbial
+                          * conjuction
+                          * exclamation
+                          * name
+                          * noun
+                          * noun suffix type #
+                          * numeral
+                          * pronoun
+                          * question word
+                          * verb
+                          * verb prefix
+                          * verb suffix rover
+                          * verb suffix type #
     sv:    (required) Swedish translation and part-of-speech
                       missing translation marked with «»
     en:    (required) English definition (from canon sources) and
