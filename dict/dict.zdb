@@ -31,23 +31,24 @@ SUGGESTED NEW FIELDS
 FIELD NAMES USED IN DICTIONARY BELOW
 ------------------------------------
     tlh:   (required) Klingon word
-                      Klingon text is given in {...}.
+                      Klingon text is given in curly brackets (e.g. {jotHa'}).
 
-                      Deprecated words are preceded by asterisk (e.g.
-                      "*{be'nI'nal}"). These words *might* be included in the
-                      Klingon--English side of a dictionary, but it should be
-                      noted that they are considered incorrect. Words that are
-                      deprecated in this way must have a 'warn' field as well,
-                      explaining why.
+                      A leading asterisk is used for deprecated and non-canon
+                      words (e.g. *{jIn}). If this is the case, then that word
+                      must also (1) have a 'warn' field and (2) carry the label
+                      'non-canon' or 'deprecated' in the 'data' field. (See
+                      descriptions of those fields below.)
 
                       If the word is on of a set of homonyms it shall be
-                      enumerated (e.g. "{boQ} (1)", "{boQ} (2)"...). The
+                      enumerated (e.g. '{boQ} (1)', '{boQ} (2)'...). The
                       earliest mention in canon gets number 1, second mention 2
                       etc. If both words are mentioned in the same source, then
                       they are numbered in order of first occurance.
-    warn:  (optional) Comment for words that are deprecated
-                      Required for words with asterisk in 'tlh' field, may not
-                      occur otherwise.
+    warn:  (optional) Comment for words that are deprecated or non-canon
+                      NOTE: Required for words with leading asterisk in 'tlh'
+                      field, may not occur otherwise. These words must also be
+                      labeled 'non-canon' or 'deprecated' in their 'data'
+                      field.
     pos:   (required) part-of-speech
                       Abbr  Meaning
                       v     verb
@@ -97,16 +98,22 @@ FIELD NAMES USED IN DICTIONARY BELOW
                       »phrase« = lookup entry is more than one word (i.e. the
                       Klingon definiton contains at least one space).
 
-                      »mistaken form« = A word that should not occur on the
-                      English--Klingon side of the dictionary (and contain a
-                      warning in the Klingon--English?)
+                      »deprecated« = NOTE: Requires 'warn' field + leading
+                      asterisk in 'tlh' field. -- Used for words occur
+                      misspelled in canon that one should nevertheless be able
+                      to find in the Klingon--English side of the pocket
+                      dictionary. Examples: *{tIb}, *{pu'bej} etc. These words
+                      should not occur in the English--Klingon side of the
+                      pocket dictionary. A warning should be shown whenever
+                      they're displayed.
 
-                      »incorrect form« = A word that is given as an example of
-                      something that *does not* exist in the language.
-                      Sometimes non-existant words are discussed, or there is a
-                      hypothesis of a word which is later disproven, if/when a
-                      word is discussed in this fashion it gets the "incorrect
-                      form" status so as to not confuse it with an actual word.
+                      »non-canon« = NOTE: Requires 'warn' field + leading
+                      asterisk in 'tlh' field. -- Used for words that needs to
+                      be especially pointed out not to be canon Klingon. It
+                      might a word that is not canon, but that occurs in a
+                      canon source, or a word that has previously been thought
+                      to be canon, but later proven non-canon. Non-canon words
+                      should not be included in the pocket dictionary.
     file:  (optional) contains file name(s) of the source transcript in
                       "Archive of Okrandian Canon". Multiple filenames are
                       separated with ";" (semicolon + whitespace [= space or
@@ -611,7 +618,7 @@ com:	"There was another question about whether {loDnI'nal} and {be'nI'nal}
 	be'nal} 'wife's brother's wife.' But he preferred to call all these
 	people {'e'nalpu'} 'people who married into the family.'" /Marc Okrand
 	in email to Lieven L. Litaer (2010-11-15)
-data:	incorrect form; derived form
+data:	non-canon; derived form
 file:	2010-12-25-email.txt; 2010-12-22-email.txt
 
 tlh:	{bID}
@@ -6216,7 +6223,7 @@ com:	Hmmm, this seems to come from an old entry in my notes:
 	So, I will make the correction to my notes and mark *{jIn} as
 	speculation. Thanks for catching this. /Steven Boozer on tlhingan-hol,
 	15 July 2004
-data:	incorrect form
+data:	non-canon
 file:	2004-07-15-email.txt
 
 tlh:	{jInaq}
@@ -6466,7 +6473,7 @@ com:	This word occurs in KGT where it is spelled {jornub} once, and {jorneb}
 	alone. (Also note that {jorneb} can be thought of as loosely consisting
 	of the components {jor} ~explode~ and {neb} ~beak, bill~, while {nub}
 	~be suspect~, does not fit into the word in the same way.)
-data:	mistaken form
+data:	deprecated
 file:	1997-11-01-kgt.txt
 
 tlh:	{jorwI'}
@@ -7240,7 +7247,7 @@ com:	"There was another question about whether {loDnI'nal} and {be'nI'nal}
 	be'nal} 'wife's brother's wife.' But he preferred to call all these
 	people {'e'nalpu'} 'people who married into the family.'" /Marc Okrand
 	in email to Lieven L. Litaer (2010-11-15)
-data:	incorrect form; derived form
+data:	non-canon; derived form
 file:	2010-12-25-email.txt; 2010-12-22-email.txt
 
 tlh:	{logh}
@@ -8604,7 +8611,7 @@ en:	<suffix>
 def:	TKD E-K
 gram:	incorrect form of {mojaq}
 see:	{mojaQ} (probably correct form)
-data:	mistaken form
+data:	deprecated
 file:	1992-01-01-tkd.txt
 
 tlh:	{mol}
@@ -9520,7 +9527,7 @@ en:	<thistle>
 def:	KGT
 gram:	incorrect form of {naHjej}
 see:	{naHjej} (probably correct form)
-data:	mistaken form
+data:	deprecated
 file:	1997-11-01-kgt.txt
 
 tlh:	{neHmaH}
@@ -9803,7 +9810,7 @@ com:	The word {beH} occurs in several canon sources [TKD, SBX S14, KGT], but
 	the dictionary part of KGT, and all other sources. {bej} is therefore
 	judged a misspelling for {beH} ~rifle~.
 cat:	fighting
-data:	phrase; mistaken form
+data:	phrase; deprecated
 file:	1997-11-01-kgt.txt
 
 tlh:	{nISwI' DaH}
@@ -12208,7 +12215,7 @@ com:	The word {beH} occurs in several canon sources [TKD, SBX S14, KGT], but
 	the dictionary part of KGT, and all other sources. {bej} is therefore
 	judged a misspelling for {beH} ~rifle~.
 cat:	fighting
-data:	mistaken form
+data:	deprecated
 file:	1997-11-01-kgt.txt
 
 tlh:	{pu'beq}
@@ -17197,7 +17204,7 @@ gram:	incorrect form of {bIt}
 com:	This is a typo for {bIt} (Zrajm C Akfohg: confirmed as unintentional by
 	Marc Okrand at {qep'a'} 2000).
 see:	{jotHa'}; {bIt} (correct form)
-data:	mistaken form
+data:	deprecated
 file:	1997-11-01-kgt.txt
 
 tlh:	{tIch}
@@ -17959,7 +17966,7 @@ com:	"There was a question about whether {tlhaptIH} was a good way to say
 	'tractor beam.' Maltz said he'd never heard that before, but he has
 	heard {luHwI' tIH}." /Marc Okrand in email to Lieven L. Litaer
 	(2010-11-15)
-data:	incorrect form
+data:	non-canon
 file:	2010-12-25-email.txt; 2010-12-22-email.txt
 
 tlh:	{tlhaq}

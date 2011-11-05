@@ -40,6 +40,8 @@ my %cfg = (
         sv   => \&check_sv,
         def  => \&check_source,
         ref  => \&check_source,
+        see  => \&check_see,
+        data => \&check_data,
         file => \&check_file,
     },
 );
@@ -226,6 +228,24 @@ sub check_en {
     }
 }
 
+sub check_see {
+    my ($_, $field, $record) = @_;
+    if (my ($tlh) = $record =~ /^tlh:\t.*(\{.*})/) {
+        warn "Reference '$_' points to itself '$field' field\n"
+            if /$tlh/;
+    } else {
+        warn "Counldn't find a (Klingon) word within curly brackets in field 'tlh'\n";
+    }
+}
+
+sub check_data {
+    my ($_, $field, $record) = @_;
+    if (/^data:\t.*\b(deprecated|non-canon)\b/) {
+        warn "when 'data' field contains 'deprecated' or 'non-canon', 'tlh' must have leading asterisk\n"
+            if not $record =~ /^\*/m
+    }
+}
+
 sub check_file {
     my ($_, $field, $record) = @_;
     foreach (split("; ", $_)) {
@@ -297,8 +317,13 @@ sub check_tlh {
         print STDERR "    $field: $_\n";
     }
 
-    if (/^\*/ and not $record =~ /^warn:\t/m) {
-        warn "leading asterisk in '$field' field requires that 'warn' field is present\n";
+    if (/^\*/) {
+        warn "with leading asterisk in 'tlh' field 'warn' field must be present\n"
+            if not $record =~ /^warn:\t/m;
+        warn "with leading asterisk in 'tlh' field 'see' field must be present\n"
+            if not $record =~ /^see:\t/m;
+        warn "with leading asterisk in 'tlh' field 'data' field must contain 'deprecated' or 'non-canon'\n"
+            if not $record =~ /^data:\t.*\b(deprecated|non-canon)\b/m;
     }
 }
 
