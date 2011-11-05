@@ -12,21 +12,21 @@ KLINGON IDEALS OF BEHAVIOR
 
 SUGGESTED NEW FIELDS
 --------------------
-    use:	slang|regional|bad
+    use:        slang|regional|bad
 
-		"bad" denotes a non-canon word, occuring in a canon source (or
-		semi-canon, such as {HolQeD}), in a complete wordlist this word
-		should appear in the Klingon-English side, but FOR REFERENCE
-		ONLY, with a note stating that is sometimes occuring, but
-		incorrect, a reference to the correct word should also be
-		included.
+                "bad" denotes a non-canon word, occuring in a canon source (or
+                semi-canon, such as {HolQeD}), in a complete wordlist this word
+                should appear in the Klingon-English side, but FOR REFERENCE
+                ONLY, with a note stating that is sometimes occuring, but
+                incorrect, a reference to the correct word should also be
+                included.
 
-		When a dictionary scaled down (e.g. the KA {paqHom}) a "bad"
-		word may be excluded entirely.
+                When a dictionary scaled down (e.g. the KA {paqHom}) a "bad"
+                word may be excluded entirely.
 
-		Examples: {tIb}, {woj} (for "sterilize") and that word used
-		instead of {lo'} in one of the SkyBox transcript in
-		HolQeD---whichever it was.
+                Examples: {tIb}, {woj} (for "sterilize") and that word used
+                instead of {lo'} in one of the SkyBox transcript in
+                HolQeD---whichever it was.
 
 FIELD NAMES USED IN DICTIONARY BELOW
 ------------------------------------
@@ -74,39 +74,39 @@ FIELD NAMES USED IN DICTIONARY BELOW
     pun:   (optional) comments about puns and/or word play
     see:   (optional) pointer to related word(s) (separated by semicolon)
     cat:   (optional) tagging of words by category, useful for noting
-		      prepositional concepts, body parts etc. (categories
-		      separated by semicolon). Right now the following
-		      categories exist: "architecture", "body part",
-		      "clothing", "family", "fighting", "landscape",
-		      "locative", "math", "money", "music", "time"
+                      prepositional concepts, body parts etc. (categories
+                      separated by semicolon). Right now the following
+                      categories exist: "architecture", "body part",
+                      "clothing", "family", "fighting", "landscape",
+                      "locative", "math", "money", "music", "time"
     data:  (optional) contains additional data about a word:
 
-		      »KLCP-1« = one of the 500 basic words, required for
-		      passing the Klingon Language Certification Program, first
-		      level
+                      »KLCP-1« = one of the 500 basic words, required for
+                      passing the Klingon Language Certification Program, first
+                      level
 
-		      »derived form« = a word built from other Klingon
-		      morphemes (these words are included in the dictionary to
-		      provide a non-obvious lookup entry in the
-		      English--Klingon side of a dictionary; such a "derived
-		      form" may thus be excluded from the Klingon--English side
-		      when generating a dictionary); e.g. {chenmoHwI'}
-		      constructed from {chen} "take form" + {-moH} "cause" +
-		      {-wI'} "one who does".
+                      »derived form« = a word built from other Klingon
+                      morphemes (these words are included in the dictionary to
+                      provide a non-obvious lookup entry in the
+                      English--Klingon side of a dictionary; such a "derived
+                      form" may thus be excluded from the Klingon--English side
+                      when generating a dictionary); e.g. {chenmoHwI'}
+                      constructed from {chen} "take form" + {-moH} "cause" +
+                      {-wI'} "one who does".
 
-		      »phrase« = lookup entry is more than one word (i.e. the
-		      Klingon definiton contains at least one space).
+                      »phrase« = lookup entry is more than one word (i.e. the
+                      Klingon definiton contains at least one space).
 
-		      »mistaken form« = A word that should not occur on the
-		      English--Klingon side of the dictionary (and contain a
-		      warning in the Klingon--English?)
+                      »mistaken form« = A word that should not occur on the
+                      English--Klingon side of the dictionary (and contain a
+                      warning in the Klingon--English?)
 
-		      »incorrect form« = A word that is given as an example of
-		      something that *does not* exist in the language.
-		      Sometimes non-existant words are discussed, or there is a
-		      hypothesis of a word which is later disproven, if/when a
-		      word is discussed in this fashion it gets the "incorrect
-		      form" status so as to not confuse it with an actual word.
+                      »incorrect form« = A word that is given as an example of
+                      something that *does not* exist in the language.
+                      Sometimes non-existant words are discussed, or there is a
+                      hypothesis of a word which is later disproven, if/when a
+                      word is discussed in this fashion it gets the "incorrect
+                      form" status so as to not confuse it with an actual word.
     file:  (optional) contains file name(s) of the source transcript in
                       "Archive of Okrandian Canon". Multiple filenames are
                       separated with ";" (semicolon + whitespace [= space or
@@ -7561,10 +7561,10 @@ sv:	«nytto», «bruks»
 en:	«utility» (preceeds noun it modifies)
 def:	BoP
 com:	Canon use indicates that this simply means "many uses". Used (in canon)
-        in the following sentences (both on BoP): {lo' law' lojmIt} ~utility
-        hatch~ and {cha' choQmey naQ tu'lu' 'ej tep choQ bIngDaq lo' law' bID
-        choQ tu'lu'} ~2 Full Decks and a Half Utility Deck under the Cargo
-        Deck~
+	in the following sentences (both on BoP): {lo' law' lojmIt} ~utility
+	hatch~ and {cha' choQmey naQ tu'lu' 'ej tep choQ bIngDaq lo' law' bID
+	choQ tu'lu'} ~2 Full Decks and a Half Utility Deck under the Cargo
+	Deck~
 data:	phrase; derived form
 file:	1998-11-01-bop.txt
 
@@ -9529,9 +9529,9 @@ sv:	«neutral zon»
 en:	<neutral zone>
 def:	TKD
 com:	"Krankor's favorite word (he told me so) is {neHmaH} 'neutral zone'
-        because when separated into two words {neH maH} means 'We want it.' Yes
-        it is cute but Okrand did not intentionally do it." (Chet Braun,
-        {qep'a'} 1997)
+	because when separated into two words {neH maH} means 'We want it.' Yes
+	it is cute but Okrand did not intentionally do it." (Chet Braun,
+	{qep'a'} 1997)
 file:	1992-01-01-tkd.txt
 
 tlh:	{nej}
@@ -10067,8 +10067,7 @@ def:	KGT
 com:	Sarek (p.218): "A shark is an Earth animal, a huge fish...
 	you know, fish?" He racked his brain for the Klingon word.
 	"An animal that swims in the sea, a dangerous predator, you
-	know?"
-	  "Oh!" she cried. "you mean ~norgh?~"
+	know?" "Oh!" she cried. "you mean ~norgh?~"
 file:	1997-11-01-kgt.txt
 
 tlh:	{noS}
