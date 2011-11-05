@@ -54,18 +54,17 @@ FIELD NAMES USED IN DICTIONARY BELOW
                       part-of-speech
     def:   (required) source where definition can be found (within [])
     ref:   (optional) canon sources where it also occurs
-    gram:  (optional) very short grammatical notes (for inclusion in paqHom)
+    gram:  (optional) very short grammatical notes (for pocket dictionary)
     com:   (optional) special comment concerning the entry
     pun:   (optional) comments about puns and/or word play
     see:   (optional) pointer to related word(s) (separated by semicolon)
     cat:   (optional) tagging of words by category, useful for noting
                       prepositional concepts, body parts etc. (categories
                       separated by semicolon). Right now the following
-                      categories exist: "architecture", "body part",
-                      "clothing", "family", "fighting", "landscape",
-                      "locative", "math", "money", "music", "time"
+                      categories exist: 'architecture', 'body part',
+                      'clothing', 'family', 'fighting', 'landscape',
+                      'locative', 'math', 'money', 'music', 'time'.
     data:  (optional) contains additional data about a word:
-
                       »KLCP-1« = one of the 500 basic words, required for
                       passing the Klingon Language Certification Program, first
                       level
@@ -73,11 +72,11 @@ FIELD NAMES USED IN DICTIONARY BELOW
                       »derived form« = a word built from other Klingon
                       morphemes (these words are included in the dictionary to
                       provide a non-obvious lookup entry in the
-                      English--Klingon side of a dictionary; such a "derived
-                      form" may thus be excluded from the Klingon--English side
+                      English--Klingon side of a dictionary; such a 'derived
+                      form' may thus be excluded from the Klingon--English side
                       when generating a dictionary); e.g. {chenmoHwI'}
-                      constructed from {chen} "take form" + {-moH} "cause" +
-                      {-wI'} "one who does".
+                      constructed from {chen} 'take form' + {-moH} 'cause' +
+                      {-wI'} 'one who does'.
 
                       »phrase« = lookup entry is more than one word (i.e. the
                       Klingon definiton contains at least one space).
@@ -98,10 +97,11 @@ FIELD NAMES USED IN DICTIONARY BELOW
                       canon source, or a word that has previously been thought
                       to be canon, but later proven non-canon. Non-canon words
                       should not be included in the pocket dictionary.
-    file:  (optional) contains file name(s) of the source transcript in
-                      "Archive of Okrandian Canon". Multiple filenames are
-                      separated with ";" (semicolon + whitespace [= space or
-                      linebreak])
+
+    file:  (required) contains file name(s) of the source transcript in
+                      'Archive of Okrandian Canon'. Multiple filenames are
+                      separated with semicolon + whitespace (i.e. space or
+                      linebreak)
 
 === start-of-word-list ===
 
@@ -150,7 +150,7 @@ sv:	«sked»
 en:	«spoon»
 def:	News 1998-05-05
 ref:	KLINW
-pun:	Spoonerism on {nagh beQ} "flat stone".
+pun:	Spoonerism on {nagh beQ} ~flat stone~.
 file:	1998-05-05a-news.txt
 
 tlh:	{baH}
@@ -215,7 +215,7 @@ file:	1997-11-01-kgt.txt
 tlh:	{bang «pong»}
 pos:	noun
 sv:	«smeknamn», «ömhetsbetygelse»
-en:	pet name, <endearment>
+en:	«pet name», <endearment>
 def:	KGT
 data:	phrase; derived form
 file:	1997-11-01-kgt.txt
@@ -602,6 +602,7 @@ com:	"There was another question about whether {loDnI'nal} and {be'nI'nal}
 	be'nal} 'wife's brother's wife.' But he preferred to call all these
 	people {'e'nalpu'} 'people who married into the family.'" /Marc Okrand
 	in email to Lieven L. Litaer (2010-11-15)
+see:	{loDnI' be'nal}; {be'nI' be'nal}
 data:	non-canon; derived form
 file:	2010-12-25-email.txt; 2010-12-22-email.txt
 
@@ -776,7 +777,7 @@ pos:	verb
 sv:	vara «nervös», vara «rastlös»
 en:	be <nervous>, be <uneasy>
 def:	TKD
-see:	{jotHa'}; {tIb}
+see:	{jotHa'}; *{tIb}
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -6207,6 +6208,7 @@ com:	Hmmm, this seems to come from an old entry in my notes:
 	So, I will make the correction to my notes and mark *{jIn} as
 	speculation. Thanks for catching this. /Steven Boozer on tlhingan-hol,
 	15 July 2004
+see:	{ra'taj}
 data:	non-canon
 file:	2004-07-15-email.txt
 
@@ -6438,11 +6440,7 @@ pos:	noun
 sv:	«stridsspets» (på en torped)
 en:	<warhead> (of a torpedo)
 def:	KGT E-K, p.57
-com:	This word occurs in KGT where it is spelled {jornub} once, and {jorneb}
-	twice, {jorneb} is therefore assumed to be the correct form by count
-	alone. (Also note that {jorneb} can be thought of as loosely consisting
-	of the components {jor} ~explode~ and {neb} ~beak, bill~, while {nub}
-	~be suspect~, does not fit into the word in the same way.)
+see:	*{jornub}
 file:	1997-11-01-kgt.txt
 
 tlh:	*{jornub}
@@ -6452,11 +6450,13 @@ sv:	«stridsspets» (på en torped)
 en:	«warhead» (of a torpedo)
 def:	KGT K-E
 gram:	incorrect form of {jorneb}
-com:	This word occurs in KGT where it is spelled {jornub} once, and {jorneb}
-	twice, {jorneb} is therefore assumed to be the correct form by count
-	alone. (Also note that {jorneb} can be thought of as loosely consisting
-	of the components {jor} ~explode~ and {neb} ~beak, bill~, while {nub}
-	~be suspect~, does not fit into the word in the same way.)
+com:	*{jornub} is here assumed to be a misspelling of {jorneb}. The word
+	occurs in KGT, twice spelled {jorneb} (on page 57 and in the
+	English--Klingon dictionary part). The fact that {jorneb} can be
+	thought of as loosely consisting of the components {jor} ~explode~ and
+	{neb} ~beak, bill~, while {nub} ~be suspect~, does not fit into the
+	word also supports this conclusion.
+see:	{jorneb}
 data:	deprecated
 file:	1997-11-01-kgt.txt
 
@@ -7231,6 +7231,7 @@ com:	"There was another question about whether {loDnI'nal} and {be'nI'nal}
 	be'nal} 'wife's brother's wife.' But he preferred to call all these
 	people {'e'nalpu'} 'people who married into the family.'" /Marc Okrand
 	in email to Lieven L. Litaer (2010-11-15)
+see:	{loDnI' loDnal}; {be'nI' loDnal}
 data:	non-canon; derived form
 file:	2010-12-25-email.txt; 2010-12-22-email.txt
 
@@ -8584,7 +8585,7 @@ pos:	noun
 sv:	«suffix»
 en:	«suffix»
 def:	TKD K-E
-see:	{mojaQ} (probably incorrect form)
+see:	*{mojaQ}
 file:	1992-01-01-tkd.txt
 
 tlh:	*{mojaQ}
@@ -8594,7 +8595,12 @@ sv:	«suffix»
 en:	<suffix>
 def:	TKD E-K
 gram:	incorrect form of {mojaq}
-see:	{mojaQ} (probably correct form)
+com:	*{mojaQ} is here assumed to be a misspelling of {mojaq}. The word only
+	occurs in TKD, the two spellings occur once each (in each side of the
+	dictionary part), however the word {moHaq} ~prefix~ is consistently
+	spelled with a lower case {q}. The case isn't strong, but it does lean
+	towards *{mojaQ} being a misspelling.
+see:	{mojaq}
 data:	deprecated
 file:	1992-01-01-tkd.txt
 
@@ -9173,7 +9179,7 @@ pos:	noun
 sv:	«tistel»
 en:	«thistle»
 def:	KGT p.88
-see:	{neHjej} (probably incorrect form)
+see:	*{neHjej}
 file:	1997-11-01-kgt.txt
 
 tlh:	{naHlet}
@@ -9510,7 +9516,11 @@ sv:	«tistel»
 en:	<thistle>
 def:	KGT
 gram:	incorrect form of {naHjej}
-see:	{naHjej} (probably correct form)
+com:	*{neHjej} is here assumed to be a misspelling of {naHjej}, since the
+	main text of KGT clearly states that it literally means "sharp fruit"
+	(p.88), even though it is spelled *{neHjej} all (two) times it occurs in
+	the dictionary part of KGT.
+see:	{naHjej}
 data:	deprecated
 file:	1997-11-01-kgt.txt
 
@@ -9772,11 +9782,7 @@ pos:	noun
 sv:	«disruptorgevär»
 en:	<disruptor rifle>
 def:	KGT
-com:	The word {beH} occurs in several canon sources [TKD, SBX S14, KGT], but
-	the three times it occurs in the main text of KGT (twice on p.56 and
-	once on p.80) it is misspelled {bej}. It is, however, spelled {beH} in
-	the dictionary part of KGT, and all other sources. {bej} is therefore
-	judged a misspelling for {beH} ~rifle~.
+see:	*{nISwI' bej}
 cat:	fighting
 data:	phrase
 file:	1997-11-01-kgt.txt
@@ -9788,11 +9794,11 @@ sv:	«disruptorgevär»
 en:	«disruptor rifle»
 def:	KGT p.56
 gram:	incorrect form of {nISwI' beH}
-com:	The word {beH} occurs in several canon sources [TKD, SBX S14, KGT], but
-	the three times it occurs in the main text of KGT (twice on p.56 and
-	once on p.80) it is misspelled {bej}. It is, however, spelled {beH} in
-	the dictionary part of KGT, and all other sources. {bej} is therefore
-	judged a misspelling for {beH} ~rifle~.
+com:	*{bej} is here assumed to be a misspelling of {beH}, since it is
+	spelled {beH} in a majority of sources: TKD, S14, and dictionary part
+	of KGT, and it is spelled *{bej} only the three times it occurs in the
+	main text of KGT (twice on page 56, and once on page 80).
+see:	{nISwI' beH}
 cat:	fighting
 data:	phrase; deprecated
 file:	1997-11-01-kgt.txt
@@ -10058,7 +10064,8 @@ def:	KGT
 com:	Sarek (p.218): "A shark is an Earth animal, a huge fish...
 	you know, fish?" He racked his brain for the Klingon word.
 	"An animal that swims in the sea, a dangerous predator, you
-	know?" "Oh!" she cried. "you mean ~norgh?~"
+	know?"
+	"Oh!" she cried. "you mean ~norgh?~"
 file:	1997-11-01-kgt.txt
 
 tlh:	{noS}
@@ -12178,11 +12185,7 @@ pos:	noun
 sv:	«phaser-gevär»
 en:	<phaser rifle>
 def:	TKD
-com:	The word {beH} occurs in several canon sources [TKD, SBX S14, KGT], but
-	the three times it occurs in the main text of KGT (twice on p.56 and
-	once on p.80) it is misspelled {bej}. It is, however, spelled {beH} in
-	the dictionary part of KGT, and all other sources. {bej} is therefore
-	judged a misspelling for {beH} ~rifle~.
+see:	*{pu'bej}
 cat:	fighting
 file:	1992-01-01-tkd.txt
 
@@ -12193,11 +12196,11 @@ sv:	«phaser-gevär»
 en:	«phaser rifle»
 def:	KGT p.56
 gram:	incorrect form of {pu'beH}
-com:	The word {beH} occurs in several canon sources [TKD, SBX S14, KGT], but
-	the three times it occurs in the main text of KGT (twice on p.56 and
-	once on p.80) it is misspelled {bej}. It is, however, spelled {beH} in
-	the dictionary part of KGT, and all other sources. {bej} is therefore
-	judged a misspelling for {beH} ~rifle~.
+com:	*{bej} is here assumed to be a misspelling of {beH}, since it is
+	spelled {beH} in a majority of sources: TKD, S14, and dictionary part
+	of KGT, and it is spelled *{bej} only the three times it occurs in the
+	main text of KGT (twice on page 56, and once on page 80).
+see:	{pu'beH}
 cat:	fighting
 data:	deprecated
 file:	1997-11-01-kgt.txt
@@ -15677,7 +15680,7 @@ en:	«sterilize»
 def:	HQ1:3 p.9
 com:	Article in HQ is called "Additional Vocabulary" and contains the {veS
 	QonoS} list of words.
-see:	{woj} (probably incorrect form)
+see:	{woj}
 data:	derived form
 file:	1992-09-holqed-01-3.txt
 
@@ -17185,9 +17188,12 @@ sv:	vara «nervös», vara «rastlös»
 en:	be «nervous», be «uneasy»
 def:	KGT p.132
 gram:	incorrect form of {bIt}
-com:	This is a typo for {bIt} (Zrajm C Akfohg: confirmed as unintentional by
-	Marc Okrand at {qep'a'} 2000).
-see:	{jotHa'}; {bIt} (correct form)
+com:	*{tIb} is here assumed to be a misspelling of {bIt}, since it is
+	spelled {bIt} in a majority of sources: TKD (three occurances in the
+	dictionary part), and it is spelled *{tIb} only once [KGT p.132].
+	*{tIb} was confirmed as unintentional by Marc Okrand when asked by
+	zrajm at {qep'a'} 2000).
+see:	{bIt}; {jotHa'}
 data:	deprecated
 file:	1997-11-01-kgt.txt
 
@@ -17950,6 +17956,7 @@ com:	"There was a question about whether {tlhaptIH} was a good way to say
 	'tractor beam.' Maltz said he'd never heard that before, but he has
 	heard {luHwI' tIH}." /Marc Okrand in email to Lieven L. Litaer
 	(2010-11-15)
+see:	{luHwI' tIH}
 data:	non-canon
 file:	2010-12-25-email.txt; 2010-12-22-email.txt
 
@@ -23045,7 +23052,7 @@ SOURCES REFERENCES AND ABBREVIATIONS
 HISTORY (LAST CHANGES FIRST)
 ============================
 
-    [2011-09-15] Added spelling recommendation for {jorneb} / {jornub};
+    [2011-09-15] Added spelling recommendation for {jorneb} / *{jornub};
     corrected sources for {pu'jIn} and {'elI'jaH} (discovered that the latter
     originated, not from {qep'a'} 2007, but *2006*); added Swedish translation
     "vara kvar" for {ratlh}; fixed broken «...» brackets in Swedish
