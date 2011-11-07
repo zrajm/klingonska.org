@@ -7263,7 +7263,7 @@ KLINGON--FEDERATION STANDARD
                          orientation (v)
   {ley'}              nose (n) (regional)
   {le'be'}            be unexceptional, be nonspecific (v)
-  {lIch}              pour (into/onto anything) (v)
+  {lIch}              pour (into/onto anything) (v) [[anything:=something]]
   {lIghon}            Ligon (n)
   {lIghon DuQwI'}     glavin, Ligonian spike glove (n)
     {pogh}
@@ -8339,7 +8339,7 @@ FEDERATION STANDARD--KLINGON
   pot: flat-bottomed pot for food preparation (n)       {vutmeH 'un,}
       (regional)                                           {vut'un}
   pot: metal flat-bottomed pot (n) (regional)           {mIv, mIv bargh}
-  pour (into/onto anything) (v)                         {lIch}
+  pour (into/onto anything) (v)                         {lIch} [[anything:=something]]
   pour (from one container into another) (v)            {qang}
   power, authority, one in authority (n) (slang)        {ngup}
   [be] pregnant (v)                                     {yatlh}

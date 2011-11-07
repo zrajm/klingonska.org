@@ -7021,8 +7021,10 @@ file:	2011-08-22-email.txt
 tlh:	{lIch}
 pos:	verb
 sv:	«hälla» (i/på något)
-en:	<pour> (into/onto anything)
+en:	<pour> (into/onto something)
 def:	KGT
+com:	Source [KGT] uses the word "anything", rather than "something" in the
+	translation.
 file:	1997-11-01-kgt.txt
 
 tlh:	{lIgh}
