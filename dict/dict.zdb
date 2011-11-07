@@ -63,7 +63,7 @@ FIELD NAMES USED IN DICTIONARY BELOW
                       separated by semicolon). Right now the following
                       categories exist: 'architecture', 'body part',
                       'clothing', 'family', 'fighting', 'landscape',
-                      'locative', 'math', 'money', 'music', 'time'.
+                      'locative', 'math', 'money', 'music', 'time', 'unit'.
     data:  (optional) contains additional data about a word:
                       "KLCP-1" = one of the 500 basic words, required for
                       passing the Klingon Language Certification Program, first
@@ -1604,21 +1604,23 @@ file:	2001-12-holqed-10-4.txt
 
 tlh:	{cheb}
 pos:	noun
-sv:	«vikt«enhet»», «~cheb~» (cirka 2,25 «kilogram»)
-en:	«unit» of «weight», «~cheb~» (about 5 «pound»s or 2.25 «kilogram»s)
+sv:	«vikt«enhet»», «~cheb~» (cirka 2,25 kilogram)
+en:	«unit» of «weight», «~cheb~» (about 5 pounds or 2.25 kilograms)
 def:	News 1997-10-22
+cat:	unit
 file:	1997-10-22-news.txt
 
 tlh:	{cheb'a'}
 pos:	noun
-sv:	«vikt«enhet»», 9 «~cheb~» (cirka 20,25 «kilogram»)
-en:	«unit» of «weight», 9 «~cheb~» (about 45 «pound»s or 20.25 «kilogram»s)
+sv:	«vikt«enhet»», 9 «~cheb~» (cirka 20,25 kilogram)
+en:	«unit» of «weight», 9 «~cheb~» (about 45 pounds or 20.25 kilograms)
 def:	News 1997-10-22; BoP
 gram:	1 {cheb'a'} = 9 {cheb}
 com:	(n) unit weight approx. 45--46.4 pounds (20.4--21.05 kg) (9--9.28 cheb)
 	[The numbers don't quite mesh, but this is the best I can figure
 	from different equivalences we've been given.] [BoP poster] (Added:
 	12 March 2002) [KLINW]
+cat:	unit
 file:	1997-10-22-news.txt; 1998-11-01-bop.txt
 
 tlh:	{chech}
@@ -2481,9 +2483,9 @@ file:	1997-11-01-kgt.txt
 tlh:	{DarSeq}
 pos:	noun
 sv:	«valuta«enhet»», «~darsek~»
-en:	<~darsek~>, <unit> of <currency>
+en:	<unit> of <currency>, <~darsek~>
 def:	KGT
-cat:	money
+cat:	money; unit
 file:	1997-11-01-kgt.txt
 
 tlh:	{DaS}
@@ -2715,9 +2717,12 @@ file:	1992-01-01-tkd.txt
 tlh:	{DeQ}
 pos:	noun
 sv:	«kredit» (monetär «enhet»)
-en:	<credit> (monetary «unit»)
+en:	«unit» of «currency», <credit>
 def:	TKD
-cat:	money
+com:	Source [TKD] gives translation as "credit (monetary unit)", but it has
+	here been changed to resemble the definition of {DarSeq} <unit of
+	currency, ~darsek~> in KGT.
+cat:	money; unit
 file:	1992-01-01-tkd.txt
 
 tlh:	{Der}
@@ -7261,9 +7266,10 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{loghqam}
 pos:	noun
-sv:	«längd«enhet»» (cirka 1,25 «ljusår»)
-en:	«unit» of «length» (about 1.25 «light year»s)
+sv:	«längd«enhet»» (cirka 1,25 ljusår)
+en:	«unit» of «length» (about 1.25 light years)
 def:	BoP
+cat:	unit
 file:	1998-11-01-bop.txt
 
 tlh:	{loH}
@@ -12743,10 +12749,11 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{qelI'qam}
 pos:	noun
-sv:	«längd«enhet»», «~kellicam~» (cirka 2 «kilo«meter»»)
-en:	«unit» of «length», <~kellicam~> (about 2 «kilo«meter»»s)
+sv:	«längd«enhet»», «~kellicam~» (cirka 2 kilometer)
+en:	«unit» of «length», <~kellicam~> (about 2 kilometers)
 def:	TKD; STE
 com:	Incorrectly spelled {quelI'qam} in TKD E-K.
+cat:	unit
 file:	1992-01-01-tkd.txt
 
 tlh:	{qem}
@@ -18419,9 +18426,10 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{tlho'ren}
 pos:	noun
-sv:	«volym«enhet»» (cirka en «liter»)
-en:	«unit» of «volume» (about one «quart» or «liter»)
+sv:	«volym«enhet»» (cirka en liter)
+en:	«unit» of «volume» (about 1 quart or 1 liter)
 def:	News 1997-10-22
+cat:	unit
 file:	1997-10-22-news.txt
 
 tlh:	{tlhuch}
@@ -21779,23 +21787,25 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{'uj}
 pos:	noun
-sv:	«längd«enhet»», «~uj~» (cirka 35 «centi«meter»»)
-en:	«unit» of «length», <~uj~> (about 35 «centi«meter»»s)
+sv:	«längd«enhet»», «~uj~» (cirka 35 centimeter)
+en:	«unit» of «length», <~uj~> (about 35 centimeters)
 def:	News 1997-10-22 (by Marc Okrand, to msn.onstage.startrek.expert.okrand,
 	"Re: Weights and Measures"); KGT
 com:	Source [KGT] uses the words "linear measure" which has been changed
 	"length" here. The change was made for both for brevity and clarity.
 	(zrajm, 2011-11-07) More exactly one ~uj~ is 34.83 cm (as caluculated
 	from useage on BoP).
+cat:	unit
 file:	1997-10-22-news.txt; 1997-11-01-kgt.txt
 
 tlh:	{'uj'a'}
 pos:	noun
-sv:	«längd«enhet»», stor «~uj~» (cirka 315 «centi«meter»»)
-en:	«unit» of «length», big <~uj~> (about 315 «centi«meter»»s)
+sv:	«längd«enhet»», stor «~uj~» (cirka 315 centimeter)
+en:	«unit» of «length», big <~uj~> (about 315 centimeters)
 def:	News 1999-02-03
 ref:	TDNW
 gram:	1 {'uj'a'} = 9 {'uj}
+cat:	unit
 file:	1999-02-03-news.txt
 
 tlh:	{'ul}
