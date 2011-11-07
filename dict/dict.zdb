@@ -65,11 +65,11 @@ FIELD NAMES USED IN DICTIONARY BELOW
                       'clothing', 'family', 'fighting', 'landscape',
                       'locative', 'math', 'money', 'music', 'time'.
     data:  (optional) contains additional data about a word:
-                      »KLCP-1« = one of the 500 basic words, required for
+                      "KLCP-1" = one of the 500 basic words, required for
                       passing the Klingon Language Certification Program, first
                       level
 
-                      »derived form« = a word built from other Klingon
+                      "derived form" = a word built from other Klingon
                       morphemes (these words are included in the dictionary to
                       provide a non-obvious lookup entry in the
                       English--Klingon side of a dictionary; such a 'derived
@@ -78,10 +78,10 @@ FIELD NAMES USED IN DICTIONARY BELOW
                       constructed from {chen} 'take form' + {-moH} 'cause' +
                       {-wI'} 'one who does'.
 
-                      »phrase« = lookup entry is more than one word (i.e. the
+                      "phrase" = lookup entry is more than one word (i.e. the
                       Klingon definiton contains at least one space).
 
-                      »deprecated« = NOTE: Requires 'warn' field + leading
+                      "deprecated" = NOTE: Requires 'warn' field + leading
                       asterisk in 'tlh' field. -- Used for words occur
                       misspelled in canon that one should nevertheless be able
                       to find in the Klingon--English side of the pocket
@@ -90,13 +90,25 @@ FIELD NAMES USED IN DICTIONARY BELOW
                       pocket dictionary. A warning should be shown whenever
                       they're displayed.
 
-                      »non-canon« = NOTE: Requires 'warn' field + leading
+                      "non-canon" = NOTE: Requires 'warn' field + leading
                       asterisk in 'tlh' field. -- Used for words that needs to
                       be especially pointed out not to be canon Klingon. It
                       might a word that is not canon, but that occurs in a
                       canon source, or a word that has previously been thought
                       to be canon, but later proven non-canon. Non-canon words
                       should not be included in the pocket dictionary.
+
+                      "exclude from K-E" = Means that the word will not be
+                      included in the Klingon--English side of the pocket
+                      dictionary. Words are only excluded when they are present
+                      otherwhere in the dictionary, or when they are
+                      understandable anyway. E.g. "number suffixes" are
+                      excluded because they have their own reference table.
+                      Derived forms such as words ending in {-moH} (when they
+                      do not differ from the expected meaning ({bolwI'}
+                      <traitor> is included, but {bolwI'} <drooler> would not
+                      be, since it is obvious frob {bol} <drool> + {-wI'} <one
+                      who does>).
     file:  (required) contains file name(s) of the source transcript in
                       'Archive of Okrandian Canon'. Multiple filenames are
                       separated with semicolon + whitespace (i.e. space or
@@ -666,6 +678,7 @@ en:	<hundred thousand> (number-forming element)
 def:	TKD
 com:	Number-forming element, see also TKD 5.2.
 cat:	math
+data:	exclude from K-E
 file:	1992-01-01-tkd.txt
 
 tlh:	{bIQ}
@@ -7801,6 +7814,7 @@ en:	<ten> (number-forming element)
 def:	TKD
 com:	Number-forming element, see also TKD 5.2.
 cat:	math
+data:	exclude from K-E
 file:	1992-01-01-tkd.txt
 
 tlh:	{maHpIn}
@@ -9651,6 +9665,7 @@ en:	<ten thousand> (number-forming element)
 def:	TKD
 com:	Number-forming element, see also TKD 5.2.
 cat:	math
+data:	exclude from K-E
 file:	1992-01-01-tkd.txt
 
 tlh:	{nevDagh}
@@ -15471,6 +15486,7 @@ def:	TKD
 ref:	TKW p.127
 com:	Number-forming element, see also TKD 5.2.
 cat:	math
+data:	exclude from K-E
 file:	1992-01-01-tkd.txt
 
 tlh:	{Sagh}
@@ -15535,6 +15551,7 @@ en:	<thousand> (number-forming element)
 def:	TKD
 com:	Number-forming element, see also TKD 5.2.
 cat:	math
+data:	exclude from K-E
 file:	1992-01-01-tkd.txt
 
 tlh:	{Sang}
@@ -18673,6 +18690,7 @@ en:	<hundred> (number-forming element)
 def:	TKD
 com:	Number-forming element, see also TKD 5.2.
 cat:	math
+data:	exclude from K-E
 file:	1992-01-01-tkd.txt
 
 tlh:	{vatlh DIS poH}
@@ -21932,6 +21950,7 @@ en:	<million> (number-forming element)
 def:	TKD
 com:	Number-forming element, see also TKD 5.2.
 cat:	math
+data:	exclude from K-E
 file:	1992-01-01-tkd.txt
 
 tlh:	{'u'}
