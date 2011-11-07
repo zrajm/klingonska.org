@@ -97,7 +97,6 @@ FIELD NAMES USED IN DICTIONARY BELOW
                       canon source, or a word that has previously been thought
                       to be canon, but later proven non-canon. Non-canon words
                       should not be included in the pocket dictionary.
-
     file:  (required) contains file name(s) of the source transcript in
                       'Archive of Okrandian Canon'. Multiple filenames are
                       separated with semicolon + whitespace (i.e. space or
@@ -326,7 +325,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{bay}
 pos:	noun
 sv:	klingonskans «{b}»-ljud
-en:	Klingon "«{b}»" sound
+en:	Klingon ~«{b}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -1469,7 +1468,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{chay}
 pos:	noun
 sv:	klingonskans «{ch}»-ljud
-en:	Klingon "«{ch}»" sound
+en:	Klingon ~«{ch}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -2545,7 +2544,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{Day}
 pos:	noun
 sv:	klingonskans «{D}»-ljud
-en:	Klingon "«{D}»" sound
+en:	Klingon ~«{D}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -3561,7 +3560,7 @@ file:	1997-11-01-kgt.txt
 tlh:	{ghay}
 pos:	noun
 sv:	klingonskans «{gh}»-ljud
-en:	Klingon "«{gh}»" sound
+en:	Klingon ~«{gh}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -4572,7 +4571,7 @@ file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 tlh:	{Hay}
 pos:	noun
 sv:	klingonskans «{H}»-ljud
-en:	Klingon "«{H}»" sound
+en:	Klingon ~«{H}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -5873,7 +5872,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{jay}
 pos:	noun
 sv:	klingonskans «{j}»-ljud
-en:	Klingon "«{j}»" sound
+en:	Klingon ~«{j}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -6775,7 +6774,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{lay}
 pos:	noun
 sv:	klingonskans «{l}»-ljud
-en:	Klingon "«{l}»" sound
+en:	Klingon ~«{l}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -8005,7 +8004,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{may}
 pos:	noun
 sv:	klingonskans «{m}»-ljud
-en:	Klingon "«{m}»" sound
+en:	Klingon ~«{m}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -9431,7 +9430,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{nay}
 pos:	noun
 sv:	klingonskans «{n}»-ljud
-en:	Klingon "«{n}»" sound
+en:	Klingon ~«{n}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -10514,7 +10513,7 @@ file:	1997-11-01-kgt.txt
 tlh:	{ngay}
 pos:	noun
 sv:	klingonskans «{ng}»-ljud
-en:	Klingon "«{ng}»" sound
+en:	Klingon ~«{ng}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -11201,7 +11200,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{pay}
 pos:	noun
 sv:	klingonskans «{p}»-ljud
-en:	Klingon "«{p}»" sound
+en:	Klingon ~«{p}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -12316,7 +12315,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{qaghwI'}
 pos:	noun
 sv:	klingonskans «{'}»-ljud
-en:	Klingon "«{'}»" sound
+en:	Klingon ~«{'}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -12570,7 +12569,7 @@ file:	2001-06-holqed-10-2.txt
 tlh:	{qay}
 pos:	noun
 sv:	klingonskans «{q}»-ljud
-en:	Klingon "«{q}»" sound
+en:	Klingon ~«{q}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -13804,7 +13803,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{Qay}
 pos:	noun
 sv:	klingonskans «{Q}»-ljud
-en:	Klingon "«{Q}»" sound
+en:	Klingon ~«{Q}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -14815,7 +14814,7 @@ file:	2001-12-holqed-10-4.txt
 tlh:	{ray}
 pos:	noun
 sv:	klingonskans «{r}»-ljud
-en:	Klingon "«{r}»" sound
+en:	Klingon ~«{r}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -15660,7 +15659,7 @@ file:	1997-11-01-kgt.txt
 tlh:	{Say}
 pos:	noun
 sv:	klingonskans «{S}»-ljud
-en:	Klingon "«{S}»" sound
+en:	Klingon ~«{S}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -16874,7 +16873,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{tay}
 pos:	noun
 sv:	klingonskans «{t}»-ljud
-en:	Klingon "«{t}»" sound
+en:	Klingon ~«{t}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -18017,7 +18016,7 @@ file:	1997-11-01-kgt.txt
 tlh:	{tlhay}
 pos:	noun
 sv:	klingonskans «{tlh}»-ljud
-en:	Klingon "«{tlh}»" sound
+en:	Klingon ~«{tlh}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -18721,7 +18720,7 @@ file:	1997-11-01-kgt.txt
 tlh:	{vay}
 pos:	noun
 sv:	klingonskans «{v}»-ljud
-en:	Klingon "«{v}»" sound
+en:	Klingon ~«{v}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -19476,7 +19475,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{way}
 pos:	noun
 sv:	klingonskans «{w}»-ljud
-en:	Klingon "«{w}»" sound
+en:	Klingon ~«{w}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -20157,7 +20156,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{yay}
 pos:	noun
 sv:	klingonskans «{y}»-ljud
-en:	Klingon "«{y}»" sound
+en:	Klingon ~«{y}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -20880,7 +20879,7 @@ file:	1999-02-02-email.txt
 tlh:	{'at}
 pos:	noun
 sv:	klingonskans «{a}»-ljud
-en:	Klingon "«{a}»" sound
+en:	Klingon ~«{a}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -21137,7 +21136,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{'et}
 pos:	noun
 sv:	klingonskans «{e}»-ljud
-en:	Klingon "«{e}»" sound
+en:	Klingon ~«{e}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -21361,7 +21360,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{'It}
 pos:	noun
 sv:	klingonskans «{I}»-ljud
-en:	Klingon "«{I}»" sound
+en:	Klingon ~«{I}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -21626,7 +21625,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{'ot}
 pos:	noun
 sv:	klingonskans «{o}»-ljud
-en:	Klingon "«{o}»" sound
+en:	Klingon ~«{o}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
@@ -21901,7 +21900,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{'ut} (2)
 pos:	noun
 sv:	klingonskans «{u}»-ljud
-en:	Klingon "«{u}»" sound
+en:	Klingon ~«{u}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
