@@ -224,7 +224,7 @@ pos:	verb
 sv:	«avsluta», «avbryta»
 en:	<terminate>, <discontinue>
 def:	KGT
-ref:	HQ12:2 p.9
+ref:	HQ12:2 p.9
 file:	1997-11-01-kgt.txt
 
 tlh:	{baqghol}
@@ -292,7 +292,7 @@ pos:	noun
 sv:	«ära»
 en:	<honor>
 def:	TKD
-ref:	TKW pp.53, 67; HQ12:3 p.9; KLINW
+ref:	TKW pp.53, 67; HQ12:3 p.9; KLINW
 com:	"{batlh}, [...] is a grander [than {quv}], more general, more
 	philosophical concept, associated with integrity, rectitude, scruples,
 	and principles." [HQ12:3 p.9]
@@ -304,7 +304,7 @@ pos:	adverbial
 sv:	«ärofullt», med «ära», med «heder», «hedervärt»
 en:	<honored>, with «honor», «honorably», «honorable»
 def:	TKD
-ref:	TKW pp.47, 71, 129
+ref:	TKW pp.47, 71, 129
 file:	1992-01-01-tkd.txt
 
 tlh:	{batlhHa'}
@@ -312,7 +312,7 @@ pos:	adverbial
 sv:	«skamligt», med «vanära»
 en:	<dishonorably>
 def:	KGT
-ref:	TKW pp.55, 139
+ref:	TKW pp.55, 139
 file:	1997-11-01-kgt.txt
 
 tlh:	{bav}
@@ -326,7 +326,7 @@ tlh:	{bay}
 pos:	noun
 sv:	klingonskans «{b}»-ljud
 en:	Klingon ~«{b}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -482,7 +482,7 @@ tlh:	{bertlham}
 pos:	noun
 sv:	«avslutning», «slut» (på sång, pjäs, historia, etc.)
 en:	«ending», «final portion» (of a song, play, story etc.)
-def:	HQ12:2 pp.8--9
+def:	HQ12:2 pp.8--9
 ref:	KLINW; TDNW
 see:	{bI'reS}
 file:	2003-06-holqed-12-2.txt
@@ -563,7 +563,7 @@ pos:	noun
 sv:	«kvinnotortyr» (rituell tortyr av fångar, utförd av kvinnor)
 en:	«torture-by-women» (ritualized torture of prisoners, performed by
 	women)
-def:	Sarek pp.163, 164, 180, 181
+def:	Sarek pp.163, 164, 180, 181
 ref:	KLINW
 file:	1995-02-01-sarek.txt
 
@@ -673,7 +673,7 @@ pos:	noun
 sv:	«vatten»
 en:	<water>
 def:	TKD
-ref:	TKW pp.34--35; KLINW
+ref:	TKW pp.34--35; KLINW
 com:	Used metaphorically as the symbol of weakness and distain. [TKW pp.34--35]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
@@ -733,7 +733,7 @@ pos:	verb
 sv:	vara «kall»
 en:	be <cold>
 def:	TKD
-ref:	TKW pp.133, 174
+ref:	TKW pp.133, 174
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -806,7 +806,7 @@ tlh:	{bI'reS}
 pos:	noun
 sv:	«inledning», «början» (på sång, pjäs, historia, etc.)
 en:	«beginning» (of a song, play, story etc.)
-def:	HQ12:2 pp.8--9
+def:	HQ12:2 pp.8--9
 ref:	KLINW; TDNW
 see:	{bertlham}
 file:	2003-06-holqed-12-2.txt
@@ -815,7 +815,7 @@ tlh:	{bo}
 pos:	noun
 sv:	«fjäder» (på fågel)
 en:	«feather»
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5
 ref:	KLINW
 file:	2001-12-holqed-10-4.txt
 
@@ -932,7 +932,7 @@ tlh:	{bop}
 pos:	verb
 sv:	vara «om» (något), «handla» om (något)
 en:	be «about» (something), be «concerned» with
-def:	{qep'a'} 2005
+def:	{qep'a'} 2005
 ref:	Web 2005-08-01 (by Rohan Fenwick,
 	http://klingon.livejournal.com/26647.html, "Marc Okrand nob: qep'a'
 	mu'mey chu'"); TDNW; KLINW
@@ -1023,7 +1023,7 @@ tlh:	{bor}
 pos:	verb
 sv:	«kurra», «knorra» (ljud från mage)
 en:	«gurgle» (sound from stomach)
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8
 ref:	TDNW; KLINW
 file:	2003-12-holqed-12-4.txt
 
@@ -1031,7 +1031,7 @@ tlh:	{borghel}
 pos:	noun
 sv:	ett slags «fågel» (väldigt liten, dess ägg anses mycket goda)
 en:	type of «bird» (very small, its eggs are considered quite tasty)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4
 ref:	KLINW
 file:	2001-12-holqed-10-4.txt
 
@@ -1040,7 +1040,7 @@ pos:	noun
 sv:	«hämnd»
 en:	<revenge>
 def:	TKD
-ref:	TKW pp.121, 133
+ref:	TKW pp.121, 133
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -1107,7 +1107,7 @@ tlh:	{bo'Degh}
 pos:	noun
 sv:	«fågel»
 en:	«bird»
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4
 ref:	KLINW
 com:	general word for bird-like creature
 file:	2001-12-holqed-10-4.txt
@@ -1138,7 +1138,7 @@ tlh:	{buq}
 pos:	noun
 sv:	«påse», «säck», «pung», «ficka»
 en:	«bag», «sack», «pouch», «pocket»
-def:	{qep'a'} 2010
+def:	{qep'a'} 2010
 ref:	Email 2010-12-07 (by Lieven L. Litaer, to tlhingan-hol, "News from
 	Maltz"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol,
 	"Letter from Maltz")
@@ -1156,7 +1156,7 @@ tlh:	{bur}
 pos:	verb
 sv:	«hicka»
 en:	«hiccup»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8
 ref:	TDNW; KLINW
 file:	2003-12-holqed-12-4.txt
 
@@ -1180,7 +1180,7 @@ pos:	verb
 sv:	«koncentrera» sig på, «fokusera» på, «tänka» enbart på
 en:	<concentrate> on, <focus> on, <think> only about
 def:	TKD
-ref:	TKW pp.81, 171, 197
+ref:	TKW pp.81, 171, 197
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -1396,7 +1396,7 @@ pos:	verb
 sv:	«erövra»
 en:	<conquer>
 def:	TKD
-ref:	TKW pp.5, 149
+ref:	TKW pp.5, 149
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -1413,7 +1413,7 @@ tlh:	{chaS}
 pos:	noun
 sv:	«topp», «överdel» (på käpp eller stav)
 en:	«top» (of cane or walking stick)
-def:	HQ12:2 p.7
+def:	HQ12:2 p.7
 ref:	TDNW
 file:	2003-06-holqed-12-2.txt
 
@@ -1436,7 +1436,7 @@ pos:	verb
 sv:	«uppnå»
 en:	<achieve>
 def:	TKD
-ref:	TKW pp.55, 115, 125, 165, 211
+ref:	TKW pp.55, 115, 125, 165, 211
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -1469,7 +1469,7 @@ tlh:	{chay}
 pos:	noun
 sv:	klingonskans «{ch}»-ljud
 en:	Klingon ~«{ch}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -1499,7 +1499,7 @@ tlh:	{cha'bIp}
 pos:	noun
 sv:	en slags «fågel» (berömd för sin snabbhet)
 en:	type of «bird» (noted for its speed)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{cha'DIch}
@@ -1521,7 +1521,7 @@ tlh:	{cha'Do'}
 pos:	noun
 sv:	en slags «fågel» (om vilken litet är känt)
 en:	type of «bird» (about which little is known)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{cha'Hu'}
@@ -1551,7 +1551,7 @@ tlh:	{cha'naS}
 pos:	noun
 sv:	en slags «fågel» (liten, gräver upp småkryp att äta)
 en:	type of «bird» (small, digs up bugs to eat)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{cha'nob}
@@ -1565,7 +1565,7 @@ tlh:	{cha'par}
 pos:	noun
 sv:	en slags «fågel» (berömd för sin sång)
 en:	type of «bird» (noted for its song)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{cha'puj}
@@ -1586,7 +1586,7 @@ tlh:	{cha'qu'}
 pos:	noun
 sv:	en slags «fågel» (med ett högljutt, enformigt skrik)
 en:	type of «bird» (with a noisy, repetitive cry)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{cheb}
@@ -2245,7 +2245,7 @@ tlh:	{chuy}
 pos:	verb
 sv:	«nysa»
 en:	«sneeze»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8
 ref:	TDNW
 see:	{'IqnaH}
 file:	2003-12-holqed-12-4.txt
@@ -2477,7 +2477,7 @@ pos:	noun
 sv:	«känga», «stövel»
 en:	<boot>
 def:	TKD
-ref:	{qep'a'} 1996
+ref:	{qep'a'} 1996
 pun:	"Das Boot"! "Last year, I asked Marc Okrand if it was intentional;
 	he said yes." (Alan Anderson, {qep'a'} 1996)
 cat:	clothing
@@ -2506,7 +2506,7 @@ tlh:	{Dav}
 pos:	verb
 sv:	«svänga», förflytta sig i sidled (om flygmaskin)
 en:	«sway», move to the side (about aircraft)
-def:	HQ11:2 p.9
+def:	HQ11:2 p.9
 com:	"When it moves to the side (not when the nose points to the left or
 	right, but when the plane slides to the left or right without
 	otherwise changing its orientation)" [HQ11:2 p.9]
@@ -2516,7 +2516,7 @@ tlh:	{DavHam}
 pos:	noun
 sv:	«falsk» «ära»
 en:	«false» «honor»
-def:	HQ12:3 p.9
+def:	HQ12:3 p.9
 ref:	TDNW
 com:	"[...] covers the same semantic ground as both {HoQ} [<be honored
 	falsely>] and {Qaq} [<behave falsely honorably>] (but not really {mIl}
@@ -2545,7 +2545,7 @@ tlh:	{Day}
 pos:	noun
 sv:	klingonskans «{D}»-ljud
 en:	Klingon ~«{D}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -2567,7 +2567,7 @@ tlh:	{Da'nal}
 pos:	noun
 sv:	en slags «fågel» (kännetecknad av irrande, oförutsägbart beteende)
 en:	type of «bird» (characterized by erratic, unpredictable behavior)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4
 com:	similar to {Da'vI'}
 file:	2001-12-holqed-10-4.txt
 
@@ -2575,7 +2575,7 @@ tlh:	{Da'vI'}
 pos:	noun
 sv:	en slags «fågel» (kännetecknad av irrande, oförutsägbart beteende)
 en:	type of «bird» (characterized by erratic, unpredictable behavior)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4
 com:	similar to {Da'nal}
 file:	2001-12-holqed-10-4.txt
 
@@ -2710,7 +2710,7 @@ tlh:	{Der}
 pos:	verb
 sv:	«gira» (om flygmaskin)
 en:	«yaw» (about aircraft)
-def:	HQ11:2 p.9
+def:	HQ11:2 p.9
 com:	"When the nose of an airplane or similar craft moves to the left or
 	the right [...]" [HQ11:2 p.9]
 file:	2002-06-holqed-11-2.txt
@@ -2754,7 +2754,7 @@ pos:	noun
 sv:	«ledare»
 en:	<leader>
 def:	KGT
-ref:	TKW pp.63, 66
+ref:	TKW pp.63, 66
 data:	derived form
 file:	1997-11-01-kgt.txt
 
@@ -2838,7 +2838,7 @@ tlh:	{DIn}
 pos:	noun
 sv:	«ingång», «öppning» (till en tunnel, rör etc., utan dörr)
 en:	«entryway» (to a tunnel, conduit, etc.; not a door)
-def:	HQ12:2 p.7
+def:	HQ12:2 p.7
 ref:	TDNW
 com:	"If there's a door there, it's referred to by the usual word for door,
 	{lojmIt}." [HQ12:2 p.7]
@@ -3049,7 +3049,7 @@ tlh:	{Do «Qe'»}
 pos:	noun
 sv:	«hastighets«restaurang»», «snabbmatsservering», «~Dok'e~»
 en:	«velocity «restaurant»», «fast-food restaurant», «~Dok'e~»
-def:	KGT pp.102, 103 et al.
+def:	KGT pp.102, 103 et al.
 com:	This definition combines information from the definition of
 	{tebwI'} with information from the main text.
 data:	phrase
@@ -3066,7 +3066,7 @@ tlh:	{Dor} (2)
 pos:	verb
 sv:	«ta «slut»» (om tidsperiod, t.ex. månad, år)
 en:	«come to an «end»» (about period of time, e.g. month, year)
-def:	HQ12:2 p.8
+def:	HQ12:2 p.8
 ref:	TDNW
 gram:	{Dor jar} ~the month ends;~ time period is subject
 com:	"Generally, one expresses the end of a stretch of time by using a verb
@@ -3086,7 +3086,7 @@ pos:	noun
 sv:	«mål»(-tavla)
 en:	<target>
 def:	TKD
-ref:	TKW pp.81, 191
+ref:	TKW pp.81, 191
 see:	{ray'} is the plural form
 file:	1992-01-01-tkd.txt
 
@@ -3139,7 +3139,7 @@ tlh:	{Do'Ha'}
 pos:	verb
 sv:	vara «otursam», vara «olycksdrabbad», ha «otur»
 en:	be «unfortunate», be «unlucky»
-def:	TKD 4.3 (p.48), pp.1, 171
+def:	TKD 4.3 (p.48), pp.1, 171
 file:	1992-01-01-tkd.txt
 
 tlh:	{Do'Ha'}
@@ -3216,7 +3216,7 @@ pos:	noun
 sv:	«skepp», «farkost»
 en:	<ship>, <vessel>
 def:	TKD
-ref:	TKW pp.27, 63, 74, 182
+ref:	TKW pp.27, 63, 74, 182
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -3415,7 +3415,7 @@ pos:	pronoun
 sv:	«han», «hon», «honom», «henne»
 en:	<he>, <she>, <him>, <her>
 def:	TKD
-ref:	TKW pp.61, 139, 190
+ref:	TKW pp.61, 139, 190
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -3454,7 +3454,7 @@ tlh:	{ghang}
 pos:	verb
 sv:	«avsluta» i förtid (en händelse, t.ex. resa, strid, sång)
 en:	prematurely «end» (an event, e.g. a voyage, battle, song)
-def:	HQ12:2 p.8
+def:	HQ12:2 p.8
 ref:	TDNW
 gram:	{may' ghang SuvwI'} ~the warrior ends the battle prematurely;~ participants are subject
 com:	"[...] {ghang}, is used to express the idea of a premature ending. If [...]
@@ -3471,7 +3471,7 @@ tlh:	{ghangwI'}
 pos:	noun
 sv:	«horisont»
 en:	«horizon»
-def:	HQ11:2 p.8
+def:	HQ11:2 p.8
 file:	2002-06-holqed-11-2.txt
 
 tlh:	{ghap}
@@ -3489,7 +3489,7 @@ pos:	verb
 sv:	«bidra»
 en:	<contribute>, «support» (financially)
 def:	TKD
-ref:	{qep'a'} 2010; Email 2010-07-26 (by Chris Lipscombe, to tlhingan-hol
+ref:	{qep'a'} 2010; Email 2010-07-26 (by Chris Lipscombe, to tlhingan-hol
 	"Re: mu' chu'")
 com:	Second translation, "support (financially)", was given by Marc Okrand
 	at {qep'a'} 2010.
@@ -3536,7 +3536,7 @@ tlh:	{ghawran}
 pos:	name
 sv:	«Gowron»
 en:	«Gowron»
-def:	S25; S26; KGT pp.25, 26, 197, 198
+def:	S25; S26; KGT pp.25, 26, 197, 198
 com:	S25 and S26 were reprinted in HQ5:3 p.15
 file:	1996-sbx-s25.txt; 1996-sbx-s26.txt; 1997-11-01-kgt.txt
 
@@ -3561,7 +3561,7 @@ tlh:	{ghay}
 pos:	noun
 sv:	klingonskans «{gh}»-ljud
 en:	Klingon ~«{gh}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -3600,7 +3600,7 @@ tlh:	{gheb}
 pos:	noun
 sv:	«horn», «lur» (musikinstrument)
 en:	«horn» (musical instrument)
-def:	HQ10:2 p.9
+def:	HQ10:2 p.9
 cat:	music
 file:	2001-06-holqed-10-2.txt
 
@@ -3657,7 +3657,7 @@ tlh:	{ghet}
 pos:	verb
 sv:	«låtsas», «rollspela»
 en:	«pretend», «role-play»
-def:	HQ12:3 p.8
+def:	HQ12:3 p.8
 ref:	TDNW
 gram:	do not imply deception
 com:	"{ghet} and {ghetwI'} <pretender> generally do not imply deception, but
@@ -3668,7 +3668,7 @@ tlh:	{ghetwI'}
 pos:	noun
 sv:	någon som «låtsas», person som låtsas
 en:	«pretender»
-def:	HQ12:3 p.8
+def:	HQ12:3 p.8
 ref:	TDNW
 data:	derived form
 file:	2003-09-holqed-12-3.txt
@@ -3762,7 +3762,7 @@ pos:	verb
 sv:	«skrämma»
 en:	<scare>
 def:	TKD
-ref:	TKW pp.65, 105, 109
+ref:	TKW pp.65, 105, 109
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -3771,7 +3771,7 @@ pos:	noun
 sv:	«globfluga»
 en:	<glob fly>
 def:	KGT
-ref:	TKW pp.171, 173
+ref:	TKW pp.171, 173
 data:	phrase; {ghIlab} (n)
 file:	1997-11-01-kgt.txt
 
@@ -3931,7 +3931,7 @@ pos:	verb
 sv:	«slåss», «strida», «föra krig»
 en:	<fight>, <battle>, do battle, <wage war>
 def:	KGT
-ref:	TKW pp.vii, 61, 179
+ref:	TKW pp.vii, 61, 179
 cat:	fighting
 file:	1997-11-01-kgt.txt
 
@@ -3940,7 +3940,7 @@ pos:	noun
 sv:	«etik», «moral», «dygd»
 en:	<ethics>, <virtue>
 def:	TKD; KGT
-ref:	TKW pp.vii, 47, 48
+ref:	TKW pp.vii, 47, 48
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{ghobchuq loDnI'pu'}
@@ -4214,7 +4214,7 @@ tlh:	{ghotI'}
 pos:	noun
 sv:	«fisk»
 en:	«fish»
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5
 ref:	TDNW
 pun:	Bernard Shaw's famous spelling of "fish".
 see:	{bIQDep}
@@ -4572,7 +4572,7 @@ tlh:	{Hay}
 pos:	noun
 sv:	klingonskans «{H}»-ljud
 en:	Klingon ~«{H}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -4633,7 +4633,7 @@ pos:	verb
 sv:	«avse», «mena» att
 en:	<intend>, <mean> to
 def:	TKD
-ref:	TKW pp.163, 13
+ref:	TKW pp.163, 13
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -4656,7 +4656,7 @@ pos:	verb
 sv:	«dö»
 en:	<die>
 def:	TKD
-ref:	TKW pp.5, 69, 71, 72, 73, 74, 77, 88, 93, 99, 117, 123, 129, 145, 153,
+ref:	TKW pp.5, 69, 71, 72, 73, 74, 77, 88, 93, 99, 117, 123, 129, 145, 153,
 	213
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
@@ -4666,7 +4666,7 @@ pos:	noun
 sv:	«död»
 en:	<death>
 def:	TKDa
-ref:	TKW pp.73, 95, 115
+ref:	TKW pp.73, 95, 115
 file:	1992-01-01-tkd.txt
 
 tlh:	{Heghbat}
@@ -4727,7 +4727,7 @@ pos:	verb
 sv:	vara «stolt»
 en:	be <proud>
 def:	TKD
-ref:	TKW p.13; HQ12:3 p.9
+ref:	TKW p.13; HQ12:3 p.9
 com:	"To be {Hem} <proud> [...] is quite admirable and does not carry any
 	connotations of arrogance as the Federation Standard words 'proud' and
 	'pride' sometimes do." [HQ12:3 p.9]
@@ -4897,7 +4897,7 @@ pos:	noun
 sv:	«sprit», «öl», «vin», «alkohol»
 en:	<liquor>, <ale>, <beer>, <wine>
 def:	TKD; KGT
-ref:	TKW pp.35, 181
+ref:	TKW pp.35, 181
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{HISlaH}
@@ -4917,7 +4917,7 @@ pos:	verb
 sv:	«attackera»
 en:	<attack>
 def:	TKD
-ref:	TKW pp.24, 113, 182, 183
+ref:	TKW pp.24, 113, 182, 183
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -4993,7 +4993,7 @@ pos:	numeral
 sv:	«allte», «slutgiltiga», «sista»
 en:	«allth», «final», «last»
 def:	KGT p.177
-ref:	TDNW; HQ12:2 p.9
+ref:	TDNW; HQ12:2 p.9
 file:	1997-11-01-kgt.txt
 
 tlh:	{HochHom}
@@ -5034,7 +5034,7 @@ pos:	verb
 sv:	«döda»
 en:	<kill>
 def:	TKD
-ref:	TKW pp.59, 163, 165
+ref:	TKW pp.59, 163, 165
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -5101,7 +5101,7 @@ tlh:	{Hom}
 pos:	verb
 sv:	«använda» «andra«tå»n» [arkaiskt]
 en:	«use» the «second «toe»» [archaic]
-def:	HQ10:2 p.10
+def:	HQ10:2 p.10
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -5109,7 +5109,7 @@ tlh:	{HomwI'}
 pos:	noun
 sv:	«andra«tå»»
 en:	«second «toe»»
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -5170,7 +5170,7 @@ tlh:	{HoQ}
 pos:	verb
 sv:	vara «falskt» «ärad», vara «felaktigt» «hedrad»
 en:	be «honored» «falsely», be falsely honorable
-def:	HQ12:3 p.8
+def:	HQ12:3 p.8
 ref:	TDNW
 com:	"[It can] be used in the same places {quv} 'be honored, be honorable'
 	could be used, but only when the honor was not legitimate." [HQ12:3]
@@ -5191,7 +5191,7 @@ pos:	noun
 sv:	«styrka», «energi», «kraft»
 en:	<strength>, <energy>, <power>
 def:	TKD
-ref:	TKW pp.21, 23, 119
+ref:	TKW pp.21, 23, 119
 file:	1992-01-01-tkd.txt
 
 tlh:	{HoSchem}
@@ -5438,7 +5438,7 @@ tlh:	{Hun}
 pos:	noun
 sv:	ett slags «djur», «~khrun~»
 en:	type of «animal», «~khrun~»
-def:	{qep'a'} 2011
+def:	{qep'a'} 2011
 ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
 	from qep'a' 18")
 com:	I didn't read that section of the opera myself, but I think I heard
@@ -5562,7 +5562,7 @@ pos:	verb
 sv:	«sakna», vara «utan», «inte «ha»»
 en:	<lack>, be <without>, to <not «have»>
 def:	KGT
-ref:	TKW pp.59, 61, 142
+ref:	TKW pp.59, 61, 142
 file:	1997-11-01-kgt.txt
 
 tlh:	{Huv}
@@ -5619,7 +5619,7 @@ pos:	verb
 sv:	«servera», «sätta fram» (mat)
 en:	<serve> (food)
 def:	TKD
-ref:	TKW pp.133, 141
+ref:	TKW pp.133, 141
 file:	1992-01-01-tkd.txt
 
 tlh:	{jabbI'ID}
@@ -5661,7 +5661,7 @@ pos:	noun
 sv:	«fiende»
 en:	<enemy>
 def:	TKD
-ref:	TKW pp.ix, 19, 24, 61, 65, 65, 201
+ref:	TKW pp.ix, 19, 24, 61, 65, 65, 201
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -5669,7 +5669,7 @@ tlh:	{jaH}
 pos:	verb
 sv:	«fara», «åka», «gå», «färdas», «resa»
 en:	<go>, «travel»
-def:	TKD; TKW pp.38, 203
+def:	TKD; TKW pp.38, 203
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
@@ -5678,7 +5678,7 @@ pos:	noun
 sv:	«dag», «dygn» (från gryning till gryning)
 en:	<day> (from dawn to dawn)
 def:	TKD
-ref:	TKW pp.69, 177
+ref:	TKW pp.69, 177
 com:	Used with {-vam} in the sentence: {Heghlu'meH QaQ jajvam.}
 	"It is a good day to die." in TKW p.69.
 cat:	time
@@ -5697,7 +5697,7 @@ tlh:	{jajlo' Qa'}
 pos:	noun
 sv:	ett slags «djur» (för oljud i gryningen)
 en:	type of «animal» (makes a ruckus at dawn)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5
 data:	derived form
 file:	2001-12-holqed-10-4.txt
 
@@ -5705,7 +5705,7 @@ tlh:	{jajvam}
 pos:	noun
 sv:	«idag»
 en:	«today»
-def:	TKW p.69
+def:	TKW p.69
 ref:	TDNW
 com:	This word (meaning "this day") need not be part of the dictionary, it
 	is mostly famous for occuring in the Klingon proverb {Heghlu'meH QaQ
@@ -5873,7 +5873,7 @@ tlh:	{jay}
 pos:	noun
 sv:	klingonskans «{j}»-ljud
 en:	Klingon ~«{j}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -5911,7 +5911,7 @@ pos:	conjuction
 sv:	«också», «och» (kommer efter verb/förenade substantiv)
 en:	<also>, <and>, «too»
 def:	TKD 5.3 (p.55)
-ref:	TKW pp.34, 155, 187
+ref:	TKW pp.34, 155, 187
 gram:	{qamuS je} ~I also hate you;~ {bomwI' mI'wI' je} ~singer and dancer;~
 	follows verb or two or more nouns [TKD 5.3 (p.55)]
 com:	When following a verb it means "also, too", when following nouns it
@@ -6013,7 +6013,7 @@ tlh:	{jer}
 pos:	verb
 sv:	«rycka», plötsligt röra sig framåt eller bakåt (om flygmaskin)
 en:	«surge», suddenly move forward or backward (about aircraft)
-def:	HQ11:2 p.9
+def:	HQ11:2 p.9
 com:	"if it suddenly moves forwards or backwards" [HQ11:2 p.9]
 file:	2002-06-holqed-11-2.txt
 
@@ -6038,7 +6038,7 @@ tlh:	{jev} (2)
 pos:	verb
 sv:	«väsa», «rossla», «andas» ljudligt
 en:	«wheeze», «breathe» nosily
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8
 ref:	TDNW
 com:	Most likely MO reinvented this word without realizing it already
 	existed: {tlhov} "wheeze"---it occurs only in the Klingon--English side
@@ -6051,7 +6051,7 @@ pos:	verb
 sv:	«besegra»
 en:	<defeat>
 def:	TKD
-ref:	TKW pp.ix, 24
+ref:	TKW pp.ix, 24
 file:	1992-01-01-tkd.txt
 
 tlh:	{jey}
@@ -6074,7 +6074,7 @@ pos:	verb
 sv:	«köpa», «handla»
 en:	<buy>, <purchase>
 def:	TKD
-ref:	TKW pp.7, 213
+ref:	TKW pp.7, 213
 cat:	money
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
@@ -6118,7 +6118,7 @@ pos:	pronoun
 sv:	«jag», «mig»
 en:	<I>, <me>
 def:	TKD
-ref:	TKW pp.203, 206
+ref:	TKW pp.203, 206
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -6143,7 +6143,7 @@ pos:	noun
 sv:	«granne»
 en:	<neighbor>
 def:	TKD
-ref:	{qep'a'} 1996
+ref:	{qep'a'} 1996
 pun:	Okrand confirmed at {qep'a'} 1996 that he had a neighbor named "Jill."
 	(Robyn Stewart)
 file:	1992-01-01-tkd.txt
@@ -6152,7 +6152,7 @@ tlh:	{jIm}
 pos:	verb
 sv:	«höja», «sänka» (om flygmaskin)
 en:	«heave» (about aircraft)
-def:	HQ11:2 p.9
+def:	HQ11:2 p.9
 com:	"When the plane moves up or down (not when the nose points up or
 	down, but when the plane increases or decreases altitude, as if the
 	whole plane is being pushed up or down)" [HQ11:2 p.9]
@@ -6356,7 +6356,7 @@ pos:	verb
 sv:	«fånga», ta till fånga
 en:	<capture>
 def:	TKD
-ref:	TKW pp.51, 93, 97
+ref:	TKW pp.51, 93, 97
 file:	1992-01-01-tkd.txt
 
 tlh:	{jonpIn}
@@ -6438,7 +6438,7 @@ tlh:	{jorneb}
 pos:	noun
 sv:	«stridsspets» (på en torped)
 en:	<warhead> (of a torpedo)
-def:	KGT E-K, p.57
+def:	KGT E-K, p.57
 see:	*{jornub}
 file:	1997-11-01-kgt.txt
 
@@ -6560,7 +6560,7 @@ tlh:	{jul}
 pos:	noun
 sv:	«sol» (generell term)
 en:	«sun» (general term)
-def:	{qep'a'} 2011
+def:	{qep'a'} 2011
 ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
 	from qep'a' 18")
 com:	This is a general term for a planet's sun. It is not the name of a
@@ -6586,7 +6586,7 @@ pos:	noun
 sv:	«vän»
 en:	<friend>
 def:	TKD
-ref:	TKW pp.37, 38
+ref:	TKW pp.37, 38
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -6711,7 +6711,7 @@ tlh:	{laq}
 pos:	verb
 sv:	«flaxa», «slå» (om fågelvingar)
 en:	«flap» (bird's wings do this)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5
 com:	Used about a birds wings. "[...] in flight, a bird's wings {laq}
 	(the bird is said to {laqmoH} its wings)" [HQ10:4 p. 5]
 file:	2001-12-holqed-10-4.txt
@@ -6728,7 +6728,7 @@ pos:	verb
 sv:	«lukta», «känna lukt»
 en:	<smell>, «sense odors»
 def:	TKD
-ref:	TKW pp.157, 159
+ref:	TKW pp.157, 159
 file:	1992-01-01-tkd.txt
 
 tlh:	{laSvargh}
@@ -6765,7 +6765,7 @@ pos:	verb
 sv:	vara «många», vara «talrika», vara «mycket»
 en:	be <many>, be <numerous>, be «much» 
 def:	TKD
-ref:	TKW pp.35, 53, 95, 179; S33
+ref:	TKW pp.35, 53, 95, 179; S33
 com:	Entries differ and have been combined here.
 	S33: {HoS law'qu'} "very much energy"
 data:	KLCP-1
@@ -6775,7 +6775,7 @@ tlh:	{lay}
 pos:	noun
 sv:	klingonskans «{l}»-ljud
 en:	Klingon ~«{l}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -6962,7 +6962,7 @@ tlh:	{lev}
 pos:	noun
 sv:	«gom»
 en:	«roof» of «mouth», hard «palate»
-def:	{qep'a'} 2005
+def:	{qep'a'} 2005
 ref:	Web 2005-08-01 (by Rohan Fenwick,
 	http://klingon.livejournal.com/26647.html, "Marc Okrand nob: qep'a'
 	mu'mey chu'"); TDNW
@@ -6997,7 +6997,7 @@ tlh:	{le'yo'}
 pos:	noun
 sv:	«stolthet»
 en:	«pride»
-def:	{qep'a'} 2011
+def:	{qep'a'} 2011
 ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
 	from qep'a' 18")
 com:	Just to be clear, this describes an emotion, as opposed to a pribe of
@@ -7099,7 +7099,7 @@ tlh:	{lIr}
 pos:	noun
 sv:	en slags «fågel» (nattlevande)
 en:	type of «bird» (nocturnal)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{lIS}
@@ -7182,7 +7182,7 @@ pos:	noun
 sv:	«man», «hane»
 en:	<male>, <man>
 def:	TKD
-ref:	TKW pp.127, 177, 206
+ref:	TKW pp.127, 177, 206
 cat:	family
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
@@ -7277,7 +7277,7 @@ pos:	noun
 sv:	«dörr», «grind», «port»
 en:	<door>, <gate>
 def:	TKD
-ref:	TKW p.186; HQ12:2 p.7
+ref:	TKW p.186; HQ12:2 p.7
 see:	{DIn}, {qa'rI'}
 cat:	architecture
 data:	KLCP-1
@@ -7288,21 +7288,21 @@ pos:	verb
 sv:	vara i en «position», vara i ett «läge», vara i en «pose», vara i en
 	«ställning», vara i en «hållning»
 en:	be in an «attitude», be in a «stance», be in a «pose»
-def:	HQ11:2 p.8
+def:	HQ11:2 p.8
 file:	2002-06-holqed-11-2.txt
 
 tlh:	{lol}
 pos:	noun
 sv:	en särskild ~Mok'bara~-«position»
 en:	a specific ~Mok'bara~ «position»
-def:	HQ11:2 p.8
+def:	HQ11:2 p.8
 file:	2002-06-holqed-11-2.txt
 
 tlh:	{lolchu'}
 pos:	verb
 sv:	vara i en korrekt «position», vara i ett riktigt «läge»
 en:	be in a correct «attitude»
-def:	HQ11:2 p.8
+def:	HQ11:2 p.8
 data:	derived form
 file:	2002-06-holqed-11-2.txt
 
@@ -7310,7 +7310,7 @@ tlh:	{lolchu'taH}
 pos:	verb
 sv:	upprätthålla en korrekt «position», bibehålla ett riktigt «läge»
 en:	maintain a correct «attitude»
-def:	HQ11:2 p.8
+def:	HQ11:2 p.8
 data:	derived form
 file:	2002-06-holqed-11-2.txt
 
@@ -7318,7 +7318,7 @@ tlh:	{lolmoH}
 pos:	verb
 sv:	«manövrera» (en flygmaskin)
 en:	«maneuver» (an aircraft)
-def:	HQ11:2 p.8
+def:	HQ11:2 p.8
 data:	derived form
 file:	2002-06-holqed-11-2.txt
 
@@ -7333,7 +7333,7 @@ tlh:	{loltaH}
 pos:	verb
 sv:	upprätthålla en «position», bibehålla ett «läge»
 en:	maintain an «attitude»
-def:	HQ11:2 p.8
+def:	HQ11:2 p.8
 data:	derived form
 file:	2002-06-holqed-11-2.txt
 
@@ -7357,7 +7357,7 @@ pos:	verb
 sv:	«fira», «celebrera»
 en:	<celebrate>
 def:	TKD
-ref:	TKW pp.153, 205
+ref:	TKW pp.153, 205
 com:	¿?Shouldn't {lop} (1) and {lop} (2) be one word?
 file:	1992-01-01-tkd.txt
 
@@ -7484,7 +7484,7 @@ pos:	noun
 sv:	en slags «fågel» (slår ner i vattnet för att fånga mat, men kan inte
 	simma)
 en:	type of «bird» (swoops into the water to catch food, but cannot swim)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{lotlhwI'}
@@ -7515,7 +7515,7 @@ pos:	noun
 sv:	«användning», «bruk», «funktion», «nytta»
 en:	<use>
 def:	TKDa
-ref:	TKW pp.103, 169, 205
+ref:	TKW pp.103, 169, 205
 file:	1992-01-01-tkd.txt
 
 tlh:	{lo'laH}
@@ -7611,7 +7611,7 @@ tlh:	{luHwI' tIH}
 pos:	noun
 sv:	«dragstråle»
 en:	«tractor beam»
-def:	{qep'a'} 2010
+def:	{qep'a'} 2010
 ref:	Email 2010-12-13 (by Lieven L. Litaer, to tlhingan-hol, "tractor
 	beam"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter
 	from Maltz")
@@ -7623,7 +7623,7 @@ pos:	verb
 sv:	«misslyckas», «förlora»
 en:	<fail>, <lose> (not win)
 def:	TKD; KGT
-ref:	TKW pp.56, 211
+ref:	TKW pp.56, 211
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{lul}
@@ -7646,7 +7646,7 @@ pos:	verb
 sv:	«förhala», «skjuta» upp
 en:	<postpone>, <procrastinate>
 def:	TKD
-ref:	TKW pp.9, 67
+ref:	TKW pp.9, 67
 file:	1992-01-01-tkd.txt
 
 tlh:	{lung}
@@ -7884,7 +7884,7 @@ tlh:	{mar}
 pos:	verb
 sv:	«använda» «stor«tå»n» («förstatå»n) [arkaiskt]
 en:	«use» the «big «toe»» («first toe») [archaic]
-def:	HQ10:2 p.10
+def:	HQ10:2 p.10
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -7907,7 +7907,7 @@ tlh:	{marwI'}
 pos:	noun
 sv:	«stor«tå»», «förstatå»
 en:	«big «toe»», «first toe»
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -8005,7 +8005,7 @@ tlh:	{may}
 pos:	noun
 sv:	klingonskans «{m}»-ljud
 en:	Klingon ~«{m}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -8014,7 +8014,7 @@ pos:	noun
 sv:	«strid» (ett enskild strid)
 en:	<battle> (an individual battle)
 def:	TKD; KGT p.47
-ref:	TKW pp.38, 91, 147, 211
+ref:	TKW pp.38, 91, 147, 211
 see:	{vIq}
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
@@ -8110,7 +8110,7 @@ tlh:	{megh'an}
 pos:	noun
 sv:	«ände» (på pinne, tråd etc.; motsatt {'er'In})
 en:	«end» (of stick, piece of string etc.; opposite {'er'In})
-def:	HQ12:2 pp.6--8
+def:	HQ12:2 pp.6--8
 ref:	TDNW
 pun:	{megh'an} and {'er'In} Okrand confirmed that this is because he knows
 	two twins--his nieces--named Megan and Erin. ({qep'a'} 2003)
@@ -8243,7 +8243,7 @@ pos:	verb
 sv:	«sluta», «upphöra»
 en:	<stop>, <cease>
 def:	TKD
-ref:	TKW p.87; HQ12:2 p.9
+ref:	TKW p.87; HQ12:2 p.9
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -8258,7 +8258,7 @@ tlh:	{meyrI'}
 pos:	noun
 sv:	«fyrkant», «kvadrat»
 en:	«square» (geometrical shape)
-def:	{qep'a'} 2005
+def:	{qep'a'} 2005
 ref:	Web 2005-08-01 (by Rohan Fenwick,
 	http://klingon.livejournal.com/26647.html, "Marc Okrand nob: qep'a'
 	mu'mey chu'"); TDNW
@@ -8307,7 +8307,7 @@ tlh:	{mIl}
 pos:	verb
 sv:	vara «fordom «ärad»», vara «tidigare «hedrad»»
 en:	be formerly «honored»  but now «disgraced»
-def:	HQ12:3 p.8
+def:	HQ12:3 p.8
 ref:	TDNW
 com:	"This would be applied to a leader who left office is disgrace, for
 	example, or an ousted ship's captain. It would not be used of a
@@ -8322,7 +8322,7 @@ tlh:	{mIllogh}
 pos:	noun
 sv:	«bild» (ritning, foto, serieteckning, datorikon, etc)
 en:	«picture» (drawing, photo, cartoon, computer icons, etc)
-def:	{qep'a'} 2010
+def:	{qep'a'} 2010
 ref:	Email 2010-12-05 (by Rohan Fenwick, to tlhingan-hol, "latlh mu' chu'");
 	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from
 	Maltz")
@@ -8354,7 +8354,7 @@ pos:	noun
 sv:	«öga»
 en:	<eye>
 def:	TKD
-ref:	TKW pp.169, 19
+ref:	TKW pp.169, 19
 cat:	body part
 file:	1992-01-01-tkd.txt
 
@@ -8384,7 +8384,7 @@ pos:	verb
 sv:	«steka», «fritera»
 en:	<fry>, <deep-fry>
 def:	KGT
-ref:	{qep'a'} 1997
+ref:	{qep'a'} 1997
 com:	Entries differ in source. One of the E-K entries is used here.
 pun:	"Marc nodded, smiling infuriatingly, to confirm {mIQ} (deep fry) as in
 	mIQ-Donald's french fries." (Robyn Stewart, {qep'a'} 1997)
@@ -8544,7 +8544,7 @@ tlh:	{mogh}
 pos:	name
 sv:	«Mogh»
 en:	«Mogh»
-def:	KGT pp.41, 197
+def:	KGT pp.41, 197
 file:	1997-11-01-kgt.txt
 
 tlh:	{moH} (1)
@@ -8575,7 +8575,7 @@ pos:	verb
 sv:	«bli»
 en:	<become>
 def:	TKD
-ref:	TKW pp.5, 177
+ref:	TKW pp.5, 177
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -8622,7 +8622,7 @@ pos:	verb
 sv:	«le», «grina», «hånle»
 en:	<smile>, <grin>, «sneer»
 def:	KGT
-ref:	TKW p.167; {qep'a'} 1996
+ref:	TKW p.167; {qep'a'} 1996
 pun:	"Mona Lisa" ({mon'a'} "Is she smiling?") Confirmed by MO at {qep'a'}
 	1996.
 file:	1997-11-01-kgt.txt
@@ -9230,7 +9230,7 @@ tlh:	{namtun}
 pos:	noun
 sv:	«inledning», «början» (på sång)
 en:	«beginning» (of song)
-def:	HQ12:2 p.9
+def:	HQ12:2 p.9
 ref:	TDNW
 see:	{lIH}, {'o'megh}
 file:	2003-06-holqed-12-2.txt
@@ -9247,7 +9247,7 @@ tlh:	{nan}
 pos:	noun
 sv:	ett slags kampsport«spark»
 en:	type of martial arts «kick»
-def:	HQ10:2 p.11
+def:	HQ10:2 p.11
 ref:	TDNW
 cat:	fighting
 file:	2001-06-holqed-10-2.txt
@@ -9263,7 +9263,7 @@ tlh:	{nan}
 pos:	verb
 sv:	«använda» «fjärde«tå»n» [arkaiskt]
 en:	«use» the «fourth «toe»» [archaic]
-def:	HQ10:2 p.10
+def:	HQ10:2 p.10
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -9279,7 +9279,7 @@ tlh:	{nanwI'} (2)
 pos:	noun
 sv:	«fjärde«tå»»
 en:	«fourth «toe»»
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -9343,7 +9343,7 @@ pos:	verb
 sv:	«fly», «rymma»
 en:	<escape>
 def:	TKDa
-ref:	TKW pp.145, 147, 200
+ref:	TKW pp.145, 147, 200
 file:	1992-01-01-tkd.txt
 
 tlh:	{naS}
@@ -9357,7 +9357,7 @@ tlh:	{natlIS}
 pos:	noun
 sv:	«sista posten i en «lista»», ««slut»et på en lista»
 en:	«last entry in «list»», «end» of list
-def:	HQ12:2 p.9
+def:	HQ12:2 p.9
 ref:	TDNW
 see:	{tetlh}
 file:	2003-06-holqed-12-2.txt
@@ -9421,7 +9421,7 @@ pos:	verb
 sv:	«gifta» sig med (hustru gör detta)
 en:	<marry> (wife does this)
 def:	TKD
-ref:	{qep'a'} 1997
+ref:	{qep'a'} 1997
 pun:	Okrand confirmed at {qep'a'} 1997 that {nay} came from "nay" (no).
 	(Chet Braun)
 cat:	family
@@ -9431,7 +9431,7 @@ tlh:	{nay}
 pos:	noun
 sv:	klingonskans «{n}»-ljud
 en:	Klingon ~«{n}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -9468,7 +9468,7 @@ tlh:	{neb}
 pos:	noun
 sv:	«näbb»
 en:	«beak», «bill»
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{nech}
@@ -9501,7 +9501,7 @@ pos:	adverbial
 sv:	«bara», «enbart», «endast» (kommer efter verb eller substantiv)
 en:	<only>, <merely>, <just>, «alone»
 def:	TKD
-ref:	TKW pp.21, 61, 81, 105, 111, 113, 115, 191
+ref:	TKW pp.21, 61, 81, 105, 111, 113, 115, 191
 gram:	{chomuS neH} ~you merely hate me;~ {Dargh neH vItlhutlh} ~I drink only
 	tea;~ follows a verb or noun [TKD 5.4 (p.56)]
 com:	Follows the verb or noun it modifies. When following a noun it means
@@ -9633,7 +9633,7 @@ tlh:	{neSlo'}
 pos:	noun
 sv:	«spegel» (mindre)
 en:	«mirror» (smaller)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5
 com:	smaller than {SIla'}
 file:	2001-12-holqed-10-4.txt
 
@@ -9841,7 +9841,7 @@ pos:	adverbial
 sv:	«ensam», på «egen hand»
 en:	<alone>, acting alone
 def:	TKDa
-ref:	TKW pp.37, 63
+ref:	TKW pp.37, 63
 file:	1992-01-01-tkd.txt
 
 tlh:	{nItebHa'}
@@ -9888,7 +9888,7 @@ pos:	verb
 sv:	vara «överlägsen», vara «mäktig»
 en:	be <superior>, be «great»
 def:	TKD; TKW p.209
-ref:	TKW pp.ix, 24
+ref:	TKW pp.ix, 24
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
 tlh:	{nIvnav}
@@ -9903,7 +9903,7 @@ tlh:	{nIvqu'}
 pos:	verb
 sv:	vara «bäst»
 en:	be «best»
-def:	TKW pp.101, 121, 141
+def:	TKW pp.101, 121, 141
 data:	derived form
 file:	1996-05-01-tkw.txt
 
@@ -9974,7 +9974,7 @@ tlh:	{noD}
 pos:	verb
 sv:	«hämnas», «vedergälla», «ge igen»
 en:	<retaliate>, «revenge», take «vengeance»
-def:	TKD; TKW pp.131, 129
+def:	TKD; TKW pp.131, 129
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
 tlh:	{nogh}
@@ -9996,8 +9996,8 @@ tlh:	{noH}
 pos:	noun
 sv:	«krig» (ett enskilt krig)
 en:	<war> (an individual war)
-def:	TKDa; KGT pp.46, 47 et al.
-ref:	TKW pp.179, 211
+def:	TKDa; KGT pp.46, 47 et al.
+ref:	TKW pp.179, 211
 see:	{veS}
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
@@ -10005,7 +10005,7 @@ tlh:	{noHva'Dut}
 pos:	noun
 sv:	«No'hvadut» (a geographic region)
 en:	«No'hvadut» (ett geografisk region)
-def:	KGT p.26
+def:	KGT p.26
 file:	1997-11-01-kgt.txt
 
 tlh:	{noj}
@@ -10086,7 +10086,7 @@ pos:	adverbial
 sv:	«aldrig»
 en:	<never>
 def:	TKD
-ref:	TKW pp.46, 80, 105, 205
+ref:	TKW pp.46, 80, 105, 205
 cat:	time
 file:	1992-01-01-tkd.txt
 
@@ -10094,7 +10094,7 @@ tlh:	{notqa'}
 pos:	noun
 sv:	en slags «fågel» (stor, svart)
 en:	type of «bird» (large, black)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4
 com:	nowhere near as large as a qa'rol, which is really big
 pun:	"'Nevermore' quoth the raven." ({notqa'} "never again").
 file:	2001-12-holqed-10-4.txt
@@ -10203,7 +10203,7 @@ tlh:	{nughI'}
 pos:	verb
 sv:	«gnugga» knogarna mot någons «huvud»
 en:	<twist> knuckle into someone's «head»
-def:	{qep'a'} 1996; KGT
+def:	{qep'a'} 1996; KGT
 pun:	{SuSvaj} happened to be sitting next to Okrand at {qep'a' wejDIch}
 	(1996) when everyone was socializing and horsing around. While someone
 	was giving a noogie to a hapless victim, Krankor jokingly said "We
@@ -10514,7 +10514,7 @@ tlh:	{ngay}
 pos:	noun
 sv:	klingonskans «{ng}»-ljud
 en:	Klingon ~«{ng}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -10553,7 +10553,7 @@ tlh:	{ngech} (2)
 pos:	noun
 sv:	«springa» mellan kvinnas bröst
 en:	woman's «cleavage»
-def:	{qep'a'} 1996
+def:	{qep'a'} 1996
 ref:	Email 1996-08-08 (by David Trimboli, to tlhingan-hol, "Re: Nobody")
 cat:	body part
 file:	1996-08-08-email.txt
@@ -10696,7 +10696,7 @@ tlh:	{ngIq}
 pos:	noun
 sv:	«enda en», «enstaka en»
 en:	«singular one», «individual one»
-def:	{qep'a'} 2011
+def:	{qep'a'} 2011
 ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
 	from qep'a' 18")
 com:	There were two distinct examples of this word's use seen in the opera.
@@ -10743,7 +10743,7 @@ tlh:	{ngogh}
 pos:	noun
 sv:	«block», «klump», «kloss»
 en:	«block», «lump», «brick»
-def:	{qep'a'} 2010
+def:	{qep'a'} 2010
 ref:	Email 2010-12-22 (by Lieven L. Litaer, to tlhingan-hol, "latlh
 	'e'nalpu'"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol,
 	"Letter from Maltz")
@@ -10753,7 +10753,7 @@ tlh:	{ngogh tun}
 pos:	noun
 sv:	«kudde»
 en:	«pillow»
-def:	{qep'a'} 2010
+def:	{qep'a'} 2010
 ref:	Email 2010-12-07 (by Lieven L. Litaer, to tlhingan-hol, "News from
 	Maltz"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol,
 	"Letter from Maltz")
@@ -10902,7 +10902,7 @@ tlh:	{ngun}
 pos:	verb
 sv:	«sätta» sig, «slå» sig ner
 en:	«perch»
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5
 com:	If bird lands on land, use {Saq}, on water, use {tlhot}.
 file:	2001-12-holqed-10-4.txt
 
@@ -10926,7 +10926,7 @@ tlh:	{nguq}
 pos:	verb
 sv:	vara «arrogant», vara «inbilsk», vara «högfärdig», vara «egenkär»
 en:	be «arrogant», be «haughty», be «conceited»
-def:	HQ12:3 p.9
+def:	HQ12:3 p.9
 ref:	TDNW
 com:	"an undesirable trait" [HQ12:3 p.9]
 file:	2003-09-holqed-12-3.txt
@@ -10990,7 +10990,7 @@ tlh:	{pach}
 pos:	noun
 sv:	«klo», «fågelklo»
 en:	<claw>, «talon»
-def:	TKDa; HQ10:4 p.5
+def:	TKDa; HQ10:4 p.5
 ref:	TKW p.185
 file:	1992-01-01-tkd.txt; 2001-12-holqed-10-4.txt
 
@@ -10999,7 +10999,7 @@ pos:	noun
 sv:	«ingenting», «inget», «ingen»
 en:	<nothing>, <none>, <no one>
 def:	TKD; KGT
-ref:	TKW pp.139, 201
+ref:	TKW pp.139, 201
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
@@ -11053,7 +11053,7 @@ tlh:	{pan}
 pos:	verb
 sv:	«gnistra», «avge gnistor»
 en:	«spark», «emit sparks»
-def:	{qep'a'} 2011
+def:	{qep'a'} 2011
 ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
 	from qep'a' 18")
 com:	As the duel between Kahless and Molor continues, the opera repeats a
@@ -11099,7 +11099,7 @@ tlh:	{parbIng}
 pos:	noun
 sv:	en slags «fågel» (mellanstorlek, med särskilt grälla färger)
 en:	type of «bird» (mid-sized, with particularly garish coloring)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{parHa'}
@@ -11201,7 +11201,7 @@ tlh:	{pay}
 pos:	noun
 sv:	klingonskans «{p}»-ljud
 en:	Klingon ~«{p}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -11792,7 +11792,7 @@ tlh:	{pop}
 pos:	noun
 sv:	«belöning», «pris», «ära», «aktningsbevis» (för en prestation)
 en:	<reward>, «prize», «honor», «token of esteem» (for an achievement)
-def:	TKDa; TKW p.47; HQ12:3 p.9
+def:	TKDa; TKW p.47; HQ12:3 p.9
 ref:	TDNW
 com:	"Neither {quv} nor {batlh} [is] the same as {pop}, usually translated
 	<reward> but sometimes translated <honor> in the sense of <token of
@@ -11834,7 +11834,7 @@ tlh:	{porgh mIw}
 pos:	noun
 sv:	«kroppsfunktion»
 en:	«bodily function»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8
 ref:	TDNW
 data:	phrase
 file:	2003-12-holqed-12-4.txt
@@ -11843,7 +11843,7 @@ tlh:	{porghQeD}
 pos:	noun
 sv:	«biologi», «anatomi» (vetenskapliga studier av kroppsfunktioner)
 en:	«biology», «anatomy» (scientific study of bodily functions)
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8
 ref:	TDNW
 com:	"Maltz was familiar with the scientific study of bodily functions, or
 	{porghQeD}, but he didn't consider himself terribly well versed in the
@@ -11887,7 +11887,7 @@ pos:	noun
 sv:	«betydelsefullt ting», något viktigt, «viktig sak»
 en:	<consequential thing>, something important, <important thing>
 def:	TKD
-ref:	TKW pp.53, 135
+ref:	TKW pp.53, 135
 file:	1992-01-01-tkd.txt
 
 tlh:	{pov}
@@ -12074,7 +12074,7 @@ pos:	noun
 sv:	«son»
 en:	<son>
 def:	TKD
-ref:	TKW pp.155, 177
+ref:	TKW pp.155, 177
 cat:	family
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
@@ -12127,7 +12127,7 @@ tlh:	{pur}
 pos:	verb
 sv:	«andas in»
 en:	«inhale»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8
 ref:	TDNW
 file:	2003-12-holqed-12-4.txt
 
@@ -12136,7 +12136,7 @@ pos:	verb
 sv:	vara «få», vara «några», vara en «handfull»
 en:	be <few>, be <several>, be a <handful>
 def:	TKD
-ref:	TKW pp.35, 53, 95, 179, 185
+ref:	TKW pp.35, 53, 95, 179, 185
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -12232,7 +12232,7 @@ tlh:	{pu'jIn}
 pos:	noun
 sv:	«karta», «ritning»
 en:	«map», «plan» (architect's plan of a building etc.)
-def:	{qep'a'} 2007
+def:	{qep'a'} 2007
 ref:	Email 2007-08-02 (by Eric Andeen, to tlhingan-hol, "RE: mu' chu'");
 	Email 2007-08-03 (by Eric Andeen, to tlhingan-hol, "RE: mu' chu'");
 	Email 2009-11-24 (by Lieven L. Litaer, to tlhingan-hol, "pu'jIn")
@@ -12308,7 +12308,7 @@ pos:	noun
 sv:	«orm-mask» (som mat), «~gagh~»
 en:	<serpent worm> (as food), «~gagh~»
 def:	TKDa
-ref:	TKW pp.137, 141
+ref:	TKW pp.137, 141
 com:	The word "~gagh~" found in definition of {ghevI'} in KGT.
 file:	1992-01-01-tkd.txt
 
@@ -12316,7 +12316,7 @@ tlh:	{qaghwI'}
 pos:	noun
 sv:	klingonskans «{'}»-ljud
 en:	Klingon ~«{'}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -12336,7 +12336,7 @@ tlh:	{qaj}
 pos:	verb
 sv:	«glidflyga», «sväva»
 en:	«soar»
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{qajunpaQ}
@@ -12392,7 +12392,7 @@ pos:	verb
 sv:	vara «gammal» (inte ung)
 en:	be <old> (not young)
 def:	TKD
-ref:	TKW pp.29, 117
+ref:	TKW pp.29, 117
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -12400,7 +12400,7 @@ tlh:	{qan} (2)
 pos:	verb
 sv:	¿?«använda» «lill«fingret»»
 en:	«use» the «pinky» («little «finger»»)
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7
 com:	An idiomatic gesture: to point your pinky at someone is to
 	comment that you believe they are old.
 	** «lill«fingret»» som uppslagsord borde vara i obest form, hur fixa
@@ -12412,14 +12412,14 @@ tlh:	{qanraD}
 pos:	noun
 sv:	en slag «fågel» (berömd för sin sång)
 en:	type of «bird» (noted for its song)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{qanwI'}
 pos:	noun
 sv:	«lill«finger»»
 en:	«pinky», «little «finger»»
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -12451,7 +12451,7 @@ tlh:	{qaq}
 pos:	verb
 sv:	vara «fördelaktig», vara «föredragen», vara «bättre»
 en:	be <preferable>, be better
-def:	TKDa; TKW pp.35, 95
+def:	TKDa; TKW pp.35, 95
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
 tlh:	{qar}
@@ -12487,7 +12487,7 @@ tlh:	{qaryoq}
 pos:	noun
 sv:	en slags «fågel» (förmögen att härma språk)
 en:	type of «bird» (capable of mimicking speech)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5
 com:	Some people pluralize these with {-pu'}, but most use {-mey}.
 pun:	Wordplay on "kareoke". (?)
 file:	2001-12-holqed-10-4.txt
@@ -12496,7 +12496,7 @@ tlh:	{qaryoq'a'}
 pos:	noun
 sv:	en slags «fågel» (stor, förmögen att härma språk)
 en:	type of «bird» (large, capable of mimicking speech)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5
 com:	Some people pluralize these with {-pu'}, but most use {-mey}.
 pun:	Wordplay on "karaoke". (?)
 data:	derived form
@@ -12507,7 +12507,7 @@ pos:	verb
 sv:	«ske», «hända», «inträffa»
 en:	<occur>, <happen>
 def:	TKD
-ref:	TKW pp.127, 155
+ref:	TKW pp.127, 155
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -12539,7 +12539,7 @@ pos:	verb
 sv:	«komma ihåg», «minnas»
 en:	<remember>
 def:	TKD
-ref:	TKW pp.17, 157, 187
+ref:	TKW pp.17, 157, 187
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -12562,7 +12562,7 @@ tlh:	{qay}
 pos:	verb
 sv:	¿?«använda» «lång«fingret»»
 en:	«use» the «middle «finger»» («second finger»)
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -12570,7 +12570,7 @@ tlh:	{qay}
 pos:	noun
 sv:	klingonskans «{q}»-ljud
 en:	Klingon ~«{q}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -12578,7 +12578,7 @@ tlh:	{qaywI'}
 pos:	noun
 sv:	«lång«finger»»
 en:	«middle «finger»», «second finger»
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -12595,7 +12595,7 @@ pos:	noun
 sv:	«ande»
 en:	<spirit>
 def:	KGT
-ref:	TKW pp.7, 145, 147
+ref:	TKW pp.7, 145, 147
 file:	1997-11-01-kgt.txt
 
 tlh:	{qa'meH}
@@ -12621,7 +12621,7 @@ tlh:	{qa'rI'}
 pos:	noun
 sv:	«slut», «ände» (på långsmalt avgränsat utrymme, t.ex. korridor, rör, väg, bro, fält etc.)
 en:	«end» (of a long bounded space, e.g. corridor, conduit, road, bridge, field etc.)
-def:	HQ12:2 pp.7--8
+def:	HQ12:2 pp.7--8
 ref:	TDNW
 com:	"For the end of a longish enclosed space that one is typically inside
 	or experiences from the inside, such as a corridor, tunnel, or conduit
@@ -12642,7 +12642,7 @@ tlh:	{qa'rol}
 pos:	noun
 sv:	en slags «fågel» (verkligt stor, svart)
 en:	type of «bird» (really big, black)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4
 com:	much larger than a {notqa'}
 file:	2001-12-holqed-10-4.txt
 
@@ -12817,7 +12817,7 @@ pos:	verb
 sv:	«springa», «löpa», «jogga»
 en:	<run>, <jog>
 def:	TKD
-ref:	TKW pp.65, 127, 65
+ref:	TKW pp.65, 127, 65
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -12874,7 +12874,7 @@ tlh:	{qew}
 pos:	verb
 sv:	¿?«använda» «ring«fingret»»
 en:	«use» the «ring «finger»» («third finger»)
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -12882,7 +12882,7 @@ tlh:	{qewwI'}
 pos:	noun
 sv:	«ring«finger»»
 en:	«ring «finger»», «third finger»
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -13004,7 +13004,7 @@ pos:	verb
 sv:	«slå» (med hand eller sak)
 en:	<hit> (with hand, fist, implement)
 def:	TKD
-ref:	TKW pp.8, 191
+ref:	TKW pp.8, 191
 cat:	fighting
 file:	1992-01-01-tkd.txt
 
@@ -13075,7 +13075,7 @@ tlh:	{qI'empeq}
 pos:	name
 sv:	«K'mpec»
 en:	«K'mpec»
-def:	HQ10:2 p.8
+def:	HQ10:2 p.8
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{qoch}
@@ -13114,7 +13114,7 @@ pos:	noun
 sv:	«dåre», «fåne», «tok», «idiot»
 en:	<fool>
 def:	TKD
-ref:	TKW pp.105, 107, 111, 113, 115, 117
+ref:	TKW pp.105, 107, 111, 113, 115, 117
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -13146,7 +13146,7 @@ tlh:	{qolqoS}
 pos:	noun
 sv:	«kärna», «essens», väsentlig del av något
 en:	«core», «essence», essential part of something
-def:	{qep'a'} 2007
+def:	{qep'a'} 2007
 ref:	Email 2007-08-02 (by Robyn Stewart, to tlhingan-hol, "Re: mu' chu'")
 com:	John Colicos (1928--2000) is the name of the Canadian actor who played
 	"Kor". (Robyn Stewart, email to tlhingan-hol 2 August 2007)
@@ -13278,7 +13278,7 @@ tlh:	{qo'qaD}
 pos:	noun
 sv:	«slem» (som man hostar upp)
 en:	«phlegm»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8
 ref:	TDNW
 see:	{tuS}
 file:	2003-12-holqed-12-4.txt
@@ -13406,7 +13406,7 @@ tlh:	{qung}
 pos:	noun
 sv:	«hål» i musikinstument (t.ex. flöjt)
 en:	«hole» in musical instrument (e.g. flute)
-def:	HQ10:2 p.8
+def:	HQ10:2 p.8
 com:	This is to change pitch in a wind instrument; apparently not a
 	soundhole for stringed instrument.
 cat:	music
@@ -13493,7 +13493,7 @@ pos:	verb
 sv:	vara «ärad», vara «hedrad»
 en:	be <honored>, be «honorable»
 def:	TKDa
-ref:	TKW pp.24, 57, 59, 179; HQ12:3 p.9
+ref:	TKW pp.24, 57, 59, 179; HQ12:3 p.9
 com:	"[{quv} is] a sort of personal honor, the kind over which, by one's
 	behavior, one has some control. This sort of honor is earned, can be
 	bestowed on one, and is associated with reputation, dignity, and
@@ -13507,7 +13507,7 @@ pos:	noun
 sv:	«ära»
 en:	<honor>
 def:	TKDa
-ref:	TKW pp.55, 56, 59, 61, 179
+ref:	TKW pp.55, 56, 59, 61, 179
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -13533,7 +13533,7 @@ pos:	noun
 sv:	«vanära», «skam»
 en:	<dishonor>
 def:	KGT
-ref:	TKW p.155; HQ12:3 p.9
+ref:	TKW p.155; HQ12:3 p.9
 file:	1997-11-01-kgt.txt
 
 tlh:	{quvHa'moH}
@@ -13556,7 +13556,7 @@ tlh:	{quy'Ip}
 pos:	noun
 sv:	«kräkning», «spya»
 en:	«vomit»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8
 ref:	TDNW
 see:	{'em}
 file:	2003-12-holqed-12-4.txt
@@ -13683,7 +13683,7 @@ pos:	verb
 sv:	«lyckas», «fungera», vara i «funktion»
 en:	<work>, <function>, <succeed>, <operate>, be in operation
 def:	TKD; KGT
-ref:	TKW pp.56, 73, 175, 183, 209, 211
+ref:	TKW pp.56, 73, 175, 183, 209, 211
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
@@ -13704,7 +13704,7 @@ pos:	noun
 sv:	«framgång»
 en:	<success>
 def:	TKD
-ref:	TKW pp.x, 49
+ref:	TKW pp.x, 49
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -13712,7 +13712,7 @@ tlh:	{Qaq}
 pos:	verb
 sv:	«agera» med låtsad «heder», «bete» sig på ett «falskt» «hedervärt» sätt
 en:	«behave» «falsely» «honorably», behave in a falsely «honorable» manner
-def:	HQ12:3 p.8
+def:	HQ12:3 p.8
 ref:	TDNW
 com:	"This would be used of someone who purported to be someone or something
 	he or she was not. It is used in cases where one misrepresents oneself
@@ -13726,7 +13726,7 @@ pos:	verb
 sv:	vara «bra»
 en:	be <good>
 def:	TKD
-ref:	TKW pp.69, 73, 133
+ref:	TKW pp.69, 73, 133
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -13804,7 +13804,7 @@ tlh:	{Qay}
 pos:	noun
 sv:	klingonskans «{Q}»-ljud
 en:	Klingon ~«{Q}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -13813,14 +13813,14 @@ pos:	verb
 sv:	förlora «besinningen», tappa «behärskningen», tappa «humöret», bli
 	«ursinning», bli «rasande»
 en:	<blow> one's top, «lose» one's «temper»
-def:	TKD; HQ10:2 p.11
+def:	TKD; HQ10:2 p.11
 file:	1992-01-01-tkd.txt; 2001-06-holqed-10-2.txt
 
 tlh:	{Qay'}
 pos:	verb
 sv:	«använda» «lill«tå»n» («femtetå»n) [arkaiskt]
 en:	«use» the «little «toe»» («fifth toe») [archaic]
-def:	HQ10:2 p.10
+def:	HQ10:2 p.10
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -13828,7 +13828,7 @@ tlh:	{Qay'wI'}
 pos:	noun
 sv:	«lill«tå»», «femtetå»
 en:	«little «toe»», «fifth toe»
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -13847,7 +13847,7 @@ pos:	noun
 sv:	ett slags «djur» (snarlik en ~Qa'~, men mindre)
 en:	type of <animal> (similar to a ~Qa'~, but smaller)
 def:	KGT
-ref:	HQ10:4 p.5
+ref:	HQ10:4 p.5
 com:	The {Qa'Hom}, an animal similar to a {Qa'} but smaller, has been
 	confused with a bird by some; Maltz does not know why, especially
 	since it is the {jajlo' Qa'}, not the {Qa'Hom}, that makes a fuss
@@ -13935,7 +13935,7 @@ tlh:	{Qep'It}
 pos:	noun
 sv:	«gas» alstrad inuti kroppen («rap», «fis» etc.)
 en:	«gas» produced within the body («belch», «flatulence» etc.)
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8
 ref:	TDNW
 see:	{SIp} (general term for gas); {ruq}
 file:	2003-12-holqed-12-4.txt
@@ -14071,7 +14071,7 @@ tlh:	{QIn} (2)
 pos:	noun
 sv:	«vass spets» (t.ex. på penna), «spjut«spets»»
 en:	«sharp end» (e.g. on pen), <spearhead>
-def:	KGT; HQ12:2 p.7
+def:	KGT; HQ12:2 p.7
 ref:	TDNW
 com:	"When shown a pencil, Maltz said that the sharp end could be called a
 	{QIn}, but if the pencil were new and did not yet have a point, the
@@ -14084,7 +14084,7 @@ tlh:	{QIncha'}
 pos:	noun
 sv:	ett slags «djur», «~krincha~»
 en:	type of «animal», «~krincha~»
-def:	{qep'a'} 2011
+def:	{qep'a'} 2011
 ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
 	from qep'a' 18")
 com:	The English accompanying the opera said "Krincha, short and fierce". I
@@ -14279,7 +14279,7 @@ tlh:	{Qompu'}
 pos:	verb
 sv:	vara «farlig», vara «förrädisk», vara «opålitlig»
 en:	be «dangerous», be «hazardous» (about a thing)
-def:	KGT p.163
+def:	KGT p.163
 ref:	TDNW
 gram:	{Qompu' Duj} ~the ship is hazardous/has been left in a hazardous
 	condition~ (lit. ~the ship has experienced a tremor~)
@@ -14313,7 +14313,7 @@ tlh:	{QongDaq buq}
 pos:	noun
 sv:	«kudde», «sängpåse»
 en:	«pillow», «bed pouch»
-def:	{qep'a'} 2010
+def:	{qep'a'} 2010
 ref:	Email 2010-12-07 (by Lieven L. Litaer, to tlhingan-hol, "News from
 	Maltz"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol,
 	"Letter from Maltz")
@@ -14324,7 +14324,7 @@ tlh:	{QongDaq buqHom}
 pos:	noun
 sv:	«kudde», «sängpåse»
 en:	«pillow», «bed pouch»
-def:	{qep'a'} 2010
+def:	{qep'a'} 2010
 ref:	Email 2010-12-07 (by Lieven L. Litaer, to tlhingan-hol, "News from
 	Maltz"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol,
 	"Letter from Maltz")
@@ -14407,7 +14407,7 @@ pos:	verb
 sv:	«ligga» (ner)
 en:	<lie>, <recline>
 def:	TKD
-ref:	TKW pp.40, 161
+ref:	TKW pp.40, 161
 file:	1992-01-01-tkd.txt
 
 tlh:	{Qotmagh}
@@ -14444,7 +14444,7 @@ pos:	verb
 sv:	«höra»
 en:	<hear>
 def:	TKD
-ref:	TKW pp.31, 195
+ref:	TKW pp.31, 195
 com:	TKW p.31: "The verb {Qoy} means 'hear,' not just 'listen.'
 	One must actually percieve and understand that which is being
 	said."
@@ -14627,7 +14627,7 @@ pos:	verb
 sv:	«stödja», «stötta», «bära»
 en:	«support»
 def:	BoP
-ref:	{qep'a'} 2010; Email 2010-07-26 (by Chris Lipscombe, to tlhingan-hol,
+ref:	{qep'a'} 2010; Email 2010-07-26 (by Chris Lipscombe, to tlhingan-hol,
 	"Re: mu' chu'")
 com:	At {qep'a'} 2010: "Marc also clarified that {Qutlh} (support) can only
 	refer to physically supporting something. It can't refer to monetary
@@ -14648,7 +14648,7 @@ pos:	noun
 sv:	«plikt», «uppdrag», «uppgift», «jobb»
 en:	<duty>, <quest>, <mission>, <task>, <chore>
 def:	TKD
-ref:	TKW pp.66, 74, 139, 187
+ref:	TKW pp.66, 74, 139, 187
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -14808,14 +14808,14 @@ tlh:	{raw'}
 pos:	noun
 sv:	en slags «fågel» (vattenlevande, färgrik fjäderdräkt)
 en:	type of «bird» (aquatic, colorful plumage)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{ray}
 pos:	noun
 sv:	klingonskans «{r}»-ljud
 en:	Klingon ~«{r}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -14863,7 +14863,7 @@ tlh:	{rech}
 pos:	verb
 sv:	«andas ut»
 en:	«exhale»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8
 ref:	TDNW
 pun:	"Maltz was quite amused whet he realized that Klingon word {rech}
 	'exhale' sounded like the English word 'retch'---that is, 'vomit'---
@@ -14920,7 +14920,7 @@ pos:	adverbial
 sv:	«alltid», «ständigt»
 en:	<always>
 def:	TKD
-ref:	TKW pp.34, 49, 77, 79, 103, 123, 133, 141, 159, 170, 179, 200
+ref:	TKW pp.34, 49, 77, 79, 103, 123, 133, 141, 159, 170, 179, 200
 see:	{Hochlogh}
 cat:	time
 file:	1992-01-01-tkd.txt
@@ -15007,7 +15007,7 @@ tlh:	{rIl} (1)
 pos:	verb
 sv:	«spela» (ett horn- eller lurinstrument)
 en:	«play» (a horn instrument)
-def:	HQ10:2 p.9
+def:	HQ10:2 p.9
 com:	This is a brass technique, not a flute technique. Most typically
 	it is used with {gheb} as the object.
 cat:	music
@@ -15017,7 +15017,7 @@ tlh:	{rIl} (2)
 pos:	verb
 sv:	«använda» «tumme»n (vanligtvis använt om/till barn)
 en:	«use» the «thumb» (usually used to/about children)
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7
 com:	Most commonly used in reference to a child using a thumb.
 	See also {Sen}.
 cat:	body part
@@ -15027,7 +15027,7 @@ tlh:	{rIlwI'}
 pos:	noun
 sv:	«tumme» (vanligtvis använt om/till barn)
 en:	«thumb» (usually used to/about children)
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7
 com:	Most commonly used in reference to a child's thumb.
 	See also {Sen}.
 cat:	body part
@@ -15038,7 +15038,7 @@ pos:	verb
 sv:	vara «åstadkommen», vara «färdig»
 en:	be <accomplished>, be <finished>
 def:	TKD
-ref:	HQ12:2 p.9
+ref:	HQ12:2 p.9
 com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
@@ -15219,7 +15219,7 @@ tlh:	{ron}
 pos:	verb
 sv:	«banka», «rolla» (om flygmaskin)
 en:	«bank», «roll» (about aircraft)
-def:	HQ11:2 p.9
+def:	HQ11:2 p.9
 com:	"When the plane banks or rolls to one side or the other so that,
 	say, the left wing is pointed somewhat (or even a lot) upwards while
 	the right wing is pointed somewhat (or a lot) downwards, or vice
@@ -15276,7 +15276,7 @@ tlh:	{roS}
 pos:	verb
 sv:	«använda» «tredje«tå»n» [arkaiskt]
 en:	«use» the «third «toe»» [archaic]
-def:	HQ10:2 p.10
+def:	HQ10:2 p.10
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -15291,7 +15291,7 @@ tlh:	{roSwI'}
 pos:	noun
 sv:	«tredje«tå»»
 en:	«third «toe»»
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -15358,7 +15358,7 @@ tlh:	{ruq}
 pos:	verb
 sv:	«rapa»
 en:	«belch», «burp»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8
 ref:	TDNW
 see:	{Qep'It} (term for gas produced when belching)
 file:	2003-12-holqed-12-4.txt
@@ -15367,7 +15367,7 @@ tlh:	{ruq'e'vet}
 pos:	noun
 sv:	«Ruk'evet» (stad i Gevchok-regionen)
 en:	«Ruk'evet» (city in Gevchok region)
-def:	KGT pp.17, 30
+def:	KGT pp.17, 30
 file:	1997-11-01-kgt.txt
 
 tlh:	{ruq'e'vet}
@@ -15518,7 +15518,7 @@ pos:	verb
 sv:	«lokalisera», «leta» reda på, «söka» och «finna»
 en:	<locate>, <seek> and «find»
 def:	TKDa
-ref:	TKW pp.181, 186, 200
+ref:	TKW pp.181, 186, 200
 file:	1992-01-01-tkd.txt
 
 tlh:	{San}
@@ -15579,7 +15579,7 @@ tlh:	{SaQ}
 pos:	verb
 sv:	«gråta»
 en:	<cry> (not scream)
-def:	TKD; HQ12:4 p.9
+def:	TKD; HQ12:4 p.9
 com:	Does not include tears, since Klingon don't have any tear ducts.
 	[HQ12:4 p.9]
 data:	KLCP-1
@@ -15643,7 +15643,7 @@ pos:	verb
 sv:	«gifta» sig med (make gör detta)
 en:	<marry> (husband does this)
 def:	TKD
-ref:	{qep'a'} 1997
+ref:	{qep'a'} 1997
 pun:	Okrand confirmed at {qep'a'} 1997 that {Saw} came from "sure" with a
 	Southern drawl. (Chet Braun)
 cat:	family
@@ -15660,7 +15660,7 @@ tlh:	{Say}
 pos:	noun
 sv:	klingonskans «{S}»-ljud
 en:	Klingon ~«{S}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -15694,7 +15694,7 @@ tlh:	{Sa'Hut}
 pos:	noun
 sv:	«rumpa», «bakdel»
 en:	«ass», «rear end», «buttocks»
-def:	{qep'a'} 2003
+def:	{qep'a'} 2003
 ref:	Email 2003-09-16 (by Tad Stauffer, to tlhingan-hol, "Re: An error
 	(qep'a' wa'maHDIch)"); TDNW
 com:	This word was revealed by Marc Okrand during the hokey pokey at {qep'a'
@@ -15706,7 +15706,7 @@ tlh:	{Sa'Qej Sep}
 pos:	noun
 sv:	«Sakrej-regionen»
 en:	«Sakrej region»
-def:	KGT pp.17, 24
+def:	KGT pp.17, 24
 com:	Sakrej Region {Sa'Qej Sep} is the source of many odd pronunciations and
 	grammar, some of which have been more widely adopted as slang (cf. KGT
 	pp. 24-26 for details). As someone on the list once pointed out,
@@ -15759,7 +15759,7 @@ tlh:	{Sen}
 pos:	verb
 sv:	«använda» «tumme»n (vanligtvis använt om/till vuxna)
 en:	«use» the «thumb» (usually used to/about adults)
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7
 com:	Most commonly used in reference to an adult using a thumb.
 	See also {rIl}.
 cat:	body part
@@ -15769,7 +15769,7 @@ tlh:	{SenwI'}
 pos:	noun
 sv:	«tumme» (vanligtvis använt om/till vuxna)
 en:	«thumb» (usually used to/about adults)
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7
 com:	Most commonly used in reference to an adult thumb.
 	See also {rIl}.
 cat:	body part
@@ -15845,7 +15845,7 @@ tlh:	{Serrum}
 pos:	noun
 sv:	«öronvax»
 en:	«earwax»
-def:	HQ12:4 p.9
+def:	HQ12:4 p.9
 ref:	TDNW
 com:	"Ears (at least healthy ones) produce no byproducts other than earwax
 	({Serrum}), which is said to somehow just {vI'} 'accumulate' in the
@@ -15972,7 +15972,7 @@ tlh:	{SIla'}
 pos:	noun
 sv:	«spegel» (större)
 en:	«mirror» (larger)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5
 com:	larger than {neSlo'}
 pun:	"Alice" backwards.
 file:	2001-12-holqed-10-4.txt
@@ -15998,7 +15998,7 @@ tlh:	{SIq}
 pos:	verb
 sv:	¿?«använda» «pek«fingret»»
 en:	«use» the «index «finger»» («first finger»)
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -16006,7 +16006,7 @@ tlh:	{SIqwI'}
 pos:	noun
 sv:	«pek«finger»»
 en:	«index «finger»», «first finger»
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -16107,7 +16107,7 @@ pos:	noun
 sv:	«mat»
 en:	<food>
 def:	TKDa
-ref:	HQ12:3 p.9
+ref:	HQ12:3 p.9
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -16115,7 +16115,7 @@ tlh:	{Soj}
 pos:	noun
 sv:	«sak», «fråga», «angelägenhet» (idiomatisk användning)
 en:	«matter», «concern», «affair» (idiomatic use)
-def:	HQ12:3 p.9
+def:	HQ12:3 p.9
 ref:	TDNW
 gram:	{tlhIngan Soj 'oH; not bIyaj} ~It's a Klingon affair; you wouldn't
 	understand;~ idiomatic meaning [HQ12:3 p.9]
@@ -16172,7 +16172,7 @@ pos:	verb
 sv:	«äta»
 en:	<eat>
 def:	TKD
-ref:	TKW pp.73, 163, 137, 185
+ref:	TKW pp.73, 163, 137, 185
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -16537,7 +16537,7 @@ tlh:	{Suto'vo'qor}
 pos:	noun
 sv:	«Sto-Vo-Kor»
 en:	«Sto-Vo-Kor»
-def:	DI p.248
+def:	DI p.248
 ref:	Email 2001-02-17 (by David Yeung, to tlhingan-hol, "Diplomatic
 	Implausibility glossary"); TDNW
 com:	"{Sutovoqor} (n) Stovokor (spelling correction from {S'to...})" (NOTE:
@@ -16561,7 +16561,7 @@ pos:	verb
 sv:	«slåss»
 en:	<fight>
 def:	TKD
-ref:	TKW pp.5, 7, 19, 21, 33, 63, 77, 88, 111, 151, 193
+ref:	TKW pp.5, 7, 19, 21, 33, 63, 77, 88, 111, 151, 193
 cat:	fighting
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
@@ -16579,7 +16579,7 @@ pos:	noun
 sv:	«krigare»
 en:	<warrior>
 def:	TKDa
-ref:	TKW pp.iii, 5, 29, 32, 33, 37, 38, 46, 77, 88, 136, 139, 145, 147, 155,
+ref:	TKW pp.iii, 5, 29, 32, 33, 37, 38, 46, 77, 88, 136, 139, 145, 147, 155,
 	193, 195, 203
 see:	{mang}; {vaj}
 cat:	fighting
@@ -16693,7 +16693,7 @@ pos:	verb
 sv:	«fortsätta», «uthärda», «överleva»
 en:	<continue>, «go» on, <endure>, <survive>
 def:	TKDa; KGT
-ref:	TKW pp.11, 147
+ref:	TKW pp.11, 147
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{taHqeq}
@@ -16732,7 +16732,7 @@ tlh:	{tajvaj}
 pos:	noun
 sv:	«vinkel»
 en:	«angle»
-def:	HQ11:2 p.9
+def:	HQ11:2 p.9
 see:	{taH}
 file:	2002-06-holqed-11-2.txt
 
@@ -16874,7 +16874,7 @@ tlh:	{tay}
 pos:	noun
 sv:	klingonskans «{t}»-ljud
 en:	Klingon ~«{t}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -16898,7 +16898,7 @@ pos:	verb
 sv:	vara «tillsammans»
 en:	be <together>
 def:	TKD
-ref:	TKW pp.34, 209
+ref:	TKW pp.34, 209
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -17256,7 +17256,7 @@ tlh:	{tIl}
 pos:	verb
 sv:	utsöndra «saliv»
 en:	«salivate»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8
 ref:	TDNW
 see:	{tlhepQe'} "saliva" (n)
 file:	2003-12-holqed-12-4.txt
@@ -17299,7 +17299,7 @@ pos:	noun
 sv:	«hjärta»
 en:	<heart>
 def:	TKD
-ref:	TKW pp.23, 203
+ref:	TKW pp.23, 203
 com:	TKW: "[...] the heart stands for one's spirit or principles."
 cat:	body part
 file:	1992-01-01-tkd.txt
@@ -17353,7 +17353,7 @@ pos:	verb
 sv:	«njuta» av, «roa» sig, ha «roligt», «tycka om»
 en:	<enjoy>
 def:	TKD
-ref:	TKW pp.48, 73
+ref:	TKW pp.48, 73
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -17441,7 +17441,7 @@ tlh:	{toDuj}
 pos:	noun
 sv:	«tapperhet», «mod», «kurage»
 en:	<courage>, «bravery», «mettle»
-def:	TKDa; TKW pp.85, 104
+def:	TKDa; TKW pp.85, 104
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
 tlh:	{togh}
@@ -17495,7 +17495,7 @@ pos:	noun
 sv:	ett slags «djur», «~topah~»
 en:	type of <animal>, «~topah~»
 def:	KGT
-ref:	KGT p.132
+ref:	KGT p.132
 file:	1997-11-01-kgt.txt
 
 tlh:	{toq}
@@ -17518,7 +17518,7 @@ pos:	noun
 sv:	en slags «fågel» («rovfågel»)
 en:	type of «bird» (bird of prey)
 def:	Email 1997-04-07 (by Bill Willmerdinger, to tlhingan-hol, "BabelCon 2")
-ref:	HQ10:4 p.5
+ref:	HQ10:4 p.5
 file:	1997-04-07-email.txt
 
 tlh:	{toQDuj}
@@ -17540,7 +17540,7 @@ tlh:	{tor}
 pos:	verb
 sv:	«tippa», «kränga» (om flygmaskin)
 en:	«pitch» (about aircraft)
-def:	HQ11:2 p.9
+def:	HQ11:2 p.9
 com:	"And when the nose of the plane moves up or down, the plane is said
 	to {tor} <pitch>. (the word {tor} also means <kneel>, which Maltz
 	thought was apt, since if a four-legged animal is able to kneel
@@ -17644,7 +17644,7 @@ pos:	verb
 sv:	vara «skamsen»
 en:	be <ashamed>
 def:	TKD
-ref:	TKW pp.ix, 24, 57, 136
+ref:	TKW pp.ix, 24, 57, 136
 file:	1992-01-01-tkd.txt
 
 tlh:	{tuH}
@@ -17667,7 +17667,7 @@ pos:	verb
 sv:	vara «het»
 en:	be <hot>
 def:	TKD
-ref:	TKW pp.32, 174
+ref:	TKW pp.32, 174
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -17792,7 +17792,7 @@ pos:	verb
 sv:	«klä av» sig, «ta av» sig (kläder)
 en:	<undress>, «take off» (clothes)
 def:	TKD
-ref:	HQ2:4 p.17
+ref:	HQ2:4 p.17
 com:	In <{HolQeD} 2:4> p. 17 (article named "Okrand's Notes"): "[...] the
 	Klingon slang expression {qogh tuQmoHHa'}, literally 'take off one's
 	belt' is used to mean 'to not hear,' for example, {qogh vItuQmoHHa'pu'}
@@ -17806,7 +17806,7 @@ pos:	verb
 sv:	«klä på» sig, «sätta på» sig (kläder)
 en:	«dress», <put on> (clothes)
 def:	TKD
-ref:	HQ2:4 p.17
+ref:	HQ2:4 p.17
 com:	In <{HolQeD} 2:4> p. 17 (article named "Okrand's Notes"): "[...] the
 	Klingon slang expression {qogh tuQmoHHa'}, literally 'take off one's
 	belt' is used to mean 'to not hear,' for example, {qogh vItuQmoHHa'pu'}
@@ -17819,7 +17819,7 @@ tlh:	{tuS}
 pos:	verb
 sv:	«hosta»
 en:	«cough»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8
 ref:	TDNW
 see:	{qo'qaD}
 file:	2003-12-holqed-12-4.txt
@@ -17842,7 +17842,7 @@ tlh:	{tuy'}
 pos:	verb
 sv:	«spotta» ut (om vätska)
 en:	«spit» out (liquids)
-def:	HQ12:4 pp.8--9
+def:	HQ12:4 pp.8--9
 ref:	TDNW
 com:	Used when spitting out saliva and/or other liquids. Not used when
 	spitting out solid things. [HQ12:4 p.9]
@@ -17878,7 +17878,7 @@ pos:	verb
 sv:	någon/något «påträffa»r det, «det» «finns»
 en:	someone/something «find»s it, «there» «is»
 def:	TKD 4.2.5 (p.39)
-ref:	TKD p.171; TKW pp.23, 29, 49, 66
+ref:	TKD p.171; TKW pp.23, 29, 49, 66
 file:	1992-01-01-tkd.txt
 
 tlh:	{tlhab}
@@ -17947,7 +17947,7 @@ warn:	incorrect form of {luHwI' tIH}
 pos:	noun
 sv:	«dragstråle» [exempel på felaktig användning]
 en:	«tractor beam» [example of incorrect use]
-def:	{qep'a'} 2010
+def:	{qep'a'} 2010
 ref:	Email 2010-12-13 (by Lieven L. Litaer, to tlhingan-hol, "tractor
 	beam"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter
 	from Maltz")
@@ -18017,7 +18017,7 @@ tlh:	{tlhay}
 pos:	noun
 sv:	klingonskans «{tlh}»-ljud
 en:	Klingon ~«{tlh}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -18033,7 +18033,7 @@ tlh:	{tlha'a}
 pos:	name
 sv:	«Klaa»
 en:	«Klaa»
-def:	KGT pp.52, 198
+def:	KGT pp.52, 198
 file:	1997-11-01-kgt.txt
 
 tlh:	{tlheD}
@@ -18056,7 +18056,7 @@ tlh:	{tlhej}
 pos:	verb
 sv:	«sällskapa» med, «vara med»
 en:	<accompany>, «be with»
-def:	TKD; TKW pp.161, 173
+def:	TKD; TKW pp.161, 173
 com:	This is labeled as a noun in TKD E-K, but MO corrected
 	himself in HQ2:4 p.18 (Okrand's notes)
 data:	KLCP-1
@@ -18066,7 +18066,7 @@ tlh:	{tlhepQe'}
 pos:	noun
 sv:	«saliv», «spott»
 en:	«saliva»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8
 ref:	TDNW
 see:	{tIl} "salivate" (v); {bol} "drool" (v); {tuy'} "spit" (v)
 file:	2003-12-holqed-12-4.txt
@@ -18172,7 +18172,7 @@ pos:	noun
 sv:	«klingon»
 en:	<Klingon>
 def:	TKD
-ref:	TKW pp.iii, 3, 5, 9, 13, 40, 46, 56, 59, 67, 74, 77, 80, 89, 91, 97,
+ref:	TKW pp.iii, 3, 5, 9, 13, 40, 46, 56, 59, 67, 74, 77, 80, 89, 91, 97,
 	155, 165, 177
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
@@ -18229,7 +18229,7 @@ tlh:	{tlhIS}
 pos:	verb
 sv:	«spotta» ut (föremål)
 en:	<spit> out (solid thing)
-def:	KGT; HQ12:4 pp.8--9
+def:	KGT; HQ12:4 pp.8--9
 ref:	TDNW
 com:	Used when spitting out solid things, possibly accopanied by some
 	saliva. Not used when just spitting saliva, or when spitting out
@@ -18346,7 +18346,7 @@ tlh:	{tlhot}
 pos:	verb
 sv:	«landa» (på vatten)
 en:	«land» (on water, like a bird)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5
 com:	if bird lands on land, use {Saq}, in a tree, use {ngun}
 file:	2001-12-holqed-10-4.txt
 
@@ -18461,7 +18461,7 @@ pos:	verb
 sv:	«dricka»
 en:	<drink>
 def:	TKD
-ref:	TKW pp.35, 87
+ref:	TKW pp.35, 87
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -18491,7 +18491,7 @@ tlh:	{vaD}
 pos:	verb
 sv:	vara «böjlig», vara «smidig»
 en:	be «flexible»
-def:	HQ10:2 p.11
+def:	HQ10:2 p.11
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{vagh}
@@ -18547,7 +18547,7 @@ pos:	adverbial
 sv:	«så», «därför», «således», «i så fall»
 en:	<so>, <then>, <thus>, <in that case>
 def:	TKD
-ref:	TKW pp.151, 213
+ref:	TKW pp.151, 213
 file:	1992-01-01-tkd.txt
 
 tlh:	{val}
@@ -18579,7 +18579,7 @@ tlh:	{van} (2)
 pos:	verb
 sv:	«avsluta» (en händelse, t.ex. resa, strid, sång)
 en:	«end» (an event, e.g. a voyage, battle, song)
-def:	HQ12:2 p.8
+def:	HQ12:2 p.8
 ref:	TDNW
 gram:	{may' van SuvwI'} ~the warrior ends the battle;~ participants are subject
 com:	"When an event over which one has some control ends (one can't cause a
@@ -18627,7 +18627,7 @@ pos:	verb
 sv:	«agera», «handla», «göra» (något)
 en:	<act>, <take> action
 def:	TKD
-ref:	TKW pp.8, 55, 139, 155
+ref:	TKW pp.8, 55, 139, 155
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -18695,7 +18695,7 @@ pos:	noun
 sv:	«far», «fader»
 en:	<father>
 def:	TKD
-ref:	TKW pp.155, 170
+ref:	TKW pp.155, 170
 cat:	family
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
@@ -18721,7 +18721,7 @@ tlh:	{vay}
 pos:	noun
 sv:	klingonskans «{v}»-ljud
 en:	Klingon ~«{v}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -18730,7 +18730,7 @@ pos:	noun
 sv:	«något», «någon», «någonting»
 en:	<somebody>, «someone», «something», «anybody», <anyone>, «anything»
 def:	TKD
-ref:	TKW pp.88, 109, 129, 149, 157, 167
+ref:	TKW pp.88, 109, 129, 149, 157, 167
 com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
@@ -18769,7 +18769,7 @@ tlh:	{vegh}
 pos:	verb
 sv:	«gå» igenom (en öppen dörr, tunnel etc.)
 en:	«go» through (an open door, a tunnel, etc.)
-def:	{qep'a'} 1997
+def:	{qep'a'} 1997
 ref:	Email 1997-07-20 (by William H. Martin, to tlhingan-hol, "New word from
 	Okrand")
 com:	"Note that this does mean: A man goes through an open door, a bird goes
@@ -18817,7 +18817,7 @@ sv:	en slags «fågel» (livnär sig nästan enbart på den sorts orm-maskar som
 	~gagh~ görs av)
 en:	type of «bird» (feeds almost exclusively on the serpent worm from which
 	~gagh~ is made)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5
 com:	Klingons are not particularly fond of this bird.
 file:	2001-12-holqed-10-4.txt
 
@@ -18841,7 +18841,7 @@ tlh:	{veng wa'DIch}
 pos:	noun
 sv:	«Första Staden» (Kronos huvudstad)
 en:	«First City» (capital of Kronos)
-def:	KGT pp.10, 17
+def:	KGT pp.10, 17
 data:	phrase
 file:	1997-11-01-kgt.txt
 
@@ -18858,7 +18858,7 @@ pos:	noun
 sv:	«djävul», «demon», «~Fek'lhr~»
 en:	<devil>, «demon», «~Fek'lhr~»
 def:	TKDa; KCD
-ref:	TKW p.197; HQ12:3 p.9
+ref:	TKW p.197; HQ12:3 p.9
 com:	KCD: "The beast who guards the dwelling place of the dishonored dead"
 file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
 
@@ -18921,7 +18921,7 @@ tlh:	{veS}
 pos:	noun
 sv:	«krig», krigföring (som koncept)
 en:	<war>, warfare (as a concept)
-def:	TKD; KGT pp.46, 47, 50 et al.
+def:	TKD; KGT pp.46, 47, 50 et al.
 see:	{noH}
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
@@ -18988,7 +18988,7 @@ tlh:	{vIl}
 pos:	noun
 sv:	¿?«fartgupp», «vägbula»
 en:	¿?«speed bump»
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 com:	"The noun {vIl} is hard to define. Maltz had given a description of
 	something which was immediately recognized as a speed bump by everyone
@@ -19004,7 +19004,7 @@ tlh:	{vIlInHoD}
 pos:	noun
 sv:	en slags «fågel» (förmögen att härma språk)
 en:	type of «bird» (capable of mimicking speech)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5
 com:	Some people pluralize these with {-pu'}, but most use {-mey}.
 file:	2001-12-holqed-10-4.txt
 
@@ -19012,7 +19012,7 @@ tlh:	{vIlle'}
 pos:	noun
 sv:	«underhuggare», servil «tjänare»
 en:	«minion»
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -19049,7 +19049,7 @@ tlh:	{vIq}
 pos:	noun
 sv:	«slag», «strid» (som koncept)
 en:	«battle», «combat» (as a concept)
-def:	KGT pp.47, 50
+def:	KGT pp.47, 50
 see:	{may'}
 file:	1997-11-01-kgt.txt
 
@@ -19419,7 +19419,7 @@ tlh:	{waqboch}
 pos:	noun
 sv:	en slags «fågel» (med en väldigt lång näbb)
 en:	type of «bird» (with a very long beak)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{waQ}
@@ -19476,7 +19476,7 @@ tlh:	{way}
 pos:	noun
 sv:	klingonskans «{w}»-ljud
 en:	Klingon ~«{w}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -19492,7 +19492,7 @@ pos:	numeral
 sv:	«ett»
 en:	<one>
 def:	TKD
-ref:	TKW pp.66, 81, 127, 136, 177, 209
+ref:	TKW pp.66, 81, 127, 136, 177, 209
 cat:	math
 file:	1992-01-01-tkd.txt
 
@@ -19614,7 +19614,7 @@ tlh:	{wel}
 pos:	verb
 sv:	stå i «skuld» till
 en:	«owe» (someone)
-def:	{qep'a'} 2011
+def:	{qep'a'} 2011
 ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
 	from qep'a' 18")
 com:	When someone has earned a reward but the prize is not yet available to
@@ -19669,7 +19669,7 @@ tlh:	{wep buq}
 pos:	noun
 sv:	«jack«påse»», «rock«ficka»»
 en:	«jacket «pouch»», «coat «pocket»»
-def:	{qep'a'} 2010
+def:	{qep'a'} 2010
 ref:	Email 2010-12-07 (by Lieven L. Litaer, to tlhingan-hol, "News from
 	Maltz"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol,
 	"Letter from Maltz")
@@ -19748,7 +19748,7 @@ tlh:	{wIlpuq}
 pos:	noun
 sv:	«pudding»
 en:	«pudding»
-def:	{qep'a'} 2008
+def:	{qep'a'} 2008
 ref:	Email 2008-07-28 (by Lawrence M. Schoen, to tlhingan-hol, "More from
 	Maltz")
 file:	2008-07-28-email.txt
@@ -19765,7 +19765,7 @@ pos:	verb
 sv:	«välja»
 en:	<choose>, <select>
 def:	TKD
-ref:	TKW pp.19, 151
+ref:	TKW pp.19, 151
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -19803,7 +19803,7 @@ tlh:	{woD}
 pos:	verb
 sv:	«kasta» bort, «kassera»
 en:	<throw> away, «discard»
-def:	TKD; KGT p.91
+def:	TKD; KGT p.91
 ref:	TDNW
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
@@ -19812,7 +19812,7 @@ tlh:	{wogh}
 pos:	verb
 sv:	«överträda», göra mer än vad som är «acceptabelt», gå för långt
 en:	«transgress», do more than «acceptable», go to far
-def:	HQ12:3 p.9
+def:	HQ12:3 p.9
 ref:	TDNW
 file:	2003-09-holqed-12-3.txt
 
@@ -19858,7 +19858,7 @@ tlh:	{wom}
 pos:	verb
 sv:	«picka», «hacka» (på/i) (med näbb)
 en:	«peck»
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5
 com:	used for both eating and attacking by pecking
 file:	2001-12-holqed-10-4.txt
 
@@ -19913,7 +19913,7 @@ pos:	noun
 sv:	«imperium»
 en:	<empire>
 def:	TKD
-ref:	TKW pp.74, 211
+ref:	TKW pp.74, 211
 file:	1992-01-01-tkd.txt
 
 tlh:	{wo'rIv}
@@ -19928,7 +19928,7 @@ tlh:	{wuD}
 pos:	verb
 sv:	«snarka»
 en:	«snore»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8
 ref:	TDNW
 file:	2003-12-holqed-12-4.txt
 
@@ -20126,7 +20126,7 @@ sv:	en slags «fågel» (grå, ibland vit, flyger långa sträckor utan att gör
 	uppehåll)
 en:	type of «bird» (gray, sometimes white, travel long distances without
 	pausing)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{yatlh}
@@ -20149,7 +20149,7 @@ pos:	noun
 sv:	«seger», «triumf»
 en:	<victory>, <triumph>
 def:	TKD
-ref:	TKW pp.125, 135, 179, 211
+ref:	TKW pp.125, 135, 179, 211
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -20157,7 +20157,7 @@ tlh:	{yay}
 pos:	noun
 sv:	klingonskans «{y}»-ljud
 en:	Klingon ~«{y}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -20280,7 +20280,7 @@ pos:	verb
 sv:	«leva»
 en:	<live>
 def:	TKD
-ref:	TKW pp.125, 141
+ref:	TKW pp.125, 141
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -20289,7 +20289,7 @@ pos:	noun
 sv:	«liv»
 en:	<life>
 def:	TKD
-ref:	TKW pp.43, 53, 95
+ref:	TKW pp.43, 53, 95
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -20333,7 +20333,7 @@ tlh:	{yIr}
 pos:	verb
 sv:	«samla» ihop, «plocka» ihop
 en:	«gather»
-def:	{qep'a'} 2011
+def:	{qep'a'} 2011
 ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
 	from qep'a' 18")
 com:	This was used in a command for a warrior to gather his armor and
@@ -20486,7 +20486,7 @@ tlh:	{yopwaH buq}
 pos:	noun
 sv:	byx«pung», byx«ficka»
 en:	«pants «pouch»», «trouser «pocket»»
-def:	{qep'a'} 2010
+def:	{qep'a'} 2010
 ref:	Email 2010-12-07 (by Lieven L. Litaer, to tlhingan-hol, "News from
 	Maltz"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol,
 	"Letter from Maltz")
@@ -20598,7 +20598,7 @@ tlh:	{yuch ngogh}
 pos:	noun
 sv:	«chokladkaka»
 en:	<chocolate bar>
-def:	{qep'a'} 2010
+def:	{qep'a'} 2010
 ref:	Email 2010-12-07 (by Lieven L. Litaer, to tlhingan-hol, "News from
 	Maltz"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol,
 	"Letter from Maltz")
@@ -20729,7 +20729,7 @@ pos:	conjuction
 sv:	«men», «ändå», «dock», «trots allt», «emellertid»
 en:	<but>, <nevertheless>, <even so>, <however>
 def:	TKD
-ref:	TKW pp.59, 186
+ref:	TKW pp.59, 186
 file:	1992-01-01-tkd.txt
 
 tlh:	{'aD}
@@ -20789,7 +20789,7 @@ pos:	verb
 sv:	«visa», «exponera», «röja», «avslöja»
 en:	<show>, <reveal>
 def:	TKD
-ref:	TKW pp.59, 61, 203
+ref:	TKW pp.59, 61, 203
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -20880,7 +20880,7 @@ tlh:	{'at}
 pos:	noun
 sv:	klingonskans «{a}»-ljud
 en:	Klingon ~«{a}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -20941,7 +20941,7 @@ pos:	noun
 sv:	«möjlighet», «chans», «öppning»
 en:	<opportunity>, <chance>, <opening>
 def:	TKD; KGT
-ref:	TKW pp.49, 51
+ref:	TKW pp.49, 51
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
@@ -20956,7 +20956,7 @@ tlh:	{'eDjen}
 pos:	noun
 sv:	«arrogant» person, «inbilsk» person, «högfärdig» person
 en:	«arrogant» «person», «haughty» person
-def:	HQ12:3 p.9
+def:	HQ12:3 p.9
 ref:	TDNW
 see:	{nguq}
 file:	2003-09-holqed-12-3.txt
@@ -20988,7 +20988,7 @@ pos:	conjuction
 sv:	«och» (kommer mellan förenade meningar)
 en:	<and>
 def:	TKD 5.3 (p.55)
-ref:	TKW pp.5, 8, 13, 101, 197, 211
+ref:	TKW pp.5, 8, 13, 101, 197, 211
 gram:	comes between joined sentences
 file:	1992-01-01-tkd.txt
 
@@ -21033,7 +21033,7 @@ tlh:	{'elI'jaH}
 pos:	noun
 sv:	«oväntad «besökare»», «oinbjuden «gäst»»
 en:	«unexpected «visitor»», «uninvited «guest»»
-def:	{qep'a'} 2006
+def:	{qep'a'} 2006
 ref:	Email 2007-08-02 (by Robyn Stewart, to tlhingan-hol, "Re: mu' chu'");
 	Email 2007-08-11 (by Agnieszka Solska, to tlhingan-hol, "Re: mu' chu' -
 	'el'I'jaH (?)")
@@ -21055,7 +21055,7 @@ tlh:	{'em}
 pos:	verb
 sv:	«kräkas», «spy»
 en:	«vomit»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8
 ref:	TDNW
 see:	{quy'Ip} (name for the matter vomited)
 file:	2003-12-holqed-12-4.txt
@@ -21112,7 +21112,7 @@ tlh:	{'er'In}
 pos:	noun
 sv:	«ände» (på pinne, tråd etc.; motsatt {megh'an})
 en:	«end» (of stick, piece of string etc.; opposite {megh'an})
-def:	HQ12:2 pp.6--8
+def:	HQ12:2 pp.6--8
 ref:	TDNW
 pun:	{megh'an} and {'er'In} Okrand confirmed that this is because he knows
 	two twins--his nieces--named Megan and Erin. ({qep'a'} 2003)
@@ -21137,7 +21137,7 @@ tlh:	{'et}
 pos:	noun
 sv:	klingonskans «{e}»-ljud
 en:	Klingon ~«{e}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -21146,7 +21146,7 @@ pos:	noun
 sv:	«svärd», «klinga»
 en:	<sword>, <blade>
 def:	TKD; KGT
-ref:	TKW pp.101, 177
+ref:	TKW pp.101, 177
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
@@ -21178,7 +21178,7 @@ pos:	pronoun
 sv:	«det» (föregående ämne)
 en:	<that> (previous topic)
 def:	TKD
-ref:	TKW pp.13, 19, 37, 73, 74, 87, 125, 163, 195
+ref:	TKW pp.13, 19, 37, 73, 74, 87, 125, 163, 195
 file:	1992-01-01-tkd.txt
 
 tlh:	{'e'mam}
@@ -21299,7 +21299,7 @@ tlh:	{'IqnaH}
 pos:	noun
 sv:	«snor», «slem»
 en:	«mucus»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8
 ref:	TDNW
 com:	booger
 see:	{chuy}
@@ -21309,7 +21309,7 @@ tlh:	{'IqnaH QaD}
 pos:	noun
 sv:	torrt «slem», torrt «snor»
 en:	dry «mucus»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8
 ref:	TDNW
 data:	phrase; derived form
 file:	2003-12-holqed-12-4.txt
@@ -21361,7 +21361,7 @@ tlh:	{'It}
 pos:	noun
 sv:	klingonskans «{I}»-ljud
 en:	Klingon ~«{I}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -21394,7 +21394,7 @@ pos:	noun
 sv:	«blod»
 en:	<blood>
 def:	TKD
-ref:	TKW pp.17, 31, 32, 34, 174, 203
+ref:	TKW pp.17, 31, 32, 34, 174, 203
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -21419,8 +21419,8 @@ tlh:	{'I'}
 pos:	noun
 sv:	«armhåla»
 en:	<armpit>
-def:	{qep'a'} 1996; KGT
-ref:	HQ5:3 p.14
+def:	{qep'a'} 1996; KGT
+ref:	HQ5:3 p.14
 com:	Confirmed by Okrand at {qep'a'} 1996. (Mark Shoulson) "At {qep'a'
 	wejDIch} [in 1996] we played the hokey pokey with Klingon body part
 	names. Of course, {'I'} was quickly used." (Alan Anderson)
@@ -21431,7 +21431,7 @@ tlh:	{'o}
 pos:	exclamation
 sv:	«O» (före namn i tilltal)
 en:	«O» (before a name in direct address)
-def:	{qep'a'} 2011
+def:	{qep'a'} 2011
 ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
 	from qep'a' 18")
 com:	Appears before a name used as direct address. As we saw it used, it
@@ -21497,7 +21497,7 @@ pos:	pronoun
 sv:	«den», «det»
 en:	<it>
 def:	TKD
-ref:	TKW pp.47, 121
+ref:	TKW pp.47, 121
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -21551,7 +21551,7 @@ tlh:	{'or}
 pos:	verb
 sv:	«manövrera», «styra» (en flygmaskin)
 en:	«pilot», «operate» (an aircraft)
-def:	HQ11:2 p.8
+def:	HQ11:2 p.8
 file:	2002-06-holqed-11-2.txt
 
 tlh:	{'orghen}
@@ -21602,7 +21602,7 @@ tlh:	{'orwI'}
 pos:	noun
 sv:	«pilot», någon som «manövrera»r (en flygmaskin)
 en:	«pilot», one who «operates» (an aircraft)
-def:	HQ11:2 p.8
+def:	HQ11:2 p.8
 data:	derived form
 file:	2002-06-holqed-11-2.txt
 
@@ -21626,7 +21626,7 @@ tlh:	{'ot}
 pos:	noun
 sv:	klingonskans «{o}»-ljud
 en:	Klingon ~«{o}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -21650,7 +21650,7 @@ pos:	verb
 sv:	«smärta», «värka», vara «öm»
 en:	<ache>, <hurt>, be <sore>
 def:	TKD
-ref:	TKW pp.46, 175
+ref:	TKW pp.46, 175
 com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
@@ -21691,7 +21691,7 @@ tlh:	{'o'megh}
 pos:	noun
 sv:	«avsluting», «slut» (på sång)
 en:	«end» (of song)
-def:	HQ12:2 p.9
+def:	HQ12:2 p.9
 ref:	TDNW
 see:	{lIH}, {namtun}
 file:	2003-06-holqed-12-2.txt
@@ -21701,7 +21701,7 @@ pos:	verb
 sv:	«hålla» (i), «gripa» (om)
 en:	<hold>, <grasp>
 def:	KGT
-ref:	TKW pp.120, 177
+ref:	TKW pp.120, 177
 file:	1997-11-01-kgt.txt
 
 tlh:	{'uchHa'}
@@ -21760,7 +21760,8 @@ tlh:	{'uj}
 pos:	noun
 sv:	«längd«enhet»», «~uj~» (cirka 35 «centi«meter»»)
 en:	«unit» of linear «measure», <~uj~> (about 35 «centi«meter»»s)
-def:	News 1997-10-22; KGT
+def:	News 1997-10-22 (by Marc Okrand, to msn.onstage.startrek.expert.okrand,
+	"Re: Weights and Measures"); KGT
 com:	More exactly one ~uj~ is 34.83 cm (as caluculated from useage
 	on BoP).
 file:	1997-10-22-news.txt; 1997-11-01-kgt.txt
@@ -21779,7 +21780,7 @@ pos:	noun
 sv:	«elektricitet»
 en:	<electricity>
 def:	KGT
-ref:	{qep'a'} 1997
+ref:	{qep'a'} 1997
 pun:	At {qep'a'} 1997 Okrand confirmed the suspicion of a list member about
 	its origin: electronic goods sold in the United States have a sticker
 	on them saying UL ("Underwriter's Laboratory") showing they meet
@@ -21876,7 +21877,7 @@ tlh:	{'uSgheb}
 pos:	noun
 sv:	en slags «fågel» (för oljud i gryningen, vildsintare än en tupp)
 en:	type of «bird» (makes a ruckus at dawn, fiercer than a rooster)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5
 com:	much fiercer than a rooster
 file:	2001-12-holqed-10-4.txt
 
@@ -21901,7 +21902,7 @@ tlh:	{'ut} (2)
 pos:	noun
 sv:	klingonskans «{u}»-ljud
 en:	Klingon ~«{u}»~ sound
-def:	{qep'a'} 2009
+def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
@@ -21909,7 +21910,7 @@ tlh:	{'utlh}
 pos:	noun
 sv:	«officer» «emeritus», «pensionerad» officer
 en:	<officer> «emeritus», «retired» officer
-def:	TKD; KGT p.51
+def:	TKD; KGT p.51
 com:	"[T]here are not many officers who end their service to the Empire by
 	simply stepping down or retiring. There are some, however, and the word
 	{'utlh} is used to refer to an officer of this type. Perhaps 'officer
@@ -22349,7 +22350,7 @@ pos:	verb suffix type 9
 sv:	innan, före
 en:	before
 def:	TKD 4.2.9 (p.43)
-ref:	TKW pp.32, 93, 117
+ref:	TKW pp.32, 93, 117
 com:	It seems logical that a subordinate clause with {-pa'} (like
 	subordinate clauses with {-DI'}, {-chugh} and {-vIS}) should
 	be able to occur both before and after the main verb, however
@@ -22362,7 +22363,7 @@ pos:	verb suffix type 7
 sv:	perfektiv
 en:	perfective
 def:	TKD 4.2.7 (p.41)
-ref:	HQ12:2 p.9
+ref:	HQ12:2 p.9
 file:	1992-01-01-tkd.txt
 
 tlh:	{-qang}
@@ -22418,7 +22419,7 @@ pos:	verb suffix type 7
 sv:	utfört, gjort
 en:	accomplished, done
 def:	TKD 4.2.7 (p.41)
-ref:	HQ12:2 p.9
+ref:	HQ12:2 p.9
 file:	1992-01-01-tkd.txt
 
 tlh:	{-vIp}
@@ -22444,7 +22445,7 @@ tlh:	{-wI'}
 pos:	verb suffix type 9
 sv:	en som gör, sak som gör, en som är
 en:	one who is, one who does, thing which is, thing which does
-def:	TKD 3.2.2 (p.19), 4.2.9 (p.44), pp.164, 168
+def:	TKD 3.2.2 (p.19), 4.2.9 (p.44), pp.164, 168
 com:	Entries differ and have been combined here.
 file:	1992-01-01-tkd.txt
 
