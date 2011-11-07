@@ -1614,6 +1614,7 @@ pos:	noun
 sv:	«vikt«enhet»», 9 «~cheb~» (cirka 20,25 «kilogram»)
 en:	«unit» of «weight», 9 «~cheb~» (about 45 «pound»s or 20.25 «kilogram»s)
 def:	News 1997-10-22; BoP
+gram:	1 {cheb'a'} = 9 {cheb}
 com:	(n) unit weight approx. 45--46.4 pounds (20.4--21.05 kg) (9--9.28 cheb)
 	[The numbers don't quite mesh, but this is the best I can figure
 	from different equivalences we've been given.] [BoP poster] (Added:
@@ -7259,7 +7260,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{loghqam}
 pos:	noun
 sv:	«längd«enhet»» (cirka 1,25 «ljusår»)
-en:	«unit» of linear «measure» (about 1.25 «light year»s)
+en:	«unit» of «length» (about 1.25 «light year»s)
 def:	BoP
 file:	1998-11-01-bop.txt
 
@@ -12741,7 +12742,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{qelI'qam}
 pos:	noun
 sv:	«längd«enhet»», «~kellicam~» (cirka 2 «kilo«meter»»)
-en:	«unit» of linear «measure», <~kellicam~> (about 2 «kilo«meter»»s)
+en:	«unit» of «length», <~kellicam~> (about 2 «kilo«meter»»s)
 def:	TKD; STE
 com:	Incorrectly spelled {quelI'qam} in TKD E-K.
 file:	1992-01-01-tkd.txt
@@ -18417,7 +18418,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{tlho'ren}
 pos:	noun
 sv:	«volym«enhet»» (cirka en «liter»)
-en:	«unit» of «measure» (about one «quart» or «liter»)
+en:	«unit» of «volume» (about one «quart» or «liter»)
 def:	News 1997-10-22
 file:	1997-10-22-news.txt
 
@@ -21777,17 +21778,19 @@ file:	1992-01-01-tkd.txt
 tlh:	{'uj}
 pos:	noun
 sv:	«längd«enhet»», «~uj~» (cirka 35 «centi«meter»»)
-en:	«unit» of linear «measure», <~uj~> (about 35 «centi«meter»»s)
+en:	«unit» of «length», <~uj~> (about 35 «centi«meter»»s)
 def:	News 1997-10-22 (by Marc Okrand, to msn.onstage.startrek.expert.okrand,
 	"Re: Weights and Measures"); KGT
-com:	More exactly one ~uj~ is 34.83 cm (as caluculated from useage
-	on BoP).
+com:	Source [KGT] uses the words "linear measure" which has been changed
+	"length" here. The change was made for both for brevity and clarity.
+	(zrajm, 2011-11-07) More exactly one ~uj~ is 34.83 cm (as caluculated
+	from useage on BoP).
 file:	1997-10-22-news.txt; 1997-11-01-kgt.txt
 
 tlh:	{'uj'a'}
 pos:	noun
 sv:	«längd«enhet»», stor «~uj~» (cirka 315 «centi«meter»»)
-en:	«unit» of linear «measure», big <~uj~> (about 315 «centi«meter»»s)
+en:	«unit» of «length», big <~uj~> (about 315 «centi«meter»»s)
 def:	News 1999-02-03
 ref:	TDNW
 gram:	1 {'uj'a'} = 9 {'uj}
