@@ -894,7 +894,12 @@ Priorities:
 ***** TODO {wep buq}
 ***** TODO {yopwaH buq}
 ***** TODO {yuch ngogh}
-**** TODO Add 'excl' field for excluding a word from the paper dictionary
+**** DONE Add 'excl' field for excluding a word from the paper dictionary
+     CLOSED: [2011-11-05 Sat 08:30]
+     Nope. This is perfectly handled by the 'data' field values 'non-canon'
+     (which should not be included in the pocket dictionary at all), and
+     'deprecated' (which should only be included in the Klingon--English side).
+
      excl: tlh-, -tlh
 
      Should have values for excluding a word from the K-E, E-K or both sides.
@@ -927,7 +932,7 @@ Priorities:
      With date of when word was added to dictionary. This field should be used
      for sorting of otherwise identical words.
 **** TODO Add irregular plurals in dictionary (already done?)
-**** TODO Field for synonyms?
+**** TODO Field for English synonyms?
      E.g. to make words easier to look up. E.g. {'IqnaH} has a 'com' field
      specifying 'booger', which is a useful synonym for the purpose of
      searching.
@@ -947,13 +952,21 @@ Priorities:
      Names should be proper names, not Klingon Aliases.
 **** TODO Try to obtain the recording of {ma'veq} mentioned in the comments
      See also: http://diswww.mit.edu/charon.MIT.EDU/ja'chuq/88542
-**** TODO Make sure all words have "file:" field
+**** DONE Make sure all words have "file:" field
+     CLOSED: [2011-11-05 Sat 08:51]
      ..and make it a 'required' field (i.e. change the description at the top
      of the dictionary file).
 ***** DONE Add "file:" for dictionary entries with "KCD" in def/ref
       CLOSED: [2011-09-18 Sun 22:22]
 **** DONE Add relevant links to words with def/ref CK and PK
      CLOSED: [2011-09-20 Tue 00:54]
+**** TODO Find that wrongly transcribed SkyBox word
+     It was a word which seemed to be a synonym to {lo'} or something. The word
+     occured in some HolQeD issue, and turned out to be mistranscribed when I
+     checked against the actual trading card.
+
+     It should be included in the dictionary, with 'data: non-canon', so others
+     won't include it in their dictionaries.
 **** TODO Add words
 ***** TODO [0%] Words from the Klingon opera {'u'}
       https://mail.google.com/mail/#search/tlheng'IQ/12a0fa8c18c6f6a3
@@ -1335,12 +1348,54 @@ Priorities:
       {chen} should have translations "plus", "minus", "equals" etc.
 
 *** Klingon Pocket Dictionary" (paper version)
+**** TODO Write check tool to list words not present in LaTeX dict
+     This should be done by grepping through LaTeX sources and comparing it
+     with the dictionary database contents.
+
+     The following will give the number of unique Klingon words found in the
+     LaTeX sources (NOTE: homonyms are not counted as several words, as they
+     should):
+
+         egrep '\\lu(kli|eng)\{' **/*.tex R \
+             's/\{\}//; s/.*\\lu(?:kli|eng).*\{([^{}]*)}{(n|v|name|pro|adv|num|excl|ques|conj)}.*/$2 $1/' U N
+**** TODO Smarter spacing in source references
+     Non-breaking spaces should be handled exclusively by the zdb2tex, none
+     should have to be handcoded into the dictionary.
+**** TODO Rewrite intro chapter "Source Abbreviations"
+     Should include a note on KLCP-1 / KLCP-2 markings, and less about News,
+     Email etc.
+**** TODO How should derived words be handled?
+     They're currently all stripped in the Klingon--English side of the
+     dictionary.
+
+     Should I remove toe words ending in {-wI'}? They're included is it looks
+     now.
+
+     Some of them (all?) are quite interpretable without specific entries in
+     the Klingon--English side of the dictionary. E.g.
+
+         {baHwI'} "one who shoots" ("gunner")
+         {jajvam} "this day" ("today")
+         {jagmoH} "cause to be bold" ("embolden")
+
+     Derived forms that have English translations which differ a in (initial)
+     spelling might be interesting to retain for ease of lookup.
+
+     Some phrases might not be interpretable, without a non-literal
+     translation?
 **** TODO KA logo on front
-**** TODO Re-write LaTeX generator
-***** TODO "data: derived form" words should not be included in en-tlh side
-***** TODO 'ref' and 'def' field contents is no longer surrounded with brackets
-***** TODO Use field 'pos' for part of speech
-***** TODO Usage of word found in brackets in 'en' and 'sv' fields
+**** DONE Re-write LaTeX generator
+     CLOSED: [2011-11-05 Sat 11:55]
+***** DONE "data: derived form" words should not be included in en-tlh side
+      CLOSED: [2011-11-05 Sat 11:54]
+      Was already the case.
+***** DONE 'ref' and 'def' field contents is no longer surrounded with brackets
+      CLOSED: [2011-11-05 Sat 11:53]
+      Worked as-is. Removed the bracket stripping, though.
+***** DONE Use field 'pos' for part of speech
+      CLOSED: [2011-11-05 Sat 11:52]
+***** DONE Usage of word found in brackets in 'en' and 'sv' fields
+      CLOSED: [2011-11-05 Sat 11:55]
       Usage could be e.g. 'regional', 'archaic' or 'slang'.
 ** TODO "Errors in Okrandian Sources"
 *** DONE Fix spelling of {me'mey} -> {mu'mey}
