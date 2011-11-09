@@ -631,14 +631,18 @@ sub page_crumbs {
 
 sub page_css {
     my ($self, %meta) = @_;
-    my $file  = find_include_file("includes/page.css",      $meta{filename});
-    my $file2 = find_include_file("includes/pagestats.css", $meta{filename});
-    $file  = rel_filename($file,  $meta{filename});
-    $file2 = rel_filename($file2, $meta{filename});
-    return <<"EOF";
-<link rel="stylesheet" type="text/css" href="$file" />
-<link rel="stylesheet" type="text/css" href="$file2" />
-EOF
+    my @stylesheet = (
+        "includes/gallery.css",
+        "includes/page.css",
+        "includes/pagestats.css",
+    );
+    return join "", map {
+        '<link rel="stylesheet" type="text/css" href="' .
+        rel_filename(
+            find_include_file($_, $meta{filename}),
+            $meta{filename},
+        ) . '" />' . "\n";
+    } @stylesheet;
 }
 
 # return time in "2009-12-31, 24:59" format

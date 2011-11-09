@@ -114,6 +114,17 @@ Priorities:
 ** TODO Do a surf-through check for weird/old shit
 ** TODO Systematic/site-wide changes
    I.e. changes that need to be applied to the web page as a whole.
+*** TODO Linked images should have border highlight
+    Maby have a 2px transparent border on all linked images, and then changing
+    color on hover? Problem now is that if an image is linked or not isn't very
+    obvious. Esp. look at:
+
+        http://klingonska.elektra/songs/tahjaj_wo/
+        http://klingonska.elektra/akademien/logo/
+
+    Both are using the "gallery" stylesheet, and are thus findable with:
+
+        grep gallery **/*.html
 *** TODO All <time> tags should include time zone
     Can "yyyy-mm-dd+zz:zz" be used? Or does the "+zz:zz" *require* that a time
     is used too (i.e. "yyyy-mm-ddThh:hh:ss+zz:zz")?
@@ -275,6 +286,8 @@ Priorities:
 ** TODO "Some Songs in Klingon"
 *** TODO Prettify song pages (HTML instead of text pages)
 *** TODO {taHjaj wo'}
+**** TODO Include flash video directly, don't point to YouTube
+     http://klingonska.elektra/songs/tahjaj_wo/
 **** TODO add HTML redirects for moved files
 ***** songs/tahjaj_wo2.txt => NOTE/tahjaj_wo_tabbed.txt
 ***** songs/tahjaj_wo1.gif => songs/tahjaj_wo/pic/tahjaj_wo1.gif
@@ -1445,9 +1458,12 @@ Priorities:
     superscript like the date itself. [http://klingonska.org/klo/]
 *** DONE [#2] TOC links should point to top of page instead of top headline
     CLOSED: [2011-07-03 Sun 03:56]
-*** DONE [#3] Tables with suffixes should be linked
+*** [#3] Tables with suffixes should be linked
     CLOSED: [2011-07-03 Sun 04:00]
     http://klingonska.org/klo/tillagg-01.txt
+** TODO "Om Klingonska Akademien" -- KA's Logo
+*** TODO Add the moon logos as thumnails on the page
+*** TODO Move all the logos to the pic directory?
 ** TODO Lesson list
    http://klingonska.org/lektioner/
 *** Should be listed
