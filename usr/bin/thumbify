@@ -159,7 +159,7 @@ html_output() {                                # [2005-05-24]
 # (Returns FILE in netpbm format on STDOUT.)
 typeset -A decode_command                      # image decoder command cache
 decode_image() {                               # [2005-05-24]
-    local FILE=$argv[1] TYPE CMD               #   arg: file name
+    local FILE=$argv[1] TYPE="" CMD=""         #   arg: file name
     TYPE=${(L)"$(file --brief --dereference \
         -- $FILE)"[(w)1]}                      #   1st word of "file" output
     CMD=$decode_command[$TYPE]                 #   get image command from cache
@@ -173,7 +173,8 @@ decode_image() {                               # [2005-05-24]
         fi                                     #
         decode_command[$TYPE]=$CMD             #     store command in cache
     fi                                         #       (for next use time)
-    $CMD -- $FILE 2>/dev/null                  #   decode file
+    [[ $FILE == -* ]] && FILE="./$FILE"        #   leading "-" in filename
+    $CMD $FILE                                 #   decode file
 }                                              #
 
 
@@ -351,19 +352,19 @@ if [[ -z $FORCE ]]; then                       # --force wasn't used
     thumb=()                                   #
     for (( I = 1; I <= ARGC; )); do            #   for each argument
         if [[ $argv[I] == $PREFIX(#b)(*)$SUFFIX.$EXTENSION ]]; then
-            f=($match[1].[^.]##)               #     that may be a thumbnail
+            f=($match[1].[^.]##(N))            #     that may be a thumbnail
             if (( $#f > 0 )); then             #     and for which an image
-                thumb+=$argv[I]                #       exists
+                thumb+=("$argv[I] (thumb of $f)") #    exists
                 argv[I]=()                     #       remove from args
                 continue                       #       and goto next arg
             fi                                 #
         fi                                     #
         (( I ++ ))                             #
     done                                       #
-    if [[ -n $VERBOSE ]]; then                 #   on --verbose
-        echo "Won't thumbify the following files:" #'"
-        echo "(Because they look like thumbnails already.)"
-        foreach THUMB ($thumb); do             #
+    if [[ -n $VERBOSE && $#thumb > 0 ]]; then  #   on --verbose
+        echo "Won't create thumbs following file(s) as they appear to be thumbnails themselves."
+        echo "(Use --force to create thumbs for them anyway.)"
+        for THUMB in $thumb; do                #
             echo "    $THUMB"                  #
         done                                   #
     fi                                         #
@@ -419,4 +420,3 @@ foreach INFILE in $argv[@]; do                 # for each file
 done                                           #
 (( ERRORS > 0 )) && exit 1                     # exit with errors
 exit                                           # or exit okay
-
