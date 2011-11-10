@@ -26,7 +26,12 @@
 #
 # [2011-08-29] v1.5 - Added 'pos' field to database, and modified this script
 # to present is as "part-of-speech" in search results
-
+#
+# [2011-11-09] v1.5.5 - One may now hover over field name in search results to
+# see their actual names. Does no longer suppress displaying links to
+# TKD/TKW/KGT transcripts (since you have to go through the prove-that-you-own-
+# a-copy-of-the-TKD interface to display the transcript anyway).
+#
 
 ###############################################################################
 ##                                                                           ##
@@ -61,15 +66,18 @@ our %postprocess = (
         my ($value) = @_;
         my $i = 0;
         return map {
-            $value !~ /-(tkd|tkw|kgt)\.txt$/
-                ? ($i++ ? "\n      <br />" : "") . "<a href=\"../canon/$_\">$_</a>"
-                : ();
+            my $string = ($i++ ? "\n      <br />" : "") . "<a href=\"../canon/$_\">$_</a>";
+            $string .= " (<strong>NOTE:</strong> <abbr title=\"The Klingon " .
+                "Dictionary\">TKD</abbr> required to view this file.)"
+                if /-(tkd|tkw|kgt)$\.txt/;
+            $string;
         } split(/;\s*/, $value);
         #return undef if $value =~ /-(tkd|tkw|kgt)\.txt$/;
         #return '<a href="../canon/' . $value . '">' . $value . '</a>';
         #undef;
     },
 );
+
 our %field = (
     tlh  => "Klingon",
     warn => "Warning",
@@ -87,6 +95,8 @@ our %field = (
 );
 
 our @tips = (
+    "Hover over field name in search results to see its seach prefix.",
+    "With a prefix search (e.g. <b>cat:locative</b>) you only the specified field (here: <b>cat</b>).",
     "Example: <b>def:HQ10:4</b> lists all words first occuring in " .
         "<b lang=\"tlh\">HolQeD</b> issue 10:4.",
     "Prefixes: <b>tlh:</b> = Klingon, <b>en:</b> = English, <b>sv:</b> = " .
@@ -111,7 +121,7 @@ our @tips = (
     'Use <b>pos:vsr</b> or <b>pos:rover</b> to search for <i>verb suffix ' .
         'rovers</i>.',
     'Use <b>*</b> to mean any sequence of letters.',
-    'Use <b>"..."</b> to search for several words in a row.',
+    'Use quotes (<b>"..."</b>) to search for several words in a row.',
 );
 
 
@@ -339,7 +349,7 @@ return <<"EOF";
     <a href="http://klingonska.org/dict/">Klingon Pocket Dictionary</a>
   </span>
   <span id="pubdate">
-    Updated <time pubdate datetime="2011-08-30T13:28">August 30, 2011</time>
+    Updated <time pubdate datetime="2011-11-09T06:01">October 9, 2011</time>
   </span>
 </div>
 <!-- end:status -->
@@ -462,7 +472,8 @@ print html_head() . html_form($query);
                 next unless @content;
             }
             push @output, "  <tr>\n",
-                "    <th>" . (exists($field{$field}) ? $field{$field} : ucfirst($field)) . ":&nbsp;</th>\n",
+                "    <th title=\"Search prefix: $field\">" .
+                    (exists($field{$field}) ? $field{$field} : ucfirst($field)) . ":&nbsp;</th>\n",
                 "    <td>@content</td>\n",
                 "  </tr>";
         }
