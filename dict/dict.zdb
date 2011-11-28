@@ -62,7 +62,7 @@ FIELD NAMES USED IN DICTIONARY BELOW
                       prepositional concepts, body parts etc. (categories
                       separated by semicolon). Right now the following
                       categories exist: 'architecture', 'body part',
-                      'clothing', 'family', 'fighting', 'landscape',
+                      'clothing', 'country', 'family', 'fighting', 'landscape',
                       'locative', 'math', 'money', 'music', 'time', 'unit'.
     data:  (optional) contains additional data about a word:
                       "KLCP-1" = one of the 500 basic words, required for
@@ -268,6 +268,16 @@ en:	(general «invective»)
 def:	TKDa 5.5 (p.178)
 ref:	KLINW
 file:	1992-01-01-tkd.txt
+
+tlh:	{barat}
+pos:	noun
+sv:	«Indien»
+en:	«India»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{bargh}
 pos:	noun
@@ -2706,6 +2716,16 @@ def:	TKD E-K
 data:	phrase
 file:	1992-01-01-tkd.txt
 
+tlh:	{Denmargh}
+pos:	noun
+sv:	«Danmark»
+en:	«Denmark»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{Dep}
 pos:	noun
 sv:	«varelse» (icke-humanoid)
@@ -3122,6 +3142,16 @@ sv:	«pipa», «vissla», «flöjt»
 en:	<flute>, <fife>
 def:	KGT
 file:	1997-11-01-kgt.txt
+
+tlh:	{DoyIchlan}
+pos:	noun
+sv:	«Tyskland»
+en:	«Germany»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{Doy'}
 pos:	verb
@@ -6600,6 +6630,16 @@ en:	<evade>, take evasive action
 def:	ST1; TKD
 file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
+tlh:	{jungwoq}
+pos:	noun
+sv:	«Kina»
+en:	«China»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{jup}
 pos:	noun
 sv:	«vän»
@@ -7789,6 +7829,16 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
+tlh:	{maDyar}
+pos:	noun
+sv:	«Ungern»
+en:	«Hungary»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{magh}
 pos:	verb
 sv:	«förråda», «svika»
@@ -7949,6 +7999,16 @@ en:	<moon>
 def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+
+tlh:	{maSIr}
+pos:	noun
+sv:	«Egypten»
+en:	«Egypt»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{maSwov}
 pos:	noun
@@ -9692,6 +9752,16 @@ en:	«yeoman»
 def:	TKD K-E
 file:	1992-01-01-tkd.txt
 
+tlh:	{ne'Derlan}
+pos:	noun
+sv:	«Nederländerna»
+en:	«The Netherlands»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{nIb}
 pos:	verb
 sv:	vara «identisk»
@@ -9776,6 +9846,16 @@ sv:	«bränsle»
 en:	<fuel>
 def:	TKD
 file:	1992-01-01-tkd.txt
+
+tlh:	{nIpon}
+pos:	noun
+sv:	«Japan»
+en:	«Japan»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{nIQ}
 pos:	noun
@@ -10078,6 +10158,16 @@ en:	<omit>
 def:	TKD
 pun:	"No operation" = an omitted instruction (e.g. in assembly programming language).
 file:	1992-01-01-tkd.txt
+
+tlh:	{noregh}
+pos:	noun
+sv:	«Norge»
+en:	«Norway»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{norgh}
 pos:	noun
@@ -10413,6 +10503,16 @@ ref:	TKW p.142
 see:	{Dep}; {ghot}; {yoq}
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+
+tlh:	{nu'SIylan}
+pos:	noun
+sv:	«Nya Zeeland»
+en:	«New Zealand»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{ngab}
 pos:	verb
@@ -11874,6 +11974,16 @@ com:	"Maltz was familiar with the scientific study of bodily functions, or
 	field." [HQ12:4 p.8]
 file:	2003-12-holqed-12-4.txt
 
+tlh:	{portughal}
+pos:	noun
+sv:	«Portugal»
+en:	«Portugal»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{poS}
 pos:	verb
 sv:	vara «öppen», vara «öppnad»
@@ -12640,6 +12750,16 @@ en:	«replacement proverb»
 def:	HQ5:1 p.10
 data:	phrase
 file:	1996-03-holqed-05-1.txt
+
+tlh:	{qa'naDa'}
+pos:	noun
+sv:	«Kanada»
+en:	«Canada»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{qa'rI'}
 pos:	noun
@@ -14802,6 +14922,16 @@ en:	<table>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
+tlh:	{raSya'}
+pos:	noun
+sv:	«Ryssland»
+en:	«Russia»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{ratlh}
 pos:	verb
 sv:	stanna «kvar», finnas kvar, «återstå», «ha» kvar, vara kvar
@@ -16601,6 +16731,16 @@ def:	KGT p.49
 cat:	fighting
 file:	1997-11-01-kgt.txt
 
+tlh:	{Suverya'}
+pos:	noun
+sv:	«Sverige»
+en:	«Sweden»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{SuvwI'}
 pos:	noun
 sv:	«krigare»
@@ -16612,6 +16752,16 @@ see:	{mang}; {vaj}
 cat:	fighting
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+
+tlh:	{SuwomIy}
+pos:	noun
+sv:	«Finland»
+en:	«Finland»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{Suy}
 pos:	noun
@@ -17781,6 +17931,16 @@ cat:	family
 data:	phrase
 file:	1997-11-01-kgt.txt
 
+tlh:	{tuqjIjQa'}
+pos:	noun
+sv:	«Storbritannien»
+en:	«United Kingdom»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{tuqnIgh}
 pos:	noun
 sv:	«familjemedlem», «släktmedlem», «släkting»
@@ -17841,6 +18001,16 @@ com:	In <{HolQeD} 2:4> p. 17 (article named "Okrand's Notes"): "[...] the
 cat:	clothing
 data:	derived form
 file:	1992-01-01-tkd.txt; 1993-12-holqed-02-4.txt
+
+tlh:	{turIqya'}
+pos:	noun
+sv:	«Turkiet»
+en:	«Turkey»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{tuS}
 pos:	verb
@@ -19088,6 +19258,16 @@ sv:	«Vixis»
 en:	«Vixis»
 def:	KGT p.197
 file:	1997-11-01-kgt.txt
+
+tlh:	{vIraS}
+pos:	noun
+sv:	«Frankrike»
+en:	«France»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{vIt}
 pos:	verb
@@ -20379,6 +20559,16 @@ def:	KGT
 ref:	TKW p.189
 file:	1997-11-01-kgt.txt
 
+tlh:	{yISra'el}
+pos:	noun
+sv:	«Israel»
+en:	«Israel»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{yIt}
 pos:	verb
 sv:	«gå»
@@ -20804,6 +20994,16 @@ en:	<ax> with spike at end
 def:	KGT
 file:	1997-11-01-kgt.txt
 
+tlh:	{'amerI'qa' SepjIjQa'}
+pos:	noun
+sv:	«Amerikas förenta stater», «USA»
+en:	«United States of America», «USA»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{'ampaS}
 pos:	noun
 sv:	«akademi», «skola»
@@ -20904,6 +21104,16 @@ sv:	«hur många gånger»?
 en:	«how many times»?
 def:	News 1999-02-02
 file:	1999-02-02-email.txt
+
+tlh:	{'aSralya'}
+pos:	noun
+sv:	«Australien»
+en:	«Australia»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{'at}
 pos:	noun
@@ -21057,6 +21267,16 @@ ref:	TKW p.181
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
+tlh:	{'elaDya'}
+pos:	noun
+sv:	«Grekland»
+en:	«Greece»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{'elaS}
 pos:	noun
 sv:	«Elas» (planet)
@@ -21160,6 +21380,16 @@ sv:	vara «låg»
 en:	be <low>
 def:	KGT
 file:	1997-11-01-kgt.txt
+
+tlh:	{'eSpanya'}
+pos:	noun
+sv:	«Spanien»
+en:	«Spain»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{'et}
 pos:	noun
@@ -21399,6 +21629,16 @@ en:	Klingon ~«{I}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
+
+tlh:	{'Italya'}
+pos:	noun
+sv:	«Italien»
+en:	«Italy»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol, "Eurotalk -
+	New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{'Itlh}
 pos:	verb
