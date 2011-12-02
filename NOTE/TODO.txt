@@ -1488,6 +1488,8 @@ Priorities:
    CLOSED: [2010-10-07 Thu 07:27]
 * Build/check tools
 ** TODO Dictionary check tool (usr/bin/check-dict)
+*** TODO tlh fields with multiple words should have corresponding data-field
+    E.g. "data:phrase" and "data: derived form"
 *** DONE Check ref/def format
     CLOSED: [2011-08-31 Wed]
 *** DONE Check that all required fields exist in each post
@@ -1507,7 +1509,7 @@ Priorities:
     I.e. the 'tlh' field should contain number within parenthesis ("(1)" for
     the oldest meaning of a word, "(2)" for the second oldest etc., if both
     homonyms have same source number is assigned in alphabetically.)
-*** TODO Email should require "by", "to" and a subject in parentheses.
+*** TODO Email/News should require "by", "to" and a subject in parentheses.
 *** TODO Improve checks of Klingon spelling
     Dissallow combinations ("uw" and maybe others?) that are explicitly
     forbidden in TKD.

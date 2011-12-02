@@ -205,6 +205,15 @@ en:	<jug>, <jar>, <bottle>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
+tlh:	{banan naH}
+pos:	noun
+sv:	«banan»
+en:	«banana»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{bang}
 pos:	noun
 sv:	«älskad», någon som är älskad, älskade
@@ -3566,6 +3575,15 @@ en:	<serpent>, <worm>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
+tlh:	{gharlIq 'oQqar}
+pos:	noun
+sv:	«vitlök»
+en:	«garlic»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{gharwI'}
 pos:	noun
 sv:	«diplomat»
@@ -3900,6 +3918,15 @@ sv:	stiga «nedför», fara ner, komma «ner», slutta neråt
 en:	<descend>
 def:	TKD
 file:	1992-01-01-tkd.txt
+
+tlh:	{ghIrep naH}
+pos:	noun
+sv:	«vindruva»
+en:	«grape»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
 
 tlh:	{ghIrIlqa'}
 pos:	name
@@ -4663,6 +4690,15 @@ en:	<dog>, <cur>, <inferior person> [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
+tlh:	{Ha'DIbaH ghIH tIr ngogh je}
+pos:	noun
+sv:	«hamburgare»
+en:	«hamburger»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{Ha'quj}
 pos:	noun
 sv:	«axelgehäng», «gehäng»
@@ -4980,11 +5016,13 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{HIvje'}
 pos:	noun
-sv:	«glas» (dryckeskärl)
-en:	<glass> (tumbler)
+sv:	«glas» (dryckeskärl), «mugg»
+en:	<glass> (tumbler), «mug»
 def:	TKD
+ref:	Eurotalk; Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
 data:	KLCP-1
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 2011-10-31-email.txt
 
 tlh:	{HIvje' bom}
 pos:	noun
@@ -8238,6 +8276,15 @@ en:	<catalog>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
+tlh:	{menggho' naH}
+pos:	noun
+sv:	«mango»
+en:	«mango»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{mep}
 pos:	noun
 sv:	«plast»
@@ -8336,6 +8383,15 @@ sv:	«stopp», det är «bra», det är «nog»
 en:	«stop», (it is) «enough»
 def:	KGT p.113
 file:	1997-11-01-kgt.txt
+
+tlh:	{meyIS tIr}
+pos:	noun
+sv:	«majs», sockermajs
+en:	sweet «corn»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
 
 tlh:	{meyrI'}
 pos:	noun
@@ -9840,6 +9896,24 @@ def:	TKDa
 data:	phrase; {nImbuS} (n)
 file:	1992-01-01-tkd.txt
 
+tlh:	{nIm tlhagh}
+pos:	noun
+sv:	«smör»
+en:	«butter»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
+tlh:	{nIm wIb ngogh}
+pos:	noun
+sv:	«ost»
+en:	«cheese»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{nIn}
 pos:	noun
 sv:	«bränsle»
@@ -11269,6 +11343,15 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
+tlh:	{patat 'oQqar}
+pos:	noun
+sv:	«potatis»
+en:	«cheese»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{patlh} (1)
 pos:	noun
 sv:	«rang», «grad» (i regering och militär)
@@ -11515,6 +11598,15 @@ en:	<label>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
+tlh:	{per naH}
+pos:	noun
+sv:	«päron»
+en:	«pear»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{per yuD}
 pos:	noun
 sv:	«kodnamn»
@@ -11635,6 +11727,15 @@ en:	be <stimulated>, be <inspired>, be motivated
 def:	KGT
 file:	1997-11-01-kgt.txt
 
+tlh:	{pIlam naH}
+pos:	noun
+sv:	«plommon»
+en:	«plum»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{pIlmoH}
 pos:	verb
 sv:	«stimulera», «inspirera», «motivera»
@@ -11727,6 +11828,15 @@ com:	Article in HQ is called "{matlh juppu' mu'mey}".
 see:	{yor}; {bIS'ub}
 cat:	locative
 file:	1999-09-holqed-08-3.txt
+
+tlh:	{pItSa' chab}
+pos:	noun
+sv:	«pizza»
+en:	«pizza»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
 
 tlh:	{pItlh}
 pos:	exclamation
@@ -13055,6 +13165,15 @@ com:	A guessing game with dice where the winner receives a punch.
 data:	phrase
 file:	1996-04-kcd.txt
 
+tlh:	{qe'rot 'oQqar}
+pos:	noun
+sv:	«morot»
+en:	«carrot»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{qIb}
 pos:	noun
 sv:	«galax»
@@ -13411,6 +13530,15 @@ sv:	«värld», «rike»
 en:	<world>, <realm>
 def:	TKDa
 file:	1992-01-01-tkd.txt
+
+tlh:	{qo'la' 'awje'}
+pos:	noun
+sv:	«cola»
+en:	«cola»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
 
 tlh:	{qo'leq}
 pos:	name
@@ -14922,6 +15050,15 @@ en:	<table>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
+tlh:	{raSber naH}
+pos:	noun
+sv:	«hallon»
+en:	«raspberry»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{raSya'}
 pos:	noun
 sv:	«Ryssland»
@@ -14981,6 +15118,15 @@ en:	<targets>
 def:	TKD
 see:	{DoS} is the singular form
 file:	1992-01-01-tkd.txt
+
+tlh:	{ray' tIr}
+pos:	noun
+sv:	«ris» (mat)
+en:	«rice»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
 
 tlh:	{ra'}
 pos:	verb
@@ -16281,9 +16427,18 @@ com:	"Maltz said, '{tlhIngan Soj 'oH---not bIyaj},' literally, 'It is
 	idiomatic sense of <matter, concern, affair>." [HQ12:3 p.9]
 file:	2003-09-holqed-12-3.txt
 
+tlh:	{Soj naQ}
+pos:	noun
+sv:	«ätpinne», «kinapinne»
+en:	«chopstick»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{Soj qub}
 pos:	noun
-sv:	¿?fin «kokonst», sällsynt mat
+sv:	«haute cuisine», fin «mat», «restaurangmat»
 en:	<haute cuisine>
 def:	KGT p.84
 data:	phrase
@@ -16705,6 +16860,15 @@ com:	"{Sutovoqor} (n) Stovokor (spelling correction from {S'to...})" (NOTE:
 	heaven. [First mentioned by name in 'Rightful Heir' (TNG).]" [DI]
 file:	2001-02-17-email.txt
 
+tlh:	{Sutra'ber naH}
+pos:	noun
+sv:	«jordgubbe»
+en:	«strawberry»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{Sutlh}
 pos:	verb
 sv:	«förhandla»
@@ -16790,6 +16954,15 @@ sv:	var «redo»!, jag är «beredd»!
 en:	<ready>!, <standing by>!
 def:	TKD 5.5 (p.57) et al.
 file:	1992-01-01-tkd.txt
+
+tlh:	{Su'ghar qut}
+pos:	noun
+sv:	«socker»
+en:	«sugar»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
 
 tlh:	{Su'lop}
 pos:	noun
@@ -17253,12 +17426,57 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
+tlh:	{tera' na'ran}
+pos:	noun
+sv:	«apelsin»
+en:	«orange»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
+tlh:	{tera' na'ran wIb}
+pos:	noun
+sv:	«citron»
+en:	«lemon»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
+tlh:	{tera' na'ran'a'}
+pos:	noun
+sv:	«grapefrukt»
+en:	«grapefruit»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{tera'ngan}
 pos:	noun
 sv:	«jordman», «jordling»
 en:	<Terran>, <Earther>
 def:	TKD
 file:	1992-01-01-tkd.txt
+
+tlh:	{tera' peb'ot}
+pos:	noun
+sv:	«gurka»
+en:	«cucumber»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
+tlh:	{tera' yav 'atlhqam}
+pos:	noun
+sv:	«svamp»
+en:	«mushroom»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
 
 tlh:	{teS}
 pos:	noun
@@ -17518,6 +17736,15 @@ def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from Maltz"
 data:	phrase
 file:	2010-12-25-email.txt
 
+tlh:	{tIr ngogh QaD}
+pos:	noun
+sv:	«rostat «bröd»»
+en:	«toast»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{tIS}
 pos:	verb
 sv:	vara «lätt» (om vikt)
@@ -17644,6 +17871,15 @@ en:	<deceive>, <trick>, <bluff>
 def:	TKD; KGT
 ref:	TKW p.46
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
+
+tlh:	{tomat naH}
+pos:	noun
+sv:	«tomat»
+en:	«tomato»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
 
 tlh:	{tonSaw'}
 pos:	noun
@@ -18115,6 +18351,18 @@ sv:	«fett», «djurfett»
 en:	<fat>, «animal fat»
 def:	KGT
 file:	1997-11-01-kgt.txt
+
+tlh:	{tlhagh patat 'oQqar naQHommey}
+pos:	noun
+sv:	«pommes frites»
+en:	french «fries»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+com:	Editor's note: I kept the plural suffix {-mey} here, in the Klingon,
+	mostly because putting a singular form in the English (or Swedish) side
+	of the dictionary seems somewhat ridiculous. /zrajm [2011-12-02]
+file:	2011-10-31-email.txt
 
 tlh:	{tlham} (1)
 pos:	noun
@@ -21013,6 +21261,15 @@ pun:	Could this have anything to do with "Academy of Motion Picture Arts
 	and Sciences", perhaps?
 file:	1997-11-01-kgt.txt
 
+tlh:	{'anyan 'oQqar}
+pos:	noun
+sv:	«lök»
+en:	«onion»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{'ang}
 pos:	verb
 sv:	«visa», «exponera», «röja», «avslöja»
@@ -21348,6 +21605,15 @@ en:	<consume> «soup», «eat» soup
 def:	KGT
 com:	"eat" is included as a lookup synonym (does not occur in sources)
 file:	1997-11-01-kgt.txt
+
+tlh:	{'epIl naH}
+pos:	noun
+sv:	«äpple»
+en:	«apple»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
 
 tlh:	{'eq}
 pos:	verb
