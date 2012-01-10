@@ -62,7 +62,7 @@ FIELD NAMES USED IN DICTIONARY BELOW
                       prepositional concepts, body parts etc. (categories
                       separated by semicolon). Right now the following
                       categories exist: 'architecture', 'body part',
-                      'clothing', 'family', 'fighting', 'landscape',
+                      'clothing', 'country', 'family', 'fighting', 'landscape',
                       'locative', 'math', 'money', 'music', 'time', 'unit'.
     data:  (optional) contains additional data about a word:
                       "KLCP-1" = one of the 500 basic words, required for
@@ -205,6 +205,15 @@ en:	<jug>, <jar>, <bottle>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
+tlh:	{banan naH}
+pos:	noun
+sv:	«banan»
+en:	«banana»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{bang}
 pos:	noun
 sv:	«älskad», någon som är älskad, älskade
@@ -268,6 +277,16 @@ en:	(general «invective»)
 def:	TKDa 5.5 (p.178)
 ref:	KLINW
 file:	1992-01-01-tkd.txt
+
+tlh:	{barat}
+pos:	noun
+sv:	«Indien»
+en:	«India»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{bargh}
 pos:	noun
@@ -2706,6 +2725,16 @@ def:	TKD E-K
 data:	phrase
 file:	1992-01-01-tkd.txt
 
+tlh:	{Denmargh}
+pos:	noun
+sv:	«Danmark»
+en:	«Denmark»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{Dep}
 pos:	noun
 sv:	«varelse» (icke-humanoid)
@@ -3123,6 +3152,16 @@ en:	<flute>, <fife>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
+tlh:	{DoyIchlan}
+pos:	noun
+sv:	«Tyskland»
+en:	«Germany»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{Doy'}
 pos:	verb
 sv:	vara «trött»
@@ -3536,6 +3575,15 @@ en:	<serpent>, <worm>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
+tlh:	{gharlIq 'oQqar}
+pos:	noun
+sv:	«vitlök»
+en:	«garlic»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{gharwI'}
 pos:	noun
 sv:	«diplomat»
@@ -3870,6 +3918,15 @@ sv:	stiga «nedför», fara ner, komma «ner», slutta neråt
 en:	<descend>
 def:	TKD
 file:	1992-01-01-tkd.txt
+
+tlh:	{ghIrep naH}
+pos:	noun
+sv:	«vindruva»
+en:	«grape»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
 
 tlh:	{ghIrIlqa'}
 pos:	name
@@ -4633,6 +4690,15 @@ en:	<dog>, <cur>, <inferior person> [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
+tlh:	{Ha'DIbaH ghIH tIr ngogh je}
+pos:	noun
+sv:	«hamburgare»
+en:	«hamburger»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{Ha'quj}
 pos:	noun
 sv:	«axelgehäng», «gehäng»
@@ -4950,11 +5016,13 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{HIvje'}
 pos:	noun
-sv:	«glas» (dryckeskärl)
-en:	<glass> (tumbler)
+sv:	«glas» (dryckeskärl), «mugg»
+en:	<glass> (tumbler), «mug»
 def:	TKD
+ref:	Eurotalk; Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
 data:	KLCP-1
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 2011-10-31-email.txt
 
 tlh:	{HIvje' bom}
 pos:	noun
@@ -6600,6 +6668,16 @@ en:	<evade>, take evasive action
 def:	ST1; TKD
 file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
+tlh:	{jungwoq}
+pos:	noun
+sv:	«Kina»
+en:	«China»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{jup}
 pos:	noun
 sv:	«vän»
@@ -7789,6 +7867,16 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
+tlh:	{maDyar}
+pos:	noun
+sv:	«Ungern»
+en:	«Hungary»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{magh}
 pos:	verb
 sv:	«förråda», «svika»
@@ -7949,6 +8037,16 @@ en:	<moon>
 def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+
+tlh:	{maSIr}
+pos:	noun
+sv:	«Egypten»
+en:	«Egypt»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{maSwov}
 pos:	noun
@@ -8178,6 +8276,15 @@ en:	<catalog>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
+tlh:	{menggho' naH}
+pos:	noun
+sv:	«mango»
+en:	«mango»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{mep}
 pos:	noun
 sv:	«plast»
@@ -8276,6 +8383,15 @@ sv:	«stopp», det är «bra», det är «nog»
 en:	«stop», (it is) «enough»
 def:	KGT p.113
 file:	1997-11-01-kgt.txt
+
+tlh:	{meyIS tIr}
+pos:	noun
+sv:	«majs», sockermajs
+en:	sweet «corn»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
 
 tlh:	{meyrI'}
 pos:	noun
@@ -9692,6 +9808,16 @@ en:	«yeoman»
 def:	TKD K-E
 file:	1992-01-01-tkd.txt
 
+tlh:	{ne'Derlan}
+pos:	noun
+sv:	«Nederländerna»
+en:	«The Netherlands»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{nIb}
 pos:	verb
 sv:	vara «identisk»
@@ -9770,12 +9896,40 @@ def:	TKDa
 data:	phrase; {nImbuS} (n)
 file:	1992-01-01-tkd.txt
 
+tlh:	{nIm tlhagh}
+pos:	noun
+sv:	«smör»
+en:	«butter»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
+tlh:	{nIm wIb ngogh}
+pos:	noun
+sv:	«ost»
+en:	«cheese»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{nIn}
 pos:	noun
 sv:	«bränsle»
 en:	<fuel>
 def:	TKD
 file:	1992-01-01-tkd.txt
+
+tlh:	{nIpon}
+pos:	noun
+sv:	«Japan»
+en:	«Japan»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{nIQ}
 pos:	noun
@@ -10078,6 +10232,16 @@ en:	<omit>
 def:	TKD
 pun:	"No operation" = an omitted instruction (e.g. in assembly programming language).
 file:	1992-01-01-tkd.txt
+
+tlh:	{noregh}
+pos:	noun
+sv:	«Norge»
+en:	«Norway»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{norgh}
 pos:	noun
@@ -10413,6 +10577,16 @@ ref:	TKW p.142
 see:	{Dep}; {ghot}; {yoq}
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+
+tlh:	{nu'SIylan}
+pos:	noun
+sv:	«Nya Zeeland»
+en:	«New Zealand»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{ngab}
 pos:	verb
@@ -11169,6 +11343,15 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
+tlh:	{patat 'oQqar}
+pos:	noun
+sv:	«potatis»
+en:	«cheese»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{patlh} (1)
 pos:	noun
 sv:	«rang», «grad» (i regering och militär)
@@ -11415,6 +11598,15 @@ en:	<label>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
+tlh:	{per naH}
+pos:	noun
+sv:	«päron»
+en:	«pear»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{per yuD}
 pos:	noun
 sv:	«kodnamn»
@@ -11535,6 +11727,15 @@ en:	be <stimulated>, be <inspired>, be motivated
 def:	KGT
 file:	1997-11-01-kgt.txt
 
+tlh:	{pIlam naH}
+pos:	noun
+sv:	«plommon»
+en:	«plum»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{pIlmoH}
 pos:	verb
 sv:	«stimulera», «inspirera», «motivera»
@@ -11627,6 +11828,15 @@ com:	Article in HQ is called "{matlh juppu' mu'mey}".
 see:	{yor}; {bIS'ub}
 cat:	locative
 file:	1999-09-holqed-08-3.txt
+
+tlh:	{pItSa' chab}
+pos:	noun
+sv:	«pizza»
+en:	«pizza»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
 
 tlh:	{pItlh}
 pos:	exclamation
@@ -11874,6 +12084,16 @@ com:	"Maltz was familiar with the scientific study of bodily functions, or
 	field." [HQ12:4 p.8]
 file:	2003-12-holqed-12-4.txt
 
+tlh:	{portughal}
+pos:	noun
+sv:	«Portugal»
+en:	«Portugal»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{poS}
 pos:	verb
 sv:	vara «öppen», vara «öppnad»
@@ -12088,7 +12308,7 @@ file:	1998-05-05a-news.txt
 tlh:	{puq Hol}
 pos:	noun
 sv:	«barnspråk»
-en:	«baby talk» (chilren's language)
+en:	«baby talk» (children's language)
 def:	KGT p.34
 data:	phrase
 file:	1997-11-01-kgt.txt
@@ -12641,6 +12861,16 @@ def:	HQ5:1 p.10
 data:	phrase
 file:	1996-03-holqed-05-1.txt
 
+tlh:	{qa'naDa'}
+pos:	noun
+sv:	«Kanada»
+en:	«Canada»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{qa'rI'}
 pos:	noun
 sv:	«slut», «ände» (på långsmalt avgränsat utrymme, t.ex. korridor, rör, väg, bro, fält etc.)
@@ -12934,6 +13164,15 @@ def:	KCD
 com:	A guessing game with dice where the winner receives a punch.
 data:	phrase
 file:	1996-04-kcd.txt
+
+tlh:	{qe'rot 'oQqar}
+pos:	noun
+sv:	«morot»
+en:	«carrot»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
 
 tlh:	{qIb}
 pos:	noun
@@ -13291,6 +13530,15 @@ sv:	«värld», «rike»
 en:	<world>, <realm>
 def:	TKDa
 file:	1992-01-01-tkd.txt
+
+tlh:	{qo'la' 'awje'}
+pos:	noun
+sv:	«cola»
+en:	«cola»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
 
 tlh:	{qo'leq}
 pos:	name
@@ -14802,6 +15050,25 @@ en:	<table>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
+tlh:	{raSber naH}
+pos:	noun
+sv:	«hallon»
+en:	«raspberry»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
+tlh:	{raSya'}
+pos:	noun
+sv:	«Ryssland»
+en:	«Russia»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{ratlh}
 pos:	verb
 sv:	stanna «kvar», finnas kvar, «återstå», «ha» kvar, vara kvar
@@ -14851,6 +15118,15 @@ en:	<targets>
 def:	TKD
 see:	{DoS} is the singular form
 file:	1992-01-01-tkd.txt
+
+tlh:	{ray' tIr}
+pos:	noun
+sv:	«ris» (mat)
+en:	«rice»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
 
 tlh:	{ra'}
 pos:	verb
@@ -16151,9 +16427,18 @@ com:	"Maltz said, '{tlhIngan Soj 'oH---not bIyaj},' literally, 'It is
 	idiomatic sense of <matter, concern, affair>." [HQ12:3 p.9]
 file:	2003-09-holqed-12-3.txt
 
+tlh:	{Soj naQ}
+pos:	noun
+sv:	«ätpinne», «kinapinne»
+en:	«chopstick»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{Soj qub}
 pos:	noun
-sv:	¿?fin «kokonst», sällsynt mat
+sv:	«haute cuisine», fin «mat», «restaurangmat»
 en:	<haute cuisine>
 def:	KGT p.84
 data:	phrase
@@ -16575,6 +16860,15 @@ com:	"{Sutovoqor} (n) Stovokor (spelling correction from {S'to...})" (NOTE:
 	heaven. [First mentioned by name in 'Rightful Heir' (TNG).]" [DI]
 file:	2001-02-17-email.txt
 
+tlh:	{Sutra'ber naH}
+pos:	noun
+sv:	«jordgubbe»
+en:	«strawberry»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{Sutlh}
 pos:	verb
 sv:	«förhandla»
@@ -16601,6 +16895,16 @@ def:	KGT p.49
 cat:	fighting
 file:	1997-11-01-kgt.txt
 
+tlh:	{Suverya'}
+pos:	noun
+sv:	«Sverige»
+en:	«Sweden»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{SuvwI'}
 pos:	noun
 sv:	«krigare»
@@ -16612,6 +16916,16 @@ see:	{mang}; {vaj}
 cat:	fighting
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+
+tlh:	{SuwomIy}
+pos:	noun
+sv:	«Finland»
+en:	«Finland»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{Suy}
 pos:	noun
@@ -16640,6 +16954,15 @@ sv:	var «redo»!, jag är «beredd»!
 en:	<ready>!, <standing by>!
 def:	TKD 5.5 (p.57) et al.
 file:	1992-01-01-tkd.txt
+
+tlh:	{Su'ghar qut}
+pos:	noun
+sv:	«socker»
+en:	«sugar»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
 
 tlh:	{Su'lop}
 pos:	noun
@@ -17103,12 +17426,57 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
+tlh:	{tera' na'ran}
+pos:	noun
+sv:	«apelsin»
+en:	«orange»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
+tlh:	{tera' na'ran wIb}
+pos:	noun
+sv:	«citron»
+en:	«lemon»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
+tlh:	{tera' na'ran'a'}
+pos:	noun
+sv:	«grapefrukt»
+en:	«grapefruit»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{tera'ngan}
 pos:	noun
 sv:	«jordman», «jordling»
 en:	<Terran>, <Earther>
 def:	TKD
 file:	1992-01-01-tkd.txt
+
+tlh:	{tera' peb'ot}
+pos:	noun
+sv:	«gurka»
+en:	«cucumber»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
+tlh:	{tera' yav 'atlhqam}
+pos:	noun
+sv:	«svamp»
+en:	«mushroom»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
 
 tlh:	{teS}
 pos:	noun
@@ -17368,6 +17736,15 @@ def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from Maltz"
 data:	phrase
 file:	2010-12-25-email.txt
 
+tlh:	{tIr ngogh QaD}
+pos:	noun
+sv:	«rostat «bröd»»
+en:	«toast»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{tIS}
 pos:	verb
 sv:	vara «lätt» (om vikt)
@@ -17494,6 +17871,15 @@ en:	<deceive>, <trick>, <bluff>
 def:	TKD; KGT
 ref:	TKW p.46
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
+
+tlh:	{tomat naH}
+pos:	noun
+sv:	«tomat»
+en:	«tomato»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
 
 tlh:	{tonSaw'}
 pos:	noun
@@ -17781,6 +18167,16 @@ cat:	family
 data:	phrase
 file:	1997-11-01-kgt.txt
 
+tlh:	{tuqjIjQa'}
+pos:	noun
+sv:	«Storbritannien»
+en:	«United Kingdom»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{tuqnIgh}
 pos:	noun
 sv:	«familjemedlem», «släktmedlem», «släkting»
@@ -17841,6 +18237,16 @@ com:	In <{HolQeD} 2:4> p. 17 (article named "Okrand's Notes"): "[...] the
 cat:	clothing
 data:	derived form
 file:	1992-01-01-tkd.txt; 1993-12-holqed-02-4.txt
+
+tlh:	{turIqya'}
+pos:	noun
+sv:	«Turkiet»
+en:	«Turkey»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{tuS}
 pos:	verb
@@ -17945,6 +18351,18 @@ sv:	«fett», «djurfett»
 en:	<fat>, «animal fat»
 def:	KGT
 file:	1997-11-01-kgt.txt
+
+tlh:	{tlhagh patat 'oQqar naQHommey}
+pos:	noun
+sv:	«pommes frites»
+en:	french «fries»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+com:	Editor's note: I kept the plural suffix {-mey} here, in the Klingon,
+	mostly because putting a singular form in the English (or Swedish) side
+	of the dictionary seems somewhat ridiculous. /zrajm [2011-12-02]
+file:	2011-10-31-email.txt
 
 tlh:	{tlham} (1)
 pos:	noun
@@ -19088,6 +19506,16 @@ sv:	«Vixis»
 en:	«Vixis»
 def:	KGT p.197
 file:	1997-11-01-kgt.txt
+
+tlh:	{vIraS}
+pos:	noun
+sv:	«Frankrike»
+en:	«France»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{vIt}
 pos:	verb
@@ -20379,6 +20807,16 @@ def:	KGT
 ref:	TKW p.189
 file:	1997-11-01-kgt.txt
 
+tlh:	{yISra'el}
+pos:	noun
+sv:	«Israel»
+en:	«Israel»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{yIt}
 pos:	verb
 sv:	«gå»
@@ -20804,6 +21242,16 @@ en:	<ax> with spike at end
 def:	KGT
 file:	1997-11-01-kgt.txt
 
+tlh:	{'amerI'qa' SepjIjQa'}
+pos:	noun
+sv:	«Amerikas förenta stater», «USA»
+en:	«United States of America», «USA»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{'ampaS}
 pos:	noun
 sv:	«akademi», «skola»
@@ -20812,6 +21260,15 @@ def:	KGT
 pun:	Could this have anything to do with "Academy of Motion Picture Arts
 	and Sciences", perhaps?
 file:	1997-11-01-kgt.txt
+
+tlh:	{'anyan 'oQqar}
+pos:	noun
+sv:	«lök»
+en:	«onion»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
 
 tlh:	{'ang}
 pos:	verb
@@ -20905,6 +21362,16 @@ en:	«how many times»?
 def:	News 1999-02-02
 file:	1999-02-02-email.txt
 
+tlh:	{'aSralya'}
+pos:	noun
+sv:	«Australien»
+en:	«Australia»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{'at}
 pos:	noun
 sv:	klingonskans «{a}»-ljud
@@ -20949,6 +21416,12 @@ pos:	noun
 sv:	ett slags «dryck» (root beer)
 en:	type of <beverage> (root beer)
 def:	KGT
+com:	A popular effervescent drink, black in color, is called {'awje'}. This
+	is frequently, though not accurately, translated as "root beer,"
+	probably because of its superficial resemblance to the Federation soft
+	drink, but it is made from, among other things, the marrow ({melchoQ})
+	taken from the bones of a {teghbat} (~"teg'bat"~). It is considered
+	relatively mild, even for a Klingon nonalcoholic drink. [KGT p.95]
 file:	1997-11-01-kgt.txt
 
 tlh:	{'aw'}
@@ -21051,6 +21524,16 @@ ref:	TKW p.181
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
+tlh:	{'elaDya'}
+pos:	noun
+sv:	«Grekland»
+en:	«Greece»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
+
 tlh:	{'elaS}
 pos:	noun
 sv:	«Elas» (planet)
@@ -21123,6 +21606,15 @@ def:	KGT
 com:	"eat" is included as a lookup synonym (does not occur in sources)
 file:	1997-11-01-kgt.txt
 
+tlh:	{'epIl naH}
+pos:	noun
+sv:	«äpple»
+en:	«apple»
+def:	Eurotalk
+ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Food")
+file:	2011-10-31-email.txt
+
 tlh:	{'eq}
 pos:	verb
 sv:	vara «tidig»
@@ -21154,6 +21646,16 @@ sv:	vara «låg»
 en:	be <low>
 def:	KGT
 file:	1997-11-01-kgt.txt
+
+tlh:	{'eSpanya'}
+pos:	noun
+sv:	«Spanien»
+en:	«Spain»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{'et}
 pos:	noun
@@ -21393,6 +21895,16 @@ en:	Klingon ~«{I}»~ sound
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
+
+tlh:	{'Italya'}
+pos:	noun
+sv:	«Italien»
+en:	«Italy»
+def:	Eurotalk
+ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Countries")
+cat:	country
+file:	2011-10-29-email.txt
 
 tlh:	{'Itlh}
 pos:	verb

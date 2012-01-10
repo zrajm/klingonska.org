@@ -475,7 +475,7 @@ sub source_ref_syntax {
     # simple page numbers
     my $page_refs = qr/ $s $pp(, $s $pp)*/x;
 
-    my $paged_source   = qr/( TKDa? $tkd_refs? |KGT $kgt_refs? | (DI|Sarek|TKW|HQ[0-9]+:[0-9]+) $page_refs?) (${s}et${s}al\.)? /x;
+    my $paged_source   = qr/( TKDa? $tkd_refs? |KGT $kgt_refs? | (DI|Eurotalk|Sarek|TKW|HQ[0-9]+:[0-9]+) $page_refs?) (${s}et${s}al\.)? /x;
     my $unpaged_source = qr/BoP|CK|PK|KCD|KLINW|TDNW|Radio $s Times|
                             S7|S8|S14|S15|S20|S25|S26|S32|S33|ST5|STE|
                             ST1|
