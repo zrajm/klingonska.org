@@ -52,9 +52,9 @@ FIELD NAMES USED IN DICTIONARY BELOW
                       missing translation marked with «»
     en:    (required) English definition (from canon sources) and
                       part-of-speech
+    desc:  (optional) very short description (included in pocket dictionary)
     def:   (required) source where definition can be found (within [])
     ref:   (optional) canon sources where it also occurs
-    desc:  (optional) very short grammatical notes (for pocket dictionary)
     com:   (optional) special comment concerning the entry
     pun:   (optional) comments about puns and/or word play
     see:   (optional) pointer to related word(s) (separated by semicolon)
@@ -1633,8 +1633,8 @@ tlh:	{cheb'a'}
 pos:	noun
 sv:	«vikt«enhet»», 9 «~cheb~» (cirka 20,25 kilogram)
 en:	«unit» of «weight», 9 «~cheb~» (about 45 pounds or 20.25 kilograms)
-def:	News 1997-10-22; BoP
 desc:	1 {cheb'a'} = 9 {cheb}
+def:	News 1997-10-22; BoP
 com:	(n) unit weight approx. 45--46.4 pounds (20.4--21.05 kg) (9--9.28 cheb)
 	[The numbers don't quite mesh, but this is the best I can figure
 	from different equivalences we've been given.] [BoP poster] (Added:
@@ -2531,8 +2531,8 @@ tlh:	{Dat}
 pos:	noun
 sv:	«överallt», alla platser
 en:	<everywhere>, all places
-def:	TKD 3.3.5 (pp.27--28) et al.
 desc:	never takes {-Daq} [TKD 3.3.5 (pp.27--28)]
+def:	TKD 3.3.5 (pp.27--28) et al.
 com:	Locative word, never followed by {-Daq} [TKD 3.3.5 (pp.27--28)].
 cat:	locative
 file:	1992-01-01-tkd.txt
@@ -3114,9 +3114,9 @@ tlh:	{Dor} (2)
 pos:	verb
 sv:	«ta «slut»» (om tidsperiod, t.ex. månad, år)
 en:	«come to an «end»» (about period of time, e.g. month, year)
+desc:	{Dor jar} ~the month ends;~ time period is subject
 def:	HQ12:2 p.8
 ref:	TDNW
-desc:	{Dor jar} ~the month ends;~ time period is subject
 com:	"Generally, one expresses the end of a stretch of time by using a verb
 	rather than a noun. That is, one says 'when the month ends' rather than
 	'at the end of the month.' The verb for this kind of 'end' is {Dor}.
@@ -3211,9 +3211,9 @@ tlh:	{Dub}
 pos:	verb
 sv:	«förbättra»
 en:	<improve>
+desc:	{patlhwIj vIDub} ~I improve my status;~ object is the thing improved
 def:	TKD; S14; S26
 ref:	TDNW
-desc:	{patlhwIj vIDub} ~I improve my status;~ object is the thing improved
 file:	1992-01-01-tkd.txt; 1995-sbx-s14.txt; 1996-sbx-s26.txt
 
 tlh:	{Dub}
@@ -3512,9 +3512,10 @@ tlh:	{ghang}
 pos:	verb
 sv:	«avsluta» i förtid (en händelse, t.ex. resa, strid, sång)
 en:	prematurely «end» (an event, e.g. a voyage, battle, song)
+desc:	{may' ghang SuvwI'} ~the warrior ends the battle prematurely;~
+	participants are subject
 def:	HQ12:2 p.8
 ref:	TDNW
-desc:	{may' ghang SuvwI'} ~the warrior ends the battle prematurely;~ participants are subject
 com:	"[...] {ghang}, is used to express the idea of a premature ending. If [...]
 	the voyage is cut short or the song is interrupted before the final
 	part is sung, one would say: {leng ghangDI' SuvwI'pu' 'IQ chaH} 'When
@@ -3536,10 +3537,10 @@ tlh:	{ghap}
 pos:	conjuction
 sv:	«eller», antingen eller (kommer efter förenade substantiv)
 en:	<or>, either/or (follows joined nouns)
-def:	TKD 5.3 (p.55)
-ref:	TKW p.119
 desc:	{Dargh qa'vIn ghap} ~tea or coffee (but not both);~ follows two or more
 	nouns [TKD 5.3 (p.55)]
+def:	TKD 5.3 (p.55)
+ref:	TKW p.119
 file:	1992-01-01-tkd.txt
 
 tlh:	{ghaq}
@@ -3724,9 +3725,9 @@ tlh:	{ghet}
 pos:	verb
 sv:	«låtsas», «rollspela»
 en:	«pretend», «role-play»
+desc:	does not imply deception
 def:	HQ12:3 p.8
 ref:	TDNW
-desc:	do not imply deception
 com:	"{ghet} and {ghetwI'} <pretender> generally do not imply deception, but
 	simply role-playing" [HQ12:3 p.8]
 file:	2003-09-holqed-12-3.txt
@@ -5997,10 +5998,10 @@ tlh:	{je}
 pos:	conjuction
 sv:	«också», «och» (kommer efter verb/förenade substantiv)
 en:	<also>, <and>, «too»
-def:	TKD 5.3 (p.55)
-ref:	TKW pp.34, 155, 187
 desc:	{qamuS je} ~I also hate you;~ {bomwI' mI'wI' je} ~singer and dancer;~
 	follows verb or two or more nouns [TKD 5.3 (p.55)]
+def:	TKD 5.3 (p.55)
+ref:	TKW pp.34, 155, 187
 com:	When following a verb it means "also, too", when following nouns it
 	means "and".
 file:	1992-01-01-tkd.txt
@@ -6478,18 +6479,18 @@ tlh:	{joq}
 pos:	verb
 sv:	«fladdra», «flaxa»
 en:	<flap>, <flutter>, <wave>
-def:	TKD
 desc:	about banner or sail [HQ10:4 p.5]
+def:	TKD
 file:	1992-01-01-tkd.txt
 
 tlh:	{joq}
 pos:	conjuction
 sv:	«eller», och/eller (kommer efter förenade substantiv)
 en:	<or>, and/or
-def:	TKD 5.3 (p.55)
-ref:	TKW p.119
 desc:	{Ha'DIbaH naH joq} ~meat or vegetables (or both);~ follows two or more
 	nouns [TKD 5.3 (p.55)]
+def:	TKD 5.3 (p.55)
+ref:	TKW p.119
 file:	1992-01-01-tkd.txt
 
 tlh:	{joqwI'}
@@ -6534,8 +6535,8 @@ warn:	incorrect form of {jorneb}
 pos:	noun
 sv:	«stridsspets» (på en torped)
 en:	«warhead» (of a torpedo)
-def:	KGT K-E
 desc:	incorrect form of {jorneb}
+def:	KGT K-E
 com:	*{jornub} is here assumed to be a misspelling of {jorneb}. The word
 	occurs in KGT, twice spelled {jorneb} (on page 57 and in the
 	English--Klingon dictionary part). The fact that {jorneb} can be
@@ -8731,8 +8732,8 @@ warn:	incorrect form of {mojaq}
 pos:	noun
 sv:	«suffix»
 en:	<suffix>
-def:	TKD E-K
 desc:	incorrect form of {mojaq}
+def:	TKD E-K
 com:	*{mojaQ} is here assumed to be a misspelling of {mojaq}. The word only
 	occurs in TKD, the two spellings occur once each (in each side of the
 	dictionary part), however the word {moHaq} ~prefix~ is consistently
@@ -9232,8 +9233,8 @@ tlh:	{naDev}
 pos:	noun
 sv:	«här», «häromkring»
 en:	<here>, hereabouts
-def:	TKD 3.3.5 (pp.27--28) et al.
 desc:	never takes {-Daq} [TKD 3.3.5 (pp.27--28)]
+def:	TKD 3.3.5 (pp.27--28) et al.
 com:	Locative word, never followed by {-Daq} [TKD 3.3.5 (pp.27--28)].
 cat:	locative
 file:	1992-01-01-tkd.txt
@@ -9639,10 +9640,10 @@ tlh:	{neH}
 pos:	adverbial
 sv:	«bara», «enbart», «endast» (kommer efter verb eller substantiv)
 en:	<only>, <merely>, <just>, «alone»
-def:	TKD
-ref:	TKW pp.21, 61, 81, 105, 111, 113, 115, 191
 desc:	{chomuS neH} ~you merely hate me;~ {Dargh neH vItlhutlh} ~I drink only
 	tea;~ follows a verb or noun [TKD 5.4 (p.56)]
+def:	TKD
+ref:	TKW pp.21, 61, 81, 105, 111, 113, 115, 191
 com:	Follows the verb or noun it modifies. When following a noun it means
 	"only, alone".
 file:	1992-01-01-tkd.txt
@@ -9652,8 +9653,8 @@ warn:	incorrect form of {naHjej}
 pos:	noun
 sv:	«tistel»
 en:	<thistle>
-def:	KGT
 desc:	incorrect form of {naHjej}
+def:	KGT
 com:	*{neHjej} is here assumed to be a misspelling of {naHjej}, since the
 	main text of KGT clearly states that it literally means "sharp fruit"
 	(p.88), even though it is spelled *{neHjej} all (two) times it occurs in
@@ -9969,8 +9970,8 @@ warn:	incorrect form of {nISwI' beH}
 pos:	noun
 sv:	«disruptorgevär»
 en:	«disruptor rifle»
-def:	KGT p.56
 desc:	incorrect form of {nISwI' beH}
+def:	KGT p.56
 com:	*{bej} is here assumed to be a misspelling of {beH}, since it is
 	spelled {beH} in a majority of sources: TKD, S14, and dictionary part
 	of KGT, and it is spelled *{bej} only the three times it occurs in the
@@ -10720,9 +10721,9 @@ tlh:	{nga'chuq}
 pos:	verb
 sv:	«sex» (d.v.s. ha sex; alltid subjekt)
 en:	have «sex», perform sex
-def:	HQ1:3 p.9
 desc:	{nga'chuq bangwI'pu'} ~my loved ones have sex;~ all participants are
 	subject
+def:	HQ1:3 p.9
 com:	Article in HQ is called "Additional Vocabulary" and contains the {veS
 	QonoS} list of words. It is unclear about what part of speech this may
 	be, though it is probably a verb and "always subject" probably refers
@@ -11213,8 +11214,8 @@ tlh:	{pagh}
 pos:	conjuction
 sv:	«eller», antingen eller (kommer mellan förenade meningar)
 en:	<or>, either/or
-def:	TKD 5.3 (p.55)
 desc:	comes between joined sentences
+def:	TKD 5.3 (p.55)
 file:	1992-01-01-tkd.txt
 
 tlh:	{paghDIch}
@@ -11431,8 +11432,8 @@ tlh:	{pa'} (2)
 pos:	noun
 sv:	«där», där borta, däromkring
 en:	<there>, over there, thereabouts
-def:	TKD 3.3.5 (pp.27--28) et al.
 desc:	never takes {-Daq} [TKD 3.3.5 (pp.27--28)]
+def:	TKD 3.3.5 (pp.27--28) et al.
 com:	Locative word, never followed by {-Daq} [TKD 3.3.5 (pp.27--28)].
 cat:	locative
 data:	KLCP-1
@@ -11875,9 +11876,9 @@ tlh:	{pIvlob}
 pos:	noun
 sv:	«warpfaktor»
 en:	«warp factor»
+desc:	{pIvlob vagh} ~warp factor five~ [BoP]
 def:	TKD K-E
 ref:	BoP
-desc:	{pIvlob vagh} ~warp factor five~ [BoP]
 com:	Numbers are placed after when giving speed: {pIvlob vagh} "warp
 	factor five".
 file:	1992-01-01-tkd.txt
@@ -12437,8 +12438,8 @@ warn:	incorrect form of {pu'beH}
 pos:	noun
 sv:	«phaser-gevär»
 en:	«phaser rifle»
-def:	KGT p.56
 desc:	incorrect form of {pu'beH}
+def:	KGT p.56
 com:	*{bej} is here assumed to be a misspelling of {beH}, since it is
 	spelled {beH} in a majority of sources: TKD, S14, and dictionary part
 	of KGT, and it is spelled *{bej} only the three times it occurs in the
@@ -13394,9 +13395,9 @@ tlh:	{qoj}
 pos:	conjuction
 sv:	«eller», och/eller (kommer mellan förenade meningar)
 en:	<or>, and/or
+desc:	comes between joined sentences
 def:	TKD 5.3 (p.55)
 ref:	TKW p.139
-desc:	comes between joined sentences
 file:	1992-01-01-tkd.txt
 
 tlh:	{qolotlh}
@@ -14552,10 +14553,10 @@ tlh:	{Qompu'}
 pos:	verb
 sv:	vara «farlig», vara «förrädisk», vara «opålitlig»
 en:	be «dangerous», be «hazardous» (about a thing)
-def:	KGT p.163
-ref:	TDNW
 desc:	{Qompu' Duj} ~the ship is hazardous/has been left in a hazardous
 	condition~ (lit. ~the ship has experienced a tremor~)
+def:	KGT p.163
+ref:	TDNW
 file:	1997-11-01-kgt.txt
 
 tlh:	{QonoS}
@@ -16418,10 +16419,10 @@ tlh:	{Soj}
 pos:	noun
 sv:	«sak», «fråga», «angelägenhet» (idiomatisk användning)
 en:	«matter», «concern», «affair» (idiomatic use)
-def:	HQ12:3 p.9
-ref:	TDNW
 desc:	{tlhIngan Soj 'oH; not bIyaj} ~It's a Klingon affair; you wouldn't
 	understand;~ idiomatic meaning [HQ12:3 p.9]
+def:	HQ12:3 p.9
+ref:	TDNW
 com:	"Maltz said, '{tlhIngan Soj 'oH---not bIyaj},' literally, 'It is
 	Klingon food---you will not understand,' using {Soj} <food> in its
 	idiomatic sense of <matter, concern, affair>." [HQ12:3 p.9]
@@ -17580,8 +17581,8 @@ warn:	incorrect form of {bIt}
 pos:	verb
 sv:	vara «nervös», vara «rastlös»
 en:	be «nervous», be «uneasy»
-def:	KGT p.132
 desc:	incorrect form of {bIt}
+def:	KGT p.132
 com:	*{tIb} is here assumed to be a misspelling of {bIt}, since it is
 	spelled {bIt} in a majority of sources: TKD (three occurances in the
 	dictionary part), and it is spelled *{tIb} only once [KGT p.132].
@@ -19025,9 +19026,10 @@ tlh:	{van} (2)
 pos:	verb
 sv:	«avsluta» (en händelse, t.ex. resa, strid, sång)
 en:	«end» (an event, e.g. a voyage, battle, song)
+desc:	{may' van SuvwI'} ~the warrior ends the battle;~ participants are
+	subject
 def:	HQ12:2 p.8
 ref:	TDNW
-desc:	{may' van SuvwI'} ~the warrior ends the battle;~ participants are subject
 com:	"When an event over which one has some control ends (one can't cause a
 	month to end), a different verb is used: {van}. This would apply to
 	such things as voyages, battles, plays, operas, stories, and songs.
@@ -21489,9 +21491,9 @@ tlh:	{'ej}
 pos:	conjuction
 sv:	«och» (kommer mellan förenade meningar)
 en:	<and>
+desc:	comes between joined sentences
 def:	TKD 5.3 (p.55)
 ref:	TKW pp.5, 8, 13, 101, 197, 211
-desc:	comes between joined sentences
 file:	1992-01-01-tkd.txt
 
 tlh:	{'ejDo'}
@@ -22314,9 +22316,9 @@ tlh:	{'uj'a'}
 pos:	noun
 sv:	«längd«enhet»», stor «~uj~» (cirka 315 centimeter)
 en:	«unit» of «length», big <~uj~> (about 315 centimeters)
+desc:	1 {'uj'a'} = 9 {'uj}
 def:	News 1999-02-03
 ref:	TDNW
-desc:	1 {'uj'a'} = 9 {'uj}
 cat:	unit
 file:	1999-02-03-news.txt
 
