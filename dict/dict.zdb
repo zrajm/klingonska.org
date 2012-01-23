@@ -159,7 +159,7 @@ tlh:	{baghneQ}
 pos:	noun
 sv:	«sked»
 en:	«spoon»
-def:	News 1998-05-05
+def:	News 1998-05-05
 ref:	KLINW
 pun:	Spoonerism on {nagh beQ} ~flat stone~.
 file:	1998-05-05a-news.txt
@@ -373,7 +373,7 @@ tlh:	{beb}
 pos:	noun
 sv:	«tak», yttertak
 en:	«roof»
-def:	News 1998-12-07
+def:	News 1998-12-07
 ref:	KLINW
 cat:	architecture
 file:	1998-12-07-news.txt
@@ -1373,7 +1373,7 @@ tlh:	{chan}
 pos:	noun
 sv:	område österut, område i «öster»
 en:	area eastward, area towards the «east»
-def:	News 1999-11-21
+def:	News 1999-11-21
 com:	"90 degrees on Terran compass" [KLINW]
 cat:	locative
 file:	1999-11-21-news.txt
@@ -1625,7 +1625,7 @@ tlh:	{cheb}
 pos:	noun
 sv:	«vikt«enhet»», «~cheb~» (cirka 2,25 kilogram)
 en:	«unit» of «weight», «~cheb~» (about 5 pounds or 2.25 kilograms)
-def:	News 1997-10-22
+def:	News 1997-10-22
 cat:	unit
 file:	1997-10-22-news.txt
 
@@ -1634,7 +1634,7 @@ pos:	noun
 sv:	«vikt«enhet»», 9 «~cheb~» (cirka 20,25 kilogram)
 en:	«unit» of «weight», 9 «~cheb~» (about 45 pounds or 20.25 kilograms)
 desc:	1 {cheb'a'} = 9 {cheb}
-def:	News 1997-10-22; BoP
+def:	News 1997-10-22; BoP
 com:	(n) unit weight approx. 45--46.4 pounds (20.4--21.05 kg) (9--9.28 cheb)
 	[The numbers don't quite mesh, but this is the best I can figure
 	from different equivalences we've been given.] [BoP poster] (Added:
@@ -1813,7 +1813,7 @@ tlh:	{chevwI' «tlhoy'»}
 pos:	noun
 sv:	territorial«mur» (t.ex. Berlinmuren)
 en:	territorial «wall» (e.g. Berlin Wall)
-def:	News 1998-12-07
+def:	News 1998-12-07
 cat:	architecture
 data:	phrase
 file:	1998-12-07-news.txt
@@ -3706,7 +3706,7 @@ tlh:	{gher}
 pos:	verb
 sv:	«formulera», «sammanställa», «sätta ihop»
 en:	«formulate», «compile», «pull together»
-def:	News 1998-07-09
+def:	News 1998-07-09
 com:	"The idea seems to be that of bringing thoughts together into
 	some kind of reasonably coherent form so that they can be
 	conveyed to someone else. [...] (Maltz laughed at, but
@@ -6626,7 +6626,7 @@ tlh:	{juch}
 pos:	verb
 sv:	«ha» en «bredd» av
 en:	«have» a «width» of
-def:	News 1997-10-22
+def:	News 1997-10-22
 file:	1997-10-22-news.txt
 
 tlh:	{juH}
@@ -11085,7 +11085,7 @@ tlh:	{ngugh}
 pos:	adverbial
 sv:	«då», «vid» den tiden
 en:	«then», «at» that time
-def:	News 1999-11-05
+def:	News 1999-11-05
 cat:	time
 file:	1999-11-05-news.txt
 
@@ -11450,7 +11450,7 @@ tlh:	{pa' beb}
 pos:	noun
 sv:	inner«tak» (i ett rum högst upp en byggnad eller konstruktion)
 en:	«ceiling» (of a room on the top story of a structure)
-def:	News 1998-12-07; HQ8:3 p.2
+def:	News 1998-12-07; HQ8:3 p.2
 com:	Article in HQ is called "{matlh juppu' mu'mey}".
 see:	{rav'eq}
 cat:	architecture
@@ -11461,7 +11461,7 @@ tlh:	{pa' reD}
 pos:	noun
 sv:	insida av ytter«vägg»
 en:	interior face of exterior «wall»
-def:	News 1998-12-07
+def:	News 1998-12-07
 cat:	architecture
 data:	phrase
 file:	1998-12-07-news.txt
@@ -11587,7 +11587,7 @@ tlh:	{per}
 pos:	verb
 sv:	«beteckna», «fastställa», «specificera», «namnge», ge «namn» åt/till
 en:	<label>, «ascertain», «specify»
-def:	TKD; News 1999-02-02
+def:	TKD; News 1999-02-02
 com:	¿?What does this word really mean? (Check swedish translation.)
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1999-02-02-email.txt
@@ -11772,7 +11772,7 @@ tlh:	{pIn tlhoy'}
 pos:	noun
 sv:	territorial«mur» (t.ex. Berlinmuren)
 en:	territorial «wall» (e.g. Berlin Wall)
-def:	News 1998-12-07
+def:	News 1998-12-07
 cat:	architecture
 data:	phrase
 file:	1998-12-07-news.txt
@@ -12302,7 +12302,7 @@ tlh:	{puq chonnaQ}
 pos:	noun
 sv:	«gaffel»
 en:	«fork»
-def:	News 1998-05-05
+def:	News 1998-05-05
 data:	phrase
 file:	1998-05-05a-news.txt
 
@@ -13008,7 +13008,7 @@ tlh:	{qen}
 pos:	adverbial
 sv:	«nyligen», för ett litet tag sedan, alldeles «nyss»
 en:	«recently», a short time ago
-def:	News 1999-02-02
+def:	News 1999-02-02
 cat:	time
 file:	1999-02-02-email.txt
 
@@ -14858,7 +14858,7 @@ tlh:	{Qun}
 pos:	noun
 sv:	«gud», «övernaturlig varelse»
 en:	«god», «supernatural being»
-def:	News 1999-07-19
+def:	News 1999-07-19
 file:	1999-07-19a-email.txt
 
 tlh:	{Qup}
@@ -14940,14 +14940,14 @@ tlh:	{rach}
 pos:	verb
 sv:	«stärka», «styrka», «liva» (upp), «stimulera»
 en:	«invigorate», «fortify», «strengthen»
-def:	News 1998-10-20
+def:	News 1998-10-20
 file:	1998-10-20b-news.txt
 
 tlh:	{rachwI'}
 pos:	noun
 sv:	«sjuksköterska», «sjukskötare»
 en:	«nurse»
-def:	News 1998-10-20
+def:	News 1998-10-20
 file:	1998-10-20b-news.txt
 
 tlh:	{raD}
@@ -15091,7 +15091,7 @@ tlh:	{rav'eq}
 pos:	noun
 sv:	inner«tak» (i ett rum med ett rum till ovanför)
 en:	«ceiling» (of a room that has a room above it)
-def:	News 1998-12-07; HQ8:3 p.2
+def:	News 1998-12-07; HQ8:3 p.2
 com:	Article in HQ is called "{matlh juppu' mu'mey}".
 see:	{pa' beb}
 cat:	architecture
@@ -15176,7 +15176,7 @@ tlh:	{reD}
 pos:	noun
 sv:	ytter«vägg»
 en:	exterior «wall»
-def:	News 1998-12-07
+def:	News 1998-12-07
 cat:	architecture
 file:	1998-12-07-news.txt
 
@@ -15724,7 +15724,7 @@ tlh:	{rutlh}
 pos:	noun
 sv:	«hjul»
 en:	«wheel»
-def:	News 1999-11-05
+def:	News 1999-11-05
 file:	1999-11-05-news.txt
 
 tlh:	{ruv}
@@ -17025,7 +17025,7 @@ tlh:	{tagha'}
 pos:	adverbial
 sv:	«slutligen», till «sist»
 en:	«finally», at «last»
-def:	News 1999-11-05
+def:	News 1999-11-05
 file:	1999-11-05-news.txt
 
 tlh:	{taH} (1)
@@ -17204,7 +17204,7 @@ tlh:	{tatlh}
 pos:	verb
 sv:	«placera» tillbaka, «återbörda», «återlämna»
 en:	<return> (a thing to its origin or source)
-def:	News 1999-07-19
+def:	News 1999-07-19
 file:	1999-07-19b-email.txt
 
 tlh:	{tay}
@@ -17669,7 +17669,7 @@ tlh:	{tIng}
 pos:	noun
 sv:	område sydvästerut, område i «sydväst»
 en:	area southwestward, area towards the «southwest»
-def:	News 1999-11-21
+def:	News 1999-11-21
 com:	"approx 220 degrees on Terran compass" [KLINW]
 cat:	locative
 file:	1999-11-21-news.txt
@@ -18817,7 +18817,7 @@ tlh:	{tlhoy'}
 pos:	noun
 sv:	«vägg», innervägg, insida av yttervägg, territorial«mur»
 en:	«wall», interior wall, interior face of exterior wall, territorial wall
-def:	News 1998-12-07
+def:	News 1998-12-07
 cat:	architecture
 file:	1998-12-07-news.txt
 
@@ -18825,7 +18825,7 @@ tlh:	{tlhoy' SaS}
 pos:	noun
 sv:	«tak»/«golv» mellan våningar
 en:	«ceiling»/«floor» between stories
-def:	News 1998-12-07
+def:	News 1998-12-07
 data:	phrase
 file:	1998-12-07-news.txt
 
@@ -18847,7 +18847,7 @@ tlh:	{tlho'ren}
 pos:	noun
 sv:	«volym«enhet»» (cirka en liter)
 en:	«unit» of «volume» (about 1 quart or 1 liter)
-def:	News 1997-10-22
+def:	News 1997-10-22
 cat:	unit
 file:	1997-10-22-news.txt
 
@@ -19816,7 +19816,7 @@ tlh:	{wab}
 pos:	noun
 sv:	«ljud», «oljud»
 en:	«sound», «noise»
-def:	News 1999-02-02
+def:	News 1999-02-02
 file:	1999-02-02-email.txt
 
 tlh:	{wagh}
@@ -20700,14 +20700,14 @@ tlh:	{yer}
 pos:	noun
 sv:	«domän», «egendom», «besittning», «territorium»
 en:	«domain», «holdings», «territory»
-def:	News 1998-12-07
+def:	News 1998-12-07
 file:	1998-12-07-news.txt
 
 tlh:	{yergho}
 pos:	noun
 sv:	«stads«mur»»
 en:	«city «wall»»
-def:	News 1998-12-07
+def:	News 1998-12-07
 cat:	architecture
 file:	1998-12-07-news.txt
 
@@ -21189,7 +21189,7 @@ tlh:	{'ab}
 pos:	verb
 sv:	«ha» en «längd»/«höjd» av
 en:	«have» a «length»/«height» of
-def:	S32; News 1997-10-22
+def:	S32; News 1997-10-22
 com:	S32 was reprinted in HQ6:2 p.9
 file:	1997-10-22-news.txt; 1997-sbx-s32.txt
 
@@ -21205,7 +21205,7 @@ tlh:	{'aD}
 pos:	verb
 sv:	«ha» en «längd» av, «mäta»
 en:	<have> a <length> of, <measure>
-def:	News 1997-10-22; KGT
+def:	News 1997-10-22; KGT
 file:	1997-10-22-news.txt; 1997-11-01-kgt.txt
 
 tlh:	{'aD}
@@ -21361,7 +21361,7 @@ tlh:	{'arlogh}
 pos:	question word
 sv:	«hur många gånger»?
 en:	«how many times»?
-def:	News 1999-02-02
+def:	News 1999-02-02
 file:	1999-02-02-email.txt
 
 tlh:	{'aSralya'}
@@ -21687,7 +21687,7 @@ tlh:	{'ev}
 pos:	noun
 sv:	område nordvästerut, område i «nordväst»
 en:	area northwestward, area towards the «northwest»
-def:	News 1999-11-21
+def:	News 1999-11-21
 com:	"320 degrees on Terran compass" [KLINW]
 cat:	locative
 file:	1999-11-21-news.txt
