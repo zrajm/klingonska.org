@@ -84,6 +84,7 @@ our %field = (
     pos  => "Part-of-speech",
     sv   => "Swedish",
     en   => "English",
+    desc => "Description",
     def  => "Source",
     ref  => "Used in",
     com  => "Comment",
