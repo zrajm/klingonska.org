@@ -30,7 +30,7 @@ EOF
 
 my %cfg = (
     canon_path     => "../../canon", # relative to this file's path
-    field_order    => [ qw(tlh warn pos sv en desc def ref com pun see cat data file) ],
+    field_order    => [ qw(tlh warn pos sv en desc def ref com pun see cat data file meta) ],
     field_required => [ qw(tlh pos sv en def file) ],
     field_subs     => {
         tlh  => \&check_tlh,
