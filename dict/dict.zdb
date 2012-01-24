@@ -5703,9 +5703,9 @@ pos:	exclamation
 sv:	(generellt «invektiv»)
 en:	(general «invective»)
 def:	TKDa 5.5 (p.178)
-com:	In HQ3:3, 14 Rhonda E. Green comments that a probable
-	translation of this word would be "Fuck". This is based on
-	the useage of the word in A.C. Crispin's "Sarek".
+com:	In HQ3:3, 14 Rhonda E. Green comments that a probable translation of
+	this word would be "fuck", this based on the usage of the word in A.C.
+	Crispin's "Sarek".
 file:	1992-01-01-tkd.txt
 
 tlh:	{jab}
@@ -14072,8 +14072,8 @@ sv:	«förstöra»
 en:	<destroy>
 def:	TKD
 ref:	TKW p.211
-com:	Incorrectly listed as noun in K-E (noted in HQ4:1 p.7 and
-	verified as a verb by useage in TKD p.49 and TKW p.211).
+com:	Incorrectly listed as noun in K-E (noted in HQ4:1 p.7 and verified as a
+	verb by usage in TKD p.49 and TKW p.211).
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -22318,8 +22318,8 @@ desc:	about 13.7 inches or 35 centimeters
 def:	News 1997-10-22 (by Marc Okrand, to msn.onstage.startrek.expert.okrand,
 	"Re: Weights and Measures"); KGT
 com:	In KGT the words "linear measure" are used, but they have been changed
-        to "length" here (for brevity and clarity). [zrajm, 2011-11-07] More
-        exactly one ~uj~ is 34.83 cm (as caculated from useage on BoP).
+	to "length" here (for brevity and clarity). [zrajm, 2011-11-07] More
+	exactly one ~uj~ is 34.83 cm (as caculated from usage on BoP).
 cat:	unit
 file:	1997-10-22-news.txt; 1997-11-01-kgt.txt
 
@@ -23252,7 +23252,7 @@ TO DO (IN NO PARTICULAR ORDER)
       "ZDb2Sortable" is compatible with this).
     o Check gender of all Swedish "vara"-verbs.
     o Machine-check Swedish part-of-speech for all words.
-    o Check useage of Swedish reflexive pronoun "sig".
+    o Check usage of Swedish reflexive pronoun "sig".
       (Should be within parentheses?)
     o Machine-check Swedish spelling.
       (Extract Swedish text & use some spellchecker on it.)
@@ -23737,9 +23737,9 @@ HISTORY (LAST CHANGES FIRST)
     [2000-10-24] Made sure all references to TKD & TKDa had section
     numbers, and not just page numbers.
 
-    [2000-10-20] Updated all verb suffix source references to include
-    section numbers. Also added some comments of useage for the rovers and
-    type 9 verb suffixes.
+    [2000-10-20] Updated all verb suffix source references to include section
+    numbers. Also added some comments of usage for the rovers and type 9 verb
+    suffixes.
 
     [2000-10-13] Added the "see:" field, and changed most "see also"
     refereces into these instead.
@@ -23770,9 +23770,8 @@ HISTORY (LAST CHANGES FIRST)
 
     [2000-07-31] Translated "skink" and "blow one's top" into Swedish.
 
-    [2000-07-03] Changed italics marker from '*' to '+' to avoid
-    confusions with useage of '*' as a literal letter (as three curses uses
-    this).
+    [2000-07-03] Changed italics marker from '*' to '+' to avoid confusions
+    with usage of '*' as a literal letter (as three curses uses this).
 
     [2000-05-09] Corrected some Swedish spelling errors.
 
