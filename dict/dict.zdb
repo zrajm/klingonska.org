@@ -113,6 +113,10 @@ FIELD NAMES USED IN DICTIONARY BELOW
                       'Archive of Okrandian Canon'. Multiple filenames are
                       separated with semicolon + whitespace (i.e. space or
                       linebreak)
+    meta:  (optional) meta comment regarding entry composition. E.g. info about
+                      how various sources have been combined to form the entry
+                      in question, editor's comments/doubts about fitness of
+                      entry etc.
 
 === start-of-word-list ===
 
@@ -1623,17 +1627,18 @@ file:	2001-12-holqed-10-4.txt
 
 tlh:	{cheb}
 pos:	noun
-sv:	«vikt«enhet»», «~cheb~» (cirka 2,25 kilogram)
-en:	«unit» of «weight», «~cheb~» (about 5 pounds or 2.25 kilograms)
+sv:	«~cheb~» («vikt«enhet»»)
+en:	«~cheb~» («unit» of «weight»)
+desc:	about 5 pounds or 2.25 kilograms
 def:	News 1997-10-22
 cat:	unit
 file:	1997-10-22-news.txt
 
 tlh:	{cheb'a'}
 pos:	noun
-sv:	«vikt«enhet»», 9 «~cheb~» (cirka 20,25 kilogram)
-en:	«unit» of «weight», 9 «~cheb~» (about 45 pounds or 20.25 kilograms)
-desc:	1 {cheb'a'} = 9 {cheb}
+sv:	stor «~cheb~» («vikt«enhet»»)
+en:	big «~cheb~» («unit» of «weight»)
+desc:	9 ~cheb~ = about 45 pounds or 20.25 kilograms
 def:	News 1997-10-22; BoP
 com:	(n) unit weight approx. 45--46.4 pounds (20.4--21.05 kg) (9--9.28 cheb)
 	[The numbers don't quite mesh, but this is the best I can figure
@@ -2501,11 +2506,13 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{DarSeq}
 pos:	noun
-sv:	«valuta«enhet»», «~darsek~»
-en:	<unit> of <currency>, <~darsek~>
+sv:	«~darsek~» («valuta«enhet»»)
+en:	<~darsek~> (<unit> of <currency>)
 def:	KGT
 cat:	money; unit
 file:	1997-11-01-kgt.txt
+meta:	In KGT as "~darsek,~ unit of currency (n)", here changed slightly to
+	reseble the other units.
 
 tlh:	{DaS}
 pos:	noun
@@ -2745,14 +2752,13 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{DeQ}
 pos:	noun
-sv:	«kredit» (monetär «enhet»)
-en:	«unit» of «currency», <credit>
+sv:	«kredit» («valuta«enhet»»)
+en:	<credit> («unit» of «currency»)
 def:	TKD
-com:	Source [TKD] gives translation as "credit (monetary unit)", but it has
-	here been changed to resemble the definition of {DarSeq} <unit of
-	currency, ~darsek~> in KGT.
 cat:	money; unit
 file:	1992-01-01-tkd.txt
+meta:	In TKD as "credit (monetary unit)", but "monetary unit" was here
+	changed to "unit of currency", for consistency with other unit words.
 
 tlh:	{Der}
 pos:	verb
@@ -7345,8 +7351,9 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{loghqam}
 pos:	noun
-sv:	«längd«enhet»» (cirka 1,25 ljusår)
-en:	«unit» of «length» (about 1.25 light years)
+sv:	(«längd«enhet»»)
+en:	(«unit» of «length»)
+desc:	about 1.25 light years
 def:	BoP
 cat:	unit
 file:	1998-11-01-bop.txt
@@ -12980,12 +12987,15 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{qelI'qam}
 pos:	noun
-sv:	«längd«enhet»», «~kellicam~» (cirka 2 kilometer)
-en:	«unit» of «length», <~kellicam~> (about 2 kilometers)
+sv:	«~kellicam~» («längd«enhet»»)
+en:	<~kellicam~> («unit» of «length»)
+desc:	about 2 kilometers
 def:	TKD; STE
-com:	Incorrectly spelled {quelI'qam} in TKD E-K.
 cat:	unit
 file:	1992-01-01-tkd.txt
+meta:	In TKD translated as "kellicam (n)", added "unit of length" for clarity
+	here. TKD E-K has a quite obvious misspelling of the Klingon word as
+	*{quelI'qam}.
 
 tlh:	{qem}
 pos:	verb
@@ -18845,8 +18855,9 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{tlho'ren}
 pos:	noun
-sv:	«volym«enhet»» (cirka en liter)
-en:	«unit» of «volume» (about 1 quart or 1 liter)
+sv:	(«volym«enhet»»)
+en:	(«unit» of «volume»)
+desc:	about 1 quart or 1 liter
 def:	News 1997-10-22
 cat:	unit
 file:	1997-10-22-news.txt
@@ -22301,22 +22312,22 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{'uj}
 pos:	noun
-sv:	«längd«enhet»», «~uj~» (cirka 35 centimeter)
-en:	«unit» of «length», <~uj~> (about 35 centimeters)
+sv:	«~uj~» («längd«enhet»»)
+en:	<~uj~> («unit» of «length»)
+desc:	about 13.7 inches or 35 centimeters
 def:	News 1997-10-22 (by Marc Okrand, to msn.onstage.startrek.expert.okrand,
 	"Re: Weights and Measures"); KGT
-com:	Source [KGT] uses the words "linear measure" which has been changed
-	"length" here. The change was made for both for brevity and clarity.
-	(zrajm, 2011-11-07) More exactly one ~uj~ is 34.83 cm (as caluculated
-	from useage on BoP).
+com:	In KGT the words "linear measure" are used, but they have been changed
+        to "length" here (for brevity and clarity). [zrajm, 2011-11-07] More
+        exactly one ~uj~ is 34.83 cm (as caculated from useage on BoP).
 cat:	unit
 file:	1997-10-22-news.txt; 1997-11-01-kgt.txt
 
 tlh:	{'uj'a'}
 pos:	noun
-sv:	«längd«enhet»», stor «~uj~» (cirka 315 centimeter)
-en:	«unit» of «length», big <~uj~> (about 315 centimeters)
-desc:	1 {'uj'a'} = 9 {'uj}
+sv:	stor «~uj~» («längd«enhet»»)
+en:	big <~uj~> («unit» of «length»)
+desc:	9 ~uj~ = about 10 feet 4 inches or 315 centimeters
 def:	News 1999-02-03
 ref:	TDNW
 cat:	unit

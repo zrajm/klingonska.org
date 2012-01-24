@@ -93,6 +93,7 @@ our %field = (
     cat  => "Category",
     data => "Data",
     file => "Transcript",
+    meta => "Metadata",
 );
 
 our @tips = (
