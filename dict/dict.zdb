@@ -16,16 +16,66 @@ FIELD NAMES USED IN DICTIONARY BELOW
                       Klingon text is given in curly brackets (e.g. {jotHa'}).
 
                       A leading asterisk is used for deprecated and non-canon
-                      words (e.g. *{jIn}). If this is the case, then that word
-                      must also (1) have a 'warn' field and (2) carry the label
-                      'non-canon' or 'deprecated' in the 'data' field. (See
-                      descriptions of those fields below.)
+                      words (e.g. *{jIn}). Such words must also (1) have the
+                      'warn:' field set and (2) have the label 'non-canon' or
+                      'deprecated' in the 'data:' field. (See descriptions of
+                      those fields below.)
 
-                      If the word is on of a set of homonyms it shall be
-                      enumerated (e.g. '{boQ} (1)', '{boQ} (2)'...). The
-                      earliest mention in canon gets number 1, second mention 2
-                      etc. If both words are mentioned in the same source, then
-                      they are numbered in order of first occurance.
+                      Words that are homonyms must also have one (or more)
+                      counter(s) for describing the layout of such words in the
+                      pocket dictionary. There are three possible counters:
+
+                          1) pre-word counter
+                          2) post-word counter
+                          3) post-word sub-counter
+
+                      1) The pre-word counter comes before the word (inside
+                      square brackets) and separates homonyms that are not
+                      semantically related. E.g. "[1] {nIH}" (<steal> [v])
+                      means something very different from "[2] {nIH}" (<right
+                      (side)> [n]).
+
+                      2) The post-word counter comes after the word (inside
+                      square brackets) and separates homonyms that are related
+                      in meaning, but that have different part-of-speech. E.g.
+                      "{bach} [1]" (<shoot> [v]) is very much related in
+                      meaning to "{bach} [2]" (<shot> [n]) even though the two
+                      words have different part-of-speech.
+
+                      3) The post-word sub-counter comes after the word (after
+                      a period inside square brackets) and separates homonyms
+                      that are related in meaning *and* have the same
+                      part-of-speech. (This can, for example, be a word with
+                      slightly different meanings in {ta' Hol} and some
+                      dialect.) E.g. "{cheSvel} [.1]" (<type of coat> [n]) is
+                      very much related to (and have the same part-of-speech
+                      as) "{cheSvel} [.2]" (<coat, jacket (general term)> [n]
+                      [regional]).
+
+                      Note that all three counters may be at the same time for
+                      a specific word. E.g. "[2] {pa'} [.2]" (<enclosed area>
+                      [n] [slang]) or "{qaD} [2.1]" (<challenge> [n]). Taking
+                      these counters into account, each 'tlh:' field in the
+                      dictionary should be unique.
+
+                      Ordering of homonyms are (currently) loosely based on
+                      dialect, and part-of-speech. Stardand dialect words are
+                      sorted before slang/regional words, and part-of-speech
+                      order is as follows.
+
+                          adv >> v >> pro >> ques >> conj >> num >> n >> name
+
+                      (Basically 'verby' words come first -- since adverbials
+                      can form sentences in their own right, as well as take
+                      part of a sentence they're deemed 'verbier' that normal
+                      verbs, pronouns and (some) question words also move
+                      between acting as verbs and nouns and are there fore
+                      considered quite verby too. numerals can likewise assume
+                      the role of adjectives, which makes them verbier than a
+                      plain noun.)
+
+                      This ordering stuff will be formalised (and maybe
+                      changed) in the future.
     warn:  (optional) Comment for words that are deprecated or non-canon
                       NOTE: Required for words with leading asterisk in 'tlh'
                       field, may not occur otherwise. These words must also be
@@ -120,7 +170,7 @@ FIELD NAMES USED IN DICTIONARY BELOW
 
 === start-of-word-list ===
 
-tlh:	{bach}
+tlh:	{bach} [1]
 pos:	verb
 sv:	«skjuta»
 en:	<shoot>
@@ -130,7 +180,7 @@ cat:	fighting
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{bach}
+tlh:	{bach} [2]
 pos:	noun
 sv:	«skott»
 en:	<shot>
@@ -259,14 +309,14 @@ en:	type of <liquor>, <~bahgol~>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{baQ} (1)
+tlh:	[1] {baQ}
 pos:	verb
 sv:	vara «färsk», vara «nyplockad» (om frukt, grönsak)
 en:	be <fresh>, be just picked (fruit, vegetable)
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{baQ} (2)
+tlh:	[2] {baQ}
 pos:	verb
 sv:	«kasta» en «~bat'leth~» från den ena handen till den andra
 en:	<toss> «~bat'leth~» from one hand to the other
@@ -322,7 +372,15 @@ cat:	music
 data:	phrase; derived form
 file:	1997-11-01-kgt.txt
 
-tlh:	{batlh}
+tlh:	{batlh} [1]
+pos:	adverbial
+sv:	«ärofullt», med «ära», med «heder», «hedervärt»
+en:	<honored>, with «honor», «honorably», «honorable»
+def:	TKD
+ref:	TKW pp.47, 71, 129
+file:	1992-01-01-tkd.txt
+
+tlh:	{batlh} [2]
 pos:	noun
 sv:	«ära»
 en:	<honor>
@@ -332,14 +390,6 @@ com:	"{batlh}, [...] is a grander [than {quv}], more general, more
 	philosophical concept, associated with integrity, rectitude, scruples,
 	and principles." [HQ12:3 p.9]
 see:	{quv}
-file:	1992-01-01-tkd.txt
-
-tlh:	{batlh}
-pos:	adverbial
-sv:	«ärofullt», med «ära», med «heder», «hedervärt»
-en:	<honored>, with «honor», «honorably», «honorable»
-def:	TKD
-ref:	TKW pp.47, 71, 129
 file:	1992-01-01-tkd.txt
 
 tlh:	{batlhHa'}
@@ -404,7 +454,7 @@ def:	TKD
 cat:	fighting
 file:	1992-01-01-tkd.txt
 
-tlh:	{bej} (1)
+tlh:	{bej} [.1]
 pos:	verb
 sv:	«vaka» över, hålla ett öga på, «titta» på
 en:	<watch>
@@ -413,14 +463,14 @@ ref:	TKW p.19
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{bej} (2)
+tlh:	{bej} [.2]
 pos:	verb
 sv:	vara helt «säker», vara «viss» [slang]
 en:	be <sure>, be <definite>, be <positive>, be <certain> [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{bel}
+tlh:	{bel} [1]
 pos:	verb
 sv:	vara «nöjd», vara «belåten»
 en:	be <pleased>
@@ -428,7 +478,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{bel}
+tlh:	{bel} [2]
 pos:	noun
 sv:	«välbehag», «nöje»
 en:	<pleasure>
@@ -453,7 +503,7 @@ def:	KGT
 cat:	body part
 file:	1997-11-01-kgt.txt
 
-tlh:	{ben} (1)
+tlh:	{ben} [.1]
 pos:	noun
 sv:	¿?för ... «år» sedan
 en:	<years> ago
@@ -461,7 +511,7 @@ def:	TKD
 cat:	time
 file:	1992-01-01-tkd.txt
 
-tlh:	{ben} (2)
+tlh:	{ben} [.2]
 pos:	noun
 sv:	«år gammal»
 en:	<years old>
@@ -470,7 +520,7 @@ com:	¿?Check this and previous one with ~News~.
 cat:	time
 file:	1997-11-01-kgt.txt
 
-tlh:	{bep}
+tlh:	[1] {bep}
 pos:	verb
 sv:	«klaga», «invända», «gnälla»
 en:	<complain>, <object>, <gripe>
@@ -478,7 +528,7 @@ def:	TKD
 ref:	TKW p.46
 file:	1992-01-01-tkd.txt
 
-tlh:	{bep}
+tlh:	[2] {bep}
 pos:	noun
 sv:	«vånda», «kval», «plågor»
 en:	<agony>
@@ -663,14 +713,14 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{bIj}
+tlh:	{bIj} [1]
 pos:	verb
 sv:	«straffa»
 en:	<punish>
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{bIj}
+tlh:	{bIj} [2]
 pos:	noun
 sv:	«straff»
 en:	<punishment>
@@ -921,7 +971,7 @@ en:	<traitor> [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{bom}
+tlh:	{bom} [1]
 pos:	verb
 sv:	«sjunga», «mässa»
 en:	<sing>, <chant>
@@ -930,7 +980,7 @@ ref:	TKW p.17
 cat:	music
 file:	1997-11-01-kgt.txt
 
-tlh:	{bom}
+tlh:	{bom} [2]
 pos:	noun
 sv:	«sång»
 en:	<song>, <chant>
@@ -978,17 +1028,7 @@ com:	{'e' bop} "That's what it's all about." [TDNW]; "Got this from
 	linguistics.'" [KLINW]
 file:	2005-08-01-web.txt
 
-tlh:	{boq} (1)
-pos:	noun
-sv:	«allians», «block», «sammanslutning», «koalition», «fusion»
-en:	<alliance>, <bloc>, <coalition>, «fusion»
-def:	TKD; KGT; BoP
-ref:	KLINW
-com:	Entries from TKD, KGT and BoP have been combined here. "{Hong boq
-	chuyDaH: loS} 'Impulse Fusion Thrusters -- 4'" [BoP]
-file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt; 1998-11-01-bop.txt
-
-tlh:	{boq}
+tlh:	{boq} [1]
 pos:	verb
 sv:	«alliera» med, «förena» med, skapa en allians med
 en:	«ally» with, «form» an alliance with
@@ -1000,6 +1040,16 @@ com:	Article in HQ is called "{matlh juppu' mu'mey}". HQ: Used in math:
 	[KLINW]
 cat:	math
 file:	2000-09-holqed-09-3.txt
+
+tlh:	{boq} [2]
+pos:	noun
+sv:	«allians», «block», «sammanslutning», «koalition», «fusion»
+en:	<alliance>, <bloc>, <coalition>, «fusion»
+def:	TKD; KGT; BoP
+ref:	KLINW
+com:	Entries from TKD, KGT and BoP have been combined here. "{Hong boq
+	chuyDaH: loS} 'Impulse Fusion Thrusters -- 4'" [BoP]
+file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt; 1998-11-01-bop.txt
 
 tlh:	{boqHa'}
 pos:	verb
@@ -1027,25 +1077,25 @@ def:	KGT
 data:	phrase; derived form
 file:	1997-11-01-kgt.txt
 
-tlh:	{boQ}
+tlh:	{boQ} [1]
 pos:	verb
 sv:	«hjälpa» till, «assistera»
 en:	<assist>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{boQ} (1)
-pos:	noun
-sv:	«medhjälpare»
-en:	<aide>
-def:	TKD
-file:	1992-01-01-tkd.txt
-
-tlh:	{boQ} (2)
+tlh:	{boQ} [2.1]
 pos:	noun
 sv:	«hjälp», «assistans»
 en:	<aid>, «assistance»
 def:	TKDa
+file:	1992-01-01-tkd.txt
+
+tlh:	{boQ} [2.2]
+pos:	noun
+sv:	«medhjälpare»
+en:	<aide>
+def:	TKD
 file:	1992-01-01-tkd.txt
 
 tlh:	{boQDu'}
@@ -1237,14 +1287,14 @@ ref:	TKW p.142; KLINW
 com:	Symbolic equivalent of gall, an admirable trait to have.
 file:	1992-01-01-tkd.txt
 
-tlh:	{buv}
+tlh:	{buv} [1]
 pos:	verb
 sv:	«klassificera»
 en:	<classify>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{buv}
+tlh:	{buv} [2]
 pos:	noun
 sv:	«klassifikation»
 en:	<classification>
@@ -1282,28 +1332,21 @@ def:	ST1; TKD
 see:	{peng} is the singular form
 file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
-tlh:	{chab} (1)
+tlh:	[1] {chab}
 pos:	noun
 sv:	«paj», «bakverk», «kroppkaka»
 en:	<pie>, <tart>, «dumpling»
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{chab} (2)
+tlh:	[2] {chab}
 pos:	noun
 sv:	«uppfinning», «innovation» [slang]
 en:	<invention>, <innovation> [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{chach}
-pos:	noun
-sv:	«nödläge», «nödsituation»
-en:	<emergency>
-def:	TKD
-file:	1992-01-01-tkd.txt
-
-tlh:	{chach}
+tlh:	{chach} [1]
 pos:	verb
 sv:	vara i «reserv», vara till för «nödläge»n
 en:	be «auxiliary», be for «backup» use
@@ -1316,6 +1359,13 @@ com:	{chach!} ["Emergency!"] (untranslated) [ST6]; {tlham chach chu'qa'}
 	[2006-10-04]; Article in HQ is called "Additional Vocabulary" and
 	contains the {veS QonoS} list of words.
 file:	1992-09-holqed-01-3.txt
+
+tlh:	{chach} [2]
+pos:	noun
+sv:	«nödläge», «nödsituation»
+en:	<emergency>
+def:	TKD
+file:	1992-01-01-tkd.txt
 
 tlh:	{chaDvay'}
 pos:	noun
@@ -1453,21 +1503,21 @@ def:	HQ12:2 p.7
 ref:	TDNW
 file:	2003-06-holqed-12-2.txt
 
-tlh:	{chatlh} (1)
-pos:	noun
-sv:	«nonsens», «gallimatias» [slang]
-en:	<nonsense>, <balderdash> [slang]
-def:	KGT
-file:	1997-11-01-kgt.txt
-
-tlh:	{chatlh} (2)
+tlh:	[1] {chatlh}
 pos:	noun
 sv:	«gryta», «soppa» (tjock)
 en:	<soup> (thick)
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{chav}
+tlh:	[2] {chatlh}
+pos:	noun
+sv:	«nonsens», «gallimatias» [slang]
+en:	<nonsense>, <balderdash> [slang]
+def:	KGT
+file:	1997-11-01-kgt.txt
+
+tlh:	{chav} [1]
 pos:	verb
 sv:	«uppnå»
 en:	<achieve>
@@ -1476,7 +1526,7 @@ ref:	TKW pp.55, 115, 125, 165, 211
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{chav}
+tlh:	{chav} [2]
 pos:	noun
 sv:	«prestation», «bedrift»
 en:	<achievement>
@@ -1484,7 +1534,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{chaw'}
+tlh:	{chaw'} [1]
 pos:	verb
 sv:	«tillåta»
 en:	<allow>, <permit>
@@ -1493,7 +1543,7 @@ ref:	TKW p.37
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{chaw'}
+tlh:	{chaw'} [2]
 pos:	noun
 sv:	«tillåtelse», «tillstånd», «licens»
 en:	<permit>
@@ -1516,14 +1566,14 @@ en:	<how>?
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{cha'}
+tlh:	[1] {cha'}
 pos:	verb
 sv:	«visa» (en bild), «projicera»
 en:	<show>, <display> (picture), «project»
 def:	ST1; TKD 7.1 (p.73) et al.
 file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
-tlh:	{cha'}
+tlh:	[2] {cha'}
 pos:	numeral
 sv:	«två»
 en:	<two>
@@ -1538,20 +1588,20 @@ en:	type of «bird» (noted for its speed)
 def:	HQ10:4 p.4
 file:	2001-12-holqed-10-4.txt
 
-tlh:	{cha'DIch}
-pos:	noun
-sv:	«medhjälpare», «sekond»
-en:	«aide», «second»
-def:	TKW p.21
-file:	1996-05-01-tkw.txt
-
-tlh:	{cha'DIch}
+tlh:	{cha'DIch} [1]
 pos:	numeral
 sv:	«andra»
 en:	<second>
 def:	TKD
 cat:	math
 file:	1992-01-01-tkd.txt
+
+tlh:	{cha'DIch} [2]
+pos:	noun
+sv:	«medhjälpare», «sekond»
+en:	«aide», «second»
+def:	TKW p.21
+file:	1996-05-01-tkw.txt
 
 tlh:	{cha'Do'}
 pos:	noun
@@ -1775,7 +1825,14 @@ en:	<tolerate>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{cheSvel} (1)
+tlh:	{cheSvel} [.1]
+pos:	noun
+sv:	en slags «rock»
+en:	type of <coat>
+def:	KGT
+file:	1997-11-01-kgt.txt
+
+tlh:	{cheSvel} [.2]
 pos:	noun
 sv:	«rock», «jacka» (generell term) [regionalt]
 en:	<coat>, jacket (general term) [regional]
@@ -1783,14 +1840,7 @@ def:	KGT
 com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
 
-tlh:	{cheSvel} (2)
-pos:	noun
-sv:	en slags «rock»
-en:	type of <coat>
-def:	KGT
-file:	1997-11-01-kgt.txt
-
-tlh:	{chetvI'} (1)
+tlh:	{chetvI'} [.1]
 pos:	noun
 sv:	«torped«tub»»
 en:	<torpedo <tube>>
@@ -1798,7 +1848,7 @@ def:	TKD
 see:	{DuS}
 file:	1992-01-01-tkd.txt
 
-tlh:	{chetvI'} (2)
+tlh:	{chetvI'} [.2]
 pos:	noun
 sv:	«~chetvi~», «spjut-slunga»
 en:	«~chetvi~», <spear-throwing device>
@@ -1931,7 +1981,7 @@ def:	KGT
 cat:	architecture
 file:	1997-11-01-kgt.txt
 
-tlh:	{choH}
+tlh:	{choH} [1]
 pos:	verb
 sv:	«ändras», «förändras»
 en:	<alter>, <change>
@@ -1939,7 +1989,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{choH}
+tlh:	{choH} [2]
 pos:	noun
 sv:	«förändring»
 en:	<change>
@@ -1999,7 +2049,7 @@ en:	<ritual <hunt>>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{chong} (1)
+tlh:	{chong} [.1]
 pos:	verb
 sv:	vara «vertikal»
 en:	be <vertical>
@@ -2007,7 +2057,7 @@ def:	TKD
 cat:	locative
 file:	1992-01-01-tkd.txt
 
-tlh:	{chong} (2)
+tlh:	{chong} [.2]
 pos:	verb
 sv:	vara «bra», vara «utmärkt», vara «storslagen», vara «underbar»
 	[slang]
@@ -2017,7 +2067,7 @@ def:	KGT
 com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
 
-tlh:	{chong} (3)
+tlh:	{chong} [.3]
 pos:	verb
 sv:	vara «grundlig», vara «ordentlig», vara «omsorgsfull», vara
 	«noggrann» [slang]
@@ -2056,7 +2106,7 @@ en:	«deck» (on a ship)
 def:	BoP
 file:	1998-11-01-bop.txt
 
-tlh:	{chor} (1)
+tlh:	[1] {chor}
 pos:	noun
 sv:	«mage», «buk»
 en:	<belly>
@@ -2064,7 +2114,7 @@ def:	TKD
 cat:	body part
 file:	1992-01-01-tkd.txt
 
-tlh:	{chor} (2)
+tlh:	[2] {chor}
 pos:	noun
 sv:	flatbottnad «skål» av keramik [regionalt]
 en:	ceramic flat-bottomed <pot> [regional]
@@ -2079,21 +2129,21 @@ def:	KGT
 data:	phrase
 file:	1997-11-01-kgt.txt
 
-tlh:	{chorgh}
-pos:	noun
-sv:	åttonde «tonen» på den nonatoniska skalan
-en:	eight <tone> of nonatonic musical scale
-def:	KGT
-cat:	music
-file:	1997-11-01-kgt.txt
-
-tlh:	{chorgh}
+tlh:	{chorgh} [1]
 pos:	numeral
 sv:	«åtta»
 en:	<eight>
 def:	TKD
 cat:	math
 file:	1992-01-01-tkd.txt
+
+tlh:	{chorgh} [2]
+pos:	noun
+sv:	åttonde «tonen» på den nonatoniska skalan
+en:	eight <tone> of nonatonic musical scale
+def:	KGT
+cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{chorghDIch}
 pos:	numeral
@@ -2103,14 +2153,14 @@ def:	TKD
 cat:	math
 file:	1992-01-01-tkd.txt
 
-tlh:	{choS}
+tlh:	[1] {choS}
 pos:	verb
 sv:	«överge»
 en:	<desert>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{choS}
+tlh:	[2] {choS}
 pos:	noun
 sv:	«skymning»
 en:	<twilight>
@@ -2147,14 +2197,14 @@ en:	<specimen>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{cho'}
+tlh:	{cho'} [1]
 pos:	verb
 sv:	«efterträda» (en maktposition)
 en:	<succeed> (to authority)
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{cho'}
+tlh:	{cho'} [2]
 pos:	noun
 sv:	«tronföljd», «arvföljd»
 en:	<succession>
@@ -2169,20 +2219,20 @@ def:	TKD
 ref:	TKW p.190
 file:	1992-01-01-tkd.txt
 
-tlh:	{chuH} (1)
-pos:	verb
-sv:	«förklara» noga för, «förtydliga» för, närmare «ange» för [slang]
-en:	<explain> clearly to, <clarify> for, <specify> for [slang]
-def:	KGT
-file:	1997-11-01-kgt.txt
-
-tlh:	{chuH} (2)
+tlh:	{chuH} [.1]
 pos:	verb
 sv:	«kasta» (ett spjut) mot, «slunga» (ett spjut) mot
 en:	<throw> (a spear) at, <hurl> (a spear) at
 def:	KGT
 com:	"the direct object is the target" [TDNW]
 cat:	fighting
+file:	1997-11-01-kgt.txt
+
+tlh:	{chuH} [.2]
+pos:	verb
+sv:	«förklara» noga för, «förtydliga» för, närmare «ange» för [slang]
+en:	<explain> clearly to, <clarify> for, <specify> for [slang]
+def:	KGT
 file:	1997-11-01-kgt.txt
 
 tlh:	{chuHchu'}
@@ -2298,7 +2348,7 @@ def:	TKD
 see:	{vIj} is the singular form
 file:	1992-01-01-tkd.txt
 
-tlh:	{chu'} (1)
+tlh:	[1] {chu'}
 pos:	verb
 sv:	vara «ny»
 en:	be <new>
@@ -2306,14 +2356,14 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{chu'} (2)
+tlh:	[2] {chu'} [.1]
 pos:	verb
 sv:	«slå på», «aktivera», «starta» (en apparat)
 en:	<engage>, <activate> (a device)
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{chu'} (3)
+tlh:	[2] {chu'} [.2]
 pos:	verb
 sv:	«spela» (ett musikinstrument)
 en:	<play> (a musical instrument)
@@ -2321,7 +2371,7 @@ def:	KGT
 cat:	music
 file:	1997-11-01-kgt.txt
 
-tlh:	{chu'wI'} (1)
+tlh:	{chu'wI'} [.1]
 pos:	noun
 sv:	«avtryckare»
 en:	<trigger>
@@ -2329,7 +2379,7 @@ def:	TKDa
 data:	derived form
 file:	1992-01-01-tkd.txt
 
-tlh:	{chu'wI'} (2)
+tlh:	{chu'wI'} [.2]
 pos:	noun
 sv:	«musiker» (som spelar ett instrument)
 en:	<player> (of an instrument)
@@ -2352,7 +2402,7 @@ en:	<dwell> in/at, <reside> in/at
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{Dach} (1)
+tlh:	{Dach} [.1]
 pos:	verb
 sv:	vara «frånvarande»
 en:	be <absent>
@@ -2360,7 +2410,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{Dach} (2)
+tlh:	{Dach} [.2]
 pos:	verb
 sv:	vara «ouppmärksam», vara «distraherad», sakna «koncentration» [slang]
 en:	be <not attentive>, be <distracted>, <lack focus>, to not pay attention
@@ -2377,20 +2427,20 @@ def:	KGT
 com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
 
-tlh:	{DaH}
+tlh:	[1] {DaH}
+pos:	adverbial
+sv:	«nu»
+en:	<now>
+def:	TKD
+file:	1992-01-01-tkd.txt
+
+tlh:	[2] {DaH}
 pos:	noun
 sv:	«batteri», «uppsättning» (av vapen)
 en:	«bank», «array» (of weapons)
 def:	KGT p.56; BoP
 cat:	fighting
 file:	1997-11-01-kgt.txt; 1998-11-01-bop.txt
-
-tlh:	{DaH}
-pos:	adverbial
-sv:	«nu»
-en:	<now>
-def:	TKD
-file:	1992-01-01-tkd.txt
 
 tlh:	{DaHjaj}
 pos:	noun
@@ -2410,7 +2460,7 @@ def:	KGT
 data:	phrase
 file:	1997-11-01-kgt.txt
 
-tlh:	{Daj} (1)
+tlh:	[1] {Daj}
 pos:	verb
 sv:	vara «intressant»
 en:	be <interesting>
@@ -2418,7 +2468,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{Daj} (2)
+tlh:	[2] {Daj}
 pos:	verb
 sv:	«pröva», «testa» (på ett icke-avgörande sätt)
 en:	<test> inconclusively
@@ -2460,14 +2510,14 @@ cat:	music
 data:	phrase; derived form
 file:	1997-11-01-kgt.txt
 
-tlh:	{Daq}
+tlh:	[1] {Daq}
 pos:	verb
 sv:	«tjuv«lyssna»»
 en:	<eavesdrop>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Daq}
+tlh:	[2] {Daq}
 pos:	noun
 sv:	«plats», «ställe»
 en:	<site>, <location>, «place»
@@ -2569,14 +2619,14 @@ com:	"[...] covers the same semantic ground as both {HoQ} [<be honored
 see:	{HoQ}; {Qaq}; {quvHa'ghach}
 file:	2003-09-holqed-12-3.txt
 
-tlh:	{Daw'}
+tlh:	{Daw'} [1]
 pos:	verb
 sv:	«revoltera»
 en:	<revolt>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Daw'}
+tlh:	{Daw'} [2]
 pos:	noun
 sv:	«revolt», «revolution»
 en:	<revolt>, revolution
@@ -2635,14 +2685,7 @@ en:	<surround>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Degh}
-pos:	verb
-sv:	«handla» utan uppgjord plan, «improvisera» [slang]
-en:	<act> without a plan, <improvise> [slang]
-def:	KGT
-file:	1997-11-01-kgt.txt
-
-tlh:	{Degh} (1)
+tlh:	[1] {Degh} [1]
 pos:	noun
 sv:	«roder»
 en:	<helm>
@@ -2650,7 +2693,14 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{Degh} (2)
+tlh:	[1] {Degh} [2]
+pos:	verb
+sv:	«handla» utan uppgjord plan, «improvisera» [slang]
+en:	<act> without a plan, <improvise> [slang]
+def:	KGT
+file:	1997-11-01-kgt.txt
+
+tlh:	[2] {Degh}
 pos:	noun
 sv:	«medalj», «emblem», «symbol», «märke»
 en:	<medal>, <emblem>, «symbol», «insignia»
@@ -2769,7 +2819,7 @@ com:	"When the nose of an airplane or similar craft moves to the left or
 	the right [...]" [HQ11:2 p.9]
 file:	2002-06-holqed-11-2.txt
 
-tlh:	{DeS} (1)
+tlh:	{DeS} [.1]
 pos:	noun
 sv:	«arm»
 en:	<arm> (body part)
@@ -2778,7 +2828,7 @@ cat:	body part
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{DeS} (2)
+tlh:	{DeS} [.2]
 pos:	noun
 sv:	«skaft», «yxskaft»
 en:	<handle>, <ax handle>
@@ -2856,14 +2906,14 @@ en:	type of <plant>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{DIj} (1)
+tlh:	{DIj} [.1]
 pos:	verb
 sv:	«slå» med svärd längsmed motståndares klinga
 en:	<slide> sword blade along opponent's blade
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{DIj} (2)
+tlh:	{DIj} [.2]
 pos:	verb
 sv:	använda en pigmentpinne, «måla» med pigmentpinne
 en:	use a pigment stick, <paint> with pigment stick
@@ -2939,21 +2989,21 @@ cat:	music
 data:	phrase; derived form
 file:	1997-11-01-kgt.txt
 
-tlh:	{DIS}
+tlh:	[1] {DIS}
 pos:	verb
 sv:	«bekänna»
 en:	<confess>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{DIS} (1)
+tlh:	[2] {DIS}
 pos:	noun
 sv:	«grotta»
 en:	<cave>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{DIS} (2)
+tlh:	[3] {DIS}
 pos:	noun
 sv:	«år» (klingonskt)
 en:	<year> (Klingon)
@@ -2993,14 +3043,14 @@ en:	<velocity>, «speed»
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Doch}
+tlh:	[1] {Doch}
 pos:	verb
 sv:	vara «oförskämd»
 en:	be <rude>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Doch}
+tlh:	[2] {Doch}
 pos:	noun
 sv:	«sak»
 en:	<thing>
@@ -3109,14 +3159,14 @@ com:	This definition combines information from the definition of
 data:	phrase
 file:	1997-11-01-kgt.txt
 
-tlh:	{Dor} (1)
+tlh:	[1] {Dor}
 pos:	verb
 sv:	«eskortera»
 en:	<escort>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Dor} (2)
+tlh:	[2] {Dor}
 pos:	verb
 sv:	«ta «slut»» (om tidsperiod, t.ex. månad, år)
 en:	«come to an «end»» (about period of time, e.g. month, year)
@@ -3183,7 +3233,14 @@ en:	<Troyius>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Do'}
+tlh:	{Do'} [1]
+pos:	adverbial
+sv:	«lyckligtvis», med «tur»
+en:	<luckily>, with luck
+def:	TKD
+file:	1992-01-01-tkd.txt
+
+tlh:	{Do'} [2]
 pos:	verb
 sv:	vara «tursam», vara «lyckosam», ha «tur», ha «lycka»
 en:	be <fortunate>, be <lucky>
@@ -3192,28 +3249,21 @@ com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{Do'}
-pos:	adverbial
-sv:	«lyckligtvis», med «tur»
-en:	<luckily>, with luck
-def:	TKD
-file:	1992-01-01-tkd.txt
-
-tlh:	{Do'Ha'}
-pos:	verb
-sv:	vara «otursam», vara «olycksdrabbad», ha «otur»
-en:	be «unfortunate», be «unlucky»
-def:	TKD 4.3 (p.48), pp.1, 171
-file:	1992-01-01-tkd.txt
-
-tlh:	{Do'Ha'}
+tlh:	{Do'Ha'} [1]
 pos:	adverbial
 sv:	«olyckligtvis»
 en:	<unfortunately>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{Dub}
+tlh:	{Do'Ha'} [2]
+pos:	verb
+sv:	vara «otursam», vara «olycksdrabbad», ha «otur»
+en:	be «unfortunate», be «unlucky»
+def:	TKD 4.3 (p.48), pp.1, 171
+file:	1992-01-01-tkd.txt
+
+tlh:	[1] {Dub}
 pos:	verb
 sv:	«förbättra»
 en:	<improve>
@@ -3222,7 +3272,7 @@ def:	TKD; S14; S26
 ref:	TDNW
 file:	1992-01-01-tkd.txt; 1995-sbx-s14.txt; 1996-sbx-s26.txt
 
-tlh:	{Dub}
+tlh:	[2] {Dub}
 pos:	noun
 sv:	«rygg»
 en:	<back> (of body)
@@ -3253,21 +3303,21 @@ en:	be «vigilant»
 def:	TKD K-E
 file:	1992-01-01-tkd.txt
 
-tlh:	{DuH}
+tlh:	{DuH} [1]
 pos:	verb
 sv:	vara «möjlig»
 en:	be <possible>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{DuH}
+tlh:	{DuH} [2]
 pos:	noun
 sv:	«möjlighet»
 en:	<possibility>, <option>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Duj} (1)
+tlh:	[1] {Duj}
 pos:	noun
 sv:	«instinkter»
 en:	<instincts>
@@ -3275,7 +3325,7 @@ def:	TKD
 ref:	TKW p.27
 file:	1992-01-01-tkd.txt
 
-tlh:	{Duj} (2)
+tlh:	[2] {Duj}
 pos:	noun
 sv:	«skepp», «farkost»
 en:	<ship>, <vessel>
@@ -3339,7 +3389,7 @@ en:	<bowl> (small)
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{DuQ} (1)
+tlh:	{DuQ} [.1]
 pos:	verb
 sv:	«hugga», «sticka» ner, «genomborra»
 en:	<stab>
@@ -3347,7 +3397,7 @@ def:	TKD
 ref:	TKW p.131
 file:	1992-01-01-tkd.txt
 
-tlh:	{DuQ} (2)
+tlh:	{DuQ} [.2]
 pos:	verb
 sv:	göra (någon) «rörd»
 en:	<touch> (emotionally)
@@ -3415,14 +3465,14 @@ en:	<agent>, <emissary>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Duy'}
+tlh:	{Duy'} [1]
 pos:	verb
 sv:	vara «defekt», vara «trasig»
 en:	be <defective>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Duy'}
+tlh:	{Duy'} [2]
 pos:	noun
 sv:	«defekt», «fel»
 en:	<defect>
@@ -3561,14 +3611,14 @@ com:	Second translation, "support (financially)", was given by Marc Okrand
 cat:	money
 file:	1992-01-01-tkd.txt; 2010-07-26-email.txt
 
-tlh:	{ghar}
+tlh:	{ghar} [1]
 pos:	verb
 sv:	utöva «diplomati»
 en:	conduct <diplomacy>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{ghar}
+tlh:	{ghar} [2]
 pos:	noun
 sv:	«diplomati»
 en:	<diplomacy>
@@ -3614,7 +3664,14 @@ def:	S25; S26; KGT pp.25, 26, 197, 198
 com:	S25 and S26 were reprinted in HQ5:3 p.15
 file:	1996-sbx-s25.txt; 1996-sbx-s26.txt; 1997-11-01-kgt.txt
 
-tlh:	{ghaw'} (1)
+tlh:	[1] {ghaw'}
+pos:	noun
+sv:	«~igvah~»-leversoppa
+en:	<~igvah~> liver soup
+def:	KGT
+file:	1997-11-01-kgt.txt
+
+tlh:	[2] {ghaw'}
 pos:	noun
 sv:	«osäker person», någon uppfylld av självtvivel, «självtvivlare»
 	[regionalt, slang]
@@ -3622,13 +3679,6 @@ en:	<insecure one>, one full of self-doubt, <self-doubter>
 	[regional, slang]
 def:	KGT
 com:	Entries differ and have been combined here.
-file:	1997-11-01-kgt.txt
-
-tlh:	{ghaw'} (2)
-pos:	noun
-sv:	«~igvah~»-leversoppa
-en:	<~igvah~> liver soup
-def:	KGT
 file:	1997-11-01-kgt.txt
 
 tlh:	{ghay}
@@ -3808,14 +3858,14 @@ cat:	body part
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{ghIgh} (1)
+tlh:	{ghIgh} [.1]
 pos:	noun
 sv:	«halsband»
 en:	<necklace>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{ghIgh} (2)
+tlh:	{ghIgh} [.2]
 pos:	noun
 sv:	«uppdrag», «uppgift», «plikt» [slang]
 en:	<assignment>, <task>, <duty> [slang]
@@ -3949,15 +3999,7 @@ en:	<scales> (animal covering)
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{ghIt} (1)
-pos:	noun
-sv:	«yxhuvud», «huvud» på yxa
-en:	<ax blade>, <blade> of axe
-def:	KGT
-com:	Entries differ and have been combined here.
-file:	1997-11-01-kgt.txt
-
-tlh:	{ghIt} (2)
+tlh:	{ghIt} [.1]
 pos:	noun
 sv:	«öppen», plan «hand»
 en:	<open>, flat «hand»
@@ -3965,7 +4007,15 @@ def:	KGT
 cat:	body part
 file:	1997-11-01-kgt.txt
 
-tlh:	{ghItlh}
+tlh:	{ghIt} [.2]
+pos:	noun
+sv:	«yxhuvud», «huvud» på yxa
+en:	<ax blade>, <blade> of axe
+def:	KGT
+com:	Entries differ and have been combined here.
+file:	1997-11-01-kgt.txt
+
+tlh:	{ghItlh} [1]
 pos:	verb
 sv:	«skriva», «gravera», «rista» in, «skära» in, «märka»
 en:	<write>, <engrave>, <incise>, <mark> (upon)
@@ -3979,7 +4029,7 @@ com:	Entries from all sources have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1993-12-holqed-02-4.txt; 1997-11-01-kgt.txt
 
-tlh:	{ghItlh}
+tlh:	{ghItlh} [2]
 pos:	noun
 sv:	«manuskript»
 en:	<manuscript>
@@ -3995,21 +4045,21 @@ def:	KGT p.79
 data:	derived form
 file:	1997-11-01-kgt.txt
 
-tlh:	{gho} (1)
+tlh:	{gho} [.1]
 pos:	noun
 sv:	«cirkel»
 en:	<circle>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{gho} (2)
+tlh:	{gho} [.2]
 pos:	noun
 sv:	«tunnband», «rullband»
 en:	<hoop>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{ghob}
+tlh:	{ghob} [1]
 pos:	verb
 sv:	«slåss», «strida», «föra krig»
 en:	<fight>, <battle>, do battle, <wage war>
@@ -4018,7 +4068,7 @@ ref:	TKW pp.vii, 61, 179
 cat:	fighting
 file:	1997-11-01-kgt.txt
 
-tlh:	{ghob}
+tlh:	{ghob} [2]
 pos:	noun
 sv:	«etik», «moral», «dygd»
 en:	<ethics>, <virtue>
@@ -4042,20 +4092,24 @@ def:	TKD 5.5 (p.57) et al.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{ghoch}
+tlh:	{ghoch} [1]
 pos:	verb
 sv:	«spåra», spåra upp
 en:	<track>, track down
 def:	TKDa
 file:	1992-01-01-tkd.txt
+meta:	Should {ghoch} "track down" and "destination" really be grouped
+	together?
 
-tlh:	{ghoch}
+tlh:	{ghoch} [2]
 pos:	noun
 sv:	«destination»
 en:	<destination>
 def:	TKD
 see:	{mung}
 file:	1992-01-01-tkd.txt
+meta:	Should {ghoch} "track down" and "destination" really be grouped
+	together?
 
 tlh:	{ghochwI'}
 pos:	name
@@ -4146,7 +4200,7 @@ en:	<opponent>, <adversary>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{ghom}
+tlh:	{ghom} [1]
 pos:	verb
 sv:	«möta», «träffa», «samlas»
 en:	<meet>, <encounter>, <assemble>, <rendezvous>
@@ -4154,14 +4208,16 @@ def:	TKD
 ref:	TKW p.184
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Should {ghom} "meet" and "group" really be grouped together?
 
-tlh:	{ghom}
+tlh:	{ghom} [2]
 pos:	noun
 sv:	«grupp», «samling», «skara», «gäng», «liga»
 en:	<group>, <party>, <band>
 def:	TKD; KGT
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
+meta:	Should {ghom} "meet" and "group" really be grouped together?
 
 tlh:	{ghomHa'}
 pos:	verb
@@ -4187,14 +4243,14 @@ en:	type of <knife> (slender blade)
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{ghong}
+tlh:	{ghong} [1]
 pos:	verb
 sv:	«missbruka»
 en:	<abuse>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{ghong}
+tlh:	{ghong} [2]
 pos:	noun
 sv:	«missbruk»
 en:	<abuse>
@@ -4239,7 +4295,7 @@ en:	be <fresh>, be just killed (meat)
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{ghor}
+tlh:	[1] {ghor}
 pos:	verb
 sv:	«bryta»
 en:	<break>
@@ -4250,7 +4306,7 @@ com:	Apparently means "break" in the sense of breaking something (e.g. a
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{ghor}
+tlh:	[2] {ghor}
 pos:	noun
 sv:	«yta» (på planet)
 en:	<surface> (of a planet)
@@ -4265,7 +4321,7 @@ def:	TKD
 cat:	time
 file:	1992-01-01-tkd.txt
 
-tlh:	{ghoS} (1)
+tlh:	{ghoS} [.1]
 pos:	verb
 sv:	fortsätta «framåt», «nalkas», komma närmare, «avlägsna» sig ifrån,
 	«komma», «följa» (en kurs)
@@ -4276,7 +4332,7 @@ com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{ghoS} (2)
+tlh:	{ghoS} [.2]
 pos:	verb
 sv:	«köra», «driva»
 en:	<thrust>
@@ -4341,7 +4397,7 @@ com:	Article in HQ is called "{matlh juppu' mu'mey}".
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
-tlh:	{ghuH}
+tlh:	{ghuH} [1]
 pos:	verb
 sv:	«förbereda» för, vara «beredd» på, vara «förvarnad» om
 en:	<prepare> for, be <alerted> to
@@ -4349,7 +4405,7 @@ def:	TKD
 ref:	TKW p.56
 file:	1992-01-01-tkd.txt
 
-tlh:	{ghuH}
+tlh:	{ghuH} [2]
 pos:	noun
 sv:	«varning»
 en:	<alert>
@@ -4364,28 +4420,28 @@ def:	TKD
 data:	derived form
 file:	1992-01-01-tkd.txt
 
-tlh:	{ghum}
+tlh:	{ghum} [1]
 pos:	verb
 sv:	«alarmera», sätta igång ett alarm
 en:	<alarm>, sound an alarm
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{ghum}
+tlh:	{ghum} [2]
 pos:	noun
 sv:	«alarm»
 en:	<alarm>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{ghun}
+tlh:	[1] {ghun}
 pos:	verb
 sv:	«programmera» (en dator)
 en:	<program> (a computer)
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{ghun}
+tlh:	[2] {ghun}
 pos:	verb
 sv:	vara «varm»
 en:	be «warm»
@@ -4415,7 +4471,7 @@ en:	<increase>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{ghuS} (1)
+tlh:	{ghuS} [.1]
 pos:	verb
 sv:	vara «beredd», vara «redo» (att avfyra)
 en:	be <prepared>, be ready (to launch)
@@ -4423,7 +4479,7 @@ def:	ST1; TKD
 com:	The word "be" was inserted before the adjectival "ready".
 file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
-tlh:	{ghuS} (2)
+tlh:	{ghuS} [.2]
 pos:	verb
 sv:	«sänka» (spjut) till horisontellt läge inför attack
 en:	<lower> (spear) to horizontal to attack
@@ -4505,14 +4561,14 @@ ref:	TKW p.131
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{HaH} (1)
+tlh:	{HaH} [.1]
 pos:	verb
 sv:	«blöta» upp, «dränka» in
 en:	<soak>, <drench>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{HaH} (2)
+tlh:	{HaH} [.2]
 pos:	verb
 sv:	«marinera»
 en:	<marinade>
@@ -4555,21 +4611,21 @@ en:	<matter>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Haq} (1)
-pos:	verb
-sv:	«ingripa» i (en situation), «träda» emellan [slang]
-en:	<intervene> in (a situation) [slang]
-def:	KGT
-file:	1997-11-01-kgt.txt
-
-tlh:	{Haq} (2)
+tlh:	{Haq} [1.1]
 pos:	verb
 sv:	utföra «kirurgi» (på), «operera»
 en:	<perform <surgery>> (on)
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{Haq}
+tlh:	{Haq} [1.2]
+pos:	verb
+sv:	«ingripa» i (en situation), «träda» emellan [slang]
+en:	<intervene> in (a situation) [slang]
+def:	KGT
+file:	1997-11-01-kgt.txt
+
+tlh:	{Haq} [2]
 pos:	noun
 sv:	«kirurgi»
 en:	<surgery>
@@ -4621,14 +4677,14 @@ en:	<visual display> (on monitor)
 def:	ST1; TKD 7.1 (p.73) et al.
 file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
-tlh:	{Hat}
+tlh:	[1] {Hat}
 pos:	verb
 sv:	vara «olaglig», vara «illegal»
 en:	be <illegal>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Hat}
+tlh:	[2] {Hat}
 pos:	noun
 sv:	«temperatur»
 en:	<temperature>
@@ -4681,7 +4737,7 @@ def:	TKD 5.5 (p.57) et al.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{Ha'DIbaH} (1)
+tlh:	{Ha'DIbaH} [.1]
 pos:	noun
 sv:	«kött», «djur»
 en:	<meat>, <animal>
@@ -4690,7 +4746,7 @@ ref:	TKW p.163
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{Ha'DIbaH} (2)
+tlh:	{Ha'DIbaH} [.2]
 pos:	noun
 sv:	«fähund», «usling», «tölp», «underlägsen person» [slang]
 en:	<dog>, <cur>, <inferior person> [slang]
@@ -4743,7 +4799,7 @@ en:	<parallel> course
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Hegh}
+tlh:	{Hegh} [1]
 pos:	verb
 sv:	«dö»
 en:	<die>
@@ -4753,7 +4809,7 @@ ref:	TKW pp.5, 69, 71, 72, 73, 74, 77, 88, 93, 99, 117, 123, 129, 145, 153,
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{Hegh}
+tlh:	{Hegh} [2]
 pos:	noun
 sv:	«död»
 en:	<death>
@@ -4864,14 +4920,14 @@ def:	TKDa
 data:	derived form
 file:	1992-01-01-tkd.txt
 
-tlh:	{HeS}
+tlh:	{HeS} [1]
 pos:	verb
 sv:	«begå» ett «brott»
 en:	<commit> a «crime»
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{HeS}
+tlh:	{HeS} [2]
 pos:	noun
 sv:	«brott»
 en:	<crime>
@@ -5123,7 +5179,7 @@ cat:	time
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{HoH}
+tlh:	{HoH} [1]
 pos:	verb
 sv:	«döda»
 en:	<kill>
@@ -5132,7 +5188,7 @@ ref:	TKW pp.59, 163, 165
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{HoH}
+tlh:	{HoH} [2]
 pos:	noun
 sv:	«dödande», «mord»
 en:	<killing>
@@ -5177,21 +5233,21 @@ en:	<linguistics>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{Hom} (1)
+tlh:	{Hom} [1.1]
 pos:	noun
 sv:	«ben» (i skelett)
 en:	<bone>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Hom} (2)
+tlh:	{Hom} [1.2]
 pos:	noun
 sv:	«vekling», «liten en», «mager en», «utmärglad person» [slang]
 en:	<weakling>, <runt>, <scrawny one>, <skinny one> [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{Hom}
+tlh:	{Hom} [2]
 pos:	verb
 sv:	«använda» «andra«tå»n» [arkaiskt]
 en:	«use» the «second «toe»» [archaic]
@@ -5271,7 +5327,7 @@ com:	"[It can] be used in the same places {quv} 'be honored, be honorable'
 see:	{quv} "be honored, be honorable" (v)
 file:	2003-09-holqed-12-3.txt
 
-tlh:	{HoS}
+tlh:	{HoS} [1]
 pos:	verb
 sv:	vara «stark»
 en:	be <strong>
@@ -5280,7 +5336,7 @@ pun:	{HoS} = H.o.S. = "Head of State" (¿?)
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{HoS}
+tlh:	{HoS} [2]
 pos:	noun
 sv:	«styrka», «energi», «kraft»
 en:	<strength>, <energy>, <power>
@@ -5327,19 +5383,21 @@ en:	<touch>, <feel>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Hotlh} (1)
+tlh:	{Hotlh} [.1]
 pos:	verb
 sv:	«projicera», «visa» (på skärm)
 en:	<project>, <put> on (screen)
 def:	TKD
 file:	1992-01-01-tkd.txt
+meta:	Should {Hotlh} "project" and "scan" really be grouped together?
 
-tlh:	{Hotlh} (2)
+tlh:	{Hotlh} [.2]
 pos:	verb
 sv:	«avsöka», «granska», «undersöka»
 en:	<scan>
 def:	TKD
 file:	1992-01-01-tkd.txt
+meta:	Should {Hotlh} "project" and "scan" really be grouped together?
 
 tlh:	{HotlhwI'}
 pos:	noun
@@ -5378,7 +5436,7 @@ en:	<congratulate>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Ho'}
+tlh:	[1] {Ho'} [1]
 pos:	verb
 sv:	«beundra»
 en:	<admire>
@@ -5386,20 +5444,20 @@ def:	TKD
 ref:	TKW p.142
 file:	1992-01-01-tkd.txt
 
-tlh:	{Ho'} (1)
+tlh:	[1] {Ho'} [2]
+pos:	noun
+sv:	«idol» [slang]
+en:	<idol> [slang]
+def:	KGT
+file:	1997-11-01-kgt.txt
+
+tlh:	[2] {Ho'}
 pos:	noun
 sv:	«tand»
 en:	<tooth>
 def:	TKD
 cat:	body part
 file:	1992-01-01-tkd.txt
-
-tlh:	{Ho'} (2)
-pos:	noun
-sv:	«idol» [slang]
-en:	<idol> [slang]
-def:	KGT
-file:	1997-11-01-kgt.txt
 
 tlh:	{Ho' 'etlh}
 pos:	noun
@@ -5423,7 +5481,7 @@ en:	«zoo»
 def:	TKD K-E
 file:	1992-01-01-tkd.txt
 
-tlh:	{Hub}
+tlh:	{Hub} [1]
 pos:	verb
 sv:	«försvara»
 en:	<defend>
@@ -5431,7 +5489,7 @@ def:	TKD
 ref:	TKW p.74
 file:	1992-01-01-tkd.txt
 
-tlh:	{Hub}
+tlh:	{Hub} [2]
 pos:	noun
 sv:	«försvar»
 en:	<defense>
@@ -5499,14 +5557,14 @@ com:	PK: "'May the bile of the vanquished fill your hands.'
 file:	1993-10-01-pk.txt; 1996-04-kcd.txt; 1996-05-01-tkw.txt;
 	1997-11-01-kgt.txt
 
-tlh:	{Huj} (1)
+tlh:	[1] {Huj}
 pos:	verb
 sv:	vara «konstig», vara «underlig»
 en:	be <strange>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Huj} (2)
+tlh:	[2] {Huj}
 pos:	verb
 sv:	«fylla» (på), «ladda» (upp)
 en:	<charge> (up)
@@ -5582,14 +5640,14 @@ def:	KGT
 cat:	music
 file:	1997-11-01-kgt.txt
 
-tlh:	{Hurgh}
+tlh:	[1] {Hurgh}
 pos:	verb
 sv:	vara «mörk»
 en:	be <dark>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Hurgh}
+tlh:	[2] {Hurgh}
 pos:	noun
 sv:	«pickels» (gurka)
 en:	<pickle> (cucumber)
@@ -5610,14 +5668,14 @@ en:	<Hur'q> (person)
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{HuS}
+tlh:	[1] {HuS}
 pos:	verb
 sv:	«hänga»
 en:	<hang>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{HuS}
+tlh:	[2] {HuS}
 pos:	name
 sv:	«Huss»
 en:	«Huss»
@@ -5683,14 +5741,14 @@ def:	KGT
 cat:	body part
 file:	1997-11-01-kgt.txt
 
-tlh:	{Hu'}
+tlh:	[1] {Hu'}
 pos:	verb
 sv:	«gå» upp, «kliva» upp
 en:	<get> up
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Hu'}
+tlh:	[2] {Hu'}
 pos:	noun
 sv:	¿?för ... «dagar» sedan
 en:	<days> ago
@@ -5808,14 +5866,14 @@ cat:	time
 data:	derived form
 file:	1996-05-01-tkw.txt
 
-tlh:	{jan} (1)
+tlh:	{jan} [.1]
 pos:	noun
 sv:	«apparat», «anordning», «manick»
 en:	<device>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{jan} (2)
+tlh:	{jan} [.2]
 pos:	noun
 sv:	«musik«instrument»»
 en:	<musical <instrument>>
@@ -5880,20 +5938,20 @@ en:	<differently>
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{jat}
-pos:	verb
-sv:	«tala» otydligt, «mumla» [slang]
-en:	<speak> incoherently, <mumble> [slang]
-def:	KGT
-file:	1997-11-01-kgt.txt
-
-tlh:	{jat}
+tlh:	{jat} [1]
 pos:	noun
 sv:	«tunga»
 en:	<tongue>
 def:	TKD
 cat:	body part
 file:	1992-01-01-tkd.txt
+
+tlh:	{jat} [2]
+pos:	verb
+sv:	«tala» otydligt, «mumla» [slang]
+en:	<speak> incoherently, <mumble> [slang]
+def:	KGT
+file:	1997-11-01-kgt.txt
 
 tlh:	{jatyIn}
 pos:	noun
@@ -5911,7 +5969,15 @@ ref:	TKW p.87
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{jav} (1)
+tlh:	[1] {jav} [1]
+pos:	numeral
+sv:	«sex»
+en:	<six>
+def:	TKD
+cat:	math
+file:	1992-01-01-tkd.txt
+
+tlh:	[1] {jav} [2]
 pos:	noun
 sv:	sjätte «tonen» på den nonatoniska skalan
 en:	sixth <tone> of nonatonic musical scale
@@ -5919,7 +5985,7 @@ def:	KGT
 cat:	music
 file:	1997-11-01-kgt.txt
 
-tlh:	{jav} (2)
+tlh:	[2] {jav}
 pos:	noun
 sv:	«fånge» [slang]
 en:	<prisoner> [slang]
@@ -5929,14 +5995,6 @@ pun:	{jav} also means "six" in Klingon---and "Number Six" is the designation
 	1967 (played by Patrick McGoohan).
 file:	1997-11-01-kgt.txt
 
-tlh:	{jav}
-pos:	numeral
-sv:	«sex»
-en:	<six>
-def:	TKD
-cat:	math
-file:	1992-01-01-tkd.txt
-
 tlh:	{javDIch}
 pos:	numeral
 sv:	«sjätte»
@@ -5945,14 +6003,14 @@ def:	TKD
 cat:	math
 file:	1992-01-01-tkd.txt
 
-tlh:	{jaw}
+tlh:	[1] {jaw}
 pos:	verb
 sv:	«småprata», «samtala»
 en:	<chat>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{jaw}
+tlh:	[2] {jaw}
 pos:	noun
 sv:	«herre»
 en:	<lord>
@@ -5986,14 +6044,14 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{ja'chuq}
+tlh:	{ja'chuq} [1]
 pos:	verb
 sv:	«diskutera», «konferera»
 en:	<discuss>, <confer>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{ja'chuq}
+tlh:	{ja'chuq} [2]
 pos:	noun
 sv:	«successionsritual» (ålderdomlig)
 en:	<succession ritual> (ancient)
@@ -6012,14 +6070,14 @@ com:	When following a verb it means "also, too", when following nouns it
 	means "and".
 file:	1992-01-01-tkd.txt
 
-tlh:	{jech}
+tlh:	{jech} [1]
 pos:	verb
 sv:	«förkläda», «klä ut»
 en:	<disguise>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{jech}
+tlh:	{jech} [2]
 pos:	noun
 sv:	«förklädnad», «dräkt»
 en:	<disguise>, <costume>
@@ -6118,7 +6176,7 @@ en:	<participate>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{jev} (1)
+tlh:	{jev} [.1]
 pos:	verb
 sv:	«storma»
 en:	<storm>
@@ -6128,7 +6186,7 @@ com:	Correction in HQ4:1 p.7 disregarded, since weather words
 cat:	landscape
 file:	1992-01-01-tkd.txt
 
-tlh:	{jev} (2)
+tlh:	{jev} [.2]
 pos:	verb
 sv:	«väsa», «rossla», «andas» ljudligt
 en:	«wheeze», «breathe» nosily
@@ -6140,7 +6198,7 @@ com:	Most likely MO reinvented this word without realizing it already
 see:	{tlhov} is a synonym
 file:	2003-12-holqed-12-4.txt
 
-tlh:	{jey}
+tlh:	[1] {jey}
 pos:	verb
 sv:	«besegra»
 en:	<defeat>
@@ -6148,7 +6206,7 @@ def:	TKD
 ref:	TKW pp.ix, 24
 file:	1992-01-01-tkd.txt
 
-tlh:	{jey}
+tlh:	[2] {jey}
 pos:	noun
 sv:	«resväg», «rutt», «resplan»
 en:	<itinerary>
@@ -6163,7 +6221,7 @@ def:	KGT
 com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
 
-tlh:	{je'} (1)
+tlh:	[1] {je'}
 pos:	verb
 sv:	«köpa», «handla»
 en:	<buy>, <purchase>
@@ -6173,7 +6231,7 @@ cat:	money
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{je'} (2)
+tlh:	[2] {je'}
 pos:	verb
 sv:	«mata» (någon annan)
 en:	<feed> (someone else)
@@ -6193,21 +6251,21 @@ def:	TKD
 cat:	body part
 file:	1992-01-01-tkd.txt
 
-tlh:	{jIH}
+tlh:	[1] {jIH} [1]
 pos:	verb
 sv:	«övervaka»
 en:	<monitor>
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{jIH}
+tlh:	[1] {jIH} [2]
 pos:	noun
 sv:	«bild«skärm»»
 en:	<viewing <screen>>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{jIH}
+tlh:	[2] {jIH}
 pos:	pronoun
 sv:	«jag», «mig»
 en:	<I>, <me>
@@ -6216,7 +6274,7 @@ ref:	TKW pp.203, 206
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{jIj} (1)
+tlh:	{jIj} [.1]
 pos:	verb
 sv:	«samarbeta»
 en:	«cooperate»
@@ -6224,7 +6282,7 @@ def:	TKD K-E
 see:	{yeq}
 file:	1992-01-01-tkd.txt
 
-tlh:	{jIj} (2)
+tlh:	{jIj} [.2]
 pos:	verb
 sv:	vara «samarbetsvillig»
 en:	be <cooperative>
@@ -6402,7 +6460,7 @@ en:	<consul>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{jol}
+tlh:	{jol} [1]
 pos:	verb
 sv:	«stråla» (ombord), «beama» (ombord)
 en:	<beam> (aboard)
@@ -6410,7 +6468,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{jol}
+tlh:	{jol} [2]
 pos:	noun
 sv:	«transporter«stråle»»
 en:	<transport <beam>>
@@ -6481,7 +6539,7 @@ en:	<lunge>, <thrust>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{joq}
+tlh:	[1] {joq}
 pos:	verb
 sv:	«fladdra», «flaxa»
 en:	<flap>, <flutter>, <wave>
@@ -6489,7 +6547,7 @@ desc:	about banner or sail [HQ10:4 p.5]
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{joq}
+tlh:	[2] {joq}
 pos:	conjuction
 sv:	«eller», och/eller (kommer efter förenade substantiv)
 en:	<or>, and/or
@@ -6506,19 +6564,19 @@ en:	<flag>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{joQ} (1)
+tlh:	{joQ} [.1]
+pos:	noun
+sv:	«revben»
+en:	<rib>
+def:	KGT
+file:	1997-11-01-kgt.txt
+
+tlh:	{joQ} [.2]
 pos:	noun
 sv:	«tygremsa» i ett «~susdek~» instrument
 en:	<strip of material> in a «~susdek~» instrument
 def:	KGT
 cat:	music
-file:	1997-11-01-kgt.txt
-
-tlh:	{joQ} (2)
-pos:	noun
-sv:	«revben»
-en:	<rib>
-def:	KGT
 file:	1997-11-01-kgt.txt
 
 tlh:	{jor}
@@ -6561,14 +6619,14 @@ def:	TKD
 data:	derived form
 file:	1992-01-01-tkd.txt
 
-tlh:	{joS}
+tlh:	{joS} [1]
 pos:	verb
 sv:	«skvallra», sprida «rykten»
 en:	<gossip>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{joS}
+tlh:	{joS} [2]
 pos:	noun
 sv:	«rykte», «skvaller»
 en:	<rumor>, <gossip>
@@ -6730,14 +6788,14 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{lagh}
+tlh:	[1] {lagh}
 pos:	verb
 sv:	«ta sönder», «plocka isär»
 en:	<take apart>, <disassemble>
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{lagh}
+tlh:	[2] {lagh}
 pos:	noun
 sv:	«fänrik» (rang)
 en:	<ensign>
@@ -6752,7 +6810,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{laj}
+tlh:	{laj} [1]
 pos:	verb
 sv:	«acceptera», «godtaga»
 en:	<accept>
@@ -6760,7 +6818,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{laj}
+tlh:	{laj} [2]
 pos:	noun
 sv:	«accepterande», «godtagande»
 en:	<acceptance>
@@ -6782,7 +6840,7 @@ en:	<religion>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{lam}
+tlh:	{lam} [1]
 pos:	verb
 sv:	vara «smutsig»
 en:	be <dirty>
@@ -6790,7 +6848,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{lam}
+tlh:	{lam} [2]
 pos:	noun
 sv:	«smuts»
 en:	<dirt>
@@ -6928,14 +6986,14 @@ ref:	TKW p.169
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{leH}
+tlh:	{leH} [1]
 pos:	verb
 sv:	«underhålla», «sköta»
 en:	<maintain>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{leH}
+tlh:	{leH} [2]
 pos:	noun
 sv:	«underhåll», «skötsel»
 en:	<maintenance>
@@ -6963,7 +7021,7 @@ en:	<recess>, <break>
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{leng}
+tlh:	{leng} [1]
 pos:	verb
 sv:	«ströva», «resa»
 en:	<roam>, <travel>, <rove>
@@ -6971,7 +7029,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{leng}
+tlh:	{leng} [2]
 pos:	noun
 sv:	«tur», «resa»
 en:	<trip>, <voyage>
@@ -6992,7 +7050,7 @@ en:	<switch>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{leS}
+tlh:	[1] {leS}
 pos:	verb
 sv:	«vila», «slappna av»
 en:	<rest>, <relax>
@@ -7000,7 +7058,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{leS}
+tlh:	[2] {leS}
 pos:	noun
 sv:	¿?om ... «dagar»
 en:	<days> from now
@@ -7038,7 +7096,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{letlh} (1)
+tlh:	{letlh} [.1]
 pos:	noun
 sv:	«trappa», «trappuppgång»
 en:	<stairs>, «stairway»
@@ -7046,7 +7104,7 @@ def:	KGT
 cat:	architecture
 file:	1997-11-01-kgt.txt
 
-tlh:	{letlh} (2)
+tlh:	{letlh} [.2]
 pos:	noun
 sv:	«trappuppgång» vid skeppsdörr [regionalt]
 en:	<stairway> leading to door of a ship [regional]
@@ -7054,7 +7112,7 @@ def:	KGT
 cat:	architecture
 file:	1997-11-01-kgt.txt
 
-tlh:	{lev}
+tlh:	[1] {lev}
 pos:	verb
 sv:	«förflytta» en «~bat'leth~» från vertikal till horisontell position
 en:	<move> «~bat'leth~» from vertical to horizontal orientation
@@ -7062,7 +7120,7 @@ def:	KGT
 cat:	fighting
 file:	1997-11-01-kgt.txt
 
-tlh:	{lev}
+tlh:	[2] {lev}
 pos:	noun
 sv:	«gom»
 en:	«roof» of «mouth», hard «palate»
@@ -7245,7 +7303,7 @@ en:	<comet>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{lI'} (1)
+tlh:	[1] {lI'}
 pos:	verb
 sv:	vara «användbar»
 en:	be <useful>
@@ -7253,7 +7311,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{lI'} (2)
+tlh:	[2] {lI'}
 pos:	verb
 sv:	«sända» data (till en plats)
 en:	<transmit> data (to a place)
@@ -7358,14 +7416,14 @@ def:	BoP
 cat:	unit
 file:	1998-11-01-bop.txt
 
-tlh:	{loH}
+tlh:	{loH} [1]
 pos:	verb
 sv:	«administrera»
 en:	<administer>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{loH}
+tlh:	{loH} [2]
 pos:	noun
 sv:	«administration»
 en:	<administration>
@@ -7391,7 +7449,7 @@ cat:	architecture
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{lol}
+tlh:	{lol} [1]
 pos:	verb
 sv:	vara i en «position», vara i ett «läge», vara i en «pose», vara i en
 	«ställning», vara i en «hållning»
@@ -7399,7 +7457,7 @@ en:	be in an «attitude», be in a «stance», be in a «pose»
 def:	HQ11:2 p.8
 file:	2002-06-holqed-11-2.txt
 
-tlh:	{lol}
+tlh:	{lol} [2]
 pos:	noun
 sv:	en särskild ~Mok'bara~-«position»
 en:	a specific ~Mok'bara~ «position»
@@ -7460,23 +7518,24 @@ def:	TKD
 ref:	TKW p.38
 file:	1992-01-01-tkd.txt
 
-tlh:	{lop} (1)
+tlh:	{lop} [1.1]
 pos:	verb
 sv:	«fira», «celebrera»
 en:	<celebrate>
 def:	TKD
 ref:	TKW pp.153, 205
-com:	¿?Shouldn't {lop} (1) and {lop} (2) be one word?
 file:	1992-01-01-tkd.txt
+meta:	Shouldn't "{lop} [1.1]" and "{lop} [1.2]" be one word?
 
-tlh:	{lop} (2)
+tlh:	{lop} [1.2]
 pos:	verb
 sv:	«fira», «följa» (en ritual)
 en:	<observe>, <celebrate> (a ritual)
 def:	KGT
 file:	1997-11-01-kgt.txt
+meta:	Shouldn't "{lop} [1.1]" and "{lop} [1.2]" be one word?
 
-tlh:	{lop}
+tlh:	{lop} [2]
 pos:	noun
 sv:	«firande», «fest»
 en:	<celebration>
@@ -7533,7 +7592,7 @@ com:	Article in HQ is called "{matlh juppu' mu'mey}".
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
-tlh:	{loS}
+tlh:	[1] {loS}
 pos:	verb
 sv:	«vänta» (på)
 en:	<wait> (for)
@@ -7541,15 +7600,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{loS}
-pos:	noun
-sv:	fjärde «tonen» på den nonatoniska skalan
-en:	fourth <tone> of nonatonic musical scale
-def:	KGT
-cat:	music
-file:	1997-11-01-kgt.txt
-
-tlh:	{loS}
+tlh:	[2] {loS} [1]
 pos:	numeral
 sv:	«fyra»
 en:	<four>
@@ -7557,6 +7608,14 @@ def:	TKD
 ref:	TKW p.127
 cat:	math
 file:	1992-01-01-tkd.txt
+
+tlh:	[2] {loS} [2]
+pos:	noun
+sv:	fjärde «tonen» på den nonatoniska skalan
+en:	fourth <tone> of nonatonic musical scale
+def:	KGT
+cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{loSDIch}
 pos:	numeral
@@ -7610,7 +7669,7 @@ en:	<guess>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{lo'}
+tlh:	{lo'} [1]
 pos:	verb
 sv:	«använda», «nyttja», «bruka»
 en:	<use>
@@ -7618,7 +7677,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{lo'}
+tlh:	{lo'} [2]
 pos:	noun
 sv:	«användning», «bruk», «funktion», «nytta»
 en:	<use>
@@ -7691,14 +7750,14 @@ com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{luH} (1)
+tlh:	[1] {luH} [.1]
 pos:	verb
 sv:	«rycka» (i), «dra» (i)
 en:	«yank»
 def:	TKD K-E
 file:	1992-01-01-tkd.txt
 
-tlh:	{luH} (2)
+tlh:	[1] {luH} [.2]
 pos:	verb
 sv:	«få» (någon) att erkänna eller avslöja en hemlighet, «utkräva» ett
 	erkännande, få att «erkänna» [slang]
@@ -7708,7 +7767,7 @@ def:	KGT
 com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
 
-tlh:	{luH}
+tlh:	[2] {luH}
 pos:	noun
 sv:	«tarmar», «inälvor»
 en:	<intestine>
@@ -7764,14 +7823,14 @@ en:	type of <animal>, «dragon», «~loong~» (lizardlike)
 def:	KGT pp.48--49
 file:	1997-11-01-kgt.txt
 
-tlh:	{lup}
+tlh:	[1] {lup}
 pos:	verb
 sv:	«transportera»
 en:	<transport>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{lup}
+tlh:	[2] {lup}
 pos:	noun
 sv:	«sekund»
 en:	<second> (of time)
@@ -7903,7 +7962,7 @@ def:	TKD
 data:	derived form
 file:	1992-01-01-tkd.txt
 
-tlh:	{maH}
+tlh:	[1] {maH}
 pos:	pronoun
 sv:	«vi», «oss»
 en:	<we>, <us>
@@ -7912,7 +7971,7 @@ ref:	TKW p.3
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{maH}
+tlh:	[2] {maH}
 pos:	numeral
 sv:	«tio» (nummerbildande element)
 en:	<ten> (number-forming element)
@@ -8030,7 +8089,7 @@ def:	HQ10:2 p.7
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
-tlh:	{maS}
+tlh:	[1] {maS}
 pos:	verb
 sv:	«föredra»
 en:	<prefer>
@@ -8038,7 +8097,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{maS}
+tlh:	[2] {maS}
 pos:	noun
 sv:	«måne»
 en:	<moon>
@@ -8071,14 +8130,14 @@ def:	TKD
 cat:	fighting
 file:	1992-01-01-tkd.txt
 
-tlh:	{matlh}
+tlh:	[1] {matlh}
 pos:	verb
 sv:	vara «lojal»
 en:	be <loyal>
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{matlh}
+tlh:	[2] {matlh}
 pos:	name
 sv:	«Maltz»
 en:	«Maltz»
@@ -8123,14 +8182,14 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{may}
+tlh:	[1] {may}
 pos:	verb
 sv:	vara «rättvis»
 en:	be <fair>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{may}
+tlh:	[2] {may}
 pos:	noun
 sv:	klingonskans «{m}»-ljud
 en:	Klingon ~«{m}»~ sound
@@ -8300,29 +8359,30 @@ en:	<plastic>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{meq}
+tlh:	{meq} [1]
 pos:	verb
 sv:	«resonera», «tänka» logiskt
 en:	<reason>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{meq} (1)
+tlh:	{meq} [2.1]
 pos:	noun
 sv:	«förnuft», «vett», logiskt «tänkande»
 en:	<reason>, logical «thinking»
 def:	TKD; KGT p.154
-com:	¿?Are {meq} (1) and {meq} (2) actually the same thing?
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
+meta:	Are "{meq} [2.1]" and "{meq} [2.2]" actually the same thing?
 
-tlh:	{meq} (2)
+tlh:	{meq} [2.2]
 pos:	noun
 sv:	«motiv», «orsak», «anledning»
 en:	<motive>, «reason»
 def:	KGT
 ref:	TKW p.143
 file:	1997-11-01-kgt.txt
+meta:	Are "{meq} [2.1]" and "{meq} [2.2]" actually the same thing?
 
 tlh:	{meqba'}
 pos:	noun
@@ -8505,14 +8565,14 @@ ref:	TKW pp.169, 19
 cat:	body part
 file:	1992-01-01-tkd.txt
 
-tlh:	{mIp}
+tlh:	{mIp} [1]
 pos:	verb
 sv:	vara «rik»
 en:	be <rich>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{mIp}
+tlh:	{mIp} [2]
 pos:	noun
 sv:	«förmögenhet»
 en:	<wealth>, <richness>
@@ -8526,7 +8586,7 @@ en:	<machinery>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{mIQ}
+tlh:	[1] {mIQ}
 pos:	verb
 sv:	«steka», «fritera»
 en:	<fry>, <deep-fry>
@@ -8537,7 +8597,7 @@ pun:	"Marc nodded, smiling infuriatingly, to confirm {mIQ} (deep fry) as in
 	mIQ-Donald's french fries." (Robyn Stewart, {qep'a'} 1997)
 file:	1997-11-01-kgt.txt
 
-tlh:	{mIQ}
+tlh:	[2] {mIQ}
 pos:	noun
 sv:	«panna» [regionalt]
 en:	<forehead> [regional]
@@ -8552,7 +8612,7 @@ en:	<chain>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{mIS}
+tlh:	{mIS} [1]
 pos:	verb
 sv:	vara «förvirrad», vara «ihopblandad»
 en:	be <confused>, be <mixed up>
@@ -8561,7 +8621,7 @@ com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{mIS}
+tlh:	{mIS} [2]
 pos:	noun
 sv:	«förvirring»
 en:	<confusion>
@@ -8587,7 +8647,7 @@ com:	"This is also one of the rare cases where we know the tlhIngan Hol
 	#1")
 file:	1996-04-kcd.txt
 
-tlh:	{mIv} (1)
+tlh:	{mIv} [.1]
 pos:	noun
 sv:	«hjälm»
 en:	<helmet>
@@ -8595,7 +8655,7 @@ def:	TKD
 cat:	clothing
 file:	1992-01-01-tkd.txt
 
-tlh:	{mIv} (2)
+tlh:	{mIv} [.2]
 pos:	noun
 sv:	flatbottnad «skål» av metall [regionalt]
 en:	metal flat-bottomed <pot> [regional]
@@ -8617,16 +8677,16 @@ en:	<crown>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{mIw} (1)
+tlh:	{mIw} [.1]
 pos:	noun
 sv:	«procedur», «process»
 en:	<procedure>, «process»
 def:	TKDa
-com:	¿?Is this a valid word---shouldn't {nab} be used instead, and
-	{mIw} be used for "step, stage (in a process)"?
 file:	1992-01-01-tkd.txt
+meta:	Is this a valid word---shouldn't {nab} be used instead, and
+	{mIw} be used for "step, stage (in a process)"?
 
-tlh:	{mIw} (2)
+tlh:	{mIw} [.2]
 pos:	noun
 sv:	«steg», «del» (i en process)
 en:	<step>, <stage> (in a process)
@@ -8641,7 +8701,7 @@ def:	TKD
 pun:	Compare with {yu'}.
 file:	1992-01-01-tkd.txt
 
-tlh:	{mI'}
+tlh:	[1] {mI'}
 pos:	verb
 sv:	¿?«dansa», «springa» på stället, «träna»
 en:	<dance>, <run> in place, do <calisthenics>, <exercise>
@@ -8649,7 +8709,7 @@ def:	KGT
 com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
 
-tlh:	{mI'}
+tlh:	[2] {mI'}
 pos:	noun
 sv:	«nummer», «siffra»
 en:	<number>
@@ -8680,28 +8740,28 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{mogh}
+tlh:	[1] {mogh}
 pos:	verb
 sv:	vara «frustrerad»
 en:	be <frustrated>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{mogh}
+tlh:	[2] {mogh}
 pos:	name
 sv:	«Mogh»
 en:	«Mogh»
 def:	KGT pp.41, 197
 file:	1997-11-01-kgt.txt
 
-tlh:	{moH} (1)
+tlh:	{moH} [.1]
 pos:	verb
 sv:	vara «ful»
 en:	be <ugly>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{moH} (2)
+tlh:	{moH} [.2]
 pos:	verb
 sv:	«influera», utöva otillbörligt «inflytande» på [slang]
 en:	<influence>, <exert undue influence> on [slang]
@@ -8750,21 +8810,21 @@ see:	{mojaq}
 data:	deprecated
 file:	1992-01-01-tkd.txt
 
-tlh:	{mol}
+tlh:	{mol} [1]
 pos:	verb
 sv:	«begrava», «gräva ner»
 en:	<bury>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{mol}
+tlh:	{mol} [2]
 pos:	noun
 sv:	«grav»
 en:	<grave>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{mon}
+tlh:	[1] {mon}
 pos:	verb
 sv:	«le», «grina», «hånle»
 en:	<smile>, <grin>, «sneer»
@@ -8774,7 +8834,7 @@ pun:	"Mona Lisa" ({mon'a'} "Is she smiling?") Confirmed by MO at {qep'a'}
 	1996.
 file:	1997-11-01-kgt.txt
 
-tlh:	{mon}
+tlh:	[2] {mon}
 pos:	noun
 sv:	«huvudstad»
 en:	<capital> (of a place)
@@ -8812,14 +8872,14 @@ en:	<beat> (something with an implement)
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{moQ} (1)
+tlh:	{moQ} [.1]
 pos:	noun
 sv:	«sfär»
 en:	<sphere>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{moQ} (2)
+tlh:	{moQ} [.2]
 pos:	noun
 sv:	spikförsedd «pommel» på en «~d'k tahg~»-kniv
 en:	spiked «pommel» of a «~d'k tahg~» knife
@@ -8849,21 +8909,21 @@ en:	<compromise>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{motlh}
-pos:	verb
-sv:	vara «vanlig», vara «normal», vara «standard»
-en:	be <usual>, be «normal», be «standard»
-def:	TKD; S14; BoP
-com:	Translation "standard" found on S14.
-file:	1992-01-01-tkd.txt; 1995-sbx-s14.txt; 1998-11-01-bop.txt
-
-tlh:	{motlh}
+tlh:	{motlh} [1]
 pos:	adverbial
 sv:	«vanligtvis», som vanligt, som «väntat», «normal sett»
 en:	<usually>, <typically>, as expected, <expectedly>
 def:	KGT
 com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
+
+tlh:	{motlh} [2]
+pos:	verb
+sv:	vara «vanlig», vara «normal», vara «standard»
+en:	be <usual>, be «normal», be «standard»
+def:	TKD; S14; BoP
+com:	Translation "standard" found on S14.
+file:	1992-01-01-tkd.txt; 1995-sbx-s14.txt; 1998-11-01-bop.txt
 
 tlh:	{motlhbe'}
 pos:	verb
@@ -8888,14 +8948,14 @@ en:	<slingshot>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{mo'} (1)
+tlh:	{mo'} [.1]
 pos:	noun
 sv:	«bur»
 en:	<cage>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{mo'} (2)
+tlh:	{mo'} [.2]
 pos:	noun
 sv:	«motiv», «motivation», «orsak», «anledning», «skäl» [slang]
 en:	<motive>, motivation, <grounds>, <reason>, rationale [slang]
@@ -8909,7 +8969,7 @@ en:	be <legal>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{much} (1)
+tlh:	{much} [1.1]
 pos:	verb
 sv:	«presentera»
 en:	<present>
@@ -8917,14 +8977,14 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{much} (2)
+tlh:	{much} [1.2]
 pos:	verb
 sv:	«framföra» (musik)
 en:	<perform> (music)
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{much}
+tlh:	{much} [2]
 pos:	noun
 sv:	«presentation»
 en:	<presentation>
@@ -8939,14 +8999,14 @@ def:	KGT
 data:	derived form
 file:	1997-11-01-kgt.txt
 
-tlh:	{muD} (1)
+tlh:	{muD} [.1]
 pos:	noun
 sv:	«atmosfär»
 en:	<atmosphere>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{muD} (2)
+tlh:	{muD} [.2]
 pos:	noun
 sv:	«väder» (generellt)
 en:	<weather> (in general)
@@ -9089,14 +9149,14 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{mut}
+tlh:	[1] {mut}
 pos:	verb
 sv:	vara «självisk»
 en:	be <selfish>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{mut}
+tlh:	[2] {mut}
 pos:	noun
 sv:	«ras», «art»
 en:	<species>
@@ -9197,7 +9257,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{nab}
+tlh:	{nab} [1]
 pos:	verb
 sv:	«planera»
 en:	<plan>
@@ -9206,7 +9266,7 @@ com:	ST5: {nImbuS wej maghoS. He yInab.} "Plot course for Nimbus III."
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{nab}
+tlh:	{nab} [2]
 pos:	noun
 sv:	«plan», «tillvägagångssätt», «förfarande», «procedur»
 en:	<plan>, «procedure»
@@ -9222,14 +9282,14 @@ cat:	body part
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{naD}
+tlh:	{naD} [1]
 pos:	verb
 sv:	«berömma», «lovorda», «rekommendera», «gilla», «samtycka», «bifalla»
 en:	<praise>, <commend>, <approve>
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{naD}
+tlh:	{naD} [2]
 pos:	noun
 sv:	¿?«rekommendation», «lovord», «befordran»
 en:	<commendation>
@@ -9276,14 +9336,14 @@ def:	KGT
 data:	phrase
 file:	1997-11-01-kgt.txt
 
-tlh:	{nagh} (1)
+tlh:	{nagh} [.1]
 pos:	noun
 sv:	«klippa», «sten»
 en:	<rock>, <stone>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{nagh} (2)
+tlh:	{nagh} [.2]
 pos:	noun
 sv:	«keramiskt material»
 en:	<ceramic material>
@@ -9390,7 +9450,22 @@ def:	KGT
 cat:	body part
 file:	1997-11-01-kgt.txt
 
-tlh:	{nan}
+tlh:	{nan} [1.1]
+pos:	verb
+sv:	«holka ur», «gröpa ur», «gräva ur»
+en:	<gouge>
+def:	KGT
+file:	1997-11-01-kgt.txt
+
+tlh:	{nan} [1.2]
+pos:	verb
+sv:	«använda» «fjärde«tå»n» [arkaiskt]
+en:	«use» the «fourth «toe»» [archaic]
+def:	HQ10:2 p.10
+cat:	body part
+file:	2001-06-holqed-10-2.txt
+
+tlh:	{nan} [2]
 pos:	noun
 sv:	ett slags kampsport«spark»
 en:	type of martial arts «kick»
@@ -9399,22 +9474,7 @@ ref:	TDNW
 cat:	fighting
 file:	2001-06-holqed-10-2.txt
 
-tlh:	{nan}
-pos:	verb
-sv:	«holka ur», «gröpa ur», «gräva ur»
-en:	<gouge>
-def:	KGT
-file:	1997-11-01-kgt.txt
-
-tlh:	{nan}
-pos:	verb
-sv:	«använda» «fjärde«tå»n» [arkaiskt]
-en:	«use» the «fourth «toe»» [archaic]
-def:	HQ10:2 p.10
-cat:	body part
-file:	2001-06-holqed-10-2.txt
-
-tlh:	{nanwI'} (1)
+tlh:	{nanwI'} [.1]
 pos:	noun
 sv:	«mejsel», «huggjärn»
 en:	<chisel>
@@ -9422,7 +9482,7 @@ def:	KGT
 data:	derived form
 file:	1997-11-01-kgt.txt
 
-tlh:	{nanwI'} (2)
+tlh:	{nanwI'} [.2]
 pos:	noun
 sv:	«fjärde«tå»»
 en:	«fourth «toe»»
@@ -9438,7 +9498,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{naQ}
+tlh:	[1] {naQ}
 pos:	verb
 sv:	vara «fullständig», vara «hel», vara «total», vara «komplett»
 en:	be <full>, be <whole>, be «entire», be <complete>
@@ -9447,14 +9507,14 @@ com:	Entries differ and have been combined here, and the word "be" was
 	also inserted before the adjectival "entire".
 file:	1992-01-01-tkd.txt
 
-tlh:	{naQ} (1)
+tlh:	[2] {naQ}
 pos:	noun
 sv:	«stav», «käpp»
 en:	<cain>, «staff»
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{naQ} (2)
+tlh:	[3] {naQ}
 pos:	noun
 sv:	«hästsvans» [slang]
 en:	<ponytail> [slang]
@@ -9477,7 +9537,7 @@ def:	KGT
 cat:	fighting
 file:	1997-11-01-kgt.txt
 
-tlh:	{nargh} (1)
+tlh:	{nargh} [.1]
 pos:	verb
 sv:	«dyka upp»
 en:	<appear>
@@ -9485,7 +9545,7 @@ def:	TKD
 ref:	TKW p.145
 file:	1992-01-01-tkd.txt
 
-tlh:	{nargh} (2)
+tlh:	{nargh} [.2]
 pos:	verb
 sv:	«fly», «rymma»
 en:	<escape>
@@ -9509,7 +9569,7 @@ ref:	TDNW
 see:	{tetlh}
 file:	2003-06-holqed-12-2.txt
 
-tlh:	{natlh} (1)
+tlh:	{natlh} [.1]
 pos:	verb
 sv:	«konsumera», «förtära», «förbruka»
 en:	<use> up, <consume>, <expend>
@@ -9518,7 +9578,7 @@ ref:	S33
 com:	S33 was reprinted in HQ6:2 p.9
 file:	1997-11-01-kgt.txt
 
-tlh:	{natlh} (2)
+tlh:	{natlh} [.2]
 pos:	verb
 sv:	vara «förkastlig», vara «äcklig», vara «vidrig», vara «usel», vara
 	«motbjudande» [slang]
@@ -9549,21 +9609,21 @@ en:	<squadron>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{naw'}
+tlh:	{naw'} [1]
 pos:	verb
 sv:	¿?«tillträda», «komma åt», ha tillgång till
 en:	«access»
 def:	TKD K-E
 file:	1992-01-01-tkd.txt
 
-tlh:	{naw'}
+tlh:	{naw'} [2]
 pos:	noun
 sv:	«tillträde», «åtkomst»
 en:	<access>
 def:	TKD E-K
 file:	1992-01-01-tkd.txt
 
-tlh:	{nay}
+tlh:	[1] {nay}
 pos:	verb
 sv:	«gifta» sig med (hustru gör detta)
 en:	<marry> (wife does this)
@@ -9574,7 +9634,7 @@ pun:	Okrand confirmed at {qep'a'} 1997 that {nay} came from "nay" (no).
 cat:	family
 file:	1992-01-01-tkd.txt
 
-tlh:	{nay}
+tlh:	[2] {nay}
 pos:	noun
 sv:	klingonskans «{n}»-ljud
 en:	Klingon ~«{n}»~ sound
@@ -9590,14 +9650,14 @@ def:	TKD
 ref:	TKW p.133
 file:	1992-01-01-tkd.txt
 
-tlh:	{na'} (1)
+tlh:	{na'} [.1]
 pos:	verb
 sv:	vara «saltsmakande», vara «bräckt»
 en:	be <salty>, be <brackish>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{na'} (2)
+tlh:	{na'} [.2]
 pos:	verb
 sv:	vara «säker», vara helt säker, vara «viss» [slang]
 en:	be <sure>, be <definite>, be <positive>, be <certain> [slang]
@@ -9634,16 +9694,7 @@ def:	TKD
 see:	{mang} is the singular form
 file:	1992-01-01-tkd.txt
 
-tlh:	{neH}
-pos:	verb
-sv:	«önska», «vilja», «vilja ha»
-en:	<want>, «desire»
-def:	TKD; TKW p.149
-ref:	TKW p.185
-data:	KLCP-1
-file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
-
-tlh:	{neH}
+tlh:	[1] {neH}
 pos:	adverbial
 sv:	«bara», «enbart», «endast» (kommer efter verb eller substantiv)
 en:	<only>, <merely>, <just>, «alone»
@@ -9654,6 +9705,15 @@ ref:	TKW pp.21, 61, 81, 105, 111, 113, 115, 191
 com:	Follows the verb or noun it modifies. When following a noun it means
 	"only, alone".
 file:	1992-01-01-tkd.txt
+
+tlh:	[2] {neH}
+pos:	verb
+sv:	«önska», «vilja», «vilja ha»
+en:	<want>, «desire»
+def:	TKD; TKW p.149
+ref:	TKW p.185
+data:	KLCP-1
+file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
 tlh:	*{neHjej}
 warn:	incorrect form of {naHjej}
@@ -9705,7 +9765,7 @@ def:	TKD
 cat:	time
 file:	1992-01-01-tkd.txt
 
-tlh:	{nen}
+tlh:	{nen} [1]
 pos:	verb
 sv:	vara «mogen», vara «vuxen»
 en:	be <mature>, be <grown-up>, be <adult>
@@ -9713,7 +9773,7 @@ def:	KGT
 ref:	TKW p.177
 file:	1997-11-01-kgt.txt
 
-tlh:	{nen}
+tlh:	{nen} [2]
 pos:	noun
 sv:	«mognad», «vuxenhet»
 en:	<growth>, <maturation>
@@ -9859,14 +9919,14 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{nIH}
+tlh:	[1] {nIH}
 pos:	verb
 sv:	«stjäla»
 en:	<steal>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{nIH}
+tlh:	[2] {nIH}
 pos:	noun
 sv:	«höger» (sida)
 en:	<right> (side)
@@ -10054,7 +10114,7 @@ def:	KGT
 data:	phrase
 file:	1997-11-01-kgt.txt
 
-tlh:	{nItlhpach} (1)
+tlh:	{nItlhpach} [.1]
 pos:	noun
 sv:	«fingernagel»
 en:	<fingernail>
@@ -10062,7 +10122,7 @@ def:	TKDa
 cat:	body part
 file:	1992-01-01-tkd.txt
 
-tlh:	{nItlhpach} (2)
+tlh:	{nItlhpach} [.2]
 pos:	noun
 sv:	platt «ände på pigmentpinne»
 en:	flat <end of pigment stick>
@@ -10120,7 +10180,7 @@ def:	TKD
 com:	The word "be" was inserted before the adjectival "lengthy".
 file:	1992-01-01-tkd.txt
 
-tlh:	{nob}
+tlh:	{nob} [1]
 pos:	verb
 sv:	«ge»
 en:	<give>
@@ -10129,7 +10189,7 @@ cat:	money
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{nob}
+tlh:	{nob} [2]
 pos:	noun
 sv:	«gåva»
 en:	<gift>
@@ -10170,7 +10230,7 @@ en:	«writhe»
 def:	TKD K-E
 file:	1992-01-01-tkd.txt
 
-tlh:	{noH}
+tlh:	[1] {noH}
 pos:	verb
 sv:	«bedömma», «uppskatta»
 en:	<judge>, <estimate>
@@ -10178,7 +10238,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{noH}
+tlh:	[2] {noH}
 pos:	noun
 sv:	«krig» (ett enskilt krig)
 en:	<war> (an individual war)
@@ -10302,14 +10362,14 @@ en:	be <obsolete>
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{nov}
+tlh:	{nov} [1]
 pos:	verb
 sv:	vara «främmande», vara «okänd»
 en:	be <foreign>, be «alien»
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{nov}
+tlh:	{nov} [2]
 pos:	noun
 sv:	«främling», «utlänning», «outsider»
 en:	<alien>, <foreigner>, <outsider>
@@ -10412,7 +10472,7 @@ pun:	{SuSvaj} happened to be sitting next to Okrand at {qep'a' wejDIch}
 	which." (SuStel)
 file:	1997-11-01-kgt.txt
 
-tlh:	{nuH} (1)
+tlh:	{nuH} [.1]
 pos:	noun
 sv:	«vapen»
 en:	<weapon>
@@ -10422,7 +10482,7 @@ cat:	fighting
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{nuH} (2)
+tlh:	{nuH} [.2]
 pos:	noun
 sv:	«möjlighet»
 en:	<possibility>
@@ -10687,7 +10747,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{ngat} (1)
+tlh:	{ngat} [.1]
 pos:	noun
 sv:	«krut»
 en:	<gunpowder>
@@ -10695,7 +10755,7 @@ def:	TKD
 cat:	fighting
 file:	1992-01-01-tkd.txt
 
-tlh:	{ngat} (2)
+tlh:	{ngat} [.2]
 pos:	noun
 sv:	örtkryddat kornat «brosk» (för matberedning)
 en:	herbed granulated <cartilage> (for food preparation)
@@ -10747,7 +10807,7 @@ ref:	TKW p.35
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{ngech} (1)
+tlh:	{ngech} [.1]
 pos:	noun
 sv:	«dal»
 en:	<valley>
@@ -10755,7 +10815,7 @@ def:	TKD
 cat:	landscape
 file:	1992-01-01-tkd.txt
 
-tlh:	{ngech} (2)
+tlh:	{ngech} [.2]
 pos:	noun
 sv:	«springa» mellan kvinnas bröst
 en:	woman's «cleavage»
@@ -10970,14 +11030,14 @@ com:	"Maltz first said, as did you, that Klingons don't have pillows and he
 data:	phrase; derived form
 file:	2010-12-07-email.txt; 2010-12-25-email.txt
 
-tlh:	{ngoH} (1)
+tlh:	{ngoH} [.1]
 pos:	verb
 sv:	«kleta», «smeta», «bestryka»
 en:	<smear>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{ngoH} (2)
+tlh:	{ngoH} [.2]
 pos:	verb
 sv:	«måla» med fingrarna
 en:	<paint> using fingers
@@ -10999,14 +11059,14 @@ def:	KGT
 cat:	fighting
 file:	1997-11-01-kgt.txt
 
-tlh:	{ngong}
+tlh:	{ngong} [1]
 pos:	verb
 sv:	«experimentera»
 en:	<experiment>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{ngong}
+tlh:	{ngong} [2]
 pos:	noun
 sv:	«experiment»
 en:	<experiment>
@@ -11112,7 +11172,7 @@ def:	HQ10:4 p.5
 com:	If bird lands on land, use {Saq}, on water, use {tlhot}.
 file:	2001-12-holqed-10-4.txt
 
-tlh:	{ngup} (1)
+tlh:	{ngup} [.1]
 pos:	noun
 sv:	¿?«cape» (klädesplagg)
 en:	<cape> (clothing)
@@ -11120,7 +11180,7 @@ def:	TKD
 cat:	clothing
 file:	1992-01-01-tkd.txt
 
-tlh:	{ngup} (2)
+tlh:	{ngup} [.2]
 pos:	noun
 sv:	«auktoritet», «befogenhet», «makt», någon med auktoritet eller i
 	ledarposition [slang]
@@ -11167,7 +11227,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{pab}
+tlh:	{pab} [1]
 pos:	verb
 sv:	«följa» (regler)
 en:	<follow> (rules)
@@ -11176,7 +11236,7 @@ ref:	TKW p.47
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{pab}
+tlh:	{pab} [2]
 pos:	noun
 sv:	«grammatik»
 en:	<grammar>
@@ -11200,16 +11260,15 @@ def:	TKDa; HQ10:4 p.5
 ref:	TKW p.185
 file:	1992-01-01-tkd.txt; 2001-12-holqed-10-4.txt
 
-tlh:	{pagh}
-pos:	noun
-sv:	«ingenting», «inget», «ingen»
-en:	<nothing>, <none>, <no one>
-def:	TKD; KGT
-ref:	TKW pp.139, 201
-data:	KLCP-1
-file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
+tlh:	[1] {pagh}
+pos:	conjuction
+sv:	«eller», antingen eller (kommer mellan förenade meningar)
+en:	<or>, either/or
+desc:	comes between joined sentences
+def:	TKD 5.3 (p.55)
+file:	1992-01-01-tkd.txt
 
-tlh:	{pagh}
+tlh:	[2] {pagh} [1]
 pos:	numeral
 sv:	«noll»
 en:	<zero>
@@ -11217,13 +11276,14 @@ def:	TKD
 cat:	math
 file:	1992-01-01-tkd.txt
 
-tlh:	{pagh}
-pos:	conjuction
-sv:	«eller», antingen eller (kommer mellan förenade meningar)
-en:	<or>, either/or
-desc:	comes between joined sentences
-def:	TKD 5.3 (p.55)
-file:	1992-01-01-tkd.txt
+tlh:	[2] {pagh} [2]
+pos:	noun
+sv:	«ingenting», «inget», «ingen»
+en:	<nothing>, <none>, <no one>
+def:	TKD; KGT
+ref:	TKW pp.139, 201
+data:	KLCP-1
+file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{paghDIch}
 pos:	numeral
@@ -11360,14 +11420,14 @@ ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
 file:	2011-10-31-email.txt
 
-tlh:	{patlh} (1)
+tlh:	{patlh} [.1]
 pos:	noun
 sv:	«rang», «grad» (i regering och militär)
 en:	<rank> (military, governmental)
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{patlh} (2)
+tlh:	{patlh} [.2]
 pos:	noun
 sv:	«nivå», «ställning», «status», «anseende»
 en:	<level>, <layer>, <standing>
@@ -11389,7 +11449,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{paw'} (1)
+tlh:	{paw'} [.1]
 pos:	verb
 sv:	«kollidera», «krocka»
 en:	<collide>
@@ -11397,14 +11457,14 @@ def:	TKD
 pun:	Like "arrive" {paw}, only a bit more abrupt.
 file:	1992-01-01-tkd.txt
 
-tlh:	{paw'} (2)
+tlh:	{paw'} [.2]
 pos:	verb
 sv:	«skallas», «stångas» (panna mot panna) [slang]
 en:	<butt «head»s> [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{pay}
+tlh:	[1] {pay}
 pos:	verb
 sv:	«ångra»
 en:	<regret>
@@ -11412,7 +11472,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{pay}
+tlh:	[2] {pay}
 pos:	noun
 sv:	klingonskans «{p}»-ljud
 en:	Klingon ~«{p}»~ sound
@@ -11427,15 +11487,7 @@ en:	<suddenly>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{pa'} (1)
-pos:	noun
-sv:	«rum», «kammare»
-en:	<room>, «chamber»
-def:	TKD; BoP
-data:	KLCP-1
-file:	1992-01-01-tkd.txt; 1998-11-01-bop.txt
-
-tlh:	{pa'} (2)
+tlh:	[1] {pa'}
 pos:	noun
 sv:	«där», där borta, däromkring
 en:	<there>, over there, thereabouts
@@ -11446,7 +11498,15 @@ cat:	locative
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{pa'} (3)
+tlh:	[2] {pa'} [.1]
+pos:	noun
+sv:	«rum», «kammare»
+en:	<room>, «chamber»
+def:	TKD; BoP
+data:	KLCP-1
+file:	1992-01-01-tkd.txt; 1998-11-01-bop.txt
+
+tlh:	[2] {pa'} [.2]
 pos:	noun
 sv:	«inhägnat område» [slang]
 en:	<enclosed area> [slang]
@@ -11488,16 +11548,7 @@ def:	TKD
 cat:	landscape
 file:	1992-01-01-tkd.txt
 
-tlh:	{pegh} (1)
-pos:	verb
-sv:	«hålla» något «hemligt»
-en:	«keep» something <secret>
-def:	TKD
-ref:	CK; PK
-data:	KLCP-1
-file:	1992-01-01-tkd.txt; 1992-10-01-ck.txt; 1993-10-01-pk.txt
-
-tlh:	{pegh} (2)
+tlh:	{pegh} [1.1]
 pos:	verb
 sv:	vara «hemlig»
 en:	be «secret»
@@ -11507,7 +11558,16 @@ com:	PK: "'I have secret information, you will find it useful.'
 	{De' pegh vIghajlI' 'e' Datu'.}"
 file:	1992-10-01-ck.txt; 1993-10-01-pk.txt
 
-tlh:	{pegh}
+tlh:	{pegh} [1.2]
+pos:	verb
+sv:	«hålla» något «hemligt»
+en:	«keep» something <secret>
+def:	TKD
+ref:	CK; PK
+data:	KLCP-1
+file:	1992-01-01-tkd.txt; 1992-10-01-ck.txt; 1993-10-01-pk.txt
+
+tlh:	{pegh} [2]
 pos:	noun
 sv:	«hemlighet»
 en:	<secret>
@@ -11590,7 +11650,7 @@ def:	TKDa
 data:	phrase; {chem} (n)
 file:	1992-01-01-tkd.txt
 
-tlh:	{per}
+tlh:	{per} [1]
 pos:	verb
 sv:	«beteckna», «fastställa», «specificera», «namnge», ge «namn» åt/till
 en:	<label>, «ascertain», «specify»
@@ -11599,7 +11659,7 @@ com:	¿?What does this word really mean? (Check swedish translation.)
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1999-02-02-email.txt
 
-tlh:	{per}
+tlh:	{per} [2]
 pos:	noun
 sv:	«etikett», «namn»
 en:	<label>
@@ -11669,7 +11729,7 @@ def:	KGT
 ref:	TKW p.135
 file:	1997-11-01-kgt.txt
 
-tlh:	{pIch}
+tlh:	{pIch} [1]
 pos:	verb
 sv:	«skylla på»
 en:	<blame>
@@ -11677,7 +11737,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{pIch}
+tlh:	{pIch} [2]
 pos:	noun
 sv:	«fel», «skuld»
 en:	<fault>, <blame>
@@ -11698,7 +11758,7 @@ en:	<ruins>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{pIH} (1)
+tlh:	[1] {pIH}
 pos:	verb
 sv:	«förvänta» sig
 en:	<expect>
@@ -11706,7 +11766,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{pIH} (2)
+tlh:	[2] {pIH}
 pos:	verb
 sv:	vara «misstänksam»
 en:	be <suspicious>
@@ -11760,7 +11820,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{pIn} (1)
+tlh:	{pIn} [.1]
 pos:	noun
 sv:	«chef»
 en:	<boss>
@@ -11768,7 +11828,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{pIn} (2)
+tlh:	{pIn} [.2]
 pos:	noun
 sv:	«expert», «auktoritet» [slang]
 en:	<expert>, <authority> [slang]
@@ -11953,7 +12013,7 @@ def:	TKD
 cat:	clothing
 file:	1992-01-01-tkd.txt
 
-tlh:	{poH}
+tlh:	{poH} [1]
 pos:	verb
 sv:	«klocka», «ta tid på», bestämma tid för
 en:	<time>
@@ -11961,7 +12021,7 @@ def:	TKD
 cat:	time
 file:	1992-01-01-tkd.txt
 
-tlh:	{poH}
+tlh:	{poH} [2]
 pos:	noun
 sv:	«tid», «tidsperiod»
 en:	period of <time>
@@ -11970,7 +12030,7 @@ cat:	time
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{poj}
+tlh:	{poj} [1]
 pos:	verb
 sv:	«analysera»
 en:	<analyze>
@@ -11978,7 +12038,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{poj}
+tlh:	{poj} [2]
 pos:	noun
 sv:	«analys»
 en:	<analysis>
@@ -12015,14 +12075,14 @@ en:	<persuade>, <convince>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{pong}
+tlh:	{pong} [1]
 pos:	verb
 sv:	«kalla» (för), «heta»
 en:	<name>, <call>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{pong}
+tlh:	{pong} [2]
 pos:	noun
 sv:	«namn»
 en:	<name>
@@ -12102,7 +12162,7 @@ ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 cat:	country
 file:	2011-10-29-email.txt
 
-tlh:	{poS}
+tlh:	[1] {poS}
 pos:	verb
 sv:	vara «öppen», vara «öppnad»
 en:	be <open>, be opened
@@ -12111,7 +12171,7 @@ com:	The word "be" was inserted before the adjectival "opened".
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{poS}
+tlh:	[2] {poS}
 pos:	noun
 sv:	«vänster» (sida)
 en:	<left> (side)
@@ -12127,14 +12187,14 @@ def:	TKD
 data:	derived form
 file:	1992-01-01-tkd.txt
 
-tlh:	{potlh}
+tlh:	{potlh} [1]
 pos:	verb
 sv:	vara «viktig»
 en:	be <important>
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{potlh}
+tlh:	{potlh} [2]
 pos:	noun
 sv:	«betydelsefullt ting», något viktigt, «viktig sak»
 en:	<consequential thing>, something important, <important thing>
@@ -12142,14 +12202,14 @@ def:	TKD
 ref:	TKW pp.53, 135
 file:	1992-01-01-tkd.txt
 
-tlh:	{pov}
+tlh:	[1] {pov}
 pos:	verb
 sv:	vara «utmärkt», vara «förträfflig»
 en:	be <excellent>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{pov}
+tlh:	[2] {pov}
 pos:	noun
 sv:	«eftermiddag»
 en:	<afternoon>
@@ -12228,26 +12288,26 @@ def:	TKD K-E; TKW p.24
 data:	derived form
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
-tlh:	{pum} (1)
+tlh:	[1] {pum} [1]
 pos:	verb
 sv:	«anklaga»
 en:	<accuse>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{pum} (2)
+tlh:	[1] {pum} [2]
+pos:	noun
+sv:	«anklagelse»
+en:	<accusation>
+def:	TKD
+file:	1992-01-01-tkd.txt
+
+tlh:	[2] {pum}
 pos:	verb
 sv:	«falla»
 en:	<fall>
 def:	TKD
 data:	KLCP-1
-file:	1992-01-01-tkd.txt
-
-tlh:	{pum}
-pos:	noun
-sv:	«anklagelse»
-en:	<accusation>
-def:	TKD
 file:	1992-01-01-tkd.txt
 
 tlh:	{pummoH}
@@ -12266,7 +12326,7 @@ def:	TKD
 ref:	TKW p.119
 file:	1992-01-01-tkd.txt
 
-tlh:	{pup} (1)
+tlh:	[1] {pup}
 pos:	verb
 sv:	vara «perfekt», vara «exakt»
 en:	be <perfect>, be <exact>
@@ -12278,7 +12338,7 @@ com:	Entries differ and have been combined here.
 	(lit. "Inexact data transmission").
 file:	1992-01-01-tkd.txt
 
-tlh:	{pup} (2)
+tlh:	[2] {pup}
 pos:	verb
 sv:	«sparka»
 en:	<kick>
@@ -12383,7 +12443,7 @@ def:	HQ12:4 p.8
 ref:	TDNW
 file:	2003-12-holqed-12-4.txt
 
-tlh:	{puS} (1)
+tlh:	[1] {puS}
 pos:	verb
 sv:	vara «få», vara «några», vara en «handfull»
 en:	be <few>, be <several>, be a <handful>
@@ -12392,7 +12452,7 @@ ref:	TKW pp.35, 53, 95, 179, 185
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{puS} (2)
+tlh:	[2] {puS}
 pos:	verb
 sv:	«sikta» (med vapensikte)
 en:	<sight> (with gunsight)
@@ -12493,7 +12553,7 @@ com:	Marc said that {pu'jIn} is a pun/joke, but it was a personal reference
 	we'd get. (Tad, email to tlhingan-hol 3 August 2007)
 file:	2007-08-02b-email.txt; 2007-08-03-email.txt; 2009-11-24-email.txt
 
-tlh:	{qab}
+tlh:	[1] {qab}
 pos:	verb
 sv:	vara «dålig»
 en:	be <bad>
@@ -12501,7 +12561,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{qab}
+tlh:	[2] {qab}
 pos:	noun
 sv:	«ansikte»
 en:	<face>
@@ -12520,42 +12580,42 @@ def:	TKD; TKW p.111
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
-tlh:	{qaD} (1)
+tlh:	{qaD} [1.1]
 pos:	verb
 sv:	«utmana», «möta»
 en:	<challenge>, «face»
 def:	TKDa; TKW p.37
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
-tlh:	{qaD} (2)
+tlh:	{qaD} [1.2]
 pos:	verb
 sv:	«motsätta» sig, «motarbeta», «bekämpa», «konfrontera», «bemöta»
 en:	<resist>, <oppose>, <confront>, <face>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{qaD} (1)
+tlh:	{qaD} [2.1]
 pos:	noun
 sv:	«utmaning»
 en:	<challenge>
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{qaD} (2)
+tlh:	{qaD} [2.2]
 pos:	noun
 sv:	«test» av ens förmågor
 en:	<test> of one's abilities
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{qagh}
+tlh:	[1] {qagh}
 pos:	verb
 sv:	«avbryta», «hålla upp»
 en:	<interrupt>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{qagh}
+tlh:	[2] {qagh}
 pos:	noun
 sv:	«orm-mask» (som mat), «~gagh~»
 en:	<serpent worm> (as food), «~gagh~»
@@ -12639,7 +12699,7 @@ en:	«Kahmor»
 def:	KGT p.198
 file:	1997-11-01-kgt.txt
 
-tlh:	{qan} (1)
+tlh:	[1] {qan}
 pos:	verb
 sv:	vara «gammal» (inte ung)
 en:	be <old> (not young)
@@ -12648,7 +12708,7 @@ ref:	TKW pp.29, 117
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{qan} (2)
+tlh:	[2] {qan}
 pos:	verb
 sv:	¿?«använda» «lill«fingret»»
 en:	«use» the «pinky» («little «finger»»)
@@ -12675,7 +12735,14 @@ def:	HQ10:2 p.7
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
-tlh:	{qang} (1)
+tlh:	{qang} [.1]
+pos:	verb
+sv:	«hälla» (från en behållare till en annan)
+en:	<pour> (from one container into another)
+def:	KGT
+file:	1997-11-01-kgt.txt
+
+tlh:	{qang} [.2]
 pos:	verb
 sv:	rutinmässigt «hålla med», alltid hålla med, alltid samarbeta med,
 	rutinmässigt «samarbeta» med [slang]
@@ -12683,13 +12750,6 @@ en:	<agree> with routinely, always agree with, always cooperate with,
 	<cooperate> with routinely [slang]
 def:	KGT
 com:	Entries differ and have been combined here.
-file:	1997-11-01-kgt.txt
-
-tlh:	{qang} (2)
-pos:	verb
-sv:	«hälla» (från en behållare till en annan)
-en:	<pour> (from one container into another)
-def:	KGT
 file:	1997-11-01-kgt.txt
 
 tlh:	{qap}
@@ -12763,14 +12823,14 @@ ref:	TKW pp.127, 155
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{qat} (1)
+tlh:	{qat} [.1]
 pos:	verb
 sv:	«svepa in», «omsvepa», «innesluta»
 en:	«wrap», <encase>
 def:	TKD K-E; KGT
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
-tlh:	{qat} (2)
+tlh:	{qat} [.2]
 pos:	verb
 sv:	«ackompanjera» (sång) med instrumental musik
 en:	<accompany> (singing) with instrumental music
@@ -12810,7 +12870,7 @@ def:	TKD
 data:	derived form
 file:	1992-01-01-tkd.txt
 
-tlh:	{qay}
+tlh:	[1] {qay}
 pos:	verb
 sv:	¿?«använda» «lång«fingret»»
 en:	«use» the «middle «finger»» («second finger»)
@@ -12818,7 +12878,7 @@ def:	HQ10:2 p.7
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
-tlh:	{qay}
+tlh:	[2] {qay}
 pos:	noun
 sv:	klingonskans «{q}»-ljud
 en:	Klingon ~«{q}»~ sound
@@ -13022,7 +13082,7 @@ def:	News 1999-02-02
 cat:	time
 file:	1999-02-02-email.txt
 
-tlh:	{qeng}
+tlh:	[1] {qeng}
 pos:	verb
 sv:	«bära», «medföra», «forsla»
 en:	<carry>, <convey>
@@ -13030,7 +13090,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{qeng}
+tlh:	[2] {qeng}
 pos:	name
 sv:	«Kang»
 en:	«Kang»
@@ -13047,7 +13107,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{qeq}
+tlh:	{qeq} [1]
 pos:	verb
 sv:	«öva», «träna», «förbereda»
 en:	<practice>, <train>, <prepare>
@@ -13055,14 +13115,14 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{qeq}
+tlh:	{qeq} [2]
 pos:	noun
 sv:	«övning»
 en:	<drill> (military)
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{qeS}
+tlh:	{qeS} [1]
 pos:	verb
 sv:	«råda», ge råd
 en:	<advise>
@@ -13070,7 +13130,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{qeS}
+tlh:	{qeS} [2]
 pos:	noun
 sv:	«råd»
 en:	<advice>
@@ -13103,20 +13163,20 @@ com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{qev}
+tlh:	{qev} [1]
+pos:	verb
+sv:	«trängas», «fylla» (med personer)
+en:	<crowd>
+def:	TKD
+file:	1992-01-01-tkd.txt
+
+tlh:	{qev} [2]
 pos:	noun
 sv:	«folk«samling»», «folkmassa»
 en:	«crowd»
 def:	HQ4:4 p.11
 com:	Synonymous to {ghom'a'}.
 file:	1995-12-holqed-04-4.txt
-
-tlh:	{qev}
-pos:	verb
-sv:	«trängas», «fylla» (med personer)
-en:	<crowd>
-def:	TKD
-file:	1992-01-01-tkd.txt
 
 tlh:	{qevaS}
 pos:	noun
@@ -13206,7 +13266,7 @@ en:	<condemn>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{qID}
+tlh:	{qID} [1]
 pos:	verb
 sv:	«skämta», berätta ett skämt
 en:	<joke>, make a joke, tell a joke
@@ -13214,7 +13274,7 @@ def:	KGT
 pun:	{qID} pronunced as English "kid".
 file:	1997-11-01-kgt.txt
 
-tlh:	{qID}
+tlh:	{qID} [2]
 pos:	noun
 sv:	«skämt»
 en:	<joke>
@@ -13368,14 +13428,14 @@ def:	KGT
 cat:	locative
 file:	1997-11-01-kgt.txt
 
-tlh:	{qogh} (1)
+tlh:	[1] {qogh}
 pos:	noun
 sv:	«bälte»
 en:	<belt>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{qogh} (2)
+tlh:	[2] {qogh}
 pos:	noun
 sv:	«öra» (utvärtes broskflik)
 en:	<ear> (external, cartilaginous flap)
@@ -13393,21 +13453,21 @@ ref:	TKW pp.105, 107, 111, 113, 115, 117
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{qoj}
-pos:	noun
-sv:	«stup», brant «klippa»
-en:	<cliff>
-def:	TKD
-cat:	landscape
-file:	1992-01-01-tkd.txt
-
-tlh:	{qoj}
+tlh:	[1] {qoj}
 pos:	conjuction
 sv:	«eller», och/eller (kommer mellan förenade meningar)
 en:	<or>, and/or
 desc:	comes between joined sentences
 def:	TKD 5.3 (p.55)
 ref:	TKW p.139
+file:	1992-01-01-tkd.txt
+
+tlh:	[2] {qoj}
+pos:	noun
+sv:	«stup», brant «klippa»
+en:	<cliff>
+def:	TKD
+cat:	landscape
 file:	1992-01-01-tkd.txt
 
 tlh:	{qolotlh}
@@ -13436,14 +13496,14 @@ pun:	"Compost" it probably looks like one too (with all mashed up pieces
 	of food).
 file:	1997-11-01-kgt.txt
 
-tlh:	{qon} (1)
+tlh:	{qon} [.1]
 pos:	verb
 sv:	«nedteckna», «spela in» (all slags inspelning och skrift)
 en:	<record> (every kind of recording or writing)
 def:	TKD; TKW p.179
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
-tlh:	{qon} (2)
+tlh:	{qon} [.2]
 pos:	verb
 sv:	«komponera»
 en:	<compose>
@@ -13473,14 +13533,14 @@ en:	<robot>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{qor}
+tlh:	[1] {qor}
 pos:	verb
 sv:	«rota» efter, «rensa», «rengöra»
 en:	<scavenge>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{qor}
+tlh:	[2] {qor}
 pos:	name
 sv:	«Kor»
 en:	«Kor»
@@ -13513,7 +13573,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{qotlh} (1)
+tlh:	[1] {qotlh}
 pos:	verb
 sv:	«kittla»
 en:	<tickle>
@@ -13521,7 +13581,7 @@ def:	TKD
 ref:	TKW p.131
 file:	1992-01-01-tkd.txt
 
-tlh:	{qotlh} (2)
+tlh:	[2] {qotlh}
 pos:	verb
 sv:	¿?«förtjäna», vara «värd», «rättfärdiga», «försvara»
 en:	<deserve>, <warrant>
@@ -13648,14 +13708,14 @@ def:	KCD
 data:	phrase
 file:	1996-04-kcd.txt
 
-tlh:	{qum}
+tlh:	{qum} [1]
 pos:	verb
 sv:	«regera»
 en:	<govern>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{qum}
+tlh:	{qum} [2]
 pos:	noun
 sv:	«regering»
 en:	<government>
@@ -13670,14 +13730,14 @@ def:	TKDa
 data:	derived form
 file:	1992-01-01-tkd.txt
 
-tlh:	{qun}
+tlh:	[1] {qun}
 pos:	verb
 sv:	«skälla ut», «gräla» på
 en:	<scold>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{qun}
+tlh:	[2] {qun}
 pos:	noun
 sv:	«historia»
 en:	<history>
@@ -13772,7 +13832,7 @@ en:	be <cheap>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{quv}
+tlh:	{quv} [1]
 pos:	verb
 sv:	vara «ärad», vara «hedrad»
 en:	be <honored>, be «honorable»
@@ -13786,7 +13846,7 @@ see:	{batlh}; {HoQ} "be honored falsely, be falsely honorable" (v)
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{quv}
+tlh:	{quv} [2]
 pos:	noun
 sv:	«ära»
 en:	<honor>
@@ -13845,14 +13905,14 @@ ref:	TDNW
 see:	{'em}
 file:	2003-12-holqed-12-4.txt
 
-tlh:	{qu'} (1)
+tlh:	{qu'} [.1]
 pos:	verb
 sv:	vara «vildsint», vara «häftig», vara «våldsam»
 en:	be <fierce>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{qu'} (2)
+tlh:	{qu'} [.2]
 pos:	verb
 sv:	vara «storslagen», vara «underbar», vara «utmärkt», vara «bra» [slang]
 en:	be <great>, be <wonderful>, be <excellent>, be <splendid>, be <good>
@@ -13877,7 +13937,7 @@ def:	KGT
 cat:	fighting
 file:	1997-11-01-kgt.txt
 
-tlh:	{QaD} (1)
+tlh:	{QaD} [.1]
 pos:	verb
 sv:	vara «torr», vara «uttorkad»
 en:	be <dry>, be <dried> out
@@ -13885,14 +13945,14 @@ def:	TKD; KGT
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
-tlh:	{QaD} (2)
+tlh:	{QaD} [.2]
 pos:	verb
 sv:	vara «säker», vara «skyddad» [slang]
 en:	be <safe>, be <protected> [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{Qagh}
+tlh:	{Qagh} [1]
 pos:	verb
 sv:	ha «fel», ta fel, «misstaga» sig, göra ett misstag
 en:	<err>, be mistaken, make a <mistake>
@@ -13900,7 +13960,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{Qagh}
+tlh:	{Qagh} [2]
 pos:	noun
 sv:	«fel», «misstag»
 en:	<error>, <mistake>
@@ -13908,7 +13968,7 @@ def:	TKD
 ref:	TKW p.212
 file:	1992-01-01-tkd.txt
 
-tlh:	{QaH}
+tlh:	{QaH} [1]
 pos:	verb
 sv:	«hjälpa», «bistå»
 en:	<help>, <aid>
@@ -13916,7 +13976,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{QaH}
+tlh:	{QaH} [2]
 pos:	noun
 sv:	«hjälp»
 en:	<help>
@@ -13962,7 +14022,7 @@ en:	<chancellor>
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{Qap} (1)
+tlh:	{Qap} [.1]
 pos:	verb
 sv:	«lyckas», «fungera», vara i «funktion»
 en:	<work>, <function>, <succeed>, <operate>, be in operation
@@ -13971,7 +14031,7 @@ ref:	TKW pp.56, 73, 175, 183, 209, 211
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
-tlh:	{Qap} (2)
+tlh:	{Qap} [.2]
 pos:	verb
 sv:	«vinna» (en tävlan)
 en:	<win> (a competition)
@@ -14021,14 +14081,14 @@ en:	<fissure>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{QaS}
+tlh:	[1] {QaS}
 pos:	noun
 sv:	«trupper»
 en:	<troops>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{QaS}
+tlh:	[2] {QaS}
 pos:	name
 sv:	«Kras»
 en:	«Kras»
@@ -14042,7 +14102,7 @@ en:	be <popular>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Qatlh} (1)
+tlh:	{Qatlh} [.1]
 pos:	verb
 sv:	vara «svår»
 en:	be <difficult>
@@ -14050,7 +14110,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{Qatlh} (2)
+tlh:	{Qatlh} [.2]
 pos:	verb
 sv:	vara «komplex», vara «komplicerad»
 en:	be <complex>
@@ -14077,14 +14137,14 @@ com:	Incorrectly listed as noun in K-E (noted in HQ4:1 p.7 and verified as a
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{Qay}
+tlh:	{Qay} [1]
 pos:	verb
 sv:	«överföra»
 en:	<transfer>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Qay}
+tlh:	{Qay} [2]
 pos:	noun
 sv:	klingonskans «{Q}»-ljud
 en:	Klingon ~«{Q}»~ sound
@@ -14092,7 +14152,7 @@ def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 file:	2009-07-27-email.txt
 
-tlh:	{Qay'}
+tlh:	{Qay'} [.1]
 pos:	verb
 sv:	förlora «besinningen», tappa «behärskningen», tappa «humöret», bli
 	«ursinning», bli «rasande»
@@ -14100,7 +14160,7 @@ en:	<blow> one's top, «lose» one's «temper»
 def:	TKD; HQ10:2 p.11
 file:	1992-01-01-tkd.txt; 2001-06-holqed-10-2.txt
 
-tlh:	{Qay'}
+tlh:	{Qay'} [.2]
 pos:	verb
 sv:	«använda» «lill«tå»n» («femtetå»n) [arkaiskt]
 en:	«use» the «little «toe»» («fifth toe») [archaic]
@@ -14146,14 +14206,14 @@ def:	KGT
 com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
 
-tlh:	{Qeb} (1)
+tlh:	{Qeb} [.1]
 pos:	noun
 sv:	«ring» (för finger)
 en:	<ring> (for finger)
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Qeb} (2)
+tlh:	{Qeb} [.2]
 pos:	noun
 sv:	«hästsvanshållare» [slang]
 en:	<ponytail holder> [slang]
@@ -14176,7 +14236,7 @@ en:	<science officer>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{QeH}
+tlh:	{QeH} [1]
 pos:	verb
 sv:	vara «vred», vara «arg»
 en:	be <angry>, be <mad>
@@ -14184,7 +14244,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{QeH}
+tlh:	{QeH} [2]
 pos:	noun
 sv:	«vrede», «ilska»
 en:	<anger>
@@ -14192,7 +14252,7 @@ def:	TKD
 ref:	TKW p.196
 file:	1992-01-01-tkd.txt
 
-tlh:	{Qel}
+tlh:	[1] {Qel}
 pos:	noun
 sv:	«doktor», «läkare»
 en:	<doctor>, <physician>
@@ -14200,7 +14260,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{Qel}
+tlh:	[2] {Qel}
 pos:	name
 sv:	«Krell»
 en:	«Krell»
@@ -14307,7 +14367,7 @@ en:	Klingon <agonizer>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{QIH} (1)
+tlh:	{QIH} [1.1]
 pos:	verb
 sv:	«skada», orsaka skada
 en:	<damage>, cause damage
@@ -14315,14 +14375,14 @@ def:	TKD
 ref:	TKW p.131
 file:	1992-01-01-tkd.txt
 
-tlh:	{QIH} (2)
+tlh:	{QIH} [1.2]
 pos:	verb
 sv:	göra «orätt» (mot), behandla «oschyst»
 en:	<wrong>, <treat unjustly>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{QIH}
+tlh:	{QIH} [2]
 pos:	noun
 sv:	«skada», «förstörelse»
 en:	<damage>, <destruction>
@@ -14344,14 +14404,14 @@ en:	<egg>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{QIn} (1)
+tlh:	{QIn} [.1]
 pos:	noun
 sv:	«meddelande»
 en:	<message>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{QIn} (2)
+tlh:	{QIn} [.2]
 pos:	noun
 sv:	«vass spets» (t.ex. på penna), «spjut«spets»»
 en:	«sharp end» (e.g. on pen), <spearhead>
@@ -14476,7 +14536,7 @@ com:	KCD: Vulgar Klingon expression; one of the strongest, most
 	foul Klingon expressions; it defies translation.
 file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
 
-tlh:	{Qob}
+tlh:	{Qob} [1]
 pos:	verb
 sv:	vara «farlig»
 en:	be <dangerous>
@@ -14484,7 +14544,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{Qob}
+tlh:	{Qob} [2]
 pos:	noun
 sv:	«fara»
 en:	<danger>
@@ -14543,7 +14603,7 @@ en:	<beam> away
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{Qom} (1)
+tlh:	{Qom} [.1]
 pos:	verb
 sv:	uppleva ett «jordskred» eller «skalv»
 en:	experience an <earthquake> or <tremor>
@@ -14551,7 +14611,7 @@ def:	TKD
 com:	Entries differ in source. K-E entry is used here.
 file:	1992-01-01-tkd.txt
 
-tlh:	{Qom} (2)
+tlh:	{Qom} [.2]
 pos:	verb
 sv:	vara «riskfylld», vara «riskabel», vara «förrädisk», vara «opålitlig»
 	[slang]
@@ -14615,14 +14675,14 @@ ref:	Email 2010-12-07 (by Lieven L. Litaer, to tlhingan-hol, "News from
 data:	phrase; derived form
 file:	2010-12-07-email.txt; 2010-12-25-email.txt
 
-tlh:	{Qop} (1)
+tlh:	{Qop} [.1]
 pos:	verb
 sv:	vara «utsliten»
 en:	be <worn> out
 def:	TKD K-E; KGT
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
-tlh:	{Qop} (2)
+tlh:	{Qop} [.2]
 pos:	verb
 sv:	vara «död» (om mat) [slang]
 en:	be <dead> (referring to food) [slang]
@@ -14759,7 +14819,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{Quch}
+tlh:	[1] {Quch}
 pos:	verb
 sv:	vara «lycklig», vara «glad»
 en:	be <happy>, be «merry»
@@ -14767,7 +14827,7 @@ def:	TKD; TKW p.206
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
-tlh:	{Quch}
+tlh:	[2] {Quch}
 pos:	noun
 sv:	«panna»
 en:	<forehead>
@@ -14791,14 +14851,14 @@ en:	<insurrection>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Qugh}
+tlh:	[1] {Qugh}
 pos:	noun
 sv:	«katastrof»
 en:	<disaster>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Qugh}
+tlh:	[2] {Qugh}
 pos:	name
 sv:	«Kruge»
 en:	«Kruge»
@@ -14806,14 +14866,14 @@ def:	TKD 5.6 (p.58)
 ref:	KGT p.41
 file:	1992-01-01-tkd.txt
 
-tlh:	{Quj}
+tlh:	{Quj} [1]
 pos:	verb
 sv:	«spela»
 en:	<play> a «game»
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Quj}
+tlh:	{Quj} [2]
 pos:	noun
 sv:	«spel»
 en:	<game>
@@ -14834,7 +14894,7 @@ en:	«research lab»
 def:	BoP
 file:	1998-11-01-bop.txt
 
-tlh:	{Qum}
+tlh:	{Qum} [1]
 pos:	verb
 sv:	«kommunicera»
 en:	<communicate>
@@ -14842,7 +14902,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{Qum}
+tlh:	{Qum} [2]
 pos:	noun
 sv:	«kommunikation»er, kommunikationsrelaterad teknologi
 en:	«communication»s, communication related technology
@@ -14885,14 +14945,14 @@ en:	<engine>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{QuS}
+tlh:	{QuS} [1]
 pos:	verb
 sv:	«konspirera»
 en:	<conspire>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{QuS}
+tlh:	{QuS} [2]
 pos:	noun
 sv:	«konspiration»
 en:	<conspiracy>
@@ -14989,7 +15049,7 @@ en:	be <violent>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{ram}
+tlh:	[1] {ram}
 pos:	verb
 sv:	vara «trivial», vara «obetydlig», vara «oviktig», vara «insignifikant»
 en:	be <trivial>, be <trifling>, be <unimportant>, be <insignificant>
@@ -14999,7 +15059,7 @@ com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
-tlh:	{ram}
+tlh:	[2] {ram}
 pos:	noun
 sv:	«natt»
 en:	<night>
@@ -15025,14 +15085,14 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{raQ}
+tlh:	[1] {raQ}
 pos:	verb
 sv:	«hantera» för hand, «handha»
 en:	<manipulate> by hand, <handle>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{raQ}
+tlh:	[2] {raQ}
 pos:	noun
 sv:	«läger» (militär term)
 en:	<camp> (military term)
@@ -15220,14 +15280,7 @@ def:	TKD
 data:	phrase
 file:	1992-01-01-tkd.txt
 
-tlh:	{reH}
-pos:	verb
-sv:	«leka»
-en:	<play>
-def:	TKD
-file:	1992-01-01-tkd.txt
-
-tlh:	{reH}
+tlh:	[1] {reH}
 pos:	adverbial
 sv:	«alltid», «ständigt»
 en:	<always>
@@ -15235,6 +15288,13 @@ def:	TKD
 ref:	TKW pp.34, 49, 77, 79, 103, 123, 133, 141, 159, 170, 179, 200
 see:	{Hochlogh}
 cat:	time
+file:	1992-01-01-tkd.txt
+
+tlh:	[2] {reH}
+pos:	verb
+sv:	«leka»
+en:	<play>
+def:	TKD
 file:	1992-01-01-tkd.txt
 
 tlh:	{rejmorgh}
@@ -15315,17 +15375,7 @@ def:	TKD
 data:	derived form
 file:	1992-01-01-tkd.txt
 
-tlh:	{rIl} (1)
-pos:	verb
-sv:	«spela» (ett horn- eller lurinstrument)
-en:	«play» (a horn instrument)
-def:	HQ10:2 p.9
-com:	This is a brass technique, not a flute technique. Most typically
-	it is used with {gheb} as the object.
-cat:	music
-file:	2001-06-holqed-10-2.txt
-
-tlh:	{rIl} (2)
+tlh:	{rIl} [.1]
 pos:	verb
 sv:	«använda» «tumme»n (vanligtvis använt om/till barn)
 en:	«use» the «thumb» (usually used to/about children)
@@ -15333,6 +15383,16 @@ def:	HQ10:2 p.7
 com:	Most commonly used in reference to a child using a thumb.
 	See also {Sen}.
 cat:	body part
+file:	2001-06-holqed-10-2.txt
+
+tlh:	{rIl} [.2]
+pos:	verb
+sv:	«spela» (ett horn- eller lurinstrument)
+en:	«play» (a horn instrument)
+def:	HQ10:2 p.9
+com:	This is a brass technique, not a flute technique. Most typically
+	it is used with {gheb} as the object.
+cat:	music
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{rIlwI'}
@@ -15457,7 +15517,7 @@ en:	<population>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{roj}
+tlh:	{roj} [1]
 pos:	verb
 sv:	skapa «fred»
 en:	make <peace>
@@ -15465,7 +15525,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{roj}
+tlh:	{roj} [2]
 pos:	noun
 sv:	«fred»
 en:	<peace>
@@ -15538,7 +15598,7 @@ com:	"When the plane banks or rolls to one side or the other so that,
 	versa [...]" [HQ11:2 p.9]
 file:	2002-06-holqed-11-2.txt
 
-tlh:	{rop}
+tlh:	{rop} [1]
 pos:	verb
 sv:	vara «sjuk», vara «illamående»
 en:	be <sick>, be <ill>
@@ -15547,7 +15607,7 @@ com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{rop}
+tlh:	{rop} [2]
 pos:	noun
 sv:	«sjukdom»
 en:	<disease>
@@ -15577,20 +15637,22 @@ com:	Is there a difference in meaning between {pI'} and {ror}?
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{roS}
+tlh:	[1] {roS}
 pos:	verb
 sv:	«slicka»
 en:	<lick>
 def:	KGT
 file:	1997-11-01-kgt.txt
+meta:	Should {roS} "lick" and "use third toe" be grouped together?
 
-tlh:	{roS}
+tlh:	[2] {roS}
 pos:	verb
 sv:	«använda» «tredje«tå»n» [arkaiskt]
 en:	«use» the «third «toe»» [archaic]
 def:	HQ10:2 p.10
 cat:	body part
 file:	2001-06-holqed-10-2.txt
+meta:	Should {roS} "lick" and "use third toe" be grouped together?
 
 tlh:	{roSHa'moH}
 pos:	verb
@@ -15675,14 +15737,14 @@ ref:	TDNW
 see:	{Qep'It} (term for gas produced when belching)
 file:	2003-12-holqed-12-4.txt
 
-tlh:	{ruq'e'vet}
+tlh:	{ruq'e'vet} [1]
 pos:	noun
 sv:	«Ruk'evet» (stad i Gevchok-regionen)
 en:	«Ruk'evet» (city in Gevchok region)
 def:	KGT pp.17, 30
 file:	1997-11-01-kgt.txt
 
-tlh:	{ruq'e'vet}
+tlh:	{ruq'e'vet} [2]
 pos:	name
 sv:	«Ruk'evet»
 en:	«Ruk'evet»
@@ -15794,7 +15856,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{SaH} (1)
+tlh:	[1] {SaH}
 pos:	verb
 sv:	vara «närvarande»
 en:	be <present> (not absent)
@@ -15802,7 +15864,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{SaH} (2)
+tlh:	[2] {SaH}
 pos:	verb
 sv:	«bry» sig (om), vara bekymrad (över/om)
 en:	<care> (about), be <concerned> (about)
@@ -15899,7 +15961,7 @@ com:	Does not include tears, since Klingon don't have any tear ducts.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 2003-12-holqed-12-4.txt
 
-tlh:	{Sar}
+tlh:	{Sar} [1]
 pos:	verb
 sv:	vara «omväxlande», vara «varierande», vara «skiftande»
 en:	be «varied», be <various>
@@ -15907,7 +15969,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{Sar}
+tlh:	{Sar} [2]
 pos:	noun
 sv:	«variation»
 en:	<variety>
@@ -15923,7 +15985,7 @@ com:	Entries differ and have been combined here. Mentioned in TNG episode
 	"Pen Pals", as "a Klingon Sark"---a riding animal (similar to a horse).
 file:	1997-11-01-kgt.txt
 
-tlh:	{SaS} (1)
+tlh:	{SaS} [.1]
 pos:	verb
 sv:	vara «horisontell»
 en:	be <horizontal>
@@ -15931,14 +15993,14 @@ def:	TKD
 cat:	locative
 file:	1992-01-01-tkd.txt
 
-tlh:	{SaS} (2)
+tlh:	{SaS} [.2]
 pos:	verb
 sv:	vara «ytlig», vara «okritisk» [slang]
 en:	be <shallow>, be <superficial>, be <uncritical> [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{SaS} (3)
+tlh:	{SaS} [.3]
 pos:	verb
 sv:	vara «oturlig», vara «icke-bra» [slang]
 en:	be <unfortunate>, be <not good> [slang]
@@ -16089,7 +16151,7 @@ com:	Most commonly used in reference to an adult thumb.
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
-tlh:	{Seng}
+tlh:	{Seng} [1]
 pos:	verb
 sv:	orsaka «problem», vålla «trubbel»
 en:	cause <trouble>
@@ -16097,7 +16159,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{Seng}
+tlh:	{Seng} [2]
 pos:	noun
 sv:	«bekymmer», «trubbel»
 en:	<trouble>
@@ -16106,14 +16168,14 @@ ref:	TKW p.56
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{Sep}
+tlh:	[1] {Sep}
 pos:	verb
 sv:	«föda upp», «odla»
 en:	<breed>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Sep}
+tlh:	[2] {Sep}
 pos:	noun
 sv:	«region», «område», «land»
 en:	<region>, «country»
@@ -16175,14 +16237,14 @@ en:	<steam>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Sev}
+tlh:	[1] {Sev}
 pos:	verb
 sv:	«behärska», «hålla», «hindra» (en fiende)
 en:	<contain> (an enemy)
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Sev}
+tlh:	[2] {Sev}
 pos:	noun
 sv:	«bandage»
 en:	<bandage>
@@ -16258,7 +16320,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{SIj} (1)
+tlh:	{SIj} [.1]
 pos:	verb
 sv:	«skära upp», «skära av», «sprätta upp»
 en:	<slit>
@@ -16267,7 +16329,7 @@ ref:	TKW p.127
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{SIj} (2)
+tlh:	{SIj} [.2]
 pos:	verb
 sv:	vara «insiktsfull», vara «smart», vara «klipsk», vara «skarpsinnig»
 	[slang]
@@ -16363,21 +16425,21 @@ def:	TKD K-E
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{Soch}
-pos:	noun
-sv:	sjunde «tonen» på den nonatoniska skalan
-en:	seventh <tone> of nonatonic musical scale
-def:	KGT
-cat:	music
-file:	1997-11-01-kgt.txt
-
-tlh:	{Soch}
+tlh:	{Soch} [1]
 pos:	numeral
 sv:	«sju»
 en:	<seven>
 def:	TKD
 cat:	math
 file:	1992-01-01-tkd.txt
+
+tlh:	{Soch} [2]
+pos:	noun
+sv:	sjunde «tonen» på den nonatoniska skalan
+en:	seventh <tone> of nonatonic musical scale
+def:	KGT
+cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{SochDIch}
 pos:	numeral
@@ -16387,14 +16449,14 @@ def:	TKD
 cat:	math
 file:	1992-01-01-tkd.txt
 
-tlh:	{SoD}
+tlh:	{SoD} [1]
 pos:	verb
 sv:	«svämma över», «flöda över»
 en:	<flood>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{SoD}
+tlh:	{SoD} [2]
 pos:	noun
 sv:	«översvämmning», «flod»
 en:	<flood>
@@ -16416,7 +16478,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{Soj}
+tlh:	{Soj} [.1]
 pos:	noun
 sv:	«mat»
 en:	<food>
@@ -16425,7 +16487,7 @@ ref:	HQ12:3 p.9
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{Soj}
+tlh:	{Soj} [.2]
 pos:	noun
 sv:	«sak», «fråga», «angelägenhet» (idiomatisk användning)
 en:	«matter», «concern», «affair» (idiomatic use)
@@ -16506,7 +16568,7 @@ en:	<mess hall>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{SoQ}
+tlh:	[1] {SoQ}
 pos:	verb
 sv:	vara «stängd»
 en:	be <closed>, be <shut>
@@ -16515,7 +16577,7 @@ com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{SoQ}
+tlh:	[2] {SoQ}
 pos:	noun
 sv:	«tal», «föreläsning»
 en:	<speech>, <lecture>, <address>
@@ -16618,7 +16680,7 @@ en:	<distress> call
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Sov}
+tlh:	{Sov} [1]
 pos:	verb
 sv:	«veta», «kunna», «känna till»
 en:	<know>
@@ -16627,7 +16689,7 @@ ref:	TKW p.25
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{Sov}
+tlh:	{Sov} [2]
 pos:	noun
 sv:	«vetskap», «kunskap»
 en:	<knowledge>
@@ -16660,14 +16722,21 @@ def:	TKD
 data:	derived form
 file:	1992-01-01-tkd.txt
 
-tlh:	{Sub} (1)
+tlh:	[1] {Sub}
 pos:	verb
 sv:	vara «solid», vara «massiv»
 en:	be <solid>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Sub} (2)
+tlh:	[2] {Sub} [1]
+pos:	noun
+sv:	«hjälte»
+en:	<hero>
+def:	KGT
+file:	1997-11-01-kgt.txt
+
+tlh:	[2] {Sub} [2]
 pos:	verb
 sv:	vara «modig», vara «heroisk», vara «djärv», vara «dristig», vara
 	«tapper», vara «oförskräckt» [slang]
@@ -16675,13 +16744,6 @@ en:	be <brave>, be <heroic>, be <bold>, be <valiant>, be <intrepid>
 	[slang]
 def:	KGT
 com:	Entries differ in source. The K-E entry is used here.
-file:	1997-11-01-kgt.txt
-
-tlh:	{Sub}
-pos:	noun
-sv:	«hjälte»
-en:	<hero>
-def:	KGT
 file:	1997-11-01-kgt.txt
 
 tlh:	{Subpu' vaS}
@@ -16700,7 +16762,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{SuD} (1)
+tlh:	[1] {SuD}
 pos:	verb
 sv:	vara «grön», vara «blå», vara «gul»
 en:	be <green>, be <blue>, be <yellow>
@@ -16709,7 +16771,7 @@ com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{SuD} (2)
+tlh:	[2] {SuD}
 pos:	verb
 sv:	sätta på spel, «chansa», «riskera»
 en:	<gamble>, take a <chance>, take a <risk>
@@ -16760,14 +16822,14 @@ en:	<native>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Sup}
+tlh:	[1] {Sup}
 pos:	verb
 sv:	«hoppa»
 en:	<jump>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Sup}
+tlh:	[2] {Sup}
 pos:	noun
 sv:	«resurs»
 en:	<resource>
@@ -16823,15 +16885,7 @@ en:	<skin>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{SuS}
-pos:	verb
-sv:	«blåsa» (i blåsinstrument) för att producera ljud
-en:	<blow> (into wind instrument) to produce sound
-def:	KGT
-cat:	music
-file:	1997-11-01-kgt.txt
-
-tlh:	{SuS}
+tlh:	{SuS} [1]
 pos:	noun
 sv:	«vind», «bris»
 en:	<wind>, <breeze>
@@ -16840,6 +16894,14 @@ ref:	TKW p.107
 cat:	landscape
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+
+tlh:	{SuS} [2]
+pos:	verb
+sv:	«blåsa» (i blåsinstrument) för att producera ljud
+en:	<blow> (into wind instrument) to produce sound
+def:	KGT
+cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{SuSDeq}
 pos:	noun
@@ -17014,7 +17076,7 @@ def:	TKD
 data:	derived form
 file:	1992-01-01-tkd.txt
 
-tlh:	{tagh}
+tlh:	[1] {tagh}
 pos:	verb
 sv:	«inleda» en process, «börja», «sätta» igång, «starta»
 en:	<begin> a process, <initiate> proceedings
@@ -17023,7 +17085,7 @@ ref:	TKW p.187
 com:	Entries differ and have been combined here.
 file:	1992-01-01-tkd.txt
 
-tlh:	{tagh}
+tlh:	[2] {tagh}
 pos:	noun
 sv:	«lunga»
 en:	<lung>
@@ -17038,7 +17100,15 @@ en:	«finally», at «last»
 def:	News 1999-11-05
 file:	1999-11-05-news.txt
 
-tlh:	{taH} (1)
+tlh:	[1] {taH}
+pos:	verb
+sv:	«fortsätta», «uthärda», «överleva»
+en:	<continue>, «go» on, <endure>, <survive>
+def:	TKDa; KGT
+ref:	TKW pp.11, 147
+file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
+
+tlh:	[2] {taH}
 pos:	verb
 sv:	vara i «negativ vinkel»
 en:	be at a <negative angle>
@@ -17048,14 +17118,6 @@ com:	According to Cheesbro (and MO) this is one of MO's little private
 	origin of this word, and only gives us his cryptic smile.
 see:	{tajvaj}
 file:	1992-01-01-tkd.txt
-
-tlh:	{taH} (2)
-pos:	verb
-sv:	«fortsätta», «uthärda», «överleva»
-en:	<continue>, «go» on, <endure>, <survive>
-def:	TKDa; KGT
-ref:	TKW pp.11, 147
-file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{taHqeq}
 pos:	exclamation
@@ -17111,7 +17173,7 @@ en:	<Talarian> (person)
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{tam} (1)
+tlh:	[1] {tam}
 pos:	verb
 sv:	vara «tyst»
 en:	be <quiet>
@@ -17119,7 +17181,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{tam} (2)
+tlh:	[2] {tam}
 pos:	verb
 sv:	«byta» (ut), «ersätta»
 en:	<exchange>, <substitute>
@@ -17217,21 +17279,21 @@ en:	<return> (a thing to its origin or source)
 def:	News 1999-07-19
 file:	1999-07-19b-email.txt
 
-tlh:	{tay}
+tlh:	[1] {tay} [1]
 pos:	verb
 sv:	vara «civiliserad»
 en:	be <civilized>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{tay}
+tlh:	[1] {tay} [2]
 pos:	noun
 sv:	«ceremoni», «rit», «ritual»
 en:	<ceremony>, <rite>, «ritual»
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{tay}
+tlh:	[2] {tay}
 pos:	noun
 sv:	klingonskans «{t}»-ljud
 en:	Klingon ~«{t}»~ sound
@@ -17263,7 +17325,7 @@ ref:	TKW pp.34, 209
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{ta'}
+tlh:	[1] {ta'} [1]
 pos:	verb
 sv:	«uträtta», «åstadkomma», «genomföra»
 en:	<accomplish>
@@ -17272,7 +17334,7 @@ ref:	TKW p.74
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{ta'} (1)
+tlh:	[1] {ta'} [2]
 pos:	noun
 sv:	«resultat», «utförande», «dåd»
 en:	<accomplishment>, <deed>
@@ -17281,7 +17343,7 @@ ref:	TKW p.15
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
-tlh:	{ta'} (2)
+tlh:	[2] {ta'}
 pos:	noun
 sv:	«kejsare»
 en:	<emperor>
@@ -17536,14 +17598,14 @@ def:	KGT
 data:	derived form
 file:	1997-11-01-kgt.txt
 
-tlh:	{tey'}
+tlh:	[1] {tey'}
 pos:	verb
 sv:	«anförtro»
 en:	<confide>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{tey'}
+tlh:	[2] {tey'}
 pos:	noun
 sv:	«kusin» (fars brors barn eller mors systers barn), «brorsbarn» (en mans
 	brors barn), «systerbarn» (en kvinnas systers barn)
@@ -17619,14 +17681,14 @@ def:	TKD
 ref:	TKW p.iii
 file:	1992-01-01-tkd.txt
 
-tlh:	{tIH} (1)
+tlh:	{tIH} [.1]
 pos:	noun
 sv:	«stråle»
 en:	<ray>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{tIH} (2)
+tlh:	{tIH} [.2]
 pos:	noun
 sv:	«skaft» (på spjut)
 en:	<shaft> (of spear)
@@ -17692,7 +17754,7 @@ def:	KGT
 cat:	music
 file:	1997-11-01-kgt.txt
 
-tlh:	{tIq}
+tlh:	[1] {tIq}
 pos:	verb
 sv:	vara «lång», vara «långsträckt» (om ett föremål)
 en:	be <long>, be lengthy (of an object)
@@ -17700,7 +17762,7 @@ def:	TKD
 com:	The word "be" was inserted before the adjectival "lengthy".
 file:	1992-01-01-tkd.txt
 
-tlh:	{tIq}
+tlh:	[2] {tIq}
 pos:	noun
 sv:	«hjärta»
 en:	<heart>
@@ -17818,14 +17880,14 @@ def:	TKD
 cat:	body part
 file:	1992-01-01-tkd.txt
 
-tlh:	{toD}
+tlh:	{toD} [1]
 pos:	verb
 sv:	«rädda», «undsätta»
 en:	<save>, <rescue>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{toD}
+tlh:	{toD} [2]
 pos:	noun
 sv:	«räddning», «undsättning»
 en:	<rescue>
@@ -17952,7 +18014,7 @@ en:	<Bird of Prey> (vessel)
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{tor}
+tlh:	{tor} [.1]
 pos:	verb
 sv:	«knäböja», «stå» på knä
 en:	<kneel>
@@ -17960,7 +18022,7 @@ def:	TKD
 ref:	TKW p.95
 file:	1992-01-01-tkd.txt
 
-tlh:	{tor}
+tlh:	{tor} [.2]
 pos:	verb
 sv:	«tippa», «kränga» (om flygmaskin)
 en:	«pitch» (about aircraft)
@@ -18063,7 +18125,7 @@ com:	Could also be used as an exclamation (as can all adverbials)
 cat:	time
 file:	1992-01-01-tkd.txt
 
-tlh:	{tuH}
+tlh:	[1] {tuH}
 pos:	verb
 sv:	vara «skamsen»
 en:	be <ashamed>
@@ -18071,7 +18133,7 @@ def:	TKD
 ref:	TKW pp.ix, 24, 57, 136
 file:	1992-01-01-tkd.txt
 
-tlh:	{tuH}
+tlh:	[2] {tuH}
 pos:	noun
 sv:	«manöver» (militär term)
 en:	<maneuver> (military term)
@@ -18086,7 +18148,7 @@ def:	TKD
 data:	derived form
 file:	1992-01-01-tkd.txt
 
-tlh:	{tuj}
+tlh:	{tuj} [1]
 pos:	verb
 sv:	vara «het»
 en:	be <hot>
@@ -18095,7 +18157,7 @@ ref:	TKW pp.32, 174
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{tuj}
+tlh:	{tuj} [2]
 pos:	noun
 sv:	«värme»
 en:	<heat>
@@ -18325,7 +18387,7 @@ def:	TKD 4.2.5 (p.39)
 ref:	TKD p.171; TKW pp.23, 29, 49, 66
 file:	1992-01-01-tkd.txt
 
-tlh:	{tlhab}
+tlh:	{tlhab} [1]
 pos:	verb
 sv:	vara «fri», vara «oberoende»
 en:	be <free>, be <independent>
@@ -18334,7 +18396,7 @@ com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{tlhab}
+tlh:	{tlhab} [2]
 pos:	noun
 sv:	«frihet», «oberoende»
 en:	<freedom>, <independence>
@@ -18375,14 +18437,14 @@ com:	Editor's note: I kept the plural suffix {-mey} here, in the Klingon,
 	of the dictionary seems somewhat ridiculous. /zrajm [2011-12-02]
 file:	2011-10-31-email.txt
 
-tlh:	{tlham} (1)
+tlh:	{tlham} [.1]
 pos:	noun
 sv:	«gravitation»
 en:	<gravity>
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{tlham} (2)
+tlh:	{tlham} [.2]
 pos:	noun
 sv:	«ordning», «struktur» (på samhälle) [slang]
 en:	<order>, <structure> (societal) [slang]
@@ -18462,14 +18524,14 @@ def:	KGT
 cat:	music
 file:	1997-11-01-kgt.txt
 
-tlh:	{tlhay}
+tlh:	[1] {tlhay}
 pos:	noun
 sv:	«ärm»
 en:	<sleeve>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{tlhay}
+tlh:	[2] {tlhay}
 pos:	noun
 sv:	klingonskans «{tlh}»-ljud
 en:	Klingon ~«{tlh}»~ sound
@@ -18587,14 +18649,14 @@ en:	<apologize>
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{tlhIl}
+tlh:	{tlhIl} [1]
 pos:	verb
 sv:	«bryta», «utvinna», «gräva»
 en:	<mine>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{tlhIl}
+tlh:	{tlhIl} [2]
 pos:	noun
 sv:	«mineral»
 en:	<mineral>
@@ -18839,14 +18901,14 @@ def:	News 1998-12-07
 data:	phrase
 file:	1998-12-07-news.txt
 
-tlh:	{tlho'}
+tlh:	{tlho'} [1]
 pos:	verb
 sv:	«tacka»
 en:	<thank>
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{tlho'}
+tlh:	{tlho'} [2]
 pos:	noun
 sv:	«uppskattning», «tacksamhet»
 en:	<appreciation>, <gratitude>
@@ -18876,7 +18938,7 @@ en:	<emit> (energy, radiation, etc.)
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{tlhuH} (1)
+tlh:	{tlhuH} [1.1]
 pos:	verb
 sv:	«andas»
 en:	<breathe>
@@ -18885,14 +18947,14 @@ ref:	TKW p.193
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{tlhuH} (2)
+tlh:	{tlhuH} [1.2]
 pos:	verb
 sv:	vara «upprymd», vara «stimulerad», vara «upplivad» [slang]
 en:	be <exhilarated>, be <stimulated>, be <invigorated> [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{tlhuH}
+tlh:	{tlhuH} [2]
 pos:	noun
 sv:	«andedräkt», «andhämtning», «andetag»
 en:	<breath>
@@ -18952,21 +19014,21 @@ en:	be «flexible»
 def:	HQ10:2 p.11
 file:	2001-06-holqed-10-2.txt
 
-tlh:	{vagh}
-pos:	noun
-sv:	femte «tonen» på den nonatoniska skalan
-en:	fifth <tone> of nonatonic musical scale
-def:	KGT
-cat:	music
-file:	1997-11-01-kgt.txt
-
-tlh:	{vagh}
+tlh:	{vagh} [1]
 pos:	numeral
 sv:	«fem»
 en:	<five>
 def:	TKD
 cat:	math
 file:	1992-01-01-tkd.txt
+
+tlh:	{vagh} [2]
+pos:	noun
+sv:	femte «tonen» på den nonatoniska skalan
+en:	fifth <tone> of nonatonic musical scale
+def:	KGT
+cat:	music
+file:	1997-11-01-kgt.txt
 
 tlh:	{vaghDIch}
 pos:	numeral
@@ -18990,7 +19052,15 @@ en:	<lava>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{vaj}
+tlh:	[1] {vaj}
+pos:	adverbial
+sv:	«så», «därför», «således», «i så fall»
+en:	<so>, <then>, <thus>, <in that case>
+def:	TKD
+ref:	TKW pp.151, 213
+file:	1992-01-01-tkd.txt
+
+tlh:	[2] {vaj}
 pos:	noun
 sv:	«krigare» (som koncept)
 en:	<warrior> (as a concept)
@@ -18998,14 +19068,6 @@ def:	TKDa
 ref:	TKW p.104
 see:	{mang}; {SuvwI'}
 cat:	fighting
-file:	1992-01-01-tkd.txt
-
-tlh:	{vaj}
-pos:	adverbial
-sv:	«så», «därför», «således», «i så fall»
-en:	<so>, <then>, <thus>, <in that case>
-def:	TKD
-ref:	TKW pp.151, 213
 file:	1992-01-01-tkd.txt
 
 tlh:	{val}
@@ -19024,7 +19086,7 @@ en:	«Valkris»
 def:	TKD 5.6 (p.58)
 file:	1992-01-01-tkd.txt
 
-tlh:	{van} (1)
+tlh:	{van} [1.1]
 pos:	verb
 sv:	«hälsa», «salutera»
 en:	<salute>
@@ -19033,7 +19095,7 @@ ref:	TKW p.83
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{van} (2)
+tlh:	{van} [1.2]
 pos:	verb
 sv:	«avsluta» (en händelse, t.ex. resa, strid, sång)
 en:	«end» (an event, e.g. a voyage, battle, song)
@@ -19058,7 +19120,7 @@ com:	"When an event over which one has some control ends (one can't cause a
 see:	{Dor} (2), {ghang}
 file:	2003-06-holqed-12-2.txt
 
-tlh:	{van}
+tlh:	{van} [2]
 pos:	noun
 sv:	«hyllning», «honnör», «hälsning»
 en:	<salute>, <tribute>
@@ -19097,14 +19159,14 @@ en:	<mock>
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{vaQ} (1)
+tlh:	{vaQ} [.1]
 pos:	verb
 sv:	vara «aggressiv»
 en:	be <aggressive>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{vaQ} (2)
+tlh:	{vaQ} [.2]
 pos:	verb
 sv:	vara «effektiv», vara «energisk», vara «kraftfull»
 en:	be <effective>, be <vigorous>
@@ -19169,7 +19231,7 @@ cat:	family
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{vay}
+tlh:	[1] {vay}
 pos:	verb
 sv:	«slåss», «strida» (mellanstor vildsinthet)
 en:	<fight>, <battle> (midlevel ferocity)
@@ -19177,7 +19239,7 @@ def:	KGT
 cat:	fighting
 file:	1997-11-01-kgt.txt
 
-tlh:	{vay}
+tlh:	[2] {vay}
 pos:	noun
 sv:	klingonskans «{v}»-ljud
 en:	Klingon ~«{v}»~ sound
@@ -19361,7 +19423,7 @@ com:	According to KCD this is "a classic insult".
 data:	phrase; derived form
 file:	1996-04-kcd.txt
 
-tlh:	{vergh}
+tlh:	{vergh} [1]
 pos:	verb
 sv:	«docka»
 en:	<dock>
@@ -19369,7 +19431,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{vergh}
+tlh:	{vergh} [2]
 pos:	noun
 sv:	«docka» (för skepp)
 en:	<dock>
@@ -19436,7 +19498,7 @@ def:	TKD
 see:	{chuyDaH} is the plural form
 file:	1992-01-01-tkd.txt
 
-tlh:	{vIl}
+tlh:	{vIl} [1]
 pos:	verb
 sv:	vara «fårad»
 en:	be «ridgy»
@@ -19444,7 +19506,7 @@ def:	HQ13:1 p.10
 ref:	TDNW
 file:	2004-03-holqed-13-1.txt
 
-tlh:	{vIl}
+tlh:	{vIl} [2]
 pos:	noun
 sv:	¿?«fartgupp», «vägbula»
 en:	¿?«speed bump»
@@ -19530,7 +19592,7 @@ ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 cat:	country
 file:	2011-10-29-email.txt
 
-tlh:	{vIt}
+tlh:	{vIt} [1]
 pos:	verb
 sv:	säga «sanningen»
 en:	tell the <truth>
@@ -19538,7 +19600,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{vIt}
+tlh:	{vIt} [2]
 pos:	noun
 sv:	«sanning»
 en:	<truth>
@@ -19566,14 +19628,14 @@ en:	<juice>, <sap> of a plant
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{vI'}
+tlh:	[1] {vI'}
 pos:	verb
 sv:	«ackumulera», «samlas», «lagra» upp
 en:	<accumulate>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{vI'} (1)
+tlh:	[2] {vI'}
 pos:	noun
 sv:	«skjutfärdighet», «träffsäkerhet»
 en:	<sharpshooting>, <marksmanship>
@@ -19582,7 +19644,7 @@ ref:	TKW p.104
 cat:	fighting
 file:	1992-01-01-tkd.txt
 
-tlh:	{vI'} (2)
+tlh:	[3] {vI'}
 pos:	noun
 sv:	«decimalpunkt»
 en:	<decimal point>
@@ -19837,17 +19899,17 @@ en:	be <expensive>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{waH} (1)
-pos:	verb
-sv:	«smaka», «prova» (mat)
-en:	<taste>, <try> out (food)
-def:	KGT
-file:	1997-11-01-kgt.txt
-
-tlh:	{waH} (2)
+tlh:	{waH} [.1]
 pos:	verb
 sv:	«pröva», «testa», använda på försök
 en:	<try> out, <test>, use experimentally
+def:	KGT
+file:	1997-11-01-kgt.txt
+
+tlh:	{waH} [.2]
+pos:	verb
+sv:	«smaka», «prova» (mat)
+en:	<taste>, <try> out (food)
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -19892,7 +19954,7 @@ en:	type of «bird» (with a very long beak)
 def:	HQ10:4 p.5
 file:	2001-12-holqed-10-4.txt
 
-tlh:	{waQ}
+tlh:	[1] {waQ}
 pos:	verb
 sv:	«hindra», vara i vägen för
 en:	<obstruct>
@@ -19904,7 +19966,7 @@ com:	Concrete/passive meaning? (Such as a stone or other unmovable
 see:	{bot}
 file:	1992-01-01-tkd.txt
 
-tlh:	{waQ}
+tlh:	[2] {waQ}
 pos:	noun
 sv:	¿?om ... «månader»
 en:	«months» from now
@@ -20045,7 +20107,7 @@ en:	<raid>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{wej}
+tlh:	[1] {wej}
 pos:	adverbial
 sv:	«inte än»
 en:	<not yet>
@@ -20055,7 +20117,7 @@ com:	Could also be used as an exclamation (as can all adverbials)
 	meaning "Don't do it yet!". [TKD 5.4 (p.57)]
 file:	1992-01-01-tkd.txt
 
-tlh:	{wej}
+tlh:	[2] {wej}
 pos:	numeral
 sv:	«tre»
 en:	<three>
@@ -20094,7 +20156,7 @@ com:	When someone has earned a reward but the prize is not yet available to
 	will pay for it later. /Alan Anderson
 file:	2011-08-22-email.txt
 
-tlh:	{wem}
+tlh:	{wem} [1]
 pos:	verb
 sv:	«kränka», «bryta emot», «överträda», «störa», «skända»
 en:	«violate»
@@ -20102,7 +20164,7 @@ def:	TKD K-E
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{wem}
+tlh:	{wem} [2]
 pos:	noun
 sv:	«kränkning», «brott», «överträdelse», «skändning»
 en:	«violation»
@@ -20119,7 +20181,7 @@ com:	Article in HQ is called "{matlh juppu' mu'mey}".
 cat:	time
 file:	1999-09-holqed-08-3.txt
 
-tlh:	{wep} (1)
+tlh:	{wep} [.1]
 pos:	noun
 sv:	«jacka», «rock»
 en:	<jacket>, <coat>
@@ -20128,7 +20190,7 @@ cat:	clothing
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{wep} (2)
+tlh:	{wep} [.2]
 pos:	noun
 sv:	«skjorta» med ärmar [regional]
 en:	<shirt> with sleeves [regional]
@@ -20230,7 +20292,7 @@ en:	<break> (something) off
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{wIv}
+tlh:	{wIv} [1]
 pos:	verb
 sv:	«välja»
 en:	<choose>, <select>
@@ -20239,7 +20301,7 @@ ref:	TKW pp.19, 151
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{wIv}
+tlh:	{wIv} [2]
 pos:	noun
 sv:	«val», «alternativ»
 en:	<choice>
@@ -20293,7 +20355,7 @@ en:	<pick> up
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{woj}
+tlh:	[1] {woj}
 pos:	verb
 sv:	«sterilisera»
 en:	<sterilize>
@@ -20309,7 +20371,7 @@ com:	Oops! MO seem to have canonified an error occuring on KLI's list of new
 see:	{Say'qu'moH} (synonym)
 file:	1997-11-01-kgt.txt; 1992-09-holqed-01-3.txt
 
-tlh:	{woj}
+tlh:	[2] {woj}
 pos:	noun
 sv:	«strålning»
 en:	<radiation>
@@ -20464,14 +20526,14 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{yach} (1)
+tlh:	{yach} [.1]
 pos:	verb
 sv:	«klappa»
 en:	<pet>, <stroke>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{yach} (2)
+tlh:	{yach} [.2]
 pos:	verb
 sv:	«knäppa på», «slå på» (ett stränginstrument)
 en:	<strum> (a stringed instrument)
@@ -20479,7 +20541,7 @@ def:	KGT
 cat:	music
 file:	1997-11-01-kgt.txt
 
-tlh:	{yaD} (1)
+tlh:	[1] {yaD}
 pos:	noun
 sv:	«tå»
 en:	<toe>
@@ -20487,7 +20549,7 @@ def:	TKD
 cat:	body part
 file:	1992-01-01-tkd.txt
 
-tlh:	{yaD} (2)
+tlh:	[2] {yaD}
 pos:	noun
 sv:	«svärd» [slang]
 en:	<sword> [slang]
@@ -20501,14 +20563,14 @@ en:	<organism>
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{yaH}
+tlh:	[1] {yaH}
 pos:	verb
 sv:	vara «borttagen»
 en:	be <taken away>
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{yaH}
+tlh:	[2] {yaH}
 pos:	noun
 sv:	«tjänsteplats», «post», «postering»
 en:	<duty station>, <station>
@@ -20532,7 +20594,7 @@ en:	<misinterpret>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{yan}
+tlh:	{yan} [1]
 pos:	verb
 sv:	«svinga», «använda», «hantera» (ett svärd)
 en:	<wield>, <use>, <manipulate> (a <sword>)
@@ -20540,7 +20602,7 @@ def:	KGT
 com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
 
-tlh:	{yan}
+tlh:	{yan} [2]
 pos:	noun
 sv:	«svärd»
 en:	<sword>
@@ -20614,7 +20676,7 @@ def:	TKD
 cat:	landscape
 file:	1992-01-01-tkd.txt
 
-tlh:	{yay}
+tlh:	[1] {yay}
 pos:	noun
 sv:	«seger», «triumf»
 en:	<victory>, <triumph>
@@ -20623,7 +20685,7 @@ ref:	TKW pp.125, 135, 179, 211
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{yay}
+tlh:	[2] {yay}
 pos:	noun
 sv:	klingonskans «{y}»-ljud
 en:	Klingon ~«{y}»~ sound
@@ -20745,7 +20807,7 @@ ref:	TKW p.184
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{yIn}
+tlh:	{yIn} [1]
 pos:	verb
 sv:	«leva»
 en:	<live>
@@ -20754,7 +20816,7 @@ ref:	TKW pp.125, 141
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{yIn}
+tlh:	{yIn} [2]
 pos:	noun
 sv:	«liv»
 en:	<life>
@@ -20777,14 +20839,14 @@ en:	<oxygen>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{yIntagh}
+tlh:	[1] {yIntagh}
 pos:	noun
 sv:	«livsuppehållande system»
 en:	<life-support system>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{yIntagh}
+tlh:	[2] {yIntagh}
 pos:	exclamation
 sv:	(«epitet»)
 en:	(«epithet»)
@@ -20838,7 +20900,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{yIv} (1)
+tlh:	{yIv} [.1]
 pos:	verb
 sv:	«tugga»
 en:	<chew>
@@ -20846,14 +20908,14 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{yIv} (2)
+tlh:	{yIv} [.2]
 pos:	verb
 sv:	«förarga», «besvära», «reta», «irritera» [slang]
 en:	<annoy>, <bother>, <irk>, <irritate> [slang]
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{yIvbeH} (1)
+tlh:	{yIvbeH} [.1]
 pos:	noun
 sv:	«tunika», «uniformsjacka», «uniformsrock»
 en:	<tunic>
@@ -20861,7 +20923,7 @@ def:	TKD
 cat:	clothing
 file:	1992-01-01-tkd.txt
 
-tlh:	{yIvbeH} (2)
+tlh:	{yIvbeH} [.2]
 pos:	noun
 sv:	«ärmlös «skjorta»» [regionalt]
 en:	<sleeveless <shirt>> [regional]
@@ -20876,14 +20938,14 @@ en:	<harvest>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{yoD}
+tlh:	{yoD} [1]
 pos:	verb
 sv:	«skydda» (med sköld)
 en:	<shield>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{yoD}
+tlh:	{yoD} [2]
 pos:	noun
 sv:	«sköld»
 en:	<shield>
@@ -20999,14 +21061,14 @@ en:	<district>, <area> (within a country)
 def:	TKD; KGT p.16
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
-tlh:	{yot}
+tlh:	{yot} [1]
 pos:	verb
 sv:	«invadera»
 en:	<invade>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{yot}
+tlh:	{yot} [2]
 pos:	noun
 sv:	«invasion»
 en:	<invasion>
@@ -21212,14 +21274,14 @@ def:	TKD
 ref:	TKW pp.59, 186
 file:	1992-01-01-tkd.txt
 
-tlh:	{'aD}
+tlh:	[1] {'aD}
 pos:	verb
 sv:	«ha» en «längd» av, «mäta»
 en:	<have> a <length> of, <measure>
 def:	News 1997-10-22; KGT
 file:	1997-10-22-news.txt; 1997-11-01-kgt.txt
 
-tlh:	{'aD}
+tlh:	[2] {'aD}
 pos:	noun
 sv:	«ven», «blodåder»
 en:	<vein>
@@ -21311,7 +21373,7 @@ pun:	Marc Okrand really gets going in the KGT section about (kitchen)
 	knife for free...!"
 file:	1997-11-01-kgt.txt
 
-tlh:	{'aqroS} (1)
+tlh:	{'aqroS} [.1]
 pos:	noun
 sv:	«överdel» (under- eller insidan av överdelen)
 en:	«top» (inside or downturned surface)
@@ -21321,7 +21383,7 @@ see:	{yor}
 cat:	locative
 file:	1999-09-holqed-08-3.txt
 
-tlh:	{'aqroS} (2)
+tlh:	{'aqroS} [.2]
 pos:	noun
 sv:	«maximum»
 en:	«maximum»
@@ -21576,7 +21638,7 @@ en:	<serving <platter>>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{'em}
+tlh:	[1] {'em}
 pos:	verb
 sv:	«kräkas», «spy»
 en:	«vomit»
@@ -21585,7 +21647,7 @@ ref:	TDNW
 see:	{quy'Ip} (name for the matter vomited)
 file:	2003-12-holqed-12-4.txt
 
-tlh:	{'em}
+tlh:	[2] {'em}
 pos:	noun
 sv:	«bakom», område bakom
 en:	<behind>, area behind
@@ -21670,14 +21732,14 @@ ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 cat:	country
 file:	2011-10-29-email.txt
 
-tlh:	{'et}
+tlh:	[1] {'et}
 pos:	noun
 sv:	«för» (ej akter)
 en:	<fore>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{'et}
+tlh:	[2] {'et}
 pos:	noun
 sv:	klingonskans «{e}»-ljud
 en:	Klingon ~«{e}»~ sound
@@ -21814,7 +21876,7 @@ def:	KGT
 cat:	music
 file:	1997-11-01-kgt.txt
 
-tlh:	{'Ip}
+tlh:	{'Ip} [1]
 pos:	verb
 sv:	«svära», gå «ed» på
 en:	<vow>, <swear>
@@ -21822,7 +21884,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{'Ip}
+tlh:	{'Ip} [2]
 pos:	noun
 sv:	«ed», «löfte»
 en:	<oath>
@@ -21893,7 +21955,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{'It}
+tlh:	[1] {'It}
 pos:	verb
 sv:	vara «deprimerad»
 en:	be <depressed>
@@ -21901,7 +21963,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{'It}
+tlh:	[2] {'It}
 pos:	noun
 sv:	klingonskans «{I}»-ljud
 en:	Klingon ~«{I}»~ sound
@@ -21929,17 +21991,17 @@ com:	The word "be" was inserted before the adjectival "highly
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{'Iv}
-pos:	noun
-sv:	«höjd» (avstånd ner)
-en:	<altitude>
-def:	TKD
-file:	1992-01-01-tkd.txt
-
-tlh:	{'Iv}
+tlh:	[1] {'Iv}
 pos:	question word
 sv:	«vem»?
 en:	<who>?
+def:	TKD
+file:	1992-01-01-tkd.txt
+
+tlh:	[2] {'Iv}
+pos:	noun
+sv:	«höjd» (avstånd ner)
+en:	<altitude>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
@@ -22199,7 +22261,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{'oy'}
+tlh:	{'oy'} [1]
 pos:	verb
 sv:	«smärta», «värka», vara «öm»
 en:	<ache>, <hurt>, be <sore>
@@ -22209,7 +22271,7 @@ com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{'oy'}
+tlh:	{'oy'} [2]
 pos:	noun
 sv:	«smärta», «värk», «plåga»
 en:	<ache>, <pain>, <sore>, <hurt>
@@ -22446,7 +22508,7 @@ en:	<sauce> for «~gladst~»
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{'ut} (1)
+tlh:	[1] {'ut}
 pos:	verb
 sv:	vara «väsentlig», vara «nödvändig»
 en:	be <essential>, be <necessary>
@@ -22456,7 +22518,7 @@ com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{'ut} (2)
+tlh:	[2] {'ut}
 pos:	noun
 sv:	klingonskans «{u}»-ljud
 en:	Klingon ~«{u}»~ sound

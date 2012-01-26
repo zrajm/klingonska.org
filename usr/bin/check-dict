@@ -310,10 +310,106 @@ sub check_sv {
 sub check_tlh {
     my ($_, $field, $record) = @_;
     my $re = qr/([bDHjlmnpqQrStvwy']|ch|gh|ng|tlh)[aeIou]([bDHjlmnpqQrStv']|ch|gh|ng|tlh|[wy]'?|rgh)?/;
-    if (not /^\*?\{($re+(\s$re+|\s«($re+|pIqarD)»)*|$re?-|-$re|-oy|qIrq)\} ( \s \([0-9]+\) )? $/x) {
+
+    state $prev_word   = "";
+    state $prev_pos    = "";
+    state $prev_hyp    = 0;
+    state $prev_sub    = 0;
+    state $prev_subsub = 0;
+
+    # get/check word counters
+    my ($pre, $word, $post) = /^(.*?) (\*?\{[^{}]*\}) (.*?)$/x;
+    warn "only single space allowed between pre-word data '$pre' and word '$word' in '$field' field\n"
+        if $pre and $pre =~ s/(\s*)$// and length($1) != 1;
+    warn "only single space allowed between word '$word' and post-word data '$post' in '$field' field\n"
+        if $post and $post =~ s/^(\s*)// and length($1) != 1;
+
+    my ($pos) = $record =~ /^pos:\t(.*)/m;    # part-of-speech
+    my $hyp = do {                            # pre-word counter
+        if ($pre =~ /^\[ (\d+) \]$/x) {
+            $1 // 0;
+        } else {
+            warn "malformed pre-word data '$pre' for '$word' in '$field' field\n" if $pre;
+            0;
+        }
+    };
+    my ($sub, $subsub) = do {                 # post-word counter and sub-counter
+        if ($post =~ /^\[ (\d+)? (?:\.(\d+))? \]$/x) {
+            ($1 // 0, $2 // 0);
+        } else {
+            warn "malformed post-word data '$post' for '$word' in '$field' field\n" if $post;
+            (0, 0);
+        }
+    };
+    if ($word eq $prev_word) {        # change (= clear counters)
+        warn "duplicate entry '$word' in '$field' field\n"
+            if $hyp == $prev_hyp and $sub == $prev_sub and $subsub == $prev_subsub;
+        # check that counters did not disappear when they weren't supposed to
+        warn "pre-word counter '[." . ($prev_hyp + 1) . "]' missing for '$word' in '$field' field\n"
+            if $hyp == 0 and $prev_hyp > 1;
+        warn "post-word counter '[." . ($prev_sub + 1) . "]' missing for '$word' in '$field' field\n"
+            if $sub == 0 and $prev_sub > 0 and $hyp == $prev_hyp;
+        warn "post-word sub-counter '[." . ($prev_subsub + 1) . "]' missing for '$word' in '$field' field\n"
+            if $subsub == 0 and $prev_subsub > 0 and $sub == $prev_sub and $hyp == $prev_hyp;
+    } else {
+        warn  "pre-word ". "counter for previous entry stopped at '[1]' in '$field' field\n"  if $prev_hyp    == 1;
+        warn "post-word ". "counter for previous entry stopped at '[1]' in '$field' field\n"  if $prev_sub    == 1;
+        warn "post-word sub-counter for previous entry stopped at '[.1]' in '$field' field\n" if $prev_subsub == 1;
+        ($prev_hyp, $prev_sub, $prev_subsub) = (0, 0, 0);
+    }
+    if ($hyp) {                                # pre-word counter
+        if ($hyp != $prev_hyp + 1) {           #   invalid change in counter (not +1 change)
+            warn "pre-word counter '[$hyp]' for '$word' may only increase by one in '$field' field\n"
+                unless $hyp == $prev_hyp and ($sub or $subsub);
+        } else {                               #   valid change (+1 change) -- clear subcounters
+            if ($hyp == 1) {                   #     initialized (= set to one)
+                warn "pre-word counter '[$hyp]' for '$word' may only be set to one when word changes, in '$field' field\n"
+                    if $word eq $prev_word;
+            } else {                           #     incremented
+                warn "pre-word counter '[$hyp]' for '$word' may only increase when word remains same, in '$field' field\n"
+                    if $word ne $prev_word;
+            }
+            warn "post-word ". "counter for previous entry stopped at '[1]' in '$field' field\n"  if $prev_sub    == 1;
+            warn "post-word sub-counter for previous entry stopped at '[.1]' in '$field' field\n" if $prev_subsub == 1;
+            ($prev_sub, $prev_subsub) = (0, 0);
+        }
+    }
+    if ($sub) {                                # post-word counter
+        if ($sub != $prev_sub + 1) {           #   invalid change in counter (not +1 change)
+            warn "post-word counter '[$sub]' for '$word' may only increase by one in '$field' field\n"
+                unless $sub == $prev_sub and $subsub; # no change -- maybe subcounter will change?
+        } else {                               #   valid change (+1 change) -- clear subcounters
+            if ($sub == 1) {                   #     initialized (= set to one)
+                warn "post-word counter '[$sub]' for '$word' may only be set to one when word or higher counter change in '$field' field\n"
+                    if $word eq $prev_word && $hyp == $prev_hyp;
+            } else {                           #     incremented
+                warn "post-word counter '[$sub]' for '$word' may only increase when part-of-speech change in '$field' field\n"
+                    if $pos eq $prev_pos;
+            }
+            warn "post-word sub-counter for previous entry stopped at '[.1]' in '$field' field\n" if $prev_subsub == 1;
+            $prev_subsub = 0;
+        }
+    }
+    if ($subsub) {  # post-word sub-counter
+        if ($subsub != $prev_subsub + 1) {     #   invalid change in counter (not +1 change)
+            warn "post-word sub-counter '[.$subsub]' for '$word' may only increase by one in '$field' field\n";
+        } else {                               #   valid change (+1 change) -- clear subcounters
+            if ($subsub == 1) {                #     initialized (= set to one)
+                warn "post-word sub-counter '[.$subsub]' for '$word' may only be set to one when word or higher counter change in '$field' field\n"
+                    if $word eq $prev_word && $hyp == $prev_hyp && $sub == $prev_sub;
+            } else {                           #     incremented
+                warn "post-word sub-counter '[.$subsub]' for '$word' may only increase when part-of-speech remains same in '$field' field\n"
+                    if $pos ne $prev_pos;
+            }
+        }
+    }
+    ($prev_word, $prev_pos, $prev_hyp, $prev_sub, $prev_subsub) = ($word, $pos, $hyp, $sub, $subsub);
+
+    # check klingon spelling
+    if (not $word =~ /^\*?\{ ($re+(\s$re+|\s«($re+|pIqarD)»)*|$re?-|-$re|-oy|qIrq) \}$/x) {
         # TKD talks about "uw" -- and some other letter combination? -- being
         # disallowed in Klingon: insert test for that, too, here
-        warn "bad syllable structure in '$field' field\n";
+        warn "bad syllable structure for '$word' in '$field' field\n";
         print STDERR "    $field: $_\n";
     }
 
