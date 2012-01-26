@@ -63,7 +63,8 @@ FIELD NAMES USED IN DICTIONARY BELOW
                       sorted before slang/regional words, and part-of-speech
                       order is as follows.
 
-                          adv >> v >> pro >> ques >> conj >> num >> n >> name
+                          adv >> v >> excl >> pro >> ques >>
+                              conj >> num >> n >> name
 
                       (Basically 'verby' words come first -- since adverbials
                       can form sentences in their own right, as well as take
@@ -2056,7 +2057,7 @@ en:	<ritual <hunt>>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{chong} [.1]
+tlh:	{chong} [1.1]
 pos:	verb
 sv:	vara «vertikal»
 en:	be <vertical>
@@ -2064,22 +2065,41 @@ def:	TKD
 cat:	locative
 file:	1992-01-01-tkd.txt
 
-tlh:	{chong} [.2]
+tlh:	{chong} [1.2]
 pos:	verb
-sv:	vara «bra», vara «utmärkt», vara «storslagen», vara «underbar»
+sv:	vara «grundlig», vara «ordentlig», vara «omsorgsfull», vara «noggrann»
 	[slang]
-en:	be <good>, be <excellent>, be <great>, be <wonderful>, be <splendid>
-	[slang]
+en:	be <profound>, be <thorough>, be «careful» [slang]
+desc:	{chong yaS} ~the officer is careful/profound~ (subject = person)
 def:	KGT
-com:	Entries differ and have been combined here.
+com:	"Literally 'be vertical,' this word is used to refer to one's
+	intellect, as in {chong tlhIngan SuvwI'} ('The Klingon warrior is
+	profound'---literally, 'The Klingon warrior is vertical'; {tlhIngan,}
+	'Klingon'; {SuvwI',} 'warrior'). In its literal sense, this word is the
+	opposite of {SaS} ('be horizontal'), and as a slang term, it is an
+	opposite as well, as {SaS} is used to mean 'be shallow, superficial.'
+	It is most likely that {chong} took on its slang meaning because of the
+	prior existence of {SaS}, which has been used as slang for a much
+	longer time. An equivalent meaning may be expressed without slang by
+	using a word such as {Qubchu'} ('think perfectly, think clearly';
+	{Qub,} 'think'; {-chu',} 'perfectly, clearly'), as in {Qubchu' tlhIngan
+	SuvwI'} ('The Klingon warrior thinks clearly')." [KGT p.148]
+see:	{Qub} "think"
 file:	1997-11-01-kgt.txt
 
-tlh:	{chong} [.3]
-pos:	verb
-sv:	vara «grundlig», vara «ordentlig», vara «omsorgsfull», vara
-	«noggrann» [slang]
-en:	be <profound>, be <thorough>, be «careful» [slang]
-def:	KGT
+tlh:	{chong} [2]
+pos:	exclamation
+sv:	«bra», «utmärkt», «beundransvärt» [slang]
+en:	«good», «excellent», «admirable» [slang]
+def:	KGT pp.148--149
+com:	"Literally 'be vertical' [...] The word {chong} may also be used as an
+	exclamation expressing approval or satisfaction, somewhat like standard
+	{maj} ('good'). Thus, one may describe one's feelings about a
+	skillfully made knife or about an upcoming social event by saying
+	simply {chong} (literally, 'vertical' but meaning 'good, excellent,
+	admirable'). See also {qu'} (literally, 'be fierce'), another slang
+	term used to express approval." [KGT pp.148-149]
+see:	{maj} <good> (excl); {qu'} <be great> (v) (slang)
 file:	1997-11-01-kgt.txt
 
 tlh:	{chop}
@@ -13921,20 +13941,69 @@ ref:	TDNW
 see:	{'em}
 file:	2003-12-holqed-12-4.txt
 
-tlh:	{qu'} [.1]
+tlh:	{qu'} [1.1]
 pos:	verb
 sv:	vara «vildsint», vara «häftig», vara «våldsam»
 en:	be <fierce>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{qu'} [.2]
+tlh:	{qu'} [1.2]
 pos:	verb
-sv:	vara «storslagen», vara «underbar», vara «utmärkt», vara «bra» [slang]
-en:	be <great>, be <wonderful>, be <excellent>, be <splendid>, be <good>
-	[slang]
+sv:	vara «storslagen», vara «underbar», vara «utmärkt», vara «fantastisk»,
+	vara «bra» [slang]
+en:	be <great>, be <wonderful>, be <excellent>, be «superlative», be
+	<splendid>, be <good> [slang]
 def:	KGT
-com:	Entries differ and have been combined here.
+com:	"The verb {qu'} literally means 'be fierce.' In its slang sense, it may
+	be used adjectivally, as in {taj qu'} ('excellent knife'; literally,
+	'fierce knife'), or as the main verb in a sentence, as in {qu' taj}
+	('the knife is excellent'; literally, 'the knife is fierce'). Though,
+	from the Klingon point of view, equating being 'fierce' with being
+	'great, wonderful,' and so on seems quite natural, the slang meaning of
+	{qu'} probably receives further support because it sounds just like the
+	verb suffix {-qu',} which is used for emphasis (compare {Qatlh,}
+	'difficult,' and {Qatlhqu',} 'very difficult'). When applied to people
+	or animals, it is not always clear whether the slang or nonslang
+	meaning of {qu'} is intended. That is, {SuvwI' qu'} ('fierce warrior')
+	could be interpreted literally, or it could mean 'excellent warrior.'
+	When applied to anything other than people or animals, the slang
+	meaning is more likely. Thus, {may' qu'} ('fierce battle') is really a
+	way of saying 'excellent battle.' In Klingon, only a participant in a
+	battle, not the battle itself, can literally be described as 'fierce.'
+	The word {qu'} may also be used as an exclamation ('Great!'
+	'Wonderful!'). In this sense, it seems to be interchangeable with
+	{chong} (literally, 'be vertical'; see page 148). The slang usage of
+	{qu'} is currently extremely common among Klingons, and it has pretty
+	much displaced another slang term with the same set of meanings
+	('excellent, wonderful, etc.'), {Huv} (literally, 'be clear, not
+	obstructed'), which was in vogue not all that long ago. The use of
+	{Huv} for 'excellent' is now considered old-fashioned. This is also the
+	case with {nong} ('passionate'), an even older slang term for
+	'excellent.' (As of this writing, the slang usage of {nong} seems to be
+	making a comeback, but it is still too early to say whether this will
+	really happen.) Nonslang verbs expressing similar ideas are {Dun} ('be
+	wonderful, great'), {pov} ('be excellent'), and, as an exclamation,
+	{maj!} ('Good!')." [KGT pp. 159-161]
+file:	1997-11-01-kgt.txt
+meta:	Entries differ and have been combined here. Translation "be
+	superlative" only occurs on KGT p.159, other translations can be found
+	in KGT word list as well, "be good" is only found in words lists (not
+	main text of book).
+
+tlh:	{qu'} [2]
+pos:	exclamation
+sv:	«storslaget», «underbart» [slang]
+en:	«great», «wonderful» [slang]
+def:	KGT pp.160--161
+com:	"The word {qu'} may also be used as an exclamation ('Great!'
+	'Wonderful!'). In this sense, it seems to be interchangeable with
+	{chong} (literally, 'be vertical'; see page 148). The slang usage of
+	{qu'} is currently extremely common among Klingons, and it has pretty
+	much displaced another slang term with the same set of meanings
+	('excellent, wonderful, etc.'), {Huv} (literally, 'be clear, not
+	obstructed'), which was in vogue not all that long ago."
+	[KGT pp.160-161]
 file:	1997-11-01-kgt.txt
 
 tlh:	{Qab}
@@ -16779,6 +16848,7 @@ sv:	vara «modig», vara «heroisk», vara «djärv», vara «dristig», vara
 	«tapper», vara «oförskräckt» [slang]
 en:	be <brave>, be <heroic>, be <bold>, be <valiant>, be <intrepid>
 	[slang]
+def:	KGT
 com:	"Literally meaning 'be solid,' as opposed to gaseous or liquid, {Sub},
 	in its slang usage, may be applied to a person. Thus, {SuvwI' Sub} is
 	'brave warrior' (literally, 'solid warrior'; {SuvwI',} 'warrior') and
@@ -16790,7 +16860,6 @@ com:	"Literally meaning 'be solid,' as opposed to gaseous or liquid, {Sub},
 	phonetically identical noun {Sub,} meaning 'hero.' Nonslang equivalents
 	for {Sub} are {yoH} ('be brave') and {jaq} ('be bold'), which can be
 	used pretty much interchangeably." [KGT p.165-166]
-def:	KGT
 file:	1997-11-01-kgt.txt
 meta:	Entries differ in source. The K-E entry is used here.
 
