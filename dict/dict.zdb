@@ -1727,11 +1727,22 @@ tlh:	{chegh}
 pos:	verb
 sv:	«återvända» (till)
 en:	<return> (to)
-def:	TKD
-ref:	TDNW
-com:	"direct object is place returned to" [KLINW; TDNW]
+desc:	{DujDaq tera' vIchegh} ~I return to Earth in a ship;~ place returned to
+	is obj.
+def:	TKD; Email 1999-07-19 (by Marc Okrand, Will Martin, Roger Cheesbro, to
+	tlhingan-hol, "[chegh] and new word [tatlh] (from Marc)")
+ref:	TDNW; KLINW
+com:	{ghorgh pa'wIjDaq jIchegh.} "When can I return to my room?" [CK];
+	{loSleS jIchegh.} "I return in four days" [News 1998-05-22 (by Marc
+	Okrand, to startrek.klingon, "Re: naDev vay' tu'lu''a'?")];
+	{lupDujHomDaq jIchegh} "I return on the shuttle.", {lupDujHom vIchegh}
+	"I return to the shuttle.", {lupDujHomDaq may'Duj vIchegh} "I return to
+	the battle cruiser on the shuttle", {tera'vo' Qo'noS vIchegh} "I return
+	to Kronos from Earth" [Email 1999-07-19 (by Marc Okrand, Will Martin,
+	Roger Cheesbro, to tlhingan-hol, "[chegh] and new word [tatlh] (from
+	Marc)")]
 data:	KLCP-1
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1999-07-19b-email.txt
 
 tlh:	{cheH}
 pos:	verb
@@ -2070,7 +2081,7 @@ pos:	verb
 sv:	vara «grundlig», vara «ordentlig», vara «omsorgsfull», vara «noggrann»
 	[slang]
 en:	be <profound>, be <thorough>, be «careful» [slang]
-desc:	{chong yaS} ~the officer is careful/profound~ (subject = person)
+desc:	{chong yaS} ~the officer is careful/profound;~ person is subj.
 def:	KGT
 com:	"Literally 'be vertical,' this word is used to refer to one's
 	intellect, as in {chong tlhIngan SuvwI'} ('The Klingon warrior is
@@ -2250,6 +2261,7 @@ tlh:	{chuH} [.1]
 pos:	verb
 sv:	«kasta» (ett spjut) mot, «slunga» (ett spjut) mot
 en:	<throw> (a spear) at, <hurl> (a spear) at
+desc:	{qachuH} ~I throw (a spear) at you;~ target is obj.
 def:	KGT
 com:	"the direct object is the target" [TDNW]
 cat:	fighting
@@ -2259,12 +2271,14 @@ tlh:	{chuH} [.2]
 pos:	verb
 sv:	«förklara» noga för, «förtydliga» för, närmare «ange» för [slang]
 en:	<explain> clearly to, <clarify> for, <specify> for [slang]
+desc:	{qachuH} ~I clarify [it] for you;~ one getting explanation is obj.
 def:	KGT
 com:	"In the slang sense, the object of the verb is the person who wants
 	clarification, as in {HIchuH!} ('Clarify for me!' 'Spell it out for
 	me!'; literally, 'Throw [a spear] at me!') or {yaS chuH} ('He/she
 	clarifies [it] for the officer'; literally, 'He/she throws [a spear] at
 	the officer')." [KGT p.149]
+see:	{QIj} "explain"
 file:	1997-11-01-kgt.txt
 
 tlh:	{chuHchu'}
@@ -3202,7 +3216,7 @@ tlh:	[2] {Dor}
 pos:	verb
 sv:	«ta «slut»» (om tidsperiod, t.ex. månad, år)
 en:	«come to an «end»» (about period of time, e.g. month, year)
-desc:	{Dor jar} ~the month ends;~ time period is subject
+desc:	{Dor jar} ~the month ends;~ time period is subj.
 def:	HQ12:2 p.8
 ref:	TDNW
 com:	"Generally, one expresses the end of a stretch of time by using a verb
@@ -3299,7 +3313,7 @@ tlh:	[1] {Dub}
 pos:	verb
 sv:	«förbättra»
 en:	<improve>
-desc:	{patlhwIj vIDub} ~I improve my status;~ object is the thing improved
+desc:	{patlhwIj vIDub} ~I improve my status;~ thing improved is obj.
 def:	TKD; S14; S26
 ref:	TDNW
 file:	1992-01-01-tkd.txt; 1995-sbx-s14.txt; 1996-sbx-s26.txt
@@ -3432,7 +3446,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{DuQ} [.2]
 pos:	verb
 sv:	göra (någon) «rörd»
-en:	<touch> (emotionally)
+en:	<touch>, «move» (emotionally)
 def:	KGT
 com:	"{muDuQ bom} ('The song stabs me,' or, in a more colloquial Federation
         Standard form, 'The song moves me')" [KGT p.72]
@@ -3603,7 +3617,7 @@ pos:	verb
 sv:	«avsluta» i förtid (en händelse, t.ex. resa, strid, sång)
 en:	prematurely «end» (an event, e.g. a voyage, battle, song)
 desc:	{may' ghang SuvwI'} ~the warrior ends the battle prematurely;~
-	participants are subject
+	participants are subj.
 def:	HQ12:2 p.8
 ref:	TDNW
 com:	"[...] {ghang}, is used to express the idea of a premature ending. If [...]
@@ -3905,6 +3919,7 @@ pos:	noun
 sv:	«uppdrag», «uppgift», «plikt» [slang]
 en:	<assignment>, <task>, <duty> [slang]
 def:	KGT
+see:	{Qu'}
 file:	1997-11-01-kgt.txt
 
 tlh:	{ghIH}
@@ -4434,7 +4449,7 @@ file:	2000-09-holqed-09-3.txt
 
 tlh:	{ghuH} [1]
 pos:	verb
-sv:	«förbereda» för, vara «beredd» på, vara «förvarnad» om
+sv:	«förbereda» för, vara «förvarnad» om
 en:	<prepare> for, be <alerted> to
 def:	TKD
 ref:	TKW p.56
@@ -4442,7 +4457,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{ghuH} [2]
 pos:	noun
-sv:	«varning»
+sv:	«förvarning»
 en:	<alert>
 def:	TKD
 file:	1992-01-01-tkd.txt
@@ -6825,7 +6840,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	[1] {lagh}
 pos:	verb
-sv:	«ta sönder», «plocka isär»
+sv:	«ta sönder», «plocka isär», «montera isär»
 en:	<take apart>, <disassemble>
 def:	TKDa
 file:	1992-01-01-tkd.txt
@@ -6960,7 +6975,7 @@ file:	1997-11-01-kgt.txt
 tlh:	{law'}
 pos:	verb
 sv:	vara «många», vara «talrika», vara «mycket»
-en:	be <many>, be <numerous>, be «much» 
+en:	be <many>, be <numerous>, be «much»
 def:	TKD
 ref:	TKW pp.35, 53, 95, 179; S33
 com:	Entries differ and have been combined here.
@@ -8800,10 +8815,12 @@ tlh:	{moH} [.2]
 pos:	verb
 sv:	«influera», utöva otillbörligt «inflytande» på [slang]
 en:	<influence>, <exert undue influence> on [slang]
+desc:	{DamoH} ~You exert undue influence on him/her;~ (lit. ~You ugly
+	him/her~)
 def:	KGT
-com:	Entries differ in source. One of the E-K entries is used
-	here.
+see:	{SIgh} "influence"
 file:	1997-11-01-kgt.txt
+meta:	Entries differ in source. One of the E-K entries is used here.
 
 tlh:	{moHaq}
 pos:	noun
@@ -9306,6 +9323,7 @@ pos:	noun
 sv:	«plan», «tillvägagångssätt», «förfarande», «procedur»
 en:	<plan>, «procedure»
 def:	TKDa
+see:	{wIw} "step, stage (in a process)"
 file:	1992-01-01-tkd.txt
 
 tlh:	{nach}
@@ -9618,6 +9636,7 @@ pos:	verb
 sv:	vara «förkastlig», vara «äcklig», vara «vidrig», vara «usel», vara
 	«motbjudande» [slang]
 en:	be <reprehensible>, be <disgusting>, be <contemptible> [slang]
+desc:	{natlh Dargh} ~the tea is disgusting~ (lit. ~the tea consumes~)
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -10520,8 +10539,10 @@ file:	1992-01-01-tkd.txt
 tlh:	{nuH} [.2]
 pos:	noun
 sv:	«möjlighet»
-en:	<possibility>
-def:	KGT
+en:	<possibility>, «option»
+desc:	{Hoch nuH yIqel} ~consider every option~ (lit. ~consider every weapon~)
+def:	KGT p.109
+see:	{DuH} "possibility, option"
 file:	1997-11-01-kgt.txt
 
 tlh:	{nuH bey'}
@@ -10823,8 +10844,7 @@ tlh:	{nga'chuq}
 pos:	verb
 sv:	«sex» (d.v.s. ha sex; alltid subjekt)
 en:	have «sex», perform sex
-desc:	{nga'chuq bangwI'pu'} ~my loved ones have sex;~ all participants are
-	subject
+desc:	{nga'chuq bangwI'pu'} ~my loved ones have sex;~ participants are subj.
 def:	HQ1:3 p.9
 com:	Article in HQ is called "Additional Vocabulary" and contains the {veS
 	QonoS} list of words. It is unclear about what part of speech this may
@@ -11209,7 +11229,7 @@ file:	2001-12-holqed-10-4.txt
 
 tlh:	{ngup} [.1]
 pos:	noun
-sv:	¿?«cape» (klädesplagg)
+sv:	«cape», «mantel» (klädesplagg)
 en:	<cape> (clothing)
 def:	TKD
 cat:	clothing
@@ -11220,7 +11240,9 @@ pos:	noun
 sv:	«auktoritet», «befogenhet», «makt», någon med auktoritet eller i
 	ledarposition [slang]
 en:	<authority>, <power>, one in authority or in charge [slang]
+desc:	{ngup qaD} ~challenge those in charge~ (lit. ~challenge the cape~)
 def:	KGT
+see:	{woQ} "authority, political power"; {qum} "government"
 file:	1997-11-01-kgt.txt
 
 tlh:	{nguq}
@@ -11587,19 +11609,18 @@ tlh:	{pegh} [1.1]
 pos:	verb
 sv:	vara «hemlig»
 en:	be «secret»
-def:	PK
-ref:	CK
+def:	CK; PK
+ref:	KGT
 com:	{pegh De'vetlh.} "That information is secret." [CK]; {De' pegh
 	vIghajlI' 'e' Datu'} "I have secret information, you will find it
 	useful." [PK]; {peghHa'moH} "cause to not keep a secret" [KGT]
-file:	1992-10-01-ck.txt; 1993-10-01-pk.txt
+file:	1992-10-01-ck.txt; 1993-10-01-pk.txt; 1997-11-01-kgt.txt
 
 tlh:	{pegh} [1.2]
 pos:	verb
 sv:	«hålla» något «hemligt»
 en:	«keep» something <secret>
 def:	TKD
-ref:	CK; PK
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1992-10-01-ck.txt; 1993-10-01-pk.txt
 
@@ -12780,10 +12801,10 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{qang} [.2]
 pos:	verb
-sv:	rutinmässigt «hålla med», alltid hålla med, alltid samarbeta med,
-	rutinmässigt «samarbeta» med [slang]
-en:	<agree> with routinely, always agree with, always cooperate with,
-	<cooperate> with routinely [slang]
+sv:	alltid (eller rutinmässigt) «hålla med» eller «samarbeta» med [slang]
+en:	always (or routinely) «cooperate» or «agree» with [slang]
+desc:	{jIHDaq Daqang} ~you always agree with me~ (lit. ~you pour [s.th.]
+	into me~)
 def:	KGT
 com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
@@ -13535,7 +13556,7 @@ file:	1997-11-01-kgt.txt
 tlh:	{qon} [.1]
 pos:	verb
 sv:	«nedteckna», «spela in» (all slags inspelning och skrift)
-en:	<record> (every kind of recording or writing)
+en:	<record> (any kind of recording or writing)
 def:	TKD; TKW p.179
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
@@ -14034,7 +14055,10 @@ tlh:	{QaD} [.2]
 pos:	verb
 sv:	vara «säker», vara «skyddad» [slang]
 en:	be <safe>, be <protected> [slang]
+desc:	{QaD Sep} ~the land is protected~ (lit. ~the land is dry~); {puq QaD}
+	~safe child~ (lit. ~dry child~)
 def:	KGT
+see:	{Qan} "protect"
 file:	1997-11-01-kgt.txt
 
 tlh:	{Qagh} [1]
@@ -14478,13 +14502,16 @@ tlh:	{QIj}
 pos:	verb
 sv:	«förklara»
 en:	<explain>
+desc:	{SoHvaD nab vIQIj} ~I explain the plan for you;~ thing being explained
+	is obj.
 def:	TKD
+ref:	KGT p.149
 com:	"[..] object of {QIj} is that which is explained, while the person to
 	whom the explanation is given is the indirect object: {yaSvaD nab QIj}
 	('He/she explains the plan to the officer'; {yaSvaD,} 'for the
 	officer'; {nab,} 'plan')." [KGT p.149]
 data:	KLCP-1
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{QIm}
 pos:	noun
@@ -15004,14 +15031,14 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{Qum} [2]
 pos:	noun
-sv:	«kommunikation»er, kommunikationsrelaterad teknologi
-en:	«communication»s, communication related technology
+sv:	«kommunikation»
+en:	«communication»
 def:	BoP
 file:	1998-11-01-bop.txt
-meta:	Evidence for this word (as a noun): "{Qum De'wI'} 'Communications
+meta:	Evidence *for* this word (as a noun): "{Qum De'wI'} 'Communications
 	Computer'", "{Qum SeHlaw} 'Communications Console'" and "{Qum patmey}
-	'Communications Systems'" [BoP]; Evidence against this word as a noun:
-	"[The word '{Qum}'] is found elsewhere only as a verb ({Qum,}
+	'Communications Systems'" [BoP]; Evidence *against* this word as a
+	noun: "[The word '{Qum}'] is found elsewhere only as a verb ({Qum,}
 	'communicate'), suggesting that there may have been a noun {Qum}
 	('communication') at some point in the past." [KGT p.159]
 
@@ -15099,6 +15126,7 @@ sv:	«plikt», «uppdrag», «uppgift», «jobb»
 en:	<duty>, <quest>, <mission>, <task>, <chore>
 def:	TKD
 ref:	TKW pp.66, 74, 139, 187
+see:	{ghIgh} "assignment, task, duty [slang]"
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -15490,6 +15518,7 @@ com:	Most commonly used in reference to a child using a thumb.
 	See also {Sen}.
 cat:	body part
 file:	2001-06-holqed-10-2.txt
+meta:	Should {rIl} "use thumb" and "play" really be grouped together?
 
 tlh:	{rIl} [.2]
 pos:	verb
@@ -15500,6 +15529,7 @@ com:	This is a brass technique, not a flute technique. Most typically
 	it is used with {gheb} as the object.
 cat:	music
 file:	2001-06-holqed-10-2.txt
+meta:	Should {rIl} "use thumb" and "play" really be grouped together?
 
 tlh:	{rIlwI'}
 pos:	noun
@@ -16103,6 +16133,7 @@ tlh:	{SaS} [.2]
 pos:	verb
 sv:	vara «ytlig», vara «okritisk» [slang]
 en:	be <shallow>, be <superficial>, be <uncritical> [slang]
+desc:	referring to s.o. intellect
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -16111,6 +16142,7 @@ pos:	verb
 sv:	vara «oturlig», vara «icke-bra» [slang]
 en:	be <unfortunate>, be <not good> [slang]
 def:	KGT
+see:	{Do'Ha'}
 file:	1997-11-01-kgt.txt
 
 tlh:	{Satlh}
@@ -16429,18 +16461,21 @@ file:	1992-01-01-tkd.txt
 tlh:	{SIj} [.1]
 pos:	verb
 sv:	«skära upp», «skära av», «sprätta upp»
-en:	<slit>
-def:	TKD
+en:	<slit>, «slash»
+def:	TKD; KGT p.164
 ref:	TKW p.127
 data:	KLCP-1
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
+meta:	Translation "slash" is from KGT p.164.
 
 tlh:	{SIj} [.2]
 pos:	verb
 sv:	vara «insiktsfull», vara «smart», vara «klipsk», vara «skarpsinnig»
 	[slang]
-en:	be <insightful>, be <clever> [slang]
+en:	be <insightful>, be <clever>, have a keen mind [slang]
+desc:	{bISIj} ~You are insightful~; (lit. ~you slash~)
 def:	KGT
+see:	{val} "be clever, smart"; {'ong} "be cunning, sly"
 file:	1997-11-01-kgt.txt
 
 tlh:	{SIjwI'}
@@ -16557,7 +16592,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{SoD} [1]
 pos:	verb
-sv:	«svämma över», «flöda över»
+sv:	«översvämma», «flöda över»
 en:	<flood>
 def:	TKD
 file:	1992-01-01-tkd.txt
@@ -16597,8 +16632,8 @@ tlh:	{Soj} [.2]
 pos:	noun
 sv:	«sak», «fråga», «angelägenhet» (idiomatisk användning)
 en:	«matter», «concern», «affair» (idiomatic use)
-desc:	{tlhIngan Soj 'oH; not bIyaj} ~It's a Klingon affair; you wouldn't
-	understand;~ idiomatic meaning [HQ12:3 p.9]
+desc:	{tlhIngan Soj 'oH} ~it's a Klingon affair~ (lit. ~it's Klingon food~)
+	[HQ12:3 p.9]
 def:	HQ12:3 p.9
 ref:	TDNW
 com:	"Maltz said, '{tlhIngan Soj 'oH---not bIyaj},' literally, 'It is
@@ -16848,6 +16883,7 @@ sv:	vara «modig», vara «heroisk», vara «djärv», vara «dristig», vara
 	«tapper», vara «oförskräckt» [slang]
 en:	be <brave>, be <heroic>, be <bold>, be <valiant>, be <intrepid>
 	[slang]
+desc:	{Sub yaS} ~the officer is brave;~ person is subj.
 def:	KGT
 com:	"Literally meaning 'be solid,' as opposed to gaseous or liquid, {Sub},
 	in its slang usage, may be applied to a person. Thus, {SuvwI' Sub} is
@@ -17801,12 +17837,14 @@ file:	1992-01-01-tkd.txt
 tlh:	{tIH} [.1]
 pos:	noun
 sv:	«stråle»
-en:	<ray>
+en:	<ray>, «beam»
 def:	TKD
+ref:	KGT pp.56, 65
 com:	{nISwI' tIH} ~disruptor beam~ [KGT p.56] {luHwI' tIH} ~tractor beam~
 	[Email 2010-12-13 (by Lieven L. Litaer, to tlhingan-hol, "tractor
 	beam")]
 file:	1992-01-01-tkd.txt
+meta:	Translation "beam" comes from KGT.
 
 tlh:	{tIH} [.2]
 pos:	noun
@@ -19237,8 +19275,7 @@ tlh:	{van} [1.2]
 pos:	verb
 sv:	«avsluta» (en händelse, t.ex. resa, strid, sång)
 en:	«end» (an event, e.g. a voyage, battle, song)
-desc:	{may' van SuvwI'} ~the warrior ends the battle;~ participants are
-	subject
+desc:	{may' van SuvwI'} ~the warrior ends the battle;~ participants are subj.
 def:	HQ12:2 p.8
 ref:	TDNW
 com:	"When an event over which one has some control ends (one can't cause a
@@ -19649,7 +19686,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{vIl} [1]
 pos:	verb
-sv:	vara «fårad»
+sv:	vara «fårad», vara «guppig»
 en:	be «ridgy»
 def:	HQ13:1 p.10
 ref:	TDNW
@@ -19657,8 +19694,8 @@ file:	2004-03-holqed-13-1.txt
 
 tlh:	{vIl} [2]
 pos:	noun
-sv:	¿?«fartgupp», «vägbula»
-en:	¿?«speed bump»
+sv:	«gupp», «bula»
+en:	«ridge», «bump»
 def:	{qep'a'} 2009
 ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 com:	"The noun {vIl} is hard to define. Maltz had given a description of
@@ -20230,7 +20267,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{web}
 pos:	verb
-sv:	vara i «onåd», vara «oönskad», vara «utstött» 
+sv:	vara i «onåd», vara «oönskad», vara «utstött»
 en:	be <disgraced>
 def:	TKD
 file:	1992-01-01-tkd.txt
@@ -20285,7 +20322,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{wejpuH}
 pos:	exclamation
-sv:	«charmerande», «just snyggt» (används endast ironiskt)
+sv:	«charmerande», «just snyggt», «vackert» (används endast ironiskt)
 en:	<charming> (used only ironically)
 def:	TKD 5.5 (p.57) et al.
 data:	KLCP-1
@@ -21062,7 +21099,7 @@ tlh:	{yIv} [.2]
 pos:	verb
 sv:	«förarga», «besvära», «reta», «irritera» [slang]
 en:	<annoy>, <bother>, <irk>, <irritate> [slang]
-desc:	{muyIv yaS} ~the officer irks me~ (subject = person/creature)
+desc:	{muyIv yaS} ~the officer irks me;~ person/creature is subj.
 def:	KGT
 com:	"[..] literally means 'chew.' In its slang sense, it is found in such
 	constructions as {choyIv} ('You bother me'---literally, 'You chew me';
