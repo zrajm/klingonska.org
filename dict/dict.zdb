@@ -4007,8 +4007,8 @@ file:	1999-09-holqed-08-3.txt
 
 tlh:	{ghIqtal}
 pos:	exclamation
-sv:	«till «död»s»! [arkaiskt]
-en:	<to the <death>>! [archaic]
+sv:	«till «död»s» [arkaiskt]
+en:	<to the <death>> [archaic]
 def:	KGT p.49 et al.
 file:	1997-11-01-kgt.txt
 
@@ -4781,8 +4781,8 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{Ha'}
 pos:	exclamation
-sv:	«kom»!, «vi går»!
-en:	<let's go>!, <come> on!
+sv:	«kom», «vi går»
+en:	<let's go>, <come> on
 def:	TKD 5.5 (p.57) et al.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
@@ -11965,8 +11965,8 @@ file:	2011-10-31-email.txt
 
 tlh:	{pItlh}
 pos:	exclamation
-sv:	«klar»!, «färdig»!, allt «klart»!, allt «färdigt»!
-en:	<done>!, all done!, all «finished»!
+sv:	«klar», «färdig», allt «klart», allt «färdigt»
+en:	<done>, all done, all «finished»
 def:	TKD 5.5 (p.57) et al.
 ref:	KCD
 com:	KCD: "a common exclamation uttered upon the completion of a
@@ -16940,8 +16940,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{SuH}
 pos:	exclamation
-sv:	var «redo»!, jag är «beredd»!
-en:	<ready>!, <standing by>!
+sv:	var «redo», jag är «beredd»
+en:	<ready>, <standing by>
 def:	ST1; TKD 5.5 (p.57) et al.
 data:	KLCP-1
 file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
@@ -17176,8 +17176,8 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{Su'}
 pos:	exclamation
-sv:	var «redo»!, jag är «beredd»!
-en:	<ready>!, <standing by>!
+sv:	var «redo», jag är «beredd»
+en:	<ready>, <standing by>
 def:	TKD 5.5 (p.57) et al.
 file:	1992-01-01-tkd.txt
 
@@ -18089,8 +18089,8 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{toH}
 pos:	exclamation
-sv:	«jaså»!, «aha»!, «nåväl»!
-en:	<so>!, <well>!
+sv:	«jaså», «aha», «nåväl»
+en:	<so>, <well>
 def:	TKD 5.5 (p.57) et al.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
@@ -21755,8 +21755,8 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{'eH}
 pos:	exclamation
-sv:	var «redo»!
-en:	<ready>!
+sv:	var «redo»
+en:	<ready>
 def:	ST1; TKD 5.5 (p.57) et al.
 file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
