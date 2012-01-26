@@ -176,6 +176,13 @@ sv:	«skjuta»
 en:	<shoot>
 def:	TKD
 ref:	TKW p.148
+com:	"The verb used for 'shoot' when referring to disruptors is {bach}.
+	Technically speaking, one shoots the energy beam from the disruptor.
+	The general word for any energy beam ('ray') is {tIH}, so a disruptor's
+	beam is {nISwI' tIH}. Thus, the correct formation is {nISwI' tIH bach}
+	('shoot the disruptor beam'). As a practical matter, however, the {tIH}
+	is often left out, and {nISwI' bach} is the common way to say 'shoot a
+	disruptor.' Similarly, {pu' bach} is 'shoot a phaser.'" [KGT p.56]
 cat:	fighting
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
@@ -2233,6 +2240,11 @@ pos:	verb
 sv:	«förklara» noga för, «förtydliga» för, närmare «ange» för [slang]
 en:	<explain> clearly to, <clarify> for, <specify> for [slang]
 def:	KGT
+com:	"In the slang sense, the object of the verb is the person who wants
+	clarification, as in {HIchuH!} ('Clarify for me!' 'Spell it out for
+	me!'; literally, 'Throw [a spear] at me!') or {yaS chuH} ('He/she
+	clarifies [it] for the officer'; literally, 'He/she throws [a spear] at
+	the officer')." [KGT p.149]
 file:	1997-11-01-kgt.txt
 
 tlh:	{chuHchu'}
@@ -3402,6 +3414,8 @@ pos:	verb
 sv:	göra (någon) «rörd»
 en:	<touch> (emotionally)
 def:	KGT
+com:	"{muDuQ bom} ('The song stabs me,' or, in a more colloquial Federation
+        Standard form, 'The song moves me')" [KGT p.72]
 file:	1997-11-01-kgt.txt
 
 tlh:	{DuQwI'}
@@ -3678,7 +3692,8 @@ sv:	«osäker person», någon uppfylld av självtvivel, «självtvivlare»
 en:	<insecure one>, one full of self-doubt, <self-doubter>
 	[regional, slang]
 def:	KGT
-com:	Entries differ and have been combined here.
+com:	Entries differ and have been combined here. Slang term from the Vospeg
+	region.
 file:	1997-11-01-kgt.txt
 
 tlh:	{ghay}
@@ -11554,8 +11569,9 @@ sv:	vara «hemlig»
 en:	be «secret»
 def:	PK
 ref:	CK
-com:	PK: "'I have secret information, you will find it useful.'
-	{De' pegh vIghajlI' 'e' Datu'.}"
+com:	{pegh De'vetlh.} "That information is secret." [CK]; {De' pegh
+	vIghajlI' 'e' Datu'} "I have secret information, you will find it
+	useful." [PK]; {peghHa'moH} "cause to not keep a secret" [KGT]
 file:	1992-10-01-ck.txt; 1993-10-01-pk.txt
 
 tlh:	{pegh} [1.2]
@@ -14394,6 +14410,10 @@ pos:	verb
 sv:	«förklara»
 en:	<explain>
 def:	TKD
+com:	"[..] object of {QIj} is that which is explained, while the person to
+	whom the explanation is given is the indirect object: {yaSvaD nab QIj}
+	('He/she explains the plan to the officer'; {yaSvaD,} 'for the
+	officer'; {nab,} 'plan')." [KGT p.149]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -14687,6 +14707,17 @@ pos:	verb
 sv:	vara «död» (om mat) [slang]
 en:	be <dead> (referring to food) [slang]
 def:	KGT
+com:	"The word {Qop} means 'be worn out' and is usually applied to old
+	weapons, tools, mechanical devices, and the like. It is also used to
+	mean 'be dead,' but only in reference to an animal that one was
+	expecting to eat live. If a bowl of dead {qagh} ('<gagh,> serpent
+	worms') is placed before a Klingon, the disappointed diner will
+	probably criticize the cook for preparing {qagh Qop} ('dead <gagh'>).
+	The normal way to say 'be dead,' referring to a person or animal, is by
+	using the form {Heghpu'} ('has died'): {Heghpu' SuvwI'} ('The warrior
+	has died'). It is not appropriate to say {SuvwI' Qop} ('dead warrior,
+	worn-out warrior.')" [KGT p.162]
+see:	{Hegh}
 file:	1997-11-01-kgt.txt
 
 tlh:	{QopmoH}
@@ -14908,6 +14939,12 @@ sv:	«kommunikation»er, kommunikationsrelaterad teknologi
 en:	«communication»s, communication related technology
 def:	BoP
 file:	1998-11-01-bop.txt
+meta:	Evidence for this word (as a noun): "{Qum De'wI'} 'Communications
+	Computer'", "{Qum SeHlaw} 'Communications Console'" and "{Qum patmey}
+	'Communications Systems'" [BoP]; Evidence against this word as a noun:
+	"[The word '{Qum}'] is found elsewhere only as a verb ({Qum,}
+	'communicate'), suggesting that there may have been a noun {Qum}
+	('communication') at some point in the past." [KGT p.159]
 
 tlh:	{QumpIn}
 pos:	noun
@@ -16742,9 +16779,20 @@ sv:	vara «modig», vara «heroisk», vara «djärv», vara «dristig», vara
 	«tapper», vara «oförskräckt» [slang]
 en:	be <brave>, be <heroic>, be <bold>, be <valiant>, be <intrepid>
 	[slang]
+com:	"Literally meaning 'be solid,' as opposed to gaseous or liquid, {Sub},
+	in its slang usage, may be applied to a person. Thus, {SuvwI' Sub} is
+	'brave warrior' (literally, 'solid warrior'; {SuvwI',} 'warrior') and
+	{Sub SuvwI'} means 'The warrior is brave' (literally, 'The warrior is
+	solid'). It is inappropriate to use the word to describe anything other
+	than a person; a phrase such as {may' Sub} ({may',} 'battle') would
+	mean only 'solid battle' and would probably be considered a meaningless
+	utterance. The slang meaning of {Sub} is probably influenced by the
+	phonetically identical noun {Sub,} meaning 'hero.' Nonslang equivalents
+	for {Sub} are {yoH} ('be brave') and {jaq} ('be bold'), which can be
+	used pretty much interchangeably." [KGT p.165-166]
 def:	KGT
-com:	Entries differ in source. The K-E entry is used here.
 file:	1997-11-01-kgt.txt
+meta:	Entries differ in source. The K-E entry is used here.
 
 tlh:	{Subpu' vaS}
 pos:	noun
@@ -17686,6 +17734,9 @@ pos:	noun
 sv:	«stråle»
 en:	<ray>
 def:	TKD
+com:	{nISwI' tIH} ~disruptor beam~ [KGT p.56] {luHwI' tIH} ~tractor beam~
+	[Email 2010-12-13 (by Lieven L. Litaer, to tlhingan-hol, "tractor
+	beam")]
 file:	1992-01-01-tkd.txt
 
 tlh:	{tIH} [.2]
@@ -18449,6 +18500,19 @@ pos:	noun
 sv:	«ordning», «struktur» (på samhälle) [slang]
 en:	<order>, <structure> (societal) [slang]
 def:	KGT
+com:	"The word {tlham}, literally meaning 'gravity,' is used to mean 'order'
+	or 'structure' in the sense of an ordered or well-structured society.
+	In the same way that gravity holds one to a planet (or, in the case of
+	artificial gravity, to the floor of a space vessel), the structure of a
+	society holds its members in, preventing them from going off in all
+	directions. In other words, it ensures that a society function properly
+	by keeping it from coming apart. The word is used in phrases such as
+	{tlham ghaj} ('have gravity'---that is, 'have structure, order') or
+	{tlham Hutlh} ('lack gravity' or 'lack structure, order'). A very well
+	ordered society may be said to have {tlham'a'} ('big gravity') or
+	{tlham HoS} ('strong gravity'), while a society that is judged to be
+	falling apart may have {tlhamHom} ('little gravity') or {tlham puj}
+	('weak gravity')." [KGT p.166]
 file:	1997-11-01-kgt.txt
 
 tlh:	{tlhap}
@@ -18952,6 +19016,11 @@ pos:	verb
 sv:	vara «upprymd», vara «stimulerad», vara «upplivad» [slang]
 en:	be <exhilarated>, be <stimulated>, be <invigorated> [slang]
 def:	KGT
+com:	"Literally meaning 'breathe,' this word is used in such expressions as
+	{jItlhuH} ('I am exhilarated, it's exhilarating to me'; literally, 'I
+	breathe'). Perhaps a near equivalent in standard Klingon is {Sey} ('be
+	excited')." [KGT
+see:	{Sey}
 file:	1997-11-01-kgt.txt
 
 tlh:	{tlhuH} [2]
@@ -19171,6 +19240,17 @@ pos:	verb
 sv:	vara «effektiv», vara «energisk», vara «kraftfull»
 en:	be <effective>, be <vigorous>
 def:	KGT
+com:	"A weapon that is particularly good, that is well designed and well
+        constructed, is normally described as {vaQ}. Thus, a {taj vaQ} is a
+        meticulously made knife and a {ghanjaq vaQ} is an especially nice mace.
+        In speaking about a fine weapon, one could compliment it even further
+        by adding the emphatic {-qu'} to {vaQ}. A really spectacular <bat'leth>
+        would be a {betleH vaQqu'}. The word {vaQ} is not often used in
+        describing the newer weapons (disruptors and the like), though such
+        locutions are heard from time to time. The original meaning of {vaQ}
+        has been extended to mean 'effective, vigorous, aggressive' and is now
+        heard applied not only to weapons but also to people: {SuvwI' vaQ}
+        ('aggressive warrior')." [KGT p.68]
 file:	1997-11-01-kgt.txt
 
 tlh:	{vaS}
@@ -20554,6 +20634,7 @@ pos:	noun
 sv:	«svärd» [slang]
 en:	<sword> [slang]
 def:	KGT
+com:	Slang based on Krotmag dialect pronunciation.
 file:	1997-11-01-kgt.txt
 
 tlh:	{yagh}
@@ -20912,7 +20993,20 @@ tlh:	{yIv} [.2]
 pos:	verb
 sv:	«förarga», «besvära», «reta», «irritera» [slang]
 en:	<annoy>, <bother>, <irk>, <irritate> [slang]
+desc:	{muyIv yaS} ~the officer irks me~ (subject = person/creature)
 def:	KGT
+com:	"[..] literally means 'chew.' In its slang sense, it is found in such
+	constructions as {choyIv} ('You bother me'---literally, 'You chew me';
+	{cho-,} 'You [do something to] me') or {muyIv romuluS Ha'DIbaH} ('The
+	Romulan dog irks me'; literally, 'The Romulan animal chews me,' where
+	'Romulan animal' is a derogatory way to refer to a Romulan; {mu-,}
+	'He/she [does something to] me'; {romuluS,} 'Romulus'; {Ha'DIbaH,}
+	'animal'). The subject of {yIv} can be only a person or creature, not
+	an inanimate object or a situation. Thus, it is inappropriate to say
+	something like {muyIv 'Iw HIq bIr} ('cold bloodwine chews me'; {'Iw
+	HIq,} 'bloodwine'; {bIr,} 'be cold'). Standard ways to express the same
+	idea are {nuQ} ('annoy, bother') and {berghmoH} ('irritate')." [KGT
+	p.164]
 file:	1997-11-01-kgt.txt
 
 tlh:	{yIvbeH} [.1]
@@ -21835,6 +21929,13 @@ pos:	noun
 sv:	ett slags «djur», «~igvah~»
 en:	type of <animal>, <~igvah~>
 def:	KGT
+com:	"[..] throughout the Empire, a soup whose main component is ~igvah~
+        liver has a special name, {ghaw'}. This word is avoided in the Vospeg
+        region, however, because there, the word {ghaw'} is a slang term
+        meaning something like 'one who is full of self-doubt or who is
+        insecure' and is a word used only as an insult. To refer to the soup,
+        one simply says {'IghvaH chej chatlh} (literally, '~igvah~ liver
+        soup')." [KGT p.30]
 file:	1997-11-01-kgt.txt
 
 tlh:	{'IH}
