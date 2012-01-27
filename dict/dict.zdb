@@ -8721,21 +8721,26 @@ en:	<crown>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
-tlh:	{mIw} [.1]
+tlh:	{mIw}
 pos:	noun
-sv:	«procedur», «process»
-en:	<procedure>, «process»
-def:	TKDa
-file:	1992-01-01-tkd.txt
-meta:	Is this a valid word---shouldn't {nab} be used instead, and
-	{mIw} be used for "step, stage (in a process)"?
-
-tlh:	{mIw} [.2]
-pos:	noun
-sv:	«steg», «del» (i en process)
-en:	<step>, <stage> (in a process)
-def:	KGT
-file:	1997-11-01-kgt.txt
+sv:	«delsteg», «moment» (i ett «förlopp»)
+en:	<step>, <stage> (in a <procedure> or «process»)
+desc:	{mIw wa'DIch Data'} ~you accomplish the first step~
+def:	TKDa; KGT
+ref:	KGT p.177
+com:	"{'oy'naQ DaQeqDI' mIw wa'DIch Data', 'ach 'oy'naQ Dachu'DI' mIw
+	paghDIch Data'.} ('When you aim the painstik, you accomplish the first
+	step, but when you turn the painstik on, you accomplish the zeroth
+	step' [...] {mIw,} 'procedure'; [...] )" [KGT p.177]
+	"{'oy'naQ Dachu'Ha'DI' mIw HochDIch Data'} ('When you turn the painstik
+	off, you accomplish the last step'; [...] )" [KGT p.177]
+see:	{nab} "plan"
+file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
+meta:	Translation here comes from KGT. -- TKD translates as "procedure,
+	process", while KGT says "step, stage (in a process)". KGT translation
+	used here since all examples ({mIw wa'DIch} "first step", {mIw
+	paghDIch} "zeroth step" and {mIw HochDIch} "last step" [KGT p.177])
+	seem to favor the "step" translation.
 
 tlh:	{mIy}
 pos:	verb
