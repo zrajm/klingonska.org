@@ -6324,20 +6324,28 @@ ref:	TKW pp.203, 206
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{jIj} [.1]
+tlh:	*{jIj}
+warn:	use {yeq} instead
 pos:	verb
 sv:	«samarbeta»
 en:	«cooperate»
 def:	TKD K-E
-see:	{yeq}
+see:	{yeq} "cooperate"
+data:	deprecated
 file:	1992-01-01-tkd.txt
+meta:	Using *{jIj} to mean "cooperate" is assumed a mistake -- {jIj} means
+	"be cooperative". The (incorrect) "cooperate" translation only occurs
+	in TKD K-E (E-K side lists {yeq} for "cooperate"). In KGT, {jIj} is
+	translated as "be cooperative", and examples [KGT p.159] explicitly
+	show the difference between {jIj} and {yeq}: {reH yeq} ("always
+	cooperate"), and {reH jIj} ("always be cooperative").
 
-tlh:	{jIj} [.2]
+tlh:	{jIj}
 pos:	verb
 sv:	vara «samarbetsvillig»
 en:	be <cooperative>
 def:	KGT
-see:	{yeq}
+see:	{yeq} "cooperate"
 file:	1997-11-01-kgt.txt
 
 tlh:	{jIl}
@@ -20926,7 +20934,7 @@ pos:	verb
 sv:	«samarbeta»
 en:	<cooperate>
 def:	TKD E-K
-see:	{jIj}
+see:	{jIj} "be cooperative"
 file:	1992-01-01-tkd.txt
 
 tlh:	{yer}
