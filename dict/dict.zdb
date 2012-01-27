@@ -1,5 +1,6 @@
 ----------------------
-[2011-11-01] 2698 Klingon words (not counting affixes & words marked with '*').
+[2012-01-27] 2732 Klingon words (not counting affixes & words marked with '*').
+[2011-11-01] 2698 words.
 Sorted in Klingon alphabetical order.
 ----------------------
 
@@ -19315,18 +19316,12 @@ en:	<mock>
 def:	TKDa
 file:	1992-01-01-tkd.txt
 
-tlh:	{vaQ} [.1]
+tlh:	{vaQ}
 pos:	verb
-sv:	vara «aggressiv»
-en:	be <aggressive>
-def:	TKD
-file:	1992-01-01-tkd.txt
-
-tlh:	{vaQ} [.2]
-pos:	verb
-sv:	vara «effektiv», vara «energisk», vara «kraftfull»
-en:	be <effective>, be <vigorous>
-def:	KGT
+sv:	vara «aggressiv», vara «effektiv», vara «energisk», vara «kraftfull»
+en:	be <aggressive>, be <effective>, be <vigorous>
+desc:	about person or trad. weapon (rarely for modern weapon)
+def:	TKD; KGT
 com:	"A weapon that is particularly good, that is well designed and well
         constructed, is normally described as {vaQ}. Thus, a {taj vaQ} is a
         meticulously made knife and a {ghanjaq vaQ} is an especially nice mace.
@@ -19338,7 +19333,7 @@ com:	"A weapon that is particularly good, that is well designed and well
         has been extended to mean 'effective, vigorous, aggressive' and is now
         heard applied not only to weapons but also to people: {SuvwI' vaQ}
         ('aggressive warrior')." [KGT p.68]
-file:	1997-11-01-kgt.txt
+file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{vaS}
 pos:	noun
