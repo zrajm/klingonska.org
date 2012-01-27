@@ -454,7 +454,10 @@ sub read_dict {
                 $line = $.;                 #     remember line
                 $record{$line} = "";        #     init record value
             }
-        } elsif (s/^\t+/ /) {               # continuation line
+        } elsif (/^\s/) {                   # continuation line
+            warn "continuation line must start with tab in line $.\n"
+                unless /^\t\S/;
+            s/^\s+/ /;                      #   strip indenttion
             chomp($record{$line});          #   strip previous newline
         }
         $record{$line} .= $_;               # append value to record

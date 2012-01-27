@@ -1776,8 +1776,8 @@ sv:	«kamrer», «revisor», «finansman» [slang]
 en:	<accountant>, <financier> [slang]
 def:	KGT
 com:	Mildly derogatory in its slang usage, this word literally means 'adder,
-        one who adds.' There is no known nonslang counterpart, though {HuchQeD}
-        (literally, 'money science') is often used for 'economics.' [KGT p.148]
+	one who adds.' There is no known nonslang counterpart, though {HuchQeD}
+	(literally, 'money science') is often used for 'economics.' [KGT p.148]
 cat:	math
 file:	1997-11-01-kgt.txt
 
@@ -3453,7 +3453,7 @@ sv:	göra (någon) «rörd»
 en:	<touch>, «move» (emotionally)
 def:	KGT
 com:	"{muDuQ bom} ('The song stabs me,' or, in a more colloquial Federation
-        Standard form, 'The song moves me')" [KGT p.72]
+	Standard form, 'The song moves me')" [KGT p.72]
 file:	1997-11-01-kgt.txt
 
 tlh:	{DuQwI'}
@@ -3624,13 +3624,13 @@ desc:	{may' ghang SuvwI'} ~the warrior ends the battle prematurely;~
 	participants are subj.
 def:	HQ12:2 p.8
 ref:	TDNW
-com:	"[...] {ghang}, is used to express the idea of a premature ending. If [...]
-	the voyage is cut short or the song is interrupted before the final
-	part is sung, one would say: {leng ghangDI' SuvwI'pu' 'IQ chaH} 'When
-	the warriors end the voyage prematurely, they are sad.'; {bom ghangDI'
-	SuvwI'pu' tlhutlh chaH} 'When the warriors end the song prematurely,
-	they drink.' Note that the voyage and the song cannot end themselves.
-	Someone has to end them." [HQ12:2 p.8]
+com:	"[...] {ghang}, is used to express the idea of a premature ending. If
+	[...] the voyage is cut short or the song is interrupted before the
+	final part is sung, one would say: {leng ghangDI' SuvwI'pu' 'IQ chaH}
+	'When the warriors end the voyage prematurely, they are sad.'; {bom
+	ghangDI' SuvwI'pu' tlhutlh chaH} 'When the warriors end the song
+	prematurely, they drink.' Note that the voyage and the song cannot end
+	themselves. Someone has to end them." [HQ12:2 p.8]
 see:	{van} (2), {Dor} (2)
 file:	2003-06-holqed-12-2.txt
 
@@ -3817,11 +3817,10 @@ pos:	verb
 sv:	«formulera», «sammanställa», «sätta ihop»
 en:	«formulate», «compile», «pull together»
 def:	News 1998-07-09
-com:	"The idea seems to be that of bringing thoughts together into
-	some kind of reasonably coherent form so that they can be
-	conveyed to someone else. [...] (Maltz laughed at, but
-	accepted, {Soj tetlh gher} for 'he/she writes the grocery
-	list' [{Soj} 'food'].)"
+com:	"The idea seems to be that of bringing thoughts together into some kind
+	of reasonably coherent form so that they can be conveyed to someone
+	else. [...] (Maltz laughed at, but accepted, {Soj tetlh gher} for
+	'he/she writes the grocery list' [{Soj} 'food'].)"
 file:	1998-07-09-news.txt
 
 tlh:	{gheS}
@@ -6933,8 +6932,8 @@ pos:	verb
 sv:	«flaxa», «slå» (om fågelvingar)
 en:	«flap» (bird's wings do this)
 def:	HQ10:4 p.5
-com:	Used about a birds wings. "[...] in flight, a bird's wings {laq}
-	(the bird is said to {laqmoH} its wings)" [HQ10:4 p. 5]
+com:	Used about a birds wings. "[...] in flight, a bird's wings {laq} (the
+	bird is said to {laqmoH} its wings)" [HQ10:4 p. 5]
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{laQ}
@@ -14498,7 +14497,7 @@ desc:	{SoHvaD nab vIQIj} ~I explain the plan for you;~ thing being explained
 	is obj.
 def:	TKD
 ref:	KGT p.149
-com:	"[..] object of {QIj} is that which is explained, while the person to
+com:	"[...] object of {QIj} is that which is explained, while the person to
 	whom the explanation is given is the indirect object: {yaSvaD nab QIj}
 	('He/she explains the plan to the officer'; {yaSvaD,} 'for the
 	officer'; {nab,} 'plan')." [KGT p.149]
@@ -14725,9 +14724,9 @@ sv:	vara «riskfylld», vara «riskabel», vara «förrädisk», vara «opålitl
 	[slang]
 en:	be <hazardous>, be <perilous>, be <treacherous> [slang]
 desc:	about mission/voyage: {Qom He} ~the route is perilous~ (lit. ~the route
-        experiences a tremor~); with {-pu'} about structure/vessel: {Qompu'
-        Duj} ~the ship is hazardous/has been left in a hazardous condition~
-        (lit. ~the ship has experienced a tremor~) [KGT pp.161--162]
+	experiences a tremor~); with {-pu'} about structure/vessel: {Qompu'
+	Duj} ~the ship is hazardous/has been left in a hazardous condition~
+	(lit. ~the ship has experienced a tremor~) [KGT pp.161--162]
 def:	KGT
 ref:	TDNW
 file:	1997-11-01-kgt.txt
@@ -19338,16 +19337,16 @@ en:	be <aggressive>, be <effective>, be <vigorous>
 desc:	about person or trad. weapon (rarely for modern weapon)
 def:	TKD; KGT
 com:	"A weapon that is particularly good, that is well designed and well
-        constructed, is normally described as {vaQ}. Thus, a {taj vaQ} is a
-        meticulously made knife and a {ghanjaq vaQ} is an especially nice mace.
-        In speaking about a fine weapon, one could compliment it even further
-        by adding the emphatic {-qu'} to {vaQ}. A really spectacular <bat'leth>
-        would be a {betleH vaQqu'}. The word {vaQ} is not often used in
-        describing the newer weapons (disruptors and the like), though such
-        locutions are heard from time to time. The original meaning of {vaQ}
-        has been extended to mean 'effective, vigorous, aggressive' and is now
-        heard applied not only to weapons but also to people: {SuvwI' vaQ}
-        ('aggressive warrior')." [KGT p.68]
+	constructed, is normally described as {vaQ}. Thus, a {taj vaQ} is a
+	meticulously made knife and a {ghanjaq vaQ} is an especially nice mace.
+	In speaking about a fine weapon, one could compliment it even further
+	by adding the emphatic {-qu'} to {vaQ}. A really spectacular <bat'leth>
+	would be a {betleH vaQqu'}. The word {vaQ} is not often used in
+	describing the newer weapons (disruptors and the like), though such
+	locutions are heard from time to time. The original meaning of {vaQ}
+	has been extended to mean 'effective, vigorous, aggressive' and is now
+	heard applied not only to weapons but also to people: {SuvwI' vaQ}
+	('aggressive warrior')." [KGT p.68]
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{vaS}
@@ -21091,7 +21090,7 @@ sv:	«förarga», «besvära», «reta», «irritera» [slang]
 en:	<annoy>, <bother>, <irk>, <irritate> [slang]
 desc:	{muyIv yaS} ~the officer irks me;~ person/creature is subj.
 def:	KGT
-com:	"[..] literally means 'chew.' In its slang sense, it is found in such
+com:	"[...] literally means 'chew.' In its slang sense, it is found in such
 	constructions as {choyIv} ('You bother me'---literally, 'You chew me';
 	{cho-,} 'You [do something to] me') or {muyIv romuluS Ha'DIbaH} ('The
 	Romulan dog irks me'; literally, 'The Romulan animal chews me,' where
@@ -21101,8 +21100,8 @@ com:	"[..] literally means 'chew.' In its slang sense, it is found in such
 	an inanimate object or a situation. Thus, it is inappropriate to say
 	something like {muyIv 'Iw HIq bIr} ('cold bloodwine chews me'; {'Iw
 	HIq,} 'bloodwine'; {bIr,} 'be cold'). Standard ways to express the same
-	idea are {nuQ} ('annoy, bother') and {berghmoH} ('irritate')." [KGT
-	p.164]
+	idea are {nuQ} ('annoy, bother') and {berghmoH} ('irritate')."
+	[KGT p.164]
 file:	1997-11-01-kgt.txt
 
 tlh:	{yIvbeH} [.1]
@@ -22026,13 +22025,13 @@ pos:	noun
 sv:	ett slags «djur», «~igvah~»
 en:	type of <animal>, <~igvah~>
 def:	KGT
-com:	"[..] throughout the Empire, a soup whose main component is ~igvah~
-        liver has a special name, {ghaw'}. This word is avoided in the Vospeg
-        region, however, because there, the word {ghaw'} is a slang term
-        meaning something like 'one who is full of self-doubt or who is
-        insecure' and is a word used only as an insult. To refer to the soup,
-        one simply says {'IghvaH chej chatlh} (literally, '~igvah~ liver
-        soup')." [KGT p.30]
+com:	"[...] throughout the Empire, a soup whose main component is ~igvah~
+	liver has a special name, {ghaw'}. This word is avoided in the Vospeg
+	region, however, because there, the word {ghaw'} is a slang term
+	meaning something like 'one who is full of self-doubt or who is
+	insecure' and is a word used only as an insult. To refer to the soup,
+	one simply says {'IghvaH chej chatlh} (literally, '~igvah~ liver
+	soup')." [KGT p.30]
 file:	1997-11-01-kgt.txt
 
 tlh:	{'IH}
