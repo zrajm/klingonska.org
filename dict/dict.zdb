@@ -14199,20 +14199,17 @@ en:	be <popular>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{Qatlh} [.1]
+tlh:	{Qatlh}
 pos:	verb
-sv:	vara «svår»
-en:	be <difficult>
-def:	TKD
+sv:	vara «svår», vara «komplex», vara «komplicerad»
+en:	be <complex>, be <difficult>
+def:	TKD; KGT
+com:	"[...] among Klingons, a task that is difficult ({Qatlh}) is more
+	highly valued than one that is easy ({ngeD})." [KGT p.179]
 data:	KLCP-1
-file:	1992-01-01-tkd.txt
-
-tlh:	{Qatlh} [.2]
-pos:	verb
-sv:	vara «komplex», vara «komplicerad»
-en:	be <complex>
-def:	KGT
-file:	1997-11-01-kgt.txt
+file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
+meta:	"be difficult (v)" [TKD]; "difficult" [KGT pp.160, 179]; "be complex
+	(v)" [KGT]. Combined here.
 
 tlh:	{Qav}
 pos:	verb
