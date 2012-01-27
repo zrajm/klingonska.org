@@ -8416,23 +8416,17 @@ en:	<reason>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
-tlh:	{meq} [2.1]
+tlh:	{meq} [2]
 pos:	noun
-sv:	«förnuft», «vett», logiskt «tänkande»
-en:	<reason>, logical «thinking»
+sv:	«orsak», «motiv», «anledning», «skäl», «tankesätt»
+en:	<reason>, <motive>, logical «thinking»
 def:	TKD; KGT p.154
+ref:	TKW p.143
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
-meta:	Are "{meq} [2.1]" and "{meq} [2.2]" actually the same thing?
-
-tlh:	{meq} [2.2]
-pos:	noun
-sv:	«motiv», «orsak», «anledning»
-en:	<motive>, «reason»
-def:	KGT
-ref:	TKW p.143
-file:	1997-11-01-kgt.txt
-meta:	Are "{meq} [2.1]" and "{meq} [2.2]" actually the same thing?
+meta:	Word list entries in says "reason" in TKD, and "motive" in KGT while
+	and "reason"/"logical thinking" is used in KGT p.154. Entries are
+	combined here.
 
 tlh:	{meqba'}
 pos:	noun
