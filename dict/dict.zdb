@@ -14731,16 +14731,11 @@ pos:	verb
 sv:	vara «riskfylld», vara «riskabel», vara «förrädisk», vara «opålitlig»
 	[slang]
 en:	be <hazardous>, be <perilous>, be <treacherous> [slang]
+desc:	about mission/voyage: {Qom He} ~the route is perilous~ (lit. ~the route
+        experiences a tremor~); with {-pu'} about structure/vessel: {Qompu'
+        Duj} ~the ship is hazardous/has been left in a hazardous condition~
+        (lit. ~the ship has experienced a tremor~) [KGT pp.161--162]
 def:	KGT
-file:	1997-11-01-kgt.txt
-
-tlh:	{Qompu'}
-pos:	verb
-sv:	vara «farlig», vara «förrädisk», vara «opålitlig»
-en:	be «dangerous», be «hazardous» (about a thing)
-desc:	{Qompu' Duj} ~the ship is hazardous/has been left in a hazardous
-	condition~ (lit. ~the ship has experienced a tremor~)
-def:	KGT p.163
 ref:	TDNW
 file:	1997-11-01-kgt.txt
 
