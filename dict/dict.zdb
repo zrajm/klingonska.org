@@ -204,12 +204,13 @@ sv:	«fela», göra ett «misstag» [slang]
 en:	<err>, make a <mistake> [slang]
 def:	KGT
 ref:	KLINW
-com:	Should this word even be used? {Qagh} seem to mean the same thing.
 pun:	This is the first word in the K-E side of the dictionary, and is
 	incorrectly given as a noun. MO has confirmed this to be an
 	intentional error (since there is always an error somewhere, in
 	every dictionary).
 file:	1997-11-01-kgt.txt
+meta:	FIXME -- Should this word even be used? {Qagh} seem to mean the same
+	thing.
 
 tlh:	{bagh}
 pos:	verb
@@ -525,9 +526,9 @@ pos:	noun
 sv:	«år gammal»
 en:	<years old>
 def:	KGT
-com:	¿?Check this and previous one with ~News~.
 cat:	time
 file:	1997-11-01-kgt.txt
+meta:	FIXME -- Check this and previous one with ~News~.
 
 tlh:	[1] {bep}
 pos:	verb
@@ -620,9 +621,9 @@ pos:	noun
 sv:	«ceremoniell utställning», «ceremoniell uppvisning»
 en:	<ceremonial display>
 def:	KGT
-com:	¿?Eller ska det översättas med "ställ", liksom de andra
-	"display"-orden?
 file:	1997-11-01-kgt.txt
+meta:	FIXME -- Should the Swedish translation be "ställ", like the other
+	"display" related words?
 
 tlh:	{be'}
 pos:	noun
@@ -1056,9 +1057,9 @@ sv:	«allians», «block», «sammanslutning», «koalition», «fusion»
 en:	<alliance>, <bloc>, <coalition>, «fusion»
 def:	TKD; KGT; BoP
 ref:	KLINW
-com:	Entries from TKD, KGT and BoP have been combined here. "{Hong boq
-	chuyDaH: loS} 'Impulse Fusion Thrusters -- 4'" [BoP]
+com:	"{Hong boq chuyDaH: loS} 'Impulse Fusion Thrusters -- 4'" [BoP]
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt; 1998-11-01-bop.txt
+meta:	Entries from TKD, KGT and BoP have been combined here.
 
 tlh:	{boqHa'}
 pos:	verb
@@ -1143,9 +1144,9 @@ tlh:	{bortaS «DIb»}
 pos:	noun
 sv:	«Vedergällningsrätt», «Rätt till hämnd»
 en:	<Right of Vengeance>
+desc:	a legal right
 def:	KGT
 ref:	TKW p.121
-com:	a legal right
 data:	phrase
 file:	1997-11-01-kgt.txt
 
@@ -1162,12 +1163,12 @@ sv:	«förhindra», «blockera», «hindra»
 en:	<prevent>, <block>, <prohibit>
 def:	TKD
 ref:	TKW p.9
-com:	Abstract/active meaning? (Such as a parent prohibiting a child from
-	buying candy, or moving an arm to block a blow etc.) See also {waQ}
-	which perhaps is the same thing in a more concrete/passive way?
 see:	{waQ}
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	FIXME -- Abstract/active meaning? (Such as a parent prohibiting a child
+	from buying candy, or moving an arm to block a blow etc.) See also
+	{waQ} which perhaps is the same thing in a more concrete/passive way?
 
 tlh:	{botjan}
 pos:	noun
@@ -1378,11 +1379,12 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{chaDvay'}
 pos:	noun
-sv:	«radio«frekvens»»
-en:	«radio <frequency>», Hertz
+sv:	«radio«frekvens»», hertz (frekvensenhet)
+en:	«radio <frequency>», Hertz («unit» of frequency)
 def:	KGT
 ref:	TDNW
 com:	According to HQ1:3 p.9, this means "Hertz (frequency)".
+cat:	unit
 file:	1997-11-01-kgt.txt
 
 tlh:	{chagh}
@@ -1719,10 +1721,9 @@ pos:	noun
 sv:	en slags «sprit», «~chech'tluth~»
 en:	type of <liquor>, <~chech'tluth~>
 def:	KGT
-com:	Entries differ in source.
-	The "~baceh'tluth~" found in K-E is presumed an error and
-	excluded here.
 file:	1997-11-01-kgt.txt
+meta:	Entries differ in source. The spelling "~baceh'tluth~" found in KGT K-E
+	is presumed an error and not included here.
 
 tlh:	{chegh}
 pos:	verb
@@ -1774,6 +1775,9 @@ pos:	noun
 sv:	«kamrer», «revisor», «finansman» [slang]
 en:	<accountant>, <financier> [slang]
 def:	KGT
+com:	Mildly derogatory in its slang usage, this word literally means 'adder,
+        one who adds.' There is no known nonslang counterpart, though {HuchQeD}
+        (literally, 'money science') is often used for 'economics.' [KGT p.148]
 cat:	math
 file:	1997-11-01-kgt.txt
 
@@ -1782,8 +1786,7 @@ pos:	noun
 sv:	ett slags «djur», «~chemvah~»
 en:	type of <animal>, «~chemvah~»
 def:	KGT
-com:	Klingon females sound like this animal when courting a
-	potential mate.
+com:	Klingon females sound like this animal when courting a potential mate.
 file:	1997-11-01-kgt.txt
 
 tlh:	{chen}
@@ -1857,8 +1860,8 @@ pos:	noun
 sv:	«rock», «jacka» (generell term) [regionalt]
 en:	<coat>, «jacket» (general term) [regional]
 def:	KGT
-com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{chetvI'} [.1]
 pos:	noun
@@ -1873,9 +1876,9 @@ pos:	noun
 sv:	«~chetvi~», «spjut-slunga»
 en:	«~chetvi~», <spear-throwing device>
 def:	KGT
-com:	The word "~chetvi~" found in definition of {wob} in KGT K-E.
 cat:	fighting
 file:	1997-11-01-kgt.txt
+meta:	The word "~chetvi~" found in definition of {wob} in KGT K-E.
 
 tlh:	{chev}
 pos:	verb
@@ -1952,8 +1955,8 @@ pos:	verb
 sv:	vara «tom», vara «övergiven», vara «obebodd»
 en:	be <empty>, be <deserted>, be <uninhabited>
 def:	TKD
-com:	Entries differ and have been combined here.
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{chIp}
 pos:	verb
@@ -2463,16 +2466,16 @@ sv:	vara «ouppmärksam», vara «distraherad», sakna «koncentration» [slang]
 en:	be <not attentive>, be <distracted>, <lack focus>, to not pay attention
 	[slang]
 def:	KGT
-com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{Daghtuj}
 pos:	noun
 sv:	«blandning» av djurdelar, ihopblandade «djurdelar»
 en:	<mixture> of animal parts, <animal parts> mixed together
 def:	KGT
-com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	[1] {DaH}
 pos:	adverbial
@@ -2569,8 +2572,9 @@ pos:	noun
 sv:	«plats», «ställe»
 en:	<site>, <location>, «place»
 def:	TKDa
-com:	"place" is included as a lookup synonym (does not occur in sources)
 file:	1992-01-01-tkd.txt
+meta:	The word "place" does not occur in any canon sources, but was added to
+	ease lookup.
 
 tlh:	{Daqtagh}
 pos:	noun
@@ -2646,9 +2650,9 @@ pos:	verb
 sv:	«svänga», förflytta sig i sidled (om flygmaskin)
 en:	«sway», move to the side (about aircraft)
 def:	HQ11:2 p.9
-com:	"When it moves to the side (not when the nose points to the left or
-	right, but when the plane slides to the left or right without
-	otherwise changing its orientation)" [HQ11:2 p.9]
+com:	"When it [an aircraft] moves to the side (not when the nose points to
+	the left or right, but when the plane slides to the left or right
+	without otherwise changing its orientation)" [HQ11:2 p.9]
 file:	2002-06-holqed-11-2.txt
 
 tlh:	{DavHam}
@@ -2752,7 +2756,6 @@ pos:	noun
 sv:	«medalj», «emblem», «symbol», «märke»
 en:	<medal>, <emblem>, «symbol», «insignia»
 def:	TKDa
-com:	Perhaps this would be used for "letter" too?
 file:	1992-01-01-tkd.txt
 
 tlh:	{DeghwI'}
@@ -2880,8 +2883,8 @@ pos:	noun
 sv:	«skaft», «yxskaft»
 en:	<handle>, <ax handle>
 def:	KGT
-com:	Entries differ in source. One of the E-K entries is used here.
 file:	1997-11-01-kgt.txt
+meta:	Entries differ in source. One of the KGT E-K entries is used here.
 
 tlh:	{DeSqIv}
 pos:	noun
@@ -3073,8 +3076,8 @@ sv:	«federation», «organisation», «förening», «sammanslutning», «förb
 en:	<federation>, <organization>, «association», «league», «union»
 def:	TKD; HQ4:4 p.11
 com:	Article in HQ is called "More from Maltz".
-	Entries from TKD and HQ have been combined here.
 file:	1992-01-01-tkd.txt; 1995-12-holqed-04-4.txt
+meta:	Entries from TKD and HQ have been combined here.
 
 tlh:	{DIvI'may'Duj}
 pos:	noun
@@ -3117,8 +3120,8 @@ pos:	verb
 sv:	vara «fånig», vara «löjlig»
 en:	be <foolish>, be <silly>
 def:	TKD
-com:	Entries differ and have been combined here.
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{Doghjey}
 pos:	noun
@@ -3185,9 +3188,9 @@ pos:	verb
 sv:	vara «orange», vara «röd»
 en:	be <orange>, be <red>
 def:	TKD
-com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{DoQ}
 pos:	verb
@@ -3201,10 +3204,10 @@ pos:	noun
 sv:	«hastighets«restaurang»», «snabbmatsservering», «~Dok'e~»
 en:	«velocity «restaurant»», «fast-food restaurant», «~Dok'e~»
 def:	KGT pp.102, 103 et al.
-com:	This definition combines information from the definition of
-	{tebwI'} with information from the main text.
 data:	phrase
 file:	1997-11-01-kgt.txt
+meta:	This entry combines information from KGT p.102 and entry on {tebwI'} in
+	KGT word list.
 
 tlh:	[1] {Dor}
 pos:	verb
@@ -3292,9 +3295,9 @@ pos:	verb
 sv:	vara «tursam», vara «lyckosam», ha «tur», ha «lycka»
 en:	be <fortunate>, be <lucky>
 def:	TKD
-com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{Do'Ha'} [1]
 pos:	adverbial
@@ -3339,9 +3342,9 @@ pos:	noun
 sv:	«blandningskäpp», «omrörningspinne», «käpp»/«pinne» för omrörning
 en:	<stirring <stick>>, <mixing stick>
 def:	KGT
-com:	Entries differ in source. The E-K entry is used here.
 data:	derived form
 file:	1997-11-01-kgt.txt
+meta:	Entries differ in source. KGT E-K entry is used here.
 
 tlh:	{Dugh}
 pos:	verb
@@ -3402,8 +3405,8 @@ sv:	vara «underbar», vara «storslagen»
 en:	be <wonderful>, be <great>
 def:	TKD
 ref:	TKW p.15
-com:	Entries differ and have been combined here.
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{Dung}
 pos:	noun
@@ -3727,9 +3730,9 @@ sv:	«osäker person», någon uppfylld av självtvivel, «självtvivlare»
 en:	<insecure one>, one full of self-doubt, <self-doubter>
 	[regional, slang]
 def:	KGT
-com:	Entries differ and have been combined here. Slang term from the Vospeg
-	region.
+com:	Slang term from the Vospeg region.
 file:	1997-11-01-kgt.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{ghay}
 pos:	noun
@@ -3744,8 +3747,9 @@ pos:	adverbial
 sv:	«sannolikt», «antagligen», «förmodligen»
 en:	<likely>, «probably»
 def:	TKDa
-com:	"probably" is included as a lookup synonym (does not occur in sources)
 file:	1992-01-01-tkd.txt
+meta:	The word "probably" does not occur in any canon sources, but was added
+	to ease lookup.
 
 tlh:	{ghaytanHa'}
 pos:	adverbial
@@ -3928,9 +3932,9 @@ pos:	verb
 sv:	vara «slarvig», vara «sjabbig», vara «rörig», vara «kladdig»
 en:	be <messy>, be <sloppy>
 def:	TKD
-com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{ghIj}
 pos:	verb
@@ -4003,7 +4007,6 @@ sv:	«därefter», och «sedan», «efter det», «efteråt»
 en:	and then, «after that», by «then», «subsequently»
 def:	HQ8:3 p.4
 com:	Article in HQ is called "{matlh juppu' mu'mey}".
-	¿?~News~ reference?
 file:	1999-09-holqed-08-3.txt
 
 tlh:	{ghIqtal}
@@ -4063,22 +4066,22 @@ pos:	noun
 sv:	«yxhuvud», «huvud» på yxa
 en:	<ax blade>, <blade> of axe
 def:	KGT
-com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{ghItlh} [1]
 pos:	verb
 sv:	«skriva», «gravera», «rista» in, «skära» in, «märka»
 en:	<write>, <engrave>, <incise>, <mark> (upon)
 def:	TKD; HQ2:4 p.18; KGT
-com:	Entries from all sources have been combined here.
-	Article in HQ is called "Okrand's Notes":
+com:	Article in HQ is called "Okrand's Notes":
 	"'To mark (upon)' something is {ghItlh}. This isn't just
 	writing; it's any kind of marking. (Note that {ghItlh}, 'to
 	write,' refers to the physical act of writing. It doesn't
 	mean 'to create a composition.')"
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1993-12-holqed-02-4.txt; 1997-11-01-kgt.txt
+meta:	Entries from all sources have been combined here.
 
 tlh:	{ghItlh} [2]
 pos:	noun
@@ -4283,7 +4286,7 @@ pos:	noun
 sv:	«folksamling»
 en:	<crowd>
 def:	TKD
-com:	Synonymous to {qev}.
+see:	{qev} is a synonym
 data:	derived form
 file:	1992-01-01-tkd.txt
 
@@ -4379,9 +4382,9 @@ sv:	fortsätta «framåt», «nalkas», komma närmare, «avlägsna» sig ifrån
 en:	go <onward>, <approach>, <go> away from, <proceed> on a course, <come>,
 	<follow> (a course)
 def:	TKD
-com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{ghoS} [.2]
 pos:	verb
@@ -4527,8 +4530,8 @@ pos:	verb
 sv:	vara «beredd», vara «redo» (att avfyra)
 en:	be <prepared>, be ready (to launch)
 def:	ST1; TKD
-com:	The word "be" was inserted before the adjectival "ready".
 file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
+meta:	The word "be" was inserted before the adjectival "ready".
 
 tlh:	{ghuS} [.2]
 pos:	verb
@@ -4585,8 +4588,8 @@ pos:	noun
 sv:	«data«sändare»» och «mottagare»
 en:	<data <transceiving device>>
 def:	TKD
-com:	Entries differ in source. K-E entry is used here.
 file:	1992-01-01-tkd.txt
+meta:	Entries differ in source. TKD K-E entry is used here.
 
 tlh:	{Hach}
 pos:	verb
@@ -4881,8 +4884,8 @@ pos:	noun
 sv:	«rituellt «självmord»»
 en:	«ritual «suicide»»
 def:	Sarek
-com:	This, perhaps, should be {Heghbat}, too?
 file:	1995-02-01-sarek.txt
+meta:	FIXME -- This, perhaps, should be {Heghbat}, too?
 
 tlh:	{HeghmoH}
 pos:	verb
@@ -5035,9 +5038,9 @@ pos:	noun
 sv:	«pistol», «revolver»
 en:	<handgun>, <gun>
 def:	TKD
-com:	Entries differ and have been combined here.
 cat:	fighting
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{HIchDal}
 pos:	noun
@@ -5181,13 +5184,13 @@ sv:	«alla», «allihop», «allt», «allting», «varje», «varenda»
 en:	<everyone>, <all>, «everything», «each», «every»
 def:	TKD; TKW
 ref:	HQ5:2 p.11
-com:	All sources combined here.
-	First in noun-noun pair in TKW. According to HQ "More on
-	{Hoch}"; "If noun following Hoch is explicitly plural, it
-	means 'all'. If it is singular, it means 'each'."
-	Occurs in TKW p.33, 51, 74, 74, 74, 99, 136, 179, 184.
+com:	First in a noun-noun pair in TKW. According to HQ "More on {Hoch}"; "If
+	noun following Hoch is explicitly plural, it means 'all'. If it is
+	singular, it means 'each'." Occurs in TKW p.33, 51, 74, 74, 74, 99,
+	136, 179, 184.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
+meta:	All sources combined here.
 
 tlh:	{HochDIch}
 pos:	numeral
@@ -5568,7 +5571,6 @@ pos:	noun
 sv:	«ekonomi»
 en:	«economics»
 def:	KGT p.148
-com:	Slang expression with no non-slang counterpart.
 file:	1997-11-01-kgt.txt
 
 tlh:	{HuD}
@@ -5773,9 +5775,8 @@ pos:	verb
 sv:	vara «klar», vara icke-skymd
 en:	be <clear>, be not obstructed
 def:	TKD
-com:	The word "be" was inserted before the adjectival "not
-	obstructed".
 file:	1992-01-01-tkd.txt
+meta:	The word "be" was inserted before the adjectival "not obstructed".
 
 tlh:	{Huy'}
 pos:	noun
@@ -5813,8 +5814,8 @@ sv:	(generellt «invektiv»)
 en:	(general «invective»)
 def:	TKDa 5.5 (p.178)
 com:	In HQ3:3, 14 Rhonda E. Green comments that a probable translation of
-	this word would be "fuck", this based on the usage of the word in A.C.
-	Crispin's "Sarek".
+	this word would be "fuck", this based on the usage of the word in
+	A.C. Crispin's "Sarek".
 file:	1992-01-01-tkd.txt
 
 tlh:	{jab}
@@ -5830,8 +5831,8 @@ pos:	noun
 sv:	«data«överföring»»
 en:	<data <transmission>>
 def:	TKD
-com:	Entries differ in source. K-E entry is used here.
 file:	1992-01-01-tkd.txt
+meta:	Entries differ in source. TKD K-E entry is used here.
 
 tlh:	{jabwI'}
 pos:	noun
@@ -5910,12 +5911,12 @@ sv:	«idag»
 en:	«today»
 def:	TKW p.69
 ref:	TDNW
-com:	This word (meaning "this day") need not be part of the dictionary, it
-	is mostly famous for occuring in the Klingon proverb {Heghlu'meH QaQ
-	jajvam.} "It is a good day to die."
 cat:	time
 data:	derived form
 file:	1996-05-01-tkw.txt
+meta:	FIXME -- This word (meaning "this day") need not be part of the
+	dictionary, it is mostly famous for occuring in the Klingon proverb
+	{Heghlu'meH QaQ jajvam.} "It is a good day to die."
 
 tlh:	{jan} [.1]
 pos:	noun
@@ -5938,9 +5939,9 @@ sv:	«Jean-Luc Picard»
 en:	«Jean-Luc Picard»
 def:	S25
 com:	S25 was reprinted in HQ5:3 p.15
-	Word does not follow standard Klingon phonotax.
 data:	phrase; {janluq} (name); {pIqarD} (name)
 file:	1996-sbx-s25.txt
+meta:	Word does not follow standard Klingon phonotax.
 
 tlh:	{jang}
 pos:	verb
@@ -6232,10 +6233,10 @@ pos:	verb
 sv:	«storma»
 en:	<storm>
 def:	TKD
-com:	Correction in HQ4:1 p.7 disregarded, since weather words
-	{peD} and {SIS} also are verbs.
 cat:	landscape
 file:	1992-01-01-tkd.txt
+meta:	"Correction" in HQ4:1 p.7 disregarded here, since weather words {peD}
+	and {SIS} also are verbs.
 
 tlh:	{jev} [.2]
 pos:	verb
@@ -6243,11 +6244,11 @@ sv:	«väsa», «rossla», «andas» ljudligt
 en:	«wheeze», «breathe» nosily
 def:	HQ12:4 p.8
 ref:	TDNW
-com:	Most likely MO reinvented this word without realizing it already
-	existed: {tlhov} "wheeze"---it occurs only in the Klingon--English side
-	of TKD.
 see:	{tlhov} is a synonym
 file:	2003-12-holqed-12-4.txt
+meta:	Most likely MO reinvented this word without realizing it already
+	existed: {tlhov} "wheeze"---it occurs only in the Klingon--English side
+	of TKD.
 
 tlh:	[1] {jey}
 pos:	verb
@@ -6269,8 +6270,8 @@ pos:	noun
 sv:	dubbelhövdad yxa, «yxa» med dubbelt blad
 en:	double-headed ax, <ax> with double head
 def:	KGT
-com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	[1] {je'}
 pos:	verb
@@ -6288,9 +6289,8 @@ sv:	«mata» (någon annan)
 en:	<feed> (someone else)
 def:	TKD
 ref:	TKW p.7
-com:	Is used "metaphorically" in TKW to mean "enrich" (though of
-	course this may just be a way to make a smooth translation
-	into English).
+com:	Is used "metaphorically" in TKW to mean "enrich" (though of course this
+	may just be a way to make a smooth translation into English).
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -6334,11 +6334,11 @@ def:	TKD K-E
 see:	{yeq} "cooperate"
 data:	deprecated
 file:	1992-01-01-tkd.txt
-meta:	Using *{jIj} to mean "cooperate" is assumed a mistake -- {jIj} means
-	"be cooperative". The (incorrect) "cooperate" translation only occurs
-	in TKD K-E (E-K side lists {yeq} for "cooperate"). In KGT, {jIj} is
-	translated as "be cooperative", and examples [KGT p.159] explicitly
-	show the difference between {jIj} and {yeq}: {reH yeq} ("always
+meta:	*{jIj}, in the sense of "cooperate", is here assumed to be a mistake.
+	This meaning only occurs in KTD K-E, "cooperate" is translated {yeq} in
+	TKD E-K, and all occurances of {jIj} in later canon are translated as
+	"be cooperative". There is even an example in KGT p.159 explicitly
+	showing the difference between {jIj} and {yeq}: {reH yeq} ("always
 	cooperate"), and {reH jIj} ("always be cooperative").
 
 tlh:	{jIj}
@@ -6500,8 +6500,8 @@ sv:	«Dam», «Fru» (kvinnligt familjeöverhuvud), «Herre» (manligt
 	familjeöverhuvud)
 en:	<Lady> (female head of house), <Lord> (male head of house)
 def:	TKD; KGT
-com:	Entries differ and have been combined here.
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{joj}
 pos:	noun
@@ -6660,15 +6660,15 @@ sv:	«stridsspets» (på en torped)
 en:	«warhead» (of a torpedo)
 desc:	incorrect form of {jorneb}
 def:	KGT K-E
-com:	*{jornub} is here assumed to be a misspelling of {jorneb}. The word
+see:	{jorneb}
+data:	deprecated
+file:	1997-11-01-kgt.txt
+meta:	*{jornub} is here assumed to be a misspelling of {jorneb}. The word
 	occurs in KGT, twice spelled {jorneb} (on page 57 and in the
 	English--Klingon dictionary part). The fact that {jorneb} can be
 	thought of as loosely consisting of the components {jor} ~explode~ and
 	{neb} ~beak, bill~, while {nub} ~be suspect~, does not fit into the
-	word also supports this conclusion.
-see:	{jorneb}
-data:	deprecated
-file:	1997-11-01-kgt.txt
+	word also supports for its deprecation here.
 
 tlh:	{jorwI'}
 pos:	noun
@@ -6987,10 +6987,10 @@ sv:	vara «många», vara «talrika», vara «mycket»
 en:	be <many>, be <numerous>, be «much»
 def:	TKD
 ref:	TKW pp.35, 53, 95, 179; S33
-com:	Entries differ and have been combined here.
-	S33: {HoS law'qu'} "very much energy"
+com:	S33: {HoS law'qu'} "very much energy"
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{lay}
 pos:	noun
@@ -7203,9 +7203,9 @@ pos:	verb
 sv:	vara «speciell», vara «exceptionell», vara «särskild»
 en:	be <special>, be <exceptional>
 def:	TKD
-com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{le'be'}
 pos:	verb
@@ -7230,9 +7230,9 @@ pos:	verb
 sv:	«hälla» (i/på något)
 en:	<pour> (into/onto something)
 def:	KGT
-com:	Source [KGT] uses the word "anything", rather than "something" in the
-	translation.
 file:	1997-11-01-kgt.txt
+meta:	Source [KGT] uses the word "anything", rather than "something" in the
+	translation.
 
 tlh:	{lIgh}
 pos:	verb
@@ -7775,13 +7775,13 @@ pos:	noun
 sv:	«nytto», «bruks»
 en:	«utility» (preceeds noun it modifies)
 def:	BoP
-com:	Canon use indicates that this simply means "many uses". Used (in canon)
-	in the following sentences (both on BoP): {lo' law' lojmIt} ~utility
-	hatch~ and {cha' choQmey naQ tu'lu' 'ej tep choQ bIngDaq lo' law' bID
-	choQ tu'lu'} ~2 Full Decks and a Half Utility Deck under the Cargo
-	Deck~
 data:	phrase; derived form
 file:	1998-11-01-bop.txt
+meta:	FIXME -- Use in canon source indicates that this simply means "many
+	uses". Used (in canon) in the following sentences (both on BoP): {lo'
+	law' lojmIt} ~utility hatch~ and {cha' choQmey naQ tu'lu' 'ej tep choQ
+	bIngDaq lo' law' bID choQ tu'lu'} ~2 Full Decks and a Half Utility Deck
+	under the Cargo Deck~
 
 tlh:	{lu}
 pos:	verb
@@ -7803,9 +7803,9 @@ sv:	ha «rätt», vara «rätt», vara «korrekt»
 en:	be <right>, be <correct>
 def:	TKD
 ref:	TKW p.179
-com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	[1] {luH} [.1]
 pos:	verb
@@ -7821,8 +7821,8 @@ sv:	«få» (någon) att erkänna eller avslöja en hemlighet, «utkräva» ett
 en:	<cause (someone) to confess> or reveal a secret, <exact> a confession
 	[slang]
 def:	KGT
-com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	[2] {luH}
 pos:	noun
@@ -8643,10 +8643,10 @@ sv:	«steka», «fritera»
 en:	<fry>, <deep-fry>
 def:	KGT
 ref:	{qep'a'} 1997
-com:	Entries differ in source. One of the E-K entries is used here.
 pun:	"Marc nodded, smiling infuriatingly, to confirm {mIQ} (deep fry) as in
 	mIQ-Donald's french fries." (Robyn Stewart, {qep'a'} 1997)
 file:	1997-11-01-kgt.txt
+meta:	Entries differ in source. One of the KGT E-K entries is used here.
 
 tlh:	[2] {mIQ}
 pos:	noun
@@ -8668,9 +8668,9 @@ pos:	verb
 sv:	vara «förvirrad», vara «ihopblandad»
 en:	be <confused>, be <mixed up>
 def:	TKD
-com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{mIS} [2]
 pos:	noun
@@ -8694,8 +8694,8 @@ en:	a famous «sculptor»
 def:	KCD
 com:	"This is also one of the rare cases where we know the tlhIngan Hol
 	spelling of a Klingon name but not the "Paramount {Hol}" - M'Stak (?)."
-	/Email 2008-01-28 (by Steven Boozer, to tlhingan-hol, "Re: KCD IP set
-	#1")
+	/Email 2008-01-28 (by Steven Boozer, to tlhingan-hol, "Re: KCD IP
+	set #1")
 file:	1996-04-kcd.txt
 
 tlh:	{mIv} [.1]
@@ -8759,11 +8759,11 @@ file:	1992-01-01-tkd.txt
 
 tlh:	[1] {mI'}
 pos:	verb
-sv:	¿?«dansa», «springa» på stället, «träna»
+sv:	«dansa», «springa» på stället, göra «gymnastik», «träna»
 en:	<dance>, <run> in place, do <calisthenics>, <exercise>
 def:	KGT
-com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	[2] {mI'}
 pos:	noun
@@ -8826,7 +8826,7 @@ desc:	{DamoH} ~You exert undue influence on him/her;~ (lit. ~You ugly
 def:	KGT
 see:	{SIgh} "influence"
 file:	1997-11-01-kgt.txt
-meta:	Entries differ in source. One of the E-K entries is used here.
+meta:	Entries differ in source. One of the KGT E-K entries is used here.
 
 tlh:	{moHaq}
 pos:	noun
@@ -8859,14 +8859,14 @@ sv:	«suffix»
 en:	<suffix>
 desc:	incorrect form of {mojaq}
 def:	TKD E-K
-com:	*{mojaQ} is here assumed to be a misspelling of {mojaq}. The word only
+see:	{mojaq}
+data:	deprecated
+file:	1992-01-01-tkd.txt
+meta:	*{mojaQ} is here assumed to be a misspelling of {mojaq}. The word only
 	occurs in TKD, the two spellings occur once each (in each side of the
 	dictionary part), however the word {moHaq} ~prefix~ is consistently
 	spelled with a lower case {q}. The case isn't strong, but it does lean
 	towards *{mojaQ} being a misspelling.
-see:	{mojaq}
-data:	deprecated
-file:	1992-01-01-tkd.txt
 
 tlh:	{mol} [1]
 pos:	verb
@@ -8972,16 +8972,16 @@ pos:	adverbial
 sv:	«vanligtvis», som vanligt, som «väntat», «normal sett»
 en:	<usually>, <typically>, as expected, <expectedly>
 def:	KGT
-com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{motlh} [2]
 pos:	verb
 sv:	vara «vanlig», vara «normal», vara «standard»
 en:	be <usual>, be «normal», be «standard»
 def:	TKD; S14; BoP
-com:	Translation "standard" found on S14.
 file:	1992-01-01-tkd.txt; 1995-sbx-s14.txt; 1998-11-01-bop.txt
+meta:	Translation "standard" found on S14.
 
 tlh:	{motlhbe'}
 pos:	verb
@@ -9562,9 +9562,9 @@ pos:	verb
 sv:	vara «fullständig», vara «hel», vara «total», vara «komplett»
 en:	be <full>, be <whole>, be «entire», be <complete>
 def:	TKDa
-com:	Entries differ and have been combined here, and the word "be" was
-	also inserted before the adjectival "entire".
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here, and the word "be" was
+	also inserted before the adjectival "entire".
 
 tlh:	[2] {naQ}
 pos:	noun
@@ -9782,13 +9782,13 @@ sv:	«tistel»
 en:	<thistle>
 desc:	incorrect form of {naHjej}
 def:	KGT
-com:	*{neHjej} is here assumed to be a misspelling of {naHjej}, since the
-	main text of KGT clearly states that it literally means "sharp fruit"
-	(p.88), even though it is spelled *{neHjej} all (two) times it occurs in
-	the dictionary part of KGT.
 see:	{naHjej}
 data:	deprecated
 file:	1997-11-01-kgt.txt
+meta:	*{neHjej} is here assumed to be a misspelling of {naHjej}, since the
+	main text of KGT clearly states that it literally means "sharp fruit"
+	(p.88), even though it is spelled *{neHjej} all (two) times it occurs in
+	the dictionary part of KGT.
 
 tlh:	{neHmaH}
 pos:	noun
@@ -9845,9 +9845,9 @@ pos:	verb
 sv:	«mogna», «växa upp»
 en:	<mature>, <grow up>
 def:	KGT
-com:	Entries differ in source. The K-E entry is used here.
 data:	derived form
 file:	1997-11-01-kgt.txt
+meta:	Entries differ in source. KGT K-E entry is used here.
 
 tlh:	{nenghep}
 pos:	noun
@@ -9926,8 +9926,8 @@ pos:	noun
 sv:	en slags «skål» med handtag (används vid matberedning)
 en:	type of <pot> with handles (used for food preparation)
 def:	KGT
-com:	Entries differ in source. The K-E entry is used here.
 file:	1997-11-01-kgt.txt
+meta:	Entries differ in source. KGT K-E entry is used here.
 
 tlh:	{ne'}
 pos:	noun
@@ -10099,14 +10099,14 @@ sv:	«disruptorgevär»
 en:	«disruptor rifle»
 desc:	incorrect form of {nISwI' beH}
 def:	KGT p.56
-com:	*{bej} is here assumed to be a misspelling of {beH}, since it is
-	spelled {beH} in a majority of sources: TKD, S14, and dictionary part
-	of KGT, and it is spelled *{bej} only the three times it occurs in the
-	main text of KGT (twice on page 56, and once on page 80).
 see:	{nISwI' beH}
 cat:	fighting
 data:	phrase; deprecated
 file:	1997-11-01-kgt.txt
+meta:	*{bej} is here assumed to be a misspelling of {beH}, since it is
+	spelled {beH} in a majority of sources: TKD, S14, and dictionary part
+	of KGT, and it is spelled *{bej} only the three times it occurs in the
+	main text of KGT (twice on page 56, and once on page 80).
 
 tlh:	{nISwI' DaH}
 pos:	noun
@@ -10237,8 +10237,8 @@ pos:	verb
 sv:	vara «lång», vara «långdragen» (varaktighet)
 en:	be <long>, be lengthy (duration)
 def:	TKD
-com:	The word "be" was inserted before the adjectival "lengthy".
 file:	1992-01-01-tkd.txt
+meta:	The word "be" was inserted before the adjectival "lengthy".
 
 tlh:	{nob} [1]
 pos:	verb
@@ -10442,9 +10442,9 @@ pos:	verb
 sv:	vara «känd», vara «välkänd»
 en:	be <famous>, be well «known»
 def:	TKD
-com:	The word "be" was inserted before the adjectival "well known".
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	The word "be" was inserted before the adjectival "well known".
 
 tlh:	{no'}
 pos:	noun
@@ -10556,9 +10556,9 @@ pos:	noun
 sv:	«Vapenstolthet»
 en:	«Pride of Weapons»
 def:	KCD
-com:	This may refer to a rack for weapons (though I'm not sure).
 data:	phrase
 file:	1996-04-kcd.txt
+meta:	FIXME -- This may refer to a rack for weapons (though I'm not sure).
 
 tlh:	{nuHHom}
 pos:	noun
@@ -11154,11 +11154,9 @@ pos:	noun
 sv:	«kodat meddelande»
 en:	<encoded message>
 def:	ST5; HQ8:4 p.12
-com:	ST5: {DIvI' Se' wI'IjtaHvIS DaH ngoqDe' wIHevta'.} "We've
-	just received an encoded message on the Federation
-	frequency."
-	Article in HQ is called "Notes from Star Trek V: The Final
-	Frontier".
+com:	ST5: {DIvI' Se' wI'IjtaHvIS DaH ngoqDe' wIHevta'.} "We've just received
+	an encoded message on the Federation frequency."
+	Article in HQ is called "Notes from Star Trek V: The Final Frontier".
 file:	1999-12-holqed-08-4.txt
 
 tlh:	{ngoQ}
@@ -11718,9 +11716,9 @@ pos:	verb
 sv:	«beteckna», «fastställa», «specificera», «namnge», ge «namn» åt/till
 en:	<label>, «ascertain», «specify»
 def:	TKD; News 1999-02-02
-com:	¿?What does this word really mean? (Check swedish translation.)
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1999-02-02-email.txt
+meta:	FIXME -- What does this word really mean? (Check swedish translation.)
 
 tlh:	{per} [2]
 pos:	noun
@@ -12025,9 +12023,9 @@ pos:	verb
 sv:	vara «fet»
 en:	be <fat>
 def:	TKD
-com:	Is there a difference in meaning between {pI'} and {ror}?
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	FIXME -- Is there a difference in meaning between {pI'} and {ror}?
 
 tlh:	{po}
 pos:	noun
@@ -12230,9 +12228,9 @@ pos:	verb
 sv:	vara «öppen», vara «öppnad»
 en:	be <open>, be opened
 def:	TKD
-com:	The word "be" was inserted before the adjectival "opened".
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	The word "be" was inserted before the adjectival "opened".
 
 tlh:	[2] {poS}
 pos:	noun
@@ -12286,9 +12284,9 @@ pos:	verb
 sv:	vara «expert», vara «kunnig», vara «duktig», vara «skicklig»
 en:	be <expert>, be <skilled>
 def:	TKD
-com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{pub}
 pos:	verb
@@ -12395,11 +12393,11 @@ sv:	vara «perfekt», vara «exakt»
 en:	be <perfect>, be <exact>
 def:	TKD
 ref:	BoP
-com:	Entries differ and have been combined here.
-	BoP: {jabbI'ID pup} "High Resolution" (lit. "Exact data
-	transmission"), {jabbI'ID pupHa'} "Medium to Low Resolution"
-	(lit. "Inexact data transmission").
+com:	BoP: {jabbI'ID pup} "High Resolution" (lit. "Exact data transmission"),
+	{jabbI'ID pupHa'} "Medium to Low Resolution" (lit. "Inexact data
+	transmission").
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	[2] {pup}
 pos:	verb
@@ -12570,14 +12568,14 @@ sv:	«phaser-gevär»
 en:	«phaser rifle»
 desc:	incorrect form of {pu'beH}
 def:	KGT p.56
-com:	*{bej} is here assumed to be a misspelling of {beH}, since it is
-	spelled {beH} in a majority of sources: TKD, S14, and dictionary part
-	of KGT, and it is spelled *{bej} only the three times it occurs in the
-	main text of KGT (twice on page 56, and once on page 80).
 see:	{pu'beH}
 cat:	fighting
 data:	deprecated
 file:	1997-11-01-kgt.txt
+meta:	*{bej} is here assumed to be a misspelling of {beH}, since it is
+	spelled {beH} in a majority of sources: TKD, S14, and dictionary part
+	of KGT, and it is spelled *{bej} only the three times it occurs in the
+	main text of KGT (twice on page 56, and once on page 80).
 
 tlh:	{pu'beq}
 pos:	noun
@@ -12675,8 +12673,8 @@ sv:	«orm-mask» (som mat), «~gagh~»
 en:	<serpent worm> (as food), «~gagh~»
 def:	TKDa
 ref:	TKW pp.137, 141
-com:	The word "~gagh~" found in definition of {ghevI'} in KGT.
 file:	1992-01-01-tkd.txt
+meta:	The word "~gagh~" found in definition of {ghevI'} in KGT.
 
 tlh:	{qaghwI'}
 pos:	noun
@@ -12764,15 +12762,15 @@ file:	1992-01-01-tkd.txt
 
 tlh:	[2] {qan}
 pos:	verb
-sv:	¿?«använda» «lill«fingret»»
+sv:	«använda» «lill«fingret»»
 en:	«use» the «pinky» («little «finger»»)
 def:	HQ10:2 p.7
 com:	An idiomatic gesture: to point your pinky at someone is to
 	comment that you believe they are old.
-	** «lill«fingret»» som uppslagsord borde vara i obest form, hur fixa
-	detta? **
 cat:	body part
 file:	2001-06-holqed-10-2.txt
+meta:	FIXME -- Swedish lookup word «lill«fingret»» should be indefinite. How
+	could this be accomplished?
 
 tlh:	{qanraD}
 pos:	noun
@@ -12803,8 +12801,8 @@ en:	always (or routinely) «cooperate» or «agree» with [slang]
 desc:	{jIHDaq Daqang} ~you always agree with me~ (lit. ~you pour [s.th.]
 	into me~)
 def:	KGT
-com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{qap}
 pos:	verb
@@ -12855,7 +12853,7 @@ sv:	en slags «fågel» (förmögen att härma språk)
 en:	type of «bird» (capable of mimicking speech)
 def:	HQ10:4 p.5
 com:	Some people pluralize these with {-pu'}, but most use {-mey}.
-pun:	Wordplay on "kareoke". (?)
+pun:	Wordplay on "karaoke".
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{qaryoq'a'}
@@ -12864,7 +12862,7 @@ sv:	en slags «fågel» (stor, förmögen att härma språk)
 en:	type of «bird» (large, capable of mimicking speech)
 def:	HQ10:4 p.5
 com:	Some people pluralize these with {-pu'}, but most use {-mey}.
-pun:	Wordplay on "karaoke". (?)
+pun:	Wordplay on "karaoke".
 data:	derived form
 file:	2001-12-holqed-10-4.txt
 
@@ -13042,9 +13040,9 @@ pos:	noun
 sv:	«kaffe», ett slags «dryck»
 en:	<coffee>, type of <beverage>
 def:	KGT
-com:	Entries differ and have been combined here.
 pun:	Probably intended as a word borrowed from English.
 file:	1997-11-01-kgt.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{qeb}
 pos:	verb
@@ -13213,9 +13211,9 @@ pos:	verb
 sv:	vara «tråkig», vara «ointressant»
 en:	be <dull>, be <uninteresting>
 def:	TKD
-com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{qev} [1]
 pos:	verb
@@ -13229,7 +13227,7 @@ pos:	noun
 sv:	«folk«samling»», «folkmassa»
 en:	«crowd»
 def:	HQ4:4 p.11
-com:	Synonymous to {ghom'a'}.
+see:	{ghom'a'}
 file:	1995-12-holqed-04-4.txt
 
 tlh:	{qevaS}
@@ -13411,8 +13409,8 @@ en:	«Kirk»
 def:	HQ8:4 p.12
 com:	ST5: {'entepray''a'. qIrq Duj 'oH} "Enterprise? That's Kirk's
 	ship."
-	Word does not follow standard Klingon phonotax.
 file:	1999-12-holqed-08-4.txt
+meta:	Word does not follow standard Klingon phonotax.
 
 tlh:	{qIt}
 pos:	verb
@@ -14006,8 +14004,8 @@ com:	"The verb {qu'} literally means 'be fierce.' In its slang sense, it may
 file:	1997-11-01-kgt.txt
 meta:	Entries differ and have been combined here. Translation "be
 	superlative" only occurs on KGT p.159, other translations can be found
-	in KGT word list as well, "be good" is only found in words lists (not
-	main text of book).
+	in KGT word list and main text, "be good" is only found in words lists
+	(not main text of book).
 
 tlh:	{qu'} [2]
 pos:	exclamation
@@ -14225,9 +14223,9 @@ pos:	verb
 sv:	vara «sist», vara «slutgiltig»
 en:	be <final>, be <last>
 def:	TKD
-com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{Qaw'}
 pos:	verb
@@ -14235,10 +14233,10 @@ sv:	«förstöra»
 en:	<destroy>
 def:	TKD
 ref:	TKW p.211
-com:	Incorrectly listed as noun in K-E (noted in HQ4:1 p.7 and verified as a
-	verb by usage in TKD p.49 and TKW p.211).
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Incorrectly listed as noun in TKD K-E (noted in HQ4:1 p.7 and verified
+	as a verb by usage in TKD p.49 and TKW p.211).
 
 tlh:	{Qay} [1]
 pos:	verb
@@ -14306,8 +14304,8 @@ pos:	noun
 sv:	ett slags «djur», «~ka'raj~»
 en:	type of <animal>, <~ka'raj~>
 def:	KGT
-com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{Qeb} [.1]
 pos:	noun
@@ -14375,8 +14373,8 @@ pos:	noun
 sv:	mald, torkad «blandning» för tétillagning, «téblandning»
 en:	ground-up, dried-up <mixture> for brewing tea, <tea-brewing mixture>
 def:	KGT
-com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{Qep'It}
 pos:	noun
@@ -14529,8 +14527,8 @@ def:	KGT; HQ12:2 p.7
 ref:	TDNW
 com:	"When shown a pencil, Maltz said that the sharp end could be called a
 	{QIn}, but if the pencil were new and did not yet have a point, the
-	ready-to-be-sharpened end would be a {megh'an} or {'er'In}." [HQ12:2
-	p.7]
+	ready-to-be-sharpened end would be a {megh'an} or {'er'In}."
+	[HQ12:2 p.7]
 cat:	fighting
 file:	1997-11-01-kgt.txt; 2003-06-holqed-12-2.txt
 
@@ -14612,10 +14610,10 @@ pos:	noun
 sv:	en traditionell «högtid»
 en:	a traditional «holiday»
 def:	PK
-com:	This is a guess as to what Michael Dorn was pronouncing.
-	PK: "One which comes every tenth Klingon month is {QI'lop}.
-	{QI'lop} celebrates the superiority of the Klingon military."
+com:	PK: "One which comes every tenth Klingon month is {QI'lop}. {QI'lop}
+	celebrates the superiority of the Klingon military."
 file:	1993-10-01-pk.txt
+meta:	This is a guess as to what Michael Dorn was pronouncing.
 
 tlh:	{QI'tomer}
 pos:	noun
@@ -14718,8 +14716,8 @@ pos:	verb
 sv:	uppleva ett «jordskred» eller «skalv»
 en:	experience an <earthquake> or <tremor>
 def:	TKD
-com:	Entries differ in source. K-E entry is used here.
 file:	1992-01-01-tkd.txt
+meta:	Entries differ in source. TKD K-E entry is used here.
 
 tlh:	{Qom} [.2]
 pos:	verb
@@ -14835,9 +14833,9 @@ pos:	verb
 sv:	«slåss», «strida» (väldigt litet slagsmål)
 en:	<fight>, <battle> (very minor fight)
 def:	KGT
-com:	Entries differ somewhat in source. The K-E version is used here.
 cat:	fighting
 file:	1997-11-01-kgt.txt
+meta:	Entries differ somewhat in source. KGT K-E entry is used here.
 
 tlh:	{Qorgh}
 pos:	verb
@@ -15178,9 +15176,9 @@ sv:	vara «trivial», vara «obetydlig», vara «oviktig», vara «insignifikant
 en:	be <trivial>, be <trifling>, be <unimportant>, be <insignificant>
 def:	TKD; KGT
 ref:	TKW p.143
-com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	[2] {ram}
 pos:	noun
@@ -15343,8 +15341,8 @@ pos:	noun
 sv:	«kaffe» med «sprit» i, ett slags «dryck»
 en:	<coffee> with «liquor», type of <beverage>
 def:	KGT
-com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{ra'wI'}
 pos:	noun
@@ -15536,9 +15534,9 @@ sv:	vara «åstadkommen», vara «färdig»
 en:	be <accomplished>, be <finished>
 def:	TKD
 ref:	HQ12:2 p.9
-com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{rIp}
 pos:	noun
@@ -15728,9 +15726,9 @@ pos:	verb
 sv:	vara «sjuk», vara «illamående»
 en:	be <sick>, be <ill>
 def:	TKD
-com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{rop} [2]
 pos:	noun
@@ -15758,9 +15756,9 @@ pos:	verb
 sv:	vara «fet»
 en:	be <fat>
 def:	TKD
-com:	Is there a difference in meaning between {pI'} and {ror}?
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	FIXME -- Is there a difference in meaning between {pI'} and {ror}?
 
 tlh:	[1] {roS}
 pos:	verb
@@ -16099,9 +16097,10 @@ pos:	noun
 sv:	ett slags «djur», «~sark~»
 en:	type of <animal>, <~sark~>
 def:	KGT
-com:	Entries differ and have been combined here. Mentioned in TNG episode
-	"Pen Pals", as "a Klingon Sark"---a riding animal (similar to a horse).
+com:	Mentioned in TNG episode "Pen Pals", as "a Klingon Sark"---a riding
+	animal (similar to a horse).
 file:	1997-11-01-kgt.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{SaS} [.1]
 pos:	verb
@@ -16691,14 +16690,31 @@ en:	<mess hall>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
+tlh:	*{Soq}
+warn:	incorrect form of {Suq}
+pos:	verb
+sv:	«skaffa» (sig)
+en:	«gain»
+def:	HQ6:2 p.9
+ref:	S33
+com:	"[...] Cloaking technology was gained through an alliance with the
+	Romulan Star Empire [...] {boq lucherDI' tlhIngan wo' romuluS Hov wo'
+	je So'wI' cham Soqpu' tlhIngan wo'.}" [HQ6:2 p.9]
+see:	{Suq}
+data:	non-canon
+file:	1997-06-holqed-06-2.txt
+meta:	The {HolQeD transcript of Skybox card S33 contained the word {Suq}
+	misspelled as *{Soq} [HQ6:2 p.9], on the card itself the word was
+	correctly spelled.
+
 tlh:	[1] {SoQ}
 pos:	verb
 sv:	vara «stängd»
 en:	be <closed>, be <shut>
 def:	TKD
-com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	[2] {SoQ}
 pos:	noun
@@ -16879,7 +16895,7 @@ com:	"Literally meaning 'be solid,' as opposed to gaseous or liquid, {Sub},
 	for {Sub} are {yoH} ('be brave') and {jaq} ('be bold'), which can be
 	used pretty much interchangeably." [KGT p.165-166]
 file:	1997-11-01-kgt.txt
-meta:	Entries differ in source. The K-E entry is used here.
+meta:	Entries differ in source. KGT K-E entry is used here.
 
 tlh:	{Subpu' vaS}
 pos:	noun
@@ -16902,9 +16918,9 @@ pos:	verb
 sv:	vara «grön», vara «blå», vara «gul»
 en:	be <green>, be <blue>, be <yellow>
 def:	TKD
-com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	[2] {SuD}
 pos:	verb
@@ -16986,9 +17002,7 @@ sv:	«förvärva», «skaffa» (sig), «få», «erhålla», «få tag i»
 en:	<acquire>, <obtain>, <get>, «catch»
 def:	TKD; TKW p.207
 ref:	S33
-com:	S33 was reprinted in HQ6:2 p.9, but in the reprint the word is
-	misspelled {Soq}, while on the actual card it's spelled {Suq}, as
-	expected.
+see:	*{Soq}
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
@@ -17217,8 +17231,8 @@ sv:	«inleda» en process, «börja», «sätta» igång, «starta»
 en:	<begin> a process, <initiate> proceedings
 def:	TKDa
 ref:	TKW p.187
-com:	Entries differ and have been combined here.
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	[2] {tagh}
 pos:	noun
@@ -17790,14 +17804,14 @@ sv:	vara «nervös», vara «rastlös»
 en:	be «nervous», be «uneasy»
 desc:	incorrect form of {bIt}
 def:	KGT p.132
-com:	*{tIb} is here assumed to be a misspelling of {bIt}, since it is
+see:	{bIt}; {jotHa'}
+data:	deprecated
+file:	1997-11-01-kgt.txt
+meta:	*{tIb} is here assumed to be a misspelling of {bIt}, since it is
 	spelled {bIt} in a majority of sources: TKD (three occurances in the
 	dictionary part), and it is spelled *{tIb} only once [KGT p.132].
 	*{tIb} was confirmed as unintentional by Marc Okrand when asked by
 	zrajm at {qep'a'} 2000).
-see:	{bIt}; {jotHa'}
-data:	deprecated
-file:	1997-11-01-kgt.txt
 
 tlh:	{tIch}
 pos:	verb
@@ -17899,8 +17913,8 @@ pos:	verb
 sv:	vara «lång», vara «långsträckt» (om ett föremål)
 en:	be <long>, be lengthy (of an object)
 def:	TKD
-com:	The word "be" was inserted before the adjectival "lengthy".
 file:	1992-01-01-tkd.txt
+meta:	The word "be" was inserted before the adjectival "lengthy".
 
 tlh:	[2] {tIq}
 pos:	noun
@@ -18509,8 +18523,8 @@ pos:	noun
 sv:	«något «odugligt»», «oanvändbar sak»
 en:	<something useless>, <useless thing>
 def:	KGT
-com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{tu'lum}
 pos:	noun
@@ -18532,9 +18546,9 @@ pos:	verb
 sv:	vara «fri», vara «oberoende»
 en:	be <free>, be <independent>
 def:	TKD
-com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{tlhab} [2]
 pos:	noun
@@ -18572,10 +18586,10 @@ en:	french «fries»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-com:	Editor's note: I kept the plural suffix {-mey} here, in the Klingon,
+file:	2011-10-31-email.txt
+meta:	Editor's note: I kept the plural suffix {-mey} here, in the Klingon,
 	mostly because putting a singular form in the English (or Swedish) side
 	of the dictionary seems somewhat ridiculous. /zrajm [2011-12-02]
-file:	2011-10-31-email.txt
 
 tlh:	{tlham} [.1]
 pos:	noun
@@ -18728,10 +18742,10 @@ pos:	verb
 sv:	«sällskapa» med, «vara med»
 en:	<accompany>, «be with»
 def:	TKD; TKW pp.161, 173
-com:	This is labeled as a noun in TKD E-K, but MO corrected
-	himself in HQ2:4 p.18 (Okrand's notes)
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
+meta:	This is labeled as a noun in TKD E-K, but MO corrected himself in
+	HQ2:4 p.18 (Okrand's notes)
 
 tlh:	{tlhepQe'}
 pos:	noun
@@ -18761,9 +18775,9 @@ pos:	noun
 sv:	«spjut» kastat dem hjälp av ett särskilt verktyg
 en:	<spear> thrown with aid of a special tool
 def:	KGT
-com:	Entries differ in source. The E-K entry is used here.
 cat:	fighting
 file:	1997-11-01-kgt.txt
+meta:	Entries differ in source. KGT E-K entry is used here.
 
 tlh:	{tlhe'}
 pos:	verb
@@ -19010,8 +19024,9 @@ pos:	adverbial
 sv:	«nästan», så gott som, «inte helt»
 en:	<almost>, <nearly>, <virtually>, <not quite>
 def:	KGT
-com:	Incorrectly given as verb in E-K, "not quite", adverb everywhere else.
 file:	1997-11-01-kgt.txt
+meta:	Incorrectly given as verb in KGT E-K (under lookup "not quite") given
+	as adverb everywhere else.
 
 tlh:	{tlhot}
 pos:	verb
@@ -19233,9 +19248,9 @@ pos:	verb
 sv:	vara «klipsk», vara «smart», vara «intelligent»
 en:	be <clever>, be <smart>, be <intelligent>
 def:	TKD
-com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{valQIS}
 pos:	name
@@ -19415,9 +19430,9 @@ sv:	«något», «någon», «någonting»
 en:	<somebody>, «someone», «something», «anybody», <anyone>, «anything»
 def:	TKD
 ref:	TKW pp.88, 109, 129, 149, 157, 167
-com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{va'nuch}
 pos:	noun
@@ -20121,12 +20136,11 @@ pos:	verb
 sv:	«hindra», vara i vägen för
 en:	<obstruct>
 def:	TKD
-com:	Concrete/passive meaning? (Such as a stone or other unmovable
-	object blocking the road, or line of sight etc.) See also
-	{bot} which perhaps is the same thing in a more
-	abstract/active way?
 see:	{bot}
 file:	1992-01-01-tkd.txt
+meta:	FIXME -- Concrete/passive meaning? (Such as a stone or other unmovable
+	object blocking the road, or line of sight etc.) See also {bot} which
+	perhaps is the same thing in a more abstract/active way?
 
 tlh:	[2] {waQ}
 pos:	noun
@@ -20530,7 +20544,7 @@ com:	Oops! MO seem to have canonified an error occuring on KLI's list of new
 	QonoS} list wrong when writing his dictionary. He gave a copy of this
 	dictionary to MO, who as a kind of a joke incorporated the error into
 	the language.
-see:	{Say'qu'moH} (synonym)
+see:	{Say'qu'moH} is a synonym
 file:	1997-11-01-kgt.txt; 1992-09-holqed-01-3.txt
 
 tlh:	[2] {woj}
@@ -20762,8 +20776,8 @@ pos:	verb
 sv:	«svinga», «använda», «hantera» (ett svärd)
 en:	<wield>, <use>, <manipulate> (a <sword>)
 def:	KGT
-com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{yan} [2]
 pos:	noun
@@ -20787,9 +20801,9 @@ sv:	vara «nog», vara «tillräcklig»
 en:	be <enough>, be <sufficient>
 def:	TKD
 ref:	TKW p.21
-com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{yaS}
 pos:	noun
@@ -20861,8 +20875,8 @@ pos:	verb
 sv:	vara «chockad», vara «mållös», vara «förstummad»
 en:	be <shocked>, be <dumbfounded>
 def:	TKD
-com:	Entries differ and have been combined here.
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{yeb}
 pos:	noun
@@ -21285,9 +21299,9 @@ pos:	noun
 sv:	«»
 en:	«operations command»
 def:	ST5; HQ8:4 p.11
-com:	¿?Is this correctly formed?
 data:	phrase; {yo'SeH} (n); {yaHnIv} (n)
 file:	1999-12-holqed-08-4.txt
+meta:	FIXME -- Is this correctly formed?
 
 tlh:	{yu}
 pos:	noun
@@ -21854,8 +21868,9 @@ pos:	verb
 sv:	«konsumera» «soppa», konsumera «gryta»
 en:	<consume> «soup», «eat» soup
 def:	KGT
-com:	"eat" is included as a lookup synonym (does not occur in sources)
 file:	1997-11-01-kgt.txt
+meta:	The word "eat" does not occur in any canon sources, but was added to
+	ease lookup.
 
 tlh:	{'epIl naH}
 pos:	noun
@@ -22025,9 +22040,9 @@ pos:	verb
 sv:	vara «vacker», vara «stilig»
 en:	be <beautiful>, be <handsome>
 def:	TKD
-com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{'Ij}
 pos:	verb
@@ -22090,7 +22105,9 @@ sv:	«snor», «slem»
 en:	«mucus»
 def:	HQ12:4 p.8
 ref:	TDNW
-com:	booger
+com:	"If one were to {chuy} 'sneeze,' one would likely eject {'IqnaH} 'mucus'
+	(or sometimes {'IqnaH QaD} 'dry mucus'). If one were to {tuS} 'cough,'
+	one might produce {qo'qaD} 'phlegm.'" [HQ12:4 p.8]
 see:	{chuy}
 file:	2003-12-holqed-12-4.txt
 
@@ -22169,10 +22186,9 @@ pos:	verb
 sv:	vara «avancerad», vara högt utvecklad
 en:	be <advanced>, be highly developed
 def:	TKD
-com:	The word "be" was inserted before the adjectival "highly
-	developed".
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	The word "be" was inserted before the adjectival "highly developed".
 
 tlh:	[1] {'Iv}
 pos:	question word
@@ -22202,8 +22218,8 @@ pos:	noun
 sv:	ett slags «djur», «blodmask»
 en:	type of <animal>, <bloodworm>
 def:	KGT
-com:	Entries differ and have been combined here.
 file:	1997-11-01-kgt.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{'Iw 'Ip ghomey}
 pos:	name
@@ -22329,8 +22345,8 @@ pos:	verb
 sv:	vara «listig», vara «slug»
 en:	be <cunning>, be <sly>
 def:	TKD
-com:	Entries differ and have been combined here.
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{'op}
 pos:	noun
@@ -22450,9 +22466,9 @@ sv:	«smärta», «värka», vara «öm»
 en:	<ache>, <hurt>, be <sore>
 def:	TKD
 ref:	TKW pp.46, 175
-com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{'oy'} [2]
 pos:	noun
@@ -22460,8 +22476,8 @@ sv:	«smärta», «värk», «plåga»
 en:	<ache>, <pain>, <sore>, <hurt>
 def:	TKD
 ref:	TKW p.43
-com:	Entries differ and have been combined here.
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{'oy'naQ}
 pos:	noun
@@ -22562,11 +22578,11 @@ en:	<~uj~> («unit» of «length»)
 desc:	about 13.7 inches or 35 centimeters
 def:	News 1997-10-22 (by Marc Okrand, to msn.onstage.startrek.expert.okrand,
 	"Re: Weights and Measures"); KGT
-com:	In KGT the words "linear measure" are used, but they have been changed
-	to "length" here (for brevity and clarity). [zrajm, 2011-11-07] More
-	exactly one ~uj~ is 34.83 cm (as caculated from usage on BoP).
+com:	More exactly one ~uj~ is 34.83 cm (as caculated from usage on BoP).
 cat:	unit
 file:	1997-10-22-news.txt; 1997-11-01-kgt.txt
+meta:	In KGT the words "linear measure" are used, but they have been changed
+	to "length" here (for brevity and clarity).
 
 tlh:	{'uj'a'}
 pos:	noun
@@ -22697,9 +22713,9 @@ sv:	vara «väsentlig», vara «nödvändig»
 en:	be <essential>, be <necessary>
 def:	TKD
 ref:	TKW p.45
-com:	Entries differ and have been combined here.
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	[2] {'ut}
 pos:	noun
@@ -23111,10 +23127,10 @@ pos:	verb suffix type 9
 sv:	i syfte att, för att
 en:	for, for the purpose of, in order to (purpose-clause marker)
 def:	TKD 4.2.9 (p.44), 6.2.4 (pp.64--65)
-com:	Entries differ and have been combined here.
-	The purpose clause always precedes the noun or verb whose
+com:	The purpose clause always precedes the noun or verb whose
 	purpose it is describing.
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{-moH}
 pos:	verb suffix type 4
@@ -23250,8 +23266,8 @@ pos:	verb suffix type 9
 sv:	en som gör, sak som gör, en som är
 en:	one who is, one who does, thing which is, thing which does
 def:	TKD 3.2.2 (p.19), 4.2.9 (p.44), pp.164, 168
-com:	Entries differ and have been combined here.
 file:	1992-01-01-tkd.txt
+meta:	Entries differ and have been combined here.
 
 tlh:	{-'a'}
 pos:	verb suffix type 9
@@ -23479,6 +23495,7 @@ file:	1992-01-01-tkd.txt
 === end-of-noun-suffix-list ===
 
 TO DO (IN NO PARTICULAR ORDER)
+==============================
 
     o Check Swedish translation, by looking up all the English words
       in my English-Swedish dictionary and then checking to see whether
