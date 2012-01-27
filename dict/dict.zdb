@@ -7576,6 +7576,9 @@ def:	TKD; KGT
 ref:	TKW pp.153, 205
 com:	{yIlop! wa'leS chaq maHegh!} "Celebrate! Tomorrow we may die!"
 	[TKW p.153]
+	{'oy'naQ Dalo'be'chugh not nenghep lop puq.} "If you don't use the
+	painstik, the child will never celebrate his Age of Ascension."
+	[TKW p.205]
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 meta:	Translation here comes from KGT. -- TKD translates as "celebrate" (v),
 	while KGT says "observe, celebrate (a ritual)" (v).
@@ -12631,33 +12634,24 @@ def:	TKD; TKW p.111
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
-tlh:	{qaD} [1.1]
+tlh:	{qaD} [1]
 pos:	verb
-sv:	«utmana», «möta»
-en:	<challenge>, «face»
-def:	TKDa; TKW p.37
-file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
+sv:	«motsätta» sig, «motarbeta», «bekämpa», «konfrontera», «bemöta»,
+	«utmana», «möta»
+en:	<challenge>, <face>, <resist>, <oppose>, <confront>
+def:	TKDa; TKW p.37; KGT
+file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt; 1997-11-01-kgt.txt
+meta:	"challenge" [TKD]; "face" [TKW]; "confront", "face", "oppose", "resist"
+	[KGT]
 
-tlh:	{qaD} [1.2]
-pos:	verb
-sv:	«motsätta» sig, «motarbeta», «bekämpa», «konfrontera», «bemöta»
-en:	<resist>, <oppose>, <confront>, <face>
-def:	KGT
-file:	1997-11-01-kgt.txt
-
-tlh:	{qaD} [2.1]
+tlh:	{qaD} [2]
 pos:	noun
-sv:	«utmaning»
-en:	<challenge>
-def:	TKDa
-file:	1992-01-01-tkd.txt
-
-tlh:	{qaD} [2.2]
-pos:	noun
-sv:	«test» av ens förmågor
-en:	<test> of one's abilities
-def:	KGT
-file:	1997-11-01-kgt.txt
+sv:	«utmaning», «test» av ens förmågor
+en:	<challenge>, <test> of one's abilities
+def:	TKDa; KGT
+file:	1997-11-01-kgt.txt; 1992-01-01-tkd.txt
+meta:	Word list entries says "challenge (n)" in TKD, and "test of one's
+	abilities (n)" in KGT K-E. They have been combined here.
 
 tlh:	[1] {qagh}
 pos:	verb
