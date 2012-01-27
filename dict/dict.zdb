@@ -7568,22 +7568,17 @@ def:	TKD
 ref:	TKW p.38
 file:	1992-01-01-tkd.txt
 
-tlh:	{lop} [1.1]
+tlh:	{lop} [1]
 pos:	verb
-sv:	«fira», «celebrera»
-en:	<celebrate>
-def:	TKD
-ref:	TKW pp.153, 205
-file:	1992-01-01-tkd.txt
-meta:	Shouldn't "{lop} [1.1]" and "{lop} [1.2]" be one word?
-
-tlh:	{lop} [1.2]
-pos:	verb
-sv:	«fira», «följa» (en ritual)
+sv:	«följa», «fira» (en ritual)
 en:	<observe>, <celebrate> (a ritual)
-def:	KGT
-file:	1997-11-01-kgt.txt
-meta:	Shouldn't "{lop} [1.1]" and "{lop} [1.2]" be one word?
+def:	TKD; KGT
+ref:	TKW pp.153, 205
+com:	{yIlop! wa'leS chaq maHegh!} "Celebrate! Tomorrow we may die!"
+	[TKW p.153]
+file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
+meta:	Translation here comes from KGT. -- TKD translates as "celebrate" (v),
+	while KGT says "observe, celebrate (a ritual)" (v).
 
 tlh:	{lop} [2]
 pos:	noun
