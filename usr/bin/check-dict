@@ -444,14 +444,18 @@ sub read_dict {
     # read file up to footer (ignoring section separators)
     my $line   = -1;
     my %record = ();
+    my %field_name = ();
     while (<>) {
         /^=== end-of-noun-suffix-list ===$/ and last;
         /^=== / and next;
         /^$/ and $line = -1, next;
 
-        if (/^[^:\s]*:/) {                  # new field
+        if (/^([^:\s]*):/) {                # new field
+            warn "duplicate '$1' field in line $., in record at line $line\n"
+                if $field_name{$1} ++;
             if ($line == -1) {              #   if 1st in record
                 $line = $.;                 #     remember line
+                %field_name = ();
                 $record{$line} = "";        #     init record value
             }
         } elsif (/^\s/) {                   # continuation line
@@ -466,34 +470,38 @@ sub read_dict {
     return %record;
 }
 
-# Usage: BOOL = fields_ok(\@REQUIRED, \@ORDER, \%SUBS, %RECORD);
-#
-# Checks the order and existance of field names in %RECORD, warn()s if any
-# problems were found. Returns true if no warnings were outputted, FALSE
-# otherwise.
-#
-# \@REQUIRED is a reference to a list containing the names of the required
-# fiels (in no particular order).
-#
-# \@ORDER is a reference to a list containing the names of all allowed fields
-# in the order which they must occur within a record.
-#
-# \%SUBS is a reference to a hash containing check functions for specified
-# named fields. (Fields for which there exist no check function is assumed to
-# be valid as-is.)
-#
-# Field names to be checked are the keys, values are coderefs for functions
-# called to check the field content. Each code reference is called with the
-# following arguments (1) the content of the field (2) name of the field and
-# (3) the complete content of the record. Within the check function, call
-# warn() with the appropriate error message for each detected problem. Only if
-# warn() never was called does fields_ok() return true.
-#
-# %RECORD should contain dict-type records as values, and with their line
-# numbers (in the original file) as keys. The keys of %RECORD are not tested in
-# any way, only outputted as a hint to the user of where (in the source file) a
-# problem was found.
-#
+=pod
+
+Usage: BOOL = fields_ok(\@REQUIRED, \@ORDER, \%SUBS, %RECORD);
+
+Checks the order and existance of field names in %RECORD, warn()s if any
+problems were found. Returns true if no warnings were outputted, FALSE
+otherwise.
+
+\@REQUIRED is a reference to a list containing the names of the required fiels
+(in no particular order).
+
+\@ORDER is a reference to a list containing the names of all allowed fields in
+the order which they must occur within a record.
+
+\%SUBS is a reference to a hash containing check functions for specified named
+fields. (Fields for which there exist no check function is assumed to be valid
+as-is.)
+
+Field names to be checked are the keys, values are coderefs for functions
+called to check the field content. Each code reference is called with the
+following arguments (1) the content of the field (2) name of the field and (3)
+the complete content of the record. Within the check function, call warn() with
+the appropriate error message for each detected problem. Only if warn() never
+was called does fields_ok() return true.
+
+%RECORD should contain dict-type records as values, and with their line numbers
+(in the original file) as keys. The keys of %RECORD are not tested in any way,
+only outputted as a hint to the user of where (in the source file) a problem
+was found.
+
+=cut
+
 sub fields_ok {
     my ($field_required, $field_order, $field_subs, %record) = @_;
     my $result = TRUE;
