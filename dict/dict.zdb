@@ -1,7 +1,7 @@
-----------------------
+-*- zdb -*-
 [2012-01-27] 2732 Klingon words (not counting affixes & words marked with '*').
 [2011-11-01] 2698 words.
-Sorted in Klingon alphabetical order.
+Each section is sorted in Klingon alphabetical order.
 ----------------------
 
 KLINGON IDEALS OF BEHAVIOR
@@ -184,7 +184,7 @@ com:	"The verb used for 'shoot' when referring to disruptors is {bach}.
 	beam is {nISwI' tIH}. Thus, the correct formation is {nISwI' tIH bach}
 	('shoot the disruptor beam'). As a practical matter, however, the {tIH}
 	is often left out, and {nISwI' bach} is the common way to say 'shoot a
-	disruptor.' Similarly, {pu' bach} is 'shoot a phaser.'" [KGT p.56]
+	disruptor.' Similarly, {pu' bach} is 'shoot a phaser.'" [KGT p.56]
 cat:	fighting
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
@@ -309,7 +309,7 @@ pos:	verb
 sv:	«avsluta», «avbryta»
 en:	<terminate>, <discontinue>
 def:	KGT
-ref:	HQ12:2 p.9
+ref:	HQ12:2 p.9 ("Maltz's Reward Part I")
 file:	1997-11-01-kgt.txt
 
 tlh:	{baqghol}
@@ -395,10 +395,10 @@ pos:	noun
 sv:	«ära»
 en:	<honor>
 def:	TKD
-ref:	TKW pp.53, 67; HQ12:3 p.9; KLINW
+ref:	TKW pp.53, 67; HQ12:3 p.9 ("Maltz's Reward Part II"); KLINW
 com:	"{batlh}, [...] is a grander [than {quv}], more general, more
 	philosophical concept, associated with integrity, rectitude, scruples,
-	and principles." [HQ12:3 p.9]
+	and principles." [HQ12:3 p.9 ("Maltz's Reward Part II")]
 see:	{quv}
 file:	1992-01-01-tkd.txt
 
@@ -577,7 +577,7 @@ tlh:	{bertlham}
 pos:	noun
 sv:	«avslutning», «slut» (på sång, pjäs, historia, etc.)
 en:	«ending», «final portion» (of a song, play, story etc.)
-def:	HQ12:2 pp.8--9
+def:	HQ12:2 pp.8--9 ("Maltz's Reward Part I")
 ref:	KLINW; TDNW
 see:	{bI'reS}
 file:	2003-06-holqed-12-2.txt
@@ -640,7 +640,7 @@ sv:	«B'Etor»
 en:	«B'Etor»
 def:	S26; KGT p.197
 ref:	KLINW
-com:	S26 was reprinted in HQ5:3 p.15.
+com:	S26 was reprinted in HQ5:3 p.15.
 	B'Etor is one of the Duras sisters.
 file:	1996-sbx-s26.txt; 1997-11-01-kgt.txt
 
@@ -770,7 +770,7 @@ sv:	«vatten»
 en:	<water>
 def:	TKD
 ref:	TKW pp.34--35; KLINW
-com:	Used metaphorically as the symbol of weakness and distain. [TKW pp.34--35]
+com:	Used metaphorically as the symbol of weakness and distain. [TKW pp.34--35]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -860,9 +860,8 @@ tlh:	{bIS'ub}
 pos:	noun
 sv:	«botten» (invändig botten)
 en:	«bottom» (interior bottom)
-def:	HQ8:3 p.2
+def:	HQ8:3 p.2 ("{matlh juppu' mu'mey}")
 ref:	KLINW
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
 see:	{yor}; {pIrmuS}
 cat:	locative
 file:	1999-09-holqed-08-3.txt
@@ -902,7 +901,7 @@ tlh:	{bI'reS}
 pos:	noun
 sv:	«inledning», «början» (på sång, pjäs, historia, etc.)
 en:	«beginning» (of a song, play, story etc.)
-def:	HQ12:2 pp.8--9
+def:	HQ12:2 pp.8--9 ("Maltz's Reward Part I")
 ref:	KLINW; TDNW
 see:	{bertlham}
 file:	2003-06-holqed-12-2.txt
@@ -911,7 +910,7 @@ tlh:	{bo}
 pos:	noun
 sv:	«fjäder» (på fågel)
 en:	«feather»
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 ref:	KLINW
 file:	2001-12-holqed-10-4.txt
 
@@ -1042,12 +1041,11 @@ tlh:	{boq} [1]
 pos:	verb
 sv:	«alliera» med, «förena» med, skapa en allians med
 en:	«ally» with, «form» an alliance with
-def:	HQ9:3 p.9
+def:	HQ9:3 p.9 ("{matlh juppu' mu'mey}")
 ref:	KLINW
-com:	Article in HQ is called "{matlh juppu' mu'mey}". HQ: Used in math:
-	{boq} for addition, {boqHa'} for subtraction, {X-logh boq'egh Y} for
-	multiplication, {X-logh boqHa''egh Y} for division. See also {chen}.
-	[KLINW]
+com:	HQ9:3 p.9 ("{matlh juppu' mu'mey}"): Used in math: {boq} for addition,
+	{boqHa'} for subtraction, {X-logh boq'egh Y} for multiplication,
+	{X-logh boqHa''egh Y} for division. See also {chen}. [KLINW]
 cat:	math
 file:	2000-09-holqed-09-3.txt
 
@@ -1055,20 +1053,20 @@ tlh:	{boq} [2]
 pos:	noun
 sv:	«allians», «block», «sammanslutning», «koalition», «fusion»
 en:	<alliance>, <bloc>, <coalition>, «fusion»
-def:	TKD; KGT; BoP
+def:	TKD; HQ4:4 p.11 ("More from Maltz"); KGT; BoP
 ref:	KLINW
 com:	"{Hong boq chuyDaH: loS} 'Impulse Fusion Thrusters -- 4'" [BoP]
-file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt; 1998-11-01-bop.txt
+file:	1992-01-01-tkd.txt; 1995-12-holqed-04-4.txt; 1997-11-01-kgt.txt;
+	1998-11-01-bop.txt
 meta:	Entries from TKD, KGT and BoP have been combined here.
 
 tlh:	{boqHa'}
 pos:	verb
 sv:	«skilja» ifrån
 en:	«dissociate» from
-def:	HQ9:3 p.9
+def:	HQ9:3 p.9 ("{matlh juppu' mu'mey}")
 ref:	KLINW
-com:	Article in HQ is called "{matlh juppu' mu'mey}". "{boqHa''egh}" and
-	"{boq'egh}" [KLINW]
+com:	"{boqHa''egh}" and "{boq'egh}" [KLINW]
 data:	derived form
 file:	2000-09-holqed-09-3.txt
 
@@ -1119,7 +1117,7 @@ tlh:	{bor}
 pos:	verb
 sv:	«kurra», «knorra» (ljud från mage)
 en:	«gurgle» (sound from stomach)
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW; KLINW
 file:	2003-12-holqed-12-4.txt
 
@@ -1127,7 +1125,7 @@ tlh:	{borghel}
 pos:	noun
 sv:	ett slags «fågel» (väldigt liten, dess ägg anses mycket goda)
 en:	type of «bird» (very small, its eggs are considered quite tasty)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
 ref:	KLINW
 file:	2001-12-holqed-10-4.txt
 
@@ -1203,7 +1201,7 @@ tlh:	{bo'Degh}
 pos:	noun
 sv:	«fågel»
 en:	«bird»
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
 ref:	KLINW
 com:	general word for bird-like creature
 file:	2001-12-holqed-10-4.txt
@@ -1252,7 +1250,7 @@ tlh:	{bur}
 pos:	verb
 sv:	«hicka»
 en:	«hiccup»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW; KLINW
 file:	2003-12-holqed-12-4.txt
 
@@ -1360,14 +1358,13 @@ tlh:	{chach} [1]
 pos:	verb
 sv:	vara i «reserv», vara till för «nödläge»n
 en:	be «auxiliary», be for «backup» use
-def:	HQ1:3 p.9
+def:	HQ1:3 p.9 ("Additional Vocabulary")
 com:	{chach!} ["Emergency!"] (untranslated) [ST6]; {tlham chach chu'qa'}
 	"Restoring auxiliary gravity." (clipped?) [ST6]; "If I heard this
 	correctly, {chach} appears to be acting as a quality here:
 	'backup/auxiliary gravity'. If it's a noun, I would expect the
 	noun+noun phrase ?{chach tlham} 'emergency gravity'." /Steven Boozer
-	[2006-10-04]; Article in HQ is called "Additional Vocabulary" and
-	contains the {veS QonoS} list of words.
+	[2006-10-04]
 file:	1992-09-holqed-01-3.txt
 
 tlh:	{chach} [2]
@@ -1383,7 +1380,8 @@ sv:	«radio«frekvens»», hertz (frekvensenhet)
 en:	«radio <frequency>», Hertz («unit» of frequency)
 def:	KGT
 ref:	TDNW
-com:	According to HQ1:3 p.9, this means "Hertz (frequency)".
+com:	According to HQ1:3 p.9 ("Additional Vocabulary"), this means "Hertz
+	(frequency)".
 cat:	unit
 file:	1997-11-01-kgt.txt
 
@@ -1439,9 +1437,10 @@ pos:	noun
 sv:	område österut, område i «öster»
 en:	area eastward, area towards the «east»
 def:	News 1999-11-21
+ref:	HQ8:4 pp.6--8 ("Maltz Online")
 com:	"90 degrees on Terran compass" [KLINW]
 cat:	locative
-file:	1999-11-21-news.txt
+file:	1999-11-21-news.txt; 1999-12-holqed-08-4.txt
 
 tlh:	{chanDoq}
 pos:	noun
@@ -1510,7 +1509,7 @@ tlh:	{chaS}
 pos:	noun
 sv:	«topp», «överdel» (på käpp eller stav)
 en:	«top» (of cane or walking stick)
-def:	HQ12:2 p.7
+def:	HQ12:2 p.7 ("Maltz's Reward Part I")
 ref:	TDNW
 file:	2003-06-holqed-12-2.txt
 
@@ -1596,7 +1595,7 @@ tlh:	{cha'bIp}
 pos:	noun
 sv:	en slags «fågel» (berömd för sin snabbhet)
 en:	type of «bird» (noted for its speed)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{cha'DIch} [1]
@@ -1618,7 +1617,7 @@ tlh:	{cha'Do'}
 pos:	noun
 sv:	en slags «fågel» (om vilken litet är känt)
 en:	type of «bird» (about which little is known)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{cha'Hu'}
@@ -1648,7 +1647,7 @@ tlh:	{cha'naS}
 pos:	noun
 sv:	en slags «fågel» (liten, gräver upp småkryp att äta)
 en:	type of «bird» (small, digs up bugs to eat)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{cha'nob}
@@ -1662,7 +1661,7 @@ tlh:	{cha'par}
 pos:	noun
 sv:	en slags «fågel» (berömd för sin sång)
 en:	type of «bird» (noted for its song)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{cha'puj}
@@ -1683,7 +1682,7 @@ tlh:	{cha'qu'}
 pos:	noun
 sv:	en slags «fågel» (med ett högljutt, enformigt skrik)
 en:	type of «bird» (with a noisy, repetitive cry)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{cheb}
@@ -1794,11 +1793,11 @@ pos:	verb
 sv:	«bygga» upp, «bildas», «formas», «ta» «form», anta «skepnad»
 en:	<build> up, <take> «form»
 def:	TKD
-ref:	HQ9:3 p.9
-com:	HQ: Used in math where the subject is the result of the
-	formula statement (typically using some form of the verb
-	{boq}). The {chen} statement follows the {boq} statement with
-	a semicolon dividing them in Okrand's notation.
+ref:	HQ9:3 p.9 ("{matlh juppu' mu'mey}")
+com:	HQ9:3 p.9 ("{matlh juppu' mu'mey}"): Used in math where the subject is
+	the result of the formula statement (typically using some form of the
+	verb {boq}). The {chen} statement follows the {boq} statement with a
+	semicolon dividing them in Okrand's notation.
 cat:	math
 file:	1992-01-01-tkd.txt
 
@@ -2098,7 +2097,7 @@ com:	"Literally 'be vertical,' this word is used to refer to one's
 	longer time. An equivalent meaning may be expressed without slang by
 	using a word such as {Qubchu'} ('think perfectly, think clearly';
 	{Qub,} 'think'; {-chu',} 'perfectly, clearly'), as in {Qubchu' tlhIngan
-	SuvwI'} ('The Klingon warrior thinks clearly')." [KGT p.148]
+	SuvwI'} ('The Klingon warrior thinks clearly')." [KGT p.148]
 see:	{Qub} "think"
 file:	1997-11-01-kgt.txt
 
@@ -2106,14 +2105,14 @@ tlh:	{chong} [2]
 pos:	exclamation
 sv:	«bra», «utmärkt», «beundransvärt» [slang]
 en:	«good», «excellent», «admirable» [slang]
-def:	KGT pp.148--149
+def:	KGT pp.148--149
 com:	"Literally 'be vertical' [...] The word {chong} may also be used as an
 	exclamation expressing approval or satisfaction, somewhat like standard
 	{maj} ('good'). Thus, one may describe one's feelings about a
 	skillfully made knife or about an upcoming social event by saying
 	simply {chong} (literally, 'vertical' but meaning 'good, excellent,
 	admirable'). See also {qu'} (literally, 'be fierce'), another slang
-	term used to express approval." [KGT pp.148-149]
+	term used to express approval." [KGT pp.148--149]
 see:	{maj} <good> (excl); {qu'} <be great> (v) (slang)
 file:	1997-11-01-kgt.txt
 
@@ -2281,7 +2280,7 @@ com:	"In the slang sense, the object of the verb is the person who wants
 	clarification, as in {HIchuH!} ('Clarify for me!' 'Spell it out for
 	me!'; literally, 'Throw [a spear] at me!') or {yaS chuH} ('He/she
 	clarifies [it] for the officer'; literally, 'He/she throws [a spear] at
-	the officer')." [KGT p.149]
+	the officer')." [KGT p.149]
 see:	{QIj} "explain"
 file:	1997-11-01-kgt.txt
 
@@ -2385,7 +2384,7 @@ tlh:	{chuy}
 pos:	verb
 sv:	«nysa»
 en:	«sneeze»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
 see:	{'IqnaH}
 file:	2003-12-holqed-12-4.txt
@@ -2649,24 +2648,26 @@ tlh:	{Dav}
 pos:	verb
 sv:	«svänga», förflytta sig i sidled (om flygmaskin)
 en:	«sway», move to the side (about aircraft)
-def:	HQ11:2 p.9
+def:	HQ11:2 p.9 ("{matlh jup mu'mey}")
 com:	"When it [an aircraft] moves to the side (not when the nose points to
 	the left or right, but when the plane slides to the left or right
-	without otherwise changing its orientation)" [HQ11:2 p.9]
+	without otherwise changing its orientation)" [HQ11:2 p.9 ("{matlh jup
+	mu'mey}")]
 file:	2002-06-holqed-11-2.txt
 
 tlh:	{DavHam}
 pos:	noun
 sv:	«falsk» «ära»
 en:	«false» «honor»
-def:	HQ12:3 p.9
+def:	HQ12:3 p.9 ("Maltz's Reward Part II")
 ref:	TDNW
 com:	"[...] covers the same semantic ground as both {HoQ} [<be honored
 	falsely>] and {Qaq} [<behave falsely honorably>] (but not really {mIl}
 	[<be formerly honored>]). {DavHam} is different from {quvHa'ghach}
 	<dishonor> (noun) in that the latter does not imply seeming to be
 	honorable or the appearance of honorability, but rather the lack of or
-	loss of honor." [HQ12:3 p.9]; "undeserved honor" [TDNW]
+	loss of honor." [HQ12:3 p.9 ("Maltz's Reward Part II")]; "undeserved
+	honor" [TDNW]
 see:	{HoQ}; {Qaq}; {quvHa'ghach}
 file:	2003-09-holqed-12-3.txt
 
@@ -2710,7 +2711,7 @@ tlh:	{Da'nal}
 pos:	noun
 sv:	en slags «fågel» (kännetecknad av irrande, oförutsägbart beteende)
 en:	type of «bird» (characterized by erratic, unpredictable behavior)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
 com:	similar to {Da'vI'}
 file:	2001-12-holqed-10-4.txt
 
@@ -2718,7 +2719,7 @@ tlh:	{Da'vI'}
 pos:	noun
 sv:	en slags «fågel» (kännetecknad av irrande, oförutsägbart beteende)
 en:	type of «bird» (characterized by erratic, unpredictable behavior)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
 com:	similar to {Da'nal}
 file:	2001-12-holqed-10-4.txt
 
@@ -2864,9 +2865,9 @@ tlh:	{Der}
 pos:	verb
 sv:	«gira» (om flygmaskin)
 en:	«yaw» (about aircraft)
-def:	HQ11:2 p.9
+def:	HQ11:2 p.9 ("{matlh jup mu'mey}")
 com:	"When the nose of an airplane or similar craft moves to the left or
-	the right [...]" [HQ11:2 p.9]
+	the right [...]" [HQ11:2 p.9 ("{matlh jup mu'mey}")]
 file:	2002-06-holqed-11-2.txt
 
 tlh:	{DeS} [.1]
@@ -2992,10 +2993,10 @@ tlh:	{DIn}
 pos:	noun
 sv:	«ingång», «öppning» (till en tunnel, rör etc., utan dörr)
 en:	«entryway» (to a tunnel, conduit, etc.; not a door)
-def:	HQ12:2 p.7
+def:	HQ12:2 p.7 ("Maltz's Reward Part I")
 ref:	TDNW
 com:	"If there's a door there, it's referred to by the usual word for door,
-	{lojmIt}." [HQ12:2 p.7]
+	{lojmIt}." [HQ12:2 p.7 ("Maltz's Reward Part I")]
 see:	{qa'rI'}, {lojmIt}
 cat:	architecture
 file:	2003-06-holqed-12-2.txt
@@ -3074,10 +3075,10 @@ pos:	noun
 sv:	«federation», «organisation», «förening», «sammanslutning», «förbund»,
 	«union»
 en:	<federation>, <organization>, «association», «league», «union»
-def:	TKD; HQ4:4 p.11
-com:	Article in HQ is called "More from Maltz".
+def:	TKD; HQ4:4 p.11 ("More from Maltz")
 file:	1992-01-01-tkd.txt; 1995-12-holqed-04-4.txt
-meta:	Entries from TKD and HQ have been combined here.
+meta:	Entries from TKD and HQ4:4 p.11 ("More from Maltz") have been combined
+	here.
 
 tlh:	{DIvI'may'Duj}
 pos:	noun
@@ -3206,7 +3207,7 @@ en:	«velocity «restaurant»», «fast-food restaurant», «~Dok'e~»
 def:	KGT pp.102, 103 et al.
 data:	phrase
 file:	1997-11-01-kgt.txt
-meta:	This entry combines information from KGT p.102 and entry on {tebwI'} in
+meta:	This entry combines information from KGT p.102 and entry on {tebwI'} in
 	KGT word list.
 
 tlh:	[1] {Dor}
@@ -3221,16 +3222,17 @@ pos:	verb
 sv:	«ta «slut»» (om tidsperiod, t.ex. månad, år)
 en:	«come to an «end»» (about period of time, e.g. month, year)
 desc:	{Dor jar} ~the month ends;~ time period is subj.
-def:	HQ12:2 p.8
+def:	HQ12:2 p.8 ("Maltz's Reward Part I")
 ref:	TDNW
 com:	"Generally, one expresses the end of a stretch of time by using a verb
 	rather than a noun. That is, one says 'when the month ends' rather than
 	'at the end of the month.' The verb for this kind of 'end' is {Dor}.
 	For example: {DorDI' jar mejpu'} 'At the end of the month, he/she
 	left'. Literally, this sentence means 'When the month ended, he/she
-	left' ({-DI'} <when>, {jar} <month>, {mejpu'} <he/she left>)." [HQ12:2
-	p.8]; "He [Maltz] said there was no connection at all between {Dor}
-	<end> and {Dor} <escort>." [HQ12:2 p.8]
+	left' ({-DI'} <when>, {jar} <month>, {mejpu'} <he/she left>)."
+	[HQ12:2 p.8 ("Maltz's Reward Part I")]; "He [Maltz] said there was no
+	connection at all between {Dor} <end> and {Dor} <escort>." [HQ12:2 p.8
+	("Maltz's Reward Part I")]
 see:	{van} (2), {ghang}
 cat:	time
 file:	2003-06-holqed-12-2.txt
@@ -3453,7 +3455,7 @@ sv:	göra (någon) «rörd»
 en:	<touch>, «move» (emotionally)
 def:	KGT
 com:	"{muDuQ bom} ('The song stabs me,' or, in a more colloquial Federation
-	Standard form, 'The song moves me')" [KGT p.72]
+	Standard form, 'The song moves me')" [KGT p.72]
 file:	1997-11-01-kgt.txt
 
 tlh:	{DuQwI'}
@@ -3485,7 +3487,7 @@ pos:	name
 sv:	«Duras»
 en:	«Duras»
 def:	S26
-com:	S26 was reprinted in HQ5:3 p.15
+com:	S26 was reprinted in HQ5:3 p.15
 file:	1996-sbx-s26.txt
 
 tlh:	{DuS}
@@ -3598,8 +3600,7 @@ tlh:	{ghal}
 pos:	verb
 sv:	vara «avundsjuk» (på), «avundas»
 en:	be «jealous» (of), «envy»
-def:	HQ8:3 p.4
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ8:3 p.4 ("{matlh juppu' mu'mey}")
 file:	1999-09-holqed-08-3.txt
 
 tlh:	{gham}
@@ -3622,7 +3623,7 @@ sv:	«avsluta» i förtid (en händelse, t.ex. resa, strid, sång)
 en:	prematurely «end» (an event, e.g. a voyage, battle, song)
 desc:	{may' ghang SuvwI'} ~the warrior ends the battle prematurely;~
 	participants are subj.
-def:	HQ12:2 p.8
+def:	HQ12:2 p.8 ("Maltz's Reward Part I")
 ref:	TDNW
 com:	"[...] {ghang}, is used to express the idea of a premature ending. If
 	[...] the voyage is cut short or the song is interrupted before the
@@ -3630,7 +3631,8 @@ com:	"[...] {ghang}, is used to express the idea of a premature ending. If
 	'When the warriors end the voyage prematurely, they are sad.'; {bom
 	ghangDI' SuvwI'pu' tlhutlh chaH} 'When the warriors end the song
 	prematurely, they drink.' Note that the voyage and the song cannot end
-	themselves. Someone has to end them." [HQ12:2 p.8]
+	themselves. Someone has to end them." [HQ12:2 p.8 ("Maltz's Reward Part
+	I")]
 see:	{van} (2), {Dor} (2)
 file:	2003-06-holqed-12-2.txt
 
@@ -3638,7 +3640,7 @@ tlh:	{ghangwI'}
 pos:	noun
 sv:	«horisont»
 en:	«horizon»
-def:	HQ11:2 p.8
+def:	HQ11:2 p.8 ("{matlh jup mu'mey}")
 file:	2002-06-holqed-11-2.txt
 
 tlh:	{ghap}
@@ -3713,7 +3715,7 @@ pos:	name
 sv:	«Gowron»
 en:	«Gowron»
 def:	S25; S26; KGT pp.25, 26, 197, 198
-com:	S25 and S26 were reprinted in HQ5:3 p.15
+com:	S25 and S26 were reprinted in HQ5:3 p.15
 file:	1996-sbx-s25.txt; 1996-sbx-s26.txt; 1997-11-01-kgt.txt
 
 tlh:	[1] {ghaw'}
@@ -3778,7 +3780,7 @@ tlh:	{gheb}
 pos:	noun
 sv:	«horn», «lur» (musikinstrument)
 en:	«horn» (musical instrument)
-def:	HQ10:2 p.9
+def:	HQ10:2 p.9 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 cat:	music
 file:	2001-06-holqed-10-2.txt
 
@@ -3835,17 +3837,17 @@ pos:	verb
 sv:	«låtsas», «rollspela»
 en:	«pretend», «role-play»
 desc:	does not imply deception
-def:	HQ12:3 p.8
+def:	HQ12:3 p.8 ("Maltz's Reward Part II")
 ref:	TDNW
 com:	"{ghet} and {ghetwI'} <pretender> generally do not imply deception, but
-	simply role-playing" [HQ12:3 p.8]
+	simply role-playing" [HQ12:3 p.8 ("Maltz's Reward Part II")]
 file:	2003-09-holqed-12-3.txt
 
 tlh:	{ghetwI'}
 pos:	noun
 sv:	någon som «låtsas», person som låtsas
 en:	«pretender»
-def:	HQ12:3 p.8
+def:	HQ12:3 p.8 ("Maltz's Reward Part II")
 ref:	TDNW
 data:	derived form
 file:	2003-09-holqed-12-3.txt
@@ -4004,8 +4006,7 @@ tlh:	{ghIq}
 pos:	adverbial
 sv:	«därefter», och «sedan», «efter det», «efteråt»
 en:	and then, «after that», by «then», «subsequently»
-def:	HQ8:3 p.4
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ8:3 p.4 ("{matlh juppu' mu'mey}")
 file:	1999-09-holqed-08-3.txt
 
 tlh:	{ghIqtal}
@@ -4072,12 +4073,10 @@ tlh:	{ghItlh} [1]
 pos:	verb
 sv:	«skriva», «gravera», «rista» in, «skära» in, «märka»
 en:	<write>, <engrave>, <incise>, <mark> (upon)
-def:	TKD; HQ2:4 p.18; KGT
-com:	Article in HQ is called "Okrand's Notes":
-	"'To mark (upon)' something is {ghItlh}. This isn't just
-	writing; it's any kind of marking. (Note that {ghItlh}, 'to
-	write,' refers to the physical act of writing. It doesn't
-	mean 'to create a composition.')"
+def:	TKD; HQ2:4 p.18 ("Okrand's Notes"); KGT
+com:	"'To mark (upon)' something is {ghItlh}. This isn't just writing; it's
+	any kind of marking. (Note that {ghItlh}, 'to write,' refers to the
+	physical act of writing. It doesn't mean 'to create a composition.')"
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1993-12-holqed-02-4.txt; 1997-11-01-kgt.txt
 meta:	Entries from all sources have been combined here.
@@ -4193,10 +4192,10 @@ tlh:	{ghogh HablI'}
 pos:	noun
 sv:	«telefon»
 en:	«telephone»
-def:	HQ5:2 p.20
-com:	Article in HQ is called "{chuvmey}".
+def:	HQ5:2 p.20 ("{chuvmey}")
 data:	phrase; derived form
 file:	1996-06-holqed-05-2.txt
+meta:	FIXME -- File contains wrong article.
 
 tlh:	{ghoH}
 pos:	verb
@@ -4266,10 +4265,10 @@ meta:	Should {ghom} "meet" and "group" really be grouped together?
 tlh:	{ghom} [2]
 pos:	noun
 sv:	«grupp», «samling», «skara», «gäng», «liga»
-en:	<group>, <party>, <band>
-def:	TKD; KGT
+en:	<group>, <party>, <band> (in nonmusical sense)
+def:	TKD; HQ4:4 p.11 ("More from Maltz"); KGT
 data:	KLCP-1
-file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
+file:	1992-01-01-tkd.txt; 1995-12-holqed-04-4.txt; 1997-11-01-kgt.txt
 meta:	Should {ghom} "meet" and "group" really be grouped together?
 
 tlh:	{ghomHa'}
@@ -4355,7 +4354,7 @@ en:	<break>
 def:	TKD
 ref:	TKW p.185
 com:	Apparently means "break" in the sense of breaking something (e.g. a
-	shell) open. {pIpyuS yIghor!} "Break a pipius!" [TKW p.185]
+	shell) open. {pIpyuS yIghor!} "Break a pipius!" [TKW p.185]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -4406,7 +4405,7 @@ tlh:	{ghotI'}
 pos:	noun
 sv:	«fisk»
 en:	«fish»
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 ref:	TDNW
 pun:	Bernard Shaw's famous spelling of "fish".
 see:	{bIQDep}
@@ -4445,8 +4444,7 @@ tlh:	{ghubDaQ}
 pos:	noun
 sv:	«förstfödd»
 en:	«firstborn»
-def:	HQ9:3 p.9
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ9:3 p.9 ("{matlh juppu' mu'mey}")
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
@@ -4498,7 +4496,7 @@ tlh:	[2] {ghun}
 pos:	verb
 sv:	vara «varm»
 en:	be «warm»
-def:	HQ13:1 p.8
+def:	HQ13:1 p.8 ("Maltz's Reward Part IV")
 ref:	TDNW
 file:	2004-03-holqed-13-1.txt
 
@@ -4551,11 +4549,10 @@ tlh:	{ghuy'}
 pos:	exclamation
 sv:	«fan», «djävlar» («svordom»)
 en:	«damn» («curse»)
-def:	ST5; HQ8:4 p.13
+def:	ST5; HQ8:4 p.13 ("Notes from Star Trek V: The Final Frontier")
 com:	ST5: {ghuy' po'qu'} "Damn he's good."
-	Article in HQ is called "Notes from Star Trek V: The Final
-	Frontier".
 file:	1999-12-holqed-08-4.txt
+meta:	FIXME -- File contains wrong article.
 
 tlh:	{ghuy'cha'}
 pos:	exclamation
@@ -4928,10 +4925,10 @@ pos:	verb
 sv:	vara «stolt»
 en:	be <proud>
 def:	TKD
-ref:	TKW p.13; HQ12:3 p.9
+ref:	TKW p.13; HQ12:3 p.9 ("Maltz's Reward Part II")
 com:	"To be {Hem} <proud> [...] is quite admirable and does not carry any
 	connotations of arrogance as the Federation Standard words 'proud' and
-	'pride' sometimes do." [HQ12:3 p.9]
+	'pride' sometimes do." [HQ12:3 p.9 ("Maltz's Reward Part II")]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -5182,7 +5179,7 @@ pos:	noun
 sv:	«alla», «allihop», «allt», «allting», «varje», «varenda»
 en:	<everyone>, <all>, «everything», «each», «every»
 def:	TKD; TKW
-ref:	HQ5:2 p.11
+ref:	HQ5:2 p.11 ("More on {Hoch}")
 com:	First in a noun-noun pair in TKW. According to HQ "More on {Hoch}"; "If
 	noun following Hoch is explicitly plural, it means 'all'. If it is
 	singular, it means 'each'." Occurs in TKW p.33, 51, 74, 74, 74, 99,
@@ -5196,7 +5193,7 @@ pos:	numeral
 sv:	«allte», «slutgiltiga», «sista»
 en:	«allth», «final», «last»
 def:	KGT p.177
-ref:	TDNW; HQ12:2 p.9
+ref:	TDNW; HQ12:2 p.9 ("Maltz's Reward Part I")
 file:	1997-11-01-kgt.txt
 
 tlh:	{HochHom}
@@ -5304,7 +5301,7 @@ tlh:	{Hom} [2]
 pos:	verb
 sv:	«använda» «andra«tå»n» [arkaiskt]
 en:	«use» the «second «toe»» [archaic]
-def:	HQ10:2 p.10
+def:	HQ10:2 p.10 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -5312,7 +5309,7 @@ tlh:	{HomwI'}
 pos:	noun
 sv:	«andra«tå»»
 en:	«second «toe»»
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -5373,10 +5370,11 @@ tlh:	{HoQ}
 pos:	verb
 sv:	vara «falskt» «ärad», vara «felaktigt» «hedrad»
 en:	be «honored» «falsely», be falsely honorable
-def:	HQ12:3 p.8
+def:	HQ12:3 p.8 ("Maltz's Reward Part II")
 ref:	TDNW
 com:	"[It can] be used in the same places {quv} 'be honored, be honorable'
-	could be used, but only when the honor was not legitimate." [HQ12:3]
+	could be used, but only when the honor was not legitimate." [HQ12:3 p.8
+	("Maltz's Reward Part II")]
 see:	{quv} "be honored, be honorable" (v)
 file:	2003-09-holqed-12-3.txt
 
@@ -5408,9 +5406,8 @@ tlh:	{HoS choHwI'}
 pos:	noun
 sv:	«transtator»
 en:	«transtator»
-def:	HQ1:3 p.9
-com:	Article in HQ is called "Additional Vocabulary" and contains
-	the {veS QonoS} list of words. (This is a treknobabble word.)
+def:	HQ1:3 p.9 ("Additional Vocabulary")
+com:	This is a treknobabble word.
 data:	phrase
 file:	1992-09-holqed-01-3.txt
 
@@ -5754,7 +5751,7 @@ tlh:	{Hutvagh}
 pos:	exclamation
 sv:	för «många» människor/saker på samma plats samtidigt
 en:	too «many» people/things in a place all at once
-def:	HQ11:3 p.13
+def:	HQ11:3 p.13 ("More From Maltz")
 pun:	Word play on {Qu'vatlh} which is more commonly heard in situations
 	described by {Hutvagh}. {Hutvagh} also reads as "nine five", and one
 	would not be surprised if the amount of "too many people" was along
@@ -5812,7 +5809,7 @@ pos:	exclamation
 sv:	(generellt «invektiv»)
 en:	(general «invective»)
 def:	TKDa 5.5 (p.178)
-com:	In HQ3:3, 14 Rhonda E. Green comments that a probable translation of
+com:	In HQ3:3, p.14 Rhonda E. Green comments that a probable translation of
 	this word would be "fuck", this based on the usage of the word in
 	A.C. Crispin's "Sarek".
 file:	1992-01-01-tkd.txt
@@ -5900,7 +5897,7 @@ tlh:	{jajlo' Qa'}
 pos:	noun
 sv:	ett slags «djur» (för oljud i gryningen)
 en:	type of «animal» (makes a ruckus at dawn)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 data:	derived form
 file:	2001-12-holqed-10-4.txt
 
@@ -5937,7 +5934,7 @@ pos:	name
 sv:	«Jean-Luc Picard»
 en:	«Jean-Luc Picard»
 def:	S25
-com:	S25 was reprinted in HQ5:3 p.15
+com:	S25 was reprinted in HQ5:3 p.15
 data:	phrase; {janluq} (name); {pIqarD} (name)
 file:	1996-sbx-s25.txt
 meta:	Word does not follow standard Klingon phonotax.
@@ -6216,8 +6213,9 @@ tlh:	{jer}
 pos:	verb
 sv:	«rycka», plötsligt röra sig framåt eller bakåt (om flygmaskin)
 en:	«surge», suddenly move forward or backward (about aircraft)
-def:	HQ11:2 p.9
-com:	"if it suddenly moves forwards or backwards" [HQ11:2 p.9]
+def:	HQ11:2 p.9 ("{matlh jup mu'mey}")
+com:	"if it suddenly moves forwards or backwards" [HQ11:2 p.9 ("{matlh jup
+	mu'mey}")]
 file:	2002-06-holqed-11-2.txt
 
 tlh:	{jeS}
@@ -6234,14 +6232,14 @@ en:	<storm>
 def:	TKD
 cat:	landscape
 file:	1992-01-01-tkd.txt
-meta:	"Correction" in HQ4:1 p.7 disregarded here, since weather words {peD}
+meta:	"Correction" in HQ4:1 p.7 disregarded here, since weather words {peD}
 	and {SIS} also are verbs.
 
 tlh:	{jev} [.2]
 pos:	verb
 sv:	«väsa», «rossla», «andas» ljudligt
 en:	«wheeze», «breathe» nosily
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
 see:	{tlhov} is a synonym
 file:	2003-12-holqed-12-4.txt
@@ -6336,7 +6334,7 @@ file:	1992-01-01-tkd.txt
 meta:	*{jIj}, in the sense of "cooperate", is here assumed to be a mistake.
 	This meaning only occurs in KTD K-E, "cooperate" is translated {yeq} in
 	TKD E-K, and all occurances of {jIj} in later canon are translated as
-	"be cooperative". There is even an example in KGT p.159 explicitly
+	"be cooperative". There is even an example in KGT p.159 explicitly
 	showing the difference between {jIj} and {yeq}: {reH yeq} ("always
 	cooperate"), and {reH jIj} ("always be cooperative").
 
@@ -6362,10 +6360,10 @@ tlh:	{jIm}
 pos:	verb
 sv:	«höja», «sänka» (om flygmaskin)
 en:	«heave» (about aircraft)
-def:	HQ11:2 p.9
-com:	"When the plane moves up or down (not when the nose points up or
-	down, but when the plane increases or decreases altitude, as if the
-	whole plane is being pushed up or down)" [HQ11:2 p.9]
+def:	HQ11:2 p.9 ("{matlh jup mu'mey}")
+com:	"When the plane moves up or down (not when the nose points up or down,
+	but when the plane increases or decreases altitude, as if the whole
+	plane is being pushed up or down)" [HQ11:2 p.9 ("{matlh jup mu'mey}")]
 pun:	This is whan "Jim" Kirk does to outsmart Khan in the nebula, at the
 	end of "Star Trek II: The Wrath of Khan".
 file:	2002-06-holqed-11-2.txt
@@ -6601,7 +6599,7 @@ tlh:	[1] {joq}
 pos:	verb
 sv:	«fladdra», «flaxa»
 en:	<flap>, <flutter>, <wave>
-desc:	about banner or sail [HQ10:4 p.5]
+desc:	about banner or sail [HQ10:4 p.5 ("{matlh juppu' mu'mey}")]
 def:	TKD
 file:	1992-01-01-tkd.txt
 
@@ -6931,9 +6929,9 @@ tlh:	{laq}
 pos:	verb
 sv:	«flaxa», «slå» (om fågelvingar)
 en:	«flap» (bird's wings do this)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 com:	Used about a birds wings. "[...] in flight, a bird's wings {laq} (the
-	bird is said to {laqmoH} its wings)" [HQ10:4 p. 5]
+	bird is said to {laqmoH} its wings)" [HQ10:4 p.5]
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{laQ}
@@ -7263,7 +7261,7 @@ en:	<introduce>
 def:	TKD
 ref:	TDNW
 com:	"To begin to sing a song is to {lIH} (literally, <introduce>) the song
-	[...]" [HQ12:2 p.9]
+	[...]" [HQ12:2 p.9 ("Maltz's Reward Part I")]
 see:	{namtun}, {'o'megh}
 file:	1992-01-01-tkd.txt
 
@@ -7321,7 +7319,7 @@ tlh:	{lIr}
 pos:	noun
 sv:	en slags «fågel» (nattlevande)
 en:	type of «bird» (nocturnal)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{lIS}
@@ -7501,7 +7499,7 @@ pos:	noun
 sv:	«dörr», «grind», «port»
 en:	<door>, <gate>
 def:	TKD
-ref:	TKW p.186; HQ12:2 p.7
+ref:	TKW p.186; HQ12:2 p.7 ("Maltz's Reward Part I")
 see:	{DIn}, {qa'rI'}
 cat:	architecture
 data:	KLCP-1
@@ -7512,21 +7510,21 @@ pos:	verb
 sv:	vara i en «position», vara i ett «läge», vara i en «pose», vara i en
 	«ställning», vara i en «hållning»
 en:	be in an «attitude», be in a «stance», be in a «pose»
-def:	HQ11:2 p.8
+def:	HQ11:2 p.8 ("{matlh jup mu'mey}")
 file:	2002-06-holqed-11-2.txt
 
 tlh:	{lol} [2]
 pos:	noun
 sv:	en särskild ~Mok'bara~-«position»
 en:	a specific ~Mok'bara~ «position»
-def:	HQ11:2 p.8
+def:	HQ11:2 p.8 ("{matlh jup mu'mey}")
 file:	2002-06-holqed-11-2.txt
 
 tlh:	{lolchu'}
 pos:	verb
 sv:	vara i en korrekt «position», vara i ett riktigt «läge»
 en:	be in a correct «attitude»
-def:	HQ11:2 p.8
+def:	HQ11:2 p.8 ("{matlh jup mu'mey}")
 data:	derived form
 file:	2002-06-holqed-11-2.txt
 
@@ -7534,7 +7532,7 @@ tlh:	{lolchu'taH}
 pos:	verb
 sv:	upprätthålla en korrekt «position», bibehålla ett riktigt «läge»
 en:	maintain a correct «attitude»
-def:	HQ11:2 p.8
+def:	HQ11:2 p.8 ("{matlh jup mu'mey}")
 data:	derived form
 file:	2002-06-holqed-11-2.txt
 
@@ -7542,7 +7540,7 @@ tlh:	{lolmoH}
 pos:	verb
 sv:	«manövrera» (en flygmaskin)
 en:	«maneuver» (an aircraft)
-def:	HQ11:2 p.8
+def:	HQ11:2 p.8 ("{matlh jup mu'mey}")
 data:	derived form
 file:	2002-06-holqed-11-2.txt
 
@@ -7557,7 +7555,7 @@ tlh:	{loltaH}
 pos:	verb
 sv:	upprätthålla en «position», bibehålla ett «läge»
 en:	maintain an «attitude»
-def:	HQ11:2 p.8
+def:	HQ11:2 p.8 ("{matlh jup mu'mey}")
 data:	derived form
 file:	2002-06-holqed-11-2.txt
 
@@ -7619,8 +7617,7 @@ sv:	«kusin» (mors brors barn eller fars systers barn), «systerbarn» (en
 	mans systers barn), «brorsbarn» (en kvinnas brors barn)
 en:	«cousin» (mother's brother's child or father's sister's child),
 	«niece», «nephew» (a man's sister's child or a woman's brother's child)
-def:	HQ9:3 p.8
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
@@ -7632,8 +7629,7 @@ sv:	kvinnlig «kusin» (mors brors dotter eller fars systers dotter),
 en:	female «cousin» (mother's brother's daughter or father's sister's
 	daughter), «niece» (a man's sister's daughter or a woman's brother's
 	daughter)
-def:	HQ9:3 p.8
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
@@ -7643,8 +7639,7 @@ sv:	manlig «kusin» (mors brors son eller fars systers son), «systerson» (en
 	mans systers son), «brorson» (en kvinnas brors son)
 en:	male «cousin» (mother's brother's son or father's sister's son),
 	«nephew» (a man's sister's son or a woman's brother's son)
-def:	HQ9:3 p.8
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
@@ -7707,7 +7702,7 @@ pos:	noun
 sv:	en slags «fågel» (slår ner i vattnet för att fånga mat, men kan inte
 	simma)
 en:	type of «bird» (swoops into the water to catch food, but cannot swim)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{lotlhwI'}
@@ -7942,7 +7937,7 @@ pos:	name
 sv:	«Lursa»
 en:	«Lursa»
 def:	S26; KGT p.197
-com:	S26 was reprinted in HQ5:3 p.15
+com:	S26 was reprinted in HQ5:3 p.15
 	Lursa is one of the Duras sisters.
 file:	1996-sbx-s26.txt; 1997-11-01-kgt.txt
 
@@ -8006,7 +8001,7 @@ sv:	«förråda», «svika»
 en:	<betray>
 def:	TKD
 ref:	S26
-com:	S26 was reprinted in HQ5:3 p.15, here used as "act against".
+com:	S26 was reprinted in HQ5:3 p.15, here used as "act against".
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -8109,16 +8104,14 @@ tlh:	{maQmIgh}
 pos:	noun
 sv:	illavarslade «omen», «tecken» på förestående ondska, «järtecken»
 en:	dark «omen», «sign» of evil coming
-def:	HQ1:3 p.9
-com:	Article in HQ is called "Additional Vocabulary" and contains
-	the {veS QonoS} list of words.
+def:	HQ1:3 p.9 ("Additional Vocabulary")
 file:	1992-09-holqed-01-3.txt
 
 tlh:	{mar}
 pos:	verb
 sv:	«använda» «stor«tå»n» («förstatå»n) [arkaiskt]
 en:	«use» the «big «toe»» («first toe») [archaic]
-def:	HQ10:2 p.10
+def:	HQ10:2 p.10 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -8141,7 +8134,7 @@ tlh:	{marwI'}
 pos:	noun
 sv:	«stor«tå»», «förstatå»
 en:	«big «toe»», «first toe»
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -8354,7 +8347,7 @@ tlh:	{megh'an}
 pos:	noun
 sv:	«ände» (på pinne, tråd etc.; motsatt {'er'In})
 en:	«end» (of stick, piece of string etc.; opposite {'er'In})
-def:	HQ12:2 pp.6--8
+def:	HQ12:2 pp.6--8 ("Maltz's Reward Part I")
 ref:	TDNW
 pun:	{megh'an} and {'er'In} Okrand confirmed that this is because he knows
 	two twins--his nieces--named Megan and Erin. ({qep'a'} 2003)
@@ -8431,7 +8424,7 @@ ref:	TKW p.143
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 meta:	Word list entries in says "reason" in TKD, and "motive" in KGT while
-	and "reason"/"logical thinking" is used in KGT p.154. Entries are
+	and "reason"/"logical thinking" is used in KGT p.154. Entries are
 	combined here.
 
 tlh:	{meqba'}
@@ -8491,7 +8484,7 @@ pos:	verb
 sv:	«sluta», «upphöra»
 en:	<stop>, <cease>
 def:	TKD
-ref:	TKW p.87; HQ12:2 p.9
+ref:	TKW p.87; HQ12:2 p.9 ("Maltz's Reward Part I")
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -8525,8 +8518,7 @@ tlh:	{me'}
 pos:	noun
 sv:	«moster» (mors syster)
 en:	«aunt» (mother's sister)
-def:	HQ9:3 p.8
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
@@ -8534,8 +8526,7 @@ tlh:	{me'nal}
 pos:	noun
 sv:	«moster» (mors brors hustru)
 en:	«aunt» (mother's brother's wife)
-def:	HQ9:3 p.8
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
@@ -8564,12 +8555,12 @@ tlh:	{mIl}
 pos:	verb
 sv:	vara «fordom «ärad»», vara «tidigare «hedrad»»
 en:	be formerly «honored»  but now «disgraced»
-def:	HQ12:3 p.8
+def:	HQ12:3 p.8 ("Maltz's Reward Part II")
 ref:	TDNW
 com:	"This would be applied to a leader who left office is disgrace, for
 	example, or an ousted ship's captain. It would not be used of a
 	{'utlh}, an officer who has stepped down or retired voluntarily and who
-	is still respected." [HQ12:3 p.8-9]
+	is still respected." [HQ12:3 pp.8--9 ("Maltz's Reward Part II")]
 pun:	{mIl} = MILhouse! Think about it: "This would be applied to a leader
 	who left office in disgrace". (Steven Boozer, 10 October 2003 in email
 	to tlhingan-hol)
@@ -8733,19 +8724,19 @@ sv:	«delsteg», «moment» (i ett «förlopp»)
 en:	<step>, <stage> (in a <procedure> or «process»)
 desc:	{mIw wa'DIch Data'} ~you accomplish the first step~
 def:	TKDa; KGT
-ref:	KGT p.177
+ref:	KGT p.177
 com:	"{'oy'naQ DaQeqDI' mIw wa'DIch Data', 'ach 'oy'naQ Dachu'DI' mIw
 	paghDIch Data'.} ('When you aim the painstik, you accomplish the first
 	step, but when you turn the painstik on, you accomplish the zeroth
-	step' [...] {mIw,} 'procedure'; [...] )" [KGT p.177]
+	step' [...] {mIw,} 'procedure'; [...] )" [KGT p.177]
 	"{'oy'naQ Dachu'Ha'DI' mIw HochDIch Data'} ('When you turn the painstik
-	off, you accomplish the last step'; [...] )" [KGT p.177]
+	off, you accomplish the last step'; [...] )" [KGT p.177]
 see:	{nab} "plan"
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 meta:	Translation here comes from KGT. -- TKD translates as "procedure,
 	process", while KGT says "step, stage (in a process)". KGT translation
 	used here since all examples ({mIw wa'DIch} "first step", {mIw
-	paghDIch} "zeroth step" and {mIw HochDIch} "last step" [KGT p.177])
+	paghDIch} "zeroth step" and {mIw HochDIch} "last step" [KGT p.177])
 	seem to favor the "step" translation.
 
 tlh:	{mIy}
@@ -9111,7 +9102,7 @@ com:	"One of the more notable native animal forms on Neural [Zeta
 	by Federation involvement, has divided the inhabitants into
 	five major factions, each of which is feuding with the other
 	four." See also illustration. [Star Trek: The Worlds Of The
-	Federation, pp.140--141]
+	Federation, pp.140--141]
 file:	1992-01-01-tkd.txt
 
 tlh:	{mughwI'}
@@ -9495,7 +9486,7 @@ tlh:	{namtun}
 pos:	noun
 sv:	«inledning», «början» (på sång)
 en:	«beginning» (of song)
-def:	HQ12:2 p.9
+def:	HQ12:2 p.9 ("Maltz's Reward Part I")
 ref:	TDNW
 see:	{lIH}, {'o'megh}
 file:	2003-06-holqed-12-2.txt
@@ -9519,7 +9510,7 @@ tlh:	{nan} [1.2]
 pos:	verb
 sv:	«använda» «fjärde«tå»n» [arkaiskt]
 en:	«use» the «fourth «toe»» [archaic]
-def:	HQ10:2 p.10
+def:	HQ10:2 p.10 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -9527,7 +9518,7 @@ tlh:	{nan} [2]
 pos:	noun
 sv:	ett slags kampsport«spark»
 en:	type of martial arts «kick»
-def:	HQ10:2 p.11
+def:	HQ10:2 p.11 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 ref:	TDNW
 cat:	fighting
 file:	2001-06-holqed-10-2.txt
@@ -9544,7 +9535,7 @@ tlh:	{nanwI'} [.2]
 pos:	noun
 sv:	«fjärde«tå»»
 en:	«fourth «toe»»
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -9622,7 +9613,7 @@ tlh:	{natlIS}
 pos:	noun
 sv:	«sista posten i en «lista»», ««slut»et på en lista»
 en:	«last entry in «list»», «end» of list
-def:	HQ12:2 p.9
+def:	HQ12:2 p.9 ("Maltz's Reward Part I")
 ref:	TDNW
 see:	{tetlh}
 file:	2003-06-holqed-12-2.txt
@@ -9633,7 +9624,7 @@ sv:	«konsumera», «förtära», «förbruka»
 en:	<use> up, <consume>, <expend>
 def:	KGT
 ref:	S33
-com:	S33 was reprinted in HQ6:2 p.9
+com:	S33 was reprinted in HQ6:2 p.9
 file:	1997-11-01-kgt.txt
 
 tlh:	{natlh} [.2]
@@ -9660,6 +9651,7 @@ en:	«fax machine»
 def:	HQ5:2 p.20
 data:	phrase; derived form
 file:	1996-06-holqed-05-2.txt
+meta:	FIXME -- File contains wrong article.
 
 tlh:	{nawlogh}
 pos:	noun
@@ -9734,7 +9726,7 @@ tlh:	{neb}
 pos:	noun
 sv:	«näbb»
 en:	«beak», «bill»
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{nech}
@@ -9899,7 +9891,7 @@ tlh:	{neSlo'}
 pos:	noun
 sv:	«spegel» (mindre)
 en:	«mirror» (smaller)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 com:	smaller than {SIla'}
 file:	2001-12-holqed-10-4.txt
 
@@ -10409,7 +10401,7 @@ tlh:	{notqa'}
 pos:	noun
 sv:	en slags «fågel» (stor, svart)
 en:	type of «bird» (large, black)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
 com:	nowhere near as large as a qa'rol, which is really big
 pun:	"'Nevermore' quoth the raven." ({notqa'} "never again").
 file:	2001-12-holqed-10-4.txt
@@ -10546,7 +10538,7 @@ pos:	noun
 sv:	«möjlighet»
 en:	<possibility>, «option»
 desc:	{Hoch nuH yIqel} ~consider every option~ (lit. ~consider every weapon~)
-def:	KGT p.109
+def:	KGT p.109
 see:	{DuH} "possibility, option"
 file:	1997-11-01-kgt.txt
 
@@ -10850,12 +10842,10 @@ pos:	verb
 sv:	«sex» (d.v.s. ha sex; alltid subjekt)
 en:	have «sex», perform sex
 desc:	{nga'chuq bangwI'pu'} ~my loved ones have sex;~ participants are subj.
-def:	HQ1:3 p.9
-com:	Article in HQ is called "Additional Vocabulary" and contains the {veS
-	QonoS} list of words. It is unclear about what part of speech this may
-	be, though it is probably a verb and "always subject" probably refers
-	to the concept that all involved parties collectively make the subject
-	of this verb.
+def:	HQ1:3 p.9 ("Additional Vocabulary")
+com:	It is unclear about what part of speech this may be, though it is
+	probably a verb and "always subject" probably refers to the concept
+	that all involved parties collectively make the subject of this verb.
 file:	1992-09-holqed-01-3.txt
 
 tlh:	{ngeb}
@@ -11152,11 +11142,11 @@ tlh:	{ngoqDe'}
 pos:	noun
 sv:	«kodat meddelande»
 en:	<encoded message>
-def:	ST5; HQ8:4 p.12
+def:	ST5; HQ8:4 p.12 ("Notes from Star Trek V: The Final Frontier")
 com:	ST5: {DIvI' Se' wI'IjtaHvIS DaH ngoqDe' wIHevta'.} "We've just received
 	an encoded message on the Federation frequency."
-	Article in HQ is called "Notes from Star Trek V: The Final Frontier".
 file:	1999-12-holqed-08-4.txt
+meta:	FIXME -- File contains wrong article.
 
 tlh:	{ngoQ}
 pos:	noun
@@ -11211,8 +11201,9 @@ pos:	adverbial
 sv:	«då», «vid» den tiden
 en:	«then», «at» that time
 def:	News 1999-11-05
+ref:	HQ8:4 pp.8--9 ("Maltz Online")
 cat:	time
-file:	1999-11-05-news.txt
+file:	1999-11-05-news.txt; 1999-12-holqed-08-4.txt
 
 tlh:	{ngujlep}
 pos:	noun
@@ -11226,7 +11217,7 @@ tlh:	{ngun}
 pos:	verb
 sv:	«sätta» sig, «slå» sig ner
 en:	«perch»
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 com:	If bird lands on land, use {Saq}, on water, use {tlhot}.
 file:	2001-12-holqed-10-4.txt
 
@@ -11252,9 +11243,9 @@ tlh:	{nguq}
 pos:	verb
 sv:	vara «arrogant», vara «inbilsk», vara «högfärdig», vara «egenkär»
 en:	be «arrogant», be «haughty», be «conceited»
-def:	HQ12:3 p.9
+def:	HQ12:3 p.9 ("Maltz's Reward Part II")
 ref:	TDNW
-com:	"an undesirable trait" [HQ12:3 p.9]
+com:	"an undesirable trait" [HQ12:3 p.9 ("Maltz's Reward Part II")]
 file:	2003-09-holqed-12-3.txt
 
 tlh:	{nguSDI'}
@@ -11316,7 +11307,7 @@ tlh:	{pach}
 pos:	noun
 sv:	«klo», «fågelklo»
 en:	<claw>, «talon»
-def:	TKDa; HQ10:4 p.5
+def:	TKDa; HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 ref:	TKW p.185
 file:	1992-01-01-tkd.txt; 2001-12-holqed-10-4.txt
 
@@ -11425,7 +11416,7 @@ tlh:	{parbIng}
 pos:	noun
 sv:	en slags «fågel» (mellanstorlek, med särskilt grälla färger)
 en:	type of «bird» (mid-sized, with particularly garish coloring)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{parHa'}
@@ -11577,8 +11568,7 @@ tlh:	{pa' beb}
 pos:	noun
 sv:	inner«tak» (i ett rum högst upp en byggnad eller konstruktion)
 en:	«ceiling» (of a room on the top story of a structure)
-def:	News 1998-12-07; HQ8:3 p.2
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	News 1998-12-07; HQ8:3 p.2 ("{matlh juppu' mu'mey}")
 see:	{rav'eq}
 cat:	architecture
 data:	phrase
@@ -11639,7 +11629,7 @@ tlh:	{peghmey vIttlhegh}
 pos:	noun
 sv:	«hemlighetsordspråk»
 en:	«secrecy proverb»
-def:	HQ5:1 p.10
+def:	HQ5:1 p.10 ("A Note on Proverbs")
 data:	phrase
 file:	1996-03-holqed-05-1.txt
 
@@ -11932,8 +11922,7 @@ tlh:	{pIq}
 pos:	noun
 sv:	¿?om ...s «tid»
 en:	«time» period from now
-def:	HQ8:3 p.3
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ8:3 p.3 ("{matlh juppu' mu'mey}")
 cat:	time
 file:	1999-09-holqed-08-3.txt
 
@@ -11951,8 +11940,7 @@ tlh:	{pIrmuS}
 pos:	noun
 sv:	«undersida»
 en:	«bottom» (underside of something, not interior bottom)
-def:	HQ8:3 p.2
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ8:3 p.2 ("{matlh juppu' mu'mey}")
 see:	{yor}; {bIS'ub}
 cat:	locative
 file:	1999-09-holqed-08-3.txt
@@ -12154,12 +12142,12 @@ tlh:	{pop}
 pos:	noun
 sv:	«belöning», «pris», «ära», «aktningsbevis» (för en prestation)
 en:	<reward>, «prize», «honor», «token of esteem» (for an achievement)
-def:	TKDa; TKW p.47; HQ12:3 p.9
+def:	TKDa; TKW p.47; HQ12:3 p.9 ("Maltz's Reward Part II")
 ref:	TDNW
 com:	"Neither {quv} nor {batlh} [is] the same as {pop}, usually translated
 	<reward> but sometimes translated <honor> in the sense of <token of
 	esteem>, that is, formal recognition of an accomplishment or
-	accomplishments." [HQ12:3 p.9]
+	accomplishments." [HQ12:3 p.9 ("Maltz's Reward Part II")]
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt; 2003-09-holqed-12-3.txt
 
 tlh:	{poq}
@@ -12196,7 +12184,7 @@ tlh:	{porgh mIw}
 pos:	noun
 sv:	«kroppsfunktion»
 en:	«bodily function»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
 data:	phrase
 file:	2003-12-holqed-12-4.txt
@@ -12205,11 +12193,11 @@ tlh:	{porghQeD}
 pos:	noun
 sv:	«biologi», «anatomi» (vetenskapliga studier av kroppsfunktioner)
 en:	«biology», «anatomy» (scientific study of bodily functions)
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
 com:	"Maltz was familiar with the scientific study of bodily functions, or
 	{porghQeD}, but he didn't consider himself terribly well versed in the
-	field." [HQ12:4 p.8]
+	field." [HQ12:4 p.8 ("Maltz's Reward Part III")]
 file:	2003-12-holqed-12-4.txt
 
 tlh:	{portughal}
@@ -12455,8 +12443,7 @@ tlh:	{puqnI'}
 pos:	noun
 sv:	«barnbarn»
 en:	«grandchild»
-def:	HQ9:3 p.9
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ9:3 p.9 ("{matlh juppu' mu'mey}")
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
@@ -12464,8 +12451,7 @@ tlh:	{puqnI'be'}
 pos:	noun
 sv:	«sondotter», «dotterdotter»
 en:	«granddaughter»
-def:	HQ9:3 p.9
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ9:3 p.9 ("{matlh juppu' mu'mey}")
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
@@ -12473,8 +12459,7 @@ tlh:	{puqnI'loD}
 pos:	noun
 sv:	«sonson», «dotterson»
 en:	«grandson»
-def:	HQ9:3 p.9
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ9:3 p.9 ("{matlh juppu' mu'mey}")
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
@@ -12499,7 +12484,7 @@ tlh:	{pur}
 pos:	verb
 sv:	«andas in»
 en:	«inhale»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
 file:	2003-12-holqed-12-4.txt
 
@@ -12691,7 +12676,7 @@ def:	TKD
 com:	"The word {qaH} is interesting because it is never heard except in
 	direct address. Thus, while one might say {yoH qor HoD} ('Captain Kor
 	is brave') or {yoH HoD} ('The captain is brave'), one would never say
-	{yoH qaH} ('Sir is brave.')" [KGT p.198]
+	{yoH qaH} ('Sir is brave.')" [KGT p.198]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -12699,7 +12684,7 @@ tlh:	{qaj}
 pos:	verb
 sv:	«glidflyga», «sväva»
 en:	«soar»
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{qajunpaQ}
@@ -12763,7 +12748,7 @@ tlh:	[2] {qan}
 pos:	verb
 sv:	«använda» «lill«fingret»»
 en:	«use» the «pinky» («little «finger»»)
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 com:	An idiomatic gesture: to point your pinky at someone is to
 	comment that you believe they are old.
 cat:	body part
@@ -12775,14 +12760,14 @@ tlh:	{qanraD}
 pos:	noun
 sv:	en slag «fågel» (berömd för sin sång)
 en:	type of «bird» (noted for its song)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{qanwI'}
 pos:	noun
 sv:	«lill«finger»»
 en:	«pinky», «little «finger»»
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -12843,14 +12828,14 @@ pos:	name
 sv:	«Kargan»
 en:	«Kargan»
 def:	S7
-com:	S7 was reprinted in HQ4:3 p.4
+com:	S7 was reprinted in HQ4:3 p.4
 file:	1995-sbx-s07.txt
 
 tlh:	{qaryoq}
 pos:	noun
 sv:	en slags «fågel» (förmögen att härma språk)
 en:	type of «bird» (capable of mimicking speech)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 com:	Some people pluralize these with {-pu'}, but most use {-mey}.
 pun:	Wordplay on "karaoke".
 file:	2001-12-holqed-10-4.txt
@@ -12859,7 +12844,7 @@ tlh:	{qaryoq'a'}
 pos:	noun
 sv:	en slags «fågel» (stor, förmögen att härma språk)
 en:	type of «bird» (large, capable of mimicking speech)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 com:	Some people pluralize these with {-pu'}, but most use {-mey}.
 pun:	Wordplay on "karaoke".
 data:	derived form
@@ -12925,7 +12910,7 @@ tlh:	[1] {qay}
 pos:	verb
 sv:	¿?«använda» «lång«fingret»»
 en:	«use» the «middle «finger»» («second finger»)
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -12941,7 +12926,7 @@ tlh:	{qaywI'}
 pos:	noun
 sv:	«lång«finger»»
 en:	«middle «finger»», «second finger»
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -12965,10 +12950,10 @@ tlh:	{qa'meH}
 pos:	noun
 sv:	«ersättning» (permanent)
 en:	<replacement> (permanent)
-def:	HQ5:1 p.10; KGT
-com:	HQ: "...something that takes over for or is used instead of
-	something that is gone or that has been lost. It is not used
-	for a temporary substitute or stand-in; the word for that is
+def:	HQ5:1 p.10 ("A Note on Proverbs"); KGT
+com:	HQ5:1 p.10 ("A Note on Proverbs"): "...something that takes over for or
+	is used instead of something that is gone or that has been lost. It is
+	not used for a temporary substitute or stand-in; the word for that is
 	{lIw}."
 file:	1996-03-holqed-05-1.txt; 1997-11-01-kgt.txt
 
@@ -12976,7 +12961,7 @@ tlh:	{qa'meH vIttlhegh}
 pos:	noun
 sv:	«ersättningsordspråk»
 en:	«replacement proverb»
-def:	HQ5:1 p.10
+def:	HQ5:1 p.10 ("A Note on Proverbs")
 data:	phrase
 file:	1996-03-holqed-05-1.txt
 
@@ -12992,9 +12977,11 @@ file:	2011-10-29-email.txt
 
 tlh:	{qa'rI'}
 pos:	noun
-sv:	«slut», «ände» (på långsmalt avgränsat utrymme, t.ex. korridor, rör, väg, bro, fält etc.)
-en:	«end» (of a long bounded space, e.g. corridor, conduit, road, bridge, field etc.)
-def:	HQ12:2 pp.7--8
+sv:	«slut», «ände» (på långsmalt avgränsat utrymme, t.ex. korridor, rör,
+	väg, bro, fält etc.)
+en:	«end» (of a long bounded space, e.g. corridor, conduit, road, bridge,
+	field etc.)
+def:	HQ12:2 pp.7--8 ("Maltz's Reward Part I")
 ref:	TDNW
 com:	"For the end of a longish enclosed space that one is typically inside
 	or experiences from the inside, such as a corridor, tunnel, or conduit
@@ -13004,7 +12991,7 @@ com:	"For the end of a longish enclosed space that one is typically inside
 	having length even if it is not enclosed space. Thus, it is used for
 	the end of a road, the end of a bridge, the end of a long field. (Maltz
 	didn't think it would mean much of anything to refer to the {qa'rI'} of
-	a square field.)" [HQ12:2 pp.7--8]
+	a square field.)" [HQ12:2 pp.7--8 ("Maltz's Reward Part I")]
 pun:	Okrand confirmed that this is named after Kari, the mother of his twin
 	nieces Megan ({megh'an}) and Erin ({'er'In}). ({qep'a'} 2003)
 see:	{DIn}, {lojmIt}
@@ -13015,7 +13002,7 @@ tlh:	{qa'rol}
 pos:	noun
 sv:	en slags «fågel» (verkligt stor, svart)
 en:	type of «bird» (really big, black)
-def:	HQ10:4 p.4
+def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
 com:	much larger than a {notqa'}
 file:	2001-12-holqed-10-4.txt
 
@@ -13225,7 +13212,7 @@ tlh:	{qev} [2]
 pos:	noun
 sv:	«folk«samling»», «folkmassa»
 en:	«crowd»
-def:	HQ4:4 p.11
+def:	HQ4:4 p.11 ("More from Maltz")
 see:	{ghom'a'}
 file:	1995-12-holqed-04-4.txt
 
@@ -13251,7 +13238,7 @@ tlh:	{qew}
 pos:	verb
 sv:	¿?«använda» «ring«fingret»»
 en:	«use» the «ring «finger»» («third finger»)
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -13259,7 +13246,7 @@ tlh:	{qewwI'}
 pos:	noun
 sv:	«ring«finger»»
 en:	«ring «finger»», «third finger»
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -13405,11 +13392,12 @@ tlh:	{qIrq}
 pos:	name
 sv:	«Kirk»
 en:	«Kirk»
-def:	HQ8:4 p.12
+def:	HQ8:4 p.12 ("Notes from Star Trek V: The Final Frontier")
 com:	ST5: {'entepray''a'. qIrq Duj 'oH} "Enterprise? That's Kirk's
 	ship."
 file:	1999-12-holqed-08-4.txt
-meta:	Word does not follow standard Klingon phonotax.
+meta:	FIXME -- File contains wrong article. Word does not follow standard
+	Klingon phonotax.
 
 tlh:	{qIt}
 pos:	verb
@@ -13461,7 +13449,7 @@ tlh:	{qI'empeq}
 pos:	name
 sv:	«K'mpec»
 en:	«K'mpec»
-def:	HQ10:2 p.8
+def:	HQ10:2 p.8 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{qoch}
@@ -13673,7 +13661,7 @@ tlh:	{qo'qaD}
 pos:	noun
 sv:	«slem» (som man hostar upp)
 en:	«phlegm»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
 see:	{tuS}
 file:	2003-12-holqed-12-4.txt
@@ -13801,7 +13789,7 @@ tlh:	{qung}
 pos:	noun
 sv:	«hål» i musikinstument (t.ex. flöjt)
 en:	«hole» in musical instrument (e.g. flute)
-def:	HQ10:2 p.8
+def:	HQ10:2 p.8 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 com:	This is to change pitch in a wind instrument; apparently not a
 	soundhole for stringed instrument.
 cat:	music
@@ -13888,11 +13876,12 @@ pos:	verb
 sv:	vara «ärad», vara «hedrad»
 en:	be <honored>, be «honorable»
 def:	TKDa
-ref:	TKW pp.24, 57, 59, 179; HQ12:3 p.9
+ref:	TKW pp.24, 57, 59, 179; HQ12:3 p.9 ("Maltz's Reward Part II")
 com:	"[{quv} is] a sort of personal honor, the kind over which, by one's
 	behavior, one has some control. This sort of honor is earned, can be
 	bestowed on one, and is associated with reputation, dignity, and
-	respect." [HQ12:3 p.9]; Used in comparative in TKW p.179.
+	respect." [HQ12:3 p.9 ("Maltz's Reward Part II")]; Used in comparative
+	in TKW p.179.
 see:	{batlh}; {HoQ} "be honored falsely, be falsely honorable" (v)
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
@@ -13928,7 +13917,7 @@ pos:	noun
 sv:	«vanära», «skam»
 en:	<dishonor>
 def:	KGT
-ref:	TKW p.155; HQ12:3 p.9
+ref:	TKW p.155; HQ12:3 p.9 ("Maltz's Reward Part II")
 file:	1997-11-01-kgt.txt
 
 tlh:	{quvHa'moH}
@@ -13951,7 +13940,7 @@ tlh:	{quy'Ip}
 pos:	noun
 sv:	«kräkning», «spya»
 en:	«vomit»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
 see:	{'em}
 file:	2003-12-holqed-12-4.txt
@@ -13999,10 +13988,10 @@ com:	"The verb {qu'} literally means 'be fierce.' In its slang sense, it may
 	making a comeback, but it is still too early to say whether this will
 	really happen.) Nonslang verbs expressing similar ideas are {Dun} ('be
 	wonderful, great'), {pov} ('be excellent'), and, as an exclamation,
-	{maj!} ('Good!')." [KGT pp. 159-161]
+	{maj!} ('Good!')." [KGT pp.159--161]
 file:	1997-11-01-kgt.txt
 meta:	Entries differ and have been combined here. Translation "be
-	superlative" only occurs on KGT p.159, other translations can be found
+	superlative" only occurs on KGT p.159, other translations can be found
 	in KGT word list and main text, "be good" is only found in words lists
 	(not main text of book).
 
@@ -14010,7 +13999,7 @@ tlh:	{qu'} [2]
 pos:	exclamation
 sv:	«storslaget», «underbart» [slang]
 en:	«great», «wonderful» [slang]
-def:	KGT pp.160--161
+def:	KGT pp.160--161
 com:	"The word {qu'} may also be used as an exclamation ('Great!'
 	'Wonderful!'). In this sense, it seems to be interchangeable with
 	{chong} (literally, 'be vertical'; see page 148). The slang usage of
@@ -14018,7 +14007,7 @@ com:	"The word {qu'} may also be used as an exclamation ('Great!'
 	much displaced another slang term with the same set of meanings
 	('excellent, wonderful, etc.'), {Huv} (literally, 'be clear, not
 	obstructed'), which was in vogue not all that long ago."
-	[KGT pp.160-161]
+	[KGT pp.160--161]
 file:	1997-11-01-kgt.txt
 
 tlh:	{Qab}
@@ -14138,11 +14127,11 @@ tlh:	{Qap} [.2]
 pos:	verb
 sv:	«vinna» (en tävlan)
 en:	<win> (a competition)
-def:	HQ2:4 p.18; TKW p.211; KGT
-com:	HQ: "To win" a competition is {Qap}. (If it's a decisive or
-	particularly gratifying victory, they'd say {Qapchu'}, even
-	though that's a bit redundant.) In TKD, {Qap} is translated
-	as "succeed, work, function". To a Klingon, to win is to
+def:	HQ2:4 p.18 ("Okrand's notes"); TKW p.211; KGT
+com:	HQ2:4 p.18 ("Okrand's notes"): "To win" a competition is {Qap}. (If
+	it's a decisive or particularly gratifying victory, they'd say
+	{Qapchu'}, even though that's a bit redundant.) In TKD, {Qap} is
+	translated as "succeed, work, function". To a Klingon, to win is to
 	function perfectly.
 file:	1993-12-holqed-02-4.txt; 1996-05-01-tkw.txt; 1997-11-01-kgt.txt
 
@@ -14159,13 +14148,14 @@ tlh:	{Qaq}
 pos:	verb
 sv:	«agera» med låtsad «heder», «bete» sig på ett «falskt» «hedervärt» sätt
 en:	«behave» «falsely» «honorably», behave in a falsely «honorable» manner
-def:	HQ12:3 p.8
+def:	HQ12:3 p.8 ("Maltz's Reward Part II")
 ref:	TDNW
 com:	"This would be used of someone who purported to be someone or something
 	he or she was not. It is used in cases where one misrepresents oneself
 	in order to be accorded honor one is not entitled to, and in that way
 	it is different from {toj} <deceive> and {ghet} <pretend>, neither of
-	which has this kind of connection to honor." [HQ12:3 p.8]
+	which has this kind of connection to honor." [HQ12:3 p.8 ("Maltz's
+	Reward Part II")]
 file:	2003-09-holqed-12-3.txt
 
 tlh:	{QaQ}
@@ -14211,10 +14201,10 @@ sv:	vara «svår», vara «komplex», vara «komplicerad»
 en:	be <complex>, be <difficult>
 def:	TKD; KGT
 com:	"[...] among Klingons, a task that is difficult ({Qatlh}) is more
-	highly valued than one that is easy ({ngeD})." [KGT p.179]
+	highly valued than one that is easy ({ngeD})." [KGT p.179]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
-meta:	"be difficult (v)" [TKD]; "difficult" [KGT pp.160, 179]; "be complex
+meta:	"be difficult (v)" [TKD]; "difficult" [KGT pp.160, 179]; "be complex
 	(v)" [KGT]. Combined here.
 
 tlh:	{Qav}
@@ -14234,7 +14224,7 @@ def:	TKD
 ref:	TKW p.211
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
-meta:	Incorrectly listed as noun in TKD K-E (noted in HQ4:1 p.7 and verified
+meta:	Incorrectly listed as noun in TKD K-E (noted in HQ4:1 p.7 and verified
 	as a verb by usage in TKD p.49 and TKW p.211).
 
 tlh:	{Qay} [1]
@@ -14257,14 +14247,14 @@ pos:	verb
 sv:	förlora «besinningen», tappa «behärskningen», tappa «humöret», bli
 	«ursinning», bli «rasande»
 en:	<blow> one's top, «lose» one's «temper»
-def:	TKD; HQ10:2 p.11
+def:	TKD; HQ10:2 p.11 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 file:	1992-01-01-tkd.txt; 2001-06-holqed-10-2.txt
 
 tlh:	{Qay'} [.2]
 pos:	verb
 sv:	«använda» «lill«tå»n» («femtetå»n) [arkaiskt]
 en:	«use» the «little «toe»» («fifth toe») [archaic]
-def:	HQ10:2 p.10
+def:	HQ10:2 p.10 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -14272,7 +14262,7 @@ tlh:	{Qay'wI'}
 pos:	noun
 sv:	«lill«tå»», «femtetå»
 en:	«little «toe»», «fifth toe»
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -14283,7 +14273,7 @@ en:	type of <animal>
 def:	TKD
 com:	There are a few animals that make a particular ruckus at dawn. [...]
 	Another, though not a bird, is the {Qa'}, specifically the {jajlo'
-	Qa'}. [HQ10:4 p.5]]
+	Qa'}. [HQ10:4 p.5 ("{matlh juppu' mu'mey}")]]
 file:	1992-01-01-tkd.txt; 2001-12-holqed-10-4.txt
 
 tlh:	{Qa'Hom}
@@ -14291,11 +14281,11 @@ pos:	noun
 sv:	ett slags «djur» (snarlik en ~Qa'~, men mindre)
 en:	type of <animal> (similar to a ~Qa'~, but smaller)
 def:	KGT
-ref:	HQ10:4 p.5
+ref:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 com:	The {Qa'Hom}, an animal similar to a {Qa'} but smaller, has been
-	confused with a bird by some; Maltz does not know why, especially
-	since it is the {jajlo' Qa'}, not the {Qa'Hom}, that makes a fuss
-	in the morning like the {'uSgheb} does. [HQ10:4 p.5]
+	confused with a bird by some; Maltz does not know why, especially since
+	it is the {jajlo' Qa'}, not the {Qa'Hom}, that makes a fuss in the
+	morning like the {'uSgheb} does. [HQ10:4 p.5 ("{matlh juppu' mu'mey}")]
 file:	1997-11-01-kgt.txt
 
 tlh:	{Qa'raj}
@@ -14379,7 +14369,7 @@ tlh:	{Qep'It}
 pos:	noun
 sv:	«gas» alstrad inuti kroppen («rap», «fis» etc.)
 en:	«gas» produced within the body («belch», «flatulence» etc.)
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
 see:	{SIp} (general term for gas); {ruq}
 file:	2003-12-holqed-12-4.txt
@@ -14496,11 +14486,11 @@ en:	<explain>
 desc:	{SoHvaD nab vIQIj} ~I explain the plan for you;~ thing being explained
 	is obj.
 def:	TKD
-ref:	KGT p.149
+ref:	KGT p.149
 com:	"[...] object of {QIj} is that which is explained, while the person to
 	whom the explanation is given is the indirect object: {yaSvaD nab QIj}
 	('He/she explains the plan to the officer'; {yaSvaD,} 'for the
-	officer'; {nab,} 'plan')." [KGT p.149]
+	officer'; {nab,} 'plan')." [KGT p.149]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
@@ -14522,12 +14512,12 @@ tlh:	{QIn} [.2]
 pos:	noun
 sv:	«vass spets» (t.ex. på penna), «spjut«spets»»
 en:	«sharp end» (e.g. on pen), <spearhead>
-def:	KGT; HQ12:2 p.7
+def:	KGT; HQ12:2 p.7 ("Maltz's Reward Part I")
 ref:	TDNW
 com:	"When shown a pencil, Maltz said that the sharp end could be called a
 	{QIn}, but if the pencil were new and did not yet have a point, the
 	ready-to-be-sharpened end would be a {megh'an} or {'er'In}."
-	[HQ12:2 p.7]
+	[HQ12:2 p.7 ("Maltz's Reward Part I")]
 cat:	fighting
 file:	1997-11-01-kgt.txt; 2003-06-holqed-12-2.txt
 
@@ -14726,7 +14716,7 @@ en:	be <hazardous>, be <perilous>, be <treacherous> [slang]
 desc:	about mission/voyage: {Qom He} ~the route is perilous~ (lit. ~the route
 	experiences a tremor~); with {-pu'} about structure/vessel: {Qompu'
 	Duj} ~the ship is hazardous/has been left in a hazardous condition~
-	(lit. ~the ship has experienced a tremor~) [KGT pp.161--162]
+	(lit. ~the ship has experienced a tremor~) [KGT pp.161--162]
 def:	KGT
 ref:	TDNW
 file:	1997-11-01-kgt.txt
@@ -14798,7 +14788,7 @@ com:	"The word {Qop} means 'be worn out' and is usually applied to old
 	The normal way to say 'be dead,' referring to a person or animal, is by
 	using the form {Heghpu'} ('has died'): {Heghpu' SuvwI'} ('The warrior
 	has died'). It is not appropriate to say {SuvwI' Qop} ('dead warrior,
-	worn-out warrior.')" [KGT p.162]
+	worn-out warrior.')" [KGT p.162]
 see:	{Hegh}
 file:	1997-11-01-kgt.txt
 
@@ -15026,7 +15016,7 @@ meta:	Evidence *for* this word (as a noun): "{Qum De'wI'} 'Communications
 	'Communications Systems'" [BoP]; Evidence *against* this word as a
 	noun: "[The word '{Qum}'] is found elsewhere only as a verb ({Qum,}
 	'communicate'), suggesting that there may have been a noun {Qum}
-	('communication') at some point in the past." [KGT p.159]
+	('communication') at some point in the past." [KGT p.159]
 
 tlh:	{QumpIn}
 pos:	noun
@@ -15281,8 +15271,7 @@ tlh:	{rav'eq}
 pos:	noun
 sv:	inner«tak» (i ett rum med ett rum till ovanför)
 en:	«ceiling» (of a room that has a room above it)
-def:	News 1998-12-07; HQ8:3 p.2
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	News 1998-12-07; HQ8:3 p.2 ("{matlh juppu' mu'mey}")
 see:	{pa' beb}
 cat:	architecture
 file:	1998-12-07-news.txt; 1999-09-holqed-08-3.txt
@@ -15291,7 +15280,7 @@ tlh:	{raw'}
 pos:	noun
 sv:	en slags «fågel» (vattenlevande, färgrik fjäderdräkt)
 en:	type of «bird» (aquatic, colorful plumage)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{ray}
@@ -15355,11 +15344,12 @@ tlh:	{rech}
 pos:	verb
 sv:	«andas ut»
 en:	«exhale»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
 pun:	"Maltz was quite amused whet he realized that Klingon word {rech}
 	'exhale' sounded like the English word 'retch'---that is, 'vomit'---
-	but he couldn't explain why he thought it was so funny." [HQ12:4 p.8]
+	but he couldn't explain why he thought it was so funny." [HQ12:4 p.8
+	("Maltz's Reward Part III")]
 file:	2003-12-holqed-12-4.txt
 
 tlh:	{reD}
@@ -15437,8 +15427,7 @@ tlh:	{ret}
 pos:	noun
 sv:	¿?för ...s «tid» sedan
 en:	«time» period ago
-def:	HQ8:3 p.3
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ8:3 p.3 ("{matlh juppu' mu'mey}")
 cat:	time
 file:	1999-09-holqed-08-3.txt
 
@@ -15499,7 +15488,7 @@ tlh:	{rIl} [.1]
 pos:	verb
 sv:	«använda» «tumme»n (vanligtvis använt om/till barn)
 en:	«use» the «thumb» (usually used to/about children)
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 com:	Most commonly used in reference to a child using a thumb.
 	See also {Sen}.
 cat:	body part
@@ -15510,7 +15499,7 @@ tlh:	{rIl} [.2]
 pos:	verb
 sv:	«spela» (ett horn- eller lurinstrument)
 en:	«play» (a horn instrument)
-def:	HQ10:2 p.9
+def:	HQ10:2 p.9 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 com:	This is a brass technique, not a flute technique. Most typically
 	it is used with {gheb} as the object.
 cat:	music
@@ -15521,7 +15510,7 @@ tlh:	{rIlwI'}
 pos:	noun
 sv:	«tumme» (vanligtvis använt om/till barn)
 en:	«thumb» (usually used to/about children)
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 com:	Most commonly used in reference to a child's thumb.
 	See also {Sen}.
 cat:	body part
@@ -15532,7 +15521,7 @@ pos:	verb
 sv:	vara «åstadkommen», vara «färdig»
 en:	be <accomplished>, be <finished>
 def:	TKD
-ref:	HQ12:2 p.9
+ref:	HQ12:2 p.9 ("Maltz's Reward Part I")
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
@@ -15692,7 +15681,7 @@ com:	Klingon grammarians refer to the rule that governs the use of
 	plural, for example, the prefix must be one that is used with plural
 	objects. Agreeing is not a trait typically associated with Klingon
 	nature, however, and apparently, at least under certain circumstances,
-	this may extend to grammar as well. [KGT p.172]
+	this may extend to grammar as well. [KGT p.172]
 file:	1992-01-01-tkd.txt
 
 tlh:	{romuluS}
@@ -15713,11 +15702,11 @@ tlh:	{ron}
 pos:	verb
 sv:	«banka», «rolla» (om flygmaskin)
 en:	«bank», «roll» (about aircraft)
-def:	HQ11:2 p.9
+def:	HQ11:2 p.9 ("{matlh jup mu'mey}")
 com:	"When the plane banks or rolls to one side or the other so that,
 	say, the left wing is pointed somewhat (or even a lot) upwards while
 	the right wing is pointed somewhat (or a lot) downwards, or vice
-	versa [...]" [HQ11:2 p.9]
+	versa [...]" [HQ11:2 p.9 ("{matlh jup mu'mey}")]
 file:	2002-06-holqed-11-2.txt
 
 tlh:	{rop} [1]
@@ -15771,7 +15760,7 @@ tlh:	[2] {roS}
 pos:	verb
 sv:	«använda» «tredje«tå»n» [arkaiskt]
 en:	«use» the «third «toe»» [archaic]
-def:	HQ10:2 p.10
+def:	HQ10:2 p.10 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 meta:	Should {roS} "lick" and "use third toe" be grouped together?
@@ -15787,7 +15776,7 @@ tlh:	{roSwI'}
 pos:	noun
 sv:	«tredje«tå»»
 en:	«third «toe»»
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -15854,7 +15843,7 @@ tlh:	{ruq}
 pos:	verb
 sv:	«rapa»
 en:	«belch», «burp»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
 see:	{Qep'It} (term for gas produced when belching)
 file:	2003-12-holqed-12-4.txt
@@ -15912,7 +15901,8 @@ pos:	noun
 sv:	«hjul»
 en:	«wheel»
 def:	News 1999-11-05
-file:	1999-11-05-news.txt
+ref:	HQ8:4 pp.8--9 ("Maltz Online")
+file:	1999-11-05-news.txt; 1999-12-holqed-08-4.txt
 
 tlh:	{ruv}
 pos:	noun
@@ -16048,7 +16038,8 @@ pos:	verb
 sv:	«landa», «landsätta», gå i land
 en:	<land> (on ground)
 def:	TKD
-com:	also used about a bird landing on ground [HQ10:4 p.5]
+com:	also used about a bird landing on ground [HQ10:4 p.5 ("{matlh juppu'
+	mu'mey}")]
 see:	{tlhot} (for landing on water)
 file:	1992-01-01-tkd.txt
 
@@ -16070,9 +16061,9 @@ tlh:	{SaQ}
 pos:	verb
 sv:	«gråta»
 en:	<cry> (not scream)
-def:	TKD; HQ12:4 p.9
+def:	TKD; HQ12:4 p.9 ("Maltz's Reward Part III")
 com:	Does not include tears, since Klingon don't have any tear ducts.
-	[HQ12:4 p.9]
+	[HQ12:4 p.9 ("Maltz's Reward Part III")]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 2003-12-holqed-12-4.txt
 
@@ -16170,9 +16161,7 @@ tlh:	{Say'qu'moH}
 pos:	verb
 sv:	«sterilisera»
 en:	«sterilize»
-def:	HQ1:3 p.9
-com:	Article in HQ is called "Additional Vocabulary" and contains the {veS
-	QonoS} list of words.
+def:	HQ1:3 p.9 ("Additional Vocabulary")
 see:	{woj}
 data:	derived form
 file:	1992-09-holqed-01-3.txt
@@ -16253,7 +16242,7 @@ tlh:	{Sen}
 pos:	verb
 sv:	«använda» «tumme»n (vanligtvis använt om/till vuxna)
 en:	«use» the «thumb» (usually used to/about adults)
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 com:	Most commonly used in reference to an adult using a thumb.
 	See also {rIl}.
 cat:	body part
@@ -16263,7 +16252,7 @@ tlh:	{SenwI'}
 pos:	noun
 sv:	«tumme» (vanligtvis använt om/till vuxna)
 en:	«thumb» (usually used to/about adults)
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 com:	Most commonly used in reference to an adult thumb.
 	See also {rIl}.
 cat:	body part
@@ -16339,11 +16328,11 @@ tlh:	{Serrum}
 pos:	noun
 sv:	«öronvax»
 en:	«earwax»
-def:	HQ12:4 p.9
+def:	HQ12:4 p.9 ("Maltz's Reward Part III")
 ref:	TDNW
 com:	"Ears (at least healthy ones) produce no byproducts other than earwax
 	({Serrum}), which is said to somehow just {vI'} 'accumulate' in the
-	ear." [HQ12:4 p.9]
+	ear." [HQ12:4 p.9 ("Maltz's Reward Part III")]
 see:	{qogh} "ear (external, cartilaginous flap)" (n); {teS} "ear (internal,
 	organ of hearing)" (n)
 file:	2003-12-holqed-12-4.txt
@@ -16442,11 +16431,11 @@ tlh:	{SIj} [.1]
 pos:	verb
 sv:	«skära upp», «skära av», «sprätta upp»
 en:	<slit>, «slash»
-def:	TKD; KGT p.164
+def:	TKD; KGT p.164
 ref:	TKW p.127
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
-meta:	Translation "slash" is from KGT p.164.
+meta:	Translation "slash" is from KGT p.164.
 
 tlh:	{SIj} [.2]
 pos:	verb
@@ -16469,7 +16458,7 @@ tlh:	{SIla'}
 pos:	noun
 sv:	«spegel» (större)
 en:	«mirror» (larger)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 com:	larger than {neSlo'}
 pun:	"Alice" backwards.
 file:	2001-12-holqed-10-4.txt
@@ -16495,7 +16484,7 @@ tlh:	{SIq}
 pos:	verb
 sv:	¿?«använda» «pek«fingret»»
 en:	«use» the «index «finger»» («first finger»)
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -16503,7 +16492,7 @@ tlh:	{SIqwI'}
 pos:	noun
 sv:	«pek«finger»»
 en:	«index «finger»», «first finger»
-def:	HQ10:2 p.7
+def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
@@ -16604,7 +16593,7 @@ pos:	noun
 sv:	«mat»
 en:	<food>
 def:	TKDa
-ref:	HQ12:3 p.9
+ref:	HQ12:3 p.9 ("Maltz's Reward Part II")
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -16613,12 +16602,13 @@ pos:	noun
 sv:	«sak», «fråga», «angelägenhet» (idiomatisk användning)
 en:	«matter», «concern», «affair» (idiomatic use)
 desc:	{tlhIngan Soj 'oH} ~it's a Klingon affair~ (lit. ~it's Klingon food~)
-	[HQ12:3 p.9]
-def:	HQ12:3 p.9
+	[HQ12:3 p.9 ("Maltz's Reward Part II")]
+def:	HQ12:3 p.9 ("Maltz's Reward Part II")
 ref:	TDNW
 com:	"Maltz said, '{tlhIngan Soj 'oH---not bIyaj},' literally, 'It is
 	Klingon food---you will not understand,' using {Soj} <food> in its
-	idiomatic sense of <matter, concern, affair>." [HQ12:3 p.9]
+	idiomatic sense of <matter, concern, affair>." [HQ12:3 p.9 ("Maltz's
+	Reward Part II")]
 file:	2003-09-holqed-12-3.txt
 
 tlh:	{Soj naQ}
@@ -16694,16 +16684,16 @@ warn:	incorrect form of {Suq}
 pos:	verb
 sv:	«skaffa» (sig)
 en:	«gain»
-def:	HQ6:2 p.9
+def:	HQ6:2 p.9
 ref:	S33
 com:	"[...] Cloaking technology was gained through an alliance with the
 	Romulan Star Empire [...] {boq lucherDI' tlhIngan wo' romuluS Hov wo'
-	je So'wI' cham Soqpu' tlhIngan wo'.}" [HQ6:2 p.9]
+	je So'wI' cham Soqpu' tlhIngan wo'.}" [HQ6:2 p.9]
 see:	{Suq}
 data:	non-canon
 file:	1997-06-holqed-06-2.txt
 meta:	The {HolQeD transcript of Skybox card S33 contained the word {Suq}
-	misspelled as *{Soq} [HQ6:2 p.9], on the card itself the word was
+	misspelled as *{Soq} [HQ6:2 p.9], on the card itself the word was
 	correctly spelled.
 
 tlh:	[1] {SoQ}
@@ -16892,7 +16882,7 @@ com:	"Literally meaning 'be solid,' as opposed to gaseous or liquid, {Sub},
 	utterance. The slang meaning of {Sub} is probably influenced by the
 	phonetically identical noun {Sub,} meaning 'hero.' Nonslang equivalents
 	for {Sub} are {yoH} ('be brave') and {jaq} ('be bold'), which can be
-	used pretty much interchangeably." [KGT p.165-166]
+	used pretty much interchangeably." [KGT pp.165--166]
 file:	1997-11-01-kgt.txt
 meta:	Entries differ in source. KGT K-E entry is used here.
 
@@ -17303,7 +17293,7 @@ tlh:	{tajvaj}
 pos:	noun
 sv:	«vinkel»
 en:	«angle»
-def:	HQ11:2 p.9
+def:	HQ11:2 p.9 ("{matlh jup mu'mey}")
 see:	{taH}
 file:	2002-06-holqed-11-2.txt
 
@@ -17349,7 +17339,7 @@ pos:	noun
 sv:	ett slags «djur» (snarlik en «tjur», används om både hannar och honor)
 en:	type of «animal» (similar to a «bull», used about both male and female
 	ones)
-def:	HQ9:4 p.16
+def:	HQ9:4 p.16 ("More From Maltz")
 file:	2000-12-holqed-09-4.txt
 
 tlh:	{tap}
@@ -17594,8 +17584,7 @@ tlh:	{tennuS}
 pos:	noun
 sv:	«farbror» (fars bror)
 en:	«uncle» (father's brother)
-def:	HQ9:3 p.8
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
@@ -17603,8 +17592,7 @@ tlh:	{tennuSnal}
 pos:	noun
 sv:	«morbror» (fars systers make)
 en:	«uncle» (father's sister's husband)
-def:	HQ9:3 p.8
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
@@ -17760,8 +17748,7 @@ sv:	«kusin» (fars brors barn eller mors systers barn), «brorsbarn» (en mans
 en:	«cousin» (father's brother's child or mother's sister's child),
 	«niece», «nephew» (a man's brother's child, or a woman's sister's
 	child)
-def:	HQ9:3 p.8
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
@@ -17773,8 +17760,7 @@ sv:	kvinnlig «kusin» (fars brors dotter eller mors systers dotter),
 en:	female «cousin» (father's brother's daughter or mother's sister's
 	daughter), «niece» (a man's brother's daughter or a woman's sister's
 	daughter)
-def:	HQ9:3 p.8
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
@@ -17784,8 +17770,7 @@ sv:	manlig «kusin» (fars brors son eller mors systers son), «brorson» (en
 	mans brors son), «systerson» (en kvinnas systers son)
 en:	male «cousin» (father's brother's son or mother's sister's son),
 	«nephew» (a man's brother's son or a woman's sister's son)
-def:	HQ9:3 p.8
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
@@ -17808,7 +17793,7 @@ data:	deprecated
 file:	1997-11-01-kgt.txt
 meta:	*{tIb} is here assumed to be a misspelling of {bIt}, since it is
 	spelled {bIt} in a majority of sources: TKD (three occurances in the
-	dictionary part), and it is spelled *{tIb} only once [KGT p.132].
+	dictionary part), and it is spelled *{tIb} only once [KGT p.132].
 	*{tIb} was confirmed as unintentional by Marc Okrand when asked by
 	zrajm at {qep'a'} 2000).
 
@@ -17834,8 +17819,8 @@ pos:	noun
 sv:	«stråle»
 en:	<ray>, «beam»
 def:	TKD
-ref:	KGT pp.56, 65
-com:	{nISwI' tIH} ~disruptor beam~ [KGT p.56] {luHwI' tIH} ~tractor beam~
+ref:	KGT pp.56, 65
+com:	{nISwI' tIH} ~disruptor beam~ [KGT p.56] {luHwI' tIH} ~tractor beam~
 	[Email 2010-12-13 (by Lieven L. Litaer, to tlhingan-hol, "tractor
 	beam")]
 file:	1992-01-01-tkd.txt
@@ -17877,7 +17862,7 @@ tlh:	{tIl}
 pos:	verb
 sv:	utsöndra «saliv»
 en:	«salivate»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
 see:	{tlhepQe'} "saliva" (n)
 file:	2003-12-holqed-12-4.txt
@@ -17895,9 +17880,10 @@ pos:	noun
 sv:	område sydvästerut, område i «sydväst»
 en:	area southwestward, area towards the «southwest»
 def:	News 1999-11-21
+ref:	HQ8:4 pp.6--8 ("Maltz Online")
 com:	"approx 220 degrees on Terran compass" [KLINW]
 cat:	locative
-file:	1999-11-21-news.txt
+file:	1999-11-21-news.txt; 1999-12-holqed-08-4.txt
 
 tlh:	{tIngDagh}
 pos:	noun
@@ -18000,7 +17986,7 @@ pos:	name
 sv:	«T'Ong» (ett skepp)
 en:	«T'Ong» (a ship)
 def:	S15
-com:	S15 was reprinted in HQ4:3 p.5
+com:	S15 was reprinted in HQ4:3 p.5
 file:	1995-sbx-s15.txt
 
 tlh:	{tI'qa' vIghro'}
@@ -18051,10 +18037,11 @@ tlh:	{toDDuj}
 pos:	noun
 sv:	«räddningsskepp»
 en:	«rescue ship»
-def:	ST5; HQ8:4 p.11
+def:	ST5; HQ8:4 p.11 ("Notes from Star Trek V: The Final Frontier")
 com:	ST5: {vaj toDDujDaj ngeHbej DIvI'.} "That means the
 	Federation will be sending a rescue ship of its own."
 file:	1999-12-holqed-08-4.txt
+meta:	FIXME -- File contains wrong article.
 
 tlh:	{toDSaH}
 pos:	exclamation
@@ -18157,7 +18144,7 @@ pos:	noun
 sv:	en slags «fågel» («rovfågel»)
 en:	type of «bird» (bird of prey)
 def:	Email 1997-04-07 (by Bill Willmerdinger, to tlhingan-hol, "BabelCon 2")
-ref:	HQ10:4 p.5
+ref:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 file:	1997-04-07-email.txt
 
 tlh:	{toQDuj}
@@ -18179,12 +18166,12 @@ tlh:	{tor} [.2]
 pos:	verb
 sv:	«tippa», «kränga» (om flygmaskin)
 en:	«pitch» (about aircraft)
-def:	HQ11:2 p.9
+def:	HQ11:2 p.9 ("{matlh jup mu'mey}")
 com:	"And when the nose of the plane moves up or down, the plane is said
 	to {tor} <pitch>. (the word {tor} also means <kneel>, which Maltz
 	thought was apt, since if a four-legged animal is able to kneel
 	with either its hind legs or its front legs, it is able to pitch or
-	tilt up or down.)" [HQ11:2 p.9]
+	tilt up or down.)" [HQ11:2 p.9 ("{matlh jup mu'mey}")]
 file:	2002-06-holqed-11-2.txt
 
 tlh:	{torgh}
@@ -18321,9 +18308,7 @@ tlh:	{tuj muvwI'}
 pos:	noun
 sv:	«termosutur»
 en:	«thermo-suture»
-def:	HQ1:3 p.9
-com:	Article in HQ is called "Additional Vocabulary" and contains
-	the {veS QonoS} list of words.
+def:	HQ1:3 p.9 ("Additional Vocabulary")
 data:	phrase
 file:	1992-09-holqed-01-3.txt
 
@@ -18407,8 +18392,7 @@ tlh:	{tuqnIgh}
 pos:	noun
 sv:	«familjemedlem», «släktmedlem», «släkting»
 en:	«member» of a «house»
-def:	HQ9:3 p.9
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ9:3 p.9 ("{matlh juppu' mu'mey}")
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
@@ -18441,11 +18425,11 @@ pos:	verb
 sv:	«klä av» sig, «ta av» sig (kläder)
 en:	<undress>, «take off» (clothes)
 def:	TKD
-ref:	HQ2:4 p.17
-com:	In <{HolQeD} 2:4> p. 17 (article named "Okrand's Notes"): "[...] the
-	Klingon slang expression {qogh tuQmoHHa'}, literally 'take off one's
-	belt' is used to mean 'to not hear,' for example, {qogh vItuQmoHHa'pu'}
-	'I've taken off my belt; your secret is safe with me.'"
+ref:	HQ2:4 p.17 ("Okrand's Notes")
+com:	"[...] the Klingon slang expression {qogh tuQmoHHa'}, literally 'take
+	off one's belt' is used to mean 'to not hear,' for example, {qogh
+	vItuQmoHHa'pu'} 'I've taken off my belt; your secret is safe with me.'"
+	[HQ2:4 p.17 ("Okrand's Notes")]
 cat:	clothing
 data:	derived form
 file:	1992-01-01-tkd.txt; 1993-12-holqed-02-4.txt
@@ -18455,11 +18439,11 @@ pos:	verb
 sv:	«klä på» sig, «sätta på» sig (kläder)
 en:	«dress», <put on> (clothes)
 def:	TKD
-ref:	HQ2:4 p.17
-com:	In <{HolQeD} 2:4> p. 17 (article named "Okrand's Notes"): "[...] the
-	Klingon slang expression {qogh tuQmoHHa'}, literally 'take off one's
-	belt' is used to mean 'to not hear,' for example, {qogh vItuQmoHHa'pu'}
-	'I've taken off my belt; your secret is safe with me.'"
+ref:	HQ2:4 p.17 ("Okrand's Notes")
+com:	"[...] the Klingon slang expression {qogh tuQmoHHa'}, literally 'take
+	off one's belt' is used to mean 'to not hear,' for example, {qogh
+	vItuQmoHHa'pu'} 'I've taken off my belt; your secret is safe with me.'"
+	[HQ2:4 p.17 ("Okrand's Notes")]
 cat:	clothing
 data:	derived form
 file:	1992-01-01-tkd.txt; 1993-12-holqed-02-4.txt
@@ -18478,7 +18462,7 @@ tlh:	{tuS}
 pos:	verb
 sv:	«hosta»
 en:	«cough»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
 see:	{qo'qaD}
 file:	2003-12-holqed-12-4.txt
@@ -18501,10 +18485,10 @@ tlh:	{tuy'}
 pos:	verb
 sv:	«spotta» ut (om vätska)
 en:	«spit» out (liquids)
-def:	HQ12:4 pp.8--9
+def:	HQ12:4 pp.8--9 ("Maltz's Reward Part III")
 ref:	TDNW
 com:	Used when spitting out saliva and/or other liquids. Not used when
-	spitting out solid things. [HQ12:4 p.9]
+	spitting out solid things. [HQ12:4 p.9 ("Maltz's Reward Part III")]
 see:	{tlhepQe'} "saliva" (n); {bol} "drool" (v); {tlhIS} "spit out" (v)
 file:	2003-12-holqed-12-4.txt
 
@@ -18560,8 +18544,8 @@ tlh:	{tlhach}
 pos:	noun
 sv:	«sekt», «fraktion»
 en:	<sect>, <faction>
-def:	KGT
-file:	1997-11-01-kgt.txt
+def:	HQ4:4 p.11 ("More from Maltz"); KGT
+file:	1995-12-holqed-04-4.txt; 1997-11-01-kgt.txt
 
 tlh:	{tlhach mu'mey}
 pos:	noun
@@ -18614,7 +18598,7 @@ com:	"The word {tlham}, literally meaning 'gravity,' is used to mean 'order'
 	ordered society may be said to have {tlham'a'} ('big gravity') or
 	{tlham HoS} ('strong gravity'), while a society that is judged to be
 	falling apart may have {tlhamHom} ('little gravity') or {tlham puj}
-	('weak gravity')." [KGT p.166]
+	('weak gravity')." [KGT p.166]
 file:	1997-11-01-kgt.txt
 
 tlh:	{tlhap}
@@ -18744,13 +18728,13 @@ def:	TKD; TKW pp.161, 173
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 meta:	This is labeled as a noun in TKD E-K, but MO corrected himself in
-	HQ2:4 p.18 (Okrand's notes)
+	HQ2:4 p.18 ("Okrand's notes")
 
 tlh:	{tlhepQe'}
 pos:	noun
 sv:	«saliv», «spott»
 en:	«saliva»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
 see:	{tIl} "salivate" (v); {bol} "drool" (v); {tuy'} "spit" (v)
 file:	2003-12-holqed-12-4.txt
@@ -18913,11 +18897,11 @@ tlh:	{tlhIS}
 pos:	verb
 sv:	«spotta» ut (föremål)
 en:	<spit> out (solid thing)
-def:	KGT; HQ12:4 pp.8--9
+def:	KGT; HQ12:4 pp.8--9 ("Maltz's Reward Part III")
 ref:	TDNW
 com:	Used when spitting out solid things, possibly accopanied by some
 	saliva. Not used when just spitting saliva, or when spitting out
-	liquid. [HQ12:4 p.9]
+	liquid. [HQ12:4 p.9 ("Maltz's Reward Part III")]
 see:	{tuy'} "spit out (liquids)" (v)
 file:	1997-11-01-kgt.txt; 2003-12-holqed-12-4.txt
 
@@ -19031,7 +19015,7 @@ tlh:	{tlhot}
 pos:	verb
 sv:	«landa» (på vatten)
 en:	«land» (on water, like a bird)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 com:	if bird lands on land, use {Saq}, in a tree, use {ngun}
 file:	2001-12-holqed-10-4.txt
 
@@ -19047,8 +19031,7 @@ tlh:	{tlhoy}
 pos:	adverbial
 sv:	alltför mycket, i «överdriven» grad, «för mycket»
 en:	«overly», to an «excessive» degree, «too much»
-def:	HQ8:3 pp.2--3
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ8:3 pp.2--3 ("{matlh juppu' mu'mey}")
 see:	{'Iq}
 file:	1999-09-holqed-08-3.txt
 
@@ -19183,7 +19166,7 @@ tlh:	{vaD}
 pos:	verb
 sv:	vara «böjlig», vara «smidig»
 en:	be «flexible»
-def:	HQ10:2 p.11
+def:	HQ10:2 p.11 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{vagh} [1]
@@ -19272,7 +19255,7 @@ pos:	verb
 sv:	«avsluta» (en händelse, t.ex. resa, strid, sång)
 en:	«end» (an event, e.g. a voyage, battle, song)
 desc:	{may' van SuvwI'} ~the warrior ends the battle;~ participants are subj.
-def:	HQ12:2 p.8
+def:	HQ12:2 p.8 ("Maltz's Reward Part I")
 ref:	TDNW
 com:	"When an event over which one has some control ends (one can't cause a
 	month to end), a different verb is used: {van}. This would apply to
@@ -19285,9 +19268,10 @@ com:	"When an event over which one has some control ends (one can't cause a
 	end the voyage, they are sad' ({leng} <voyage>, {-DI'} <when>,
 	{SuvwI'pu'} <warriors>, {'IQ} <be sad>, {chaH} they) and 'When the
 	warriors end the song, they drink' ({bom} <song>, {tlhutlh} <drink>)."
-	[HQ12:2 p.8]; "Maltz said he wasn't sure whether {van} <end> and {van}
-	<salute> were really the same word, but he found it interesting that
-	Klingons end things by saluting them." [HQ12:2 p.8]
+	[HQ12:2 p.8 ("Maltz's Reward Part I")]; "Maltz said he wasn't sure
+	whether {van} <end> and {van} <salute> were really the same word, but
+	he found it interesting that Klingons end things by saluting them."
+	[HQ12:2 p.8 ("Maltz's Reward Part I")]
 see:	{Dor} (2), {ghang}
 file:	2003-06-holqed-12-2.txt
 
@@ -19346,7 +19330,7 @@ com:	"A weapon that is particularly good, that is well designed and well
 	locutions are heard from time to time. The original meaning of {vaQ}
 	has been extended to mean 'effective, vigorous, aggressive' and is now
 	heard applied not only to weapons but also to people: {SuvwI' vaQ}
-	('aggressive warrior')." [KGT p.68]
+	('aggressive warrior')." [KGT p.68]
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{vaS}
@@ -19437,7 +19421,7 @@ tlh:	{va'nuch}
 pos:	noun
 sv:	«häl»
 en:	«heel»
-def:	HQ13:1 p.9
+def:	HQ13:1 p.9 ("Maltz's Reward Part IV")
 ref:	TDNW
 cat:	body part
 file:	2004-03-holqed-13-1.txt
@@ -19515,7 +19499,7 @@ sv:	en slags «fågel» (livnär sig nästan enbart på den sorts orm-maskar som
 	~gagh~ görs av)
 en:	type of «bird» (feeds almost exclusively on the serpent worm from which
 	~gagh~ is made)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 com:	Klingons are not particularly fond of this bird.
 file:	2001-12-holqed-10-4.txt
 
@@ -19556,7 +19540,7 @@ pos:	noun
 sv:	«djävul», «demon», «~Fek'lhr~»
 en:	<devil>, «demon», «~Fek'lhr~»
 def:	TKDa; KCD
-ref:	TKW p.197; HQ12:3 p.9
+ref:	TKW p.197; HQ12:3 p.9 ("Maltz's Reward Part II")
 com:	KCD: "The beast who guards the dwelling place of the dishonored dead"
 file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
 
@@ -19678,7 +19662,7 @@ tlh:	{vIl} [1]
 pos:	verb
 sv:	vara «fårad», vara «guppig»
 en:	be «ridgy»
-def:	HQ13:1 p.10
+def:	HQ13:1 p.10 ("Maltz's Reward Part IV")
 ref:	TDNW
 file:	2004-03-holqed-13-1.txt
 
@@ -19702,7 +19686,7 @@ tlh:	{vIlInHoD}
 pos:	noun
 sv:	en slags «fågel» (förmögen att härma språk)
 en:	type of «bird» (capable of mimicking speech)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 com:	Some people pluralize these with {-pu'}, but most use {-mey}.
 file:	2001-12-holqed-10-4.txt
 
@@ -19718,13 +19702,11 @@ tlh:	{vIn}
 pos:	noun
 sv:	«kusin», «brorsdotter», «systerdotter», «brorson», «systerson»
 en:	«cousin», «niece», «nephew»
-def:	HQ9:3 p.9
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
-	In the singular, typically {tey'} or {lor} is preferred
-	unless the individual is being referred to as a member of a
-	group that likely includes both {tey'} and {lor}. The plural
-	form ({vInpu'}) is used for a group that includes both {tey'}
-	and {lor}.
+def:	HQ9:3 p.9 ("{matlh juppu' mu'mey}")
+com:	In the singular, typically {tey'} or {lor} is preferred unless the
+	individual is being referred to as a member of a group that likely
+	includes both {tey'} and {lor}. The plural form ({vInpu'}) is used for
+	a group that includes both {tey'} and {lor}.
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
@@ -20127,7 +20109,7 @@ tlh:	{waqboch}
 pos:	noun
 sv:	en slags «fågel» (med en väldigt lång näbb)
 en:	type of «bird» (with a very long beak)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 file:	2001-12-holqed-10-4.txt
 
 tlh:	[1] {waQ}
@@ -20145,8 +20127,7 @@ tlh:	[2] {waQ}
 pos:	noun
 sv:	¿?om ... «månader»
 en:	«months» from now
-def:	HQ8:3 p.3
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ8:3 p.3 ("{matlh juppu' mu'mey}")
 cat:	time
 file:	1999-09-holqed-08-3.txt
 
@@ -20351,8 +20332,7 @@ tlh:	{wen}
 pos:	noun
 sv:	¿?för ... «månader» sedan
 en:	«months» ago
-def:	HQ8:3 p.3
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ8:3 p.3 ("{matlh juppu' mu'mey}")
 cat:	time
 file:	1999-09-holqed-08-3.txt
 
@@ -20502,7 +20482,7 @@ tlh:	{woch}
 pos:	verb
 sv:	vara «lång», vara «reslig» (om person)
 en:	be «tall»
-def:	HQ13:1 p.9
+def:	HQ13:1 p.9 ("Maltz's Reward Part IV")
 ref:	TDNW
 file:	2004-03-holqed-13-1.txt
 
@@ -20519,7 +20499,7 @@ tlh:	{wogh}
 pos:	verb
 sv:	«överträda», göra mer än vad som är «acceptabelt», gå för långt
 en:	«transgress», do more than «acceptable», go to far
-def:	HQ12:3 p.9
+def:	HQ12:3 p.9 ("Maltz's Reward Part II")
 ref:	TDNW
 file:	2003-09-holqed-12-3.txt
 
@@ -20537,12 +20517,12 @@ en:	<sterilize>
 def:	KGT
 com:	Oops! MO seem to have canonified an error occuring on KLI's list of new
 	words, originally caused by a slip of the eye while reading/
-	transcribing the {veS QonoS} list in HQ1:3 p.9. Zrajm C Akfohg:
-	Actually, when I was at the {qep'a'} 2000, Will Martin told me that
-	this error was *his* fault, since he was the one who read the {veS
-	QonoS} list wrong when writing his dictionary. He gave a copy of this
-	dictionary to MO, who as a kind of a joke incorporated the error into
-	the language.
+	transcribing the {veS QonoS} list in HQ1:3 p.9 ("Additional
+	Vocabulary"). Zrajm C Akfohg: Actually, when I was at the {qep'a'}
+	2000, Will Martin told me that this error was *his* fault, since he was
+	the one who read the {veS QonoS} list wrong when writing his
+	dictionary. He gave a copy of this dictionary to MO, who as a kind of a
+	joke incorporated the error into the language.
 see:	{Say'qu'moH} is a synonym
 file:	1997-11-01-kgt.txt; 1992-09-holqed-01-3.txt
 
@@ -20565,7 +20545,7 @@ tlh:	{wom}
 pos:	verb
 sv:	«picka», «hacka» (på/i) (med näbb)
 en:	«peck»
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 com:	used for both eating and attacking by pecking
 file:	2001-12-holqed-10-4.txt
 
@@ -20628,14 +20608,14 @@ pos:	name
 sv:	«Worf»
 en:	«Worf»
 def:	S8; S20
-com:	S8 was reprinted in HQ4:3 p.4, and S20 in HQ5:2 p.14
+com:	S8 was reprinted in HQ4:3 p.4, and S20 in HQ5:2 p.14
 file:	1995-sbx-s08.txt; 1996-sbx-s20.txt
 
 tlh:	{wuD}
 pos:	verb
 sv:	«snarka»
 en:	«snore»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
 file:	2003-12-holqed-12-4.txt
 
@@ -20834,7 +20814,7 @@ sv:	en slags «fågel» (grå, ibland vit, flyger långa sträckor utan att gör
 	uppehåll)
 en:	type of «bird» (gray, sometimes white, travel long distances without
 	pausing)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{yatlh}
@@ -21237,8 +21217,7 @@ tlh:	{yor}
 pos:	noun
 sv:	«ovansida»
 en:	«top» (side or face of an object)
-def:	HQ8:3 p.2
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ8:3 p.2 ("{matlh juppu' mu'mey}")
 see:	{yuvtlhe'}; {'aqroS}; {pIrmuS}
 cat:	locative
 file:	1999-09-holqed-08-3.txt
@@ -21297,10 +21276,10 @@ tlh:	{yo'SeH yaHnIv}
 pos:	noun
 sv:	«»
 en:	«operations command»
-def:	ST5; HQ8:4 p.11
+def:	ST5; HQ8:4 p.11 ("Notes from Star Trek V: The Final Frontier")
 data:	phrase; {yo'SeH} (n); {yaHnIv} (n)
 file:	1999-12-holqed-08-4.txt
-meta:	FIXME -- Is this correctly formed?
+meta:	FIXME -- File contains wrong article. Is this correctly formed?
 
 tlh:	{yu}
 pos:	noun
@@ -21399,11 +21378,11 @@ sv:	«kusinbarn», «tremänning», avlägset «syskonbarn» (syskons barnbarn,
 	syssling etc.)
 en:	distant «cousin», distant «niece», distant «nephew» (second cousin,
 	grandnephew, etc.)
-def:	HQ9:3 pp.8--9
+def:	HQ9:3 pp.8--9 ("{matlh juppu' mu'mey}")
 com:	The singular form is never used in place of {tey'} or {lor}, but the
 	plural may be used for a group including {tey'} and/or {lor}, as long
 	as there is at least one more distant cousin, niece or nephew in the
-	group. Article in HQ is called "{matlh juppu' mu'mey}".
+	group.
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
@@ -21419,8 +21398,7 @@ tlh:	{yuvtlhe'}
 pos:	noun
 sv:	«lock», «kapsyl», «propp», «kork», «överdrag», «fodral»
 en:	«top», «lid», «cover», «cap»
-def:	HQ8:3 p.2
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ8:3 p.2 ("{matlh juppu' mu'mey}")
 see:	{yor}
 file:	1999-09-holqed-08-3.txt
 
@@ -21452,7 +21430,7 @@ pos:	verb
 sv:	«ha» en «längd»/«höjd» av
 en:	«have» a «length»/«height» of
 def:	S32; News 1997-10-22
-com:	S32 was reprinted in HQ6:2 p.9
+com:	S32 was reprinted in HQ6:2 p.9
 file:	1997-10-22-news.txt; 1997-sbx-s32.txt
 
 tlh:	{'ach}
@@ -21566,8 +21544,7 @@ tlh:	{'aqroS} [.1]
 pos:	noun
 sv:	«överdel» (under- eller insidan av överdelen)
 en:	«top» (inside or downturned surface)
-def:	HQ8:3 p.2
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ8:3 p.2 ("{matlh juppu' mu'mey}")
 see:	{yor}
 cat:	locative
 file:	1999-09-holqed-08-3.txt
@@ -21685,7 +21662,7 @@ com:	A popular effervescent drink, black in color, is called {'awje'}. This
 	probably because of its superficial resemblance to the Federation soft
 	drink, but it is made from, among other things, the marrow ({melchoQ})
 	taken from the bones of a {teghbat} (~"teg'bat"~). It is considered
-	relatively mild, even for a Klingon nonalcoholic drink. [KGT p.95]
+	relatively mild, even for a Klingon nonalcoholic drink. [KGT p.95]
 file:	1997-11-01-kgt.txt
 
 tlh:	{'aw'}
@@ -21722,7 +21699,7 @@ tlh:	{'eDjen}
 pos:	noun
 sv:	«arrogant» person, «inbilsk» person, «högfärdig» person
 en:	«arrogant» «person», «haughty» person
-def:	HQ12:3 p.9
+def:	HQ12:3 p.9 ("Maltz's Reward Part II")
 ref:	TDNW
 see:	{nguq}
 file:	2003-09-holqed-12-3.txt
@@ -21831,7 +21808,7 @@ tlh:	[1] {'em}
 pos:	verb
 sv:	«kräkas», «spy»
 en:	«vomit»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
 see:	{quy'Ip} (name for the matter vomited)
 file:	2003-12-holqed-12-4.txt
@@ -21850,7 +21827,7 @@ sv:	«Enterprise» (ett skepp)
 en:	«Enterprise» (a ship)
 def:	S15
 ref:	ST5
-com:	S15 was reprinted in HQ4:3 p.5
+com:	S15 was reprinted in HQ4:3 p.5
 file:	1995-sbx-s15.txt
 
 tlh:	{'eng}
@@ -21898,7 +21875,7 @@ tlh:	{'er'In}
 pos:	noun
 sv:	«ände» (på pinne, tråd etc.; motsatt {megh'an})
 en:	«end» (of stick, piece of string etc.; opposite {megh'an})
-def:	HQ12:2 pp.6--8
+def:	HQ12:2 pp.6--8 ("Maltz's Reward Part I")
 ref:	TDNW
 pun:	{megh'an} and {'er'In} Okrand confirmed that this is because he knows
 	two twins--his nieces--named Megan and Erin. ({qep'a'} 2003)
@@ -21951,9 +21928,10 @@ pos:	noun
 sv:	område nordvästerut, område i «nordväst»
 en:	area northwestward, area towards the «northwest»
 def:	News 1999-11-21
+ref:	HQ8:4 pp.6--8 ("Maltz Online")
 com:	"320 degrees on Terran compass" [KLINW]
 cat:	locative
-file:	1999-11-21-news.txt
+file:	1999-11-21-news.txt; 1999-12-holqed-08-4.txt
 
 tlh:	{'evnagh}
 pos:	noun
@@ -21981,8 +21959,7 @@ tlh:	{'e'mam}
 pos:	noun
 sv:	«faster» (fars syster)
 en:	«aunt» (father's sister)
-def:	HQ9:3 p.8
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
@@ -21990,8 +21967,7 @@ tlh:	{'e'mamnal}
 pos:	noun
 sv:	«faster» (fars brors hustru)
 en:	«aunt» (father's brother's wife)
-def:	HQ9:3 p.8
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
@@ -22001,8 +21977,7 @@ sv:	«ingift» person, någon som «gift» in sig i «familjen» (specificerar
 	inte det exakta släktskapet)
 en:	someone who «married» into the «family» (does not specify the exact
 	relationship)
-def:	HQ9:3 p.9
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ9:3 p.9 ("{matlh juppu' mu'mey}")
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
@@ -22031,7 +22006,7 @@ com:	"[...] throughout the Empire, a soup whose main component is ~igvah~
 	meaning something like 'one who is full of self-doubt or who is
 	insecure' and is a word used only as an insult. To refer to the soup,
 	one simply says {'IghvaH chej chatlh} (literally, '~igvah~ liver
-	soup')." [KGT p.30]
+	soup')." [KGT p.30]
 file:	1997-11-01-kgt.txt
 
 tlh:	{'IH}
@@ -22093,8 +22068,7 @@ tlh:	{'Iq}
 pos:	verb
 sv:	vara «för «många»», vara «för «mycket»»
 en:	be «too «many»», be «too «much»»
-def:	HQ8:3 p.3
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ8:3 p.3 ("{matlh juppu' mu'mey}")
 see:	{tlhoy}
 file:	1999-09-holqed-08-3.txt
 
@@ -22102,11 +22076,12 @@ tlh:	{'IqnaH}
 pos:	noun
 sv:	«snor», «slem»
 en:	«mucus»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
 com:	"If one were to {chuy} 'sneeze,' one would likely eject {'IqnaH} 'mucus'
 	(or sometimes {'IqnaH QaD} 'dry mucus'). If one were to {tuS} 'cough,'
-	one might produce {qo'qaD} 'phlegm.'" [HQ12:4 p.8]
+	one might produce {qo'qaD} 'phlegm.'" [HQ12:4 p.8 ("Maltz's Reward Part
+	III")]
 see:	{chuy}
 file:	2003-12-holqed-12-4.txt
 
@@ -22114,7 +22089,7 @@ tlh:	{'IqnaH QaD}
 pos:	noun
 sv:	torrt «slem», torrt «snor»
 en:	dry «mucus»
-def:	HQ12:4 p.8
+def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
 data:	phrase; derived form
 file:	2003-12-holqed-12-4.txt
@@ -22132,8 +22107,7 @@ tlh:	{'IrneH}
 pos:	noun
 sv:	«morbror» (mors bror)
 en:	«uncle» (mother's brother)
-def:	HQ9:3 p.8
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
@@ -22141,8 +22115,7 @@ tlh:	{'IrneHnal}
 pos:	noun
 sv:	«morbror» (mors systers make)
 en:	«uncle» (mother's sister's husband)
-def:	HQ9:3 p.8
-com:	Article in HQ is called "{matlh juppu' mu'mey}".
+def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
 cat:	family
 file:	2000-09-holqed-09-3.txt
 
@@ -22234,7 +22207,7 @@ pos:	noun
 sv:	«armhåla»
 en:	<armpit>
 def:	{qep'a'} 1996; KGT
-ref:	HQ5:3 p.14
+ref:	HQ5:3 p.14 ("The Tale of {'I'}")
 com:	Confirmed by Okrand at {qep'a'} 1996. (Mark Shoulson) "At {qep'a'
 	wejDIch} [in 1996] we played the hokey pokey with Klingon body part
 	names. Of course, {'I'} was quickly used." (Alan Anderson)
@@ -22365,7 +22338,7 @@ tlh:	{'or}
 pos:	verb
 sv:	«manövrera», «styra» (en flygmaskin)
 en:	«pilot», «operate» (an aircraft)
-def:	HQ11:2 p.8
+def:	HQ11:2 p.8 ("{matlh jup mu'mey}")
 file:	2002-06-holqed-11-2.txt
 
 tlh:	{'orghen}
@@ -22416,7 +22389,7 @@ tlh:	{'orwI'}
 pos:	noun
 sv:	«pilot», någon som «manövrera»r (en flygmaskin)
 en:	«pilot», one who «operates» (an aircraft)
-def:	HQ11:2 p.8
+def:	HQ11:2 p.8 ("{matlh jup mu'mey}")
 data:	derived form
 file:	2002-06-holqed-11-2.txt
 
@@ -22505,7 +22478,7 @@ tlh:	{'o'megh}
 pos:	noun
 sv:	«avsluting», «slut» (på sång)
 en:	«end» (of song)
-def:	HQ12:2 p.9
+def:	HQ12:2 p.9 ("Maltz's Reward Part I")
 ref:	TDNW
 see:	{lIH}, {namtun}
 file:	2003-06-holqed-12-2.txt
@@ -22522,7 +22495,7 @@ tlh:	{'uchHa'}
 pos:	verb
 sv:	«släppa»
 en:	«let go» of
-def:	HQ12:2
+def:	HQ12:2 pp.6--7 ("Maltz's Reward Part I")
 ref:	TDNW
 data:	derived form
 file:	2003-06-holqed-12-2.txt
@@ -22538,9 +22511,7 @@ tlh:	{'uD Haqtaj}
 pos:	noun
 sv:	«laserskalpell»
 en:	«laser scalpel»
-def:	HQ1:3 p.9
-com:	Article in HQ is called "Additional Vocabulary" and contains
-	the {veS QonoS} list of words.
+def:	HQ1:3 p.9 ("Additional Vocabulary")
 data:	phrase; derived form
 file:	1992-09-holqed-01-3.txt
 
@@ -22548,9 +22519,7 @@ tlh:	{'uD'a'}
 pos:	noun
 sv:	«laser»
 en:	«laser»
-def:	HQ1:3 p.9
-com:	Article in HQ is called "Additional Vocabulary" and contains
-	the {veS QonoS} list of words.
+def:	HQ1:3 p.9 ("Additional Vocabulary")
 data:	derived form
 file:	1992-09-holqed-01-3.txt
 
@@ -22695,7 +22664,7 @@ tlh:	{'uSgheb}
 pos:	noun
 sv:	en slags «fågel» (för oljud i gryningen, vildsintare än en tupp)
 en:	type of «bird» (makes a ruckus at dawn, fiercer than a rooster)
-def:	HQ10:4 p.5
+def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 com:	much fiercer than a rooster
 file:	2001-12-holqed-10-4.txt
 
@@ -22732,7 +22701,7 @@ def:	TKD; KGT p.51
 com:	"[T]here are not many officers who end their service to the Empire by
 	simply stepping down or retiring. There are some, however, and the word
 	{'utlh} is used to refer to an officer of this type. Perhaps 'officer
-	emeritus' is an appropriate translation." [KGT p.51]
+	emeritus' is an appropriate translation." [KGT p.51]
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{'uy}
@@ -23182,7 +23151,7 @@ pos:	verb suffix type 7
 sv:	perfektiv
 en:	perfective
 def:	TKD 4.2.7 (p.41)
-ref:	HQ12:2 p.9
+ref:	HQ12:2 p.9 ("Maltz's Reward Part I")
 file:	1992-01-01-tkd.txt
 
 tlh:	{-qang}
@@ -23238,7 +23207,7 @@ pos:	verb suffix type 7
 sv:	utfört, gjort
 en:	accomplished, done
 def:	TKD 4.2.7 (p.41)
-ref:	HQ12:2 p.9
+ref:	HQ12:2 p.9 ("Maltz's Reward Part I")
 file:	1992-01-01-tkd.txt
 
 tlh:	{-vIp}
@@ -23547,12 +23516,12 @@ SUGGESTIONS FOR IMPROVEMENT OF THE POCKET DICTIONARY
 
 Most quantity words appear to behave like numbers and come before the noun: Hoch X
 
-     X {Hoch} "all of X" [KGT p. 155]
-       {nIn Hoch} "all of the fuel" [KGT p. 155]
-     {Hoch} X(sg) "each X" [HQ 5:2 p.11]
-       {Hoch nuH} "every weapon" [KGT p.108]
-     {Hoch} X(pl) "all the Xs" [HQ 5:2 p.11]
-       {Hoch jaghpu'Daj} "all his enemies" [KGT p.107]
+     X {Hoch} "all of X" [KGT p.155]
+       {nIn Hoch} "all of the fuel" [KGT p.155]
+     {Hoch} X(sg) "each X" [HQ5:2 p.11]
+       {Hoch nuH} "every weapon" [KGT p.108]
+     {Hoch} X(pl) "all the Xs" [HQ5:2 p.11]
+       {Hoch jaghpu'Daj} "all his enemies" [KGT p.107]
      {'op} X "some Xs" [S7],
      {latlh} X "(an)other X/Xs" [S31],
      {bID} X "half an X, a half X" [BOP]
@@ -23690,7 +23659,7 @@ MO attended; held in Las Vegas[1][5].
 -------------------------
 MO attended (me and & Markus there)[1][7].
 
-* *{tIb} "be nervous, be uneasy" (v) -- [KGT p.132] Word confirmed as a typo,
+* *{tIb} "be nervous, be uneasy" (v) -- [KGT p.132] Word confirmed as a typo,
   real word is {bIt}, as it is spelled in other sources. (Zrajm C Akfohg)
 * {woj} "sterilize" (v) -- Verified that word is canon, and also synonymous to
   older word {Say'qu'moH}. (Zrajm C Akfohg)
@@ -23886,7 +23855,7 @@ HISTORY (LAST CHANGES FIRST)
     wrote small program ('usr/bin/check-dict') to check this. Added 'def'
     missing fields (for words *{jIn}, {ghetwI'} and {'uchHa'}).
 
-    [2011-08-30] Added missing word "No'hvadut" (from KGT p.26)
+    [2011-08-30] Added missing word "No'hvadut" (from KGT p.26)
 
     [2011-08-29] Added 'pos' (part-of-speech) field (part-of-speech information
     still remains in the 'en' and 'sv' fields -- but the plan is to remove it
@@ -23904,10 +23873,11 @@ HISTORY (LAST CHANGES FIRST)
     were missing such ({bop}, {chaS}, {ghang}, {Hutvagh}, {qev}, {van} (2),
     {'IqnaH QaD}).
 
-    [2010-07-25] Added words from HQ12:2 ({bertlham}, {bI'reS} etc.); started
-    to add "ref: [KLI]" for, up to {bI'reS} words occuring on KLI's list of new
-    words; started to check dictionary against Terrence Donnelly's list of new
-    words (denoted "NKW"); separated TODO list into separate file.
+    [2010-07-25] Added words from HQ12:2 ("Maltz's Reward Part I") ({bertlham},
+    {bI'reS} etc.); started to add "ref: [KLI]" for, up to {bI'reS} words
+    occuring on KLI's list of new words; started to check dictionary against
+    Terrence Donnelly's list of new words (denoted "NKW"); separated TODO list
+    into separate file.
 
     [2010-05-12] Removed erraneous comma in {vay'}, occuring at the very end of
     the English definition, added missing source reference for {tajvaj}
@@ -23961,22 +23931,23 @@ HISTORY (LAST CHANGES FIRST)
     {Daypus} to {DayquS}. Thanks to d'Armond Speers [USA] for pointing out the
     error!
 
-    [2002-06-28] Translated the words from HQ10:4 p.5 into Swedish.
+    [2002-06-28] Translated the words from HQ10:4 p.5 ("{matlh juppu' mu'mey}")
+    into Swedish.
 
     [2002-03-09] Corrected the Klingon spelling of "racht" from {taHta'}
     to {raHta'}. Thanks to Agnieska Solska [Poland] for pointing out the
     error!
 
-    [2002-01-21] Added the 35 new words ({po Ha'DIbaH} excepted since it
-    really isn't a "new word") from MO's article in HQ10:4. Most of these
-    words are about birds.
+    [2002-01-21] Added the 35 new words ({po Ha'DIbaH} excepted since it really
+    isn't a "new word") from MO's article in HQ10:4 ("{matlh juppu' mu'mey}").
+    Most of these words are about birds.
 
     [2001-08-23] Added some 27 new words related to fingers and toes, and
-    everything else from the HQ10:2 article "A Friend of Maltz: {nItlhDu'
-    yaDDu' je}". The following three words had to be given lemma numbers,
-    since they were homonymous to other words already present in the
-    dictionary: {nanwI'}, {qan}, {rIl}. Re-sorted these history events into
-    proper order (they were in disarray).
+    everything else from HQ10:2 pp.7--11 ("A Friend of Maltz: {nItlhDu' yaDDu'
+    je}"). The following three words had to be given lemma numbers, since they
+    were homonymous to other words already present in the dictionary: {nanwI'},
+    {qan}, {rIl}. Re-sorted these history events into proper order (they were
+    in disarray).
 
     [2001-03-20] Added the field "data:".
 
@@ -23987,7 +23958,8 @@ HISTORY (LAST CHANGES FIRST)
     "be"] and hand checked those on the list which had both active and static
     translations. Thus I found and corrected these "errors".)
 
-    [2001-02-12] Added the new word {tangqa'} from HQ 9:4.
+    [2001-02-12] Added the new word {tangqa'} from HQ9:4 p.16 ("More From
+    Maltz").
 
     [2001-01-06] Added the word {mevyap} (Why on earth haven't I found
     this before!---I must check the KGT more thoroughly!)
