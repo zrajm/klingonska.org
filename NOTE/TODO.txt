@@ -550,6 +550,47 @@ Priorities:
      Referenced in "{pIqaD}, And How to Read It".
 **** TODO HolQeD 2:2 pp.10-11 -- "Writing Klingon: The Easy Way" by Theron P. Elliot
      Referenced in "{pIqaD}, And How to Read It".
+**** TODO Add transcript of HQ3:3 (p.14?)
+     Wherein Rhonda E. Green comments that a probable translation of {Hu'tegh}
+     would be "fuck", based on the usage of the word in A.C. Crispin's
+     "Sarek".
+
+     Referenced in dict.zdb. Add this to 'file:' field of {Hu'tegh}.
+**** TODO Add transcript of HQ4:1 p.7
+     Article (incorrectly) stating that {jev} should not be verb, but noun, and
+     that says that {Qaw'} is a verb, even though TKD K-E listed is as noun.
+
+     Referenced in dict.zdb. Fix link from 'file:' field of {jev} and {Qaw'}.
+**** TODO Add transcript of HQ4:3 pp.4--5
+     Article with transcript of S7, S8, S15.
+
+     Referenced in dict.zdb. Add 'file:' field link for {qarghan}, {tI'ang},
+     {wo'rIv}, {'entepray'}
+**** TODO Add transcript of HQ5:2 p.14
+     Article with transcript of S20
+
+     Referenced in dict.zdb.
+**** TODO Add transcript of HQ5:2 p.20
+     Article with words {ghogh HablI'} and {nav HablI'} there is already a
+     transcript called "1996-06-holqed-05-2.txt" but that is a different article.
+
+     Referenced in dict.zdb. Fix 'file:' field for {ghogh HablI'} and {nav
+     HablI'}.
+**** TODO Add transcript of HQ5:3 p.15 (1996-09-holqed-05-3-b.txt)
+     Article with transcript of Skybox S26
+
+     Referenced in dict.zdb.
+**** TODO Add transcript of HQ6:2 p.9 (1997-06-holqed-06-2.txt)
+     Article with transcripts of Skybox S32 and S33.
+     Also verify the 'com:' part under *{Soq} in dict.zdb.
+
+     Referenced in dict.zdb.
+**** TODO Add transcript of HQ8:4 p.11--13
+     Article named: "Notes from Star Trek V: The Final Frontier". Fix 'file:'
+     field for {ghuy'}, {ngoqDe'}, {qIrq}, {toDDuj}, {yo'SeH yaHnIv}. Add
+     'file:' for {'entepray'}.
+
+     Referenced in dict.zdb.
 **** DONE HolQeD 1:1 p.18-20 -- "Some Comments on Orthography" by Lawrence M. Schoen
      CLOSED: [2011-09-16 Fri 18:14]
      Referenced in "{pIqaD}, And How to Read It".
@@ -867,120 +908,66 @@ Priorities:
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** dict.zdb
-**** TODO Better listing of sources
-     Specificly, since the 'en' and 'sv' fields are created from different
-     sources, it would be desireble to list exactly which part of this fields
-     that come from what source. -- Maybe one should rework the syntax of these
-     fields?
+**** Design improvements (to think about)
+***** TODO Use filenames as source references(?)
+      Or maybe one should go the other way? Have a check-dict that knows all
+      sources, and their filenames and complain unless it exists... (?) --
+      Problem with such an approach would be that the lexicon CGI script would
+      have to include this info as well in order to present links to the
+      Archive of Okrandian Canon.
+***** TODO <...> should mean translation/italic everywhere
+      And be used in 'see:' and 'com:' and 'desc:'..
 
-     Perhaps something like this?
+      This would require a different markup symbol for the lookup words in
+      'sv:', 'en:' and 'tlh:' fields.
+***** TODO Better listing of sources is 'en:' and 'sv:' fields
+      Specificly, since the 'en' and 'sv' fields are created from different
+      sources, it would be desireble to list exactly which part of this fields
+      that come from what source. -- Maybe one should rework the syntax of these
+      fields?
 
-         tlh: {'ay'}
-         en: "section" [TKD]; "part", "piece", "component" [KGT]
+      Perhaps something like this?
 
-     or
+          tlh: {'ay'}
+          en: "section" [TKD]; "part", "piece", "component" [KGT]
 
-         tlh: {'ay'}
-         en: <section> [TKD]; <part>, <piece>, <component> [KGT]; «chapter»
+      or
 
-     Where "chapter" would then be a synonym (without support in canon).
+          tlh: {'ay'}
+          en: <section> [TKD]; <part>, <piece>, <component> [KGT]; «chapter»
 
-     Or maybe the following would be better?
+      Where "chapter" would then be a synonym (without support in canon).
 
-         tlh: {HuH}
-         en: bile, slime, gall
-         ref: bile; gall; slime
-         sv:  galla; slem
-         ref: "bile" [PK, KCD, KGT];
-              "slime" [KCD; KGT];
-              "gall" [TKW]
-**** TODO Check source of words (from a Saarbrücken {qepHom}?)
-     Are they really from {qep'a'} 2010? I would think that they would be from
-     from a Saarbrücken {qepHom}?
-***** TODO {buq}
-***** TODO {luHwI' tIH}
-***** TODO {mIllogh}
-***** TODO {ngogh}
-***** TODO {ngogh tun}
-***** TODO {QongDaq buq}
-***** TODO *{tlhaptIH}
-***** TODO {wep buq}
-***** TODO {yopwaH buq}
-***** TODO {yuch ngogh}
-**** DONE Add 'excl' field for excluding a word from the paper dictionary
-     CLOSED: [2011-11-05 Sat 08:30]
-     Nope. This is perfectly handled by the 'data' field values 'non-canon'
-     (which should not be included in the pocket dictionary at all), and
-     'deprecated' (which should only be included in the Klingon--English side).
+      Or maybe the following would be better?
 
-     excl: tlh-, -tlh
+          tlh: {HuH}
+          en: bile, slime, gall
+          ref: bile; gall; slime
+          sv:  galla; slem
+          ref: "bile" [PK, KCD, KGT];
+               "slime" [KCD; KGT];
+               "gall" [TKW]
+***** TODO Add 'date' field
+      With date of when word was added to dictionary. This field should be used
+      for sorting of otherwise identical words.
+***** TODO Field for English synonyms?
+      E.g. to make words easier to look up. E.g. {'IqnaH} has a 'com' field
+      specifying 'booger', which is a useful synonym for the purpose of
+      searching.
 
-     Should have values for excluding a word from the K-E, E-K or both sides.
+      Some synonyms of this kind are already in dictionary. Search for "synonym"
+      in the 'com' field to find them.
+***** DONE Should HQ source references contain name of article(?) -- YES
+      CLOSED: [2012-01-28 Sat 16:29]
+      E.g. HQ8:3 p.4 ("{matlh juppu' mu'mey}")
 
-     {jajvam} tlh- (everything of "mistaken form" and "derived form")
-**** TODO Mark "quantity" words
-     The act as numerals and come before a word (usually). Is {Hoch} a special
-     case, or is {Hoch}'s behaviour extrapolatable to all of them?
-
-     {HochHom}
-
-     X {Hoch} "all of X" [KGT p. 155]
-       {nIn Hoch} "all of the fuel" [KGT p. 155]
-     {Hoch} X(sg) "each X" [HQ 5:2 p.11]
-       {Hoch nuH} "every weapon" [KGT p.108]
-     {Hoch} X(pl) "all the Xs" [HQ 5:2 p.11]
-       {Hoch jaghpu'Daj} "all his enemies" [KGT p.107]
-
-     {'op} X "some Xs" [S7],
-     {latlh} X "(an)other X/Xs" [S31],
-     {bID} X "half an X, a half X" [BOP]
-
-**** DONE "Bad" words should have * before the word in the tlh field
-     CLOSED: [2011-10-30 Sun 18:40]
-     I.e. words marked with "DON'T USE THIS WORD" or "WARNING" in the 'com'
-     field. -- These words should be included in the Klingon--English version
-     of the dictionary, but with a leading asterisk, and a warning they're not
-     supposed to be used. Maybe add a 'warn' field, explaining why?
-**** TODO Add 'date' field
-     With date of when word was added to dictionary. This field should be used
-     for sorting of otherwise identical words.
-**** TODO Add irregular plurals in dictionary (already done?)
-**** TODO Field for English synonyms?
-     E.g. to make words easier to look up. E.g. {'IqnaH} has a 'com' field
-     specifying 'booger', which is a useful synonym for the purpose of
-     searching.
-
-     Some synonyms of this kind are already in dictionary. Search for "synonym"
-     in the 'com' field to find them.
-**** DONE Standardize tlhingan-hol mailing refereces
-     CLOSED: [2011-10-03 Mon 04:20]
-     As of now refereces to the tlhingan-hol mailing list vary in form. They
-     should always look the same. Model them after the "News" references?
-
-         Email YYYY-MM-DD (to tlhingan-hol, by Alan Anderson, "More from Maltz")
-
-     Maybe and explanatory parentheses after "News" references would be good as
-     well?
-
-     Names should be proper names, not Klingon Aliases.
-**** TODO Try to obtain the recording of {ma'veq} mentioned in the comments
-     See also: http://diswww.mit.edu/charon.MIT.EDU/ja'chuq/88542
-**** DONE Make sure all words have "file:" field
-     CLOSED: [2011-11-05 Sat 08:51]
-     ..and make it a 'required' field (i.e. change the description at the top
-     of the dictionary file).
-***** DONE Add "file:" for dictionary entries with "KCD" in def/ref
-      CLOSED: [2011-09-18 Sun 22:22]
-**** DONE Add relevant links to words with def/ref CK and PK
-     CLOSED: [2011-09-20 Tue 00:54]
-**** TODO Find that wrongly transcribed SkyBox word
-     It was a word which seemed to be a synonym to {lo'} or something. The word
-     occured in some HolQeD issue, and turned out to be mistranscribed when I
-     checked against the actual trading card.
-
-     It should be included in the dictionary, with 'data: non-canon', so others
-     won't include it in their dictionaries.
-**** TODO Add words
+***** DONE "Bad" words should have * before the word in the tlh field
+      CLOSED: [2011-10-30 Sun 18:40]
+      I.e. words marked with "DON'T USE THIS WORD" or "WARNING" in the 'com'
+      field. -- These words should be included in the Klingon--English version
+      of the dictionary, but with a leading asterisk, and a warning they're not
+      supposed to be used. Maybe add a 'warn' field, explaining why?
+**** Add words
 ***** TODO [0%] Words from the Klingon opera {'u'}
       https://mail.google.com/mail/#search/tlheng'IQ/12a0fa8c18c6f6a3
 ****** TODO {ghIv} limb (of a person)
@@ -1269,18 +1256,64 @@ Priorities:
       onwards.
 ***** TODO KGT main text words (names etc.)
       e.g. "Kayvak", "digna", "ka'raj", "bregit", "Saurian", "raktaj"
-**** TODO "Diplomatic Implausibility"
-     canon/2001-02-17-email.txt
-***** Add comments from glossary to the various words
-***** Determine how canon source is
-***** Add missing words to dictionary (if source is judged canon)
-**** TODO Translate words into Swedish
-***** TODO {yo'SeH yaHnIv}
-**** TODO Check words
-***** TODO {lo' law'}
-**** DONE Re-sort dictionary
-     CLOSED: [2011-10-02 Sun 18:10]
-**** TODO Systematic corrections / new markup
+**** Systematic improvements / new markup
+***** TODO Add category "food"
+      "cat: food"
+***** TODO Rename 'cat:' field to 'tag'
+      Maybe 'data:' should also be merged into the same?
+***** TODO Add (optional) field 'cite' (which may be repeated)
+      It should look like this:
+
+          cite: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                [REF1]
+          cite: Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. [REF2]
+
+      With a single quote in each 'cite:' field, followed by a source reference
+      is brackets. All quotes in 'com:' fields should be moved to 'cite:'.
+***** TODO Allow blank lines inside fields(?)
+      I.e. a blank lines should be allowed inside a field value, if the line
+      after the blank line is a continuation line as well.
+
+          com:  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
+***** TODO Add article names for all HQ references
+      And thereafter make the article names obligatory in all HQ source
+      references.
+***** TODO Puns
+****** TODO See emails
+******* "Reversals for puns"
+        https://mail.google.com/mail/?shva=1#search/reversals+for+puns/dd76f056a011a30
+******* http://www.kli.org/wiki/index.php?Puns%20in%20the%20Vocabulary%20of%20tlhIngan%20Hol
+****** TODO Pun for {pe'vIl} apparently is a private reference of MO's -- what?
+****** TODO Pun for {natlIS} "end of list" -- pun?
+****** TODO Pun for {bertlham} -- pun? Shakespeare?
+****** TODO Pun for {bop} pun?
+
+***** TODO Add "ref: [KLINW]" to all words after {chaDvay'} in KLI new word list
+***** TODO Check words ending {-moH}, mark with "data: derived form"
+      (unless the word without the {-moH} suffix is not in the dictionary by
+      itself)
+***** TODO New value field for the question words, adverbs etc.
+***** TODO KLCP level 1 markup
+****** Move into "cat:" rather than "data:" field
+****** Check against KLCP 1 list.
+***** TODO KLCP level 2 markup
+****** Add "KLCP-2" to all relevant word's "data:" field
+***** TODO Consider new fields?
+      [[file:NOTE/dict-field-ideas.txt][x]]
+***** TODO Mark lookup words in klingon words with spaces («...»)
+***** DONE remove "!" in all exclamations
+      Since they're not actually present in the various sources/dictionaries.
+      CLOSED: [2012-01-27 Fri 00:06]
+***** DONE Introduce 'meta:' field for editorial comments on entries
+      CLOSED: [2012-01-27 Fri 23:56]
+***** DONE Re-sort dictionary
+      CLOSED: [2011-10-02 Sun 18:10]
 ***** DONE Check/fix field sort order
       CLOSED: [2011-09-02 Fri 13:50]
 ***** DONE Remove illegal fields
@@ -1320,32 +1353,20 @@ Priorities:
       very lengthy description.
 ***** DONE Use English (not Klingon) names in ref/def
       CLOSED: [2011-09-04 Sun 20:27]
-***** TODO Puns
-****** TODO See emails
-******* "Reversals for puns"
-        https://mail.google.com/mail/?shva=1#search/reversals+for+puns/dd76f056a011a30
-******* http://www.kli.org/wiki/index.php?Puns%20in%20the%20Vocabulary%20of%20tlhIngan%20Hol
-****** TODO Pun for {pe'vIl} apparently is a private reference of MO's -- what?
-****** TODO Pun for {natlIS} "end of list" -- pun?
-****** TODO Pun for {bertlham} -- pun? Shakespeare?
-****** TODO Pun for {bop} pun?
-
-***** TODO Add "ref: [KLINW]" to all words after {chaDvay'} in KLI new word list
-***** TODO Check words ending {-moH}, mark with "data: derived form"
-      (unless the word without the {-moH} suffix is not in the dictionary by
-      itself)
-***** TODO New value field for the question words, adverbs etc.
-***** TODO KLCP level 1 markup
-****** Move into "cat:" rather than "data:" field
-****** Check against KLCP 1 list.
-***** TODO KLCP level 2 markup
-****** Add "KLCP-2" to all relevant word's "data:" field
-***** TODO Consider new fields?
-      [[file:NOTE/dict-field-ideas.txt][x]]
-***** TODO Mark lookup words in klingon words with spaces («...»)
-**** TODO Minor/individual corrections
+**** Minor / individual corrections
+***** TODO {pegh} clarify difference & give examples of the two verbs
+      Examples in 'desc:'.
+***** TODO {ben} -- merge "years ago" and "years old"
+      And give good, short examples in 'desc:'.
+***** TODO Check word {lo' law'}
+***** TODO Swedish translation of {yo'SeH yaHnIv}
 ***** TODO Swedish translation of "officer"
       Should be "personal" or "tjänsteman" or somesuch? [2006-08-22]
+***** DONE Shortened unit word descriptions
+      For better presentation in the pocket dictionary.
+      CLOSED: [2012-01-24 Tue 15:21]
+***** DONE Remove {Qompu'} from dict, add example for it under {Qom}
+      CLOSED: [2012-01-27 Fri 21:02]
 ***** DONE Spelling of "flatulence"?
       Spelling was good.
       CLOSED: [2011-10-03 Mon 04:33]
@@ -1359,8 +1380,102 @@ Priorities:
 ***** TODO Math terms
       From: 2000-09-holqed-09-3.txt: {boq}, {boqHa'}, {boq'egh}, {boqHa''egh},
       {chen} should have translations "plus", "minus", "equals" etc.
+**** TODO Check source of words (from a Saarbrücken {qepHom}?)
+     Are they really from {qep'a'} 2010? I would think that they would be from
+     from a Saarbrücken {qepHom}?
+***** TODO {buq}
+***** TODO {luHwI' tIH}
+***** TODO {mIllogh}
+***** TODO {ngogh}
+***** TODO {ngogh tun}
+***** TODO {QongDaq buq}
+***** TODO *{tlhaptIH}
+***** TODO {wep buq}
+***** TODO {yopwaH buq}
+***** TODO {yuch ngogh}
+**** TODO Mark "quantity" words
+     They act as numerals and come before a word (usually). Is {Hoch} a special
+     case, or is {Hoch}'s behaviour extrapolatable to all of them?
 
-*** Klingon Pocket Dictionary" (paper version)
+     {HochHom}
+
+     X {Hoch} "all of X" [KGT p. 155]
+       {nIn Hoch} "all of the fuel" [KGT p. 155]
+     {Hoch} X(sg) "each X" [HQ 5:2 p.11]
+       {Hoch nuH} "every weapon" [KGT p.108]
+     {Hoch} X(pl) "all the Xs" [HQ 5:2 p.11]
+       {Hoch jaghpu'Daj} "all his enemies" [KGT p.107]
+
+     {'op} X "some Xs" [S7],
+     {latlh} X "(an)other X/Xs" [S31],
+     {bID} X "half an X, a half X" [BOP]
+**** TODO Add irregular plurals in dictionary (already done?)
+**** TODO Try to obtain the recording of {ma'veq} mentioned in the comments
+     See also: http://diswww.mit.edu/charon.MIT.EDU/ja'chuq/88542
+**** TODO "Diplomatic Implausibility"
+     canon/2001-02-17-email.txt
+***** Add comments from glossary to the various words
+***** Determine how canon source is
+***** Add missing words to dictionary (if source is judged canon)
+**** DONE Add 'excl' field for excluding a word from the paper dictionary
+     CLOSED: [2011-11-05 Sat 08:30]
+     Nope. This is perfectly handled by the 'data' field values 'non-canon'
+     (which should not be included in the pocket dictionary at all), and
+     'deprecated' (which should only be included in the Klingon--English side).
+
+     excl: tlh-, -tlh
+
+     Should have values for excluding a word from the K-E, E-K or both sides.
+
+     {jajvam} tlh- (everything of "mistaken form" and "derived form")
+**** DONE Standardize tlhingan-hol mailing refereces
+     CLOSED: [2011-10-03 Mon 04:20]
+     As of now refereces to the tlhingan-hol mailing list vary in form. They
+     should always look the same. Model them after the "News" references?
+
+         Email YYYY-MM-DD (to tlhingan-hol, by Alan Anderson, "More from Maltz")
+
+     Maybe and explanatory parentheses after "News" references would be good as
+     well?
+
+     Names should be proper names, not Klingon Aliases.
+**** DONE Make sure all words have 'file:' field
+     CLOSED: [2011-11-05 Sat 08:51]
+     ..and make it a 'required' field (i.e. change the description at the top
+     of the dictionary file).
+***** DONE Add "file:" for dictionary entries with "KCD" in def/ref
+      CLOSED: [2011-09-18 Sun 22:22]
+**** DONE Add relevant links to words with def/ref CK and PK
+     CLOSED: [2011-09-20 Tue 00:54]
+**** DONE Find that wrongly transcribed SkyBox word
+     CLOSED: [2012-01-28 Sat 16:08]
+     The word was *{Soq}.
+
+     It was a word which seemed to be a synonym to {lo'} or something. The word
+     occured in some HolQeD issue, and turned out to be mistranscribed when I
+     checked against the actual trading card.
+
+     It should be included in the dictionary, with 'data: non-canon', so others
+     won't include it in their dictionaries.
+
+*** Klingon Pocket Dictionary (paper version)
+**** TODO Join source references between sub-entries in pocket dict(?)
+         {HaH} /v/ 1 soak, drench [KGT] 2 marinade [KGT]
+
+         {lol} I /v/ be in an attitude, in a stance, in a pose [HQ11:2 p.8] II /n/
+         a specific Mok’bara position [HQ11:2 p.8]
+
+     could be better(?) written as
+
+         {HaH} /v/ [KGT] 1 soak, drench 2 marinade
+
+         {lol} [HQ11:2 p.8] I /v/ be in an attitude, in a stance, in a pose II /n/
+         a specific Mok’bara position
+
+     since all subdefinitions have the same source
+**** TODO Write Email/News YYYY-MM-DD dates as YY-MM-DD instead(?)
+**** TODO Add 'desc:' for {Hoch}
+**** TODO Add 'desc:' fields for all question words
 **** TODO Write check tool to list words not present in LaTeX dict
      This should be done by grepping through LaTeX sources and comparing it
      with the dictionary database contents.
@@ -1397,6 +1512,14 @@ Priorities:
      Some phrases might not be interpretable, without a non-literal
      translation?
 **** TODO KA logo on front
+**** DONE Subject explanations in 'desc:' should be at end
+     CLOSED: [2012-01-26 Thu 23:47]
+     Examples:
+
+         desc:	{qachuH} ~I throw (a spear) at you;~ target is obj.
+         desc:	{qachuH} ~I clarify [it] for you;~ one getting explanation is obj.
+         desc:	{Dor jar} ~the month ends;~ time period is subj.
+         desc:	{nga'chuq bangwI'pu'} ~my loved ones have sex;~ participants are subj.
 **** DONE Re-write LaTeX generator
      CLOSED: [2011-11-05 Sat 11:55]
 ***** DONE "data: derived form" words should not be included in en-tlh side
@@ -1487,24 +1610,18 @@ Priorities:
 ** DONE Remove KA bylaws
    CLOSED: [2010-10-07 Thu 07:27]
 * Build/check tools
-** TODO Dictionary check tool (usr/bin/check-dict)
-*** TODO tlh fields with multiple words should have corresponding data-field
+** Dictionary check tool (usr/bin/check-dict)
+*** TODO Check sorting of 'tlh:' for homonyms
+   (In some places this will differ for other reasons.)
+    * standard >> slang/regional
+    * by pos: adv >> v >> pro >> ques >> conj >> num >> n >> name
+*** TODO Check line lengths
+*** TODO 'tlh:' fields with multiple words should have corresponding data-field
     E.g. "data:phrase" and "data: derived form"
-*** DONE Check ref/def format
-    CLOSED: [2011-08-31 Wed]
-*** DONE Check that all required fields exist in each post
-    Required fields: tlh, pos, sv, en, def
-    CLOSED: [2011-09-01 Thu]
-*** DONE Add 'file' to required fields
-    CLOSED: [2011-09-15 Thu 15:48]
 *** TODO Text fields should not be allowed to end in [,:; ]
 *** TODO Check that if theres a [...] in 'sv' there is also one in 'en'
-*** DONE Check that <...> and «...» marks occur in 'sv' and 'en' fields
-    CLOSED: [2011-09-15 Thu 15:49]
 *** TODO Check sort order (each section separately)
 *** TODO Check that irregular plurals links between singular <-> plural form
-*** DONE Check that all files mentioned in field 'file' exist
-    CLOSED: [2011-09-15 Thu 15:49]
 *** TODO Homonymous Klingon words must have enumeration in 'tlh' field
     I.e. the 'tlh' field should contain number within parenthesis ("(1)" for
     the oldest meaning of a word, "(2)" for the second oldest etc., if both
@@ -1513,6 +1630,27 @@ Priorities:
 *** TODO Improve checks of Klingon spelling
     Dissallow combinations ("uw" and maybe others?) that are explicitly
     forbidden in TKD.
+*** DONE Allow article name in parethesis after HolQeD reference
+    CLOSED: [2012-01-28 Sat 02:16]
+    HQXX:XX p.XX ("XXXXXXXXXXXX")
+*** DONE Check for duplicated field names within entries
+    CLOSED: [2012-01-28 Sat 01:15]
+*** DONE Check if indentation is space instead of tab
+    CLOSED: [2012-01-28 Sat 00:59]
+*** DONE Check that [.#] is always used when pos is same
+    CLOSED: [2012-01-27 Fri 00:34]
+    (and [#] when pos differs)
+*** DONE Check ref/def format
+    CLOSED: [2011-08-31 Wed]
+*** DONE Check that all required fields exist in each post
+    Required fields: tlh, pos, sv, en, def
+    CLOSED: [2011-09-01 Thu]
+*** DONE Add 'file' to required fields
+    CLOSED: [2011-09-15 Thu 15:48]
+*** DONE Check that <...> and «...» marks occur in 'sv' and 'en' fields
+    CLOSED: [2011-09-15 Thu 15:49]
+*** DONE Check that all files mentioned in field 'file' exist
+    CLOSED: [2011-09-15 Thu 15:49]
 *** DONE Check Klingon spelling
     CLOSED: [2011-09-15 Thu 15:50]
 ** TODO [#4] HTML quality tester
