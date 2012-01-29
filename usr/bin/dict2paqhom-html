@@ -146,15 +146,31 @@ sub header {
         background-color: yellow;
     }
 
+    /* floater element reporting page height */
+    #stat {
+        background: transparent;
+        text-shadow: 0px 0px 3px black;
+        left: 15em;
+        color: white;
+        position: fixed;
+        top: .25em;
+    }
     --></style>
   </head>
 </head>
   <body>
+    <div id="stat"></div>
 EOF
 }
 
 sub footer {
     return <<EOF;
+<script><!--
+/* set content of floater-thingy to height of page content in pixel
+ * (if content is smaller than one screen, probably will report screen height
+ */
+document.getElementById('stat').innerHTML = 'Body height: ' + document.documentElement.scrollHeight + ' px';
+--></script>
   </body>
 </html>
 EOF
@@ -288,6 +304,7 @@ while (defined(my $entry = $zdb->entry)) {
     print ' <small>' . en($entry->{use}) . '</small>' if exists($entry->{use});
     print " $english$klcp";
     print " <small>$desc</small>" if $desc;
+    #$def =~ s/\b\d\d(\d\d-\d\d-\d\d\b)/$1/g; # YYYY-MM-DD -> YY-MM-DD
     print " <small>[$def]</small>" if $def ne "TKD";
 
     $previous_pos       = $pos;
