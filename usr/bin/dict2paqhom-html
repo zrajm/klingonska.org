@@ -1,0 +1,303 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use 5.10.0;
+use utf8;
+use open ':locale';
+use lib do {
+    use Cwd 'realpath';
+    realpath($0) =~ m#^(.*)/#;
+};
+
+use Data::Dumper;
+$Data::Dumper::Sortkeys = 1;
+$Data::Dumper::Indent   = 1;
+
+use Klingon qw/split_letter/;
+
+{
+    package zdb;
+    sub is_class   {     shift  eq __PACKAGE__ }
+    sub is_self    { ref(shift) eq __PACKAGE__ }
+    sub is_hashref { ref(shift) eq 'HASH' }
+
+    sub new {
+        my ($class, $opt) = @_;
+        is_class($class) or die __PACKAGE__ . "::new(): Not called as an object constructor\n";
+        is_hashref($opt) or die __PACKAGE__ . "::new(): Argument must be hashref\n";
+        my $self = bless({
+            dictionary => [],
+            count      => 0,
+        }, $class);
+        $self->set($opt);
+        return $self;
+    }
+
+    sub set {
+        my ($self, $opt) = @_;
+        is_self($self)   or die __PACKAGE__ . "->set(): Not called as an object method\n";
+        is_hashref($opt) or die __PACKAGE__ . "::set(): Argument must be hashref\n";
+        while (my ($name, $value) = each(%$opt)) {
+            $self->{$name} = $value;
+        }
+    }
+
+    sub load {
+        my ($self, $opt) = @_;
+        my $text = read_file($self->{file});
+        foreach ($text) {
+            s/^.*\n=== start-of-word-list ===\n+//s;
+            s/\n+=== end-of-word-list ===\n.*$//s;
+        }
+
+        foreach my $entry (split(/\n{2,}/, $text)) {  # foreach entry
+            my %entry = ();
+            foreach my $field (split(/\n(?=[a-z]+:)/, $entry)) {
+                my ($name, $value) = split(/:\s+/, $field, 2);
+                chomp $value;
+                $value =~ s/^\s+//mg;
+                $entry{$name} = $value;
+            }
+            $entry{en}  =~ s/\s*\[(.*?)\]$// and $entry{use} = $1;
+            $entry{tlh} =~ s/\{(.*)\}( \(\d+\))?/$1/;
+            s/[<>«»]//g foreach @entry{qw/en sv tlh/};
+            push @{ $self->{dictionary} }, \%entry;
+        }
+        return $self;
+    }
+
+    sub entry {
+        my ($self, $number) = @_;
+        $number = $self->{count} unless defined($number);
+        $self->{count} ++;
+
+        return $self->{dictionary}[$number];
+    }
+
+    sub read_file {
+        my ($file) = @_;
+        open my $in, "$file" or die "Cannot open file '$file' for reading: $!\n";
+        return join("", <$in>);
+    }
+
+}
+
+
+my $zdb = new zdb({ file  => 'dict.zdb' })->load;
+my %pos = (
+    adverbial   => "adv",
+    conjuction  => "conj",
+    exclamation => "excl",
+    name        => "name",
+    noun        => "n",
+    numeral     => "num",
+    pronoun     => "pro",
+    "question word" => "ques",
+    verb        => "v",
+);
+
+
+sub header {
+    return <<EOF;
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style><!--
+    klcp {
+        padding-left: .1em;
+        font-family: Verdana, sans;
+    }
+    .lemma {
+        font-family: Verdana, sans;
+    }
+    klcp, sup, sub {
+        height: 0;
+        line-height: 1;
+        vertical-align: baseline;
+        _vertical-align: bottom;
+        position: relative;
+    }
+    klcp, sup { bottom: .5ex; }
+    sub { top: .25ex; }
+
+    sans {
+        font-family: Verdana, sans;
+        font-weight: bold;
+    }
+    .sans {
+        font-family: Verdana, sans;
+    }
+    p {
+        margin: 0em;
+        text-indent: -.75em;
+        padding-left: .75em;
+    }
+    p.blank {
+        margin-top: 1em;
+    }
+    html { background-color: #bbb; }
+    body {
+        padding: .25em 1em;
+        max-width: 15em;
+        background-color: white;
+        font-family: Georgia, serif;
+    }
+    .red {
+        background-color: yellow;
+    }
+
+    --></style>
+  </head>
+</head>
+  <body>
+EOF
+}
+
+sub footer {
+    return <<EOF;
+  </body>
+</html>
+EOF
+}
+
+sub tlh {
+    my ($text) = @_;
+    foreach ($text) {
+        s/'/&rsquo;/g;
+        s#(-[\w']+)#<nobr>$1</nobr>#g;                   # dont break -SUF
+    }
+    return $text;
+}
+
+sub en {
+    my ($text) = @_;
+    foreach ($text) {
+        s#/#/<wbr>#g;
+        s#\b([KE])-([KE])\b#$1--$2#;                     # en-dash for "E-K" / "K-E"
+        s#(\d+--\d+)#<nobr>$1</nobr>#g;                  # dont break XX--YY
+        s#\b(\d{4}-\d{2}-\d{2})\b#<nobr>$1</nobr>#g;     # dont break YYYY-MM-DD
+        s#--#&ndash;#g;
+        s{\{(.*?)\}}{                                    # klingon
+            '<b lang="tlh">' . tlh($1) . "</b>";
+        }ges;
+        s#~(.*?)~#<i>$1</i>#gs;
+        s#(?:^|(?<=\s))'#&lsquo;#g;  # single quotes
+        s#'#&rsquo;#g;
+        s#(?:^|(?<=\s))"#&ldquo;#g;  # double quotes
+        s#"#&rdquo;#g;
+    }
+    return $text;
+}
+
+sub attr {
+    my %hash = @_;
+    return join " ", map {
+        my $value = $hash{$_};
+        if (not defined $value) {         # undef
+            ();
+        } elsif (my $type = ref($value)) {# reference
+            if ($type eq "ARRAY") {
+                @$value ? " $_=\"" . join(" ", sort @$value) . "\"" : ();
+            } else {
+                die "attr(): Unknown reference type (only arrayrefs are allowed)\n";
+            }
+        } else {                          # scalar
+            $value eq ""
+                ? " $_"               #   '' = no value
+                : " $_=\"$value\"";   #
+        }
+    } sort keys %hash;
+}
+
+print header();
+my $previous_pos    = "";
+my $previous_word   = "";
+my $previous_letter = "";
+my $previous_subdef = "";
+my $previous_subsubdef = "";
+Klingon::add_alpha(" ");
+my $i = 0;
+use Roman;   # deb package: libroman-perl
+while (defined(my $entry = $zdb->entry)) {
+    #die if $i++ == 10;
+    next if $entry->{tlh} =~ /^\*/;
+
+    my @pclass = ();
+    my $hypdef    = 0;
+    my $subdef    = 0;
+    my $subsubdef = 0;
+    my $word   = $entry->{tlh};
+    $word =~ s/\s*\[(\d*)(?:\.(\d+))?\]$//
+        and ($subdef, $subsubdef) = ($1 || 0, $2 // 0);
+    $word =~ s/^\[(\d*)\]\s*//
+        and $hypdef = $1;
+    my $pos     = $pos{$entry->{pos}};
+    my $desc    = en($entry->{desc} // "");         # FIXME en() ?
+    for ($desc) {
+        s/\[[A-Z].*?\]//g;
+        s/\b(\d+)\spounds?\b/$1 lb/g;
+        s/\b(\d+)\skilograms?\b/$1 kg/g;
+        s/\b(\d+)\skilometers?\b/$1 km/g;
+        s/\b(\d+)\scentimeters?\b/$1 cm/g;
+        s/\b(\d+)\sinches?\b/$1&#8243;/g;
+        s/\b(\d+)\sliters?\b/$1 L/g;
+        s/\b(\d+)\squarts?\b/$1 qt/g;
+        s/\b(\d+)\s(?:feet|foot)\b(\s+(?=\d))?/"$1&#8242;". (defined($2) && " ")/ge;
+        s/(?<=\d)\.25\b/¼/g;
+    }
+    my $english = en($entry->{en});
+    if ($english =~ /^be\b/) {
+        $english =~ s/,\s+be/, /g;
+    }
+
+    my $letter = split_letter($word);
+    my $klcp = '';
+    $klcp = '<klcp>&bull;</klcp>'
+        if exists($entry->{data}) and $entry->{data} =~ /KLCP-1/;
+
+    my $def = do {
+        my $_ = en($entry->{def});
+        s/\s*\([^()]*(?:\([^()]*\))?[^()]*\)//s;
+        $_;
+    };
+
+    push(@pclass, "blank") if $letter ne $previous_letter;
+    push(@pclass, "red")   if $word eq $previous_word and !$hypdef;
+
+    if ($subsubdef <= 1) {
+        if ($subdef <= 1) { #$word ne $previous_word) {
+            print "</p>\n" if $previous_word;
+            print "<p" . attr(class => \@pclass) . ">";
+            print "<sans>$hypdef</sans> " if $hypdef;
+            print '<b class="lemma">' . tlh($word) . '</b>';
+        }
+        print "<nobr>";
+        print     " <sans>" . Roman($subdef) . "</sans>" if $subdef;
+        print     " <i>$pos</i>";
+        print "</nobr>";
+    }
+    if ($subsubdef) {
+        if ($subsubdef > 1) {
+            die "Part of speech for all subsubdefs must be same '$word ($pos)'\n"
+                unless $pos eq $previous_pos;
+            die "Word for all subsubdefs must be same '$word ($pos)'\n"
+                unless $word eq $previous_word;
+        }
+        say "    <sans>$subsubdef</sans>";
+    }
+    print ' <small>' . en($entry->{use}) . '</small>' if exists($entry->{use});
+    print " $english$klcp";
+    print " <small>$desc</small>" if $desc;
+    print " <small>[$def]</small>" if $def ne "TKD";
+
+    $previous_pos       = $pos;
+    $previous_word      = $word;
+    $previous_letter    = $letter;
+    $previous_subdef    = $subdef;
+    $previous_subsubdef = $subsubdef;
+}
+say '  </p>';
+print footer();
+warn "Done.\n";
+
+#[eof]

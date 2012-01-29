@@ -1459,21 +1459,6 @@ Priorities:
      won't include it in their dictionaries.
 
 *** Klingon Pocket Dictionary (paper version)
-**** TODO Join source references between sub-entries in pocket dict(?)
-         {HaH} /v/ 1 soak, drench [KGT] 2 marinade [KGT]
-
-         {lol} I /v/ be in an attitude, in a stance, in a pose [HQ11:2 p.8] II /n/
-         a specific Mok’bara position [HQ11:2 p.8]
-
-     could be better(?) written as
-
-         {HaH} /v/ [KGT] 1 soak, drench 2 marinade
-
-         {lol} [HQ11:2 p.8] I /v/ be in an attitude, in a stance, in a pose II /n/
-         a specific Mok’bara position
-
-     since all subdefinitions have the same source
-**** TODO Write Email/News YYYY-MM-DD dates as YY-MM-DD instead(?)
 **** TODO Add 'desc:' for {Hoch}
 **** TODO Add 'desc:' fields for all question words
 **** TODO Write check tool to list words not present in LaTeX dict
@@ -1610,6 +1595,26 @@ Priorities:
 ** DONE Remove KA bylaws
    CLOSED: [2010-10-07 Thu 07:27]
 * Build/check tools
+** HTML preview tool for pocket dictionary (usr/bin/dict2paqhom-html)
+*** TODO Take input on STDIN instead of file
+*** TODO Join source references between sub-entries in pocket dict(?)
+        {HaH} /v/ 1 soak, drench [KGT] 2 marinade [KGT]
+
+        {lol} I /v/ be in an attitude, in a stance, in a pose [HQ11:2 p.8] II /n/
+        a specific Mok’bara position [HQ11:2 p.8]
+
+    could be better(?) written as
+
+        {HaH} /v/ [KGT] 1 soak, drench 2 marinade
+
+        {lol} [HQ11:2 p.8] I /v/ be in an attitude, in a stance, in a pose II /n/
+        a specific Mok’bara position
+
+    since all subdefinitions have the same source
+*** TODO Write Email/News YYYY-MM-DD dates as YY-MM-DD instead(?)
+*** DONE klingon phrases in {...} in gram: should have ' at beg of word replaced with right-hand quote
+    CLOSED: [2012-01-20 Fri 13:01]
+    (see example under {Soj})
 ** Dictionary check tool (usr/bin/check-dict)
 *** TODO Check sorting of 'tlh:' for homonyms
    (In some places this will differ for other reasons.)
