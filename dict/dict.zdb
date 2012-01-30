@@ -1761,7 +1761,7 @@ tlh:	{chegh}
 pos:	verb
 sv:	«återvända» (till)
 en:	<return> (to)
-desc:	{DujDaq tera' vIchegh} ~I return to Earth in a ship;~ place returned to
+desc:	{DujDaq tera' vIchegh} ~I return to Earth in a ship~; place returned to
 	is obj.
 def:	TKD; Email 1999-07-19 (by Marc Okrand, Will Martin, Roger Cheesbro, to
 	tlhingan-hol, "[chegh] and new word [tatlh] (from Marc)")
@@ -2117,7 +2117,7 @@ pos:	verb
 sv:	vara «grundlig», vara «ordentlig», vara «omsorgsfull», vara «noggrann»
 	[slang]
 en:	be <profound>, be <thorough>, be «careful» [slang]
-desc:	{chong yaS} ~the officer is careful/profound;~ person is subj.
+desc:	{chong yaS} ~the officer is careful/profound~; person is subj.
 def:	KGT
 com:	"Literally 'be vertical,' this word is used to refer to one's
 	intellect, as in {chong tlhIngan SuvwI'} ('The Klingon warrior is
@@ -2297,7 +2297,7 @@ tlh:	{chuH} [.1]
 pos:	verb
 sv:	«kasta» (ett spjut) mot, «slunga» (ett spjut) mot
 en:	<throw> (a spear) at, <hurl> (a spear) at
-desc:	{qachuH} ~I throw (a spear) at you;~ target is obj.
+desc:	{qachuH} ~I throw (a spear) at you~; target is obj.
 def:	KGT
 com:	"the direct object is the target" [TDNW]
 cat:	fighting
@@ -2307,7 +2307,7 @@ tlh:	{chuH} [.2]
 pos:	verb
 sv:	«förklara» noga för, «förtydliga» för, närmare «ange» för [slang]
 en:	<explain> clearly to, <clarify> for, <specify> for [slang]
-desc:	{qachuH} ~I clarify [it] for you;~ one getting explanation is obj.
+desc:	{qachuH} ~I clarify [it] for you~; one getting explanation is obj.
 def:	KGT
 com:	"In the slang sense, the object of the verb is the person who wants
 	clarification, as in {HIchuH!} ('Clarify for me!' 'Spell it out for
@@ -3254,7 +3254,7 @@ tlh:	[2] {Dor}
 pos:	verb
 sv:	«ta «slut»» (om tidsperiod, t.ex. månad, år)
 en:	«come to an «end»» (about period of time, e.g. month, year)
-desc:	{Dor jar} ~the month ends;~ time period is subj.
+desc:	{Dor jar} ~the month ends~; time period is subj.
 def:	HQ12:2 p.8 ("Maltz's Reward Part I")
 ref:	TDNW
 com:	"Generally, one expresses the end of a stretch of time by using a verb
@@ -3352,7 +3352,7 @@ tlh:	[1] {Dub}
 pos:	verb
 sv:	«förbättra»
 en:	<improve>
-desc:	{patlhwIj vIDub} ~I improve my status;~ thing improved is obj.
+desc:	{patlhwIj vIDub} ~I improve my status~; thing improved is obj.
 def:	TKD; S14; S26
 ref:	TDNW
 file:	1992-01-01-tkd.txt; 1995-sbx-s14.txt; 1996-sbx-s26.txt
@@ -3654,7 +3654,7 @@ tlh:	{ghang}
 pos:	verb
 sv:	«avsluta» i förtid (en händelse, t.ex. resa, strid, sång)
 en:	prematurely «end» (an event, e.g. a voyage, battle, song)
-desc:	{may' ghang SuvwI'} ~the warrior ends the battle prematurely;~
+desc:	{may' ghang SuvwI'} ~the warrior ends the battle prematurely~;
 	participants are subj.
 def:	HQ12:2 p.8 ("Maltz's Reward Part I")
 ref:	TDNW
@@ -3680,7 +3680,7 @@ tlh:	{ghap}
 pos:	conjuction
 sv:	«eller», antingen eller (kommer efter förenade substantiv)
 en:	<or>, either/or (follows joined nouns)
-desc:	{Dargh qa'vIn ghap} ~tea or coffee (but not both);~ follows two or more
+desc:	{Dargh qa'vIn ghap} ~tea or coffee (but not both)~; follows two or more
 	nouns [TKD 5.3 (p.55)]
 def:	TKD 5.3 (p.55)
 ref:	TKW p.119
@@ -6158,7 +6158,7 @@ tlh:	{je}
 pos:	conjuction
 sv:	«också», «och» (kommer efter verb/förenade substantiv)
 en:	<also>, <and>, «too»
-desc:	{qamuS je} ~I also hate you;~ {bomwI' mI'wI' je} ~singer and dancer;~
+desc:	{qamuS je} ~I also hate you~; {bomwI' mI'wI' je} ~singer and dancer~;
 	follows verb or two or more nouns [TKD 5.3 (p.55)]
 def:	TKD 5.3 (p.55)
 ref:	TKW pp.34, 155, 187
@@ -6655,7 +6655,7 @@ tlh:	[2] {joq}
 pos:	conjuction
 sv:	«eller», och/eller (kommer efter förenade substantiv)
 en:	<or>, and/or
-desc:	{Ha'DIbaH naH joq} ~meat or vegetables (or both);~ follows two or more
+desc:	{Ha'DIbaH naH joq} ~meat or vegetables (or both)~; follows two or more
 	nouns [TKD 5.3 (p.55)]
 def:	TKD 5.3 (p.55)
 ref:	TKW p.119
@@ -8881,7 +8881,7 @@ tlh:	{moH} [.2]
 pos:	verb
 sv:	«influera», utöva otillbörligt «inflytande» på [slang]
 en:	<influence>, <exert undue influence> on [slang]
-desc:	{DamoH} ~You exert undue influence on him/her;~ (lit. ~You ugly
+desc:	{DamoH} ~you exert undue influence on him/her~; (lit. ~you ugly
 	him/her~)
 def:	KGT
 see:	{SIgh} "influence"
@@ -9818,8 +9818,8 @@ tlh:	[1] {neH}
 pos:	adverbial
 sv:	«bara», «enbart», «endast» (kommer efter verb eller substantiv)
 en:	<only>, <merely>, <just>, «alone»
-desc:	{chomuS neH} ~you merely hate me;~ {Dargh neH vItlhutlh} ~I drink only
-	tea;~ follows a verb or noun [TKD 5.4 (p.56)]
+desc:	{chomuS neH} ~you merely hate me~; {Dargh neH vItlhutlh} ~I drink tea
+	only~; follows a verb or noun [TKD 5.4 (p.56)]
 def:	TKD
 ref:	TKW pp.21, 61, 81, 105, 111, 113, 115, 191
 com:	Follows the verb or noun it modifies. When following a noun it means
@@ -10910,7 +10910,7 @@ tlh:	{nga'chuq}
 pos:	verb
 sv:	«sex» (d.v.s. ha sex; alltid subjekt)
 en:	have «sex», perform sex
-desc:	{nga'chuq bangwI'pu'} ~my loved ones have sex;~ participants are subj.
+desc:	{nga'chuq bangwI'pu'} ~my loved ones have sex~; participants are subj.
 def:	HQ1:3 p.9 ("Additional Vocabulary")
 com:	It is unclear about what part of speech this may be, though it is
 	probably a verb and "always subject" probably refers to the concept
@@ -14588,7 +14588,7 @@ tlh:	{QIj}
 pos:	verb
 sv:	«förklara»
 en:	<explain>
-desc:	{SoHvaD nab vIQIj} ~I explain the plan for you;~ thing being explained
+desc:	{SoHvaD nab vIQIj} ~I explain the plan for you~; thing being explained
 	is obj.
 def:	TKD
 ref:	KGT p.149
@@ -16986,7 +16986,7 @@ sv:	vara «modig», vara «heroisk», vara «djärv», vara «dristig», vara
 	«tapper», vara «oförskräckt» [slang]
 en:	be <brave>, be <heroic>, be <bold>, be <valiant>, be <intrepid>
 	[slang]
-desc:	{Sub yaS} ~the officer is brave;~ person is subj.
+desc:	{Sub yaS} ~the officer is brave~; person is subj.
 def:	KGT
 com:	"Literally meaning 'be solid,' as opposed to gaseous or liquid, {Sub},
 	in its slang usage, may be applied to a person. Thus, {SuvwI' Sub} is
@@ -19374,7 +19374,7 @@ tlh:	{van} [1.2]
 pos:	verb
 sv:	«avsluta» (en händelse, t.ex. resa, strid, sång)
 en:	«end» (an event, e.g. a voyage, battle, song)
-desc:	{may' van SuvwI'} ~the warrior ends the battle;~ participants are subj.
+desc:	{may' van SuvwI'} ~the warrior ends the battle~; participants are subj.
 def:	HQ12:2 p.8 ("Maltz's Reward Part I")
 ref:	TDNW
 com:	"When an event over which one has some control ends (one can't cause a
@@ -21195,7 +21195,7 @@ tlh:	{yIv} [.2]
 pos:	verb
 sv:	«förarga», «besvära», «reta», «irritera» [slang]
 en:	<annoy>, <bother>, <irk>, <irritate> [slang]
-desc:	{muyIv yaS} ~the officer irks me;~ person/creature is subj.
+desc:	{muyIv yaS} ~the officer irks me~; person/creature is subj.
 def:	KGT
 com:	"[...] literally means 'chew.' In its slang sense, it is found in such
 	constructions as {choyIv} ('You bother me'---literally, 'You chew me';

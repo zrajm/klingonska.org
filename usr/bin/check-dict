@@ -321,7 +321,19 @@ sub check_sv {
 
 sub check_desc {
     my ($_, $field, $record) = @_;
-    warn "content of '$field' field may not start with capital letter\n" if /^[A-Z]/ and !/^I\b/;
+    warn "content of '$field' field may not start with capital letter\n"
+        if /^[A-Z]/ and !/^I\b/;
+
+    # check all ~...~ phrases
+    my ($word) = $record =~ /^tlh:\t(.*)$/m;
+    while (/~([^~]+)~/g) {
+        my $_ = $1;
+        warn "phrase '$_' may not start with capital letter in '$field' field\n"
+            if /^[A-Z]/ and !/^I\b/;
+        warn "phrase '$_' may not end with space/punctuation in '$field' field\n"
+            if /[-.,:;([{<«  ]$/ and !/(?:subj|obj)\.$/;
+    }
+
     # punctuation not allowed at end of line, except if it's part of an abbreviation
     warn "content of '$field' field may not end with space or punctuation\n"
         if /[-.,:;([{<«  ]$/ and !/(?:subj|obj)\.$/;
