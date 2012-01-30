@@ -206,7 +206,8 @@ sub numerically { $a <=> $b }
 sub check_en {
     my ($_, $field, $record) = @_;
     # may not end in puctuation (question mark is okay)
-    warn "content of '$field' field may not end with space or punctuation\n" if /[-!.,:;([{<«  ]$/;
+    warn "content of '$field' field may not end with space/punctuation\n"
+        if /[-!.,:;([{<«  ]$/;
     if (/\((v|n|name|adv|conj|excl|num|pro|ques|ns[1-5]|vp|vs[1-9r])\)/m) {
         warn "part-of-speech '($1)' must not be given inside '$field' field\n";
         print STDERR "    $field: $_\n";
@@ -294,7 +295,8 @@ sub check_com {
 sub check_sv {
     my ($_, $field, $record) = @_;
     # may not end in puctuation (question mark is okay)
-    warn "content of '$field' field may not end with space or punctuation\n" if /[-!.,:;([{<«  ]$/;
+    warn "content of '$field' field may not end with space/punctuation\n"
+        if /[-!.,:;([{<«  ]$/;
     if (/\((v|s|namn|adv|konj|interj|räkn|pro|fråg|ss[1-5]|vp|vs[1-9]s)\)/m) {
         warn "part-of-speech '($1)' may not be given inside '$field' field\n";
         print STDERR "    $field: $_\n";
@@ -335,7 +337,7 @@ sub check_desc {
     }
 
     # punctuation not allowed at end of line, except if it's part of an abbreviation
-    warn "content of '$field' field may not end with space or punctuation\n"
+    warn "content of '$field' field may not end with space/punctuation\n"
         if /[-.,:;([{<«  ]$/ and !/(?:subj|obj)\.$/;
     warn "word '$1' should be abbreviated in '$field' field"
         if /\b( some(bod(y|ies)|ones?|things?) )\b/x;
@@ -459,9 +461,11 @@ sub check_tlh {
 
 sub check_warn {
     my ($_, $field, $record) = @_;
-    warn "content of '$field' field may not start with capital letter\n" if /^[A-Z]/ and !/^I\b/;
-    warn "content of '$field' field may not end with space or punctuation\n" if /[-.,:;([{<«  ]$/;
-    warn "leading asterisk is required in 'tlh' field when 'warn' field is present\n"
+    warn "content of '$field' field may not start with capital letter\n"
+        if /^[A-Z]/ and !/^I\b/;
+    warn "content of '$field' field may not end with space/punctuation\n"
+        if /[-.,:;([{<«  ]$/;
+    warn "leading asterisk required in 'tlh' field when '$field' field present\n"
         unless $record =~ /^tlh:\t\*/;
 }
 
