@@ -444,18 +444,33 @@ sub read_dict {
     }
 
     # read file up to footer (ignoring section separators)
-    my $line   = -1;
+    my $line   = -2; # -1 = blank line; -2 = separator; otherwise line number
     my %record = ();
     my %field_name = ();
     while (<>) {
-        /^=== end-of-noun-suffix-list ===$/ and last;
-        /^=== / and next;
-        /^$/ and $line = -1, next;
+        if (/^=== end-of-noun-suffix-list ===$/) {
+            last;
+        }
+        if (/^=== /) {
+            warn "'=== TEXT ===' separator not preceeded by blank line or " .
+                "separator in line $.\n"
+                if $line >= 0;
+            $line = -2;
+            next;
+        }
+        if (/^$/) {
+            warn "duplicate blank line in line $.\n" if $line == -1;
+            $line = -1;
+            next;
+        }
 
         if (/^([^:\s]*):/) {                # new field
             warn "duplicate '$1' field in line $., in record at line $line\n"
                 if $field_name{$1} ++;
-            if ($line == -1) {              #   if 1st in record
+            if ($line < 0) {                #   if 1st in record
+                warn "missing blank line before entry in line $., " .
+                    "in record at line $line\n"
+                    unless $line == -1;
                 $line = $.;                 #     remember line
                 %field_name = ();
                 $record{$line} = "";        #     init record value

@@ -1621,11 +1621,14 @@ Priorities:
     CLOSED: [2012-01-20 Fri 13:01]
     (see example under {Soj})
 ** Dictionary check tool (usr/bin/check-dict)
-*** TODO check-dict should complain at doubled blank lines
+*** DONE Check-dict should complain at doubled blank lines
+    CLOSED: [2012-01-30 Mon 18:06]
+    Also checks for missing blank lines before entries and before after
+    separators (that look like this "=== TEXT ==".
 *** TODO Check that sentences in ~...~ in 'desc:' start with lower case letter
     Except for the word "I", which is of course allowed to be a capital
     letter...
-*** TODO Check that Klingon + English words are in the files  in 'file:' field
+*** TODO Check that Klingon/English words occur in files given in 'file:' field
     Would this always work? If not how much smarts would be needed to get it to
     work?
 *** TODO Check sorting of 'tlh:' for homonyms
