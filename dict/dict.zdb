@@ -616,6 +616,14 @@ en:	<howl>, <wail>
 def:	KGT
 file:	1997-11-01-kgt.txt
 
+tlh:	{beylI'}
+pos:	noun
+sv:	«bank»
+en:	«bank»
+def:	Eurotalk
+com:	{nuqDaq 'oH beylI''e'} "Where is the bank?" [Eurotalk]
+meta:	FIXME -- file
+
 tlh:	{bey'}
 pos:	noun
 sv:	«ceremoniell utställning», «ceremoniell uppvisning»
@@ -823,6 +831,17 @@ en:	<ocean>
 def:	TKD
 cat:	landscape
 file:	1992-01-01-tkd.txt
+
+tlh:	{bIQ'a' HeH}
+pos:	noun
+sv:	«strand»
+en:	«beach»
+def:	Eurotalk
+ref:	Email 2011-10-30 (by Felix Malmenbeck, to tlhingan-hol, "[Tlhingan-hol]
+	EuroTalk - New info - Phrases")
+com:	{nuqDaq 'oH bIQ'a' HeH'e'} "Where is the beach?" (lit. "Where is the
+	ocean's edge?") [Eurotalk]
+file:	2011-10-30-email.txt
 
 tlh:	{bIr}
 pos:	verb
@@ -1374,6 +1393,17 @@ en:	<emergency>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
+tlh:	{chach Duj}
+pos:	noun
+sv:	«ambulans»
+en:	«ambulance»
+def:	Eurotalk
+ref:	Email 2011-10-30 (by Felix Malmenbeck, to tlhingan-hol, "[Tlhingan-hol]
+	EuroTalk - New info - Phrases")
+com:	{chach Duj yIrI'} "Get an ambulance!" (lit. "Hail an ambulance
+	(emergency vessel)!") [Eurotalk]
+file:	2011-10-30-email.txt
+
 tlh:	{chaDvay'}
 pos:	noun
 sv:	«radio«frekvens»», hertz (frekvensenhet)
@@ -1555,11 +1585,14 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{chaw'} [2]
 pos:	noun
-sv:	«tillåtelse», «tillstånd», «licens»
-en:	<permit>
+sv:	«tillåtelse», «tillstånd», «licens», «biljett»
+en:	<permit>, «ticket»
 def:	TKD E-K
-com:	Used in PK; {cha'puj vIngevmeH chaw' HInobneS}.
-file:	1992-01-01-tkd.txt
+ref:	Eurotalk; Email 2011-10-30 (by Felix Malmenbeck, to tlhingan-hol,
+	"[Tlhingan-hol] EuroTalk - New info - Phrases")
+com:	{cha'puj vIngevmeH chaw' HInobneS} [PK]; {nuqDaq chaw' vIje'} "Where
+	can I buy a ticket?" [Eurotalk]
+file:	1992-01-01-tkd.txt; 2011-10-30-email.txt
 
 tlh:	{chay}
 pos:	noun
@@ -4193,8 +4226,12 @@ pos:	noun
 sv:	«telefon»
 en:	«telephone»
 def:	HQ5:2 p.20 ("{chuvmey}")
+ref:	Eurotalk; Email 2011-10-30 (by Felix Malmenbeck, to tlhingan-hol,
+	"[Tlhingan-hol] EuroTalk - New info - Phrases")
+com:	{ghogh HablI'lIj vIlo' vIneH} "May I use your phone?" [Eurotalk];
+	{ghogh HablI' mI' yIper} "What is the telephone number?" [Eurotalk]
 data:	phrase; derived form
-file:	1996-06-holqed-05-2.txt
+file:	1996-06-holqed-05-2.txt; 2011-10-30-email.txt
 meta:	FIXME -- File contains wrong article.
 
 tlh:	{ghoH}
@@ -4953,6 +4990,18 @@ sv:	«medicin»
 en:	<medicine>
 def:	TKD
 file:	1992-01-01-tkd.txt
+
+tlh:	{Hergh ngevwI'}
+pos:	noun
+sv:	«apotekare»
+en:	«chemist», «apothecary»
+def:	Eurotalk
+ref:	Email 2011-10-30 (by Felix Malmenbeck, to tlhingan-hol, "[Tlhingan-hol]
+	EuroTalk - New info - Phrases")
+com:	{nuqDaq ghaH Hergh ngevwI''e'} "Where is the chemist?" (lit. "Where is
+	the medicine seller?") [Eurotalk]
+data:	phrase; derived form
+file:	2011-10-30-email.txt
 
 tlh:	{Hergh QaywI'}
 pos:	noun
@@ -7092,6 +7141,17 @@ en:	<trip>, <voyage>
 def:	TKD
 file:	1992-01-01-tkd.txt
 
+tlh:	{leng chaw'}
+pos:	noun
+sv:	«passport»
+en:	«passport»
+def:	Eurotalk
+ref:	Email 2011-10-30 (by Felix Malmenbeck, to tlhingan-hol, "[Tlhingan-hol]
+	EuroTalk - New info - Phrases")
+com:	{leng chaw'wIj nIHlu'ta'} "Someone stole my passport" (lit. "Someone
+	has stolen my travel permit.")
+file:	2011-10-30-email.txt
+
 tlh:	{lengwI'}
 pos:	noun
 sv:	«strövare» (grammatisk term)
@@ -7902,6 +7962,16 @@ sv:	«buss»
 en:	<jitney>, <bus>
 def:	KGT
 file:	1997-11-01-kgt.txt
+
+tlh:	{lupwI' mIr}
+pos:	noun
+sv:	«tåg»
+en:	«train»
+def:	Eurotalk
+ref:	Email 2011-10-30 (by Felix Malmenbeck, to tlhingan-hol, "[Tlhingan-hol]
+	EuroTalk - New info - Phrases")
+com:	{nuqDaq lupwI' mIr vItIj} "Where is the train station?" [Eurotalk]
+file:	2011-10-30-email.txt
 
 tlh:	{luq}
 pos:	exclamation
@@ -8760,6 +8830,7 @@ pos:	noun
 sv:	«nummer», «siffra»
 en:	<number>
 def:	TKD
+com:	{ghogh HablI' mI'} "telephone number" [Eurotalk]
 file:	1992-01-01-tkd.txt
 
 tlh:	{mob}
@@ -10963,6 +11034,18 @@ cat:	money
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
+tlh:	{ngevwI'}
+pos:	noun
+sv:	«säljare»
+en:	«seller»
+def:	Eurotalk
+ref:	Email 2011-10-30 (by Felix Malmenbeck, to tlhingan-hol, "[Tlhingan-hol]
+	EuroTalk - New info - Phrases")
+com:	{nuqDaq ghaH ngevwI''e'} "Where is the shop?" (lit. "Where is the
+	seller?") [Eurotalk]
+data:	derived form
+file:	2011-10-30-email.txt
+
 tlh:	{nge'}
 pos:	verb
 sv:	«ta bort»
@@ -12311,6 +12394,19 @@ en:	<land>
 def:	TKD
 cat:	landscape
 file:	1992-01-01-tkd.txt
+
+tlh:	{puH Duj}
+pos:	noun
+sv:	«bil»
+en:	«car»
+def:	Eurotalk
+ref:	Email 2011-10-30 (by Felix Malmenbeck, to tlhingan-hol, "[Tlhingan-hol]
+	EuroTalk - New info - Phrases")
+com:	{nuqDaq puH Duj vIngIp} "Where can I hire a car?" (lit. "Where do I
+	borrow a land vessel?") [Eurotalk]; {nuqDaq puH Duj vIvergh} "Where can
+	I park the car?" (lit. "Where do I dock the land vessel?") [Eurotalk]
+data:	phrase
+file:	2011-10-30-email.txt
 
 tlh:	{puj}
 pos:	verb
@@ -14090,6 +14186,17 @@ def:	KGT
 data:	phrase
 file:	1997-11-01-kgt.txt
 
+tlh:	{Qal}
+pos:	noun
+sv:	«simma»
+en:	«swim»
+def:	Eurotalk
+ref:	Email 2011-10-30 (by Felix Malmenbeck, to tlhingan-hol, "[Tlhingan-hol]
+	EuroTalk - New info - Phrases")
+com:	{naDev jIQal vIneH - Qobbe''a' bIQ} "Is it safe to swim here?" (lit. "I
+	want to swim here - is the water not dangerous?") [Eurotalk]
+file:	2011-10-30-email.txt
+
 tlh:	{Qam}
 pos:	verb
 sv:	«stå» (upp)
@@ -15340,6 +15447,17 @@ def:	TKD
 data:	derived form
 file:	1992-01-01-tkd.txt
 
+tlh:	{ra'wI' lupwI'}
+pos:	noun
+sv:	«taxi»
+en:	«taxi»
+def:	Eurotalk
+ref:	Email 2011-10-30 (by Felix Malmenbeck, to tlhingan-hol, "[Tlhingan-hol]
+	EuroTalk - New info - Phrases")
+com:	{nuqDaq ra'wI' lupwI' vItIj} "Where can I get a taxi?" (lit. "Where do
+	I board a commander's bus?") [Eurotalk]
+file:	2011-10-30-email.txt
+
 tlh:	{rech}
 pos:	verb
 sv:	«andas ut»
@@ -16442,7 +16560,7 @@ pos:	verb
 sv:	vara «insiktsfull», vara «smart», vara «klipsk», vara «skarpsinnig»
 	[slang]
 en:	be <insightful>, be <clever>, have a keen mind [slang]
-desc:	{bISIj} ~You are insightful~; (lit. ~you slash~)
+desc:	{bISIj} ~you are insightful~; (lit. ~you slash~)
 def:	KGT
 see:	{val} "be clever, smart"; {'ong} "be cunning, sly"
 file:	1997-11-01-kgt.txt
@@ -18781,8 +18899,12 @@ tlh:	{tlhIch}
 pos:	noun
 sv:	«rök»
 en:	<smoke>
+desc:	{tlhIch vIpurbe'} ~I don't smoke~ (lit. ~I don't inhale smoke~)
+	[Eurotalk; Email 2011-10-30 (by Felix Malmenbeck, to tlhingan-hol,
+	"[Tlhingan-hol] EuroTalk - New info - Phrases")]
 def:	TKD
-file:	1992-01-01-tkd.txt
+ref:	Eurotalk
+file:	1992-01-01-tkd.txt; 2011-10-30-email.txt
 
 tlh:	{tlhIH}
 pos:	pronoun
@@ -19585,11 +19707,17 @@ file:	1996-04-kcd.txt
 
 tlh:	{vergh} [1]
 pos:	verb
-sv:	«docka»
-en:	<dock>
-def:	TKD
+sv:	«docka», «parkera»
+en:	<dock>, «park»
+desc:	{nuqDaq puH Duj vIvergh} ~where can I park the car?~ [Eurotalk]; vessel
+	is obj.
+def:	TKD; Eurotalk
+com:	The object of vergh ("dock") is the ship that's docked. {nuqDaq puH Duj
+	vIvergh} "Where can I park the car?" [Email 2011-10-30 (by Felix
+	Malmenbeck, to tlhingan-hol, "[Tlhingan-hol] EuroTalk - New info -
+	Phrases")]
 data:	KLCP-1
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 2011-10-30-email.txt
 
 tlh:	{vergh} [2]
 pos:	noun
