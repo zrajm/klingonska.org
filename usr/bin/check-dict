@@ -38,11 +38,14 @@ my %cfg = (
         pos  => \&check_pos,
         en   => \&check_en,
         sv   => \&check_sv,
+        desc => \&check_desc,
         def  => \&check_source,
         ref  => \&check_source,
+        com  => \&check_com,
         see  => \&check_see,
         data => \&check_data,
         file => \&check_file,
+        meta => \&check_meta,
     },
 );
 
@@ -202,29 +205,26 @@ sub numerically { $a <=> $b }
 
 sub check_en {
     my ($_, $field, $record) = @_;
+    # may not end in puctuation (question mark is okay)
+    warn "content of '$field' field may not end with space or punctuation\n" if /[-!.,:;([{<«  ]$/;
     if (/\((v|n|name|adv|conj|excl|num|pro|ques|ns[1-5]|vp|vs[1-9r])\)/m) {
         warn "part-of-speech '($1)' must not be given inside '$field' field\n";
         print STDERR "    $field: $_\n";
     }
-    {
-        # «...» or <...> are required except for affixes
-        if (!/[«<]/ and $record !~ /^pos:.*\b(suf|pre)fix\b/m) {
-            warn "missing «...» or <...> brackets in '$field' $field\n";
-            print STDERR "    $field: $_\n";
-        }
+    # «...» or <...> are required except for affixes
+    if (!/[«<]/ and $record !~ /^pos:.*\b(suf|pre)fix\b/m) {
+        warn "missing «...» or <...> brackets in '$field' $field\n";
+        print STDERR "    $field: $_\n";
     }
-    {
-        # check for matching <...>
-        my $bra = () = m/</g;
-        my $ket = () = m/>/g;
+    { # check for matching <...>
+        my $bra = () = m/</g;  # count "<"
+        my $ket = () = m/>/g;  # count ">"
         warn "mismatched <...> brackets ($bra open, $ket close) in '$field' field\n"
             if $bra != $ket;
-
     }
-    {
-        # check for matching «...»
-        my $bra = () = m/«/g;
-        my $ket = () = m/»/g;
+    { # check for matching «...»
+        my $bra = () = m/«/g;  # count "«"
+        my $ket = () = m/»/g;  # count "»"
         warn "mismatched «...» brackets ($bra open, $ket close) in '$field' field\n"
             if $bra != $ket;
     }
@@ -258,6 +258,12 @@ sub check_file {
     }
 }
 
+sub check_meta {
+    my ($_, $field, $record) = @_;
+    warn "content of '$field' field must start with capital letter\n" unless /^( ["A-Z] | \*?\{ )/x;
+    warn "content of '$field' field may not end with space or mid-sentence punctuation\n" if /[-,:;([{<«  ]$/;
+}
+
 sub check_pos {
     my ($_, $field) = @_;
     my $re = qr{
@@ -280,33 +286,47 @@ sub check_source {
     }
 }
 
+sub check_com {
+    my ($_, $field, $record) = @_;
+    warn "content of '$field' field may not end with space or mid-sentence punctuation\n" if /[-,:;([{<«  ]$/;
+}
+
 sub check_sv {
     my ($_, $field, $record) = @_;
+    # may not end in puctuation (question mark is okay)
+    warn "content of '$field' field may not end with space or punctuation\n" if /[-!.,:;([{<«  ]$/;
     if (/\((v|s|namn|adv|konj|interj|räkn|pro|fråg|ss[1-5]|vp|vs[1-9]s)\)/m) {
-        warn "part-of-speech '($1)' must not be given inside '$field' field\n";
+        warn "part-of-speech '($1)' may not be given inside '$field' field\n";
         print STDERR "    $field: $_\n";
     }
-    {
-        # «...» are required except for affixes
-        if (!/«/ and $record !~ /^pos:.*\b(suf|pre)fix\b/m) {
-            warn "missing «...» brackets in '$field' $field\n";
-            print STDERR "    $field: $_\n";
-        }
+    # «...» are required except for affixes
+    if (!/«/ and $record !~ /^pos:.*\b(suf|pre)fix\b/m) {
+        warn "missing «...» brackets in '$field' $field\n";
+        print STDERR "    $field: $_\n";
     }
-    {
-        # <...> are not allowed
-        if (/</) {
-            warn "<...> brackets are not allowed in '$field' $field\n";
-            print STDERR "    $field: $_\n";
-        }
+
+    # <...> are not allowed
+    if (/</) {
+        warn "<...> brackets are not allowed in '$field' $field\n";
+        print STDERR "    $field: $_\n";
     }
-    {
-        # check for matching «...»
-        my $bra = () = m/«/g;
-        my $ket = () = m/»/g;
+
+    { # check for matching «...»
+        my $bra = () = m/«/g;  # count "«"
+        my $ket = () = m/»/g;  # count "»"
         warn "mismatched «...» brackets ($bra open, $ket close) in '$field' field\n"
             if $bra != $ket;
     }
+}
+
+sub check_desc {
+    my ($_, $field, $record) = @_;
+    warn "content of '$field' field may not start with capital letter\n" if /^[A-Z]/ and !/^I\b/;
+    # punctuation not allowed at end of line, except if it's part of an abbreviation
+    warn "content of '$field' field may not end with space or punctuation\n"
+        if /[-.,:;([{<«  ]$/ and !/(?:subj|obj)\.$/;
+    warn "word '$1' should be abbreviated in '$field' field"
+        if /\b( some(bod(y|ies)|ones?|things?) )\b/x;
 }
 
 sub check_tlh {
@@ -427,8 +447,10 @@ sub check_tlh {
 
 sub check_warn {
     my ($_, $field, $record) = @_;
-    warn "leading asterisk is required in 'tlh' field when '$field' field is present\n"
-        if not $record =~ /^tlh:\t\*/;
+    warn "content of '$field' field may not start with capital letter\n" if /^[A-Z]/ and !/^I\b/;
+    warn "content of '$field' field may not end with space or punctuation\n" if /[-.,:;([{<«  ]$/;
+    warn "leading asterisk is required in 'tlh' field when 'warn' field is present\n"
+        unless $record =~ /^tlh:\t\*/;
 }
 
 # Usage: %RECORD = read_dict();
@@ -567,7 +589,6 @@ sub fields_ok {
             $num = $field_number{$field};
         }
 
-
         if ($field_subs_re) {
             while (/^($field_subs_re): \t (.*) /gmx) {
                 $field_subs->{$1}($2, $1, $_);
@@ -575,7 +596,6 @@ sub fields_ok {
         }
 
     }
-
     return $result;
 }
 

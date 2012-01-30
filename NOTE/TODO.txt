@@ -914,6 +914,9 @@ Priorities:
 *** dict.zdb
 **** TODO Make sure all Eurotalk words has proper 'data' fields
 **** Design improvements (to think about)
+***** TODO Should "some(one|body|thing)" really be abbreviated in 'desc:'?
+      Or does this abbreviation look too silly/unintelligible?
+      desc: referring to s.o.'s intellect
 ***** TODO Use filenames as source references(?)
       Or maybe one should go the other way? Have a check-dict that knows all
       sources, and their filenames and complain unless it exists... (?) --
@@ -1638,19 +1641,16 @@ Priorities:
 *** TODO Check line lengths
 *** TODO 'tlh:' fields with multiple words should have corresponding data-field
     E.g. "data:phrase" and "data: derived form"
-*** TODO Text fields should not be allowed to end in [,:; ]
-*** TODO Check that if theres a [...] in 'sv' there is also one in 'en'
+*** DONE Text fields should not be allowed to end in [,:; ]
+    CLOSED: [2012-01-30 Mon 19:03]
+*** TODO Check that if there is a [...] in 'sv' there is also one in 'en'
 *** TODO Check sort order (each section separately)
 *** TODO Check that irregular plurals links between singular <-> plural form
-*** TODO Homonymous Klingon words must have enumeration in 'tlh' field
-    I.e. the 'tlh' field should contain number within parenthesis ("(1)" for
-    the oldest meaning of a word, "(2)" for the second oldest etc., if both
-    homonyms have same source number is assigned in alphabetically.)
 *** TODO Email/News should require "by", "to" and a subject in parentheses.
 *** TODO Improve checks of Klingon spelling
     Dissallow combinations ("uw" and maybe others?) that are explicitly
     forbidden in TKD.
-*** TODO Check 'def:' field, when source given for each translation
+*** TODO When separate sources given for each translation, check 'def:' field
     When each translation is separately sourced, sources should be listed in
     'def:' if one or more English translations exists (for the first time) in a
     source, 'ref:' if a translation is repeated, or if the word is used in an

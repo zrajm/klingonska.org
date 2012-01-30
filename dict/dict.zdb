@@ -16220,7 +16220,7 @@ tlh:	{SaS} [.2]
 pos:	verb
 sv:	vara «ytlig», vara «okritisk» [slang]
 en:	be <shallow>, be <superficial>, be <uncritical> [slang]
-desc:	referring to s.o. intellect
+desc:	referring to s.b.'s intellect
 def:	KGT
 file:	1997-11-01-kgt.txt
 
@@ -20296,7 +20296,7 @@ file:	2009-07-27-email.txt
 
 tlh:	{way'}
 pos:	verb
-sv:	«parera», «avleda» en stöt,
+sv:	«parera», «avleda» en stöt
 en:	<parry>, <deflect> a lunge
 def:	KGT
 file:	1997-11-01-kgt.txt
