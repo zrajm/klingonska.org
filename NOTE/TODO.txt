@@ -1624,39 +1624,40 @@ Priorities:
     CLOSED: [2012-01-20 Fri 13:01]
     (see example under {Soj})
 ** Dictionary check tool (usr/bin/check-dict)
+*** FUTURE Advanced features
+**** TODO When separate sources given for each translation, check 'def:' field
+     When each translation is separately sourced, sources should be listed in
+     'def:' if one or more English translations exists (for the first time) in a
+     source, 'ref:' if a translation is repeated, or if the word is used in an
+     example.
+
+     I think.
+**** TODO Check that Klingon/English words occur in files given in 'file:' field
+     Would this always work? If not how much smarts would be needed to get it to
+     work?
+**** TODO Check sorting of 'tlh:' for homonyms
+    (In some places this will differ for other reasons.)
+     * standard >> slang/regional
+     * by pos: adv >> v >> pro >> ques >> conj >> num >> n >> name
+**** TODO Check that irregular plurals links between singular <-> plural form
+*** TODO Check that sentences in ~...~ in 'desc:' start with lower case letter
+    Except for the word "I", which is of course allowed to be a capital
+    letter...
+*** TODO Check line lengths
+*** TODO 'tlh:' fields with multiple words should have corresponding data-field
+    E.g. "data: phrase" and "data: derived form"
+*** TODO Check that if there is a [...] in 'sv' there is also one in 'en'
+*** TODO Check sort order (each section separately)
+*** TODO Email/News should require "by", "to" and a subject in parentheses.
+*** TODO Improve checks of Klingon graphotactic spelling
+    Dissallow combinations ("uw" and maybe others?) that are explicitly
+    forbidden in TKD.
 *** DONE Check-dict should complain at doubled blank lines
     CLOSED: [2012-01-30 Mon 18:06]
     Also checks for missing blank lines before entries and before after
     separators (that look like this "=== TEXT ==".
-*** TODO Check that sentences in ~...~ in 'desc:' start with lower case letter
-    Except for the word "I", which is of course allowed to be a capital
-    letter...
-*** TODO Check that Klingon/English words occur in files given in 'file:' field
-    Would this always work? If not how much smarts would be needed to get it to
-    work?
-*** TODO Check sorting of 'tlh:' for homonyms
-   (In some places this will differ for other reasons.)
-    * standard >> slang/regional
-    * by pos: adv >> v >> pro >> ques >> conj >> num >> n >> name
-*** TODO Check line lengths
-*** TODO 'tlh:' fields with multiple words should have corresponding data-field
-    E.g. "data:phrase" and "data: derived form"
 *** DONE Text fields should not be allowed to end in [,:; ]
     CLOSED: [2012-01-30 Mon 19:03]
-*** TODO Check that if there is a [...] in 'sv' there is also one in 'en'
-*** TODO Check sort order (each section separately)
-*** TODO Check that irregular plurals links between singular <-> plural form
-*** TODO Email/News should require "by", "to" and a subject in parentheses.
-*** TODO Improve checks of Klingon spelling
-    Dissallow combinations ("uw" and maybe others?) that are explicitly
-    forbidden in TKD.
-*** TODO When separate sources given for each translation, check 'def:' field
-    When each translation is separately sourced, sources should be listed in
-    'def:' if one or more English translations exists (for the first time) in a
-    source, 'ref:' if a translation is repeated, or if the word is used in an
-    example.
-
-    I think.
 *** DONE Allow article name in parethesis after HolQeD reference
     CLOSED: [2012-01-28 Sat 02:16]
     HQXX:XX p.XX ("XXXXXXXXXXXX")
