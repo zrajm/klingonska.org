@@ -482,6 +482,12 @@ sub read_dict {
     my %record = ();
     my %field_name = ();
     while (<>) {
+        {
+            my $_ = $_;
+            s{ \t }{ " " x (8 - (pos() % 8)) }gex;  # replace tabs with spaces
+            warn "line may not exceed width of 79 characters in line $.\n"
+                if length($_) > 80; # 80 = is with trailing newline
+        }
         if (/^=== end-of-noun-suffix-list ===$/) {
             last;
         }

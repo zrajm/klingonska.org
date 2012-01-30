@@ -1640,11 +1640,13 @@ Priorities:
      * standard >> slang/regional
      * by pos: adv >> v >> pro >> ques >> conj >> num >> n >> name
 **** TODO Check that irregular plurals links between singular <-> plural form
+**** TODO Check that lines aren't too short
 *** DONE Check that sentences in ~...~ in 'desc:' start with lower case letter
     CLOSED: [2012-01-30 Mon 22:56]
     Except for the word "I", which is of course allowed to be a capital
     letter...
-*** TODO Check line lengths
+*** DONE Check that lines aren't above 79 characters in length
+    CLOSED: [2012-01-30 Mon 23:28]
 *** TODO 'tlh:' fields with multiple words should have corresponding data-field
     E.g. "data: phrase" and "data: derived form"
 *** TODO Check that if there is a [...] in 'sv' there is also one in 'en'

@@ -693,8 +693,10 @@ warn:	use {loDnI' be'nal} or {be'nI' be'nal} instead
 pos:	noun
 sv:	«svägerska» [exempel på felaktig användning]
 en:	«sister-in-law» [example of incorrect use]
-def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from Maltz")
-ref:	Email 2010-12-22 (by Lieven L. Litaer, to tlhingan-hol, "latlh 'e'nalpu'")
+def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from
+	Maltz")
+ref:	Email 2010-12-22 (by Lieven L. Litaer, to tlhingan-hol, "latlh
+	'e'nalpu'")
 com:	"There was another question about whether {loDnI'nal} and {be'nI'nal}
 	could be 'brother-in-law' and 'sister-in-law.' Maltz said he didn't
 	think there were specific words for these concepts. He said to just
@@ -778,7 +780,8 @@ sv:	«vatten»
 en:	<water>
 def:	TKD
 ref:	TKW pp.34--35; KLINW
-com:	Used metaphorically as the symbol of weakness and distain. [TKW pp.34--35]
+com:	Used metaphorically as the symbol of weakness and distain.
+	[TKW pp.34--35]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -4006,9 +4009,11 @@ tlh:	{ghIn}
 pos:	noun
 sv:	«kloster»
 en:	<monastery>
-def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from Maltz")
+def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from
+	Maltz")
 ref:	Email 2010-12-19 (by Lieven L. Litaer, to tlhingan-hol, "monastery");
-	Email 2011-01-16 (by Lieven L. Litaer, to tlhingan-hol, "monastery: more")
+	Email 2011-01-16 (by Lieven L. Litaer, to tlhingan-hol, "monastery:
+	more")
 com:	"The word for monastery is {ghIn}. [...] A {ghIn'a'} would be a pretty
 	important monastery, for example. {ghIn} would be a single building if
 	that's all the monastery was, it could also refer to a group of
@@ -7498,8 +7503,10 @@ warn:	use {loDnI' loDnal} or {be'nI' loDnal}
 pos:	noun
 sv:	«svåger» [exempel på felaktig användning]
 en:	«brother-in-law» [example of incorrect use]
-def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from Maltz")
-ref:	Email 2010-12-22 (by Lieven L. Litaer, to tlhingan-hol, "latlh 'e'nalpu'")
+def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from
+	Maltz")
+ref:	Email 2010-12-22 (by Lieven L. Litaer, to tlhingan-hol, "latlh
+	'e'nalpu'")
 com:	"There was another question about whether {loDnI'nal} and {be'nI'nal}
 	could be 'brother-in-law' and 'sister-in-law.' Maltz said he didn't
 	think there were specific words for these concepts. He said to just
@@ -9847,8 +9854,8 @@ data:	deprecated
 file:	1997-11-01-kgt.txt
 meta:	*{neHjej} is here assumed to be a misspelling of {naHjej}, since the
 	main text of KGT clearly states that it literally means "sharp fruit"
-	(p.88), even though it is spelled *{neHjej} all (two) times it occurs in
-	the dictionary part of KGT.
+	(p.88), even though it is spelled *{neHjej} all (two) times it occurs
+	in the dictionary part of KGT.
 
 tlh:	{neHmaH}
 pos:	noun
@@ -10418,7 +10425,8 @@ pos:	verb
 sv:	«utelämna», «underlåta»
 en:	<omit>
 def:	TKD
-pun:	"No operation" = an omitted instruction (e.g. in assembly programming language).
+pun:	"No operation" = an omitted instruction (e.g. in assembly programming
+	language).
 file:	1992-01-01-tkd.txt
 
 tlh:	{noregh}
@@ -18060,7 +18068,8 @@ tlh:	{tIr ngogh}
 pos:	noun
 sv:	«bröd»
 en:	«bread»
-def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from Maltz")
+def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from
+	Maltz")
 data:	phrase
 file:	2010-12-25-email.txt
 
@@ -22205,10 +22214,10 @@ sv:	«snor», «slem»
 en:	«mucus»
 def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
-com:	"If one were to {chuy} 'sneeze,' one would likely eject {'IqnaH} 'mucus'
-	(or sometimes {'IqnaH QaD} 'dry mucus'). If one were to {tuS} 'cough,'
-	one might produce {qo'qaD} 'phlegm.'" [HQ12:4 p.8 ("Maltz's Reward Part
-	III")]
+com:	"If one were to {chuy} 'sneeze,' one would likely eject {'IqnaH}
+	'mucus' (or sometimes {'IqnaH QaD} 'dry mucus'). If one were to {tuS}
+	'cough,' one might produce {qo'qaD} 'phlegm.'" [HQ12:4 p.8 ("Maltz's
+	Reward Part III")]
 see:	{chuy}
 file:	2003-12-holqed-12-4.txt
 
