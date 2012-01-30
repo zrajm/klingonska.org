@@ -1,0 +1,65 @@
+[[
+  [2012-01-30, 06:13-06:30] transcribed article
+  [2012-01-30, 06:30-06:39] spell checking and proof reading
+  Style: {}=bold, <>=italics, corrections, paginated
+
+  Type: article
+  Date: June 1996
+  Title: Everyday Klingon
+  Author: Lawrence M. Schoen
+  Source: <{HolQeD} 5:2>, page 20
+  Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
+  Summary: Gives words {nav HablI'} "fax" and {ghogh HablI'} "telephone", and a
+    discussion aspect of whether or not {Hoch} can be used so mean 'all except
+    for what I'm specifying to the contrary' -- Marc Okrand instead suggest
+    {le'be'} "nonspecific" for this.
+
+]][[p.20]]
+
+{chuvmey}
+
+A few months back several KLI members had eagerly provided assistance
+to Mark Mandel of Dragon Systems for the voice recognition work on the
+recent <Star Trek: Klingon> CD-ROM.  Mark sent each of us a "thank you" note,
+written in English, romanized Klingon, and {pIqaD}.  Before mailing it though
+he was able to get Marc Okrand to evaluate some new vocabulary.  Their
+exchange appears below:
+
+<Mark Mandel>
+I'm setting up some Dragon letterhead for thank-you letters to all my
+volunteer speakers. I'm replacing the standard text with Klingon in the
+KLIpIqaDmey uppercase font, the useable one that the KLI uses, and running [[useable:=usable]]
+<TKD> transliteration and English along the bottom.  I'm pretty confident of
+my grammar and vocab., but if this is to smack in any way of officialness I'd
+like to be sure.
+
+    phone {rI'mI'}
+    fax {navHablI'}
+
+Since we have several fax numbers, and the general-purpose one comes out
+at the front desk in the other building, I always give out the number of the
+nearest machine for faxes to me.  So:
+
+    general fax {Hoch navHablI'} [at front desk]
+
+(as opposed to {tlhIngan Hol navHablI'}, near me) leaning on the
+construction A Q {law' Hoch} Q {puS,} which takes {Hoch} not as literal 'all' but
+as a generalization, sort of 'all except for what I'm specifying to the
+contrary.'
+
+<[Which produced the following reply from Marc Okrand:]>
+
+<Marc Okrand>
+I don't think I've actually had to come up with words for "telephone" or
+"fax" before.  Anyway, I like your version of "fax" (though I'd probably make
+it two words: {nav HablI'}).  For "phone," I think I'd do something parallel to
+your "fax": {ghogh HablI'} ("voice transceiver").
+
+As for {Hoch} for "general" -- that works, if you consider {Hoch} to mean
+"everyone" (so the front desk fax is the "everyone fax").  The only problem
+there is that it could be misinterpreted as "all (the) fax machines," since a
+plural suffix on nouns is never required.  Perhaps an alternative is to use
+{le'be'} "unexceptional," which might also be translated "nonspecific" or the
+like ({nav HablI' le'be'}).
+
+[[eof]]

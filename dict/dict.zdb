@@ -4231,8 +4231,7 @@ ref:	Eurotalk; Email 2011-10-30 (by Felix Malmenbeck, to tlhingan-hol,
 com:	{ghogh HablI'lIj vIlo' vIneH} "May I use your phone?" [Eurotalk];
 	{ghogh HablI' mI' yIper} "What is the telephone number?" [Eurotalk]
 data:	phrase; derived form
-file:	1996-06-holqed-05-2.txt; 2011-10-30-email.txt
-meta:	FIXME -- File contains wrong article.
+file:	1996-06-holqed-05-2-c.txt; 2011-10-30-email.txt
 
 tlh:	{ghoH}
 pos:	verb
@@ -5234,7 +5233,7 @@ com:	First in a noun-noun pair in TKW. According to HQ "More on {Hoch}"; "If
 	singular, it means 'each'." Occurs in TKW p.33, 51, 74, 74, 74, 99,
 	136, 179, 184.
 data:	KLCP-1
-file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
+file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt; 1996-06-holqed-05-2-a.txt
 meta:	All sources combined here.
 
 tlh:	{HochDIch}
@@ -9719,10 +9718,9 @@ tlh:	{nav HablI'}
 pos:	noun
 sv:	«fax» (apparat)
 en:	«fax machine»
-def:	HQ5:2 p.20
+def:	HQ5:2 p.20 ("{chuvmey}")
 data:	phrase; derived form
-file:	1996-06-holqed-05-2.txt
-meta:	FIXME -- File contains wrong article.
+file:	1996-06-holqed-05-2-c.txt
 
 tlh:	{nawlogh}
 pos:	noun
@@ -20736,8 +20734,9 @@ pos:	name
 sv:	«Worf»
 en:	«Worf»
 def:	S8; S20
+ref:	HQ5:2 p.14 ("Everyday Klingon")
 com:	S8 was reprinted in HQ4:3 p.4, and S20 in HQ5:2 p.14
-file:	1995-sbx-s08.txt; 1996-sbx-s20.txt
+file:	1995-sbx-s08.txt; 1996-sbx-s20.txt; 1996-06-holqed-05-2-b.txt
 
 tlh:	{wuD}
 pos:	verb

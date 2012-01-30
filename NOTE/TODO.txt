@@ -422,7 +422,7 @@ Priorities:
     to the prettified version (as well as to the original text formatted
     transcript).
 
-*** [50%] Transcripts updating/improvement
+*** [46%] Transcripts updating/improvement
 **** TODO Fix correction comments with "??" in KGT transcript
 **** TODO More canon stuff mentioned here (by Steven Boozer)
      https://mail.google.com/mail/?shva=1#search/in%3Atlhingan-hol+stconst/1217ffac4948e9ab
@@ -529,23 +529,6 @@ Priorities:
 ***** TODO transcribe relevant portions
 ***** DONE Order book from UEB
       CLOSED: [2010-08-26 Thu 19:47]
-**** DOING Add HolQeD 5:2 p.11 (article about {Hoch})
-      Mentioned in:
-      file:///home/zrajm/2010-07-08/teresh.tdonnelly.org/kliadd5.html
-***** TODO Email Mark about "?{Hoch paq[mey]}" vs. "{paq[mey] Hoch}"
-****** TODO Get Mark Shoulson's email address
-****** TODO Email him about it
-       The question mark comes in front of the wrong sentence, does it not?
-***** DONE Transcribe
-       CLOSED: [2010-08-26 Thu 15:39]
-***** DONE Proofread
-       CLOSED: [2010-08-26 Thu 15:39]
-***** DONE Check page references
-       CLOSED: [2010-08-26 Thu 15:47]
-***** DONE Check quotes with their sources
-       CLOSED: [2010-08-26 Thu 15:47]
-***** DONE Check hyphenations
-       CLOSED: [2010-08-26 Thu 15:43]
 **** TODO HolQeD 1:1 pp.3-10 -- "First Stepws Towards a Phonological Theory of Klingon" by Allan C. Wechsler
      Referenced in "{pIqaD}, And How to Read It".
 **** TODO HolQeD 2:2 pp.10-11 -- "Writing Klingon: The Easy Way" by Theron P. Elliot
@@ -566,16 +549,20 @@ Priorities:
 
      Referenced in dict.zdb. Add 'file:' field link for {qarghan}, {tI'ang},
      {wo'rIv}, {'entepray'}
-**** TODO Add transcript of HQ5:2 p.14
-     Article with transcript of S20
-
-     Referenced in dict.zdb.
-**** TODO Add transcript of HQ5:2 p.20
+**** DONE Add transcript of HQ5:2 p.14
+     CLOSED: [2012-01-30 Mon 05:58]
+     Article with transcript of S19, S20, S21. Referenced in dict.zdb by entry
+     {wo'rIv}.
+**** DONE Add transcript of HQ5:2 p.20
+     CLOSED: [2012-01-30 Mon 06:39]
      Article with words {ghogh HablI'} and {nav HablI'} there is already a
      transcript called "1996-06-holqed-05-2.txt" but that is a different article.
 
      Referenced in dict.zdb. Fix 'file:' field for {ghogh HablI'} and {nav
      HablI'}.
+**** DONE Rename old 1996-06-holqed-05-2.txt -> 1996-06-holqed-05-2-a.txt
+     CLOSED: [2012-01-30 Mon 14:28]
+     And make web redirect from old to new file.
 **** TODO Add transcript of HQ5:3 p.15 (1996-09-holqed-05-3-b.txt)
      Article with transcript of Skybox S26
 
@@ -591,6 +578,23 @@ Priorities:
      'file:' for {'entepray'}.
 
      Referenced in dict.zdb.
+**** DOING Add HolQeD 5:2 p.11 (article about {Hoch})
+      Mentioned in:
+      file:///home/zrajm/2010-07-08/teresh.tdonnelly.org/kliadd5.html
+***** TODO Email Mark about "?{Hoch paq[mey]}" vs. "{paq[mey] Hoch}"
+****** TODO Get Mark Shoulson's email address
+****** TODO Email him about it
+       The question mark comes in front of the wrong sentence, does it not?
+***** DONE Transcribe
+       CLOSED: [2010-08-26 Thu 15:39]
+***** DONE Proofread
+       CLOSED: [2010-08-26 Thu 15:39]
+***** DONE Check page references
+       CLOSED: [2010-08-26 Thu 15:47]
+***** DONE Check quotes with their sources
+       CLOSED: [2010-08-26 Thu 15:47]
+***** DONE Check hyphenations
+       CLOSED: [2010-08-26 Thu 15:43]
 **** DONE HolQeD 1:1 p.18-20 -- "Some Comments on Orthography" by Lawrence M. Schoen
      CLOSED: [2011-09-16 Fri 18:14]
      Referenced in "{pIqaD}, And How to Read It".
@@ -908,6 +912,7 @@ Priorities:
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** dict.zdb
+**** TODO Make sure all Eurotalk words has proper 'data' fields
 **** Design improvements (to think about)
 ***** TODO Use filenames as source references(?)
       Or maybe one should go the other way? Have a check-dict that knows all
@@ -1616,6 +1621,7 @@ Priorities:
     CLOSED: [2012-01-20 Fri 13:01]
     (see example under {Soj})
 ** Dictionary check tool (usr/bin/check-dict)
+*** TODO check-dict should complain at doubled blank lines
 *** TODO Check that sentences in ~...~ in 'desc:' start with lower case letter
     Except for the word "I", which is of course allowed to be a capital
     letter...
