@@ -188,15 +188,15 @@ sub tlh {
 sub en {
     my ($text) = @_;
     foreach ($text) {
-        s#/#/<wbr>#g;
+        s#/#/<wbr>#g;                                    # allow word break after slash
         s#\b([KE])-([KE])\b#$1--$2#;                     # en-dash for "E-K" / "K-E"
         s#(\d+--\d+)#<nobr>$1</nobr>#g;                  # dont break XX--YY
-        s#\b(\d{4}-\d{2}-\d{2})\b#<nobr>$1</nobr>#g;     # dont break YYYY-MM-DD
+        s#\b(\d{2,4}-\d{2}-\d{2})\b#<nobr>$1</nobr>#g;   # dont break YYYY-MM-DD
         s#--#&ndash;#g;
         s{\{(.*?)\}}{                                    # klingon
             '<b lang="tlh">' . tlh($1) . "</b>";
         }ges;
-        s#~(.*?)~#<i>$1</i>#gs;
+        s#~(.*?)~([[:punct:]]{0,3})#<i>$1$2</i>#gs;
         s#(?:^|(?<=\s))'#&lsquo;#g;  # single quotes
         s#'#&rsquo;#g;
         s#(?:^|(?<=\s))"#&ldquo;#g;  # double quotes
@@ -248,9 +248,10 @@ while (defined(my $entry = $zdb->entry)) {
     $word =~ s/^\[(\d*)\]\s*//
         and $hypdef = $1;
     my $pos     = $pos{$entry->{pos}};
-    my $desc    = en($entry->{desc} // "");         # FIXME en() ?
+    my $desc    = $entry->{desc} // "";         # FIXME en() ?
     for ($desc) {
-        s/\[[A-Z].*?\]//g;
+        s/\s*\(lit\.[^)]*\)//;                      # (lit. ... )
+        s/\s*\[[A-Z] [^][]* (?:\[ [^][]* \][^][]*)? \]//gx; # [X....]
         s/\b(\d+)\spounds?\b/$1 lb/g;
         s/\b(\d+)\skilograms?\b/$1 kg/g;
         s/\b(\d+)\skilometers?\b/$1 km/g;
@@ -261,6 +262,7 @@ while (defined(my $entry = $zdb->entry)) {
         s/\b(\d+)\s(?:feet|foot)\b(\s+(?=\d))?/"$1&#8242;". (defined($2) && " ")/ge;
         s/(?<=\d)\.25\b/¼/g;
     }
+    $desc = en($desc);
     my $english = en($entry->{en});
     if ($english =~ /^be\b/) {
         $english =~ s/,\s+be/, /g;

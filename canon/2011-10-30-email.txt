@@ -1,0 +1,111 @@
+[[
+  [2011-12-04] added document
+
+  Type: email
+  Date: 30 October 2011
+  Title: [Tlhingan-hol] EuroTalk - New info - Phrases
+  Author: Felix Malmenbeck
+  Summary: Posting of a transcript of the new phrases from the Eurotalk Klingon
+    language course.
+
+]]
+
+From: Felix Malmenbeck <felixm@kth.se>
+To: "tlhIngan-Hol@KLI.org" <tlhIngan-Hol@KLI.org>
+Date: Sun, 30 Oct 2011 12:19:05 +0000
+Subject: [Tlhingan-hol] EuroTalk - New info - Phrases
+
+Yesterday, the country names from EuroTalk's "Talk Now! Learn Klingon" were revealed to this list.
+Now, since it's officially October 30th (or 31st) in every time zone on Earth (I think, I shall post those phrases from the "Phrases" part which I think reveal information that will be relevant to all jatlhwI'pu'.
+I personally figure that it's unnecessary to post ALL of the sentences, but if you feel I've left anything important out, please post it.
+
+==mu' chu'==
+
+Qal - swim (verb)
+naDev jIQal vIneH - Qobbe''a' bIQ - Is it safe to swim here?
+
+==New syntax==
+
+QAO possible to some extent:
+nuq Datlhutlh DaneH - What do you want to drink?
+Further discussion of this topic below.
+
+The object of vergh ("dock") is the ship that's docked.
+nuqDaq puH Duj vIvergh - Where can I park the car?
+[One might have expected nuqDaq vergh puH Duj net chaw', or nuqDaq puH Duj vIverghmoH.]
+
+==New constructions==
+
+ngevwI' = store/seller
+nuqDaq ghaH ngevwI''e' = Where is the shop?
+    Hergh ngevwI''e' = chemist (as in "drug store" or "apothecary") [[ngevwI''e':=ngevwI']]
+
+tlhIch pur = to smoke
+tlhIch vIpurbe' = I don't smoke.
+
+puH Duj = car
+nuqDaq puH Duj vIngIp
+
+ticket = chaw'
+nuqDaq chaw' vIje' = Where can I buy a ticket?
+
+lupwI' mIr = train
+nuqDaq lupwI' mIr vItIj = Where is the train station?
+
+ra'wI' lupwI' = taxi
+nuqDaq ra'wI' lupwI' vItIj
+
+bIQ'a' HeH = beach
+nuqDaq 'oH bIQ'a' HeH'e' = Where is the beach?
+
+ghogh HablI' mI' yIper = What is the telephone number?
+
+chach Duj = ambulance
+chach Duj yIrI' = Get an ambulance!
+
+leng chaw' = passport
+leng chaw'wIj nIHlu'ta' = Someone stole my passport
+
+==More on QAO==
+
+The question of using questions as objects has been a hot topic for a long time.
+First people wondered if one could have a dialogue like:
+
+HoD: jagh Duj wIQaw'pu''a'?
+yaS: 'e' jatlh baHwI'
+DeghwI': ghobe', jup Duj wIQaw'!
+HoD: net neHbe'!
+
+[Dialogue taken from "The Grammarian's Desk" (page 44) by Captain Krankor. - http://amzn.com/0964434539 ]
+
+In an e-mail from 1998 ( http://klingonska.org/canon/search/?file=1998-05-28-email.txt&get=source ), DloraH decribed an exchange with Marc Okrand:<http://klingonska.org/canon/search/?file=1998-05-28-email.txt&get=source>
+
+"The first one I nailed him with was our lovely QAO. Uh-oh. You can not
+use a "question" as an object; but... it is not known yet if Klingon
+question words can act as one of those relative things, uh, relative
+pronoun is it? You guys know what I'm refering to. So basicly we didn't
+really get anywhere with this one yet. The safest thing for now would be
+to recast if possible."
+
+This seemed to rule the above alternative out, and there's since been no indication that one can use words like nuq and 'Iv as relative pronouns, and MO seems to prefer constructions involving -bogh and ngu' (such as <jar DamaSqu'bogh yIngu'>, <nuH DaneHbogh yIngu'> and <Daq DaDabbogh yIngu'>).
+
+However, there's been one other option up for consideration:
+Can you use a question as an object if the resulting two-sentence construction remains a question? For example, can we ask:
+yan 'ISletlh muv 'Iv DaneH Qang. - Chancellor, who do you want for the Yan-Isleth?
+nuq vIjatlh DaneH. - What do you want me to say?
+Qang HoHta' 'Iv 'e' Dalegh. - Who did you see kill the Chancellor?
+
+Well, with this new canonical sentence - nuq Datlhutlh DaneH - it appears that this ancient question has been answered:
+YES WE CAN!
+
+
+==Shameless plug==
+Video I made about nuq: http://www.youtube.com/watch?v=XBo8ucRu84Y
+
+
+_______________________________________________
+Tlhingan-hol mailing list
+Tlhingan-hol@stodi.digitalkingdom.org
+http://stodi.digitalkingdom.org/mailman/listinfo/tlhingan-hol
+
+[[eof]]
