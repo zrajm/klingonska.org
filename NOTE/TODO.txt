@@ -1265,6 +1265,10 @@ Priorities:
 ***** TODO KGT main text words (names etc.)
       e.g. "Kayvak", "digna", "ka'raj", "bregit", "Saurian", "raktaj"
 **** Systematic improvements / new markup
+***** TODO Add specifying parentheses to all News references
+      Should be: News YYYY-MM-DD (by ..., to ..., "...")
+
+      After this is done, adjust check-dict to require this in the future.
 ***** TODO Add category "food"
       "cat: food"
 ***** TODO Rename 'cat:' field to 'tag'
@@ -1653,7 +1657,8 @@ Priorities:
     CLOSED: [2012-01-31 Tue 00:17]
 *** DONE Check sort order for each section separately
     CLOSED: [2012-01-31 Tue 01:31]
-*** TODO Email/News should require "by", "to" and a subject in parentheses.
+*** DONE Email/News should require "by", "to" and a subject in parentheses.
+    CLOSED: [2012-01-31 Tue 02:23]
 *** DONE Improve checks of Klingon graphotactic spelling
     CLOSED: [2012-01-31 Tue 01:46]
     Disallow combinations that are explicitly forbidden: "No words in Klingon
