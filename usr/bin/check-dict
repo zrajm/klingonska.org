@@ -67,21 +67,12 @@ sub sortkey_tlh {
         "'" => 'z',
     );
 
-    # prefix/suffix?
-    my $pre = "a";
-    $pre = "b" if s/-$//; # prefix (ending with "-")
-    $pre = "c" if s/^-//; # suffix (beginning with "-")
-
     # strip non-alphabetical chars
     s/[^a-zA-Z']//g;
 
-    # replace alpha chars with sourt count
+    # replace alpha chars with sort count
     my $re1 = join("|", sort keys %alph);
-    #print $re1, "\n";
     s{($re1)(?=($re1)*$)}{ $alph{$1} }eg;
-
-    # insert prefix/suffix/word
-    $_ = $pre . "-" . $_;
 
     return $_;
 }
@@ -405,10 +396,13 @@ record (with any continuation lines unwrapped).
 =cut
 
 sub read_dict {
+    my ($section) = @_;
     # skip header
     while (<>) {
-        last if /^=== start-of-word-list ===$/;
+        last if /^=== start-of-$section-list ===$/;
     }
+    die "failed to read dictionary, no section '$section' found in input\n"
+        if eof();
 
     # read file up to footer (ignoring section separators)
     my $line   = -2; # -1 = blank line; -2 = separator; otherwise line number
@@ -421,7 +415,7 @@ sub read_dict {
             warn "line may not exceed width of 79 characters in line $.\n"
                 if length($_) > 80; # 80 = is with trailing newline
         }
-        if (/^=== end-of-noun-suffix-list ===$/) {
+        if (/^=== end-of-$section-list ===$/) {
             last;
         }
         if (/^=== /) {
@@ -589,33 +583,36 @@ sub source_ref_syntax {
 ##                                                                           ##
 ###############################################################################
 
-my %record = read_dict();
-
-fields_ok(@cfg{qw(field_required field_order field_subs)}, %record);
-
-# check sort order in dictionary
-my $last_sortkey = "";
-my $last_word    = "";
 my ($prefix_count, $suffix_count, $word_count, $marked_count) = (0, 0, 0, 0);
-foreach my $line (sort { $a <=> $b } keys %record) {
-    my $_ = $record{$line};
+foreach my $section (qw/word verb-prefix verb-suffix noun-suffix/) {
+    my %record = read_dict($section);
 
-    if (/^tlh:\t/m) {
-        my ($marked, $word) = /^tlh:\t .*? (\*?) \{([^}]*)\} .*? $/xm;
-        $marked_count ++ if $marked;
-        print "$record{$line}\n";
-        given ($word) {
-            when (/-$/) { $prefix_count ++ }
-            when (/^-/) { $suffix_count ++ }
-            default     {   $word_count ++ unless $marked }
+    fields_ok(@cfg{qw(field_required field_order field_subs)}, %record);
+
+    # check sort order in dictionary
+    my $last_sortkey = "";
+    my $last_word    = "";
+    foreach my $line (sort numerically keys %record) {
+        my $_ = $record{$line};
+
+        if (/^tlh:\t/m) {
+            my ($marked, $word) = /^tlh:\t .*? (\*?) \{([^}]*)\} .*? $/xm;
+            $marked_count ++ if $marked;
+            print "$record{$line}\n";
+            given ($word) {
+                when (/-$/) { $prefix_count ++ }
+                when (/^-/) { $suffix_count ++ }
+                default     {   $word_count ++ unless $marked }
+            }
+            my $sortkey = sortkey_tlh($word);
+            my $order   = ($last_sortkey cmp $sortkey);
+            if ($order == 1) {
+                warn "wrong sort order: {$last_word} comes before {$word}, " .
+                    "in record at line $line\n";
+            }
+            $last_sortkey = $sortkey;
+            $last_word    = $word;
         }
-        my $sortkey = sortkey_tlh($word);
-        my $order   = ($last_sortkey cmp $sortkey);
-        if ($order == 1) {
-            warn "wrong sort order: {$last_word} comes before {$word}, in record at line $line\n";
-        }
-        $last_sortkey = $sortkey;
-        $last_word    = $word;
     }
 }
 warn "Word count: $word_count (" .

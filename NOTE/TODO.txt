@@ -1651,7 +1651,8 @@ Priorities:
     E.g. "data: phrase" and "data: derived form"
 *** DONE Check that if there is a [...] in 'sv' there is also one in 'en'
     CLOSED: [2012-01-31 Tue 00:17]
-*** TODO Check sort order (each section separately)
+*** DONE Check sort order for each section separately
+    CLOSED: [2012-01-31 Tue 01:31]
 *** TODO Email/News should require "by", "to" and a subject in parentheses.
 *** TODO Improve checks of Klingon graphotactic spelling
     Dissallow combinations ("uw" and maybe others?) that are explicitly
