@@ -306,19 +306,37 @@ sub check_sv {
         warn "missing «...» brackets in '$field' $field\n";
         print STDERR "    $field: $_\n";
     }
-
     # <...> are not allowed
     if (/</) {
         warn "<...> brackets are not allowed in '$field' $field\n";
         print STDERR "    $field: $_\n";
     }
-
     { # check for matching «...»
         my $bra = () = m/«/g;  # count "«"
         my $ket = () = m/»/g;  # count "»"
         warn "mismatched «...» brackets ($bra open, $ket close) in '$field' field\n"
             if $bra != $ket;
     }
+    { # dialect (check that [...] in 'en' and 'sv' fields correspond)
+        my $lect = {
+            "äldre ord eller överklassord" =>
+                "older or upper-class word",
+            arkaiskt  => "archaic",
+            slang     => "slang",
+            regionalt => "regional",
+            "regionalt, slang" => "regional, slang",
+        };
+        while (/\[ ([^]]*) \]/gx) {
+            if (not exists $lect->{$1}) {
+                warn "unknown dialect description '[$1]' in '$field' field\n";
+                next;
+            }
+            warn "missing dialect description in 'en' field to match '[$1]' " .
+                "in '$field' field\n"
+                unless $record =~ /^en:.*\[$lect->{$1}\]$/m;
+        }
+    }
+
 }
 
 sub check_desc {
@@ -467,6 +485,18 @@ sub check_warn {
         if /[-.,:;([{<«  ]$/;
     warn "leading asterisk required in 'tlh' field when '$field' field present\n"
         unless $record =~ /^tlh:\t\*/;
+
+    if (/\bnon-canon\b/) {
+        warn "tag 'non-canon' required in 'data' field when word 'non-canon' is " .
+            "present in '$field' field\n"
+            if $record !~ /^data:\t.*\bnon-canon\b/m;
+    } elsif (/\bcanon\b/) {
+        warn "tag 'deprecated' required in 'data' field when word 'canon' is " .
+            "present in '$field' field\n"
+            if $record !~ /^data:\t.*\bdeprecated\b/m;
+    } else {
+        warn "missing required word 'canon' or 'non-canon' in '$field' field\n";
+    }
 }
 
 # Usage: %RECORD = read_dict();

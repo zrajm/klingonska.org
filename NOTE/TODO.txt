@@ -1649,7 +1649,8 @@ Priorities:
     CLOSED: [2012-01-30 Mon 23:28]
 *** TODO 'tlh:' fields with multiple words should have corresponding data-field
     E.g. "data: phrase" and "data: derived form"
-*** TODO Check that if there is a [...] in 'sv' there is also one in 'en'
+*** DONE Check that if there is a [...] in 'sv' there is also one in 'en'
+    CLOSED: [2012-01-31 Tue 00:17]
 *** TODO Check sort order (each section separately)
 *** TODO Email/News should require "by", "to" and a subject in parentheses.
 *** TODO Improve checks of Klingon graphotactic spelling

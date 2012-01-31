@@ -689,10 +689,10 @@ data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
 tlh:	*{be'nI'nal}
-warn:	use {loDnI' be'nal} or {be'nI' be'nal} instead
+warn:	non-canon suggestion, use {loDnI' be'nal} or {be'nI' be'nal} instead
 pos:	noun
-sv:	«svägerska» [exempel på felaktig användning]
-en:	«sister-in-law» [example of incorrect use]
+sv:	«svägerska»
+en:	«sister-in-law»
 def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from
 	Maltz")
 ref:	Email 2010-12-22 (by Lieven L. Litaer, to tlhingan-hol, "latlh
@@ -6376,7 +6376,7 @@ data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
 tlh:	*{jIj}
-warn:	use {yeq} instead
+warn:	canon mistake, use {yeq} instead
 pos:	verb
 sv:	«samarbeta»
 en:	«cooperate»
@@ -6422,10 +6422,10 @@ pun:	This is whan "Jim" Kirk does to outsmart Khan in the nebula, at the
 file:	2002-06-holqed-11-2.txt
 
 tlh:	*{jIn}
-warn:	hypothetic word later disproven
+warn:	non-canon suggestion
 pos:	verb
-sv:	«brygga» [hypotetiskt ord som senare visade sig vara felaktigt]
-en:	«brew» [hypothetic word later disproven]
+sv:	«brygga»
+en:	«brew»
 def:	Email 2004-07-15 (by Steven Boozer, to tlhingan-hol, "Re: Klingon WOTD:
 	pub (v) > jIn")
 com:	Hmmm, this seems to come from an old entry in my notes:
@@ -6704,11 +6704,10 @@ see:	*{jornub}
 file:	1997-11-01-kgt.txt
 
 tlh:	*{jornub}
-warn:	incorrect form of {jorneb}
+warn:	canon misspelling, use {jorneb} instead
 pos:	noun
 sv:	«stridsspets» (på en torped)
 en:	«warhead» (of a torpedo)
-desc:	incorrect form of {jorneb}
 def:	KGT K-E
 see:	{jorneb}
 data:	deprecated
@@ -7499,10 +7498,10 @@ data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
 tlh:	*{loDnI'nal}
-warn:	use {loDnI' loDnal} or {be'nI' loDnal}
+warn:	non-canon suggestion, use {loDnI' loDnal} or {be'nI' loDnal}
 pos:	noun
-sv:	«svåger» [exempel på felaktig användning]
-en:	«brother-in-law» [example of incorrect use]
+sv:	«svåger»
+en:	«brother-in-law»
 def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from
 	Maltz")
 ref:	Email 2010-12-22 (by Lieven L. Litaer, to tlhingan-hol, "latlh
@@ -8920,11 +8919,10 @@ see:	*{mojaQ}
 file:	1992-01-01-tkd.txt
 
 tlh:	*{mojaQ}
-warn:	incorrect form of {mojaq}
+warn:	canon misspelling, use {mojaq} instead
 pos:	noun
 sv:	«suffix»
 en:	<suffix>
-desc:	incorrect form of {mojaq}
 def:	TKD E-K
 see:	{mojaq}
 data:	deprecated
@@ -9843,11 +9841,10 @@ data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
 tlh:	*{neHjej}
-warn:	incorrect form of {naHjej}
+warn:	canon misspelling, use {naHjej} instead
 pos:	noun
 sv:	«tistel»
 en:	<thistle>
-desc:	incorrect form of {naHjej}
 def:	KGT
 see:	{naHjej}
 data:	deprecated
@@ -10160,11 +10157,10 @@ data:	phrase
 file:	1997-11-01-kgt.txt
 
 tlh:	*{nISwI' bej}
-warn:	incorrect form of {nISwI' beH}
+warn:	canon misspelling, use {nISwI' beH} instead
 pos:	noun
 sv:	«disruptorgevär»
 en:	«disruptor rifle»
-desc:	incorrect form of {nISwI' beH}
 def:	KGT p.56
 see:	{nISwI' beH}
 cat:	fighting
@@ -12648,11 +12644,10 @@ cat:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	*{pu'bej}
-warn:	incorrect form of {pu'beH}
+warn:	canon misspelling, use {pu'beH} instead
 pos:	noun
 sv:	«phaser-gevär»
 en:	«phaser rifle»
-desc:	incorrect form of {pu'beH}
 def:	KGT p.56
 see:	{pu'beH}
 cat:	fighting
@@ -16804,7 +16799,7 @@ def:	KGT
 file:	1997-11-01-kgt.txt
 
 tlh:	*{Soq}
-warn:	incorrect form of {Suq}
+warn:	non-canon misspelling, use {Suq} instead
 pos:	verb
 sv:	«skaffa» (sig)
 en:	«gain»
@@ -17906,11 +17901,10 @@ def:	TKD
 file:	1992-01-01-tkd.txt
 
 tlh:	*{tIb}
-warn:	incorrect form of {bIt}
+warn:	canon misspelling, use {bIt} instead
 pos:	verb
 sv:	vara «nervös», vara «rastlös»
 en:	be «nervous», be «uneasy»
-desc:	incorrect form of {bIt}
 def:	KGT p.132
 see:	{bIt}; {jotHa'}
 data:	deprecated
@@ -18736,10 +18730,10 @@ data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
 tlh:	*{tlhaptIH}
-warn:	incorrect form of {luHwI' tIH}
+warn:	non-canon suggestion, use {luHwI' tIH} instead
 pos:	noun
-sv:	«dragstråle» [exempel på felaktig användning]
-en:	«tractor beam» [example of incorrect use]
+sv:	«dragstråle»
+en:	«tractor beam»
 def:	{qep'a'} 2010
 ref:	Email 2010-12-13 (by Lieven L. Litaer, to tlhingan-hol, "tractor
 	beam"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter
@@ -20482,7 +20476,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{wep} [.2]
 pos:	noun
-sv:	«skjorta» med ärmar [regional]
+sv:	«skjorta» med ärmar [regionalt]
 en:	<shirt> with sleeves [regional]
 def:	KGT
 file:	1997-11-01-kgt.txt
