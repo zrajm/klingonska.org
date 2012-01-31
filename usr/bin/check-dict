@@ -249,7 +249,6 @@ sub check_desc {
 
 sub check_tlh {
     my ($_, $field, $record) = @_;
-    my $re = qr/([bDHjlmnpqQrStvwy']|ch|gh|ng|tlh)[aeIou]([bDHjlmnpqQrStv']|ch|gh|ng|tlh|[wy]'?|rgh)?/;
 
     state $prev_word   = "";
     state $prev_pos    = "";
@@ -346,9 +345,11 @@ sub check_tlh {
     ($prev_word, $prev_pos, $prev_hyp, $prev_sub, $prev_subsub) = ($word, $pos, $hyp, $sub, $subsub);
 
     # check klingon spelling
+    my $re = qr/ ([bDHjlmnpqQrStvwy']|ch|gh|ng|tlh)(
+            [aeI] ([bDHjlmnpqQrStv']|ch|gh|ng|tlh|[wy]'?|rgh)? |
+            [ou]  ([bDHjlmnpqQrStv']|ch|gh|ng|tlh|  y '?|rgh)?    # "ow" and "uw" is not allowed
+    )/x;
     if (not $word =~ /^\*?\{ ($re+(\s$re+|\s«($re+|pIqarD)»)*|$re?-|-$re|-oy|qIrq) \}$/x) {
-        # TKD talks about "uw" -- and some other letter combination? -- being
-        # disallowed in Klingon: insert test for that, too, here
         warn "bad syllable structure for '$word' in '$field' field\n";
         print STDERR "    $field: $_\n";
     }
