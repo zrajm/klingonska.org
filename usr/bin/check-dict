@@ -1,12 +1,13 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl
 use strict;
+use warnings;
 use 5.10.0;
-
-# enable UTF-8
 use utf8;
-binmode(STDIN,  ":encoding(utf8)");
-binmode(STDOUT, ":encoding(utf8)");
-binmode(STDERR, ":encoding(utf8)");
+use open ':locale';
+use lib do {
+    use Cwd 'realpath';
+    realpath($0) =~ m#^(.*)/#;
+};
 
 if (-t STDIN and @ARGV == 0) {
     print <<"EOF";
@@ -16,21 +17,10 @@ EOF
     exit;
 }
 
-=pod
-
-=head1 TODO
-
-* Check that all homonymous words have an enumeration (1) etc in 'tlh' field
-* Email should require "by", "to" and a subject in parentheses.
-* check_tlh() -- TKD talks about "uw" -- and some other letter combination? --
-  being disallowed in Klingon: insert test for that, too, here
-* Text fields should not be allowed to end in comma, space, colon or semicolon
-
-=cut
-
 my %cfg = (
-    canon_path     => "../../canon", # relative to this file's path
-    field_order    => [ qw(tlh warn pos sv en desc def ref com pun see cat data file meta) ],
+    canon_path     => "../../canon", # relative to executable's path
+    field_order    => [ qw(tlh  warn  pos  sv   en   desc  def
+                           ref  com   pun  see  cat  data  file  meta) ],
     field_required => [ qw(tlh pos sv en def file) ],
     field_subs     => {
         tlh  => \&check_tlh,
@@ -59,106 +49,11 @@ $cfg{canon_path} = do {
 };
 
 
-my %pos_en = (
-    v    => 'verb',
-    n    => 'noun',
-    name => 'name',
-    adv  => 'adverbial',
-    conj => 'conjuction',
-    excl => 'exclamation',
-    num  => 'numeral',
-    pro  => 'pronoun',
-    ques => 'question word',
-    ns1  => 'noun suffix type 1',
-    ns2  => 'noun suffix type 2',
-    ns3  => 'noun suffix type 3',
-    ns4  => 'noun suffix type 4',
-    ns5  => 'noun suffix type 5',
-    vp   => 'verb prefix',
-    vsr  => 'verb suffix type rover',
-    vs1  => 'verb suffix type 1',
-    vs2  => 'verb suffix type 2',
-    vs3  => 'verb suffix type 3',
-    vs4  => 'verb suffix type 4',
-    vs5  => 'verb suffix type 5',
-    vs6  => 'verb suffix type 6',
-    vs7  => 'verb suffix type 7',
-    vs8  => 'verb suffix type 8',
-    vs9  => 'verb suffix type 9',
-);
-
-my %pos_sv = (
-    v    => 'verb',
-    s    => 'noun',
-    namn => 'name',
-    adv  => 'adverbial',
-    konj => 'conjuction',
-    interj => 'exclamation',
-    'räkn' => 'numeral',
-    pro  => 'pronoun',
-    'fråg' => 'question word',
-    ss1  => 'noun suffix type 1',
-    ss2  => 'noun suffix type 2',
-    ss3  => 'noun suffix type 3',
-    ss4  => 'noun suffix type 4',
-    ss5  => 'noun suffix type 5',
-    vp   => 'verb prefix',
-    vss  => 'verb suffix type rover',
-    vs1  => 'verb suffix type 1',
-    vs2  => 'verb suffix type 2',
-    vs3  => 'verb suffix type 3',
-    vs4  => 'verb suffix type 4',
-    vs5  => 'verb suffix type 5',
-    vs6  => 'verb suffix type 6',
-    vs7  => 'verb suffix type 7',
-    vs8  => 'verb suffix type 8',
-    vs9  => 'verb suffix type 9',
-);
-
-
 ###############################################################################
 ##                                                                           ##
-##  Main                                                                     ##
+##  Functions                                                                ##
 ##                                                                           ##
 ###############################################################################
-
-my %record = read_dict();
-
-fields_ok(@cfg{qw(field_required field_order field_subs)}, %record);
-
-
-# check sort order in dictionary
-# FIXME each section should be tested in its own
-my $last_sortkey = "";
-my $last_word    = "";
-my ($prefix_count, $suffix_count, $word_count, $marked_count) = (0, 0, 0, 0);
-foreach my $line (sort { $a <=> $b } keys %record) {
-    my $_ = $record{$line};
-
-    if (/^tlh:\t/m) {
-        my ($marked, $word) = /^tlh:\t .*? (\*?) \{([^}]*)\} .*? $/xm;
-        $marked_count ++ if $marked;
-        print "$record{$line}\n";
-        given ($word) {
-            when (/-$/) { $prefix_count ++ }
-            when (/^-/) { $suffix_count ++ }
-            default     {   $word_count ++ unless $marked }
-        }
-        my $sortkey = sortkey_tlh($word);
-        my $order   = ($last_sortkey cmp $sortkey);
-        if ($order == 1) {
-            warn "wrong sort order: {$last_word} comes before {$word}, in record at line $line\n";
-        }
-        $last_sortkey = $sortkey;
-        $last_word    = $word;
-    }
-}
-warn "Word count: $word_count (" .
-    "prefixes: $prefix_count, " .
-    "suffixes: $suffix_count, " .
-    "*deprecated: $marked_count)\n";
-exit;
-
 
 sub sortkey_tlh {
     my ($_) = @_;
@@ -354,7 +249,7 @@ sub check_desc {
             if /[-.,:;([{<«  ]$/ and !/(?:subj|obj)\.$/;
     }
 
-    # punctuation not allowed at end of line, except if it's part of an abbreviation
+    # punctuation not allowed at eof, except as part of an abbrev
     warn "content of '$field' field may not end with space/punctuation\n"
         if /[-.,:;([{<«  ]$/ and !/(?:subj|obj)\.$/;
     warn "word '$1' should be abbreviated in '$field' field"
@@ -499,12 +394,16 @@ sub check_warn {
     }
 }
 
-# Usage: %RECORD = read_dict();
-#
-# Reads all records from a zdb file into %RECORD. Keys of the hash will be the
-# line number each record started at. Values will be the complete content of
-# the record (with any continuation lines unwrapped).
-#
+=pod
+
+Usage: %RECORD = read_dict();
+
+Reads all records from a zdb file into %RECORD. Keys of the hash will be the
+line number each record started at. Values will be the complete content of the
+record (with any continuation lines unwrapped).
+
+=cut
+
 sub read_dict {
     # skip header
     while (<>) {
@@ -680,15 +579,48 @@ sub source_ref_syntax {
 
     my $source       = qr/$paged_source|$holqed_source|$unpaged_source/x;
 
-
     return /^ $source (;$s$source)* $/x ? TRUE : FALSE;
 }
 
 
-# foreach my $num (sort { $a <=> $b } keys %record) {
-#     print "=" x 80, "\n",
-#         "==  $num\n",
-#         "$record{$num}";
-# }
+###############################################################################
+##                                                                           ##
+##  Main                                                                     ##
+##                                                                           ##
+###############################################################################
+
+my %record = read_dict();
+
+fields_ok(@cfg{qw(field_required field_order field_subs)}, %record);
+
+# check sort order in dictionary
+my $last_sortkey = "";
+my $last_word    = "";
+my ($prefix_count, $suffix_count, $word_count, $marked_count) = (0, 0, 0, 0);
+foreach my $line (sort { $a <=> $b } keys %record) {
+    my $_ = $record{$line};
+
+    if (/^tlh:\t/m) {
+        my ($marked, $word) = /^tlh:\t .*? (\*?) \{([^}]*)\} .*? $/xm;
+        $marked_count ++ if $marked;
+        print "$record{$line}\n";
+        given ($word) {
+            when (/-$/) { $prefix_count ++ }
+            when (/^-/) { $suffix_count ++ }
+            default     {   $word_count ++ unless $marked }
+        }
+        my $sortkey = sortkey_tlh($word);
+        my $order   = ($last_sortkey cmp $sortkey);
+        if ($order == 1) {
+            warn "wrong sort order: {$last_word} comes before {$word}, in record at line $line\n";
+        }
+        $last_sortkey = $sortkey;
+        $last_word    = $word;
+    }
+}
+warn "Word count: $word_count (" .
+    "prefixes: $prefix_count, " .
+    "suffixes: $suffix_count, " .
+    "*deprecated: $marked_count)\n";
 
 #[eof]
