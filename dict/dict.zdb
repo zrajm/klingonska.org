@@ -16803,17 +16803,18 @@ warn:	non-canon misspelling, use {Suq} instead
 pos:	verb
 sv:	«skaffa» (sig)
 en:	«gain»
-def:	HQ6:2 p.9
+def:	HQ6:2 p.9 ("Everyday Klingon")
 ref:	S33
-com:	"[...] Cloaking technology was gained through an alliance with the
-	Romulan Star Empire [...] {boq lucherDI' tlhIngan wo' romuluS Hov wo'
-	je So'wI' cham Soqpu' tlhIngan wo'.}" [HQ6:2 p.9]
+com:	"{boq lucherDI' tlhIngan wo' romuluS Hov wo' je So'wI' cham Soqpu'
+	tlhIngan wo'.} [...] Cloaking technology was gained through an alliance
+	with the Romulan Star Empire [...]" [HQ6:2 p.9 ("Everyday Klingon")]
 see:	{Suq}
 data:	non-canon
-file:	1997-06-holqed-06-2.txt
-meta:	The {HolQeD transcript of Skybox card S33 contained the word {Suq}
-	misspelled as *{Soq} [HQ6:2 p.9], on the card itself the word was
-	correctly spelled.
+file:	1997-06-holqed-06-2.txt; 1997-sbx-s33.txt
+meta:	The {HolQeD} transcript of Skybox card S33 contained the word *{Soq}
+	[HQ6:2 p.9 ("Everyday Klingon")] -- actually a misspelling of the word
+	{Suq}, which was correctly spelled on the SkyBox card itself
+	[SkyBox S33].
 
 tlh:	[1] {SoQ}
 pos:	verb
