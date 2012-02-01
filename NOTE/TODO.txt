@@ -422,7 +422,7 @@ Priorities:
     to the prettified version (as well as to the original text formatted
     transcript).
 
-*** [46%] Transcripts updating/improvement
+*** [48%] Transcripts updating/improvement
 **** TODO Fix correction comments with "??" in KGT transcript
 **** TODO More canon stuff mentioned here (by Steven Boozer)
      https://mail.google.com/mail/?shva=1#search/in%3Atlhingan-hol+stconst/1217ffac4948e9ab
@@ -567,11 +567,10 @@ Priorities:
      Article with transcript of Skybox S26
 
      Referenced in dict.zdb.
-**** TODO Add transcript of HQ6:2 p.9 (1997-06-holqed-06-2.txt)
+**** DONE Add transcript of HQ6:2 p.9 (1997-06-holqed-06-2.txt)
+     CLOSED: [2012-02-01 Wed 21:50]
      Article with transcripts of Skybox S32 and S33.
      Also verify the 'com:' part under *{Soq} in dict.zdb.
-
-     Referenced in dict.zdb.
 **** TODO Add transcript of HQ8:4 p.11--13
      Article named: "Notes from Star Trek V: The Final Frontier". Fix 'file:'
      field for {ghuy'}, {ngoqDe'}, {qIrq}, {toDDuj}, {yo'SeH yaHnIv}. Add

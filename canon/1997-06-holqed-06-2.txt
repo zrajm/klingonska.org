@@ -1,0 +1,97 @@
+[[
+  [2012-02-01, 21:15-21:33] transcribed article
+  [2012-02-01, 21:33-21:48] spell checking and proof reading against {HolQeD}
+  [2012-02-01, 21:51-22:12] proof reading against SkyBox cards
+  Style: {}=bold, <>=italics, corrections, paginated
+
+  Type: article
+  Date: June 1997
+  Title: Everyday Klingon
+  Author: Lawrence M. Schoen
+  Source: <{HolQeD} 6:2>, page 9
+  Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
+  Summary: Transcription of SkyBox trading cards S31, S32 and S33, for season
+    six of <Star Trek: The Next Generation.> Transcripts corrected against
+    original SkyBox cards.
+  Credit: Nancy Nielsen-Brown donated these SkyBox cards to Klingonska
+    Akademien at the {qep'a' SochDIch}.
+
+  : "Warp Drive" and "Painstik" is spelled with capitals in the English text
+  : below, this spelling comes from the SkyBox cards themselves.
+
+  : [From SkyBox trading card S33, 1996 (TNG 6th season). The text of
+  : this card was also reprinted in HQ6:2 p.9. In the HolQeD reprint the
+  : word {puvtaHbogh} is misspelled {puVlaHbogh}, and the word {Suqpu'}
+  : incorrecly spelled {Soqpu'}.
+  :
+  : On the SkyBox card the words {Duj ngabmoHlaw'} are incorrectly
+  : written {DujngabmoHlaw'} as one word, the period preceeding the
+  : sentence {chaq tampu'.} is not followed by a space, and the word
+  : {romuluSnganpu'vaD} is incorrectly spelled {romulu Snganpu'vaD} as
+  : two words (these errors are retained above).]
+  :
+  : From Steven Boozer's notes:
+  : There were a few typos in the version published in HolQeD 6.2 due to the
+  : artistic font used on the cards but ghunchu'wI' has verified the text.
+  : The card reads HovpoH Hut vagh cha' wa' vI' jav but it seems likely
+  : Okrand's eye slipped a line when looking up "mark" in the Addendum:
+  :        mark (in coordinates) (n)               DoD
+  :        marksmanship, sharpshooting (n)         vI'
+  : They are listed right next to each other (TKD, p. 189).]
+
+]][[p.9]]
+
+Everyday Klingon
+
+The following text comes from the three Klingon cards found in the sixth
+season <Star Trek: The Next Generation> deck published by SkyBox
+International Inc.
+
+
+    S31    {Hegh bey}    Death Howl
+
+{HeghDI' tlhIngan SuvwI' pagh tlhIngan SuvwI' HoHlu'DI' Heghtay lulop
+latlh tlhInganpu'.  Heghtay luloptaHvIS chaH chaq bey SeQ lujach.
+Heghpu'bogh tlhIngan mInDu' lupoSmoHlu'.  beyHom bey bey'a'
+jachtaH latlh tlhInganpu'.  yay 'oS bey.  'IQ pagh.  Heghpu'bogh latlhpu'
+ghuHmoH bey.  ghoS tlhIngan SuvwI' maq.}
+
+When a Klingon warrior dies or is killed, other Klingons may perform a
+ceremonial howl or yell as part of the Klingon death ritual.  The eyes of the
+fallen Klingon are opened and others roar in great crescendo.  This yell is [[great:=a great]]
+victorious in nature, rather than mournful and also serves to warn the other
+dead that a Klingon warrior is coming.
+
+
+    S32    {'oy'naQ}    Painstik
+
+{nentay loptaHvIS tlhIngan potlh tlhIngan 'oy'naQ'e'.  SIQwI'
+lu'oy'moHmeH juppu'Daj 'oy'naQmey lo' chaH.  SuvwI' qa' patlh veb
+chavlaHmeH tlhIngan lo'chu' chaH.  toDujDaj toblu'.  wej 'ujmey 'ab
+'oy'naQ.  chIch vay' 'oy'moHmeH 'oy'naQ 'vI law' tlhuD 'oH.} [['vI:='ul]]
+
+The Klingon Painstik is an important part of a Klingon's Age of Ascension
+ceremony.  The Painstik is employed by friends of the recipient who use the
+devices to inflict pain in a manner which will allow the Klingon to attain a
+higher state of spirituality as a warrior, proving his mettle.  Painstiks are a
+little over one meter long and emit a highly-charged shock for the express
+purpose of inflicting pain.
+
+
+    S33    {So'wI'}    Cloaking Device
+
+{Hoch tlhIngan DujDaq So'wI' jomlu'.  puVlaHbogh DujngabmoHlaw'[[puVlaHbogh:=puvtaHbogh]] [[meta: Missing space in {Duj ngabmoHlaw'} comes from SkyBox card.]]
+So'wI'.  boq lucherDI' tlhIngan wo' romuluS Hov wo' je So'wI' cham
+Soqpu' tlhIngan wo'.chaq tampu'.  chaq romulu Snganpu'vaD pIvghor [[Soqpu':=Suqpu']] [[meta: Missing space before {chaq tampu'}, and space inside {romuluSnganpu'vaD} are both from the SkyBox card.]]
+cham lunobpu' tlhInganpu'.  HoS law'qu' natlhmo' So'wI' QaptaHvIS
+So'wI' QaplaHbe' nuHmey.  ngongmeH wa' DujDaq nuHmey nISbe'bogh
+So'wI' jomlu'pu'.  HovpoH Hut vagh cha' wa' vI' jav Dujvam 'aghlu'pu'
+'ach Qaw'lu'pu'} [[Qaw'lu'pu':=Qaw'lu'pu'.]]
+
+All Klingon vessels are equipped with a cloaking device, allowing the ship to
+fly in a state of practical invisibility.  Cloaking technology was gained
+through an alliance with the Romulan Star Empire, possibly in exchange for
+Warp Drive technology.  Due to the tremendous energy drain of a cloaking
+device, weapons cannot be dischargd while the cloak is in operation. [[dischargd:=discharged]]
+
+[[eof]]
