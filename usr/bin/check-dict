@@ -129,9 +129,13 @@ sub check_see {
 
 sub check_data {
     my ($_, $field, $record) = @_;
-    if (/^data:\t.*\b(deprecated|non-canon)\b/) {
+    if (/\b(deprecated|non-canon)\b/) {
         warn "when 'data' field contains 'deprecated' or 'non-canon', 'tlh' must have leading asterisk\n"
-            if not $record =~ /^\*/m
+            unless $record =~ /^tlh:\t\*/m;
+    }
+    if (/\bphrase\b/) {
+        warn "when 'data' field contains 'phrase', 'tlh' must contain at least one space\n"
+            unless $record =~ /^tlh: \t [^{]* {[^{]*[ ] [^{]*} /mx;
     }
 }
 
@@ -262,6 +266,11 @@ sub check_tlh {
         if $pre and $pre =~ s/(\s*)$// and length($1) != 1;
     warn "only single space allowed between word '$word' and post-word data '$post' in '$field' field\n"
         if $post and $post =~ s/^(\s*)// and length($1) != 1;
+
+    if ($word =~ /\s/) {
+        warn "when word in 'tlh' field contains space, 'data' field must contain 'phrase'\n"
+            unless $record =~ /^data:.*\bphrase\b/m;
+    }
 
     my ($pos) = $record =~ /^pos:\t(.*)/m;    # part-of-speech
     my $hyp = do {                            # pre-word counter

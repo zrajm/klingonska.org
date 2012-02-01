@@ -14,6 +14,9 @@ KLINGON IDEALS OF BEHAVIOR
 FIELD NAMES USED IN DICTIONARY BELOW
 ------------------------------------
     tlh:   (required) Klingon word
+                      NOTE: Requires 'data: phrase' if there are more than one
+                      word inside the curly brackets.
+
                       Klingon text is given in curly brackets (e.g. {jotHa'}).
 
                       A leading asterisk is used for deprecated and non-canon
@@ -130,8 +133,9 @@ FIELD NAMES USED IN DICTIONARY BELOW
                       constructed from {chen} 'take form' + {-moH} 'cause' +
                       {-wI'} 'one who does'.
 
-                      "phrase" = lookup entry is more than one word (i.e. the
-                      Klingon definiton contains at least one space).
+                      "phrase" = NOTE: Requires that Klingon word in 'tlh'
+                      field contains space. -- Lookup entry is more than one
+                      word.
 
                       "deprecated" = NOTE: Requires 'warn' field + leading
                       asterisk in 'tlh' field. -- Used for words occur
@@ -276,6 +280,7 @@ en:	«banana»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{bang}
@@ -844,6 +849,7 @@ ref:	Email 2011-10-30 (by Felix Malmenbeck, to tlhingan-hol, "[Tlhingan-hol]
 	EuroTalk - New info - Phrases")
 com:	{nuqDaq 'oH bIQ'a' HeH'e'} "Where is the beach?" (lit. "Where is the
 	ocean's edge?") [Eurotalk]
+data:	phrase
 file:	2011-10-30-email.txt
 
 tlh:	{bIr}
@@ -1405,6 +1411,7 @@ ref:	Email 2011-10-30 (by Felix Malmenbeck, to tlhingan-hol, "[Tlhingan-hol]
 	EuroTalk - New info - Phrases")
 com:	{chach Duj yIrI'} "Get an ambulance!" (lit. "Hail an ambulance
 	(emergency vessel)!") [Eurotalk]
+data:	phrase
 file:	2011-10-30-email.txt
 
 tlh:	{chaDvay'}
@@ -3729,6 +3736,7 @@ en:	«garlic»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{gharwI'}
@@ -4075,6 +4083,7 @@ en:	«grape»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{ghIrIlqa'}
@@ -4851,6 +4860,7 @@ en:	«ham«burger»»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{Ha'quj}
@@ -5951,7 +5961,7 @@ pos:	noun
 sv:	ett slags «djur» (för oljud i gryningen)
 en:	type of «animal» (makes a ruckus at dawn)
 def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
-data:	derived form
+data:	derived form; phrase
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{jajvam}
@@ -7153,6 +7163,7 @@ ref:	Email 2011-10-30 (by Felix Malmenbeck, to tlhingan-hol, "[Tlhingan-hol]
 	EuroTalk - New info - Phrases")
 com:	{leng chaw'wIj nIHlu'ta'} "Someone stole my passport" (lit. "Someone
 	has stolen my travel permit.")
+data:	phrase
 file:	2011-10-30-email.txt
 
 tlh:	{lengwI'}
@@ -7976,6 +7987,7 @@ def:	Eurotalk
 ref:	Email 2011-10-30 (by Felix Malmenbeck, to tlhingan-hol, "[Tlhingan-hol]
 	EuroTalk - New info - Phrases")
 com:	{nuqDaq lupwI' mIr vItIj} "Where is the train station?" [Eurotalk]
+data:	phrase
 file:	2011-10-30-email.txt
 
 tlh:	{luq}
@@ -8474,6 +8486,7 @@ en:	«mango»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{mep}
@@ -8577,6 +8590,7 @@ en:	sweet «corn»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{meyrI'}
@@ -10095,6 +10109,7 @@ en:	«butter»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{nIm wIb ngogh}
@@ -10104,6 +10119,7 @@ en:	«cheese»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{nIn}
@@ -11554,6 +11570,7 @@ en:	«potato»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{patlh} [.1]
@@ -11808,6 +11825,7 @@ en:	«pear»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{per yuD}
@@ -11937,6 +11955,7 @@ en:	«plum»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{pIlmoH}
@@ -12037,6 +12056,7 @@ en:	«pizza»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{pItlh}
@@ -13378,6 +13398,7 @@ en:	«carrot»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{qIb}
@@ -13745,6 +13766,7 @@ en:	«cola»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{qo'leq}
@@ -15346,6 +15368,7 @@ en:	«raspberry»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{raSya'}
@@ -15414,6 +15437,7 @@ en:	«rice»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{ra'}
@@ -15457,6 +15481,7 @@ ref:	Email 2011-10-30 (by Felix Malmenbeck, to tlhingan-hol, "[Tlhingan-hol]
 	EuroTalk - New info - Phrases")
 com:	{nuqDaq ra'wI' lupwI' vItIj} "Where can I get a taxi?" (lit. "Where do
 	I board a commander's bus?") [Eurotalk]
+data:	phrase
 file:	2011-10-30-email.txt
 
 tlh:	{rech}
@@ -16737,6 +16762,7 @@ en:	«chopstick»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{Soj qub}
@@ -17198,6 +17224,7 @@ en:	«strawberry»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{Sutlh}
@@ -17293,6 +17320,7 @@ en:	«sugar»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{Su'lop}
@@ -17762,6 +17790,7 @@ en:	«orange»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{tera' na'ran wIb}
@@ -17771,6 +17800,7 @@ en:	«lemon»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{tera' na'ran'a'}
@@ -17780,6 +17810,7 @@ en:	«grapefruit»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{tera'ngan}
@@ -17796,6 +17827,7 @@ en:	«cucumber»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{tera' yav 'atlhqam}
@@ -17805,6 +17837,7 @@ en:	«mushroom»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{teS}
@@ -18075,6 +18108,7 @@ en:	«toast»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{tIS}
@@ -18212,6 +18246,7 @@ en:	«tomato»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{tonSaw'}
@@ -18689,6 +18724,7 @@ en:	french «fries»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 meta:	Editor's note: I kept the plural suffix {-mey} here, in the Klingon,
 	mostly because putting a singular form in the English (or Swedish) side
@@ -21623,6 +21659,7 @@ def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
 cat:	country
+data:	phrase
 file:	2011-10-29-email.txt
 
 tlh:	{'ampaS}
@@ -21641,6 +21678,7 @@ en:	«onion»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{'ang}
@@ -21986,6 +22024,7 @@ en:	«apple»
 def:	Eurotalk
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
+data:	phrase
 file:	2011-10-31-email.txt
 
 tlh:	{'eq}
