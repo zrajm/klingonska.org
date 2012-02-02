@@ -1420,23 +1420,18 @@ Priorities:
 ***** TODO {wep buq}
 ***** TODO {yopwaH buq}
 ***** TODO {yuch ngogh}
-**** TODO Mark "quantity" words
+**** DONE Mark "quantity" words
+     CLOSED: [2012-02-02 Thu 08:26]
      They act as numerals and come before a word (usually). Is {Hoch} a special
      case, or is {Hoch}'s behaviour extrapolatable to all of them?
 
      {HochHom}
-
-     X {Hoch} "all of X" [KGT p. 155]
-       {nIn Hoch} "all of the fuel" [KGT p. 155]
-     {Hoch} X(sg) "each X" [HQ 5:2 p.11]
-       {Hoch nuH} "every weapon" [KGT p.108]
-     {Hoch} X(pl) "all the Xs" [HQ 5:2 p.11]
-       {Hoch jaghpu'Daj} "all his enemies" [KGT p.107]
-
+     {Hoch}
      {'op} X "some Xs" [S7],
      {latlh} X "(an)other X/Xs" [S31],
      {bID} X "half an X, a half X" [BOP]
-**** TODO Add irregular plurals in dictionary (already done?)
+**** DONE Add irregular plurals in dictionary (already done?)
+     CLOSED: [2012-02-02 Thu 08:39]
 **** TODO Try to obtain the recording of {ma'veq} mentioned in the comments
      See also: http://diswww.mit.edu/charon.MIT.EDU/ja'chuq/88542
 **** TODO "Diplomatic Implausibility"
@@ -1550,13 +1545,17 @@ Priorities:
 **** DONE Cross references between irregular plural and singular forms
      CLOSED: [2012-02-02 Thu 04:17]
       (E.g. {mang} refers to {negh} and vice versa.)
-**** TODO Add 'desc:' for {'op}
+**** DONE Add 'desc:' for {'op}
+     CLOSED: [2012-02-02 Thu 05:46]
      {'op} X "some Xs" [S7],
-**** TODO Add 'desc:' for {latlh}
+**** DONE Add 'desc:' for {latlh}
+     CLOSED: [2012-02-02 Thu 05:34]
      {latlh} X "(an)other X/Xs" [S31],
-**** TODO Add 'desc:' for {bID}
+**** DONE Add 'desc:' for {bID}
+     CLOSED: [2012-02-02 Thu 05:03]
      {bID} X "half an X, a half X" [BOP]
-**** TODO Add 'desc:' for {Hoch}
+**** DONE Add 'desc:' for {Hoch}
+     CLOSED: [2012-02-02 Thu 04:56]
      Most quantity words appear to behave like numbers and come before the
      noun:
 
@@ -1566,7 +1565,8 @@ Priorities:
            {Hoch nuH} "every weapon" [KGT p.108]
          {Hoch} X(pl) "all the Xs" [HQ5:2 p.11]
            {Hoch jaghpu'Daj} "all his enemies" [KGT p.107]
-**** TODO Add 'desc:' fields for all question words
+**** DONE Add 'desc:' fields for all question words
+     CLOSED: [2012-02-02 Thu 08:25]
 **** TODO Write check tool to list words not present in LaTeX dict
      This should be done by grepping through LaTeX sources and comparing it
      with the dictionary database contents.

@@ -124,7 +124,8 @@ FIELD NAMES USED IN DICTIONARY BELOW
                       separated by semicolon). Right now the following
                       categories exist: 'architecture', 'body part',
                       'clothing', 'country', 'family', 'fighting', 'landscape',
-                      'locative', 'math', 'money', 'music', 'time', 'unit'.
+                      'locative', 'math', 'money', 'music', 'quantity', 'time',
+                      'unit'.
     data:  (optional) contains additional data about a word:
                       "KLCP-1" = one of the 500 basic words, required for
                       passing the Klingon Language Certification Program, first
@@ -538,7 +539,7 @@ com:	{cha'vatlh ben HIq vItlhutlh.} "I will drink two century old ale."
 	time) they used their teeth, but now they use knives." [News 1999-11-05
 	(by Marc Okrand, to startrek.klingon, "Re: And then...? And then...?
 	(And then along came Jones...) - For MO")]; Combinations with {ben} and
-	other quantity words than numbers are often seen on tlhingan-hol, even
+	quantity words other than numbers are often seen on tlhingan-hol, even
 	though canon support for them is (so far) missing. E.g. {ben law'}
 	"many years ago", {ben puS} "[a] few years ago", {'op ben} "some
 	(unknown number of) years ago".
@@ -733,8 +734,9 @@ tlh:	{bID}
 pos:	noun
 sv:	«halva», «hälft»
 en:	<half>
+desc:	{bID choQ} ~half a deck~ [BoP]
 def:	TKD
-cat:	math
+cat:	math; quantity
 file:	1992-01-01-tkd.txt
 
 tlh:	{bIghHa'}
@@ -1630,6 +1632,8 @@ tlh:	{chay'}
 pos:	question word
 sv:	«hur»?
 en:	<how>?
+desc:	{chay'} ~how did this happen?~ [TKD p.70]; {chay' Dochvam vIlo'} ~what
+	do I do with this?~ [TKD p.172]; first in sentence
 def:	TKD
 file:	1992-01-01-tkd.txt
 
@@ -4436,6 +4440,7 @@ tlh:	{ghorgh}
 pos:	question word
 sv:	«när»?
 en:	<when>?
+desc:	{ghorgh mamej} ~when do we leave?~ [CK]; first in sentence
 def:	TKD
 cat:	time
 file:	1992-01-01-tkd.txt
@@ -5258,12 +5263,16 @@ tlh:	{Hoch}
 pos:	noun
 sv:	«alla», «allihop», «allt», «allting», «varje», «varenda»
 en:	<everyone>, <all>, «everything», «each», «every»
-def:	TKD; TKW
-ref:	HQ5:2 p.11 ("More on {Hoch}")
+desc:	{Hoch paqpu'} ~all books~ (as a whole); {Hoch paq} ~each book~
+	(separately) [HQ5:2 p.11 ("More on {Hoch}")]; {nIn Hoch} ~all of the
+	fuel~ [KGT p.155]
+def:	TKD; HQ5:2 p.11 ("More on {Hoch}"); KGT p.155
+ref:	TKW
 com:	First in a noun-noun pair in TKW. According to HQ "More on {Hoch}"; "If
 	noun following Hoch is explicitly plural, it means 'all'. If it is
 	singular, it means 'each'." Occurs in TKW p.33, 51, 74, 74, 74, 99,
 	136, 179, 184.
+cat:	quantity
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt; 1996-06-holqed-05-2-a.txt
 meta:	All sources combined here.
@@ -5280,7 +5289,11 @@ tlh:	{HochHom}
 pos:	noun
 sv:	«mesta», «större delen»
 en:	<most>, «greater part»
+desc:	see {Hoch}
 def:	KGT
+com:	{tera' vatlh DIS poH cha'maH wej HochHom lo'lu'taH.} "[It] remained in
+	use for most of the 23rd century." [S15]
+cat:	quantity
 file:	1997-11-01-kgt.txt
 
 tlh:	{Hochlogh}
@@ -6161,6 +6174,8 @@ tlh:	{jay'}
 pos:	adverbial
 sv:	«intensivt» («invektiv»)
 en:	<intensely> («invective»)
+desc:	{qaStaH nuq jay'} ~what the #$*@ is happening?~ [TKD p.177]; last in
+	sentence
 def:	TKDa 5.4 (p.177)
 file:	1992-01-01-tkd.txt
 
@@ -7046,7 +7061,11 @@ tlh:	{latlh}
 pos:	noun
 sv:	«ytterligare en», «en annan», «en till»
 en:	<additional one>, <other one>
+desc:	{latlh HIvje'} ~other glass~ [BoP]
 def:	TKDa
+com:	{latlh Datlhutlh'a'.} "Will you drink another one?" [PK] {latlh
+	tlhInganpu'} "other Klingons" [S31]
+cat:	quantity
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -7642,7 +7661,7 @@ pos:	noun
 sv:	«positionskontrollraketer», «lägeskontrollraketer», «styrraketer»
 en:	<attitude-control «thrusters»>
 def:	TKD
-ref:	HQ11:2 p.8--9 ("{matlh jup mu'mey}")
+ref:	HQ11:2 pp.8--9 ("{matlh jup mu'mey}")
 com:	"Weirdly, although Maltz said he knew of no noun meaning "attitude,"
 	the noun {lol} may show up in {lolSeHcha} <attitude control thrusters>.
 	Although the middle element of this word, {SeH}, is certainly the verb
@@ -9925,6 +9944,7 @@ tlh:	{nem}
 pos:	noun
 sv:	¿?om ... «år»
 en:	<years> from now
+desc:	see {ben}
 def:	TKD
 cat:	time
 file:	1992-01-01-tkd.txt
@@ -10726,6 +10746,8 @@ tlh:	{nuq}
 pos:	question word
 sv:	«vad»?
 en:	<what>?
+desc:	{Dochvam nuq} ~what is this (thing)?~ [CK]; {qaStaH nuq} ~what is
+	happening?~ [TKD p.177]; acts as pronoun
 def:	TKD
 file:	1992-01-01-tkd.txt
 
@@ -10733,6 +10755,8 @@ tlh:	{nuqDaq}
 pos:	question word
 sv:	«var»?
 en:	<where>?
+desc:	{nuqDaq 'oH puchpa''e'} ~where is the bathroom?~ [TKD p.170]; acts as
+	locative
 def:	TKD
 file:	1992-01-01-tkd.txt
 
@@ -12052,6 +12076,8 @@ tlh:	{pIq}
 pos:	noun
 sv:	¿?om ...s «tid»
 en:	«time» period from now
+desc:	{cha' tup pIq} ~two minutes from now~ (lit. ~two minute
+	time-period-from-now~)
 def:	HQ8:3 p.3 ("{matlh juppu' mu'mey}")
 cat:	time
 file:	1999-09-holqed-08-3.txt
@@ -12204,6 +12230,7 @@ tlh:	{poH} [2]
 pos:	noun
 sv:	«tid», «tidsperiod»
 en:	period of <time>
+desc:	{cha' vatlh DIS poH} ~two centuries~
 def:	TKD
 cat:	time
 data:	KLCP-1
@@ -13021,6 +13048,7 @@ tlh:	{qatlh}
 pos:	question word
 sv:	«varför»?
 en:	<why>?
+desc:	{qatlh bIjatlh} ~why do you say (that)?~ [PK]; first in sentence
 def:	TKD
 ref:	TKW p.135
 file:	1992-01-01-tkd.txt
@@ -15597,6 +15625,7 @@ tlh:	{ret}
 pos:	noun
 sv:	¿?för ...s «tid» sedan
 en:	«time» period ago
+desc:	{cha' tup ret} ~two minutes ago~ (lit. ~two minute time-period-ago~)
 def:	HQ8:3 p.3 ("{matlh juppu' mu'mey}")
 cat:	time
 file:	1999-09-holqed-08-3.txt
@@ -16865,8 +16894,7 @@ data:	non-canon
 file:	1997-06-holqed-06-2.txt; 1997-sbx-s33.txt
 meta:	The {HolQeD} transcript of Skybox card S33 contained the word *{Soq}
 	[HQ6:2 p.9 ("Everyday Klingon")] -- actually a misspelling of the word
-	{Suq}, which was correctly spelled on the SkyBox card itself
-	[SkyBox S33].
+	{Suq}, which was correctly spelled on the SkyBox card itself [S33].
 
 tlh:	[1] {SoQ}
 pos:	verb
@@ -20319,6 +20347,7 @@ tlh:	[2] {waQ}
 pos:	noun
 sv:	¿?om ... «månader»
 en:	«months» from now
+desc:	see {ben}
 def:	HQ8:3 p.3 ("{matlh juppu' mu'mey}")
 cat:	time
 file:	1999-09-holqed-08-3.txt
@@ -20524,6 +20553,7 @@ tlh:	{wen}
 pos:	noun
 sv:	¿?för ... «månader» sedan
 en:	«months» ago
+desc:	see {ben}
 def:	HQ8:3 p.3 ("{matlh juppu' mu'mey}")
 cat:	time
 file:	1999-09-holqed-08-3.txt
@@ -21781,6 +21811,8 @@ tlh:	{'ar}
 pos:	question word
 sv:	«hur» många?, hur mycket?
 en:	<how> many?, how much?
+desc:	{nIn 'ar wIghaj} ~how much fuel do we have left?~ [TKD p.70]; follows
+	noun
 def:	TKD
 ref:	CK
 file:	1992-01-01-tkd.txt; 1992-10-01-ck.txt
@@ -21796,6 +21828,8 @@ tlh:	{'arlogh}
 pos:	question word
 sv:	«hur många gånger»?
 en:	«how many times»?
+desc:	{arlogh Qoylu'pu'} ~what time is it?~ (lit. How many times has it been
+	heard?) [Email 1999-02-02]; first in sentence
 def:	News 1999-02-02
 file:	1999-02-02-email.txt
 
@@ -22363,6 +22397,7 @@ tlh:	[1] {'Iv}
 pos:	question word
 sv:	«vem»?
 en:	<who>?
+desc:	{'Iv SoH} or {SoH 'Iv} ~who are you?~ [CK]; acts as pronoun
 def:	TKD
 file:	1992-01-01-tkd.txt
 
@@ -22521,7 +22556,11 @@ tlh:	{'op}
 pos:	noun
 sv:	«någon», «något», «några», en «del», en okänd eller ospecificerad mängd
 en:	<some>, an unknown or unspecified quantity
+desc:	{'op SuvwI'} ~some warriors~ [S7]
 def:	KGT
+com:	{DujvamDaq 'op SuvwI' tu'lu'bogh po' law' tlhIngan yo' SuvwI' law' po'
+	puS.} "[S]ome of the finest warriors in the Klingon fleet." [S7]
+cat:	quantity
 file:	1997-11-01-kgt.txt
 
 tlh:	{'oQqar}
@@ -22650,7 +22689,7 @@ meta:	Entries differ and have been combined here.
 
 tlh:	{'oy'naQ}
 pos:	noun
-sv:	¿?«smärtchocks-batong», «smärtstav», «smärtstång»
+sv:	¿?«smärtchocksbatong», «smärtstav», «smärtstång»
 en:	<painstik>
 def:	TKDa; STE
 ref:	TKW p.205
