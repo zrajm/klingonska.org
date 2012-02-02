@@ -1547,7 +1547,8 @@ Priorities:
        we want to keep it short) from which the lookup entry was taken should
        be presented to the reader before the Klingon word, so that the reader
        have as much context as possible to relate the word to.
-**** TODO Cross references between irregular plural and singular forms
+**** DONE Cross references between irregular plural and singular forms
+     CLOSED: [2012-02-02 Thu 04:17]
       (E.g. {mang} refers to {negh} and vice versa.)
 **** TODO Add 'desc:' for {'op}
      {'op} X "some Xs" [S7],

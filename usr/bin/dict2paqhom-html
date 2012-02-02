@@ -189,7 +189,7 @@ sub en {
     my ($text) = @_;
     foreach ($text) {
         s#/#/<wbr>#g;                                    # allow word break after slash
-        s#\b([KE])-([KE])\b#$1--$2#;                     # en-dash for "E-K" / "K-E"
+        s#\b([KE])-([KE])\b#<nobr>$1--$2</nobr>#;        # en-dash for "E-K" / "K-E"
         s#(\d+--\d+)#<nobr>$1</nobr>#g;                  # dont break XX--YY
         s#\b(\d{2,4}-\d{2}-\d{2})\b#<nobr>$1</nobr>#g;   # dont break YYYY-MM-DD
         s#--#&ndash;#g;
@@ -294,17 +294,24 @@ while (defined(my $entry = $zdb->entry)) {
         print     " <i>$pos</i>";
         print "</nobr>";
     }
-    if ($subsubdef) {
-        if ($subsubdef > 1) {
-            die "Part of speech for all subsubdefs must be same '$word ($pos)'\n"
-                unless $pos eq $previous_pos;
-            die "Word for all subsubdefs must be same '$word ($pos)'\n"
-                unless $word eq $previous_word;
+
+    # see: {WORD} is the plural/singular form
+    if (($entry->{see} // "") =~ /(?:^|;\s*){([^}]*)} is the (singular|plural) form/) {
+        my ($word, $form) = ($1, $2);
+        if ($form eq "singular") {
+            # this word is plural (output that + suppress English meaning)
+            print ' <small>pl. of <b lang="tlh">'.$word.'</b></small>';
+            $english = "";
+        } elsif ($form eq "plural") {
+            # this word is singular (include link to plural form)
+            print ' <small>(pl. <b lang="tlh">'.$word.'</b>)</small>';
         }
-        say "    <sans>$subsubdef</sans>";
     }
+
+    print " <sans>$subsubdef</sans>" if $subsubdef;
+
     print ' <small>' . en($entry->{use}) . '</small>' if exists($entry->{use});
-    print " $english$klcp";
+    print " $english$klcp" if $english;
     print " <small>$desc</small>" if $desc;
     #$def =~ s/\b\d\d(\d\d-\d\d-\d\d\b)/$1/g; # YYYY-MM-DD -> YY-MM-DD
     print " <small>[$def]</small>" if $def ne "TKD";
