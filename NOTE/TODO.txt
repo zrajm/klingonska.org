@@ -1367,8 +1367,10 @@ Priorities:
 **** Minor / individual corrections
 ***** TODO {pegh} clarify difference & give examples of the two verbs
       Examples in 'desc:'.
-***** TODO {ben} -- merge "years ago" and "years old"
+***** DONE {ben} -- merge "years ago" and "years old"
+      CLOSED: [2012-02-02 Thu 01:54]
       And give good, short examples in 'desc:'.
+***** TODO Replace all '¿?' with 'meta: FIXME'
 ***** TODO Check word {lo' law'}
 ***** TODO Swedish translation of {yo'SeH yaHnIv}
 ***** TODO Swedish translation of "officer"

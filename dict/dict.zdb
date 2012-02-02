@@ -108,6 +108,10 @@ FIELD NAMES USED IN DICTIONARY BELOW
     en:    (required) English definition (from canon sources) and
                       part-of-speech
     desc:  (optional) very short description (included in pocket dictionary)
+                      In order to keep it short the following words should be
+                      abbreviated in this field:
+                        * somebody/someone = s.o.
+                        * something = s.t.
     def:   (required) source where definition can be found (within [])
     ref:   (optional) canon sources where it also occurs
     com:   (optional) special comment concerning the entry
@@ -518,22 +522,30 @@ def:	KGT
 cat:	body part
 file:	1997-11-01-kgt.txt
 
-tlh:	{ben} [.1]
+tlh:	{ben}
 pos:	noun
-sv:	¿?för ... «år» sedan
-en:	<years> ago
-def:	TKD
+sv:	för ... «år» sedan, «år gammal»
+en:	<year>s ago, <years old>
+desc:	{loSmaH ben jIboghpu'} ~I'm 40 years old~ (lit. ~I was born 40 years
+	ago~); {cha'vatlh ben HIq} ~two century old ale~
+def:	TKD; PK; News 1996-12-12 (by Marc Okrand, to
+	msn.onstage.startrek.expert.okrand); KGT
+com:	{cha'vatlh ben HIq vItlhutlh.} "I will drink two century old ale."
+	[PK]; {vagh SanID ben buDbe' wamwI'pu'. ngugh Ho'Du'chaj lo' chaH, 'ach
+	DaH tajmey lo'.} "5,000 years ago, hunters were not lazy. Then (at that
+	time) they used their teeth, but now they use knives." [News 1999-11-05
+	(by Marc Okrand, to startrek.klingon, "Re: And then...? And then...?
+	(And then along came Jones...) - For MO")]; Combinations with {ben} and
+	other quantity words than numbers are often seen on tlhingan-hol, even
+	though canon support for them is (so far) missing. E.g. {ben law'}
+	"many years ago", {ben puS} "[a] few years ago", {'op ben} "some
+	(unknown number of) years ago".
+pun:	Igor/Aryeh pointed out [on tlhingan-hol] that the Hebrew word *ben*
+	"son" is used when giving ages (for males); e.g. *Ani ben X* "I am X
+	[years] old", *Hu ben X* "He is X [years] old".
 cat:	time
-file:	1992-01-01-tkd.txt
-
-tlh:	{ben} [.2]
-pos:	noun
-sv:	«år gammal»
-en:	<years old>
-def:	KGT
-cat:	time
-file:	1997-11-01-kgt.txt
-meta:	FIXME -- Check this and previous one with ~News~.
+file:	1992-01-01-tkd.txt; 1993-10-01-pk.txt; 1996-12-12a-news.txt;
+	1997-11-01-kgt.txt
 
 tlh:	[1] {bep}
 pos:	verb
@@ -627,7 +639,7 @@ sv:	«bank»
 en:	«bank»
 def:	Eurotalk
 com:	{nuqDaq 'oH beylI''e'} "Where is the bank?" [Eurotalk]
-meta:	FIXME -- file
+meta:	FIXME -- file missing
 
 tlh:	{bey'}
 pos:	noun
@@ -3644,6 +3656,9 @@ pos:	verb
 sv:	vara «avundsjuk» (på), «avundas»
 en:	be «jealous» (of), «envy»
 def:	HQ8:3 p.4 ("{matlh juppu' mu'mey}")
+com:	{jIghal} "I am jealous", {choghal} "you envy me / you are jealous of
+	me", {torgh vIghal} "I am jealous of Torg" [HQ8:3 p.4 ({matlh juppu'
+	mu'mey})]
 file:	1999-09-holqed-08-3.txt
 
 tlh:	{gham}
@@ -14613,7 +14628,7 @@ tlh:	{QIj}
 pos:	verb
 sv:	«förklara»
 en:	<explain>
-desc:	{SoHvaD nab vIQIj} ~I explain the plan for you~; thing being explained
+desc:	{SoHvaD nab vIQIj} ~I explain the plan for you~; that being explained
 	is obj.
 def:	TKD
 ref:	KGT p.149
@@ -21446,7 +21461,8 @@ en:	«operations command»
 def:	ST5; HQ8:4 p.11 ("Notes from Star Trek V: The Final Frontier")
 data:	phrase; {yo'SeH} (n); {yaHnIv} (n)
 file:	1999-12-holqed-08-4.txt
-meta:	FIXME -- File contains wrong article. Is this correctly formed?
+meta:	FIXME -- File contains wrong article. Is this correctly formed? +
+	Swedish translation needed.
 
 tlh:	{yu}
 pos:	noun
