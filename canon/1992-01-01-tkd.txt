@@ -1071,7 +1071,7 @@ nouns. Suffixes are attached to complex nouns (section 3.2) in
 exactly the same fashion.
 
     {DIvI'may'DujmeyDaq} <at/to the Federation battle cruisers>
-      {DIvI'may'Duj}  (noun)  <Federation battlecruiser>
+      {DIvI'may'Duj}  (noun)  <Federation battle cruiser>
       {-mey}          (2)     <plural>
       {-Daq}          (5)     <locative>
 
@@ -2144,7 +2144,7 @@ follows a verb, it means <also, too.>
 
     {qaleghpu' je} <I also saw you, I saw you too>
 
-  As in English, the meaning of such sentences is ambiguous: [[¿is ambiguous?]]
+  As in English, the meaning of such sentences is ambiguous:
 <I and others saw you> or <I saw you and others.> The exact
 meaning is determined by context.
   In addition to the three listed above, there is one other
@@ -2744,21 +2744,21 @@ answer. For example:
 In the first question, it is the subject which is being asked
 about, so {'Iv} <who?> goes in the subject position, following the
 verb {legh} <he/she sees him/her.> In the second case, the object is
-being questioned, so the question word goes in the object [[¿being questioned?]]
+being questioned, so the question word goes in the object [[questioned:=asked for]]
 position, before the verb.
   Similarly with {nuq} <what?:>
 
-    {Duj ghoStaH nuq} <What is coming toward the ship?> [[toward:=towards]]
+    {Duj ghoStaH nuq} <What is coming toward the ship?>
                       ({Duj} <ship, vessel,> {ghoStaH} <it is
-                      proceeding toward it>) [[toward:=towards]]
+                      proceeding toward it>)
     {nuq legh yaS} <What does the officer see?>
 
   Both {'Iv} and {nuq} are treated as nouns as far as the
 pronominal prefixes are concerned. That is, they are consid-
 ered third person.
 
-    {nughoStaH nuq} <What is coming toward us?> ({nughoStaH} <it [[toward:=towards]]
-                  is proceeding toward us>) [[toward:=towards]]
+    {nughoStaH nuq} <What is coming toward us?> ({nughoStaH} <it
+                  is proceeding toward us>)
     {nuq Dalegh} <What do you see?> ({Dalegh} <you see it>)
 
   The word for <where?,> {nuqDaq,} is actually {nuq} <what?>
@@ -2943,7 +2943,7 @@ DICTIONARY [[p.76]]
 INTRODUCTORY REMARKS
 
 This dictionary contains four parts: (1) Klingon to English,
-(2) English to Klingon, (3) list of apexes in Klingon alpha-
+(2) English to Klingon, (3) list of affixes in Klingon alpha-
 betical order, (4) list of affixes in English alphabetical
 order.
   Klingon alphabetical order is as follows:
@@ -6653,7 +6653,7 @@ What do you want?              nuqneH                      nook-NEKH
 Okay.                          lu' <or> luq                loo <or> look
 When will the water be         ghorgh tujchoHpu' bIQ       ghorgh TOOJ-chokh-poo
   hot?                                                       bikkh
-Is this seat taken?            quSDaQ ba' lu''a'           KOOSH-dak BA-loo-a [[DaQ ba' lu':=Daq ba'lu']]
+Is this seat taken?            quSDaQ ba' lu''a'           KOOSH-dak BA-loo-a [[quSDaQ:=quSDaq]] [[ba' lu''a':=ba'lu''a']]
 I can't find my                QumwI'wIj vItu'laHbe'       kkhoom-WI-wij
   communicator.                                              vi-TOO-lakh-BE
 This helmet suits you.         Du'IHchoHmoH mIv vam        doo-IKH-chokh-mohk [[mIv vam:=mIvvam]]
@@ -6661,7 +6661,7 @@ This helmet suits you.         Du'IHchoHmoH mIv vam        doo-IKH-chokh-mohk [[
 You need a rest.               bIleSnIS                    bi-LESH-nish
 Pay now!                       DaH yIDIl                   dakh yi-DIL
 Four thousand throats          qaStaHvIS wa' ram loS       KASH-takh-vish wa ram [[loS:=loSSaD]]
-  may be cut in one night        SaD Hugh SIjlaH             losh shad khoogh [[SaD Hugh:=Hugh]] [[¿?losh shad:=losh-SHAD]]
+  may be cut in one night        SaD Hugh SIjlaH             losh shad khoogh [[SaD Hugh:=Hugh]] [[losh shad:=losh-SHAD]]
   by a running man.              qetbogh loD                 SHIJ-lakh KET-bogh
                                                              lod
 Revenge is a dish which is     bortaS bIr jablu'DI'reH     bor-TAS bir JAB-loo-DI [[jablu'DI'reH:=jablu'DI' reH]]
