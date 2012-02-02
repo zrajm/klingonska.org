@@ -1264,6 +1264,20 @@ Priorities:
 ***** TODO KGT main text words (names etc.)
       e.g. "Kayvak", "digna", "ka'raj", "bregit", "Saurian", "raktaj"
 **** Systematic improvements / new markup
+***** Swedish translation
+****** TODO Check Swedish <-> English translation
+       By looking up all the English words in my English-Swedish dictionary and
+       then checking to see whether the Swedish words exists in their lookup
+       entries.
+****** TODO Could these be fixed?
+       {qIm} (v) contains Swedish "vara", but no English "be"
+       {qotlh} (v) contains Swedish "vara", but no English "be"
+       {Qagh} (v) contains English "be", but no Swedish "vara"
+       {waQ} (v) contains Swedish "vara", but no English "be"
+       {wuv} (v) contains Swedish "vara", but no English "be"
+****** TODO Check gender of all Swedish "vara"-verbs
+****** TODO Check usage of Swedish reflexive pronoun "sig".
+       (Should be within parentheses?)
 ***** TODO Add specifying parentheses to all News references
       Should be: News YYYY-MM-DD (by ..., to ..., "...")
 
@@ -1472,7 +1486,85 @@ Priorities:
      won't include it in their dictionaries.
 
 *** Klingon Pocket Dictionary (paper version)
+**** English--Klingon part
+***** TODO Change layout in English--Klingon part
+      It should look something like this:
+
+      (Typographic key: *sans serif* /italic/ {bold})
+
+          *worthless*  /v/  {lo'laHbe'} be ~
+          *worthless*  /v/  be ~ {lo'laHbe'}
+
+          *friend* /n/ close male ~ of a male
+            {maqoch} buddy, pal [KGT]
+          *buddy* /n/ {maqoch} pal, close male
+            friend of a male
+          *close male friend of a male* /n/
+            {maqoch} buddy, pal
+
+          *fresh* /v/ be ~ {baQ} be just picked
+            (fruit, vegetable)
+          *ceiling* /n/ {pa' beb} (of a room on
+            the top story of a structure)
+          *pa' beb* /n/ ceiling (of a room on the
+            top story of a structure) [News
+            1998-12-07; HQ8:3 p.2]
+
+       Currently, if you look up a word like "wrong", you'll find:
+
+           *wrong* /v/ {muj} be ~
+
+       Which makes it very easy to miss that fact the word is adjectival in
+       nature. I propose that this should instead be represented as:
+
+           *wrong* /v/ be ~ {muj}
+
+       Let's take a look at the word defined as "<buddy>, <pal>, <close male
+       <friend>> of a male (n)" in the database below. Currently you can find
+       the entries:
+
+           *buddy* /n/ {maqoch} pal, close male
+             friend of a male
+           *close male friend* /n/ {maqoch} buddy,
+             pal, ~ of a male
+           *friend* /n/ {maqoch} buddy, pal, close
+             male ~ of a male
+           *pal* /n/ {maqoch} buddy, close male
+             friend of a male
+
+       But I think this should instead be represented as:
+
+           *buddy* /n/ {maqoch} pal, close male
+             friend of a male
+           *close male friend* /n/ ~ of a male
+             {maqoch} buddy, pal
+           *friend* /n/ close male ~ of a male
+             {maqoch} buddy, pal
+           *pal* /n/ {maqoch} buddy, close male
+             friend of a male
+
+       The idea is that the definition (but not the entire description, since
+       we want to keep it short) from which the lookup entry was taken should
+       be presented to the reader before the Klingon word, so that the reader
+       have as much context as possible to relate the word to.
+**** TODO Cross references between irregular plural and singular forms
+      (E.g. {mang} refers to {negh} and vice versa.)
+**** TODO Add 'desc:' for {'op}
+     {'op} X "some Xs" [S7],
+**** TODO Add 'desc:' for {latlh}
+     {latlh} X "(an)other X/Xs" [S31],
+**** TODO Add 'desc:' for {bID}
+     {bID} X "half an X, a half X" [BOP]
 **** TODO Add 'desc:' for {Hoch}
+     Most quantity words appear to behave like numbers and come before the
+     noun:
+
+         X {Hoch} "all of X" [KGT p.155]
+           {nIn Hoch} "all of the fuel" [KGT p.155]
+         {Hoch} X(sg) "each X" [HQ5:2 p.11]
+           {Hoch nuH} "every weapon" [KGT p.108]
+         {Hoch} X(pl) "all the Xs" [HQ5:2 p.11]
+           {Hoch jaghpu'Daj} "all his enemies" [KGT p.107]
 **** TODO Add 'desc:' fields for all question words
 **** TODO Write check tool to list words not present in LaTeX dict
      This should be done by grepping through LaTeX sources and comparing it
@@ -1630,6 +1722,8 @@ Priorities:
     (see example under {Soj})
 ** Dictionary check tool (usr/bin/check-dict)
 *** FUTURE Advanced features
+**** TODO Spellchecking of 'en' fields
+**** TODO Spellchecking of 'sv' fields
 **** TODO When separate sources given for each translation, check 'def:' field
      When each translation is separately sourced, sources should be listed in
      'def:' if one or more English translations exists (for the first time) in a

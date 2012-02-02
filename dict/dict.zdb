@@ -110,8 +110,10 @@ FIELD NAMES USED IN DICTIONARY BELOW
     desc:  (optional) very short description (included in pocket dictionary)
                       In order to keep it short the following words should be
                       abbreviated in this field:
-                        * somebody/someone = s.o.
-                        * something = s.t.
+                        * pl. = plural
+                        * sg. = singular
+                        * s.o. = somebody/someone
+                        * s.t. = something
     def:   (required) source where definition can be found (within [])
     ref:   (optional) canon sources where it also occurs
     com:   (optional) special comment concerning the entry
@@ -1376,6 +1378,7 @@ tlh:	{cha}
 pos:	noun
 sv:	«torpeder»
 en:	<torpedoes>
+desc:	pl. of {peng}
 def:	ST1; TKD
 see:	{peng} is the singular form
 file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
@@ -6298,7 +6301,7 @@ file:	2002-06-holqed-11-2.txt
 
 tlh:	{jeS}
 pos:	verb
-sv:	«deltaga»
+sv:	«delta», ta del i
 en:	<participate>
 def:	TKD
 file:	1992-01-01-tkd.txt
@@ -6945,7 +6948,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{laj} [1]
 pos:	verb
-sv:	«acceptera», «godtaga»
+sv:	«acceptera», «godta»
 en:	<accept>
 def:	TKD
 data:	KLCP-1
@@ -14180,7 +14183,7 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{Qagh} [1]
 pos:	verb
-sv:	ha «fel», ta fel, «misstaga» sig, göra ett misstag
+sv:	ha «fel», ta fel, «missta» sig, göra ett misstag
 en:	<err>, be mistaken, make a <mistake>
 def:	TKD
 data:	KLCP-1
@@ -23648,132 +23651,16 @@ file:	1992-01-01-tkd.txt
 
 === end-of-noun-suffix-list ===
 
-TO DO (IN NO PARTICULAR ORDER)
-==============================
-
-    o Check Swedish translation, by looking up all the English words
-      in my English-Swedish dictionary and then checking to see whether
-      the Swedish words exists in their lookup entries.
-    o Expand translation of suffixes as much as possible from TKD.
-    o Could these be fixed?
-        {qIm} (v) contains Swedish "vara", but no English "be"
-        {qotlh} (v) (2) contains Swedish "vara", but no English "be"
-        {Qagh} (v) contains English "be", but no Swedish "vara"
-        {taH} (v) (1) contains English "be", but no Swedish "vara"
-        {waQ} (v) contains Swedish "vara", but no English "be"
-        {wuv} (v) contains Swedish "vara", but no English "be"
-    o Make a last proofreading, then incorporate the last words (now
-      at the end of the list) into the main body of the dictionary.
-    o Break all rows longer than 75 characters (I have confirmed that
-      "ZDb2Sortable" is compatible with this).
-    o Check gender of all Swedish "vara"-verbs.
-    o Machine-check Swedish part-of-speech for all words.
-    o Check usage of Swedish reflexive pronoun "sig".
-      (Should be within parentheses?)
-    o Machine-check Swedish spelling.
-      (Extract Swedish text & use some spellchecker on it.)
-    o Machine-check English spelling.
-    o Check/correct dubious entries (marked with ¿?).
-    o Make a complete list of all sources.
-    o Machine-check Klingon sort order.
-    o Extract Swedish and English indices, sort these and look for
-      any conclusions that can be drawn from them.
-
-
-SUGGESTIONS FOR IMPROVEMENT OF THE POCKET DICTIONARY
-
-  o Cross references between irregular plural and singular forms.
-    (E.g. {mang} refers to {negh} and vice versa.)
-
-  o Add option of having free text for an entry which need further explanation,
-    (e.g. {Hoch}):
-
-    Current entry:
-
-        {Hoch} /n/ everyone, all, everything, each, every [TKD, TKW]
-
-    Suggested new entry:
-
-        {Hoch} /n/ everyone, all, everything, each, every [TKD, TKW]
-
-          {Hoch} noun(sg) "each X"
-          {Hoch} noun(pl) "all X"
-          noun {Hoch} "all of the X"
-
-Most quantity words appear to behave like numbers and come before the noun: Hoch X
-
-     X {Hoch} "all of X" [KGT p.155]
-       {nIn Hoch} "all of the fuel" [KGT p.155]
-     {Hoch} X(sg) "each X" [HQ5:2 p.11]
-       {Hoch nuH} "every weapon" [KGT p.108]
-     {Hoch} X(pl) "all the Xs" [HQ5:2 p.11]
-       {Hoch jaghpu'Daj} "all his enemies" [KGT p.107]
-     {'op} X "some Xs" [S7],
-     {latlh} X "(an)other X/Xs" [S31],
-     {bID} X "half an X, a half X" [BOP]
-
-  o A change of layout in the English--Klingon part, so that it looks
-    something like this (typographic key: |sans serif| /italic/ {bold})
-
-      |worthless|  /v/  {lo'laHbe'} be ~
-      |worthless|  /v/  be ~ {lo'laHbe'}
-
-      |friend| /n/ close male ~ of a male
-        {maqoch} buddy, pal [KGT]
-      |buddy| /n/ {maqoch} pal, close male
-        friend of a male
-      |close male friend of a male| /n/
-        {maqoch} buddy, pal
-
-      |fresh| /v/ be ~ {baQ} be just picked
-        (fruit, vegetable)
-      |ceiling| /n/ {pa' beb} (of a room on
-        the top story of a structure)
-      |pa' beb| /n/ ceiling (of a room on the
-        top story of a structure) [News
-        1998-12-07; HQ8:3 p.2]
-
-    Currently, if you look up a word like "wrong", you'll find:
-
-        _wrong_ /v/ {muj} be ~
-
-    Which makes it very easy to miss that fact the word is adjectival in
-    nature. I propose that this should instead be represented as:
-
-       _wrong_ /v/ be ~ {muj}
-
-    Let's take a look at the word defined as "<buddy>, <pal>, <close male
-    <friend>> of a male (n)" in the database below. Currently you can find
-    the entries:
-
-       _buddy_ /n/ {maqoch} pal, close male friend of a male
-       _close male friend_ /n/ {maqoch} buddy, pal, ~ of a male
-       _friend_ /n/ {maqoch} buddy, pal, close male ~ of a male
-       _pal_ /n/ {maqoch} buddy, close male friend of a male
-
-    But I think this should instead be represented as:
-
-       _buddy_ /n/ {maqoch} pal, close male friend of a male
-       _close male friend_ /n/ ~ of a male {maqoch} buddy, pal
-       _friend_ /n/ close male ~ of a male {maqoch} buddy, pal
-       _pal_ /n/ {maqoch} buddy, close male friend of a male
-
-    The idea is that the definition (but not the entire description, since
-    we want to keep it short) from which the lookup entry was taken should
-    be presented to the reader before the Klingon word, so that the reader
-    have as much context as possible to relate the word to.
-
-
 KLINGON WORDS NEVER OCCURING BY THEM SELVES
+===========================================
 
-    The following words exist in the dictionary that are not accounted for
-    separately, but instead only occurs in different noun-noun
-    constructions. Most of these are logical derivates which can be
-    understood either as built up of known elements (e.g. {chevwI'} from
-    {chev} and the suffix {-wI'}) or as proper nouns. At least one ({chem}),
-    however, notably deviates from this pattern, and the question remains
-    whether {chem} can be considered a word in its own right. (A question
-    for Okrand, perhaps?) [2000-10-12]
+The following words exist in the dictionary that are not accounted for
+separately, but instead only occurs in different noun-noun constructions. Most
+of these are logical derivates which can be understood either as built up of
+known elements (e.g. {chevwI'} from {chev} and the suffix {-wI'}) or as proper
+nouns. At least one ({chem}), however, notably deviates from this pattern, and
+the question remains whether {chem} can be considered a word in its own right.
+(A question for Okrand, perhaps?) [2000-10-12]
 
 	{chem}	    (magnetic) field
 	{chevwI'}   "one who separates"
