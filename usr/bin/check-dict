@@ -574,16 +574,24 @@ sub source_ref_syntax {
     # simple page numbers
     my $page_refs = qr/ $s $pp(, $s $pp)*/x;
 
-    my $holqed_source  = qr/HQ[0-9]+:[0-9]+ $page_refs? (?:\s\("[^"]*"\))?/x;
-    my $paged_source   = qr/( TKDa? $tkd_refs? |KGT $kgt_refs? | (DI|Eurotalk|Sarek|TKW) $page_refs?) (${s}et${s}al\.)? /x;
-    my $unpaged_source = qr/BoP|CK|PK|KCD|KLINW|TDNW|Radio $s Times|
-                            S7|S8|S14|S15|S20|S25|S26|S32|S33|ST1|ST5|STE|
-                            \{qep'a'\} $s \d{4}                                                                         |
-                            Email      $s \d{4}-\d{2}-\d{2}   $s \(by $s [^()]+, $s to [^()]+,         $s "[^"]+" \)    |
-                            News       $s \d{4}-\d{2}-\d{2} ( $s \(by $s [^()]+, $s to [^()]+,         $s "[^"]+" \) )? |
-                            Web        $s \d{4}-\d{2}-\d{2}   $s \(by $s [^()]+, $s https?:\/\/[^()]+, $s "[^"]+" \)    |
-                            Recording  $s \d{4}-\d{2}         $s \( .*?                                           \)
-                           /x;
+    my $by    = qr/by$s[^()]+/;         # "by ..."
+    my $to    = qr/to$s[^()]+/;         # "to ..."
+    my $url   = qr/https?:\/\/[^()]+/;  # "http://..."
+    my $subj  = qr/"[^"]+"/;            # "..."
+    my $date  = qr/\d{4}-\d{2}-\d{2}/;  # "YYYY-MM-DD"
+    my $mdate = qr/\d{4}-\d{2}/;        # "YYYY-MM"
+
+    my $holqed_source  = qr/HQ\d{1,2}:[1-4]+ $page_refs? (?: $s \( $subj \))/x;
+    my $paged_source   = qr/( TKDa? $tkd_refs? |KGT $kgt_refs? | (DI|Eurotalk|Sarek|TKW) $page_refs?) ($s et $s al\.)? /x;
+    my $unpaged_source = qr{
+        BoP|CK|PK|KCD|KLINW|TDNW|Radio $s Times|
+        S7|S8|S14|S15|S20|S25|S26|S32|S33|ST1|ST5|STE|
+        \{qep'a'\} $s \d{4}                                          |
+        Email      $s $date   $s \($by, $s $to    , $s $subj   \)    |
+        News       $s $date ( $s \($by, $s $to    , $s $subj   \) )? |
+        Web        $s $date   $s \($by, $s $url   , $s $subj   \)    |
+        Recording  $s $mdate  $s \(.*?                         \)
+    }x;
 
     my $source       = qr/$paged_source|$holqed_source|$unpaged_source/x;
 
