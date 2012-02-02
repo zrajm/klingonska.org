@@ -588,7 +588,7 @@ sub source_ref_syntax {
         S7|S8|S14|S15|S20|S25|S26|S32|S33|ST1|ST5|STE|
         \{qep'a'\} $s \d{4}                                          |
         Email      $s $date   $s \($by, $s $to    , $s $subj   \)    |
-        News       $s $date ( $s \($by, $s $to    , $s $subj   \) )? |
+        News       $s $date ( $s \($by, $s $to (?:, $s $subj)? \) )? |
         Web        $s $date   $s \($by, $s $url   , $s $subj   \)    |
         Recording  $s $mdate  $s \(.*?                         \)
     }x;
