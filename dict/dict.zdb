@@ -830,7 +830,7 @@ file:	1998-11-01-bop.txt
 
 tlh:	{bIQSIp «'ugh»}
 pos:	noun
-sv:	«deuterium-isotop»
+sv:	«deuteriumisotop»
 en:	«deuterium isotope»
 def:	BoP
 ref:	KLINW
@@ -1378,7 +1378,6 @@ tlh:	{cha}
 pos:	noun
 sv:	«torpeder»
 en:	<torpedoes>
-desc:	pl. of {peng}
 def:	ST1; TKD
 see:	{peng} is the singular form
 file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
@@ -1930,7 +1929,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{chetvI'} [.2]
 pos:	noun
-sv:	«~chetvi~», «spjut-slunga»
+sv:	«~chetvi~», «spjutslunga»
 en:	«~chetvi~», <spear-throwing device>
 def:	KGT
 cat:	fighting
@@ -5411,7 +5410,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{Hong boq chuyDaH}
 pos:	noun
-sv:	«impuls-fusions«raketer»»
+sv:	«impulsfusions«raketer»»
 en:	«impulse fusion «thrusters»»
 def:	BoP
 data:	phrase
@@ -6614,7 +6613,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{jolpat}
 pos:	noun
-sv:	«transporter-system»
+sv:	«transportersystem»
 en:	«transporter system»
 def:	BoP
 file:	1998-11-01-bop.txt
@@ -7298,7 +7297,7 @@ meta:	Entries differ and have been combined here.
 
 tlh:	{le'be'}
 pos:	verb
-sv:	vara «icke-exeptionell», vara «icke-utmärkande»
+sv:	vara «oexeptionell», vara «icke-utmärkande»
 en:	be <unexceptional>, be <nonspecific>
 def:	KGT
 file:	1997-11-01-kgt.txt
@@ -7643,7 +7642,16 @@ pos:	noun
 sv:	«positionskontrollraketer», «lägeskontrollraketer», «styrraketer»
 en:	<attitude-control «thrusters»>
 def:	TKD
-file:	1992-01-01-tkd.txt
+ref:	HQ11:2 p.8--9 ("{matlh jup mu'mey}")
+com:	"Weirdly, although Maltz said he knew of no noun meaning "attitude,"
+	the noun {lol} may show up in {lolSeHcha} <attitude control thrusters>.
+	Although the middle element of this word, {SeH}, is certainly the verb
+	<control>, the full etymology of this word is far from clear. (If the
+	final element, {cha}, is, in fact, {cha} <torpedoes>, this may shed
+	some light on early versions of the device. On the other hand,
+	something else may be going on here; maybe {lolSeHcha} is shortened
+	from a longer construction." [HQ11:2 p.8--9 ("{matlh jup mu'mey}")]
+file:	1992-01-01-tkd.txt; 2002-06-holqed-11-2.txt
 
 tlh:	{loltaH}
 pos:	verb
@@ -12674,7 +12682,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{pu'beH}
 pos:	noun
-sv:	«phaser-gevär»
+sv:	«phasergevär»
 en:	<phaser rifle>
 def:	TKD
 see:	*{pu'bej}
@@ -12684,7 +12692,7 @@ file:	1992-01-01-tkd.txt
 tlh:	*{pu'bej}
 warn:	canon misspelling, use {pu'beH} instead
 pos:	noun
-sv:	«phaser-gevär»
+sv:	«phasergevär»
 en:	«phaser rifle»
 def:	KGT p.56
 see:	{pu'beH}
@@ -12698,7 +12706,7 @@ meta:	*{bej} is here assumed to be a misspelling of {beH}, since it is
 
 tlh:	{pu'beq}
 pos:	noun
-sv:	«phaser-manskap»
+sv:	«phaserbesättning», «phasermanskap»
 en:	<phaser crew>
 def:	TKD
 cat:	fighting
@@ -12706,7 +12714,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{pu'DaH}
 pos:	noun
-sv:	«phaser-batteri», «phaser-uppsättning»
+sv:	«phaserbatteri», «phaseruppsättning»
 en:	<phaser banks>
 def:	TKD
 cat:	fighting
@@ -12714,7 +12722,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{pu'HIch}
 pos:	noun
-sv:	«phaser-pistol»
+sv:	«phaserpistol»
 en:	<phaser pistol>
 def:	TKD
 cat:	fighting
@@ -13028,7 +13036,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{qawHaq}
 pos:	noun
-sv:	«minnesbank», «databank»
+sv:	«minnesbanker», «databanker»
 en:	<memory banks>, <data banks> (singular)
 def:	TKD; TKDa
 file:	1992-01-01-tkd.txt
@@ -19754,7 +19762,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{verengan Ha'DIbaH}
 pos:	noun
-sv:	«ferengitölp», «ferengi-hund»
+sv:	«ferengitölp», «ferengihund»
 en:	«Ferengi dog»
 def:	KCD
 com:	According to KCD this is "a classic insult".
@@ -21445,7 +21453,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{yoy}
 pos:	verb
-sv:	vara «upp-och-ner»
+sv:	vara «uppochner»
 en:	be <upside down>
 def:	TKD
 file:	1992-01-01-tkd.txt
@@ -21894,7 +21902,7 @@ file:	2003-09-holqed-12-3.txt
 
 tlh:	{'eDSeHcha}
 pos:	noun
-sv:	start-/landnings-«raketer» (pluralform)
+sv:	start-/landnings«raketer» (pluralform)
 en:	take-off/landing «thrusters» (plural form)
 def:	BoP
 file:	1998-11-01-bop.txt
@@ -22384,7 +22392,7 @@ meta:	Entries differ and have been combined here.
 
 tlh:	{'Iw 'Ip ghomey}
 pos:	name
-sv:	«Blodseds-cirklar» (känd skulptur)
+sv:	«Blod-eds-cirklar» (känd skulptur)
 en:	«Blood Oath Circles» (famous sculpture)
 def:	KCD
 com:	The sculpture was made by {mIStaq}.
