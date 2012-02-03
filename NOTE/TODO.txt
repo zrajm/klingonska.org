@@ -422,7 +422,7 @@ Priorities:
     to the prettified version (as well as to the original text formatted
     transcript).
 
-*** [48%] Transcripts updating/improvement
+*** [50%] Transcripts updating/improvement
 **** TODO Fix correction comments with "??" in KGT transcript
 **** TODO More canon stuff mentioned here (by Steven Boozer)
      https://mail.google.com/mail/?shva=1#search/in%3Atlhingan-hol+stconst/1217ffac4948e9ab
@@ -571,12 +571,14 @@ Priorities:
      CLOSED: [2012-02-01 Wed 21:50]
      Article with transcripts of Skybox S32 and S33.
      Also verify the 'com:' part under *{Soq} in dict.zdb.
-**** TODO Add transcript of HQ8:4 p.11--13
-     Article named: "Notes from Star Trek V: The Final Frontier". Fix 'file:'
-     field for {ghuy'}, {ngoqDe'}, {qIrq}, {toDDuj}, {yo'SeH yaHnIv}. Add
-     'file:' for {'entepray'}.
+**** DONE Add transcript of HQ8:4 p.11--13
+     CLOSED: [2012-02-03 Fri 17:42]
+**** TODO Proofreed transcript of HQ8:4 p.11--13
+    Article named: "Notes from Star Trek V: The Final Frontier". Fix 'file:'
+    field for {ghuy'}, {ngoqDe'}, {qIrq}, {toDDuj}, {yo'SeH yaHnIv}. Add
+    'file:' for {'entepray'}.
 
-     Referenced in dict.zdb.
+    Referenced in dict.zdb.
 **** DOING Add HolQeD 5:2 p.11 (article about {Hoch})
       Mentioned in:
       file:///home/zrajm/2010-07-08/teresh.tdonnelly.org/kliadd5.html

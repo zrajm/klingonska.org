@@ -1496,7 +1496,7 @@ def:	News 1999-11-21
 ref:	HQ8:4 pp.6--8 ("Maltz Online")
 com:	"90 degrees on Terran compass" [KLINW]
 cat:	locative
-file:	1999-11-21-news.txt; 1999-12-holqed-08-4.txt
+file:	1999-11-21-news.txt; 1999-12-holqed-08-4-a.txt
 
 tlh:	{chanDoq}
 pos:	noun
@@ -4623,8 +4623,7 @@ sv:	«fan», «djävlar» («svordom»)
 en:	«damn» («curse»)
 def:	ST5; HQ8:4 p.13 ("Notes from Star Trek V: The Final Frontier")
 com:	ST5: {ghuy' po'qu'} "Damn he's good."
-file:	1999-12-holqed-08-4.txt
-meta:	FIXME -- File contains wrong article.
+file:	1999-12-holqed-08-4-b.txt
 
 tlh:	{ghuy'cha'}
 pos:	exclamation
@@ -11296,8 +11295,7 @@ en:	<encoded message>
 def:	ST5; HQ8:4 p.12 ("Notes from Star Trek V: The Final Frontier")
 com:	ST5: {DIvI' Se' wI'IjtaHvIS DaH ngoqDe' wIHevta'.} "We've just received
 	an encoded message on the Federation frequency."
-file:	1999-12-holqed-08-4.txt
-meta:	FIXME -- File contains wrong article.
+file:	1999-12-holqed-08-4-b.txt
 
 tlh:	{ngoQ}
 pos:	noun
@@ -11354,7 +11352,7 @@ en:	«then», «at» that time
 def:	News 1999-11-05
 ref:	HQ8:4 pp.8--9 ("Maltz Online")
 cat:	time
-file:	1999-11-05-news.txt; 1999-12-holqed-08-4.txt
+file:	1999-11-05-news.txt; 1999-12-holqed-08-4-a.txt
 
 tlh:	{ngujlep}
 pos:	noun
@@ -13565,11 +13563,9 @@ pos:	name
 sv:	«Kirk»
 en:	«Kirk»
 def:	HQ8:4 p.12 ("Notes from Star Trek V: The Final Frontier")
-com:	ST5: {'entepray''a'. qIrq Duj 'oH} "Enterprise? That's Kirk's
-	ship."
-file:	1999-12-holqed-08-4.txt
-meta:	FIXME -- File contains wrong article. Word does not follow standard
-	Klingon phonotax.
+com:	{'entepray''a'. qIrq Duj 'oH} "Enterprise? That's Kirk's ship." [ST5]
+file:	1999-12-holqed-08-4-b.txt
+meta:	Word does not follow standard Klingon phonotax.
 
 tlh:	{qIt}
 pos:	verb
@@ -16101,7 +16097,7 @@ sv:	«hjul»
 en:	«wheel»
 def:	News 1999-11-05
 ref:	HQ8:4 pp.8--9 ("Maltz Online")
-file:	1999-11-05-news.txt; 1999-12-holqed-08-4.txt
+file:	1999-11-05-news.txt; 1999-12-holqed-08-4-a.txt
 
 tlh:	{ruv}
 pos:	noun
@@ -18089,7 +18085,7 @@ def:	News 1999-11-21
 ref:	HQ8:4 pp.6--8 ("Maltz Online")
 com:	"approx 220 degrees on Terran compass" [KLINW]
 cat:	locative
-file:	1999-11-21-news.txt; 1999-12-holqed-08-4.txt
+file:	1999-11-21-news.txt; 1999-12-holqed-08-4-a.txt
 
 tlh:	{tIngDagh}
 pos:	noun
@@ -18246,10 +18242,9 @@ pos:	noun
 sv:	«räddningsskepp»
 en:	«rescue ship»
 def:	ST5; HQ8:4 p.11 ("Notes from Star Trek V: The Final Frontier")
-com:	ST5: {vaj toDDujDaj ngeHbej DIvI'.} "That means the
-	Federation will be sending a rescue ship of its own."
-file:	1999-12-holqed-08-4.txt
-meta:	FIXME -- File contains wrong article.
+com:	ST5: {vaj toDDujDaj ngeHbej DIvI'.} "That means the Federation will be
+	sending a rescue ship of its own."
+file:	1999-12-holqed-08-4-b.txt
 
 tlh:	{toDSaH}
 pos:	exclamation
@@ -21501,9 +21496,8 @@ sv:	«»
 en:	«operations command»
 def:	ST5; HQ8:4 p.11 ("Notes from Star Trek V: The Final Frontier")
 data:	phrase; {yo'SeH} (n); {yaHnIv} (n)
-file:	1999-12-holqed-08-4.txt
-meta:	FIXME -- File contains wrong article. Is this correctly formed? +
-	Swedish translation needed.
+file:	1999-12-holqed-08-4-b.txt
+meta:	FIXME -- Is this correctly formed? + Swedish translation needed.
 
 tlh:	{yu}
 pos:	noun
@@ -22162,7 +22156,7 @@ def:	News 1999-11-21
 ref:	HQ8:4 pp.6--8 ("Maltz Online")
 com:	"320 degrees on Terran compass" [KLINW]
 cat:	locative
-file:	1999-11-21-news.txt; 1999-12-holqed-08-4.txt
+file:	1999-11-21-news.txt; 1999-12-holqed-08-4-a.txt
 
 tlh:	{'evnagh}
 pos:	noun
