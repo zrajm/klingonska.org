@@ -913,6 +913,12 @@ Priorities:
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** dict.zdb
+**** TODO Add 'def: ST5' for all words in 1999-12-holqed-08-4-b.txt(?)
+     I'm not sure the HQ8:4 ("Notes from Star Trek V: The Final Frontier")
+     article actually reflects Klingon dialogue, as it appears in the movie.
+
+     But all words source referenced with that {HolQeD} article, and that is
+     also in the final move should have 'ref: ST5' or 'def: ST5'.
 **** TODO Make sure all Eurotalk words has proper 'data' fields
 **** Design improvements (to think about)
 ***** TODO Should "some(one|body|thing)" really be abbreviated in 'desc:'?

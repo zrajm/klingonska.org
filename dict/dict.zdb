@@ -161,6 +161,10 @@ FIELD NAMES USED IN DICTIONARY BELOW
                       to be canon, but later proven non-canon. Non-canon words
                       should not be included in the pocket dictionary.
 
+                      "non-phonotactic" = Mean that a word does not adhere to
+                      the standard rules for how Klingon syllables are made.
+                      Examples are {qIrq} and {pIqarD}.
+
                       "exclude from K-E" = Means that the word will not be
                       included in the Klingon--English side of the pocket
                       dictionary. Words are only excluded when they are present
@@ -6027,9 +6031,8 @@ sv:	«Jean-Luc Picard»
 en:	«Jean-Luc Picard»
 def:	S25
 com:	S25 was reprinted in HQ5:3 p.15
-data:	phrase; {janluq} (name); {pIqarD} (name)
+data:	non-phonotactic; phrase; {janluq} (name); {pIqarD} (name)
 file:	1996-sbx-s25.txt
-meta:	Word does not follow standard Klingon phonotax.
 
 tlh:	{jang}
 pos:	verb
@@ -13564,8 +13567,8 @@ sv:	«Kirk»
 en:	«Kirk»
 def:	HQ8:4 p.12 ("Notes from Star Trek V: The Final Frontier")
 com:	{'entepray''a'. qIrq Duj 'oH} "Enterprise? That's Kirk's ship." [ST5]
+data:	non-phonotactic
 file:	1999-12-holqed-08-4-b.txt
-meta:	Word does not follow standard Klingon phonotax.
 
 tlh:	{qIt}
 pos:	verb
@@ -23593,6 +23596,7 @@ pos:	noun suffix type 1
 sv:	affektion
 en:	endearment
 def:	TKDa 3.3.1 (p.174)
+data:	non-phonotactic
 file:	1992-01-01-tkd.txt
 
 tlh:	{-pu'}

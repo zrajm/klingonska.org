@@ -358,9 +358,18 @@ sub check_tlh {
             [aeI] ([bDHjlmnpqQrStv']|ch|gh|ng|tlh|[wy]'?|rgh)? |
             [ou]  ([bDHjlmnpqQrStv']|ch|gh|ng|tlh|  y '?|rgh)?    # "ow" and "uw" is not allowed
     )/x;
-    if (not $word =~ /^\*?\{ ($re+(\s$re+|\s«($re+|pIqarD)»)*|$re?-|-$re|-oy|qIrq) \}$/x) {
-        warn "bad syllable structure for '$word' in '$field' field\n";
-        print STDERR "    $field: $_\n";
+    if (not $word =~ /^\*?\{ ($re+(\s$re+|\s«$re+»)*|$re?-|-$re) \}$/x) {
+        # non-phonotactic word
+        if ($record !~ /^data:\t.*\bnon-phonotactic\b/m) {
+            warn "bad syllable structure for '$word' in '$field' field\n";
+            print STDERR "    $field: $_\n";
+        }
+    } else {
+        if ($record =~ /^data:\t.*\bnon-phonotactic\b/m) {
+            warn "word '$word' incorrectly marked as 'data: non-phonotactic' " .
+                "in '$field' field\n";
+            print STDERR "    $field: $_\n";
+        }
     }
 
     if (/^\*/) {
