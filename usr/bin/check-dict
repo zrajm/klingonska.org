@@ -20,8 +20,9 @@ EOF
 my %cfg = (
     canon_path     => "../../canon", # relative to executable's path
     field_order    => [ qw(tlh  warn  pos  sv   en   desc  def
-                           ref  com   pun  see  cat  data  file  meta) ],
+                           ref  cite  com  pun  see  cat  data  file  meta) ],
     field_required => [ qw(tlh pos sv en def file) ],
+    field_multiple => { cite => 1 },
     field_subs     => {
         tlh  => \&check_tlh,
         warn => \&check_warn,
@@ -31,6 +32,7 @@ my %cfg = (
         desc => \&check_desc,
         def  => \&check_source,
         ref  => \&check_source,
+        cite => \&check_cite,
         com  => \&check_com,
         see  => \&check_see,
         data => \&check_data,
@@ -174,6 +176,19 @@ sub check_source {
     if (not source_ref_syntax($_)) {
         warn "invalid source reference in '$field' field\n";
         print STDERR "    $field: $_\n";
+    }
+}
+
+sub check_cite {
+    my ($_, $field, $record) = @_;
+    if (m/.*\[(.*?)\]$/) {
+        if (not source_ref_syntax($1)) {
+            warn "invalid source reference '$1' in '$field' field\n";
+            print STDERR "    $field: $_\n";
+        }
+
+    } else {
+        warn "missing source reference in '$field' field\n";
     }
 }
 
@@ -415,7 +430,7 @@ record (with any continuation lines unwrapped).
 =cut
 
 sub read_dict {
-    my ($section) = @_;
+    my ($section, $field_multiple) = @_;
     # skip header
     while (<>) {
         last if /^=== start-of-$section-list ===$/;
@@ -452,7 +467,7 @@ sub read_dict {
 
         if (/^([^:\s]*):/) {                # new field
             warn "duplicate '$1' field in line $., in record at line $line\n"
-                if $field_name{$1} ++;
+                if $field_name{$1} ++ and !$field_multiple->{cite};
             if ($line < 0) {                #   if 1st in record
                 warn "missing blank line before entry in line $., " .
                     "in record at line $line\n"
@@ -616,7 +631,7 @@ sub source_ref_syntax {
 
 my ($prefix_count, $suffix_count, $word_count, $marked_count) = (0, 0, 0, 0);
 foreach my $section (qw/word verb-prefix verb-suffix noun-suffix/) {
-    my %record = read_dict($section);
+    my %record = read_dict($section, $cfg{field_multiple});
 
     fields_ok(@cfg{qw(field_required field_order field_subs)}, %record);
 

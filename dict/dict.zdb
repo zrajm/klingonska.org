@@ -116,6 +116,10 @@ FIELD NAMES USED IN DICTIONARY BELOW
                         * s.t. = something
     def:   (required) source where definition can be found (within [])
     ref:   (optional) canon sources where it also occurs
+    cite:  (optional; multiple)
+                      citation from specific source; one 'cite' field per
+                      quote, each cite must be terminated with source reference
+                      in square brackets
     com:   (optional) special comment concerning the entry
     pun:   (optional) comments about puns and/or word play
     see:   (optional) pointer to related word(s) (separated by semicolon)

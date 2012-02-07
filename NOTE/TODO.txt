@@ -422,7 +422,22 @@ Priorities:
     to the prettified version (as well as to the original text formatted
     transcript).
 
-*** [50%] Transcripts updating/improvement
+*** [48%] Transcripts updating/improvement
+**** TODO Add Washington Shakespeare Company's Klingon press release
+     https://mail.google.com/mail/#search/%22Washington+Shakespeare+Company%22/12a4f44a8588c816
+     An excerpt from a press release sent by the Washington Shakespeare Company
+     on June 10:
+
+     "In celebration of its groundbreaking 20 years as the metro area’s
+     cutting-edge classical theater company, WSC is pleased to present “By Any
+     Other Name: An Evening of Shakespeare in Klingon,” with special guest
+     George Takei. This unique production includes performances of memorable
+     Shakespearean scenes presented in both English and Klingon, the language
+     spoken by the fictional warrior race in the beloved Star Trek series."
+
+     [ http://washingtonshakespeare.org/klingon.pdf ]
+
+     Marc Okrand is currently the president of the WSC board.
 **** TODO Fix correction comments with "??" in KGT transcript
 **** TODO More canon stuff mentioned here (by Steven Boozer)
      https://mail.google.com/mail/?shva=1#search/in%3Atlhingan-hol+stconst/1217ffac4948e9ab
@@ -1294,7 +1309,9 @@ Priorities:
       "cat: food"
 ***** TODO Rename 'cat:' field to 'tag'
       Maybe 'data:' should also be merged into the same?
-***** TODO Add (optional) field 'cite' (which may be repeated)
+***** TODO Move all quotes in 'com' fields to 'cite' fields
+***** DONE Add (optional) field 'cite' (which may be repeated)
+      CLOSED: [2012-02-07 Tue 11:33]
       It should look like this:
 
           cite: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
