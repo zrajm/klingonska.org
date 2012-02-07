@@ -3258,8 +3258,18 @@ pos:	verb
 sv:	vara «orange», vara «röd»
 en:	be <orange>, be <red>
 def:	TKD
+ref:	KGT p.82; News 1998-02-21 (by Marc Okrand, to startrek.klingon, "Re:
+	color (for Okrand)"); HQ8:1 p.8 ("Maltz Online"); Eurotalk
+cite:	{Doqqu'} <a color more red than orange> [KGT p.82]
+cite:	{Doq 'ej beqpuj rur} <bright orange> [KGT p.82]
+cite:	{Doq 'ej wovbe'} <brown> [HQ8:1 p.7 ("Maltz Online"); Eurotalk]
+cite:	{Doq 'ej Qaj wuS rur} <be orange, red and resemble kradge lips>
+	[HQ8:1 p.7 ("Maltz Online")]
+cite:	{Doq 'ej SuD} <purple> [Eurotalk]
+cite:	{Doqqu' 'ej wov} <pink> [Eurotalk]
 data:	KLCP-1
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt; 1999-03-holqed-08-1.txt;
+	2011-11-01-email.txt
 meta:	Entries differ and have been combined here.
 
 tlh:	{DoQ}
@@ -17110,8 +17120,16 @@ pos:	verb
 sv:	vara «grön», vara «blå», vara «gul»
 en:	be <green>, be <blue>, be <yellow>
 def:	TKD
+ref:	KGT p.82; News 1998-02-21 (by Marc Okrand, to startrek.klingon, "Re:
+	color (for Okrand)"); HQ8:1 p.8 ("Maltz Online"); Eurotalk
+cite:	{SuDqu'} would probably be described as <green> [KGT p.82]
+cite:	{Doq 'ej SuD} <purple> [Eurotalk]
+cite:	{SuD 'ej Hurgh} <dark blue> [Eurotalk]
+cite:	{SuD 'ej wov} or {SuD 'ach wov} <a way to refer to a yellowish tinge>
+	[KGT] or <light blue> [Eurotalk]
 data:	KLCP-1
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt; 1999-03-holqed-08-1.txt;
+	2011-11-01-email.txt
 meta:	Entries differ and have been combined here.
 
 tlh:	[2] {SuD}
