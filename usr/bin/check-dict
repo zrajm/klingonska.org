@@ -308,9 +308,9 @@ sub check_tlh {
         warn "duplicate entry '$word' in '$field' field\n"
             if $hyp == $prev_hyp and $sub == $prev_sub and $subsub == $prev_subsub;
         # check that counters did not disappear when they weren't supposed to
-        warn "pre-word counter '[." . ($prev_hyp + 1) . "]' missing for '$word' in '$field' field\n"
+        warn "pre-word counter '[" . ($prev_hyp + 1) . "]' missing for '$word' in '$field' field\n"
             if $hyp == 0 and $prev_hyp > 1;
-        warn "post-word counter '[." . ($prev_sub + 1) . "]' missing for '$word' in '$field' field\n"
+        warn "post-word counter '[" . ($prev_sub + 1) . "]' missing for '$word' in '$field' field\n"
             if $sub == 0 and $prev_sub > 0 and $hyp == $prev_hyp;
         warn "post-word sub-counter '[." . ($prev_subsub + 1) . "]' missing for '$word' in '$field' field\n"
             if $subsub == 0 and $prev_subsub > 0 and $sub == $prev_sub and $hyp == $prev_hyp;
