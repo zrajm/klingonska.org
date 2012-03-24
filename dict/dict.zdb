@@ -1,193 +1,436 @@
--*- zdb -*-
+FORMAT:  zrajm-database
+VERSION: 1.0
+URL:     http://klingonska.org/dict/dict.zdb
+LICENSE: Creative Commons Attribution-ShareAlike 3.0
+         <http://creativecommons.org/licenses/by-sa/3.0/>
+AUTHOR:  Zrajm C Akfohg <zrajm@klingonska.org>
+
+
+ABOUT
+=====
 [2012-01-27] 2732 Klingon words (not counting affixes & words marked with '*').
 [2011-11-01] 2698 words.
+
 Each section is sorted in Klingon alphabetical order.
-----------------------
+
 
 KLINGON IDEALS OF BEHAVIOR
---------------------------
+==========================
+Hmm. This is a sorta silly. -- Yet here it is. -- The four ideals of behavior
+from "Power Klingon". With my own attempt at translating them into Klingon.
+
     accuracy             {yIqarchu'!} -- Be accurate!
     straightforwardness  {yI'utchu'!} -- Be essential!
     aggressiveness       {yIvaQchu'!} -- Be aggressive!
     strength             {yIHoSchu'!} -- Be strong!
 
-FIELD NAMES USED IN DICTIONARY BELOW
-------------------------------------
-    tlh:   (required) Klingon word
-                      NOTE: Requires 'data: phrase' if there are more than one
-                      word inside the curly brackets.
 
-                      Klingon text is given in curly brackets (e.g. {jotHa'}).
+DESCRIPTION OF THIS FILE FORMAT
+===============================
+This file starts with a *metadata header* -- the rest of the file contains data
+only in marked *database sections*. Text outside of these sections (such as
+this text) is comments only, and programs extracting data should ignore it.
 
-                      A leading asterisk is used for deprecated and non-canon
-                      words (e.g. *{jIn}). Such words must also (1) have the
-                      'warn:' field set and (2) have the label 'non-canon' or
-                      'deprecated' in the 'data:' field. (See descriptions of
-                      those fields below.)
+None of the lines in this file exceed 79 characters in length (not counting the
+newline at the end of each line). This goes for both database contents and
+comments.
 
-                      Words that are homonyms must also have one (or more)
-                      counter(s) for describing the layout of such words in the
-                      pocket dictionary. There are three possible counters:
 
-                          1) pre-word counter
-                          2) post-word counter
-                          3) post-word sub-counter
+METADATA HEADER
+---------------
+The metadata header (similar to an email header) starts at the very beginning
+of the file and ends with the first blank line. Just like the database content,
+it consists of attribute/value pairs. The metadata is a single entry (as
+opposed to the database proper) with information of the database as whole.
+Lines with leading whitespace are a continuation of the previous line. This is
+the meaning of the values:
 
-                      1) The pre-word counter comes before the word (inside
-                      square brackets) and separates homonyms that are not
-                      semantically related. E.g. "[1] {nIH}" (<steal> [v])
-                      means something very different from "[2] {nIH}" (<right
-                      (side)> [n]).
+  FORMAT: Indicates file format. Always `zrajm-database`.
 
-                      2) The post-word counter comes after the word (inside
-                      square brackets) and separates homonyms that are related
-                      in meaning, but that have different part-of-speech. E.g.
-                      "{bach} [1]" (<shoot> [v]) is very much related in
-                      meaning to "{bach} [2]" (<shot> [n]) even though the two
-                      words have different part-of-speech.
+  VERSION: File format version -- changes when fields are added, removed, or a
+  field format changes. (This happens quite infrequently.) 'VERSION' is *not*
+  updated when words are added/removed/edited in the database, nor if the order
+  of fields or entries change. Programs that sync against this database should
+  abort if 'VERSION' has changed (and instead keep the old data), unless, of
+  course, the program in question has been updated to support the new format.
+  (You might want to encourage your users to look for a program update when
+  this happens.) For version history see 'HISTORY' below.
 
-                      3) The post-word sub-counter comes after the word (after
-                      a period inside square brackets) and separates homonyms
-                      that are related in meaning *and* have the same
-                      part-of-speech. (This can, for example, be a word with
-                      slightly different meanings in {ta' Hol} and some
-                      dialect.) E.g. "{cheSvel} [.1]" (<type of coat> [n]) is
-                      very much related to (and have the same part-of-speech
-                      as) "{cheSvel} [.2]" (<coat, jacket (general term)> [n]
-                      [regional]).
+  URL: The URL of this document on the web -- use this URL to fetch the latest
+  version of this file. (A program to doing this should be prepared to handle
+  web redirects.)
 
-                      Note that all three counters may be at the same time for
-                      a specific word. E.g. "[2] {pa'} [.2]" (<enclosed area>
-                      [n] [slang]) or "{qaD} [2.1]" (<challenge> [n]). Taking
-                      these counters into account, each 'tlh:' field in the
-                      dictionary should be unique.
+  LICENSE: The license of this file -- (I'm *not* claiming to license the
+  Klingon language -- it isn't mine to claim.)
 
-                      Ordering of homonyms are (currently) loosely based on
-                      dialect, and part-of-speech. Stardand dialect words are
-                      sorted before slang/regional words, and part-of-speech
-                      order is as follows.
+  AUTHOR: The person who compiled this database. (As opposed to Marc Okrand,
+  who invented the language.)
 
-                          adv >> v >> excl >> pro >> ques >>
-                              conj >> num >> n >> name
 
-                      (Basically 'verby' words come first -- since adverbials
-                      can form sentences in their own right, as well as take
-                      part of a sentence they're deemed 'verbier' that normal
-                      verbs, pronouns and (some) question words also move
-                      between acting as verbs and nouns and are there fore
-                      considered quite verby too. numerals can likewise assume
-                      the role of adjectives, which makes them verbier than a
-                      plain noun.)
+SECTIONED CONTENT
+-----------------
+Sections are indicated with:
 
-                      This ordering stuff will be formalised (and maybe
-                      changed) in the future.
-    warn:  (optional) Comment for words that are deprecated or non-canon
-                      NOTE: Required for words with leading asterisk in 'tlh'
-                      field, may not occur otherwise. These words must also be
-                      labeled 'non-canon' or 'deprecated' in their 'data'
-                      field.
-    pos:   (required) Part-of-speech
-                      Identifies the (non-abbreviated) part-of-speech for a
-                      word. Value is a full description rather than an
-                      abbreviation. Allowed values are:
-                          * adverbial
-                          * conjuction
-                          * exclamation
-                          * name
-                          * noun
-                          * noun suffix type #
-                          * numeral
-                          * pronoun
-                          * question word
-                          * verb
-                          * verb prefix
-                          * verb suffix rover
-                          * verb suffix type #
-    sv:    (required) Swedish translation and part-of-speech
-                      missing translation marked with «»
-    en:    (required) English definition (from canon sources) and
-                      part-of-speech
-    desc:  (optional) very short description (included in pocket dictionary)
-                      In order to keep it short the following words should be
-                      abbreviated in this field:
-                        * pl. = plural
-                        * sg. = singular
-                        * s.o. = somebody/someone
-                        * s.t. = something
-    def:   (required) source where definition can be found (within [])
-    ref:   (optional) canon sources where it also occurs
-    cite:  (optional; multiple)
-                      citation from specific source; one 'cite' field per
-                      quote, each cite must be terminated with source reference
-                      in square brackets
-    com:   (optional) special comment concerning the entry
-    pun:   (optional) comments about puns and/or word play
-    see:   (optional) pointer to related word(s) (separated by semicolon)
-    cat:   (optional) tagging of words by category, useful for noting
-                      prepositional concepts, body parts etc. (categories
-                      separated by semicolon). Right now the following
-                      categories exist: 'architecture', 'body part',
-                      'clothing', 'country', 'family', 'fighting', 'landscape',
-                      'locative', 'math', 'money', 'music', 'quantity', 'time',
-                      'unit'.
-    data:  (optional) contains additional data about a word:
-                      "KLCP-1" = one of the 500 basic words, required for
-                      passing the Klingon Language Certification Program, first
-                      level
+  === start-of-<SECTION-NAME> ===
 
-                      "derived form" = a word built from other Klingon
-                      morphemes (these words are included in the dictionary to
-                      provide a non-obvious lookup entry in the
-                      English--Klingon side of a dictionary; such a 'derived
-                      form' may thus be excluded from the Klingon--English side
-                      when generating a dictionary); e.g. {chenmoHwI'}
-                      constructed from {chen} 'take form' + {-moH} 'cause' +
-                      {-wI'} 'one who does'.
+  <SECTION-CONTENTS>
 
-                      "phrase" = NOTE: Requires that Klingon word in 'tlh'
-                      field contains space. -- Lookup entry is more than one
-                      word.
+  === start-of-<SECTION-NAME> ===
 
-                      "deprecated" = NOTE: Requires 'warn' field + leading
-                      asterisk in 'tlh' field. -- Used for words occur
-                      misspelled in canon that one should nevertheless be able
-                      to find in the Klingon--English side of the pocket
-                      dictionary. Examples: *{tIb}, *{pu'bej} etc. These words
-                      should not occur in the English--Klingon side of the
-                      pocket dictionary. A warning should be shown whenever
-                      they're displayed.
 
-                      "non-canon" = NOTE: Requires 'warn' field + leading
-                      asterisk in 'tlh' field. -- Used for words that needs to
-                      be especially pointed out not to be canon Klingon. It
-                      might a word that is not canon, but that occurs in a
-                      canon source, or a word that has previously been thought
-                      to be canon, but later proven non-canon. Non-canon words
-                      should not be included in the pocket dictionary.
+SECTION-NAME
+------------
+SECTION-NAME is always lowercase, and hyphens are used instead of spaces. There
+are four sections in this database (this will very likely not change). All
+sections use the same data format.
 
-                      "non-phonotactic" = Mean that a word does not adhere to
-                      the standard rules for how Klingon syllables are made.
-                      Examples are {qIrq} and {pIqarD}.
+  * word-list
+  * verb-prefix-list
+  * verb-suffix-list
+  * noun-suffix-list
 
-                      "exclude from K-E" = Means that the word will not be
-                      included in the Klingon--English side of the pocket
-                      dictionary. Words are only excluded when they are present
-                      otherwhere in the dictionary, or when they are
-                      understandable anyway. E.g. "number suffixes" are
-                      excluded because they have their own reference table.
-                      Derived forms such as words ending in {-moH} (when they
-                      do not differ from the expected meaning ({bolwI'}
-                      <traitor> is included, but {bolwI'} <drooler> would not
-                      be, since it is obvious frob {bol} <drool> + {-wI'} <one
-                      who does>).
-    file:  (required) contains file name(s) of the source transcript in
-                      'Archive of Okrandian Canon'. Multiple filenames are
-                      separated with semicolon + whitespace (i.e. space or
-                      linebreak)
-    meta:  (optional) meta comment regarding entry composition. E.g. info about
-                      how various sources have been combined to form the entry
-                      in question, editor's comments/doubts about fitness of
-                      entry etc.
+
+SECTION CONTENTS
+----------------
+A section consists of one or more *entries* separated from each other by one
+blank line.
+
+Each entry is built up of *fields* (attribute/value pairs) consisting of a
+*field name* and a *field value*, each field name is separated from its value
+with a colon + a single tab character. Like this:
+
+  NAME:<tab>VALUE
+  [<tab>CONTINUED]
+
+Some field values contain multiple lines (which is good, since lines are no
+longer than 79 characters [see above]). A line which is a continuation of the
+previous line start with a single tab character. (Programs should consider this
+indentation equivalent to a space.)
+
+Field names are from the 'LIST OF FIELD NAMES' below (no other field names are
+allowed), and the name of the field defines the format of the field value. The
+same list is used for all sections of the database. (Programs should
+disregard/throw away fields whose field name is not on the list below, and
+never present any such field to the user.)
+
+
+LIST OF FIELD NAMES
+-------------------
+These are the occurring field names, including descriptions of the format of
+the value for each of them. This list us used for all the sections of the
+database.
+
+Within each entry, the fields come in the order listed here. (Programs reading
+this file should not rely on this order, as it is not considered part of the
+file format. Changes in field ordering only will not result in change of the
+'VERSION' number.)
+
+Fields are either: 'required' (= present in all entries); 'optional' (= occur
+in some entries) or 'multiple' (= occur some entries but sometimes more than
+once in the same entry).
+
+  * `tlh:` Klingon word [REQUIRED]
+
+    Contains a Klingon text given in curly brackets (e.g. `{jotHa'}`), and
+    optionally a word counter (split into pre-word, post-word, and post-word
+    sub-counter, described below). The Klingon word is also preceded by an
+    asterisk in certain cases (described below).
+
+    NOTE: If there is more than one word inside the curly brackets `data:
+    phrase` is also set.
+
+    A leading asterisk is used to indicate `deprecated` and `non-canon` words
+    (e.g. `*{jIn}`). NOTE: Such entries also (1) have the `warn:` field set and
+    (2) have `data: non-canon` or `data: deprecated`. (See: `warn:` and `data:`
+    below.)
+
+    Words that are homonyms also have one or more counter(s) for describing the
+    layout of the word in the pocket dictionary. There are three such counters:
+
+        1) pre-word counter
+        2) post-word counter
+        3) post-word sub-counter
+
+    1) The pre-word counter comes before the word (in square brackets) and
+    separates homonyms that are not semantically related. E.g. `[1] {nIH}`
+    <steal> (verb) versus `[2] {nIH}` <right (side)> (noun).
+
+    2) The post-word counter comes after the word (in square brackets) and
+    separates homonyms that are related in meaning, but which have different
+    parts-of-speech. E.g. `{bach} [1]` <shoot> (verb) versus `{bach} [2]`
+    <shot> (noun).
+
+    3) The post-word sub-counter comes after the word (after a period, inside
+    the same square brackets as the post-word counter) and separates homonyms
+    that are related in meaning *and* have the same parts-of-speech. (This can,
+    for example, be a word with slightly different meanings in {ta' Hol} and
+    some dialect.) E.g. `{cheSvel} [.1]` <type of coat> (noun) versus
+    `{cheSvel} [.2]` <coat, jacket (general term)> (noun) (regional).
+
+    All three counters may be used the same time for a specific word. E.g. `[2]
+    {pa'} [.2]` <enclosed area> (noun) (slang) or `{qaD} [2.1]" <challenge>
+    (noun). Taking these counters into account, each `tlh:` field in the
+    dictionary is unique.
+
+    Ordering of homonyms is (currently) loosely based on dialect and
+    part-of-speech. Stardand dialect words are sorted before slang/regional
+    words, and part-of-speech order is as follows.
+
+      adv >> v >> excl >> pro >> ques >> conj >> num >> n >> name
+
+    (Basically 'verby' words come first -- since adverbials can form sentences
+    in their own right, as well as take part of a sentence they're deemed
+    'verbier' that normal verbs, pronouns and (some) question words also move
+    between acting as verbs and nouns and are there fore considered quite verby
+    too. numerals can likewise assume the role of adjectives, which makes them
+    verbier than a plain noun.)
+
+    This ordering stuff will be formalised (and maybe changed) in the future.
+
+    Lookup word markup («...») also occurs inside the curly brackets of this
+    field. Everything said about that under the `en:` field also applies here.
+
+  * `warn:` warning for deprecated or non-canon entries [OPTIONAL]
+
+    NOTE: All words with a leading asterisk in `tlh:` field, have this field
+    (and no others). Words with a leading asterisk are also labeled `non-canon`
+    or `deprecated` in their `data:` field.
+
+  * `pos:` part-of-speech [REQUIRED]
+
+    Gives the part-of-speech of a word. The value is a full description (not an
+    abbreviation). Allowed values are:
+
+      * adverbial
+      * conjuction
+      * exclamation
+      * name
+      * noun
+      * noun suffix type #
+      * numeral
+      * pronoun
+      * question word
+      * verb
+      * verb prefix
+      * verb suffix rover
+      * verb suffix type #
+
+  * `sv:` Swedish translation `en:` [REQUIRED]
+
+    Same format as `en:` (except that `<...>` is never used, since there has
+    never been any Klingon canon written in Swedish).
+
+    If a Swedish translation is missing it is marked with «», and the same
+    entry also have a `meta: FIXME` comment.
+
+  * `en:` English definition (from canon sources) and [REQUIRED]
+
+    English definition of the Klingon word, with all English lookup words
+    (those words you you would look for in the English--Klingon side of the
+    dictionary) marked with <...> or «...». (These angle brackets are used for
+    extracting and sorting entries for the English--Klingon side of a
+    dictionary, they should not be presented for the end user.)
+
+    Single angle brackets <...> indicates that the word has been used as a
+    lookup word in a *canon* word list (TKD, KGT or similar). Double angle
+    brackets «...» marks words that have not appeared as lookup words in any
+    canon word list, but which are nevertheless considered to be an acceptable
+    lookup word (commonly these are words used in canon, but not in a canon
+    *word list*).
+
+    Some additional markup is also used:
+
+      ~...~ = italic
+      {...} = Klingon (bold)
+
+  * `pos:` part-of-speech [REQUIRED]
+
+    Part-of-speech, or word class. Allowed values are:
+
+      * adverbial
+      * conjuction
+      * exclamation
+      * name
+      * noun
+      * noun suffix type 1
+      * noun suffix type 2
+      * noun suffix type 3
+      * noun suffix type 4
+      * noun suffix type 5
+      * numeral
+      * pronoun
+      * question word
+      * verb
+      * verb prefix
+      * verb suffix type 1
+      * verb suffix type 2
+      * verb suffix type 3
+      * verb suffix type 4
+      * verb suffix type 5
+      * verb suffix type 6
+      * verb suffix type 7
+      * verb suffix type 8
+      * verb suffix type 9
+      * verb suffix type rover
+
+  * `desc:` very short description [OPTIONAL]
+
+    A very brief text describing the Klingon word, meant for inclusion in the
+    pocket dictionary. -- Since brevity is of the essence for this field, the
+    following common dictionary abbreviations are used (their unabbreviated
+    forms are not allowed):
+
+      * pl. = plural
+      * sg. = singular
+      * obj. = object
+      * subj. = subject
+      * s.o. = somebody/someone
+      * s.t. = something
+
+    Some additional markup is also used:
+
+      ~...~ = italic
+      {...} = Klingon (bold)
+
+  * `def:` source where definition can be found [REQUIRED]
+
+    Defining source references for this entry. A source count as 'defining' if
+    it substantially adds to the understanding of the word. This is usually the
+    first canon mention of the word (where the translation of the word is
+    given), but occasionally there are multiple sources that are important for
+    understanding the word (with additional grammar specific to the word,
+    additional English words to describe it, etc.).
+
+  * `ref:` canon sources where it also occurs [OPTIONAL]
+
+    Reference source. Basically this means any source where the word is
+    mentioned. Typically one or two illuminating examples are given, but not
+    much more.
+
+    When the defining source (`def:` field) is hard to come by (trading card,
+    computer game, is out of print, etc.), and there exists a more readily
+    available transcript of it, this transcript is given in the `ref:` field.
+
+  * `cite:` quote from specific source [MULTIPLE]
+
+    One `cite:` field per quote, each value ends with source reference in
+    square brackets.
+
+  * `com:` special comment concerning the entry [OPTIONAL]
+
+    Comments concerning the word of this entry. Basically any comment that (1)
+    is of interest to the user and (2) does not belong in the `cite:` or
+    `meta:` or `pun:` fields.
+
+    FUTURE (March 2012): The `cite:` field is still quite new, and much of the
+    `com:` field contents will be migrating there.
+
+  * `pun:` comments about puns and/or word play [OPTIONAL]
+
+    Comments related to puns. Anything from certain and verified puns, to
+    mnemonics, to wild speculation on the punnyness of the word.
+
+  * `see:` pointer to related word(s) (separated by semicolon) [OPTIONAL]
+
+    Pointers to synonyms, antonyms and words with similar meanings. Right now
+    not very consistently implemented.
+
+  * `cat:` topic tags [OPTIONAL]
+
+    Semicolon-separated list of tags, used to lump entries together by topic.
+    Intended to help users find words related to any the specific topics. The
+    following topics exist:
+
+      `architecture`, `body part`, `clothing`, `country`, `family`, `fighting`,
+      `landscape`, `locative`, `math`, `money`, `music`, `quantity`, `time`,
+      `unit`.
+
+    Possible/likely changes: Renaming of some categories to include more words.
+
+    FUTURE (March 2012): Will probably change field name to `tag:`, make the
+    words space separated, and rename tags which currently have spaces in them.
+
+  * `data:` data tags [OPTIONAL]
+
+    Semicolon-separated list of tags. Differs from `cat:` in that tags also
+    affect presence/format of other fields.
+
+    + `KLCP-1` = The 502 basic words which one needs to know in order to pass
+      the first level of the Klingon Language Certification Program. FUTURE
+      (March 2012): The `KLCP-1` tag will move to the `cat:` field.
+
+    + `derived form` = The entry is a word built from other Klingon morphemes
+      (these words are included in the dictionary to provide a non-obvious
+      lookup entry in the English--Klingon side of a dictionary; such a
+      `derived form` may thus be excluded from the Klingon--English side when
+      generating a dictionary); e.g. {chenmoHwI'} constructed from {chen} 'take
+      form' + {-moH} 'cause' + {-wI'} 'one who does'.
+
+    + `phrase` = The Klingon word in the entry contains space (i.e. the Klingon
+      lookup entry is more than one word). NOTE: This tag is always present
+      when there is a space in the `tlh:` word.
+
+    + `deprecated` = The Klingon word of the entry occurs misspelled in canon.
+      The entry is included only for completeness, and also carries a warning
+      which should be displayed to the user. Words marked with this tag may be
+      excluded from the Klingon--English side of a dictionary, and *should* be
+      excluded from the English--Klingon side. Examples: *{tIb}, *{pu'bej} etc.
+      NOTE: An entry with this tag always carry a `warn:` field + leading
+      asterisk in `tlh:` as well.
+
+    + `non-canon` = The Klingon word of the entry is not canon (used for words
+      that, for various reasons, otherwise might be mistaken for canon). The
+      word is sometimes a word previously thought of as canon, but later
+      disproven, sometimes it is a word occurring in canon either misspelled,
+      or as an example of incorrect usage. Non-canon words are not included in
+      the pocket dictionary. NOTE: An entry with this tag always carry a
+      `warn:` field + leading asterisk in `tlh:` as well.
+
+    + `non-phonotactic` = The Klingon word of the entry does not adhere to the
+      standard rules for how Klingon syllables are made. Examples are {qIrq}
+      and {pIqarD}.
+
+    + `exclude from K-E` = This entry will not be included in the
+      Klingon--English side of the pocket dictionary. Words are only excluded
+      when they are present elsewhere in the dictionary, or when they are
+      understandable anyway. E.g. "number suffixes" are excluded because they
+      have their own reference table. Derived forms such as words ending in
+      {-moH} (when they do not differ from the expected meaning ({bolwI'}
+      <traitor> is included, but {bolwI'} <drooler> would not be, since it is
+      obvious frob {bol} <drool> + {-wI'} <one who does>).
+
+  * `file:` file names of source transcripts [REQUIRED]
+
+    File names (basename only) of the source transcripts in <Archive of
+    Okrandian Canon>. Multiple filenames are separated with semicolon +
+    whitespace.
+
+  * `meta:`  meta comment about entry [OPTIONAL]
+
+    Editor's comments on the entry. This is, for example, comments on how the
+    various sources have been combined to form the entry, concerns regarding
+    how to interpret the canon for the entry, or a FIXME if the entry is known
+    to need some additional work.
+
+
+HISTORY
+=======
+Brief list of changes made for each 'VERSION' of this file format.
+
+  * 2012-03-24 v1.0 -- Added metadata header. Rewrote dictionary preamble to
+    clarify the file format.
+
+
+DICTIONARY CONSISTENCY
+======================
+To verify the internal consistency of the database use the `check-dict` program
+available at <http://klingonska.org/usr/bin/check-dict>. It is written in Perl,
+and is typically run with:
+
+    usr/bin/check-dict <dict.zdb >/dev/null
+
+Next comes the first database section.
+
 
 === start-of-word-list ===
 

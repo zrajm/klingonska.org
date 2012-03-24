@@ -928,6 +928,11 @@ Priorities:
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** dict.zdb
+**** TODO correct spelling of 'conjunction' in 'pos:' field
+     It is currently spelled 'conjuction'.
+
+     Grep for this throughout website, I'm the misspelling must occur at least
+     in all scripts working against the dictionary. (CGI + dictionary checker?)
 **** TODO Add 'def: ST5' for all words in 1999-12-holqed-08-4-b.txt(?)
      I'm not sure the HQ8:4 ("Notes from Star Trek V: The Final Frontier")
      article actually reflects Klingon dialogue, as it appears in the movie.
@@ -1307,6 +1312,9 @@ Priorities:
       After this is done, adjust check-dict to require this in the future.
 ***** TODO Add category "food"
       "cat: food"
+***** TODO Add category "transportation"
+      "cat: transportation"
+      airplane, various spaceships, bicycle etc.
 ***** TODO Rename 'cat:' field to 'tag'
       Maybe 'data:' should also be merged into the same?
 ***** TODO Move all quotes in 'com' fields to 'cite' fields
@@ -1747,6 +1755,7 @@ Priorities:
     CLOSED: [2012-01-20 Fri 13:01]
     (see example under {Soj})
 ** Dictionary check tool (usr/bin/check-dict)
+*** TODO Comments (non-section text) should not exeed 79 char line width
 *** FUTURE Advanced features
 **** TODO Spellchecking of 'en' fields
 **** TODO Spellchecking of 'sv' fields
