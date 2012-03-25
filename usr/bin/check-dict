@@ -162,7 +162,7 @@ sub check_pos {
     my $re = qr{
         verb(\s(prefix|suffix\stype\s([1-9]|rover)))?|
         noun(\ssuffix\stype\s[1-5])?|
-        name|adverbial|conjuction|exclamation|numeral|pronoun|question\sword
+        name|adverbial|conjunction|exclamation|numeral|pronoun|question\sword
     }x;
     if (not /^($re)$/) {
         warn "invalid part-of-speech in '$field' field\n";

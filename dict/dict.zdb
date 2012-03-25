@@ -1,5 +1,5 @@
 FORMAT:  zrajm-database
-VERSION: 1.0
+VERSION: 1.1
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -202,7 +202,7 @@ once in the same entry).
     description (not an abbreviation). Allowed values are:
 
       * adverbial
-      * conjuction
+      * conjunction
       * exclamation
       * name
       * noun
@@ -397,7 +397,13 @@ once in the same entry).
 
 HISTORY
 =======
-Brief list of changes made for each 'VERSION' of this file format.
+Brief list of changes made for each VERSION of this file format. Most recent
+changes first.
+
+  * 2012-03-25 v1.1 -- Corrected misspelling 'conjuction' -> 'conjunction' in
+    `pos:` field. (This warranted a VERSION update since the content of this
+    field is exactly specified in the description -- had it been a free text
+    field, VERSION would not have been updated).
 
   * 2012-03-24 v1.0 -- Added metadata header. Rewrote dictionary preamble to
     clarify the file format.
@@ -3951,7 +3957,7 @@ def:	HQ11:2 p.8 ("{matlh jup mu'mey}")
 file:	2002-06-holqed-11-2.txt
 
 tlh:	{ghap}
-pos:	conjuction
+pos:	conjunction
 sv:	«eller», antingen eller (kommer efter förenade substantiv)
 en:	<or>, either/or (follows joined nouns)
 desc:	{Dargh qa'vIn ghap} ~tea or coffee (but not both)~; follows two or more
@@ -6443,7 +6449,7 @@ def:	TKDa
 file:	1992-01-01-tkd.txt
 
 tlh:	{je}
-pos:	conjuction
+pos:	conjunction
 sv:	«också», «och» (kommer efter verb/förenade substantiv)
 en:	<also>, <and>, «too»
 desc:	{qamuS je} ~I also hate you~; {bomwI' mI'wI' je} ~singer and dancer~;
@@ -6940,7 +6946,7 @@ def:	TKD
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {joq}
-pos:	conjuction
+pos:	conjunction
 sv:	«eller», och/eller (kommer efter förenade substantiv)
 en:	<or>, and/or
 desc:	{Ha'DIbaH naH joq} ~meat or vegetables (or both)~; follows two or more
@@ -11703,7 +11709,7 @@ ref:	TKW p.185
 file:	1992-01-01-tkd.txt; 2001-12-holqed-10-4.txt
 
 tlh:	[1] {pagh}
-pos:	conjuction
+pos:	conjunction
 sv:	«eller», antingen eller (kommer mellan förenade meningar)
 en:	<or>, either/or
 desc:	comes between joined sentences
@@ -13903,7 +13909,7 @@ data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {qoj}
-pos:	conjuction
+pos:	conjunction
 sv:	«eller», och/eller (kommer mellan förenade meningar)
 en:	<or>, and/or
 desc:	comes between joined sentences
@@ -21887,7 +21893,7 @@ def:	TKD K-E
 file:	1992-01-01-tkd.txt
 
 tlh:	{'a}
-pos:	conjuction
+pos:	conjunction
 sv:	«men», «ändå», «dock», «trots allt», «emellertid»
 en:	<but>, <nevertheless>, <even so>, <however>
 def:	TKD
@@ -21902,7 +21908,7 @@ com:	S32 was reprinted in HQ6:2 p.9
 file:	1997-10-22-news.txt; 1997-sbx-s32.txt
 
 tlh:	{'ach}
-pos:	conjuction
+pos:	conjunction
 sv:	«men», «ändå», «dock», «trots allt», «emellertid»
 en:	<but>, <nevertheless>, <even so>, <however>
 def:	TKD
@@ -22201,7 +22207,7 @@ def:	ST1; TKD 5.5 (p.57) et al.
 file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
 tlh:	{'ej}
-pos:	conjuction
+pos:	conjunction
 sv:	«och» (kommer mellan förenade meningar)
 en:	<and>
 desc:	comes between joined sentences
