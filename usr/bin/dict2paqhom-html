@@ -86,7 +86,7 @@ use Klingon qw/split_letter/;
 my $zdb = new zdb({ file  => 'dict.zdb' })->load;
 my %pos = (
     adverbial   => "adv",
-    conjuction  => "conj",
+    conjunction => "conj",
     exclamation => "excl",
     name        => "name",
     noun        => "n",

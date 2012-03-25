@@ -186,7 +186,7 @@ sub split_query {
         n    => qr/noun/,
         name => qr/name/,
         adv  => qr/adverbial/,
-        conj => qr/conjuction/,
+        conj => qr/conjunction/,
         excl => qr/exclamation/,
         num  => qr/numeral/,
         pro  => qr/pronoun/,
