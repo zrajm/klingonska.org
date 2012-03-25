@@ -18593,11 +18593,16 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{toqvIr lung}
 pos:	noun
-sv:	¿?ett slags «djur», «Tokvarisk «miniödla»»
-en:	type of <animal>, <Tokvarian «skink»>
-def:	KGT
+sv:	ett slags «djur», «Tokvirisk «ödla»»
+en:	type of <animal>, <Tokvirian «skink»>
+def:	KGT p.88
+ref:	KGT K-E (p.228), E-K (p.261)
 data:	phrase; {toqvIr} (n)
 file:	1997-11-01-kgt.txt
+meta:	Word is given as "Tokvarian" (with "a") in KGT word lists [KGT
+	pp.228, 261], but "Tokvirian" (with "i") in the main body of the book
+	[KGT p.88]. "Tokvirian" is used here since it is more similar to the
+	Klingon word {toqvIr}.
 
 tlh:	{toQ}
 pos:	noun

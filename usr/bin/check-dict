@@ -613,15 +613,15 @@ sub source_ref_syntax {
     my $p  = qr/[ivx]+|\d+/x;                               # a page number
     my $pp = qr/ p\.$p | pp\.$p(--$p|(,$s$p(--$p)?)+) /x;   # p.#PAGE or pp.#RANGE
 
-    my $chapter  = qr/[0-9]+(\.[0-9]+)+ ($s\($pp\))?/x;     # CHAPTER [ (PAGE) ]
+    my $chapter  = qr/(K-E|E-K|[0-9]+(\.[0-9]+)+) ($s\($pp\))?/x; # CHAPTER [ (PAGE) ]
     my $chapters = qr/$s$chapter(,$s$chapter)*/x;           # CHAPTER [ (PAGE) ], ...
 
     # page numbers, chapter numbers, 'E-K' or 'K-E'
-    my $tkd_ref  = qr/(K-E|E-K|$chapter|$pp)/x;             #
+    my $tkd_ref  = qr/($chapter|$pp)/x;             #
     my $tkd_refs = qr/ $s $tkd_ref(, $s $tkd_ref)*/x;       #
 
     # page numbers, 'E-K' or 'K-E'
-    my $kgt_ref  = qr/(K-E|E-K|$pp)/x;
+    my $kgt_ref  = qr/(K-E|E-K) ($s\($pp\))? | $pp/x;
     my $kgt_refs = qr/ $s $kgt_ref(, $s $kgt_ref)*/x;
 
     # simple page numbers
