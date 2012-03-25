@@ -6687,7 +6687,7 @@ data:	deprecated
 file:	1992-01-01-tkd.txt
 meta:	*{jIj}, in the sense of "cooperate", is here assumed to be a mistake.
 	This meaning only occurs in KTD K-E, "cooperate" is translated {yeq} in
-	TKD E-K, and all occurances of {jIj} in later canon are translated as
+	TKD E-K, and all occurrences of {jIj} in later canon are translated as
 	"be cooperative". There is even an example in KGT p.159 explicitly
 	showing the difference between {jIj} and {yeq}: {reH yeq} ("always
 	cooperate"), and {reH jIj} ("always be cooperative").
@@ -18262,7 +18262,7 @@ see:	{bIt}; {jotHa'}
 data:	deprecated
 file:	1997-11-01-kgt.txt
 meta:	*{tIb} is here assumed to be a misspelling of {bIt}, since it is
-	spelled {bIt} in a majority of sources: TKD (three occurances in the
+	spelled {bIt} in a majority of sources: TKD (three occurrences in the
 	dictionary part), and it is spelled *{tIb} only once [KGT p.132].
 	*{tIb} was confirmed as unintentional by Marc Okrand when asked by
 	zrajm at {qep'a'} 2000).
@@ -24233,7 +24233,7 @@ HISTORY (LAST CHANGES FIRST)
 
     [2011-09-01] Added new words from {qep'a'} 2011 (from Alan Andersons
     posting to tlhingan-hol in 2011-08-22-email.txt). Added enumerator on the
-    two occurances of {'ut}. Decided to keep all letter names in the
+    two occurrences of {'ut}. Decided to keep all letter names in the
     Klingon-English side of the pocket dictionary (and removed FIXMEs
     corresponding to this). Fixed syntax of most 'ref' and 'def' fields -- and
     wrote small program ('usr/bin/check-dict') to check this. Added 'def'
@@ -24335,12 +24335,12 @@ HISTORY (LAST CHANGES FIRST)
 
     [2001-03-20] Added the field "data:".
 
-    [2001-03-19] Added the word "be" before occuring adjectivals where it
-    was previously missing in the translations of the words: {ghuS}, {Huv},
-    {naQ}, {nI'}, {noy}, {poS}, {tIq} and {'Itlh}. (Machine-parsed out all
-    occurances of stative verbs [=verbs whose translation contains the word
-    "be"] and hand checked those on the list which had both active and static
-    translations. Thus I found and corrected these "errors".)
+    [2001-03-19] Added the word "be" before occuring adjectivals where it was
+    previously missing in the translations of the words: {ghuS}, {Huv}, {naQ},
+    {nI'}, {noy}, {poS}, {tIq} and {'Itlh}. (Machine-parsed out all occurrences
+    of stative verbs [=verbs whose translation contains the word "be"] and hand
+    checked those on the list which had both active and static translations.
+    Thus I found and corrected these "errors".)
 
     [2001-02-12] Added the new word {tangqa'} from HQ9:4 p.16 ("More From
     Maltz").
