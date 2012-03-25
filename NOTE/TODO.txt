@@ -928,7 +928,10 @@ Priorities:
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** dict.zdb
-**** TODO correct spelling of 'conjunction' in 'pos:' field
+**** TODO Check order of field names in preamble
+     Check that it corresponds to the actual field ordering. Add a check for
+     this in check-dict?
+**** TODO Correct spelling of 'conjunction' in 'pos:' field
      It is currently spelled 'conjuction'.
 
      Grep for this throughout website, I'm the misspelling must occur at least
@@ -1755,7 +1758,8 @@ Priorities:
     CLOSED: [2012-01-20 Fri 13:01]
     (see example under {Soj})
 ** Dictionary check tool (usr/bin/check-dict)
-*** TODO Comments (non-section text) should not exeed 79 char line width
+*** DONE Comments (non-section text) should not exeed 79 char line width
+    CLOSED: [2012-03-25 Sun 03:49]
 *** FUTURE Advanced features
 **** TODO Spellchecking of 'en' fields
 **** TODO Spellchecking of 'sv' fields

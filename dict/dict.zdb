@@ -198,22 +198,34 @@ once in the same entry).
 
   * `pos:` part-of-speech [REQUIRED]
 
-    Gives the part-of-speech of a word. The value is a full description (not an
-    abbreviation). Allowed values are:
+    Gives the part-of-speech, or word class of the entry. The value is a full
+    description (not an abbreviation). Allowed values are:
 
       * adverbial
       * conjuction
       * exclamation
       * name
       * noun
-      * noun suffix type #
+      * noun suffix type 1
+      * noun suffix type 2
+      * noun suffix type 3
+      * noun suffix type 4
+      * noun suffix type 5
       * numeral
       * pronoun
       * question word
       * verb
       * verb prefix
-      * verb suffix rover
-      * verb suffix type #
+      * verb suffix type 1
+      * verb suffix type 2
+      * verb suffix type 3
+      * verb suffix type 4
+      * verb suffix type 5
+      * verb suffix type 6
+      * verb suffix type 7
+      * verb suffix type 8
+      * verb suffix type 9
+      * verb suffix type rover
 
   * `sv:` Swedish translation `en:` [REQUIRED]
 
@@ -242,36 +254,6 @@ once in the same entry).
 
       ~...~ = italic
       {...} = Klingon (bold)
-
-  * `pos:` part-of-speech [REQUIRED]
-
-    Part-of-speech, or word class. Allowed values are:
-
-      * adverbial
-      * conjuction
-      * exclamation
-      * name
-      * noun
-      * noun suffix type 1
-      * noun suffix type 2
-      * noun suffix type 3
-      * noun suffix type 4
-      * noun suffix type 5
-      * numeral
-      * pronoun
-      * question word
-      * verb
-      * verb prefix
-      * verb suffix type 1
-      * verb suffix type 2
-      * verb suffix type 3
-      * verb suffix type 4
-      * verb suffix type 5
-      * verb suffix type 6
-      * verb suffix type 7
-      * verb suffix type 8
-      * verb suffix type 9
-      * verb suffix type rover
 
   * `desc:` very short description [OPTIONAL]
 
