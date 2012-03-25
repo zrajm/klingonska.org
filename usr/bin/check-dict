@@ -433,6 +433,12 @@ sub read_dict {
     my ($section, $field_multiple) = @_;
     # skip header
     while (<>) {
+        {
+            my $_ = $_;
+            s{ \t }{ " " x (8 - (pos() % 8)) }gex;  # replace tabs with spaces
+            warn "line may not exceed width of 79 characters in line $.\n"
+                if length($_) > 80; # 80 = is with trailing newline
+        }
         last if /^=== start-of-$section-list ===$/;
     }
     die "failed to read dictionary, no section '$section' found in input\n"
@@ -487,6 +493,29 @@ sub read_dict {
 
     return %record;
 }
+
+
+=pod
+
+Usage: read_dict_ending();
+
+Reads the last part of the dictionary (after the database sections), and checks
+that all no lines exceed the character length limit, and that it does not
+contain any database sections.
+
+=cut
+
+sub read_dict_ending {
+    while (<>) {
+        warn "unknown database section header '$&' in line $.\n"
+            if /^=== (start|end)-.*? ===$/;
+        my $_ = $_;
+        s{ \t }{ " " x (8 - (pos() % 8)) }gex;  # replace tabs with spaces
+        warn "line may not exceed width of 79 characters in line $.\n"
+            if length($_) > 80; # 80 = is with trailing newline
+    }
+}
+
 
 =pod
 
@@ -661,6 +690,8 @@ foreach my $section (qw/word verb-prefix verb-suffix noun-suffix/) {
         }
     }
 }
+read_dict_ending();
+
 warn "Word count: $word_count (" .
     "prefixes: $prefix_count, " .
     "suffixes: $suffix_count, " .
