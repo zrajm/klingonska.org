@@ -41,6 +41,7 @@
                Birmelin)
   [2006-09-22] added some corrections submitted by stevo
   [2011-10-02] improved correction comments for {jorneb} and {beH}
+  [2012-03-25] added corrections for misspelling "Tokvarian"
 
     TODO:
         o *very* carefully hand check everything marked [[check!]] -- since
