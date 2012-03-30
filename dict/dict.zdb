@@ -320,12 +320,25 @@ once in the same entry).
   * `cat:` topic tags [OPTIONAL]
 
     Semicolon-separated list of tags, used to lump entries together by topic.
-    Intended to help users find words related to any the specific topics. The
-    following topics exist:
+    (This field is considered free text, adding/changing of categories will not
+    change dictionary VERSION.) Intended to help users find words related to
+    any the specific topics. The following topics currently exist:
 
-      `architecture`, `body part`, `clothing`, `country`, `family`, `fighting`,
-      `landscape`, `locative`, `math`, `money`, `music`, `quantity`, `time`,
-      `unit`.
+    + `architecture`
+    + `body part`
+    + `clothing`
+    + `country`
+    + `family`
+    + `fighting`
+    + `landscape`
+    + `locative`
+    + `math`
+    + `money`
+    + `music`
+    + `quantity`
+    + `religion`
+    + `time`
+    + `unit`
 
     Possible/likely changes: Renaming of some categories to include more words.
 
@@ -2269,6 +2282,7 @@ pos:	noun
 sv:	«tempel»
 en:	<temple> (structure)
 def:	TKD
+cat:	religion
 file:	1992-01-01-tkd.txt
 
 tlh:	{chIS}
@@ -4202,14 +4216,20 @@ sv:	«~Gre'thor~» (där de vanärades själar hamnar)
 en:	<~Gre'thor~> (where spirits of dishonored go)
 def:	KGT
 com:	mythological place; similar to Hell
+cat:	religion
 file:	1997-11-01-kgt.txt
+meta:	FIXME -- Should be merged with {ghe''or}, or should one of these words
+	be deprecated?
 
 tlh:	{ghe''or}
 pos:	noun
 sv:	«dödsrike» (där vanärade hamnar)
 en:	<netherworld> (where dishonored go)
 def:	TKDa
+cat:	religion
 file:	1992-01-01-tkd.txt
+meta:	FIXME -- Should be merged with {ghe'tor}, or should one of these words
+	be deprecated?
 
 tlh:	{ghIb}
 pos:	verb
@@ -4299,6 +4319,7 @@ com:	"The word for monastery is {ghIn}. [...] A {ghIn'a'} would be a pretty
 	defined area where the members of the religious community live or work
 	or do whatever they do there. It doesn't mean the group of people."
 	/Lieven L. Litaer
+cat:	religion
 file:	2010-12-25-email.txt; 2010-12-19-email.txt; 2011-01-16-email.txt
 
 tlh:	{ghIntaq}
@@ -5217,6 +5238,7 @@ pos:	noun
 sv:	«dödsritual»
 en:	<death ritual>
 def:	KGT
+cat:	religion
 file:	1997-11-01-kgt.txt
 
 tlh:	{HeH}
@@ -6346,6 +6368,7 @@ pos:	noun
 sv:	¿?«andlig hemsökelse», «besatthet»
 en:	<spiritual possession>
 def:	KGT
+cat:	religion
 file:	1997-11-01-kgt.txt
 
 tlh:	{jatlh}
@@ -7235,6 +7258,7 @@ pos:	noun
 sv:	«religion»
 en:	<religion>
 def:	TKD
+cat:	religion
 file:	1992-01-01-tkd.txt
 
 tlh:	{lam} [1]
@@ -8692,6 +8716,7 @@ ref:	KLINW; Email 1999-02-12 (by Will Martin, to tlhingan-hol, "Another new
 	word")
 com:	Seen in DS9 "Sons of Mogh". English spelling (according to STE) is
 	~mevak~.
+cat:	religion
 file:	1999-02-12-email.txt
 
 tlh:	{meb}
@@ -9252,6 +9277,18 @@ sv:	«grav»
 en:	<grave>
 def:	TKD
 file:	1992-01-01-tkd.txt
+
+tlh:	{molor}
+pos:	name
+sv:	«Molor»
+en:	«Molor»
+def:	News 1997-09-01 (by Marc Okrand, to msn.onstage.startrek.expert.okrand,
+	"Re: family names")
+ref:	KGT p.130
+com:	Molor is the nemesis of Kahless the Unforgettable, and as such an
+	important Klingon mythological figure.
+cat:	religion
+file:	1997-09-01a-news.txt; 1997-11-01-kgt.txt
 
 tlh:	[1] {mon}
 pos:	verb
@@ -13361,6 +13398,7 @@ sv:	«ande»
 en:	<spirit>
 def:	KGT
 ref:	TKW pp.7, 145, 147
+cat:	religion
 file:	1997-11-01-kgt.txt
 
 tlh:	{qa'meH}
@@ -13667,11 +13705,21 @@ def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 cat:	body part
 file:	2001-06-holqed-10-2.txt
 
+tlh:	{qeylIn}
+pos:	name
+sv:	«Kahlin»
+en:	«Kahlin»
+def:	News 1997-09-01 (by Marc Okrand, to msn.onstage.startrek.expert.okrand,
+	"Re: family names")
+file:	1997-09-01a-news.txt
+
 tlh:	{qeylIS}
 pos:	name
 sv:	«Kahless»
 en:	«Kahless»
 def:	TKD 5.6 (p.58)
+com:	Kahless the Unforgettable is an important Klingon mythological figure.
+cat:	religion
 file:	1992-01-01-tkd.txt
 
 tlh:	{qeylIS betleH}
@@ -13679,6 +13727,7 @@ pos:	noun
 sv:	«Kahless svärd»
 en:	<Sword of Kahless>
 def:	KGT
+cat:	religion
 data:	phrase
 file:	1997-11-01-kgt.txt
 
@@ -13690,6 +13739,14 @@ def:	KCD
 com:	A guessing game with dice where the winner receives a punch.
 data:	phrase
 file:	1996-04-kcd.txt
+
+tlh:	{qeylor}
+pos:	name
+sv:	«Kahlor»
+en:	«Kahlor»
+def:	News 1997-09-01 (by Marc Okrand, to msn.onstage.startrek.expert.okrand,
+	"Re: family names")
+file:	1997-09-01a-news.txt
 
 tlh:	{qe'rot 'oQqar}
 pos:	noun
@@ -14277,7 +14334,7 @@ pos:	noun
 sv:	«~Kut'luch~-ceremoni»
 en:	«~Kut'luch~ ceremony»
 def:	KGT p.62
-cat:	fighting
+cat:	fighting; religion
 data:	phrase; derived form
 file:	1997-11-01-kgt.txt
 
@@ -15047,8 +15104,9 @@ en:	<Paradise>
 def:	TKDa
 ref:	KCD
 com:	mythological place; source of all creation
-	According to KCD this was the source of all creation in
-	Klingon mythology.
+	According to KCD this was the source of all creation in Klingon
+	mythology.
+cat:	religion
 file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
 
 tlh:	{QI'yaH}
@@ -15466,6 +15524,7 @@ pos:	noun
 sv:	«gud», «övernaturlig varelse»
 en:	«god», «supernatural being»
 def:	News 1999-07-19
+cat:	religion
 file:	1999-07-19a-email.txt
 
 tlh:	{Qup}
@@ -17105,6 +17164,7 @@ pos:	noun
 sv:	«dödsritual» (för ledare)
 en:	<death ritual> (for a leader)
 def:	TKDa
+cat:	religion
 file:	1992-01-01-tkd.txt
 
 tlh:	{Sop}
@@ -17521,6 +17581,7 @@ com:	"{Sutovoqor} (n) Stovokor (spelling correction from {S'to...})" (NOTE:
 	"The afterlife for the honored dead, where all true warriors go after
 	they die to fight an eternal battle. The closest Klingon equivalent to
 	heaven. [First mentioned by name in 'Rightful Heir' (TNG).]" [DI]
+cat:	religion
 file:	2001-02-17-email.txt
 
 tlh:	{Sutra'ber naH}
@@ -17883,6 +17944,7 @@ pos:	noun
 sv:	«ceremoni», «rit», «ritual»
 en:	<ceremony>, <rite>, «ritual»
 def:	TKDa
+cat:	religion
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {tay}
@@ -20012,6 +20074,7 @@ en:	<devil>, «demon», «~Fek'lhr~»
 def:	TKDa; KCD
 ref:	TKW p.197; HQ12:3 p.9 ("Maltz's Reward Part II")
 com:	KCD: "The beast who guards the dwelling place of the dishonored dead"
+cat:	religion
 file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
 
 tlh:	{veQ}
