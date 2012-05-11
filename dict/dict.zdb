@@ -4892,7 +4892,7 @@ pos:	exclamation
 sv:	«fan», «djävlar» («svordom»)
 en:	«damn» («curse»)
 def:	ST5; HQ8:4 p.13 ("Notes from Star Trek V: The Final Frontier")
-com:	ST5: {ghuy' po'qu'} "Damn he's good."
+cite:	{ghuy' po'qu'} "Damn he's good." [ST5]
 file:	1999-12-holqed-08-4-b.txt
 
 tlh:	{ghuy'cha'}
@@ -6537,6 +6537,16 @@ def:	KGT
 ref:	TKW p.101
 data:	derived form
 file:	1997-11-01-kgt.txt
+
+tlh:	{jemS tIy qIrq}
+pos:	name
+sv:	«James T. Kirk»
+en:	«James T. Kirk»
+def:	ST5; HQ8:4 p.12 ("Notes from Star Trek V: The Final Frontier")
+cite:	{jemS tIy qIrq. loDHom jIHDI' qIrq qun vIqImchoH.} "James T. Kirk. I've
+	followed his history since I was a boy." [ST5]
+data:	non-phonotactic; phrase; {jemS} (name); {tIy} (name); {qIrq} (name)
+file:	1999-12-holqed-08-4-b.txt
 
 tlh:	{jen}
 pos:	verb
@@ -9728,9 +9738,11 @@ pos:	verb
 sv:	«planera»
 en:	<plan>
 def:	TKD
-com:	ST5: {nImbuS wej maghoS. He yInab.} "Plot course for Nimbus III."
+ref:	ST5; HQ8:4 pp.12, 13 ("Notes from Star Trek V: The Final Frontier")
+cite:	{nImbuS wej maghoS, He yInab.} "Plot course for Nimbus III." [ST5]
+cite:	{He pagh-pagh-vagh-jav-pagh-jav yInab} "Plot course 0.0.5.6.0.6." [ST5]
 data:	KLCP-1
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1999-12-holqed-08-4-b.txt
 
 tlh:	{nab} [2]
 pos:	noun
@@ -11578,8 +11590,8 @@ pos:	noun
 sv:	«kodat meddelande»
 en:	<encoded message>
 def:	ST5; HQ8:4 p.12 ("Notes from Star Trek V: The Final Frontier")
-com:	ST5: {DIvI' Se' wI'IjtaHvIS DaH ngoqDe' wIHevta'.} "We've just received
-	an encoded message on the Federation frequency."
+cite:	{DIvI' Se' wI'IjtaHvIS DaH ngoqDe' wIHevta'.} "We've just received an
+	encoded message on the Federation frequency." [ST5]
 file:	1999-12-holqed-08-4-b.txt
 
 tlh:	{ngoQ}
@@ -12956,10 +12968,11 @@ pos:	verb
 sv:	«sikta» (med vapensikte)
 en:	<sight> (with gunsight)
 def:	TKD
-com:	ST5: {tlha'a HoD, DoS wIpuSta'.} "Captain Klaa, we have a
-	target in [the ship's] sight."
+ref:	ST5; HQ8:4 p.11 ("Notes from Star Trek V: The Final Frontier")
+cite:	{tlha'a HoD, DoS wIpuSta'.} "Captain Klaa, we have a target in [our
+	weapon's] sight." [ST5]
 cat:	fighting
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1999-12-holqed-08-4-b.txt
 
 tlh:	{puv}
 pos:	verb
@@ -13867,7 +13880,7 @@ tlh:	{qIrq}
 pos:	name
 sv:	«Kirk»
 en:	«Kirk»
-def:	HQ8:4 p.12 ("Notes from Star Trek V: The Final Frontier")
+def:	ST5; HQ8:4 p.12 ("Notes from Star Trek V: The Final Frontier")
 com:	{'entepray''a'. qIrq Duj 'oH} "Enterprise? That's Kirk's ship." [ST5]
 data:	non-phonotactic
 file:	1999-12-holqed-08-4-b.txt
@@ -18559,9 +18572,9 @@ tlh:	{toDDuj}
 pos:	noun
 sv:	«räddningsskepp»
 en:	«rescue ship»
-def:	ST5; HQ8:4 p.11 ("Notes from Star Trek V: The Final Frontier")
-com:	ST5: {vaj toDDujDaj ngeHbej DIvI'.} "That means the Federation will be
-	sending a rescue ship of its own."
+def:	ST5; HQ8:4 p.12 ("Notes from Star Trek V: The Final Frontier")
+cite:	{vaj toDDujDaj ngeHbej DIvI'.} "That means the Federation will be
+	sending a rescue ship of its own." [ST5]
 file:	1999-12-holqed-08-4-b.txt
 
 tlh:	{toDSaH}
@@ -21816,12 +21829,13 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{yo'SeH yaHnIv}
 pos:	noun
-sv:	«»
-en:	«operations command»
+sv:	«Operationskommandot»
+en:	«Operations Command»
 def:	ST5; HQ8:4 p.11 ("Notes from Star Trek V: The Final Frontier")
+cite:	{HoD, yo'SeH yaHnIvvo' potlh De' wIHevtaH.} "Captain, we are receiving
+	a priority message from Operations Command." [ST5]
 data:	phrase; {yo'SeH} (n); {yaHnIv} (n)
 file:	1999-12-holqed-08-4-b.txt
-meta:	FIXME -- Is this correctly formed? + Swedish translation needed.
 
 tlh:	{yu}
 pos:	noun
@@ -22374,9 +22388,15 @@ pos:	name
 sv:	«Enterprise» (ett skepp)
 en:	«Enterprise» (a ship)
 def:	S15
-ref:	ST5
+ref:	ST5; HQ8:4 pp.12, 13 ("Notes from Star Trek V: The Final Frontier")
+cite:	{tera' vatlh DISpoH cha'maH loS bong QongmeH qItI'nga' Duj tI'ang
+	ghompu' DIvI' 'ejDo' 'entepray'.} "A sleeper ship of this class, the
+	T'Ong, was encountered in the 24th century by the U.S.S. Enterprise."
+	[S15]
+cite:	{nImbuS wejDaq 'ejDo' 'entepray' ngoHlu'pu'.} "The Starship Enterprise
+	has been dispatched to Nimbus III." [ST5]
 com:	S15 was reprinted in HQ4:3 p.5
-file:	1995-sbx-s15.txt
+file:	1995-sbx-s15.txt; 1999-12-holqed-08-4-b.txt
 
 tlh:	{'eng}
 pos:	noun

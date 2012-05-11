@@ -1,7 +1,8 @@
 [[
   [2012-02-03, 09:13-09:53] transcribed 1st page of article
   [2012-02-03, 10:13-10:28] transcribed the rest
-  Style: {}=bold, <>=italics, corrections, paginated
+  [2012-05-11, 23:57-00:26] spell checking and proof reading
+  Style: {}=bold, <>=italics, corrections, paginated, tlh-syllable-separated
 
   Type: article
   Date: December 1999
@@ -9,7 +10,7 @@
   Author: Lawrence M. Schoen
   Source: <{HolQeD} 8:4>, pages 11-13
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
-  Summary: Description of the Klingon dialogue of <Star Trek V: The Final
+  Summary: Description of the Klingon dialog of <Star Trek V: The Final
     Frontier>, as prepared for the actors by Marc Okrand.
 
 ]][[p.11]]
@@ -50,7 +51,6 @@ mu-luS-ngan be'-pu'}
     Korrd
 The only thing I want you to open is
 your blouse.
-
 {yIv-beH-lIj neH Da-poS-moH vI- [[keep hyphen]]
 neH}
 
@@ -81,11 +81,11 @@ Good.
 
 Scene 48
     Klaa
-Shoting space garbage is no test of
-a warrior's mettle I need a target
+Shooting space garbage is no test of
+a warrior's mettle. I need a target
 that fights back.
 {logh veQ-Daq bach-chugh, yoH 'e'
-tob-laH-be' Suv-wI. ma-Suv-bogh
+tob-laH-be' Suv-wI'. mu-Suv-bogh
 DoS vI-poQ}
 
     Vixis
@@ -100,12 +100,12 @@ De' wI-Hev-taH}
 III. A criminal has succeeded in
 taking hostages. One hostage is a
 Klingon diplomat. One is a Terran.
-One is a Romulan. Do Not delay.
+One is a Romulan. Do not delay.
 Alter your course now. Defend the
 Klingon race with honor. Success."
 {tlh'a' HoD, nIm-buS wej yI-ghoS.
 vub-pu' jon-ta' HeS-wI'. wa' vub
-ghaH tlhI-ngan ghar-wI'-'e'. wa'
+ghaH tlhI-ngan ghar-wI'-'e'.  wa'
 ghaH te-ra'-ngan-'e'. mIm-Qo'.
 DaH He-raj yI-choH. batlh tlhI- [[keep hyphen]]
 ngan Segh yI-Hub. Qap-la'.}
@@ -115,7 +115,7 @@ out any mention of the Romulan
 captive -LMS]> [[p.12]]
 
     Vixis
-One of the hostages is a Klingon
+One of the hostages is a Klingon.
 {tlhIngan ghaH wa'}
 
     Klaa
@@ -127,7 +127,7 @@ A Terran and a Romulan.
 {wa' te-ra'-ngan je wa' ro-mu-luS- [[keep hyphen]]
 ngan}
 
-    Kla
+    Klaa
 That means the Federation will be
 sending a rescue ship of its own. Plot
 course for Nimbus III. I've always
@@ -184,7 +184,7 @@ Success, my captain.
 
 Scene 122
     Vixis
-Estimating attach range in 8,000
+Estimating attack range in 8,000
 kellicams.
 {chorgh-SaD qe-lI'-qam HIv-chuq 'e'
 vI-noH}
@@ -193,7 +193,7 @@ vI-noH}
 Stealth approach. Slow to one- [[keep hyphen]]
 quarter impulse power. Prepare to
 cloak. Engage cloaking device.
-{goS-meH yI-pegh. cha'-maH-vagh
+{ghoS-meH yI-pegh. cha'-maH-vagh
 vatlh-vI' Hong, QIt yI-ghoS. yI-So'- [[keep hyphen]]
 rup. So'-wI' yI'chu'}
 
@@ -240,7 +240,7 @@ But, Captain, that course will take <us>
 into the Barrier as well. It's certain
 death.
 {'ach, HoD, Hev-vetlh wI-ghoS- [[keep hyphen]]
-chugh veH-tIn wI-'el maH-'e'. ma- [[keep hyphen]]
+chugh veH-tIn wI-'el maH-'e'. ma- [[veH-tIn:=veH tIn]] [[keep hyphen]]
 Hegh-bej-qu'}
 
     Klaa
@@ -252,13 +252,13 @@ Scene 252
 Enterprise defense systems are down.
 Captain, they don't know we're
 here.
-{en-tep-ray Hub pat-mey lu-chu- [[en-tep-ray':='en-tep-ray']] [[keep hyphen]]
+{en-tep-ray' Hub pat-mey lu-chu'- [[en-tep-ray':='en-tep-ray']] [[keep hyphen]]
 be'-lu'-pu'. HoD, na-Dev maH 'e' lu- [[keep hyphen]]
 Sov-be'
 
     Klaa
 They will in a moment.
-{tugh luSov bej}
+{tugh lu-Sov-bej}
 
 Scene 269
     Korrd
@@ -269,6 +269,6 @@ Scene 269
     Korrd
 Enjoy yourselves. That's and order.
 We're here.
-{pu-tIv-'egh. qa-ra'-qu}
+{pu-tIv-'egh. qa-ra'-qu} [[qa-ra'-qu:=qa-ra'-qu']]
 
 [[eof]]

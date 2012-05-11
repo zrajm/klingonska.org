@@ -592,7 +592,7 @@ Priorities:
      Also verify the 'com:' part under *{Soq} in dict.zdb.
 **** DONE Add transcript of HQ8:4 p.11--13
      CLOSED: [2012-02-03 Fri 17:42]
-**** TODO Proofreed transcript of HQ8:4 p.11--13
+**** TODO Proofreed transcript of HQ8:4 p.11--13 (1999-12-holqed-08-4-b.txt)
      Article named: "Notes from Star Trek V: The Final Frontier". Fix 'file:'
      field for {ghuy'}, {ngoqDe'}, {qIrq}, {toDDuj}, {yo'SeH yaHnIv}. Add
      'file:' for {'entepray'}.
