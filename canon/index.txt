@@ -505,11 +505,11 @@ publication, or a description of its contents and/or form).
   </tr>
 
   <tr valign="top">
-    <td><font size="4">1996-09</font></td><td></td>
+    <td><font size="4">1996-09a</font></td><td></td>
     <td><font size="4">»The Tale of {'I'}«</font>
       <br /><font size="2"><i>Column by Mark Schoulson, {HolQeD} 5:3 p.14,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
-      <br />(<a href="1996-09-holqed-05-3.txt">text</a>)
+      <br />(<a href="1996-09-holqed-05-3-a.txt">text</a>)
     </td>
   </tr>
 
