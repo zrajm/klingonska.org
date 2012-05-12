@@ -422,7 +422,7 @@ Priorities:
     to the prettified version (as well as to the original text formatted
     transcript).
 
-*** [56%] Transcripts updating/improvement
+*** [59%] Transcripts updating/improvement
 **** TODO Add Washington Shakespeare Company's Klingon press release
      https://mail.google.com/mail/#search/%22Washington+Shakespeare+Company%22/12a4f44a8588c816
      An excerpt from a press release sent by the Washington Shakespeare Company
@@ -557,7 +557,8 @@ Priorities:
      that says that {Qaw'} is a verb, even though TKD K-E listed is as noun.
 
      Referenced in dict.zdb. Fix link from 'file:' field of {jev} and {Qaw'}.
-**** TODO Proofread HQ4:3 pp.4--5 transcript
+**** DONE Proofread HQ4:3 pp.4--5 transcript
+     CLOSED: [2012-05-12 Sat 16:20]
      By comparing with the <{HolQeD}>. (Comparisons with earlier SkyBox
      transcripts have been made for those parts.)
 **** DONE Add transcript of HQ4:3 pp.4--5
