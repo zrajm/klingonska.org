@@ -24,44 +24,44 @@ the last issue of <{HolQeD}>).  The cards' text is again attributed to Marc Okra
 suggesting that these are canonical phrases.
 
 
-    S25    {tlhIngan vaS'a'}    Klingon Great Hall
+        S25    {tlhIngan vaS'a'}    Klingon Great Hall
 
-{juHqo'Daq vaS'a' tu'lu'.  ngoch luchermeH 'ej wo' San luwuqmeH
-pa' ghom tlhIngan yejquv DevwI'pu'.  DaH che' ghawran.
-yejquv DevwI' moj ghawran 'e' wuqta' cho' 'oDwI' Dapu'bogh
-janluq pIqarD HoD.}
+    {juHqo'Daq vaS'a' tu'lu'.  ngoch luchermeH 'ej wo' San luwuqmeH
+    pa' ghom tlhIngan yejquv DevwI'pu'.  DaH che' ghawran.
+    yejquv DevwI' moj ghawran 'e' wuqta' cho' 'oDwI' Dapu'bogh
+    janluq pIqarD HoD.}
 
-On the Homeworld, there is a great hall where the leaders of the
-Klingon High Council meet to determine policy and decide upon
-the fate of the Empire.  Gowron currently presides, named leader of
-the High Council by Captain Jean-Luc Picard, who was acting as
-Arbiter of Succession.
-
-
-    S26    {lurSa' be'etor je}    Lursa and B'Etor
-
-{DuraS tuq tlhIngan yejquv patlh luDub 'e' reH lunIDtaH DuraS
-be'nI'pu' lurSa' be'etor je.  ngoDvam luchavmeH ghawran [[ngoDvam:=ngoQvam]]
-maghpu' be'nI'pu'.  woQ luSuqmeH jIjpu' chaH romuluSngan'e'
-je.}
-
-The sisters of the House of Duras, Lursa and B'Etor, are constantly [[B'Etor,:=B'Etor]]
-seeking a higher standing for the House of Duras within the Klingon
-High Council.  To this end, the sisters have acted against Gowron,
-going as far as to work with Romulan factions in order to gain
-power.
+    On the Homeworld, there is a great hall where the leaders of the
+    Klingon High Council meet to determine policy and decide upon
+    the fate of the Empire.  Gowron currently presides, named leader of
+    the High Council by Captain Jean-Luc Picard, who was acting as
+    Arbiter of Succession.
 
 
-    S27    {Qo'noS}    Klingon Homeworld
+        S26    {lurSa' be'etor je}    Lursa and B'Etor
 
-{tlhIngan wo' yuQmey chovlu'chugh Qo'noS potlh law' Hoch
-potlh puS.  roD 'oHvaD juHqo' neH.  pa' 'oHtaH vaS'a''e'. [[neH:=ponglu' neH]] [[vaS'a''e':=vaS'a' 'e']]
-tlhIngan qum waw' 'oH.  yoq yIn yuQ 'oH Qo'noS'e'.  yInSIp
-voQSIp je ngaS muDDaj.}
+    {DuraS tuq tlhIngan yejquv patlh luDub 'e' reH lunIDtaH DuraS
+    be'nI'pu' lurSa' be'etor je.  ngoDvam luchavmeH ghawran [[ngoDvam:=ngoQvam]]
+    maghpu' be'nI'pu'.  woQ luSuqmeH jIjpu' chaH romuluSngan'e'
+    je.}
 
-The principal planet of the Klingon Empire, {Qo'noS} is usually
-referred to as simply "The Homeworld."  This is where the Klingon
-Great hall is located, the center of the Klingon government.  {Qo'noS} [[hall:=Hall]]
-is a class-M planet with an oxygen/nitrogen atmosphere.
+    The sisters of the House of Duras, Lursa and B'Etor, are constantly [[B'Etor,:=B'Etor]]
+    seeking a higher standing for the House of Duras within the Klingon
+    High Council.  To this end, the sisters have acted against Gowron,
+    going as far as to work with Romulan factions in order to gain
+    power.
+
+
+        S27    {Qo'noS}    Klingon Homeworld
+
+    {tlhIngan wo' yuQmey chovlu'chugh Qo'noS potlh law' Hoch
+    potlh puS.  roD 'oHvaD juHqo' neH.  pa' 'oHtaH vaS'a''e'. [[neH:=ponglu' neH]] [[vaS'a''e':=vaS'a' 'e']]
+    tlhIngan qum waw' 'oH.  yoq yIn yuQ 'oH Qo'noS'e'.  yInSIp
+    voQSIp je ngaS muDDaj.}
+
+    The principal planet of the Klingon Empire, {Qo'noS} is usually
+    referred to as simply "The Homeworld."  This is where the Klingon
+    Great hall is located, the center of the Klingon government.  {Qo'noS} [[hall:=Hall]]
+    is a class-M planet with an oxygen/nitrogen atmosphere.
 
 [[eof]]

@@ -31,30 +31,30 @@ Curiously, the entries found on these cards are considerably shorter than
 those appearing on the previous three years' offerings.
 
 
-    S19    {QumwI'}    Klingon Communicator
+        S19    {QumwI'}    Klingon Communicator
 
-{labmeH 'evnagh Se' tlhIngan QumwI'. janmey ngo' lulo'lu'DI' pIj [[Se':=Se' lo']]
-jabbI'ID nISpu' woj.}
+    {labmeH 'evnagh Se' tlhIngan QumwI'. janmey ngo' lulo'lu'DI' pIj [[Se':=Se' lo']]
+    jabbI'ID nISpu' woj.}
 
-A Klingon communicator sends a signal through subspace radio.
-Older models were susceptible to radiation.
-
-
-    S20    {Ha'quj}    Klingon Sash
-
-{qorDu'Daj tuq 'oS Ha'quje'e' tuQbogh wo'rIv. tuQtaHvIS Hem. [[SIC!]]
-qhaHvaD quHDaj qawmoH.}
-
-The sash that Worf wears is a symbol of his family's house. He wears
-it proudly as a reminder of his heritage.
+    A Klingon communicator sends a signal through subspace radio.
+    Older models were susceptible to radiation.
 
 
-    S21    {Soj}    Klingon Food
+        S20    {Ha'quj}    Klingon Sash
 
-{yIntaHbogh tlhIngan Soj tlhol jablu'Di' Hivqu'lu'. qagh, [[Di':=DI']] [[Hiv:=tIv]]
-ro'qegh'Iwachab, targh tIq Sop 'e' lungIl Humanpu' puS.}
+    {qorDu'Daj tuq 'oS Ha'quje'e' tuQbogh wo'rIv. tuQtaHvIS Hem. [[SIC!]]
+    qhaHvaD quHDaj qawmoH.}
 
-Klingon food is best when served fresh and live. Few humans dare
-to eat <gagh, rokeg> blood pie, or heart of <targ.>
+    The sash that Worf wears is a symbol of his family's house. He wears
+    it proudly as a reminder of his heritage.
+
+
+        S21    {Soj}    Klingon Food
+
+    {yIntaHbogh tlhIngan Soj tlhol jablu'Di' Hivqu'lu'. qagh, [[Di':=DI']] [[Hiv:=tIv]]
+    ro'qegh'Iwachab, targh tIq Sop 'e' lungIl Humanpu' puS.}
+
+    Klingon food is best when served fresh and live. Few humans dare
+    to eat <gagh, rokeg> blood pie, or heart of <targ.>
 
 [[eof]]

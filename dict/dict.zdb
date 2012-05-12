@@ -919,10 +919,10 @@ pos:	name
 sv:	«B'Etor»
 en:	«B'Etor»
 def:	S26; KGT p.197
-ref:	KLINW
+ref:	HQ5:3 p.15 ("Everyday Klingon"); KLINW
 com:	S26 was reprinted in HQ5:3 p.15.
 	B'Etor is one of the Duras sisters.
-file:	1996-sbx-s26.txt; 1997-11-01-kgt.txt
+file:	1996-sbx-s26.txt; 1997-11-01-kgt.txt; 1996-09-holqed-05-3-b.txt
 
 tlh:	{be'Hom}
 pos:	noun
@@ -3645,8 +3645,9 @@ sv:	«förbättra»
 en:	<improve>
 desc:	{patlhwIj vIDub} ~I improve my status~; thing improved is obj.
 def:	TKD; S14; S26
-ref:	TDNW
-file:	1992-01-01-tkd.txt; 1995-sbx-s14.txt; 1996-sbx-s26.txt
+ref:	HQ5:3 p.15 ("Everyday Klingon"); TDNW
+file:	1992-01-01-tkd.txt; 1995-sbx-s14.txt; 1996-sbx-s26.txt;
+	1996-09-holqed-05-3-b.txt
 
 tlh:	[2] {Dub}
 pos:	noun
@@ -3811,8 +3812,9 @@ pos:	name
 sv:	«Duras»
 en:	«Duras»
 def:	S26
+ref:	HQ5:3 p.15 ("Everyday Klingon")
 com:	S26 was reprinted in HQ5:3 p.15
-file:	1996-sbx-s26.txt
+file:	1996-sbx-s26.txt; 1996-09-holqed-05-3-b.txt
 
 tlh:	{DuS}
 pos:	noun
@@ -4043,8 +4045,10 @@ pos:	name
 sv:	«Gowron»
 en:	«Gowron»
 def:	S25; S26; KGT pp.25, 26, 197, 198
+ref:	HQ5:3 p.15 ("Everyday Klingon")
 com:	S25 and S26 were reprinted in HQ5:3 p.15
-file:	1996-sbx-s25.txt; 1996-sbx-s26.txt; 1997-11-01-kgt.txt
+file:	1996-sbx-s25.txt; 1996-sbx-s26.txt; 1997-11-01-kgt.txt;
+	1996-09-holqed-05-3-b.txt
 
 tlh:	[1] {ghaw'}
 pos:	noun
@@ -4891,7 +4895,8 @@ tlh:	{ghuy'}
 pos:	exclamation
 sv:	«fan», «djävlar» («svordom»)
 en:	«damn» («curse»)
-def:	ST5; HQ8:4 p.13 ("Notes from Star Trek V: The Final Frontier")
+def:	ST5
+ref:	HQ8:4 p.13 ("Notes from Star Trek V: The Final Frontier")
 cite:	{ghuy' po'qu'} "Damn he's good." [ST5]
 file:	1999-12-holqed-08-4-b.txt
 
@@ -6297,9 +6302,10 @@ pos:	name
 sv:	«Jean-Luc Picard»
 en:	«Jean-Luc Picard»
 def:	S25
+ref:	HQ5:3 p.15 ("Everyday Klingon")
 com:	S25 was reprinted in HQ5:3 p.15
 data:	non-phonotactic; phrase; {janluq} (name); {pIqarD} (name)
-file:	1996-sbx-s25.txt
+file:	1996-sbx-s25.txt; 1996-09-holqed-05-3-b.txt
 
 tlh:	{jang}
 pos:	verb
@@ -6542,7 +6548,8 @@ tlh:	{jemS tIy qIrq}
 pos:	name
 sv:	«James T. Kirk»
 en:	«James T. Kirk»
-def:	ST5; HQ8:4 p.12 ("Notes from Star Trek V: The Final Frontier")
+def:	ST5
+ref:	HQ8:4 p.12 ("Notes from Star Trek V: The Final Frontier")
 cite:	{jemS tIy qIrq. loDHom jIHDI' qIrq qun vIqImchoH.} "James T. Kirk. I've
 	followed his history since I was a boy." [ST5]
 data:	non-phonotactic; phrase; {jemS} (name); {tIy} (name); {qIrq} (name)
@@ -8350,9 +8357,10 @@ pos:	name
 sv:	«Lursa»
 en:	«Lursa»
 def:	S26; KGT p.197
+ref:	HQ5:3 p.15 ("Everyday Klingon")
 com:	S26 was reprinted in HQ5:3 p.15
 	Lursa is one of the Duras sisters.
-file:	1996-sbx-s26.txt; 1997-11-01-kgt.txt
+file:	1996-sbx-s26.txt; 1997-11-01-kgt.txt; 1996-09-holqed-05-3-b.txt
 
 tlh:	{luSpet}
 pos:	noun
@@ -8413,10 +8421,12 @@ pos:	verb
 sv:	«förråda», «svika»
 en:	<betray>
 def:	TKD
-ref:	S26
-com:	S26 was reprinted in HQ5:3 p.15, here used as "act against".
+ref:	S26; HQ5:3 p.15 ("Everyday Klingon")
+cite:	{ngoQvam luchavmeH ghawran maghpu' be'nI'pu'.} "To this end, the
+	sisters have acted against Gowron [...]" [S26]
+com:	S26 was reprinted in HQ5:3 p.15.
 data:	KLCP-1
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1996-sbx-s26.txt; 1996-09-holqed-05-3-b.txt
 
 tlh:	{maghwI'}
 pos:	noun
@@ -11589,7 +11599,8 @@ tlh:	{ngoqDe'}
 pos:	noun
 sv:	«kodat meddelande»
 en:	<encoded message>
-def:	ST5; HQ8:4 p.12 ("Notes from Star Trek V: The Final Frontier")
+def:	ST5
+ref:	HQ8:4 p.12 ("Notes from Star Trek V: The Final Frontier")
 cite:	{DIvI' Se' wI'IjtaHvIS DaH ngoqDe' wIHevta'.} "We've just received an
 	encoded message on the Federation frequency." [ST5]
 file:	1999-12-holqed-08-4-b.txt
@@ -18572,7 +18583,8 @@ tlh:	{toDDuj}
 pos:	noun
 sv:	«räddningsskepp»
 en:	«rescue ship»
-def:	ST5; HQ8:4 p.12 ("Notes from Star Trek V: The Final Frontier")
+def:	ST5
+ref:	HQ8:4 p.12 ("Notes from Star Trek V: The Final Frontier")
 cite:	{vaj toDDujDaj ngeHbej DIvI'.} "That means the Federation will be
 	sending a rescue ship of its own." [ST5]
 file:	1999-12-holqed-08-4-b.txt
@@ -21831,7 +21843,8 @@ tlh:	{yo'SeH yaHnIv}
 pos:	noun
 sv:	«Operationskommandot»
 en:	«Operations Command»
-def:	ST5; HQ8:4 p.11 ("Notes from Star Trek V: The Final Frontier")
+def:	ST5
+ref:	HQ8:4 p.11 ("Notes from Star Trek V: The Final Frontier")
 cite:	{HoD, yo'SeH yaHnIvvo' potlh De' wIHevtaH.} "Captain, we are receiving
 	a priority message from Operations Command." [ST5]
 data:	phrase; {yo'SeH} (n); {yaHnIv} (n)

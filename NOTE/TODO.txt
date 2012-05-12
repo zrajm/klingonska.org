@@ -422,7 +422,7 @@ Priorities:
     to the prettified version (as well as to the original text formatted
     transcript).
 
-*** [52%] Transcripts updating/improvement
+*** [56%] Transcripts updating/improvement
 **** TODO Add Washington Shakespeare Company's Klingon press release
      https://mail.google.com/mail/#search/%22Washington+Shakespeare+Company%22/12a4f44a8588c816
      An excerpt from a press release sent by the Washington Shakespeare Company
@@ -447,8 +447,6 @@ Priorities:
      <Save this Stardate: Sunday, January 4, 1998.> STX
 
 **** TODO Add "Star Trek: Constellations"
-
-
      An anthology with Star Trek short stories, at least one of which contains
      sentences translated by Marc Okrand.
 
@@ -559,11 +557,18 @@ Priorities:
      that says that {Qaw'} is a verb, even though TKD K-E listed is as noun.
 
      Referenced in dict.zdb. Fix link from 'file:' field of {jev} and {Qaw'}.
-**** TODO Add transcript of HQ4:3 pp.4--5
+**** TODO Proofread HQ4:3 pp.4--5 transcript
+     By comparing with the <{HolQeD}>. (Comparisons with earlier SkyBox
+     transcripts have been made for those parts.)
+**** DONE Add transcript of HQ4:3 pp.4--5
+     CLOSED: [2012-05-12 Sat 09:32]
      Article with transcript of S7, S8, S15.
 
      Referenced in dict.zdb. Add 'file:' field link for {qarghan}, {tI'ang},
      {wo'rIv}, {'entepray'}
+**** DONE Rename old 1995-09-holqed-04-3.txt -> 1995-09-holqed-04-3-b.txt
+     CLOSED: [2012-05-12 Sat 09:44]
+     And make web redirect from old to new file.
 **** DONE Add transcript of HQ5:2 p.14
      CLOSED: [2012-01-30 Mon 05:58]
      Article with transcript of S19, S20, S21. Referenced in dict.zdb by entry
@@ -592,7 +597,8 @@ Priorities:
      Also verify the 'com:' part under *{Soq} in dict.zdb.
 **** DONE Add transcript of HQ8:4 p.11--13
      CLOSED: [2012-02-03 Fri 17:42]
-**** TODO Proofreed transcript of HQ8:4 p.11--13 (1999-12-holqed-08-4-b.txt)
+**** DONE Proofreed transcript of HQ8:4 p.11--13 (1999-12-holqed-08-4-b.txt)
+     CLOSED: [2012-05-12 Sat 00:30]
      Article named: "Notes from Star Trek V: The Final Frontier". Fix 'file:'
      field for {ghuy'}, {ngoqDe'}, {qIrq}, {toDDuj}, {yo'SeH yaHnIv}. Add
      'file:' for {'entepray'}.
@@ -932,6 +938,11 @@ Priorities:
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** dict.zdb
+**** TODO Add "Everyday Klingon" references for all words on SkyBox crads
+     (in the dictionary)
+     S25, S26 & S27 are already have a 'ref:' field with reference to the
+     {HolQed} article in which a transcription of these cards occured. Follow
+     the same pattarn as used there for all other SkyBox cards.
 **** DONE Add Philip Newton's {toqvIr} correction & reply to him
      CLOSED: [2012-03-25 Sun 20:32]
      (Reported via email on Monday March 12, 2012.)
