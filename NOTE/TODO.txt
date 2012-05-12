@@ -422,7 +422,7 @@ Priorities:
     to the prettified version (as well as to the original text formatted
     transcript).
 
-*** [59%] Transcripts updating/improvement
+*** [61%] Transcripts updating/improvement
 **** TODO Add Washington Shakespeare Company's Klingon press release
      https://mail.google.com/mail/#search/%22Washington+Shakespeare+Company%22/12a4f44a8588c816
      An excerpt from a press release sent by the Washington Shakespeare Company
@@ -546,7 +546,8 @@ Priorities:
      Referenced in "{pIqaD}, And How to Read It".
 **** TODO HolQeD 2:2 pp.10-11 -- "Writing Klingon: The Easy Way" by Theron P. Elliot
      Referenced in "{pIqaD}, And How to Read It".
-**** TODO Add transcript of HQ3:3 (p.14?)
+**** DONE Add transcript of HQ3:3 (p.14?)
+     CLOSED: [2012-05-12 Sat 17:30]
      Wherein Rhonda E. Green comments that a probable translation of {Hu'tegh}
      would be "fuck", based on the usage of the word in A.C. Crispin's
      "Sarek".
