@@ -422,7 +422,7 @@ Priorities:
     to the prettified version (as well as to the original text formatted
     transcript).
 
-*** [61%] Transcripts updating/improvement
+*** [63%] Transcripts updating/improvement
 **** TODO Add Washington Shakespeare Company's Klingon press release
      https://mail.google.com/mail/#search/%22Washington+Shakespeare+Company%22/12a4f44a8588c816
      An excerpt from a press release sent by the Washington Shakespeare Company
@@ -512,6 +512,8 @@ Priorities:
 **** TODO Add movie transcripts                                        :HTML:
 ***** TODO 1991-12-03-tuc.txt
 ****** TODO Improve summary
+**** TODO Add ST5 transcript
+     http://mail.google.com/mail/#label/imported/12a129c1002403f8
 **** TODO Add text containing {Sa'Hut} "buttocks" (from {qep'a'} 2003) :HTML:
 **** TODO canon/1997-sbx-s31.html missing Skybox S32 and S33 images
 **** TODO Add transcript of The Klingon Way (audio book)         :TRANSCRIBE:
@@ -535,8 +537,6 @@ Priorities:
      http://mail.google.com/mail/?shva=1#search/jin+to%3Atlhingan-hol%40kli.org/125280bf1b4e53a6
 
      Gives the additional translation "plan" for {pu'jIn}.
-**** TODO Add ST5 transcript
-     http://mail.google.com/mail/#label/imported/12a129c1002403f8
 **** TODO Add "Klingon words from _Diplomatic Implausibility_ (DI)"
      (found in email to tlhingan-hol with same subject)
 ***** TODO transcribe relevant portions
@@ -553,7 +553,8 @@ Priorities:
      "Sarek".
 
      Referenced in dict.zdb. Add this to 'file:' field of {Hu'tegh}.
-**** TODO Add transcript of HQ4:1 p.7
+**** DONE Add transcript of HQ4:1 p.7
+     CLOSED: [2012-05-12 Sat 17:52]
      Article (incorrectly) stating that {jev} should not be verb, but noun, and
      that says that {Qaw'} is a verb, even though TKD K-E listed is as noun.
 
