@@ -261,9 +261,7 @@ return <<"EOF";
 <p>The book has both a Klingon&ndash;English, and an English&ndash;Klingon
 wordlist. These wordlists are automatically extracted from a simple text-based
 database, which is very easy to update. This database has been continuously
-updated and improved since it was created in late <time>1997</time>. The word database can
-be downloaded via the <a href="../canon/download.cgi">Klingon Data Download
-page</a>.</p>
+updated and improved since it was created in late <time>1997</time>.</p>
 
 <table class="layout">
   <tr>
@@ -351,7 +349,7 @@ return <<"EOF";
     <a href="http://klingonska.org/dict/">Klingon Pocket Dictionary</a>
   </span>
   <span id="pubdate">
-    Updated <time pubdate datetime="2011-11-09T06:01">October 9, 2011</time>
+    Updated <time pubdate datetime="2012-05-13T02:54">May 13, 2012</time>
   </span>
 </div>
 <!-- end:status -->

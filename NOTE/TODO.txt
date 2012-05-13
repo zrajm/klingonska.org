@@ -330,6 +330,14 @@ Priorities:
 *** TODO Add link to YouTube version of Star Trek Klingon
     http://www.youtube.com/watch?v=hVo2kVVChU0&feature=youtu.be
 *** TODO Script/Apache config
+**** DONE Replace 'canon/download.cgi' completely with 'canon/show.cgi'
+     + 'download.html' which allows user to select which file to download.
+     (Also, if 'canon/show.cgi' redirects there if no file was chosen.)
+     CLOSED: [2012-05-13 Sun 02:49]
+***** DONE Add download.html for letting user choose file
+      CLOSED: [2012-05-13 Sun 02:45]
+***** DONE Redirect 'canon/download.cgi' -> 'download.html'
+      CLOSED: [2012-05-13 Sun 02:49]
 **** DONE Allow only "authorized" access to TKD/TKW/KGT/CK/PK transcripts
      CLOSED: [2011-04-10 Sun 02:36]
      The following pages should not be accessible directly:
@@ -2141,8 +2149,6 @@ Priorities:
     CLOSED: [2010-08-09 Mon 03:01]
 **** DONE List CGI scripts on page
      CLOSED: [2010-08-09 Mon 03:00]
-**** TODO canon/download.cgi - ok
-***** TODO fix page footer
 **** TODO canon/search/index.cgi - not pretty, but passable
 ***** TODO searched for "bird" -- several matches were lacking file/article names
 ***** TODO merge apply_corrections() and strip_comments() (they are identical?)

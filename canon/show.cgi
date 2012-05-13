@@ -17,6 +17,7 @@ TODO
 
 =cut
 
+
 ###############################################################################
 ##                                                                           ##
 ##  CGI                                                                      ##
@@ -44,17 +45,19 @@ TODO
         }, $class);
     }
 
-    # Usage: $VALUE = $OBJ->get_form($NAME);
+    # Usage: @VALUE = $OBJ->get_form($NAME...);
+    #        $VALUE = $OBJ->get_form($NAME);
     #        @NAME  = $OBJ->get_form();
     #
     # If $NAME is specified, returns that form value, returns undef if $NAME
     # does not exist. If no $NAME is given returns a list of the form values
-    # currently available.
+    # currently available. If more than one $NAME is given, return those names
+    # in order (in scalar context only the first $NAME is returned).
     sub get_form {
-        my ($self, $name) = @_;
-        return defined($name)
-            ? $self->{form}{$name}            # named form value
-            : keys(%{$self->{form}});         # list of form value names
+        my ($self, @name) = @_;
+        return keys(%{$self->{form}}) unless @name;
+        return map { $self->{form}{$_} } @name if wantarray();
+        return $self->{form}{$name[0]};
     }
 
     # Usage: $VALUE = $OBJ->set_form($NAME, $VALUE);
@@ -147,22 +150,34 @@ TODO
     1;
 }
 
+
 ###############################################################################
 ##                                                                           ##
 ##  Main                                                                     ##
 ##                                                                           ##
 ###############################################################################
 
-my $cgi   = new CGI::Pages();
-my $file  = $cgi->get_form("file");            # transcript file name
+my $cgi    = new CGI::Pages();
 $SIG{__DIE__} = sub {                          # show msg in Apache on die()
     print $cgi->page(error_page(@_));
-    exit(0);
+    exit;
 };
 
+# get cookie & form values
+my $cookie = $cgi->get_cookie("own");
+my ($file, $question, $answer) = $cgi->get_form(qw/file question answer/);
+
+# no file provided -- redirect to page for choosing file
+if (not defined $file) {
+    print redirect('http://' . ($ENV{HTTP_HOST} || 'localhost') .
+        '/download.html');
+    exit;
+}
+
 # cookie provided -- check it
-if (defined(my $cookie = $cgi->get_cookie("own"))) {
-    if (auth_file($file, $cookie)) {
+if (defined $cookie) {
+    # FIXME: if $file is unset, display file selector form
+    if (is_authorized($file, $cookie)) {
         print $cgi->page({ -type => "text/plain" }, transcript_page($file));
     } else {
         $cgi->set_cookie(own => undef);        # clear bad cookie
@@ -173,8 +188,7 @@ if (defined(my $cookie = $cgi->get_cookie("own"))) {
 }
 
 # answer provided -- check it
-if (defined(my $question = $cgi->get_form("question"))) {
-    my $answer = $cgi->get_form("answer");
+if (defined $question) {
     if (question($question, $answer)) {
         $cgi->set_cookie(own => "tkd tkw kgt ck pk");
         print $cgi->page({ -type => "text/plain" }, transcript_page($file));
@@ -190,18 +204,19 @@ if (defined(my $question = $cgi->get_form("question"))) {
 print $cgi->page(question_page($file));
 exit;
 
+
 ###############################################################################
 ##                                                                           ##
 ##  Functions                                                                ##
 ##                                                                           ##
 ###############################################################################
 
-# Usage: $BOOL = auth_file($FILE, $ACCESS_COOKIE);
+# Usage: $BOOL = is_authorized($FILE, $ACCESS_COOKIE);
 #
 # $FILE is the filename of a canon klingon transcript (it should not include
 # any path). $ACCESS_COOKIE is the authorization cookie used to determine if
-# user is allowed to access that document ($ACCESS_COOKIE may be null or
-# undef).
+# user is allowed to access that document ($ACCESS_COOKIE is allowed to be null
+# or undef).
 #
 # Returns TRUE if $ACCESS_COOKIE contains permission to access $FILE, FALSE
 # otherwise. Only TKD, TKW, KGT, CK and PK requires any authentication.
@@ -210,7 +225,7 @@ exit;
 #
 # FIXME: The ACCESS_COOKIE is currently *very* simplistic. It should probably
 # be improved (or at least obfuscated) somewhat.
-sub auth_file {
+sub is_authorized {
     my ($file, $cookie) = @_;
     my ($abbr) = $file =~ m/^\d{4}-\d{2}-\d{2}-(tkd|tkw|kgt|ck|pk)\.txt$/;
     return 1 unless defined($abbr);      # non-TKD/TKW/KGT = always okay
@@ -221,8 +236,78 @@ sub auth_file {
 
 # FIXME could be prettier w/ CSS and shit
 sub error_page {
-    my $message = escapeHTML("@_");
-    return $message;
+    return escapeHTML("@_");
+}
+
+
+sub page_header {
+    my ($file) = @_;
+    # <!-- begin:status -->
+    # <div id="pagestats">
+    #   <span id="crumbs">
+    #     <a href="http://klingonska.org/">Home</a> &gt;
+    #     <a href="http://klingonska.org/canon/">Archive of Okrandian Canon</a> &gt;
+    #     <a href="http://klingonska.org/canon/$file">$file</a>
+    #   </span>
+    #   <span id="pubdate">
+    #     Updated <time pubdate datetime="2007-07-15T05:44">July 15, 2007</time>
+    #   </span>
+    # </div>
+    # <!-- end:status -->
+    my $url = 'http://klingonska.org';
+    return div({ -id => 'head' },
+        comment('begin:status'),
+        div({ -id => 'pagestats' },
+            span({ -id => 'crumbs' },
+                 a({ href => "$url/"       }, 'Home'), '&gt;',
+                 a({ href => "$url/canon/" }, 'Archive of Okrandian Canon'), '&gt;',
+                 defined($file)
+                     ? a({ href => "$url/canon/$file"    }, $file)
+                     : a({ href => "$url/canon/show.cgi" }, 'Transcript Download')
+            ), span({ id => 'pubdate' }, 'Updated', Time({
+                -datetime => '2012-05-13T02:54',
+                -pubdate  => undef,
+            }, 'May 13, 2012'))),
+        comment('end:status'),
+        p({ -align => 'center' }, a({ -href => '..' }, img({
+            -alt    => 'Klingonska Akademien',
+            -border => '0',
+            -height => '176',
+            -src    => '/pic/ka.gif',
+            -vspace => '5',
+            -width  => '600',
+        })))
+    );
+}
+
+sub page_footer {
+    my ($place) = @_;
+    return div({ -id => "foot" },
+        p({ class => 'copyright' },
+            '&copy;1998&ndash;2011, Copyright ',
+            span({ -class => 'author' },
+                 a({ -href => 'mailto:zrajm@klingonska.org' }, 'Zrajm C Akfohg')
+            ) . ', ' .
+            a({ -href => 'http://klingonska.org/' }, 'Klingonska Akademien') .
+            ', Uppsala') .
+        p({ class => 'validator' },
+            'Validate:',
+            a({
+                -href => "http://validator.w3.org/check?uri=$place",
+            }, 'XHTML') . ',',
+            a({
+                -href => 'http://jigsaw.w3.org/css-validator/validator' .
+                    "?uri=$place&amp;profile=css3",
+            }, 'CSS3') . ',',
+            a({
+                -href => "http://validator.w3.org/checklink?uri=$place"
+            }, 'links') . '.',
+            'License:',
+            a({
+                -href => 'http://creativecommons.org/licenses/by-sa/3.0/',
+                -rel  => 'license',
+            }, 'CC BY&ndash;SA') . '.')
+    );
 }
 
 # FIXME could be prettier w/ CSS and shit
@@ -231,156 +316,59 @@ sub question_page {
     my $question = question();                 # random question
     my $answer   = undef;                      # clear answer
     my ($book, $page, $paragraph, $line, $word) = split(/_/, $question);
-    my $place = "http://$ENV{HTTP_HOST}$ENV{REQUEST_URI}";
+    my $place = 'http://' . ($ENV{HTTP_HOST} || 'localhost') .
+        ($ENV{REQUEST_URI} || '');
     use CGI qw(:standard Time); # "Time" is custom function for microdata
     return
         start_html({
             -style => { src => [
-                "../includes/page.css",
-                "../includes/pagestats.css",
-            ]},
-            -title => "Access Form",
-        }) .
-        div({ -id => "head" },
-            # <!-- begin:status -->
-            # <div id="pagestats">
-            #   <span id="crumbs">
-            #     <a href="http://klingonska.org/">Home</a> &gt;
-            #     <a href="http://klingonska.org/canon/">Archive of Okrandian Canon</a> &gt;
-            #     <a href="http://klingonska.org/canon/$file">$file</a>
-            #   </span>
-            #   <span id="pubdate">
-            #     Updated <time pubdate datetime="2007-07-15T05:44">July 15, 2007</time>
-            #   </span>
-            # </div>
-            # <!-- end:status -->
-            comment("begin:status"),
-            div({ -id => "pagestats" },
-                span({ -id => "crumbs" },
-                     a({ href => "http://klingonska.org/" },
-                         "Home",
-                     ), "&gt;",
-                     a({ href => "http://klingonska.org/canon/" },
-                         "Archive of Okrandian Canon",
-                     ), "&gt;",
-                     defined($file)
-                         ? a({ href => "http://klingonska.org/canon/$file" },
-                             "$file",
-                         )
-                         : a({ href => "http://klingonska.org/canon/show.cgi" },
-                             "Access Form",
-                         ),
-                ),
-                span({ id => "pubdate" },
-                     "Updated",
-                     Time({
-                             -datetime => "2011-05-04T18:33",
-                             -pubdate  => undef,
-                         },
-                         "May 4, 2011",
-                     ),
-                 ),
-            ),
-            comment("end:status"),
-            p({ -align => "center" },
-                a({ -href => ".." },
-                    img({
-                        -alt    => "Klingonska Akademien",
-                        -border => "0",
-                        -height => "176",
-                        -src    => "/pic/ka.gif",
-                        -vspace => "5",
-                        -width  => "600",
-                    })
-                )
-            )
-        ) .
-        div({ -id => "main" },
-            (defined($message) and p({
-                -style =>
-                    "background-color: pink;" .
-                    "padding: .5em;" .
-                    "font-weight: bold;"
+                '../includes/page.css',
+                '../includes/pagestats.css',
+            ]}, -title => 'Klingon Transcript Download' }) .
+        page_header($file) .
+        div({ -id => 'main' },
+            (defined($message) and p({ -style =>
+                'background-color: pink;' .
+                'padding: .5em;' .
+                'font-weight: bold;'
             }, $message)) .
-            p({ -align => "justify" },
-                "For copyright reasons you must own a copy of Marc",
-                "Okrand&rsquo;s book", i("The Klingon Dictionary"), "to",
-                "access this document. To certify that this",
-                "is the case, please enter the specified word from the main",
-                "text of the TKD below.",
+            p({ -align => 'justify' },
+                'For copyright reasons you must own a copy of Marc',
+                'Okrand&rsquo;s book', i('The Klingon Dictionary'), 'to',
+                'access this document. To certify that this',
+                'is the case, please enter the specified word from the main',
+                'text of the TKD below.',
             ) .
-            div({ -align => "center" },
-                start_form({
-                    -action  => "",
-                    -method  => "POST",
-                }),
-                h3(escapeHTML(
-                    "$book, " .
-                    "page $page, " .
-                    "paragraph $paragraph, " .
-                    "line $line, " .
-                    "word $word:"
-                )) .
-                p({ class => "center" },
+            div({ -align => 'center' },
+                start_form({ -action  => '', -method  => 'POST' }),
+                h3(escapeHTML("$book, page $page, paragraph $paragraph, " .
+                    "line $line, word $word:")) .
+                p({ class => 'center' },
                     hidden({
-                        -name     => "file",
+                        -name     => 'file',
                         -override => 1,
-                        -value    => $file,
-                    }) .
+                        -value    => $file }) .
                     hidden({
-                        -name     => "question",
+                        -name     => 'question',
                         -override => 1,
-                        -value    => $question,
-                    }) .
+                        -value    => $question }) .
                     textfield({
-                        -autofocus   => "autofocus",
-                        -name        => "answer",
+                        -autofocus   => 'autofocus',
+                        -name        => 'answer',
                         -override    => 1,
-                        -placeholder => "Enter word",
-                        -value       => $answer,
-                    }) .
-                    submit({ -value => "Reply" })
-                ),
+                        -placeholder => 'Enter word…',
+                        -value       => $answer }) .
+                    submit({ -value => 'Reply' })),
                 end_form(),
             ) .
-            p({ -align => "justify" },
-                "When counting paragraphs, skip Klingon example phrases.",
-                "Hyphenated words counts as one. Ending paragraphs at the",
-                "top of a page are counted, as well as half words at",
-                "beginning of line.", i("Case counts."),
+            p({ -align => 'justify' },
+                'When counting paragraphs, skip Klingon example phrases.',
+                'Hyphenated words counts as one. Ending paragraphs at the',
+                'top of a page are counted, as well as half words at',
+                'beginning of line.', i('Case counts.'),
             )
         ) .
-        div({ -id => "foot" },
-            p({ class => "copyright" },
-                "&copy;1998&ndash;2011, Copyright ",
-                span({ -class => "author" },
-                     a({ -href => 'mailto:zrajm@klingonska.org' },
-                       "Zrajm C Akfohg"
-                     )
-                ) . ", " .
-                a({ -href => 'http://klingonska.org/' },
-                    "Klingonska Akademien"
-              ) . ", Uppsala"
-            ) .
-            p({ class => "validator" },
-                "Validate:",
-                a({
-                    -href => "http://validator.w3.org/check?uri=$place",
-                }, "XHTML") . ",",
-                a({
-                    -href => "http://jigsaw.w3.org/css-validator/validator" .
-                        "?uri=$place&amp;profile=css3",
-                }, "CSS3") . ",",
-                a({
-                    -href => "http://validator.w3.org/checklink?uri=$place"
-                }, "links") . ".",
-                "License:",
-                a({
-                    -href => "http://creativecommons.org/licenses/by-sa/3.0/",
-                    -rel  => "license",
-                }, "CC BY&ndash;SA") . ".",
-            )
-        ) .
+        page_footer($place) .
         end_html();
 }
 
@@ -448,4 +436,4 @@ sub question {
     return undef;
 }
 
-__END__
+#[eof]
