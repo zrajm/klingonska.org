@@ -683,7 +683,7 @@ indicating that it is singular: {nuH} <weapon> refers to a single
 weapon of any type. Unlike English, however, the lack of a
 specific suffix for plural does not always indicate that the noun
 is singular. In Klingon, a noun without a plural suffix may still
-refer to more than one entity The plurality is indicated by a [[p.22]]
+refer to more than one entity. The plurality is indicated by a [[p.22]]
 pronoun, whether a verb prefix (see section 4.1) or a full word
 (section 5.1), or by context. For example, {yaS} <officer> may
 refer to a single officer or to a group of officers, depending on
