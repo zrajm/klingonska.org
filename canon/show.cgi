@@ -315,7 +315,8 @@ sub question_page {
     my ($file, $message) = @_;
     my $question = question();                 # random question
     my $answer   = undef;                      # clear answer
-    my ($book, $page, $paragraph, $line, $word) = split(/_/, $question);
+    my ($book, $section, $paragraph, $line, $word) = split(/_/, $question);
+    $section =~ s/x/./g;
     my $place = 'http://' . ($ENV{HTTP_HOST} || 'localhost') .
         ($ENV{REQUEST_URI} || '');
     use CGI qw(:standard Time); # "Time" is custom function for microdata
@@ -337,12 +338,12 @@ sub question_page {
                 'Okrand&rsquo;s book', i('The Klingon Dictionary'), 'to',
                 'access this document. To certify that this',
                 'is the case, please enter the specified word from the main',
-                'text of the TKD below.',
+                'text of TKD below.',
             ) .
             div({ -align => 'center' },
                 start_form({ -action  => '', -method  => 'POST' }),
-                h3(escapeHTML("$book, page $page, paragraph $paragraph, " .
-                    "line $line, word $word:")) .
+                h3(escapeHTML("$book, section $section, paragraph $paragraph, " .
+                    "line $line, word $word")) .
                 p({ class => 'center' },
                     hidden({
                         -name     => 'file',
@@ -362,10 +363,9 @@ sub question_page {
                 end_form(),
             ) .
             p({ -align => 'justify' },
-                'When counting paragraphs, skip Klingon example phrases.',
-                'Hyphenated words counts as one. Ending paragraphs at the',
-                'top of a page are counted, as well as half words at',
-                'beginning of line.', i('Case counts.'),
+                'When counting paragraphs, start after section title, ',
+                'skip Klingon example phrases. Hyphenated words counts as ',
+                'one. Half word at beginning of line counts.', i('Case counts.'),
             )
         ) .
         page_footer($place) .
@@ -398,26 +398,36 @@ sub question {
     my ($question, $answer) = @_;
     my %question = (
         # book_page_paragraph_line_word => "Word",
-        TKD_19_4_2_4 => "earthworm",
-        TKD_24_3_1_1 => "Inherently",
-        TKD_24_6_2_8 => "accurately",
-        TKD_26_2_1_4 => "translation",
-        TKD_26_4_3_2 => "conversation",
-        TKD_27_4_1_7 => "happening",
-        TKD_30_2_1_2 => "combinations",
-        TKD_31_2_1_4 => "construction",
-        TKD_32_1_1_5 => "monosyllabic",
-        TKD_35_1_1_2 => "indicate",
-        TKD_36_2_1_5 => "express",
-        TKD_37_1_1_3 => "ghuS",
-        TKD_39_1_1_2 => "singular",
-        TKD_40_2_1_5 => "tenses",
-        TKD_41_2_1_4 => "similar",
-        TKD_41_3_1_3 => "sentence",
-        TKD_58_2_1_5 => "category",
-        TKD_63_4_2_8 => "convenience",
-        TKD_71_2_1_4 => "superlative",
-        TKD_78_2_3_6 => "Occasionally",
+        TKD_3x2x1_4_2_4 => "earthworm",
+        TKD_3x3x2_1_3_4 => "Unlike",
+        TKD_3x3x3_3_2_8 => "accurately",
+        TKD_3x3x4_1_1_6 => "class",
+        TKD_3x3x6_1_4_4 => "classification",
+        TKD_4_1_1_5     => "monosyllabic",
+        TKD_4x1x1_1_2_4 => "chart",
+        TKD_3x3x5_5_1_7 => "happening",
+        TKD_3x4_1_1_2   => "combinations",
+        TKD_3x4_1_5_6   => "construct",
+        TKD_4x1_1_2_3   => "what",
+        TKD_4x2x2_1_2_7 => "predisposed",
+        TKD_4x3_1_2_3   => "lengwI'mey",
+        TKD_4x3_2_1_7   => "negation",
+        TKD_5_1_1_4     => "bulk",
+        TKD_5x1_2_1_3   => "chaH",
+        TKD_5x3_2_1_3   => "joining",
+        TKD_5x6_1_3_3   => "languages",
+        TKD_5x6_1_4_2   => "suggest",
+        TKD_5x6_2_2_4   => "spellings",
+        TKD_6_1_6_3     => "eloquently",
+        TKD_6x2x1_1_2_1 => "compound",
+        TKD_6x2x2_2_2_3 => "qara'DI'",
+        TKD_6x2x3_3_1_3 => "head",
+        TKD_6x2x5_5_2_1 => "prisoners",
+        TKD_6x4_1_2_2   => "yes",
+        TKD_6x5_1_1_5   => "appropriate",
+        TKD_6x6_2_1_3   => "formula",
+        TKD_7x1_1_2_4   => "off",
+        TKD_7x2_1_2_1   => "clipping",
     );
     if (@_ == 0) {                # return random question
         my @question = keys(%question);
