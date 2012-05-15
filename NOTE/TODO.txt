@@ -312,6 +312,22 @@ Priorities:
 **** DONE include lilypond score (and source)
      CLOSED: [2010-11-18 Thu 09:55]
 ** TODO "Archive of Okrandian Canon"
+*** TODO Prettier HTML transcripts of trading cards
+    Include all text from transcripts, breif description of that series of
+    SkyBox cards at top of each HTML page + link to Collector's site with a
+    list off *all* the cards in that series.
+
+    (See `1994-sbx-sp1.html` for a good example.)
+**** DONE 1993-sbx-99.html
+    CLOSED: [2012-05-15 Tue 17:17]
+**** DONE 1994-sbx-sp1.html
+    CLOSED: [2012-05-15 Tue 17:17]
+**** DONE 1995-sbx-s7.html
+    CLOSED: [2012-05-15 Tue 17:18]
+**** TODO 1995-sbx-s13.html
+**** TODO 1996-sbx-s19.html
+**** TODO 1996-sbx-s25.html
+**** TODO 1997-sbx-s31.html
 *** TODO New header fields for transcripts
 **** TODO Reason for canonicity
      Should be explaining the source's tie to Marc Okrand. E.g. "Translation by
