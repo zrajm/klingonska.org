@@ -4,7 +4,8 @@
   [2000-07-30] corrected text using the actual cards
   [2003-01-29] split this card into separate file and added file header
   [2003-01-30] hunted down errors using Steven Boozer's transcript
-  Style: {}=bold, <>=italic, ^=superscript
+  [2012-05-17] English & Klingon copyright year correction + superscripted 'TM'
+  Style: {}=bold, <>=italic
 
   Type: trading card
   Date: 1997
@@ -37,14 +38,14 @@ nentay loptaHvIS tlhIngan potlh tlhIngan 'oy'naQ'e'. SIQwI' lu'oy'moHmeH juppu'D
 qa' patlh veb chavlaHmeH tlhIngan lo'chu' chaH. toDujDaj toblu'. wej 'ujmey 'ab 'oy'naQ. chIch vay' 'oy'moHmeH
 'oy'naQ 'ul law' tlhuD 'oH.
 
-SkyBox TM
+SkyBox™
 
-TM, ® & © 1996 PARAMOUNT PICTURES. ALL RIGHTS RESERVED. <STAR TREK> AND RELATED MARKS ARE TRADEMARKS OF
+TM, ® & © 1997 PARAMOUNT PICTURES. ALL RIGHTS RESERVED. <STAR TREK> AND RELATED MARKS ARE TRADEMARKS OF
 PARAMOUNT PICTURES. FLEER/SKYBOX AUTHORIZED USER. PRINTED IN USA.
 
-TM, ®, © je tera' DIS wa'-Hut-Hut-loS Paramount Pictures. Hoch SeH. Paramount Pictures
+TM, ®, © je tera' DIS wa'-Hut-Hut-loS Paramount Pictures. Hoch SeH. Paramount Pictures [[loS:=Soch]]
 malja' permey bIH <STAR TREK> pong'e' Deghmey'e' je. bIH lo' Fleer/SkyBox. 'e' chaw'.
-TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF <the Klingon Dictionary>.
+TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF <the Klingon Dictionary>. [[the:=The]]
 ILLUSTRATION FROM THE <STAR TREK> ENCYCLOPEDIA
 
 Paramount®

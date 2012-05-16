@@ -6,7 +6,8 @@
   [2003-01-29] split this card into separate file and added file header
   [2003-01-30] hunted down errors using Steven Boozer's transcript
   [2010-10-05] replaced shy (latin1 char 173) with minus/hyphen (ascii char 45)
-  Style: {}=bold, <>=italic, ^=superscript
+  [2012-05-17] superscripted 'TM'
+  Style: {}=bold, <>=italic
 
   Type: trading card
   Date: 1994
@@ -19,10 +20,6 @@
     that reprint were pointed out by Will Martin in a letter to the editor in
     <{HolQeD} 4:1>, p.7.)
   Credit: Nancy Nielsen-Brown gave me this card at the {qep'a' SochDIch}.
-
-  : [From SkyBox trading card SP1, 1994 (TNG 1st season). The text of
-  : this card was also reprinted in HQ3:4 p.10-11 and some corrections
-  : to this reprint was posted in HQ4:1 p.7.]
 
 ]]
 
@@ -43,7 +40,7 @@ space, this symbol grew to become as feared throughout the galaxy as
 the menacing profiles of their battlecruisers.
 
 Paramount®
-SkyBox TM
+SkyBox™
 
 TM, ® & © 1994 PARAMOUNT PICTURES. ALL RIGHTS RESERVED.
 STAR TREK AND RELATED MARKS ARE TRADEMARKS OF PARAMOUNT

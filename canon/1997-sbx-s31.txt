@@ -5,7 +5,8 @@
   [2003-01-29] split this card into separate file and added file header
   [2003-01-30] hunted down errors using Steven Boozer's transcript
   [2010-10-05] replaced shy (latin1 char 173) with minus/hyphen (ascii char 45)
-  Style: {}=bold, <>=italic, ^=superscript
+  [2012-05-17] English & Klingon copyright year correction + superscripted 'TM'
+  Style: {}=bold, <>=italic
 
   Type: trading card
   Date: 1997
@@ -37,14 +38,14 @@ HeghDI' tlhIngan SuvwI' pagh tlhIngan SuvwI' HoHlu'DI' Heghtay lulop latlh tlhIn
 chaq bey SeQ lujach. Heghpu'bogh tlhIngan mInDu' lupoSmoHlu'. beyHom bey bey'a' jachtaH latlh tlhInganpu'. yay
 'oS bey. 'IQ pagh. Heghpu'bogh latlhpu' ghuHmoH bey. ghoS tlhIngan SuvwI' maq.
 
-SkyBox TM
+SkyBox™
 
-TM, ® & © 1996 PARAMOUNT PICTURES. ALL RIGHTS RESERVED. <STAR TREK> AND RELATED MARKS ARE TRADEMARKS OF
+TM, ® & © 1997 PARAMOUNT PICTURES. ALL RIGHTS RESERVED. <STAR TREK> AND RELATED MARKS ARE TRADEMARKS OF
 PARAMOUNT PICTURES. FLEER/SKYBOX AUTHORIZED USER. PRINTED IN USA.
 
-TM, ®, © je tera' DIS wa'-Hut-Hut-loS Paramount Pictures. Hoch SeH. Paramount Pictures
+TM, ®, © je tera' DIS wa'-Hut-Hut-loS Paramount Pictures. Hoch SeH. Paramount Pictures [[loS:=Soch]]
 malja' permey bIH <STAR TREK> pong'e' Deghmey'e' je. bIH lo' Fleer/SkyBox. 'e' chaw'.
-TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF <the Klingon Dictionary>.
+TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF <the Klingon Dictionary>. [[the:=The]]
 ILLUSTRATION FROM THE <STAR TREK> ENCYCLOPEDIA
 
 Paramount®

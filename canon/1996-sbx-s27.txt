@@ -6,7 +6,8 @@
   [2003-01-29] split this card into separate file and added file header
   [2003-01-30] hunted down errors using Steven Boozer's transcript
   [2010-10-05] replaced shy (latin1 char 173) with minus/hyphen (ascii char 45)
-  Style: {}=bold, <>=italic, ^=superscript
+  [2012-05-17] Klingon copyright year correction + superscripted 'TM'
+  Style: {}=bold, <>=italic
 
   Type: trading card
   Date: 1996
@@ -30,7 +31,7 @@
 S27
 
 Qo'noS
-Klingon^TM^ Homeworld
+Klingon™ Homeworld
 
 tlhIngan wo' yuQmey chovlu'chugh Qo'noS potlh law' Hoch potlh puS.
 roD 'oHvaD juHqo' ponglu' neH. pa' 'oHtaH vaS'a' 'e'. tlhIngan qum waw' [[vaS'a' 'e':=vaS'a''e']]
@@ -42,13 +43,13 @@ located, the center of the Klingon government. Qo'noS is a class-M
 planet with an oxygen/nitrogen atmosphere.
 
 Paramount®
-SkyBox TM
+SkyBox™
 
 TM, ® & © 1996 PARAMOUNT PICTURES. ALL RIGHTS RESERVED.
 <STAR TREK> AND RELATED MARKS ARE TRADEMARKS OF PARAMOUNT
 PICTURES. FLEER/SKYBOX AUTHORIZED USER. PRINTED IN USA.
 
-TM, ®, © je tera' DIS wa'-Hut-Hut-loS Paramount Pictures. Hoch SeH. Paramount Pictures
+TM, ®, © je tera' DIS wa'-Hut-Hut-loS Paramount Pictures. Hoch SeH. Paramount Pictures [[loS:=jav]]
 malja' permey bIH STAR TREK pong'e' Deghmey'e' je. bIH lo' Fleer/SkyBox. 'e' chaw'.
 TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF <THE KLINGON DICTIONARY>.
 

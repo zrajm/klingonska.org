@@ -6,7 +6,8 @@
   [2003-01-29] split this card into separate file and added file header
   [2003-01-30] hunted down errors using Steven Boozer's transcript
   [2010-10-05] replaced shy (latin1 char 173) with minus/hyphen (ascii char 45)
-  Style: {}=bold, <>=italic, ^=superscript
+  [2012-05-17] Klingon copyright year correction + superscripted 'TM'
+  Style: {}=bold, <>=italic
 
   Type: trading card
   Date: 1996
@@ -26,18 +27,18 @@
 S20
 
 Ha'quj
-Klingon^TM^ Sash
+Klingon™ Sash
 
 qorDu'Daj tuq 'oS Ha'quje'e' tuQbogh wo'rIv. tuQtaHvIS Hem. [[Ha'quje'e':=Ha'quj'e']]
 ghaHvaD quHDaj qawmoH.
 
-The sash that Worf^TM^ wears is a symbol of his family's house. He wears
+The sash that Worf™ wears is a symbol of his family's house. He wears
 it proudly as a reminder of his heritage.
 
 Paramount®
-SkyBox TM
+SkyBox™
 
-TM, ®, © je tera' DIS wa'-Hut-Hut-loS Paramount Pictures. Hoch SeH. Paramount Pictures malja'
+TM, ®, © je tera' DIS wa'-Hut-Hut-loS Paramount Pictures. Hoch SeH. Paramount Pictures malja' [[loS:=jav]]
 permey bIH STAR TREK pong'e' Deghmey'e' je. bIH lo' Fleer/SkyBox. 'e' chaw'.
 TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF <THE KLINGON DICTIONARY>.
 

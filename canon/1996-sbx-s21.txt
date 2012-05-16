@@ -6,7 +6,8 @@
   [2003-01-29] split this card into separate file and added file header
   [2003-01-30] hunted down errors using Steven Boozer's transcript
   [2010-10-05] replaced shy (latin1 char 173) with minus/hyphen (ascii char 45)
-  Style: {}=bold, <>=italic, ^=superscript
+  [2012-05-17] Klingon copyright year correction + superscripted 'TM'
+  Style: {}=bold, <>=italic
 
   Type: trading card
   Date: 1996
@@ -28,7 +29,7 @@
 S21
 
 Soj
-Klingon^TM^ Food
+Klingon™ Food
 
 yIntaHbogh tlhIngan Soj tlhol jablu'DI' tIvqu'lu'. qagh,
 ro'qegh'Iwachab, targh tIq Sop 'e' lungIl Humanpu' puS. [[ro'qegh'Iwachab:=ro'qegh'Iwchab]]
@@ -37,13 +38,13 @@ Klingon food is best when served fresh and live. Few humans dare
 to eat <gagh>, <rokeg> blood pie, or heart of <targ>.
 
 Paramount®
-SkyBox TM
+SkyBox™
 
 TM, ® & © 1996 PARAMOUNT PICTURES. ALL RIGHTS RESERVED.
 STAR TREK AND RELATED MARKS ARE TRADEMARKS OF PARAMOUNT
 PICTURES. FLEER/SKYBOX AUTHORIZED USER. PRINTED IN USA.
 
-TM, ®, © je tera' DIS wa'-Hut-Hut-loS Paramount Pictures. Hoch SeH. Paramount Pictures
+TM, ®, © je tera' DIS wa'-Hut-Hut-loS Paramount Pictures. Hoch SeH. Paramount Pictures [[loS:=jav]]
 malja' permey bIH STAR TREK pong'e' Deghmey'e' je. bIH lo' Fleer/SkyBox. 'e' chaw'.
 TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF <THE KLINGON DICTIONARY>.
 ILLUSTRATION FROM THE STAR TREK ENCYCLOPEDIA

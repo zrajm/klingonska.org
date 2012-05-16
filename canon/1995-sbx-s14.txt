@@ -5,7 +5,8 @@
   [2000-07-30] corrected text using the actual cards
   [2003-01-29] split this card into separate file and added file header
   [2003-01-30] hunted down errors using Steven Boozer's transcript
-  Style: <>=italic, ^=superscript
+  [2012-05-17] Klingon copyright year correction + superscripted 'TM'
+  Style: {}=bold, <>=italic
 
   Type: trading card
   Date: 1995
@@ -16,8 +17,6 @@
     third season trading cards. (The text of this card was also reproduced in
     <{HolQeD} 4:3>, p.5.)
   Credit: Nancy Nielsen-Brown gave me this card at the {qep'a' SochDIch}.
-
-  : [The text of this card was also reprinted in HolQeD 3:4, p.10-11.]
 
 ]]
 
@@ -36,15 +35,15 @@ disruptor, attached to an extended power supply stock.
 This serves to steady the aim of a warrior and increase
 the effective range for distance targeting.
 
-TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF THE KLINGON DICTIONARY.
+TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF THE KLINGON DICTIONARY. [[AUTHOR OF THE KLINGON DICTIONARY:=<AUTHOR OF THE KLINGON DICTIONARY>]]
 
-TM, ®, © je tera' DIS wa'-Hut-Hut-loS Paramount
+TM, ®, © je tera' DIS wa'-Hut-Hut-loS Paramount [[loS:=vagh]]
 Pictures. Hoch SeH. Paramount Pictures malja'
 permey bIH Star Trek pong'e' Deghmey'e' je. bIH
 lo' SkyBox International, Inc. 'e' chaw'.
 
 Paramount®
-SkyBox TM
+SkyBox™
 
 TM, ® & © 1995 PARAMOUNT PICTURES. ALL RIGHTS RESERVED.
 STAR TREK AND RELATED MARKS ARE TRADEMARKS OF PARAMOUNT

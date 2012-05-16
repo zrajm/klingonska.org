@@ -6,7 +6,8 @@
   [2003-01-29] split this card into separate file and added file header
   [2003-01-30] hunted down errors using Steven Boozer's transcript
   [2010-10-05] replaced shy (latin1 char 173) with minus/hyphen (ascii char 45)
-  Style: {}=bold, <>=italic, ^=superscript
+  [2012-05-17] Klingon copyright year correction + superscripted 'TM'
+  Style: {}=bold, <>=italic
 
   Type: trading card
   Date: 1996
@@ -35,20 +36,20 @@ DuraS be'nI'pu' lurSa' be'etor je. ngoQvam luchavmeH
 ghawran maghpu' be'nI'pu'. woQ luSuqmeH jIjpu' chaH
 romuluSngan'e' je.
 
-The sisters of the House of Duras, Lursa^TM^ and B'Etor^TM^ are constantly
+The sisters of the House of Duras, Lursa™ and B'Etor™ are constantly
 seeking a higher standing for the House of Duras
-within the Klingon^TM^ High Council. To this end, the sisters have
-acted against Gowron,^TM^ going as far as to work with
-Romulan^TM^ factions in order to gain power.
+within the Klingon™ High Council. To this end, the sisters have
+acted against Gowron,™ going as far as to work with
+Romulan™ factions in order to gain power.
 
 Paramount®
-SkyBox TM
+SkyBox™
 
 TM, ® & © 1996 PARAMOUNT PICTURES. ALL RIGHTS RESERVED.
 <STAR TREK> AND RELATED MARKS ARE TRADEMARKS OF PARAMOUNT
 PICTURES. FLEER/SKYBOX AUTHORIZED USER. PRINTED IN USA.
 
-TM, ®, © je tera' DIS wa'-Hut-Hut-loS Paramount
+TM, ®, © je tera' DIS wa'-Hut-Hut-loS Paramount [[loS:=jav]]
 Pictures. Hoch SeH. Paramount Pictures malja'
 permey bIH STAR TREK pong'e' Deghmey'e' je. bIH
 lo' Fleer/SkyBox. 'e' chaw'.

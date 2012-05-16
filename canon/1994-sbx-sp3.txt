@@ -6,7 +6,8 @@
   [2003-01-29] split this card into separate file and added file header
   [2003-01-30] hunted down errors using Steven Boozer's transcript
   [2010-10-05] replaced shy (latin1 char 173) with minus/hyphen (ascii char 45)
-  Style: {}=bold, <>=italic, ^=superscript
+  [2012-05-17] superscripted 'TM'
+  Style: {}=bold, <>=italic
 
   Type: trading card
   Date: 1994
@@ -17,11 +18,6 @@
     first season trading cards. (The text of this card was also reproduced in
     <{HolQeD} 3:4>, pp.10-11.)
   Credit: Nancy Nielsen-Brown gave me this card at the {qep'a' SochDIch}.
-
-  : [From SkyBox trading card SP3, 1994 (TNG 1st season). The text of
-  : this card was also reprinted in HQ3:4 p.10-11. On the SkyBox card
-  : the word {HoS} is incorrectly spelled {Hos} (this error is retained
-  : above).]
 
 ]]
 
@@ -41,7 +37,7 @@ main viewer on a Klingon ship is usually overlaid with a complex target
 acquisition grid.
 
 Paramount®
-SkyBox TM
+SkyBox™
 
 TM, ®, © je tera' DIS wa'-Hut-Hut-loS Paramount Pictures. Hoch SeH. Paramount Pictures
 malja' permey bIH Star Trek pong'e' Deghmey'e' je. bIH lo' SkyBox International, Inc. 'e' chaw'.

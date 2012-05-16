@@ -312,10 +312,11 @@ Priorities:
 **** DONE include lilypond score (and source)
      CLOSED: [2010-11-18 Thu 09:55]
 ** TODO "Archive of Okrandian Canon"
-*** TODO Prettier HTML transcripts of trading cards
+*** DONE Prettier HTML transcripts of trading cards
+    CLOSED: [2012-05-17 Thu 00:20]
     Include all text from transcripts, breif description of that series of
     SkyBox cards at top of each HTML page + link to Collector's site with a
-    list off *all* the cards in that series.
+    list off *all* the cards in that series. Also change pubdate!
 
     (See `1994-sbx-sp1.html` for a good example.)
 **** DONE 1993-sbx-99.html
@@ -324,10 +325,14 @@ Priorities:
     CLOSED: [2012-05-15 Tue 17:17]
 **** DONE 1995-sbx-s7.html
     CLOSED: [2012-05-15 Tue 17:18]
-**** TODO 1995-sbx-s13.html
-**** TODO 1996-sbx-s19.html
-**** TODO 1996-sbx-s25.html
-**** TODO 1997-sbx-s31.html
+**** DONE 1995-sbx-s13.html
+     CLOSED: [2012-05-16 Wed 20:59]
+**** DONE 1996-sbx-s19.html
+     CLOSED: [2012-05-16 Wed 22:08]
+**** DONE 1996-sbx-s25.html
+     CLOSED: [2012-05-16 Wed 23:34]
+**** DONE 1997-sbx-s31.html
+     CLOSED: [2012-05-17 Thu 00:19]
 *** TODO New header fields for transcripts
 **** TODO Reason for canonicity
      Should be explaining the source's tie to Marc Okrand. E.g. "Translation by
@@ -447,6 +452,23 @@ Priorities:
     transcript).
 
 *** [63%] Transcripts updating/improvement
+**** TODO Add transcript of 1994-12-holqed-03-4.txt
+     HolQeD 3:4, pp.10--11
+     Transcripts of SkyBox cards SP1, SP2 and SP3.
+     (linked to by 1994-sbx-sp1.html above)
+**** TODO Add transcript 2000-12-holqed-09-4-b.txt
+     "Everyday Klingon"
+
+     Decipher, Inc., trading cards, 9:4/16 and do some hunting of mentions of
+     it on the mailing list. -- Is it really canon/translated by Okrand? What
+     does it look like?
+**** TODO What do SkyBox cards S37-S39 look like?
+     Do they contain Canon Klingon?
+     http://www.nslists.com/sttng7.htm
+     Klingon Cards (1:12 packs)
+     S37   Bloodwine
+     S38   Romance
+     S39   Opera
 **** TODO Add Washington Shakespeare Company's Klingon press release
      https://mail.google.com/mail/#search/%22Washington+Shakespeare+Company%22/12a4f44a8588c816
      An excerpt from a press release sent by the Washington Shakespeare Company

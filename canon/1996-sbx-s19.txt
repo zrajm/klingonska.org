@@ -6,7 +6,8 @@
   [2003-01-29] split this card into separate file and added file header
   [2003-01-30] hunted down errors using Steven Boozer's transcript
   [2010-10-05] replaced shy (latin1 char 173) with minus/hyphen (ascii char 45)
-  Style: ^=superscript
+  [2012-05-17] Klingon copyright year correction + superscripted 'TM'
+  Style: {}=bold, <>=italic
 
   Type: trading card
   Date: 1996
@@ -33,19 +34,19 @@ Klingon Communicator
 labmeH 'evnagh Se' lo' tlhIngan QumwI'. janmey
 ngo' lulo'lu'DI' pIj jabbI'ID nISpu' woj.
 
-A Klingon^TM^ communicator sends a signal through
+A Klingon™ communicator sends a signal through
 subspace radio. Older models were susceptible to
 radiation.
 
-TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF THE KLINGON DICTIONARY.
+TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF THE KLINGON DICTIONARY. [[THE KLINGON DICTIONARY:=<THE KLINGON DICTIONARY>]]
 
-TM, ®, © je tera' DIS wa'-Hut-Hut-loS Paramount
+TM, ®, © je tera' DIS wa'-Hut-Hut-loS Paramount [[loS:=jav]]
 Pictures. Hoch SeH. Paramount Pictures malja'
 permey bIH STAR TREK pong'e' Deghmey'e' je. bIH
 lo' Fleer/SkyBox. 'e' chaw'.
 
 Paramount®
-SkyBox TM
+SkyBox™
 
 TM, ® & © 1996 PARAMOUNT PICTURES. ALL RIGHTS RESERVED.
 STAR TREK AND RELATED MARKS ARE TRADEMARKS OF PARAMOUNT

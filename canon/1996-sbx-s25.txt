@@ -6,7 +6,8 @@
   [2003-01-29] split this card into separate file and added file header
   [2003-01-30] hunted down errors using Steven Boozer's transcript
   [2010-10-05] replaced shy (latin1 char 173) with minus/hyphen (ascii char 45)
-  Style: {}=bold, <>=italic, ^=superscript
+  [2012-05-17] Klingon copyright year correction + superscripted 'TM'
+  Style: {}=bold, <>=italic
 
   Type: trading card
   Date: 1996
@@ -26,7 +27,7 @@
 S25
 
 tlhIngan vaS'a'
-Klingon^TM^ Great Hall
+Klingon™ Great Hall
 
 juHqo'Daq vaS'a' tu'lu'. ngoch luchermeH 'ej wo' San luwuqmeH pa'
 ghom tlhIngan yejquv DevwI'pu'. DaH che' ghawran. yejquv DevwI' moj
@@ -34,14 +35,14 @@ ghawran 'e' wuqta' cho' 'oDwI' Dapu'bogh janluq pIqarD HoD.
 
 On the Homeworld, there is a great hall where the leaders of the Klingon
 High Council meet to determine policy and decide upon the fate of the
-Empire. Gowron^TM^ currently presides, named leader of the High Council
-by Captain Jean-Luc Picard,^TM^ who was acting as Arbiter of
+Empire. Gowron™ currently presides, named leader of the High Council
+by Captain Jean-Luc Picard,™ who was acting as Arbiter of
 Succession.
 
 Paramount®
-SkyBox TM
+SkyBox™
 
-TM, ®, © je tera' DIS wa'-Hut-Hut-loS Paramount Pictures. Hoch SeH. Paramount Pictures malja'
+TM, ®, © je tera' DIS wa'-Hut-Hut-loS Paramount Pictures. Hoch SeH. Paramount Pictures malja' [[loS:=jav]]
 permey bIH STAR TREK pong'e' Deghmey'e' je. bIH lo' Fleer/SkyBox. 'e' chaw'.
 TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF <THE KLINGON DICTIONARY>.
 
