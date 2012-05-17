@@ -451,8 +451,9 @@ Priorities:
     to the prettified version (as well as to the original text formatted
     transcript).
 
-*** [63%] Transcripts updating/improvement
-**** TODO Add transcript of 1994-12-holqed-03-4.txt
+*** [61%] Transcripts updating/improvement
+**** DONE Add transcript of 1994-12-holqed-03-4.txt
+     CLOSED: [2012-05-17 Thu 02:29]
      HolQeD 3:4, pp.10--11
      Transcripts of SkyBox cards SP1, SP2 and SP3.
      (linked to by 1994-sbx-sp1.html above)
