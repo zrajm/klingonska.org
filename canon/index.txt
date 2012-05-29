@@ -1262,7 +1262,7 @@ publication, or a description of its contents and/or form).
     <td><font size="4">»More From Maltz«</font>
       <br /><font size="2"><i>Article by Marc Okrand, {HolQeD} 9:4 p.16,
       Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
-      <br />(<a href="2000-12-holqed-09-4.txt">text</a>)
+      <br />(<a href="2000-12-holqed-09-4-b.txt">text</a>)
       A brief description of the Klingon word for <i>bull</i>.
     </td>
   </tr>
