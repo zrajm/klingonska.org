@@ -451,25 +451,38 @@ Priorities:
     to the prettified version (as well as to the original text formatted
     transcript).
 
-*** [61%] Transcripts updating/improvement
+*** [64%] Transcripts updating/improvement
 **** DONE Add transcript of 1994-12-holqed-03-4.txt
      CLOSED: [2012-05-17 Thu 02:29]
      HolQeD 3:4, pp.10--11
      Transcripts of SkyBox cards SP1, SP2 and SP3.
      (linked to by 1994-sbx-sp1.html above)
-**** TODO Add transcript 2000-12-holqed-09-4-b.txt
+**** TODO Add transcript of Decipher trading card
+     "Star Trek Fajo Collection Qapla Klingon Card"
+     http://www.wholesalegaming.biz/startrek/trekfajoqaplaklingoncard/
+**** DONE Add transcript 2000-12-holqed-09-4-a.txt
+     CLOSED: [2012-05-29 Tue 18:46]
      "Everyday Klingon"
 
      Decipher, Inc., trading cards, 9:4/16 and do some hunting of mentions of
      it on the mailing list. -- Is it really canon/translated by Okrand? What
      does it look like?
-**** TODO What do SkyBox cards S37-S39 look like?
-     Do they contain Canon Klingon?
-     http://www.nslists.com/sttng7.htm
-     Klingon Cards (1:12 packs)
-     S37   Bloodwine
-     S38   Romance
-     S39   Opera
+
+     Also rename old 2000-12-holqed-09-4.txt -> 2000-12-holqed-09-4-a.txt and
+     add web redirect.
+**** DONE What do SkyBox cards S37-S39 look like?
+     CLOSED: [2012-05-29 Tue 18:51]
+     Do they contain Canon Klingon? -- No.
+
+     These cards contain only garbage. There's no canon Klingon, only a
+     {pIqaD}-ish blob of text given as the 'translation' of the English
+     text. :(
+
+         http://www.nslists.com/sttng7.htm
+         Klingon Cards (1:12 packs)
+         S37   Bloodwine
+         S38   Romance
+         S39   Opera
 **** TODO Add Washington Shakespeare Company's Klingon press release
      https://mail.google.com/mail/#search/%22Washington+Shakespeare+Company%22/12a4f44a8588c816
      An excerpt from a press release sent by the Washington Shakespeare Company
