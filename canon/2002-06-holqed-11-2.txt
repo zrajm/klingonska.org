@@ -1,5 +1,6 @@
 [[
   [2002-07-12, 15.51-16.33] transcribed & spellchecked by Zrajm C Akfohg
+  [2012-05-29] added corrections for errors in original (thanks Philip Newton!)
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
@@ -139,13 +140,13 @@ either its hind legs or its front legs, it
 is able to pitch or tilt up or down.)
 
      All of these words can be used
-with the suffix {-meH} <cause> in such
+with the suffix {-meH} <cause> in such [[-meH:=-moH]]
 constructions as:
 
-{Duj ronmeH 'orwI'}
+{Duj ronmeH 'orwI'} [[ronmeH:=ronmoH]]
 the pilot banks the vessel
 
-({Duj} <vessel>, {ronmeH} <cause to roll>,
+({Duj} <vessel>, {ronmeH} <cause to roll>, [[ronmeH:=ronmoH]]
 {'orwI'} <pilot>).
 
      When the plane moves up or
