@@ -331,10 +331,10 @@ once in the same entry).
     + `family`
     + `fighting`
     + `landscape`
-    + `locative`
     + `math`
     + `money`
     + `music`
+    + `placement`
     + `quantity`
     + `religion`
     + `time`
@@ -1033,7 +1033,7 @@ pos:	noun
 sv:	område «nedanför», område «under»
 en:	area <below>, area <under>
 def:	TKD
-cat:	locative
+cat:	placement
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -1159,7 +1159,7 @@ en:	«bottom» (interior bottom)
 def:	HQ8:3 p.2 ("{matlh juppu' mu'mey}")
 ref:	KLINW
 see:	{yor}; {pIrmuS}
-cat:	locative
+cat:	placement
 file:	1999-09-holqed-08-3.txt
 
 tlh:	{bIt}
@@ -1476,7 +1476,7 @@ pos:	noun
 sv:	«center», «mitt»
 en:	<center>, <middle>
 def:	TKD
-cat:	locative
+cat:	placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{bov}
@@ -1747,7 +1747,7 @@ en:	area eastward, area towards the «east»
 def:	News 1999-11-21
 ref:	HQ8:4 pp.6--8 ("Maltz Online")
 com:	"90 degrees on Terran compass" [KLINW]
-cat:	locative
+cat:	placement
 file:	1999-11-21-news.txt; 1999-12-holqed-08-4-a.txt
 
 tlh:	{chanDoq}
@@ -2390,7 +2390,7 @@ pos:	verb
 sv:	vara «vertikal»
 en:	be <vertical>
 def:	TKD
-cat:	locative
+cat:	placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{chong} [1.2]
@@ -2955,7 +2955,7 @@ en:	<everywhere>, all places
 desc:	never takes {-Daq} [TKD 3.3.5 (pp.27--28)]
 def:	TKD 3.3.5 (pp.27--28) et al.
 com:	Locative word, never followed by {-Daq} [TKD 3.3.5 (pp.27--28)].
-cat:	locative
+cat:	placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{Dav}
@@ -3495,7 +3495,7 @@ pos:	noun
 sv:	«sida»
 en:	<side>
 def:	TKD
-cat:	locative
+cat:	placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{Doq}
@@ -3740,7 +3740,7 @@ pos:	noun
 sv:	område «ovanför», område «över»
 en:	area <above>, area <overhead>
 def:	TKD
-cat:	locative
+cat:	placement
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -5716,7 +5716,7 @@ pos:	verb
 sv:	vara «avlägsen», vara «långt bort»
 en:	be <remote>, be <far>
 def:	TKD
-cat:	locative
+cat:	placement
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -6046,7 +6046,7 @@ pos:	noun
 sv:	«utanför»
 en:	<outside>
 def:	TKD
-cat:	locative
+cat:	placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{HurDagh}
@@ -6560,6 +6560,9 @@ pos:	verb
 sv:	vara «hög»
 en:	be <high>
 def:	TKD
+cite:	{tlhIngan yoH jen verengan yoH 'eS} or {tlhIngan yoH 'eS verengan yoH
+	jen} ({jen,} <be high>; {'eS,} <be low>) [KGT p.179]
+cat:	placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{jengva'}
@@ -6887,7 +6890,7 @@ pos:	noun
 sv:	område «mellan», område «emellan»
 en:	area <between>
 def:	TKD
-cat:	locative
+cat:	placement
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -9792,7 +9795,7 @@ en:	<here>, hereabouts
 desc:	never takes {-Daq} [TKD 3.3.5 (pp.27--28)]
 def:	TKD 3.3.5 (pp.27--28) et al.
 com:	Locative word, never followed by {-Daq} [TKD 3.3.5 (pp.27--28)].
-cat:	locative
+cat:	placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{naDHa'}
@@ -10421,7 +10424,7 @@ pos:	noun
 sv:	«höger» (sida)
 en:	<right> (side)
 def:	TKD
-cat:	locative
+cat:	placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{nIHwI'}
@@ -11245,6 +11248,7 @@ pos:	verb
 sv:	«innehålla»
 en:	<contain> (have inside)
 def:	TKD
+cat:	placement
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -12006,7 +12010,7 @@ en:	<there>, over there, thereabouts
 desc:	never takes {-Daq} [TKD 3.3.5 (pp.27--28)]
 def:	TKD 3.3.5 (pp.27--28) et al.
 com:	Locative word, never followed by {-Daq} [TKD 3.3.5 (pp.27--28)].
-cat:	locative
+cat:	placement
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -12407,7 +12411,7 @@ sv:	«undersida»
 en:	«bottom» (underside of something, not interior bottom)
 def:	HQ8:3 p.2 ("{matlh juppu' mu'mey}")
 see:	{yor}; {bIS'ub}
-cat:	locative
+cat:	placement
 file:	1999-09-holqed-08-3.txt
 
 tlh:	{pItSa' chab}
@@ -12691,7 +12695,7 @@ pos:	noun
 sv:	«vänster» (sida)
 en:	<left> (side)
 def:	TKD
-cat:	locative
+cat:	placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{poSmoH}
@@ -13967,7 +13971,7 @@ pos:	noun
 sv:	«insida»
 en:	<inside>, <interior>
 def:	KGT
-cat:	locative
+cat:	placement
 file:	1997-11-01-kgt.txt
 
 tlh:	[1] {qogh}
@@ -15776,7 +15780,7 @@ def:	TKD
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
-tlh:	{rav}
+tlh:	{rav} [.1]
 pos:	noun
 sv:	«golv»
 en:	<floor>
@@ -15784,6 +15788,16 @@ def:	TKD
 cat:	architecture
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
+
+tlh:	{rav} [.2]
+pos:	noun
+sv:	«minimum»
+en:	«minimum»
+def:	BoP
+cite:	{Hung buv rav: patlh Hut} <Classified Level 9 and Above> [BoP]
+see:	{'aqroS} [.2]
+cat:	math
+file:	1998-11-01-bop.txt
 
 tlh:	{rav'eq}
 pos:	noun
@@ -15975,7 +15989,7 @@ pos:	noun
 sv:	område «brevid», område «intill»
 en:	area <beside>, area <next to>
 def:	TKD
-cat:	locative
+cat:	placement
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -16629,7 +16643,7 @@ pos:	verb
 sv:	vara «horisontell»
 en:	be <horizontal>
 def:	TKD
-cat:	locative
+cat:	placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{SaS} [.2]
@@ -17487,7 +17501,7 @@ pos:	verb
 sv:	vara «nära», vara i «närheten»
 en:	be <near>, be nearby
 def:	KGT
-cat:	locative
+cat:	placement
 file:	1997-11-01-kgt.txt
 
 tlh:	{Sun}
@@ -18432,7 +18446,7 @@ en:	area southwestward, area towards the «southwest»
 def:	News 1999-11-21
 ref:	HQ8:4 pp.6--8 ("Maltz Online")
 com:	"approx 220 degrees on Terran compass" [KLINW]
-cat:	locative
+cat:	placement
 file:	1999-11-21-news.txt; 1999-12-holqed-08-4-a.txt
 
 tlh:	{tIngDagh}
@@ -19540,7 +19554,7 @@ pos:	noun
 sv:	«framför», område framför
 en:	<front>, area in front of
 def:	KGT
-cat:	locative
+cat:	placement
 file:	1997-11-01-kgt.txt
 
 tlh:	{tlhoQ}
@@ -20391,7 +20405,7 @@ pos:	noun
 sv:	«någonstans», någon plats
 en:	<somewhere>
 def:	TKD
-cat:	locative
+cat:	placement
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -21793,7 +21807,7 @@ sv:	«ovansida»
 en:	«top» (side or face of an object)
 def:	HQ8:3 p.2 ("{matlh juppu' mu'mey}")
 see:	{yuvtlhe'}; {'aqroS}; {pIrmuS}
-cat:	locative
+cat:	placement
 file:	1999-09-holqed-08-3.txt
 
 tlh:	{yoS}
@@ -22124,7 +22138,7 @@ sv:	«överdel» (under- eller insidan av överdelen)
 en:	«top» (inside or downturned surface)
 def:	HQ8:3 p.2 ("{matlh juppu' mu'mey}")
 see:	{yor}
-cat:	locative
+cat:	placement
 file:	1999-09-holqed-08-3.txt
 
 tlh:	{'aqroS} [.2]
@@ -22132,6 +22146,11 @@ pos:	noun
 sv:	«maximum»
 en:	«maximum»
 def:	BoP
+cite:	{jabbI'ID pup: Qapchu'meH 'aqroS chuq: cha' vI' chorgh loghqammey}
+	<High Resolution -- Maximum Effective Range -- 3.5 Light Years> [BoP]
+cite:	{'aqroS qughDo: pIvlob Hut vI' vagh} <Maximum Cruising Speed -- Warp
+	9.5> [BoP]
+see:	{rav} [.2]
 cat:	math
 file:	1998-11-01-bop.txt
 
@@ -22400,7 +22419,7 @@ pos:	noun
 sv:	«bakom», område bakom
 en:	<behind>, area behind
 def:	KGT
-cat:	locative
+cat:	placement
 file:	1997-11-01-kgt.txt
 
 tlh:	{'entepray'}
@@ -22476,6 +22495,9 @@ pos:	verb
 sv:	vara «låg»
 en:	be <low>
 def:	KGT
+cite:	{tlhIngan yoH jen verengan yoH 'eS} or {tlhIngan yoH 'eS verengan yoH
+	jen} ({jen,} <be high>; {'eS,} <be low>) [KGT p.179]
+cat:	placement
 file:	1997-11-01-kgt.txt
 
 tlh:	{'eSpanya'}
@@ -22519,7 +22541,7 @@ en:	area northwestward, area towards the «northwest»
 def:	News 1999-11-21
 ref:	HQ8:4 pp.6--8 ("Maltz Online")
 com:	"320 degrees on Terran compass" [KLINW]
-cat:	locative
+cat:	placement
 file:	1999-11-21-news.txt; 1999-12-holqed-08-4-a.txt
 
 tlh:	{'evnagh}
@@ -23871,6 +23893,7 @@ pos:	noun suffix type 5
 sv:	lokativ
 en:	locative
 def:	TKD 3.3.5 (p.27)
+cat:	placement
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -24018,6 +24041,7 @@ pos:	noun suffix type 5
 sv:	från
 en:	from
 def:	TKD 3.3.5 (p.28)
+cat:	placement
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 

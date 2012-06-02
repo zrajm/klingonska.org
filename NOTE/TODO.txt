@@ -1279,7 +1279,8 @@ Priorities:
 ****** TODO 'un quD	(noun)	artificially produced *qud*
 ****** TODO 'un naQ	(noun)	stirring stick, mixing stick
 
-***** TODO Add meaning "minimum" of {rav}
+***** DONE Add meaning "minimum" of {rav}
+      CLOSED: [2012-06-02 Sat 20:29]
       B.J. Felix Malmenbeck
       De' Daj vItu'pu'!
 
