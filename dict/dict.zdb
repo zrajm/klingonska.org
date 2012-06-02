@@ -10668,6 +10668,7 @@ pos:	verb
 sv:	vara «lång», vara «långdragen» (varaktighet)
 en:	be <long>, be lengthy (duration)
 def:	TKD
+cat:	time
 file:	1992-01-01-tkd.txt
 meta:	The word "be" was inserted before the adjectival "lengthy".
 
@@ -11205,11 +11206,13 @@ pos:	verb
 sv:	vara «kort» (i tid)
 en:	be <short> (in duration)
 def:	KGT
+cat:	time
 file:	1997-11-01-kgt.txt
 
 tlh:	{ngal}
 pos:	verb
-sv:	¿?vara «seg», vara «kraftig», vara «fast» (ha tuggmotstånd)
+sv:	vara «seg», vara «läderaktig» (i konsistensen), vara «fast» (ha
+	tuggmotstånd)
 en:	be <chewy>
 def:	KGT
 file:	1997-11-01-kgt.txt
@@ -13844,9 +13847,12 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{qIl}
 pos:	verb
-sv:	«avbryta», «ställa in»
-en:	<cancel>
+sv:	«avbryta», «ställa in», «upphäva»
+en:	<cancel>, «abort»
 def:	TKD
+com	The translation 'abort' was originally added by André Müller (in his
+	dictionary), and was confirmed a valid translation by Marc Okrand at
+	the Saarbrücken {qepHom} in 2011.
 file:	1992-01-01-tkd.txt
 
 tlh:	{qIm}
@@ -17879,7 +17885,7 @@ sv:	ett slags «djur» (snarlik en «tjur», används om både hannar och honor)
 en:	type of «animal» (similar to a «bull», used about both male and female
 	ones)
 def:	HQ9:4 p.16 ("More From Maltz")
-file:	2000-12-holqed-09-4.txt
+file:	2000-12-holqed-09-4-b.txt
 
 tlh:	{tap}
 pos:	verb
@@ -20526,9 +20532,10 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{vum}
 pos:	verb
-sv:	«arbeta», «streta», «slita»
+sv:	«arbeta», «streta», «slita», «jobba»
 en:	<work>, «toil»
 def:	TKD
+cite:	{yIvumqa'} <Back to work!> [CK]
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 

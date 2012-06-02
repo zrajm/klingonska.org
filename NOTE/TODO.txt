@@ -451,7 +451,11 @@ Priorities:
     to the prettified version (as well as to the original text formatted
     transcript).
 
-*** [64%] Transcripts updating/improvement
+*** [63%] Transcripts updating/improvement
+**** TODO Add HolQeD 2:1 p.15-20 transcript (article of mistakes in canon)
+     Mostly mistakes from the movies and the audio tapes. Go over this and
+     check that all the misstakes are present in the canon archive. -- Should
+     the article be added as well?
 **** DONE Add transcript of 1994-12-holqed-03-4.txt
      CLOSED: [2012-05-17 Thu 02:29]
      HolQeD 3:4, pp.10--11
