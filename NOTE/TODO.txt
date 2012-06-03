@@ -451,7 +451,7 @@ Priorities:
     to the prettified version (as well as to the original text formatted
     transcript).
 
-*** [63%] Transcripts updating/improvement
+*** [64%] Transcripts updating/improvement
 **** TODO Add HolQeD 2:1 p.15-20 transcript (article of mistakes in canon)
      Mostly mistakes from the movies and the audio tapes. Go over this and
      check that all the misstakes are present in the canon archive. -- Should
@@ -461,7 +461,9 @@ Priorities:
      HolQeD 3:4, pp.10--11
      Transcripts of SkyBox cards SP1, SP2 and SP3.
      (linked to by 1994-sbx-sp1.html above)
-**** TODO Add transcript of Decipher trading card
+**** TODO Add HTML page w/ image for Decipher ST:CCG card
+**** DONE Add transcript of Decipher trading card
+     CLOSED: [2012-06-03 Sun 08:22]
      "Star Trek Fajo Collection Qapla Klingon Card"
      http://www.wholesalegaming.biz/startrek/trekfajoqaplaklingoncard/
 **** DONE Add transcript 2000-12-holqed-09-4-a.txt

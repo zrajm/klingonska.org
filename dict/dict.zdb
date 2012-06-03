@@ -332,13 +332,13 @@ once in the same entry).
     + `fighting`
     + `landscape`
     + `math`
+    + `measure`
     + `money`
     + `music`
     + `placement`
     + `quantity`
     + `religion`
     + `time`
-    + `unit`
 
     Possible/likely changes: Renaming of some categories to include more words.
 
@@ -1690,7 +1690,7 @@ def:	KGT
 ref:	TDNW
 com:	According to HQ1:3 p.9 ("Additional Vocabulary"), this means "Hertz
 	(frequency)".
-cat:	unit
+cat:	measure
 file:	1997-11-01-kgt.txt
 
 tlh:	{chagh}
@@ -2004,7 +2004,7 @@ sv:	«~cheb~» («vikt«enhet»»)
 en:	«~cheb~» («unit» of «weight»)
 desc:	about 5 pounds or 2.25 kilograms
 def:	News 1997-10-22
-cat:	unit
+cat:	measure
 file:	1997-10-22-news.txt
 
 tlh:	{cheb'a'}
@@ -2017,7 +2017,7 @@ com:	(n) unit weight approx. 45--46.4 pounds (20.4--21.05 kg) (9--9.28 cheb)
 	[The numbers don't quite mesh, but this is the best I can figure
 	from different equivalences we've been given.] [BoP poster] (Added:
 	12 March 2002) [KLINW]
-cat:	unit
+cat:	measure
 file:	1997-10-22-news.txt; 1998-11-01-bop.txt
 
 tlh:	{chech}
@@ -2923,7 +2923,7 @@ pos:	noun
 sv:	«~darsek~» («valuta«enhet»»)
 en:	<~darsek~> (<unit> of <currency>)
 def:	KGT
-cat:	money; unit
+cat:	measure; money
 file:	1997-11-01-kgt.txt
 meta:	In KGT as "~darsek,~ unit of currency (n)", here changed slightly to
 	reseble the other units.
@@ -3170,7 +3170,7 @@ pos:	noun
 sv:	«kredit» («valuta«enhet»»)
 en:	<credit> («unit» of «currency»)
 def:	TKD
-cat:	money; unit
+cat:	measure; money
 file:	1992-01-01-tkd.txt
 meta:	In TKD as "credit (monetary unit)", but "monetary unit" was here
 	changed to "unit of currency", for consistency with other unit words.
@@ -7130,7 +7130,15 @@ tlh:	{juch}
 pos:	verb
 sv:	«ha» en «bredd» av
 en:	«have» a «width» of
+desc:	opposite of {'aD}
 def:	News 1997-10-22
+cite:	There are two words used for length: {'aD} and {'ab}. Both of these can
+	be translated "have a length of," but they are used somewhat
+	differently. {'aD} is used in contrast with {juch} "have a width of" in
+	measuring, say, a tabletop. {'ab}, on the other hand, is used for
+	(potentially) longish, skinnyish things (for example, spears) and also
+	for heights. [News 1997-10-22]
+cat:	measure
 file:	1997-10-22-news.txt
 
 tlh:	{juH}
@@ -7872,7 +7880,7 @@ sv:	(«längd«enhet»»)
 en:	(«unit» of «length»)
 desc:	about 1.25 light years
 def:	BoP
-cat:	unit
+cat:	measure
 file:	1998-11-01-bop.txt
 
 tlh:	{loH} [1]
@@ -9628,6 +9636,7 @@ pos:	verb
 sv:	«ha» en «volym» av
 en:	<have> a <volume> of
 def:	KGT
+cat:	measure
 file:	1997-11-01-kgt.txt
 
 tlh:	{muS}
@@ -11502,6 +11511,7 @@ pos:	verb
 sv:	«ha» en «vikt» av, «väga»
 en:	<have> a <weight> of, weigh
 def:	KGT
+cat:	measure
 file:	1997-11-01-kgt.txt
 
 tlh:	{ngoch}
@@ -13575,7 +13585,7 @@ sv:	«~kellicam~» («längd«enhet»»)
 en:	<~kellicam~> («unit» of «length»)
 desc:	about 2 kilometers
 def:	TKD; STE
-cat:	unit
+cat:	measure
 file:	1992-01-01-tkd.txt
 meta:	In TKD translated as "kellicam (n)", added "unit of length" for clarity
 	here. TKD E-K has a quite obvious misspelling of the Klingon word as
@@ -16685,6 +16695,7 @@ pos:	verb
 sv:	«ha» ett «djup» av
 en:	<have> a <depth of>
 def:	KGT
+cat:	measure
 file:	1997-11-01-kgt.txt
 
 tlh:	{Say}
@@ -18462,6 +18473,7 @@ pos:	verb
 sv:	vara «lång», vara «långsträckt» (om ett föremål)
 en:	be <long>, be lengthy (of an object)
 def:	TKD
+cat:	measure
 file:	1992-01-01-tkd.txt
 meta:	The word "be" was inserted before the adjectival "lengthy".
 
@@ -18528,6 +18540,7 @@ pos:	verb
 sv:	vara «lätt» (om vikt)
 en:	be <light> (weight)
 def:	TKD
+cat:	measure
 file:	1992-01-01-tkd.txt
 
 tlh:	{tIv}
@@ -19648,7 +19661,7 @@ sv:	(«volym«enhet»»)
 en:	(«unit» of «volume»)
 desc:	about 1 quart or 1 liter
 def:	News 1997-10-22
-cat:	unit
+cat:	measure
 file:	1997-10-22-news.txt
 
 tlh:	{tlhuch}
@@ -22019,9 +22032,20 @@ tlh:	{'ab}
 pos:	verb
 sv:	«ha» en «längd»/«höjd» av
 en:	«have» a «length»/«height» of
+desc:	{jav 'uj jI'ab SuvwI'} ~I am six ujes tall~; about people and longish
+	things and heights
 def:	S32; News 1997-10-22
-com:	S32 was reprinted in HQ6:2 p.9
+cite:	There are two words used for length: {'aD} and {'ab}. Both of these can
+	be translated "have a length of," but they are used somewhat
+	differently. {'aD} is used in contrast with {juch} "have a width of" in
+	measuring, say, a tabletop. {'ab}, on the other hand, is used for
+	(potentially) longish, skinnyish things (for example, spears) and also
+	for heights. [News 1997-10-22]
+cite:	{jav 'ujmey 'ab SuvwI'} <the warrior has a length of six ujs> (about
+	6'10") [News 1997-10-22]
+cat:	measure
 file:	1997-10-22-news.txt; 1997-sbx-s32.txt
+meta:	S32 was reprinted in HQ6:2 p.9
 
 tlh:	{'ach}
 pos:	conjunction
@@ -22035,7 +22059,15 @@ tlh:	[1] {'aD}
 pos:	verb
 sv:	«ha» en «längd» av, «mäta»
 en:	<have> a <length> of, <measure>
+desc:	opposite of {juch}
 def:	News 1997-10-22; KGT
+cite:	There are two words used for length: {'aD} and {'ab}. Both of these can
+	be translated "have a length of," but they are used somewhat
+	differently. {'aD} is used in contrast with {juch} "have a width of" in
+	measuring, say, a tabletop. {'ab}, on the other hand, is used for
+	(potentially) longish, skinnyish things (for example, spears) and also
+	for heights. [News 1997-10-22]
+cat:	measure
 file:	1997-10-22-news.txt; 1997-11-01-kgt.txt
 
 tlh:	[2] {'aD}
@@ -23144,6 +23176,7 @@ pos:	verb
 sv:	vara «tung»
 en:	be <heavy>
 def:	TKD
+cat:	measure
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -23163,7 +23196,7 @@ desc:	about 13.7 inches or 35 centimeters
 def:	News 1997-10-22 (by Marc Okrand, to msn.onstage.startrek.expert.okrand,
 	"Re: Weights and Measures"); KGT
 com:	More exactly one ~uj~ is 34.83 cm (as caculated from usage on BoP).
-cat:	unit
+cat:	measure
 file:	1997-10-22-news.txt; 1997-11-01-kgt.txt
 meta:	In KGT the words "linear measure" are used, but they have been changed
 	to "length" here (for brevity and clarity).
@@ -23175,7 +23208,7 @@ en:	big <~uj~> («unit» of «length»)
 desc:	9 ~uj~ = about 10 feet 4 inches or 315 centimeters
 def:	News 1999-02-03
 ref:	TDNW
-cat:	unit
+cat:	measure
 file:	1999-02-03-news.txt
 
 tlh:	{'ul}
