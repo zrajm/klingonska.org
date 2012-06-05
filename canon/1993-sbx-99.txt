@@ -5,7 +5,8 @@
   [2003-01-29] corrected using image of card and added file header
   [2003-01-30] hunted down errors using Steven Boozer's transcript
   [2010-10-05] replaced shy (latin1 char 173) with minus/hyphen (ascii char 45)
-  [2012-05-12] Added text from English version of card
+  [2012-05-12] added text from English version of card
+  [2012-06-05] added missing text from English card & compared with card text
   Style: {}=bold, <>=italic
 
   Type: trading card
@@ -17,7 +18,7 @@
     It features a text similar to the classic opening voice over of the
     original <Star Trek> series. This card was available in different languages
     in the set: in Klingon (card 99), Japanese (98), Spanish (97), French (96),
-    German (95) and finally English (1). The text of the Klingon card was
+    German (95) and finally English (01). The text of the Klingon card was
     reproduced in <{HolQeD} 3:2>, p.9. (Usually abbreviated <DS99>, though
     sometimes abbreviated <S99> or <DSN99>.)
 
@@ -43,9 +44,10 @@ Skybox Card 99 (Klingon Version)
 
 KLINGON
 
-99                           QU'
+99    QU'
 
-Phonetic Translation:
+Phonetic
+Translation:
 
 loS...qIb HeHDaq, 'u' SepmeyDaq
 Sovbe'lu'bogh lenglu'meH He
@@ -59,8 +61,8 @@ Klingon Script:
 
 [[nonsense written in Image Astra typeface]]
 
-
-1993 SERIES
+1993
+SERIES
 
 STAR TREK®
 DEEP SPACE NINE™
@@ -75,14 +77,33 @@ Paramount®
 SkyBox™
 
 
-SkyBox Card 1 (English Version)
-===============================
-[[From Steven Boozer's transcript]]
+SkyBox Card 01 (English Version)
+================================
 
-It waits...on the edge of the galaxy, beside a passage to
-unknown regions of the universe, space station Deep Space
-Nine is the gateway for the exploration, intrigue and
-enterprise that mark the continuation of the human adventure
-into space--the final frontier.
+01    THE MISSION
+
+It waits...on the edge of the
+galaxy, beside a passage to
+unknown regions of the
+universe, space station
+<Deep Space Nine> is the
+gateway for the exploration,
+intrigue and enterprise that
+mark the continuation of the
+human adventure into space
+---the final frontier.
+
+1993
+SERIES
+
+STAR TREK®
+DEEP SPACE NINE™
+
+TM, ® & © 1993 Paramount Pictures. All Rights Reserved.
+STAR TREK and Related Marks are Trademarks of Paramount
+Pictures. SkyBox International, Inc. Authorized User.
+
+Paramount®
+SkyBox™
 
 [[eof]]

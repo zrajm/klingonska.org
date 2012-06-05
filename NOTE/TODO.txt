@@ -451,7 +451,26 @@ Priorities:
     to the prettified version (as well as to the original text formatted
     transcript).
 
-*** [64%] Transcripts updating/improvement
+*** [62%] Transcripts updating/improvement
+**** TODO Add scans of Klingon trading cards                           :SCAN:
+     Decpiher Inc + SkyBox cards should be scanned. Links should then be added
+     from the appropriate HTML files in the canon archive.
+
+         canon/1993-sbx-99.html
+         canon/1994-sbx-sp1.html
+         canon/1995-sbx-s13.html
+         canon/1995-sbx-s7.html
+         canon/1996-sbx-s19.html
+         canon/1996-sbx-s25.html
+         canon/1997-sbx-s31.html
+         canon/1997-decipher-ccg.html
+**** TODO Article about 'Expected Canon'
+     Listing sources one might expect to be canon, but which is not -- e.g.
+     'KW' (the audio tape of TKW), and the 7th season SkyBox cards (containing
+     only gibberish, and no real Klingon).
+**** TODO Improve DS99 transcript & entry
+     Add the text of the German, French, Spanish and Japanese cards. (Since I
+     now have these in my collection of Okrandian Canon.)
 **** TODO Add HolQeD 2:1 p.15-20 transcript (article of mistakes in canon)
      Mostly mistakes from the movies and the audio tapes. Go over this and
      check that all the misstakes are present in the canon archive. -- Should
@@ -581,15 +600,7 @@ Priorities:
 **** TODO Add ST5 transcript
      http://mail.google.com/mail/#label/imported/12a129c1002403f8
 **** TODO Add text containing {Sa'Hut} "buttocks" (from {qep'a'} 2003) :HTML:
-**** TODO canon/1997-sbx-s31.html missing Skybox S32 and S33 images
 **** TODO Add transcript of The Klingon Way (audio book)         :TRANSCRIBE:
-**** TODO Re-scan Skybox trading cards and add to                      :SCAN:
-         canon/1994-sbx-sp1.html
-         canon/1995-sbx-s7.html
-         canon/1995-sbx-s13.html
-         canon/1996-sbx-s19.html
-         canon/1996-sbx-s25.html
-         canon/1997-sbx-s31.html
 **** DONE Add Mike Neff's KCD transcripts
      CLOSED: [2011-09-18 Sun]
      Mike Neff posted KCD transcripts to tlhingan-hol in January 2008 with
