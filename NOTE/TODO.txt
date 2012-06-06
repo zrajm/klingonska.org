@@ -312,6 +312,12 @@ Priorities:
 **** DONE include lilypond score (and source)
      CLOSED: [2010-11-18 Thu 09:55]
 ** TODO "Archive of Okrandian Canon"
+*** TODO Article on transcribing English words phonetically into Klingon(?)
+    BoP:
+    {lu'oghta' nIylo roDIS bIl jo'rIj je}
+    Designed By: Nilo Rodis & Bill George
+
+    Words for Picard and Kirk.
 *** DONE Prettier HTML transcripts of trading cards
     CLOSED: [2012-05-17 Thu 00:20]
     Include all text from transcripts, breif description of that series of

@@ -1,26 +1,34 @@
 [[
-  [2000-01-17] Transcribed from poster by Zrajm C Akfohg.
-  [2000-04-05] Machine parsed for incorrect phonotax (no errors found).
-  [2011-09-20] Added summary.
-  [2011-10-02] Added older KBP abbreviation
+  [2000-01-17] poster transcribed by Zrajm C Akfohg
+  [2000-04-05] machine parsed for incorrect phonotax (no errors found)
+  [2011-09-20] added summary
+  [2011-10-02] added older KBP abbreviation
+  [2012-06-06] proofread & compared with actual poster (added correction
+    comments for errors found in poster), added missing file header info
 
-  Summary: A large poster portaying a space battle between Enterprise and
-    several Klingo bird-of-preys. One of the bird-of-preys is cutaway drawing,
-    with numbered points of interest labeled in both English and Klingon.
-    Klingon translations were provided by Marc Okrand. (Usually abbreviated
-    <BoP>, sometimes abbreviated <KBP>.)
+  Style: {}=bold, corrections, paginated, hidden
 
-]]
+  Type: poster
+  Date: November 1998
+  Title: Star Trek Bird-of-Prey Cutaway Poster
+  Author: Marc Okrand et al.
+  Summary: A large poster (36" × 24" or 91 × 60.5 cm) portaying a space battle
+    between Enterprise-D and a number of Klingon bird-of-preys. One of them (a
+    B'rel class scout vessel) is displayed as a cutaway drawing with numbered
+    points of interest labeled in both English and Klingon. Klingon
+    translations were provided by Marc Okrand. (Usually abbreviated <BoP>,
+    sometimes abbreviated <KBP>.)
 
-Star Trek Bird of Prey Cutaway Poster
-Published by SciPubTech November 1998
+]][[p.rightmost column]]
 
 
-{tlhIngan toQDuj}
-Klingon Bird Of Prey
+{tlh Ingan toQDuj} [[tlh Ingan:=tlhIngan]]
+==================
+Klingon Bird Of Prey [[p.column 1]]
 
 
-{tlhIngan toQDuj 'ey'mey tetlh}
+{tlh Ingan toQDuj aymey tetlh} [[tlh Ingan:=tlhIngan]] [[aymey:='ay'mey]]
+==============================
 Klingon Bird of Prey Technical Callouts
 
 1.  {So'wI' DaH}
@@ -47,9 +55,9 @@ Klingon Bird of Prey Technical Callouts
 8.  {peng baHjan tuj ghImwI'} [[ghImwI':=tlhuchwI']]
     Heat Exhaust for Torpedo Launcher
 
-    [[ Note: Actually {ghIm} means "exile", while the word directly above it
-       in the TKD English-Klingon word list is "exhaust" (v) {tlhuch}. A
-       slight misreading on Marc Okrand's part perhaps? ]]
+[[Note: Actually {ghIm} means "exile", while the word directly above it in the
+TKD English-Klingon word list is "exhaust" (v) {tlhuch}. A slight misreading on
+Marc Okrand's part perhaps?]] [[p.column 2]]
 
 9.  {qoD QutlhwI' ngaDmoHwI'}
     Inner Support Stabilizer
@@ -73,7 +81,7 @@ Klingon Bird of Prey Technical Callouts
     Main Computer Core
 
 16. {yaS pa'mey}
-    Officers' Quarters
+    Officers' Quarters [[p.column 3]]
 
 17. {jolpa'}
     Transporter Room
@@ -97,7 +105,7 @@ Klingon Bird of Prey Technical Callouts
     Warp Generator
 
 24. {pIvchem SeHwI'mey}
-    Warp Field Controllers
+    Warp Field Controllers [[p.column 4]]
 
 25. {'o' chuyDaH Hongghor je}
     Aft Thrusters and Impulse Drive
@@ -121,7 +129,7 @@ Klingon Bird of Prey Technical Callouts
     Cannon Guard
 
 32. {jopwI' jo'}
-    Recoil Machinery
+    Recoil Machinery [[p.column 5]]
 
 33. {nISwI' tal}
     Disruptor Cannon
@@ -145,22 +153,24 @@ Klingon Bird of Prey Technical Callouts
     Atmospheric Control System
 
 40. {De'wI' Qulpa'}
-    Computer Research Lab
+    Computer Research Lab [[p.column 6]]
 
 
-{tlhIngan toQDuj Duj De' potlh}
+{tlh Ingan toQDuj Duj De potlh} [[tlh Ingan:=tlhIngan]] [[De:=De']]
+===============================
 Klingon Bird of Prey General Specifications
 
   {Segh: bI'rel tlharghDuj}
-  Model: B'rel-Class Scout
+  Model: B'rel-Class Scout [[B'rel-Class:=B'rel Class]]
 
-  {(qIvo'rIt may'Duj mach)}
+  ({qIvo'rIt may'Duj mach})
   (Smaller Version of a K'vort Class Cruiser)
 
   {lu'oghta' nIylo roDIS bIl jo'rIj je}
   Designed By: Nilo Rodis & Bill George
 
-  {tlhIngan juHqo'Daq tlhIng yoSDaq 'oH toQDuj chenmoHlu'meH Daq wa'DIch'e'}
+  {tlhIngan juHqo'Daq tlhIng yoSDaq 'oH
+  toQDuj chenmoHlu'meH Daq wa'DIch'e'}
   1st Construction Site: The Kling District, Klingon Home World
 
   {Duj De' potlh}
@@ -172,26 +182,32 @@ Klingon Bird of Prey General Specifications
   {loSmaH jav vI' Soch loS 'uj 'ab meH}
   Bridge Height: 16.28M
 
-  {HIvtaHvIS toQDuj cha'vatlh wejmaH Soch vI' vagh chorgh 'uj 'ab 'oH}
-  Attack Formation Height: 82.75M
+  {HIvtaHvIS toQDuj cha'vatlh wejmaH
+  Soch vI' vagh chorgh 'uj 'ab 'oH}
+  Attack Formation Height: 82.75M [[p.column 7]]
 
-  {qughtaHvIS toQDuj HutmaH vI' jav wa' 'uj 'ab 'oH}
+  {qughtaHvIS toQDuj HutmaH vI'
+  jav wa' 'uj 'ab 'oH}
   Cruise Formation Height: 31.56M
 
-  {SaqtaHvIS toQDuj wa'vatlh loS vI' jav chorgh 'uj 'ab 'oH}
+  {SaqtaHvIS toQDuj wa'vatlh loS vI'
+  jav chorgh 'uj 'ab 'oH}
   Landing Formation Height: 36.46M
 
   {cha' vI' vagh choQmey lutoghlu'}
   Number of Decks: 2.5
 
-  {(cha' choQmey naQ tu'lu' 'ej tep choQ bIngDaq lo' law' bID choQ tu'lu')}
+  ({cha' choQmey naQ tu'lu' 'ej tep choQ
+  bIngDaq lo' law' bID choQ tu'lu'})
   (2 Full Decks and a Half Utility Deck under the Cargo Deck)
 
-  {wejvatlh SochmaH vagh SaD cheb'a'mey ngI' Duj}
-  Mass: 8.7KT
+  {wejvatlh SochmaH vagh SaD cheb'a' [[cheb'a':=cheb'a'-]]
+  mey ngI' Duj}
+  Mass: 8.7KT [[p.column 8]]
 
 
 {Hongghor pat}
+--------------
 Impulse Drive System
 
   {Hong boq chuyDaH: loS}
@@ -202,6 +218,7 @@ Impulse Drive System
 
 
 {pIvghor pat}
+-------------
 Warp Drive System
 
   {pIvchem lIngwI' DaHmey: cha'}
@@ -213,11 +230,11 @@ Warp Drive System
   {qughDo motlh: pIvlob vagh}
   Normal Cruising Speed -- Warp 5
 
-  {'aqroS qughDo: pIvlob Hut vI' vagh}
+  {aqroS qughDo: pIvlob Hut vI' vagh} [[aqroS:='aqroS]]
   Maximum Cruising Speed -- Warp 9.5
 
   {choH lISbogh Hap'e': cha'pujqut}
-  Reaction Moderating Element -- Crystalline Dilithium
+  Reaction Moderating Element -- Crystalline Dilithium [[p.column 9]]
 
   {nIn: bIQSIp 'ugh}
   Fuel -- Deuterium Isotope
@@ -227,6 +244,7 @@ Warp Drive System
 
 
 {jolpatmey}
+-----------
 Transporter Systems
 
   {wey jolpat: wa' (jav ghotpu')}
@@ -241,24 +259,29 @@ Transporter Systems
   {chuq'a'}
   Long Range
 
-  {jabbI'ID pup: Qapchu'meH 'aqroS chuq: cha' vI' chorgh loghqammey}
-  High Resolution -- Maximum Effective Range -- 3.5 Light Years
+  {jabbI'ID pup: Qapchu'meH 'aqroS
+  chuq: cha' vI' chorgh loghqammey}
+  High Resolution -- Maximum Effective Range -- 3.5 Light Years [[p.column 10]]
 
-  {jabbI'ID pupHa': Qapchu'meH chuq: chorgh vI' chorgh loghqammey}
+  {jabbI'ID pupHa': Qapchu'meH chuq:
+  chorgh vI' chorgh loghqammey}
   Medium to Low Resolution -- Effective Range -- 11 Light Years
 
 
 {ya patmey}
+-----------
 Tactical Systems
 
   {nISwI' talmey: cha' (telDaq lujomlu')}
   Disruptor Cannon -- 2 (Wing Mounted)
 
-  {nISwI': cha' chang'engmey (telDaq lujomlu', nItebHa' lubaHlu')}
+  {nISwI': cha' chang'engmey (telDaq
+  lujomlu', nItebHa'lubaHlu')} [[nItebHa'lubaHlu':=nItebHa' lubaHlu']]
   Disruptor -- 2 Pairs (Wing Mounted, Fire Linked)
 
 
 {Qum patmey}
+------------
 Communications Systems
 
   {'evnagh Se' HablI'}
@@ -266,31 +289,39 @@ Communications Systems
 
 
 {De'wI' patmey}
+---------------
 Computer Systems
 
   {Hung buv rav: patlh Hut}
-  Classified Level 9 and Above
+  Classified Level 9 and Above [[p.column 11]]
 
+  Technical Illustration
+  Matt Cushman
 
-Technical Illustration 
-Matt Cushman
+  Computer Illustration
+  Bob Kayganich
 
-Computer Illustration
-Bob Kayganich
+  Creative Director
+  Marty Petz
 
-Creative Director
-Marty Petz
+  Klingon Translation
+  Marc Okrand
 
-Klingon Translation
-Marc Okrand
+  Thanks for the support provided by
+  the STAR TREK Art Department.
+  John Eaves, Herman Zimmerman, Mike Okuda,
+  Rick Sternbach, and Doug Drexler.
 
-Thanks for the support provided by the STAR TREK Art Department, John Eaves,
-Herman Zimmerman, Mike Okuda, Rick Sternbach, and Doug Drexler.
+[[p.left footer]]
 
-TM, ® & © 1998 Paramount Pictures. All Rights Reserved. STAR TREK and Related
-Marks are Trademarks of Paramout Pictures. SciPubTech Autorized User. Visit the
-official STAR TREK website at http://www.startrek.com
+  Paramount
+  A VIACOM COMPANY
 
-1-888-STAR · http://www.scipubtech.com
+  TM, ® & © 1998 Paramount Pictures. All Rights Reserved. STAR TREK and Related Marks are Trademarks of Paramout Pictures. SciPubTech Autorized User. Visit the official STAR TREK website at http://www.startrek.com
+
+[[p.right footer]]
+
+  1-888-524-STAR · http://www.scipubtech.com
+  SCIPUBTECH
 
 [[eof]]
