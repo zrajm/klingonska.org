@@ -457,7 +457,7 @@ Priorities:
     to the prettified version (as well as to the original text formatted
     transcript).
 
-*** [62%] Transcripts updating/improvement
+*** [64%] Transcripts updating/improvement
 **** TODO Add scans of Klingon trading cards                           :SCAN:
      Decpiher Inc + SkyBox cards should be scanned. Links should then be added
      from the appropriate HTML files in the canon archive.
@@ -474,9 +474,11 @@ Priorities:
      Listing sources one might expect to be canon, but which is not -- e.g.
      'KW' (the audio tape of TKW), and the 7th season SkyBox cards (containing
      only gibberish, and no real Klingon).
-**** TODO Improve DS99 transcript & entry
+**** DONE Improve DS99 transcript & entry
+     CLOSED: [2012-06-06 Wed 11:16]
      Add the text of the German, French, Spanish and Japanese cards. (Since I
      now have these in my collection of Okrandian Canon.)
+**** TODO Update HTML page for DS99 cards with new text
 **** TODO Add HolQeD 2:1 p.15-20 transcript (article of mistakes in canon)
      Mostly mistakes from the movies and the audio tapes. Go over this and
      check that all the misstakes are present in the canon archive. -- Should
