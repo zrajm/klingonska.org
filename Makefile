@@ -10,17 +10,9 @@
 ##                                                                           ##
 ###############################################################################
 
-# data for remote host (used by "beta" and "release" targets)
-REMOTE_HOST           := hcoop
-REMOTE_KERB_PRINCIPAL := zrajm@HCOOP.NET
-REMOTE_PATH_BETA      := klingonska.org/beta
-REMOTE_PATH_RELEASE   := klingonska.org/main
-
-TIMESTAMP_FILE_BETA   := .uploaded_beta
-TIMESTAMP_FILE_RELEASE:= .uploaded_release
-
-# options for uploading with rsync
-RSYNCFLAGS = --delete-after --delete-excluded --exclude-from=".gitignore"
+source_dir  := src
+publish_dir := publish
+remote_dir  := hcoop:Web/klingonska.org
 
 
 ###############################################################################
@@ -29,38 +21,41 @@ RSYNCFLAGS = --delete-after --delete-excluded --exclude-from=".gitignore"
 ##                                                                           ##
 ###############################################################################
 
-# list of HTML files to generate
-generated_html_files = $(patsubst %.txt, %.html, \
-	$(wildcard klo/*.txt dict/*.txt)         \
-	akademien/logo/index.txt                 \
-	canon/index.txt                          \
-)
+copied_source_files = \
+    $(shell find "$(source_dir)" -type f \
+        -name '*.cgi'  -or \
+        -name '*.css'  -or \
+        -name '*.gif'  -or \
+        -name '*.html' -or \
+        -name '*.jpg'  -or \
+        -name '*.js'   -or \
+        -name '*.ly'   -or \
+        -name '*.midi' -or \
+        -name '*.mp3'  -or \
+        -name '*.mp4'  -or \
+        -name '*.ogg'  -or \
+        -name '*.pdf'  -or \
+        -name '*.png'  -or \
+        -name '*.ps'   -or \
+        -name '*.svg'  -or \
+        -name '*.swf'  -or \
+        -name '*.txt'  -or \
+        -name '*.zdb'  -or \
+        -name '*.zip'      \
+    )                      \
+    $(source_dir)/favicon.ico
 
-# Some terminal escape settings
-bold   = \\033[1m# Escape sequence for bold text
-normal = \\033[m#  Escape sequence to reset text settings
+processed_source_files = \
+    $(wildcard                             \
+        $(source_dir)/akademien/logo/*.txt \
+        $(source_dir)/canon/index.txt      \
+        $(source_dir)/dict/*.txt           \
+        $(source_dir)/klo/*.txt            \
+    )
 
-# Usage: $(call upload,REMOTE_HOST,REMOTE_PATH[,KERBEROS_PRINCIPAL])
-#
-# Uses rsync to upload stuff to REMOTE_PATH of REMOTE_HOST. If
-# KERBEROS_PRINCIPAL is specified (this also requires the appropriate GSSAPI
-# settings in ~/.ssh/config to work) then ACLs will be set for the uploaded
-# files (this only works on HCoop since the "fsr" command is used -- a
-# HCoop-specific recursive version of the normal "fs" command -- and the ACL
-# username is hardcoded as "zrajm.daemon").
-upload = \
-    if [ "$(3)" ]; then                                \
-        if klist | grep -q "Principal: $(3)$$"; then   \
-            echo "Got credentials,"                    \
-                 "password not needed ($(3))";         \
-        else                                           \
-            kinit "$(3)" || exit 1;                    \
-        fi;                                            \
-    fi;                                                \
-    rsync -Pa $(RSYNCFLAGS) . $(1):$(2);               \
-    if [ "$(3)" ]; then                                \
-        ssh "$(1)" "fsr setacl $(2) zrajm.daemon rl" & \
-    fi
+copied_files    = $(patsubst $(source_dir)/%,$(publish_dir)/%,$(copied_source_files))
+processed_files = $(patsubst $(source_dir)/%.txt,$(publish_dir)/%.html,$(processed_source_files))
+all_files       = $(copied_files) $(processed_files)
 
 
 ###############################################################################
@@ -69,53 +64,153 @@ upload = \
 ##                                                                           ##
 ###############################################################################
 
-## all - alias for "html"
-.PHONY: all
-all: html
+## site - build web site
+.PHONY: site
+site: $(copied_files) $(processed_files)
 
-## html - build HTML files (which files are build is given in Makefile)
-.PHONY: html
-html: $(generated_html_files)
+## publish - rsync generated web site to web host
+.PHONY: publish
+publish: .publish.done
+.publish.done: $(all_files)
+	@echo "Publishing site to '$(remote_dir)':"; \
+	rsync -Pac --delete $(publish_dir)/ $(remote_dir) && \
+	echo "Last published from here: `date`" >$@
 
-dict/%.html: dict/%.txt
-	@echo "Processing '$<' -> '$@'";                \
-	usr/bin/parse                                   \
-	     --input=usr/parse-data/parser-markdown-ka  \
-	    --output=usr/parse-data/composer-html-ka2   \
-	    <"$<" >"$@";                                \
-	    [ -s "$@" ] || rm "$@"
-
-# FIXME: should depend on all includes required by the HMTL file
-%.html: %.txt
-	@rm -f "$@"; \
-	export PERL5LIB=$$PERL5LIB:~/usr/share/perl; \
-	usr/bin/markdown2html "$?" --output="%.html"
+## linkcheck - check internal web page links
+.PHONY: linkcheck
+linkcheck: site
+	@echo "Checking <a href=\"...\"> links in all HTML files:"
+	@bin/linkcheck `find "$(publish_dir)" -type f '(' -iname "*.html" '!' -iname ".*" ')'`
 
 ## clean - remove all generated files
 .PHONY: clean
 clean:
-	@rm -vf $(generated_html_files)
+	@if [ -e $(publish_dir) ]; then \
+	    rm -vf $(all_files);        \
+	    rmdir --ignore-fail-on-non-empty -vp `find publish -type d -empty`; \
+	fi
 
 ## help - display this information
 .PHONY: help
 help:
 	@echo "Available targets:"
 	@cat $(CURDIR)/Makefile | awk '/^## [^ ]/ { sub(/^## */, "  "); print }' | sort
-	@echo
 
-## check_links - check internal web page links
-.PHONY: check_links
-check_links:
-	@echo "Checking <a href=\"...\"> links in all HTML files:"
-	@usr/bin/linkcheck `find . -type f '(' -iname "*.html" '!' -iname ".*" ')'`
+# CGI (server-side script)
+$(publish_dir)/%.cgi: $(source_dir)/%.cgi
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	cp -v "$<" "$@"
 
-## test - some sort of test of something
-.SECONDEXPANSION:
-good = $(patsubst %.txt, %.good, $(wildcard usr/test/*.txt))
-test: $(good)
-.PHONY: $(good)
-$(good): $$(patsubst %.good, %.html, $$@)
-	@diff $@ $< && \
-	    echo "OK $<"
+# CSS (stylesheet)
+$(publish_dir)/%.css: $(source_dir)/%.css
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	cp -v "$<" "$@"
+
+# GIF (bitmap image)
+$(publish_dir)/%.gif: $(source_dir)/%.gif
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	cp -v "$<" "$@"
+
+# HTML (hypertext)
+$(publish_dir)/%.html: $(source_dir)/%.html
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	cp -v "$<" "$@"
+
+# HTML (hypertext) -- own markdown processor
+$(publish_dir)/dict/%.html: $(source_dir)/dict/%.txt
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)";        \
+	echo "Processing '$<' -> '$@'";             \
+	bin/parse                                   \
+	     --input=parse-data/parser-markdown-ka  \
+	    --output=parse-data/composer-html-ka2   \
+	    <"$<" >"$@";                            \
+	    [ -s "$@" ] || rm "$@"
+
+# HTML (hypertext) -- own markdown processor
+$(publish_dir)/%.html: $(source_dir)/%.txt \
+	$(source_dir)/includes/template.html bin/markdown2html
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)";         \
+	rm -f "$@";                                  \
+	bin/markdown2html "$<" --base=src --output="$@"
+
+# ICO (browser favicon)
+$(publish_dir)/favicon.ico: $(source_dir)/favicon.ico
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	cp -v "$<" "$@"
+
+# JPEG (bitmap image)
+$(publish_dir)/%.jpg: $(source_dir)/%.jpg
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	cp -v "$<" "$@"
+
+# JS (client-side script, Javascript)
+$(publish_dir)/%.js: $(source_dir)/%.js
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	cp -v "$<" "$@"
+
+# LY (typeset musical score, Lilypond)
+$(publish_dir)/%.ly: $(source_dir)/%.ly
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	cp -v "$<" "$@"
+
+# MIDI (audio)
+$(publish_dir)/%.midi: $(source_dir)/%.midi
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	cp -v "$<" "$@"
+
+# MP3 (audio)
+$(publish_dir)/%.mp3: $(source_dir)/%.mp3
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	cp -v "$<" "$@"
+
+# MP4 (video)
+$(publish_dir)/%.mp4: $(source_dir)/%.mp4
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	cp -v "$<" "$@"
+
+# OGG (audio)
+$(publish_dir)/%.ogg: $(source_dir)/%.ogg
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	cp -v "$<" "$@"
+
+# PDF (typeset document, PDF)
+$(publish_dir)/%.pdf: $(source_dir)/%.pdf
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	cp -v "$<" "$@"
+
+# PNG (bitmap image)
+$(publish_dir)/%.png: $(source_dir)/%.png
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	cp -v "$<" "$@"
+
+# PS (typeset document, Postscript)
+$(publish_dir)/%.ps: $(source_dir)/%.ps
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	cp -v "$<" "$@"
+
+# SVG (vector image)
+$(publish_dir)/%.svg: $(source_dir)/%.svg
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	cp -v "$<" "$@"
+
+# SWF (client-side program, Shockwave Flash)
+$(publish_dir)/%.swf: $(source_dir)/%.swf
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	cp -v "$<" "$@"
+
+# TXT (text files)
+$(publish_dir)/%.txt: $(source_dir)/%.txt
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	cp -v "$<" "$@"
+
+# ZDB (text database)
+$(publish_dir)/%.zdb: $(source_dir)/%.zdb
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	cp -v "$<" "$@"
+
+# ZIP (compressed archive)
+$(publish_dir)/%.zip: $(source_dir)/%.zip
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	cp -v "$<" "$@"
 
 #[eof]

@@ -1,0 +1,133 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use feature ':5.10';
+
+
+# Paths ending in "/", "/." or "/.." should end in "/" after cleanup. If path
+# is reduced to nothing "./" is returned.
+#
+# If returned path ends in "/" then this means that it refers to a directory,
+# rather than a file, and, in a HMTL context, this could mean that you should
+# add "index.html" or something similar to get the actual filename.
+sub clean_path {
+    my ($path, $link) = @_;
+    my $full = ($path ne "" ? $path : ".") . "/" . $link;
+    foreach ($full) {
+        # strip off anchor or query string
+        my $suffix = s{([?#].*)$}{} ? $1 : "";
+        my $prefix = s{^(\w+://)}{} ? $1 : "";
+        s{/{2,}}{/}g;                                # "//"
+        s{(?:^|(?<=/)) [.]            (?:/|$)}{}gx;  # "/./"
+        s{(?:^|(?<=/)) [^/]+ / [.][.] (?:/|$)}{}gx;  # "dir/../"
+        $_ = indexfile($_);
+        $_ = $prefix . $_ . $suffix;
+    }
+    return $full;
+}
+
+sub indexfile {
+    my ($path) = @_;
+    return $path unless $path =~ m#(^|/)$#;
+    foreach (qw(index.cgi index.html)) {
+        return $_ if -e $path . $_;
+    }
+    return "";
+}
+
+if (0) {
+    print clean_path("."), "\n";
+    print clean_path("./"), "\n";
+    print clean_path("a/./b"), "\n";
+    print clean_path("a/./b/"), "\n";
+    print clean_path("yadda/../"), "\n";
+    print clean_path("yadda/.."), "\n";
+    print clean_path("gogo/yadda/../"), "\n";
+    print clean_path("gogo/yadda/.."), "\n";
+    print clean_path("../index.html"), "\n";
+    print clean_path("yadda/../index.html"), "\n";
+    print clean_path("gogo/yadda/../index.html"), "\n";
+    exit;
+}
+
+
+sub check_link {
+    my ($page, $link) = @_;
+    my $file = "";
+    given ($link) {
+        when (m{^http://klingonska.org/(.*)}) {
+            print STDERR " <<";
+            $file = $1;
+            my $suffix = $file =~ s/([?#].*)$// ? $1 : "";
+            return indexfile($1);
+        }
+        when (m{^https?://(.*)}) {
+            print STDERR " ||";
+            #print "as-is:$1\n";
+            return "$link";
+        }
+        default {
+            print STDERR " >>";
+            my ($base) = $page =~ m#^(?|(.*)/|())[^/]*$#;
+            $file = clean_path($base, $_);
+            my $suffix = $file =~ s/([?#].*)$// ? $1 : "";
+        }
+    }
+    return $file if -e $file;
+    $@ = "File '$file' is missing\n";
+    return undef;
+}
+
+# return base part of path
+sub base {
+    my ($_) = @_;
+    m{^(?|(.*)/|())[^/]*$}x;
+    return $1;
+}
+
+# Usage: $path = absolute($relative[, $base_dir])
+#
+# returrn absolute path
+sub absolute {
+    my ($_, $dir) = @_;
+    $_ = "$dir/$_" if !m{^/} and defined($dir);
+    s{/{2,}}{/}g;                                # "//"
+    s{(?:^|(?<=/)) [.]            (?:/|$)}{}gx;  # "/./"
+    s{(?:^|(?<=/)) [^/]+ / [.][.] (?:/|$)}{}gx;  # "dir/../"
+    return($_);
+}
+
+# NOTE does not handle "login:password@domain" notation
+sub url_split($) {
+    my ($_) = @_;
+    return m{^
+        (?|([a-z]+://)([a-z0-9.-]+(?=/))|()()) # proto + domain
+        (.*?)                                  # path
+        ([?#].*|)                              # query string
+    $}x;
+}
+
+
+undef $/;
+while (<>) {                                      # for each file
+    foreach my $tag (m/(<a\b[^<>]*>)/ig) {        #   for each <a...> tag
+        $SIG{__WARN__} = sub { warn "$ARGV $tag: @_" };
+        foreach my $link ($tag =~ m/\bhref="([^"]+)"/ig) { #     for each href attribute
+
+            next if $link =~ /^mailto:/;
+            my ($proto, $domain, $path, $string) = url_split($link);
+
+            my $abspath = absolute($path, base($ARGV));
+            print $ARGV.">>".base($ARGV)."$abspath\n";
+            #check_link($ARGV, $link) or print STDERR "$ARGV $tag: $@";
+        }
+
+
+
+
+    }
+}
+
+
+#[eof]

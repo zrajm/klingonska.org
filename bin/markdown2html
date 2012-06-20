@@ -3,6 +3,7 @@
 use strict;
 use warnings;
 use utf8;
+use Cwd 'realpath';
 use open qw(:std :utf8);
 #binmode(STDIN,  ":encoding(utf8)");
 #binmode(STDOUT, ":encoding(utf8)");
@@ -76,32 +77,32 @@ my %string = (
 # (gracefully suggest which Debian packages are missing on failure)
 BEGIN {
     my %module = (
-	"Text::MultiMarkdown" => {
-	    deb => "libtext-multimarkdown-perl",
-	    #import => [ "markdown" ],
-	},
+        "Text::MultiMarkdown" => {
+            deb => "libtext-multimarkdown-perl",
+            #import => [ "markdown" ],
+        },
     );
     my @failed = ();
     for my $module (keys %module) {
-	(my $file = "$module.pm") =~ s{::}{/}g;
-	my $bad = 1;
-	for my $dir (@INC) {
-	    if (-e "$dir/$file") {
-		$bad = "";
-		eval "require $module;";
-		$module->import(@{$module{$module}{import}});
-		last;
-	    }
-	}
-	push @failed, $module if $bad;
+        (my $file = "$module.pm") =~ s{::}{/}g;
+        my $bad = 1;
+        for my $dir (@INC) {
+            if (-e "$dir/$file") {
+                $bad = "";
+                eval "require $module;";
+                $module->import(@{$module{$module}{import}});
+                last;
+            }
+        }
+        push @failed, $module if $bad;
     }
     if (@failed) {
-	warn "Cannot find perl module(s): ", join(", ", sort(@failed)), "\n",
-	    "To install them (on Debian/Ubuntu) run:\n\n",
-	    "    apt-get install ",
+        warn "Cannot find perl module(s): ", join(", ", sort(@failed)), "\n",
+            "To install them (on Debian/Ubuntu) run:\n\n",
+            "    apt-get install ",
             join(" ", sort map $module{$_}{deb}, @failed),
-	    "\n\n";
-	exit 50;
+            "\n\n";
+        exit 50;
     }
 }
 
@@ -110,24 +111,26 @@ BEGIN {
 my %cfg = ( output => -t STDOUT ? "%.html" : "-", template => 1 );
 {
     (my $bin = $0) =~ s{^.*/}{};
-    ## Usage: markdown2html [OPTION]... FILE
-    ## Generate XHTML from MultiMarkdown source in FILE.
+    ## Usage: markdown2html [OPTION]... FILE...
+    ## Generate HTML file(s) from MultiMarkdown source in FILE(s).
     ##
     my ($bad, @unparsed) = (0, ());
     while (@ARGV) {
-	local $_ = shift @ARGV;
-	m/^--$/ and last;
-	m/^(--[^=]+)=(.*)$/ and do { $_ = $1; unshift @ARGV, $2 }; # longopt arg
-	m/^(-[^-])(.+)$/    and do { $_ = $1; unshift @ARGV, $2 }; # shortopt arg
-	##   -h, --help         display this help and exit
-	m/^(-h|--help)$/ and do { help(); exit 0 };
-	##   -o, --output=FILE  output filename (default: %.html, '-' if piped)
-	m/^(-o|--output)$/ and do { $cfg{output} = shift; next };
-	##   -T, --no-template  suppress page template for header/footer
-	m/^(-T|--no-template)$/ and do { $cfg{template} = ""; next };
-	# ADD OPTS HERE
-	/^-/ and do { warn "$bin: unknown option '$_'\n"; $bad++; next };
-	push @unparsed, $_;
+        local $_ = shift @ARGV;
+        m/^--$/ and last;
+        m/^(--[^=]+)=(.*)$/ and do { $_ = $1; unshift @ARGV, $2 }; # longopt arg
+        m/^(-[^-])(.+)$/    and do { $_ = $1; unshift @ARGV, $2 }; # shortopt arg
+        ##   -b, --base=DIR     root path (used for breadcrumb generation etc.)
+        m/^(-b|--base)$/ and do { $cfg{rootpath} = shift; next };
+        ##   -h, --help         display this help and exit
+        m/^(-h|--help)$/ and do { help(); exit 0 };
+        ##   -o, --output=FILE  output filename (default: %.html, '-' if piped)
+        m/^(-o|--output)$/ and do { $cfg{output} = shift; next };
+        ##   -T, --no-template  suppress page template for header/footer
+        m/^(-T|--no-template)$/ and do { $cfg{template} = ""; next };
+        # ADD OPTS HERE
+        /^-/ and do { warn "$bin: unknown option '$_'\n"; $bad++; next };
+        push @unparsed, $_;
     }
     exit 1 if $bad;
     @ARGV = @unparsed;
@@ -145,18 +148,18 @@ my %cfg = ( output => -t STDOUT ? "%.html" : "-", template => 1 );
     ## When looking for templates, CSS, etc scans the current dir, then below dirs,
     ## for "includes/template.html" and "includes/page.css".
     die "$bin: not enough arguments\n" .
-	"Try `$bin --help' for more information.\n" unless @ARGV;
+        "Try `$bin --help' for more information.\n" unless @ARGV;
 }
 if ($cfg{output} =~ m/^(%*)(.*)$/g) {
     $cfg{add} = $2 eq "-" ? "" : $2;
     $cfg{output} = "";
     if ($1) {                                  # pattern (leading '%')
-	my $num = length($1);
-	$cfg{strip} = qr/(?:\.[^.]+){0,$num}$/;
+        my $num = length($1);
+        $cfg{strip} = qr/(?:\.[^.]+){0,$num}$/;
     } else {                                   # filename (= no pattern)
-	$cfg{strip} = qr/.*/;
-	die "$0: with multiple input files '--output' requires a pattern\n"
-	    if @ARGV > 1;
+        $cfg{strip} = qr/.*/;
+        die "$0: with multiple input files '--output' requires a pattern\n"
+            if @ARGV > 1;
     }
 }
 
@@ -170,16 +173,15 @@ if ($cfg{output} =~ m/^(%*)(.*)$/g) {
 
 
 sub help {
-    use Cwd 'realpath';                        # resolves symlinks
     my @source = do {
-	my $file = realpath($0);               # get name of source file
+        my $file = realpath($0);               # get name of source file
         open(my $fh, '<', $file) or
             die "$0: Can't open source code for reading of docstrings: $!\n";
-	<$fh>;
+        <$fh>;
     };
     foreach (@source) {
-	m/^\s+##\s?(.*\n)/ or next;            # only lines beginning with "## "
-	print $1;
+        m/^\s+##\s?(.*\n)/ or next;            # only lines beginning with "## "
+        print $1;
     }
 }
 
@@ -193,22 +195,26 @@ sub help {
 
 {
     package HTML::Template::KA;
+    use strict;
+    use warnings;
     use Carp;
+    use Cwd 'realpath';
 
     sub new {
-	my ($class, @arg) = @_;
-	my $self = bless({}, $class);
-	return $self->set(@arg);
+        my ($class, @arg) = @_;
+        my $self = bless({}, $class);
+        return $self->set(@arg);
     }
 
     # return the object
     # allow for () as args
     sub set {
-	my ($self) = shift;
-	croak "set(): must be called with an even number of arguments" if @_ % 2 != 0;
-	my %arg = @_;
-	$self->{$_} = $arg{$_} foreach (keys %arg);
-	return $self;
+        my ($self) = shift;
+        croak "set(): must be called with an even number of arguments" if @_ % 2 != 0;
+        my %arg = @_;
+        $arg{rootpath} = realpath($arg{rootpath} // ".");
+        $self->{$_} = $arg{$_} foreach (keys %arg);
+        return $self;
     }
 
     # Usage: $o->get([setting[,...]]);
@@ -218,22 +224,22 @@ sub help {
     # named in the args). In scalar context only the first value requested is
     # returned.
     sub get {
-	my ($self) = shift;
-	return keys %$self unless @_;
-	if (wantarray) {
-	    return map { $self->{$_} } @_;
-	} else {
-	    return $self->{$_[0]};
-	}
+        my ($self) = shift;
+        return keys %$self unless @_;
+        if (wantarray) {
+            return map { $self->{$_} } @_;
+        } else {
+            return $self->{$_[0]};
+        }
     }
 
     # Usage: read_file(FILE);
     #
     # Reads the entire (utf8) FILE and returns its contents as a string.
     sub read_file {
-	my ($file) = shift;
-	open(my $in, "<:utf8", $file) or croak "cannot open file \"$file\": $!";
-	return <$in>                  or croak "cannot read file \"$file\": $!";
+        my ($file) = shift;
+        open(my $in, "<:utf8", $file) or croak "cannot open file \"$file\": $!";
+        return <$in>                  or croak "cannot read file \"$file\": $!";
     }
 
 
@@ -242,37 +248,37 @@ sub help {
     # Extracts any leading metadata fields from @TEXT. Returns FALSE on failure,
     # TRUE otherwise.
     sub metadata(\%\@) {
-	my ($hashref, $arrayref) = @_;
-	#use feature "switch";
-	my ($field, $count) = ("", 0, 0);
-	foreach (@$arrayref) {
-	    $count ++;
-	    if (m/^ (\w+): \s* ([^\n]*)\n /x) {
-		$$hashref{$1}  = "" unless exists($$hashref{$1});
-		$$hashref{$1} .= $2;
-		$field = $1;
-	    } elsif (m/^ \s+ ([^\n]*)\n /x) {
-		if ($field ne "") {
-		    $$hashref{$field} .= " " . $1;
-		} else {
-		    warn "$0: 1st line in file may not be metadata " .
+        my ($hashref, $arrayref) = @_;
+        #use feature "switch";
+        my ($field, $count) = ("", 0, 0);
+        foreach (@$arrayref) {
+            $count ++;
+            if (m/^ (\w+): \s* ([^\n]*)\n /x) {
+                $$hashref{$1}  = "" unless exists($$hashref{$1});
+                $$hashref{$1} .= $2;
+                $field = $1;
+            } elsif (m/^ \s+ ([^\n]*)\n /x) {
+                if ($field ne "") {
+                    $$hashref{$field} .= " " . $1;
+                } else {
+                    warn "$0: 1st line in file may not be metadata " .
                         "continuation line (in line $count)\n";
-		    return '';
-		}
-	    } elsif (m/^ \s* $/x) {
-		if ($count == 1) {
-		    warn "$0: 1st line in file may not be blank " .
+                    return '';
+                }
+            } elsif (m/^ \s* $/x) {
+                if ($count == 1) {
+                    warn "$0: 1st line in file may not be blank " .
                         "(in line $count)\n";
-		    return '';
-		}
-		last;
-	    } else  {
-		warn "$0: metadata is not terminated by blank line " .
+                    return '';
+                }
+                last;
+            } else  {
+                warn "$0: metadata is not terminated by blank line " .
                     "(in line $count)\n";
-		return '';
-	    }
-	}
-	splice(@$arrayref, 0, $count);
+                return '';
+            }
+        }
+        splice(@$arrayref, 0, $count);
 
         if (not exists($hashref->{title})) {
             $hashref->{title} = do {
@@ -299,34 +305,34 @@ sub help {
         #     exists($hashref->{title})
         #         ? "$page_title -- $hashref->{title}"
         #         : $page_title;
-	return 1;
+        return 1;
     }
 
     # Usage: %meta = get_metadata(TEXT);
     #
     # Returns the metadata portion of TEXT.
     sub get_metadata {
-	my ($self, $text) = @_;
-	# strip off non-metadata (all after first blank line)
-	$text =~ s/(?<=\n)\n+(.*)//s;
-	carp "read_metadata(): only metadata found in this file -- isn't that odd?" unless $1;
-	my %meta = ();
-	my ($tag, $line) = (undef, 0);
-	for (split(/(?<=\n)/, $text)) {
-	    $line ++;
-	    m/^ \s+ (.*) $/xs and do {
-		croak "read_metadata(): continuation line with no preceding metadata field in line $line"
-		    unless defined($tag);
-		$meta{$tag} .= "\n" . $1;
-		next;
-	    };
-	    m/^ ([^:]*) : \s* (.*) $/x and do {
-		$meta{$tag = $1} .= $2;
-		next;
-	    };
-	    croak "get_metadata(): failed to parse metadata in line $line";
-	}
-	return %meta;
+        my ($self, $text) = @_;
+        # strip off non-metadata (all after first blank line)
+        $text =~ s/(?<=\n)\n+(.*)//s;
+        carp "read_metadata(): only metadata found in this file -- isn't that odd?" unless $1;
+        my %meta = ();
+        my ($tag, $line) = (undef, 0);
+        for (split(/(?<=\n)/, $text)) {
+            $line ++;
+            m/^ \s+ (.*) $/xs and do {
+                croak "read_metadata(): continuation line with no preceding metadata field in line $line"
+                    unless defined($tag);
+                $meta{$tag} .= "\n" . $1;
+                next;
+            };
+            m/^ ([^:]*) : \s* (.*) $/x and do {
+                $meta{$tag = $1} .= $2;
+                next;
+            };
+            croak "get_metadata(): failed to parse metadata in line $line";
+        }
+        return %meta;
     }
 
     # Usage: $OUTPUT = process_xml(\&CODEREF, [$INPUT]);
@@ -338,10 +344,10 @@ sub help {
     #
     # If $INPUT is not provided, $_ is used.
     sub process_xml {
-	die "1st argument must be code reference" unless ref($_[0]) eq "CODE";
-	my ($coderef, $input) = (@_, $_);
-	$input =~ s{ ([^<]*) (<!--(.*?)-->|<[^>]*?>)? }{
-	    my ($text, $tag, $comment) = ($1, $2 || "", $3);
+        die "1st argument must be code reference" unless ref($_[0]) eq "CODE";
+        my ($coderef, $input) = (@_, $_);
+        $input =~ s{ ([^<]*) (<!--(.*?)-->|<[^>]*?>)? }{
+            my ($text, $tag, $comment) = ($1, $2 || "", $3);
             &$coderef($text) .
             do {
                 if (defined($comment)) {
@@ -356,54 +362,54 @@ sub help {
                     $tag;
                 }
             };
-	}gsex;
-	return $input;
+        }gsex;
+        return $input;
     }
 
 
     sub markdown {
-	my ($self, $hashref) = @_;
-	local $_ = $$hashref{text};
+        my ($self, $hashref) = @_;
+        local $_ = $$hashref{text};
 
-	s{ \n* \[\[eof\]\] \n* $ }{}ix;  # strip eof marker
-	s#<>#&nbsp;#g;                   # <> = &nbsp;
+        s{ \n* \[\[eof\]\] \n* $ }{}ix;  # strip eof marker
+        s#<>#&nbsp;#g;                   # <> = &nbsp;
 
-	# parse with multimarkdown
-	my $obj = new Text::MultiMarkdown(
-	    use_metadata   => '',
-	    strip_metadata => '',
-	    tab_width      => 4,
-	);
-	$_ = $obj->markdown($_);
+        # parse with multimarkdown
+        my $obj = new Text::MultiMarkdown(
+            use_metadata   => '',
+            strip_metadata => '',
+            tab_width      => 4,
+        );
+        $_ = $obj->markdown($_);
 
-	$_ = $self->process_template($_, %$hashref);
+        $_ = $self->process_template($_, %$hashref);
 
-	# [[...]] comments
-	s{ <p> \[\[ (.*?) \]\] </p> }{<div class="comment"><p>$1</p></div>}gxs;
-	s{ \[\[ (.*?) \]\] }{<span class="comment">$1</span>}gxs;
+        # [[...]] comments
+        s{ <p> \[\[ (.*?) \]\] </p> }{<div class="comment"><p>$1</p></div>}gxs;
+        s{ \[\[ (.*?) \]\] }{<span class="comment">$1</span>}gxs;
 
-	# clean up some (useless) empty HTML elements
-	s{ \s* <thead> \s* </thead> }{}gix;
-	s{ \s* <col \s* /> }{}gix;
+        # clean up some (useless) empty HTML elements
+        s{ \s* <thead> \s* </thead> }{}gix;
+        s{ \s* <col \s* /> }{}gix;
 
-	# clear away whitspace inside empty <td> cells
-	s{(<td\b[^>]*>) \s+ (</td>)}{$1$2}gix;
+        # clear away whitspace inside empty <td> cells
+        s{(<td\b[^>]*>) \s+ (</td>)}{$1$2}gix;
 
-	# clean up headline "id" attribute
-	s{ <h([1-7])( \s+ [^>]*)> (.*?) </h\1> }{
-	    my ($num, $attr, $cont, $name) = ($1, $2, $3, $3);
-	    $name =~ s{ \s* < (\w+) [^>]*> .*? </\1> \s* }{}gix; # strip <x>...</x>
-	    $name =~ s{ \s* \[ .*? \] \s* }{}gix;                # strip [...]
-	    if ($name =~ /^ ((?:\d+\.)* \d+) /x) {
-		$name = $1;
-	    }
-	    $name =~ s/ ^ (?=\d) /_/x;      # precede leading digit with underscore
-	    $name =~ s/ [^\d\w]+ /_/xg;     # replace non-alphanumeric with underscore
-	    $attr =~ s{ id="[^"]*" }{id="$name"}xi;
-	    "<h$num$attr>$cont</h$num>"
-	}gixme;
+        # clean up headline "id" attribute
+        s{ <h([1-7])( \s+ [^>]*)> (.*?) </h\1> }{
+            my ($num, $attr, $cont, $name) = ($1, $2, $3, $3);
+            $name =~ s{ \s* < (\w+) [^>]*> .*? </\1> \s* }{}gix; # strip <x>...</x>
+            $name =~ s{ \s* \[ .*? \] \s* }{}gix;                # strip [...]
+            if ($name =~ /^ ((?:\d+\.)* \d+) /x) {
+                $name = $1;
+            }
+            $name =~ s/ ^ (?=\d) /_/x;      # precede leading digit with underscore
+            $name =~ s/ [^\d\w]+ /_/xg;     # replace non-alphanumeric with underscore
+            $attr =~ s{ id="[^"]*" }{id="$name"}xi;
+            "<h$num$attr>$cont</h$num>"
+        }gixme;
 
-	return $_;
+        return $_;
     }
 
 
@@ -412,55 +418,53 @@ sub help {
     # Process named $FILE, applying the $TEMPLATE_FILE and return processed
     # result as a string.
     sub process_file {
-	my ($self, $file, $template_file) = @_;
+        my ($self, $file, $template_file) = @_;
+        $file = realpath($file);
+        my @text = read_file($file);
+        my %meta = (
+            filename => $file,
+            filedate => (stat($file))[9],
+        );
+        metadata(%meta, @text) or exit 5;
 
-	use Cwd 'realpath';
-	$file = realpath($file);
-	my @text = read_file($file);
-	my %meta = (
-	    filename => $file,
-	    filedate => (stat($file))[9],
-	);
-	metadata(%meta, @text) or exit 5;
-
-	$meta{text} = join("", @text);
-	$meta{text} = $self->markdown(\%meta);
+        $meta{text} = join("", @text);
+        $meta{text} = $self->markdown(\%meta);
 
 
 
-	my $page = "";
-	if (defined($template_file)) {
-	    $page = join("", read_file($template_file));
-	    $page = $self->process_template($page, %meta);
-	} else {
-	    $page = $self->process_template($meta{text}, %meta);
-	}
+        my $page = "";
+        if (defined($template_file)) {
+            $page = join("", read_file($template_file));
+            $page = $self->process_template($page, %meta);
+        } else {
+            $page = $self->process_template($meta{text}, %meta);
+        }
 
-	return process_xml(
-	    sub {
-		local $_ = shift;
-		# typographical quotes
-		#s#"\b#&ldquo;#g;  # english only
-		s#"#&rdquo;#g;
-		#s#"\b#&lsquo;#g;  # english only (not in Klingon!)
-		s#'#&rsquo;#g;
-		# {...} marks klingon
-		s#{#<b lang="tlh">#g;
-		s#}#</b>#g;
-		# typographical en- and em-dashes
-		s#--#&ndash;#g;
-		s#---#&mdash;#g;
-		return $_;
-	    }, $page);
+        return process_xml(
+            sub {
+                local $_ = shift;
+                # typographical quotes
+                #s#"\b#&ldquo;#g;  # english only
+                s#"#&rdquo;#g;
+                #s#"\b#&lsquo;#g;  # english only (not in Klingon!)
+                s#'#&rsquo;#g;
+                # {...} marks klingon
+                s#{#<b lang="tlh">#g;
+                s#}#</b>#g;
+                # typographical en- and em-dashes
+                s#--#&ndash;#g;
+                s#---#&mdash;#g;
+                return $_;
+            }, $page);
     }
 
     sub process_template {
-	my ($self, $text, %meta) = @_;
-	$text =~ s{ <!--(.*?)--> \n? }{
-	    exists($code{$1}) ?
-		&{$code{$1}}($self, %meta) : $&;
-	}gexs;
-	return $text;
+        my ($self, $text, %meta) = @_;
+        $text =~ s{ <!--(.*?)--> \n? }{
+            exists($code{$1}) ?
+                &{$code{$1}}($self, %meta) : $&;
+        }gexs;
+        return $text;
     }
 
 }
@@ -469,7 +473,9 @@ sub help {
 sub FALSE { "" }
 sub TRUE  { 1  }
 
-# Usage: @HTML = get_crumbs($FILE[, $BASEURL]);
+# Usage: @HTML = get_crumbs($FILE);
+# Usage: @HTML = get_crumbs($FILE, $BASEURL);
+# Usage: @HTML = get_crumbs($FILE, $BASEURL, $ROOTPATH);
 #
 # Return list of '<a href="URL">LINKTEXT</a>' links, with the first pointing to
 # the index page in current directory, the last pointing $FILE, and those in
@@ -479,6 +485,12 @@ sub TRUE  { 1  }
 #
 # URL is prefixed with $BASEURL (if specified). Any trailing "index.html" is
 # also removed from URL.
+#
+# If ROOTPATH is given, then files are only searched down to this directory,
+# i.e. if you specify FILE = x/y/z/gaga.txt, and ROOTPATH = x/y then crumbs are
+# generated for "x/y/ > x/y/z/ > x/y/z/gaga.txt", while if no ROOTPATH was
+# given then the full range "./ > x/ > x/y/ > x/y/z/ > x/y/z/gaga.txt" would be
+# generated.
 #
 # LINKTEXT is read from each file in turn. It is extracted from this file's
 # <title> element (everything up to the first &ndash; is included in LINKTEXT).
@@ -492,30 +504,25 @@ sub TRUE  { 1  }
 # thus function does not do any HTML conversion or escaping of any kind.
 #
 sub get_crumbs {
-    my ($file, $base_url) = @_;
-    if ($file =~ m#^/#) {
-        use Cwd;
-        my $cd = quotemeta(getcwd());
-        $file =~ s#^$cd(?:/|$)##;
-    }
+    my ($pagefile, $base_url, $rootpath) = @_;
+    $pagefile =~ s#^\Q$rootpath\E(?:/|$)##;
+    $pagefile =~ s#/index\.(html|txt)$##;
 
-    $file =~ s#/index\.(html|txt)$##;
-
-    my @file = split(m#/#, $file);
+    my @file = split(m#/#, $pagefile);
 
     my @crumb = ("index.html");  # Home
     for my $i (0..$#file) {
         my $file = join("/", @file[0..$i]);
         $file =~ /\.[a-z]+$/ or $file .= "/index.html";
         push(@crumb, $file)
-            unless $file =~ m#^index\.(html|txt)$#; #$_ eq $crumb[-1];
+            unless $file =~ m#^index\.(html|txt)$#;
     }
     my @x = map {
         # FIXME should error if page_title() return undef
         my $file = $_;
-        -e $file or $file =~ s/\.html$/.txt/;
+        -e "$rootpath/$file" or $file =~ s/\.html$/.txt/;
 
-        my $title = ($_ =~ /^index.(txt|html)$/) ? "Home" : file_title($file);
+        my $title = ($_ =~ /^index.(txt|html)$/) ? "Home" : file_title("$rootpath/$file");
         s#(?:^|(?<=/))index\.(?:html|txt)$##;
         '<a href="' . ($base_url || "") . $_ . '">' . $title . '</a>';
     } @crumb;
@@ -580,16 +587,16 @@ sub file_title {
 #
 sub find_include_file {
     my ($relfile, $basefile) = @_;
-    $basefile = dirname(abs_filename($basefile));
+    $basefile = dirname(realpath($basefile));
     use File::Spec;
     my ($vol, $dirs) = File::Spec->splitpath($basefile);
     my @dir = File::Spec->splitdir($dirs);
     while (@dir) {
-	my $absfile = File::Spec->catpath(
-	    $vol, File::Spec->catdir(@dir), $relfile
-	);
-	return $absfile if -e $absfile;
-	pop @dir;
+        my $absfile = File::Spec->catpath(
+            $vol, File::Spec->catdir(@dir), $relfile
+        );
+        return $absfile if -e $absfile;
+        pop @dir;
     }
     die "couldn't find include file \"$relfile\" for \"$basefile\"";
 }
@@ -598,25 +605,12 @@ sub page_meta {
     return "";
 }
 
-# Return path to first dir above current dir that contains a directory called
-# '.git'. Returns empty string if none found.
-sub find_git_dir {
-    my ($file) = @_;
-    my @path = split(m#/#, $file);
-    for my $i (reverse 0..$#path) {
-        my $dir = join("/", @path[0..$i]);
-        return $dir if -d "$dir/.git";
-    }
-    return ""; # failed
-}
-
 # return page url
 sub page_url {
     my ($self, %meta) = @_;
-    my $file    = $meta{filename};
+    my ($file, $root) = ($meta{filename}, $self->{rootpath});
     for ($file) {
-        my $git_dir = find_git_dir($file);
-        s#^\Q$git_dir/\E##;     # strip git dir from filename
+        s#^\Q$root\E(?:/|$)##;
         s#\.[^/.]{1,4}$#.html#; # replace any extension with '.html'
         s#index\.html$##;       # remove trailing 'index.html'
     }
@@ -626,7 +620,12 @@ sub page_url {
 sub page_crumbs {
     my ($self, %meta) = @_;
     return join(" &gt;\n    ",
-        get_crumbs($meta{filename}, 'http://klingonska.org/')) . "\n";
+        get_crumbs(
+            $meta{filename},
+            "http://klingonska.org/",
+            $self->{rootpath},
+        )
+    ) . "\n";
 }
 
 sub page_css {
@@ -649,7 +648,7 @@ sub page_css {
 sub page_date {
     my ($self, %meta) = @_;
     my ($sec, $minute, $hour, $day, $month, $year) =
-	localtime($meta{filedate});
+        localtime($meta{filedate});
     $year  += 1900;
     $month ++;
     #<time pubdate datetime="2008-09-21T16:34">September 21, 2008</time>
@@ -694,13 +693,13 @@ sub page_author {
     my ($self, %meta) = @_;
     return "MISSING AUTHOR" unless exists($meta{author});
     my @author = map {
-	"<span class=\"author\">" .
-	    (exists($author{$_}) ? $author{$_} : $_) .
-	    "</span>";
+        "<span class=\"author\">" .
+            (exists($author{$_}) ? $author{$_} : $_) .
+            "</span>";
     } sort split(/,\s*/, $meta{author});
     if (@author >= 2) {
-	my $last = pop(@author);
-	$author[-1] = join(" &amp; ", $author[-1], $last);
+        my $last = pop(@author);
+        $author[-1] = join(" &amp; ", $author[-1], $last);
     }
     my $credit = join(", ", @author);
     return $credit;
@@ -722,22 +721,13 @@ sub page_title {
     return join(" -- ", @title)." -- Klingonska Akademien";
 }
 
-sub abs_filename {
-    my ($file) = @_;
-    # FIXME should return the absolutely resolved, symlink-followed filename
-    use File::Spec;
-    $file = File::Spec->rel2abs($file)
-	unless File::Spec->file_name_is_absolute($file);
-    return $file;
-}
-
 
 sub rel_filename {
     my ($file, $base) = @_;
-    $base = dirname(abs_filename($base));
+    $base = dirname(realpath($base));
     use File::Spec;
     $file = File::Spec->abs2rel($file, $base)
-	if File::Spec->file_name_is_absolute($file);
+        if File::Spec->file_name_is_absolute($file);
     return $file;
 }
 
@@ -760,23 +750,23 @@ sub page_toc {
 
     my $toc .= qq{<div class="toc">\n};
     for my $file (glob("$dir/*.txt")) {
-	next if abs_filename($file) eq abs_filename($meta{filename});
+        next if realpath($file) eq realpath($meta{filename});
 
         my $count   = 0;
-	my $text    = read_file($file);
+        my $text    = read_file($file);
         my $outfile = $file;
         for ($outfile) {
             s#^$dir/(.*?)##;
             s#\.[^.]+$#.html#;
         }
 
-	while ($text =~ m/\n ([^\n]+)\n+ ([=-])\2+\n /gx) {
-	    # get full heading + underline type ("=" or "-")
+        while ($text =~ m/\n ([^\n]+)\n+ ([=-])\2+\n /gx) {
+            # get full heading + underline type ("=" or "-")
             my ($heading, $underline) = ($1, $2);
 
-	    # get section id (part after # in HTML-link)
-	    my $section = "";
-	    if ($heading =~ m/^([0-9.]*?)\.?\s/x) {     # heading with number
+            # get section id (part after # in HTML-link)
+            my $section = "";
+            if ($heading =~ m/^([0-9.]*?)\.?\s/x) {     # heading with number
                 $section = $1;
                 # subsection depth based on section number
                 $depth = my @x = split(/\./, $section); #   subsection depth
@@ -788,36 +778,36 @@ sub page_toc {
             $depth ++ if $depth == 1 and $underline eq "-";
             $section =~ s/\.$//;
 
-	    # put any [[...]] after heading's link
-	    my $comment = ($heading =~ s#( \s* \[\[ .*? \]\] $ )##x ? $1 : "");
+            # put any [[...]] after heading's link
+            my $comment = ($heading =~ s#( \s* \[\[ .*? \]\] $ )##x ? $1 : "");
 
-	    # output <ul> / </ul> when depth changes
-	    if ($depth > $prev_depth) {
-		$toc .= "\n" . ("    " x $prev_depth) . "<ul>\n";
-		$li_open = FALSE;
-	    } elsif ($depth < $prev_depth) {
+            # output <ul> / </ul> when depth changes
+            if ($depth > $prev_depth) {
+                $toc .= "\n" . ("    " x $prev_depth) . "<ul>\n";
+                $li_open = FALSE;
+            } elsif ($depth < $prev_depth) {
                 for (reverse $depth .. $prev_depth-1) {
-		    $toc .= "</li>\n" . ("    " x $_) . "</ul>";
-		}
-	    }
-	    $prev_depth = $depth;
+                    $toc .= "</li>\n" . ("    " x $_) . "</ul>";
+                }
+            }
+            $prev_depth = $depth;
 
-	    # output entry
-	    if ($li_open) {
-		$toc .= "</li>\n";
-		$li_open = FALSE;
-	    }
+            # output entry
+            if ($li_open) {
+                $toc .= "</li>\n";
+                $li_open = FALSE;
+            }
 
-	    for ($section) {
-		s/ ^ (?=\d) /_/x;      # precede leading digit with underscore
-		s/ [^\d\w]+ /_/xg;     # replace non-alphanumeric with underscore
-	    }
-	    $toc .= ("    " x $depth) . qq{<li><a href="$outfile} .
+            for ($section) {
+                s/ ^ (?=\d) /_/x;      # precede leading digit with underscore
+                s/ [^\d\w]+ /_/xg;     # replace non-alphanumeric with underscore
+            }
+            $toc .= ("    " x $depth) . qq{<li><a href="$outfile} .
                 ($count ? "#$section" : "") .
                 qq{">$heading</a>$comment};
             $count ++;
-	    $li_open = TRUE;
-	}
+            $li_open = TRUE;
+        }
     }
     # output trailing </ul>s
     for (reverse 0 .. $depth-1) {
@@ -885,7 +875,10 @@ sub write_file {
 ###############################################################################
 
 # init "language"
-my $obj = new HTML::Template::KA(rules => \%code);
+my $obj = new HTML::Template::KA(
+    rules    => \%code,
+    rootpath => $cfg{rootpath},
+);
 
 #print "$_ => ".$obj->get($_)."\n" foreach($obj->get());
 #my %x = %{$obj->get("rules")};
@@ -899,17 +892,17 @@ foreach my $file (@ARGV) {
     my $template_file = find_include_file("includes/template.html", $file);
 
     my $data = do {
-	if ($cfg{template}) {
-	    $obj->process_file($file, $template_file);
-	} else {
-	    $obj->process_file($file);
-	}
+        if ($cfg{template}) {
+            $obj->process_file($file, $template_file);
+        } else {
+            $obj->process_file($file);
+        }
     };
 
     if ($outfile) {
-	write_file($outfile, $data);
+        write_file($outfile, $data);
     } else {
-	print $data;
+        print $data;
     }
 }
 

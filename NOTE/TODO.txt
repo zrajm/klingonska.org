@@ -114,6 +114,63 @@ Priorities:
 ** TODO Do a surf-through check for weird/old shit
 ** TODO Systematic/site-wide changes
    I.e. changes that need to be applied to the web page as a whole.
+*** TODO Site redesign
+**** DONE Design new look (more modern looking, but still simple)
+     CLOSED: [2012-06-09 Sat 11:21]
+     'max-width' should be enforced. Page header should be more colorful (red),
+     in other respects the page should strive for a sombre, academic look.
+**** TODO [80%] Move site repo to GitHub
+     This will save about 50M of diskspace on HCoop (where space is expensive),
+     and future minifications and file compressions will work to save even more
+     space. (As long as the git repo resided on HCoop all changes would make
+     the site take up more diskspace, since the repo always grows with each
+     commit).
+***** DONE Update the old repo on GitHub
+      CLOSED: [2012-06-19 Tue 21:00]
+      Change git repo remote 'origin' so it points to GitHub instead of HCoop.
+      All future 'git push' will thus feed into GitHub.
+***** DONE Remove HCoop git repo
+      CLOSED: [2012-06-19 Tue 21:21]
+      And un-publish it from HCoops list of git repos.
+***** DONE Redirect git.klingonska.org to GitHub
+      CLOSED: [2012-06-19 Tue 22:13]
+      Redirect to this URL: https://github.com/zrajm/klingonska.org
+***** DONE Publish modified site on HCoop
+      CLOSED: [2012-06-20 Wed 13:59]
+      New make target 'make publish' for publishing the site to HCoop.
+***** TODO Add README.md for GitHub
+**** TODO Add new look to all pages
+***** TODO Use HTML5 Boilerplate
+***** TODO Build CSS from SCSS
+      Generated CSS should be minified.
+***** TODO Build HTML using template
+      The goal is to have all content source files written in markdown.
+**** TODO PNG fallback for page logo when SVG isn't supported
+**** TODO Verify that 'make linkcheck' actually does something useful
+**** TODO HTML5 navigation menus (<nav>...</nav>?)
+**** TODO Make sure new design looks good in text only-browsers (lynx etc.)
+**** TODO New motto/tagline for site
+     "*The* Klingon language reference site."?
+     "The one-shop-stop for all you Klingon language needs."?
+     "Klingon language reference tools since 1998."?
+**** TODO Minor tweaks (low priority)
+***** TODO SVG for page design elements
+****** TODO With PNG fallbacks where SVG is unsupported
+****** TODO Use SVG for navigation menu bullets
+****** TODO Convert nation flags (UK/SV) to SVG
+***** TODO [#4] Are files in icons/ still used?
+***** TODO [#4] Make logo wordwrap script work cross-browser
+      It work decently already. Might be minor glitches on Opera or MSIE, just
+      before word wrap applies. Low priority unless someone reports it faulty.
+
+      Should make sure that the logo + title width, and the window width, actually
+      reflects the real width on screen.
+
+      Quirksmode has a nice article that might be illuminating on this subject.
+      http://www.quirksmode.org/dom/getstyles.html
+***** TODO Javascript to alert user of updated parts
+      The navigation menus should have signage indicating that a section is
+      newly updated if changed within the last -- month? two weeks?
 *** TODO Linked images should have border highlight
     Maby have a 2px transparent border on all linked images, and then changing
     color on hover? Problem now is that if an image is linked or not isn't very
@@ -271,12 +328,23 @@ Priorities:
     I.e. dictionary apps for Palm, Android etc. Flash card programs for various
     platforms. Programs strictly focused on the Klingon *language*.
 *** TODO [#3] Scholarly works about Klingon
-**** TODO Wells, Teresa Lynn. 1996.
+**** TODO Wells, Teresa Lynn. 1996
      "A Survey of the Artificial Language {tlhIngan Hol}: From Creation to
      Creativity." -- A Thesis Presented in Partial Fulfillment of the
      Requirements for the Degree Master of Arts at Arizona State University.
      Unpublished. (Mentioned in references section of "{pIqaD}, And How to Read
      It")
+**** TODO Hermans, Judith. 1999
+     "Klingon and its Users -- A Sociolinguistic Profile"
+     M.A. Thesis in Language and Culture Studies with Specialisation in
+     Intercultural Communication, Dutch as a Second Language. Supervisor: S.
+     Kroon. Faculty of Arts Tilburg University, Tilburg, Netherlands, 1999.
+**** TODO Krottje, Cornelis, 2003
+     "The Klingon Dictionary -- A Revisionary Proposal"
+**** TODO Wahlgren, Yens. 2004
+     "Klingon as Linguistic Capital"
+**** TODO Canfield, Tracy
+     "Machine Translation of Klingon"
 *** TODO [#4] Add a sitemap for improved search results?
     http://www.google.com/support/webmasters/bin/answer.py?answer=183668
 *** TODO [#5] Page on Klingon dialects

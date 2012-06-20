@@ -1,12 +1,29 @@
 \version "2.8.0"
-
+%
+% SOUNDS: Only voice I finished, other voices lack melody.
+% SCORES: See above.
+%
+% TODO
+%
+%     o Add melodies for voices II and III.
+%
+%
+% HISTORY
+%
+% 28 November 2006: Converted source from lilypond 2.6 to 2.8 format.
+%
+% 17 May 2006: Copied rhythm patterns and syncronized the three voices with
+% respect to each other. Also tested a program called `midingsolo', and used it
+% to transcribe the melody of the first voice from the melody I've got in my
+% head. (I think I have it on cassette somewhere, but I don't have a cassette
+% player..) Many thanks to Jennifer Saverstam Lydecker for inspiration.
+%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                                                           %%
 %%  Settings                                                                 %%
 %%                                                                           %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 \header {
     title = \markup \bold { taHjaj wo’. }
@@ -109,13 +126,11 @@ myStaffSize = #18
 }
 
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                                                           %%
 %%  Functions                                                                %%
 %%                                                                           %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 % for left-aligning a syllable of lyrics
 % (appropriate at beginning of each line and page)
@@ -124,13 +139,11 @@ left = {
 }
 
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                                                           %%
 %%  Lyrics                                                                   %%
 %%                                                                           %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 % Swedish lyrics
 lyricTlhI = \lyricmode {
@@ -213,13 +226,11 @@ lyricTlhIII = \lyricmode {
 }
 
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                                                           %%
 %%  Choir Notes                                                              %%
 %%                                                                           %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 soprano = \new Staff {
     \new Voice {
@@ -376,13 +387,11 @@ choir = {
 }
 
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                                                           %%
 %%  Score                                                                    %%
 %%                                                                           %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 \book {
     \score {                                \choir                   } % notes
