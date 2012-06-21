@@ -10,7 +10,7 @@
 ##                                                                           ##
 ###############################################################################
 
-source_dir  := src
+source_dir  := site
 publish_dir := publish
 remote_dir  := hcoop:Web/klingonska.org
 
@@ -78,7 +78,7 @@ publish: .publish.done
 
 ## linkcheck - check internal web page links
 .PHONY: linkcheck
-linkcheck: site
+linkcheck: $(all_files)
 	@echo "Checking <a href=\"...\"> links in all HTML files:"
 	@bin/linkcheck `find "$(publish_dir)" -type f '(' -iname "*.html" '!' -iname ".*" ')'`
 
@@ -131,7 +131,7 @@ $(publish_dir)/%.html: $(source_dir)/%.txt \
 	$(source_dir)/includes/template.html bin/markdown2html
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)";         \
 	rm -f "$@";                                  \
-	bin/markdown2html "$<" --base=src --output="$@"
+	bin/markdown2html "$<" --base="$(source_dir)" --output="$@"
 
 # ICO (browser favicon)
 $(publish_dir)/favicon.ico: $(source_dir)/favicon.ico
@@ -227,6 +227,7 @@ $(publish_dir)/%-kgt.txt: $(source_dir)/%-kgt.txt
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Processing \`$<' -> \`$@'"; \
 	tr '[a-m][n-z][A-M][N-Z]' '[n-z][a-m][N-Z][A-M]' <"$<" >"$@"
+
 
 # TXT (text files)
 $(publish_dir)/%.txt: $(source_dir)/%.txt
