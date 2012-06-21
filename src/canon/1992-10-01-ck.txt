@@ -1,1423 +1,1423 @@
 [[
-  [1997-10-03] transcribed original
-  [1998-01-18] intro dialogue added
-  [1998-09-25] some smaller corrections
-  [1998-09-29] compared with tape, correcting errors
-  [1998-09-30] arranged layout and added special characters
-  [1998-10-01] checked all numbers of () [] {} »« match
-  [1998-10-02] machine-parsed for capitalization errors
-  [1998-10-05] machine-parsed for incorrect syllables (errors: 0)
-  [1999-02-11] compared side 1 with tape, correcting errors added timed length
-  [1999-02-14] compared side 2 with tape, correcting errors
-  [2003-01-30] cleaned up text some
-  [2006-07-25] added additional ISBNs to "Publisher" field, added day to
-               release date (info from Amazon)
-  Style: {}=bold, <>=italics
+  [1997-10-03] genafpevorq bevtvany
+  [1998-01-18] vageb qvnybthr nqqrq
+  [1998-09-25] fbzr fznyyre pbeerpgvbaf
+  [1998-09-29] pbzcnerq jvgu gncr, pbeerpgvat reebef
+  [1998-09-30] neenatrq ynlbhg naq nqqrq fcrpvny punenpgref
+  [1998-10-01] purpxrq nyy ahzoref bs () [] {} »« zngpu
+  [1998-10-02] znpuvar-cnefrq sbe pncvgnyvmngvba reebef
+  [1998-10-05] znpuvar-cnefrq sbe vapbeerpg flyynoyrf (reebef: 0)
+  [1999-02-11] pbzcnerq fvqr 1 jvgu gncr, pbeerpgvat reebef nqqrq gvzrq yratgu
+  [1999-02-14] pbzcnerq fvqr 2 jvgu gncr, pbeerpgvat reebef
+  [2003-01-30] pyrnarq hc grkg fbzr
+  [2006-07-25] nqqrq nqqvgvbany VFOAf gb "Choyvfure" svryq, nqqrq qnl gb
+               eryrnfr qngr (vasb sebz Nznmba)
+  Fglyr: {}=obyq, <>=vgnyvpf
 
-  Type: audio cassette / CD / audio download
-  Date: (1 October) 1992
-  Title: <Conversational Klingon>
-  Author: Marc Okrand, presented by Michael Dorn
-  Publisher: Audioworks, Simon & Schuster, London, ISBN 0-671-85316-3
-    (alternate ISBN 0-671-79739-5; Amazon audio download released 1 July 2004,
-    ISBN 074354269X)
-  Summary: This audio cassette is a brief introduction to Klingon, intended
-    for the tourist to the Empire. (Usually abbreviated <CK>.)
+  Glcr: nhqvb pnffrggr / PQ / nhqvb qbjaybnq
+  Qngr: (1 Bpgbore) 1992
+  Gvgyr: <Pbairefngvbany Xyvatba>
+  Nhgube: Znep Bxenaq, cerfragrq ol Zvpunry Qbea
+  Choyvfure: Nhqvbjbexf, Fvzba & Fpuhfgre, Ybaqba, VFOA 0-671-85316-3
+    (nygreangr VFOA 0-671-79739-5; Nznmba nhqvb qbjaybnq eryrnfrq 1 Whyl 2004,
+    VFOA 074354269K)
+  Fhzznel: Guvf nhqvb pnffrggr vf n oevrs vagebqhpgvba gb Xyvatba, vagraqrq
+    sbe gur gbhevfg gb gur Rzcver. (Hfhnyyl nooerivngrq <PX>.)
 
 ]]
 
   **********************************************************************
 ****                                                                  ****
-***                       CONVERSATIONAL KLINGON                       ***
-***                           By Marc Okrand                           ***
+***                       PBAIREFNGVBANY XYVATBA                       ***
+***                           Ol Znep Bxenaq                           ***
 ***                                                                    ***
 ***                                                                    ***
-***                 Recording, ©1992 Paramount Pictures                ***
-***                     48:10 Minutes Playing Time                     ***
+***                 Erpbeqvat, ©1992 Cnenzbhag Cvpgherf                ***
+***                     48:10 Zvahgrf Cynlvat Gvzr                     ***
 ***                                                                    ***
-***                         ISBN 0-671-85316-3                         ***
-***                     Simon & Schuster Audioworks                    ***
-***                              New York                              ***
+***                         VFOA 0-671-85316-3                         ***
+***                     Fvzba & Fpuhfgre Nhqvbjbexf                    ***
+***                              Arj Lbex                              ***
 ***                                                                    ***
 ***                                                                    ***
-***               Transcription, ©1997-1999 Zrajm C Akfohg             ***
-***                      (For private study only.)                     ***
+***               Genafpevcgvba, ©1997-1999 Menwz P Nxsbut             ***
+***                      (Sbe cevingr fghql bayl.)                     ***
 ****                                                                  ****
   **********************************************************************
 
-I have attempted to proof-read this text as thoroughly as possible, using
-both a spell-checking program and going over the text several times while
-listening to the tape. However I am aiming to constantly improve the
-quality of this transcription, and any comments, suggestions or questions
-are most welcome. There are no markings as to what was spoken by whom on
-the tape.
+V unir nggrzcgrq gb cebbs-ernq guvf grkg nf gubebhtuyl nf cbffvoyr, hfvat
+obgu n fcryy-purpxvat cebtenz naq tbvat bire gur grkg frireny gvzrf juvyr
+yvfgravat gb gur gncr. Ubjrire V nz nvzvat gb pbafgnagyl vzcebir gur
+dhnyvgl bs guvf genafpevcgvba, naq nal pbzzragf, fhttrfgvbaf be dhrfgvbaf
+ner zbfg jrypbzr. Gurer ner ab znexvatf nf gb jung jnf fcbxra ol jubz ba
+gur gncr.
 
-The following characters have special meaning in this transcript:
+Gur sbyybjvat punenpgref unir fcrpvny zrnavat va guvf genafpevcg:
 
-   {...} Indicates a void you are supposed to fill with a Klingon phrase.
-         (only used it the CK and PK transcriptions).
-   *     surrounds any *emphasised* word (normally written in italics,
-         also used for words that are transliterated rather than
-         translated, such as *bat'leth* or *d'k tagh*).
-   #     surrounds any #non-standard# or #incorrect# Klingon (used mostly
-         for dialects or examples illustrating non-standard phonology or
-         incorrect grammar).
-   <>    signifies a phrase in English, that also is presented in Klingon.
-   ""    are used for quotation marks. Usually there is a describing quote
-         from the main text, when no direct translation is available in
-         that source.
-   {}    surrounds all Klingon words and phrases (normally written in
-         boldface).
-   [[.]] surrounds my own thoughts or opinions, or a general comment about
-         something in the source (disturbing sound effect on the tapes,
-         grammatical error, wierd translation, whatever). Most often this
-         comment is a simple source reference however.
-   ¿?    surrounds phrases or words with uncertain spelling, or otherwise
-         doubtful entries (mostly names spoken on the tapes, whose
-         spelling I have been unable to confirm).
+   {...} Vaqvpngrf n ibvq lbh ner fhccbfrq gb svyy jvgu n Xyvatba cuenfr.
+         (bayl hfrq vg gur PX naq CX genafpevcgvbaf).
+   *     fheebhaqf nal *rzcunfvfrq* jbeq (abeznyyl jevggra va vgnyvpf,
+         nyfb hfrq sbe jbeqf gung ner genafyvgrengrq engure guna
+         genafyngrq, fhpu nf *ong'yrgu* be *q'x gntu*).
+   #     fheebhaqf nal #aba-fgnaqneq# be #vapbeerpg# Xyvatba (hfrq zbfgyl
+         sbe qvnyrpgf be rknzcyrf vyyhfgengvat aba-fgnaqneq cubabybtl be
+         vapbeerpg tenzzne).
+   <>    fvtavsvrf n cuenfr va Ratyvfu, gung nyfb vf cerfragrq va Xyvatba.
+   ""    ner hfrq sbe dhbgngvba znexf. Hfhnyyl gurer vf n qrfpevovat dhbgr
+         sebz gur znva grkg, jura ab qverpg genafyngvba vf ninvynoyr va
+         gung fbhepr.
+   {}    fheebhaqf nyy Xyvatba jbeqf naq cuenfrf (abeznyyl jevggra va
+         obyqsnpr).
+   [[.]] fheebhaqf zl bja gubhtugf be bcvavbaf, be n trareny pbzzrag nobhg
+         fbzrguvat va gur fbhepr (qvfgheovat fbhaq rssrpg ba gur gncrf,
+         tenzzngvpny reebe, jvreq genafyngvba, jungrire). Zbfg bsgra guvf
+         pbzzrag vf n fvzcyr fbhepr ersrerapr ubjrire.
+   ¿?    fheebhaqf cuenfrf be jbeqf jvgu hapregnva fcryyvat, be bgurejvfr
+         qbhogshy ragevrf (zbfgyl anzrf fcbxra ba gur gncrf, jubfr
+         fcryyvat V unir orra hanoyr gb pbasvez).
 
-Thanks for contributions go to:
-   Markus Persson, Uppsala, Sweden. (Some suggestions and corrections.)
+Gunaxf sbe pbagevohgvbaf tb gb:
+   Znexhf Creffba, Hccfnyn, Fjrqra. (Fbzr fhttrfgvbaf naq pbeerpgvbaf.)
 
-/Zrajm C Akfohg
+/Menwz P Nxsbut
 
 
    ==========================================
-    SIDE ONE: [[24:50 Minutes Playing Time]]
+    FVQR BAR: [[24:50 Zvahgrf Cynlvat Gvzr]]
    ==========================================
 
-{tujqu'choH QuQ.}
-   [[<The engine is overheating.> (TKD p.170)]]
+{ghwdh'pubU DhD.}
+   [[<Gur ratvar vf bireurngvat.> (GXQ c.170)]]
 
-{nughoS jagh.}
-   [[<The enemy is approaching.>]]
+{ahtubF wntu.}
+   [[<Gur rarzl vf nccebnpuvat.>]]
 
-{chay' jura'?}
-   [[<What are your orders?> (TKD p.170)]]
+{punl' when'?}
+   [[<Jung ner lbhe beqref?> (GXQ c.170)]]
 
-{Qu'vatlh!}
+{Dh'ingyu!}
    [[<#*@!!>]]
 
-{batlh maHegh.}
-   [[<We will die with honor.>]]
-
-{cha yIghuS!}
-   [[<Get the torpedoes ready.> (ST1)]]
-
-{So'wI' yIchu'Ha'!}
-   [[<Deactivate the cloaking device!> (ST3)]]
-
-{baH!}
-   [[<Fire!> (ST1, ST3, TKD 7.1, p.72)]]
-
-{bIjeghbe'chugh vaj bIHegh.}
-   [[<Surrender or die.> (TKD p.170)]]
-
-{tlhIngan maH.}
-   [[<We are Klingons!>]]
-
-Until recently members of the Federation did not know much about the
-Klingon language beyond how it was used during battles. After all it was
-not all that long ago that hostilities between the Klingon Empire and the
-United Federation of Planets ceased. Although you would think that an
-interchange of ideas, culture and traditions would have started right
-away, Terrans in particular were at first a little reluctant to visit
-Klingon planets. But as news spread about the stunning natural settings,
-and truly fascinating customs, tourism and trade have begun to boom. The
-Klingon Empire has become such an important player in intergalactic
-commerce that Klingon will soon fulfill the language requirement at a
-number of Federation universities. Although linguists have been studying
-Klingon for some time, no-one has prepared a course specifically for
-tourists planning a visit to the Klingon Empire.
-
-This tape should begin to fill that void. By listening and repeating the
-Klingon phrases you hear, you will quickly learn what you need to know to
-get by on any visit to the Empire. Correct pronunciation of the words,
-elementary grammar and some useful expressions. Also, since language is
-the key to any culture you will begin to become familiar with the richness
-of Klingon traditions and believes. This course is a practical one, you
-will be exposed to everyday Klingon words, and phrases, that travelers
-find most useful. This is only an introduction, but if you apply yourself,
-you will be well prepared for many adventures.
-
-As you practise speaking, remember, speak Klingon *boldly*, do not be meek
-or hesitant, this could be interpreted as a sign of weakness, a less than
-admirable trait among Klingons. Also, some of the sounds are difficult to
-tell apart if you do not speak up. A final word of warning, expectoration,
-or spitting, is a common side-effect of speaking Klingon. Until you are
-used to it, keep a napkin or hankerchief nearby.
-
-Now, <Are you ready to study Klingon?> {tlhIngan Hol DaHaDrup'a'.}
-
-<Good> {maj.}
-
-<Pay attention!> and <Concentrate!> {yIqIm. yIbuS.}
-
-<Success!> {Qapla'.}
-
-Let us start with pronunciation. Most Klingon sounds will be easy for you
-to say, they do not differ much from Federation Standard. On the other
-hand a few are a little tricky, to learns these sounds, we will study some
-offensive Klingon words. Keep in mind that Klingon cursing is considered a
-fine art, a highly prized verbal skill. Those who have gained a mastery of
-this segment of Klingon vocabulary are greatly admired. At this point, do
-not concern yourself with the exact translations of these words. If you
-spend time with Klingons you will hear them often enough and context will
-make the meanings quite clear. For now, just concentrate on pronuncing
-them correctly.
-
-Okay, here's our first word. This is something you might hear someone say
-in moments of extreme anger:
-   {Qu'vatlh}
-
-Be concerned if you hear it, but say it correctly if you say it. The word
-begins with the common Klingon sound {Q}. To make this sound, put the back
-of your tounge as far back into your mouth as you can, then force the air
-up harshly, as if you're trying to dislodge a piece of food. Listen:
-   {Q}, {Q}, {Q}.
-
-Now say it along with me:
-   {Q}, {Q}, {Q}.
-
-And now listen to the word again:
-   {Qu'vatlh}
-
-Did you hear the sounds cut off abruptly in the middle of the word? The
-correct pronounciation is {Qu'vatlh}, not {#Quvatlh#}. This abrupt cut-off
-is a *very common* feature of Klingon, you'll hear it *a lot*. Now here's
-the word, one more time, listen particularly to the last sound in the
-word.
-   {Qu'vatlh}
-
-To make this {tlh} sound say a "t" and at the same time whisper, loudly,
-but still just whisper, an "l". Listen:
-   {tlh}, {tlh}, {tlh}.
-
-Now try it along with me:
-   {tlh}, {tlh}, {tlh}.
-
-Do you feel the sides of your tounge going down as you say the sound? --
-You should. Now you're ready to say the full word. Repeat it after you
-hear it the second time:
-   {Qu'vatlh}
-   {Qu'vatlh}
+{ongyu znUrtu.}
+   [[<Jr jvyy qvr jvgu ubabe.>]]
+
+{pun lVtuhF!}
+   [[<Trg gur gbecrqbrf ernql.> (FG1)]]
+
+{Fb'jV' lVpuh'Un'!}
+   [[<Qrnpgvingr gur pybnxvat qrivpr!> (FG3)]]
+
+{onU!}
+   [[<Sver!> (FG1, FG3, GXQ 7.1, c.72)]]
+
+{oVwrtuor'puhtu inw oVUrtu.}
+   [[<Fheeraqre be qvr.> (GXQ c.170)]]
+
+{gyuVatna znU.}
+   [[<Jr ner Xyvatbaf!>]]
+
+Hagvy erpragyl zrzoref bs gur Srqrengvba qvq abg xabj zhpu nobhg gur
+Xyvatba ynathntr orlbaq ubj vg jnf hfrq qhevat onggyrf. Nsgre nyy vg jnf
+abg nyy gung ybat ntb gung ubfgvyvgvrf orgjrra gur Xyvatba Rzcver naq gur
+Havgrq Srqrengvba bs Cynargf prnfrq. Nygubhtu lbh jbhyq guvax gung na
+vagrepunatr bs vqrnf, phygher naq genqvgvbaf jbhyq unir fgnegrq evtug
+njnl, Greenaf va cnegvphyne jrer ng svefg n yvggyr eryhpgnag gb ivfvg
+Xyvatba cynargf. Ohg nf arjf fcernq nobhg gur fghaavat angheny frggvatf,
+naq gehyl snfpvangvat phfgbzf, gbhevfz naq genqr unir ortha gb obbz. Gur
+Xyvatba Rzcver unf orpbzr fhpu na vzcbegnag cynlre va vagretnynpgvp
+pbzzrepr gung Xyvatba jvyy fbba shysvyy gur ynathntr erdhverzrag ng n
+ahzore bs Srqrengvba havirefvgvrf. Nygubhtu yvathvfgf unir orra fghqlvat
+Xyvatba sbe fbzr gvzr, ab-bar unf cercnerq n pbhefr fcrpvsvpnyyl sbe
+gbhevfgf cynaavat n ivfvg gb gur Xyvatba Rzcver.
+
+Guvf gncr fubhyq ortva gb svyy gung ibvq. Ol yvfgravat naq ercrngvat gur
+Xyvatba cuenfrf lbh urne, lbh jvyy dhvpxyl yrnea jung lbh arrq gb xabj gb
+trg ol ba nal ivfvg gb gur Rzcver. Pbeerpg cebahapvngvba bs gur jbeqf,
+ryrzragnel tenzzne naq fbzr hfrshy rkcerffvbaf. Nyfb, fvapr ynathntr vf
+gur xrl gb nal phygher lbh jvyy ortva gb orpbzr snzvyvne jvgu gur evpuarff
+bs Xyvatba genqvgvbaf naq oryvrirf. Guvf pbhefr vf n cenpgvpny bar, lbh
+jvyy or rkcbfrq gb rirelqnl Xyvatba jbeqf, naq cuenfrf, gung geniryref
+svaq zbfg hfrshy. Guvf vf bayl na vagebqhpgvba, ohg vs lbh nccyl lbhefrys,
+lbh jvyy or jryy cercnerq sbe znal nqiragherf.
+
+Nf lbh cenpgvfr fcrnxvat, erzrzore, fcrnx Xyvatba *obyqyl*, qb abg or zrrx
+be urfvgnag, guvf pbhyq or vagrecergrq nf n fvta bs jrnxarff, n yrff guna
+nqzvenoyr genvg nzbat Xyvatbaf. Nyfb, fbzr bs gur fbhaqf ner qvssvphyg gb
+gryy ncneg vs lbh qb abg fcrnx hc. N svany jbeq bs jneavat, rkcrpgbengvba,
+be fcvggvat, vf n pbzzba fvqr-rssrpg bs fcrnxvat Xyvatba. Hagvy lbh ner
+hfrq gb vg, xrrc n ancxva be unaxrepuvrs arneol.
+
+Abj, <Ner lbh ernql gb fghql Xyvatba?> {gyuVatna Uby QnUnQehc'n'.}
+
+<Tbbq> {znw.}
+
+<Cnl nggragvba!> naq <Pbapragengr!> {lVdVz. lVohF.}
+
+<Fhpprff!> {Dncyn'.}
+
+Yrg hf fgneg jvgu cebahapvngvba. Zbfg Xyvatba fbhaqf jvyy or rnfl sbe lbh
+gb fnl, gurl qb abg qvssre zhpu sebz Srqrengvba Fgnaqneq. Ba gur bgure
+unaq n srj ner n yvggyr gevpxl, gb yrneaf gurfr fbhaqf, jr jvyy fghql fbzr
+bssrafvir Xyvatba jbeqf. Xrrc va zvaq gung Xyvatba phefvat vf pbafvqrerq n
+svar neg, n uvtuyl cevmrq ireony fxvyy. Gubfr jub unir tnvarq n znfgrel bs
+guvf frtzrag bs Xyvatba ibpnohynel ner terngyl nqzverq. Ng guvf cbvag, qb
+abg pbaprea lbhefrys jvgu gur rknpg genafyngvbaf bs gurfr jbeqf. Vs lbh
+fcraq gvzr jvgu Xyvatbaf lbh jvyy urne gurz bsgra rabhtu naq pbagrkg jvyy
+znxr gur zrnavatf dhvgr pyrne. Sbe abj, whfg pbapragengr ba cebahapvat
+gurz pbeerpgyl.
+
+Bxnl, urer'f bhe svefg jbeq. Guvf vf fbzrguvat lbh zvtug urne fbzrbar fnl
+va zbzragf bs rkgerzr natre:
+   {Dh'ingyu}
+
+Or pbaprearq vs lbh urne vg, ohg fnl vg pbeerpgyl vs lbh fnl vg. Gur jbeq
+ortvaf jvgu gur pbzzba Xyvatba fbhaq {D}. Gb znxr guvf fbhaq, chg gur onpx
+bs lbhe gbhatr nf sne onpx vagb lbhe zbhgu nf lbh pna, gura sbepr gur nve
+hc unefuyl, nf vs lbh'er gelvat gb qvfybqtr n cvrpr bs sbbq. Yvfgra:
+   {D}, {D}, {D}.
+
+Abj fnl vg nybat jvgu zr:
+   {D}, {D}, {D}.
+
+Naq abj yvfgra gb gur jbeq ntnva:
+   {Dh'ingyu}
+
+Qvq lbh urne gur fbhaqf phg bss noehcgyl va gur zvqqyr bs gur jbeq? Gur
+pbeerpg cebabhapvngvba vf {Dh'ingyu}, abg {#Dhingyu#}. Guvf noehcg phg-bss
+vf n *irel pbzzba* srngher bs Xyvatba, lbh'yy urne vg *n ybg*. Abj urer'f
+gur jbeq, bar zber gvzr, yvfgra cnegvphyneyl gb gur ynfg fbhaq va gur
+jbeq.
+   {Dh'ingyu}
+
+Gb znxr guvf {gyu} fbhaq fnl n "g" naq ng gur fnzr gvzr juvfcre, ybhqyl,
+ohg fgvyy whfg juvfcre, na "y". Yvfgra:
+   {gyu}, {gyu}, {gyu}.
+
+Abj gel vg nybat jvgu zr:
+   {gyu}, {gyu}, {gyu}.
+
+Qb lbh srry gur fvqrf bs lbhe gbhatr tbvat qbja nf lbh fnl gur fbhaq? --
+Lbh fubhyq. Abj lbh'er ernql gb fnl gur shyy jbeq. Ercrng vg nsgre lbh
+urne vg gur frpbaq gvzr:
+   {Dh'ingyu}
+   {Dh'ingyu}
    {...}
 
-This next word is something one Klingon would call another, if they
-weren't on the best of terms.
-   {toDSaH}
+Guvf arkg jbeq vf fbzrguvat bar Xyvatba jbhyq pnyy nabgure, vs gurl
+jrera'g ba gur orfg bs grezf.
+   {gbQFnU}
 
-The sound at the end of the first syllable of this word, {toD}, is {D}. To
-make this sound, point the tip of your tounge directly upward, and touch
-the hard part of the roof of your mouth, and then do the same thing you
-would do to make a "d" sound. Do it along with me:
-   {D}, {D}, {D}
+Gur fbhaq ng gur raq bs gur svefg flyynoyr bs guvf jbeq, {gbQ}, vf {Q}. Gb
+znxr guvf fbhaq, cbvag gur gvc bs lbhe gbhatr qverpgyl hcjneq, naq gbhpu
+gur uneq cneg bs gur ebbs bs lbhe zbhgu, naq gura qb gur fnzr guvat lbh
+jbhyq qb gb znxr n "q" fbhaq. Qb vg nybat jvgu zr:
+   {Q}, {Q}, {Q}
 
-Now listen to the word again, focusing on the second syllable:
-   {toDSaH}
+Abj yvfgra gb gur jbeq ntnva, sbphfvat ba gur frpbaq flyynoyr:
+   {gbQFnU}
 
-The sound at the beginning of the second syllable, {SaH}, is {S}. It's not
-quite either the "s" or the "sh" sounds you're familiar with. For the
-Klingon {S}, put your tounge in the same place you did to make the {D}
-sound, and say it with me:
-   {S}, {S}, {S}.
+Gur fbhaq ng gur ortvaavat bs gur frpbaq flyynoyr, {FnU}, vf {F}. Vg'f abg
+dhvgr rvgure gur "f" be gur "fu" fbhaqf lbh'er snzvyvne jvgu. Sbe gur
+Xyvatba {F}, chg lbhe gbhatr va gur fnzr cynpr lbh qvq gb znxr gur {Q}
+fbhaq, naq fnl vg jvgu zr:
+   {F}, {F}, {F}.
 
-Here's the word, one more time, listen to the very end.
-   {toDSaH}
+Urer'f gur jbeq, bar zber gvzr, yvfgra gb gur irel raq.
+   {gbQFnU}
 
-The last sound in the word is {H}, this is the same as the sound at the
-end of the name of the ancient Terran composer "Bach". You make it the
-same way you'd make a "k" sound, but force air out of your mouth at the
-same time. Say it along with me:
-   {H}, {H}, {H}.
+Gur ynfg fbhaq va gur jbeq vf {U}, guvf vf gur fnzr nf gur fbhaq ng gur
+raq bs gur anzr bs gur napvrag Greena pbzcbfre "Onpu". Lbh znxr vg gur
+fnzr jnl lbh'q znxr n "x" fbhaq, ohg sbepr nve bhg bs lbhe zbhgu ng gur
+fnzr gvzr. Fnl vg nybat jvgu zr:
+   {U}, {U}, {U}.
 
-Now you can say the whole word. Repeat it after you hear it the second
-time.
-   {toDSaH}
-   {toDSaH}
+Abj lbh pna fnl gur jubyr jbeq. Ercrng vg nsgre lbh urne vg gur frpbaq
+gvzr.
+   {gbQFnU}
+   {gbQFnU}
    {...}
 
-Here's another word with strong force. A Klingon might say it after
-receiving an unsettling communiqué. It's a lot stronger that the Terran
-"Darn it!"
-   {ghuy'cha'}
+Urer'f nabgure jbeq jvgu fgebat sbepr. N Xyvatba zvtug fnl vg nsgre
+erprvivat na hafrggyvat pbzzhavdhé. Vg'f n ybg fgebatre gung gur Greena
+"Qnea vg!"
+   {tuhl'pun'}
 
-The first sound of the word is {gh}. It's the same as the last sound of
-{toDSaH}, but hum while you say it. Say it with me:
-   {gh}, {gh}, {gh}.
+Gur svefg fbhaq bs gur jbeq vf {tu}. Vg'f gur fnzr nf gur ynfg fbhaq bs
+{gbQFnU}, ohg uhz juvyr lbh fnl vg. Fnl vg jvgu zr:
+   {tu}, {tu}, {tu}.
 
-This word also has that abrupt cut-off of sound that you heard in
-{Qu'vatlh}, but it has it at the end as well. Listen:
-   {ghuy'cha'}.
+Guvf jbeq nyfb unf gung noehcg phg-bss bs fbhaq gung lbh urneq va
+{Dh'ingyu}, ohg vg unf vg ng gur raq nf jryy. Yvfgra:
+   {tuhl'pun'}.
 
-The correct pronounciation of this word is {ghuy'cha'}, not {#ghuycha#}.
-Sometimes the abrupt cutting off of the sound is the only way to
-distinguish one word from another, listen to these two words:
-   {tI} -- {tI'}
+Gur pbeerpg cebabhapvngvba bs guvf jbeq vf {tuhl'pun'}, abg {#tuhlpun#}.
+Fbzrgvzrf gur noehcg phggvat bss bs gur fbhaq vf gur bayl jnl gb
+qvfgvathvfu bar jbeq sebz nabgure, yvfgra gb gurfr gjb jbeqf:
+   {gV} -- {gV'}
 
-The first word means <vegetation>, the second means <to repair>. Listen
-again:
-   {tI} -- {tI'}
+Gur svefg jbeq zrnaf <irtrgngvba>, gur frpbaq zrnaf <gb ercnve>. Yvfgra
+ntnva:
+   {gV} -- {gV'}
 
-Hear the difference? Now you try it. Repeat after me:
-   {tI} -- {tI'}
+Urne gur qvssrerapr? Abj lbh gel vg. Ercrng nsgre zr:
+   {gV} -- {gV'}
    {...}
 
-Good. Now you can say the Klingon curse. Once again, repeat it after you
-hear it the second time:
-   {ghuy'cha'}
-   {ghuy'cha'}
+Tbbq. Abj lbh pna fnl gur Xyvatba phefr. Bapr ntnva, ercrng vg nsgre lbh
+urne vg gur frpbaq gvzr:
+   {tuhl'pun'}
+   {tuhl'pun'}
 
-If you call someone this next word, stand back. This is *a classic*
-insult:
-   {taHqeq}
+Vs lbh pnyy fbzrbar guvf arkg jbeq, fgnaq onpx. Guvf vf *n pynffvp*
+vafhyg:
+   {gnUdrd}
 
-There's a new sound at both the beginning and end of the second syllable
-{qeq}, be careful, this is not the Federation Standard "k" sound. You make
-it like a "k" but as you did for {Q}, shove the back of your tounge as far
-back into your mouth as you can. Listen:
-   {q}, {q}, {q}.
+Gurer'f n arj fbhaq ng obgu gur ortvaavat naq raq bs gur frpbaq flyynoyr
+{drd}, or pnershy, guvf vf abg gur Srqrengvba Fgnaqneq "x" fbhaq. Lbh znxr
+vg yvxr n "x" ohg nf lbh qvq sbe {D}, fubir gur onpx bs lbhe gbhatr nf sne
+onpx vagb lbhe zbhgu nf lbh pna. Yvfgra:
+   {d}, {d}, {d}.
 
-Now say it along with me:
-   {q}, {q}, {q}.
+Abj fnl vg nybat jvgu zr:
+   {d}, {d}, {d}.
 
-Now repeat the whole word, after you hear it the second time.
-   {taHqeq}
-   {taHqeq}
+Abj ercrng gur jubyr jbeq, nsgre lbh urne vg gur frpbaq gvzr.
+   {gnUdrd}
+   {gnUdrd}
    {...}
 
-<Good.> {maj.}
+<Tbbq.> {znw.}
 
-Now you have learned to pronounce the difficult Klingon sounds, and you
-have also been introduced to the highly regarded custom of Klingon
-cursing. You probably need a rest. This might be a good time to replenish
-your napkin supply. Let us take a <short break>, a {lenHom}.
+Abj lbh unir yrnearq gb cebabhapr gur qvssvphyg Xyvatba fbhaqf, naq lbh
+unir nyfb orra vagebqhprq gb gur uvtuyl ertneqrq phfgbz bs Xyvatba
+phefvat. Lbh cebonoyl arrq n erfg. Guvf zvtug or n tbbq gvzr gb ercyravfu
+lbhe ancxva fhccyl. Yrg hf gnxr n <fubeg oernx>, n {yraUbz}.
 
-[[# mark #]]
+[[# znex #]]
 
-<Start studying again!> {yIHaDqa'.}
+<Fgneg fghqlvat ntnva!> {lVUnQdn'.}
 
-Before getting into even elementary grammar, you should learn some basic
-everyday expressions, so that you can start talking right away. First,
-here are some really simple, but important words. Repeat each one after
-you hear it the second time. Okay? Here we go:
+Orsber trggvat vagb rira ryrzragnel tenzzne, lbh fubhyq yrnea fbzr onfvp
+rirelqnl rkcerffvbaf, fb gung lbh pna fgneg gnyxvat evtug njnl. Svefg,
+urer ner fbzr ernyyl fvzcyr, ohg vzcbegnag jbeqf. Ercrng rnpu bar nsgre
+lbh urne vg gur frpbaq gvzr. Bxnl? Urer jr tb:
 
-<Yes.>
-   {HIja'.}
-   {HIja'.}
+<Lrf.>
+   {UVwn'.}
+   {UVwn'.}
    {...}
 
-<No.>
-   {ghobe'.}
-   {ghobe'.}
+<Ab.>
+   {tubor'.}
+   {tubor'.}
    {...}
 
-<Okay.> in the sense of <Okay, I'll do it.>
-   {lu'.}
-   {lu'.}
+<Bxnl.> va gur frafr bs <Bxnl, V'yy qb vg.>
+   {yh'.}
+   {yh'.}
    {...}
 
-Now, for some phrases. Remember, the Klingon culture is a very direct one and
-most of the time the social niceties of Terrans are considered just
-superfluous. Unlike other peoples, Klingons do not use everyday expressions
-such as: <Please.> <Excuse me.> <Thank you.> and alike. In dealing with
-Klingons, just state your business, no more, and no less. This is not
-considered impolite or crude. The directness of Klingon interactions extends to
-their greetings, there is *only one*:
-   {nuqneH.}
-   {nuqneH.}
+Abj, sbe fbzr cuenfrf. Erzrzore, gur Xyvatba phygher vf n irel qverpg bar naq
+zbfg bs gur gvzr gur fbpvny avprgvrf bs Greenaf ner pbafvqrerq whfg
+fhcresyhbhf. Hayvxr bgure crbcyrf, Xyvatbaf qb abg hfr rirelqnl rkcerffvbaf
+fhpu nf: <Cyrnfr.> <Rkphfr zr.> <Gunax lbh.> naq nyvxr. Va qrnyvat jvgu
+Xyvatbaf, whfg fgngr lbhe ohfvarff, ab zber, naq ab yrff. Guvf vf abg
+pbafvqrerq vzcbyvgr be pehqr. Gur qverpgarff bs Xyvatba vagrenpgvbaf rkgraqf gb
+gurve terrgvatf, gurer vf *bayl bar*:
+   {ahdarU.}
+   {ahdarU.}
    {...}
 
-Literally this means <What do you want?> To Terrans this may seem a tactless
-way to begin a conversation, but among Klingons it is considered quite civil.
+Yvgrenyyl guvf zrnaf <Jung qb lbh jnag?> Gb Greenaf guvf znl frrz n gnpgyrff
+jnl gb ortva n pbairefngvba, ohg nzbat Xyvatbaf vg vf pbafvqrerq dhvgr pvivy.
 
-Enough of the formalities. Let's move on to simple questions. The word for
-<who?> is:
-   {'Iv.}
-   {'Iv.}
+Rabhtu bs gur sbeznyvgvrf. Yrg'f zbir ba gb fvzcyr dhrfgvbaf. Gur jbeq sbe
+<jub?> vf:
+   {'Vi.}
+   {'Vi.}
    {...}
 
-For example: <Who are you?>
-   {SoH 'Iv.}
-   {SoH 'Iv.}
+Sbe rknzcyr: <Jub ner lbh?>
+   {FbU 'Vi.}
+   {FbU 'Vi.}
    {...}
 
-Next: <What?>
-   {nuq.}
-   {nuq.}
+Arkg: <Jung?>
+   {ahd.}
+   {ahd.}
    {...}
 
-<What is this?>
-   {Dochvam nuq.}
-   {Dochvam nuq.}
+<Jung vf guvf?>
+   {Qbpuinz ahd.}
+   {Qbpuinz ahd.}
    {...}
 
-<Where?>
-   {nuqDaq.}
-   {nuqDaq.}
+<Jurer?>
+   {ahdQnd.}
+   {ahdQnd.}
    {...}
 
-<Where is the bathroom?>
-   {nuqDaq 'oH puchpa''e'.}
-   {nuqDaq 'oH puchpa''e'.}
+<Jurer vf gur onguebbz?>
+   {ahdQnd 'bU chpucn''r'.}
+   {ahdQnd 'bU chpucn''r'.}
    {...}
 
-<When?>
-   {ghorgh.}
-   {ghorgh.}
+<Jura?>
+   {tubetu.}
+   {tubetu.}
    {...}
 
-<When do we leave?>
-   {ghorgh mamej.}
-   {ghorgh mamej.}
+<Jura qb jr yrnir?>
+   {tubetu znzrw.}
+   {tubetu znzrw.}
    {...}
 
-<Why?>
-   {qatlh.}
-   {qatlh.}
+<Jul?>
+   {dngyu.}
+   {dngyu.}
    {...}
 
-<Why is he angry?>
-   {qatlh QeH.}
-   {qatlh QeH.}
+<Jul vf ur natel?>
+   {dngyu DrU.}
+   {dngyu DrU.}
    {...}
 
-<How many?> or <How much?>
-   {'ar.}
-   {'ar.}
+<Ubj znal?> be <Ubj zhpu?>
+   {'ne.}
+   {'ne.}
    {...}
 
-<How many guards are coming?>
-   {mughoS 'avwI' 'ar.}
-   {mughoS 'avwI' 'ar.}
+<Ubj znal thneqf ner pbzvat?>
+   {zhtubF 'nijV' 'ne.}
+   {zhtubF 'nijV' 'ne.}
    {...}
 
-<How much fuel do we have left?>
-   {nIn 'ar wIghaj.}
-   {nIn 'ar wIghaj.}
+<Ubj zhpu shry qb jr unir yrsg?>
+   {aVa 'ne jVtunw.}
+   {aVa 'ne jVtunw.}
    {...}
 
-Next, here are some phrases that you'll probably use a lot, so it's worth
-learning them well. First:
+Arkg, urer ner fbzr cuenfrf gung lbh'yy cebonoyl hfr n ybg, fb vg'f jbegu
+yrneavat gurz jryy. Svefg:
 
-<Do you speak Federation Standard?>
-   {DIvI' Hol Dajatlh'a'.}
-   {DIvI' Hol Dajatlh'a'.}
+<Qb lbh fcrnx Srqrengvba Fgnaqneq?>
+   {QViV' Uby Qnwngyu'n'.}
+   {QViV' Uby Qnwngyu'n'.}
    {...}
 
-<I don't speak Klingon.>
-   {tlhIngan Hol vIjatlhbe'.}
-   {tlhIngan Hol vIjatlhbe'.}
+<V qba'g fcrnx Xyvatba.>
+   {gyuVatna Uby iVwngyuor'.}
+   {gyuVatna Uby iVwngyuor'.}
    {...}
 
-<I understand.>
-   {jIyaj.}
-   {jIyaj.}
+<V haqrefgnaq.>
+   {wVlnw.}
+   {wVlnw.}
    {...}
 
-<I don't understand.>
-   {jIyajbe'.}
-   {jIyajbe'.}
+<V qba'g haqrefgnaq.>
+   {wVlnwor'.}
+   {wVlnwor'.}
    {...}
 
-Finally, just to get you going, a few common words, in pairs:
+Svanyyl, whfg gb trg lbh tbvat, n srj pbzzba jbeqf, va cnvef:
 
-<Big> -- <Small>
-   {tIn} -- {mach}
-   {tIn} -- {mach}
+<Ovt> -- <Fznyy>
+   {gVa} -- {znpu}
+   {gVa} -- {znpu}
    {...}
 
-<Early> -- <Late>
-   {'eq} -- {paS}
-   {'eq} -- {paS}
+<Rneyl> -- <Yngr>
+   {'rd} -- {cnF}
+   {'rd} -- {cnF}
    {...}
 
-<Near> -- <Far>
-   {Sum} -- {Hop}
-   {Sum} -- {Hop}
+<Arne> -- <Sne>
+   {Fhz} -- {Ubc}
+   {Fhz} -- {Ubc}
    {...}
 
-<Hot> -- <Cold>
-   {tuj} -- {bIr}
-   {tuj} -- {bIr}
+<Ubg> -- <Pbyq>
+   {ghw} -- {oVe}
+   {ghw} -- {oVe}
    {...}
 
-<Cheap> -- <Expensive>
-   {qutlh} -- {wagh}
-   {qutlh} -- {wagh}
+<Purnc> -- <Rkcrafvir>
+   {dhgyu} -- {jntu}
+   {dhgyu} -- {jntu}
    {...}
 
-<Good> -- <Bad>
-   {maj} -- {qab}
-   {maj} -- {qab}
+<Tbbq> -- <Onq>
+   {znw} -- {dno}
+   {znw} -- {dno}
    {...}
 
-[[Transcriber's note: The opposite of {qab} is {QaQ} <be good>, *not* {maj}.
-The reason that {maj} to occurs here is, of course, its frequent use
-throughout the tape, but {maj} really means <good> only when expressing
-satisfaction. -- A bit like saying <I am satisfied.>]]
+[[Genafpevore'f abgr: Gur bccbfvgr bs {dno} vf {DnD} <or tbbq>, *abg* {znw}.
+Gur ernfba gung {znw} gb bpphef urer vf, bs pbhefr, vgf serdhrag hfr
+guebhtubhg gur gncr, ohg {znw} ernyyl zrnaf <tbbq> bayl jura rkcerffvat
+fngvfsnpgvba. -- N ovg yvxr fnlvat <V nz fngvfsvrq.>]]
 
-Okay, that will do for preliminaries. With what you have learned so far,
-and by pointing, you should be able to get by, but if you want to do more
-than just *get by* you will have to learn some grammar. So next, listen to
-this short dialogue. When it is over, we will review it, for pronoun use.
+Bxnl, gung jvyy qb sbe ceryvzvanevrf. Jvgu jung lbh unir yrnearq fb sne,
+naq ol cbvagvat, lbh fubhyq or noyr gb trg ol, ohg vs lbh jnag gb qb zber
+guna whfg *trg ol* lbh jvyy unir gb yrnea fbzr tenzzne. Fb arkg, yvfgra gb
+guvf fubeg qvnybthr. Jura vg vf bire, jr jvyy erivrj vg, sbe cebabha hfr.
 
-In this dialogue a Klingon warrior and a Terran tourist strike up a
-conversation. Now <Pay attention!> {yIqIm.} Listen for pronouns.
+Va guvf qvnybthr n Xyvatba jneevbe naq n Greena gbhevfg fgevxr hc n
+pbairefngvba. Abj <Cnl nggragvba!> {lVdVz.} Yvfgra sbe cebabhaf.
 
-<What do you want?>
-   {nuqneH.}
+<Jung qb lbh jnag?>
+   {ahdarU.}
 
-<Are you a Klingon?>
-   {tlhIngan SoH'a'.}
+<Ner lbh n Xyvatba?>
+   {gyuVatna FbU'n'.}
 
-<Yes.>
-   {HIja'.}
+<Lrf.>
+   {UVwn'.}
 
-<I'm a Terran.>
-   {tera'ngan jIH.}
+<V'z n Greena.>
+   {gren'atna wVU.}
 
-See? That was pretty short. You may have a little trouble pronouncing the
-word for <Terran>, listen to it again:
-   {tera'ngan}
-   {tera'ngan}
+Frr? Gung jnf cerggl fubeg. Lbh znl unir n yvggyr gebhoyr cebabhapvat gur
+jbeq sbe <Greena>, yvfgra gb vg ntnva:
+   {gren'atna}
+   {gren'atna}
    {...}
 
-The sound at the beginning of the second syllable, {ngan}, is the same as
-the sound that comes at the end of the word <thing> or <hang>. Let's
-practise it together:
-   {ng}, {ng}, {ng}.
+Gur fbhaq ng gur ortvaavat bs gur frpbaq flyynoyr, {atna}, vf gur fnzr nf
+gur fbhaq gung pbzrf ng gur raq bs gur jbeq <guvat> be <unat>. Yrg'f
+cenpgvfr vg gbtrgure:
+   {at}, {at}, {at}.
 
-Listen once more:
-   {tera'ngan}
-   {tera'ngan}
+Yvfgra bapr zber:
+   {gren'atna}
+   {gren'atna}
 
-Now you say it:
-   {tera'ngan}
-   {tera'ngan}
+Abj lbh fnl vg:
+   {gren'atna}
+   {gren'atna}
    {...}
 
-Not bad! While listening to the conversation, were you able to pick out
-the pronouns? In Klingon there are eight of them:
+Abg onq! Juvyr yvfgravat gb gur pbairefngvba, jrer lbh noyr gb cvpx bhg
+gur cebabhaf? Va Xyvatba gurer ner rvtug bs gurz:
 
-<I>
-   {jIH}
-   {jIH}
+<V>
+   {wVU}
+   {wVU}
    {...}
 
-<You>
-   {SoH}
-   {SoH}
+<Lbh>
+   {FbU}
+   {FbU}
    {...}
 
-<He> or <she>
-   {ghaH}
-   {ghaH}
+<Ur> be <fur>
+   {tunU}
+   {tunU}
    {...}
 
-<It>
-   {'oH}
-   {'oH}
+<Vg>
+   {'bU}
+   {'bU}
    {...}
 
-<We>
-   {maH}
-   {maH}
+<Jr>
+   {znU}
+   {znU}
    {...}
 
-<All of you>
-   {tlhIH}
-   {tlhIH}
+<Nyy bs lbh>
+   {gyuVU}
+   {gyuVU}
    {...}
 
-<They> referring to beings:
-   {chaH}
-   {chaH}
+<Gurl> ersreevat gb orvatf:
+   {punU}
+   {punU}
    {...}
 
-And finally <they> referring to things:
-   {bIH}
-   {bIH}
+Naq svanyyl <gurl> ersreevat gb guvatf:
+   {oVU}
+   {oVU}
    {...}
 
-Okay. Now let's use some of the pronouns in sentences. Repeat each
-sentence after you hear it the second time.
+Bxnl. Abj yrg'f hfr fbzr bs gur cebabhaf va fragraprf. Ercrng rnpu
+fragrapr nsgre lbh urne vg gur frpbaq gvzr.
 
-<I am a Klingon.>
-   {tlhIngan jIH.}
-   {tlhIngan jIH.}
+<V nz n Xyvatba.>
+   {gyuVatna wVU.}
+   {gyuVatna wVU.}
    {...}
 
-<You are a Klingon.>
-   {tlhIngan SoH.}
-   {tlhIngan SoH.}
+<Lbh ner n Xyvatba.>
+   {gyuVatna FbU.}
+   {gyuVatna FbU.}
    {...}
 
-<He is a Terran.>
-   {tera'ngan ghaH.}
-   {tera'ngan ghaH.}
+<Ur vf n Greena.>
+   {gren'atna tunU.}
+   {gren'atna tunU.}
    {...}
 
-<She is a Terran.>
-   {tera'ngan ghaH.}
-   {tera'ngan ghaH.}
+<Fur vf n Greena.>
+   {gren'atna tunU.}
+   {gren'atna tunU.}
    {...}
 
-Notice that there was no difference in the way to say <he> and <she>.
+Abgvpr gung gurer jnf ab qvssrerapr va gur jnl gb fnl <ur> naq <fur>.
 
-<Good.> {maj.}
+<Tbbq.> {znw.}
 
-You may have noticed, that in each of the examples, the pronoun comes at
-the end. Some Terrans find this confusing, but for a Klingon the order is
-quite natural. Get used to it!
+Lbh znl unir abgvprq, gung va rnpu bs gur rknzcyrf, gur cebabha pbzrf ng
+gur raq. Fbzr Greenaf svaq guvf pbashfvat, ohg sbe n Xyvatba gur beqre vf
+dhvgr angheny. Trg hfrq gb vg!
 
-The full system of Klingon pronouns is quite complicated. There is another
-set used just to express states, or qualities, there are only four of
-these pronouns, and unlike the words you just learned, they come at the
-beginning of an expression.
+Gur shyy flfgrz bs Xyvatba cebabhaf vf dhvgr pbzcyvpngrq. Gurer vf nabgure
+frg hfrq whfg gb rkcerff fgngrf, be dhnyvgvrf, gurer ner bayl sbhe bs
+gurfr cebabhaf, naq hayvxr gur jbeqf lbh whfg yrnearq, gurl pbzr ng gur
+ortvaavat bs na rkcerffvba.
 
-These pronouns are:
+Gurfr cebabhaf ner:
 
-<I>
-   {jI-}
-   {jI-}
+<V>
+   {wV-}
+   {wV-}
    {...}
 
-<You>
-   {bI-}
-   {bI-}
+<Lbh>
+   {oV-}
+   {oV-}
    {...}
 
-<We>
-   {ma-}
-   {ma-}
+<Jr>
+   {zn-}
+   {zn-}
    {...}
 
-<All of you>
-   {Su-}
-   {Su-}
+<Nyy bs lbh>
+   {Fh-}
+   {Fh-}
    {...}
 
-For <he>, <she>, <it> and <they> say nothing at all. Now, let's put these
-pronouns into sentences:
+Sbe <ur>, <fur>, <vg> naq <gurl> fnl abguvat ng nyy. Abj, yrg'f chg gurfr
+cebabhaf vagb fragraprf:
 
-<I'm hungry.>
-   {jIghung.}
-   {jIghung.}
+<V'z uhatel.>
+   {wVtuhat.}
+   {wVtuhat.}
    {...}
 
-<You're right.>
-   {bIlugh.}
-   {bIlugh.}
+<Lbh'er evtug.>
+   {oVyhtu.}
+   {oVyhtu.}
    {...}
 
-<He is late.>
-   {paS.}
-   {paS.}
+<Ur vf yngr.>
+   {cnF.}
+   {cnF.}
    {...}
 
-The word for <late> is {paS}. Notice that nothing here's added to indicate
-<he>. To say <He is late.> just say {paS.}
+Gur jbeq sbe <yngr> vf {cnF}. Abgvpr gung abguvat urer'f nqqrq gb vaqvpngr
+<ur>. Gb fnl <Ur vf yngr.> whfg fnl {cnF.}
 
-<She is early.>
-   {'eq.}
-   {'eq.}
+<Fur vf rneyl.>
+   {'rd.}
+   {'rd.}
    {...}
 
-Again, the word for <early> is {'eq}, and there is no special pronoun
-added for <she>. This is also the case for <it> and for <they>.
+Ntnva, gur jbeq sbe <rneyl> vf {'rd}, naq gurer vf ab fcrpvny cebabha
+nqqrq sbe <fur>. Guvf vf nyfb gur pnfr sbe <vg> naq sbe <gurl>.
 
-<We're thirsty.>
-   {ma'oj.}
-   {ma'oj.}
+<Jr'er guvefgl.>
+   {zn'bw.}
+   {zn'bw.}
    {...}
 
-<All of you are boring.>
-   {SuDal.}
-   {SuDal.}
+<Nyy bs lbh ner obevat.>
+   {FhQny.}
+   {FhQny.}
    {...}
 
-<They're sloppy.>
-   {ghIH.}
-   {ghIH.}
+<Gurl'er fybccl.>
+   {tuVU.}
+   {tuVU.}
    {...}
 
-<Well done.> {majQa'.}
+<Jryy qbar.> {znwDn'.}
 
-Next, we will move on to more questions. As a tourist you will probably
-need to ask questions frequently. Be careful not to ask to many questions
-at once though. Klingons are suspicious by nature and they may begin to
-wonder about your motivations. To form a question whose answer is <yes> or
-<no>, just add {-'a'}.
+Arkg, jr jvyy zbir ba gb zber dhrfgvbaf. Nf n gbhevfg lbh jvyy cebonoyl
+arrq gb nfx dhrfgvbaf serdhragyl. Or pnershy abg gb nfx gb znal dhrfgvbaf
+ng bapr gubhtu. Xyvatbaf ner fhfcvpvbhf ol angher naq gurl znl ortva gb
+jbaqre nobhg lbhe zbgvingvbaf. Gb sbez n dhrfgvba jubfr nafjre vf <lrf> be
+<ab>, whfg nqq {-'n'}.
 
-In this dialogue a Terran tourist has just arrived on Kronos, or {Qo'noS},
-the home planet of the Klingon Empire. At the customs gate a guard is
-questioning him. <Pay attention!> {yIqIm.}
+Va guvf qvnybthr n Greena gbhevfg unf whfg neevirq ba Xebabf, be {Db'abF},
+gur ubzr cynarg bs gur Xyvatba Rzcver. Ng gur phfgbzf tngr n thneq vf
+dhrfgvbavat uvz. <Cnl nggragvba!> {lVdVz.}
 
-<Are you a Terran?>
-   {tera'ngan SoH'a'.}
+<Ner lbh n Greena?>
+   {gren'atna FbU'n'.}
 
-<Yes. I'm a Terran.>
-   {HIja'. tera'ngan jIH.}
+<Lrf. V'z n Greena.>
+   {UVwn'. gren'atna wVU.}
 
-<Are you vacationing on Kronos?>
-   {Qo'noSDaq bIghIQ'a'.}
+<Ner lbh inpngvbavat ba Xebabf?>
+   {Db'abFQnd oVtuVD'n'.}
 
-<Yes. I am vacationing on Kronos.>
-   {HIja'. Qo'noSDaq jIghIQ.}
+<Lrf. V nz inpngvbavat ba Xebabf.>
+   {UVwn'. Db'abFQnd wVtuVD.}
 
-<Do you know anyone here?>
-   {naDev vay' DaSov'a'.}
+<Qb lbh xabj nalbar urer?>
+   {anQri inl' QnFbi'n'.}
 
-<No. I don't know anyone here.>
-   {ghobe'. naDev vay' vISovbe'.}
+<Ab. V qba'g xabj nalbar urer.>
+   {tubor'. anQri inl' iVFbior'.}
 
-<Are you transporting tribbles?>
-   {yIHmey DIHIj'a'.}
+<Ner lbh genafcbegvat gevooyrf?>
+   {lVUzrl QVUVw'n'.}
 
-[[Transcriber's note: Sic! As far as I can hear Okrand is really saying
-{DIHIj'a'} <Are we transporting them?> though this really should be
-{DaHIj'a'.} <Are you transporting them?>.]]
+[[Genafpevore'f abgr: Fvp! Nf sne nf V pna urne Bxenaq vf ernyyl fnlvat
+{QVUVw'n'} <Ner jr genafcbegvat gurz?> gubhtu guvf ernyyl fubhyq or
+{QnUVw'n'.} <Ner lbh genafcbegvat gurz?>.]]
 
-<No. I'm not transporting tribbles.>
-   {ghobe'. yIHmey vIHIjbe'.}
+<Ab. V'z abg genafcbegvat gevooyrf.>
+   {tubor'. lVUzrl iVUVwor'.}
 
-It's okay to answer questions like these by simply saying <yes> {HIja'} or
-<no> {ghobe'} and nothing more. But don't answer any question unless
-you're sure you understand what it means. Dire consequences could result
-from an inappropriate response. If you don't understand a question, just
-say {nuqjatlh.} This is a very useful expression, it means <What did you
-say?> or <Huh?>. You try it. Repeat it after you hear it the second time:
-   {nuqjatlh.}
-   {nuqjatlh.}
+Vg'f bxnl gb nafjre dhrfgvbaf yvxr gurfr ol fvzcyl fnlvat <lrf> {UVwn'} be
+<ab> {tubor'} naq abguvat zber. Ohg qba'g nafjre nal dhrfgvba hayrff
+lbh'er fher lbh haqrefgnaq jung vg zrnaf. Qver pbafrdhraprf pbhyq erfhyg
+sebz na vanccebcevngr erfcbafr. Vs lbh qba'g haqrefgnaq n dhrfgvba, whfg
+fnl {ahdwngyu.} Guvf vf n irel hfrshy rkcerffvba, vg zrnaf <Jung qvq lbh
+fnl?> be <Uhu?>. Lbh gel vg. Ercrng vg nsgre lbh urne vg gur frpbaq gvzr:
+   {ahdwngyu.}
+   {ahdwngyu.}
    {...}
 
-That is close. You should probably practise saying this word, until you
-are comfortable with it, it is another one you will probably use quite a
-bit. Now <Relax!> {yIleS.}
+Gung vf pybfr. Lbh fubhyq cebonoyl cenpgvfr fnlvat guvf jbeq, hagvy lbh
+ner pbzsbegnoyr jvgu vg, vg vf nabgure bar lbh jvyy cebonoyl hfr dhvgr n
+ovg. Abj <Erynk!> {lVyrF.}
 
-<Stop relaxing!> {yIleSHa'.}
+<Fgbc erynkvat!> {lVyrFUn'.}
 
-We are moving on to numbers. As in Federation Standard the basic count in
-Klingon is one to ten. Long ago Klingons counted by threes, so the number
-after three was literally <three plus one>, for <seven> they would say
-<two threes plus one> and so on. Fortunately for us, over time, the system
-changed, probably due to interactions with other worlds and a desire to
-learn about advanced technology. In any event, counting should not be too
-hard for you. Ready? Here we go:
+Jr ner zbivat ba gb ahzoref. Nf va Srqrengvba Fgnaqneq gur onfvp pbhag va
+Xyvatba vf bar gb gra. Ybat ntb Xyvatbaf pbhagrq ol guerrf, fb gur ahzore
+nsgre guerr jnf yvgrenyyl <guerr cyhf bar>, sbe <frira> gurl jbhyq fnl
+<gjb guerrf cyhf bar> naq fb ba. Sbeghangryl sbe hf, bire gvzr, gur flfgrz
+punatrq, cebonoyl qhr gb vagrenpgvbaf jvgu bgure jbeyqf naq n qrfver gb
+yrnea nobhg nqinaprq grpuabybtl. Va nal rirag, pbhagvat fubhyq abg or gbb
+uneq sbe lbh. Ernql? Urer jr tb:
 
-<One>
-   {wa'}
-   {wa'}
+<Bar>
+   {jn'}
+   {jn'}
    {...}
 
-<Two>
-   {cha'}
-   {cha'}
+<Gjb>
+   {pun'}
+   {pun'}
    {...}
 
-<Three>
-   {wej}
-   {wej}
+<Guerr>
+   {jrw}
+   {jrw}
    {...}
 
-<Four>
-   {loS}
-   {loS}
+<Sbhe>
+   {ybF}
+   {ybF}
    {...}
 
-<Five>
-   {vagh}
-   {vagh}
+<Svir>
+   {intu}
+   {intu}
    {...}
 
-<Six>
-   {jav}
-   {jav}
+<Fvk>
+   {wni}
+   {wni}
    {...}
 
-<Seven>
-   {Soch}
-   {Soch}
+<Frira>
+   {Fbpu}
+   {Fbpu}
    {...}
 
-<Eight>
-   {chorgh}
-   {chorgh}
+<Rvtug>
+   {pubetu}
+   {pubetu}
    {...}
 
-<Nine>
-   {Hut}
-   {Hut}
+<Avar>
+   {Uhg}
+   {Uhg}
    {...}
 
-<Ten>
-   {wa'maH}
-   {wa'maH}
+<Gra>
+   {jn'znU}
+   {jn'znU}
    {...}
 
-Numbers, of course, are used to count things, and when there is more than
-one thing, there are plurals. There are three ways to make plurals in
-Klingon. First, to form the plural of a word like <Klingon>, just add
-{-pu'} to the word. The suffix {-pu'} is used only to form the plural of
-beings that can use language.
+Ahzoref, bs pbhefr, ner hfrq gb pbhag guvatf, naq jura gurer vf zber guna
+bar guvat, gurer ner cyhenyf. Gurer ner guerr jnlf gb znxr cyhenyf va
+Xyvatba. Svefg, gb sbez gur cyheny bs n jbeq yvxr <Xyvatba>, whfg nqq
+{-ch'} gb gur jbeq. Gur fhssvk {-ch'} vf hfrq bayl gb sbez gur cyheny bs
+orvatf gung pna hfr ynathntr.
 
-One <Klingon> is:
-   {tlhIngan}
+Bar <Xyvatba> vf:
+   {gyuVatna}
 
-Two or more <Klingons> are:
-   {tlhInganpu'}
+Gjb be zber <Xyvatbaf> ner:
+   {gyuVatnach'}
 
-A single <Terran> is:
-   {tera'ngan}
+N fvatyr <Greena> vf:
+   {gren'atna}
 
-Two or more are:
-   {tera'nganpu'}
+Gjb be zber ner:
+   {gren'atnach'}
 
-For body parts, use {-Du'}:
+Sbe obql cnegf, hfr {-Qh'}:
 
-A single hand is:
-   {ghop}
+N fvatyr unaq vf:
+   {tubc}
 
-More than one hand is:
-   {ghopDu'}
+Zber guna bar unaq vf:
+   {tubcQh'}
 
-To form the plural of something that neither speaks nor is a body part,
-use {-mey}.
+Gb sbez gur cyheny bs fbzrguvat gung arvgure fcrnxf abe vf n obql cneg,
+hfr {-zrl}.
 
-A single <phaser> is:
-   {pu'HIch}
+N fvatyr <cunfre> vf:
+   {ch'UVpu}
 
-More than one phaser is:
-   {pu'HIchmey}
+Zber guna bar cunfre vf:
+   {ch'UVpuzrl}
 
 
    ==========================================
-    SIDE TWO: [[23:20 Minutes Playing Time]]
+    FVQR GJB: [[23:20 Zvahgrf Cynlvat Gvzr]]
    ==========================================
 
-Now, we'll put the numbers and plurals together. Repeat each phrase after
-you hear it the second time. Let's count:
+Abj, jr'yy chg gur ahzoref naq cyhenyf gbtrgure. Ercrng rnpu cuenfr nsgre
+lbh urne vg gur frpbaq gvzr. Yrg'f pbhag:
 
-<One Klingon>
-   {wa' tlhIngan}
-   {wa' tlhIngan}
+<Bar Xyvatba>
+   {jn' gyuVatna}
+   {jn' gyuVatna}
    {...}
 
-<Two Klingons>
-   {cha' tlhInganpu'}
-   {cha' tlhInganpu'}
+<Gjb Xyvatbaf>
+   {pun' gyuVatnach'}
+   {pun' gyuVatnach'}
    {...}
 
-<Three *brave* Klingons>
-   {wej tlhInganpu' yoH}
-   {wej tlhInganpu' yoH}
+<Guerr *oenir* Xyvatbaf>
+   {jrw gyuVatnach' lbU}
+   {jrw gyuVatnach' lbU}
    {...}
 
-<Four phasers>
-   {loS pu'HIchmey}
-   {loS pu'HIchmey}
+<Sbhe cunfref>
+   {ybF ch'UVpuzrl}
+   {ybF ch'UVpuzrl}
    {...}
 
-<Five phasers>
-   {vagh pu'HIchmey}
-   {vagh pu'HIchmey}
+<Svir cunfref>
+   {intu ch'UVpuzrl}
+   {intu ch'UVpuzrl}
    {...}
 
-<Six *big* phasers>
-   {jav pu'HIchmey tIn}
-   {jav pu'HIchmey tIn}
+<Fvk *ovt* cunfref>
+   {wni ch'UVpuzrl gVa}
+   {wni ch'UVpuzrl gVa}
    {...}
 
-<Seven foreheads>
-   {Soch QuchDu'}
-   {Soch QuchDu'}
+<Frira sberurnqf>
+   {Fbpu DhpuQh'}
+   {Fbpu DhpuQh'}
    {...}
 
-<Eight *beautiful* foreheads>
-   {chorgh QuchDu' 'IH}
-   {chorgh QuchDu' 'IH}
+<Rvtug *ornhgvshy* sberurnqf>
+   {pubetu DhpuQh' 'VU}
+   {pubetu DhpuQh' 'VU}
    {...}
 
-<Nine tribbles>
-   {Hut yIHmey}
-   {Hut yIHmey}
+<Avar gevooyrf>
+   {Uhg lVUzrl}
+   {Uhg lVUzrl}
    {...}
 
-<Ten *useless* tribbles>
-   {wa'maH yIHmey lI'be'}
-   {wa'maH yIHmey lI'be'}
+<Gra *hfryrff* gevooyrf>
+   {jn'znU lVUzrl yV'or'}
+   {jn'znU lVUzrl yV'or'}
    {...}
 
-[[Transcriber's note: The TKD (p.50) explicitly notes that "[...] when used to
-modify the noun in this way, [a verb] can have no other suffix except the rover
-{-qu'} <emphatic>." Either this is an error, an exception to the rule, or a new
-rule. Go figure that out!]]
+[[Genafpevore'f abgr: Gur GXQ (c.50) rkcyvpvgyl abgrf gung "[...] jura hfrq gb
+zbqvsl gur abha va guvf jnl, [n ireo] pna unir ab bgure fhssvk rkprcg gur ebire
+{-dh'} <rzcungvp>." Rvgure guvf vf na reebe, na rkprcgvba gb gur ehyr, be n arj
+ehyr. Tb svther gung bhg!]]
 
-Sometimes you will need to use larger numbers. For multiples of <ten>,
-like <twenty>, <thirty> and so on, add {-maH}. For example <twenty> is
-<two> {cha'} plus {-maH}, {cha'maH}. For hundreds, add {-vatlh}. For
-example <five hundred> is <five> {vagh} plus hundred {-vatlh},
-{vaghvatlh}. For thousands, add {-SaD}. <Three thousand> is <three> {wej}
-plus <thousand> {-SaD}, {wejSaD}.
+Fbzrgvzrf lbh jvyy arrq gb hfr ynetre ahzoref. Sbe zhygvcyrf bs <gra>,
+yvxr <gjragl>, <guvegl> naq fb ba, nqq {-znU}. Sbe rknzcyr <gjragl> vf
+<gjb> {pun'} cyhf {-znU}, {pun'znU}. Sbe uhaqerqf, nqq {-ingyu}. Sbe
+rknzcyr <svir uhaqerq> vf <svir> {intu} cyhf uhaqerq {-ingyu},
+{intuingyu}. Sbe gubhfnaqf, nqq {-FnQ}. <Guerr gubhfnaq> vf <guerr> {jrw}
+cyhf <gubhfnaq> {-FnQ}, {jrwFnQ}.
 
-You try some. Repeat the large number after you hear it the second time:
+Lbh gel fbzr. Ercrng gur ynetr ahzore nsgre lbh urne vg gur frpbaq gvzr:
 
-<Forty>
-   {loSmaH}
-   {loSmaH}
+<Sbegl>
+   {ybFznU}
+   {ybFznU}
    {...}
 
-<Seven hundred>
-   {Sochvatlh}
-   {Sochvatlh}
+<Frira uhaqerq>
+   {Fbpuingyu}
+   {Fbpuingyu}
    {...}
 
-<Nine thousand>
-   {HutSaD}
-   {HutSaD}
+<Avar gubhfnaq>
+   {UhgFnQ}
+   {UhgFnQ}
    {...}
 
-Finally, the word for <zero>:
-   {pagh}
-   {pagh}
+Svanyyl, gur jbeq sbe <mreb>:
+   {cntu}
+   {cntu}
    {...}
 
-{maj.} Now you are ready for higher mathematics. You are also ready to
-tell time. Klingons have adopted the way most civilized planets in the
-Galaxy tell time, they have twenty-four hour days. <Zero hours> means
-midnight, <twelve hundred hours> means noon, <nineteen hundred hours>
-means seven p.m., and so on. Klingons pride themselves on punctuality, so
-it is important to be precise when referring to time. Though Klingons are
-sometimes inaccurate, they are *never* approximate.
+{znw.} Abj lbh ner ernql sbe uvture zngurzngvpf. Lbh ner nyfb ernql gb
+gryy gvzr. Xyvatbaf unir nqbcgrq gur jnl zbfg pvivyvmrq cynargf va gur
+Tnynkl gryy gvzr, gurl unir gjragl-sbhe ubhe qnlf. <Mreb ubhef> zrnaf
+zvqavtug, <gjryir uhaqerq ubhef> zrnaf abba, <avargrra uhaqerq ubhef>
+zrnaf frira c.z., naq fb ba. Xyvatbaf cevqr gurzfryirf ba chapghnyvgl, fb
+vg vf vzcbegnag gb or cerpvfr jura ersreevat gb gvzr. Gubhtu Xyvatbaf ner
+fbzrgvzrf vanpphengr, gurl ner *arire* nccebkvzngr.
 
-The word for <hour> in Klingon is {rep}. <Six hundred hours> or six
-o'clock in the morning is <six> {jav} plus <hundred> {-vatlh} plus {rep},
-altogether it's {javvatlh rep}.
+Gur jbeq sbe <ubhe> va Xyvatba vf {erc}. <Fvk uhaqerq ubhef> be fvk
+b'pybpx va gur zbeavat vf <fvk> {wni} cyhf <uhaqerq> {-ingyu} cyhf {erc},
+nygbtrgure vg'f {wniingyu erc}.
 
-Now, you repeat these time expressions, after you hear each one the second
-time:
+Abj, lbh ercrng gurfr gvzr rkcerffvbaf, nsgre lbh urne rnpu bar gur frpbaq
+gvzr:
 
-Noon or <twelve hundred hours>:
-   {cha'maH wa'vatlh rep}
-   {cha'maH wa'vatlh rep}
+Abba be <gjryir uhaqerq ubhef>:
+   {pun'znU jn'ingyu erc}
+   {pun'znU jn'ingyu erc}
    {...}
 
-[[Transcriber's note: {cha'maH wa'vatlh rep} is quite obviously wrong, as
-it means <twenty one hundred hours>, this was duely noted by (among
-others) Neal Schermerhorn in HolQeD 2:3 (page 14). The sentence should
-have been {wa'maH cha'vatlh rep}.]]
+[[Genafpevore'f abgr: {pun'znU jn'ingyu erc} vf dhvgr boivbhfyl jebat, nf
+vg zrnaf <gjragl bar uhaqerq ubhef>, guvf jnf qhryl abgrq ol (nzbat
+bguref) Arny Fpurezreubea va UbyDrQ 2:3 (cntr 14). Gur fragrapr fubhyq
+unir orra {jn'znU pun'ingyu erc}.]]
 
-Midnight or <zero hours>:
-   {pagh rep}
-   {pagh rep}
+Zvqavtug be <mreb ubhef>:
+   {cntu erc}
+   {cntu erc}
    {...}
 
-Seven p.m. or <nineteen hundred hours>
-   {wa'maH Hutvatlh rep}
-   {wa'maH Hutvatlh rep}
+Frira c.z. be <avargrra uhaqerq ubhef>
+   {jn'znU Uhgingyu erc}
+   {jn'znU Uhgingyu erc}
    {...}
 
-Although Klingons tell time the way most of the rest of the Galaxy does,
-the Klingon day really goes from dawn to dawn, rather than from midnight
-to midnight. You might think this could cause some confusion, but it is
-really comparable to when a Terran says something like, <thursday night,
-at three o'clock in the morning>. Bearing that in mind here are the words
-for <yesterday>, <today> and <tomorrow>:
+Nygubhtu Xyvatbaf gryy gvzr gur jnl zbfg bs gur erfg bs gur Tnynkl qbrf,
+gur Xyvatba qnl ernyyl tbrf sebz qnja gb qnja, engure guna sebz zvqavtug
+gb zvqavtug. Lbh zvtug guvax guvf pbhyq pnhfr fbzr pbashfvba, ohg vg vf
+ernyyl pbzcnenoyr gb jura n Greena fnlf fbzrguvat yvxr, <guhefqnl avtug,
+ng guerr b'pybpx va gur zbeavat>. Ornevat gung va zvaq urer ner gur jbeqf
+sbe <lrfgreqnl>, <gbqnl> naq <gbzbeebj>:
 
-<Yesterday>
-   {wa'Hu'}
-   {wa'Hu'}
+<Lrfgreqnl>
+   {jn'Uh'}
+   {jn'Uh'}
    {...}
 
-<Yesterday I was hungry.>
-   {wa'Hu' jIghung.}
-   {wa'Hu' jIghung.}
+<Lrfgreqnl V jnf uhatel.>
+   {jn'Uh' wVtuhat.}
+   {jn'Uh' wVtuhat.}
    {...}
 
-<Today>
-   {DaHjaj}
-   {DaHjaj}
+<Gbqnl>
+   {QnUwnw}
+   {QnUwnw}
    {...}
 
-<Today I am thirsty.>
-   {DaHjaj jI'oj.}
-   {DaHjaj jI'oj.}
+<Gbqnl V nz guvefgl.>
+   {QnUwnw wV'bw.}
+   {QnUwnw wV'bw.}
    {...}
 
-<Tomorrow>
-   {wa'leS}
-   {wa'leS}
+<Gbzbeebj>
+   {jn'yrF}
+   {jn'yrF}
    {...}
 
-<Tomorrow I'll be tired.>
-   {wa'leS jIDoy'.}
-   {wa'leS jIDoy'.}
+<Gbzbeebj V'yy or gverq.>
+   {jn'yrF wVQbl'.}
+   {jn'yrF wVQbl'.}
    {...}
 
-<Well done.> {majQa'.}
+<Jryy qbar.> {znwDn'.}
 
-Now, for a moment <You should relax!> {yIleS.}
+Abj, sbe n zbzrag <Lbh fubhyq erynk!> {lVyrF.}
 
-[[# mark #]]
+[[# znex #]]
 
-<Back to work!> {yIvumqa'.}
+<Onpx gb jbex!> {lVihzdn'.}
 
-When vistiting a Klingon planet the first thing you will want to do, once
-you have finish answering the guards questions, is rent a room. No matter
-where you stay the accommodations will be stark compared to what you are
-used to. Klingons are predisposed to rejecting anything whose sole
-function is physical comfort. They will, however, make some concessions
-for visitors. For example, your room will almost certainly be equipped
-with a bed, though it is likely to be made of the same material as the
-floor. Checking into your room is a painless procedure, as long as you
-have made reservations ahead of time. Simply identify yourself to the desk
-clerk. Here is a typical scene: {yIqIm.}
+Jura ivfgvgvat n Xyvatba cynarg gur svefg guvat lbh jvyy jnag gb qb, bapr
+lbh unir svavfu nafjrevat gur thneqf dhrfgvbaf, vf erag n ebbz. Ab znggre
+jurer lbh fgnl gur nppbzzbqngvbaf jvyy or fgnex pbzcnerq gb jung lbh ner
+hfrq gb. Xyvatbaf ner cerqvfcbfrq gb erwrpgvat nalguvat jubfr fbyr
+shapgvba vf culfvpny pbzsbeg. Gurl jvyy, ubjrire, znxr fbzr pbaprffvbaf
+sbe ivfvgbef. Sbe rknzcyr, lbhe ebbz jvyy nyzbfg pregnvayl or rdhvccrq
+jvgu n orq, gubhtu vg vf yvxryl gb or znqr bs gur fnzr zngrevny nf gur
+sybbe. Purpxvat vagb lbhe ebbz vf n cnvayrff cebprqher, nf ybat nf lbh
+unir znqr erfreingvbaf nurnq bs gvzr. Fvzcyl vqragvsl lbhefrys gb gur qrfx
+pyrex. Urer vf n glcvpny fprar: {lVdVz.}
 
-<What is your number, Terran?>
-   {nuq mI'lIj, tera'ngan.}
+<Jung vf lbhe ahzore, Greena?>
+   {ahd zV'yVw, gren'atna.}
 
-<I'm guest number forty-two.>
-   {meb loSmaH cha' jIH.}
+<V'z thrfg ahzore sbegl-gjb.>
+   {zro ybFznU pun' wVU.}
 
-<We're expecting you.>
-   {pIpIH.}
+<Jr'er rkcrpgvat lbh.>
+   {cVcVU.}
 
-<Your room is number twenty-three.>
-   {pa' cha'maH wej 'oH pa'lIj'e'.}
+<Lbhe ebbz vf ahzore gjragl-guerr.>
+   {cn' pun'znU jrw 'bU cn'yVw'r'.}
 
-<The bed is very hard.>
-   {letqu' QongDaq.}
+<Gur orq vf irel uneq.>
+   {yrgdh' DbatQnd.}
 
-<The room has no view.>
-   {pa'vo' pagh leghlu'.}
-   [[Lit. <Nothing is seen from the room.> TKD p.39]]
+<Gur ebbz unf ab ivrj.>
+   {cn'ib' cntu yrtuyh'.}
+   [[Yvg. <Abguvat vf frra sebz gur ebbz.> GXQ c.39]]
 
-<Check-out time is five a.m.>
-   {vagh rep bImejnIS.}
-   [[Lit. <You need to leave at five hours.>]]
+<Purpx-bhg gvzr vf svir n.z.>
+   {intu erc oVzrwaVF.}
+   [[Yvg. <Lbh arrq gb yrnir ng svir ubhef.>]]
 
-<Pay now!>
-   {DaH yIDIl.}
+<Cnl abj!>
+   {QnU lVQVy.}
 
-<Pick up your baggage and go to your room!>
-   {teplIj yIwoH 'ej pa'lIjDaq yIjaH.}
+<Cvpx hc lbhe onttntr naq tb gb lbhe ebbz!>
+   {grcyVw lVjbU 'rw cn'yVwQnd lVwnU.}
 
-In the hotel you will have to do everything yourself. Do not expect to
-find housekeeping or room service either, while this mey be a little
-inconvenient, it is also inexpensive. There is never any need to tip.
+Va gur ubgry lbh jvyy unir gb qb rirelguvat lbhefrys. Qb abg rkcrpg gb
+svaq ubhfrxrrcvat be ebbz freivpr rvgure, juvyr guvf zrl or n yvggyr
+vapbairavrag, vg vf nyfb varkcrafvir. Gurer vf arire nal arrq gb gvc.
 
-As accommodating as it is, you will not want to spend all of your time in
-your room. You might want to get out and go shopping. As you look into
-various stores you will soon discover that there is very little to buy
-except for food and weapons, and these for the most can not be taken out
-of the Empire. If somehow you find something you are permitted to buy,
-such as food you can eat right away, you will need to know how to ask only
-one question: <How much?> {'ar.}
+Nf nppbzzbqngvat nf vg vf, lbh jvyy abg jnag gb fcraq nyy bs lbhe gvzr va
+lbhe ebbz. Lbh zvtug jnag gb trg bhg naq tb fubccvat. Nf lbh ybbx vagb
+inevbhf fgberf lbh jvyy fbba qvfpbire gung gurer vf irel yvggyr gb ohl
+rkprcg sbe sbbq naq jrncbaf, naq gurfr sbe gur zbfg pna abg or gnxra bhg
+bs gur Rzcver. Vs fbzrubj lbh svaq fbzrguvat lbh ner crezvggrq gb ohl,
+fhpu nf sbbq lbh pna rng evtug njnl, lbh jvyy arrq gb xabj ubj gb nfx bayl
+bar dhrfgvba: <Ubj zhpu?> {'ne.}
 
-The answer to this question will be the number of credits needed to
-purchase the item. For example: <one credit> {wa' DeQ}.
+Gur nafjre gb guvf dhrfgvba jvyy or gur ahzore bs perqvgf arrqrq gb
+chepunfr gur vgrz. Sbe rknzcyr: <bar perqvg> {jn' QrD}.
 
-There is no haggleing, there is also no browsing. A common saying among
-Klingon merchants is <Buy or die.> {bIje'be'chugh vaj bIHegh.}
+Gurer vf ab unttyrvat, gurer vf nyfb ab oebjfvat. N pbzzba fnlvat nzbat
+Xyvatba zrepunagf vf <Ohl be qvr.> {oVwr'or'puhtu inw oVUrtu.}
 
-If a merchant says this to you, spending a few credits to buy the first
-thing you see is probably a good idea. Instead of shopping, try spending
-the day visiting interesting sites. Even though tourism has become a part
-of everyday life and is encouraged by the government, Klingons are still a
-little uneasy about visitor wandering around freely. If you want to see
-anything you will have to take a tour. The next dialogue contains some
-phrases which will be useful when you go sightseeing. {yIqIm.}
+Vs n zrepunag fnlf guvf gb lbh, fcraqvat n srj perqvgf gb ohl gur svefg
+guvat lbh frr vf cebonoyl n tbbq vqrn. Vafgrnq bs fubccvat, gel fcraqvat
+gur qnl ivfvgvat vagrerfgvat fvgrf. Rira gubhtu gbhevfz unf orpbzr n cneg
+bs rirelqnl yvsr naq vf rapbhentrq ol gur tbireazrag, Xyvatbaf ner fgvyy n
+yvggyr harnfl nobhg ivfvgbe jnaqrevat nebhaq serryl. Vs lbh jnag gb frr
+nalguvat lbh jvyy unir gb gnxr n gbhe. Gur arkg qvnybthr pbagnvaf fbzr
+cuenfrf juvpu jvyy or hfrshy jura lbh tb fvtugfrrvat. {lVdVz.}
 
-<I want to visit some place.>
-   {vogh vISuch vIneH.}
+<V jnag gb ivfvg fbzr cynpr.>
+   {ibtu iVFhpu iVarU.}
 
-<I want to visit the Great Hall of the High Council.>
-   {yejquv vaS'a' vISuch vIneH.}
+<V jnag gb ivfvg gur Terng Unyy bs gur Uvtu Pbhapvy.>
+   {lrwdhi inF'n' iVFhpu iVarU.}
 
-<I want to visit the dilithium mines.>
-   {cha'puj tlhIlHal vISuch vIneH.}
+<V jnag gb ivfvg gur qvyvguvhz zvarf.>
+   {pun'chw gyuVyUny iVFhpu iVarU.}
 
-<These places are nearby, Terran.>
-   {Sum Daqmeyvam, tera'ngan.}
+<Gurfr cynprf ner arneol, Greena.>
+   {Fhz Qndzrlinz, gren'atna.}
 
-<Can I walk there?>
-   {pa' jIyIt'a'.}
+<Pna V jnyx gurer?>
+   {cn' wVlVg'n'.}
 
-<No. You must ride the jitney.>
-   {ghobe'. lupwI' DalIghnIS.}
+<Ab. Lbh zhfg evqr gur wvgarl.>
+   {tubor'. yhcjV' QnyVtuaVF.}
 
-<Get in and stand there!>
-   {yIyong 'ej pa' yIQam.}
+<Trg va naq fgnaq gurer!>
+   {lVlbat 'rw cn' lVDnz.}
 
-<I can't see well from here.>
-   {naDevvo' jIleghlaHchu'be'.}
+<V pna'g frr jryy sebz urer.>
+   {anQriib' wVyrtuynUpuh'or'.}
 
-[[Transcriber's note: {naDevvo' jIleghlaHchu'be'.} literally means
-something like <From here, I can see, but not perfectly.> Neal
-Schermerhorn suggested (in HolQeD 2:3 p.14) that a better translation
-might be {naDevvo' jIleghlaHbe'chu'.} literally <From here, I can
-perfectly not see.> I disagree with this opinion.]]
+[[Genafpevore'f abgr: {anQriib' wVyrtuynUpuh'or'.} yvgrenyyl zrnaf
+fbzrguvat yvxr <Sebz urer, V pna frr, ohg abg cresrpgyl.> Arny
+Fpurezreubea fhttrfgrq (va UbyDrQ 2:3 c.14) gung n orggre genafyngvba
+zvtug or {anQriib' wVyrtuynUor'puh'.} yvgrenyyl <Sebz urer, V pna
+cresrpgyl abg frr.> V qvfnterr jvgu guvf bcvavba.]]
 
-<We're passing a power generator.>
-   {HoS lIngwI' wIjuS.}
+<Jr'er cnffvat n cbjre trarengbe.>
+   {UbF yVatjV' jVwhF.}
 
-<It's beautiful, isn't it?>
-   {'IH, qar'a'.}
+<Vg'f ornhgvshy, vfa'g vg?>
+   {'VU, dne'n'.}
 
-<Now I can smell something.>
-   {DaH vay' vIlarghlaH.}
+<Abj V pna fzryy fbzrguvat.>
+   {QnU inl' iVynetuynU.}
 
-<My eyes sting.>
-   {mu'aw' mInDu'wIj.}
+<Zl rlrf fgvat.>
+   {zh'nj' zVaQh'jVw.}
 
-[[Transcriber's note: {mu'aw' mInDu'wIj.} literally means <My eyes sting me.>
-(in the same sense as a knife can sting me). Neal Schermerhorn has suggested
-(in HolQeD 2:3 p.14) that the sentence {lu'aw'lu' mInDu'wIj.} might be a better
-translation. Apart from the order of the words I agree.  It is the object of
-the *verb prefix* that becomes the subject of the sentence when {-lu'}
-<indefinite subject> is used. The word order remains the same, as is clearly
-demonstrated in the example {naDev puqpu' tu'lu'.} <There are children here.>
-in TKD p.39. Both {mInDu'wIj lu'aw'lu'.} <My eyes sting.> or <Someone/something
-stings my eyes.> and the simpler {'oy' mInDu'wIj.} <My eyes ache.> (also seen
-in KGT p.20) good ways to express the same thing.]]
+[[Genafpevore'f abgr: {zh'nj' zVaQh'jVw.} yvgrenyyl zrnaf <Zl rlrf fgvat zr.>
+(va gur fnzr frafr nf n xavsr pna fgvat zr). Arny Fpurezreubea unf fhttrfgrq
+(va UbyDrQ 2:3 c.14) gung gur fragrapr {yh'nj'yh' zVaQh'jVw.} zvtug or n orggre
+genafyngvba. Ncneg sebz gur beqre bs gur jbeqf V nterr.  Vg vf gur bowrpg bs
+gur *ireo cersvk* gung orpbzrf gur fhowrpg bs gur fragrapr jura {-yh'}
+<vaqrsvavgr fhowrpg> vf hfrq. Gur jbeq beqre erznvaf gur fnzr, nf vf pyrneyl
+qrzbafgengrq va gur rknzcyr {anQri chdch' gh'yh'.} <Gurer ner puvyqera urer.>
+va GXQ c.39. Obgu {zVaQh'jVw yh'nj'yh'.} <Zl rlrf fgvat.> be <Fbzrbar/fbzrguvat
+fgvatf zl rlrf.> naq gur fvzcyre {'bl' zVaQh'jVw.} <Zl rlrf npur.> (nyfb frra
+va XTG c.20) tbbq jnlf gb rkcerff gur fnzr guvat.]]
 
-<What is this place?>
-   {Daqvam nuq.}
+<Jung vf guvf cynpr?>
+   {Qndinz ahd.}
 
-<That is classified information.>
-   {pegh De'vetlh.}
-   [[Lit. <That information is secret.>]]
+<Gung vf pynffvsvrq vasbezngvba.>
+   {crtu Qr'irgyu.}
+   [[Yvg. <Gung vasbezngvba vf frperg.>]]
 
-<When can I return to my room?>
-   {ghorgh pa'wIjDaq jIchegh.}
+<Jura pna V erghea gb zl ebbz?>
+   {tubetu cn'jVwQnd wVpurtu.}
 
-A travel tip. Klingons will generally allow you to make holographic facsimiles
-of people, but some of the places you will come across are considered sacred,
-or restricted, and should not be replicated. A misjudgment on you part could
-lead to unfortunate consequences, including incarceration, which could ruin
-your vacation. Do not guess, always ask.
+N geniry gvc. Xyvatbaf jvyy trarenyyl nyybj lbh gb znxr ubybtencuvp snpfvzvyrf
+bs crbcyr, ohg fbzr bs gur cynprf lbh jvyy pbzr npebff ner pbafvqrerq fnperq,
+be erfgevpgrq, naq fubhyq abg or ercyvpngrq. N zvfwhqtzrag ba lbh cneg pbhyq
+yrnq gb hasbeghangr pbafrdhraprf, vapyhqvat vapneprengvba, juvpu pbhyq ehva
+lbhe inpngvba. Qb abg thrff, nyjnlf nfx.
 
-As you tour around, you may want to express reactions to what you see, so here
-are some useful words. Be careful though, your values probably do not match
-those of most Klingons and this extends to taste. You may not appreciate, for
-example, why Klingons find the pain endured during a fight so pleasing, or why
-they consider the harmony of most Terran music so objectionable. To avoid
-confrontation you might not want to express your opinions to just anybody. Now
-repeat each word, after you hear it the second time. {yIqIm.}
+Nf lbh gbhe nebhaq, lbh znl jnag gb rkcerff ernpgvbaf gb jung lbh frr, fb urer
+ner fbzr hfrshy jbeqf. Or pnershy gubhtu, lbhe inyhrf cebonoyl qb abg zngpu
+gubfr bs zbfg Xyvatbaf naq guvf rkgraqf gb gnfgr. Lbh znl abg nccerpvngr, sbe
+rknzcyr, jul Xyvatbaf svaq gur cnva raqherq qhevat n svtug fb cyrnfvat, be jul
+gurl pbafvqre gur unezbal bs zbfg Greena zhfvp fb bowrpgvbanoyr. Gb nibvq
+pbasebagngvba lbh zvtug abg jnag gb rkcerff lbhe bcvavbaf gb whfg nalobql. Abj
+ercrng rnpu jbeq, nsgre lbh urne vg gur frpbaq gvzr. {lVdVz.}
 
-<Beautiful>
-   {'IH}
-   {'IH}
+<Ornhgvshy>
+   {'VU}
+   {'VU}
    {...}
 
-<Ugly>
-   {moH}
-   {moH}
+<Htyl>
+   {zbU}
+   {zbU}
    {...}
 
-<Odd>
-   {jum}
-   {jum}
+<Bqq>
+   {whz}
+   {whz}
    {...}
 
-<Powerful>
-   {HoSghaj}
-   {HoSghaj}
+<Cbjreshy>
+   {UbFtunw}
+   {UbFtunw}
    {...}
 
-<Superior>
-   {nIv}
-   {nIv}
+<Fhcrevbe>
+   {aVi}
+   {aVi}
    {...}
 
-<Inferior>
-   {QIv}
-   {QIv}
+<Vasrevbe>
+   {DVi}
+   {DVi}
    {...}
 
-<Messy>
-   {ghIH}
-   {ghIH}
+<Zrffl>
+   {tuVU}
+   {tuVU}
    {...}
 
-After a busy day of sightseeing, you will probably be hungry. As it turns out
-one of the more unforgettable parts of a visit to a Klingon planet, is
-sampleling the local cuisine. There are many restaurants to serve you.  Most
-Terrans find traditional Klingon food a little unusual, but after a while they
-seem to get used to it, and compared with what they serve in the small ethnic
-cafés, it is downright bland. Klingon restaurant workers, cooks, servers,
-everyone, are very helpful to non-Klingons. They are proud of their cuisine and
-really enjoy talking about it. This is one case where you will not have to
-worry about asking to many questions. In this next dialogue, a Terran tourist
-is getting ready to order Klingon food for the first time. {yIqIm.}
+Nsgre n ohfl qnl bs fvtugfrrvat, lbh jvyy cebonoyl or uhatel. Nf vg gheaf bhg
+bar bs gur zber hasbetrggnoyr cnegf bs n ivfvg gb n Xyvatba cynarg, vf
+fnzcyryvat gur ybpny phvfvar. Gurer ner znal erfgnhenagf gb freir lbh.  Zbfg
+Greenaf svaq genqvgvbany Xyvatba sbbq n yvggyr hahfhny, ohg nsgre n juvyr gurl
+frrz gb trg hfrq gb vg, naq pbzcnerq jvgu jung gurl freir va gur fznyy rguavp
+pnséf, vg vf qbjaevtug oynaq. Xyvatba erfgnhenag jbexref, pbbxf, freiref,
+rirelbar, ner irel urycshy gb aba-Xyvatbaf. Gurl ner cebhq bs gurve phvfvar naq
+ernyyl rawbl gnyxvat nobhg vg. Guvf vf bar pnfr jurer lbh jvyy abg unir gb
+jbeel nobhg nfxvat gb znal dhrfgvbaf. Va guvf arkg qvnybthr, n Greena gbhevfg
+vf trggvat ernql gb beqre Xyvatba sbbq sbe gur svefg gvzr. {lVdVz.}
 
-<Do you understand the menu, Terran?>
-   {HIDjolev Dayaj'a', tera'ngan.}
+<Qb lbh haqrefgnaq gur zrah, Greena?>
+   {UVQwbyri Qnlnw'n', gren'atna.}
 
-<No. Help me.>
-   {ghobe'. HIboQ.}
+<Ab. Uryc zr.>
+   {tubor'. UVobD.}
 
-<Do you trust me?>
-   {chovoq'a'.}
+<Qb lbh gehfg zr?>
+   {pubibd'n'.}
 
-<Yes. I trust you.>
-   {HIja'. qavoq.}
+<Lrf. V gehfg lbh.>
+   {UVwn'. dnibd.}
 
-<I'll bring you dinner number three.>
-   {SoHvaD 'uQ wej vIqem.}
+<V'yy oevat lbh qvaare ahzore guerr.>
+   {FbUinQ 'hD jrw iVdrz.}
 
-<I'll bring tea, also.>
-   {Dargh vIqem je.}
+<V'yy oevat grn, nyfb.>
+   {Qnetu iVdrz wr.}
 
-<Okay.>
-   {lu'.}
+<Bxnl.>
+   {yh'.}
 
-<Pay now!>
-   {DaH yIDIl.}
+<Cnl abj!>
+   {QnU lVQVy.}
 
-<Bon appétit, Terran.>
-   {peSop, tera'ngan.}
+<Oba nccégvg, Greena.>
+   {crFbc, gren'atna.}
 
-[[Transcriber's note: Sic! Another of Marc Okrand's small mistakes. {pe-} is an
-imperative prefix used only when there is a *plural subject* and since the
-Terran seems to be dining alone here this isn't the case. The waiter should
-have said {yISop, tera'ngan.} <Eat, Terran!>]]
+[[Genafpevore'f abgr: Fvp! Nabgure bs Znep Bxenaq'f fznyy zvfgnxrf. {cr-} vf na
+vzcrengvir cersvk hfrq bayl jura gurer vf n *cyheny fhowrpg* naq fvapr gur
+Greena frrzf gb or qvavat nybar urer guvf vfa'g gur pnfr. Gur jnvgre fubhyq
+unir fnvq {lVFbc, gren'atna.} <Rng, Greena!>]]
 
-<How do I eat the food?>
-   {chay' Soj vISop.}
+<Ubj qb V rng gur sbbq?>
+   {punl' Fbw iVFbc.}
 
-<Use your hands.>
-   {ghopDu'lIj yIlo'.}
+<Hfr lbhe unaqf.>
+   {tubcQh'yVw lVyb'.}
 
-<What is this?>
-   {Dochvam nuq.}
+<Jung vf guvf?>
+   {Qbpuinz ahd.}
 
-<You are eating serpent worms.>
-   {qagh DaSop.}
+<Lbh ner rngvat frecrag jbezf.>
+   {dntu QnFbc.}
 
-<The serpent worms are moving.>
-   {vIH qagh.}
+<Gur frecrag jbezf ner zbivat.>
+   {iVU dntu.}
 
-<Eat them quickly.>
-   {nom yISop.}
+<Rng gurz dhvpxyl.>
+   {abz lVFbc.}
 
-<There's food all over my face.>
-   {qabwIjDaq Soj tu'lu'bej.}
+<Gurer'f sbbq nyy bire zl snpr.>
+   {dnojVwQnd Fbw gh'yh'orw.}
 
-<Then you're obviously enjoying it.>
-   {vaj DatIvba'.}
+<Gura lbh'er boivbhfyl rawblvat vg.>
+   {inw QngVion'.}
 
-<Eat the pipius claw.>
-   {pIpyuS pach vISop.} [[vISop:=yISop]]
+<Rng gur cvcvhf pynj.>
+   {cVclhF cnpu iVFbc.} [[iVFbc:=lVFbc]]
 
-<Is Klingon food always raw?>
-   {reH tlhol'a' tlhIngan Soj.}
+<Vf Xyvatba sbbq nyjnlf enj?>
+   {erU gyuby'n' gyuVatna Fbw.}
 
-<Terrans enjoy eating burnt animals.>
-   {Ha'DIbaHmey meQ Sop 'e' tIv tera'nganpu'.}
+<Greenaf rawbl rngvat oheag navznyf.>
+   {Un'QVonUzrl zrD Fbc 'r' gVi gren'atnach'.}
 
-<Klingons never destroy good food.>
-   {not Soj QaQ Qaw' tlhInganpu'.}
+<Xyvatbaf arire qrfgebl tbbq sbbq.>
+   {abg Fbw DnD Dnj' gyuVatnach'.}
 
-Now that you have eaten it is time for some fun. Klingons put as much energy
-into their recreational activities as they do into matters of warfare. And one
-of the most popular places to unwind is the local bar.  Klingon bars are not
-just places for drinking, while there you can also enjoy a show, listen to
-music, participate in sports, or make useful business contacts. A visit to a
-Klingon bar is an unforgettable experience, and you should definitely do it.
-But, at least the first time, do not go in alone. Regular bar patrons tend to
-be a little suspicious of new faces. The desk clerk where you are staying
-should be able to locate someone who would be willing to accompany you and
-introduce you as his or her guest, or if you can read Klingon, go to any
-communications terminal and consult the databanks yourself. Use the category
-<alien escort>, or {nov DorwI'}. In this next dialogue the Terran visitor
-begins by making appropriate arrangements with a Klingon she has just met:
+Abj gung lbh unir rngra vg vf gvzr sbe fbzr sha. Xyvatbaf chg nf zhpu raretl
+vagb gurve erperngvbany npgvivgvrf nf gurl qb vagb znggref bs jnesner. Naq bar
+bs gur zbfg cbchyne cynprf gb hajvaq vf gur ybpny one.  Xyvatba onef ner abg
+whfg cynprf sbe qevaxvat, juvyr gurer lbh pna nyfb rawbl n fubj, yvfgra gb
+zhfvp, cnegvpvcngr va fcbegf, be znxr hfrshy ohfvarff pbagnpgf. N ivfvg gb n
+Xyvatba one vf na hasbetrggnoyr rkcrevrapr, naq lbh fubhyq qrsvavgryl qb vg.
+Ohg, ng yrnfg gur svefg gvzr, qb abg tb va nybar. Erthyne one cngebaf graq gb
+or n yvggyr fhfcvpvbhf bs arj snprf. Gur qrfx pyrex jurer lbh ner fgnlvat
+fubhyq or noyr gb ybpngr fbzrbar jub jbhyq or jvyyvat gb nppbzcnal lbh naq
+vagebqhpr lbh nf uvf be ure thrfg, be vs lbh pna ernq Xyvatba, tb gb nal
+pbzzhavpngvbaf grezvany naq pbafhyg gur qngnonaxf lbhefrys. Hfr gur pngrtbel
+<nyvra rfpbeg>, be {abi QbejV'}. Va guvf arkg qvnybthr gur Greena ivfvgbe
+ortvaf ol znxvat nccebcevngr neenatrzragf jvgu n Xyvatba fur unf whfg zrg:
 
-<Will you escort me to a bar?>
-   {tachDaq choDor'a'.}
+<Jvyy lbh rfpbeg zr gb n one?>
+   {gnpuQnd pubQbe'n'.}
 
-<Yes. Come with me.>
-   {HIja'. HItlhej.}
+<Lrf. Pbzr jvgu zr.>
+   {UVwn'. UVgyurw.}
 
-<Okay. Let's go!>
-   {lu'. Ha'.}
+<Bxnl. Yrg'f tb!>
+   {yh'. Un'.}
 
-<Why is there rubble everywhere, Klingon?>
-   {qatlh Dat DI tu'lu', tlhIngan.}
+<Jul vf gurer ehooyr rireljurer, Xyvatba?>
+   {dngyu Qng QV gh'yh', gyuVatna.}
 
-<Bars resemble warrior's homes.>
-   {SuvwI' juHmey rur tachmey.}
+<Onef erfrzoyr jneevbe'f ubzrf.>
+   {FhijV' whUzrl ehe gnpuzrl.}
 
-<Will you drink, Terran?>
-   {bItlhutlh'a', tera'ngan?}
+<Jvyy lbh qevax, Greena?>
+   {oVgyuhgyu'n', gren'atna?}
 
-<Yes. What is there?>
-   {HIja'. nuq tu'lu'.}
+<Lrf. Jung vf gurer?>
+   {UVwn'. ahd gh'yh'.}
 
-<They serve black ale, or Regulan bloodwine.>
-   {HIq qIj reghuluS 'Iw HIq ghap jab.}
+<Gurl freir oynpx nyr, be Erthyna oybbqjvar.>
+   {UVd dVw ertuhyhF 'Vj UVd tunc wno.}
 
-[[Transcriber's note: The spelling of bloodwine {'Iw HIq} with two separate words
-instead of (as I would have guessed) just one {'IwHIq} was taken from KGT (page
-94). Litterally this would mean <blood's wine> or <wine of blood> -- which, of
-course, could be considered proper since blood is added "for flavor and
-strength".]]
+[[Genafpevore'f abgr: Gur fcryyvat bs oybbqjvar {'Vj UVd} jvgu gjb frcnengr jbeqf
+vafgrnq bs (nf V jbhyq unir thrffrq) whfg bar {'VjUVd} jnf gnxra sebz XTG (cntr
+94). Yvggrenyyl guvf jbhyq zrna <oybbq'f jvar> be <jvar bs oybbq> -- juvpu, bs
+pbhefr, pbhyq or pbafvqrerq cebcre fvapr oybbq vf nqqrq "sbe synibe naq
+fgeratgu".]]
 
-<They won't serve Romulan ale to Terrans, to potent.>
-   {tera'nganvaD romuluS HIq jabQo'. HoSghajqu'.}
+<Gurl jba'g freir Ebzhyna nyr gb Greenaf, gb cbgrag.>
+   {gren'atnainQ ebzhyhF UVd wnoDb'. UbFtunwdh'.}
 
-<I'll have the black ale.>
-   {HIq qIj vItlhutlh vIneH.}
+<V'yy unir gur oynpx nyr.>
+   {UVd dVw iVgyuhgyu iVarU.}
 
-The Klingon is about to propose a toast, do not take it any more literally
-then you would if he were to say "Here is mud in your eye!"
+Gur Xyvatba vf nobhg gb cebcbfr n gbnfg, qb abg gnxr vg nal zber yvgrenyyl
+gura lbh jbhyq vs ur jrer gb fnl "Urer vf zhq va lbhe rlr!"
 
-<May your blood scream.>
-   {'IwlIj jachjaj.}
+<Znl lbhe oybbq fpernz.>
+   {'VjyVw wnpuwnw.}
 
-[[Transcriber's note: This is a much discussed feature of Klingon grammar,
-logically this toast should be "jachjaj 'IwlIj" since the subject normally
-come after the verb in a sentence. In Power Klingon, however, we learn
-that this is not always the case, toasts involving {-jaj} being the
-exception. In KGT (p.25) we get an even better explanation as to what is
-going on, as we learn that any verb taking the suffix {-jaj} must come
-last in the sentence if is used as a toast -- even if this means that the
-subject is placed before the verb. Prior to this explanation this sentence
-was noted as errorgenous by Neal Schermerhorn in HolQeD 2:3 p.14.]]
+[[Genafpevore'f abgr: Guvf vf n zhpu qvfphffrq srngher bs Xyvatba tenzzne,
+ybtvpnyyl guvf gbnfg fubhyq or "wnpuwnw 'VjyVw" fvapr gur fhowrpg abeznyyl
+pbzr nsgre gur ireo va n fragrapr. Va Cbjre Xyvatba, ubjrire, jr yrnea
+gung guvf vf abg nyjnlf gur pnfr, gbnfgf vaibyivat {-wnw} orvat gur
+rkprcgvba. Va XTG (c.25) jr trg na rira orggre rkcynangvba nf gb jung vf
+tbvat ba, nf jr yrnea gung nal ireo gnxvat gur fhssvk {-wnw} zhfg pbzr
+ynfg va gur fragrapr vs vf hfrq nf n gbnfg -- rira vs guvf zrnaf gung gur
+fhowrpg vf cynprq orsber gur ireo. Cevbe gb guvf rkcynangvba guvf fragrapr
+jnf abgrq nf reebetrabhf ol Arny Fpurezreubea va UbyDrQ 2:3 c.14.]]
 
-<What's happening over there?>
-   {pa'Daq qaStaH nuq.} [[pa'Daq:=pa']]
+<Jung'f unccravat bire gurer?>
+   {cn'Qnd dnFgnU ahd.} [[cn'Qnd:=cn']]
 
-[[Transcriber's note: This really means <What is happening in the room?>
-according to TKD, p.27-28, "Unlike other nouns, these three words [{naDev},
-{pa'} and {Dat}] are never followed by the locative suffix.  (Note that {pa'}
-<thereabouts> and {pa'} <room> is identical in sound; {pa'Daq}, however, can
-mean only <in/to the room.>)"]]
+[[Genafpevore'f abgr: Guvf ernyyl zrnaf <Jung vf unccravat va gur ebbz?>
+nppbeqvat gb GXQ, c.27-28, "Hayvxr bgure abhaf, gurfr guerr jbeqf [{anQri},
+{cn'} naq {Qng}] ner arire sbyybjrq ol gur ybpngvir fhssvk.  (Abgr gung {cn'}
+<gurernobhgf> naq {cn'} <ebbz> vf vqragvpny va fbhaq; {cn'Qnd}, ubjrire, pna
+zrna bayl <va/gb gur ebbz.>)"]]
 
-<Klingon warriors are butting heads.>
-   {qIp'egh nachDu'chaj, tlhIngan SuvwI'pu'.}
+<Xyvatba jneevbef ner ohggvat urnqf.>
+   {dVc'rtu anpuQh'punw, gyuVatna FhijV'ch'.}
 
-[[Transcriber's note: This seems like a very bizarre sententence to me. <Their
-heads are hitting oneselves, Klingon warriors.>]]
+[[Genafpevore'f abgr: Guvf frrzf yvxr n irel ovmneer fragragrapr gb zr. <Gurve
+urnqf ner uvggvat barfryirf, Xyvatba jneevbef.>]]
 
-<Everyone enjoys a mock battle.>
-   {may' ngeb tIv Hoch.}
+<Rirelbar rawblf n zbpx onggyr.>
+   {znl' atro gVi Ubpu.}
 
-<If we get lucky, one will get angry.>
-   {maDo'chugh QeHchoH wa'.}
+<Vs jr trg yhpxl, bar jvyy trg natel.>
+   {znQb'puhtu DrUpubU jn'.}
 
-[In background:] {'eb Qav. 'eb Qav.}
-   [[<Last opportunity.>]]
+[Va onpxtebhaq:] {'ro Dni. 'ro Dni.}
+   [[<Ynfg bccbeghavgl.>]]
 
-<What did he say?>
-   {nuqjatlh.}
+<Jung qvq ur fnl?>
+   {ahdwngyu.}
 
-<He said: "Last call.">
-   {"'eb Qav" jatlhpu'.}
+<Ur fnvq: "Ynfg pnyy.">
+   {"'ro Dni" wngyuch'.}
 
-<Will you drink another one?>
-   {latlh Datlhutlh'a'.}
+<Jvyy lbh qevax nabgure bar?>
+   {yngyu Qngyuhgyu'n'.}
 
-<No. I feel sick.>
-   {ghobe'. jIroplaw'.}
+<Ab. V srry fvpx.>
+   {tubor'. wVebcynj'.}
 
-<Then you need to drink sour tea.>
-   {vaj Dargh wIb DatlhutlhnIS.}
+<Gura lbh arrq gb qevax fbhe grn.>
+   {inw Qnetu jVo QngyuhgyuaVF.}
 
-<Sour tea cures everything.>
-   {Hoch vor Dargh wIb.}
+<Fbhe grn pherf rirelguvat.>
+   {Ubpu ibe Qnetu jVo.}
 
-A word of advice. Klingon drinks are a great deal more potent than most Terran
-concoctions. Sour tea is an effective remedy if any thing you eat or drink does
-not sit right, but you may find it difficult to swallow. If you have a favorite
-remedy, just bring it along.
+N jbeq bs nqivpr. Xyvatba qevaxf ner n terng qrny zber cbgrag guna zbfg Greena
+pbapbpgvbaf. Fbhe grn vf na rssrpgvir erzrql vs nal guvat lbh rng be qevax qbrf
+abg fvg evtug, ohg lbh znl svaq vg qvssvphyg gb fjnyybj. Vs lbh unir n snibevgr
+erzrql, whfg oevat vg nybat.
 
-We have almost reached the end of this introduction to conversational Klingon,
-but it would be inappropriate to conclude without giving you some words you
-might need in an emergency. You may have to be a little persistent to get a
-Klingon to come to your aid. This is not because they are ignoring you, or
-savoring your discomfort, it is just that what Terrans consider dangerous and
-unpleasant a Klingon usually finds exhilarating and enjoyable. So, if no-one
-comes to your aid at first, shout out the phrase:
+Jr unir nyzbfg ernpurq gur raq bs guvf vagebqhpgvba gb pbairefngvbany Xyvatba,
+ohg vg jbhyq or vanccebcevngr gb pbapyhqr jvgubhg tvivat lbh fbzr jbeqf lbh
+zvtug arrq va na rzretrapl. Lbh znl unir gb or n yvggyr crefvfgrag gb trg n
+Xyvatba gb pbzr gb lbhe nvq. Guvf vf abg orpnhfr gurl ner vtabevat lbh, be
+fnibevat lbhe qvfpbzsbeg, vg vf whfg gung jung Greenaf pbafvqre qnatrebhf naq
+hacyrnfnag n Xyvatba hfhnyyl svaqf rkuvynengvat naq rawblnoyr. Fb, vs ab-bar
+pbzrf gb lbhe nvq ng svefg, fubhg bhg gur cuenfr:
 
-<I am not a Klingon.>
-   {tlhIngan jIHbe'.}
+<V nz abg n Xyvatba.>
+   {gyuVatna wVUor'.}
 
-This will make your plight explicit and a Klingon is sure to respond. Now, for
-the last time as we say these phrases, repeat each one after you hear it the
-second time. {yIqIm.}
+Guvf jvyy znxr lbhe cyvtug rkcyvpvg naq n Xyvatba vf fher gb erfcbaq. Abj, sbe
+gur ynfg gvzr nf jr fnl gurfr cuenfrf, ercrng rnpu bar nsgre lbh urne vg gur
+frpbaq gvzr. {lVdVz.}
 
-<Danger>
-   {Qob}
-   {Qob}
+<Qnatre>
+   {Dbo}
+   {Dbo}
    {...}
 
-<Help>
-   {QaH}
-   {QaH}
+<Uryc>
+   {DnU}
+   {DnU}
    {...}
 
-<Get help quickly!>
-   {nom QaH yIqem.}
-   {nom QaH yIqem.}
+<Trg uryc dhvpxyl!>
+   {abz DnU lVdrz.}
+   {abz DnU lVdrz.}
    {...}
 
-<Don't touch me!>
-   {HIHotQo'.}
-   {HIHotQo'.}
+<Qba'g gbhpu zr!>
+   {UVUbgDb'.}
+   {UVUbgDb'.}
    {...}
 
-<Beam me up!>
-   {HIjol.}
-   {HIjol.}
+<Ornz zr hc!>
+   {UVwby.}
+   {UVwby.}
    {...}
 
-<I didn't do it.>
-   {vIta'pu'be'.}
-   {vIta'pu'be'.}
+<V qvqa'g qb vg.>
+   {iVgn'ch'or'.}
+   {iVgn'ch'or'.}
    {...}
 
-<No problem.>
-   {qay'be'.}
-   {qay'be'.}
+<Ab ceboyrz.>
+   {dnl'or'.}
+   {dnl'or'.}
    {...}
 
-<I need to find a doctor.>
-   {Qel vISamnIS.}
-   {Qel vISamnIS.}
+<V arrq gb svaq n qbpgbe.>
+   {Dry iVFnzaVF.}
+   {Dry iVFnzaVF.}
    {...}
 
-Finally, a phrase that for some reason seems to get a Klingon's attention
-relatively quickly.
+Svanyyl, n cuenfr gung sbe fbzr ernfba frrzf gb trg n Xyvatba'f nggragvba
+eryngviryl dhvpxyl.
 
-<Where do you keep the chocolate?>
-   {nuqDaq yuch Dapol.}
-   {nuqDaq yuch Dapol.}
+<Jurer qb lbh xrrc gur pubpbyngr?>
+   {ahdQnd lhpu Qncby.}
+   {ahdQnd lhpu Qncby.}
    {...}
 
-We have now reached the end of this instructional session. Turn the tape over,
-and start listening again, from the beginning. To learn the language it is
-important to practice regularly and with full concentration. It is not easy,
-but if you keep working at it, you will soon be adequately prepared to enter
-into a dialogue with any Klingon you are fortunate enough to encounter.
+Jr unir abj ernpurq gur raq bs guvf vafgehpgvbany frffvba. Ghea gur gncr bire,
+naq fgneg yvfgravat ntnva, sebz gur ortvaavat. Gb yrnea gur ynathntr vg vf
+vzcbegnag gb cenpgvpr erthyneyl naq jvgu shyy pbapragengvba. Vg vf abg rnfl,
+ohg vs lbh xrrc jbexvat ng vg, lbh jvyy fbba or nqrdhngryl cercnerq gb ragre
+vagb n qvnybthr jvgu nal Xyvatba lbh ner sbeghangr rabhtu gb rapbhagre.
 
-<It has been an honor to instruct you. Success.>
-   {batlh qaghojmoHpu'. Qapla'.}
+<Vg unf orra na ubabe gb vafgehpg lbh. Fhpprff.>
+   {ongyu dntubwzbUch'. Dncyn'.}
 
-"Conversational Klingon" was adopted for audio by Marc Okrand. It was read by
-Michael Dorn with Marc Okrand. Additional performances by ¿Dina Corsetti?, and
-¿Sam Gunsler?. The recording engineer was ¿Lascheck Voichik? and ¿Rick Dasher?
-from ¿Mark Raow? Recording services. The tape editor was ¿Dave LeVan?. Post
-production and sound designed by ¿Gary Fink?. The associate producers were
-Linda Wollman and ¿Jan Warner?.  Michael Dorn was directed by ¿Bob Walter?.
-Conversational Klingon was produced and directed by Susan Perrin.
+"Pbairefngvbany Xyvatba" jnf nqbcgrq sbe nhqvb ol Znep Bxenaq. Vg jnf ernq ol
+Zvpunry Qbea jvgu Znep Bxenaq. Nqqvgvbany cresbeznaprf ol ¿Qvan Pbefrggv?, naq
+¿Fnz Thafyre?. Gur erpbeqvat ratvarre jnf ¿Ynfpurpx Ibvpuvx? naq ¿Evpx Qnfure?
+sebz ¿Znex Enbj? Erpbeqvat freivprf. Gur gncr rqvgbe jnf ¿Qnir YrIna?. Cbfg
+cebqhpgvba naq fbhaq qrfvtarq ol ¿Tnel Svax?. Gur nffbpvngr cebqhpref jrer
+Yvaqn Jbyyzna naq ¿Wna Jneare?.  Zvpunry Qbea jnf qverpgrq ol ¿Obo Jnygre?.
+Pbairefngvbany Xyvatba jnf cebqhprq naq qverpgrq ol Fhfna Creeva.
 
-[[Transcriber's note: Everything marked ¿? was typed by ear only and is
-probably severely misspelled. If you *know* how any of these names are supposed
-to be spelled, *please* contact me.]]
+[[Genafpevore'f abgr: Rirelguvat znexrq ¿? jnf glcrq ol rne bayl naq vf
+cebonoyl frireryl zvffcryyrq. Vs lbh *xabj* ubj nal bs gurfr anzrf ner fhccbfrq
+gb or fcryyrq, *cyrnfr* pbagnpg zr.]]
 
-Also available from Simon and Schuster Audioworks: "Star Trek the Next
-Generation: Imzadi" by Peter David, read by Jonathan Frakes.
+Nyfb ninvynoyr sebz Fvzba naq Fpuhfgre Nhqvbjbexf: "Fgne Gerx gur Arkg
+Trarengvba: Vzmnqv" ol Crgre Qnivq, ernq ol Wbanguna Senxrf.
 
-[[eof]]
+[[rbs]]

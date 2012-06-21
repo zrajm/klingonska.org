@@ -1,1751 +1,1751 @@
 [[
-  [1997-10-03] transcribed most of side 1
-  [1998-01-18] intro dialogue added
-  [1998-02-16] finished transcription of side 1
-  [1998-05-13] transcribed 1/4 of side 2
-  [1998-09-25] finished transcription, some spellchecking
-  [1998-09-30] arranged layout and added special characters
-  [1999-10-01] compared with tape, corrected found errors; checked that () []
-               {} »« were all paired properly
-  [1998-10-02] machine-parsed for capitalization errors
-  [1998-10-05] machine-parsed for incorrect syllables (errors: 1)
-  [1999-02-13] added timed length
-  [1999-02-14] compared with tape, correcting errors
-  [2000-03-27] corrected {chapujqut} to {cha'pujqut}
-  [2000-08-02] americanized spelling of "behavior", "ardor", "humor"
-  [2001-08-17] changed {Dachoqbe'} in intro to the more likely {Daqotlhbe'};
-               changed {'Iw ghargh} to {'Iwghargh}. [Thanks Lieven!]
-  [2003-01-30] cleaned up text some
-  [2006-07-25] added additional ISBNs to "Publisher" field, added day to
-               release date (info from Amazon)
-  [2011-09-19] incorporated *many* suggestions sent to me by Stevo (in
-               2004-03-14), e.g. speaker indication, spelling corrections;
-               added missing timing information for [[# mark: ... #]]s at the
-               end of the file
-  Style: {}=bold, <>=italics
+  [1997-10-03] genafpevorq zbfg bs fvqr 1
+  [1998-01-18] vageb qvnybthr nqqrq
+  [1998-02-16] svavfurq genafpevcgvba bs fvqr 1
+  [1998-05-13] genafpevorq 1/4 bs fvqr 2
+  [1998-09-25] svavfurq genafpevcgvba, fbzr fcryypurpxvat
+  [1998-09-30] neenatrq ynlbhg naq nqqrq fcrpvny punenpgref
+  [1999-10-01] pbzcnerq jvgu gncr, pbeerpgrq sbhaq reebef; purpxrq gung () []
+               {} »« jrer nyy cnverq cebcreyl
+  [1998-10-02] znpuvar-cnefrq sbe pncvgnyvmngvba reebef
+  [1998-10-05] znpuvar-cnefrq sbe vapbeerpg flyynoyrf (reebef: 1)
+  [1999-02-13] nqqrq gvzrq yratgu
+  [1999-02-14] pbzcnerq jvgu gncr, pbeerpgvat reebef
+  [2000-03-27] pbeerpgrq {punchwdhg} gb {pun'chwdhg}
+  [2000-08-02] nzrevpnavmrq fcryyvat bs "orunivbe", "neqbe", "uhzbe"
+  [2001-08-17] punatrq {Qnpubdor'} va vageb gb gur zber yvxryl {Qndbgyuor'};
+               punatrq {'Vj tunetu} gb {'Vjtunetu}. [Gunaxf Yvrira!]
+  [2003-01-30] pyrnarq hc grkg fbzr
+  [2006-07-25] nqqrq nqqvgvbany VFOAf gb "Choyvfure" svryq, nqqrq qnl gb
+               eryrnfr qngr (vasb sebz Nznmba)
+  [2011-09-19] vapbecbengrq *znal* fhttrfgvbaf frag gb zr ol Fgrib (va
+               2004-03-14), r.t. fcrnxre vaqvpngvba, fcryyvat pbeerpgvbaf;
+               nqqrq zvffvat gvzvat vasbezngvba sbe [[# znex: ... #]]f ng gur
+               raq bs gur svyr
+  Fglyr: {}=obyq, <>=vgnyvpf
 
-  Type: audio cassette / CD
-  Date: (1 October) 1993
-  Title: <Power Klingon>
-  Author: Marc Okrand and Barry Levine, presented by Michael Dorn
-  Publisher: Audioworks, Simon & Schuster, London, ISBN 0-671-85319-8
-    (alternate ISBN 0-671-87975-8; CD released October 1996, ISBN
+  Glcr: nhqvb pnffrggr / PQ
+  Qngr: (1 Bpgbore) 1993
+  Gvgyr: <Cbjre Xyvatba>
+  Nhgube: Znep Bxenaq naq Oneel Yrivar, cerfragrq ol Zvpunry Qbea
+  Choyvfure: Nhqvbjbexf, Fvzba & Fpuhfgre, Ybaqba, VFOA 0-671-85319-8
+    (nygreangr VFOA 0-671-87975-8; PQ eryrnfrq Bpgbore 1996, VFOA
     0-671-85667-7)
-  Summary: This audio cassette is number two in the series (beginning with
-    <Conversational Klingon>) and it is intended for the serious traveler,
-    student or businessman and people that will spend a lot of time in the
-    Empire. The audio cassette version comes with an inlay folder, which is
-    missing from the CD version. (Usually abbreviated <PK>.)
+  Fhzznel: Guvf nhqvb pnffrggr vf ahzore gjb va gur frevrf (ortvaavat jvgu
+    <Pbairefngvbany Xyvatba>) naq vg vf vagraqrq sbe gur frevbhf geniryre,
+    fghqrag be ohfvarffzna naq crbcyr gung jvyy fcraq n ybg bs gvzr va gur
+    Rzcver. Gur nhqvb pnffrggr irefvba pbzrf jvgu na vaynl sbyqre, juvpu vf
+    zvffvat sebz gur PQ irefvba. (Hfhnyyl nooerivngrq <CX>.)
 
-  : Side one:
-  :   Business deal (untranslated dialogue)
-  :   Foreword
-  :   The four ideals of behavior
-  :      Accuracy (noun suffixes)
-  :      Accuracy (verb suffixes)
-  :      Straightforwardness
-  :      Aggressiveness and strength
-  :      Business deal (dialogue)
-  :      [1st break]
-  :      Ordering drinks
-  :      Toasting
-  :      Cursing
-  :      [2nd break]
-  :      Addressing a superior
-  :      Use of the Standard Dialect
-  : Side two:
-  :      [3rd break]
-  :      Replacement Proverbs
-  :      Secrecy Proverbs
-  :      Holiday Proverbs ({QI'lop})
-  :      Empire Union Day
-  :      Rite of Ascension
-  :      [4th break]
-  :      Mating Ritual
-  :      Clipped Klingon
-  :      [5th break]
-  :      Telling jokes
-  :      Addressing Pets
-  :   Example Dialogues
-  :      A business deal (dialogue)
-  :      Toasting (dialogue)
-  :      Cursed warfare (dialogue)
-  :      Empire Union Day (dialogue)
-  :      Confronting a pet (dialogue)
-  :      Secrecy proverbs (dialogue)
-  :      Replacement proverbs (dialogue)
-  :      A mating ritual overture (dialogue)
-  :      Telling a joke (dialogue)
-  :   Afterword
+  : Fvqr bar:
+  :   Ohfvarff qrny (hagenafyngrq qvnybthr)
+  :   Sberjbeq
+  :   Gur sbhe vqrnyf bs orunivbe
+  :      Npphenpl (abha fhssvkrf)
+  :      Npphenpl (ireo fhssvkrf)
+  :      Fgenvtugsbejneqarff
+  :      Ntterffvirarff naq fgeratgu
+  :      Ohfvarff qrny (qvnybthr)
+  :      [1fg oernx]
+  :      Beqrevat qevaxf
+  :      Gbnfgvat
+  :      Phefvat
+  :      [2aq oernx]
+  :      Nqqerffvat n fhcrevbe
+  :      Hfr bs gur Fgnaqneq Qvnyrpg
+  : Fvqr gjb:
+  :      [3eq oernx]
+  :      Ercynprzrag Cebireof
+  :      Frperpl Cebireof
+  :      Ubyvqnl Cebireof ({DV'ybc})
+  :      Rzcver Havba Qnl
+  :      Evgr bs Nfprafvba
+  :      [4gu oernx]
+  :      Zngvat Evghny
+  :      Pyvccrq Xyvatba
+  :      [5gu oernx]
+  :      Gryyvat wbxrf
+  :      Nqqerffvat Crgf
+  :   Rknzcyr Qvnybthrf
+  :      N ohfvarff qrny (qvnybthr)
+  :      Gbnfgvat (qvnybthr)
+  :      Phefrq jnesner (qvnybthr)
+  :      Rzcver Havba Qnl (qvnybthr)
+  :      Pbasebagvat n crg (qvnybthr)
+  :      Frperpl cebireof (qvnybthr)
+  :      Ercynprzrag cebireof (qvnybthr)
+  :      N zngvat evghny biregher (qvnybthr)
+  :      Gryyvat n wbxr (qvnybthr)
+  :   Nsgrejbeq
 
 ]]
 
 
   **********************************************************************
 ****                                                                  ****
-***                            POWER KLINGON                           ***
-***                   By Barry Levine and Marc Okrand                  ***
+***                            CBJRE XYVATBA                           ***
+***                   Ol Oneel Yrivar naq Znep Bxenaq                  ***
 ***                                                                    ***
 ***                                                                    ***
-***                Recording, (c)1993 Paramount Pictures               ***
-***                     1:09:50 Hours Playing Time                     ***
+***                Erpbeqvat, (p)1993 Cnenzbhag Cvpgherf               ***
+***                     1:09:50 Ubhef Cynlvat Gvzr                     ***
 ***                                                                    ***
-***                         ISBN 0-671-85319-8                         ***
-***                     Simon & Schuster Audioworks                    ***
-***                              New York                              ***
+***                         VFOA 0-671-85319-8                         ***
+***                     Fvzba & Fpuhfgre Nhqvbjbexf                    ***
+***                              Arj Lbex                              ***
 ***                                                                    ***
 ***                                                                    ***
-***              Transcription, (c)1997-2003 Zrajm C Akfohg            ***
-***                      (For private study only.)                     ***
+***              Genafpevcgvba, (p)1997-2003 Menwz P Nxsbut            ***
+***                      (Sbe cevingr fghql bayl.)                     ***
 ****                                                                  ****
   **********************************************************************
 
-I have attempted to proofread this text as thoroughly as possible, using
-both a spellchecking program and going over the text several times while
-listening to the tape. However I am aiming to constantly improve the
-quality of this transcription, and any comments, suggestions or questions
-are most welcome. There are no markings as to what was spoken by whom on
-the tape.
+V unir nggrzcgrq gb cebbsernq guvf grkg nf gubebhtuyl nf cbffvoyr, hfvat
+obgu n fcryypurpxvat cebtenz naq tbvat bire gur grkg frireny gvzrf juvyr
+yvfgravat gb gur gncr. Ubjrire V nz nvzvat gb pbafgnagyl vzcebir gur
+dhnyvgl bs guvf genafpevcgvba, naq nal pbzzragf, fhttrfgvbaf be dhrfgvbaf
+ner zbfg jrypbzr. Gurer ner ab znexvatf nf gb jung jnf fcbxra ol jubz ba
+gur gncr.
 
-The following characters have special meaning in this transcript:
+Gur sbyybjvat punenpgref unir fcrpvny zrnavat va guvf genafpevcg:
 
-   {...} Indicates a void you are supposed to fill with a Klingon phrase.
-         (only used it the CK and PK transcriptions).
-   *     surrounds any *emphasised* word (normally written in italics)
-         also used for words that are transliterated rather than
-         translated, such as *bat'leth* or *d'k tagh*).
-   #     surrounds any #non-standard# or #incorrect# Klingon (used mostly
-         for dialects or examples illustrating non-standard phonology or
-         incorrect grammar).
-   <>    signifies a phrase in English, that also is presented in Klingon.
-   ""    are used for quotation marks. Usually there is a describing quote
-         from the main text, when no direct translation is available in
-         that source.
-   {}    surrounds all Klingon words and phrases (normally written in
-         boldface).
-   [[.]] surrounds my own thoughts or opinions, or a general comment about
-         something in the source (disturbing sound effect on the tapes,
-         grammatical error, wierd translation, whatever). Most often this
-         comment is a simple source reference however.
-   ¿?    surrounds phrases or words with uncertain spelling, or otherwise
-         doubtful entries (mostly names spoken on the tapes, whose
-         spelling I have been unable to confirm).
+   {...} Vaqvpngrf n ibvq lbh ner fhccbfrq gb svyy jvgu n Xyvatba cuenfr.
+         (bayl hfrq vg gur PX naq CX genafpevcgvbaf).
+   *     fheebhaqf nal *rzcunfvfrq* jbeq (abeznyyl jevggra va vgnyvpf)
+         nyfb hfrq sbe jbeqf gung ner genafyvgrengrq engure guna
+         genafyngrq, fhpu nf *ong'yrgu* be *q'x gntu*).
+   #     fheebhaqf nal #aba-fgnaqneq# be #vapbeerpg# Xyvatba (hfrq zbfgyl
+         sbe qvnyrpgf be rknzcyrf vyyhfgengvat aba-fgnaqneq cubabybtl be
+         vapbeerpg tenzzne).
+   <>    fvtavsvrf n cuenfr va Ratyvfu, gung nyfb vf cerfragrq va Xyvatba.
+   ""    ner hfrq sbe dhbgngvba znexf. Hfhnyyl gurer vf n qrfpevovat dhbgr
+         sebz gur znva grkg, jura ab qverpg genafyngvba vf ninvynoyr va
+         gung fbhepr.
+   {}    fheebhaqf nyy Xyvatba jbeqf naq cuenfrf (abeznyyl jevggra va
+         obyqsnpr).
+   [[.]] fheebhaqf zl bja gubhtugf be bcvavbaf, be n trareny pbzzrag nobhg
+         fbzrguvat va gur fbhepr (qvfgheovat fbhaq rssrpg ba gur gncrf,
+         tenzzngvpny reebe, jvreq genafyngvba, jungrire). Zbfg bsgra guvf
+         pbzzrag vf n fvzcyr fbhepr ersrerapr ubjrire.
+   ¿?    fheebhaqf cuenfrf be jbeqf jvgu hapregnva fcryyvat, be bgurejvfr
+         qbhogshy ragevrf (zbfgyl anzrf fcbxra ba gur gncrf, jubfr
+         fcryyvat V unir orra hanoyr gb pbasvez).
 
-Special thanks for contributions go to:
-  Lieven.
+Fcrpvny gunaxf sbe pbagevohgvbaf tb gb:
+  Yvrira.
 
-/Zrajm C Akfohg
+/Menwz P Nxsbut
 
-Narrators:
+Aneengbef:
 
-    HF -- Human female
-    HM -- Human male
-    KF -- Klingon female
-    KM -- Klingon male
-    MD -- Michael Dorn
-    MO -- Marc Okrand
+    US -- Uhzna srznyr
+    UZ -- Uhzna znyr
+    XS -- Xyvatba srznyr
+    XZ -- Xyvatba znyr
+    ZQ -- Zvpunry Qbea
+    ZB -- Znep Bxenaq
 
-[[Copied from the inlay folder:]]
+[[Pbcvrq sebz gur vaynl sbyqre:]]
 
 
    ========================
-    KLINGON POWER PHRASES:
+    XYVATBA CBJRE CUENFRF:
    ========================
 
 
-SHOWING AGGRESSIVENESS AND STRENGTH
+FUBJVAT NTTERFFVIRARFF NAQ FGERATGU
 
-<No problem.>
-   {qay'be'.}
+<Ab ceboyrz.>
+   {dnl'or'.}
 
-<Shut up!>
-   {bIjatlh 'e' yImev!}
+<Fuhg hc!>
+   {oVwngyu 'r' lVzri!}
 
-<If you shine my nose, I will give you your nose.>
-   {ghIchwIj DabochmoHchugh, ghIchlIj qanob.}
-
-
-CURSE WARFARE (MU'QAD VES)
-
-<Your face looks like a collapsed star!>
-   {Dejpu'bogh Hov rur qablIj!}
-
-<You are a total waste of good energy!>
-   {HoS lI' Dalo'Ha'chu'!}
-
-<You belong in a black hole in the netherworld!>
-   {ghe' 'orDaq luSpet 'oH DaqlIj'e'!} [[ghe' 'orDaq:=ghe''orDaq]]
-
-<Your mother has a smooth forehead!>
-   {Hab SoSlI' Quch!}
+<Vs lbh fuvar zl abfr, V jvyy tvir lbh lbhe abfr.>
+   {tuVpujVw QnobpuzbUpuhtu, tuVpuyVw dnabo.}
 
 
-TOASTING
+PHEFR JNESNER (ZH'DNQ IRF)
 
-<May your blood scream.>
-   {'IwlIj jachjaj.}
+<Lbhe snpr ybbxf yvxr n pbyyncfrq fgne!>
+   {Qrwch'obtu Ubi ehe dnoyVw!}
 
-<May you always find a bloodworm in your glass.>
-   {reH HIvje'lIjDaq 'Iwghargh Datu'jaj.}
+<Lbh ner n gbgny jnfgr bs tbbq raretl!>
+   {UbF yV' Qnyb'Un'puh'!}
 
-<May you coordinates be free of tribbles.>
-   {QuvlIjDaq yIH tu'be'lu'jaj.}
+<Lbh orybat va n oynpx ubyr va gur argurejbeyq!>
+   {tur' 'beQnd yhFcrg 'bU QndyVw'r'!} [[tur' 'beQnd:=tur''beQnd]]
 
-<May you endure the pain.>
-   {'oy' DaSIQjaj.}
-
-
-PET COMMANDS
-
-<Sit!>
-   {ba'!}
-
-<Attack!>
-   {HIv!}
-
-<Do not eat that!>
-   {mev!}
-
-<Stand!>
-   {Qam!}
-
-<Chew that arm!>
-   {DeSveth yIv!} [[DeSveth:=DeSvetlh]]
-
-<Bad animal!>
-   {Ha'DIbaH qab!}
+<Lbhe zbgure unf n fzbbgu sberurnq!>
+   {Uno FbFyV' Dhpu!}
 
 
-REPLACEMENT PROVERBS
+GBNFGVAT
 
-<Set fire on the side when there is danger.>
-   {DopDaq qul yIchenmoH QobDI' ghu'.}
+<Znl lbhe oybbq fpernz.>
+   {'VjyVw wnpuwnw.}
 
-<A great warrior is always prepared.>
-   {reH Suvrup SuvwI''a'.}
+<Znl lbh nyjnlf svaq n oybbqjbez va lbhe tynff.>
+   {erU UViwr'yVwQnd 'Vjtunetu Qngh'wnw.}
 
-<Only fools laugh while warriors die.>
-   {Hagh qoHpu' neH HeghtaHvIS SuvwI'pu'.}
+<Znl lbh pbbeqvangrf or serr bs gevooyrf.>
+   {DhiyVwQnd lVU gh'or'yh'wnw.}
 
-<The Fek'lhr strikes again.>
-   {HIvqa' veqlargh.}
-
-
-RITE OF ASCENSION (NENTAY)
-
-<Today you are a warrior.>
-   {DaHjaj SuvwI' SoH.}
-
-<May you travel the river of blood.>
-   {'Iw bIQtIqDaq bIlengjaj.}
-
-<You must show your heart.>
-   {tIqlIj Da'angnIS.}
+<Znl lbh raqher gur cnva.>
+   {'bl' QnFVDwnw.}
 
 
-SECRECY PROVERBS
+CRG PBZZNAQF
 
-<A day without secrets is like a night without stars.>
-   {Hov ghajbe'bogh ram rur pegh ghajbe'bogh jaj.}
+<Fvg!>
+   {on'!}
 
-<Knowledge of useful information may be unfortunate.>
-   {De' lI' Sovlu'DI' chaq Do'Ha'.}
+<Nggnpx!>
+   {UVi!}
 
-<Secrets never cease.>
-   {not mev peghmey.}
+<Qb abg rng gung!>
+   {zri!}
 
-<The stars will talk before I will.>
-   {jIjatlhpa' jatlh Hovmey.}
+<Fgnaq!>
+   {Dnz!}
+
+<Purj gung nez!>
+   {QrFirgu lVi!} [[QrFirgu:=QrFirgyu]]
+
+<Onq navzny!>
+   {Un'QVonU dno!}
 
 
-HOLIDAY PROVERBS
+ERCYNPRZRAG CEBIREOF
 
-<Eat everything or you will die without honor.>
-   {Hoch DaSopbe'chugh batlh bIHeghbe'.}
+<Frg sver ba gur fvqr jura gurer vf qnatre.>
+   {QbcQnd dhy lVpurazbU DboQV' tuh'.}
 
-<I will remember this dinner forever.>
-   {reH 'uQvam vIqawtaH.}
+<N terng jneevbe vf nyjnlf cercnerq.>
+   {erU Fhiehc FhijV''n'.}
 
-<May you encounter Kahless in your dreams.>
-   {bInajtaHvIS qeylIS Daghomjaj.}
+<Bayl sbbyf ynhtu juvyr jneevbef qvr.>
+   {Untu dbUch' arU UrtugnUiVF FhijV'ch'.}
 
-<Death before shame.>
-   {bItuHpa' bIHeghjaj.}
+<Gur Srx'yue fgevxrf ntnva.>
+   {UVidn' irdynetu.}
+
+
+EVGR BS NFPRAFVBA (ARAGNL)
+
+<Gbqnl lbh ner n jneevbe.>
+   {QnUwnw FhijV' FbU.}
+
+<Znl lbh geniry gur evire bs oybbq.>
+   {'Vj oVDgVdQnd oVyratwnw.}
+
+<Lbh zhfg fubj lbhe urneg.>
+   {gVdyVw Qn'nataVF.}
+
+
+FRPERPL CEBIREOF
+
+<N qnl jvgubhg frpergf vf yvxr n avtug jvgubhg fgnef.>
+   {Ubi tunwor'obtu enz ehe crtu tunwor'obtu wnw.}
+
+<Xabjyrqtr bs hfrshy vasbezngvba znl or hasbeghangr.>
+   {Qr' yV' Fbiyh'QV' pund Qb'Un'.}
+
+<Frpergf arire prnfr.>
+   {abg zri crtuzrl.}
+
+<Gur fgnef jvyy gnyx orsber V jvyy.>
+   {wVwngyucn' wngyu Ubizrl.}
+
+
+UBYVQNL CEBIREOF
+
+<Rng rirelguvat be lbh jvyy qvr jvgubhg ubabe.>
+   {Ubpu QnFbcor'puhtu ongyu oVUrtuor'.}
+
+<V jvyy erzrzore guvf qvaare sberire.>
+   {erU 'hDinz iVdnjgnU.}
+
+<Znl lbh rapbhagre Xnuyrff va lbhe qernzf.>
+   {oVanwgnUiVF drlyVF Qntubzwnw.}
+
+<Qrngu orsber funzr.>
+   {oVghUcn' oVUrtuwnw.}
 
 
    ==========================================
-    SIDE ONE: [[34:15 Minutes Playing Time]]
+    FVQR BAR: [[34:15 Zvahgrf Cynlvat Gvzr]]
    ==========================================
 
-[[# Mark: [0:00] Business deal (untranslated dialogue) #]]
+[[# Znex: [0:00] Ohfvarff qrny (hagenafyngrq qvnybthr) #]]
 
-HM: <Power Klingon> by Barry Levine, with Marc Okrand.
+UZ: <Cbjre Xyvatba> ol Oneel Yrivar, jvgu Znep Bxenaq.
 
-KM: {nuqneH?}
-   [[<What do you want?>]]
+XZ: {ahdarU?}
+   [[<Jung qb lbh jnag?>]]
 
-HM: {'IH jaj, qar'a'? maja'chuqjaj.}
-   [[<Beautiful day, isn't it? May we talk?>]]
+UZ: {'VU wnw, dne'n'? znwn'puhdwnw.}
+   [[<Ornhgvshy qnl, vfa'g vg? Znl jr gnyx?>]]
 
-KM: {jISaHbe'.}
-   [[<I don't care.>]]
+XZ: {wVFnUor'.}
+   [[<V qba'g pner.>]]
 
-HM: {bISaHbe'. qatlh bIjatlh?}
-{chaq SoHvo' vay' vIje' vIneH.}
-   [[<You don't care. Why do you say that?>]]
-   [[<Maybe I'd like to buy something from you.>]]
+UZ: {oVFnUor'. dngyu oVwngyu?}
+{pund FbUib' inl' iVwr' iVarU.}
+   [[<Lbh qba'g pner. Jul qb lbh fnl gung?>]]
+   [[<Znlor V'q yvxr gb ohl fbzrguvat sebz lbh.>]]
 
-KM: {tugh. #SSS.# bIje'be'chugh vaj bIHegh.}
-{quvwIj DatIchpu', tera'ngan.}
-{bIyIntaH 'e' Daqotlhbe'.}
-   [[<Hurry up! Buy or die.>]]
-   [[<You have insulted my honor, Terran.>]]
-   [[<You do not deserve to live.>]]
+XZ: {ghtu. #FFF.# oVwr'or'puhtu inw oVUrtu.}
+{dhijVw QngVpuch', gren'atna.}
+{oVlVagnU 'r' Qndbgyuor'.}
+   [[<Uheel hc! Ohl be qvr.>]]
+   [[<Lbh unir vafhygrq zl ubabe, Greena.>]]
+   [[<Lbh qb abg qrfreir gb yvir.>]]
 
-[[disruptor fire]]
+[[qvfehcgbe sver]]
 
-HM: {yIjotchoH.}
-   [[<Calm down!>]]
+UZ: {lVwbgpubU.}
+   [[<Pnyz qbja!>]]
 
-[[more disruptor fire]]
+[[zber qvfehcgbe sver]]
 
-HM: {Dochvetlh yItlhap.}
-   [[<Take that!>]]
+UZ: {Qbpuirgyu lVgyunc.}
+   [[<Gnxr gung!>]]
 
-[[phaser fire]]
+[[cunfre sver]]
 
-[[disruptor fire]]
+[[qvfehcgbe sver]]
 
-[[scream]]
+[[fpernz]]
 
-[[# Mark: [0:54] Foreword #]]
+[[# Znex: [0:54] Sberjbeq #]]
 
-MD: The scene you have just heard was a disaster of misunderstanding. Both the
-Klingon and the Terran misinterpreted each other's words. The Terran entered
-the Klingon's shop to buy some dilithium crystals, but made mistake after
-mistake in addressing the Klingon trader. The Klingon thought his honor was
-being challenged, and his customary suspicions about Terrans were alerted.
-He responded angrily. The Terran, although he spoke Klingon, misunderstood
-the power of language. He thought the Klingon threatened him. The mutual
-misunderstandings had lethal results. Unfortunately, ever since Terrans
-established relationships within the Klingon Empire, such incidents have
-been common.
+ZQ: Gur fprar lbh unir whfg urneq jnf n qvfnfgre bs zvfhaqrefgnaqvat. Obgu gur
+Xyvatba naq gur Greena zvfvagrecergrq rnpu bgure'f jbeqf. Gur Greena ragrerq
+gur Xyvatba'f fubc gb ohl fbzr qvyvguvhz pelfgnyf, ohg znqr zvfgnxr nsgre
+zvfgnxr va nqqerffvat gur Xyvatba genqre. Gur Xyvatba gubhtug uvf ubabe jnf
+orvat punyyratrq, naq uvf phfgbznel fhfcvpvbaf nobhg Greenaf jrer nyregrq.
+Ur erfcbaqrq natevyl. Gur Greena, nygubhtu ur fcbxr Xyvatba, zvfhaqrefgbbq
+gur cbjre bs ynathntr. Ur gubhtug gur Xyvatba guerngrarq uvz. Gur zhghny
+zvfhaqrefgnaqvatf unq yrguny erfhygf. Hasbeghangryl, rire fvapr Greenaf
+rfgnoyvfurq eryngvbafuvcf jvguva gur Xyvatba Rzcver, fhpu vapvqragf unir
+orra pbzzba.
 
-MD: This tape addresses the problem. In the previous tape in this series,
-<Conversational Klingon>, we studied the words, grammar, and simple
-phrases that a tourist on a short-term stay might require in the Empire.
-In <Power Klingon> we will concentrate on the phrases and situations that
-will be encountered by the serious Klingon traveler, whether a business
-person, a student in residence, a diplomat, or anyone on a mission that
-requires long-term interaction with Klingon society. To succeed in those
-situations you will need to know more than how to order a meal; you will
-need to think like a Klingon. We will concentrate on the use of key words
-and phrases that can mean the difference between: profit and loss, respect
-and dishonor, mating and rejection, life and death. As we have just heard,
-inhabitants of the Klingon planets do not tolerate mistakes gracefully.
-This is *not* Italian.
+ZQ: Guvf gncr nqqerffrf gur ceboyrz. Va gur cerivbhf gncr va guvf frevrf,
+<Pbairefngvbany Xyvatba>, jr fghqvrq gur jbeqf, tenzzne, naq fvzcyr
+cuenfrf gung n gbhevfg ba n fubeg-grez fgnl zvtug erdhver va gur Rzcver.
+Va <Cbjre Xyvatba> jr jvyy pbapragengr ba gur cuenfrf naq fvghngvbaf gung
+jvyy or rapbhagrerq ol gur frevbhf Xyvatba geniryre, jurgure n ohfvarff
+crefba, n fghqrag va erfvqrapr, n qvcybzng, be nalbar ba n zvffvba gung
+erdhverf ybat-grez vagrenpgvba jvgu Xyvatba fbpvrgl. Gb fhpprrq va gubfr
+fvghngvbaf lbh jvyy arrq gb xabj zber guna ubj gb beqre n zrny; lbh jvyy
+arrq gb guvax yvxr n Xyvatba. Jr jvyy pbapragengr ba gur hfr bs xrl jbeqf
+naq cuenfrf gung pna zrna gur qvssrerapr orgjrra: cebsvg naq ybff, erfcrpg
+naq qvfubabe, zngvat naq erwrpgvba, yvsr naq qrngu. Nf jr unir whfg urneq,
+vaunovgnagf bs gur Xyvatba cynargf qb abg gbyrengr zvfgnxrf tenprshyyl.
+Guvf vf *abg* Vgnyvna.
 
-MD: The history of the Empire is filled with conflicts fought over misunderstood
-language, such as the bloody so-called "War of Insults", which lasted nearly
-eight generations. The first step to understanding Klingon is to grasp your own
-power. You need to feel the language becoming an extension of your physical self,
-much as a knife is. Practice the lessons on this tape in front of a mirror, full
-length if possible. Begin by clearing your mind of all doubts, stand tall, and
-feel the muscles working as they generate each word. Deliver your words with as
-much power as you can muster. Project your thoughts as powerfully as your words.
-Klingon is a language of controlled fury. It is also a language that virtually
-requires spitting, so be sure to stand back a bit from the mirror. As you
-exercise these hidden strengths you will feel your physical and spiritual
-muscles hardening and your instincts becoming that of a language warrior. You
-will begin to find the Klingon hidden within you.
+ZQ: Gur uvfgbel bs gur Rzcver vf svyyrq jvgu pbasyvpgf sbhtug bire zvfhaqrefgbbq
+ynathntr, fhpu nf gur oybbql fb-pnyyrq "Jne bs Vafhygf", juvpu ynfgrq arneyl
+rvtug trarengvbaf. Gur svefg fgrc gb haqrefgnaqvat Xyvatba vf gb tenfc lbhe bja
+cbjre. Lbh arrq gb srry gur ynathntr orpbzvat na rkgrafvba bs lbhe culfvpny frys,
+zhpu nf n xavsr vf. Cenpgvpr gur yrffbaf ba guvf gncr va sebag bs n zveebe, shyy
+yratgu vs cbffvoyr. Ortva ol pyrnevat lbhe zvaq bs nyy qbhogf, fgnaq gnyy, naq
+srry gur zhfpyrf jbexvat nf gurl trarengr rnpu jbeq. Qryvire lbhe jbeqf jvgu nf
+zhpu cbjre nf lbh pna zhfgre. Cebwrpg lbhe gubhtugf nf cbjreshyyl nf lbhe jbeqf.
+Xyvatba vf n ynathntr bs pbagebyyrq shel. Vg vf nyfb n ynathntr gung iveghnyyl
+erdhverf fcvggvat, fb or fher gb fgnaq onpx n ovg sebz gur zveebe. Nf lbh
+rkrepvfr gurfr uvqqra fgeratguf lbh jvyy srry lbhe culfvpny naq fcvevghny
+zhfpyrf uneqravat naq lbhe vafgvapgf orpbzvat gung bs n ynathntr jneevbe. Lbh
+jvyy ortva gb svaq gur Xyvatba uvqqra jvguva lbh.
 
-[[# Mark: [04:05] The four ideals of behavior #]]
+[[# Znex: [04:05] Gur sbhe vqrnyf bs orunivbe #]]
 
-MD: Let us start by demonstrating how acceptable Klingon conduct, derived from
-generations of battle behavior, can be conveyed through language. Above all
-else, Klingon warriors value four main ideals of behavior: accuracy,
-straightforwardness, aggressiveness, and strength. By careful use of
-language you can immediately signal your respect for these ideals, thus
-gaining respect. If you are going to operate in Klingon society you must
-have respect.
+ZQ: Yrg hf fgneg ol qrzbafgengvat ubj npprcgnoyr Xyvatba pbaqhpg, qrevirq sebz
+trarengvbaf bs onggyr orunivbe, pna or pbairlrq guebhtu ynathntr. Nobir nyy
+ryfr, Xyvatba jneevbef inyhr sbhe znva vqrnyf bs orunivbe: npphenpl,
+fgenvtugsbejneqarff, ntterffvirarff, naq fgeratgu. Ol pnershy hfr bs
+ynathntr lbh pna vzzrqvngryl fvtany lbhe erfcrpg sbe gurfr vqrnyf, guhf
+tnvavat erfcrpg. Vs lbh ner tbvat gb bcrengr va Xyvatba fbpvrgl lbh zhfg
+unir erfcrpg.
 
-MO: One way to indicate your dedication to accuracy, the first ideal of
-behavior, is to use qualifying suffixes. These are short syllables,
-attached to either nouns or verbs, to indicate the degree of accuracy.
-There are three suffixes for nouns, and three others for verbs.
+ZB: Bar jnl gb vaqvpngr lbhe qrqvpngvba gb npphenpl, gur svefg vqrny bs
+orunivbe, vf gb hfr dhnyvslvat fhssvkrf. Gurfr ner fubeg flyynoyrf,
+nggnpurq gb rvgure abhaf be ireof, gb vaqvpngr gur qrterr bs npphenpl.
+Gurer ner guerr fhssvkrf sbe abhaf, naq guerr bguref sbe ireof.
 
-[[# Mark: [05:04] Accuracy (noun suffixes) #]]
+[[# Znex: [05:04] Npphenpl (abha fhssvkrf) #]]
 
-For nouns the qualifying suffixes indicate whether the noun is
-<so-called>, <apparent>, or <definite>. For these suffixes, and throughout
-this tape, repeat each Klingon word or phrase after you've heard it twice.
+Sbe abhaf gur dhnyvslvat fhssvkrf vaqvpngr jurgure gur abha vf
+<fb-pnyyrq>, <nccnerag>, be <qrsvavgr>. Sbe gurfr fhssvkrf, naq guebhtubhg
+guvf gncr, ercrng rnpu Xyvatba jbeq be cuenfr nsgre lbh'ir urneq vg gjvpr.
 
-The noun suffix for <so-called> is {-qoq}. It indicates that the word is
-being used ironically or inappropriately:
-   {-qoq}
-   {-qoq}
+Gur abha fhssvk sbe <fb-pnyyrq> vf {-dbd}. Vg vaqvpngrf gung gur jbeq vf
+orvat hfrq vebavpnyyl be vanccebcevngryl:
+   {-dbd}
+   {-dbd}
    {...}
 
-Be sure you pronounce the sound at the beginning and end of this suffix as
-far back in your mouth as you can. Again:
-   {-qoq}
-   {-qoq}
+Or fher lbh cebabhapr gur fbhaq ng gur ortvaavat naq raq bs guvf fhssvk nf
+sne onpx va lbhe zbhgu nf lbh pna. Ntnva:
+   {-dbd}
+   {-dbd}
    {...}
 
-For instance, the word for peace is {roj}. If you believe the peace is
-actually nonexistent, you could indicate that it is the <so-called peace>
-by adding the suffix {-qoq}:
-   {rojqoq}
-   {rojqoq}
+Sbe vafgnapr, gur jbeq sbe crnpr vf {ebw}. Vs lbh oryvrir gur crnpr vf
+npghnyyl abarkvfgrag, lbh pbhyq vaqvpngr gung vg vf gur <fb-pnyyrq crnpr>
+ol nqqvat gur fhssvk {-dbd}:
+   {ebwdbd}
+   {ebwdbd}
    {...}
 
-The noun suffix for <apparent> is {-Hey}:
-   {-Hey}
-   {-Hey}
+Gur abha fhssvk sbe <nccnerag> vf {-Url}:
+   {-Url}
+   {-Url}
    {...}
 
-As an example, the word for <strength> is {HoS}. So if you wanted to
-indicate someone's apparent, although not yet proven strength, you could
-say:
-   {HoSHey}
-   {HoSHey}
+Nf na rknzcyr, gur jbeq sbe <fgeratgu> vf {UbF}. Fb vs lbh jnagrq gb
+vaqvpngr fbzrbar'f nccnerag, nygubhtu abg lrg cebira fgeratgu, lbh pbhyq
+fnl:
+   {UbFUrl}
+   {UbFUrl}
    {...}
 
-And the noun suffix for <definite> is {-na'}. It's used when there's no
-doubt in your mind about the accuracy of the statement.
-   {-na'}
-   {-na'}
+Naq gur abha fhssvk sbe <qrsvavgr> vf {-an'}. Vg'f hfrq jura gurer'f ab
+qbhog va lbhe zvaq nobhg gur npphenpl bs gur fgngrzrag.
+   {-an'}
+   {-an'}
    {...}
 
-Notice how the sound stops abruptly at the end of this suffix. It's {-na'},
-not {#-na#}. For instance, the word for leader is {DevwI'}, but a true
-leader, a definitely unquestioned leader is:
-   {DevwI'na'}
-   {DevwI'na'}
+Abgvpr ubj gur fbhaq fgbcf noehcgyl ng gur raq bs guvf fhssvk. Vg'f {-an'},
+abg {#-an#}. Sbe vafgnapr, gur jbeq sbe yrnqre vf {QrijV'}, ohg n gehr
+yrnqre, n qrsvavgryl hadhrfgvbarq yrnqre vf:
+   {QrijV'an'}
+   {QrijV'an'}
    {...}
 
-[[# Mark: [07:08] Accuracy (verb suffixes) #]]
+[[# Znex: [07:08] Npphenpl (ireo fhssvkrf) #]]
 
-Similarly, the three qualifying suffixes for verbs also signify respect
-for accuracy. The verb suffix for <clearly> or <perfectly> is:
-   {-chu'}
-   {-chu'}
+Fvzvyneyl, gur guerr dhnyvslvat fhssvkrf sbe ireof nyfb fvtavsl erfcrpg
+sbe npphenpl. Gur ireo fhssvk sbe <pyrneyl> be <cresrpgyl> vf:
+   {-puh'}
+   {-puh'}
    {...}
 
-The sound stops abruptly at the end of this suffix also. Listen carefully:
-   {-chu'}
-   {-chu'}
+Gur fbhaq fgbcf noehcgyl ng gur raq bs guvf fhssvk nyfb. Yvfgra pnershyyl:
+   {-puh'}
+   {-puh'}
    {...}
 
-The use of this verb suffix indicates that an action in performed
-absolutely properly.
+Gur hfr bs guvf ireo fhssvk vaqvpngrf gung na npgvba va cresbezrq
+nofbyhgryl cebcreyl.
 
-<He aims the photon torpedo.>
-   {'otlh peng Qeq.}
-   {'otlh peng Qeq.}
+<Ur nvzf gur cubgba gbecrqb.>
+   {'bgyu crat Drd.}
+   {'bgyu crat Drd.}
    {...}
 
-<He aims the photon torpedo perfectly.>
-   {'otlh peng Qeqchu'.}
-   {'otlh peng Qeqchu'.}
+<Ur nvzf gur cubgba gbecrqb cresrpgyl.>
+   {'bgyu crat Drdpuh'.}
+   {'bgyu crat Drdpuh'.}
    {...}
 
-The suffix {-bej} means <certainly> or <undoubtedly> or <definitely>:
-   {-bej}
-   {-bej}
+Gur fhssvk {-orw} zrnaf <pregnvayl> be <haqbhogrqyl> be <qrsvavgryl>:
+   {-orw}
+   {-orw}
    {...}
 
-For instance {Dal} means <It is boring>. To get the first sound in that
-word right, make sure your tongue is pointed straight up towards the roof
-of your mouth.
+Sbe vafgnapr {Qny} zrnaf <Vg vf obevat>. Gb trg gur svefg fbhaq va gung
+jbeq evtug, znxr fher lbhe gbathr vf cbvagrq fgenvtug hc gbjneqf gur ebbs
+bs lbhe zbhgu.
 
-If you wanted to say <It's undoubtedly boring.> you would say:
-   {Dalbej.}
-   {Dalbej.}
+Vs lbh jnagrq gb fnl <Vg'f haqbhogrqyl obevat.> lbh jbhyq fnl:
+   {Qnyorw.}
+   {Qnyorw.}
    {...}
 
-And the verb suffix for <seemingly> or <apparently> is:
-   {-law'}
-   {-law'}
+Naq gur ireo fhssvk sbe <frrzvatyl> be <nccneragyl> vf:
+   {-ynj'}
+   {-ynj'}
    {...}
 
-<That ship is tracking us.>
-   {nughoch Dujvetlh.}
-   {nughoch Dujvetlh.}
+<Gung fuvc vf genpxvat hf.>
+   {ahtubpu Qhwirgyu.}
+   {ahtubpu Qhwirgyu.}
    {...}
 
-<That ship is apparently tracking us.>
-   {nughochlaw' Dujvetlh.}
-   {nughochlaw' Dujvetlh.}
+<Gung fuvc vf nccneragyl genpxvat hf.>
+   {ahtubpuynj' Qhwirgyu.}
+   {ahtubpuynj' Qhwirgyu.}
    {...}
 
-This last suffix could also mean <I suspect> or <I think> such as <I
-suspect that ship is tracking us.>
+Guvf ynfg fhssvk pbhyq nyfb zrna <V fhfcrpg> be <V guvax> fhpu nf <V
+fhfcrpg gung fuvc vf genpxvat hf.>
 
-MD: The injection of just a few of these qualifying suffixes, either noun or
-verb, demonstrates that the Terran places a high value on accuracy, and
-therefore on a key part of the ideals of behavior. Now, let us see how the
-prominent display of these other three ideals of proper behavior can also
-enhance your power position, especially in the world of business. Again,
-these other three ideals are: straightforwardness, aggressiveness, and
-strength. Since harmonious relations between the Klingon Empire and the
-Federation have increased, the Empire has experienced a boom in three
-industries: tourism, dilithium crystal mining, and arms trading. Although a
-market economy, the Klingon system operates under nearly full-time war
-conditions. Extreme suspicion, especially of foreigners, is considered
-prudent behavior.
+ZQ: Gur vawrpgvba bs whfg n srj bs gurfr dhnyvslvat fhssvkrf, rvgure abha be
+ireo, qrzbafgengrf gung gur Greena cynprf n uvtu inyhr ba npphenpl, naq
+gurersber ba n xrl cneg bs gur vqrnyf bs orunivbe. Abj, yrg hf frr ubj gur
+cebzvarag qvfcynl bs gurfr bgure guerr vqrnyf bs cebcre orunivbe pna nyfb
+raunapr lbhe cbjre cbfvgvba, rfcrpvnyyl va gur jbeyq bs ohfvarff. Ntnva,
+gurfr bgure guerr vqrnyf ner: fgenvtugsbejneqarff, ntterffvirarff, naq
+fgeratgu. Fvapr unezbavbhf eryngvbaf orgjrra gur Xyvatba Rzcver naq gur
+Srqrengvba unir vapernfrq, gur Rzcver unf rkcrevraprq n obbz va guerr
+vaqhfgevrf: gbhevfz, qvyvguvhz pelfgny zvavat, naq nezf genqvat. Nygubhtu n
+znexrg rpbabzl, gur Xyvatba flfgrz bcrengrf haqre arneyl shyy-gvzr jne
+pbaqvgvbaf. Rkgerzr fhfcvpvba, rfcrpvnyyl bs sbervtaref, vf pbafvqrerq
+cehqrag orunivbe.
 
-[[# Mark: [10:33] Straightforwardness #]]
+[[# Znex: [10:33] Fgenvtugsbejneqarff #]]
 
-Klingons do not bargain or haggle, and every deal, whether you are buyer
-or seller, is a take-it-or-leave-it proposition. Every business deal,
-especially with a foreigner, is considered a kind of ritual battle. So your
-reference to the ideals of behavior is important, since it indicates you
-are a worthy opponent for this ritual. In practice many deals in the Empire
-are increasingly conducted in Federation Standard, which is fast becoming
-the intergalactic language of commerce. Even so, it would be useful in this
-ritual to reach into your quiver of combat Klingon phrases now and again.
-This indicates your attentiveness to accepted ideals of behavior. As we
-have indicated, the use of noun and verb suffixes to indicate the first
-ideal, accuracy, can help minimize those suspicions. Applying the second
-ideal of behavior, straightforwardness, can also be helpful. There is a
-simple, although sometimes overlooked way to indicate straightforwardness,
-always begin talking immediately about the matter at hand. Greetings,
-pleasantries, and small talk are considered signs of duplicity. Remember how
-the unfortunate Terran, heard at the beginning of this tape, initiated his
-deal discussion.
+Xyvatbaf qb abg onetnva be unttyr, naq rirel qrny, jurgure lbh ner ohlre
+be fryyre, vf n gnxr-vg-be-yrnir-vg cebcbfvgvba. Rirel ohfvarff qrny,
+rfcrpvnyyl jvgu n sbervtare, vf pbafvqrerq n xvaq bs evghny onggyr. Fb lbhe
+ersrerapr gb gur vqrnyf bs orunivbe vf vzcbegnag, fvapr vg vaqvpngrf lbh
+ner n jbegul bccbarag sbe guvf evghny. Va cenpgvpr znal qrnyf va gur Rzcver
+ner vapernfvatyl pbaqhpgrq va Srqrengvba Fgnaqneq, juvpu vf snfg orpbzvat
+gur vagretnynpgvp ynathntr bs pbzzrepr. Rira fb, vg jbhyq or hfrshy va guvf
+evghny gb ernpu vagb lbhe dhvire bs pbzong Xyvatba cuenfrf abj naq ntnva.
+Guvf vaqvpngrf lbhe nggragvirarff gb npprcgrq vqrnyf bs orunivbe. Nf jr
+unir vaqvpngrq, gur hfr bs abha naq ireo fhssvkrf gb vaqvpngr gur svefg
+vqrny, npphenpl, pna uryc zvavzvmr gubfr fhfcvpvbaf. Nccylvat gur frpbaq
+vqrny bs orunivbe, fgenvtugsbejneqarff, pna nyfb or urycshy. Gurer vf n
+fvzcyr, nygubhtu fbzrgvzrf bireybbxrq jnl gb vaqvpngr fgenvtugsbejneqarff,
+nyjnlf ortva gnyxvat vzzrqvngryl nobhg gur znggre ng unaq. Terrgvatf,
+cyrnfnagevrf, naq fznyy gnyx ner pbafvqrerq fvtaf bs qhcyvpvgl. Erzrzore ubj
+gur hasbeghangr Greena, urneq ng gur ortvaavat bs guvf gncr, vavgvngrq uvf
+qrny qvfphffvba.
 
-KM: <What do you want?>
-MO: {nuqneH?}
+XZ: <Jung qb lbh jnag?>
+ZB: {ahdarU?}
 
-HM: <Beautiful day, isn't it? Can we talk?>
-MO: {'IH jaj, qar'a'? maja'chuqjaj.}
+UZ: <Ornhgvshy qnl, vfa'g vg? Pna jr gnyx?>
+ZB: {'VU wnw, dne'n'? znwn'puhdwnw.}
 
-KM: <I do not care.>
-MO: {jISaHbe'.}
+XZ: <V qb abg pner.>
+ZB: {wVFnUor'.}
 
-MD: The Terran began on the wrong foot, by indicating something much less than
-straightforwardness. He undoubtedly will not do that again. Let us see how
-attention to straightforwardness would have fared better:
+ZQ: Gur Greena ortna ba gur jebat sbbg, ol vaqvpngvat fbzrguvat zhpu yrff guna
+fgenvtugsbejneqarff. Ur haqbhogrqyl jvyy abg qb gung ntnva. Yrg hf frr ubj
+nggragvba gb fgenvtugsbejneqarff jbhyq unir snerq orggre:
 
-KM: <What do you want?>
-MO: {nuqneH?}
+XZ: <Jung qb lbh jnag?>
+ZB: {ahdarU?}
 
-HM: <I want to buy dilithium crystals.>
-MO: {cha'pujqutmey vIje' vIneH.}
+UZ: <V jnag gb ohl qvyvguvhz pelfgnyf.>
+ZB: {pun'chwdhgzrl iVwr' iVarU.}
 
-KM: <Come with me!>
-MO: {HItlhej.}
+XZ: <Pbzr jvgu zr!>
+ZB: {UVgyurw.}
 
-[[# Mark: [13:21] Aggressiveness and strength #]]
+[[# Znex: [13:21] Ntterffvirarff naq fgeratgu #]]
 
-MD: Now let us move on to the last two ideals, namely: aggressiveness and
-strength. Here are a few phrases which indicate these ideals. Use them
-frequently in whatever circumstances that may be appropriate:
+ZQ: Abj yrg hf zbir ba gb gur ynfg gjb vqrnyf, anzryl: ntterffvirarff naq
+fgeratgu. Urer ner n srj cuenfrf juvpu vaqvpngr gurfr vqrnyf. Hfr gurz
+serdhragyl va jungrire pvephzfgnaprf gung znl or nccebcevngr:
 
-HF: <No problem.>
-MO: {qay'be'.}
-   {qay'be'.}
+US: <Ab ceboyrz.>
+ZB: {dnl'or'.}
+   {dnl'or'.}
    {...}
 
-HF: <Hurry up!>
-MO: {tugh.}
-   {tugh.}
+US: <Uheel hc!>
+ZB: {ghtu.}
+   {ghtu.}
    {...}
 
-HF: <Shut up!>
-MO: {bIjatlh 'e' yImev.}
-   {bIjatlh 'e' yImev.}
+US: <Fuhg hc!>
+ZB: {oVwngyu 'r' lVzri.}
+   {oVwngyu 'r' lVzri.}
    {...}
 
-MO: If you're the buyer you can say:
+ZB: Vs lbh'er gur ohlre lbh pna fnl:
 
-HF: <Sell it to me now!>
-MO: {DaH jIHvaD yIngev.}
-   {DaH jIHvaD yIngev.}
+US: <Fryy vg gb zr abj!>
+ZB: {QnU wVUinQ lVatri.}
+   {QnU wVUinQ lVatri.}
    {...}
 
-That sound in the middle of the last word is the same as the sound at the
-end of the Federation Standard "sing". Be sure to say {ngev}, not {#nev#}
-or {#nyev#}.
+Gung fbhaq va gur zvqqyr bs gur ynfg jbeq vf gur fnzr nf gur fbhaq ng gur
+raq bs gur Srqrengvba Fgnaqneq "fvat". Or fher gb fnl {atri}, abg {#ari#}
+be {#alri#}.
 
-Or, if you're the seller you can say:
+Be, vs lbh'er gur fryyre lbh pna fnl:
 
-HF: <Pay or die.>
-MO: {bIDIlbe'chugh, vaj bIHegh.}
-   {bIDIlbe'chugh, vaj bIHegh.}
+US: <Cnl be qvr.>
+ZB: {oVQVyor'puhtu, inw oVUrtu.}
+   {oVQVyor'puhtu, inw oVUrtu.}
    {...}
 
-MD: These next two phrases, which also indicate aggressiveness and strength,
-may sound like invitations to begin fighting. In fact, they are common
-idioms whose origins are lost to antiquity.
+ZQ: Gurfr arkg gjb cuenfrf, juvpu nyfb vaqvpngr ntterffvirarff naq fgeratgu,
+znl fbhaq yvxr vaivgngvbaf gb ortva svtugvat. Va snpg, gurl ner pbzzba
+vqvbzf jubfr bevtvaf ner ybfg gb nagvdhvgl.
 
-The first one often has the same effect as saying "Do not try to mislead
-me if you value your life", but literally translated it means:
+Gur svefg bar bsgra unf gur fnzr rssrpg nf fnlvat "Qb abg gel gb zvfyrnq
+zr vs lbh inyhr lbhe yvsr", ohg yvgrenyyl genafyngrq vg zrnaf:
 
-HF: <If you shine my nose, I will give you *your* nose.>
-MO: {ghIchwIj DabochmoHchugh, ghIchlIj qanob.}
-   {ghIchwIj DabochmoHchugh, ghIchlIj qanob.}
+US: <Vs lbh fuvar zl abfr, V jvyy tvir lbh *lbhe* abfr.>
+ZB: {tuVpujVw QnobpuzbUpuhtu, tuVpuyVw dnabo.}
+   {tuVpujVw QnobpuzbUpuhtu, tuVpuyVw dnabo.}
    {...}
 
-The other idiomatic phrase generally means "I am much stronger than you."
-Literally translated it means:
+Gur bgure vqvbzngvp cuenfr trarenyyl zrnaf "V nz zhpu fgebatre guna lbh."
+Yvgrenyyl genafyngrq vg zrnaf:
 
-HF: <My blood is thicker than yours.>
-MO: {'IwwIj jeD law' 'IwlIj jeD puS.}
-   {'IwwIj jeD law' 'IwlIj jeD puS.}
+US: <Zl oybbq vf guvpxre guna lbhef.>
+ZB: {'VjjVw wrQ ynj' 'VjyVw wrQ chF.}
+   {'VjjVw wrQ ynj' 'VjyVw wrQ chF.}
    {...}
 
-[[# Mark: [15:51] Business deal (dialogue) #]]
+[[# Znex: [15:51] Ohfvarff qrny (qvnybthr) #]]
 
-MD: Now let us put this all together and see how our Terran could have used
-some of these suffixes and phrases, as well as a straightforward approach,
-to bolster his position. Note how the Klingon trader's attitude changes as
-he realizes that the Terran is exhibiting all the expected ideals of
-accuracy, straightforwardness, aggressiveness, and strength.
+ZQ: Abj yrg hf chg guvf nyy gbtrgure naq frr ubj bhe Greena pbhyq unir hfrq
+fbzr bs gurfr fhssvkrf naq cuenfrf, nf jryy nf n fgenvtugsbejneq nccebnpu,
+gb obyfgre uvf cbfvgvba. Abgr ubj gur Xyvatba genqre'f nggvghqr punatrf nf
+ur ernyvmrf gung gur Greena vf rkuvovgvat nyy gur rkcrpgrq vqrnyf bs
+npphenpl, fgenvtugsbejneqarff, ntterffvirarff, naq fgeratgu.
 
-KM: <What do you want?>
-MO: {nuqneH?}
+XZ: <Jung qb lbh jnag?>
+ZB: {ahdarU?}
 
-HM: <I definitely want to buy dilithium crystals.>
-MO: {cha'pujqutmey vIje' vIneHbej.}
+UZ: <V qrsvavgryl jnag gb ohl qvyvguvhz pelfgnyf.>
+ZB: {pun'chwdhgzrl iVwr' iVarUorw.}
 
-KM: <I understand. Come with me!>
-MO: {jIyaj. HItlhej.}
+XZ: <V haqrefgnaq. Pbzr jvgu zr!>
+ZB: {wVlnw. UVgyurw.}
 
-HM: <Here they are. Two thousand credits. Hurry up!>
-MO: {naDev bIHtaH. cha'SaD DeQ. tugh.}
+UZ: <Urer gurl ner. Gjb gubhfnaq perqvgf. Uheel hc!>
+ZB: {anQri oVUgnU. pun'FnQ QrD. ghtu.}
 
-KM: <Pay or die.>
-MO: {bIDIlbe'chugh, vaj bIHegh.}
+XZ: <Cnl be qvr.>
+ZB: {oVQVyor'puhtu, inw oVUrtu.}
 
-HM: <Shut up! I definitely want them.>
-MO: {bIjatlh 'e' yImev. vIneHbej.}
+UZ: <Fuhg hc! V qrsvavgryl jnag gurz.>
+ZB: {oVwngyu 'r' lVzri. iVarUorw.}
 
-HM: <If you shine my nose, I will give you *your* nose.>
-MO: {ghIchwIj DabochmoHchugh, ghIchlIj qanob.}
+UZ: <Vs lbh fuvar zl abfr, V jvyy tvir lbh *lbhe* abfr.>
+ZB: {tuVpujVw QnobpuzbUpuhtu, tuVpuyVw dnabo.}
 
-HM: <Take the credits!>
-MO: {DeQ tItlhap.}
+UZ: <Gnxr gur perqvgf!>
+ZB: {QrD gVgyunc.}
 
-KM: <You transact business honorably.>
-MO: {batlh malja' DaHuq.}
+XZ: <Lbh genafnpg ohfvarff ubabenoyl.>
+ZB: {ongyu znywn' QnUhd.}
 
-MD: Now, take a brief break. <Relax!>
-MO: {yIleS.}
+ZQ: Abj, gnxr n oevrs oernx. <Erynk!>
+ZB: {lVyrF.}
 
-[[# Mark: [17:40] Ordering drinks #]]
+[[# Znex: [17:40] Beqrevat qevaxf #]]
 
-MD: <Stop relaxing!>
-MO: {bIleS 'e' yImev.}
+ZQ: <Fgbc erynkvat!>
+ZB: {oVyrF 'r' lVzri.}
 
-MD: We have seen how the careful use of a few suffixes, words, and phrases can
-increase your position in a business deal. A successful deal with a Klingon
-trader will frequently be sealed by a toast, usually at a nearby bar. The
-person who initiated the deal makes the first toast. In this situation, as
-well, there are a few important ways to use the Klingon language as a means
-of increasing your power and acceptance. Your first consideration is what
-drink to order. Terran tourists never drink Romulan ale, because of its
-potency, but the savvy business person who wants to develop and impress
-Klingon clientele will have made the utmost effort to develop a
-tolerance for the brew. If you do so, and are able to utter the following
-phrase to the waiter, you will see your standing literally jump in the eyes
-of your business acquaintance.
+ZQ: Jr unir frra ubj gur pnershy hfr bs n srj fhssvkrf, jbeqf, naq cuenfrf pna
+vapernfr lbhe cbfvgvba va n ohfvarff qrny. N fhpprffshy qrny jvgu n Xyvatba
+genqre jvyy serdhragyl or frnyrq ol n gbnfg, hfhnyyl ng n arneol one. Gur
+crefba jub vavgvngrq gur qrny znxrf gur svefg gbnfg. Va guvf fvghngvba, nf
+jryy, gurer ner n srj vzcbegnag jnlf gb hfr gur Xyvatba ynathntr nf n zrnaf
+bs vapernfvat lbhe cbjre naq npprcgnapr. Lbhe svefg pbafvqrengvba vf jung
+qevax gb beqre. Greena gbhevfgf arire qevax Ebzhyna nyr, orpnhfr bs vgf
+cbgrapl, ohg gur fniil ohfvarff crefba jub jnagf gb qrirybc naq vzcerff
+Xyvatba pyvragryr jvyy unir znqr gur hgzbfg rssbeg gb qrirybc n
+gbyrenapr sbe gur oerj. Vs lbh qb fb, naq ner noyr gb hggre gur sbyybjvat
+cuenfr gb gur jnvgre, lbh jvyy frr lbhe fgnaqvat yvgrenyyl whzc va gur rlrf
+bs lbhe ohfvarff npdhnvagnapr.
 
-HF: <Waiter.>
-MO: {jabwI'.}
-   {jabwI'.}
+US: <Jnvgre.>
+ZB: {wnojV'.}
+   {wnojV'.}
    {...}
 
-HF: <I will drink Romulan ale.>
-MO: {romuluS HIq vItlhutlh.}
-   {romuluS HIq vItlhutlh.}
+US: <V jvyy qevax Ebzhyna nyr.>
+ZB: {ebzhyhF UVd iVgyuhgyu.}
+   {ebzhyhF UVd iVgyuhgyu.}
    {...}
 
-HF: <Fill a large glass!>
-MO: {HIvje' tIn yIteb.}
-   {HIvje' tIn yIteb.}
+US: <Svyy n ynetr tynff!>
+ZB: {UViwr' gVa lVgro.}
+   {UViwr' gVa lVgro.}
    {...}
 
-HF: <Do not bring ice!>
-MO: {chuch yIqemQo'.}
-   {chuch yIqemQo'.}
+US: <Qb abg oevat vpr!>
+ZB: {puhpu lVdrzDb'.}
+   {puhpu lVdrzDb'.}
    {...}
 
-MD: If you simply cannot tolerate, or have not yet tried Romulan ale, do *not*
-order it. Here are two phrases for other drinks, which, while not having the
-impact of Romulan ale, are still impressive. Skip the Regulan bloodwine and
-black ale, which are known as tourist drinks. And, as in most foreign
-establishments, ordering in the native language still counts for something.
+ZQ: Vs lbh fvzcyl pnaabg gbyrengr, be unir abg lrg gevrq Ebzhyna nyr, qb *abg*
+beqre vg. Urer ner gjb cuenfrf sbe bgure qevaxf, juvpu, juvyr abg univat gur
+vzcnpg bs Ebzhyna nyr, ner fgvyy vzcerffvir. Fxvc gur Erthyna oybbqjvar naq
+oynpx nyr, juvpu ner xabja nf gbhevfg qevaxf. Naq, nf va zbfg sbervta
+rfgnoyvfuzragf, beqrevat va gur angvir ynathntr fgvyy pbhagf sbe fbzrguvat.
 
-HF: <I will drink boiling wormwine.>
-MO: {pubtaHbogh ghargh HIq vItlhutlh.}
-   {pubtaHbogh ghargh HIq vItlhutlh.}
+US: <V jvyy qevax obvyvat jbezjvar.>
+ZB: {chognUobtu tunetu UVd iVgyuhgyu.}
+   {chognUobtu tunetu UVd iVgyuhgyu.}
    {...}
 
-MD: Or you could say:
+ZQ: Be lbh pbhyq fnl:
 
-HF: <I will drink two century old ale.>
-MO: {cha'vatlh ben HIq vItlhutlh.}
-   {cha'vatlh ben HIq vItlhutlh.}
+US: <V jvyy qevax gjb praghel byq nyr.>
+ZB: {pun'ingyu ora UVd iVgyuhgyu.}
+   {pun'ingyu ora UVd iVgyuhgyu.}
    {...}
 
-MO: Be sure you say the word for <drink> correctly, it is {tlhutlh}. If you
-mispronounce it, who knows what you'll be saying you plan to do with the wine or
-the ale? The word begins and ends with the same sound, sort of a combination "t"
-and whispered "l".
-MO: {tlhutlh}
-   {tlhutlh}
+ZB: Or fher lbh fnl gur jbeq sbe <qevax> pbeerpgyl, vg vf {gyuhgyu}. Vs lbh
+zvfcebabhapr vg, jub xabjf jung lbh'yy or fnlvat lbh cyna gb qb jvgu gur jvar be
+gur nyr? Gur jbeq ortvaf naq raqf jvgu gur fnzr fbhaq, fbeg bs n pbzovangvba "g"
+naq juvfcrerq "y".
+ZB: {gyuhgyu}
+   {gyuhgyu}
    {...}
 
-[[# Mark: [20:39] Toasting #]]
+[[# Znex: [20:39] Gbnfgvat #]]
 
-MD: When the drinks arrive it is important to use only the handful of accepted
-toasts. You cannot simply say "To your health!" even if it were in Klingon,
-because it would be considered too bland. The following are some acceptable
-toasts. It does not matter which ones are used by the deal initiator and which
-by the deal acceptor, but it does matter that you recite them in Klingon with
-force and gusto. You must also be careful to get the toast absolutely correct.
-Klingons take their toasts very seriously, and many toasts follow special
-grammatical rules. A recent Federation inquiry into a fatality at a bar on
-Kronos indicated that the offending Terran simply reversed the order of two
-words in a toast, thereby offending all the previous and several succeeding
-generations of the toastee. As of the release of this tape they were still
-finding his pieces.
+ZQ: Jura gur qevaxf neevir vg vf vzcbegnag gb hfr bayl gur unaqshy bs npprcgrq
+gbnfgf. Lbh pnaabg fvzcyl fnl "Gb lbhe urnygu!" rira vs vg jrer va Xyvatba,
+orpnhfr vg jbhyq or pbafvqrerq gbb oynaq. Gur sbyybjvat ner fbzr npprcgnoyr
+gbnfgf. Vg qbrf abg znggre juvpu barf ner hfrq ol gur qrny vavgvngbe naq juvpu
+ol gur qrny npprcgbe, ohg vg qbrf znggre gung lbh erpvgr gurz va Xyvatba jvgu
+sbepr naq thfgb. Lbh zhfg nyfb or pnershy gb trg gur gbnfg nofbyhgryl pbeerpg.
+Xyvatbaf gnxr gurve gbnfgf irel frevbhfyl, naq znal gbnfgf sbyybj fcrpvny
+tenzzngvpny ehyrf. N erprag Srqrengvba vadhvel vagb n sngnyvgl ng n one ba
+Xebabf vaqvpngrq gung gur bssraqvat Greena fvzcyl erirefrq gur beqre bs gjb
+jbeqf va n gbnfg, gurerol bssraqvat nyy gur cerivbhf naq frireny fhpprrqvat
+trarengvbaf bs gur gbnfgrr. Nf bs gur eryrnfr bs guvf gncr gurl jrer fgvyy
+svaqvat uvf cvrprf.
 
-So, repeat these toasts exactly:
+Fb, ercrng gurfr gbnfgf rknpgyl:
 
-KM: <May your blood scream.>
-MO: {'IwlIj jachjaj.}
-   {'IwlIj jachjaj.}
+XZ: <Znl lbhe oybbq fpernz.>
+ZB: {'VjyVw wnpuwnw.}
+   {'VjyVw wnpuwnw.}
    {...}
 
-KM: <May you always find a bloodworm in your glass.>
-MO: {reH HIvje'lIjDaq 'Iwghargh Datu'jaj.}
-   {reH HIvje'lIjDaq 'Iwghargh Datu'jaj.}
+XZ: <Znl lbh nyjnlf svaq n oybbqjbez va lbhe tynff.>
+ZB: {erU UViwr'yVwQnd 'Vjtunetu Qngh'wnw.}
+   {erU UViwr'yVwQnd 'Vjtunetu Qngh'wnw.}
    {...}
 
-KM: <May your coordinates be free of tribbles.>
-MO: {QuvlIjDaq yIH tu'be'lu'jaj.}
-   {QuvlIjDaq yIH tu'be'lu'jaj.}
+XZ: <Znl lbhe pbbeqvangrf or serr bs gevooyrf.>
+ZB: {DhiyVwQnd lVU gh'or'yh'wnw.}
+   {DhiyVwQnd lVU gh'or'yh'wnw.}
    {...}
 
-KM: <May you die in battle.>
-MO: {bISuvtaHvIS bIHeghjaj.}
-   {bISuvtaHvIS bIHeghjaj.}
+XZ: <Znl lbh qvr va onggyr.>
+ZB: {oVFhignUiVF oVUrtuwnw.}
+   {oVFhignUiVF oVUrtuwnw.}
    {...}
 
-KM: <May you endure the pain.>
-MO: {'oy' DaSIQjaj.}
-   {'oy' DaSIQjaj.}
+XZ: <Znl lbh raqher gur cnva.>
+ZB: {'bl' QnFVDwnw.}
+   {'bl' QnFVDwnw.}
    {...}
 
-KM: <Klingons forever!>
-MO: {reH tlhInganpu' taHjaj.}
-   {reH tlhInganpu' taHjaj.}
+XZ: <Xyvatbaf sberire!>
+ZB: {erU gyuVatnach' gnUwnw.}
+   {erU gyuVatnach' gnUwnw.}
    {...}
 
-[[# Mark: [23:14] Cursing #]]
+[[# Znex: [23:14] Phefvat #]]
 
-MD: After the toasts, your deal partner will probably participate in what is known
-as a {mu'qaD veS}. This can be translated as <curse warfare>. It is a
-ritualized contest of cursing that the renowned galactic ethnologist, Dr.
-Frederick Ramnanberg(?) of the Federation Institute for Bio-Diverse Studies, has
-compared to the ancient game of football that some Federation planets still
-enjoy. {mu'qaD veS}, like football, is a highly stylized warfare substitute,
-characterized by violent gestures, agility, a high degree of competition, and
-betting. But while football is clearly divided into participants and spectators,
-everyone within earshot of a curse warfare match is a potential, or actual,
-participant and only becomes a spectator when beaten. If you are a tourist in a
-bar when curse warfare begins, noone will expect you to participate, but if
-you are a long-term visitor and, especially if you have just concluded a deal,
-you can certainly enhance your status by getting in a few good curses. This is
-one area where practice in front of a mirror will come in handy, since
-performance is nearly as important as the words themselves.
+ZQ: Nsgre gur gbnfgf, lbhe qrny cnegare jvyy cebonoyl cnegvpvcngr va jung vf xabja
+nf n {zh'dnQ irF}. Guvf pna or genafyngrq nf <phefr jnesner>. Vg vf n
+evghnyvmrq pbagrfg bs phefvat gung gur erabjarq tnynpgvp rguabybtvfg, Qe.
+Serqrevpx Enzanaoret(?) bs gur Srqrengvba Vafgvghgr sbe Ovb-Qvirefr Fghqvrf, unf
+pbzcnerq gb gur napvrag tnzr bs sbbgonyy gung fbzr Srqrengvba cynargf fgvyy
+rawbl. {zh'dnQ irF}, yvxr sbbgonyy, vf n uvtuyl fglyvmrq jnesner fhofgvghgr,
+punenpgrevmrq ol ivbyrag trfgherf, ntvyvgl, n uvtu qrterr bs pbzcrgvgvba, naq
+orggvat. Ohg juvyr sbbgonyy vf pyrneyl qvivqrq vagb cnegvpvcnagf naq fcrpgngbef,
+rirelbar jvguva rnefubg bs n phefr jnesner zngpu vf n cbgragvny, be npghny,
+cnegvpvcnag naq bayl orpbzrf n fcrpgngbe jura orngra. Vs lbh ner n gbhevfg va n
+one jura phefr jnesner ortvaf, abbar jvyy rkcrpg lbh gb cnegvpvcngr, ohg vs
+lbh ner n ybat-grez ivfvgbe naq, rfcrpvnyyl vs lbh unir whfg pbapyhqrq n qrny,
+lbh pna pregnvayl raunapr lbhe fgnghf ol trggvat va n srj tbbq phefrf. Guvf vf
+bar nern jurer cenpgvpr va sebag bs n zveebe jvyy pbzr va unaql, fvapr
+cresbeznapr vf arneyl nf vzcbegnag nf gur jbeqf gurzfryirf.
 
-MO: Here are a few of the most common curses. Repeat each one with as much power and
-style as you can project.
+ZB: Urer ner n srj bs gur zbfg pbzzba phefrf. Ercrng rnpu bar jvgu nf zhpu cbjre naq
+fglyr nf lbh pna cebwrpg.
 
-HM: <Go mate with your targ!>
-MO: {targhlIj yIngagh! yIruch!}
-   {targhlIj yIngagh! yIruch!}
+UZ: <Tb zngr jvgu lbhe gnet!>
+ZB: {gnetuyVw lVatntu! lVehpu!}
+   {gnetuyVw lVatntu! lVehpu!}
    {...}
 
-HM: <Your face looks like a collapsed star.>
-MO: {Dejpu'bogh Hov rur qablIj.}
-   {Dejpu'bogh Hov rur qablIj.}
+UZ: <Lbhe snpr ybbxf yvxr n pbyyncfrq fgne.>
+ZB: {Qrwch'obtu Ubi ehe dnoyVw.}
+   {Qrwch'obtu Ubi ehe dnoyVw.}
    {...}
 
-HM: <Your targ has a bigger brain than all your ancestors put together.>
-MO: {targhlIj yab tIn law' no'lI' Hoch yabDu' tIn puS.}
-   {targhlIj yab tIn law' no'lI' Hoch yabDu' tIn puS.}
+UZ: <Lbhe gnet unf n ovttre oenva guna nyy lbhe naprfgbef chg gbtrgure.>
+ZB: {gnetuyVw lno gVa ynj' ab'yV' Ubpu lnoQh' gVa chF.}
+   {gnetuyVw lno gVa ynj' ab'yV' Ubpu lnoQh' gVa chF.}
    {...}
 
-HM: <You belong in a black hole in the netherworld.>
-MO: {ghe''orDaq luSpet 'oH DaqlIj'e'.}
-   {ghe''orDaq luSpet 'oH DaqlIj'e'.}
+UZ: <Lbh orybat va n oynpx ubyr va gur argurejbeyq.>
+ZB: {tur''beQnd yhFcrg 'bU QndyVw'r'.}
+   {tur''beQnd yhFcrg 'bU QndyVw'r'.}
    {...}
 
-HM: <You are a total waste of good energy.>
-MO: {HoS lI' Dalo'Ha'chu'.}
-   {HoS lI' Dalo'Ha'chu'.}
+UZ: <Lbh ner n gbgny jnfgr bs tbbq raretl.>
+ZB: {UbF yV' Qnyb'Un'puh'.}
+   {UbF yV' Qnyb'Un'puh'.}
    {...}
 
-And the most insulting curse of all:
+Naq gur zbfg vafhygvat phefr bs nyy:
 
-HM: <Your mother has a smooth forehead.>
-MO: {Hab SoSlI' Quch.}
-   {Hab SoSlI' Quch.}
+UZ: <Lbhe zbgure unf n fzbbgu sberurnq.>
+ZB: {Uno FbFyV' Dhpu.}
+   {Uno FbFyV' Dhpu.}
    {...}
 
-MO: Be sure to pronounce the word for forehead correctly; it is {Quch}. The sound at
-the beginning is a noisy one, made as far back in your throat as you can go: {Q},
-{Q}. If you don't say it right you may end up saying {Huch} instead of {Quch},
-and then you'd be talking about <money> instead of a <forehead>.
+ZB: Or fher gb cebabhapr gur jbeq sbe sberurnq pbeerpgyl; vg vf {Dhpu}. Gur fbhaq ng
+gur ortvaavat vf n abvfl bar, znqr nf sne onpx va lbhe guebng nf lbh pna tb: {D},
+{D}. Vs lbh qba'g fnl vg evtug lbh znl raq hc fnlvat {Uhpu} vafgrnq bs {Dhpu},
+naq gura lbh'q or gnyxvat nobhg <zbarl> vafgrnq bs n <sberurnq>.
 
-MD: If you ever do engage in a bout of Klingon curse warfare, just remember that it
-is not personal and should be kept on a purely verbal basis, unless, of course,
-you actually like physical contact and are good at it, which is beyond the
-scope of this tape.
+ZQ: Vs lbh rire qb ratntr va n obhg bs Xyvatba phefr jnesner, whfg erzrzore gung vg
+vf abg crefbany naq fubhyq or xrcg ba n cheryl ireony onfvf, hayrff, bs pbhefr,
+lbh npghnyyl yvxr culfvpny pbagnpg naq ner tbbq ng vg, juvpu vf orlbaq gur
+fpbcr bs guvf gncr.
 
-MD: Now <We will take a quick break.>
-MO: {loQ mayev.}
+ZQ: Abj <Jr jvyy gnxr n dhvpx oernx.>
+ZB: {ybD znlri.}
 
-[[# Mark: [27:05] Addressing a superior #]]
+[[# Znex: [27:05] Nqqerffvat n fhcrevbe #]]
 
-MD: <Stop breaking!>
-MO: {bIyev 'e' yImev.}
+ZQ: <Fgbc oernxvat!>
+ZB: {oVlri 'r' lVzri.}
 
-MD: Curse warfare is one arena of Klingon life where everyone begins as an equal,
-but in everyday life Klingon society is divided by a class system. The Empire's
-class system is primarily a military one, with the top echelons occupied by the
-Emperor and his retinue. One way for a foreigner to assert power is to recognize
-it and ally oneself with it, and in the Empire respect comes to those who
-assert power. You will usually know who is most powerful by the Klingon military
-markings. Virtually everyone wears them. You can become familiar with these
-markings through the database maintained by the Federation's Intergalactic Office
-of Military Protocol. As an old Klingon proverb says: "If you want to prosper,
-remember to honor honor."
+ZQ: Phefr jnesner vf bar neran bs Xyvatba yvsr jurer rirelbar ortvaf nf na rdhny,
+ohg va rirelqnl yvsr Xyvatba fbpvrgl vf qvivqrq ol n pynff flfgrz. Gur Rzcver'f
+pynff flfgrz vf cevznevyl n zvyvgnel bar, jvgu gur gbc rpurybaf bpphcvrq ol gur
+Rzcrebe naq uvf ergvahr. Bar jnl sbe n sbervtare gb nffreg cbjre vf gb erpbtavmr
+vg naq nyyl barfrys jvgu vg, naq va gur Rzcver erfcrpg pbzrf gb gubfr jub
+nffreg cbjre. Lbh jvyy hfhnyyl xabj jub vf zbfg cbjreshy ol gur Xyvatba zvyvgnel
+znexvatf. Iveghnyyl rirelbar jrnef gurz. Lbh pna orpbzr snzvyvne jvgu gurfr
+znexvatf guebhtu gur qngnonfr znvagnvarq ol gur Srqrengvba'f Vagretnynpgvp Bssvpr
+bs Zvyvgnel Cebgbpby. Nf na byq Xyvatba cebireo fnlf: "Vs lbh jnag gb cebfcre,
+erzrzore gb ubabe ubabe."
 
-MO: When addressing someone of higher rank you may use the suffix {-neS}. It's an
-honorific and is attached to the verb when showing deference. It's never
-required. Here are some practical phrases:
+ZB: Jura nqqerffvat fbzrbar bs uvture enax lbh znl hfr gur fhssvk {-arF}. Vg'f na
+ubabevsvp naq vf nggnpurq gb gur ireo jura fubjvat qrsrerapr. Vg'f arire
+erdhverq. Urer ner fbzr cenpgvpny cuenfrf:
 
-HF: <I am honored to see you.>
-MO: {qaleghneS.}
-   {qaleghneS.}
+US: <V nz ubaberq gb frr lbh.>
+ZB: {dnyrtuarF.}
+   {dnyrtuarF.}
    {...}
 
-Be sure to get the vowel right in this suffix. It's {e}, {e} do not say {I}. If
-you say {qaleghnIS} instead of {qaleghneS} you'll be saying <I need to see you>
-instead of <I'm honored to see you.>
+Or fher gb trg gur ibjry evtug va guvf fhssvk. Vg'f {r}, {r} qb abg fnl {V}. Vs
+lbh fnl {dnyrtuaVF} vafgrnq bs {dnyrtuarF} lbh'yy or fnlvat <V arrq gb frr lbh>
+vafgrnq bs <V'z ubaberq gb frr lbh.>
 
-HF: <Your gunners are skilled, your honor.>
-MO: {po'neS baHwI'pu'lI'.}
-   {po'neS baHwI'pu'lI'.}
+US: <Lbhe thaaref ner fxvyyrq, lbhe ubabe.>
+ZB: {cb'arF onUjV'ch'yV'.}
+   {cb'arF onUjV'ch'yV'.}
    {...}
 
-HF: <Your wealth is impressive, your honor.>
-MO: {DojneS mIplIj.}
-   {DojneS mIplIj.}
+US: <Lbhe jrnygu vf vzcerffvir, lbhe ubabe.>
+ZB: {QbwarF zVcyVw.}
+   {QbwarF zVcyVw.}
    {...}
 
-MO: If you are asking permission of a superior for something you could say:
+ZB: Vs lbh ner nfxvat crezvffvba bs n fhcrevbe sbe fbzrguvat lbh pbhyq fnl:
 
-HF: <Give me a permit to sell dilithium, your honor.>
-MO: {cha'puj vIngevmeH chaw' HInobneS.}
-   {cha'puj vIngevmeH chaw' HInobneS.}
+US: <Tvir zr n crezvg gb fryy qvyvguvhz, lbhe ubabe.>
+ZB: {pun'chw iVatrizrU punj' UVaboarF.}
+   {pun'chw iVatrizrU punj' UVaboarF.}
    {...}
 
-MO: Or, if you wanted to explain yourself, you could say:
+ZB: Be, vs lbh jnagrq gb rkcynva lbhefrys, lbh pbhyq fnl:
 
-HF: <Permit me to explain my mistake, your honor.>
-MO: {QaghwIj vIQIj 'e' yIchaw'neS.}
-   {QaghwIj vIQIj 'e' yIchaw'neS.}
+US: <Crezvg zr gb rkcynva zl zvfgnxr, lbhe ubabe.>
+ZB: {DntujVw iVDVw 'r' lVpunj'arF.}
+   {DntujVw iVDVw 'r' lVpunj'arF.}
    {...}
 
-[[# Mark: [29:51] Use of the Standard Dialect #]]
+[[# Znex: [29:51] Hfr bs gur Fgnaqneq Qvnyrpg #]]
 
-MD: But the most obvious attention to honor by language is to speak the Emperor's
-dialect. The visitor to the Klingon Empire must determine the dialect of the
-current, or most recent, Emperor, as that dialect is, of course, considered
-"Standard Klingon". There have been times in the Empire's history when the
-standard dialect changed rather frequently, as the Emperor did. So it is
-important to be certain whose dialect reigns. For Klingons language is a weapon
-and an ally. Use the wrong dialect and you risk your reputation. Use the correct
-dialect and you enhance your status.
+ZQ: Ohg gur zbfg boivbhf nggragvba gb ubabe ol ynathntr vf gb fcrnx gur Rzcrebe'f
+qvnyrpg. Gur ivfvgbe gb gur Xyvatba Rzcver zhfg qrgrezvar gur qvnyrpg bs gur
+pheerag, be zbfg erprag, Rzcrebe, nf gung qvnyrpg vf, bs pbhefr, pbafvqrerq
+"Fgnaqneq Xyvatba". Gurer unir orra gvzrf va gur Rzcver'f uvfgbel jura gur
+fgnaqneq qvnyrpg punatrq engure serdhragyl, nf gur Rzcrebe qvq. Fb vg vf
+vzcbegnag gb or pregnva jubfr qvnyrpg ervtaf. Sbe Xyvatbaf ynathntr vf n jrncba
+naq na nyyl. Hfr gur jebat qvnyrpg naq lbh evfx lbhe erchgngvba. Hfr gur pbeerpg
+qvnyrpg naq lbh raunapr lbhe fgnghf.
 
-MD: Suppose you are at a meal with both upper class, and working class Klingons,
-such as a state dinner with officials and servants. Federation Standard is being
-used with obvious relish but Klingon is clearly the language of actual
-transaction. Everyone is well aware that, for them, *you* are the alien. You
-wait for a slight pause in conversation and then, in a loud voice you could say:
+ZQ: Fhccbfr lbh ner ng n zrny jvgu obgu hccre pynff, naq jbexvat pynff Xyvatbaf,
+fhpu nf n fgngr qvaare jvgu bssvpvnyf naq freinagf. Srqrengvba Fgnaqneq vf orvat
+hfrq jvgu boivbhf eryvfu ohg Xyvatba vf pyrneyl gur ynathntr bs npghny
+genafnpgvba. Rirelbar vf jryy njner gung, sbe gurz, *lbh* ner gur nyvra. Lbh
+jnvg sbe n fyvtug cnhfr va pbairefngvba naq gura, va n ybhq ibvpr lbh pbhyq fnl:
 
-MO: {ro'qegh'Iwchab HInob.}
+ZB: {eb'drtu'Vjpuno UVabo.}
 
-MO: This simply means <Give me the Rokeg blood pie>, but it signifies that you're
-well aware of the standard dialect. It also lets everyone know that you know at
-least some Klingon, so they shouldn't try to get anything past you. Remember to
-pause, ever so slightly, twice in the middle of the word for <Rokeg blood pie>.
-It's {ro'qegh'Iwchab}, not {#roqeghIwchab#}.
+ZB: Guvf fvzcyl zrnaf <Tvir zr gur Ebxrt oybbq cvr>, ohg vg fvtavsvrf gung lbh'er
+jryy njner bs gur fgnaqneq qvnyrpg. Vg nyfb yrgf rirelbar xabj gung lbh xabj ng
+yrnfg fbzr Xyvatba, fb gurl fubhyqa'g gel gb trg nalguvat cnfg lbh. Erzrzore gb
+cnhfr, rire fb fyvtugyl, gjvpr va gur zvqqyr bs gur jbeq sbe <Ebxrt oybbq cvr>.
+Vg'f {eb'drtu'Vjpuno}, abg {#ebdrtuVjpuno#}.
 
-MD: <Good.>
-MO: {maj.}
+ZQ: <Tbbq.>
+ZB: {znw.}
 
-MD: Let us try some other standard dialect phrases. First we will hear how this
-sentence sounds in one of the nonstandard dialects, spoken in some remote parts
-of the Empire. Use of this nonstandard dialect immediately indicates that the
-speaker is from the less developed regions. Then we will hear the same sentence
-in the standard dialect. All of the Klingon phrases on this tape are in the
-standard dialect, but in the following phrases the difference is most notable.
-Frequent use of these standard dialect phrases will highlight your recognition
-of the status quo and will show that you are not from the hinterlands.
+ZQ: Yrg hf gel fbzr bgure fgnaqneq qvnyrpg cuenfrf. Svefg jr jvyy urne ubj guvf
+fragrapr fbhaqf va bar bs gur abafgnaqneq qvnyrpgf, fcbxra va fbzr erzbgr cnegf
+bs gur Rzcver. Hfr bs guvf abafgnaqneq qvnyrpg vzzrqvngryl vaqvpngrf gung gur
+fcrnxre vf sebz gur yrff qrirybcrq ertvbaf. Gura jr jvyy urne gur fnzr fragrapr
+va gur fgnaqneq qvnyrpg. Nyy bs gur Xyvatba cuenfrf ba guvf gncr ner va gur
+fgnaqneq qvnyrpg, ohg va gur sbyybjvat cuenfrf gur qvssrerapr vf zbfg abgnoyr.
+Serdhrag hfr bs gurfr fgnaqneq qvnyrpg cuenfrf jvyy uvtuyvtug lbhe erpbtavgvba
+bs gur fgnghf dhb naq jvyy fubj gung lbh ner abg sebz gur uvagreynaqf.
 
-MO: Here is <Have you seen my phaser?> in the regional dialect:
-   {#puhIchwIj Dalegbu.#}
+ZB: Urer vf <Unir lbh frra zl cunfre?> va gur ertvbany qvnyrpg:
+   {#chuVpujVw Qnyrtoh.#}
 
-[[Transcriber's note: I am uncertain as to whether this should be {#Dalegbu#} or
-{#Dalegpu#}. Nevertheless, this could be Morskan dialect (judging by the soft
-{H}). On the other hand, it may not. Take a look in KGT (chapter "The Fiction
-of Klingon Conformity", pp.18-23) and judge for yourself.]]
+[[Genafpevore'f abgr: V nz hapregnva nf gb jurgure guvf fubhyq or {#Qnyrtoh#} be
+{#Qnyrtch#}. Arireguryrff, guvf pbhyq or Zbefxna qvnyrpg (whqtvat ol gur fbsg
+{U}). Ba gur bgure unaq, vg znl abg. Gnxr n ybbx va XTG (puncgre "Gur Svpgvba
+bs Xyvatba Pbasbezvgl", cc.18-23) naq whqtr sbe lbhefrys.]]
 
-MO: And here it is in the standard dialect:
-   {pu'HIchwIj Daleghpu'.}
+ZB: Naq urer vg vf va gur fgnaqneq qvnyrpg:
+   {ch'UVpujVw Qnyrtuch'.}
 
-[[Transcriber's note: This Klingon sentence is not a question at all, it's a
-simple statement: <You have seen my phaser.> The interrogative suffix {-'a'} is
-missing, the correct Klingon sentence here should be: {pu'HIchwIj
-Daleghpu''a'.}]]
+[[Genafpevore'f abgr: Guvf Xyvatba fragrapr vf abg n dhrfgvba ng nyy, vg'f n
+fvzcyr fgngrzrag: <Lbh unir frra zl cunfre.> Gur vagreebtngvir fhssvk {-'n'} vf
+zvffvat, gur pbeerpg Xyvatba fragrapr urer fubhyq or: {ch'UVpujVw
+Qnyrtuch''n'.}]]
 
-MO: Hear the difference? Try the standard dialect version again.
-   {pu'HIchwIj Daleghpu'.}
-   {pu'HIchwIj Daleghpu'.}
+ZB: Urne gur qvssrerapr? Gel gur fgnaqneq qvnyrpg irefvba ntnva.
+   {ch'UVpujVw Qnyrtuch'.}
+   {ch'UVpujVw Qnyrtuch'.}
    {...}
 
-MO: Now here is <I want eat meat> in the regional dialect: [[want eat:=want to eat]]
-   {#hadba vISob vIne.#}
+ZB: Abj urer vf <V jnag rng zrng> va gur ertvbany qvnyrpg: [[jnag rng:=jnag gb rng]]
+   {#unqon iVFbo iVar.#}
 
-MO: And the standard dialect:
-   {Ha'DIbaH vISop vIneH.}
-   {Ha'DIbaH vISop vIneH.}
+ZB: Naq gur fgnaqneq qvnyrpg:
+   {Un'QVonU iVFbc iVarU.}
+   {Un'QVonU iVFbc iVarU.}
    {...}
 
-MO: Again, note the sudden pause in the middle of the word for <meat>, in the
-standard dialect it's {Ha'DIbaH}. The regional version is {#hadba#}. And
-finally, this is...
+ZB: Ntnva, abgr gur fhqqra cnhfr va gur zvqqyr bs gur jbeq sbe <zrng>, va gur
+fgnaqneq qvnyrpg vg'f {Un'QVonU}. Gur ertvbany irefvba vf {#unqon#}. Naq
+svanyyl, guvf vf...
 
-MO: <What is that food?> Regional dialect:
-   {#sojvets o nuk?#}
+ZB: <Jung vf gung sbbq?> Ertvbany qvnyrpg:
+   {#fbwirgf b ahx?#}
 
-[[Transcriber's note: Morskan dialect. There is {#ts#} for {tlh} at the end of
-syllables, no {H} at end of syllable and no {-'e'}. *Definitely* Morskan!]]
+[[Genafpevore'f abgr: Zbefxna qvnyrpg. Gurer vf {#gf#} sbe {gyu} ng gur raq bs
+flyynoyrf, ab {U} ng raq bs flyynoyr naq ab {-'r'}. *Qrsvavgryl* Zbefxna!]]
 
-MO: Standard dialect:
-   {Sojvetlh 'oH nuq'e'.}
-   {Sojvetlh 'oH nuq'e'.}
+ZB: Fgnaqneq qvnyrpg:
+   {Fbwirgyu 'bU ahd'r'.}
+   {Fbwirgyu 'bU ahd'r'.}
    {...}
 
-MD: Of course, before you go to the Empire, be sure to check on the ruling Emperor.
-If a new Emperor is in power you may need to update these phrases with the
-prevailing dialect. The Federation has an Office of Foreign Affairs, which
-maintains files on language use, and we suggest contacting them before your
-visit.
+ZQ: Bs pbhefr, orsber lbh tb gb gur Rzcver, or fher gb purpx ba gur ehyvat Rzcrebe.
+Vs n arj Rzcrebe vf va cbjre lbh znl arrq gb hcqngr gurfr cuenfrf jvgu gur
+cerinvyvat qvnyrpg. Gur Srqrengvba unf na Bssvpr bs Sbervta Nssnvef, juvpu
+znvagnvaf svyrf ba ynathntr hfr, naq jr fhttrfg pbagnpgvat gurz orsber lbhe
+ivfvg.
 
-MD: Now, <Take a brief rest!>
-MO: {loQ yIleS.}
+ZQ: Abj, <Gnxr n oevrs erfg!>
+ZB: {ybD lVyrF.}
 
 
    ==========================================
-    SIDE TWO: [[36:30 Minutes Playing Time]]
+    FVQR GJB: [[36:30 Zvahgrf Cynlvat Gvzr]]
    ==========================================
 
-[[# Mark: [34:15] Replacement Proverbs #]]
+[[# Znex: [34:15] Ercynprzrag Cebireof #]]
 
-MD: <Stop resting!>
-MO: {bIleS 'e' yImev.}
+ZQ: <Fgbc erfgvat!>
+ZB: {oVyrF 'r' lVzri.}
 
-MD: Social situations, especially those involving eating and drinking, are extremely
-important occasions to assert yourself as an individual worthy of respect. We
-have seen how you can assert yourself positively by some overt display of the
-dominant dialect or by demonstrating allegiance to the ideals of behavior. But
-you can also damage yourself irreparably if you fail to decisively correct some
-social mistake. This is where knowledge of the replacement proverbs is handy. The
-exact origin of the term "replacement proverbs" is obscure, but it apparently
-has to do with the use of the proverbs to replace lost respect with newly
-earned respect after one has been embarrassed in a public setting. It does not
-really matter which proverb you use in any given embarrassing situation. All of
-the proverbs relate to the restoration of credibility and so are used
-interchangeably in many different situations.
+ZQ: Fbpvny fvghngvbaf, rfcrpvnyyl gubfr vaibyivat rngvat naq qevaxvat, ner rkgerzryl
+vzcbegnag bppnfvbaf gb nffreg lbhefrys nf na vaqvivqhny jbegul bs erfcrpg. Jr
+unir frra ubj lbh pna nffreg lbhefrys cbfvgviryl ol fbzr bireg qvfcynl bs gur
+qbzvanag qvnyrpg be ol qrzbafgengvat nyyrtvnapr gb gur vqrnyf bs orunivbe. Ohg
+lbh pna nyfb qnzntr lbhefrys veercnenoyl vs lbh snvy gb qrpvfviryl pbeerpg fbzr
+fbpvny zvfgnxr. Guvf vf jurer xabjyrqtr bs gur ercynprzrag cebireof vf unaql. Gur
+rknpg bevtva bs gur grez "ercynprzrag cebireof" vf bofpher, ohg vg nccneragyl
+unf gb qb jvgu gur hfr bs gur cebireof gb ercynpr ybfg erfcrpg jvgu arjyl
+rnearq erfcrpg nsgre bar unf orra rzoneenffrq va n choyvp frggvat. Vg qbrf abg
+ernyyl znggre juvpu cebireo lbh hfr va nal tvira rzoneenffvat fvghngvba. Nyy bs
+gur cebireof eryngr gb gur erfgbengvba bs perqvovyvgl naq fb ner hfrq
+vagrepunatrnoyl va znal qvssrerag fvghngvbaf.
 
-MD: Suppose you are a guest at a state dinner. It is after the toasting and first
-round of drinking, after the first course of <gagh>. The entrée of slimy
-tongueballs is being served. On the way to your mouth three tongueballs slip
-out of your fingers and hit the floor with loud splats. [three splats] Heads turn toward you in
-eager anticipation, thinking that a food fight has begun. But they discover it
-is simply a bumbling Terran making a premature mess. You have to recover or your
-reputation will not be worth a photon in a solar wind. What can you do?
+ZQ: Fhccbfr lbh ner n thrfg ng n fgngr qvaare. Vg vf nsgre gur gbnfgvat naq svefg
+ebhaq bs qevaxvat, nsgre gur svefg pbhefr bs <tntu>. Gur rageér bs fyvzl
+gbathronyyf vf orvat freirq. Ba gur jnl gb lbhe zbhgu guerr gbathronyyf fyvc
+bhg bs lbhe svatref naq uvg gur sybbe jvgu ybhq fcyngf. [guerr fcyngf] Urnqf ghea gbjneq lbh va
+rntre nagvpvcngvba, guvaxvat gung n sbbq svtug unf ortha. Ohg gurl qvfpbire vg
+vf fvzcyl n ohzoyvat Greena znxvat n cerzngher zrff. Lbh unir gb erpbire be lbhe
+erchgngvba jvyy abg or jbegu n cubgba va n fbyne jvaq. Jung pna lbh qb?
 
-According to Klingon custom you must issue a proverb that allows you to regain
-your respect. You grab the fallen food in your hands, stand up, and loudly say
-one or more of the following replacement proverbs.
+Nppbeqvat gb Xyvatba phfgbz lbh zhfg vffhr n cebireo gung nyybjf lbh gb ertnva
+lbhe erfcrpg. Lbh teno gur snyyra sbbq va lbhe unaqf, fgnaq hc, naq ybhqyl fnl
+bar be zber bs gur sbyybjvat ercynprzrag cebireof.
 
-HM: <Set fire on the side when there is danger.>
-MO: {DopDaq qul yIchenmoH, QobDI' ghu'.}
-   {DopDaq qul yIchenmoH, QobDI' ghu'.}
+UZ: <Frg sver ba gur fvqr jura gurer vf qnatre.>
+ZB: {QbcQnd dhy lVpurazbU, DboQV' tuh'.}
+   {QbcQnd dhy lVpurazbU, DboQV' tuh'.}
    {...}
 
-MO: *That* wasn't very convincing. Try it again, this time with more authority.
-MO: {DopDaq qul yIchenmoH, QobDI' ghu'.}
-   {DopDaq qul yIchenmoH, QobDI' ghu'.}
+ZB: *Gung* jnfa'g irel pbaivapvat. Gel vg ntnva, guvf gvzr jvgu zber nhgubevgl.
+ZB: {QbcQnd dhy lVpurazbU, DboQV' tuh'.}
+   {QbcQnd dhy lVpurazbU, DboQV' tuh'.}
    {...}
 
-Basically, this means that you have deliberately staged a diversion, or at least
-you can shield your honor with such a pretense. Or you could say:
+Onfvpnyyl, guvf zrnaf gung lbh unir qryvorengryl fgntrq n qvirefvba, be ng yrnfg
+lbh pna fuvryq lbhe ubabe jvgu fhpu n cergrafr. Be lbh pbhyq fnl:
 
-HM: <To defeat the enemy, be ready to fight alone.>
-MO: {jagh DajeymeH, nIteb yISuvrup.}
-   {jagh DajeymeH, nIteb yISuvrup.}
+UZ: <Gb qrsrng gur rarzl, or ernql gb svtug nybar.>
+ZB: {wntu QnwrlzrU, aVgro lVFhiehc.}
+   {wntu QnwrlzrU, aVgro lVFhiehc.}
    {...}
 
-MO: Here are some others:
+ZB: Urer ner fbzr bguref:
 
-HM: <A great warrior is always prepared.>
-MO: {reH Suvrup SuvwI''a'.}
-   {reH Suvrup SuvwI''a'.}
+UZ: <N terng jneevbe vf nyjnlf cercnerq.>
+ZB: {erU Fhiehc FhijV''n'.}
+   {erU Fhiehc FhijV''n'.}
    {...}
 
-HM: <The fire is always hotter on someone else's face.>
-MO: {reH latlh qabDaq qul tuj law', Hoch tuj puS.}
-   {reH latlh qabDaq qul tuj law', Hoch tuj puS.}
+UZ: <Gur sver vf nyjnlf ubggre ba fbzrbar ryfr'f snpr.>
+ZB: {erU yngyu dnoQnd dhy ghw ynj', Ubpu ghw chF.}
+   {erU yngyu dnoQnd dhy ghw ynj', Ubpu ghw chF.}
    {...}
 
-HM: <Only fools laugh while warriors die.>
-MO: {Hagh qoHpu' neH, HeghtaHvIS SuvwI'pu'.}
-   {Hagh qoHpu' neH, HeghtaHvIS SuvwI'pu'.}
+UZ: <Bayl sbbyf ynhtu juvyr jneevbef qvr.>
+ZB: {Untu dbUch' arU, UrtugnUiVF FhijV'ch'.}
+   {Untu dbUch' arU, UrtugnUiVF FhijV'ch'.}
    {...}
 
-And this final proverb refers to a Klingon devil-like creature known as the
-<Fek'lhr>.
+Naq guvf svany cebireo ersref gb n Xyvatba qrivy-yvxr perngher xabja nf gur
+<Srx'yue>.
 
-HM: <The Fek'lhr strikes again.>
-MO: {HIvqa' veqlargh.}
-   {HIvqa' veqlargh.}
+UZ: <Gur Srx'yue fgevxrf ntnva.>
+ZB: {UVidn' irdynetu.}
+   {UVidn' irdynetu.}
    {...}
 
-MD: You will know your credibility has been restored if the host and other
-guests resume eating as if nothing had ever happened. If the silence and
-staring continue, you have failed to regain control of the situation. If
-you have failed, word will spread and from that point on you are a tourist
-and should consider booking passage home.
+ZQ: Lbh jvyy xabj lbhe perqvovyvgl unf orra erfgberq vs gur ubfg naq bgure
+thrfgf erfhzr rngvat nf vs abguvat unq rire unccrarq. Vs gur fvyrapr naq
+fgnevat pbagvahr, lbh unir snvyrq gb ertnva pbageby bs gur fvghngvba. Vs
+lbh unir snvyrq, jbeq jvyy fcernq naq sebz gung cbvag ba lbh ner n gbhevfg
+naq fubhyq pbafvqre obbxvat cnffntr ubzr.
 
-[[# Mark: [39:10] Secrecy Proverbs #]]
+[[# Znex: [39:10] Frperpl Cebireof #]]
 
-Another set of proverbs also proves very useful in many kinds of
-situations. They are known collectively as the "secrecy proverbs", probably
-because they are most frequently used in situations where you want to show
-that you can keep a secret under *any* conditions. We will go over the most
-common secrecy proverbs.
+Nabgure frg bs cebireof nyfb cebirf irel hfrshy va znal xvaqf bs
+fvghngvbaf. Gurl ner xabja pbyyrpgviryl nf gur "frperpl cebireof", cebonoyl
+orpnhfr gurl ner zbfg serdhragyl hfrq va fvghngvbaf jurer lbh jnag gb fubj
+gung lbh pna xrrc n frperg haqre *nal* pbaqvgvbaf. Jr jvyy tb bire gur zbfg
+pbzzba frperpl cebireof.
 
-Suppose you want to buy some ion-ray triggers from a Klingon arms dealer on
-one of the outer planets. The sale is perfectly legal, but skirmishes
-between Ferengi and Klingons have broken out in a nearby sector and the
-dealer suspects that if the location of his supply on this frontier is
-given away, a Ferengi raiding party may take his entire stash. Before he
-takes you to his supply, he must be reassured. You sense his heightened
-suspicions. The deal, and maybe your life, depends on assuring him that you
-can keep a secret. You have already clearly indicated through your choice
-of phrases that you know and respect the ideals of behavior but accuracy,
-straightforwardness, aggressiveness, and strength only indicate that you
-are a worthy opponent. What he now really wants to know is if you are a
-worthy confidante. You need to show your capacity for secrecy. What can you
-do?
+Fhccbfr lbh jnag gb ohl fbzr vba-enl gevttref sebz n Xyvatba nezf qrnyre ba
+bar bs gur bhgre cynargf. Gur fnyr vf cresrpgyl yrtny, ohg fxvezvfurf
+orgjrra Sreratv naq Xyvatbaf unir oebxra bhg va n arneol frpgbe naq gur
+qrnyre fhfcrpgf gung vs gur ybpngvba bs uvf fhccyl ba guvf sebagvre vf
+tvira njnl, n Sreratv envqvat cnegl znl gnxr uvf ragver fgnfu. Orsber ur
+gnxrf lbh gb uvf fhccyl, ur zhfg or ernffherq. Lbh frafr uvf urvtugrarq
+fhfcvpvbaf. Gur qrny, naq znlor lbhe yvsr, qrcraqf ba nffhevat uvz gung lbh
+pna xrrc n frperg. Lbh unir nyernql pyrneyl vaqvpngrq guebhtu lbhe pubvpr
+bs cuenfrf gung lbh xabj naq erfcrpg gur vqrnyf bs orunivbe ohg npphenpl,
+fgenvtugsbejneqarff, ntterffvirarff, naq fgeratgu bayl vaqvpngr gung lbh
+ner n jbegul bccbarag. Jung ur abj ernyyl jnagf gb xabj vf vs lbh ner n
+jbegul pbasvqnagr. Lbh arrq gb fubj lbhe pncnpvgl sbe frperpl. Jung pna lbh
+qb?
 
-Sensing your trust has been challenged you can flip out one of these "secrecy
-proverbs" as confidently as one might flip on a cloaking device on the
-way to battle.
+Frafvat lbhe gehfg unf orra punyyratrq lbh pna syvc bhg bar bs gurfr "frperpl
+cebireof" nf pbasvqragyl nf bar zvtug syvc ba n pybnxvat qrivpr ba gur
+jnl gb onggyr.
 
-HF: <A day without secrets is like a night without stars.>
-MO: {Hov ghajbe'bogh ram rur pegh ghajbe'bogh jaj.}
-   {Hov ghajbe'bogh ram rur pegh ghajbe'bogh jaj.}
+US: <N qnl jvgubhg frpergf vf yvxr n avtug jvgubhg fgnef.>
+ZB: {Ubi tunwor'obtu enz ehe crtu tunwor'obtu wnw.}
+   {Ubi tunwor'obtu enz ehe crtu tunwor'obtu wnw.}
    {...}
 
-MO: That was about as energetic as a Tippernissian(?) flower going to seed. Now,
-try again:
-MO: {Hov ghajbe'bogh ram rur pegh ghajbe'bogh jaj.}
-   {Hov ghajbe'bogh ram rur pegh ghajbe'bogh jaj.}
+ZB: Gung jnf nobhg nf raretrgvp nf n Gvccreavffvna(?) sybjre tbvat gb frrq. Abj,
+gel ntnva:
+ZB: {Ubi tunwor'obtu enz ehe crtu tunwor'obtu wnw.}
+   {Ubi tunwor'obtu enz ehe crtu tunwor'obtu wnw.}
    {...}
 
-MO: When you say {ghajbe'bogh}, which comes up twice in that phrase, be sure to
-make the beginning and ending sounds nice and raspy: {gh}, {gh}, {gh}.
-{ghajbe'bogh}
+ZB: Jura lbh fnl {tunwor'obtu}, juvpu pbzrf hc gjvpr va gung cuenfr, or fher gb
+znxr gur ortvaavat naq raqvat fbhaqf avpr naq enfcl: {tu}, {tu}, {tu}.
+{tunwor'obtu}
 
-MO: Here's another:
+ZB: Urer'f nabgure:
 
-HF: <Noone eavesdrops at an open door.>
-MO: {lojmIt poSDaq Daq pagh.}
-   {lojmIt poSDaq Daq pagh.}
+US: <Abbar rnirfqebcf ng na bcra qbbe.>
+ZB: {ybwzVg cbFQnd Qnd cntu.}
+   {ybwzVg cbFQnd Qnd cntu.}
    {...}
 
-MO: Try this one:
+ZB: Gel guvf bar:
 
-HF: <Knowledge of useful information may be unfortunate.>
-MO: {De' lI' Sovlu'DI', chaq Do'Ha'.}
-   {De' lI' Sovlu'DI', chaq Do'Ha'.}
+US: <Xabjyrqtr bs hfrshy vasbezngvba znl or hasbeghangr.>
+ZB: {Qr' yV' Fbiyh'QV', pund Qb'Un'.}
+   {Qr' yV' Fbiyh'QV', pund Qb'Un'.}
    {...}
 
-MO: And another:
+ZB: Naq nabgure:
 
-HF: <Secrets never cease.>
-MO: {not mev peghmey.}
-   {not mev peghmey.}
+US: <Frpergf arire prnfr.>
+ZB: {abg zri crtuzrl.}
+   {abg zri crtuzrl.}
    {...}
 
-MO: And finally, one of the oldest of the secrecy proverbs:
+ZB: Naq svanyyl, bar bs gur byqrfg bs gur frperpl cebireof:
 
-HF: <The stars will talk before I will.>
-MO: {jIjatlhpa' jatlh Hovmey.}
-   {jIjatlhpa' jatlh Hovmey.}
+US: <Gur fgnef jvyy gnyx orsber V jvyy.>
+ZB: {wVwngyucn' wngyu Ubizrl.}
+   {wVwngyucn' wngyu Ubizrl.}
    {...}
 
-MD: <Good.>
-MO: {maj.}
+ZQ: <Tbbq.>
+ZB: {znw.}
 
-[[# Mark: [43:09] Holiday Proverbs #]]
+[[# Znex: [43:09] Ubyvqnl Cebireof #]]
 
-MD: Proverbs are not the only socially useful sayings. There are also special
-phrases, traditionally used on holidays. We will focus on two of the best
-known holidays. One, which comes every tenth Klingon month, is {QI'lop}.
-{QI'lop} celebrates the superiority of the Klingon military. Like most
-Klingon holidays {QI'lop} is celebrated with much eating and drinking,
-but it is also marked by a very peculiar custom. A guest brings a large
-dish of stuffed {to'baj} legs to a host's house and in return is allowed to
-take any non-sacred item in the house. The actual origin of this custom is
-obscure. Here are a few of the holiday phrases:
+ZQ: Cebireof ner abg gur bayl fbpvnyyl hfrshy fnlvatf. Gurer ner nyfb fcrpvny
+cuenfrf, genqvgvbanyyl hfrq ba ubyvqnlf. Jr jvyy sbphf ba gjb bs gur orfg
+xabja ubyvqnlf. Bar, juvpu pbzrf rirel gragu Xyvatba zbagu, vf {DV'ybc}.
+{DV'ybc} pryroengrf gur fhcrevbevgl bs gur Xyvatba zvyvgnel. Yvxr zbfg
+Xyvatba ubyvqnlf {DV'ybc} vf pryroengrq jvgu zhpu rngvat naq qevaxvat,
+ohg vg vf nyfb znexrq ol n irel crphyvne phfgbz. N thrfg oevatf n ynetr
+qvfu bs fghssrq {gb'onw} yrtf gb n ubfg'f ubhfr naq va erghea vf nyybjrq gb
+gnxr nal aba-fnperq vgrz va gur ubhfr. Gur npghny bevtva bs guvf phfgbz vf
+bofpher. Urer ner n srj bs gur ubyvqnl cuenfrf:
 
-[[Transcriber's note: The word {QI'lop} appears in KLI's list of new words
-and there it's said to be "a guess as to what Michael Dorn was pronouncing".
-My guess would rather have involved an {e} as the first vowel, and
-possibly {t} instead of {'}, and maybe even {q} as the first letter. But
-then again, when it is Dorn talking, it isn't exactly easy to hear the
-difference between {Q}/{q} and {'}/{t}. I would think, however, that
-whoever did that list would know more than me about Dorn's pronunciation.
-(But he can't be entirely sane though, since he insists that the word
-{Qaw'} <destroy> is a noun. :-)]]
+[[Genafpevore'f abgr: Gur jbeq {DV'ybc} nccrnef va XYV'f yvfg bs arj jbeqf
+naq gurer vg'f fnvq gb or "n thrff nf gb jung Zvpunry Qbea jnf cebabhapvat".
+Zl thrff jbhyq engure unir vaibyirq na {r} nf gur svefg ibjry, naq
+cbffvoyl {g} vafgrnq bs {'}, naq znlor rira {d} nf gur svefg yrggre. Ohg
+gura ntnva, jura vg vf Qbea gnyxvat, vg vfa'g rknpgyl rnfl gb urne gur
+qvssrerapr orgjrra {D}/{d} naq {'}/{g}. V jbhyq guvax, ubjrire, gung
+jubrire qvq gung yvfg jbhyq xabj zber guna zr nobhg Qbea'f cebahapvngvba.
+(Ohg ur pna'g or ragveryl fnar gubhtu, fvapr ur vafvfgf gung gur jbeq
+{Dnj'} <qrfgebl> vf n abha. :-)]]
 
-HM: <Accept these stuffed {to'baj} legs.>
-MO: {to'baj 'uS lughoDlu'bogh tIlaj.}
-   {to'baj 'uS lughoDlu'bogh tIlaj.}
+UZ: <Npprcg gurfr fghssrq {gb'onw} yrtf.>
+ZB: {gb'onw 'hF yhtubQyh'obtu gVynw.}
+   {gb'onw 'hF yhtubQyh'obtu gVynw.}
    {...}
 
-HM: <I will take *that* to my home.>
-MO: {juHwIjDaq Dochvetlh vItlhap.}
-   {juHwIjDaq Dochvetlh vItlhap.}
+UZ: <V jvyy gnxr *gung* gb zl ubzr.>
+ZB: {whUjVwQnd Qbpuirgyu iVgyunc.}
+   {whUjVwQnd Qbpuirgyu iVgyunc.}
    {...}
 
-HM: <You have some stuffed {to'baj} leg in your teeth.>
-MO: {Ho'Du'lIjDaq to'baj 'uSHom lughoDlu'bogh tu'lu'.}
-   {Ho'Du'lIjDaq to'baj 'uSHom lughoDlu'bogh tu'lu'.}
+UZ: <Lbh unir fbzr fghssrq {gb'onw} yrt va lbhe grrgu.>
+ZB: {Ub'Qh'yVwQnd gb'onw 'hFUbz yhtubQyh'obtu gh'yh'.}
+   {Ub'Qh'yVwQnd gb'onw 'hFUbz yhtubQyh'obtu gh'yh'.}
    {...}
 
-HM: <Eat everything or you will die without honor.>
-MO: {Hoch DaSopbe'chugh, batlh bIHeghbe'.}
-   {Hoch DaSopbe'chugh, batlh bIHeghbe'.}
+UZ: <Rng rirelguvat be lbh jvyy qvr jvgubhg ubabe.>
+ZB: {Ubpu QnFbcor'puhtu, ongyu oVUrtuor'.}
+   {Ubpu QnFbcor'puhtu, ongyu oVUrtuor'.}
    {...}
 
-MO: Of course, that last expression is not meant literally. It's roughly like
-saying: "Eat! Eat!" Here are some others:
+ZB: Bs pbhefr, gung ynfg rkcerffvba vf abg zrnag yvgrenyyl. Vg'f ebhtuyl yvxr
+fnlvat: "Rng! Rng!" Urer ner fbzr bguref:
 
-HM: <I will remember this dinner forever.>
-MO: {reH 'uQvam vIqawtaH.}
-   {reH 'uQvam vIqawtaH.}
+UZ: <V jvyy erzrzore guvf qvaare sberire.>
+ZB: {erU 'hDinz iVdnjgnU.}
+   {erU 'hDinz iVdnjgnU.}
    {...}
 
-HM: <Between us, curses run like water.>
-MO: {matay'DI', vIHtaHbogh bIQ rur mu'qaDmey.}
-   {matay'DI', vIHtaHbogh bIQ rur mu'qaDmey.}
+UZ: <Orgjrra hf, phefrf eha yvxr jngre.>
+ZB: {zngnl'QV', iVUgnUobtu oVD ehe zh'dnQzrl.}
+   {zngnl'QV', iVUgnUobtu oVD ehe zh'dnQzrl.}
    {...}
 
-MD: Practice these expressions, and during the next {QI'lop} holiday, use
-them. You might also want to practice eating some stuffed {to'baj} legs.
+ZQ: Cenpgvpr gurfr rkcerffvbaf, naq qhevat gur arkg {DV'ybc} ubyvqnl, hfr
+gurz. Lbh zvtug nyfb jnag gb cenpgvpr rngvat fbzr fghssrq {gb'onw} yrtf.
 
-[[# Mark: [46:04] Empire Union Day #]]
+[[# Znex: [46:04] Rzcver Havba Qnl #]]
 
-MD: Another well known holiday is Empire Union Day, which comes in the third
-month. It celebrates the honor of Kahless the Unforgettable, who united the
-Klingon Homeworld. Here are some well known traditional phrases for Empire
-Union Day:
+ZQ: Nabgure jryy xabja ubyvqnl vf Rzcver Havba Qnl, juvpu pbzrf va gur guveq
+zbagu. Vg pryroengrf gur ubabe bs Xnuyrff gur Hasbetrggnoyr, jub havgrq gur
+Xyvatba Ubzrjbeyq. Urer ner fbzr jryy xabja genqvgvbany cuenfrf sbe Rzcver
+Havba Qnl:
 
-HF: <May the Klingon Empire continue forever!>
-MO: {reH tlhIngan wo' taHjaj.}
-   {reH tlhIngan wo' taHjaj.}
+US: <Znl gur Xyvatba Rzcver pbagvahr sberire!>
+ZB: {erU gyuVatna jb' gnUwnw.}
+   {erU gyuVatna jb' gnUwnw.}
    {...}
 
-HF: <May the spirit of Kahless live within you!>
-MO: {SoHDaq qeylIS qa' yInjaj.}
-   {SoHDaq qeylIS qa' yInjaj.}
+US: <Znl gur fcvevg bs Xnuyrff yvir jvguva lbh!>
+ZB: {FbUQnd drlyVF dn' lVawnw.}
+   {FbUQnd drlyVF dn' lVawnw.}
    {...}
 
-HF: <May you encounter Kahless in your dreams!>
-MO: {bInajtaHvIS, qeylIS Daghomjaj.}
-   {bInajtaHvIS, qeylIS Daghomjaj.}
+US: <Znl lbh rapbhagre Xnuyrff va lbhe qernzf!>
+ZB: {oVanwgnUiVF, drlyVF Qntubzwnw.}
+   {oVanwgnUiVF, drlyVF Qntubzwnw.}
    {...}
 
-HF: <Death before shame!>
-MO: {vItuHpa', bIHeghjaj.}
-   {vItuHpa', bIHeghjaj.}
+US: <Qrngu orsber funzr!>
+ZB: {iVghUcn', oVUrtuwnw.}
+   {iVghUcn', oVUrtuwnw.}
    {...}
 
-[[# Mark: [47:19] Rite of Ascension #]]
+[[# Znex: [47:19] Evgr bs Nfprafvba #]]
 
-MD: The biggest personal holiday in the life of any young Klingon is, of
-course, the coming of age ceremony, called <The Rite of Ascension> or the
-{nentay}. It takes place in the seventh month of the young Klingon's
-fifteenth year. If you are fortunate enough to be invited to a {nentay}, it
-is best to look over Dr. Leopold Miklik(?)'s book on the subject before-
-hand. Some of the rituals might seem *unusual* to a Terran, such as the use of
-Klingon painstiks as a spiritual test. But you will probably want to attend
-the ceremony, since your presence will indicate you are a trustworthy
-Terran. To reinforce your position and impress your host, you should know
-some of the ceremonial phrases that are extended to his or her newly adult
-Klingon offspring.
+ZQ: Gur ovttrfg crefbany ubyvqnl va gur yvsr bs nal lbhat Xyvatba vf, bs
+pbhefr, gur pbzvat bs ntr prerzbal, pnyyrq <Gur Evgr bs Nfprafvba> be gur
+{aragnl}. Vg gnxrf cynpr va gur friragu zbagu bs gur lbhat Xyvatba'f
+svsgrragu lrne. Vs lbh ner sbeghangr rabhtu gb or vaivgrq gb n {aragnl}, vg
+vf orfg gb ybbx bire Qe. Yrbcbyq Zvxyvx(?)'f obbx ba gur fhowrpg orsber-
+unaq. Fbzr bs gur evghnyf zvtug frrz *hahfhny* gb n Greena, fhpu nf gur hfr bs
+Xyvatba cnvafgvxf nf n fcvevghny grfg. Ohg lbh jvyy cebonoyl jnag gb nggraq
+gur prerzbal, fvapr lbhe cerfrapr jvyy vaqvpngr lbh ner n gehfgjbegul
+Greena. Gb ervasbepr lbhe cbfvgvba naq vzcerff lbhe ubfg, lbh fubhyq xabj
+fbzr bs gur prerzbavny cuenfrf gung ner rkgraqrq gb uvf be ure arjyl nqhyg
+Xyvatba bssfcevat.
 
-MO: For a Klingon who has been through the Rite of Ascension, stand at
-attention, touch your left shoulder with your right hand, and then quickly
-make it into a fist in front of your chest. This should all be in one
-motion. You then say the following, which means:
+ZB: Sbe n Xyvatba jub unf orra guebhtu gur Evgr bs Nfprafvba, fgnaq ng
+nggragvba, gbhpu lbhe yrsg fubhyqre jvgu lbhe evtug unaq, naq gura dhvpxyl
+znxr vg vagb n svfg va sebag bs lbhe purfg. Guvf fubhyq nyy or va bar
+zbgvba. Lbh gura fnl gur sbyybjvat, juvpu zrnaf:
 
-KM: <Today you are a warrior.>
-MO: {DaHjaj SuvwI' SoH.}
-   {DaHjaj SuvwI' SoH.}
+XZ: <Gbqnl lbh ner n jneevbe.>
+ZB: {QnUwnw FhijV' FbU.}
+   {QnUwnw FhijV' FbU.}
    {...}
 
-MO: Here are a couple of other phrases you might also use:
+ZB: Urer ner n pbhcyr bs bgure cuenfrf lbh zvtug nyfb hfr:
 
-KM: <May you travel the river of blood.>
-MO: {'Iw bIQtIqDaq bIlengjaj.}
-   {'Iw bIQtIqDaq bIlengjaj.}
+XZ: <Znl lbh geniry gur evire bs oybbq.>
+ZB: {'Vj oVDgVdQnd oVyratwnw.}
+   {'Vj oVDgVdQnd oVyratwnw.}
    {...}
 
-KM: <You must show your heart!>
-MO: {tIqlIj Da'angnIS.}
-   {tIqlIj Da'angnIS.}
+XZ: <Lbh zhfg fubj lbhe urneg!>
+ZB: {gVdyVw Qn'nataVF.}
+   {gVdyVw Qn'nataVF.}
    {...}
 
-KM: <May the bile of the vanquished fill your hands.>
-MO: {jagh lucharghlu'ta'bogh HuH ghopDu'lIj lungaSjaj.}
-   {jagh lucharghlu'ta'bogh HuH ghopDu'lIj lungaSjaj.}
+XZ: <Znl gur ovyr bs gur inadhvfurq svyy lbhe unaqf.>
+ZB: {wntu yhpunetuyh'gn'obtu UhU tubcQh'yVw yhatnFwnw.}
+   {wntu yhpunetuyh'gn'obtu UhU tubcQh'yVw yhatnFwnw.}
    {...}
 
-MD: <Good.>
-MO: {maj.}
+ZQ: <Tbbq.>
+ZB: {znw.}
 
-MD: And do not forget to bring some kind of weapon as a present for the new
-adult.
+ZQ: Naq qb abg sbetrg gb oevat fbzr xvaq bs jrncba nf n cerfrag sbe gur arj
+nqhyg.
 
-MD: Now <Take a short pause!>
-MO: {loQ yIyev.}
+ZQ: Abj <Gnxr n fubeg cnhfr!>
+ZB: {ybD lVlri.}
 
-MD: <Stop pausing.>
-MO: {bIyev 'e' yImev.}
+ZQ: <Fgbc cnhfvat.>
+ZB: {oVlri 'r' lVzri.}
 
-[[# Mark: [49:52] Mating Ritual #]]
+[[# Znex: [49:52] Zngvat Evghny #]]
 
-MO: Of course the most universal coming of age ceremony in any part of the
-Galaxy, is the mating ritual. Except, of course, for one species reported
-to live in the Beta quadrant, who mate with themselves -- any time they want.
-In recent times the incidents of Terran--Klingon mating has been on the
-rise. We offer a few useful phrases for those of you Terrans who are
-currently considering, or might be approached about, such a coupling. First
-of all, it is relatively easy to tell if a Klingon is interested in you as a
-potential mate. There are no such things as pickup lines, small talk, or
-going together one evening to some local antigravity bar. Instead,
-female Klingons slink around like a Hellenian Mynx(?) and make sounds like
-the {chemvaH}. The Klingon male will growl if interested, assuming the
-classic warrior stance: hands on waist and feet slightly apart. These signs
-are unambiguous, and they derive from the hasty mating that took place
-during battle. In a warring culture such as the Empire's, there is rarely
-time for seduction or romance. If you find yourself the target of such a
-pursuit and you are *not* interested, there are several phrases which you
-can use to properly extinguish the flame. These are important to remember,
-because in such a highly ritualized society the wrong response can
-immediately turn a suitor into a combatant. The Federation has already
-received several dozen reports of such fatalities, including one
-unfortunate tourist who reportedly responded by *laughing*.
+ZB: Bs pbhefr gur zbfg havirefny pbzvat bs ntr prerzbal va nal cneg bs gur
+Tnynkl, vf gur zngvat evghny. Rkprcg, bs pbhefr, sbe bar fcrpvrf ercbegrq
+gb yvir va gur Orgn dhnqenag, jub zngr jvgu gurzfryirf -- nal gvzr gurl jnag.
+Va erprag gvzrf gur vapvqragf bs Greena--Xyvatba zngvat unf orra ba gur
+evfr. Jr bssre n srj hfrshy cuenfrf sbe gubfr bs lbh Greenaf jub ner
+pheeragyl pbafvqrevat, be zvtug or nccebnpurq nobhg, fhpu n pbhcyvat. Svefg
+bs nyy, vg vf eryngviryl rnfl gb gryy vs n Xyvatba vf vagrerfgrq va lbh nf n
+cbgragvny zngr. Gurer ner ab fhpu guvatf nf cvpxhc yvarf, fznyy gnyx, be
+tbvat gbtrgure bar riravat gb fbzr ybpny nagvtenivgl one. Vafgrnq,
+srznyr Xyvatbaf fyvax nebhaq yvxr n Uryyravna Zlak(?) naq znxr fbhaqf yvxr
+gur {purzinU}. Gur Xyvatba znyr jvyy tebjy vs vagrerfgrq, nffhzvat gur
+pynffvp jneevbe fgnapr: unaqf ba jnvfg naq srrg fyvtugyl ncneg. Gurfr fvtaf
+ner hanzovthbhf, naq gurl qrevir sebz gur unfgl zngvat gung gbbx cynpr
+qhevat onggyr. Va n jneevat phygher fhpu nf gur Rzcver'f, gurer vf eneryl
+gvzr sbe frqhpgvba be ebznapr. Vs lbh svaq lbhefrys gur gnetrg bs fhpu n
+chefhvg naq lbh ner *abg* vagrerfgrq, gurer ner frireny cuenfrf juvpu lbh
+pna hfr gb cebcreyl rkgvathvfu gur synzr. Gurfr ner vzcbegnag gb erzrzore,
+orpnhfr va fhpu n uvtuyl evghnyvmrq fbpvrgl gur jebat erfcbafr pna
+vzzrqvngryl ghea n fhvgbe vagb n pbzongnag. Gur Srqrengvba unf nyernql
+erprvirq frireny qbmra ercbegf bs fhpu sngnyvgvrf, vapyhqvat bar
+hasbeghangr gbhevfg jub ercbegrqyl erfcbaqrq ol *ynhtuvat*.
 
-[[Transcriber's note: Helenian Mynx(?) or perhaps Hellenian Lynx(?) both have
-been used on the tlhingan-hol mailing list.]]
+[[Genafpevore'f abgr: Uryravna Zlak(?) be creuncf Uryyravna Ylak(?) obgu unir
+orra hfrq ba gur gyuvatna-uby znvyvat yvfg.]]
 
-MO: If you wish to discourage such attention by either a male or female
-Klingon, turn your side to them, either right or left side will do, and say
-the following. It means:
+ZB: Vs lbh jvfu gb qvfpbhentr fhpu nggragvba ol rvgure n znyr be srznyr
+Xyvatba, ghea lbhe fvqr gb gurz, rvgure evtug be yrsg fvqr jvyy qb, naq fnl
+gur sbyybjvat. Vg zrnaf:
 
-HM: <The blood of the warrior grows cold.>
-MO: {bIrchoH SuvwI' 'Iw.}
-   {bIrchoH SuvwI' 'Iw.}
+UZ: <Gur oybbq bs gur jneevbe tebjf pbyq.>
+ZB: {oVepubU FhijV' 'Vj.}
+   {oVepubU FhijV' 'Vj.}
    {...}
 
-MO: Now, in most cases, that'll do the trick. If not, you could try to say
-the following, which means:
+ZB: Abj, va zbfg pnfrf, gung'yy qb gur gevpx. Vs abg, lbh pbhyq gel gb fnl
+gur sbyybjvat, juvpu zrnaf:
 
-HM: <I must wash my hair now.>
-MO: {DaH jIbwIj vISay'nISmoH.}
-   {DaH jIbwIj vISay'nISmoH.}
+UZ: <V zhfg jnfu zl unve abj.>
+ZB: {QnU wVojVw iVFnl'aVFzbU.}
+   {QnU wVojVw iVFnl'aVFzbU.}
    {...}
 
-MD: By this time the suitor should have resumed normal behavior again, as if
-nothing had happened. In the rare instance that these two warnings do not
-adequately diminish your pursuer's ardor, and you are still definitely
-uninterested, we suggest you may want to check the shuttle schedule.
+ZQ: Ol guvf gvzr gur fhvgbe fubhyq unir erfhzrq abezny orunivbe ntnva, nf vs
+abguvat unq unccrarq. Va gur ener vafgnapr gung gurfr gjb jneavatf qb abg
+nqrdhngryl qvzvavfu lbhe chefhre'f neqbe, naq lbh ner fgvyy qrsvavgryl
+havagrerfgrq, jr fhttrfg lbh znl jnag gb purpx gur fuhggyr fpurqhyr.
 
-MD: If you *are* interested in reciprocating, or wish to initiate mating
-proceedings, the first thing to do is to adopt one of the positions
-previously mentioned, depending on your gender, and then utter the following
-nonverbal phrase, indicating interest and availability.
+ZQ: Vs lbh *ner* vagrerfgrq va erpvcebpngvat, be jvfu gb vavgvngr zngvat
+cebprrqvatf, gur svefg guvat gb qb vf gb nqbcg bar bs gur cbfvgvbaf
+cerivbhfyl zragvbarq, qrcraqvat ba lbhe traqre, naq gura hggre gur sbyybjvat
+abaireony cuenfr, vaqvpngvat vagrerfg naq ninvynovyvgl.
 
-MO: For a female, that means a low sound that's a cross between a growl and a
-purr. Ready females? Repeat this:
-KF: {#hghghghgh#}
-   {#hghghghgh#}
+ZB: Sbe n srznyr, gung zrnaf n ybj fbhaq gung'f n pebff orgjrra n tebjy naq n
+chee. Ernql srznyrf? Ercrng guvf:
+XS: {#ututututu#}
+   {#ututututu#}
    {...}
 
-[[Transcriber's note: Initial <h> is a soft one, <gh> pronounced as usual.
-As you can understand, this sound is somewhat hard to transcribe. To really
-grasp it you'll *have to* listen to the tape.]]
+[[Genafpevore'f abgr: Vavgvny <u> vf n fbsg bar, <tu> cebabhaprq nf hfhny.
+Nf lbh pna haqrefgnaq, guvf fbhaq vf fbzrjung uneq gb genafpevor. Gb ernyyl
+tenfc vg lbh'yy *unir gb* yvfgra gb gur gncr.]]
 
-MO: That was a little too much. Try once more.
-KF: {#hhhghghghgh#}
-   {#hhhghghghgh#}
+ZB: Gung jnf n yvggyr gbb zhpu. Gel bapr zber.
+XS: {#uuututututu#}
+   {#uuututututu#}
    {...}
 
-MO: <Good.> {maj.}
+ZB: <Tbbq.> {znw.}
 
-And males, whether you're responding or initiating, the sound is this:
-KM: {#xxxxxhhh#}
-   {#xxxxxhhh#}
+Naq znyrf, jurgure lbh'er erfcbaqvat be vavgvngvat, gur fbhaq vf guvf:
+XZ: {#kkkkkuuu#}
+   {#kkkkkuuu#}
    {...}
 
-[[Transcriber's note: This simply doesn't fit within the Klingon romanized
-transcription, so I can't transcribe it at all. This growling has its base
-somewhere in the stomach region. -- This time you really *must* listen to
-the tape to get it -- there is no other way.]]
+[[Genafpevore'f abgr: Guvf fvzcyl qbrfa'g svg jvguva gur Xyvatba ebznavmrq
+genafpevcgvba, fb V pna'g genafpevor vg ng nyy. Guvf tebjyvat unf vgf onfr
+fbzrjurer va gur fgbznpu ertvba. -- Guvf gvzr lbh ernyyl *zhfg* yvfgra gb
+gur gncr gb trg vg -- gurer vf ab bgure jnl.]]
 
-MO: That won't even attract a targ in heat! Try again.
+ZB: Gung jba'g rira nggenpg n gnet va urng! Gel ntnva.
 
-KM: {#XXXXXh#}
-   {#XXXXXh#}
+XZ: {#KKKKKu#}
+   {#KKKKKu#}
    {...}
 
-[[Transcriber's note: Another untranscribable line.]]
+[[Genafpevore'f abgr: Nabgure hagenafpevonoyr yvar.]]
 
-MO: <Good.> {maj.}
+ZB: <Tbbq.> {znw.}
 
-MD: If the other party *is* interested, nature will have taken over by this time
-and the rest is beyond the scope of this tape.
+ZQ: Vs gur bgure cnegl *vf* vagrerfgrq, angher jvyy unir gnxra bire ol guvf gvzr
+naq gur erfg vf orlbaq gur fpbcr bs guvf gncr.
 
-[[# Mark: [54:16] Clipped Klingon #]]
+[[# Znex: [54:16] Pyvccrq Xyvatba #]]
 
-MD: As in the mating ritual, the Klingon battle ritual unfolds through an
-accepted form of discourse and, given that Klingon society is constantly on
-a war footing, it is entirely possible the long-term visitor will be placed
-in a battle situation. Most Klingon language courses teach *proper* Klingon,
-and such language is acceptable in many situations, but for battle
-situations the prevailing speech is what is known as "clipped Klingon". In
-clipped Klingon syllables or even entire words are left out. This manner
-of speaking evolved through a long history of constant battle situations
-which demanded rapid communication. Occasional use of such clipped phrases
-in everyday Klingon life can only *increase* one's standing, as it indicates
-an allegiance to military jargon. It could also indicate the urgency of a
-statement.
+ZQ: Nf va gur zngvat evghny, gur Xyvatba onggyr evghny hasbyqf guebhtu na
+npprcgrq sbez bs qvfpbhefr naq, tvira gung Xyvatba fbpvrgl vf pbafgnagyl ba
+n jne sbbgvat, vg vf ragveryl cbffvoyr gur ybat-grez ivfvgbe jvyy or cynprq
+va n onggyr fvghngvba. Zbfg Xyvatba ynathntr pbhefrf grnpu *cebcre* Xyvatba,
+naq fhpu ynathntr vf npprcgnoyr va znal fvghngvbaf, ohg sbe onggyr
+fvghngvbaf gur cerinvyvat fcrrpu vf jung vf xabja nf "pyvccrq Xyvatba". Va
+pyvccrq Xyvatba flyynoyrf be rira ragver jbeqf ner yrsg bhg. Guvf znaare
+bs fcrnxvat ribyirq guebhtu n ybat uvfgbel bs pbafgnag onggyr fvghngvbaf
+juvpu qrznaqrq encvq pbzzhavpngvba. Bppnfvbany hfr bs fhpu pyvccrq cuenfrf
+va rirelqnl Xyvatba yvsr pna bayl *vapernfr* bar'f fgnaqvat, nf vg vaqvpngrf
+na nyyrtvnapr gb zvyvgnel wnetba. Vg pbhyq nyfb vaqvpngr gur hetrapl bs n
+fgngrzrag.
 
-MO: Here is <Do you understand?> in proper Klingon:
-   {bIyaj'a'?}
-   {bIyaj'a'?}
+ZB: Urer vf <Qb lbh haqrefgnaq?> va cebcre Xyvatba:
+   {oVlnw'n'?}
+   {oVlnw'n'?}
    {...}
 
-MO: And here's the clipped Klingon version, which means <Understood?>
-   {yaj'a'?}
-   {yaj'a'?}
+ZB: Naq urer'f gur pyvccrq Xyvatba irefvba, juvpu zrnaf <Haqrefgbbq?>
+   {lnw'n'?}
+   {lnw'n'?}
    {...}
 
-MO: Now, here are some other useful phrases, first in proper Klingon, then in
-clipped Klingon:
+ZB: Abj, urer ner fbzr bgure hfrshy cuenfrf, svefg va cebcre Xyvatba, gura va
+pyvccrq Xyvatba:
 
-HF: <I do not understand.>
-MO: {jIyajbe'.}
-   {jIyajbe'.}
+US: <V qb abg haqrefgnaq.>
+ZB: {wVlnwor'.}
+   {wVlnwor'.}
    {...}
 
-MO: And in clipped Klingon:
-   {yajbe'.}
-   {yajbe'.}
+ZB: Naq va pyvccrq Xyvatba:
+   {lnwor'.}
+   {lnwor'.}
    {...}
 
-HF: <Where is the bathroom?>
-MO: {nuqDaq 'oH puchpa''e'?}
-   {nuqDaq 'oH puchpa''e'?}
+US: <Jurer vf gur onguebbz?>
+ZB: {ahdQnd 'bU chpucn''r'?}
+   {ahdQnd 'bU chpucn''r'?}
    {...}
 
-MO: Clipped Klingon:
-   {nuqDaq puchpa'?}
-   {nuqDaq puchpa'?}
+ZB: Pyvccrq Xyvatba:
+   {ahdQnd chpucn'?}
+   {ahdQnd chpucn'?}
    {...}
 
-HF: <How much fuel do we have left?>
-MO: {nIn 'ar wIghaj?}
-   {nIn 'ar wIghaj?}
+US: <Ubj zhpu shry qb jr unir yrsg?>
+ZB: {aVa 'ne jVtunw?}
+   {aVa 'ne jVtunw?}
    {...}
 
-MO: Clipped Klingon:
-   {nIn 'ar ghaj?}
-   {nIn 'ar ghaj?}
+ZB: Pyvccrq Xyvatba:
+   {aVa 'ne tunw?}
+   {aVa 'ne tunw?}
    {...}
 
-HF: <I am lost.>
-MO: {DaqwIj vISovbe'.}
-   {DaqwIj vISovbe'.}
+US: <V nz ybfg.>
+ZB: {QndjVw iVFbior'.}
+   {QndjVw iVFbior'.}
    {...}
 
-MO: Clipped Klingon:
-   {DaqwIj Sovbe'.}
-   {DaqwIj Sovbe'.}
+ZB: Pyvccrq Xyvatba:
+   {QndjVw Fbior'.}
+   {QndjVw Fbior'.}
    {...}
 
-MO: And finally...
+ZB: Naq svanyyl...
 
-HF: <Where do I sleep?>
-MO: {nuqDaq jIQong?}
-   {nuqDaq jIQong?}
+US: <Jurer qb V fyrrc?>
+ZB: {ahdQnd wVDbat?}
+   {ahdQnd wVDbat?}
    {...}
 
-MO: And the clipped Klingon:
-   {nuqDaq Qong?}
-   {nuqDaq Qong?}
+ZB: Naq gur pyvccrq Xyvatba:
+   {ahdQnd Dbat?}
+   {ahdQnd Dbat?}
    {...}
 
-MD: Good question! Now we will <Take a short nap!>
-MO: {loQ yIDum.}
+ZQ: Tbbq dhrfgvba! Abj jr jvyy <Gnxr n fubeg anc!>
+ZB: {ybD lVQhz.}
 
-MD: <Stop napping!>
-MO: {bIDum 'e' yImev.}
+ZQ: <Fgbc anccvat!>
+ZB: {oVQhz 'r' lVzri.}
 
-[[# Mark: [57:45] Telling jokes #]]
+[[# Znex: [57:45] Gryyvat wbxrf #]]
 
-MD: There is a saying that is popular on some Federation starships: "What is
-the difference between a Klingon joke and phaser dental surgery?" The
-answer, of course, is "nothing".
+ZQ: Gurer vf n fnlvat gung vf cbchyne ba fbzr Srqrengvba fgnefuvcf: "Jung vf
+gur qvssrerapr orgjrra n Xyvatba wbxr naq cunfre qragny fhetrel?" Gur
+nafjre, bs pbhefr, vf "abguvat".
 
-It is often said that Klingons have no sense of humor; this is not true.
-There *is* a Klingon sense of humor, but from the point of view of most
-Federation members it's simply is not funny. So when you are trying to
-lighten things up at the local pub on Kronos, forget that howler about the
-Ferengi trying to buy dilithium crystals. Instead, we suggest you memorize
-the following jokes. The Terrans in their group may look at you like your
-ears have fallen off but the Klingons will be on the floor, and you
-will once again enhance your status, this time by being the *hit* of the
-party. Here is the first one:
+Vg vf bsgra fnvq gung Xyvatbaf unir ab frafr bs uhzbe; guvf vf abg gehr.
+Gurer *vf* n Xyvatba frafr bs uhzbe, ohg sebz gur cbvag bs ivrj bs zbfg
+Srqrengvba zrzoref vg'f fvzcyl vf abg shaal. Fb jura lbh ner gelvat gb
+yvtugra guvatf hc ng gur ybpny cho ba Xebabf, sbetrg gung ubjyre nobhg gur
+Sreratv gelvat gb ohl qvyvguvhz pelfgnyf. Vafgrnq, jr fhttrfg lbh zrzbevmr
+gur sbyybjvat wbxrf. Gur Greenaf va gurve tebhc znl ybbx ng lbh yvxr lbhe
+rnef unir snyyra bss ohg gur Xyvatbaf jvyy or ba gur sybbe, naq lbh
+jvyy bapr ntnva raunapr lbhe fgnghf, guvf gvzr ol orvat gur *uvg* bs gur
+cnegl. Urer vf gur svefg bar:
 
-HM: <Two Federation crewmen arrive on Kronos.>
-MO: {Qo'noSDaq paw cha' DIvI' beq.}
+UZ: <Gjb Srqrengvba perjzra neevir ba Xebabf.>
+ZB: {Db'abFQnd cnj pun' QViV' ord.}
 
-HM: <They meet a Klingon guard.>
-MO: {tlhIngan 'avwI' lughom.}
+UZ: <Gurl zrrg n Xyvatba thneq.>
+ZB: {gyuVatna 'nijV' yhtubz.}
 
-HM: <They ask him: "Can we get to the Great Hall from here?">
-MO: {lutlhob; "naDevvo' vaS'a'Daq majaHlaH'a'?"}
+UZ: <Gurl nfx uvz: "Pna jr trg gb gur Terng Unyy sebz urer?">
+ZB: {yhgyubo; "anQriib' inF'n'Qnd znwnUynU'n'?"}
 
-HM: <The guard answers: "If the bugs do not bite you.">
-MO: {jang 'avwI'; "lIchopbe'chugh ghewmey."}
+UZ: <Gur thneq nafjref: "Vs gur ohtf qb abg ovgr lbh.">
+ZB: {wnat 'nijV'; "yVpubcor'puhtu turjzrl."}
 
-MD: [chuckles] That is the end of that Klingon joke. Here is
-another one: Memorize it!
+ZQ: [puhpxyrf] Gung vf gur raq bs gung Xyvatba wbxr. Urer vf
+nabgure bar: Zrzbevmr vg!
 
-HM: <Are warriors red?>
-MO: {Doq'a' SuvwI'pu'?}
+UZ: <Ner jneevbef erq?>
+ZB: {Qbd'n' FhijV'ch'?}
 
-HM: <No. They are green.>
-MO: {ghobe'. SuD.}
+UZ: <Ab. Gurl ner terra.>
+ZB: {tubor'. FhQ.}
 
-MD: There is one more to go: Memorize it!
+ZQ: Gurer vf bar zber gb tb: Zrzbevmr vg!
 
-HF: <A prisoner says to the guard: "I am hungry.">
-MO: {'avwI'vaD jatlh qama'; "jIghung."}
+US: <N cevfbare fnlf gb gur thneq: "V nz uhatel.">
+ZB: {'nijV'inQ wngyu dnzn'; "wVtuhat."}
 
-HF: <The guard replies: "I am also hungry.">
-MO: {jang 'avwI'; "jIghung je."}
+US: <Gur thneq ercyvrf: "V nz nyfb uhatel.">
+ZB: {wnat 'nijV'; "wVtuhat wr."}
 
-HF: <The prisoner says: "I am thirsty.">
-MO: {jatlh qama'; "jI'oj."}
+US: <Gur cevfbare fnlf: "V nz guvefgl.">
+ZB: {wngyu dnzn'; "wV'bw."}
 
-HF: <The guard replies: "I am also thirsty.">
-MO: {jang 'avwI'; "jI'oj je."}
+US: <Gur thneq ercyvrf: "V nz nyfb guvefgl.">
+ZB: {wnat 'nijV'; "wV'bw wr."}
 
-HF: <The prisoner says: "I am very tired.">
-MO: {jatlh qama'; "jIDoy'qu'."}
+US: <Gur cevfbare fnlf: "V nz irel gverq.">
+ZB: {wngyu dnzn'; "wVQbl'dh'."}
 
-HF: <The guard says: "I am *not* tired.">
-MO: {jatlh 'avwI'; "jIDoy'be'."}
+US: <Gur thneq fnlf: "V nz *abg* gverq.">
+ZB: {wngyu 'nijV'; "wVQbl'or'."}
 
-MD: There is one good thing about Klingon humor: they *love* their jokes -- the
-way other cultures love their music. They will listen with delight to the
-same ones over and over again, so you need only remember these three jokes.
+ZQ: Gurer vf bar tbbq guvat nobhg Xyvatba uhzbe: gurl *ybir* gurve wbxrf -- gur
+jnl bgure phygherf ybir gurve zhfvp. Gurl jvyy yvfgra jvgu qryvtug gb gur
+fnzr barf bire naq bire ntnva, fb lbh arrq bayl erzrzore gurfr guerr wbxrf.
 
-[[# Mark: [1:00:39] Addressing Pets #]]
+[[# Znex: [1:00:39] Nqqerffvat Crgf #]]
 
-MD: Finally, we come to a subject that is no laughing matter: how to talk to
-your pets. It is becoming quite stylish for Terrans who are spending long
-periods of time in the Empire to acquire native Klingon creatures as pets.
-This is in spite of the fact that many of the creatures have strange
-smells, make loud noises, and often eat live food. Most Klingon pets are
-considered difficult to train. This reputation can probably be attributed
-to the fact that Terrans frequently buy grown animals, previously trained
-by Klingon commands. So, here are some common Klingon commands that will
-apply to a variety of creatures. As a Terran attempting to maintain your
-social and economic position in a foreign society, it is *essential* that
-you learn how to control your own pet, whether it is an {'er} or a {Qogh}.
-Nothing will more quickly diminish your credibility for strength, for
-instance, than the sight of you struggling with a targ who refuses to move
-from a sitting position in the middle of a busy street.
+ZQ: Svanyyl, jr pbzr gb n fhowrpg gung vf ab ynhtuvat znggre: ubj gb gnyx gb
+lbhe crgf. Vg vf orpbzvat dhvgr fglyvfu sbe Greenaf jub ner fcraqvat ybat
+crevbqf bs gvzr va gur Rzcver gb npdhver angvir Xyvatba perngherf nf crgf.
+Guvf vf va fcvgr bs gur snpg gung znal bs gur perngherf unir fgenatr
+fzryyf, znxr ybhq abvfrf, naq bsgra rng yvir sbbq. Zbfg Xyvatba crgf ner
+pbafvqrerq qvssvphyg gb genva. Guvf erchgngvba pna cebonoyl or nggevohgrq
+gb gur snpg gung Greenaf serdhragyl ohl tebja navznyf, cerivbhfyl genvarq
+ol Xyvatba pbzznaqf. Fb, urer ner fbzr pbzzba Xyvatba pbzznaqf gung jvyy
+nccyl gb n inevrgl bs perngherf. Nf n Greena nggrzcgvat gb znvagnva lbhe
+fbpvny naq rpbabzvp cbfvgvba va n sbervta fbpvrgl, vg vf *rffragvny* gung
+lbh yrnea ubj gb pbageby lbhe bja crg, jurgure vg vf na {'re} be n {Dbtu}.
+Abguvat jvyy zber dhvpxyl qvzvavfu lbhe perqvovyvgl sbe fgeratgu, sbe
+vafgnapr, guna gur fvtug bs lbh fgehttyvat jvgu n gnet jub ershfrf gb zbir
+sebz n fvggvat cbfvgvba va gur zvqqyr bs n ohfl fgerrg.
 
-MD: As with any standalone human command, these pet commands should be
-spoken with great authority and should be preceded by the word {SuH},
-which some Klingon speakers pronounce as {#SSS#}. This sounds like the
-Federation Standard expression "Sh!", which means to be quiet. But in
-Klingon this simply means that the speaker is about to give a command.
-Here are the commands:
+ZQ: Nf jvgu nal fgnaqnybar uhzna pbzznaq, gurfr crg pbzznaqf fubhyq or
+fcbxra jvgu terng nhgubevgl naq fubhyq or cerprqrq ol gur jbeq {FhU},
+juvpu fbzr Xyvatba fcrnxref cebabhapr nf {#FFF#}. Guvf fbhaqf yvxr gur
+Srqrengvba Fgnaqneq rkcerffvba "Fu!", juvpu zrnaf gb or dhvrg. Ohg va
+Xyvatba guvf fvzcyl zrnaf gung gur fcrnxre vf nobhg gb tvir n pbzznaq.
+Urer ner gur pbzznaqf:
 
-MD: Two warnings. First, *always* use clipped Klingon when addressing pets.
-Second, if you have a Klingon pet who can hear this tape, you may want to
-put it in another room now, before continuing. You do not want the poor
-animal to go crazy, trying to obey *everything*.
+ZQ: Gjb jneavatf. Svefg, *nyjnlf* hfr pyvccrq Xyvatba jura nqqerffvat crgf.
+Frpbaq, vs lbh unir n Xyvatba crg jub pna urne guvf gncr, lbh znl jnag gb
+chg vg va nabgure ebbz abj, orsber pbagvahvat. Lbh qb abg jnag gur cbbe
+navzny gb tb penml, gelvat gb borl *rirelguvat*.
 
-MO: Here is the command for:
+ZB: Urer vf gur pbzznaq sbe:
 
-KM: <Sit!>
-MO: {ba'!}
-   {ba'!}
+XZ: <Fvg!>
+ZB: {on'!}
+   {on'!}
    {...}
 
-KM: <Stand!>
-MO: {Qam!}
-   {Qam!}
+XZ: <Fgnaq!>
+ZB: {Dnz!}
+   {Dnz!}
    {...}
 
-KM: <Come here!>
-MO: {naDev ghoS!}
-   {naDev ghoS!}
+XZ: <Pbzr urer!>
+ZB: {anQri tubF!}
+   {anQri tubF!}
    {...}
 
-KM: <Eat!>
-MO: {Sop!}
-   {Sop!}
+XZ: <Rng!>
+ZB: {Fbc!}
+   {Fbc!}
    {...}
 
-KM: <Stop eating!>
-MO: {Sop 'e' mev!}
-   {Sop 'e' mev!}
+XZ: <Fgbc rngvat!>
+ZB: {Fbc 'r' zri!}
+   {Fbc 'r' zri!}
    {...}
 
-HM: <Attack!>
-MO: {HIv!}
-   {HIv!}
+UZ: <Nggnpx!>
+ZB: {UVi!}
+   {UVi!}
    {...}
 
-HM: <Bite his leg off!>
-MO: {'uSDaj chop! chev!}
-   {'uSDaj chop! chev!}
+UZ: <Ovgr uvf yrt bss!>
+ZB: {'hFQnw pubc! puri!}
+   {'hFQnw pubc! puri!}
    {...}
 
-HM: <Bite *her* leg off!>
-MO: {'uSDaj chop! chev!}
-   {'uSDaj chop! chev!}
+UZ: <Ovgr *ure* yrt bss!>
+ZB: {'hFQnw pubc! puri!}
+   {'hFQnw pubc! puri!}
    {...}
 
-MO: Notice that there's no difference in Klingon between <his> and <her>.
+ZB: Abgvpr gung gurer'f ab qvssrerapr va Xyvatba orgjrra <uvf> naq <ure>.
 
-HM: <Chew that arm!>
-MO: {DeSvetlh yIv!}
-   {DeSvetlh yIv!}
+UZ: <Purj gung nez!>
+ZB: {QrFirgyu lVi!}
+   {QrFirgyu lVi!}
    {...}
 
-HM: <Do not do that!>
-MO: {mev!}
-   {mev!}
+UZ: <Qb abg qb gung!>
+ZB: {zri!}
+   {zri!}
    {...}
 
-HM: <Get off that transporter control panel!>
-MO: {jol SeHlaw lItHa'!}
-   {jol SeHlaw lItHa'!}
+UZ: <Trg bss gung genafcbegre pbageby cnary!>
+ZB: {wby FrUynj yVgUn'!}
+   {wby FrUynj yVgUn'!}
    {...}
 
-HF: <Bring that here!>
-MO: {naDev Dochvetlh qem!}
-   {naDev Dochvetlh qem!}
+US: <Oevat gung urer!>
+ZB: {anQri Qbpuirgyu drz!}
+   {anQri Qbpuirgyu drz!}
    {...}
 
-HF: <I really mean it this time: bring that here!>
-MO: {naDev Dochvetlh qemqu'!}
-   {naDev Dochvetlh qemqu'!}
+US: <V ernyyl zrna vg guvf gvzr: oevat gung urer!>
+ZB: {anQri Qbpuirgyu drzdh'!}
+   {anQri Qbpuirgyu drzdh'!}
    {...}
 
-HF: <Bad! Bad animal!>
-MO: {qab! Ha'DIbaH qab!}
-   {qab! Ha'DIbaH qab!}
+US: <Onq! Onq navzny!>
+ZB: {dno! Un'QVonU dno!}
+   {dno! Un'QVonU dno!}
    {...}
 
-HF: <Do not lick my forehead!>
-MO: {QuchwIj roSQo'!}
-   {QuchwIj roSQo'!}
+US: <Qb abg yvpx zl sberurnq!>
+ZB: {DhpujVw ebFDb'!}
+   {DhpujVw ebFDb'!}
    {...}
 
-[[# Mark: [1:05:17] Example Dialogues #]]
+[[# Znex: [1:05:17] Rknzcyr Qvnybthrf #]]
 
-MD: Finally we will hear several scenes that demonstrate how a Terran might
-use everything we have learned on this tape in the course of a single
-day, beginning with a business deal, then toasts at a bar, a brief bout of
-curse warfare, dinner at the house of a prominent Klingon on Empire Union
-Day, a mating ritual overture, confronting a pet, and telling a Klingon
-joke.
+ZQ: Svanyyl jr jvyy urne frireny fprarf gung qrzbafgengr ubj n Greena zvtug
+hfr rirelguvat jr unir yrnearq ba guvf gncr va gur pbhefr bs n fvatyr
+qnl, ortvaavat jvgu n ohfvarff qrny, gura gbnfgf ng n one, n oevrs obhg bs
+phefr jnesner, qvaare ng gur ubhfr bs n cebzvarag Xyvatba ba Rzcver Havba
+Qnl, n zngvat evghny biregher, pbasebagvat n crg, naq gryyvat n Xyvatba
+wbxr.
 
-[[# Mark: [1:05:46] A business deal (dialogue) #]]
+[[# Znex: [1:05:46] N ohfvarff qrny (qvnybthr) #]]
 
-KM: <What do you want?>
-MO: {nuqneH?}
+XZ: <Jung qb lbh jnag?>
+ZB: {ahdarU?}
 
-HM: <I definitely want sixty ion triggers.>
-MO: {javmaH tat chu'wI' vIneHbej.}
+UZ: <V qrsvavgryl jnag fvkgl vba gevttref.>
+ZB: {wniznU gng puh'jV' iVarUorw.}
 
-KM: <Give me five thousand credits! Pay now!>
-MO: {vaghSaD DeQ HInob! DaH yIDIl!}
+XZ: <Tvir zr svir gubhfnaq perqvgf! Cnl abj!>
+ZB: {intuFnQ QrD UVabo! QnU lVQVy!}
 
-HM: <No problem! Here!>
-MO: {qay'be'! tItlhap!}
+UZ: <Ab ceboyrz! Urer!>
+ZB: {dnl'or'! gVgyunc!}
 
-KM: <Good. Let us go get a drink.>
-MO: {maj. Ha'! DaH matlhutlh.}
+XZ: <Tbbq. Yrg hf tb trg n qevax.>
+ZB: {znw. Un'! QnU zngyuhgyu.}
 
-[[# Mark: [1:06:31] Toasting (dialogue) #]]
+[[# Znex: [1:06:31] Gbnfgvat (qvnybthr) #]]
 
-HM: <Waiter, I will drink Romulan ale.>
-MO: {jabwI', romuluS HIq vItlhutlh.}
+UZ: <Jnvgre, V jvyy qevax Ebzhyna nyr.>
+ZB: {wnojV', ebzhyhF UVd iVgyuhgyu.}
 
-KM: <Waiter, bring two glasses! -- You are an unusual Terran.>
-MO: {jabwI', cha' HIvje' tIqem! tera'ngan motlhbe' SoH.}
+XZ: <Jnvgre, oevat gjb tynffrf! -- Lbh ner na hahfhny Greena.>
+ZB: {wnojV', pun' UViwr' gVdrz! gren'atna zbgyuor' FbU.}
 
-HM: <May your blood scream.>
-MO: {'IwlIj jachjaj.}
+UZ: <Znl lbhe oybbq fpernz.>
+ZB: {'VjyVw wnpuwnw.}
 
-KM: <May you always find a bloodworm in your glass.>
-MO: {reH HIvje'lIjDaq 'Iwghargh Datu'jaj.}
+XZ: <Znl lbh nyjnlf svaq n oybbqjbez va lbhe tynff.>
+ZB: {erU UViwr'yVwQnd 'Vjtunetu Qngh'wnw.}
 
-[[# Mark: [1:07:07] Curse warfare (dialogue) #]]
+[[# Znex: [1:07:07] Phefr jnesner (qvnybthr) #]]
 
-HM: <Curse warfare has definitely begun.>
-MO: {taghbej mu'qaD veS.}
+UZ: <Phefr jnesner unf qrsvavgryl ortha.>
+ZB: {gntuorw zh'dnQ irF.}
 
-KF: <Your targ has a bigger brain than all your ancestors put together.>
-MO: {targhlIj yab tIn law', no'lI' Hoch yabDu' tIn puS.}
+XS: <Lbhe gnet unf n ovttre oenva guna nyy lbhe naprfgbef chg gbtrgure.>
+ZB: {gnetuyVw lno gVa ynj', ab'yV' Ubpu lnoQh' gVa chF.}
 
-KM: <You belong in a black hole in the netherworld.>
-MO: {ghe''orDaq luSpet 'oH DaqlIj'e'.}
+XZ: <Lbh orybat va n oynpx ubyr va gur argurejbeyq.>
+ZB: {tur''beQnd yhFcrg 'bU QndyVw'r'.}
 
-HM: <Your mother has a smooth forehead.>
-MO: {Hab SoSlI' Quch.}
+UZ: <Lbhe zbgure unf n fzbbgu sberurnq.>
+ZB: {Uno FbFyV' Dhpu.}
 
-[[From the surprised crowd of Klingons:]] Ohhh!
+[[Sebz gur fhecevfrq pebjq bs Xyvatbaf:]] Buuu!
 
-[[# Mark: [1:07:45] Empire Union Day (dialogue) #]]
+[[# Znex: [1:07:45] Rzcver Havba Qnl (qvnybthr) #]]
 
-HM: <It would be an honor to eat twice here at your house, your honor. I am
-very hungry.>
-MO: {naDev juHlIjDaq cha'logh vISopneSchugh, vaj jIquv. jIghungqu'.}
+UZ: <Vg jbhyq or na ubabe gb rng gjvpr urer ng lbhe ubhfr, lbhe ubabe. V nz
+irel uhatel.>
+ZB: {anQri whUyVwQnd pun'ybtu iVFbcarFpuhtu, inw wVdhi. wVtuhatdh'.}
 
-HM: <May the spirit of Kahless live within you.>
-MO: {SoHDaq qeylIS qa' yInjaj.}
+UZ: <Znl gur fcvevg bs Xnuyrff yvir jvguva lbh.>
+ZB: {FbUQnd drlyVF dn' lVawnw.}
 
-[[# Mark: [1:08:09] Confronting a pet (dialogue) #]]
+[[# Znex: [1:08:09] Pbasebagvat n crg (qvnybthr) #]]
 
-[[Repeated growling noises from some kind of doglike(?) animal.]]
+[[Ercrngrq tebjyvat abvfrf sebz fbzr xvaq bs qbtyvxr(?) navzny.]]
 
-HM: <Your {Qogh} is definitely fierce. Do not do that! Sit!>
-MO: {qu'bej QoghlIj. #SSS!# mev! ba'!}
+UZ: <Lbhe {Dbtu} vf qrsvavgryl svrepr. Qb abg qb gung! Fvg!>
+ZB: {dh'orw DbtuyVw. #FFF!# zri! on'!}
 
-[[The animal whines, then becomes silent. Klingons in the background make
-approving sounds.]]
+[[Gur navzny juvarf, gura orpbzrf fvyrag. Xyvatbaf va gur onpxtebhaq znxr
+nccebivat fbhaqf.]]
 
-MO: {yoH tera'ngan. majQa'.}
-   [[<The Terran is brave. Very good.>]]
+ZB: {lbU gren'atna. znwDn'.}
+   [[<Gur Greena vf oenir. Irel tbbq.>]]
 
-KM: <You follow Klingon customs well.>
-MO: {tlhIngan tIgh Dapabchu'.}
+XZ: <Lbh sbyybj Xyvatba phfgbzf jryy.>
+ZB: {gyuVatna gVtu Qncnopuh'.}
 
-[[# Mark: [1:08:37] Secrecy proverbs (dialogue) #]]
+[[# Znex: [1:08:37] Frperpl cebireof (qvnybthr) #]]
 
-KM: <I have secret information, you will find it useful. We will talk after
-dinner.>
-MO: {De' pegh vIghaj. lI', 'e' Datu'. 'uQ vISoppu'DI' maja'chuq.}
+XZ: <V unir frperg vasbezngvba, lbh jvyy svaq vg hfrshy. Jr jvyy gnyx nsgre
+qvaare.>
+ZB: {Qr' crtu iVtunw. yV', 'r' Qngh'. 'hD iVFbcch'QV' znwn'puhd.}
 
-HM: <A day without secrets is like a night without stars.>
-MO: {Hov ghajbe'bogh ram rur pegh ghajbe'bogh jaj.}
+UZ: <N qnl jvgubhg frpergf vf yvxr n avtug jvgubhg fgnef.>
+ZB: {Ubi tunwor'obtu enz ehe crtu tunwor'obtu wnw.}
 
-[[# Mark: [1:09:01] Replacement proverbs (dialogue) #]]
+[[# Znex: [1:09:01] Ercynprzrag cebireof (qvnybthr) #]]
 
-[[A tray crashes to the floor. The crowd becomes silent. The Terran
-obviously talks to himself saying:]]
-HM: Uhm. Oh. Oh, great. Er. Urhm!
+[[N genl penfurf gb gur sybbe. Gur pebjq orpbzrf fvyrag. Gur Greena
+boivbhfyl gnyxf gb uvzfrys fnlvat:]]
+UZ: Huz. Bu. Bu, terng. Re. Heuz!
 
-HM: <The fire is always hotter on someone else's face.>
-MO: {reH latlh qabDaq qul tuj law' Hoch tuj puS.}
+UZ: <Gur sver vf nyjnlf ubggre ba fbzrbar ryfr'f snpr.>
+ZB: {erU yngyu dnoQnd dhy ghw ynj' Ubpu ghw chF.}
 
-[[The background noise resumes, and the Terran relaxes with a sigh.]]
+[[Gur onpxtebhaq abvfr erfhzrf, naq gur Greena erynkrf jvgu n fvtu.]]
 
-[[# Mark: [1:09:23] A mating ritual overture (dialogue) #]]
+[[# Znex: [1:09:23] N zngvat evghny biregher (qvnybthr) #]]
 
-[[A female approaches.]]
+[[N srznyr nccebnpurf.]]
 
-KF: <Terran, ahggrrrrr... Hggrrr... Do I please you?>
-MO: {tera'ngan, qabelmoH'a'?}
+XS: <Greena, nutteeeee... Utteee... Qb V cyrnfr lbh?>
+ZB: {gren'atna, dnoryzbU'n'?}
 
-[[Transcriber's note: It's a bit of an anticlimax to hear Marc Okrand's voice
-say this in Klingon, after listening to that -- Hgggrrr... -- female voice.]]
+[[Genafpevore'f abgr: Vg'f n ovg bs na nagvpyvznk gb urne Znep Bxenaq'f ibvpr
+fnl guvf va Xyvatba, nsgre yvfgravat gb gung -- Uttteee... -- srznyr ibvpr.]]
 
-HM: <The blood of the warrior grows cold.>
-MO: {bIrchoH SuvwI' 'Iw.}
+UZ: <Gur oybbq bs gur jneevbe tebjf pbyq.>
+ZB: {oVepubU FhijV' 'Vj.}
 
-[[The female whines and groans, then departs.]]
+[[Gur srznyr juvarf naq tebnaf, gura qrcnegf.]]
 
-[[# Mark: [1:08:47] Telling a joke (dialogue) #]]
+[[# Znex: [1:08:47] Gryyvat n wbxr (qvnybthr) #]]
 
-KM: <Guest, do you know any funny stories?>
-MO: {meb, lut tlhaQ DaSov'a'?}
+XZ: <Thrfg, qb lbh xabj nal shaal fgbevrf?>
+ZB: {zro, yhg gyunD QnFbi'n'?}
 
-HM: <Two Federation crewmen arrive on Kronos. They meet a Klingon guard. They
-ask him: "Can we get to the Great Hall?">
-MO: {Qo'noSDaq paw cha' DIvI' beq. tlhIngan 'avwI' lughom. lutlhob;
-"naDevvo' vaS'a'Daq majaHlaH'a'?"}
+UZ: <Gjb Srqrengvba perjzra neevir ba Xebabf. Gurl zrrg n Xyvatba thneq. Gurl
+nfx uvz: "Pna jr trg gb gur Terng Unyy?">
+ZB: {Db'abFQnd cnj pun' QViV' ord. gyuVatna 'nijV' yhtubz. yhgyubo;
+"anQriib' inF'n'Qnd znwnUynU'n'?"}
 
-[[The Klingon crowd laughs, starting after {lutlhob}.]]
+[[Gur Xyvatba pebjq ynhtuf, fgnegvat nsgre {yhgyubo}.]]
 
-[[Transcriber's note: Whatever happened to the punch line?]]
+[[Genafpevore'f abgr: Jungrire unccrarq gb gur chapu yvar?]]
 
-[[# Mark: [1:10:31] Afterword #]]
+[[# Znex: [1:10:31] Nsgrejbeq #]]
 
-MD: This concludes the tape on <Power Klingon>. Go back to the beginning, and
-listen through again and again until you feel competent enough to issue
-these useful words and phrases with authority. Just as the technical
-mastery of a phaser must be followed by an instinctual mastery of when to
-use it, so these lessons must be mastered in both technique and use. Only
-then will you be able to wield your newfound weapons.
+ZQ: Guvf pbapyhqrf gur gncr ba <Cbjre Xyvatba>. Tb onpx gb gur ortvaavat, naq
+yvfgra guebhtu ntnva naq ntnva hagvy lbh srry pbzcrgrag rabhtu gb vffhr
+gurfr hfrshy jbeqf naq cuenfrf jvgu nhgubevgl. Whfg nf gur grpuavpny
+znfgrel bs n cunfre zhfg or sbyybjrq ol na vafgvapghny znfgrel bs jura gb
+hfr vg, fb gurfr yrffbaf zhfg or znfgrerq va obgu grpuavdhr naq hfr. Bayl
+gura jvyy lbh or noyr gb jvryq lbhe arjsbhaq jrncbaf.
 
-MD: <It has been an honor to instruct you. Success!>
-MO: {batlh qaghojmoH. Qapla'.}
+ZQ: <Vg unf orra na ubabe gb vafgehpg lbh. Fhpprff!>
+ZB: {ongyu dntubwzbU. Dncyn'.}
 
-[[# Mark: [1:11:12] Credits #]]
+[[# Znex: [1:11:12] Perqvgf #]]
 
-HM: <Power Klingon> was written by Barry Levine with Marc Okrand. It was
-read by Michael Dorn, with additional narration by Marc Okrand, Allen
-Brown(?), Sam Gunsler(?) and Jessica Weglein(?). The recording engineer was
-Leszek Wójczik, with editing and post-production by Paul Goodrich(?). The
-associate producer was Linda Wollman. <Power Klingon> was directed and
-produced by Susan Perrin Totland.
+UZ: <Cbjre Xyvatba> jnf jevggra ol Oneel Yrivar jvgu Znep Bxenaq. Vg jnf
+ernq ol Zvpunry Qbea, jvgu nqqvgvbany aneengvba ol Znep Bxenaq, Nyyra
+Oebja(?), Fnz Thafyre(?) naq Wrffvpn Jrtyrva(?). Gur erpbeqvat ratvarre jnf
+Yrfmrx Jówpmvx, jvgu rqvgvat naq cbfg-cebqhpgvba ol Cnhy Tbbqevpu(?). Gur
+nffbpvngr cebqhpre jnf Yvaqn Jbyyzna. <Cbjre Xyvatba> jnf qverpgrq naq
+cebqhprq ol Fhfna Creeva Gbgynaq.
 
-[[eof]]
+[[rbs]]

@@ -81,15 +81,8 @@ Priorities:
      Remove occurances of "&#173;" & "&shy;", too
 *** TODO Page "Updated" dates...
 **** TODO Automatic update of filedates listed in pages (using includes?)
-
 **** TODO Restore file dates for all unchanged files
-*** TODO Find/eliminate dead links
-**** TODO usr/bin/linkcheck
-***** TODO Add capacity to check external link
-***** TODO Add capacity to check for CSS existance
-      <link rel="stylesheet" type="text/css" href="..." />
-***** TODO Add capacity to check for image existance
-      <img src="..."> tags
+*** DONE Find/eliminate dead links
 **** DONE Eliminate dead links internally
      CLOSED: [2010-10-07 Thu 07:37]
 **** DONE Figure out a way to fetch page and check links
@@ -99,10 +92,6 @@ Priorities:
 **** DONE Dead links on canon/
      CLOSED: [2010-10-07 Thu 07:27]
      Quite a lot of trascripts have changed names.
-
-*** TODO Delete old files on Manufrog (for 2040.klingonska.org & klingonska.org)
-*** TODO Set up 2040 wiki again
-
 *** DONE Change all occurances of www.klingonska.org into klingonska.org
     CLOSED: [2010-10-04 Mon 16:51]
 *** DONE Redirect test.zrajm.org -> test.klingonska.org
@@ -119,7 +108,8 @@ Priorities:
      CLOSED: [2012-06-09 Sat 11:21]
      'max-width' should be enforced. Page header should be more colorful (red),
      in other respects the page should strive for a sombre, academic look.
-**** TODO [80%] Move site repo to GitHub
+**** DONE [100%] Move site repo to GitHub
+     CLOSED: [2012-06-20 Wed 15:31]
      This will save about 50M of diskspace on HCoop (where space is expensive),
      and future minifications and file compressions will work to save even more
      space. (As long as the git repo resided on HCoop all changes would make
@@ -138,7 +128,8 @@ Priorities:
 ***** DONE Publish modified site on HCoop
       CLOSED: [2012-06-20 Wed 13:59]
       New make target 'make publish' for publishing the site to HCoop.
-***** TODO Add README.md for GitHub
+***** DONE Add README.md for GitHub
+      CLOSED: [2012-06-20 Wed 15:30]
 **** TODO Add new look to all pages
 ***** TODO Use HTML5 Boilerplate
 ***** TODO Build CSS from SCSS
@@ -2015,132 +2006,26 @@ Priorities:
     CLOSED: [2011-09-15 Thu 15:49]
 *** DONE Check Klingon spelling
     CLOSED: [2011-09-15 Thu 15:50]
-** TODO [#4] HTML quality tester
-   Should check the following:
-*** Check that all text have a "lang" property set
+** HTML check tool
+*** TODO Rename 'linkcheck' -> 'check-html'
+    To be consistent with 'check-dict'.
+*** TODO Check external links
+*** TODO Check CSS existance
+    <link rel="stylesheet" type="text/css" href="..." />
+*** TODO Check image existance
+    <img src="..."> tags
+*** TODO Check that all text have a "lang" property set
     Rudimentary checks to see whether it's correctly set to "en", "sv" or "tlh"
     as well?
-*** Check that all HTML elements are closed properly
-*** Spellcheck Klingon inside <b lang="tlh">...</b>
-*** Check that Klingon inside <b lang="tlh">...</b> is hyphenated (correctly)
-*** Check that no <title> nor <h#> text ends in a period
-*** Check that all <body> have "lang" specified
-*** Check that all HTML is downcased
-
-*** Check that all HTML have quoted attribute names
-*** Check that HTML uses only approved tag/attribute names
+*** TODO Check that all <body> have "lang" specified
+*** TODO Check that all HTML elements are closed properly
+*** TODO Spellcheck Klingon inside <b lang="tlh">...</b>
+*** TODO Check that Klingon inside <b lang="tlh">...</b> is hyphenated correctly
+*** TODO Check that <title> and <h#> text ends in a period
+*** TODO Check that all HTML is downcased
+*** TODO Check that all HTML have quoted attribute names
+*** TODO Check that HTML uses only approved tag/attribute names
 ** DOING Makefile: Uploading of beta.klingonska.org / klingonska.org    :CLI:
-*** DONE improved directory structure on hcoop
-    CLOSED: [2010-09-05 Sun 00:09]
-    * klingonska.org/{beta,main,manufrog}
-    * zrajm.org/{main,2040}
-
-*** DONE "make beta" -> upload beta version of site
-    CLOSED: [2010-09-05 Sun 04:49]
-    Should upload new site to hcoop:klingonska.org/beta.
-*** DOING "make release" -> upload new official release of site
-**** DONE Uploads the site to main directory (http://klingonska.org/)
-     CLOSED: [2010-09-05 Sun 05:13]
-**** TODO Enforcing of tests?
-**** TODO Automatic tagging in git repo of uploaded material?
-     This seems problematic, as it would require all files to be checked in,
-     before upload (in order to have the directory tree and the repo being
-     competely concronized -- if they're not, the git tag doesn't really signify
-     anything).
-
-     Should add an official release tag in the git repository + upload new site
-     to hcoop:klingonska.org/main
-
-     http://ariejan.net/2009/09/05/git-tag-mini-cheat-sheet-revisited/
-
-** TODO Gitify site ("git push" for upload + publish repo)              :CLI:
-*** TODO Server-side commit hook should fail if make fails
-
-    E.g. when a rebuilding of canon/index.html from markdown fails, the entire
-    push operation should fail. This happens if if not
-
-        PERL5LIB=$PERL5LIB:~/usr/share/perl
-
-    is set. Since the Markdown module is installed there.
-*** TODO Git "add" hook to store file dates/metadata?
-    No such hook exist. :( Use some sort of server-side hook at push instead?
-*** TODO Makefile must not require perl 5.10
-*** TODO Pre-commit hook should be checked in
-    "make hooks" should create the client-side relevant hooks.
-*** TODO Improve and optimize pre-commit hook
-    Commits are veeeeryy slow because of (I assume) the fact that find is run on
-    all files in the repository.
-
-    Instead of searching all files for changed metadata, the pre-commit hook
-    should only fetch metadata for files changed in the commit.
-
-    Lists all files included in a commit:
-
-        git ls-files --stage
-
-    metadata <
-
-*** TODO Include HCoop domtool config in git repo
-*** DONE Redirect git.klingonska.org to site git repo
-    CLOSED: [2011-04-10 Sun 03:59]
-*** DONE Sketch infrastructure
-    CLOSED: [2010-12-20 Mon 05:14]
-
-    When the master branch is pushed, it should cause an update of the entire
-    page.
-
-    git push          # should rebuild basic web page
-     |
-     +--> site content should be built by "make" un upload
-
-*** DONE Publish klingonska.org git repo on HCoop
-    CLOSED: [2010-12-20 Mon 05:14]
-    Instructions: http://wiki.hcoop.net/MemberManual/VersionControl/git
-
-    Repo names:
-        git://git.hcoop.net/git/zrajm/klingonska-website.git
-        http://git.hcoop.net/git/zrajm/klingonska-website.git
-        http://klingonska.org/.git
-        http://klingonska.org/git
-
-    fsr setacl klingonska.org system:anyuser read
-
-    ln -s ~/klingonska.org/main/.git ~/.hcoop-git/klingonska-website.git
-
-*** DONE Use "git push" for upload instead of "make release"
-    CLOSED: [2010-12-20 Mon 05:14]
-
-    Should make use of server side git hook 'post-receive' updating web page.
-
-    The following works for just populating a git work tree from a repo:
-
-        #!/bin/sh
-        #
-        # update website
-        # "git-diff" cwd can be anything
-        # $GIT_WORK_TREE must always be specified if using bare repo
-        # $GIT_DIR is assumed to be cwd if not specified
-        env -i git --work-tree=../experiment checkout -f
-
-        # test that website does not diff from repository
-        # "git-diff" cwd may be $GIT_DIR or $GIT_WORK_TREE
-        # if $GIT_WORK_TREE, then $GIT_DIR must be specified
-        # if $GIT_DIR, then both $GIT_DIR and $GIT_WORK_TREE must be specified
-        XXX=`git --git-dir=. --work-tree=../experiment diff HEAD`
-        if [ -z "$XXX" ]; then
-            echo "WEBSITE UPDATED"
-        else
-            echo "WEBSITE UPDATE FAILED: The following files differ from repository"
-            echo "XXX" | grep '^diff '
-            echo
-            echo "Fix by running: 'git --git-dir=experiment.git --work-tree=experiment check\
-        out -f'"
-            echo
-        fi
-
-** TODO Generate web pages from templates & using Markdown              :CLI:
-   Various contexts which should (maybe?) have special handling.
-   * gallery (e.g. "http://klingonska.org/songs/tahjaj_wo/")
 ** TODO usr/bin/klingon_spell_check                                     :CLI:
 *** TODO Support for syllable {-oy}
     Do I have this somewhere?
@@ -2160,7 +2045,6 @@ Priorities:
 
    More on that topic
    http://httpd.apache.org/docs/current/content-negotiation.html#multiviews
-
 
 * Communicate
 ** Reply to http://community.livejournal.com/klingon/
