@@ -130,7 +130,14 @@ Priorities:
       New make target 'make publish' for publishing the site to HCoop.
 ***** DONE Add README.md for GitHub
       CLOSED: [2012-06-20 Wed 15:30]
-**** TODO Add new look to all pages
+**** TODO Add new look to all pages (except {paqHom} and KLO for now)
+***** TODO <script>...</script> blocks should not be parsed for markdown
+      E.g. `/download.html`.
+***** TODO Build all pages using HTML template
+      Thereby centralizing the page header/footer etc. `bin/markdown2html` is
+      the tool used for this, except for files in /dict/, which uses `parse`.
+      Unifying these two tools into one will become a later issue, though.
+***** TODO Replace template with template containing new design
 ***** TODO Use HTML5 Boilerplate
 ***** TODO Build CSS from SCSS
       Generated CSS should be minified.
@@ -145,6 +152,9 @@ Priorities:
      "The one-shop-stop for all you Klingon language needs."?
      "Klingon language reference tools since 1998."?
 **** TODO Minor tweaks (low priority)
+***** TODO Check & set 'title' and 'alt' tags according to standard
+      What should they contain? Add appropriate stuff for screen readers and
+      text browser.
 ***** TODO SVG for page design elements
 ****** TODO With PNG fallbacks where SVG is unsupported
 ****** TODO Use SVG for navigation menu bullets

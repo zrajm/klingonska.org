@@ -1,0 +1,53 @@
+/* main */
+#main { font-family: Verdana, Arial, Helvetica, sans-serif; }
+#main h3, h4 { font-style: italic; }
+#main td, #main th { vertical-align: top; }
+
+/* question table */
+#main table.questions {
+    border-spacing: 1em;
+}
+#main table.questions th { white-space: nowrap; }
+#main table.questions th, #main table.questions td {
+    font-weight: normal;
+    text-align: left;
+}
+
+/* glossary table */
+#main table.glossary {
+    border-collapse: collapse;
+}
+#main table.glossary th, #main table.glossary td {
+    border: .15em solid black;
+    padding: 0 .5em;
+}
+
+/* questions2 */
+#main table.questions2 {
+    border-collapse: collapse;
+}
+#main table.questions2 tbody + tbody {
+    border-top: 1em solid transparent;
+}
+#main table.questions2 th, #main table.questions2 td {
+    text-align: left;
+    font-weight: normal;
+}
+#main table.questions2 td {
+    padding: 0 .5em;
+}
+
+/* category table */
+#main table.categories {
+    border-collapse: collapse;
+    width: 80%;
+}
+#main table.categories th {
+    font-weight: normal;
+    text-align: left;
+}
+#main table.categories td {
+    padding-left: 3em;
+}
+
+/* eof */

@@ -1,0 +1,13 @@
+
+/* a basic table, with borders and centered on page */
+
+table {
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 2px solid black;
+    padding: .125em .5em;
+}
+
+/* eof */

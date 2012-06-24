@@ -50,6 +50,10 @@ processed_source_files = \
         $(source_dir)/akademien/logo/*.txt \
         $(source_dir)/canon/index.txt      \
         $(source_dir)/dict/*.txt           \
+        $(source_dir)/download.txt         \
+        $(source_dir)/errors.txt           \
+        $(source_dir)/index.txt            \
+        $(source_dir)/klcp.txt             \
         $(source_dir)/klo/*.txt            \
     )
 

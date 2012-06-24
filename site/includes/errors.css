@@ -1,0 +1,8 @@
+/* used by http://klingonska.org/errors.html */
+
+/* Sortable tables */
+table.sortable thead {
+    cursor: pointer;
+}
+
+/* eof */

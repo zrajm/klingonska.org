@@ -2,6 +2,7 @@
 
 use strict;
 use warnings;
+use 5.10.0;
 use utf8;
 use Cwd 'realpath';
 use open qw(:std :utf8);
@@ -16,22 +17,23 @@ use open qw(:std :utf8);
 ###############################################################################
 
 my %code = (
-    AUTHOR   => \&page_author,
-    CHANGED  => \&page_date,
-    CRUMBS   => \&page_crumbs,
-    CSS      => \&page_css,
-    EOF      => sub { "" },
+    AUTHOR   => \&page_author,     # in 'template.html'
+    CHANGED  => \&page_date,       # in 'template.html'
+    CRUMBS   => \&page_crumbs,     # in 'template.html'
+    CSS      => \&page_css,        # in 'template.html'
+    EOF      => sub { "" },        # in all templates
     FOOT     => \&page_footer,
-    HEAD     => \&page_header,
-    LOGOLINK => \&page_logolink_url,
-    LOGOKA   => \&page_logoimage_ka,
-    MAIN     => \&page_main,
-    META     => \&page_meta,
-    PREVNEXT => \&page_prevnext,
-    TITLE    => \&page_title,
+    HEADER   => \&page_header,     # in 'template.html'
+    LOGOLINK => \&page_logolink,   #   in 'header.html'
+    LOGOKA   => \&page_logoka,     #   in 'header.html'
+    MAIN     => \&page_main,       # in 'template.html'
+    META     => \&page_meta,       # in 'template.html'
+    PREVNEXT => \&page_prevnext,   # in 'template.html'
+    SCRIPT   => \&page_script,     # in 'template.html'
+    TITLE    => \&page_title,      # in 'template.html'
     TOC      => \&page_toc,
-    URL      => \&page_url,
-    YEAR     => \&page_year,
+    URL      => \&page_url,        # in 'template.html'
+    YEAR     => \&page_year,       # in 'template.html'
 );
 
 my %author = (
@@ -280,31 +282,17 @@ sub help {
         }
         splice(@$arrayref, 0, $count);
 
+        # if title unset in header, use 1st '==' header
         if (not exists($hashref->{title})) {
-            $hashref->{title} = do {
-                my $i = 0;
-                $i ++ while ${$arrayref}[$i] =~ /^$/;
-                ${$arrayref}[$i];
-            };
-            for ($hashref->{title}) {
+            my ($_, $i) = ("", 0);
+            $i ++ while $arrayref->[$i] =~ /^$/;
+            if (($arrayref->[$i+1] // "") =~ /^=+$/) {
+                $_ = ${$arrayref}[$i];
                 s#\s* \[\[.*?\]\]##gx;
                 chomp();
             }
+            $hashref->{title} = $_;
         }
-
-        # my $page_title = do {
-        #     my $i = 0;
-        #     $i ++ while ${$arrayref}[$i] =~ /^$/;
-        #     ${$arrayref}[$i];
-        # };
-        # for ($page_title) {
-        #     s#\s* \[\[.*?\]\]##gx;
-        #     chomp();
-        # }
-        # $hashref->{title} =
-        #     exists($hashref->{title})
-        #         ? "$page_title -- $hashref->{title}"
-        #         : $page_title;
         return 1;
     }
 
@@ -342,12 +330,15 @@ sub help {
     # Plain text is all text not found inside any <...> + the values of any
     # attribute inside such tags.
     #
+    # The contents of <style>...</style> and <script>...</script> tags is also
+    # left unprocessed.
+    #
     # If $INPUT is not provided, $_ is used.
     sub process_xml {
         die "1st argument must be code reference" unless ref($_[0]) eq "CODE";
         my ($coderef, $input) = (@_, $_);
-        $input =~ s{ ([^<]*) (<!--(.*?)-->|<[^>]*?>)? }{
-            my ($text, $tag, $comment) = ($1, $2 || "", $3);
+        $input =~ s{ ([^<]*) (<(style|script)\b[^>]*>.*?</\3>|<!--(.*?)-->|<[^>]*?>)? }{
+            my ($text, $tag, $comment) = ($1, $2 || "", $4);
             &$coderef($text) .
             do {
                 if (defined($comment)) {
@@ -365,7 +356,6 @@ sub help {
         }gsex;
         return $input;
     }
-
 
     sub markdown {
         my ($self, $hashref) = @_;
@@ -396,8 +386,9 @@ sub help {
         s{(<td\b[^>]*>) \s+ (</td>)}{$1$2}gix;
 
         # clean up headline "id" attribute
-        s{ <h([1-7])( \s+ [^>]*)> (.*?) </h\1> }{
-            my ($num, $attr, $cont, $name) = ($1, $2, $3, $3);
+        s{ <(h[1-7]) \s+ ([^>]*)> (.*?) </\1> }{
+            my ($h, $attr, $cont) = ($1, $2, $3);
+            my $name = ($cont =~ s/^\s*\[(.*?)\]\s*//) ? $1 : $cont;
             $name =~ s{ \s* < (\w+) [^>]*> .*? </\1> \s* }{}gix; # strip <x>...</x>
             $name =~ s{ \s* \[ .*? \] \s* }{}gix;                # strip [...]
             if ($name =~ /^ ((?:\d+\.)* \d+) /x) {
@@ -406,12 +397,11 @@ sub help {
             $name =~ s/ ^ (?=\d) /_/x;      # precede leading digit with underscore
             $name =~ s/ [^\d\w]+ /_/xg;     # replace non-alphanumeric with underscore
             $attr =~ s{ id="[^"]*" }{id="$name"}xi;
-            "<h$num$attr>$cont</h$num>"
+            "<$h $attr>$cont</$h>"
         }gixme;
 
         return $_;
     }
-
 
     # Usage: $obj->process_file($FILE, $TEMPLATE_FILE);
     #
@@ -440,20 +430,24 @@ sub help {
             $page = $self->process_template($meta{text}, %meta);
         }
 
+        my %repl = (
+            # typographical quotes
+            # #s#"\b#&ldquo;#g;  # english only
+            '"'   => '&rdquo;',
+            # #s#"\b#&lsquo;#g;  # english only (not in Klingon!)
+            "'"   => '&rsquo;',
+            # {...} marks klingon
+            '{'   => '<b lang="tlh">',
+            '}'   => '</b>',
+            # typographical en- and em-dashes
+            '--'  => '&ndash;',
+            '---' => '&mdash;',
+        );
+        my $re = join("|", map { quotemeta $_ } sort { length($b) <=> length($a) } keys %repl);
         return process_xml(
             sub {
-                local $_ = shift;
-                # typographical quotes
-                #s#"\b#&ldquo;#g;  # english only
-                s#"#&rdquo;#g;
-                #s#"\b#&lsquo;#g;  # english only (not in Klingon!)
-                s#'#&rsquo;#g;
-                # {...} marks klingon
-                s#{#<b lang="tlh">#g;
-                s#}#</b>#g;
-                # typographical en- and em-dashes
-                s#--#&ndash;#g;
-                s#---#&mdash;#g;
+                my $_ = shift;
+                s#($re)#$repl{$1}#g;
                 return $_;
             }, $page);
     }
@@ -630,11 +624,13 @@ sub page_crumbs {
 
 sub page_css {
     my ($self, %meta) = @_;
-    my @stylesheet = (
-        "includes/gallery.css",
-        "includes/page.css",
-        "includes/pagestats.css",
-    );
+    my @stylesheet = $meta{css}
+        ? map { "includes/$_.css" } split(/\s+/, $meta{css})
+        : (
+            "includes/gallery.css",
+            "includes/page.css",
+            "includes/pagestats.css",
+        );
     return join "", map {
         '<link rel="stylesheet" type="text/css" href="' .
         rel_filename(
@@ -664,18 +660,26 @@ sub page_date {
 
 # if index.html point to previous dir
 # otherwise point to this dir
-sub page_logolink_url {
+sub page_logolink {
     my ($self, %meta) = @_;
     return ".." if $meta{filename} =~ m#(?:^|(?<=/))index.[^/.]*$#;
     return ".";
 }
 
-sub page_logoimage_ka {
+sub page_logoka {
     my ($self, %meta) = @_;
     my $file = find_include_file("pic/ka.gif", $meta{filename});
-    $file = rel_filename($file, $meta{filename});
+    $file    = rel_filename($file, $meta{filename});
+
     # FIXME "width" and "height" should be read from the image itself
-    return "<img src=\"$file\" width=\"600\" height=\"176\" alt=\"Klingonska Akademien\" />";
+    my $img  = '<img src="' . $file . '" width="600" height="176" ' .
+        'alt="Klingonska Akademien">';
+
+    # output file is root index.html
+    if ($meta{filename} =~ m#^\Q$self->{rootpath}\E/index\.(html|txt)$#) {
+        return $img;
+    }
+    return '<a href="' . page_logolink($self, %meta) . "\">$img</a>";
 }
 
 sub page_year {
@@ -705,20 +709,25 @@ sub page_author {
     return $credit;
 }
 
+# Page title should be:
+# 1st Page Headline - Metadata Title - Klingonska Akademien
+#
+# "Klingonska Akademien" is a string literal, which is always present, the
+# other two components may or may not be present.
 sub page_title {
     my ($self, %meta) = @_;
     my @title = ();
-    push(@title, exists($meta{title}) ? $meta{title} : ());
-
+    push(@title, $meta{title}) if exists $meta{title};
     if ($meta{filename} !~ m#(?:^|/)index.txt$#) {
-        if ($meta{text} =~ m/^\n*(.*)\n==+\n/) {
-            local $_ = $1;
+        if ($meta{text} =~ m#^\s*<h1\b[^<>]*>(.*)</h1>#i) {
+            my $_ = $1;
+            s#\s*<span\b[^<>]*>.*?</span>##gx;
             s/\.$//;
-            s/ \s * \[\[.*?\]\] //gx;
-            push(@title, $_);
+            unshift(@title, $_) unless $_ eq $title[0];
         }
     }
-    return join(" -- ", @title)." -- Klingonska Akademien";
+    return "Klingonska Akademien" if @title == 1 and $title[0] eq "";
+    return join(" -- ", @title) . " -- Klingonska Akademien";
 }
 
 
@@ -827,6 +836,7 @@ sub page_header {
 sub page_prevnext {
     my ($self, %meta) = @_;
     return "" if $meta{filename} =~ m#/index.[^/.]*$#;
+    return "" unless exists($meta{prev}) or exists($meta{next});
     my @x = ();
     push @x, qq{<a href="$meta{prev}.html">&larr;</a>} if exists $meta{prev};
     push @x, qq{<a href=".">Innehåll</a>};
@@ -837,6 +847,17 @@ sub page_prevnext {
         "\n\n";
 }
 
+sub page_script {
+    my ($self, %meta) = @_;
+    return join "", map {
+        "<script src=\"" .
+        rel_filename(
+            find_include_file("includes/$_.js", $meta{filename}),
+            $meta{filename},
+        ) . "\"></script>\n";
+    } split(/\s+/, $meta{script} // "");
+}
+
 sub page_footer {
     # FIXME: should find headerfile relative to the processed file's name
     my ($self, %meta) = @_;
@@ -844,12 +865,10 @@ sub page_footer {
     return $self->process_template($text, %meta);
 }
 
-
 sub page_main {
     my ($self, %meta) = @_;
     return $meta{text};
 }
-
 
 sub read_file {
     my ($file) = @_;
@@ -858,14 +877,12 @@ sub read_file {
     return <$in>            or die "Can't read file '$file': $!\n";
 }
 
-
 sub write_file {
     my ($file, $data) = @_;
     open my $out, ">", $file or die "Can't open file '$file' for writing: $!\n";
     print $out $data         or die "Can't write to file '$file': $!\n";
     return 1;
 }
-
 
 
 ###############################################################################
