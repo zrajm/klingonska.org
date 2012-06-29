@@ -142,11 +142,9 @@ css: banner navigation note page pagestats
 
 <dl class="navigation">
   <dt><a href="akademien/">Om <i>Klingonska Akademien</i></a></dt>
-  <dd>I den mån det finns en beskrivning av <em>Klingonska
-    Akademien</em> som sällskap betraktat, så hittar du den här. Här
-    finns våra stadgar, lite info om verksamheten samt
-    personpresentationer och
-    propaganda. <small>[Ändrad <time>2007-07-15</time>]</small>
+  <dd>Här hittar du samt beskrivningar av aktiviteter vi deltagit i och ordnat,
+    lite propaganda och en historia (i bilder) om vår
+    logo. <small>[Ändrad <time>2007-07-15</time>]</small>
   </dd>
 
   <dt><a href="lista.html">Klingonska Akademiens epostlista</a></dt>
