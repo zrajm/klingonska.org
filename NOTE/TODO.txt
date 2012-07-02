@@ -181,7 +181,7 @@ Priorities:
       are incorporated into the KLO pages. Old stuff is just an annoyance to
       maintain. (And, even after removal, would still be available in the git
       repo, if anyone *really* cared.)
-***** [24%] Convert all pages to new HTML template
+***** [25%] Convert all pages to new HTML template
       Thereby centralizing the page header/footer etc. `bin/markdown2html` is
       the tool used for this, except for files in /dict/, which uses `parse`.
       Unifying these two tools into one will become a later issue, though.
@@ -228,7 +228,8 @@ Priorities:
        CLOSED: [2012-07-02 Mon 04:27]
 ****** DONE `lista.html`
        CLOSED: [2012-07-02 Mon 05:02]
-****** TODO `piqadpic.html`
+****** DONE `piqadpic.html`
+       CLOSED: [2012-07-02 Mon 05:39]
 ****** TODO `punct.html`
 ****** TODO `punct2.html`
 ****** TODO `tkw.html`
