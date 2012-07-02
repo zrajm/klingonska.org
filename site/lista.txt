@@ -1,0 +1,114 @@
+updated: 2012-07-02 05:02:59+02
+author: zrajm
+year: 1998-2012
+lang: sv
+
+Klingonska Akademiens epostlista
+================================
+
+Nyheter
+-------
+
+I <time datetime="2007-06">juli 2007</time> flyttade klingonska till en ny
+server -- i-och-med detta har också epostlisteprogramvaran bytts ut. Nu kör vi
+Mailman. Listan som sådan är oförändrad, alla gamla prenumeranter har överförts
+till den nya listan, och adressen till listan förblir densamma. Det har dock
+blivit enklare att gå med, gå ur och ändra sina inställningar på epostlistan,
+via ett webgränssnitt.
+
+<table>
+  <tr>
+    <th>Listans adress</th>
+    <td><a href="mailto:klingonska@klingonska.org">klingonska@klingonska.org</a></td>
+  </tr>
+  <tr>
+    <th>Webbgränssnitt</th>
+    <td><a href="https://lists.hcoop.net/listinfo/klingonska">lists.hcoop.net/listinfo/klingonska</a></td>
+  </tr>
+</table>
+
+
+En svensk/klingonsk epostlista
+------------------------------
+Klingonska Akademiens epostlista är en svensk/klingonsk epostlista för dig som
+fattat tycke för galaxens snabbast växande språk men ännu inte har hittat någon
+i ditt grannskap att konversera med. -- Syftet är att ge ett medium för dialog
+om (och på) klingonska, ett forum för kommunikation där man utbyta råd och
+tips, men också planera och informera om sammankomster och händelser som
+relaterar till klingonska (och klingoner) och som utspelar sig i detta avlånga
+land.
+
+Listan kan ses som ett lokalt komplement eller alternativ till
+{tlhIngan-Hol}, <a href="http://www.kli.org/tlhIngan-Hol/">
+Klingonska språkinstitutets epostlista</a>. Skillnaden är att vi har mindre
+trafik, att vår konversation förs på svenska (när det inte är klingonska som
+gäller) och att vi i större större utsträckning kan informera om sådant som
+händer i vår geografiska närhet.
+
+
+Gå med
+------
+<a href="https://lists.hcoop.net/listinfo/klingonska">Klicka här för att gå med
+på listan</a>, och följ instruktionerna en bit ned på sidan, under rubriken
+»Anmäl dig till Klingonska«.
+
+
+Gå ur
+-----
+För att avsluta ditt medlemskap på
+listan, <a href="https://lists.hcoop.net/listinfo/klingonska#subscribers">gå
+längst ned på listans webbgränssnitt,</a> under rubriken »Medlemmar av
+Klingonska« kan du logga in och ändra inställningar samt avsäga dig ditt
+medlemskap, om du så vill.
+
+
+Ordningsregler
+--------------
+I princip gäller samma regler som gäller på <i>Klingonska språkinstitutets</i>
+epostlista {tlhIngan-Hol} -- med den skillnaden att våran epostlista är på
+svenska, och mer lämplig för att sprida information relevant för de som bor i
+vårt avlånga land, med omedelbara omnejd.
+
+<ul>
+
+  <li>När du postar något till listan, skriv då antingen: (a) om klingonska, på
+    svenska -- någon enstaka fras eller mening på engelska är okej, men dra ner
+    på det så mycket du kan. (En av huvudtankarna med listan är att minska
+    "avståndet" till klingonskan genom att i mesta möjliga mån eliminera
+    omvägen via engelska.) eller (b) på klingonska, om precis vad som
+    helst.</li>
+
+  <li>Välj ämnesrad med omsorg, och skriv den alltid på det språk du använder
+    huvudsakligen i brevet. Om du svarar på ett brev, men känner att du glider
+    ifrån ämnet angivet, byt då ämnesrad men behåll den gamla inom parantes. Så
+    kan t.ex. "{jIl}" när ämnet eller språket skiftar bli till "MOs grannar
+    (var: {jIl})".)</li>
+
+  <li>Om du har en fråga av nybörjarnatur, skriv då <i>KLBC</i> först i
+    ämnesraden, så att andra nybörjare också kan se och dra nytta av de svar du
+    får. Om du svarar du på ett brev märk med <i>KLBC</i>, tänk då på att detta
+    är en nybörjare. Uppmuntra! Påpeka när han/hon har tänkt eller gjort rätt!
+    Svara på frågor och påpeka misstag -- men ha tålamod. Alla har inte samma
+    tid att lägga ner på sina klingonskastudier, och somliga förblir nybörjare
+    under lång tid. (Till skillnad från {tlhIngan-Hol} har vi ingen
+    nybörjargrammatiker som kan stå till tjänst med sin expertis. Utan här får
+    vi alla hjälpa till efter bästa förmåga.)</li>
+
+  <li>Använd tydliga markeringar för att skilja klingonska från svenska (med
+    t.ex. krullparanteser <code>&#123;&#125;</code>). Markera ord i din
+    klingonska som är av dig påhittade (t.ex. namn), medvetet felaktiga, eller
+    i övrigt inte finns i någon klingonsk ordbok (här rekomenderas att du omger
+    det felaktiga ordet eller utrycket med <code>#</code>). Att använda
+    apostrofer och citationstecken blir mest förvirrande då de är alldeles för
+    lätta att blanda ihop med den klingonska bokstaven {'} -- använd
+    hellre <code>»«</code> eller <code>&gt;&gt;</code>
+    och <code>&lt;&lt;</code>.</li>
+
+  <li>I allmänhet är det hyfs och gott uppförande som gäller, gör ingenting som
+    du inte skulle vilja att någon gjorde mot dig. Skulle du bete dig riktigt
+    illa spärras dina framtida brev från att nå fram till listan och du hindras
+    på därigenom att delta i diskussionen.</li>
+
+</ul>
+
+[[eof]]
