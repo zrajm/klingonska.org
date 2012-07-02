@@ -110,9 +110,9 @@ ls-copied:
 .PHONY: publish
 publish: .publish.done
 .publish.done: $(all_targets)
-	@echo "Publishing site to '$(remote_dir)':"; \
-	rsync -Pac --delete $(publish_dir)/ $(remote_dir) && \
-	echo "Last published from here: `date`" >"$@"
+	@echo "Publishing site to '$(remote_dir)':";            \
+	rsync -Pac --delete-after $(publish_dir)/ $(remote_dir) \
+	    && echo "Last published from here: `date`" >"$@"
 
 ## linkcheck - check internal web page links
 .PHONY: linkcheck
