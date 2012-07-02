@@ -1,0 +1,403 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use 5.10.0;
+use utf8;
+use open ':locale';
+
+use vars qw($NAME $VERSION $YEAR);
+$VERSION = "0.1b";
+$YEAR    = "2012";
+$NAME    = "Sassy";
+my %opt  = ();
+
+###############################################################################
+##                                                                           ##
+##  Functions                                                                ##
+##                                                                           ##
+###############################################################################
+
+sub lines { scalar(map "", $_[0] =~ /\n/g) }     # number of lines in string
+sub trim  { map { m#^\s*(.*?)\s*$#s; $1 } @_ }   # trim leading/trailing space
+sub max   { (sort { $b <=> $a } @_)[0] }         # return largest argument
+
+sub read_file {
+    my ($file) = @_;
+    open(my $in, $file)
+        or die "$0: Failed to open file '$file' for reading: $!\n";
+    return wantarray ? <$in> : join("", <$in>);
+}
+
+sub version {
+    print "$NAME $VERSION\n",
+        "Copyright (C) $YEAR Zrajm C Akfohg\n",
+        "License CC BY-SA: Creative Commons Attribution-Share Alike\n",
+        "<http://creativecommons.org/licenses/by-sa/3.0/>.\n\n",
+        "Written by Zrajm C Akfohg <zrajm\@klingonska.org>.\n";
+}
+
+sub help {
+    use Cwd 'realpath';
+    my $_ = read_file(realpath($0));
+    my ($desc) = /^=head1\s+NAME\s+\w+\s+-\s+(.*)/m;
+    # FIXME extract usage from POD
+    print "Usage: $0 [OPTION]... [FILE]...\n",
+        ucfirst($desc) . ".\n\n",
+        "Options:\n";
+    # list --options (from comments) -- sort by longopt name
+    {
+        my %doc = ();
+        while (/^ \s*
+                (?: (['"])                  # start quote
+                    ([^\n'"=|]*?)           #   long-opt
+                    (?:\|([^\n'"=]*?))?     #   |o
+                    (?:\+|=  [^\n'"=]*)?    #   =s
+                    \1, \s*                 # end quote
+                )? \#\#\# \s+ (.*) $/xmg) { # ### description
+            my $long  = $2 ? "--$2"  : "";
+            my $short = $3 ?  "-$3," : "";
+            my $desc  = $4;
+            $doc{$long} = [ $short, $desc ];
+        }
+        my $length = max(map { length($_) } keys %doc);
+        printf "  %-3s %-${length}s  %s\n", $doc{$_}[0], $_, $doc{$_}[1]
+            foreach sort keys %doc;
+        # FIXME extract the below info from POD as well
+        print <<EOF;
+
+Input is read from given FILE(s) or standard input, output is written to
+standard output. Exits with exit status > 0 if there were any problems (in
+which the output is most probably incomplete).
+
+This implements a scaled down version of the 'Sassy CSS' format, as described
+here. http://sass-lang.com/.
+
+Currently only nesting is supported.
+EOF
+    }
+}
+
+sub test {
+    say 'Running test suite';
+    my $out = process_scss("table.hl{margin:2em 0;td.ln{text-align:right;}}" .
+        "li{font:{family:serif;weight:bold;size:1.2em;}}");
+    my $correct = <<'EOF';
+table.hl {
+    margin: 2em 0;
+}
+table.hl td.ln {
+    text-align: right;
+}
+li {
+    font-family: serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+EOF
+
+    say ">>" . css_compress($correct) . "<<";
+    if ($correct eq $out) {
+        print "OK\n";
+    } else {
+        print "BAD\n";
+    }
+    # test comma in selector inside nesting
+    my $x = process_scss('a{b1,b2{prop:value}}');
+    my $y = "a b1, a b2 {\n    prop: value;\n}\n";
+    if ($x eq $y) {
+        print "OK\n";
+    } else {
+        print "BAD\n";
+    }
+
+}
+
+sub css_compress {
+    my ($_) = @_;
+    s/\s*([:;{}])\s*/$1/g;
+    return $_;
+}
+
+
+###############################################################################
+##                                                                           ##
+##  Init                                                                     ##
+##                                                                           ##
+###############################################################################
+
+use Getopt::Long qw/:config posix_default bundling gnu_compat no_ignore_case
+                    permute/;
+GetOptions(              # info displayed by help()
+    \%opt,               # ========================
+    'debug|D+',          ### display debug output on STDERR
+    'help|h',            ### display this help and exit
+    'test',              ### run test suite
+    'verbose|v+',        ### explain what is being done
+    'version|V',         ### output version information and exit
+) or exit 2;
+
+$opt{help}    and help(),    exit;
+$opt{version} and version(), exit;
+$opt{test}    and test(),    exit;
+
+push(@ARGV, "-") unless @ARGV;
+
+sub debug {
+    return unless $opt{debug};
+    my ($msg, $file, $startline, $processed, $pos, $depth, $got, %arg) = @_;
+    my $line = $startline + lines(substr $processed, 0, $pos // 0) + 1;
+    say STDERR "==> $file:$line:$depth: $msg <==";
+    say STDERR $got;
+    if ($opt{debug} > 1) {
+        say STDERR "-" x 80;
+        say STDERR "ARGS:";
+        say STDERR "$_ => >$arg{$_}<" foreach sort keys %arg;
+        say STDERR "-" x 80;
+    }
+}
+
+
+###############################################################################
+##                                                                           ##
+##  Main                                                                     ##
+##                                                                           ##
+###############################################################################
+
+{
+    my $last_context;
+    sub process_scss {
+        my ($scss, $file) = @_;
+        $last_context = "";
+        return _process_scss(
+            code    => $scss,         depth   => 0,
+            file    => $file // "-",  line    => 0,
+            name    => "",
+            context => "",            prefix  => "",
+        );
+    }
+
+    sub _process_scss {
+        my %arg  = @_;
+        my $output = "";
+        my $_ = $arg{code};
+        if ($last_context) {
+            $output .= "}\n" . ($arg{depth} == 1 ? "\n" : "");
+            $last_context = "";
+        }
+        while (1) {
+            if (m#\G\s+#gcx) { next }          # whitespace
+            if (/\G$/) { last }                # end-of-file
+            if (m#\G/\*.*?\*/#gcs) {           # /* block comment */
+                debug("block comment", $arg{file}, $arg{line}, $_, $-[0],
+                      $arg{depth}, $&, %arg);
+                $output .= "$&\n" if $opt{verbose};
+                next;
+            }
+            if (m#\G//\V*#gc) {                # // line comment
+                debug("line comment", $arg{file}, $arg{line}, $_, $-[0],
+                      $arg{depth}, $&, %arg);
+                $output .= "$&\n" if $opt{verbose};
+                next;
+            }
+            if (m#\G\@import\s*([^;]*);#gc) {  # // @import "directive"
+                my $arg = $1;
+                if ($arg =~ m#(['"])(.*\.scss)\1#) {
+                    debug("import directive", $arg{file}, $arg{line}, $_, $-[0],
+                          $arg{depth}, $&, %arg);
+                    # FIXME:
+                    # * get current file's pwd
+                    # * get included files path relative to that
+                    # * insert content of file and set pos() to beginning of that content
+                    # * done
+                } else {
+                    debug("import directive", $arg{file}, $arg{line}, $_, $-[0],
+                          $arg{depth}, $&, %arg);
+                    $output .= "\@import $arg;\n";
+                }
+                next;
+            }
+            # FIXME: add @media queries (which are blocks containing blocks --
+            # which means that implementing them requires keeping track of
+            # indention levels)
+            #
+            # selector { block } (where 'block' may be nested)
+            if (m#\G([^;{}]+)\s*(\{((?:(?>[^{}]+)|(?2))*)\})#xgc) {
+                my ($selector, $block) = (trim($1), trim($3));
+                debug("code block", $arg{file}, $arg{line}, $_, $-[0],
+                      $arg{depth}, "$selector {\n    $block\n}", %arg);
+                my ($context, $prefix) =
+                    ($selector =~ m#^(?:(.*?)\s+)?([a-z-]*):$#)
+                        ? ($1 // "", "$2-")
+                        : ($selector, "");
+                if ($context) {
+                    $context = join(", ", map {
+                        $arg{context} .
+                            ($arg{context} && $context && " ") . $_;
+                    } split /,\s*/, $context);
+                } else {
+                    $context = $arg{context};
+                }
+                $output .= _process_scss(
+                    code    => $block,     depth  => $arg{depth} + 1,
+                    file    => $arg{file}, name   => $selector,
+                    line   => $arg{line} + lines(substr($_, 0, $-[0])),
+                    context => $context,   prefix => $arg{prefix} . $prefix,
+                );
+                next;
+            }
+            # property: value;
+            # FIXME: ";{}" should be allowed inside quotes and matched parentheses
+            if (m#\G([a-z*_-]+)\s*:([^;{}]*);?#gcx) {
+                my ($name, $value) = ($1, trim($2));
+                debug("property/value pair", $arg{file}, $arg{line}, $_, $-[0],
+                      $arg{depth}, "$name: $value;", %arg);
+                if ($arg{context} ne $last_context) {
+                    $output .= "$arg{context} {\n";
+                    $last_context = $arg{context};
+                }
+                $output .= "    " . ($arg{prefix} // "") . "$name: $value;\n";
+                next;
+            }
+            die "$0: Syntax error in file '$arg{file}' line " .
+                ($arg{line} + lines(substr($_, 0, $+[0] // 0)) + 1) .
+                ($arg{depth} ? " (inside block '$arg{name}')" : "") . "\n" .
+                ("=" x 80) . "\n" .
+                "$_\n" .
+                ("=" x 80) . "\n";
+        }
+        if ($last_context) {
+            $output .= "}\n" . ($arg{depth} == 1 ? "\n" : "");
+            $last_context = "";
+        }
+        return $output;
+    }
+}
+
+while (@ARGV) {
+    my $file = shift(@ARGV);
+    my $scss = read_file($file);
+    print process_scss($scss, $file);
+}
+
+__END__
+
+
+=head1 NAME
+
+sassy - read SCSS files, output CSS on standard output
+
+
+=head1 SYNOPSIS
+
+B<sassy> [I<OPTION>]... [I<FILE>]...
+
+
+=head1 DESCRIPTION
+
+This is a lightweight Perl implementation of the SCSS 'Sassy CSS' format,
+described here: http://sass-lang.com/
+
+'Lightweight' mostly means that only the features that I've needed for
+Klingonska Akademien's website are included, but the intention is to let is
+grow as needed.
+
+=head2 Currently Implemented Features
+
+=over 2
+
+=item *
+
+Nesting
+
+=back
+
+=head2 Planned Features
+
+=over 2
+
+=item *
+
+Variables
+
+=item *
+
+Functions
+
+=back
+
+
+=head1 OPTIONS
+
+=over 8
+
+=item   B<--debug>
+
+Causes debugging information to be printed on standard error. This is mostly
+helpful in trying to track down errors, or improving program.
+
+In debug mode each parsing operation (except removal of superflous whitespace,
+and detection of end-of-file) is displayed like this:
+
+    ==> -:1:0: code block <==
+    table.hl {
+        margin: 2em 0;
+      td.ln {
+        text-align: right;
+      }
+    }
+    ==> -:2:1: property/value pair <==
+    margin: 2em 0;
+    ==> -:3:1: code block <==
+    td.ln {
+        text-align: right;
+    }
+    ...
+
+For each statement processes, one debug message is shown, indicating the file
+name (above '-' for standard input), then the line number that statement
+started at (above 1, 2 and 3), and the level of nesting (0 being the root
+level). After that the statement being processed is displayed. Code blocks are
+processed recursively (above you can see how a code block is first extracted in
+its entirety, and then analyzed statement by statement).
+
+=item B<--help>
+
+Print a usage message briefly summarizing these command-line options, then
+exit.
+
+=item B<--test>
+
+Runs unit tests on the SCSS parser. This is for verifying that the program
+still works as it should after modifying it.
+
+=item B<--verbose>
+
+Include SCSS comments in CSS output. (Comments are normally left out from
+output in order to keep file size down.)
+
+=item B<--version>
+
+Print the version information to standard output, then exit. This information
+should be included when reporting bugs.
+
+=back
+
+
+=head1 AUTHOR
+
+Written by Zrajm C Akfohg <zrajm@klingonska.org>.
+
+
+=head1 COPYRIGHT
+
+Copyright (C) 2012 Zrajm C Akfohg. License CC BY-SA: Creative Commons
+Attribution-Share Alike <http://creativecommons.org/licenses/by-sa/3.0/>.
+
+You are allowed to freely copy and modify this program, as long as you release
+it under the same license, and give the original author(s) credit for their
+work.
+
+=cut
+
+#[eof]

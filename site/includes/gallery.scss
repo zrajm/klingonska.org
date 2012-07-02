@@ -1,0 +1,41 @@
+/* -*- css -*- */
+[role="main"] {
+    /*
+    ** Created: November 7, 2011
+    ** Author: Zrajm C Akfohg
+    ** Description: Stylesheet to make thumbnail picture galleries.
+    **
+    ** Use the following HTML to produce a gallery with two thumnails in it...
+    **
+    **     <div class="gallery">
+    **       <figure style="width:208px">
+    **         <a href="pic/ka-logo-208x208.jpg"><img width="208" height="208"
+    **           src="pic/ka-logo-208x208.jpg" alt="Klingonska Akademien's
+    **           logo, 208x208 pixel, JPEG format" /></a>
+    **         <figcaption>208x208 Mini</figcaption>
+    **       </figure>
+    **       <figure style="width:250px">
+    **         <a href="pic/ka-logo-1280x1024.jpg"><img width="250" height="200"
+    **           src="pic/ka-logo-1280x1024.thmb.jpg" alt="Klingonska Akademien's
+    **           logo, 1280x1024 pixel, JPEG format" /></a>
+    **         <figcaption>1280x1024 Desktop</figcaption>
+    **       </figure>
+    **     </div>
+    */
+    div.gallery {
+        margin: auto;
+        text-align: center;
+        margin: -.5em -1em;
+        figure {
+            border: 2px solid black;
+            padding: .125em;
+            vertical-align: middle;
+            margin: 1em;
+            display: inline-block;
+        }
+        figcaption {
+            text-align: center;
+        }
+    }
+}
+/* eof */

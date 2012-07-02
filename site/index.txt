@@ -1,23 +1,23 @@
+updated: 2012-07-02 03:15:24+02
 author: zrajm
 year: 1998-2012
 lang: en
-css: banner navigation note page pagestats
+css: banner
 
 <p class="center">
-  <big><b><em>Accuracy, straightforwardness, aggressiveness and strength!
-    <br />Precision, rättframhet, aggressivitet och styrka!</em></b></big>
+  <big><b><i>Accuracy, straightforwardness, aggressiveness and strength!
+    <br>Precision, rättframhet, aggressivitet och styrka!</i></b></big>
 </p>
 
 <p class="center">[
   <a href="#eng">English Projects</a> |
   <a href="#sve">Svenska projekt</a> ]</p>
 
-
 <table id="eng" class="banner">
   <tr>
     <td class="left edge"></td>
-    <td><img src="/pic/flag-eng.gif" width="39" height="21" alt="English" /></td>
-    <td>If you like this page, don&rsquo;t forget to link to it!</td>
+    <td><img src="/pic/flag-eng.gif" width="39" height="21" alt="English"></td>
+    <td>If you like this page, don't forget to link to it!</td>
     <td class="right edge"></td>
   </tr>
 </table>
@@ -25,71 +25,59 @@ css: banner navigation note page pagestats
 <dl class="navigation">
   <dt><a href="canon/">Archive of Okrandian Canon</a>
     (and <a href="download.html">Klingon Transcript Download</a>)</dt>
-  <dd>There is now a search engine (BETA) for finding your way through
-    the archive. This is an attempt at creating an archive of all
-    existing Okrandian canon. (A copy of Marc Okrand&rsquo;s <em>The
-    Klingon Dictionary</em> is required to access transcriptions from
-    the books and
+  <dd>There is now a search engine (BETA) for finding your way through the
+    archive. This is an attempt at creating an archive of all existing
+    Okrandian canon. (A copy of Marc Okrand's <i>The Klingon Dictionary</i> is
+    required to access transcriptions from the books and
     tapes.) <small>[Changed <time>2007-08-17</time>]</small>
   </dd>
 
-  <dt><a href="dict/">Klingon Pocket Dictionary</a> (online
-    version)</dt>
-  <dd>Now completely re-written to reflect the status of my pocket
-    dictionary. Come on in and take a look, you&rsquo;ll like
+  <dt><a href="dict/">Klingon Pocket Dictionary</a> (online version)</dt>
+  <dd>Now completely re-written to reflect the status of my pocket dictionary.
+    Come on in and take a look, you'll like
     it! <small>[Changed <time>2007-08-06</time>]</small>
   </dd>
 
   <dt><a href="errors.html">Errors in Okrandian Sources</a></dt>
-  <dd>What errors are there in the <em>The Klingon Dictionary</em>? In
-    the rest of the books? On the audio cassettes? And in the dialogue
-    of the movies?  When in doubt, check this list of known
+  <dd>What errors are there in the <i>The Klingon Dictionary</i>? In the rest
+    of the books? On the audio cassettes? And in the dialogue of the movies?
+    When in doubt, check this list of known
     errors. <small>[Changed <time>2007-07-15</time>]</small>
   </dd>
 
-  <dt><a href="qq/"><b lang="tlh">Qo&rsquo;&shy;noS
-    Qo&shy;noS</b> &ndash; <em lang="en">The Kronos
-    Journal</em></a></dt>
-  <dd>KLI&rsquo;s online journal in Klingon. This is taken directly
-    from the web page of <em>The Klingon Language Institute</em> and
-    only slightly modified for better looking printouts. (With links
-    back to the original page, of
+  <dt><a href="qq/">{Qo'noS QonoS} -- <i>The Kronos Journal</i></a></dt>
+  <dd>KLI's online journal in Klingon. This is taken directly from the web page
+    of <i>The Klingon Language Institute</i> and only slightly modified for
+    better looking printouts. (With links back to the original page, of
     course.) <small>[Changed <time>2007-07-15</time>]</small>
   </dd>
 
   <dt><a href="songs/">Songs in Klingon</a></dt>
-  <dd>These are the lyrics for a few songs that I&rsquo;ve heard (most
-    of them at the <b lang="tlh">qep&shy;&rsquo;a&rsquo;
-    Soch&shy;DIch</b>).  Hopefully I will be able to add musical
-    notes and/or recordings of these songs to this section sometime
+  <dd>These are the lyrics for a few songs that I've heard (most of them at the
+    {qep'a' SochDIch}). Hopefully I will be able to add musical notes and/or
+    recordings of these songs to this section sometime
     soon. <small>[Changed <time>2007-07-15</time>]</small>
   </dd>
 
-  <dt><a href="piqad/"><b lang="tlh">pI&shy;qaD,</b> And How
-    to Read It</a>
-    (and <a href="piqad/play.cgi">The <b lang="tlh">pI&shy;qaD</b>
-    Playground</a>)</dt>
-  <dd>Some stuff for the youthful mind, a writer&rsquo;s playground
-    &ndash; type in any Klingon text to see it
-    in <b lang="tlh">pI&shy;qaD</b>. An article about the
-    Klingon alphabet and numbers, with pronounciation and
-    orthography. (Punctuation and handwriting is not yet
+  <dt><a href="piqad/">{pIqaD}, And How to Read It</a>
+    (and <a href="piqad/play.cgi">The {pIqaD} Playground</a>)</dt>
+  <dd>Some stuff for the youthful mind, a writer's playground -- type in any
+    Klingon text to see it in {pIqaD}. An article about the Klingon alphabet
+    and numbers, with pronounciation and orthography. (Punctuation and
+    handwriting is not yet
     covered.) <small>[Changed <time>2007-08-17</time>]</small>
   </dd>
 
-  <dt><a href="piqadpic.html">Some Pictures
-    of <b lang="tlh">pI&shy;qaD</b></a></dt>
-  <dd>Pictures of interest. Paramount&rsquo;s version
-    of <b lang="tlh">pI&shy;qaD</b>,
-    a <b lang="tlh">pI&shy;qaD</b> typography example and a
-    few examples of <b lang="tlh">pI&shy;qaD</b>
+  <dt><a href="piqadpic.html">Some Pictures of {pIqaD}</a></dt>
+  <dd>Pictures of interest. Paramount's version of {pIqaD}, a {pIqaD}
+    typography example and a few examples of {pIqaD}
     handwriting. <small>[Changed <time>2007-07-15</time>]</small>
   </dd>
 
   <dt><a href="punct.html">Punctuation Marks in Okrandian Canon</a>
     (and <a href="punct2.html">Klingon Punctuation Marks</a>)</dt>
-  <dd>An attempt at analysing Marc Okrand&rsquo;s use of punctuation
-    when writing Klingon and translations thereof. I&rsquo;ve
+  <dd>An attempt at analysing Marc Okrand's use of punctuation
+    when writing Klingon and translations thereof. I've
     practically ceased working on both of these articles, but maybe,
     some day... <small>[Changed <time>2007-07-15</time>]</small>
   </dd>
@@ -99,7 +87,7 @@ css: banner navigation note page pagestats
     the Klingon language. Each one gives some short, but useful
     information about a specific
     topic. <small>[Changed <time>2007-07-15</time>]</small>
-    <table><tr>
+    <table class="noborder"><tr>
       <td><dl class="navigation">
           <dt><a href="ref/ovs.html">Subjects and Objects</a></dt>
           <dt><a href="ref/loc.html">Locations</a></dt>
@@ -115,10 +103,9 @@ css: banner navigation note page pagestats
     </tr></table>
   </dd>
 
-  <dt><a href="tkw.html"><i>The Klingon Way</i>
-      in <b lang="tlh">pIqaD</b></a></dt>
+  <dt><a href="tkw.html"><i>The Klingon Way</i> in {pIqaD}</a></dt>
   <dd>The sayings from the TKW here presented
-    in <b lang="tlh">pI&shy;qaD</b> with translations and
+    in {pIqaD} with translations and
     page references to the original book (warning: ~280Kb
     file). <small>[Changed <time>2007-07-15</time>]</small>
   </dd>
@@ -126,7 +113,7 @@ css: banner navigation note page pagestats
   <dt><a href="links.html">Links to Other Pages About the Klingon
     Language</a></dt>
   <dd>Pages that I have found when looking
-    for <b lang="tlh">tlhI&shy;ngan Hol</b> material on the
+    for {tlhIngan Hol} material on the
     web. <small>[Changed <time>2007-07-15</time>]</small>
   </dd>
 </dl>
@@ -134,7 +121,7 @@ css: banner navigation note page pagestats
 <table id="sve" class="banner">
   <tr>
     <td class="left edge"></td>
-    <td><img src="/pic/flag-swe.gif" width="35" height="21" alt="Svenska" /></td>
+    <td><img src="/pic/flag-swe.gif" width="35" height="21" alt="Svenska"></td>
     <td>Om du gillar den här sidan, glöm inte att länka hit!</td>
     <td class="right edge"></td>
   </tr>
@@ -154,12 +141,11 @@ css: banner navigation note page pagestats
     information. <small>[Ändrad <time>2007-08-04</time>]</small>
   </dd>
 
-  <dt><a href="uttal.html">En svensk guide till det klingonska
-    uttalet</a></dt>
+  <dt><a href="uttal.html">En svensk guide till det klingonska uttalet</a></dt>
   <dd>En uttalsanvisning, avsedd för den svensktalande. Jag har utgått
     ifrån TKDs uttalsbeskrivning och försvenskat den en
     aning. Dessvärre har jag inte kommit så långt, men lite hjälp
-    med <b lang="tlh">tlh</b> finns
+    med {tlh} finns
     iaf. <tt>=|:-)</tt> <small>[Ändrad <time>2007-08-17</time>]</small>
   </dd>
 
@@ -168,10 +154,9 @@ css: banner navigation note page pagestats
     studiecirkeln. <small>[Ändrad <time>2007-07-15</time>]</small>
   </dd>
 
-  <dt><a href="klo/">Projekt &rdquo;Klingonsk ordbok&rdquo;
-    (KLO)</a></dt>
-  <dd>Målet är en högkvalitativ svensk översättning av <em>The Klingon
-    Dictionary</em> (TKD) med bl.a. svenska uttalsexempel och innehållande det
+  <dt><a href="klo/">Projekt "Klingonsk ordbok" (KLO)</a></dt>
+  <dd>Målet är en högkvalitativ svensk översättning av <i>The Klingon
+    Dictionary</i> (TKD) med bl.a. svenska uttalsexempel och innehållande det
     material som tillkommit efter TKDs utgivande. Här finns också några tillägg
     bl.a. i form av en annorlunda affixguide för att hjälpa dig på vägen.
     <small>[Ändrad <time>2007-07-15</time>]</small>

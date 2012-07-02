@@ -1,0 +1,397 @@
+/* -*- css -*- */
+
+
+/******************************************************************************
+**                                                                           **
+**  Global Stuff                                                             **
+**                                                                           **
+******************************************************************************/
+
+html { background: #ddd; }      /* gray, outside page background */
+body { font: 1em/1.5em Georgia, serif; }
+
+/* Don't change order of the following pseudo classes! */
+a:link    { color: #444; }      /* unvisited link */
+a:visited { color: #777; }      /* visited link */
+a:hover, [onclick]:hover,       /* mouse over link or onclick element */
+table.sortable thead th:hover { /* sortable tables with 'sorttable.js' */
+    background: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+[onclick]:hover a { color: #000; } /* link inside hovered onclick element */
+a:active  { color: #aaa; } /* selected link -- button pressed on link */
+
+/* HTML5Boilerplate sets 'td { vertical-align: top; }' */
+th.left,   td.left   { text-align: left;   }
+th.right,  td.right  { text-align: right;  }
+th.center, td.center { text-align: center; }
+th.top,    td.top    { vertical-align: top;    }
+th.middle, td.middle { vertical-align: middle; }
+th.bottom, td.bottom { vertical-align: bottom; }
+
+/* large comments -- one paragraph or more */
+div.comment {
+    background: #bbb;
+}
+
+/* brief comments -- just a couple of words */
+span.comment {
+    background: transparent;
+    color: #888;
+    vertical-align: top;
+}
+
+/* brief comment should be slightly brighter inside heading */
+/* (to compensate for the fact that the font is larger */
+h1 span.comment {
+    color: #aaa;
+}
+
+.nobr { white-space: nowrap; }
+.sans { font-family: sans-serif; }
+[rel="author"] { font-style: italic; }
+
+
+/******************************************************************************
+**                                                                           **
+**  Web Fonts                                                                **
+**                                                                           **
+******************************************************************************/
+
+/*
+
+Google Font 'Alegreya'. Small caps used for 'Klingonska Akademien' logotype at
+top of each page. Could also be included with:
+
+    <link rel="stylesheet"
+    href="http://fonts.googleapis.com/css?family=Alegreya+SC&text=Klingonska+Akademien">
+
+*/
+@font-face {
+  font-family: 'Alegreya SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alegreya SC'), local('AlegreyaSC-Regular'),
+      url('http://themes.googleusercontent.com/font?kit=-74JUGs8W14C5cCBFRS3042YcPgOCUf_DHvgl8jR3FtEyB1zp-JrMkTnWSJRWg_-&text')
+      format('truetype');
+}
+
+
+/******************************************************************************
+**                                                                           **
+**  Selection color                                                          **
+**                                                                           **
+******************************************************************************/
+
+::-moz-selection { background: #711; color: #fff; text-shadow: none; }
+::selection { background: #711; color: #fff; text-shadow: none; }
+
+
+/******************************************************************************
+**                                                                           **
+**  Page Header                                                              **
+**                                                                           **
+******************************************************************************/
+
+/* header start */
+header {
+    background: #922;                    /* dark red, outside page background */
+    color: #000;
+    font-family: sans-serif;
+    margin: 0;
+    width: 100%;
+    a, a:link, a:visited, a:hover, a:active {
+        color: #000;
+        text-decoration: none;
+    }
+    a:hover {
+        background: #b33;                /* red, page background */
+        -moz-text-shadow:    0 0 8px #fff;
+        -ms-text-shadow:     0 0 8px #fff;
+        -o-text-shadow:      0 0 8px #fff;
+        -webkit-text-shadow: 0 0 8px #fff;
+        text-shadow:         0 0 8px #fff;
+    }
+    /* breadcrumbs & update date */
+    ul {
+        display: block;
+        margin: 0 auto;
+        overflow: auto;     /* float clearing hack */
+        padding: 0;
+        position: relative; /* needed by 'z-index' */
+        width: 100%;        /* float clearing hack */
+        z-index: 100;       /* display on top of KA logo */
+        max-width: 42em;    /* max page width */
+        li {
+            display: inline;
+            font: italic x-small sans-serif;
+            margin: .5em .25em .75em;
+        }
+        /* breadcrumb */
+        li:first-child {
+            float: left;
+            a:last-child {
+                font-weight: bold;
+            }
+        }
+        /* update date */
+        li + li {
+            float: right;
+            text-align: right;
+        }
+    }
+    /* site logo & title */
+    div {
+        background: #b33;         /* red, page background */
+        -moz-box-shadow:    0 .5em 2em rgba(0, 0, 0, .25);
+        -ms-box-shadow:     0 .5em 2em rgba(0, 0, 0, .25);
+        -o-box-shadow:      0 .5em 2em rgba(0, 0, 0, .25);
+        -webkit-box-shadow: 0 .5em 2em rgba(0, 0, 0, .25);
+        box-shadow:         0 .5em 2em rgba(0, 0, 0, .25);
+        letter-spacing: -1px;
+        margin: 0 auto;
+        max-width: 42em;          /* max page width */
+        padding: .5em 0;
+        /* logo & site title */
+        a table:hover {
+            -moz-text-shadow:    0 0 16px #fff;
+            -ms-text-shadow:     0 0 16px #fff;
+            -o-text-shadow:      0 0 16px #fff;
+            -webkit-text-shadow: 0 0 16px #fff;
+            text-shadow:         0 0 16px #fff;
+        }
+        table {
+            border-collapse: collapse;
+            margin: 0 auto;
+            td {
+                vertical-align: middle;
+                text-align: center;
+            }
+            h1 {
+                /*
+                  FIXME: Lucia & Tove likes white text in page logo better --
+                  and it is more readable. Shoud I use that instead?
+                */
+                color: #fff;
+                text-shadow: -2px -2px #000, -2px 2px #000, 2px 2px #000, 2px -2px #000;
+                /* end of white title text */
+                display: inline;
+                font: 300%/90% 'Alegreya SC', serif;
+            }
+            span.crop {
+                display: inline-block;
+            }
+            span.crop img {
+                margin: -40px -55px -50px -55px;
+                padding: 0;
+                vertical-align: bottom; /* removes space below image */
+            }
+        }
+    }
+} /* <header> */
+
+
+/******************************************************************************
+**                                                                           **
+**  Page Contents                                                            **
+**                                                                           **
+******************************************************************************/
+
+[role="main"] {
+    -moz-box-shadow:    0 .5em 2em rgba(0,0,0,.25);
+    -ms-box-shadow:     0 .5em 2em rgba(0,0,0,.25);
+    -o-box-shadow:      0 .5em 2em rgba(0,0,0,.25);
+    -webkit-box-shadow: 0 .5em 2em rgba(0,0,0,.25);
+    box-shadow:         0 .5em 2em rgba(0,0,0,.25);
+    margin: 0 auto;
+    padding: .5em 4.5em;
+    background: #fff;    /* white, page background */
+    max-width: 33em;
+    h1 { font: bold 2em sans-serif; text-align: center; }
+    h2 { font: bold 1.5em sans-serif; }
+    h3 { font: bold 1.17em sans-serif; }
+    h4 { font: bold 1em sans-serif; }
+    hr {
+        color: #000;
+        background-color: #000;
+        height: 2px;
+        width: 80%;
+        margin: 1.5em auto;
+        border: 0;
+    }
+    .prevnext {
+        font-weight: bold;
+        margin-top: 1em;
+        font-family: sans-serif;
+        font-size: large;
+        text-align: center;
+    }
+    /* Table with border (default). */
+    table {
+        border: 4px solid #000;
+        margin: 1em auto;
+        td, th {
+            border: 2px solid #000;
+            padding: .125em .5em;
+        }
+        tbody { border: 4px solid #000; }
+        caption {
+            font-weight: bold;
+            font-style: italic;
+        }
+    }
+    /* Borderless table, class 'noborder'.
+     *
+     * This table has no vertical distance between cells or lines, and a .5em
+     * horizontal distance between cells. The <tbody> tag separates table rows
+     * by 1em. If you want a vertically sparser table use class 'noborder
+     * sparse' instead of just 'noborder'.
+     *
+     * This class does not add any padding/margin/border around the table
+     * itself. */
+    table.noborder {
+        border-collapse: collapse;
+        border: 0;
+        tbody, tr, th, td {
+            border: 0;
+            padding: 0;
+        }
+        tbody + tbody  { border-top:   1em solid transparent; }
+        * + th, * + td { border-left: .5em solid transparent; }
+    }
+    /* Helper class for 'noborder', class 'spacy'.
+     *
+     * Use class 'noborder spacy' to make a more spacious, but still
+     * border-free, table. It adds 1em vertical space between each table row.
+     * */
+    table.spacy tr + tr { border-top: 1em solid transparent; }
+
+    /* Paragraph settings.
+     *
+     * Paragraphs immediately following a paragraph of class "center" or "right",
+     * or paragraphs themselves of those classes should never be indented, but
+     * separated from above pagragraph by a blank line. Explicitly specifying
+     * class "noindent" also forces this behaviour.
+     *
+     * Paragraphs immediately following another paragraph should be indented
+     * (unless overridden by above rule). Explicitly specifying class "indent"
+     * also forces this behaviour.
+     *
+     * Classes "left", "right", "center" and "justify" do the obvious thing. No
+     * class at all defaults to "justify". "blank" adds an extra blank line
+     * above. */
+    p + p[align="center"],
+    p.center, p.center + p,
+    p.right,  p.right  + p,
+    p.noindent, div.noindent p {
+        margin-top: 1em;
+        text-indent: 0em;
+    }
+    p + p, p.indent {
+        margin-top: -1em;
+        text-indent: 1.5em;
+    }
+    p,
+    p.left    { text-align: left;    }
+    p.justify { text-align: justify; }
+    p.center  { text-align: center;  }
+    p.right   { text-align: right;   }
+    p + p.blank,
+    .blank    { margin-top: 2em;     }
+    /* Color is intentionally not specified, thus, when used on a linked */
+    /* image the color will respect hover yadda yadda...                 */
+    .border { border: 2px solid; }
+
+    .float-contain {
+        /* use on an element containing a float to have the element expand to contain
+           all of the float */
+        width: 100%;        /* float clearing hack */
+        overflow: auto;     /* float clearing hack */
+    }
+    .float-left {
+        display: block; /* so one may float <a> of a linked image */
+        float: left;
+        margin: .25em .5em .25em 0;
+    }
+    .float-right {
+        display: block; /* so one may float <a> of a linked image */
+        float: right;
+        margin: .25em 0 .25em .5em;
+    }
+
+    /* Navigation menus.
+     *
+     * These are defition lists (<dl>) used to display a menu of links, with a
+     * brief summary of the page each link points to.
+     *
+     *    * 32px is one indentation used
+     *    * 16px is the width of the list bullet
+    */
+    dl.navigation {
+        list-style-type: none;
+        margin: 32px 0;
+        padding: 0;
+        text-align: left;
+        dt {
+            background: transparent url(../pic/dot.gif) no-repeat scroll 8px center;
+            display: list-item;
+            font-size: 120%;
+            margin: 0;
+            padding: 0 0 0 32px;
+        }
+        dd {
+            margin: 0;
+            padding: 0 0 0 32px;
+        }
+        /* nested navigation tables should have no vertical margin */
+        ul, ol, dl {
+            margin: 16px 0;
+        }
+        /* used to create columns inside navigation menu */
+        /* (for the "Quick References to..." on main page) */
+        table {
+            /* border-collapse: collapse; */
+            width: 100%;
+        }
+        table td {
+            /* border: 0; */
+            /* padding: 0; */
+        }
+    }
+} /* <... role="main"..> */
+
+
+/******************************************************************************
+**                                                                           **
+**  Page Footer                                                              **
+**                                                                           **
+******************************************************************************/
+
+/* Page footer is included at the end of each page, it contains the page *
+ * copyright information as well as links to page license, and other *
+ * information. */
+footer {
+       font-family: sans-serif;
+       text-align: center;
+       margin: 1.5em 0;
+       color: #888;
+       a:visited {
+           color: #888;
+       }
+       a:link {
+           color: #777;
+       }
+       p {
+           margin: .5em 0;
+       }
+       .copyright {
+           margin-bottom: .5em;
+       }
+       .validator {
+           font-size: small;
+       }
+} /* <footer> */
+
+
+/* eof */

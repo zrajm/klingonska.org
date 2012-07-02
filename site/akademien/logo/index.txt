@@ -1,7 +1,9 @@
+updated: 2012-06-26 08:09+02
 author: zrajm
 year: 2009-2011
 lang: en
-
+desc: The history, in pictures, of Klingonska Akademien's logotype.
+css: gallery
 
 Klingonska Akademien's Logo
 ===========================
@@ -17,14 +19,15 @@ I have been using the logo as my desktop background for years (and still do),
 and one day in February 2008, seeing it out of the corner of my eye, I thought
 I saw the Moon in place of the central white circle. Inspired by this I created
 the Moon version of the logo. (It has been pointed out to me that it should be
-the moon of the Klingon Homeworld and not the Earth's, but I have never been
-able to find a picture of the Klingon moon -- _Praxis_ -- showing what it
-looked like before its destruction in _Star Trek VI: The Undiscovered
+the moon of the Klingon Homeworld -- and not the Earth's -- but I have never
+been able to find a picture of the Klingon moon, _Praxis_, showing what it
+looked like before its destruction in _Star Trek VI: The Undiscovered
 Country_.)
+
 
 Vector Images
 -------------
-The following are some nice high-quality versions of the logo in SVG format
+The following are some high-quality versions of the logo in SVG format
 (created using _Inkscape_). These are recommended for use in high
 resolution situation (e.g. in printed documents). The last couple of logos in
 this batch contains measurement/outlines of the logo, which might be useful if
@@ -32,76 +35,85 @@ you want to reproduce these using pen and paper.
 
 <div class="gallery">
   <figure style="width:200px">
-      <a href="ka-logo/ka-logo-bw.svg"><img width="200" height="200"
-        src="ka-logo/ka-logo-bw.thmb.png" alt="Klingonska Akademien&rsquo;s
-        logo, black/white, SVG format" /></a>
-    <figcaption>Monochrome</figcaption>
-  </figure><figure style="width:200px">
-      <a href="ka-logo/ka-logo-bw.ps"><img width="200" height="200"
-        src="ka-logo/ka-logo-bw.thmb.png" alt="Klingonska Akademien&rsquo;s
-        logo, black/white, SVG format" /></a>
-    <figcaption>Monochrome (PostScript)</figcaption>
-  </figure><figure style="width:200px">
-      <a href="ka-logo/ka-logo-bw-inverted.svg"><img width="200" height="200"
-        src="ka-logo/ka-logo-bw-inverted.thmb.png" alt="Klingonska Akademien&rsquo;s
-        logo, black/white, inverted colors, SVG format" /></a>
-    <figcaption>Inverted monochrome</figcaption>
-  </figure><figure style="width:200px">
       <a href="ka-logo/ka-logo-color.svg"><img width="200" height="200"
-        src="ka-logo/ka-logo-color.thmb.png" alt="Klingonska Akademien&rsquo;s
-        logo, black/white, SVG format" /></a>
-    <figcaption>Color</figcaption>
-  </figure><figure style="width:200px">
+        src="ka-logo/ka-logo-color.thmb.png" alt="Klingonska Akademien's
+        logo, black/white, SVG format"></a>
+    <figcaption>Color SVG</figcaption>
+  </figure>
+  <figure style="width:200px">
       <a href="ka-logo/ka-logo-color_transparent_bg.svg"><img width="200" height="200"
-        src="ka-logo/ka-logo-color_transparent_bg.thmb.png" alt="Klingonska Akademien&rsquo;s
-        logo, black/white, SVG format" /></a>
-    <figcaption>Color (with transparent background)</figcaption>
-  </figure><figure style="width:200px">
+        src="ka-logo/ka-logo-color_transparent_bg.thmb.png" alt="Klingonska Akademien's
+        logo, black/white, SVG format"></a>
+    <figcaption>Color SVG (with transparent background)</figcaption>
+  </figure>
+  <figure style="width:200px">
       <a href="ka-logo/ka-logo-x-background.svg"><img width="200" height="200"
-        src="ka-logo/ka-logo-x-background.thmb.png" alt="Klingonska Akademien&rsquo;s
-        logo, black/white, SVG format" /></a>
-    <figcaption>Desktop backgound</figcaption>
-  </figure><figure style="width:200px">
-      <a href="ka-logo/ka-logo-sketch.svg"><img width="200" height="200"
-        src="ka-logo/ka-logo-sketch.thmb.png" alt="Klingonska Akademien&rsquo;s
-        logo, black/white, SVG format" /></a>
-    <figcaption>Outline with measurements</figcaption>
-  </figure><figure style="width:200px">
+        src="ka-logo/ka-logo-x-background.thmb.png" alt="Klingonska Akademien's
+        logo, black/white, SVG format"></a>
+    <figcaption>Desktop backgound SVG</figcaption>
+  </figure>
+  <figure style="width:200px">
+    <a href="ka-logo/ka-logo-bw.svg"><img width="200" height="200"
+        src="ka-logo/ka-logo-bw.thmb.png" alt="Klingonska Akademien's
+        logo, black/white, SVG format"></a>
+    <figcaption>Monochrome SVG</figcaption>
+  </figure>
+  <figure style="width:200px">
+      <a href="ka-logo/ka-logo-bw-inverted.svg"><img width="200" height="200"
+        src="ka-logo/ka-logo-bw-inverted.thmb.png" alt="Klingonska Akademien's
+        logo, black/white, inverted colors, SVG format"></a>
+    <figcaption>Inverted monochrome SVG</figcaption>
+  </figure>
+  <figure style="width:200px">
+      <a href="ka-logo/ka-logo-bw.ps"><img width="200" height="200"
+        src="ka-logo/ka-logo-bw.thmb.png" alt="Klingonska Akademien's
+        logo, black/white, SVG format"></a>
+    <figcaption>Monochrome PostScript</figcaption>
+  </figure>
+  <figure style="width:200px">
       <a href="ka-logo/ka-logo-sketch2.svg"><img width="200" height="200"
-        src="ka-logo/ka-logo-sketch2.thmb.png" alt="Klingonska Akademien&rsquo;s
-        logo, black/white, SVG format" /></a>
-    <figcaption>Outline + logo</figcaption>
+        src="ka-logo/ka-logo-sketch2.thmb.png" alt="Klingonska Akademien's
+        logo, black/white, SVG format"></a>
+    <figcaption>Outline + logo SVG</figcaption>
+  </figure>
+  <figure style="width:200px">
+      <a href="ka-logo/ka-logo-sketch.svg"><img width="200" height="200"
+        src="ka-logo/ka-logo-sketch.thmb.png" alt="Klingonska Akademien's
+        logo, black/white, SVG format"></a>
+    <figcaption>Outline + measurements SVG</figcaption>
   </figure>
 </div>
 
+
 Bitmap Images
 -------------
-These are some images I use as a background on my Nokia cellphone. Pardon
-the picture quality here, but these are actually pictures of my _X
-Windows_ background taken with a lo-rez camera of the old cellphone. (None
-of which matter when you're just going to display the image on a 208x208
-pixel display anyway.)
+
+These are some images that I used to use as a background on my Nokia cellphone.
+Pardon the image sizes here, but these are pictures of my _X Windows_
+background photographed with the lo-rez camera of my old cellphone. (None of
+which matter when you're just going to display the image on the 208×208 pixel
+display of the same cell phone anyway.)
 
 <div class="gallery">
   <figure style="width:208px">
     <a href="pic/ka-logo-208x208.jpg"><img width="208" height="208"
-      src="pic/ka-logo-208x208.jpg" alt="Klingonska Akademien&rsquo;s
-      logo, 208x208 pixel, JPEG format" /></a>
+      src="pic/ka-logo-208x208.jpg" alt="Klingonska Akademien's
+      logo, 208x208 pixel, JPEG format"></a>
     <figcaption>208x208 Mini</figcaption>
   </figure><figure style="width:250px">
       <a href="pic/ka-logo-1280x1024.jpg"><img width="250" height="200"
-        src="pic/ka-logo-1280x1024.thmb.jpg" alt="Klingonska Akademien&rsquo;s
-        logo, 1280x1024 pixel, JPEG format" /></a>
+        src="pic/ka-logo-1280x1024.thmb.jpg" alt="Klingonska Akademien's
+        logo, 1280x1024 pixel, JPEG format"></a>
     <figcaption>1280x1024 Desktop</figcaption>
   </figure><figure style="width:208px">
     <a href="pic/ka-logo-zoomed-208x208.jpg"><img width="208" height="208"
-      src="pic/ka-logo-zoomed-208x208.jpg" alt="Klingonska Akademien&rsquo;s
-      logo, 208x208 pixel, JPEG format" /></a>
+      src="pic/ka-logo-zoomed-208x208.jpg" alt="Klingonska Akademien's
+      logo, 208x208 pixel, JPEG format"></a>
     <figcaption>208x208 Mini</figcaption>
   </figure><figure style="width:250px">
       <a href="pic/ka-logo-zoomed-1280x1024.jpg"><img width="250" height="200"
-        src="pic/ka-logo-zoomed-1280x1024.thmb.jpg" alt="Klingonska Akademien&rsquo;s
-        logo, 1280x1024 pixel, JPEG format" /></a>
+        src="pic/ka-logo-zoomed-1280x1024.thmb.jpg" alt="Klingonska Akademien's
+        logo, 1280x1024 pixel, JPEG format"></a>
     <figcaption>1280x1024 Desktop</figcaption>
   </figure>
 </div>

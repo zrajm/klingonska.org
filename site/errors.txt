@@ -1,13 +1,12 @@
+updated: 2012-06-24 22:28+02
+created: 1998-09-22
 author: zrajm
 year: 1998-2011
 lang: en
-css: page pagestats errors table
 script: sorttable
 
 Errors in Okrandian Sources
 ===========================
-
-<!-- Created: 1998-09-22 -->
 
 <ul>
   <li><a href="#TKD">The Klingon Dictionary</a></li>
@@ -25,13 +24,12 @@ anything concerning the <i>Star Trek: Klingon</i> CD-ROM game, or any of the
 SkyBox Klingon Trading Cards, however this may change in the future, and so if
 you know of any errors, in <i>any</i> Okrandian source (not just the ones
 mentioned below) I would be happy to include that information here. Please
-contact me at <i>&lt;<a
-href="mailto:zrajm@klingonska.org">zrajm@klingonska.org</a>&gt;</i>.
+contact me at <i>&lt;[zrajm@klingonska.org](mailto:zrajm@klingonska.org)&gt;</i>.
 
 Those of you that speak German might be interested to know that there is a
 similar project going on for <i>Das offizielle Wörterbuch Klingonisch,</i>
 (i.e. the German translation of <i>The Klingon Dictionary</i>). To find your
-way there, take a look at the <a href="links.html">link page</a>.
+way there, take a look at the [link page](links.html).
 
 <table>
 <tr><th colspan="3">Abbreviations</th></tr>
@@ -84,9 +82,8 @@ are so small (most frequently only two or three words are missorted) that they
 do not in a significant way impede the reader's chances of finding the word
 he/she is looking for.
 
-Thanks go to Yehuda Ronen (<time>2002-09-27</time>) and Stevo
-(<time>2004-01-24</time> and
-<time>2004-02-07</time>) for their contributions.
+Thanks go to Yehuda Ronen (2002-09-27) and Stevo (2004-01-24 and 2004-02-07)
+for their contributions.
 
 <h3>General Errata</h3>
 
@@ -99,177 +96,177 @@ Thanks go to Yehuda Ronen (<time>2002-09-27</time>) and Stevo
 <tr>
   <td>{lujpu'} lacks prefix, should be {jIlujpu'} (occur twice)</td>
   <td>TKD p.29 / 3.3.5</td>
-  <td><time>1999-09-24</time>(?)</td>
+  <td>1999-09-24<wbr>(?)</td>
 </tr>
 <tr>
   <td>{'e'} lacks hyphen, should be {-'e'}</td>
   <td>TKD p.29 / 3.3.5</td>
-  <td><time>1999-09-24</time>(?)</td>
+  <td>1999-09-24<wbr>(?)</td>
 </tr>
 <tr>
   <td>{-egh} lacks apostrophe, should be {-'egh}</td>
   <td>TKD p.35 / 4.1.2</td>
-  <td><time>1999-09-24</time>(?)</td>
+  <td>1999-09-24<wbr>(?)</td>
 </tr>
 <tr>
   <td>{-egh} lacks apostrophe, should be {-'egh}</td>
   <td>TKD p.35 / 4.2.1</td>
-  <td><time>1999-09-24</time>(?)</td>
+  <td>1999-09-24<wbr>(?)</td>
 </tr>
 <tr>
   <td>"subject pronoun (0)" is wrong, should be "subject prefix (0)"</td>
   <td>TKD p.39 / 4.2.5</td>
-  <td><time>2004-01-24</time></td>
+  <td>2004-01-24</td>
 </tr>
 <tr>
   <td>"{-taH} <i>continuous</i>." should not begin new paragraph</td>
   <td>TKD p.43 / 4.3</td>
-  <td><time>2004-01-24</time></td>
+  <td>2004-01-24</td>
 </tr>
 <tr>
   <td>{-Do'} contains superfluous hyphen, should be {Do'}</td>
   <td>TKD p.48 / 4.3</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{Hagh} is incorrectly used for "study", should be {HaD}</td>
   <td>TKD p.48 / 4.3</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>"nine pronouns" is incorrect, should be "ten pronouns"</td>
   <td>TKD p.51 / 5.1</td>
-  <td><time>1999-09-24</time>(?)</td>
+  <td>1999-09-24<wbr>(?)</td>
 </tr>
 <tr>
   <td>{soH} is misspelled, should be {SoH}</td>
   <td>TKD p.51 / 5.1</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{vaghSad} is misspelled, should be {vaghSaD}</td>
   <td>TKD p.53 / 5.2</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{gama'} is misspelled, should be {qama'}</td>
   <td>TKD p.56 / 5.4</td>
-  <td><time>2002-09-27</time></td>
+  <td>2002-09-27</td>
 </tr>
 <tr>
   <td>{jaghla'} (maybe?) lacks space, should be {jagh·la'}</td>
   <td>TKD p.64 / 6.2.4</td>
-  <td><time>1999-09-24</time>(?)</td>
+  <td>1999-09-24<wbr>(?)</td>
 </tr>
 <tr>
   <td>{qama'pu'·'e'} contains superfluous space, should be {qama'pu''e'}</td>
   <td>TKD p.68 / 6.3</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{joh} is misspelled, should be {joH}</td>
   <td>TKD p.78</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{matha'} is misspelled, should be {matHa'}</td>
   <td>TKD p.78</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{Qaw'} is listed as noun, should be verb</td>
   <td>TKD p.103 / K-E</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{tlhej} is listed as noun, should be verb</td>
   <td>TKD p.118 / E-K</td>
-  <td><time>2000-11-12</time></td>
+  <td>2000-11-12</td>
 </tr>
 <tr>
   <td>{ghIchraj} has bad suffix, should be {ghIchlIj}</td>
   <td>TKD p.170</td>
-  <td><time>2004-01-24</time></td>
+  <td>2004-01-24</td>
 </tr>
 <tr>
   <td><b>GHICH-raj</b> has bad suffix, should be <b>GHICH-lij</b></td>
   <td>TKD p.170</td>
-  <td><time>2004-01-24</time></td>
+  <td>2004-01-24</td>
 </tr>
 <tr>
   <td>{quSDaQ} is misspelled, should be {quSDaq}</td>
   <td>TKD p.171</td>
-  <td><time>1999-09-24</time>(?)</td>
+  <td>1999-09-24<wbr>(?)</td>
 </tr>
 <tr>
   <td>{ba'·lu''a'} contains superfluous space, should be {ba'lu''a'}</td>
   <td>TKD p.171</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{mIv·vam} contains superfluous space, should be {mIvvam}</td>
   <td>TKD p.171</td>
-  <td><time>1999-09-24</time>(?)</td>
+  <td>1999-09-24<wbr>(?)</td>
 </tr>
 <tr>
   <td>{loS·SaD} (maybe?) contains superfluous line break, should be {loSSaD}</td>
   <td>TKD p.171</td>
-  <td><time>1999-09-24</time>(?)</td>
+  <td>1999-09-24<wbr>(?)</td>
 </tr>
 <tr>
   <td>{jablu'DI'reH} is missing a space, should be {jablu'DI'·reH}</td>
   <td>TKD p.171</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{naDev·vo'} contains superfluous space, should be {naDevvo'}</td>
   <td>TKD p.172</td>
-  <td><time>1999-09-24</time>(?)</td>
+  <td>1999-09-24<wbr>(?)</td>
 </tr>
 <tr>
   <td>{bIganmo'} is misspelled, should be {bIqanmo'}</td>
   <td>TKD p.175 / 4.2.9</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{gan} is misspelled, should be {qan}</td>
   <td>TKD p.175 / 4.2.9</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{naDqa'gha'ch} contains superfluous apostrophe, should be {naDqa'ghach}</td>
   <td>TKD p.176 / 4.2.9</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{gar} is misspelled, should be {qar}</td>
   <td>TKD p.179 / 6.4</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>"object&ndash;verb&ndash;noun" should be "object&ndash;verb&ndash;subject"</td>
   <td>TKD p.179 / 6.7</td>
-  <td><time>2004-01-24</time></td>
+  <td>2004-01-24</td>
 </tr>
 <tr>
   <td>{HaqwI'·'e'} contains superfluous space, should be {HaqwI''e'}</td>
   <td>TKD p.180 / 6.7</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{LeSSov} is misspelled, should be {leSSov}</td>
   <td>TKDa p.182 / K-E</td>
-  <td><time>1999-09-24</time>(?)</td>
+  <td>1999-09-24<wbr>(?)</td>
 </tr>
 <tr>
   <td>{sIbI'} is misspelled, should be {SIbI'}</td>
   <td>TKDa p.184 / K-E</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{sIbI'} is misspelled, should be {SIbI'}</td>
   <td>TKDa p.188 / E-K</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 </table>
 
@@ -687,30 +684,29 @@ word on the tape.
 <tr>
   <td>{ngagh}</td>
   <td>mate with (v)</td>
-  <td><time>2000-11-12</time>(?)</td>
+  <td>2000-11-12<wbr>(?)</td>
 </tr>
 <tr>
   <td>{mIp}</td>
   <td>wealth (n)</td>
-  <td><time>2000-11-12</time>(?)</td>
+  <td>2000-11-12<wbr>(?)</td>
 </tr>
 </table>
 
 [TKW] The Klingon Way (Book)
 ----------------------------
+During {qep'a' chorghDIch} (in Belgium, summer 2001) Marc Okrand mentioned that
+there are two different printings of this book. Apparently a lot of errors were
+corrected for the second printing. (Since my copy of the book is of the first
+printing, I haven't been able to confirm this, so please if you have the second
+printing of the book, please compare it with the table below and report any
+differences [to me](mailto:zrajm@klingonska.org).)
 
-During {qep'a' chorghDIch} (in Belgium, summer <time>2001</time>) Marc Okrand
-mentioned that there are two different printings of this book. Apparently a lot
-of errors were corrected for the second printing. (Since my copy of the book is
-of the first printing, I haven't been able to confirm this, so please if you
-have the second printing of the book, please compare it with the table below
-and report any differences to
-me <i>&lt;<a href="mailto:zrajm@klingonska.org">zrajm@klingonska.org</a>&gt;</i>.)
-
-<b><time>2004-02-07</time></b>: According to Stevo <i>&lt;<a href="mailto:morphemeaddict@wmconnect.com">morphemeaddict@wmconnect.com</a>&gt;</i>
-all the errors in the 1st printing (or at least all errors found and presented
-in the table below) have been corrected, except for the error on page 129
-which, even though it was corrected, was not correctly so.
+<b>2004-02-07</b>:
+[Stevo](mailto:morphemeaddict@wmconnect.com) reports that all the errors in the
+first printing (or at least all errors found and presented in the table below)
+have been corrected, except for the error on page 129 which, even though it has
+been altered, still contains an error.
 
 
 <h3>Errata for 1st Printing</h3>
@@ -724,32 +720,32 @@ which, even though it was corrected, was not correctly so.
 <tr>
   <td>{vangIu'taHvIS} is misspelled, should be {vanglu'taHvIS}</td>
   <td>KGT p.55</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{HubtaHuIS} is misspelled, should be {HubtaHvIS}</td>
   <td>KGT p.74</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{IloD} is misspelled, should be {loD}</td>
   <td>KGT p.127</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{HeghIu'chugh} is misspelled, should be {Heghlu'chugh}</td>
   <td>KGT p.129</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{cheqotIhchugh} is misspelled, should be {cheqotlhchugh}</td>
   <td>KGT p.131</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{qatIh} is misspelled, should be {qatlh}</td>
   <td>KGT p.135</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 </table>
 
@@ -765,17 +761,16 @@ which, even though it was corrected, was not correctly so.
 <tr>
   <td>{HeghLu'chugh} is misspelled, should be {Heghlu'chugh}</td>
   <td>KGT p.129</td>
-  <td><time>2004-02-07</time></td>
+  <td>2004-02-07</td>
 </tr>
 </table>
 
 
 [KGT] Klingon for the Galactic Traveler (Book)
 ----------------------------------------------
-
 <h3>General Errata</h3>
 
-All the errors added to this list <time datetime="2001-08-17">17 August
+All the errors added to this list <time datetime="2001-08-17">August 17,
 2001</time> were reported by Lieven L. Litaer (a fellow German klingonist).
 
 <table class="sortable">
@@ -787,82 +782,82 @@ All the errors added to this list <time datetime="2001-08-17">17 August
 <tr>
   <td>{qImlaq·la''e} is misspelled, should be {qImlaq·la''e'}</td>
   <td>KGT p.53</td>
-  <td><time>2001-08-17</time></td>
+  <td>2001-08-17</td>
 </tr>
 <tr>
   <td>{nISwI'·bej} is misspelled, should be {nISwI'·beH}</td>
   <td>KGT p.56</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{pu'bej} is misspelled, should be {pu'beH}</td>
   <td>KGT p.56</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{nISwI'·bej} is misspelled, should be {nISwI'·beH}</td>
   <td>KGT p.80</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{wI'oj} is incorrect, should be {ma'oj}</td>
   <td>KGT p.102</td>
-  <td><time>2001-08-17</time></td>
+  <td>2001-08-17</td>
 </tr>
 <tr>
   <td>{HenrI'} should be written in boldface</td>
   <td>KGT p.126</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{qan;·QI'tu'} is missing a word, should be {qan;·QI'tu'·rur}</td>
   <td>KGT p.130</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{tIb} (<i>be nervous, uneasy</i>) is misspelled, should be {bIt}</td>
   <td>KGT p.132</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{Sagh;·Ho''oy'} is missing a word, should be {Sagh;·Ho''oy'·rur}</td>
   <td>KGT p.133</td>
-  <td><time>1998-09-22</time>(?)</td>
+  <td>1998-09-22<wbr>(?)</td>
 </tr>
 <tr>
   <td>{maghwI} is misspelled, should be {maghwI'}</td>
   <td>KGT p.157</td>
-  <td><time>2001-08-17</time></td>
+  <td>2001-08-17</td>
 </tr>
 <tr>
   <td>{mu'mey qhoQ} is misspelled, should be {mu'mey ghoQ}</td>
   <td>KGT p.220 / K-E</td>
-  <td><time>2001-08-18</time></td>
+  <td>2001-08-18</td>
 </tr>
 <tr>
   <td>{mu'mey qhoQ} lacks part-of-speech, should be "(n)"</td>
   <td>KGT p.220 / K-E</td>
-  <td><time>2001-08-18</time></td>
+  <td>2001-08-18</td>
 </tr>
 <tr>
   <td>{neHjej} is misspelled, should be {naHjej}</td>
   <td>KGT p.221 / K-E</td>
-  <td><time>2001-08-17</time></td>
+  <td>2001-08-17</td>
 </tr>
 <tr>
   <td>{ngop} has incorrect part-of-speech, should be "(n)"</td>
   <td>KGT p.222 / K-E</td>
-  <td><time>2001-08-17</time></td>
+  <td>2001-08-17</td>
 </tr>
 <tr>
   <td>{SaS} not fully defined, should be marked "(slang)"</td>
   <td>KGT p.251 / E-K</td>
-  <td><time>2001-08-17</time></td>
+  <td>2001-08-17</td>
 </tr>
 <tr>
   <td>{paramaqqay} is misspelled, should be {parmaqqay}</td>
   <td>KGT p.255 / E-K</td>
-  <td><time>2001-08-17</time></td>
+  <td>2001-08-17</td>
 </tr>
 </table>
 

@@ -98,7 +98,6 @@ Priorities:
     CLOSED: [2010-09-03 Fri 22:19]
 *** DONE Redirect 2040.klingonska.org -> 2040.zrajm.org
     CLOSED: [2010-09-08 Wed 20:48]
-
 * Site content
 ** TODO Do a surf-through check for weird/old shit
 ** TODO Systematic/site-wide changes
@@ -106,8 +105,15 @@ Priorities:
 *** TODO Site redesign
 **** DONE Design new look (more modern looking, but still simple)
      CLOSED: [2012-06-09 Sat 11:21]
-     'max-width' should be enforced. Page header should be more colorful (red),
-     in other respects the page should strive for a sombre, academic look.
+     This should fix:
+
+       * Limiting line 'max-width' for readability
+       * Niftier design with a splash of red color in the header
+       * Using updated web standards (HTML5, Javascript, microdata etc.)
+       * Use HTML5 Boilerplate
+       * Building (minified) CSSes from SCSS (Sassy Stylesheets)
+       * Using a HTML template = centralized header/footer
+       * Page source (whenever possible) in markdown
 **** DONE [100%] Move site repo to GitHub
      CLOSED: [2012-06-20 Wed 15:31]
      This will save about 50M of diskspace on HCoop (where space is expensive),
@@ -131,151 +137,42 @@ Priorities:
 ***** DONE Add README.md for GitHub
       CLOSED: [2012-06-20 Wed 15:30]
 **** TODO Add new look to all pages (except {paqHom} and KLO for now)
-***** TODO <script>...</script> blocks should not be parsed for markdown
+***** DONE <script>...</script> blocks should not be parsed for markdown
+      CLOSED: [2012-06-26 Tue 02:45]
       E.g. `/download.html`.
-***** TODO Replace template with template containing new design
-****** TODO fix 'bin/markdown2html' to work with new template
-******* TODO <!--YEAR--> = copyright year
-******* TODO <!--AUTHOR--> = document author
-******* TODO <!--LOGOSRC--> = logo image source
-******* TODO Page title line breaking script
-******* TODO <!--MODERNIZR--> = loading of modernizr
-******* TODO Description meta tag
-        Metainfo tag 'desc' may now be used in Markdown to provide a meta
-        description tag in HTML.
-******* TODO Page logo/title link (to above doc in page hierarchy)
-******* TODO Stylesheet for hover over page logo/title
-******* TODO Added 'updated' metadata header to Markdown
-        The 'updated' date of the HTML page will *only* be taken from this
-        header from now on. Should add some script that strongly encourages
-        user to update this field when changes are made to the content.
-******* TODO Clean out interfering CSS from old design
-***** TODO [0%] Convert all pages to new HTML template
-      Thereby centralizing the page header/footer etc. `bin/markdown2html` is
-      the tool used for this, except for files in /dict/, which uses `parse`.
-      Unifying these two tools into one will become a later issue, though.
-
-      The following files need to be fixed:
-****** TODO site/index.txt
-****** TODO site/download.txt
-****** TODO site/errors.txt
-****** TODO site/klcp.txt
-       It has a custom CSS, check what effects that have. -- Should <hr> really
-       be used in wordlist part? (It's blank lines in the original -- how do
-       one obtain that through the markdown?
-****** TODO site/canon/index.txt
-****** TODO site/klo/*
-****** TODO site/klo/old/*.html + site/klo/old/bidrag/*.html
-       Make link to 'hr.gif' image relative.
-****** TODO site/klo/old/bidrag/FOOTER.html / FOOTER.html
-       Icon links are not relative (i.e. looks good on site, but not when
-       viewing file in browser directly from hard disk) + HCoop cannot handle
-       UTF-8 in file descriptions, so it looks bad.
-****** TODO site/akademien/logo/index.txt
-****** TODO site/links.html
-****** TODO site/lista.html
-****** TODO site/piqadpic.html
-****** TODO site/punct.html
-****** TODO site/punct2.html
-****** TODO site/tkw.html
-****** TODO site/uttal.html
-****** TODO site/akademien/index.html
-****** TODO site/akademien/presentation.html
-****** TODO site/akademien/flygblad1.html
-****** TODO site/akademien/flygblad2.html
-****** TODO site/akademien/flygblad3.html
-****** TODO site/akademien/qephom.html
-****** TODO site/akademien/foton/index.html
-****** TODO site/akademien/foton/index2.html
-****** TODO site/canon/1993-sbx-99.html
-****** TODO site/canon/1994-10-hallmark.html
-****** TODO site/canon/1994-sbx-sp1.html
-****** TODO site/canon/1995-sbx-s13.html
-****** TODO site/canon/1995-sbx-s7.html
-****** TODO site/canon/1996-04-kcd.html
-****** TODO site/canon/1996-sbx-s19.html
-****** TODO site/canon/1996-sbx-s25.html
-****** TODO site/canon/1997-sbx-s31.html
-****** TODO site/canon/1998-11-01-bop.html
-****** TODO site/canon/2010-04-29-u-mtk.html
-****** TODO site/dict/about.html (?)
-****** TODO site/dict/intro.html (?)
-****** TODO site/dict/tables.html (?)
-****** TODO site/piq/index.html
-****** TODO site/piqad/index.html
-****** TODO site/ref/adv.html
-****** TODO site/ref/color.html
-****** TODO site/ref/loc.html
-****** TODO site/ref/num.html
-****** TODO site/ref/ovs.html
-****** TODO site/ref/time.html
-****** TODO site/songs/america.html
-****** TODO site/songs/anthem/index.html
-****** TODO site/songs/index.html
-****** TODO site/songs/tahjaj_wo/index.html
-****** TODO site/lektioner/FOOTER.html
-****** TODO site/lektioner/HEADER.html
-****** TODO site/lektioner/gammalt/FOOTER.html
-****** TODO site/lektioner/gammalt/HEADER.html
-****** TODO site/lektioner/gammalt/ideer.html
-****** TODO site/lektioner/gammalt/lektion00.html
-****** TODO site/lektioner/gammalt/lektion01.html
-****** TODO site/lektioner/gammalt/lektion02.html
-****** TODO site/lektioner/gammalt/lektion03.html
-****** TODO site/lektioner/gammalt/lektion04.html
-****** TODO site/lektioner/gammalt/nummer1.html
-****** TODO site/lektioner/gammalt/nummer2.html
-****** TODO site/lektioner/lektion00.html
-****** TODO site/lektioner/lektion01.html
-****** TODO site/lektioner/lektion02.html
-****** TODO site/lektioner/lektion03.html
-****** TODO site/lektioner/lektion04.html
-****** TODO site/lektioner/lektion05.html
-****** TODO site/lektioner/plan.html
-****** TODO site/lektioner/ref/=prefix_big.html
-****** TODO site/lektioner/ref/=prefix_small.html
-****** TODO site/lektioner/ref/FOOTER.html
-****** TODO site/lektioner/ref/HEADER.html
-****** TODO site/lektioner/ref/adverbial.html
-****** TODO site/lektioner/ref/prefix.html
-****** TODO site/lektioner/ref/suffix.html
-****** TODO site/lektioner/ref/suffix2.html
-****** TODO site/lektioner/text/FOOTER.html
-****** TODO site/lektioner/text/HEADER.html
-****** TODO site/lektioner/text/artikel1kli.html
-****** TODO site/lektioner/text/artikel1sve.html
-****** TODO site/lektioner/text/dialog.html
+***** DONE Replace template with template containing new design
+      CLOSED: [2012-06-26 Tue 13:28]
+***** [100%] fix 'bin/markdown2html' to work with new template
+      CLOSED: [2012-06-26 Tue 13:28]
+****** DONE <!--YEAR--> = copyright year
+       CLOSED: [2012-06-26 Tue 02:47]
+****** DONE <!--AUTHOR--> = document author
+       CLOSED: [2012-06-26 Tue 03:29]
+****** DONE <!--LOGOSRC--> = logo image source
+       CLOSED: [2012-06-26 Tue 04:27]
+****** DONE Page title line breaking javascript
+       CLOSED: [2012-06-26 Tue 04:56]
+****** DONE <!--MODERNIZR--> = loading of modernizr
+       CLOSED: [2012-06-26 Tue 06:19]
+****** DONE <!--META--> = description meta tag
+       CLOSED: [2012-06-26 Tue 06:36]
+       Metainfo tag 'desc' may now be used in Markdown to provide a meta
+       description tag in HTML, it will be inserted with the other (if any
+       meta tags)
+****** DONE Page logo/title link (to above doc in page hierarchy)
+       CLOSED: [2012-06-26 Tue 07:03]
+****** DONE Stylesheet for hover over page logo/title
+       CLOSED: [2012-06-26 Tue 07:52]
+****** DONE Added 'updated' metadata header to Markdown
+       CLOSED: [2012-06-26 Tue 09:01]
+       The 'updated' date of the HTML page will *only* be taken from this
+       header from now on. Should add some script that strongly encourages
+       user to update this field when changes are made to the content.
 ***** DONE Rename propaganda/flygblad{1..3}.html -> flygblad{1..3}.html
       CLOSED: [2012-06-29 Fri 11:41]
 ***** DONE Make HCoop redirects from old to new flygblad{1..3}.html names
       CLOSED: [2012-06-29 Fri 11:47]
-***** TODO Breadcrumbs should handle {...} notation in title
-      Example of this not looking so good:
-
-          Home > Om Klingonska Akademien > {tlhIngan Hol DajatlhlaH'a' SoH?}
-
-      found on pages:
-      http://klingonska.lal/akademien/flygblad1.html
-      http://klingonska.lal/akademien/qephom.html
-***** TODO <ul> lists should also use the little hexagonal bullets
-      Page that uses it:
-      http://klingonska.lal/akademien/qephom.html
-***** TODO Pages to update design of later
-      These pages still use and include:
-      `pagestats.css`
-      `page.css`
-        `head.css` (imported in `page.css`)
-        `main.css` (imported in `page.css`)
-        `foot.css` (imported in `page.css`)
-****** site/dict
-       Uses `dict.css`.
-****** site/klo
-****** site/qq
-***** TODO Remove file-specific CSS for 'publish/klcp.html'
-      Remove publish/include/klcp.css and rewrite klcp.html so that it isn't
-      needed any more.
-***** TODO 'template.html' + 'markdown2html' should insert 'lang' into <body> tag
-***** DONE Remove `akademien/stadgar.html` + `site/akademien/verksamhet.html`
+***** DONE Remove `akademien/stadgar.html` + `akademien/verksamhet.html`
       CLOSED: [2012-06-29 Fri 10:43]
       There are no links to these documents. It is no longer relevant in any way.
 ***** DONE Remove `klo/old` documents and subdirs
@@ -284,14 +181,164 @@ Priorities:
       are incorporated into the KLO pages. Old stuff is just an annoyance to
       maintain. (And, even after removal, would still be available in the git
       repo, if anyone *really* cared.)
+***** [21%] Convert all pages to new HTML template
+      Thereby centralizing the page header/footer etc. `bin/markdown2html` is
+      the tool used for this, except for files in /dict/, which uses `parse`.
+      Unifying these two tools into one will become a later issue, though.
+
+      The following files need updating:
+****** DONE `index.html`
+       CLOSED: [2012-06-26 Tue 13:43]
+****** DONE `download.html`
+       CLOSED: [2012-06-26 Tue 14:10]
+****** DONE `errors.html`
+       CLOSED: [2012-06-26 Tue 22:01]
+****** DONE `klcp.html`
+       CLOSED: [2012-06-28 Thu 00:21]
+       It has a custom CSS, check what effects that have. -- Should <hr> really
+       be used in wordlist part? (It's blank lines in the original -- how do
+       one obtain that through the markdown?
+****** DONE `canon/index.html`
+       CLOSED: [2012-06-28 Thu 04:53]
+****** DONE Verify that `klo/*` is unaffected by redesign
+       CLOSED: [2012-06-28 Thu 05:11]
+****** DONE `akademien/logo/index.html`
+       CLOSED: [2012-06-28 Thu 16:32]
+****** DONE `akademien/index.html`
+       CLOSED: [2012-06-28 Thu 18:20]
+****** DONE `akademien/presentation.html`
+       CLOSED: [2012-06-28 Thu 18:51]
+****** DONE `akademien/flygblad1.html`
+       CLOSED: [2012-06-28 Thu 19:18]
+****** DONE `akademien/flygblad2.html`
+       CLOSED: [2012-06-28 Thu 19:29]
+****** DONE `akademien/flygblad3.html`
+       CLOSED: [2012-06-28 Thu 19:46]
+****** DONE `akademien/qephom.html`
+       CLOSED: [2012-06-28 Thu 22:07]
+****** DONE `akademien/foton/index.html`
+       CLOSED: [2012-06-30 Sat 01:21]
+****** DONE `akademien/foton/index2.html`
+       CLOSED: [2012-06-30 Sat 01:20]
+****** DONE Verify that `dict/*` is unaffected by redesign
+       CLOSED: [2012-07-01 Sun 01:48]
+****** DONE Verify that `qq/*` is unaffected by redesign
+       CLOSED: [2012-07-01 Sun 01:57]
+****** TODO `links.html`
+****** TODO `lista.html`
+****** TODO `piqadpic.html`
+****** TODO `punct.html`
+****** TODO `punct2.html`
+****** TODO `tkw.html`
+****** TODO `uttal.html`
+****** TODO `canon/1993-sbx-99.html`
+****** TODO `canon/1994-10-hallmark.html`
+****** TODO `canon/1994-sbx-sp1.html`
+****** TODO `canon/1995-sbx-s13.html`
+****** TODO `canon/1995-sbx-s7.html`
+****** TODO `canon/1996-04-kcd.html`
+****** TODO `canon/1996-sbx-s19.html`
+****** TODO `canon/1996-sbx-s25.html`
+****** TODO `canon/1997-sbx-s31.html`
+****** TODO `canon/1998-11-01-bop.html`
+****** TODO `canon/2010-04-29-u-mtk.html`
+****** TODO `piq/index.html`
+****** TODO `piqad/index.html`
+******* Remove `hr.gif`
+        It's only used by "{pIqaD}, and How to Read It".
+****** TODO `ref/adv.html`
+****** TODO `ref/color.html`
+****** TODO `ref/loc.html`
+****** TODO `ref/num.html`
+****** TODO `ref/ovs.html`
+****** TODO `ref/time.html`
+****** TODO `songs/america.html`
+****** TODO `songs/anthem/index.html`
+****** TODO `songs/index.html`
+****** TODO `songs/tahjaj_wo/index.html`
+****** TODO `lektioner/FOOTER.html`
+****** TODO `lektioner/HEADER.html`
+****** TODO `lektioner/gammalt/FOOTER.html`
+****** TODO `lektioner/gammalt/HEADER.html`
+****** TODO `lektioner/gammalt/ideer.html`
+****** TODO `lektioner/gammalt/lektion00.html`
+****** TODO `lektioner/gammalt/lektion01.html`
+****** TODO `lektioner/gammalt/lektion02.html`
+****** TODO `lektioner/gammalt/lektion03.html`
+****** TODO `lektioner/gammalt/lektion04.html`
+****** TODO `lektioner/gammalt/nummer1.html`
+****** TODO `lektioner/gammalt/nummer2.html`
+****** TODO `lektioner/lektion00.html`
+****** TODO `lektioner/lektion01.html`
+****** TODO `lektioner/lektion02.html`
+****** TODO `lektioner/lektion03.html`
+****** TODO `lektioner/lektion04.html`
+****** TODO `lektioner/lektion05.html`
+****** TODO `lektioner/plan.html`
+****** TODO `lektioner/ref/=prefix_big.html`
+****** TODO `lektioner/ref/=prefix_small.html`
+****** TODO `lektioner/ref/FOOTER.html`
+****** TODO `lektioner/ref/HEADER.html`
+****** TODO `lektioner/ref/adverbial.html`
+****** TODO `lektioner/ref/prefix.html`
+****** TODO `lektioner/ref/suffix.html`
+****** TODO `lektioner/ref/suffix2.html`
+****** TODO `lektioner/text/FOOTER.html`
+****** TODO `lektioner/text/HEADER.html`
+****** TODO `lektioner/text/artikel1kli.html`
+****** TODO `lektioner/text/artikel1sve.html`
+****** TODO `lektioner/text/dialog.html`
+***** TODO Rename files/dirs in `http://klingonska.org/akademien/`
+****** TODO Rename `akademien/foton` -> `akademien/photos`
+****** TODO Rename `akademien/foton/index2` -> `akademien/foton/2`
+****** TODO Add all relevant HCoop redirect from old to new pages
+***** TODO Breadcrumbs should handle {...} notation in title
+      Example of this not looking so good:
+
+          Home > Om Klingonska Akademien > {tlhIngan Hol DajatlhlaH'a' SoH?}
+
+      found on pages:
+      http://klingonska.lal/akademien/flygblad1.html
+      http://klingonska.lal/akademien/qephom.html
+***** TODO Breadcrumbs for multiple page article
+      Example: http://klingonska.org/akademien/foton/2.html
+
+      Home › Om Klingonska Akademien › Pictures from {qep’a’ SochDIch} (page 1)
+      › Pictures from {qep’a’ SochDIch} (page 2)
+
+      Page 2 should not include page 1 in the breadcrumbs and logo link should
+      link to above directory for all pages.
+
+      Same goes for http://klingonska.org/dict/, where the logo should link to
+      http://klingonska.org/ on all pages, since there are links to all other
+      pages on each page.
+***** TODO Center prefix table in pocket dictionary
+      Prefix table in the reference table section is align left, but it should
+      be centered. Page: http://klingonska.lal/dict/tables.html
+***** TODO <ul> lists should also use the little hexagonal bullets
+      Page that uses it: http://klingonska.lal/akademien/qephom.html
+***** TODO Pages to update design of separately
+      These pages still use and include:
+      `pagestats.css`
+      `page.css`
+        `head.css` (imported in `page.css`)
+        `main.css` (imported in `page.css`)
+        `foot.css` (imported in `page.css`)
+****** TODO Update design of "{pIqaD} Playground" script
+       http://klingonska.lal/piqad/play.cgi
+****** TODO Update design of canon seach script
+       http://klingonska.lal/canon/search/?query=jdpps
+****** TODO `dict/*`
+       Uses `dict.css`.
+****** TODO `klo/*`
+****** TODO `qq/*`
+***** TODO "lang" attribute in <body> tag should be set by build script
+      'template.html' + 'markdown2html' should insert 'lang' into <body> tag
+
+      There is already a markdown metadata field 'lang' intended for this.
 ***** TODO Optimize images
       This page seems to be a good starting point
       https://github.com/h5bp/html5-boilerplate/wiki/Using-PNG
-***** TODO Use HTML5 Boilerplate
-***** TODO Build CSS from SCSS
-      Generated CSS should be minified.
-***** TODO Build HTML using template
-      The goal is to have all content source files written in markdown.
 **** TODO Add hyphenation of Klingon
      Inserting &shy;'s wherever needed, and adding a nobreak class for affixes
      occuring by themselves. (Like {-laH} and {pI-} etc.)

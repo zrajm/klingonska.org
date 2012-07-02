@@ -1,12 +1,11 @@
-pubdate: 2011-09-29
+updated: 2012-06-28 15:54+02
 year: 2011
 author: zrajm
-css: page pagestats klcp
+lang: en
 
 Klingon Language Certification Program
 ======================================
-
-This page describes a project of the Klingon Language Institute. If you go to a
+This page describes a project of the [Klingon Language Institute](http://kli.org/). If you go to a
 {qep'a'} (and a few other select places) you may there take a test to certify
 your knowledge in Klingon. This page is here to archive what is required to
 attain the various levels described by the KLCP, as this data is incorporated
@@ -18,6 +17,8 @@ order to make it look like the printout of the same document that zrajm
 obtained at the {qep'a'} in 2001. The text of the original (excluding CSS, HTML
 code and whitespace) has been left unchanged.
 
+* * *
+
 <img style="float:left;margin:0 1em 1em 0;" src="pic/klibutton.gif" width="146" height="147">
 
 <h1 style="font-family:serif">Klingon Language Certification Program</h1>
@@ -25,7 +26,7 @@ code and whitespace) has been left unchanged.
 The Klingon Language Certification Program (KLCP) is a sponsored project of the
 [Klingon Language Institute](http://www.kli.org/) (KLI).
 <br>[Original document](http://www.speers.nu/Holtej/klingon/guidelines.htm) by
-d'Armond Speers, copyright (c) <time>2002</time> (<time
+d'Armond Speers, copyright (c) 2002 (<time
 datetime="2002-02-10">February 10, 2002</time>)
 <br>HTML/CSS (text itself not changed) by [Zrajm C
 Akfohg](mailto:zrajm@klingonska.org) (<time datetime="2011-09-29">September 29,
@@ -37,25 +38,25 @@ Akfohg](mailto:zrajm@klingonska.org) (<time datetime="2011-09-29">September 29,
 <!--
 Table of Contents
 
-1. <a href="#1">Introduction</a><br />
-&nbsp;&nbsp;&nbsp; 1.1 <a href="#1.1">Overview</a><br />
-&nbsp;&nbsp;&nbsp; 1.2 <a href="#1.2">Question Format</a><br />
-2. <a href="#2">Level I: {Hol patlh taghwI'}, "Beginner"</a><br />
-&nbsp;&nbsp;&nbsp; 2.1 <a href="#2.1">Source</a><br />
-&nbsp;&nbsp;&nbsp; 2.2 <a href="#2.2">Material</a><br />
-&nbsp;&nbsp;&nbsp; 2.3 <a href="#2.3">Sample Questions</a><br />
-3. <a href="#3">Level II: {Hol patlh ghojwI'}, "Intermediate"</a><br />
-&nbsp;&nbsp;&nbsp; 3.1 <a href="#3.1">Source</a><br />
-&nbsp;&nbsp;&nbsp; 3.2 <a href="#3.2">Material</a><br />
-&nbsp;&nbsp;&nbsp; 3.3 <a href="#3.3">Sample Questions</a><br />
-4. <a href="#4">Level III: {Hol patlh po'wI'}, "Advanced"</a><br />
-&nbsp;&nbsp;&nbsp; 4.1 <a href="#4.1">Source</a><br />
-&nbsp;&nbsp;&nbsp; 4.2 <a href="#4.2">Material</a><br />
+1. <a href="#1">Introduction</a><br>
+&nbsp;&nbsp;&nbsp; 1.1 <a href="#1.1">Overview</a><br>
+&nbsp;&nbsp;&nbsp; 1.2 <a href="#1.2">Question Format</a><br>
+2. <a href="#2">Level I: {Hol patlh taghwI'}, "Beginner"</a><br>
+&nbsp;&nbsp;&nbsp; 2.1 <a href="#2.1">Source</a><br>
+&nbsp;&nbsp;&nbsp; 2.2 <a href="#2.2">Material</a><br>
+&nbsp;&nbsp;&nbsp; 2.3 <a href="#2.3">Sample Questions</a><br>
+3. <a href="#3">Level II: {Hol patlh ghojwI'}, "Intermediate"</a><br>
+&nbsp;&nbsp;&nbsp; 3.1 <a href="#3.1">Source</a><br>
+&nbsp;&nbsp;&nbsp; 3.2 <a href="#3.2">Material</a><br>
+&nbsp;&nbsp;&nbsp; 3.3 <a href="#3.3">Sample Questions</a><br>
+4. <a href="#4">Level III: {Hol patlh po'wI'}, "Advanced"</a><br>
+&nbsp;&nbsp;&nbsp; 4.1 <a href="#4.1">Source</a><br>
+&nbsp;&nbsp;&nbsp; 4.2 <a href="#4.2">Material</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  4.2.1 <a href="#4.2.1">Main Questions</a></br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  4.2.1 <a href="#4.2.2">Idioms</a></br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  4.2.1 <a href="#4.2.3">Reading Comprehension</a></br>
-&nbsp;&nbsp;&nbsp; 4.3 <a href="#4.3">Sample Questions</a><br />
-5. <a href="#5">Level IV: Grammarian</a><br />
+&nbsp;&nbsp;&nbsp; 4.3 <a href="#4.3">Sample Questions</a><br>
+5. <a href="#5">Level IV: Grammarian</a><br>
 6. <a href="#6">Appendix: Beginner's Vocabulary</a>
 -->
 
@@ -81,49 +82,61 @@ skills.
 The questions will either be translation, fill-in-the-blank, or require answers
 to questions about grammar. An example of each type is provided here.
 
-<table class="questions">
-  <tr>
-    <th>Translation</th>
-    <td>1a.</td>
-    <td>Translate the following sentence:
-      <br />{SuS'a'mo' pum Sorvetlh}
-      <br />["That tree fell because of the powerful wind."]</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>1b.</td>
-    <td>Translate the following sentence:
-      <br />"The guard chased the prisoner out of the jail."
-      <br />[{bIghHa'vo' qama' tlha' 'avwI'}]</td>
-  </tr>
-  <tr>
-    <th>Fill-in-the-blank</th>
-    <td>2a.</td>
-    <td>Don't speak!
-      <br />{yIjatlh___}
-      <br />[{-Qo'}]</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>2b.</td>
-    <td>{ya ghaH wo'rIv'e'}
-      <br />Worf is the __________.
-      <br />["tactical officer"]</td>
-  </tr>
-  <tr>
-    <th>Grammar</th>
-    <td>3a.</td>
-    <td>What is the connotation of using {-mey} with a noun capable of
-    language?
-      <br />[scattered all about]</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>3b.</td>
-    <td>What is the connotation of using a general possessive suffix on a noun
-    capable of language?
-      <br />[insult]</td>
-  </tr>
+<table class="noborder">
+  <tbody>
+    <tr>
+      <td>Translation</td>
+      <td>1a.</td>
+      <td>Translate the following sentence:
+        <br>{SuS'a'mo' pum Sorvetlh}
+        <br>["That tree fell because of the powerful wind."]</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>1b.</td>
+      <td>Translate the following sentence:
+        <br>"The guard chased the prisoner out of the jail."
+        <br>[{bIghHa'vo' qama' tlha' 'avwI'}]</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td class="nobr">Fill-in-the-blank</td>
+      <td>2a.</td>
+      <td>Don't speak!
+        <br>{yIjatlh___}
+        <br>[{-Qo'}]</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>2b.</td>
+      <td>{ya ghaH wo'rIv'e'}
+        <br>Worf is the __________.
+        <br>["tactical officer"]</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Grammar</td>
+      <td>3a.</td>
+      <td>What is the connotation of using {-mey} with a noun capable of
+        language?
+        <br>[scattered all about]</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>3b.</td>
+      <td>What is the connotation of using a general possessive suffix on a noun
+        capable of language?
+        <br>[insult]</td>
+    </tr>
+  </tbody>
 </table>
 
 In the {po'wI'} "advanced" tests, there will also be questions on
@@ -134,6 +147,7 @@ In the {pab pIn} "grammarian" test, the questions take on a different
 form. The test taker is asked to judge the grammaticality of sentences, and
 explain any problems in the grammar. The test for this level also includes
 essay questions.
+
 
 ## [2] 2. Level I: {Hol patlh taghwI'}, "Beginner" ##
 
@@ -148,7 +162,7 @@ end of these guidelines for the beginner's vocabulary.
 
 ### [2.2] 2.2. Material ###
 
-<table class="glossary">
+<table>
   <tr>
     <th>Topic</th>
     <th>Source</th>
@@ -219,7 +233,7 @@ end of these guidelines for the beginner's vocabulary.
   </tr>
   <tr>
     <td>NS5 {-Daq} <i>locative</i></td>
-    <td><i>TKD</i> 3.3.5, p. 27-28</td>
+    <td><i>TKD</i> 3.3.5, p. 27--28</td>
   </tr>
   <tr>
     <td>NS5 {-vo'} <i>from</i></td>
@@ -235,39 +249,39 @@ end of these guidelines for the beginner's vocabulary.
   </tr>
   <tr>
     <td>Verb prefix {jI-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Verb prefix {bI-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Verb prefix {ma-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Verb prefix {qa-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Verb prefix {vI-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Verb prefix {cho-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Verb prefix {mu-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Verb prefix {Da-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Verb prefix (null)</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>VS1 {-'egh} <i>self</i></td>
@@ -291,7 +305,7 @@ end of these guidelines for the beginner's vocabulary.
   </tr>
   <tr>
     <td>VS2 {-beH} <i>ready</i></td>
-    <td><i>TKD</i> 4.2.2, p. 36-37</td>
+    <td><i>TKD</i> 4.2.2, p. 36--37</td>
   </tr>
   <tr>
     <td>VS2 {-vIp} <i>afraid</i></td>
@@ -303,7 +317,7 @@ end of these guidelines for the beginner's vocabulary.
   </tr>
   <tr>
     <td>VS3 {-qa'} <i>again/resume</i></td>
-    <td><i>TKD</i> 4.2.3, p. 37-38</td>
+    <td><i>TKD</i> 4.2.3, p. 37--38</td>
   </tr>
   <tr>
     <td>VS4 {-moH} <i>cause</i></td>
@@ -343,11 +357,11 @@ end of these guidelines for the beginner's vocabulary.
   </tr>
   <tr>
     <td>Rover {-qu'} <i>emphatic</i></td>
-    <td><i>TKD</i> 4.3, p. 48-49</td>
+    <td><i>TKD</i> 4.3, p. 48--49</td>
   </tr>
   <tr>
     <td>Pronouns</td>
-    <td><i>TKD</i> 5.1, p. 51-52</td>
+    <td><i>TKD</i> 5.1, p. 51--52</td>
   </tr>
   <tr>
     <td>Conjunctions</td>
@@ -359,28 +373,29 @@ end of these guidelines for the beginner's vocabulary.
   </tr>
   <tr>
     <td>Question {chay'} <i>how</i></td>
-    <td><i>TKD</i> 6.4, p. 68-70</td>
+    <td><i>TKD</i> 6.4, p. 68--70</td>
   </tr>
   <tr>
     <td>Question {ghorgh} <i>when</i></td>
-    <td><i>TKD</i> 6.4, p. 68-70</td>
+    <td><i>TKD</i> 6.4, p. 68--70</td>
   </tr>
   <tr>
     <td>Question {'ar} <i>how many</i></td>
-    <td><i>TKD</i> 6.4, p. 68-70</td>
+    <td><i>TKD</i> 6.4, p. 68--70</td>
   </tr>
   <tr>
     <td>Question {qatlh} <i>why</i></td>
-    <td><i>TKD</i> 6.4, p. 68-70</td>
+    <td><i>TKD</i> 6.4, p. 68--70</td>
   </tr>
 </table>
 
+
 ### [2.3] 2.3. Sample Questions ###
 
-<table class="questions2">
+<table class="noborder">
   <tbody>
     <tr>
-      <th>1.</th>
+      <td>1.</td>
       <td>Instructions</td>
       <td>Fill in the blank.</td>
     </tr>
@@ -402,7 +417,7 @@ end of these guidelines for the beginner's vocabulary.
   </tbody>
   <tbody>
     <tr>
-      <th>2. </th>
+      <td>2. </td>
       <td>Instructions</td>
       <td>Translate the following sentence:</td>
     </tr>
@@ -419,7 +434,7 @@ end of these guidelines for the beginner's vocabulary.
   </tbody>
   <tbody>
     <tr>
-      <th>3. </th>
+      <td>3. </td>
       <td>Instructions</td>
       <td></td>
     </tr>
@@ -436,6 +451,7 @@ end of these guidelines for the beginner's vocabulary.
   </tbody>
 </table>
 
+
 ## [3] 3. Level II: {Hol patlh ghojwI'}, "Intermediate" ##
 
 ### [3.1] 3.1. Source ###
@@ -447,7 +463,7 @@ vocabulary found in <i>TKD</i> (2nd printing).
 
 ### [3.2] 3.2. Material ###
 
-<table class="glossary">
+<table>
   <tr>
     <th>Topic</th>
     <th>Source</th>
@@ -459,7 +475,7 @@ vocabulary found in <i>TKD</i> (2nd printing).
   <tr>
     <td>VS9 {-wI'} <i>thing/one which is/does</i></td>
     <td><i>TKD</i> 3.2.2, p. 19,
-      <br /><i>TKD</i> 4.2.9, p. 44</td>
+      <br><i>TKD</i> 4.2.9, p. 44</td>
   </tr>
   <tr>
     <td>NS2 {-Du'} <i>body part plural</i></td>
@@ -475,12 +491,12 @@ vocabulary found in <i>TKD</i> (2nd printing).
   </tr>
   <tr>
     <td>Inherent plurals</td>
-    <td><i>TKD</i> 3.3.2, p. 23-24</td>
+    <td><i>TKD</i> 3.3.2, p. 23--24</td>
   </tr>
   <tr>
     <td>NS5 {-vaD} <i>beneficiary</i></td>
     <td><i>TKD</i> 3.3.5, p. 28,
-      <br /><i>TKD</i> 6.8 p. 180 (addendum)</td>
+      <br><i>TKD</i> 6.8 p. 180 (addendum)</td>
   </tr>
   <tr>
     <td>N1-N2 genitives</td>
@@ -488,91 +504,91 @@ vocabulary found in <i>TKD</i> (2nd printing).
   </tr>
   <tr>
     <td>Verb prefix {bo-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Verb prefix {che-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Verb prefix {DI-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Verb prefix {Du-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Verb prefix {ju-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Verb prefix {lI-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Verb prefix {lu-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Verb prefix {nI-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Verb prefix {nu-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Verb prefix {pI-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Verb prefix {re-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Verb prefix {Sa-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Verb prefix {Su-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Verb prefix {tu-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Verb prefix {wI-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32-34</td>
+    <td><i>TKD</i> 4.1.1, p. 32--34</td>
   </tr>
   <tr>
     <td>Imperative verb prefix {gho-}</td>
-    <td><i>TKD</i> 4.1.2, p. 34-35</td>
+    <td><i>TKD</i> 4.1.2, p. 34--35</td>
   </tr>
   <tr>
     <td>Imperative verb prefix {HI-}</td>
-    <td><i>TKD</i> 4.1.2, p. 34-35</td>
+    <td><i>TKD</i> 4.1.2, p. 34--35</td>
   </tr>
   <tr>
     <td>Imperative verb prefix {pe-}</td>
-    <td><i>TKD</i> 4.1.2, p. 34-35</td>
+    <td><i>TKD</i> 4.1.2, p. 34--35</td>
   </tr>
   <tr>
     <td>Imperative verb prefix {tI-}</td>
-    <td><i>TKD</i> 4.1.2, p. 34-35</td>
+    <td><i>TKD</i> 4.1.2, p. 34--35</td>
   </tr>
   <tr>
     <td>Imperative verb prefix {yI-}</td>
-    <td><i>TKD</i> 4.1.2, p. 34-35</td>
+    <td><i>TKD</i> 4.1.2, p. 34--35</td>
   </tr>
   <tr>
     <td>VS5 {-lu'} <i>indefinite subject</i></td>
-    <td><i>TKD</i> 4.2.5, p. 38-39</td>
+    <td><i>TKD</i> 4.2.5, p. 38--39</td>
   </tr>
   <tr>
     <td>VS7 {-ta'} <i>accomplished</i></td>
-    <td><i>TKD</i> 4.2.7, p. 41-42</td>
+    <td><i>TKD</i> 4.2.7, p. 41--42</td>
   </tr>
   <tr>
     <td>VS7 {-taH} <i>continuous</i></td>
@@ -580,7 +596,7 @@ vocabulary found in <i>TKD</i> (2nd printing).
   </tr>
   <tr>
     <td>VS7 {-lI'} <i>in progress</i></td>
-    <td><i>TKD</i> 4.2.7, p. 42-43</td>
+    <td><i>TKD</i> 4.2.7, p. 42--43</td>
   </tr>
   <tr>
     <td>VS7 {-pu'} <i>perfective</i></td>
@@ -592,7 +608,7 @@ vocabulary found in <i>TKD</i> (2nd printing).
   </tr>
   <tr>
     <td>VS9 {-jaj} <i>may</i></td>
-    <td><i>TKD</i> 4.2.9, p. 175-176 (addendum)</td>
+    <td><i>TKD</i> 4.2.9, p. 175--176 (addendum)</td>
   </tr>
   <tr>
     <td>VS9 {-ghach} <i>nominalizer</i></td>
@@ -612,17 +628,17 @@ vocabulary found in <i>TKD</i> (2nd printing).
   </tr>
   <tr>
     <td>VS9 {-vIS} <i>while</i></td>
-    <td><i>TKD</i> 4.2.9, p. 43-44</td>
+    <td><i>TKD</i> 4.2.9, p. 43--44</td>
   </tr>
   <tr>
     <td>VS9 {-bogh} <i>relative</i> <i>clause</i></td>
     <td><i>TKD</i> 4.2.9, p. 44,
-      <br /><i>TKD</i> 6.2.3, p. 63-64</td>
+      <br><i>TKD</i> 6.2.3, p. 63--64</td>
   </tr>
   <tr>
     <td>VS9 {-meH} <i>purpose clause</i></td>
     <td><i>TKD</i> 4.2.9, p. 44,
-      <br /><i>TKD</i> 6.2.4, p. 64-65</td>
+      <br><i>TKD</i> 6.2.4, p. 64--65</td>
   </tr>
   <tr>
     <td>Rover {-Qo'} <i>won't</i></td>
@@ -630,33 +646,34 @@ vocabulary found in <i>TKD</i> (2nd printing).
   </tr>
   <tr>
     <td>Rover {-Ha'} <i>undo</i></td>
-    <td><i>TKD</i> 4.3, p. 47-48</td>
+    <td><i>TKD</i> 4.3, p. 47--48</td>
   </tr>
   <tr>
     <td>Adjectives</td>
-    <td><i>TKD</i> 4.4, p. 49-50</td>
+    <td><i>TKD</i> 4.4, p. 49--50</td>
   </tr>
   <tr>
     <td>Numbers</td>
-    <td><i>TKD</i> 5.2, p. 52-55</td>
+    <td><i>TKD</i> 5.2, p. 52--55</td>
   </tr>
   <tr>
     <td>Adverbs</td>
-    <td><i>TKD</i> 5.4, p. 55-57, 177-178 (addendum)</td>
+    <td><i>TKD</i> 5.4, p. 55--57, 177--178 (addendum)</td>
   </tr>
   <tr>
     <td>Sentences as object</td>
-    <td><i>TKD</i> 6.2.5, p. 65-67</td>
+    <td><i>TKD</i> 6.2.5, p. 65--67</td>
   </tr>
   <tr>
     <td>Pronouns as "to be"</td>
-    <td><i>TKD</i> 6.3, p. 67-68</td>
+    <td><i>TKD</i> 6.3, p. 67--68</td>
   </tr>
 </table>
 
+
 ### [3.3] 3.3. Sample Questions ###
 
-<table class="questions2">
+<table class="noborder">
   <tbody>
     <tr>
       <td>1.</td>
@@ -712,7 +729,7 @@ vocabulary found in <i>TKD</i> (2nd printing).
       <td></td>
       <td>Answer</td>
       <td>Subject: you (plural)
-        <br />Object: me</td>
+        <br>Object: me</td>
     </tr>
   </tbody>
 </table>
@@ -725,7 +742,7 @@ vocabulary found in <i>TKD</i> (2nd printing).
 The Advanced test will consist of 30 questions drawn from the following
 material. In this test, additional canon sources beyond <i>TKD</i> (grammar and
 vocabulary) will be included. This includes all canon sources listed in the
-[FAQ](http://www.speers.nu/Holtej/klingon/faq.htm#3.10"), including primarily
+[FAQ](http://www.speers.nu/Holtej/klingon/faq.htm#3.10), including primarily
 (but not exclusively) <i>Klingon for the Galactic Traveler </i>(<i>KGT</i>),
 and articles written by Marc Okrand and published in {HolQeD}.
 
@@ -740,10 +757,10 @@ category will be shown.
 
 #### [4.2.1] 4.2.1. Main Questions ####
 
-<table class="categories">
+<table class="noborder">
   <tbody>
     <tr>
-      <th colspan="2">Grammar and language use post-<i>TKD</i></th>
+      <td colspan="2">Grammar and language use post-<i>TKD</i></td>
     </tr>
     <tr>
       <td>Example:</td>
@@ -757,7 +774,7 @@ category will be shown.
   </tbody>
   <tbody>
     <tr>
-      <th colspan="2">Little-known grammar rules</th>
+      <td colspan="2">Little-known grammar rules</td>
     </tr>
     <tr>
       <td>Example:</td>
@@ -767,7 +784,7 @@ category will be shown.
   </tbody>
   <tbody>
     <tr>
-      <th colspan="2">Regional variation in grammar</th>
+      <td colspan="2">Regional variation in grammar</td>
     </tr>
     <tr>
       <td>Example:</td>
@@ -777,7 +794,7 @@ category will be shown.
   </tbody>
   <tbody>
     <tr>
-      <th colspan="2">Societal variation in vocabulary</th>
+      <td colspan="2">Societal variation in vocabulary</td>
     </tr>
     <tr>
       <td>Example:</td>
@@ -787,7 +804,7 @@ category will be shown.
   </tbody>
   <tbody>
     <tr>
-      <th colspan="2">Specialized vocabulary</th>
+      <td colspan="2">Specialized vocabulary</td>
     </tr>
     <tr>
       <td>Example:</td>
@@ -811,7 +828,7 @@ questions are written in Klingon, and you will provide your answers in Klingon.
 
 ### [4.3] 4.3. Sample Questions ###
 
-<table class="questions2">
+<table class="noborder">
   <tbody>
     <tr>
       <td>1.</td>
@@ -867,6 +884,7 @@ questions are written in Klingon, and you will provide your answers in Klingon.
   </tbody>
 </table>
 
+
 ## [5] 5. Grammarian ##
 
 The grammarian test is a little different than the others. The test is in two
@@ -880,6 +898,7 @@ issues that may still not be clearly understood.
 The second part of the test will be an essay, a written response to an essay
 question.
 
+
 ## [6] 6. Appendix: Beginner's Vocabulary ##
 
 The following 500 vocabulary items are from <i>TKD</i>. All questions in [the
@@ -887,583 +906,535 @@ Level I: Beginner's exam](#_2) use vocabulary only from this list. Due to
 copyright restrictions, only the English translation is included here; please
 refer to <i>TKD</i> for the Klingon translation.
 
-* * *
+<p class="noindent">ability, (n)
+<br>accept, (v)
+<br>accompany, (v)
+<br>accomplish, (v)
+<br>accomplishment, (n)
+<br>ache, hurt, be sore, (v)
+<br>achieve, (v)
+<br>achievement, (n)
+<br>acquire, obtain, get, (v)
+<br>act, take action, (v)
+<br>add, (v)
+<br>additional one, other one, (n)
+<br>admit, (v)
+<br>advice, (n)
+<br>advise, (v)
+<br>afternoon, (n)
+<br>alien, foreigner, (n)
+<br>allow, permit, (v)
+<br>alter, change, (v)
+<br>analyze, (v)
+<br>animal, (n)
+<br>answer, reply, (v)
+<br>approach, go away from, proceed, come, follow (a course), (v)
+<br>area above, area overhead, (n)
+<br>area below, area under, (n)
+<br>area beside, area next to, (n)
+<br>area between, (n)
+<br>arm, (n)
+<br>arrive, (v)
+<br>ask, (v)
+<br>attack, (v)
+<br>attempt, try, (v)</p>
 
-ability, (n)<br />
-accept, (v)<br />
-accompany, (v)<br />
-accomplish, (v)<br />
-accomplishment, (n)<br />
-ache, hurt, be sore, (v)<br />
-achieve, (v)<br />
-achievement, (n)<br />
-acquire, obtain, get, (v)<br />
-act, take action, (v)<br />
-add, (v)<br />
-additional one, other one, (n)<br />
-admit, (v)<br />
-advice, (n)<br />
-advise, (v)<br />
-afternoon, (n)<br />
-alien, foreigner, (n)<br />
-allow, permit, (v)<br />
-alter, change, (v)<br />
-analyze, (v)<br />
-animal, (n)<br />
-answer, reply, (v)<br />
-approach, go away from, proceed, come, follow (a course), (v)<br />
-area above, area overhead, (n)<br />
-area below, area under, (n)<br />
-area beside, area next to, (n)<br />
-area between, (n)<br />
-arm, (n)<br />
-arrive, (v)<br />
-ask, (v)<br />
-attack, (v)<br />
-attempt, try, (v)
+<p class="noindent">bar, saloon, cocktail lounge, (n)
+<br>battle, (n)
+<br>be a problem, be a hassle, (v)
+<br>be absent, (v)
+<br>be accomplished, finished, (v)
+<br>be advanced, highly developed, (v)
+<br>be all gone, (v)
+<br>be alone, (v)
+<br>be angry, mad, (v)
+<br>be bad, (v)
+<br>be beautiful, handsome, (v)
+<br>be big, (v)
+<br>be black, (v)
+<br>be boring, (v)
+<br>be brave, (v)
+<br>be calm, (v)
+<br>be careful, (v)
+<br>be clean, (v)
+<br>be clever, smart, intelligent, (v)
+<br>be closed, shut, (v)
+<br>be clumsy, (v)
+<br>be cold, (v)
+<br>be confused, mixed up, (v)
+<br>be counterfeit, false, fake, (v)
+<br>be crazy, (v)
+<br>be dangerous, (v)
+<br>be depressed, (v)
+<br>be different, (v)
+<br>be difficult, (v)
+<br>be dirty, (v)
+<br>be dishonest, (v)
+<br>be drunk, intoxicated, (v)
+<br>be dry, (v)
+<br>be dull, uninteresting, (v)
+<br>be easy, (v)
+<br>be enough, sufficient, (v)
+<br>be essential, necessary, (v)
+<br>be excited, (v)
+<br>be expert, skilled, (v)
+<br>be famous, well known, (v)
+<br>be fat, (v)
+<br>be fat, (v)
+<br>be few, be several, be a handful, (v)
+<br>be final, last, (v)
+<br>be fortunate, lucky, (v)
+<br>be free, independent, (v)
+<br>be frozen, (v)
+<br>be funny, (v)
+<br>be good, (v)
+<br>be green, blue, yellow, (v)
+<br>be grouchy, mean, (v)
+<br>be happy, (v)
+<br>be hard (like a rock, (v)
+<br>be healthy, (v)
+<br>be heavy, (v)
+<br>be honored, (v)
+<br>be hot, (v)
+<br>be hungry, (v)
+<br>be identical, (v)
+<br>be impressive, (v)
+<br>be inferior, (v)
+<br>be interesting, (v)
+<br>be lazy, (v)
+<br>be light, bright, (v)
+<br>be many, (v)
+<br>be messy, sloppy, (v)
+<br>be nervous, uneasy, (v)
+<br>be new, (v)
+<br>be old (not new), (v)
+<br>be old (not young), (v)
+<br>be open, opened, (v)
+<br>be orange, red, (v)
+<br>be pleased, (v)
+<br>be present (not absent), (v)
+<br>be proud, (v)
+<br>be qualified, (v)
+<br>be quiet, (v)
+<br>be remote, far, (v)
+<br>be responsible, (v)
+<br>be right, correct, (v)
+<br>be rough, (v)
+<br>be sad, (v)
+<br>be satisfied, (v)
+<br>be serious, (v)
+<br>be sharp, (v)
+<br>be sick, ill, (v)
+<br>be simple, (v)
+<br>be small, (v)
+<br>be smooth, (v)
+<br>be sour, (v)
+<br>be special, exceptional, (v)
+<br>be strong, (v)
+<br>be stupid, (v)
+<br>be temporary, (v)
+<br>be the same, (v)
+<br>be thirsty, (v)
+<br>be tired, (v)
+<br>be together, (v)
+<br>be tough, (v)
+<br>be trivial, trifling, unimportant, (v)
+<br>be true, (v)
+<br>be useful, (v)
+<br>be varied, various, (v)
+<br>be weak, (v)
+<br>be weird, (v)
+<br>be wet, (v)
+<br>be white, (v)
+<br>be wrong, (v)
+<br>beam (aboard, (v)
+<br>become, (v)
+<br>believe, (v)
+<br>bend, (v)
+<br>betray, (v)
+<br>birthday, (n)
+<br>bite, (v)
+<br>blame, (v)
+<br>blood, (n)
+<br>board, go aboard, (v)
+<br>body, (n)
+<br>book, (n)
+<br>boot, (n)
+<br>borrow, (v)
+<br>boss, (n)
+<br>boy, (n)
+<br>break, (v)
+<br>breakfast, (n)
+<br>breath, (v)
+<br>bring, (v)
+<br>brother, (n)
+<br>building, structure, (n)
+<br>burn, (v)
+<br>buy, purchase, (v)</p>
 
-* * *
+<p class="noindent">calculate, (v)
+<br>calendar, (n)
+<br>captain, (n)
+<br>care (about, (v)
+<br>carry, convey, (v)
+<br>cause trouble, (v)
+<br>chair, (n)
+<br>charming (used only ironically), (excl)
+<br>chase, follow, (v)
+<br>cheat, (v)
+<br>cheek, (n)
+<br>chew, (v)
+<br>child, offspring, (n)
+<br>chocolate, (n)
+<br>choose, select, (v)
+<br>chronometer, (n)
+<br>city, (n)
+<br>climb, (v)
+<br>close in, get closer, come nearer, (v)
+<br>cloud, (n)
+<br>communicate, (v)
+<br>compete, (v)
+<br>computer, (n)
+<br>concentrate on, focus on, think only about, (v)
+<br>connect, (v)
+<br>conquer, (v)
+<br>contain (have inside), (v)
+<br>control, (v)
+<br>cook, (v)
+<br>country, countryside, (n)
+<br>coward, (n)
+<br>cry, (v)</p>
 
-bar, saloon, cocktail lounge, (n)<br />
-battle, (n)<br />
-be a problem, be a hassle, (v)<br />
-be absent, (v)<br />
-be accomplished, finished, (v)<br />
-be advanced, highly developed, (v)<br />
-be all gone, (v)<br />
-be alone, (v)<br />
-be angry, mad, (v)<br />
-be bad, (v)<br />
-be beautiful, handsome, (v)<br />
-be big, (v)<br />
-be black, (v)<br />
-be boring, (v)<br />
-be brave, (v)<br />
-be calm, (v)<br />
-be careful, (v)<br />
-be clean, (v)<br />
-be clever, smart, intelligent, (v)<br />
-be closed, shut, (v)<br />
-be clumsy, (v)<br />
-be cold, (v)<br />
-be confused, mixed up, (v)<br />
-be counterfeit, false, fake, (v)<br />
-be crazy, (v)<br />
-be dangerous, (v)<br />
-be depressed, (v)<br />
-be different, (v)<br />
-be difficult, (v)<br />
-be dirty, (v)<br />
-be dishonest, (v)<br />
-be drunk, intoxicated, (v)<br />
-be dry, (v)<br />
-be dull, uninteresting, (v)<br />
-be easy, (v)<br />
-be enough, sufficient, (v)<br />
-be essential, necessary, (v)<br />
-be excited, (v)<br />
-be expert, skilled, (v)<br />
-be famous, well known, (v)<br />
-be fat, (v)<br />
-be fat, (v)<br />
-be few, be several, be a handful, (v)<br />
-be final, last, (v)<br />
-be fortunate, lucky, (v)<br />
-be free, independent, (v)<br />
-be frozen, (v)<br />
-be funny, (v)<br />
-be good, (v)<br />
-be green, blue, yellow, (v)<br />
-be grouchy, mean, (v)<br />
-be happy, (v)<br />
-be hard (like a rock, (v)<br />
-be healthy, (v)<br />
-be heavy, (v)<br />
-be honored, (v)<br />
-be hot, (v)<br />
-be hungry, (v)<br />
-be identical, (v)<br />
-be impressive, (v)<br />
-be inferior, (v)<br />
-be interesting, (v)<br />
-be lazy, (v)<br />
-be light, bright, (v)<br />
-be many, (v)<br />
-be messy, sloppy, (v)<br />
-be nervous, uneasy, (v)<br />
-be new, (v)<br />
-be old (not new), (v)<br />
-be old (not young), (v)<br />
-be open, opened, (v)<br />
-be orange, red, (v)<br />
-be pleased, (v)<br />
-be present (not absent), (v)<br />
-be proud, (v)<br />
-be qualified, (v)<br />
-be quiet, (v)<br />
-be remote, far, (v)<br />
-be responsible, (v)<br />
-be right, correct, (v)<br />
-be rough, (v)<br />
-be sad, (v)<br />
-be satisfied, (v)<br />
-be serious, (v)<br />
-be sharp, (v)<br />
-be sick, ill, (v)<br />
-be simple, (v)<br />
-be small, (v)<br />
-be smooth, (v)<br />
-be sour, (v)<br />
-be special, exceptional, (v)<br />
-be strong, (v)<br />
-be stupid, (v)<br />
-be temporary, (v)<br />
-be the same, (v)<br />
-be thirsty, (v)<br />
-be tired, (v)<br />
-be together, (v)<br />
-be tough, (v)<br />
-be trivial, trifling, unimportant, (v)<br />
-be true, (v)<br />
-be useful, (v)<br />
-be varied, various, (v)<br />
-be weak, (v)<br />
-be weird, (v)<br />
-be wet, (v)<br />
-be white, (v)<br />
-be wrong, (v)<br />
-beam (aboard, (v)<br />
-become, (v)<br />
-believe, (v)<br />
-bend, (v)<br />
-betray, (v)<br />
-birthday, (n)<br />
-bite, (v)<br />
-blame, (v)<br />
-blood, (n)<br />
-board, go aboard, (v)<br />
-body, (n)<br />
-book, (n)<br />
-boot, (n)<br />
-borrow, (v)<br />
-boss, (n)<br />
-boy, (n)<br />
-break, (v)<br />
-breakfast, (n)<br />
-breath, (v)<br />
-bring, (v)<br />
-brother, (n)<br />
-building, structure, (n)<br />
-burn, (v)<br />
-buy, purchase, (v)
+<p class="noindent">danger, (n)
+<br>data, information, (n)
+<br>daughter, (n)
+<br>day, (n)
+<br>debate, (v)
+<br>decide, (v)
+<br>demand, require, (v)
+<br>deny, (v)
+<br>depart, (v)
+<br>depend on, rely on, (v)
+<br>describe, (v)
+<br>destroy, (v)
+<br>dictionary, (n)
+<br>die, (v)
+<br>dinner, (n)
+<br>disagree, (v)
+<br>disappear, vanish, (v)
+<br>discourage, (v)
+<br>discover, find, observe, notice, (v)
+<br>dislike, (v)
+<br>dock, (n)
+<br>dock, (v)
+<br>doctor, physician, (n)
+<br>done, (excl)
+<br>door, gate, (n)
+<br>doubt, (v)
+<br>dream, (v)
+<br>drink, (v)
+<br>drop, (v)
+<br>duty station, station, (n)
+<br>duty, quest, mission, task, chore, (n)</p>
 
-* * *
+<p class="noindent">Earth, (n)
+<br>eat, (v)
+<br>enemy, (n)
+<br>enjoy, (v)
+<br>enter, go in, (v)
+<br>err, be mistaken, make a mistake, (v)
+<br>establish, set up, (v)
+<br>everyone, all, everything, (n)
+<br>expect, (v)
+<br>explain, (v)</p>
 
-calculate, (v)<br />
-calendar, (n)<br />
-captain, (n)<br />
-care (about, (v)<br />
-carry, convey, (v)<br />
-cause trouble, (v)<br />
-chair, (n)<br />
-charming (used only ironically), (excl)<br />
-chase, follow, (v)<br />
-cheat, (v)<br />
-cheek, (n)<br />
-chew, (v)<br />
-child, offspring, (n)<br />
-chocolate, (n)<br />
-choose, select, (v)<br />
-chronometer, (n)<br />
-city, (n)<br />
-climb, (v)<br />
-close in, get closer, come nearer, (v)<br />
-cloud, (n)<br />
-communicate, (v)<br />
-compete, (v)<br />
-computer, (n)<br />
-concentrate on, focus on, think only about, (v)<br />
-connect, (v)<br />
-conquer, (v)<br />
-contain (have inside), (v)<br />
-control, (v)<br />
-cook, (v)<br />
-country, countryside, (n)<br />
-coward, (n)<br />
-cry, (v)
+<p class="noindent">face, (n)
+<br>fact, (n)
+<br>fall, (v)
+<br>family, (n)
+<br>father, (n)
+<br>feed (someone else), (v)
+<br>female, woman, (n)
+<br>fight, (v)
+<br>fill, (v)
+<br>finger, (n)
+<br>fire, (n)
+<br>fire (torpedo, rocket, missile), (v)
+<br>fix, repair, (v)
+<br>floor, (n)
+<br>follow (rules, (v)
+<br>food, (n)
+<br>fool, (n)
+<br>foot, (n)
+<br>forehead, (n)
+<br>forest, woods, (n)
+<br>forget, (v)
+<br>friend, (n)</p>
 
-* * *
+<p class="noindent">garbage, (n)
+<br>gas, (n)
+<br>genius, (n)
+<br>gift, (n)
+<br>girl, (n)
+<br>give, (v)
+<br>glass (tumbler, (n)
+<br>glow, (v)
+<br>go, (v)
+<br>goal, (n)
+<br>good (expressing satisfaction), (excl)
+<br>grammar, (n)
+<br>grandfather, (n)
+<br>group, party, (n)
+<br>guard, (v)
+<br>gunner, (n)</p>
 
-danger, (n)<br />
-data, information, (n)<br />
-daughter, (n)<br />
-day, (n)<br />
-debate, (v)<br />
-decide, (v)<br />
-demand, require, (v)<br />
-deny, (v)<br />
-depart, (v)<br />
-depend on, rely on, (v)<br />
-describe, (v)<br />
-destroy, (v)<br />
-dictionary, (n)<br />
-die, (v)<br />
-dinner, (n)<br />
-disagree, (v)<br />
-disappear, vanish, (v)<br />
-discourage, (v)<br />
-discover, find, observe, notice, (v)<br />
-dislike, (v)<br />
-dock, (n)<br />
-dock, (v)<br />
-doctor, physician, (n)<br />
-done, (excl)<br />
-door, gate, (n)<br />
-doubt, (v)<br />
-dream, (v)<br />
-drink, (v)<br />
-drop, (v)<br />
-duty station, station, (n)<br />
-duty, quest, mission, task, chore, (n)
+<p class="noindent">hand, (n)
+<br>hate, detest, (v)
+<br>have a hangover, be hung over, (v)
+<br>have a headache, (v)
+<br>have, possess, (v)
+<br>he, she, him, her, (pro)
+<br>head, (n)
+<br>hear, (v)
+<br>helm, (n)
+<br>helmsman, (n)
+<br>help, aid, (v)
+<br>hide, cloak, (v)
+<br>history, (n)
+<br>home, (n)
+<br>honor, (n)
+<br>hope, (v)
+<br>hour, (n)
+<br>hunt, (v)
+<br>hurry, (v)
+<br>husband, (n)</p>
 
-* * *
+<p class="noindent">I, me, (pro)
+<br>idea, (n)
+<br>identify, (v)
+<br>inhabitant, (n)
+<br>insult, (v)
+<br>intend, mean to, (v)
+<br>it, (pro)</p>
 
-Earth, (n)<br />
-eat, (v)<br />
-enemy, (n)<br />
-enjoy, (v)<br />
-enter, go in, (v)<br />
-err, be mistaken, make a mistake, (v)<br />
-establish, set up, (v)<br />
-everyone, all, everything, (n)<br />
-expect, (v)<br />
-explain, (v)
+<p class="noindent">jacket, coat, (n)
+<br>judge, estimate, (v)</p>
 
-* * *
+<p class="noindent">keep something secret, (v)
+<br>keep, save, (v)
+<br>kill, (v)
+<br>Klingon, (n)
+<br>knee, (n)
+<br>knife, dagger, (n)
+<br>know, (v)</p>
 
-face, (n)<br />
-fact, (n)<br />
-fall, (v)<br />
-family, (n)<br />
-father, (n)<br />
-feed (someone else), (v)<br />
-female, woman, (n)<br />
-fight, (v)<br />
-fill, (v)<br />
-finger, (n)<br />
-fire, (n)<br />
-fire (torpedo, rocket, missile), (v)<br />
-fix, repair, (v)<br />
-floor, (n)<br />
-follow (rules, (v)<br />
-food, (n)<br />
-fool, (n)<br />
-foot, (n)<br />
-forehead, (n)<br />
-forest, woods, (n)<br />
-forget, (v)<br />
-friend, (n)
+<p class="noindent">label, (v)
+<br>lake, (n)
+<br>language, (n)
+<br>laugh, (v)
+<br>lead, guide, (v)
+<br>learn, (v)
+<br>leave, depart, (v)
+<br>leg, (n)
+<br>let's go, come on, (excl)
+<br>lie, fib, (v)
+<br>life, (n)
+<br>line, rope, (n)
+<br>listen, (v)
+<br>live, (v)
+<br>look for seek, search for, (v)
+<br>loved one, (n)</p>
 
-* * *
+<p class="noindent">make peace, (v)
+<br>male, man, (n)
+<br>manuscript, (n)
+<br>meet (for the first time), (v)
+<br>meet, encounter, (v)
+<br>meeting, (n)
+<br>melt, (v)
+<br>mind, brain, (n)
+<br>minute (of time, (n)
+<br>month, (n)
+<br>moon, (n)
+<br>morning, (n)
+<br>mother, (n)
+<br>mouth, (n)</p>
 
-garbage, (n)<br />
-gas, (n)<br />
-genius, (n)<br />
-gift, (n)<br />
-girl, (n)<br />
-give, (v)<br />
-glass (tumbler, (n)<br />
-glow, (v)<br />
-go, (v)<br />
-goal, (n)<br />
-good (expressing satisfaction), (excl)<br />
-grammar, (n)<br />
-grandfather, (n)<br />
-group, party, (n)<br />
-guard, (v)<br />
-gunner, (n)
+<p class="noindent">name, (n)
+<br>navigate, (v)
+<br>night, (n)
+<br>no, (excl)
+<br>no, I won't, I refuse, I disagree, (excl)
+<br>nonsense, (n)
+<br>nose, (n)
+<br>nostril, (n)
+<br>nothing, none, (n)
+<br>noun, (n)</p>
 
-* * *
+<p class="noindent">oath, (n)
+<br>occur, happen, (v)
+<br>officer, (n)
+<br>opinion, (n)
+<br>opportunity, (n)
+<br>order, command, (v)</p>
 
-hand, (n)<br />
-hate, detest, (v)<br />
-have a hangover, be hung over, (v)<br />
-have a headache, (v)<br />
-have, possess, (v)<br />
-he, she, him, her, (pro)<br />
-head, (n)<br />
-hear, (v)<br />
-helm, (n)<br />
-helmsman, (n)<br />
-help, aid, (v)<br />
-hide, cloak, (v)<br />
-history, (n)<br />
-home, (n)<br />
-honor, (n)<br />
-hope, (v)<br />
-hour, (n)<br />
-hunt, (v)<br />
-hurry, (v)<br />
-husband, (n)
+<p class="noindent">paper, (n)
+<br>pay attention, concentrate, (v)
+<br>pay for, (v)
+<br>peace, (n)
+<br>period of time, (n)
+<br>person (humanoid), (n) ({ghot}, {nuv})
+<br>pet, (n)
+<br>phenomenon, event, occurrence, (n)
+<br>plan, (v)
+<br>planet, (n)
+<br>pleasure, (n)
+<br>practice, train, prepare, (v)
+<br>prefer, (v)
+<br>present, (v)
+<br>press down, (v)
+<br>prevent, block, prohibit, (v)
+<br>prisoner, (n)
+<br>prosper, be prosperous, (v)
+<br>protect, (v)
+<br>push, (v)</p>
 
-* * *
+<p class="noindent">question, interrogate, (v)</p>
 
-I, me, (pro)<br />
-idea, (n)<br />
-identify, (v)<br />
-inhabitant, (n)<br />
-insult, (v)<br />
-intend, mean to, (v)<br />
-it, (pro)
+<p class="noindent">rain, (v)
+<br>reach, (v)
+<br>read, (v)
+<br>ready, (excl)
+<br>realize, (v)
+<br>reason, (n)
+<br>receive, (v)
+<br>recognize, (v)
+<br>recommend, suggest, (v)
+<br>regret, (v)
+<br>remain, (v)
+<br>remember, (v)
+<br>remove, take off, (v)
+<br>resemble, (v)
+<br>respect, (v)
+<br>rest, relax, (v)
+<br>restaurant, (n)
+<br>return, (v)
+<br>revenge, (n)
+<br>roam, travel, rove, (v)
+<br>room, (n)
+<br>run, jog, (v)</p>
 
-* * *
+<p class="noindent">salute, (v)
+<br>scare, (v)
+<br>science, (n)
+<br>scientist, (n)
+<br>scream, cry out, shout, yell, (v)
+<br>secret, (n)
+<br>see, (v)
+<br>sell, (v)
+<br>send, (v)
+<br>sentence, (n)
+<br>sergeant, (n)
+<br>serve (a master), (v)
+<br>shield, (n)
+<br>ship, vessel, (n)
+<br>shoe, (n)
+<br>shoot, (v)
+<br>shot, (n)
+<br>show, reveal, (v)
+<br>sir, (n)
+<br>sister, (n)
+<br>sit, (v)
+<br>skin, (n)
+<br>sky, (n)
+<br>sleep, (v)
+<br>slit, (v)
+<br>so, well, (excl)
+<br>soft, (v)
+<br>somebody, something, anybody, anything, (n)
+<br>somewhere, (n)
+<br>son, (n)
+<br>source, (n)
+<br>speak, say, (v)
+<br>stand, (v)
+<br>stop, cease, (v)
+<br>story, (n)
+<br>study, (v)
+<br>stuff, (v)
+<br>success, (n)
+<br>surprise, (v)
+<br>surrender, give up, (v)
+<br>sword, (n)
+<br>system, (n)</p>
 
-jacket, coat, (n)<br />
-judge, estimate, (v)
+<p class="noindent">take, (v)
+<br>take away, (v)
+<br>tell the truth, (v)
+<br>tell, report, (v)
+<br>theory, (n)
+<br>there, over there, thereabouts, (n)
+<br>they, them, (pro)
+<br>they, them, (pro)
+<br>thing, (n)
+<br>think, (v)
+<br>throw away, (v)
+<br>today, (n)
+<br>tomorrow, (n)
+<br>translate, (v)
+<br>tree, (n)
+<br>tribble, (n)
+<br>trouble, (n)
+<br>trust, have faith in, (v)
+<br>turn, (v)</p>
 
-* * *
+<p class="noindent">understand, (v)
+<br>use, (v)</p>
 
-keep something secret, (v)<br />
-keep, save, (v)<br />
-kill, (v)<br />
-Klingon, (n)<br />
-knee, (n)<br />
-knife, dagger, (n)<br />
-know, (v)
+<p class="noindent">verb, (n)
+<br>verify, (v)
+<br>victory, triumph, (n)
+<br>violate, (v)
+<br>violation, (n)
+<br>visit, (v)
+<br>vocabulary, (n)
+<br>voice, (n)
+<br>vow, swear, (v)
+<br>Vulcan, (n)</p>
 
-* * *
+<p class="noindent">wait (for), (v)
+<br>wake up, cease sleeping, (v)
+<br>walk, (v)
+<br>want, (v)
+<br>war, (n)
+<br>warrior, (n)
+<br>watch, (v)
+<br>water, (n)
+<br>we, us, (pro)
+<br>weapon, (n)
+<br>wear (clothes), (v)
+<br>week, (n)
+<br>well done, very good, (excl)
+<br>wife, (n)
+<br>wind, breeze, (n)
+<br>wing, (n)
+<br>wonder, (v)
+<br>word, (n)
+<br>work, function, succeed, (v)
+<br>work, toil, (v)
+<br>wound, (v)
+<br>write, (v)</p>
 
-label, (v)<br />
-lake, (n)<br />
-language, (n)<br />
-laugh, (v)<br />
-lead, guide, (v)<br />
-learn, (v)<br />
-leave, depart, (v)<br />
-leg, (n)<br />
-let's go, come on, (excl)<br />
-lie, fib, (v)<br />
-life, (n)<br />
-line, rope, (n)<br />
-listen, (v)<br />
-live, (v)<br />
-look for seek, search for, (v)<br />
-loved one, (n)
+<p class="noindent">year, (n)
+<br>yes, true, (excl)
+<br>yes, true, (excl)
+<br>yesterday, (n)
+<br>you, (pro)
+<br>you (plural), (pro)</p>
 
-* * *
+<p class="noindent">©<time>2002</time> <a
+href="http://www.speers.nu/Holtej/klingon/guidelines.htm">Original document</a>
+copyright by <span class="author">d'Armond Speers</span></p>
 
-make peace, (v)<br />
-male, man, (n)<br />
-manuscript, (n)<br />
-meet (for the first time), (v)<br />
-meet, encounter, (v)<br />
-meeting, (n)<br />
-melt, (v)<br />
-mind, brain, (n)<br />
-minute (of time, (n)<br />
-month, (n)<br />
-moon, (n)<br />
-morning, (n)<br />
-mother, (n)<br />
-mouth, (n)
-
-* * *
-
-name, (n)<br />
-navigate, (v)<br />
-night, (n)<br />
-no, (excl)<br />
-no, I won't, I refuse, I disagree, (excl)<br />
-nonsense, (n)<br />
-nose, (n)<br />
-nostril, (n)<br />
-nothing, none, (n)<br />
-noun, (n)
-
-* * *
-
-oath, (n)<br />
-occur, happen, (v)<br />
-officer, (n)<br />
-opinion, (n)<br />
-opportunity, (n)<br />
-order, command, (v)
-
-* * *
-
-paper, (n)<br />
-pay attention, concentrate, (v)<br />
-pay for, (v)<br />
-peace, (n)<br />
-period of time, (n)<br />
-person (humanoid), (n) ({ghot}, {nuv})<br />
-pet, (n)<br />
-phenomenon, event, occurrence, (n)<br />
-plan, (v)<br />
-planet, (n)<br />
-pleasure, (n)<br />
-practice, train, prepare, (v)<br />
-prefer, (v)<br />
-present, (v)<br />
-press down, (v)<br />
-prevent, block, prohibit, (v)<br />
-prisoner, (n)<br />
-prosper, be prosperous, (v)<br />
-protect, (v)<br />
-push, (v)
-
-* * *
-
-question, interrogate, (v)
-
-* * *
-
-rain, (v)<br />
-reach, (v)<br />
-read, (v)<br />
-ready, (excl)<br />
-realize, (v)<br />
-reason, (n)<br />
-receive, (v)<br />
-recognize, (v)<br />
-recommend, suggest, (v)<br />
-regret, (v)<br />
-remain, (v)<br />
-remember, (v)<br />
-remove, take off, (v)<br />
-resemble, (v)<br />
-respect, (v)<br />
-rest, relax, (v)<br />
-restaurant, (n)<br />
-return, (v)<br />
-revenge, (n)<br />
-roam, travel, rove, (v)<br />
-room, (n)<br />
-run, jog, (v)
-
-* * *
-
-salute, (v)<br />
-scare, (v)<br />
-science, (n)<br />
-scientist, (n)<br />
-scream, cry out, shout, yell, (v)<br />
-secret, (n)<br />
-see, (v)<br />
-sell, (v)<br />
-send, (v)<br />
-sentence, (n)<br />
-sergeant, (n)<br />
-serve (a master), (v)<br />
-shield, (n)<br />
-ship, vessel, (n)<br />
-shoe, (n)<br />
-shoot, (v)<br />
-shot, (n)<br />
-show, reveal, (v)<br />
-sir, (n)<br />
-sister, (n)<br />
-sit, (v)<br />
-skin, (n)<br />
-sky, (n)<br />
-sleep, (v)<br />
-slit, (v)<br />
-so, well, (excl)<br />
-soft, (v)<br />
-somebody, something, anybody, anything, (n)<br />
-somewhere, (n)<br />
-son, (n)<br />
-source, (n)<br />
-speak, say, (v)<br />
-stand, (v)<br />
-stop, cease, (v)<br />
-story, (n)<br />
-study, (v)<br />
-stuff, (v)<br />
-success, (n)<br />
-surprise, (v)<br />
-surrender, give up, (v)<br />
-sword, (n)<br />
-system, (n)
-
-* * *
-
-take, (v)<br />
-take away, (v)<br />
-tell the truth, (v)<br />
-tell, report, (v)<br />
-theory, (n)<br />
-there, over there, thereabouts, (n)<br />
-they, them, (pro)<br />
-they, them, (pro)<br />
-thing, (n)<br />
-think, (v)<br />
-throw away, (v)<br />
-today, (n)<br />
-tomorrow, (n)<br />
-translate, (v)<br />
-tree, (n)<br />
-tribble, (n)<br />
-trouble, (n)<br />
-trust, have faith in, (v)<br />
-turn, (v)
-
-* * *
-
-understand, (v)<br />
-use, (v)
-
-* * *
-
-verb, (n)<br />
-verify, (v)<br />
-victory, triumph, (n)<br />
-violate, (v)<br />
-violation, (n)<br />
-visit, (v)<br />
-vocabulary, (n)<br />
-voice, (n)<br />
-vow, swear, (v)<br />
-Vulcan, (n)
-
-* * *
-
-wait (for), (v)<br />
-wake up, cease sleeping, (v)<br />
-walk, (v)<br />
-want, (v)<br />
-war, (n)<br />
-warrior, (n)<br />
-watch, (v)<br />
-water, (n)<br />
-we, us, (pro)<br />
-weapon, (n)<br />
-wear (clothes), (v)<br />
-week, (n)<br />
-well done, very good, (excl)<br />
-wife, (n)<br />
-wind, breeze, (n)<br />
-wing, (n)<br />
-wonder, (v)<br />
-word, (n)<br />
-work, function, succeed, (v)<br />
-work, toil, (v)<br />
-wound, (v)<br />
-write, (v)
-
-* * *
-
-year, (n)<br />
-yes, true, (excl)<br />
-yes, true, (excl)<br />
-yesterday, (n)<br />
-you, (pro)<br />
-you (plural), (pro)
-
-* * *
-
-©<time>2002</time> [Original
-document](http://www.speers.nu/Holtej/klingon/guidelines.htm) copyright by
-<span class="author">d'Armond Speers</span>
+</div>
 
 [[eof]]

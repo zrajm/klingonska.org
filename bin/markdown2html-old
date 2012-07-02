@@ -9,11 +9,6 @@ use open qw(:std :utf8);
 #binmode(STDIN,  ":encoding(utf8)");
 #binmode(STDOUT, ":encoding(utf8)");
 
-use Data::Dumper;
-$Data::Dumper::Sortkeys = 1;
-$Data::Dumper::Indent   = 1;
-$Data::Dumper::Terse    = 1;
-
 
 ###############################################################################
 ##                                                                           ##
@@ -22,46 +17,39 @@ $Data::Dumper::Terse    = 1;
 ###############################################################################
 
 my %code = (
-    AUTHOR    => \&page_author,    # in 'template.html'
-    CHANGED   => \&page_changed,   # in 'template.html'
-    CRUMBS    => \&page_crumbs,    # in 'template.html'
-    CSS       => \&page_css,       # in 'template.html'
-    EOF       => sub { () },       # in all templates
-    FOOTER    => \&page_footer,
-    HEADER    => \&page_header,    # in 'template.html'
-    LOGOKA    => \&page_logoka,    #   in 'header.html'
-    LOGOLINK  => \&page_logolink,  #   in 'header.html'
-    LOGOSRC   => \&page_logosrc,   #   in 'header.html'
-    MAIN      => \&page_main,      # in 'template.html'
-    META      => \&page_meta,      # in 'template.html'
-    MODERNIZR => \&page_modernizr, # in 'template.html'
-    PREVNEXT  => \&page_prevnext,  # in 'template.html'
-    SCRIPT    => \&page_script,    # in 'template.html'
-    STYLE     => \&page_style,     # in 'template.html'
-    TITLE     => \&page_title,     # in 'template.html'
-    TOC       => \&page_toc,
-    URL       => \&page_url,       # in 'template.html'
-    YEAR      => \&page_year,      # in 'template.html'
+    AUTHOR   => \&page_author,     # in 'template.html'
+    CHANGED  => \&page_date,       # in 'template.html'
+    CRUMBS   => \&page_crumbs,     # in 'template.html'
+    CSS      => \&page_css,        # in 'template.html'
+    EOF      => sub { "" },        # in all templates
+    FOOT     => \&page_footer,
+    HEADER   => \&page_header,     # in 'template.html'
+    LOGOLINK => \&page_logolink,   #   in 'header.html'
+    LOGOKA   => \&page_logoka,     #   in 'header.html'
+    MAIN     => \&page_main,       # in 'template.html'
+    META     => \&page_meta,       # in 'template.html'
+    PREVNEXT => \&page_prevnext,   # in 'template.html'
+    SCRIPT   => \&page_script,     # in 'template.html'
+    TITLE    => \&page_title,      # in 'template.html'
+    TOC      => \&page_toc,
+    URL      => \&page_url,        # in 'template.html'
+    YEAR     => \&page_year,       # in 'template.html'
 );
 
 my %author = (
-    bkhl    => [ 'Björn Lindström' => 'bkhl@elektrubadur.se'     ],
-    markus  => [ 'Markus Persson'  => 'mp@klingonska.org'        ],
-    wallius => [ 'Robert Wallius'  => 'wallius@rit.se'           ],
-    yens    => [ 'Yens Wahlgren'   => 'yenswahlgren@hotmail.com' ],
-    zrajm   => [ 'Zrajm C Akfohg'  => 'zrajm@klingonska.org'     ],
+    bkhl    => '<a href="mailto:bkhl@elektrubadur.se">Björn Lindström</a>',
+    markus  => '<a href="mailto:mp@klingonska.org">Markus Persson</a>',
+    wallius => '<a href="mailto:wallius@rit.se">Robert Wallius</a>',
+    yens    => '<a href="mailto:yenswahlgren@hotmail.com">Yens Wahlgren</a>',
+    zrajm   => '<a href="mailto:zrajm@klingonska.org">Zrajm C Akfohg</a>',
 );
 
 my $lang = "en";
 my %string = (
-    toc     => { en => "Contents",      sv => "Innehåll"        },
-    prev    => { en => "Previous Page", sv => "Föregående sida" },
-    next    => { en => "Next Page",     sv => "Nästa sida"      },
-    changed => { en => "Updated",       sv => "Uppdaterad"      },
+    changed => { en => "Updated", sv => "Uppdaterad" },
     month => {
         en => sub {
             my ($year, $month, $day, $hour, $minute) = @_;
-            $day =~ s/^0+//;
             my @month = qw(
                 January   February  March      April    May       June
                 July      August    September  October  November  December
@@ -70,7 +58,6 @@ my %string = (
         },
         sv => sub {
             my ($year, $month, $day, $hour, $minute) = @_;
-            $day =~ s/^0+//;
             my @month = qw(
                 januari   februari  mars       april    maj       juni
                 juli      augusti   september  oktober  november  december
@@ -123,10 +110,10 @@ BEGIN {
 
 # CAVEAT: short opts cannot be bundled
 # (Comments displayed by "--help" begin with "##".)
-my %cfg = ( output => -t STDOUT ? "%.html" : "-" );
+my %cfg = ( output => -t STDOUT ? "%.html" : "-", template => 1 );
 {
     (my $bin = $0) =~ s{^.*/}{};
-    ## Usage: markdown2html [OPTION]... FILE... [DIR]
+    ## Usage: markdown2html [OPTION]... FILE...
     ## Generate HTML file(s) from MultiMarkdown source in FILE(s).
     ##
     my ($bad, @unparsed) = (0, ());
@@ -135,16 +122,14 @@ my %cfg = ( output => -t STDOUT ? "%.html" : "-" );
         m/^--$/ and last;
         m/^(--[^=]+)=(.*)$/ and do { $_ = $1; unshift @ARGV, $2 }; # longopt arg
         m/^(-[^-])(.+)$/    and do { $_ = $1; unshift @ARGV, $2 }; # shortopt arg
-        ##   -b, --base=DIR       root path (used for breadcrumb generation etc.)
+        ##   -b, --base=DIR     root path (used for breadcrumb generation etc.)
         m/^(-b|--base)$/ and do { $cfg{rootpath} = shift; next };
-        ##   -h, --help           display this help and exit
+        ##   -h, --help         display this help and exit
         m/^(-h|--help)$/ and do { help(); exit 0 };
-        ##   -o, --output=FILE    output filename (default: %.html, '-' if piped)
+        ##   -o, --output=FILE  output filename (default: %.html, '-' if piped)
         m/^(-o|--output)$/ and do { $cfg{output} = shift; next };
-        ##   -T, --no-template    suppress page template for header/footer
+        ##   -T, --no-template  suppress page template for header/footer
         m/^(-T|--no-template)$/ and do { $cfg{template} = ""; next };
-        ##   -t, --template=FILE  output filename (default: %.html, '-' if piped)
-        m/^(-t|--template)$/ and do { $cfg{template} = shift; next };
         # ADD OPTS HERE
         /^-/ and do { warn "$bin: unknown option '$_'\n"; $bad++; next };
         push @unparsed, $_;
@@ -266,6 +251,7 @@ sub help {
     # TRUE otherwise.
     sub metadata(\%\@) {
         my ($hashref, $arrayref) = @_;
+        #use feature "switch";
         my ($field, $count) = ("", 0, 0);
         foreach (@$arrayref) {
             $count ++;
@@ -371,27 +357,6 @@ sub help {
         return $input;
     }
 
-    # Usage: $OUTPUT = process_xml(\&CODEREF, [$INPUT]);
-    #
-    # INPUT is assumed to in HTML or XML format. Each string of plain text in
-    # INPUT is passed along CODEREF and replaced by the return value therefrom.
-    # Plain text is all text not found inside any <...> + the values of any
-    # attribute inside such tags.
-    #
-    # The contents of <style>...</style> and <script>...</script> tags is also
-    # left unprocessed.
-    #
-    # If $INPUT is not provided, $_ is used.
-    sub process_xml_except_args {
-        die "1st argument must be code reference" unless ref($_[0]) eq "CODE";
-        my ($coderef, $input) = (@_, $_);
-        $input =~ s{ ([^<]*) (<(style|script)\b[^>]*>.*?</\3>|<[^>]*?>)? }{
-            my ($text, $tag) = ($1, $2 || "", $4);
-            &$coderef($text) . $tag;
-        }gsex;
-        return $input;
-    }
-
     sub markdown {
         my ($self, $hashref) = @_;
         local $_ = $$hashref{text};
@@ -401,10 +366,9 @@ sub help {
 
         # parse with multimarkdown
         my $obj = new Text::MultiMarkdown(
-            empty_element_suffix => '>',
-            strip_metadata       => '',
-            tab_width            => 4,
-            use_metadata         => '',
+            use_metadata   => '',
+            strip_metadata => '',
+            tab_width      => 4,
         );
         $_ = $obj->markdown($_);
 
@@ -418,7 +382,7 @@ sub help {
         s{ \s* <thead> \s* </thead> }{}gix;
         s{ \s* <col \s* /> }{}gix;
 
-        # remove whitspace in empty <td> cells
+        # clear away whitspace inside empty <td> cells
         s{(<td\b[^>]*>) \s+ (</td>)}{$1$2}gix;
 
         # clean up headline "id" attribute
@@ -435,82 +399,70 @@ sub help {
             $attr =~ s{ id="[^"]*" }{id="$name"}xi;
             "<$h $attr>$cont</$h>"
         }gixme;
+
         return $_;
     }
 
-    # Usage: $obj->process_file(sourcefile => FILE, sourcedate => EPOCH[, template => HTMLFILE]);
+    # Usage: $obj->process_file($FILE, $TEMPLATE_FILE);
     #
     # Process named $FILE, applying the $TEMPLATE_FILE and return processed
     # result as a string.
     sub process_file {
-        my ($self, %meta) = @_;
-        my @text = read_file($meta{sourcefile});
+        my ($self, $file, $template_file) = @_;
+        $file = realpath($file);
+        my @text = read_file($file);
+        my %meta = (
+            filename => $file,
+            filedate => (stat($file))[9],
+        );
         metadata(%meta, @text) or exit 5;
 
         $meta{text} = join("", @text);
-
-        # FIXME: shouldn't find ISO dates inside <time>...</time> tags
-        $meta{text} = process_xml_except_args(sub {
-            my $_ = shift;
-            s{(K-E|E-K)}{<span class="nobr">$1</span>}g;
-            s{\b(?:19|20)\d{2}(-\d{2}-\d{2})?\b}{         # ISO date
-                defined($1)
-                    ? '<time class="nobr">' . $& . '</time>'
-                    : '<time>' . $& . '</time>';
-            }gex;
-            s{\{(.*?)\}}{<b lang="tlh">$1</b>}gs;          # {...} marks klingon
-            s{<b lang="tlh">(.*?)</b>}{
-                my ($_)  = $1;
-                my $xtra = (/^-[a-zA-Z']+$/ or /^[a-zA-Z']-$/) ? ' class="nobr"' : '';
-                s/'/&#8217;/g;
-                '<b lang="tlh"' . ($xtra ? $xtra : "") . '>' . $_ . '</b>';  # FIXME hyphenate words here
-            }ges;
-            return $_;
-        }, $meta{text});
         $meta{text} = $self->markdown(\%meta);
 
+
+
         my $page = "";
-        if (defined($meta{template})) {
-            $page = join("", read_file($meta{template}));
+        if (defined($template_file)) {
+            $page = join("", read_file($template_file));
             $page = $self->process_template($page, %meta);
         } else {
             $page = $self->process_template($meta{text}, %meta);
         }
 
-        sub replace {
-            my $_ = shift;
-            # quote replacement -- FIXME: should distinguish between 'lang="en"' and 'lang="sv"'
-            my %repl = (
-                # typographical quotes
-                # #s#"\b#&ldquo;#g;  # english only
-                '"'   => '&rdquo;',
-                # #s#"\b#&lsquo;#g;  # english only (not in Klingon!)
-                "'"   => '&rsquo;',
-            );
-            s/['"]/$repl{$&}/g;
-
-            s{(?<!-)(---?)(?!-)}{                         # typographical en- and em-dashes
-                $1 eq '--' ? '&ndash;' : '&mdash;';
-            }ge;
-            return $_;
-        };
-        return process_xml(\&replace, $page);
+        my %repl = (
+            # typographical quotes
+            # #s#"\b#&ldquo;#g;  # english only
+            '"'   => '&rdquo;',
+            # #s#"\b#&lsquo;#g;  # english only (not in Klingon!)
+            "'"   => '&rsquo;',
+            # {...} marks klingon
+            '{'   => '<b lang="tlh">',
+            '}'   => '</b>',
+            # typographical en- and em-dashes
+            '--'  => '&ndash;',
+            '---' => '&mdash;',
+        );
+        my $re = join("|", map { quotemeta $_ } sort { length($b) <=> length($a) } keys %repl);
+        return process_xml(
+            sub {
+                my $_ = shift;
+                s#($re)#$repl{$1}#g;
+                return $_;
+            }, $page);
     }
 
     sub process_template {
         my ($self, $text, %meta) = @_;
-        $text =~ s{ (\h*) <!--(.*?)--> (\n?) }{
-            my ($indent, $include, $newline) = ($1, $2, $3);
-            if (exists($code{$include})) {
-                my @out = &{ $code{$include} }($self, %meta);
-                join("\n", map { "$indent$_" } @out) . (@out ? $newline : "");
-            } else {
-                $&;
-            }
+        $text =~ s{ <!--(.*?)--> \n? }{
+            exists($code{$1}) ?
+                &{$code{$1}}($self, %meta) : $&;
         }gexs;
         return $text;
     }
+
 }
+
 
 sub FALSE { "" }
 sub TRUE  { 1  }
@@ -559,18 +511,16 @@ sub get_crumbs {
         push(@crumb, $file)
             unless $file =~ m#^index\.(html|txt)$#;
     }
-    my $i = 0;
-    return map {
+    my @x = map {
         # FIXME should error if page_title() return undef
         my $file = $_;
         -e "$rootpath/$file" or $file =~ s/\.html$/.txt/;
 
         my $title = ($_ =~ /^index.(txt|html)$/) ? "Home" : file_title("$rootpath/$file");
         s#(?:^|(?<=/))index\.(?:html|txt)$##;
-        '<a href="' . ($base_url || "") . $_ . '"'
-            . (($i++ == $#crumb) ? ' itemprop="url"' : '')
-            . '>' . $title . '</a>';
+        '<a href="' . ($base_url || "") . $_ . '">' . $title . '</a>';
     } @crumb;
+    return @x;
 }
 
 # Usage: $TITLE = file_title($HTMLFILE);
@@ -635,41 +585,24 @@ sub find_include_file {
     use File::Spec;
     my ($vol, $dirs) = File::Spec->splitpath($basefile);
     my @dir = File::Spec->splitdir($dirs);
-    my $glob = ($relfile =~ /\*/) ? TRUE : FALSE;
     while (@dir) {
         my $absfile = File::Spec->catpath(
             $vol, File::Spec->catdir(@dir), $relfile
         );
-        if ($glob) {
-            my @file = glob($absfile);
-            return $file[0] if @file;
-        } else {
-            return $absfile if -e $absfile;
-        }
+        return $absfile if -e $absfile;
         pop @dir;
     }
-    die "Failed to find include file '$relfile' for '$basefile'";
+    die "couldn't find include file \"$relfile\" for \"$basefile\"";
 }
 
 sub page_meta {
-    my ($self, %meta) = @_;
-    return () unless $meta{desc};
-    return '<meta name="description" content="' . $meta{desc} . '">';
-}
-
-sub page_modernizr {
-    my ($self, %meta) = @_;
-    return
-        '<script src="' . rel_filename(
-            find_include_file("includes/modernizr-*.js", $meta{targetfile}),
-            $meta{targetfile},
-        ) . '"></script>';
+    return "";
 }
 
 # return page url
 sub page_url {
     my ($self, %meta) = @_;
-    my ($file, $root) = ($meta{sourcefile}, $meta{sourcebase});
+    my ($file, $root) = ($meta{filename}, $self->{rootpath});
     for ($file) {
         s#^\Q$root\E(?:/|$)##;
         s#\.[^/.]{1,4}$#.html#; # replace any extension with '.html'
@@ -680,79 +613,72 @@ sub page_url {
 
 sub page_crumbs {
     my ($self, %meta) = @_;
-    my @crumb = get_crumbs(
-        $meta{sourcefile},
-        "http://klingonska.org/",
-        $meta{sourcebase},
-    );
-    $_ .= " &#8250;" foreach @crumb[0..$#crumb-1];
-    return @crumb;
+    return join(" &gt;\n    ",
+        get_crumbs(
+            $meta{filename},
+            "http://klingonska.org/",
+            $self->{rootpath},
+        )
+    ) . "\n";
 }
 
 sub page_css {
     my ($self, %meta) = @_;
-    my @css_file = map {
-        "includes/$_.css"
-    } 'base', ($meta{css}              # always include base stylesheet
-        ? split(/\s+/, $meta{css})     # user override defaults
-        : ()
-    );
-    return map {
-        '<link rel="stylesheet" href="' .
+    my @stylesheet = $meta{css}
+        ? map { "includes/$_.css" } split(/\s+/, $meta{css})
+        : (
+            "includes/page.css",
+            "includes/pagestats.css",
+        );
+    return join "", map {
+        '<link rel="stylesheet" type="text/css" href="' .
         rel_filename(
-            find_include_file($_, $meta{targetfile}),
-            $meta{targetfile},
-        ) . '">';
-    } @css_file;
+            find_include_file($_, $meta{filename}),
+            $meta{filename},
+        ) . '" />' . "\n";
+    } @stylesheet;
 }
 
 # return time in "2009-12-31, 24:59" format
-sub page_changed {
+sub page_date {
     my ($self, %meta) = @_;
-    #<time pubdate itemprop="dateModified" datetime="2012-05-13 02:56+0200">May 13, 2012</time>
-    use Date::Format;
-    use Date::Parse;
-    die "Missing 'updated' metadata field in file '$meta{sourcefile}'\n"
-        unless $meta{updated};
-    my $epoch = str2time($meta{updated})
-        or die "Failed to parse 'updated' field in file '$meta{sourcefile}'\n";
-    my $time = time2str("%Y-%m-%d %H:%M%z", $epoch);
-    return $string{changed}{$lang}
-        . ' <time pubdate itemprop="dateModified" datetime="' . $time . '">'
-        . &{ $string{month}{$lang} }(split /[-: ]|(?=[-+]\d{4}$)/, $time)
-        . '</time>';
-}
-
-sub page_logoka {
-    my ($self, %meta) = @_;
-    my $file = find_include_file("pic/ka.gif", $meta{sourcefile});
-    $file    = rel_filename($file, $meta{sourcefile});
-
-    # FIXME "width" and "height" should be read from the image itself
-    my $img  = '<img src="' . $file . '" width="600" height="176" ' .
-        'alt="Klingonska Akademien">';
-
-    # output file is root index.html
-    if ($meta{sourcefile} =~ m#^\Q$meta{sourcebase}\E/index\.(html|txt)$#) {
-        return $img;
-    }
-    return '<a href="' . page_logolink($self, %meta) . "\">$img</a>";
+    my ($sec, $minute, $hour, $day, $month, $year) =
+        localtime($meta{filedate});
+    $year  += 1900;
+    $month ++;
+    #<time pubdate datetime="2008-09-21T16:34">September 21, 2008</time>
+    return $string{changed}{$lang} .
+        ' <time pubdate datetime="' .
+            sprintf(
+                "%04d-%02d-%02dT%02d:%02d",
+                $year, $month, $day, $hour, $minute
+            ) . '">' .
+        &{$string{month}{$lang}}($year, $month, $day, $hour, $minute) .
+        "</time>\n";
 }
 
 # if index.html point to previous dir
 # otherwise point to this dir
 sub page_logolink {
     my ($self, %meta) = @_;
-    return ".." if $meta{sourcefile} =~ m#(?:^|(?<=/))index.[^/.]*$#;
+    return ".." if $meta{filename} =~ m#(?:^|(?<=/))index.[^/.]*$#;
     return ".";
 }
 
-sub page_logosrc {
+sub page_logoka {
     my ($self, %meta) = @_;
-    return rel_filename(
-        find_include_file("pic/ka-logo.svg", $meta{targetfile}),
-        $meta{targetfile},
-    );
+    my $file = find_include_file("pic/ka.gif", $meta{filename});
+    $file    = rel_filename($file, $meta{filename});
+
+    # FIXME "width" and "height" should be read from the image itself
+    my $img  = '<img src="' . $file . '" width="600" height="176" ' .
+        'alt="Klingonska Akademien">';
+
+    # output file is root index.html
+    if ($meta{filename} =~ m#^\Q$self->{rootpath}\E/index\.(html|txt)$#) {
+        return $img;
+    }
+    return '<a href="' . page_logolink($self, %meta) . "\">$img</a>";
 }
 
 sub page_year {
@@ -760,14 +686,7 @@ sub page_year {
     return "MISSING YEAR" unless exists($meta{year});
     my $year = $meta{year};
     for ($year) {
-        {
-            my $first = ' itemprop="copyrightYear"';
-            s{ (\b\d{4}\b) }{
-                my $x = "<time$first>$1</time>";
-                $first = "";
-                $x;
-            }gex;
-        }
+        s#(\d{4})#<time>$1</time>#g;
         s#(?<!-)-{1,2}(?!-)#&ndash;#g;
     }
     return $year;
@@ -777,14 +696,16 @@ sub page_author {
     my ($self, %meta) = @_;
     return "MISSING AUTHOR" unless exists($meta{author});
     my @author = map {
-        exists($author{$_})
-            ? '<a href="mailto:' . $author{$_}[1]
-                . '" rel="author" itemprop="author">'
-                . $author{$_}[0] . '</a>'
-            : $_;
-    } split(/,\s*/, $meta{author});
-    $_ .= " &amp;" foreach @author[0..$#author-1];
-    return @author;
+        "<span class=\"author\">" .
+            (exists($author{$_}) ? $author{$_} : $_) .
+            "</span>";
+    } sort split(/,\s*/, $meta{author});
+    if (@author >= 2) {
+        my $last = pop(@author);
+        $author[-1] = join(" &amp; ", $author[-1], $last);
+    }
+    my $credit = join(", ", @author);
+    return $credit;
 }
 
 # Page title should be:
@@ -796,7 +717,7 @@ sub page_title {
     my ($self, %meta) = @_;
     my @title = ();
     push(@title, $meta{title}) if exists $meta{title};
-    if ($meta{sourcefile} !~ m#(?:^|/)index.txt$#) {
+    if ($meta{filename} !~ m#(?:^|/)index.txt$#) {
         if ($meta{text} =~ m#^\s*<h1\b[^<>]*>(.*)</h1>#i) {
             my $_ = $1;
             s#\s*<span\b[^<>]*>.*?</span>##gx;
@@ -830,14 +751,14 @@ sub page_toc {
     # FIXME: should combine title metadata field with first header in text
     my ($self, %meta) = @_;
     my $li_open = FALSE;
-    (my $dir = $meta{sourcefile}) =~ s#/*[^/]*$##;
+    (my $dir = $meta{filename}) =~ s#/*[^/]*$##;
 
     my $depth = 0;
     my $prev_depth = 0;
 
     my $toc .= qq{<div class="toc">\n};
     for my $file (glob("$dir/*.txt")) {
-        next if realpath($file) eq realpath($meta{sourcefile});
+        next if realpath($file) eq realpath($meta{filename});
 
         my $count   = 0;
         my $text    = read_file($file);
@@ -907,59 +828,39 @@ sub page_toc {
 sub page_header {
     # FIXME: should find headerfile relative to the processed file's name
     my ($self, %meta) = @_;
-    my $text = read_file(
-        find_include_file("includes/header.html", $meta{sourcefile})
-    );
-    my @text = split(/\n/, $self->process_template($text, %meta));
-
-
-    # output file is root index.html
-    if ($meta{sourcefile} =~ m#^\Q$meta{sourcebase}\E/index\.(html|txt)$#) {
-        return @text;
-    }
-    return '<a href="' . page_logolink($self, %meta) . '/">',
-        (map { "  $_" } @text),
-        '</a>';
+    my $text = read_file(find_include_file("includes/header.html", $meta{filename}));
+    return $self->process_template($text, %meta);
 }
 
-sub urlify {
-    my ($_) = @_;
-    return $_ if m#/$#;
-    return "$_/" if m#\.$#;
-    return "$_.html";
-}
-
-# Metadata fields 'prev', 'next' and 'toc' (for 'table-of-contents')
 sub page_prevnext {
     my ($self, %meta) = @_;
-    my @link = map {
-        exists($meta{$_})
-            ? '<a href="' . urlify($meta{$_}) . '">' . $string{$_}{$lang} . '</a>'
-            : ();
-    } qw/prev toc next/;
-    return @link
-        ? ('<p class="prevnext">', map("    $_", @link), '</p>')
-        : ();
+    return "" if $meta{filename} =~ m#/index.[^/.]*$#;
+    return "" unless exists($meta{prev}) or exists($meta{next});
+    my @x = ();
+    push @x, qq{<a href="$meta{prev}.html">&larr;</a>} if exists $meta{prev};
+    push @x, qq{<a href=".">Innehåll</a>};
+    push @x, qq{<a href="$meta{next}.html">&rarr;</a>} if exists $meta{next};
+    return "" unless @x;
+    return "\n" .
+        join("\n", '<p class="prevnext">', map("    $_", @x), '</p>',) .
+        "\n\n";
 }
 
 sub page_script {
     my ($self, %meta) = @_;
-    return map {
-        '<script src="' . rel_filename(
-            find_include_file("includes/$_.js", $meta{sourcefile}),
-            $meta{sourcefile},
-        ) . '"></script>';
-    } 'titlewrap', (
-        $meta{script}
-            ? split(/\s+/, $meta{script})
-            : ()
-    );
+    return join "", map {
+        "<script src=\"" .
+        rel_filename(
+            find_include_file("includes/$_.js", $meta{filename}),
+            $meta{filename},
+        ) . "\"></script>\n";
+    } split(/\s+/, $meta{script} // "");
 }
 
 sub page_footer {
     # FIXME: should find headerfile relative to the processed file's name
     my ($self, %meta) = @_;
-    my $text = read_file(find_include_file("includes/footer.html", $meta{sourcefile}));
+    my $text = read_file(find_include_file("includes/footer.html", $meta{filename}));
     return $self->process_template($text, %meta);
 }
 
@@ -971,19 +872,14 @@ sub page_main {
 sub read_file {
     my ($file) = @_;
     local $/ = undef unless wantarray;
-    open my $in, "<", $file or die "Failed to open file '$file' for reading: $!\n";
-    return <$in>            or die "Failed to read file '$file': $!\n";
+    open my $in, "<", $file or die "Can't open file '$file' for reading: $!\n";
+    return <$in>            or die "Can't read file '$file': $!\n";
 }
 
 sub write_file {
     my ($file, $data) = @_;
-    if (defined($file) and $file !~ /^-?$/) {
-        open my $out, ">", $file or die "Failed to open file '$file' for writing: $!\n";
-        print $out $data         or die "Failed to write to file '$file': $!\n";
-        close($out)              or die "Failed to close file '$file' after writing: $!\n";
-    } else {
-        print $data              or die "Failed to write to standard output: $!\n";
-    }
+    open my $out, ">", $file or die "Can't open file '$file' for writing: $!\n";
+    print $out $data         or die "Can't write to file '$file': $!\n";
     return 1;
 }
 
@@ -995,24 +891,35 @@ sub write_file {
 ###############################################################################
 
 # init "language"
-my $obj = new HTML::Template::KA(rules => \%code);
+my $obj = new HTML::Template::KA(
+    rules    => \%code,
+    rootpath => $cfg{rootpath},
+);
+
+#print "$_ => ".$obj->get($_)."\n" foreach($obj->get());
+#my %x = %{$obj->get("rules")};
+#foreach (keys %x) {
+#    print "$_ = $x{$_}\n";
+#}
 
 foreach my $file (@ARGV) {
     (my $outfile = $file) =~ s/$cfg{strip}/$cfg{add}/;
-    print "HTMLifying '$file' -> '$outfile'\n" if $outfile;
+    print "Processing '$file' -> '$outfile'\n" if $outfile;
+    my $template_file = find_include_file("includes/template.html", $file);
 
-    my $data = $obj->process_file(
-        targetfile => realpath($outfile),
-        sourcebase => realpath($cfg{rootpath}),
-        sourcedate => (stat($file))[9],
-        sourcefile => realpath($file),
-        ($cfg{template}
-             ? (template => find_include_file($cfg{template}, $file))
-             : ()
-         ),
-    );
+    my $data = do {
+        if ($cfg{template}) {
+            $obj->process_file($file, $template_file);
+        } else {
+            $obj->process_file($file);
+        }
+    };
 
-    write_file($outfile, $data);
+    if ($outfile) {
+        write_file($outfile, $data);
+    } else {
+        print $data;
+    }
 }
 
 #[eof]
