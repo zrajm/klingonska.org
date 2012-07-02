@@ -29,34 +29,34 @@ css: banner
     archive. This is an attempt at creating an archive of all existing
     Okrandian canon. (A copy of Marc Okrand's <i>The Klingon Dictionary</i> is
     required to access transcriptions from the books and
-    tapes.) <small>[Changed <time>2007-08-17</time>]</small>
+    tapes.) <small>[Updated 2007-08-17]</small>
   </dd>
 
   <dt><a href="dict/">Klingon Pocket Dictionary</a> (online version)</dt>
   <dd>Now completely re-written to reflect the status of my pocket dictionary.
     Come on in and take a look, you'll like
-    it! <small>[Changed <time>2007-08-06</time>]</small>
+    it! <small>[Updated 2007-08-06]</small>
   </dd>
 
   <dt><a href="errors.html">Errors in Okrandian Sources</a></dt>
   <dd>What errors are there in the <i>The Klingon Dictionary</i>? In the rest
     of the books? On the audio cassettes? And in the dialogue of the movies?
     When in doubt, check this list of known
-    errors. <small>[Changed <time>2007-07-15</time>]</small>
+    errors. <small>[Updated 2007-07-15]</small>
   </dd>
 
   <dt><a href="qq/">{Qo'noS QonoS} -- <i>The Kronos Journal</i></a></dt>
   <dd>KLI's online journal in Klingon. This is taken directly from the web page
     of <i>The Klingon Language Institute</i> and only slightly modified for
     better looking printouts. (With links back to the original page, of
-    course.) <small>[Changed <time>2007-07-15</time>]</small>
+    course.) <small>[Updated 2007-07-15]</small>
   </dd>
 
   <dt><a href="songs/">Songs in Klingon</a></dt>
   <dd>These are the lyrics for a few songs that I've heard (most of them at the
     {qep'a' SochDIch}). Hopefully I will be able to add musical notes and/or
     recordings of these songs to this section sometime
-    soon. <small>[Changed <time>2007-07-15</time>]</small>
+    soon. <small>[Updated 2007-07-15]</small>
   </dd>
 
   <dt><a href="piqad/">{pIqaD}, And How to Read It</a>
@@ -65,28 +65,26 @@ css: banner
     Klingon text to see it in {pIqaD}. An article about the Klingon alphabet
     and numbers, with pronounciation and orthography. (Punctuation and
     handwriting is not yet
-    covered.) <small>[Changed <time>2007-08-17</time>]</small>
+    covered.) <small>[Updated 2007-08-17]</small>
   </dd>
 
   <dt><a href="piqadpic.html">Some Pictures of {pIqaD}</a></dt>
   <dd>Pictures of interest. Paramount's version of {pIqaD}, a {pIqaD}
     typography example and a few examples of {pIqaD}
-    handwriting. <small>[Changed <time>2007-07-15</time>]</small>
+    handwriting. <small>[Updated 2007-07-15]</small>
   </dd>
 
-  <dt><a href="punct.html">Punctuation Marks in Okrandian Canon</a>
-    (and <a href="punct2.html">Klingon Punctuation Marks</a>)</dt>
-  <dd>An attempt at analysing Marc Okrand's use of punctuation
-    when writing Klingon and translations thereof. I've
-    practically ceased working on both of these articles, but maybe,
-    some day... <small>[Changed <time>2007-07-15</time>]</small>
+  <dt><a href="punct.html">Punctuating Klingon</a></dt>
+  <dd>An attempt at analysing the use of punctuation marks in Okrandian
+    Klingon, and a description of punctuation for
+    {pIqaD}. <small>[Updated 2012-07-02]</small>
   </dd>
 
   <dt>Quick References</dt>
   <dd>These guides can to help you through some different aspects of
     the Klingon language. Each one gives some short, but useful
     information about a specific
-    topic. <small>[Changed <time>2007-07-15</time>]</small>
+    topic. <small>[Updated 2007-07-15]</small>
     <table class="noborder"><tr>
       <td><dl class="navigation">
           <dt><a href="ref/ovs.html">Subjects and Objects</a></dt>
@@ -107,14 +105,14 @@ css: banner
   <dd>The sayings from the TKW here presented
     in {pIqaD} with translations and
     page references to the original book (warning: ~280Kb
-    file). <small>[Changed <time>2007-07-15</time>]</small>
+    file). <small>[Updated 2007-07-15]</small>
   </dd>
 
   <dt><a href="links.html">Links to Other Pages About the Klingon
     Language</a></dt>
   <dd>Pages that I have found when looking
     for {tlhIngan Hol} material on the
-    web. <small>[Changed <time>2007-07-15</time>]</small>
+    web. <small>[Updated 2007-07-15]</small>
   </dd>
 </dl>
 
@@ -131,14 +129,14 @@ css: banner
   <dt><a href="akademien/">Om <i>Klingonska Akademien</i></a></dt>
   <dd>Här hittar du samt beskrivningar av aktiviteter vi deltagit i och ordnat,
     lite propaganda och en historia (i bilder) om vår
-    logo. <small>[Ändrad <time>2007-07-15</time>]</small>
+    logo. <small>[Uppdaterad 2007-07-15]</small>
   </dd>
 
   <dt><a href="lista.html">Klingonska Akademiens epostlista</a></dt>
   <dd>Här får du reda på hur du går med på Klingonska Akademiens
     epostlista, men du får också reda på de riktlinjer som gäller för
     listan, och lite annan matnyttig
-    information. <small>[Ändrad <time>2007-08-04</time>]</small>
+    information. <small>[Uppdaterad 2007-08-04]</small>
   </dd>
 
   <dt><a href="uttal.html">En svensk guide till det klingonska uttalet</a></dt>
@@ -146,12 +144,12 @@ css: banner
     ifrån TKDs uttalsbeskrivning och försvenskat den en
     aning. Dessvärre har jag inte kommit så långt, men lite hjälp
     med {tlh} finns
-    iaf. <tt>=|:-)</tt> <small>[Ändrad <time>2007-08-17</time>]</small>
+    iaf. <tt>=|:-)</tt> <small>[Uppdaterad 2007-08-17]</small>
   </dd>
 
   <dt><a href="lektioner/">Lektionsmaterial till studiecirkeln</a></dt>
   <dd>Här finns det lektionsmaterial som vi använder oss av under
-    studiecirkeln. <small>[Ändrad <time>2007-07-15</time>]</small>
+    studiecirkeln. <small>[Uppdaterad 2007-07-15]</small>
   </dd>
 
   <dt><a href="klo/">Projekt "Klingonsk ordbok" (KLO)</a></dt>
@@ -159,7 +157,7 @@ css: banner
     Dictionary</i> (TKD) med bl.a. svenska uttalsexempel och innehållande det
     material som tillkommit efter TKDs utgivande. Här finns också några tillägg
     bl.a. i form av en annorlunda affixguide för att hjälpa dig på vägen.
-    <small>[Ändrad <time>2007-07-15</time>]</small>
+    <small>[Uppdaterad 2007-07-15]</small>
   </dd>
 </dl>
 

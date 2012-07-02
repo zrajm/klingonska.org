@@ -359,6 +359,16 @@ header {
             /* padding: 0; */
         }
     }
+    /* for Markdown generated footnotes */
+    a.footnote:before { content: "["; }
+    a.footnote:after  { content: "]"; }
+    a.footnote {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline;
+        top: -.5em;
+    }
 } /* <... role="main"..> */
 
 

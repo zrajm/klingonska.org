@@ -136,7 +136,7 @@ Priorities:
       New make target 'make publish' for publishing the site to HCoop.
 ***** DONE Add README.md for GitHub
       CLOSED: [2012-06-20 Wed 15:30]
-**** [50%] Add new look to all pages (except {paqHom} and KLO for now)
+**** [46%] Add new look to all pages (except {paqHom} and KLO for now)
 ***** DONE <script>...</script> blocks should not be parsed for markdown
       CLOSED: [2012-06-26 Tue 02:45]
       E.g. `/download.html`.
@@ -181,7 +181,7 @@ Priorities:
       are incorporated into the KLO pages. Old stuff is just an annoyance to
       maintain. (And, even after removal, would still be available in the git
       repo, if anyone *really* cared.)
-***** [25%] Convert all pages to new HTML template
+***** [27%] Convert all pages to new HTML template
       Thereby centralizing the page header/footer etc. `bin/markdown2html` is
       the tool used for this, except for files in /dict/, which uses `parse`.
       Unifying these two tools into one will become a later issue, though.
@@ -230,8 +230,11 @@ Priorities:
        CLOSED: [2012-07-02 Mon 05:02]
 ****** DONE `piqadpic.html`
        CLOSED: [2012-07-02 Mon 05:39]
-****** TODO `punct.html`
-****** TODO `punct2.html`
+****** DONE `punct.html`
+       CLOSED: [2012-07-02 Mon 19:12]
+****** DONE `punct2.html`
+       CLOSED: [2012-07-02 Mon 19:13]
+       This was merged into the `punct.html` page.
 ****** TODO `tkw.html`
 ****** TODO `uttal.html`
 ****** TODO `canon/1993-sbx-99.html`
@@ -343,6 +346,7 @@ Priorities:
       'template.html' + 'markdown2html' should insert 'lang' into <body> tag
 
       There is already a markdown metadata field 'lang' intended for this.
+***** TODO The word "Updated" + date should be in Swedish on Swedish pages
 ***** TODO Optimize images
       This page seems to be a good starting point
       https://github.com/h5bp/html5-boilerplate/wiki/Using-PNG
@@ -358,6 +362,20 @@ Priorities:
      "The one-shop-stop for all you Klingon language needs."?
      "Klingon language reference tools since 1998."?
 **** TODO Minor tweaks (low priority)
+***** TODO Add info on "deciphered" text on skybox
+      See email (has pictures, description of how etc).
+      https://mail.google.com/mail/u/0/#search/the+downturned+version+as+comma./fd30b1121c986f7
+***** TODO Automatic building of Table-of-Contents for longer articles
+      `punct.html` could benefit from this (currently has quite an ugly <ul>
+      with 'class="toc"' and some inline styles.
+
+      Right now <!--TOC--> exists, but only works for KLO. It should be a
+      standardized plugin kinda thing, which extracts info from markdown (or
+      HTML) headlines.
+***** TODO How to treat images wider than line width?
+      `piqadpic.html` has some examples of this. Should images be resized to
+      fit? It would be nice if they could come closer to the page margin than
+      the ordinary text (when need be).
 ***** TODO Check & set 'title' and 'alt' tags according to standard
       What should they contain? Add appropriate stuff for screen readers and
       text browser.
@@ -2138,6 +2156,10 @@ Priorities:
 * Build/check tools
 ** TODO Replace 'includes/sorttable.js' with something that can be minified
    It should also pass JSLint.
+
+   Note that some files (e.g. `punct.html` uses sorttable's
+   "sorttable_customkey" attribute, which will probably have to be rewritten if
+   `sorttable.js` is replaced.
 ** HTML preview tool for pocket dictionary (usr/bin/dict2paqhom-html)
 *** TODO Take input on STDIN instead of file
 *** TODO Join source references between sub-entries in pocket dict(?)
