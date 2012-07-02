@@ -50,14 +50,14 @@ copied_targets = \
 # Each of these results in one published HTML file.
 html_targets =                                    \
     $(patsubst $(source_dir)/%.txt,$(publish_dir)/%.html, \
-        $(wildcard                              \
-            $(source_dir)/*.txt                 \
-            $(source_dir)/akademien/*.txt       \
-            $(source_dir)/akademien/foton/*.txt \
-            $(source_dir)/akademien/logo/*.txt  \
-            $(source_dir)/canon/index.txt       \
-            $(source_dir)/dict/*.txt            \
-            $(source_dir)/klo/*.txt             \
+        $(wildcard                               \
+            $(source_dir)/*.txt                  \
+            $(source_dir)/akademien/*.txt        \
+            $(source_dir)/akademien/photos/*.txt \
+            $(source_dir)/akademien/logo/*.txt   \
+            $(source_dir)/canon/index.txt        \
+            $(source_dir)/dict/*.txt             \
+            $(source_dir)/klo/*.txt              \
     ))
 
 css_targets =                                               \

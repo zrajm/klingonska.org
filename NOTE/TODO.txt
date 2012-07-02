@@ -136,7 +136,7 @@ Priorities:
       New make target 'make publish' for publishing the site to HCoop.
 ***** DONE Add README.md for GitHub
       CLOSED: [2012-06-20 Wed 15:30]
-**** TODO Add new look to all pages (except {paqHom} and KLO for now)
+**** [50%] Add new look to all pages (except {paqHom} and KLO for now)
 ***** DONE <script>...</script> blocks should not be parsed for markdown
       CLOSED: [2012-06-26 Tue 02:45]
       E.g. `/download.html`.
@@ -288,10 +288,14 @@ Priorities:
 ****** TODO `lektioner/text/artikel1kli.html`
 ****** TODO `lektioner/text/artikel1sve.html`
 ****** TODO `lektioner/text/dialog.html`
-***** TODO Rename files/dirs in `http://klingonska.org/akademien/`
-****** TODO Rename `akademien/foton` -> `akademien/photos`
-****** TODO Rename `akademien/foton/index2` -> `akademien/foton/2`
-****** TODO Add all relevant HCoop redirect from old to new pages
+***** DONE Rename files/dirs in `http://klingonska.org/akademien/`
+      CLOSED: [2012-07-02 Mon 03:49]
+****** DONE Rename `akademien/foton` -> `akademien/photos`
+       CLOSED: [2012-07-02 Mon 03:49]
+****** DONE Rename `akademien/foton/index2` -> `akademien/foton/2`
+       CLOSED: [2012-07-02 Mon 03:49]
+****** DONE Add all relevant HCoop redirect from old to new pages
+       CLOSED: [2012-07-02 Mon 03:49]
 ***** TODO Breadcrumbs should handle {...} notation in title
       Example of this not looking so good:
 
