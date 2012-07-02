@@ -1,0 +1,41 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use 5.10.0;
+use Data::Dumper;
+
+if (not @ARGV) {
+    print <<EOF;
+Usage: $0 STRING...
+Outputs sortkey for STRING(s) in Klingon.
+EOF
+    exit;
+}
+
+
+{
+    my @tlh = qw/a b ch D e gh H I j l m n ng o p q Q r S t tlh u v w y ''/;
+    my %sortkey = do {
+        my $i = "a";
+        map { $_ => $i++ } @tlh;
+    };
+    my $re = join("|", @tlh);
+
+    sub lettersplit {
+        my $str = join(" ", @_);
+        return split(/(?=(?:$re)*(?:[^a-z]|$))/, $str);
+    }
+
+    sub sortkey {
+        my @letter = map { $sortkey{$_} // "" } lettersplit(@_);
+        return wantarray ? @letter : join("", @letter);
+    }
+}
+
+foreach (@ARGV) {
+    say "string: " . $_;
+    say "sortkey: " . sortkey($_) . "\n";
+}
+
+#[eof]
