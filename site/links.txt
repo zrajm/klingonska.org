@@ -1,0 +1,337 @@
+updated: 2007-07-15 05:16+02
+author: zrajm
+year: 1998-2011
+lang: en
+
+Links to Other Pages About the Klingon Language
+===============================================
+
+If you know of or maintain a webpage that seem to bee suited for this page,
+please mail me <i>[zrajm@klingonska.org](mailto:zrajm@klingonska.org)</i> so
+that that we might add it. Be aware though, we're <i>only</i> interested in
+pages that relate to the Klingon <i>Language</i>, such as on-line dictionaries,
+fiction and poems written in {tlhIngan Hol}, language
+resources, language courses etc. Anything in Klingon, or about the language
+-- nothing else.
+
+
+<table>
+<tr><th colspan="2">Categories</th></tr>
+<tr><td><i>Alph</i></td><td>Alphabet/{pIqaD} and pronounciation</td></tr>
+<tr><td><i>Cont</i></td><td>Contacts, adresses to people speaking/learning Klingon</td></tr>
+<tr><td><i>Dict</i></td><td>Dictionaries</td></tr>
+<tr><td><i>Link</i></td><td>Links of interest</td></tr>
+<tr><td><i>Lit</i></td><td>Literature and poetry</td></tr>
+<tr><td><i>Mus</i></td><td>Music and lyrics</td></tr>
+<tr><td><i>Teach</i></td><td>Teaching aids and courses</td></tr>
+<tr><td><i>Ref</i></td><td>Reference works to grammar</td></tr>
+<tr><td><i>Rev</i></td><td>Reviews and comments on Klingon Material</td></tr>
+<tr><td><i>Prog</i></td><td>Programs and software</td></tr>
+</table>
+
+In English
+----------
+<dl class="navigation">
+
+  <dt><a href="http://world.std.com/~mam/klingon/Klingon.html">The {cha'logh
+    vagh} Metrical Form.</a></dt>
+  <dd>[lit] <a href="mailto:mam@world.std.com">Mark A. Mandel</a>'s small, but
+    interesting collection of verses in {tlhIngan Hol}, and a description of
+    the {cha'logh vagh} metrical form originally published in <i>{jatmey},</i>
+    volume two (Winter 1996). <small>[Added 1998-06-29]</small>
+  </dd>
+
+  <dt><a href="http://www.indigo.ie/egt/misc/jI'ojtaH-nuqvaD.html">{jI'ojtaH
+    nuqvaD?}</a></dt>
+  <dd>[lit] "What do I thirst for?" a poem translated
+    by <a href="mailto:everson@indigo.ie">Michael
+    Everson</a>. <small>[Updated 1998-10-10]</small>
+  </dd>
+
+  <dt><a href="http://swix.ch/phant/blup/kli_poem.htm">Earthling meets
+  Earthlings.</a></dt>
+  <dd>[lit] Another Klingon poem, in {pIqaD}, romanized Klingon, and
+    English, written by <a href="mailto:blup@swix.ch">Bruno
+    Moser</a>. <small>[Updated 1998-10-10]</small>
+  </dd>
+
+  <dt><a href="http://www.pair.com/keithlim/jabberwocky/translations/jtklingon1.html">{ja'pu'vawqoy}.</a></dt>
+  <dd>[lit] Second and third verses of the poem "Jabberwocky" from <i>Through
+    The Looking Glass</i> by Lewis Carroll, translated into Klingon
+    by <a href="mailto:keithlim@pobox.com">Keith Lim</a>. <small>[Updated
+    1998-10-10]</small>
+  </dd>
+
+  <dt><a href="http://strindberg.ling.uu.se/cgi-bin/klingon">A
+    Klingon--English Lexicon on the Web.</a></dt>
+  <dd>[dict] A Klingon--English (CGI) lexicon developed
+    by <a href="mailto:Erik.Mats@stp.ling.uu.se">Erik Mats</a>, a friend of
+    mine, using my <i>Canon Klingon Dictionary</i> wordlist. Unfortunately this
+    has not been updated with vocabulary from the KGT. <small>[Updated
+    1998-10-10]</small>
+  </dd>
+
+  <dt><a href="http://www.beyond.olm.net/klingon.html">Beyond's Klingon On-Line
+    Dictionary.</a> (Requires JavaScript)</dt>
+  <dd>[ref] A Klingon JavaScript Dictionary and number
+    converter. <small>[Added 1998-06-28]</small>
+  </dd>
+
+  <dt><a href="http://www.thewebfool.com/kmel/">K'Mels Guide to Klingon
+    Cyberspace.</a></dt>
+  <dd>[link, dict] A nice page by <a href="mailto:jtackett@bellsouth.net">John
+    Tackett</a> (a.k.a. K'mel) with <i>lots</i> of Klingon links. However the
+    links concerning especially {tlhIngan Hol} are quite few. There is
+    also an <a href="http://www.thewebfool.com/kmel/klindict.htm"> On-Line
+    Klingon Dictionary</a> (requires JavaScript) which is worth taking a look
+    at. <small>[Updated 1998-10-10]</small>
+  </dd>
+
+  <dt><a href="http://hcs.harvard.edu/~hcr/97apr/klingon/kling.html"><i>Star
+    Trek: Klingon</i> reviewed by Steven Mar.</a></dt>
+  <dd>[rev] A reviewed by <a href="mailto:smar@hcs.harvard.edu">Steven Mar</a>
+    of the CD-ROM computer game and its language
+    lab. <small>[Added 1998-06-29]</small>
+  </dd>
+
+  <dt><a href="http://www.kli.org/">The Klingon Language Institute.</a></dt>
+  <dd>A simple, but useful page. The KLI represents a large part of the
+    Klingon-speaking community, and their quarterly journal, {HolQeD}, is truly
+    refreshing to read. Their mailing list is also a must for the
+    beginner. <small>[Updated 1998-07-28]</small>
+  </dd>
+
+<!--
+  <dt><a href="http://labs.thomtech.com/~dspeers/klingon/index.htm">d'Armond
+    Speers' Klingon Page.</a></dt>
+  <dd>[prog, link] Home of the {tlhIngan Hol pojwI'}, a Klingon language
+    analysis program (for Windows, older versions available for DOS and UNIX).
+    Also containang a
+    the <a href="http://labs.thomtech.com/~dspeers/klingon/faq.htm"><i>Klingon
+    Mailing Lis t Hypertext FAQ</i></a> a few klingon links some sound samples.
+    All by <a href="mailto:dspeers@bigfoot.com">d'Armond
+    Speers</a>. <small>[Updated 1998-10-10]</small>
+  </dd>
+-->
+<!--
+  <dt><a href="http://klingon.lib.indiana.edu/~klc/">Klingon Language
+    Clan.</a></dt>
+  <dd>[Cont] The webpage of the new
+    (founded <time datetime="1998-09-10">September 10th, 1998</time>) and
+    promising <i><a href="mailto:klc@klingon.lib.indiana.edu">Klingon Language
+    Clan</a></i> who "intend to provide you with a place to learn {tlhIngan
+    Hol}." A list of members is available, with their ICQ-numbers, for so it's
+    someone speaking Klingon. <small>[Added 1998-10-10]</small>
+  </dd>
+-->
+<!--
+  <dt><a href="http://klingon.lib.indiana.edu/~klc/intro/index.html">An
+    introduction to Klingon.</a></dt>
+  <dd>[ref] Edited by Michael Rudolph. This is a referrence guide to Klingon,
+    similar to the TKD. Also covers some non-canon dialects which seems to be
+    inspired by John M. Ford's <i>The Final
+    Reflection</i>. <small>[Added 1998-10-10]</small>
+  </dd>
+-->
+
+  <dt><a href="http://www.khemorex-klinzhai.de/e/Hol/">Khemorex Klinzhai!
+    -- {tlhIngan Hol}.</a></dt>
+  <dd>[lit, mus] A page maintained
+    by <a href="mailto:webmaster@khemorex-klinzhai.de">Khemorex Klinzhai</a>
+    containing a lot of texts collected from the KLI's FTP site, ILS and
+    the <i>Itabashi Klingon Museum,</i> they also have a CGI interface for
+    the <a href="http://www.khemorex-klinzhai.de/e/Hol/muhaqwi_interface.html">{mu'
+    HaqwI'}</a>, Klingon word analyser. (But try
+    {nenghep}.) <small>[Updated 1998-10-10]</small>
+  </dd>
+
+  <dt><a href="http://tick.informatik.uni-stuttgart.de/~pfistech/muhaqwi/index.html">Chrisp's
+    pages -- {mu' HaqwI'} Information.</a></dt>
+  <dd>[prog] A Klingon language analyzer and dictionary written
+    by <a href="mailto:chrisp@cyberdude.com">Christoph Pfisterer</a> (available
+    for Mac, Windows, UNIX, DOS, OS/2 and a CGI version for
+    UNIX). <small>[Updated 1998-10-10]</small>
+  </dd>
+
+  <dt><a href="http://www.geocities.com/Athens/8853/index.html">Interstellar
+    Language School -- {qIb HeHDaq}.</a></dt>
+  <dd>[teach] The Internet edition of the journal of
+    the <a href="mailto:intlangschool@geocities.com">ILS</a>, a less serious
+    alternative to KLI. Glen F. Proechel (leader of the ILS) and his work has
+    often been criticized by the KLI. But his productivity has yet to be
+    beaten, he has translated the New Testament, Hamlet, and produced many
+    other things. <small>[Updated 1998-10-10]</small>
+  </dd>
+
+  <dt><a href="http://www.geocities.com/Area51/6559/parhol.html">The
+    Soon-to-be-Refit "Paramount {Hol}" Guide.</a></dt>
+  <dd>[ref] <a href="mailto:rmcrey@flash.net">McReynolds</a>' guide to
+    Paramount's useage of "their" Klingon language in the <i>Star Trek</i>.
+    Unfortunately no updates have been done in a long time, but otherwise this
+    is a fanastic site. Wouldn't be suprised if Okrand himself used it when
+    writing the KGT. <small>[Updated 1998-10-10]</small>
+  </dd>
+
+  <dt><a href="http://www.physik.uni-leipzig.de/~mrudolph/klingon/main_pi.html">Michael's
+    Klingon Pages.</a> (Requires Frames)</dt>
+  <dd>[alph, link] This page features a description of {pIqaD} and its history
+    and some Klingon artwork. Contains errors but also some unique information
+    about the Klingon alphabet.
+    By <a href="mailto:michael.rudolph@itp.uni-leipzig.de"> Michael
+    Rudolph</a>. <small>[Updated 1998-10-10]</small>
+  </dd>
+
+  <dt><a href="http://www.sci.fi/~pob41/tlingan0.htm">Sami {tlhIngan Hol
+    De'}.</a></dt>
+  <dd>[alph, link, lit] This page presents a home-made {pIqaD} font and some
+    interpretations of the Klingon alphabet as pictures, some Klingon
+    and <i>Star Trek</i> related links, and a somewhat longer text in Klingon.
+    By <a href="mailto:pob41@sci.fi">Sami Laitala</a>. <small>[Updated
+    1998-10-10]</small>
+  </dd>
+
+  <dt><a href="http://www.dkuug.dk/JTC1/SC2/WG2/docs/n1643/n1643.htm">Proposal
+    to encode Klingon in Plane 1 of ISO/IEC 10646-2.</a></dt>
+  <dd>[alph] The Klingon UniCode proposal. <small>[Updated 1998-10-10]</small>
+  </dd>
+
+  <dt><a href="http://www.geocities.com/Area51/Corridor/2711/klinstuf.html">Teresh's
+    Home Page -- Klingon Stuff</a></dt>
+  <dd>[link, lit, prog, ref] Contains some interesting stuff. Some texts in
+    Klingon, a marvelous
+    "<a href="http://www.geocities.com/Area51/Corridor/2711/kliaddi.html">Klingon
+    Grammar Addenda</a>" with notes on grammar now in common use, but adopted
+    after (or for other reasons not described in) TKD, some utility programs
+    (for PC) and {DaqtaghwIj vIper}.
+    By <a href="mailto:teresh@geocities.com">Teresh</a>. <small>[Updated 1999-07-14]</small>
+  </dd>
+
+  <dt><a href="http://www.eridani.demon.co.uk/tlhIngan/Terran.html">{toDbaj
+    De'}.</a></dt>
+  <dd>A page with links to KLI's <i>Klingon Shakespeare Restoration Project</i>
+    and <i>Klingon Bible Translation Project</i> and some own
+    material. <small>[Added 1998-06-28]</small>
+  </dd>
+
+  <dt><a href="http://www.dejanews.com/bg.xp?level=alt.startrek.klingon&ST=BG">Deja
+    News: Browse alt.startrek.klingon.</a></dt>
+  <dd>A newsgroup I have not had much time looking into. From what I hear
+    though it is worth the effort. <small>[Added 1998-06-28]</small>
+  </dd>
+
+  <dt><a href="http://www.startrek.com/KLI/quadrant.asp?ssector=linguistics.asp">Paramount;
+    Klingon word of the day.</a></dt>
+  <dd>Formerly only available on the Microsoft Network, now on Paramount's Star
+    Trek site. Okrand once told us to look out for now words here, is that
+    still necessary? <small>[Added 1998-06-28]</small>
+  </dd>
+
+  <dt><a href="http://www.dbc.dk/~deity/OldPages/">{'eSqIl juH}.</a></dt>
+  <dd>[mus] A page partly in {pIqaD}, with Klingon translation of several of
+    Die Krupps lyrics ("Fatherland", "To the Hilt", "Isolation" and "The
+    Dawning of Doom"). <small>[Added 1998-06-28]</small>
+  </dd>
+
+  <dt><a href="http://www.asahi-net.or.jp/~VZ4S-KUBC/tlhindex.html">Itabashi
+    Klingon Museum.</a></dt>
+  <dd>A Japanese page with some Kafka short stories in Klingon, a list
+    of <a href="http://www.asahi-net.or.jp/~VZ4S-KUBC/tan1.html">classified
+    nouns</a> and a lot of other stuff. <small>[Added 1998-06-28]</small>
+  </dd>
+
+  <dt><a href="http://www.lexicon.net.au/~opoudjis/Klingon/klingon.html">Nick
+    Nicholas Klingon Page.</a></dt>
+  <dd><a href="mailto:n.nicholas@linguistics.unimelb.edu.au">Nick
+    Nicholas</a>'s page about different Klingon projects, such as the "Klingon
+    Localization Project" (a project to translate the MacOS into Klingon) which
+    unfortunately halted because of copyright problems, and the different KLI
+    translation projects. <small>[Added 1998-06-29]</small>
+  </dd>
+
+  <dt><a href="http://www.jarno.demon.nl/tlhingan.htm">{tlhIngan Hol}, the
+    Klingon Language</a></dt>
+  <dd>[mus, ref, prog] <a href="mailto:webmaster@jarno.demon.nl">Jarno
+      Peschier</a>'s webpage contains a list of Klingon names, a datafile for
+      use in a word interpretation program and a midi-file of the Klingon
+      Anthem. <small>[Added 1998-07-28]</small>
+  </dd>
+
+  <dt><a href="http://members.aol.com/JPKlingon/">North Star Klingon
+    Outpost</a></dt>
+  <dd>[prog, link] <a href="mailto:mrklingon@hotmail.com">MrKlingon</a>'s (or
+    is it JPKlingon?) webpage, containing {wa' cha' wa'maH} a simple online
+    game in Klingon, the UTA (Universal Translator Project) -- a program to
+    maintain a multiple language dictionary and some
+    links. <small>[Added 1998-07-28]</small>
+  </dd>
+
+  <dt><a href="http://www.duke.edu/~nbuckley/klingon.html">Teach
+    Klingon</a></dt>
+  <dd>[prog] A page about <a href="mailto:beany@nando.net">Andrew</a>'s Mac
+    program (downloadable) to learn Klingon (requires HyperCard 2.0 or
+    later). <small>[Added 1998-07-28]</small>
+  </dd>
+
+  <dt><a href="http://ourworld.compuserve.com/homepages/klingon/art.htm">Klingon
+    Artwork Page</a></dt>
+  <dd>[lit] A poem, and a joke in Klingon. Maintained
+    by <a href="mailto:101352.2226@compuserve.com">{qumwI' HoD
+    tlho'QaD}</a> <small>[Added 1998-07-28]</small>
+  </dd>
+
+  <dt><a href="http://www.sev.com.au/toonzone/sevtrek/klingontoon.htm">Sev
+    Trek: The Klingon Translation!</a></dt>
+  <dd>[lit] Klingon translations of some strips
+    of <a href="mailto:sevmaster@sev.com.au">John Cook</a>'s <i>Star Trek</i>
+    parody <i>Sev Trek.</i> <small>[Added 1998-08-04]</small>
+  </dd>
+
+</dl>
+
+
+In Swedish
+----------
+<dl class="navigation">
+
+  <dt><a href="http://www.ueb.se/store/index_search.phtml?search_string2=okrand%2C%20marc">Klingon
+    reference material at the Uppsala English Bookshop.</a></dt>
+  <dd>[ref] All the klingonist's most relevant reference books are available
+    locally here in Uppsala, Sweden. <a href="mailto:bookshop@ueb.se">Uppsala
+    English Bookshop</a> is also the nicest bookshop I've ever been to -- visit
+    it! <small>[Added 1999-05-17]</small>
+  </dd>
+
+</dl>
+
+
+In German
+---------
+<dl class="navigation">
+
+  <dt><a href="http://www.levinius.de/deutsch/kl_dow1.html">Fehler im
+    offiziellen Wörterbuch.</a></dt>
+  <dd>[rev] A list of errors in <i>Das Offizielle Wörterbuch
+    Klingonisch/Deutsch Deutsch/Klingonisch</i> (the German transation
+    of <i>The Klingon Dictionary</i>), maintained
+    by <a href="mailto:Lieven@aol.com">Lieven L.
+    Litaer</a>. <small>[Added 1998-06-29]</small>
+  </dd>
+
+  <dt><a href="http://cips02.physik.uni-bonn.de/~schugt/tlhIngan_Hol/">Jupp's
+    Klingonischseiten.</a></dt>
+  <dd>[ref] A page in German, which seems very nice. A translation of major
+    parts of the TKD. Created by <a href="mailto:jupp@gmx.net">Josef
+    Schugt</a> <small>[Updated 1998-10-10]</small>
+  </dd>
+
+  <dt><a href="http://aia.wu-wien.ac.at/Startrek/Sprachen/sprachkurs-klingon.html">Der
+    Klingonische Sprachkurs.</a></dt>
+  <dd>[ref] Another language course for learning Klingon, this time
+    by <a href="mailto:Roman.Franz@wu-wien.ac.at">Roman Franz</a>.
+    Unfortunately I can't say anything about it, since I don't speak
+    German. <small>[Updated 1998-10-10]</small>
+  </dd>
+
+</dl>
+
+[[eof]]

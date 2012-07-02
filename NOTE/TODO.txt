@@ -181,7 +181,7 @@ Priorities:
       are incorporated into the KLO pages. Old stuff is just an annoyance to
       maintain. (And, even after removal, would still be available in the git
       repo, if anyone *really* cared.)
-***** [21%] Convert all pages to new HTML template
+***** [22%] Convert all pages to new HTML template
       Thereby centralizing the page header/footer etc. `bin/markdown2html` is
       the tool used for this, except for files in /dict/, which uses `parse`.
       Unifying these two tools into one will become a later issue, though.
@@ -224,7 +224,8 @@ Priorities:
        CLOSED: [2012-07-01 Sun 01:48]
 ****** DONE Verify that `qq/*` is unaffected by redesign
        CLOSED: [2012-07-01 Sun 01:57]
-****** TODO `links.html`
+****** DONE `links.html`
+       CLOSED: [2012-07-02 Mon 04:27]
 ****** TODO `lista.html`
 ****** TODO `piqadpic.html`
 ****** TODO `punct.html`
@@ -2108,6 +2109,8 @@ Priorities:
 ** TODO "Om Klingonska Akademien" -- KA's Logo
 *** TODO Add the moon logos as thumnails on the page
 *** TODO Move all the logos to the pic directory?
+** TODO Update "Links to Other Pages About the Klingon Language"
+   This page need a major update, and removal of non-working links.
 ** TODO Lesson list
    http://klingonska.org/lektioner/
 *** Should be listed
