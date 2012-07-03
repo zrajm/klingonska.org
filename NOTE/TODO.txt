@@ -10,6 +10,19 @@ Priorities:
 4) WANTED -- could be better, but is okay
 5) MAYBE -- would be nice to have, but needs to be though about
 
+
+On CSS ideas:
+http://www.onextrapixel.com/2012/05/03/css-tricks-how-to-speed-up-css-rendering/
+
+I tend to go with Paul Irish on this one...
+
+"Aside from that, you are not allowed to care about the performance of * unless
+you concatenate all your javascript, have it at the bottom, minify your css and
+js, gzip all your assets, and losslessly compress all your images. If aren't
+getting 90+ Page Speed scores, its way too early to be thinking about selector
+optimization."
+
+
 * INBOX
   These should be inserted in the hierachy below.
 ** NWL seems to be establish abbrev for KLI's new word list
@@ -181,7 +194,7 @@ Priorities:
       are incorporated into the KLO pages. Old stuff is just an annoyance to
       maintain. (And, even after removal, would still be available in the git
       repo, if anyone *really* cared.)
-***** [27%] Convert all pages to new HTML template
+***** [29%] Convert all pages to new HTML template
       Thereby centralizing the page header/footer etc. `bin/markdown2html` is
       the tool used for this, except for files in /dict/, which uses `parse`.
       Unifying these two tools into one will become a later issue, though.
@@ -235,7 +248,8 @@ Priorities:
 ****** DONE `punct2.html`
        CLOSED: [2012-07-02 Mon 19:13]
        This was merged into the `punct.html` page.
-****** TODO `tkw.html`
+****** DONE `tkw.html`
+       CLOSED: [2012-07-03 Tue 08:01]
 ****** TODO `uttal.html`
 ****** TODO `canon/1993-sbx-99.html`
 ****** TODO `canon/1994-10-hallmark.html`
@@ -358,10 +372,24 @@ Priorities:
 **** TODO HTML5 navigation menus (<nav>...</nav>?)
 **** TODO Make sure new design looks good in text only-browsers (lynx etc.)
 **** TODO New motto/tagline for site
+
      "*The* Klingon language reference site."?
      "The one-shop-stop for all you Klingon language needs."?
      "Klingon language reference tools since 1998."?
-**** TODO Minor tweaks (low priority)
+**** [0%] Minor tweaks (low priority)
+***** TODO Fix Markdown processing inside HTML elements + speedup
+      Since we want the content of block level elements to be processed for
+      Markdown (and Markdown doesn't do that), the content of all HTML block
+      level elements should be extracted and individually processed.
+
+      This would most likely speed up processing of Markdown source files with
+      much HTML in them (like `tkw.txt`).
+***** TODO Fix wonky <title>
+      Title for e.g. http://klingonska.org/tkw.html contains repeated elements.
+      <title>The Klingon Way in pIqaD &ndash; *The Klingon Way* in {pIqaD} &ndash; Klingonska Akademien</title>
+***** TODO Page margins should shrink in narrow window
+      The line with should be constant for as long as possible, with the
+      margins shrinking to give room for text if window is too narrow.
 ***** TODO Add info on "deciphered" text on skybox
       See email (has pictures, description of how etc).
       https://mail.google.com/mail/u/0/#search/the+downturned+version+as+comma./fd30b1121c986f7

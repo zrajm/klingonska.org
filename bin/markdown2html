@@ -804,6 +804,7 @@ sub page_title {
             unshift(@title, $_) unless $_ eq $title[0];
         }
     }
+    s#<[^>]*>##g foreach @title; # strip all HTML inside title
     return "Klingonska Akademien" if @title == 1 and $title[0] eq "";
     return join(" -- ", @title) . " -- Klingonska Akademien";
 }
