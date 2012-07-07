@@ -194,7 +194,7 @@ optimization."
       are incorporated into the KLO pages. Old stuff is just an annoyance to
       maintain. (And, even after removal, would still be available in the git
       repo, if anyone *really* cared.)
-***** [29%] Convert all pages to new HTML template
+***** [30%] Convert all pages to new HTML template
       Thereby centralizing the page header/footer etc. `bin/markdown2html` is
       the tool used for this, except for files in /dict/, which uses `parse`.
       Unifying these two tools into one will become a later issue, though.
@@ -250,7 +250,8 @@ optimization."
        This was merged into the `punct.html` page.
 ****** DONE `tkw.html`
        CLOSED: [2012-07-03 Tue 08:01]
-****** TODO `uttal.html`
+****** DONE `uttal.html`
+       CLOSED: [2012-07-07 Sat 20:48]
 ****** TODO `canon/1993-sbx-99.html`
 ****** TODO `canon/1994-10-hallmark.html`
 ****** TODO `canon/1994-sbx-sp1.html`
@@ -377,6 +378,10 @@ optimization."
      "The one-shop-stop for all you Klingon language needs."?
      "Klingon language reference tools since 1998."?
 **** [0%] Minor tweaks (low priority)
+***** TODO Merge `uttal.html` inte `klo/grammatik-01.html`
+      The article "En svensk guide till det klingonska uttalet" should be
+      completely merged into the more extensive "Klingonsk ordbok". "Sounds of
+      Klingon" also probably better translated "Klingonskt uttal". :)
 ***** TODO Fix Markdown processing inside HTML elements + speedup
       Since we want the content of block level elements to be processed for
       Markdown (and Markdown doesn't do that), the content of all HTML block

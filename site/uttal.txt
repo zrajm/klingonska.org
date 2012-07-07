@@ -1,0 +1,318 @@
+updated: 2012-07-07 20:54:46+02
+created: 1999-06-22
+author: zrajm
+year: 1999-2012
+lang: sv
+
+En svensk guide till det klingonska uttalet
+===========================================
+
+Förord
+------
+Detta dokument är inte färdigproducerat (i dagsläget, 2012-07-07).
+
+
+Inledning
+---------
+Klingonerna själva använder ett alfabet som kallas {pIqaD}. Det är till formen
+(om än ej fuktionen) väldigt olikt vårat eget. Av praktiska skäl används dock
+oftast den skriftkonvention som Marc Okrand begagnar sig av i <i>The Klingon
+Dictionary</i> (och senare böcker) klingonister emellan. Följande alfabetiska
+ordning tillämpas i ordlistor etc.: {a}, {b}, {ch}, {D}, {e}, {gh}, {H}, {I},
+{j}, {l}, {m}, {n}, {ng}, {o}, {p}, {q}, {Q}, {r}, {S}, {t}, {tlh}, {u}, {v},
+{w}, {y}, {'}
+
+Notera att {ch}, {gh}, {ng} och {tlh} räknas som en enda bostav. Således kommer
+ordet {nob} <i>ge</i> före {ngab} <i>försvinna</i> i en klingonsk ordlista.
+
+Generellt kan sägas att de ljud som avviker från det engelska uttalet är
+skrivna så att de inte <i>ser ut</i> som engelsk stavning. Ljud som skrivs med
+stora bokstäver, "underliga" teckenkombinationer (som t.ex. {tlh}) eller
+bokstäver som normalt sett inte används i engelskan (t.ex. {q}) skiljer sig
+också ifrån engelskan i uttalet.
+
+Enligt konvention skrivs klingonsk text med fetstil ({Qapla'}) -- eller omgivet
+av krullparanteser (&#123;Qapla'&#125;), då fetstil inte är tillgängligt. På
+samma sätt markeras en översätt fras med kursiv stil (<i>framgång</i>) eller
+ibland med citattecken ("framgång"). -- Citattecken (som används i bl.a.
+<i>KGT</i>) är typografiskt klumpigare, och Okrand sagt att han hellre skulle
+använt kursiv stil (precis som i <i>TKD</i>), men att hans redaktör hade
+invändningar mot detta.
+
+Interpunktuation används inkonsekvent av Okrand själv, och ingen tydlig
+konvention finns för närvarande i bruk. Med anledning av att det i det
+klingonska skriftsystemet endast förekommer två tecken för interpunktuation
+(approximativt motsvarande våra komma respektive punkt) vill jag rekommendera
+ett sparsamt bruk av skiljetecken i klingonska texter. Det finns i pricip ingen
+anledning att använda utrops- och frågetecken (då det framkommer med all
+önskvärd klarhet av grammatiken hurvida en mening är en fråga eller en order).
+Bruket av frågetecken kan t.o.m. vara destruktivt, då läsaren luras att använda
+"frågeintonation" -- vilket klingonskan saknar. Komma används lämpligen i de
+fall då man tydligt vill visa att två fraser är separata enheter inom en
+mening, användbart bl.a. för att göra skillnad på substantiv-substantiv
+konstruktioner och fristående substantiv.
+
+För ytterligare information se även "[{pIqaD}, and How to Read It](piqad/)"
+och [KLO kapitel 1](klo/grammatik-01.html#_1).
+
+Alfabetet
+---------
+De uttalsanvisningar som föregås av en asterisk ("&#42;") och har grå bakgrund är
+inte färdigformulerade. -- De fallen har dock dock en kort beskrivning av
+ljudet ifråga, tagen direkt ur <i>TKD,</i> och inte bearbetad för svenska
+förhållanden.
+
+<table class="noborder">
+<tr bgcolor="#aaa">
+  <td>{a}</td>
+  <td>&#42;</td>
+  <td>Ett långt <i>a</i>-ljud som i engelskans <i>psalm</i>
+    eller <i>father</i>; aldrig som i amerikanskans <i>crabapple</i>.</td>
+</tr>
+<tr>
+  <td>{b}</td>
+  <td>     </td>
+  <td>Som i svenskans <i>bråttom</i> eller <i>Göteborg.</i> En del klingoner
+    uttalar det här ljudet som om det vore ett {m} och ett {b} artikulerat
+    nästan samtidigt, något som svensktalande kan efterlikna genom att säga att
+    säga <i>ambulans</i> utan det inledande <i>a</i>-ljudet. Några få klingoner
+    uttalar {b} som om det vore {m}.</td>
+</tr>
+<tr>
+  <td>{ch}</td>
+  <td></td>
+  <td>Som <i>tch</i> i svenskans <i>ketchup</i> eller som <i>c</i> i
+    italienskans <i>ciao</i>, eller som <i>ch</i> i engelskans <i>chew</i>
+    eller <i>artichoke</i>. Det här ljudet uttalas alltid med ett
+    inledande <i>t</i>, och aldrig som i svenskans <i>chock</i>
+    eller <i>tjut</i>.
+  <p>&#42;&#42;&#42; Som finlandssvenskans <i>tj</i> i början på ord, som i
+    t.ex. <i>tjära</i>. &#42;&#42;&#42;
+  </td>
+</tr>
+<tr>
+  <td>{D}</td>
+  <td></td>
+  <td>Som <i>rd</i> i svenskans <i>värd</i> eller <i>order</i>. Det finns inga
+    ord på svenska som börjar med det här ljudet, men det inleder ett flertal
+    ord på klingonska. Svensktalande kan öva på att säga detta ljud först i ett
+    ord genom att säga <i>burdus</i> och sedan upprepa det utan det
+    inledande <i>bu</i>.</td>
+</tr>
+<tr bgcolor="#aaa">
+  <td>{e}</td>
+  <td>&#42;</td>
+  <td>Ett kort <i>e,</i> som i engelskans <i>bed</i>
+    eller <i>sensor.</i>
+  <p>&#42;&#42;&#42; Ett kort <i>ä,</i> som i <i>herre</i> &#42;&#42;&#42;
+  </td>
+</tr>
+<tr>
+  <td>{gh}</td>
+  <td></td>
+  <td>Det här ljudet påminner om ett skånskt tungrots-<i>r</i>, men är inte
+    riktigt likadant. Det kan frambringas genom att hålla tungan i samma
+    position som den skulle vara i för att säga svenskans <i>g</i> som
+    i <i>gurgla</i>, men slappna av något i tungan och humma. Ljudet är
+    detsamma som klingonskans {H} (se nedan) men tonande, d.v.s. uttalat med
+    vibrerande stämband.</td>
+</tr>
+<tr>
+  <td>{H}</td>
+  <td>&#42;</td>
+  <td>Det här ljudet påminner vagt om svenskans <i>sj</i> som i
+    <i>själ</i>, det uttalas som <i>ch</i> i namnet på den tyska
+    kompositören <i>Bach</i> eller i den jiddischka skålen <i>l'chaim</i> eller
+    som <i>j</i> i den mexikanska staden <i>Tijuana</i> i <i>Baja
+    California.</i> Det produceras på samma sätt som klingonskans {gh} men
+    artikuleras med ett väldigt grovt, starkt raspande. {H} är till skillnad
+    från {gh} tonlöst, d.v.s. att stämbanden inte vibrerar vid uttalet av detta
+    ljud.
+  <p>&#42;&#42;&#42; Exempel: don Juan. Ta bort Tijuana (okänt för svenskar).
+    &#42;&#42;&#42;
+  </td>
+</tr>
+<tr bgcolor="#aaa">
+  <td>{I}</td>
+  <td>&#42;</td>
+  <td>Kort <i>i</i>, som i engelskans <i>misfit.</i> I sällsynta
+    fall kan det också uttalas långt som i <i>zucchini,</i> men detta
+    förekommer bara i pluralformer av substantiv.
+  <p>&#42; Kort <i>i</i>, som i svenskans <i>finger.</i> I sällsynta fall kan
+    det också uttalas långt som i <i>fis,</i> men detta förekommer bara i
+    pluralformer av substantiv.
+  </td>
+</tr>
+<tr>
+  <td>{j}</td>
+  <td></td>
+  <td>Ungefär som <i>dj</i> i svenskans <i><u>dj</u>onk</i>
+    eller <i>a<u>dj</u>ektiv</i>, eller som <i>j</i> i engelskans <i>junk</i>
+    &#42;&#42;&#42; eller jungle, Fiji &#42;&#42;&#42;. Det här ljudet uttalas
+    alltid med ett inledande <i>d</i>, och aldrig som i <i>jordnöt</i>
+    eller <i>journalist.</i> På svenska är det dessutom inte ovanligt
+    att <i>j</i> i dagligt tal mer låter som <i>i</i> -- något som inte
+    förekommer vid uttalet av {j}.</td>
+</tr>
+<tr>
+  <td>{l}</td>
+  <td></td>
+  <td>Som i svenskans <i>luta</i> eller <i>alkemisk.</i></td>
+</tr>
+<tr>
+  <td>{m}</td>
+  <td></td>
+  <td>Som i svenskans <i>mur</i> eller <i>pneumatisk.</i> De fåtalet klingoner
+    som uttalar {b} som {m} skulle säga klingonskans {baH} <i>avfyra (en
+    torped)</i> och {maH} <i>vi</i> på samma sätt och bli tvungna att memorera
+    vilket ord som stavas på vilket sätt.</td>
+</tr>
+<tr>
+  <td>{n}</td>
+  <td></td>
+  <td>Som i svenskans <i>nektarin</i> eller <i>aftonsol.</i> De klingoner som
+    uttalar {D} mer som {n} kan lätt artikulera och höra skillnad på de två
+    ljuden. Även ett {D} som låter som ett {n} uttalas med tungan i samma
+    ställning som för klingonska {D} och inte som i svenskans <i>d</i>.
+    Klingonskans {n} uttalas med tungan i samma position som i
+    svenskans <i>d.</i></td>
+</tr>
+<tr>
+  <td>{ng}</td>
+  <td></td>
+  <td>Som i svenskans <i>kung;</i> aldrig som i <i>angöra</i>
+    eller <i>angripa.</i> I klingonska uttalas <i>g</i>:et uttalas aldrig
+    separat. Det här ljudet kommer aldrig först i något ord på svenska, men det
+    förekommer i början på ett flertal ord i klingonska. Svensktalande kan öva
+    på att säga detta ljud först i ett ord genom att säga <i>finger</i> och
+    sedan upprepa det utan det inledande <i>fi.</i></td>
+</tr>
+<tr bgcolor="#aaa">
+  <td>{o}</td>
+  <td>&#42;</td>
+  <td>Som i engelskans <i>mosaic</i> eller <i>toy.</i></td>
+</tr>
+<tr>
+  <td>{p}</td>
+  <td></td>
+  <td>Som i svenskans <i>parallell</i> eller <i>topprida.</i> Det här ljudet
+    artikuleras alltid med en kraftig puff eller stöt, aldrig slappt.
+    Svensktalande kan tänkas vilja iakta försiktighet för att undvika att
+    avfyra saliv vid uttalet av det här ljudet. Det bör dock noteras att det
+    inte är något som klingoner bekymmrar sig om.</td>
+</tr>
+<tr>
+  <td>{q}</td>
+  <td></td>
+  <td>Liknar svenskans <i>k</i> som i <i>kabinett</i>, men inte helt och
+    hållet. Tungans position för svenska <i>k</i> är densamma som för
+    klingonska {gh} och {H}, men för att åstadkomma klingonska {q} nuddar dock
+    tungryggen gommen längre bak än vad den gör för {gh} och {H}. Faktum är att
+    tungan sträcker sig mot eller nuddar gomspenen, så uttalet av {q} om ljudet
+    som uppstår när man håller på att kvävas. Ljudet åtföljs vanligen av en
+    lätt pust luft.</td>
+</tr>
+<tr bgcolor="#aaa">
+  <td>{Q}</td>
+  <td>&#42;</td>
+  <td>Som {q} fast längre. {Q} är ett raspigt ljud som korrekt
+    uttalat låter lite som någon som försöker harkla upp en bit mat ur fel
+    strupe.</td>
+</tr>
+<tr bgcolor="#aaa">
+  <td>{r}</td>
+  <td>&#42;</td>
+  <td>Rullande tungspets-<i>r,</i> som i <i>rör.</i></td>
+</tr>
+<tr bgcolor="#aaa">
+  <td>{S}</td>
+  <td>&#42;</td>
+  <td>Retroflext <i>s</i> som i <i>fors.</i> Uttalas
+    med tungan i samma position som för {D}.</td>
+</tr>
+<tr bgcolor="#aaa">
+  <td>{t}</td>
+  <td>&#42;</td>
+  <td>(aspirerat) Uttalas som <i>t</i> i
+    <i>terpentin</i> fast med en extra puff. Notra att detta inte är ett
+    retroflekt <i>t</i> så håll tungan som du för när du uttalar ett vanligt
+    svenskt <i>t</i> och inte som när du säger klingonska {D}.</td>
+</tr>
+<tr>
+  <td>{tlh}</td>
+  <td></td>
+  <td>Det här ljudet förekommer inte på svenska, men det är väldigt likt det
+    sista ljudet i <i>tetl,</i> det aztekiska ordet för <i>ägg</i>, om det
+    uttalas korrekt.
+  <p>För att göra det här ljudet nuddar tungan samma del av gommen som den
+    nuddar vid {t}, tungans sidor sänks bort ifrån överkäkens kindtänder och
+    luft pressas ut på båda sidorna mellan tungan och tänderna. Ljudet alstras
+    med en hel del friktion, och varningen som ges i beskrivningen av
+    klingonskans {p} kan med fördel upprepas här.
+  <p><font color="#f22">Börja med att säga ett helt vanligt <i>l</i>. Håll
+    därefter kvar tungan i samma position och andas ut kraftigt, så att luften
+    pressas ut på båda sidor om tungan. Andas nu ut på samma sätt en gång till,
+    men spotta ut luften mer abrupt och med större kraft.</font>
+  <p><font color="#f22">¿Om jag förstått saken rätt så uttalas isländskans
+    dubbeltecknade <i>l</i> i slutet på ord ungefär såhär? (Notera att detta
+    inte är en frikativa utan en affrikata. Avspärrningen i munhålan är
+    inledningsvis total.)</font></td>
+</tr>
+<tr bgcolor="#aaa">
+  <td>{u}</td>
+  <td>&#42;</td>
+  <td>Ett långt <i>u</i>-ljud, som i engelskans <i>gnu</i>
+    eller <i>prune;</i> aldrig som i engelskans <i>butter.</i></td>
+</tr>
+<tr bgcolor="#aaa">
+  <td>{v}</td>
+  <td>&#42;</td>
+  <td>Som i <i>vulgär.</i></td>
+</tr>
+<tr bgcolor="#aaa">
+  <td>{w}</td>
+  <td>&#42;</td>
+  <td>Som engelskans <i>w</i> i t.ex. <i>cow.</i> Ibland uttalas
+    den ljudet kraftigare, mer som {Hw}, detta framförallt om talaren är
+    upphetsad eller arg.</td>
+</tr>
+<tr bgcolor="#aaa">
+  <td>{y}</td>
+  <td>&#42;</td>
+  <td>Som engelskans <i>yodel</i> eller
+  <i>joy.</i></td>
+</tr>
+<tr bgcolor="#aaa">
+  <td>{'}</td>
+  <td>&#42;</td>
+  <td>Detta är ett ljud som finns i svenskan men som vi aldrig
+    skriver. Det är strypningen av lufttillförseln i mitten av <i>uh-uh</i> och
+    före alla ord som börjar på en vokal. I klingonska räknas den som en
+    bokstav i sin egen rätt, och det är en milsvid skillnad på t.ex. {QonoS}
+    "journal, logg" och {Qo'noS} "Kronos" (namnet på den klingonska
+    hemvärlden).</td>
+</tr>
+</table>
+
+
+Referenser
+----------
+<ul>
+  <li>Crystal, David (1997) <i>The Cambridge Encyclopedia of Language</i>
+    (andra upplagan), Cambridge University Press: New York.
+  <li>Mandel, Mark A. (<time datetime="1997-09">September 1997</time>) "Why
+    Hans Can't Pronunce Klingon: Pronunciation Errors in the German in the
+    German Edition of <i>The Klingon Dictionary</i>", artikel i <i>{HolQeD}</i>
+    6:3. Klingon Language Institute: Lake Forest.
+  <li>Okrand, Marc (<time datetime="1998-03-02">2 mars 1998</time>)
+    "<a href="canon/1998-03-02c-news.txt">Re: Problem with {-meH} and negative
+    meanings</a>" postning till nyhetsgruppen <i>startrek.expertforum</i>.
+    (Trots sitt namn förekommer här er lång utläggning där Okrand motiverar
+    valet av symboler i transkriptionen av klingonska.)
+  <li>Okrand, Marc (1992) <i>The Klingon Dictionary</i>, Pocket Books, Simon &
+    Schuster Inc.: New York.
+  <li>Svenska Akademien (1998) <i>Svenska Akademiens ordlista över svenska
+      språket</i> (tolfte upplagan).
+</ul>
+
+[[eof]]
