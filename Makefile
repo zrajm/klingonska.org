@@ -90,8 +90,14 @@ all_targets = $(copied_targets) $(jslib_targets) $(css_targets) $(html_targets)
 ###############################################################################
 
 ## site - build web site
-.PHONY: site
+.PHONY: site css html js
 site: $(all_targets)
+## html - build HTML files of web site
+html: $(filter %.html,$(all_targets))
+## css - build CSS files of web site
+css: $(filter %.css,$(all_targets))
+## js - build Javascript files of web site
+js: $(filter %.js,$(all_targets))
 
 ## ls-compiled - list compiled files
 ## ls-copied - list files used as-is
@@ -104,7 +110,6 @@ ls-copied:
 	@for LINE in $(copied_targets); do \
 	    echo $$LINE; \
 	done | if [ -t 1 ]; then column; else cat; fi
-
 
 ## publish - rsync generated web site to web host
 .PHONY: publish
@@ -177,13 +182,13 @@ $(publish_dir)/%.gif: $(source_dir)/%.gif
 	cp "$<" "$@"
 
 # HTML (hypertext)
-$(publish_dir)/%.html: $(source_dir)/%.html $(filter %.css,$(all_targets))
+$(publish_dir)/%.html: $(source_dir)/%.html
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Copying    '$<' -> '$@'";      \
 	cp "$<" "$@"
 
 # KA Markdown -> HTML
-$(publish_dir)/dict/%.html: $(source_dir)/dict/%.txt $(filter %.css,$(all_targets))
+$(publish_dir)/dict/%.html: $(source_dir)/dict/%.txt
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)";        \
 	echo "HTMLifying '$<' -> '$@'";             \
 	bin/parse                                   \
@@ -195,7 +200,6 @@ $(publish_dir)/dict/%.html: $(source_dir)/dict/%.txt $(filter %.css,$(all_target
 # KA Markdown -> HTML
 $(publish_dir)/klo/%.html: $(source_dir)/klo/%.txt \
     $(source_dir)/klo/includes/template.html     \
-    $(filter %.css,$(all_targets))               \
     bin/markdown2html-old
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)";     \
 	rm -f "$@";                              \
@@ -207,8 +211,6 @@ $(publish_dir)/klo/%.html: $(source_dir)/klo/%.txt \
 # KA Markdown -> HTML
 $(publish_dir)/%.html: $(source_dir)/%.txt \
     $(source_dir)/includes/template.html   \
-    $(filter %.css,$(all_targets))         \
-    $(filter %.js,$(all_targets))          \
     bin/markdown2html
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)";     \
 	rm -f "$@";                              \
