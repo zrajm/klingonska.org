@@ -58,6 +58,7 @@ html_targets =                                    \
             $(source_dir)/canon/index.txt        \
             $(source_dir)/dict/*.txt             \
             $(source_dir)/klo/*.txt              \
+            $(source_dir)/piq/*.txt              \
     ))
 
 css_targets =                                               \

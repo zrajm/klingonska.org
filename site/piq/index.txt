@@ -1,0 +1,1124 @@
+updated: 2012-07-08 15:25:16+02
+author: zrajm
+year: 1998-2000
+lang: en
+
+Some Klingon GIF Fonts
+======================
+
+A Somewhat Technical Issue
+--------------------------
+This page is included for the benefit of those people who are themselves
+creating or maintaining webpages with Klingon contents. -- If you're not in the
+process of doing so, this information is not useful to you, and may be skipped
+altogether. The information contained in this page is in no way neccessary to
+understand the rest of [Klingonska Akademien's web
+page](http://klingonska.org/).
+
+To benefit from this page you should know at least some HTML. I use GIF fonts,
+to represent characters that are not normally available. Over the time there
+has become quite a few of them, each with its own purpose. Use this table to
+access them directly:
+
+<b>Note:</b> You may use these fonts freely, as long as you give me (Zrajm C
+Akfohg) credit and include a link to <i>Klingonska Akademien's webpage</i> at
+<i><a href="http://klingonska.org/">http://klingonska.org/</a></i>.
+
+<table>
+  <tr><th>Dir<th>Height<th>Anti-<br>alias<th>File Size<th>Description</tr>
+  <tr><td><code><a href="#bg1">bg1</a></code><td>39px<td>Yes<td class=nobr>105--240b</td>
+    <td>The normal version of {pIqaD}, endorsed by KLI.</td>
+  </tr>
+  <tr><td><code><a href="#bg2">bg2</a></code><td>39px<td>No<td class=nobr>85--188b</td>
+    <td>The normal version of {pIqaD} but without antialias.</td>
+  </tr>
+  <tr><td><code><a href="#sml">sml</a></code><td>19px<td>No<td class=nobr>53--88b</td>
+    <td>A small version of {pIqaD}, suitable for longer texts.
+    <br>(Made to mix well with normal text, just use <code>ALIGN=TOP</code>.)</td>
+  </tr>
+  <tr><td><code><a href="#smpl">smpl</a></code><td>39px<td>No<td class=nobr>94--212b</td>
+    <td>A simple longhand version of {pIqaD} (my own handwriting).</td>
+  </tr>
+  <tr><td><code><a href="#fncy">fncy</a></code><td>39px<td>Yes<td class=nobr>86--270b</td>
+    <td>A fancy longhand version of {pIqaD} (Nick Nicholas' handwriting).</td>
+  </tr>
+  <tr><td><code><a href="#rom">rom</a></code><td>39px<td>No<td class=nobr>65--157b</td>
+    <td>Marc Okrand's romanized transliteration of the Klingon alphabet.
+    <br>(Included because it's a pain to align text and pictures properly.)</td>
+  </tr>
+  <tr><td><code><a href="#ipa">ipa</a></code><td>39px<td>No<td class=nobr>134--291b</td>
+    <td>An I.P.A. (International Phonetic Alphabet) transcription of {pIqaD}.</td>
+  </tr>
+</table>
+
+Unlike our own punctuation marks the Klingon ones are usually both followed
+<i>and preceeded</i> by a space, and may also occur at the beginning of a line
+[as appearing on the SkyBox Trading Cards S7, S8, S9, S13, S14 and S15]. The
+Klingon Empire symbol is sometimes used among klingonists to mark the end of a
+text or chapter [{HolQeD}].
+
+`bg1`
+-----
+
+<table>
+  <tr><td><img src="bg1/a.gif" width=38 height=39 alt="a"><td>{a}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/a.gif&#34; width=38 height=39 alt=&#34;a&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/b.gif" width=37 height=39 alt="b"><td>{b}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/b.gif&#34; width=37 height=39 alt=&#34;b&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/ch.gif" width=42 height=39 alt="ch"><td>{ch}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/ch.gif&#34; width=42 height=39 alt=&#34;ch&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/d.gif" width=29 height=39 alt="D"><td>{D}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/d.gif&#34; width=29 height=39 alt=&#34;D&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/e.gif" width=26 height=39 alt="e"><td>{e}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/e.gif&#34; width=26 height=39 alt=&#34;e&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/gh.gif" width=43 height=39 alt="gh"><td>{gh}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/gh.gif&#34; width=43 height=39 alt=&#34;gh&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/h.gif" width=21 height=39 alt="H"><td>{H}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/h.gif&#34; width=21 height=39 alt=&#34;H&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/i.gif" width=31 height=39 alt="I"><td>{I}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/i.gif&#34; width=31 height=39 alt=&#34;I&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/j.gif" width=36 height=39 alt="j"><td>{j}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/j.gif&#34; width=36 height=39 alt=&#34;j&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/l.gif" width=28 height=39 alt="l"><td>{l}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/l.gif&#34; width=28 height=39 alt=&#34;l&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/m.gif" width=27 height=39 alt="m"><td>{m}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/m.gif&#34; width=27 height=39 alt=&#34;m&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/n.gif" width=33 height=39 alt="n"><td>{n}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/n.gif&#34; width=33 height=39 alt=&#34;n&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/ng.gif" width=41 height=39 alt="ng"><td>{ng}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/ng.gif&#34; width=41 height=39 alt=&#34;ng&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/o.gif" width=36 height=39 alt="o"><td>{o}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/o.gif&#34; width=36 height=39 alt=&#34;o&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/p.gif" width=26 height=39 alt="p"><td>{p}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/p.gif&#34; width=26 height=39 alt=&#34;p&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/q.gif" width=18 height=39 alt="q"><td>{q}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/q.gif&#34; width=18 height=39 alt=&#34;q&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/qh.gif" width=27 height=39 alt="Q"><td>{Q}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/qh.gif&#34; width=27 height=39 alt=&#34;Q&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/r.gif" width=33 height=39 alt="r"><td>{r}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/r.gif&#34; width=33 height=39 alt=&#34;r&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/s.gif" width=39 height=39 alt="S"><td>{S}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/s.gif&#34; width=39 height=39 alt=&#34;S&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/t.gif" width=36 height=39 alt="t"><td>{t}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/t.gif&#34; width=36 height=39 alt=&#34;t&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/tlh.gif" width=35 height=39 alt="tlh"><td>{tlh}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/tlh.gif&#34; width=35 height=39 alt=&#34;tlh&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/u.gif" width=38 height=39 alt="u"><td>{u}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/u.gif&#34; width=38 height=39 alt=&#34;u&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/v.gif" width=44 height=39 alt="v"><td>{v}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/v.gif&#34; width=44 height=39 alt=&#34;v&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/w.gif" width=34 height=39 alt="w"><td>{w}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/w.gif&#34; width=34 height=39 alt=&#34;w&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/y.gif" width=35 height=39 alt="y"><td>{y}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/y.gif&#34; width=35 height=39 alt=&#34;y&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/z.gif" width=10 height=39 alt="'"><td>{'}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/z.gif&#34; width=10 height=39 alt=&#34;'&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/0.gif" width=30 height=39 alt="0"><td>{0}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/0.gif&#34; width=30 height=39 alt=&#34;0&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/1.gif" width=36 height=39 alt="1"><td>{1}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/1.gif&#34; width=36 height=39 alt=&#34;1&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/2.gif" width=17 height=39 alt="2"><td>{2}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/2.gif&#34; width=17 height=39 alt=&#34;2&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/3.gif" width=26 height=39 alt="3"><td>{3}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/3.gif&#34; width=26 height=39 alt=&#34;3&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/4.gif" width=34 height=39 alt="4"><td>{4}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/4.gif&#34; width=34 height=39 alt=&#34;4&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/5.gif" width=20 height=39 alt="5"><td>{5}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/5.gif&#34; width=20 height=39 alt=&#34;5&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/6.gif" width=35 height=39 alt="6"><td>{6}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/6.gif&#34; width=35 height=39 alt=&#34;6&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/7.gif" width=28 height=39 alt="7"><td>{7}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/7.gif&#34; width=28 height=39 alt=&#34;7&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/8.gif" width=37 height=39 alt="8"><td>{8}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/8.gif&#34; width=37 height=39 alt=&#34;8&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/9.gif" width=27 height=39 alt="9"><td>{9}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/9.gif&#34; width=27 height=39 alt=&#34;9&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/_space.gif" width=27 height=39 alt="_"><td>{_}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/_space.gif&#34; width=27 height=39 alt=&#34;_&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/_half.gif" width=25 height=39 alt=",;:"><td>{,;:}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/_half.gif&#34; width=25 height=39 alt=&#34;,;:&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/_full.gif" width=25 height=39 alt=".?!"><td>{.?!}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/_full.gif&#34; width=25 height=39 alt=&#34;.?!&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/_empire.gif" width=39 height=39 alt="¶"><td>{¶}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/_empire.gif&#34; width=39 height=39 alt=&#34;¶&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/_empire2.gif" width=32 height=39 alt="¶"><td>{¶}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/_empire2.gif&#34; width=32 height=39 alt=&#34;¶&#34;&gt;</code></tr>
+  <tr><td><img src="bg1/_ka.gif" width=44 height=39 alt="¶"><td>{¶}</td>
+    <td><code>&lt;img src=&#34;piq/bg1/_ka.gif&#34; width=44 height=39 alt=&#34;¶&#34;&gt;</code></tr>
+</table>
+
+
+[bg2] `bg2`
+-----------
+<table>
+  <tr><td><img src="bg2/a.gif" width=42 height=39 alt="a"><td>{a}</td>
+    <td><code>&lt;img src=&#34;bg2/a.gif&#34; width=42 height=39 alt=&#34;a&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/b.gif" width=39 height=39 alt="b"><td>{b}</td>
+    <td><code>&lt;img src=&#34;bg2/b.gif&#34; width=39 height=39 alt=&#34;b&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/ch.gif" width=46 height=39 alt="ch"><td>{ch}</td>
+    <td><code>&lt;img src=&#34;bg2/ch.gif&#34; width=46 height=39 alt=&#34;ch&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/d.gif" width=33 height=39 alt="D"><td>{D}</td>
+    <td><code>&lt;img src=&#34;bg2/d.gif&#34; width=33 height=39 alt=&#34;D&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/e.gif" width=29 height=39 alt="e"><td>{e}</td>
+    <td><code>&lt;img src=&#34;bg2/e.gif&#34; width=29 height=39 alt=&#34;e&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/gh.gif" width=49 height=39 alt="gh"><td>{gh}</td>
+    <td><code>&lt;img src=&#34;bg2/gh.gif&#34; width=49 height=39 alt=&#34;gh&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/h.gif" width=20 height=39 alt="H"><td>{H}</td>
+    <td><code>&lt;img src=&#34;bg2/h.gif&#34; width=20 height=39 alt=&#34;H&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/i.gif" width=32 height=39 alt="I"><td>{I}</td>
+    <td><code>&lt;img src=&#34;bg2/i.gif&#34; width=32 height=39 alt=&#34;I&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/j.gif" width=41 height=39 alt="j"><td>{j}</td>
+    <td><code>&lt;img src=&#34;bg2/j.gif&#34; width=41 height=39 alt=&#34;j&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/l.gif" width=31 height=39 alt="l"><td>{l}</td>
+    <td><code>&lt;img src=&#34;bg2/l.gif&#34; width=31 height=39 alt=&#34;l&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/m.gif" width=27 height=39 alt="m"><td>{m}</td>
+    <td><code>&lt;img src=&#34;bg2/m.gif&#34; width=27 height=39 alt=&#34;m&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/n.gif" width=29 height=39 alt="n"><td>{n}</td>
+    <td><code>&lt;img src=&#34;bg2/n.gif&#34; width=29 height=39 alt=&#34;n&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/ng.gif" width=41 height=39 alt="ng"><td>{ng}</td>
+    <td><code>&lt;img src=&#34;bg2/ng.gif&#34; width=41 height=39 alt=&#34;ng&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/o.gif" width=34 height=39 alt="o"><td>{o}</td>
+    <td><code>&lt;img src=&#34;bg2/o.gif&#34; width=34 height=39 alt=&#34;o&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/p.gif" width=31 height=39 alt="p"><td>{p}</td>
+    <td><code>&lt;img src=&#34;bg2/p.gif&#34; width=31 height=39 alt=&#34;p&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/q.gif" width=18 height=39 alt="q"><td>{q}</td>
+    <td><code>&lt;img src=&#34;bg2/q.gif&#34; width=18 height=39 alt=&#34;q&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/qh.gif" width=33 height=39 alt="Q"><td>{Q}</td>
+    <td><code>&lt;img src=&#34;bg2/qh.gif&#34; width=33 height=39 alt=&#34;Q&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/r.gif" width=36 height=39 alt="r"><td>{r}</td>
+    <td><code>&lt;img src=&#34;bg2/r.gif&#34; width=36 height=39 alt=&#34;r&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/s.gif" width=40 height=39 alt="S"><td>{S}</td>
+    <td><code>&lt;img src=&#34;bg2/s.gif&#34; width=40 height=39 alt=&#34;S&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/t.gif" width=42 height=39 alt="t"><td>{t}</td>
+    <td><code>&lt;img src=&#34;bg2/t.gif&#34; width=42 height=39 alt=&#34;t&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/tlh.gif" width=36 height=39 alt="tlh"><td>{tlh}</td>
+    <td><code>&lt;img src=&#34;bg2/tlh.gif&#34; width=36 height=39 alt=&#34;tlh&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/u.gif" width=40 height=39 alt="u"><td>{u}</td>
+    <td><code>&lt;img src=&#34;bg2/u.gif&#34; width=40 height=39 alt=&#34;u&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/v.gif" width=50 height=39 alt="v"><td>{v}</td>
+    <td><code>&lt;img src=&#34;bg2/v.gif&#34; width=50 height=39 alt=&#34;v&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/w.gif" width=35 height=39 alt="w"><td>{w}</td>
+    <td><code>&lt;img src=&#34;bg2/w.gif&#34; width=35 height=39 alt=&#34;w&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/y.gif" width=37 height=39 alt="y"><td>{y}</td>
+    <td><code>&lt;img src=&#34;bg2/y.gif&#34; width=37 height=39 alt=&#34;y&#34;&gt;</code></tr>
+  <tr><td><img src="bg2/z.gif" width=11 height=39 alt="'"><td>{'}</td>
+    <td><code>&lt;img src=&#34;bg2/z.gif&#34; width=11 height=39 alt=&#34;'&#34;&gt;</code></tr>
+  <tr><td><td>{0}</td>
+    <td><i>No number zero available at present.</i></tr>
+  <tr><td><td>{1}</td>
+    <td><i>No number one available at present.</i></tr>
+  <tr><td><td>{2}</td>
+    <td><i>No number two available at present.</i></tr>
+  <tr><td><td>{3}</td>
+    <td><i>No number three available at present.</i></tr>
+  <tr><td><td>{4}</td>
+    <td><i>No number four available at present.</i></tr>
+  <tr><td><td>{5}</td>
+    <td><i>No number five available at present.</i></tr>
+  <tr><td><td>{6}</td>
+    <td><i>No number six available at present.</i></tr>
+  <tr><td><td>{7}</td>
+    <td><i>No number seven available at present.</i></tr>
+  <tr><td><td>{8}</td>
+    <td><i>No number eight available at present.</i></tr>
+  <tr><td><td>{9}</td>
+    <td><i>No number niner available at present.</i></tr>
+  <tr><td><td>{ }</td>
+    <td><i>No space available at present.</i></tr>
+  <tr><td><td>{,;:}</td>
+    <td><i>No half stop (comma/semicolon/colon) available at present.</i></tr>
+  <tr><td><td>{.?!}</td>
+    <td><i>No full stop (period/question mark/exclamation mark) available at present.</i></tr>
+  <tr><td><td>{¶}</td>
+    <td><i>No empire symbol available at present.</i></tr>
+</table>
+
+
+[sml] `sml`
+-----------
+<table>
+  <tr><td><img src="sml/a.gif" width=14 height=19 alt="a"><td>{a}</td>
+    <td><code>&lt;img src=&#34;sml/a.gif&#34; width=14 height=19 alt=&#34;a&#34;&gt;</code></tr>
+  <tr><td><img src="sml/b.gif" width=14 height=19 alt="b"><td>{b}</td>
+    <td><code>&lt;img src=&#34;sml/b.gif&#34; width=14 height=19 alt=&#34;b&#34;&gt;</code></tr>
+  <tr><td><img src="sml/ch.gif" width=16 height=19 alt="ch"><td>{ch}</td>
+    <td><code>&lt;img src=&#34;sml/ch.gif&#34; width=16 height=19 alt=&#34;ch&#34;&gt;</code></tr>
+  <tr><td><img src="sml/d.gif" width=12 height=19 alt="D"><td>{D}</td>
+    <td><code>&lt;img src=&#34;sml/d.gif&#34; width=12 height=19 alt=&#34;D&#34;&gt;</code></tr>
+  <tr><td><img src="sml/e.gif" width=11 height=19 alt="e"><td>{e}</td>
+    <td><code>&lt;img src=&#34;sml/e.gif&#34; width=11 height=19 alt=&#34;e&#34;&gt;</code></tr>
+  <tr><td><img src="sml/gh.gif" width=16 height=19 alt="gh"><td>{gh}</td>
+    <td><code>&lt;img src=&#34;sml/gh.gif&#34; width=16 height=19 alt=&#34;gh&#34;&gt;</code></tr>
+  <tr><td><img src="sml/h.gif" width=9 height=19 alt="H"><td>{H}</td>
+    <td><code>&lt;img src=&#34;sml/h.gif&#34; width=9 height=19 alt=&#34;H&#34;&gt;</code></tr>
+  <tr><td><img src="sml/i.gif" width=14 height=19 alt="I"><td>{I}</td>
+    <td><code>&lt;img src=&#34;sml/i.gif&#34; width=14 height=19 alt=&#34;I&#34;&gt;</code></tr>
+  <tr><td><img src="sml/j.gif" width=14 height=19 alt="j"><td>{j}</td>
+    <td><code>&lt;img src=&#34;sml/j.gif&#34; width=14 height=19 alt=&#34;j&#34;&gt;</code></tr>
+  <tr><td><img src="sml/l.gif" width=11 height=19 alt="l"><td>{l}</td>
+    <td><code>&lt;img src=&#34;sml/l.gif&#34; width=11 height=19 alt=&#34;l&#34;&gt;</code></tr>
+  <tr><td><img src="sml/m.gif" width=13 height=19 alt="m"><td>{m}</td>
+    <td><code>&lt;img src=&#34;sml/m.gif&#34; width=13 height=19 alt=&#34;m&#34;&gt;</code></tr>
+  <tr><td><img src="sml/n.gif" width=12 height=19 alt="n"><td>{n}</td>
+    <td><code>&lt;img src=&#34;sml/n.gif&#34; width=12 height=19 alt=&#34;n&#34;&gt;</code></tr>
+  <tr><td><img src="sml/ng.gif" width=17 height=19 alt="ng"><td>{ng}</td>
+    <td><code>&lt;img src=&#34;sml/ng.gif&#34; width=17 height=19 alt=&#34;ng&#34;&gt;</code></tr>
+  <tr><td><img src="sml/o.gif" width=15 height=19 alt="o"><td>{o}</td>
+    <td><code>&lt;img src=&#34;sml/o.gif&#34; width=15 height=19 alt=&#34;o&#34;&gt;</code></tr>
+  <tr><td><img src="sml/p.gif" width=11 height=19 alt="p"><td>{p}</td>
+    <td><code>&lt;img src=&#34;sml/p.gif&#34; width=11 height=19 alt=&#34;p&#34;&gt;</code></tr>
+  <tr><td><img src="sml/q.gif" width=8 height=19 alt="q"><td>{q}</td>
+    <td><code>&lt;img src=&#34;sml/q.gif&#34; width=8 height=19 alt=&#34;q&#34;&gt;</code></tr>
+  <tr><td><img src="sml/qh.gif" width=12 height=19 alt="Q"><td>{Q}</td>
+    <td><code>&lt;img src=&#34;sml/qh.gif&#34; width=12 height=19 alt=&#34;Q&#34;&gt;</code></tr>
+  <tr><td><img src="sml/r.gif" width=13 height=19 alt="r"><td>{r}</td>
+    <td><code>&lt;img src=&#34;sml/r.gif&#34; width=13 height=19 alt=&#34;r&#34;&gt;</code></tr>
+  <tr><td><img src="sml/s.gif" width=14 height=19 alt="S"><td>{S}</td>
+    <td><code>&lt;img src=&#34;sml/s.gif&#34; width=14 height=19 alt=&#34;S&#34;&gt;</code></tr>
+  <tr><td><img src="sml/t.gif" width=15 height=19 alt="t"><td>{t}</td>
+    <td><code>&lt;img src=&#34;sml/t.gif&#34; width=15 height=19 alt=&#34;t&#34;&gt;</code></tr>
+  <tr><td><img src="sml/tlh.gif" width=16 height=19 alt="tlh"><td>{tlh}</td>
+    <td><code>&lt;img src=&#34;sml/tlh.gif&#34; width=16 height=19 alt=&#34;tlh&#34;&gt;</code></tr>
+  <tr><td><img src="sml/u.gif" width=14 height=19 alt="u"><td>{u}</td>
+    <td><code>&lt;img src=&#34;sml/u.gif&#34; width=14 height=19 alt=&#34;u&#34;&gt;</code></tr>
+  <tr><td><img src="sml/v.gif" width=19 height=19 alt="v"><td>{v}</td>
+    <td><code>&lt;img src=&#34;sml/v.gif&#34; width=19 height=19 alt=&#34;v&#34;&gt;</code></tr>
+  <tr><td><img src="sml/w.gif" width=14 height=19 alt="w"><td>{w}</td>
+    <td><code>&lt;img src=&#34;sml/w.gif&#34; width=14 height=19 alt=&#34;w&#34;&gt;</code></tr>
+  <tr><td><img src="sml/y.gif" width=15 height=19 alt="y"><td>{y}</td>
+    <td><code>&lt;img src=&#34;sml/y.gif&#34; width=15 height=19 alt=&#34;y&#34;&gt;</code></tr>
+  <tr><td><img src="sml/z.gif" width=6 height=19 alt="'"><td>{'}</td>
+    <td><code>&lt;img src=&#34;sml/z.gif&#34; width=6 height=19 alt=&#34;'&#34;&gt;</code></tr>
+  <tr><td><img src="sml/0.gif" width=15 height=19 alt="0"><td>{0}</td>
+    <td><code>&lt;img src=&#34;sml/0.gif&#34; width=15 height=19 alt=&#34;0&#34;&gt;</code></tr>
+  <tr><td><img src="sml/1.gif" width=15 height=19 alt="1"><td>{1}</td>
+    <td><code>&lt;img src=&#34;sml/1.gif&#34; width=15 height=19 alt=&#34;1&#34;&gt;</code></tr>
+  <tr><td><img src="sml/2.gif" width=9 height=19 alt="2"><td>{2}</td>
+    <td><code>&lt;img src=&#34;sml/2.gif&#34; width=9 height=19 alt=&#34;2&#34;&gt;</code></tr>
+  <tr><td><img src="sml/3.gif" width=12 height=19 alt="3"><td>{3}</td>
+    <td><code>&lt;img src=&#34;sml/3.gif&#34; width=12 height=19 alt=&#34;3&#34;&gt;</code></tr>
+  <tr><td><img src="sml/4.gif" width=15 height=19 alt="4"><td>{4}</td>
+    <td><code>&lt;img src=&#34;sml/4.gif&#34; width=15 height=19 alt=&#34;4&#34;&gt;</code></tr>
+  <tr><td><img src="sml/5.gif" width=10 height=19 alt="5"><td>{5}</td>
+    <td><code>&lt;img src=&#34;sml/5.gif&#34; width=10 height=19 alt=&#34;5&#34;&gt;</code></tr>
+  <tr><td><img src="sml/6.gif" width=16 height=19 alt="6"><td>{6}</td>
+    <td><code>&lt;img src=&#34;sml/6.gif&#34; width=16 height=19 alt=&#34;6&#34;&gt;</code></tr>
+  <tr><td><img src="sml/7.gif" width=12 height=19 alt="7"><td>{7}</td>
+    <td><code>&lt;img src=&#34;sml/7.gif&#34; width=12 height=19 alt=&#34;7&#34;&gt;</code></tr>
+  <tr><td><img src="sml/8.gif" width=18 height=19 alt="8"><td>{8}</td>
+    <td><code>&lt;img src=&#34;sml/8.gif&#34; width=18 height=19 alt=&#34;8&#34;&gt;</code></tr>
+  <tr><td><img src="sml/9.gif" width=12 height=19 alt="9"><td>{9}</td>
+    <td><code>&lt;img src=&#34;sml/9.gif&#34; width=12 height=19 alt=&#34;9&#34;&gt;</code></tr>
+  <tr><td><img src="sml/_space.gif" width=11 height=19 alt=" "><td>{ }</td>
+    <td><code>&lt;img src=&#34;sml/_space.gif&#34; width=11 height=19 alt=&#34; &#34;&gt;</code></tr>
+  <tr><td><img src="sml/_half.gif" width=12 height=19 alt=",;:"><td>{,;:}</td>
+    <td><code>&lt;img src=&#34;sml/_half.gif&#34; width=12 height=19 alt=&#34;,;:&#34;&gt;</code></tr>
+  <tr><td><img src="sml/_full.gif" width=12 height=19 alt=".?!"><td>{.?!}</td>
+    <td><code>&lt;img src=&#34;sml/_full.gif&#34; width=12 height=19 alt=&#34;.?!&#34;&gt;</code></tr>
+  <tr><td><img src="sml/_empire.gif" width=17 height=19 alt="¶"><td>{¶}</td>
+    <td><code>&lt;img src=&#34;sml/_empire.gif&#34; width=17 height=19 alt=&#34;¶&#34;&gt;</code></tr>
+</table>
+
+<table>
+  <tr><th colspan=3>Special Symbols</tr>
+  <tr>
+    <td><img src="sml/_hypen.gif" width=9 height=19 alt="-"><td>{-}</td>
+    <td><code>&lt;img src=&#34;sml/_hypen.gif&#34; width=9 height=19 alt=&#34;-&#34;&gt;</code></tr>
+  <tr>
+    <td><img src="sml/_tilde.gif" width=13 height=19 alt="~"><td>{~}</td>
+    <td><code>&lt;img src=&#34;sml/_tilde.gif&#34; width=13 height=19 alt=&#34;~&#34;&gt;</code></tr>
+  <tr>
+    <td><img src="sml/_slash.gif" width=8 height=19 alt="/"><td>{/}</td>
+    <td><code>&lt;img src=&#34;sml/_slash.gif&#34; width=8 height=19 alt=&#34;/&#34;&gt;</code></tr>
+</table>
+
+These are my own inventions, not a part of the Klingon language. I
+use <img src="sml/_hypen.gif" width=9 height=19 alt="-" align=top> to indicate
+that a syllable is an affix and not a word in it
+self, <img src="sml/_tilde.gif" width=13 height=19 alt="~" align=top> replaces
+the look-up word in the dictionary, The slash is used to separate different
+words in for example a table.
+
+
+[smpl] `smpl`
+-------------
+<table>
+  <tr><td><img src="smpl/a.gif" width=44 height=39 alt="a"><td>{a}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/a.gif&#34; width=44 height=39 alt=&#34;a&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/b.gif" width=36 height=39 alt="b"><td>{b}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/b.gif&#34; width=36 height=39 alt=&#34;b&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/ch.gif" width=61 height=39 alt="ch"><td>{ch}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/ch.gif&#34; width=61 height=39 alt=&#34;ch&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/d.gif" width=42 height=39 alt="D"><td>{D}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/d.gif&#34; width=42 height=39 alt=&#34;D&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/e.gif" width=38 height=39 alt="e"><td>{e}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/e.gif&#34; width=38 height=39 alt=&#34;e&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/gh.gif" width=37 height=39 alt="gh"><td>{gh}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/gh.gif&#34; width=37 height=39 alt=&#34;gh&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/h.gif" width=40 height=39 alt="H"><td>{H}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/h.gif&#34; width=40 height=39 alt=&#34;H&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/i.gif" width=38 height=39 alt="I"><td>{I}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/i.gif&#34; width=38 height=39 alt=&#34;I&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/j.gif" width=40 height=39 alt="j"><td>{j}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/j.gif&#34; width=40 height=39 alt=&#34;j&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/l.gif" width=37 height=39 alt="l"><td>{l}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/l.gif&#34; width=37 height=39 alt=&#34;l&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/m.gif" width=40 height=39 alt="m"><td>{m}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/m.gif&#34; width=40 height=39 alt=&#34;m&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/n.gif" width=34 height=39 alt="n"><td>{n}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/n.gif&#34; width=34 height=39 alt=&#34;n&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/ng.gif" width=37 height=39 alt="ng"><td>{ng}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/ng.gif&#34; width=37 height=39 alt=&#34;ng&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/o.gif" width=38 height=39 alt="o"><td>{o}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/o.gif&#34; width=38 height=39 alt=&#34;o&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/p.gif" width=38 height=39 alt="p"><td>{p}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/p.gif&#34; width=38 height=39 alt=&#34;p&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/q.gif" width=29 height=39 alt="q"><td>{q}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/q.gif&#34; width=29 height=39 alt=&#34;q&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/qh.gif" width=27 height=39 alt="Q"><td>{Q}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/qh.gif&#34; width=27 height=39 alt=&#34;Q&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/r.gif" width=30 height=39 alt="r"><td>{r}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/r.gif&#34; width=30 height=39 alt=&#34;r&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/s.gif" width=39 height=39 alt="S"><td>{S}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/s.gif&#34; width=39 height=39 alt=&#34;S&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/t.gif" width=31 height=39 alt="t"><td>{t}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/t.gif&#34; width=31 height=39 alt=&#34;t&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/tlh.gif" width=34 height=39 alt="tlh"><td>{tlh}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/tlh.gif&#34; width=34 height=39 alt=&#34;tlh&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/u.gif" width=41 height=39 alt="u"><td>{u}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/u.gif&#34; width=41 height=39 alt=&#34;u&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/v.gif" width=53 height=39 alt="v"><td>{v}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/v.gif&#34; width=53 height=39 alt=&#34;v&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/w.gif" width=36 height=39 alt="w"><td>{w}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/w.gif&#34; width=36 height=39 alt=&#34;w&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/y.gif" width=37 height=39 alt="y"><td>{y}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/y.gif&#34; width=37 height=39 alt=&#34;y&#34;&gt;</code></tr>
+  <tr><td><img src="smpl/z.gif" width=11 height=39 alt="'"><td>{'}</td>
+    <td><code>&lt;img src=&#34;piq/smpl/z.gif&#34; width=11 height=39 alt=&#34;'&#34;&gt;</code></tr>
+  <tr><td><td>{0}</td>
+    <td><i>No number zero available at present.</i></tr>
+  <tr><td><td>{1}</td>
+    <td><i>No number one available at present.</i></tr>
+  <tr><td><td>{2}</td>
+    <td><i>No number two available at present.</i></tr>
+  <tr><td><td>{3}</td>
+    <td><i>No number three available at present.</i></tr>
+  <tr><td><td>{4}</td>
+    <td><i>No number four available at present.</i></tr>
+  <tr><td><td>{5}</td>
+    <td><i>No number five available at present.</i></tr>
+  <tr><td><td>{6}</td>
+    <td><i>No number six available at present.</i></tr>
+  <tr><td><td>{7}</td>
+    <td><i>No number seven available at present.</i></tr>
+  <tr><td><td>{8}</td>
+    <td><i>No number eight available at present.</i></tr>
+  <tr><td><td>{9}</td>
+    <td><i>No number niner available at present.</i></tr>
+  <tr><td><td>{ }</td>
+    <td><i>No space available at present.</i></tr>
+  <tr><td><td>{,;:}</td>
+    <td><i>No half stop (comma/semicolon/colon) available at present.</i></tr>
+  <tr><td><td>{.?!}</td>
+    <td><i>No full stop (period/question mark/exclamation mark) available at present.</i></tr>
+  <tr><td><td>{¶}</td>
+    <td><i>No empire symbol available at present.</i></tr>
+</table>
+
+
+[fncy] `fncy`
+-------------
+<table>
+  <tr><td><img src="fncy/a.gif" width=30 height=39 alt="a"><td>{a}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/a.gif&#34; width=30 height=39 alt=&#34;a&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/b.gif" width=26 height=39 alt="b"><td>{b}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/b.gif&#34; width=26 height=39 alt=&#34;b&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/ch.gif" width=38 height=39 alt="ch"><td>{ch}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/ch.gif&#34; width=38 height=39 alt=&#34;ch&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/d.gif" width=22 height=39 alt="D"><td>{D}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/d.gif&#34; width=22 height=39 alt=&#34;D&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/e.gif" width=24 height=39 alt="e"><td>{e}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/e.gif&#34; width=24 height=39 alt=&#34;e&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/gh.gif" width=21 height=39 alt="gh"><td>{gh}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/gh.gif&#34; width=21 height=39 alt=&#34;gh&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/h.gif" width=19 height=39 alt="H"><td>{H}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/h.gif&#34; width=19 height=39 alt=&#34;H&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/i.gif" width=17 height=39 alt="I"><td>{I}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/i.gif&#34; width=17 height=39 alt=&#34;I&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/j.gif" width=24 height=39 alt="j"><td>{j}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/j.gif&#34; width=24 height=39 alt=&#34;j&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/l.gif" width=26 height=39 alt="l"><td>{l}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/l.gif&#34; width=26 height=39 alt=&#34;l&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/m.gif" width=27 height=39 alt="m"><td>{m}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/m.gif&#34; width=27 height=39 alt=&#34;m&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/n.gif" width=28 height=39 alt="n"><td>{n}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/n.gif&#34; width=28 height=39 alt=&#34;n&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/ng.gif" width=27 height=39 alt="ng"><td>{ng}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/ng.gif&#34; width=27 height=39 alt=&#34;ng&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/o.gif" width=23 height=39 alt="o"><td>{o}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/o.gif&#34; width=23 height=39 alt=&#34;o&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/p.gif" width=36 height=39 alt="p"><td>{p}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/p.gif&#34; width=36 height=39 alt=&#34;p&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/q.gif" width=17 height=39 alt="q"><td>{q}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/q.gif&#34; width=17 height=39 alt=&#34;q&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/qh.gif" width=23 height=39 alt="Q"><td>{Q}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/qh.gif&#34; width=23 height=39 alt=&#34;Q&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/r.gif" width=21 height=39 alt="r"><td>{r}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/r.gif&#34; width=21 height=39 alt=&#34;r&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/s.gif" width=32 height=39 alt="S"><td>{S}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/s.gif&#34; width=32 height=39 alt=&#34;S&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/t.gif" width=34 height=39 alt="t"><td>{t}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/t.gif&#34; width=34 height=39 alt=&#34;t&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/tlh.gif" width=35 height=39 alt="tlh"><td>{tlh}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/tlh.gif&#34; width=35 height=39 alt=&#34;tlh&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/u.gif" width=31 height=39 alt="u"><td>{u}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/u.gif&#34; width=31 height=39 alt=&#34;u&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/v.gif" width=38 height=39 alt="v"><td>{v}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/v.gif&#34; width=38 height=39 alt=&#34;v&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/w.gif" width=26 height=39 alt="w"><td>{w}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/w.gif&#34; width=26 height=39 alt=&#34;w&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/y.gif" width=34 height=39 alt="y"><td>{y}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/y.gif&#34; width=34 height=39 alt=&#34;y&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/z.gif" width=7 height=39 alt="'"><td>{'}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/z.gif&#34; width=7 height=39 alt=&#34;'&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/0.gif" width=25 height=39 alt="0"><td>{0}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/0.gif&#34; width=25 height=39 alt=&#34;0&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/1.gif" width=34 height=39 alt="1"><td>{1}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/1.gif&#34; width=34 height=39 alt=&#34;1&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/2.gif" width=19 height=39 alt="2"><td>{2}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/2.gif&#34; width=19 height=39 alt=&#34;2&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/3.gif" width=27 height=39 alt="3"><td>{3}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/3.gif&#34; width=27 height=39 alt=&#34;3&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/4.gif" width=36 height=39 alt="4"><td>{4}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/4.gif&#34; width=36 height=39 alt=&#34;4&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/5.gif" width=17 height=39 alt="5"><td>{5}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/5.gif&#34; width=17 height=39 alt=&#34;5&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/6.gif" width=28 height=39 alt="6"><td>{6}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/6.gif&#34; width=28 height=39 alt=&#34;6&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/7.gif" width=25 height=39 alt="7"><td>{7}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/7.gif&#34; width=25 height=39 alt=&#34;7&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/8.gif" width=39 height=39 alt="8"><td>{8}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/8.gif&#34; width=39 height=39 alt=&#34;8&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/9.gif" width=23 height=39 alt="9"><td>{9}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/9.gif&#34; width=23 height=39 alt=&#34;9&#34;&gt;</code></tr>
+  <tr><td><td>{ }</td>
+    <td><i>No space available at present.</i></tr>
+  <tr><td><img src="fncy/_half.gif" width=20 height=39 alt=",;:"><td>{,;:}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/_half.gif&#34; width=20 height=39 alt=&#34;,;:&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/_full.gif" width=17 height=39 alt=".?!"><td>{.?!}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/_full.gif&#34; width=17 height=39 alt=&#34;.?!&#34;&gt;</code></tr>
+  <tr><td><img src="fncy/_empire.gif" width=39 height=39 alt="¶"><td>{¶}</td>
+    <td><code>&lt;img src=&#34;piq/fncy/_empire.gif&#34; width=39 height=39 alt=&#34;¶&#34;&gt;</code></tr>
+</table>
+
+
+[rom] `rom`
+-----------
+<table>
+  <tr><td><img src="rom/a.gif" width=14 height=39 alt="a"><td>{a}</td>
+    <td><code>&lt;img src=&#34;piq/rom/a.gif&#34; width=14 height=39 alt=&#34;a&#34;&gt;</code></tr>
+  <tr><td><img src="rom/b.gif" width=15 height=39 alt="b"><td>{b}</td>
+    <td><code>&lt;img src=&#34;piq/rom/b.gif&#34; width=15 height=39 alt=&#34;b&#34;&gt;</code></tr>
+  <tr><td><img src="rom/ch.gif" width=29 height=39 alt="ch"><td>{ch}</td>
+    <td><code>&lt;img src=&#34;piq/rom/ch.gif&#34; width=29 height=39 alt=&#34;ch&#34;&gt;</code></tr>
+  <tr><td><img src="rom/d.gif" width=21 height=39 alt="D"><td>{D}</td>
+    <td><code>&lt;img src=&#34;piq/rom/d.gif&#34; width=21 height=39 alt=&#34;D&#34;&gt;</code></tr>
+  <tr><td><img src="rom/e.gif" width=14 height=39 alt="e"><td>{e}</td>
+    <td><code>&lt;img src=&#34;piq/rom/e.gif&#34; width=14 height=39 alt=&#34;e&#34;&gt;</code></tr>
+  <tr><td><img src="rom/gh.gif" width=31 height=39 alt="gh"><td>{gh}</td>
+    <td><code>&lt;img src=&#34;piq/rom/gh.gif&#34; width=31 height=39 alt=&#34;gh&#34;&gt;</code></tr>
+  <tr><td><img src="rom/h.gif" width=23 height=39 alt="H"><td>{H}</td>
+    <td><code>&lt;img src=&#34;piq/rom/h.gif&#34; width=23 height=39 alt=&#34;H&#34;&gt;</code></tr>
+  <tr><td><img src="rom/i.gif" width=9 height=39 alt="I"><td>{I}</td>
+    <td><code>&lt;img src=&#34;piq/rom/i.gif&#34; width=9 height=39 alt=&#34;I&#34;&gt;</code></tr>
+  <tr><td><img src="rom/j.gif" width=8 height=39 alt="j"><td>{j}</td>
+    <td><code>&lt;img src=&#34;piq/rom/j.gif&#34; width=8 height=39 alt=&#34;j&#34;&gt;</code></tr>
+  <tr><td><img src="rom/l.gif" width=7 height=39 alt="l"><td>{l}</td>
+    <td><code>&lt;img src=&#34;piq/rom/l.gif&#34; width=7 height=39 alt=&#34;l&#34;&gt;</code></tr>
+  <tr><td><img src="rom/m.gif" width=23 height=39 alt="m"><td>{m}</td>
+    <td><code>&lt;img src=&#34;piq/rom/m.gif&#34; width=23 height=39 alt=&#34;m&#34;&gt;</code></tr>
+  <tr><td><img src="rom/n.gif" width=15 height=39 alt="n"><td>{n}</td>
+    <td><code>&lt;img src=&#34;piq/rom/n.gif&#34; width=15 height=39 alt=&#34;n&#34;&gt;</code></tr>
+  <tr><td><img src="rom/ng.gif" width=31 height=39 alt="ng"><td>{ng}</td>
+    <td><code>&lt;img src=&#34;piq/rom/ng.gif&#34; width=31 height=39 alt=&#34;ng&#34;&gt;</code></tr>
+  <tr><td><img src="rom/o.gif" width=16 height=39 alt="o"><td>{o}</td>
+    <td><code>&lt;img src=&#34;piq/rom/o.gif&#34; width=16 height=39 alt=&#34;o&#34;&gt;</code></tr>
+  <tr><td><img src="rom/p.gif" width=15 height=39 alt="p"><td>{p}</td>
+    <td><code>&lt;img src=&#34;piq/rom/p.gif&#34; width=15 height=39 alt=&#34;p&#34;&gt;</code></tr>
+  <tr><td><img src="rom/q.gif" width=15 height=39 alt="q"><td>{q}</td>
+    <td><code>&lt;img src=&#34;piq/rom/q.gif&#34; width=15 height=39 alt=&#34;q&#34;&gt;</code></tr>
+  <tr><td><img src="rom/qh.gif" width=23 height=39 alt="Q"><td>{Q}</td>
+    <td><code>&lt;img src=&#34;piq/rom/qh.gif&#34; width=23 height=39 alt=&#34;Q&#34;&gt;</code></tr>
+  <tr><td><img src="rom/r.gif" width=10 height=39 alt="r"><td>{r}</td>
+    <td><code>&lt;img src=&#34;piq/rom/r.gif&#34; width=10 height=39 alt=&#34;r&#34;&gt;</code></tr>
+  <tr><td><img src="rom/s.gif" width=17 height=39 alt="S"><td>{S}</td>
+    <td><code>&lt;img src=&#34;piq/rom/s.gif&#34; width=17 height=39 alt=&#34;S&#34;&gt;</code></tr>
+  <tr><td><img src="rom/t.gif" width=12 height=39 alt="t"><td>{t}</td>
+    <td><code>&lt;img src=&#34;piq/rom/t.gif&#34; width=12 height=39 alt=&#34;t&#34;&gt;</code></tr>
+  <tr><td><img src="rom/tlh.gif" width=32 height=39 alt="tlh"><td>{tlh}</td>
+    <td><code>&lt;img src=&#34;piq/rom/tlh.gif&#34; width=32 height=39 alt=&#34;tlh&#34;&gt;</code></tr>
+  <tr><td><img src="rom/u.gif" width=15 height=39 alt="u"><td>{u}</td>
+    <td><code>&lt;img src=&#34;piq/rom/u.gif&#34; width=15 height=39 alt=&#34;u&#34;&gt;</code></tr>
+  <tr><td><img src="rom/v.gif" width=15 height=39 alt="v"><td>{v}</td>
+    <td><code>&lt;img src=&#34;piq/rom/v.gif&#34; width=15 height=39 alt=&#34;v&#34;&gt;</code></tr>
+  <tr><td><img src="rom/w.gif" width=22 height=39 alt="w"><td>{w}</td>
+    <td><code>&lt;img src=&#34;piq/rom/w.gif&#34; width=22 height=39 alt=&#34;w&#34;&gt;</code></tr>
+  <tr><td><img src="rom/y.gif" width=17 height=39 alt="y"><td>{y}</td>
+    <td><code>&lt;img src=&#34;piq/rom/y.gif&#34; width=17 height=39 alt=&#34;y&#34;&gt;</code></tr>
+  <tr><td><img src="rom/z.gif" width=7 height=39 alt="'"><td>{'}</td>
+    <td><code>&lt;img src=&#34;piq/rom/z.gif&#34; width=7 height=39 alt=&#34;'&#34;&gt;</code></tr>
+  <tr><td><img src="rom/0.gif" width=16 height=39 alt="0"><td>{0}</td>
+    <td><code>&lt;img src=&#34;piq/rom/0.gif&#34; width=16 height=39 alt=&#34;0&#34;&gt;</code></tr>
+  <tr><td><img src="rom/1.gif" width=13 height=39 alt="1"><td>{1}</td>
+    <td><code>&lt;img src=&#34;piq/rom/1.gif&#34; width=13 height=39 alt=&#34;1&#34;&gt;</code></tr>
+  <tr><td><img src="rom/2.gif" width=16 height=39 alt="2"><td>{2}</td>
+    <td><code>&lt;img src=&#34;piq/rom/2.gif&#34; width=16 height=39 alt=&#34;2&#34;&gt;</code></tr>
+  <tr><td><img src="rom/3.gif" width=14 height=39 alt="3"><td>{3}</td>
+    <td><code>&lt;img src=&#34;piq/rom/3.gif&#34; width=14 height=39 alt=&#34;3&#34;&gt;</code></tr>
+  <tr><td><img src="rom/4.gif" width=16 height=39 alt="4"><td>{4}</td>
+    <td><code>&lt;img src=&#34;piq/rom/4.gif&#34; width=16 height=39 alt=&#34;4&#34;&gt;</code></tr>
+  <tr><td><img src="rom/5.gif" width=16 height=39 alt="5"><td>{5}</td>
+    <td><code>&lt;img src=&#34;piq/rom/5.gif&#34; width=16 height=39 alt=&#34;5&#34;&gt;</code></tr>
+  <tr><td><img src="rom/6.gif" width=16 height=39 alt="6"><td>{6}</td>
+    <td><code>&lt;img src=&#34;piq/rom/6.gif&#34; width=16 height=39 alt=&#34;6&#34;&gt;</code></tr>
+  <tr><td><img src="rom/7.gif" width=16 height=39 alt="7"><td>{7}</td>
+    <td><code>&lt;img src=&#34;piq/rom/7.gif&#34; width=16 height=39 alt=&#34;7&#34;&gt;</code></tr>
+  <tr><td><img src="rom/8.gif" width=16 height=39 alt="8"><td>{8}</td>
+    <td><code>&lt;img src=&#34;piq/rom/8.gif&#34; width=16 height=39 alt=&#34;8&#34;&gt;</code></tr>
+  <tr><td><img src="rom/9.gif" width=16 height=39 alt="9"><td>{9}</td>
+    <td><code>&lt;img src=&#34;piq/rom/9.gif&#34; width=16 height=39 alt=&#34;9&#34;&gt;</code></tr>
+  <tr><td><td>{ }</td>
+    <td><i>No space available at present.</i></tr>
+  <tr><td><td>{,;:}</td>
+    <td><i>No half stop (comma/semicolon/colon) available at present.</i></tr>
+  <tr><td><td>{.?!}</td>
+    <td><i>No full stop (period/question mark/exclamation mark) available at present.</i></tr>
+  <tr><td><td>{¶}</td>
+    <td><i>No empire symbol available at present.</i></tr>
+</table>
+
+
+[ipa] `ipa`
+-----------
+<table>
+  <tr><td><img src="ipa/a.gif" width=31 height=39 alt="a"><td>{a}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/a.gif&#34; width=31 height=39 alt=&#34;a&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/b.gif" width=30 height=39 alt="b"><td>{b}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/b.gif&#34; width=30 height=39 alt=&#34;b&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/ch.gif" width=37 height=39 alt="ch"><td>{ch}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/ch.gif&#34; width=37 height=39 alt=&#34;ch&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/d.gif" width=35 height=39 alt="D"><td>{D}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/d.gif&#34; width=35 height=39 alt=&#34;D&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/e.gif" width=29 height=39 alt="e"><td>{e}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/e.gif&#34; width=29 height=39 alt=&#34;e&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/gh.gif" width=29 height=39 alt="gh"><td>{gh}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/gh.gif&#34; width=29 height=39 alt=&#34;gh&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/h.gif" width=33 height=39 alt="H"><td>{H}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/h.gif&#34; width=33 height=39 alt=&#34;H&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/i.gif" width=24 height=39 alt="I"><td>{I}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/i.gif&#34; width=24 height=39 alt=&#34;I&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/j.gif" width=44 height=39 alt="j"><td>{j}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/j.gif&#34; width=44 height=39 alt=&#34;j&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/l.gif" width=23 height=39 alt="l"><td>{l}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/l.gif&#34; width=23 height=39 alt=&#34;l&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/m.gif" width=39 height=39 alt="m"><td>{m}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/m.gif&#34; width=39 height=39 alt=&#34;m&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/n.gif" width=31 height=39 alt="n"><td>{n}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/n.gif&#34; width=31 height=39 alt=&#34;n&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/ng.gif" width=32 height=39 alt="ng"><td>{ng}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/ng.gif&#34; width=32 height=39 alt=&#34;ng&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/o.gif" width=30 height=39 alt="o"><td>{o}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/o.gif&#34; width=30 height=39 alt=&#34;o&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/p.gif" width=41 height=39 alt="p"><td>{p}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/p.gif&#34; width=41 height=39 alt=&#34;p&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/q.gif" width=41 height=39 alt="q"><td>{q}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/q.gif&#34; width=41 height=39 alt=&#34;q&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/qh.gif" width=53 height=39 alt="Q"><td>{Q}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/qh.gif&#34; width=53 height=39 alt=&#34;Q&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/r.gif" width=26 height=39 alt="r"><td>{r}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/r.gif&#34; width=26 height=39 alt=&#34;r&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/s.gif" width=28 height=39 alt="S"><td>{S}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/s.gif&#34; width=28 height=39 alt=&#34;S&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/t.gif" width=36 height=39 alt="t"><td>{t}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/t.gif&#34; width=36 height=39 alt=&#34;t&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/tlh.gif" width=38 height=39 alt="tlh"><td>{tlh}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/tlh.gif&#34; width=38 height=39 alt=&#34;tlh&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/u.gif" width=31 height=39 alt="u"><td>{u}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/u.gif&#34; width=31 height=39 alt=&#34;u&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/v.gif" width=29 height=39 alt="v"><td>{v}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/v.gif&#34; width=29 height=39 alt=&#34;v&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/w.gif" width=36 height=39 alt="w"><td>{w}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/w.gif&#34; width=36 height=39 alt=&#34;w&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/y.gif" width=26 height=39 alt="y"><td>{y}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/y.gif&#34; width=26 height=39 alt=&#34;y&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/z.gif" width=31 height=39 alt="'"><td>{'}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/z.gif&#34; width=31 height=39 alt=&#34;'&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/0.gif" width=67 height=39 alt="0"><td>{0}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/0.gif&#34; width=67 height=39 alt=&#34;0&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/1.gif" width=63 height=39 alt="1"><td>{1}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/1.gif&#34; width=63 height=39 alt=&#34;1&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/2.gif" width=62 height=39 alt="2"><td>{2}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/2.gif&#34; width=62 height=39 alt=&#34;2&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/3.gif" width=76 height=39 alt="3"><td>{3}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/3.gif&#34; width=76 height=39 alt=&#34;3&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/4.gif" width=49 height=39 alt="4"><td>{4}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/4.gif&#34; width=49 height=39 alt=&#34;4&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/5.gif" width=54 height=39 alt="5"><td>{5}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/5.gif&#34; width=54 height=39 alt=&#34;5&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/6.gif" width=70 height=39 alt="6"><td>{6}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/6.gif&#34; width=70 height=39 alt=&#34;6&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/7.gif" width=63 height=39 alt="7"><td>{7}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/7.gif&#34; width=63 height=39 alt=&#34;7&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/8.gif" width=69 height=39 alt="8"><td>{8}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/8.gif&#34; width=69 height=39 alt=&#34;8&#34;&gt;</code></tr>
+  <tr><td><img src="ipa/9.gif" width=66 height=39 alt="9"><td>{9}</td>
+    <td><code>&lt;img src=&#34;piq/ipa/9.gif&#34; width=66 height=39 alt=&#34;9&#34;&gt;</code></tr>
+</table>
+
+
+Examples
+--------
+<p class="noindent center">
+  <nobr
+    ><img src="sml/gh.gif" width=16 height=19 alt="gh"
+    ><img src="sml/i.gif" width=14 height=19 alt="I"
+    ><img src="sml/j.gif" width=14 height=19 alt="j"
+  ></nobr
+  ><img src="sml/_space.gif" width=11 height=19 alt=" "
+  ><nobr
+    ><img src="sml/q.gif" width=8 height=19 alt="q"
+    ><img src="sml/e.gif" width=11 height=19 alt="e"
+    ><img src="sml/t.gif" width=15 height=19 alt="t"
+  ></nobr
+  ><img src="sml/_space.gif" width=11 height=19 alt=" "
+  ><nobr
+    ><img src="sml/j.gif" width=14 height=19 alt="j"
+    ><img src="sml/a.gif" width=14 height=19 alt="a"
+    ><img src="sml/gh.gif" width=16 height=19 alt="gh"
+    ><img src="sml/m.gif" width=13 height=19 alt="m"
+    ><img src="sml/e.gif" width=11 height=19 alt="e"
+    ><img src="sml/y.gif" width=15 height=19 alt="y"
+    ><img src="sml/j.gif" width=14 height=19 alt="j"
+    ><img src="sml/a.gif" width=14 height=19 alt="a"
+    ><img src="sml/j.gif" width=14 height=19 alt="j"
+    ><img src="sml/_space.gif" width=11 height=19 alt=" "
+    ><img src="sml/_full.gif" width=12 height=19 alt="."
+  ></nobr>
+  <br><i>May you enemies run with fear.</i>
+  <br><small style="color:#888">[TKW p.65]</small>
+</p>
+
+
+<table style="text-align:center; vertical-align:middle;" class="prefix blank">
+  <tr>
+    <td colspan=7><h2>O   B   J   E   C   T</h2></td>
+    <td colspan=2 rowspan=2 style="vertical-align:middle"
+      ><img src="bg1/_ka.gif" width=44 height=39 alt=”¶”
+      ></td>
+  </tr>
+  <tr>
+    <td class="nobr"
+      ><img src="sml/j.gif" width=14 height=19 alt="j"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/h.gif" width=9 height=19 alt="H"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/m.gif" width=13 height=19 alt="m"
+      ><img src="sml/a.gif" width=14 height=19 alt="a"
+      ><img src="sml/h.gif" width=9 height=19 alt="H"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/s.gif" width=14 height=19 alt="S"
+      ><img src="sml/o.gif" width=15 height=19 alt="o"
+      ><img src="sml/h.gif" width=9 height=19 alt="H"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/tlh.gif" width=16 height=19 alt="tlh"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/h.gif" width=9 height=19 alt="H"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/gh.gif" width=16 height=19 alt="gh"
+      ><img src="sml/a.gif" width=14 height=19 alt="a"
+      ><img src="sml/h.gif" width=9 height=19 alt="H"
+      ><br
+      ><img src="sml/z.gif" width=6 height=19 alt="’"
+      ><img src="sml/o.gif" width=15 height=19 alt="o"
+      ><img src="sml/h.gif" width=9 height=19 alt="H"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/ch.gif" width=16 height=19 alt="ch"
+      ><img src="sml/a.gif" width=14 height=19 alt="a"
+      ><img src="sml/h.gif" width=9 height=19 alt="H"
+      ><br
+      ><img src="sml/b.gif" width=14 height=19 alt="b"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/h.gif" width=9 height=19 alt="H"
+      ></td>
+    <td class="nobr"
+      >(<img src="sml/p.gif" width=11 height=19 alt="p"
+      ><img src="sml/a.gif" width=14 height=19 alt="a"
+      ><img src="sml/gh.gif" width=16 height=19 alt="gh"
+      >)</td>
+  </tr>
+  <tr>
+    <td class="nobr"
+      ><img src="sml/h.gif" width=9 height=19 alt="H"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/gh.gif" width=16 height=19 alt="gh"
+      ><img src="sml/o.gif" width=15 height=19 alt="o"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td style="color:#888;background:#888">×</td>
+    <td style="color:#888;background:#888">×</td>
+    <td class="nobr"
+      ><img src="sml/y.gif" width=15 height=19 alt="y"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/t.gif" width=15 height=19 alt="t"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/y.gif" width=15 height=19 alt="y"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/s.gif" width=14 height=19 alt="S"
+      ><img src="sml/o.gif" width=15 height=19 alt="o"
+      ><img src="sml/h.gif" width=9 height=19 alt="H"
+      > (<img src="sml/r.gif" width=13 height=19 alt="r"
+      ><img src="sml/a.gif" width=14 height=19 alt="a"
+      ><img src="sml/z.gif" width=6 height=19 alt="’"
+      >)</td>
+    <td style="vertical-align:middle;" rowspan=9
+      ><h2 style="margin:0">S<br />U<br /> B <br />J<br />E<br />C<br />T</h2
+      ></td>
+  </tr>
+  <tr>
+    <td class="nobr"
+      ><img src="sml/h.gif" width=9 height=19 alt="H"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/gh.gif" width=16 height=19 alt="gh"
+      ><img src="sml/o.gif" width=15 height=19 alt="o"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td style="color:#888;background:#888">×</td>
+    <td style="color:#888;background:#888">×</td>
+    <td class="nobr"
+      ><img src="sml/y.gif" width=15 height=19 alt="y"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/t.gif" width=15 height=19 alt="t"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/p.gif" width=11 height=19 alt="p"
+      ><img src="sml/e.gif" width=11 height=19 alt="e"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"><img src="sml/tlh.gif" width=16 height=19 alt="tlh"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/h.gif" width=9 height=19 alt="H"
+      > (<img src="sml/r.gif" width=13 height=19 alt="r"
+      ><img src="sml/a.gif" width=14 height=19 alt="a"
+      ><img src="sml/z.gif" width=6 height=19 alt="’"
+      >)</td>
+  </tr>
+  <tr>
+    <td style="color:#888;background:#888">×</td>
+    <td style="color:#888;background:#888">×</td>
+    <td class="nobr"
+      ><img src="sml/q.gif" width=8 height=19 alt="q"
+      ><img src="sml/a.gif" width=14 height=19 alt="a"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/s.gif" width=14 height=19 alt="S"
+      ><img src="sml/a.gif" width=14 height=19 alt="a"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/v.gif" width=19 height=19 alt="v"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/v.gif" width=19 height=19 alt="v"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/j.gif" width=14 height=19 alt="j"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/j.gif" width=14 height=19 alt="j"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/h.gif" width=9 height=19 alt="H"
+      ></td>
+  </tr>
+  <tr>
+    <td style="color:#888;background:#888">×</td>
+    <td style="color:#888;background:#888">×</td>
+    <td class="nobr"
+      ><img src="sml/p.gif" width=11 height=19 alt="p"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/r.gif" width=13 height=19 alt="r"
+      ><img src="sml/e.gif" width=11 height=19 alt="e"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/w.gif" width=14 height=19 alt="w"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/d.gif" width=12 height=19 alt="D"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/m.gif" width=13 height=19 alt="m"
+      ><img src="sml/a.gif" width=14 height=19 alt="a"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/m.gif" width=13 height=19 alt="m"
+      ><img src="sml/a.gif" width=14 height=19 alt="a"
+      ><img src="sml/h.gif" width=9 height=19 alt="H"
+    ></td>
+  </tr>
+  <tr>
+    <td class="nobr"
+      ><img src="sml/ch.gif" width=16 height=19 alt="ch"
+      ><img src="sml/o.gif" width=15 height=19 alt="o"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/j.gif" width=14 height=19 alt="j"
+      ><img src="sml/u.gif" width=14 height=19 alt="u"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td style="color:#888;background:#888">×</td>
+    <td style="color:#888;background:#888">×</td>
+    <td class="nobr"
+      ><img src="sml/d.gif" width=12 height=19 alt="D"
+      ><img src="sml/a.gif" width=14 height=19 alt="a"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/d.gif" width=12 height=19 alt="D"
+      ><img src="sml/a.gif" width=14 height=19 alt="a"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/b.gif" width=14 height=19 alt="b"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/s.gif" width=14 height=19 alt="S"
+      ><img src="sml/o.gif" width=15 height=19 alt="o"
+      ><img src="sml/h.gif" width=9 height=19 alt="H"
+      ></td>
+  </tr>
+  <tr>
+    <td class="nobr"
+      ><img src="sml/t.gif" width=15 height=19 alt="t"
+      ><img src="sml/u.gif" width=14 height=19 alt="u"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/ch.gif" width=16 height=19 alt="ch"
+      ><img src="sml/e.gif" width=11 height=19 alt="e"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td style="color:#888;background:#888">×</td>
+    <td style="color:#888;background:#888">×</td>
+    <td class="nobr"
+      ><img src="sml/b.gif" width=14 height=19 alt="b"
+      ><img src="sml/o.gif" width=15 height=19 alt="o"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/b.gif" width=14 height=19 alt="b"
+      ><img src="sml/o.gif" width=15 height=19 alt="o"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/s.gif" width=14 height=19 alt="S"
+      ><img src="sml/u.gif" width=14 height=19 alt="u"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/tlh.gif" width=16 height=19 alt="tlh"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/h.gif" width=9 height=19 alt="H"
+      ></td>
+  </tr>
+  <tr>
+    <td class="nobr"
+      ><img src="sml/m.gif" width=13 height=19 alt="m"
+      ><img src="sml/u.gif" width=14 height=19 alt="u"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/n.gif" width=12 height=19 alt="n"
+      ><img src="sml/u.gif" width=14 height=19 alt="u"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/d.gif" width=12 height=19 alt="D"
+      ><img src="sml/u.gif" width=14 height=19 alt="u"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/l.gif" width=11 height=19 alt="l"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"><img src="sml/gh.gif" width=16 height=19 alt="gh"
+      ><img src="sml/a.gif" width=14 height=19 alt="a"
+      ><img src="sml/h.gif" width=9 height=19 alt="H"
+      ><img src="sml/_slash.gif" width=8 height=19 alt="/"
+      ><img src="sml/z.gif" width=6 height=19 alt="’"
+      ><img src="sml/o.gif" width=15 height=19 alt="o"
+      ><img src="sml/h.gif" width=9 height=19 alt="H"
+      ></td>
+  </tr>
+  <tr>
+    <td class="nobr"
+      ><img src="sml/m.gif" width=13 height=19 alt="m"
+      ><img src="sml/u.gif" width=14 height=19 alt="u"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/n.gif" width=12 height=19 alt="n"
+      ><img src="sml/u.gif" width=14 height=19 alt="u"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/n.gif" width=12 height=19 alt="n"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/l.gif" width=11 height=19 alt="l"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/l.gif" width=11 height=19 alt="l"
+      ><img src="sml/u.gif" width=14 height=19 alt="u"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/ch.gif" width=16 height=19 alt="ch"
+      ><img src="sml/a.gif" width=14 height=19 alt="a"
+      ><img src="sml/h.gif" width=9 height=19 alt="H"
+      ><img src="sml/_slash.gif" width=8 height=19 alt="/"
+      ><img src="sml/b.gif" width=14 height=19 alt="b"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/h.gif" width=9 height=19 alt="H"
+      ></td>
+  </tr>
+  <tr>
+    <td class="nobr"
+      ><img src="sml/v.gif" width=19 height=19 alt="v"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ><img src="sml/l.gif" width=11 height=19 alt="l"
+      ><img src="sml/u.gif" width=14 height=19 alt="u"
+      ><img src="sml/z.gif" width=6 height=19 alt="’"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/w.gif" width=14 height=19 alt="w"
+      ><img src="sml/i.gif" width=14 height=19 alt="I"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ><img src="sml/l.gif" width=11 height=19 alt="l"
+      ><img src="sml/u.gif" width=14 height=19 alt="u"
+      ><img src="sml/z.gif" width=6 height=19 alt="’"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/d.gif" width=12 height=19 alt="D"
+      ><img src="sml/a.gif" width=14 height=19 alt="a"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ><img src="sml/l.gif" width=11 height=19 alt="l"
+      ><img src="sml/u.gif" width=14 height=19 alt="u"
+      ><img src="sml/z.gif" width=6 height=19 alt="’"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/b.gif" width=14 height=19 alt="b"
+      ><img src="sml/o.gif" width=15 height=19 alt="o"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ><img src="sml/l.gif" width=11 height=19 alt="l"
+      ><img src="sml/u.gif" width=14 height=19 alt="u"
+      ><img src="sml/z.gif" width=6 height=19 alt="’"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ><img src="sml/l.gif" width=11 height=19 alt="l"
+      ><img src="sml/u.gif" width=14 height=19 alt="u"
+      ><img src="sml/z.gif" width=6 height=19 alt="’"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/l.gif" width=11 height=19 alt="l"
+      ><img src="sml/u.gif" width=14 height=19 alt="u"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ><img src="sml/l.gif" width=11 height=19 alt="l"
+      ><img src="sml/u.gif" width=14 height=19 alt="u"
+      ><img src="sml/z.gif" width=6 height=19 alt="’"
+      ></td>
+    <td class="nobr"
+      ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
+      ><img src="sml/l.gif" width=11 height=19 alt="l"
+      ><img src="sml/u.gif" width=14 height=19 alt="u"
+      ><img src="sml/z.gif" width=6 height=19 alt="’"
+      ></td>
+    <td class="nobr"
+      >(<img src="sml/v.gif" width=19 height=19 alt="v"
+      ><img src="sml/a.gif" width=14 height=19 alt="a"
+      ><img src="sml/y.gif" width=15 height=19 alt="y"
+      ><img src="sml/z.gif" width=6 height=19 alt="’"
+      >)</td>
+  </tr>
+</table>
+
+
+Shaded areas indicate that pronouns and/or suffixes must be used, a
+single <img src="sml/_shypen.gif" width=9 height=7 alt="-"> that no prefix is
+used. <small style="color:#888">[TKD pp.33--34]</small>
+
+[[eof]]

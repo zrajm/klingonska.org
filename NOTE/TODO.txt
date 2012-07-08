@@ -194,7 +194,7 @@ optimization."
       are incorporated into the KLO pages. Old stuff is just an annoyance to
       maintain. (And, even after removal, would still be available in the git
       repo, if anyone *really* cared.)
-***** [30%] Convert all pages to new HTML template
+***** [31%] Convert all pages to new HTML template
       Thereby centralizing the page header/footer etc. `bin/markdown2html` is
       the tool used for this, except for files in /dict/, which uses `parse`.
       Unifying these two tools into one will become a later issue, though.
@@ -263,7 +263,8 @@ optimization."
 ****** TODO `canon/1997-sbx-s31.html`
 ****** TODO `canon/1998-11-01-bop.html`
 ****** TODO `canon/2010-04-29-u-mtk.html`
-****** TODO `piq/index.html`
+****** DONE `piq/index.html`
+       CLOSED: [2012-07-08 Sun 15:26]
 ****** TODO `piqad/index.html`
 ******* Remove `hr.gif`
         It's only used by "{pIqaD}, and How to Read It".
