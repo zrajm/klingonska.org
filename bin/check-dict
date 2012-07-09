@@ -18,7 +18,7 @@ EOF
 }
 
 my %cfg = (
-    canon_path     => "../../canon", # relative to executable's path
+    canon_path     => "../site/canon", # relative to executable's path
     field_order    => [ qw(tlh  warn  pos  sv   en   desc  def
                            ref  cite  com  pun  see  cat  data  file  meta) ],
     field_required => [ qw(tlh pos sv en def file) ],
