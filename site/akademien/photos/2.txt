@@ -3,6 +3,7 @@ author: zrajm
 year: 2001
 lang: en
 prev: .
+up: ..
 
 Photos from {qep'a' SochDIch} (page 2)
 ======================================
