@@ -1,0 +1,156 @@
+updated: 2012-07-10 01:19:20+02
+created: 1998-02-26
+author: zrajm
+year: 1998-2012
+lang: en
+up: ..
+
+A Quick Reference to Subjects and Objects in Klingon
+====================================================
+The word order of a Klingon sentence is normally <i>object--verb--subject,</i>
+i.e. the reversed order of English. However, also unlike English, the same
+pronouns are always used, not depending on whether used as subject or object
+(so there is, for example, no difference between <i>I</i> and <i>me</i>).
+
+<table>
+  <colgroup><col span=2><col span=2></colgroup>
+  <thead>
+    <tr><th colspan=2>Singular<th colspan=2>Plural</tr>
+  </thead>
+  <tr><td>{jIH}<td><i>I, me</i><td>{maH}<td><i>we, us</i></tr>
+  <tr><td>{SoH}<td><i>you</i><td>{tlhIH}<td><i>you</i></tr>
+  <tr><td>{ghaH}<td><i>he, she, him, her</i><td>{chaH}<td><i>they, them</i></tr>
+  <tr><td>{'oH}<td><i>it</i><td>{bIH}<td><i>they, them</i></tr>
+  <caption>The pronouns {ghaH} and {chaH} refers
+    <i>only</i> to beings capable of language, other beings are refered to
+    using {'oH} and {bIH}. <small>[TKD 5.1]</small></caption>
+</table>
+
+Klingon also has a set of verb prefixes to denote subject and object. --
+Pronouns are not all that common in everyday speech as verb prefixes are
+usually enough to convey the meaning. When pronouns are used it is usually for
+emphasis, disambiguation (in the cases where a prefix can mean several things),
+and in “to be” phrases (such as in the expression {tlhIngan maH!} <i>We are
+Klingons!</i> <small>[TKW p.3]</small>), where the pronoun act as a verb it its
+own right. <small>[TKD 6.3]</small>
+
+It is, however, never outright wrong to use pronouns.
+
+<table style="text-align:center">
+  <colgroup><col span=7><col span=2></colgroup>
+  <thead>
+    <tr>
+      <td colspan="7"><h2 style="letter-spacing:1em; margin:.5em">OBJECT</h2></td>
+      <td colspan="2" rowspan="2"></td>
+    </tr>
+    <tr>
+      <td>{jIH}</td>
+      <td>{maH}</td>
+      <td>{SoH}</td>
+      <td>{tlhIH}</td>
+      <td><b lang="tlh">ghaH<br>'oH</b></td>
+      <td><b lang="tlh">chaH<br>bIH</b></td>
+      <td>({pagh})</td>
+    </tr>
+  </thead>
+  <tr>
+    <td>{HI-}</td>
+    <td>{gho-}</td>
+    <td style="color:#888;background:#888">×</td>
+    <td style="color:#888;background:#888">×</td>
+    <td>{yI-}</td>
+    <td>{tI-}</td>
+    <td>{yI-}</td>
+    <td>{SoH} ({ra'})</td>
+    <td rowspan="9" style="vertical-align:middle"><h2 style="margin:.5em;line-height: 1.4em">S<br>U<br>B<br>J<br>E<br>C<br>T</h2></td>
+  </tr>
+  <tr>
+    <td>{HI-}</td>
+    <td>{gho-}</td>
+    <td style="color:#888;background:#888">×</td>
+    <td style="color:#888;background:#888">×</td>
+    <td>{yI-}</td>
+    <td>{tI-}</td>
+    <td>{pe-}</td>
+    <td>{tlhIH} ({ra'})</td>
+  </tr>
+  <tr>
+    <td style="color:#888;background:#888">×</td>
+    <td style="color:#888;background:#888">×</td>
+    <td>{qa-}</td>
+    <td>{Sa-}</td>
+    <td>{vI-}</td>
+    <td>{vI-}</td>
+    <td>{jI-}</td>
+    <td>{jIH}</td>
+  </tr>
+  <tr>
+    <td style="color:#888;background:#888">×</td>
+    <td style="color:#888;background:#888">×</td>
+    <td>{pI-}</td>
+    <td>{re-}</td>
+    <td>{wI-}</td>
+    <td>{DI-}</td>
+    <td>{ma-}</td>
+    <td>{maH}</td>
+  </tr>
+  <tr>
+    <td>{cho-}</td>
+    <td>{ju-}</td>
+    <td style="color:#888;background:#888">×</td>
+    <td style="color:#888;background:#888">×</td>
+    <td>{Da-}</td>
+    <td>{Da-}</td>
+    <td>{bI-}</td>
+    <td>{SoH}</td>
+  </tr>
+  <tr>
+    <td>{tu-}</td>
+    <td>{che-}</td>
+    <td style="color:#888;background:#888">×</td>
+    <td style="color:#888;background:#888">×</td>
+    <td>{bo-}</td>
+    <td>{bo-}</td>
+    <td>{Su-}</td>
+    <td>{tlhIH}</td>
+  </tr>
+  <tr>
+    <td>{mu-}</td>
+    <td>{nu-}</td>
+    <td>{Du-}</td>
+    <td>{lI-}</td>
+    <td>{-}</td>
+    <td>{-}</td>
+    <td>{-}</td>
+    <td>{ghaH}/{'oH}</td>
+  </tr>
+  <tr>
+    <td>{mu-}</td>
+    <td>{nu-}</td>
+    <td>{nI-}</td>
+    <td>{lI-}</td>
+    <td>{lu-}</td>
+    <td>{-}</td>
+    <td>{-}</td>
+    <td>{chaH}/{bIH}</td>
+  </tr>
+  <tr>
+    <td class="nobr">{vI-lu'}</td>
+    <td class="nobr">{wI-lu'}</td>
+    <td class="nobr">{Da-lu'}</td>
+    <td class="nobr">{bo-lu'}</td>
+    <td class="nobr">{-lu'}</td>
+    <td class="nobr">{lu-lu'}</td>
+    <td class="nobr">{-lu'}</td>
+    <td>({vay'})</td>
+  </tr>
+</table>
+
+A shaded area indicates that pronouns and/or suffixes must be used, and a
+single dash “{-}” indicates that no prefix is applied to the verb for that
+particular combination of subject/object. Note that Type 1 verb suffixes
+{-’egh} <i>onself</i> and {-chuq} <i>each other</i> <small>[TKD 4.2.1]</small>,
+and Type 4 verb suffix {-moH} <i>cause</i> <small>[TKD 4.2.4]</small> also
+affect the way in which prefixes are used <small>[HQ 7:3, p.3]</small>.
+
+[[eof]]
