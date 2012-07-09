@@ -194,7 +194,7 @@ optimization."
       are incorporated into the KLO pages. Old stuff is just an annoyance to
       maintain. (And, even after removal, would still be available in the git
       repo, if anyone *really* cared.)
-***** [34%] Convert all pages to new HTML template
+***** [35%] Convert all pages to new HTML template
       Thereby centralizing the page header/footer etc. `bin/markdown2html` is
       the tool used for this, except for files in /dict/, which uses `parse`.
       Unifying these two tools into one will become a later issue, though.
@@ -272,7 +272,8 @@ optimization."
        CLOSED: [2012-07-08 Sun 22:19]
 ****** DONE `ref/color.html`
        CLOSED: [2012-07-09 Mon 17:19]
-****** TODO `ref/loc.html`
+****** DONE `ref/loc.html`
+       CLOSED: [2012-07-09 Mon 19:28]
 ****** TODO `ref/num.html`
 ****** TODO `ref/ovs.html`
 ****** TODO `ref/time.html`
@@ -405,6 +406,8 @@ optimization."
      "The one-shop-stop for all you Klingon language needs."?
      "Klingon language reference tools since 1998."?
 **** [0%] Minor tweaks (low priority)
+***** TODO Expand `ref/loc.html` with new locative words
+***** TODO Make sure all TKD references refer to chapter instead of pages
 ***** TODO Add social site links(?)
       To make more people find the site.
 ****** TODO Facebook

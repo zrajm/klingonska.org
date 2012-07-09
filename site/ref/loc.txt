@@ -1,0 +1,84 @@
+updated: 2012-07-09 19:27:02+02
+created: 1998-02-25
+author: zrajm
+year: 1998-2012
+lang: en
+up: ..
+
+A Quick Reference to Locations in Klingon
+=========================================
+In the English language places are indicated with adverbs and/or prepositions,
+this is not the case in Klingon however (which do not have any prepositions).
+To express locative concepts in Klingon one mostly make use of one of the
+following Type 5 noun suffixes:
+
+<table>
+  <tr><td>{-Daq}<td><i>locative</i> (n)<td><small>[TKD 3.3.5]</small></tr>
+  <tr><td>{-vo'}<td><i>from</i> (n)<td><small>[TKD 3.3.5]</small></tr>
+</table>
+
+{-Daq} is used to express that something takes place in the vicinity of,
+inside, or in the direction towards a noun. While {-vo'} indicates that
+something is going in a direction away from the noun. E.g.
+
+<table class="noborder">
+  <tr><td><b lang="tlh">DujwIj<u>Daq</u> jIHtaH</b><td><i>I'm <u>in</u> my ship.</i></tr>
+  <tr><td><b lang="tlh">juHwIj<u>Daq</u> jIHtaH</b><td><i>I'm <u>at</u> my home.</i></tr>
+  <tr><td><b lang="tlh">juHwIj<u>Daq</u> jIjaH</b><td><i>I'm going <u>to</u> my home.</i></tr>
+  <tr><td><b lang="tlh">juHwIj<u>vo'</u> jIjaH</b><td><i>I'm going <u>away from</u> my home.</i></tr>
+</table>
+
+Klingon uses nouns to express more complex spatial relationships (these words
+are adverbs in English) this means that for example the word {Dat} should be
+interpreted as something like <i>the everwhere place</i> or <i>all places</i>.
+And a phase like {Dat qalegh} (meaning <i>I see you everywhere</i>) is
+literally <i>I see you in all places</i>. Likewise {poSwIjDaq qalegh}
+(meaning <i>I see you to my left</i>) is literally <i> I see you in my left
+area</i>.
+
+<table>
+  <caption>These nouns never take the {-Daq} suffix. <small>[TKD 3.3.5]</small></caption>
+  <tr><td>{Dat}<td><i>everywhere, all places </i> (n)</tr>
+  <tr><td>{naDev}<td><i>here, hereabouts </i> (n)</tr>
+  <tr><td>{pa'}<td><i>there, over there, thereabouts </i> (n)</tr>
+</table>
+
+Here's a list of some [location nouns][nouns] in Klingon:
+
+[nouns]: http://klingonska.lal/dict/?q=cat%3Aplacement+pos%3Anoun
+"Klingon Pocket Dictionary Search: 'cat:placement pos:noun'"
+
+<table>
+<tr><td>{vogh}<td><i>somewhere</i> (n)<td><small>[TKD]</small></tr>
+<tr><td>{nIH}<td><i>right (side)</i> (n)<td><small>[TKD]</small></tr>
+<tr><td>{poS}<td><i>left (side)</i> (n)<td><small>[TKD]</small></tr>
+<tr><td>{tlhop}<td><i>front, area in front of</i> (n)<td><small>[KGT]</small></tr>
+<tr><td>{'em}<td><i>behind, area behind</i> (n)<td><small>[KGT]</small></tr>
+<tr><td>{Dung}<td><i>area above, area overhead</i> (n)<td><small>[TKD]</small></tr>
+<tr><td>{bIng}<td><i>area below, area under</i> (n)<td><small>[TKD]</small></tr>
+<tr><td>{retlh}<td><i>area beside, area next to</i> (n)<td><small>[TKD]</small></tr>
+<tr><td>{joj}<td><i>area between</i> (n)<td><small>[KGT]</small></tr>
+<tr><td>{qoD}<td><i>inside, interior</i> (n)<td><small>[KGT]</small></tr>
+<tr><td>{Hur}<td><i>outside</i> (n)<td><small>[TKD]</small></tr>
+</table>
+
+And, finally, these are [verbs to describe size and position][verbs] of
+objects:
+
+[verbs]: http://klingonska.lal/dict/?q=cat%3Aplacement+pos%3Averb
+"Klingon Pocket Dictionary Search: 'cat:placement pos:verb'"
+
+<table>
+<tr><td>{yoy}<td><i>be upside down</i> (v)<td><small>[TKD]</small></tr>
+<tr><td>{ngaS}<td><i>contain (have inside)</i> (v)<td><small>[TKD]</small></tr>
+<tr><td>{Sum}<td><i>be near, be nearby</i> (v)<td><small>[KGT]</small></tr>
+<tr><td>{Hop}<td><i>be remote, be far</i> (v)<td><small>[TKD]</small></tr>
+<tr><td>{tIn}<td><i>be big</i> (v)<td><small>[TKD]</small></tr>
+<tr><td>{mach}<td><i>be small</i> (v)<td><small>[TKD]</small></tr>
+<tr><td>{tIq}<td><i>be long, lengthy (of an object)</i> (v)<td><small>[TKD]</small></tr>
+<tr><td>{run}<td><i>be short (in stature)</i> (v)<td><small>[KGT]</small></tr>
+</table>
+
+And that concludes this quick reference to locations in Klingon.
+
+[[eof]]
