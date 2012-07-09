@@ -81,7 +81,6 @@ jslib_targets = \
     $(patsubst %.min.js,$(publish_dir)/includes/%.js,  \
         $(notdir $(jslib_sources)))
 
-
 all_targets = $(copied_targets) $(jslib_targets) $(css_targets) $(html_targets)
 
 
@@ -242,7 +241,7 @@ $(publish_dir)/includes/sorttable.js: $(source_dir)/includes/sorttable.js
 	cp "$<" "$@"
 
 # JS (client-side libraries, Javascript)
-$(jslib_targets): $(jslib_sources)
+$(publish_dir)/includes/%.js: $(h5bp_dir)/js/libs/%.min.js
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Copying    '$<' -> '$@'";      \
 	cp "$<" "$@"
