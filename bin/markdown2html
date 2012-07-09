@@ -453,11 +453,11 @@ sub help {
         $meta{text} = process_xml_except_args(sub {
             my $_ = shift;
             s{(K-E|E-K)}{<span class="nobr">$1</span>}g;
-            s{\b(?:19|20)\d{2}(-\d{2}-\d{2})?\b}{         # ISO date
-                defined($1)
-                    ? '<time class="nobr">' . $& . '</time>'
-                    : '<time>' . $& . '</time>';
-            }gex;
+            # s{\b(?:19|20)\d{2}(-\d{2}-\d{2})?\b}{         # ISO date
+            #     defined($1)
+            #         ? '<time class="nobr">' . $& . '</time>'
+            #         : '<time>' . $& . '</time>';
+            # }gex;
             s{\{(.*?)\}}{<b lang="tlh">$1</b>}gs;          # {...} marks klingon
             s{<b lang="tlh">(.*?)</b>}{
                 my ($_)  = $1;

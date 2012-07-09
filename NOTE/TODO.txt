@@ -149,7 +149,7 @@ optimization."
       New make target 'make publish' for publishing the site to HCoop.
 ***** DONE Add README.md for GitHub
       CLOSED: [2012-06-20 Wed 15:30]
-**** [55%] Add new look to all pages (except {paqHom} and KLO for now)
+**** [52%] Add new look to all pages (except {paqHom} and KLO for now)
 ***** DONE <script>...</script> blocks should not be parsed for markdown
       CLOSED: [2012-06-26 Tue 02:45]
       E.g. `/download.html`.
@@ -194,7 +194,7 @@ optimization."
       are incorporated into the KLO pages. Old stuff is just an annoyance to
       maintain. (And, even after removal, would still be available in the git
       repo, if anyone *really* cared.)
-***** [32%] Convert all pages to new HTML template
+***** [34%] Convert all pages to new HTML template
       Thereby centralizing the page header/footer etc. `bin/markdown2html` is
       the tool used for this, except for files in /dict/, which uses `parse`.
       Unifying these two tools into one will become a later issue, though.
@@ -270,7 +270,8 @@ optimization."
         It's only used by "{pIqaD}, and How to Read It".
 ****** DONE `ref/adv.html`
        CLOSED: [2012-07-08 Sun 22:19]
-****** TODO `ref/color.html`
+****** DONE `ref/color.html`
+       CLOSED: [2012-07-09 Mon 17:19]
 ****** TODO `ref/loc.html`
 ****** TODO `ref/num.html`
 ****** TODO `ref/ovs.html`
@@ -360,6 +361,14 @@ optimization."
       be centered. Page: http://klingonska.lal/dict/tables.html
 ***** TODO <ul> lists should also use the little hexagonal bullets
       Page that uses it: http://klingonska.lal/akademien/qephom.html
+***** TODO Re-enable insertion of <time>...</time> in markdown2html (?)
+      <time> should *not* be inserted inside previously existing <time> tags,
+      nor in HTML attributes.
+
+      <time> tag insertion was disabled since links to text documents in "The
+      Archive of Okrandian Canon" (e.g. the final link to an article {HolQeD}
+      8:1 on `/ref/color.html`) were messed up, by having <time> tags inserted
+      into the href of the link.
 ***** TODO Pages to update design of separately
       These pages still use and include:
       `pagestats.css`
