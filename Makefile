@@ -59,6 +59,7 @@ html_targets =                                    \
             $(source_dir)/dict/*.txt             \
             $(source_dir)/klo/*.txt              \
             $(source_dir)/piq/*.txt              \
+            $(source_dir)/ref/*.txt              \
     ))
 
 css_targets =                                               \

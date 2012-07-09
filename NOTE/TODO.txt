@@ -149,7 +149,7 @@ optimization."
       New make target 'make publish' for publishing the site to HCoop.
 ***** DONE Add README.md for GitHub
       CLOSED: [2012-06-20 Wed 15:30]
-**** [46%] Add new look to all pages (except {paqHom} and KLO for now)
+**** [52%] Add new look to all pages (except {paqHom} and KLO for now)
 ***** DONE <script>...</script> blocks should not be parsed for markdown
       CLOSED: [2012-06-26 Tue 02:45]
       E.g. `/download.html`.
@@ -194,7 +194,7 @@ optimization."
       are incorporated into the KLO pages. Old stuff is just an annoyance to
       maintain. (And, even after removal, would still be available in the git
       repo, if anyone *really* cared.)
-***** [31%] Convert all pages to new HTML template
+***** [32%] Convert all pages to new HTML template
       Thereby centralizing the page header/footer etc. `bin/markdown2html` is
       the tool used for this, except for files in /dict/, which uses `parse`.
       Unifying these two tools into one will become a later issue, though.
@@ -268,7 +268,8 @@ optimization."
 ****** TODO `piqad/index.html`
 ******* Remove `hr.gif`
         It's only used by "{pIqaD}, and How to Read It".
-****** TODO `ref/adv.html`
+****** DONE `ref/adv.html`
+       CLOSED: [2012-07-08 Sun 22:19]
 ****** TODO `ref/color.html`
 ****** TODO `ref/loc.html`
 ****** TODO `ref/num.html`
@@ -318,6 +319,12 @@ optimization."
        CLOSED: [2012-07-02 Mon 03:49]
 ****** DONE Add all relevant HCoop redirect from old to new pages
        CLOSED: [2012-07-02 Mon 03:49]
+***** DONE Make last breadcrumb link point to HTML page instead of text source
+      CLOSED: [2012-07-09 Mon 15:56]
+***** DONE Logotitle link should support 'up' metadata field
+      CLOSED: [2012-07-09 Mon 16:03]
+      `/ref/adv.html` and `/akademien/photos/2.html` need it to point to `..`,
+      instead of the usual `.`.
 ***** TODO Breadcrumbs should handle {...} notation in title
       Example of this not looking so good:
 
@@ -326,7 +333,13 @@ optimization."
       found on pages:
       http://klingonska.lal/akademien/flygblad1.html
       http://klingonska.lal/akademien/qephom.html
-***** TODO Breadcrumbs for multiple page article
+***** TODO Breadcrumbs should support 'up' metadata field
+      The next-to-last breadcrumb link should be the page pointed to by the
+      'up' metadata field (if it exists). This will (at least mostly) solve the
+      the paginated page breadcrumb problem as well, by defining 'up' for all
+      paginated pages.
+
+      Breadcrumbs for multiple page article
       Example: http://klingonska.org/akademien/foton/2.html
 
       Home › Om Klingonska Akademien › Pictures from {qep’a’ SochDIch} (page 1)
@@ -379,6 +392,14 @@ optimization."
      "The one-shop-stop for all you Klingon language needs."?
      "Klingon language reference tools since 1998."?
 **** [0%] Minor tweaks (low priority)
+***** TODO Add social site links(?)
+      To make more people find the site.
+****** TODO Facebook
+****** TODO Google+
+****** TODO Diaspora*
+****** TODO Twitter
+****** TODO Digg
+****** TODO Reddit (?)
 ***** TODO Merge `uttal.html` inte `klo/grammatik-01.html`
       The article "En svensk guide till det klingonska uttalet" should be
       completely merged into the more extensive "Klingonsk ordbok". "Sounds of

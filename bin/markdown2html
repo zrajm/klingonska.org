@@ -449,7 +449,7 @@ sub help {
 
         $meta{text} = join("", @text);
 
-        # FIXME: shouldn't find ISO dates inside <time>...</time> tags
+        # FIXME: should ignore ISO dates inside <time>...</time> tags
         $meta{text} = process_xml_except_args(sub {
             my $_ = shift;
             s{(K-E|E-K)}{<span class="nobr">$1</span>}g;
@@ -550,26 +550,63 @@ sub get_crumbs {
     $pagefile =~ s#^\Q$rootpath\E(?:/|$)##;
     $pagefile =~ s#/index\.(html|txt)$##;
 
-    my @file = split(m#/#, $pagefile);
-
-    my @crumb = ("index.html");  # Home
-    for my $i (0..$#file) {
-        my $file = join("/", @file[0..$i]);
-        $file =~ /\.[a-z]+$/ or $file .= "/index.html";
-        push(@crumb, $file)
-            unless $file =~ m#^index\.(html|txt)$#;
-    }
+    my @crumb = get_crumb_filenames($pagefile, $rootpath);
     my $i = 0;
     return map {
         # FIXME should error if page_title() return undef
-        my $file = $_;
-        -e "$rootpath/$file" or $file =~ s/\.html$/.txt/;
-
-        my $title = ($_ =~ /^index.(txt|html)$/) ? "Home" : file_title("$rootpath/$file");
-        s#(?:^|(?<=/))index\.(?:html|txt)$##;
+        my $file  = "$rootpath/$_";
+        my $title = ($_ =~ /^index.(txt|html)$/) ? "Home" : file_title($file);
+        s#(?:^|(?<=/))index\.\w+$##;  # strip 'index.*'
+        s#\.txt$#\.html#;             # replace file ext '.txt' -> '.html'
         '<a href="' . ($base_url || "") . $_ . '"'
             . (($i++ == $#crumb) ? ' itemprop="url"' : '')
             . '>' . $title . '</a>';
+    } @crumb;
+}
+
+
+# Usage: @FILE = get_crumb_filenames($FILE, $ROOTPATH);
+#
+# Returns source @FILE name(s) of all pages that should linked to in the bread
+# crumb of $FILE. Only existing files included, so should there be a directory
+# without any apropriate index file, it will be removed from the returned
+# @FILE(s).
+#
+# Given $FILE 'ref/adv.txt' (walking from $ROOTPATH/$FILE, to $ROOTPATH, and
+# returning filenames relative to $ROOTPATH) the following will be returned:
+#
+#     "index.txt"     # the main page
+#     "ref/index.txt" # if that file exists
+#     "ref/adv.txt"   # the $FILE given
+#
+# Notice that, since these are paths including filenames, you'll see
+# `canon/index.txt` (or, more rarely, `canon/index.html` -- if the *source*
+# file is an HTML file), even though the bread crumb links should always point
+# to the directory, rather than include the name of the index file of the
+# directory.
+#
+sub get_crumb_filenames {
+    my ($file, $rootpath) = @_;
+    # path components for $file
+    my @file = ($file =~ /^(index\.[a-z]+)?$/) ? () : split(m#/#, $file);
+
+    # previous dir names + current file
+    my @crumb = ("", map { join("/", @file[0..$_]) } 0..$#file);
+
+    # append 'index.html' or 'index.txt' where needed
+    # return only existing files
+    return map {
+        if (-f "$rootpath/$_") {
+            $_;
+        } elsif (-f "$rootpath/$_/index.txt") {
+            $_ eq "" ? "index.txt"  : "$_/index.txt";
+        } elsif (-f "$rootpath/$_/index.html") {
+            $_ eq "" ? "index.html" : "$_/index.html";
+        } elsif (-f "$rootpath/$_/index.cgi") {
+            $_ eq "" ? "index.cgi" : "$_/index.cgi";
+        } else {
+            ();
+        }
     } @crumb;
 }
 
@@ -743,6 +780,7 @@ sub page_logoka {
 # otherwise point to this dir
 sub page_logolink {
     my ($self, %meta) = @_;
+    return $meta{up} if exists $meta{up};
     return ".." if $meta{sourcefile} =~ m#(?:^|(?<=/))index.[^/.]*$#;
     return ".";
 }
@@ -912,7 +950,6 @@ sub page_header {
         find_include_file("includes/header.html", $meta{sourcefile})
     );
     my @text = split(/\n/, $self->process_template($text, %meta));
-
 
     # output file is root index.html
     if ($meta{sourcefile} =~ m#^\Q$meta{sourcebase}\E/index\.(html|txt)$#) {
