@@ -149,7 +149,7 @@ optimization."
       New make target 'make publish' for publishing the site to HCoop.
 ***** DONE Add README.md for GitHub
       CLOSED: [2012-06-20 Wed 15:30]
-**** [52%] Add new look to all pages (except {paqHom} and KLO for now)
+**** [50%] Add new look to all pages (except {paqHom} and KLO for now)
 ***** DONE <script>...</script> blocks should not be parsed for markdown
       CLOSED: [2012-06-26 Tue 02:45]
       E.g. `/download.html`.
@@ -337,6 +337,8 @@ optimization."
       CLOSED: [2012-07-09 Mon 16:35]
       Some error in the build script causes Modernizr to be written with the
       jQuery content. Very non-functional.
+***** TODO Add Google Analytics script to `klo/`, `dict/` and `qq/`
+***** TODO Add Google Analytics script to all CGIs
 ***** TODO Breadcrumbs should handle {...} notation in title
       Example of this not looking so good:
 
