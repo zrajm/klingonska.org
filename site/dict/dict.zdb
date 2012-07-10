@@ -338,6 +338,7 @@ once in the same entry).
     + `placement`
     + `quantity`
     + `religion`
+    + `shape`
     + `time`
 
     Possible/likely changes: Renaming of some categories to include more words.
@@ -4447,6 +4448,7 @@ pos:	noun
 sv:	«cirkel»
 en:	<circle>
 def:	TKD
+cat:	shape
 file:	1992-01-01-tkd.txt
 
 tlh:	{gho} [.2]
@@ -8418,6 +8420,7 @@ pos:	verb
 sv:	vara «liten»
 en:	be <small>
 def:	TKD
+cat:	shape
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -8953,6 +8956,7 @@ def:	{qep'a'} 2005
 ref:	Web 2005-08-01 (by Rohan Fenwick,
 	http://klingon.livejournal.com/26647.html, "Marc Okrand nob: qep'a'
 	mu'mey chu'"); TDNW
+cat:	shape
 file:	2005-08-01-web.txt
 
 tlh:	{me'}
@@ -12495,6 +12499,7 @@ pos:	verb
 sv:	vara «fet»
 en:	be <fat>
 def:	TKD
+cat:	shape
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 meta:	FIXME -- Is there a difference in meaning between {pI'} and {ror}?
@@ -16383,7 +16388,7 @@ pos:	verb
 sv:	vara «kort» (kroppslängd)
 en:	be <short> (in stature)
 def:	KGT
-cat:	measure
+cat:	measure; shape
 file:	1997-11-01-kgt.txt
 
 tlh:	{runpI'}
@@ -18453,6 +18458,7 @@ pos:	verb
 sv:	vara «stor»
 en:	be <big>
 def:	TKD
+cat:	shape
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -18479,7 +18485,7 @@ pos:	verb
 sv:	vara «lång», vara «långsträckt» (om ett föremål)
 en:	be <long>, be lengthy (of an object)
 def:	TKD
-cat:	measure
+cat:	measure; shape
 file:	1992-01-01-tkd.txt
 meta:	The word "be" was inserted before the adjectival "lengthy".
 
@@ -21091,7 +21097,7 @@ sv:	vara «lång», vara «reslig» (om person)
 en:	be «tall»
 def:	HQ13:1 p.9 ("Maltz's Reward Part IV")
 ref:	TDNW
-cat:	measure
+cat:	measure; shape
 file:	2004-03-holqed-13-1.txt
 
 tlh:	{woD}
