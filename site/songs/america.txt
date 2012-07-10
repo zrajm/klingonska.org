@@ -1,5 +1,5 @@
 updated: 2007-07-15 07:43+02
-author: zrajm
+author: zrajm, markus
 year: 2000
 lang: sv
 
@@ -8,7 +8,6 @@ lang: sv
 
 Alla älskar vi Amerika -- <i>We all love America</i>
 ----------------------------------------------------
-
 <table class="noborder" style="text-align:left">
   <tbody>
     <tr>
