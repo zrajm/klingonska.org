@@ -3373,7 +3373,7 @@ pos:	noun
 sv:	«år» (klingonskt)
 en:	<year> (Klingon)
 def:	TKD
-cat:	time
+cat:	measure; time
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -5594,7 +5594,7 @@ pos:	noun
 sv:	«vecka» (klingonsk)
 en:	<week> (Klingon)
 def:	TKD
-cat:	time
+cat:	measure; time
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -6250,7 +6250,7 @@ def:	TKD
 ref:	TKW pp.69, 177
 com:	Used with {-vam} in the sentence: {Heghlu'meH QaQ jajvam.}
 	"It is a good day to die." in TKW p.69.
-cat:	time
+cat:	measure; time
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -6336,7 +6336,7 @@ pos:	noun
 sv:	«månad» (klingonsk)
 en:	<month> (Klingon)
 def:	TKD
-cat:	time
+cat:	measure; time
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -8307,7 +8307,7 @@ pos:	noun
 sv:	«sekund»
 en:	<second> (of time)
 def:	TKD
-cat:	time
+cat:	measure; time
 file:	1992-01-01-tkd.txt
 
 tlh:	{lupDujHom}
@@ -15975,7 +15975,7 @@ pos:	noun
 sv:	«timme»
 en:	<hour>
 def:	TKD
-cat:	time
+cat:	measure; time
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -16379,6 +16379,7 @@ pos:	verb
 sv:	vara «kort» (kroppslängd)
 en:	be <short> (in stature)
 def:	KGT
+cat:	measure
 file:	1997-11-01-kgt.txt
 
 tlh:	{runpI'}
@@ -18942,7 +18943,7 @@ pos:	noun
 sv:	«minut»
 en:	<minute> (of time)
 def:	TKD
-cat:	time
+cat:	measure; time
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -21086,6 +21087,7 @@ sv:	vara «lång», vara «reslig» (om person)
 en:	be «tall»
 def:	HQ13:1 p.9 ("Maltz's Reward Part IV")
 ref:	TDNW
+cat:	measure
 file:	2004-03-holqed-13-1.txt
 
 tlh:	{woD}
