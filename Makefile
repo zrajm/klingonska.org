@@ -60,6 +60,8 @@ html_targets =                                    \
             $(source_dir)/klo/*.txt              \
             $(source_dir)/piq/*.txt              \
             $(source_dir)/ref/*.txt              \
+            $(source_dir)/songs/index.txt        \
+            $(source_dir)/songs/america.txt      \
     ))
 
 css_targets =                                               \

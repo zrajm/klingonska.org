@@ -194,7 +194,7 @@ optimization."
       are incorporated into the KLO pages. Old stuff is just an annoyance to
       maintain. (And, even after removal, would still be available in the git
       repo, if anyone *really* cared.)
-***** [40%] Convert all pages to new HTML template
+***** [41%] Convert all pages to new HTML template
       Thereby centralizing the page header/footer etc. `bin/markdown2html` is
       the tool used for this, except for files in /dict/, which uses `parse`.
       Unifying these two tools into one will become a later issue, though.
@@ -280,7 +280,8 @@ optimization."
        CLOSED: [2012-07-10 Tue 01:19]
 ****** DONE `ref/time.html`
        CLOSED: [2012-07-10 Tue 08:11]
-****** TODO `songs/america.html`
+****** DONE `songs/america.html`
+       CLOSED: [2012-07-10 Tue 11:22]
 ****** TODO `songs/anthem/index.html`
 ****** DONE `songs/index.html`
        CLOSED: [2012-07-10 Tue 08:44]
