@@ -852,6 +852,7 @@ en:	«ending», «final portion» (of a song, play, story etc.)
 def:	HQ12:2 pp.8--9 ("Maltz's Reward Part I")
 ref:	KLINW; TDNW
 see:	{bI'reS}
+cat:	music
 file:	2003-06-holqed-12-2.txt
 
 tlh:	{betleH}
@@ -1200,6 +1201,7 @@ en:	«beginning» (of a song, play, story etc.)
 def:	HQ12:2 pp.8--9 ("Maltz's Reward Part I")
 ref:	KLINW; TDNW
 see:	{bertlham}
+cat:	music
 file:	2003-06-holqed-12-2.txt
 
 tlh:	{bo}
@@ -7673,6 +7675,7 @@ ref:	TDNW
 com:	"To begin to sing a song is to {lIH} (literally, <introduce>) the song
 	[...]" [HQ12:2 p.9 ("Maltz's Reward Part I")]
 see:	{namtun}, {'o'megh}
+cat:	music
 file:	1992-01-01-tkd.txt
 
 tlh:	{lIj}
@@ -9942,6 +9945,7 @@ en:	«beginning» (of song)
 def:	HQ12:2 p.9 ("Maltz's Reward Part I")
 ref:	TDNW
 see:	{lIH}, {'o'megh}
+cat:	music
 file:	2003-06-holqed-12-2.txt
 
 tlh:	{namwech}
@@ -23134,6 +23138,7 @@ en:	«end» (of song)
 def:	HQ12:2 p.9 ("Maltz's Reward Part I")
 ref:	TDNW
 see:	{lIH}, {namtun}
+cat:	music
 file:	2003-06-holqed-12-2.txt
 
 tlh:	{'uch}
