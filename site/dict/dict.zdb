@@ -3768,7 +3768,7 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{DuQ} [.1]
 pos:	verb
-sv:	«hugga», «sticka» ner, «genomborra»
+sv:	«hugga», «sticka» ned, «genomborra»
 en:	<stab>
 def:	TKD
 ref:	TKW p.131
@@ -4366,7 +4366,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{ghIr}
 pos:	verb
-sv:	stiga «nedför», fara ner, komma «ner», slutta neråt
+sv:	stiga «nedför», fara ned, komma «ned», slutta nedåt
 en:	<descend>
 def:	TKD
 file:	1992-01-01-tkd.txt
@@ -6864,7 +6864,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{joD}
 pos:	verb
-sv:	«luta» sig ner, «böja» sig, luta «framåt»
+sv:	«luta» sig ned, «böja» sig, luta «framåt»
 en:	<stoop>
 def:	TKD
 file:	1992-01-01-tkd.txt
@@ -7092,7 +7092,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{jotlh}
 pos:	verb
-sv:	«ta ner»
+sv:	«ta ned»
 en:	<take> down
 def:	TKD
 file:	1992-01-01-tkd.txt
@@ -7747,7 +7747,7 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{lItHa'}
 pos:	verb
-sv:	¿?«gå» av (ifrån), «gå» ner (ifrån), «kliva» av (ifrån)
+sv:	¿?«gå» av (ifrån), «gå» ned (ifrån), «kliva» av (ifrån)
 en:	<get> off (of)
 def:	KGT
 data:	derived form
@@ -8119,7 +8119,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{lotlhmoq}
 pos:	noun
-sv:	en slags «fågel» (slår ner i vattnet för att fånga mat, men kan inte
+sv:	en slags «fågel» (slår ned i vattnet för att fånga mat, men kan inte
 	simma)
 en:	type of «bird» (swoops into the water to catch food, but cannot swim)
 def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
@@ -9297,7 +9297,7 @@ meta:	*{mojaQ} is here assumed to be a misspelling of {mojaq}. The word only
 
 tlh:	{mol} [1]
 pos:	verb
-sv:	«begrava», «gräva ner»
+sv:	«begrava», «gräva ned»
 en:	<bury>
 def:	TKD
 file:	1992-01-01-tkd.txt
@@ -11689,7 +11689,7 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{ngun}
 pos:	verb
-sv:	«sätta» sig, «slå» sig ner
+sv:	«sätta» sig, «slå» sig ned
 en:	«perch»
 def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 com:	If bird lands on land, use {Saq}, on water, use {tlhot}.
@@ -12854,7 +12854,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{pummoH}
 pos:	verb
-sv:	slå till marken, «slå ner»
+sv:	slå till marken, «slå ned»
 en:	«knock down»
 def:	TKW p.9
 data:	derived form
@@ -15381,7 +15381,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{Qot}
 pos:	verb
-sv:	«ligga» (ner)
+sv:	«ligga» (ned)
 en:	<lie>, <recline>
 def:	TKD
 ref:	TKW pp.40, 161
@@ -16290,7 +16290,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{roQ}
 pos:	verb
-sv:	«lägga ner»
+sv:	«lägga ned»
 en:	<put down>
 def:	TKD
 file:	1992-01-01-tkd.txt
@@ -17898,7 +17898,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{tammoH}
 pos:	verb
-sv:	«tysta» ner
+sv:	«tysta» ned
 en:	<silence>
 def:	TKD
 data:	derived form
@@ -21861,9 +21861,10 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{yoy}
 pos:	verb
-sv:	vara «uppochner»
+sv:	vara «uppochned»
 en:	be <upside down>
 def:	TKD
+cat:	placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{yo'}
@@ -22739,7 +22740,7 @@ file:	2003-12-holqed-12-4.txt
 
 tlh:	{'IQ}
 pos:	verb
-sv:	vara «sorgsen», vara «nerstämd»
+sv:	vara «sorgsen», vara «nedstämd»
 en:	be <sad>
 def:	TKD
 ref:	TKW p.8
@@ -22815,7 +22816,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	[2] {'Iv}
 pos:	noun
-sv:	«höjd» (avstånd ner)
+sv:	«altitud», «höjd» (avstånd ned)
 en:	<altitude>
 def:	TKD
 file:	1992-01-01-tkd.txt
@@ -23355,7 +23356,7 @@ file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{'uy}
 pos:	verb
-sv:	«trycka» ner, trycka på
+sv:	«trycka» ned, trycka på
 en:	<press> down
 def:	TKD
 data:	KLCP-1
