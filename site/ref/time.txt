@@ -1,0 +1,336 @@
+updated: 2012-07-10 08:09:00+02
+created: 1998-02-26
+author: zrajm
+year: 1998-2012
+lang: en
+up: ..
+
+A Quick Reference to Time Expressions in Klingon
+================================================
+* [Units of Time](#units)
+* [Present](#present)
+* [Past](#past)
+* [Future](#future)
+* [Years and Months](#year)
+* [Times of the Day](#times)
+* [Asking for the Time](#ask)
+* [Telling Time](#tell)
+* [Other](#other)
+
+Even if we don't know how the Klingon time units correspond to Terran ones,
+we <em>do</em> know one or two things about the Klingon terminology for telling
+time.
+
+When used, time expressions come at the very beginning of a Klingon sentence,
+even before any occurring adverbials. (Though there are some time expressions
+-- namely, {qen} <i>recently, a short time ago,</i> and {tugh} <i>soon</i> --
+which themselves <em>are</em> adverbials.)
+
+
+[units] Units of Time
+---------------------
+We don't know exactly how [the Klingon units of time][time units] relates to
+the Terran ones, but with that in mind, here is a list (largest first):
+
+[time units]: ../dict/?q=cat%3Atime+cat%3Ameasure
+"Klingon Pocket Dictionary: Lexicon -- Units of Time"
+
+<table>
+  <tr><th>Klingon<th>English<th>Source</tr>
+  <tr><td>{DIS}<td><i>year (Klingon)</i><td><small>[TKD]</small></tr>
+  <tr><td>{jar}<td><i>month (Klingon)</i><td><small>[TKD]</small></tr>
+  <tr><td>{Hogh}<td><i>week (Klingon)</i><td><small>[TKD]</small></tr>
+  <tr><td>{jaj}<td><i>day (from dawn to dawn)</i><td><small>[TKD]</small></tr>
+  <tr><td>{rep}<td><i>hour</i><td><small>[TKD]</small></tr>
+  <tr><td>{tup}<td><i>minute (of time)</i><td><small>[TKD]</small></tr>
+  <tr><td>{lup}<td><i>second (of time)</i><td><small>[TKD]</small></tr>
+</table>
+
+
+[present] Present
+-----------------
+The word for <i>now</i> is {DaH}, and the word for <i>today</i> is {DaHjaj.}
+<i>Today</i> can also be expressed as {jajvam} <i>this day</i> -- which
+actually means <i>this day (that we are talking about)</i> or <i>this day (that
+is obvious from context)</i> -- so {jajvam} may actually refer to last
+Thursday, if that happens to be the topic of the conversation.
+
+Since {-vam} above is a type 4 noun suffix (meaning <i>this</i>), it can be
+used on any time unit: {DISvam} <i>this year,</i> {jarvam} <i>this month,</i>
+{Hoghvam} <i>this week</i> etc. <small>[TKD 3.3.4]</small> We have no
+indication that {DaH} can be used in this way, however, so a word
+like <b lang="tlh"><sup>*</sup>DaHtup</b> might be possible to understand, but
+it is most likely ungrammatical.
+
+<table>
+  <thead><tr><th>Klingon<th>English<th>Source</tr></thead>
+  <tr><td>{DaH}<td><i>now</i> (adv)<td><small>[TKD]</small></tr>
+  <tr><td>{DaHjaj}<td><i>today</i> (n)<td><small>[TKD]</small></tr>
+</table>
+
+
+[past] Past
+-----------
+The adverbial {qen} means <i>recently</i> or <i>a short time ago.</i>
+
+When one needs to be more specific there are words to count <i>years,
+months,</i> and <i>days ago</i> -- there is also a general purpose word to
+express that something happened <i>X time units ago,</i> where any time unit
+can be inserted. Here are the words:
+
+<table>
+  <thead><tr><th>Klingon<th>English<th>Source</tr></thead>
+  <tr><td>{ben}<td><i>years ago</i> (n)<td><small>[TKD]</small></tr>
+  <tr><td>{wen}<td><i>months ago</i> (n)<td><small>[HQ 8:3]</small></tr>
+  <tr><td>{Hu'}<td><i>days ago</i> (n)<td><small>[TKD]</small></tr>
+  <tr><td>{ret}<td><i>time period ago</i> (n)<td><small>[HQ 8:3]</small></tr>
+  <tr><td>{qen}<td><i>recently, a short time ago</i> (adv)<td><small>[News 1999-02-02]</small></tr>
+</table>
+
+The words {ben} <i>years ago,</i> {wen} <i>months ago,</i> and {Hu'} <i>days
+ago</i> can be immediately preceded by any number to form a time expression,
+while {ret} <i>time period ago</i> must be preceded by a number <em>and</em>
+the name of a time period. Here are some examples:
+
+<table class="noborder">
+  <tr><td>{cha'vatlh ben}<td><i>two hundred years ago, two centuries ago</i>
+  <tr><td>{Hut wen}<td><i>nine months ago</i>
+  <tr><td>{wa'Hu'}<td><i>yesterday, one day ago</i>
+  <tr><td>{cha' tup ret}<td><i>two minutes ago</i></tr>
+</table>
+
+It might be added that {ret} <i>time period ago</i> is not used in combination
+with the time units for <i>years, months,</i> or <i>days,</i> in those cases
+{ben} <i>years ago,</i> {wen} <i>months ago,</i> or {Hu'} <i>days ago</i> are
+always preferred.
+
+
+[future] Future
+---------------
+The story is pretty much the same as it was for times past, there are different
+words, but they work the same.
+
+<table>
+  <thead><tr><th>Klingon<th>English<th>Source</tr></thead>
+  <tr><td>{nem}<td><i>years from now</i> (n)<td><small>[TKD]</small></tr>
+  <tr><td>{waQ}<td><i>months from now</i> (n)<td><small>[HQ 8:3]</small></tr>
+  <tr><td>{leS}<td><i>days from now</i> (n)<td><small>[TKD]</small></tr>
+  <tr><td>{pIq}<td><i>time period from now</i> (n)<td><small>[HQ 8:3]</small></tr>
+  <tr><td>{tugh}<td><i>soon</i> (adv)<td><small>[TKD]</small></tr>
+</table>
+
+And here are some examples:
+
+<table class="noborder">
+  <tr><td>{cha'vatlh nem}<td><i>two hundred years from now, two centuries from now</i>
+  <tr><td>{Hut waQ}<td><i>nine months from now</i>
+  <tr><td>{wa'leS}<td><i>tomorrow, one day from now</i>
+  <tr><td>{cha' tup pIq}<td><i>two minutes from now</i></tr>
+</table>
+
+It might be added that {pIq} <i>time period from now</i> is not used in
+combination with the time units for <i>years, months,</i> or <i>days,</i> in
+those cases {nem} <i>years from now,</i> {waQ} <i>months from now,</i> or
+{leS} <i>days from now</i> are always preferred.
+
+
+[year] Years and Months
+-----------------------
+We have an example of how to write the year in the form of a copyright notice
+on the SkyBox trading cards, in which Marc Okrand translated the
+year <i>1994</i> into {tera' DIS wa'-Hut-Hut-loS}. This gives a pattern for
+writing years (which might be useful for large numbers, or series of numbers,
+as well -- e.g. telephone numbers). Saying the digits one after the other is
+also conveniently shorter than using the numeric elements for multiples of ten
+({-maH, -vatlh} etc.).
+
+As for names of the months, we have no canon examples. Alan Anderson
+&lt;caanders@netusa1.net&gt; has suggested to the [tlhingan-hol mailing
+list](http://www.kli.org/tlhIngan-Hol/) (in <time datetime="1996-05-20">20 May
+1996</time>) that one should apply the same pattern as for years above, thus
+saying {tera' jar vagh} for the Terran month <i>May</i>.
+
+
+[times] Times of the Day
+------------------------
+There exist a bunch of words for describing the time of day:
+
+<table>
+  <thead><tr><th>Klingon<th>English<th>Source</tr></thead>
+  <tr><td>{jajlo'}<td><i>dawn</i> (n)<td><small>[TKD]</small></tr>
+  <tr><td>{po}<td><i>morning</i> (n)<td><small>[TKD]</small></tr>
+  <tr><td>{pem}<td><i>daytime</i> (n)<td><small>[TKD]</small></tr>
+  <tr><td>{pemjep}<td><i>midday</i> (n)<td><small>[TKD]</small></tr>
+  <tr><td>{pov}<td><i>afternoon</i> (n)<td><small>[TKD]</small></tr>
+  <tr><td>{choS}<td><i>twilight</i> (n)<td><small>[TKD]</small></tr>
+  <tr><td>{ram}<td><i>night</i> (n)<td><small>[TKD]</small></tr>
+  <tr><td>{ramjep}<td><i>midnight</i> (n)<td><small>[TKD]</small></tr>
+</table>
+
+> “Although Klingons tell time the way most of the rest of the galaxy does, the
+> Klingon day really goes from dawn to dawn, rather than from midnight to
+> midnight. You might think this could cause some confusion, but it is really
+> comparable to when a Terran says something like, ‘Thursday night, at three
+> o’clock in the morning’.” <small>[CK]</small>
+
+
+[ask] Asking for the Time
+-------------------------
+Asking what time it is is an idiomatic phrase in most languages, and Klingon is
+no exception in this. There are basically two ways of asking: The one usually
+used in military contexts is {rep yIper!} <i>Ascertain the hour!</i>
+or <i>Specify the hour!</i> Outside of those situations the expression {'arlogh
+Qoylu'pu'?} is most commonly used (it literally means <i>How many times has
+(someone) heard (it)?</i> or <i>How many times has it been
+heard?</i>) <small>[HQ 8:1]</small>
+
+<table class="noborder spacy">
+  <tr>
+    <td width="33%">{rep yIper!}</td>
+    <td><i>Ascertain the hour! Specify the
+        hour!</i> <small>[HQ 8:1]</small></td>
+  </tr>
+  <tr>
+    <td>{'arlogh Qoylu'pu'?}</td>
+    <td><i>What time is it?</i> (lit. <i>How many times has it been
+        heard?</i>) <small>[HQ 8:1]</small>
+    </td>
+  </tr>
+  <tr>
+    <td>{mamejDI' 'arlogh Qoylu'pu'?}</td>
+    <td><i>What time do we leave?</i> (lit. <i>When we leave, how many times
+        will it have been heard?</i>) <small>[HQ 8:1]</small>
+    </td>
+  </tr>
+</table>
+
+
+[tell] Telling Time
+-------------------
+There are several ways of saying what time it is in Klingon. <i>Conversational
+Klingon</i> has the following to say:
+
+> “Klingons have adopted the way most civilized planets in the galaxy tell
+> time; They have twenty-four hour days. ‘Zero hours’, means midnight; ‘twelve
+> hundred hours’, means noon; ‘nineteen hundred hours’ means seven p.m., and so
+> on. Klingons pride themself on punctuality, so it is important to be precise
+> when referring to time. Though Klingons are sometimes inaccurate, they are
+> never approximate.” <small>[CK]</small>
+
+<table class="noborder spacy">
+  <tr>
+    <td>{javvatlh rep}</td>
+    <td><i>six hundred hours</i> or <i>six o'clock in the
+        morning</i> <small>[CK]</small></td>
+  </tr>
+  <tr>
+    <td>{wa'maH cha'vatlh rep}</td>
+    <td><i>twelve hundred hours</i> or <i>noon</i> <small>[CK]<sup>
+          1</sup></small></td>
+  </tr>
+  <tr>
+    <td>{wa'maH Hutvatlh rep}</td>
+    <td><i>nineteen hundred hours</i> or <i>seven
+        p.m.</i> <small>[CK]</small></td>
+  </tr>
+  <tr>
+    <td>{pagh rep}</td>
+    <td><i>zero hours</i> or <i>midnight</i> <small>[CK]</small></td>
+  </tr>
+  <tr>
+    <td>{wa'maH loSvatlh wejmaH rep}</td>
+    <td><i>fourteen hundred thirty hours</i> or <i>2:30
+        p.m.</i> <small>[KML]<sup> 2</sup></small></td>
+  </tr>
+</table>
+
+<table class="noborder spacy">
+  <tr>
+    <td><sup>1</sup></td>
+    <td>Here assuming that the “{cha'maH wa'vatlh rep}” given
+      in <i>Conversational Klingon</i> is simply a slip of the tongue.</td>
+  <tr>
+    <td><sup>2</sup></td>
+    <td>Alan Anderson &lt;caanders@netusa1.net&gt; on the <i>{tlhIngan-Hol}
+        Mailing List</i>, <time datetime="1996-05-20">20 May 1996</time></td>
+</table>
+
+In <i>{HolQeD} 8:1</i> no less than <em>two different</em> ways of telling the
+time is described. The first system, used for interplanetary communication, is
+exemplified in the following phrases (if the context is clear, the word
+{tera'} <i>Earth</i> may be left out, as in the last example below):
+
+<table class="noborder spacy">
+  <tr>
+    <td>{tera' rep wa'}</td>
+    <td><i>Earth hour one or one o'clock</i></td>
+  <tr>
+    <td>{tera' rep cha'maH}</td>
+    <td><i>Earth hour 20 or 20 o'clock
+        or eight o'clock p.m.</i></td>
+  <tr>
+    <td>{tera' rep loS wejmaH}</td>
+    <td><i>Earth hour 4:30</i></td>
+  <tr>
+    <td>{rep cha'maH}</td>
+    <td><i>20 o'clock, eight o'clock p.m.</i></td>
+  </tr>
+</table>
+
+The second, more informal system from <i>{HolQeD} 8:1,</i> is the way one
+responds to the above mentioned question: {'arlogh Qoylu'pu'?} -- In direct
+response to this question one may even drop the verb, and answer with only the
+word {chorghlogh} <i>eight o'clock</i> (lit. <i>Eight times</i>).
+
+<table class="noborder spacy">
+  <tr>
+    <td>{cha'logh Qoylu'pu'}</td>
+    <td><i>It's two o'clock</i></td>
+  <tr>
+    <td class="nobr">{chorghlogh Qoylu'pu'}</td>
+    <td><i>It's eight o'clock</i></td>
+  </tr>
+</table>
+
+Finally, the latest system given comes from the <i>EuroTalk: Talk Now!</i>
+language course in Klingon. It looks like this (notice the weird usage of
+{vatlh} in e.g. <i>ten o'clock a.m.</i></tr>!):
+
+<table class="noborder">
+  <tr><td>{pagh rep}<td><i>twelve p.m. (00:00)</i></tr>
+  <tr><td>{pagh cha'maH vagh rep}<td><i>12:25 a.m. (00:25)</i></tr>
+  <tr><td>{pagh vaghmaH rep}<td><i>12:50 a.m. (00:50)</i></tr>
+  <tr><td>{wa'vatlh rep}<td><i>one a.m. (01:00)</i></tr>
+  <tr><td>{wa'vatlh vagh rep}<td><i>five past one a.m. (01:05)</i></tr>
+  <tr><td>{wa'vatlh wa'maH rep}<td><i>ten past one a.m. (01:10)</i></tr>
+  <tr><td>{wa'maH vatlh rep}<td><i>ten a.m. (10:00)</i></tr>
+  <tr><td>{wa'maH wa'vatlh rep}<td><i>eleven a.m. (11:00)</i></tr>
+  <tr><td>{wa'maH cha'vatlh rep}<td><i>twelve a.m. (12:00)</i></tr>
+  <tr><td>{wa'maH wejvatlh rep}<td><i>one p.m. (13:00)</i></tr>
+  <tr><td>{cha'maH wejvatlh rep}<td><i>eleven p.m. (23:00)</i></tr>
+  </tr>
+</table>
+
+
+[other] Other
+-------------
+Well, there are still some time related stuff that haven't been mentioned.
+Let's lump it all together under this heading.
+
+<table>
+  <thead><tr><th>Klingon<th>English<th>Source</tr></thead>
+  <tr><td>{poH}<td><i>time</i> (v)<td><small>[TKD]</small></tr>
+  <tr><td>{poH}<td><i>period of time</i> (n)<td><small>[TKD]</small></tr>
+  <tr><td>{nI'}<td><i>be long, lengthy (duration)</i> (v)<td><small>[TKD]</small></tr>
+  <tr><td>{ngaj}<td><i>be short (in duration)</i> (v)<td><small>[KGT]</small></tr>
+</table>
+
+If you want to know more about how to tell time in Klingon, you may want to
+read the articles “[Maltz Online][HQ 8:1]” in <i>{HolQeD} 8:1</i> (pp. 7--12)
+and “[{matlh juppu' mu'mey}][HQ 8:3]” in <i>{HolQeD} 8:3</i> (pp. 2--4) written
+by Marc Okrand.
+
+[HQ 8:1]: ../canon/1999-03-holqed-08-1.txt "Maltz Online"
+[HQ 8:3]: ../canon/1999-09-holqed-08-3.txt "matlh juppu' mu'mey"
+
+[[eof]]

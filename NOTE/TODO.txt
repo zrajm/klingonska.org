@@ -194,7 +194,7 @@ optimization."
       are incorporated into the KLO pages. Old stuff is just an annoyance to
       maintain. (And, even after removal, would still be available in the git
       repo, if anyone *really* cared.)
-***** [37%] Convert all pages to new HTML template
+***** [39%] Convert all pages to new HTML template
       Thereby centralizing the page header/footer etc. `bin/markdown2html` is
       the tool used for this, except for files in /dict/, which uses `parse`.
       Unifying these two tools into one will become a later issue, though.
@@ -278,7 +278,8 @@ optimization."
        CLOSED: [2012-07-09 Mon 21:59]
 ****** DONE `ref/ovs.html`
        CLOSED: [2012-07-10 Tue 01:19]
-****** TODO `ref/time.html`
+****** DONE `ref/time.html`
+       CLOSED: [2012-07-10 Tue 08:11]
 ****** TODO `songs/america.html`
 ****** TODO `songs/anthem/index.html`
 ****** TODO `songs/index.html`
@@ -408,6 +409,10 @@ optimization."
      "The one-shop-stop for all you Klingon language needs."?
      "Klingon language reference tools since 1998."?
 **** [0%] Minor tweaks (low priority)
+***** TODO Remove metadata field 'year', use 'created' and 'updated' instead
+      'markdown2html' should base copyright year on creation date + last
+      updated date so that, when updating a page, one only have to change one
+      field.
 ***** TODO Add transcript of article in {HolQeD} 7:3, p.3 (?)
       `ref/ovs.html` and `dict/tables.html` contain references to it.
 ***** TODO Expand `ref/loc.html` with new locative words
