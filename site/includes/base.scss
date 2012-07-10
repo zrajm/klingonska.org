@@ -227,6 +227,11 @@ header {
         font-size: large;
         text-align: center;
     }
+    figure { margin: 1.5em auto; }
+    audio {
+        display: block;
+        margin: .5em auto;
+    }
     /* Table with border (default). */
     table {
         border: 4px solid #000;
