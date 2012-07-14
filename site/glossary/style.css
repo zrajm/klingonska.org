@@ -1,0 +1,95 @@
+h2 { margin: .5em 0 }
+table.outer {
+    table-layout: fixed;
+    border: 0;
+}
+table.outer > thead > tr > th {
+    font-size: 200%;
+    line-height: .75em;
+    border: 0;
+}
+table.outer > tbody > tr > td {
+    border: 0;
+}
+
+table.sortable thead th:hover{
+    background: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+table {
+    border: 4px solid #000;
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+
+td, th {
+    border: 2px solid #000;
+    vertical-align: top;
+    padding: .25em .5em;
+}
+
+
+.input {
+    float: left;
+}
+
+.output {
+    float: right;
+}
+
+#output {
+    height: 12em;
+}
+
+#input {
+    margin: 0;
+    height: 12em;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+[contenteditable] {
+    border: 4px inset #888;
+    padding: .125em .25em;
+    line-height: 140%;
+}
+
+.xxx {
+    background: yellow;
+}
+
+.syllable {
+    border: 1px solid black;
+}
+
+.punct { background: transparent; }
+
+/* [title] { background: #faf; } */
+span[class] { background: #faf; }
+
+/* [title=""], [title*=s] { background: transparent } */
+span[class=""] { background: transparent }
+
+/* [title*=n][title*=v] { background: #faa } */
+span.v.n { background: #faa }
+
+/* [title*=v] { background: #ffa } */
+span.v { background: #ffa }
+
+/* [title*=n] { background: #afa; } */
+span.n { background: #afa }
+
+/* [title*=num] { background: #aaf; } */
+span.num { background: #aaf }
+
+//span[class]:hover { background: black }
+span[title]:hover { background: rgba(0,0,0,.3) }
+span[class]:hover {border: 1px solid #000 }
+span[class] {border: 1px solid transparent }
+
+
+/*eof*/

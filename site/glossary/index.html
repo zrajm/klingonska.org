@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <title>Klingon Extractor</title>
+  <link href=style.css rel=stylesheet>
+</head>
+<body>
+  <table class=outer>
+    <tr>
+      <td>
+        <h2>Klingon Text</h2>
+        <div id=input contenteditable>ghIq ngotlhwI' yIqel. (maw'be'; Hov leng
+          tIvqu' neH). roD DujHeyDaq yo'HeyDaq ghap ghom. patlh ghaj yaSDaj,
+          'ej batlh cha'maHlogh Qapchugh lunumlu'. tlhIngan nugh, tIgh je neH
+          qel jeSwI'pu'vam. tlhIngan Hol qelchugh, Holna' 'oHbe'. bachbe'bogh
+          nISwI' HIchHey rur. nISwI' lo'DI' bach 'e' lupIHbe'; Hol lo'DI' Qum
+          'e' lupIHbe' je. Quj tIvbej ghommeyvam, 'ach tlhIngan Hol Dun
+          tIvbe'bej. Hol lughojmo' pop yajchu' jatlhwI'
+        </div>
+        <div>
+          <button>Analyze</button>
+          Hover above a syllable for info about it.
+          <p><span>
+              <span class="v">Verb</span>
+              <span class="n">Noun</span>
+              <span class="num">Number</span>
+              <span class="pro">Other</span>
+              <span class="n v">Ambiguous</span>
+              <span class="">Unknown</span>
+            </span>
+        </div>
+      <td>
+        <h2>Glossary</h2>
+        <div id=output></div></td>
+    </tr>
+  </table>
+  <script src=../includes/jquery-1.7.1.js></script>
+  <script src=script.js></script>
+  <script src="../includes/sorttable.js"></script>
+</body>
+</html>
