@@ -5,6 +5,9 @@
   <link href=style.css rel=stylesheet>
 </head>
 <body>
+  <noscript><strong>Note:</strong>This page is a Javascript program for
+    extracting a glossary from any Klingon text. It will not work if you don't
+    have Javascript enabled. (Sorry about that.)</noscript>
   <table class=outer>
     <tr>
       <td>
@@ -19,7 +22,7 @@
         </div>
         <div>
           <button id=en>Make English Glossary</button>
-          <button id=sv>Skapa svenska gloslista</button>
+          <button id=sv>Skapa svensk gloslista</button>
           <p><span>
               <span class="v">Verb</span>
               <span class="n">Noun</span>
@@ -43,17 +46,21 @@
             <li>Proper Klingon sort order when sorting glossary.
             <li>Editing of glossary table.
           </ul>
-          <p>This script always loads the latest version
+          <p>This script loads the latest version
             of <a href="../dict/">Klingonska Akademien&rsquo;s Pocket
             Dictionary</a>.
         </div>
       <td>
         <h2>Glossary</h2>
-        <div id=output></div>
+        <div id=output>Loading <a href="../dict/dict.zdb">dictionary</a>...</div>
       </td>
     </tr>
   </table>
   <script src=../includes/jquery-1.7.1.js></script>
   <script src=script.js></script>
+<script>var _gaq=[['_setAccount','UA-5434527-2'],['_trackPageview']];
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+s.parentNode.insertBefore(g,s)}(document,'script'))</script>
 </body>
 </html>

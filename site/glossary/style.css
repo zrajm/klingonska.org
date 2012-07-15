@@ -68,28 +68,89 @@ td, th {
 
 .punct { background: transparent; }
 
-/* [title] { background: #faf; } */
-span[class] { background: #faf; }
+.outer .adv,
+.outer .conj,
+.outer .excl,
+.outer .name,
+.outer .pro,
+.outer .ques { background: #faf; }                /* "Other" */
+.outer [class=""] { background: transparent }     /* "Unknown" */
+.outer .adv.conj,
+.outer .adv.excl,
+.outer .adv.name,
+.outer .adv.n,
+.outer .adv.num,
+.outer .adv.pro,
+.outer .adv.ques,
+.outer .adv.v,
+.outer .conj.adv,
+.outer .conj.excl,
+.outer .conj.name,
+.outer .conj.n,
+.outer .conj.num,
+.outer .conj.pro,
+.outer .conj.ques,
+.outer .conj.v,
+.outer .excl.adv,
+.outer .excl.conj,
+.outer .excl.name,
+.outer .excl.n,
+.outer .excl.num,
+.outer .excl.pro,
+.outer .excl.ques,
+.outer .excl.v,
+.outer .name.adv,
+.outer .name.conj,
+.outer .name.excl,
+.outer .name.n,
+.outer .name.num,
+.outer .name.pro,
+.outer .name.ques,
+.outer .name.v,
+.outer .n.adv,
+.outer .n.conj,
+.outer .n.excl,
+.outer .n.name,
+.outer .n.num,
+.outer .n.pro,
+.outer .n.ques,
+.outer .n.v,
+.outer .num.adv,
+.outer .num.conj,
+.outer .num.excl,
+.outer .num.name,
+.outer .num.n,
+.outer .num.pro,
+.outer .num.ques,
+.outer .num.v,
+.outer .pro.adv,
+.outer .pro.conj,
+.outer .pro.excl,
+.outer .pro.name,
+.outer .pro.n,
+.outer .pro.num,
+.outer .pro.ques,
+.outer .pro.v,
+.outer .ques.adv,
+.outer .ques.conj,
+.outer .ques.excl,
+.outer .ques.name,
+.outer .ques.n,
+.outer .ques.num,
+.outer .ques.pro,
+.outer .ques.v,
+.outer .v.adv,
+.outer .v.conj,
+.outer .v.excl,
+.outer .v.name,
+.outer .v.n,
+.outer .v.num,
+.outer .v.pro,
+.outer .v.ques { background: #faa }               /* "Ambiguous" */
+.outer .v { background: #ffa }                    /* "Verb" */
+.outer .n { background: #afa }                    /* "Noun" */
+.outer .num { background: #aaf }                  /* "Number" */
 
-/* [title=""], [title*=s] { background: transparent } */
-span[class=""] { background: transparent }
-
-/* [title*=n][title*=v] { background: #faa } */
-span.v.n { background: #faa }
-
-/* [title*=v] { background: #ffa } */
-span.v { background: #ffa }
-
-/* [title*=n] { background: #afa; } */
-span.n { background: #afa }
-
-/* [title*=num] { background: #aaf; } */
-span.num { background: #aaf }
-
-//span[class]:hover { background: black }
-span[title]:hover { background: rgba(0,0,0,.3) }
-span[class]:hover {border: 1px solid #000 }
-span[class] {border: 1px solid transparent }
-
+.outer [title]:hover { background: rgba(0,0,0,.3) }
 
 /*eof*/
