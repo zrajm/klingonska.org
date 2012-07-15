@@ -1,7 +1,6 @@
 /*
 
   TODO
-  * selector for choosing swedish or english
   * get -wI'- and -ghach- verbs right
   * Explanatory words under input field should be clickable
     (and enable/disable highlight of their respective categories)
@@ -40,7 +39,7 @@
         outputElement.html(msg);
     }
 
-    function analyzeSpace (text) {
+    function analyzeSpace(text) {
         if (text.match(/[.!?]/)) {              // full stop
             return 'sf'                        //   separator, full stop
         } else if (text.match(/[,;:()]/)) {     // half stop
@@ -51,9 +50,12 @@
     }
 
     var inputElement = $('#input');
-    function analyze() {
+    function analyze_en() { analyze('en'); }
+    function analyze_sv() { analyze('sv'); }
+    function analyze(lang) {
         var glossary = {}, tokens, html,
-            text     = inputElement.text(),         // read input field
+            // read input & convert unicode apostrophes to ascii
+            text     = inputElement.text().replace(/[\u2018\u2019]/g, "'"),
             splitted = text.split(/([^a-z\']+)/i);  // split into tokens
 
         // process tokens (= word or inter-word space)
@@ -120,12 +122,13 @@
                     '      <td align=center>' + count + '</td>' +
                     '      <td><b>' + text.replace(/\'/g, '&rsquo;') + '</b></td>' +
                     '      <td align=center>' + tag + '</td>' +
-                    '      <td>' + dict[text][tag].en + '</td>' +
+                    '      <td>' + dict[text][tag][lang] + '</td>' +
                     '    </tr>';
                     }).join('');
             }).join('') +
             '  </tbody>' +
-            '</table>');
+            '</table>' +
+            '<script src="../includes/sorttable.js"></script>');
     }
 
     /*************************************************************************\
@@ -488,13 +491,14 @@
     \*************************************************************************/
     $(document).ready(function () {
         var prevInput;
-        $('button').click(analyze);   // connect 'Analyze' button to function
+        $('#en').click(analyze_en);   // connect 'Analyze' button to function
+        $('#sv').click(analyze_sv);   // connect 'Analyze' button to function
         $('#input').focus();          // focus input area
 
         // load dictionary data
         $.get('../dict/dict.zdb', function (data) {
             loadDictionary(data, dict);
-            tmpOutput('Loading complete.');
+            tmpOutput('<a href="../dict/dict.zdb">Dictionary</a> loaded.');
             //output('<pre>' + JSON.stringify(dict, null, 4) + '</pre>');
         });
     });

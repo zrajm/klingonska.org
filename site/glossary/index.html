@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-  <title>Klingon Extractor</title>
+  <title>Klingon Glossary Extractor &ndash; Klingonska Akademien</title>
   <link href=style.css rel=stylesheet>
 </head>
 <body>
@@ -18,8 +18,8 @@
           tIvbe'bej. Hol lughojmo' pop yajchu' jatlhwI'
         </div>
         <div>
-          <button>Analyze</button>
-          Hover above a syllable for info about it.
+          <button id=en>Make English Glossary</button>
+          <button id=sv>Skapa svenska gloslista</button>
           <p><span>
               <span class="v">Verb</span>
               <span class="n">Noun</span>
@@ -27,15 +27,33 @@
               <span class="pro">Other</span>
               <span class="n v">Ambiguous</span>
               <span class="">Unknown</span>
-            </span>
+          </span></p>
+          <h2>Instructions</h2>
+          <p>Insert any Klingon text above, and press one of the buttons to
+            extract a glossary from it. You can re-sort the resulting glossary
+            by clicking on the table headers. After analyzing you can also
+            hover over the color marked syllables in the input text to see
+            which parts-of-speech they have been identified as. (The color
+            markings reflect the part-of-speech calculated for the whole word.)
+          <h2>TODO</h2>
+          <ul>
+            <li>Better word analysis (currently fails e.g. roots longer than
+              one syllable, and verbs with <nobr><b lang="tlh">-wI'-</b></nobr>
+              and <nobr><b lang="tlh">-ghach-</b></nobr>).
+            <li>Proper Klingon sort order when sorting glossary.
+            <li>Editing of glossary table.
+          </ul>
+          <p>This script always loads the latest version
+            of <a href="../dict/">Klingonska Akademien&rsquo;s Pocket
+            Dictionary</a>.
         </div>
       <td>
         <h2>Glossary</h2>
-        <div id=output></div></td>
+        <div id=output></div>
+      </td>
     </tr>
   </table>
   <script src=../includes/jquery-1.7.1.js></script>
   <script src=script.js></script>
-  <script src="../includes/sorttable.js"></script>
 </body>
 </html>
