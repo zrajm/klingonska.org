@@ -27,7 +27,7 @@
 (function (document) {
     'use strict';
     var dict, taggedStringPrototype, wordPrototype, clearTimer,
-        inputElement, outputElement;
+        inputElement, outputElement, tlhSortkey;
 
     /*************************************************************************\
     **                                                                       **
@@ -260,6 +260,7 @@
             "tu" : ['vp'],  "vI" : ['vp'],  "wI" : ['vp'],  "yI" : ['vp']
         };
         /*jslint white: false */
+
         // split a Klingon word into syllables
         function splitSyllable(word) {
             return word.split(/(?=(?:[bDHjlmnpqQrStvwy\']|ch|gh|ng|tlh)[aeIou])/);
@@ -410,6 +411,37 @@
         return 'ss';                           //   separator, space
     }
 
+    tlhSortkey = (function () {
+        /*jslint white: true */
+        var transl = {
+            "a"  : "a",   "b" : "b",   "ch": "c",   "D" : "d",   "e" : "e",
+            "gh" : "f",   "H" : "g",   "I" : "h",   "j" : "i",   "l" : "j",
+            "m"  : "k",   "n" : "l",   "ng": "m",   "o" : "n",   "p" : "o",
+            "q"  : "p",   "Q" : "q",   "r" : "r",   "S" : "s",   "t" : "t",
+            "tlh": "u",   "u" : "v",   "v" : "w",   "w" : "x",   "y" : "y",
+            "'"  : "z"
+        };
+        /*jslint white: false */
+        // split a Klingon word into characters (doesn't cope with puncuation)
+        function splitCharacter(word) {
+            return word.split(/(?=[abDeHIjmnopqQrStuvwy\']|[cg]h|ng|tlh|l(?!h))/);
+        }
+        return function (word) {
+            return splitCharacter(word).map(function (character) {
+                return transl[character] || '';
+            }).join('');
+        };
+    }());
+
+    // sorting function, use `array.sort(byKlingon)` to sort in Klingon
+    // alphabetical order
+    function byKlingon(a, b) {
+        var x = tlhSortkey(a), y = tlhSortkey(b);
+        if (x < y) { return -1; }
+        if (x > y) { return 1; }
+        return 0;
+    }
+
     function analyze(lang) {
         var glossary = {}, tokens, html,
             // read input & convert unicode apostrophes to ascii
@@ -468,17 +500,19 @@
         output('<table class=sortable>' +
             '  <thead><tr><th><th>Klingon<th>Pos<th>English</thead>' +
             '  <tbody>' +
-            Object.keys(glossary).sort().map(function (key) {
+            Object.keys(glossary).sort(byKlingon).map(function (key) {
                 var obj = glossary[key], text = obj.text,
                     tags = obj.tags, count = obj.count;
-                return tags.map(function(tag) {
-                return '    <tr class=' + tag + '>' +
-                    '      <td align=center>' + count + '</td>' +
-                    '      <td><b>' + text.replace(/\'/g, '&rsquo;') + '</b></td>' +
-                    '      <td align=center>' + tag + '</td>' +
-                    '      <td>' + dict[text][tag][lang] + '</td>' +
-                    '    </tr>';
-                    }).join('');
+                return tags.map(function (tag) {
+                    var prettyText = text.replace(/\'/g, '&rsquo;');
+                    return '    <tr class=' + tag + '>' +
+                        '      <td align=center>' + count + '</td>' +
+                        '      <td sorttable_customkey="' + tlhSortkey(text) + '">' +
+                            '<b lang=tlh>' + prettyText + '</b></td>' +
+                        '      <td align=center>' + tag + '</td>' +
+                        '      <td>' + dict[text][tag][lang] + '</td>' +
+                        '    </tr>';
+                }).join('');
             }).join('') +
             '  </tbody>' +
             '</table>' +
@@ -522,6 +556,7 @@
 // attribute, so that you may use CSS to show/hide various elements on the
 // page.
 (function (document) {
+    'use strict';
     // set 'data-lang' attribute of <html> element
     function setLang(lang) {
         $(document.documentElement).attr('data-lang', lang);
