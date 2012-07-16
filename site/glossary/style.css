@@ -58,16 +58,17 @@ td, th {
     line-height: 140%;
 }
 
-.xxx {
-    background: yellow;
-}
-
 .syllable {
     border: 1px solid black;
 }
 
 .punct { background: transparent; }
 
+/* hide/show translations based on <html data-lang> attr */
+html[data-lang|="en"] :lang(sv) { display: none; }
+html[data-lang|="sv"] :lang(en) { display: none; }
+
+/* part-of-speech highlighting */
 .outer .adv,
 .outer .conj,
 .outer .excl,

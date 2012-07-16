@@ -495,8 +495,8 @@
     $(document).ready(function () {
         outputElement = $('#output');
         inputElement = $('#input');
-        $('#en').click(analyze_en);   // connect 'Analyze' button to function
-        $('#sv').click(analyze_sv);   // connect 'Analyze' button to function
+        $('button[lang|=en]').click(analyze_en);   // connect 'Analyze' button to function
+        $('button[lang|=sv]').click(analyze_sv);   // connect 'Analyze' button to function
         $('#input').focus();          // focus input area
 
         // load dictionary data
@@ -509,5 +509,28 @@
 
 
 }(document)); // passed in for minifying purposes
+
+
+/*****************************************************************************\
+**                                                                           **
+** Page Language Selector                                                    **
+**                                                                           **
+\*****************************************************************************/
+
+// This should be used with a <select class=lang> on your page. An onChange
+// event is added to that, which, on selection sets 'data-lang' of the <html>
+// attribute, so that you may use CSS to show/hide various elements on the
+// page.
+(function (document) {
+    // set 'data-lang' attribute of <html> element
+    function setLang(lang) {
+        $(document.documentElement).attr('data-lang', lang);
+    }
+    $(document).ready(function () {
+        setLang('en');  // default langue = english
+        // call language change whenever user changes <select class=lang>
+        $('select.lang').change(function () { setLang(this.value); });
+    });
+}(document));
 
 //eof

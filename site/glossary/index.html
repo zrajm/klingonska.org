@@ -1,17 +1,22 @@
 <!doctype html>
 <html>
 <head>
-  <title>Klingon Glossary Extractor &ndash; Klingonska Akademien</title>
+  <title lang=en>Klingon Glossary Extractor &ndash; Klingonska Akademien</title>
+  <title lang=sv>Klingonsk gloslistextraktor &ndash; Klingonska Akademien</title>
   <link href=style.css rel=stylesheet>
 </head>
 <body>
-  <noscript><strong>Note:</strong>This page is a Javascript program for
+  <noscript lang=en><strong>Note:</strong>This page is a Javascript program for
     extracting a glossary from any Klingon text. It will not work if you don't
     have Javascript enabled. (Sorry about that.)</noscript>
+  <noscript lang=sv><strong>OBS!</strong>Denna sida är ett Javascript program
+    för att extrahera en gloslista givet valfri text på Klingonska. Sidan kommer
+    inte att funka ifall du inte har Javascript påslaget.</noscript>
   <table class=outer>
     <tr>
       <td>
-        <h2>Klingon Text</h2>
+        <h2 lang=en>Klingon Text</h2>
+        <h2 lang=sv>Klingonsk Text</h2>
         <div id=input contenteditable>ghIq ngotlhwI' yIqel. (maw'be'; Hov leng
           tIvqu' neH). roD DujHeyDaq yo'HeyDaq ghap ghom. patlh ghaj yaSDaj,
           'ej batlh cha'maHlogh Qapchugh lunumlu'. tlhIngan nugh, tIgh je neH
@@ -21,23 +26,32 @@
           tIvbe'bej. Hol lughojmo' pop yajchu' jatlhwI'
         </div>
         <div>
-          <button id=en>Make English Glossary</button>
-          <button id=sv>Skapa svensk gloslista</button>
+          <button lang=en>Extract English Glossary</button>
+          <button lang=sv>Extrahera svensk gloslista</button>
+          <span lang=en>Language:</span>
+          <span lang=sv>Språk:</span>
+          <select class=lang><option value=en>English<option value=sv>Swedish</select>
           <p><span>
               <span class="v">Verb</span>
-              <span class="n">Noun</span>
-              <span class="num">Number</span>
-              <span class="pro">Other</span>
-              <span class="n v">Ambiguous</span>
-              <span class="">Unknown</span>
+              <span class="n" lang=en>Noun</span>
+              <span class="n" lang=sv>Substantiv</span>
+              <span class="num" lang=en>Number</span>
+              <span class="num" lang=sv>Nummer</span>
+              <span class="pro" lang=en>Other</span>
+              <span class="pro" lang=sv>Annat</span>
+              <span class="n v" lang=en>Ambiguous</span>
+              <span class="n v" lang=sv>Tvetydigt</span>
+              <span class="" lang=en>Unknown</span>
+              <span class="" lang=sv>Okänt</span>
           </span></p>
-          <h2>Instructions</h2>
-          <p>Insert any Klingon text above, and press one of the buttons to
-            extract a glossary from it. You can re-sort the resulting glossary
-            by clicking on the table headers. After analyzing you can also
-            hover over the color marked syllables in the input text to see
-            which parts-of-speech they have been identified as. (The color
-            markings reflect the part-of-speech calculated for the whole word.)
+          <h2 lang=en>Instructions</h2>
+          <h2 lang=sv>Instruktioner</h2>
+          <p lang=en>Insert any Klingon text above, then press the button to
+            analyze and extract words from it. Resulting glossary can be
+            re-sorted by clicking on the table headers.
+          <p lang=sv>Klistra in valfri klingonsk text ovan och tryck på knappen
+            för att analysera och extrahera glosor ifrån den. Du kan sortera om
+            gloslistan genom att klicka på tabellrubrikerna.
           <h2>TODO</h2>
           <ul>
             <li>Better word analysis (currently fails e.g. roots longer than
@@ -46,12 +60,15 @@
             <li>Proper Klingon sort order when sorting glossary.
             <li>Editing of glossary table.
           </ul>
-          <p>This script loads the latest version
+          <p lang=en>This script loads the word list of the current version
             of <a href="../dict/">Klingonska Akademien&rsquo;s Pocket
             Dictionary</a>.
+          <p lang=sv>Denna sida använder sig av ordlistan ifrån aktuell version
+            av <a href="../dict/">Klingonska Akademiens fickordbok</a>.
         </div>
       <td>
-        <h2>Glossary</h2>
+        <h2 lang=en>Glossary</h2>
+        <h2 lang=sv>Gloslista</h2>
         <div id=output>Loading <a href="../dict/dict.zdb">dictionary</a>...</div>
       </td>
     </tr>
