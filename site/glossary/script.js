@@ -36,7 +36,7 @@
     \*************************************************************************/
     // Object Anatomy
     // --------------
-    // {
+    // dict = {
     //     "bach": {
     //         pos: "v n",
     //         "v": {
@@ -196,7 +196,7 @@
     // --------------
     // word = {
     //     text: "pIqaD",
-    //     tags: [ "v", "n" ],
+    //     tags: [ "v", "n" ],            // overall word part-of-speech
     //     syllables: [
     //         {
     //             text: "pI",            // actual syllable
@@ -268,20 +268,29 @@
 
         // insert part-of-speech tags into words that turn out to be nouns
         function analyzeNoun(wordObject) {
-            var isNouny = false, count = 0, root = "", pos = [];
-            isNouny = wordObject.syllables.every(function (syllable) {
-                count += 1;
-                if (count === 1) {
-                    root = syllable.getText();
-                    pos = syllable.getTags(['n', 'name', 'pro']);
-                    return pos.length;
-                }
-                return syllable.hasTag(['ns1', 'ns2', 'ns3', 'ns4', 'ns5']);
+            var root = '',
+                syllCount = 1,
+                syllMax = Math.min(wordObject.syllables.length, 4); // max length of root word
+            // try each possible root (1-4 syllables)
+            [1, 2, 3, 4].slice(0, syllMax).forEach(function (syllCount) {
+                root = wordObject.getSyllable(0, syllCount).join('');
+                console.log([wordObject.getText(), root, syllCount, syllMax].toString());
+                if (!dict[root]) { return; }
+                // root is good, look at part-of-speech
+                ['n', 'name', 'pro'].forEach(function (pos) {
+                    var suffixes = [], hasOnlyNounSuffixes = false;
+                    if (!dict[root][pos]) { return; }
+                    // root and part-of-speech is good, check suffixes
+                    suffixes = wordObject.syllables.slice(syllCount);
+                    hasOnlyNounSuffixes = suffixes.every(function (syllable) {
+                        return syllable.hasTag(['ns1', 'ns2', 'ns3', 'ns4', 'ns5']);
+                    });
+                    if (hasOnlyNounSuffixes) {
+                        wordObject.addTag(['n']);
+                        wordObject.addRoot(root, [pos]);
+                    }
+                });
             });
-            if (isNouny) {
-                wordObject.addTag(pos);
-                wordObject.addRoot(root, pos);
-            }
         }
         // insert part-of-speech tags into words that turn out to be verbs
         // FIXME: cope with -wI'- and -ghach- verbs
@@ -293,7 +302,7 @@
                     if (syllable.hasTag(['vp'])) { count -= 1; return true; }
                     root = syllable.getText();
                     pos = syllable.getTags(['v', 'pro']);
-                    return pos.length;
+                    return !!pos.length;
                 }
                 return syllable.hasTag(['vs1', 'vs2', 'vs3', 'vs4', 'vs5',
                     'vs6', 'vs7', 'vs8', 'vs9', 'vsr']);
@@ -331,6 +340,11 @@
                 }
             }
         }
+        that.getSyllable = function (start, length) {
+            return this.syllables.slice(start, length).map(function (x) {
+                return x.text;
+            });
+        };
         that.addRoot = function (word, pos) {
             var tagProp;
             if (Object.prototype.toString.call(pos) !== '[object Array]') {
@@ -450,10 +464,10 @@
 
         // process tokens (= word or inter-word space)
         tokens = splitted.map(function (text) {
-            if (text.match(/^[^a-z\']/i)) {     // punctuation
-                return makeTaggedString(text, [ analyzeSpace(text) ]);
-            }
-            return makeWord(text);             // word
+            if (text.match(/^[a-z\']/i)) {     // word
+                return makeWord(text);
+            }                                  // punctuation
+            return makeTaggedString(text, [ analyzeSpace(text) ]);
         });
 
         // glossary = {
