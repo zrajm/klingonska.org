@@ -4,6 +4,10 @@
 
   TODO
 
+  * Text and glossary list should have a line where the number of words, verbs,
+    nouns etc are listed.
+  * Hovering over syllable in text should display the root word
+    interpretations.
   * Color marking should be according to the part-of-speech of the *whole*
     word, while extracted glossary should be the root word (e.g. {ngotlhwI'}
     should be color marked as a noun, but included in the glossary should be
@@ -11,23 +15,83 @@
   * get -wI'- and -ghach- verbs right
   * Explanatory words under input field should be clickable (and enable/disable
     highlight of their respective categories)
-  * user should be able to select interpretations by clicking on words in input
-    field (to clear up ambiguous words)
+  * User should be able to select interpretations by clicking on words in input
+    field (to clear up ambiguous words).
 
-  * hover over word in table should highlight word in input field
-  * hover over word in cheat-sheet should highlight word in input field
-
-  * remove lines from glossary table (with undo)
+  * Hover over word in table should highlight all occurances of word in input
+    field.
+  * Hover over word in cheat-sheet should highlight word in input field.
 
   MEBBE LATER
-  * add affixes to glossary
+  * Add affixes to glossary.
 
  */
+
+
+/*****************************************************************************\
+**                                                                           **
+** ECMAScript 5 Compatibility Functions for Older Browsers                   **
+**                                                                           **
+\*****************************************************************************/
+(function () {
+    'use strict';
+    // Add Object.create()
+    if (typeof Object.create !== 'function') {
+        Object.create = function (o) {
+            function F() {}
+            F.prototype = o;
+            return new F();
+        };
+    }
+    // Add Object.keys()
+    if (!Object.keys) {
+        Object.keys = (function () {
+            var hasOwnProperty = Object.prototype.hasOwnProperty,
+                hasDontEnumBug = !({toString: null}).propertyIsEnumerable('toString'),
+                dontEnums = [
+                    'toString',
+                    'toLocaleString',
+                    'valueOf',
+                    'hasOwnProperty',
+                    'isPrototypeOf',
+                    'propertyIsEnumerable',
+                    'constructor'
+                ],
+                dontEnumsLength = dontEnums.length;
+            return function (obj) {
+                var result = [], prop, i;
+                if ((typeof obj !== 'object' && typeof obj !== 'function') || obj === null) {
+                    throw new TypeError('Object.keys called on non-object');
+                }
+                for (prop in obj) {
+                    if (obj.hasOwnProperty(prop)) {
+                        result.push(prop);
+                    }
+                }
+                if (hasDontEnumBug) {
+                    for (i = 0; i < dontEnumsLength; i += 1) {
+                        if (hasOwnProperty.call(obj, dontEnums[i])) {
+                            result.push(dontEnums[i]);
+                        }
+                    }
+                }
+                return result;
+            };
+        }());
+    }
+}());
 
 (function (document) {
     'use strict';
     var dict, taggedStringPrototype, wordPrototype, clearTimer,
-        inputElement, outputElement, tlhSortkey;
+        inputElement, outputElement, tlhSortkey,
+        // possible number of syllables in verb and noun root words (i.e. word
+        // length without affixes -- these are used when looking up words
+        // stripped of affixes in dictionary -- ever a three syllable verb is
+        // added to the language the 'verbRootLengths' will have to be extended
+        // for this parser to find it)
+        verbMaxRootLength = 2,
+        nounMaxRootLength = 4;
 
     /*************************************************************************\
     **                                                                       **
@@ -266,79 +330,63 @@
             return word.split(/(?=(?:[bDHjlmnpqQrStvwy\']|ch|gh|ng|tlh)[aeIou])/);
         }
 
-        // insert part-of-speech tags into words that turn out to be nouns
-        function analyzeNoun(wordObject) {
-            var root = '',
-                syllCount = 1,
-                syllMax = Math.min(wordObject.syllables.length, 4); // max length of root word
-            // try each possible root (1-4 syllables)
-            [1, 2, 3, 4].slice(0, syllMax).forEach(function (syllCount) {
-                root = wordObject.getSyllable(0, syllCount).join('');
-                console.log([wordObject.getText(), root, syllCount, syllMax].toString());
-                if (!dict[root]) { return; }
-                // root is good, look at part-of-speech
-                ['n', 'name', 'pro'].forEach(function (pos) {
-                    var suffixes = [], hasOnlyNounSuffixes = false;
-                    if (!dict[root][pos]) { return; }
-                    // root and part-of-speech is good, check suffixes
-                    suffixes = wordObject.syllables.slice(syllCount);
-                    hasOnlyNounSuffixes = suffixes.every(function (syllable) {
-                        return syllable.hasTag(['ns1', 'ns2', 'ns3', 'ns4', 'ns5']);
-                    });
-                    if (hasOnlyNounSuffixes) {
-                        wordObject.addTag(['n']);
-                        wordObject.addRoot(root, [pos]);
-                    }
-                });
+        // Usage: truefalse = isSuffix(wordObject, firstSyllable, [PoS...]);
+        //
+        // Check all 'firstSyllable' and all subsequent syllable to see that
+        // each of them has a part-of-speech matching a specified
+        // part-of-speech. Return true if all syllables match, false otherwise.
+        function isSuffix(wordObject, firstSyll, poses) {
+            var suffixes = wordObject.syllables.slice(firstSyll);
+            return suffixes.every(function (syllable) {
+                return syllable.hasTag(poses);
             });
         }
-        // insert part-of-speech tags into words that turn out to be verbs
-        // FIXME: cope with -wI'- and -ghach- verbs
-        function analyzeVerb(wordObject) {
-            var isVerby = false, count = 0, root = "", pos = [];
-            isVerby = wordObject.syllables.every(function (syllable) {
-                count += 1;
-                if (count === 1) {
-                    if (syllable.hasTag(['vp'])) { count -= 1; return true; }
-                    root = syllable.getText();
-                    pos = syllable.getTags(['v', 'pro']);
-                    return !!pos.length;
+
+        // offset = 0 | 1 (1=word with prefix)
+        function checkWord(wordObject, offset, maxRootLength, rootTypes, suffixTypes, setType) {
+            // max length of root word in syllables
+            var syllMax = Math.min(wordObject.syllables.length - offset, maxRootLength);
+            // try each possible root (1-verbMaxRootLength syllables)
+            [1, 2, 3, 4, 5].slice(offset, syllMax + offset).forEach(function (syllCount) {
+                var root = wordObject.getSyllable(offset, syllCount).join('');
+                if (dict[root]) {                      // root exist
+                    rootTypes.forEach(function (pos) { //   examine its part-of-speech
+                        if (dict[root][pos]) {         //     word with this PoS exists
+                            if (isSuffix(wordObject, syllCount, suffixTypes)) {
+                                wordObject.addTag([setType]);
+                                wordObject.addRoot(root, [pos]);
+                            }
+                        }
+                    });
                 }
-                return syllable.hasTag(['vs1', 'vs2', 'vs3', 'vs4', 'vs5',
-                    'vs6', 'vs7', 'vs8', 'vs9', 'vsr']);
             });
-            if (isVerby) {
-                wordObject.addTag(pos);
-                wordObject.addRoot(root, pos);
+        }
+
+        // insert part-of-speech tags into words that turn out to be nouns
+        function analyzeNoun(wordObject) {
+            checkWord(wordObject, 0, nounMaxRootLength, ['n', 'name', 'pro'],
+                ['ns1', 'ns2', 'ns3', 'ns4', 'ns5'], 'n');
+        }
+        // insert part-of-speech tags into words that turn out to be verbs
+        function analyzeVerb(wordObject) {
+            checkWord(wordObject, 0, verbMaxRootLength, ['v', 'pro'], ['vs1', 'vs2',
+                'vs3', 'vs4', 'vs5', 'vs6', 'vs7', 'vs8', 'vs9', 'vsr'], 'v');
+            if (wordObject.syllables[0].hasTag(['vp'])) {
+                checkWord(wordObject, 1, verbMaxRootLength, ['v'], ['vs1', 'vs2',
+                    'vs3', 'vs4', 'vs5', 'vs6', 'vs7', 'vs8', 'vs9', 'vsr'], 'v');
             }
         }
         // insert part-of-speech tags into words that turn out to be numbers
         function analyzeNumber(wordObject) {
-            var isNumbery = false, count = 0, root = "", pos = [];
-            isNumbery = wordObject.syllables.every(function (syllable) {
-                count += 1;
-                if (count === 1) {
-                    root = syllable.getText();
-                    pos = syllable.getTags(['num', 'num1', 'num2']);
-                }
-                return syllable.hasTag(['num', 'num1', 'num2']);
-            });
-            if (isNumbery) {
-                wordObject.addTag(pos);
-                wordObject.addRoot(root, pos);
-            }
+            checkWord(wordObject, 0, 1, ['num', 'num1', 'num2'],
+                ['num', 'num1', 'num2'], 'num');
         }
         // insert part-of-speech tags into words that turn out to be {chuvmey}
         function analyzeTheRest(wordObject) {
-            var syllables = wordObject.syllables, root = "", pos = [];
-            if (syllables.length === 1) {
-                root = syllables[0].getText();
-                pos = syllables[0].getTags(['adv', 'conj', 'excl', 'ques']);
-                if (pos.length > 0) {
-                    wordObject.addTag(pos);
-                    wordObject.addRoot(root, pos);
-                }
-            }
+            checkWord(wordObject, 0, 3, ['adv'],  [], 'adv');  // ghaytanHa'
+            checkWord(wordObject, 0, 1, ['conj'], [], 'conj');
+            checkWord(wordObject, 0, 3, ['excl'], [], 'excl');
+            checkWord(wordObject, 0, 2, ['ques'], [], 'ques'); // nuqDaq, 'arlogh
         }
         that.getSyllable = function (start, length) {
             return this.syllables.slice(start, length).map(function (x) {
@@ -511,26 +559,30 @@
 
         inputElement.html(html);
         // output glossary
-        output('<table class=sortable>' +
-            '  <thead><tr><th><th>Klingon<th>Pos<th>English</thead>' +
-            '  <tbody>' +
+        output('<table class="sortable">' +
+            '<thead><tr><th><th>Klingon<th>Pos<th>' +
+            '<span class=unzap title="Undo word remove.">↶</span>English</thead>' +
+            '<tbody>' +
             Object.keys(glossary).sort(byKlingon).map(function (key) {
                 var obj = glossary[key], text = obj.text,
                     tags = obj.tags, count = obj.count;
                 return tags.map(function (tag) {
                     var prettyText = text.replace(/\'/g, '&rsquo;');
-                    return '    <tr class=' + tag + '>' +
-                        '      <td align=center>' + count + '</td>' +
-                        '      <td sorttable_customkey="' + tlhSortkey(text) + '">' +
-                            '<b lang=tlh>' + prettyText + '</b></td>' +
-                        '      <td align=center>' + tag + '</td>' +
-                        '      <td>' + dict[text][tag][lang] + '</td>' +
-                        '    </tr>';
+                    return '<tr class=' + tag + '>' +
+                        '<td align=center>' + count + '</td>' +
+                        '<td sorttable_customkey="' + tlhSortkey(text) + '">' +
+                        '<b lang=tlh>' + prettyText + '</b></td>' +
+                        '<td align=center>' + tag + '</td>' +
+                        '<td><span class=zap title="Remove this word.">×</span>' +
+                        dict[text][tag][lang] +
+                        '</td>' +
+                        '</tr>';
                 }).join('');
             }).join('') +
-            '  </tbody>' +
+            '</tbody>' +
             '</table>' +
-            '<script src="../includes/sorttable.js"></script>');
+            '<script src="../includes/sorttable.js"></script>' +
+            '<script src="zaptablerow.js"></script>');
     }
     function analyze_en() { analyze('en'); }
     function analyze_sv() { analyze('sv'); }
@@ -573,7 +625,7 @@
     'use strict';
     // set 'data-lang' attribute of <html> element
     function setLang(lang) {
-        $(document.documentElement).attr('data-lang', lang);
+        $(document.body).attr('data-lang', lang);
     }
     $(document).ready(function () {
         setLang('en');  // default langue = english

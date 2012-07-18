@@ -25,13 +25,34 @@ table {
     border-collapse: collapse;
 }
 
-
 td, th {
     border: 2px solid #000;
     vertical-align: top;
     padding: .25em .5em;
 }
 
+tr:hover > * > span.zap,
+tr:hover > * > span.unzap {
+    visibility: visible;
+}
+span.zap:hover,
+span.unzap:hover {
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+tr > * > span.zap,
+tr > * > span.unzap {
+    opacity: .5;
+    border-width: 0 2px;
+    border-style: solid;
+    border-color: transparent;
+    font-family: sans;
+    font-weight: bold;
+    position: absolute;
+    right: 24px;
+    visibility: hidden;
+}
 
 .input {
     float: left;
@@ -65,8 +86,8 @@ td, th {
 .punct { background: transparent; }
 
 /* hide/show translations based on <html data-lang> attr */
-html[data-lang|="en"] :lang(sv) { display: none; }
-html[data-lang|="sv"] :lang(en) { display: none; }
+body[data-lang|="en"] :lang(sv) { display: none; }
+body[data-lang|="sv"] :lang(en) { display: none; }
 
 /* part-of-speech highlighting */
 .outer .adv,

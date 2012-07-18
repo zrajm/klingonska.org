@@ -1,11 +1,10 @@
 <!doctype html>
-<html data-lang=en>
+<html>
 <head>
-  <title lang=en>Klingon Glossary Extractor &ndash; Klingonska Akademien</title>
-  <title lang=sv>Klingonsk gloslistextraktor &ndash; Klingonska Akademien</title>
+  <title>Klingon Glossary Extractor &ndash; Klingonska Akademien</title>
   <link href=style.css rel=stylesheet>
 </head>
-<body>
+<body data-lang=en>
   <noscript lang=en><strong>Note:</strong>This page is a Javascript program for
     extracting a glossary from any Klingon text. It will not work if you don't
     have Javascript enabled. (Sorry about that.)</noscript>
@@ -25,10 +24,13 @@
           'e' lupIHbe' je. Quj tIvbej ghommeyvam, 'ach tlhIngan Hol Dun
           tIvbe'bej. Hol lughojmo' pop yajchu' jatlhwI'
           tlhInganmeyHeywI'Daq
+          ghIpDIjtaHDI'
+          bIHe'So'
+          HInughI'chu'!
         </div>
         <div>
-          <button lang=en>Extract English Glossary</button>
-          <button lang=sv>Extrahera svensk gloslista</button>
+          <button lang=en>List Glossary</button>
+          <button lang=sv>Lista glosor</button>
           <span lang=en>Language:</span>
           <span lang=sv>Språk:</span>
           <select class=lang><option value=en>English<option value=sv>Swedish</select>
@@ -47,26 +49,28 @@
           </span></p>
           <h2 lang=en>Instructions</h2>
           <h2 lang=sv>Instruktioner</h2>
-          <p lang=en>Insert any Klingon text above, then press the button to
-            analyze and extract words from it. Resulting glossary can be
-            re-sorted by clicking on the table headers.
+          <p lang=en>Insert any Klingon text above, and press the button to
+            list the words in it. Delete words from resulting glossary by
+            clicking the &ldquo;×&rdquo; that appears at the end of a table row
+            when the mouse pointer is over it, re-sort by clicking table
+            headers.
           <p lang=sv>Klistra in valfri klingonsk text ovan och tryck på knappen
-            för att analysera och extrahera glosor ifrån den. Du kan sortera om
-            gloslistan genom att klicka på tabellrubrikerna.
-          <h2>TODO</h2>
-          <ul>
-            <li>Better word analysis (currently fails on verbs with roots
-              longer than one syllable, verbs
-              with <nobr><b lang="tlh">-wI'-</b></nobr>
-              or <nobr><b lang="tlh">-ghach-</b></nobr>, and nouns
-              with <b lang="tlh">-oy</b>).
-            <li>Editing of glossary table.
-          </ul>
-          <p lang=en>This script loads the word list of the current version
+            för att lista orden i den. Radera ord från resulterande gloslista
+            genom att klicka på &ldquo;×&rdquo;:et som dyker upp när du håller
+            muspekaren över ordet i listan. Sortera om listan genom att klicka
+            på tabellrubrikerna.
+          <p lang=en>This page uses the word list from the current version
             of <a href="../dict/">Klingonska Akademien&rsquo;s Pocket
             Dictionary</a>.
           <p lang=sv>Denna sida använder sig av ordlistan ifrån aktuell version
             av <a href="../dict/">Klingonska Akademiens fickordbok</a>.
+          <h2>TODO</h2>
+          <ul>
+            <li>Better word analysis (currently fails for verbs
+              with <nobr><b lang="tlh">-wI'-</b></nobr>
+              or <nobr><b lang="tlh">-ghach-</b></nobr>, and nouns
+              with <b lang="tlh">-oy</b>).
+          </ul>
         </div>
       <td>
         <h2 lang=en>Glossary</h2>
