@@ -1504,8 +1504,35 @@ optimization."
       field. -- These words should be included in the Klingon--English version
       of the dictionary, but with a leading asterisk, and a warning they're not
       supposed to be used. Maybe add a 'warn' field, explaining why?
-**** Add words
-***** TODO [0%] Words from the Klingon opera {'u'}
+**** [28%] Add words
+***** TODO Add {qatlhDa'} <water pipe>
+      pun: The pun is carried on in {qatlhDa'} ("water pipe"): "Viaduct? Why a
+      duck?" I have only seen this in Felix Malmenbeck's "Klingon Toddler
+      Flashcards" document. Where is it from? Verify source?
+***** TODO Add {qISa'ruj} <raptor> (?)
+      Described by Felix as: "Used for 'raptor-type ship', but does it actually
+      mean raptor? Pun on 'jurassic'."
+***** [0%] Add words from _Diplomatic Implausibility_ (DI)
+      Using 'file: 2001-02-17-email.txt' should work for these words.
+****** TODO {ramjep} <bird>
+       Should have "cat: animal".
+
+       Avian life-form indigenous to Qo'noS that only comes out in the dark.
+       Name literally means "midnight."
+****** TODO {ghISnar} <Grisnar cat>
+       Should have "cat: animal".
+
+       Should the word be {ghISnar vIghro'}?
+
+       Small animal, apparently not a very vicious one, though with perhaps a
+       predilection for trying to sound fiercer than it actually is. [First
+       referenced in "The Way of the Warrior" (DS9).]
+****** TODO {Qa'Da'} <krada>
+       Should have "cat: animal".
+
+       Food made from the extremities of a krada. [First mentioned in "The
+       Sound of Her Voice" (DS9).]
+***** [0%] Words from the Klingon opera {'u'}
       https://mail.google.com/mail/#search/tlheng'IQ/12a0fa8c18c6f6a3
 ****** TODO {ghIv} limb (of a person)
        Marc was listening in while Eric was telling me the words. When we got
@@ -1612,7 +1639,7 @@ optimization."
 ****** TODO ma'to'vor	(noun)	Mauk-to'Vor
 ****** TODO jeghpu'wI'	(noun)	conquered people -- more than slaves, less than citizens. The status given to natives of worlds conquered by the Klingon Empire
 ****** TODO Habnagh	(noun)	a type of stone indigenous to Qo'noS. Often used in statuary
-****** TODO ghISnar	(noun)	grishnar cat
+****** TODO ghISnar	(noun)	grishnar cat (from Dimplomatic Implausability)
 ****** TODO gha'poq	(noun)	grapok sauce
 ****** TODO Da'ar	(noun)	Dahar (master)
 ****** TODO boqrat chej	(noun)	bok-rat liver, stewed
