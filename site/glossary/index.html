@@ -29,48 +29,52 @@
           HInughI'chu'!
         </div>
         <div>
-          <button lang=en>List Glossary</button>
-          <button lang=sv>Lista glosor</button>
+          <button lang=en>Extract Glossary</button>
+          <button lang=sv>Extrahera gloslista</button>
           <span lang=en>Language:</span>
           <span lang=sv>Språk:</span>
           <select class=lang><option value=en>English<option value=sv>Swedish</select>
-          <p><span>
-              <span class="v">Verb</span>
-              <span class="n" lang=en>Noun</span>
-              <span class="n" lang=sv>Substantiv</span>
-              <span class="num" lang=en>Number</span>
-              <span class="num" lang=sv>Nummer</span>
-              <span class="pro" lang=en>Other</span>
-              <span class="pro" lang=sv>Annat</span>
-              <span class="n v" lang=en>Ambiguous</span>
-              <span class="n v" lang=sv>Tvetydigt</span>
-              <span class="" lang=en>Unknown</span>
-              <span class="" lang=sv>Okänt</span>
-          </span></p>
+          <span lang=en>Word count:</span>
+          <span lang=sv>Antal ord:</span>
+          <span id=textcount>0</span>
+          <p>
+            <span class="v">Verb</span>
+            <span class="n" lang=en>Noun</span>
+            <span class="n" lang=sv>Substantiv</span>
+            <span class="num" lang=en>Number</span>
+            <span class="num" lang=sv>Nummer</span>
+            <span class="pro" lang=en>Other</span>
+            <span class="pro" lang=sv>Annat</span>
+            <span class="n v" lang=en>Ambiguous</span>
+            <span class="n v" lang=sv>Tvetydigt</span>
+            <span class="" lang=en>Unknown</span>
+            <span class="" lang=sv>Okänt</span>
+          </p>
+          <p lang=en>Color indicate part of speech. Verbs
+            with <b lang=tlh>-ghach</b> or <b lang=tlh>-wI&rsquo;</b> acts as,
+            and are colored as, nouns, but it is the root <i>verb</i> which is
+            added to the glossary.
+          <p lang=sv>Färg indikerar ordklass. Verb med <b lang=tlh>-ghach</b>
+            eller <b lang=tlh>-wI&rsquo;</b> fungerar som substantiv och är
+            markeras som sådana, men det är ordets verbrot som hamnar i
+            gloslistan.
           <h2 lang=en>Instructions</h2>
           <h2 lang=sv>Instruktioner</h2>
-          <p lang=en>Insert any Klingon text above, and press the button to
-            list the words in it. Delete words from resulting glossary by
-            clicking the &ldquo;×&rdquo; that appears at the end of a table row
-            when the mouse pointer is over it, re-sort by clicking table
-            headers.
-          <p lang=sv>Klistra in valfri klingonsk text ovan och tryck på knappen
-            för att lista orden i den. Radera ord från resulterande gloslista
-            genom att klicka på &ldquo;×&rdquo;:et som dyker upp när du håller
-            muspekaren över ordet i listan. Sortera om listan genom att klicka
-            på tabellrubrikerna.
-          <p lang=en>This page uses the word list from the current version
-            of <a href="../dict/">Klingonska Akademien&rsquo;s Pocket
-            Dictionary</a>.
-          <p lang=sv>Denna sida använder sig av ordlistan ifrån aktuell version
-            av <a href="../dict/">Klingonska Akademiens fickordbok</a>.
-          <h2>TODO</h2>
-          <ul>
-            <li>Better word analysis (currently fails for verbs
-              with <nobr><b lang="tlh">-wI'-</b></nobr>
-              or <nobr><b lang="tlh">-ghach-</b></nobr>, and nouns
-              with <b lang="tlh">-oy</b>).
-          </ul>
+          <p lang=en>Enter any Klingon text above, and press the button to
+            extract a glossary from it. You may remove any word from the
+            glossary by clicking the &ldquo;×&rdquo; that appears when the
+            mouse pointer is above the word. You can also re-sort the glossary
+            by clicking the table headers.
+          <p lang=sv>Klistra in valfri text på klingonska ovan och tryck på
+            knappen för att extrahera en gloslista ur den. Du kan radera ord
+            från gloslistan genom att klicka på &ldquo;×&rdquo;:et som dyker
+            upp när du håller muspekaren över ett ord i listan. Du kan också
+            sortera om listan genom att klicka på tabellrubrikerna.
+          <p lang=en>This page automatically loads the word list from the
+            latest version of <a href="../dict/">Klingonska Akademien&rsquo;s
+            Pocket Dictionary</a>.
+          <p lang=sv>Denna sida laddar automatiskt ordlistan ifrån senaste
+            version av <a href="../dict/">Klingonska Akademiens fickordbok</a>.
         </div>
       <td>
         <h2 lang=en>Glossary</h2>

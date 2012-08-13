@@ -173,6 +173,6 @@ body[data-lang|="sv"] :lang(en) { display: none; }
 .outer .n { background: #afa }                    /* "Noun" */
 .outer .num { background: #aaf }                  /* "Number" */
 
-.outer [title]:hover { background: rgba(0,0,0,.3) }
+.outer [title] span:hover { background: rgba(0,0,0,.2) }
 
 /*eof*/
