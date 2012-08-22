@@ -115,6 +115,38 @@ ls-copied:
 	    echo $$LINE; \
 	done | if [ -t 1 ]; then column; else cat; fi
 
+## auto - autorun 'make site' when files change
+.PHONY: auto
+auto:
+	@echo "Watching '$(source_dir)' dir,"    \
+	    "running 'make site' on changes..."  \
+	    "(Press ^C to interrupt.)";          \
+	if which notify-send >/dev/null &&       \
+	    [ -n $$DISPLAY ]; then               \
+	    out() {                              \
+	        echo "$$1 $$2";                  \
+	        notify-send -u critical          \
+	            "$$1" "$$2";                 \
+	    };                                   \
+	else                                     \
+	    out() { echo "$$1 $$2"; };           \
+	fi;                                      \
+	inotifywait                              \
+	    --event=CLOSE_WRITE                  \
+	    --exclude='/[.#][^/]*$$'             \
+	    --monitor                            \
+	    --quiet                              \
+	    --recursive $(source_dir)            \
+	    | while read FILE; do                \
+	        FILE="$${FILE%% *}$${FILE##* }"; \
+	        echo "File '$$FILE' changed";    \
+	        RESULT="Failed to process";      \
+	        make --no-print-directory        \
+	            | sed 's/^/    /'            \
+	            && RESULT="Processed";       \
+	        out "$$RESULT" $$FILE;           \
+	    done
+
 ## publish - rsync generated web site to web host
 .PHONY: publish
 publish: .publish.done
