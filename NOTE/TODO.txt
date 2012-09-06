@@ -2267,6 +2267,8 @@ optimization."
 ** DONE Remove KA bylaws
    CLOSED: [2010-10-07 Thu 07:27]
 * Build/check tools
+** [0%] `bin/check-html-nesting`
+*** TODO Should be able to cope with tags that does not require end tags.
 ** TODO Replace 'includes/sorttable.js' with something that can be minified
    It should also pass JSLint.
 

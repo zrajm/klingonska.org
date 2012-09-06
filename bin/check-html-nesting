@@ -1,0 +1,84 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use 5.10.0;
+
+###############################################################################
+##                                                                           ##
+##  Functions                                                                ##
+##                                                                           ##
+###############################################################################
+
+# Usage: line_number($STRING, $POS);
+#
+# Return line number (in $STRING) of character-based position $POS.
+sub line_number {
+    my ($html, $char_pos) = @_;
+    return (substr($html, 0, $char_pos) =~ tr/\n//) + 1;
+}
+
+
+###############################################################################
+##                                                                           ##
+##  Init                                                                     ##
+##                                                                           ##
+###############################################################################
+
+if (-t 0) {
+    print <<EOF;
+Usage: check-html <HTMLFILE
+
+Does a simple check to see that all HTML tags are accompanied by their
+appropriate closing tag. (No validity checks are made of tag contents or
+attributes.)
+EOF
+    exit;
+}
+
+
+###############################################################################
+##                                                                           ##
+##  Main                                                                     ##
+##                                                                           ##
+###############################################################################
+
+$/ = undef;
+my $html = <>;
+my @stack = ();
+
+# list of elements which does not have an </end> tag
+my %empty_element = (
+    area   => 1, base => 1, br   => 1, col   => 1, hr      => 1, img    => 1,
+    input  => 1, link => 1, meta => 1, param => 1, command => 1, keygen => 1,
+    source => 1
+);
+
+while ($html =~ m# <!--.*?--> | <(/?)(\w+)[^<>]*?> #gx) {
+    next if substr($&, 0, 4) eq '<!--'; # skip HTML comments
+    my ($start_tag, $tag_name, $char_pos) = (!$1, $2, pos($html));
+    if ($start_tag) {
+        if (not $empty_element{$tag_name}) {
+            push(@stack, {
+                tag  => $tag_name,
+                line => line_number($html, $char_pos),
+                full => $&,
+            });
+        }
+    } else {
+        if ($stack[-1]{tag} eq $tag_name) {
+            pop(@stack);
+        } else {
+            warn "end tag '$&' missing leading tag in position " .
+                line_number($html, $char_pos) . "\n";
+        }
+    }
+
+}
+
+if (@stack) {
+    use Data::Dumper;
+    warn "Unterminated start tags found:\n" .
+        join("", map { "    Line " . $_->{line} . " -- " . $_->{full} . "\n" } @stack);
+}
+
+#[eof]
