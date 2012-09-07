@@ -234,6 +234,7 @@ header {
     }
     /* Table with border (default). */
     table {
+        background: inherit;
         border: 4px solid #000;
         margin: 1em auto;
         td, th {
@@ -242,8 +243,7 @@ header {
         }
         col, tbody { border: 4px solid #000; }
         caption {
-            font-weight: bold;
-            font-style: italic;
+            caption-side: bottom;
         }
     }
     /* Borderless table, class 'noborder'.
