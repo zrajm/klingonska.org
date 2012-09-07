@@ -25,7 +25,6 @@ my %code = (
     AUTHOR    => \&page_author,    # in 'template.html'
     CHANGED   => \&page_changed,   # in 'template.html'
     CRUMBS    => \&page_crumbs,    # in 'template.html'
-    CSS       => \&page_css,       # in 'template.html'
     EOF       => sub { () },       # in all templates
     FOOTER    => \&page_footer,
     HEADER    => \&page_header,    # in 'template.html'
@@ -259,7 +258,6 @@ sub help {
         return <$in>                  or croak "cannot read file \"$file\": $!";
     }
 
-
     # Usage: BOOL = metadata(%META, @TEXT);
     #
     # Extracts any leading metadata fields from @TEXT. Returns FALSE on failure,
@@ -308,6 +306,23 @@ sub help {
             $hashref->{title} = $_;
         }
         return 1;
+    }
+
+    # Usage: exstract($STRING, $HASHREF);
+    #
+    # Removes all occuring HTML elements <$STRING>...</$STRING> from
+    # $HASHREF{"text"} and appends to list $HASHREF{$STRING . "_tags"}. Leading
+    # and trailing <$STRING> / </$STRING> are kept exactly as-is. This in
+    # intended for use with the <script> and <style> HTML tags.
+    #
+    # Nothing is returned.
+    sub extract_tag($\%) {
+        my ($tag_name, $hashref) = @_;
+        my $list = $hashref->{ $tag_name . "_tags" } //= [];
+        $hashref->{text} =~ s{\s*(<$tag_name\b[^>]*>.*?</$tag_name>)}{
+            push(@$list, $1);
+            "";
+        }ges;
     }
 
     # Usage: %meta = get_metadata(TEXT);
@@ -446,8 +461,9 @@ sub help {
         my ($self, %meta) = @_;
         my @text = read_file($meta{sourcefile});
         metadata(%meta, @text) or exit 5;
-
         $meta{text} = join("", @text);
+        extract_tag('style', %meta);
+        extract_tag('script', %meta);
 
         # FIXME: should ignore ISO dates inside <time>...</time> tags
         $meta{text} = process_xml_except_args(sub {
@@ -610,6 +626,14 @@ sub get_crumb_filenames {
     } @crumb;
 }
 
+sub script_tag {
+    my ($script, $targetfile) = @_;
+    return '<script src="' . rel_filename(
+        find_include_file($script, $targetfile),
+        $targetfile,
+    ) . '"></script>';
+}
+
 # Usage: $TITLE = file_title($HTMLFILE);
 #
 # Returns $TITLE of $HTMLFILE. If $HTMLFILE ends in slash (/) "index.html" is
@@ -696,11 +720,7 @@ sub page_meta {
 
 sub page_modernizr {
     my ($self, %meta) = @_;
-    return
-        '<script src="' . rel_filename(
-            find_include_file("includes/modernizr-*.js", $meta{targetfile}),
-            $meta{targetfile},
-        ) . '"></script>';
+    return script_tag("includes/modernizr-*.js", $meta{targetfile});
 }
 
 # return page url
@@ -724,23 +744,6 @@ sub page_crumbs {
     );
     $_ .= " &#8250;" foreach @crumb[0..$#crumb-1];
     return @crumb;
-}
-
-sub page_css {
-    my ($self, %meta) = @_;
-    my @css_file = map {
-        "includes/$_.css"
-    } 'base', ($meta{css}              # always include base stylesheet
-        ? split(/\s+/, $meta{css})     # user override defaults
-        : ()
-    );
-    return map {
-        '<link rel="stylesheet" href="' .
-        rel_filename(
-            find_include_file($_, $meta{targetfile}),
-            $meta{targetfile},
-        ) . '">';
-    } @css_file;
 }
 
 # return time in "2009-12-31, 24:59" format
@@ -823,6 +826,24 @@ sub page_author {
     } split(/,\s*/, $meta{author});
     $_ .= " &amp;" foreach @author[0..$#author-1];
     return @author;
+}
+
+sub page_style {
+    my ($self, %meta) = @_;
+    my @style_tag  = $meta{style_tags} ? @{ $meta{style_tags} } : ();
+    my @style_file = map {
+        "includes/$_.css"
+    } 'base', ($meta{style}            # always include base stylesheet
+        ? split(/\s+/, $meta{style})   # user override defaults
+        : ()
+    );
+    return (map {
+        '<link rel="stylesheet" href="' .
+        rel_filename(
+            find_include_file($_, $meta{targetfile}),
+            $meta{targetfile},
+        ) . '">';
+    } @style_file), @style_tag;
 }
 
 # Page title should be:
@@ -982,16 +1003,12 @@ sub page_prevnext {
 
 sub page_script {
     my ($self, %meta) = @_;
-    return map {
-        '<script src="' . rel_filename(
-            find_include_file("includes/$_.js", $meta{sourcefile}),
-            $meta{sourcefile},
-        ) . '"></script>';
-    } 'titlewrap', (
-        $meta{script}
-            ? split(/\s+/, $meta{script})
-            : ()
-    );
+    my @script_tag  = $meta{script_tags} ? @{ $meta{script_tags} }     : ();
+    my @script_file = $meta{script}      ? split(/\s+/, $meta{script}) : ();
+    unshift(@script_file, "jquery-*") if @script_file or @script_tag;
+    return (map {
+        script_tag("includes/$_.js", $meta{targetfile});
+    } 'titlewrap', @script_file), @script_tag;
 }
 
 sub page_footer {
@@ -1049,7 +1066,6 @@ foreach my $file (@ARGV) {
              : ()
          ),
     );
-
     write_file($outfile, $data);
 }
 

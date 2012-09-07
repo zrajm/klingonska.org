@@ -2,7 +2,7 @@ updated: 2012-07-02 03:15:24+02
 author: zrajm
 year: 1998-2012
 lang: en
-css: banner
+style: banner
 
 <p class="center">
   <big><b><i>Accuracy, straightforwardness, aggressiveness and strength!

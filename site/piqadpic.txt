@@ -2,7 +2,7 @@ updated: 2007-07-15 05:16+02
 author: zrajm
 year: 1998-2001
 lang: en
-css: gallery
+style: gallery
 
 Some Pictures of {pIqaD}
 ========================
