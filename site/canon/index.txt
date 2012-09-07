@@ -170,7 +170,7 @@ publication, or a description of its contents and/or form).
       <td><big>SkyBox Trading card <i>99</i></big>
         <br><font size="2"><i>Trading card translated by Marc Okrand,
             SkyBox International</i></font>
-        <br>(<a href="1993-sbx-99.txt">text</a>) (<a href="1993-sbx-99.html">images</a>)
+        <br>(<a href="1993-sbx-99.txt">text</a>) (<a href="sbx-99.html">images</a>)
         A collectible trading card with a brief presentation of the 1993
         season of TV series <i>Star Trek: Deep Space Nine</i>. There are
         several versions of this card, each version differing only in which
@@ -205,7 +205,7 @@ publication, or a description of its contents and/or form).
         <br><font size="2"><i>Trading cards translated by Marc Okrand,
             SkyBox International</i></font>
         <br>(Text: <a href="1994-sbx-sp1.txt">SP1</a>, <a href="1994-sbx-sp2.txt">SP2</a>,
-        <a href="1994-sbx-sp3.txt">SP3</a>) (<a href="1994-sbx-sp1.html">images</a>)
+        <a href="1994-sbx-sp3.txt">SP3</a>) (<a href="sbx-sp1.html">images</a>)
         A set of three <i>Star Trek: The Next Generation</i> first season trading
         cards. (The text of this card was also reproduced, with several errors, in
         <i>{HolQeD} 3:4</i>, pp.10&ndash;11. Some of the errors of that reprint
@@ -249,11 +249,13 @@ publication, or a description of its contents and/or form).
       <td><big>Hallmark TV Commercial for Bird-of-Prey Christmas Ornament</big>
         <br><font size="2"><i>Video, TV commercial starring Robert O'Reilly and Guy Vardaman</i></font>
         <br>(<a href="1994-10-hallmark.txt">text</a>)
-        (<a href="1994-10-hallmark.html">info</a>) Hallmark Entertainment TV
-        commercial for promoting a Klingon Bird-of-Prey Christmas ornament.
-        Dialogue in Klingon, with English subtitles. Klingon translation by Marc
-        Okrand. See also: http://www.youtube.com/watch?v=9eM1OSNGLwI (YouTube
-        video uploaded by garymalone1701). Abbreviated <i>Hallmark</i>.
+        (<a href="hallmark.html">info</a>) Hallmark Entertainment TV commercial
+        for promoting a Klingon Bird-of-Prey Christmas ornament. Dialogue in
+        Klingon, with English subtitles. Klingon translation by Marc Okrand.
+        See
+        also: <a href="http://www.youtube.com/watch?v=9eM1OSNGLwI">http://www.youtube.com/watch?v=9eM1OSNGLwI</a>
+        (YouTube video uploaded by garymalone1701).
+        Abbreviated <i>Hallmark</i>.
       </td>
     </tr>
   </tbody>
@@ -1296,7 +1298,6 @@ publication, or a description of its contents and/or form).
 
 References
 ----------
-
 * [{qurgh}'s Skybox Card Page](http://qurgh.wizage.net/cards/cards.html) -- Most
   of the Skybox card images were taken from this page.
 

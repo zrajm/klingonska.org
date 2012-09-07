@@ -55,7 +55,7 @@ html_targets =                                    \
             $(source_dir)/akademien/*.txt        \
             $(source_dir)/akademien/photos/*.txt \
             $(source_dir)/akademien/logo/*.txt   \
-            $(source_dir)/canon/index.txt        \
+            $(source_dir)/canon/[a-z]*.txt       \
             $(source_dir)/dict/*.txt             \
             $(source_dir)/klo/*.txt              \
             $(source_dir)/piq/*.txt              \

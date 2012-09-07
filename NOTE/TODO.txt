@@ -210,7 +210,7 @@ optimization."
       are incorporated into the KLO pages. Old stuff is just an annoyance to
       maintain. (And, even after removal, would still be available in the git
       repo, if anyone *really* cared.)
-***** [44%] Convert all pages to new HTML template
+***** [50%] Convert all pages to new HTML template
       Thereby centralizing the page header/footer etc. `bin/markdown2html` is
       the tool used for this, except for files in /dict/, which uses `parse`.
       Unifying these two tools into one will become a later issue, though.
@@ -268,9 +268,18 @@ optimization."
        CLOSED: [2012-07-03 Tue 08:01]
 ****** DONE `uttal.html`
        CLOSED: [2012-07-07 Sat 20:48]
-****** TODO `canon/1993-sbx-99.html`
-****** TODO `canon/1994-10-hallmark.html`
-****** TODO `canon/1994-sbx-sp1.html`
+****** DONE `canon/1993-sbx-99.html` -> `canon/sbx-99.txt`
+       CLOSED: [2012-09-07 Fri 04:32]
+****** DONE HCoop redirect: `canon/1993-sbx-99.html` -> `canon/sbx-99.html`
+       CLOSED: [2012-09-07 Fri 05:46]
+****** DONE `canon/1994-10-hallmark.html` -> `canon/hallmark.txt`
+       CLOSED: [2012-09-07 Fri 05:10]
+****** DONE HCoop redirect: `canon/1994-10-hallmark.html` -> `canon/hallmark.html`
+       CLOSED: [2012-09-07 Fri 05:46]
+****** DONE `canon/1994-sbx-sp1.html` -> `canon/sbx-sp1.txt`
+       CLOSED: [2012-09-07 Fri 05:35]
+****** DONE HCoop redirect: `canon/1994-sbx-sp1.html` -> `canon/sbx-sp1.html
+       CLOSED: [2012-09-07 Fri 05:46]
 ****** TODO `canon/1995-sbx-s13.html`
 ****** TODO `canon/1995-sbx-s7.html`
 ****** TODO `canon/1996-04-kcd.html`

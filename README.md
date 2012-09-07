@@ -16,11 +16,17 @@ Klingon](http://klingonska.org/songs/) etc.
 
 Currently Happening
 -------------------
-We're currently (since July 1, 2012) rolling out a major site re-design. This
-means adding a new look to the pages, as well as changing into a fully
-automated build system. As we, slowly, painstakingly, convert all pages into
-the new format, you'll see the new red page header take over, until it is
-*everywhere*.
+
+September 7, 2012: Rolling out the new design is taking its time, but as of now
+most pages have the new look (except for some old, rarely used ones, and pages
+served by CGI). Work will continue, but for now we'll concentrate on more
+interesting stuff. There also was a major re-write of [**pIqaD**, And How to
+Read It][piqad], with improved pronunciation info, info on dialects etc.
+
+July 1, 2012: We're currently rolling out a major site re-design. This means
+adding a new look to the pages, as well as changing into a fully automated
+build system. As we, slowly, painstakingly, convert all pages into the new
+format, you'll see the new red page header take over, until it is *everywhere*.
 
 Don't worry, we are not about to remove any content.
 

@@ -1,0 +1,76 @@
+created: 2001-07-05
+updated: 2012-05-17 00:03
+author: zrajm
+year: 2001--2012
+lang: en
+style: gallery
+
+SkyBox Trading Card for DS9 Season 1
+====================================
+<p class=center>[<a href="http://www.nslists.com/stdsn1.htm">Collector’s list
+  of all cards in this series</a>]</p>
+
+One of the cards in the SkyBox trading card set for *Star Trek: Deep Space
+Nine* first season was produced in six different versions, with different
+languages: English (card 1), German (card 95), French (card 96), Spanish (card
+97), Japanese (card 98), and Klingon (card 99). The Klingon was translation
+made by Marc Okrand. The Klingon card is here faithfully reproduced with all
+errors occuring in the original. For more details on which these errors are,
+see the plain text transcription of [card 99](1993-sbx-99.txt). (I’ve so far
+been unable to obtain a copy [or scan of the text side] of the English card, so
+that image is missing, and the transcript for that card is Steven Boozer’s, not
+my own.) A transcript of card 99 was also printed in [*{HolQeD} 3:2,*
+page 9](1994-06-holqed-03-2.txt) in <time datetime="1994-06">June 1994</time>.
+
+
+SkyBox Trading Card 99
+----------------------
+<div class="gallery">
+  <figure>
+    <a href="pic/1993-sbx-99a-big.jpg"><img src="pic/1993-sbx-99a-thmb.jpg"
+      width="250" height="180"></a>
+    <figcaption>Front, card #99</figcaption>
+  </figure>
+  <figure>
+    <a href="pic/1993-sbx-99b-big.jpg"><img src="pic/1993-sbx-99b-thmb.jpg"
+      width="250" height="180"></a>
+    <figcaption>Back, card #99</figcaption>
+  </figure>
+</div>
+
+
+### {QU'} ###
+
+{loS...qIb HeHDaq, 'u' SepmeyDaq Sovbe'lu'bogh lenglu'meH He ghoSlu'bogh
+retlhDaq 'oHtaH. HaDlu'meH, QuSlu'meH, SuDlu'meH lojmIt Da logh Hop Hut
+tengchaH. vaj loghDaq lenglaHtaH Humanpu'. veH Qav 'oH logh'e'.}
+
+STAR TREK<sup>®</sup> DEEP SPACE NINE<sup>TM</sup> Paramount<sup>®</sup>
+SkyBox<sup>TM</sup>
+
+TM, ® & © 1993 Paramount Pictures. All Rights Reserved. STAR
+TREK and Related Marks are Trademarks of Paramount Pictures. SkyBox
+International, Inc. Authorized User.
+
+*Phonetic translation by Marc Okrand, author of* The Klingon Dictionary.
+
+
+SkyBox Trading Card 1
+---------------------
+<div class="gallery">
+  <figure>
+    <a href="pic/1993-sbx-01a-big.jpg"><img src="pic/1993-sbx-01a-thmb.jpg"
+      width="250" height="175"></a>
+    <figcaption>Front, card #1</figcaption>
+  </figure>
+</div>
+
+
+### The Mission ###
+
+It waits...on the edge of the galaxy, beside a passage to unknown regions of
+the universe, space station Deep Space Nine is the gateway for the exploration,
+intrigue and enterprise that mark the continuation of the human adventure into
+space---the final frontier.
+
+[[eof]]
