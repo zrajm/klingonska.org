@@ -20,7 +20,6 @@ my %code = (
     AUTHOR   => \&page_author,     # in 'template.html'
     CHANGED  => \&page_date,       # in 'template.html'
     CRUMBS   => \&page_crumbs,     # in 'template.html'
-    CSS      => \&page_css,        # in 'template.html'
     EOF      => sub { "" },        # in all templates
     FOOT     => \&page_footer,
     HEADER   => \&page_header,     # in 'template.html'
@@ -30,6 +29,7 @@ my %code = (
     META     => \&page_meta,       # in 'template.html'
     PREVNEXT => \&page_prevnext,   # in 'template.html'
     SCRIPT   => \&page_script,     # in 'template.html'
+    STYLE    => \&page_style,      # in 'template.html'
     TITLE    => \&page_title,      # in 'template.html'
     TOC      => \&page_toc,
     URL      => \&page_url,        # in 'template.html'
@@ -622,23 +622,6 @@ sub page_crumbs {
     ) . "\n";
 }
 
-sub page_css {
-    my ($self, %meta) = @_;
-    my @stylesheet = $meta{css}
-        ? map { "includes/$_.css" } split(/\s+/, $meta{css})
-        : (
-            "includes/page.css",
-            "includes/pagestats.css",
-        );
-    return join "", map {
-        '<link rel="stylesheet" type="text/css" href="' .
-        rel_filename(
-            find_include_file($_, $meta{filename}),
-            $meta{filename},
-        ) . '" />' . "\n";
-    } @stylesheet;
-}
-
 # return time in "2009-12-31, 24:59" format
 sub page_date {
     my ($self, %meta) = @_;
@@ -706,6 +689,23 @@ sub page_author {
     }
     my $credit = join(", ", @author);
     return $credit;
+}
+
+sub page_style {
+    my ($self, %meta) = @_;
+    my @stylesheet = $meta{style}
+        ? map { "includes/$_.css" } split(/\s+/, $meta{style})
+        : (
+            "includes/page.css",
+            "includes/pagestats.css",
+        );
+    return join "", map {
+        '<link rel="stylesheet" type="text/css" href="' .
+        rel_filename(
+            find_include_file($_, $meta{filename}),
+            $meta{filename},
+        ) . '" />' . "\n";
+    } @stylesheet;
 }
 
 # Page title should be:
