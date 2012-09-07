@@ -111,6 +111,22 @@ optimization."
     CLOSED: [2010-09-03 Fri 22:19]
 *** DONE Redirect 2040.klingonska.org -> 2040.zrajm.org
     CLOSED: [2010-09-08 Wed 20:48]
+* Site stylesheets
+** Change link colors + remove underline
+
+   Underlining really diminishes readability sometimes, for example when used
+   with IPA (as on http://klingonska.lal/piqad/), or when used in tables where
+   much data consist of links.
+
+   It's important that links stand out, however, so maybe more traditional link
+   colors should be used. Maybe just the traditional? (unvisited: #00e,
+   visited: #551a8b, and hover/active: #06e). Or a slightly darker version
+   thereof:
+
+       a         { color: #11a; text-decoration: none; }
+       a:visited { color: #516; }
+       a:hover   { opacity: .65; }
+
 * Site content
 ** TODO Do a surf-through check for weird/old shit
 ** TODO Systematic/site-wide changes
@@ -1161,17 +1177,46 @@ optimization."
     CLOSED: [2011-08-30 Tue 11:57]
     Felix Malmenbeck reported this 2011-08-29.
 *** TODO Should support Unicode version of {pIqaD}
-** TODO "{pIqaD}, And How to Read It"
-*** TODO Check phrase "clearly much much more" with original          :PROOF:
-    Is word "much" repeated twice? From HolQeD 1:1 p. 19.
+** [44%] "{pIqaD}, And How to Read It"
+*** [0%] All sources should link to "Archive of Okrandian Canon"
+**** TODO Both in References section
+**** TODO And sources in "foldable" source refereces
+*** [16%] Pronunciation
+**** TODO Are IPA transcriptions of vowels really correct?
+     Esp. {ow} and {uw} -- should there be some indication of the 'glide'? (is
+     that what it is called?)
+**** TODO Expand "Doubled Consonants" section
+     Should mention differences beetween doublings of nasals and stops.
+**** TODO Give german example for 'guttural r' (is there any?)
+**** TODO German/Swedish examples for pronunciation of {w}
+**** TODO Add Lieven's comments about glottal stop for Germans
+     https://mail.google.com/mail/u/0/#inbox/1396cd8ab40d0c3a
+**** DONE Vowel chart is wonky
+     CLOSED: [2012-09-06 Thu 22:31]
+     The grid is displaced with regards to the letters on top of the grid.
+*** [50%] Dialects
+**** TODO Add Sakrej dialect
+     * Different possessives and toasts
+**** TODO Add No'hvadut dialect
+     * Different toasts
+**** TODO Young people's Klingon KGT e.g. {qUleghpu'}
+**** DONE Add more sources for Tak'ev dialect
+     CLOSED: [2012-09-06 Thu 21:10]
+**** DONE Add more sources for Krotmag dialect
+     CLOSED: [2012-09-06 Thu 21:10]
+**** DONE Add more sources for Morskan dialect
+     CLOSED: [2012-09-06 Thu 21:37]
+
+*** TODO Clean up "The Klingon Alphabet (pIqaD)" section.
+*** TODO Better section on punctuation
+*** TODO Insert "Some pictures of pIqaD" into this document?
+    As a gallery with thumbnails?
 *** TODO The KApIqaD font with thumbnails for download
     In both PostScript and TrueType.
 *** TODO Add my own handwriting
 *** TODO Add handwriting presented in "An Alien Writing System Primer"
 *** TODO Add Kala's grid writing from "Writing Klingon: The Easy Way"
 *** TODO Add notes on Klingon punctuation
-*** TODO Finish the writing "Vocabulary"
-*** TODO Remove American phonetic descriptions in favour of IPA terms
 *** TODO Include examples on the Image Astra {pIqaD} set
 *** TODO Include a comment on the word {pIqaD} when read as a verb
 *** TODO Add {pIqaD} style from cover of ghIlghameS
@@ -1184,24 +1229,38 @@ optimization."
     Steven Boozer / Voragh (Ca'Non Master of the Klingons) in email 2008-07-25
 
 *** TODO Should contain a link to "The {pIqaD} Playground"
-*** TODO Links to wikipages for the various sounds?
+*** TODO Spell check
+*** TODO Make all {HolQeD} references links to /canon/
+*** TODO Add list of references(?)
+*** DONE Remove American phonetic descriptions in favour of IPA terms
+    CLOSED: [2012-09-05 Wed 04:07]
+*** DONE Links to wikipages for the various sounds?
+    CLOSED: [2012-09-05 Wed 04:07]
 *** DONE Make sure all HTML tags are terminated
     CLOSED: [2011-05-16 Mon 02:55]
 *** DONE Make sure relevant HTML tags end with '/>'
     CLOSED: [2011-05-16 Mon 02:55]
 *** DONE Lowercase all html
     CLOSED: [2011-05-15 Sun 00:17]
-*** TODO Spell check
 *** DONE Mark Klingon with lang="tlh"
     CLOSED: [2011-07-04 Mon 03:44]
-*** TODO Make all {HolQeD} references links to /canon/
-*** TODO Add list of references(?)
 *** DONE Replace "-" with &ndash; & &mdash;
     CLOSED: [2011-05-14 Sat 22:02]
 *** DONE Replace " with &sdquo; / &rdquo;
     CLOSED: [2011-05-14 Sat 22:02]
 *** DONE Replace ' with &lsquo; / &rsquo
     CLOSED: [2011-05-14 Sat 22:02]
+*** DONE Move "Display Sources" for Stress to each of the subheadings
+    CLOSED: [2012-09-05 Wed 13:13]
+    Instead of having one "Display Sources" at the very end of the Stress
+    chapter, move relevant parts into subheadings ("Verb", "Noun" etc.)
+*** DONE Add sources for stress of {chuvmey}
+    CLOSED: [2012-09-05 Wed 13:13]
+*** DONE Check phrase "clearly much much more" with original          :PROOF:
+    CLOSED: [2012-09-05 Wed 04:05]
+    Is word "much" repeated twice? From HolQeD 1:1 p. 19. -- Yup. Word repeated
+    twice in original HolQeD article. Also article is on pp. 19--20, and not
+    just 19.
 ** TODO "Klingon Pocket Dictionary"
 *** Web page
 **** DONE Restructure pages

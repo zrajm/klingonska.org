@@ -11,7 +11,7 @@ html { background: #ddd; }      /* gray, outside page background */
 body { font: 1em/1.5em Georgia, serif; }
 
 /* Don't change order of the following pseudo classes! */
-a:link    { color: #444; }      /* unvisited link */
+a         { color: #444; text-decoration: underline; } /* unvisited link */
 a:visited { color: #777; }      /* visited link */
 a:hover, [onclick]:hover,       /* mouse over link or onclick element */
 table.sortable thead th:hover { /* sortable tables with 'sorttable.js' */

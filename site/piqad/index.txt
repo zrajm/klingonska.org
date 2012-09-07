@@ -1,0 +1,1971 @@
+updated: 2012-09-07 00:22:53
+author: zrajm
+year: 1998-2012
+lang: en
+script: centerwidestuff
+style: piqad
+
+{pIqaD}, And How to Read It
+===========================
+
+Contents
+--------
+<ol>
+  <li><a href="#preface">Preface</a></li>
+  <li><a href="#alphabet">The Klingon Alphabet ({pIqaD})</a></li>
+  <li><a href="#pronunciation">Pronunciation</a></li>
+  <li><a href="#stress">Stress</a></li>
+  <li><a href="#numerals">Numerals</a></li>
+  <li><a href="#dialects">Dialects</a></li>
+  <li><a href="#references">References</a></li>
+</ol>
+
+
+[preface] Preface
+-----------------
+<p class=canon>Throughout this document a text on a green background is used to
+mark a quote from Okrandian Canon…</p>
+
+<p class=noncanon>…while a red background is used to indicate that the text is
+a quote from some other material.</p>
+
+<p class=noindent>This is the beginning of an investigation into the Klingon
+alphabet and its typographical and phonological nuances. Since there does not
+really exist any <i>canon</i> Klingon alphabet (Okrand speaks about {pIqaD} but
+he never makes use of it.) I have adopted the KLI approved alphabet, used by
+most klingonists. Paramount themselves use a typeface constructed by
+the <i>Image Astra Corporation</i> which contains only ten glyphs, but since
+this is the Klingon alphabet we see in the movies and in <i>Star Trek: The Next
+Generation</i>, I intend to do a comparison between the two, and hopefully be
+able to create a typeface which looks more like the {pIqaD} we see on the
+silver screen.</p>
+
+I also intend to do a survey of the different styles of useage of {pIqaD} among
+klingonists (mainly on the Internet, but other contributions are also welcome
+if you have any) to see how much one can actually play around with the glyphs
+and still be able read them.
+
+<p class=noindent>There are also some interesting GIF-files in KLI’s FTP-area
+created and uploaded by Nick Nicholas, one of the people behind the restored
+version of the Klingon {Hamlet}. They are very interesting as they show what
+seems to be {pIqaD} written with a ballpen, a calligraphy pen (sort of
+frakture, perhaps used in the first printed books on Kronos?) and with a
+brush.</p>
+
+Worth mentioning is also the article “Writing Klingon: The Easy Way” by Theron
+P. Elliot, (published in {HolQeD} 2:2 pp.10--11) in which he uses a
+triangular grid as a basis for writing {pIqaD}. It is interesting mostly
+because is also shows the direction of the pen while writing, but otherwise I
+do not think that the grid makes the Klingon glyphs justice.
+
+<i>Interstellar Language School</i> (lead by Glen F. Proechel) has published
+“An Alien Writing System Primer” explaining how to write {pIqaD} in longhand.
+(It is non-canon, of course---and to my knowledge not endorsed by the KLI.)
+
+<p class=noindent>Many thanks to Nick Nicholas for his constructive critisism
+and helpful suggestions.</p>
+
+
+[alphabet] The Klingon Alphabet ({pIqaD})
+-----------------------------------------
+<div class=noncanon>
+  <p>More recently we’ve been treated to a different alphabet, (often
+    incorrectly attributed to Michael Okuda, scenic designer for <i>TNG</i>),
+    one which corresponds to the phonemes of Klingon as described by Okrand
+    in <i>TKD</i>. While the characters themselves are easily indentifiable
+    from background displays on <i>TNG</i> (assuming one has access to video
+    equipment and a reasonably large television screen), there has never been
+    an “official” release describing the particular relationship between
+    individual glyphs and specific sounds. As Okuda has indicated […] all
+    Klingon background displays are composed for appearance, not communication.
+    And yet, an unofficial letter to a Klingon fan group from an unnamed source
+    at Paramount resulted in the following alphabet:</p>
+
+  <table class="noborder spacy" style="margin: 2em auto">
+    <tr align=center>
+      <td><img src="../piq/bg1/a.gif" width=38 height=39 alt=a><br>{a}</td>
+      <td><img src="../piq/bg1/b.gif" width=37 height=39 alt=b><br>{b}</td>
+      <td><img src="../piq/bg1/ch.gif" width=42 height=39 alt=ch><br>{ch}</td>
+      <td><img src="../piq/bg1/d.gif" width=29 height=39 alt=D><br>{D}</td>
+      <td><img src="../piq/bg1/e.gif" width=26 height=39 alt=e><br>{e}</td>
+      <td><img src="../piq/bg1/gh.gif" width=43 height=39 alt=gh><br>{gh}</td>
+      <td><img src="../piq/bg1/h.gif" width=21 height=39 alt=H><br>{H}</td>
+      <td><img src="../piq/bg1/i.gif" width=31 height=39 alt=I><br>{I}</td>
+      <td><img src="../piq/bg1/j.gif" width=36 height=39 alt=j><br>{j}</td>
+    </tr>
+    <tr align=center>
+      <td><img src="../piq/bg1/l.gif" width=28 height=39 alt=l><br>{l}</td>
+      <td><img src="../piq/bg1/m.gif" width=27 height=39 alt=m><br>{m}</td>
+      <td><img src="../piq/bg1/n.gif" width=33 height=39 alt=n><br>{n}</td>
+      <td><img src="../piq/bg1/ng.gif" width=41 height=39 alt=ng><br>{ng}</td>
+      <td><img src="../piq/bg1/o.gif" width=36 height=39 alt=o><br>{o}</td>
+      <td><img src="../piq/bg1/p.gif" width=26 height=39 alt=p><br>{p}</td>
+      <td><img src="../piq/bg1/q.gif" width=18 height=39 alt=q><br>{q}</td>
+      <td><img src="../piq/bg1/qh.gif" width=27 height=39 alt=Q><br>{Q}</td>
+      <td><img src="../piq/bg1/r.gif" width=33 height=39 alt=r><br>{r}</td>
+    </tr>
+    <tr align=center>
+      <td><img src="../piq/bg1/s.gif" width=39 height=39 alt=S><br>{S}</td>
+      <td><img src="../piq/bg1/t.gif" width=36 height=39 alt=t><br>{t}</td>
+      <td><img src="../piq/bg1/tlh.gif" width=35 height=39 alt=tlh><br>{tlh}</td>
+      <td><img src="../piq/bg1/u.gif" width=38 height=39 alt=u><br>{u}</td>
+      <td><img src="../piq/bg1/v.gif" width=44 height=39 alt=v><br>{v}</td>
+      <td><img src="../piq/bg1/w.gif" width=34 height=39 alt=w><br>{w}</td>
+      <td><img src="../piq/bg1/y.gif" width=35 height=39 alt=y><br>{y}</td>
+      <td><img src="../piq/bg1/z.gif" width=10 height=39 alt="’"><br>{'}</td>
+      <td></td>
+    </tr>
+    <tr><td colspan=9 align=center><small>[Note: Characters rearranged to
+          presented them in correct Okrandian alphabetic order.]</small></td>
+    </tr>
+  </table>
+
+  <p class=indent>Unlike its predecessor, these glyphs provide an excellent fit
+    to the phonology of Klingon, or more specifically that of {tlhIngan Hol}.
+    However, other questions still remain.</p>
+
+  <p>The keen observer of <i>ST6</i> will note several Klingon glyphs which are
+    not included in the alphabet above. While some appear to be simple
+    rotations of characters (and one is reminded of Sequoyah’s creation of the
+    Cherokee syllabary), other appear to be completely novel. That they are not
+    included in the alphabet need not necessarily be cause for distress, nor
+    tempt us to suspect the assignment of sound to sign. Our own writing system
+    is replete with logographs, single characters representing whole ideas or
+    words (e.g., !, @, #, $, %), clearly a part of the system but not a part of
+    the alphabet.</p>
+
+  <p>Then too, it may be helpful to keep in mind Allan Wechsler’s remarks […]
+    on the sparse distribution of consonants in {tlhIngan Hol}. While perhaps a
+    bit far fetched, the unexplained characters might be instances of
+    alphabetic characters from an earlier, and phonemically larger, form of the
+    language, maintained either for historical purposes in affairs of state (I
+    refer here to the trial scene in <i>ST6</i>), or more simply as
+    decoration.</p>
+
+  <p>In any case, there is clearly much much more to be learned about Klingon
+    orthography, more tantilizing promises and secrects to be discovered. Of
+    course it’s unknown whether any futher explanations are apt to be
+    forthcoming, but at least the exotica is there. Or, to make the case more
+    clear by example, what precisely is “the Klingon mummification glyph,” and
+    what is its role in a larger writing
+    system? <small>[<a href="../canon/1992-03-holqed-01-1-b.txt">{HolQeD} 1:1
+    pp. 19--20, Lawrence M. Schoen</a>]</small></p>
+
+</div>
+
+<div class=noncanon>
+  <p class=noindent>And from the syllabary created by Astra Image Corporation
+    (though usually attributed to <i>ST:TNG</i> Senic Designer Michael
+    Okuda): <small>[<a href="../canon/1992-12-holqed-01-04.txt">{HolQeD} 1:4
+    p. 17, Lawrence M. Schoen</a>]</small></p>
+
+  <table class="noborder spacy">
+    <tr align=center>
+      <td><img src="../piq/bg1/0.gif" width=30 height=39 alt=0><br>{0}</td>
+      <td><img src="../piq/bg1/1.gif" width=36 height=39 alt=1><br>{1}</td>
+      <td><img src="../piq/bg1/2.gif" width=17 height=39 alt=2><br>{2}</td>
+      <td><img src="../piq/bg1/3.gif" width=26 height=39 alt=3><br>{3}</td>
+      <td><img src="../piq/bg1/4.gif" width=34 height=39 alt=4><br>{4}</td>
+      <td><img src="../piq/bg1/5.gif" width=20 height=39 alt=5><br>{5}</td>
+      <td><img src="../piq/bg1/6.gif" width=35 height=39 alt=6><br>{6}</td>
+      <td><img src="../piq/bg1/7.gif" width=28 height=39 alt=7><br>{7}</td>
+      <td><img src="../piq/bg1/8.gif" width=37 height=39 alt=8><br>{8}</td>
+      <td><img src="../piq/bg1/9.gif" width=27 height=39 alt=9><br>{9}</td>
+    </tr>
+  </table>
+</div>
+
+There also exist a “canon” set of Klingon punctuation marks, used on the SkyBox
+trading cards in their “{pIqaD}” text. Though the use is somewhat inconsistent
+on these cards I would like to concur with Nick Nicholas interpretation that
+the upturned triangle funtion as a full stop (period) and the downturned
+triangle as a comma / semicolon. These are also the only punctuation marks that
+the Klingon language really requires, since both both questions and imperatives
+are clearly marked grammatically.
+
+<img src="../pic/punct2.gif" width=500 height=180
+alt="Klingon punctuation" style="margin: 1em auto">
+
+
+[pronunciation] Pronunciation
+-----------------------------
+
+The following tables are an overview of the sounds of Klingon Klingon, written
+in <a href="http://en.wikipedia.org/wiki/International_Phonetic_Alphabet"
+title="International Phonetic Alphabet">IPA</a>. A more complete description of
+each of the sounds is given in the text below.
+
+<table class="border center th-sans" style="background:inherit" style="vertical-align:middle">
+  <caption>Where characters appear in pairs, the one to the right represents a
+    voiced consonant.</caption>
+  <tr>
+    <th></th>
+    <th colspan=2><a href="http://en.wikipedia.org/wiki/Bilabial_consonant">Bilabial</a></th>
+    <th colspan=2><a href="http://en.wikipedia.org/wiki/Labiodental_consonant">Labio&shy;dental</a></th>
+    <th colspan=2><a href="http://en.wikipedia.org/wiki/Alveolar_consonant">Alveolar</a></th>
+    <th colspan=2><a href="http://en.wikipedia.org/wiki/Postalveolar_consonant">Post&shy;alveolar</a></th>
+    <th colspan=2><a href="http://en.wikipedia.org/wiki/Retroflex_consonant">Retro&shy;flex</a></th>
+    <th colspan=2><a href="http://en.wikipedia.org/wiki/Palatal_consonant">Palatal</a></th>
+    <th colspan=2><a href="http://en.wikipedia.org/wiki/Velar_consonant">Velar</a></th>
+    <th colspan=2><a href="http://en.wikipedia.org/wiki/Uvular_consonant">Uvular</a></th>
+    <th colspan=2><a href="http://en.wikipedia.org/wiki/Glottal_consonant">Glottal</a></th>
+  </tr>
+  <tr align=center>
+    <th><a href="http://en.wikipedia.org/wiki/Plosive_consonant">Plosive</a></th>
+    <td style="border-right:0"><a href="#p">pʰ</a></td><td style="border-left:0"><a href="#b">b</a></td>
+    <td colspan=2></td>
+    <td style="border-right:0"><a href="#t">tʰ</a></td><td style="border-left:0"></td>
+    <td colspan=2></td>
+    <td style="border-right:0"></td><td style="border-left:0"><a href="#d">ɖ</a></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+    <td style="border-right:0"><a href="#q">qʰ</a></td><td style="border-left:0"></td>
+    <td style="border-right:0"><a href="#z">ʔ</a></td><td style="border-left:0"></td>
+  </tr>
+  <tr align=center>
+    <th><a href="http://en.wikipedia.org/wiki/Nasal_consonant">Nasal</a></th>
+    <td style="border-right:0"></td><td style="border-left:0"><a href="#m">m</a></td>
+    <td colspan=2></td>
+    <td style="border-right:0"></td><td style="border-left:0"><a href="#n">n</a></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+    <td style="border-right:0"></td><td style="border-left:0"><a href="#ng">ŋ</a></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+  </tr>
+  <tr align=center>
+    <th><a href="http://en.wikipedia.org/wiki/Trill_consonant">Trill</a></th>
+    <td colspan=2></td>
+    <td colspan=2></td>
+    <td style="border-right:0"></td><td style="border-left:0"><a href="#r">r</a></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+  </tr>
+  <tr align=center>
+    <th><a href="http://en.wikipedia.org/wiki/Fricative_consonant">Fricative</a></th>
+    <td colspan=2></td>
+    <td style="border-right:0"></td><td style="border-left:0"><a href="#v">v</a></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+    <td style="border-right:0"><a href="#s">ʂ</a></td><td style="border-left:0"></td>
+    <td colspan=2></td>
+    <td style="border-right:0"><a href="#h">x</a></td><td style="border-left:0"><a href="#gh">ɣ</a></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+  </tr>
+  <tr align=center>
+    <th><a href="http://en.wikipedia.org/wiki/Affricate_consonant">Affricate</a></th>
+    <td colspan=2></td>
+    <td colspan=2></td>
+    <td style="border-right:0"><a href="#tlh">t͡ɬ</a></td><td style="border-left:0"></td>
+    <td style="border-right:0"><a href="#ch">t͡ʃ</a></td><td style="border-left:0"><a href="#j">d͡ʒ</a></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+    <td style="border-right:0"><a href="#qh">q͡χ</a></td><td style="border-left:0"></td>
+    <td colspan=2></td>
+  </tr>
+  <tr align=center>
+    <th><a href="http://en.wikipedia.org/wiki/Approximant_consonant#Central_approximants">Approximant</a></th>
+    <td colspan=2></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+    <td style="border-right:0"></td><td style="border-left:0"><a href="#y">j</a></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+  </tr>
+  <tr align=center>
+    <th><a href="http://en.wikipedia.org/wiki/Approximant_consonant#Lateral_approximants">Lateral Approximant</a></th>
+    <td colspan=2></td>
+    <td colspan=2></td>
+    <td style="border-right:0"></td><td style="border-left:0"><a href="#l">l</a></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+    <td colspan=2></td>
+  </tr>
+</table>
+
+<table class="th-sans">
+  <tr style="text-align:center;">
+    <th></th>
+    <th style="width:64px;"><a href="http://en.wikipedia.org/wiki/Front_vowel">Front</a></th>
+    <th style="width:62px;"><a href="http://en.wikipedia.org/wiki/Near-front_vowel">Near-​front</a></th>
+    <th style="width:64px;"><a href="http://en.wikipedia.org/wiki/Central_vowel">Central</a></th>
+    <th style="width:62px;"><a href="http://en.wikipedia.org/wiki/Near-back_vowel">Near-​back</a></th>
+    <th style="width:64px;"><a href="http://en.wikipedia.org/wiki/Back_vowel">Back</a></th>
+  </tr>
+  <tr>
+    <th style="height:32px;text-align:right;"><a href="http://en.wikipedia.org/wiki/Close_vowel">Close</a></th>
+    <td style="height:210px;" colspan="5" rowspan="7">
+      <div style="position:relative;"><img src="pic/320px-blank_vowel_trapezoid.png" width="320" height="224">
+        <div style="background:transparent;position:absolute;top:0px;left:0px;">
+          <table class=noborder style="margin:0;position:relative;width:320px;height:224px;text-align:center;background:transparent;font-size:131%;">
+            <tr>
+              <td>
+                <div style="position:absolute;top:4px;left:-1px;width:60px;height:1px;background:transparent;"><span style="position:absolute;left:20px;width:20px;"><span style="background:#fff;padding:0px 8px;">•</span></span></div>
+                <div style="position:absolute;top:4px;left:128px;width:60px;height:1px;background:transparent;"><span style="position:absolute;left:20px;width:20px;"><span style="background:#fff;padding:0px 8px;">•</span></span></div>
+                <div style="position:absolute;top:4px;left:256px;width:60px;height:1px;background:transparent;"><span style="position:absolute;left:20px;width:20px;"><span style="background:#fff;padding:0px 8px;">•</span></span><span style="position:absolute;left:35px;width:25px;text-align:left;background:transparent;"><span style="background:#fff;padding:0px 4px;"><a href="#u">u</a></span></span></div>
+                <div style="position:absolute;top:35px;left:77px;width:60px;height:1px;background:transparent;"><span style="position:absolute;left:20px;width:20px;"><span style="background:#fff;padding:0px 8px;">•</span></span><span style="position:absolute;left:0px;width:25px;text-align:right;background:transparent;"><span style="background:#fff;padding:0px 1px 0px 2px;"><a href="#i">ɪ</a></span></span></div>
+                <div style="position:absolute;top:68px;left:43px;width:60px;height:1px;background:transparent;"><span style="position:absolute;left:20px;width:20px;"><span style="background:#fff;padding:0px 8px;">•</span></span></div>
+                <div style="position:absolute;top:68px;left:150px;width:60px;height:1px;background:transparent;"><span style="position:absolute;left:20px;width:20px;"><span style="background:#fff;padding:0px 8px;">•</span></span></div>
+                <div style="position:absolute;top:68px;left:256px;width:60px;height:1px;background:transparent;"><span style="position:absolute;left:20px;width:20px;"><span style="background:#fff;padding:0px 8px;">•</span></span><span style="position:absolute;left:35px;width:25px;text-align:left;background:transparent;"><span style="background:#fff;padding:0px 4px;"><a href="#o">o</a></span></span></div>
+                <div style="position:absolute;top:132px;left:85px;width:60px;height:1px;background:transparent;"><span style="position:absolute;left:20px;width:20px;"><span style="background:#fff;padding:0px 8px;">•</span></span><span style="position:absolute;left:0px;width:25px;text-align:right;background:transparent;"><span style="background:#fff;"><a href="#e">ɛ</a></span></span></div>
+                <div style="position:absolute;top:132px;left:171px;width:60px;height:1px;background:transparent;"><span style="position:absolute;left:20px;width:20px;"><span style="background:#fff;padding:0px 8px;">•</span></span></div>
+                <div style="position:absolute;top:132px;left:251px;width:60px;height:1px;background:transparent;"><span style="position:absolute;left:25px;width:20px;"><span style="background:#fff;padding:0px 8px;">•</span></span><span style="position:absolute;left:0px;width:25px;text-align:right;background:transparent;"><span style="background:#fff;padding:0px 1px 0px 3px;">(<a href="#a">ʌ</a>)</span></span></div>
+                <div style="position:absolute;top:198px;left:128px;width:60px;height:1px;background:transparent;"><span style="position:absolute;left:20px;width:20px;"><span style="background:#fff;padding:0px 8px;">•</span></span></div>
+                <div style="position:absolute;top:198px;left:191px;width:60px;height:1px;background:transparent;"><span style="position:absolute;left:20px;width:20px;"><span style="background:#fff;padding:0px 8px;">•</span></span></div>
+                <div style="position:absolute;top:198px;left:256px;width:60px;height:1px;background:transparent;"><span style="position:absolute;left:20px;width:20px;"><span style="background:#fff;padding:0px 8px;">•</span></span><span style="position:absolute;left:0px;width:25px;text-align:right;background:transparent;"><span style="background:#fff;padding:0px 0px 0px 4px;"><a href="#a">ɑ</a></span></span></div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <th align=right style="height:32px"><a href="http://en.wikipedia.org/wiki/Near-close_vowel">Near-close</a></th>
+  </tr>
+  <tr>
+    <th align=right style="height:32px"><a href="http://en.wikipedia.org/wiki/Close-mid_vowel">Close-mid</a></th>
+  </tr>
+  <tr>
+    <th align=right style="height:32px"><a href="http://en.wikipedia.org/wiki/Mid_vowel">Mid</a></th>
+  </tr>
+  <tr>
+    <th align=right style="height:32px"><a href="http://en.wikipedia.org/wiki/Open-mid_vowel">Open-mid</a></th>
+  </tr>
+  <tr>
+    <th align=right style="height:32px"><a href="http://en.wikipedia.org/wiki/Near-open_vowel">Near-open</a></th>
+  </tr>
+  <tr>
+    <th align=right style="height:32px"><a href="http://en.wikipedia.org/wiki/Open_vowel">Open</a></th>
+  </tr>
+  <caption>Parentheses indicate non-standard pronunciation.</caption>
+</table>
+
+<div>
+  <p><small>[<a class=sources>Display Sources</a>]</small></p>
+
+  <div class=hidden>
+    <div class=noncanon>
+
+      <table class="border center" style="background:inherit">
+        <tr><th colspan=4><big>Vowel inventory of Klingon</big></th></tr>
+        <tr>
+          <th align=left valign=top>[-cons]</th>
+          <th>[+front]<br>[-back]</th>
+          <th>[-front]<br>[-back]</th>
+          <th>[-front]<br>[+back]</th>
+        </tr>
+        <tr align=right><th>[+high]<br>[-low]</th><td align=center>{I}</td><td></td><td align=center>{u}</td></tr>
+        <tr align=right><th>[-high]<br>[-low]</th><td align=center>{e}</td><td></td><td align=center>{o}</td></tr>
+        <tr align=right><th>[-high]<br>[+low]</th><td></td><td align=center>{a}</td><td></td></tr>
+      </table>
+
+      <p class="blank indent">There are two noticable secondary features,
+        [round] and [tense], which are both linked to [back]. The result is
+        that the front vowels are lax. In IPA they would be notated with iota
+        or small capital I, and epsilon rather than with &lt;I&gt; and
+        &lt;e&gt; respectively; presumably the use of &lt;I&gt; is a not to
+        IPA’s small capital I.</p>
+
+      <table class="border center th-sans" style="background:inherit">
+        <tr><th colspan=17><big>Consonant inventory of Klingon</big></th></tr>
+        <tr>
+          <th></th>
+          <th colspan=2>Bilabial</th>
+          <th colspan=2>Labio-<br>dental</th>
+          <th colspan=2>Apico-<br>alveolar</th>
+          <th colspan=2>Apico-<br>palato-<br>alveolar<br>(possibly)</th>
+          <th colspan=2>Apico-<br>domal<br>(retroflex)</th>
+          <th colspan=2>Dorso-<br>velar</th>
+          <th colspan=2>Dorso-<br>uvular</th>
+          <th colspan=2>Glottal</th>
+        </tr>
+        <tr align=center>
+          <th>Stop</th>
+          <td style="border-right:0">{p}</td><td style="border-left:0">{b}</td>
+          <td colspan=2></td>
+          <td style="border-right:0">{t}</td><td style="border-left:0"></td>
+          <td colspan=2></td>
+          <td style="border-right:0"></td><td style="border-left:0">{D}</td>
+          <td colspan=2></td>
+          <td style="border-right:0">{q}</td><td style="border-left:0"></td>
+          <td style="border-right:0">{'}</td><td style="border-left:0"></td>
+        </tr>
+        <tr align=center>
+          <th>Fricative</th>
+          <td colspan=2></td>
+          <td style="border-right:0"></td><td style="border-left:0">{v}</td>
+          <td colspan=2></td>
+          <td colspan=2></td>
+          <td style="border-right:0">{S}</td><td style="border-left:0"></td>
+          <td style="border-right:0">{H}</td><td style="border-left:0">{gh}</td>
+          <td colspan=2></td>
+          <td colspan=2></td>
+        </tr>
+        <tr align=center>
+          <th>Affricate</th>
+          <td colspan=2></td>
+          <td colspan=2></td>
+          <td colspan=2></td>
+          <td style="border-right:0">{ch}</td><td style="border-left:0">{j}</td>
+          <td colspan=2></td>
+          <td colspan=2></td>
+          <td style="border-right:0">{Q}</td><td style="border-left:0"></td>
+          <td colspan=2></td>
+        </tr>
+        <tr align=center>
+          <th>Nasal Stop</th>
+          <td style="border-right:0"></td><td style="border-left:0">{m}</td>
+          <td colspan=2></td>
+          <td style="border-right:0"></td><td style="border-left:0">{n}</td>
+          <td colspan=2></td>
+          <td style="border-right:0">({N})</td><td style="border-left:0"></td>
+          <td style="border-right:0"></td><td style="border-left:0">{ng}</td>
+          <td colspan=2></td>
+          <td colspan=2></td>
+        </tr>
+        <tr align=center>
+          <th>Glides</th>
+          <td style="border-right:0"></td><td style="border-left:0">{w}</td>
+          <td colspan=2></td>
+          <td colspan=2></td>
+          <td style="border-right:0"></td><td style="border-left:0">{y}</td>
+          <td colspan=2></td>
+          <td colspan=2></td>
+          <td colspan=2></td>
+          <td colspan=2></td>
+        </tr>
+        <tr align=center>
+          <th>Trill</th>
+          <td colspan=2></td>
+          <td colspan=2></td>
+          <td style="border-right:0"></td><td style="border-left:0">{r}</td>
+          <td colspan=2></td>
+          <td colspan=2></td>
+          <td colspan=2></td>
+          <td colspan=2></td>
+          <td colspan=2></td>
+        </tr>
+        <tr align=center>
+          <th>Lateral</th>
+          <td colspan=2></td>
+          <td colspan=2></td>
+          <td style="border-right:0"></td><td style="border-left:0">{l}</td>
+          <td colspan=2></td>
+          <td colspan=2></td>
+          <td colspan=2></td>
+          <td colspan=2></td>
+          <td colspan=2></td>
+        </tr>
+        <tr align=center>
+          <th>Lateral Affricate</th>
+          <td colspan=2></td>
+          <td colspan=2></td>
+          <td style="border-right:0">{tlh}</td><td style="border-left:0"></td>
+          <td colspan=2></td>
+          <td colspan=2></td>
+          <td colspan=2></td>
+          <td colspan=2></td>
+          <td colspan=2></td>
+        </tr>
+        <caption>Where characters appear in pairs, the one to the right
+          represents a voiced consonant.</caption>
+      </table>
+      <p><small>[{HolQeD} 1:1, p.3--4]</small></p>
+    </div>
+  </div>
+</div>
+
+
+### Doubled Consonants ###
+
+
+Though frowned upon by older Klingons it is not all that uncommon that doubled
+consonants are pronounced as only one letter by younger Klingons. The word
+{qettaH} <i>He/she keeps on running,</i> can be pronounced, either (1) with two
+separately articulated {t}s in the middle, or (2) with one {t} held for an
+extra moment to indicate the doubling, or finally (3) as if it was written with
+just a single {t}. <small>[<a class=sources>Display Sources</a>]</small>
+
+<p class="canon hidden">[…] younger speakers tend to pronounce doubled
+consonants as if they were single, while older speakers pretty much maintain
+the distinction between single and doubled consonants. For example, in the word
+{qettaH} (“He/she keeps on running”; {qet,} “run, jog,” plus {-taH,}
+“continuous”), an older Klingon would either pronounce each {t} distinctly,
+releasing the first one with a puff of air before articulating the second, or
+else he or she would hold the {t} just a bit before releasing it, so that the
+time taken up would be about the same as if each {t} were articulated
+separately. A younger speaker, on the other hand, may pronounce the word as if
+it were {qetaH}, though with the stress remaining on the first syllable as it
+is in {qettaH}. Similarly, an older speaker would probably maintain the {mm} in
+{bommey} (“songs”; {bom,} “song,” plus {-mey,} plural indicator) by either
+pronouncing each {m} distinctly or, more likely in this case, prolonging the
+{m}; some younger speakers (though a smaller number than in the case of {tt})
+might say {bomey}, again with stress remaining on the first syllable. Only in
+the case of {''} (as in {pa''a'} [“big room”]: {pa',} “room,” plus {-'a',} an
+augmentative) is there a tendency in both groups to reduce the {''} to a single
+{'}, though {''} (a somewhat prolonged gap between the preceding and following
+{a}) is hardly unknown or archaic-sounding. The reduction of doubled consonants
+to single follows a clear pattern. Those most likely to be reduced are {pp},
+{tt}, [{qq}], and, as noted above, {''}; least likely to be reduced are {ll},
+{mm}, {nn}, {ngng}, {vv}, {ww}, and {yy}. <small>[KGT p.138--139]</small></p>
+
+
+### Alphabet ###
+
+<p id=a class=noindent>
+  <img src="../piq/rom/a.gif" width=14 height=39 alt=a>
+  <img src="../piq/ipa/a.gif" width=31 height=39 alt=a>
+  <img src="../piq/bg1/a.gif" width=38 height=39 alt=a>
+  <img src="../piq/fncy/a.gif" width=30 height=39 alt=a>
+  <img src="../piq/smpl/a.gif" width=44 height=39 alt=a>
+</p>
+
+{a} [<a href="http://en.wikipedia.org/wiki/Open_back_unrounded_vowel">ɑ</a>]
+<i>Open back unrounded vowel</i> (called {'at} when spelling)---As
+in <a href="http://en.wikipedia.org/wiki/General_American">General American</a>
+or <a href="http://en.wikipedia.org/wiki/Received_Pronunciation">BBC
+English</a> <i>sp<u>a</u></i> [spɑː], as in some dialects of
+German <i>T<u>a</u>g</i> [tʰɑːk] (meaning <i>day</i>), or as in
+Swedish <i>j<u>а</u>g</i> [jɑːɡ] (meaning <i>I</i>).
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<div class=hidden>
+  <p class=canon>{a} As in English <i>psalm;</i> never as in American
+    English <i>crabapple.</i> <small>[TKD 1.2]</small></p>
+
+  <p class=canon>[{a}] as in <i>pa</i> <small>[TKDa p. 169]</small></p>
+
+  <p class=canon>Younger speakers also have a slight tendency to change the
+    pronunciation of the vowel {a} in nonstressed syllables to something that
+    sounds a bit like the <i>u</i> in Federation Standard <i>but</i>. If this
+    sound is transcribed with the symbol {U}, a word like {qaleghpu'} (“I have
+    seen you”) might sound more like {qUleghpu'}. This particular phonological
+    inclination seems particularly bothersome to older Klingons and is
+    generally considered an error worthy of correction. Students who speak this
+    way are customarily reprimanded. <small>[KGT p. 139]</small></p>
+</div>
+
+
+<p id=b class=noindent>
+  <img src="../piq/rom/b.gif" width=15 height=39 alt=b>
+  <img src="../piq/ipa/b.gif" width=30 height=39 alt=b>
+  <img src="../piq/bg1/b.gif" width=37 height=39 alt=b>
+  <img src="../piq/fncy/b.gif" width=26 height=39 alt=b>
+  <img src="../piq/smpl/b.gif" width=36 height=39 alt=b>
+</p>
+
+{b} [<a href="http://en.wikipedia.org/wiki/Voiced_bilabial_stop">b</a>]
+<i>Voiced bilabial stop</i> (called {bay} when spelling)---This sound is quite
+common in Terran languages. It is pronounced as in English <i>a<u>b</u>ack</i>
+[əˈbæk], as in German <i><u>B</u>ub</i> [buːp] (meaning <i>boy</i>) or as in
+Swedish <i><u>b</u>ra</i> [ˈbrɑː] (<i>good</i>).
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<p class="canon hidden">{b} As in English <i>bronchitis</i>
+  or <i>gazebo.</i> <small>[TKD 1.1]</small></p>
+
+
+<p id=ch class=noindent>
+  <img src="../piq/rom/ch.gif" width=29 height=39 alt=ch>
+  <img src="../piq/ipa/ch.gif" width=37 height=39 alt=ch>
+  <img src="../piq/bg1/ch.gif" width=42 height=39 alt=ch>
+  <img src="../piq/fncy/ch.gif" width=38 height=39 alt=ch>
+  <img src="../piq/smpl/ch.gif" width=61 height=39 alt=ch>
+</p>
+
+{ch}
+[<a href="http://en.wikipedia.org/wiki/Voiceless_palato-alveolar_affricate">t͡ʃ</a>]
+<i>Voiceless postalveolar affricate</i> (called {chay} when spelling)---This
+sound pronounced as in English <i>blea<u>ch</u></i> [bliːt͡ʃ], as in
+German <i><u>Tsch</u>inelle</i> [t͡ʃiˈnɛlə] (meaning <i>cymbal</i>), or as in
+Finland Swedish <i>tjugo</i> [t͡ʃʉ:gʉ] (<i>twenty</i>).
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<p class="canon hidden">{ch} As in English <i>chew</i>
+  or <i>artichoke.</i> <small>[TKD 1.1]</small></p>
+
+
+<p id=d class=noindent>
+  <img src="../piq/rom/d.gif" width=21 height=39 alt=D>
+  <img src="../piq/ipa/d.gif" width=35 height=39 alt=D>
+  <img src="../piq/bg1/d.gif" width=29 height=39 alt=D>
+  <img src="../piq/fncy/d.gif" width=22 height=39 alt=D>
+  <img src="../piq/smpl/d.gif" width=42 height=39 alt=D>
+</p>
+
+{D}
+[<a href="http://en.wikipedia.org/wiki/Voiced_retroflex_stop">ɖ</a>]
+<i>Voiced retroflex stop</i> (called {Day} when spelling)---In English, this
+sound only occur in some dialects, such as in Indian English <i><u>d</u>ine</i>
+[ɖaɪn] (<i>to eat</i>). The sound is similar to <i>d</i> in <i>dream</i>
+or <i>android,</i> but the tip of the tongue touches the roof of the mouth
+further back, at the back
+of <a href="http://en.wikipedia.org/wiki/Alveolar_ridge">the alveolar ridge</a>
+(this part of the alveolar ridge is covered with small ridges). As far as I
+know, this sound does not occur in German.
+
+The {D} sound exist in most Swedish central and northern dialects. This is how
+the letters <i>rd</i> are pronounced when they occur together, e.g. in the
+word <i>no<u>rd</u></i> [nuːɖ] (meaning <i>north</i>). What is actually going
+on here is that when <i>r</i> comes before
+a <a href="http://en.wikipedia.org/wiki/Dental_consonant">dental consonant</a>
+the <i>r</i> is not pronounced, but instead causes retroflexation of the
+following consonant.
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<div class=hidden>
+  <p class=canon>{D} This sound is close to English <i>d</i> in <i>dream</i>
+    or <i>android,</i> but it is not quite the same. The English <i>d</i> sound
+    is made by touching the tip of the tongue to that part of the roof of the
+    mouth just behind the upper teeth. Klingon {D} can best be approximated by
+    English-speakers by touching the tip of the tongue to the roof of the mouth
+    at a point about halfway between the teeth and the velum (or soft palate),
+    that part of the roof of the mouth that is rather gooshy. As with Klingon
+    {b}, some speakers pronounce {D} as if it were more like an <i>nd,</i> and
+    a distinct minority as if it were {n}---but, of course, with the tongue in
+    the same position as for {D}. <small>[TKD 1.1]</small></p>
+
+  <p class=canon>The sound at the end of the first syllable of this word,
+    {toD}, is {D}. To make this sound, point the tip of your tongue directly
+    upwards, and touch the hard part of the roof of your mouth, and the do the
+    same thing you would do to make a <i>d</i> sound. <small>[CK]</small></p>
+
+  <p class=canon>For instance {Dal} means <i>It is boring.</i> To get the first
+    sound in that word right make sure your tongue is pointed straight up
+    towards the roof of your mouth. <small>[PK]</small></p>
+</div>
+
+
+<p id=e class=noindent>
+  <img src="../piq/rom/e.gif" width=14 height=39 alt=e>
+  <img src="../piq/ipa/e.gif" width=29 height=39 alt=e>
+  <img src="../piq/bg1/e.gif" width=26 height=39 alt=e>
+  <img src="../piq/fncy/e.gif" width=24 height=39 alt=e>
+  <img src="../piq/smpl/e.gif" width=38 height=39 alt=e>
+</p>
+
+{e} [<a href="http://en.wikipedia.org/wiki/Open-mid_front_unrounded_vowel">ɛ</a>]
+<i>Open-mid front unrounded vowel</i> (called {'et} when spelling)---As
+in <a href="http://en.wikipedia.org/wiki/General_American">General American</a>
+or <a href="http://en.wikipedia.org/wiki/Received_Pronunciation">BBC
+English</a> <i>b<u>e</u>d</i> [bɛd], as in German <i>B<u>e</u>tt</i> [bɛt]
+(meaning <i>bed</i>), or as in Swedish <i><u>e</u>n</i> [ɛn] (<i>one</i>).
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<div class=hidden>
+  <p class=canon>{e} As in English <i>sensor.</i> <small>[TKD 1.2]</small></p>
+
+  <p class=canon>[{e}] as in <i>pet</i> <small>[TKDa p. 169]</small></p>
+</div>
+
+
+<p id=gh class=noindent>
+  <img src="../piq/rom/gh.gif" width=31 height=39 alt=gh>
+  <img src="../piq/ipa/gh.gif" width=29 height=39 alt=gh>
+  <img src="../piq/bg1/gh.gif" width=43 height=39 alt=gh>
+  <img src="../piq/fncy/gh.gif" width=21 height=39 alt=gh>
+  <img src="../piq/smpl/gh.gif" width=37 height=39 alt=gh>
+</p>
+
+{gh}
+[<a href="http://en.wikipedia.org/wiki/Voiced_velar_fricative">ɣ</a>] <i>Voiced
+velar fricative</i> (called {ghay} when spelling)---This sound is not like
+anything in English, German or Swedish. It is produced with the tongue in the
+same position as for <i>g</i>---as in English <i><u>g</u>a<u>gg</u>le</i>
+[ˈɡæɡɫ̩], German <i>Lü<u>g</u>e</i> [ˈlyːɡə] (meaning <i>lie</i>) or
+Swedish <i><u>g</u>ång</i> [ɡɔŋː], (<i>path</i>)---but relaxing somewhat and
+humming. It is a voiced version of the Klingon {H} sound.
+
+The <i>guttural r</i>
+[<a href="http://en.wikipedia.org/wiki/Voiced_uvular_fricative">ʁ</a>] of
+French and southern Swedish dialects is pronounced a bit farther back than the
+Klingon {gh}, but is otherwise the identical. (Using a this <i>r</i> instead of
+the proper {gh} is not likely to cause confusion, but if doing so one should be
+aware that one will be speaking with a bit of a Terran
+accent). <small>[<a class=sources>Display Sources</a>]</small>
+
+<div class="hidden">
+  <p class=canon>{gh} This is not like anything in English. It can be produced
+    by putting the tongue in the same position it would be in to say
+    English <i>g</i> as in <i>gobble,</i> but relaxing the tongue somewhat and
+    humming. It is the same as Klingon {H} (see below), but with the vocal
+    cords vibrating at the same time. <small>[TKD 1.1]</small></p>
+
+  <p class=canon>[{gh},] a softer <i>kh,</i> with humming (or voicing) at the
+    same time <small>[TKDa p. 169]</small></p>
+
+  <p class=canon>The first sound of the word is {gh}. It’s the same as the last
+    sound of {toDSaH}, but hum while you say it. <small>[CK]</small></p>
+</div>
+
+
+<p id=h class=noindent>
+  <img src="../piq/rom/h.gif" width=23 height=39 alt=H>
+  <img src="../piq/ipa/h.gif" width=33 height=39 alt=H>
+  <img src="../piq/bg1/h.gif" width=21 height=39 alt=H>
+  <img src="../piq/fncy/h.gif" width=19 height=39 alt=H>
+  <img src="../piq/smpl/h.gif" width=40 height=39 alt=H>
+</p>
+
+{H}
+[<a href="http://en.wikipedia.org/wiki/Voiceless_velar_fricative">x</a>] <i>Voiceless
+velar fricative</i> (called {Hay} when spelling)---This sound is not common in
+English but can be heard in some pronunciations of the American exclamation of
+disgust <i>yech</i> [jɛx]. It also occur in Scottish <i>lo<u>ch</u></i> [lɔx],
+and in German <i>Ku<u>ch</u>en</i> [kuːxən] (meaning <i>cake</i>). It is a
+voiceless version of the Klingon {gh}.
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<div class=hidden>
+  <p class=canon>{H} This is also not like anything in English, but it is just
+    like <i>ch</i> in the name of the German composer <i>Bach</i> or in the
+    Yiddish toast <i>l’chaim,</i> or the <i>j</i> in the Mexican city
+    of <i>Tijuana</i> in <i>Baja California.</i> It is produced in the same way
+    as Klingon {gh}, but is articulated with a very coarse, strong rasp. Unlike
+    Klingon {gh}, the vocal cords do not vibrate in saying Klingon
+    {H}. <small>[TKD 1.1]</small></p>
+
+  <p class=canon>[{H} as in] <i>ch</i> in German <i>Bach</i> or
+    Scottish <i>loch</i> <small>[TKDa p. 169]</small></p>
+
+  <p class=canon>The last sound in the word is {H}, this is the same as the
+    sound at the end of the name of the ancient Terran composer <i>Bach.</i>
+    You’d make it the same way you make a <i>k</i> sound, but force air out of
+    your mouth at the same time. <small>[CK]</small></p>
+</div>
+
+
+<p id=i class=noindent>
+  <img src="../piq/rom/i.gif" width=9 height=39 alt=I>
+  <img src="../piq/ipa/i.gif" width=24 height=39 alt=I>
+  <img src="../piq/bg1/i.gif" width=31 height=39 alt=I>
+  <img src="../piq/fncy/i.gif" width=17 height=39 alt=I>
+  <img src="../piq/smpl/i.gif" width=38 height=39 alt=I>
+</p>
+
+{I}
+[<a href="http://en.wikipedia.org/wiki/Near-close_near-front_unrounded_vowel">ɪ</a>]
+<i>Near-close near-front unrounded vowel</i> (called {'It} when spelling)---As
+in English <i>b<u>i</u>t</i> [bɪt], as in German <i>b<u>i</u>tte</i> [ˈbɪtə]
+(meaning <i>please</i>), or as in Swedish <i>sill</i> [sɪl] (<i>herring</i>).
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<div class=hidden>
+  <p class=canon>{I} As English <i>i</i> in <i>misfit.</i> Once in a while, it
+    is pronounced like <i>i</i> in <i>zucchini,</i> but this is very rare and
+    it is not yet known exactly what circumstances account for
+    it. <small>[TKD 1.2]</small></p>
+
+  <p class=canon>[{i}] as in <i>pit</i> <small>[TKDa p. 169]</small></p>
+</div>
+
+
+<p id=j class=noindent>
+  <img src="../piq/rom/j.gif" width=8 height=39 alt=j>
+  <img src="../piq/ipa/j.gif" width=44 height=39 alt=j>
+  <img src="../piq/bg1/j.gif" width=36 height=39 alt=j>
+  <img src="../piq/fncy/j.gif" width=24 height=39 alt=j>
+  <img src="../piq/smpl/j.gif" width=40 height=39 alt=j>
+</p>
+
+{j}
+[<a href="http://en.wikipedia.org/wiki/Voiced_palato-alveolar_affricate">d͡ʒ</a>]
+<i>Voiced postalveolar affricate</i> (called {jay} when spelling)---As in
+English <i><u>j</u>ump</i> [ˈd͡ʒʌmp] or German <i><u>Dsch</u>ungel</i> [d͡ʒʊŋəl]
+(meaning <i>jungle</i>), and similar to <i>dj</i> in
+Swedish <i>glä<u>dj</u>e</i> (meaning <i>joy</i>) or <i>ke<u>dj</u>a</i>
+(<i>chain</i>). This sound is always pronounced with a hard initial <i>d,</i>
+and never softly as in French <i>jour</i> (<i>day</i>) or as
+Swedish <i>jord</i> (<i>earth</i>).
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<p class="canon hidden">{j} As in English <i>junk;</i> never ever as in
+  French <i>jour.</i> <small>[TKD 1.1]</small></p>
+
+
+<p id=l class=noindent>
+  <img src="../piq/rom/l.gif" width=7 height=39 alt=l>
+  <img src="../piq/ipa/l.gif" width=23 height=39 alt=l>
+  <img src="../piq/bg1/l.gif" width=28 height=39 alt=l>
+  <img src="../piq/fncy/l.gif" width=26 height=39 alt=l>
+  <img src="../piq/smpl/l.gif" width=37 height=39 alt=l>
+</p>
+
+{l} [<a href="http://en.wikipedia.org/wiki/Alveolar_lateral_approximant">l</a>]
+<i>Alveolar lateral approximant</i> (called {lay} when spelling)---As in
+English <i><u>l</u>et</i> [lɛt], German <i><u>L</u>iebe</i> [liːbə]
+(meaning <i>love</i>) or Swedish <i><u>l</u>ång</i> [lɔŋ] (<i>long</i>).
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<p class="canon hidden">{l} As in English <i>lunge</i>
+  or <i>alchemy.</i> <small>[TKD 1.1]</small></p>
+
+
+<p id=m class=noindent>
+  <img src="../piq/rom/m.gif" width=23 height=39 alt=m>
+  <img src="../piq/ipa/m.gif" width=39 height=39 alt=m>
+  <img src="../piq/bg1/m.gif" width=27 height=39 alt=m>
+  <img src="../piq/fncy/m.gif" width=27 height=39 alt=m>
+  <img src="../piq/smpl/m.gif" width=40 height=39 alt=m>
+</p>
+
+{m} [<a href="http://en.wikipedia.org/wiki/Bilabial_nasal">m</a>]
+<i>Bilabial nasal</i> (called {may} when spelling)---As in
+English <i>hi<u>m</u></i> [hɪm], German <i>rüh<u>m</u>en</i> [ˈʁyːmən]
+(meaning <i>to praise</i>) or Swedish <i><u>m</u>ask</i> [mask]
+(<i>worm</i>).
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<p class="canon hidden">{m} As in English <i>mud</i>
+  or <i>pneumatic.</i> <small>[TKD 1.1]</small></p>
+
+
+<p id=n class=noindent>
+  <img src="../piq/rom/n.gif" width=15 height=39 alt=n>
+  <img src="../piq/ipa/n.gif" width=31 height=39 alt=n>
+  <img src="../piq/bg1/n.gif" width=33 height=39 alt=n>
+  <img src="../piq/fncy/n.gif" width=28 height=39 alt=n>
+  <img src="../piq/smpl/n.gif" width=34 height=39 alt=n>
+</p>
+
+{n} [<a href="http://en.wikipedia.org/wiki/Alveolar_nasal">n</a>]
+<i>Alveolar nasal</i> (called {nay} when spelling)---As in
+English <i><u>n</u>ice</i> [naɪs], German <i>La<u>n</u>ze</i> [ˈlant͡sə]
+(meaning <i>lance</i>), or Swedish <i><u>n</u>ord</i> [nuːɖ] (<i>north</i>).
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<p class="canon hidden">{n} As in English <i>nectarine</i>
+  or <i>sunspot.</i> <small>[TKD 1.1]</small></p>
+
+
+<p id=ng class=noindent>
+  <img src="../piq/rom/ng.gif" width=31 height=39 alt=ng>
+  <img src="../piq/ipa/ng.gif" width=32 height=39 alt=ng>
+  <img src="../piq/bg1/ng.gif" width=41 height=39 alt=ng>
+  <img src="../piq/fncy/ng.gif" width=27 height=39 alt=ng>
+  <img src="../piq/smpl/ng.gif" width=37 height=39 alt=ng>
+</p>
+
+{ng} [<a href="http://en.wikipedia.org/wiki/Velar_nasal">ŋ</a>]
+<i>Velar nasal</i> (called {ngay} when spelling)---The letters <i>ng</i> are
+never pronounced separately, but always as in English <i>si<u>ng</u></i> [sɪŋ],
+German <i>la<u>ng</u></i> [laŋ] (meaning <i>long</i>), or
+Swedish <i>i<u>ng</u>enti<u>ng</u></i> [ɪŋːɛntʰɪŋ] (<i>nothing</i>). In the
+most Terran languages this sound never come at the beginning of a word, but
+this happen in a number of Klingon words (e.g. {ngan} <i>inhabitant</i>).
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<div class=hidden>
+  <p class=canon>{ng} As in English <i>furlong;</i> never as in
+    English <i>engulf.</i> The <i>g</i> is never pronounced as a separate
+    sound. This sound never occurs at the beginning of an English word, but it
+    does come at the beginning at a number of Klingon words. English-speakers
+    may practice making this sound at the beginning of a word by saying
+    English <i>dang it!,</i> then saying it again without
+    the <i>da.</i> <small>[TKD 1.1]</small></p>
+
+  <p class=canon>The sound at the beginning of the second syllable, {ngan}, is
+    the same as the sound that comes at the end of the word <i>thing</i>
+    or <i>hang.</i> <small>[CK]</small></p>
+
+  <p class=canon>That sound in the middle of the last word is the same as the
+    sound in the end of the federation standard <i>thing.</i> Be sure to say
+    {ngev}, not {nev} or {njev}. <small>[PK]</small></p>
+</div>
+
+
+<p id=o class=noindent>
+  <img src="../piq/rom/o.gif" width=16 height=39 alt=o>
+  <img src="../piq/ipa/o.gif" width=30 height=39 alt=o>
+  <img src="../piq/bg1/o.gif" width=36 height=39 alt=o>
+  <img src="../piq/fncy/o.gif" width=23 height=39 alt=o>
+  <img src="../piq/smpl/o.gif" width=38 height=39 alt=o>
+</p>
+
+{o}
+[<a href="http://en.wikipedia.org/wiki/Close-mid_back_rounded_vowel">o</a>]
+<i>Close-mid back rounded vowel</i> (called {'ot} when spelling)---As
+English <i>g<u>o</u></i> [goː], in German <i><u>o</u>der</i> [ˈoːdɐ]
+(meaing <i>or</i>), or as in Swedish <i><u>å</u>ka</i> [ˈoːka]
+(<i>travel</i>). Note: There are no words ending in &#42;{ow} (as that is
+considered indistinguishable from {o}).
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<div class=hidden>
+  <p class=canon>{o} As in English <i>mosaic.</i> <small>[TKD 1.2]</small></p>
+
+  <p class=canon>[{o}] as in <i>go</i> <small>[TKDa p. 169]</small></p>
+
+  <p class=canon>No words in Klingon have {ow} or {uw.} If they did, they would
+    be indistinguishable from words ending in {o} and {u,}
+    respectively. <small>[TKD 1.2]</small></p>
+</div>
+
+
+<p id=p class=noindent>
+  <img src="../piq/rom/p.gif" width=15 height=39 alt=p>
+  <img src="../piq/ipa/p.gif" width=41 height=39 alt=p>
+  <img src="../piq/bg1/p.gif" width=26 height=39 alt=p>
+  <img src="../piq/fncy/p.gif" width=36 height=39 alt=p>
+  <img src="../piq/smpl/p.gif" width=38 height=39 alt=p>
+</p>
+
+{p} [<a href="http://en.wikipedia.org/wiki/Voiceless_bilabial_stop">pʰ</a>]
+<i>Aspirated voiceless bilabial stop</i> (called {pay} when spelling)---As in
+English <i><u>p</u>ack</i> [pʰæk], German <i><u>P</u>ack</i> [pʰak]
+(meaning <i>pile</i>), or Swedish <i>a<u>p</u>a</i> [ˈɑːpʰa] (<i>monkey</i>).
+In Klingon, this sound is
+always <a href="http://en.wikipedia.org/wiki/Aspirated_consonant">aspirated</a>,
+that is, released with a strong burst of air.
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<p class="canon hidden">{p} As in English <i>parallax</i> or <i>opprobrium.</i>
+  It is always articulated with a strong puff or pop, never laxly. Speakers of
+  English may want to exercise care to avoid discharging saliva while
+  articulating this sound. It should be noted, however, that Klingons do not
+  worry about this. <small>[TKD 1.1]</small></p>
+
+
+<p id=q class=noindent>
+  <img src="../piq/rom/q.gif" width=15 height=39 alt=q>
+  <img src="../piq/ipa/q.gif" width=41 height=39 alt=q>
+  <img src="../piq/bg1/q.gif" width=18 height=39 alt=q>
+  <img src="../piq/fncy/q.gif" width=17 height=39 alt=q>
+  <img src="../piq/smpl/q.gif" width=29 height=39 alt=q>
+</p>
+
+{q} [<a href="http://en.wikipedia.org/wiki/Voiceless_uvular_stop">qʰ</a>]
+<i>Aspirated voiceless uvular stop</i> (called {qay} when spelling)---This
+sound is similar to the <i>k</i> sound of English, German and Swedish but the
+tongue reaches further back so that it touches the uvula (the fleshy blob that
+dangles down from the back of the roof of the mouth). In Klingon, this sound is
+always <a href="http://en.wikipedia.org/wiki/Aspirated_consonant">aspirated</a>,
+that is, released with a strong burst of air. Notice that this is never
+pronounced <i>kw</i> as in English <i><u>q</u>uagmire.</i>
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<div class=hidden>
+  <p class=canon>{q} Similar to English <i>k</i> in <i>kumquat,</i> but not
+    quite that. The tongue position for English <i>k</i> is like that for
+    Klingon {gh} and {H}. Indeed, the tongue reaches for or touches the uvula
+    (the fleshy blob that dangles down from the back of the roof of the mouth),
+    so articulating {q} approximates the sound of choking. The sound is usually
+    accompanied by a slight puff of air. English speakers are reminded that
+    Klingon {q} is never pronounced <i>kw</i> as in the beginning of
+    English <i>quagmire.</i> <small>[TKD 1.1]</small></p>
+
+  <p class=canon>There’s a new sound at both the beginning and end of the
+    second syllable {qeq}, be careful, this is not the federation
+    standard <i>k</i> sound. You make it like a <i>k,</i> but as you did for
+    {Q}, shove the back of your tongue as far back into your mouth as you
+    can. <small>[CK]</small></p>
+
+  <p class=canon>{-qoq}---Be sure you pronounce the sound at the beginning and
+    end of this suffix as far back in your mouth as you
+    can. <small>[PK]</small></p>
+</div>
+
+
+<p id=qh class=noindent>
+  <img src="../piq/rom/qh.gif" width=23 height=39 alt=Q>
+  <img src="../piq/ipa/qh.gif" width=53 height=39 alt=Q>
+  <img src="../piq/bg1/qh.gif" width=27 height=39 alt=Q>
+  <img src="../piq/fncy/qh.gif" width=23 height=39 alt=Q>
+  <img src="../piq/smpl/qh.gif" width=27 height=39 alt=Q>
+</p>
+
+{Q} [<a href="http://en.wikipedia.org/wiki/Voiceless_uvular_affricate">q͡χ</a>]
+<i>Voiceless uvular affricate</i> (called {Qay} when spelling)---It is
+pronounced in the same way as {q}, except that it is held longer while air is
+forced out. It is very guttural and raspy, somewhat like a blend of Klingon {q}
+and {H}. This sound is quite uncommon in Terran languages.
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<div class=hidden>
+  <p class=canon>{Q} This is like nothing particularly noteworthy in English.
+    It is and overdone Klingon {q}. It is identical to {q} except that it is
+    very guttural and raspy and strongly articulated, somewhat like a blend of
+    Klingon {q} and {H}. <small>[TKD 1.1]</small></p>
+
+  <p class=canon>To make this sound, put the back of your tongue as far back
+    into your mouth as you can, then force the air up harshly, as if you’re
+    trying to dislodge a piece of food. <small>[CK]</small></p>
+</div>
+
+
+<p id=r class=noindent>
+  <img src="../piq/rom/r.gif" width=10 height=39 alt=r>
+  <img src="../piq/ipa/r.gif" width=26 height=39 alt=r>
+  <img src="../piq/bg1/r.gif" width=33 height=39 alt=r>
+  <img src="../piq/fncy/r.gif" width=21 height=39 alt=r>
+  <img src="../piq/smpl/r.gif" width=30 height=39 alt=r>
+</p>
+
+{r} [<a href="http://en.wikipedia.org/wiki/Alveolar_trill">r</a>]
+<i>Alveolar trill</i> (called {ray} when spelling)---As in
+Scottish <i>cu<u>r</u>d</i> [kʌrd], German (in some
+dialects) <i>Schma<u>rr</u>n</i> [ʃmaːrn] (meaning <i>nonsense</i>), or
+Swedish <i><u>r</u>ov</i> [ruːv] (<i>prey</i>). This sounds differs from
+the <i>r</i> of American English, in that it is slightly trilled or rolled.
+
+Or---{r} [<a href="http://en.wikipedia.org/wiki/Alveolar_approximant">ɹ</a>]
+<i>Alveolar approximant</i>---Many Americans (among them Marc Okrand, the
+inventor of the Klingon language) are unable to roll their tongue to produce
+the trill of {r}, and therefore the flat <i>r</i> sound of American English is
+a often heard instead. It should be noted, however, that this pronunciation is
+a clear indicator of a Terran accent.
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<p class="canon hidden">{r} This is not like the <i>r</i> in American English,
+  but it does resemble the <i>r</i> in some dialects of British English, as
+  well as the <i>r</i> in many languages of Europe. It is slightly trilled or
+  rolled. <small>[TKD 1.1]</small></p>
+
+
+<p id=s class=noindent>
+  <img src="../piq/rom/s.gif" width=17 height=39 alt=S>
+  <img src="../piq/ipa/s.gif" width=28 height=39 alt=S>
+  <img src="../piq/bg1/s.gif" width=39 height=39 alt=S>
+  <img src="../piq/fncy/s.gif" width=32 height=39 alt=S>
+  <img src="../piq/smpl/s.gif" width=39 height=39 alt=S>
+</p>
+
+{S} [<a href="http://en.wikipedia.org/wiki/Voiceless_retroflex_sibilant">ʂ</a>]
+<i>Voiceless retroflex sibilant</i> (called {Say} when spelling)---As in the
+Swedish word <i>fo<u>rs</u></i> [fɔʂ] (meaning <i>rapids</i>). This sound is
+halfway between English <i>s</i> (as in <i>syringe</i>) and <i>sh</i> (as
+in <i>shuttlecock</i>). It is pronounced with the tongue in the same position
+as for Klingon {D}.
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<div class=hidden>
+  <p class=canon>{S} This sound is halfway between English <i>s</i>
+    and <i>sh,</i> as in <i>syringe</i> and <i>shuttlecock.</i> It is made with
+    the tip of the tongue reaching toward that part of the roof of the mouth
+    which it touches to produce the Klingon {D}. <small>[TKD 1.1]</small></p>
+
+  <p class=canon>It’s not quite either the <i>s</i> or the <i>sh</i> sound
+    you’re familiar with. For the Klingon {S}, put your tongue in the same
+    place you did to make the {D} sound, and say it with
+    me. <small>[CK]</small></p>
+</div>
+
+
+<p id=t class=noindent>
+  <img src="../piq/rom/t.gif" width=12 height=39 alt=t>
+  <img src="../piq/ipa/t.gif" width=36 height=39 alt=t>
+  <img src="../piq/bg1/t.gif" width=36 height=39 alt=t>
+  <img src="../piq/fncy/t.gif" width=34 height=39 alt=t>
+  <img src="../piq/smpl/t.gif" width=31 height=39 alt=t>
+</p>
+
+{t}
+[<a href="http://en.wikipedia.org/wiki/Voiceless_alveolar_stop">tʰ</a>]
+<i>Aspirated voiceless alveolar stop</i> (called {tay} when spelling)---As in
+English <i><u>t</u>ick</i> [tʰɪk], as in German <i><u>T</u>ochter</i> [ˈtʰɔxtɐ]
+(meaning <i>daughter</i>), or as in Swedish <i><u>t</u>ok</i> [tʰuːk]
+(<i>fool</i>). In Klingon, this sound is
+always <a href="http://en.wikipedia.org/wiki/Aspirated_consonant">aspirated</a>,
+that is, released with a strong burst of air.
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<p class="canon hidden">{t} As in English <i>tarpaulin</i> or <i>critique.</i>
+  It differs from Klingon {D} in two ways: (1) like {p}, it is accompanied by a
+  puff of air; and (2) the tongue touches a position on the roof of the mouth
+  father forward than that for {D}. <small>[TKD 1.1]</small></p>
+
+
+<p id=tlh class=noindent>
+  <img src="../piq/rom/tlh.gif" width=32 height=39 alt=tlh>
+  <img src="../piq/ipa/tlh.gif" width=38 height=39 alt=tlh>
+  <img src="../piq/bg1/tlh.gif" width=35 height=39 alt=tlh>
+  <img src="../piq/fncy/tlh.gif" width=35 height=39 alt=tlh>
+  <img src="../piq/smpl/tlh.gif" width=34 height=39 alt=tlh>
+</p>
+
+{tlh}
+[<a href="http://en.wikipedia.org/wiki/Voiceless_alveolar_lateral_affricate">t͡ɬ</a>]
+<i>Voiceless alveolar lateral affricate</i> (called {tlhay} when
+spelling)---This sound does not occur in many Terran languages, but is common
+in Nahuatl (the Aztec language). It even occurs in the name of the
+language <i>náhua<u>tl</u></i> [ˈnaːwat͡ɬ].
+
+One way to get the pronunciation right is to start off by saying <i>l</i>. As
+you do it, pay attention to two things: (1) Your vocal cords are vibrating (if
+you put your hand on your throat you can feel the vibrations quite clearly),
+and (2) the tip of the tongue is firmly fixed to the roof of the mouth, with
+the air passing by on both sides of the tongue.
+
+Now, say <i>l</i> again, but this time without the humming of the vocal cords
+(whisper!). You should no longer feel any vibrations in the hand on your
+throat. (The sound you’re now pronouncing in written
+[<a href="http://en.wikipedia.org/wiki/Voiceless_alveolar_lateral_fricative">ɬ</a>]
+in <a href="http://en.wikipedia.org/wiki/Ipa">IPA</a>.)
+
+Now, say the sound yet again, but this time---<i>spit it out!</i> Build up a
+little bit of pressure behind the tongue, then push out the air on both sides
+of it. As before, there should be no humming from your vocal cords, and the tip
+of the tongue should never leave the roof of your mouth. This is the Klingon
+{tlh} sound.
+
+Alternatively, you can think of it as pronouncing a <i>t</i> in a weird way:
+Instead of lowering the <em>tip</em> of your tongue to let the air pass, keep
+the tip of the tongue pressed against the roof of the mouth, and lower
+the <em>sides</em> of the tongue.
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<div class=hidden>
+  <p class=canon>{tlh} This sound does not occur in English, but is very much
+    like the final sound in <i>tetl,</i> the Aztec word for <i>egg,</i> if
+    properly pronounced. To produce this sound, the tip of the tongue touches
+    the same part of the roof of the mouth it touches for {t}, the sides of the
+    tongue are lowered away from the side upper teeth, adn the air is forced
+    through the space on both sides between tongue and teeth. The sound is
+    produced with a great deal of friction, and the warning given in the
+    description of Klingon {p} might be aptly repeated
+    here. <small>[TKD 1.1]</small></p>
+
+  <p class=canon>To make this {tlh} sound, say a <i>t</i> and at the same time
+    whisper, loudly, but still just whisper, an <i>l.</i> […] Do you feel the
+    sides of the tongue going down as you say the sound?---You
+    should. <small>[CK]</small></p>
+</div>
+
+
+<p id=u class=noindent>
+  <img src="../piq/rom/u.gif" width=15 height=39 alt=u>
+  <img src="../piq/ipa/u.gif" width=31 height=39 alt=u>
+  <img src="../piq/bg1/u.gif" width=38 height=39 alt=u>
+  <img src="../piq/fncy/u.gif" width=31 height=39 alt=u>
+  <img src="../piq/smpl/u.gif" width=41 height=39 alt=u>
+</p>
+
+{u}
+[<a href="http://en.wikipedia.org/wiki/Close_back_rounded_vowel">u</a>]
+<i>Close back rounded vowel</i> (called {'ut} when spelling)---As
+in <a href="http://en.wikipedia.org/wiki/General_American">General American</a>
+or <a href="http://en.wikipedia.org/wiki/Received_Pronunciation">BBC
+English</a> <i>b<u>oo</u>t</i> [buːt], or as in German <i>F<u>u</u>ß</i> [fuːs]
+(meaning <i>foot</i>). Note: There are no words ending in &#42;{uw} (as that is
+considered indistinguishable from {u}).
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<div class=hidden>
+  <p class=canon>{u} As in English <i>gnu</i> or
+    <i>prune;</i> never as in <i>but</i>
+    or <i>cute.</i> <small>[TKD 1.2]</small></p>
+
+  <p class=canon>[{u}] as in <i>soon</i> <small>[TKDa p. 169]</small></p>
+
+  <p class=canon>No words in Klingon have {ow} or {uw.} If they did, they would
+    be indistinguishable from words ending in {o} and {u,}
+    respectively. <small>[TKD 1.2]</small></p>
+</div>
+
+
+<p id=v class=noindent>
+  <img src="../piq/rom/v.gif" width=15 height=39 alt=v>
+  <img src="../piq/ipa/v.gif" width=29 height=39 alt=v>
+  <img src="../piq/bg1/v.gif" width=44 height=39 alt=v>
+  <img src="../piq/fncy/v.gif" width=38 height=39 alt=v>
+  <img src="../piq/smpl/v.gif" width=53 height=39 alt=v>
+</p>
+
+{v}
+[<a href="http://en.wikipedia.org/wiki/Voiced_labiodental_fricative">v</a>]
+<i>Voiced labiodental fricative</i> (called {vay} when spelling)---As in
+English <i><u>v</u>alve</i> [væɫv], German <i><u>W</u>ächter</i> [ˈvɛçtɐ]
+(meaning <i>guard</i>) or Swedish <i><u>v</u>ägg</i> [ˈvɛɡ] (<i>wall</i>).
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<p class="canon hidden">{v} As in English <i>vulgar</i>
+  or <i>demonstrative.</i> <small>[TKD 1.1]</small></p>
+
+<p id=w class=noindent>
+  <img src="../piq/rom/w.gif" width=22 height=39 alt=w>
+  <img src="../piq/ipa/w.gif" width=36 height=39 alt=w>
+  <img src="../piq/bg1/w.gif" width=34 height=39 alt=w>
+  <img src="../piq/fncy/w.gif" width=26 height=39 alt=w>
+  <img src="../piq/smpl/w.gif" width=36 height=39 alt=w>
+</p>
+
+{w} [<a href="http://en.wikipedia.org/wiki/Labio-velar_approximant">w</a>]
+<i>Labio-velar approximant</i> (called {way} when spelling)---As in
+English <i><u>w</u>eep</i> [wiːp].
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<p class="canon hidden">{w} Usually as in English <i>worrywart</i>
+  or <i>cow.</i> On rare occasions, especially if the speaker is being rather
+  deliberate, it is pronounced strongly, more like {Hw} or even
+  {Huw}. <small>[TKD 1.1]</small></p>
+
+
+<p id=y class=noindent>
+  <img src="../piq/rom/y.gif" width=17 height=39 alt=y>
+  <img src="../piq/ipa/y.gif" width=26 height=39 alt=y>
+  <img src="../piq/bg1/y.gif" width=35 height=39 alt=y>
+  <img src="../piq/fncy/y.gif" width=34 height=39 alt=y>
+  <img src="../piq/smpl/y.gif" width=37 height=39 alt=y>
+</p>
+
+{y} [<a href="http://en.wikipedia.org/wiki/Palatal_approximant">j</a>]
+<i>Palatal approximant</i> (called {yay} when spelling)---As in
+English <i><u>y</u>ou</i> [juː], German <i><u>J</u>och</i> [jɔx]
+(meaning <i>yoke</i>), or Swedish <i><u>j</u>ag</i> [jɑːɡ]
+(meaning <i>I</i>).
+
+Note: Making a clear distinction between {y} and {j} sounds are important, not
+least because of the {yI-} <i>(you--him/her/it (imperative))</i> and
+{jI-} <i>(I)</i> prefixes.
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<p class="canon hidden">{y} As in English <i>yodel</i>
+  or <i>joy.</i> <small>[TKD 1.1]</small></p>
+
+
+<p id=z class=noindent>
+  <img src="../piq/rom/z.gif" width=7 height=39 alt="’">
+  <img src="../piq/ipa/z.gif" width=31 height=39 alt="’">
+  <img src="../piq/bg1/z.gif" width=10 height=39 alt="’">
+  <img src="../piq/fncy/z.gif" width=7 height=39 alt="’">
+  <img src="../piq/smpl/z.gif" width=11 height=39 alt="’">
+</p>
+
+{'} [<a href="http://en.wikipedia.org/wiki/Glottal_stop">ʔ</a>]
+<i>Glottal stop</i> (called {qaghwI'} or just {'} when spelling)---This sound
+exist in spoken English but is not written---it is the slight catch in the
+throat between the two syllables of <i>uh-oh</i> or <i>unh-unh,</i> meaning
+“no.” In some English dialects the letter <i>t</i> is pronounced this way
+(e.g. <a href="http://en.wikipedia.org/wiki/Cockney#Cockney_speech">Cockney</a> <i>bo<u>tt</u>le</i>
+[ˈbɔʔo]). In <a href="http://en.wikipedia.org/wiki/Received_Pronunciation">BBC
+English</a> the letter <i>t</i> is pronounced this way before <i>n,</i> e.g.
+in <i>bu<u>tt</u>on</i> [bʌʔn̩] (in speech with careful enunciation, however, a
+proper <i>t</i> sound is often heard instead).
+
+The Swedish term for this sound
+is <a href="http://sv.wikipedia.org/wiki/Glottal_klusil"><i>glottal
+klusil</i></a> (or <i>laryngal klusil</i>) and the sound is, as in English,
+commonly used, but not written. It is cessation of sound in the middle
+of <i>öh-oh</i> [œʔœ͜uː] (meaning <i>oops!</i>), or at end of some
+pronunciations of the word <i>meh</i> [meʔ] (used to express indifference or
+boredom).
+
+In German this sound is known
+as <i><a href="http://de.wiktionary.org/wiki/Knacklaut">Knacklaut</a></i> and
+it precedes any word or syllable that begins with a vowel. It has been
+suggested to me that the difference in pronunciation between <i>alkoholarmm</i>
+(meaning <i>low in alcohol content</i>) and <i>alkoholarm</i> (made-up word,
+meaning <i>warning about the destructive effects of alcohol</i>) would be the
+addition of a glottal stop in the middle.
+
+In Klingon, when {'} comes at the end of a word, the preceding sound is
+abruptly cut off, and then repeated (after the glottal stop) in a soft whisper.
+If you articulate the word {paw} <i>(arrive)</i> and {paw'} <i>(collide)</i>
+there should be a clear and distinct sense of abrupt discontinuation in the
+latter.
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<div class=hidden>
+  <p class=canon>{'} The apostrophe indicates a sound which is frequently
+    uttered, but not written, in English. It is a glottal stop, the slight
+    catch in the throat between the two syllables of <i>uh-oh</i>
+    or <i>unh-unh,</i> meaning “no.” When Klingon {'} comes at the end of a
+    word, the vowel preceeding the {'} is often repeated in a very soft
+    whisper, as if an echo. Thus, Klingon {je'} <i>feed</i> almost sound like
+    {je'e}, where the articulation of the first {e} is abruptly cut off by the
+    {'}, and the second {e} is an barely audible whisper. When {'} follows {w}
+    or {y} at the end of a word, there is often a whispered, echoed {u} or {I}
+    respectively. Occasionally the echo is quite audible, with a guttural sound
+    like {gh} preceeding the echoed vowel. For example, {yIlI'} <i>transmit
+    it!</i> can sound more like {yIlI'ghI}. This extra-heavy echo is heard most
+    often when the speaker is particulary excited or
+    angry. <small>[TKD 1.1]</small></p>
+
+  <p class=canon>Did you hear the sounds cut off abruptly in the middle of the
+    word? The correct pronounciation is {Qu'vatlh}, not {Quvatlh}. This abrupt
+    cut-off is a very common feature of Klingon, you’ll hear it a
+    lot. <small>[CK]</small></p>
+
+  <p class=canon>{-na'} Notice how the sound stops abruptly at the end of this
+    suffix, it’s {-na'}, not {-naaa}. <small>[PK]</small></p>
+
+  <p class=canon>Many nonnative speakers of Klingon, especially those for whom
+    Federation Standard is a first language, seem to have trouble with {'}, the
+    glottal stop, at the end of a word. Articulated correctly, {'} is simply a
+    very abrupt cessation of vocalization. The most common mispronunciation of
+    {'} is as {q}, though some newer speakers leave {'} off altogether. Errors
+    of this type could lead to confusion or confrontation. <small>[KGT
+    pp. 194--195]</small></p>
+</div>
+
+
+[stress] Stress
+---------------
+
+The instructions for stress given here are equivalent to those given
+in <i>TKD,</i> (in that stress will wind up in the same places), however, here
+they have been simplified quite a bit to ease look-up and memorization.
+
+Stress is not normally indicated when writing Klingon, and the only piece of
+Klingon canon where stress is shown is the pronunciation key of the sentences
+in the TKD “cheat sheet” <small>[TKD pp. 171--172]</small>. In that
+pronunciation respelling {HIjol} (<i>Beam me aboard</i>) is written “khi-JOL”.
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<div class="canon hidden">
+  <p>Each Klingon word of more than one syllable normally contains one stressed
+    (or accented) syllable. The stressed syllable is pronounced at a slightly
+    higher pitch and with a little more force than the nonstressed
+    syllable(s).</p>
+  <p>[…]</p>
+  <p>Finally, it should be noted that there are some words which seem to have
+    variable stress patterns, with the stress sometimes heard on one syllable
+    and sometimes on another. This phenomenon is not yet understood. The rules
+    given above do not account for this variability, but if they are followed,
+    stress will wind up on acceptable syllables.</p>
+  <p>In the system used to transcribe Klingon in this dictionary, stress is not
+    indicated. <small>[TKD 1.3]</small></p>
+</div>
+
+
+### Verbs ###
+
+Adjectival verbs are stressed as verbs.
+
+<ul>
+  <li><i>If a speaker emphasizes one or more suffixes,</i> then those suffixes
+    are stressed, and all other syllables are unstressed. (Commonly emphasized
+    suffixes are: {-'a'}, {-be'}, {-Qo'}, {-Ha'} and {-qu'}.)</li>
+  <li><i>Otherwise,</i> the last syllable of the stem is stressed, the first
+    suffix is unstressed, and, after that, all suffixes ending in glottal stop
+    are stressed.</li>
+</ul>
+
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<div class=hidden>
+  <p class=canon>In a verb, the stressed syllable is usually the verb itself,
+    as opposed to any prefix or suffix. If, however, a suffix ending with {'}
+    is separated from the verb by at least one other suffix, both the verb and
+    the suffix ending in {'} are stressed. In addition, if the meaning of any
+    particular suffix is to be emphasized, the stress may shift to that
+    syllable. Suffixes indicating negation or emphasis (section 4.3) are
+    frequently stressed, as is the interrogative suffix (section
+    4.2.9). <small>[TKD 1.3]</small></p>
+  <p class=canon>[…] A younger speaker, on the other hand, may pronounce the
+    word [{qettaH}] as if it were {qetaH}, though with the stress remaining on
+    the first syllable as it is in {qettaH}. <small>[KGT p. 138]</small></p>
+  <p class=canon>Younger speakers also have a slight tendency to change the
+    pronunciation of the vowel {a} in nonstressed syllables to something that
+    sounds a bit like the <i>u</i> in Federation Standard <i>but</i>. If this
+    sound is transcribed with the symbol {U}, a word like {qaleghpu'} (“I have
+    seen you”) might sound more like {qUleghpu'}. <small>[KGT
+    p. 139]</small></p>
+  <div class=noncanon>
+    <p>Verbs are likewise stressed on the final syllable of the stem:
+      {Dál} <i>to be boring</i>, {ghIpDÍj} <i>to court-martial</i>. Unlike
+      nouns, if the first suffix after the verb ends in a glottal stop, the
+      suffix is <i>not</i> stressed. Thus the verb <i>she has been an alien</i>
+      is {nóvpu'}, while the noun <i>aliens</i> in {novpú'}. If the suffix
+      ending in a glottal stop is <i>other</i> than the first, then both it and
+      the final syllable of the verb are stressed: {mughIpDÍjchoHDÍ'} <i>when
+      she started court-martialling me</i>, {HóH'eghrupmó'} <i>because he was
+      ready to suicide</i>.</p>
+    <p>Semantically important suffixes can end up stressed instead of the verb
+      stem. In practice in Klingon metre (which systematises this tendency)
+      negative and interrogative suffixes are <i>always</i> stressed:
+      {jIDalbé'} <i>I am not boring</i>, {bImatlhHá'} <i>you are disloyal</i>,
+      {luDelQó'} <i>they refuse to describe it</i>, {chol'á'} <i>is he
+      coming?</i> Note that adjectival verbs are considered verbs: {'útlh
+      mátlhqu'} <i>a truly loyal officer</i>. There are often cases where
+      monosyllabic verbs and nouns are juxtaposed. In this text, adjectival
+      verbs and subject nouns tend to be stressed more strongly, following an
+      iambic pattern. Thus {'utlh mátlh} <i>a loyal officer</i>, {matlh
+      'útlh} <i>the officer is loyal</i>. <small>[{Hamlet} (pocket edition),
+      Appendix II, pp. 215--216]</small></p>
+  </div>
+</div>
+
+
+### Nouns ###
+
+
+Nominalized verbs (nouns created using suffixes {-wI’} and {-ghach}) are
+stressed as nouns.
+
+<ul>
+  <li><i>If there are syllables ending in glottal stop,</i> those are stressed
+    (and stressed equally).</li>
+  <li><i>Otherwise,</i> the last syllable of the stem is stressed (in compound
+    nouns, only the last syllable of the <i>last stem</i> is stressed).</li>
+</ul>
+
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<div class=hidden>
+  <p class=canon>In a noun, the stressed syllable is usually the syllable right
+    before the first noun suffix, or the final syllable if there is no suffix.
+    If, however, a syllable ending in {'} is present, it is usually stressed
+    instead. If there are two syllables in a row {'} both ending in {'}, both
+    are equally stressed. <small>[TKD 1.3]</small></p>
+
+  <div class=noncanon>
+
+    <p class=noindent>Nouns are stressed on the final syllable of the stem:
+      {ghóp} <i>hand</i>, {puyjáq} <i>nova</i>, {bortáS} <i>revenge</i>. Any
+      suffixes added on to the stem are not stressed: {puyjáqvam} <i>this
+      nova</i>, {bortáSmey} <i>revenges</i>.</p>
+
+    <p>However, if any syllable in a noun, whether in the stem or in a suffix,
+      ends in a glottal stop, it is stressed instead of the the stem’s final
+      syllable. Thus: {bó'DIj} <i>court</i>, {ghopDú'} <i>hands</i>,
+      {puyjaqvó'} <i>from the nova</i>. Adjacent syllables ending in glottal
+      stops receive equal stress: {chú'wÍ'} <i>trigger</i>, although Klingon
+      verse tends to stress the latter. Note that nouns derived from verbs are
+      considered nouns: {vúm} <i>to work</i>, {vumwÍ'} <i>worker</i>,
+      {vumtaHghách} <i>working</i>, {vumpú'ghach} <i>a bout of
+      work</i>. <small>[{Hamlet} (pocket edition), Appendix II,
+      pp. 215--216]</small></p>
+
+  </div>
+</div>
+
+
+### The Rest ###
+
+Everything we know about stress in {chuvmey} comes from the few examples of
+exclamations that occur in the TKD “cheat sheet”, and all of these have their
+final syllable stressed.
+
+<ul>
+  <li>Final syllable is stressed.</li>
+</ul>
+
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<div class="canon hidden">
+  <table>
+    <tr><td>Yes.</td><td>HIja’ <i>or</i> HISlaH</td><td>khi-JA <i>or</i> khish-LAKH</td></tr>
+    <tr><td>No.</td><td>ghobe’</td><td>gho-BE</td></tr>
+    <tr><td>Very good! Well done!</td><td>majQa’</td><td>maj-KKHA</td></tr>
+    <tr><td>What do you want? (greeting)</td><td>nuqneH</td><td>nook-NEKH</td></tr>
+    <caption><small>[TKD pp. 171--172]</small></caption>
+  </table>
+</div>
+
+
+[numerals] Numerals
+-------------------
+<table align=center>
+  <tr>
+    <th>Value</th>
+    <th>Pronunciation</th>
+    <th colspan=2>{pIqaD}</th>
+    <th>Name</th>
+  </tr>
+  <tr align=center>
+    <td><img src="../piq/rom/0.gif" width=16 height=39 alt=0></td>
+    <td><img src="../piq/ipa/0.gif" width=67 height=39 alt=0></td>
+    <td><img src="../piq/bg1/0.gif" width=30 height=39 alt=0></td>
+    <td><img src="../piq/fncy/0.gif" width=25 height=39 alt=0></td>
+    <td>zero,<br>none</td>
+  </tr>
+  <tr align=center>
+    <td><img src="../piq/rom/1.gif" width=13 height=39 alt=1></td>
+    <td><img src="../piq/ipa/1.gif" width=63 height=39 alt=1></td>
+    <td><img src="../piq/bg1/1.gif" width=36 height=39 alt=1></td>
+    <td><img src="../piq/fncy/1.gif" width=34 height=39 alt=1></td>
+    <td>one</td>
+  </tr>
+  <tr align=center>
+    <td><img src="../piq/rom/2.gif" width=16 height=39 alt=2></td>
+    <td><img src="../piq/ipa/2.gif" width=62 height=39 alt=2></td>
+    <td><img src="../piq/bg1/2.gif" width=17 height=39 alt=2></td>
+    <td><img src="../piq/fncy/2.gif" width=19 height=39 alt=2></td>
+    <td>two</td>
+  </tr>
+  <tr align=center>
+    <td><img src="../piq/rom/3.gif" width=14 height=39 alt=3></td>
+    <td><img src="../piq/ipa/3.gif" width=76 height=39 alt=3></td>
+    <td><img src="../piq/bg1/3.gif" width=26 height=39 alt=3></td>
+    <td><img src="../piq/fncy/3.gif" width=27 height=39 alt=3></td>
+    <td>three</td>
+  </tr>
+  <tr align=center>
+    <td><img src="../piq/rom/4.gif" width=16 height=39 alt=4></td>
+    <td><img src="../piq/ipa/4.gif" width=49 height=39 alt=4></td>
+    <td><img src="../piq/bg1/4.gif" width=34 height=39 alt=4></td>
+    <td><img src="../piq/fncy/4.gif" width=36 height=39 alt=4></td>
+    <td>four</td>
+  </tr>
+  <tr align=center>
+    <td><img src="../piq/rom/5.gif" width=16 height=39 alt=5></td>
+    <td><img src="../piq/ipa/5.gif" width=54 height=39 alt=5></td>
+    <td><img src="../piq/bg1/5.gif" width=20 height=39 alt=5></td>
+    <td><img src="../piq/fncy/5.gif" width=17 height=39 alt=5></td>
+    <td>five</td>
+  </tr>
+  <tr align=center>
+    <td><img src="../piq/rom/6.gif" width=16 height=39 alt=6></td>
+    <td><img src="../piq/ipa/6.gif" width=70 height=39 alt=6></td>
+    <td><img src="../piq/bg1/6.gif" width=35 height=39 alt=6></td>
+    <td><img src="../piq/fncy/6.gif" width=28 height=39 alt=6></td>
+    <td>six</td>
+  </tr>
+  <tr align=center>
+    <td><img src="../piq/rom/7.gif" width=16 height=39 alt=7></td>
+    <td><img src="../piq/ipa/7.gif" width=63 height=39 alt=7></td>
+    <td><img src="../piq/bg1/7.gif" width=28 height=39 alt=7></td>
+    <td><img src="../piq/fncy/7.gif" width=25 height=39 alt=7></td>
+    <td>seven</td>
+  </tr>
+  <tr align=center>
+    <td><img src="../piq/rom/8.gif" width=16 height=39 alt=8></td>
+    <td><img src="../piq/ipa/8.gif" width=69 height=39 alt=8></td>
+    <td><img src="../piq/bg1/8.gif" width=37 height=39 alt=8></td>
+    <td><img src="../piq/fncy/8.gif" width=39 height=39 alt=8></td>
+    <td>eight</td>
+  </tr>
+  <tr align=center>
+    <td><img src="../piq/rom/9.gif" width=16 height=39 alt=9></td>
+    <td><img src="../piq/ipa/9.gif" width=66 height=39 alt=9></td>
+    <td><img src="../piq/bg1/9.gif" width=27 height=39 alt=9></td>
+    <td><img src="../piq/fncy/9.gif" width=23 height=39 alt=9></td>
+    <td>nine</td>
+  </tr>
+</table>
+
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<div class=hidden>
+  <div class=canon>
+    <p>Klingon originally had a ternary number system; that is, one based on
+      three. Counting proceeded as follows: 1, 2, 3; 3+1, 3+2, 3+3; 2×3+1,
+      2×3+2, 2×3+3; 3×3+1, 3×3+2, 3×3+3; and the it got complicated. In
+      accordance with the more accepted practice, the Klingon Empire sometime
+      back adopted a decimal number system, one based on ten.</p>
+
+    <p>Though no one knows for sure, it is likely that this change was made
+      more out of concern for understanding the scientific data of other
+      civilizations than out of a spirit of cooperation. <small>[TKD
+      pp. 52--53]</small></p>
+  </div>
+
+  <p class=canon>Older Klingon music was based on a nonatonic scale---that is,
+    one made up of nine tones. Each tone has a specific name, comparable to the
+    “do, re, mi” system used in describing music on Earth. The nine tone names
+    are (the first and ninth, as with Earth’s “do,” being the same): {yu},
+    {bIm}, {'egh}, {loS}, {vagh}, {jav}, {Soch}, {chorgh}, {yu}. While the
+    first three (and ninth) of these words apparently are used only for singing
+    the scale, the remaining five are also numerals: {loS}, “four”; {vagh},
+    “five”; {jav}, “six”; {Soch}, “seven”; {chorgh}, “eight.” It is possible
+    that, at some time in the past, the numerals were “borrowed” into the
+    lexicon of music in order to sing the scale but, for some reason, the first
+    three (presumably {wa'}, {cha'}, {wej} [“one, two, three”]) were either
+    changed or never used. It is far more likely, however, that the borrowing
+    went in the other direction. As is well documented, the Klingon counting
+    system was originally a ternary system (one based on three, with numbers
+    higher than three formed from the words for “one,” “two,” and “three”).
+    Later, owing to outside influences, it changed to a decimal system (based
+    on ten). The independent words for the numbers three through nine were not
+    originally a part of the Klingon counting system, but they had to come from
+    somewhere. The musical scale is the likely source. The word for the fourth
+    musical tone, {loS}, began to be used for the number four, and so on
+    through the eighth tone, {chorgh}. (The origins of the words {Hut} [“nine”]
+    and the suffix {-maH}, used in the words for “ten,” “twenty,” “thirty,” and
+    so on, are obscure.) <small>[KGT pp. 72--73]</small></p>
+</div>
+
+
+[dialects] Dialects
+-------------------
+
+We have known that there are more than one Klingon dialect ever since TKD
+(which hinted at this in the description of the sounds {b}, {n} and {m} in “The
+Sounds of Klingon”) but most of the information we have today we got with KGT
+(which described the below listed dialects, as well as some other variations in
+speech related to the speaker’s age, and social class).
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<div class=hidden>
+  <div class=canon>
+    <p>{b} As in English <i>bronchitis</i> or <i>gazebo.</i> Some Klingons
+      pronounce this sound as if it were {m} and {b} articulated almost
+      simultaneously. Speakers of English can approximate this sound by
+      saying <i>imbalance</i> without the initial <i>i</i> sound. A very small
+      number of Klingons pronounce {b} as if it were {m.}</p>
+
+    <p>[…]</p>
+
+    <p>{n} As in English <i>nectarine</i> or <i>sunspot.</i> Those Klingons who
+      pronounce {D} more like {n} can easily articulate and hear the two sounds
+      differently. Even a {D} that sounds like {n} is pronounced with the
+      tongue in the Klingon {D} position, not in the English <i>d</i> position.
+      Klingon {n} is produced with the tongue in same position as
+      English <i>d.</i></p>
+
+    <p>{m} As in English <i>mud</i> or <i>pneumatic.</i> Those few Klingons who
+      pronounce {b} as {m} would say Klingon {baH} <i>fire</i> (<i>a
+      torpedo</i>) and {maH} <i>we</i> the same way, and have to memorize which
+      word is spelled which way. <small>[TKD 1.1]</small></p>
+  </div>
+</div>
+
+
+### [takev] The Tak’ev Dialect ###
+
+Dialect spoken in the Tak’ev ({taq'ev}) region. It is one of the larger
+minority dialects and has a much greater number of speakers that the Krotmag
+dialect. It sounds like blend of Krotmag an Standard Klingon, and is the one
+dialect (that we know of) which most closely resembles Standard Klingon. It is
+only briefly described in canon.
+
+<ul>
+  <li>Nasal vowels</li>
+  <li>Pronounces {b} as {mb}</li>
+  <li>Pronounces {D} as {ND}</li>
+</ul>
+
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<p class="canon hidden">Speaking in a manner that is sort of between that of
+  the Krotmag region and {ta' Hol} are the peoples of Tak’ev ({taq'ev}), who,
+  though still a minority population, greatly outnumber the residents of
+  Krotmag. These people maintain the distinction between {b} and {m} but
+  pronounce the {b} as if it were {mb}; that is, starting off as the {m} sound
+  but ending up at a {b}. Similarly, {D} is pronounced more like {nD} (or, more
+  accurately, {ND}). Thus {ba'} (“sit”) would be pronounced more like {mba'};
+  {Hub} (“defend”) would sound like {Humb}; {Du'} (“farm”) would be {NDu'};
+  {HoD} (“captain”) would be {HoND}; and {Dub} (“improve”) would be {NDumb}.
+  The nasal vowel quality found in the Krotmag region is characteristic of
+  Tak’ev speech as well. <small>[KGT p. 22]</small></p>
+
+
+### [krotmag] The Krotmag Dialect ###
+
+Dialect spoken in the Krotmag ({Qotmagh}) region. This dialect has fewer
+speakers than the Tak’ev dialect, but is well known and easily recognized by
+other Klingons. Some of the dialects peculiarities have even influenced
+Standard Klingon.
+
+<ul>
+  <li>Nasal vowels</li>
+  <li>Pronounces {b} as {m} (as in English <i>mime</i>)</li>
+  <li>Pronounces {D} as {N}</li>
+  <li>Often uses extra words in noun phrases, originally to differentiate
+    between words with {b} and {m} (e.g. {'uS qam} <i>leg foot,</i> {nach
+    qam} <i>head face</i>), but now prevalent even when no disambiguation is
+    needed (e.g. {NeS ghop} <i>arm hand,</i> {nach ghIch} <i>head nose,</i>
+    {qorNu' tuq} <i>family house</i> and even {yan 'etlh} or {'etlh
+    yan} <i>sword sword</i>)</li>
+  <li>Often adds short extra sentences to disambiguate between verbs with {b}
+    and {m} (e.g. {mImoH. yIjotchoH.} <i>You’re impatient. Calm down!,</i>
+    {mImoH. 'oy' mInNu'wIj.} <i>You’re ugly. My eyes ache.</i>)</li>
+</ul>
+
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<div class=hidden>
+  <div class=canon>
+    <p>Those in the Krotmag ({Qotmagh}) region, for example, have
+      characteristic ways of pronouncing the sounds {b} and {D}, as well as the
+      vowels. In {ta' Hol}, {b} is pronounced the same as <i>b</i> in
+      Federation Standard <i>bribe</i>. In the Krotmag dialect of Klingon,
+      however, {b} and {m} are pronounced identically, both of them sounding
+      like Federation Standard <i>m</i> as in <i>mime</i>. Thus, for example,
+      the members of the following pairs of words sound exactly alike in the
+      Krotmag dialect; however, they sound different in Standard Klingon:</p>
+
+    <blockquote>
+      {bup} (“quit”)/{mup} (“strike”)
+      <br>{boH} (“be impatient”)/{moH} (“be ugly”)
+      <br>{buS} (“concentrate on”)/{muS} (“hate”)
+      <br>{ghob} (“wage war”)/{ghom} (“meet, encounter”)
+      <br>{qab} (“face”)/{qam} (“foot”)
+      <br>{Qub} (“think”)/{Qum} (“communicate”)
+      <br>{teb} (“fill”)/{tem} (“deny”)
+    </blockquote>
+
+    <p>For the most part, this causes no problems for Krotmag dialect speakers.
+      There are more homonyms (words that sound alike) in their dialect than in
+      other dialects, but, as is the case with homonyms in general, context
+      usually serves to clarify which word is meant. Occasionally, however, two
+      identically pronounced words can be used in such similar contexts,
+      raising the possibilities of at least ambiguity if not catastrophic
+      misunderstanding, that some interesting speech patterns have developed.
+      When there are nouns that sound alike, speakers are likely to use
+      compound nouns (that is, use two nouns where otherwise one would do).
+      This is probably most clearly seen with the pair of words meaning “face”
+      and “foot,” both pronounced {qam} (though “face” is {qab} in Standard
+      Klingon). Does {qamlIj vIghov} mean “I recognize your foot” or “I
+      recognize your face”? Unless the course of the discussion clearly
+      dictates which is meant (as it might, for example, in a conversation when
+      buying shoes, though even here the possibility for ambiguity exists),
+      there is no way to tell. In such a situation, “foot” would probably be
+      rendered {'uS qam} (literally, “leg foot”); “face” would be {nach qam}
+      (or, in the standard dialect, {nach qab}---literally, “head face”).
+      Interestingly, though originally used only to avoid ambiguity with words
+      containing {m} and {b}, these speech patterns have become quite common in
+      the Krotmag region and are used even when {m} and {b} are not involved in
+      the words at all. Thus, it would not be unusual to hear such utterances
+      as {DeS ghop} (actually, {NeS ghop}---the meaning of {N} is explained
+      below) meaning “arm hand” or {nach ghIch} (“head nose”), even though the
+      single words {ghop} (“hand”) and {ghIch} (“nose”) need no disambiguation.
+      Similarly, a house (lineage) is frequently called {qorDu' tuq} (actually,
+      {qorNu' tuq})---literally, “family house”---rather than {tuq} (“house”)
+      alone, and a sword is often termed {yan 'etlh} (or even {'etlh
+      yan})---literally, “sword sword.” This manner of speaking is quite
+      characteristic of this region.</p>
+
+    <p>For verbs, a somewhat different tactic is employed. In {ta' Hol},
+      there is no problem distinguishing {bIboH} (“You are impatient”) from
+      {bImoH} (“You are ugly”). In the Krotmag region, however, both are
+      pronounced {mImoH}. To make the speaker’s intent clear, it is not
+      uncommon to add a short sentence immediately after the potentially
+      ambiguous one:</p>
+
+    <blockquote>
+      {mImoH. yIjotchoH.}
+      <br>[Standard: {bIboH. yIjotchoH.}]
+      <br>(“You’re impatient. Calm down!”)
+      <br>
+      <br>{mImoH. 'oy' mInNu'wIj.}
+      <br>[Standard: {bImoH. 'oy' mInDu'wIj.}]
+      <br>(“You’re ugly. My eyes ache.”)
+      <br>(See below regarding Krotmag {N}.)
+    </blockquote>
+
+    <p>Krotmag dialect speakers have a distinctive pronounciation of {D} as
+      well: it sounds like {n}, except the tip of the tongue touches a point in
+      the middle of the roof of the mouth rather than one behind the top teeth
+      as it does for {n}. (For the sake of clarity in this discussion the way
+      Krotmag dialect speakers pronounce {D} will be written {N}, to
+      distingguish if from {n}.) The {D} sound in {ta' Hol} is also produced
+      with the tongue pointing upward and not near the teeth (just like {N}),
+      but otherwise the {D} sound is similar to that of Federation
+      Standard <i>d</i> as in <i>did</i>. For speakers in the Krotmag region,
+      the sounds {n} and {N} are distinct; the following pairs of words do not
+      sound the same (the standard form of the second member of each pair
+      follows in brackets):</p>
+
+    <blockquote>
+      {naH} (“fruit, vegetable”)/{NaH} (“now”) [{DaH}]
+      <br>{nuj} (“mouth”)/{Nuj} (“vessel”) [{Duj}]
+      <br>{mIn} (“eye”)/{mIN} (“colony”) [{mID}]
+      <br>{nulegh} (“He/she sees us.”)/{Nulegh} (“He/she sees you.”) [{Dulegh}]
+    </blockquote>
+
+    <p>Though under most circumstances, speakers of the Krotmag dialect can
+      easily distinguish between the two sounds, it is not unusual to hear a
+      speaker add extra elements, as if to ensure clarity: {maH
+      nulegh}---literally, “us, he/she sees us”; {SoH Nulegh}---literally,
+      “you, he/she sees you.” This does not happen anywhere nearly as
+      frequently as it does with words with {b} or {m}, however. Speakers of
+      other forms of Klingon, on the other hand, find the Krotmag
+      pronunciations of {N} and {n} to be so similar as to be
+      indistinguishable. When trying to speak in the Krotmag manner, they tend
+      to pronounce all words with {D} as if they used {n} instead, rather than
+      {N}, making it possible for a true Krotmag speaker to differentiate a
+      fellow resident from an outsider, but also making communication
+      difficult. Misunderstandings, sometimes with unfortunate consequences,
+      are not all that uncommon.</p>
+
+    <p>A third characteristic of the Krotmag accent is the nasal quality of the
+      vowels, caused by the air being expelled through the mouth and nose at
+      the same time while speaking. This in no way impedes communication with
+      speakers of other dialects, but it does give the dialect a distinct
+      tone.</p>
+
+    <p>Although the number of speakers of the dialect of the Krotmag region is
+      relatively small, their speech patterns are well known and easily
+      recognized and have actually had an effect on other dialects. It is not
+      uncommon for speakers of one dialect to imitate the speech of another,
+      whether as a way to mock the speakers of a nonstandard dialect or as a
+      way to learn about that dialect to be prepared for a change in
+      leadership. A bit of dialect mixture results, with words or
+      pronunciations of one dialect being added to another. The distinctive
+      pronunciations of the Krotmag dialect are surely responsible for some
+      slang and idiomatic usages in Klingon in general. For example, {chab
+      chu'} (literally, “new pie”) is another way to say “new invention” or
+      “latest innovation.” This is no doubt because the Krotmag pronunciation
+      of {chab} (“pie”) is {cham}, the same as the word for “technology.”
+      Similarly, a slang word for “sword” is {yaD} (literally, “toe”), based on
+      the Krotmag pronunciation of {yaD} as {yaN}, which to most Klingons will
+      sound like {yan} (“sword”). <small>[KGT pp. 18--22]</small></p>
+  </div>
+</div>
+
+
+### The Morskan Dialect ###
+
+Dialect spoken on the conquered Klingon world Morska. We’re treated to brief
+bout of the Morskan dialect of Klingon in *ST6* when Enterprise encounters a
+Klingon listening post. (The Klingon spelling of the word “Morska” is
+unknown---the only canon occurrence is in spoken form, in the Morskan dialect,
+by that guard in *ST6*).
+
+The Morskan dialect is characterized by the following speech patterns.
+
+<ul>
+  <li>Pronounces {tlh} as {ghl} at the beginning of syllables, and as {ts} (as
+    in English <i>cats</i>) at the end</li>
+  <li>Pronounces {H} as {h} (as in English <i>hat</i>) at beginning of
+    syllables, and not pronounced at all at end</li>
+  <li>Pronounces {Q} as Standard Klingon {H}</li>
+  <li>Usually drops {-'e'} from the final noun in “to be” phrases (except when
+    the subject of such phrases are emphasised)</li>
+</ul>
+
+<small>[<a class=sources>Display Sources</a>]</small>
+
+<div class=hidden>
+  <p class=canon>In addition to the regions on Kronos (and there are more than
+    those mentioned above), of course, are the various planets that have become
+    part of the Empire. On some, such as Morska, a dialect of Klingon has all
+    but replaced any languages originally spoken; on others, such as Vaq’aj II,
+    native languages survive alongside {ta' Hol}. Interestingly, the dialects
+    of Klingon spoken on conquered planets are not as different from {ta' Hol}
+    as are some of the dialects on Kronos itself. That is because the Klingon
+    language came to the conquered planets relatively recently and therefore
+    remains somewhat similar to that spoken by the conquerors, while the
+    dialects on Kronos have been spoken for a much longer period and have had
+    time to develop differently. <small>[KGT p. 18]</small></p>
+
+  <div class=canon>
+    <p>The speech of residents of the planet Morska has some identifiable
+      phonological characteristics also. Most striking is the absence of the
+      sound {tlh.} Syllables ending with {tlh} in most dialects end with {ts}
+      (pronounced the same as <i>ts</i> in Federation Standard <i>cats</i>) in
+      the Morskan dialect; at the beginning of syllables, instead of saying
+      {tlh,} Morskans say something that sounds very much like a combination of
+      standard Klingon {gh} and {l}---that is, {ghl}. Compare, for example
+      (Morskan/{ta' Hol}):</p>
+
+    <blockquote>
+      {ghIts}/{ghItlh} (“write”)
+      <br>{mats}/{matlh} (“be loyal”)
+      <br>{ghlIngan}/{tlhIngan} (“Klingon”)
+      <br>{ghlo'}/{tlho'} (“thank”)
+      <br>{ghluts}/{tlhutlh} (“drink”)
+    </blockquote>
+
+    <p>The Morskan dialect also pronounces {H} differently from the standard
+      way. At the beginning of syllables, {H} sounds like Federation
+      Standard <i>h</i> as in <i>hat</i>; at the ends of syllables, {H} is not
+      pronounced at all:</p>
+
+    <blockquote>
+      {hIv}/{HIv} (“attack”)
+      <br>{ba}/{baH} (“fire [a torpedo]”)
+      <br>{hu}/{HuH} (“bile”)
+    </blockquote>
+
+    <p>Finally, {Q} at the beginning of syllables is pronounced the same as
+      standard Klingon {H}:</p>
+
+    <blockquote>
+      {Hapla'}/{Qapla'} (“success”)
+      <br>{Hoy}/{Qoy} (“hear”)
+    </blockquote>
+
+    <p>Because of this pronunciation difference, sometimes speakers of the
+      Morskan dialect and those of {ta' Hol} misunderstand one another. Words
+      such as the following have been responsible for the loss of more than one
+      life:</p>
+
+    <blockquote>
+      {Hagh}: Morskan, “make a mistake”/Standard, “laugh”
+      <br>{Hoj}: Morskan, “make war”/Standard, “be cautious”
+      <br>{HoS}: Morskan, “be sorry”/Standard, “be strong”
+    </blockquote>
+
+    <h2>Grammar</h2>
+
+    <p>Although the basic grammar of all dialects of Klingon is the same, there
+      is some variation. The Morskan dialect, for example, does not put the
+      suffix {-'e'} on the subject noun in a sentence translated with “to be”
+      in Federation Standard (though the suffix is not missing in other
+      contexts where it is used to focus attention on one noun rather than
+      another within the sentence). Compare:</p>
+
+    <blockquote>
+      Morskan: {tera'ngan gha qama'.} (“The prisoner is a Terran.”)
+      <br>Standard: {tera'ngan ghaH qama''e'} ({tera'ngan,} “Terran”; {ghaH,}
+      “he, she”; {qama',} “prisoner”)
+      <br>Morskan: {bIghha'Daq ghata qama'.} (“The prisoner is in the
+      prison.”)
+      <br>Standard: {bIghHa'Daq ghaHtaH qama''e'.} ({bIghHa'Daq,} “in the
+      prison”; {-taH,} “continuous”)
+    </blockquote>
+
+    <p>Sometimes the {-'e'} is heard at the end of the subject noun in Morskan
+      sentences of this type ({qama'} [“prisoner”] in the examples above),
+      leading some speakers of {ta' Hol} to criticize speakers of the Morskan
+      dialect for sloppiness, claiming that sometimes the {-'e'} is heard and
+      other times not, with no apparent pattern. The critics are wrong: {-'e'}
+      added to {qama'} in the Morskan sentences would have its usual focusing
+      function (the sentences would mean something like “It’s the prisoner
+      who’s a Terran” and “It’s the prisoner who’s in the prison,”
+      respectively), the same as it would have in sentences of other types.
+      This grammatical device is not available to speakers of {ta' Hol} who, to
+      speak grammatically, must use {-'e'} in sentences of this type whether
+      wishing to call extra attention to the subject noun or not. <small>[KGT
+      pp. 22--24]</small></p>
+  </div>
+</div>
+
+
+[references] References
+-----------------------
+<ul>
+<li>Elliot, Theron P. “Writing Klingon: The Easy Way.” In
+    <i>{HolQeD},</i> Volume 2, Number 2 (<time datetime="1993-06">June 1993</time>). Lake Forest:
+    Klingon Language Institute.</li>
+<li>Okrand, Marc. <time>1992</time>. <i>The Klingon Dictionary.</i> New York: Pocket
+    Books, Simon &amp; Schuster Inc.</li>
+<li>Okrand, Marc. <time>1992</time>. <i>Conversational Klingon.</i> Audio cassette. New
+    York: Simon &amp; Schuster Audioworks.</li>
+<li>Okrand, Marc, and Levine, Barry. <time>1993</time>. <i>Power Klingon.</i> Audio
+    cassette. New York: Simon &amp; Schuster Audioworks.</li>
+<li>Okrand, Marc. <time>1997</time>. <i>Klingon for the Galactic Traveler.</i> New York:
+    Pocket Books, Simon &amp; Schuster Inc.</li>
+<li>Pullum, Geoffrey K., and Ladusaw, William A. <time>1986</time>. <i>Phonetic Symbol
+    Guide.</i> Chicago: The University of Chicago Press.</li>
+<li>Schoen, Lawrence M. “<a href="../canon/1992-03-holqed-01-1-b.txt">Some Comments on Orthography</a>” In
+    <i>{HolQeD},</i> Volume 1, Number 1 (<time datetime="1992-03">March 1992</time>). Lake Forest:
+    Klingon Language Institute.</li>
+<li>Schoen, Lawrence M. “<a href="../canon/1992-12-holqed-01-04.txt">Numerals</a>” In <i>{HolQeD},</i> Volume 1,
+    Number 4 (<time datetime="1992-12">December 1992</time>). Lake Forest: Klingon Language Institute.</li>
+<li>Wechsler, Allan C. “First Steps Towards a Phonological Theory of
+    Klingon.” In <i>{HolQeD},</i> Volume 1, Number 1 (<time datetime="1992-03">March 1992</time>).
+    Lake Forest: Klingon Language Institute.</li>
+<li>Wells, Teresa Lynn. <time>1996</time>. <i>A Survey of the Artificial Language
+    {tlhIngan Hol}: From Creation to Creativity.</i> A Thesis
+    Presented in Partial Fulfillment of the Requirements for the Degree
+    Master of Arts at Arizona State University. Unpublished.</li>
+</ul>
+
+<script>
+    // add "Display Sources" link functionality on load
+    $(function () {
+        $('.sources').click(function (event) {
+            $(event.srcElement).closest('p').next().toggleClass('hidden');
+        });
+    });
+</script>
+
+[[eof]]
