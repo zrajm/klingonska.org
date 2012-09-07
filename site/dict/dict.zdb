@@ -3128,7 +3128,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{DenIbngan}
 pos:	noun
-sv:	«denebian» (person)
+sv:	«denibier» (person)
 en:	«Denebian»
 def:	TKD K-E
 file:	1992-01-01-tkd.txt
@@ -3151,7 +3151,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{DenIbya'ngan}
 pos:	noun
-sv:	«denebian» (person)
+sv:	«denibier» (person)
 en:	<Denebian>
 def:	TKD E-K
 file:	1992-01-01-tkd.txt
@@ -7678,6 +7678,8 @@ pos:	noun
 sv:	«Ligon»
 en:	<Ligon>
 def:	KGT
+com:	Name of a solar system, also called {lIghonya'}.
+see:	{lIghonya'}
 file:	1997-11-01-kgt.txt
 
 tlh:	{lIghon DuQwI' pogh}
@@ -7687,6 +7689,43 @@ en:	<glavin>, <Ligonian <spike glove>>
 def:	KGT
 cat:	clothing
 data:	phrase
+file:	1997-11-01-kgt.txt
+
+tlh:	{lIghonngan}
+pos:	noun
+sv:	«ligonier»
+en:	«Ligonian»
+def:	KGT p.141
+com:	Race of beings form the solar system {lIghon}.
+com:	Race from the Ligon star system.
+see:	{lIghongan}
+file:	1997-11-01-kgt.txt
+
+tlh:	{lIghonya'}
+pos:	noun
+sv:	«Ligon»
+en:	«Ligon»
+def:	KGT p.142
+com:	Name of a solar system, also called {lIghon}.
+see:	{lIghon}
+file:	1997-11-01-kgt.txt
+
+tlh:	{lIghonya'ngan}
+pos:	noun
+sv:	«ligonier»
+en:	«Ligonian»
+def:	KGT p.142
+com:	Race of beings form the solar system {lIghon}.
+see:	{lIghonngan}, {lIghongan}
+file:	1997-11-01-kgt.txt
+
+tlh:	{lIghongan}
+pos:	noun
+sv:	«ligonier»
+en:	«Ligonian»
+def:	KGT p.141
+com:	Race of beings form the solar system {lIghon} (alternative spelling).
+see:	{lIghonngan}, {lIghonya'ngan}
 file:	1997-11-01-kgt.txt
 
 tlh:	{lIH}
@@ -13354,7 +13393,7 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{qarDaSngan}
 pos:	noun
-sv:	«cardassian» (person)
+sv:	«cardassier» (person)
 en:	<Cardassian> (person)
 def:	KGT
 file:	1997-11-01-kgt.txt
@@ -15443,6 +15482,8 @@ pos:	name
 sv:	«Krotmag»
 en:	«Krotmag»
 def:	KGT p.17
+com:	The leader of a powerful house who, centuries ago, conquered
+	neighboring areas. {Qotmagh Sep} was named after him.
 file:	1997-11-01-kgt.txt
 
 tlh:	{Qotmagh Sep}
