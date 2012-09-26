@@ -4,10 +4,7 @@ year: 1998-2012
 lang: en
 style: banner
 
-<p class="center">
-  <big><b><i>Accuracy, straightforwardness, aggressiveness and strength!
-    <br>Precision, rättframhet, aggressivitet och styrka!</i></b></big>
-</p>
+<p class="center"><big><b><i>-- Your guide to the Klingon language.</i></b></big></p>
 
 <p class="center">[
   <a href="#eng">English Projects</a> |

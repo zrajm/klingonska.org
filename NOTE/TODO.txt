@@ -434,11 +434,14 @@ optimization."
 **** TODO Verify that 'make linkcheck' actually does something useful
 **** TODO HTML5 navigation menus (<nav>...</nav>?)
 **** TODO Make sure new design looks good in text only-browsers (lynx etc.)
-**** TODO New motto/tagline for site
+**** DONE New motto/tagline for site
+     CLOSED: [2012-09-26 Wed 09:07]
+     Changed to: "– Your guide to the Klingon language."
 
-     "*The* Klingon language reference site."?
-     "The one-shop-stop for all you Klingon language needs."?
-     "Klingon language reference tools since 1998."?
+     Other suggestions:
+     * "*The* Klingon language reference site."?
+     * "The one-shop-stop for all you Klingon language needs."?
+     * "Klingon language reference tools since 1998."?
 **** [0%] Minor tweaks (low priority)
 ***** TODO Remove metadata field 'year', use 'created' and 'updated' instead
       'markdown2html' should base copyright year on creation date + last
