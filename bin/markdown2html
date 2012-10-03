@@ -308,7 +308,7 @@ sub help {
         return 1;
     }
 
-    # Usage: exstract($STRING, $HASHREF);
+    # Usage: extract_tag($STRING, $HASHREF);
     #
     # Removes all occuring HTML elements <$STRING>...</$STRING> from
     # $HASHREF{"text"} and appends to list $HASHREF{$STRING . "_tags"}. Leading
