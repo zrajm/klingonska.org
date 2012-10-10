@@ -91,10 +91,10 @@ function makeTableArray(opts) {
             tag('table', title + content)
         );
     };
-    obj.partRedraw = function (index, oldValues, newValues) {
+    obj.partRedraw = function (index, newValues, oldValues) {
 
         // FIXME: should insert stuff
-        
+
         var opts  = obj.tableOpts,
             tbody = $(opts.container.children('tbody')),
             trCount = 0, trLast;

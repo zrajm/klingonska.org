@@ -1,3 +1,4 @@
+//
 // FIXME: Make sure this constructor function works even without the 'new'
 // keyword.
 //
@@ -46,13 +47,16 @@
 //
 // CALLBACK INVOCATION
 //
-//     callback(startIndex, removeValues, addValues);
+//     callback(startIndex, addValues, removeValues, calledAs);
 //
 // Both callback functions are passed the same arguments: Index of the first
 // element modified, list of values (to be) removed, and a list of the values
 // (to be) inserted. If values are only inserted (i.e. no values are deleted
 // from the array) then `removeValues` is an empty list. If values are only
 // deleted (i.e. no new values are inserted) then `addValues` is an empty list.
+//
+// `calledAs` is the name of the invoked method. E.g. 'push', 'pull', 'splice'
+// or 'reverse'.
 //
 // If both `removeValues` and `addValues` are empty lists, then no callbacks
 // will be invoked at all, and the array will remain unchanged. (This happens
@@ -74,12 +78,14 @@ function HookedArray(callback) {
     var obj = [], proto = '__proto__', l;
     if (!HookedArray.prototype.splice) {
         l = HookedArray.prototype = [];
-        l.splice = function (index, howMany, values, cmd) {
+        l.splice = function (index, howMany, values, calledAs) {
             var max, result, length = this.length,
                 preCallback  = this.preChangeCallback,
                 postCallback = this.postChangeCallback,
                 oldValues    = [];
-            // FIXME: throw exception if <values> is not an array (?)
+            if (! values instanceof Array) {
+                throw new TypeError('HookedArray.setCallback() argument must be an array');
+            }
             // fix incoming values
             if (values === undefined) { values = []; }
             if (index > length) { index = length; }
@@ -88,28 +94,29 @@ function HookedArray(callback) {
                 if (index < 0) { index = 0; }
             }
             max = length - index;
-            if (howMany === undefined || howMany > max) { howMany = max; }
+            if (howMany === undefined || howMany === null || howMany > max) { howMany = max; }
+            if (!calledAs) { calledAs = 'splice'; }
             // make change
             if (howMany === 0 && values.length === 0) { return []; } // no change
             if (howMany > 0) { oldValues = this.slice(index, index + howMany); }
-            if (!preCallback || preCallback(index, oldValues, values)) {
+            if (!preCallback || preCallback(index, values, oldValues, calledAs)) {
                 result = [].splice.apply(this, [].concat(index, howMany, values));
-                if (postCallback) { postCallback(index, oldValues, values); }
+                if (postCallback) { postCallback(index, values, oldValues, calledAs); }
                 return result;
             }
             return false;
         };
-        l.set = function (index, value) { return this.splice(index, 1, [ value ]) && value; };
-        l.insert = function (index, values) { return this.splice(index, 0, values) && values; };
-        l.sort = function (func) { return this.splice(0, this.length, [].sort.call(this.concat(), func)) && this; };
-        l.reverse = function () { return this.splice(0, this.length, [].reverse.call(this.concat())) && this; };
-        l.push = function (values) { return this.splice(this.length, 0, values) && this.length; };
-        l.pop = function () { return this.splice(-1)[0]; };
-        l.shift = function () { return this.splice(0, 1)[0]; };
-        l.unshift = function (values) { return this.splice(0, 0, values) && this.length; };
+        l.set = function (index, value) { return this.splice(index, 1, [ value ], 'set') && value; };
+        l.insert = function (index, values) { return this.splice(index, 0, values, 'insert') && values; };
+        l.sort = function (func) { return this.splice(0, null, [].sort.call(this.concat(), func), 'sort') && this; };
+        l.reverse = function () { return this.splice(0, null, [].reverse.call(this.concat()), 'reverse') && this; };
+        l.push = function (values) { return this.splice(this.length, 0, values, 'push') && this.length; };
+        l.pop = function () { return this.splice(-1, 1, [], 'pop')[0]; };
+        l.shift = function () { return this.splice(0, 1, [], 'shift')[0]; };
+        l.unshift = function (values) { return this.splice(0, 0, values, 'unshift') && this.length; };
         l.setCallback = function (name, func) {
             if (func && typeof func !== 'function') { // falsy or function
-                throw new TypeError('HookedArray.preChange() argument must be function');
+                throw new TypeError('HookedArray.setCallback() argument must be function');
             }
             this[name + 'Callback'] = func;
             return this;
