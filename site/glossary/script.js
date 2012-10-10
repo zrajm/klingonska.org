@@ -141,18 +141,7 @@ function makeTableArray(opts) {
             index   = element.parent().attr('data-index'),
             field   = element.attr('class'),
             text    = element.text();
-
-        var x = obj[index];
-        x[field] = text;
-        obj.set(index, x);
-
-        obj.splice(index, 1, function (old) { old[0][field] = text });
-
-        obj.set(index, function (x) { x[0][field] = text; });
-
-        //obj[index][field] = text;          // FIXME: this should update table (requires HookedArray changes)
-
-        //obj.set(index, obj[index]);
+        obj.set(index, function (values) { values[0][field] = text; });
         dump(obj);
     }
 

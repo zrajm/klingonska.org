@@ -5,6 +5,8 @@ if (typeof require == "function" && typeof module == "object") {
 
 var assert = buster.assert, refute = buster.refute;
 
+// FIXME: insert tests for function values as arguments
+
 buster.testCase('HookedArray() tests', {
     'Inherited methods before object creation': function () {
         assert.isFunction(HookedArray, 'HookedArray() constructor should exist');

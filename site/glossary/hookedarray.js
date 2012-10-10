@@ -30,12 +30,12 @@
 //         value passed in, or false. (I.e. does the same as `array[index] =
 //         value`.)
 //
-//         If `function` is given, then that function is
-
-
-// then that is invoked, and whatever it
-// //         returns will be inserted.
-
+//         If `function` is given, then that function is invoked using
+//         `HookedArray.FUNCTION(oldValues, calledAs)`. If `function` returns a
+//         list, then that list wil be inserted instead of the old values,
+//         otherwise nothing will be inserted (meaning that the function can
+//         also edit values in-place, but that this will mean that the pre- and
+//         postChange callbacks will not be able to see the old values.
 //
 //     thingy.insert(index, values); // => values
 //
@@ -81,9 +81,6 @@
 // HookedArray is not recommended. It will change the content of the array
 // *without* invoking the callback function.
 //
-
-// FIXME: is callback called with `obj` as `this`?
-
 function HookedArray(callback) {
     'use strict';
     var obj = [], proto = '__proto__', l;
@@ -107,13 +104,15 @@ function HookedArray(callback) {
             // make change
             if (howMany === 0 && values.length === 0) { return []; } // no change
             if (howMany > 0) { oldValues = this.slice(index, index + howMany); }
-
-            if (values instanceof Function) {
-                values = values(index, oldValues, calledAs);
-            }
-
             if (!this.preChangeCallback || this.preChangeCallback(index, values, oldValues, calledAs)) {
-                result = [].splice.apply(this, [].concat(index, howMany, values));
+                if (values instanceof Function) {
+                    values = values.call(this, oldValues, calledAs);
+                    if (values) {
+                        result = [].splice.apply(this, [].concat(index, howMany, values));
+                    }
+                } else {
+                    result = [].splice.apply(this, [].concat(index, howMany, values));
+                }
                 if (this.postChangeCallback) {
                     this.postChangeCallback(index, values, oldValues, calledAs);
                 }
@@ -121,7 +120,7 @@ function HookedArray(callback) {
             }
             return false;
         };
-        l.set = function (index, value) { return this.splice(index, 1, [ value ], 'set') && value; };
+        l.set = function (index, value) { return this.splice(index, 1, value, 'set') && value; };
         l.insert = function (index, values) { return this.splice(index, 0, values, 'insert') && values; };
         l.sort = function (func) { return this.splice(0, null, [].sort.call(this.concat(), func), 'sort') && this; };
         l.reverse = function () { return this.splice(0, null, [].reverse.call(this.concat()), 'reverse') && this; };
