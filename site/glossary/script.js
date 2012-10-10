@@ -92,15 +92,12 @@ function makeTableArray(opts) {
         );
     };
     obj.partRedraw = function (index, newValues, oldValues) {
-
         // FIXME: should insert stuff
-
         var opts  = obj.tableOpts,
             tbody = $(opts.container.children('tbody')),
             trCount = 0, trLast;
         // replace existing <td> values
         tbody.children('tr').each(function (index, tr) {
-                log('ga');
             tr = $(tr);
             if (!obj[index]) { return false; }
             tr.children('td').each(function (count, td) {
@@ -145,14 +142,27 @@ function makeTableArray(opts) {
             field   = element.attr('class'),
             text    = element.text();
 
-        // obj[index][field] = text;          // FIXME: this should update table (requires HookedArray changes)
-        // obj.set(index, obj[index]);
+        var x = obj[index];
+        x[field] = text;
+        obj.set(index, x);
 
+        obj.splice(index, 1, function (old) { old[0][field] = text });
 
+        obj.set(index, function (x) { x[0][field] = text; });
+
+        //obj[index][field] = text;          // FIXME: this should update table (requires HookedArray changes)
+
+        //obj.set(index, obj[index]);
         dump(obj);
     }
 
-    obj.postChange(obj.partRedraw);
+    obj.postChange(function (index, newValues, oldValues, calledAs) {
+        if (calledAs === 'set') { return; }
+        obj.redraw(index, newValues, oldValues, calledAs);
+        // var func = (calledAs === 'set') ? 'partRedraw' : 'redraw';
+        // obj[func](index, newValues, oldValues, calledAs);
+    });
+
     obj.push(opts.contents || []);  // add content
     obj.redraw();
 

@@ -24,10 +24,18 @@
 // METHODS
 //
 //     thingy.set(index, value); // => value
+//     thingy.set(index, function); // => value
 //
 //         Replace the element at specified index with `value`. Return the
 //         value passed in, or false. (I.e. does the same as `array[index] =
 //         value`.)
+//
+//         If `function` is given, then that function is
+
+
+// then that is invoked, and whatever it
+// //         returns will be inserted.
+
 //
 //     thingy.insert(index, values); // => values
 //
@@ -73,6 +81,9 @@
 // HookedArray is not recommended. It will change the content of the array
 // *without* invoking the callback function.
 //
+
+// FIXME: is callback called with `obj` as `this`?
+
 function HookedArray(callback) {
     'use strict';
     var obj = [], proto = '__proto__', l;
@@ -99,6 +110,12 @@ function HookedArray(callback) {
             // make change
             if (howMany === 0 && values.length === 0) { return []; } // no change
             if (howMany > 0) { oldValues = this.slice(index, index + howMany); }
+
+            if (values instanceof Function) {
+                values = values(index, oldValues, calledAs);
+            }
+
+
             if (!preCallback || preCallback(index, values, oldValues, calledAs)) {
                 result = [].splice.apply(this, [].concat(index, howMany, values));
                 if (postCallback) { postCallback(index, values, oldValues, calledAs); }
