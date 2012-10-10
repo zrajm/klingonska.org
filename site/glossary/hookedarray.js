@@ -90,10 +90,7 @@ function HookedArray(callback) {
     if (!HookedArray.prototype.splice) {
         l = HookedArray.prototype = [];
         l.splice = function (index, howMany, values, calledAs) {
-            var max, result, length = this.length,
-                preCallback  = this.preChangeCallback,
-                postCallback = this.postChangeCallback,
-                oldValues    = [];
+            var max, result, length = this.length, oldValues = [];
             if (! values instanceof Array) {
                 throw new TypeError('HookedArray.setCallback() argument must be an array');
             }
@@ -115,10 +112,11 @@ function HookedArray(callback) {
                 values = values(index, oldValues, calledAs);
             }
 
-
-            if (!preCallback || preCallback(index, values, oldValues, calledAs)) {
+            if (!this.preChangeCallback || this.preChangeCallback(index, values, oldValues, calledAs)) {
                 result = [].splice.apply(this, [].concat(index, howMany, values));
-                if (postCallback) { postCallback(index, values, oldValues, calledAs); }
+                if (this.postChangeCallback) {
+                    this.postChangeCallback(index, values, oldValues, calledAs);
+                }
                 return result;
             }
             return false;
