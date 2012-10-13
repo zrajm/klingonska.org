@@ -1,3 +1,29 @@
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//
+// FUTURE PLANS
+//
+// HookedArray should only implement the array functions, and as little extra
+// as possible.
+//
+// On initialization, `new HookedArray([ARRRAYISH])`, one should be able to
+// pass any array-like object, and this object's methods (or its prototype's
+// methods) should be used in subsequent manipulations of the object. (This so
+// that one may chain array-like objects, e.g. have one implementing undo
+// functions, another implementing automatic storage, and on top of that use
+// this module to invoke callbacks etc.).
+//
+// The standard array function should work as similar to the standard ones as
+// possible. (I.e. the underlying functions should be called directly, with the
+// same arguments they were passed.)
+//
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+
+
 //
 // FIXME: Make sure this constructor function works even without the 'new'
 // keyword.

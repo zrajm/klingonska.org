@@ -5,6 +5,7 @@
     <link rel=stylesheet href="style.css">
   </head>
   <body>
+    <div><table id=table></table></div>
     <div>
       <script>var something = [{tlh:'not',pos:'adv',en:'never'}];</script>
       <button onclick="log('push: '    + thingy.push(something));    dump(thingy)">push</button>
@@ -15,7 +16,7 @@
       <button onclick="log('reverse: ' + thingy.reverse());          dump(thingy)">reverse</button>
       <button onclick="dump(thingy)">dump</button>
     </div>
-    <div><table id=table></table></div>
+    <div id=current></div>
     <div id=log></div>
     <div style="background:#888;" id=dump></div>
     <script src="jquery-1.8.2.js"></script>
