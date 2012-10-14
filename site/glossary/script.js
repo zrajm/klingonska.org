@@ -4,13 +4,10 @@
 //
 // FUTURE
 //
-// * Error messages: Modules should throw exception if required technologies
-//   are not available. E.g. if localStorage is unavailable, the script should
-//   be able to tell this to the user by catching an error on object creation.
-// * optimize saving (currently obj.load()/obj.save() saves/loads the *entire*
-//   data structure every time user does any kind of change -- will be bad for
-//   big amounts of data)
-
+// * tablearray.js: optimize saving (currently obj.load()/obj.save()
+//   saves/loads the *entire* data structure every time user does any kind of
+//   change -- will be bad for big amounts of data)
+//
 
 // create one HTML tag
 function tag(tag, content, attr) {
@@ -21,6 +18,10 @@ function tag(tag, content, attr) {
 
 function log(str) {
     $('#log').append('<br>&gt;' + str);
+}
+
+function errorMsg(str) {
+    $('#errors').append('<li>' + str + '</li>');
 }
 
 function dump(someArray) {
@@ -71,17 +72,22 @@ function by(field, reverse, primer) {
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 
-var thingy = makeTableArray({
-        container: $('#table'),
-        name: 'thingy',
-        cells: [ 'tlh', 'pos', 'en' ],
-        titles: {
-            tlh: 'Klingon',
-            pos: '<abbr title="Part-of-Speech">Type</abbr>',
-            en:  'English'
-        },
-    }
-);
+try {
+    var thingy = makeTableArray({
+            container: $('#table'),
+            name: 'thingy',
+            cells: [ 'tlh', 'pos', 'en' ],
+            titles: {
+                tlh: 'Klingon',
+                pos: '<abbr title="Part-of-Speech">Type</abbr>',
+                en:  'English'
+            },
+        }
+    );
+} catch(error) {
+    errorMsg('<b>Fatal Error:</b> ' + error.message);
+    throw new Error('Fatal error, execution stopped');
+}
 
 thingy.redraw();
 

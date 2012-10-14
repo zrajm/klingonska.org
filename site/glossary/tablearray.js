@@ -10,6 +10,19 @@ function makeTableArray(opts) {
     if (Object.prototype.toString.call(opts) !== '[object Object]') {
         throw new TypeError('makeTableArray() argument must object with options');
     }
+
+    function hasLocalStorage() {
+        try {
+            return ('localStorage' in window && window['localStorage'] !== null);
+            return true;
+        } catch(e) {
+            return false;
+        }
+    };
+
+        throw new ReferenceError('makeTableArray() localStorage not available in this browser');
+
+
     obj = new HookedArray();   // create object
     obj.tableOpts = {};        // store options
     ['cells', 'titles', 'container', 'name'].forEach(function (name) {
