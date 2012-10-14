@@ -1,18 +1,8 @@
-body {
-    background: #fff;
-}
+#table { padding: .25em .5em; }
 
-#table {
-    //background: #888;
-    padding: .25em .5em;
-}
 
-table {
-    border-collapse: collapse;
-}
-thead, tbody, tfoot {
-    border: 4px solid black;
-}
+table { border-collapse: collapse; }
+thead, tbody, tfoot { border: 4px solid #000; }
 td, th {
     border: 2px solid black;
     padding: .125em .25em;
