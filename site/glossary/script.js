@@ -5,6 +5,9 @@
 //
 // FUTURE
 //
+// * Error messages: Modules should throw exception if required technologies
+//   are not available. E.g. if localStorage is unavailable, the script should
+//   be able to tell this to the user by catching an error on object creation.
 // * optimize saving (currently obj.load()/obj.save() saves/loads the *entire*
 //   data structure every time user does any kind of change -- will be bad for
 //   big amounts of data)
@@ -129,9 +132,7 @@ function makeTableArray(opts) {
                     return tag('td', row[field], 'contenteditable class=' + field);
                 }).join(''), 'data-index=' + index);
             }).join(''));
-        opts.container.html(
-            tag('table', title + content)
-        );
+        opts.container.html(title + content);
     };
     obj.partRedraw = function (index, newValues, oldValues) {
         // FIXME: should insert stuff
