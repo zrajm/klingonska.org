@@ -1,0 +1,151 @@
+
+
+// for {DamoH}
+// var rules = {
+//     _: '',
+//     "Da": [{
+//         _: 'v',
+//         "moH": [{
+//             _: 'vs',
+//             ...
+//         }, {
+//         _: 'vp',
+//         "moH": [{
+//             _: 'v',
+//             ...
+//     }],
+//     ...
+// };
+
+
+var isRoot = {
+    'adv'  : true,
+    'conj' : true,
+    'excl' : true,
+    'n'    : true,
+    'name' : true,
+    'num'  : true,
+    'pro'  : true,
+    'ques' : true,
+    'v'    : true,
+};
+
+
+
+// word = {
+//     'text': "bachwI'",
+//     'parts': [{
+//             parts: [{           // reference to same value as 'root' below
+//                     pos: 'v',
+//                     text: "bach",
+//                 }, {
+//                     pos: 'vs',
+//                     text: "wI'",
+//             }],
+//             root: {
+//                 pos: 'v',
+//                 text: "bach",
+//             },
+//         }, {
+//             parts: [{           // reference to same value as 'root' below
+//                     pos: 'n',
+//                     text: "bach",
+//                 }, {
+//                     pos: 'ns',
+//                     text: "wI'",
+//             }],
+//             root: {
+//                 pos: 'n',
+//                 text: "bach",
+//             },
+//     }],
+// };
+
+
+// split a Klingon word into syllables
+function splitSyllable(word) {
+    return word.split(/(?=(?:[bDHjlmnpqQrStvwy\']|ch|gh|ng|tlh)[aeIou])/);
+}
+
+// Usage: parts = analyzeParts(word, startRules);
+//
+// Splits 'word' into syllables, and analyzes word using the Finite-State
+// Machine (FSM) in 'startRules'. Returned result will be an array of objects
+// containing possible interpretations of the given word.
+//
+// An empty list would mean no possible interpretations. More commonly, would
+// be a result like this (an analysis of the word "bachwI'", which is either a
+// noun + noun suffix {-wI'} <mine> meaning <my short>, or a verb + verb suffix
+// {-wI'} <one who does> meaning <gunner>).
+//
+//     [{
+//             parts: [{           // reference to same value as 'root' below
+//                     pos: 'v',
+//                     text: "bach",
+//                 }, {
+//                     pos: 'vs',
+//                     text: "wI'",
+//             }],
+//             root: {
+//                 pos: 'v',
+//                 text: "bach",
+//             },
+//         }, {
+//             parts: [{           // reference to same value as 'root' below
+//                     pos: 'n',
+//                     text: "bach",
+//                 }, {
+//                     pos: 'ns',
+//                     text: "wI'",
+//             }],
+//             root: {
+//                 pos: 'n',
+//                 text: "bach",
+//             },
+//     }]
+//
+function analyzeParts(word, startRules) {
+    var wordObj, syllable, newQueue,
+        wordQ = [{  // modifiable
+            'parts': [],    'queue': splitSyllable(word),
+            'root' : null,  'rules': startRules,
+        }];
+    while (wordQ.length) {
+        wordObj  = wordQ.shift();          // word object to analyze
+        syllable = wordObj.queue[0];       // syllable to process
+        newQueue = wordObj.queue.slice(1); // remaining syllables
+        rules[syllable].forEach(function (newRules) {
+            var pos      = newRules._,
+                newParts = wordObj.parts.slice(0).concat({'text': syllable, 'pos': pos }),
+                newRoot  = wordObj.root;
+            if (isRoot[pos]) {
+                // FIXME: when appending to 'root' we should append to the last
+                // parts, as well (actually should make sure that they both
+                // refer to same javascript entity) -- also checking that 'pos'
+                // remains constant see prudent (this will only happen if the
+                // FSM is broken)
+                newRoot = {
+                    'pos' : pos,
+                    'text': (wordObj.root ? wordObj.root.text : '') + syllable;
+                };
+            }
+            if (newQueue.length) { // add next to queue
+                wordQ.push({
+                    'parts': newParts,
+                    'queue': newQueue,
+                    'root' : newRoot,
+                    'rules': newRules,
+                });
+            } else {
+                // FIXME: rules must be in exit state here
+                result.push({
+                    'parts': newParts,
+                    'root' : newRoot,
+                });
+            }
+        });
+    } // while-end
+    // ran out of word queue = good word
+    return result;
+}
+

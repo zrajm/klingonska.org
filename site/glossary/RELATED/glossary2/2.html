@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Klingon Glossary Extractor &ndash; Klingonska Akademien</title>
+  <link href=style2.css rel=stylesheet>
+</head>
+<body data-lang=en>
+  <noscript><strong>Note:</strong>This page is a Javascript program for
+    extracting a glossary from any Klingon text. It will not work if you don't
+    have Javascript enabled. (Sorry about that.)</noscript>
+
+  <nav>
+    <ul>
+      <li class="addmode current">Add Words
+      <li class=testmode>Test Yourself
+      <li class=extractmode>Extract
+      <li class=knownmode>Known Words
+    </ul>
+  </nav>
+
+  <section class=page1>
+    <table class=wordinput>
+      <thead>
+        <tr>
+          <th>Klingon
+          <th>PoS
+          <th>English
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td contenteditable class=tlh>
+          <td contenteditable class=pos>
+          <td contenteditable class=en>
+        </tr>
+      </tbody>
+      <caption>
+        <button class=add title="&lt;enter&gt; in last column">Add</button>
+        <button onclick="focusCell(1,'tlh');">goto</button>
+      </caption>
+    </table>
+  </section>
+
+  <section class="page2 hidden">
+    <div id=x123><div id=replycomment></div></div>
+    <table align=center style="font-size: 200%">
+      <tr>
+        <td align=center style="padding:1em" id=question>
+          <b>bach</b> (n)
+        </td>
+      </tr>
+      <tr>
+        <td contenteditable id=answer></td>
+      </tr>
+      <caption>
+        <button class=reply title="&lt;enter&gt; in answer field">Reply</button>
+      </caption>
+    </table>
+  </section>
+
+  <section class="page3 hidden">extract</section>
+  <section class="page4 hidden">exclusion list</section>
+
+  <div style="background:#888; height:1000px; border: 1px solid transparent">
+    <table valign=top>
+      <tr><th colspan=2>Log</tr>
+      <tr>
+        <td><pre id="log"></pre>
+        <td><pre id="dump"></pre>
+      </tr>
+    </table>
+  </div>
+
+  <script src="jquery-1.8.1.js"></script>
+  <script src="learn.js"></script>
+
+</body>
+</html>

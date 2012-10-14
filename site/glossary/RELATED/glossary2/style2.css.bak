@@ -1,0 +1,91 @@
+body { margin: 0; }
+
+section {
+    border: 1px solid transparent;
+    padding: 2em 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+table, thead, tbody, tfoot {
+    margin: 1em auto;
+    border-collapse: collapse;
+    border: 4px solid black;
+    background: inherit;
+    caption-side: bottom;
+}
+
+td, th {
+    border: 2px solid black;
+    padding: 0 .25em;
+}
+
+.tlh {
+    font-weight: bold;
+}
+
+.en {
+    font-style: italic;
+}
+
+td:focus {
+    background: #ddd;
+}
+
+nav {
+    position: relative;
+    z-index: 50;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    padding-top: .5em;
+    border-bottom: 2px solid black;
+    background: #ddd;
+    vertical-align: bottom;
+}
+
+nav button {
+    position: relative;
+    z-index: 1000;
+    border: 2px solid black;
+    background: #fff;
+    margin: 0 .25em;
+    margin-bottom: -2px;
+    padding: .25em;
+}
+
+nav button[disabled] {
+    color: black;
+    border: 2px solid black;
+    border-bottom: 2px solid transparent;
+    background: #fff;
+    padding: .5em;
+}
+
+#x123 {
+    display: table;
+    margin: 0 auto;
+}
+
+#replycomment {
+    display: table-cell;
+    font-size: 150%;
+    line-height: 160%;
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+}
+
+.good {
+    border: 4px solid #090;
+    background: #cfc;
+}
+
+.bad {
+    border: 4px solid #d00;
+    background: #fcc;
+}
+
+/*eof*/

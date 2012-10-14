@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+  <title>Klingon Glossary Extractor &ndash; Klingonska Akademien</title>
+  <link href=style.css rel=stylesheet>
+</head>
+<body data-lang=en>
+  <noscript lang=en><strong>Note:</strong>This page is a Javascript program for
+    extracting a glossary from any Klingon text. It will not work if you don't
+    have Javascript enabled. (Sorry about that.)</noscript>
+  <noscript lang=sv><strong>OBS!</strong>Denna sida är ett Javascript program
+    för att extrahera en gloslista givet valfri text på Klingonska. Sidan kommer
+    inte att funka ifall du inte har Javascript påslaget.</noscript>
+  <table class=outer>
+    <tr>
+      <td>
+        <h2 lang=en>Klingon Text</h2>
+        <h2 lang=sv>Klingonsk Text</h2>
+        <div id=input contenteditable>ghIq ngotlhwI' yIqel. (maw'be'; Hov leng
+          tIvqu' neH). roD DujHeyDaq yo'HeyDaq ghap ghom. patlh ghaj yaSDaj,
+          'ej batlh cha'maHlogh Qapchugh lunumlu'. tlhIngan nugh, tIgh je neH
+          qel jeSwI'pu'vam. tlhIngan Hol qelchugh, Holna' 'oHbe'. bachbe'bogh
+          nISwI' HIchHey rur. nISwI' lo'DI' bach 'e' lupIHbe'; Hol lo'DI' Qum
+          'e' lupIHbe' je. Quj tIvbej ghommeyvam, 'ach tlhIngan Hol Dun
+          tIvbe'bej. Hol lughojmo' pop yajchu' jatlhwI'
+          tlhInganmeyHeywI'Daq
+          ghIpDIjtaHDI'
+          bIHe'So'
+          HInughI'chu'!
+        </div>
+        <div>
+          <button lang=en>Extract Glossary</button>
+          <button lang=sv>Extrahera gloslista</button>
+          <span lang=en>Language:</span>
+          <span lang=sv>Språk:</span>
+          <select class=lang><option value=en>English<option value=sv>Swedish</select>
+          <span lang=en>Word count:</span>
+          <span lang=sv>Antal ord:</span>
+          <span id=textcount>0</span>
+          <p>
+            <span class="v">Verb</span>
+            <span class="n" lang=en>Noun</span>
+            <span class="n" lang=sv>Substantiv</span>
+            <span class="num" lang=en>Number</span>
+            <span class="num" lang=sv>Nummer</span>
+            <span class="pro" lang=en>Other</span>
+            <span class="pro" lang=sv>Annat</span>
+            <span class="n v" lang=en>Ambiguous</span>
+            <span class="n v" lang=sv>Tvetydigt</span>
+            <span class="" lang=en>Unknown</span>
+            <span class="" lang=sv>Okänt</span>
+          </p>
+          <p lang=en>Color indicate part of speech. Verbs
+            with <b lang=tlh>-ghach</b> or <b lang=tlh>-wI&rsquo;</b> acts as,
+            and are colored as, nouns, but it is the root <i>verb</i> which is
+            added to the glossary.
+          <p lang=sv>Färg indikerar ordklass. Verb med <b lang=tlh>-ghach</b>
+            eller <b lang=tlh>-wI&rsquo;</b> fungerar som substantiv och är
+            markeras som sådana, men det är ordets verbrot som hamnar i
+            gloslistan.
+          <h2 lang=en>Instructions</h2>
+          <h2 lang=sv>Instruktioner</h2>
+          <p lang=en>Enter any Klingon text above, and press the button to
+            extract a glossary from it. You may remove any word from the
+            glossary by clicking the &ldquo;×&rdquo; that appears when the
+            mouse pointer is above the word. You can also re-sort the glossary
+            by clicking the table headers.
+          <p lang=sv>Klistra in valfri text på klingonska ovan och tryck på
+            knappen för att extrahera en gloslista ur den. Du kan radera ord
+            från gloslistan genom att klicka på &ldquo;×&rdquo;:et som dyker
+            upp när du håller muspekaren över ett ord i listan. Du kan också
+            sortera om listan genom att klicka på tabellrubrikerna.
+          <p lang=en>This page automatically loads the word list from the
+            latest version of <a href="../dict/">Klingonska Akademien&rsquo;s
+            Pocket Dictionary</a>.
+          <p lang=sv>Denna sida laddar automatiskt ordlistan ifrån senaste
+            version av <a href="../dict/">Klingonska Akademiens fickordbok</a>.
+        </div>
+      <td>
+        <h2 lang=en>Glossary</h2>
+        <h2 lang=sv>Gloslista</h2>
+        <div id=output>Loading <a href="../dict/dict.zdb">dictionary</a>...</div>
+      </td>
+    </tr>
+  </table>
+  <script src=../includes/jquery-1.7.1.js></script>
+  <script src=script.js></script>
+<script>var _gaq=[['_setAccount','UA-5434527-2'],['_trackPageview']];
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+s.parentNode.insertBefore(g,s)}(document,'script'))</script>
+</body>
+</html>
