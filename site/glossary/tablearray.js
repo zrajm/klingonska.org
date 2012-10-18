@@ -20,7 +20,9 @@ function makeTableArray(opts) {
         }
     };
 
+    if (!hasLocalStorage) {
         throw new ReferenceError('makeTableArray() localStorage not available in this browser');
+    }
 
 
     obj = new HookedArray();   // create object

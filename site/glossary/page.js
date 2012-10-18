@@ -1,13 +1,17 @@
 //
 // TODO NEXT
 // * tablearray.js: Deleting of table rows (backspace/delete)
+// * tabs that look okay in older browsers
+// * selecting tabs with keyboard (underline letter in tab name used to switch
+//   + complete keyboard shortcut name in mouseover text)
 //
 // FUTURE
 //
 // * tablearray.js: optimize saving (currently obj.load()/obj.save()
 //   saves/loads the *entire* data structure every time user does any kind of
 //   change -- will be bad for big amounts of data)
-//
+// * Saving should be done with some sort of feedback (i.e. some status thingy
+//   changing to 'saved' or somesuch)
 
 // create one HTML tag
 function tag(tag, content, attr) {
@@ -72,23 +76,26 @@ function by(field, reverse, primer) {
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 
-try {
-    var thingy = makeTableArray({
-            container: $('#table'),
-            name: 'thingy',
-            cells: [ 'tlh', 'pos', 'en' ],
-            titles: {
-                tlh: 'Klingon',
-                pos: '<abbr title="Part-of-Speech">Type</abbr>',
-                en:  'English'
-            },
-        }
-    );
-} catch(error) {
-    errorMsg('<b>Fatal Error:</b> ' + error.message);
-    throw new Error('Fatal error, execution stopped');
-}
+// on document load
+$(function () {
+    try {
+        var thingy = makeTableArray({
+                container: $('#table'),
+                name: 'thingy',
+                cells: [ 'tlh', 'pos', 'en' ],
+                titles: {
+                    tlh: 'Klingon',
+                    pos: '<abbr title="Part-of-Speech">Type</abbr>',
+                    en:  'English'
+                },
+            }
+        );
+    } catch(error) {
+        errorMsg('<b>Fatal Error:</b> ' + error.message);
+        throw new Error('Fatal error, execution stopped');
+    }
 
-thingy.redraw();
+    thingy.redraw();
+});
 
 //eof
