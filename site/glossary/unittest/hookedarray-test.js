@@ -98,7 +98,8 @@ buster.testCase('HookedArray() tests', {
                     assert.equals(obj.set(0, 'a'), 'a', '.set() on empty array');
                     assert.same(this.preThis, obj, 'Pre-callback received bad "this"');
                     assert.equals(this.preIndex,   0, 'Pre-callback received incorrect preIndex');
-                    assert.equals(this.preNew, ['a'], 'Pre-callback received incorrect preNew');
+                    assert.equals(this.preNew, 'a', 'Pre-callback received incorrect preNew');
+
                     assert.equals(this.preOld, [   ], 'Pre-callback received incorrect preOld');
                     assert.equals(this.preCmd, 'set', 'Pre-callback received incorrect preCmd');
                     assert.equals(obj.concat(), ['a'], 'Array not properly modified');
@@ -107,7 +108,7 @@ buster.testCase('HookedArray() tests', {
                     assert.equals(obj.set(50, 'b'), 'b', '.set() with too large index');
                     assert.same(this.preThis, obj, 'Pre-callback received bad "this"');
                     assert.equals(this.preIndex,   1, 'Pre-callback received incorrect preIndex');
-                    assert.equals(this.preNew, ['b'], 'Pre-callback received incorrect preNew');
+                    assert.equals(this.preNew,  'b',  'Pre-callback received incorrect preNew');
                     assert.equals(this.preOld, [   ], 'Pre-callback received incorrect preOld');
                     assert.equals(this.preCmd, 'set', 'Pre-callback received incorrect preCmd');
                     assert.equals(obj.concat(), ['a', 'b'], 'Array not properly modified');
@@ -116,7 +117,7 @@ buster.testCase('HookedArray() tests', {
                     assert.equals(obj.set(-50, 'c'), 'c', '.set() with too large negative index');
                     assert.same(this.preThis, obj, 'Pre-callback received bad "this"');
                     assert.equals(this.preIndex,   0, 'Pre-callback received incorrect preIndex');
-                    assert.equals(this.preNew, ['c'], 'Pre-callback received incorrect preNew');
+                    assert.equals(this.preNew,  'c',  'Pre-callback received incorrect preNew');
                     assert.equals(this.preOld, ['a'], 'Pre-callback received incorrect preOld');
                     assert.equals(this.preCmd, 'set', 'Pre-callback received incorrect preCmd');
                     assert.equals(obj.concat(), ['c', 'b'], 'Array not properly modified');
@@ -126,7 +127,7 @@ buster.testCase('HookedArray() tests', {
                     assert.equals(obj.set(1, 'x'), 'x', '.set() to replace existing value');
                     assert.same(this.preThis, obj, 'Pre-callback received bad "this"');
                     assert.equals(this.preIndex,   1, 'Pre-callback received incorrect preIndex');
-                    assert.equals(this.preNew, ['x'], 'Pre-callback received incorrect preNew');
+                    assert.equals(this.preNew,  'x',  'Pre-callback received incorrect preNew');
                     assert.equals(this.preOld, ['b'], 'Pre-callback received incorrect preOld');
                     assert.equals(this.preCmd, 'set', 'Pre-callback received incorrect preCmd');
                     assert.equals(obj.concat(), ['a', 'x', 'c'], 'Array not properly modified');
