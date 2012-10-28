@@ -18,7 +18,7 @@
       </nav>
 
       <section class="add">
-        <div><table id=table></table></div>
+        <table></table>
         <div>
           <script>var something = [{tlh:'not',pos:'adv',en:'never'}];</script>
           <button onclick="log('push: '    + thingy.push(something));    dump(thingy)">push</button>
@@ -29,6 +29,7 @@
           <button onclick="log('reverse: ' + thingy.reverse());          dump(thingy)">reverse</button>
           <button onclick="dump(thingy)">dump</button>
         </div>
+        <p>This is the list of words to learn.</p>
       </section>
 
       <section class="test hidden">
@@ -40,7 +41,9 @@
       </section>
 
       <section class="known hidden">
-        <h1>page_known</h1>
+        <table></table>
+        <p>This is a list of words that you already know. They will not be used
+          in testing.</p>
       </section>
 
     </article>

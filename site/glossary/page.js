@@ -77,10 +77,11 @@ function by(field, reverse, primer) {
 ////////////////////////////////////////////////////////////////////////////////
 
 // on document load
+var thingy, knownWords;
 $(function () {
     try {
-        var thingy = makeTableArray({
-                container: $('#table'),
+        thingy = makeTableArray({
+                container: $('section.add table'),
                 name: 'thingy',
                 cells: [ 'tlh', 'pos', 'en' ],
                 titles: {
@@ -90,6 +91,18 @@ $(function () {
                 },
             }
         );
+        knownWords = makeTableArray({
+                container: $('section.known table'),
+                name: 'known',
+                cells: [ 'tlh', 'pos', 'en' ],
+                titles: {
+                    tlh: 'Klingon',
+                    pos: '<abbr title="Part-of-Speech">Type</abbr>',
+                    en:  'English'
+                },
+            }
+        );
+
     } catch(error) {
         errorMsg('<b>Fatal Error:</b> ' + error.message);
         throw new Error('Fatal error, execution stopped');
