@@ -1361,7 +1361,7 @@ optimization."
       CLOSED: [2010-08-09 Mon 02:16]
 **** DOING lexicon.cgi
 ***** TODO take a look at why UTF-8 does not work on localhost
-      (Does it work on klingonska.org? Test by searching for "råna".)
+      It does work on klingonska.org, but not on localhost. Test search "råna".
 ***** TODO add proof of having TKD/TKW/KGT
       There should be a separate set-cookie script. Cookie should be encoded
       somehow (based on browser originating IP?).
@@ -1372,8 +1372,8 @@ optimization."
       (This would have to be done in such a fashion that just accessing the link
       to e.g. the TKD transcript does not return the actual transcript, unless
       the user has the security cookie set properly.)
-
-***** TODO source references should be links to canon/
+***** TODO search 'tag:"body part"' should work
+***** DONE source references should be links to canon/
 ***** TODO links to "Archive of Okrandian Canon" transcripts should look better
       Instead of filenames, there should be the title of the transcript (and
       possibly other information, such source date, author etc.).
@@ -1382,7 +1382,6 @@ optimization."
       in a Perl on-disk database (indexed on filename) in the canon/ directory.
       This would have to be automatically rebuilt on the server when doing "git
       push", and on the client side on "git commit".
-
 ***** TODO list of source reference abbreviations
 ***** TODO forward/backward buttons to flip through the lexicon
 ***** TODO typographical apostrophes, quotes and dashes
@@ -1918,7 +1917,8 @@ optimization."
 ***** TODO Add category "transportation"
       "cat: transportation"
       airplane, various spaceships, bicycle etc.
-***** TODO Rename 'cat:' field to 'tag'
+***** DONE Rename 'cat:' field to 'tag'
+      CLOSED: [2012-10-29 Mon 18:35]
       Maybe 'data:' should also be merged into the same?
 ***** TODO Move all quotes in 'com' fields to 'cite' fields
 ***** DONE Add (optional) field 'cite' (which may be repeated)
@@ -1961,7 +1961,7 @@ optimization."
       itself)
 ***** TODO New value field for the question words, adverbs etc.
 ***** TODO KLCP level 1 markup
-****** Move into "cat:" rather than "data:" field
+****** Move into "tag:" rather than "data:" field
 ****** Check against KLCP 1 list.
 ***** TODO KLCP level 2 markup
 ****** Add "KLCP-2" to all relevant word's "data:" field

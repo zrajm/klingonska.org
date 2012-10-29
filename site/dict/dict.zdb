@@ -317,7 +317,7 @@ once in the same entry).
     Pointers to synonyms, antonyms and words with similar meanings. Right now
     not very consistently implemented.
 
-  * `cat:` topic tags [OPTIONAL]
+  * `tag:` topic tags [OPTIONAL]
 
     Semicolon-separated list of tags, used to lump entries together by topic.
     (This field is considered free text, adding/changing of categories will not
@@ -344,17 +344,14 @@ once in the same entry).
 
     Possible/likely changes: Renaming of some categories to include more words.
 
-    FUTURE (March 2012): Will probably change field name to `tag:`, make the
-    words space separated, and rename tags which currently have spaces in them.
-
   * `data:` data tags [OPTIONAL]
 
-    Semicolon-separated list of tags. Differs from `cat:` in that tags also
-    affect presence/format of other fields.
+    Semicolon-separated list of tags. Differs from `tag:` in that the `data:'
+    tags also affect the presence or format of other fields.
 
     + `KLCP-1` = The 502 basic words which one needs to know in order to pass
       the first level of the Klingon Language Certification Program. FUTURE
-      (March 2012): The `KLCP-1` tag will move to the `cat:` field.
+      (March 2012): The `KLCP-1` tag will move to the `tag:` field.
 
     + `derived form` = The entry is a word built from other Klingon morphemes
       (these words are included in the dictionary to provide a non-obvious
@@ -450,7 +447,7 @@ com:	"The verb used for 'shoot' when referring to disruptors is {bach}.
 	('shoot the disruptor beam'). As a practical matter, however, the {tIH}
 	is often left out, and {nISwI' bach} is the common way to say 'shoot a
 	disruptor.' Similarly, {pu' bach} is 'shoot a phaser.'" [KGT p.56]
-cat:	fighting
+tag:	fighting
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -459,7 +456,7 @@ pos:	noun
 sv:	«skott»
 en:	<shot>
 def:	TKD
-cat:	fighting
+tag:	fighting
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -498,7 +495,7 @@ pos:	verb
 sv:	«eld», «avfyra» (torped, raket, missil)
 en:	<fire> (torpedo, rocket, missile)
 def:	ST1; TKD
-cat:	fighting
+tag:	fighting
 data:	KLCP-1
 file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
@@ -515,7 +512,7 @@ pos:	noun
 sv:	«skytt», «artillerist»
 en:	<gunner>
 def:	TKD
-cat:	fighting
+tag:	fighting
 data:	KLCP-1; derived form
 file:	1992-01-01-tkd.txt
 
@@ -558,7 +555,7 @@ pos:	noun
 sv:	«kärlekssång»
 en:	<love song>
 def:	KGT
-cat:	music
+tag:	music
 data:	phrase; derived form
 file:	1997-11-01-kgt.txt
 
@@ -597,7 +594,7 @@ pos:	verb
 sv:	«kasta» en «~bat'leth~» från den ena handen till den andra
 en:	<toss> «~bat'leth~» from one hand to the other
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{baQa'}
@@ -615,7 +612,7 @@ en:	«India»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	{bargh}
@@ -644,7 +641,7 @@ pos:	noun
 sv:	«klocka» (slaginstrument gjort av metall)
 en:	«bell» (percussion instrument made of metal)
 def:	KGT p.75
-cat:	music
+tag:	music
 data:	phrase; derived form
 file:	1997-11-01-kgt.txt
 
@@ -705,7 +702,7 @@ sv:	«tak», yttertak
 en:	«roof»
 def:	News 1998-12-07
 ref:	KLINW
-cat:	architecture
+tag:	architecture
 file:	1998-12-07-news.txt
 
 tlh:	{bech}
@@ -727,7 +724,7 @@ pos:	noun
 sv:	«gevär»
 en:	<rifle>
 def:	TKD
-cat:	fighting
+tag:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{bej} [.1]
@@ -776,7 +773,7 @@ pos:	noun
 sv:	«fot«sula»»
 en:	<sole of «foot»>
 def:	KGT
-cat:	body part
+tag:	body part
 file:	1997-11-01-kgt.txt
 
 tlh:	{ben}
@@ -800,7 +797,7 @@ com:	{cha'vatlh ben HIq vItlhutlh.} "I will drink two century old ale."
 pun:	Igor/Aryeh pointed out [on tlhingan-hol] that the Hebrew word *ben*
 	"son" is used when giving ages (for males); e.g. *Ani ben X* "I am X
 	[years] old", *Hu ben X* "He is X [years] old".
-cat:	time
+tag:	time
 file:	1992-01-01-tkd.txt; 1993-10-01-pk.txt; 1996-12-12a-news.txt;
 	1997-11-01-kgt.txt
 
@@ -854,7 +851,7 @@ en:	«ending», «final portion» (of a song, play, story etc.)
 def:	HQ12:2 pp.8--9 ("Maltz's Reward Part I")
 ref:	KLINW; TDNW
 see:	{bI'reS}
-cat:	music
+tag:	music
 file:	2003-06-holqed-12-2.txt
 
 tlh:	{betleH}
@@ -863,7 +860,7 @@ sv:	ett slags hand«vapen», «~bat'leth~»
 en:	type of hand <weapon>, «~bat'leth~»
 def:	TKDa
 ref:	TKW p.79
-cat:	fighting
+tag:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{betleH «bey'»}
@@ -872,7 +869,7 @@ sv:	¿?«~bat'leth~-ställ»
 en:	«~bat'leth~ display»
 def:	KCD
 ref:	KLINW
-cat:	fighting
+tag:	fighting
 data:	phrase
 file:	1996-04-kcd.txt
 
@@ -913,7 +910,7 @@ pos:	noun
 sv:	«kvinna», «hona»
 en:	<female>, <woman>
 def:	TKD
-cat:	family
+tag:	family
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -932,7 +929,7 @@ pos:	noun
 sv:	«flicka»
 en:	<girl>
 def:	TKD
-cat:	family
+tag:	family
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -950,7 +947,7 @@ pos:	noun
 sv:	«maka», «hustru», «fru»
 en:	<wife>
 def:	TKD
-cat:	family
+tag:	family
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -959,7 +956,7 @@ pos:	noun
 sv:	«syster»
 en:	<sister>
 def:	TKD
-cat:	family
+tag:	family
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -991,7 +988,7 @@ sv:	«halva», «hälft»
 en:	<half>
 desc:	{bID choQ} ~half a deck~ [BoP]
 def:	TKD
-cat:	math; quantity
+tag:	math; quantity
 file:	1992-01-01-tkd.txt
 
 tlh:	{bIghHa'}
@@ -1028,7 +1025,7 @@ pos:	noun
 sv:	andra «tonen» på den nonatoniska skalan
 en:	second <tone> of nonatonic musical scale
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{bIng}
@@ -1036,7 +1033,7 @@ pos:	noun
 sv:	område «nedanför», område «under»
 en:	area <below>, area <under>
 def:	TKD
-cat:	placement
+tag:	placement
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -1046,7 +1043,7 @@ sv:	«hundratusen» (nummerbildande element)
 en:	<hundred thousand> (number-forming element)
 def:	TKD
 com:	Number-forming element, see also TKD 5.2.
-cat:	math
+tag:	math
 data:	exclude from K-E
 file:	1992-01-01-tkd.txt
 
@@ -1075,7 +1072,7 @@ sv:	«fisk»
 en:	<fish>
 def:	KGT
 see:	{ghotI'}
-cat:	animal
+tag:	animal
 file:	1997-11-01-kgt.txt
 
 tlh:	{bIQSIp}
@@ -1101,7 +1098,7 @@ sv:	«flod», «älv»
 en:	<river>
 def:	TKD
 ref:	TKW p.203
-cat:	landscape
+tag:	landscape
 file:	1992-01-01-tkd.txt
 
 tlh:	{bIQ'a'}
@@ -1109,7 +1106,7 @@ pos:	noun
 sv:	«ocean», «världshav»
 en:	<ocean>
 def:	TKD
-cat:	landscape
+tag:	landscape
 file:	1992-01-01-tkd.txt
 
 tlh:	{bIQ'a' HeH}
@@ -1163,7 +1160,7 @@ en:	«bottom» (interior bottom)
 def:	HQ8:3 p.2 ("{matlh juppu' mu'mey}")
 ref:	KLINW
 see:	{yor}; {pIrmuS}
-cat:	placement
+tag:	placement
 file:	1999-09-holqed-08-3.txt
 
 tlh:	{bIt}
@@ -1204,7 +1201,7 @@ en:	«beginning» (of a song, play, story etc.)
 def:	HQ12:2 pp.8--9 ("Maltz's Reward Part I")
 ref:	KLINW; TDNW
 see:	{bertlham}
-cat:	music
+tag:	music
 file:	2003-06-holqed-12-2.txt
 
 tlh:	{bo}
@@ -1242,7 +1239,7 @@ pos:	noun
 sv:	«panna» [regionalt]
 en:	<forehead> [regional]
 def:	KGT
-cat:	body part
+tag:	body part
 file:	1997-11-01-kgt.txt
 
 tlh:	{bogh}
@@ -1287,7 +1284,7 @@ sv:	«sjunga», «mässa»
 en:	<sing>, <chant>
 def:	KGT
 ref:	TKW p.17
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{bom} [2]
@@ -1296,7 +1293,7 @@ sv:	«sång»
 en:	<song>, <chant>
 def:	KGT
 ref:	TKW p.15
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{bom «mu'»}
@@ -1304,7 +1301,7 @@ pos:	noun
 sv:	«sångtext»
 en:	<lyric>, lyrics
 def:	KGT
-cat:	music
+tag:	music
 data:	phrase; derived form
 file:	1997-11-01-kgt.txt
 
@@ -1313,7 +1310,7 @@ pos:	noun
 sv:	«sångare», «sångerska»
 en:	«singer»
 def:	KGT p.71
-cat:	music
+tag:	music
 data:	derived form
 file:	1997-11-01-kgt.txt
 
@@ -1347,7 +1344,7 @@ ref:	KLINW
 com:	HQ9:3 p.9 ("{matlh juppu' mu'mey}"): Used in math: {boq} for addition,
 	{boqHa'} for subtraction, {X-logh boq'egh Y} for multiplication,
 	{X-logh boqHa''egh Y} for division. See also {chen}. [KLINW]
-cat:	math
+tag:	math
 file:	2000-09-holqed-09-3.txt
 
 tlh:	{boq} [2]
@@ -1376,7 +1373,7 @@ pos:	noun
 sv:	ett slags «djur», «~bokrat~»
 en:	type of <animal>, <~bokrat~>
 def:	KGT
-cat:	animal
+tag:	animal
 file:	1997-11-01-kgt.txt
 
 tlh:	{boq «ru'»}
@@ -1429,7 +1426,7 @@ sv:	ett slags «fågel» (väldigt liten, dess ägg anses mycket goda)
 en:	type of «bird» (very small, its eggs are considered quite tasty)
 def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
 ref:	KLINW
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{bortaS}
@@ -1483,7 +1480,7 @@ pos:	noun
 sv:	«center», «mitt»
 en:	<center>, <middle>
 def:	TKD
-cat:	placement
+tag:	placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{bov}
@@ -1507,7 +1504,7 @@ en:	«bird»
 def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
 ref:	KLINW
 com:	general word for bird-like creature
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{bo'DIj}
@@ -1698,7 +1695,7 @@ def:	KGT
 ref:	TDNW
 com:	According to HQ1:3 p.9 ("Additional Vocabulary"), this means "Hertz
 	(frequency)".
-cat:	measure
+tag:	measure
 file:	1997-11-01-kgt.txt
 
 tlh:	{chagh}
@@ -1730,7 +1727,7 @@ pos:	noun
 sv:	«himmel»
 en:	<sky>
 def:	TKD
-cat:	landscape
+tag:	landscape
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -1755,7 +1752,7 @@ en:	area eastward, area towards the «east»
 def:	News 1999-11-21
 ref:	HQ8:4 pp.6--8 ("Maltz Online")
 com:	"90 degrees on Terran compass" [KLINW]
-cat:	placement
+tag:	placement
 file:	1999-11-21-news.txt; 1999-12-holqed-08-4-a.txt
 
 tlh:	{chanDoq}
@@ -1770,7 +1767,7 @@ pos:	noun
 sv:	«par»
 en:	«pair»
 def:	BoP
-cat:	math
+tag:	math
 file:	1998-11-01-bop.txt
 
 tlh:	{chap}
@@ -1778,7 +1775,7 @@ pos:	noun
 sv:	«handrygg»
 en:	<back> (of hand)
 def:	TKD
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	{chaq}
@@ -1793,7 +1790,7 @@ pos:	verb
 sv:	«stöta» uppåt med spetsen på en «~bat'leth~»
 en:	<thrust> upward with end of «~bat'leth~»
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{char}
@@ -1909,7 +1906,7 @@ pos:	numeral
 sv:	«två»
 en:	<two>
 def:	TKD
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	{cha'bIp}
@@ -1917,7 +1914,7 @@ pos:	noun
 sv:	en slags «fågel» (berömd för sin snabbhet)
 en:	type of «bird» (noted for its speed)
 def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{cha'DIch} [1]
@@ -1925,7 +1922,7 @@ pos:	numeral
 sv:	«andra»
 en:	<second>
 def:	TKD
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	{cha'DIch} [2]
@@ -1940,7 +1937,7 @@ pos:	noun
 sv:	en slags «fågel» (om vilken litet är känt)
 en:	type of «bird» (about which little is known)
 def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{cha'Hu'}
@@ -1948,7 +1945,7 @@ pos:	noun
 sv:	«förrgår»
 en:	<day> before «yesterday»
 def:	TKD
-cat:	time
+tag:	time
 file:	1992-01-01-tkd.txt
 
 tlh:	{cha'leS}
@@ -1956,7 +1953,7 @@ pos:	noun
 sv:	«övermorgon»
 en:	<day> after «tomorrow»
 def:	TKD
-cat:	time
+tag:	time
 file:	1992-01-01-tkd.txt
 
 tlh:	{cha'logh}
@@ -1971,7 +1968,7 @@ pos:	noun
 sv:	en slags «fågel» (liten, gräver upp småkryp att äta)
 en:	type of «bird» (small, digs up bugs to eat)
 def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{cha'nob}
@@ -1986,7 +1983,7 @@ pos:	noun
 sv:	en slags «fågel» (berömd för sin sång)
 en:	type of «bird» (noted for its song)
 def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{cha'puj}
@@ -2008,7 +2005,7 @@ pos:	noun
 sv:	en slags «fågel» (med ett högljutt, enformigt skrik)
 en:	type of «bird» (with a noisy, repetitive cry)
 def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{cheb}
@@ -2017,7 +2014,7 @@ sv:	«~cheb~» («vikt«enhet»»)
 en:	«~cheb~» («unit» of «weight»)
 desc:	about 5 pounds or 2.25 kilograms
 def:	News 1997-10-22
-cat:	measure
+tag:	measure
 file:	1997-10-22-news.txt
 
 tlh:	{cheb'a'}
@@ -2030,7 +2027,7 @@ com:	(n) unit weight approx. 45--46.4 pounds (20.4--21.05 kg) (9--9.28 cheb)
 	[The numbers don't quite mesh, but this is the best I can figure
 	from different equivalences we've been given.] [BoP poster] (Added:
 	12 March 2002) [KLINW]
-cat:	measure
+tag:	measure
 file:	1997-10-22-news.txt; 1998-11-01-bop.txt
 
 tlh:	{chech}
@@ -2083,7 +2080,7 @@ pos:	noun
 sv:	«lever»
 en:	<liver>
 def:	KGT
-cat:	body part
+tag:	body part
 file:	1997-11-01-kgt.txt
 
 tlh:	{chel}
@@ -2091,7 +2088,7 @@ pos:	verb
 sv:	«addera», «lägga ihop», «lägga till»
 en:	<add>
 def:	TKD
-cat:	math
+tag:	math
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -2103,7 +2100,7 @@ def:	KGT
 com:	Mildly derogatory in its slang usage, this word literally means 'adder,
 	one who adds.' There is no known nonslang counterpart, though {HuchQeD}
 	(literally, 'money science') is often used for 'economics.' [KGT p.148]
-cat:	math
+tag:	math
 file:	1997-11-01-kgt.txt
 
 tlh:	{chemvaH}
@@ -2112,7 +2109,7 @@ sv:	ett slags «djur», «~chemvah~»
 en:	type of <animal>, «~chemvah~»
 def:	KGT
 com:	Klingon females sound like this animal when courting a potential mate.
-cat:	animal
+tag:	animal
 file:	1997-11-01-kgt.txt
 
 tlh:	{chen}
@@ -2125,7 +2122,7 @@ com:	HQ9:3 p.9 ("{matlh juppu' mu'mey}"): Used in math where the subject is
 	the result of the formula statement (typically using some form of the
 	verb {boq}). The {chen} statement follows the {boq} statement with a
 	semicolon dividing them in Okrand's notation.
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	{chenmoH}
@@ -2202,7 +2199,7 @@ pos:	noun
 sv:	«~chetvi~», «spjutslunga»
 en:	«~chetvi~», <spear-throwing device>
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 meta:	The word "~chetvi~" found in definition of {wob} in KGT K-E.
 
@@ -2218,7 +2215,7 @@ pos:	noun
 sv:	territorial«mur» (t.ex. Berlinmuren)
 en:	territorial «wall» (e.g. Berlin Wall)
 def:	News 1998-12-07
-cat:	architecture
+tag:	architecture
 data:	phrase
 file:	1998-12-07-news.txt
 
@@ -2296,7 +2293,7 @@ pos:	noun
 sv:	«tempel»
 en:	<temple> (structure)
 def:	TKD
-cat:	religion
+tag:	religion
 file:	1992-01-01-tkd.txt
 
 tlh:	{chIS}
@@ -2319,7 +2316,7 @@ pos:	noun
 sv:	huvud«korridor»
 en:	main «corridor»
 def:	BoP
-cat:	architecture
+tag:	architecture
 data:	derived form
 file:	1998-11-01-bop.txt
 
@@ -2328,7 +2325,7 @@ pos:	noun
 sv:	«trappuppgång» vid skeppsdörr, «landgång»
 en:	<stairway> leading to door of a ship, «gangplank»
 def:	KGT
-cat:	architecture
+tag:	architecture
 file:	1997-11-01-kgt.txt
 
 tlh:	{choH} [1]
@@ -2380,7 +2377,7 @@ pos:	noun
 sv:	«jaktsång»
 en:	<hunting song>
 def:	KGT
-cat:	music
+tag:	music
 data:	phrase; derived form
 file:	1997-11-01-kgt.txt
 
@@ -2389,7 +2386,7 @@ pos:	noun
 sv:	«jakt«spjut»»
 en:	<hunting <spear>>
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{chontay}
@@ -2404,7 +2401,7 @@ pos:	verb
 sv:	vara «vertikal»
 en:	be <vertical>
 def:	TKD
-cat:	placement
+tag:	placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{chong} [1.2]
@@ -2480,7 +2477,7 @@ pos:	noun
 sv:	«mage», «buk»
 en:	<belly>
 def:	TKD
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {chor}
@@ -2503,7 +2500,7 @@ pos:	numeral
 sv:	«åtta»
 en:	<eight>
 def:	TKD
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	{chorgh} [2]
@@ -2511,7 +2508,7 @@ pos:	noun
 sv:	åttonde «tonen» på den nonatoniska skalan
 en:	eight <tone> of nonatonic musical scale
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{chorghDIch}
@@ -2519,7 +2516,7 @@ pos:	numeral
 sv:	«åttonde»
 en:	<eighth>
 def:	TKD
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {choS}
@@ -2534,7 +2531,7 @@ pos:	noun
 sv:	«skymning»
 en:	<twilight>
 def:	TKD
-cat:	time
+tag:	time
 file:	1992-01-01-tkd.txt
 
 tlh:	{chot}
@@ -2595,7 +2592,7 @@ en:	<throw> (a spear) at, <hurl> (a spear) at
 desc:	{qachuH} ~I throw (a spear) at you~; target is obj.
 def:	KGT
 com:	"the direct object is the target" [TDNW]
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{chuH} [.2]
@@ -2617,7 +2614,7 @@ pos:	verb
 sv:	«träffa» med ett kastat spjut
 en:	«hit» with a thrown spear
 def:	KGT p.64
-cat:	fighting
+tag:	fighting
 data:	derived form
 file:	1997-11-01-kgt.txt
 
@@ -2684,7 +2681,7 @@ pos:	noun
 sv:	ett slags «musik«instrument»»
 en:	type of <musical «instrument»>
 def:	TKDa
-cat:	music
+tag:	music
 file:	1992-01-01-tkd.txt
 
 tlh:	{chut}
@@ -2745,7 +2742,7 @@ pos:	verb
 sv:	«spela» (ett musikinstrument)
 en:	<play> (a musical instrument)
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{chu'wI'} [.1]
@@ -2761,7 +2758,7 @@ pos:	noun
 sv:	«musiker» (som spelar ett instrument)
 en:	<player> (of an instrument)
 def:	KGT
-cat:	music
+tag:	music
 data:	derived form
 file:	1997-11-01-kgt.txt
 
@@ -2830,7 +2827,7 @@ pos:	noun
 sv:	«batteri», «uppsättning» (av vapen)
 en:	«bank», «array» (of weapons)
 def:	KGT p.56; BoP
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt; 1998-11-01-bop.txt
 
 tlh:	{DaHjaj}
@@ -2839,7 +2836,7 @@ sv:	«idag»
 en:	<today>
 def:	TKDa
 ref:	TKW p.203
-cat:	time
+tag:	time
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -2897,7 +2894,7 @@ pos:	noun
 sv:	«nonsens«sång»»
 en:	<nonsense «song»>
 def:	KGT
-cat:	music
+tag:	music
 data:	phrase; derived form
 file:	1997-11-01-kgt.txt
 
@@ -2951,7 +2948,7 @@ pos:	noun
 sv:	«~darsek~» («valuta«enhet»»)
 en:	<~darsek~> (<unit> of <currency>)
 def:	KGT
-cat:	measure; money
+tag:	measure; money
 file:	1997-11-01-kgt.txt
 meta:	In KGT as "~darsek,~ unit of currency (n)", here changed slightly to
 	reseble the other units.
@@ -2964,7 +2961,7 @@ def:	TKD
 ref:	{qep'a'} 1996
 pun:	"Das Boot"! "Last year, I asked Marc Okrand if it was intentional;
 	he said yes." (Alan Anderson, {qep'a'} 1996)
-cat:	clothing
+tag:	clothing
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -2973,7 +2970,7 @@ pos:	noun
 sv:	«stövelspik», «kängspik», «tåspik»
 en:	<boot spike>
 def:	TKD
-cat:	clothing
+tag:	clothing
 file:	1992-01-01-tkd.txt
 
 tlh:	{Dat}
@@ -2983,7 +2980,7 @@ en:	<everywhere>, all places
 desc:	never takes {-Daq} [TKD 3.3.5 (pp.27--28)]
 def:	TKD 3.3.5 (pp.27--28) et al.
 com:	Locative word, never followed by {-Daq} [TKD 3.3.5 (pp.27--28)].
-cat:	placement
+tag:	placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{Dav}
@@ -3055,7 +3052,7 @@ sv:	en slags «fågel» (kännetecknad av irrande, oförutsägbart beteende)
 en:	type of «bird» (characterized by erratic, unpredictable behavior)
 def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
 com:	similar to {Da'vI'}
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{Da'vI'}
@@ -3064,7 +3061,7 @@ sv:	en slags «fågel» (kännetecknad av irrande, oförutsägbart beteende)
 en:	type of «bird» (characterized by erratic, unpredictable behavior)
 def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
 com:	similar to {Da'nal}
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{Deb}
@@ -3152,7 +3149,7 @@ pos:	noun
 sv:	«denebiansk slemdjävul»
 en:	«Denebian slime devil»
 def:	TKD K-E
-cat:	animal
+tag:	animal
 data:	phrase
 file:	1992-01-01-tkd.txt
 
@@ -3175,7 +3172,7 @@ pos:	noun
 sv:	«denebiansk slemdjävul»
 en:	<Denebian slime devil>
 def:	TKD E-K
-cat:	animal
+tag:	animal
 data:	phrase
 file:	1992-01-01-tkd.txt
 
@@ -3186,7 +3183,7 @@ en:	«Denmark»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	{Dep}
@@ -3202,7 +3199,7 @@ pos:	noun
 sv:	«kredit» («valuta«enhet»»)
 en:	<credit> («unit» of «currency»)
 def:	TKD
-cat:	measure; money
+tag:	measure; money
 file:	1992-01-01-tkd.txt
 meta:	In TKD as "credit (monetary unit)", but "monetary unit" was here
 	changed to "unit of currency", for consistency with other unit words.
@@ -3221,7 +3218,7 @@ pos:	noun
 sv:	«arm»
 en:	<arm> (body part)
 def:	TKD
-cat:	body part
+tag:	body part
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -3238,7 +3235,7 @@ pos:	noun
 sv:	«armbåge»
 en:	<elbow>
 def:	KGT
-cat:	body part
+tag:	body part
 file:	1997-11-01-kgt.txt
 
 tlh:	{Dev}
@@ -3322,7 +3319,7 @@ pos:	verb
 sv:	«betala» för
 en:	<pay> for
 def:	TKD
-cat:	money
+tag:	money
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -3344,7 +3341,7 @@ ref:	TDNW
 com:	"If there's a door there, it's referred to by the usual word for door,
 	{lojmIt}." [HQ12:2 p.7 ("Maltz's Reward Part I")]
 see:	{qa'rI'}, {lojmIt}
-cat:	architecture
+tag:	architecture
 file:	2003-06-holqed-12-2.txt
 
 tlh:	{DIng}
@@ -3382,7 +3379,7 @@ pos:	noun
 sv:	«trumma» (slaginstrument med ett sträckt djurskinn)
 en:	«drum» (percussion instrument with a stretched animal skin)
 def:	KGT p.75
-cat:	music
+tag:	music
 data:	phrase; derived form
 file:	1997-11-01-kgt.txt
 
@@ -3405,7 +3402,7 @@ pos:	noun
 sv:	«år» (klingonskt)
 en:	<year> (Klingon)
 def:	TKD
-cat:	measure; time
+tag:	measure; time
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -3527,7 +3524,7 @@ pos:	noun
 sv:	«sida»
 en:	<side>
 def:	TKD
-cat:	placement
+tag:	placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{Doq}
@@ -3590,7 +3587,7 @@ com:	"Generally, one expresses the end of a stretch of time by using a verb
 	connection at all between {Dor} <end> and {Dor} <escort>." [HQ12:2 p.8
 	("Maltz's Reward Part I")]
 see:	{van} (2), {ghang}
-cat:	time
+tag:	time
 file:	2003-06-holqed-12-2.txt
 
 tlh:	{DoS}
@@ -3623,7 +3620,7 @@ en:	«Germany»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	{Doy'}
@@ -3686,7 +3683,7 @@ pos:	noun
 sv:	«rygg»
 en:	<back> (of body)
 def:	TKD
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	{DuD}
@@ -3772,7 +3769,7 @@ pos:	noun
 sv:	område «ovanför», område «över»
 en:	area <above>, area <overhead>
 def:	TKD
-cat:	placement
+tag:	placement
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -3781,7 +3778,7 @@ pos:	noun
 sv:	«middagstid», mitt på dagen
 en:	<noon>
 def:	TKDa
-cat:	time
+tag:	time
 file:	1992-01-01-tkd.txt
 
 tlh:	{Dup}
@@ -3995,7 +3992,7 @@ com:	"[...] {ghang}, is used to express the idea of a premature ending. If
 	themselves. Someone has to end them." [HQ12:2 p.8 ("Maltz's Reward Part
 	I")]
 see:	{van} (2), {Dor} (2)
-cat:	time
+tag:	time
 file:	2003-06-holqed-12-2.txt
 
 tlh:	{ghangwI'}
@@ -4024,7 +4021,7 @@ ref:	{qep'a'} 2010; Email 2010-07-26 (by Chris Lipscombe, to tlhingan-hol,
 	"Re: mu' chu'")
 com:	Second translation, "support (financially)", was given by Marc Okrand
 	at {qep'a'} 2010.
-cat:	money
+tag:	money
 file:	1992-01-01-tkd.txt; 2010-07-26-email.txt
 
 tlh:	{ghar} [1]
@@ -4046,7 +4043,7 @@ pos:	noun
 sv:	«orm», «mask»
 en:	<serpent>, <worm>
 def:	TKD
-cat:	animal
+tag:	animal
 file:	1992-01-01-tkd.txt
 
 tlh:	{gharlIq 'oQqar}
@@ -4147,7 +4144,7 @@ pos:	noun
 sv:	«horn», «lur» (musikinstrument)
 en:	«horn» (musical instrument)
 def:	HQ10:2 p.9 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
-cat:	music
+tag:	music
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{gheD}
@@ -4239,7 +4236,7 @@ sv:	«småkryp», «lus»
 en:	<bug>, «cootie»
 def:	TKDa
 ref:	TKW p.207
-cat:	animal
+tag:	animal
 file:	1992-01-01-tkd.txt
 
 tlh:	{ghe'naQ}
@@ -4255,7 +4252,7 @@ sv:	«~Gre'thor~» (där de vanärades själar hamnar)
 en:	<~Gre'thor~> (where spirits of dishonored go)
 def:	KGT
 com:	mythological place; similar to Hell
-cat:	religion
+tag:	religion
 file:	1997-11-01-kgt.txt
 meta:	FIXME -- Should be merged with {ghe''or}, or should one of these words
 	be deprecated?
@@ -4265,7 +4262,7 @@ pos:	noun
 sv:	«dödsrike» (där vanärade hamnar)
 en:	<netherworld> (where dishonored go)
 def:	TKDa
-cat:	religion
+tag:	religion
 file:	1992-01-01-tkd.txt
 meta:	FIXME -- Should be merged with {ghe'tor}, or should one of these words
 	be deprecated?
@@ -4282,7 +4279,7 @@ pos:	noun
 sv:	«näsa»
 en:	<nose>
 def:	TKD
-cat:	body part
+tag:	body part
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -4325,7 +4322,7 @@ sv:	«globfluga»
 en:	<glob fly>
 def:	KGT
 ref:	TKW pp.171, 173
-cat:	animal
+tag:	animal
 data:	phrase; {ghIlab} (n)
 file:	1997-11-01-kgt.txt
 
@@ -4359,7 +4356,7 @@ com:	"The word for monastery is {ghIn}. [...] A {ghIn'a'} would be a pretty
 	defined area where the members of the religious community live or work
 	or do whatever they do there. It doesn't mean the group of people."
 	/Lieven L. Litaer
-cat:	religion
+tag:	religion
 file:	2010-12-25-email.txt; 2010-12-19-email.txt; 2011-01-16-email.txt
 
 tlh:	{ghIntaq}
@@ -4369,7 +4366,7 @@ en:	<battle <spear>>, <~gin'tak~>
 def:	KGT
 com:	An advisor to a house so trusted that he becomes a part of the
 	family is called *gin'tak* according to the TNG episode "Firstborn".
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{ghIpDIj}
@@ -4436,7 +4433,7 @@ pos:	noun
 sv:	«öppen», plan «hand»
 en:	<open>, flat «hand»
 def:	KGT
-cat:	body part
+tag:	body part
 file:	1997-11-01-kgt.txt
 
 tlh:	{ghIt} [.2]
@@ -4480,7 +4477,7 @@ pos:	noun
 sv:	«cirkel»
 en:	<circle>
 def:	TKD
-cat:	shape
+tag:	shape
 file:	1992-01-01-tkd.txt
 
 tlh:	{gho} [.2]
@@ -4496,7 +4493,7 @@ sv:	«slåss», «strida», «föra krig»
 en:	<fight>, <battle>, do battle, <wage war>
 def:	KGT
 ref:	TKW pp.vii, 61, 179
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{ghob} [2]
@@ -4696,7 +4693,7 @@ pos:	noun
 sv:	«hand»
 en:	<hand>
 def:	TKD
-cat:	body part
+tag:	body part
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -4753,7 +4750,7 @@ sv:	«när»?
 en:	<when>?
 desc:	{ghorgh mamej} ~when do we leave?~ [CK]; first in sentence
 def:	TKD
-cat:	time
+tag:	time
 file:	1992-01-01-tkd.txt
 
 tlh:	{ghoS} [.1]
@@ -4792,7 +4789,7 @@ def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 ref:	TDNW
 pun:	Bernard Shaw's famous spelling of "fish".
 see:	{bIQDep}
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{ghov}
@@ -4829,7 +4826,7 @@ pos:	noun
 sv:	«förstfödd»
 en:	«firstborn»
 def:	HQ9:3 p.9 ("{matlh juppu' mu'mey}")
-cat:	family
+tag:	family
 file:	2000-09-holqed-09-3.txt
 
 tlh:	{ghuH} [1]
@@ -4919,7 +4916,7 @@ pos:	verb
 sv:	«sänka» (spjut) till horisontellt läge inför attack
 en:	<lower> (spear) to horizontal to attack
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{ghuv}
@@ -5101,7 +5098,7 @@ pos:	verb
 sv:	«slåss», «strida» (stor konfrontation)
 en:	<fight>, <battle> (major confrontation)
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{HaSta}
@@ -5130,7 +5127,7 @@ pos:	noun
 sv:	«landsort», «landsbygd»
 en:	<country>, countryside
 def:	TKD
-cat:	landscape
+tag:	landscape
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -5281,7 +5278,7 @@ pos:	noun
 sv:	«dödsritual»
 en:	<death ritual>
 def:	KGT
-cat:	religion
+tag:	religion
 file:	1997-11-01-kgt.txt
 
 tlh:	{HeH}
@@ -5323,7 +5320,7 @@ pos:	verb
 sv:	«fingra på» (hål, strängar på instrument) för att variera ljud
 en:	<finger> (holes, strings of instrument) to vary sound
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{HeQ}
@@ -5432,7 +5429,7 @@ pos:	noun
 sv:	«pistol», «revolver»
 en:	<handgun>, <gun>
 def:	TKD
-cat:	fighting
+tag:	fighting
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
 
@@ -5455,7 +5452,7 @@ pos:	verb
 sv:	«slåss» «oärlig»t
 en:	<fight> «dirty»
 def:	TKD
-cat:	fighting
+tag:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{HIj}
@@ -5522,7 +5519,7 @@ pos:	noun
 sv:	«attackskepp»
 en:	<attack fighter> (vessel)
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{HIvje'}
@@ -5540,7 +5537,7 @@ pos:	noun
 sv:	«dryckes«visa»»
 en:	<drinking «song»>
 def:	KGT
-cat:	music
+tag:	music
 data:	phrase
 file:	1997-11-01-kgt.txt
 
@@ -5585,7 +5582,7 @@ com:	First in a noun-noun pair in TKW. According to HQ "More on {Hoch}"; "If
 	noun following Hoch is explicitly plural, it means 'all'. If it is
 	singular, it means 'each'." Occurs in TKW p.33, 51, 74, 74, 74, 99,
 	136, 179, 184.
-cat:	quantity
+tag:	quantity
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt; 1996-06-holqed-05-2-a.txt
 meta:	All sources combined here.
@@ -5606,7 +5603,7 @@ desc:	see {Hoch}
 def:	KGT
 com:	{tera' vatlh DIS poH cha'maH wej HochHom lo'lu'taH.} "[It] remained in
 	use for most of the 23rd century." [S15]
-cat:	quantity
+tag:	quantity
 file:	1997-11-01-kgt.txt
 
 tlh:	{Hochlogh}
@@ -5631,7 +5628,7 @@ pos:	noun
 sv:	«vecka» (klingonsk)
 en:	<week> (Klingon)
 def:	TKD
-cat:	measure; time
+tag:	measure; time
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -5708,7 +5705,7 @@ pos:	verb
 sv:	«använda» «andra«tå»n» [arkaiskt]
 en:	«use» the «second «toe»» [archaic]
 def:	HQ10:2 p.10 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
-cat:	body part
+tag:	body part
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{HomwI'}
@@ -5716,7 +5713,7 @@ pos:	noun
 sv:	«andra«tå»»
 en:	«second «toe»»
 def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
-cat:	body part
+tag:	body part
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{Hon}
@@ -5754,7 +5751,7 @@ pos:	verb
 sv:	vara «avlägsen», vara «långt bort»
 en:	be <remote>, be <far>
 def:	TKD
-cat:	placement
+tag:	placement
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -5912,7 +5909,7 @@ pos:	noun
 sv:	«tand»
 en:	<tooth>
 def:	TKD
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	{Ho' 'etlh}
@@ -5965,7 +5962,7 @@ sv:	«pengar»
 en:	<money>
 def:	TKD
 ref:	TKW p.189
-cat:	money
+tag:	money
 file:	1992-01-01-tkd.txt
 
 tlh:	{HuchQeD}
@@ -5980,7 +5977,7 @@ pos:	noun
 sv:	«berg», «kulle»
 en:	<mountain>, <hill>
 def:	TKD
-cat:	landscape
+tag:	landscape
 file:	1992-01-01-tkd.txt
 
 tlh:	{HuD beQ yoS}
@@ -5997,7 +5994,7 @@ sv:	«hals», «strupe»
 en:	<throat>
 def:	TKD
 ref:	TKW p.127
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	{HuH}
@@ -6056,7 +6053,7 @@ com:	I didn't read that section of the opera myself, but I think I heard
 	book "A Burning House", Marc Okrand decided to use the already
 	published spelling. /Alan Anderson (talking about the Klingon opera
 	{'u'})
-cat:	animal
+tag:	animal
 file:	2011-08-22-email.txt
 
 tlh:	{Hung}
@@ -6085,7 +6082,7 @@ pos:	noun
 sv:	«utanför»
 en:	<outside>
 def:	TKD
-cat:	placement
+tag:	placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{HurDagh}
@@ -6093,7 +6090,7 @@ pos:	noun
 sv:	«sträng«instrument»» (generell term)
 en:	<stringed <instrument>> (general term)
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	[1] {Hurgh}
@@ -6143,7 +6140,7 @@ pos:	numeral
 sv:	«nio»
 en:	<nine>
 def:	TKD
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	{HutDIch}
@@ -6151,7 +6148,7 @@ pos:	numeral
 sv:	«nionde»
 en:	<ninth>
 def:	TKD
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	{Hutvagh}
@@ -6193,7 +6190,7 @@ pos:	noun
 sv:	«panna» [regionalt]
 en:	<forehead> [regional]
 def:	KGT
-cat:	body part
+tag:	body part
 file:	1997-11-01-kgt.txt
 
 tlh:	[1] {Hu'}
@@ -6208,7 +6205,7 @@ pos:	noun
 sv:	¿?för ... «dagar» sedan
 en:	<days> ago
 def:	TKD
-cat:	time
+tag:	time
 file:	1992-01-01-tkd.txt
 
 tlh:	{Hu'tegh}
@@ -6260,7 +6257,7 @@ pos:	verb
 sv:	«kasta» runt, «slunga» omkring
 en:	<throw> around, <hurl> about
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{jagh}
@@ -6288,7 +6285,7 @@ def:	TKD
 ref:	TKW pp.69, 177
 com:	Used with {-vam} in the sentence: {Heghlu'meH QaQ jajvam.}
 	"It is a good day to die." in TKW p.69.
-cat:	measure; time
+tag:	measure; time
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -6297,7 +6294,7 @@ pos:	noun
 sv:	«gryning»
 en:	<dawn>
 def:	TKD
-cat:	time
+tag:	time
 file:	1992-01-01-tkd.txt
 
 tlh:	{jajlo' Qa'}
@@ -6305,7 +6302,7 @@ pos:	noun
 sv:	ett slags «djur» (för oljud i gryningen)
 en:	type of «animal» (makes a ruckus at dawn)
 def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
-cat:	animal
+tag:	animal
 data:	derived form; phrase
 file:	2001-12-holqed-10-4.txt
 
@@ -6315,7 +6312,7 @@ sv:	«idag»
 en:	«today»
 def:	TKW p.69
 ref:	TDNW
-cat:	time
+tag:	time
 data:	derived form
 file:	1996-05-01-tkw.txt
 meta:	FIXME -- This word (meaning "this day") need not be part of the
@@ -6334,7 +6331,7 @@ pos:	noun
 sv:	«musik«instrument»»
 en:	<musical <instrument>>
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{janluq «pIqarD»}
@@ -6375,7 +6372,7 @@ pos:	noun
 sv:	«månad» (klingonsk)
 en:	<month> (Klingon)
 def:	TKD
-cat:	measure; time
+tag:	measure; time
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -6384,7 +6381,7 @@ pos:	noun
 sv:	«panna» [regionalt]
 en:	<forehead> [regional]
 def:	KGT
-cat:	body part
+tag:	body part
 file:	1997-11-01-kgt.txt
 
 tlh:	{jaS}
@@ -6399,7 +6396,7 @@ pos:	noun
 sv:	«tunga»
 en:	<tongue>
 def:	TKD
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	{jat} [2]
@@ -6414,7 +6411,7 @@ pos:	noun
 sv:	¿?«andlig hemsökelse», «besatthet»
 en:	<spiritual possession>
 def:	KGT
-cat:	religion
+tag:	religion
 file:	1997-11-01-kgt.txt
 
 tlh:	{jatlh}
@@ -6431,7 +6428,7 @@ pos:	numeral
 sv:	«sex»
 en:	<six>
 def:	TKD
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {jav} [2]
@@ -6439,7 +6436,7 @@ pos:	noun
 sv:	sjätte «tonen» på den nonatoniska skalan
 en:	sixth <tone> of nonatonic musical scale
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	[2] {jav}
@@ -6457,7 +6454,7 @@ pos:	numeral
 sv:	«sjätte»
 en:	<sixth>
 def:	TKD
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {jaw}
@@ -6602,7 +6599,7 @@ en:	be <high>
 def:	TKD
 cite:	{tlhIngan yoH jen verengan yoH 'eS} or {tlhIngan yoH 'eS verengan yoH
 	jen} ({jen,} <be high>; {'eS,} <be low>) [KGT p.179]
-cat:	placement
+tag:	placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{jengva'}
@@ -6655,7 +6652,7 @@ pos:	verb
 sv:	«storma»
 en:	<storm>
 def:	TKD
-cat:	landscape
+tag:	landscape
 file:	1992-01-01-tkd.txt
 meta:	"Correction" in HQ4:1 p.7 disregarded here, since weather words {peD}
 	and {SIS} also are verbs.
@@ -6701,7 +6698,7 @@ sv:	«köpa», «handla»
 en:	<buy>, <purchase>
 def:	TKD
 ref:	TKW pp.7, 213
-cat:	money
+tag:	money
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -6721,7 +6718,7 @@ pos:	noun
 sv:	«hår» (på huvudet)
 en:	<hair> (on head)
 def:	TKD
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {jIH} [1]
@@ -6877,7 +6874,7 @@ pos:	verb
 sv:	«snurra» en «~bat'leth~», få en ~bat'leth~ att «rotera»
 en:	<twirl> «~bat'leth~», cause ~bat'leth~ to «rotate»
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{jIv}
@@ -6930,7 +6927,7 @@ pos:	noun
 sv:	område «mellan», område «emellan»
 en:	area <between>
 def:	TKD
-cat:	placement
+tag:	placement
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -7057,7 +7054,7 @@ pos:	noun
 sv:	«tygremsa» i ett «~susdek~» instrument
 en:	<strip of material> in a «~susdek~» instrument
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{jor}
@@ -7178,7 +7175,7 @@ cite:	There are two words used for length: {'aD} and {'ab}. Both of these can
 	measuring, say, a tabletop. {'ab}, on the other hand, is used for
 	(potentially) longish, skinnyish things (for example, spears) and also
 	for heights. [News 1997-10-22]
-cat:	measure
+tag:	measure
 file:	1997-10-22-news.txt
 
 tlh:	{juH}
@@ -7228,7 +7225,7 @@ en:	«China»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	{jup}
@@ -7326,7 +7323,7 @@ pos:	noun
 sv:	«religion»
 en:	<religion>
 def:	TKD
-cat:	religion
+tag:	religion
 file:	1992-01-01-tkd.txt
 
 tlh:	{lam} [1]
@@ -7404,7 +7401,7 @@ desc:	{latlh HIvje'} ~other glass~ [BoP]
 def:	TKDa
 com:	{latlh Datlhutlh'a'.} "Will you drink another one?" [PK] {latlh
 	tlhInganpu'} "other Klingons" [S31]
-cat:	quantity
+tag:	quantity
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -7568,7 +7565,7 @@ pos:	noun
 sv:	¿?om ... «dagar»
 en:	<days> from now
 def:	TKD
-cat:	time
+tag:	time
 file:	1992-01-01-tkd.txt
 
 tlh:	{leSpal}
@@ -7576,7 +7573,7 @@ pos:	noun
 sv:	ett slags sträng«instrument»
 en:	type of stringed <instrument>
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{leSpoH}
@@ -7606,7 +7603,7 @@ pos:	noun
 sv:	«trappa», «trappuppgång»
 en:	<stairs>, «stairway»
 def:	KGT
-cat:	architecture
+tag:	architecture
 file:	1997-11-01-kgt.txt
 
 tlh:	{letlh} [.2]
@@ -7614,7 +7611,7 @@ pos:	noun
 sv:	«trappuppgång» vid skeppsdörr [regionalt]
 en:	<stairway> leading to door of a ship [regional]
 def:	KGT
-cat:	architecture
+tag:	architecture
 file:	1997-11-01-kgt.txt
 
 tlh:	[1] {lev}
@@ -7622,7 +7619,7 @@ pos:	verb
 sv:	«förflytta» en «~bat'leth~» från vertikal till horisontell position
 en:	<move> «~bat'leth~» from vertical to horizontal orientation
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	[2] {lev}
@@ -7633,7 +7630,7 @@ def:	{qep'a'} 2005
 ref:	Web 2005-08-01 (by Rohan Fenwick,
 	http://klingon.livejournal.com/26647.html, "Marc Okrand nob: qep'a'
 	mu'mey chu'"); TDNW
-cat:	body part
+tag:	body part
 file:	2005-08-01-web.txt
 
 tlh:	{ley'}
@@ -7641,7 +7638,7 @@ pos:	noun
 sv:	«näsa» [regionalt]
 en:	<nose> [regional]
 def:	KGT
-cat:	body part
+tag:	body part
 file:	1997-11-01-kgt.txt
 
 tlh:	{le'}
@@ -7701,7 +7698,7 @@ pos:	noun
 sv:	«glavin», «ligonsk «spikhandske»»
 en:	<glavin>, <Ligonian <spike glove>>
 def:	KGT
-cat:	clothing
+tag:	clothing
 data:	phrase
 file:	1997-11-01-kgt.txt
 
@@ -7751,7 +7748,7 @@ ref:	TDNW
 com:	"To begin to sing a song is to {lIH} (literally, <introduce>) the song
 	[...]" [HQ12:2 p.9 ("Maltz's Reward Part I")]
 see:	{namtun}, {'o'megh}
-cat:	music
+tag:	music
 file:	1992-01-01-tkd.txt
 
 tlh:	{lIj}
@@ -7788,7 +7785,7 @@ pos:	noun
 sv:	ett slags «djur», «~lingta~»
 en:	type of <animal>, <~lingta~>
 def:	KGT
-cat:	animal
+tag:	animal
 file:	1997-11-01-kgt.txt
 
 tlh:	{lIngwI'}
@@ -7810,7 +7807,7 @@ pos:	noun
 sv:	en slags «fågel» (nattlevande)
 en:	type of «bird» (nocturnal)
 def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{lIS}
@@ -7885,7 +7882,7 @@ pos:	noun
 sv:	«mustasch»
 en:	<mustache>
 def:	TKD
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	{loD}
@@ -7894,7 +7891,7 @@ sv:	«man», «hane»
 en:	<male>, <man>
 def:	TKD
 ref:	TKW pp.127, 177, 206
-cat:	family
+tag:	family
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -7903,7 +7900,7 @@ pos:	noun
 sv:	«pojke»
 en:	<boy>
 def:	TKD
-cat:	family
+tag:	family
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -7912,7 +7909,7 @@ pos:	noun
 sv:	«make», «man»
 en:	<husband>
 def:	TKD
-cat:	family
+tag:	family
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -7921,7 +7918,7 @@ pos:	noun
 sv:	«bror»
 en:	<brother>
 def:	TKD
-cat:	family
+tag:	family
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -7962,7 +7959,7 @@ sv:	(«längd«enhet»»)
 en:	(«unit» of «length»)
 desc:	about 1.25 light years
 def:	BoP
-cat:	measure
+tag:	measure
 file:	1998-11-01-bop.txt
 
 tlh:	{loH} [1]
@@ -7994,7 +7991,7 @@ en:	<door>, <gate>
 def:	TKD
 ref:	TKW p.186; HQ12:2 p.7 ("Maltz's Reward Part I")
 see:	{DIn}, {qa'rI'}
-cat:	architecture
+tag:	architecture
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -8120,7 +8117,7 @@ sv:	«kusin» (mors brors barn eller fars systers barn), «systerbarn» (en
 en:	«cousin» (mother's brother's child or father's sister's child),
 	«niece», «nephew» (a man's sister's child or a woman's brother's child)
 def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
-cat:	family
+tag:	family
 file:	2000-09-holqed-09-3.txt
 
 tlh:	{lorbe'}
@@ -8132,7 +8129,7 @@ en:	female «cousin» (mother's brother's daughter or father's sister's
 	daughter), «niece» (a man's sister's daughter or a woman's brother's
 	daughter)
 def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
-cat:	family
+tag:	family
 file:	2000-09-holqed-09-3.txt
 
 tlh:	{lorloD}
@@ -8142,7 +8139,7 @@ sv:	manlig «kusin» (mors brors son eller fars systers son), «systerson» (en
 en:	male «cousin» (mother's brother's son or father's sister's son),
 	«nephew» (a man's sister's son or a woman's brother's son)
 def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
-cat:	family
+tag:	family
 file:	2000-09-holqed-09-3.txt
 
 tlh:	[1] {loS}
@@ -8159,7 +8156,7 @@ sv:	«fyra»
 en:	<four>
 def:	TKD
 ref:	TKW p.127
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {loS} [2]
@@ -8167,7 +8164,7 @@ pos:	noun
 sv:	fjärde «tonen» på den nonatoniska skalan
 en:	fourth <tone> of nonatonic musical scale
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{loSDIch}
@@ -8175,7 +8172,7 @@ pos:	numeral
 sv:	«fjärde»
 en:	<fourth>
 def:	TKD
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	{loSpev}
@@ -8205,7 +8202,7 @@ sv:	en slags «fågel» (slår ned i vattnet för att fånga mat, men kan inte
 	simma)
 en:	type of «bird» (swoops into the water to catch food, but cannot swim)
 def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{lotlhwI'}
@@ -8352,7 +8349,7 @@ pos:	verb
 sv:	«slåss», «strida» (relativt stort slagsmål)
 en:	<fight>, <battle> (relatively major fight)
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{lulIgh}
@@ -8375,7 +8372,7 @@ pos:	noun
 sv:	ett slags «djur», «drake», «~loong~» (ödleliknande)
 en:	type of <animal>, «dragon», «~loong~» (lizardlike)
 def:	KGT pp.48--49
-cat:	animal
+tag:	animal
 file:	1997-11-01-kgt.txt
 
 tlh:	[1] {lup}
@@ -8390,7 +8387,7 @@ pos:	noun
 sv:	«sekund»
 en:	<second> (of time)
 def:	TKD
-cat:	measure; time
+tag:	measure; time
 file:	1992-01-01-tkd.txt
 
 tlh:	{lupDujHom}
@@ -8430,7 +8427,7 @@ pos:	noun
 sv:	«pupill»
 en:	<pupil> (of «eye»)
 def:	TKD
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	{lurDech}
@@ -8498,7 +8495,7 @@ pos:	verb
 sv:	vara «liten»
 en:	be <small>
 def:	TKD
-cat:	shape
+tag:	shape
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -8509,7 +8506,7 @@ en:	«Hungary»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	{magh}
@@ -8547,7 +8544,7 @@ sv:	«tio» (nummerbildande element)
 en:	<ten> (number-forming element)
 def:	TKD
 com:	Number-forming element, see also TKD 5.2.
-cat:	math
+tag:	math
 data:	exclude from K-E
 file:	1992-01-01-tkd.txt
 
@@ -8579,7 +8576,7 @@ pos:	noun
 sv:	«affär», «ärende», «syssla», «göromål», «angelägenhet»
 en:	<business>
 def:	TKD
-cat:	money
+tag:	money
 file:	1992-01-01-tkd.txt
 
 tlh:	{mang}
@@ -8588,7 +8585,7 @@ sv:	«soldat» (en krigare i en grupp om flera)
 en:	<soldier> (a warrior who is part of a unit)
 def:	TKD
 see:	{negh} is the plural form; {SuvwI'}; {vaj}
-cat:	fighting
+tag:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{mangghom}
@@ -8631,7 +8628,7 @@ pos:	verb
 sv:	«använda» «stor«tå»n» («förstatå»n) [arkaiskt]
 en:	«use» the «big «toe»» («first toe») [archaic]
 def:	HQ10:2 p.10 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
-cat:	body part
+tag:	body part
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{mara}
@@ -8654,7 +8651,7 @@ pos:	noun
 sv:	«stor«tå»», «förstatå»
 en:	«big «toe»», «first toe»
 def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
-cat:	body part
+tag:	body part
 file:	2001-06-holqed-10-2.txt
 
 tlh:	[1] {maS}
@@ -8680,7 +8677,7 @@ en:	«Egypt»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	{maSwov}
@@ -8695,7 +8692,7 @@ pos:	noun
 sv:	«skytt», «artillerist»
 en:	<gunner>
 def:	TKD
-cat:	fighting
+tag:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {matlh}
@@ -8780,7 +8777,7 @@ pos:	noun
 sv:	«stridssång»
 en:	<battle song>
 def:	KGT
-cat:	music
+tag:	music
 data:	phrase; derived form
 file:	1997-11-01-kgt.txt
 
@@ -8796,7 +8793,7 @@ pos:	noun
 sv:	«stridsdon», full «rustning», full uppsättning av rustning och vapen
 en:	<battle gear>, <panoply>, complete set of <armor> and weapons
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{may'morgh}
@@ -8832,7 +8829,7 @@ ref:	KLINW; Email 1999-02-12 (by Will Martin, to tlhingan-hol, "Another new
 	word")
 com:	Seen in DS9 "Sons of Mogh". English spelling (according to STE) is
 	~mevak~.
-cat:	religion
+tag:	religion
 file:	1999-02-12-email.txt
 
 tlh:	{meb}
@@ -8964,7 +8961,7 @@ en:	type of <weapon>, <~mek'leth~>
 def:	KGT
 com:	The short sword thing that Worf uses on DS9 and in the movie
 	"First Contact".
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{meqro'vaq}
@@ -8997,7 +8994,7 @@ pos:	noun
 sv:	stort blås«instrument»
 en:	large wind <instrument>
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{mev}
@@ -9034,7 +9031,7 @@ def:	{qep'a'} 2005
 ref:	Web 2005-08-01 (by Rohan Fenwick,
 	http://klingon.livejournal.com/26647.html, "Marc Okrand nob: qep'a'
 	mu'mey chu'"); TDNW
-cat:	shape
+tag:	shape
 file:	2005-08-01-web.txt
 
 tlh:	{me'}
@@ -9042,7 +9039,7 @@ pos:	noun
 sv:	«moster» (mors syster)
 en:	«aunt» (mother's sister)
 def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
-cat:	family
+tag:	family
 file:	2000-09-holqed-09-3.txt
 
 tlh:	{me'nal}
@@ -9050,7 +9047,7 @@ pos:	noun
 sv:	«moster» (mors brors hustru)
 en:	«aunt» (mother's brother's wife)
 def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
-cat:	family
+tag:	family
 file:	2000-09-holqed-09-3.txt
 
 tlh:	{mIch}
@@ -9111,7 +9108,7 @@ pos:	noun
 sv:	ett slags «djur», «sabelbjörn»
 en:	type of <animal>, <sabre bear>
 def:	KGT
-cat:	animal
+tag:	animal
 file:	1997-11-01-kgt.txt
 
 tlh:	{mIm}
@@ -9127,7 +9124,7 @@ sv:	«öga»
 en:	<eye>
 def:	TKD
 ref:	TKW pp.169, 19
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	{mIp} [1]
@@ -9167,7 +9164,7 @@ pos:	noun
 sv:	«panna» [regionalt]
 en:	<forehead> [regional]
 def:	KGT
-cat:	body part
+tag:	body part
 file:	1997-11-01-kgt.txt
 
 tlh:	{mIr}
@@ -9217,7 +9214,7 @@ pos:	noun
 sv:	«hjälm»
 en:	<helmet>
 def:	TKD
-cat:	clothing
+tag:	clothing
 file:	1992-01-01-tkd.txt
 
 tlh:	{mIv} [.2]
@@ -9405,7 +9402,7 @@ def:	News 1997-09-01 (by Marc Okrand, to msn.onstage.startrek.expert.okrand,
 ref:	KGT p.130
 com:	Molor is the nemesis of Kahless the Unforgettable, and as such an
 	important Klingon mythological figure.
-cat:	religion
+tag:	religion
 file:	1997-09-01a-news.txt; 1997-11-01-kgt.txt
 
 tlh:	[1] {mon}
@@ -9430,7 +9427,7 @@ pos:	noun
 sv:	«hals», «nacke»
 en:	<neck>
 def:	TKD
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	{mongDech}
@@ -9438,7 +9435,7 @@ pos:	noun
 sv:	«krage»
 en:	<collar>
 def:	TKD
-cat:	clothing
+tag:	clothing
 file:	1992-01-01-tkd.txt
 
 tlh:	{mop}
@@ -9446,7 +9443,7 @@ pos:	noun
 sv:	«kappa», «dräkt»
 en:	<robe>
 def:	TKD
-cat:	clothing
+tag:	clothing
 file:	1992-01-01-tkd.txt
 
 tlh:	{moq}
@@ -9476,7 +9473,7 @@ sv:	«stridskonstform», «kampkonstform», «~Mok'bara~»
 en:	<martial arts> form, <~Mok'bara~>
 def:	KGT
 ref:	TKW p.199
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{morgh}
@@ -9522,7 +9519,7 @@ pos:	noun
 sv:	«ovansida av fot», «fotrygg»
 en:	<top of «foot»>
 def:	KGT
-cat:	body part
+tag:	body part
 file:	1997-11-01-kgt.txt
 
 tlh:	{moy'bI'}
@@ -9639,7 +9636,7 @@ com:	"One of the more notable native animal forms on Neural [Zeta
 	five major factions, each of which is feuding with the other
 	four." See also illustration. [Star Trek: The Worlds Of The
 	Federation, pp.140--141]
-cat:	animal
+tag:	animal
 file:	1992-01-01-tkd.txt
 
 tlh:	{mughwI'}
@@ -9716,7 +9713,7 @@ pos:	noun
 sv:	«klubba» (mindre) (för att slå an musikinstrument)
 en:	<mallet> (for striking a musical instrument)
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{muq}
@@ -9724,7 +9721,7 @@ pos:	verb
 sv:	«ha» en «volym» av
 en:	<have> a <volume> of
 def:	KGT
-cat:	measure
+tag:	measure
 file:	1997-11-01-kgt.txt
 
 tlh:	{muS}
@@ -9867,7 +9864,7 @@ pos:	noun
 sv:	«huvud»
 en:	<head>
 def:	TKD
-cat:	body part
+tag:	body part
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -9892,7 +9889,7 @@ en:	<here>, hereabouts
 desc:	never takes {-Daq} [TKD 3.3.5 (pp.27--28)]
 def:	TKD 3.3.5 (pp.27--28) et al.
 com:	Locative word, never followed by {-Daq} [TKD 3.3.5 (pp.27--28)].
-cat:	placement
+tag:	placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{naDHa'}
@@ -10012,7 +10009,7 @@ pos:	noun
 sv:	«vagg«visa»»
 en:	<lullaby>
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{nalqaD}
@@ -10029,7 +10026,7 @@ en:	«beginning» (of song)
 def:	HQ12:2 p.9 ("Maltz's Reward Part I")
 ref:	TDNW
 see:	{lIH}, {'o'megh}
-cat:	music
+tag:	music
 file:	2003-06-holqed-12-2.txt
 
 tlh:	{namwech}
@@ -10037,7 +10034,7 @@ pos:	noun
 sv:	«tass»
 en:	<paw>
 def:	KGT
-cat:	body part
+tag:	body part
 file:	1997-11-01-kgt.txt
 
 tlh:	{nan} [1.1]
@@ -10052,7 +10049,7 @@ pos:	verb
 sv:	«använda» «fjärde«tå»n» [arkaiskt]
 en:	«use» the «fourth «toe»» [archaic]
 def:	HQ10:2 p.10 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
-cat:	body part
+tag:	body part
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{nan} [2]
@@ -10061,7 +10058,7 @@ sv:	ett slags kampsport«spark»
 en:	type of martial arts «kick»
 def:	HQ10:2 p.11 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 ref:	TDNW
-cat:	fighting
+tag:	fighting
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{nanwI'} [.1]
@@ -10077,7 +10074,7 @@ pos:	noun
 sv:	«fjärde«tå»»
 en:	«fourth «toe»»
 def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
-cat:	body part
+tag:	body part
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{nap}
@@ -10116,7 +10113,7 @@ pos:	noun
 sv:	«pinne» (används för att slå på slaginstrument)
 en:	<stick> (used to strike percussion instrument)
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{naQjej}
@@ -10124,7 +10121,7 @@ pos:	noun
 sv:	«spjut»
 en:	<spear>
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{nargh} [.1]
@@ -10222,7 +10219,7 @@ def:	TKD
 ref:	{qep'a'} 1997
 pun:	Okrand confirmed at {qep'a'} 1997 that {nay} came from "nay" (no).
 	(Chet Braun)
-cat:	family
+tag:	family
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {nay}
@@ -10353,7 +10350,7 @@ sv:	¿?om ... «år»
 en:	<years> from now
 desc:	see {ben}
 def:	TKD
-cat:	time
+tag:	time
 file:	1992-01-01-tkd.txt
 
 tlh:	{nen} [1]
@@ -10448,7 +10445,7 @@ sv:	«tiotusen» (nummerbildande element)
 en:	<ten thousand> (number-forming element)
 def:	TKD
 com:	Number-forming element, see also TKD 5.2.
-cat:	math
+tag:	math
 data:	exclude from K-E
 file:	1992-01-01-tkd.txt
 
@@ -10474,7 +10471,7 @@ en:	«The Netherlands»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	{nIb}
@@ -10522,7 +10519,7 @@ pos:	noun
 sv:	«höger» (sida)
 en:	<right> (side)
 def:	TKD
-cat:	placement
+tag:	placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{nIHwI'}
@@ -10589,7 +10586,7 @@ en:	«Japan»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	{nIQ}
@@ -10612,7 +10609,7 @@ pos:	noun
 sv:	«disruptor»
 en:	<disruptor>
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{nISwI' beH}
@@ -10621,7 +10618,7 @@ sv:	«disruptorgevär»
 en:	<disruptor rifle>
 def:	KGT
 see:	*{nISwI' bej}
-cat:	fighting
+tag:	fighting
 data:	phrase
 file:	1997-11-01-kgt.txt
 
@@ -10632,7 +10629,7 @@ sv:	«disruptorgevär»
 en:	«disruptor rifle»
 def:	KGT p.56
 see:	{nISwI' beH}
-cat:	fighting
+tag:	fighting
 data:	phrase; deprecated
 file:	1997-11-01-kgt.txt
 meta:	*{bej} is here assumed to be a misspelling of {beH}, since it is
@@ -10645,7 +10642,7 @@ pos:	noun
 sv:	«disruptorbatteri», «disruptoruppsättning»
 en:	«disruptor banks»
 def:	KGT p.56
-cat:	fighting
+tag:	fighting
 data:	phrase
 file:	1997-11-01-kgt.txt
 
@@ -10654,7 +10651,7 @@ pos:	noun
 sv:	«disruptorpistol», handhållen disruptor
 en:	<disruptor pistol>, hand-held disruptor
 def:	KGT
-cat:	fighting
+tag:	fighting
 data:	phrase
 file:	1997-11-01-kgt.txt
 
@@ -10663,7 +10660,7 @@ pos:	noun
 sv:	«disruptorstråle»
 en:	«disruptor beam»
 def:	KGT p.56
-cat:	fighting
+tag:	fighting
 data:	phrase
 file:	1997-11-01-kgt.txt
 
@@ -10694,7 +10691,7 @@ pos:	noun
 sv:	«finger»
 en:	<finger>
 def:	TKD
-cat:	body part
+tag:	body part
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -10711,7 +10708,7 @@ pos:	noun
 sv:	«fingernagel»
 en:	<fingernail>
 def:	TKDa
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	{nItlhpach} [.2]
@@ -10734,7 +10731,7 @@ pos:	noun
 sv:	«pyjamas»
 en:	<pajamas>
 def:	TKD
-cat:	clothing
+tag:	clothing
 file:	1992-01-01-tkd.txt
 
 tlh:	{nIvqu'}
@@ -10769,7 +10766,7 @@ pos:	verb
 sv:	vara «lång», vara «långdragen» (varaktighet)
 en:	be <long>, be lengthy (duration)
 def:	TKD
-cat:	time
+tag:	time
 file:	1992-01-01-tkd.txt
 meta:	The word "be" was inserted before the adjectival "lengthy".
 
@@ -10778,7 +10775,7 @@ pos:	verb
 sv:	«ge»
 en:	<give>
 def:	TKD
-cat:	money
+tag:	money
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -10788,7 +10785,7 @@ sv:	«gåva»
 en:	<gift>
 def:	TKD
 ref:	TKW p.189
-cat:	money
+tag:	money
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -10798,7 +10795,7 @@ sv:	«ge» tillbaka, «lämna» tillbaka
 en:	<give back>, <return>
 def:	KGT
 ref:	TKW p.189
-cat:	money
+tag:	money
 data:	derived form
 file:	1997-11-01-kgt.txt
 
@@ -10869,7 +10866,7 @@ def:	TKD
 ref:	TKW p.8
 com:	Could also be used as an exclamation (as can all adverbials)
 	meaning "Move fast! Move quickly!". [TKD 5.4 (p.57)]
-cat:	time
+tag:	time
 file:	1992-01-01-tkd.txt
 
 tlh:	{non}
@@ -10902,7 +10899,7 @@ en:	«Norway»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	{norgh}
@@ -10915,7 +10912,7 @@ com:	Sarek (p.218): "A shark is an Earth animal, a huge fish...
 	"An animal that swims in the sea, a dangerous predator, you
 	know?"
 	"Oh!" she cried. "you mean ~norgh?~"
-cat:	animal
+tag:	animal
 file:	1997-11-01-kgt.txt
 
 tlh:	{noS}
@@ -10938,7 +10935,7 @@ sv:	«aldrig»
 en:	<never>
 def:	TKD
 ref:	TKW pp.46, 80, 105, 205
-cat:	time
+tag:	time
 file:	1992-01-01-tkd.txt
 
 tlh:	{notqa'}
@@ -10948,7 +10945,7 @@ en:	type of «bird» (large, black)
 def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
 com:	nowhere near as large as a qa'rol, which is really big
 pun:	"'Nevermore' quoth the raven." ({notqa'} "never again").
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{notlh}
@@ -11011,7 +11008,7 @@ pos:	noun
 sv:	«panna» [regionalt]
 en:	<forehead> [regional]
 def:	KGT
-cat:	body part
+tag:	body part
 file:	1997-11-01-kgt.txt
 
 tlh:	{nub}
@@ -11074,7 +11071,7 @@ sv:	«vapen»
 en:	<weapon>
 def:	TKD
 ref:	TKW p.151
-cat:	fighting
+tag:	fighting
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -11101,7 +11098,7 @@ pos:	noun
 sv:	hand«vapen»
 en:	small <arms>
 def:	TKD
-cat:	fighting
+tag:	fighting
 data:	derived form
 file:	1992-01-01-tkd.txt
 
@@ -11110,7 +11107,7 @@ pos:	noun
 sv:	«arsenal»
 en:	<arsenal>
 def:	TKDa
-cat:	fighting
+tag:	fighting
 data:	derived form
 file:	1992-01-01-tkd.txt
 
@@ -11119,7 +11116,7 @@ pos:	noun
 sv:	«vapenofficer»
 en:	<weapons officer>
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{nuj}
@@ -11127,7 +11124,7 @@ pos:	noun
 sv:	«mun»
 en:	<mouth>
 def:	TKD
-cat:	body part
+tag:	body part
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -11255,7 +11252,7 @@ en:	«New Zealand»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	{ngab}
@@ -11309,7 +11306,7 @@ pos:	verb
 sv:	vara «kort» (i tid)
 en:	be <short> (in duration)
 def:	KGT
-cat:	time
+tag:	time
 file:	1997-11-01-kgt.txt
 
 tlh:	{ngal}
@@ -11348,7 +11345,7 @@ pos:	verb
 sv:	«innehålla»
 en:	<contain> (have inside)
 def:	TKD
-cat:	placement
+tag:	placement
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -11357,7 +11354,7 @@ pos:	noun
 sv:	«krut»
 en:	<gunpowder>
 def:	TKD
-cat:	fighting
+tag:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{ngat} [.2]
@@ -11414,7 +11411,7 @@ pos:	noun
 sv:	«dal»
 en:	<valley>
 def:	TKD
-cat:	landscape
+tag:	landscape
 file:	1992-01-01-tkd.txt
 
 tlh:	{ngech} [.2]
@@ -11423,7 +11420,7 @@ sv:	«springa» mellan kvinnas bröst
 en:	woman's «cleavage»
 def:	{qep'a'} 1996
 ref:	Email 1996-08-08 (by David Trimboli, to tlhingan-hol, "Re: Nobody")
-cat:	body part
+tag:	body part
 file:	1996-08-08-email.txt
 
 tlh:	{ngeD}
@@ -11462,7 +11459,7 @@ pos:	noun
 sv:	«skog»
 en:	<forest>, <woods>
 def:	TKD
-cat:	landscape
+tag:	landscape
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -11471,7 +11468,7 @@ pos:	noun
 sv:	«sjö»
 en:	<lake>
 def:	TKD
-cat:	landscape
+tag:	landscape
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -11487,7 +11484,7 @@ pos:	noun
 sv:	«trappa», «trappuppgång» (utom vid skeppsdörr) [regionalt]
 en:	<stairs>, «stairway» (except at ship door) [regional]
 def:	KGT
-cat:	architecture
+tag:	architecture
 file:	1997-11-01-kgt.txt
 
 tlh:	{ngeQ}
@@ -11511,7 +11508,7 @@ sv:	«sälja»
 en:	<sell>
 def:	TKD
 ref:	TKW p.190
-cat:	money
+tag:	money
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -11540,7 +11537,7 @@ pos:	noun
 sv:	«vrist», «fotled» (även slanguttryck för ogillande)
 en:	<ankle> (also slang term of deprecation)
 def:	KGT
-cat:	body part
+tag:	body part
 file:	1997-11-01-kgt.txt
 
 tlh:	{ngIj}
@@ -11602,7 +11599,7 @@ pos:	verb
 sv:	«ha» en «vikt» av, «väga»
 en:	<have> a <weight> of, weigh
 def:	KGT
-cat:	measure
+tag:	measure
 file:	1997-11-01-kgt.txt
 
 tlh:	{ngoch}
@@ -11671,7 +11668,7 @@ pos:	verb
 sv:	«förflytta» en «~bat'leth~» från horisontell till vertikal position
 en:	<move> «~bat'leth~» from horizontal to vertical orientation
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{ngong} [1]
@@ -11767,7 +11764,7 @@ sv:	«då», «vid» den tiden
 en:	«then», «at» that time
 def:	News 1999-11-05
 ref:	HQ8:4 pp.8--9 ("Maltz Online")
-cat:	time
+tag:	time
 file:	1999-11-05-news.txt; 1999-12-holqed-08-4-a.txt
 
 tlh:	{ngujlep}
@@ -11775,7 +11772,7 @@ pos:	noun
 sv:	«munstycke» (på blåsinstrument)
 en:	<mouthpiece> (of a wind instrument)
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{ngun}
@@ -11791,7 +11788,7 @@ pos:	noun
 sv:	«cape», «mantel» (klädesplagg)
 en:	<cape> (clothing)
 def:	TKD
-cat:	clothing
+tag:	clothing
 file:	1992-01-01-tkd.txt
 
 tlh:	{ngup} [.2]
@@ -11889,7 +11886,7 @@ pos:	numeral
 sv:	«noll»
 en:	<zero>
 def:	TKD
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {pagh} [2]
@@ -11906,7 +11903,7 @@ pos:	numeral
 sv:	«nollte» (om något som inte har hänt)
 en:	«zeroth» (about something that has not occurred)
 def:	KGT p.177
-cat:	math
+tag:	math
 file:	1997-11-01-kgt.txt
 
 tlh:	{paghlogh}
@@ -11921,7 +11918,7 @@ pos:	noun
 sv:	«dräkt»
 en:	<gown>
 def:	TKD
-cat:	clothing
+tag:	clothing
 file:	1992-01-01-tkd.txt
 
 tlh:	{paj}
@@ -11950,7 +11947,7 @@ pos:	verb
 sv:	«knäppa» (på ett stränginstrument)
 en:	<pluck> (a stringed instrument)
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{paq}
@@ -11982,7 +11979,7 @@ pos:	noun
 sv:	en slags «fågel» (mellanstorlek, med särskilt grälla färger)
 en:	type of «bird» (mid-sized, with particularly garish coloring)
 def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{parHa'}
@@ -12112,7 +12109,7 @@ en:	<there>, over there, thereabouts
 desc:	never takes {-Daq} [TKD 3.3.5 (pp.27--28)]
 def:	TKD 3.3.5 (pp.27--28) et al.
 com:	Locative word, never followed by {-Daq} [TKD 3.3.5 (pp.27--28)].
-cat:	placement
+tag:	placement
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -12137,7 +12134,7 @@ sv:	inner«tak» (i ett rum högst upp en byggnad eller konstruktion)
 en:	«ceiling» (of a room on the top story of a structure)
 def:	News 1998-12-07; HQ8:3 p.2 ("{matlh juppu' mu'mey}")
 see:	{rav'eq}
-cat:	architecture
+tag:	architecture
 data:	phrase
 file:	1998-12-07-news.txt; 1999-09-holqed-08-3.txt
 
@@ -12146,7 +12143,7 @@ pos:	noun
 sv:	insida av ytter«vägg»
 en:	interior face of exterior «wall»
 def:	News 1998-12-07
-cat:	architecture
+tag:	architecture
 data:	phrase
 file:	1998-12-07-news.txt
 
@@ -12162,7 +12159,7 @@ pos:	verb
 sv:	«snöa»
 en:	<snow>
 def:	TKD
-cat:	landscape
+tag:	landscape
 file:	1992-01-01-tkd.txt
 
 tlh:	{pegh} [1.1]
@@ -12226,7 +12223,7 @@ pos:	noun
 sv:	«dag», «dagtid»
 en:	<daytime>
 def:	TKD
-cat:	time
+tag:	time
 file:	1992-01-01-tkd.txt
 
 tlh:	{pemjep}
@@ -12234,7 +12231,7 @@ pos:	noun
 sv:	«middagstid», mitt på dagen
 en:	<midday>
 def:	TKD
-cat:	time
+tag:	time
 file:	1992-01-01-tkd.txt
 
 tlh:	{peng}
@@ -12459,7 +12456,7 @@ pos:	noun
 sv:	territorial«mur» (t.ex. Berlinmuren)
 en:	territorial «wall» (e.g. Berlin Wall)
 def:	News 1998-12-07
-cat:	architecture
+tag:	architecture
 data:	phrase
 file:	1998-12-07-news.txt
 
@@ -12485,7 +12482,7 @@ en:	<pipius>
 def:	TKDa
 ref:	TKW p.185
 com:	Animals whose claws are used for food, requiring breaking.
-cat:	animal
+tag:	animal
 file:	1992-01-01-tkd.txt
 
 tlh:	{pIq}
@@ -12495,7 +12492,7 @@ en:	«time» period from now
 desc:	{cha' tup pIq} ~two minutes from now~ (lit. ~two minute
 	time-period-from-now~)
 def:	HQ8:3 p.3 ("{matlh juppu' mu'mey}")
-cat:	time
+tag:	time
 file:	1999-09-holqed-08-3.txt
 
 tlh:	{pIqaD}
@@ -12514,7 +12511,7 @@ sv:	«undersida»
 en:	«bottom» (underside of something, not interior bottom)
 def:	HQ8:3 p.2 ("{matlh juppu' mu'mey}")
 see:	{yor}; {bIS'ub}
-cat:	placement
+tag:	placement
 file:	1999-09-holqed-08-3.txt
 
 tlh:	{pItSa' chab}
@@ -12583,7 +12580,7 @@ pos:	verb
 sv:	vara «fet»
 en:	be <fat>
 def:	TKD
-cat:	shape
+tag:	shape
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 meta:	FIXME -- Is there a difference in meaning between {pI'} and {ror}?
@@ -12593,7 +12590,7 @@ pos:	noun
 sv:	«morgon»
 en:	<morning>
 def:	TKD
-cat:	time
+tag:	time
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -12602,7 +12599,7 @@ pos:	noun
 sv:	«hår» (på kroppen)
 en:	<hair> (on body)
 def:	TKD
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	{poch}
@@ -12632,7 +12629,7 @@ pos:	noun
 sv:	«handske»
 en:	<glove>
 def:	TKD
-cat:	clothing
+tag:	clothing
 file:	1992-01-01-tkd.txt
 
 tlh:	{poH} [1]
@@ -12640,7 +12637,7 @@ pos:	verb
 sv:	«klocka», «ta tid på», bestämma tid för
 en:	<time>
 def:	TKD
-cat:	time
+tag:	time
 file:	1992-01-01-tkd.txt
 
 tlh:	{poH} [2]
@@ -12649,7 +12646,7 @@ sv:	«tid», «tidsperiod»
 en:	period of <time>
 desc:	{cha' vatlh DIS poH} ~two centuries~
 def:	TKD
-cat:	time
+tag:	time
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -12782,7 +12779,7 @@ en:	«Portugal»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	[1] {poS}
@@ -12799,7 +12796,7 @@ pos:	noun
 sv:	«vänster» (sida)
 en:	<left> (side)
 def:	TKD
-cat:	placement
+tag:	placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{poSmoH}
@@ -12837,7 +12834,7 @@ pos:	noun
 sv:	«eftermiddag»
 en:	<afternoon>
 def:	TKD
-cat:	time
+tag:	time
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -12884,7 +12881,7 @@ pos:	noun
 sv:	«land» (ovanför vattnet)
 en:	<land>
 def:	TKD
-cat:	landscape
+tag:	landscape
 file:	1992-01-01-tkd.txt
 
 tlh:	{puH Duj}
@@ -12979,7 +12976,7 @@ pos:	verb
 sv:	«sparka»
 en:	<kick>
 def:	TKD
-cat:	fighting
+tag:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{puq}
@@ -12988,7 +12985,7 @@ sv:	«barn», «avkomma»
 en:	<child>, <offspring>
 def:	TKD
 ref:	TKW p.205
-cat:	family
+tag:	family
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -12997,7 +12994,7 @@ pos:	noun
 sv:	«dotter»
 en:	<daughter>
 def:	TKD
-cat:	family
+tag:	family
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -13023,7 +13020,7 @@ sv:	«son»
 en:	<son>
 def:	TKD
 ref:	TKW pp.155, 177
-cat:	family
+tag:	family
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -13032,7 +13029,7 @@ pos:	noun
 sv:	«barnbarn»
 en:	«grandchild»
 def:	HQ9:3 p.9 ("{matlh juppu' mu'mey}")
-cat:	family
+tag:	family
 file:	2000-09-holqed-09-3.txt
 
 tlh:	{puqnI'be'}
@@ -13040,7 +13037,7 @@ pos:	noun
 sv:	«sondotter», «dotterdotter»
 en:	«granddaughter»
 def:	HQ9:3 p.9 ("{matlh juppu' mu'mey}")
-cat:	family
+tag:	family
 file:	2000-09-holqed-09-3.txt
 
 tlh:	{puqnI'loD}
@@ -13048,7 +13045,7 @@ pos:	noun
 sv:	«sonson», «dotterson»
 en:	«grandson»
 def:	HQ9:3 p.9 ("{matlh juppu' mu'mey}")
-cat:	family
+tag:	family
 file:	2000-09-holqed-09-3.txt
 
 tlh:	{puq poH}
@@ -13057,7 +13054,7 @@ sv:	«generation»
 en:	<generation>
 def:	KGT
 ref:	TKW p.155
-cat:	family
+tag:	family
 data:	phrase
 file:	1997-11-01-kgt.txt
 
@@ -13093,7 +13090,7 @@ def:	TKD
 ref:	ST5; HQ8:4 p.11 ("Notes from Star Trek V: The Final Frontier")
 cite:	{tlha'a HoD, DoS wIpuSta'.} "Captain Klaa, we have a target in [our
 	weapon's] sight." [ST5]
-cat:	fighting
+tag:	fighting
 file:	1992-01-01-tkd.txt; 1999-12-holqed-08-4-b.txt
 
 tlh:	{puv}
@@ -13122,7 +13119,7 @@ pos:	noun
 sv:	«phaser»
 en:	<phaser>
 def:	TKD
-cat:	fighting
+tag:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{pu'beH}
@@ -13131,7 +13128,7 @@ sv:	«phasergevär»
 en:	<phaser rifle>
 def:	TKD
 see:	*{pu'bej}
-cat:	fighting
+tag:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	*{pu'bej}
@@ -13141,7 +13138,7 @@ sv:	«phasergevär»
 en:	«phaser rifle»
 def:	KGT p.56
 see:	{pu'beH}
-cat:	fighting
+tag:	fighting
 data:	deprecated
 file:	1997-11-01-kgt.txt
 meta:	*{bej} is here assumed to be a misspelling of {beH}, since it is
@@ -13154,7 +13151,7 @@ pos:	noun
 sv:	«phaserbesättning», «phasermanskap»
 en:	<phaser crew>
 def:	TKD
-cat:	fighting
+tag:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{pu'DaH}
@@ -13162,7 +13159,7 @@ pos:	noun
 sv:	«phaserbatteri», «phaseruppsättning»
 en:	<phaser banks>
 def:	TKD
-cat:	fighting
+tag:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{pu'HIch}
@@ -13170,7 +13167,7 @@ pos:	noun
 sv:	«phaserpistol»
 en:	<phaser pistol>
 def:	TKD
-cat:	fighting
+tag:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{pu'jIn}
@@ -13201,7 +13198,7 @@ en:	<face>
 def:	TKD
 ref:	TKW p.59
 com:	Symbol of identity.
-cat:	body part
+tag:	body part
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -13303,7 +13300,7 @@ pos:	noun
 sv:	«fot»
 en:	<foot>
 def:	TKD
-cat:	body part
+tag:	body part
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -13339,7 +13336,7 @@ en:	«use» the «pinky» («little «finger»»)
 def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 com:	An idiomatic gesture: to point your pinky at someone is to
 	comment that you believe they are old.
-cat:	body part
+tag:	body part
 file:	2001-06-holqed-10-2.txt
 meta:	FIXME -- Swedish lookup word «lill«fingret»» should be indefinite. How
 	could this be accomplished?
@@ -13349,7 +13346,7 @@ pos:	noun
 sv:	en slag «fågel» (berömd för sin sång)
 en:	type of «bird» (noted for its song)
 def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{qanwI'}
@@ -13357,7 +13354,7 @@ pos:	noun
 sv:	«lill«finger»»
 en:	«pinky», «little «finger»»
 def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
-cat:	body part
+tag:	body part
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{qang} [.1]
@@ -13427,7 +13424,7 @@ en:	type of «bird» (capable of mimicking speech)
 def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 com:	Some people pluralize these with {-pu'}, but most use {-mey}.
 pun:	Wordplay on "karaoke".
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{qaryoq'a'}
@@ -13437,7 +13434,7 @@ en:	type of «bird» (large, capable of mimicking speech)
 def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 com:	Some people pluralize these with {-pu'}, but most use {-mey}.
 pun:	Wordplay on "karaoke".
-cat:	animal
+tag:	animal
 data:	derived form
 file:	2001-12-holqed-10-4.txt
 
@@ -13462,7 +13459,7 @@ pos:	verb
 sv:	«ackompanjera» (sång) med instrumental musik
 en:	<accompany> (singing) with instrumental music
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{qatlh}
@@ -13503,7 +13500,7 @@ pos:	verb
 sv:	¿?«använda» «lång«fingret»»
 en:	«use» the «middle «finger»» («second finger»)
 def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
-cat:	body part
+tag:	body part
 file:	2001-06-holqed-10-2.txt
 
 tlh:	[2] {qay}
@@ -13519,7 +13516,7 @@ pos:	noun
 sv:	«lång«finger»»
 en:	«middle «finger»», «second finger»
 def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
-cat:	body part
+tag:	body part
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{qay'}
@@ -13536,7 +13533,7 @@ sv:	«ande»
 en:	<spirit>
 def:	KGT
 ref:	TKW pp.7, 145, 147
-cat:	religion
+tag:	religion
 file:	1997-11-01-kgt.txt
 
 tlh:	{qa'meH}
@@ -13565,7 +13562,7 @@ en:	«Canada»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	{qa'rI'}
@@ -13588,7 +13585,7 @@ com:	"For the end of a longish enclosed space that one is typically inside
 pun:	Okrand confirmed that this is named after Kari, the mother of his twin
 	nieces Megan ({megh'an}) and Erin ({'er'In}). ({qep'a'} 2003)
 see:	{DIn}, {lojmIt}
-cat:	architecture
+tag:	architecture
 file:	2003-06-holqed-12-2.txt
 
 tlh:	{qa'rol}
@@ -13597,7 +13594,7 @@ sv:	en slags «fågel» (verkligt stor, svart)
 en:	type of «bird» (really big, black)
 def:	HQ10:4 p.4 ("{matlh juppu' mu'mey}")
 com:	much larger than a {notqa'}
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{qa'vam}
@@ -13629,7 +13626,7 @@ pos:	verb
 sv:	«klämma» (på ett säckpipeinstrument)
 en:	<squeeze> (windbag instrument)
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{qech}
@@ -13683,7 +13680,7 @@ sv:	«~kellicam~» («längd«enhet»»)
 en:	<~kellicam~> («unit» of «length»)
 desc:	about 2 kilometers
 def:	TKD; STE
-cat:	measure
+tag:	measure
 file:	1992-01-01-tkd.txt
 meta:	In TKD translated as "kellicam (n)", added "unit of length" for clarity
 	here. TKD E-K has a quite obvious misspelling of the Klingon word as
@@ -13711,7 +13708,7 @@ pos:	adverbial
 sv:	«nyligen», för ett litet tag sedan, alldeles «nyss»
 en:	«recently», a short time ago
 def:	News 1999-02-02
-cat:	time
+tag:	time
 file:	1999-02-02-email.txt
 
 tlh:	[1] {qeng}
@@ -13824,7 +13821,7 @@ pos:	noun
 sv:	«käke», «kind»
 en:	<jowl>, <cheek>
 def:	TKD; KGT
-cat:	body part
+tag:	body part
 data:	KLCP-1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
@@ -13833,7 +13830,7 @@ pos:	verb
 sv:	¿?«använda» «ring«fingret»»
 en:	«use» the «ring «finger»» («third finger»)
 def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
-cat:	body part
+tag:	body part
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{qewwI'}
@@ -13841,7 +13838,7 @@ pos:	noun
 sv:	«ring«finger»»
 en:	«ring «finger»», «third finger»
 def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
-cat:	body part
+tag:	body part
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{qeylIn}
@@ -13858,7 +13855,7 @@ sv:	«Kahless»
 en:	«Kahless»
 def:	TKD 5.6 (p.58)
 com:	Kahless the Unforgettable is an important Klingon mythological figure.
-cat:	religion
+tag:	religion
 file:	1992-01-01-tkd.txt
 
 tlh:	{qeylIS betleH}
@@ -13866,7 +13863,7 @@ pos:	noun
 sv:	«Kahless svärd»
 en:	<Sword of Kahless>
 def:	KGT
-cat:	religion
+tag:	religion
 data:	phrase
 file:	1997-11-01-kgt.txt
 
@@ -13995,7 +13992,7 @@ sv:	«slå» (med hand eller sak)
 en:	<hit> (with hand, fist, implement)
 def:	TKD
 ref:	TKW pp.8, 191
-cat:	fighting
+tag:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{qIQ}
@@ -14033,7 +14030,7 @@ pos:	noun
 sv:	«knä»
 en:	<knee>
 def:	TKD
-cat:	body part
+tag:	body part
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -14043,7 +14040,7 @@ sv:	«kroppsdel» (inte ytterligare identifierad)
 en:	<body part> (not further identified)
 def:	KGT
 ref:	TKW p.174
-cat:	body part
+tag:	body part
 file:	1997-11-01-kgt.txt
 
 tlh:	{qIvo'rIt}
@@ -14079,7 +14076,7 @@ pos:	noun
 sv:	«insida»
 en:	<inside>, <interior>
 def:	KGT
-cat:	placement
+tag:	placement
 file:	1997-11-01-kgt.txt
 
 tlh:	[1] {qogh}
@@ -14095,7 +14092,7 @@ sv:	«öra» (utvärtes broskflik)
 en:	<ear> (external, cartilaginous flap)
 def:	KGT
 see:	{teS} "ear (internal, organ of hearing)" (n); {Serrum} earwax (n)
-cat:	body part
+tag:	body part
 file:	1997-11-01-kgt.txt
 
 tlh:	{qoH}
@@ -14121,7 +14118,7 @@ pos:	noun
 sv:	«stup», brant «klippa»
 en:	<cliff>
 def:	TKD
-cat:	landscape
+tag:	landscape
 file:	1992-01-01-tkd.txt
 
 tlh:	{qolotlh}
@@ -14169,7 +14166,7 @@ pos:	noun
 sv:	«sångförfattare», «låtskrivare»
 en:	«songwriter», «composer»
 def:	KGT p.71
-cat:	music
+tag:	music
 data:	derived form
 file:	1997-11-01-kgt.txt
 
@@ -14208,7 +14205,7 @@ sv:	«familj»
 en:	<family>
 def:	TKD
 ref:	TKW p.155
-cat:	family
+tag:	family
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -14408,7 +14405,7 @@ en:	«hole» in musical instrument (e.g. flute)
 def:	HQ10:2 p.8 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 com:	This is to change pitch in a wind instrument; apparently not a
 	soundhole for stringed instrument.
-cat:	music
+tag:	music
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{qup}
@@ -14416,7 +14413,7 @@ pos:	noun
 sv:	«äldre», «åldring»
 en:	<elder>
 def:	TKD
-cat:	family
+tag:	family
 file:	1992-01-01-tkd.txt
 
 tlh:	{quprIp}
@@ -14424,7 +14421,7 @@ pos:	noun
 sv:	«Äldreråd»
 en:	<Council of Elders>
 def:	TKD
-cat:	family
+tag:	family
 file:	1992-01-01-tkd.txt
 
 tlh:	{quq}
@@ -14468,7 +14465,7 @@ pos:	noun
 sv:	ett slags hand«vapen», «~kut'luch~» (traditionell lönnmördarkniv)
 en:	type of hand <weapon>, «~kut'luch~» (traditional assassin's knife)
 def:	TKDa; TKW p.103; STE
-cat:	fighting
+tag:	fighting
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
 tlh:	{qutluch tay}
@@ -14476,7 +14473,7 @@ pos:	noun
 sv:	«~Kut'luch~-ceremoni»
 en:	«~Kut'luch~ ceremony»
 def:	KGT p.62
-cat:	fighting; religion
+tag:	fighting; religion
 data:	phrase; derived form
 file:	1997-11-01-kgt.txt
 
@@ -14639,7 +14636,7 @@ pos:	verb
 sv:	«svinga», «använda» (ett vapen)
 en:	<wield>, <swing> (a weapon)
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{QaD} [.1]
@@ -14696,7 +14693,7 @@ pos:	noun
 sv:	ett slags «djur», «~kradge~»
 en:	type of <animal>, <~kradge~>
 def:	KGT
-cat:	animal
+tag:	animal
 file:	1997-11-01-kgt.txt
 
 tlh:	{Qaj tlhuQ}
@@ -14883,7 +14880,7 @@ pos:	verb
 sv:	«använda» «lill«tå»n» («femtetå»n) [arkaiskt]
 en:	«use» the «little «toe»» («fifth toe») [archaic]
 def:	HQ10:2 p.10 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
-cat:	body part
+tag:	body part
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{Qay'wI'}
@@ -14891,7 +14888,7 @@ pos:	noun
 sv:	«lill«tå»», «femtetå»
 en:	«little «toe»», «fifth toe»
 def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
-cat:	body part
+tag:	body part
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{Qa'}
@@ -14902,7 +14899,7 @@ def:	TKD
 com:	There are a few animals that make a particular ruckus at dawn. [...]
 	Another, though not a bird, is the {Qa'}, specifically the {jajlo'
 	Qa'}. [HQ10:4 p.5 ("{matlh juppu' mu'mey}")]]
-cat:	animal
+tag:	animal
 file:	1992-01-01-tkd.txt; 2001-12-holqed-10-4.txt
 
 tlh:	{Qa'Hom}
@@ -14915,7 +14912,7 @@ com:	The {Qa'Hom}, an animal similar to a {Qa'} but smaller, has been
 	confused with a bird by some; Maltz does not know why, especially since
 	it is the {jajlo' Qa'}, not the {Qa'Hom}, that makes a fuss in the
 	morning like the {'uSgheb} does. [HQ10:4 p.5 ("{matlh juppu' mu'mey}")]
-cat:	animal
+tag:	animal
 file:	1997-11-01-kgt.txt
 
 tlh:	{Qa'raj}
@@ -14923,7 +14920,7 @@ pos:	noun
 sv:	ett slags «djur», «~ka'raj~»
 en:	type of <animal>, <~ka'raj~>
 def:	KGT
-cat:	animal
+tag:	animal
 file:	1997-11-01-kgt.txt
 meta:	Entries differ and have been combined here.
 
@@ -15149,7 +15146,7 @@ com:	"When shown a pencil, Maltz said that the sharp end could be called a
 	{QIn}, but if the pencil were new and did not yet have a point, the
 	ready-to-be-sharpened end would be a {megh'an} or {'er'In}."
 	[HQ12:2 p.7 ("Maltz's Reward Part I")]
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt; 2003-06-holqed-12-2.txt
 
 tlh:	{QIncha'}
@@ -15166,7 +15163,7 @@ com:	The English accompanying the opera said "Krincha, short and fierce". I
 	four or six legs. I suspect that the opera's author intended to invoke
 	that animal but misspelled its name. /Alan Anderson (talking about the
 	Klingon opera {'u'})
-cat:	animal
+tag:	animal
 file:	2011-08-22-email.txt
 
 tlh:	{QIn pup}
@@ -15174,7 +15171,7 @@ pos:	noun
 sv:	slät «spjutspets» (med en enda vass spets)
 en:	plain «spearhead» (with single sharp point)
 def:	KGT p.64
-cat:	fighting
+tag:	fighting
 data:	phrase
 file:	1997-11-01-kgt.txt
 
@@ -15183,7 +15180,7 @@ pos:	noun
 sv:	«spjutspets» (med flera spetsar)
 en:	«spearhead» (with multiple points)
 def:	KGT p.64
-cat:	fighting
+tag:	fighting
 data:	phrase
 file:	1997-11-01-kgt.txt
 
@@ -15208,7 +15205,7 @@ pos:	adverbial
 sv:	«långsamt»
 en:	<slowly>
 def:	TKD
-cat:	time
+tag:	time
 file:	1992-01-01-tkd.txt
 
 tlh:	{QIv}
@@ -15253,7 +15250,7 @@ ref:	KCD
 com:	mythological place; source of all creation
 	According to KCD this was the source of all creation in Klingon
 	mythology.
-cat:	religion
+tag:	religion
 file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
 
 tlh:	{QI'yaH}
@@ -15310,7 +15307,7 @@ pos:	noun
 sv:	ett slags «djur»
 en:	type of <animal>
 def:	TKD
-cat:	animal
+tag:	animal
 file:	1992-01-01-tkd.txt
 
 tlh:	{QoghIj}
@@ -15439,7 +15436,7 @@ pos:	noun
 sv:	«musik»
 en:	<music>
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{QoQ jan}
@@ -15447,7 +15444,7 @@ pos:	noun
 sv:	«musik«instrument»»
 en:	«musical «instrument»»
 def:	KGT p.74
-cat:	music
+tag:	music
 data:	phrase
 file:	1997-11-01-kgt.txt
 
@@ -15456,7 +15453,7 @@ pos:	verb
 sv:	«slåss», «strida» (väldigt litet slagsmål)
 en:	<fight>, <battle> (very minor fight)
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 meta:	Entries differ somewhat in source. KGT K-E entry is used here.
 
@@ -15473,7 +15470,7 @@ pos:	noun
 sv:	«fönster»
 en:	<window>
 def:	KGT
-cat:	architecture
+tag:	architecture
 file:	1997-11-01-kgt.txt
 
 tlh:	{QoS}
@@ -15571,7 +15568,7 @@ pos:	noun
 sv:	«panna»
 en:	<forehead>
 def:	TKD
-cat:	body part
+tag:	body part
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -15674,7 +15671,7 @@ pos:	noun
 sv:	«gud», «övernaturlig varelse»
 en:	«god», «supernatural being»
 def:	News 1999-07-19
-cat:	religion
+tag:	religion
 file:	1999-07-19a-email.txt
 
 tlh:	{Qup}
@@ -15812,7 +15809,7 @@ sv:	«natt»
 en:	<night>
 def:	TKD
 ref:	TKW p.127
-cat:	time
+tag:	time
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -15821,7 +15818,7 @@ pos:	noun
 sv:	«midnatt»
 en:	<midnight>
 def:	TKD
-cat:	time
+tag:	time
 file:	1992-01-01-tkd.txt
 
 tlh:	{rap}
@@ -15885,7 +15882,7 @@ en:	«Russia»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	{ratlh}
@@ -15901,7 +15898,7 @@ pos:	noun
 sv:	«golv»
 en:	<floor>
 def:	TKD
-cat:	architecture
+tag:	architecture
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -15912,7 +15909,7 @@ en:	«minimum»
 def:	BoP
 cite:	{Hung buv rav: patlh Hut} <Classified Level 9 and Above> [BoP]
 see:	{'aqroS} [.2]
-cat:	math
+tag:	math
 file:	1998-11-01-bop.txt
 
 tlh:	{rav'eq}
@@ -15921,7 +15918,7 @@ sv:	inner«tak» (i ett rum med ett rum till ovanför)
 en:	«ceiling» (of a room that has a room above it)
 def:	News 1998-12-07; HQ8:3 p.2 ("{matlh juppu' mu'mey}")
 see:	{pa' beb}
-cat:	architecture
+tag:	architecture
 file:	1998-12-07-news.txt; 1999-09-holqed-08-3.txt
 
 tlh:	{raw'}
@@ -15929,7 +15926,7 @@ pos:	noun
 sv:	en slags «fågel» (vattenlevande, färgrik fjäderdräkt)
 en:	type of «bird» (aquatic, colorful plumage)
 def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{ray}
@@ -16019,7 +16016,7 @@ pos:	noun
 sv:	ytter«vägg»
 en:	exterior «wall»
 def:	News 1998-12-07
-cat:	architecture
+tag:	architecture
 file:	1998-12-07-news.txt
 
 tlh:	{regh}
@@ -16059,7 +16056,7 @@ en:	<always>
 def:	TKD
 ref:	TKW pp.34, 49, 77, 79, 103, 123, 133, 141, 159, 170, 179, 200
 see:	{Hochlogh}
-cat:	time
+tag:	time
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {reH}
@@ -16081,7 +16078,7 @@ pos:	noun
 sv:	«timme»
 en:	<hour>
 def:	TKD
-cat:	measure; time
+tag:	measure; time
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -16091,7 +16088,7 @@ sv:	¿?för ...s «tid» sedan
 en:	«time» period ago
 desc:	{cha' tup ret} ~two minutes ago~ (lit. ~two minute time-period-ago~)
 def:	HQ8:3 p.3 ("{matlh juppu' mu'mey}")
-cat:	time
+tag:	time
 file:	1999-09-holqed-08-3.txt
 
 tlh:	{ret'aq}
@@ -16106,7 +16103,7 @@ pos:	noun
 sv:	område «brevid», område «intill»
 en:	area <beside>, area <next to>
 def:	TKD
-cat:	placement
+tag:	placement
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -16122,7 +16119,7 @@ pos:	verb
 sv:	«trycka» ihop och sträcka ut (säckpipeinstrument)
 en:	<squeeze> and stretch out (windbag instrument)
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{rIgh}
@@ -16154,7 +16151,7 @@ en:	«use» the «thumb» (usually used to/about children)
 def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 com:	Most commonly used in reference to a child using a thumb.
 	See also {Sen}.
-cat:	body part
+tag:	body part
 file:	2001-06-holqed-10-2.txt
 meta:	Should {rIl} "use thumb" and "play" really be grouped together?
 
@@ -16165,7 +16162,7 @@ en:	«play» (a horn instrument)
 def:	HQ10:2 p.9 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 com:	This is a brass technique, not a flute technique. Most typically
 	it is used with {gheb} as the object.
-cat:	music
+tag:	music
 file:	2001-06-holqed-10-2.txt
 meta:	Should {rIl} "use thumb" and "play" really be grouped together?
 
@@ -16176,7 +16173,7 @@ en:	«thumb» (usually used to/about children)
 def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 com:	Most commonly used in reference to a child's thumb.
 	See also {Sen}.
-cat:	body part
+tag:	body part
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{rIn}
@@ -16259,7 +16256,7 @@ pos:	noun
 sv:	«bål» (kroppsdel)
 en:	<trunk> (of body)
 def:	TKD
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	{roD}
@@ -16328,7 +16325,7 @@ sv:	«skägg»
 en:	<beard>
 def:	TKD
 ref:	TKW p.85
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	{rom}
@@ -16424,7 +16421,7 @@ pos:	verb
 sv:	«använda» «tredje«tå»n» [arkaiskt]
 en:	«use» the «third «toe»» [archaic]
 def:	HQ10:2 p.10 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
-cat:	body part
+tag:	body part
 file:	2001-06-holqed-10-2.txt
 meta:	Should {roS} "lick" and "use third toe" be grouped together?
 
@@ -16440,7 +16437,7 @@ pos:	noun
 sv:	«tredje«tå»»
 en:	«third «toe»»
 def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
-cat:	body part
+tag:	body part
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{rotlh}
@@ -16456,7 +16453,7 @@ pos:	noun
 sv:	«knytnäve»
 en:	<fist>
 def:	TKD
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	{ro'qegh'Iwchab}
@@ -16485,7 +16482,7 @@ pos:	verb
 sv:	vara «kort» (kroppslängd)
 en:	be <short> (in stature)
 def:	KGT
-cat:	measure; shape
+tag:	measure; shape
 file:	1997-11-01-kgt.txt
 
 tlh:	{runpI'}
@@ -16500,7 +16497,7 @@ pos:	verb
 sv:	«bötfälla», «beskatta», «taxera»
 en:	<fine>, <tax>
 def:	TKD
-cat:	money
+tag:	money
 file:	1992-01-01-tkd.txt
 
 tlh:	{ruq}
@@ -16557,7 +16554,7 @@ sv:	«ibland», «då och då», «emellanåt»
 en:	<sometimes>, <occasionally>
 def:	TKD; KGT
 ref:	TKW p.184
-cat:	time
+tag:	time
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{rutlh}
@@ -16613,7 +16610,7 @@ en:	<thousand> (number-forming element)
 def:	TKD
 ref:	TKW p.127
 com:	Number-forming element, see also TKD 5.2.
-cat:	math
+tag:	math
 data:	exclude from K-E
 file:	1992-01-01-tkd.txt
 
@@ -16678,7 +16675,7 @@ sv:	«tusen» (nummerbildande element)
 en:	<thousand> (number-forming element)
 def:	TKD
 com:	Number-forming element, see also TKD 5.2.
-cat:	math
+tag:	math
 data:	exclude from K-E
 file:	1992-01-01-tkd.txt
 
@@ -16753,7 +16750,7 @@ en:	type of <animal>, <~sark~>
 def:	KGT
 com:	Mentioned in TNG episode "Pen Pals", as "a Klingon Sark"---a riding
 	animal (similar to a horse).
-cat:	animal
+tag:	animal
 file:	1997-11-01-kgt.txt
 meta:	Entries differ and have been combined here.
 
@@ -16762,7 +16759,7 @@ pos:	verb
 sv:	vara «horisontell»
 en:	be <horizontal>
 def:	TKD
-cat:	placement
+tag:	placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{SaS} [.2]
@@ -16796,7 +16793,7 @@ def:	TKD
 ref:	{qep'a'} 1997
 pun:	Okrand confirmed at {qep'a'} 1997 that {Saw} came from "sure" with a
 	Southern drawl. (Chet Braun)
-cat:	family
+tag:	family
 file:	1992-01-01-tkd.txt
 
 tlh:	{Saw'}
@@ -16804,7 +16801,7 @@ pos:	verb
 sv:	«ha» ett «djup» av
 en:	<have> a <depth of>
 def:	KGT
-cat:	measure
+tag:	measure
 file:	1997-11-01-kgt.txt
 
 tlh:	{Say}
@@ -16848,7 +16845,7 @@ ref:	Email 2003-09-16 (by Tad Stauffer, to tlhingan-hol, "Re: An error
 	(qep'a' wa'maHDIch)"); TDNW
 com:	This word was revealed by Marc Okrand during the hokey pokey at {qep'a'
 	wa'maHDIch}.
-cat:	body part
+tag:	body part
 file:	2003-09-16-email.txt
 
 tlh:	{Sa'Qej Sep}
@@ -16877,7 +16874,7 @@ pos:	noun
 sv:	«spjutspets» med hullingar
 en:	barbed <spearhead>
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{Segh}
@@ -16911,7 +16908,7 @@ en:	«use» the «thumb» (usually used to/about adults)
 def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 com:	Most commonly used in reference to an adult using a thumb.
 	See also {rIl}.
-cat:	body part
+tag:	body part
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{SenwI'}
@@ -16921,7 +16918,7 @@ en:	«thumb» (usually used to/about adults)
 def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 com:	Most commonly used in reference to an adult thumb.
 	See also {rIl}.
-cat:	body part
+tag:	body part
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{Seng} [1]
@@ -17151,7 +17148,7 @@ pos:	verb
 sv:	¿?«använda» «pek«fingret»»
 en:	«use» the «index «finger»» («first finger»)
 def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
-cat:	body part
+tag:	body part
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{SIqwI'}
@@ -17159,7 +17156,7 @@ pos:	noun
 sv:	«pek«finger»»
 en:	«index «finger»», «first finger»
 def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
-cat:	body part
+tag:	body part
 file:	2001-06-holqed-10-2.txt
 
 tlh:	{SIQ}
@@ -17189,7 +17186,7 @@ pos:	verb
 sv:	«regna»
 en:	<rain>
 def:	TKD
-cat:	landscape
+tag:	landscape
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -17206,7 +17203,7 @@ pos:	numeral
 sv:	«sju»
 en:	<seven>
 def:	TKD
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	{Soch} [2]
@@ -17214,7 +17211,7 @@ pos:	noun
 sv:	sjunde «tonen» på den nonatoniska skalan
 en:	seventh <tone> of nonatonic musical scale
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{SochDIch}
@@ -17222,7 +17219,7 @@ pos:	numeral
 sv:	«sjunde»
 en:	<seventh>
 def:	TKD
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	{SoD} [1]
@@ -17328,7 +17325,7 @@ pos:	noun
 sv:	«dödsritual» (för ledare)
 en:	<death ritual> (for a leader)
 def:	TKDa
-cat:	religion
+tag:	religion
 file:	1992-01-01-tkd.txt
 
 tlh:	{Sop}
@@ -17393,7 +17390,7 @@ pos:	noun
 sv:	«träd»
 en:	<tree>
 def:	TKD
-cat:	landscape
+tag:	landscape
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -17417,7 +17414,7 @@ pos:	noun
 sv:	«slag«instrument»» gjort i trä
 en:	«percussion «instrument»» made of wood
 def:	KGT p.75
-cat:	music
+tag:	music
 data:	phrase; derived form
 file:	1997-11-01-kgt.txt
 
@@ -17433,7 +17430,7 @@ pos:	noun
 sv:	«mor», «moder»
 en:	<mother>
 def:	TKD
-cat:	family
+tag:	family
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -17459,7 +17456,7 @@ pos:	noun
 sv:	«mormor», «farmor»
 en:	<grandmother>
 def:	TKD
-cat:	family
+tag:	family
 file:	1992-01-01-tkd.txt
 
 tlh:	{Sot}
@@ -17621,7 +17618,7 @@ pos:	verb
 sv:	vara «nära», vara i «närheten»
 en:	be <near>, be nearby
 def:	KGT
-cat:	placement
+tag:	placement
 file:	1997-11-01-kgt.txt
 
 tlh:	{Sun}
@@ -17658,7 +17655,7 @@ pos:	noun
 sv:	ett slags sträng«instrument»
 en:	type of stringed <instrument>
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{Suq}
@@ -17705,7 +17702,7 @@ sv:	«vind», «bris»
 en:	<wind>, <breeze>
 def:	TKD
 ref:	TKW p.107
-cat:	landscape
+tag:	landscape
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -17714,7 +17711,7 @@ pos:	verb
 sv:	«blåsa» (i blåsinstrument) för att producera ljud
 en:	<blow> (into wind instrument) to produce sound
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{SuSDeq}
@@ -17729,7 +17726,7 @@ pos:	noun
 sv:	«kläder», «beklädnad»
 en:	<clothing>
 def:	TKD
-cat:	clothing
+tag:	clothing
 file:	1992-01-01-tkd.txt
 
 tlh:	{Suto'vo'qor}
@@ -17745,7 +17742,7 @@ com:	"{Sutovoqor} (n) Stovokor (spelling correction from {S'to...})" (NOTE:
 	"The afterlife for the honored dead, where all true warriors go after
 	they die to fight an eternal battle. The closest Klingon equivalent to
 	heaven. [First mentioned by name in 'Rightful Heir' (TNG).]" [DI]
-cat:	religion
+tag:	religion
 file:	2001-02-17-email.txt
 
 tlh:	{Sutra'ber naH}
@@ -17772,7 +17769,7 @@ sv:	«slåss»
 en:	<fight>
 def:	TKD
 ref:	TKW pp.5, 7, 19, 21, 33, 63, 77, 88, 111, 151, 193
-cat:	fighting
+tag:	fighting
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -17781,7 +17778,7 @@ pos:	verb
 sv:	«slåss» på liv och död
 en:	«fight» to the death
 def:	KGT p.49
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{Suverya'}
@@ -17791,7 +17788,7 @@ en:	«Sweden»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	{SuvwI'}
@@ -17802,7 +17799,7 @@ def:	TKDa
 ref:	TKW pp.iii, 5, 29, 32, 33, 37, 38, 46, 77, 88, 136, 139, 145, 147, 155,
 	193, 195, 203
 see:	{mang}; {vaj}
-cat:	fighting
+tag:	fighting
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -17813,7 +17810,7 @@ en:	«Finland»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	{Suy}
@@ -17835,7 +17832,7 @@ pos:	noun
 sv:	ett slags «djur», «~shooy~»
 en:	type of <animal>, <~shooy~>
 def:	KGT
-cat:	animal
+tag:	animal
 file:	1997-11-01-kgt.txt
 
 tlh:	{Su'}
@@ -17908,7 +17905,7 @@ pos:	noun
 sv:	«lunga»
 en:	<lung>
 def:	TKDa
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	{tagha'}
@@ -18020,7 +18017,7 @@ sv:	ett slags «djur» (snarlik en «tjur», används om både hannar och honor)
 en:	type of «animal» (similar to a «bull», used about both male and female
 	ones)
 def:	HQ9:4 p.16 ("More From Maltz")
-cat:	animal
+tag:	animal
 file:	2000-12-holqed-09-4-b.txt
 
 tlh:	{tap}
@@ -18110,7 +18107,7 @@ pos:	noun
 sv:	«ceremoni», «rit», «ritual»
 en:	<ceremony>, <rite>, «ritual»
 def:	TKDa
-cat:	religion
+tag:	religion
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {tay}
@@ -18213,7 +18210,7 @@ pos:	noun
 sv:	ett slags «djur», «~teg'bat~»
 en:	type of <animal>, «~teg'bat~»
 def:	KGT
-cat:	animal
+tag:	animal
 file:	1997-11-01-kgt.txt
 
 tlh:	{teH}
@@ -18268,7 +18265,7 @@ pos:	noun
 sv:	«farbror» (fars bror)
 en:	«uncle» (father's brother)
 def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
-cat:	family
+tag:	family
 file:	2000-09-holqed-09-3.txt
 
 tlh:	{tennuSnal}
@@ -18276,7 +18273,7 @@ pos:	noun
 sv:	«morbror» (fars systers make)
 en:	«uncle» (father's sister's husband)
 def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
-cat:	family
+tag:	family
 file:	2000-09-holqed-09-3.txt
 
 tlh:	{tengchaH}
@@ -18381,7 +18378,7 @@ sv:	«öra» (invärtes hörselorgan)
 en:	<ear> (internal, organ of hearing)
 def:	KGT
 see:	{qogh} "ear (external, cartilaginous flap)" (n); {Serrum} earwax (n)
-cat:	body part
+tag:	body part
 file:	1997-11-01-kgt.txt
 
 tlh:	{tet}
@@ -18437,7 +18434,7 @@ en:	«cousin» (father's brother's child or mother's sister's child),
 	«niece», «nephew» (a man's brother's child, or a woman's sister's
 	child)
 def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
-cat:	family
+tag:	family
 file:	2000-09-holqed-09-3.txt
 
 tlh:	{tey'be'}
@@ -18449,7 +18446,7 @@ en:	female «cousin» (father's brother's daughter or mother's sister's
 	daughter), «niece» (a man's brother's daughter or a woman's sister's
 	daughter)
 def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
-cat:	family
+tag:	family
 file:	2000-09-holqed-09-3.txt
 
 tlh:	{tey'loD}
@@ -18459,7 +18456,7 @@ sv:	manlig «kusin» (fars brors son eller mors systers son), «brorson» (en
 en:	male «cousin» (father's brother's son or mother's sister's son),
 	«nephew» (a man's brother's son or a woman's sister's son)
 def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
-cat:	family
+tag:	family
 file:	2000-09-holqed-09-3.txt
 
 tlh:	{tI}
@@ -18518,7 +18515,7 @@ pos:	noun
 sv:	«skaft» (på spjut)
 en:	<shaft> (of spear)
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{tIj}
@@ -18559,7 +18556,7 @@ pos:	verb
 sv:	vara «stor»
 en:	be <big>
 def:	TKD
-cat:	shape
+tag:	shape
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -18570,7 +18567,7 @@ en:	area southwestward, area towards the «southwest»
 def:	News 1999-11-21
 ref:	HQ8:4 pp.6--8 ("Maltz Online")
 com:	"approx 220 degrees on Terran compass" [KLINW]
-cat:	placement
+tag:	placement
 file:	1999-11-21-news.txt; 1999-12-holqed-08-4-a.txt
 
 tlh:	{tIngDagh}
@@ -18578,7 +18575,7 @@ pos:	noun
 sv:	ett slags sträng«instrument»
 en:	type of stringed <instrument>
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	[1] {tIq}
@@ -18586,7 +18583,7 @@ pos:	verb
 sv:	vara «lång», vara «långsträckt» (om ett föremål)
 en:	be <long>, be lengthy (of an object)
 def:	TKD
-cat:	measure; shape
+tag:	measure; shape
 file:	1992-01-01-tkd.txt
 meta:	The word "be" was inserted before the adjectival "lengthy".
 
@@ -18597,7 +18594,7 @@ en:	<heart>
 def:	TKD
 ref:	TKW pp.23, 203
 com:	TKW: "[...] the heart stands for one's spirit or principles."
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	{tIqnagh}
@@ -18605,7 +18602,7 @@ pos:	noun
 sv:	ett slags «djur», «~tknag~»
 en:	type of <animal>, «~tknag~»
 def:	KGT
-cat:	animal
+tag:	animal
 file:	1997-11-01-kgt.txt
 
 tlh:	{tIqnagh lemDu'}
@@ -18654,7 +18651,7 @@ pos:	verb
 sv:	vara «lätt» (om vikt)
 en:	be <light> (weight)
 def:	TKD
-cat:	measure
+tag:	measure
 file:	1992-01-01-tkd.txt
 
 tlh:	{tIv}
@@ -18687,7 +18684,7 @@ pos:	noun
 sv:	ett slags «djur», «~tika~ katt»
 en:	type of <animal>, <~tika~ cat>
 def:	KGT
-cat:	animal
+tag:	animal
 data:	phrase; {tI'qa'} (n)
 file:	1997-11-01-kgt.txt
 
@@ -18710,7 +18707,7 @@ pos:	noun
 sv:	«handflata»
 en:	<palm> (of hand)
 def:	TKD
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	{toD} [1]
@@ -18760,7 +18757,7 @@ pos:	verb
 sv:	«räkna»
 en:	<count>
 def:	TKD
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	{toH}
@@ -18794,7 +18791,7 @@ pos:	noun
 sv:	«stridsteknik»
 en:	<fighting technique>
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{tongDuj}
@@ -18817,7 +18814,7 @@ sv:	ett slags «djur», «~topah~»
 en:	type of <animal>, «~topah~»
 def:	KGT
 ref:	KGT p.132
-cat:	animal
+tag:	animal
 file:	1997-11-01-kgt.txt
 
 tlh:	{toq}
@@ -18833,7 +18830,7 @@ sv:	ett slags «djur», «Tokvirisk «ödla»»
 en:	type of <animal>, <Tokvirian «skink»>
 def:	KGT p.88
 ref:	KGT K-E (p.228), E-K (p.261)
-cat:	animal
+tag:	animal
 data:	phrase; {toqvIr} (n)
 file:	1997-11-01-kgt.txt
 meta:	Word is given as "Tokvarian" (with "a") in KGT word lists [KGT
@@ -18847,7 +18844,7 @@ sv:	en slags «fågel» («rovfågel»)
 en:	type of «bird» (bird of prey)
 def:	Email 1997-04-07 (by Bill Willmerdinger, to tlhingan-hol, "BabelCon 2")
 ref:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
-cat:	animal
+tag:	animal
 file:	1997-04-07-email.txt
 
 tlh:	{toQDuj}
@@ -18942,7 +18939,7 @@ pos:	noun
 sv:	ett slags «djur», «~tobbaj~»
 en:	type of <animal>, «~tobbaj~»
 def:	KGT
-cat:	animal
+tag:	animal
 file:	1997-11-01-kgt.txt
 
 tlh:	{to'waQ}
@@ -18966,7 +18963,7 @@ en:	<soon>
 def:	TKD
 com:	Could also be used as an exclamation (as can all adverbials)
 	meaning "Hurry up!". [TKD 5.4 (p.57)]
-cat:	time
+tag:	time
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {tuH}
@@ -19060,7 +19057,7 @@ pos:	noun
 sv:	«minut»
 en:	<minute> (of time)
 def:	TKD
-cat:	measure; time
+tag:	measure; time
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -19070,7 +19067,7 @@ sv:	«stam», «släkte», «ätt»
 en:	<tribe>, <house>, <ancestral unit>
 def:	KGT
 ref:	TKW p.34
-cat:	family
+tag:	family
 file:	1997-11-01-kgt.txt
 
 tlh:	{tuq Degh}
@@ -19078,7 +19075,7 @@ pos:	noun
 sv:	«familje«vapen»» (heraldiskt)
 en:	<family <crest>>
 def:	KGT
-cat:	family
+tag:	family
 data:	phrase
 file:	1997-11-01-kgt.txt
 
@@ -19089,7 +19086,7 @@ en:	«United Kingdom»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	{tuqnIgh}
@@ -19097,7 +19094,7 @@ pos:	noun
 sv:	«familjemedlem», «släktmedlem», «släkting»
 en:	«member» of a «house»
 def:	HQ9:3 p.9 ("{matlh juppu' mu'mey}")
-cat:	family
+tag:	family
 file:	2000-09-holqed-09-3.txt
 
 tlh:	{tuqvol}
@@ -19105,7 +19102,7 @@ pos:	noun
 sv:	«panna» [regionalt]
 en:	<forehead> [regional]
 def:	KGT
-cat:	body part
+tag:	body part
 file:	1997-11-01-kgt.txt
 
 tlh:	{tuQ}
@@ -19113,7 +19110,7 @@ pos:	verb
 sv:	«bära» (kläder)
 en:	<wear> (clothes)
 def:	TKD
-cat:	clothing
+tag:	clothing
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -19134,7 +19131,7 @@ com:	"[...] the Klingon slang expression {qogh tuQmoHHa'}, literally 'take
 	off one's belt' is used to mean 'to not hear,' for example, {qogh
 	vItuQmoHHa'pu'} 'I've taken off my belt; your secret is safe with me.'"
 	[HQ2:4 p.17 ("Okrand's Notes")]
-cat:	clothing
+tag:	clothing
 data:	derived form
 file:	1992-01-01-tkd.txt; 1993-12-holqed-02-4.txt
 
@@ -19148,7 +19145,7 @@ com:	"[...] the Klingon slang expression {qogh tuQmoHHa'}, literally 'take
 	off one's belt' is used to mean 'to not hear,' for example, {qogh
 	vItuQmoHHa'pu'} 'I've taken off my belt; your secret is safe with me.'"
 	[HQ2:4 p.17 ("Okrand's Notes")]
-cat:	clothing
+tag:	clothing
 data:	derived form
 file:	1992-01-01-tkd.txt; 1993-12-holqed-02-4.txt
 
@@ -19159,7 +19156,7 @@ en:	«Turkey»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	{tuS}
@@ -19337,7 +19334,7 @@ pos:	noun
 sv:	«kronometer»
 en:	<chronometer>
 def:	TKD
-cat:	time
+tag:	time
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -19361,7 +19358,7 @@ pos:	verb
 sv:	«slåss», «strida» (relativt litet slagsmål)
 en:	<fight>, <battle> (relatively minor fight)
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{tlhatlh}
@@ -19376,7 +19373,7 @@ pos:	verb
 sv:	«slå» (på slaginstrument) med knytnäve
 en:	<hit> (percussion instrument) with fist
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	[1] {tlhay}
@@ -19463,7 +19460,7 @@ pos:	noun
 sv:	«spjut» kastat dem hjälp av ett särskilt verktyg
 en:	<spear> thrown with aid of a special tool
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 meta:	Entries differ in source. KGT E-K entry is used here.
 
@@ -19670,7 +19667,7 @@ pos:	noun
 sv:	«näsborre»
 en:	<nostril>
 def:	TKD
-cat:	body part
+tag:	body part
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -19686,7 +19683,7 @@ pos:	noun
 sv:	«framför», område framför
 en:	<front>, area in front of
 def:	KGT
-cat:	placement
+tag:	placement
 file:	1997-11-01-kgt.txt
 
 tlh:	{tlhoQ}
@@ -19749,7 +19746,7 @@ pos:	noun
 sv:	«vägg», innervägg, insida av yttervägg, territorial«mur»
 en:	«wall», interior wall, interior face of exterior wall, territorial wall
 def:	News 1998-12-07
-cat:	architecture
+tag:	architecture
 file:	1998-12-07-news.txt
 
 tlh:	{tlhoy' SaS}
@@ -19780,7 +19777,7 @@ sv:	(«volym«enhet»»)
 en:	(«unit» of «volume»)
 desc:	about 1 quart or 1 liter
 def:	News 1997-10-22
-cat:	measure
+tag:	measure
 file:	1997-10-22-news.txt
 
 tlh:	{tlhuch}
@@ -19837,7 +19834,7 @@ pos:	noun
 sv:	«svans»
 en:	<tail>
 def:	KGT
-cat:	body part
+tag:	body part
 file:	1997-11-01-kgt.txt
 
 tlh:	{tlhutlh}
@@ -19883,7 +19880,7 @@ pos:	numeral
 sv:	«fem»
 en:	<five>
 def:	TKD
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	{vagh} [2]
@@ -19891,7 +19888,7 @@ pos:	noun
 sv:	femte «tonen» på den nonatoniska skalan
 en:	fifth <tone> of nonatonic musical scale
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{vaghDIch}
@@ -19899,7 +19896,7 @@ pos:	numeral
 sv:	«femte»
 en:	<fifth>
 def:	TKD
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	{vaH}
@@ -19931,7 +19928,7 @@ en:	<warrior> (as a concept)
 def:	TKDa
 ref:	TKW p.104
 see:	{mang}; {SuvwI'}
-cat:	fighting
+tag:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	{val}
@@ -19982,7 +19979,7 @@ com:	"When an event over which one has some control ends (one can't cause a
 	he found it interesting that Klingons end things by saluting them."
 	[HQ12:2 p.8 ("Maltz's Reward Part I")]
 see:	{Dor} (2), {ghang}
-cat:	time
+tag:	time
 file:	2003-06-holqed-12-2.txt
 
 tlh:	{van} [2]
@@ -19997,7 +19994,7 @@ pos:	noun
 sv:	«hymn», «lovsång»
 en:	<anthem>, <hymn>
 def:	KGT
-cat:	music
+tag:	music
 data:	phrase
 file:	1997-11-01-kgt.txt
 
@@ -20063,7 +20060,7 @@ sv:	«hundra» (nummerbildande element)
 en:	<hundred> (number-forming element)
 def:	TKD
 com:	Number-forming element, see also TKD 5.2.
-cat:	math
+tag:	math
 data:	exclude from K-E
 file:	1992-01-01-tkd.txt
 
@@ -20088,7 +20085,7 @@ sv:	«far», «fader»
 en:	<father>
 def:	TKD
 ref:	TKW pp.155, 170
-cat:	family
+tag:	family
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -20097,7 +20094,7 @@ pos:	noun
 sv:	«farfar», «morfar»
 en:	<grandfather>
 def:	TKD
-cat:	family
+tag:	family
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -20106,7 +20103,7 @@ pos:	verb
 sv:	«slåss», «strida» (mellanstor vildsinthet)
 en:	<fight>, <battle> (midlevel ferocity)
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	[2] {vay}
@@ -20133,7 +20130,7 @@ sv:	«häl»
 en:	«heel»
 def:	HQ13:1 p.9 ("Maltz's Reward Part IV")
 ref:	TDNW
-cat:	body part
+tag:	body part
 file:	2004-03-holqed-13-1.txt
 
 tlh:	{veb}
@@ -20211,7 +20208,7 @@ en:	type of «bird» (feeds almost exclusively on the serpent worm from which
 	~gagh~ is made)
 def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 com:	Klingons are not particularly fond of this bird.
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{veng}
@@ -20253,7 +20250,7 @@ en:	<devil>, «demon», «~Fek'lhr~»
 def:	TKDa; KCD
 ref:	TKW p.197; HQ12:3 p.9 ("Maltz's Reward Part II")
 com:	KCD: "The beast who guards the dwelling place of the dishonored dead"
-cat:	religion
+tag:	religion
 file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
 
 tlh:	{veQ}
@@ -20338,7 +20335,7 @@ pos:	noun
 sv:	«kackerlacka»
 en:	<cockroach>
 def:	TKD
-cat:	animal
+tag:	animal
 file:	1992-01-01-tkd.txt
 
 tlh:	{vID}
@@ -20360,7 +20357,7 @@ pos:	noun
 sv:	ett slags «djur», «~v'gro~» («katt»lik)
 en:	type of <animal>, «~v'gro~» (like a «cat»)
 def:	KGT
-cat:	animal
+tag:	animal
 file:	1997-11-01-kgt.txt
 
 tlh:	{vIH}
@@ -20408,7 +20405,7 @@ sv:	en slags «fågel» (förmögen att härma språk)
 en:	type of «bird» (capable of mimicking speech)
 def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 com:	Some people pluralize these with {-pu'}, but most use {-mey}.
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{vIlle'}
@@ -20428,7 +20425,7 @@ com:	In the singular, typically {tey'} or {lor} is preferred unless the
 	individual is being referred to as a member of a group that likely
 	includes both {tey'} and {lor}. The plural form ({vInpu'}) is used for
 	a group that includes both {tey'} and {lor}.
-cat:	family
+tag:	family
 file:	2000-09-holqed-09-3.txt
 
 tlh:	{vIno'va' qurgh}
@@ -20468,7 +20465,7 @@ en:	«France»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	{vIt} [1]
@@ -20520,7 +20517,7 @@ sv:	«skjutfärdighet», «träffsäkerhet»
 en:	<sharpshooting>, <marksmanship>
 def:	TKDa
 ref:	TKW p.104
-cat:	fighting
+tag:	fighting
 file:	1992-01-01-tkd.txt
 
 tlh:	[3] {vI'}
@@ -20542,7 +20539,7 @@ pos:	noun
 sv:	«någonstans», någon plats
 en:	<somewhere>
 def:	TKD
-cat:	placement
+tag:	placement
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -20558,7 +20555,7 @@ pos:	noun
 sv:	«skuldra», «axel»
 en:	<shoulder>
 def:	TKD
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	{von}
@@ -20823,7 +20820,7 @@ pos:	noun
 sv:	«sko»
 en:	<shoe>
 def:	TKD
-cat:	clothing
+tag:	clothing
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -20832,7 +20829,7 @@ pos:	noun
 sv:	en slags «fågel» (med en väldigt lång näbb)
 en:	type of «bird» (with a very long beak)
 def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	[1] {waQ}
@@ -20852,7 +20849,7 @@ sv:	¿?om ... «månader»
 en:	«months» from now
 desc:	see {ben}
 def:	HQ8:3 p.3 ("{matlh juppu' mu'mey}")
-cat:	time
+tag:	time
 file:	1999-09-holqed-08-3.txt
 
 tlh:	{warjun}
@@ -20874,7 +20871,7 @@ pos:	verb
 sv:	«dela» (upp), dela ut, «fördela», «dividera»
 en:	<divide>
 def:	TKD
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	{waw'}
@@ -20905,7 +20902,7 @@ sv:	«ett»
 en:	<one>
 def:	TKD
 ref:	TKW pp.66, 81, 127, 136, 177, 209
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	{wa'DIch}
@@ -20914,7 +20911,7 @@ sv:	«första», «början», «start»
 en:	<first>, «beginning», «start»
 def:	TKD
 ref:	TDNW
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	{wa'Hu'}
@@ -20922,7 +20919,7 @@ pos:	noun
 sv:	«igår»
 en:	<yesterday>
 def:	TKD
-cat:	time
+tag:	time
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -20932,7 +20929,7 @@ sv:	«imorgon»
 en:	<tomorrow>
 def:	TKD
 ref:	TKW p.153
-cat:	time
+tag:	time
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -20948,7 +20945,7 @@ pos:	numeral
 sv:	«tio»
 en:	<ten>
 def:	TKD
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	{wa'maHDIch}
@@ -20956,7 +20953,7 @@ pos:	numeral
 sv:	«tionde»
 en:	<tenth>
 def:	TKD
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	{web}
@@ -21003,7 +21000,7 @@ sv:	«tre»
 en:	<three>
 def:	TKD
 ref:	TKW p.155
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	{wejDIch}
@@ -21011,7 +21008,7 @@ pos:	numeral
 sv:	«tredje»
 en:	<third>
 def:	TKD
-cat:	math
+tag:	math
 file:	1992-01-01-tkd.txt
 
 tlh:	{wejpuH}
@@ -21058,7 +21055,7 @@ sv:	¿?för ... «månader» sedan
 en:	«months» ago
 desc:	see {ben}
 def:	HQ8:3 p.3 ("{matlh juppu' mu'mey}")
-cat:	time
+tag:	time
 file:	1999-09-holqed-08-3.txt
 
 tlh:	{wep} [.1]
@@ -21066,7 +21063,7 @@ pos:	noun
 sv:	«jacka», «rock»
 en:	<jacket>, <coat>
 def:	TKD
-cat:	clothing
+tag:	clothing
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -21085,7 +21082,7 @@ def:	{qep'a'} 2010
 ref:	Email 2010-12-07 (by Lieven L. Litaer, to tlhingan-hol, "News from
 	Maltz"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol,
 	"Letter from Maltz")
-cat:	clothing
+tag:	clothing
 data:	phrase; derived form
 file:	2010-12-07-email.txt; 2010-12-25-email.txt
 
@@ -21094,7 +21091,7 @@ pos:	verb
 sv:	«slå» (på slaginstrument) med handflata
 en:	<hit> (percussion instrument) with palm
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{weQ}
@@ -21200,7 +21197,7 @@ pos:	verb
 sv:	«kasta» spjut med en «~chetvi~»
 en:	<hurl> a spear by means of a «~chetvi~»
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{woch}
@@ -21209,7 +21206,7 @@ sv:	vara «lång», vara «reslig» (om person)
 en:	be «tall»
 def:	HQ13:1 p.9 ("Maltz's Reward Part IV")
 ref:	TDNW
-cat:	measure; shape
+tag:	measure; shape
 file:	2004-03-holqed-13-1.txt
 
 tlh:	{woD}
@@ -21294,7 +21291,7 @@ pos:	noun
 sv:	«haka»
 en:	<chin>
 def:	TKD
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	{wot}
@@ -21351,7 +21348,7 @@ pos:	verb
 sv:	«brista ut i sång»
 en:	<burst into song>
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{wuq}
@@ -21375,7 +21372,7 @@ pos:	noun
 sv:	«läpp»
 en:	<lip>
 def:	TKD
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	{wutlh}
@@ -21420,7 +21417,7 @@ pos:	verb
 sv:	«knäppa på», «slå på» (ett stränginstrument)
 en:	<strum> (a stringed instrument)
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	[1] {yaD}
@@ -21428,7 +21425,7 @@ pos:	noun
 sv:	«tå»
 en:	<toe>
 def:	TKD
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {yaD}
@@ -21497,7 +21494,7 @@ pos:	noun
 sv:	«svärdsman»
 en:	«swordfighter»
 def:	KGT p.61
-cat:	fighting
+tag:	fighting
 data:	derived form
 file:	1997-11-01-kgt.txt
 
@@ -21542,7 +21539,7 @@ sv:	en slags «fågel» (grå, ibland vit, flyger långa sträckor utan att gör
 en:	type of «bird» (gray, sometimes white, travel long distances without
 	pausing)
 def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{yatlh}
@@ -21557,7 +21554,7 @@ pos:	noun
 sv:	«mark»
 en:	<ground>
 def:	TKD
-cat:	landscape
+tag:	landscape
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {yay}
@@ -21590,7 +21587,7 @@ pos:	noun
 sv:	«handled» (även slanguttryck för ogillande)
 en:	<wrist> (also slang term of deprecation)
 def:	KGT
-cat:	body part
+tag:	body part
 file:	1997-11-01-kgt.txt
 
 tlh:	{yej}
@@ -21665,7 +21662,7 @@ pos:	noun
 sv:	«stads«mur»»
 en:	«city «wall»»
 def:	News 1998-12-07
-cat:	architecture
+tag:	architecture
 file:	1998-12-07-news.txt
 
 tlh:	{yev}
@@ -21688,7 +21685,7 @@ sv:	«tribbel»
 en:	<tribble>
 def:	TKD
 ref:	TKW p.184
-cat:	animal
+tag:	animal
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -21774,7 +21771,7 @@ en:	«Israel»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	{yIt}
@@ -21818,7 +21815,7 @@ pos:	noun
 sv:	«tunika», «uniformsjacka», «uniformsrock»
 en:	<tunic>
 def:	TKD
-cat:	clothing
+tag:	clothing
 file:	1992-01-01-tkd.txt
 
 tlh:	{yIvbeH} [.2]
@@ -21826,7 +21823,7 @@ pos:	noun
 sv:	«ärmlös «skjorta»» [regionalt]
 en:	<sleeveless <shirt>> [regional]
 def:	KGT
-cat:	clothing
+tag:	clothing
 file:	1997-11-01-kgt.txt
 
 tlh:	{yob}
@@ -21919,7 +21916,7 @@ pos:	noun
 sv:	«byxor»
 en:	<pants>, «trousers»
 def:	TKD
-cat:	clothing
+tag:	clothing
 file:	1992-01-01-tkd.txt
 
 tlh:	{yopwaH buq}
@@ -21930,7 +21927,7 @@ def:	{qep'a'} 2010
 ref:	Email 2010-12-07 (by Lieven L. Litaer, to tlhingan-hol, "News from
 	Maltz"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol,
 	"Letter from Maltz")
-cat:	clothing
+tag:	clothing
 data:	phrase; derived form
 file:	2010-12-07-email.txt; 2010-12-25-email.txt
 
@@ -21948,7 +21945,7 @@ sv:	«ovansida»
 en:	«top» (side or face of an object)
 def:	HQ8:3 p.2 ("{matlh juppu' mu'mey}")
 see:	{yuvtlhe'}; {'aqroS}; {pIrmuS}
-cat:	placement
+tag:	placement
 file:	1999-09-holqed-08-3.txt
 
 tlh:	{yoS}
@@ -21977,7 +21974,7 @@ pos:	noun
 sv:	«fält», «äng», «åker»
 en:	<field> (of land)
 def:	TKD
-cat:	landscape
+tag:	landscape
 file:	1992-01-01-tkd.txt
 
 tlh:	{yov}
@@ -21992,7 +21989,7 @@ pos:	verb
 sv:	vara «uppochned»
 en:	be <upside down>
 def:	TKD
-cat:	placement
+tag:	placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{yo'}
@@ -22018,7 +22015,7 @@ pos:	noun
 sv:	första (och sista) «tonen» på den nonatoniska skalan
 en:	first (and last) <tone> of nonatonic musical scale
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{yub}
@@ -22115,7 +22112,7 @@ com:	The singular form is never used in place of {tey'} or {lor}, but the
 	plural may be used for a group including {tey'} and/or {lor}, as long
 	as there is at least one more distant cousin, niece or nephew in the
 	group.
-cat:	family
+tag:	family
 file:	2000-09-holqed-09-3.txt
 
 tlh:	{yuv}
@@ -22172,7 +22169,7 @@ cite:	There are two words used for length: {'aD} and {'ab}. Both of these can
 	for heights. [News 1997-10-22]
 cite:	{jav 'ujmey 'ab SuvwI'} <the warrior has a length of six ujs> (about
 	6'10") [News 1997-10-22]
-cat:	measure
+tag:	measure
 file:	1997-10-22-news.txt; 1997-sbx-s32.txt
 meta:	S32 was reprinted in HQ6:2 p.9
 
@@ -22196,7 +22193,7 @@ cite:	There are two words used for length: {'aD} and {'ab}. Both of these can
 	measuring, say, a tabletop. {'ab}, on the other hand, is used for
 	(potentially) longish, skinnyish things (for example, spears) and also
 	for heights. [News 1997-10-22]
-cat:	measure
+tag:	measure
 file:	1997-10-22-news.txt; 1997-11-01-kgt.txt
 
 tlh:	[2] {'aD}
@@ -22204,7 +22201,7 @@ pos:	noun
 sv:	«ven», «blodåder»
 en:	<vein>
 def:	TKD
-cat:	body part
+tag:	body part
 file:	1992-01-01-tkd.txt
 
 tlh:	{'agh}
@@ -22242,7 +22239,7 @@ en:	«United States of America», «USA»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 data:	phrase
 file:	2011-10-29-email.txt
 
@@ -22279,7 +22276,7 @@ pos:	noun
 sv:	ett slags «vapen» (hälften «yxa», hälften «~bat'leth~»)
 en:	type of <weapon> (half «ax», half «~bat'leth~»)
 def:	KGT
-cat:	fighting
+tag:	fighting
 file:	1997-11-01-kgt.txt
 
 tlh:	{'aqnaw}
@@ -22299,7 +22296,7 @@ sv:	«överdel» (under- eller insidan av överdelen)
 en:	«top» (inside or downturned surface)
 def:	HQ8:3 p.2 ("{matlh juppu' mu'mey}")
 see:	{yor}
-cat:	placement
+tag:	placement
 file:	1999-09-holqed-08-3.txt
 
 tlh:	{'aqroS} [.2]
@@ -22312,7 +22309,7 @@ cite:	{jabbI'ID pup: Qapchu'meH 'aqroS chuq: cha' vI' chorgh loghqammey}
 cite:	{'aqroS qughDo: pIvlob Hut vI' vagh} <Maximum Cruising Speed -- Warp
 	9.5> [BoP]
 see:	{rav} [.2]
-cat:	math
+tag:	math
 file:	1998-11-01-bop.txt
 
 tlh:	{'aqtu'}
@@ -22336,7 +22333,7 @@ pos:	noun
 sv:	«panna» [regionalt]
 en:	<forehead> [regional]
 def:	KGT
-cat:	body part
+tag:	body part
 file:	1997-11-01-kgt.txt
 
 tlh:	{'ar}
@@ -22372,7 +22369,7 @@ en:	«Australia»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	{'at}
@@ -22478,7 +22475,7 @@ pos:	noun
 sv:	tredje «tonen» på den nonatoniska skalan
 en:	third <tone> of nonatonic musical scale
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{'eH}
@@ -22534,7 +22531,7 @@ en:	«Greece»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	{'elaS}
@@ -22580,7 +22577,7 @@ pos:	noun
 sv:	«bakom», område bakom
 en:	<behind>, area behind
 def:	KGT
-cat:	placement
+tag:	placement
 file:	1997-11-01-kgt.txt
 
 tlh:	{'entepray'}
@@ -22603,7 +22600,7 @@ pos:	noun
 sv:	«moln»
 en:	<cloud>
 def:	TKD
-cat:	landscape
+tag:	landscape
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -22638,7 +22635,7 @@ pos:	noun
 sv:	ett slags «djur»
 en:	type of <animal>
 def:	TKD
-cat:	animal
+tag:	animal
 file:	1992-01-01-tkd.txt
 
 tlh:	{'er'In}
@@ -22659,7 +22656,7 @@ en:	be <low>
 def:	KGT
 cite:	{tlhIngan yoH jen verengan yoH 'eS} or {tlhIngan yoH 'eS verengan yoH
 	jen} ({jen,} <be high>; {'eS,} <be low>) [KGT p.179]
-cat:	placement
+tag:	placement
 file:	1997-11-01-kgt.txt
 
 tlh:	{'eSpanya'}
@@ -22669,7 +22666,7 @@ en:	«Spain»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	[1] {'et}
@@ -22703,7 +22700,7 @@ en:	area northwestward, area towards the «northwest»
 def:	News 1999-11-21
 ref:	HQ8:4 pp.6--8 ("Maltz Online")
 com:	"320 degrees on Terran compass" [KLINW]
-cat:	placement
+tag:	placement
 file:	1999-11-21-news.txt; 1999-12-holqed-08-4-a.txt
 
 tlh:	{'evnagh}
@@ -22733,7 +22730,7 @@ pos:	noun
 sv:	«faster» (fars syster)
 en:	«aunt» (father's sister)
 def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
-cat:	family
+tag:	family
 file:	2000-09-holqed-09-3.txt
 
 tlh:	{'e'mamnal}
@@ -22741,7 +22738,7 @@ pos:	noun
 sv:	«faster» (fars brors hustru)
 en:	«aunt» (father's brother's wife)
 def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
-cat:	family
+tag:	family
 file:	2000-09-holqed-09-3.txt
 
 tlh:	{'e'nal}
@@ -22751,7 +22748,7 @@ sv:	«ingift» person, någon som «gift» in sig i «familjen» (specificerar
 en:	someone who «married» into the «family» (does not specify the exact
 	relationship)
 def:	HQ9:3 p.9 ("{matlh juppu' mu'mey}")
-cat:	family
+tag:	family
 file:	2000-09-holqed-09-3.txt
 
 tlh:	{'Ib}
@@ -22780,7 +22777,7 @@ com:	"[...] throughout the Empire, a soup whose main component is ~igvah~
 	insecure' and is a word used only as an insult. To refer to the soup,
 	one simply says {'IghvaH chej chatlh} (literally, '~igvah~ liver
 	soup')." [KGT p.30]
-cat:	animal
+tag:	animal
 file:	1997-11-01-kgt.txt
 
 tlh:	{'IH}
@@ -22819,7 +22816,7 @@ pos:	noun
 sv:	«slag«instrument»» (trumma, klocka)
 en:	<percussion <instrument>> (drum, bell)
 def:	KGT
-cat:	music
+tag:	music
 file:	1997-11-01-kgt.txt
 
 tlh:	{'Ip} [1]
@@ -22882,7 +22879,7 @@ pos:	noun
 sv:	«morbror» (mors bror)
 en:	«uncle» (mother's brother)
 def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
-cat:	family
+tag:	family
 file:	2000-09-holqed-09-3.txt
 
 tlh:	{'IrneHnal}
@@ -22890,7 +22887,7 @@ pos:	noun
 sv:	«morbror» (mors systers make)
 en:	«uncle» (mother's sister's husband)
 def:	HQ9:3 p.8 ("{matlh juppu' mu'mey}")
-cat:	family
+tag:	family
 file:	2000-09-holqed-09-3.txt
 
 tlh:	{'ISjaH}
@@ -22924,7 +22921,7 @@ en:	«Italy»
 def:	Eurotalk
 ref:	Email 2011-10-29 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Countries")
-cat:	country
+tag:	country
 file:	2011-10-29-email.txt
 
 tlh:	{'Itlh}
@@ -22965,7 +22962,7 @@ pos:	noun
 sv:	ett slags «djur», «blodmask»
 en:	type of <animal>, <bloodworm>
 def:	KGT
-cat:	animal
+tag:	animal
 file:	1997-11-01-kgt.txt
 meta:	Entries differ and have been combined here.
 
@@ -22987,7 +22984,7 @@ ref:	HQ5:3 p.14 ("The Tale of {'I'}")
 com:	Confirmed by Okrand at {qep'a'} 1996. (Mark Shoulson) "At {qep'a'
 	wejDIch} [in 1996] we played the hokey pokey with Klingon body part
 	names. Of course, {'I'} was quickly used." (Alan Anderson)
-cat:	body part
+tag:	body part
 file:	1997-11-01-kgt.txt; 1996-09-holqed-05-3-a.txt
 
 tlh:	{'o}
@@ -23104,7 +23101,7 @@ desc:	{'op SuvwI'} ~some warriors~ [S7]
 def:	KGT
 com:	{DujvamDaq 'op SuvwI' tu'lu'bogh po' law' tlhIngan yo' SuvwI' law' po'
 	puS.} "[S]ome of the finest warriors in the Klingon fleet." [S7]
-cat:	quantity
+tag:	quantity
 file:	1997-11-01-kgt.txt
 
 tlh:	{'oQqar}
@@ -23261,7 +23258,7 @@ en:	«end» (of song)
 def:	HQ12:2 p.9 ("Maltz's Reward Part I")
 ref:	TDNW
 see:	{lIH}, {namtun}
-cat:	music
+tag:	music
 file:	2003-06-holqed-12-2.txt
 
 tlh:	{'uch}
@@ -23309,7 +23306,7 @@ pos:	verb
 sv:	vara «tung»
 en:	be <heavy>
 def:	TKD
-cat:	measure
+tag:	measure
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -23329,7 +23326,7 @@ desc:	about 13.7 inches or 35 centimeters
 def:	News 1997-10-22 (by Marc Okrand, to msn.onstage.startrek.expert.okrand,
 	"Re: Weights and Measures"); KGT
 com:	More exactly one ~uj~ is 34.83 cm (as caculated from usage on BoP).
-cat:	measure
+tag:	measure
 file:	1997-10-22-news.txt; 1997-11-01-kgt.txt
 meta:	In KGT the words "linear measure" are used, but they have been changed
 	to "length" here (for brevity and clarity).
@@ -23341,7 +23338,7 @@ en:	big <~uj~> («unit» of «length»)
 desc:	9 ~uj~ = about 10 feet 4 inches or 315 centimeters
 def:	News 1999-02-03
 ref:	TDNW
-cat:	measure
+tag:	measure
 file:	1999-02-03-news.txt
 
 tlh:	{'ul}
@@ -23438,7 +23435,7 @@ pos:	noun
 sv:	«ben» (som man går på)
 en:	<leg>
 def:	TKD
-cat:	body part
+tag:	body part
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -23448,7 +23445,7 @@ sv:	en slags «fågel» (för oljud i gryningen, vildsintare än en tupp)
 en:	type of «bird» (makes a ruckus at dawn, fiercer than a rooster)
 def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 com:	much fiercer than a rooster
-cat:	animal
+tag:	animal
 file:	2001-12-holqed-10-4.txt
 
 tlh:	{'uSu'}
@@ -23501,7 +23498,7 @@ sv:	«miljon» (nummerbildande element)
 en:	<million> (number-forming element)
 def:	TKD
 com:	Number-forming element, see also TKD 5.2.
-cat:	math
+tag:	math
 data:	exclude from K-E
 file:	1992-01-01-tkd.txt
 
@@ -24060,7 +24057,7 @@ pos:	noun suffix type 5
 sv:	lokativ
 en:	locative
 def:	TKD 3.3.5 (p.27)
-cat:	placement
+tag:	placement
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 
@@ -24208,7 +24205,7 @@ pos:	noun suffix type 5
 sv:	från
 en:	from
 def:	TKD 3.3.5 (p.28)
-cat:	placement
+tag:	placement
 data:	KLCP-1
 file:	1992-01-01-tkd.txt
 

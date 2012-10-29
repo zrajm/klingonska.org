@@ -90,7 +90,7 @@ our %field = (
     com  => "Comment",
     pun  => "Pun",
     see  => "See also",
-    cat  => "Category",
+    tag  => "Tags",
     data => "Data",
     file => "Transcript",
     meta => "Metadata",
@@ -98,7 +98,7 @@ our %field = (
 
 our @tips = (
     "Hover over field name in search results to see its seach prefix.",
-    "With a prefix search (e.g. <b>cat:locative</b>) you only the specified field (here: <b>cat</b>).",
+    "With a prefix search (e.g. <b>tag:locative</b>) you only the specified field (here: <b>tag</b>).",
     "Example: <b>def:HQ10:4</b> lists all words first occuring in " .
         "<b lang=\"tlh\">HolQeD</b> issue 10:4.",
     "Prefixes: <b>tlh:</b> = Klingon, <b>en:</b> = English, <b>sv:</b> = " .
@@ -110,9 +110,9 @@ our @tips = (
     'Example: <b>data:klcp</b> finds only words from the <i><a ' .
         'href="../klcp.html">Klingon Language Certification Program</a></i>.',
     "Example: <b>def:kgt</b> lists all words first defined in KGT.",
-    "Put <b>tlh:</b> before a word to search only in Klingon definitions.",
-    "Put <b>sv:</b> before a word to search only in Swedish definitions.",
-    "Put <b>en:</b> before a word to search only in English definitions.",
+    "Put <b>tlh:</b> before a word to search only Klingon definitions.",
+    "Put <b>sv:</b> before a word to search only Swedish translation.",
+    "Put <b>en:</b> before a word to search only English translation.",
     'Use <b>pos:n</b> to search for <i>nouns,</i> <b>pos:v</b> for ' .
         '<i>verbs</i> etc (see <i><a href="intro.html">Introduction</a></i> ' .
         'for abbreviations).</i>',
@@ -211,7 +211,8 @@ sub split_query {
         rover  => qr/verb suffix type rover/,
     );
     # turn subqueries into regexes
-    for (@subquery) {
+    my $w = "[\\w']";                             # word character class
+    return map {
         # split subquery into field name & search phrase
         my ($field, $phrase) = /^ (?:([^":]*):)? "?(.*?)"? $/x;
         # quote metacharacters + "any field" if field was empty
@@ -220,20 +221,17 @@ sub split_query {
         # all fields are case-insensetive, except "tlh"
         my $lcphrase = lc $phrase;
         if ($field eq "pos" and exists($pos{$lcphrase})) {
-            $_ = qr/($field:)\t($pos{$lcphrase})$/m;
-        } elsif ($field eq "tlh") {
-            my $w = "[\\w']";  # word character class
-            # replace asterisks and spaces
-            for ($phrase) { s/\\\*/$w*/g; s/\s+/\\s+/g; }
-            $_ = qr/($field:.*)(?<!$w)($phrase)(?!$w)/;
+            qr/^($field:)\t($pos{$lcphrase})$/m;
         } else {
-            my $w = "[\\w]";  # word character class
-            # replace asterisks and spaces
-            for ($phrase) { s/\\\*/$w*/g; s/\s+/\\s+/g; }
-            $_ = qr/($field:.*)(?<!$w)($phrase)(?!$w)/i;
+            $field = "tag" if $field eq "cat";
+            for ($phrase) { s/\\\*/$w*/g; s/\s+/\\s+/g; } # replace '*' and ' '
+            if ($field eq "tlh") {
+                qr/^($field:.*)(?<!$w)($phrase)(?!$w)/m;  # case sensetive
+            } else {
+                qr/^($field:.*)(?<!$w)($phrase)(?!$w)/im; # case insensetive
+            }
         }
-    }
-    return @subquery;
+    } @subquery;
 }
 
 sub html_no_match {
@@ -454,7 +452,7 @@ print html_head() . html_form($query);
   WORD: foreach (read_dictionary("dict.zdb")) {
         # highlight matching words
         foreach my $regex (@regex) {
-            s/^$regex/$1<span class="match">$2<\/span>/m or next WORD;
+            s/$regex/$1<span class="match">$2<\/span>/ or next WORD;
         }
         push @output, '  <tr><td colspan="2">&nbsp;</td></tr>' . "\n"
             if $matches > 0;
