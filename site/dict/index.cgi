@@ -376,6 +376,7 @@ EOF
 
 sub html_form {
     my ($query) = (@_, "");
+    my $focus_attr = $query ? '' : ' autofocus';
     $query = escapeHTML($query);
     (my $script_name = $0) =~ s#^.*/##;
     my $tips = $tips[int(rand(@tips))];
@@ -385,8 +386,8 @@ sub html_form {
   <tr class="center">
     <td>
       <form method="get" action="">
-        <input type="text" name="q" value="$query" size="30"
-          autofocus="autofocus" placeholder="Search terms..."
+        <input$focus_attr tabindex=1 type="text" name="q" value="$query" size="30"
+          placeholder="Search terms..."
           /><input type="submit" value="Search" />
       </form>
     </td>
