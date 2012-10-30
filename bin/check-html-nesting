@@ -68,7 +68,7 @@ while ($html =~ m# <!--.*?--> | <(/?)(\w+)[^<>]*?> #gx) {
         if (@stack and $stack[-1]{tag} eq $tag_name) {
             pop(@stack);
         } else {
-            warn "end tag '$&' missing leading tag in position " .
+            warn "end tag '$&' missing leading tag in line " .
                 line_number($html, $char_pos) . "\n";
         }
     }
