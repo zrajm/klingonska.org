@@ -331,6 +331,8 @@ once in the same entry).
     + `country`
     + `family`
     + `fighting`
+    + `KLCP1` = The 502 basic words which one needs to know in order to pass
+      the first level of KLI's "Klingon Language Certification Program".
     + `landscape`
     + `math`
     + `measure`
@@ -348,10 +350,6 @@ once in the same entry).
 
     Semicolon-separated list of tags. Differs from `tag:` in that the `data:'
     tags also affect the presence or format of other fields.
-
-    + `KLCP-1` = The 502 basic words which one needs to know in order to pass
-      the first level of the Klingon Language Certification Program. FUTURE
-      (March 2012): The `KLCP-1` tag will move to the `tag:` field.
 
     + `derived form` = The entry is a word built from other Klingon morphemes
       (these words are included in the dictionary to provide a non-obvious
@@ -447,8 +445,7 @@ com:	"The verb used for 'shoot' when referring to disruptors is {bach}.
 	('shoot the disruptor beam'). As a practical matter, however, the {tIH}
 	is often left out, and {nISwI' bach} is the common way to say 'shoot a
 	disruptor.' Similarly, {pu' bach} is 'shoot a phaser.'" [KGT p.56]
-tag:	fighting
-data:	KLCP-1
+tag:	fighting; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{bach} [2]
@@ -456,8 +453,7 @@ pos:	noun
 sv:	«skott»
 en:	<shot>
 def:	TKD
-tag:	fighting
-data:	KLCP-1
+tag:	fighting; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{bachHa'}
@@ -495,8 +491,7 @@ pos:	verb
 sv:	«eld», «avfyra» (torped, raket, missil)
 en:	<fire> (torpedo, rocket, missile)
 def:	ST1; TKD
-tag:	fighting
-data:	KLCP-1
+tag:	fighting; KLCP1
 file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
 tlh:	{baHjan}
@@ -512,8 +507,8 @@ pos:	noun
 sv:	«skytt», «artillerist»
 en:	<gunner>
 def:	TKD
-tag:	fighting
-data:	KLCP-1; derived form
+tag:	fighting; KLCP1
+data:	derived form
 file:	1992-01-01-tkd.txt
 
 tlh:	{baj}
@@ -547,7 +542,7 @@ sv:	«älskad», någon som är älskad, älskade
 en:	<love>, one who is loved, «beloved»
 def:	TKD
 ref:	TKW p.159
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{bang «bom»}
@@ -693,7 +688,7 @@ pos:	verb
 sv:	«sitta»
 en:	<sit>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{beb}
@@ -733,7 +728,7 @@ sv:	«vaka» över, hålla ett öga på, «titta» på
 en:	<watch>
 def:	TKD
 ref:	TKW p.19
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{bej} [.2]
@@ -748,7 +743,7 @@ pos:	verb
 sv:	vara «nöjd», vara «belåten»
 en:	be <pleased>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{bel} [2]
@@ -757,7 +752,7 @@ sv:	«välbehag», «nöje»
 en:	<pleasure>
 def:	TKD
 ref:	TKW p.45
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{belHa'}
@@ -910,8 +905,7 @@ pos:	noun
 sv:	«kvinna», «hona»
 en:	<female>, <woman>
 def:	TKD
-tag:	family
-data:	KLCP-1
+tag:	family; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{be'etor}
@@ -929,8 +923,7 @@ pos:	noun
 sv:	«flicka»
 en:	<girl>
 def:	TKD
-tag:	family
-data:	KLCP-1
+tag:	family; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{be'joy'}
@@ -947,8 +940,7 @@ pos:	noun
 sv:	«maka», «hustru», «fru»
 en:	<wife>
 def:	TKD
-tag:	family
-data:	KLCP-1
+tag:	family; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{be'nI'}
@@ -956,8 +948,7 @@ pos:	noun
 sv:	«syster»
 en:	<sister>
 def:	TKD
-tag:	family
-data:	KLCP-1
+tag:	family; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	*{be'nI'nal}
@@ -1003,7 +994,7 @@ pos:	pronoun
 sv:	«de», «dem» (oförmögna till språk)
 en:	<they>, <them> (incapable of language)
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{bIj} [1]
@@ -1033,8 +1024,7 @@ pos:	noun
 sv:	område «nedanför», område «under»
 en:	area <below>, area <under>
 def:	TKD
-tag:	placement
-data:	KLCP-1
+tag:	KLCP1; placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{bIp}
@@ -1055,7 +1045,7 @@ def:	TKD
 ref:	TKW pp.34--35; KLINW
 com:	Used metaphorically as the symbol of weakness and distain.
 	[TKW pp.34--35]
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{bIQ «bal»}
@@ -1127,7 +1117,7 @@ sv:	vara «kall»
 en:	be <cold>
 def:	TKD
 ref:	TKW pp.133, 174
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{bIraqlul}
@@ -1169,7 +1159,7 @@ sv:	vara «nervös», vara «rastlös»
 en:	be <nervous>, be <uneasy>
 def:	TKD
 see:	{jotHa'}; *{tIb}
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{bIv}
@@ -1435,7 +1425,7 @@ sv:	«hämnd»
 en:	<revenge>
 def:	TKD
 ref:	TKW pp.121, 133
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{bortaS «DIb»}
@@ -1462,7 +1452,7 @@ en:	<prevent>, <block>, <prohibit>
 def:	TKD
 ref:	TKW p.9
 see:	{waQ}
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	FIXME -- Abstract/active meaning? (Such as a parent prohibiting a child
 	from buying candy, or moving an arm to block a blow etc.) See also
@@ -1519,7 +1509,7 @@ pos:	verb
 sv:	vara «lat»
 en:	be <lazy>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{bup}
@@ -1576,7 +1566,7 @@ sv:	«koncentrera» sig på, «fokusera» på, «tänka» enbart på
 en:	<concentrate> on, <focus> on, <think> only about
 def:	TKD
 ref:	TKW pp.81, 171, 197
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{buSHa'}
@@ -1630,7 +1620,7 @@ pos:	noun
 sv:	«sergeant» (rang)
 en:	<sergeant>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{cha}
@@ -1703,7 +1693,7 @@ pos:	verb
 sv:	«släppa», «tappa»
 en:	<drop>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{chaH}
@@ -1712,7 +1702,7 @@ sv:	«de», «dem» (förmögna till språk)
 en:	<they>, <them> (capable of using language)
 def:	TKD
 ref:	TKW p.33
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{chaj}
@@ -1727,8 +1717,7 @@ pos:	noun
 sv:	«himmel»
 en:	<sky>
 def:	TKD
-tag:	landscape
-data:	KLCP-1
+tag:	landscape; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{cham}
@@ -1806,7 +1795,7 @@ sv:	«erövra»
 en:	<conquer>
 def:	TKD
 ref:	TKW pp.5, 149
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{charghwI'}
@@ -1846,7 +1835,7 @@ sv:	«uppnå»
 en:	<achieve>
 def:	TKD
 ref:	TKW pp.55, 115, 125, 165, 211
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{chav} [2]
@@ -1854,7 +1843,7 @@ pos:	noun
 sv:	«prestation», «bedrift»
 en:	<achievement>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{chaw'} [1]
@@ -1863,7 +1852,7 @@ sv:	«tillåta»
 en:	<allow>, <permit>
 def:	TKD
 ref:	TKW p.37
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{chaw'} [2]
@@ -2035,7 +2024,7 @@ pos:	verb
 sv:	vara «full», vara «berusad»
 en:	be <drunk>, be <intoxicated>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{chechtlhutlh}
@@ -2065,7 +2054,7 @@ com:	{ghorgh pa'wIjDaq jIchegh.} "When can I return to my room?" [CK];
 	to Kronos from Earth" [Email 1999-07-19 (by Marc Okrand, Will Martin,
 	Roger Cheesbro, to tlhingan-hol, "[chegh] and new word [tatlh] (from
 	Marc)")]
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1999-07-19b-email.txt
 
 tlh:	{cheH}
@@ -2088,8 +2077,7 @@ pos:	verb
 sv:	«addera», «lägga ihop», «lägga till»
 en:	<add>
 def:	TKD
-tag:	math
-data:	KLCP-1
+tag:	KLCP1; math
 file:	1992-01-01-tkd.txt
 
 tlh:	{chelwI'}
@@ -2153,7 +2141,7 @@ pos:	verb
 sv:	ha «framgång», vara «framgångsrik»
 en:	<prosper>, be prosperous
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{cher}
@@ -2161,7 +2149,7 @@ pos:	verb
 sv:	«etablera», «sätta» upp, «ordna»
 en:	<establish>, <set> up
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{chergh}
@@ -2246,7 +2234,7 @@ sv:	«erkänna»
 en:	<admit>
 def:	TKD
 ref:	TKW p.212
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{chIj}
@@ -2255,7 +2243,7 @@ sv:	«navigera», «styra»
 en:	<navigate>
 def:	TKD
 ref:	TKW p.63
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{chIjwI'}
@@ -2301,7 +2289,7 @@ pos:	verb
 sv:	vara «vit»
 en:	be <white>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{chob}
@@ -2333,7 +2321,7 @@ pos:	verb
 sv:	«ändras», «förändras»
 en:	<alter>, <change>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{choH} [2]
@@ -2348,7 +2336,7 @@ pos:	verb
 sv:	«närma» sig, «komma» närmare, «nalkas»
 en:	<close> in, «get» closer, «come» nearer
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{choljaH}
@@ -2446,7 +2434,7 @@ pos:	verb
 sv:	«bita»
 en:	<bite>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{choptaH}
@@ -2644,7 +2632,7 @@ pos:	verb
 sv:	«rekommendera», «föreslå»
 en:	<recommend>, <suggest>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{chuq}
@@ -2727,7 +2715,7 @@ pos:	verb
 sv:	vara «ny»
 en:	be <new>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {chu'} [.1]
@@ -2781,7 +2769,7 @@ pos:	verb
 sv:	vara «frånvarande»
 en:	be <absent>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Dach} [.2]
@@ -2836,8 +2824,7 @@ sv:	«idag»
 en:	<today>
 def:	TKDa
 ref:	TKW p.203
-tag:	time
-data:	KLCP-1
+tag:	KLCP1; time
 file:	1992-01-01-tkd.txt
 
 tlh:	{DaHjaj «gheD»}
@@ -2853,7 +2840,7 @@ pos:	verb
 sv:	vara «intressant»
 en:	be <interesting>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {Daj}
@@ -2871,7 +2858,7 @@ en:	be <boring>
 def:	TKD
 ref:	TKW p.201
 pun:	Prononced similar to English "dull".
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Dan}
@@ -2886,7 +2873,7 @@ pos:	noun
 sv:	«nonsens»
 en:	<nonsense>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Dap «bom»}
@@ -2961,8 +2948,7 @@ def:	TKD
 ref:	{qep'a'} 1996
 pun:	"Das Boot"! "Last year, I asked Marc Okrand if it was intentional;
 	he said yes." (Alan Anderson, {qep'a'} 1996)
-tag:	clothing
-data:	KLCP-1
+tag:	clothing; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{DaSpu'}
@@ -3083,7 +3069,7 @@ pos:	noun
 sv:	«roder»
 en:	<helm>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {Degh} [2]
@@ -3105,7 +3091,7 @@ pos:	noun
 sv:	«rorsman»
 en:	<helmsman>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{DeH}
@@ -3127,7 +3113,7 @@ pos:	verb
 sv:	«beskriva»
 en:	<describe>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{DenIb}
@@ -3218,8 +3204,7 @@ pos:	noun
 sv:	«arm»
 en:	<arm> (body part)
 def:	TKD
-tag:	body part
-data:	KLCP-1
+tag:	body part; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{DeS} [.2]
@@ -3244,7 +3229,7 @@ sv:	«leda», «guida»
 en:	<lead>, <guide>
 def:	TKD
 ref:	TKW p.iii
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{DevwI'}
@@ -3261,7 +3246,7 @@ pos:	noun
 sv:	«data», «fakta», «information»
 en:	<data>, <information>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{De'wI'}
@@ -3269,7 +3254,7 @@ pos:	noun
 sv:	«dator»
 en:	<computer>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{DI}
@@ -3319,8 +3304,7 @@ pos:	verb
 sv:	«betala» för
 en:	<pay> for
 def:	TKD
-tag:	money
-data:	KLCP-1
+tag:	KLCP1; money
 file:	1992-01-01-tkd.txt
 
 tlh:	{DIlyum}
@@ -3356,7 +3340,7 @@ pos:	noun
 sv:	«substantiv»
 en:	<noun>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{DIr}
@@ -3364,7 +3348,7 @@ pos:	noun
 sv:	«skinn»
 en:	<skin>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{DIron}
@@ -3402,8 +3386,7 @@ pos:	noun
 sv:	«år» (klingonskt)
 en:	<year> (Klingon)
 def:	TKD
-tag:	measure; time
-data:	KLCP-1
+tag:	KLCP1; measure; time
 file:	1992-01-01-tkd.txt
 
 tlh:	{DIv}
@@ -3449,7 +3432,7 @@ pos:	noun
 sv:	«sak»
 en:	<thing>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{DoD}
@@ -3495,7 +3478,7 @@ pos:	verb
 sv:	vara «imponerande»
 en:	be <impressive>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Dol}
@@ -3541,7 +3524,7 @@ cite:	{Doq 'ej Qaj wuS rur} <be orange, red and resemble kradge lips>
 	[HQ8:1 p.7 ("Maltz Online")]
 cite:	{Doq 'ej SuD} <purple> [Eurotalk]
 cite:	{Doqqu' 'ej wov} <pink> [Eurotalk]
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt; 1999-03-holqed-08-1.txt;
 	2011-11-01-email.txt
 meta:	Entries differ and have been combined here.
@@ -3628,7 +3611,7 @@ pos:	verb
 sv:	vara «trött»
 en:	be <tired>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Doy'yuS}
@@ -3650,7 +3633,7 @@ pos:	verb
 sv:	vara «tursam», vara «lyckosam», ha «tur», ha «lycka»
 en:	be <fortunate>, be <lucky>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
 
@@ -3737,7 +3720,7 @@ sv:	«skepp», «farkost»
 en:	<ship>, <vessel>
 def:	TKD
 ref:	TKW pp.27, 63, 74, 182
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Duj ngaDHa'}
@@ -3769,8 +3752,7 @@ pos:	noun
 sv:	område «ovanför», område «över»
 en:	area <above>, area <overhead>
 def:	TKD
-tag:	placement
-data:	KLCP-1
+tag:	KLCP1; placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{DungluQ}
@@ -3939,7 +3921,7 @@ sv:	«han», «hon», «honom», «henne»
 en:	<he>, <she>, <him>, <her>
 def:	TKD
 ref:	TKW pp.61, 139, 190
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ghaj}
@@ -3948,7 +3930,7 @@ sv:	«ha», «äga»
 en:	<have>, <possess>
 def:	TKD
 ref:	TKW p.142
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ghal}
@@ -4160,7 +4142,7 @@ pos:	verb
 sv:	vara «ojämn», vara «skrovlig»
 en:	be <rough>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ghel}
@@ -4279,8 +4261,7 @@ pos:	noun
 sv:	«näsa»
 en:	<nose>
 def:	TKD
-tag:	body part
-data:	KLCP-1
+tag:	body part; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ghIgh} [.1]
@@ -4303,7 +4284,7 @@ pos:	verb
 sv:	vara «slarvig», vara «sjabbig», vara «rörig», vara «kladdig»
 en:	be <messy>, be <sloppy>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
 
@@ -4313,7 +4294,7 @@ sv:	«skrämma»
 en:	<scare>
 def:	TKD
 ref:	TKW pp.65, 105, 109
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ghIlab ghew}
@@ -4452,7 +4433,7 @@ def:	TKD; HQ2:4 p.18 ("Okrand's Notes"); KGT
 com:	"'To mark (upon)' something is {ghItlh}. This isn't just writing; it's
 	any kind of marking. (Note that {ghItlh}, 'to write,' refers to the
 	physical act of writing. It doesn't mean 'to create a composition.')"
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1993-12-holqed-02-4.txt; 1997-11-01-kgt.txt
 meta:	Entries from all sources have been combined here.
 
@@ -4461,7 +4442,7 @@ pos:	noun
 sv:	«manuskript»
 en:	<manuscript>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ghItlhwI'}
@@ -4517,7 +4498,7 @@ pos:	exclamation
 sv:	«nej» (svar på ja/nej fråga)
 en:	<no> (answer to a question)
 def:	TKD 5.5 (p.57) et al.
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ghoch} [1]
@@ -4552,7 +4533,7 @@ pos:	verb
 sv:	«proppa» (in), «packa» (full), «stoppa» (upp)
 en:	<stuff>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ghogh}
@@ -4561,7 +4542,7 @@ sv:	«röst»
 en:	<voice>
 def:	TKD
 ref:	TKW p.31
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ghogh HablI'}
@@ -4588,7 +4569,7 @@ pos:	verb
 sv:	«lära» sig
 en:	<learn>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ghojmeH taj}
@@ -4637,7 +4618,7 @@ sv:	«möta», «träffa», «samlas»
 en:	<meet>, <encounter>, <assemble>, <rendezvous>
 def:	TKD
 ref:	TKW p.184
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	Should {ghom} "meet" and "group" really be grouped together?
 
@@ -4646,7 +4627,7 @@ pos:	noun
 sv:	«grupp», «samling», «skara», «gäng», «liga»
 en:	<group>, <party>, <band> (in nonmusical sense)
 def:	TKD; HQ4:4 p.11 ("More from Maltz"); KGT
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1995-12-holqed-04-4.txt; 1997-11-01-kgt.txt
 meta:	Should {ghom} "meet" and "group" really be grouped together?
 
@@ -4693,8 +4674,7 @@ pos:	noun
 sv:	«hand»
 en:	<hand>
 def:	TKD
-tag:	body part
-data:	KLCP-1
+tag:	body part; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ghopDap}
@@ -4734,7 +4714,7 @@ def:	TKD
 ref:	TKW p.185
 com:	Apparently means "break" in the sense of breaking something (e.g. a
 	shell) open. {pIpyuS yIghor!} "Break a pipius!" [TKW p.185]
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {ghor}
@@ -4760,7 +4740,7 @@ sv:	fortsätta «framåt», «nalkas», komma närmare, «avlägsna» sig ifrån
 en:	go <onward>, <approach>, <go> away from, <proceed> on a course, <come>,
 	<follow> (a course)
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
 
@@ -4778,7 +4758,7 @@ en:	<person> (humanoid)
 def:	TKD
 ref:	TKW p.34
 see:	{Dep}; {nuv}; {yoq}
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ghotI'}
@@ -4797,7 +4777,7 @@ pos:	verb
 sv:	«känna igen»
 en:	<recognize>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{gho'}
@@ -4886,7 +4866,7 @@ pos:	verb
 sv:	vara «hungrig»
 en:	be <hungry>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ghup}
@@ -4957,7 +4937,7 @@ pos:	verb
 sv:	vara «jämn», vara «slät»
 en:	be <smooth>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{HablI'}
@@ -4980,7 +4960,7 @@ pos:	verb
 sv:	«studera»
 en:	<study>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Hagh}
@@ -4989,7 +4969,7 @@ sv:	«skratta»
 en:	<laugh>
 def:	TKD
 ref:	TKW p.131
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{HaH} [.1]
@@ -5025,7 +5005,7 @@ pos:	noun
 sv:	«källa»
 en:	<source>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{HanDogh}
@@ -5090,7 +5070,7 @@ pos:	verb
 sv:	«tro»
 en:	<believe>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Hargh}
@@ -5127,8 +5107,7 @@ pos:	noun
 sv:	«landsort», «landsbygd»
 en:	<country>, countryside
 def:	TKD
-tag:	landscape
-data:	KLCP-1
+tag:	landscape; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Haw'}
@@ -5165,7 +5144,7 @@ pos:	exclamation
 sv:	«kom», «vi går»
 en:	<let's go>, <come> on
 def:	TKD 5.5 (p.57) et al.
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Ha'DIbaH} [.1]
@@ -5174,7 +5153,7 @@ sv:	«kött», «djur»
 en:	<meat>, <animal>
 def:	TKD; TKDa
 ref:	TKW p.163
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Ha'DIbaH} [.2]
@@ -5214,7 +5193,7 @@ sv:	«avse», «mena» att
 en:	<intend>, <mean> to
 def:	TKD
 ref:	TKW pp.163, 13
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{HeD}
@@ -5238,7 +5217,7 @@ en:	<die>
 def:	TKD
 ref:	TKW pp.5, 69, 71, 72, 73, 74, 77, 88, 93, 99, 117, 123, 129, 145, 153,
 	213
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Hegh} [2]
@@ -5312,7 +5291,7 @@ ref:	TKW p.13; HQ12:3 p.9 ("Maltz's Reward Part II")
 com:	"To be {Hem} <proud> [...] is quite admirable and does not carry any
 	connotations of arrogance as the Federation Standard words 'proud' and
 	'pride' sometimes do." [HQ12:3 p.9 ("Maltz's Reward Part II")]
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Heng}
@@ -5392,7 +5371,7 @@ pos:	verb
 sv:	«ta emot»
 en:	<receive>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Hew}
@@ -5467,7 +5446,7 @@ pos:	exclamation
 sv:	«ja» (svar på ja/nej fråga)
 en:	<yes>, «true» (answer to yes/no question)
 def:	TKD 5.5 (p.57) et al.
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{HIjwI'}
@@ -5502,7 +5481,7 @@ com:	In ST3: Only Cathie Shirriff (Valkris) was filmed without benefit of
 	on-set coaching. It's her peculiar take on pronunciation which gives us
 	the variant words {jaw} for "lord" and {HISlaH} for "yes".
 	/Alan Anderson in email to tlhingan-hol mailing list, 2011-08-29
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{HIv}
@@ -5511,7 +5490,7 @@ sv:	«attackera»
 en:	<attack>
 def:	TKD
 ref:	TKW pp.24, 113, 182, 183
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{HIvDuj}
@@ -5529,7 +5508,7 @@ en:	<glass> (tumbler), «mug»
 def:	TKD
 ref:	Eurotalk; Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 2011-10-31-email.txt
 
 tlh:	{HIvje' bom}
@@ -5582,8 +5561,7 @@ com:	First in a noun-noun pair in TKW. According to HQ "More on {Hoch}"; "If
 	noun following Hoch is explicitly plural, it means 'all'. If it is
 	singular, it means 'each'." Occurs in TKW p.33, 51, 74, 74, 74, 99,
 	136, 179, 184.
-tag:	quantity
-data:	KLCP-1
+tag:	KLCP1; quantity
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt; 1996-06-holqed-05-2-a.txt
 meta:	All sources combined here.
 
@@ -5620,7 +5598,7 @@ sv:	«kapten» (rang)
 en:	<captain>
 def:	TKD
 pun:	{HoD} = H.o.D. = "Head of Department"
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Hogh}
@@ -5628,8 +5606,7 @@ pos:	noun
 sv:	«vecka» (klingonsk)
 en:	<week> (Klingon)
 def:	TKD
-tag:	measure; time
-data:	KLCP-1
+tag:	KLCP1; measure; time
 file:	1992-01-01-tkd.txt
 
 tlh:	{HoH} [1]
@@ -5638,7 +5615,7 @@ sv:	«döda»
 en:	<kill>
 def:	TKD
 ref:	TKW pp.59, 163, 165
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{HoH} [2]
@@ -5668,7 +5645,7 @@ pos:	noun
 sv:	«språk»
 en:	<language>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Hol ghoQ}
@@ -5721,7 +5698,7 @@ pos:	verb
 sv:	«tvivla»
 en:	<doubt>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Hong}
@@ -5751,8 +5728,7 @@ pos:	verb
 sv:	vara «avlägsen», vara «långt bort»
 en:	be <remote>, be <far>
 def:	TKD
-tag:	placement
-data:	KLCP-1
+tag:	KLCP1; placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{Hoq}
@@ -5787,7 +5763,7 @@ sv:	vara «stark»
 en:	be <strong>
 def:	TKD
 pun:	{HoS} = H.o.S. = "Head of State" (¿?)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{HoS} [2]
@@ -6249,7 +6225,7 @@ sv:	«skrika», «ropa», «tjuta», «vråla»
 en:	<scream>, <cry> out, <shout>, yell
 def:	TKD
 ref:	TKW p.195
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{jaD}
@@ -6266,7 +6242,7 @@ sv:	«fiende»
 en:	<enemy>
 def:	TKD
 ref:	TKW pp.ix, 19, 24, 61, 65, 65, 201
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{jaH}
@@ -6274,7 +6250,7 @@ pos:	verb
 sv:	«fara», «åka», «gå», «färdas», «resa»
 en:	<go>, «travel»
 def:	TKD; TKW pp.38, 203
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
 tlh:	{jaj}
@@ -6285,8 +6261,7 @@ def:	TKD
 ref:	TKW pp.69, 177
 com:	Used with {-vam} in the sentence: {Heghlu'meH QaQ jajvam.}
 	"It is a good day to die." in TKW p.69.
-tag:	measure; time
-data:	KLCP-1
+tag:	KLCP1; measure; time
 file:	1992-01-01-tkd.txt
 
 tlh:	{jajlo'}
@@ -6349,7 +6324,7 @@ pos:	verb
 sv:	«svara», «besvara», «genmäla»
 en:	<answer>, <reply>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{jaq}
@@ -6372,8 +6347,7 @@ pos:	noun
 sv:	«månad» (klingonsk)
 en:	<month> (Klingon)
 def:	TKD
-tag:	measure; time
-data:	KLCP-1
+tag:	KLCP1; measure; time
 file:	1992-01-01-tkd.txt
 
 tlh:	{jargh}
@@ -6420,7 +6394,7 @@ sv:	«säga», «berätta», «tala», «prata»
 en:	<say>, «tell», <speak>
 def:	TKD; TKDa
 ref:	TKW p.87
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {jav} [1]
@@ -6497,7 +6471,7 @@ pos:	verb
 sv:	«berätta», «rapportera»
 en:	<tell>, <report>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ja'chuq} [1]
@@ -6553,7 +6527,7 @@ sv:	«kapitulera», «ge upp»
 en:	<surrender>, <give> up
 def:	TKD
 ref:	TKW p.89
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{jeH}
@@ -6569,7 +6543,7 @@ sv:	vara «skarp», vara «vass»
 en:	be <sharp>
 def:	TKD
 ref:	TKW p.169
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{jejHa'}
@@ -6698,8 +6672,7 @@ sv:	«köpa», «handla»
 en:	<buy>, <purchase>
 def:	TKD
 ref:	TKW pp.7, 213
-tag:	money
-data:	KLCP-1
+tag:	KLCP1; money
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {je'}
@@ -6710,7 +6683,7 @@ def:	TKD
 ref:	TKW p.7
 com:	Is used "metaphorically" in TKW to mean "enrich" (though of course this
 	may just be a way to make a smooth translation into English).
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{jIb}
@@ -6741,7 +6714,7 @@ sv:	«jag», «mig»
 en:	<I>, <me>
 def:	TKD
 ref:	TKW pp.203, 206
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	*{jIj}
@@ -6927,8 +6900,7 @@ pos:	noun
 sv:	område «mellan», område «emellan»
 en:	area <between>
 def:	TKD
-tag:	placement
-data:	KLCP-1
+tag:	KLCP1; placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{jojlu'}
@@ -6943,7 +6915,7 @@ pos:	verb
 sv:	«stråla» (ombord), «beama» (ombord)
 en:	<beam> (aboard)
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{jol} [2]
@@ -7115,7 +7087,7 @@ pos:	verb
 sv:	vara «lugn»
 en:	be <calm>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{jotHa'}
@@ -7183,7 +7155,7 @@ pos:	noun
 sv:	«hem»
 en:	<home>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{juHqo'}
@@ -7234,7 +7206,7 @@ sv:	«vän»
 en:	<friend>
 def:	TKD
 ref:	TKW pp.37, 38
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{juS}
@@ -7270,7 +7242,7 @@ pos:	verb
 sv:	«läsa»
 en:	<read>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {lagh}
@@ -7292,7 +7264,7 @@ pos:	noun
 sv:	«förmåga»
 en:	<ability>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{laj} [1]
@@ -7300,7 +7272,7 @@ pos:	verb
 sv:	«acceptera», «godta»
 en:	<accept>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{laj} [2]
@@ -7331,7 +7303,7 @@ pos:	verb
 sv:	vara «smutsig»
 en:	be <dirty>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{lam} [2]
@@ -7401,8 +7373,7 @@ desc:	{latlh HIvje'} ~other glass~ [BoP]
 def:	TKDa
 com:	{latlh Datlhutlh'a'.} "Will you drink another one?" [PK] {latlh
 	tlhInganpu'} "other Klingons" [S31]
-tag:	quantity
-data:	KLCP-1
+tag:	KLCP1; quantity
 file:	1992-01-01-tkd.txt
 
 tlh:	{lav}
@@ -7419,7 +7390,7 @@ en:	be <many>, be <numerous>, be «much»
 def:	TKD
 ref:	TKW pp.35, 53, 95, 179; S33
 com:	S33: {HoS law'qu'} "very much energy"
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
 
@@ -7473,7 +7444,7 @@ sv:	«se»
 en:	<see>
 def:	TKD
 ref:	TKW p.169
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{leH} [1]
@@ -7516,7 +7487,7 @@ pos:	verb
 sv:	«ströva», «resa»
 en:	<roam>, <travel>, <rove>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{leng} [2]
@@ -7557,7 +7528,7 @@ pos:	verb
 sv:	«vila», «slappna av»
 en:	<rest>, <relax>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {leS}
@@ -7595,7 +7566,7 @@ pos:	verb
 sv:	vara «hård» (som en sten)
 en:	be <hard> (like a rock)
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{letlh} [.1]
@@ -7646,7 +7617,7 @@ pos:	verb
 sv:	vara «speciell», vara «exceptionell», vara «särskild»
 en:	be <special>, be <exceptional>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
 
@@ -7756,7 +7727,7 @@ pos:	verb
 sv:	«glömma»
 en:	<forget>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{lIm}
@@ -7852,7 +7823,7 @@ pos:	verb
 sv:	vara «användbar»
 en:	be <useful>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {lI'}
@@ -7891,8 +7862,7 @@ sv:	«man», «hane»
 en:	<male>, <man>
 def:	TKD
 ref:	TKW pp.127, 177, 206
-tag:	family
-data:	KLCP-1
+tag:	family; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{loDHom}
@@ -7900,8 +7870,7 @@ pos:	noun
 sv:	«pojke»
 en:	<boy>
 def:	TKD
-tag:	family
-data:	KLCP-1
+tag:	family; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{loDnal}
@@ -7909,8 +7878,7 @@ pos:	noun
 sv:	«make», «man»
 en:	<husband>
 def:	TKD
-tag:	family
-data:	KLCP-1
+tag:	family; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{loDnI'}
@@ -7918,8 +7886,7 @@ pos:	noun
 sv:	«bror»
 en:	<brother>
 def:	TKD
-tag:	family
-data:	KLCP-1
+tag:	family; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	*{loDnI'nal}
@@ -7981,7 +7948,7 @@ pos:	verb
 sv:	vara «helt «borta»», vara helt «försvunnen», vara «slut»
 en:	be <all «gone»>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{lojmIt}
@@ -7991,8 +7958,7 @@ en:	<door>, <gate>
 def:	TKD
 ref:	TKW p.186; HQ12:2 p.7 ("Maltz's Reward Part I")
 see:	{DIn}, {qa'rI'}
-tag:	architecture
-data:	KLCP-1
+tag:	architecture; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{lol} [1]
@@ -8147,7 +8113,7 @@ pos:	verb
 sv:	«vänta» (på)
 en:	<wait> (for)
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {loS} [1]
@@ -8225,7 +8191,7 @@ pos:	verb
 sv:	«använda», «nyttja», «bruka»
 en:	<use>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{lo'} [2]
@@ -8297,7 +8263,7 @@ sv:	ha «rätt», vara «rätt», vara «korrekt»
 en:	be <right>, be <correct>
 def:	TKD
 ref:	TKW p.179
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
 
@@ -8466,7 +8432,7 @@ pos:	noun
 sv:	«historia», «berättelse», «saga»
 en:	<story>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{lutlh}
@@ -8495,8 +8461,7 @@ pos:	verb
 sv:	vara «liten»
 en:	be <small>
 def:	TKD
-tag:	shape
-data:	KLCP-1
+tag:	KLCP1; shape
 file:	1992-01-01-tkd.txt
 
 tlh:	{maDyar}
@@ -8518,7 +8483,7 @@ ref:	S26; HQ5:3 p.15 ("Everyday Klingon")
 cite:	{ngoQvam luchavmeH ghawran maghpu' be'nI'pu'.} "To this end, the
 	sisters have acted against Gowron [...]" [S26]
 com:	S26 was reprinted in HQ5:3 p.15.
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1996-sbx-s26.txt; 1996-09-holqed-05-3-b.txt
 
 tlh:	{maghwI'}
@@ -8535,7 +8500,7 @@ sv:	«vi», «oss»
 en:	<we>, <us>
 def:	TKD
 ref:	TKW p.3
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {maH}
@@ -8560,7 +8525,7 @@ pos:	exclamation
 sv:	«bra» (uttrycker belåtenhet)
 en:	<good> (expressing satisfaction)
 def:	TKD 5.5 (p.57) et al.
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{majQa'}
@@ -8568,7 +8533,7 @@ pos:	exclamation
 sv:	«bra» gjort, mycket bra
 en:	<well> done, very <good>
 def:	TKD 5.5 (p.57) et al.
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{malja'}
@@ -8659,7 +8624,7 @@ pos:	verb
 sv:	«föredra»
 en:	<prefer>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {maS}
@@ -8667,7 +8632,7 @@ pos:	noun
 sv:	«måne»
 en:	<moon>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{maSIr}
@@ -8744,7 +8709,7 @@ pos:	verb
 sv:	vara «galen»
 en:	be <crazy>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {may}
@@ -8769,7 +8734,7 @@ en:	<battle> (an individual battle)
 def:	TKD; KGT p.47
 ref:	TKW pp.38, 91, 147, 211
 see:	{vIq}
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{may' bom}
@@ -8884,7 +8849,7 @@ sv:	«lämna», «avvika», «ge sig av», «avlägsna» sig
 en:	<leave>, «depart»
 def:	TKDa
 ref:	TKW p.79
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{melchoQ}
@@ -8939,7 +8904,7 @@ sv:	«orsak», «motiv», «anledning», «skäl», «tankesätt»
 en:	<reason>, <motive>, logical «thinking»
 def:	TKD; KGT p.154
 ref:	TKW p.143
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 meta:	Word list entries in says "reason" in TKD, and "motive" in KGT while
 	and "reason"/"logical thinking" is used in KGT p.154. Entries are
@@ -8977,7 +8942,7 @@ sv:	«brinna»
 en:	<burn>
 def:	TKD
 ref:	TKW p.111
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{mer}
@@ -8986,7 +8951,7 @@ sv:	«överraska»
 en:	<surprise>
 def:	TKD
 ref:	TKW p.25
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{meSchuS}
@@ -9003,7 +8968,7 @@ sv:	«sluta», «upphöra»
 en:	<stop>, <cease>
 def:	TKD
 ref:	TKW p.87; HQ12:2 p.9 ("Maltz's Reward Part I")
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{mevyap}
@@ -9179,7 +9144,7 @@ pos:	verb
 sv:	vara «förvirrad», vara «ihopblandad»
 en:	be <confused>, be <mixed up>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
 
@@ -9290,7 +9255,7 @@ sv:	vara «ensam»
 en:	be <alone>
 def:	TKD
 ref:	TKW p.73
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{moch}
@@ -9305,7 +9270,7 @@ pos:	verb
 sv:	«skynda» sig
 en:	<hurry>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {mogh}
@@ -9353,7 +9318,7 @@ sv:	«bli»
 en:	<become>
 def:	TKD
 ref:	TKW pp.5, 177
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{mojaq}
@@ -9555,7 +9520,7 @@ pos:	verb
 sv:	«presentera»
 en:	<present>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{much} [1.2]
@@ -9607,7 +9572,7 @@ pos:	verb
 sv:	«översätta»
 en:	<translate>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{mughato'}
@@ -9660,7 +9625,7 @@ pos:	verb
 sv:	ha «fel», vara «fel»
 en:	be «wrong»
 def:	TKD K-E
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{mul}
@@ -9729,7 +9694,7 @@ pos:	verb
 sv:	«hata», «avsky»
 en:	<hate>, <detest>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {mut}
@@ -9772,7 +9737,7 @@ pos:	noun
 sv:	«ord»
 en:	<word>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{mu'ghom}
@@ -9780,7 +9745,7 @@ pos:	noun
 sv:	«ordbok»
 en:	<dictionary>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{mu'mey Doy'}
@@ -9829,7 +9794,7 @@ pos:	noun
 sv:	«ordförråd»
 en:	<vocabulary>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{mu'tlhegh}
@@ -9837,7 +9802,7 @@ pos:	noun
 sv:	«mening»
 en:	<sentence>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{nab} [1]
@@ -9848,7 +9813,7 @@ def:	TKD
 ref:	ST5; HQ8:4 pp.12, 13 ("Notes from Star Trek V: The Final Frontier")
 cite:	{nImbuS wej maghoS, He yInab.} "Plot course for Nimbus III." [ST5]
 cite:	{He pagh-pagh-vagh-jav-pagh-jav yInab} "Plot course 0.0.5.6.0.6." [ST5]
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1999-12-holqed-08-4-b.txt
 
 tlh:	{nab} [2]
@@ -9864,8 +9829,7 @@ pos:	noun
 sv:	«huvud»
 en:	<head>
 def:	TKD
-tag:	body part
-data:	KLCP-1
+tag:	body part; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{naD} [1]
@@ -10001,7 +9965,7 @@ pos:	verb
 sv:	«drömma»
 en:	<dream>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{najmoHwI'}
@@ -10082,7 +10046,7 @@ pos:	verb
 sv:	vara «enkel»
 en:	be <simple>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {naQ}
@@ -10179,7 +10143,7 @@ pos:	noun
 sv:	«papper»
 en:	<paper>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{nav HablI'}
@@ -10300,7 +10264,7 @@ sv:	«önska», «vilja», «vilja ha»
 en:	<want>, «desire»
 def:	TKD; TKW p.149
 ref:	TKW p.185
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
 tlh:	*{neHjej}
@@ -10334,7 +10298,7 @@ sv:	«titta efter», «söka», «leta» efter
 en:	<look for>, <seek>, <search> for
 def:	TKD
 ref:	TKW p.200
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{nejwI'}
@@ -10413,7 +10377,7 @@ pos:	verb
 sv:	«ljuga»
 en:	<lie>, <fib>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{nepwI'}
@@ -10479,7 +10443,7 @@ pos:	verb
 sv:	vara «identisk»
 en:	be <identical>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{nIbpoH}
@@ -10504,7 +10468,7 @@ pos:	verb
 sv:	«försöka», «prova»
 en:	<attempt>, <try>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {nIH}
@@ -10594,7 +10558,7 @@ pos:	noun
 sv:	«frukost»
 en:	<breakfast>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{nIS}
@@ -10691,8 +10655,7 @@ pos:	noun
 sv:	«finger»
 en:	<finger>
 def:	TKD
-tag:	body part
-data:	KLCP-1
+tag:	body part; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{nItlh naQ}
@@ -10775,8 +10738,7 @@ pos:	verb
 sv:	«ge»
 en:	<give>
 def:	TKD
-tag:	money
-data:	KLCP-1
+tag:	KLCP1; money
 file:	1992-01-01-tkd.txt
 
 tlh:	{nob} [2]
@@ -10785,8 +10747,7 @@ sv:	«gåva»
 en:	<gift>
 def:	TKD
 ref:	TKW p.189
-tag:	money
-data:	KLCP-1
+tag:	KLCP1; money
 file:	1992-01-01-tkd.txt
 
 tlh:	{nobHa'}
@@ -10825,7 +10786,7 @@ pos:	verb
 sv:	«bedömma», «uppskatta»
 en:	<judge>, <estimate>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {noH}
@@ -10967,7 +10928,7 @@ pos:	noun
 sv:	«främling», «utlänning», «outsider»
 en:	<alien>, <foreigner>, <outsider>
 def:	TKD; KGT
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{noy}
@@ -10975,7 +10936,7 @@ pos:	verb
 sv:	vara «känd», vara «välkänd»
 en:	be <famous>, be well «known»
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	The word "be" was inserted before the adjectival "well known".
 
@@ -11031,7 +10992,7 @@ sv:	«ynkrygg», «fegis»
 en:	<coward>
 def:	TKD
 ref:	TKW p.97
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{nuD}
@@ -11071,8 +11032,7 @@ sv:	«vapen»
 en:	<weapon>
 def:	TKD
 ref:	TKW p.151
-tag:	fighting
-data:	KLCP-1
+tag:	fighting; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{nuH} [.2]
@@ -11124,8 +11084,7 @@ pos:	noun
 sv:	«mun»
 en:	<mouth>
 def:	TKD
-tag:	body part
-data:	KLCP-1
+tag:	body part; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{num}
@@ -11242,7 +11201,7 @@ en:	<person> (humanoid)
 def:	TKD
 ref:	TKW p.142
 see:	{Dep}; {ghot}; {yoq}
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{nu'SIylan}
@@ -11260,7 +11219,7 @@ pos:	verb
 sv:	«försvinna»
 en:	<disappear>, <vanish>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ngach}
@@ -11268,7 +11227,7 @@ pos:	verb
 sv:	«debattera»
 en:	<debate>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ngaD}
@@ -11322,7 +11281,7 @@ pos:	noun
 sv:	«invånare»
 en:	<inhabitant>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ngaq}
@@ -11345,8 +11304,7 @@ pos:	verb
 sv:	«innehålla»
 en:	<contain> (have inside)
 def:	TKD
-tag:	placement
-data:	KLCP-1
+tag:	KLCP1; placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{ngat} [.1]
@@ -11403,7 +11361,7 @@ sv:	vara «förfalskad», vara «falsk», vara «oäkta»
 en:	be <counterfeit>, be <false>, be <fake>
 def:	TKD
 ref:	TKW p.35
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ngech} [.1]
@@ -11428,7 +11386,7 @@ pos:	verb
 sv:	vara «lätt» (inte svår)
 en:	be <easy>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ngeH}
@@ -11436,7 +11394,7 @@ pos:	verb
 sv:	«sända»
 en:	<send>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ngeHbej}
@@ -11459,8 +11417,7 @@ pos:	noun
 sv:	«skog»
 en:	<forest>, <woods>
 def:	TKD
-tag:	landscape
-data:	KLCP-1
+tag:	landscape; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ngeng}
@@ -11468,8 +11425,7 @@ pos:	noun
 sv:	«sjö»
 en:	<lake>
 def:	TKD
-tag:	landscape
-data:	KLCP-1
+tag:	landscape; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ngep}
@@ -11499,7 +11455,7 @@ pos:	noun
 sv:	«teori»
 en:	<theory>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ngev}
@@ -11508,8 +11464,7 @@ sv:	«sälja»
 en:	<sell>
 def:	TKD
 ref:	TKW p.190
-tag:	money
-data:	KLCP-1
+tag:	KLCP1; money
 file:	1992-01-01-tkd.txt
 
 tlh:	{ngevwI'}
@@ -11529,7 +11484,7 @@ pos:	verb
 sv:	«ta bort»
 en:	<take away>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ngIb}
@@ -11566,7 +11521,7 @@ pos:	verb
 sv:	«låna»
 en:	<borrow>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ngIq}
@@ -11614,7 +11569,7 @@ pos:	noun
 sv:	«faktum», «fakta»
 en:	<fact>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ngogh}
@@ -11716,7 +11671,7 @@ sv:	«mål», «syfte»
 en:	<goal>, <purpose>
 def:	TKD; KGT
 ref:	TKW p.165
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{ngor}
@@ -11724,7 +11679,7 @@ pos:	verb
 sv:	«fuska»
 en:	<cheat>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ngoS}
@@ -11747,7 +11702,7 @@ sv:	vara «ansvarig»
 en:	be <responsible>
 def:	TKD
 ref:	TKW p.155
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ngo'}
@@ -11755,7 +11710,7 @@ pos:	verb
 sv:	vara «gammal» (inte ny)
 en:	be <old> (not new)
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ngugh}
@@ -11837,7 +11792,7 @@ pos:	verb
 sv:	«identifiera»
 en:	<identify>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{pab} [1]
@@ -11846,7 +11801,7 @@ sv:	«följa» (regler)
 en:	<follow> (rules)
 def:	TKD
 ref:	TKW p.47
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{pab} [2]
@@ -11854,7 +11809,7 @@ pos:	noun
 sv:	«grammatik»
 en:	<grammar>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{pabHa'}
@@ -11895,7 +11850,7 @@ sv:	«ingenting», «inget», «ingen»
 en:	<nothing>, <none>, <no one>
 def:	TKD; KGT
 ref:	TKW pp.139, 201
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{paghDIch}
@@ -11956,7 +11911,7 @@ sv:	«bok»
 en:	<book>
 def:	TKD
 ref:	TKW p.iii
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{paQDI'norgh}
@@ -11971,7 +11926,7 @@ pos:	verb
 sv:	«ogilla», inte «tycka om»
 en:	<dislike>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{parbIng}
@@ -12022,7 +11977,7 @@ pos:	noun
 sv:	«system»
 en:	<system>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{patat 'oQqar}
@@ -12061,7 +12016,7 @@ pos:	verb
 sv:	«anlända», «komma»
 en:	<arrive>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{paw'} [.1]
@@ -12084,7 +12039,7 @@ pos:	verb
 sv:	«ångra»
 en:	<regret>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {pay}
@@ -12109,8 +12064,7 @@ en:	<there>, over there, thereabouts
 desc:	never takes {-Daq} [TKD 3.3.5 (pp.27--28)]
 def:	TKD 3.3.5 (pp.27--28) et al.
 com:	Locative word, never followed by {-Daq} [TKD 3.3.5 (pp.27--28)].
-tag:	placement
-data:	KLCP-1
+tag:	KLCP1; placement
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {pa'} [.1]
@@ -12118,7 +12072,7 @@ pos:	noun
 sv:	«rum», «kammare»
 en:	<room>, «chamber»
 def:	TKD; BoP
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1998-11-01-bop.txt
 
 tlh:	[2] {pa'} [.2]
@@ -12178,7 +12132,7 @@ pos:	verb
 sv:	«hålla» något «hemligt»
 en:	«keep» something <secret>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1992-10-01-ck.txt; 1993-10-01-pk.txt
 
 tlh:	{pegh} [2]
@@ -12186,7 +12140,7 @@ pos:	noun
 sv:	«hemlighet»
 en:	<secret>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{peghmey vIttlhegh}
@@ -12269,7 +12223,7 @@ pos:	verb
 sv:	«beteckna», «fastställa», «specificera», «namnge», ge «namn» åt/till
 en:	<label>, «ascertain», «specify»
 def:	TKD; News 1999-02-02
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1999-02-02-email.txt
 meta:	FIXME -- What does this word really mean? (Check swedish translation.)
 
@@ -12349,7 +12303,7 @@ pos:	verb
 sv:	«skylla på»
 en:	<blame>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{pIch} [2]
@@ -12378,7 +12332,7 @@ pos:	verb
 sv:	«förvänta» sig
 en:	<expect>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {pIH}
@@ -12433,7 +12387,7 @@ pos:	verb
 sv:	vara «annorlunda», vara «olika»
 en:	be <different>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{pIn} [.1]
@@ -12441,7 +12395,7 @@ pos:	noun
 sv:	«chef»
 en:	<boss>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{pIn} [.2]
@@ -12532,7 +12486,7 @@ def:	TKD 5.5 (p.57) et al.
 ref:	KCD
 com:	KCD: "a common exclamation uttered upon the completion of a
 	project."
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
 
 tlh:	{pIv}
@@ -12540,7 +12494,7 @@ pos:	verb
 sv:	vara «frisk»
 en:	be <healthy>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{pIvchem}
@@ -12580,8 +12534,7 @@ pos:	verb
 sv:	vara «fet»
 en:	be <fat>
 def:	TKD
-tag:	shape
-data:	KLCP-1
+tag:	KLCP1; shape
 file:	1992-01-01-tkd.txt
 meta:	FIXME -- Is there a difference in meaning between {pI'} and {ror}?
 
@@ -12590,8 +12543,7 @@ pos:	noun
 sv:	«morgon»
 en:	<morning>
 def:	TKD
-tag:	time
-data:	KLCP-1
+tag:	KLCP1; time
 file:	1992-01-01-tkd.txt
 
 tlh:	{pob}
@@ -12646,8 +12598,7 @@ sv:	«tid», «tidsperiod»
 en:	period of <time>
 desc:	{cha' vatlh DIS poH} ~two centuries~
 def:	TKD
-tag:	time
-data:	KLCP-1
+tag:	KLCP1; time
 file:	1992-01-01-tkd.txt
 
 tlh:	{poj} [1]
@@ -12655,7 +12606,7 @@ pos:	verb
 sv:	«analysera»
 en:	<analyze>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{poj} [2]
@@ -12670,7 +12621,7 @@ pos:	verb
 sv:	«förvara», «ha», «spara»
 en:	<keep>, <save>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{polHa'}
@@ -12707,7 +12658,7 @@ pos:	noun
 sv:	«namn»
 en:	<name>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{pop}
@@ -12734,7 +12685,7 @@ pos:	verb
 sv:	«kräva», «begära»
 en:	<demand>, <require>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{por}
@@ -12749,7 +12700,7 @@ pos:	noun
 sv:	«kropp»
 en:	<body>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{porgh mIw}
@@ -12787,7 +12738,7 @@ pos:	verb
 sv:	vara «öppen», vara «öppnad»
 en:	be <open>, be opened
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	The word "be" was inserted before the adjectival "opened".
 
@@ -12834,8 +12785,7 @@ pos:	noun
 sv:	«eftermiddag»
 en:	<afternoon>
 def:	TKD
-tag:	time
-data:	KLCP-1
+tag:	KLCP1; time
 file:	1992-01-01-tkd.txt
 
 tlh:	{po'}
@@ -12843,7 +12793,7 @@ pos:	verb
 sv:	vara «expert», vara «kunnig», vara «duktig», vara «skicklig»
 en:	be <expert>, be <skilled>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
 
@@ -12902,7 +12852,7 @@ pos:	verb
 sv:	vara «svag»
 en:	be <weak>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{pujmoH}
@@ -12940,7 +12890,7 @@ pos:	verb
 sv:	«falla»
 en:	<fall>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{pummoH}
@@ -12985,8 +12935,7 @@ sv:	«barn», «avkomma»
 en:	<child>, <offspring>
 def:	TKD
 ref:	TKW p.205
-tag:	family
-data:	KLCP-1
+tag:	family; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{puqbe'}
@@ -12994,8 +12943,7 @@ pos:	noun
 sv:	«dotter»
 en:	<daughter>
 def:	TKD
-tag:	family
-data:	KLCP-1
+tag:	family; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{puq chonnaQ}
@@ -13020,8 +12968,7 @@ sv:	«son»
 en:	<son>
 def:	TKD
 ref:	TKW pp.155, 177
-tag:	family
-data:	KLCP-1
+tag:	family; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{puqnI'}
@@ -13079,7 +13026,7 @@ sv:	vara «få», vara «några», vara en «handfull»
 en:	be <few>, be <several>, be a <handful>
 def:	TKD
 ref:	TKW pp.35, 53, 95, 179, 185
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {puS}
@@ -13188,7 +13135,7 @@ pos:	verb
 sv:	vara «dålig»
 en:	be <bad>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {qab}
@@ -13198,8 +13145,7 @@ en:	<face>
 def:	TKD
 ref:	TKW p.59
 com:	Symbol of identity.
-tag:	body part
-data:	KLCP-1
+tag:	body part; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qach}
@@ -13207,7 +13153,7 @@ pos:	noun
 sv:	«byggnad», «konstruktion», «hus»
 en:	<building>, <structure>, «house»
 def:	TKD; TKW p.111
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
 tlh:	{qaD} [1]
@@ -13262,7 +13208,7 @@ com:	"The word {qaH} is interesting because it is never heard except in
 	direct address. Thus, while one might say {yoH qor HoD} ('Captain Kor
 	is brave') or {yoH HoD} ('The captain is brave'), one would never say
 	{yoH qaH} ('Sir is brave.')" [KGT p.198]
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qaj}
@@ -13300,8 +13246,7 @@ pos:	noun
 sv:	«fot»
 en:	<foot>
 def:	TKD
-tag:	body part
-data:	KLCP-1
+tag:	body part; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qama'}
@@ -13310,7 +13255,7 @@ sv:	«fånge»
 en:	<prisoner>
 def:	TKD
 ref:	TKW p.200
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qamor}
@@ -13326,7 +13271,7 @@ sv:	vara «gammal» (inte ung)
 en:	be <old> (not young)
 def:	TKD
 ref:	TKW pp.29, 117
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {qan}
@@ -13444,7 +13389,7 @@ sv:	«ske», «hända», «inträffa»
 en:	<occur>, <happen>
 def:	TKD
 ref:	TKW pp.127, 155
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qat} [.1]
@@ -13477,7 +13422,7 @@ sv:	«komma ihåg», «minnas»
 en:	<remember>
 def:	TKD
 ref:	TKW pp.17, 157, 187
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qawHaq}
@@ -13524,7 +13469,7 @@ pos:	verb
 sv:	vara ett «problem», vara en «svårighet»
 en:	be a <problem>, be a <hassle>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qa'}
@@ -13634,7 +13579,7 @@ pos:	noun
 sv:	«idé»
 en:	<idea>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qeD}
@@ -13663,7 +13608,7 @@ pos:	verb
 sv:	vara «vresig», vara «grinig», vara «elak», vara «tarvlig»
 en:	be <grouchy>, be <mean>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qel}
@@ -13692,7 +13637,7 @@ sv:	«hämta», «ta» med sig, «bära» med sig
 en:	<bring>
 def:	TKD
 ref:	TKW p.189
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qempa'}
@@ -13716,7 +13661,7 @@ pos:	verb
 sv:	«bära», «medföra», «forsla»
 en:	<carry>, <convey>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {qeng}
@@ -13733,7 +13678,7 @@ pos:	noun
 sv:	«möte»
 en:	<meeting>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qeq} [1]
@@ -13741,7 +13686,7 @@ pos:	verb
 sv:	«öva», «träna», «förbereda»
 en:	<practice>, <train>, <prepare>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qeq} [2]
@@ -13756,7 +13701,7 @@ pos:	verb
 sv:	«råda», ge råd
 en:	<advise>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qeS} [2]
@@ -13764,7 +13709,7 @@ pos:	noun
 sv:	«råd»
 en:	<advice>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qet}
@@ -13773,7 +13718,7 @@ sv:	«springa», «löpa», «jogga»
 en:	<run>, <jog>
 def:	TKD
 ref:	TKW pp.65, 127, 65
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qettlhup}
@@ -13788,7 +13733,7 @@ pos:	verb
 sv:	vara «tråkig», vara «ointressant»
 en:	be <dull>, be <uninteresting>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
 
@@ -13821,8 +13766,7 @@ pos:	noun
 sv:	«käke», «kind»
 en:	<jowl>, <cheek>
 def:	TKD; KGT
-tag:	body part
-data:	KLCP-1
+tag:	body part; KLCP1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{qew}
@@ -13943,7 +13887,7 @@ pos:	verb
 sv:	«träffa», «möta» (för första gången)
 en:	<meet> (for the first time)
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qIj}
@@ -13951,7 +13895,7 @@ pos:	verb
 sv:	vara «svart»
 en:	be <black>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qIl}
@@ -13969,7 +13913,7 @@ pos:	verb
 sv:	vara «uppmärksam», «koncentrera» sig
 en:	<pay <attention>>, <concentrate>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qImHa'}
@@ -14030,8 +13974,7 @@ pos:	noun
 sv:	«knä»
 en:	<knee>
 def:	TKD
-tag:	body part
-data:	KLCP-1
+tag:	body part; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qIvon}
@@ -14101,7 +14044,7 @@ sv:	«dåre», «fåne», «tok», «idiot»
 en:	<fool>
 def:	TKD
 ref:	TKW pp.105, 107, 111, 113, 115, 117
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {qoj}
@@ -14205,8 +14148,7 @@ sv:	«familj»
 en:	<family>
 def:	TKD
 ref:	TKW p.155
-tag:	family
-data:	KLCP-1
+tag:	family; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qoreQ}
@@ -14221,7 +14163,7 @@ pos:	noun
 sv:	«födelsedag»
 en:	<birthday>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {qotlh}
@@ -14341,7 +14283,7 @@ sv:	«eld»
 en:	<fire>
 def:	TKD
 ref:	TKW p.32
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qul mI'wI'}
@@ -14395,7 +14337,7 @@ sv:	«historia»
 en:	<history>
 def:	TKD
 ref:	TKW p.179
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qung}
@@ -14450,7 +14392,7 @@ pos:	noun
 sv:	«stol»
 en:	<chair>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{qut}
@@ -14496,7 +14438,7 @@ com:	"[{quv} is] a sort of personal honor, the kind over which, by one's
 	respect." [HQ12:3 p.9 ("Maltz's Reward Part II")]; Used in comparative
 	in TKW p.179.
 see:	{batlh}; {HoQ} "be honored falsely, be falsely honorable" (v)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{quv} [2]
@@ -14505,7 +14447,7 @@ sv:	«ära»
 en:	<honor>
 def:	TKDa
 ref:	TKW pp.55, 56, 59, 61, 179
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{quv bey'}
@@ -14644,7 +14586,7 @@ pos:	verb
 sv:	vara «torr», vara «uttorkad»
 en:	be <dry>, be <dried> out
 def:	TKD; KGT
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{QaD} [.2]
@@ -14662,7 +14604,7 @@ pos:	verb
 sv:	ha «fel», ta fel, «missta» sig, göra ett misstag
 en:	<err>, be mistaken, make a <mistake>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Qagh} [2]
@@ -14678,7 +14620,7 @@ pos:	verb
 sv:	«hjälpa», «bistå»
 en:	<help>, <aid>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{QaH} [2]
@@ -14721,7 +14663,7 @@ sv:	«stå» (upp)
 en:	<stand>
 def:	TKD
 ref:	TKW p.95
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Qan}
@@ -14729,7 +14671,7 @@ pos:	verb
 sv:	«skydda»
 en:	<protect>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Qang}
@@ -14745,7 +14687,7 @@ sv:	«lyckas», «fungera», vara i «funktion»
 en:	<work>, <function>, <succeed>, <operate>, be in operation
 def:	TKD; KGT
 ref:	TKW pp.56, 73, 175, 183, 209, 211
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{Qap} [.2]
@@ -14766,7 +14708,7 @@ sv:	«framgång»
 en:	<success>
 def:	TKD
 ref:	TKW pp.x, 49
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Qaq}
@@ -14789,7 +14731,7 @@ sv:	vara «bra»
 en:	be <good>
 def:	TKD
 ref:	TKW pp.69, 73, 133
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Qargh}
@@ -14827,7 +14769,7 @@ en:	be <complex>, be <difficult>
 def:	TKD; KGT
 com:	"[...] among Klingons, a task that is difficult ({Qatlh}) is more
 	highly valued than one that is easy ({ngeD})." [KGT p.179]
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 meta:	"be difficult (v)" [TKD]; "difficult" [KGT pp.160, 179]; "be complex
 	(v)" [KGT]. Combined here.
@@ -14837,7 +14779,7 @@ pos:	verb
 sv:	vara «sist», vara «slutgiltig»
 en:	be <final>, be <last>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
 
@@ -14847,7 +14789,7 @@ sv:	«förstöra»
 en:	<destroy>
 def:	TKD
 ref:	TKW p.211
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	Incorrectly listed as noun in TKD K-E (noted in HQ4:1 p.7 and verified
 	as a verb by usage in TKD p.49 and TKW p.211).
@@ -14944,7 +14886,7 @@ sv:	«vetenskap»
 en:	<science>
 def:	TKD
 pun:	{QeD} = Q.E.D. = "quod erat demonstrandum"
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{QeDpIn}
@@ -14959,7 +14901,7 @@ pos:	verb
 sv:	vara «vred», vara «arg»
 en:	be <angry>, be <mad>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{QeH} [2]
@@ -14975,7 +14917,7 @@ pos:	noun
 sv:	«doktor», «läkare»
 en:	<doctor>, <physician>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {Qel}
@@ -15053,7 +14995,7 @@ pos:	noun
 sv:	«restaurang»
 en:	<restaurant>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{QIb}
@@ -15075,7 +15017,7 @@ pos:	verb
 sv:	«såra»
 en:	«wound»
 def:	TKD K-E
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{QIghpej}
@@ -15119,7 +15061,7 @@ com:	"[...] object of {QIj} is that which is explained, while the person to
 	whom the explanation is given is the indirect object: {yaSvaD nab QIj}
 	('He/she explains the plan to the officer'; {yaSvaD,} 'for the
 	officer'; {nab,} 'plan')." [KGT p.149]
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{QIm}
@@ -15189,7 +15131,7 @@ pos:	verb
 sv:	vara «dum», vara «korkad»
 en:	be <stupid>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{QIS}
@@ -15213,7 +15155,7 @@ pos:	verb
 sv:	vara «underlägsen»
 en:	be <inferior>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{QI'}
@@ -15268,7 +15210,7 @@ pos:	verb
 sv:	vara «farlig»
 en:	be <dangerous>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Qob} [2]
@@ -15277,7 +15219,7 @@ sv:	«fara»
 en:	<danger>
 def:	TKD
 ref:	TKW p.37
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Qoch}
@@ -15285,7 +15227,7 @@ pos:	verb
 sv:	inte «hålla med» (varandra), inte «samtycka», vara «oense»
 en:	<disagree>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Qochbe'}
@@ -15365,7 +15307,7 @@ sv:	«sova»
 en:	<sleep>
 def:	TKD
 ref:	TKW p.173
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{QongDaq}
@@ -15529,7 +15471,7 @@ com:	TKW p.31: "The verb {Qoy} means 'hear,' not just 'listen.'
 	One must actually percieve and understand that which is being
 	said."
 	TKW p.195: used with sentence-as-object construction.
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Qo'}
@@ -15537,7 +15479,7 @@ pos:	exclamation
 sv:	«nej», det tänker jag inte, jag «vägra»r, jag håller inte med
 en:	<no>, I <won't>, I <refuse>, I «disagree»
 def:	TKD 5.5 (p.57) et al.; TKDa
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Qo'noS}
@@ -15552,7 +15494,7 @@ pos:	verb
 sv:	«tänka», «fundera»
 en:	<think>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {Quch}
@@ -15560,7 +15502,7 @@ pos:	verb
 sv:	vara «lycklig», vara «glad»
 en:	be <happy>, be «merry»
 def:	TKD; TKW p.206
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
 tlh:	[2] {Quch}
@@ -15568,8 +15510,7 @@ pos:	noun
 sv:	«panna»
 en:	<forehead>
 def:	TKD
-tag:	body part
-data:	KLCP-1
+tag:	body part; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{QuchHa'}
@@ -15635,7 +15576,7 @@ pos:	verb
 sv:	«kommunicera»
 en:	<communicate>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Qum} [2]
@@ -15737,7 +15678,7 @@ en:	<duty>, <quest>, <mission>, <task>, <chore>
 def:	TKD
 ref:	TKW pp.66, 74, 139, 187
 see:	{ghIgh} "assignment, task, duty [slang]"
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Qu'vatlh}
@@ -15799,7 +15740,7 @@ sv:	vara «trivial», vara «obetydlig», vara «oviktig», vara «insignifikant
 en:	be <trivial>, be <trifling>, be <unimportant>, be <insignificant>
 def:	TKD; KGT
 ref:	TKW p.143
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 meta:	Entries differ and have been combined here.
 
@@ -15809,8 +15750,7 @@ sv:	«natt»
 en:	<night>
 def:	TKD
 ref:	TKW p.127
-tag:	time
-data:	KLCP-1
+tag:	KLCP1; time
 file:	1992-01-01-tkd.txt
 
 tlh:	{ramjep}
@@ -15826,7 +15766,7 @@ pos:	verb
 sv:	vara «samma», vara «densamma»
 en:	be the <same>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {raQ}
@@ -15855,7 +15795,7 @@ pos:	verb
 sv:	«koppla»
 en:	<connect>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{raS}
@@ -15890,7 +15830,7 @@ pos:	verb
 sv:	stanna «kvar», finnas kvar, «återstå», «ha» kvar, vara kvar
 en:	<remain>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{rav} [.1]
@@ -15898,8 +15838,7 @@ pos:	noun
 sv:	«golv»
 en:	<floor>
 def:	TKD
-tag:	architecture
-data:	KLCP-1
+tag:	architecture; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{rav} [.2]
@@ -15960,7 +15899,7 @@ pos:	verb
 sv:	«beordra», «kommendera»
 en:	<order>, <command>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ra'ghomquv}
@@ -16078,8 +16017,7 @@ pos:	noun
 sv:	«timme»
 en:	<hour>
 def:	TKD
-tag:	measure; time
-data:	KLCP-1
+tag:	KLCP1; measure; time
 file:	1992-01-01-tkd.txt
 
 tlh:	{ret}
@@ -16103,8 +16041,7 @@ pos:	noun
 sv:	område «brevid», område «intill»
 en:	area <beside>, area <next to>
 def:	TKD
-tag:	placement
-data:	KLCP-1
+tag:	KLCP1; placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{rewbe'}
@@ -16182,7 +16119,7 @@ sv:	vara «åstadkommen», vara «färdig»
 en:	be <accomplished>, be <finished>
 def:	TKD
 ref:	HQ12:2 p.9 ("Maltz's Reward Part I")
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
 
@@ -16293,7 +16230,7 @@ pos:	verb
 sv:	skapa «fred»
 en:	make <peace>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{roj} [2]
@@ -16301,7 +16238,7 @@ pos:	noun
 sv:	«fred»
 en:	<peace>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{rojHom}
@@ -16374,7 +16311,7 @@ pos:	verb
 sv:	vara «sjuk», vara «illamående»
 en:	be <sick>, be <ill>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
 
@@ -16404,7 +16341,7 @@ pos:	verb
 sv:	vara «fet»
 en:	be <fat>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	FIXME -- Is there a difference in meaning between {pI'} and {ror}?
 
@@ -16445,7 +16382,7 @@ pos:	verb
 sv:	vara «tuff»
 en:	be <tough>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ro'}
@@ -16528,7 +16465,7 @@ pos:	verb
 sv:	«likna», «påminna» om
 en:	<resemble>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{rura' pente'}
@@ -16577,7 +16514,7 @@ pos:	verb
 sv:	vara «temporär», vara «tillfällig»
 en:	be <temporary>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ru'Ha'}
@@ -16619,7 +16556,7 @@ pos:	verb
 sv:	vara «seriös», vara «allvarlig»
 en:	be <serious>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {SaH}
@@ -16627,7 +16564,7 @@ pos:	verb
 sv:	vara «närvarande»
 en:	be <present> (not absent)
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {SaH}
@@ -16636,7 +16573,7 @@ sv:	«bry» sig (om), vara bekymrad (över/om)
 en:	<care> (about), be <concerned> (about)
 def:	TKD
 ref:	TKW p.199
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Saj}
@@ -16644,7 +16581,7 @@ pos:	noun
 sv:	«husdjur»
 en:	<pet>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Sal}
@@ -16725,7 +16662,7 @@ en:	<cry> (not scream)
 def:	TKD; HQ12:4 p.9 ("Maltz's Reward Part III")
 com:	Does not include tears, since Klingon don't have any tear ducts.
 	[HQ12:4 p.9 ("Maltz's Reward Part III")]
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 2003-12-holqed-12-4.txt
 
 tlh:	{Sar} [1]
@@ -16733,7 +16670,7 @@ pos:	verb
 sv:	vara «omväxlande», vara «varierande», vara «skiftande»
 en:	be «varied», be <various>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Sar} [2]
@@ -16817,7 +16754,7 @@ pos:	verb
 sv:	vara «ren», vara «fläckfri»
 en:	be <clean>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Say'qu'moH}
@@ -16891,7 +16828,7 @@ pos:	verb
 sv:	«kontrollera»
 en:	<control>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{SeHlaw}
@@ -16926,7 +16863,7 @@ pos:	verb
 sv:	orsaka «problem», vålla «trubbel»
 en:	cause <trouble>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Seng} [2]
@@ -16935,7 +16872,7 @@ sv:	«bekymmer», «trubbel»
 en:	<trouble>
 def:	TKD
 ref:	TKW p.56
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {Sep}
@@ -17026,7 +16963,7 @@ pos:	verb
 sv:	vara «upphetsad», vara «uppspelt»
 en:	be <excited>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{SeymoH}
@@ -17064,7 +17001,7 @@ pos:	verb
 sv:	«nå»
 en:	<reach>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{SID}
@@ -17087,7 +17024,7 @@ pos:	verb
 sv:	«böja»
 en:	<bend>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{SIj} [.1]
@@ -17096,7 +17033,7 @@ sv:	«skära upp», «skära av», «sprätta upp»
 en:	<slit>, «slash»
 def:	TKD; KGT p.164
 ref:	TKW p.127
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 meta:	Translation "slash" is from KGT p.164.
 
@@ -17131,7 +17068,7 @@ pos:	verb
 sv:	«beräkna», «räkna», «kalkylera»
 en:	<calculate>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{SIp}
@@ -17140,7 +17077,7 @@ sv:	«gas»
 en:	<gas>
 def:	TKD
 see:	{Qep'It} is the term for gas produced in the body
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{SIq}
@@ -17186,8 +17123,7 @@ pos:	verb
 sv:	«regna»
 en:	<rain>
 def:	TKD
-tag:	landscape
-data:	KLCP-1
+tag:	landscape; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{SIv}
@@ -17195,7 +17131,7 @@ pos:	verb
 sv:	«undra», «fråga sig», «fundera»
 en:	«wonder»
 def:	TKD K-E
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Soch} [1]
@@ -17248,7 +17184,7 @@ pos:	pronoun
 sv:	«du», «dig»
 en:	<you>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Soj} [.1]
@@ -17257,7 +17193,7 @@ sv:	«mat»
 en:	<food>
 def:	TKDa
 ref:	HQ12:3 p.9 ("Maltz's Reward Part II")
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Soj} [.2]
@@ -17334,7 +17270,7 @@ sv:	«äta»
 en:	<eat>
 def:	TKD
 ref:	TKW pp.73, 163, 137, 185
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{SopwI'pa'}
@@ -17366,7 +17302,7 @@ pos:	verb
 sv:	vara «stängd»
 en:	be <closed>, be <shut>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
 
@@ -17390,8 +17326,7 @@ pos:	noun
 sv:	«träd»
 en:	<tree>
 def:	TKD
-tag:	landscape
-data:	KLCP-1
+tag:	landscape; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Sorgh}
@@ -17430,8 +17365,7 @@ pos:	noun
 sv:	«mor», «moder»
 en:	<mother>
 def:	TKD
-tag:	family
-data:	KLCP-1
+tag:	family; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{SoSbor}
@@ -17479,7 +17413,7 @@ sv:	«veta», «kunna», «känna till»
 en:	<know>
 def:	TKD
 ref:	TKW p.25
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Sov} [2]
@@ -17494,7 +17428,7 @@ pos:	verb
 sv:	vara «klumpig», vara «tafatt»
 en:	be <clumsy>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{So'}
@@ -17503,7 +17437,7 @@ sv:	«gömma», «maskera»
 en:	<hide>, <cloak>
 def:	TKD
 ref:	TKW p.182
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{So'wI'}
@@ -17564,7 +17498,7 @@ pos:	verb
 sv:	«besöka»
 en:	<visit>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {SuD}
@@ -17579,7 +17513,7 @@ cite:	{Doq 'ej SuD} <purple> [Eurotalk]
 cite:	{SuD 'ej Hurgh} <dark blue> [Eurotalk]
 cite:	{SuD 'ej wov} or {SuD 'ach wov} <a way to refer to a yellowish tinge>
 	[KGT] or <light blue> [Eurotalk]
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt; 1999-03-holqed-08-1.txt;
 	2011-11-01-email.txt
 meta:	Entries differ and have been combined here.
@@ -17603,7 +17537,7 @@ pos:	exclamation
 sv:	var «redo», jag är «beredd»
 en:	<ready>, <standing by>
 def:	ST1; TKD 5.5 (p.57) et al.
-data:	KLCP-1
+tag:	KLCP1
 file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
 tlh:	{Suj}
@@ -17665,7 +17599,7 @@ en:	<acquire>, <obtain>, <get>, «catch»
 def:	TKD; TKW p.207
 ref:	S33
 see:	*{Soq}
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
 tlh:	{Suqqa'}
@@ -17702,8 +17636,7 @@ sv:	«vind», «bris»
 en:	<wind>, <breeze>
 def:	TKD
 ref:	TKW p.107
-tag:	landscape
-data:	KLCP-1
+tag:	landscape; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{SuS} [2]
@@ -17769,8 +17702,7 @@ sv:	«slåss»
 en:	<fight>
 def:	TKD
 ref:	TKW pp.5, 7, 19, 21, 33, 63, 77, 88, 111, 151, 193
-tag:	fighting
-data:	KLCP-1
+tag:	fighting; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Suvchu'}
@@ -17799,8 +17731,7 @@ def:	TKDa
 ref:	TKW pp.iii, 5, 29, 32, 33, 37, 38, 46, 77, 88, 136, 139, 145, 147, 155,
 	193, 195, 203
 see:	{mang}; {vaj}
-tag:	fighting
-data:	KLCP-1
+tag:	fighting; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{SuwomIy}
@@ -17872,7 +17803,7 @@ sv:	«bar», «pub», «cocktailbar»
 en:	<bar>, <saloon>, <cocktail lounge>
 def:	TKD
 ref:	TKW p.181
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{taD}
@@ -17880,7 +17811,7 @@ pos:	verb
 sv:	vara «frusen»
 en:	be <frozen>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{taDmoH}
@@ -17949,7 +17880,7 @@ sv:	«kniv», «dolk»
 en:	<knife>, <dagger>
 def:	TKD
 ref:	TKW p.169
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tajHommey}
@@ -17993,7 +17924,7 @@ pos:	verb
 sv:	vara «tyst»
 en:	be <quiet>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {tam}
@@ -18039,7 +17970,7 @@ pos:	verb
 sv:	vara «konstig», vara «knäpp»
 en:	be «weird»
 def:	TKD K-E
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{taQbang}
@@ -18139,7 +18070,7 @@ sv:	vara «tillsammans»
 en:	be <together>
 def:	TKD
 ref:	TKW pp.34, 209
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {ta'} [1]
@@ -18148,7 +18079,7 @@ sv:	«uträtta», «åstadkomma», «genomföra»
 en:	<accomplish>
 def:	TKD
 ref:	TKW p.74
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {ta'} [2]
@@ -18157,7 +18088,7 @@ sv:	«resultat», «utförande», «dåd»
 en:	<accomplishment>, <deed>
 def:	TKD; KGT
 ref:	TKW p.15
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	[2] {ta'}
@@ -18188,7 +18119,7 @@ pos:	verb
 sv:	«fylla»
 en:	<fill>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{teblaw'}
@@ -18218,7 +18149,7 @@ pos:	verb
 sv:	vara «sann», vara «äkta»
 en:	be <true>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tej}
@@ -18226,7 +18157,7 @@ pos:	noun
 sv:	«vetenskapsman»
 en:	<scientist>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tel}
@@ -18234,7 +18165,7 @@ pos:	noun
 sv:	«vinge»
 en:	«wing»
 def:	TKD K-E
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{telun Hovtay'}
@@ -18250,7 +18181,7 @@ pos:	verb
 sv:	«förneka»
 en:	<deny>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ten}
@@ -18304,7 +18235,7 @@ pos:	verb
 sv:	«avlägsna», «ta bort», «ta av»
 en:	<remove>, <take> off
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tera'}
@@ -18312,7 +18243,7 @@ pos:	noun
 sv:	«jorden», «Tellus»
 en:	<Earth>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tera' na'ran}
@@ -18386,7 +18317,7 @@ pos:	verb
 sv:	«smälta»
 en:	<melt>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tetlh}
@@ -18487,7 +18418,7 @@ sv:	«förolämpa»
 en:	<insult>
 def:	TKD
 ref:	TKW p.56
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tIgh}
@@ -18523,7 +18454,7 @@ pos:	verb
 sv:	«borda», «gå ombord»
 en:	<board>, <go aboard>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tIjwI'}
@@ -18556,8 +18487,7 @@ pos:	verb
 sv:	vara «stor»
 en:	be <big>
 def:	TKD
-tag:	shape
-data:	KLCP-1
+tag:	KLCP1; shape
 file:	1992-01-01-tkd.txt
 
 tlh:	{tIng}
@@ -18660,7 +18590,7 @@ sv:	«njuta» av, «roa» sig, ha «roligt», «tycka om»
 en:	<enjoy>
 def:	TKD
 ref:	TKW pp.48, 73
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tI'}
@@ -18668,7 +18598,7 @@ pos:	verb
 sv:	«fixa», «reparera»
 en:	<fix>, <repair>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tI'ang}
@@ -18765,7 +18695,7 @@ pos:	exclamation
 sv:	«jaså», «aha», «nåväl»
 en:	<so>, <well>
 def:	TKD 5.5 (p.57) et al.
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{toj}
@@ -18886,7 +18816,7 @@ pos:	verb
 sv:	«klättra»
 en:	<climb>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{totlh}
@@ -18909,7 +18839,7 @@ sv:	«tjäna» (en härskare)
 en:	<serve> (a master)
 def:	TKD
 ref:	TKW p.74
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{toy'wI'}
@@ -18995,7 +18925,7 @@ sv:	vara «het»
 en:	be <hot>
 def:	TKD
 ref:	TKW pp.32, 174
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tuj} [2]
@@ -19019,7 +18949,7 @@ sv:	«hoppas» (på), ha hopp om
 en:	<hope>
 def:	TKD
 ref:	TKW p.74
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tum}
@@ -19034,7 +18964,7 @@ pos:	verb
 sv:	vara «mjuk»
 en:	be <soft>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tung}
@@ -19042,7 +18972,7 @@ pos:	verb
 sv:	«göra modfälld», «avskräcka», «motarbeta»
 en:	<discourage>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tungHa'}
@@ -19057,8 +18987,7 @@ pos:	noun
 sv:	«minut»
 en:	<minute> (of time)
 def:	TKD
-tag:	measure; time
-data:	KLCP-1
+tag:	KLCP1; measure; time
 file:	1992-01-01-tkd.txt
 
 tlh:	{tuq}
@@ -19110,8 +19039,7 @@ pos:	verb
 sv:	«bära» (kläder)
 en:	<wear> (clothes)
 def:	TKD
-tag:	clothing
-data:	KLCP-1
+tag:	clothing; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tuQDoq}
@@ -19199,7 +19127,7 @@ sv:	«upptäcka», «hitta», «finna», «observera», «lägga märke till»,
 	«påträffa»
 en:	<discover>, <find>, <observe>, <notice>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tu'HomI'raH}
@@ -19230,7 +19158,7 @@ pos:	verb
 sv:	vara «fri», vara «oberoende»
 en:	be <free>, be <independent>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
 
@@ -19309,7 +19237,7 @@ sv:	«ta»
 en:	<take>
 def:	TKD
 ref:	TKW p.79
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	*{tlhaptIH}
@@ -19334,8 +19262,7 @@ pos:	noun
 sv:	«kronometer»
 en:	<chronometer>
 def:	TKD
-tag:	time
-data:	KLCP-1
+tag:	KLCP1; time
 file:	1992-01-01-tkd.txt
 
 tlh:	{tlhaQ}
@@ -19343,7 +19270,7 @@ pos:	verb
 sv:	vara «rolig», vara «skojig»
 en:	be <funny>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tlharghDuj}
@@ -19396,7 +19323,7 @@ pos:	verb
 sv:	«jaga», «följa» efter
 en:	<chase>, <follow>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tlha'a}
@@ -19411,7 +19338,7 @@ pos:	verb
 sv:	«avresa», «avlägsna» sig
 en:	<depart>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tlhegh}
@@ -19419,7 +19346,7 @@ pos:	noun
 sv:	«lina», «rep»
 en:	<line>, <rope>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tlhej}
@@ -19427,7 +19354,7 @@ pos:	verb
 sv:	«sällskapa» med, «vara med»
 en:	<accompany>, «be with»
 def:	TKD; TKW pp.161, 173
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 meta:	This is labeled as a noun in TKD E-K, but MO corrected himself in
 	HQ2:4 p.18 ("Okrand's notes")
@@ -19469,7 +19396,7 @@ pos:	verb
 sv:	«vända», «svänga», «vrida»
 en:	<turn>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tlhIb}
@@ -19495,7 +19422,7 @@ pos:	pronoun
 sv:	«ni», «er»
 en:	<you> (plural)
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tlhIj}
@@ -19548,7 +19475,7 @@ en:	<Klingon>
 def:	TKD
 ref:	TKW pp.iii, 3, 5, 9, 13, 40, 46, 56, 59, 67, 74, 77, 80, 89, 91, 97,
 	155, 165, 177
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tlhIngan Hubbeq}
@@ -19623,7 +19550,7 @@ pos:	verb
 sv:	«fråga efter», «efterfråga», «be om»
 en:	<ask>, <request>, «plead»
 def:	TKD; TKDa
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tlhoch}
@@ -19645,7 +19572,7 @@ pos:	verb
 sv:	«inse»
 en:	<realize>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tlhol}
@@ -19667,8 +19594,7 @@ pos:	noun
 sv:	«näsborre»
 en:	<nostril>
 def:	TKD
-tag:	body part
-data:	KLCP-1
+tag:	body part; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tlhong}
@@ -19800,7 +19726,7 @@ sv:	«andas»
 en:	<breathe>
 def:	TKD
 ref:	TKW p.193
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tlhuH} [1.2]
@@ -19843,7 +19769,7 @@ sv:	«dricka»
 en:	<drink>
 def:	TKD
 ref:	TKW pp.35, 87
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{tlhu'}
@@ -19936,7 +19862,7 @@ pos:	verb
 sv:	vara «klipsk», vara «smart», vara «intelligent»
 en:	be <clever>, be <smart>, be <intelligent>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
 
@@ -19953,7 +19879,7 @@ sv:	«hälsa», «salutera»
 en:	<salute>
 def:	TKD
 ref:	TKW p.83
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{van} [1.2]
@@ -20011,7 +19937,7 @@ sv:	«agera», «handla», «göra» (något)
 en:	<act>, <take> action
 def:	TKD
 ref:	TKW pp.8, 55, 139, 155
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{vaq}
@@ -20085,8 +20011,7 @@ sv:	«far», «fader»
 en:	<father>
 def:	TKD
 ref:	TKW pp.155, 170
-tag:	family
-data:	KLCP-1
+tag:	family; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{vavnI'}
@@ -20094,8 +20019,7 @@ pos:	noun
 sv:	«farfar», «morfar»
 en:	<grandfather>
 def:	TKD
-tag:	family
-data:	KLCP-1
+tag:	family; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {vay}
@@ -20120,7 +20044,7 @@ sv:	«något», «någon», «någonting»
 en:	<somebody>, «someone», «something», «anybody», <anyone>, «anything»
 def:	TKD
 ref:	TKW pp.88, 109, 129, 149, 157, 167
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
 
@@ -20189,7 +20113,7 @@ sv:	«vakna», sluta sova
 en:	<wake> up, cease sleeping
 def:	TKD
 ref:	TKW p.173
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{vemmoH}
@@ -20216,7 +20140,7 @@ pos:	noun
 sv:	«stad»
 en:	<city>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{vengHom}
@@ -20258,7 +20182,7 @@ pos:	noun
 sv:	«sopor», «avfall»
 en:	<garbage>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{veQDuj}
@@ -20303,7 +20227,7 @@ com:	The object of vergh ("dock") is the ship that's docked. {nuqDaq puH Duj
 	vIvergh} "Where can I park the car?" [Email 2011-10-30 (by Felix
 	Malmenbeck, to tlhingan-hol, "[Tlhingan-hol] EuroTalk - New info -
 	Phrases")]
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 2011-10-30-email.txt
 
 tlh:	{vergh} [2]
@@ -20311,7 +20235,7 @@ pos:	noun
 sv:	«docka» (för skepp)
 en:	<dock>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{veS}
@@ -20320,7 +20244,7 @@ sv:	«krig», krigföring (som koncept)
 en:	<war>, warfare (as a concept)
 def:	TKD; KGT pp.46, 47, 50 et al.
 see:	{noH}
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{veSDuj}
@@ -20473,7 +20397,7 @@ pos:	verb
 sv:	säga «sanningen»
 en:	tell the <truth>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{vIt} [2]
@@ -20539,8 +20463,7 @@ pos:	noun
 sv:	«någonstans», någon plats
 en:	<somewhere>
 def:	TKD
-tag:	placement
-data:	KLCP-1
+tag:	KLCP1; placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{voHDajbo'}
@@ -20585,7 +20508,7 @@ sv:	«lita» på, «tro» på, ha «tillit» till
 en:	<trust>, have <faith> in
 def:	TKD
 ref:	TKW p.189
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{voqHa'}
@@ -20645,7 +20568,7 @@ pos:	noun
 sv:	«åsikt»
 en:	<opinion>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{vul}
@@ -20668,7 +20591,7 @@ pos:	noun
 sv:	«Vulcan» (planet)
 en:	<Vulcan> (planet)
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{vulqangan}
@@ -20684,7 +20607,7 @@ sv:	«arbeta», «streta», «slita», «jobba»
 en:	<work>, «toil»
 def:	TKD
 cite:	{yIvumqa'} <Back to work!> [CK]
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{vup}
@@ -20713,7 +20636,7 @@ pos:	verb
 sv:	«laga mat», «tillaga»
 en:	<cook>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{vutmeH 'un}
@@ -20744,7 +20667,7 @@ sv:	«respektera»
 en:	<respect>
 def:	TKD
 ref:	TKW p.107
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{vu'}
@@ -20795,7 +20718,7 @@ pos:	verb
 sv:	«jaga»
 en:	<hunt>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{wamwI'}
@@ -20812,7 +20735,7 @@ pos:	noun
 sv:	«fenomen», «händelse», «tilldragelse», «upplevelse»
 en:	<phenomenon>, <event>, <occurrence>, «experience»
 def:	TKD; TKW p.73
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
 tlh:	{waq}
@@ -20820,8 +20743,7 @@ pos:	noun
 sv:	«sko»
 en:	<shoe>
 def:	TKD
-tag:	clothing
-data:	KLCP-1
+tag:	clothing; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{waqboch}
@@ -20919,8 +20841,7 @@ pos:	noun
 sv:	«igår»
 en:	<yesterday>
 def:	TKD
-tag:	time
-data:	KLCP-1
+tag:	KLCP1; time
 file:	1992-01-01-tkd.txt
 
 tlh:	{wa'leS}
@@ -20929,8 +20850,7 @@ sv:	«imorgon»
 en:	<tomorrow>
 def:	TKD
 ref:	TKW p.153
-tag:	time
-data:	KLCP-1
+tag:	KLCP1; time
 file:	1992-01-01-tkd.txt
 
 tlh:	{wa'logh}
@@ -21016,7 +20936,7 @@ pos:	exclamation
 sv:	«charmerande», «just snyggt», «vackert» (används endast ironiskt)
 en:	<charming> (used only ironically)
 def:	TKD 5.5 (p.57) et al.
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{wel}
@@ -21038,7 +20958,7 @@ pos:	verb
 sv:	«kränka», «bryta emot», «överträda», «störa», «skända»
 en:	«violate»
 def:	TKD K-E
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{wem} [2]
@@ -21046,7 +20966,7 @@ pos:	noun
 sv:	«kränkning», «brott», «överträdelse», «skändning»
 en:	«violation»
 def:	TKD K-E
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{wen}
@@ -21063,8 +20983,7 @@ pos:	noun
 sv:	«jacka», «rock»
 en:	<jacket>, <coat>
 def:	TKD
-tag:	clothing
-data:	KLCP-1
+tag:	clothing; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{wep} [.2]
@@ -21106,7 +21025,7 @@ pos:	verb
 sv:	«glöda»
 en:	<glow>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{wey}
@@ -21121,7 +21040,7 @@ pos:	verb
 sv:	vara sur, vara «bitter», vara «besk», vara «syrlig»
 en:	be <sour>, be <bitter>, be <tart>
 def:	TKD; KGT
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{wIch}
@@ -21136,7 +21055,7 @@ pos:	noun
 sv:	«geni»
 en:	<genius>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{wIH}
@@ -21175,7 +21094,7 @@ sv:	«välja»
 en:	<choose>, <select>
 def:	TKD
 ref:	TKW pp.19, 151
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{wIv} [2]
@@ -21215,7 +21134,7 @@ sv:	«kasta» bort, «kassera»
 en:	<throw> away, «discard»
 def:	TKD; KGT p.91
 ref:	TDNW
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{wogh}
@@ -21299,7 +21218,7 @@ pos:	noun
 sv:	«verb»
 en:	<verb>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{wov}
@@ -21307,7 +21226,7 @@ pos:	verb
 sv:	vara «ljus»
 en:	be <light>, be <bright>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{wovmoHwI'}
@@ -21356,7 +21275,7 @@ pos:	verb
 sv:	«besluta» (sig för), «bestämma» (sig för)
 en:	<decide> (upon)
 def:	TKD; TKDa
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{wuQ}
@@ -21364,7 +21283,7 @@ pos:	verb
 sv:	ha «huvudvärk», ha «ont» i huvudet
 en:	have a <headache>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{wuS}
@@ -21387,7 +21306,7 @@ pos:	verb
 sv:	«förlita» sig på, vara «beroende» av, vara «hänvisad» till
 en:	<depend> on, <rely> on
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ya}
@@ -21402,7 +21321,7 @@ pos:	noun
 sv:	«sinne», «medvetande», «hjärna»
 en:	<mind>, <brain>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{yach} [.1]
@@ -21455,7 +21374,7 @@ pos:	noun
 sv:	«tjänsteplats», «post», «postering»
 en:	<duty station>, <station>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{yaj}
@@ -21464,7 +21383,7 @@ sv:	«förstå»
 en:	<understand>
 def:	TKD
 ref:	TKW p.43
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{yajHa'}
@@ -21504,7 +21423,7 @@ sv:	vara «nog», vara «tillräcklig»
 en:	be <enough>, be <sufficient>
 def:	TKD
 ref:	TKW p.21
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
 
@@ -21513,7 +21432,7 @@ pos:	noun
 sv:	«officer»
 en:	<officer>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{yaS cha'DIch}
@@ -21563,7 +21482,7 @@ sv:	«seger», «triumf»
 en:	<victory>, <triumph>
 def:	TKD
 ref:	TKW pp.125, 135, 179, 211
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {yay}
@@ -21631,7 +21550,7 @@ pos:	verb
 sv:	vara «försiktig»
 en:	be <careful>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{yepHa'}
@@ -21685,8 +21604,7 @@ sv:	«tribbel»
 en:	<tribble>
 def:	TKD
 ref:	TKW p.184
-tag:	animal
-data:	KLCP-1
+tag:	animal; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{yIn} [1]
@@ -21695,7 +21613,7 @@ sv:	«leva»
 en:	<live>
 def:	TKD
 ref:	TKW pp.125, 141
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{yIn} [2]
@@ -21704,7 +21622,7 @@ sv:	«liv»
 en:	<life>
 def:	TKD
 ref:	TKW pp.43, 53, 95
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{yInroH}
@@ -21740,7 +21658,7 @@ pos:	verb
 sv:	vara «våt»
 en:	be «wet»
 def:	TKD K-E
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{yIr}
@@ -21779,7 +21697,7 @@ pos:	verb
 sv:	«gå»
 en:	<walk>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{yIv} [.1]
@@ -21787,7 +21705,7 @@ pos:	verb
 sv:	«tugga»
 en:	<chew>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{yIv} [.2]
@@ -21845,7 +21763,7 @@ pos:	noun
 sv:	«sköld»
 en:	<shield>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{yoD'egh}
@@ -21862,7 +21780,7 @@ sv:	vara «modig», vara «djärv»
 en:	be <brave>
 def:	TKD
 ref:	TKW p.212
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{yoHwI'}
@@ -21893,7 +21811,7 @@ pos:	verb
 sv:	vara «nöjd», vara «tillfredställd»
 en:	be <satisfied>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{yonmoH}
@@ -22030,7 +21948,7 @@ pos:	noun
 sv:	«choklad»
 en:	<chocolate>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{yuch ngogh}
@@ -22052,7 +21970,7 @@ pos:	verb
 sv:	vara «oärlig»
 en:	be <dishonest>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{yuDHa'}
@@ -22074,7 +21992,7 @@ pos:	noun
 sv:	«planet»
 en:	<planet>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{yuQHom}
@@ -22120,7 +22038,7 @@ pos:	verb
 sv:	«putta», «knuffa»
 en:	<push>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{yuvtlhe'}
@@ -22137,7 +22055,7 @@ sv:	«förhöra», «fråga» ut
 en:	<question>, <interrogate>
 def:	TKD
 pun:	Compare with {mIy}.
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{yu'egh}
@@ -22268,7 +22186,7 @@ sv:	«visa», «exponera», «röja», «avslöja»
 en:	<show>, <reveal>
 def:	TKD
 ref:	TKW pp.59, 61, 203
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{'aqleH}
@@ -22399,7 +22317,7 @@ pos:	verb
 sv:	«vakta»
 en:	<guard>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{'avwI'}
@@ -22444,7 +22362,7 @@ sv:	«möjlighet», «chans», «öppning»
 en:	<opportunity>, <chance>, <opening>
 def:	TKD; KGT
 ref:	TKW pp.49, 51
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{'ech}
@@ -22521,7 +22439,7 @@ sv:	göra «entré», «gå in» i, «komma» in
 en:	<enter>, <go in>
 def:	TKD
 ref:	TKW p.181
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{'elaDya'}
@@ -22600,8 +22518,7 @@ pos:	noun
 sv:	«moln»
 en:	<cloud>
 def:	TKD
-tag:	landscape
-data:	KLCP-1
+tag:	landscape; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{'ep}
@@ -22690,7 +22607,7 @@ sv:	«svärd», «klinga»
 en:	<sword>, <blade>
 def:	TKD; KGT
 ref:	TKW pp.101, 177
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{'ev}
@@ -22785,7 +22702,7 @@ pos:	verb
 sv:	vara «vacker», vara «stilig»
 en:	be <beautiful>, be <handsome>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
 
@@ -22794,7 +22711,7 @@ pos:	verb
 sv:	«lyssna»
 en:	<listen>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{'Il}
@@ -22824,7 +22741,7 @@ pos:	verb
 sv:	«svära», gå «ed» på
 en:	<vow>, <swear>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{'Ip} [2]
@@ -22832,7 +22749,7 @@ pos:	noun
 sv:	«ed», «löfte»
 en:	<oath>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{'Iq}
@@ -22871,7 +22788,7 @@ sv:	vara «sorgsen», vara «nedstämd»
 en:	be <sad>
 def:	TKD
 ref:	TKW p.8
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{'IrneH}
@@ -22895,7 +22812,7 @@ pos:	noun
 sv:	«kalender», «tideräkning»
 en:	<calendar>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[1] {'It}
@@ -22903,7 +22820,7 @@ pos:	verb
 sv:	vara «deprimerad»
 en:	be <depressed>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	[2] {'It}
@@ -22929,7 +22846,7 @@ pos:	verb
 sv:	vara «avancerad», vara högt utvecklad
 en:	be <advanced>, be highly developed
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	The word "be" was inserted before the adjectival "highly developed".
 
@@ -22954,7 +22871,7 @@ sv:	«blod»
 en:	<blood>
 def:	TKD
 ref:	TKW pp.17, 31, 32, 34, 174, 203
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{'Iwghargh}
@@ -23058,7 +22975,7 @@ sv:	«den», «det»
 en:	<it>
 def:	TKD
 ref:	TKW pp.47, 121
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{'oj}
@@ -23066,7 +22983,7 @@ pos:	verb
 sv:	vara «törstig»
 en:	be <thirsty>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{'ol}
@@ -23075,7 +22992,7 @@ sv:	«bekräfta», «verifiera»
 en:	<verify>
 def:	TKD
 ref:	TKW p.186
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{'om}
@@ -23206,7 +23123,7 @@ pos:	verb
 sv:	«tävla», «konkurrera»
 en:	<compete>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{'oy'} [1]
@@ -23215,7 +23132,7 @@ sv:	«smärta», «värka», vara «öm»
 en:	<ache>, <hurt>, be <sore>
 def:	TKD
 ref:	TKW pp.46, 175
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
 
@@ -23306,8 +23223,7 @@ pos:	verb
 sv:	vara «tung»
 en:	be <heavy>
 def:	TKD
-tag:	measure
-data:	KLCP-1
+tag:	KLCP1; measure
 file:	1992-01-01-tkd.txt
 
 tlh:	{'uH}
@@ -23315,7 +23231,7 @@ pos:	verb
 sv:	ha «baksmälla», vara «bakfull»
 en:	have a <hangover>, be hung over
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{'uj}
@@ -23358,7 +23274,7 @@ pos:	verb
 sv:	vara «kvalificerad»
 en:	be <qualified>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{'un}
@@ -23397,7 +23313,7 @@ pos:	noun
 sv:	«kvällsmat»
 en:	<dinner>
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{'uQ'a'}
@@ -23435,8 +23351,7 @@ pos:	noun
 sv:	«ben» (som man går på)
 en:	<leg>
 def:	TKD
-tag:	body part
-data:	KLCP-1
+tag:	body part; KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{'uSgheb}
@@ -23461,7 +23376,7 @@ sv:	vara «väsentlig», vara «nödvändig»
 en:	be <essential>, be <necessary>
 def:	TKD
 ref:	TKW p.45
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
 
@@ -23489,7 +23404,7 @@ pos:	verb
 sv:	«trycka» ned, trycka på
 en:	<press> down
 def:	TKD
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{'uy'}
@@ -23517,7 +23432,7 @@ pos:	verb prefix
 sv:	han/hon/det--ingen/honom/henne/det/dem, de--ingen/dem
 en:	he/she/it--none/him/her/it/them, they--none/them
 def:	TKD 4.1.1 (p.33)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{bI-}
@@ -23525,7 +23440,7 @@ pos:	verb prefix
 sv:	du--ingen
 en:	you--none
 def:	TKD 4.1.1 (p.33)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{bo-}
@@ -23547,7 +23462,7 @@ pos:	verb prefix
 sv:	du--mig
 en:	you--me
 def:	TKD 4.1.1 (p.33)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{Da-}
@@ -23555,7 +23470,7 @@ pos:	verb prefix
 sv:	du--honom/henne/det/dem
 en:	you--him/her/it/them
 def:	TKD 4.1.1 (p.33)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{DI-}
@@ -23591,7 +23506,7 @@ pos:	verb prefix
 sv:	jag--ingen
 en:	I--none
 def:	TKD 4.1.1 (p.33)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{ju-}
@@ -23620,7 +23535,7 @@ pos:	verb prefix
 sv:	vi--ingen
 en:	we--none
 def:	TKD 4.1.1 (p.33)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{mu-}
@@ -23628,7 +23543,7 @@ pos:	verb prefix
 sv:	han/hon/det/de--mig
 en:	he/she/it/they--me
 def:	TKD 4.1.1 (p.33)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{nI-}
@@ -23664,7 +23579,7 @@ pos:	verb prefix
 sv:	jag--dig
 en:	I--you
 def:	TKD 4.1.1 (p.33)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{re-}
@@ -23707,7 +23622,7 @@ pos:	verb prefix
 sv:	jag--honom/henne/det/dem
 en:	I--him/her/it/them
 def:	TKD 4.1.1 (p.33)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{wI-}
@@ -23732,7 +23647,7 @@ pos:	verb suffix type 6
 sv:	uppenbarligen
 en:	obviously
 def:	TKDa 4.2.6 (p.175)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-beH}
@@ -23740,7 +23655,7 @@ pos:	verb suffix type 2
 sv:	redo, iordningställd (om apparater)
 en:	ready, set up (referring to devices)
 def:	TKD 4.2.2 (p.36)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-bej}
@@ -23748,7 +23663,7 @@ pos:	verb suffix type 6
 sv:	definitivt, tveklöst
 en:	certainly, undoubtedly
 def:	TKD 4.2.6 (p.40)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-be'}
@@ -23757,7 +23672,7 @@ sv:	inte
 en:	not
 def:	TKD 4.3 (p.46)
 com:	Comes after the verb or verb suffix in negates.
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-bogh}
@@ -23775,7 +23690,7 @@ pos:	verb suffix type 3
 sv:	förändring i tillstånd, förändring i riktning
 en:	change in state, change in direction
 def:	ST1; TKD 4.2.3 (p.37)
-data:	KLCP-1
+tag:	KLCP1
 file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
 tlh:	{-chugh}
@@ -23792,7 +23707,7 @@ pos:	verb suffix type 1
 sv:	varandra
 en:	one another
 def:	TKD 4.2.1 (p.36)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-chu'}
@@ -23800,7 +23715,7 @@ pos:	verb suffix type 6
 sv:	perfekt, tydligt
 en:	clearly, perfectly
 def:	TKD 4.2.6 (p.40)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-DI'}
@@ -23845,7 +23760,7 @@ pos:	verb suffix type 5
 sv:	kan
 en:	can, able
 def:	TKD 4.2.5 (p.39)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-law'}
@@ -23853,7 +23768,7 @@ pos:	verb suffix type 6
 sv:	antagligen, nog, verkar vara
 en:	seemingly, apparently
 def:	TKD 4.2.6 (p.40)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-lI'}
@@ -23885,7 +23800,7 @@ pos:	verb suffix type 4
 sv:	orsaka
 en:	cause
 def:	TKD 4.2.4 (p.38)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-mo'}
@@ -23902,7 +23817,7 @@ pos:	verb suffix type 8
 sv:	hedrande
 en:	honorific
 def:	TKD 4.2.8 (p.43)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-nIS}
@@ -23910,7 +23825,7 @@ pos:	verb suffix type 2
 sv:	behöver
 en:	need
 def:	TKD 4.2.2 (p.36)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-pa'}
@@ -23939,7 +23854,7 @@ pos:	verb suffix type 2
 sv:	villig
 en:	willing
 def:	TKD 4.2.2 (p.36)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-qa'}
@@ -23947,7 +23862,7 @@ pos:	verb suffix type 3
 sv:	återuppta, göra igen
 en:	resume, do again
 def:	TKD 4.2.3 (p.37)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-qu'}
@@ -23956,7 +23871,7 @@ sv:	emfatiskt, framhävande
 en:	emphatic
 def:	TKD 4.3 (p.48)
 com:	Comes after the verb or verb suffix it emphasizes or affirms.
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-Qo'}
@@ -23972,7 +23887,7 @@ pos:	verb suffix type 2
 sv:	redo, förberedd (om varelser)
 en:	ready, prepared (referring to beings)
 def:	TKD 4.2.2 (p.36)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-taH}
@@ -23995,7 +23910,7 @@ pos:	verb suffix type 2
 sv:	rädd
 en:	afraid
 def:	TKD 4.2.2 (p.37)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-vIS}
@@ -24023,7 +23938,7 @@ sv:	interrogativ
 en:	interrogative
 def:	TKD 4.2.9 (p.44)
 com:	Indicates that a sentence is a yes/no question.
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-'egh}
@@ -24031,7 +23946,7 @@ pos:	verb suffix type 1
 sv:	sig själv
 en:	oneself
 def:	TKD 4.2.1 (p.35)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 === end-of-verb-suffix-list ===
@@ -24049,7 +23964,7 @@ pos:	noun suffix type 4
 sv:	hans, hennes, dess
 en:	his, her, its
 def:	TKD 3.3.4 (p.25)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-Daq}
@@ -24057,8 +23972,7 @@ pos:	noun suffix type 5
 sv:	lokativ
 en:	locative
 def:	TKD 3.3.5 (p.27)
-tag:	placement
-data:	KLCP-1
+tag:	KLCP1; placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{-Du'}
@@ -24073,7 +23987,7 @@ pos:	noun suffix type 3
 sv:	synbar, skenbar
 en:	apparent
 def:	TKD 3.3.3 (p.24)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-Hom}
@@ -24081,7 +23995,7 @@ pos:	noun suffix type 1
 sv:	diminutiv
 en:	diminutive
 def:	TKD 3.3.1 (p.21)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-lIj}
@@ -24089,7 +24003,7 @@ pos:	noun suffix type 4
 sv:	din, ditt
 en:	your
 def:	TKD 3.3.4 (p.25)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-lI'}
@@ -24097,7 +24011,7 @@ pos:	noun suffix type 4
 sv:	din, ditt (substantiv förmöget till språk)
 en:	your (noun capable of using language)
 def:	TKD 3.3.4 (p.25)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-maj}
@@ -24105,7 +24019,7 @@ pos:	noun suffix type 4
 sv:	vår, vårt
 en:	our
 def:	TKD 3.3.4 (p.25)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-ma'}
@@ -24113,7 +24027,7 @@ pos:	noun suffix type 4
 sv:	vår, vårt (substantiv förmöget till språk)
 en:	our (noun capable of using language)
 def:	TKD 3.3.4 (p.25)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-mey}
@@ -24128,7 +24042,7 @@ pos:	noun suffix type 5
 sv:	på grund av, beroende på
 en:	due to, because of
 def:	TKD 3.3.5 (p.28)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-na'}
@@ -24136,7 +24050,7 @@ pos:	noun suffix type 3
 sv:	definitiv
 en:	definite
 def:	TKD 3.3.3 (p.25)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-oy}
@@ -24144,7 +24058,7 @@ pos:	noun suffix type 1
 sv:	affektion
 en:	endearment
 def:	TKDa 3.3.1 (p.174)
-data:	non-phonotactic
+tag:	non-phonotactic
 file:	1992-01-01-tkd.txt
 
 tlh:	{-pu'}
@@ -24159,7 +24073,7 @@ pos:	noun suffix type 3
 sv:	så kallad
 en:	so-called
 def:	TKD 3.3.3 (p.24)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-raj}
@@ -24189,7 +24103,7 @@ pos:	noun suffix type 4
 sv:	den här, de här
 en:	this
 def:	TKD 3.3.4 (p.26)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-vetlh}
@@ -24197,7 +24111,7 @@ pos:	noun suffix type 4
 sv:	den där, de där
 en:	that
 def:	TKD 3.3.4 (p.26)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-vo'}
@@ -24205,8 +24119,7 @@ pos:	noun suffix type 5
 sv:	från
 en:	from
 def:	TKD 3.3.5 (p.28)
-tag:	placement
-data:	KLCP-1
+tag:	KLCP1; placement
 file:	1992-01-01-tkd.txt
 
 tlh:	{-wIj}
@@ -24214,7 +24127,7 @@ pos:	noun suffix type 4
 sv:	min, mitt
 en:	my
 def:	TKD 3.3.4 (p.25)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-wI'}
@@ -24222,7 +24135,7 @@ pos:	noun suffix type 4
 sv:	min, mitt (substantiv förmöget till språk)
 en:	my (noun capable of using language)
 def:	TKD 3.3.4 (p.25)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-'a'}
@@ -24230,7 +24143,7 @@ pos:	noun suffix type 1
 sv:	augmentativ
 en:	augmentative
 def:	TKD 3.3.1 (p.21)
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 tlh:	{-'e'}
@@ -24240,7 +24153,7 @@ en:	topic
 def:	TKD 3.3.5 (p.29)
 com:	An object topicalized {-'e'} sometimes comes *before* the
 	adverb in the sentence (if any) [TKDa 6.7 (p.180)]
-data:	KLCP-1
+tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 === end-of-noun-suffix-list ===

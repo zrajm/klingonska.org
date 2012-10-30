@@ -1961,7 +1961,8 @@ optimization."
       itself)
 ***** TODO New value field for the question words, adverbs etc.
 ***** TODO KLCP level 1 markup
-****** Move into "tag:" rather than "data:" field
+****** DONE Move into "tag:" rather than "data:" field
+       CLOSED: [2012-10-30 Tue 09:10]
 ****** Check against KLCP 1 list.
 ***** TODO KLCP level 2 markup
 ****** Add "KLCP-2" to all relevant word's "data:" field
