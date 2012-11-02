@@ -1276,6 +1276,12 @@ optimization."
     just 19.
 ** TODO "Klingon Pocket Dictionary"
 *** Web page
+**** DONE BUGFIX: Online pocket dictionary show parts of dict.zdb postamble
+     CLOSED: [2012-11-02 Fri 17:54]
+     This breakage occured since I've made changes in the section names in
+     dict.zdb, to avoid this from happening in the future I added marker
+     surrounding *all* the section (i.e. marking the database section of the
+     file).
 **** DONE Restructure pages
      CLOSED: [2011-08-30 Tue 17:00]
 ***** DONE Add page forwarding for renamed pages
@@ -1477,6 +1483,15 @@ optimization."
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** dict.zdb
+**** DONE Add delimiters for the database part of the file
+     CLOSED: [2012-11-02 Fri 18:04]
+     A delimiter surrounding all of the database sections is needed to solve
+     the following bug [[Online pocket dictionary show parts of dict.zdb
+     postamble.]]
+
+         == start-of-data ==
+         ...
+         == end-of-data ==
 **** TODO Add "Everyday Klingon" references for all words on SkyBox crads
      (in the dictionary)
      S25, S26 & S27 are already have a 'ref:' field with reference to the
@@ -2369,6 +2384,8 @@ optimization."
     CLOSED: [2012-01-20 Fri 13:01]
     (see example under {Soj})
 ** Dictionary check tool (usr/bin/check-dict)
+*** TODO Should check existance of new (start|end)-of-data markers
+    Required because of "[[Add delimiters for the database part of the file]]".
 *** DONE Comments (non-section text) should not exeed 79 char line width
     CLOSED: [2012-03-25 Sun 03:49]
 *** FUTURE Advanced features

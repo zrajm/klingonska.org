@@ -5,93 +5,96 @@ LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
 AUTHOR:  Zrajm C Akfohg <zrajm@klingonska.org>
 
+1. About
+========
+This is *Klingonska Akademien’s* word database. You’re free to use it in any
+way you see fit, as long as you give us credit and provide a link to the
+[Klingon Pocket Dictionary](http://klingonska.org/dict/).
 
-ABOUT
-=====
-[2012-01-27] 2732 Klingon words (not counting affixes & words marked with '*').
-[2011-11-01] 2698 words.
-
-Each section is sorted in Klingon alphabetical order.
-
-
-KLINGON IDEALS OF BEHAVIOR
-==========================
-Hmm. This is a sorta silly. -- Yet here it is. -- The four ideals of behavior
-from "Power Klingon". With my own attempt at translating them into Klingon.
-
-    accuracy             {yIqarchu'!} -- Be accurate!
-    straightforwardness  {yI'utchu'!} -- Be essential!
-    aggressiveness       {yIvaQchu'!} -- Be aggressive!
-    strength             {yIHoSchu'!} -- Be strong!
+  * [2012-01-27] 2732 Klingon words (not counting affixes, and words marked
+    with ‘*’ in their `tlh:` field).
+  * [2011-11-01] 2698 words.
 
 
-DESCRIPTION OF THIS FILE FORMAT
-===============================
-This file starts with a *metadata header* -- the rest of the file contains data
-only in marked *database sections*. Text outside of these sections (such as
-this text) is comments only, and programs extracting data should ignore it.
+1.1. Syncing Against This Database
+----------------------------------
+This file, though human-readable, is written so as to simplify fetching and
+syncing by external programs. If you’re writing a program which will
+periodically update its own internal dictionary by fetching this database you
+should read through the “Metadata Header” section.
 
-None of the lines in this file exceed 79 characters in length (not counting the
-newline at the end of each line). This goes for both database contents and
-comments.
-
-
-METADATA HEADER
----------------
-The metadata header (similar to an email header) starts at the very beginning
-of the file and ends with the first blank line. Just like the database content,
-it consists of attribute/value pairs. The metadata is a single entry (as
-opposed to the database proper) with information of the database as whole.
-Lines with leading whitespace are a continuation of the previous line. This is
-the meaning of the values:
-
-  FORMAT: Indicates file format. Always `zrajm-database`.
-
-  VERSION: File format version -- changes when fields are added, removed, or a
-  field format changes. (This happens quite infrequently.) 'VERSION' is *not*
-  updated when words are added/removed/edited in the database, nor if the order
-  of fields or entries change. Programs that sync against this database should
-  abort if 'VERSION' has changed (and instead keep the old data), unless, of
-  course, the program in question has been updated to support the new format.
-  (You might want to encourage your users to look for a program update when
-  this happens.) For version history see 'HISTORY' below.
-
-  URL: The URL of this document on the web -- use this URL to fetch the latest
-  version of this file. (A program to doing this should be prepared to handle
-  web redirects.)
-
-  LICENSE: The license of this file -- (I'm *not* claiming to license the
-  Klingon language -- it isn't mine to claim.)
-
-  AUTHOR: The person who compiled this database. (As opposed to Marc Okrand,
-  who invented the language.)
+If you poll this database for changes, please do not use a shorter polling
+interval than 24 hours.
 
 
-SECTIONED CONTENT
------------------
-Sections are indicated with:
+2. Description of This File’s Format
+====================================
+Character set is UTF-8. No line exceed 79 characters in length (not counting
+newline at the end of each line). This goes for both database and comments. The
+different parts of this file are:
 
-  === start-of-<SECTION-NAME> ===
-
-  <SECTION-CONTENTS>
-
-  === start-of-<SECTION-NAME> ===
-
-
-SECTION-NAME
-------------
-SECTION-NAME is always lowercase, and hyphens are used instead of spaces. There
-are four sections in this database (this will very likely not change). All
-sections use the same data format.
-
-  * word-list
-  * verb-prefix-list
-  * verb-suffix-list
-  * noun-suffix-list
+  1. Metadata header
+  2. Preamble (= comments)
+  3. Database chunk
+    1. Section 1
+    2. Section 2
+    3. ...
+  4. Postamble (= comments)
 
 
-SECTION CONTENTS
-----------------
+2.1. Metadata Header
+--------------------
+The *metadata header* is everything up to the first blank line. It is similar
+to an email header. It consists of attribute/value pairs, lines with leading
+whitespace are a continuation of the previous line. This is the meaning of the
+values:
+
+> `FORMAT`: *File format.* Value is always `zrajm-database`. A program fetching
+> the database should use this to verify that the correct file is received (and
+> that you’re not receiving an error page or similar).
+
+> `VERSION`: *Database version.* This value will change when new fields are
+> introduced into the dictionary or if the format of a field changes. (This
+> rarely happens.) A program fetching the database *must not* blindly import
+> the database if `VERSION` has changed since last fetch (the program itself
+> will need to be updated to handle these changes -- you might want to tell
+> your users to look for a program update if this happens).
+
+> `URL`: *Web address of the database.* Use this URL to fetch the latest
+> version the database. (A program to doing this should be prepared to handle
+> web redirects.)
+
+> `LICENSE`: *Database license.* (I’m *not* claiming to license the Klingon
+> language -- the language isn’t mine to claim.)
+
+> `AUTHOR`: *Author of this database.* (As opposed to Marc Okrand, who invented
+> the language.)
+
+
+2.2. Database Chunk
+-------------------
+The *database chunk* is everything between the lines “`== start-of-data ==`”
+and “`== end-of-data ==`” (using two equal signs). The database chunk is in
+turn split into any number of sections.
+
+
+2.3. Sections
+-------------
+Each *section* is everything between the lines “`=== start-of-<SECTION-NAME>
+===`” and “`=== end-of-<SECTION-NAME> ===`” (using three equal signs).
+`<SECTION-NAME>` is always lower case, and with hyphens instead of spaces. Any
+text occurring between sections are ignored. Each section is sorted in Klingon
+alphabetical order. There are four sections in this database (this is unlikely
+to ever change):
+
+  * `word-list`
+  * `verb-prefix-list`
+  * `verb-suffix-list`
+  * `noun-suffix-list`
+
+
+### 2.3.1. Section Contents ###
+
 A section consists of one or more *entries* separated from each other by one
 blank line.
 
@@ -99,23 +102,23 @@ Each entry is built up of *fields* (attribute/value pairs) consisting of a
 *field name* and a *field value*, each field name is separated from its value
 with a colon + a single tab character. Like this:
 
-  NAME:<tab>VALUE
-  [<tab>CONTINUED]
+      NAME:<tab>VALUE
+      [<tab>CONTINUED]
 
-Some field values contain multiple lines (which is good, since lines are no
-longer than 79 characters [see above]). A line which is a continuation of the
-previous line start with a single tab character. (Programs should consider this
-indentation equivalent to a space.)
+Some field values contain multiple lines (which is good, since lines are not
+allowed to be longer than 79 characters [see above]). A line which is a
+continuation of the previous line start with a single tab character. (Programs
+should consider this indentation equivalent to a single space.)
 
-Field names are from the 'LIST OF FIELD NAMES' below (no other field names are
+Field names are from the ‘List of Field Names’ below (no other field names are
 allowed), and the name of the field defines the format of the field value. The
 same list is used for all sections of the database. (Programs should
 disregard/throw away fields whose field name is not on the list below, and
 never present any such field to the user.)
 
 
-LIST OF FIELD NAMES
--------------------
+### 2.3.2. List of Field Names ###
+
 These are the occurring field names, including descriptions of the format of
 the value for each of them. This list us used for all the sections of the
 database.
@@ -123,15 +126,15 @@ database.
 Within each entry, the fields come in the order listed here. (Programs reading
 this file should not rely on this order, as it is not considered part of the
 file format. Changes in field ordering only will not result in change of the
-'VERSION' number.)
+`VERSION` number.)
 
-Fields are either: 'required' (= present in all entries); 'optional' (= occur
-in some entries) or 'multiple' (= occur some entries but sometimes more than
+Fields are either: ‘required’ (= present in all entries); ‘optional’ (= occur
+in some entries) or ‘multiple’ (= occur some entries but sometimes more than
 once in the same entry).
 
   * `tlh:` Klingon word [REQUIRED]
 
-    Contains a Klingon text given in curly brackets (e.g. `{jotHa'}`), and
+    Contains a Klingon text given in curly brackets (e.g. `{jotHa’}`), and
     optionally a word counter (split into pre-word, post-word, and post-word
     sub-counter, described below). The Klingon word is also preceded by an
     asterisk in certain cases (described below).
@@ -147,28 +150,25 @@ once in the same entry).
     Words that are homonyms also have one or more counter(s) for describing the
     layout of the word in the pocket dictionary. There are three such counters:
 
-        1) pre-word counter
-        2) post-word counter
-        3) post-word sub-counter
+    1. **pre-word counter** comes before the word (in square brackets) and
+       separates homonyms that are not semantically related. E.g. `[1] {nIH}`
+       <steal> (verb) versus `[2] {nIH}` <right (side)> (noun).
 
-    1) The pre-word counter comes before the word (in square brackets) and
-    separates homonyms that are not semantically related. E.g. `[1] {nIH}`
-    <steal> (verb) versus `[2] {nIH}` <right (side)> (noun).
+    2. **post-word counter** comes after the word (in square brackets) and
+       separates homonyms that are related in meaning, but which have different
+       parts-of-speech. E.g. `{bach} [1]` <shoot> (verb) versus `{bach} [2]`
+       <shot> (noun).
 
-    2) The post-word counter comes after the word (in square brackets) and
-    separates homonyms that are related in meaning, but which have different
-    parts-of-speech. E.g. `{bach} [1]` <shoot> (verb) versus `{bach} [2]`
-    <shot> (noun).
-
-    3) The post-word sub-counter comes after the word (after a period, inside
-    the same square brackets as the post-word counter) and separates homonyms
-    that are related in meaning *and* have the same parts-of-speech. (This can,
-    for example, be a word with slightly different meanings in {ta' Hol} and
-    some dialect.) E.g. `{cheSvel} [.1]` <type of coat> (noun) versus
-    `{cheSvel} [.2]` <coat, jacket (general term)> (noun) (regional).
+    3. **post-word sub-counter** comes after the word (after a period, inside
+       the same square brackets as the post-word counter) and separates
+       homonyms that are related in meaning *and* have the same
+       parts-of-speech. (This can, for example, be a word with slightly
+       different meanings in {ta’ Hol} and some dialect.) E.g. `{cheSvel} [.1]`
+       <type of coat> (noun) versus `{cheSvel} [.2]` <coat, jacket (general
+       term)> (noun) (regional).
 
     All three counters may be used the same time for a specific word. E.g. `[2]
-    {pa'} [.2]` <enclosed area> (noun) (slang) or `{qaD} [2.1]" <challenge>
+    {pa’} [.2]` <enclosed area> (noun) (slang) or `{qaD} [2.1]` <challenge>
     (noun). Taking these counters into account, each `tlh:` field in the
     dictionary is unique.
 
@@ -176,11 +176,11 @@ once in the same entry).
     part-of-speech. Stardand dialect words are sorted before slang/regional
     words, and part-of-speech order is as follows.
 
-      adv >> v >> excl >> pro >> ques >> conj >> num >> n >> name
+    > adv >> v >> excl >> pro >> ques >> conj >> num >> n >> name
 
-    (Basically 'verby' words come first -- since adverbials can form sentences
-    in their own right, as well as take part of a sentence they're deemed
-    'verbier' that normal verbs, pronouns and (some) question words also move
+    (Basically ‘verby’ words come first -- since adverbials can form sentences
+    in their own right, as well as take part of a sentence they’re deemed
+    ‘verbier’ that normal verbs, pronouns and (some) question words also move
     between acting as verbs and nouns and are there fore considered quite verby
     too. numerals can likewise assume the role of adjectives, which makes them
     verbier than a plain noun.)
@@ -276,7 +276,7 @@ once in the same entry).
 
   * `def:` source where definition can be found [REQUIRED]
 
-    Defining source references for this entry. A source count as 'defining' if
+    Defining source references for this entry. A source count as ‘defining’ if
     it substantially adds to the understanding of the word. This is usually the
     first canon mention of the word (where the translation of the word is
     given), but occasionally there are multiple sources that are important for
@@ -332,7 +332,7 @@ once in the same entry).
     + `family`
     + `fighting`
     + `KLCP1` = The 502 basic words which one needs to know in order to pass
-      the first level of KLI's "Klingon Language Certification Program".
+      the first level of KLI’s “Klingon Language Certification Program”.
     + `landscape`
     + `math`
     + `measure`
@@ -348,15 +348,15 @@ once in the same entry).
 
   * `data:` data tags [OPTIONAL]
 
-    Semicolon-separated list of tags. Differs from `tag:` in that the `data:'
+    Semicolon-separated list of tags. Differs from `tag:` in that the `data:`
     tags also affect the presence or format of other fields.
 
     + `derived form` = The entry is a word built from other Klingon morphemes
       (these words are included in the dictionary to provide a non-obvious
       lookup entry in the English--Klingon side of a dictionary; such a
       `derived form` may thus be excluded from the Klingon--English side when
-      generating a dictionary); e.g. {chenmoHwI'} constructed from {chen} 'take
-      form' + {-moH} 'cause' + {-wI'} 'one who does'.
+      generating a dictionary); e.g. {chenmoHwI’} constructed from {chen} ‘take
+      form’ + {-moH} ‘cause’ + {-wI’} ‘one who does’.
 
     + `phrase` = The Klingon word in the entry contains space (i.e. the Klingon
       lookup entry is more than one word). NOTE: This tag is always present
@@ -366,7 +366,7 @@ once in the same entry).
       The entry is included only for completeness, and also carries a warning
       which should be displayed to the user. Words marked with this tag may be
       excluded from the Klingon--English side of a dictionary, and *should* be
-      excluded from the English--Klingon side. Examples: *{tIb}, *{pu'bej} etc.
+      excluded from the English--Klingon side. Examples: *{tIb}, *{pu’bej} etc.
       NOTE: An entry with this tag always carry a `warn:` field + leading
       asterisk in `tlh:` as well.
 
@@ -385,11 +385,11 @@ once in the same entry).
     + `exclude from K-E` = This entry will not be included in the
       Klingon--English side of the pocket dictionary. Words are only excluded
       when they are present elsewhere in the dictionary, or when they are
-      understandable anyway. E.g. "number suffixes" are excluded because they
+      understandable anyway. E.g. “number suffixes” are excluded because they
       have their own reference table. Derived forms such as words ending in
-      {-moH} (when they do not differ from the expected meaning ({bolwI'}
-      <traitor> is included, but {bolwI'} <drooler> would not be, since it is
-      obvious frob {bol} <drool> + {-wI'} <one who does>).
+      {-moH} (when they do not differ from the expected meaning ({bolwI’}
+      <traitor> is included, but {bolwI’} <drooler> would not be, since it is
+      obvious frob {bol} <drool> + {-wI’} <one who does>).
 
   * `file:` file names of source transcripts [REQUIRED]
 
@@ -399,18 +399,18 @@ once in the same entry).
 
   * `meta:`  meta comment about entry [OPTIONAL]
 
-    Editor's comments on the entry. This is, for example, comments on how the
+    Editor’s comments on the entry. This is, for example, comments on how the
     various sources have been combined to form the entry, concerns regarding
     how to interpret the canon for the entry, or a FIXME if the entry is known
     to need some additional work.
 
 
-HISTORY
-=======
+3. History
+==========
 Brief list of changes made for each VERSION of this file format. Most recent
 changes first.
 
-  * 2012-03-25 v1.1 -- Corrected misspelling 'conjuction' -> 'conjunction' in
+  * 2012-03-25 v1.1 -- Corrected misspelling ‘conjuction’ -> ‘conjunction’ in
     `pos:` field. (This warranted a VERSION update since the content of this
     field is exactly specified in the description -- had it been a free text
     field, VERSION would not have been updated).
@@ -419,8 +419,8 @@ changes first.
     clarify the file format.
 
 
-DICTIONARY CONSISTENCY
-======================
+4. Dictionary Consistency
+=========================
 To verify the internal consistency of the database use the `check-dict` program
 available at <http://klingonska.org/usr/bin/check-dict>. It is written in Perl,
 and is typically run with:
@@ -429,6 +429,7 @@ and is typically run with:
 
 Next comes the first database section.
 
+== start-of-data ==
 
 === start-of-word-list ===
 
@@ -24157,6 +24158,8 @@ tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 === end-of-noun-suffix-list ===
+
+== end-of-data ==
 
 KLINGON WORDS NEVER OCCURING BY THEM SELVES
 ===========================================

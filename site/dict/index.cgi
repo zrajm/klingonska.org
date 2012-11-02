@@ -140,13 +140,13 @@ sub read_dictionary {
         die "cannot open dictionary file '$file'";
     # skip file header
     while (<$fh>) {
-        last if $_ eq "=== start-of-word-list ===\n";
+        last if $_ eq "== start-of-data ==\n";
     }
     # read dictionary
     my @buf = ();
     while (<$fh>) {
         # terminate at file footer
-        last if $_ eq "=== end-of-suffix-list ===\n";
+        last if $_ eq "== end-of-data ==\n";
         chomp();
         # beginning of a new post
         if (s/^(:|\s*$)//) {                  # beginning of new post?
