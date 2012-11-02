@@ -24058,7 +24058,7 @@ pos:	noun suffix type 1
 sv:	affektion
 en:	endearment
 def:	TKDa 3.3.1 (p.174)
-tag:	non-phonotactic
+data:	non-phonotactic
 file:	1992-01-01-tkd.txt
 
 tlh:	{-pu'}
