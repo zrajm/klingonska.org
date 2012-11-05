@@ -69,12 +69,9 @@ our %postprocess = (
             my $string = ($i++ ? "\n      <br />" : "") . "<a href=\"../canon/$_\">$_</a>";
             $string .= " (<strong>NOTE:</strong> <abbr title=\"The Klingon " .
                 "Dictionary\">TKD</abbr> required to view this file.)"
-                if /-(tkd|tkw|kgt)$\.txt/;
+                if defined($_) and m#-(tkd|tkw|kgt)\.txt#;
             $string;
-        } split(/;\s*/, $value);
-        #return undef if $value =~ /-(tkd|tkw|kgt)\.txt$/;
-        #return '<a href="../canon/' . $value . '">' . $value . '</a>';
-        #undef;
+        } split(m#;\s*#, $value);
     },
 );
 
@@ -145,17 +142,18 @@ sub read_dictionary {
     # read dictionary
     my @buf = ();
     while (<$fh>) {
+        chomp();
         # terminate at file footer
         last if $_ eq "== end-of-data ==\n";
-        chomp();
+        next if /^===\s/;
         # beginning of a new post
-        if (s/^(:|\s*$)//) {                  # beginning of new post?
+        if (m#^$#) {                          # beginning of new post?
             push(@buf, "");
-            next if /^$/;                         # skip to next line in file
-        }                                         #   if this one is empty now
+            next if /^$/;                     #   skip to next line in file
+        }                                     #   if this one is empty now
 
         # indented line, or new field
-        if ( s/^\s+// ) {                      # if line begins with white space
+        if (s#^\h+##) {                        # if line begins with white space
             $buf[$#buf] .= " " . $_;           #   join it to buffer's last line
         } else {                               # otherwise
             $buf[$#buf] .= "\n" . $_;          #   add new line to buffer
