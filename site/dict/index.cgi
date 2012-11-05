@@ -1,37 +1,6 @@
 #!/usr/bin/perl
 #
 # lexicon.cgi - online search engine for zrajm's klingon database
-#
-# [2001-12-28, 23.29-06.34] V1.0 - Wrote the stuff. Quite primitive, but
-# functional. I'll get back to it, but it isn't urgent.
-#
-# [2002-07-29] V1.1.1 - Messed around slightly. Now calls external footer.
-#
-# [2003-11-17] V1.1.2 - Some tiny changes.
-#
-# [2009-04-07] V1.2 - Changed for move to hcoop. All input & output now it
-# utf-8. header & footer now internal again.
-#
-# [2009-05-09] V1.3 - Added "use warning" and "use strict" & fixed code that it
-# works, fixed '">' input vulnerability, now uses CGI module to generate output
-# form (instead of only using it to read the form input)
-#
-# [2010-08-21] v1.4 - Major rewrite; implemented search prefixes a la Google to
-# search different fields, and removed old radio button (radio button affected
-# all of search, prefixes can be defined individually for each word or phrase
-# in the query); implemented "..." to search for entire phrases, and glob "*"
-# which matches any part of a word, also made handling of spaces somewhat
-# smarter (though, for good or bad, a space in a phrase will not match over
-# punctuation marks); added randomized search tips to help user
-#
-# [2011-08-29] v1.5 - Added 'pos' field to database, and modified this script
-# to present is as "part-of-speech" in search results
-#
-# [2011-11-09] v1.5.5 - One may now hover over field name in search results to
-# see their actual names. Does no longer suppress displaying links to
-# TKD/TKW/KGT transcripts (since you have to go through the prove-that-you-own-
-# a-copy-of-the-TKD interface to display the transcript anyway).
-#
 
 ###############################################################################
 ##                                                                           ##
@@ -151,9 +120,8 @@ sub read_dictionary {
             push(@buf, "");
             next if /^$/;                     #   skip to next line in file
         }                                     #   if this one is empty now
-
         # indented line, or new field
-        if (s#^\h+##) {                        # if line begins with white space
+        if (s#^\s+##) {                        # if line begins with white space
             $buf[$#buf] .= " " . $_;           #   join it to buffer's last line
         } else {                               # otherwise
             $buf[$#buf] .= "\n" . $_;          #   add new line to buffer
