@@ -1483,6 +1483,10 @@ optimization."
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** dict.zdb
+**** DONE Add SHA1 metadata field
+     CLOSED: [2012-11-05 Mon 06:21]
+     This should be a SHA1 checksum (to simplify syncing for external clients)
+     of only the database part (i.e. comments should not be considered).
 **** DONE Add delimiters for the database part of the file
      CLOSED: [2012-11-02 Fri 18:04]
      A delimiter surrounding all of the database sections is needed to solve
@@ -1512,7 +1516,7 @@ optimization."
 
      So the E-K should be updated to similar wording as in the K-E side
      ("Tokvarian", with a correction note at the end of the line).
-**** TODO Check order of field names in preamble
+**** TODO Check order of field names in description in preamble
      Check that it corresponds to the actual field ordering. Add a check for
      this in check-dict?
 **** DONE Correct spelling of 'conjunction' in 'pos:' field
@@ -2384,8 +2388,11 @@ optimization."
     CLOSED: [2012-01-20 Fri 13:01]
     (see example under {Soj})
 ** Dictionary check tool (usr/bin/check-dict)
-*** TODO Should check existance of new (start|end)-of-data markers
+*** DONE Should check existance of new (start|end)-of-data markers
+    CLOSED: [2012-11-05 Mon 06:21]
     Required because of "[[Add delimiters for the database part of the file]]".
+*** DONE Check validity of SHA1 metadata header
+    CLOSED: [2012-11-05 Mon 06:21]
 *** DONE Comments (non-section text) should not exeed 79 char line width
     CLOSED: [2012-03-25 Sun 03:49]
 *** FUTURE Advanced features
@@ -2474,6 +2481,7 @@ optimization."
 *** TODO Check that all HTML is downcased
 *** TODO Check that all HTML have quoted attribute names
 *** TODO Check that HTML uses only approved tag/attribute names
+** TODO 'git commit' hook for checking SHA1 of site/dict/dict.zdb
 ** DOING Makefile: Uploading of beta.klingonska.org / klingonska.org    :CLI:
 ** TODO usr/bin/klingon_spell_check                                     :CLI:
 *** TODO Support for syllable {-oy}

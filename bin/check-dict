@@ -1,29 +1,35 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
+use encoding::warnings 'FATAL';
 use 5.10.0;
 use utf8;
 use open ':locale';
-use lib do {
-    use Cwd 'realpath';
-    realpath($0) =~ m#^(.*)/#;
-};
+use Cwd 'realpath';             # scripts absolute name
 
-if (-t STDIN and @ARGV == 0) {
-    print <<"EOF";
-Usage: $0 [<] FILE
-Perform various syntax/consistency checks of a the KA dictionary.
-EOF
-    exit;
-}
+# FIXME
+#   o invoke 'check-dict --checksum' on git commit
+#   o add check for unknown sections
+#
 
+###############################################################################
+##                                                                           ##
+##  Settings                                                                 ##
+##                                                                           ##
+###############################################################################
+
+use vars qw($NAME $VERSION $YEAR);
+$VERSION = "0.2a";
+$YEAR    = "2012";
+$NAME    = "check-dict";
+
+my %opt = ();
 my %cfg = (
     canon_path     => "../site/canon", # relative to executable's path
     field_order    => [ qw(tlh  warn  pos  sv   en   desc  def
                            ref  cite  com  pun  see  tag  data  file  meta) ],
     field_required => [ qw(tlh pos sv en def file) ],
-    field_multiple => { cite => 1 },
-    field_subs     => {
+    field_callbacks => {
         tlh  => \&check_tlh,
         warn => \&check_warn,
         pos  => \&check_pos,
@@ -50,12 +56,169 @@ $cfg{canon_path} = do {
     realpath($scriptdir . "/" . $cfg{canon_path});
 };
 
+=head1 NAME
+
+check-dict - check consistency of Klingonska Akademien's Klingon database file
+
+
+=head1 SYNOPSIS
+
+B<check-dict> [I<OPTION>]... [I<FILE>]
+
+=cut
+
 
 ###############################################################################
 ##                                                                           ##
 ##  Functions                                                                ##
 ##                                                                           ##
 ###############################################################################
+
+sub TRUE  {  1 }
+sub FALSE { '' }
+
+sub cmd_version {
+    print "$NAME $VERSION (MPD client)\n",
+        "License: Creative Commons Attribution-Share Alike (CC BY-SA)\n",
+            "    <http://creativecommons.org/licenses/by-sa/3.0/>\n",
+        "Written $YEAR by Zrajm C Akfohg <zrajm\@klingonska.org>\n";
+    exit 0;
+}
+
+sub read_file {
+    my ($file) = @_;
+    open(my $in, "<:utf8", $file)
+        or die "Failed to open file '$file' for reading\n";
+    return wantarray ? <$in> : join("", <$in>);
+}
+
+sub max { (sort { $b <=> $a } @_)[0] }
+
+# Convert POD into ANSI escape sequences for the terminal. Does not do
+# recursion. (But since E<...> is handled first, those are allowed inside both
+# B<...> and I<...>, and since C<...> is treated last, all other POD sequences
+# are allowed inside those.)
+sub depodify {
+    my ($_) = @_;
+    my %char = (quot => '"', amp => '&', lt => '<', gt => '>');
+    s#E<([^>]*)>#$char{lc $1}#g;  # HTML-like entity
+    s#B<([^>]*)>#\e[1m$1\e[0m#g;  # bold
+    s#I<([^>]*)>#\e[4m$1\e[0m#g;  # italic
+    s#C<([^>]*)>#"$1"#g;          # quoted code
+    return $_;
+}
+
+sub version {
+    print "$NAME (klingonska.org) $VERSION\n",
+        "Copyright (C) $YEAR Zrajm C Akfohg <zrajm\@klingonska.org>\n",
+        "License CC BY-SA: Creative Commons Attribution-Share Alike\n",
+        "    <http://creativecommons.org/licenses/by-sa/3.0/>\n";
+    exit 0;
+}
+
+sub help {
+    my $_ = read_file(realpath($0));
+    my ($synopsis)    = m#^=head1 \s+ SYNOPSIS \s+ (.*)#mx;
+    my ($description) = m#^=head1 \s+ NAME \s+ [-\w]+ \s+-\s+ (.*)#mx;
+    print "Usage: " . depodify($synopsis) . "\n",
+        ucfirst($description) . ".\n\n",
+        "Options:\n";
+    { # list --options (from comments) -- sort by longopt name
+        my %doc = ();
+        while (/^ \s*
+                (?: (['"])                  # start quote
+                    ([^\n'"=|]*?)           #   long-opt
+                    (?:\|([^\n'"=]*))?      #   |o
+                    (?:=  [^\n'"=]*)?       #   =s
+                    \1, \s*                 # end quote
+                )? \#\#\# \s+ (.*) $/xmg) { # ### description
+            my $long  = $2 ? "--$2"  : "";
+            my $short = $3 ?  "-$3," : "";
+            my $desc  = $4;
+            $doc{$long} = [ $short, $desc ];
+        }
+        my $length = max(map { length($_) } keys %doc);
+        printf "  %-3s %-${length}s  %s\n", $doc{$_}[0], $_, $doc{$_}[1]
+            foreach sort keys %doc;
+    }
+    print <<EOF;
+
+Exit value 0 means that no problems were encountered, 1 that one or more checks
+fail, 255 if there was some processing error (non-existing file, no input etc).
+EOF
+    exit 0;
+}
+
+sub get_metadata {
+    my @dict = @_;
+    my %metadata = ();
+    my $field = "";
+    foreach my $line (0..$#dict) {
+        given ($dict[$line]) {
+            when (/^\s*$/) { last }            # blank line = end of metadata
+            when (/^\s+(.*)/) {                # indented line
+                die "Unexpected continuation line in metadata at line " .
+                    ($line + 1) . "\n"
+                        unless $field;
+                $metadata{$field} .= " $1";
+            }
+            when (/([^:\s]+):\s*(.*)/) {       # field: value line
+                $field = $1;
+                $metadata{$field} = $2;
+            }
+            default {
+                die "Syntax error in metadata at line " . ($line + 1) . "\n";
+            }
+        }
+    }
+    return %metadata;
+}
+
+# Extracts a section from $listref, return line number of first line + list
+# containing the section. $offset is added to the returned line number.
+sub get_section {
+    my ($indicator, $section, $listref) = @_;
+    die "get_section(): last arg must be listref" if ref($listref) ne "ARRAY";
+    my ($beg, $end) = (0, 0);
+    START: {
+        my $str = "$indicator start-of-$section $indicator";
+        my $re  = qr/^$str$/;
+        foreach (0 .. $#$listref) {            # find start of section
+            if ($listref->[$_] =~ m#$re#) {
+                $beg = $_;
+                last START;
+            }
+        }
+        warn "Failed to find start of section: '$str'\n";
+        return ();
+    }
+    ENDING: {
+        my $str = "$indicator end-of-$section $indicator";
+        my $re  = qr/^$str$/;
+        foreach ($beg .. $#$listref) {         # find end of section
+            if ($listref->[$_] =~ m#$re#) {
+                $end = $_;
+                last ENDING;
+            }
+        }
+        warn "Failed to find end of section: '$str'\n";
+        return ();
+    }
+    return (
+        [ @$listref[0        .. $beg       ] ],    # preamble
+        [ @$listref[$beg + 1 .. $end - 1   ] ],    # data hunk
+        [  $listref->[$end]                  ],    # end delimiter
+        [ @$listref[$end + 1 .. $#$listref ] ],    # postamble
+    );
+}
+
+sub sha1sum {
+    my ($listref) = @_;
+    use Digest::SHA1 "sha1_hex";
+    return sha1_hex(Encode::encode("UTF-8", join("", @$listref)));
+}
+
+sub numerically { $a <=> $b }
 
 sub sortkey_tlh {
     my ($_) = @_;
@@ -68,543 +231,158 @@ sub sortkey_tlh {
         tlh => 'u',   u => 'v',   v  => 'w',   w => 'x',   y => 'y',
         "'" => 'z',
     );
-
-    # strip non-alphabetical chars
-    s/[^a-zA-Z']//g;
-
-    # replace alpha chars with sort count
-    my $re1 = join("|", sort keys %alph);
+    s#[^a-zA-Z']##g;                           # strip non-alpha chars
+    my $re1 = join("|", sort keys %alph);      # replace alpha w/ sort count
     s{($re1)(?=($re1)*$)}{ $alph{$1} }eg;
-
     return $_;
 }
 
-
-###############################################################################
-##                                                                           ##
-##  Functions                                                                ##
-##                                                                           ##
-###############################################################################
-
-sub TRUE  {  1 }
-sub FALSE { '' }
-
-sub numerically { $a <=> $b }
-
-sub check_en {
-    my ($_, $field, $record) = @_;
-    # may not end in puctuation (question mark is okay)
-    warn "content of '$field' field may not end with space/punctuation\n"
-        if /[-!.,:;([{<«  ]$/;
-    if (/\((v|n|name|adv|conj|excl|num|pro|ques|ns[1-5]|vp|vs[1-9r])\)/m) {
-        warn "part-of-speech '($1)' must not be given inside '$field' field\n";
-        print STDERR "    $field: $_\n";
-    }
-    # «...» or <...> are required except for affixes
-    if (!/[«<]/ and $record !~ /^pos:.*\b(suf|pre)fix\b/m) {
-        warn "missing «...» or <...> brackets in '$field' $field\n";
-        print STDERR "    $field: $_\n";
-    }
-    { # check for matching <...>
-        my $bra = () = m/</g;  # count "<"
-        my $ket = () = m/>/g;  # count ">"
-        warn "mismatched <...> brackets ($bra open, $ket close) in '$field' field\n"
-            if $bra != $ket;
-    }
-    { # check for matching «...»
-        my $bra = () = m/«/g;  # count "«"
-        my $ket = () = m/»/g;  # count "»"
-        warn "mismatched «...» brackets ($bra open, $ket close) in '$field' field\n"
-            if $bra != $ket;
-    }
+sub ordinal {
+    my ($_) = @_;
+    return $_ . "st" if m#1$#;
+    return $_ . "nd" if m#2$#;
+    return $_ . "rd" if m#3$#;
+    return $_ . "th";
 }
 
-sub check_see {
-    my ($_, $field, $record) = @_;
-    if (my ($tlh) = $record =~ /^tlh:\t.*(\{.*})/) {
-        warn "Reference '$_' points to itself '$field' field\n"
-            if /$tlh/;
-    } else {
-        warn "Counldn't find a (Klingon) word within curly brackets in field 'tlh'\n";
-    }
+sub word_wrap {
+    my ($_, $width) = (@_, 80);
+    s#(.{1,$width})(?:\s+|$)#$1\n#g;
+    return $_;
 }
 
-sub check_data {
-    my ($_, $field, $record) = @_;
-    if (/\b(deprecated|non-canon)\b/) {
-        warn "when 'data' field contains 'deprecated' or 'non-canon', 'tlh' must have leading asterisk\n"
-            unless $record =~ /^tlh:\t\*/m;
-    }
-    if (/\bphrase\b/) {
-        warn "when 'data' field contains 'phrase', 'tlh' must contain at least one space\n"
-            unless $record =~ /^tlh: \t [^{]* {[^{]*[ ] [^{]*} /mx;
-    }
+sub prettify_entry {
+    my ($entry, $order) = @_;
+    my @x =  (join("", map {
+        prettify_field($entry, $_)
+    } @$order) . "\n");
+    return @x;
 }
 
-sub check_file {
-    my ($_, $field, $record) = @_;
-    foreach (split("; ", $_)) {
-        my $abs = "$cfg{canon_path}/$_";
-        my $rel = File::Spec->abs2rel($abs);
-        warn "non-existant file '$rel' in 'file' field\n"
-            unless -e $abs;
-    }
+sub prettify_field {
+    my ($entry, $field) = @_;
+    return map {
+        my $x = word_wrap($_, 71);
+        $x =~ s#^#\t#mg;
+        "$field:$x";
+    } @{ $entry->{$field} };
 }
 
-sub check_meta {
-    my ($_, $field, $record) = @_;
-    warn "content of '$field' field must start with capital letter\n" unless /^( ["A-Z] | \*?\{ )/x;
-    warn "content of '$field' field may not end with space or mid-sentence punctuation\n" if /[-,:;([{<«  ]$/;
-}
 
-sub check_pos {
-    my ($_, $field) = @_;
-    my $re = qr{
-        verb(\s(prefix|suffix\stype\s([1-9]|rover)))?|
-        noun(\ssuffix\stype\s[1-5])?|
-        name|adverbial|conjunction|exclamation|numeral|pronoun|question\sword
-    }x;
-    if (not /^($re)$/) {
-        warn "invalid part-of-speech in '$field' field\n";
-        print STDERR "    $field: $_\n";
-    }
-}
-
-# used for both 'def' and 'ref'
-sub check_source {
-    my ($_, $field) = @_;
-    if (not source_ref_syntax($_)) {
-        warn "invalid source reference in '$field' field\n";
-        print STDERR "    $field: $_\n";
-    }
-}
-
-sub check_cite {
-    my ($_, $field, $record) = @_;
-    if (m/.*\[(.*?)\]$/) {
-        if (not source_ref_syntax($1)) {
-            warn "invalid source reference '$1' in '$field' field\n";
-            print STDERR "    $field: $_\n";
-        }
-
-    } else {
-        warn "missing source reference in '$field' field\n";
-    }
-}
-
-sub check_com {
-    my ($_, $field, $record) = @_;
-    warn "content of '$field' field may not end with space or mid-sentence punctuation\n" if /[-,:;([{<«  ]$/;
-}
-
-sub check_sv {
-    my ($_, $field, $record) = @_;
-    # may not end in puctuation (question mark is okay)
-    warn "content of '$field' field may not end with space/punctuation\n"
-        if /[-!.,:;([{<«  ]$/;
-    if (/\((v|s|namn|adv|konj|interj|räkn|pro|fråg|ss[1-5]|vp|vs[1-9]s)\)/m) {
-        warn "part-of-speech '($1)' may not be given inside '$field' field\n";
-        print STDERR "    $field: $_\n";
-    }
-    # «...» are required except for affixes
-    if (!/«/ and $record !~ /^pos:.*\b(suf|pre)fix\b/m) {
-        warn "missing «...» brackets in '$field' $field\n";
-        print STDERR "    $field: $_\n";
-    }
-    # <...> are not allowed
-    if (/</) {
-        warn "<...> brackets are not allowed in '$field' $field\n";
-        print STDERR "    $field: $_\n";
-    }
-    { # check for matching «...»
-        my $bra = () = m/«/g;  # count "«"
-        my $ket = () = m/»/g;  # count "»"
-        warn "mismatched «...» brackets ($bra open, $ket close) in '$field' field\n"
-            if $bra != $ket;
-    }
-    { # dialect (check that [...] in 'en' and 'sv' fields correspond)
-        my $lect = {
-            "äldre ord eller överklassord" =>
-                "older or upper-class word",
-            arkaiskt  => "archaic",
-            slang     => "slang",
-            regionalt => "regional",
-            "regionalt, slang" => "regional, slang",
-        };
-        while (/\[ ([^]]*) \]/gx) {
-            if (not exists $lect->{$1}) {
-                warn "unknown dialect description '[$1]' in '$field' field\n";
-                next;
+# Usage: @entry = get_entries(
+#            data     => \@DATA,
+#            offset   => $OFFSET,
+#            order    => \@ORDER,
+#            callback => \&CALLBACK
+#        );
+#
+# @DATA should contain a section part the database file, each line in a
+# separate element (as read by '<>' and extracted by get_section()).
+#
+# $OFFSET is the line number in the database file of the first line of text in
+# @DATA.
+#
+# @ORDER is a list of field names, containing the names of all allowed fields
+# in the order which they must occur within an entry. All allowed field names
+# must be included in this list.
+#
+# &CALLBACK will be called for each each entry as they are processed. It will
+# be passed a single entry as argument (see below). The callback should do
+# sanity checks of the entry and, if any problems were found, return a list of
+# warning messages to be displayed. In an empty list is returned, the entry
+# will be considered a-ok.
+#
+# Return list of entries, containing one hashref for each dictionary entry.
+# Hashref key/value pairs corresponds to fields in database. The values,
+# however, are listrefs (Usually only containing a single element, but in the
+# case of fields allowed to occur multiple times within an entry -- currently
+# only the 'site' field -- each field occurance get its own element in the
+# listref.)
+#
+# Each entry also get the special key '_LINE_' containing the line number of
+# the start of the entry in the database file.
+#
+# Here's an example entry (strings slightly truncated):
+#
+#     $entry = {
+#         _LINE_ => 9818,                   # start line in database file
+#         tlh    => [ "{nab} [1]" ],
+#         pos    => [ "verb" ],
+#         sv     => [ "«planera»" ],
+#         en     => [ "<plan>" ],
+#         def    => [ "TKD" ],
+#         ref    => [ "ST5; HQ8:4 pp.12, 13 ('Notes from Star..." ],
+#         cite   => [
+#             "{nImbuS wej maghoS, He yInab.} 'Plot course ...",
+#             "{He pagh-pagh-vagh-jav-pagh-jav yInab} 'Plot...",
+#         ],
+#         tag    => [ "KLCP1" ],
+#         file   => [ "1992-01-01-tkd.txt; 1999-12-holqed-08-..." ],
+#     };
+#
+sub get_entries {
+    my %arg = @_;
+    my $callback = $arg{callback} // die "get_entries(): No 'callback' specified";
+    my $data     = $arg{data}     // die "get_entries(): No 'data' specified";
+    my $offset   = $arg{offset}   // die "get_entries(): No 'offset' specified";
+    my $order    = $arg{order}    // die "get_entries(): No 'order' specified";
+    my $current  = "";  # name of currently processed field
+    my $entry    = {};  # currently processed entry
+    my $entries  = [];  # complete list of read entries (returned result)
+    my %order    = map { $order->[$_] => $_ } 0 .. $#$order;
+    warn "Missing blank line after '=== ... ===', at line ${\($offset + 1)}\n"
+        if $data->[0] !~ m#^$#;
+    $entry = { _LINE_ => $offset + 1 };  # initial value
+    LINE: foreach my $i (1 .. $#$data) {
+        given ($data->[$i]) {
+            when (m#^$#) {                     # blank line
+                if (not $current) {
+                    warn "Multiple blank lines, at line ${\($offset + $i)}\n";
+                } else {
+                    if (my @warn = &{ $callback }($entry)) {
+                        warn map { "$_ entry at line $entry->{_LINE_}\n" } @warn;
+                    } else {
+                        push(@$entries, $entry);
+                        print prettify_entry($entry, $order) if $opt{verbose};
+                    }
+                    $current = "";
+                }
+                $entry = { _LINE_ => $offset + $i + 1 };
             }
-            warn "missing dialect description in 'en' field to match '[$1]' " .
-                "in '$field' field\n"
-                unless $record =~ /^en:.*\[$lect->{$1}\]$/m;
-        }
-    }
-
-}
-
-sub check_desc {
-    my ($_, $field, $record) = @_;
-    warn "content of '$field' field may not start with capital letter\n"
-        if /^[A-Z]/ and !/^I\b/;
-
-    # check all ~...~ phrases
-    my ($word) = $record =~ /^tlh:\t(.*)$/m;
-    while (/~([^~]+)~/g) {
-        my $_ = $1;
-        warn "phrase '$_' may not start with capital letter in '$field' field\n"
-            if /^[A-Z]/ and !/^I\b/;
-        warn "phrase '$_' may not end with space/punctuation in '$field' field\n"
-            if /[-.,:;([{<«  ]$/ and !/(?:subj|obj)\.$/;
-    }
-
-    # punctuation not allowed at eof, except as part of an abbrev
-    warn "content of '$field' field may not end with space/punctuation\n"
-        if /[-.,:;([{<«  ]$/ and !/(?:subj|obj)\.$/;
-    warn "word '$1' should be abbreviated in '$field' field"
-        if /\b( some(bod(y|ies)|ones?|things?) )\b/x;
-}
-
-sub check_tlh {
-    my ($_, $field, $record) = @_;
-
-    state $prev_word   = "";
-    state $prev_pos    = "";
-    state $prev_hyp    = 0;
-    state $prev_sub    = 0;
-    state $prev_subsub = 0;
-
-    # get/check word counters
-    my ($pre, $word, $post) = /^(.*?) (\*?\{[^{}]*\}) (.*?)$/x;
-    warn "only single space allowed between pre-word data '$pre' and word '$word' in '$field' field\n"
-        if $pre and $pre =~ s/(\s*)$// and length($1) != 1;
-    warn "only single space allowed between word '$word' and post-word data '$post' in '$field' field\n"
-        if $post and $post =~ s/^(\s*)// and length($1) != 1;
-
-    if ($word =~ /\s/) {
-        warn "when word in 'tlh' field contains space, 'data' field must contain 'phrase'\n"
-            unless $record =~ /^data:.*\bphrase\b/m;
-    }
-
-    my ($pos) = $record =~ /^pos:\t(.*)/m;    # part-of-speech
-    my $hyp = do {                            # pre-word counter
-        if ($pre =~ /^\[ (\d+) \]$/x) {
-            $1 // 0;
-        } else {
-            warn "malformed pre-word data '$pre' for '$word' in '$field' field\n" if $pre;
-            0;
-        }
-    };
-    my ($sub, $subsub) = do {                 # post-word counter and sub-counter
-        if ($post =~ /^\[ (\d+)? (?:\.(\d+))? \]$/x) {
-            ($1 // 0, $2 // 0);
-        } else {
-            warn "malformed post-word data '$post' for '$word' in '$field' field\n" if $post;
-            (0, 0);
-        }
-    };
-    if ($word eq $prev_word) {        # change (= clear counters)
-        warn "duplicate entry '$word' in '$field' field\n"
-            if $hyp == $prev_hyp and $sub == $prev_sub and $subsub == $prev_subsub;
-        # check that counters did not disappear when they weren't supposed to
-        warn "pre-word counter '[" . ($prev_hyp + 1) . "]' missing for '$word' in '$field' field\n"
-            if $hyp == 0 and $prev_hyp > 1;
-        warn "post-word counter '[" . ($prev_sub + 1) . "]' missing for '$word' in '$field' field\n"
-            if $sub == 0 and $prev_sub > 0 and $hyp == $prev_hyp;
-        warn "post-word sub-counter '[." . ($prev_subsub + 1) . "]' missing for '$word' in '$field' field\n"
-            if $subsub == 0 and $prev_subsub > 0 and $sub == $prev_sub and $hyp == $prev_hyp;
-    } else {
-        warn  "pre-word ". "counter for previous entry stopped at '[1]' in '$field' field\n"  if $prev_hyp    == 1;
-        warn "post-word ". "counter for previous entry stopped at '[1]' in '$field' field\n"  if $prev_sub    == 1;
-        warn "post-word sub-counter for previous entry stopped at '[.1]' in '$field' field\n" if $prev_subsub == 1;
-        ($prev_hyp, $prev_sub, $prev_subsub) = (0, 0, 0);
-    }
-    if ($hyp) {                                # pre-word counter
-        if ($hyp != $prev_hyp + 1) {           #   invalid change in counter (not +1 change)
-            warn "pre-word counter '[$hyp]' for '$word' may only increase by one in '$field' field\n"
-                unless $hyp == $prev_hyp and ($sub or $subsub);
-        } else {                               #   valid change (+1 change) -- clear subcounters
-            if ($hyp == 1) {                   #     initialized (= set to one)
-                warn "pre-word counter '[$hyp]' for '$word' may only be set to one when word changes, in '$field' field\n"
-                    if $word eq $prev_word;
-            } else {                           #     incremented
-                warn "pre-word counter '[$hyp]' for '$word' may only increase when word remains same, in '$field' field\n"
-                    if $word ne $prev_word;
+            when (m#^([^:\h]+):\t(.*)#) {      # field: value line
+                my ($field, $value) = ($1, $2);
+                if (not exists $order{$field}) {   #   unknown field
+                    warn "Unknown field '$field', at line ${\($offset + $i)}\n";
+                    # non-fatal error, continue processing
+                } elsif ($order{$field} < ($order{$current} // -1)) { # field order
+                    warn "Field '$field:' too late in entry sort order " .
+                        "at line ${\($offset + $i)}\n";
+                    # non-fatal error, continue processing
+                }
+                warn "Leading space in '$field:' field at line ${\($offset + $i)}\n"
+                    if $value =~ s#^\h+##;
+                push(@{ $entry->{$field} }, $value);
+                $current = $field;
             }
-            warn "post-word ". "counter for previous entry stopped at '[1]' in '$field' field\n"  if $prev_sub    == 1;
-            warn "post-word sub-counter for previous entry stopped at '[.1]' in '$field' field\n" if $prev_subsub == 1;
-            ($prev_sub, $prev_subsub) = (0, 0);
-        }
-    }
-    if ($sub) {                                # post-word counter
-        if ($sub != $prev_sub + 1) {           #   invalid change in counter (not +1 change)
-            warn "post-word counter '[$sub]' for '$word' may only increase by one in '$field' field\n"
-                unless $sub == $prev_sub and $subsub; # no change -- maybe subcounter will change?
-        } else {                               #   valid change (+1 change) -- clear subcounters
-            if ($sub == 1) {                   #     initialized (= set to one)
-                warn "post-word counter '[$sub]' for '$word' may only be set to one when word or higher counter change in '$field' field\n"
-                    if $word eq $prev_word && $hyp == $prev_hyp;
-            } else {                           #     incremented
-                warn "post-word counter '[$sub]' for '$word' may only increase when part-of-speech change in '$field' field\n"
-                    if $pos eq $prev_pos;
+            when (m#^\t(.*)#) {               # indented line
+                my $value = $1;
+                if ($current) {
+                    warn "Leading space in '$current:' field at line ${\($offset + $i)}\n"
+                        if $value =~ s#^\h+##;
+                    $entry->{$current}[-1] .= " $value";
+                } else {
+                    warn "Unexpected indented line at line &{\($offset + $i)}\n";
+                }
             }
-            warn "post-word sub-counter for previous entry stopped at '[.1]' in '$field' field\n" if $prev_subsub == 1;
-            $prev_subsub = 0;
-        }
-    }
-    if ($subsub) {  # post-word sub-counter
-        if ($subsub != $prev_subsub + 1) {     #   invalid change in counter (not +1 change)
-            warn "post-word sub-counter '[.$subsub]' for '$word' may only increase by one in '$field' field\n";
-        } else {                               #   valid change (+1 change) -- clear subcounters
-            if ($subsub == 1) {                #     initialized (= set to one)
-                warn "post-word sub-counter '[.$subsub]' for '$word' may only be set to one when word or higher counter change in '$field' field\n"
-                    if $word eq $prev_word && $hyp == $prev_hyp && $sub == $prev_sub;
-            } else {                           #     incremented
-                warn "post-word sub-counter '[.$subsub]' for '$word' may only increase when part-of-speech remains same in '$field' field\n"
-                    if $pos ne $prev_pos;
+            when (m#^===\h.*\h===$#) {        # section separator
+                warn "Unexpected '=== ... ===' line at line ${\($offset + $i)}\n";
             }
+            default { die "Syntax error at line ${\($offset + $i)}\n" }
         }
     }
-    ($prev_word, $prev_pos, $prev_hyp, $prev_sub, $prev_subsub) = ($word, $pos, $hyp, $sub, $subsub);
-
-    # check klingon spelling
-    my $re = qr/ ([bDHjlmnpqQrStvwy']|ch|gh|ng|tlh)(
-            [aeI] ([bDHjlmnpqQrStv']|ch|gh|ng|tlh|[wy]'?|rgh)? |
-            [ou]  ([bDHjlmnpqQrStv']|ch|gh|ng|tlh|  y '?|rgh)?    # "ow" and "uw" is not allowed
-    )/x;
-    if (not $word =~ /^\*?\{ ($re+(\s$re+|\s«$re+»)*|$re?-|-$re) \}$/x) {
-        # non-phonotactic word
-        if ($record !~ /^data:\t.*\bnon-phonotactic\b/m) {
-            warn "bad syllable structure for '$word' in '$field' field\n";
-            print STDERR "    $field: $_\n";
-        }
-    } else {
-        if ($record =~ /^data:\t.*\bnon-phonotactic\b/m) {
-            warn "word '$word' incorrectly marked as 'data: non-phonotactic' " .
-                "in '$field' field\n";
-            print STDERR "    $field: $_\n";
-        }
-    }
-
-    if (/^\*/) {
-        warn "with leading asterisk in 'tlh' field 'warn' field must be present\n"
-            if not $record =~ /^warn:\t/m;
-        warn "with leading asterisk in 'tlh' field 'see' field must be present\n"
-            if not $record =~ /^see:\t/m;
-        warn "with leading asterisk in 'tlh' field 'data' field must contain 'deprecated' or 'non-canon'\n"
-            if not $record =~ /^data:\t.*\b(deprecated|non-canon)\b/m;
-    }
-}
-
-sub check_warn {
-    my ($_, $field, $record) = @_;
-    warn "content of '$field' field may not start with capital letter\n"
-        if /^[A-Z]/ and !/^I\b/;
-    warn "content of '$field' field may not end with space/punctuation\n"
-        if /[-.,:;([{<«  ]$/;
-    warn "leading asterisk required in 'tlh' field when '$field' field present\n"
-        unless $record =~ /^tlh:\t\*/;
-
-    if (/\bnon-canon\b/) {
-        warn "tag 'non-canon' required in 'data' field when word 'non-canon' is " .
-            "present in '$field' field\n"
-            if $record !~ /^data:\t.*\bnon-canon\b/m;
-    } elsif (/\bcanon\b/) {
-        warn "tag 'deprecated' required in 'data' field when word 'canon' is " .
-            "present in '$field' field\n"
-            if $record !~ /^data:\t.*\bdeprecated\b/m;
-    } else {
-        warn "missing required word 'canon' or 'non-canon' in '$field' field\n";
-    }
-}
-
-=pod
-
-Usage: %RECORD = read_dict();
-
-Reads all records from a zdb file into %RECORD. Keys of the hash will be the
-line number each record started at. Values will be the complete content of the
-record (with any continuation lines unwrapped).
-
-=cut
-
-sub read_dict {
-    my ($section, $field_multiple) = @_;
-    # skip header
-    while (<>) {
-        {
-            my $_ = $_;
-            s{ \t }{ " " x (8 - (pos() % 8)) }gex;  # replace tabs with spaces
-            warn "line may not exceed width of 79 characters in line $.\n"
-                if length($_) > 80; # 80 = is with trailing newline
-        }
-        last if /^=== start-of-$section-list ===$/;
-    }
-    die "failed to read dictionary, no section '$section' found in input\n"
-        if eof();
-
-    # read file up to footer (ignoring section separators)
-    my $line   = -2; # -1 = blank line; -2 = separator; otherwise line number
-    my %record = ();
-    my %field_name = ();
-    while (<>) {
-        {
-            my $_ = $_;
-            s{ \t }{ " " x (8 - (pos() % 8)) }gex;  # replace tabs with spaces
-            warn "line may not exceed width of 79 characters in line $.\n"
-                if length($_) > 80; # 80 = is with trailing newline
-        }
-        if (/^=== end-of-$section-list ===$/) {
-            last;
-        }
-        if (/^=== /) {
-            warn "'=== TEXT ===' separator not preceeded by blank line or " .
-                "separator in line $.\n"
-                if $line >= 0;
-            $line = -2;
-            next;
-        }
-        if (/^$/) {
-            warn "duplicate blank line in line $.\n" if $line == -1;
-            $line = -1;
-            next;
-        }
-
-        if (/^([^:\s]*):/) {                # new field
-            warn "duplicate '$1' field in line $., in record at line $line\n"
-                if $field_name{$1} ++ and !$field_multiple->{cite};
-            if ($line < 0) {                #   if 1st in record
-                warn "missing blank line before entry in line $., " .
-                    "in record at line $line\n"
-                    unless $line == -1;
-                $line = $.;                 #     remember line
-                %field_name = ();
-                $record{$line} = "";        #     init record value
-            }
-        } elsif (/^\s/) {                   # continuation line
-            warn "continuation line must start with tab in line $.\n"
-                unless /^\t\S/;
-            s/^\s+/ /;                      #   strip indenttion
-            chomp($record{$line});          #   strip previous newline
-        }
-        $record{$line} .= $_;               # append value to record
-    }
-
-    return %record;
-}
-
-
-=pod
-
-Usage: read_dict_ending();
-
-Reads the last part of the dictionary (after the database sections), and checks
-that all no lines exceed the character length limit, and that it does not
-contain any database sections.
-
-=cut
-
-sub read_dict_ending {
-    while (<>) {
-        warn "unknown database section header '$&' in line $.\n"
-            if /^=== (start|end)-.*? ===$/;
-        my $_ = $_;
-        s{ \t }{ " " x (8 - (pos() % 8)) }gex;  # replace tabs with spaces
-        warn "line may not exceed width of 79 characters in line $.\n"
-            if length($_) > 80; # 80 = is with trailing newline
-    }
-}
-
-
-=pod
-
-Usage: BOOL = fields_ok(\@REQUIRED, \@ORDER, \%SUBS, %RECORD);
-
-Checks the order and existance of field names in %RECORD, warn()s if any
-problems were found. Returns true if no warnings were outputted, FALSE
-otherwise.
-
-\@REQUIRED is a reference to a list containing the names of the required fiels
-(in no particular order).
-
-\@ORDER is a reference to a list containing the names of all allowed fields in
-the order which they must occur within a record.
-
-\%SUBS is a reference to a hash containing check functions for specified named
-fields. (Fields for which there exist no check function is assumed to be valid
-as-is.)
-
-Field names to be checked are the keys, values are coderefs for functions
-called to check the field content. Each code reference is called with the
-following arguments (1) the content of the field (2) name of the field and (3)
-the complete content of the record. Within the check function, call warn() with
-the appropriate error message for each detected problem. Only if warn() never
-was called does fields_ok() return true.
-
-%RECORD should contain dict-type records as values, and with their line numbers
-(in the original file) as keys. The keys of %RECORD are not tested in any way,
-only outputted as a hint to the user of where (in the source file) a problem
-was found.
-
-=cut
-
-sub fields_ok {
-    my ($field_required, $field_order, $field_subs, %record) = @_;
-    my $result = TRUE;
-
-    my $field_subs_re = do {
-        my $x = join("|", sort keys %$field_subs);
-        qr/$x/ if $x;
-    };
-
-    # field name -> field number hash
-    # (used to check that fields come in right order within record)
-    my %field_number = do {
-        my $count = 1;
-        map { $_ => $count++ } @$field_order;
-    };
-
-    # check fields
-    foreach my $line (sort numerically keys %record) {
-        my $_ = $record{$line};  # record content
-
-        local $SIG{__WARN__} = sub {
-            chomp(my @x = @_);
-            $result = FALSE;
-            warn "@x, in record at line $line\n";
-        };
-
-        # check that required fields exist
-        foreach my $field (@$field_required) {
-            if (not /^$field:\t/m) {
-                warn "missing required field '$field'\n";
-            }
-        }
-
-        # check field order
-        my $num = -1;
-        while (/^([^:\s]*):/gm) {
-            my $field = $1;
-            if (not exists($field_number{$field})) {
-                warn "unknown field '$field'\n";
-                next;
-            }
-            if ($field_number{$field} < $num) {
-                warn "field '$field' is too late in field order\n";
-                next;
-            }
-            $num = $field_number{$field};
-        }
-
-        if ($field_subs_re) {
-            while (/^($field_subs_re): \t (.*) /gmx) {
-                $field_subs->{$1}($2, $1, $_);
-            }
-        }
-
-    }
-    return $result;
+    warn "Missing blank line before '=== ... ===', at line ${\($offset + $#$data)}\n"
+        if $data->[-1] !~ m#^$#;
+    return $entries;
 }
 
 sub source_ref_syntax {
@@ -645,11 +423,450 @@ sub source_ref_syntax {
         Web        $s $date   $s \($by, $s $url   , $s $subj   \)    |
         Recording  $s $mdate  $s \(.*?                         \)
     }x;
-
     my $source       = qr/$paged_source|$holqed_source|$unpaged_source/x;
-
-    return /^ $source (;$s$source)* $/x ? TRUE : FALSE;
+    return m#^ $source (;$s$source)* $#x ? TRUE : FALSE;
 }
+
+
+###############################################################################
+##                                                                           ##
+##  Field Check Callbacks                                                    ##
+##                                                                           ##
+###############################################################################
+
+# These checks are passed the one entry + name of a field to check. Values of
+# fields are always a LISTREF (where multiple occurances of the field is
+# allowed, e.g. for 'cite' this listref will contain multiple elements, but
+# most commonly there will be just one element).
+#
+# Callback functions are expected to return a list of strings, each describing
+# a problem (if found). Should return empty list if no problems were found.
+#
+# $field = "tlh" # i.e. field name
+# $entry = {
+#     KEY => [ qw/ VALUE... / ],  # one VALUE for each occurance of field
+#     ...
+# }
+#
+# Return list of error messages or empty list if ok.
+
+sub check_tlh {
+    my ($entry, $field, $_, @warn) = @_;
+    return "Duplicate" if @{ $entry->{$field} } > 1;
+    my $pos  = $entry->{pos}[0]  // "";        # part-of-speech
+    my $data = $entry->{data}[0] // "";        # data field
+
+    # get/check word counters
+    my ($pre, $word, $post) = m#^(.*?)(\*?\{[^{}]*\})(.*?)$#
+        ? ($1, $2, $3) : ("", "", "");
+    return "Mising Klingon word '{...}' in" unless $word;
+    push @warn, "Not single space between '$pre' and '$word' in"
+        if $pre and $pre =~ s#(\h*)$## and length($1) != 1;
+    push @warn, "Not single space between '$word' and '$post' in"
+        if $post and $post =~ s#^(\h*)## and length($1) != 1;
+
+    if ($word =~ m#\h#) {
+        push @warn, "Missing tag 'phrase' in 'data:' field when there are " .
+            "several words {...} in" unless $data =~ m#\bphrase\b#m;
+    }
+
+    my $hyp = do {                            # pre-word counter
+        if ($pre =~ m#^\[(\d+)\]$#) {
+            $1 // 0;
+        } else {
+            push @warn, "Invalid pre-word data '$pre' for '$word' in" if $pre;
+            0;
+        }
+    };
+    my ($sub, $subsub) = do {                 # post-word counter and sub-counter
+        if ($post =~ m#^\[(\d+)?(?:\.(\d+))?\]$#) {
+            ($1 // 0, $2 // 0);
+        } else {
+            push @warn, "Invalid post-word data '$post' for '$word' in" if $post;
+            (0, 0);
+        }
+    };
+
+    state $prev_word   = "";
+    state $prev_pos    = "";
+    state $prev_hyp    = 0;
+    state $prev_sub    = 0;
+    state $prev_subsub = 0;
+    if ($word eq $prev_word) {                 # change (= clear counters)
+        push @warn, "Duplicate entry '$word' in"
+            if $hyp == $prev_hyp and $sub == $prev_sub and $subsub == $prev_subsub;
+        # check that counters did not disappear when they weren't supposed to
+        push @warn, "Pre-word counter '[" . ($prev_hyp + 1) . "]' missing for '$word' in"
+            if $hyp == 0 and $prev_hyp > 1;
+        push @warn, "Post-word counter '[" . ($prev_sub + 1) . "]' missing for '$word' in"
+            if $sub == 0 and $prev_sub > 0 and $hyp == $prev_hyp;
+        push @warn, "Post-word sub-counter '[." . ($prev_subsub + 1) . "]' missing for '$word' in"
+            if $subsub == 0 and $prev_subsub > 0 and $sub == $prev_sub and $hyp == $prev_hyp;
+    } else {
+        push @warn,  "Pre-word ". "counter for previous entry stopped at '[1]' in"
+            if $prev_hyp    == 1;
+        push @warn, "Post-word ". "counter for previous entry stopped at '[1]' in"
+            if $prev_sub    == 1;
+        push @warn, "Post-word sub-counter for previous entry stopped at '[.1]' in"
+            if $prev_subsub == 1;
+        ($prev_hyp, $prev_sub, $prev_subsub) = (0, 0, 0);
+    }
+
+    if ($hyp) {                                # pre-word counter
+        if ($hyp != $prev_hyp + 1) {           #   bad: not +1 change in counter
+            push @warn, "Pre-word counter '[$hyp]' for '$word' may only " .
+                "increase by one in"
+                    unless $hyp == $prev_hyp and ($sub or $subsub);
+        } else {                               #   ok: +1 change, clear subcount
+            if ($hyp == 1) {                   #     initialized (= set to one)
+                push @warn, "pre-word counter '[$hyp]' for '$word' may only " .
+                    "be set to one when word changes, in" if $word eq $prev_word;
+            } else {                           #     incremented
+                push @warn, "pre-word counter '[$hyp]' for '$word' may only " .
+                    "increase when word remains same, in" if $word ne $prev_word;
+            }
+            push @warn, "post-word ". "counter for previous entry stopped " .
+                "at '[1]' in" if $prev_sub    == 1;
+            push @warn, "post-word sub-counter for previous entry stopped " .
+                "at '[.1]' in" if $prev_subsub == 1;
+            ($prev_sub, $prev_subsub) = (0, 0);
+        }
+    }
+    if ($sub) {                                # post-word counter
+        if ($sub != $prev_sub + 1) {           #   bad: not +1 change in counter
+            push @warn, "Post-word counter '[$sub]' for '$word' may only " .
+                "increase by one in"           #     no change: will subcount change?
+                    unless $sub == $prev_sub and $subsub;
+        } else {                               #   ok: +1 change, clear subcount
+            if ($sub == 1) {                   #     initialized (= set to one)
+                push @warn, "Post-word counter '[$sub]' for '$word' may only " .
+                    "be set to one when word or higher counter change in"
+                        if $word eq $prev_word && $hyp == $prev_hyp;
+            } else {                           #     incremented
+                push @warn, "Post-word counter '[$sub]' for '$word' may only " .
+                    "increase when part-of-speech change in"
+                        if $pos eq $prev_pos;
+            }
+            push @warn, "Post-word sub-counter for previous entry stopped " .
+                "at '[.1]' in" if $prev_subsub == 1;
+            $prev_subsub = 0;
+        }
+    }
+    if ($subsub) {                             # post-word sub-counter
+        if ($subsub != $prev_subsub + 1) {     #   bad: not +1 change in counter
+            push @warn, "Post-word sub-counter '[.$subsub]' " .
+                "for '$word' may only increase by one in";
+        } else {                               #   ok: +1 change, clear subcount
+            if ($subsub == 1) {                #     initialized (= set to one)
+                push @warn, "Post-word sub-counter '[.$subsub]' for '$word' " .
+                    "may only be set to one when word or higher counter change in"
+                        if $word eq $prev_word && $hyp == $prev_hyp && $sub == $prev_sub;
+            } else {                           #     incremented
+                push @warn, "Post-word sub-counter '[.$subsub]' for '$word' " .
+                    "may only increase when part-of-speech remains same in"
+                        if $pos ne $prev_pos;
+            }
+        }
+    }
+    ($prev_word, $prev_pos, $prev_hyp, $prev_sub, $prev_subsub) = ($word, $pos, $hyp, $sub, $subsub);
+
+    # check klingon spelling
+    state $re = qr/ (?:[bDHjlmnpqQrStvwy']|ch|gh|ng|tlh)(?:
+            [aeI] (?:[bDHjlmnpqQrStv']|ch|gh|ng|tlh|[wy]'?|rgh)? |
+            [ou]  (?:[bDHjlmnpqQrStv']|ch|gh|ng|tlh|  y '?|rgh)?    # "ow" and "uw" is not allowed
+    )/x;
+    if (not $word =~ m#^\*?\{(?:$re+(?:\s$re+|\s«$re+»)*|$re?-|-$re)\}$#o) {
+        # non-phonotactic word
+        push @warn, "Invalid syllable structure for '$word' in"
+            if $data !~ m#\bnon-phonotactic\b#;
+    } else {
+        push @warn, "Incorrectly tagged 'non-phonotactic' in 'data:' " .
+            "field, word '$word' is good in"
+                if $data =~ m#\bnon-phonotactic\b#;
+    }
+    if (m#^\*#) {
+        push @warn, "Missing 'warn:' field when there is a leading asterisk in"
+            unless $entry->{warn};
+        push @warn, "Missing 'see:' field when there is a leading asterisk in"
+            unless $entry->{see};
+        push @warn, "Missing 'deprecated' or 'non-canon' in 'data:' field " .
+            "when there is a leading asterisk in"
+            if $data !~ m#\b(?:deprecated|non-canon)\b#m;
+    }
+    return @warn;
+}
+
+sub check_warn {
+    my ($entry, $field, $_, @warn) = @_;
+    return "Duplicate" if @{ $entry->{$field} } > 1;
+    my $tlh  = $entry->{tlh}[0]  // "";
+    my $data = $entry->{data}[0] // "";
+    push @warn, "First letter not lower case in" if m#^[A-Z]# and !/^I\b/;
+    push @warn, "Last character is punctuation in" if m#[-.,:;([{<«  ]$#;
+    push @warn, "Missing leading asterisk in 'tlh:' field when there is a"
+        unless $tlh =~ m#^[*]#;
+    if (/\bnon-canon\b/) {
+        push @warn, "Missing 'non-canon' in 'data:' field when " .
+            "'non-canon' is given in" if $data !~ m#\bnon-canon\b#m;
+    } elsif (/\bcanon\b/) {
+        push @warn, "Missing 'deprecated' in 'data:' field when " .
+            "'canon' is given in" if $data !~ m#\bdeprecated\b#m;
+    } else {
+        push @warn, "Missing word 'canon' or 'non-canon' in";
+    }
+    return @warn;
+}
+
+sub check_pos {
+    my ($entry, $field, $_, @warn) = @_;
+    return "Duplicate" if @{ $entry->{$field} } > 1;
+    state $re = qr{^(?:
+        verb(?:\s(?:prefix|suffix\stype\s(?:[1-9]|rover)))?|
+        noun(?:\ssuffix\stype\s[1-5])?|
+        name|adverbial|conjunction|exclamation|numeral|pronoun|question\sword
+    )$}x;
+    push @warn, "Invalid part-of-speech '$_' in" unless m#$re#o;
+    return @warn;
+}
+
+sub check_en {
+    my ($entry, $field, $_, @warn) = @_;
+    return "Duplicate" if @{ $entry->{$field} } > 1;
+    my $pos = $entry->{pos}[0] // "";          # part-of-speech
+
+    # may not end in punctuation (question mark is okay)
+    push @warn, "Last character is punctuation in" if m#[-!.,:;([{<«  ]$#;
+    if (m#\((v|n|name|adv|conj|excl|num|pro|ques|ns[1-5]|vp|vs[1-9r])\)#) {
+        push @warn, "Part-of-speech '($1)' must not be given in";
+    }
+    my $missing_brackets = FALSE;
+    { # check for matching <...>
+        my $bra = () = m#<#g;  # count "<"
+        my $ket = () = m#>#g;  # count ">"
+        if ($bra != $ket) {
+            push @warn, "Mismatched <...> brackets ($bra '<' vs. $ket '>') in";
+        } elsif ($bra == 0) {
+            $missing_brackets = TRUE;
+        }
+    }
+    { # check for matching «...»
+        my $bra = () = m#«#g;  # count "«"
+        my $ket = () = m#»#g;  # count "»"
+        if ($bra != $ket) {
+            push @warn, "Mismatched «...» brackets ($bra '«' vs. $ket '»') in";
+        } elsif ($bra == 0 and $missing_brackets) {
+            # «...» or <...> are required except for affixes
+            push @warn, "Missing «...» or <...> brackets in"
+                if $pos !~ m#\b(suf|pre)fix\b#m;
+        }
+    }
+    return @warn;
+}
+
+{
+    my %lect = (
+        "äldre ord eller överklassord" =>
+            "older or upper-class word",
+        arkaiskt  => "archaic",
+        slang     => "slang",
+        regionalt => "regional",
+        "regionalt, slang" => "regional, slang",
+    );
+    sub check_sv {
+        my ($entry, $field, $_, @warn) = @_;
+        return "Duplicate" if @{ $entry->{$field} } > 1;
+        my $en  = $entry->{en}[0]  // "";      # english word
+        my $pos = $entry->{pos}[0] // "";      # part-of-speech
+        # may not end in punctuation (question mark is okay)
+        push @warn, "Last character is punctuation in" if m#[-!.,:;([{<«  ]$#;
+        if (m#\((v|s|namn|adv|konj|interj|räkn|pro|fråg|ss[1-5]|vp|vs[1-9]s)\)#) {
+            push @warn, "Part-of-speech '($1)' must not be given in";
+        }
+        # <...> are not allowed
+        warn "<...> brackets are not allowed in" if m#<#;
+        { # check for matching «...»
+            my $bra = () = m#«#g;  # count "«"
+            my $ket = () = m#»#g;  # count "»"
+            if ($bra != $ket) {
+                push @warn, "Mismatched «...» brackets ($bra '«' vs. $ket '»') in";
+            } elsif ($bra == 0) {
+                # «...» or <...> are required except for affixes
+                push @warn, "Missing «...» brackets in"
+                    if $pos !~ m#\b(suf|pre)fix\b#m;
+            }
+        }
+        { # dialect (check that [...] in 'en' and 'sv' fields correspond)
+            while (/\[([^][]*)\]/g) {
+                if (not exists $lect{$1}) {
+                    push @warn, "Unknown dialect description '[$1]' in";
+                } else {
+                    push @warn, "Missing dialect description '[$lect{$1}]' " .
+                        "in 'en:' field when '[$1]' is used in"
+                            unless $en =~ m#\[$lect{$1}\]$#m;
+                }
+            }
+        }
+        return @warn;
+    }
+}
+
+sub check_desc {
+    my ($entry, $field, $_, @warn) = @_;
+    return "Duplicate" if @{ $entry->{$field} } > 1;
+    push @warn, "First letter not lower case in" if m#^[A-Z]# and !/^I\b/;
+    while (m#~([^~]+)~#g) {                    # check ~...~ phrases
+        my $_ = $1;
+        push @warn, "First letter in '~$_~' is not lower case in"
+            if m#^[A-Z]# and !/^I\b/;
+        push @warn, "Last character in '~$_~' is punctuation in"
+            if m#[-.,:;([{<«  ]$# and not m#\b(?:subj|obj)\.$#;
+    }
+    # punctuation not allowed at end, except as part of abbrev
+    push @warn, "Last character is punctuation in"
+        if m#[-.,:;([{<«  ]$# and !/(?:subj|obj)\.$/;
+    push @warn, "Word '$1' should be abbreviated in"
+        if m#\b(some(bod(y|ies)|ones?|things?))\b#;
+    return @warn;
+}
+
+# used for both 'def' and 'ref'
+sub check_source {
+    my ($entry, $field, $_, @warn) = @_;
+    return "Duplicate" if @{ $entry->{$field} } > 1;
+    push @warn, "Invalid source reference in" unless source_ref_syntax($_);
+    return @warn;
+}
+
+sub check_cite {
+    my ($entry, $field, $_, @warn) = @_;
+    my $i = 1;
+    foreach (@{ $entry->{$field} }) {
+        if (m#\[([^][]*)\]$#) {
+            if (not source_ref_syntax($1)) {
+                push @warn, "Invalid source reference '$1' in ${\(ordinal($i))}";
+            }
+        } else {
+            push @warn, "Missing source reference in ${\(ordinal($i))}";
+        }
+        $i += 1;
+    }
+    return @warn;
+}
+
+sub check_com {
+    my ($entry, $field, $_, @warn) = @_;
+    return "Duplicate" if @{ $entry->{$field} } > 1;
+    push @warn, "Last character is mid-sentence punctuation in"
+        if m#[-,:;([{<«  ]$#;
+    return @warn;
+}
+
+sub check_see {
+    my ($entry, $field, $_, @warn) = @_;
+    return "Duplicate" if @{ $entry->{$field} } > 1;
+    # FIXME what if 'tlh:' field isn't defined here (?)
+    my ($tlh) = $entry->{tlh}[0] =~ m#(\{.*?\})#;
+    push @warn, "See also '$tlh' points to itself in"
+        if defined($tlh) and m#$tlh#;
+    return @warn;
+}
+
+sub check_data {
+    my ($entry, $field, $_, @warn) = @_;
+    return "Duplicate" if @{ $entry->{$field} } > 1;
+    my $tlh = $entry->{tlh}[0] // "";
+    if (/\b(deprecated|non-canon)\b/) {
+        push @warn, "Missing leading asterisk in 'tlh:' field as '$1' is given in"
+            unless $tlh =~ m#^[*]#;
+    }
+    if (/\b(phrase)\b/) {
+        push @warn, "Missing space in 'tlh:' field as '$1' is given in"
+            unless $tlh =~ m#^[^{]* {[^{]*[ ] [^{]*} #x;
+    }
+    return @warn;
+}
+
+sub check_file {
+    my ($entry, $field, $_, @warn) = @_;
+    return "Duplicate" if @{ $entry->{$field} } > 1;
+    foreach (split(m#;\h#, $_)) {
+        my $file = "$cfg{canon_path}/$_";
+        push @warn, "Invalid file '${\(File::Spec->abs2rel($file))}' in"
+            unless -e $file;
+    }
+    return @warn;
+}
+
+sub check_meta {
+    my ($entry, $field, $_, @warn) = @_;
+    return "Duplicate" if @{ $entry->{$field} } > 1;
+    push @warn, "First letter not upper case in" unless m#^(["A-Z]|\*?\{)#x;
+    push @warn, "Last character is mid-sentence punctuation in" if m#[-,:;([{<«  ]$#;
+    return @warn;
+}
+
+# Usage: check_entry(\@REQUIRED, \%CALLBACKS, \%ENTRY);
+#
+# Checks that all required fields are present, and invoke callbacks to check
+# field values.
+#
+# Return list of warnings or empty list if entry was a-ok.
+#
+# @REQUIRED is list of fields which *must* be present in an entry (in no
+# particular order).
+#
+# %CALLBACKS is a hash with check callbacks to invoke for each field. (No
+# checks will be performed on fields for which there is no check function.)
+#
+# Keys are field names, and values are coderefs to invoke. Each callback is
+# called as FUNCTION(\%ENTRY, $FIELD). Callback should return a list of
+# warnings or empty list if checked field was a-ok.
+#
+# %ENTRY is a single dictionary entry. A hashref with listrefs as values.
+# Multiple elements for the listrefs only occur for fields that occur multiple
+# times within the same entry (e.g. 'cite').
+sub check_entry {
+    my ($required, $callbacks, $entry) = @_;
+    my @warn = ();
+    # check that required fields exists
+    foreach (@$required) {
+        push(@warn, "Missing required '$_:' field in")
+            unless exists($entry->{$_});
+    }
+    # invoke callbacks for each field
+    foreach (keys %$entry) {
+        next unless exists $callbacks->{$_};
+        my $field = $_;
+        push @warn, map {
+            "$_ '$field:' field in";
+        } &{ $callbacks->{$_} }($entry, $_, $entry->{$_}[0]);
+    }
+    return @warn;
+}
+
+
+###############################################################################
+##                                                                           ##
+##  Initialization                                                           ##
+##                                                                           ##
+###############################################################################
+
+# parse command line options
+use Getopt::Long qw/:config posix_default bundling gnu_compat no_ignore_case permute/;
+GetOptions(              # info displayed by help()
+    \%opt,               # ========================
+    'checksum|c',        ### only check SHA1 sum in metadata
+    'help|h',            ### display this help and exit
+    'quiet|q',           ### suppress word count summary at end
+    'verbose|v',         ### output normalized dictionary on standard output
+    'version|V',         ### output version information and exit
+) or exit 255;
+version() if $opt{version};
+help()    if $opt{help};
+
+die "$NAME: Missing input\n" .
+    "Use '$NAME --help' for more information.\n"
+    if -t STDIN and @ARGV == 0;
 
 
 ###############################################################################
@@ -658,43 +875,105 @@ sub source_ref_syntax {
 ##                                                                           ##
 ###############################################################################
 
-my ($prefix_count, $suffix_count, $word_count, $marked_count) = (0, 0, 0, 0);
-foreach my $section (qw/word verb-prefix verb-suffix noun-suffix/) {
-    my %record = read_dict($section, $cfg{field_multiple});
+my $warnings = 0;                              # count warnings
+local $SIG{__WARN__} = sub { $warnings ++; warn @_ };
 
-    fields_ok(@cfg{qw(field_required field_order field_subs)}, %record);
+my @whole_file   = <>;  # read dictionary
+my ($preamble, $datachunk, $enddelim, $postamble) =
+    get_section("==", "data", \@whole_file) or exit 255;
 
-    # check sort order in dictionary
-    my $last_sortkey = "";
-    my $last_word    = "";
-    foreach my $line (sort numerically keys %record) {
-        my $_ = $record{$line};
-
-        if (/^tlh:\t/m) {
-            my ($marked, $word) = /^tlh:\t .*? (\*?) \{([^}]*)\} .*? $/xm;
-            $marked_count ++ if $marked;
-            print "$record{$line}\n";
-            given ($word) {
-                when (/-$/) { $prefix_count ++ }
-                when (/^-/) { $suffix_count ++ }
-                default     {   $word_count ++ unless $marked }
-            }
-            my $sortkey = sortkey_tlh($word);
-            my $order   = ($last_sortkey cmp $sortkey);
-            if ($order == 1) {
-                warn "wrong sort order: {$last_word} comes before {$word}, " .
-                    "in record at line $line\n";
-            }
-            $last_sortkey = $sortkey;
-            $last_word    = $word;
+# check metadata header
+my %meta = get_metadata(@whole_file);
+{                                              # check metadata 'SHA1'
+    my $sha1 = sha1sum($datachunk);
+    if ($sha1 ne $meta{SHA1}) {
+        warn "Invalid 'SHA1' metadata (should be '$sha1')\n";
+    }
+    exit !!$warnings if $opt{checksum};        # abort on --checksum
+    if ($opt{verbose} and $sha1 ne $meta{SHA1}) {
+        foreach (@$preamble) {
+            last if m#^$#;
+            last if s#^(SHA1:\s*).*$#$1$sha1#;
         }
     }
 }
-read_dict_ending();
 
-warn "Word count: $word_count (" .
+# check line length and linefeed at end of file
+# FIXME: should also check for PC line endings, and non-UTF8 (?)
+foreach my $line (0..$#whole_file) {
+    my $_ = $whole_file[$line];
+    s{\t}{ " " x (8 - (pos() % 8)) }ge;  # replace tabs with spaces
+    if (length($_) > 80) { # 80 = is with trailing newline
+        warn "Line wider than 79 characters at line " . ($line + 1) . "\n";
+    }
+    if (/\h+$/) {
+        warn "Trailing space at line " . ($line + 1) . "\n";
+    }
+}
+if ($whole_file[-1] !~ m#\n$#) {
+    warn "Missing linefeed at end of file at line " . ($#whole_file + 1) . "\n";
+}
+
+print @$preamble if $opt{verbose};
+
+
+my ($prefix_count, $suffix_count, $word_count, $marked_count) = (0, 0, 0, 0);
+my $offset = @$preamble + 1;
+foreach my $section (qw/word verb-prefix verb-suffix noun-suffix/) {
+
+    my ($preamble2, $datachunk2, $enddelim, $remaining) =
+        get_section("===", "$section-list", $datachunk) or do {
+        $warnings ++;
+        next;
+    };
+    $datachunk = $remaining;                   # remaining in text datachunk
+
+    print @$preamble2, "\n" if $opt{verbose};
+    $offset   += @$preamble2;                  # adjust offset
+    my $entries = get_entries(
+        data     => $datachunk2,
+        offset   => $offset,
+        order    => $cfg{field_order},
+        callback => sub {
+            check_entry($cfg{field_required}, $cfg{field_callbacks}, @_);
+        },
+    );
+    $offset += @$datachunk2 + @$enddelim;
+    print @$enddelim if $opt{verbose};
+
+    # check sort order in dictionary
+    my ($last_sortkey, $last_word) = ("", "");
+    foreach my $entry (@$entries) {
+        $_ = $entry->{tlh}[0] // "";
+        my ($marked, $word) = m#^.*? (\*?) \{([^}]*)\} .*? $#xm;
+        $marked_count ++ if $marked;
+        given ($word) {
+            when (/-$/) { $prefix_count ++ }
+            when (/^-/) { $suffix_count ++ }
+            default     {   $word_count ++ unless $marked }
+        }
+        my $sortkey = sortkey_tlh($word);
+        my $order   = ($last_sortkey cmp $sortkey);
+        if ($order == 1) {
+            warn "Wrong sort order: {$last_word} comes before {$word}, " .
+                "in entry at line " . ($entry->{_LINE_}) . "\n";
+        }
+        $last_sortkey = $sortkey;
+        $last_word    = $word;
+    }
+}
+
+print @$enddelim, @$postamble if $opt{verbose};
+warn "Last line must be '[[eof]]' at line " . scalar(@whole_file) . "\n"
+    unless $whole_file[-1] =~ m#^\[\[eof\]\]$#;
+
+print STDERR
+    "Word count: $word_count (" .
     "prefixes: $prefix_count, " .
     "suffixes: $suffix_count, " .
-    "*deprecated: $marked_count)\n";
+    "*deprecated: $marked_count)\n"
+    unless $opt{quiet};
+
+exit !!$warnings;
 
 #[eof]

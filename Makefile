@@ -152,10 +152,14 @@ auto:
 .PHONY: publish
 publish: .publish.done
 .publish.done: $(all_targets)
-	@echo "Publishing site to '$(remote_dir)':";            \
-	rsync -Pac --exclude-from=.gitignore --delete-excluded  \
-	    --delete-after $(publish_dir)/ $(remote_dir) \
-	    && echo "Last published from here: `date`" >"$@"
+	@bin/check-dict <site/dict/dict.zdb --checksum || {    \
+	    echo "    in 'site/dict/dict.zdb'" >&2;            \
+	    exit 1;                                            \
+	};                                                     \
+	echo "Publishing site to '$(remote_dir)':";            \
+	rsync -Pac --exclude-from=.gitignore --delete-excluded \
+	     --delete-after $(publish_dir)/ $(remote_dir)      \
+	     && echo "Last published from here: `date`" >"$@"
 
 ## linkcheck - check internal web page links
 .PHONY: linkcheck

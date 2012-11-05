@@ -1,9 +1,11 @@
 FORMAT:  zrajm-database
-VERSION: 1.1
+VERSION: 1.2
+SHA1:    7c4719d062a8d52455f88b79d4320768018d82b8
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
 AUTHOR:  Zrajm C Akfohg <zrajm@klingonska.org>
+
 
 1. About
 ========
@@ -59,6 +61,12 @@ values:
 > the database if `VERSION` has changed since last fetch (the program itself
 > will need to be updated to handle these changes -- you might want to tell
 > your users to look for a program update if this happens).
+
+> `SHA1`: *Database chunk checksum.* This value will change whenever a change
+> is made to the actual database (ignoring comments). A program fetching the
+> database should use this value to determine whether or not the database has
+> been updated since last fetch. (Only if `SHA1` has changed since last
+> fetching will there be any need to update the internal dictionary.)
 
 > `URL`: *Web address of the database.* Use this URL to fetch the latest
 > version the database. (A program to doing this should be prepared to handle
@@ -410,6 +418,10 @@ once in the same entry).
 Brief list of changes made for each VERSION of this file format. Most recent
 changes first.
 
+  * 2012-11-02 v1.2 -- Added new supersection delimiting the database chunk
+    from the comments in the file (encompassing all other sections). Also added
+    `SHA1` metadata field.
+
   * 2012-03-25 v1.1 -- Corrected misspelling ‘conjuction’ -> ‘conjunction’ in
     `pos:` field. (This warranted a VERSION update since the content of this
     field is exactly specified in the description -- had it been a free text
@@ -430,7 +442,6 @@ and is typically run with:
 Next comes the first database section.
 
 == start-of-data ==
-
 === start-of-word-list ===
 
 tlh:	{bach} [1]
@@ -7679,8 +7690,7 @@ pos:	noun
 sv:	«ligonier»
 en:	«Ligonian»
 def:	KGT p.141
-com:	Race of beings form the solar system {lIghon}.
-com:	Race from the Ligon star system.
+com:	Race of beings form the Ligon ({lIghon}) star system.
 see:	{lIghongan}
 file:	1997-11-01-kgt.txt
 
@@ -13904,7 +13914,7 @@ pos:	verb
 sv:	«avbryta», «ställa in», «upphäva»
 en:	<cancel>, «abort»
 def:	TKD
-com	The translation 'abort' was originally added by André Müller (in his
+com:	The translation 'abort' was originally added by André Müller (in his
 	dictionary), and was confirmed a valid translation by Marc Okrand at
 	the Saarbrücken {qepHom} in 2011.
 file:	1992-01-01-tkd.txt
@@ -24158,7 +24168,6 @@ tag:	KLCP1
 file:	1992-01-01-tkd.txt
 
 === end-of-noun-suffix-list ===
-
 == end-of-data ==
 
 KLINGON WORDS NEVER OCCURING BY THEM SELVES
