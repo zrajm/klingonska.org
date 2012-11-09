@@ -4,5 +4,6 @@
 .\#*
 \#*\#
 /.publish.done
+/fetched
 /publish
 /h5bp-html5-boilerplate-*

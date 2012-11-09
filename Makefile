@@ -14,6 +14,10 @@ source_dir  := site
 publish_dir := publish
 remote_dir  := hcoop:Web/klingonska.org
 
+CSS_MINIFIER := \
+    $(if $(shell which yui-compressor),yui-compressor --type css,cat)
+JS_MINIFIER := \
+    $(if $(shell which yui-compressor),yui-compressor --type js,cat)
 
 ###############################################################################
 ##                                                                           ##
@@ -152,7 +156,12 @@ auto:
 .PHONY: publish
 publish: .publish.done
 .publish.done: $(all_targets)
-	@bin/check-dict <site/dict/dict.zdb --checksum || {    \
+	@if [ "$(CSS_MINIFIER)" = cat -o "$(JS_MINIFIER)" = cat ]; then \
+	    echo "ERROR: Javascript/CSS is not minified,"      \
+	        "won't publish site without minification" >&2; \
+	    exit 1;                                            \
+	fi;                                                    \
+	bin/check-dict <site/dict/dict.zdb --checksum || {     \
 	    echo "    in 'site/dict/dict.zdb'" >&2;            \
 	    exit 1;                                            \
 	};                                                     \
@@ -160,6 +169,15 @@ publish: .publish.done
 	rsync -Pac --exclude-from=.gitignore --delete-excluded \
 	     --delete-after $(publish_dir)/ $(remote_dir)      \
 	     && echo "Last published from here: `date`" >"$@"
+
+.PHONY: publish
+fetch:
+	@if [ ! -e fetched ]; then                        \
+	    [ -e $(publish_dir) ] || make site;           \
+	    cp -a publish fetched;                        \
+	fi;                                               \
+	echo "Fetching published site to 'fetched':";     \
+	rsync -Pac --delete-after $(remote_dir)/ fetched/
 
 ## linkcheck - check internal web page links
 .PHONY: linkcheck
@@ -202,20 +220,20 @@ $(publish_dir)/includes/base.css: $(h5bp_dir)/css/style.css \
 	{                                         \
 	    cat $(filter %.css,$^);               \
 	    bin/sassy $(filter %.scss,$^);        \
-	} | yui-compressor --type css >"$@"
+	} | $(CSS_MINIFIER) >"$@"
 
 # SCSS (sassy stylesheet) -> minified CSS
 $(publish_dir)/%.css: $(source_dir)/%.scss bin/sassy
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)";      \
 	echo "Processing '$<' -> '$@'";           \
 	bin/sassy $(filter %.scss,$^) |           \
-	    yui-compressor --type css >"$@"
+	    $(CSS_MINIFIER) >"$@"
 
 # CSS (stylesheet) -> minified CSS
 $(publish_dir)/%.css: $(source_dir)/%.css
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Minifying  '$<' -> '$@'";      \
-	yui-compressor --type css <"$<" >"$@"
+	$(CSS_MINIFIER) <"$<" >"$@"
 
 # GIF (bitmap image)
 $(publish_dir)/%.gif: $(source_dir)/%.gif
@@ -291,13 +309,13 @@ $(publish_dir)/includes/%.js: $(h5bp_dir)/js/libs/%.min.js
 $(publish_dir)/%.js: $(source_dir)/%.js
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Minifying  '$<' -> '$@'";      \
-	yui-compressor --type js <"$<" >"$@"
+	$(JS_MINIFIER) <"$<" >"$@"
 
 # JS (client-side script, Javascript)
 $(publish_dir)/%.js: $(source_dir)/%.js
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Minifying  '$<' -> '$@'";      \
-	yui-compressor --type js <"$<" >"$@"
+	$(JS_MINIFIER) <"$<" >"$@"
 
 # LY (typeset musical score, Lilypond)
 $(publish_dir)/%.ly: $(source_dir)/%.ly
