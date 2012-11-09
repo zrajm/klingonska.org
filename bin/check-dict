@@ -5,7 +5,6 @@ use encoding::warnings 'FATAL';
 use 5.10.0;
 use utf8;
 use open ':locale';
-use Cwd 'realpath';             # scripts absolute name
 
 # FIXME
 #   o invoke 'check-dict --checksum' on git commit
@@ -22,6 +21,9 @@ use vars qw($NAME $VERSION $YEAR);
 $VERSION = "0.2a";
 $YEAR    = "2012";
 $NAME    = "check-dict";
+
+sub TRUE  {  1 }
+sub FALSE { "" }
 
 my %opt = ();
 my %cfg = (
@@ -56,34 +58,12 @@ $cfg{canon_path} = do {
     realpath($scriptdir . "/" . $cfg{canon_path});
 };
 
-=head1 NAME
-
-check-dict - check consistency of Klingonska Akademien's Klingon database file
-
-
-=head1 SYNOPSIS
-
-B<check-dict> [I<OPTION>]... [I<FILE>]
-
-=cut
-
 
 ###############################################################################
 ##                                                                           ##
 ##  Functions                                                                ##
 ##                                                                           ##
 ###############################################################################
-
-sub TRUE  {  1 }
-sub FALSE { '' }
-
-sub cmd_version {
-    print "$NAME $VERSION (MPD client)\n",
-        "License: Creative Commons Attribution-Share Alike (CC BY-SA)\n",
-            "    <http://creativecommons.org/licenses/by-sa/3.0/>\n",
-        "Written $YEAR by Zrajm C Akfohg <zrajm\@klingonska.org>\n";
-    exit 0;
-}
 
 sub read_file {
     my ($file) = @_;
@@ -92,14 +72,13 @@ sub read_file {
     return wantarray ? <$in> : join("", <$in>);
 }
 
-sub max { (sort { $b <=> $a } @_)[0] }
-
 # Convert POD into ANSI escape sequences for the terminal. Does not do
 # recursion. (But since E<...> is handled first, those are allowed inside both
 # B<...> and I<...>, and since C<...> is treated last, all other POD sequences
 # are allowed inside those.)
-sub depodify {
+sub pod2ansi {
     my ($_) = @_;
+    return undef unless defined($_);
     my %char = (quot => '"', amp => '&', lt => '<', gt => '>');
     s#E<([^>]*)>#$char{lc $1}#g;  # HTML-like entity
     s#B<([^>]*)>#\e[1m$1\e[0m#g;  # bold
@@ -111,35 +90,51 @@ sub depodify {
 sub version {
     print "$NAME (klingonska.org) $VERSION\n",
         "Copyright (C) $YEAR Zrajm C Akfohg <zrajm\@klingonska.org>\n",
-        "License CC BY-SA: Creative Commons Attribution-Share Alike\n",
+        "License CC BY-SA 3.0: Creative Commons Attribution-ShareAlike 3.0 Unported\n",
         "    <http://creativecommons.org/licenses/by-sa/3.0/>\n";
     exit 0;
 }
 
+sub manpage {
+    use Cwd 'realpath';
+    exec 'pod2man "' . realpath($0) . '"|man -l -'
+        or die "Failed to exec 'pod2man'"
+}
+
 sub help {
+    use Cwd 'realpath';
     my $_ = read_file(realpath($0));
     my ($synopsis)    = m#^=head1 \s+ SYNOPSIS \s+ (.*)#mx;
     my ($description) = m#^=head1 \s+ NAME \s+ [-\w]+ \s+-\s+ (.*)#mx;
-    print "Usage: " . depodify($synopsis) . "\n",
-        ucfirst($description) . ".\n\n",
-        "Options:\n";
+    print "Usage: " . pod2ansi($synopsis) . "\n",
+        ucfirst($description) . ".\n";
     { # list --options (from comments) -- sort by longopt name
-        my %doc = ();
+        my @opt_doc = ();
+        my $opt_length = 0;
         while (/^ \s*
                 (?: (['"])                  # start quote
-                    ([^\n'"=|]*?)           #   long-opt
-                    (?:\|([^\n'"=]*))?      #   |o
-                    (?:=  [^\n'"=]*)?       #   =s
-                    \1, \s*                 # end quote
-                )? \#\#\# \s+ (.*) $/xmg) { # ### description
+                    ([^\n'"=:|]*?)           #   long opt
+                    (?:\|([^\n'"=:]*))?      #   short opt
+                    (?:([:=])[^\n'"=]*)?    #   opt arg
+                    \1 [^#]*                # end quote
+                |.*?)?(?<!\#)\#\#\#\s+(.*)$/xmg) { # description
             my $long  = $2 ? "--$2"  : "";
             my $short = $3 ?  "-$3," : "";
-            my $desc  = $4;
-            $doc{$long} = [ $short, $desc ];
+            my $arg   = $4;
+            my $desc  = $5;
+            if ($arg and $desc =~ s/([A-Z0-9]+)\s*//) {
+                $long .= $arg eq ":" ? "[=$1]" : "=$1";
+            }
+            push(@opt_doc, [ $short, $long, pod2ansi($desc) ]);
+            my $length = length($long);
+            $opt_length = $length if $length > $opt_length;
         }
-        my $length = max(map { length($_) } keys %doc);
-        printf "  %-3s %-${length}s  %s\n", $doc{$_}[0], $_, $doc{$_}[1]
-            foreach sort keys %doc;
+        # length of longest option name
+        if (@opt_doc) {
+            print "\nOptions:\n", map {
+                sprintf "  %-3s %-${opt_length}s  %s\n", @$_
+            } @opt_doc;
+        }
     }
     print <<EOF;
 
@@ -217,8 +212,6 @@ sub sha1sum {
     use Digest::SHA1 "sha1_hex";
     return sha1_hex(Encode::encode("UTF-8", join("", @$listref)));
 }
-
-sub numerically { $a <=> $b }
 
 sub sortkey_tlh {
     my ($_) = @_;
@@ -844,30 +837,27 @@ sub check_entry {
     return @warn;
 }
 
-
 ###############################################################################
 ##                                                                           ##
 ##  Initialization                                                           ##
 ##                                                                           ##
 ###############################################################################
 
-# parse command line options
-use Getopt::Long qw/:config posix_default bundling gnu_compat no_ignore_case permute/;
-GetOptions(              # info displayed by help()
-    \%opt,               # ========================
-    'checksum|c',        ### only check SHA1 sum in metadata
-    'help|h',            ### display this help and exit
-    'quiet|q',           ### suppress word count summary at end
-    'verbose|v',         ### output normalized dictionary on standard output
-    'version|V',         ### output version information and exit
+use Getopt::Long qw(
+    :config posix_default bundling gnu_compat no_ignore_case permute
+);
+GetOptions(                          # info displayed by help()
+    'checksum|c' => \$opt{checksum}, ### only check SHA1 sum in metadata
+    'help|h'     => \&help,          ### display this help and exit
+    'manpage|M'  => \&manpage,       ### display program manpage and exit
+    'quiet|q'    => \$opt{quiet},    ### suppress word count summary at end
+    'verbose|v'  => \$opt{verbose},  ### output normalized dictionary on STDOUT
+    'version|V'  => \&version,       ### output version information and exit
 ) or exit 255;
-version() if $opt{version};
-help()    if $opt{help};
 
-die "$NAME: Missing input\n" .
+die "$NAME: Missing input: Nothing on standard input, and no file specified\n" .
     "Use '$NAME --help' for more information.\n"
     if -t STDIN and @ARGV == 0;
-
 
 ###############################################################################
 ##                                                                           ##
@@ -975,5 +965,142 @@ print STDERR
     unless $opt{quiet};
 
 exit !!$warnings;
+
+__END__
+
+
+=head1 NAME
+
+check-dict - check consistency of Klingonska Akademien's Klingon database file
+
+
+=head1 SYNOPSIS
+
+B<check-dict> [I<OPTION>]... [I<FILE>]
+
+
+=head1 DESCRIPTION
+
+This tool is used to check the integrity of Klingonska Akademien's I<Online
+Klingon Pocket Dictionary> database <http://klingonska.org/dict/>, and report
+any problems and inconsistencies within it.
+
+The database is in ZDB (Zrajm DataBase) format, a very simple text format,
+intended to be human readable, as well as machine parsable. The database is
+available online for browsing or fetching for anyone who wishes to do so. It
+also contains a metadata header intended to simplify syncing against the
+dictionary for external apps and programs.
+
+
+=head1 OPTIONS
+
+Mandatory arguments to long options are mandatory for short options too.
+
+
+=over 8
+
+=item B<-c>, B<--checksum>
+
+Fast way to only check the 'SHA1' checksum of the metadata (all other checks as
+are skipped). This option is primarily intended for use in publish and commit
+hooks (where speed is of the essence).
+
+It is vitally important that the 'SHA1' metadata field correctly reflects the
+database content at all times, since this is used by external apps and programs
+that wishes to sync against the dictionary. Implies B<--quiet>.
+
+
+=item B<-h>, B<--help>
+
+Output brief command line help on standard output, then exit.
+
+
+=item B<-M>, B<--manpage>
+
+Display program manpage and exit. This option extracts the Perl POD (Plain Old
+Documentation) documentation from the program and displays it using man(1).
+
+
+=item B<-q>, B<--quit>
+
+Suppress the word count summary at the end of processing.
+
+
+=item B<-v>, B<--verbose>
+
+Output a re-word wrapped dictionary on standard output during processing.
+
+This output should ideally be the same as the input, but if the B<check-dict>
+terminates with a zero exit status, then the dictionary is, for all intents and
+purposes, error free.
+
+
+=item B<-V>, B<--version>
+
+Output version information on standard output, then exit.
+
+=back
+
+
+=head1 EXIT STATUS
+
+Exit status will be 0 if all checks were passed, 1 if one or more checks failed
+and 255 if B<check-dict> died for some other reason (unknown options, missing
+input, whatever).
+
+
+=head1 EXAMPLES
+
+Here are a couple of examples. After each example comes an explanation of what
+it does.
+
+    bin/check-dict <site/dict/dict.zdb
+
+This is how one would typically invoke B<check-dict>. It runs all checks and
+does all the stuff one expects.
+
+    bin/check-dict --checksum <site/dict/dict.zdb
+
+This forgoes most of the checks, loads the dictionary and only checks the
+'SHA1' checksum of the metadata. It is primary intended for use in publish and
+commit hooks (as it is vitally important that this value never is incorrect for
+syncing to work well for external programs/apps).
+
+    bin/check-dict --verbose site/dict/dict.zdb | diff site/dict/dict.zdb -
+
+Compare difference in word wrapping between the existing dictionary file, and
+an "ideal" version of it. B<--verbose> outputs the file in re-wrapped for on
+standard output, here we simply feed that to diff(1) to see if there are any
+differences.
+
+
+=head1 AUTHOR
+
+Written by Zrajm C Akfohg <zrajm@klingonska.org>, 2009-2012.
+
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright 2012 Zrajm C Akfohg <zrajm@klingonska.org>.
+
+Distributed under Creative Commons Attribution-ShareAlike 3.0 Unported (CC
+BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>.
+
+This means that you may copy, sell and change the program in any way you like,
+as long as you still attribute it to this author, and release your modified
+version under the same license.
+
+
+=head1 SEE ALSO
+
+Take a look at the database file itself for a description of its format
+<http://klingonska.org/dict/dict.zdb>.
+
+For a web interface to the dictionary, see Klingonska Akademion's I<Online
+Klingon Pocket Dictionary> http://klingonska.org/dict/, and for other stuff
+about the Klingon language, see Klingonska Akademien's web site in general
+http://klingonska.org/.
+
+=cut
 
 #[eof]

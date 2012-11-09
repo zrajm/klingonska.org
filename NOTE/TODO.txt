@@ -2387,7 +2387,10 @@ optimization."
 *** DONE klingon phrases in {...} in gram: should have ' at beg of word replaced with right-hand quote
     CLOSED: [2012-01-20 Fri 13:01]
     (see example under {Soj})
-** Dictionary check tool (usr/bin/check-dict)
+** `bin/check-dict`: Dictionary check tool
+*** TODO Add check for unknown database sections
+*** DONE Add documentation
+    CLOSED: [2012-11-09 Fri 14:10]
 *** DONE Should check existance of new (start|end)-of-data markers
     CLOSED: [2012-11-05 Mon 06:21]
     Required because of "[[Add delimiters for the database part of the file]]".
