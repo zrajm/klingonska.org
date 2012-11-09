@@ -210,7 +210,7 @@ optimization."
       are incorporated into the KLO pages. Old stuff is just an annoyance to
       maintain. (And, even after removal, would still be available in the git
       repo, if anyone *really* cared.)
-***** [50%] Convert all pages to new HTML template
+***** [51%] Convert all pages to new HTML template
       Thereby centralizing the page header/footer etc. `bin/markdown2html` is
       the tool used for this, except for files in /dict/, which uses `parse`.
       Unifying these two tools into one will become a later issue, though.
@@ -251,6 +251,26 @@ optimization."
        CLOSED: [2012-06-30 Sat 01:20]
 ****** DONE Verify that `dict/*` is unaffected by redesign
        CLOSED: [2012-07-01 Sun 01:48]
+****** DONE `dict/about.html`
+       CLOSED: [2012-11-10 Sat 00:34]
+****** DONE `dict/intro.html`
+       CLOSED: [2012-11-10 Sat 00:34]
+****** DONE `dict/index.cgi`
+       CLOSED: [2012-11-10 Sat 00:34]
+****** [100%] `dict/suffix.html`
+******* DONE Update of `bin/parse`
+        CLOSED: [2012-11-10 Sat 00:39]
+        This required an update of `parse-data/composer-html-ka2`, and since
+        transformations (thought of when originally wrote `bin/parse`, but not
+        implemented then) were needed to produce correctly formed HTML, those
+        had to be properly added as well.
+******* DONE Creation of `parse-data/transformer-html-ka2`
+        CLOSED: [2012-11-10 Sat 00:40]
+******* DONE Update of `parse-data/composer-html-ka2`
+        CLOSED: [2012-11-10 Sat 00:39]
+        Updated to produce HTML of new site design.
+****** DONE `dict/tables.html`
+       CLOSED: [2012-11-10 Sat 00:34]
 ****** DONE Verify that `qq/*` is unaffected by redesign
        CLOSED: [2012-07-01 Sun 01:57]
 ****** DONE `links.html`
@@ -363,8 +383,16 @@ optimization."
       CLOSED: [2012-07-09 Mon 16:35]
       Some error in the build script causes Modernizr to be written with the
       jQuery content. Very non-functional.
-***** TODO Add Google Analytics script to `klo/`, `dict/` and `qq/`
-***** TODO Add Google Analytics script to all CGIs
+***** [28%] Add Google Analytics
+****** TODO To CGI canon/search/index.cgi
+****** TODO To CGI canon/show.cgi
+****** TODO To HMTL files in `klo/`
+****** TODO To HMTL files in `qq/`
+****** TODO To CGI piqad/play.cgi
+****** DONE To HMTL files in `dict/`
+       CLOSED: [2012-11-10 Sat 00:25]
+****** DONE dict/index.cgi
+       CLOSED: [2012-11-10 Sat 00:26]
 ***** TODO Breadcrumbs should handle {...} notation in title
       Example of this not looking so good:
 

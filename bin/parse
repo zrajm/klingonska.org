@@ -1,8 +1,10 @@
 #!/usr/bin/perl -w
+
+use 5.10.0;
 use strict;
+use warnings;
 
 # TODO
-#   o HTML output for actual dictionary suffix guide.
 #   o LaTeX output for actual dictionary suffix guide.
 #   o Links (esp. links not defined inline).
 #   o Numbered lists must be able to get item number.
@@ -14,9 +16,6 @@ use lib do {
     realpath($0) =~ m#^(.*)/[^/]*/#;
     "$1/perl";
 };
-use Data::Dumper;
-$Data::Dumper::Indent = 1;
-$Data::Dumper::Terse  = 1;
 
 my $WIDTH = 79;  # number of columns to use in word wrap
 
@@ -32,17 +31,17 @@ sub help {
 Usage: $0 OPTION < FILE.txt
 Parse markdown input and give output in specified format.
 
+  -a,--apply=FILE   load transformer from FILE
   -h,--help         display this information
-  -i,--input=FILE   load parser from FILE
+  -i,--input=FILE   load parser from FILE (required)
   -l,--list         output contexts template for new parser
   -o,--output=FILE  load composer from FILE
   -p,--plot         output graphviz program for plotting parser contexts
-     --raw          output "raw" parse tree (builtin)
+  -R,--raw          output "raw" parse tree (default)
      --html         output HTML ("data/composer-html")
      --markdown     output Markdown ("data/composer-markdown")
 EOF
 }
-
 
 # Usage: $NEWTREE = insert_branch($FINDBRANCH, $INSERTBRANCH, @TREE);
 #
@@ -105,7 +104,7 @@ sub insert_branch {
 my $bad = 0;
 my %cfg = (
     command  => "",      # do what?
-    output   => undef,   # output format
+    output   => "",      # output format
     input    => undef,   # input format
 );
 %SIG = (
@@ -121,26 +120,29 @@ my %cfg = (
         unshift(@ARGV, $1) if s/ = (.*) $ //x;
         m/^--$/           and do { last,                     next };
         m/^(-h|--help)$/  and do { help();                   exit };
+        m/^(-a|--apply)/  and do { $cfg{apply}   = shift();  next };
         m/^(-i|--input)/  and do { $cfg{input}   = shift();  next };
         m/^(-l|--list)/   and do { $cfg{command} = "list";   next };
         m/^(-o|--output)/ and do { $cfg{output}  = shift();  next };
         m/^(-p|--plot)/   and do { $cfg{command} = "plot";   next };
         m/^--html$/       and do { $cfg{output}  = "usr/parse-data/composer-html";     next };
         m/^--markdown$/   and do { $cfg{output}  = "usr/parse-data/composer-markdown"; next };
-        m/^--raw$/        and do { $cfg{output}  = "";       next };
+        m/^(-R|--raw)$/   and do { $cfg{output}  = "";       next };
         m/^-/             and do { warn "unknown option '$_'\n";  next };
         push @arg, $_;
     }
-    warn "no --output given\n" unless defined($cfg{output});
     warn "no --input given\n" unless defined($cfg{input});
     exit 255 if $bad;
     @ARGV = (@arg, @ARGV);
 }
 
 use ParserComposer;
-my $block = new ParserComposer($cfg{input}, $cfg{output} || {});
+my $block = new ParserComposer(
+    parser      => $cfg{input},
+    composer    => $cfg{output},
+    transformer => $cfg{apply},
+);
 
-# 
 if ($cfg{command} eq "plot") {
     print $block->plot_contexts();
     exit;
@@ -164,16 +166,14 @@ $text =~ s/(?<=\n)\n*\Q[eof]\E\n+$//; # strip everything after 1st "TODO"
 
 my $tree = $block->parse([ "root", $text ]);
 
-($tree) = $block->transform({
-    "suffix_guide" => sub {
-        [ shift() => insert_branch("sg_head2", "sg_div2", @_) ];
-    }
-}, $tree);
+# my $rules = {
+#     "suffix_guide" => sub {
+#         my $name = shift();
+#         return [ $name => insert_branch("sg_head2", "sg_div2", @_) ];
+#     },
+# };
 
-#print STDERR "=" x 80 . "\n";
-
-#use Data::Dumper;
-#print Dumper $tree;
+($tree) = $block->transform($tree);
 
 print $block->compose($tree);
 

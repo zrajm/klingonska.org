@@ -248,13 +248,16 @@ $(publish_dir)/%.html: $(source_dir)/%.html
 	cp "$<" "$@"
 
 # KA Markdown -> HTML
-$(publish_dir)/dict/%.html: $(source_dir)/dict/%.txt
-	@[ -e "$(@D)" ] || mkdir -p "$(@D)";        \
-	echo "HTMLifying '$<' -> '$@'";             \
-	bin/parse                                   \
-	     --input=parse-data/parser-markdown-ka  \
-	    --output=parse-data/composer-html-ka2   \
-	    <"$<" >"$@";                            \
+$(publish_dir)/dict/%.html: $(source_dir)/dict/%.txt bin/parse \
+    parse-data/parser-markdown-ka parse-data/composer-html-ka2 \
+    parse-data/transformer-html-ka2 perl/ParserComposer.pm
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)";      \
+	echo "HTMLifying '$<' -> '$@'";           \
+	bin/parse                                 \
+	    --input=parse-data/parser-markdown-ka \
+	    --apply=parse-data/transformer-html-ka2 \
+	    --output=parse-data/composer-html-ka2 \
+	    <"$<" >"$@";                          \
 	    [ -s "$@" ] || rm "$@"
 
 # KA Markdown -> HTML

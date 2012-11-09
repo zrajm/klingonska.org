@@ -62,8 +62,8 @@ table.suffixguide tr.head1 span.type {
     display: inline-block;
 }
 
-table.suffixguide td > em.translation:first-child,
-table.suffixguide td > em.translation:first-child + small.ref {
+table.suffixguide td > i.translation:first-child,
+table.suffixguide td > i.translation:first-child + small.ref {
     font-family: sans-serif;
 }
 

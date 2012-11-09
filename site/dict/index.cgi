@@ -35,10 +35,10 @@ our %postprocess = (
         my ($value) = @_;
         my $i = 0;
         return map {
-            my $string = ($i++ ? "\n      <br />" : "") . "<a href=\"../canon/$_\">$_</a>";
+            my $string = ($i++ ? "\n      <br>" : "") . "<a href=\"../canon/$_\">$_</a>";
             $string .= " (<strong>NOTE:</strong> <abbr title=\"The Klingon " .
                 "Dictionary\">TKD</abbr> required to view this file.)"
-                if defined($_) and m#-(tkd|tkw|kgt)\.txt#;
+                    if defined($_) and m#-(tkd|tkw|kgt)\.txt#;
             $string;
         } split(m#;\s*#, $value);
     },
@@ -47,7 +47,7 @@ our %postprocess = (
 our %field = (
     tlh  => "Klingon",
     warn => "Warning",
-    pos  => "Part-of-speech",
+    pos  => "PoS",
     sv   => "Swedish",
     en   => "English",
     desc => "Description",
@@ -72,7 +72,7 @@ our @tips = (
     "Prefixes: <b>com:</b> = comment, <b>def:</b> = defining source, " .
         "<b>ref:</b> = source",
     "Example: <b>tlh:*'egh</b> finds all Klingon words ending in " .
-        "<em>&rsquo;egh</em>",
+        "<em>’egh</em>",
     'Use <b>tag:klcp1</b> to find the <a ' .
         'href="../klcp.html#_6">beginner’s words</a> from the <a ' .
         'href="../klcp.html"><i>Klingon Language Certification Program</i></a>.',
@@ -90,7 +90,7 @@ our @tips = (
     'Use <b>pos:vsr</b> or <b>pos:rover</b> to search for <i>verb suffix ' .
         'rovers</i>.',
     'Use <b>*</b> to mean any sequence of letters.',
-    'Use quotes (<b>"..."</b>) to search for several words in a row.',
+    'Use quotes (<b>"…"</b>) to search for several words in a row.',
 );
 
 
@@ -112,16 +112,14 @@ sub read_dictionary {
     my @buf = ();
     while (<$fh>) {
         chomp();
-        # terminate at file footer
-        last if $_ eq "== end-of-data ==\n";
-        next if /^===\s/;
-        # beginning of a new post
-        if (m#^$#) {                          # beginning of new post?
+        last if $_ =~ /^== end-of-data ==$/;   # terminate at file footer
+        next if /^===\s/;                      # skip section delimiters
+        if (/^$/) {                            # beginning of new post
             push(@buf, "");
-            next if /^$/;                     #   skip to next line in file
-        }                                     #   if this one is empty now
+            next if /^$/;                      #   skip to next line in file
+        }                                      #   if this one is empty now
         # indented line, or new field
-        if (s#^\s+##) {                        # if line begins with white space
+        if (s/^\s+//) {                        # if line begins with white space
             $buf[$#buf] .= " " . $_;           #   join it to buffer's last line
         } else {                               # otherwise
             $buf[$#buf] .= "\n" . $_;          #   add new line to buffer
@@ -185,7 +183,7 @@ sub split_query {
         # quote metacharacters + "any field" if field was empty
         $field  = defined($field) ? quotemeta(lc($field)) : "[^:]*";
         $phrase = quotemeta($phrase);
-        # all fields are case-insensetive, except "tlh"
+        # all fields are case insensetive, except "tlh"
         my $lcphrase = lc $phrase;
         if ($field eq "pos" and exists($pos{$lcphrase})) {
             qr/^($field:)\t($pos{$lcphrase})$/m;
@@ -228,115 +226,126 @@ wordlist. These wordlists are automatically extracted from a simple text-based
 database, which is very easy to update. This database has been continuously
 updated and improved since it was created in late <time>1997</time>.</p>
 
-<table class="layout">
+<table class="noborder layout">
   <tr>
-    <th colspan="2">Search Expressions</th>
+    <th colspan=2>Search Expressions</th>
   </tr>
   <tr>
-    <td class="center"><b>"</b>...<b>"</b>&nbsp;</td>
+    <td class=center><b>"</b>…<b>"</b>&nbsp;</td>
     <td>search for a phrase (containing more than one word)</td>
   </tr>
   <tr>
-    <td class="center"><b>*</b>&nbsp;</td>
+    <td class=center><b>*</b>&nbsp;</td>
     <td>matches any alphabetical character</td>
   </tr>
   <tr>
-    <td class="center"><b>tlh:</b>...&nbsp;</td>
+    <td class=center><b>tlh:</b>…&nbsp;</td>
     <td>search Klingon definitions <i>(case sensetive)</i></td>
   </tr>
   <tr>
-    <td class="center"><b>en:</b>...&nbsp;</td>
+    <td class=center><b>en:</b>…&nbsp;</td>
     <td>search English definitions</td>
   </tr>
   <tr>
-    <td class="center"><b>sv:</b>...&nbsp;</td>
+    <td class=center><b>sv:</b>…&nbsp;</td>
     <td>search Swedish definitions</td>
   </tr>
   <tr>
-    <td class="center"><b>pos:</b>...&nbsp;</td>
-    <td>search part-of-speech field<br />(use abbrev from <i><a href="intro.html">Introduction</a></i>, <i>ns#,</i> <i>vs#</i> or free text)</td>
+    <td class=center><b>pos:</b>…&nbsp;</td>
+    <td>search part-of-speech field<br>(use abbrev from <i><a href="intro.html">Introduction</a></i>, <i>ns#,</i> <i>vs#</i> or free text)</td>
   </tr>
   <tr>
-    <td class="center"><b>def:</b>...&nbsp;</td>
+    <td class=center><b>def:</b>…&nbsp;</td>
     <td>search defining source references</td>
   </tr>
   <tr>
-    <td class="center"><b>ref:</b>...&nbsp;</td>
+    <td class=center><b>ref:</b>…&nbsp;</td>
     <td>search non-defining source references</td>
   </tr>
 </table>
 
-<p>A search word without one of the above prefixes prefix is always
-case-insensetive. Thus a search for &lsquo;hej&rsquo; will find the Klingon
-word <i>rob,</i> but a search for &lsquo;tlh:hej&rsquo; is case-sensetive and
-will find nothing at all.</p>
+<p>Case does not matter when you search without using any of the above
+prefixes. However, when you search with the “tlh:” prefix, case <em>does</em>
+count, and <b lang=tlh>q</b> and <b lang=tlh>Q</b> regarded separate
+letters.</p>
 
 EOF
 }
 
 sub html_head {
 return <<"EOF";
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=en> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang=en> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang=en> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=en> <!--<![endif]-->
 <head>
-<title>Klingon Pocket Dictionary &ndash; Klingonska Akademien</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="geo.region" content="SE-C" />
-<meta name="geo.placename" content="Europe, Sweden, Uppsala, Kåbo" />
-<meta name="geo.position" content="59.845658;17.630797" />
-<link rel="stylesheet" type="text/css" href="../includes/dict-layouttable.css" />
-<link rel="stylesheet" type="text/css" href="../includes/dict-suffixguide.css" />
-<link rel="stylesheet" type="text/css" href="../includes/dict.css" />
-<link rel="stylesheet" type="text/css" href="../includes/page.css" />
-<link rel="stylesheet" type="text/css" href="../includes/pagestats.css" />
-<style><!--
-  td, th {
-    vertical-align: text-top;
-  }
-  th {
-    font-weight: normal;
-    white-space: nowrap;
-    text-align: left;
-  }
-  .match {
-    background-color: #bbbbbb;
-  }
---></style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Klingon Pocket Dictionary &ndash; Klingonska Akademien</title>
+  <meta name=viewport content="width=device-width">
+  <link rel=stylesheet href="../includes/base.css">
+  <link rel=stylesheet href="../includes/dict.css">
+  <link rel=icon href="/favicon.ico">
+  <link rel=canonical href="http://klingonska.org/dict/">
+  <script src="../includes/modernizr-2.5.3.js"></script>
+  <style><!--
+    td, th { vertical-align: text-top; }
+    th {
+      font-weight: normal;
+      white-space: nowrap;
+      text-align: left;
+    }
+    mark { background-color: #bbb; font-weight: inherit; font-style: inherit; }
+  --></style>
 </head>
-<body>
+<body lang=en itemscope itemtype="http://schema.org/WebPage">
 
-<div id="head">
-<!-- begin:status -->
-<div id="pagestats">
-  <span id="crumbs">
-    <a href="http://klingonska.org/">Home</a> &gt;
-    <a href="http://klingonska.org/dict/">Klingon Pocket Dictionary</a>
-  </span>
-  <span id="pubdate">
-    Updated <time pubdate datetime="2012-05-13T02:54">May 13, 2012</time>
-  </span>
-</div>
-<!-- end:status -->
+<header role=banner>
+  <!-- begin:status -->
+  <ul>
+    <li>
+      <nav itemprop=breadcrumb role=navigation>
+        <a href="http://klingonska.org/">Home</a> &gt;
+        <a href="http://klingonska.org/dict/">Klingon Pocket Dictionary</a>
+      </nav>
+    </li>
+    <li>
+      Updated <time pubdate datetime="2012-11-10T00:50">November 10, 2012</time>
+    </li>
+  </ul>
+  <!-- end:status -->
+  <div>
+    <a href="../">
+      <table id=logotitle>
+        <td>
+          <span class=crop>
+            <img height=200 width=200 src="../pic/ka-logo.svg" alt="Klingonska Akademien">
+          </span>
+        </td>
+        <td>
+          <h1>Klingonska<span id=logospace>&nbsp;</span>Akademien</h1>
+        </td>
+      </table>
+    </a>
+  </div>
+</header>
 
-<table class="navigation">
-  <tr>
-    <td><a href="about.html">About</a></td>
-    <td><a href="intro.html">Introduction</a></td>
-    <td><b>Lexicon</b></td>
-    <td><a href="suffix.html">Suffix Guide</a></td>
-    <td><a href="tables.html">Reference Tables</a></td>
-  </tr>
-</table>
+<article role=main itemprop=mainContentOfPage>
 
-<a href="../"><img src="pic/title.gif" width="400" height="166" alt="tlhIngan Hol mu&rsquo;ghom mach" /></a>
+  <nav role=navigation class=tabs>
+    <a href="about.html">About</a>
+    <a href="intro.html">Introduction</a>
+    <span>Lexicon</span>
+    <a href="suffix.html">Suffix Guide</a>
+    <a href="tables.html">Reference Tables</a>
+  </nav>
 
-<h1>Klingon Pocket Dictionary: Lexicon</h1>
+<h1>Klingon Pocket Dictionary</h1>
 
-<p class="note">Some info + searchable version of the pocket dictionary database.</p>
-</div>
+<aside class=note>Some info + searchable version of the pocket dictionary database.</aside>
 
-<div id="main">
+<section>
 EOF
 }
 
@@ -348,42 +357,47 @@ sub html_form {
     my $tips = $tips[int(rand(@tips))];
     return <<"EOF";
 
-<table class="layout">
-  <tr class="center">
-    <td>
-      <form method="get" action="">
-        <input$focus_attr tabindex=1 type="text" name="q" value="$query" size="30"
-          placeholder="Search terms..."
-          /><input type="submit" value="Search" />
+<table class="noborder layout">
+  <tr>
+    <td class=center>
+      <form method=get action="">
+        <input$focus_attr tabindex=1 name=q value="$query" size=35
+          placeholder="Search terms…"><input type=submit value=Search>
       </form>
     </td>
   </tr>
-  <tr class="center">
-    <td><small>$tips</small></td>
+  <tr>
+    <td class=center><small>$tips</small></td>
   </tr>
 </table>
 
 EOF
 }
 
-
 sub html_foot {
-    return <<"EOF";
-</div>
+    return <<'EOF';
+</section>
+</article>
 
-<div id="foot">
-<p class="copyright">©<time>1998</time>&ndash;<time>2011</time>, Copyright <!-- FIXME autogenerate dates -->
-<span class="author"><a href="mailto:zrajm\@klingonska.org">Zrajm C Akfohg</a></span>,
-<a href="http://klingonska.org/">Klingonska Akademien</a>, Uppsala.</p>
-<p class="validator">
-  Validate:
-  <a href="http://validator.w3.org/check?uri=http://klingonska.org/dict/">XHTML</a>,
-  <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://klingonska.org/dict/&amp;profile=css3">CSS3</a>,
-  <a href="http://validator.w3.org/checklink?uri=http://klingonska.org/dict/">links</a>.
-  License:
-  <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">CC BY&ndash;SA</a>.&nbsp;
-</p>
-</div>
+<footer role=contentinfo>
+  <p class=copyright>&copy;<time itemprop=copyrightYear>1998</time>&ndash;<time>2012</time> by
+    <a href="mailto:zrajm@klingonska.org" rel=author itemprop=author>Zrajm C Akfohg</a>,
+    <a href="http://klingonska.org/" itemprop=sourceOrganization>Klingonska Akademien</a>, Uppsala
+  </p>
+  <p class=validator>
+    Validate:
+    <a href="http://validator.w3.org/check?uri=http://klingonska.org/">HTML5</a>,
+    <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://klingonska.org/&amp;profile=css3">CSS3</a>,
+    <a href="http://validator.w3.org/checklink?uri=http://klingonska.org/">links</a>.
+    License:
+    <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel=license>CC BY&ndash;SA</a>.&nbsp;
+  </p>
+</footer>
+<script>var _gaq=[['_setAccount','UA-5434527-2'],['_trackPageview']];
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+s.parentNode.insertBefore(g,s)}(document,'script'))</script>
+<script src="../includes/titlewrap.js"></script>
 </body>
 </html>
 EOF
@@ -420,9 +434,9 @@ print html_head() . html_form($query);
   WORD: foreach (read_dictionary("dict.zdb")) {
         # highlight matching words
         foreach my $regex (@regex) {
-            s/$regex/$1<span class="match">$2<\/span>/ or next WORD;
+            s#$regex#$1<mark>$2</mark># or next WORD;
         }
-        push @output, '  <tr><td colspan="2">&nbsp;</td></tr>' . "\n"
+        push @output, '  <tr><td colspan=2>&nbsp;</td></tr>' . "\n"
             if $matches > 0;
         $matches ++;
         # presentation
@@ -448,9 +462,9 @@ print html_head() . html_form($query);
     if ($matches == 0) {
         print html_no_match($query);
     } else {
-        print '<table class="layout">' . "\n";
-        print '  <tr><td colspan="2">' . $matches . ' match' . ($matches == 1 ? "" : "es") . ".</td></tr>\n";
-        print '  <tr><td colspan="2">&nbsp;</td></tr>' . "\n";
+        print '<table class="noborder layout">' . "\n";
+        print '  <tr><td colspan=2>' . $matches . ' match' . ($matches == 1 ? "" : "es") . ".</td></tr>\n";
+        print '  <tr><td colspan=2>&nbsp;</td></tr>' . "\n";
         print @output;
         print "</table>\n\n";
     }

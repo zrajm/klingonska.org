@@ -1,0 +1,41 @@
+# -*- perl -*-
+
+use 5.10.0;
+use strict;
+use warnings;
+use utf8;
+
+{
+    "root" => sub {
+        my ($self, $context, @tree) = @_;
+        my (@new, @acc) = ();
+        foreach my $element (@tree) {
+            if ($element->[0] eq "head1" and @acc) {
+                push @new, [ section => $self->transform(@acc) ];
+                @acc = ();
+            }
+            push @acc, $element;
+        }
+        push @new, [ section => $self->transform(@acc) ] if @acc;
+        return [ root => @new ];
+    },
+    "suffix_guide" => sub {
+        my ($self, $context, @tree) = @_;
+        my (@new, @acc) = ();
+        foreach my $element (@tree) {
+            if ($element->[0] =~ /^sg_head\d+$/ and @acc) {
+                $acc[0][0] =~ /^sg_head(\d+)$/;
+                push @new, [ "sg_section$1" => $self->transform(@acc) ];
+                @acc = ();
+            }
+            push @acc, $element;
+        }
+        if (@acc) {
+            $acc[0][0] =~ /^sg_head(\d+)$/;
+            push @new, [ "sg_section$1" => $self->transform(@acc) ];
+        }
+        return [ suffix_guide => @new ];
+    },
+};
+
+#[eof]

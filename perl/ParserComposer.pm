@@ -1,5 +1,6 @@
 package ParserComposer;
 
+use 5.10.0;
 use strict;
 use warnings;
 #use Carp "carp";
@@ -161,39 +162,44 @@ sub mycarp {
     die "$sub(): $msg";
 }
 
-# Usage: $RESULT = load($PERL_FILE);
+# Usage: $RESULT = load_source($PERL_FILE);
 #
 # Loads $PERL_FILE, returns whatever is the result of its execution. It is here
 # used to load parser/composer data, which means that the file loaded must
 # return a hash reference to a data structure.
-sub load {
-    my ($file) = @_;
-    my $hashref = do $file;          # lexicals in surrounding scope not visible
-    #my $hashref = eval `cat $file`; # lexicals in surrounding scope visible
-    if (not defined($hashref)) {
-        die "failed to open file '$file' for reading: $!\n" if $!;
-        die "failed to load file '$file' code content: $@\n" if $@;
+sub load_source {
+    my ($self, $file) = @_;
+    my $ref = do $file;           # lexicals in surrounding scope not visible
+    if (not defined($ref)) {
+        die "Failed to open file '$file' for reading: $!\n" if $!;
+        die "Failed to load file '$file' code content: $@\n" if $@;
     }
-    die "loading of file '$file' did not return hashref\n"
-        if ref($hashref) ne "HASH";
-    return $hashref;
+    return $ref;
 }
 
-# Usage: $OBJ = new ParserComposer({ PARSE_RULES });
-#
+# Usage: $OBJ = new ParserComposer(
+#     parser      => $HASHREF,
+#     composer    => $HASHREF,
+#     transformer => $HASHREF,
+# );
 sub new {
-    my ($class, $parser, $composer) =
-      arg::test(@_, [qw(class hashref_or_file hashref_or_file)])
-      or return ();
-    foreach ($parser, $composer) {
-        next if ref($_) eq "HASH";
-        my $file = $_;
-        $_ = load($file);
-        die "failure to load parser/composer, no hashref found ",
-          "in file '$file'\n" unless ref($_) eq "HASH";
+    my ($class, %opt) = @_;
+    die "new(): Not called as constructor" unless $class eq __PACKAGE__;
+    $opt{composer}    //= {}; # default value
+    $opt{transformer} //= {}; # default value
+
+    # load from files if filenames where given
+    my $self = bless({}, $class);
+    foreach (qw(parser transformer composer)) {
+        next if ref($opt{$_}) eq "HASH";
+        my $file = $opt{$_};
+        die "Failed to load $_: No such file '$file'"  unless -e $file;
+        $opt{$_} = $self->load_source($file);
+        die "Failed to load $_: Source did not return hashref in file '$file'\n"
+            unless ref($opt{$_}) eq "HASH";
+        $self->{$_} = $opt{$_};
     }
-    my $self = { parser => $parser, composer => $composer };
-    return bless($self, $class);
+    return $self;
 }
 
 # Usage: ($POS, @SUBSTRING) = match($TEXT, $REGEX, $POS);
@@ -420,7 +426,6 @@ sub _parse {
 
 # FIXME:
 #   * transform_rule_check()
-#   * new() should take transform rules
 #   * transform()
 #     o should allow optional hashref arg with rules, and if no such given, use
 #       the one specified in new()
@@ -434,7 +439,7 @@ sub _parse {
 # When $BRANCHNAME is found, does not recurse down into it (you can do this
 # explicitly in your rules, if you want, however, see examples below).
 #
-# Example: 
+# Example:
 #
 #     $RULES = {
 #         a => sub { do_something(@_) },
@@ -462,15 +467,16 @@ sub _parse {
 #     }
 #
 sub transform {
-    die "transform called in scalar context" unless wantarray;
-    my ($self, $rule, @tree) = @_;
+    my ($self, @tree) = @_;
+    die "Transform called in scalar context" unless wantarray;
+    my $rules = $self->{transformer};
     return map {
         if (is_string($_)) {
             $_;
-        } elsif (exists(${$rule}{first($_)})) {
-            &{${$rule}{first($_)}}(list($_));
+        } elsif (exists $rules->{ first($_) }) {
+            &{ $rules->{first($_)} }($self, list($_));
         } else {
-            [ first($_), $self->transform($rule, tail($_)) ];
+            [ first($_), $self->transform(tail($_)) ];
         }
     } @tree;
 }

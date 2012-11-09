@@ -1,0 +1,29 @@
+nav[role="navigation"].tabs {
+    margin: .5em 0;
+    text-align: center;
+    font-family: sans-serif;
+    a, span {
+        border: 2px solid black;
+        display: inline-block;
+        margin: .15em 0;
+        padding: .15em .5em;
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+    span {
+        background: #bbb;
+        font-weight: bold;
+    }
+}
+
+aside.note {
+    background: #bbb;
+    display: table;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5em;
+}
+
+/* eof */

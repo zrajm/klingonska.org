@@ -10,73 +10,93 @@ FIXME
 
 my $WIDTH = 79;
 my $PAGE_HEAD = <<"EOF";
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=en> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang=en> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang=en> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=en> <!--<![endif]-->
 <head>
-<title>Suffix Guide &ndash; Klingon Pocket Dictionary &ndash; Klingonska Akademien</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="geo.region" content="SE-C" />
-<meta name="geo.placename" content="Europe, Sweden, Uppsala, Kåbo" />
-<meta name="geo.position" content="59.845658;17.630797" />
-<link rel="stylesheet" type="text/css" href="../includes/dict-layouttable.css" />
-<link rel="stylesheet" type="text/css" href="../includes/dict-suffixguide.css" />
-<link rel="stylesheet" type="text/css" href="../includes/dict.css" />
-<link rel="stylesheet" type="text/css" href="../includes/page.css" />
-<link rel="stylesheet" type="text/css" href="../includes/pagestats.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Suffix Guide &ndash; Klingon Pocket Dictionary &ndash; Klingonska Akademien</title>
+  <meta name=viewport content="width=device-width">
+  <link rel=stylesheet href="../includes/base.css">
+  <link rel=stylesheet href="../includes/dict-layouttable.css">
+  <link rel=stylesheet href="../includes/dict-suffixguide.css">
+  <link rel=stylesheet href="../includes/dict.css">
+  <link rel=icon href="/favicon.ico">
+  <link rel=canonical href="http://klingonska.org/dict/suffix.html">
+  <script src="../includes/modernizr-2.5.3.js"></script>
 </head>
-<body>
+<body lang=en itemscope itemtype="http://schema.org/WebPage">
 
-<div id="head">
-<!-- begin:status -->
-<div id="pagestats">
-  <span id="crumbs">
-    <a href="http://klingonska.org/">Home</a> &gt;
-    <a href="http://klingonska.org/dict/">Klingon Pocket Dictionary</a> &gt;
-    <a href="http://klingonska.org/dict/suffix.html">Suffix Guide</a>
-  </span>
-  <span id="pubdate">
-    Updated <time pubdate datetime="2009-10-18T20:17">October 18, 2009</time>
-  </span>
-</div>
-<!-- end:status -->
+<header role=banner>
+  <!-- begin:status -->
+  <ul>
+    <li>
+      <nav itemprop=breadcrumb role=navigation>
+        <a href="http://klingonska.org/">Home</a> &gt;
+        <a href="http://klingonska.org/dict/">Klingon Pocket Dictionary</a> &gt;
+        <a href="http://klingonska.org/dict/suffix.html">Suffix Guide</a>
+      </nav>
+    </li>
+    <li>
+      Updated <time pubdate datetime="2012-11-10T00:50">November 10, 2012</time>
+    </li>
+  </ul>
+  <!-- end:status -->
+  <div>
+    <a href="../">
+      <table id=logotitle>
+        <td>
+          <span class=crop>
+            <img height=200 width=200 src="../pic/ka-logo.svg" alt="Klingonska Akademien">
+          </span>
+        </td>
+        <td>
+          <h1>Klingonska<span id=logospace>&nbsp;</span>Akademien</h1>
+        </td>
+      </table>
+    </a>
+  </div>
+</header>
 
-<table class="navigation">
-  <tr>
-    <td><a href="about.html">About</a></td>
-    <td><a href="intro.html">Introduction</a></td>
-    <td><a href="./">Lexicon</a></td>
-    <td><b>Suffix Guide</b></td>
-    <td><a href="tables.html">Reference Tables</a></td>
-  </tr>
-</table>
+<article role=main itemprop=mainContentOfPage>
+  <nav role=navigation class=tabs>
+    <a href="about.html">About</a>
+    <a href="intro.html">Introduction</a>
+    <a href="./">Lexicon</a>
+    <span>Suffix Guide</span>
+    <a href="tables.html">Reference Tables</a>
+  </nav>
 
-<a href="./"><img src="pic/title.gif" width="400" height="166" alt="tlhIngan Hol mu'ghom mach" /></a>
+<h1>Klingon Pocket Dictionary: Suffix Guide</h1>
 
-<h1>Klingon Pocket Dictionary: Suffix Guide</h1>
-
-<p class="note">The last pages of text from the book.</p>
-</div>
-
-<div id="main">
+<aside class=note>The last pages of text from the book.</aside>
 EOF
 
 my $PAGE_FOOT = <<"EOF";
-</div>
+</article>
 
-<div id="foot">
-<p class="copyright">©<time>1998</time>&ndash;<time>2010</time>, Copyright <!-- FIXME autogenerate dates -->
-<span class="author"><a href="mailto:zrajm\@klingonska.org">Zrajm C Akfohg</a></span>,
-<a href="http://klingonska.org/">Klingonska Akademien</a>, Uppsala.</p>
-<p class="validator">
-  Validate:
-  <a href="http://validator.w3.org/check?uri=http://klingonska.org/dict/suffix.html">XHTML</a>,
-  <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://klingonska.org/dict/suffix.html&amp;profile=css3">CSS3</a>,
-  <a href="http://validator.w3.org/checklink?uri=http://klingonska.org/dict/suffix.html">links</a>.
-  License:
-  <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">CC BY&ndash;SA</a>.&nbsp;
-</p>
-</div>
+<footer role=contentinfo>
+  <p class=copyright>©<time itemprop=copyrightYear>1998</time>&ndash;<time>2012</time> by
+    <a href="mailto:zrajm\@klingonska.org" rel=author itemprop=author>Zrajm C Akfohg</a>,
+    <a href="http://klingonska.org/" itemprop=sourceOrganization>Klingonska Akademien</a>, Uppsala
+  </p>
+  <p class=validator>
+    Validate:
+    <a href="http://validator.w3.org/check?uri=http://klingonska.org/">HTML5</a>,
+    <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://klingonska.org/&amp;profile=css3">CSS3</a>,
+    <a href="http://validator.w3.org/checklink?uri=http://klingonska.org/">links</a>.
+    License:
+    <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel=license>CC BY&ndash;SA</a>.&nbsp;
+  </p>
+</footer>
+<script>var _gaq=[['_setAccount','UA-5434527-2'],['_trackPageview']];
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+s.parentNode.insertBefore(g,s)}(document,'script'))</script>
+<script src="../includes/titlewrap.js"></script>
 </body>
 </html>
 EOF
@@ -90,6 +110,7 @@ EOF
     emdash          => sub { "&mdash;" },
     emphasis        => sub { "<em>" . shift() . "</em>" },
     endash          => sub { "&ndash;" },
+    section         => sub { "\n<section>" . shift() . "</section>\n" },
     head1           => sub { "\n" . wrap("<h2>" . shift() . "</h2>", $WIDTH) . "\n\n" },
     head2           => sub { wrap("<h2>" . shift() . "</h2>", $WIDTH) . "\n\n" },
     head3           => sub { wrap("<h3>" . shift() . "</h3>", $WIDTH) . "\n\n" },
@@ -107,44 +128,49 @@ EOF
     verbatim        => sub { "<pre>" . shift() . "</pre>\n\n" },
 
     # KA-specific
-    english         => sub { '<em class="translation">' . shift() . '</em>' 
-                                 #"<em class=\"en\">" . shift() . "</em>"
-                           },
-    klingon         => sub { #'<b lang="tlh">' . shift() . '</b>';
-                             my ($string) = @_;
-                             my $class = ($string =~ qr/(^-|-$)/)
-                                 ? ' class="affix"' : '';
-                             '<b lang="tlh"' . $class . '>' . regex(
-                                 hyphenate_tlh($string, "&shy;", "-"),
+    english         => sub { '<i class=translation>' . shift() . '</i>' },
+    klingon         => sub { #'<b lang=tlh>' . shift() . '</b>';
+                             my ($_) = @_;
+                             my $class = (m#(?:^-|-$)# ? ' class=nobr' : '');
+                             "<b$class lang=tlh>" . regex(
+                                 hyphenate_tlh($_, "&shy;", "-"),
                                  qr/'/,
-                                 "&rsquo;"
+                                 "&rsquo;",
                              ) . "</b>"
                            },
-    reference       => sub { '<small class="ref">[' . regex(shift(), qr/ /, " ") . ']</small>' },
-    suffix_guide    => sub { nl('<table class="suffixguide" border="1">', shift(), '</table>') },
-    sg_head1 => sub { nl(
-        '<tr class="head1">',
-        '  <td colspan="2"><h3>' . shift() . '</h3></td>',
+    reference       => sub { '<small class=ref>[' . regex(shift(), qr/ /, " ") . ']</small>' },
+    suffix_guide    => sub { nl('<table class="suffixguide noborder">', shift() . '</table>') },
+    sg_section1 => sub { indent(nl(
+        '<tr class=head1>',
+        '  <td colspan=2>' . shift() . '</td>',
         '</tr>',
-        '',
+    ), '  ') },
+    sg_section2 => sub { indent(nl(
+        '<tr class=head2>',
+        indent(shift() . '</td>', '  '),
+        '</tr>',
+    ), '  ') },
+    sg_section3 => sub { indent(nl(
+        '<tr class=head3>',
+        shift() . '</td>',
+        '</tr>',
+    ), '  ') },
+    sg_head1 => sub { '<h3>' . shift() . '</h3>' },
+    sg_head2 => sub { shift() },
+    sg_head3 => sub { indent(
+        "<td></td>\n" .
+        wrap('<td><h3>' . shift() . '</h3>', $WIDTH-2),
+        '  ',
     ) },
-    sg_head2 => sub { nl('<tr class="head2">', shift()) },
-    sg_head3 => sub { nl(
-        '<tr class="head3">',
-        '  <td></td>',
-        indent(wrap('<td><h3>' . shift() . '</h3>', $WIDTH-2), '  '),
-        ''
-    ) },
-    sg_paragraph    => sub { nl(
-        indent(wrap('<p>' . shift() . '</p>', $WIDTH-2, $WIDTH-4), '  ', '    '),
-        '',
-    ) },
-        sg_head1_type      => sub { '<span class="type">' . shift() . '.</span>' },
+    sg_paragraph => sub { "\n" . indent(nl(
+        wrap('<p>' . shift() . '</p>', $WIDTH-2, $WIDTH-4),
+    ), '  ', '    ') },
+        sg_head1_type      => sub { '<span class=type>' . shift() . '.</span>' },
         sg_head1_text      => sub { shift() . nl() },
         sg_head1_reference => sub { '    ' . shift() },
-        sg_head2_klingon   => sub { nl('  <td valign="top">' . shift() . '</td>') },
-        sg_head2_english   => sub { nl('  <td>' . shift()) },
-        sg_head2_reference => sub { nl('  ' . shift()) },
+        sg_head2_klingon   => sub { nl('<td valign=top>' . shift() . '</td>') },
+        sg_head2_english   => sub { '<td>' . shift() },
+        sg_head2_reference => sub { ' ' . shift() },
 }
 
 #[eof]
