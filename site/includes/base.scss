@@ -35,7 +35,7 @@ div.comment {
 }
 
 /* brief comments -- just a couple of words */
-span.comment {
+.light, span.comment {
     background: transparent;
     color: #888;
     vertical-align: top;

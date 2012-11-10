@@ -45,14 +45,14 @@ our %postprocess = (
 );
 
 our %field = (
-    tlh  => "Klingon",
+    tlh  => "Klingon word",
     warn => "Warning",
-    pos  => "PoS",
-    sv   => "Swedish",
-    en   => "English",
+    pos  => "Part-of-speech",
+    sv   => "Swedish translation",
+    en   => "English translation",
     desc => "Description",
-    def  => "Source",
-    ref  => "Used in",
+    def  => "Defining source",
+    ref  => "Referring source",
     com  => "Comment",
     pun  => "Pun",
     see  => "See also",
@@ -63,34 +63,41 @@ our %field = (
 );
 
 our @tips = (
-    "Hover over field name in search results to see its seach prefix.",
-    "With a prefix search (e.g. <b>tag:locative</b>) you only the specified field (here: <b>tag</b>).",
-    "Example: <b>def:HQ10:4</b> lists all words first occuring in " .
-        "<b lang=\"tlh\">HolQeD</b> issue 10:4.",
-    "Prefixes: <b>tlh:</b> = Klingon, <b>en:</b> = English, <b>sv:</b> = " .
-        "Swedish, <b>pos:</b> = part-of-speech",
-    "Prefixes: <b>com:</b> = comment, <b>def:</b> = defining source, " .
-        "<b>ref:</b> = source",
-    "Example: <b>tlh:*'egh</b> finds all Klingon words ending in " .
-        "<em>’egh</em>",
-    'Use <b>tag:klcp1</b> to find the <a ' .
-        'href="../klcp.html#_6">beginner’s words</a> from the <a ' .
-        'href="../klcp.html"><i>Klingon Language Certification Program</i></a>.',
-    "Example: <b>def:kgt</b> lists all words first defined in KGT.",
-    "Put <b>tlh:</b> before a word to search only Klingon definitions.",
-    "Put <b>sv:</b> before a word to search only Swedish translation.",
-    "Put <b>en:</b> before a word to search only English translation.",
-    'Use <b>pos:n</b> to search for <i>nouns,</i> <b>pos:v</b> for ' .
-        '<i>verbs</i> etc (see <i><a href="intro.html">Introduction</a></i> ' .
-        'for abbreviations).</i>',
-    'Use <b>pos:ns2</b> to find only <i>noun suffixes type 2</i> (use any ' .
-        'numbers 1&ndash;5).',
-    'Use <b>pos:vs1</b> to find only <i>verb suffixes type 1</i> (use ' .
-        'numbers <i>1&ndash;9</i> or letter <i>r</i>).',
-    'Use <b>pos:vsr</b> or <b>pos:rover</b> to search for <i>verb suffix ' .
-        'rovers</i>.',
-    'Use <b>*</b> to mean any sequence of letters.',
-    'Use quotes (<b>"…"</b>) to search for several words in a row.',
+    'Hover over a field in search results to see field description.',
+    'Use a search prefix (e.g. <a href="?q=tag:klcp1"><b>tag:klcp1</b></a>) ' .
+        'to search only a given field (here: <b>tag:</b>).',
+    'Use <a href="?q=def:HQ10:4"><b>def:HQ10:4</b></a> to lists all words ' .
+        'first occurring in <i><a href="../canon/2001-12-holqed-10-4.txt">' .
+        '<b lang=tlh>HolQeD</b> issue 10:4</a>.</i>',
+    'Prefixes: <b>tlh:</b> = Klingon, <b>en:</b> = English, <b>sv:</b> = ' .
+        'Swedish, <b>pos:</b> = part-of-speech.',
+    'Prefixes: <b>com:</b> = comment, <b>def:</b> = defining source, ' .
+        '<b>ref:</b> = referring source.',
+    'Use <a href="?q=tlh:*chuq"><b>tlh:*chuq</b></a> to finds all Klingon ' .
+        'words ending in <b>chuq.</b>',
+    'Use <a href="?q=tag:klcp1"><b>tag:klcp1</b></a> to find all ' .
+        '<a href="../klcp.html#_6">first level words</a> from the<br>' .
+        '<a href="../klcp.html"><i>Klingon Language Certification Program' .
+        '</i></a>.',
+    'Use <a href="?q=def:kgt"><b>def:kgt</b></a> to find all words first ' .
+        'occurring in <i><a href="../canon/1997-11-01-kgt.txt">KGT</a>.</i>',
+    'Put <b>tlh:</b> before a word to search only Klingon fields for it.',
+    'Put <b>en:</b> before a word to search only English fields for it.',
+    'Put <b>sv:</b> before a word to search only Swedish fields for it.',
+    'Use <b>pos:v</b> to search for <i>verbs</i> (see <i>' .
+        '<a href="intro.html#pos">Introduction</a></i> for other word ' .
+        'types).</i>',
+    'Use <a href="?q=pos:ns2"><b>pos:ns2</b></a> to find <i>noun suffixes '.
+        'type 2</i> (also try numbers <i>1&#8211;5</i>).',
+    'Use <a href="?q=pos:vs1"><b>pos:vs1</b></a> to find <i>verb suffixes ' .
+        'type 1</i> (also try letter <i>r,</i> and numbers <i>1&#8211;9</i>).',
+    'Use <a href="?q=pos:vsr"><b>pos:vsr</b></a> or <a href="?q=pos:rover">' .
+        '<b>pos:rover</b></a> to search for <i>verb suffix rovers.</i>',
+    'Use <b>*</b> to mean any sequence of letters when searching.',
+    'Use quotes (<b>"…"</b>) to search for several words after each other.',
+    'With multiple search words, all are needed for a match (e.g. ' .
+        '<a href="?q=en:battle pos:v"><b>en:battle pos:v</b></a>).',
+    'Search is never case sensetive, except with <b>tlh:</b> prefix.',
 );
 
 
@@ -145,7 +152,7 @@ sub read_dictionary {
 sub split_query {
     my ($query) = @_;
     # split query into words and quoted strings
-    my @subquery = $query =~ m/( [^\s"]+(?:"[^"]+"?)? | "[^"]+"? )/xg;
+    my @subquery = $query =~ m/([^\s"]+(?:"[^"]+"?)?|"[^"]+"?)/g;
     my %pos = (
         v    => qr/verb/,
         n    => qr/noun/,
@@ -221,10 +228,11 @@ EOF
 sub html_empty_page {
 return <<"EOF";
 
-<p>The book has both a Klingon&ndash;English, and an English&ndash;Klingon
-wordlist. These wordlists are automatically extracted from a simple text-based
-database, which is very easy to update. This database has been continuously
-updated and improved since it was created in late <time>1997</time>.</p>
+<p>The book has a Klingon&ndash;English, and an English&ndash;Klingon side. The
+wordlists are automatically generated from <a href="dict.zdb">a simple text
+based database</a>, which is human readable and easy to update. The database
+has been continuously updated and improved since it was created in late
+<time>1997</time>.</p>
 
 <table class="noborder layout">
   <tr>
@@ -240,34 +248,34 @@ updated and improved since it was created in late <time>1997</time>.</p>
   </tr>
   <tr>
     <td class=center><b>tlh:</b>…&nbsp;</td>
-    <td>search Klingon definitions <i>(case sensetive)</i></td>
+    <td>search Klingon words <i>(case sensetive)</i></td>
   </tr>
   <tr>
     <td class=center><b>en:</b>…&nbsp;</td>
-    <td>search English definitions</td>
+    <td>search English translations</td>
   </tr>
   <tr>
     <td class=center><b>sv:</b>…&nbsp;</td>
-    <td>search Swedish definitions</td>
+    <td>search Swedish translations</td>
   </tr>
   <tr>
     <td class=center><b>pos:</b>…&nbsp;</td>
-    <td>search part-of-speech field<br>(use abbrev from <i><a href="intro.html">Introduction</a></i>, <i>ns#,</i> <i>vs#</i> or free text)</td>
+    <td>search part-of-speech field<br>(use abbrev
+      from <i><a href="intro.html">Introduction</a></i>, <i>ns#,</i> <i>vs#</i>
+      or free text)</td>
   </tr>
   <tr>
     <td class=center><b>def:</b>…&nbsp;</td>
-    <td>search defining source references</td>
+    <td>search defining sources</td>
   </tr>
   <tr>
     <td class=center><b>ref:</b>…&nbsp;</td>
-    <td>search non-defining source references</td>
+    <td>search referring sources</td>
   </tr>
 </table>
 
-<p>Case does not matter when you search without using any of the above
-prefixes. However, when you search with the “tlh:” prefix, case <em>does</em>
-count, and <b lang=tlh>q</b> and <b lang=tlh>Q</b> regarded separate
-letters.</p>
+<p>Case <em>only</em> matters when you’re using the search prefix <b>tlh:</b>,
+otherwise all searches are case insensetive.</p>
 
 EOF
 }
@@ -441,7 +449,7 @@ print html_head() . html_form($query);
         $matches ++;
         # presentation
         s#([{}])# $1 eq "{" ? "<b lang=\"tlh\">" : "</b>" #ge;  # boldify
-        s#~(.*?)~#<em>$1</em>#g;      # apply italics
+        s#~(.*?)~#<i>$1</i>#g;      # apply italics
         s#(.*)¿\?(.*)#$1$2 (uncertain translation)#g;
         s/^\n//;
         foreach (split(/\n/, $_)) {
@@ -451,9 +459,11 @@ print html_head() . html_form($query);
                 @content = &{$postprocess{$field}}(@content);
                 next unless @content;
             }
-            push @output, "  <tr>\n",
-                "    <th title=\"Search prefix: $field\">" .
-                    (exists($field{$field}) ? $field{$field} : ucfirst($field)) . ":&nbsp;</th>\n",
+            push @output,
+                "  <tr title=\"" .
+                    (exists $field{$field} ? $field{$field} : ucfirst $field) .
+                    " (search prefix “$field:”)\">\n",
+                "    <th class=right><span class=light>$field:</span></th>\n",
                 "    <td>@content</td>\n",
                 "  </tr>";
         }
