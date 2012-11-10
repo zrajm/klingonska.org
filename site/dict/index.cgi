@@ -154,33 +154,33 @@ sub split_query {
     # split query into words and quoted strings
     my @subquery = $query =~ m/([^\s"]+(?:"[^"]+"?)?|"[^"]+"?)/g;
     my %pos = (
-        v    => qr/verb/,
-        n    => qr/noun/,
-        name => qr/name/,
-        adv  => qr/adverbial/,
-        conj => qr/conjunction/,
-        excl => qr/exclamation/,
-        num  => qr/numeral/,
-        pro  => qr/pronoun/,
-        ques => qr/question word/,
-        ns1  => qr/noun suffix type 1/,
-        ns2  => qr/noun suffix type 2/,
-        ns3  => qr/noun suffix type 3/,
-        ns4  => qr/noun suffix type 4/,
-        ns5  => qr/noun suffix type 5/,
-        vp   => qr/verb prefix/,
-        vsr  => qr/verb suffix type rover/,
-        vs1  => qr/verb suffix type 1/,
-        vs2  => qr/verb suffix type 2/,
-        vs3  => qr/verb suffix type 3/,
-        vs4  => qr/verb suffix type 4/,
-        vs5  => qr/verb suffix type 5/,
-        vs6  => qr/verb suffix type 6/,
-        vs7  => qr/verb suffix type 7/,
-        vs8  => qr/verb suffix type 8/,
-        vs9  => qr/verb suffix type 9/,
-        number => qr/numeral/,
-        rover  => qr/verb suffix type rover/,
+        v    => "verb",
+        n    => "noun",
+        name => "name",
+        adv  => "adverbial",
+        conj => "conjunction",
+        excl => "exclamation",
+        num  => "numeral",
+        pro  => "pronoun",
+        ques => "question word",
+        ns1  => "noun suffix type 1",
+        ns2  => "noun suffix type 2",
+        ns3  => "noun suffix type 3",
+        ns4  => "noun suffix type 4",
+        ns5  => "noun suffix type 5",
+        vp   => "verb prefix",
+        vsr  => "verb suffix type rover",
+        vs1  => "verb suffix type 1",
+        vs2  => "verb suffix type 2",
+        vs3  => "verb suffix type 3",
+        vs4  => "verb suffix type 4",
+        vs5  => "verb suffix type 5",
+        vs6  => "verb suffix type 6",
+        vs7  => "verb suffix type 7",
+        vs8  => "verb suffix type 8",
+        vs9  => "verb suffix type 9",
+        number => "numeral",
+        rover  => "verb suffix type rover",
     );
     # turn subqueries into regexes
     my $w = "[\\w']";                             # word character class
@@ -436,13 +436,13 @@ $query = decode("UTF-8", $query);   # UTF-8 decode it
 print html_head() . html_form($query);
 {
     # make list of page content
-    my @regex = split_query($query);
+    my @regex   = split_query($query);
     my @output  = ();
     my $matches = 0;
   WORD: foreach (read_dictionary("dict.zdb")) {
         # highlight matching words
         foreach my $regex (@regex) {
-            s#$regex#$1<mark>$2</mark># or next WORD;
+            s#$regex#$1<mark>$2</mark>#m or next WORD;
         }
         push @output, '  <tr><td colspan=2>&nbsp;</td></tr>' . "\n"
             if $matches > 0;
