@@ -32,39 +32,39 @@ similar project going on for <i>Das offizielle Wörterbuch Klingonisch,</i>
 way there, take a look at the [link page](links.html).
 
 <table>
-<tr><th colspan="3">Abbreviations</th></tr>
-<tr>
-  <td>·</td>
-  <td>denotes a space</td>
-</tr>
-<tr>
-  <td>p.</td>
-  <td>page</td>
-</tr>
-<tr>
-  <td>TKD</td>
-  <td><i>The Klingon Dictionary</i></td>
-</tr>
-<tr>
-  <td>TKDa</td>
-  <td>TKD Addendum</td>
-</tr>
-<tr>
-  <td>TKW</td>
-  <td><i>The Klingon Way</i></td>
-</tr>
-<tr>
-  <td>KGT</td>
-  <td><i>Klingon for the Galactic Traveler</i></td>
-</tr>
-<tr>
-  <td>E-K</td>
-  <td><i>English--Klingon</i> dictionary part</td>
-</tr>
-<tr>
-  <td>K-E</td>
-  <td><i>Klingon--English</i> dictionary part</td>
-</tr>
+  <tr><th colspan=2>Abbreviations</th></tr>
+  <tr>
+    <td>·</td>
+    <td>denotes a space</td>
+  </tr>
+  <tr>
+    <td>p.</td>
+    <td>page</td>
+  </tr>
+  <tr>
+    <td>TKD</td>
+    <td><i>The Klingon Dictionary</i></td>
+  </tr>
+  <tr>
+    <td>TKDa</td>
+    <td>TKD Addendum</td>
+  </tr>
+  <tr>
+    <td>TKW</td>
+    <td><i>The Klingon Way</i></td>
+  </tr>
+  <tr>
+    <td>KGT</td>
+    <td><i>Klingon for the Galactic Traveler</i></td>
+  </tr>
+  <tr>
+    <td>E-K</td>
+    <td><i>English--Klingon</i> dictionary part</td>
+  </tr>
+  <tr>
+    <td>K-E</td>
+    <td><i>Klingon--English</i> dictionary part</td>
+  </tr>
 </table>
 
 
@@ -82,579 +82,592 @@ are so small (most frequently only two or three words are missorted) that they
 do not in a significant way impede the reader's chances of finding the word
 he/she is looking for.
 
-Thanks go to Yehuda Ronen (2002-09-27) and Stevo (2004-01-24 and 2004-02-07)
+Thanks go to Yehuda Ronen (<nobr>2002-09-27</nobr>) and Stevo (<nobr>2004-01-24</nobr> and <nobr>2004-02-07</nobr>)
 for their contributions.
 
 <h3>General Errata</h3>
 
 <table class="sortable">
-<tr>
-  <th>Description</th>
-  <th>Source</th>
-  <th>Added</th>
-</tr>
-<tr>
-  <td>{lujpu'} lacks prefix, should be {jIlujpu'} (occur twice)</td>
-  <td>TKD p.29 / 3.3.5</td>
-  <td>1999-09-24<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{'e'} lacks hyphen, should be {-'e'}</td>
-  <td>TKD p.29 / 3.3.5</td>
-  <td>1999-09-24<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{-egh} lacks apostrophe, should be {-'egh}</td>
-  <td>TKD p.35 / 4.1.2</td>
-  <td>1999-09-24<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{-egh} lacks apostrophe, should be {-'egh}</td>
-  <td>TKD p.35 / 4.2.1</td>
-  <td>1999-09-24<wbr>(?)</td>
-</tr>
-<tr>
-  <td>"subject pronoun (0)" is wrong, should be "subject prefix (0)"</td>
-  <td>TKD p.39 / 4.2.5</td>
-  <td>2004-01-24</td>
-</tr>
-<tr>
-  <td>"{-taH} <i>continuous</i>." should not begin new paragraph</td>
-  <td>TKD p.43 / 4.3</td>
-  <td>2004-01-24</td>
-</tr>
-<tr>
-  <td>{-Do'} contains superfluous hyphen, should be {Do'}</td>
-  <td>TKD p.48 / 4.3</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{Hagh} is incorrectly used for "study", should be {HaD}</td>
-  <td>TKD p.48 / 4.3</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>"nine pronouns" is incorrect, should be "ten pronouns"</td>
-  <td>TKD p.51 / 5.1</td>
-  <td>1999-09-24<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{soH} is misspelled, should be {SoH}</td>
-  <td>TKD p.51 / 5.1</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{vaghSad} is misspelled, should be {vaghSaD}</td>
-  <td>TKD p.53 / 5.2</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{gama'} is misspelled, should be {qama'}</td>
-  <td>TKD p.56 / 5.4</td>
-  <td>2002-09-27</td>
-</tr>
-<tr>
-  <td>{jaghla'} (maybe?) lacks space, should be {jagh·la'}</td>
-  <td>TKD p.64 / 6.2.4</td>
-  <td>1999-09-24<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{qama'pu'·'e'} contains superfluous space, should be {qama'pu''e'}</td>
-  <td>TKD p.68 / 6.3</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{joh} is misspelled, should be {joH}</td>
-  <td>TKD p.78</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{matha'} is misspelled, should be {matHa'}</td>
-  <td>TKD p.78</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{Qaw'} is listed as noun, should be verb</td>
-  <td>TKD p.103 / K-E</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{tlhej} is listed as noun, should be verb</td>
-  <td>TKD p.118 / E-K</td>
-  <td>2000-11-12</td>
-</tr>
-<tr>
-  <td>{ghIchraj} has bad suffix, should be {ghIchlIj}</td>
-  <td>TKD p.170</td>
-  <td>2004-01-24</td>
-</tr>
-<tr>
-  <td><b>GHICH-raj</b> has bad suffix, should be <b>GHICH-lij</b></td>
-  <td>TKD p.170</td>
-  <td>2004-01-24</td>
-</tr>
-<tr>
-  <td>{quSDaQ} is misspelled, should be {quSDaq}</td>
-  <td>TKD p.171</td>
-  <td>1999-09-24<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{ba'·lu''a'} contains superfluous space, should be {ba'lu''a'}</td>
-  <td>TKD p.171</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{mIv·vam} contains superfluous space, should be {mIvvam}</td>
-  <td>TKD p.171</td>
-  <td>1999-09-24<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{loS·SaD} (maybe?) contains superfluous line break, should be {loSSaD}</td>
-  <td>TKD p.171</td>
-  <td>1999-09-24<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{jablu'DI'reH} is missing a space, should be {jablu'DI'·reH}</td>
-  <td>TKD p.171</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{naDev·vo'} contains superfluous space, should be {naDevvo'}</td>
-  <td>TKD p.172</td>
-  <td>1999-09-24<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{bIganmo'} is misspelled, should be {bIqanmo'}</td>
-  <td>TKD p.175 / 4.2.9</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{gan} is misspelled, should be {qan}</td>
-  <td>TKD p.175 / 4.2.9</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{naDqa'gha'ch} contains superfluous apostrophe, should be {naDqa'ghach}</td>
-  <td>TKD p.176 / 4.2.9</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{gar} is misspelled, should be {qar}</td>
-  <td>TKD p.179 / 6.4</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>"object&ndash;verb&ndash;noun" should be "object&ndash;verb&ndash;subject"</td>
-  <td>TKD p.179 / 6.7</td>
-  <td>2004-01-24</td>
-</tr>
-<tr>
-  <td>{HaqwI'·'e'} contains superfluous space, should be {HaqwI''e'}</td>
-  <td>TKD p.180 / 6.7</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{LeSSov} is misspelled, should be {leSSov}</td>
-  <td>TKDa p.182 / K-E</td>
-  <td>1999-09-24<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{sIbI'} is misspelled, should be {SIbI'}</td>
-  <td>TKDa p.184 / K-E</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{sIbI'} is misspelled, should be {SIbI'}</td>
-  <td>TKDa p.188 / E-K</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
+  <tr>
+    <th>Description</th>
+    <th>Source</th>
+    <th>Added</th>
+  </tr>
+  <tr>
+    <td>{lujpu'} lacks prefix, should be {jIlujpu'} (occur twice)</td>
+    <td class=nobr>TKD p.29/3.3.5</td>
+    <td class=nobr>1999-09-24 (?)</td>
+  </tr>
+  <tr>
+    <td>{'e'} lacks hyphen, should be {-'e'}</td>
+    <td class=nobr>TKD p.29/3.3.5</td>
+    <td class=nobr>1999-09-24 (?)</td>
+  </tr>
+  <tr>
+    <td>{-egh} lacks apostrophe, should be {-'egh}</td>
+    <td class=nobr>TKD p.35/4.1.2</td>
+    <td class=nobr>1999-09-24 (?)</td>
+  </tr>
+  <tr>
+    <td>{-egh} lacks apostrophe, should be {-'egh}</td>
+    <td class=nobr>TKD p.35/4.2.1</td>
+    <td class=nobr>1999-09-24 (?)</td>
+  </tr>
+  <tr>
+    <td>"subject pronoun (0)" is wrong, should be "subject prefix (0)"</td>
+    <td class=nobr>TKD p.39/4.2.5</td>
+    <td class=nobr>2004-01-24</td>
+  </tr>
+  <tr>
+    <td>"{-taH} <i>continuous</i>." should not begin new paragraph</td>
+    <td class=nobr>TKD p.43/4.3</td>
+    <td class=nobr>2004-01-24</td>
+  </tr>
+  <tr>
+    <td>{-Do'} contains superfluous hyphen, should be {Do'}</td>
+    <td class=nobr>TKD p.48/4.3</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{Hagh} is incorrectly used for "study", should be {HaD}</td>
+    <td class=nobr>TKD p.48/4.3</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>"nine pronouns" is incorrect, should be "ten pronouns"</td>
+    <td class=nobr>TKD p.51/5.1</td>
+    <td class=nobr>1999-09-24 (?)</td>
+  </tr>
+  <tr>
+    <td>{soH} is misspelled, should be {SoH}</td>
+    <td class=nobr>TKD p.51/5.1</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{vaghSad} is misspelled, should be {vaghSaD}</td>
+    <td class=nobr>TKD p.53/5.2</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{gama'} is misspelled, should be {qama'}</td>
+    <td class=nobr>TKD p.56/5.4</td>
+    <td class=nobr>2002-09-27</td>
+  </tr>
+  <tr>
+    <td>{jaghla'} (maybe?) lacks space, should be {jagh·la'}</td>
+    <td class=nobr>TKD p.64/6.2.4</td>
+    <td class=nobr>1999-09-24 (?)</td>
+  </tr>
+  <tr>
+    <td>{qama'pu'·'e'} contains superfluous space, should be {qama'pu''e'}</td>
+    <td class=nobr>TKD p.68/6.3</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{joh} is misspelled, should be {joH}</td>
+    <td class=nobr>TKD p.78</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{matha'} is misspelled, should be {matHa'}</td>
+    <td class=nobr>TKD p.78</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{Qaw'} is listed as noun, should be verb</td>
+    <td class=nobr>TKD p.103/K-E</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{tlhej} is listed as noun, should be verb</td>
+    <td class=nobr>TKD p.118/E-K</td>
+    <td class=nobr>2000-11-12</td>
+  </tr>
+  <tr>
+    <td>{ghIchraj} has bad suffix, should be {ghIchlIj}</td>
+    <td class=nobr>TKD p.170</td>
+    <td class=nobr>2004-01-24</td>
+  </tr>
+  <tr>
+    <td><b>GHICH-raj</b> has bad suffix, should be <b>GHICH-lij</b></td>
+    <td class=nobr>TKD p.170</td>
+    <td class=nobr>2004-01-24</td>
+  </tr>
+  <tr>
+    <td>{quSDaQ} is misspelled, should be {quSDaq}</td>
+    <td class=nobr>TKD p.171</td>
+    <td class=nobr>1999-09-24 (?)</td>
+  </tr>
+  <tr>
+    <td>{ba'·lu''a'} contains superfluous space, should be {ba'lu''a'}</td>
+    <td class=nobr>TKD p.171</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{mIv·vam} contains superfluous space, should be {mIvvam}</td>
+    <td class=nobr>TKD p.171</td>
+    <td class=nobr>1999-09-24 (?)</td>
+  </tr>
+  <tr>
+    <td>{loS·SaD} (maybe?) contains superfluous line break, should be {loSSaD}</td>
+    <td class=nobr>TKD p.171</td>
+    <td class=nobr>1999-09-24 (?)</td>
+  </tr>
+  <tr>
+    <td>{jablu'DI'reH} is missing a space, should be {jablu'DI'·reH}</td>
+    <td class=nobr>TKD p.171</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{naDev·vo'} contains superfluous space, should be {naDevvo'}</td>
+    <td class=nobr>TKD p.172</td>
+    <td class=nobr>1999-09-24 (?)</td>
+  </tr>
+  <tr>
+    <td>{bIganmo'} is misspelled, should be {bIqanmo'}</td>
+    <td class=nobr>TKD p.175/4.2.9</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{gan} is misspelled, should be {qan}</td>
+    <td class=nobr>TKD p.175/4.2.9</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{naDqa'gha'ch} contains superfluous apostrophe, should be {naDqa'ghach}</td>
+    <td class=nobr>TKD p.176/4.2.9</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{gar} is misspelled, should be {qar}</td>
+    <td class=nobr>TKD p.179/6.4</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>"object&ndash;verb&ndash;noun" should be "object&ndash;verb&ndash;subject"</td>
+    <td class=nobr>TKD p.179/6.7</td>
+    <td class=nobr>2004-01-24</td>
+  </tr>
+  <tr>
+    <td>{HaqwI'·'e'} contains superfluous space, should be {HaqwI''e'}</td>
+    <td class=nobr>TKD p.180/6.7</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{LeSSov} is misspelled, should be {leSSov}</td>
+    <td class=nobr>TKDa p.182/K-E</td>
+    <td class=nobr>1999-09-24 (?)</td>
+  </tr>
+  <tr>
+    <td>{sIbI'} is misspelled, should be {SIbI'}</td>
+    <td class=nobr>TKDa p.184/K-E</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{sIbI'} is misspelled, should be {SIbI'}</td>
+    <td class=nobr>TKDa p.188/E-K</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
 </table>
 
 
 <h3>Words Found Only in the Main Text</h3>
 
 <table class="sortable">
-<tr>
-  <th>Klingon</th>
-  <th>English</th>
-  <th>Source</th>
-</tr>
-<tr>
-  <td>{Do'Ha'}</td>
-  <td>be unfortunate, unlucky (v)</td>
-  <td>TKD p.1</td>
-</tr>
-<tr>
-  <td>{tIjwI'ghom}</td>
-  <td>boarding party (n)</td>
-  <td>TKD p.20,38</td>
-</tr>
-<tr>
-  <td>{tIjwI'}</td>
-  <td>boarder (n)</td>
-  <td>TKD p.20</td>
-</tr>
-<tr>
-  <td>{QI'yaH}</td>
-  <td>*?!#@ (curse) (excl)</td>
-  <td>TKD p.58</td>
-</tr>
-<tr>
-  <td>{ghuy'cha'}</td>
-  <td>*@$% (curse) (excl)</td>
-  <td>TKD p.58</td>
-</tr>
-<tr>
-  <td>{Qu'vatlh}</td>
-  <td>#*@! (curse) (excl)</td>
-  <td>TKD p.58</td>
-</tr>
-<tr>
-  <td>{mara}</td>
-  <td>Mara (name)</td>
-  <td>TKD p.58</td>
-</tr>
-<tr>
-  <td>{matlh}</td>
-  <td>Maltz (name)</td>
-  <td>TKD p.58</td>
-</tr>
-<tr>
-  <td>{qeng}</td>
-  <td>Kang (name)</td>
-  <td>TKD p.58</td>
-</tr>
-<tr>
-  <td>{qeylIS}</td>
-  <td>Kahless (name)</td>
-  <td>TKD p.58</td>
-</tr>
-<tr>
-  <td>{qolotlh}</td>
-  <td>Koloth (name)</td>
-  <td>TKD p.58</td>
-</tr>
-<tr>
-  <td>{qor}</td>
-  <td>Kor (name)</td>
-  <td>TKD p.58</td>
-</tr>
-<tr>
-  <td>{qoreQ}</td>
-  <td>Korax (name)</td>
-  <td>TKD p.58</td>
-</tr>
-<tr>
-  <td>{QaS}</td>
-  <td>Kras (name)</td>
-  <td>TKD p.58</td>
-</tr>
-<tr>
-  <td>{Qel}</td>
-  <td>Krell (name)</td>
-  <td>TKD p.58</td>
-</tr>
-<tr>
-  <td>{Qugh}</td>
-  <td>Kruge (name)</td>
-  <td>TKD p.58</td>
-</tr>
-<tr>
-  <td>{torgh}</td>
-  <td>Torg (name)</td>
-  <td>TKD p.58</td>
-</tr>
-<tr>
-  <td>{valQIS}</td>
-  <td>Valkris (name)</td>
-  <td>TKD p.58</td>
-</tr>
-<tr>
-  <td>{nepwI'}</td>
-  <td>liar (n)</td>
-  <td>TKDa p.175</td>
-</tr>
-<tr>
-  <td>{lo'laHghach}</td>
-  <td>value (n)</td>
-  <td>TKDa p.176</td>
-</tr>
-<tr>
-  <td>{lo'laHbe'ghach}</td>
-  <td>worthlessness (n)</td>
-  <td>TKDa p.176</td>
-</tr>
+  <tr>
+    <th>Klingon</th>
+    <th>English</th>
+    <th>Source</th>
+  </tr>
+  <tr>
+    <td>{Do'Ha'}</td>
+    <td>be unfortunate, unlucky (v)</td>
+    <td>TKD p.1</td>
+  </tr>
+  <tr>
+    <td>{tIjwI'ghom}</td>
+    <td>boarding party (n)</td>
+    <td>TKD p.20,38</td>
+  </tr>
+  <tr>
+    <td>{tIjwI'}</td>
+    <td>boarder (n)</td>
+    <td>TKD p.20</td>
+  </tr>
+  <tr>
+    <td>{QI'yaH}</td>
+    <td>*?!#@ (curse) (excl)</td>
+    <td>TKD p.58</td>
+  </tr>
+  <tr>
+    <td>{ghuy'cha'}</td>
+    <td>*@$% (curse) (excl)</td>
+    <td>TKD p.58</td>
+  </tr>
+  <tr>
+    <td>{Qu'vatlh}</td>
+    <td>#*@! (curse) (excl)</td>
+    <td>TKD p.58</td>
+  </tr>
+  <tr>
+    <td>{mara}</td>
+    <td>Mara (name)</td>
+    <td>TKD p.58</td>
+  </tr>
+  <tr>
+    <td>{matlh}</td>
+    <td>Maltz (name)</td>
+    <td>TKD p.58</td>
+  </tr>
+  <tr>
+    <td>{qeng}</td>
+    <td>Kang (name)</td>
+    <td>TKD p.58</td>
+  </tr>
+  <tr>
+    <td>{qeylIS}</td>
+    <td>Kahless (name)</td>
+    <td>TKD p.58</td>
+  </tr>
+  <tr>
+    <td>{qolotlh}</td>
+    <td>Koloth (name)</td>
+    <td>TKD p.58</td>
+  </tr>
+  <tr>
+    <td>{qor}</td>
+    <td>Kor (name)</td>
+    <td>TKD p.58</td>
+  </tr>
+  <tr>
+    <td>{qoreQ}</td>
+    <td>Korax (name)</td>
+    <td>TKD p.58</td>
+  </tr>
+  <tr>
+    <td>{QaS}</td>
+    <td>Kras (name)</td>
+    <td>TKD p.58</td>
+  </tr>
+  <tr>
+    <td>{Qel}</td>
+    <td>Krell (name)</td>
+    <td>TKD p.58</td>
+  </tr>
+  <tr>
+    <td>{Qugh}</td>
+    <td>Kruge (name)</td>
+    <td>TKD p.58</td>
+  </tr>
+  <tr>
+    <td>{torgh}</td>
+    <td>Torg (name)</td>
+    <td>TKD p.58</td>
+  </tr>
+  <tr>
+    <td>{valQIS}</td>
+    <td>Valkris (name)</td>
+    <td>TKD p.58</td>
+  </tr>
+  <tr>
+    <td>{nepwI'}</td>
+    <td>liar (n)</td>
+    <td>TKDa p.175</td>
+  </tr>
+  <tr>
+    <td>{lo'laHghach}</td>
+    <td>value (n)</td>
+    <td>TKDa p.176</td>
+  </tr>
+  <tr>
+    <td>{lo'laHbe'ghach}</td>
+    <td>worthlessness (n)</td>
+    <td>TKDa p.176</td>
+  </tr>
 
 
-<tr>
-  <td>{naDqa'ghach}</td>
-  <td>re-commendation (n)</td>
-  <td>TKDa p.176</td>
-</tr>
-<tr>
-  <td>{petaQ}</td>
-  <td>(epithetical curse) (excl)</td>
-  <td>TKDa p.178</td>
-</tr>
-<tr>
-  <td>{toDSaH}</td>
-  <td>(epithetical curse) (excl)</td>
-  <td>TKDa p.178</td>
-</tr>
-<tr>
-  <td>{taHqeq}</td>
-  <td>(epithetical curse) (excl)</td>
-  <td>TKDa p.178</td>
-</tr>
-<tr>
-  <td>{yIntagh}</td>
-  <td>(epithetical curse) (excl)</td>
-  <td>TKDa p.178</td>
-</tr>
-<tr>
-  <td>{Qovpatlh}</td>
-  <td>(epithetical curse) (excl)</td>
-  <td>TKDa p.178</td>
-</tr>
-<tr>
-  <td>{va}</td>
-  <td>(invective curse) (excl)</td>
-  <td>TKDa p.178</td>
-</tr>
-<tr>
-  <td>{ghay'cha'}</td>
-  <td>(invective curse) (excl)</td>
-  <td>TKDa p.178</td>
-</tr>
-<tr>
-  <td>{baQa'}</td>
-  <td>(invective curse) (excl)</td>
-  <td>TKDa p.178</td>
-</tr>
-<tr>
-  <td>{Hu'tegh}</td>
-  <td>(invective curse) (excl)</td>
-  <td>TKDa p.178</td>
-</tr>
-<tr>
-  <td>{Qu'vatlh}</td>
-  <td>(invective curse) (excl)</td>
-  <td>TKDa p.178</td>
-</tr>
+  <tr>
+    <td>{naDqa'ghach}</td>
+    <td>re-commendation (n)</td>
+    <td>TKDa p.176</td>
+  </tr>
+  <tr>
+    <td>{petaQ}</td>
+    <td>(epithetical curse) (excl)</td>
+    <td>TKDa p.178</td>
+  </tr>
+  <tr>
+    <td>{toDSaH}</td>
+    <td>(epithetical curse) (excl)</td>
+    <td>TKDa p.178</td>
+  </tr>
+  <tr>
+    <td>{taHqeq}</td>
+    <td>(epithetical curse) (excl)</td>
+    <td>TKDa p.178</td>
+  </tr>
+  <tr>
+    <td>{yIntagh}</td>
+    <td>(epithetical curse) (excl)</td>
+    <td>TKDa p.178</td>
+  </tr>
+  <tr>
+    <td>{Qovpatlh}</td>
+    <td>(epithetical curse) (excl)</td>
+    <td>TKDa p.178</td>
+  </tr>
+  <tr>
+    <td>{va}</td>
+    <td>(invective curse) (excl)</td>
+    <td>TKDa p.178</td>
+  </tr>
+  <tr>
+    <td>{ghay'cha'}</td>
+    <td>(invective curse) (excl)</td>
+    <td>TKDa p.178</td>
+  </tr>
+  <tr>
+    <td>{baQa'}</td>
+    <td>(invective curse) (excl)</td>
+    <td>TKDa p.178</td>
+  </tr>
+  <tr>
+    <td>{Hu'tegh}</td>
+    <td>(invective curse) (excl)</td>
+    <td>TKDa p.178</td>
+  </tr>
+  <tr>
+    <td>{Qu'vatlh}</td>
+    <td>(invective curse) (excl)</td>
+    <td>TKDa p.178</td>
+  </tr>
 </table>
 
 
 <h3>Words Found Only in the Klingon&ndash;English Dictionary Part</h3>
 
 <table class="sortable">
-<tr>
-  <th>Klingon</th>
-  <th>English</th>
-</tr>
-<tr>
-  <td>{DenIb}</td>
-  <td>Denebia (n)</td>
-</tr>
-<tr>
-  <td>{DenIbngan}</td>
-  <td>Denebian (n)</td>
-</tr>
-<tr>
-  <td>{DenIb Qatlh}</td>
-  <td>Denebian slime devil (n)</td>
-</tr>
-<tr>
-  <td>{Dugh}</td>
-  <td>be vigilant (v)</td>
-</tr>
-<tr>
-  <td>{Hu}</td>
-  <td>zoo (n)</td>
-</tr>
-<tr>
-  <td>{jIj}</td>
-  <td>cooperate (v)</td>
-</tr>
-<tr>
-  <td>{luH}</td>
-  <td>yank (v)</td>
-</tr>
-<tr>
-  <td>{mojaq}</td>
-  <td>suffix (n)</td>
-</tr>
-<tr>
-  <td>{muj}</td>
-  <td>be wrong (v)</td>
-</tr>
-<tr>
-  <td>{naw'}</td>
-  <td>access (v)</td>
-</tr>
-<tr>
-  <td>{ne'}</td>
-  <td>yeoman (n)</td>
-</tr>
-<tr>
-  <td>{nogh}</td>
-  <td>writhe (v)</td>
-</tr>
-<tr>
-  <td>{pIvlob}</td>
-  <td>warp factor (n)</td>
-</tr>
-<tr>
-  <td>{pujmoH}</td>
-  <td>weaken (v)</td>
-</tr>
-<tr>
-  <td>{pujwI'}</td>
-  <td>weakling (n)</td>
-</tr>
-<tr>
-  <td>{puy}</td>
-  <td>wreck (v)</td>
-</tr>
-<tr>
-  <td>{QID}</td>
-  <td>wound (v)</td>
-</tr>
-<tr>
-  <td>{Qoj}</td>
-  <td>make war (v)</td>
-</tr>
-<tr>
-  <td>{rIp}</td>
-  <td>council, assembly (n)</td>
-</tr>
-<tr>
-  <td>{SIv}</td>
-  <td>wonder (v)</td>
-</tr>
-<tr>
-  <td>{taQ}</td>
-  <td>be weird (v)</td>
-</tr>
-<tr>
-  <td>{tel}</td>
-  <td>wing (n)</td>
-</tr>
-<tr>
-  <td>{tlhov}</td>
-  <td>wheeze (v)</td>
-</tr>
-<tr>
-  <td>{tlhup}</td>
-  <td>whisper (v)</td>
-</tr>
-<tr>
-  <td>{vengHom}</td>
-  <td>village (n)</td>
-</tr>
-<tr>
-  <td>{vIng}</td>
-  <td>whine (v)</td>
-</tr>
-<tr>
-  <td>{wem}</td>
-  <td>violate (v)</td>
-</tr>
-<tr>
-  <td>{wem}</td>
-  <td>violation (n)</td>
-</tr>
-<tr>
-  <td>{ngav}</td>
-  <td>writer's cramp (n)</td>
-</tr>
-<tr>
-  <td>{yIQ}</td>
-  <td>be wet (v)</td>
-</tr>
-<tr>
-  <td>{yu'egh}</td>
-  <td>wave (n)</td>
-</tr>
-<tr>
-  <td>{'orghen}</td>
-  <td>Organia (n)</td>
-</tr>
-<tr>
-  <td>{'orghen rojmab}</td>
-  <td>Organian Peace Treaty (n)</td>
-</tr>
-<tr>
-  <td>{'orghengan}</td>
-  <td>Organian (n)</td>
-</tr>
+  <tr>
+    <th>Klingon</th>
+    <th>English</th>
+  </tr>
+  <tr>
+    <td>{DenIb}</td>
+    <td>Denebia (n)</td>
+  </tr>
+  <tr>
+    <td>{DenIbngan}</td>
+    <td>Denebian (n)</td>
+  </tr>
+  <tr>
+    <td>{DenIb Qatlh}</td>
+    <td>Denebian slime devil (n)</td>
+  </tr>
+  <tr>
+    <td>{Dugh}</td>
+    <td>be vigilant (v)</td>
+  </tr>
+  <tr>
+    <td>{Hu}</td>
+    <td>zoo (n)</td>
+  </tr>
+  <tr>
+    <td>{jIj}</td>
+    <td>cooperate (v)</td>
+  </tr>
+  <tr>
+    <td>{luH}</td>
+    <td>yank (v)</td>
+  </tr>
+  <tr>
+    <td>{mojaq}</td>
+    <td>suffix (n)</td>
+  </tr>
+  <tr>
+    <td>{muj}</td>
+    <td>be wrong (v)</td>
+  </tr>
+  <tr>
+    <td>{naw'}</td>
+    <td>access (v)</td>
+  </tr>
+  <tr>
+    <td>{ne'}</td>
+    <td>yeoman (n)</td>
+  </tr>
+  <tr>
+    <td>{nogh}</td>
+    <td>writhe (v)</td>
+  </tr>
+  <tr>
+    <td>{pIvlob}</td>
+    <td>warp factor (n)</td>
+  </tr>
+  <tr>
+    <td>{pujmoH}</td>
+    <td>weaken (v)</td>
+  </tr>
+  <tr>
+    <td>{pujwI'}</td>
+    <td>weakling (n)</td>
+  </tr>
+  <tr>
+    <td>{puy}</td>
+    <td>wreck (v)</td>
+  </tr>
+  <tr>
+    <td>{QID}</td>
+    <td>wound (v)</td>
+  </tr>
+  <tr>
+    <td>{Qoj}</td>
+    <td>make war (v)</td>
+  </tr>
+  <tr>
+    <td>{rIp}</td>
+    <td>council, assembly (n)</td>
+  </tr>
+  <tr>
+    <td>{SIv}</td>
+    <td>wonder (v)</td>
+  </tr>
+  <tr>
+    <td>{taQ}</td>
+    <td>be weird (v)</td>
+  </tr>
+  <tr>
+    <td>{tel}</td>
+    <td>wing (n)</td>
+  </tr>
+  <tr>
+    <td>{tlhov}</td>
+    <td>wheeze (v)</td>
+  </tr>
+  <tr>
+    <td>{tlhup}</td>
+    <td>whisper (v)</td>
+  </tr>
+  <tr>
+    <td>{vengHom}</td>
+    <td>village (n)</td>
+  </tr>
+  <tr>
+    <td>{vIng}</td>
+    <td>whine (v)</td>
+  </tr>
+  <tr>
+    <td>{wem}</td>
+    <td>violate (v)</td>
+  </tr>
+  <tr>
+    <td>{wem}</td>
+    <td>violation (n)</td>
+  </tr>
+  <tr>
+    <td>{ngav}</td>
+    <td>writer's cramp (n)</td>
+  </tr>
+  <tr>
+    <td>{yIQ}</td>
+    <td>be wet (v)</td>
+  </tr>
+  <tr>
+    <td>{yu'egh}</td>
+    <td>wave (n)</td>
+  </tr>
+  <tr>
+    <td>{'orghen}</td>
+    <td>Organia (n)</td>
+  </tr>
+  <tr>
+    <td>{'orghen rojmab}</td>
+    <td>Organian Peace Treaty (n)</td>
+  </tr>
+  <tr>
+    <td>{'orghengan}</td>
+    <td>Organian (n)</td>
+  </tr>
 </table>
 
 
 <h3>Words Found Only in the English&ndash;Klingon Dictionary Part</h3>
 
 <table class="sortable">
-<tr>
-  <th>English</th>
-  <th>Klingon</th>
-</tr>
-<tr>
-  <td>access (n)</td>
-  <td>{naw'}</td>
-</tr>
-<tr>
-  <td>clip (v)</td>
-  <td>{poDmoH}</td>
-</tr>
-<tr>
-  <td>cooperate (v)</td>
-  <td>{yeq}</td>
-</tr>
-<tr>
-  <td>Denebia (n)</td>
-  <td>{DenIbya'}</td>
-</tr>
-<tr>
-  <td>Denebian (n)</td>
-  <td>{DenIbya'ngan}</td>
-</tr>
-<tr>
-  <td>Denebian slime devil (n)</td>
-  <td>{DenIbya' Qatlh}</td>
-</tr>
-<tr>
-  <td>drool (v)</td>
-  <td>{bol}</td>
-</tr>
-<tr>
-  <td>Organia (n)</td>
-  <td>{'orghenya'}</td>
-</tr>
-<tr>
-  <td>Organian (n)</td>
-  <td>{'orghenya'ngan}</td>
-</tr>
-<tr>
-  <td>Organian Peace Treaty (n)</td>
-  <td>{'orghenya' rojmab}</td>
-</tr>
-<tr>
-  <td>permit (n)</td>
-  <td>{chaw'}</td>
-</tr>
-<tr>
-  <td>suffix (n)</td>
-  <td>{mojaQ}</td>
-</tr>
-<tr>
-  <td>traitor (n)</td>
-  <td>{'urwI'}</td>
-  <td>TKDa</td>
-</tr>
-<tr>
-  <td>treason, commit treason (v)</td>
-  <td>{'ur}</td>
-  <td>TKDa</td>
-</tr>
+  <tr>
+    <th>English</th>
+    <th>Klingon</th>
+    <th>Source</th>
+  </tr>
+  <tr>
+    <td>access (n)</td>
+    <td>{naw'}</td>
+    <td>TKD</td>
+  </tr>
+  <tr>
+    <td>clip (v)</td>
+    <td>{poDmoH}</td>
+    <td>TKD</td>
+  </tr>
+  <tr>
+    <td>cooperate (v)</td>
+    <td>{yeq}</td>
+    <td>TKD</td>
+  </tr>
+  <tr>
+    <td>Denebia (n)</td>
+    <td>{DenIbya'}</td>
+    <td>TKD</td>
+  </tr>
+  <tr>
+    <td>Denebian (n)</td>
+    <td>{DenIbya'ngan}</td>
+    <td>TKD</td>
+  </tr>
+  <tr>
+    <td>Denebian slime devil (n)</td>
+    <td>{DenIbya' Qatlh}</td>
+    <td>TKD</td>
+  </tr>
+  <tr>
+    <td>drool (v)</td>
+    <td>{bol}</td>
+    <td>TKD</td>
+  </tr>
+  <tr>
+    <td>Organia (n)</td>
+    <td>{'orghenya'}</td>
+    <td>TKD</td>
+  </tr>
+  <tr>
+    <td>Organian (n)</td>
+    <td>{'orghenya'ngan}</td>
+    <td>TKD</td>
+  </tr>
+  <tr>
+    <td>Organian Peace Treaty (n)</td>
+    <td>{'orghenya' rojmab}</td>
+    <td>TKD</td>
+  </tr>
+  <tr>
+    <td>permit (n)</td>
+    <td>{chaw'}</td>
+    <td>TKD</td>
+  </tr>
+  <tr>
+    <td>suffix (n)</td>
+    <td>{mojaQ}</td>
+    <td>TKD</td>
+  </tr>
+  <tr>
+    <td>traitor (n)</td>
+    <td>{'urwI'}</td>
+    <td>TKDa</td>
+  </tr>
+  <tr>
+    <td>treason, commit treason (v)</td>
+    <td>{'ur}</td>
+    <td>TKDa</td>
+  </tr>
 </table>
 
 [CK] Conversational Klingon (Audio Cassette)
@@ -676,21 +689,21 @@ word on the tape.
 <h3>New Words on the Tape</h3>
 
 <table class="sortable">
-<tr>
-  <th>Klingon</th>
-  <th>English</th>
-  <th>Added</th>
-</tr>
-<tr>
-  <td>{ngagh}</td>
-  <td>mate with (v)</td>
-  <td>2000-11-12<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{mIp}</td>
-  <td>wealth (n)</td>
-  <td>2000-11-12<wbr>(?)</td>
-</tr>
+  <tr>
+    <th>Klingon</th>
+    <th>English</th>
+    <th>Added</th>
+  </tr>
+  <tr>
+    <td>{ngagh}</td>
+    <td>mate with (v)</td>
+    <td class=nobr>2000-11-12 (?)</td>
+  </tr>
+  <tr>
+    <td>{mIp}</td>
+    <td>wealth (n)</td>
+    <td class=nobr>2000-11-12 (?)</td>
+  </tr>
 </table>
 
 [TKW] The Klingon Way (Book)
@@ -702,7 +715,7 @@ printing, I haven't been able to confirm this, so please if you have the second
 printing of the book, please compare it with the table below and report any
 differences [to me](mailto:zrajm@klingonska.org).)
 
-<b>2004-02-07</b>:
+<b><nobr>2004-02-07</nobr></b>:
 [Stevo](mailto:morphemeaddict@wmconnect.com) reports that all the errors in the
 first printing (or at least all errors found and presented in the table below)
 have been corrected, except for the error on page 129 which, even though it has
@@ -712,57 +725,57 @@ been altered, still contains an error.
 <h3>Errata for 1st Printing</h3>
 
 <table class="sortable">
-<tr>
-  <th>Description</th>
-  <th>Source</th>
-  <th>Added</th>
-</tr>
-<tr>
-  <td>{vangIu'taHvIS} is misspelled, should be {vanglu'taHvIS}</td>
-  <td>KGT p.55</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{HubtaHuIS} is misspelled, should be {HubtaHvIS}</td>
-  <td>KGT p.74</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{IloD} is misspelled, should be {loD}</td>
-  <td>KGT p.127</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{HeghIu'chugh} is misspelled, should be {Heghlu'chugh}</td>
-  <td>KGT p.129</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{cheqotIhchugh} is misspelled, should be {cheqotlhchugh}</td>
-  <td>KGT p.131</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{qatIh} is misspelled, should be {qatlh}</td>
-  <td>KGT p.135</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
+  <tr>
+    <th>Description</th>
+    <th>Source</th>
+    <th>Added</th>
+  </tr>
+  <tr>
+    <td>{vangIu'taHvIS} is misspelled, should be {vanglu'taHvIS}</td>
+    <td class=nobr>KGT p.55</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{HubtaHuIS} is misspelled, should be {HubtaHvIS}</td>
+    <td class=nobr>KGT p.74</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{IloD} is misspelled, should be {loD}</td>
+    <td class=nobr>KGT p.127</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{HeghIu'chugh} is misspelled, should be {Heghlu'chugh}</td>
+    <td class=nobr>KGT p.129</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{cheqotIhchugh} is misspelled, should be {cheqotlhchugh}</td>
+    <td class=nobr>KGT p.131</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{qatIh} is misspelled, should be {qatlh}</td>
+    <td class=nobr>KGT p.135</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
 </table>
 
 
 <h3>Errata for 2nd Printing</h3>
 
 <table class="sortable">
-<tr>
-  <th>Description</th>
-  <th>Source</th>
-  <th>Added</th>
-</tr>
-<tr>
-  <td>{HeghLu'chugh} is misspelled, should be {Heghlu'chugh}</td>
-  <td>KGT p.129</td>
-  <td>2004-02-07</td>
-</tr>
+  <tr>
+    <th>Description</th>
+    <th>Source</th>
+    <th>Added</th>
+  </tr>
+  <tr>
+    <td>{HeghLu'chugh} is misspelled, should be {Heghlu'chugh}</td>
+    <td class=nobr>KGT p.129</td>
+    <td class=nobr>2004-02-07</td>
+  </tr>
 </table>
 
 
@@ -774,590 +787,590 @@ All the errors added to this list <time datetime="2001-08-17">August 17,
 2001</time> were reported by Lieven L. Litaer (a fellow German klingonist).
 
 <table class="sortable">
-<tr>
-  <th>Description</th>
-  <th>Source</th>
-  <th>Added</th>
-</tr>
-<tr>
-  <td>{qImlaq·la''e} is misspelled, should be {qImlaq·la''e'}</td>
-  <td>KGT p.53</td>
-  <td>2001-08-17</td>
-</tr>
-<tr>
-  <td>{nISwI'·bej} is misspelled, should be {nISwI'·beH}</td>
-  <td>KGT p.56</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{pu'bej} is misspelled, should be {pu'beH}</td>
-  <td>KGT p.56</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{nISwI'·bej} is misspelled, should be {nISwI'·beH}</td>
-  <td>KGT p.80</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{wI'oj} is incorrect, should be {ma'oj}</td>
-  <td>KGT p.102</td>
-  <td>2001-08-17</td>
-</tr>
-<tr>
-  <td>{HenrI'} should be written in boldface</td>
-  <td>KGT p.126</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{qan;·QI'tu'} is missing a word, should be {qan;·QI'tu'·rur}</td>
-  <td>KGT p.130</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{tIb} (<i>be nervous, uneasy</i>) is misspelled, should be {bIt}</td>
-  <td>KGT p.132</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{Sagh;·Ho''oy'} is missing a word, should be {Sagh;·Ho''oy'·rur}</td>
-  <td>KGT p.133</td>
-  <td>1998-09-22<wbr>(?)</td>
-</tr>
-<tr>
-  <td>{maghwI} is misspelled, should be {maghwI'}</td>
-  <td>KGT p.157</td>
-  <td>2001-08-17</td>
-</tr>
-<tr>
-  <td>{mu'mey qhoQ} is misspelled, should be {mu'mey ghoQ}</td>
-  <td>KGT p.220 / K-E</td>
-  <td>2001-08-18</td>
-</tr>
-<tr>
-  <td>{mu'mey qhoQ} lacks part-of-speech, should be "(n)"</td>
-  <td>KGT p.220 / K-E</td>
-  <td>2001-08-18</td>
-</tr>
-<tr>
-  <td>{neHjej} is misspelled, should be {naHjej}</td>
-  <td>KGT p.221 / K-E</td>
-  <td>2001-08-17</td>
-</tr>
-<tr>
-  <td>{ngop} has incorrect part-of-speech, should be "(n)"</td>
-  <td>KGT p.222 / K-E</td>
-  <td>2001-08-17</td>
-</tr>
-<tr>
-  <td>{SaS} not fully defined, should be marked "(slang)"</td>
-  <td>KGT p.251 / E-K</td>
-  <td>2001-08-17</td>
-</tr>
-<tr>
-  <td>{paramaqqay} is misspelled, should be {parmaqqay}</td>
-  <td>KGT p.255 / E-K</td>
-  <td>2001-08-17</td>
-</tr>
+  <tr>
+    <th>Description</th>
+    <th>Source</th>
+    <th>Added</th>
+  </tr>
+  <tr>
+    <td>{qImlaq·la''e} is misspelled, should be {qImlaq·la''e'}</td>
+    <td class=nobr>KGT p.53</td>
+    <td class=nobr>2001-08-17</td>
+  </tr>
+  <tr>
+    <td>{nISwI'·bej} is misspelled, should be {nISwI'·beH}</td>
+    <td class=nobr>KGT p.56</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{pu'bej} is misspelled, should be {pu'beH}</td>
+    <td class=nobr>KGT p.56</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{nISwI'·bej} is misspelled, should be {nISwI'·beH}</td>
+    <td class=nobr>KGT p.80</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{wI'oj} is incorrect, should be {ma'oj}</td>
+    <td class=nobr>KGT p.102</td>
+    <td class=nobr>2001-08-17</td>
+  </tr>
+  <tr>
+    <td>{HenrI'} should be written in boldface</td>
+    <td class=nobr>KGT p.126</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{qan;·QI'tu'} is missing a word, should be {qan;·QI'tu'·rur}</td>
+    <td class=nobr>KGT p.130</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{tIb} (<i>be nervous, uneasy</i>) is misspelled, should be {bIt}</td>
+    <td class=nobr>KGT p.132</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{Sagh;·Ho''oy'} is missing a word, should be {Sagh;·Ho''oy'·rur}</td>
+    <td class=nobr>KGT p.133</td>
+    <td class=nobr>1998-09-22 (?)</td>
+  </tr>
+  <tr>
+    <td>{maghwI} is misspelled, should be {maghwI'}</td>
+    <td class=nobr>KGT p.157</td>
+    <td class=nobr>2001-08-17</td>
+  </tr>
+  <tr>
+    <td>{mu'mey qhoQ} is misspelled, should be {mu'mey ghoQ}</td>
+    <td class=nobr>KGT p.220/<wbr>K-E</td>
+    <td class=nobr>2001-08-18</td>
+  </tr>
+  <tr>
+    <td>{mu'mey qhoQ} lacks part-of-speech, should be "(n)"</td>
+    <td class=nobr>KGT p.220/<wbr>K-E</td>
+    <td class=nobr>2001-08-18</td>
+  </tr>
+  <tr>
+    <td>{neHjej} is misspelled, should be {naHjej}</td>
+    <td class=nobr>KGT p.221/<wbr>K-E</td>
+    <td class=nobr>2001-08-17</td>
+  </tr>
+  <tr>
+    <td>{ngop} has incorrect part-of-speech, should be "(n)"</td>
+    <td class=nobr>KGT p.222/<wbr>K-E</td>
+    <td class=nobr>2001-08-17</td>
+  </tr>
+  <tr>
+    <td>{SaS} not fully defined, should be marked "(slang)"</td>
+    <td class=nobr>KGT p.251/<wbr>E-K</td>
+    <td class=nobr>2001-08-17</td>
+  </tr>
+  <tr>
+    <td>{paramaqqay} is misspelled, should be {parmaqqay}</td>
+    <td class=nobr>KGT p.255/<wbr>E-K</td>
+    <td class=nobr>2001-08-17</td>
+  </tr>
 </table>
 
 
 <h3>Words Found Only in the Main Text</h3>
 
 <table class="sortable">
-<tr>
-  <th>Klingon</th>
-  <th>English</th>
-  <th>Source</th>
-</tr>
-<tr>
-  <td>{veng wa'DIch}</td>
-  <td>First City (capital of Kronos) (n)</td>
-  <td>KGT p.10,17</td>
-</tr>
-<tr>
-  <td>{ta' tlhIngan Hol}</td>
-  <td>standard dialect (n)</td>
-  <td>KGT p.15</td>
-</tr>
-<tr>
-  <td>{Sep}</td>
-  <td>region, country (n)</td>
-  <td>KGT p.16</td>
-</tr>
-<tr>
-  <td>{yoS}</td>
-  <td>area, district (within a country) (n)</td>
-  <td>KGT p.16</td>
-</tr>
-<tr>
-  <td>{veng wa'DIch Sep}</td>
-  <td>First City region (n)</td>
-  <td>KGT p.16</td>
-</tr>
-<tr>
-  <td>{voSpegh Sep}</td>
-  <td>Vospeg region (n)</td>
-  <td>KGT p.16</td>
-</tr>
-<tr>
-  <td>{Sa'Qej Sep}</td>
-  <td>Sakrej region (n)</td>
-  <td>KGT p.17,24</td>
-</tr>
-<tr>
-  <td>{HuD beQ yoS}</td>
-  <td>Flat Mountain district (in the Sakrej region) (n)</td>
-  <td>KGT p.17</td>
-</tr>
-<tr>
-  <td>{Qotmagh Sep}</td>
-  <td>Krotmag region (n)</td>
-  <td>KGT p.17</td>
-</tr>
-<tr>
-  <td>{Qotmagh}</td>
-  <td>Krotmag (name)</td>
-  <td>KGT p.17</td>
-</tr>
-<tr>
-  <td>{ruq'e'vet}</td>
-  <td>Ruk'evet (city in the Gevchok region) (n)</td>
-  <td>KGT p.17,30</td>
-</tr>
-<tr>
-  <td>{ruq'e'vet}</td>
-  <td>Ruk'evet (name)</td>
-  <td>KGT p.17</td>
-</tr>
-<tr>
-  <td>{ghevchoq Sep}</td>
-  <td>Gevchok region (n)</td>
-  <td>KGT p.17</td>
-</tr>
-<tr>
-  <td>{taq'ev}</td>
-  <td>Take'ev (city or region) (n)</td>
-  <td>KGT p.22</td>
-</tr>
-<tr>
-  <td>{chotwI'}</td>
-  <td>murderer (n)</td>
-  <td>KGT p.25</td>
-</tr>
-<tr>
-  <td>{ghawran}</td>
-  <td>Gowron (name)</td>
-  <td>KGT p.25,26,197,198</td>
-</tr>
-<tr>
-  <td>{meqro'vaq}</td>
-  <td>Mekro'vak (region) (n)</td>
-  <td>KGT p.29</td>
-</tr>
-<tr>
-  <td>{puq Hol}</td>
-  <td>baby talk (chilren's language) (n)</td>
-  <td>KGT p.34</td>
-</tr>
-<tr>
-  <td>{mu'mey Doy'}</td>
-  <td>"tired words" (used to refer to older Klingons language) (n)</td>
-  <td>KGT p.35</td>
-</tr>
-<tr>
-  <td>{mu'mey ghoQ}</td>
-  <td>slang, "fresh words" (mostly used by younger Klingons) (n)</td>
-  <td>KGT p.35</td>
-</tr>
-<tr>
-  <td>{Hol ghoQ}</td>
-  <td>slang, "fresh language" (mostly used by younger Klingons) (n)</td>
-  <td>KGT p.35</td>
-</tr>
-<tr>
-  <td>{tlhIngan yejquv}</td>
-  <td>Klingon High Council (n)</td>
-  <td>KGT p.36</td>
-</tr>
-<tr>
-  <td>{tlhIngan Hubbeq}</td>
-  <td>Klingon Defense Force (n)</td>
-  <td>KGT p.38</td>
-</tr>
-<tr>
-  <td>{ra'ghomquv}</td>
-  <td>High Command (n)</td>
-  <td>KGT p.38</td>
-</tr>
-<tr>
-  <td>{Qugh}</td>
-  <td>Kruge (name)</td>
-  <td>KGT p.41</td>
-</tr>
-<tr>
-  <td>{ghIrIlqa'}</td>
-  <td>Grilka (name)</td>
-  <td>KGT p.41</td>
-</tr>
-<tr>
-  <td>{mogh}</td>
-  <td>Mogh (name)</td>
-  <td>KGT p.41,197</td>
-</tr>
-<tr>
-  <td>{qo'leq}</td>
-  <td>Ko'lek (name)</td>
-  <td>KGT p.41</td>
-</tr>
-<tr>
-  <td>{tlhach mu'mey}</td>
-  <td>argot, jargon (n)</td>
-  <td>KGT p.45</td>
-</tr>
-<tr>
-  <td>{vIq}</td>
-  <td>combat (n)</td>
-  <td>KGT p.47,50</td>
-</tr>
-<tr>
-  <td>{'aqtu'}</td>
-  <td>Aktuh (name)</td>
-  <td>KGT p.49</td>
-</tr>
-<tr>
-  <td>{HIvneS}</td>
-  <td>honor-attack (suicide mission) (v)</td>
-  <td>KGT p.49</td>
-</tr>
-<tr>
-  <td>{HubneS}</td>
-  <td>honor-defend (suicide mission) (v)</td>
-  <td>KGT p.49</td>
-</tr>
-<tr>
-  <td>{Suvchu'}</td>
-  <td>fight to the death (v)</td>
-  <td>KGT p.49</td>
-</tr>
-<tr>
-  <td>{Hay'chu'}</td>
-  <td>duel to the death (v)</td>
-  <td>KGT p.49</td>
-</tr>
-<tr>
-  <td>{tlha'a}</td>
-  <td>Klaa (name)</td>
-  <td>KGT p.52,198</td>
-</tr>
-<tr>
-  <td>{cheng}</td>
-  <td>Chang (name)</td>
-  <td>KGT p.52</td>
-</tr>
-<tr>
-  <td>{qeng}</td>
-  <td>Kang (name)</td>
-  <td>KGT p.52</td>
-</tr>
-<tr>
-  <td>{qImlaq}</td>
-  <td>K'mlak (name)</td>
-  <td>KGT p.53</td>
-</tr>
-<tr>
-  <td>{yaS wa'DIch}</td>
-  <td>first officer (on a ship) (n)</td>
-  <td>KGT p.53</td>
-</tr>
-<tr>
-  <td>{yaS cha'DIch}</td>
-  <td>second officer (on a ship) (n)</td>
-  <td>KGT p.53</td>
-</tr>
-<tr>
-  <td>{nISwI' bej}</td>
-  <td>disruptor rifle (n)</td>
-  <td>KGT p.56</td>
-</tr>
-<tr>
-  <td>{nISwI' DaH}</td>
-  <td>disruptor banks (n)</td>
-  <td>KGT p.56</td>
-</tr>
-<tr>
-  <td>{DaH}</td>
-  <td>bank (of weapons) (n)</td>
-  <td>KGT p.56</td>
-</tr>
-<tr>
-  <td>{nISwI' tIH}</td>
-  <td>disruptor beam (n)</td>
-  <td>KGT p.56</td>
-</tr>
-<tr>
-  <td>{pu'bej}</td>
-  <td>phaser rifle (n)</td>
-  <td>KGT p.56</td>
-</tr>
-<tr>
-  <td>{peng}</td>
-  <td>torpedo, missile (n)</td>
-  <td>KGT p.56</td>
-</tr>
-<tr>
-  <td>{jorneb}</td>
-  <td>warhead (n) (correct spelling?, {jornub} in K-E, {jorneb} in E-K)</td>
-  <td>KGT p.57</td>
-</tr>
-<tr>
-  <td>{yanwI'}</td>
-  <td>swordfighter (n)</td>
-  <td>KGT p.61</td>
-</tr>
-<tr>
-  <td>{tajHommey}</td>
-  <td>retractable small blades on a <i>d'k tagh</i> knife (n)</td>
-  <td>KGT p.61</td>
-</tr>
-<tr>
-  <td>{moQ}</td>
-  <td>spiked pommel of a <i>d'k tahg</i> knife (n)</td>
-  <td>KGT p.61</td>
-</tr>
-<tr>
-  <td>{DuQwI'Hommey}</td>
-  <td>small spikes on the <i>d'k tahg</i> pommel (n)</td>
-  <td>KGT p.61</td>
-</tr>
-<tr>
-  <td>{Ho' 'etlh}</td>
-  <td>serrated blade (e.g., <i>kut'luch</i>) (n)</td>
-  <td>KGT p.61</td>
-</tr>
-<tr>
-  <td>{qutluch tay}</td>
-  <td><i>Kut'luch</i> ceremony (n)</td>
-  <td>KGT p.62</td>
-</tr>
-<tr>
-  <td>{QIn pup}</td>
-  <td>plain spearhead (single sharp point) (n)</td>
-  <td>KGT p.64</td>
-</tr>
-<tr>
-  <td>{QIn vagh}</td>
-  <td>spearhead with multiple points (n)</td>
-  <td>KGT p.64</td>
-</tr>
-<tr>
-  <td>{chuHchu'}</td>
-  <td>hit with a thrown spear (v)</td>
-  <td>KGT p.64</td>
-</tr>
-<tr>
-  <td>{nentay cha'DIch}</td>
-  <td>Second Rite of Ascension (n)</td>
-  <td>KGT p.65</td>
-</tr>
-<tr>
-  <td>{yoD'egh}</td>
-  <td>shield oneself (v)</td>
-  <td>KGT p.67</td>
-</tr>
-<tr>
-  <td>{bomwI'}</td>
-  <td>singer (n)</td>
-  <td>KGT p.71</td>
-</tr>
-<tr>
-  <td>{qonwI'}</td>
-  <td>songwriter (n)</td>
-  <td>KGT p.71</td>
-</tr>
-<tr>
-  <td>{jaqmoH}</td>
-  <td>embolden (v)</td>
-  <td>KGT p.71</td>
-</tr>
-<tr>
-  <td>{QoQ jan}</td>
-  <td>musical instruments (n)</td>
-  <td>KGT p.74</td>
-</tr>
-<tr>
-  <td>{baS 'In}</td>
-  <td>bell (percussion instrument made of metal) (n)</td>
-  <td>KGT p.75</td>
-</tr>
-<tr>
-  <td>{Sor Hap 'In}</td>
-  <td>percussion instrument made of wood (n)</td>
-  <td>KGT p.75</td>
-</tr>
-<tr>
-  <td>{DIr 'In}</td>
-  <td>drum (percussion instrument with a streched animal skin) (n)</td>
-  <td>KGT p.75</td>
-</tr>
-<tr>
-  <td>{Subpu' vaS}</td>
-  <td>Hall of Heroes (n)</td>
-  <td>KGT p.79</td>
-</tr>
-<tr>
-  <td>{ghItlhwI'}</td>
-  <td>stylus, writing implement, person who writes (n)</td>
-  <td>KGT p.79</td>
-</tr>
-<tr>
-  <td>{naHjej}</td>
-  <td>thistle (n)</td>
-  <td>KGT p.88</td>
-</tr>
-<tr>
-  <td>{naHnagh}</td>
-  <td>pit (of fruit) (n)</td>
-  <td>KGT p.89</td>
-</tr>
-<tr>
-  <td>{HuchQeD}</td>
-  <td>economics (n)</td>
-  <td>KGT p.148</td>
-</tr>
-<tr>
-  <td>{meq}</td>
-  <td>reason, logical thinking (n)</td>
-  <td>KGT p.154</td>
-</tr>
-<tr>
-  <td>{mu'mey ru'}</td>
-  <td>temporary words (ungrammatical expression used for impact) (n)</td>
-  <td>KGT p.176</td>
-</tr>
-<tr>
-  <td>{pabHa'}</td>
-  <td>misfollow (rules), follow (rules) wrongly (v)</td>
-  <td>KGT p.176</td>
-</tr>
-<tr>
-  <td>{nentay wa'DIch}</td>
-  <td>First Rite of Ascension (n)</td>
-  <td>KGT p.177</td>
-</tr>
-<tr>
-  <td>{paghDIch}</td>
-  <td>zeroth (about something that has not occured) (num)</td>
-  <td>KGT p.177</td>
-</tr>
-<tr>
-  <td>{HochDIch}</td>
-  <td>allth, final, last (num)</td>
-  <td>KGT p.177</td>
-</tr>
-<tr>
-  <td>{paghlogh}</td>
-  <td>zero times, never (emphatic) (adv)</td>
-  <td>KGT p.178</td>
-</tr>
-<tr>
-  <td>{Hochlogh}</td>
-  <td>all times, always (emphatic) (adv)</td>
-  <td>KGT p.178</td>
-</tr>
-<tr>
-  <td>{betleH 'obe'}</td>
-  <td>Order of the <i>Bat'leth</i> (n)</td>
-  <td>KGT p.182</td>
-</tr>
-<tr>
-  <td>{tI'vIS}</td>
-  <td>T'vis (name)</td>
-  <td>KGT p.182</td>
-</tr>
-<tr>
-  <td>{barot}</td>
-  <td>Barot (name)</td>
-  <td>KGT p.182</td>
-</tr>
-<tr>
-  <td>{HejwI'}</td>
-  <td>robber (n)</td>
-  <td>KGT p.191</td>
-</tr>
-<tr>
-  <td>{HIjwI'}</td>
-  <td>delivery person (n)</td>
-  <td>KGT p.191</td>
-</tr>
-<tr>
-  <td>{lurSa'}</td>
-  <td>Lursa (name)</td>
-  <td>KGT p.197</td>
-</tr>
-<tr>
-  <td>{be'etor}</td>
-  <td>B'Etor (name)</td>
-  <td>KGT p.197</td>
-</tr>
-<tr>
-  <td>{vIqSIS}</td>
-  <td>Vixis (name)</td>
-  <td>KGT p.197</td>
-</tr>
-<tr>
-  <td>{HuS}</td>
-  <td>Huss (name)</td>
-  <td>KGT p.197</td>
-</tr>
-<tr>
-  <td>{'atrom}</td>
-  <td>A'trom (name)</td>
-  <td>KGT p.197</td>
-</tr>
-<tr>
-  <td>{martaq}</td>
-  <td>Martok (name)</td>
-  <td>KGT p.198</td>
-</tr>
-<tr>
-  <td>{qamor}</td>
-  <td>Kahmor (name)</td>
-  <td>KGT p.198</td>
-</tr>
-<tr>
-  <td>{qor}</td>
-  <td>Kor (name)</td>
-  <td>KGT p.198</td>
-</tr>
+  <tr>
+    <th>Klingon</th>
+    <th>English</th>
+    <th>Source</th>
+  </tr>
+  <tr>
+    <td>{veng wa'DIch}</td>
+    <td>First City (capital of Kronos) (n)</td>
+    <td>KGT p.10, 17</td>
+  </tr>
+  <tr>
+    <td>{ta' tlhIngan Hol}</td>
+    <td>standard dialect (n)</td>
+    <td>KGT p.15</td>
+  </tr>
+  <tr>
+    <td>{Sep}</td>
+    <td>region, country (n)</td>
+    <td>KGT p.16</td>
+  </tr>
+  <tr>
+    <td>{yoS}</td>
+    <td>area, district (within a country) (n)</td>
+    <td>KGT p.16</td>
+  </tr>
+  <tr>
+    <td>{veng wa'DIch Sep}</td>
+    <td>First City region (n)</td>
+    <td>KGT p.16</td>
+  </tr>
+  <tr>
+    <td>{voSpegh Sep}</td>
+    <td>Vospeg region (n)</td>
+    <td>KGT p.16</td>
+  </tr>
+  <tr>
+    <td>{Sa'Qej Sep}</td>
+    <td>Sakrej region (n)</td>
+    <td>KGT p.17, 24</td>
+  </tr>
+  <tr>
+    <td>{HuD beQ yoS}</td>
+    <td>Flat Mountain district (in the Sakrej region) (n)</td>
+    <td>KGT p.17</td>
+  </tr>
+  <tr>
+    <td>{Qotmagh Sep}</td>
+    <td>Krotmag region (n)</td>
+    <td>KGT p.17</td>
+  </tr>
+  <tr>
+    <td>{Qotmagh}</td>
+    <td>Krotmag (name)</td>
+    <td>KGT p.17</td>
+  </tr>
+  <tr>
+    <td>{ruq'e'vet}</td>
+    <td>Ruk'evet (city in the Gevchok region) (n)</td>
+    <td>KGT p.17, 30</td>
+  </tr>
+  <tr>
+    <td>{ruq'e'vet}</td>
+    <td>Ruk'evet (name)</td>
+    <td>KGT p.17</td>
+  </tr>
+  <tr>
+    <td>{ghevchoq Sep}</td>
+    <td>Gevchok region (n)</td>
+    <td>KGT p.17</td>
+  </tr>
+  <tr>
+    <td>{taq'ev}</td>
+    <td>Take'ev (city or region) (n)</td>
+    <td>KGT p.22</td>
+  </tr>
+  <tr>
+    <td>{chotwI'}</td>
+    <td>murderer (n)</td>
+    <td>KGT p.25</td>
+  </tr>
+  <tr>
+    <td>{ghawran}</td>
+    <td>Gowron (name)</td>
+    <td>KGT p.25, 26, 197, 198</td>
+  </tr>
+  <tr>
+    <td>{meqro'vaq}</td>
+    <td>Mekro'vak (region) (n)</td>
+    <td>KGT p.29</td>
+  </tr>
+  <tr>
+    <td>{puq Hol}</td>
+    <td>baby talk (chilren's language) (n)</td>
+    <td>KGT p.34</td>
+  </tr>
+  <tr>
+    <td>{mu'mey Doy'}</td>
+    <td>"tired words" (used to refer to older Klingons language) (n)</td>
+    <td>KGT p.35</td>
+  </tr>
+  <tr>
+    <td>{mu'mey ghoQ}</td>
+    <td>slang, "fresh words" (mostly used by younger Klingons) (n)</td>
+    <td>KGT p.35</td>
+  </tr>
+  <tr>
+    <td>{Hol ghoQ}</td>
+    <td>slang, "fresh language" (mostly used by younger Klingons) (n)</td>
+    <td>KGT p.35</td>
+  </tr>
+  <tr>
+    <td>{tlhIngan yejquv}</td>
+    <td>Klingon High Council (n)</td>
+    <td>KGT p.36</td>
+  </tr>
+  <tr>
+    <td>{tlhIngan Hubbeq}</td>
+    <td>Klingon Defense Force (n)</td>
+    <td>KGT p.38</td>
+  </tr>
+  <tr>
+    <td>{ra'ghomquv}</td>
+    <td>High Command (n)</td>
+    <td>KGT p.38</td>
+  </tr>
+  <tr>
+    <td>{Qugh}</td>
+    <td>Kruge (name)</td>
+    <td>KGT p.41</td>
+  </tr>
+  <tr>
+    <td>{ghIrIlqa'}</td>
+    <td>Grilka (name)</td>
+    <td>KGT p.41</td>
+  </tr>
+  <tr>
+    <td>{mogh}</td>
+    <td>Mogh (name)</td>
+    <td>KGT p.41, 197</td>
+  </tr>
+  <tr>
+    <td>{qo'leq}</td>
+    <td>Ko'lek (name)</td>
+    <td>KGT p.41</td>
+  </tr>
+  <tr>
+    <td>{tlhach mu'mey}</td>
+    <td>argot, jargon (n)</td>
+    <td>KGT p.45</td>
+  </tr>
+  <tr>
+    <td>{vIq}</td>
+    <td>combat (n)</td>
+    <td>KGT p.47, 50</td>
+  </tr>
+  <tr>
+    <td>{'aqtu'}</td>
+    <td>Aktuh (name)</td>
+    <td>KGT p.49</td>
+  </tr>
+  <tr>
+    <td>{HIvneS}</td>
+    <td>honor-attack (suicide mission) (v)</td>
+    <td>KGT p.49</td>
+  </tr>
+  <tr>
+    <td>{HubneS}</td>
+    <td>honor-defend (suicide mission) (v)</td>
+    <td>KGT p.49</td>
+  </tr>
+  <tr>
+    <td>{Suvchu'}</td>
+    <td>fight to the death (v)</td>
+    <td>KGT p.49</td>
+  </tr>
+  <tr>
+    <td>{Hay'chu'}</td>
+    <td>duel to the death (v)</td>
+    <td>KGT p.49</td>
+  </tr>
+  <tr>
+    <td>{tlha'a}</td>
+    <td>Klaa (name)</td>
+    <td>KGT p.52, 198</td>
+  </tr>
+  <tr>
+    <td>{cheng}</td>
+    <td>Chang (name)</td>
+    <td>KGT p.52</td>
+  </tr>
+  <tr>
+    <td>{qeng}</td>
+    <td>Kang (name)</td>
+    <td>KGT p.52</td>
+  </tr>
+  <tr>
+    <td>{qImlaq}</td>
+    <td>K'mlak (name)</td>
+    <td>KGT p.53</td>
+  </tr>
+  <tr>
+    <td>{yaS wa'DIch}</td>
+    <td>first officer (on a ship) (n)</td>
+    <td>KGT p.53</td>
+  </tr>
+  <tr>
+    <td>{yaS cha'DIch}</td>
+    <td>second officer (on a ship) (n)</td>
+    <td>KGT p.53</td>
+  </tr>
+  <tr>
+    <td>{nISwI' bej}</td>
+    <td>disruptor rifle (n)</td>
+    <td>KGT p.56</td>
+  </tr>
+  <tr>
+    <td>{nISwI' DaH}</td>
+    <td>disruptor banks (n)</td>
+    <td>KGT p.56</td>
+  </tr>
+  <tr>
+    <td>{DaH}</td>
+    <td>bank (of weapons) (n)</td>
+    <td>KGT p.56</td>
+  </tr>
+  <tr>
+    <td>{nISwI' tIH}</td>
+    <td>disruptor beam (n)</td>
+    <td>KGT p.56</td>
+  </tr>
+  <tr>
+    <td>{pu'bej}</td>
+    <td>phaser rifle (n)</td>
+    <td>KGT p.56</td>
+  </tr>
+  <tr>
+    <td>{peng}</td>
+    <td>torpedo, missile (n)</td>
+    <td>KGT p.56</td>
+  </tr>
+  <tr>
+    <td>{jorneb}</td>
+    <td>warhead (n) (correct spelling?, {jornub} in K-E, {jorneb} in E-K)</td>
+    <td>KGT p.57</td>
+  </tr>
+  <tr>
+    <td>{yanwI'}</td>
+    <td>swordfighter (n)</td>
+    <td>KGT p.61</td>
+  </tr>
+  <tr>
+    <td>{tajHommey}</td>
+    <td>retractable small blades on a <i>d'k tagh</i> knife (n)</td>
+    <td>KGT p.61</td>
+  </tr>
+  <tr>
+    <td>{moQ}</td>
+    <td>spiked pommel of a <i>d'k tahg</i> knife (n)</td>
+    <td>KGT p.61</td>
+  </tr>
+  <tr>
+    <td>{DuQwI'Hommey}</td>
+    <td>small spikes on the <i>d'k tahg</i> pommel (n)</td>
+    <td>KGT p.61</td>
+  </tr>
+  <tr>
+    <td>{Ho' 'etlh}</td>
+    <td>serrated blade (e.g., <i>kut'luch</i>) (n)</td>
+    <td>KGT p.61</td>
+  </tr>
+  <tr>
+    <td>{qutluch tay}</td>
+    <td><i>Kut'luch</i> ceremony (n)</td>
+    <td>KGT p.62</td>
+  </tr>
+  <tr>
+    <td>{QIn pup}</td>
+    <td>plain spearhead (single sharp point) (n)</td>
+    <td>KGT p.64</td>
+  </tr>
+  <tr>
+    <td>{QIn vagh}</td>
+    <td>spearhead with multiple points (n)</td>
+    <td>KGT p.64</td>
+  </tr>
+  <tr>
+    <td>{chuHchu'}</td>
+    <td>hit with a thrown spear (v)</td>
+    <td>KGT p.64</td>
+  </tr>
+  <tr>
+    <td>{nentay cha'DIch}</td>
+    <td>Second Rite of Ascension (n)</td>
+    <td>KGT p.65</td>
+  </tr>
+  <tr>
+    <td>{yoD'egh}</td>
+    <td>shield oneself (v)</td>
+    <td>KGT p.67</td>
+  </tr>
+  <tr>
+    <td>{bomwI'}</td>
+    <td>singer (n)</td>
+    <td>KGT p.71</td>
+  </tr>
+  <tr>
+    <td>{qonwI'}</td>
+    <td>songwriter (n)</td>
+    <td>KGT p.71</td>
+  </tr>
+  <tr>
+    <td>{jaqmoH}</td>
+    <td>embolden (v)</td>
+    <td>KGT p.71</td>
+  </tr>
+  <tr>
+    <td>{QoQ jan}</td>
+    <td>musical instruments (n)</td>
+    <td>KGT p.74</td>
+  </tr>
+  <tr>
+    <td>{baS 'In}</td>
+    <td>bell (percussion instrument made of metal) (n)</td>
+    <td>KGT p.75</td>
+  </tr>
+  <tr>
+    <td>{Sor Hap 'In}</td>
+    <td>percussion instrument made of wood (n)</td>
+    <td>KGT p.75</td>
+  </tr>
+  <tr>
+    <td>{DIr 'In}</td>
+    <td>drum (percussion instrument with a streched animal skin) (n)</td>
+    <td>KGT p.75</td>
+  </tr>
+  <tr>
+    <td>{Subpu' vaS}</td>
+    <td>Hall of Heroes (n)</td>
+    <td>KGT p.79</td>
+  </tr>
+  <tr>
+    <td>{ghItlhwI'}</td>
+    <td>stylus, writing implement, person who writes (n)</td>
+    <td>KGT p.79</td>
+  </tr>
+  <tr>
+    <td>{naHjej}</td>
+    <td>thistle (n)</td>
+    <td>KGT p.88</td>
+  </tr>
+  <tr>
+    <td>{naHnagh}</td>
+    <td>pit (of fruit) (n)</td>
+    <td>KGT p.89</td>
+  </tr>
+  <tr>
+    <td>{HuchQeD}</td>
+    <td>economics (n)</td>
+    <td>KGT p.148</td>
+  </tr>
+  <tr>
+    <td>{meq}</td>
+    <td>reason, logical thinking (n)</td>
+    <td>KGT p.154</td>
+  </tr>
+  <tr>
+    <td>{mu'mey ru'}</td>
+    <td>temporary words (ungrammatical expression used for impact) (n)</td>
+    <td>KGT p.176</td>
+  </tr>
+  <tr>
+    <td>{pabHa'}</td>
+    <td>misfollow (rules), follow (rules) wrongly (v)</td>
+    <td>KGT p.176</td>
+  </tr>
+  <tr>
+    <td>{nentay wa'DIch}</td>
+    <td>First Rite of Ascension (n)</td>
+    <td>KGT p.177</td>
+  </tr>
+  <tr>
+    <td>{paghDIch}</td>
+    <td>zeroth (about something that has not occured) (num)</td>
+    <td>KGT p.177</td>
+  </tr>
+  <tr>
+    <td>{HochDIch}</td>
+    <td>allth, final, last (num)</td>
+    <td>KGT p.177</td>
+  </tr>
+  <tr>
+    <td>{paghlogh}</td>
+    <td>zero times, never (emphatic) (adv)</td>
+    <td>KGT p.178</td>
+  </tr>
+  <tr>
+    <td>{Hochlogh}</td>
+    <td>all times, always (emphatic) (adv)</td>
+    <td>KGT p.178</td>
+  </tr>
+  <tr>
+    <td>{betleH 'obe'}</td>
+    <td>Order of the <i>Bat'leth</i> (n)</td>
+    <td>KGT p.182</td>
+  </tr>
+  <tr>
+    <td>{tI'vIS}</td>
+    <td>T'vis (name)</td>
+    <td>KGT p.182</td>
+  </tr>
+  <tr>
+    <td>{barot}</td>
+    <td>Barot (name)</td>
+    <td>KGT p.182</td>
+  </tr>
+  <tr>
+    <td>{HejwI'}</td>
+    <td>robber (n)</td>
+    <td>KGT p.191</td>
+  </tr>
+  <tr>
+    <td>{HIjwI'}</td>
+    <td>delivery person (n)</td>
+    <td>KGT p.191</td>
+  </tr>
+  <tr>
+    <td>{lurSa'}</td>
+    <td>Lursa (name)</td>
+    <td>KGT p.197</td>
+  </tr>
+  <tr>
+    <td>{be'etor}</td>
+    <td>B'Etor (name)</td>
+    <td>KGT p.197</td>
+  </tr>
+  <tr>
+    <td>{vIqSIS}</td>
+    <td>Vixis (name)</td>
+    <td>KGT p.197</td>
+  </tr>
+  <tr>
+    <td>{HuS}</td>
+    <td>Huss (name)</td>
+    <td>KGT p.197</td>
+  </tr>
+  <tr>
+    <td>{'atrom}</td>
+    <td>A'trom (name)</td>
+    <td>KGT p.197</td>
+  </tr>
+  <tr>
+    <td>{martaq}</td>
+    <td>Martok (name)</td>
+    <td>KGT p.198</td>
+  </tr>
+  <tr>
+    <td>{qamor}</td>
+    <td>Kahmor (name)</td>
+    <td>KGT p.198</td>
+  </tr>
+  <tr>
+    <td>{qor}</td>
+    <td>Kor (name)</td>
+    <td>KGT p.198</td>
+  </tr>
 </table>
 
 
 <h3>Words Found Only in the Klingon&ndash;English Dictionary Part</h3>
 
 <table class="sortable">
-<tr>
-  <th>Klingon</th>
-  <th>English</th>
-</tr>
-<tr>
-  <td>{jornub}</td>
-  <td>warhead (of a torpedo) (n)</td>
-</tr>
+  <tr>
+    <th>Klingon</th>
+    <th>English</th>
+  </tr>
+  <tr>
+    <td>{jornub}</td>
+    <td>warhead (of a torpedo) (n)</td>
+  </tr>
 </table>
 
 
 <h3>Words Found Only in the English&ndash;Klingon Dictionary Part</h3>
 
 <table class="sortable">
-<tr>
-  <th>English</th>
-  <th>Klingon</th>
-</tr>
-<tr>
-  <td>warhead (of a torpedo) (n)</td>
-  <td>{jorneb}</td>
-</tr>
+  <tr>
+    <th>English</th>
+    <th>Klingon</th>
+  </tr>
+  <tr>
+    <td>warhead (of a torpedo) (n)</td>
+    <td>{jorneb}</td>
+  </tr>
 </table>
 
 [[eof]]
