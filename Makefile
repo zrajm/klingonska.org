@@ -13,6 +13,7 @@
 source_dir  := site
 publish_dir := publish
 remote_dir  := hcoop:Web/klingonska.org
+ignore      := %.bak %.db %~ .\#% %\# %.tmp
 
 CSS_MINIFIER := \
     $(if $(shell which yui-compressor),yui-compressor --type css,cat)
@@ -25,10 +26,18 @@ JS_MINIFIER := \
 ##                                                                           ##
 ###############################################################################
 
+# Usage: $(call exclude-ignores,LIST...)
+
+# Return list of the filenames in LIST which do not match any of the patterns
+# in LIST. Matching is only made against the file name (excluding any path name
+# part).
+exclude-ignores = $(foreach file,$1,$(if \
+    $(filter-out $(ignore),$(notdir $(file))),$(file)))
+
 # These files are not processed, but included as-is in the published site.
 copied_targets = \
     $(patsubst $(source_dir)/%,$(publish_dir)/%, \
-        $(shell find "$(source_dir)" -type f \
+        $(call exclude-ignores,$(shell find "$(source_dir)" -type f \
             -name '*.cgi'  -or \
             -name '*.css'  -or \
             -name '*.gif'  -or \
@@ -49,12 +58,12 @@ copied_targets = \
             -name '*.txt'  -or \
             -name '*.zdb'  -or \
             -name '*.zip'      \
-    ))
+    )))
 
 # Each of these results in one published HTML file.
 html_targets =                                    \
     $(patsubst $(source_dir)/%.txt,$(publish_dir)/%.html, \
-        $(wildcard                               \
+        $(call exclude-ignores,$(wildcard        \
             $(source_dir)/*.txt                  \
             $(source_dir)/akademien/*.txt        \
             $(source_dir)/akademien/photos/*.txt \
@@ -68,7 +77,7 @@ html_targets =                                    \
             $(source_dir)/songs/index.txt        \
             $(source_dir)/songs/america.txt      \
             $(source_dir)/songs/anthem/index.txt \
-    ))
+    )))
 
 css_targets =                                               \
     $(patsubst $(source_dir)/%.scss,$(publish_dir)/%.css, \
