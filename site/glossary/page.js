@@ -113,15 +113,15 @@ function errorMsg(str) {
             },
             repl = {
                 '«': {
-                    en: '<u class=noncanon title="Headword: Not found as headword in canon.">',
-                    sv: '<u class=noncanon title="Uppslagsord: Används inte som uppslagsord i kanon.">'
+                    en: '<span class=noncanon title="Headword: Not found as headword in canon.">',
+                    sv: '<span class=noncanon title="Uppslagsord: Används inte som uppslagsord i kanon.">'
                 },
-                '»': { en: '</u>', sv: '</u>' },
+                '»': { en: '</span>', sv: '</span>' },
                 '<': {
-                    en: '<u class=canon title="Headword: Found as headword in kanon.">',
-                    sv: '<u class=noncanon title="Uppslagsord: Används som uppslagsord i kanon.">'
+                    en: '<span class=canon title="Headword: Found as headword in kanon.">',
+                    sv: '<span class=noncanon title="Uppslagsord: Används som uppslagsord i kanon.">'
                 },
-                '>': { en: '</u>', sv: '</u>' }
+                '>': { en: '</span>', sv: '</span>' }
             },
             thead = tag('tr',
                 tag('th', '') +                // count
@@ -166,7 +166,7 @@ function errorMsg(str) {
                     'lang=sv sorttable_customkey="' +
                     entry.sv.replace(/[«»<>]/g, '').toLowerCase() + '"'),
                    'class="' + pos + (crossedOutGlossary &&
-                       crossedOutGlossary.has(entry.num) ? ' known' : '') +
+                       crossedOutGlossary.has(entry) ? ' known' : '') +
                    '" data-num=' + entry.num);
         });
         return tag('table',
@@ -265,11 +265,25 @@ function errorMsg(str) {
                 tmpStatus('<a href="../dict/dict.zdb">Dictionary</a> loaded.');
             });
 
+        function statsMsg(unknown, total, text) {
+            var known = Math.round(((total - unknown) / total) * 1000) / 10;
+            return unknown + ' unknown (of ' + total + ') – ' + known +
+                '% of ' + text + ' known';
+        }
+
         // on page tab click
         $('#tab-row .glossary').on('click', function () {
+            var total = glossary.length(),
+                unknown = glossary.get().filter(function (entry) {
+                    return !known.has(entry);
+                }).length;
+            $('.glossary .stats').html(statsMsg(unknown, total, 'text'));
             outputElement.empty().html(generateGlossaryTable(glossary, known));
         });
         $('#tab-row .known').on('click', function () {
+            var total = (dict.query({ num: -1 })[0] || { num: 0 }).num,
+                unknown = total - known.length();
+            $('.known .stats').html(statsMsg(unknown, total, 'dictionary'));
             knownElement.empty().html(generateGlossaryTable(known));
         });
         $('#tab-row .extract').on('click', function () {
