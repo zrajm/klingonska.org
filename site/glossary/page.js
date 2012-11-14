@@ -171,7 +171,7 @@ function errorMsg(str) {
         });
         return tag('table',
                 tag('thead', thead) + tag('tbody', tbody.join('')),
-               'class=sortable'
+               'class="glossary sortable"'
             ) +
             tag('script', '', 'src="../includes/sorttable.js"');
     }

@@ -145,42 +145,45 @@ section {
 
 /******************************************************************************\
 **                                                                            **
-**  Glossary Tab                                                              **
+**  Glossary + Known Table                                                    **
 **                                                                            **
 \******************************************************************************/
 
-tr:hover .canon    { background: rgba(0, 0, 0, .2); }
-tr:hover .noncanon { background: rgba(0, 0, 0, .2); }
+table.glossary tr[data-num]:hover { outline: 4px solid rgba(0, 0, 0, .5); }
+table.glossary tr[data-num] { cursor: pointer; }
 
-.canon:hover    { outline: 2px solid rgba(0, 0, 0, .5); }
-.noncanon:hover { outline: 2px solid rgba(0, 0, 0, .5); }
-
-td.count { text-align: center; }
-td.pos { text-align: center; }
-td:lang(tlh) { font-weight: bold; }
-td:lang(en), td:lang(sv) { font-style: italic; }
-
-.extract h2 { margin: .5em 0; }
-
-.glossary table tr[data-num]:hover { outline: 4px solid rgba(0, 0, 0, .5); }
-.glossary table tr[data-num] { cursor: pointer; }
-
-.known table, .glossary table {
+table.glossary {
     border: 4px solid #000;
     width: 100%;
-    /* height: 100%; */
     border-collapse: collapse;
 }
 
-.known td, .known th, .glossary td, .glossary th {
+table.glossary td, table.glossary th {
     border: 2px solid #000;
     vertical-align: top;
     padding: .25em .5em;
 }
 
-.known .output, .glossary .output {
+table.glossary .output {
     min-height: 12em;
 }
+
+table.glossary tr:hover .canon,
+table.glossary tr:hover .noncanon { background: rgba(0, 0, 0, .2); }
+table.glossary .canon:hover    { outline: 2px solid rgba(0, 0, 0, .5); }
+table.glossary .noncanon:hover { outline: 2px solid rgba(0, 0, 0, .5); }
+table.glossary td.count, table.glossary td.pos { text-align: center; }
+table.glossary td:lang(tlh) { font-weight: bold; }
+table.glossary td:lang(en), td:lang(sv) { font-style: italic; }
+
+
+/******************************************************************************\
+**                                                                            **
+**  Glossary Tab                                                              **
+**                                                                            **
+\******************************************************************************/
+
+.extract h2 { margin: .5em 0; }
 
 .extract .input {
     margin: 0;
@@ -224,14 +227,13 @@ td:lang(en), td:lang(sv) { font-style: italic; }
 .adv, .conj, .excl, .name, .pro, .ques { background: #faf; } /* "Other" */
 
 /* known words occurring in glossary table */
-tr.known { text-decoration: line-through; }
-.known.v { background: #808055 }           /* known "Verb" */
-.known.n { background: #558055 }           /* known "Noun" */
-.known.num { background: #555580 }         /* known "Number" */
-.known.adv, .known.conj, .known.excl, .known.name, .known.pro,
-.known.ques { background: #805580; }       /* known "Other" */
+table.glossary .known { text-decoration: line-through; }
+table.glossary .known.v { background: #808055 }           /* known "Verb" */
+table.glossary .known.n { background: #558055 }           /* known "Noun" */
+table.glossary .known.num { background: #555580 }         /* known "Number" */
+table.glossary .known.adv, .known.conj, .known.excl, .known.name, .known.pro,
+table.glossary .known.ques { background: #805580; }       /* known "Other" */
 
-.extract [title] span:hover { background: rgba(0,0,0,.2) }
 
 /******************************************************************************\
 **                                                                            **

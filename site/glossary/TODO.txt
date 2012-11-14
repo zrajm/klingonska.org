@@ -2,19 +2,20 @@
 
 * [0%] Core functionality
 ** [0%] Flashcard
-** [42%] Add 'Known Words'
-*** TODO Glossary & known words tables should have class set
-    Which should in turn be used to control the common styling for these
-    tables.
+** [57%] Add 'Known Words'
 *** TODO Crossing out of words in known list
     Should uncross them on the glossary page. They should remain visible on the
     known page (in the crossed out state), but there should be a button to
     remove them.
-*** TODO "Known words" wordcount should reflect current text
+*** TODO "Known words" table's word count should reflect current text
     I.e. word counts should be reset, and updated in the known list, too.
 *** TODO View/hide known glossary words
     There should be a selector, with which one can show/hide the words that are
     known. (If shown, they should be crossed out.)
+*** DONE Glossary & known words tables should have common class
+    CLOSED: [2012-11-14 Wed 08:35]
+    Which should in turn be used to control the common styling for these
+    tables.
 *** DONE Ditch TableArray and HookedArray altogether(?)
     CLOSED: [2012-11-14 Wed 07:35]
 *** DONE Automatic coloration of stuff in “Known Words”.
