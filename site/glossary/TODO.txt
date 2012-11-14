@@ -24,7 +24,6 @@
 *** TODO Result of {maH} looks bad
 *** TODO Avoid duplicated words from dictionary
     E.g. {bachwI'} is both in dict and can be derived from rules.
-
 ** [0%] User interface
 *** TODO Hover over word in input field should highlight all w/ same root
     If the word "bachwI'" is hovered on, then all words with that same root

@@ -40,37 +40,31 @@
       </nav>
 
       <section class="extract hidden">
-        <p lang=en style=margin-top:0>
-          Paste any text in Klingon, press <i>Analyze Text</i> button, then
-          go to the next tab (<i>Glossary</i>).
-        </p>
-        <p lang=sv style=margin-top:0>
-          Klistra in valfri text på klingonska, tryck <i>Analysera texten</i> och
-          gå sen till nästa flik (<i>Gloslista</i>).
-        </p>
-        <span lang=en>
-          <button class=extract>Analyze Text</button>
-          <span class=wordcount>0</span> words
-          (<span class=uniqcount>0</span> different)
-        </span>
-        <span lang=sv>
-          <button class=extract>Analysera texten</button>
-          <span class=wordcount>0</span> ord
-          (<span class=uniqcount>0</span> olika)
-        </span>
+        <div lang=en style=margin:0>
+          <p style=margin-top:0>Paste any text in Klingon, press <i>Analyze
+            Text</i> button, then go to the next tab (<i>Glossary</i>).</p>
+          <p style=margin-bottom:.125em>
+            <button class=extract>Analyze Text</button>
+            <span class=wordcount>0</span> words
+            (<span class=uniqcount>0</span> different)
+          </p>
+        </div>
+        <div lang=sv style=margin:0>
+          <p style=margin-top:0>Klistra in valfri text på klingonska,
+            tryck <i>Analysera texten</i> och gå sen till nästa flik
+            (<i>Gloslista</i>).</p>
+          <p style=margin-bottom:.125em>
+            <button class=extract>Analysera texten</button>
+            <span class=wordcount>0</span> ord
+            (<span class=uniqcount>0</span> olika)
+          </p>
+        </div>
         <div class=input contenteditable></div>
-        <span lang=en>
-          <button class=clear>Clear</button>
-          <button class=test>Example Text</button>
-        </span>
-        <span lang=sv>
-          <button class=clear>Rensa</button>
-          <button class=test>Exempeltext</button>
-        </span>
-
         <div>
           <div lang=en>
-            <p>
+            <p style=margin-top:.125em>
+              <button class=clear>Clear</button>
+              <button class=test>Example Text</button>
               <b>Word type:</b>
               <span class=v>Verb</span>
               <span class=n>Noun</span>
@@ -87,7 +81,9 @@
               Dictionary</a>.</p>
           </div>
           <div lang=sv>
-            <p>
+            <p style=margin-top:.125em>
+              <button class=clear>Rensa</button>
+              <button class=test>Exempeltext</button>
               <b>Ordklass:</b>
               <span class=v>Verb</span>
               <span class=n>Substantiv</span>
@@ -99,10 +95,6 @@
             <p>Verb med <b lang=tlh>-ghach</b> eller <b lang=tlh>-wI’</b>
               fungerar som substantiv och är markeras som sådana, men det är
               ordets <em>verbrot</em> som läggs till i gloslistan.</p>
-            <h2>Instruktioner</h2>
-            <p> Du kan radera ord från
-              gloslistan genom att klicka på &ldquo;×&rdquo;:et som dyker upp
-              när du håller muspekaren över ett ord i listan.</p>
             <p>Den här sidan använder automatiskt den senaste versionen av
               ordlistan ifrån <a href="../dict/">Klingonska Akademiens
               fickordbok</a>.</p>
@@ -112,9 +104,9 @@
 
       <section class="glossary hidden">
         <div lang=en style=margin:0>
-          Cross out the words you already know below. Re-sort table by clicking
-          on the headers.
-          <p>
+          <p style=margin-top:0>Cross out the words you already know below.
+            Re-sort table by clicking on the headers.</p>
+          <p style=margin-bottom:.125em>
             <b>Word type:</b>
             <span class=v>Verb</span>
             <span class=n>Noun</span>
@@ -123,9 +115,9 @@
           </p>
         </div>
         <div lang=sv style=margin:0>
-          Stryk över de ord du redan kan nedan. Sortera om listan genom att
-          klicka på rubrikerna.
-          <p>
+          <p style=margin-top:0>Stryk över de ord du redan kan nedan. Sortera
+            om listan genom att klicka på rubrikerna.</p>
+          <p style=margin-bottom:.125em>
             <b>Ordklass:</b>
             <span class=v>Verb</span>
             <span class=n>Substantiv</span>
@@ -133,14 +125,15 @@
             <span class=pro>Annat</span>
           </p>
         </div>
-
         <div class=output>
-          <span lang=en>You have not extracted a glossary yet. (Do that under
-            the “Klingon Text” tab.)
-          </span>
-          <span lang=sv>Du har inte extraherat någon gloslista än. (Gör det
-            under fliken “Klingonsk text”.)
-          </span>
+          <table><tbody><tr><td>
+                  <span lang=en>There is nothing to see here yet. (First you
+                    must analyze something under the <i>Klingon Text</i>
+                    tab.)</span>
+                  <span lang=sv>Det finns inget att visa här än. (Först måste
+                    du analysera något under fliken <i>Klingonsk
+                    text.</i>)</span>
+          </td></tr></tbody></table>
         </div>
       </section>
 

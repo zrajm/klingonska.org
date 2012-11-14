@@ -97,6 +97,7 @@ function errorMsg(str) {
     function generateGlossaryTable(glossary) {
         /*jslint white: true */
         var tbody = [],
+            entries = glossary.get(),
             posAbbrev = {
                 "adverbial"              : "adv",  "conjunction"        : "conj",
                 "exclamation"            : "excl", "name"               : "name",
@@ -140,7 +141,17 @@ function errorMsg(str) {
                     'lang=sv')
             );
         /*jslint white: false */
-        tbody = glossary.get().map(function (entry) {
+        if (entries.length === 0) {
+            return tag('table', tag('tbody', tag('tr', tag('td',
+                tag('span', 'There is nothing to see here yet. (First you ' +
+                    'must analyze something under the <i>Klingon Text</i> ' +
+                    'tab.)', 'lang=en') +
+                tag('span', 'Det finns inget att visa här än. (Först måste ' +
+                    'du analysera något under fliken <i>Klingonsk text.</i>)',
+                    'lang=sv')
+            ))));
+        }
+        tbody = entries.map(function (entry) {
             /*jslint unparam: true */
             var pos = posAbbrev[entry.pos] || 'Huh?',
                 tlh = entry.tlh.replace(/\{(.*)\}/, function (a, b) {
