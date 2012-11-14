@@ -23,11 +23,14 @@
             };
         }());
 
-    // create one HTML tag
+    // Return a HTML tag.
+    //
+    // If content is a string (even an empty one) will result in both start and
+    // end tags (e.g. `tag('X', '')` = `<X></X>`), if content is null (or
+    // undefined) an empty tag is produced (e.g. `tag('X')` = `<X>`).
     function tag(name, content, attr) {
-        content = content || '';
         return '<' + name + (attr ? ' ' + attr : '') + '>' +
-            content + '</' + name + '>';
+            (typeof content === 'string' ? (content + '</' + name + '>') : '');
     }
 
     // Returns list of all keys in localStorage.
@@ -49,16 +52,13 @@
                 value = JSON.stringify(JSON.parse(value), null, 4);
             } catch (error) {}
             return tag('tr',
-                tag('td', tag('pre', key)) +
-                tag('td', tag('pre', value)) +
-                tag('td', tag('button', 'Delete', 'data-key="' + key + '"')));
+                tag('td', tag('pre', key) +
+                    tag('button', 'Delete', 'data-key="' + key + '"')) +
+                tag('td', tag('pre', value)));
         });
         // join tableRows into string with HTML table, write that to DOM
         $('.storage table').empty().html(tag('table',
-            tag('thead', tag('tr',
-                tag('th', 'Storage Key') +
-                tag('th', 'Stored Value') +
-                tag('th', ''))) +
+            tag('thead', tag('tr', tag('th', 'Key') + tag('th', 'Value'))) +
             tag('tbody', tableRows.join(''))));
         // attach event to the 'delete' buttons in the new table
         $('.storage table button').on('click', function () {
