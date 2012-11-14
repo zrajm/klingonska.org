@@ -131,7 +131,7 @@ function errorMsg(str) {
                     tag('span', 'Klingonska', 'lang=sv')) +
                 tag('th',                      // Word Type
                     tag('span', 'Type',  'lang=en') +
-                    tag('span', 'Klass', 'lang=sv')) +
+                    tag('span', 'Typ', 'lang=sv')) +
                 tag('th', 'English',          // English
                     'lang=en') +
                 tag('th', 'Svenska',          // Swedish
