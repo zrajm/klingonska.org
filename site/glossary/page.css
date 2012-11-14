@@ -2,13 +2,6 @@
 body[data-lang|="en"] :lang(sv) { display: none; }
 body[data-lang|="sv"] :lang(en) { display: none; }
 
-html { overflow-y: scroll; }
-
-body {
-    background: #888;
-    margin: 0;
-}
-
 h1 { font-family: sans-serif; }
 
 section {
@@ -25,37 +18,34 @@ table.sortable thead th:hover{
     cursor: pointer;
 }
 
-#table { padding: .25em .5em; }
-#errors { background: #f88; border: 4px solid #000; padding: 1em 2em; }
-#errors:empty { display: none; } /* hide display element if empty */
-
-table { border-collapse: collapse; }
-thead, tbody, tfoot { border: 4px solid #000; }
-td, th {
-    border: 2px solid black;
-    padding: .125em .25em;
-}
-td:focus { background: #ddd; }
-
-td pre {
-    margin: 0;
+/* error display at top of page (invisible if empty) */
+#errors:empty { display: none; } /* hide element if empty */
+#errors {
+    background: #f88;
+    border: 4px solid #000;
+    padding: 1em 1.5em;
 }
 
-.en { font-style: italic; }
-.tlh { font-weight: bold; }
 
+/******************************************************************************\
+**                                                                            **
+**  Page Navigation Tabs                                                      **
+**                                                                            **
+\******************************************************************************/
 
-/******************************************************************************/
-/*                                                                            */
-/*  Page Navigation Tabs                                                      */
-/*                                                                            */
-/******************************************************************************/
-
+nav.page-tabs .lang {
+    margin: .3em .25em;
+}
+div.outside-page-tabs {
+    margin: 0 -20em;
+    padding: 0 20em;
+    background: #922;
+}
 nav.page-tabs {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 80%;
-    background: #000;
+    background: #b33;                /* red, page background */
     padding: .25em .25em 0;
 }
 .right {
@@ -64,17 +54,18 @@ nav.page-tabs {
 nav.page-tabs ul {
     display: block;
     margin: 0;
+    text-align: center;
     padding: 0;
 }
 nav.page-tabs li {
+    background: #888;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    margin: 0;
-    display: inline-block;
-    background: #888;
-    border: 0;
-    padding: .5em .75em;
+    border: solid #922;
+    border-width: 1px 1px 0;
     cursor: pointer;
+    display: inline-block;
+    padding: .25em .75em;
     margin: 0 .25em;
 }
 nav.page-tabs li.selected {
@@ -241,8 +232,8 @@ table.glossary .known.ques { background: #805580; }       /* known "Other" */
 **                                                                            **
 \******************************************************************************/
 
-.storage th, .storage td {
-    vertical-align: top;
-}
+.storage th, .storage td { vertical-align: top; }
+
+.storage th pre { margin: 0; }
 
 /* eof */

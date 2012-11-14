@@ -1,6 +1,29 @@
 #+STARTUP: overview hidestars -*- org -*-
 
 * [0%] Core functionality
+** [20%] Add site design
+*** TODO Give page a proper name and put that in titles etc.
+    "Glossary extractor" is maybe a bit boring? Flashcards something? Learner?
+*** TODO Move tab row inside page header
+*** TODO Move language selector somewhere else
+    Since it makes the tab row look non-centered.
+
+    But where should it go? Top right corner of page (above title & page logo)?
+    Top right corner of the white part of the page?
+*** TODO Allow KA-logo to overlap the tabs
+    Either the tabs (only) should be clickable, or only the non-transparent
+    parts of the image should be clickable.
+
+    Should prolly use 'z-index:100' with the SVG image. (NOTE: This requires
+    'position:relative' in order to work.)
+*** DONE Rudimentary
+    CLOSED: [2012-11-14 Wed 20:22]
+    Now inserted in very hacky, non-pretty way. (An outside div with negative
+    margins to fix the red background thingy – which should do nothing to make
+    the subtle box-shadows display correctly.) It is probably broken on many
+    browsers.
+
+    It also causes side scrolling on page. :(
 ** [0%] Flashcard
 ** [62%] Add 'Known Words'
 *** TODO Crossing out of words in known list
