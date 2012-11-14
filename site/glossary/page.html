@@ -3,58 +3,216 @@
   <head>
     <meta charset="utf-8">
     <link rel=stylesheet href="page.css">
+    <script src="modernizr-2.5.3.js"></script>
   </head>
-  <body>
+  <body data-lang=en itemscope itemtype="http://schema.org/WebPage">
+    <noscript><strong>Note:</strong>This page is a Javascript program for
+      extracting a glossary from any Klingon text. It won't do you much good
+      unless you have Javascript enabled. (Sorry about that.)</noscript>
+
     <ul id=errors></ul>
 
-    <article>
-      <nav class="tabs">
-        <ul>
-          <li class="add selected">Add Words</li>
-          <li class="test">Test Yourself</li>
-          <li class="extract">Extract</li>
-          <li class="known">Known Words</li>
+    <article role=main itemprop=mainContentOfPage>
+      <nav class=page-tabs>
+        <select class="lang right">
+          <option value=en>English</option>
+          <option value=sv>Svenska</option>
+        </select>
+        <ul id=tab-row>
+          <li class=extract>
+            <span lang=en>Klingon Text</span>
+            <span lang=sv>Klingonsk text</span>
+          </li>
+          <li class=glossary>
+            <span lang=en>Glossary</span>
+            <span lang=sv>Gloslista</span>
+          </li>
+          <li class=flash lang="en sv">Flashcards</li>
+          <li class=known>
+            <span lang=en>Known Words</span>
+            <span lang=sv>Kända ord</span>
+          </li>
+          <li class=storage>
+            <span lang=en>Upload/Download</span>
+            <span lang=sv>Ladda upp/ner</span>
+          </li>
         </ul>
       </nav>
 
-      <section class="add">
-        <table></table>
-        <div>
-          <script>var something = [{tlh:'not',pos:'adv',en:'never'}];</script>
-          <button onclick="log('push: '    + thingy.push(something));    dump(thingy)">push</button>
-          <button onclick="log('pop: '     + thingy.pop());              dump(thingy)">pop</button>
-          <button onclick="log('shift: '   + thingy.shift());            dump(thingy)">shift</button>
-          <button onclick="log('unshift: ' + thingy.unshift(something)); dump(thingy)">unshift</button>
-          <button onclick="log('sort: '    + thingy.sort(by('en')));     dump(thingy)">sort</button>
-          <button onclick="log('reverse: ' + thingy.reverse());          dump(thingy)">reverse</button>
-          <button onclick="dump(thingy)">dump</button>
-        </div>
-        <p>This is the list of words to learn.</p>
-      </section>
-
-      <section class="test hidden">
-        <h1>page_test</h1>
-      </section>
-
       <section class="extract hidden">
-        <h1>page_extract</h1>
+        <p lang=en style=margin-top:0>
+          Paste any text in Klingon, press <i>Analyze Text</i> button, then
+          go to the next tab (<i>Glossary</i>).
+        </p>
+        <p lang=sv style=margin-top:0>
+          Klistra in valfri text på klingonska, tryck <i>Analysera texten</i> och
+          gå sen till nästa flik (<i>Gloslista</i>).
+        </p>
+        <span lang=en>
+          <button class=extract>Analyze Text</button>
+          <span class=wordcount>0</span> words
+          (<span class=uniqcount>0</span> different)
+        </span>
+        <span lang=sv>
+          <button class=extract>Analysera texten</button>
+          <span class=wordcount>0</span> ord
+          (<span class=uniqcount>0</span> olika)
+        </span>
+        <div class=input contenteditable></div>
+        <span lang=en>
+          <button class=clear>Clear</button>
+          <button class=test>Example Text</button>
+        </span>
+        <span lang=sv>
+          <button class=clear>Rensa</button>
+          <button class=test>Exempeltext</button>
+        </span>
+
+        <div>
+          <div lang=en>
+            <p>
+              <b>Word type:</b>
+              <span class=v>Verb</span>
+              <span class=n>Noun</span>
+              <span class=num>Number</span>
+              <span class=pro>Other</span>
+              <span class="n v">Ambiguous</span>
+              <span class="">Unknown</span>
+            </p>
+            <p>Verbs with <b lang=tlh>-ghach</b> or <b lang=tlh>-wI’</b>
+              behaves and are colored as nouns, but it is the root
+              <em>verb</em> which is added to the glossary.</p>
+            <p>This page automatically loads the latest version of the
+              dictionary from <a href="../dict/">Klingonska Akademien’s Pocket
+              Dictionary</a>.</p>
+          </div>
+          <div lang=sv>
+            <p>
+              <b>Ordklass:</b>
+              <span class=v>Verb</span>
+              <span class=n>Substantiv</span>
+              <span class=num>Nummer</span>
+              <span class=pro>Annat</span>
+              <span class="n v">Tvetydigt</span>
+              <span class="">Okänt</span>
+            </p>
+            <p>Verb med <b lang=tlh>-ghach</b> eller <b lang=tlh>-wI’</b>
+              fungerar som substantiv och är markeras som sådana, men det är
+              ordets <em>verbrot</em> som läggs till i gloslistan.</p>
+            <h2>Instruktioner</h2>
+            <p> Du kan radera ord från
+              gloslistan genom att klicka på &ldquo;×&rdquo;:et som dyker upp
+              när du håller muspekaren över ett ord i listan.</p>
+            <p>Den här sidan använder automatiskt den senaste versionen av
+              ordlistan ifrån <a href="../dict/">Klingonska Akademiens
+              fickordbok</a>.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="glossary hidden">
+        <div lang=en style=margin:0>
+          Cross out the words you already know below. Re-sort table by clicking
+          on the headers.
+          <p>
+            <b>Word type:</b>
+            <span class=v>Verb</span>
+            <span class=n>Noun</span>
+            <span class=num>Number</span>
+            <span class=pro>Other</span>
+          </p>
+        </div>
+        <div lang=sv style=margin:0>
+          Stryk över de ord du redan kan nedan. Sortera om listan genom att
+          klicka på rubrikerna.
+          <p>
+            <b>Ordklass:</b>
+            <span class=v>Verb</span>
+            <span class=n>Substantiv</span>
+            <span class=num>Nummer</span>
+            <span class=pro>Annat</span>
+          </p>
+        </div>
+
+        <div class=output>
+          <span lang=en>You have not extracted a glossary yet. (Do that under
+            the “Klingon Text” tab.)
+          </span>
+          <span lang=sv>Du har inte extraherat någon gloslista än. (Gör det
+            under fliken “Klingonsk text”.)
+          </span>
+        </div>
+      </section>
+
+      <section class="flash hidden">
+        <table width=100%>
+          <tbody>
+            <tr><td class=question>
+                <b lang=tlh>bach</b>
+            </td></tr>
+            <tr><td class=answer>
+                <i>shoot (v)<br>
+                  shot (n)</i>
+            </td></tr>
+          </tbody>
+          <tfoot>
+            <tr><td class=buttons>
+                <button class=a title="Show again (key: 0 or Esc)">Again</button>
+                <button class=b title="I recognized this word (key: 1 or ↲)">Good</button>
+                <button class=c title="I know this word well (key: 3)">Easy</button>
+                <button class=d title="Move word to list of known words (key: 4)">Known</button>
+            </td></tr>
+          </tfoot>
+        </table>
+        <!--button style="background:#da8;color:#540;border: outset #fca;" >Maybe</button-->
+        <!--button style="background:#ad8;color:#350;border: outset #cfa;" title=2>Easy</button-->
+        <!--button style="background:#8f8;color:#070;border: outset #afa;">Known</button-->
+        <div style="color: #666">
+          <label title="Determines the number of buttons above.">Loop: <input style="width:1.5em" value=13></label>
+          &nbsp;
+          Repeats:
+          <label>tlh⇒en <input style="width:1em" value=3></label>
+          &nbsp;
+          <label>en⇒tlh <input style="width:1em" value=3></label>
+        </div>
       </section>
 
       <section class="known hidden">
-        <table></table>
         <p>This is a list of words that you already know. They will not be used
           in testing.</p>
+        <table></table>
       </section>
 
+      <section class="storage hidden">
+        <p>Use this to download the current state of this program, and to copy
+          it between browsers/computers, or as a backup.</p>
+        <button class=download>Download</button>
+        <button class=upload>Upload</button>
+        <span></span>
+        <!-- Hidden fields are needed and triggered by Javascript events. -->
+        <input class=hidden type=file accept=".state.txt">
+        <table></table>
+      </section>
     </article>
+
+    <section class=status>
+      Loading <a href="../dict/dict.zdb">dictionary</a>…
+    </section>
 
     <div id=current></div>
     <div id=log></div>
     <div style="background:#888;" id=dump></div>
     <script src="jquery-1.8.2.js"></script>
+    <script src="compatibility.js"></script>
+    <script src="maketagged.js"></script>
+    <script src="makedictionary.js"></script>
+    <script src="makerules.js"></script>
     <script src="pagetabs.js"></script>
+    <script src="setlang.js"></script>
     <script src="hookedarray.js"></script>
     <script src="tablearray.js"></script>
+    <script src="storage.js"></script>
+    <script src="extract.js"></script>
     <script src="page.js"></script>
   </body>
 </html>

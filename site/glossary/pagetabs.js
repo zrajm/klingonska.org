@@ -1,51 +1,84 @@
+/*global $, localStorage */
+/*jslint devel: true, unparam: true */
+
+//
+// Page tabs are defined by the children elements of an element with the
+// 'id=tab-row' attribute set. (Not all descendant are search, just one level
+// deep.) Each child element should have 'class' set to the class of the
+// corresponding page. The currently selected tab is marked by adding a
+// 'class=selected' (match this with CSS to highlight the current tab for the
+// end user).
+//
+// Pages are any children elements of an element with the attribute 'role=main'
+// set. Pages should be hidden initially, they will be displayed/hidden as
+// needed by this script. All pages, except the currently shown will get
+// 'class=hidden' (match this with CSS to set 'display:none' on all but the
+// current page).
+//
+// A very minimal page with all the required arguments for using this script
+// may look like this (you'll have to CSS it too, of course):
+//
+//     <article role=main>
+//       <nav>
+//         <ul id=tab-row>
+//           <li class=one>Tab One</li>
+//           <li class=two>Tab Two</li>
+//         </ul>
+//       </nav>
+//       <section class="one hidden">Page One</section>
+//       <section class="two hidden">Page Two</section>
+//     </article>
+//     <script src="pagetabs.js"></script>
+//
+// The currently selected tab is stored in localStorage, so that on page
+// reload, the same tab remains open.
+//
 
 $(function () {
-    var that = this;
-    var tabs = {
-        selected: 'add',
-        tabs: {
-            add: {
-                tabElement:  $('nav.tabs .add'),
-                pageElement: $('section.add'),
-                onShow: function () { },
-                onHide: function () { },
-            },
-            test: {
-                tabElement:  $('nav.tabs .test'),
-                pageElement: $('section.test'),
-                onShow: function () { },
-                onHide: function () { },
-            },
-            extract: {
-                tabElement:  $('nav.tabs .extract'),
-                pageElement: $('section.extract'),
-                onShow: function () { },
-                onHide: function () { },
-            },
-            known: {
-                tabElement:  $('nav.tabs .known'),
-                pageElement: $('section.known'),
-                onShow: function () { },
-                onHide: function () { },
+    'use strict';
+    var storageName = 'current-tab-name',
+        currentTabName = localStorage.getItem(storageName), // stored tab name
+        currentTabElement = null,
+        pagetabs = {
+            selected: '',
+            tabs: {},
+            change: function (newTabName) {
+                var oldPage = this.tabs[this.selected],
+                    newPage = this.tabs[newTabName];
+                if (!newPage) {
+                    // this should never happen
+                    alert("Tab '" + newTabName + "' does not exist.");
+                    return false;
+                }
+                if (pagetabs.selected) {
+                    oldPage.tabElement.removeClass('selected');
+                    oldPage.pageElement.addClass('hidden');
+                }
+                this.selected = newTabName;
+                localStorage.setItem(storageName, newTabName);
+                newPage.tabElement.addClass('selected');
+                newPage.pageElement.removeClass('hidden');
             }
-        },
-        change: function (newTab) {
-            var oldPage = this.tabs[this.selected], newPage;
-            oldPage.onHide();
-            oldPage.tabElement.removeClass('selected');
-            oldPage.pageElement.addClass('hidden');
-            this.selected = newTab;
-            newPage = this.tabs[newTab];
-            newPage.tabElement.addClass('selected');
-            newPage.pageElement.removeClass('hidden');
-            newPage.onShow();
-        },
-    };
+        };
 
-    Object.keys(tabs.tabs).map(function (name) {
-        value = tabs.tabs[name];
-        value.tabElement.on('click', function () { tabs.change(name) });
+    // get tabs from #tab-row, build data structure
+    $('#tab-row > *').each(function (index, element) {
+        element = $(element);  // DOM -> jQuery element
+        var name = element.attr('class');
+        if (name) {
+            if (name === currentTabName || !currentTabElement) {
+                currentTabElement = element;
+            }
+            pagetabs.tabs[name] = {
+                tabElement:  element,
+                pageElement: $('[role="main"] > .' + name)
+            };
+            element.on('click', function () { pagetabs.change(name); });
+        }
     });
+
+    // trigger update of everything under that tab
+    currentTabElement.triggerHandler('click');
 });
 
 // eof

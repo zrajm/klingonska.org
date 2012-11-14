@@ -1,0 +1,23 @@
+#+STARTUP: overview hidestars -*- org -*-
+
+* [0%] Core functionality
+** [0%] Flashcard
+** [0%] Add 'known words'
+*** TODO Automatic coloration of stuff in “Known Words”.
+*** TODO Crossing out of stuff in glossary list
+    Crossed out stuff should automatically appear under “Known Words”, and
+    anything under “Known Words” should automatically be crossed out when
+    extracting a new glossary.
+* [0%] UI Improvements
+** TODO Select tab with keyboard
+   Underline letter in tab name used to switch + complete keyboard shortcut
+   name in mouseover text.
+** TODO Placeholder text in text input field
+   Should explains what to do (placeholder should be shown only if 'div' is
+   empty, but even if selected.
+* [0%] UI Bugs
+** TODO Word counters should update on reload
+   Currently state is not saved for the word counters.
+* [0%] Test/check older browsers
+** TODO Check that tabs look okay in older browsers
+

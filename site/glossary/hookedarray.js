@@ -114,7 +114,7 @@ function HookedArray(callback) {
         l = HookedArray.prototype = [];
         l.splice = function (index, howMany, values, calledAs) {
             var max, result, length = this.length, oldValues = [];
-            if (! values instanceof Array) {
+            if (!values instanceof Array) {
                 throw new TypeError('HookedArray.setCallback() argument must be an array');
             }
             // fix incoming values
