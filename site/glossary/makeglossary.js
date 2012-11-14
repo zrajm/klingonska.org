@@ -1,3 +1,5 @@
+/*file: makeglossary */
+
 // glossary = makeGlossary([ entries ]);
 //
 // glossary.add(entries);     // chainable

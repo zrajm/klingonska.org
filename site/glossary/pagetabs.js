@@ -1,3 +1,4 @@
+/*file: pagetabs */
 /*global $, localStorage */
 /*jslint devel: true, unparam: true */
 

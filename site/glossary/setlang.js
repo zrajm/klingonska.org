@@ -1,3 +1,4 @@
+/*file: setlang */
 /*global $, localStorage */
 /*jslint browser: true */
 

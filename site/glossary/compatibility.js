@@ -1,3 +1,5 @@
+/* file: compatibility */
+
 /*****************************************************************************\
 **                                                                           **
 ** ECMAScript 5 Compatibility Functions for Older Browsers                   **

@@ -1,3 +1,5 @@
+/*file: makedictionary */
+
 /*global $ */
 /*jslint regexp: true */
 
@@ -157,7 +159,8 @@ function makeDictionary(url, onLoadCallback) {
         query: function (query) {
             var pos = (query || {}).pos,
                 tlh = (query || {}).tlh,
-                num = (query || {}).num, result;
+                num = (query || {}).num,
+                result;
             try {
                 if (num !== undefined) {
                     result = dict[num < 0 ? dict.length + num : num];

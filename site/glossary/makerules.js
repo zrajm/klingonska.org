@@ -1,3 +1,5 @@
+/*file: makerules */
+
 var makeRules = (function () {
         'use strict';
         // Usage: subrule.addRule(syllables, tag, trailingRules);
@@ -287,4 +289,5 @@ var makeRules = (function () {
             return getRules(dict);
         };
 }());
+
 //eof

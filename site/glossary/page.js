@@ -1,3 +1,4 @@
+/*file: page */
 /*jslint todo: true */
 /*global $, makeTagged, makeGlossary, makeDictionary, makeRules */
 

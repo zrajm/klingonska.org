@@ -1,3 +1,4 @@
+/*file: tab-storage */
 /*global $, localStorage, Blob, FileReader */
 
 (function (window) {
