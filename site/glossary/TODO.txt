@@ -2,14 +2,33 @@
 
 * [0%] Core functionality
 ** [0%] Flashcard
-** [0%] Add 'known words'
-*** TODO Ditch TableArray and HookedArray altogether(?)
-*** TODO Automatic coloration of stuff in “Known Words”.
-*** TODO Crossing out of stuff in glossary list
+** [42%] Add 'Known Words'
+*** TODO Glossary & known words tables should have class set
+    Which should in turn be used to control the common styling for these
+    tables.
+*** TODO Crossing out of words in known list
+    Should uncross them on the glossary page. They should remain visible on the
+    known page (in the crossed out state), but there should be a button to
+    remove them.
+*** TODO "Known words" wordcount should reflect current text
+    I.e. word counts should be reset, and updated in the known list, too.
+*** TODO View/hide known glossary words
+    There should be a selector, with which one can show/hide the words that are
+    known. (If shown, they should be crossed out.)
+*** DONE Ditch TableArray and HookedArray altogether(?)
+    CLOSED: [2012-11-14 Wed 07:35]
+*** DONE Automatic coloration of stuff in “Known Words”.
+    CLOSED: [2012-11-14 Wed 07:35]
+*** DONE Crossing out of stuff in glossary list
+    CLOSED: [2012-11-14 Wed 07:35]
     Crossed out stuff should automatically appear under “Known Words”, and
     anything under “Known Words” should automatically be crossed out when
     extracting a new glossary.
 * [0%] Improvements
+** TODO Each tab should have its own script file
+   Which would then require that page.js declare everything relevant to this in
+   a global scope.
+** TODO Dictionary loading should not unwrap text
 ** [0%] Language parsing
 *** TODO Make sure naked numerical elements work
     Like {vatlh}, all by itself.
@@ -25,6 +44,9 @@
 *** TODO Avoid duplicated words from dictionary
     E.g. {bachwI'} is both in dict and can be derived from rules.
 ** [0%] User interface
+*** TODO Known list can grow HUUUGE, should add filter capacity
+    Add a thingy at top of list where one can write words, only table rows
+    matching should be show. (Similar to Transmission's search feature.)
 *** TODO Hover over word in input field should highlight all w/ same root
     If the word "bachwI'" is hovered on, then all words with that same root
     should be highlighted. ("bach", "bachqu'" etc.)

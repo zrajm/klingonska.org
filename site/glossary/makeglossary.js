@@ -35,6 +35,7 @@ function makeGlossary(entries) {
                 return glossary[num];
             });
         },
+        has: function (num) { return !!glossary[num]; },
         length: function () { return Object.keys(glossary).length; },
         // chainable functions in alphabetical order
         add: function (entries) {

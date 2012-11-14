@@ -1,7 +1,13 @@
 /*global $, localStorage */
 /*jslint devel: true, unparam: true */
 
-//
+// NOTE
+// ====
+// This should load last, so that it may trigger other tab scripts by
+// simulating a click on its tab. (For this to work the receiving end needs to
+// have initialized and be ready to receive.)
+
+
 // Page tabs are defined by the children elements of an element with the
 // 'id=tab-row' attribute set. (Not all descendant are search, just one level
 // deep.) Each child element should have 'class' set to the class of the
@@ -78,7 +84,7 @@ $(function () {
     });
 
     // trigger update of everything under that tab
-    currentTabElement.triggerHandler('click');
+    currentTabElement.trigger('click');
 });
 
 // eof

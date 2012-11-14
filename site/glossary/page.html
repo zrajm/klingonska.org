@@ -171,9 +171,29 @@
       </section>
 
       <section class="known hidden">
-        <p>This is a list of words that you already know. They will not be used
-          in testing.</p>
-        <table></table>
+        <div lang=en style=margin:0>
+          <p style=margin-top:0>These are words you already know. They will not
+            be used when practising.</p>
+          <p style=margin-bottom:.125em>
+            <b>Word type:</b>
+            <span class=v>Verb</span>
+            <span class=n>Noun</span>
+            <span class=num>Number</span>
+            <span class=pro>Other</span>
+          </p>
+        </div>
+        <div lang=sv style=margin:0>
+          <p style=margin-top:0>Det här är en ord du redan kan. De kommer inte
+            dyka upp när du övar.</p>
+          <p style=margin-bottom:.125em>
+            <b>Ordklass:</b>
+            <span class=v>Verb</span>
+            <span class=n>Substantiv</span>
+            <span class=num>Nummer</span>
+            <span class=pro>Annat</span>
+          </p>
+        </div>
+        <div class=output></div>
       </section>
 
       <section class="storage hidden">
@@ -201,11 +221,9 @@
     <script src="makedictionary.js"></script>
     <script src="makerules.js"></script>
     <script src="makeglossary.js"></script>
-    <script src="pagetabs.js"></script>
     <script src="setlang.js"></script>
-    <script src="hookedarray.js"></script>
-    <script src="tablearray.js"></script>
-    <script src="storage.js"></script>
     <script src="page.js"></script>
+    <script src="tab-storage.js"></script>
+    <script src="pagetabs.js"></script><!-- load pagetabs last -->
   </body>
 </html>

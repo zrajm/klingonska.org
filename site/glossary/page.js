@@ -1,6 +1,5 @@
 /*jslint todo: true */
-/*global $, makeTableArray, makeDictionary, makeRules, makeTagged,
-  makeGlossary */
+/*global $, makeTagged, makeGlossary, makeDictionary, makeRules */
 
 var statusTimer;
 function tmpStatus(msg) {
@@ -79,13 +78,12 @@ function errorMsg(str) {
         return tokens.map(function (obj) {
             var title;
             if (!obj.parts) { return obj.text; }     // space and/or punctuation
-            // alert(JSON.stringify(obj, null, 2));
             title = obj.parts.map(function (part) {  // word
                 return part.parts.map(function (part) {
                     return part.text + '(' + part.pos + ')';
                 }).join('&ndash;');
             });
-            //return '<span class="' + obj.getTags().join(' ') + '" title="' + title + '">' +
+            // FIXME: write this using tag()
             return '<span class="' + obj.getTags().join(' ') + '" title="' +
                 'Part of Speech: ' + (obj.getTags().join(', ') || 'N/A') + '\n' +
                 'Breakdown:\n    ' + (title.join('\n    ') || 'N/A') + '\n' +
@@ -94,7 +92,7 @@ function errorMsg(str) {
         }).join('');
     }
 
-    function generateGlossaryTable(glossary) {
+    function generateGlossaryTable(glossary, crossedOutGlossary) {
         /*jslint white: true */
         var tbody = [],
             entries = glossary.get(),
@@ -133,23 +131,16 @@ function errorMsg(str) {
                 tag('th',                      // Word Type
                     tag('span', 'Type',  'lang=en') +
                     tag('span', 'Klass', 'lang=sv')) +
-                tag('th', 'English' +          // English
-                    tag('span', '↶', 'class=unzap title="Undo word remove."'),
+                tag('th', 'English',          // English
                     'lang=en') +
-                tag('th', 'Svenska' +          // Swedish
-                    tag('span', '↶', 'class=unzap title="Ångra ordborttagning."'),
+                tag('th', 'Svenska',          // Swedish
                     'lang=sv')
             );
         /*jslint white: false */
         if (entries.length === 0) {
             return tag('table', tag('tbody', tag('tr', tag('td',
-                tag('span', 'There is nothing to see here yet. (First you ' +
-                    'must analyze something under the <i>Klingon Text</i> ' +
-                    'tab.)', 'lang=en') +
-                tag('span', 'Det finns inget att visa här än. (Först måste ' +
-                    'du analysera något under fliken <i>Klingonsk text.</i>)',
-                    'lang=sv')
-            ))));
+                tag('span', 'There is nothing to see here (yet).', 'lang=en') +
+                tag('span', 'Det finns inget att visa här (än).', 'lang=sv')))));
         }
         tbody = entries.map(function (entry) {
             /*jslint unparam: true */
@@ -168,26 +159,21 @@ function errorMsg(str) {
                     'sorttable_customkey="' +
                     tlhSortkey(entry.tlh) + '"') +
                 tag('td', pos, 'class=pos') +     // Type
-                tag('td',                         // English
-                    tag('span', '×',
-                        'class=zap title="Remove this word."') +
-                    en,
+                tag('td', en,                      // English
                     'lang=en sorttable_customkey="' +
                     entry.en.replace(/[«»<>]/g, '').toLowerCase() + '"') +
-                tag('td',                         // Swedish
-                    tag('span', '×',
-                        'class=zap title="Remove this word."') +
-                    sv,
+                tag('td', sv,                     // Swedish
                     'lang=sv sorttable_customkey="' +
                     entry.sv.replace(/[«»<>]/g, '').toLowerCase() + '"'),
-                'class=' + pos);
+                   'class="' + pos + (crossedOutGlossary &&
+                       crossedOutGlossary.has(entry.num) ? ' known' : '') +
+                   '" data-num=' + entry.num);
         });
         return tag('table',
                 tag('thead', thead) + tag('tbody', tbody.join('')),
                'class=sortable'
             ) +
-            tag('script', '', 'src="../includes/sorttable.js"') +
-            tag('script', '', 'src="zaptablerow.js"');
+            tag('script', '', 'src="../includes/sorttable.js"');
     }
 
     analyze = (function () {
@@ -229,7 +215,7 @@ function errorMsg(str) {
             return result;
         }
 
-        function analyze(html, rules, dict) {
+        return function (html, rules, dict) {
             var glossary = makeGlossary(),
                 tokens   = tokenizeAndParse(html, rules),
                 words    = tokens.filter(function (token) {
@@ -237,7 +223,7 @@ function errorMsg(str) {
                 });
 
             // go through processed tokens, generate glossary
-            //glossary.clear();
+            glossary.clear();
             words.forEach(function (word) {
                 var hasGottenType = {};
                 word.parts.forEach(function (part) {
@@ -256,12 +242,9 @@ function errorMsg(str) {
                 });
             });
             glossary.save('glossary');
-            return [words.length, tokens, glossary];
-        }
-
-        return analyze;
+            return [tokens, glossary];
+        };
     }());
-
 
     /*************************************************************************\
     **                                                                       **
@@ -269,25 +252,55 @@ function errorMsg(str) {
     **                                                                       **
     \*************************************************************************/
     $(function () {
-        var knownWords, rules,
+        var rules, tokens = [],
             glossary = makeGlossary().load('glossary'),
-            outputElement = $('.glossary .output'),
-            inputElement  = $('.extract .input'),
+            known    = makeGlossary().load('known'),
+            outputElement = $('.glossary div.output'),
+            inputElement  = $('.extract  div.input'),
+            knownElement  = $('.known    div.output'),
             extractButtonElement = $('button.extract'),
+            inputText = localStorage.getItem('current-klingon-text') || '',
             dict = makeDictionary('../dict/dict.zdb', function (dict) {
                 rules = makeRules(dict);
                 tmpStatus('<a href="../dict/dict.zdb">Dictionary</a> loaded.');
             });
+
+        // on page tab click
+        $('#tab-row .glossary').on('click', function () {
+            outputElement.empty().html(generateGlossaryTable(glossary, known));
+        });
+        $('#tab-row .known').on('click', function () {
+            knownElement.empty().html(generateGlossaryTable(known));
+        });
+        $('#tab-row .extract').on('click', function () {
+            inputElement.html(inputText);
+
+            var count = 0;
+            inputText.replace(/<span /g, function () { count += 1; });
+
+            // update word counters on page
+            $('.wordcount').html(count);
+            $('.uniqcount').html(glossary.length());
+        });
+
         if (glossary.length() > 0) {
-            outputElement.html(generateGlossaryTable(glossary));
+            outputElement.empty().html(generateGlossaryTable(glossary, known));
+            outputElement.on('click', function (event) {
+                var elem = $(event.target).closest('tr[data-num]'),
+                    num  = elem.data('num');
+                if (num !== undefined) {       // do stuff
+                    if (elem.hasClass('known')) {// make word unknown
+                        known.remove(dict.query({ num: num })).save('known');
+                        elem.removeClass('known');
+                    } else {                   //   make word known
+                        known.add(dict.query({ num: num })).save('known');
+                        elem.addClass('known');
+                    }
+                    knownElement.empty().html(generateGlossaryTable(known));
+                }
+            });
         }
 
-        (function () {
-            var html = localStorage.getItem('current-klingon-text');
-            if (html !== null) {
-                inputElement.html(html);
-            }
-        }());
         inputElement.focus();
         function clearButton() {               // clear text area
             inputElement.empty();
@@ -307,24 +320,22 @@ function errorMsg(str) {
         }
         function extractButton() {
             var html      = inputElement.html(),
-                result    = analyze(html, rules, dict),
-                wordCount = result[0],
-                tokens    = result[1],
-                glossary  = result[2];
+                result    = analyze(html, rules, dict);
+            glossary  = result[1];
+            tokens = result[0];
+            inputText = highlightedUserInput(tokens);
 
-            // update word counters on page
-            $('.wordcount').html(wordCount);
-            $('.uniqcount').html(glossary.length());
+            // // update word counters on page
+            // $('.wordcount').html(wordCount);
+            // $('.uniqcount').html(glossary.length());
 
-            // color mark text in input field
-            inputElement.html(highlightedUserInput(tokens));
-            // output glossary table
-            outputElement.html(generateGlossaryTable(glossary));
+            $('#tab-row .extract').trigger('click'); // refresh this tab
         }
 
         extractButtonElement.click(extractButton);
         $('button.clear').click(clearButton);
         $('button.test').click(testButton);
+
 
         // Watcher for the Klingon input field. The watcher will start up
         // whenever user inputs anything in this field, and then run in
@@ -352,22 +363,6 @@ function errorMsg(str) {
                 }, 2000);
             });
         }());
-
-        try {
-            knownWords = makeTableArray({
-                container: $('section.known table'),
-                name: 'known',
-                cells: [ 'tlh', 'pos', 'en' ],
-                titles: {
-                    tlh: 'Klingon',
-                    pos: 'Type',
-                    en:  'English'
-                }
-            });
-        } catch (error) {
-            errorMsg('<b>Fatal Error:</b> ' + error.message);
-            throw new Error('Fatal error, execution stopped');
-        }
     });
 
 }());

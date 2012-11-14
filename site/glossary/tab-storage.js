@@ -22,13 +22,6 @@
             };
         }());
 
-    var escapeHTML = (function () {
-        var chr = { '"': '&quot;', '&': '&amp;', '<': '&lt;', '>': '&gt;' };
-        return function (text) {
-            return text.replace(/[\"&<>]/g, function (a) { return chr[a]; });
-        };
-    }());
-
     // create one HTML tag
     function tag(name, content, attr) {
         content = content || '';
@@ -133,7 +126,6 @@
 
     // Upload a state file to replace current localStorage.
     function uploadStorage(event) {
-        alert('yadda');
         var reader, file = event.target.files[0];
         if (file.type === 'text/plain') {
             reader = new FileReader();
@@ -182,9 +174,9 @@
             $('button.upload', pageElement).attr('disabled', true).
                 attr('title', 'Missing browser support for this feature.');
         }
-        if (warn.length) { $('p', pageElement).html(
-            'Unfortunately your browser does not support ' +
-            warn.join(', or ') + '. <b>:’(</b>' );
+        if (warn.length) {
+            $('p', pageElement).html('Unfortunately your browser does not ' +
+                'support ' + warn.join(', or ') + '. <b>:’(</b>');
         }
     });
 }(window));
