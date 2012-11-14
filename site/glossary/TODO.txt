@@ -1,7 +1,14 @@
 #+STARTUP: overview hidestars -*- org -*-
 
 * [0%] Core functionality
-** [20%] Add site design
+** [0%] Site integration
+*** TODO Move to glossary/ part of web page
+*** TODO Move separate git repo into main one
+*** TODO Add link to it from main page
+*** TODO Move this separate TODO list into main site TODO
+*** TODO Move CSS files into 'includes' directory
+*** TODO Update modernizr path in HTML
+** [11%] Add site design
 *** TODO Give page a proper name and put that in titles etc.
     "Glossary extractor" is maybe a bit boring? Flashcards something? Learner?
 *** TODO Move tab row inside page header

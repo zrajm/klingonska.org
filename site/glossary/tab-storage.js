@@ -52,7 +52,7 @@
                 value = JSON.stringify(JSON.parse(value), null, 4);
             } catch (error) {}
             return tag('tr',
-                tag('td', tag('pre', key) +
+                tag('th', tag('pre', key) +
                     tag('button', 'Delete', 'data-key="' + key + '"')) +
                 tag('td', tag('pre', value)));
         });
