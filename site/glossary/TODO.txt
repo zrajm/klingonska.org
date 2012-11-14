@@ -3,21 +3,65 @@
 * [0%] Core functionality
 ** [0%] Flashcard
 ** [0%] Add 'known words'
+*** TODO Ditch TableArray and HookedArray altogether(?)
 *** TODO Automatic coloration of stuff in “Known Words”.
 *** TODO Crossing out of stuff in glossary list
     Crossed out stuff should automatically appear under “Known Words”, and
     anything under “Known Words” should automatically be crossed out when
     extracting a new glossary.
-* [0%] UI Improvements
+* [0%] Improvements
+** [0%] Language parsing
+*** TODO Make sure naked numerical elements work
+    Like {vatlh}, all by itself.
+*** TODO Should all handle graphotactically correct words
+    Even if they do not appear in the dictionary. E.g. {Qov}.
+*** TODO Handle {-oy} suffix
+    When there is no glottal stop before it.
+*** TODO Create FSM from dictionary
+    Is this already done?
+*** TODO Should prolly not use numbers words from dictionary
+    Since those are defined in program itself.
+*** TODO Result of {maH} looks bad
+*** TODO Avoid duplicated words from dictionary
+    E.g. {bachwI'} is both in dict and can be derived from rules.
+
+** [0%] User interface
+*** TODO Hover over word in input field should highlight all w/ same root
+    If the word "bachwI'" is hovered on, then all words with that same root
+    should be highlighted. ("bach", "bachqu'" etc.)
+*** TODO Display some stats on analyzed text
+    Text and glossary list should have a line where the number of words, verbs,
+    nouns etc are listed.
+*** TODO Words in legend under input field should be clickable
+    (and enable/disable highlight of their respective categories)
+*** TODO Choose part-of-speech for ambiguous words
+    User should be able to select interpretations by clicking on words in
+    input. Useful for those cases where the parser can't make up its mind.
+*** TODO Add affixes to the glossary list                             :LATER:
+    The affixes found should also be included in the glossary. Low priority.
+** TODO In '# different' counter we should disregard complex words
+   like "Hej(v)-wI'(vs9n)" that are in the dictionary, and instead only count
+   the base "Hej(v)" word. Processing ("Hejlu' HejwI' Hej" gives, "3 words (2
+   different)", but should actually be "3 words (1 different)".)
 ** TODO Select tab with keyboard
    Underline letter in tab name used to switch + complete keyboard shortcut
    name in mouseover text.
 ** TODO Placeholder text in text input field
    Should explains what to do (placeholder should be shown only if 'div' is
    empty, but even if selected.
-* [0%] UI Bugs
+* [33%] UI Bugs
+** TODO Analyze button should cause immediate save
+   Instead of waiting the usual 3 seconds.
+** DONE Clear button should clear glossary as well
+   CLOSED: [2012-11-14 Wed 03:53]
 ** TODO Word counters should update on reload
    Currently state is not saved for the word counters.
-* [0%] Test/check older browsers
-** TODO Check that tabs look okay in older browsers
-
+* [0%] Testing
+** [0%] Test/check older browsers
+*** TODO Check that tabs look okay in older browsers
+** [0%] Test suite
+*** For language parsing
+**** paghlogh / Hochlogh / paghDIch / HochDIch
+**** wa'Hu' .. wa'maHHu' (for number not in dictionary)
+**** cha'leS .. HutleS (for number not in dictionary)
+**** test on lots of canon text

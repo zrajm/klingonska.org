@@ -1,5 +1,6 @@
 /*jslint todo: true */
-/*global $, makeTableArray, makeDictionary, makeRules, analyze */
+/*global $, makeTableArray, makeDictionary, makeRules, makeTagged,
+  makeGlossary */
 
 var statusTimer;
 function tmpStatus(msg) {
@@ -34,7 +35,7 @@ function errorMsg(str) {
 
 (function () {
     'use strict';
-    var tlhSortkey = (function () {
+    var analyze, tlhSortkey = (function () {
         /*jslint white: true */
         var transl = {
             "a"  : "a",   "b" : "b",   "ch": "c",   "D" : "d",   "e" : "e",
@@ -71,15 +72,6 @@ function errorMsg(str) {
         content = content || '';
         return '<' + name + (attr ? ' ' + attr : '') + '>' +
             content + '</' + name + '>';
-    }
-
-    // sorting function, use `array.sort(byKlingon)` to sort in Klingon
-    // alphabetical order
-    function byKlingon(a, b) {
-        var x = tlhSortkey(a), y = tlhSortkey(b);
-        if (x < y) { return -1; }
-        if (x > y) { return 1; }
-        return 0;
     }
 
     // go through processed tokens, generate HTML output
@@ -187,12 +179,90 @@ function errorMsg(str) {
             tag('script', '', 'src="zaptablerow.js"');
     }
 
-    // on document load
+    analyze = (function () {
+        function analyzeSpace(text) {
+            if (text.match(/[.!?]/)) {             // full stop
+                return 'sf';                       //   separator, full stop
+            }
+            if (text.match(/[,;:()]/)) {           // half stop
+                return 'sh';                       //   separator, half stop
+            }                                      // space
+            return 'ss';                           //   separator, space
+        }
+
+        function tokenizeAndParse(html, rules) {
+            // split text into tokens
+            var result = [],
+                tokens = html.split(/(<[^>]*>|&[^;]{1,10};|[^&<a-z\'\u2018\u2019]+)/i);
+            // NOTE: That we're *not* matching the words themselves above, since
+            // anything we're splitting and anything neither matching an HTML tag,
+            // nor an HTML entity nor whitespace will be a proper word, these words
+            // will be given to us as being in between the other strings. Adding a
+            // word matching expression would only increase the number of empty
+            // elements in the resulting list.
+            tokens.forEach(function (token) {
+                if (token !== '') {                        // if non-empty token
+                    if (token.match(/^[a-z\'\u2018\u2019]/i)) { // word
+                        result.push(makeTagged.word(token, rules));
+                    } else if (token[0] === '&') {         // HTML entity
+                        result.push(makeTagged.string(token));
+                    } else if (token[0] === '<') {         // HTML element
+                        if (!token.match(/^<\/?span\b/)) { //   keep all but <span>
+                            result.push(makeTagged.string(token));
+                        }
+                    } else {                               // punctuation
+                        result.push(makeTagged.string(token, [ analyzeSpace(token) ]));
+                    }
+                }
+            });
+            return result;
+        }
+
+        function analyze(html, rules, dict) {
+            var glossary = makeGlossary(),
+                tokens   = tokenizeAndParse(html, rules),
+                words    = tokens.filter(function (token) {
+                    return (token.parts ? true : false);
+                });
+
+            // go through processed tokens, generate glossary
+            //glossary.clear();
+            words.forEach(function (word) {
+                var hasGottenType = {};
+                word.parts.forEach(function (part) {
+                    var type = part.root.pos, root = part.root.text;
+                    // FIXME: this shouldn't be needed, but 'num1' occuring by
+                    // themself (e.g. {maH}) cause this.
+                    if (type === undefined || root === undefined) { return; }
+
+                    // FIXME: do only once for each word type
+                    // (this shouldn't be needed, but words like {maH}
+                    // sometimes appear twice with same word type)
+                    if (!hasGottenType[type]) {
+                        hasGottenType[type] = true;
+                        glossary.add(dict.query({ tlh: root, pos: type }));
+                    }
+                });
+            });
+            glossary.save('glossary');
+            return [words.length, tokens, glossary];
+        }
+
+        return analyze;
+    }());
+
+
+    /*************************************************************************\
+    **                                                                       **
+    **  On Document Load                                                     **
+    **                                                                       **
+    \*************************************************************************/
     $(function () {
         var knownWords, rules,
             glossary = makeGlossary().load('glossary'),
             outputElement = $('.glossary .output'),
             inputElement  = $('.extract .input'),
+            extractButtonElement = $('button.extract'),
             dict = makeDictionary('../dict/dict.zdb', function (dict) {
                 rules = makeRules(dict);
                 tmpStatus('<a href="../dict/dict.zdb">Dictionary</a> loaded.');
@@ -208,7 +278,10 @@ function errorMsg(str) {
             }
         }());
         inputElement.focus();
-        function clearButton() { inputElement.text(''); }  // clear text area
+        function clearButton() {               // clear text area
+            inputElement.empty();
+            extractButtonElement.trigger('click');
+        }
         function testButton() {
             inputElement.text("ghIq ngotlhwI' yIqel. (maw'be'; Hov leng " +
                 "tIvqu' neH). roD DujHeyDaq yo'HeyDaq ghap ghom. patlh ghaj " +
@@ -219,6 +292,7 @@ function errorMsg(str) {
                 "Quj tIvbej ghommeyvam, 'ach tlhIngan Hol Dun tIvbe'bej. " +
                 "Hol lughojmo' pop yajchu' jatlhwI' tlhInganmeyHeywI'Daq " +
                 "ghIpDIjtaHDI' bIHe'So' HInughI'chu'!");
+            extractButtonElement.trigger('click');
         }
         function extractButton() {
             var html      = inputElement.html(),
@@ -237,7 +311,7 @@ function errorMsg(str) {
             outputElement.html(generateGlossaryTable(glossary));
         }
 
-        $('button.extract').click(extractButton);
+        extractButtonElement.click(extractButton);
         $('button.clear').click(clearButton);
         $('button.test').click(testButton);
 
@@ -247,15 +321,17 @@ function errorMsg(str) {
         // since last invocation the watcher will silently kill itself. (Only
         // to be autospawned should the user start inputting again.)
         (function () {
-            var watcher, saved = true, count = 1;
-            inputElement.on('input DOMNodeInserted DOMNodeRemoved DOMCharacterDataModified', function () {
+            var watcher, saved = true, events = 'input DOMNodeInserted ' +
+                'DOMNodeRemoved DOMCharacterDataModified';
+            inputElement.on(events, function () {
                 if (watcher) { return; }
                 saved = false;
                 watcher = setInterval(function () {
                     if (saved === false) {
                         localStorage.setItem(
                             'current-klingon-text',
-                            inputElement.html());
+                            inputElement.html()
+                        );
                         tmpStatus('Saved.');
                         saved = true;
                     } else {
@@ -265,7 +341,6 @@ function errorMsg(str) {
                 }, 2000);
             });
         }());
-
 
         try {
             knownWords = makeTableArray({
