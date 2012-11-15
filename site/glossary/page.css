@@ -26,12 +26,21 @@ table.sortable thead th:hover{
     padding: 1em 1.5em;
 }
 
-
 /******************************************************************************\
 **                                                                            **
 **  Page Navigation Tabs                                                      **
 **                                                                            **
 \******************************************************************************/
+
+/* this allows stuff inside it to be placed with 'position: absolute' */
+header div { position: relative; }
+
+/* some pages (e.g. /glossary/) have a language selector */
+header div select {
+    position: absolute;
+    right: .75em;
+    top: .75em;
+}
 
 nav.page-tabs .lang {
     margin: .3em .25em;
@@ -58,7 +67,7 @@ nav.page-tabs ul {
     padding: 0;
 }
 nav.page-tabs li {
-    background: #888;
+    background: #aaa;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border: solid #922;
@@ -68,10 +77,16 @@ nav.page-tabs li {
     padding: .25em .75em;
     margin: 0 .25em;
 }
+nav.page-tabs li:hover {
+    background: #ccc;
+    color: #444;
+}
 nav.page-tabs li.selected {
-    cursor: default;
     background: #fff;
     color: #000;
+}
+nav.page-tabs li.selected:hover {
+    color: #666;
 }
 article {
     background: #fff;

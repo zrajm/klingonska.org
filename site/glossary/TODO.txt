@@ -1,5 +1,26 @@
 #+STARTUP: overview hidestars -*- org -*-
 
+* Glossary extractor
+** TODO Menu for each word in analyzed result
+   The menu should contain the same stuff the mouse-over text now contains +
+   some extra stuff.
+
+      Word:           qelchugh
+      Part-of-speech  v
+      Breakdown       qel(v)-chugh(vs9)
+      Translations    describe
+                      <something else>
+** TODO List of known words
+   Any word listed here should not be included in glossary. Words removed from
+   glossary should be added to this list automatically.
+
+   Just a textarea with words listed like this.
+
+       qel(v), ghor(n), pop(n)"reward"
+
+  The "..." part is only required to separate homonyms, and should be a word
+  found in the English translation of the word.
+
 * [0%] Core functionality
 ** [0%] Site integration
 *** TODO Move to glossary/ part of web page
