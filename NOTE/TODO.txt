@@ -111,9 +111,29 @@ optimization."
     CLOSED: [2010-09-03 Fri 22:19]
 *** DONE Redirect 2040.klingonska.org -> 2040.zrajm.org
     CLOSED: [2010-09-08 Wed 20:48]
-* Site stylesheets
-** Change link colors + remove underline
+* Site design annoyances+fixes
+** TODO Cleanup breadcrumbs
+   Some breadcrums use '&#8250;' other use '&gt;' should prolly just '&gt;' (it
+   doesn't look all that much worse, and is guaranteed to work with a larger
+   range of browsers).
+** TODO Default tables should be borderless
+   It is hard to unstyle a table, so the default table should behave very much
+   like the default HTML table, i.e. it should be borderless, have collapsing
+   borders, and probably no paddings and margins.
 
+   My fave table with 2px black border should have 'class=border' or somesuch.
+** TODO First-line indented paragraphs
+   Many pages have the first line of each paragraph indented, rather a blank
+   line between each paragraph. This should be achieved with a some class name
+   (on a <div> or the main content div of that page). Inside such <div>s, <hr>
+   should not be displayed, but only cause a blank line + non-indenting of
+   first line of the next paragraph.
+
+   This makes for pretty Markdown, since it can be written in the usual way,
+   using '* * *' on a line by itself to make larger breaks in the text.
+
+   Markdown should detect this mode by some metadata field.
+** TODO Change link colors + remove underline
    Underlining really diminishes readability sometimes, for example when used
    with IPA (as on http://klingonska.lal/piqad/), or when used in tables where
    much data consist of links.
@@ -126,7 +146,6 @@ optimization."
        a         { color: #11a; text-decoration: none; }
        a:visited { color: #516; }
        a:hover   { opacity: .65; }
-
 * Site content
 ** TODO Do a surf-through check for weird/old shit
 ** TODO Systematic/site-wide changes
@@ -2512,7 +2531,14 @@ optimization."
 *** TODO Check that all HTML is downcased
 *** TODO Check that all HTML have quoted attribute names
 *** TODO Check that HTML uses only approved tag/attribute names
-** TODO 'git commit' hook for checking SHA1 of site/dict/dict.zdb
+** TODO `git commit` hook                                         :IMPORTANT:
+*** TODO Enforcement of git commit hook
+    The make script should look to see if the commit hook is in place, and
+    require (or ask) that it be used.
+*** TODO Commit hook should check SHA1 of `site/dict/dict.zdb` is valid
+*** TODO Commit hook should check that commit message is well formed
+    According to these recommendations:
+    http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 ** DOING Makefile: Uploading of beta.klingonska.org / klingonska.org    :CLI:
 ** TODO usr/bin/klingon_spell_check                                     :CLI:
 *** TODO Support for syllable {-oy}

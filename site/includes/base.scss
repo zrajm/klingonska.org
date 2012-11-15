@@ -113,7 +113,7 @@ header {
         text-shadow:         0 0 8px #fff;
     }
     /* breadcrumbs & update date */
-    ul {
+    > ul {
         display: block;
         margin: 0 auto;
         overflow: auto;     /* float clearing hack */
@@ -141,14 +141,13 @@ header {
         }
     }
     /* site logo & title */
-    div {
+    > div {
         background: #b33;         /* red, page background */
         -moz-box-shadow:    0 .5em 2em rgba(0, 0, 0, .25);
         -ms-box-shadow:     0 .5em 2em rgba(0, 0, 0, .25);
         -o-box-shadow:      0 .5em 2em rgba(0, 0, 0, .25);
         -webkit-box-shadow: 0 .5em 2em rgba(0, 0, 0, .25);
         box-shadow:         0 .5em 2em rgba(0, 0, 0, .25);
-        letter-spacing: -1px;
         margin: 0 auto;
         max-width: 42em;          /* max page width */
         padding: .5em 0;
@@ -177,6 +176,7 @@ header {
                 /* end of white title text */
                 display: inline;
                 font: 300%/90% 'Alegreya SC', serif;
+                letter-spacing: -1px;
             }
             span.crop {
                 display: inline-block;
@@ -184,7 +184,9 @@ header {
             span.crop img {
                 margin: -40px -55px -50px -55px;
                 padding: 0;
+                position: relative;     /* needed by 'z-index' */
                 vertical-align: bottom; /* removes space below image */
+                z-index: 10;
             }
         }
     }
@@ -207,6 +209,7 @@ header {
     padding: .5em 4.5em;
     background: #fff;    /* white, page background */
     max-width: 33em;
+    position: relative;  /* avoid header box-shadow */
     h1 { font: bold 2em sans-serif; text-align: center; }
     h2 { font: bold 1.5em sans-serif; }
     h3 { font: bold 1.17em sans-serif; }
