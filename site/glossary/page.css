@@ -41,30 +41,21 @@ header div select {
     right: .75em;
     top: .75em;
 }
-
-nav.page-tabs .lang {
-    margin: .3em .25em;
-}
-div.outside-page-tabs {
-    margin: 0 -20em;
-    padding: 0 20em;
-    background: #922;
-}
 nav.page-tabs {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 80%;
-    background: #b33;                /* red, page background */
-    padding: .25em .25em 0;
-}
-.right {
-    float: right;
+    margin: .75em 0 0 0;
+    padding: 0;
+    position: relative; /* needed by 'z-index' */
+    z-index: 20;        /* tab row on top of KA logo */
 }
 nav.page-tabs ul {
     display: block;
     margin: 0;
     text-align: center;
     padding: 0;
+    overflow: hidden; /* avoids lower edge sticking out 1px (Chrome 22) */
 }
 nav.page-tabs li {
     background: #aaa;
@@ -74,8 +65,8 @@ nav.page-tabs li {
     border-width: 1px 1px 0;
     cursor: pointer;
     display: inline-block;
-    padding: .25em .75em;
-    margin: 0 .25em;
+    padding: .25em .75em .125em;
+    margin: 0;
 }
 nav.page-tabs li:hover {
     background: #ccc;

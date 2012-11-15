@@ -30,7 +30,7 @@
       </li>
     </ul>
     <!-- end:status -->
-    <div>
+    <div style="padding-bottom:0"><!-- FIXME: tab-row needs the padding here -->
       <select class="lang">
         <option value=en>English</option>
         <option value=sv>Svenska</option>
@@ -47,13 +47,7 @@
           </td>
         </table>
       </a>
-      <!-- FIXME: move tab row here -->
-    </div>
-  </header>
-
-    <article role=main itemprop=mainContentOfPage>
-      <div class=outside-page-tabs><!-- FIXME: this div & styles should be removed -->
-      <nav class=page-tabs style="margin: -.7em -5.6em 0;">
+      <nav class=page-tabs>
         <ul id=tab-row>
           <li class=extract>
             <span lang=en>Klingon Text</span>
@@ -77,7 +71,10 @@
           </li>
         </ul>
       </nav>
-      </div>
+    </div>
+  </header>
+
+    <article role=main itemprop=mainContentOfPage>
 
       <noscript><strong>Note:</strong>This page is a Javascript program for
         extracting a glossary from any Klingon text. It won't do you much good

@@ -29,21 +29,23 @@
 *** TODO Move this separate TODO list into main site TODO
 *** TODO Move CSS files into 'includes' directory
 *** TODO Update modernizr path in HTML
-** [11%] Add site design
+** [60%] Add site design
 *** TODO Give page a proper name and put that in titles etc.
     "Glossary extractor" is maybe a bit boring? Flashcards something? Learner?
-*** TODO Move tab row inside page header
-*** TODO Move language selector somewhere else
-    Since it makes the tab row look non-centered.
-
-    But where should it go? Top right corner of page (above title & page logo)?
-    Top right corner of the white part of the page?
 *** TODO Allow KA-logo to overlap the tabs
     Either the tabs (only) should be clickable, or only the non-transparent
     parts of the image should be clickable.
 
     Should prolly use 'z-index:100' with the SVG image. (NOTE: This requires
     'position:relative' in order to work.)
+*** DONE Move tab row inside page header
+    CLOSED: [2012-11-15 Thu 23:44]
+*** DONE Move language selector somewhere else
+    CLOSED: [2012-11-15 Thu 23:44]
+    Since it makes the tab row look non-centered.
+
+    But where should it go? Top right corner of page (above title & page logo)?
+    Top right corner of the white part of the page?
 *** DONE Rudimentary
     CLOSED: [2012-11-14 Wed 20:22]
     Now inserted in very hacky, non-pretty way. (An outside div with negative
