@@ -1,0 +1,284 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Glossary &ndash; Klingonska Akademien</title>
+  <meta name=viewport content="width=device-width">
+  <link rel=stylesheet href="../includes/base.css">
+  <link rel=stylesheet href="page.css">
+  <link rel=icon href="/favicon.ico">
+  <link rel=canonical href="http://klingonska.org/glossary/">
+  <script src="modernizr-2.5.3.js"></script><!-- FIXME: proper path -->
+</head>
+<body data-lang=en itemscope itemtype="http://schema.org/WebPage">
+
+  <header role=banner>
+    <!-- begin:status -->
+    <ul>
+      <li>
+        <nav itemprop=breadcrumb role=navigation>
+          <a href="http://klingonska.org/">Home</a> &#8250;
+          <a href="http://klingonska.org/glossary/" itemprop=url>Glossary</a>
+        </nav>
+      </li>
+      <li>
+        Updated <time pubdate itemprop=dateModified datetime="2012-11-14T18:50:51+0100">November 11, 2012</time>
+      </li>
+    </ul>
+    <!-- end:status -->
+    <div style="padding-bottom:0"><!-- FIXME: tab-row needs the padding here -->
+      <select class="lang">
+        <option value=en>English</option>
+        <option value=sv>Svenska</option>
+      </select>
+      <a href="../">
+        <table id=logotitle>
+          <td>
+            <span class=crop>
+              <img height=200 width=200 src="../pic/ka-logo.svg" alt="Klingonska Akademien">
+            </span>
+          </td>
+          <td>
+            <h1>Klingonska<span id=logospace>&nbsp;</span>Akademien</h1>
+          </td>
+        </table>
+      </a>
+      <nav class=page-tabs>
+        <ul id=tab-row>
+          <li class=extract>
+            <span lang=en>Klingon Text</span>
+            <span lang=sv>Klingonsk text</span>
+          </li>
+          <li class=glossary>
+            <span lang=en>Glossary</span>
+            <span lang=sv>Gloslista</span>
+          </li>
+          <li class=flash>
+            <span lang=en>Practice</span>
+            <span lang=sv>Öva</span>
+          </li>
+          <li class=known>
+            <span lang=en>Words you know</span>
+            <span lang=sv>Ord du kan</span>
+          </li>
+          <li class=storage>
+            <span lang=en>Upload/Download</span>
+            <span lang=sv>Ladda upp/ner</span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+    <article role=main itemprop=mainContentOfPage>
+
+      <noscript><strong>Note:</strong>This page is a Javascript program for
+        extracting a glossary from any Klingon text. It won't do you much good
+        unless you have Javascript enabled. (Sorry about that.)</noscript>
+      <ul id=errors></ul>
+
+      <section class="extract hidden">
+        <div lang=en style=margin:0>
+          <p style=margin-top:0>Paste any text in Klingon, press <i>Analyze
+            Text</i> button, then go to the next tab (<i>Glossary</i>).</p>
+          <p style=margin-bottom:.125em>
+            <button class=extract>Analyze Text</button>
+            <span class=wordcount>0</span> words
+            (<span class=uniqcount>0</span> different)
+          </p>
+        </div>
+        <div lang=sv style=margin:0>
+          <p style=margin-top:0>Klistra in valfri text på klingonska,
+            tryck <i>Analysera texten</i> och gå sen till nästa flik
+            (<i>Gloslista</i>).</p>
+          <p style=margin-bottom:.125em>
+            <button class=extract>Analysera texten</button>
+            <span class=wordcount>0</span> ord
+            (<span class=uniqcount>0</span> olika)
+          </p>
+        </div>
+        <div class=input contenteditable></div>
+        <div>
+          <div lang=en>
+            <p style=margin-top:.125em>
+              <button class=clear>Clear</button>
+              <button class=test>Example Text</button>
+              <b>Word type:</b>
+              <span class=v>Verb</span>
+              <span class=n>Noun</span>
+              <span class=num>Number</span>
+              <span class=pro>Other</span>
+              <span class="n v">Ambiguous</span>
+              <span class="">Unknown</span>
+            </p>
+            <p>Verbs with <b lang=tlh>-ghach</b> or <b lang=tlh>-wI’</b>
+              behaves and are colored as nouns, but it is the root
+              <em>verb</em> which is added to the glossary.</p>
+            <p>This page automatically loads the latest version of the
+              dictionary from <a href="../dict/">Klingonska Akademien’s Pocket
+              Dictionary</a>.</p>
+          </div>
+          <div lang=sv>
+            <p style=margin-top:.125em>
+              <button class=clear>Rensa</button>
+              <button class=test>Exempeltext</button>
+              <b>Ordklass:</b>
+              <span class=v>Verb</span>
+              <span class=n>Substantiv</span>
+              <span class=num>Nummer</span>
+              <span class=pro>Annat</span>
+              <span class="n v">Tvetydigt</span>
+              <span class="">Okänt</span>
+            </p>
+            <p>Verb med <b lang=tlh>-ghach</b> eller <b lang=tlh>-wI’</b>
+              fungerar som substantiv och är markeras som sådana, men det är
+              ordets <em>verbrot</em> som läggs till i gloslistan.</p>
+            <p>Den här sidan använder automatiskt den senaste versionen av
+              ordlistan ifrån <a href="../dict/">Klingonska Akademiens
+              fickordbok</a>.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="glossary hidden">
+        <div lang=en style=margin:0>
+          <p style=margin-top:0>Cross out the words you already know below.
+            Re-sort table by clicking on the headers.</p>
+          <p style=margin-bottom:.125em>
+            <b>Word type:</b>
+            <span class=v>Verb</span>
+            <span class=n>Noun</span>
+            <span class=num>Number</span>
+            <span class=pro>Other</span>
+            <span class=stats style=padding-left:.25em></span>
+          </p>
+        </div>
+        <div lang=sv style=margin:0>
+          <p style=margin-top:0>Stryk över de ord du redan kan nedan. Sortera
+            om listan genom att klicka på rubrikerna.</p>
+          <p style=margin-bottom:.125em>
+            <b>Ordklass:</b>
+            <span class=v>Verb</span>
+            <span class=n>Substantiv</span>
+            <span class=num>Nummer</span>
+            <span class=pro>Annat</span>
+            <span class=stats style=padding-left:.25em></span>
+          </p>
+        </div>
+        <div class=output></div>
+      </section>
+
+      <section class="flash hidden">
+        <table width=100%>
+          <tbody>
+            <tr><td class=question style=vertical-align:middle>
+                <b lang=tlh>bach</b>
+            </td></tr>
+            <tr><td class=answer style=vertical-align:middle;line-height:125%>
+                <i>shoot (v)<br>
+                  shot (n)</i>
+            </td></tr>
+          </tbody>
+          <tfoot>
+            <tr><td class=buttons>
+                <button class=a title="Show again (key: 0 or Esc)">Again</button>
+                <button class=b title="I recognized this word (key: 1 or ↲)">Good</button>
+                <button class=c title="I know this word well (key: 3)">Easy</button>
+                <button class=d title="Move word to list of known words (key: 4)">Known</button>
+            </td></tr>
+          </tfoot>
+        </table>
+        <!--button style="background:#da8;color:#540;border: outset #fca;" >Maybe</button-->
+        <!--button style="background:#ad8;color:#350;border: outset #cfa;" title=2>Easy</button-->
+        <!--button style="background:#8f8;color:#070;border: outset #afa;">Known</button-->
+        <div style="color: #666">
+          <label title="Determines the number of buttons above.">Loop: <input style="width:1.5em" value=13></label>
+          &nbsp;
+          Repeats:
+          <label>tlh⇒en <input style="width:1em" value=3></label>
+          &nbsp;
+          <label>en⇒tlh <input style="width:1em" value=3></label>
+        </div>
+      </section>
+
+      <section class="known hidden">
+        <div lang=en style=margin:0>
+          <p style=margin-top:0>These are the words you already know. They will
+            not be used when practising.</p>
+          <p style=margin-bottom:.125em>
+            <b>Word type:</b>
+            <span class=v>Verb</span>
+            <span class=n>Noun</span>
+            <span class=num>Number</span>
+            <span class=pro>Other</span>
+            <span class=stats style=padding-left:.25em></span>
+          </p>
+        </div>
+        <div lang=sv style=margin:0>
+          <p style=margin-top:0>Det här är en orden du redan kan. De kommer
+            inte dyka upp när du övar.</p>
+          <p style=margin-bottom:.125em>
+            <b>Ordklass:</b>
+            <span class=v>Verb</span>
+            <span class=n>Substantiv</span>
+            <span class=num>Nummer</span>
+            <span class=pro>Annat</span>
+            <span class=stats style=padding-left:.25em></span>
+          </p>
+        </div>
+        <div class=output></div>
+      </section>
+
+      <section class="storage hidden">
+        <p>Use this to download the current state of this program, and to copy
+          it between browsers/computers, or as a backup.</p>
+        <button class=download>Download</button>
+        <button class=upload>Upload</button>
+        <span></span>
+        <!-- Hidden fields are needed and triggered by Javascript events. -->
+        <input class=hidden type=file accept=".state.txt">
+        <table></table>
+      </section>
+
+      <section class=status>
+        Loading <a href="../dict/dict.zdb">dictionary</a>…
+      </section>
+
+      <div id=log></div>
+    </article>
+
+    <footer role=contentinfo>
+      <p class=copyright>&copy;<time itemprop=copyrightYear>2012</time> by
+        <a href="mailto:zrajm@klingonska.org" rel=author itemprop=author>Zrajm C Akfohg</a>,
+        <a href="http://klingonska.org/" itemprop=sourceOrganization>Klingonska Akademien</a>, Uppsala
+      </p>
+      <p class=validator>
+        Validate:
+        <a href="http://validator.w3.org/check?uri=http://klingonska.org/">HTML5</a>,
+        <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://klingonska.org/&amp;profile=css3">CSS3</a>,
+        <a href="http://validator.w3.org/checklink?uri=http://klingonska.org/">links</a>.
+        License:
+        <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel=license>CC BY&ndash;SA</a>.&nbsp;
+      </p>
+    </footer>
+    <script>var _gaq=[['_setAccount','UA-5434527-2'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'))</script>
+    <script src="../includes/titlewrap.js"></script>
+    <script src="jquery-1.8.2.js"></script>
+    <script src="compatibility.js"></script>
+    <script src="maketagged.js"></script>
+    <script src="makedictionary.js"></script>
+    <script src="makerules.js"></script>
+    <script src="makeglossary.js"></script>
+    <script src="setlang.js"></script>
+    <script src="page.js"></script>
+    <script src="tab-storage.js"></script>
+    <script src="pagetabs.js"></script><!-- load pagetabs last -->
+  </body>
+</html>

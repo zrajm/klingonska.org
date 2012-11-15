@@ -1,0 +1,150 @@
+#+STARTUP: overview hidestars -*- org -*-
+
+* Glossary extractor
+** TODO Menu for each word in analyzed result
+   The menu should contain the same stuff the mouse-over text now contains +
+   some extra stuff.
+
+      Word:           qelchugh
+      Part-of-speech  v
+      Breakdown       qel(v)-chugh(vs9)
+      Translations    describe
+                      <something else>
+** TODO List of known words
+   Any word listed here should not be included in glossary. Words removed from
+   glossary should be added to this list automatically.
+
+   Just a textarea with words listed like this.
+
+       qel(v), ghor(n), pop(n)"reward"
+
+  The "..." part is only required to separate homonyms, and should be a word
+  found in the English translation of the word.
+
+* [0%] Core functionality
+** [0%] Site integration
+*** TODO Move to glossary/ part of web page
+*** TODO Move separate git repo into main one
+*** TODO Add link to it from main page
+*** TODO Move this separate TODO list into main site TODO
+*** TODO Move CSS files into 'includes' directory
+*** TODO Update modernizr path in HTML
+** [60%] Add site design
+*** TODO Give page a proper name and put that in titles etc.
+    "Glossary extractor" is maybe a bit boring? Flashcards something? Learner?
+*** TODO Allow KA-logo to overlap the tabs
+    Either the tabs (only) should be clickable, or only the non-transparent
+    parts of the image should be clickable.
+
+    Should prolly use 'z-index:100' with the SVG image. (NOTE: This requires
+    'position:relative' in order to work.)
+*** DONE Move tab row inside page header
+    CLOSED: [2012-11-15 Thu 23:44]
+*** DONE Move language selector somewhere else
+    CLOSED: [2012-11-15 Thu 23:44]
+    Since it makes the tab row look non-centered.
+
+    But where should it go? Top right corner of page (above title & page logo)?
+    Top right corner of the white part of the page?
+*** DONE Rudimentary
+    CLOSED: [2012-11-14 Wed 20:22]
+    Now inserted in very hacky, non-pretty way. (An outside div with negative
+    margins to fix the red background thingy – which should do nothing to make
+    the subtle box-shadows display correctly.) It is probably broken on many
+    browsers.
+
+    It also causes side scrolling on page. :(
+** [0%] Flashcard
+** [62%] Add 'Known Words'
+*** TODO Crossing out of words in known list
+    Should uncross them on the glossary page. They should remain visible on the
+    known page (in the crossed out state), but there should be a button to
+    remove them.
+*** TODO "Known words" table's word count should reflect current text
+    I.e. word counts should be reset, and updated in the known list, too.
+*** TODO Filter known glossary words
+    There should be a selector, with which one can show/hide the words that are
+    known. (If shown, they should be crossed out.)
+*** DONE Glossary table should show some stats
+    CLOSED: [2012-11-14 Wed 10:35]
+    Specifically: Number of unknown words, known words, and total.
+*** DONE Glossary & known words tables should have common class
+    CLOSED: [2012-11-14 Wed 08:35]
+    Which should in turn be used to control the common styling for these
+    tables.
+*** DONE Ditch TableArray and HookedArray altogether(?)
+    CLOSED: [2012-11-14 Wed 07:35]
+*** DONE Automatic coloration of stuff in “Known Words”.
+    CLOSED: [2012-11-14 Wed 07:35]
+*** DONE Crossing out of stuff in glossary list
+    CLOSED: [2012-11-14 Wed 07:35]
+    Crossed out stuff should automatically appear under “Known Words”, and
+    anything under “Known Words” should automatically be crossed out when
+    extracting a new glossary.
+* [20%] Improvements
+** TODO Each tab should have its own script file
+   Which would then require that page.js declare everything relevant to this in
+   a global scope.
+** DONE Dictionary loading should not unwrap text
+   CLOSED: [2012-11-14 Wed 08:43]
+   WONTFIX. Turns out it doesn't matter. I mostly wanted it for prettier output
+   in Upload/Download tab, but the linebreaks are displayed as literal "\n"
+   anyway, so it's really no benefit over the current situation (= veeerry long
+   lines).
+** [0%] Language parsing
+*** TODO Make sure naked numerical elements work
+    Like {vatlh}, all by itself.
+*** TODO Should all handle graphotactically correct words
+    Even if they do not appear in the dictionary. E.g. {Qov}.
+*** TODO Handle {-oy} suffix
+    When there is no glottal stop before it.
+*** TODO Create FSM from dictionary
+    Is this already done?
+*** TODO Should prolly not use numbers words from dictionary
+    Since those are defined in program itself.
+*** TODO Result of {maH} looks bad
+*** TODO Avoid duplicated words from dictionary
+    E.g. {bachwI'} is both in dict and can be derived from rules.
+** [0%] User interface
+*** TODO Known list can grow HUUUGE, should add filter capacity
+    Add a thingy at top of list where one can write words, only table rows
+    matching should be show. (Similar to Transmission's search feature.)
+*** TODO Hover over word in input field should highlight all w/ same root
+    If the word "bachwI'" is hovered on, then all words with that same root
+    should be highlighted. ("bach", "bachqu'" etc.)
+*** TODO Display some stats on analyzed text
+    Text and glossary list should have a line where the number of words, verbs,
+    nouns etc are listed.
+*** TODO Words in legend under input field should be clickable
+    (and enable/disable highlight of their respective categories)
+*** TODO Choose part-of-speech for ambiguous words
+    User should be able to select interpretations by clicking on words in
+    input. Useful for those cases where the parser can't make up its mind.
+*** TODO Add affixes to the glossary list                             :LATER:
+    The affixes found should also be included in the glossary. Low priority.
+** TODO In '# different' counter we should disregard complex words
+   like "Hej(v)-wI'(vs9n)" that are in the dictionary, and instead only count
+   the base "Hej(v)" word. Processing ("Hejlu' HejwI' Hej" gives, "3 words (2
+   different)", but should actually be "3 words (1 different)".)
+** TODO Select tab with keyboard
+   Underline letter in tab name used to switch + complete keyboard shortcut
+   name in mouseover text.
+** TODO Placeholder text in text input field
+   Should explains what to do (placeholder should be shown only if 'div' is
+   empty, but even if selected.
+* [33%] UI Bugs
+** TODO Analyze button should cause immediate save
+   Instead of waiting the usual 3 seconds.
+** DONE Clear button should clear glossary as well
+   CLOSED: [2012-11-14 Wed 03:53]
+** TODO Word counters should update on reload
+   Currently state is not saved for the word counters.
+* [0%] Testing
+** [0%] Test/check older browsers
+*** TODO Check that tabs look okay in older browsers
+** [0%] Test suite
+*** For language parsing
+**** paghlogh / Hochlogh / paghDIch / HochDIch
+**** wa'Hu' .. wa'maHHu' (for number not in dictionary)
+**** cha'leS .. HutleS (for number not in dictionary)
+**** test on lots of canon text

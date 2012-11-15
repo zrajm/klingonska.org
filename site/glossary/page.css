@@ -1,0 +1,245 @@
+/* hide/show translations based on <html data-lang> attr */
+body[data-lang|="en"] :lang(sv) { display: none; }
+body[data-lang|="sv"] :lang(en) { display: none; }
+
+h1 { font-family: sans-serif; }
+
+section {
+    overflow: auto;
+}
+
+article section > *:first-child {
+    margin-top: 0;
+}
+
+table.sortable thead th:hover{
+    background: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+/* error display at top of page (invisible if empty) */
+#errors:empty { display: none; } /* hide element if empty */
+#errors {
+    background: #f88;
+    border: 4px solid #000;
+    padding: 1em 1.5em;
+}
+
+/******************************************************************************\
+**                                                                            **
+**  Page Navigation Tabs                                                      **
+**                                                                            **
+\******************************************************************************/
+
+/* this allows stuff inside it to be placed with 'position: absolute' */
+header div { position: relative; }
+
+/* some pages (e.g. /glossary/) have a language selector */
+header div select {
+    position: absolute;
+    right: .75em;
+    top: .75em;
+}
+nav.page-tabs {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 80%;
+    margin: .75em 0 0 0;
+    padding: 0;
+    position: relative; /* needed by 'z-index' */
+    z-index: 20;        /* tab row on top of KA logo */
+}
+nav.page-tabs ul {
+    display: block;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    overflow: hidden; /* avoids lower edge sticking out 1px (Chrome 22) */
+}
+nav.page-tabs li {
+    background: #aaa;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: solid #922;
+    border-width: 1px 1px 0;
+    cursor: pointer;
+    display: inline-block;
+    padding: .25em .75em .125em;
+    margin: 0;
+}
+nav.page-tabs li:hover {
+    background: #ccc;
+    color: #444;
+}
+nav.page-tabs li.selected {
+    background: #fff;
+    color: #000;
+}
+nav.page-tabs li.selected:hover {
+    color: #666;
+}
+article {
+    background: #fff;
+}
+section {
+    padding: 1em .5em;
+}
+.hidden {
+    display: none;
+}
+
+/******************************************************************************\
+**                                                                            **
+**  Flashcard Tab                                                             **
+**                                                                            **
+\******************************************************************************/
+
+.flash table, .flash table tfoot, .flash table td.buttons {
+    border: 0;
+}
+
+.flash table {
+    font-family: Georgia;
+    text-align: center;
+}
+
+.flash .question, .flash .answer {
+    font-size: 250%;
+    height: 200px;
+}
+
+.flash .buttons {
+    padding: .5em 0 1.5em;
+}
+
+.flash button {
+    margin: .2em .1em;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.flash button.a {
+    background:#f88;
+    color:#800;
+    border:outset #faa;
+}
+.flash button.b {
+    background:#cc8;
+    color:#440;
+    border:outset #eea;
+}
+.flash button.c {
+    background:#8f8;
+    color:#060;
+    border:outset #afa;
+}
+.flash button.d {
+    background:#aaa;
+    color:#333;
+    border:outset #ccc;
+}
+
+/******************************************************************************\
+**                                                                            **
+**  Glossary + Known Table                                                    **
+**                                                                            **
+\******************************************************************************/
+
+table.glossary tr[data-num]:hover { outline: 4px solid rgba(0, 0, 0, .5); }
+table.glossary tr[data-num] { cursor: pointer; }
+
+table.glossary {
+    border: 4px solid #000;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.glossary td, table.glossary th {
+    border: 2px solid #000;
+    vertical-align: top;
+    padding: .25em .5em;
+}
+
+table.glossary .output {
+    min-height: 12em;
+}
+
+table.glossary tr:hover .canon,
+table.glossary tr:hover .noncanon { background: rgba(0, 0, 0, .2); }
+table.glossary .canon:hover    { outline: 2px solid rgba(0, 0, 0, .5); }
+table.glossary .noncanon:hover { outline: 2px solid rgba(0, 0, 0, .5); }
+table.glossary td.count, table.glossary td.pos { text-align: center; }
+table.glossary td:lang(tlh) { font-weight: bold; }
+table.glossary td:lang(en), td:lang(sv) { font-style: italic; }
+
+
+/******************************************************************************\
+**                                                                            **
+**  Glossary Tab                                                              **
+**                                                                            **
+\******************************************************************************/
+
+.extract h2 { margin: .5em 0; }
+
+.extract .input {
+    margin: 0;
+    height: 12em;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.extract [contenteditable] {
+    border: 4px inset #888;
+    padding: .125em .25em;
+    line-height: 140%;
+}
+
+.extract .syllable {
+    border: 1px solid black;
+}
+
+.extract .punct { background: transparent; }
+
+/* part-of-speech highlighting */
+
+/* can only occur in highlighed input text */
+[class=""] { background: transparent }     /* "Unknown" */
+.adv.conj, .adv.excl, .adv.name, .adv.n,   /* "Ambiguous" */
+.adv.num, .adv.pro, .adv.ques, .adv.v, .conj.adv, .conj.excl, .conj.name,
+.conj.n, .conj.num, .conj.pro, .conj.ques, .conj.v, .excl.adv, .excl.conj,
+.excl.name, .excl.n, .excl.num, .excl.pro, .excl.ques, .excl.v, .name.adv,
+.name.conj, .name.excl, .name.n, .name.num, .name.pro, .name.ques, .name.v,
+.n.adv, .n.conj, .n.excl, .n.name, .n.num, .n.pro, .n.ques, .n.v, .num.adv,
+.num.conj, .num.excl, .num.name, .num.n, .num.pro, .num.ques, .num.v,
+.pro.adv, .pro.conj, .pro.excl, .pro.name, .pro.n, .pro.num, .pro.ques,
+.pro.v, .ques.adv, .ques.conj, .ques.excl, .ques.name, .ques.n, .ques.num,
+.ques.pro, .ques.v, .v.adv, .v.conj, .v.excl, .v.name, .v.n, .v.num,
+.v.pro, .v.ques { background: #faa }
+
+/* can occur in both glossary table and highlighted input text */
+.v { background: #ffa }                    /* "Verb" */
+.n { background: #afa }                    /* "Noun" */
+.num { background: #aaf }                  /* "Number" */
+.adv, .conj, .excl, .name, .pro, .ques { background: #faf; } /* "Other" */
+
+/* known words occurring in glossary table */
+table.glossary .known { text-decoration: line-through; }
+table.glossary .known.v { background: #808055 }           /* known "Verb" */
+table.glossary .known.n { background: #558055 }           /* known "Noun" */
+table.glossary .known.num { background: #555580 }         /* known "Number" */
+table.glossary .known.adv, .known.conj, .known.excl, .known.name, .known.pro,
+table.glossary .known.ques { background: #805580; }       /* known "Other" */
+
+
+/******************************************************************************\
+**                                                                            **
+**  Upload/Download Tab                                                       **
+**                                                                            **
+\******************************************************************************/
+
+.storage th, .storage td { vertical-align: top; }
+
+.storage th pre { margin: 0; }
+
+/* eof */

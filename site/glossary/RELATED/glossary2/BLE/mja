@@ -1,0 +1,32 @@
+{
+  "wa'": [
+    {
+      "tag": "num",
+      "rules": "numRules"
+    }
+  ],
+  "maH": [
+    {
+      "tag": "num1",
+      "rules": "numRules"
+    }
+  ],
+  "DIch": [
+    {
+      "tag": "num2",
+      "rules": "numRules"
+    }
+  ],
+  "Sa": [
+    {
+      "rules": {
+        "nID": [
+          {
+            "tag": "num1",
+            "rules": "numRules"
+          }
+        ]
+      }
+    }
+  ]
+}
