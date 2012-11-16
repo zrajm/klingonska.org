@@ -2408,6 +2408,19 @@ optimization."
 * Build/check tools
 ** [0%] `bin/check-html-nesting`
 *** TODO Should be able to cope with tags that does not require end tags.
+** `Makefile`
+*** [0%] `make auto`
+**** TODO Should build immediately when invoked
+    When first invoked `make auto` should do an ordinary make to get up to
+    speed, then it should do the inotifywait thingy it already does.
+**** TODO Should remove from build dir when they're deleted
+    Files deleted in the source directory should also be deleted in the build
+    directory.
+**** TODO Should have a background mode
+     Where output is written to a log file, and prompt is immediately returned.
+**** TODO Should autodetect if it's already running
+     Using a pid file?
+**** TODO `make stop` to abort running `make auto`(?)
 ** TODO Replace 'includes/sorttable.js' with something that can be minified
    It should also pass JSLint.
 
