@@ -131,10 +131,11 @@ ls-copied:
 
 ## auto - autorun 'make site' when files change
 .PHONY: auto
-auto:
-	@echo "Watching '$(source_dir)' dir,"    \
-	    "running 'make site' on changes..."  \
-	    "(Press ^C to interrupt.)";          \
+auto: site
+	@echo "================================================================="; \
+	echo "Auto Build Mode."; \
+	echo "Watching '$(source_dir)/' and rebuilding files as they change."; \
+	echo "Press ^C to stop.";          \
 	if which notify-send >/dev/null &&       \
 	    [ -n $$DISPLAY ]; then               \
 	    out() {                              \
@@ -179,7 +180,8 @@ publish: .publish.done
 	     --delete-after $(publish_dir)/ $(remote_dir)      \
 	     && echo "Last published from here: `date`" >"$@"
 
-.PHONY: publish
+## fetch - fetch published site
+.PHONY: fetch
 fetch:
 	@if [ ! -e fetched ]; then                        \
 	    [ -e $(publish_dir) ] || make site;           \
