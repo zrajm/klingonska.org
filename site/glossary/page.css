@@ -153,6 +153,7 @@ table.glossary {
     border: 4px solid #000;
     width: 100%;
     border-collapse: collapse;
+    margin: 0;
 }
 
 table.glossary td, table.glossary th {

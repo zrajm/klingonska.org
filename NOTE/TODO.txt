@@ -764,21 +764,31 @@ optimization."
       browsers.
 
       It also causes side scrolling on page. :(
-**** [33%] Site integration
+**** [66%] Site integration
 ***** TODO Add link to it from main page
 ***** TODO Move CSS files into 'includes' directory
-***** TODO Update modernizr path in HTML
-***** TODO Move this separate TODO list into main site TODO
+***** DONE Update modernizr path in HTML
+      CLOSED: [2012-11-16 Fri 04:16]
+***** DONE Move the separate Glossary Extractor TODO into main TODO
+      CLOSED: [2012-11-16 Fri 04:14]
 ***** DONE Move to glossary/ part of web page
       CLOSED: [2012-11-16 Fri 02:02]
 ***** DONE Move separate git repo into main one
       CLOSED: [2012-11-16 Fri 02:02]
-**** [0%] User interface
+**** [20%] User interface
+***** TODO Remove all 'style' references from HTML
+      And put them into stylesheets instead.
 ***** TODO Word counters should update on reload
       Currently state is not saved for the word counters.
 ***** TODO Select current tab with keyboard
       Underline letter in tab name used to switch + complete keyboard shortcut
       name in mouseover text.
+***** TODO Fix translations of stats in "Glossary" & "Known" pages
+      There's text outputted by script here. Change that so that all but the
+      numbers are in HTML.
+***** DONE Paragraphs should be separated by blank lines
+      CLOSED: [2012-11-16 Fri 03:19]
+      And not use indented first lines.
 **** [0%] Language processing
 ***** TODO Make sure naked numerical elements work
       Like {vatlh}, all by itself.
@@ -887,9 +897,11 @@ optimization."
      Crossed out stuff should automatically appear under “Known Words”, and
      anything under “Known Words” should automatically be crossed out when
      extracting a new glossary.
-*** [0%] "Upload/download" tab
-**** TODO Swedish translation of instructions
-**** TODO Text explaining that the "Delete" feature
+*** [100%] "Upload/download" tab
+**** DONE Swedish translation of instructions
+     CLOSED: [2012-11-16 Fri 04:13]
+**** DONE Text explaining the "Delete" feature
+     CLOSED: [2012-11-16 Fri 04:13]
 ** TODO "Some Songs in Klingon"
 *** TODO Prettify song pages (HTML instead of text pages)
 *** TODO {taHjaj wo'}
