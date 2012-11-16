@@ -1488,6 +1488,7 @@ optimization."
     just 19.
 ** TODO "Klingon Pocket Dictionary"
 *** Web page
+**** TODO Should use the same tab row as the glossary extractor
 **** DONE BUGFIX: Online pocket dictionary show parts of dict.zdb postamble
      CLOSED: [2012-11-02 Fri 17:54]
      This breakage occured since I've made changes in the section names in
@@ -1695,6 +1696,30 @@ optimization."
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** dict.zdb
+**** TODO Add 'id:' field with (random) unique word ID number
+     This would be useful, since programs (like the Glossary Extractor page)
+     could use this to keep track of words, even if dictionary is updated.
+     (I.e. if the internal state makes use of the unique ID, then the
+     dictionary can be refetche/reloaded, and any updated entries will still
+     retain their ID.)
+
+     ID wouldn't have to be very large (since the dictionary is less than 3000
+     thousand words). A three digit base 58 encoded value should suffice
+     (giving 195112 possible interpretations), and have room to spare.
+
+     Base 58 -- also used for bitcoin addresses -- uses upper + lower case
+     letters + digits, except for 0 (zero), O (capital "o"), I (capital "i")
+     and l (lower case "l"). Eliminating characters that are very similar in
+     shape makes it easy to transcribe without getting it wrong.
+
+     A small Perl program to generate random IDs. (These will, of course, have
+     to be checked for uniqueness in the dictionary.)
+
+         #!/usr/bin/perl -w
+         use 5.10.0;
+         use strict;
+         my @x = grep(!/[0OIl]/, "a".."z", "A".."Z", 0..9);
+         say @x[ map { int rand @x } ((1) x 3) ];
 **** DONE Add SHA1 metadata field
      CLOSED: [2012-11-05 Mon 06:21]
      This should be a SHA1 checksum (to simplify syncing for external clients)
@@ -2198,7 +2223,7 @@ optimization."
 ***** TODO KLCP level 2 markup
 ****** Add "KLCP-2" to all relevant word's "data:" field
 ***** TODO Consider new fields?
-      [[file:NOTE/dict-field-ideas.txt][x]]
+      [[file:dict-field-ideas.txt]]
 ***** TODO Mark lookup words in klingon words with spaces («...»)
 ***** DONE remove "!" in all exclamations
       Since they're not actually present in the various sources/dictionaries.
