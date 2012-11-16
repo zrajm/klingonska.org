@@ -7,15 +7,18 @@ creator Marc Okrand ([Archive of Okrandian Canon][canon], and lots of articles
 about various other stuff, such as [the Klingon alphabet][piqad], [songs in
 Klingon](http://klingonska.org/songs/) etc.
 
-[main]: http://klingonska.org/ "Klingonska Akademien"
-[dict]: http://klingonska.org/dict/ "Klingon Pocket Dictionary"
-[canon]: http://klingonska.org/canon/ "Archive of Okrandian Canon"
-[piqad]: http://klingonska.org/piqad/ "**pIqaD**, And How to Read It"
-[songs]: http://klingonska.org/songs/ "Songs in Klingon"
-
 
 Currently Happening
 -------------------
+November 15, 2012: Building a new learning tool for beginners. The tool,
+preliminarily called [Klingon Glossary Extractor][glossary], can be used to
+automatically analyze any Klingon text and extract a glossary from it. It also
+keeps track of which words a user already know, so that he/she quickly can
+estimate how many unknown words there are in any given text. Ultimately there
+will be a flashcard feature for learning the new words as well. The program is
+not quite ready for official release (the flashcards part is still missing),
+but you're free to try it out. (Comments and suggestions are muchly
+appreciated.)
 
 September 7, 2012: Rolling out the new design is taking its time, but as of now
 most pages have the new look (except for some old, rarely used ones, and pages
@@ -29,6 +32,13 @@ build system. As we, slowly, painstakingly, convert all pages into the new
 format, you'll see the new red page header take over, until it is *everywhere*.
 
 Don't worry, we are not about to remove any content.
+
+[main]: http://klingonska.org/ "Klingonska Akademien"
+[dict]: http://klingonska.org/dict/ "Klingon Pocket Dictionary"
+[canon]: http://klingonska.org/canon/ "Archive of Okrandian Canon"
+[piqad]: http://klingonska.org/piqad/ "**pIqaD**, And How to Read It"
+[songs]: http://klingonska.org/songs/ "Songs in Klingon"
+[glossary]: http://klingonska.org/glossary/ "Klingon Glossary Extractor"
 
 
 Feedback
