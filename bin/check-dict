@@ -28,9 +28,9 @@ sub FALSE { "" }
 my %opt = ();
 my %cfg = (
     canon_path     => "../site/canon", # relative to executable's path
-    field_order    => [ qw(tlh  warn  pos  sv   en   desc  def
-                           ref  cite  com  pun  see  tag  data  file  meta) ],
-    field_required => [ qw(tlh pos sv en def file) ],
+    field_order    => [ qw(tlh  warn  pos  sv   en    desc  def   ref  cite
+                           com  pun   see  tag  data  id    file  meta) ],
+    field_required => [ qw(tlh pos sv en def id file) ],
     field_callbacks => {
         tlh  => \&check_tlh,
         warn => \&check_warn,
@@ -44,6 +44,7 @@ my %cfg = (
         com  => \&check_com,
         see  => \&check_see,
         data => \&check_data,
+        id   => \&check_id,
         file => \&check_file,
         meta => \&check_meta,
     },
@@ -777,6 +778,24 @@ sub check_data {
             unless $tlh =~ m#^[^{]* {[^{]*[ ] [^{]*} #x;
     }
     return @warn;
+}
+
+{
+    # character class matching base58
+    my $char_class = join "", grep(!/[0OIl]/, "a".."z", "A".."Z", "0".."9");
+    my $content_ok_re = qr/^[$char_class]{3}$/;
+    # check that ID doesn't look too much like a Klingon word
+    my $tlh_re = qr/^[bDHj1mnpqQrStvwy][ouae1][bDHj1mnpqQrStvwy]$/x;
+    my %id_found = ();
+    sub check_id {
+        my ($entry, $field, $_, @warn) = @_;
+        return "Duplicate" if @{ $entry->{$field} } > 1;
+        return "Not three base58 characters in in" if not /$content_ok_re/;
+        return "Value '$_' is too similar to Klingon word in" if /$tlh_re/;
+        return "Value '$_' already exist in" if $id_found{$_};
+        $id_found{$_} = TRUE;
+        return @warn;
+    }
 }
 
 sub check_file {

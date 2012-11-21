@@ -134,9 +134,9 @@ optimization."
 
    Markdown should detect this mode by some metadata field.
 ** TODO Change link colors + remove underline
-   Underlining really diminishes readability sometimes, for example when used
-   with IPA (as on http://klingonska.lal/piqad/), or when used in tables where
-   much data consist of links.
+   Underlining really diminishes readability especially when used with IPA (as
+   on http://klingonska.lal/piqad/) or in tables where much data consist of
+   links.
 
    It's important that links stand out, however, so maybe more traditional link
    colors should be used. Maybe just the traditional? (unvisited: #00e,
@@ -146,6 +146,10 @@ optimization."
        a         { color: #11a; text-decoration: none; }
        a:visited { color: #516; }
        a:hover   { opacity: .65; }
+
+   Following the example set by GitHub (e.g. in commit messages in the 'Commit'
+   view) -- why not also use 'text-decoration: underline;' as the hover style
+   of links, but remove 'text-decoration: none;' for the usual style?
 * Site content
 ** TODO Do a surf-through check for weird/old shit
 ** TODO Systematic/site-wide changes
@@ -775,7 +779,10 @@ optimization."
       CLOSED: [2012-11-16 Fri 02:02]
 ***** DONE Move separate git repo into main one
       CLOSED: [2012-11-16 Fri 02:02]
-**** [20%] User interface
+**** [16%] User interface
+***** TODO Browser 'back' / 'forward' should work
+      I.e. when switching between tabs, the new page should be added to the
+      page history, and 'back' should bring one back to the previous tab.
 ***** TODO Remove all 'style' references from HTML
       And put them into stylesheets instead.
 ***** TODO Word counters should update on reload
@@ -1695,31 +1702,39 @@ optimization."
       CLOSED: [2010-08-09 Mon 02:17]
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
-*** dict.zdb
-**** TODO Add 'id:' field with (random) unique word ID number
-     This would be useful, since programs (like the Glossary Extractor page)
-     could use this to keep track of words, even if dictionary is updated.
-     (I.e. if the internal state makes use of the unique ID, then the
-     dictionary can be refetche/reloaded, and any updated entries will still
-     retain their ID.)
+*** `dict.zdb`
+**** [33%] Field changes
+***** TODO 'en:' field should come before 'sv:'
+***** TODO 'tag:' field should come before 'com:'
+      'tag:' field content is shorter, and more telling that the 'com:' field,
+      so it should come earlier so as to allow user to faster get a 'feel' for
+      the entry.
+***** DONE Add 'id:' field with (random) unique word ID number
+      CLOSED: [2012-11-21 Wed 14:59]
+      This would be useful, since programs (like the Glossary Extractor page)
+      could use this to keep track of words, even if dictionary is updated.
+      (I.e. if the internal state makes use of the unique ID, then the
+      dictionary can be refetche/reloaded, and any updated entries will still
+      retain their ID.)
 
-     ID wouldn't have to be very large (since the dictionary is less than 3000
-     thousand words). A three digit base 58 encoded value should suffice
-     (giving 195112 possible interpretations), and have room to spare.
+      ID wouldn't have to be very large (since the dictionary is less than 3000
+      thousand words). A three digit base 58 encoded value should suffice
+      (giving 195 112 possible interpretations), and have plenty of room to
+      spare.
 
-     Base 58 -- also used for bitcoin addresses -- uses upper + lower case
-     letters + digits, except for 0 (zero), O (capital "o"), I (capital "i")
-     and l (lower case "l"). Eliminating characters that are very similar in
-     shape makes it easy to transcribe without getting it wrong.
+      Base 58 -- also used for bitcoin addresses -- uses upper + lower case
+      letters + digits, except for 0 (zero), O (capital "o"), I (capital "i")
+      and l (lower case "l"). Eliminating characters that are very similar in
+      shape makes it easy to transcribe without getting it wrong.
 
-     A small Perl program to generate random IDs. (These will, of course, have
-     to be checked for uniqueness in the dictionary.)
+      A small Perl program to generate random IDs. (These will, of course, have
+      to be checked for uniqueness in the dictionary.)
 
-         #!/usr/bin/perl -w
-         use 5.10.0;
-         use strict;
-         my @x = grep(!/[0OIl]/, "a".."z", "A".."Z", 0..9);
-         say @x[ map { int rand @x } ((1) x 3) ];
+          #!/usr/bin/perl -w
+          use 5.10.0;
+          use strict;
+          my @x = grep(!/[0OIl]/, "a".."z", "A".."Z", 0..9);
+          say @x[ map { int rand @x } ((1) x 3) ];
 **** DONE Add SHA1 metadata field
      CLOSED: [2012-11-05 Mon 06:21]
      This should be a SHA1 checksum (to simplify syncing for external clients)
@@ -1831,7 +1846,16 @@ optimization."
       field. -- These words should be included in the Klingon--English version
       of the dictionary, but with a leading asterisk, and a warning they're not
       supposed to be used. Maybe add a 'warn' field, explaining why?
-**** [28%] Add words
+**** [28%] Add new words
+***** TODO Spik / skruv
+      Felix postade följande på [[https://www.facebook.com/groups/174607196006254/?fref=ts][Facebook]]
+      2 - eller typ 2½, antar jag - nya ord idag, via allas vår älskade Qov!
+      <Hut'In> = "spik"; <Hut'In vIl> = "fårad spik" = "skruv"; <wIl> = "pigg"
+      (eller i alla fall heter det "spike" på engelska)
+
+      Like · Comment · Follow post · 13 August at 21:11 near Johanneshov,
+      Stockholms Län
+
 ***** [0%] Add words from http://www.qephom.de/e/newwords.html
 ***** TODO Add {qatlhDa'} <water pipe>
       pun: The pun is carried on in {qatlhDa'} ("water pipe"): "Viaduct? Why a

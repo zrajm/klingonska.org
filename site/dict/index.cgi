@@ -58,6 +58,7 @@ our %field = (
     see  => "See also",
     tag  => "Tags",
     data => "Data",
+    id   => "Permanent Entry ID",
     file => "Transcript",
     meta => "Metadata",
 );
@@ -194,6 +195,10 @@ sub split_query {
         my $lcphrase = lc $phrase;
         if ($field eq "pos" and exists($pos{$lcphrase})) {
             qr/^($field:)\t($pos{$lcphrase})$/m;
+        } elsif ($field eq "id") {
+            my %chr = (0 => 'o', O => 'o', I => '1', l => '1');
+            for ($phrase) { s/([0OIl])/$chr{$1}/g; s/\\[*]/.*/g; }
+            qr/^($field:)\t($phrase)$/m;  # case sensetive
         } else {
             $field = "tag" if $field eq "cat";
             for ($phrase) { s/\\\*/$w*/g; s/\s+/\\s+/g; } # replace '*' and ' '
