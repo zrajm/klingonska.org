@@ -12,7 +12,6 @@
 function makeGlossary(entries) {
     'use strict';
     var glossary = {}, counter = {}, object = {};
-    function numeric(a, b) { return a - b; }
     function each(entries, callback) {
         // FIXME: Input data errors are silently ignored here. (E.g. if an
         // incompatible data structure was loaded from localStorage.) Only if
@@ -27,58 +26,102 @@ function makeGlossary(entries) {
             });
         }
     }
-    object = {
-        // non-chainable functions in alphabetical order
-        count: function (entry) { return counter[entry.num] || 0; },
-        get: function () { // return glossary (sorted in dictionary order)
-            return Object.keys(glossary).sort(numeric).map(function (num) {
-                return glossary[num];
-            });
-        },
-        has: function (entry) { return !!glossary[entry.num]; },
-        length: function () { return Object.keys(glossary).length; },
-        // chainable functions in alphabetical order
-        add: function (entries) {
-            each(entries, function (entry) {
-                if (entry.count) {
-                    counter[entry.num] = entry.count;
-                    delete entry.count;
+
+    /*************************************************************************\
+    **                                                                       **
+    **  Functions Returning Information                                      **
+    **                                                                       **
+    \*************************************************************************/
+
+    // Return word count for specified <entry>.
+    function makeGlossary_count(entry) {
+        return counter[entry.num] || 0;
+    }
+    object.count = makeGlossary_count;
+
+    // Return list of glossary entries sorted in dictionary order.
+    function numeric(a, b) { return a - b; }
+    function makeGlossary_get() {
+        return Object.keys(glossary).sort(numeric).map(function (num) {
+            return glossary[num];
+        });
+    }
+    object.get = makeGlossary_get;
+
+    // Return true if <entry> exists in glossary, false otherwise.
+    function makeGlossary_has(entry) {
+        return !!glossary[entry.num];
+    }
+    object.has = makeGlossary_has;
+
+    // Return number of entries in glossary.
+    function makeGlossary_length() {
+        return Object.keys(glossary).length;
+    }
+    object.length = makeGlossary_length;
+
+
+    /*************************************************************************\
+    **                                                                       **
+    **  Chainable Functions                                                  **
+    **                                                                       **
+    \*************************************************************************/
+
+    // Add words to glossary.
+    function makeGlossary_add(entries) {
+        each(entries, function (entry) {
+            if (entry.count) {
+                counter[entry.num] = entry.count;
+                delete entry.count;
+            } else {
+                if (counter[entry.num]) {
+                    counter[entry.num] += 1;
                 } else {
-                    if (counter[entry.num]) {
-                        counter[entry.num] += 1;
-                    } else {
-                        counter[entry.num] = 1;
-                    }
+                    counter[entry.num] = 1;
                 }
-                glossary[entry.num] = entry;
-            });
-            return object;
-        },
-        clear: function () {
-            counter = {};
-            glossary = {};
-            return object;
-        },
-        load: function (name) {
-            var storageEntries = JSON.parse(localStorage.getItem(name));
-            return object.clear().add(storageEntries);
-        },
-        remove: function (entries) { // chainable
-            each(entries, function (entry) {
-                delete glossary[entry.num];
-                delete counter[entry.num];
-            });
-            return object;
-        },
-        save: function (name) {
-            var state = object.get().map(function (entry) {
-                entry.count = object.count(entry);
-                return entry;
-            });
-            localStorage.setItem(name, JSON.stringify(state));
-            return object;
-        }
-    };
+            }
+            glossary[entry.num] = entry;
+        });
+        return object;
+    }
+    object.add = makeGlossary_add;
+
+    // Clear glossary.
+    function makeGlossary_clear() {
+        counter = {};
+        glossary = {};
+        return object;
+    }
+    object.clear = makeGlossary_clear;
+
+    // Load glossary from localStorage.
+    function makeGlossary_load(name) {
+        var storageEntries = JSON.parse(localStorage.getItem(name));
+        return object.clear().add(storageEntries);
+    }
+    object.load = makeGlossary_load;
+
+    // Remove <entries> from glossary.
+    function makeGlossary_remove(entries) {
+        each(entries, function (entry) {
+            delete glossary[entry.num];
+            delete counter[entry.num];
+        });
+        return object;
+    }
+    object.remove = makeGlossary_remove;
+
+    // Save glossary to localStorage.
+    function makeGlossary_save(name) {
+        var state = object.get().map(function (entry) {
+            entry.count = object.count(entry);
+            return entry;
+        });
+        localStorage.setItem(name, JSON.stringify(state));
+        return object;
+    }
+    object.save = makeGlossary_save;
+
     if (entries) { object.add(entries); }
     return object;
 }
