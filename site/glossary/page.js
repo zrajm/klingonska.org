@@ -1,6 +1,18 @@
 /*file: page */
-/*jslint todo: true */
 /*global $, makeTagged, makeGlossary, makeDictionary, makeRules */
+/*jslint browser: true, regexp: true */
+
+// Return a HTML tag.
+//
+// If content is a string (even an empty one) will result in both start and
+// end tags (e.g. `tag('X', '')` = `<X></X>`), if content is null (or
+// undefined) an empty tag is produced (e.g. `tag('X')` = `<X>`).
+function tag(name, content, attr) {
+    'use strict';
+    if (typeof content === 'number') { content = content.toString(); }
+    return '<' + name + (attr ? ' ' + attr : '') + '>' +
+        (typeof content === 'string' ? (content + '</' + name + '>') : '');
+}
 
 var statusTimer;
 function tmpStatus(msg) {
@@ -35,7 +47,7 @@ function errorMsg(str) {
 
 (function () {
     'use strict';
-    var analyze, tlhSortkey = (function () {
+    var tlhSortkey = (function () {
         /*jslint white: true */
         var transl = {
             "a"  : "a",   "b" : "b",   "ch": "c",   "D" : "d",   "e" : "e",
@@ -67,11 +79,44 @@ function errorMsg(str) {
         };
     }());
 
-    // create one HTML tag
-    function tag(name, content, attr) {
-        content = content || '';
-        return '<' + name + (attr ? ' ' + attr : '') + '>' +
-            content + '</' + name + '>';
+    function analyzeSpace(text) {
+        if (text.match(/[.!?]/)) {             // full stop
+            return 'sf';                       //   separator, full stop
+        }
+        if (text.match(/[,;:()]/)) {           // half stop
+            return 'sh';                       //   separator, half stop
+        }                                      // space
+        return 'ss';                           //   separator, space
+    }
+
+    // Split text into tokens.
+    function tokenizeAndParse(htmlInput, rules) {
+        var result = [],
+            tokens = htmlInput.split(
+                /(<[^>]*>|&[^;]{1,10};|[^&<a-z\'\u2018\u2019]+)/i
+            );
+        // NOTE: That we're *not* matching the words themselves above, since
+        // anything we're splitting and anything neither matching an HTML tag,
+        // nor an HTML entity nor whitespace will be a proper word, these words
+        // will be given to us as being in between the other strings. Adding a
+        // word matching expression would only increase the number of empty
+        // elements in the resulting list.
+        tokens.forEach(function (token) {
+            if (token !== '') {                        // if non-empty token
+                if (token.match(/^[a-z\'\u2018\u2019]/i)) { // word
+                    result.push(makeTagged.word(token, rules));
+                } else if (token[0] === '&') {         // HTML entity
+                    result.push(makeTagged.string(token));
+                } else if (token[0] === '<') {         // HTML element
+                    if (!token.match(/^<\/?span\b/)) { //   keep all but <span>
+                        result.push(makeTagged.string(token));
+                    }
+                } else {                               // punctuation
+                    result.push(makeTagged.string(token, [ analyzeSpace(token) ]));
+                }
+            }
+        });
+        return result;
     }
 
     // go through processed tokens, generate HTML output
@@ -93,7 +138,7 @@ function errorMsg(str) {
         }).join('');
     }
 
-    function generateGlossaryTable(glossary, crossedOutGlossary) {
+    function glossaryTableHTML(glossary, crossedOutGlossary) {
         /*jslint white: true */
         var tbody = [],
             entries = glossary.get(),
@@ -176,76 +221,34 @@ function errorMsg(str) {
             ) +
             tag('script', '', 'src="../includes/sorttable.js"');
     }
+    function redrawTable(jQueryObj, glossary, crossedOutGlossary) {
+        jQueryObj.empty().html(glossaryTableHTML(glossary, crossedOutGlossary));
+    }
 
-    analyze = (function () {
-        function analyzeSpace(text) {
-            if (text.match(/[.!?]/)) {             // full stop
-                return 'sf';                       //   separator, full stop
-            }
-            if (text.match(/[,;:()]/)) {           // half stop
-                return 'sh';                       //   separator, half stop
-            }                                      // space
-            return 'ss';                           //   separator, space
-        }
+    // return function (htmlInput, rules, dict) {
+    function addWordsToGlossary(glossary, wordTokens, dict) {
+        // go through processed tokens, generate glossary
+        glossary.clear();
+        wordTokens.forEach(function (word) {
+            var hasGottenPos = {};
+            word.parts.forEach(function (part) {
+                var pos  = part.root.pos,
+                    root = part.root.text;
+                // FIXME: this shouldn't be needed, but 'num1' occuring by
+                // themself (e.g. {maH}) cause this.
+                if (pos === undefined || root === undefined) { return; }
 
-        function tokenizeAndParse(html, rules) {
-            // split text into tokens
-            var result = [],
-                tokens = html.split(/(<[^>]*>|&[^;]{1,10};|[^&<a-z\'\u2018\u2019]+)/i);
-            // NOTE: That we're *not* matching the words themselves above, since
-            // anything we're splitting and anything neither matching an HTML tag,
-            // nor an HTML entity nor whitespace will be a proper word, these words
-            // will be given to us as being in between the other strings. Adding a
-            // word matching expression would only increase the number of empty
-            // elements in the resulting list.
-            tokens.forEach(function (token) {
-                if (token !== '') {                        // if non-empty token
-                    if (token.match(/^[a-z\'\u2018\u2019]/i)) { // word
-                        result.push(makeTagged.word(token, rules));
-                    } else if (token[0] === '&') {         // HTML entity
-                        result.push(makeTagged.string(token));
-                    } else if (token[0] === '<') {         // HTML element
-                        if (!token.match(/^<\/?span\b/)) { //   keep all but <span>
-                            result.push(makeTagged.string(token));
-                        }
-                    } else {                               // punctuation
-                        result.push(makeTagged.string(token, [ analyzeSpace(token) ]));
-                    }
+                // FIXME: do only once for each part-of-speech
+                // (this shouldn't be needed, but words like {maH}
+                // sometimes appear twice with same word part-of-speech)
+                if (!hasGottenPos[pos]) {
+                    hasGottenPos[pos] = true;
+                    glossary.add(dict.query({ tlh: root, pos: pos }));
                 }
             });
-            return result;
-        }
-
-        return function (html, rules, dict) {
-            var glossary = makeGlossary(),
-                tokens   = tokenizeAndParse(html, rules),
-                words    = tokens.filter(function (token) {
-                    return (token.parts ? true : false);
-                });
-
-            // go through processed tokens, generate glossary
-            glossary.clear();
-            words.forEach(function (word) {
-                var hasGottenType = {};
-                word.parts.forEach(function (part) {
-                    var type = part.root.pos, root = part.root.text;
-                    // FIXME: this shouldn't be needed, but 'num1' occuring by
-                    // themself (e.g. {maH}) cause this.
-                    if (type === undefined || root === undefined) { return; }
-
-                    // FIXME: do only once for each word type
-                    // (this shouldn't be needed, but words like {maH}
-                    // sometimes appear twice with same word type)
-                    if (!hasGottenType[type]) {
-                        hasGottenType[type] = true;
-                        glossary.add(dict.query({ tlh: root, pos: type }));
-                    }
-                });
-            });
-            glossary.save('glossary');
-            return [tokens, glossary];
-        };
-    }());
+        });
+        glossary.save('glossary');
+    }
 
     /*************************************************************************\
     **                                                                       **
@@ -253,18 +256,12 @@ function errorMsg(str) {
     **                                                                       **
     \*************************************************************************/
     $(function () {
-        var rules, tokens = [],
-            glossary = makeGlossary().load('glossary'),
-            known    = makeGlossary().load('known'),
+        var dict, rules, glossary, known,
             outputElement = $('.glossary div.output'),
             inputElement  = $('.extract  div.input'),
             knownElement  = $('.known    div.output'),
             extractButtonElement = $('button.extract'),
-            inputText = localStorage.getItem('current-klingon-text') || '',
-            dict = makeDictionary('../dict/dict.zdb', function (dict) {
-                rules = makeRules(dict);
-                tmpStatus('<a href="../dict/dict.zdb">Dictionary</a> loaded.');
-            });
+            inputText = localStorage.getItem('current-klingon-text') || '';
 
         function statsMsg(unknown, total, text) {
             var known = Math.round(((total - unknown) / total) * 1000) / 10;
@@ -272,51 +269,6 @@ function errorMsg(str) {
                 '% of ' + text + ' known';
         }
 
-        // on page tab click
-        $('#tab-row .glossary').on('click', function () {
-            var total = glossary.length(),
-                unknown = glossary.get().filter(function (entry) {
-                    return !known.has(entry);
-                }).length;
-            $('.glossary .stats').html(statsMsg(unknown, total, 'text'));
-            outputElement.empty().html(generateGlossaryTable(glossary, known));
-        });
-        $('#tab-row .known').on('click', function () {
-            var total = (dict.query({ num: -1 })[0] || { num: 0 }).num,
-                unknown = total - known.length();
-            $('.known .stats').html(statsMsg(unknown, total, 'dictionary'));
-            knownElement.empty().html(generateGlossaryTable(known));
-        });
-        $('#tab-row .extract').on('click', function () {
-            inputElement.html(inputText);
-
-            var count = 0;
-            inputText.replace(/<span /g, function () { count += 1; });
-
-            // update word counters on page
-            $('.wordcount').html(count);
-            $('.uniqcount').html(glossary.length());
-        });
-
-        if (glossary.length() > 0) {
-            outputElement.empty().html(generateGlossaryTable(glossary, known));
-            outputElement.on('click', function (event) {
-                var elem = $(event.target).closest('tr[data-num]'),
-                    num  = elem.data('num');
-                if (num !== undefined) {       // do stuff
-                    if (elem.hasClass('known')) {// make word unknown
-                        known.remove(dict.query({ num: num })).save('known');
-                        elem.removeClass('known');
-                    } else {                   //   make word known
-                        known.add(dict.query({ num: num })).save('known');
-                        elem.addClass('known');
-                    }
-                    knownElement.empty().html(generateGlossaryTable(known));
-                }
-            });
-        }
-
-        inputElement.focus();
         function clearButton() {               // clear text area
             inputElement.empty();
             extractButtonElement.trigger('click');
@@ -334,10 +286,12 @@ function errorMsg(str) {
             extractButtonElement.trigger('click');
         }
         function extractButton() {
-            var html      = inputElement.html(),
-                result    = analyze(html, rules, dict);
-            glossary  = result[1];
-            tokens = result[0];
+            var htmlInput  = inputElement.html(),
+                tokens     = tokenizeAndParse(htmlInput, rules),
+                wordTokens = tokens.filter(function (token) {
+                    return (token.parts ? true : false);
+                });
+            addWordsToGlossary(glossary, wordTokens, dict);
             inputText = highlightedUserInput(tokens);
 
             // // update word counters on page
@@ -346,11 +300,65 @@ function errorMsg(str) {
 
             $('#tab-row .extract').trigger('click'); // refresh this tab
         }
+        function glossaryTableClick(event) {
+            var elem = $(event.target).closest('tr[data-num]'),
+                num  = elem.data('num');
+            if (num !== undefined) {       // do stuff
+                if (elem.hasClass('known')) {// make word unknown
+                    known.remove(dict.query({ num: num })).save('known');
+                    elem.removeClass('known');
+                } else {                   //   make word known
+                    known.add(dict.query({ num: num })).save('known');
+                    elem.addClass('known');
+                }
+                redrawTable(knownElement, known);
+            }
+        }
 
-        extractButtonElement.click(extractButton);
-        $('button.clear').click(clearButton);
-        $('button.test').click(testButton);
+        function onLoadDictionary(dict) {
+            rules    = makeRules(dict);
+            glossary = makeGlossary().load('glossary');
+            known    = makeGlossary().load('known');
+            tmpStatus('<a href="../dict/dict.zdb">Dictionary</a> loaded.');
 
+            // on page tab click
+            $('#tab-row .glossary').on('click', function () {
+                var total   = glossary.length(),
+                    unknown = glossary.get().filter(function (entry) {
+                        return !known.has(entry);
+                    }).length;
+                $('.glossary .stats').html(statsMsg(unknown, total, 'text'));
+                redrawTable(outputElement, glossary, known);
+            });
+            $('#tab-row .known').on('click', function () {
+                var total   = (dict.query({ num: -1 })[0] || { num: 0 }).num,
+                    unknown = total - known.length();
+                $('.known .stats').html(statsMsg(unknown, total, 'dictionary'));
+                redrawTable(knownElement, known);
+            });
+            $('#tab-row .extract').on('click', function () {
+                inputElement.html(inputText);
+
+                var count = 0;
+                inputText.replace(/<span /g, function () { count += 1; });
+
+                // update word counters on page
+                $('.wordcount').html(count);
+                $('.uniqcount').html(glossary.length());
+            });
+
+            if (glossary.length() > 0) {
+                redrawTable(outputElement, glossary, known);
+            }
+            outputElement.on('click', glossaryTableClick);
+            extractButtonElement.click(extractButton);
+            $('button.clear').click(clearButton);
+            $('button.test').click(testButton);
+        }
+
+        inputElement.html(inputText);
+        inputElement.focus();
+        dict = makeDictionary('../dict/dict.zdb', onLoadDictionary);
 
         // Watcher for the Klingon input field. The watcher will start up
         // whenever user inputs anything in this field, and then run in

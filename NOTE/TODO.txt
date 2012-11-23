@@ -742,7 +742,11 @@ optimization."
     from each other? Phonetically, in terms of vocuabulary etc?
 ** TODO Search engine optimizations
 ** "Glossary extractor" page
-*** [16%] General
+*** [0%] General
+**** [50%] Code fixes
+***** TODO Sorttable should be invoked from javascript
+***** DONE tag() should accept number as content arg
+      CLOSED: [2012-11-23 Fri 19:28]
 **** [60%] Add site design
 ***** TODO Give page a proper name and put that in titles etc.
       "Glossary extractor" is maybe a bit boring? Flashcards something? Learner?
@@ -829,7 +833,10 @@ optimization."
 **** TODO Each tab should have its own script file
      Which would then require that page.js declare everything relevant to this in
      a global scope.
-*** [0%] "Klingon Text" tab
+*** [18%] "Klingon Text" tab
+**** TODO Rename tab "Klingon Text" -> "Input"
+**** TODO Save number of words in text to localStorage
+**** TODO Form buttons disabled on startup until all data is loaded
 **** TODO Hover over word in input field should highlight all w/ same root
      If the word "bachwI'" is hovered on, then all words with that same root
      should be highlighted. ("bach", "bachqu'" etc.)
@@ -863,7 +870,10 @@ optimization."
      lines).
 **** DONE Clear button should clear glossary as well
      CLOSED: [2012-11-14 Wed 03:53]
-*** [33%] "Glossary" tab
+*** [16%] "Glossary" tab
+**** TODO Word frequency counts in glossary table
+**** TODO Auto load/save for makeGlossary()
+     There should be no need to explicitly invoke .load() or .save() methods.
 **** TODO Button for hiding/showing crossed out words
      There should be a selector, with which one can show/hide the words that are
      known. (If shown, they should be crossed out.)
