@@ -1,10 +1,7 @@
 /*file: makeglossary */
+/*global localStorage */
 
 // glossary = makeGlossary([ entries ]);
-//
-// glossary.add(entries);     // chainable
-// glossary.remove(entries);  // chainable
-// glossary.get(entries);
 //
 // FIXME: What should happen when trying to add an entry that does not exist in
 // dictionary? (this can never happen since words that aren't in the dictionary
@@ -17,17 +14,18 @@ function makeGlossary(entries) {
     var glossary = {}, counter = {}, object = {};
     function numeric(a, b) { return a - b; }
     function each(entries, callback) {
-        if (!entries) { return; }
-        if (!(entries instanceof Array)) {
-            throw new TypeError('argument must be array');
+        // FIXME: Input data errors are silently ignored here. (E.g. if an
+        // incompatible data structure was loaded from localStorage.) Only if
+        // 'entries' argument is an array, and then only for entries containing
+        // the 'num:' field, do we actually *do* anything. It seem to me bad
+        // practice not to tell the user that something went wrong, but
+        // throwing an error fucks up the entire program, so we can't do that
+        // either.
+        if (entries instanceof Array) {
+            entries.forEach(function (entry) {
+                if (entry.num !== undefined) { callback(entry); }
+            });
         }
-        entries.forEach(function (entry) {
-            if (entry.num === undefined) {
-                throw new TypeError('dictionary entry is missing "num" ' +
-                    'property\n' + JSON.stringify(entry, null, 4));
-            }
-            callback(entry);
-        });
     }
     object = {
         // non-chainable functions in alphabetical order
@@ -56,13 +54,14 @@ function makeGlossary(entries) {
             });
             return object;
         },
-        clear: function (entries) {
+        clear: function () {
             counter = {};
             glossary = {};
             return object;
         },
         load: function (name) {
-            return object.clear().add(JSON.parse(localStorage.getItem(name)));
+            var storageEntries = JSON.parse(localStorage.getItem(name));
+            return object.clear().add(storageEntries);
         },
         remove: function (entries) { // chainable
             each(entries, function (entry) {
