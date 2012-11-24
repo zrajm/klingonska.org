@@ -62,7 +62,7 @@
 function makeDictionary(url, onLoadCallback) {
     'use strict';
     /*jslint white: true */
-    var obj = {},
+    var object = {},
         dict = [],
         index = {},
         posAbbrev = {
@@ -151,39 +151,42 @@ function makeDictionary(url, onLoadCallback) {
         return index;
     }
 
-    obj = {
-        // Return list of requested entries. Returns whole dictionary if no
-        // query was give, empty list if no match was found. Possible query
-        // fields are: <num> (entry number), <tlh> (Klingon word), <pos>
-        // (part-of-speech). <tlh> and <pos> may be combined.
-        query: function (query) {
-            var pos = (query || {}).pos,
-                tlh = (query || {}).tlh,
-                num = (query || {}).num,
-                result;
-            try {
-                if (num !== undefined) {
-                    result = dict[num < 0 ? dict.length + num : num];
-                    return result ? [ result ] : [];
-                }
-                if (pos && tlh) { return index.pos[pos].tlh[tlh]['']; }
-                if (pos) { return index.pos[pos]['']; }
-                if (tlh) { return index.tlh[tlh]['']; }
-                return dict;
-            } catch (error) {
-                return [];
+    // Return list of requested entries. Returns whole dictionary if no
+    // query was give, empty list if no match was found. Possible query
+    // fields are: <num> (entry number), <tlh> (Klingon word), <pos>
+    // (part-of-speech). <tlh> and <pos> may be combined.
+    function makeDictionary_query(query) {
+        var pos = (query || {}).pos,
+            tlh = (query || {}).tlh,
+            num = (query || {}).num,
+            result;
+        try {
+            if (num !== undefined) {
+                result = dict[num < 0 ? dict.length + num : num];
+                return result ? [ result ] : [];
             }
-        },
-        index: function () { return index; }
-    };
+            if (pos && tlh) { return index.pos[pos].tlh[tlh]['']; }
+            if (pos) { return index.pos[pos]['']; }
+            if (tlh) { return index.tlh[tlh]['']; }
+            return dict;
+        } catch (error) {
+            return [];
+        }
+    }
+    object.query = makeDictionary_query;
+
+    function makeDictionary_index() {
+        return index;
+    }
+    object.index = makeDictionary_index;
 
     $.get(url, function (data) {               // fetch dictionary
         dict = parseZDB(data);                 //   parse
         index = indexify(dict);
-        if (onLoadCallback) { onLoadCallback(obj); }
+        if (onLoadCallback) { onLoadCallback(object); }
     });
 
-    return obj;
+    return object;
 }
 
 //eof
