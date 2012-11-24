@@ -8,6 +8,10 @@ section {
     overflow: auto;
 }
 
+button[disabled] {
+    color: #888;
+}
+
 article section > *:first-child {
     margin-top: 0;
 }

@@ -351,9 +351,9 @@ function errorMsg(str) {
                 redrawTable(outputElement, glossary, known);
             }
             outputElement.on('click', glossaryTableClick);
-            extractButtonElement.click(extractButton);
-            $('button.clear').click(clearButton);
-            $('button.test').click(testButton);
+            extractButtonElement.removeAttr('disabled').on('click', extractButton);
+            $('button.clear').removeAttr('disabled').on('click', clearButton);
+            $('button.test').removeAttr('disabled').on('click', testButton);
             $('#tab-row .selected').trigger('click');
         }
 
