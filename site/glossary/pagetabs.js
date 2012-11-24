@@ -1,20 +1,17 @@
 /*file: pagetabs */
 /*global $, localStorage */
-/*jslint devel: true, unparam: true */
 
 // NOTE
 // ====
 // This should load last, so that it may trigger other tab scripts by
 // simulating a click on its tab. (For this to work the receiving end needs to
 // have initialized and be ready to receive.)
-
-
-// Page tabs are defined by the children elements of an element with the
-// 'id=tab-row' attribute set. (Not all descendant are search, just one level
-// deep.) Each child element should have 'class' set to the class of the
-// corresponding page. The currently selected tab is marked by adding a
-// 'class=selected' (match this with CSS to highlight the current tab for the
-// end user).
+//
+// Page tabs are defined by the <li> children of a <ul id="tab-row"> (only the
+// immediate children of the <ul> element is searched). Each <li> should have
+// 'class' set to the class of the corresponding page. The currently selected
+// tab is marked by adding a 'class=selected' (match this with CSS to highlight
+// the current tab for the end user).
 //
 // Pages are any children elements of an element with the attribute 'role=main'
 // set. Pages should be hidden initially, they will be displayed/hidden as
@@ -40,52 +37,43 @@
 // The currently selected tab is stored in localStorage, so that on page
 // reload, the same tab remains open.
 //
-
+//     tabs = {
+//         "input": {                  // tab name
+//             tab: <jQuery object>,   //   jQuery/DOM object of tab
+//             page: <jQuery object>   //   jQuery/DOM object of tab's page
+//         },
+//         ...
+//     }
+//
 $(function () {
     'use strict';
-    var storageName = 'current-tab-name',
-        currentTabName = localStorage.getItem(storageName), // stored tab name
-        currentTabElement = null,
-        pagetabs = {
-            selected: '',
-            tabs: {},
-            change: function (newTabName) {
-                var oldPage = this.tabs[this.selected],
-                    newPage = this.tabs[newTabName];
-                if (!newPage) {
-                    // this should never happen
-                    alert("Tab '" + newTabName + "' does not exist.");
-                    return false;
-                }
-                if (pagetabs.selected) {
-                    oldPage.tabElement.removeClass('selected');
-                    oldPage.pageElement.addClass('hidden');
-                }
-                this.selected = newTabName;
-                localStorage.setItem(storageName, newTabName);
-                newPage.tabElement.addClass('selected');
-                newPage.pageElement.removeClass('hidden');
-            }
-        };
-
-    // get tabs from #tab-row, build data structure
-    $('#tab-row > *').each(function (index, element) {
-        element = $(element);  // DOM -> jQuery element
-        var name = element.attr('class');
-        if (name) {
-            if (name === currentTabName || !currentTabElement) {
-                currentTabElement = element;
-            }
-            pagetabs.tabs[name] = {
-                tabElement:  element,
-                pageElement: $('[role="main"] > .' + name)
-            };
-            element.on('click', function () { pagetabs.change(name); });
+    var storageName = 'tab',
+        tabRowTabs  = $('ul#tab-row > li'),
+        currentTab  = localStorage.getItem(storageName), // stored tab name
+        defaultTab  = null,                       // fallback
+        tabs        = {};
+    function change(newTabName) {
+        var oldPage = tabs[currentTab],
+            newPage = tabs[newTabName] || tabs[defaultTab];
+        if (oldPage) {
+            oldPage.tab.removeClass('selected');  // deselect old tab
+            oldPage.page.addClass('hidden');      // hide old page
         }
+        newPage.tab.addClass('selected');         // select new tab
+        newPage.page.removeClass('hidden');       // display new page
+        currentTab = newTabName;                  // remember current tab
+        localStorage.setItem(storageName, newTabName); // save current tab
+    }
+    // build 'tabs' object
+    tabRowTabs.each(function () {
+        var tabObject  = $(this),
+            tabName    = tabObject.attr('class'),
+            pageObject = $('[role="main"] > section.' + tabName);
+        tabs[tabName] = { tab: tabObject, page: pageObject };
+        tabObject.on('click', function () { change(tabName); });
     });
-
-    // trigger update of everything under that tab
-    currentTabElement.trigger('click');
+    defaultTab = tabRowTabs.eq(0).attr('class'); // use 1st tab
+    tabs[currentTab || defaultTab].tab.trigger('click');
 });
 
 // eof
