@@ -227,8 +227,8 @@ function errorMsg(str) {
 
     // return function (htmlInput, rules, dict) {
     function addWordsToGlossary(glossary, wordTokens, dict) {
-        // go through processed tokens, generate glossary
-        glossary.clear();
+        var words = [];                        // list of words to add
+        // go through word tokens, build list of words to add
         wordTokens.forEach(function (word) {
             var hasGottenPos = {};
             word.parts.forEach(function (part) {
@@ -243,11 +243,11 @@ function errorMsg(str) {
                 // sometimes appear twice with same word part-of-speech)
                 if (!hasGottenPos[pos]) {
                     hasGottenPos[pos] = true;
-                    glossary.add(dict.query({ tlh: root, pos: pos }));
+                    [].push.apply(words, dict.query({ tlh: root, pos: pos }));
                 }
             });
         });
-        glossary.save('glossary');
+        glossary.clear().add(words);           // add words to glossary
     }
 
     /*************************************************************************\
@@ -271,7 +271,7 @@ function errorMsg(str) {
 
         function clearButton() {               // clear text area
             inputElement.empty();
-            extractButtonElement.trigger('click');
+            extractButtonElement.triggerHandler('click');
         }
         function testButton() {
             inputElement.text("ghIq ngotlhwI' yIqel. (maw'be'; Hov leng " +
@@ -283,7 +283,7 @@ function errorMsg(str) {
                 "Quj tIvbej ghommeyvam, 'ach tlhIngan Hol Dun tIvbe'bej. " +
                 "Hol lughojmo' pop yajchu' jatlhwI' tlhInganmeyHeywI'Daq " +
                 "ghIpDIjtaHDI' bIHe'So' HInughI'chu'!");
-            extractButtonElement.trigger('click');
+            extractButtonElement.triggerHandler('click');
         }
         function extractButton() {
             var htmlInput  = inputElement.html(),
@@ -317,8 +317,8 @@ function errorMsg(str) {
 
         function onLoadDictionary(dict) {
             rules    = makeRules(dict);
-            glossary = makeGlossary().load('glossary');
-            known    = makeGlossary().load('known');
+            glossary = makeGlossary({ dict: dict, name: 'glossary'   });
+            known    = makeGlossary({ dict: dict, name: 'knownWords' });
             tmpStatus('<a href="../dict/dict.zdb">Dictionary</a> loaded.');
 
             // on page tab click

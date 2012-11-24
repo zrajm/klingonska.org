@@ -9,7 +9,25 @@
 // should support any Klingon phonotax words, like {Qov}, and ungrammaticals
 // like {Hejna'} eventually)
 
-function makeGlossary(entries) {
+// About Loading and Saving
+// ========================
+// If if 'name' option was provided at initialization, then the glossary will
+// automatically be saved to localStorage whenever entries are added or
+// deleted. (One may also manually invoke the .load() and .save() methods, but
+// there exist no good reason to do this.)
+//
+// Saved data ('storageEntries') is a reduced version of the internal glossary
+// data structure. Only the 'id:' and 'count:' fields are saved (the 'num:'
+// field is not included).
+
+// The pseudo-field 'num:' indicates dictionary file entry order (i.e. first
+// entry in file is 'num: 0', second is 'num: 1' etc.). This value calculated
+// when loading the dictionary (it is not stored in the dictionary data file).
+// Since the value changes whenever words are added or deleted in the
+// dictionary, it needs to be fetched from the dictionary when loading a
+// glossary. (The 'num:' field is used for sorting, and to go to the
+// previous/next entry.)
+function makeGlossary(options) {
     'use strict';
     var glossary = {}, counter = {}, object = {};
     function each(entries, callback) {
@@ -67,8 +85,18 @@ function makeGlossary(entries) {
     **                                                                       **
     \*************************************************************************/
 
-    // Add words to glossary.
-    function makeGlossary_add(entries) {
+    // Add words to glossary (+ auto save). Don't invoke this repeatedly if you
+    // have many words to add, instead build a list of words and invoke .add()
+    // once on the entire list.
+    //
+    // Entries is a list of dictionary-like entries. The only required field is
+    // 'id:', but any occurring 'count:' field is also used to increment the
+    // count of the word (if no 'count:' is given, defaults to 1).
+    //
+    // If 'noSave' is truthy, then the newly added words will *not* be auto
+    // saved to localStorage. (Used internally when .add() is invoked by the
+    // .load() method.)
+    function makeGlossary_add(entries, noSave) {
         each(entries, function (entry) {
             if (entry.count) {
                 counter[entry.num] = entry.count;
@@ -82,11 +110,11 @@ function makeGlossary(entries) {
             }
             glossary[entry.num] = entry;
         });
-        return object;
+        return noSave ? object : object.save();
     }
     object.add = makeGlossary_add;
 
-    // Clear glossary.
+    // Clear glossary. Does not auto save.
     function makeGlossary_clear() {
         counter = {};
         glossary = {};
@@ -95,9 +123,13 @@ function makeGlossary(entries) {
     object.clear = makeGlossary_clear;
 
     // Load glossary from localStorage.
-    function makeGlossary_load(name) {
-        var storageEntries = JSON.parse(localStorage.getItem(name));
-        return object.clear().add(storageEntries);
+    function makeGlossary_load() {
+        var storageEntries = [], name = options.name;
+        if (name) {                            // if there's a storage name
+            storageEntries = JSON.parse(localStorage.getItem(name));
+            object.clear().add(storageEntries, true);
+        }
+        return object;
     }
     object.load = makeGlossary_load;
 
@@ -107,23 +139,25 @@ function makeGlossary(entries) {
             delete glossary[entry.num];
             delete counter[entry.num];
         });
-        return object;
+        return object.save();
     }
     object.remove = makeGlossary_remove;
 
     // Save glossary to localStorage.
-    function makeGlossary_save(name) {
-        var state = object.get().map(function (entry) {
-            entry.count = object.count(entry);
-            return entry;
-        });
-        localStorage.setItem(name, JSON.stringify(state));
+    function makeGlossary_save() {
+        var storageEntries = [], name = options.name;
+        if (name) {                            // if there's a storage name
+            storageEntries = object.get().map(function (entry) {
+                entry.count = object.count(entry);
+                return entry;
+            });
+            localStorage.setItem(name, JSON.stringify(storageEntries));
+        }
         return object;
     }
     object.save = makeGlossary_save;
 
-    if (entries) { object.add(entries); }
-    return object;
+    return object.load();
 }
 
 //eof
