@@ -354,6 +354,7 @@ function errorMsg(str) {
             extractButtonElement.click(extractButton);
             $('button.clear').click(clearButton);
             $('button.test').click(testButton);
+            $('#tab-row .selected').trigger('click');
         }
 
         inputElement.html(inputText);
