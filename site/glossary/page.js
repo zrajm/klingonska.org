@@ -296,7 +296,7 @@ function errorMsg(str) {
 
             // // update word counters on page
             // $('.wordcount').html(wordCount);
-            // $('.uniqcount').html(glossary.length());
+            // $('.glosscount').html(glossary.length());
 
             $('#tab-row .input').trigger('click'); // refresh this tab
         }
@@ -344,7 +344,7 @@ function errorMsg(str) {
 
                 // update word counters on page
                 $('.wordcount').html(count);
-                $('.uniqcount').html(glossary.length());
+                $('.glosscount').html(glossary.length());
             });
 
             if (glossary.length() > 0) {

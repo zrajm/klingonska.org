@@ -116,6 +116,8 @@ section.practice .question,
 section.practice .answer {
     font-size: 250%;
     height: 200px;
+    line-height: 125%;
+    vertical-align: middle;
 }
 
 section.practice .buttons {
@@ -177,7 +179,7 @@ table.glossary .output {
 
 table.glossary tr:hover .canon,
 table.glossary tr:hover .noncanon { background: rgba(0, 0, 0, .2); }
-table.glossary .canon:hover    { outline: 2px solid rgba(0, 0, 0, .5); }
+table.glossary .canon:hover,
 table.glossary .noncanon:hover { outline: 2px solid rgba(0, 0, 0, .5); }
 table.glossary td.count, table.glossary td.pos { text-align: center; }
 table.glossary td:lang(tlh) { font-weight: bold; }
@@ -199,6 +201,10 @@ section.input .input {
     overflow-x: hidden;
 }
 
+section.input [contenteditable] span:hover {
+    outline: 2px solid rgba(0, 0, 0, .25);
+}
+
 section.input [contenteditable] {
     border: 4px inset #888;
     padding: .125em .25em;
@@ -211,7 +217,7 @@ section.input .syllable {
 
 section.input .punct { background: transparent; }
 
-/* part-of-speech highlighting */
+/* part-of-speech highlight */
 
 /* can only occur in highlighed input text */
 [class=""] { background: transparent }     /* "Unknown" */

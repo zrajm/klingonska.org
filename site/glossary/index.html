@@ -83,23 +83,25 @@
 
       <section class="input hidden">
         <div lang=en style="margin:0">
-          <p class=noindent style="margin-top:0">Paste any text in Klingon,
-            press <i>Analyze Text</i> button, then go to the next tab
-            (<i>Glossary</i>).</p>
+          <p class=noindent style="margin-top:0">Insert any text in Klingon,
+            press <i>Analyze Text,</i> then go to the <i>Glossary</i> tab to
+            view the result.</p>
           <p class=noindent style="margin-bottom:.125em">
             <button disabled class=analyze>Analyze Text</button>
-            <span class=wordcount>0</span> words
-            (<span class=uniqcount>0</span> different)
+            <span title="Number of words in the text."><span class=wordcount>0</span> words</span>
+            (<span title="Can be higher than the word count, if there are many ambiguous words."
+              ><span class=glosscount>0</span> glossary words</span>)
           </p>
         </div>
         <div lang=sv style="margin:0">
-          <p class=noindent style="margin-top:0">Klistra in valfri text på
-            klingonska, tryck <i>Analysera texten</i> och gå sen till nästa
-            flik (<i>Gloslista</i>).</p>
+          <p class=noindent style="margin-top:0">Skriv in valfri text på
+            klingonska, tryck <i>Analysera text</i> och gå sen till fliken
+            <i>Gloslista</i> för att se resultatet.</p>
           <p class=noindent style="margin-bottom:.125em">
-            <button disabled class=analyze>Analysera texten</button>
-            <span class=wordcount>0</span> ord
-            (<span class=uniqcount>0</span> olika)
+            <button disabled class=analyze>Analysera text</button>
+            <span title="Antal ord i texten."><span class=wordcount>0</span> ord</span>
+            (<span title="Kan vara större än antalet ord om det finns många tvetydiga ord."
+              ><span class=glosscount>0</span> glosor</span>)
           </p>
         </div>
         <div class=input contenteditable></div>
@@ -153,11 +155,11 @@
       <section class="glossary hidden">
         <div lang=en style="margin:0">
           <p class=noindent style="margin-top:0">Mark the words you already
-            know below. Re-sort table by clicking on the headers.</p>
+            know. Re-sort by clicking table headers.</p>
         </div>
         <div lang=sv style="margin:0">
-          <p class=noindent style="margin-top:0">Markera de ord du redan kan
-            nedan. Sortera om listan genom att klicka på rubrikerna.</p>
+          <p class=noindent style="margin-top:0">Markera de ord du redan kan.
+            Sortera om genom att klicka på tabellrubrikerna.</p>
         </div>
         <p class=noindent style="margin-bottom:.125em">
           <span class=stats style="padding-left:.25em"></span>
@@ -186,10 +188,10 @@
       <section class="practice hidden">
         <table width=100%>
           <tbody>
-            <tr><td class=question style="vertical-align:middle">
+            <tr><td class=question>
                 <b lang=tlh>bach</b>
             </td></tr>
-            <tr><td class=answer style="vertical-align:middle;line-height:125%">
+            <tr><td class=answer>
                 <i>shoot (v)<br>
                   shot (n)</i>
             </td></tr>
@@ -218,13 +220,14 @@
 
       <section class="known hidden">
         <div lang=en style="margin:0">
-          <p class=noindent style="margin-top:0">These are words you've marked
-            as already known to you. They will not appear when practicing
-            words.</p>
+          <p class=noindent style="margin-top:0">These are words you already
+            know. They will not appear when practicing. As you learn more
+            words, they will be added here.</p>
         </div>
         <div lang=sv style="margin:0">
-          <p class=noindent style="margin-top:0">Det här är ord du har markerat
-            att du redan kan. De kommer inte användas när du tränar på ord.</p>
+          <p class=noindent style="margin-top:0">Det här är ord du redan kan.
+            De kommer inte att dyka upp när du tränar på ord. Allteftersom du
+            lär dig nya ord kommer de att läggas till här.</p>
         </div>
         <p class=noindent style="margin-bottom:.125em">
           <span class=stats style="padding-left:.25em"></span>
