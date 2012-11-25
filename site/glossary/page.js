@@ -258,9 +258,9 @@ function errorMsg(str) {
     $(function () {
         var dict, rules, glossary, known,
             outputElement = $('.glossary div.output'),
-            inputElement  = $('.extract  div.input'),
+            inputElement  = $('.input  div.input'),
             knownElement  = $('.known    div.output'),
-            extractButtonElement = $('button.extract'),
+            analyzeButtonElement = $('button.analyze'),
             inputText = localStorage.getItem('current-klingon-text') || '';
 
         function statsMsg(unknown, total, text) {
@@ -269,11 +269,11 @@ function errorMsg(str) {
                 '% of ' + text + ' known';
         }
 
-        function clearButton() {               // clear text area
+        function clearButton() {
             inputElement.empty();
-            extractButtonElement.triggerHandler('click');
+            analyzeButtonElement.triggerHandler('click');
         }
-        function testButton() {
+        function exampleTextButton() {
             inputElement.text("ghIq ngotlhwI' yIqel. (maw'be'; Hov leng " +
                 "tIvqu' neH). roD DujHeyDaq yo'HeyDaq ghap ghom. patlh ghaj " +
                 "yaSDaj, 'ej batlh cha'maHlogh Qapchugh lunumlu'. tlhIngan " +
@@ -283,9 +283,9 @@ function errorMsg(str) {
                 "Quj tIvbej ghommeyvam, 'ach tlhIngan Hol Dun tIvbe'bej. " +
                 "Hol lughojmo' pop yajchu' jatlhwI' tlhInganmeyHeywI'Daq " +
                 "ghIpDIjtaHDI' bIHe'So' HInughI'chu'!");
-            extractButtonElement.triggerHandler('click');
+            analyzeButtonElement.triggerHandler('click');
         }
-        function extractButton() {
+        function analyzeButton() {
             var htmlInput  = inputElement.html(),
                 tokens     = tokenizeAndParse(htmlInput, rules),
                 wordTokens = tokens.filter(function (token) {
@@ -298,7 +298,7 @@ function errorMsg(str) {
             // $('.wordcount').html(wordCount);
             // $('.uniqcount').html(glossary.length());
 
-            $('#tab-row .extract').trigger('click'); // refresh this tab
+            $('#tab-row .input').trigger('click'); // refresh this tab
         }
         function glossaryTableClick(event) {
             var elem = $(event.target).closest('tr[data-num]'),
@@ -336,7 +336,7 @@ function errorMsg(str) {
                 $('.known .stats').html(statsMsg(unknown, total, 'dictionary'));
                 redrawTable(knownElement, known);
             });
-            $('#tab-row .extract').on('click', function () {
+            $('#tab-row .input').on('click', function () {
                 inputElement.html(inputText);
 
                 var count = 0;
@@ -351,9 +351,9 @@ function errorMsg(str) {
                 redrawTable(outputElement, glossary, known);
             }
             outputElement.on('click', glossaryTableClick);
-            extractButtonElement.removeAttr('disabled').on('click', extractButton);
+            analyzeButtonElement.removeAttr('disabled').on('click', analyzeButton);
             $('button.clear').removeAttr('disabled').on('click', clearButton);
-            $('button.test').removeAttr('disabled').on('click', testButton);
+            $('button.test').removeAttr('disabled').on('click', exampleTextButton);
             $('#tab-row .selected').trigger('click');
         }
 

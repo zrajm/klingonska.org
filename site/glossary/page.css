@@ -1,3 +1,5 @@
+/* -*- css -*- */
+
 /* hide/show translations based on <html data-lang> attr */
 body[data-lang|="en"] :lang(sv) { display: none; }
 body[data-lang|="sv"] :lang(en) { display: none; }
@@ -95,50 +97,53 @@ section {
 
 /******************************************************************************\
 **                                                                            **
-**  Flashcard Tab                                                             **
+**  Practice Tab                                                              **
 **                                                                            **
 \******************************************************************************/
 
-.flash table, .flash table tfoot, .flash table td.buttons {
+section.practice table,
+section.practice table tfoot,
+section.practice table td.buttons {
     border: 0;
 }
 
-.flash table {
+section.practice table {
     font-family: Georgia;
     text-align: center;
 }
 
-.flash .question, .flash .answer {
+section.practice .question,
+section.practice .answer {
     font-size: 250%;
     height: 200px;
 }
 
-.flash .buttons {
+section.practice .buttons {
     padding: .5em 0 1.5em;
 }
 
-.flash button {
+section.practice button {
     margin: .2em .1em;
     font-size: 150%;
     font-weight: bold;
 }
 
-.flash button.a {
+section.practice button.a {
     background:#f88;
     color:#800;
     border:outset #faa;
 }
-.flash button.b {
+section.practice button.b {
     background:#cc8;
     color:#440;
     border:outset #eea;
 }
-.flash button.c {
+section.practice button.c {
     background:#8f8;
     color:#060;
     border:outset #afa;
 }
-.flash button.d {
+section.practice button.d {
     background:#aaa;
     color:#333;
     border:outset #ccc;
@@ -185,26 +190,26 @@ table.glossary td:lang(en), td:lang(sv) { font-style: italic; }
 **                                                                            **
 \******************************************************************************/
 
-.extract h2 { margin: .5em 0; }
+section.input h2 { margin: .5em 0; }
 
-.extract .input {
+section.input .input {
     margin: 0;
     height: 12em;
     overflow-y: auto;
     overflow-x: hidden;
 }
 
-.extract [contenteditable] {
+section.input [contenteditable] {
     border: 4px inset #888;
     padding: .125em .25em;
     line-height: 140%;
 }
 
-.extract .syllable {
+section.input .syllable {
     border: 1px solid black;
 }
 
-.extract .punct { background: transparent; }
+section.input .punct { background: transparent; }
 
 /* part-of-speech highlighting */
 
@@ -243,8 +248,8 @@ table.glossary .known.ques { background: #805580; }       /* known "Other" */
 **                                                                            **
 \******************************************************************************/
 
-.storage th, .storage td { vertical-align: top; }
+section.storage th, section.storage td { vertical-align: top; }
 
-.storage th pre { margin: 0; }
+section.storage th pre { margin: 0; }
 
 /* eof */
