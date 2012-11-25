@@ -833,10 +833,12 @@ optimization."
 **** TODO Each tab should have its own script file
      Which would then require that page.js declare everything relevant to this in
      a global scope.
-*** [18%] "Klingon Text" tab
-**** TODO Rename tab "Klingon Text" -> "Input"
+*** [40%] "Klingon Text" tab
+**** DONE Rename tab "Klingon Text" -> "Input"
+     CLOSED: [2012-11-25 Sun 10:25]
 **** TODO Save number of words in text to localStorage
-**** TODO Form buttons disabled on startup until all data is loaded
+**** DONE Form buttons disabled on startup until all data is loaded
+     CLOSED: [2012-11-25 Sun 10:25]
 **** TODO Hover over word in input field should highlight all w/ same root
      If the word "bachwI'" is hovered on, then all words with that same root
      should be highlighted. ("bach", "bachqu'" etc.)
@@ -870,15 +872,17 @@ optimization."
      lines).
 **** DONE Clear button should clear glossary as well
      CLOSED: [2012-11-14 Wed 03:53]
-*** [42%] "Glossary" tab
+*** [71%] "Glossary" tab
 **** DONE Word frequency counts in glossary table
      CLOSED: [2012-11-24 Sat 20:17]
 **** DONE makeGlossary() auto load/save
      CLOSED: [2012-11-24 Sat 20:15]
      There should be no need to explicitly invoke .load() or .save() methods.
-**** TODO makeGlossary() should not use dictionary entries internally
+**** DONE makeGlossary() should not use dictionary entries internally
+     CLOSED: [2012-11-25 Sun 10:25]
      But dictionary entry IDs.
-**** TODO makeGlossary() returned entries should include 'count:'
+**** DONE makeGlossary() returned entries should include 'count:'
+     CLOSED: [2012-11-25 Sun 10:25]
 **** TODO Button for hiding/showing crossed out words
      There should be a selector, with which one can show/hide the words that are
      known. (If shown, they should be crossed out.)

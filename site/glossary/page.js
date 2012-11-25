@@ -296,7 +296,7 @@ function errorMsg(str) {
 
             // // update word counters on page
             // $('.wordcount').html(wordCount);
-            // $('.glosscount').html(glossary.length());
+            // $('.glosscount').html(glossary.length);
 
             $('#tab-row .input').trigger('click'); // refresh this tab
         }
@@ -305,10 +305,10 @@ function errorMsg(str) {
                 num  = elem.data('num');
             if (num !== undefined) {       // do stuff
                 if (elem.hasClass('known')) {// make word unknown
-                    known.remove(dict.query({ num: num })).save('known');
+                    known.remove(dict.query({ num: num }));
                     elem.removeClass('known');
                 } else {                   //   make word known
-                    known.add(dict.query({ num: num })).save('known');
+                    known.add(dict.query({ num: num }));
                     elem.addClass('known');
                 }
                 redrawTable(knownElement, known);
@@ -323,7 +323,7 @@ function errorMsg(str) {
 
             // on page tab click
             $('#tab-row .glossary').on('click', function () {
-                var total   = glossary.length(),
+                var total   = glossary.length,
                     unknown = glossary.get().filter(function (entry) {
                         return !known.has(entry);
                     }).length;
@@ -332,7 +332,7 @@ function errorMsg(str) {
             });
             $('#tab-row .known').on('click', function () {
                 var total   = (dict.query({ num: -1 })[0] || { num: 0 }).num,
-                    unknown = total - known.length();
+                    unknown = total - known.length;
                 $('.known .stats').html(statsMsg(unknown, total, 'dictionary'));
                 redrawTable(knownElement, known);
             });
@@ -344,10 +344,10 @@ function errorMsg(str) {
 
                 // update word counters on page
                 $('.wordcount').html(count);
-                $('.glosscount').html(glossary.length());
+                $('.glosscount').html(glossary.length);
             });
 
-            if (glossary.length() > 0) {
+            if (glossary.length > 0) {
                 redrawTable(outputElement, glossary, known);
             }
             outputElement.on('click', glossaryTableClick);

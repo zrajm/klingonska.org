@@ -27,6 +27,10 @@
 // arguments), if your, for some reason, want to iterate over the entire
 // dictionary.
 //
+// The 'num:' field is not present in the original datafile, but added when
+// reading the dictionary. It indicates the entry's number in the original
+// database.
+//
 // dict = [
 //     {
 //         num :  1
@@ -91,7 +95,7 @@ function makeDictionary(url, onLoadCallback) {
     // while reading the dictionary, and is not part of the original data).
     //
     //     {
-    //         num:  : 2,
+    //         num : 2,
     //         tlh : "{bach} [2]",
     //         pos : "noun",
     //         sv  : "«skott»",   // «...» retained
@@ -124,7 +128,15 @@ function makeDictionary(url, onLoadCallback) {
         });
     }
 
+    // The passed in arguments <tlh> and <pos> are not the same as the
+    // corresponding dicttionary fields. Instead <tlh> is the plain Klingon
+    // word (without the brackets or counters in the dictionary) and <pos> is
+    // the abbreviated part-of-speech.
     function addIndexItem(index, entry, tlh, pos) {
+        var id = entry.id;
+        index.id[id]                = index.id[id]                || {};
+        index.id[id]['']            = index.id[id]['']            || [];
+        index.id[id][''].push(entry);
         index.tlh[tlh]              = index.tlh[tlh]              || {};
         index.tlh[tlh]['']          = index.tlh[tlh]['']          || [];
         index.tlh[tlh][''].push(entry);
@@ -142,7 +154,7 @@ function makeDictionary(url, onLoadCallback) {
     }
 
     function indexify(dict) {
-        var index = { pos: {}, tlh: {} };
+        var index = { pos: {}, tlh: {}, id: {} };
         dict.forEach(function (entry) {
             var tlh = (entry.tlh.match(/\{(.*?)\}/))[1], // Klingon word
                 pos = posAbbrev[entry.pos];
@@ -158,9 +170,11 @@ function makeDictionary(url, onLoadCallback) {
     function makeDictionary_query(query) {
         var pos = (query || {}).pos,
             tlh = (query || {}).tlh,
+            id  = (query || {}).id,
             num = (query || {}).num,
             result;
         try {
+            if (id) { return index.id[id]['']; }
             if (num !== undefined) {
                 result = dict[num < 0 ? dict.length + num : num];
                 return result ? [ result ] : [];

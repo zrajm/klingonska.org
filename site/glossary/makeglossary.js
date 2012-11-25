@@ -1,7 +1,7 @@
 /*file: makeglossary */
 /*global localStorage */
 
-// glossary = makeGlossary([ entries ]);
+// glossary = makeGlossary(options);
 //
 // FIXME: What should happen when trying to add an entry that does not exist in
 // dictionary? (this can never happen since words that aren't in the dictionary
@@ -9,6 +9,21 @@
 // should support any Klingon phonotax words, like {Qov}, and ungrammaticals
 // like {Hejna'} eventually)
 
+// Indata for all functions are dictionary entries, however 'glossary' only
+// looks at the 'id:' field. The '.get()' function also return copies of
+// dictionary entries, with the extra fields 'count:' and 'num:' set. ('count:'
+// returns the number of times the word has been added to the glossary, 'num:'
+// the number of the entry in the original dictionary).
+//
+// Structure of internal 'wordCount' (which, together with 'object.length' is
+// the only data structure need to keep track of everything).
+//
+// wordCount = {
+//     ...
+//     "ExS": 5,                // dictionary entry ID + word count in text
+//     ...
+// };
+//
 // About Loading and Saving
 // ========================
 // If if 'name' option was provided at initialization, then the glossary will
@@ -29,18 +44,17 @@
 // previous/next entry.)
 function makeGlossary(options) {
     'use strict';
-    var glossary = {}, counter = {}, object = {};
+    var wordCount = {}, object = { length: 0 };
     function each(entries, callback) {
         // FIXME: Input data errors are silently ignored here. (E.g. if an
         // incompatible data structure was loaded from localStorage.) Only if
         // 'entries' argument is an array, and then only for entries containing
-        // the 'num:' field, do we actually *do* anything. It seem to me bad
+        // the 'id:' field, do we actually *do* anything. It seem to me bad
         // practice not to tell the user that something went wrong, but
-        // throwing an error fucks up the entire program, so we can't do that
-        // either.
+        // throwing an error fucks up the entire program, so we can't do that.
         if (entries instanceof Array) {
             entries.forEach(function (entry) {
-                if (entry.num !== undefined) { callback(entry); }
+                if (entry.id) { callback(entry); }
             });
         }
     }
@@ -51,33 +65,45 @@ function makeGlossary(options) {
     **                                                                       **
     \*************************************************************************/
 
-    // Return word count for specified <entry>.
+    // Return word 'count:' for specified <entry>, or zero if word does not
+    // exists or is otherwise unknown.
     function makeGlossary_count(entry) {
-        return counter[entry.num] || 0;
+        var id = entry && entry.id;
+        return id && wordCount[id] ? wordCount[id] : 0;
     }
     object.count = makeGlossary_count;
 
-    // Return list of glossary entries sorted in dictionary order.
-    function numeric(a, b) { return a - b; }
+    // Return list of all glossary entries sorted in dictionary order. Entries
+    // are copied from dictionary, with added field 'count:' (see above).
+    function byNumField(entry1, entry2) { return entry1.num - entry2.num; }
     function makeGlossary_get() {
-        return Object.keys(glossary).sort(numeric).map(function (num) {
-            return glossary[num];
-        });
+        var id, field, newEntry, dictEntry,
+            dict = options.dict, newEntries = [];
+        for (id in wordCount) {
+            if (wordCount.hasOwnProperty(id)) {
+                dictEntry = dict.query({ id: id })[0];
+                // FIXME: What happens if word with that ID no longer exists in
+                // dict? (E.g. because a new dictionary without it has been
+                // loaded)
+                newEntry = {};
+                for (field in dictEntry) {     // shallow copy of dict entry
+                    if (dictEntry.hasOwnProperty(field)) {
+                        newEntry[field] = dictEntry[field];
+                    }
+                }
+                newEntry.count = wordCount[id];// + word count
+                newEntries.push(newEntry);
+            }
+        }
+        return newEntries.sort(byNumField);    // return sorted list
     }
     object.get = makeGlossary_get;
 
     // Return true if <entry> exists in glossary, false otherwise.
     function makeGlossary_has(entry) {
-        return !!glossary[entry.num];
+        return !!wordCount[entry.id];
     }
     object.has = makeGlossary_has;
-
-    // Return number of entries in glossary.
-    function makeGlossary_length() {
-        return Object.keys(glossary).length;
-    }
-    object.length = makeGlossary_length;
-
 
     /*************************************************************************\
     **                                                                       **
@@ -97,18 +123,19 @@ function makeGlossary(options) {
     // saved to localStorage. (Used internally when .add() is invoked by the
     // .load() method.)
     function makeGlossary_add(entries, noSave) {
+        var dict = options.dict;
         each(entries, function (entry) {
-            if (entry.count) {
-                counter[entry.num] = entry.count;
-                delete entry.count;
-            } else {
-                if (counter[entry.num]) {
-                    counter[entry.num] += 1;
-                } else {
-                    counter[entry.num] = 1;
+            var dictEntry, id = entry.id, addCount = entry.count || 1;
+            if (wordCount[id]) {               // already exists
+                wordCount[id] += addCount;     //   increase counter
+            } else {                           // new glossary entry
+                dictEntry = dict.query({ id: id })[0];
+                // FIXME: What to do if dictEntry does not exist?
+                if (dictEntry) {               //   create glossary entry
+                    wordCount[id] = addCount;  //     with word count
+                    object.length += 1;
                 }
             }
-            glossary[entry.num] = entry;
         });
         return noSave ? object : object.save();
     }
@@ -116,18 +143,22 @@ function makeGlossary(options) {
 
     // Clear glossary. Does not auto save.
     function makeGlossary_clear() {
-        counter = {};
-        glossary = {};
+        object.length = 0;
+        wordCount = {};
         return object;
     }
     object.clear = makeGlossary_clear;
 
     // Load glossary from localStorage.
     function makeGlossary_load() {
-        var storageEntries = [], name = options.name;
+        var name = options.name;
         if (name) {                            // if there's a storage name
-            storageEntries = JSON.parse(localStorage.getItem(name));
-            object.clear().add(storageEntries, true);
+            try {                              // load
+                wordCount = JSON.parse(localStorage.getItem(name));
+                object.length = Object.keys(wordCount).length; // set length
+            } catch (error) {                  // ERROR
+                object.clear();                //   erase everything
+            }
         }
         return object;
     }
@@ -136,8 +167,11 @@ function makeGlossary(options) {
     // Remove <entries> from glossary.
     function makeGlossary_remove(entries) {
         each(entries, function (entry) {
-            delete glossary[entry.num];
-            delete counter[entry.num];
+            var id = entry && entry.id;
+            if (id && wordCount[id]) {
+                object.length -= 1;
+                delete wordCount[id];
+            }
         });
         return object.save();
     }
@@ -145,13 +179,9 @@ function makeGlossary(options) {
 
     // Save glossary to localStorage.
     function makeGlossary_save() {
-        var storageEntries = [], name = options.name;
+        var name = options.name;
         if (name) {                            // if there's a storage name
-            storageEntries = object.get().map(function (entry) {
-                entry.count = object.count(entry);
-                return entry;
-            });
-            localStorage.setItem(name, JSON.stringify(storageEntries));
+            localStorage.setItem(name, JSON.stringify(wordCount));
         }
         return object;
     }
