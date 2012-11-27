@@ -217,6 +217,25 @@ section.input .syllable {
 
 section.input .punct { background: transparent; }
 
+section.input .state:before {
+    color: #888;
+    content: "";
+    font-style: italic;
+    padding-left: .25em;
+}
+section.input .state.typing:before {
+    content: "Typing…";
+}
+section.input .state.saved:before {
+    content: "Text saved.";
+}
+section.input .state.typing:lang(sv):before {
+    content: "Skriver…";
+}
+section.input .state.saved:lang(sv):before {
+    content: "Text sparad.";
+}
+
 /* part-of-speech highlight */
 
 /* can only occur in highlighed input text */

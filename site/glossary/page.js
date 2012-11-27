@@ -1,5 +1,5 @@
 /*file: page */
-/*global $, makeTagged, makeGlossary, makeDictionary, makeRules */
+/*global $, makeTagged, makeGlossary, makeDictionary, makeRules, makeInputText */
 /*jslint browser: true, regexp: true */
 
 // Return a HTML tag.
@@ -258,10 +258,16 @@ function errorMsg(str) {
     $(function () {
         var dict, rules, glossary, known,
             outputElement = $('.glossary div.output'),
-            inputElement  = $('.input  div.input'),
             knownElement  = $('.known    div.output'),
             analyzeButtonElement = $('button.analyze'),
-            inputText = localStorage.getItem('current-klingon-text') || '';
+            inputText = makeInputText({
+                name: 'inputText',
+                saveDelay: 1000,
+                msgDelay: 1500,
+                inputElement:  $('section.input div.input'),
+                lengthElement: $('section.input .wordcount'),
+                statusElement: $('section.input .state')
+            });
 
         function statsMsg(unknown, total, text) {
             var known = Math.round(((total - unknown) / total) * 1000) / 10;
@@ -270,11 +276,11 @@ function errorMsg(str) {
         }
 
         function clearButton() {
-            inputElement.empty();
+            inputText.set('');
             analyzeButtonElement.triggerHandler('click');
         }
         function exampleTextButton() {
-            inputElement.text("ghIq ngotlhwI' yIqel. (maw'be'; Hov leng " +
+            inputText.set("ghIq ngotlhwI' yIqel. (maw'be'; Hov leng " +
                 "tIvqu' neH). roD DujHeyDaq yo'HeyDaq ghap ghom. patlh ghaj " +
                 "yaSDaj, 'ej batlh cha'maHlogh Qapchugh lunumlu'. tlhIngan " +
                 "nugh, tIgh je neH qel jeSwI'pu'vam. tlhIngan Hol qelchugh, " +
@@ -286,18 +292,15 @@ function errorMsg(str) {
             analyzeButtonElement.triggerHandler('click');
         }
         function analyzeButton() {
-            var htmlInput  = inputElement.html(),
-                tokens     = tokenizeAndParse(htmlInput, rules),
+            var tokens     = tokenizeAndParse(inputText.text, rules),
                 wordTokens = tokens.filter(function (token) {
                     return (token.parts ? true : false);
                 });
             addWordsToGlossary(glossary, wordTokens, dict);
-            inputText = highlightedUserInput(tokens);
-
-            // // update word counters on page
-            // $('.wordcount').html(wordCount);
-            // $('.glosscount').html(glossary.length);
-
+            inputText.set(
+                highlightedUserInput(tokens),
+                wordTokens.length
+            ).save();
             $('#tab-row .input').trigger('click'); // refresh this tab
         }
         function glossaryTableClick(event) {
@@ -322,6 +325,9 @@ function errorMsg(str) {
             tmpStatus('<a href="../dict/dict.zdb">Dictionary</a> loaded.');
 
             // on page tab click
+            $('#tab-row .input').on('click', function () {
+                $('.glosscount').html(glossary.length);
+            });
             $('#tab-row .glossary').on('click', function () {
                 var total   = glossary.length,
                     unknown = glossary.get().filter(function (entry) {
@@ -336,16 +342,6 @@ function errorMsg(str) {
                 $('.known .stats').html(statsMsg(unknown, total, 'dictionary'));
                 redrawTable(knownElement, known);
             });
-            $('#tab-row .input').on('click', function () {
-                inputElement.html(inputText);
-
-                var count = 0;
-                inputText.replace(/<span /g, function () { count += 1; });
-
-                // update word counters on page
-                $('.wordcount').html(count);
-                $('.glosscount').html(glossary.length);
-            });
 
             if (glossary.length > 0) {
                 redrawTable(outputElement, glossary, known);
@@ -357,36 +353,7 @@ function errorMsg(str) {
             $('#tab-row .selected').trigger('click');
         }
 
-        inputElement.html(inputText);
-        inputElement.focus();
         dict = makeDictionary('../dict/dict.zdb', onLoadDictionary);
-
-        // Watcher for the Klingon input field. The watcher will start up
-        // whenever user inputs anything in this field, and then run in
-        // background, doing autosave every 2 seconds. If nothing has changed
-        // since last invocation the watcher will silently kill itself. (Only
-        // to be autospawned should the user start inputting again.)
-        (function () {
-            var watcher, saved = true, events = 'input DOMNodeInserted ' +
-                'DOMNodeRemoved DOMCharacterDataModified';
-            inputElement.on(events, function () {
-                if (watcher) { return; }
-                saved = false;
-                watcher = setInterval(function () {
-                    if (saved === false) {
-                        localStorage.setItem(
-                            'current-klingon-text',
-                            inputElement.html()
-                        );
-                        tmpStatus('Saved.');
-                        saved = true;
-                    } else {
-                        clearTimeout(watcher);
-                        watcher = undefined;
-                    }
-                }, 2000);
-            });
-        }());
     });
 
 }());
