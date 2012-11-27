@@ -16,7 +16,7 @@
 $(function () {
     'use strict';
     var oldLang = '', selectorElement = $('select.lang'),
-        storageName  = 'current-language',
+        storageName  = 'language',
         languageName = localStorage.getItem(storageName);
     function setLang(newLang) {
         if (newLang !== oldLang) {
