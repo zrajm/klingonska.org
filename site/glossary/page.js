@@ -170,23 +170,24 @@ function errorMsg(str) {
                 '>': { en: '</span>', sv: '</span>' }
             },
             thead = tag('tr',
-                tag('th', '') +                // count
-                tag('th',                      // Klingon
-                    tag('span', 'Klingon',    'lang=en') +
-                    tag('span', 'Klingonska', 'lang=sv')) +
-                tag('th',                      // Word Type
-                    tag('span', 'Type',  'lang=en') +
-                    tag('span', 'Typ', 'lang=sv')) +
-                tag('th', 'English',          // English
-                    'lang=en') +
-                tag('th', 'Svenska',          // Swedish
-                    'lang=sv')
+                tag('th', '',                    // count
+                    'title="Occurrences of word in text"') +
+                tag('th',                        // Klingon
+                    tag('span', 'Klingon',    'lang=en title="Klingon words found in text"') +
+                    tag('span', 'Klingonska', 'lang=sv title="Klingonska ord funna i text"')) +
+                tag('th',                        // Word Type
+                    tag('span', 'Type', 'lang=en title="Word type / Part-of-speech"') +
+                    tag('span', 'Typ',  'lang=sv title="Ordtyp / Ordklass"')) +
+                tag('th', 'English',             // English
+                    'lang=en title="English translation"') +
+                tag('th', 'Svenska',             // Swedish
+                    'lang=sv title="Svensk översättning"')
             );
         /*jslint white: false */
         if (entries.length === 0) {
-            return tag('table', tag('tbody', tag('tr', tag('td',
-                tag('span', 'There is nothing to see here (yet).', 'lang=en') +
-                tag('span', 'Det finns inget att visa här (än).', 'lang=sv')))));
+            return tag('tbody', tag('tr',
+                tag('td', 'There is nothing to see here (yet).', 'lang=en') +
+                tag('td', 'Det finns inget att visa här (än).', 'lang=sv')));
         }
         tbody = entries.map(function (entry) {
             /*jslint unparam: true */
@@ -215,14 +216,11 @@ function errorMsg(str) {
                        crossedOutGlossary.has(entry) ? ' known' : '') +
                    '" data-num=' + entry.num);
         });
-        return tag('table',
-                tag('thead', thead) + tag('tbody', tbody.join('')),
-               'class="glossary sortable"'
-            ) +
-            tag('script', '', 'src="../includes/sorttable.js"');
+        return tag('thead', thead) + tag('tbody', tbody.join(''));
     }
     function redrawTable(jQueryObj, glossary, crossedOutGlossary) {
         jQueryObj.empty().html(glossaryTableHTML(glossary, crossedOutGlossary));
+        sorttable.makeSortable(jQueryObj.get(0));
     }
 
     // return function (htmlInput, rules, dict) {
@@ -257,8 +255,8 @@ function errorMsg(str) {
     \*************************************************************************/
     $(function () {
         var dict, rules, glossary, known,
-            outputElement = $('.glossary div.output'),
-            knownElement  = $('.known    div.output'),
+            outputElement = $('section.glossary table'),
+            knownElement  = $('section.known    table'),
             analyzeButtonElement = $('button.analyze'),
             inputText = makeInputText({
                 name: 'inputText',
@@ -346,7 +344,8 @@ function errorMsg(str) {
             if (glossary.length > 0) {
                 redrawTable(outputElement, glossary, known);
             }
-            outputElement.on('click', glossaryTableClick);
+            outputElement.addClass('sortable').on('click', glossaryTableClick);
+            knownElement.addClass('sortable');
             analyzeButtonElement.removeAttr('disabled').on('click', analyzeButton);
             $('button.clear').removeAttr('disabled').on('click', clearButton);
             $('button.test').removeAttr('disabled').on('click', exampleTextButton);

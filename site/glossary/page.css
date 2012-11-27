@@ -173,10 +173,6 @@ table.glossary td, table.glossary th {
     padding: .25em .5em;
 }
 
-table.glossary .output {
-    min-height: 12em;
-}
-
 table.glossary tr:hover .canon,
 table.glossary tr:hover .noncanon { background: rgba(0, 0, 0, .2); }
 table.glossary .canon:hover,

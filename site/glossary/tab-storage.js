@@ -1,5 +1,6 @@
 /*file: tab-storage */
 /*global $, localStorage, Blob, FileReader */
+/*jslint browser: true */
 
 (function (window) {
     'use strict';
@@ -57,9 +58,9 @@
                 tag('td', tag('pre', value)));
         });
         // join tableRows into string with HTML table, write that to DOM
-        $('.storage table').empty().html(tag('table',
+        $('.storage table').empty().html(
             tag('thead', tag('tr', tag('th', 'Key') + tag('th', 'Value'))) +
-            tag('tbody', tableRows.join(''))));
+            tag('tbody', tableRows.join('')));
         // attach event to the 'delete' buttons in the new table
         $('.storage table button').on('click', function () {
             var buttonElement = $(this),
