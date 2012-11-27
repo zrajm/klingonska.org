@@ -37,27 +37,29 @@ exclude-ignores = $(foreach file,$1,$(if \
 # These files are not processed, but included as-is in the published site.
 copied_targets = \
     $(patsubst $(source_dir)/%,$(publish_dir)/%, \
-        $(call exclude-ignores,$(shell find "$(source_dir)" -type f \
-            -name '*.cgi'  -or \
-            -name '*.css'  -or \
-            -name '*.gif'  -or \
-            -name '*.html' -or \
-            -name '*.jpg'  -or \
-            -name '*.ico'  -or \
-            -name '*.js'   -or \
-            -name '*.ly'   -or \
-            -name '*.midi' -or \
-            -name '*.mp3'  -or \
-            -name '*.mp4'  -or \
-            -name '*.ogg'  -or \
-            -name '*.pdf'  -or \
-            -name '*.png'  -or \
-            -name '*.ps'   -or \
-            -name '*.svg'  -or \
-            -name '*.swf'  -or \
-            -name '*.txt'  -or \
-            -name '*.zdb'  -or \
-            -name '*.zip'      \
+        $(call exclude-ignores,$(shell \
+            find "$(source_dir)" -not -path '*/.*' -type f '(' \
+                -name '*.cgi'  -or \
+                -name '*.css'  -or \
+                -name '*.gif'  -or \
+                -name '*.html' -or \
+                -name '*.jpg'  -or \
+                -name '*.ico'  -or \
+                -name '*.js'   -or \
+                -name '*.ly'   -or \
+                -name '*.midi' -or \
+                -name '*.mp3'  -or \
+                -name '*.mp4'  -or \
+                -name '*.ogg'  -or \
+                -name '*.pdf'  -or \
+                -name '*.png'  -or \
+                -name '*.ps'   -or \
+                -name '*.svg'  -or \
+                -name '*.swf'  -or \
+                -name '*.txt'  -or \
+                -name '*.zdb'  -or \
+                -name '*.zip'      \
+            ')' \
     )))
 
 # Each of these results in one published HTML file.
@@ -148,7 +150,7 @@ auto: site
 	fi;                                      \
 	inotifywait                              \
 	    --event=CLOSE_WRITE                  \
-	    --exclude='/[.#][^/]*$$'             \
+	    --exclude='(/\.|[#~]$$)'             \
 	    --monitor                            \
 	    --quiet                              \
 	    --recursive $(source_dir)            \
