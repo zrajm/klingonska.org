@@ -100,17 +100,19 @@ header {
     font-family: sans-serif;
     margin: 0;
     width: 100%;
-    a, a:link, a:visited, a:hover, a:active {
-        color: #000;
-        text-decoration: none;
-    }
-    a:hover {
-        background: #b33;                /* red, page background */
-        -moz-text-shadow:    0 0 8px #fff;
-        -ms-text-shadow:     0 0 8px #fff;
-        -o-text-shadow:      0 0 8px #fff;
-        -webkit-text-shadow: 0 0 8px #fff;
-        text-shadow:         0 0 8px #fff;
+    [itemprop="breadcrumb"] {
+        a, a:link, a:visited, a:hover, a:active {
+            color: #000;
+            text-decoration: none;
+        }
+        a:hover {
+            background: #b33;                /* red, page background */
+            -moz-text-shadow:    0 0 8px #fff;
+            -ms-text-shadow:     0 0 8px #fff;
+            -o-text-shadow:      0 0 8px #fff;
+            -webkit-text-shadow: 0 0 8px #fff;
+            text-shadow:         0 0 8px #fff;
+        }
     }
     /* breadcrumbs & update date */
     > ul {
@@ -409,6 +411,5 @@ footer {
            font-size: small;
        }
 } /* <footer> */
-
 
 /* eof */

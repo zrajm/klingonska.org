@@ -1514,7 +1514,8 @@ optimization."
     just 19.
 ** TODO "Klingon Pocket Dictionary"
 *** Web page
-**** TODO Should use the same tab row as the glossary extractor
+**** DONE Should use the same tab row as the glossary extractor
+     CLOSED: [2012-11-28 Wed 02:40]
 **** DONE BUGFIX: Online pocket dictionary show parts of dict.zdb postamble
      CLOSED: [2012-11-02 Fri 17:54]
      This breakage occured since I've made changes in the section names in

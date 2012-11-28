@@ -1,0 +1,56 @@
+/* -*- css -*- */
+
+header.tabbed {
+    div {
+        padding-bottom: 0;
+        position: relative;     /* needed by 'position: absolute' in child */
+        select {                /* language selector (in e.g. /glossary/) */
+            position: absolute; /* needs 'position: relative' in parent */
+            right: .75em;
+            top: .75em;
+        }
+    }
+    nav.pagetabs {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 80%;
+        margin: .75em 0 0 0;
+        padding: 0;
+        position: relative; /* needed by 'z-index' */
+        z-index: 20;        /* tab row on top of KA logo */
+        /* remove link decorations */
+        a {
+            text-decoration: inherit;
+            color: inherit;
+        }
+        ul {
+            display: block;
+            margin: 0;
+            text-align: center;
+            padding: 0;
+            overflow: hidden; /* avoids lower edge sticking out 1px (Chrome 22) */
+        }
+        li {
+            background: #aaa;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border: solid #922;
+            border-width: 1px 1px 0;
+            cursor: pointer;
+            display: inline-block;
+            margin: 0;
+            padding: .25em .75em .125em;
+        }
+        li:hover {
+            background: #ccc;
+            color: #444;
+        }
+        li.selected {
+            background: #fff;
+            color: #000;
+            cursor: default;
+        }
+    }
+}
+
+/* eof */

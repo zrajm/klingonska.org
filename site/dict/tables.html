@@ -10,12 +10,11 @@
   <meta name=viewport content="width=device-width">
   <link rel=stylesheet href="../includes/base.css">
   <link rel=stylesheet href="../includes/dict.css">
-
+  <link rel=stylesheet href="../includes/pagetabs.css">
   <link rel=stylesheet href="../includes/dict-layouttable.css">
   <link rel=stylesheet href="../includes/dict-prefixtable.css">
   <link rel=stylesheet href="../includes/dict-reftable.css">
   <link rel=stylesheet href="../includes/dict-suffix-overview.css">
-
   <link rel=icon href="/favicon.ico">
   <link rel=canonical href="http://klingonska.org/dict/tables.html">
   <script src="../includes/modernizr-2.5.3.js"></script>
@@ -51,7 +50,7 @@
 </head>
 <body lang=en itemscope itemtype="http://schema.org/WebPage">
 
-<header role=banner>
+<header role=banner class=tabbed>
   <!-- begin:status -->
   <ul>
     <li>
@@ -79,18 +78,19 @@
         </td>
       </table>
     </a>
+    <nav class=pagetabs>
+      <ul role=navigation>
+        <li><a href="about.html">About</a></li>
+        <li><a href="intro.html">Introduction</a></li>
+        <li><a href="./">Lexicon</a></li>
+        <li><a href="suffix.html">Suffix Guide</a></li>
+        <li class=selected>Reference Tables</li>
+      </ul>
+    </nav>
   </div>
 </header>
 
-<article role=main itemprop=mainContentOfPage>
-  <nav role=navigation class=tabs>
-    <td><a href="about.html">About</a></td>
-    <a href="intro.html">Introduction</a>
-    <a href="./">Lexicon</a>
-    <a href="suffix.html">Suffix Guide</a>
-    <span>Reference Tables</span>
-  </nav>
-
+<article role=main itemprop=mainContentOfPage style="padding-top:1px">
 <h1>Klingon Pocket Dictionary: Reference Tables</h1>
 
 <aside class=note>Reference tables from the cover of the book.</aside>

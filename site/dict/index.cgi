@@ -299,6 +299,7 @@ return <<"EOF";
   <meta name=viewport content="width=device-width">
   <link rel=stylesheet href="../includes/base.css">
   <link rel=stylesheet href="../includes/dict.css">
+  <link rel=stylesheet href="../includes/pagetabs.css">
   <link rel=icon href="/favicon.ico">
   <link rel=canonical href="http://klingonska.org/dict/">
   <script src="../includes/modernizr-2.5.3.js"></script>
@@ -314,7 +315,7 @@ return <<"EOF";
 </head>
 <body lang=en itemscope itemtype="http://schema.org/WebPage">
 
-<header role=banner>
+<header role=banner class=tabbed>
   <!-- begin:status -->
   <ul>
     <li>
@@ -341,19 +342,19 @@ return <<"EOF";
         </td>
       </table>
     </a>
+    <nav class=pagetabs>
+      <ul role=navigation>
+        <li><a href="about.html">About</a></li>
+        <li><a href="intro.html">Introduction</a></li>
+        <li class=selected>Lexicon</li>
+        <li><a href="suffix.html">Suffix Guide</a></li>
+        <li><a href="tables.html">Reference Tables</a></li>
+      </ul>
+    </nav>
   </div>
 </header>
 
-<article role=main itemprop=mainContentOfPage>
-
-  <nav role=navigation class=tabs>
-    <a href="about.html">About</a>
-    <a href="intro.html">Introduction</a>
-    <span>Lexicon</span>
-    <a href="suffix.html">Suffix Guide</a>
-    <a href="tables.html">Reference Tables</a>
-  </nav>
-
+<article role=main itemprop=mainContentOfPage style="padding-top:1px">
 <h1>Klingon Pocket Dictionary</h1>
 
 <aside class=note>Some info + searchable version of the pocket dictionary database.</aside>
