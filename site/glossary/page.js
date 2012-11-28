@@ -267,6 +267,8 @@ function errorMsg(str) {
                 statusElement: $('section.input .state')
             });
 
+        $('#noscript').remove(); // remove non-javascript warning
+
         function statsMsg(unknown, total, text) {
             var known = Math.round(((total - unknown) / total) * 1000) / 10;
             return unknown + ' unknown (of ' + total + ') – ' + known +
