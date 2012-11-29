@@ -1,5 +1,6 @@
 /*file: page */
-/*global $, makeTagged, makeGlossary, makeDictionary, makeRules, makeInputText */
+/*global $, makeTagged, makeGlossary, makeDictionary, makeRules, makeInputText,
+  initFlashcards, sorttable */
 /*jslint browser: true, regexp: true */
 
 // Return a HTML tag.
@@ -323,6 +324,8 @@ function errorMsg(str) {
             glossary = makeGlossary({ dict: dict, name: 'glossary'   });
             known    = makeGlossary({ dict: dict, name: 'knownWords' });
             tmpStatus('<a href="../dict/dict.zdb">Dictionary</a> loaded.');
+
+            initFlashcards({ glossary: glossary, known: known });
 
             // on page tab click
             $('#tab-row .input').on('click', function () {

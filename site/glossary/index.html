@@ -188,36 +188,25 @@
       </section>
 
       <section class="practice hidden">
+        <span class=remaincount>0</span> words remaining
         <table width=100%>
           <tbody>
-            <tr><td class=question>
-                <b lang=tlh>bach</b>
-            </td></tr>
-            <tr><td class=answer>
-                <i>shoot (v)<br>
-                  shot (n)</i>
-            </td></tr>
+            <tr><td class=question></td></tr>
+            <tr><td class=answer></td></tr>
           </tbody>
           <tfoot>
-            <tr><td class=buttons>
-                <button class=a title="Show again (key: 0 or Esc)">Again</button>
-                <button class=b title="I recognized this word (key: 1 or ↲)">Good</button>
-                <button class=c title="I know this word well (key: 3)">Easy</button>
-                <button class=d title="Move word to list of known words (key: 4)">Known</button>
+            <tr><td class="show hidden">
+                <button class=show title="(key: space or ↲)">Show Answer</button>
+            </td></tr>
+            <tr><td class="reply hidden">
+                <button class=again title="Show again (key: 0 or Esc)">Again</button>
+                <button class=good title="I recognized this word (key: 1 or ↲)">Good</button>
+                <button class=easy title="I know this word well (key: 3)">Easy</button>
+                <button class=known title="Move word to list of known words (key: 4)">Known</button>
             </td></tr>
           </tfoot>
         </table>
-        <!--button style="background:#da8;color:#540;border: outset #fca;" >Maybe</button-->
-        <!--button style="background:#ad8;color:#350;border: outset #cfa;" title=2>Easy</button-->
-        <!--button style="background:#8f8;color:#070;border: outset #afa;">Known</button-->
-        <div style="color: #666">
-          <label title="Determines the number of buttons above.">Loop: <input style="width:1.5em" value=13></label>
-          &nbsp;
-          Repeats:
-          <label>tlh⇒en <input style="width:1em" value=3></label>
-          &nbsp;
-          <label>en⇒tlh <input style="width:1em" value=3></label>
-        </div>
+        <table class=glossary></table>
       </section>
 
       <section class="known hidden">
@@ -326,6 +315,7 @@
     <script src="makerules.js"></script>
     <script src="makeglossary.js"></script>
     <script src="setlang.js"></script>
+    <script src="flashcards.js"></script>
     <script src="page.js"></script>
     <script src="tab-storage.js"></script>
     <script src="pagetabs.js"></script><!-- load pagetabs last -->
