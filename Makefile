@@ -109,6 +109,10 @@ all_targets = $(copied_targets) $(jslib_targets) $(css_targets) $(html_targets)
 ##                                                                           ##
 ###############################################################################
 
+# Erase outputted file if rule fails.
+# (If this is not done, then failed outputs will not be rebuild next time.)
+.DELETE_ON_ERROR:
+
 ## site - build web site
 .PHONY: site css html js
 site: $(all_targets)
