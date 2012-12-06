@@ -162,6 +162,9 @@
         $('.storage input[type="file"]').trigger('click');
     });
     $('input', pageElement).on('change', uploadStorage);
+    $('button.clear', pageElement).on('click', function () {
+        localStorage.clear();
+    });
 
     $(function () {
         window.URL = window.URL || window.webkitURL;
