@@ -931,11 +931,14 @@ optimization."
      CLOSED: [2012-11-16 Fri 02:07]
      Text and glossary list should have a line where the number of words,
      verbs, nouns etc are listed.
-*** [10%] "Practice" tab
+*** [38%] "Practice" tab
     Stack: Entries selected from start or end. Deck: Entries selected randomly.
-**** [0%] Handle homonyms correctly
+**** [0%] Handle synonyms & homonyms
      Question always display part-of-speech. Answer may contain multiple
      translations (in case of Klingon homonyms, e.g. {baQ}).
+***** TODO Handling of Klingon synonyms
+      When there are two Klingon words with same meaning (like {'a} and {'ach})
+      should they both be displayed in answer?
 ***** TODO Only one homonym should exist in deck
       If a word exists in glossary with multiple translations, then only one of
       them should be included in the deck.
@@ -963,19 +966,26 @@ optimization."
      picking up the words.
 **** TODO Config
      tlhEnCount and enTlhCount should be settable and loaded/saved.
-**** [0%] Bare minimum of usable flashcard functionality
-***** TODO Finish words
+**** DONE Displaying of homonyms in answer
+     CLOSED: [2012-12-20 Thu 07:52]
+**** [100%] Bare minimum of usable flashcard functionality
+***** DONE Finish words
+      CLOSED: [2012-12-20 Thu 07:53]
       Word points above tlhEnCount + enTlhCount should move question to Known
       Words, and add new word.
-***** TODO Ask questions in English-Klingon direction
+***** DONE Ask questions in English-Klingon direction
+      CLOSED: [2012-12-19 Wed 19:35]
       Word points above tlhEnCount should ask question in English--Klingon
       direction.
-**** TODO Focus default buttons for answers
+**** DONE Focus default buttons for answers
+     CLOSED: [2012-12-18 Tue 18:51]
      I.e. "Show Answer" and "Got It" should be focused, so that user only have
      to press enter, in order to select those choices.
-**** TODO Flashcard typographical apostrophes
+**** DONE Flashcard typographical apostrophes
+     CLOSED: [2012-12-18 Tue 18:44]
      Currently straight apostrophes are used. Change that.
-**** TODO Abbreviate PoS in answer
+**** DONE Abbreviate PoS in answer
+     CLOSED: [2012-12-18 Tue 18:44]
 **** DONE Any flashcard functionality
      CLOSED: [2012-11-29 Thu 19:27]
      Just seeing something that works.

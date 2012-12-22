@@ -43,14 +43,16 @@
       </select>
       <a href="../">
         <table id=logotitle>
-          <td>
-            <span class=crop>
-              <img height=200 width=200 src="../pic/ka-logo.svg" alt="Klingonska Akademien">
-            </span>
-          </td>
-          <td>
-            <h1>Klingonska<span id=logospace>&nbsp;</span>Akademien</h1>
-          </td>
+          <tr>
+            <td>
+              <span class=crop>
+                <img height=200 width=200 src="../pic/ka-logo.svg" alt="Klingonska Akademien">
+              </span>
+            </td>
+            <td>
+              <h1>Klingonska<span id=logospace>&nbsp;</span>Akademien</h1>
+            </td>
+          </tr>
         </table>
       </a>
       <nav class=pagetabs>
@@ -194,25 +196,55 @@
       </section>
 
       <section class="practice hidden">
-        <span class=remaincount>0</span> words remaining
         <table width=100%>
+          <thead>
+            <tr>
+              <td style="padding:0;padding-bottom:.25em">
+                <div style="display:inline-block;width:100%">
+                  <span class="hidden totalcount">0</span>
+                  <div style="float:right"><span class=remaincount>0</span></div>
+                  <div style="float:left"><span class=donecount>0</span></div>
+                </div>
+                <progress style="width:100%;" class=total></progress>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:0;border:0;padding-bottom:.25em;">
+              </td>
+            </tr>
+          </thead>
           <tbody>
-            <tr><td class=question></td></tr>
+            <tr><td style="border-bottom:0" class=question></td></tr>
+            <tr class='advanced hidden'>
+              <td style="border-top:0;text-align:right">
+                <div style="margin:0;float:right;opacity:.5;line-height:100%">
+                  <span class=point>0</span> / <span class=maxpoint>0</span>
+                  <progress class=point style="margin:.25em 0;"></progress>
+                </div>
+                <div style="margin:0;float:left;opacity:.5;line-height:100%">
+                  Occurrences: <span class=occur>0</span>
+                </div>
+              </td>
+            </tr>
             <tr><td class=answer></td></tr>
           </tbody>
           <tfoot>
-            <tr><td class="show hidden">
-                <button class=show title="(key: space or ↲)">Show Answer</button>
-            </td></tr>
-            <tr><td class="reply hidden">
-                <button class=again title="Show again (key: 0 or Esc)">Again</button>
-                <button class=good title="I recognized this word (key: 1 or ↲)">Good</button>
-                <button class=easy title="I know this word well (key: 3)">Easy</button>
-                <button class=known title="Move word to list of known words (key: 4)">Known</button>
-            </td></tr>
+            <tr>
+              <td class="show hidden"><button class=show>Show Answer</button></td>
+            </tr>
+            <tr>
+              <td class="reply hidden">
+                <button class=fail>Failed</button>
+                <button class=hard>Got It</button>
+                <button class=easy>Too Easy</button>
+                <button class=known>Known</button>
+              </td>
+            </tr>
+            <tr><td class="help hidden"></td></tr>
           </tfoot>
         </table>
-        <table class=glossary></table>
+        <label><input type=checkbox class=more> Show more</label>
+        <table class="advanced glossary hidden"></table>
       </section>
 
       <section class="known hidden">
@@ -335,6 +367,7 @@
     <script src="../includes/jquery-1.7.1.js"></script>
     <script src="compatibility.js"></script>
     <script src="makeinputtext.js"></script>
+    <script src="makestore.js"></script>
     <script src="maketagged.js"></script>
     <script src="makedictionary.js"></script>
     <script src="makerules.js"></script>

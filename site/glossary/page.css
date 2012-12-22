@@ -63,10 +63,31 @@ section {
 **                                                                            **
 \******************************************************************************/
 
+section.practice progress {
+    background: #ddd;
+    border: 1px inset #fff;
+    box-sizing: border-box;
+    display: block;
+    height: .5em;
+}
+section.practice progress::-webkit-progress-bar-value { background: #b33; }
+section.practice progress::-webkit-progress-value { background: #b33; }
+section.practice progress::-moz-progress-bar { background: #b33; }
+
 section.practice table,
 section.practice table tfoot,
-section.practice table tfoot td {
+section.practice table tfoot td,
+section.practice table thead,
+section.practice table thead td {
     border: 0;
+}
+
+section.practice td.help {
+    background: #ddd;
+    border: 2px inset #ddd;
+    margin: 0;
+    padding: .25em .5em;
+    text-align: left;
 }
 
 section.practice table {
@@ -76,10 +97,15 @@ section.practice table {
 
 section.practice .question,
 section.practice .answer {
-    font-size: 250%;
+    font-size: 150%;
     height: 200px;
     line-height: 125%;
     vertical-align: middle;
+}
+/* homonymous translations use this */
+section.practice table ol {
+    text-align: left;
+    margin-bottom: 0;
 }
 
 section.practice .buttons {
@@ -101,14 +127,14 @@ section.practice button {
 section.practice button.show {
     width: 15em;
 }
-section.practice button.again:active { border: inset #faa; }
-section.practice button.again {
+section.practice button.fail:active { border: inset #faa; }
+section.practice button.fail {
     background: #f88;
     color: #800;
     border: outset #faa;
 }
-section.practice button.good:active { border: inset #eea; }
-section.practice button.good {
+section.practice button.hard:active { border: inset #eea; }
+section.practice button.hard {
     background: #cc8;
     color: #440;
     border: outset #eea;

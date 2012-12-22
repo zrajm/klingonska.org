@@ -323,7 +323,7 @@ function errorMsg(str) {
             known    = makeGlossary({ dict: dict, name: 'knownWords' });
             tmpStatus('<a href="../dict/dict.zdb">Dictionary</a> loaded.');
 
-            initFlashcards({ glossary: glossary, known: known });
+            initFlashcards({ glossary: glossary, known: known, dict: dict });
 
             // on page tab click
             $('#tab-row .input').on('click', function () {
@@ -352,6 +352,13 @@ function errorMsg(str) {
             analyzeButtonElement.removeAttr('disabled').on('click', analyzeButton);
             $('button.clear').removeAttr('disabled').on('click', clearButton);
             $('button.test').removeAttr('disabled').on('click', exampleTextButton);
+            $('input.more').on('click', function () {
+                if ($(this).prop('checked')) {
+                    $('.advanced').removeClass('hidden');
+                } else {
+                    $('.advanced').addClass('hidden');
+                }
+            });
             $('#tab-row .selected').trigger('click');
         }
 
