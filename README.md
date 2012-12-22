@@ -10,6 +10,10 @@ Klingon](http://klingonska.org/songs/) etc.
 
 Currently Happening
 -------------------
+December 22, 2012: The Klingon Glossary Extractor & Flashcards page is now up
+and running (if still somewhat rough around the edges). Feedback is greatly
+appreciated (use [email][webmaster], or [GitHub Issue Tracking][issue]).
+
 November 15, 2012: Building a new learning tool for beginners. The tool,
 preliminarily called [Klingon Glossary Extractor][glossary], can be used to
 automatically analyze any Klingon text and extract a glossary from it. It also
@@ -39,7 +43,7 @@ Don't worry, we are not about to remove any content.
 [piqad]: http://klingonska.org/piqad/ "**pIqaD**, And How to Read It"
 [songs]: http://klingonska.org/songs/ "Songs in Klingon"
 [glossary]: http://klingonska.org/glossary/ "Klingon Glossary Extractor"
-
+[webmaster]: mailto:webmaster@klingonska.org "Klingonska webmaster email"
 
 Feedback
 --------
