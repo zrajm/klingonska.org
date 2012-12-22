@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    207a4dcce622064c644b495c53c359b0eb01e348
+SHA1:    6c2631a1518b69a84c5b5332977c2988014c073d
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -14772,8 +14772,9 @@ file:	2009-07-27-email.txt
 
 tlh:	{qaH}
 pos:	noun
-sv:	«herr», «sir» (används endast i tilltal)
-en:	<sir> (used only in direct address)
+sv:	«herr», «sir»
+en:	<sir>
+desc:	only used in direct address [KGT p.198]
 def:	TKD
 com:	"The word {qaH} is interesting because it is never heard except in
 	direct address. Thus, while one might say {yoH qor HoD} ('Captain Kor
