@@ -179,9 +179,16 @@ function makeDictionary(url, onLoadCallback) {
                 result = dict[num < 0 ? dict.length + num : num];
                 return result ? [ result ] : [];
             }
-            if (pos && tlh) { return index.pos[pos].tlh[tlh]['']; }
-            if (pos) { return index.pos[pos]['']; }
-            if (tlh) { return index.tlh[tlh]['']; }
+            if (pos) {
+                if (posAbbrev[pos]) { pos = posAbbrev[pos]; }
+                if (tlh) {
+                    return index.pos[pos].tlh[tlh][''];
+                } else {
+                    return index.pos[pos][''];
+                }
+            } else if (tlh) {
+                return index.tlh[tlh][''];
+            }
             return dict;
         } catch (error) {
             return [];
