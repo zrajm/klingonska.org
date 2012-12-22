@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    6f5d4ef3fa85fd34b7d438852fa10d11f47617c4
+SHA1:    207a4dcce622064c644b495c53c359b0eb01e348
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -4443,8 +4443,8 @@ file:	2002-06-holqed-11-2.txt
 
 tlh:	{ghap}
 pos:	conjunction
-sv:	«eller», antingen eller (kommer efter förenade substantiv)
-en:	<or>, either/or (follows joined nouns)
+sv:	«eller», antingen eller
+en:	<or>, either/or
 desc:	{Dargh qa'vIn ghap} ~tea or coffee (but not both)~; follows two or more
 	nouns [TKD 5.3 (p.55)]
 def:	TKD 5.3 (p.55)
@@ -7255,7 +7255,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{je}
 pos:	conjunction
-sv:	«också», «och» (kommer efter verb/förenade substantiv)
+sv:	«också», «och»
 en:	<also>, <and>, «too»
 desc:	{qamuS je} ~I also hate you~; {bomwI' mI'wI' je} ~singer and dancer~;
 	follows verb or two or more nouns [TKD 5.3 (p.55)]
@@ -7821,7 +7821,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	[2] {joq}
 pos:	conjunction
-sv:	«eller», och/eller (kommer efter förenade substantiv)
+sv:	«eller», och/eller
 en:	<or>, and/or
 desc:	{Ha'DIbaH naH joq} ~meat or vegetables (or both)~; follows two or more
 	nouns [TKD 5.3 (p.55)]
@@ -13234,9 +13234,9 @@ file:	1992-01-01-tkd.txt; 2001-12-holqed-10-4.txt
 
 tlh:	[1] {pagh}
 pos:	conjunction
-sv:	«eller», antingen eller (kommer mellan förenade meningar)
+sv:	«eller», antingen eller
 en:	<or>, either/or
-desc:	comes between joined sentences
+desc:	comes between sentences [TKD 5.3 (p.55)]
 def:	TKD 5.3 (p.55)
 id:	f6X
 file:	1992-01-01-tkd.txt
@@ -15722,9 +15722,9 @@ file:	1992-01-01-tkd.txt
 
 tlh:	[1] {qoj}
 pos:	conjunction
-sv:	«eller», och/eller (kommer mellan förenade meningar)
+sv:	«eller», och/eller
 en:	<or>, and/or
-desc:	comes between joined sentences
+desc:	comes between sentences [TKD 5.3 (p.55)]
 def:	TKD 5.3 (p.55)
 ref:	TKW p.139
 id:	C9p
@@ -24706,6 +24706,7 @@ tlh:	{'a}
 pos:	conjunction
 sv:	«men», «ändå», «dock», «trots allt», «emellertid»
 en:	<but>, <nevertheless>, <even so>, <however>
+desc:	comes between sentences [TKD 5.3 (p.55)]
 def:	TKD
 id:	88V
 file:	1992-01-01-tkd.txt
@@ -24734,6 +24735,7 @@ tlh:	{'ach}
 pos:	conjunction
 sv:	«men», «ändå», «dock», «trots allt», «emellertid»
 en:	<but>, <nevertheless>, <even so>, <however>
+desc:	comes between sentences [TKD 5.3 (p.55)]
 def:	TKD
 ref:	TKW pp.59, 186
 id:	kA3
@@ -25080,9 +25082,9 @@ file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
 tlh:	{'ej}
 pos:	conjunction
-sv:	«och» (kommer mellan förenade meningar)
+sv:	«och»
 en:	<and>
-desc:	comes between joined sentences
+desc:	comes between sentences [TKD 5.3 (p.55)]
 def:	TKD 5.3 (p.55)
 ref:	TKW pp.5, 8, 13, 101, 197, 211
 id:	wFv
