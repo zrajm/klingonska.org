@@ -112,6 +112,22 @@ optimization."
 *** DONE Redirect 2040.klingonska.org -> 2040.zrajm.org
     CLOSED: [2010-09-08 Wed 20:48]
 * Site design annoyances+fixes
+** TODO Cleanup page logo outline
+   Text shadow on the "Klingonska Akademien" text have gaps. CSS property
+   'text-stroke' is supported by Chrome, and should be used (with the current
+   'text-shadow' used as fallback).
+
+   How to do this:
+   http://css-tricks.com/adding-stroke-to-web-text/
+
+   Browser support table:
+   http://caniuse.com/text-stroke
+
+   'filter' property could apparently be used to get it flying in Internet
+   Explorer. This question on stackoverflow have a CSS for that (which uses the
+   html5boilerplate html classes):
+
+   http://stackoverflow.com/questions/4919076/outline-effect-to-text
 ** TODO Cleanup breadcrumbs
    Some breadcrums use '&#8250;' other use '&gt;' should prolly just '&gt;' (it
    doesn't look all that much worse, and is guaranteed to work with a larger
@@ -155,6 +171,14 @@ optimization."
 ** TODO Systematic/site-wide changes
    I.e. changes that need to be applied to the web page as a whole.
 *** TODO Site redesign
+**** TODO Add Open Graph tags for link previews (for Facebook etc.)
+     More docs on the Open Graph protocol:
+     https://developers.facebook.com/docs/opengraphprotocol/
+
+     To make Facebook reload link previews, use:
+     https://developers.facebook.com/tools/debug
+
+     Have already added Open Graph to Glossary page, so see examples there.
 **** DONE Design new look (more modern looking, but still simple)
      CLOSED: [2012-06-09 Sat 11:21]
      This should fix:
@@ -743,7 +767,10 @@ optimization."
 ** TODO Search engine optimizations
 ** "Glossary" page
 *** [0%] General
-**** [100%] Code fixes
+**** TODO Better placement of no-javascript warning
+     Many webpages seem to have this at the very top of the page, and maybe
+     unscrollable?
+**** [66%] Code fixes
 ***** TODO Each tab should have its own script file
       Which would then require that page.js declare everything relevant to this in
       a global scope.
@@ -787,7 +814,11 @@ optimization."
       CLOSED: [2012-11-16 Fri 02:02]
 ***** DONE Move separate git repo into main one
       CLOSED: [2012-11-16 Fri 02:02]
-**** [16%] User interface
+**** [25%] User interface
+***** TODO Multiple select for "Glossary" + "Known Words" tables
+      Should allow for selecting multiple entries with using shift. (I.e. click
+      one entry, then shift-click another entry to select those two entries,
+      and all entries between them.)
 ***** TODO Browser 'back' / 'forward' should work
       I.e. when switching between tabs, the new page should be added to the
       page history, and 'back' should bring one back to the previous tab.
@@ -801,6 +832,8 @@ optimization."
 ***** TODO Fix translations of stats in "Glossary" & "Known" pages
       There's text outputted by script here. Change that so that all but the
       numbers are in HTML.
+***** DONE Open Graph tags (used by Facebook link preview)
+      CLOSED: [2012-12-22 Sat 02:24]
 ***** DONE Paragraphs should be separated by blank lines
       CLOSED: [2012-11-16 Fri 03:19]
       And not use indented first lines.
@@ -834,13 +867,7 @@ optimization."
 ******* wa'Hu' .. wa'maHHu' (for number not in dictionary)
 ******* cha'leS .. HutleS (for number not in dictionary)
 ******* test on lots of canon text
-*** [60%] "Klingon Text" tab
-**** DONE Rename tab "Klingon Text" -> "Input"
-     CLOSED: [2012-11-25 Sun 10:25]
-**** DONE Save number of words in text to localStorage
-     CLOSED: [2012-11-29 Thu 19:26]
-**** DONE Form buttons disabled on startup until all data is loaded
-     CLOSED: [2012-11-25 Sun 10:25]
+*** [60%] "Input" tab
 **** TODO Hover over word in input field should highlight all w/ same root
      If the word "bachwI'" is hovered on, then all words with that same root
      should be highlighted. ("bach", "bachqu'" etc.)
@@ -864,6 +891,12 @@ optimization."
 **** TODO Placeholder text in text input field
      Should explains what to do (placeholder should be shown only if 'div' is
      empty, but even if selected.
+**** DONE Rename tab "Klingon Text" -> "Input"
+     CLOSED: [2012-11-25 Sun 10:25]
+**** DONE Save number of words in text to localStorage
+     CLOSED: [2012-11-29 Thu 19:26]
+**** DONE Form buttons disabled on startup until all data is loaded
+     CLOSED: [2012-11-25 Sun 10:25]
 **** DONE Analyze button should cause immediate save
      CLOSED: [2012-11-29 Thu 19:26]
      Instead of waiting the usual 3 seconds.
@@ -876,6 +909,14 @@ optimization."
 **** DONE Clear button should clear glossary as well
      CLOSED: [2012-11-14 Wed 03:53]
 *** [71%] "Glossary" tab
+**** TODO Button for hiding/showing crossed out words
+     There should be a selector, with which one can show/hide the words that are
+     known. (If shown, they should be crossed out.)
+
+     Words should not dissapear as one crosses them out, instead one should
+     press the button again do remove the newly crossed out words.
+**** TODO Add affixes to the glossary list                            :LATER:
+     The affixes found should also be included in the glossary. Low priority.
 **** DONE Word frequency counts in glossary table
      CLOSED: [2012-11-24 Sat 20:17]
 **** DONE makeGlossary() auto load/save
@@ -886,35 +927,58 @@ optimization."
      But dictionary entry IDs.
 **** DONE makeGlossary() returned entries should include 'count:'
      CLOSED: [2012-11-25 Sun 10:25]
-**** TODO Button for hiding/showing crossed out words
-     There should be a selector, with which one can show/hide the words that are
-     known. (If shown, they should be crossed out.)
-
-     Words should not dissapear as one crosses them out, instead one should
-     press the button again do remove the newly crossed out words.
-**** TODO Add affixes to the glossary list                            :LATER:
-     The affixes found should also be included in the glossary. Low priority.
 **** DONE Display some stats on analyzed text
      CLOSED: [2012-11-16 Fri 02:07]
      Text and glossary list should have a line where the number of words,
      verbs, nouns etc are listed.
-*** [20%] "Practice" tab
+*** [10%] "Practice" tab
     Stack: Entries selected from start or end. Deck: Entries selected randomly.
-**** DONE Any flashcard functionality
-     CLOSED: [2012-11-29 Thu 19:27]
-     Just seeing something that works.
-**** TODO Bare minimum of usable flashcard functionality
-     Move flashcards between diffent decks, move flashcard to "Known Words"
-     when user has been able to show that he/she knows the word.
-**** TODO Loop deck
-     Cycle through the loop deck, instead of the entire glossary when
-     Practicing new words. This way the user's memory have a better chance of
-     picking up the words.
-**** TODO Weighted random choice in loop
+**** [0%] Handle homonyms correctly
+     Question always display part-of-speech. Answer may contain multiple
+     translations (in case of Klingon homonyms, e.g. {baQ}).
+***** TODO Only one homonym should exist in deck
+      If a word exists in glossary with multiple translations, then only one of
+      them should be included in the deck.
+***** TODO When user answers on homonym, all words should get points
+      When user responds to a word with multiple translations, then this
+      response should be registered in all translations.
+***** TODO Only words in glossary should be included in answer
+      Only the translations included in glossary should be included. If a word
+      is a homonym, but not all translations are included in the glossary, then
+      only those translations that *are* present in glossary should be
+      displayed.
+**** TODO Progress bar for "Known Words" and "Glossary"
 **** TODO Non-repeat stack
      Having a small intermediate stack used to make sure that when randomly
      selecting words, the last X number of words are not repeated. (E.g. the
      one word should not occur twice in a row, or be repeated very soon.)
+**** TODO Help function
+     Put a 'Help' link in top right (?) corner. It should display a text
+     explaining the functioning of the various buttons and algorithms in more
+     detail.
+**** TODO Weighted random choice in loop
+**** TODO Loop deck
+     Cycle through the loop deck, instead of the entire glossary when
+     Practicing new words. This way the user's memory have a better chance of
+     picking up the words.
+**** TODO Config
+     tlhEnCount and enTlhCount should be settable and loaded/saved.
+**** [0%] Bare minimum of usable flashcard functionality
+***** TODO Finish words
+      Word points above tlhEnCount + enTlhCount should move question to Known
+      Words, and add new word.
+***** TODO Ask questions in English-Klingon direction
+      Word points above tlhEnCount should ask question in English--Klingon
+      direction.
+**** TODO Focus default buttons for answers
+     I.e. "Show Answer" and "Got It" should be focused, so that user only have
+     to press enter, in order to select those choices.
+**** TODO Flashcard typographical apostrophes
+     Currently straight apostrophes are used. Change that.
+**** TODO Abbreviate PoS in answer
+**** DONE Any flashcard functionality
+     CLOSED: [2012-11-29 Thu 19:27]
+     Just seeing something that works.
 *** [62%] "Known Words" tab
 **** TODO Crossing out of words in known list
      Should uncross them on the glossary page. They should remain visible on the
@@ -942,7 +1006,11 @@ optimization."
      Crossed out stuff should automatically appear under “Known Words”, and
      anything under “Known Words” should automatically be crossed out when
      extracting a new glossary.
-*** [100%] "Upload/download" tab
+*** [66%] "Load/Save" tab
+**** TODO Fix error messages in old browsers                            :BUG:
+     (e.g. on Lucia's ThinkPad -- Chrome 6)
+     The error message is repeted several times. "Unfortunately your browser
+     does not support blob urls (required for downloading). :’("
 **** DONE Swedish translation of instructions
      CLOSED: [2012-11-16 Fri 04:13]
 **** DONE Text explaining the "Delete" feature
@@ -2662,6 +2730,19 @@ optimization."
 ** [0%] `bin/check-html-nesting`
 *** TODO Should be able to cope with tags that does not require end tags.
 ** `Makefile`
+*** TODO Build site from last commit
+    A different (?) make target that builds site from the last checked in
+    version of the page (rather than the current workspace version of it).
+
+    `make publish` should rebuild site in this manner (make publish should also
+    require minification), yadda yadda.
+*** TODO Concats of javascript files in dirs
+    A dir called %.js should have all its files concatenated (in alphabetical
+    order) and its content circumfixed with the following, before minification.
+
+        (function () {
+        ...
+        }());
 *** [20%] `make auto`
 **** TODO Should remove file from build dir if source is deleted
     Files deleted in the source directory should also be deleted in the build
