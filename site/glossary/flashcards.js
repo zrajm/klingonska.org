@@ -78,6 +78,14 @@ a new practice session, and initialized using the 'state' object.
         ...
     ];
 
+
+Keybindings
+===========
+Keybindings are only in effect when one of the answer buttons are in focus.
+Having them enabled for the whole document might've been better for the user,
+but then they would have to be unbound/rebound whenever the current tab
+changes.
+
 */
 
 function initFlashcards(opts) {
@@ -87,6 +95,7 @@ function initFlashcards(opts) {
         tlhEnCount = 3,
         enTlhCount = 3,
         dom = {
+            buttonElements: $('section.practice button'),
             questionCell: $('section.practice td.question'),
             answerCell:   $('section.practice td.answer'),
             table:        $('section.practice table.glossary'),
@@ -199,13 +208,36 @@ function initFlashcards(opts) {
         dom.replyCell.addClass('hidden');
     }
 
+    function replyButtonsKey() {
+        // left/right arrow -- move focus left/right
+        // 1 -- Fail
+        // 2 -- Got It
+        // 3 -- Too Easy
+        // 0 -- Known
+        var cur,
+            keys = {
+                37: 'left', 39: 'right', 48: '0', 49: '1', 50: '2', 51: '3'
+            },
+            key = keys[event.which];
+        if (key) {
+            event.preventDefault();
+            if (key === 'left' || key === 'right') { // move focus
+                $('button:focus')[key === 'left' ?  'prev' : 'next']().focus();
+                return;
+            }
+            if (key === '1') { $('button.fail').trigger('click'); }
+            if (key === '2') { $('button.hard').trigger('click'); }
+            if (key === '3') { $('button.easy').trigger('click'); }
+            if (key === '0') { $('button.known').trigger('click'); }
+        }
+    }
+
     function outputQuestion(quesEntry) {
         var id    = quesEntry.id,
             point = store.get(id, 'point') || 0,
             max   = tlhEnCount + enTlhCount,
             pos   = posAbbrev[quesEntry.pos];
-        // show question
-        dom.questionCell.html(
+        dom.questionCell.html(                // show question
             questionHTML(quesEntry, point < enTlhCount ? 'tlh' : 'en') + ' (' +
                 tag('span', pos.en || quesEntry.pos, 'lang=en') +
                 tag('span', pos.sv || quesEntry.pos, 'lang=sv') + ')'
@@ -226,29 +258,24 @@ function initFlashcards(opts) {
     function outputAnswer(quesEntry) {
         var id    = quesEntry.id,
             point = store.get(id, 'point') || 0;
-        dom.answerCell.html(questionHTML(
-            quesEntry,
-            point < enTlhCount ? 'en' : 'tlh'
-        ));
-        dom.showCell.addClass('hidden');
-        dom.replyCell.removeClass('hidden');
+        dom.answerCell.html(                   // show question
+            questionHTML(quesEntry, point < enTlhCount ? 'en' : 'tlh'));
+        dom.showCell.addClass('hidden');       // hide reply buttons
+        dom.replyCell.removeClass('hidden');   // show 'Show Answer'
         $('button.hard', dom.replyCell).trigger('focus');
     }
 
-    function outputHelp(buttonName, bodyText, key) {
-        if (buttonName === undefined) {
-            //dom.helpElement.empty();
+    function outputHelp(bodyText, key) {
+        if (!arguments.length) {
             dom.helpElement.addClass('hidden');
             return;
         }
         dom.helpElement.html(
-            //tag('b', buttonName + ':') + ' ' +
-                bodyText + ' ' +
-                tag('nobr',
-                    '(Key: ' + key.split(' ').map(function (bleh) {
-                        return tag('kbd', bleh);
-                    }).join(' or ') + ')')
-        );
+            bodyText + ' ' + (
+                key ? tag('nobr',
+                    '(Key: ' + key.split(' ').map(function (key) {
+                        return tag('kbd', key);
+                }).join(' or ') + ')') : ''));
         dom.helpElement.removeClass('hidden');
     }
 
@@ -340,6 +367,12 @@ function initFlashcards(opts) {
         questionEntry = newQuestion(deck, opts.dict);
     }
 
+    function buttonFocusout() {
+        var point = store.get(questionEntry.id, 'point') || 0;
+        dom.pointMeter.attr('value', point);   // reset point meter for word
+        dom.pointElement.html(point);
+        outputHelp();                          // clear help text for button
+    }
 
     /*************************************************************************\
     **                                                                       **
@@ -369,59 +402,57 @@ function initFlashcards(opts) {
         questionEntry = newQuestion(deck, opts.dict);
     });
 
-    $('button.show', dom.showCell).on('mouseenter', function () {
-        outputHelp('Show Answer',
+    $('button.show', dom.showCell).on('mouseenter focusin', function () {
+        outputHelp(
             'Picture the answer in your mind, then press <i><b>Show ' +
-                'Answer</b></i> to see if you are right.',
-            'space ↲');
+                'Answer</b></i> to see if you are right.');
     });
-    $('button.fail', dom.replyCell).on('mouseenter', function () {
+    $('button.fail', dom.replyCell).on('mouseenter focusin', function () {
         // var point = store.get(questionEntry.id, 'point') || 0;
         // dom.pointMeter.attr('value', point - 1);
         var point = 0;
         dom.pointMeter.attr('value', point);
         dom.pointElement.html(point);
-        outputHelp('Failed',
+        outputHelp(
             'Press <i><b>Failed</b></i> if you didn’t get the answer right.',
-            '0 Esc');
+            '1');
     });
-    $('button.hard', dom.replyCell).on('mouseenter', function () {
+    $('button.hard', dom.replyCell).on('mouseenter focusin', function () {
         var point = (store.get(questionEntry.id, 'point') || 0) + 1;
         dom.pointMeter.attr('value', point);
         dom.pointElement.html(point);
-        outputHelp('Got It',
+        outputHelp(
             'Press <i><b>Got It</b></i> if you got the answer right. ' +
                 '– This is what you would normally do.',
-            '1 ↲');
+            '2');
     });
-    $('button.easy', dom.replyCell).on('mouseenter', function () {
+    $('button.easy', dom.replyCell).on('mouseenter focusin', function () {
         var point = store.get(questionEntry.id, 'point') || 0;
         point = (point < tlhEnCount) ? tlhEnCount : (tlhEnCount + enTlhCount)
         dom.pointMeter.attr('value', point);
         dom.pointElement.html(point);
-        outputHelp('Too Easy',
-            'Press <i><b>Too Easy</b></i> if you know the word <em>really well,</em> ' +
-                'but still don’t want to dismiss it completely.',
+        outputHelp(
+            'Press <i><b>Too Easy</b></i> if you know the word <em>really ' +
+                'well,</em> but still don’t want to dismiss it completely.',
             '3');
     });
-    $('button.known', dom.replyCell).on('mouseenter', function () {
+    $('button.known', dom.replyCell).on('mouseenter focusin', function () {
         var point = tlhEnCount + enTlhCount;
         dom.pointMeter.attr('value', point);
         dom.pointElement.html(point);
-        outputHelp('Known',
+        outputHelp(
             'Press <i><b>Known</b></i> if you know the word by heart, and ' +
-                'never want to practice it again.',
-            '4');
+                'never want to practice it again. – Only use this for words ' +
+                'that you’ve forgotten to mark as <i>known</i> under the ' +
+                'Glossary tab.',
+            '0');
     });
-    $('button', dom.replyCell).on('mouseleave', function () {
-        var point = store.get(questionEntry.id, 'point') || 0;
-        dom.pointMeter.attr('value', point);
-        dom.pointElement.html(point);
-        outputHelp();
+
+    $('button', dom.replyCell).on('keydown', replyButtonsKey); // key bindings
+    $(document.body).on('focusin', function (event) { // non-button is focused
+        if (!$(event.target).is(dom.buttonElements)) { buttonFocusout(); }
     });
-    $('button', dom.showCell).on('mouseleave', function () {
-        outputHelp();
-    });
+    dom.buttonElements.on('mouseleave', buttonFocusout);
     dom.tab.on('click', onTabClick);           // "Practice" (page tab)
 }
 

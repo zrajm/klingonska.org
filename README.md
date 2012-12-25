@@ -10,9 +10,10 @@ Klingon](http://klingonska.org/songs/) etc.
 
 Currently Happening
 -------------------
-December 22, 2012: The Klingon Glossary Extractor & Flashcards page is now up
-and running (if still somewhat rough around the edges). Feedback is greatly
-appreciated (use [email][webmaster], or [GitHub Issue Tracking][issue]).
+December 22, 2012: The [Klingon Glossary Extractor & Flashcards][glossary] page
+is now up and running (if still somewhat rough around the edges). Feedback is
+greatly appreciated (use [email][webmaster], or [GitHub Issue
+Tracking][issue]).
 
 November 15, 2012: Building a new learning tool for beginners. The tool,
 preliminarily called [Klingon Glossary Extractor][glossary], can be used to

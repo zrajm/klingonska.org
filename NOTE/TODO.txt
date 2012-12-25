@@ -931,8 +931,9 @@ optimization."
      CLOSED: [2012-11-16 Fri 02:07]
      Text and glossary list should have a line where the number of words,
      verbs, nouns etc are listed.
-*** [38%] "Practice" tab
+*** [46%] "Practice" tab
     Stack: Entries selected from start or end. Deck: Entries selected randomly.
+**** TODO Timer when responding to flashcards
 **** [0%] Handle synonyms & homonyms
      Question always display part-of-speech. Answer may contain multiple
      translations (in case of Klingon homonyms, e.g. {baQ}).
@@ -966,6 +967,8 @@ optimization."
      picking up the words.
 **** TODO Config
      tlhEnCount and enTlhCount should be settable and loaded/saved.
+**** DONE Keys for selecting buttons
+     CLOSED: [2012-12-25 Tue 04:35]
 **** DONE Displaying of homonyms in answer
      CLOSED: [2012-12-20 Thu 07:52]
 **** [100%] Bare minimum of usable flashcard functionality
@@ -1037,9 +1040,9 @@ optimization."
 ***** songs/tahjaj_wo.txt  => songs/tahjaj_wo/
 **** TODO add link to text version of lyrics
      Use "NOTE/tahjaj_wo.txt" file for this.
-**** TODO add missing voices
-***** TODO pick out and add second voice
-***** TODO pick out and add third voice
+**** TODO Add missing voices
+     As transcribed by Ash Phillips <ryanhartmusic@gmail.com>.
+     https://mail.google.com/mail/u/0/?shva=1#inbox/13bce74053bf11e6
 **** TODO get source code icon for lilypond source
 **** TODO convert GIF images into HTML tables
      Use "NOTE/tahjaj_wo_tabbed.txt" file for this.
