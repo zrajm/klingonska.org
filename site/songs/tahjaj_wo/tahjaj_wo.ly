@@ -1,4 +1,4 @@
-\version "2.8.0"
+\version "2.12.0"
 %
 % SOUNDS: Only voice I finished, other voices lack melody.
 % SCORES: See above.
@@ -33,7 +33,7 @@
         %\italic { First Booke of Songes or Ayres, }
         1993
     }
-    tagline = \markup \column { \center-align {
+    tagline = \markup \column { \center-column {
         \line { Zrajm C Akfohg, May 2006 }
         \line { http://zrajm.klingonska.org/songs/ }
     }}
@@ -122,7 +122,10 @@ myStaffSize = #18
 %    }
 }
 \midi {
-    \tempo 4 = 100
+    \context {
+        \Score
+        tempoWholesPerMinute = #(ly:make-moment 100 4)
+    }
 }
 
 
@@ -236,8 +239,8 @@ soprano = \new Staff {
     \new Voice {
         \set Staff.autoBeaming    = ##f
         \set Staff.midiInstrument = "drawbar organ"
-        %\set Staff.instrument     = \markup { I " " }
-        %\set Staff.instr          = \markup { I " " }
+        %\set Staff.instrumentName = \markup { I " " }
+        %\set Staff.shortInstrumentName = \markup { I " " }
 
         \clef treble
         \time 2/2
@@ -274,8 +277,8 @@ alto = \new Staff {
     \new Voice {
         \set Staff.autoBeaming    = ##f
         \set Staff.midiInstrument = "drawbar organ"
-        %\set Staff.instrument     = \markup { II  " " }
-        %\set Staff.instr          = \markup { II  " " }
+        %\set Staff.instrumentName = \markup { II  " " }
+        %\set Staff.shortInstrumentName = \markup { II  " " }
 
         \clef treble
         \time 2/2
@@ -316,8 +319,8 @@ tenor = \new Staff {
     \new Voice {
         \set Staff.autoBeaming    = ##f
         \set Staff.midiInstrument = "woodblock"
-        %\set Staff.instrument     = \markup { III " " }
-        %\set Staff.instr          = \markup { III " " }
+        %\set Staff.instrumentName = \markup { III " " }
+        %\set Staff.shortInstrumentName = \markup { III " " }
 
         \clef treble
         \time 2/2

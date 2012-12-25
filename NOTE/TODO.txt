@@ -867,7 +867,12 @@ optimization."
 ******* wa'Hu' .. wa'maHHu' (for number not in dictionary)
 ******* cha'leS .. HutleS (for number not in dictionary)
 ******* test on lots of canon text
-*** [60%] "Input" tab
+*** [54%] "Input" tab
+**** TODO Highlight modes
+     A selector to hide/display highlights. Modes that would be useful:
+       * Part-of-speech (default)
+       * Spellcheck mode (unknown highlighted, nothing else)
+       * No highlight
 **** TODO Hover over word in input field should highlight all w/ same root
      If the word "bachwI'" is hovered on, then all words with that same root
      should be highlighted. ("bach", "bachqu'" etc.)
@@ -931,7 +936,7 @@ optimization."
      CLOSED: [2012-11-16 Fri 02:07]
      Text and glossary list should have a line where the number of words,
      verbs, nouns etc are listed.
-*** [46%] "Practice" tab
+*** [40%] "Practice" tab
     Stack: Entries selected from start or end. Deck: Entries selected randomly.
 **** TODO Timer when responding to flashcards
 **** [0%] Handle synonyms & homonyms
@@ -967,6 +972,10 @@ optimization."
      picking up the words.
 **** TODO Config
      tlhEnCount and enTlhCount should be settable and loaded/saved.
+**** TODO Part-of-speech should *not* be abbreviated
+**** TODO Some way to mark especially troublesome words
+     Words that you have a recurring problem with, and might want to rehearse
+     often.
 **** DONE Keys for selecting buttons
      CLOSED: [2012-12-25 Tue 04:35]
 **** DONE Displaying of homonyms in answer
@@ -1033,28 +1042,28 @@ optimization."
 *** TODO {taHjaj wo'}
 **** TODO Include flash video directly, don't point to YouTube
      http://klingonska.elektra/songs/tahjaj_wo/
-**** TODO add HTML redirects for moved files
+**** TODO Add HTML redirects for moved files
 ***** songs/tahjaj_wo2.txt => NOTE/tahjaj_wo_tabbed.txt
 ***** songs/tahjaj_wo1.gif => songs/tahjaj_wo/pic/tahjaj_wo1.gif
 ***** songs/tahjaj_wo2.gif => songs/tahjaj_wo/pic/tahjaj_wo2.gif
 ***** songs/tahjaj_wo.txt  => songs/tahjaj_wo/
-**** TODO add link to text version of lyrics
+**** TODO Add link to text version of lyrics
      Use "NOTE/tahjaj_wo.txt" file for this.
 **** TODO Add missing voices
      As transcribed by Ash Phillips <ryanhartmusic@gmail.com>.
      https://mail.google.com/mail/u/0/?shva=1#inbox/13bce74053bf11e6
-**** TODO get source code icon for lilypond source
-**** TODO convert GIF images into HTML tables
+**** TODO Get source code icon for Lilypond source
+**** TODO Convert GIF images into HTML tables
      Use "NOTE/tahjaj_wo_tabbed.txt" file for this.
-**** DONE include lilypond source
+**** DONE Include lilypond source
      CLOSED: [2010-11-24 Wed 18:05]
-**** DONE add link to {DaHjaj po}
+**** DONE Add link to {DaHjaj po}
      CLOSED: [2010-11-18 Thu 14:41]
-**** DONE images should have alt and title attributes correctly set
+**** DONE Images should have alt and title attributes correctly set
      CLOSED: [2010-11-18 Thu 14:37]
-**** DONE should have it's own subpage
+**** DONE Should have it's own subpage
      CLOSED: [2010-11-18 Thu 09:55]
-**** DONE include lilypond score (and source)
+**** DONE Include Lilypond score (and source)
      CLOSED: [2010-11-18 Thu 09:55]
 ** TODO "Archive of Okrandian Canon"
 *** TODO Article on transcribing English words phonetically into Klingon(?)
