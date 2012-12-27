@@ -50,6 +50,7 @@ copied_targets = \
                 -name '*.midi' -or \
                 -name '*.mp3'  -or \
                 -name '*.mp4'  -or \
+                -name '*.ntd'  -or \
                 -name '*.ogg'  -or \
                 -name '*.pdf'  -or \
                 -name '*.png'  -or \
@@ -79,6 +80,7 @@ html_targets =                                    \
             $(source_dir)/songs/index.txt        \
             $(source_dir)/songs/america.txt      \
             $(source_dir)/songs/anthem/index.txt \
+            $(source_dir)/songs/tahjaj_wo/index.txt \
     )))
 
 css_targets =                                               \
@@ -337,7 +339,7 @@ $(publish_dir)/%.js: $(source_dir)/%.js
 	echo "Minifying  '$<' -> '$@'";      \
 	$(JS_MINIFIER) <"$<" >"$@"
 
-# LY (typeset musical score, Lilypond)
+# LY (typeset musical score, LilyPond)
 $(publish_dir)/%.ly: $(source_dir)/%.ly
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Copying    '$<' -> '$@'";      \
@@ -357,6 +359,12 @@ $(publish_dir)/%.mp3: $(source_dir)/%.mp3
 
 # MP4 (video)
 $(publish_dir)/%.mp4: $(source_dir)/%.mp4
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	echo "Copying    '$<' -> '$@'";      \
+	cp "$<" "$@"
+
+# NTD (typeset musical score, NoteEdit)
+$(publish_dir)/%.ntd: $(source_dir)/%.ntd
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Copying    '$<' -> '$@'";      \
 	cp "$<" "$@"

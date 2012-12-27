@@ -1,23 +1,18 @@
-\version "2.12.0"
-%
-% SOUNDS: Only voice I finished, other voices lack melody.
-% SCORES: See above.
-%
-% TODO
-%
-%     o Add melodies for voices II and III.
-%
+\version "2.14.0"
 %
 % HISTORY
+% =======
+% December 27, 2012: Ryan Hart sent me a score which included the melodies of
+% voices 2 & 3, so I brushed off the old lilypond 2.8 score, upgraded it to
+% 2.12.3 (the version of Lilypond that comes with Ubuntu Lucid Lynx).
 %
-% 28 November 2006: Converted source from lilypond 2.6 to 2.8 format.
+% November 28, 2006: Converted source from lilypond 2.6 to 2.8 format.
 %
-% 17 May 2006: Copied rhythm patterns and syncronized the three voices with
+% May 17, 2006: Copied rhythm patterns and syncronized the three voices with
 % respect to each other. Also tested a program called `midingsolo', and used it
 % to transcribe the melody of the first voice from the melody I've got in my
 % head. (I think I have it on cassette somewhere, but I don't have a cassette
-% player..) Many thanks to Jennifer Saverstam Lydecker for inspiration.
-%
+% player..) Many thanks to Jennifer Saverstam-Lydecker for inspiration.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                                                           %%
@@ -26,108 +21,87 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \header {
-    title = \markup \bold { taHjaj wo’. }
-    subtitle = \markup \italic { An Imperial Anthem. }
+    title = \markup \medium {
+        \bold { taHjaj wo’ } \hspace #1 – \hspace #1
+        \italic { An Imperial Anthem }
+    }
     composer = \markup {
         Rich \bold { “HoD Qanqor” } Yampell, %(birth–death)
         %\italic { First Booke of Songes or Ayres, }
         1993
     }
-    tagline = \markup \column { \center-column {
-        \line { Zrajm C Akfohg, May 2006 }
-        \line { http://zrajm.klingonska.org/songs/ }
-    }}
+    tagline = \markup \center-column {
+        \line { Zrajm C Akfohg, May 2006–December 2012 }
+        \line { 2nd & 3rd voices and chords by Ryan Hart, December 2012 }
+        \line { http://klingonska.org/songs/tahjaj_wo/ }
+    }
 }
 
-
-myStaffSize = #18
-#(set-global-staff-size myStaffSize)
+#(set-global-staff-size 18)
+#(set-default-paper-size "a4" 'landscape)
 \paper {
-    #(set-paper-size "a4" 'landscape)  % A4 = 210mm × 297.9mm
+    % DEBUG: show various distances on page
+    %annotate-spacing = ##t
+
+    check-consistency = ##t
     ragged-bottom   = ##t
     %ragged-last     = ##t
     print-page-number = ##f  % turn on/off page number printing
 
-%    top-margin     = 12.5\mm                 %default: 5\mm
-    %top-margin     = 10\mm                    %default: 5\mm
-    %bottom-margin  = 10\mm                    %default: 6\mm
-    %left-margin   = #f      % (Que?)
-    %head-separation       = 0\mm  %% no effect?   %default: 4\mm
-    page-top-space        = 0\mm
-    %foot-separation       = 0\mm
-    %%%foot-separation      = 4\mm                  %default: 4\mm
+    % page margins
+    bottom-margin = 10\mm
+    left-margin   = 10\mm
+    right-margin  = 10\mm
+    top-margin    = 14\mm
 
-    %before-title-space = 50\mm
-        % only useful if there's a title coming after some staves
-    %between-title-space = 10\mm  % dist between titles
-        %(e.g., the title of the book and the title of a piece)
-%    after-title-space = 0\mm
-        % distance between title/composer header and fist system thereafter
-        % If set to '0\mm', generates the somewhat bizarre error message:
-        %    programming error: insane spring found, setting to unit
-        %    continuing, cross fingers
+    % indent for 1st system (not including any leftmost labels)
+    indent = 10\mm
 
-    %indent = 10\mm
-        % indent for 1st system (excluding any leftmost labels)
-    %between-system-space  = 0.1\mm
-    %between-system-padding = 0.1\mm
-        % between systems, and topmost system/title (overlapping with
-        % `after-title-space', I think)
+    % space between page title and 1st system
+    markup-system-spacing #'basic-distance = #20
 
-%    #(define fonts
-%        (make-pango-font-tree
-%         "Vera Serif" "Times New Roman" "Courier"
-%         (/ myStaffSize 20)))
+    % space between top margin + 1st system
+    top-system-spacing #'basic-distance = #5
 
-%    annotate-spacing = ##t
-        % DEBUG: show various distances on page
+    % space between systems
+    system-system-spacing #'basic-distance = #21
 }
 \layout {
-    papersize = "a4"
-%    \context {
-%        \GrandStaff
-%            \consists Instrument_name_engraver
-%                % FIXME: turn off ambitus_engraver for the lute part (GrandStaff)!
-%    }
-    \context {
-        \Voice
-            \remove "Dynamic_engraver"
+    % The below stuff should work, but doesn't for some reason. Probably a
+    % Lilypond bug -- below 'withoutDynamics' function is used instead. (The
+    % dynamic marks of voice III is used for MIDI output, and should not be
+    % displayed in score.)
+    %\context { \Voice
+    %    \remove Dynamic_engraver
+    %}
+    \context { \Staff
+        %\consists Ambitus_engraver
+        % spacing between staffs within a system
+        \override VerticalAxisGroup #'staff-staff-spacing =
+            #'((padding . 1)
+              (basic-distance . 6)
+              (minimum-distance . 5)
+              (stretchability . 0))
+
+        % right-align the voice names
+        \override InstrumentName #'padding = #0.75
+        \override InstrumentName #'self-alignment-X = #RIGHT
     }
-%    \context {
-%        \Staff
-%            %\consists Ambitus_engraver
-%            \override VerticalAxisGroup #'minimum-Y-extent = #'(-4.8 . 4) %default: #'(-4 . 4)
-%                % same as \override VerticalAxisGroup #'minimum-Y-extent for lyrics below, but for staff
-%    }
-%    \context {
-%        \Lyrics
-%            fontSize = #-1
-%            \override VerticalAxisGroup #'minimum-Y-extent = #'(-.8 . 1.6) %default: '(-1.2 . 2.4)
-%                % space lyrics closely (later add some extra space between verses)
-%                % 1st (negative) value is distance below, 2nd (positive) is dist above
-%
-%            \override LyricExtender #'minimum-length = #0  %default: #1.5
-%                % allow extender lines (used in lyrics for melisma) to become
-%                % zero in length
-%
-%            \override LyricHyphen   #'minimum-length = #0 %default: #0.3
-%            %\override LyricHyphen   #'padding        = #15 %default: #0.07
-%            %\override LyricHyphen   #'thickness      = #9  %default: #1.3
-%                % FIXME: allow hyphens to become zero in length (NOTE:
-%                % hyphenated syllables are still padded from each other, so
-%                % just setting minimum hyphen length to zero have no effect)
-%
-%            \override LyricText #'word-space = #50 %default: #0.6
-%                % FIXME: how do you set minimum width of space in lyrics?
-%    }
+    \context { \Lyrics
+        % spacing between lyrics and its staff
+        \override VerticalAxisGroup #'staff-affinity = #UP
+        \override VerticalAxisGroup #'nonstaff-relatedstaff-spacing =
+            #'((padding . 1)
+              (basic-distance . 6)
+              (minimum-distance . 6)
+              (stretchability . 0))
+    }
 }
 \midi {
-    \context {
-        \Score
+    \context { \Score
         tempoWholesPerMinute = #(ly:make-moment 100 4)
     }
 }
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                                                           %%
@@ -135,12 +109,14 @@ myStaffSize = #18
 %%                                                                           %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% for left-aligning a syllable of lyrics
-% (appropriate at beginning of each line and page)
-left = {
-    \once \override LyricText #'self-alignment-X = #-1 %default: #0
-}
-
+withoutDynamics = #(define-music-function (parser location music) (ly:music?)
+    (music-filter
+        (lambda (evt)
+            (not (memq (ly:music-property evt 'name) (list
+                'AbsoluteDynamicEvent
+                'CrescendoEvent
+                'DecrescendoEvent))))
+    music))
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                                                           %%
@@ -148,247 +124,209 @@ left = {
 %%                                                                           %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Swedish lyrics
-lyricTlhI = \lyricmode {
-    %% 1:1
+lyricsI = \lyricmode {
     taH -- jaj wo’
-    %% 1:2
     ’ej taH -- jaj voD -- leH -- ma’
-    %% 1:3
     wI -- toy’ -- mo’
-    %% 1:4
     vaj nu -- quv -- moH -- jaj ta’
-    %% 1:5
     Dun wo’ -- maj
-    %% 1:6
     ’ej Qoch -- chugh vay’
-    %% 1:7
     vaj DaS -- mey -- maj bIng -- Daq chaH
-    %% 1:8
     DI -- beQ -- moH -- chu’ jay’!
 }
-lyricTlhII = \lyricmode {
-    %% 2:1
+
+lyricsII = \lyricmode {
     taH -- jaj taH -- jaj wo’ ’ej taH -- jaj maH!
-    %% 2:2
     bech -- jaj jagh -- ma’; Hegh -- jaj chaH!
-    %% 2:3
     wI -- toy’ wI -- toy’ -- bej net Sov net Sov!
-    %% 2:4
     val ’ej may voD -- leH -- ma’ pov!
-    %% 2:5
     Dun wo’ Dun wo’ -- vam, juH -- maj; not Dej
-    %% 2:6
     Qoch -- chugh Qoch -- chugh vay’ vaj Dogh -- qu’ -- bej!
-    %% 2:7
     DaS -- mey -- maj bIng -- Daq chaH DI -- beQ --
-    %% 2:8
     moH -- chu’ jay’!
 }
-lyricTlhIII = \lyricmode {
-    %% 3:1
+
+lyricsIII = \lyricmode {
     ma -- Sop -- nIS -- be’,
         ma -- tlhutlh -- nIS -- be’,
         ’ej ma -- Do’ -- chugh,
         ma -- tlhuH -- nIS -- be’
-    %% 3:2
     Doch neH wI -- ta’ --
         nIS -- bogh ’oH tlhI --
         ngan wo’ -- ’a’ HoS --
         ghaj toy’ -- ghach -- ’e’
-    %% 3:3
     may’ -- ’a’ -- mey -- Daq,
         veS -- ’a’ -- mey -- Daq,
         ’ej reH ’ej reH
         yay -- ’a’ -- mey -- Daq
-    %% 3:4
     Qap -- la’ wI -- chav
         ’ej batlh wI -- Suq
         ’ej tlhI -- ngan wo’
         nIv -- ghach wI -- maq
-    %% 3:5
     ma -- toy’ -- rup -- chu’,
         ma -- Suv -- laH -- chu’,
         ma -- Hegh -- qang -- chu’
         ’ut -- chugh ’ut -- mo’
-    %% 3:6
-    ’ach Hegh -- may yI --
+    ’ach Hegh -- maj yI --
         pIH -- Qo’ ghay -- tan
         wa’ -- DIch jagh -- ’e’
         wI -- Hegh -- moH -- mo’
-    %% 3:7
     vaj taH -- jaj wo’,
         vaj taH -- jaj wo’,
         ’u’ HeH -- Daq tlhI --
         ngan juH -- qo’ -- vo’
-    %% 3:8
     vaj taH -- jaj taH --
         jaj taH -- jaj taH --
         jaj taH -- jaj tlhI --
         ngan wo’
 }
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                                                           %%
-%%  Choir Notes                                                              %%
+%%  Melodies                                                                 %%
 %%                                                                           %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-soprano = \new Staff {
-    \new Voice {
-        \set Staff.autoBeaming    = ##f
-        \set Staff.midiInstrument = "drawbar organ"
-        %\set Staff.instrumentName = \markup { I " " }
-        %\set Staff.shortInstrumentName = \markup { I " " }
+accomp = \chordmode {
+    \set ChordNames.midiInstrument = "acoustic grand"
+    \partial 4 s4 |   % invisible rest for upbeat
+    a2:m e:7 | a2.:m e4:7 | a1:m | e:7 |
+    e2:7 a:m | e1*2:7     | a1:m |
+    a2:m e:7 | a2.:m g4:7 | c2:m g:7 | c2.:m g4:7 |
+    c2:m g:7 | c:dim  e:7 | a:m e:7  | a2.:m
+}
 
-        \clef treble
-        \time 2/2
+voiceI = {
+    \set Staff.midiInstrument = "drawbar organ"
+    \set Staff.instrumentName = \markup { I }
+    \clef treble
+    \time 2/2
+    \transpose c c' {
+        \partial 4 r4   |
+        a2 b            | % A2 B2         taHjaj
+        c'2. e4         | % C3 E2         wo’ ’ej..
+        a c' b a        | % A2 C3 B2 A2   taHjaj voDleH-
+        gis2. r4        | % G#2 -         ma’ _
+        \break
+        b2 c'           | % B2 C3         wI’toy’-
+        d'2. e4         | % D3 E2         mo’ vaj..
+        b d' c' b       | % B2 D3 C3 B2   nuquvmoHjaj
+        a2. r4          | % A2 -          ta’
+        \break
+        a2 b            | % A2 B2         Dun wo’-
+        c'2. a4         | % C3 A2         maj ’ej..
+        c'2 d'          | % C3 D3         Qochchugh
+        es'2. c'4       | % D#3 C3        vay’ vaj..
+        \break
+        es' es' d' d'   | % D#3 D#3 D3 D3  DaSmeymaj bIng-
+        c' c' b b       | % C3 C3 B2 B2    Daq chaH DIbeQ-
+        a2 gis          | % A2 G#2         moHchu’
+        a2.               % A2             jay’
+        \bar "|."
+    }
+} % voiceI
 
-        \transpose c c' {
-            \partial 4*1 r4\pp |
-            a2 b            | % A2 B2         taHjaj
-            c'2. e4         | % C3 E2         wo’ ’ej..
-            a c' b a        | % A2 C3 B2 A2   taHjaj voDleH-
-            gis2. r4        | % G#2 -         ma’ _
+voiceII = {
+    \set Staff.midiInstrument = "acoustic grand"
+    \set Staff.instrumentName = \markup { II }
+    \clef treble
+    \time 2/2
+    \transpose c c' {
+        \partial 4 r4            |
+        r4 e' r e'               | % _ taH- _ jaj
+        c'8 b c' d' e' d' c'4    | % taHjaj wo’ ’ej taHjaj maH!
+        R1                       | %
+        b8 c' d' e' f' e' d'4    | % bechjaj jaghma’; Heghjaj chaH!
 
-            b2 c'           | % B2 C3         wI’toy’-
-            d'2. e4         | % D3 E2         mo’ vaj..
-            b d' c' b       | % B2 D3 C3 B2   nuquvmoHjaj
-            a2. r4          | % A2 -          ta’
+        r e' r e'                | % _ wI- _ toy’
+        b8 c' d' e' f' e' d'4    | % wItoy’bej net Sov net Sov!
+        R1                       | %
+        c'8 d' e' f' e' d' c'4   | % val ’ej may voDleHma’ pov!
 
-            a2 b            | % A2 B2         Dun wo’-
-            c'2. a4         | % C3 A2         maj ’ej..
-            c'2 d'          | % C3 D3         Qochchugh
-            dis'2. c'4      | % D#3 C3        vay’ vaj..
+        r e' r e'                | % _ Dun _ wo’
+        a8 b c' d' e' d' c'4     | % Dun wo’vam, juHmaj; not Dej
+        r g' r g'                | % _ Qoch- _ chugh
+        c'8 d' es' f' g' f' es'4 | % Qochchugh vay’ vaj Doghqu’bej!
 
-            dis' dis' d' d' | % D#3 D#3 D3 D3  DaSmeymaj bIng-
-            c' c' b b       | % C3 C3 B2 B2    Daq chaH DIbeQ-
-            a2 gis          | % A2 G#2         moHchu’
-            a2.               % A2             jay’
-          \bar "|."
-        } % transpose
-    } % Voice
-    \addlyrics { \lyricTlhI }
-} % soprano
+        g' g' f' f'              | % DaSmeymaj bIng-
+        es' es' e' e'            | % Daq chaH DIbeQ-
+        r c' r b                 | % _ moH- _ chu’
+        c'2.                       % jay’!
+        \bar "|."
+    }
+} % voiceII
 
-
-alto = \new Staff {
-    \new Voice {
-        \set Staff.autoBeaming    = ##f
-        \set Staff.midiInstrument = "drawbar organ"
-        %\set Staff.instrumentName = \markup { II  " " }
-        %\set Staff.shortInstrumentName = \markup { II  " " }
-
-        \clef treble
-        \time 2/2
-        \autoBeamOn
-
-        \set Staff.midiInstrument = "breath noise"
-        %\set Score.skipBars = ##t
-        \transpose c c' {
-            \partial 4*1 r4\ppp  |
-            %\partial 4*1 r4\ffff   | %
-            r b r b                | % _ taH- _ jaj
-            b8 b b b b b b4        | % taHjaj wo’ ’ej taHjaj maH!
-            R2*2                   | %
-            b8 b b b b b b4        | % bechjaj jaghma’; Heghjaj chaH!
-
-            r b r b                | % _ wI- _ toy’
-            b8 b b b b b b4        | % wItoy’bej net Sov net Sov!
-            R2*2                   | %
-            b8 b b b b b b4        | % val ’ej may voDleHma’ pov!
-
-            r b r b                | % _ Dun _ wo’
-            b8 b b b b b b4        | % Dun wo’vam, juHmaj; not Dej
-            r b r b                | % _ Qoch- _ chugh
-            b8 b b b b b b4        | % Qochchugh vay’ vaj Doghqu’bej!
-
-            b b b b                | % DaSmeymaj bIng-
-            b b b b                | % Daq chaH DIbeQ-
-            r b r b                | % _ moH- _ chu’
-            b2.                      % jay’!
-          \bar "|."
-        } % transpose
-    } % Voice
-    \addlyrics { \lyricTlhII }
-} % alto
-
-
-tenor = \new Staff {
-    \new Voice {
-        \set Staff.autoBeaming    = ##f
-        \set Staff.midiInstrument = "woodblock"
-        %\set Staff.instrumentName = \markup { III " " }
-        %\set Staff.shortInstrumentName = \markup { III " " }
-
-        \clef treble
-        \time 2/2
-        \autoBeamOn
-
-        \transpose c c' {
-            \partial 4*1 b4\p       | % ma-
-            b8\sf b\p  b\ff  b\p      % SopnISbe’, ma-
-            b\sf  b\p  b\ff  b\p    | % tlhutlhnISbe’, ’ej
-            b\sf  b\p  b\ff  b\p      % maDo’chugh, ma-
-            b\sf  b\p  b\ff           % tlhuHnISbe’
-          %\bar ""
-            b\p                     | % Doch
-            b\sf  b\p  b\ff  b\p      % neH wIta’nIS-
-            b\sf  b\p  b\ff  b\p    | % bogh ’oH tlhIngan
-            b\sf  b\p  b\ff  b\p      % wo’’a’ HoSghaj
-            b\sf  b\p  b\ff           % toy’ghach’e’
-          %\bar ""
-            b\p                     | % may’-
-            b\sf  b\p  b\ff  b\p      % ’a’meyDaq, veS-
-            b\sf  b\p  b\ff  b\p    | % ’a’meyDaq, ’ej
-            b\sf  b\p  b\ff  b\p      % reH ’ej reH yay-
-            b\sf  b\p  b\ff           % ’a’meyDaq
-          %\bar ""
-            b\p                     | % Qap-
-            b\sf  b\p  b\ff  b\p      % la’ wIchav ’ej
-            b\sf  b\p  b\ff  b\p    | % batlh wISuq ’ej
-            b\sf  b\p  b\ff  b\p      % tlhIngan wo’ nIv-
-            b\sf  b\p  b\ff           % ghach wI-maq
-          %\bar ""
-            b\p                     | % ma-
-            b\sf  b\p  b\ff  b\p      % toy’rupchu’, ma-
-            b\sf  b\p  b\ff  b\p    | % SuvlaHchu’, ma-
-            b\sf  b\p  b\ff  b\p      % Heghqangchu’ ’ut-
-            b\sf  b\p  b\ff           % chugh ’utmo’
-          %\bar ""
-            b\p                     | % ’ach
-            b\sf  b\p  b\ff  b\p      % Heghmay yIpIH-
-            b\sf  b\p  b\ff  b\p    | % Qo’ ghaytan wa’-
-            b\sf  b\p  b\ff  b\p      % DIch jagh’e’ wI-
-            b\sf  b\p  b\ff           % HeghmoHmo’
-          %\bar ""
-            b\p                     | % vaj
-            b\sf  b\p  b\ff  b\p      % taHjaj wo’, vaj
-            b\sf  b\p  b\ff  b\p    | % taHjaj wo’, ’u’
-            b\sf  b\p  b\ff  b\p      % HeHDaq tlhIngan
-            b\sf  b\p  b\ff           % juHqo’vo’
-          %\bar ""
-            b\p                     | % vaj
-            b\sf  b\p  b\ff  b\p      % taHjaj taHjaj
-            b\sf  b\p  b\ff  b\p    | % taHjaj taHjaj
-            b\sf  b\p  b\ff  b\p      % taHjaj tlhIngan
-            b4\sf                     % wo’
-          \bar "|."
-        } % transpose
-    } % Voice
-    \addlyrics { \lyricTlhIII }
-} % tenor
-
+voiceIII = {
+    \set Staff.midiInstrument = "acoustic grand"
+    \set Staff.instrumentName = \markup { III }
+    \clef treble
+    \time 2/2
+    \transpose c c' {
+        \partial 4             e4\p   | % ma-
+        c'8\sf  b\p    a\ff    c'\p     % SopnISbe’, ma-
+        d'\sf   c'\p   b\ff    d'\p   | % tlhutlhnISbe’, ’ej
+        e'\sf   d'\p   c'\ff   b\p      % maDo’chugh, ma-
+        c'\sf   b\p    a\ff             % tlhuHnISbe’
+      %\bar ""
+                               e\p    | % Doch
+        a\sf    a\p    g\ff    g\p      % neH wIta’nIS-
+        f\sf    f\p    e\ff    e\p    | % bogh ’oH tlhIngan
+        f\sf    d\p    e\ff    gis\p    % wo’’a’ HoSghaj
+        b\sf    gis\p  e\ff             % toy’ghach’e’
+      %\bar ""
+                               e\p    | % may’-
+        d'\sf   c'\p   b\ff    d'\p     % ’a’meyDaq, veS-
+        e'\sf   d'\p   c'\ff   e'\p   | % ’a’meyDaq, ’ej
+        f'\sf   e'\p   d'\ff   c'\p     % reH ’ej reH yay-
+        d'\sf   c'\p   b\ff             % ’a’meyDaq
+      %\bar ""
+                               a\p    | % Qap-
+        gis\sf  gis\p  f\ff    f\p      % la’ wIchav ’ej
+        e\sf    e\p    d\ff    d\p    | % batlh wISuq ’ej
+        e\sf    d\p    e\ff    a\p      % tlhIngan wo’ nIv-
+        c'\sf   a\p    e\ff             % ghach wI-maq
+      %\bar ""
+                               e\p    | % ma-
+        c'\sf   b\p    a\ff    c'\p     % toy’rupchu’, ma-
+        d'\sf   c'\p   b\ff    d'\p   | % SuvlaHchu’, ma-
+        e'\sf   d'\p   c'\ff   d'\p     % Heghqangchu’ ’ut-
+        e'\sf   d'\p   c'\ff            % chugh ’utmo’
+      %\bar ""
+                               d'\p   | % ’ach
+        es'\sf  d'\p   c'\ff   es'\p    % Heghmaj yIpIH-
+        f'\sf   es'\p  d'\ff   f'\p   | % Qo’ ghaytan wa’-
+        g'\sf   f'\p   es'\ff  f'\p     % DIch jagh’e’ wI-
+        g'\sf   f'\p   es'\ff           % HeghmoHmo’
+      %\bar ""
+                               es'\p  | % vaj
+        g'\sf   g'\p   g'\ff   g'\p     % taHjaj wo’, vaj
+        g'\sf   g'\p   g'\ff   g'\p   | % taHjaj wo’, ’u’
+        ges'\sf ges'\p ges'\ff ges'\p   % HeHDaq tlhIngan
+        gis'\sf gis'\p gis'\ff          % juHqo’vo’
+      %\bar ""
+                               e'\p   | % vaj
+        e'\sf   e'\p   e'\ff   e'\p     % taHjaj taHjaj
+        e'\sf   e'\p   e'\ff   e'\p   | % taHjaj taHjaj
+        e'\sf   d'\p   c'\ff   b\p      % taHjaj tlhIngan
+        a4\sf                           % wo’
+        \bar "|."
+    }
+} % voiceIII
 
 choir = {
     \new ChoirStaff <<
-        \soprano
-        \alto
-        \tenor
+        \new ChordNames \accomp
+
+        \new Staff { \new Voice = "I" \voiceI }
+        \new Lyrics { \lyricsto "I" \lyricsI }
+
+        \new Staff  { \new Voice = "II" \voiceII }
+        \new Lyrics { \lyricsto "II" \lyricsII }
+
+        \new Staff { \new Voice = "III" \withoutDynamics \voiceIII }
+        \new Lyrics { \lyricsto "III" \lyricsIII }
     >>
 }
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                                                           %%
@@ -397,11 +335,12 @@ choir = {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \book {
-    \score {                                \choir                   } % notes
-    \score { \applyMusic #unfold-repeats    \choir          \midi {} } % all
-    \score { \applyMusic #unfold-repeats    \soprano        \midi {} } % S
-    \score { \applyMusic #unfold-repeats    \alto           \midi {} } % A
-    \score { \applyMusic #unfold-repeats    \tenor          \midi {} } % T
+    \score {                             \choir             } % printed score
+    \score { \applyMusic #unfold-repeats \choir    \midi {} } % all
+    \score { \applyMusic #unfold-repeats \voiceI   \midi {} } % 1st voice
+    \score { \applyMusic #unfold-repeats \voiceII  \midi {} } % 2nd voice
+    \score { \applyMusic #unfold-repeats \voiceIII \midi {} } % 3rd voice
+    %\score { \applyMusic #unfold-repeats \accomp   \midi {} } % accompaniment
 }
 
 %[[eof]]
