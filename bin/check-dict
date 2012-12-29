@@ -210,7 +210,7 @@ sub get_section {
 
 sub sha1sum {
     my ($listref) = @_;
-    use Digest::SHA1 "sha1_hex";
+    use Digest::SHA "sha1_hex";
     return sha1_hex(Encode::encode("UTF-8", join("", @$listref)));
 }
 
