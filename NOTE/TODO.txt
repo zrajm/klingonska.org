@@ -112,7 +112,10 @@ optimization."
 *** DONE Redirect 2040.klingonska.org -> 2040.zrajm.org
     CLOSED: [2010-09-08 Wed 20:48]
 * Site design annoyances+fixes
-** TODO Cleanup page logo outline
+** DONE Cleanup page logo outline
+   CLOSED: [2012-12-30 Sun 17:57]
+   Turns out text-stroke is not needed after all. Just more careful text-shadows.
+
    Text shadow on the "Klingonska Akademien" text have gaps. CSS property
    'text-stroke' is supported by Chrome, and should be used (with the current
    'text-shadow' used as fallback).

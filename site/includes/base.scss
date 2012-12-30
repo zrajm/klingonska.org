@@ -106,12 +106,8 @@ header {
             text-decoration: none;
         }
         a:hover {
-            background: #b33;                /* red, page background */
-            -moz-text-shadow:    0 0 8px #fff;
-            -ms-text-shadow:     0 0 8px #fff;
-            -o-text-shadow:      0 0 8px #fff;
-            -webkit-text-shadow: 0 0 8px #fff;
-            text-shadow:         0 0 8px #fff;
+            background: inherit;
+            text-shadow: 0 0 8px #fff, 0 0 4px #fff, 0 0 2px #000;
         }
     }
     /* breadcrumbs & update date */
@@ -154,12 +150,16 @@ header {
         max-width: 42em;          /* max page width */
         padding: .5em 0;
         /* logo & site title */
-        a table:hover {
-            -moz-text-shadow:    0 0 16px #fff;
-            -ms-text-shadow:     0 0 16px #fff;
-            -o-text-shadow:      0 0 16px #fff;
-            -webkit-text-shadow: 0 0 16px #fff;
-            text-shadow:         0 0 16px #fff;
+        a:hover table {
+            h1 {
+                text-shadow:
+                     0px -2px 1px #000,  2px -2px 1px #000,
+                     2px  0px 1px #000,  2px  2px 1px #000,
+                     0px  2px 1px #000, -2px  2px 1px #000,
+                    -2px  0px 1px #000, -2px -2px 1px #000,
+                     0 0 64px #fff, 0 0 32px #fff,
+                     0 0 16px #fff, 0 0 4px #000;
+            }
         }
         table {
             border-collapse: collapse;
@@ -169,12 +169,12 @@ header {
                 text-align: center;
             }
             h1 {
-                /*
-                  FIXME: Lucia & Tove likes white text in page logo better --
-                  and it is more readable. Shoud I use that instead?
-                */
                 color: #fff;
-                text-shadow: -2px -2px #000, -2px 2px #000, 2px 2px #000, 2px -2px #000;
+                text-shadow:
+                     0px -2px 1px #000,  2px -2px 1px #000,
+                     2px  0px 1px #000,  2px  2px 1px #000,
+                     0px  2px 1px #000, -2px  2px 1px #000,
+                    -2px  0px 1px #000, -2px -2px 1px #000;
                 /* end of white title text */
                 display: inline;
                 font: 300%/90% 'Alegreya SC', serif;
