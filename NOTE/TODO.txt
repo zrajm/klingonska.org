@@ -977,6 +977,8 @@ optimization."
      Cycle through the loop deck, instead of the entire glossary when
      Practicing new words. This way the user's memory have a better chance of
      picking up the words.
+
+     Write comment for John Harness on [[https://www.facebook.com/groups/tlhInganHol/permalink/569525713063692/][this facebook thread]], when it is done.
 **** TODO Config
      tlhEnCount and enTlhCount should be settable and loaded/saved.
 **** TODO Part-of-speech should *not* be abbreviated
