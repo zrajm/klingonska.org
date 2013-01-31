@@ -10,7 +10,6 @@ Priorities:
 4) WANTED -- could be better, but is okay
 5) MAYBE -- would be nice to have, but needs to be though about
 
-
 On CSS ideas:
 http://www.onextrapixel.com/2012/05/03/css-tricks-how-to-speed-up-css-rendering/
 
@@ -773,7 +772,7 @@ optimization."
     from each other? Phonetically, in terms of vocuabulary etc?
 ** TODO Search engine optimizations
 ** "Glossary" page
-*** [0%] General
+*** General
 **** TODO Better placement of no-javascript warning
      Many webpages seem to have this at the very top of the page, and maybe
      unscrollable?
@@ -880,9 +879,11 @@ optimization."
        * Part-of-speech (default)
        * Spellcheck mode (unknown highlighted, nothing else)
        * No highlight
-**** TODO Hover over word in input field should highlight all w/ same root
+**** TODO Hover over word should highlight all w/ same root
      If the word "bachwI'" is hovered on, then all words with that same root
      should be highlighted. ("bach", "bachqu'" etc.)
+**** TODO Hover over word text should include translations
+     Tell "Christoph Pichlmann <pichlmann-at-fredlarts.at>" when this is working.
 **** TODO Words in legend by input field should be clickable
      They should enable/disable highlighting the words in the input field of
      their respective categories.
@@ -973,6 +974,7 @@ optimization."
      explaining the functioning of the various buttons and algorithms in more
      detail.
 **** TODO Weighted random choice in loop
+     Tell "Christoph Pichlmann <pichlmann-at-fredlarts.at>" when this is working.
 **** TODO Loop deck
      Cycle through the loop deck, instead of the entire glossary when
      Practicing new words. This way the user's memory have a better chance of
@@ -1679,7 +1681,18 @@ optimization."
 ***** TODO Make dict.zdb downloadable
 **** TODO Search engine improvements
 ***** TODO Properly indexed search, instead of linear grepping
-***** TODO Google Chrome should autodetect search engine(s)
+***** DONE Add Klingon Pocket Dictonary search to main page
+      CLOSED: [2013-01-31 Thu 05:19]
+      In Chrome, if a user searches from the main page search form, then the
+      browser will thereafter automatically suggest using the search function
+      in the address bar/omnibox (showing the text "Press <Tab> to search
+      klingonska.org"), without the user having to navigate to the page first.
+
+      This especially motivated since Google Analytics indicate that The
+      Klingon Pocket Dictionary page has, by far, the the highest usage of all
+      the pages on the website.
+***** DONE Google Chrome should autodetect search engine(s)
+      CLOSED: [2013-01-31 Thu 05:15]
       The following form is enough to enable the Chrome "Press [Tab] to search
       <hostname>" *if* (and only if) it resides on a hostname-only URL. (e.g.
       http://localhost/ works, but http://localhost/y/ does not work).
@@ -2761,6 +2774,66 @@ optimization."
 *** TODO Move all the logos to the pic directory?
 ** TODO Update "Links to Other Pages About the Klingon Language"
    This page need a major update, and removal of non-working links.
+
+   Should remove all stuff that does not work, and maybe focus more on being a
+   resource for beginners.
+
+   Felix seems to have a bunch of good resources available in this email
+   thread:
+
+   > One good resource is Lawrence M. Schoen's podcast DaHjaj Hol:
+   > http://www.lawrencemschoen.com/podcasts/dahjaj-hol-110101/
+   > (I believe there's a total of 366 episodes)
+   >
+   > Quvar has 15 or so episodes (in English and German) as "the Klingon
+   > Teacher from Germany":
+   > http://www.facebook.com/Klingonteacher
+   > http://www.youtube.com/watch?v=auqS6FR_RDE
+   >
+   > Klingon Postal Course: http://www.kli.org/study/postcourse.html
+   > (first 6 lessons)
+   >
+   >
+   > Websites:
+   >
+   > maHvatlh's www.klingonska.org (dictionary, grammar guides, songs, canon
+   > archive...)
+   >
+   > qurgh's http://hol.kag.org (dictionary, parser, grammar guides, media,
+   > flash cards...)
+   >
+   > Quvar's www.qepHom.de (mainly info about qepHom, but also some general
+   > info on Klingon, as well as a new words list that build's on the KLI's)
+   > ter'eS' http://teresh.tdonnelly.org/ (Klingon grammar addenda, songs, movies...)
+   >
+   > I have a flash card set for KLCP1 on Memrise:
+   > http://www.memrise.com/set/10016624/klcp1/
+   >
+   >
+   > On Twitter, there's @kwotd (Klingon word of the day).
+   > @tlhInganHol is a bot that tweets Klingon phrases, but some of them aren't
+   > parsed properly, so it's worth taking with a pinch of salt.
+   > I also run @pIqaD, where I try to tweet in pIqaD at least once per day
+   > (though I tend to fail).
+   >
+   > There's also the tlhIngan Hol jatlhwI'pu' Facebook group:
+   > http://www.facebook.com/groups/tlhInganHol/
+   > (not sure if it's invite only or if you can apply to join; if it's invite
+   > only, PM one of the members so that they can add you)
+   >
+   > I have a YouTube series which I intended to be weekly, but I only ever
+   > manage to keep that up for a few weeks at a time :P
+   > http://www.youtube.com/playlist?list=PL0D8C08BAA890637D
+   >
+   > Also, I'd love to see the Klingon practice thread on the xkcd forums come
+   > back to life: http://forums.xkcd.com/viewtopic.php?f=25&t=26688
+   >
+   >
+   > I also have the channel @klingonska on Twitter which tweets Klingon
+   > phrases and info in Swedish.
+   > I'm working on a course plan and would like to start teaching a small
+   > group in Stockholm, but we'll see how that works out.
+
 ** TODO Lesson list
    http://klingonska.org/lektioner/
 *** Should be listed
@@ -2990,7 +3063,14 @@ optimization."
 
    More on that topic
    http://httpd.apache.org/docs/current/content-negotiation.html#multiviews
+** DONE Move from HCoop's old "mire" to the new "navajos" server
+   CLOSED: [2013-01-29 Tue 19:15]
+   Hopefully this should eliminate all the speed issues that have been plaguing
+   the site recently, and page loads should now be significantly faster.
 
+   This was achieved with a minimum of downtime (possibly just a couple of
+   minutes), mostly thanks to me having experimented with the necessary
+   configuration on zrajm.org (my other website, also hosted there).
 * Communicate
 ** Reply to http://community.livejournal.com/klingon/
    The Archive of Okrandian Canon of the Swedish Klingonska Akademien doesn't

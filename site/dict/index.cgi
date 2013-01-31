@@ -374,9 +374,9 @@ sub html_form {
 <table class="noborder layout">
   <tr>
     <td class=center>
-      <form method=get action="">
+      <form method=get action="" class=dict>
         <input$focus_attr tabindex=1 name=q value="$query" size=35
-          placeholder="Search terms…"><input type=submit value=Search>
+          placeholder="Search dictionary…"><input type=submit value=Search>
       </form>
     </td>
   </tr>

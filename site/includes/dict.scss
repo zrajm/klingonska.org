@@ -8,4 +8,21 @@ aside.note {
     padding: .5em;
 }
 
+form.dict {
+    padding:.25em .125em;
+    white-space: nowrap;
+
+    input {
+        vertical-align: middle;
+    }
+    input[name="q"] {
+        padding: 0 .125em;
+    }
+    input[type="submit"] {
+        font-size: small;
+        font-weight: bold;
+        margin: .25em;
+    }
+}
+
 /* eof */
