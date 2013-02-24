@@ -784,14 +784,9 @@ optimization."
 **** TODO Better placement of no-javascript warning
      Many webpages seem to have this at the very top of the page, and maybe
      unscrollable?
-**** [50%] Code fixes
-***** TODO Merge all scripts into one
-***** TODO Each tab should have its own script file
-      Which would then require that page.js declare everything relevant to this in
-      a global scope.
-
-      The build script should merge all these scripts and minify them as one
-      entity, makeing sure that all prerequisits are included.
+**** [100%] Code fixes
+***** DONE Merge all scripts into one
+      CLOSED: [2013-02-24 Sun 16:23]
 ***** DONE Sorttable should be invoked from javascript
       CLOSED: [2012-11-29 Thu 19:24]
 ***** DONE tag() should accept number as content arg
@@ -822,9 +817,9 @@ optimization."
 
       It also causes side scrolling on page. :(
 **** [83%] Site integration
+***** TODO Move CSS files into 'includes' directory
 ***** DONE Add link to it from main page
       CLOSED: [2012-12-22 Sat 23:06]
-***** TODO Move CSS files into 'includes' directory
 ***** DONE Update modernizr path in HTML
       CLOSED: [2012-11-16 Fri 04:16]
 ***** DONE Move the separate Glossary Extractor TODO into main TODO
