@@ -214,7 +214,7 @@ optimization."
       New make target 'make publish' for publishing the site to HCoop.
 ***** DONE Add README.md for GitHub
       CLOSED: [2012-06-20 Wed 15:30]
-**** [50%] Add new look to all pages (except {paqHom} and KLO for now)
+**** [57%] Add new look to all pages (except KLO for now)
 ***** DONE <script>...</script> blocks should not be parsed for markdown
       CLOSED: [2012-06-26 Tue 02:45]
       E.g. `/download.html`.
@@ -259,7 +259,7 @@ optimization."
       are incorporated into the KLO pages. Old stuff is just an annoyance to
       maintain. (And, even after removal, would still be available in the git
       repo, if anyone *really* cared.)
-***** [53%] Convert all pages to new HTML template
+***** [55%] Convert all pages to new HTML template
       Thereby centralizing the page header/footer etc. `bin/markdown2html` is
       the tool used for this, except for files in /dict/, which uses `parse`.
       Unifying these two tools into one will become a later issue, though.
@@ -351,7 +351,10 @@ optimization."
        CLOSED: [2012-09-07 Fri 05:46]
 ****** TODO `canon/1995-sbx-s13.html`
 ****** TODO `canon/1995-sbx-s7.html`
-****** TODO `canon/1996-04-kcd.html`
+****** DONE `canon/1996-04-kcd.html` -> `canon/kcd.txt`
+       CLOSED: [2013-02-24 Sun 02:57]
+****** DONE HCoop redirect: `canon/1996-04-kcd.html` -> `canon/kcd.html
+       CLOSED: [2013-02-24 Sun 03:20]
 ****** TODO `canon/1996-sbx-s19.html`
 ****** TODO `canon/1996-sbx-s25.html`
 ****** TODO `canon/1997-sbx-s31.html`
@@ -436,10 +439,10 @@ optimization."
 ***** [28%] Add Google Analytics
 ****** TODO To CGI canon/search/index.cgi
 ****** TODO To CGI canon/show.cgi
-****** TODO To HMTL files in `klo/`
-****** TODO To HMTL files in `qq/`
+****** TODO To HTML files in `klo/`
+****** TODO To HTML files in `qq/`
 ****** TODO To CGI piqad/play.cgi
-****** DONE To HMTL files in `dict/`
+****** DONE To HTML files in `dict/`
        CLOSED: [2012-11-10 Sat 00:25]
 ****** DONE dict/index.cgi
        CLOSED: [2012-11-10 Sat 00:26]
@@ -469,11 +472,13 @@ optimization."
       Same goes for http://klingonska.org/dict/, where the logo should link to
       http://klingonska.org/ on all pages, since there are links to all other
       pages on each page.
-***** TODO Center prefix table in pocket dictionary
+***** DONE Center prefix table in pocket dictionary
+      CLOSED: [2012-11-10 Sat 00:42]
       Prefix table in the reference table section is align left, but it should
       be centered. Page: http://klingonska.lal/dict/tables.html
 ***** TODO <ul> lists should also use the little hexagonal bullets
       Page that uses it: http://klingonska.lal/akademien/qephom.html
+      http://klingonska.org/punct.html
 ***** TODO Re-enable insertion of <time>...</time> in markdown2html (?)
       <time> should *not* be inserted inside previously existing <time> tags,
       nor in HTML attributes.
@@ -770,7 +775,7 @@ optimization."
 *** TODO [#5] Page on Klingon dialects
     Which ones do we know of? Names of the dialects? What distinguishes them
     from each other? Phonetically, in terms of vocuabulary etc?
-** TODO Search engine optimizations
+** TODO Search engine optimisations
 ** "Glossary" page
 *** General
 **** TODO Better placement of no-javascript warning
@@ -1145,8 +1150,6 @@ optimization."
      URL + description of sources outside of klingonska.org.
 **** TODO A field for abbreviated name of source
      Examples: TKD, Hallmark, 'u'-MTK, BoP (KBoP), KGT, HQ12:1, etc
-*** TODO Add link to YouTube version of Star Trek Klingon
-    http://www.youtube.com/watch?v=hVo2kVVChU0&feature=youtu.be
 *** TODO Script/Apache config
 **** DONE Replace 'canon/download.cgi' completely with 'canon/show.cgi'
      + 'download.html' which allows user to select which file to download.
@@ -1201,20 +1204,10 @@ optimization."
        This script works the same as the old download.cgi, but also stores a
        cookie. If user already has valid cookie, no login procedure is
        required.
-**** TODO Search engine improvements (canon/search/index.cgi)
+**** [33%] Search engine improvements (canon/search/index.cgi)
 ***** TODO [#2] Review/improve match listings
       This should, preferably, be as similar as possible to the list of sources
       in the main article. Try to imitate Google search results in appearance?
-***** TODO Add Chrome integration (some sort of open protocol?)
-      Most sites search functions (e.g. YouTube, Wikipedia etc.) are
-      automatically detected by Chrome, so that you can auto-complete the site
-      name in the navigation bar, and then automatically do a search on that
-      site without first having to visit it.
-
-      I want that for klingonska!
-
-      How is this done? Is it some kind of microformat that makes Chrome detect
-      search engines?
 
 ***** TODO Query prefix "file:" to search only a specific file
       This should allow globs and comma-separated file names, e.g.
@@ -1231,6 +1224,17 @@ optimization."
       support to work as well (test this out using Firefox with JavaScript disabled).
 
       [http://test.zrajm.org/canon/search/?file=1997-09-01c-news.txt&query=hello]
+***** DONE Add Chrome integration (some sort of open protocol?)
+      CLOSED: [2013-02-04 Mon 11:26]
+      Most sites search functions (e.g. YouTube, Wikipedia etc.) are
+      automatically detected by Chrome, so that you can auto-complete the site
+      name in the navigation bar, and then automatically do a search on that
+      site without first having to visit it.
+
+      I want that for klingonska!
+
+      How is this done? Is it some kind of microformat that makes Chrome detect
+      search engines?
 ***** DONE [#1] Logo beside search form should link back to main article
       CLOSED: [2011-07-03 Sun 20:09]
 *** TODO Improved transcript display script
@@ -1247,7 +1251,6 @@ optimization."
     Each transcript in the http://klingonska.org/canon/ list should have a link
     to the prettified version (as well as to the original text formatted
     transcript).
-
 *** [64%] Transcripts updating/improvement
 **** TODO Add scans of Klingon trading cards                           :SCAN:
      Decpiher Inc + SkyBox cards should be scanned. Links should then be added
@@ -1560,7 +1563,19 @@ optimization."
 ***** <...> (...) [...] etc.
 **** DONE Strip any trailing whitespace at eof/eol (anywhere)
      CLOSED: [2010-10-05 Tue 02:49]
-*** TODO Main article
+*** [50%] Stuff to add to main article
+**** DONE Add link to YouTube version of "Star Trek: Klingon"
+     CLOSED: [2013-02-24 Sun 02:29]
+     http://youtu.be/hVo2kVVChU0
+**** TODO Add "Star Trek: Klingon Bird-of-Prey Haynes Manual" to list of sources
+     http://www.amazon.com/gp/customer-media/product-gallery/145169590X/ref=cm_ciu_pdp_images_1/189-1202925-7907055?ie=UTF8&index=1&isremote=0
+*** [0%] Fixes for main article
+**** TODO Add IDs for table entries which have separate HTML article
+     Entries which have their own separate HTML article (e.g. `canon/kcd.html`)
+     should have their KA logo link back to the entry in the table. I.e.
+     `canon/kcd.html` should have its logo link to `canon/#kcd` (rather than
+     just plain `canon/`) so that the user easily can orient theirself on
+     returning from the detailed article.
 **** TODO Typography/layout in main article
 ***** TODO 1st paragraph after search form overlaps search form
 ***** TODO Use en-dash or hyphen in in ISBNs?
@@ -2739,6 +2754,68 @@ optimization."
 ** TODO "A Quick Reference to Adverbials in Klingon"
 *** Update list of adverbials
 ** TODO "Links to Other Pages About the Klingon Language"
+*** TODO Update "Links to Other Pages About the Klingon Language"
+    This page need a major update, and removal of non-working links.
+
+    Should remove all stuff that does not work, and maybe focus more on being a
+    resource for beginners.
+
+    Felix seems to have a bunch of good resources available in this email
+    thread:
+
+    > One good resource is Lawrence M. Schoen's podcast DaHjaj Hol:
+    > http://www.lawrencemschoen.com/podcasts/dahjaj-hol-110101/
+    > (I believe there's a total of 366 episodes)
+    >
+    > Quvar has 15 or so episodes (in English and German) as "the Klingon
+    > Teacher from Germany":
+    > http://www.facebook.com/Klingonteacher
+    > http://www.youtube.com/watch?v=auqS6FR_RDE
+    >
+    > Klingon Postal Course: http://www.kli.org/study/postcourse.html
+    > (first 6 lessons)
+    >
+    >
+    > Websites:
+    >
+    > maHvatlh's www.klingonska.org (dictionary, grammar guides, songs, canon
+    > archive...)
+    >
+    > qurgh's http://hol.kag.org (dictionary, parser, grammar guides, media,
+    > flash cards...)
+    >
+    > Quvar's www.qepHom.de (mainly info about qepHom, but also some general
+    > info on Klingon, as well as a new words list that build's on the KLI's)
+    > ter'eS' http://teresh.tdonnelly.org/ (Klingon grammar addenda, songs, movies...)
+    >
+    > I have a flash card set for KLCP1 on Memrise:
+    > http://www.memrise.com/set/10016624/klcp1/
+    >
+    >
+    > On Twitter, there's @kwotd (Klingon word of the day).
+    > @tlhInganHol is a bot that tweets Klingon phrases, but some of them aren't
+    > parsed properly, so it's worth taking with a pinch of salt.
+    > I also run @pIqaD, where I try to tweet in pIqaD at least once per day
+    > (though I tend to fail).
+    >
+    > There's also the tlhIngan Hol jatlhwI'pu' Facebook group:
+    > http://www.facebook.com/groups/tlhInganHol/
+    > (not sure if it's invite only or if you can apply to join; if it's invite
+    > only, PM one of the members so that they can add you)
+    >
+    > I have a YouTube series which I intended to be weekly, but I only ever
+    > manage to keep that up for a few weeks at a time :P
+    > http://www.youtube.com/playlist?list=PL0D8C08BAA890637D
+    >
+    > Also, I'd love to see the Klingon practice thread on the xkcd forums come
+    > back to life: http://forums.xkcd.com/viewtopic.php?f=25&t=26688
+    >
+    >
+    > I also have the channel @klingonska on Twitter which tweets Klingon
+    > phrases and info in Swedish.
+    > I'm working on a course plan and would like to start teaching a small
+    > group in Stockholm, but we'll see how that works out.
+
 *** TODO Javascript to display only a single tag/category
 *** TODO Weed out links to non-existing pages
 *** TODO Links to add
@@ -2772,68 +2849,6 @@ optimization."
 ** TODO "Om Klingonska Akademien" -- KA's Logo
 *** TODO Add the moon logos as thumnails on the page
 *** TODO Move all the logos to the pic directory?
-** TODO Update "Links to Other Pages About the Klingon Language"
-   This page need a major update, and removal of non-working links.
-
-   Should remove all stuff that does not work, and maybe focus more on being a
-   resource for beginners.
-
-   Felix seems to have a bunch of good resources available in this email
-   thread:
-
-   > One good resource is Lawrence M. Schoen's podcast DaHjaj Hol:
-   > http://www.lawrencemschoen.com/podcasts/dahjaj-hol-110101/
-   > (I believe there's a total of 366 episodes)
-   >
-   > Quvar has 15 or so episodes (in English and German) as "the Klingon
-   > Teacher from Germany":
-   > http://www.facebook.com/Klingonteacher
-   > http://www.youtube.com/watch?v=auqS6FR_RDE
-   >
-   > Klingon Postal Course: http://www.kli.org/study/postcourse.html
-   > (first 6 lessons)
-   >
-   >
-   > Websites:
-   >
-   > maHvatlh's www.klingonska.org (dictionary, grammar guides, songs, canon
-   > archive...)
-   >
-   > qurgh's http://hol.kag.org (dictionary, parser, grammar guides, media,
-   > flash cards...)
-   >
-   > Quvar's www.qepHom.de (mainly info about qepHom, but also some general
-   > info on Klingon, as well as a new words list that build's on the KLI's)
-   > ter'eS' http://teresh.tdonnelly.org/ (Klingon grammar addenda, songs, movies...)
-   >
-   > I have a flash card set for KLCP1 on Memrise:
-   > http://www.memrise.com/set/10016624/klcp1/
-   >
-   >
-   > On Twitter, there's @kwotd (Klingon word of the day).
-   > @tlhInganHol is a bot that tweets Klingon phrases, but some of them aren't
-   > parsed properly, so it's worth taking with a pinch of salt.
-   > I also run @pIqaD, where I try to tweet in pIqaD at least once per day
-   > (though I tend to fail).
-   >
-   > There's also the tlhIngan Hol jatlhwI'pu' Facebook group:
-   > http://www.facebook.com/groups/tlhInganHol/
-   > (not sure if it's invite only or if you can apply to join; if it's invite
-   > only, PM one of the members so that they can add you)
-   >
-   > I have a YouTube series which I intended to be weekly, but I only ever
-   > manage to keep that up for a few weeks at a time :P
-   > http://www.youtube.com/playlist?list=PL0D8C08BAA890637D
-   >
-   > Also, I'd love to see the Klingon practice thread on the xkcd forums come
-   > back to life: http://forums.xkcd.com/viewtopic.php?f=25&t=26688
-   >
-   >
-   > I also have the channel @klingonska on Twitter which tweets Klingon
-   > phrases and info in Swedish.
-   > I'm working on a course plan and would like to start teaching a small
-   > group in Stockholm, but we'll see how that works out.
-
 ** TODO Lesson list
    http://klingonska.org/lektioner/
 *** Should be listed
