@@ -300,7 +300,7 @@ function errorMsg(str) {
                 highlightedUserInput(tokens),
                 wordTokens.length
             ).save();
-            $('#tab-row .input').trigger('click'); // refresh this tab
+            $('nav.pagetabs .input').trigger('click'); // refresh this tab
         }
         function glossaryTableClick(event) {
             var elem = $(event.target).closest('tr[data-num]'),
@@ -326,10 +326,10 @@ function errorMsg(str) {
             initFlashcards({ glossary: glossary, known: known, dict: dict });
 
             // on page tab click
-            $('#tab-row .input').on('click', function () {
+            $('nav.pagetabs .input').on('click', function () {
                 $('.glosscount').html(glossary.length);
             });
-            $('#tab-row .glossary').on('click', function () {
+            $('nav.pagetabs .glossary').on('click', function () {
                 var total   = glossary.length,
                     unknown = glossary.get().filter(function (entry) {
                         return !known.has(entry);
@@ -337,7 +337,7 @@ function errorMsg(str) {
                 $('.glossary .stats').html(statsMsg(unknown, total, 'text'));
                 redrawTable(outputElement, glossary, known);
             });
-            $('#tab-row .known').on('click', function () {
+            $('nav.pagetabs .known').on('click', function () {
                 var total   = (dict.query({ num: -1 })[0] || { num: 0 }).num,
                     unknown = total - known.length;
                 $('.known .stats').html(statsMsg(unknown, total, 'dictionary'));
@@ -359,7 +359,7 @@ function errorMsg(str) {
                     $('.advanced').addClass('hidden');
                 }
             });
-            $('#tab-row .selected').trigger('click');
+            $('nav.pagetabs .selected').trigger('click');
         }
 
         dict = makeDictionary('../dict/dict.zdb', onLoadDictionary);

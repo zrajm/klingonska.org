@@ -745,6 +745,8 @@ optimization."
     changed (browsable) pages. If the dictionary updates, link should point to
     dict/lexicon.cgi. Maybe make a list of file relations?
 
+    GitHub has a feed for the commits. Can this be used?
+    https://github.com/zrajm/klingonska.org/commits/master.atom
 *** TODO [#4] Add "site news"/updated page
     This should be tied in to "git push" updating process, and not require any
     separate maintenance. It should use log messages, but also include list of
@@ -1675,6 +1677,14 @@ optimization."
     just 19.
 ** TODO "Klingon Pocket Dictionary"
 *** Web page
+**** DONE Fix page tabs links
+     CLOSED: [2013-02-24 Sun 04:49]
+     The page tabs cannot be clicked anywhere, but only on the text. Fix so
+     that clicking anywhere outside the text, but within the tab works equally
+     well.
+
+     This is done by removing the <li>...</li>, replacing them with <a>...</a>
+     and styling the <a> tags appropriately.
 **** DONE Should use the same tab row as the glossary extractor
      CLOSED: [2012-11-28 Wed 02:40]
 **** DONE BUGFIX: Online pocket dictionary show parts of dict.zdb postamble

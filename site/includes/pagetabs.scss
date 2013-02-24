@@ -11,26 +11,18 @@ header.tabbed {
         }
     }
     nav.pagetabs {
+        display: block;
         font-family: sans-serif;
         font-weight: bold;
         font-size: 80%;
         margin: .75em 0 0 0;
+        overflow: hidden;   /* avoids lower edge sticking out 1px (Chrome 22) */
         padding: 0;
         position: relative; /* needed by 'z-index' */
-        z-index: 20;        /* tab row on top of KA logo */
-        /* remove link decorations */
-        a {
-            text-decoration: inherit;
+        text-align: center;
+        z-index: 20;        /* tab row overlapping KA logo */
+        > * {
             color: inherit;
-        }
-        ul {
-            display: block;
-            margin: 0;
-            text-align: center;
-            padding: 0;
-            overflow: hidden; /* avoids lower edge sticking out 1px (Chrome 22) */
-        }
-        li {
             background: #aaa;
             border-top-left-radius: 5px;
             border-top-right-radius: 5px;
@@ -40,12 +32,13 @@ header.tabbed {
             display: inline-block;
             margin: 0;
             padding: .25em .75em .125em;
+            text-decoration: inherit; /* remove link decorations */
         }
-        li:hover {
+        > *:hover {
             background: #ccc;
             color: #444;
         }
-        li.selected {
+        > span.selected {
             background: #fff;
             color: #000;
             cursor: default;

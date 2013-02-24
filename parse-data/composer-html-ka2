@@ -59,14 +59,12 @@ my $PAGE_HEAD = <<"EOF";
         </td>
       </table>
     </a>
-    <nav class=pagetabs>
-      <ul role=navigation>
-        <li><a href="about.html">About</a></li>
-        <li><a href="intro.html">Introduction</a></li>
-        <li><a href="./">Lexicon</a></li>
-        <li class=selected>Suffix Guide</li>
-        <li><a href="tables.html">Reference Tables</a></li>
-      </ul>
+    <nav class=pagetabs role=navigation>
+      <a href="about.html">About</a>
+      <a href="intro.html">Introduction</a>
+      <a href="./">Lexicon</a>
+      <span class=selected>Suffix Guide</span>
+      <a href="tables.html">Reference Tables</a>
     </nav>
   </div>
 </header>

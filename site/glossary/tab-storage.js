@@ -156,7 +156,7 @@
     }
 
     // set up event triggers
-    $('#tab-row .storage').on('click', redrawTable);
+    $('nav.pagetabs .storage').on('click', redrawTable);
     $('button.download', pageElement).on('click', downloadStorage);
     $('button.upload', pageElement).on('click', function () {
         $('.storage input[type="file"]').trigger('click');

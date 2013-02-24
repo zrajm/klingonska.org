@@ -99,7 +99,7 @@ function initFlashcards(opts) {
             questionCell: $('section.practice td.question'),
             answerCell:   $('section.practice td.answer'),
             table:        $('section.practice table.glossary'),
-            tab:          $('#tab-row .practice'),
+            tab:          $('nav.pagetabs .practice'),
             showCell:     $('section.practice td.show'),
             replyCell:    $('section.practice td.reply'),
             helpElement:  $('section.practice .help'),

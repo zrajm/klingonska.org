@@ -7,11 +7,11 @@
 // simulating a click on its tab. (For this to work the receiving end needs to
 // have initialized and be ready to receive.)
 //
-// Page tabs are defined by the <li> children of a <ul id="tab-row"> (only the
-// immediate children of the <ul> element is searched). Each <li> should have
-// 'class' set to the class of the corresponding page. The currently selected
-// tab is marked by adding a 'class=selected' (match this with CSS to highlight
-// the current tab for the end user).
+// Page tabs are defined by the children elements of a <nav class="pagetabs">
+// (only the immediate children of the <nav> element is searched). Each child
+// element should have 'class' set to the class of the corresponding page. The
+// currently selected tab is marked by adding a 'class=selected' (match this
+// with CSS to highlight the current tab for the end user).
 //
 // Pages are any children elements of an element with the attribute 'role=main'
 // set. Pages should be hidden initially, they will be displayed/hidden as
@@ -23,11 +23,9 @@
 // may look like this (you'll have to CSS it too, of course):
 //
 //     <article role=main>
-//       <nav>
-//         <ul id=tab-row>
-//           <li class=one>Tab One</li>
-//           <li class=two>Tab Two</li>
-//         </ul>
+//       <nav class=pagetabs>
+//         <span class=one>Tab One</span>
+//         <span class=two>Tab Two</span>
 //       </nav>
 //       <section class="one hidden">Page One</section>
 //       <section class="two hidden">Page Two</section>
@@ -48,7 +46,7 @@
 $(function () {
     'use strict';
     var storageName = 'tab',
-        tabRowTabs  = $('ul#tab-row > li'),
+        tabRowTabs  = $('nav.pagetabs > *'),
         currentTab  = localStorage.getItem(storageName), // stored tab name
         defaultTab  = null,                       // fallback
         tabs        = {};

@@ -342,14 +342,12 @@ return <<"EOF";
         </td>
       </table>
     </a>
-    <nav class=pagetabs>
-      <ul role=navigation>
-        <li><a href="about.html">About</a></li>
-        <li><a href="intro.html">Introduction</a></li>
-        <li class=selected>Lexicon</li>
-        <li><a href="suffix.html">Suffix Guide</a></li>
-        <li><a href="tables.html">Reference Tables</a></li>
-      </ul>
+    <nav class=pagetabs role=navigation>
+      <a href="about.html">About</a>
+      <a href="intro.html">Introduction</a>
+      <span class=selected>Lexicon</span>
+      <a href="suffix.html">Suffix Guide</a>
+      <a href="tables.html">Reference Tables</a>
     </nav>
   </div>
 </header>
