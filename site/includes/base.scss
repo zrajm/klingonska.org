@@ -150,6 +150,9 @@ header {
         max-width: 42em;          /* max page width */
         padding: .5em 0;
         /* logo & site title */
+        a {
+            text-decoration: none; /* no underlining of logo in Firefox */
+        }
         a:hover table {
             h1 {
                 text-shadow:

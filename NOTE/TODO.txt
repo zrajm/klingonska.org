@@ -170,9 +170,15 @@ optimization."
    of links, but remove 'text-decoration: none;' for the usual style?
 * Site content
 ** TODO Do a surf-through check for weird/old shit
-** TODO Systematic/site-wide changes
+** [11%] Systematic/site-wide changes
    I.e. changes that need to be applied to the web page as a whole.
-*** TODO Site redesign
+*** [0%] Social network interactivity
+**** TODO Add Flattr button
+     Are there any security issues with the Flattr button?
+**** TODO Add Facebook like button
+     Is it possible to have a like button that does not allow facebook to track
+     your visits?
+*** [33%] Site redesign
 **** TODO Add Open Graph tags for link previews (for Facebook etc.)
      More docs on the Open Graph protocol:
      https://developers.facebook.com/docs/opengraphprotocol/
@@ -184,7 +190,6 @@ optimization."
 **** DONE Design new look (more modern looking, but still simple)
      CLOSED: [2012-06-09 Sat 11:21]
      This should fix:
-
        * Limiting line 'max-width' for readability
        * Niftier design with a splash of red color in the header
        * Using updated web standards (HTML5, Javascript, microdata etc.)
@@ -192,28 +197,6 @@ optimization."
        * Building (minified) CSSes from SCSS (Sassy Stylesheets)
        * Using a HTML template = centralized header/footer
        * Page source (whenever possible) in markdown
-**** DONE [100%] Move site repo to GitHub
-     CLOSED: [2012-06-20 Wed 15:31]
-     This will save about 50M of diskspace on HCoop (where space is expensive),
-     and future minifications and file compressions will work to save even more
-     space. (As long as the git repo resided on HCoop all changes would make
-     the site take up more diskspace, since the repo always grows with each
-     commit).
-***** DONE Update the old repo on GitHub
-      CLOSED: [2012-06-19 Tue 21:00]
-      Change git repo remote 'origin' so it points to GitHub instead of HCoop.
-      All future 'git push' will thus feed into GitHub.
-***** DONE Remove HCoop git repo
-      CLOSED: [2012-06-19 Tue 21:21]
-      And un-publish it from HCoops list of git repos.
-***** DONE Redirect git.klingonska.org to GitHub
-      CLOSED: [2012-06-19 Tue 22:13]
-      Redirect to this URL: https://github.com/zrajm/klingonska.org
-***** DONE Publish modified site on HCoop
-      CLOSED: [2012-06-20 Wed 13:59]
-      New make target 'make publish' for publishing the site to HCoop.
-***** DONE Add README.md for GitHub
-      CLOSED: [2012-06-20 Wed 15:30]
 **** [57%] Add new look to all pages (except KLO for now)
 ***** DONE <script>...</script> blocks should not be parsed for markdown
       CLOSED: [2012-06-26 Tue 02:45]
@@ -517,14 +500,6 @@ optimization."
 **** TODO Verify that 'make linkcheck' actually does something useful
 **** TODO HTML5 navigation menus (<nav>...</nav>?)
 **** TODO Make sure new design looks good in text only-browsers (lynx etc.)
-**** DONE New motto/tagline for site
-     CLOSED: [2012-09-26 Wed 09:07]
-     Changed to: "– Your guide to the Klingon language."
-
-     Other suggestions:
-     * "*The* Klingon language reference site."?
-     * "The one-shop-stop for all you Klingon language needs."?
-     * "Klingon language reference tools since 1998."?
 **** [0%] Minor tweaks (low priority)
 ***** TODO Remove metadata field 'year', use 'created' and 'updated' instead
       'markdown2html' should base copyright year on creation date + last
@@ -593,6 +568,36 @@ optimization."
 ***** TODO Javascript to alert user of updated parts
       The navigation menus should have signage indicating that a section is
       newly updated if changed within the last -- month? two weeks?
+**** DONE [100%] Move site repo to GitHub
+     CLOSED: [2012-06-20 Wed 15:31]
+     This will save about 50M of diskspace on HCoop (where space is expensive),
+     and future minifications and file compressions will work to save even more
+     space. (As long as the git repo resided on HCoop all changes would make
+     the site take up more diskspace, since the repo always grows with each
+     commit).
+***** DONE Update the old repo on GitHub
+      CLOSED: [2012-06-19 Tue 21:00]
+      Change git repo remote 'origin' so it points to GitHub instead of HCoop.
+      All future 'git push' will thus feed into GitHub.
+***** DONE Remove HCoop git repo
+      CLOSED: [2012-06-19 Tue 21:21]
+      And un-publish it from HCoops list of git repos.
+***** DONE Redirect git.klingonska.org to GitHub
+      CLOSED: [2012-06-19 Tue 22:13]
+      Redirect to this URL: https://github.com/zrajm/klingonska.org
+***** DONE Publish modified site on HCoop
+      CLOSED: [2012-06-20 Wed 13:59]
+      New make target 'make publish' for publishing the site to HCoop.
+***** DONE Add README.md for GitHub
+      CLOSED: [2012-06-20 Wed 15:30]
+**** DONE New motto/tagline for site
+     CLOSED: [2012-09-26 Wed 09:07]
+     Changed to: "– Your guide to the Klingon language."
+
+     Other suggestions:
+     * "*The* Klingon language reference site."?
+     * "The one-shop-stop for all you Klingon language needs."?
+     * "Klingon language reference tools since 1998."?
 *** TODO Redesign <div class=gallery>
     `/songs/tahjaj_wo/` has got it right, but all other occurances need to be
     updated.
@@ -647,7 +652,6 @@ optimization."
 *** TODO Lower-case all HTML
 *** TODO Make sure all tags have their corresponding end tag
     E.g. <p>...</p> and <meta ... />.
-*** TODO Quote all attribute values
 *** TODO "Typographical" quotes
 *** TODO Feedback form at end of each page (again)
     This is the old code, using SSI:
@@ -660,18 +664,9 @@ optimization."
     --><!--#include virtual="/.log.cgi"
     --><!--#endif -->
 
-*** TODO Switch to HTML5(?)
-    Read up on the stuff here:
-    http://www.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/
-**** TODO Benefit - Autofocus for forms
-**** TODO Benefit - Place holder text for forms
 *** TODO Optimize jpeg images
     Johan at work mentioned that JPEGs can be radically shrunk by optimizing
     the hash tables in them.
-*** DONE Replace <strong lang="tlh"> with <b lang="tlh">
-    CLOSED: [2011-07-03 Sun 18:19]
-*** DONE Mark all Klingon with <b lang="tlh">...</b>
-    CLOSED: [2011-07-04 Mon 09:37]
 *** TODO Disable word-wrap for naked Klingon affixes
     Use 'class="affix"', e.g. <b lang="tlh" class="affix">...</b>.
 
@@ -704,7 +699,7 @@ optimization."
      <tr><td align=right valign=center><img src="/pic/ny.gif" width=31 height=14 alt="Ny" hspace=5></td>
      <tr><td align=right valign=center><img src="/pic/andrad.gif" width=54 height=14 alt="Ändrad" hspace=5></td>
      <tr><td align=right valign=center><img src="/pic/dot.gif" width=15 height=14 alt="*" hspace=5></td>
-*** TODO CSS-based design
+*** TODO CSS design
 **** TODO Images should have borders when linked
      Use CSS from: http://klingonska.org/songs/tahjaj_wo/index.html
 **** TODO Name in footer/copyright notice should not be italics
@@ -729,6 +724,12 @@ optimization."
         <{HolQeD} 2:2>, pp.10--12
         <{HolQeD} 2:2> (pp.10--12)
         <{HolQeD} 2:2> (pages 10--12)
+*** DONE Make page logo non-underlined in Firefox
+    CLOSED: [2013-02-24 Sun 13:19]
+*** DONE Replace <strong lang="tlh"> with <b lang="tlh">
+    CLOSED: [2011-07-03 Sun 18:19]
+*** DONE Mark all Klingon with <b lang="tlh">...</b>
+    CLOSED: [2011-07-04 Mon 09:37]
 *** DONE Add navigation breadcrumbs to all pages
     CLOSED: [2011-07-02 Sat 22:29]
     Commit breadcrumb on all pages in a single commit.
@@ -783,10 +784,14 @@ optimization."
 **** TODO Better placement of no-javascript warning
      Many webpages seem to have this at the very top of the page, and maybe
      unscrollable?
-**** [66%] Code fixes
+**** [50%] Code fixes
+***** TODO Merge all scripts into one
 ***** TODO Each tab should have its own script file
       Which would then require that page.js declare everything relevant to this in
       a global scope.
+
+      The build script should merge all these scripts and minify them as one
+      entity, makeing sure that all prerequisits are included.
 ***** DONE Sorttable should be invoked from javascript
       CLOSED: [2012-11-29 Thu 19:24]
 ***** DONE tag() should accept number as content arg
@@ -816,8 +821,9 @@ optimization."
       browsers.
 
       It also causes side scrolling on page. :(
-**** [66%] Site integration
-***** TODO Add link to it from main page
+**** [83%] Site integration
+***** DONE Add link to it from main page
+      CLOSED: [2012-12-22 Sat 23:06]
 ***** TODO Move CSS files into 'includes' directory
 ***** DONE Update modernizr path in HTML
       CLOSED: [2012-11-16 Fri 04:16]
@@ -2274,7 +2280,6 @@ optimization."
       {tlhIngan Hol mu'ghomlIj mach}.
 
       Facebook: December 14 at 11:24pm
-
 ***** [100%] {qep'a'} 2010 words
       CLOSED: [2011-02-07 Mon 02:29]
 ****** DONE News from Maltz: mIllogh
