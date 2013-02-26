@@ -2,7 +2,7 @@
 
 #noscript {
     background: #ff0;
-    border: .5em dotted black;
+    border: .5em dashed black;
     padding: .5em 1em;
     margin: 1em 0;
     font-family: sans-serif;

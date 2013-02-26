@@ -1325,6 +1325,7 @@
         selectorElement.on('change', function () { setLang(this.value); });
     });
 
+
     /*****************************************************************************\
     *******************************************************************************
     \*****************************************************************************/
@@ -1534,13 +1535,6 @@
             return lang === 'tlh' ? tlhHTML(quesEntry) : nonTlhHTML(quesEntry);
         }
 
-        function outOfQuestions() {
-            dom.questionCell.html('No more words.');
-            dom.answerCell.empty();
-            dom.showCell.addClass('hidden');
-            dom.replyCell.addClass('hidden');
-        }
-
         function replyButtonsKey() {
             // left/right arrow -- move focus left/right
             // 1 -- Fail
@@ -1628,7 +1622,8 @@
         }
 
         function outputDumpTable(deck, dict) {
-            dom.table.html(dumpTableHTML(deck, dict));
+            var html = tag('table', dumpTableHTML(deck, dict));
+            dom.table.html(html);
         }
 
         // Invoked on switching to the 'Practice' tab.
@@ -1658,19 +1653,26 @@
             var questionId = quesEntry.id,
                 point      = (store.get(questionId, 'point') || 0) + addPoint;
             store.set(questionId, 'point', point); // set new points
-
-            //console.log('point: ' + point + ' (required: ' + (enTlhCount + tlhEnCount) + ')');
-
             if (point < enTlhCount + tlhEnCount) {
                 deck.push(questionId);             // put card back
             } else {
-                //console.log('done practicing ' + quesEntry.tlh);
                 opts.known.add([ quesEntry ]);     // add to "Known Words"
             }
         }
 
         function knownButtonClick(quesEntry) {
             opts.known.add([ quesEntry ]);
+        }
+
+        function outOfQuestions() {
+            dom.questionCell.html(
+                tag('span', 'No words left to practice.', 'lang=en') +
+                    tag('span', 'Inga ord kvar att träna på.', 'lang=sv')
+            );
+            dom.answerCell.empty();
+            dom.showCell.addClass('hidden');
+            dom.replyCell.addClass('hidden');
+            outputHelp();
         }
 
         // Uses global 'opts.dict' + 'deck'.
@@ -1699,6 +1701,7 @@
             deck = generateNewDeck(opts.glossary, opts.known);
             localStorage.setItem('deck',  JSON.stringify(deck));
             questionEntry = newQuestion(deck, opts.dict);
+            outputHelp();                          // clear help text for button
         }
 
         function buttonFocusout() {
@@ -1739,7 +1742,7 @@
         $('button.show', dom.showCell).on('mouseenter focusin', function () {
             outputHelp(
                 'Picture the answer in your mind, then press <i><b>Show ' +
-                    'Answer</b></i> to see if you are right.'
+                    'Answer</b></i> to see if remember correctly.'
             );
         });
         $('button.fail', dom.replyCell).on('mouseenter focusin', function () {
@@ -1917,9 +1920,11 @@
                 });
                 // FIXME: write this using tag()
                 return '<span class="' + obj.getTags().join(' ') + '" title="' +
-                    'Part of Speech: ' + (obj.getTags().join(', ') || 'N/A') + '\n' +
-                    'Breakdown:\n    ' + (title.join('\n    ') || 'N/A') + '\n' +
-                    JSON.stringify(obj, null, 4).replace(/\"/g, '&quot;') + '">' +
+                    'Part-of-Speech: ' + (obj.getTags().join(', ') || 'N/A') +
+                    '\n' + 'Breakdown:\n    ' + (title.join('\n    ') || 'N/A') +
+                    // DEBUG
+                    // '\n' + JSON.stringify(obj, null, 4).replace(/\"/g, '&quot;') +
+                    '">' +
                     '<span>' + obj.getText() + '</span></span>';
             }).join('');
         }

@@ -1020,7 +1020,17 @@ optimization."
 **** DONE Any flashcard functionality
      CLOSED: [2012-11-29 Thu 19:27]
      Just seeing something that works.
-*** [62%] "Known Words" tab
+*** [55%] "Known Words" tab
+**** TODO Date column (when word became known)
+     Each of the known words should have a date showing when it became known.
+     There should also be an indicator of *how* the word was marked as known --
+     whether manually (in the glossary tab, or using the "Known" button when
+     practicing) or automatically (by answering correctly enough times when
+     practicing).
+
+     Maybe the date could be colored, depending on whether it was automatic or
+     not? Or a separate (checkbox?) column, so that user may sort table by
+     that?
 **** TODO Crossing out of words in known list
      Should uncross them on the glossary page. They should remain visible on the
      known page (in the crossed out state), but there should be a button to
