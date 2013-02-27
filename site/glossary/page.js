@@ -704,7 +704,7 @@
                 var entry = { num: (count += 1) }, citeCount = 1;
                 chunk.split(/\n/).forEach(function (line) {
                     /*jslint regexp: true */
-                    var match = line.match(/^(\w*):\s+([^]*)/),
+                    var match = line.match(/^(\w*):\s+([^XXX]*)/),
                         field = match[1],
                         value = match[2];
                     /*jslint regexp: false */
@@ -1329,6 +1329,100 @@
     /*****************************************************************************\
     *******************************************************************************
     \*****************************************************************************/
+    /*file: makepracticedeck */
+
+    // FIXME: This maker function should probably be rewritten reuse the same
+    // prototype, rather than re-instantiate it on every invocation.
+    function makePracticeDeck(values) {
+        var object, proto;
+
+        // Splice random element from <array>. If <skip> is given, don't take
+        // any of the <skip> number of elements at the end of the list. Return
+        // undefined if <skip> is larger than the number of elements in
+        // <array>, or if <array> is empty.
+        function spliceRandom(array, skip) {
+            var max = array.length - (skip || 0),
+                rnd = Math.floor(Math.random() * max);
+            if (max < 1) { return undefined; }
+            return array.splice(rnd, 1).pop();
+        }
+
+        proto = {
+            count: function () {
+                return this.main.length + this.loop.length;
+            },
+            // Reset the deck.
+            reset: function (values) {
+                this.main = values;
+                this.loop = [];
+                return this;
+            },
+            // This will pick a value from the 'loop' part of the deck, if
+            // possible. If not, it'll take a new word from the 'main' part,
+            // and if even that fails (because there are too few words), then
+            // it will pick a word from the 'wait' part of the deck (this means
+            // that when the total number of words is lower than 'skipSize' the
+            // same word may come up twice).
+            //
+            // NOTE: When <loop> isn't full, we *always* take from main. This
+            // is not very random, maybe we should select a random entry
+            // between 0 and <loopSize>, and only if the selected value is
+            // larger than <loop.length> - <skipSize> grab a random value from
+            // <main>.
+            get: function () {
+                // take from 'loop' if full (random, excluding 'skipSize' newest)
+                if (this.loop.length >= this.loopSize) {
+                    return spliceRandom(this.loop, this.skipSize);
+                }
+                // take from 'main' if non-empty (random)
+                if (this.main.length > 0) {
+                    return spliceRandom(this.main);
+                }
+                // try 'loop' again if non-empty
+                // 'loop' has more than 'skipSize' elements (random, exclude 'skipSize')
+                if (this.loop.length > this.skipSize) {
+                    return spliceRandom(this.loop, this.skipSize);
+                }
+                // 'loop' has more than one element (random, exclude last)
+                if (this.loop.length > 1) {
+                    return spliceRandom(this.loop, 1);
+                }
+                // 'loop' has fewer than one element
+                return this.loop.pop();
+            },
+            // Put card back in deck. If <loop> becomes overfull, then a random
+            // element in <loop> is put back in <main> (<skipSize> is ignored
+            // in this selection, so potentially the item put back can wind up
+            // in the <main> deck.)
+            put: function (value) {
+                this.loop.push(value);
+                // if 'loop' is full, move random to 'main'
+                if (this.loop.length > this.loopSize) {
+                    this.main.push(spliceRandom(this.loop));
+                }
+            },
+            // get/set loop size (use 'null' for default)
+            size: function (value) {
+                if (arguments.length === 0) { return this.loopSize; }
+                this.loopSize = (typeof value === 'number' ? value : 10);
+                return this;
+            },
+            // get/set skip (use 'null' for default)
+            skip: function (value) {
+                if (arguments.length === 0) { return this.skipSize; }
+                this.skipSize = (typeof value === 'number' ? value : 3);
+                return this;
+            }
+        };
+
+        object = Object.create(proto);
+        return object.reset(values).size(null).skip(null);
+    }
+
+
+    /*****************************************************************************\
+    *******************************************************************************
+    \*****************************************************************************/
     /*file: flashcards */
 
     /*
@@ -1420,7 +1514,7 @@
 
     function initFlashcards(opts) {
         var questionEntry,
-            deck = [],
+            deck = makePracticeDeck(),
             tlhEnCount = 3,
             enTlhCount = 3,
             dom = {
@@ -1608,21 +1702,30 @@
         }
 
         // Debug output thingy. (Uses global 'store'.)
-        function dumpTableHTML(wordIDs, dict) {
-            var tbody = [];
+        function dumpTableHTML(wordIDs, dict, attr) {
+            var i = 1, tbody = [];
             wordIDs.forEach(function (id) {
                 var entry = dict.query({ id: id })[0],
                     count = store.get(id, 'count') || 0,
                     point = store.get(id, 'point') || 0;
                 tbody.push(tag('tr',
-                    tag('td', count + ' (' + point + ')') +
-                    tag('td', entry.tlh)));
+                    tag('td', i) +
+                    tag('td', entry.id) +
+                    tag('td', point) +
+                    tag('td', count),
+                    attr));
+                i += 1;
             });
             return tag('tbody', tbody.join(''));
         }
 
-        function outputDumpTable(deck, dict) {
-            var html = tag('table', dumpTableHTML(deck, dict));
+        function outputDumpTable(questionId, deck, dict) {
+            var html = tag('table',
+                    tag('tr', tag('th', 'Num') + tag('th', 'ID') + tag('th', 'Score') + tag('th', 'In Text')) +
+                        dumpTableHTML([questionId], dict, 'class=n title="Currently displayed word"') +
+                        dumpTableHTML(deck.loop, dict, 'class=v title="Words being practiced now"') +
+                        dumpTableHTML(deck.main, dict, 'class=adv title="Words remaining to practice"')
+                    );
             dom.table.html(html);
         }
 
@@ -1635,18 +1738,18 @@
             });
             // set store of each incoming glossary word
             return entries.filter(function (entry) {
-                return !known.has(entry);          // all non-known entries
+                return !known.has(entry);      // all non-known entries
             }).map(function (entry) {
                 var id = entry.id;
-                store.set(id, 'count', entry.count);   //   save word count
-                return id;                         // keep only 'id' field
+                store.set(id, 'count', entry.count); //   save word count
+                return id;                     // keep only 'id' field
             });
         }
 
         function failButtonClick(quesEntry) {
             var questionId = quesEntry.id;
             store.set(questionId, 'point', 0);
-            deck.push(questionId);                 // put card back
+            deck.put(questionId);              // put card back
         }
 
         function hardButtonClick(quesEntry, addPoint) {
@@ -1654,9 +1757,9 @@
                 point      = (store.get(questionId, 'point') || 0) + addPoint;
             store.set(questionId, 'point', point); // set new points
             if (point < enTlhCount + tlhEnCount) {
-                deck.push(questionId);             // put card back
+                deck.put(questionId);          // put card back
             } else {
-                opts.known.add([ quesEntry ]);     // add to "Known Words"
+                opts.known.add([ quesEntry ]); // add to "Known Words"
             }
         }
 
@@ -1678,27 +1781,28 @@
         // Uses global 'opts.dict' + 'deck'.
         function newQuestion(deck, dict) {
             var questionId, quesEntry, remainCount, totalCount;
-            if (deck.length === 0) {               // stop if no more questions
+            if (deck.count() === 0) {          // stop if no more questions
                 outOfQuestions();
                 return;
             }
-            questionId  = deck.shift();          // get question
+            questionId  = deck.get();          // get question
             quesEntry   = dict.query({ id: questionId })[0];
-            remainCount = deck.length;           // output question count
-            totalCount  = opts.glossary.length;  // glossaries in text
+            remainCount = deck.count();        // output question count
+            totalCount  = opts.glossary.length;// glossaries in text
             $('section.practice .remaincount').html(remainCount);
             $('section.practice .donecount').html(totalCount - remainCount);
             $('section.practice .totalcount').html(totalCount);
             $('section.practice progress.total').attr('max', totalCount);
             $('section.practice progress.total').attr('value', totalCount - remainCount);
             outputQuestion(quesEntry);
-            outputDumpTable(deck, dict);
+            outputDumpTable(questionId, deck, dict);
             return quesEntry;
         }
 
         // User selected (or reselected) this tab.
         function onTabClick() {
-            deck = generateNewDeck(opts.glossary, opts.known);
+            deck.reset(generateNewDeck(opts.glossary, opts.known));
+            // FIXME: is this appropriate -- how (if at all?) should deck be stored?
             localStorage.setItem('deck',  JSON.stringify(deck));
             questionEntry = newQuestion(deck, opts.dict);
             outputHelp();                          // clear help text for button

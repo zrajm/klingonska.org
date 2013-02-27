@@ -930,6 +930,10 @@ optimization."
 **** DONE Clear button should clear glossary as well
      CLOSED: [2012-11-14 Wed 03:53]
 *** [71%] "Glossary" tab
+**** TODO Marking word as "unknown" should reset score
+     This should possibly not occur at once, but when flipping to the
+     "Practice" tab (this would allow words to be toggled back and forth,
+     without modifying the score).
 **** TODO Button for hiding/showing crossed out words
      There should be a selector, with which one can show/hide the words that are
      known. (If shown, they should be crossed out.)
@@ -952,8 +956,13 @@ optimization."
      CLOSED: [2012-11-16 Fri 02:07]
      Text and glossary list should have a line where the number of words,
      verbs, nouns etc are listed.
-*** [40%] "Practice" tab
+*** [50%] "Practice" tab
     Stack: Entries selected from start or end. Deck: Entries selected randomly.
+**** [0%] User config
+***** TODO User should be able to set deck loop size
+***** TODO User should be able to set deck non-repeat size
+***** TODO User should be able to set tlhEnCount (also load/save it)
+***** TODO User should be able to set enTlhCount (also load/save it)
 **** TODO Timer when responding to flashcards
 **** [0%] Handle synonyms & homonyms
      Question always display part-of-speech. Answer may contain multiple
@@ -973,7 +982,8 @@ optimization."
       only those translations that *are* present in glossary should be
       displayed.
 **** TODO Progress bar for "Known Words" and "Glossary"
-**** TODO Non-repeat stack
+**** DONE Non-repeat stack
+     CLOSED: [2013-02-27 Wed 02:41]
      Having a small intermediate stack used to make sure that when randomly
      selecting words, the last X number of words are not repeated. (E.g. the
      one word should not occur twice in a row, or be repeated very soon.)
@@ -983,14 +993,13 @@ optimization."
      detail.
 **** TODO Weighted random choice in loop
      Tell "Christoph Pichlmann <pichlmann-at-fredlarts.at>" when this is working.
-**** TODO Loop deck
+**** DONE Loop deck
+     CLOSED: [2013-02-27 Wed 02:41]
      Cycle through the loop deck, instead of the entire glossary when
      Practicing new words. This way the user's memory have a better chance of
      picking up the words.
 
      Write comment for John Harness on [[https://www.facebook.com/groups/tlhInganHol/permalink/569525713063692/][this facebook thread]], when it is done.
-**** TODO Config
-     tlhEnCount and enTlhCount should be settable and loaded/saved.
 **** TODO Part-of-speech should *not* be abbreviated
 **** TODO Some way to mark especially troublesome words
      Words that you have a recurring problem with, and might want to rehearse
