@@ -28,7 +28,6 @@ header.tabbed {
             border-top-right-radius: 5px;
             border: solid #922;
             border-width: 1px 1px 0;
-            cursor: pointer;
             display: inline-block;
             margin: 0;
             padding: .25em .75em .125em;
@@ -38,10 +37,9 @@ header.tabbed {
             background: #ccc;
             color: #444;
         }
-        > span.selected {
+        > .selected {
             background: #fff;
             color: #000;
-            cursor: default;
         }
     }
 }

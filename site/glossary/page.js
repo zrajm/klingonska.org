@@ -1,5 +1,6 @@
 /* jslint vars: true */
-/*global $, event, clearTimeout, setTimeout, localStorage, sorttable, Blob, FileReader */
+/*global $, Blob, FileReader, clearTimeout, document, history, localStorage,
+  location, setTimeout, sorttable, window */
 
 (function (window, document) {
     'use strict';
@@ -704,7 +705,7 @@
                 var entry = { num: (count += 1) }, citeCount = 1;
                 chunk.split(/\n/).forEach(function (line) {
                     /*jslint regexp: true */
-                    var match = line.match(/^(\w*):\s+([^XXX]*)/),
+                    var match = line.match(/^(\w*):\s+([^]*)/),
                         field = match[1],
                         value = match[2];
                     /*jslint regexp: false */
@@ -1522,7 +1523,7 @@
                 questionCell: $('section.practice td.question'),
                 answerCell:   $('section.practice td.answer'),
                 table:        $('section.practice table.glossary'),
-                tab:          $('nav.pagetabs .practice'),
+                tab:          $('nav.pagetabs [href="#practice"]'),
                 showCell:     $('section.practice td.show'),
                 replyCell:    $('section.practice td.reply'),
                 helpElement:  $('section.practice .help'),
@@ -1629,7 +1630,7 @@
             return lang === 'tlh' ? tlhHTML(quesEntry) : nonTlhHTML(quesEntry);
         }
 
-        function replyButtonsKey() {
+        function replyButtonsKey(event) {
             // left/right arrow -- move focus left/right
             // 1 -- Fail
             // 2 -- Got It
@@ -1842,11 +1843,11 @@
             knownButtonClick(questionEntry);
             questionEntry = newQuestion(deck, opts.dict);
         });
-
         $('button.show', dom.showCell).on('mouseenter focusin', function () {
             outputHelp(
                 'Picture the answer in your mind, then press <i><b>Show ' +
-                    'Answer</b></i> to see if remember correctly.'
+                    'Answer</b></i> to see if remember correctly.',
+                'space'
             );
         });
         $('button.fail', dom.replyCell).on('mouseenter focusin', function () {
@@ -2194,7 +2195,7 @@
                     highlightedUserInput(tokens),
                     wordTokens.length
                 ).save();
-                $('nav.pagetabs .input').trigger('click'); // refresh this tab
+                $('nav.pagetabs [href="#input"]').trigger('click'); // refresh this tab
             }
             function glossaryTableClick(event) {
                 var elem = $(event.target).closest('tr[data-num]'),
@@ -2220,21 +2221,21 @@
                 initFlashcards({ glossary: glossary, known: known, dict: dict });
 
                 // on page tab click
-                $('nav.pagetabs .input').on('click', function () {
+                $('nav.pagetabs [href="#input"]').on('click', function () {
                     $('.glosscount').html(glossary.length);
                 });
-                $('nav.pagetabs .glossary').on('click', function () {
+                $('nav.pagetabs [href="#glossary"]').on('click', function () {
                     var total   = glossary.length,
                         unknown = glossary.get().filter(function (entry) {
                             return !known.has(entry);
                         }).length;
-                    $('.glossary .stats').html(statsMsg(unknown, total, 'text'));
+                    $('section.glossary .stats').html(statsMsg(unknown, total, 'text'));
                     redrawTable(outputElement, glossary, known);
                 });
-                $('nav.pagetabs .known').on('click', function () {
+                $('nav.pagetabs [href="#known"]').on('click', function () {
                     var total   = (dict.query({ num: -1 })[0] || { num: 0 }).num,
                         unknown = total - known.length;
-                    $('.known .stats').html(statsMsg(unknown, total, 'dictionary'));
+                    $('section.known .stats').html(statsMsg(unknown, total, 'dictionary'));
                     redrawTable(knownElement, known);
                 });
 
@@ -2268,7 +2269,7 @@
     /*file: tab-storage */
 
     (function () {
-        var magicNumber   = '# http://klingonska.org' + window.location.pathname + '\n',
+        var magicNumber   = '# http://klingonska.org' + location.pathname + '\n',
             magicNumberRe = new RegExp('^' + magicNumber.replace(/\//g, '\\/')),
             pageElement = $('[role="main"] > .storage'),
             status = (function () {
@@ -2411,7 +2412,7 @@
         }
 
         // set up event triggers
-        $('nav.pagetabs .storage').on('click', redrawTable);
+        $('nav.pagetabs [href="#storage"]').on('click', redrawTable);
         $('button.download', pageElement).on('click', downloadStorage);
         $('button.upload', pageElement).on('click', function () {
             $('.storage input[type="file"]').trigger('click');
@@ -2450,73 +2451,81 @@
     // NOTE
     // ====
     // This should load last, so that it may trigger other tab scripts by
-    // simulating a click on its tab. (For this to work the receiving end needs to
-    // have initialized and be ready to receive.)
+    // simulating a click on its tab. (For this to work the receiving end needs
+    // to have initialized and be ready to receive.)
     //
-    // Page tabs are defined by the children elements of a <nav class="pagetabs">
-    // (only the immediate children of the <nav> element is searched). Each child
-    // element should have 'class' set to the class of the corresponding page. The
-    // currently selected tab is marked by adding a 'class=selected' (match this
-    // with CSS to highlight the current tab for the end user).
+    // Page tabs are defined by the <a> children of a <nav class="pagetabs">
+    // (only the immediate children of the <nav> element is searched). Each
+    // child element should have 'href="#<id>"' set to the class of the
+    // corresponding page. The currently selected tab is marked by adding a
+    // 'class=selected' (match against this with CSS to highlight the current
+    // tab).
     //
-    // Pages are any children elements of an element with the attribute 'role=main'
-    // set. Pages should be hidden initially, they will be displayed/hidden as
-    // needed by this script. All pages, except the currently shown will get
-    // 'class=hidden' (match this with CSS to set 'display:none' on all but the
-    // current page).
+    // Pages are child <section> elements of an element with the attribute
+    // 'role=main' set. All pages should have 'class=hidden' set, and CSS
+    // should be used to hide these pages based on theis class. This script
+    // will remove 'class=hidden' for the currently displayed page.
     //
-    // A very minimal page with all the required arguments for using this script
-    // may look like this (you'll have to CSS it too, of course):
+    // A very minimal page with all the required arguments for using this
+    // script may look like this (you'll need some CSS too, of course):
     //
+    //     <nav class=pagetabs>
+    //       <a href="#one">Tab One</a>
+    //       <a href="#two">Tab Two</a>
+    //     </nav>
     //     <article role=main>
-    //       <nav class=pagetabs>
-    //         <span class=one>Tab One</span>
-    //         <span class=two>Tab Two</span>
-    //       </nav>
     //       <section class="one hidden">Page One</section>
     //       <section class="two hidden">Page Two</section>
     //     </article>
-    //     <script src="pagetabs.js"></script>
+    //     <script src="page.js"></script>
     //
-    // The currently selected tab is stored in localStorage, so that on page
-    // reload, the same tab remains open.
+    // The currently selected tab is stored as a hashlocation in the url, so
+    // that on page (re)load, the url determines which tab to open.
     //
     //     tabs = {
     //         "input": {                  // tab name
-    //             tab: <jQuery object>,   //   jQuery/DOM object of tab
-    //             page: <jQuery object>   //   jQuery/DOM object of tab's page
+    //             tab:  <jQuery object>,  //   jQuery DOM object of tab
+    //             page: <jQuery object>   //   jQuery DOM object of tab's page
     //         },
     //         ...
     //     }
     //
+
     $(function () {
-        var storageName = 'tab',
+        var docTitle = ' \u2013 ' + document.title,
+            currentPage = null,
             tabRowTabs  = $('nav.pagetabs > *'),
-            currentTab  = localStorage.getItem(storageName), // stored tab name
-            defaultTab  = null,                       // fallback
-            tabs        = {};
-        function change(newTabName) {
-            var oldPage = tabs[currentTab],
-                newPage = tabs[newTabName] || tabs[defaultTab];
-            if (oldPage) {
-                oldPage.tab.removeClass('selected');  // deselect old tab
-                oldPage.page.addClass('hidden');      // hide old page
-            }
-            newPage.tab.addClass('selected');         // select new tab
-            newPage.page.removeClass('hidden');       // display new page
-            currentTab = newTabName;                  // remember current tab
-            localStorage.setItem(storageName, newTabName); // save current tab
-        }
-        // build 'tabs' object
-        tabRowTabs.each(function () {
-            var tabObject  = $(this),
-                tabName    = tabObject.attr('class'),
-                pageObject = $('[role="main"] > section.' + tabName);
-            tabs[tabName] = { tab: tabObject, page: pageObject };
-            tabObject.on('click', function () { change(tabName); });
+            defaultTabName = tabRowTabs.eq(0).attr('href').slice(1), // 1st tab
+            tabs = {};
+        tabRowTabs.each(function () {        // build 'tabs' object
+            var tabElem  = $(this),
+                tabName  = tabElem.attr('href').slice(1),
+                pageElem = $('[role="main"] > section.' + tabName);
+            tabs[tabName] = { tab: tabElem, page: pageElem };
         });
-        defaultTab = tabRowTabs.eq(0).attr('class'); // use 1st tab
-        tabs[currentTab || defaultTab].tab.trigger('click');
+
+        function change() {
+            var newTabName = location.hash.slice(1),
+                newPage    = tabs[newTabName];
+            // on bad hashlocation -- goto default tab (if browser supports it)
+            if (!newPage) {
+                if (typeof history.replaceState === "function") {
+                    window.history.replaceState(null, null, '#' + defaultTabName);
+                }
+                newPage = tabs[defaultTabName];
+            }
+            if (currentPage) {
+                currentPage.tab.removeClass('selected');  // deselect old tab
+                currentPage.page.addClass('hidden');      // hide old page
+            }
+            newPage.page.removeClass('hidden');// display new page
+            newPage.tab.addClass('selected').trigger('click');  // select new tab
+            document.title = newTabName + docTitle;
+            currentPage = newPage;             // remember current tab
+        }
+
+        $(window).on('hashchange', change);
+        $(window).trigger('hashchange');
     });
 
     /*global window, document */

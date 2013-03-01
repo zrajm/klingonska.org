@@ -828,14 +828,18 @@ optimization."
       CLOSED: [2012-11-16 Fri 02:02]
 ***** DONE Move separate git repo into main one
       CLOSED: [2012-11-16 Fri 02:02]
-**** [25%] User interface
+**** [37%] User interface
 ***** TODO Multiple select for "Glossary" + "Known Words" tables
       Should allow for selecting multiple entries with using shift. (I.e. click
       one entry, then shift-click another entry to select those two entries,
       and all entries between them.)
-***** TODO Browser 'back' / 'forward' should work
+***** DONE Browser 'back' / 'forward' should work
+      CLOSED: [2013-03-02 Sat 00:36]
       I.e. when switching between tabs, the new page should be added to the
       page history, and 'back' should bring one back to the previous tab.
+
+      Tabs are now hashlocation links, and the hashchange event is used to
+      detect and act when a tab is clicked.
 ***** TODO Remove all 'style' references from HTML
       And put them into stylesheets instead.
 ***** TODO Word counters should update on reload
@@ -929,7 +933,10 @@ optimization."
      lines).
 **** DONE Clear button should clear glossary as well
      CLOSED: [2012-11-14 Wed 03:53]
-*** [71%] "Glossary" tab
+*** [55%] "Glossary" tab
+**** TODO "NaN" displayed instead of number in totals                   :BUG:
+     This occurs when there are zero words in the glossary.
+     "0 unknown (of 0) - NaN% of text known"
 **** TODO Marking word as "unknown" should reset score
      This should possibly not occur at once, but when flipping to the
      "Practice" tab (this would allow words to be toggled back and forth,
@@ -991,15 +998,14 @@ optimization."
      Put a 'Help' link in top right (?) corner. It should display a text
      explaining the functioning of the various buttons and algorithms in more
      detail.
-**** TODO Weighted random choice in loop
-     Tell "Christoph Pichlmann <pichlmann-at-fredlarts.at>" when this is working.
 **** DONE Loop deck
      CLOSED: [2013-02-27 Wed 02:41]
      Cycle through the loop deck, instead of the entire glossary when
-     Practicing new words. This way the user's memory have a better chance of
+     practicing new words. This way the user's memory have a better chance of
      picking up the words.
 
      Write comment for John Harness on [[https://www.facebook.com/groups/tlhInganHol/permalink/569525713063692/][this facebook thread]], when it is done.
+     Tell "Christoph Pichlmann <pichlmann-at-fredlarts.at>" when this is working.
 **** TODO Part-of-speech should *not* be abbreviated
 **** TODO Some way to mark especially troublesome words
      Words that you have a recurring problem with, and might want to rehearse
