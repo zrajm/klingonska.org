@@ -964,7 +964,6 @@ optimization."
      Text and glossary list should have a line where the number of words,
      verbs, nouns etc are listed.
 *** [50%] "Practice" tab
-    Stack: Entries selected from start or end. Deck: Entries selected randomly.
 **** [0%] User config
 ***** TODO User should be able to set deck loop size
 ***** TODO User should be able to set deck non-repeat size

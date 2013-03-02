@@ -1332,6 +1332,34 @@
     \*****************************************************************************/
     /*file: makepracticedeck */
 
+    // makePracticeDeck
+    // ================
+    // This implements an aproximate simulation of a flashcard deck. The idea
+    // is that you have a (possibly huge) number of flashcards with information
+    // that you wish to learn, but rather than randomly practice cards from the
+    // entire set you separate a small subset of cards and practice only these
+    // (drawn randomly).
+    //
+    // As you master any one of these cards you remove it from the deck
+    // altogether, and replace it with a new flashcard from the pile you have
+    // yet to learn.
+    //
+    // makePracticeDeck is agnostic to whatever data you put into it (it never
+    // looks deeper than the arrays you provide as arguments), so that you may
+    // store strings, or any types of objecs in the deck.
+    //
+    // Internally the flashcards provided are split into two piles of cards:
+    // the <main> deck (initially containing all the cards) and the <loop>
+    // deck. If the <loop> deck has reached its limit (defined by the .size()
+    // method) cards are drawn from there, otherwise cards are drawn from the
+    // <main> deck. When .put()ing back flashcards they are always added to the
+    // very end of the <loop> deck.
+    //
+    // Flashcards are drawn randomly. When drawing from the <loop> deck, the
+    // last .skip() cards are ignored to avoid repetion (except when there are
+    // no other cards to choose from, in which case these last flashcards will
+    // be returned as well).
+
     // FIXME: This maker function should probably be rewritten reuse the same
     // prototype, rather than re-instantiate it on every invocation.
     function makePracticeDeck(values) {
@@ -1349,27 +1377,33 @@
         }
 
         proto = {
+            // `DECK.count()` -- Return the number of cards in DECK.
             count: function () {
                 return this.main.length + this.loop.length;
             },
-            // Reset the deck.
+
+            // `DECK.reset([CARD...])` -- Reinitialize DECK, replacing all
+            // flashcards with the CARD(s) given. This retains the current
+            // `.size()` and `.skip()` values, but zaps all previously present
+            // flashcards in DECK.
+            //
+            // Return DECK, so you may chain your method calls.
             reset: function (values) {
                 this.main = values;
                 this.loop = [];
                 return this;
             },
-            // This will pick a value from the 'loop' part of the deck, if
-            // possible. If not, it'll take a new word from the 'main' part,
-            // and if even that fails (because there are too few words), then
-            // it will pick a word from the 'wait' part of the deck (this means
-            // that when the total number of words is lower than 'skipSize' the
-            // same word may come up twice).
+
+            // `DECK.get()` -- Return a random flashcard from the <loop> deck
+            // if it is full, otherwise card is taken from <main>. The last
+            // `.skip()` entries from <loop> are not returned (to avoid
+            // repetitions).
             //
-            // NOTE: When <loop> isn't full, we *always* take from main. This
-            // is not very random, maybe we should select a random entry
-            // between 0 and <loopSize>, and only if the selected value is
-            // larger than <loop.length> - <skipSize> grab a random value from
-            // <main>.
+            // NOTE: When the <loop> deck isn't full, we *always* draw from the
+            // <main> deck. This is not very random; Maybe we should select a
+            // random entry between 0 and <size>, and only if the selected
+            // value is larger than `<loop.length> - <skip>` should we then
+            // grab a random value from <main>.
             get: function () {
                 // take from 'loop' if full (random, excluding 'skipSize' newest)
                 if (this.loop.length >= this.loopSize) {
@@ -1391,24 +1425,48 @@
                 // 'loop' has fewer than one element
                 return this.loop.pop();
             },
-            // Put card back in deck. If <loop> becomes overfull, then a random
-            // element in <loop> is put back in <main> (<skipSize> is ignored
-            // in this selection, so potentially the item put back can wind up
-            // in the <main> deck.)
+
+            // `DECK.put(CARD)` -- Put card back at the end of the <loop> deck.
+            // If <loop> thereby grows larger than the allowed `.size()`, a
+            // random card is drawn from <loop> and put into <main>.
+            //
+            // Return DECK, so you may chain your method calls.
             put: function (value) {
                 this.loop.push(value);
                 // if 'loop' is full, move random to 'main'
                 if (this.loop.length > this.loopSize) {
                     this.main.push(spliceRandom(this.loop));
                 }
+                return this;
             },
-            // get/set loop size (use 'null' for default)
+
+            // `DECK.size(NUMBER)` -- Set the maximum size of the <loop> deck
+            // (default: 10). When the <loop> deck is full, cards are only
+            // taken from there, so that the flashcards will repeat often
+            // enough to give the user a chance to learn them.
+            //
+            // `DECK.size()` without arguments return the current value.
+            // `DECK.size(null)` will set <size> to the default value.
+            //
+            // When called with arguments DECK is returned, so you may chain
+            // your method calls.
             size: function (value) {
                 if (arguments.length === 0) { return this.loopSize; }
                 this.loopSize = (typeof value === 'number' ? value : 10);
                 return this;
             },
-            // get/set skip (use 'null' for default)
+
+            // `DECK.skip(NUMBER)` -- Set NUMBER of cards to ignore at the end
+            // of the <loop> deck (default: 3). If <skip> is set to 3, then any
+            // flashcard .put() back into the <loop> deck cannot be selected
+            // for 3 `.get()`s after that. (Unless those cards are the only one
+            // left, in which case they will be returned anyway.)
+            //
+            // `DECK.skip()` without arguments return the current value.
+            // `DECK.skip(null)` will set <skip> to the default value.
+            //
+            // When called with arguments DECK is returned, so you may chain
+            // your method calls.
             skip: function (value) {
                 if (arguments.length === 0) { return this.skipSize; }
                 this.skipSize = (typeof value === 'number' ? value : 3);
@@ -1427,17 +1485,6 @@
     /*file: flashcards */
 
     /*
-      See: http://eli.thegreenplace.net/2010/01/22/weighted-random-generation-in-python/
-
-      Use the method "Giving up the temporary list".
-
-      def weighted_choice_sub(weights):
-          rnd = random.random() * sum(weights)
-          for i, w in enumerate(weights):
-              rnd -= w
-              if rnd < 0:
-                  return i
-
         <button style="background:#da8;color:#540;border: outset #fca;" >Maybe</button>
         <button style="background:#ad8;color:#350;border: outset #cfa;" title=2>Easy</button>
         <button style="background:#8f8;color:#070;border: outset #afa;">Known</button>
@@ -1466,9 +1513,7 @@
     # Internal:
     #    store -- internal state, with bookkeeping for all entries
     #
-    #    deck (array of ids) = all words to practice
-    #    loop (array of ids) = current tiny little loop thingy to practice
-    #    wait (array of ids) = recently asked questions not to insert in program yet
+    #    deck (practiceDeck object of ids) = all words to practice
     #
     #    questionEntry (dictionary entry) = currently displayed question
     #
@@ -1492,7 +1537,7 @@
 
     Cards Currently Used
     ====================
-    An array with entry IDs.
+    practiceDeck object containing entry IDs.
 
     This is the state used for the current session. It is re-created upon entering
     a new practice session, and initialized using the 'state' object.
