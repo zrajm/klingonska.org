@@ -885,7 +885,13 @@ optimization."
 ******* wa'Hu' .. wa'maHHu' (for number not in dictionary)
 ******* cha'leS .. HutleS (for number not in dictionary)
 ******* test on lots of canon text
-*** [54%] "Input" tab
+*** [46%] "Input" tab
+**** TODO Multiple input texts
+     Save input texts (somehow), and allow switching between different texts.
+     (So that one may keep old favorites.
+
+     Could we do autosaving, somehow? (Store the text when the user clears all
+     of the text in one go?) Or should we just have a Save button?
 **** TODO Highlight modes
      A selector to hide/display highlights. Modes that would be useful:
        * Part-of-speech (default)
@@ -963,8 +969,14 @@ optimization."
      CLOSED: [2012-11-16 Fri 02:07]
      Text and glossary list should have a line where the number of words,
      verbs, nouns etc are listed.
-*** [50%] "Practice" tab
+*** [69%] "Practice" tab
 **** [0%] User config
+***** TODO Practice state should only reset on glossary change
+      And maybe not even that?
+***** TODO Click on progress bar to change between percent and absolute numbers
+      5 (3%) --------------------- 162 (93%)
+      5 -------------------------------- 162
+      3% ------------------------------- 93%
 ***** TODO User should be able to set deck loop size
 ***** TODO User should be able to set deck non-repeat size
 ***** TODO User should be able to set tlhEnCount (also load/save it)
@@ -976,17 +988,31 @@ optimization."
 ***** TODO Handling of Klingon synonyms
       When there are two Klingon words with same meaning (like {'a} and {'ach})
       should they both be displayed in answer?
-***** TODO Only one homonym should exist in deck
-      If a word exists in glossary with multiple translations, then only one of
-      them should be included in the deck.
-***** TODO When user answers on homonym, all words should get points
-      When user responds to a word with multiple translations, then this
-      response should be registered in all translations.
-***** TODO Only words in glossary should be included in answer
-      Only the translations included in glossary should be included. If a word
-      is a homonym, but not all translations are included in the glossary, then
-      only those translations that *are* present in glossary should be
-      displayed.
+***** TODO Klingon homonyms
+      E.g. {nargh} (verb) 1. appear 2. escape.
+****** TODO Further analyzable words should not appear
+       E.g. {SuvwI'} should not be displayed, since we have {Suv} to display
+       instead.
+****** TODO Only one homonym should exist in deck
+       If a word exists in glossary with multiple translations, then only one of
+       them should be included in the deck.
+****** TODO When user answers on homonym, all words should get points   :BUG:
+       When user responds to a word with multiple translations, then this
+       response should be registered in all translations.
+****** TODO Only words in glossary should be included in answer
+       Only the translations included in glossary should be included. If a word
+       is a homonym, but not all translations are included in the glossary,
+       then only those translations that *are* present in glossary should be
+       displayed.
+****** DONE Klingon question should display number of meanings
+       CLOSED: [2013-03-04 Mon 02:49]
+       +--------------+
+       | nagh (verb)  |
+       | (2 meanings) |
+       +--------------+
+       |   1.appear   |
+       |   2.escape   |
+       +--------------+
 **** TODO Progress bar for "Known Words" and "Glossary"
 **** DONE Non-repeat stack
      CLOSED: [2013-02-27 Wed 02:41]
@@ -1005,7 +1031,8 @@ optimization."
 
      Write comment for John Harness on [[https://www.facebook.com/groups/tlhInganHol/permalink/569525713063692/][this facebook thread]], when it is done.
      Tell "Christoph Pichlmann <pichlmann-at-fredlarts.at>" when this is working.
-**** TODO Part-of-speech should *not* be abbreviated
+**** DONE Part-of-speech should *not* be abbreviated
+     CLOSED: [2013-03-04 Mon 01:41]
 **** TODO Some way to mark especially troublesome words
      Words that you have a recurring problem with, and might want to rehearse
      often.

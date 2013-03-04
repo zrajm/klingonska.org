@@ -1578,32 +1578,30 @@
                 pointMeter2:  $('section.practice progress.b'),
                 occurElement: $('section.practice .occur')
             },
-            posAbbrev = {
-                "adverbial"              : { en: "adv",  sv: "adv" },
-                "conjunction"            : { en: "conj", sv: "konj" },
-                "exclamation"            : { en: "excl", sv: "interj" },
-                "name"                   : { en: "name", sv: "namn" },
-                "noun"                   : { en: "n",    sv: "s"   },
-                "noun suffix type 1"     : { en: "ns1",  sv: "ss1" },
-                "noun suffix type 2"     : { en: "ns2",  sv: "ss2" },
-                "noun suffix type 3"     : { en: "ns3",  sv: "ss3" },
-                "noun suffix type 4"     : { en: "ns4",  sv: "ss4" },
-                "noun suffix type 5"     : { en: "ns5",  sv: "ss5" },
-                "numeral"                : { en: "num",  sv: "räkn" },
-                "pronoun"                : { en: "pro",  sv: "pro"  },
-                "question word"          : { en: "ques", sv: "fråg" },
-                "verb"                   : { en: "v",    sv: "v"   },
-                "verb prefix"            : { en: "vp",   sv: "vp"  },
-                "verb suffix type 1"     : { en: "vs1",  sv: "vs1" },
-                "verb suffix type 2"     : { en: "vs2",  sv: "vs2" },
-                "verb suffix type 3"     : { en: "vs3",  sv: "vs3" },
-                "verb suffix type 4"     : { en: "vs4",  sv: "vs4" },
-                "verb suffix type 5"     : { en: "vs5",  sv: "vs5" },
-                "verb suffix type 6"     : { en: "vs6",  sv: "vs6" },
-                "verb suffix type 7"     : { en: "vs7",  sv: "vs7" },
-                "verb suffix type 8"     : { en: "vs8",  sv: "vs8" },
-                "verb suffix type 9"     : { en: "vs9",  sv: "vs9" },
-                "verb suffix type rover" : { en: "vsr",  sv: "vss" }
+            posTransl = {
+                'conjunction'            : { sv: 'konjunktion' },
+                'exclamation'            : { sv: 'interjektion' },
+                'name'                   : { sv: 'namn' },
+                'noun'                   : { sv: 'substantiv'   },
+                'noun suffix type 1'     : { sv: 'substantivsuffix typ 1' },
+                'noun suffix type 2'     : { sv: 'substantivsuffix typ 2' },
+                'noun suffix type 3'     : { sv: 'substantivsuffix typ 3' },
+                'noun suffix type 4'     : { sv: 'substantivsuffix typ 4' },
+                'noun suffix type 5'     : { sv: 'substantivsuffix typ 5' },
+                'numeral'                : { sv: 'räkneord' },
+                'pronoun'                : { sv: 'pronomen'  },
+                'question word'          : { sv: 'frågeord' },
+                'verb prefix'            : { sv: 'verbprefix'  },
+                'verb suffix type 1'     : { sv: 'verbsuffix typ 1' },
+                'verb suffix type 2'     : { sv: 'verbsuffix typ 2' },
+                'verb suffix type 3'     : { sv: 'verbsuffix typ 3' },
+                'verb suffix type 4'     : { sv: 'verbsuffix typ 4' },
+                'verb suffix type 5'     : { sv: 'verbsuffix typ 5' },
+                'verb suffix type 6'     : { sv: 'verbsuffix typ 6' },
+                'verb suffix type 7'     : { sv: 'verbsuffix typ 7' },
+                'verb suffix type 8'     : { sv: 'verbsuffix typ 8' },
+                'verb suffix type 9'     : { sv: 'verbsuffix typ 9' },
+                'verb suffix type rover' : { sv: 'verbsuffix typ strövare' }
             },
             store = makeStore('practice');
 
@@ -1698,15 +1696,28 @@
         }
 
         function outputQuestion(quesEntry) {
+            /*jslint regexp: true */
             var id    = quesEntry.id,
                 point = store.get(id, 'point') || 0,
                 max   = tlhEnCount + enTlhCount,
-                pos   = posAbbrev[quesEntry.pos];
-            dom.questionCell.html(                // show question
-                questionHTML(quesEntry, point < enTlhCount ? 'tlh' : 'en') + ' (' +
-                    tag('span', pos.en || quesEntry.pos, 'lang=en') +
-                    tag('span', pos.sv || quesEntry.pos, 'lang=sv') + ')'
-            );
+                posTr = posTransl[quesEntry.pos] || {},
+                word  = quesEntry.tlh.match(/[^\{]+(?=\})/)[0],
+                count = opts.dict.query({
+                    tlh: word,
+                    pos: quesEntry.pos
+                }).length,
+                lang  = point < enTlhCount ? 'tlh' : 'en',
+                html  = questionHTML(quesEntry, lang);
+            /*jslint regexp: false */
+            html += ' (' +                     // part-of-speech
+                tag('span',             quesEntry.pos, 'lang=en') +
+                tag('span', posTr.sv || quesEntry.pos, 'lang=sv') + ')';
+            if (count > 1 && lang === 'tlh') { // no of translations
+                html += tag('br') + '(' + count +
+                    tag('span', ' meanings',   'lang=en') +
+                    tag('span', ' betydelser', 'lang=sv') + ')';
+            }
+            dom.questionCell.html(html);          // show question
             dom.answerCell.empty();               // clear answer
             dom.showCell.removeClass('hidden');   // show 'Show Answer'
             dom.replyCell.addClass('hidden');     // hide reply buttons
@@ -2112,10 +2123,10 @@
                 },
                 thead = tag('tr',
                     tag('th', '',                    // count
-                        'title="Occurrences of word in text"') +
+                        'title="How many times word the occured in the text"') +
                     tag('th',                        // Klingon
-                        tag('span', 'Klingon',    'lang=en title="Klingon words found in text"') +
-                        tag('span', 'Klingonska', 'lang=sv title="Klingonska ord funna i text"')) +
+                        tag('span', 'Klingon',    'lang=en title="Klingon word"') +
+                        tag('span', 'Klingonska', 'lang=sv title="Klingonskt ord"')) +
                     tag('th',                        // Word Type
                         tag('span', 'Type', 'lang=en title="Word type / Part-of-speech"') +
                         tag('span', 'Typ',  'lang=sv title="Ordtyp / Ordklass"')) +
