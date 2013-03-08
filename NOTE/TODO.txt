@@ -971,7 +971,7 @@ optimization."
      verbs, nouns etc are listed.
 *** [69%] "Practice" tab
 **** [0%] User config
-***** TODO Practice state should only reset on glossary change
+***** TODO Practice state should only reset when glossary changes
       And maybe not even that?
 ***** TODO Click on progress bar to change between percent and absolute numbers
       5 (3%) --------------------- 162 (93%)
@@ -990,6 +990,23 @@ optimization."
       should they both be displayed in answer?
 ***** TODO Klingon homonyms
       E.g. {nargh} (verb) 1. appear 2. escape.
+****** TODO Klingon homonyms should be separate in en -> tlh direction
+      In tlh -> en direction, the Klingon word should be displayed + the number
+      of meanings. If user gets it right then both words words gets points.
+           +----------------+
+           | {nargh} (verb) |
+           | (2 meanings)   |
+           +----------------+
+           | 1.appear       |
+           | 2.escape       |
+           +----------------+
+       In en -> tlh direction each of the English meanings is displayed
+       separately, and points are rewarded separately:
+           +---------------+
+           | appear (verb) |
+           +---------------+
+           | {nargh}       |
+           +---------------+
 ****** TODO Further analyzable words should not appear
        E.g. {SuvwI'} should not be displayed, since we have {Suv} to display
        instead.
@@ -1007,7 +1024,7 @@ optimization."
 ****** DONE Klingon question should display number of meanings
        CLOSED: [2013-03-04 Mon 02:49]
        +--------------+
-       | nagh (verb)  |
+       | nargh (verb) |
        | (2 meanings) |
        +--------------+
        |   1.appear   |
@@ -1305,7 +1322,80 @@ optimization."
     Each transcript in the http://klingonska.org/canon/ list should have a link
     to the prettified version (as well as to the original text formatted
     transcript).
-*** [64%] Transcripts updating/improvement
+*** [62%] Transcripts updating/improvement
+**** TODO Add words from qepHom'a' 2011
+
+     Date: Mon, 14 Nov 2011 21:44:59 +0100
+     From: "De'vID jonpIn" <de.vid.jonpin@gmail.com>
+     To: KLI <tlhingan-hol@kli.org>
+     Subject: [Tlhingan-hol] learnings from Saarbrücken qepHom'a'
+
+     I've already written several messages about things we learned at the
+     qepHom'a' in Saarbrücken, Germany.  I'll write down the rest of what I
+     saw/heard here before I forget.
+
+     I saw several new words (words new to me; they may already be known to
+     others):
+     <'IvtIH>
+     <rajma'>
+     <'eQway>
+     <cha'neH>
+     <ren>
+     <Qur>
+     <qurbuSwI'> (Morskan?)
+
+     I don't have definitions from MO for the first four words, only what I saw
+     in others' notes.  The words <ren>, <Qur>, and <qurbuSwI'> were defined in
+     writing, but only in German, in a letter from MO.  Presumably, the letter
+     was written in English, and translated into German (by Lieven?), but I have
+     not seen the original.  However, I've had the meanings of <ren> and <Qur>
+     explained to me by German speakers.  <qurbuSwI'> appears to be a Morskan
+     dialect word, but I didn't understand its meaning.  Perhaps Lieven, or
+     someone who can read the letter in German, can explain their definitions.
+
+     We also learned that the verbs <ghur> and <nup> are intransitive (the
+     transitive forms have <-moH>), and also what the difference was between the
+     verbs <reH> and <Quj>.  <reH> applies to unstructured play, whereas <Quj>
+     refers to structured play (with rules).
+
+     The following is not new info, but was discussed with MO at the qepHom:
+     <Soj> refers not just to food, but anything consumed for sustenance (i.e.,
+     "food" in a more general sense than "solid food"); <Sop>, <tlhutlh>, and
+     <'ep> are verbs which can be applied to different kinds of <Soj>.
+
+     -- 
+     De'vID
+
+
+     ---------------------------------------------------------------------------
+
+     Date: Tue, 15 Nov 2011 14:02:40 +0100
+     From: Lieven Litaer <lieven.litaer@web.de>
+     To: "tlhingan-hol@kli.org" <tlhingan-hol@kli.org>
+     Subject: Re: [Tlhingan-hol] learnings from Saarbrücken qepHom'a'
+
+     ja' De'vID:
+     > <Soj> refers not just to food, but anything consumed for sustenance
+     > (i.e., "food" in a more general sense than "solid food")
+
+     Talking about food, no new word, but an interesting explanation:
+
+     I asked if there were a word for "satisfied", "I'm full", i.e. you had 
+     eaten enough.
+
+     MO said no, but accepted {ghungHa'} for "not hungry any more". You 
+     cannot use it though to say that you are not hungry, that should be 
+     {ghungbe'} "not hungry". But if you are hungry first, then you eat 
+     enough, then you can say {DaH jIghungHa'} "Now I am un-hungry." (="not 
+     hungry any more")
+
+     It also works with {'oj} the same way.
+
+     Lieven.
+
+     https://mail.google.com/mail/u/0/?shva=1#search/ghungHa'/133a3d43a898e2e4
+
+
 **** TODO Add scans of Klingon trading cards                           :SCAN:
      Decpiher Inc + SkyBox cards should be scanned. Links should then be added
      from the appropriate HTML files in the canon archive.
@@ -2100,7 +2190,7 @@ optimization."
       field. -- These words should be included in the Klingon--English version
       of the dictionary, but with a leading asterisk, and a warning they're not
       supposed to be used. Maybe add a 'warn' field, explaining why?
-**** [28%] Add new words
+**** [27%] Add new words
 ***** TODO Spik / skruv
       Felix postade följande på [[https://www.facebook.com/groups/174607196006254/?fref=ts][Facebook]]
       2 - eller typ 2½, antar jag - nya ord idag, via allas vår älskade Qov!
@@ -2110,6 +2200,21 @@ optimization."
       Like · Comment · Follow post · 13 August at 21:11 near Johanneshov,
       Stockholms Län
 
+***** TODO Add words from qepHom'a' 2011
+      Given by De'vID in mail to tlhIngan-Hol, 2011-11-12 "[Tlhingan-hol]
+      learnings from Saarbrücken qepHom'a'".
+
+          <'IvtIH>
+          <rajma'>
+          <'eQway>
+          <cha'neH>
+          <ren>
+          <Qur>
+          <qurbuSwI'> (Morskan?)
+
+      This [[https://mail.google.com/mail/u/0/?shva=1#search/ghungHa'/133a3d43a898e2e4][GMail thread]] (where above was posted) also contain interesting
+      comments originally from MO on various words, their transitivity and
+      usage (e.g. {ghungHa'}).
 ***** [0%] Add words from http://www.qephom.de/e/newwords.html
 ***** TODO Add {qatlhDa'} <water pipe>
       pun: The pun is carried on in {qatlhDa'} ("water pipe"): "Viaduct? Why a

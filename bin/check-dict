@@ -1102,7 +1102,7 @@ Written by Zrajm C Akfohg <zrajm@klingonska.org>, 2009-2012.
 Copyright 2012 Zrajm C Akfohg <zrajm@klingonska.org>.
 
 Distributed under Creative Commons Attribution-ShareAlike 3.0 Unported (CC
-BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>.
+BY-SA 3.0) http://creativecommons.org/licenses/by-sa/3.0/
 
 This means that you may copy, sell and change the program in any way you like,
 as long as you still attribute it to this author, and release your modified
@@ -1112,12 +1112,12 @@ version under the same license.
 =head1 SEE ALSO
 
 Take a look at the database file itself for a description of its format
-<http://klingonska.org/dict/dict.zdb>.
+http://klingonska.org/dict/dict.zdb.
 
-For a web interface to the dictionary, see Klingonska Akademion's I<Online
-Klingon Pocket Dictionary> http://klingonska.org/dict/, and for other stuff
-about the Klingon language, see Klingonska Akademien's web site in general
-http://klingonska.org/.
+For a web interface to the dictionary, see Klingonska Akademien's I<Online
+Klingon Pocket Dictionary> (at http://klingonska.org/dict/), and for other
+stuff about the Klingon language, see Klingonska Akademien's web site in
+general http://klingonska.org/.
 
 =cut
 
