@@ -1,7 +1,7 @@
-updated: 2012-07-09 16:11:26+02
+updated: 2013-04-01 22:05:57+02
 created: 1998-02-25
 author: zrajm
-year: 1998-2012
+year: 1998-2013
 lang: en
 script: sorttable
 up: ..
@@ -73,7 +73,7 @@ The following is a list of all the regular adverbials in Klingon.
     <td sorttable_customkey="1996-08"><small class="nobr">[Radio Times]</small></td>
   </tr>
   <tr>
-    <td sorttable_customkey="mhp">{ngIq}</td>
+    <td sorttable_customkey="fhp">{ghIq}</td>
     <td><i>and then, after that, by then, subsequently</i></td>
     <td sorttable_customkey="1999-09"><small class="nobr">[HQ 8:3]</small></td>
   </tr>
@@ -228,7 +228,7 @@ sentences in their own right. E.g.: {wej} <i>Not yet! (Don't do it yet!)</i>,
 {nom} <i>Come on! Quickly!</i>, {nIteb} <i>Alone! (Do it by
 yourself!)</i> <small>[TKD 5.4]</small>
 
-And, finally, if a verb is topicalized with the {-'e'} suffix, then the
+And, finally, if an object is topicalized with the {-'e'} suffix, then the
 adverbial can <em>come after</em> the object noun. <small>[TKDa 6.7]</small>
 
 <table class="noborder">
@@ -237,13 +237,14 @@ adverbial can <em>come after</em> the object noun. <small>[TKDa 6.7]</small>
     <tr><td>{DaH HaqwI' yISam}<td><i>Find the surgeon now!</i></tr>
   </tbody>
   <tbody>
-    <tr><td>{HaqwI''e' yISam}<td><i>Find the SURGEON!</i></tr>
-    <tr><td>{HaqwI''e' DaH yISam}<td><i>Find the SURGEON now!</i></tr>
+    <tr><td>{HaqwI''e' yISam}<td><i>Find the <strong>surgeon</strong>!</i></tr>
+    <tr><td>{HaqwI''e' DaH yISam}<td><i>Find the <strong>surgeon</strong> now!</i></tr>
   </tbody>
 </table>
 
-There are also two special adverbials ({jay'} and {neH}) that, syntactically,
-works quite different than the rest of them:
+There are also two special adverbials ({jay'} <i>intensely</i> and
+{neH} <i>only</i>) that, syntactically, works differently than the rest of the
+adverbials.<sup><a href="#note1">1</a></sup>
 
 <table>
   <tr>
@@ -288,7 +289,7 @@ When {neH} comes after a verb it has the effect of trivializing it.
 </table>
 
 The use of {neH} in the previous example implies that the ship should be
-disabled, but not damaged further.
+disabled, but not damaged further.<sup><a href="#note2">2</a></sup>
 
 Alone among the adverbials {neH} can also be used to modify the meaning of a
 noun, it then comes after the noun, and means <i>only, alone.</i>
@@ -299,15 +300,79 @@ noun, it then comes after the noun, and means <i>only, alone.</i>
 </table>
 
 Finally adverbials to indicate repetitions are created using a number plus the
-suffix {-logh}.
+suffix {-logh}. This is not limited to the examples in the above list
+({wa'logh} <i>once</i> and {cha'logh} <i>twice</i>), but may be used creatively
+with any number:
 
 <table class="noborder">
-  <tr><td>{vIbachpu'}<td><i>I shot him.</i></tr>
-  <tr><td>{wa'logh vIbachpu'}<td><i>I shot him once.</i></tr>
-  <tr><td>{cha'logh vIbachpu'}<td><i>I shot him twice.</i></tr>
-  <tr><td>{wa'maHlogh vIbachpu'}<td><i>I shot him ten times.</i></tr>
+  <tr><td>{vIbachpu'}<td><i>I shot him/her.</i></tr>
+  <tr><td>{wa'logh vIbachpu'}<td><i>I shot him/her once.</i></tr>
+  <tr><td>{cha'logh vIbachpu'}<td><i>I shot him/her twice.</i></tr>
+  <tr><td>{wa'maHlogh vIbachpu'}<td><i>I shot him/her ten times.</i></tr>
+  <tr><td>{loS'maH cha'logh vIbachpu'}<td><i>I shot him/her forty two times.</i></tr>
+</table>
+
+There are also two adverbials which may be viewed as special cases of {-logh}.
+These are {paghlogh} <i>zero times, never</i> (from {pagh} meaning
+<i>nothing</i> or <i>zero</i>) and {Hochlogh} <i>all times, always</i> (from
+{Hoch} meaning <i>all</i> or <i>every</i>). These mean the same thing as {not}
+<i>never</i> and {reH} <i>always</i> but carry extra emphasis.
+
+<table class="noborder">
+  <tr>
+    <td>{not vIbachpu'}
+    <td><i>I never shot him/her.</i>
+  <tr>
+    <td>{paghlogh vIbachpu'}
+    <td><i>I did <strong>never</strong> shoot him/her!</i>
 </table>
 
 And that concludes this quick reference to adverbials.
+
+<hr>
+
+<p id=note1><sup><b>1</b></sup> There is also the word {je} (<i>also, and,
+too</i>) which, although it is considered a <em>conjunction</em> rather than an
+adverbial, it us used in a similar fashion to {neH}. Both {je} and {neH} can be
+used after either verbs or nouns (though {je} follow one or more nouns, and
+{neH} a single one).</p>
+
+<table class="noborder">
+  <tr>
+    <td>{qama' vIbach neH}
+    <td><i>The only thing I did was to shoot the prisoner.</i>
+  <tr>
+    <td>{qama' neH vIbach}
+    <td><i>The prisoner was the only one I shot.</i>
+  <tr>
+    <td>{qama' vIbach je}
+    <td><i>I shot the prisoner too.</i>
+  <tr>
+    <td>{qama' 'avwI' je vIbach}
+    <td><i>I shot the prisoner and the guard.</i>
+</table>
+
+<p id=note2><sup><b>2</b></sup> When {neH} <i>only</i> is used with <i>he</i>
+or <i>she</i> as subject, it can be hard to distinguish it from
+{neH} <i>want</i>. Extra pronouns or puctuation can then usually be used to
+clarify the meaning.</p>
+
+<table class="noborder">
+  <tr>
+    <td class=nobr>{qama' vIbach vIneH}
+    <td><i>I want to shoot the prisoner.</i>
+  <tr>
+    <td class=nobr>{qama' vIbach neH}
+    <td><i>He wants me to shoot the prisoner</i>
+      <br>or <i>I only shot the prisoner.</i>
+  <tr>
+    <td class=nobr>{qama' vIbach neH jIH}
+    <td><i>I only shot the prisoner.</i>
+  <tr>
+    <td class=nobr>{qama' vIbach neH ghaH}
+      <br>or {qama' vIbach, neH}
+    <td><i>He wants me to shoot the prisoner</i>
+</table>
+
 
 [[eof]]
