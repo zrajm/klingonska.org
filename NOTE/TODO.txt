@@ -969,7 +969,7 @@ optimization."
      CLOSED: [2012-11-16 Fri 02:07]
      Text and glossary list should have a line where the number of words,
      verbs, nouns etc are listed.
-*** [69%] "Practice" tab
+*** [60%] "Practice" tab
 **** [0%] User config
 ***** TODO Practice state should only reset when glossary changes
       And maybe not even that?
@@ -981,6 +981,9 @@ optimization."
 ***** TODO User should be able to set deck non-repeat size
 ***** TODO User should be able to set tlhEnCount (also load/save it)
 ***** TODO User should be able to set enTlhCount (also load/save it)
+**** TODO “Failed” should give -1 points (not reset score)
+**** TODO “Too Easy” should deactivate for E-K questions
+     (since it is then synonymous with “Known”)
 **** TODO Timer when responding to flashcards
 **** [0%] Handle synonyms & homonyms
      Question always display part-of-speech. Answer may contain multiple
@@ -2919,6 +2922,13 @@ optimization."
     Philip
 ** TODO "A Quick Reference to Adverbials in Klingon"
 *** Update list of adverbials
+** [0%] "A Quick Reference to Time Expressions in Klingon"
+*** TODO Add {ngugh} adverbial
+    Are there more time related adverbials that should be included?
+*** TODO Add recommendations -- Which time system is best?
+*** TODO Is TalkNow! system the same as the CK one?
+    Analyse and add notes on whether the Talk Now way of specifying time is the
+    same as the CK way.
 ** TODO "Links to Other Pages About the Klingon Language"
 *** TODO Update "Links to Other Pages About the Klingon Language"
     This page need a major update, and removal of non-working links.
