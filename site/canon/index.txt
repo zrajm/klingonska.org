@@ -1293,6 +1293,20 @@ publication, or a description of its contents and/or form).
       </td>
     </tr>
   </tbody>
+  <tbody>
+    <tr>
+      <td class="nobr"><big>2012-01-26</big></td>
+      <td><big>»[Tlhingan-hol] More new words from Maltz«</big>
+        <br><font size="2"><i>Mailing list posting by Agnieszka Solska to
+            {tlhIngan-Hol}</i></font>
+        <br>(<a href="2012-01-26-email.txt">text</a>)
+        Email relaying two new messages from Marc Okrand. First message with
+        new words for "flavor", "be indirect" / "be direct", "double agent" and
+        two kinds of "hole". Second message with "ditch", "be deep" / "be
+        shallow", "be straight" / "be crooked" and "model, example, pattern".
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 
