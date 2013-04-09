@@ -1,7 +1,7 @@
 created: 1999-08-08
-updated: 2012-05-29 18:55+02
+updated: 2013-04-09T21:17:56+0200
 author: zrajm
-year: 1999-2009
+year: 1999-2013
 lang: en
 
 Archive of Okrandian Canon
@@ -1292,6 +1292,41 @@ publication, or a description of its contents and/or form).
           for {'u'} -- The Opera</a>. Abbreviated <i>'u'-MTK</i>.
       </td>
     </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td class="nobr"><big>2011-11-02</big>
+      <td><big>»[Tlhingan-hol] Eurotalk - New Words - Shopping«</big>
+        <br><font size="2"><i>Mailing list posting by Michael Roney, Jr. to
+            {tlhIngan-Hol}</i></font>
+        <br>(<a href="2011-11-02-email.txt">text</a>)
+        Posting of shopping related words from the Eurotalk Klingon language
+        course.
+    <tr>
+      <td class="nobr"><big>2011-11-04</big>
+      <td><big>»[Tlhingan-hol] Eurotalk - New Words - First Words«</big>
+        <br><font size="2"><i>Mailing list posting by Michael Roney, Jr. to
+            {tlhIngan-Hol}</i></font>
+        <br>(<a href="2011-11-04-email.txt">text</a>)
+        Posting of the first words from the Eurotalk Klingon language
+        course.
+    <tr>
+      <td class="nobr"><big>2011-11-05</big>
+      <td><big>»[Tlhingan-hol] EuroTalk word for “postcard”«</big>
+        <br><font size="2"><i>Mailing list posting by Rohan Fenwick to
+            {tlhIngan-Hol}</i></font>
+        <br>(<a href="2011-11-05-email.txt">text</a>)
+        The Klingon word for “postcard” and a description of a discrepancy
+        between the {pIqaD} an the romanized text on the Eurotalk Klingon
+        language course.
+    <tr>
+      <td class="nobr"><big>2011-11-07</big>
+      <td><big>»[Tlhingan-hol] Eurotalk - New Specialism - Time«</big>
+        <br><font size="2"><i>Mailing list posting by {qe'San} to
+            {tlhIngan-Hol}</i></font>
+        <br>(<a href="2011-11-07-email.txt">text</a>)
+        Many example phrases on how to tell time from the Eurotalk Klingon
+        language course.
   </tbody>
   <tbody>
     <tr>

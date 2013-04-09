@@ -168,6 +168,19 @@ optimization."
    Following the example set by GitHub (e.g. in commit messages in the 'Commit'
    view) -- why not also use 'text-decoration: underline;' as the hover style
    of links, but remove 'text-decoration: none;' for the usual style?
+** TODO Optimize page sizes
+   https://developers.google.com/speed/docs/best-practices/payload
+*** TODO Enable compression
+*** TODO Remove unused stylesheets
+*** DONE Minify Javascript
+*** DONE Minify shylesheets
+*** TODO Minify HTML
+*** TODO Defer Javascript loading
+*** TODO Optimize images
+    This page seems to be a good starting point
+    https://github.com/h5bp/html5-boilerplate/wiki/Using-PNG
+*** TODO Serve scaled images
+*** TODO Make use of consistent URLs
 * Site content
 ** TODO Do a surf-through check for weird/old shit
 ** [11%] Systematic/site-wide changes
@@ -197,7 +210,7 @@ optimization."
        * Building (minified) CSSes from SCSS (Sassy Stylesheets)
        * Using a HTML template = centralized header/footer
        * Page source (whenever possible) in markdown
-**** [57%] Add new look to all pages (except KLO for now)
+**** [61%] Add new look to all pages (except KLO for now)
 ***** DONE <script>...</script> blocks should not be parsed for markdown
       CLOSED: [2012-06-26 Tue 02:45]
       E.g. `/download.html`.
@@ -490,9 +503,6 @@ optimization."
 
       There is already a markdown metadata field 'lang' intended for this.
 ***** TODO The word "Updated" + date should be in Swedish on Swedish pages
-***** TODO Optimize images
-      This page seems to be a good starting point
-      https://github.com/h5bp/html5-boilerplate/wiki/Using-PNG
 **** TODO Add hyphenation of Klingon
      Inserting &shy;'s wherever needed, and adding a nobreak class for affixes
      occuring by themselves. (Like {-laH} and {pI-} etc.)
@@ -2193,7 +2203,11 @@ optimization."
       field. -- These words should be included in the Klingon--English version
       of the dictionary, but with a leading asterisk, and a warning they're not
       supposed to be used. Maybe add a 'warn' field, explaining why?
-**** [27%] Add new words
+**** [23%] Add new words
+***** TODO Words from `canon/2011-11-02-email.txt`
+***** TODO Words from `canon/2011-11-04-email.txt`
+***** TODO Words from `canon/2011-11-05-email.txt`
+***** TODO Words from `canon/2011-11-07-email.txt`
 ***** TODO Spik / skruv
       Felix postade följande på [[https://www.facebook.com/groups/174607196006254/?fref=ts][Facebook]]
       2 - eller typ 2½, antar jag - nya ord idag, via allas vår älskade Qov!
@@ -2920,13 +2934,44 @@ optimization."
 
     Cheers,
     Philip
-** TODO "A Quick Reference to Adverbials in Klingon"
-*** Update list of adverbials
+** [0%] "A Quick Reference to Colors in Klingon"
+*** TODO Add {rItlhmey} as an approximate word for “color”
+   From: "qeSan \(KSFCN\)" <qeSan@ksfcn.com>
+   To: <tlhingan-hol@kli.org>
+   Subject: Category Titles from Marc Okrand
+   Date: Tue, 17 Apr 2012 20:07:11 +0100
+
+   I was just looking at http://klingonska.org/ref/color.html and after
+   reading, “There is no noun in Klingon meaning “color”, I realised there were
+   category titles that Marc provided and are embedded in the Eurotalk courses.
+   However I don’t believe anyone will get to see them unless Klingon is used
+   as a help language on other courses.
+
+   So that said Marc has provided canon that [rItlh] means colour as well as
+   “pigment, paint, dye”.
+
+   Category titles:
+
+   First Words - mu'mey wa'DIch,
+   Food - Soj
+   Phrases - mu'tlheghmey
+   body - porgh
+   numbers - mI'mey,
+   Colours - rItlhmey
+   Time - repmey
+   Shopping - je'meH lengmey
+   Countries - Sepmey tlhab
+
+   qe’San
+** [100%] "A Quick Reference to Adverbials in Klingon"
+*** DONE Update list of adverbials
+    CLOSED: [2013-04-02 Tue 05:27]
 ** [0%] "A Quick Reference to Time Expressions in Klingon"
 *** TODO Add {ngugh} adverbial
     Are there more time related adverbials that should be included?
 *** TODO Add recommendations -- Which time system is best?
-*** TODO Is TalkNow! system the same as the CK one?
+*** TODO Is the Eurotalk system the same as the CK one?
+    See: http://klingonska.org/canon/2011-11-07-email.txt
     Analyse and add notes on whether the Talk Now way of specifying time is the
     same as the CK way.
 ** TODO "Links to Other Pages About the Klingon Language"
