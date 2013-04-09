@@ -2117,7 +2117,7 @@ optimization."
      ("Tokvarian", with a correction note at the end of the line).
 **** TODO Check order of field names in description in preamble
      Check that it corresponds to the actual field ordering. Add a check for
-     this in check-dict?
+     this in 'check-dict'?
 **** DONE Correct spelling of 'conjunction' in 'pos:' field
      CLOSED: [2012-03-25 Sun 04:02]
      It is currently spelled 'conjuction'.
