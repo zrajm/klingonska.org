@@ -16,33 +16,27 @@ allowed access.
 
 <table>
   <tr>
-    <th>Year</th>
-    <th>Title</th>
-  </tr>
+    <th>Year
+    <th>Title
   <tr onclick="loadFirstLink(this)">
-    <td>1992</td>
-    <td><a href="canon/1992-01-01-tkd.txt">The Klingon Dictionary (2nd ed.)</a></td>
-  </tr>
+    <td>1992
+    <td><a href="canon/1992-01-01-tkd.txt">The Klingon Dictionary (2nd ed.)</a>
   <tr onclick="loadFirstLink(this)">
-    <td>1992</td>
-    <td><a href="canon/1992-10-01-ck.txt">Conversational Klingon</a></td>
-  </tr>
+    <td>1992
+    <td><a href="canon/1992-10-01-ck.txt">Conversational Klingon</a>
   <tr onclick="loadFirstLink(this)">
-    <td>1993</td>
-    <td><a href="canon/1993-10-01-pk.txt">Power Klingon</a></td>
-  </tr>
+    <td>1993
+    <td><a href="canon/1993-10-01-pk.txt">Power Klingon</a>
   <tr onclick="loadFirstLink(this)">
-    <td>1996</td>
-    <td><a href="canon/1996-05-01-tkw.txt">The Klingon Way</a></td>
-  </tr>
+    <td>1996
+    <td><a href="canon/1996-05-01-tkw.txt">The Klingon Way</a>
   <tr onclick="loadFirstLink(this)">
-    <td>1997</td>
-    <td><a href="canon/1997-11-01-kgt.txt">Klingon for the Galactic Traveler</a></td>
-  </tr>
+    <td>1997
+    <td><a href="canon/1997-11-01-kgt.txt">Klingon for the Galactic Traveler</a>
 </table>
 
 These transcripts are also available (together with the many minor sources)
-through <i><a href="canon/">Archive of Okrandian Canon</a>.</i>
+through [*Archive of Okrandian Canon*](canon/).
 
 <script>
   function loadFirstLink(element) {

@@ -221,9 +221,9 @@ dictionary entries.</p>
 
 <p>
   <ul>
-    <li>Make sure all words are spelled correctly.</li>
-    <li>Try different keywords.</li>
-    <li>Try more general keywords.</li>
+    <li>Make sure all words are spelled correctly.
+    <li>Try different keywords.
+    <li>Try more general keywords.
   </ul>
 </p>
 
@@ -241,42 +241,33 @@ has been continuously updated and improved since it was created in late
 
 <table class="noborder layout">
   <tr>
-    <th colspan=2>Search Expressions</th>
-  </tr>
+    <th colspan=2>Search Expressions
   <tr>
-    <td class=center><b>"</b>…<b>"</b>&nbsp;</td>
-    <td>search for a phrase (containing more than one word)</td>
-  </tr>
+    <td class=center><b>"</b>…<b>"</b>&nbsp;
+    <td>search for a phrase (containing more than one word)
   <tr>
-    <td class=center><b>*</b>&nbsp;</td>
-    <td>matches any alphabetical character</td>
-  </tr>
+    <td class=center><b>*</b>&nbsp;
+    <td>matches any alphabetical character
   <tr>
-    <td class=center><b>tlh:</b>…&nbsp;</td>
-    <td>search Klingon words <i>(case sensetive)</i></td>
-  </tr>
+    <td class=center><b>tlh:</b>…&nbsp;
+    <td>search Klingon words <i>(case sensetive)</i>
   <tr>
-    <td class=center><b>en:</b>…&nbsp;</td>
-    <td>search English translations</td>
-  </tr>
+    <td class=center><b>en:</b>…&nbsp;
+    <td>search English translations
   <tr>
-    <td class=center><b>sv:</b>…&nbsp;</td>
-    <td>search Swedish translations</td>
-  </tr>
+    <td class=center><b>sv:</b>…&nbsp;
+    <td>search Swedish translations
   <tr>
-    <td class=center><b>pos:</b>…&nbsp;</td>
+    <td class=center><b>pos:</b>…&nbsp;
     <td>search part-of-speech field<br>(use abbrev
       from <i><a href="intro.html">Introduction</a></i>, <i>ns#,</i> <i>vs#</i>
-      or free text)</td>
-  </tr>
+      or free text)
   <tr>
-    <td class=center><b>def:</b>…&nbsp;</td>
-    <td>search defining sources</td>
-  </tr>
+    <td class=center><b>def:</b>…&nbsp;
+    <td>search defining sources
   <tr>
-    <td class=center><b>ref:</b>…&nbsp;</td>
-    <td>search referring sources</td>
-  </tr>
+    <td class=center><b>ref:</b>…&nbsp;
+    <td>search referring sources
 </table>
 
 <p>Case <em>only</em> matters when you’re using the search prefix <b>tlh:</b>,
@@ -323,10 +314,8 @@ return <<"EOF";
         <a href="http://klingonska.org/">Home</a> &gt;
         <a href="http://klingonska.org/dict/">Klingon Pocket Dictionary</a>
       </nav>
-    </li>
     <li>
       Updated <time pubdate datetime="2012-11-10T00:50">November 10, 2012</time>
-    </li>
   </ul>
   <!-- end:status -->
   <div>
@@ -336,10 +325,8 @@ return <<"EOF";
           <span class=crop>
             <img height=200 width=200 src="../pic/ka-logo.svg" alt="Klingonska Akademien">
           </span>
-        </td>
         <td>
           <h1>Klingonska<span id=logospace>&nbsp;</span>Akademien</h1>
-        </td>
       </table>
     </a>
     <nav class=pagetabs role=navigation>
@@ -376,11 +363,8 @@ sub html_form {
         <input$focus_attr tabindex=1 name=q value="$query" size=35
           placeholder="Search dictionary…"><input type=submit value=Search>
       </form>
-    </td>
-  </tr>
   <tr>
-    <td class=center><small>$tips</small></td>
-  </tr>
+    <td class=center><small>$tips</small>
 </table>
 
 EOF
@@ -448,7 +432,7 @@ print html_head() . html_form($query);
         foreach my $regex (@regex) {
             s#$regex#$1<mark>$2</mark>#m or next WORD;
         }
-        push @output, '  <tr><td colspan=2>&nbsp;</td></tr>' . "\n"
+        push @output, '  <tr><td colspan=2>&nbsp;' . "\n"
             if $matches > 0;
         $matches ++;
         # presentation
@@ -467,9 +451,8 @@ print html_head() . html_form($query);
                 "  <tr title=\"" .
                     (exists $field{$field} ? $field{$field} : ucfirst $field) .
                     " (search prefix “$field:”)\">\n",
-                "    <th class=right><span class=light>$field:</span></th>\n",
-                "    <td>@content</td>\n",
-                "  </tr>";
+                "    <th class=right><span class=light>$field:</span>\n",
+                "    <td>@content";
         }
     }
     # output page
@@ -477,8 +460,8 @@ print html_head() . html_form($query);
         print html_no_match($query);
     } else {
         print '<table class="noborder layout">' . "\n";
-        print '  <tr><td colspan=2>' . $matches . ' match' . ($matches == 1 ? "" : "es") . ".</td></tr>\n";
-        print '  <tr><td colspan=2>&nbsp;</td></tr>' . "\n";
+        print '  <tr><td colspan=2>' . $matches . ' match' . ($matches == 1 ? "" : "es") . ".\n";
+        print '  <tr><td colspan=2>&nbsp;' . "\n";
         print @output;
         print "</table>\n\n";
     }

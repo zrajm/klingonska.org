@@ -9,19 +9,19 @@ A Quick Reference to Numbers in Klingon
 =======================================
 
 <table>
-  <tr><th colspan=4>Basic Numbers</tr>
-  <tr><td>{pagh}<td>zero<td>{vagh}<td>five</tr>
-  <tr><td>{wa'}<td>one<td>{jav}<td>six</tr>
-  <tr><td>{cha'}<td>two<td>{Soch}<td>seven</tr>
-  <tr><td>{wej}<td>three<td>{chorgh}<td>eight</tr>
-  <tr><td>{loS}<td>four<td>{Hut}<td>nine</tr>
+  <tr><th colspan=4>Basic Numbers
+  <tr><td>{pagh}<td>zero<td>{vagh}<td>five
+  <tr><td>{wa'}<td>one<td>{jav}<td>six
+  <tr><td>{cha'}<td>two<td>{Soch}<td>seven
+  <tr><td>{wej}<td>three<td>{chorgh}<td>eight
+  <tr><td>{loS}<td>four<td>{Hut}<td>nine
 </table>
 
 <table>
-  <tr><th colspan=4>Number-Forming Elements</tr>
-  <tr><td>{-maH}<td>ten<td>{-netlh}<td>ten thousand</tr>
-  <tr><td>{-vatlh}<td>hundred<td>{-bIp}<td>hundred thousand</tr>
-  <tr><td>{-SaD}/{-SanID}<td>thousand<td>{-'uy'}<td>million</tr>
+  <tr><th colspan=4>Number-Forming Elements
+  <tr><td>{-maH}<td>ten<td>{-netlh}<td>ten thousand
+  <tr><td>{-vatlh}<td>hundred<td>{-bIp}<td>hundred thousand
+  <tr><td>{-SaD}/{-SanID}<td>thousand<td>{-'uy'}<td>million
 </table>
 
 The basic numbers 1--9 may take a number-forming element to form a higher
@@ -37,9 +37,9 @@ nouns in their own right (e.g {wa' yIHoH} <i>Kill one (of
 them)!</i>). <small>[TKD 5.2]</small>
 
 <table>
-  <tr><th colspan=3>Number Suffixes</tr>
-  <tr><td>{-DIch}<td>ordinal (follows the noun)<td>i.e. "first", "second", "third" etc.</tr>
-  <tr><td>{-logh}<td>repetitions (becomes adverb)<td>i.e. "once", "twice", "three times" etc.</tr>
+  <tr><th colspan=3>Number Suffixes
+  <tr><td>{-DIch}<td>ordinal (follows the noun)<td>i.e. "first", "second", "third" etc.
+  <tr><td>{-logh}<td>repetitions (becomes adverb)<td>i.e. "once", "twice", "three times" etc.
 </table>
 
 When {-DIch} is used it always follows the noun in modifies (e.g. {Duj

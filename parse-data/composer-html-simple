@@ -8,7 +8,7 @@ my $WIDTH = 79;
 {
     blockquote      => sub { "<blockquote>" . shift() . "</blockquote>\n\n" },
     bulletlist      => sub { "<ul>" . shift() . "</ul>\n\n" },
-    bulletlist_item => sub { "<li>" . shift() . "</li>\n" },
+    bulletlist_item => sub { "<li>" . shift() . "\n" },
     code            => sub { "<code>" . shift() . "</code>" },
     doublequote     => sub { "&ldquo;" . shift() . "&rdquo;" },
     emdash          => sub { "&mdash;" },
@@ -23,7 +23,7 @@ my $WIDTH = 79;
     hr              => sub { "<hr>\n\n" },
     html            => sub { shift() . "\n\n" },
     numberlist      => sub { "<ol>" . shift() . "</ol>\n\n" },
-    numberlist_item => sub { "<li>" . shift() . "</li>\n\n" },
+    numberlist_item => sub { "<li>" . shift() . "\n\n" },
     paragraph       => sub { wrap("<p>" . shift() . "</p>", $WIDTH) . "\n\n" },
     plain           => sub { use HTML::Entities; encode_entities(shift(), "<>&") },
     root            => sub { "<body>\n\n" . shift() . "</body>\n" },

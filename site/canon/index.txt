@@ -27,10 +27,9 @@ it better to offer the search facility to you now, than to wait for perfection
 <form action="search/" method="get">
 <table class="noborder">
   <tr>
-    <td><input type="text" id="query" name="query" value="" size="30"></td>
-    <td><input type="submit" value="Search"></td>
-    <td><font size="1"><a href="search/?get=help">Search Help</a></font></td>
-  </tr>
+    <td><input type="text" id="query" name="query" value="" size="30">
+    <td><input type="submit" value="Search">
+    <td><font size="1"><a href="search/?get=help">Search Help</a></font>
 </table>
 </form>
 
@@ -57,12 +56,11 @@ publication, or a description of its contents and/or form).
 
 <table>
   <tr>
-    <th>Date</th>
-    <th>Title/Info</th>
-  </tr>
+    <th>Date
+    <th>Title/Info
   <tbody>
     <tr>
-      <td class="nobr"><big id="1979">1979</a></big></td>
+      <td class="nobr"><big id="1979">1979</a></big>
       <td><big><i>Star Trek: The Motion Picture</i></big>
         <br><font size="2"><i>Motion picture produced by Paramount Pictures</i></font>
         <br>(<a href="1979-12-06-st1.txt">text</a>)
@@ -71,50 +69,35 @@ publication, or a description of its contents and/or form).
         at the beginning of the movie by a Klingon captain portrayed by Mark
         Lenard. See also: http://www.youtube.com/watch?v=W9xaO55LipQ. Usually
         abbreviated <i>ST1</i>, sometimes abbreviated <i>ST:TMP</i>.
-      </td>
-    </tr>
-  </tbody>
   <tbody>
     <tr>
-      <td class="nobr"><big id="1984">1984</a></big></td>
+      <td class="nobr"><big id="1984">1984</a></big>
       <td><big><i>Star Trek III: The Search For Spock</i></big>
         <br><font size="2"><i>Motion picture produced by Paramount Pictures</i></font>
         <br>Features Klingon dialogue written by Marc Okrand. (Usually abbreviated <i>ST3.</i>)
-      </td>
-    </tr>
-  </tbody>
   <tbody>
     <tr>
-      <td class="nobr"><big id="1985">1985</a></big></td>
+      <td class="nobr"><big id="1985">1985</a></big>
       <td><big><i>The Klingon Dictionary</i> (1st edition)</big>
         <br><font size="2"><i>Book by Marc Okrand, Pocket Books, Simon &amp; Schuster, New York, ISBN 0-671-74559-X</i></font>
         <br>(<a href="1992-01-01-tkd.txt">text</a>)
         Klingon grammar/dictionary, see the second edition below. (Abbreviated
         <i>TKD.</i>)
-      </td>
-    </tr>
-  </tbody>
   <tbody>
     <tr>
-      <td class="nobr"><big id="1989">1989</a></big></td>
+      <td class="nobr"><big id="1989">1989</a></big>
       <td><big><i>Star Trek V: The Final Frontier</i></big>
         <br><font size="2"><i>Motion picture produced by Paramount Pictures</i></font>
         <br>Features Klingon dialogue written by Marc Okrand. (Usually abbreviated <i>ST5.</i>)
-      </td>
-    </tr>
-  </tbody>
   <tbody>
     <tr>
-      <td class="nobr"><big id="1991">1991</a></big></td>
+      <td class="nobr"><big id="1991">1991</a></big>
       <td><big><i>Star Trek VI: The Undiscovered Country</i></big>
         <br><font size="2"><i>Motion picture produced by Paramount Pictures</i></font>
         <br>Features Klingon dialogue written by Marc Okrand. (Usually abbreviated <i>ST6.</i>)
-      </td>
-    </tr>
-  </tbody>
   <tbody>
     <tr>
-      <td class="nobr"><big id="1992">1992-01</a></big></td>
+      <td class="nobr"><big id="1992">1992-01</a></big>
       <td><big><i>The Klingon Dictionary</i> (2nd edition, with new addendum)</big>
         <br><font size="2"><i>Book by Marc Okrand, Pocket Books, Simon &amp; Schuster, New York, ISBN 0-671-74559-X</i></font>
         <br>(<a href="1992-01-01-tkd.txt">text</a>)
@@ -128,19 +111,15 @@ publication, or a description of its contents and/or form).
         you use section references [rather than page references] since
         the section numbering presumably will be retained in
         translations of the book.)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1992</big></td>
+      <td class="nobr"><big>1992</big>
       <td><big><i>Conversational Klingon</i></big>
         <br><font size="2"><i>Audio cassette produced by Audioworks, Simon &amp; Schuster, London, ISBN 0-671-85316-3</i></font>
         <br>(<a href="1992-10-01-ck.txt">text</a>)
         This audio cassette is a quick introduction to Klingon,
         intended for the tourist to the Empire. (Abbreviated <i>CK.</i>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1992-06</big></td>
+      <td class="nobr"><big>1992-06</big>
       <td><big>»An Interview with Marc Okrand«</big>
         <br><font size="2"><i>Article by David Barron, {HolQeD} 1:2 p.10-15,
             Klingon Language Institute, Lake Bluff, IL, ISSN 1061-2327</i></font>
@@ -149,12 +128,9 @@ publication, or a description of its contents and/or form).
         the words, created the phonology, and why homophony was
         introduced), how long it took, and about his and other
         people's skills in Klingon.
-      </td>
-    </tr>
-  </tbody>
   <tbody>
     <tr>
-      <td class="nobr"><big id="1993">1993</a></big></td>
+      <td class="nobr"><big id="1993">1993</a></big>
       <td><big><i>Power Klingon</i></big>
         <br><font size="2"><i>Audio cassette produced by Audioworks, Simon &amp; Schuster, London, ISBN 0-671-85319-8</i></font>
         <br>(<a href="1993-10-01-pk.txt">text</a>)
@@ -163,10 +139,8 @@ publication, or a description of its contents and/or form).
         the serious traveler, student or businessman and people
         that will spend a lot of time in the Empire. (Abbreviated
         <i>PK.</i>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1993</big></td>
+      <td class="nobr"><big>1993</big>
       <td><big>SkyBox Trading card <i>99</i></big>
         <br><font size="2"><i>Trading card translated by Marc Okrand,
             SkyBox International</i></font>
@@ -178,28 +152,21 @@ publication, or a description of its contents and/or form).
         Japanese and Klingon. (There are somewhere between five and ten
         different versions in total.) (Usually abbreviated <i>SBX,</i>
         but the abbreviation <i>SBC</i> is also used sometimes.)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1993-06</big></td>
+      <td class="nobr"><big>1993-06</big>
       <td><big>»Letters to the Editor«</big>
         <br><font size="2"><i>Letter from Marc Okrand, {HolQeD} 2:2 p.12,
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
         <br>(<a href="1993-06-holqed-02-2.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1993-12</big></td>
+      <td class="nobr"><big>1993-12</big>
       <td><big>»Okrand's notes«</big>
         <br><font size="2"><i>Article by Marc Okrand {HolQeD} 2:4 pp.17&ndash;18,
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
         <br>(<a href="1993-12-holqed-02-4.txt">text</a>)
-      </td>
-    </tr>
-  </tbody>
   <tbody>
     <tr>
-      <td class="nobr"><big id="1994">1994</a></big></td>
+      <td class="nobr"><big id="1994">1994</a></big>
       <td><font size="4">SkyBox Trading cards <i>SP1</i>, <i>SP2</i> and
           <i>SP3</i></font>
         <br><font size="2"><i>Trading cards translated by Marc Okrand,
@@ -212,10 +179,8 @@ publication, or a description of its contents and/or form).
         were pointed out by Will Martin in a letter to the editor
         in <i>{HolQeD} 4:1</i>, p.7.) (Usually abbreviated <i>SBX,</i>
         but the abbreviation <i>SBC</i> is also used sometimes.)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1994-06</big></td>
+      <td class="nobr"><big>1994-06</big>
       <td><big>»Everyday Klingon«</big>
         <br><font size="2"><i>Article by Lawrence M. Schoen, {HolQeD} 3:2, page 9
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -223,18 +188,14 @@ publication, or a description of its contents and/or form).
         A description of SkyBox Trading card <i>99</i> (1993 series) and
         a transcription of the rather lengthy piece of Klingon text
         (translated by Marc Okrand) on that card.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1994-09a</big></td>
+      <td class="nobr"><big>1994-09a</big>
       <td><big>»Interview: Okrand on {-ghach}«</big>
         <br><font size="2"><i>{HolQeD} 3:3 pp.10&ndash;13,
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
         <br>(<a href="1994-09-holqed-03-3-a.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1994-09b</big></td>
+      <td class="nobr"><big>1994-09b</big>
       <td><big>»{chuvmey}«</big>
         <br><font size="2"><i>{HolQeD} 3:3 p.20,
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -242,10 +203,8 @@ publication, or a description of its contents and/or form).
         Some leftovers, from the big interview (above) with Marc
         Okrand in the same issue of {HolQeD}, at revailing the
         spelling of some new words on PK.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1994-10</big></td>
+      <td class="nobr"><big>1994-10</big>
       <td><big>Hallmark TV Commercial for Bird-of-Prey Christmas Ornament</big>
         <br><font size="2"><i>Video, TV commercial starring Robert O'Reilly and Guy Vardaman</i></font>
         <br>(<a href="1994-10-hallmark.txt">text</a>)
@@ -256,12 +215,9 @@ publication, or a description of its contents and/or form).
         also: <a href="http://www.youtube.com/watch?v=9eM1OSNGLwI">http://www.youtube.com/watch?v=9eM1OSNGLwI</a>
         (YouTube video uploaded by garymalone1701).
         Abbreviated <i>Hallmark</i>.
-      </td>
-    </tr>
-  </tbody>
   <tbody>
     <tr>
-      <td class="nobr"><big id="1995">1995</a></big></td>
+      <td class="nobr"><big id="1995">1995</a></big>
       <td><font size="4">SkyBox Trading cards <i>S7</i>, <i>S8</i> and
           <i>S9</i></font>
         <br><font size="2"><i>Trading cards translated by Marc Okrand,
@@ -271,10 +227,8 @@ publication, or a description of its contents and/or form).
         A set of three collectible trading cards produced for the second season
         of <i>Star Trek: The Next Generation</i>. (Usually abbreviated <i>SBX,</i>
         but the abbreviation <i>SBC</i> is also used sometimes.)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1995</big></td>
+      <td class="nobr"><big>1995</big>
       <td><font size="4">SkyBox Trading cards <i>S13</i>, <i>S14</i> and
           <i>S15</i></font>
         <br><font size="2"><i>Trading cards translated by Marc Okrand,
@@ -284,10 +238,8 @@ publication, or a description of its contents and/or form).
         A set of three collectible trading cards produced for the third season
         of <i>Star Trek: The Next Generation</i>. (Usually abbreviated <i>SBX,</i>
         but the abbreviation <i>SBC</i> is also used sometimes.)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1995-02</big></td>
+      <td class="nobr"><big>1995-02</big>
       <td><big><i>Sarek</i></big>
         <br><font size="2"><i>Novel by Ann C. Crispin, Pocket Books, Simon &amp; Schuster, New York, ISBN 0-671-79562-7</i></font>
         <br>(<a href="1995-02-01-sarek.txt">text</a>)
@@ -298,38 +250,30 @@ publication, or a description of its contents and/or form).
         become be captured by the Klingons. - Crispin apparently got
         Marc Okrand to provide her with some Klingon words she felt she needed,
         most of them new (mostly names of places and animals).
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1995-06a</big></td>
+      <td class="nobr"><big>1995-06a</big>
       <td><big>»Interview: Okrand on {-bogh} and more«</big>
         <br><font size="2"><i>{HolQeD} 4:2 pp.5&ndash;6, Klingon Language
             Institute, Flourtown, PA, ISSN 1061-2327</i></font>
         <br>(<a href="1995-06-holqed-04-2-a.txt">text</a>) Okrand gives some (vague)
         answers on the topics of {-'e'} and {-bogh}.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1995-06b</big></td>
+      <td class="nobr"><big>1995-06b</big>
       <td><big>»{chuvmey}«</big>
         <br><font size="2"><i>{HolQeD} 4:2 p.7,
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
         <br>(<a href="1995-06-holqed-04-2-b.txt">text</a>)
         A small note on the existance of the word <i>coffee</i> in Klingon.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1995-08</big></td>
+      <td class="nobr"><big>1995-08</big>
       <td><big><i>Star Trek Communicator #104</i></big>
         <br><font size="2"><i>Magazine</i></font>
         <br>(<a href="1995-08-stc.txt">text</a>)
         Various headlines and tidbits for the special Klingon issue of <i>Star
           Trek Communicator</i> (the Star Trek Official Fan Club's magazine) was
         translated by Marc Okrand. (Sometimes abbreviated <i>STC.</i>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1995-09</big></td>
+      <td class="nobr"><big>1995-09</big>
       <td><big>»Interview: Mark Lenard, The First Klingon Speaker«</big>
         <br><font size="2"><i>Article by Lawrence Schoen(?), {HolQeD} 4:3 pp.10&ndash;12
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -337,20 +281,15 @@ publication, or a description of its contents and/or form).
         Mark Lenard talks about how it was to record the Klingon scenes of
         <i>ST1</i>. The lines spoken are listed (with the spelling originally
         used, i.e. not the transcription that we use nowadays).
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1995-12</big></td>
+      <td class="nobr"><big>1995-12</big>
       <td><big>»More from Maltz«</big>
         <br><font size="2"><i>Article by Marc Okrand, {HolQeD} 4:4 p.11,
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
         <br>(<a href="1995-12-holqed-04-4.txt">text</a>)
-      </td>
-    </tr>
-  </tbody>
   <tbody>
     <tr>
-      <td class="nobr"><big id="1996">1996</a></big></td>
+      <td class="nobr"><big id="1996">1996</a></big>
       <td><font size="4">SkyBox Trading cards <i>S19</i>, <i>S20</i> and
           <i>S21</i></font>
         <br><font size="2"><i>Trading cards translated by Marc Okrand,
@@ -360,10 +299,8 @@ publication, or a description of its contents and/or form).
         A set of three collectible trading cards produced for the fourth season
         of <i>Star Trek: The Next Generation</i>. (Usually abbreviated <i>SBX,</i>
         but the abbreviation <i>SBC</i> is also used sometimes.)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1996</big></td>
+      <td class="nobr"><big>1996</big>
       <td><font size="4">SkyBox Trading cards <i>S25</i>, <i>S26</i> and
           <i>S27</i></font>
         <br><font size="2"><i>Trading cards translated by Marc Okrand,
@@ -373,18 +310,14 @@ publication, or a description of its contents and/or form).
         A set of three collectible trading cards produced for the fifth season
         of <i>Star Trek: The Next Generation</i>. (Usually abbreviated <i>SBX,</i>
         but the abbreviation <i>SBC</i> is also used sometimes.)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1996-03</big></td>
+      <td class="nobr"><big>1996-03</big>
       <td><big>»A Note on Proverbs«</big>
         <br><font size="2"><i>Article by Marc Okrand, {HolQeD} 5:1 p.10,
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
         <br>(<a href="1996-03-holqed-05-1.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1996-04</big></td>
+      <td class="nobr"><big>1996-04</big>
       <td><big><i>Star Trek: Klingon</i></big>
         <br><font size="2"><i>Computer game (CD-ROM) with translation and
             language coaching by Marc Okrand, Simon & Schuster Interactive, Simon &
@@ -401,20 +334,16 @@ publication, or a description of its contents and/or form).
         pronunciation. Okrand was involved in the production and some new words
         appeared here. (Usually abbreviated <i>KCD</i>, sometimes abbreviated
         <i>STK</i>.)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1996-05</big></td>
+      <td class="nobr"><big>1996-05</big>
       <td><big><i>The Klingon Way -- A Warrior's Guide</i></big>
         <br><font size="2"><i>Book by Marc Okrand, Pocket Books, Simon &amp; Schuster, New York, ISBN 0-671-53755-5.</i></font>
         <br>(<a href="1996-05-01-tkw.txt">text</a>)
         This book covers a lot of Klingon culture. It contains
         Klingon sayings mostly, not any new grammar. But it sure is a
         nice book. (Abbreviated <i>TKW.</i>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1996</big></td>
+      <td class="nobr"><big>1996</big>
       <td><big><i>The Klingon Way -- A Warrior's Guide</i> (Audio Book)</big>
         <br><font size="2"><i>Audio cassette produced by Audioworks, Simon &amp; Schuster, London</i></font>
         <br>This audio cassette is a recording of parts of the book
@@ -422,10 +351,8 @@ publication, or a description of its contents and/or form).
         the same name, and produced <i>without</i> Marc Okrand's
         direct involvement, thus it is not unexpected that it does not
         have much to offer the student of Klingon. (Sometimes abbreviated <i>KW.</i>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1996-08</big></td>
+      <td class="nobr"><big>1996-08</big>
       <td><big><i>Radio Times</i></big>
         <br><font size="2"><i>Article in »Radio Times« special Star Trek 30th
             anniversary issue (a British TV magazine)</i></font>
@@ -433,91 +360,70 @@ publication, or a description of its contents and/or form).
         Marc Okrand is inteviewed about the language and also provided
         a list of some typically British phrases translated into
         Klingon. (Sometimes abbreviated <i>RT</i>.)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1996-08-06a</big></td>
+      <td class="nobr"><big>1996-08-06a</big>
       <td><big>(unknown title)</big>
         <br><font size="2"><i>Newsgroup posting by Marc Okrand to »msn.onstage.startrek.expert.okrand«</i></font>
         <br>(<a href="1996-08-06a-news.txt">text</a>)
         A »Welcome to MSN«-message.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1996-08-06b</big></td>
+      <td class="nobr"><big>1996-08-06b</big>
       <td><big>(unknown title)</big>
         <br><font size="2"><i>Newsgroup posting by Marc Okrand to »msn.onstage.startrek.expert.okrand«</i></font>
         <br>(<a href="1996-08-06b-news.txt">text</a>)
         Some comments on the word {mon} and on what to do when a word you
         need can't be found in the dictionary.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1996-08-06c</big></td>
+      <td class="nobr"><big>1996-08-06c</big>
       <td><big>(unknown title)</big>
         <br><font size="2"><i>Newsgroup posting by Marc Okrand to »msn.onstage.startrek.expert.okrand«</i></font>
         <br>(<a href="1996-08-06c-news.txt">text</a>)
         Some advice on what to do when a word you need can't be found in the
         dictionary.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1996-09a</big></td>
+      <td class="nobr"><big>1996-09a</big>
       <td><big>»The Tale of {'I'}«</big>
         <br><font size="2"><i>Column by Mark Schoulson, {HolQeD} 5:3 p.14,
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
         <br>(<a href="1996-09-holqed-05-3-a.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1996-11-06</big></td>
+      <td class="nobr"><big>1996-11-06</big>
       <td><big>»This BBS«</big>
         <br><font size="2"><i>Newsgroup posting by Marc Okrand to »msn.onstage.startrek.expert.okrand«</i></font>
         <br>(<a href="1996-11-06-news.txt">text</a>)
         Just a brief note from Marc Okrand declaring that he is back in
         bussiness again after some computer rehab.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1996-11-10a</big></td>
+      <td class="nobr"><big>1996-11-10a</big>
       <td><big>(unknown title)</big>
         <br><font size="2"><i>Newsgroup posting by Marc Okrand to »msn.onstage.startrek.expert.okrand«</i></font>
         <br>(<a href="1996-11-10a-news.txt">text</a>)
         Some info about sources of spoken Klingon (the audio tape of
         TKW, the CD-Rom) and a brief note in Klingon.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1996-11-10b</big></td>
+      <td class="nobr"><big>1996-11-10b</big>
       <td><big>(unknown title)</big>
         <br><font size="2"><i>Newsgroup posting by Marc Okrand to »msn.onstage.startrek.expert.okrand«</i></font>
         <br>(<a href="1996-11-10b-news.txt">text</a>)
         Some info about sources of spoken Klingon (the audio tape of
         TKW, the CD-Rom) and a brief note in Klingon.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1996-12-12a</big></td>
+      <td class="nobr"><big>1996-12-12a</big>
       <td><big>(unknown title)</big>
         <br><font size="2"><i>Newsgroup posting by Marc Okrand to »msn.onstage.startrek.expert.okrand«</i></font>
         <br>(<a href="1996-12-12a-news.txt">text</a>)
         Expressing age in Klingon.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1996-12-12b</big></td>
+      <td class="nobr"><big>1996-12-12b</big>
       <td><big>(unknown title)</big>
         <br><font size="2"><i>Newsgroup posting by Marc Okrand to »msn.onstage.startrek.expert.okrand«</i></font>
         <br>(<a href="1996-12-12b-news.txt">text</a>)
         Translating expressions such as »Do
         you think it's possible for a Klingon to feel love for a
         Ferengi?« and »What is your favorite month?«.
-      </td>
-    </tr>
-  </tbody>
   <tbody>
     <tr>
-      <td class="nobr"><big id="1997">1997</a></big></td>
+      <td class="nobr"><big id="1997">1997</a></big>
       <td><font size="4">SkyBox Trading cards <i>S31</i>, <i>S32</i> and
           <i>S33</i></font>
         <br><font size="2"><i>Trading cards translated by Marc Okrand,
@@ -527,10 +433,8 @@ publication, or a description of its contents and/or form).
         A set of three collectible trading cards produced for the sixth season
         of <i>Star Trek: The Next Generation</i>. (Usually abbreviated <i>SBX,</i>
         but the abbreviation <i>SBC</i> is also used sometimes.)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-04-07</big></td>
+      <td class="nobr"><big>1997-04-07</big>
       <td><big>»BabelCon 2«</big>
         <br><font size="2"><i>Mailing list posting by Bill Willmerdinger to {tlhIngan-Hol}</i></font>
         <br>(<a href="1997-04-07-email.txt">text</a>)
@@ -539,10 +443,8 @@ publication, or a description of its contents and/or form).
         {toQ} and {yoymoHwI'}; the suffix {-Ha'}; the
         new book, <i>KGT;</i> humor in the language; and the MSN word
         definitions.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-06-11a</big></td>
+      <td class="nobr"><big>1997-06-11a</big>
       <td><big>»This forum«</big>
         <br><font size="2"><i>Newsgroup posting by Marc Okrand to
             »msn.onstage.startrek.expert.okrand«</i></font>
@@ -550,37 +452,29 @@ publication, or a description of its contents and/or form).
         Marc Okrand announces the soon-to-be-released book <i>Klingon For the
           Galactic Traveler</i>, talks a bit about his computer
         problems, and urges people to continue posting their opinions.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-06-11b</big></td>
+      <td class="nobr"><big>1997-06-11b</big>
       <td><big>»Re: Translation, Please?«</big>
         <br><font size="2"><i>Newsgroup posting by Marc Okrand to
             »msn.onstage.startrek.expert.okrand«</i></font>
         <br>(<a href="1997-06-11b-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-06-14</big></td>
+      <td class="nobr"><big>1997-06-14</big>
       <td><big>»Re: is there really a ferengi language«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>msn.onstage.startrek.expert.okrand</i></font>
         <br>(<a href="1997-06-14-news.txt">text</a>)
         Some talk about the DS9-episode "Little Green Men" and the
         Ferengi language that we get to hear in that episode.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-06-18a</big></td>
+      <td class="nobr"><big>1997-06-18a</big>
       <td><big>(unknown title)</big> 
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>msn.onstage.startrek.expert.okrand</i></font>
         <br>(<a href="1997-06-18a-news.txt">text</a>)
         Explanation of the word {jeq} "protrude from".
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-06-18b</big></td>
+      <td class="nobr"><big>1997-06-18b</big>
       <td><big>(unknown title)</big> 
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>msn.onstage.startrek.expert.okrand</i></font>
@@ -590,58 +484,46 @@ publication, or a description of its contents and/or form).
         some talk about verb-noun homonyms, and about constructing new words
         from verbs using {-pa'} and
         {-Daq}.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-06-23</big></td>
+      <td class="nobr"><big>1997-06-23</big>
       <td><big>»Re: MSN Wordlist«</big>
         <br><font size="2">Newsgroup posting by Josh Schroeder (<i>Star
             Trek: Continuum</i> staff) to
           <i>msn.onstage.startrek.expert.okrand</i></font>
         <br>(<a href="1997-06-23-news.txt">text</a>)
         About the "expanded" MSN definitions of Klingon words.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-06-29a</big></td>
+      <td class="nobr"><big>1997-06-29a</big>
       <td><big>»Re: Some quick questions...«</big>
         <br><font size="2">Newsgorup posting by Marc Okrand to
           <i>msn.onstage.startrek.expert.okrand</i></font>
         <br>(<a href="1997-06-29a-news.txt">text</a>)
         About {jatlh} &ldquo;speak&rdquo;, and how to use it&mdash;verb prefixes,
         object/indirect object, the prefix trick and direct quotations.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-06-29b</big></td>
+      <td class="nobr"><big>1997-06-29b</big>
       <td><big>»Re: Some quick questions...«</big>
         <br><font size="2">Newsgorup posting by Marc Okrand to
           <i>msn.onstage.startrek.expert.okrand</i></font>
         <br>(<a href="1997-06-29b-news.txt">text</a>)
         Some more info on {jatlh}, including the meaning of {qajatlh}.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-06-29c</big></td>
+      <td class="nobr"><big>1997-06-29c</big>
       <td><big>»Re: Some quick questions...«</big>
         <br><font size="2">Newsgorup posting by Marc Okrand to
           <i>msn.onstage.startrek.expert.okrand</i></font>
         <br>(<a href="1997-06-29c-news.txt">text</a>)
         On the meaning of the word {qIvon}.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-06-29d</big></td>
+      <td class="nobr"><big>1997-06-29d</big>
       <td><big>»Re: Tonight, this morning, etc.«</big>
         <br><font size="2">Newsgorup posting by Marc Okrand to
           <i>msn.onstage.startrek.expert.okrand</i></font>
         <br>(<a href="1997-06-29d-news.txt">text</a>)
         A (quite lengthy) discussion about different time elements (such
         as {DaHjaj po} vs. {povam}).
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-07-01a</big></td>
+      <td class="nobr"><big>1997-07-01a</big>
       <td><big><i>Federation Travel Guide</i></big>
         <br><font size="2"><i>Booklet by Michael Jan Freedman, Pocket
             Books, Simon &amp; Schuster, New York, ISBN 0-671-00978-8</i></font>
@@ -651,55 +533,43 @@ publication, or a description of its contents and/or form).
         {Qo'noS}, which contains a sentence translated into Klingon by Marc
         Okrand. The word <b lang="tlh">jeq</b> <i>protrude</i> occures here for
         the first time. (Abbreviated <i>FTG</i>.)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-07-01b</big></td>
+      <td class="nobr"><big>1997-07-01b</big>
       <td><big>»Re: questions as objects«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>msn.onstage.startrek.expert.okrand</i></font>
         <br>(<a href="1997-07-01-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-07-13</big></td>
+      <td class="nobr"><big>1997-07-13</big>
       <td><big>»Re: Expensive word«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>msn.onstage.startrek.expert.okrand</i></font>
         <br>(<a href="1997-07-13-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-09-01a</big></td>
+      <td class="nobr"><big>1997-09-01a</big>
       <td><big>»Re: family names«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>msn.onstage.startrek.expert.okrand</i></font>
         <br>(<a href="1997-09-01a-news.txt">text</a>)
         Instructions on how to introduce yourself and tell somebody what family
         or house you come from.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-09-01b</big></td>
+      <td class="nobr"><big>1997-09-01b</big>
       <td><big>»Re: {yu} - {bIm} - {'egh}«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>msn.onstage.startrek.expert.okrand</i></font>
         <br>(<a href="1997-09-01b-news.txt">text</a>)
         A brief comment on Klingon musical tones.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-09-01c</big></td>
+      <td class="nobr"><big>1997-09-01c</big>
       <td><big>»Re: Casual?«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>msn.onstage.startrek.expert.okrand</i></font>
         <br>(<a href="1997-09-01c-news.txt">text</a>)
         A comment on the way Klingons greet each other, and on how to use the
         word {nuqneH}.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-09-01d</big></td>
+      <td class="nobr"><big>1997-09-01d</big>
       <td><big>»Re: {qIb lengwI' tlhIngan Hol}«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>msn.onstage.startrek.expert.okrand</i></font>
@@ -707,34 +577,26 @@ publication, or a description of its contents and/or form).
         Okrand is impressed that people already have begun to use vocabulary
         from <i>KGT</i> and promise to talk to Maltz about {Sum}
         and {Hop}.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-09-04</big></td>
+      <td class="nobr"><big>1997-09-04</big>
       <td><big>(unknown title)</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>msn.onstage.startrek.expert.okrand</i></font>
         <br>(<a href="1997-09-04-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-10-17</big></td>
+      <td class="nobr"><big>1997-10-17</big>
       <td><big>»Re: Klingon Alphabet«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>msn.onstage.startrek.expert.okrand</i></font>
         <br>(<a href="1997-10-17-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-10-22</big></td>
+      <td class="nobr"><big>1997-10-22</big>
       <td><big>»Re: Weights and Measures«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>msn.onstage.startrek.expert.okrand</i></font>
         <br>(<a href="1997-10-22-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-11</big></td>
+      <td class="nobr"><big>1997-11</big>
       <td><big><i>Klingon For the Galactic Traveler</i></big>
         <br><font size="2"><i>Book by Marc Okrand, Pocket Books, Simon &amp;
             Schuster, New York, ISBN 0-671-00995-8</i></font>
@@ -743,259 +605,196 @@ publication, or a description of its contents and/or form).
         contains some true insights into Klingon cooking, dialects and
         pronounciation. It tells you what to avoid, and how to enhance
         your status among Klingons. (Abbreviated <i>KGT.</i>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-11-30</big></td>
+      <td class="nobr"><big>1997-11-30</big>
       <td><big>»Re: {chenmoH}, {ja'chuq}, etc.«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>msn.onstage.startrek.expert.okrand</i></font>
         <br>(<a href="1997-11-30-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1997-12-31</big></td>
+      <td class="nobr"><big>1997-12-31</big>
       <td><big>»Welcome!«</big>
         <br><font size="2">Newsgroup posting by Marc Wade (Senior
           Producer/Designer, <i>Star Trek: Continuum</i>) to
           <i>startrek.expertforum</i></font> 
         <br>(<a href="1997-12-31-news.txt">text</a>)
-      </td>
-    </tr>
-  </tbody>
   <tbody>
     <tr>
-      <td class="nobr"><big id="1998">1998-01-09</a></big></td>
+      <td class="nobr"><big id="1998">1998-01-09</a></big>
       <td><big>»Newsgroups have moved!«</big>
         <br><font size="2">Newsgroup posting by Leslie Wade (<i>Star Trek:
             Continuum</i> staff) to <i>msn.onstage.startrek.expert.okrand</i></font> 
         <br>(<a href="1998-01-09-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-01-18a</big></td>
+      <td class="nobr"><big>1998-01-18a</big>
       <td><big>»The Klingon language and this forum«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.expertforum</i></font>
         <br>(<a href="1998-01-18a-news.txt">text</a>)
         Marc Okrand tells that he is back online after some computer related
         trouble.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-01-18b</big></td>
+      <td class="nobr"><big>1998-01-18b</big>
       <td><big>»Re: Problem with {-meH} and negative meanings«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.expertforum</i></font>
         <br>(<a href="1998-01-18b-news.txt">text</a>)
         Marc Okrand contemplates what it means to be "too late to visit someone".
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-01-18c</big></td>
+      <td class="nobr"><big>1998-01-18c</big>
       <td><big>»Re: Problem with {-meH} and negative meanings«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.expertforum</i></font>
         <br>(<a href="1998-01-18c-news.txt">text</a>)
         Marc Okrand contemplates what it means to be "too late to visit someone".
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-02-02</big></td>
+      <td class="nobr"><big>1998-02-02</big>
       <td><big>»Re: Klingon - to be or not to be?«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.expertforum</i></font>
         <br>(<a href="1998-02-02-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-02-21</big></td>
+      <td class="nobr"><big>1998-02-21</big>
       <td><big>»Re: color (for Okrand)«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.klingon</i></font>
         <br>(<a href="1998-02-21-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-02-23</big></td>
+      <td class="nobr"><big>1998-02-23</big>
       <td><big>»Re: For Dr Okrand«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.klingon</i></font>
         <br>(<a href="1998-02-23-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-02-24</big></td>
+      <td class="nobr"><big>1998-02-24</big>
       <td><big>»Re: color (for Okrand)«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.klingon</i></font>
         <br>(<a href="1998-02-24-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-03-02a</big></td>
+      <td class="nobr"><big>1998-03-02a</big>
       <td><big>»Re: {-be'}, {-Ha'}«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.klingon</i></font>
         <br>(<a href="1998-03-02a-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-03-02b</big></td>
+      <td class="nobr"><big>1998-03-02b</big>
       <td><big>»Re: {-be'}, {-Ha'}«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.klingon</i></font>
         <br>(<a href="1998-03-02b-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-03-02c</big></td>
+      <td class="nobr"><big>1998-03-02c</big>
       <td><big>»Re: Problem with {-meH} and negative meanings«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.klingon</i></font>
         <br>(<a href="1998-03-02c-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-03-20</big></td>
+      <td class="nobr"><big>1998-03-20</big>
       <td><big>»Re: {'ej} and sequence (for Dr. Okrand)«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.klingon</i></font> 
         <br>(<a href="1998-03-20-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-03-22</big></td>
+      <td class="nobr"><big>1998-03-22</big>
       <td><big>»Re: Need to know some words«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.expertforum</i></font> 
         <br>(<a href="1998-03-22-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-03-23a</big></td>
+      <td class="nobr"><big>1998-03-23a</big>
       <td><big>»Re: {DIrmey pagh DIrDu'}«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.klingon</i></font>
         <br>(<a href="1998-03-23a-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-03-23b</big></td>
+      <td class="nobr"><big>1998-03-23b</big>
       <td><big>»Re: {DIrmey pagh DIrDu'}«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.klingon</i></font>
         <br>(<a href="1998-03-23b-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-04-01</big></td>
+      <td class="nobr"><big>1998-04-01</big>
       <td><big>»Re: What about Jimmy Dr Okrand?«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.klingon</i></font>
         <br>(<a href="1998-04-01-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-05-05a</big></td>
+      <td class="nobr"><big>1998-05-05a</big>
       <td><big>»Re: {muqaD veS!!!!!!!}«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.klingon</i></font>
         <br>(<a href="1998-05-05a-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-05-05b</big></td>
+      <td class="nobr"><big>1998-05-05b</big>
       <td><big>»Re: New Klingon Language Lab Disks«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.klingon</i></font>
         <br>(<a href="1998-05-05b-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-05-22</big></td>
+      <td class="nobr"><big>1998-05-22</big>
       <td><big>»Re: {naDev vay' tu'lu''a'?}«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.klingon</i></font>
         <br>(<a href="1998-05-22-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-05-28</big></td>
+      <td class="nobr"><big>1998-05-28</big>
       <td><big>»long weekend with MO«</big>
         <br><font size="2">Mailing list posting by Roger Cheesbro to
           <i>tlhIngan-Hol</i></font>
         <br>(<a href="1998-05-28-email.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-06</big></td>
+      <td class="nobr"><big>1998-06</big>
       <td><big>»Maltz Online«</big>
         <br><font size="2"><i>Article in {HolQeD} 7:2 pp.8&ndash;9, excerpt
             from Marc Okrand's newspostings, Klingon Language Institute,
             Flourtown, PA, ISSN 1061-2327</i></font>
         <br>(<a href="1998-06-holqed-07-2.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-06-16</big></td>
+      <td class="nobr"><big>1998-06-16</big>
       <td><big>»Re: "cleric" - Dr. Okrand?«</big>
         <br><font size="2">Newsgroup posting by Alan Anderson to
           <i>startrek.klingon</i></font>
         <br>(<a href="1998-06-16-email.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-06-17</big></td>
+      <td class="nobr"><big>1998-06-17</big>
       <td><big>»Re: "cleric" - Dr. Okrand?«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.klingon</i></font>
         <br>(<a href="1998-06-17-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-07-06</big></td>
+      <td class="nobr"><big>1998-07-06</big>
       <td><big>»Re: Marc Okrand«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.expertforum</i></font>
         <br>(<a href="1998-07-06-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-07-07</big></td>
+      <td class="nobr"><big>1998-07-07</big>
       <td><big>»Re: Marc Okrand - apologies to all.«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.expertforum</i></font>
         <br>(<a href="1998-07-07-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-07-09</big></td>
+      <td class="nobr"><big>1998-07-09</big>
       <td><big>»Re: {maHeghlaw'lI'}«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.klingon</i></font>
         <br>(<a href="1998-07-09-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-10-20a</big></td>
+      <td class="nobr"><big>1998-10-20a</big>
       <td><font size="4">»Re: The spelling of the name of a weapon and the
           Klingon alphbet.«</font> 
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.klingon</i></font>
         <br>(<a href="1998-10-20a-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-10-20b</big></td>
+      <td class="nobr"><big>1998-10-20b</big>
       <td><big>»Re: Just curious...«</big> 
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.klingon</i></font>
         <br>(<a href="1998-10-20b-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-11</big></td>
+      <td class="nobr"><big>1998-11</big>
       <td><font size="4"><i>Star Trek Klingon Bird of Prey Cutaway
             Poster</i></font>
         <br><font size="2">Poster, translation by Marc Okrand, published
@@ -1006,152 +805,115 @@ publication, or a description of its contents and/or form).
         numbered points of interest labeled in both English and Klingon. Klingon
         translations were provided by Marc Okrand. (Usually abbreviated <i>BoP.</i>,
         sometimes <i>KBP</i>.)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-12-07</big></td>
+      <td class="nobr"><big>1998-12-07</big>
       <td><big>»Re: walls«</big>
         <br><font size="2">Newsgroup posting by Marc Okrand to
           <i>startrek.klingon</i></font>
         <br>(<a href="1998-12-07-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1998-12</big></td>
+      <td class="nobr"><big>1998-12</big>
       <td><big>»Interview with Marc Okrand«</big>
         <br><font size="2"><i>Article by Will Martin &amp; Lawrence M. Schoen, {HolQeD} 7:4 pp.2&ndash;12,
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
         <br>(<a href="1998-12-holqed-07-4.txt">text</a>)
-      </td>
-    </tr>
-  </tbody>
   <tbody>
     <tr>
-      <td class="nobr"><big id="1999">1999-01-04a</a></big></td>
+      <td class="nobr"><big id="1999">1999-01-04a</a></big>
       <td><big>»Re: {ghew qab}«</big>
         <br><font size="2"><i>Newsgroup posting by Marc Okrand to
             »startrek.klingon«</i></font>
         <br>(<a href="1999-01-04a-news.txt">text</a>)
         How to say "looks like" in Klingon.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1999-01-04b</big></td>
+      <td class="nobr"><big>1999-01-04b</big>
       <td><big>»Re: {ghew qab}«</big>
         <br><font size="2"><i>Newsgroup posting by Marc Okrand to
             »startrek.klingon«</i></font>
         <br>(<a href="1999-01-04b-news.txt">text</a>)
         On how to express "with" in Klingon.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1999-02-02</big></td>
+      <td class="nobr"><big>1999-02-02</big>
       <td><font size="4">»Re: {wanI'} to replace time related
           relative pronoun«</font>
         <br><font size="2"><i>Newsgroup posting by Marc Okrand to
             »startrek.klingon«</i></font>
         <br>(<a href="1999-02-02-email.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1999-03</big></td>
+      <td class="nobr"><big>1999-03</big>
       <td><big>»Maltz Online«</big>
         <br><font size="2"><i>Article in {HolQeD} 8:1 pp.7&ndash;12, excerpt
             from Marc Okrand's newspostings, Klingon Language Institute,
             Flourtown, PA, ISSN 1061-2327</i></font>
         <br>(<a href="1999-03-holqed-08-1.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1999-07-19a</big></td>
+      <td class="nobr"><big>1999-07-19a</big>
       <td><big>»gods (from Marc)«</big>
         <br><font size="2"><i>Newsgroup posting by Marc
             Okrand to »startrek.klingon« (forwarded to {tlhIngan-Hol} by Roger Cheesbro)</i></font>
         <br>(<a href="1999-07-19a-email.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1999-07-19b</big></td>
+      <td class="nobr"><big>1999-07-19b</big>
       <td><big>»{chegh} and new word {tatlh} (from Marc)«</big>
         <br><font size="2"><i>Newsgroup posting by Marc
             Okrand to »startrek.klingon« (forwarded to {tlhIngan-Hol} by Roger Cheesbro)</i></font>
         <br>(<a href="1999-07-19b-email.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1999-07-19c</big></td>
+      <td class="nobr"><big>1999-07-19c</big>
       <td><big>»where do you live? (from Marc)«</big>
         <br><font size="2"><i>Newsgroup posting by Marc
             Okrand to »startrek.klingon« (forwarded to {tlhIngan-Hol} by Roger Cheesbro)</i></font>
         <br>(<a href="1999-07-19c-email.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1999-09</big></td>
+      <td class="nobr"><big>1999-09</big>
       <td><big>»{matlh juppu' mu'mey}«</big>
         <br><font size="2"><i>Article by Marc Okrand, {HolQeD} 8:3 pp.2&ndash;4,
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
         <br>(<a href="1999-09-holqed-08-3.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1999-11-05</big></td>
+      <td class="nobr"><big>1999-11-05</big>
       <td><font size="4">»Re: And then...? And then...? (And then along
           came Jones...) - For MO«</font>
         <br><font size="2"><i>Newsgroup posting by Marc Okrand to
             »startrek.klingon«</i></font>
         <br>(<a href="1999-11-05-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1999-11-21</big></td>
+      <td class="nobr"><big>1999-11-21</big>
       <td><big>»Re: Cardinal Directions (to Marc Okrand)«</big>
         <br><font size="2"><i>Newsgroup posting by Marc Okrand to
             »startrek.klingon«</i></font>
         <br>(<a href="1999-11-21-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1999-12-01</big></td>
+      <td class="nobr"><big>1999-12-01</big>
       <td><big>»Re: Cardinal Directions (to Marc Okrand)«</big>
         <br><font size="2"><i>Newsgroup posting by Marc Okrand to
             »startrek.klingon«</i></font>
         <br>(<a href="1999-12-01-news.txt">text</a>)
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>1999-12</big></td>
+      <td class="nobr"><big>1999-12</big>
       <td><big>»Maltz Online«</big>
         <br><font size="2"><i>Article in {HolQeD} 8:4, pp.6&ndash;10, excerpt from Marc Okrand's newspostings,
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
         <br>(<a href="1999-12-holqed-08-4.txt">text</a>)
-      </td>
-    </tr>
-  </tbody>
   <tbody>
     <tr>
-      <td class="nobr"><big id="2000">2000-09</a></big></td>
+      <td class="nobr"><big id="2000">2000-09</a></big>
       <td><big>»{matlh juppu' mu'mey}«</big>
         <br><font size="2"><i>Article by Marc Okrand, {HolQeD} 9:3 pp.8&ndash;10,
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
         <br>(<a href="2000-09-holqed-09-3.txt">text</a>)
         Marc Okrand talks about kinship terms, and how to express basic
         mathematics.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>2000-12</big></td>
+      <td class="nobr"><big>2000-12</big>
       <td><big>»More From Maltz«</big>
         <br><font size="2"><i>Article by Marc Okrand, {HolQeD} 9:4 p.16,
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
         <br>(<a href="2000-12-holqed-09-4-b.txt">text</a>)
         A brief description of the Klingon word for <i>bull</i>.
-      </td>
-    </tr>
-  </tbody>
   <tbody>
     <tr>
-      <td class="nobr"><big id="2001">2001-06</a></big></td>
+      <td class="nobr"><big id="2001">2001-06</a></big>
       <td><big>»A Friend of Maltz: {nItlhDu' yaDDu' je}«</big>
         <br><font size="2"><i>Article by Marc Okrand, edited by Lawrence M.
             Schoen, {HolQeD} 10:2 pp.7&ndash;11, Klingon Language Institute,
@@ -1160,10 +922,8 @@ publication, or a description of its contents and/or form).
         How do the Klingons relate to their fingers? And then how do they
         consider their toes? Are they all just "flexible"? Maltz tell us a bit
         more about a previously neglected part of the Klingon vocabulary.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>2001-12</big></td>
+      <td class="nobr"><big>2001-12</big>
       <td><big>»{matlh juppu' mu'mey}«</big>
         <br><font size="2"><i>Article by Marc Okrand, {HolQeD} 10:4 pp.4&ndash;5,
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -1171,53 +931,41 @@ publication, or a description of its contents and/or form).
         Maltz gives us a lesson in Klingon bird-watching, and talks about
 	how to distinguish a few types of them, as well as how to discuss
 	pecking, flying ad the various body parts of birds.
-      </td>
-    </tr>
-  </tbody>
   <tbody>
     <tr>
-      <td class="nobr"><big id="2002">2002-06</a></big></td>
+      <td class="nobr"><big id="2002">2002-06</a></big>
       <td><big>»{matlh jup mu'mey}«</big>
         <br><font size="2"><i>Article by Marc Okrand, {HolQeD} 11:2 pp.8&ndash;9,
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
         <br>(<a href="2002-06-holqed-11-2.txt">text</a>)
         Maltz tells us something about how to discuss flying and piloting of
         airplanes and shuttlecrafts.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>2002-09a</big></td>
+      <td class="nobr"><big>2002-09a</big>
       <td><big>»Errata«</big>
         <br><font size="2"><i>Article by Lawrence M. Schoen, {HolQeD} 11:3 p.9,
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
         <br>(<a href="2002-09-holqed-11-3-a.txt">text</a>)
         Some corrections concerning a {-meH}/{-moH} suffix mix-up in the article
         <i>{matlh jup mu'mey}</i> published in <i>{HolQeD} 11:2</i>, pp.8&ndash;9.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>2002-09b</big></td>
+      <td class="nobr"><big>2002-09b</big>
       <td><big>»More from Maltz«</big>
         <br><font size="2"><i>Article by Lawrence M. Schoen (?), {HolQeD} 11:3 p.13,
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
         <br>(<a href="2002-09-holqed-11-3-b.txt">text</a>)
         Anecdote telling the origin of the word {Hutvagh}.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>2002-12</big></td>
+      <td class="nobr"><big>2002-12</big>
       <td><big>»Frasier's Klingon«</big>
         <br><font size="2"><i>Article by Marc Okrand, {HolQeD} 11:4 pp.10&ndash;11,
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
         <br>(<a href="2002-12-holqed-11-4.txt">text</a>)
         Maltz delivers a challenge to the Klingon speaking community through Marc
         Okrand.
-      </td>
-    </tr>
-  </tbody>
   <tbody>
     <tr>
-      <td class="nobr"><big id="2003">2003-06</a></big></td>
+      <td class="nobr"><big id="2003">2003-06</a></big>
       <td><big>»Maltz's Reward: Part I«</big>
         <br><font size="2"><i>Article by Marc Okrand, {HolQeD} 12:2 pp.6&ndash;9
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -1225,10 +973,8 @@ publication, or a description of its contents and/or form).
         Maltz tell which words to use to refer to ends of physical objects, and
         periods of time. This is the reward for the first of those who succeeded
         in solving the "Frasier's Klingon" challenge in <i>{HolQeD} 11:4</i>.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>2003-09</big></td>
+      <td class="nobr"><big>2003-09</big>
       <td><big>»Maltz's Reward: Part II«</big>
         <br><font size="2"><i>Article by Marc Okrand, {HolQeD} 12:3 pp.8&ndash;10
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -1237,10 +983,8 @@ publication, or a description of its contents and/or form).
         tells us how to say <i>Oh, yeah?!?</i> in Klingon. This is the reward for
         the second of those who succeeded in solving the "Frasier's Klingon"
         challenge in <i>{HolQeD} 11:4</i>.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>2003-12</big></td>
+      <td class="nobr"><big>2003-12</big>
       <td><big>»Maltz's Reward: Part III«</big>
         <br><font size="2"><i>Article by Marc Okrand, {HolQeD} 12:4 pp.8&ndash;9
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -1249,12 +993,9 @@ publication, or a description of its contents and/or form).
         tells us the words for snoring, spitting, vomiting and the like. This is
         the reward for the third of those who succeeded in solving the "Frasier's
         Klingon" challenge in <i>{HolQeD} 11:4</i>.
-      </td>
-    </tr>
-  </tbody>
   <tbody>
     <tr>
-      <td class="nobr"><big id="2004">2004-03</a></big></td>
+      <td class="nobr"><big id="2004">2004-03</a></big>
       <td><big>»Maltz's Reward: Part IV«</big>
         <br><font size="2"><i>Article by Marc Okrand, {HolQeD} 13:1 pp.8&ndash;10
             Klingon Language Institute, Flourtown, PA, ISSN 1061-2327</i></font>
@@ -1263,20 +1004,15 @@ publication, or a description of its contents and/or form).
         different things are equally beautiful) and how to say "A isn't Q:er than
         B". This is the reward for the fourth of those who succeeded in solving
         the "Frasier's Klingon" challenge in <i>{HolQeD} 11:4</i>.
-      </td>
-    </tr>
     <tr>
-      <td class="nobr"><big>2004-04-02</big></td>
+      <td class="nobr"><big>2004-04-02</big>
       <td><big>»Re: New Wiki page: "Common Grammar Questions And Problems"«</big>
         <br><font size="2"><i>Mailing list posting by Steven Boozer to {tlhIngan-Hol}</i></font>
         <br>(<a href="2004-04-02-email.txt">text</a>)
         On questions-as-objects (QAO).
-      </td>
-    </tr>
-  </tbody>
   <tbody>
     <tr>
-      <td class="nobr"><big>2010-04-29</big></td>
+      <td class="nobr"><big>2010-04-29</big>
       <td><big><i>Message to Kronos</i></big>
         <br><font size="2">Video, recorded by Marc Okrand, published
           via YouTube</font>
@@ -1290,9 +1026,6 @@ publication, or a description of its contents and/or form).
         also: <a href="http://www.youtube.com/watch?v=ujliyG96Cf8">Original
           YouTube video</a> and <a href="http://www.u-theopera.org/">web page
           for {'u'} -- The Opera</a>. Abbreviated <i>'u'-MTK</i>.
-      </td>
-    </tr>
-  </tbody>
   <tbody>
     <tr>
       <td class="nobr"><big>2011-11-02</big>
@@ -1327,10 +1060,9 @@ publication, or a description of its contents and/or form).
         <br>(<a href="2011-11-07-email.txt">text</a>)
         Many example phrases on how to tell time from the Eurotalk Klingon
         language course.
-  </tbody>
   <tbody>
     <tr>
-      <td class="nobr"><big>2012-01-26</big></td>
+      <td class="nobr"><big>2012-01-26</big>
       <td><big>»[Tlhingan-hol] More new words from Maltz«</big>
         <br><font size="2"><i>Mailing list posting by Agnieszka Solska to
             {tlhIngan-Hol}</i></font>
@@ -1339,9 +1071,6 @@ publication, or a description of its contents and/or form).
         new words for "flavor", "be indirect" / "be direct", "double agent" and
         two kinds of "hole". Second message with "ditch", "be deep" / "be
         shallow", "be straight" / "be crooked" and "model, example, pattern".
-      </td>
-    </tr>
-  </tbody>
 </table>
 
 

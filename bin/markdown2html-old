@@ -795,14 +795,14 @@ sub page_toc {
                 $li_open = FALSE;
             } elsif ($depth < $prev_depth) {
                 for (reverse $depth .. $prev_depth-1) {
-                    $toc .= "</li>\n" . ("    " x $_) . "</ul>";
+                    $toc .= "\n" . ("    " x $_) . "</ul>";
                 }
             }
             $prev_depth = $depth;
 
             # output entry
             if ($li_open) {
-                $toc .= "</li>\n";
+                $toc .= "\n";
                 $li_open = FALSE;
             }
 
@@ -819,7 +819,7 @@ sub page_toc {
     }
     # output trailing </ul>s
     for (reverse 0 .. $depth-1) {
-        $toc .= "</li>\n" . ("    " x $_) . "</ul>\n";
+        $toc .= "\n" . ("    " x $_) . "</ul>\n";
     }
     $toc .= "</div>\n";
     return $toc;

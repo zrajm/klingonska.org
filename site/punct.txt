@@ -21,10 +21,10 @@ information on the Klingon writing system.
 <ul class="toc">
   <li><a href="#okrand">Okrand&rsquo;s Way</a>
     <ul style="margin:0">
-      <li><a href="#sentences">Sencence Punctuation</a></li>
-      <li><a href="#subsentence">Sub-Sentence Punctuation</a></li>
-  </ul></li>
-  <li><a href="#piqad"><b lang="tlh">pIqaD</b> Punctuation</a></li>
+      <li><a href="#sentences">Sencence Punctuation</a>
+      <li><a href="#subsentence">Sub-Sentence Punctuation</a>
+  </ul>
+  <li><a href="#piqad"><b lang="tlh">pIqaD</b> Punctuation</a>
 </ul>
 
 ## [okrand] Okrand's Way ##
@@ -59,47 +59,40 @@ an exclamation point!):
 
 <table class="sortable">
   <tr>
-    <th>Klingon</th>
-    <th>Given Translation</th>
-    <th>?</th>
-    <th>Source</th>
-  </tr>
+    <th>Klingon
+    <th>Given Translation
+    <th>?
+    <th>Source
   <tr>
-    <td sorttable_customkey="bhhqcvfyhwam">{bI'IQchugh yIvang!}</td>
-    <td><i>If you are sad, act!</i></td>
-    <td sorttable_customkey="1">!</td>
-    <td sorttable_customkey="b008" class="nobr">TKW p.8</td>
-  </tr>
+    <td sorttable_customkey="bhhqcvfyhwam">{bI'IQchugh yIvang!}
+    <td><i>If you are sad, act!</i>
+    <td sorttable_customkey="1">!
+    <td sorttable_customkey="b008" class="nobr">TKW p.8
   <tr>
-    <td sorttable_customkey="thphopveilnkthpho">{tIqIpqu' 'ej nom tIqIp.}</td>
-    <td><i>Hit them hard and hit them fast.</i></td>
-    <td sorttable_customkey="2">.</td>
-    <td sorttable_customkey="b008" class="nobr">TKW p.8</td>
-  </tr>
+    <td sorttable_customkey="thphopveilnkthpho">{tIqIpqu' 'ej nom tIqIp.}
+    <td><i>Hit them hard and hit them fast.</i>
+    <td sorttable_customkey="2">.
+    <td sorttable_customkey="b008" class="nobr">TKW p.8
   <tr>
-    <td sorttable_customkey="gncebkeythinl">{Hoch 'ebmey tIjon.}</td>
-    <td><i>Capture all opportunities.</i></td>
-    <td sorttable_customkey="2">.</td>
-    <td sorttable_customkey="b051" class="nobr">TKW p.51</td>
-  </tr>
+    <td sorttable_customkey="gncebkeythinl">{Hoch 'ebmey tIjon.}
+    <td><i>Capture all opportunities.</i>
+    <td sorttable_customkey="2">.
+    <td sorttable_customkey="b051" class="nobr">TKW p.51
   <tr>
-    <td sorttable_customkey="ohoyvsyhfnr">{pIpyuS yIghor!}</td>
-    <td><i>Break a pipius!</i></td>
-    <td sorttable_customkey="1">!</td>
-    <td sorttable_customkey="b185" class="nobr">TKW p.185</td>
-  </tr>
+    <td sorttable_customkey="ohoyvsyhfnr">{pIpyuS yIghor!}
+    <td><i>Break a pipius!</i>
+    <td sorttable_customkey="1">!
+    <td sorttable_customkey="b185" class="nobr">TKW p.185
   <tr>
-    <td sorttable_customkey="fexkeythsvpqn">{ghewmey tISuqQo'.}</td>
-    <td><i>Don't catch any bugs.</i></td>
-    <td sorttable_customkey="2">.</td>
-    <td sorttable_customkey="b207" class="nobr">TKW p.207</td>
-  </tr>
+    <td sorttable_customkey="fexkeythsvpqn">{ghewmey tISuqQo'.}
+    <td><i>Don't catch any bugs.</i>
+    <td sorttable_customkey="2">.
+    <td sorttable_customkey="b207" class="nobr">TKW p.207
   <tr>
-    <td sorttable_customkey="iafthghw">{jagh tIHIv!}</td>
-    <td><i>Attack the enemies!</i></td>
-    <td sorttable_customkey="1">!</td>
-    <td sorttable_customkey="c140" class="nobr">KGT p.140</td>
-  </tr>
+    <td sorttable_customkey="iafthghw">{jagh tIHIv!}
+    <td><i>Attack the enemies!</i>
+    <td sorttable_customkey="1">!
+    <td sorttable_customkey="c140" class="nobr">KGT p.140
 </table>
 
 And some examples of statements (which one would expect to all end with a
@@ -107,47 +100,40 @@ period):
 
 <table class="sortable" style="width: 100%">
   <tr>
-    <th>Klingon</th>
-    <th>Given Translation</th>
-    <th>?</th>
-    <th>Source</th>
-  </tr>
+    <th>Klingon
+    <th>Given Translation
+    <th>?
+    <th>Source
   <tr>
-    <td sorttable_customkey="tagiaibnp">{taHjaj boq.}</td>
-    <td><i>May the alliance endure.</i></td>
-    <td sorttable_customkey="2">.</td>
-    <td sorttable_customkey="a173" class="nobr">TKDa p.173</td>
-  </tr>
+    <td sorttable_customkey="tagiaibnp">{taHjaj boq.}
+    <td><i>May the alliance endure.</i>
+    <td sorttable_customkey="2">.
+    <td sorttable_customkey="a173" class="nobr">TKDa p.173
   <tr>
-    <td sorttable_customkey="uhmalkag">{tlhIngan maH!}</td>
-    <td><i>We are Klingons!</i></td>
-    <td sorttable_customkey="1">!</td>
-    <td sorttable_customkey="b003" class="nobr">TKW p.3</td>
-  </tr>
+    <td sorttable_customkey="uhmalkag">{tlhIngan maH!}
+    <td><i>We are Klingons!</i>
+    <td sorttable_customkey="1">!
+    <td sorttable_customkey="b003" class="nobr">TKW p.3
   <tr>
-    <td sorttable_customkey="gnwkeydawal">{Hovmey Davan.}</td>
-    <td><i>You salute the stars.</i></td>
-    <td sorttable_customkey="2">.</td>
-    <td sorttable_customkey="b083" class="nobr">TKW p.83</td>
-  </tr>
+    <td sorttable_customkey="gnwkeydawal">{Hovmey Davan.}
+    <td><i>You salute the stars.</i>
+    <td sorttable_customkey="2">.
+    <td sorttable_customkey="b083" class="nobr">TKW p.83
   <tr>
-    <td sorttable_customkey="pafsnobe">{qagh Sopbe'!}</td>
-    <td><i>He doesn't eat gagh!</i></td>
-    <td sorttable_customkey="1">!</td>
-    <td sorttable_customkey="b137" class="nobr">TKW p.137</td>
-  </tr>
+    <td sorttable_customkey="pafsnobe">{qagh Sopbe'!}
+    <td><i>He doesn't eat gagh!</i>
+    <td sorttable_customkey="1">!
+    <td sorttable_customkey="b137" class="nobr">TKW p.137
   <tr>
-    <td sorttable_customkey="dnpbhqthpbhq">{Doq bIQtIq bIQ.}</td>
-    <td><i>The river water is red.</i></td>
-    <td sorttable_customkey="2">.</td>
-    <td sorttable_customkey="c123" class="nobr">KGT p.123</td>
-  </tr>
+    <td sorttable_customkey="dnpbhqthpbhq">{Doq bIQtIq bIQ.}
+    <td><i>The river water is red.</i>
+    <td sorttable_customkey="2">.
+    <td sorttable_customkey="c123" class="nobr">KGT p.123
   <tr>
-    <td sorttable_customkey="svysng">{Suy SoH.}</td>
-    <td><i>You are a merchant.</i></td>
-    <td sorttable_customkey="2">.</td>
-    <td sorttable_customkey="c196" class="nobr">KGT p.196</td>
-  </tr>
+    <td sorttable_customkey="svysng">{Suy SoH.}
+    <td><i>You are a merchant.</i>
+    <td sorttable_customkey="2">.
+    <td sorttable_customkey="c196" class="nobr">KGT p.196
 </table>
 
 Luckily, for the most part, Klingon doesn't need much in way of punctuation
@@ -177,66 +163,53 @@ semicolon in the »<i>&lt;stative verb&gt;{;} &lt;noun&gt; {rur}</i>« pattern
 this the next time:</p>
 
 <ul>
-  <li><b>With conjunctions?</b> -- Both sentence and noun conjunctions.</li>
-  <li><b>Complex sentences?</b> [TKD p.61]</li>
+  <li><b>With conjunctions?</b> -- Both sentence and noun conjunctions.
+  <li><b>Complex sentences?</b> [TKD p.61]
   <li><b>Subordinate clauses</b> [TKD p.62] -- I.e. sentences with verb ending
     in type 9 suffix (except {-wI'}), the two sentences follow each other in
     any order. -- <i>Does this mean one period; a period and a comma; or two
     periods?</i>
-  </li>
   <ul>
     <li><b>Relative clauses?</b> [TKD p.63] -- I.e. a sentence whose verb ends
       in the type 9 suffix {-bogh} <i>which</i>, this sentence goes into
       subject or object position in another sentence. -- <i>Probably just a
       period after this one?</i>
-    </li>
     <li><b>Purpose clauses?</b> [TKD p.64] -- .e. a sentence whose verb ends in
       the type 9 suffix {-meH}, this sentence always come first in the complex
       sentence. -- <i>Just a period after this one, or a comma and period?</i>
-    </li>
     <li><b>Sentences as objects?</b> [TKD p.65] -- I.e. one sentence containing
       the one of the pronouns {'e'} or {net}, with a preceding sentence as
       object. -- <i>Just a period after this one, or a comma and period?</i>
-    </li>
     <li><b>{vIneH}</b> [TKD p.67] -- Same as sentence-as-object, but second
       sentence not preceded by {'e'} or {net}. -- <i>Just a period after this
       one, or a comma and period?</i>
-    </li>
     <li><b>Verbs of speaking (<i>say, tell, ask</i> etc.)</b> [TKD p.67] --
       Practically the same thing as sentence-as-object, but the sentences can
       occur in any order. -- <i>Just a period after this one, or a comma and
       period?</i>
-    </li>
     <li><b>{rIntaH}</b> [TKD p.67] -- Demonstrating that an action is complete.
       Follows a sentence. -- <i>Just a period after this one, or a comma and
       period?</i>
-    </li>
   </ul>
   <li><b>"To be" constructions?</b> [TKD p.67] -- E.g. »{puqpu' chaH
     qama'pu''e'.}« -- <i>Should pronoun be followed by comma?</i>
-  </li>
   <li><b>Comparatives/superlatives?</b> [TKD p.70] -- I.e. the {law'}/{puS}
     construction. -- <i>Is {law'} followed by a comma?</i>
-  </li>
   <li><b>Direct address?</b> [TKD p.58] -- I.e. calling someone by name or
     title. The direct address follows or precede the sentence. -- <i>But should
     a comma separate sentence and address?</i>
-  </li>
   <li><b>Separating nouns that are not noun-noun constructions?</b>
     -- <b>Commas?</b>
-  </li>
 </ul>
 
 <table>
   <tr>
-    <th></th>
-    <th>Canon Examples</th>
-  </tr>
+    <th>
+    <th>Canon Examples
   <tr>
     <th style="vertical-align: top">
       <big>,</big>
       <br><small>comma</small>
-    </th>
     <td>
       {bogh tlhInganpu', SuvwI'pu' moj, Hegh.} [TKW p.5]
       <br>{ta'mey Dun, bommey Dun.} [TKW p.15]
@@ -248,13 +221,10 @@ this the next time:</p>
       ghaH SuvwI''e'.} [TKW p.139]
       <br>{nuHlIj DawIvpu', vaj yISov!} [TKW p.151]
       <br>{QaghmeylIj tichID, yIyoH.} [TKW p.212]
-    </td>
-  </tr>
   <tr>
     <th style="vertical-align: top">
       <big>;</big>
       <br><small>semi-colon</small>
-    </th>
     <td>
       {bISuv 'e' yIwIv; bISutlh 'e' yIwIvQo'.} [TKW p.19]
       <br>{qanchoHpa' qoH, Hegh qoH.} [TKW p.117]
@@ -262,8 +232,6 @@ this the next time:</p>
       tlhIngan SuvwI'.} [TKW p.155]
       <br>{wa' jaj 'etlh 'uchchoHlaH tlhIngan puqloD; jajvetlh loD nen moj.}
       [TKW p.177]
-    </td>
-  </tr>
 </table>
 
 
@@ -294,37 +262,34 @@ writing {tlhIngan Hol}, and look like this:
 
 <table class="noborder spacy" style="text-align: center">
   <tr>
-    <td><img src="piq/bg1/a.gif" width="38" height="39" alt="a"><br>{a}</td>
-    <td><img src="piq/bg1/b.gif" width="37" height="39" alt="b"><br>{b}</td>
-    <td><img src="piq/bg1/ch.gif" width="42" height="39" alt="ch"><br>{ch}</td>
-    <td><img src="piq/bg1/d.gif" width="29" height="39" alt="D"><br>{I}</td>
-    <td><img src="piq/bg1/e.gif" width="26" height="39" alt="e"><br>{e}</td>
-    <td><img src="piq/bg1/gh.gif" width="43" height="39" alt="gh"><br>{gh}</td>
-    <td><img src="piq/bg1/h.gif" width="21" height="39" alt="H"><br>{H}</td>
-    <td><img src="piq/bg1/i.gif" width="31" height="39" alt="I"><br>{I}</td>
-    <td><img src="piq/bg1/j.gif" width="36" height="39" alt="j"><br>{j}</td>
-  </tr>
+    <td><img src="piq/bg1/a.gif" width="38" height="39" alt="a"><br>{a}
+    <td><img src="piq/bg1/b.gif" width="37" height="39" alt="b"><br>{b}
+    <td><img src="piq/bg1/ch.gif" width="42" height="39" alt="ch"><br>{ch}
+    <td><img src="piq/bg1/d.gif" width="29" height="39" alt="D"><br>{I}
+    <td><img src="piq/bg1/e.gif" width="26" height="39" alt="e"><br>{e}
+    <td><img src="piq/bg1/gh.gif" width="43" height="39" alt="gh"><br>{gh}
+    <td><img src="piq/bg1/h.gif" width="21" height="39" alt="H"><br>{H}
+    <td><img src="piq/bg1/i.gif" width="31" height="39" alt="I"><br>{I}
+    <td><img src="piq/bg1/j.gif" width="36" height="39" alt="j"><br>{j}
   <tr>
-    <td><img src="piq/bg1/l.gif" width="28" height="39" alt="l"><br>{l}</td>
-    <td><img src="piq/bg1/m.gif" width="27" height="39" alt="m"><br>{m}</td>
-    <td><img src="piq/bg1/n.gif" width="33" height="39" alt="n"><br>{n}</td>
-    <td><img src="piq/bg1/ng.gif" width="41" height="39" alt="ng"><br>{ng}</td>
-    <td><img src="piq/bg1/o.gif" width="36" height="39" alt="o"><br>{o}</td>
-    <td><img src="piq/bg1/p.gif" width="26" height="39" alt="p"><br>{p}</td>
-    <td><img src="piq/bg1/q.gif" width="18" height="39" alt="q"><br>{q}</td>
-    <td><img src="piq/bg1/qh.gif" width="27" height="39" alt="Q"><br>{Q}</td>
-    <td><img src="piq/bg1/r.gif" width="33" height="39" alt="r"><br>{r}</td>
-  </tr>
+    <td><img src="piq/bg1/l.gif" width="28" height="39" alt="l"><br>{l}
+    <td><img src="piq/bg1/m.gif" width="27" height="39" alt="m"><br>{m}
+    <td><img src="piq/bg1/n.gif" width="33" height="39" alt="n"><br>{n}
+    <td><img src="piq/bg1/ng.gif" width="41" height="39" alt="ng"><br>{ng}
+    <td><img src="piq/bg1/o.gif" width="36" height="39" alt="o"><br>{o}
+    <td><img src="piq/bg1/p.gif" width="26" height="39" alt="p"><br>{p}
+    <td><img src="piq/bg1/q.gif" width="18" height="39" alt="q"><br>{q}
+    <td><img src="piq/bg1/qh.gif" width="27" height="39" alt="Q"><br>{Q}
+    <td><img src="piq/bg1/r.gif" width="33" height="39" alt="r"><br>{r}
   <tr>
-    <td><img src="piq/bg1/s.gif" width="39" height="39" alt="S"><br>{S}</td>
-    <td><img src="piq/bg1/t.gif" width="36" height="39" alt="t"><br>{t}</td>
-    <td><img src="piq/bg1/tlh.gif" width="35" height="39" alt="tlh"><br>{tlh}</td>
-    <td><img src="piq/bg1/u.gif" width="38" height="39" alt="u"><br>{u}</td>
-    <td><img src="piq/bg1/v.gif" width="44" height="39" alt="v"><br>{v}</td>
-    <td><img src="piq/bg1/w.gif" width="34" height="39" alt="w"><br>{w}</td>
-    <td><img src="piq/bg1/y.gif" width="35" height="39" alt="y"><br>{y}</td>
-    <td><img src="piq/bg1/z.gif" width="10" height="39" alt="'"><br>{'}</td>
-  </tr>
+    <td><img src="piq/bg1/s.gif" width="39" height="39" alt="S"><br>{S}
+    <td><img src="piq/bg1/t.gif" width="36" height="39" alt="t"><br>{t}
+    <td><img src="piq/bg1/tlh.gif" width="35" height="39" alt="tlh"><br>{tlh}
+    <td><img src="piq/bg1/u.gif" width="38" height="39" alt="u"><br>{u}
+    <td><img src="piq/bg1/v.gif" width="44" height="39" alt="v"><br>{v}
+    <td><img src="piq/bg1/w.gif" width="34" height="39" alt="w"><br>{w}
+    <td><img src="piq/bg1/y.gif" width="35" height="39" alt="y"><br>{y}
+    <td><img src="piq/bg1/z.gif" width="10" height="39" alt="'"><br>{'}
 </table>
 
 There is also a set of Klingon numbers, which look like this: (Klingons earlier
@@ -333,17 +298,16 @@ system some time back.)
 
 <table class="noborder spacy" style="text-align: center">
   <tr>
-    <td><img src="piq/bg1/0.gif" width="30" height="39" alt="0"><br>{pagh}  <br>{0}</td>
-    <td><img src="piq/bg1/1.gif" width="36" height="39" alt="1"><br>{wa'}   <br>{1}</td>
-    <td><img src="piq/bg1/2.gif" width="17" height="39" alt="2"><br>{cha'}  <br>{2}</td>
-    <td><img src="piq/bg1/3.gif" width="26" height="39" alt="3"><br>{wej}   <br>{3}</td>
-    <td><img src="piq/bg1/4.gif" width="34" height="39" alt="4"><br>{loS}   <br>{4}</td>
-    <td><img src="piq/bg1/5.gif" width="20" height="39" alt="5"><br>{vagh}  <br>{5}</td>
-    <td><img src="piq/bg1/6.gif" width="35" height="39" alt="6"><br>{jav}   <br>{6}</td>
-    <td><img src="piq/bg1/7.gif" width="28" height="39" alt="7"><br>{Soch}  <br>{7}</td>
-    <td><img src="piq/bg1/8.gif" width="37" height="39" alt="8"><br>{chorgh}<br>{8}</td>
-    <td><img src="piq/bg1/9.gif" width="27" height="39" alt="9"><br>{Hut}   <br>{9}</td>
-  </tr>
+    <td><img src="piq/bg1/0.gif" width="30" height="39" alt="0"><br>{pagh}  <br>{0}
+    <td><img src="piq/bg1/1.gif" width="36" height="39" alt="1"><br>{wa'}   <br>{1}
+    <td><img src="piq/bg1/2.gif" width="17" height="39" alt="2"><br>{cha'}  <br>{2}
+    <td><img src="piq/bg1/3.gif" width="26" height="39" alt="3"><br>{wej}   <br>{3}
+    <td><img src="piq/bg1/4.gif" width="34" height="39" alt="4"><br>{loS}   <br>{4}
+    <td><img src="piq/bg1/5.gif" width="20" height="39" alt="5"><br>{vagh}  <br>{5}
+    <td><img src="piq/bg1/6.gif" width="35" height="39" alt="6"><br>{jav}   <br>{6}
+    <td><img src="piq/bg1/7.gif" width="28" height="39" alt="7"><br>{Soch}  <br>{7}
+    <td><img src="piq/bg1/8.gif" width="37" height="39" alt="8"><br>{chorgh}<br>{8}
+    <td><img src="piq/bg1/9.gif" width="27" height="39" alt="9"><br>{Hut}   <br>{9}
 </table>
 
 -->

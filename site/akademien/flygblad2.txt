@@ -3,7 +3,6 @@ author: zrajm
 year: 1999
 lang: sv
 
-
 {tlhIngan Hol DajatlhlaH'a' SoH?}
 =================================
 
@@ -35,15 +34,13 @@ av dig till Björn X Öqvist (telefon: 018-500 911, epost: zrajm@iname.com) ell
 läs mer på vår informativa websida. {batlh pIghojmoH.}
 
 <table class="noborder">
-  <tr><td><hr noshade></td></tr>
+  <tr><td><hr noshade>
   <tr>
     <td class="center">
       <big>Klingonska Akademien
         <br>www.bahnhof.se/~dark/klingonska
       </big>
-    </td>
-  </tr>
-  <tr><td><hr noshade></td></tr>
+  <tr><td><hr noshade>
 </table>
 
 <p class="center"><small>[Nyare flygblad producerat för sprindning bl.a. via

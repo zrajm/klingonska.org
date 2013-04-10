@@ -18,13 +18,11 @@ via ett webgränssnitt.
 
 <table>
   <tr>
-    <th>Listans adress</th>
-    <td><a href="mailto:klingonska@klingonska.org">klingonska@klingonska.org</a></td>
-  </tr>
+    <th>Listans adress
+    <td><a href="mailto:klingonska@klingonska.org">klingonska@klingonska.org</a>
   <tr>
-    <th>Webbgränssnitt</th>
-    <td><a href="http://mail.klingonska.org/">mail.klingonska.org</a></td>
-  </tr>
+    <th>Webbgränssnitt
+    <td><a href="http://mail.klingonska.org/">mail.klingonska.org</a>
 </table>
 
 
@@ -74,12 +72,12 @@ vårt avlånga land, med omedelbara omnejd.
     på det så mycket du kan. (En av huvudtankarna med listan är att minska
     "avståndet" till klingonskan genom att i mesta möjliga mån eliminera
     omvägen via engelska.) eller (b) på klingonska, om precis vad som
-    helst.</li>
+    helst.
   <li>Välj ämnesrad med omsorg, och skriv den alltid på det språk du använder
     huvudsakligen i brevet. Om du svarar på ett brev, men känner att du glider
     ifrån ämnet angivet, byt då ämnesrad men behåll den gamla inom parantes. Så
     kan t.ex. "{jIl}" när ämnet eller språket skiftar bli till "MOs grannar
-    (var: {jIl})".)</li>
+    (var: {jIl})".)
   <li>Om du har en fråga av nybörjarnatur, skriv då <i>KLBC</i> först i
     ämnesraden, så att andra nybörjare också kan se och dra nytta av de svar du
     får. Om du svarar du på ett brev märk med <i>KLBC</i>, tänk då på att detta
@@ -88,7 +86,7 @@ vårt avlånga land, med omedelbara omnejd.
     tid att lägga ner på sina klingonskastudier, och somliga förblir nybörjare
     under lång tid. (Till skillnad från {tlhIngan-Hol} har vi ingen
     nybörjargrammatiker som kan stå till tjänst med sin expertis. Utan här får
-    vi alla hjälpa till efter bästa förmåga.)</li>
+    vi alla hjälpa till efter bästa förmåga.)
   <li>Använd tydliga markeringar för att skilja klingonska från svenska (med
     t.ex. krullparanteser <code>&#123;&#125;</code>). Markera ord i din
     klingonska som är av dig påhittade (t.ex. namn), medvetet felaktiga, eller
@@ -97,11 +95,11 @@ vårt avlånga land, med omedelbara omnejd.
     apostrofer och citationstecken blir mest förvirrande då de är alldeles för
     lätta att blanda ihop med den klingonska bokstaven {'} -- använd
     hellre <code>»«</code> eller <code>&gt;&gt;</code>
-    och <code>&lt;&lt;</code>.</li>
+    och <code>&lt;&lt;</code>.
   <li>I allmänhet är det hyfs och gott uppförande som gäller, gör ingenting som
     du inte skulle vilja att någon gjorde mot dig. Skulle du bete dig riktigt
     illa spärras dina framtida brev från att nå fram till listan och du hindras
-    på därigenom att delta i diskussionen.</li>
+    på därigenom att delta i diskussionen.
 </ul>
 
 [[eof]]

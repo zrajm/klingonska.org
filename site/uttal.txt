@@ -64,23 +64,21 @@ förhållanden.
 
 <table class="noborder">
 <tr bgcolor="#aaa">
-  <td>{a}</td>
-  <td>&#42;</td>
+  <td>{a}
+  <td>&#42;
   <td>Ett långt <i>a</i>-ljud som i engelskans <i>psalm</i>
-    eller <i>father</i>; aldrig som i amerikanskans <i>crabapple</i>.</td>
-</tr>
+    eller <i>father</i>; aldrig som i amerikanskans <i>crabapple</i>.
 <tr>
-  <td>{b}</td>
-  <td>     </td>
+  <td>{b}
+  <td>     
   <td>Som i svenskans <i>bråttom</i> eller <i>Göteborg.</i> En del klingoner
     uttalar det här ljudet som om det vore ett {m} och ett {b} artikulerat
     nästan samtidigt, något som svensktalande kan efterlikna genom att säga att
     säga <i>ambulans</i> utan det inledande <i>a</i>-ljudet. Några få klingoner
-    uttalar {b} som om det vore {m}.</td>
-</tr>
+    uttalar {b} som om det vore {m}.
 <tr>
-  <td>{ch}</td>
-  <td></td>
+  <td>{ch}
+  <td>
   <td>Som <i>tch</i> i svenskans <i>ketchup</i> eller som <i>c</i> i
     italienskans <i>ciao</i>, eller som <i>ch</i> i engelskans <i>chew</i>
     eller <i>artichoke</i>. Det här ljudet uttalas alltid med ett
@@ -88,38 +86,32 @@ förhållanden.
     eller <i>tjut</i>.
   <p>&#42;&#42;&#42; Som finlandssvenskans <i>tj</i> i början på ord, som i
     t.ex. <i>tjära</i>. &#42;&#42;&#42;
-  </td>
-</tr>
 <tr>
-  <td>{D}</td>
-  <td></td>
+  <td>{D}
+  <td>
   <td>Som <i>rd</i> i svenskans <i>värd</i> eller <i>order</i>. Det finns inga
     ord på svenska som börjar med det här ljudet, men det inleder ett flertal
     ord på klingonska. Svensktalande kan öva på att säga detta ljud först i ett
     ord genom att säga <i>burdus</i> och sedan upprepa det utan det
-    inledande <i>bu</i>.</td>
-</tr>
+    inledande <i>bu</i>.
 <tr bgcolor="#aaa">
-  <td>{e}</td>
-  <td>&#42;</td>
+  <td>{e}
+  <td>&#42;
   <td>Ett kort <i>e,</i> som i engelskans <i>bed</i>
     eller <i>sensor.</i>
   <p>&#42;&#42;&#42; Ett kort <i>ä,</i> som i <i>herre</i> &#42;&#42;&#42;
-  </td>
-</tr>
 <tr>
-  <td>{gh}</td>
-  <td></td>
+  <td>{gh}
+  <td>
   <td>Det här ljudet påminner om ett skånskt tungrots-<i>r</i>, men är inte
     riktigt likadant. Det kan frambringas genom att hålla tungan i samma
     position som den skulle vara i för att säga svenskans <i>g</i> som
     i <i>gurgla</i>, men slappna av något i tungan och humma. Ljudet är
     detsamma som klingonskans {H} (se nedan) men tonande, d.v.s. uttalat med
-    vibrerande stämband.</td>
-</tr>
+    vibrerande stämband.
 <tr>
-  <td>{H}</td>
-  <td>&#42;</td>
+  <td>{H}
+  <td>&#42;
   <td>Det här ljudet påminner vagt om svenskans <i>sj</i> som i
     <i>själ</i>, det uttalas som <i>ch</i> i namnet på den tyska
     kompositören <i>Bach</i> eller i den jiddischka skålen <i>l'chaim</i> eller
@@ -130,117 +122,101 @@ förhållanden.
     ljud.
   <p>&#42;&#42;&#42; Exempel: don Juan. Ta bort Tijuana (okänt för svenskar).
     &#42;&#42;&#42;
-  </td>
-</tr>
 <tr bgcolor="#aaa">
-  <td>{I}</td>
-  <td>&#42;</td>
+  <td>{I}
+  <td>&#42;
   <td>Kort <i>i</i>, som i engelskans <i>misfit.</i> I sällsynta
     fall kan det också uttalas långt som i <i>zucchini,</i> men detta
     förekommer bara i pluralformer av substantiv.
   <p>&#42; Kort <i>i</i>, som i svenskans <i>finger.</i> I sällsynta fall kan
     det också uttalas långt som i <i>fis,</i> men detta förekommer bara i
     pluralformer av substantiv.
-  </td>
-</tr>
 <tr>
-  <td>{j}</td>
-  <td></td>
+  <td>{j}
+  <td>
   <td>Ungefär som <i>dj</i> i svenskans <i><u>dj</u>onk</i>
     eller <i>a<u>dj</u>ektiv</i>, eller som <i>j</i> i engelskans <i>junk</i>
     &#42;&#42;&#42; eller jungle, Fiji &#42;&#42;&#42;. Det här ljudet uttalas
     alltid med ett inledande <i>d</i>, och aldrig som i <i>jordnöt</i>
     eller <i>journalist.</i> På svenska är det dessutom inte ovanligt
     att <i>j</i> i dagligt tal mer låter som <i>i</i> -- något som inte
-    förekommer vid uttalet av {j}.</td>
-</tr>
+    förekommer vid uttalet av {j}.
 <tr>
-  <td>{l}</td>
-  <td></td>
-  <td>Som i svenskans <i>luta</i> eller <i>alkemisk.</i></td>
-</tr>
+  <td>{l}
+  <td>
+  <td>Som i svenskans <i>luta</i> eller <i>alkemisk.</i>
 <tr>
-  <td>{m}</td>
-  <td></td>
+  <td>{m}
+  <td>
   <td>Som i svenskans <i>mur</i> eller <i>pneumatisk.</i> De fåtalet klingoner
     som uttalar {b} som {m} skulle säga klingonskans {baH} <i>avfyra (en
     torped)</i> och {maH} <i>vi</i> på samma sätt och bli tvungna att memorera
-    vilket ord som stavas på vilket sätt.</td>
-</tr>
+    vilket ord som stavas på vilket sätt.
 <tr>
-  <td>{n}</td>
-  <td></td>
+  <td>{n}
+  <td>
   <td>Som i svenskans <i>nektarin</i> eller <i>aftonsol.</i> De klingoner som
     uttalar {D} mer som {n} kan lätt artikulera och höra skillnad på de två
     ljuden. Även ett {D} som låter som ett {n} uttalas med tungan i samma
     ställning som för klingonska {D} och inte som i svenskans <i>d</i>.
     Klingonskans {n} uttalas med tungan i samma position som i
-    svenskans <i>d.</i></td>
-</tr>
+    svenskans <i>d.</i>
 <tr>
-  <td>{ng}</td>
-  <td></td>
+  <td>{ng}
+  <td>
   <td>Som i svenskans <i>kung;</i> aldrig som i <i>angöra</i>
     eller <i>angripa.</i> I klingonska uttalas <i>g</i>:et uttalas aldrig
     separat. Det här ljudet kommer aldrig först i något ord på svenska, men det
     förekommer i början på ett flertal ord i klingonska. Svensktalande kan öva
     på att säga detta ljud först i ett ord genom att säga <i>finger</i> och
-    sedan upprepa det utan det inledande <i>fi.</i></td>
-</tr>
+    sedan upprepa det utan det inledande <i>fi.</i>
 <tr bgcolor="#aaa">
-  <td>{o}</td>
-  <td>&#42;</td>
-  <td>Som i engelskans <i>mosaic</i> eller <i>toy.</i></td>
-</tr>
+  <td>{o}
+  <td>&#42;
+  <td>Som i engelskans <i>mosaic</i> eller <i>toy.</i>
 <tr>
-  <td>{p}</td>
-  <td></td>
+  <td>{p}
+  <td>
   <td>Som i svenskans <i>parallell</i> eller <i>topprida.</i> Det här ljudet
     artikuleras alltid med en kraftig puff eller stöt, aldrig slappt.
     Svensktalande kan tänkas vilja iakta försiktighet för att undvika att
     avfyra saliv vid uttalet av det här ljudet. Det bör dock noteras att det
-    inte är något som klingoner bekymmrar sig om.</td>
-</tr>
+    inte är något som klingoner bekymmrar sig om.
 <tr>
-  <td>{q}</td>
-  <td></td>
+  <td>{q}
+  <td>
   <td>Liknar svenskans <i>k</i> som i <i>kabinett</i>, men inte helt och
     hållet. Tungans position för svenska <i>k</i> är densamma som för
     klingonska {gh} och {H}, men för att åstadkomma klingonska {q} nuddar dock
     tungryggen gommen längre bak än vad den gör för {gh} och {H}. Faktum är att
     tungan sträcker sig mot eller nuddar gomspenen, så uttalet av {q} om ljudet
     som uppstår när man håller på att kvävas. Ljudet åtföljs vanligen av en
-    lätt pust luft.</td>
-</tr>
+    lätt pust luft.
 <tr bgcolor="#aaa">
-  <td>{Q}</td>
-  <td>&#42;</td>
+  <td>{Q}
+  <td>&#42;
   <td>Som {q} fast längre. {Q} är ett raspigt ljud som korrekt
     uttalat låter lite som någon som försöker harkla upp en bit mat ur fel
-    strupe.</td>
-</tr>
+    strupe.
 <tr bgcolor="#aaa">
-  <td>{r}</td>
-  <td>&#42;</td>
-  <td>Rullande tungspets-<i>r,</i> som i <i>rör.</i></td>
-</tr>
+  <td>{r}
+  <td>&#42;
+  <td>Rullande tungspets-<i>r,</i> som i <i>rör.</i>
 <tr bgcolor="#aaa">
-  <td>{S}</td>
-  <td>&#42;</td>
+  <td>{S}
+  <td>&#42;
   <td>Retroflext <i>s</i> som i <i>fors.</i> Uttalas
-    med tungan i samma position som för {D}.</td>
-</tr>
+    med tungan i samma position som för {D}.
 <tr bgcolor="#aaa">
-  <td>{t}</td>
-  <td>&#42;</td>
+  <td>{t}
+  <td>&#42;
   <td>(aspirerat) Uttalas som <i>t</i> i
     <i>terpentin</i> fast med en extra puff. Notra att detta inte är ett
     retroflekt <i>t</i> så håll tungan som du för när du uttalar ett vanligt
-    svenskt <i>t</i> och inte som när du säger klingonska {D}.</td>
-</tr>
+    svenskt <i>t</i> och inte som när du säger klingonska {D}.
 <tr>
-  <td>{tlh}</td>
-  <td></td>
+  <td>{tlh}
+  <td>
   <td>Det här ljudet förekommer inte på svenska, men det är väldigt likt det
     sista ljudet i <i>tetl,</i> det aztekiska ordet för <i>ägg</i>, om det
     uttalas korrekt.
@@ -256,42 +232,36 @@ förhållanden.
   <p><font color="#f22">¿Om jag förstått saken rätt så uttalas isländskans
     dubbeltecknade <i>l</i> i slutet på ord ungefär såhär? (Notera att detta
     inte är en frikativa utan en affrikata. Avspärrningen i munhålan är
-    inledningsvis total.)</font></td>
-</tr>
+    inledningsvis total.)</font>
 <tr bgcolor="#aaa">
-  <td>{u}</td>
-  <td>&#42;</td>
+  <td>{u}
+  <td>&#42;
   <td>Ett långt <i>u</i>-ljud, som i engelskans <i>gnu</i>
-    eller <i>prune;</i> aldrig som i engelskans <i>butter.</i></td>
-</tr>
+    eller <i>prune;</i> aldrig som i engelskans <i>butter.</i>
 <tr bgcolor="#aaa">
-  <td>{v}</td>
-  <td>&#42;</td>
-  <td>Som i <i>vulgär.</i></td>
-</tr>
+  <td>{v}
+  <td>&#42;
+  <td>Som i <i>vulgär.</i>
 <tr bgcolor="#aaa">
-  <td>{w}</td>
-  <td>&#42;</td>
+  <td>{w}
+  <td>&#42;
   <td>Som engelskans <i>w</i> i t.ex. <i>cow.</i> Ibland uttalas
     den ljudet kraftigare, mer som {Hw}, detta framförallt om talaren är
-    upphetsad eller arg.</td>
-</tr>
+    upphetsad eller arg.
 <tr bgcolor="#aaa">
-  <td>{y}</td>
-  <td>&#42;</td>
+  <td>{y}
+  <td>&#42;
   <td>Som engelskans <i>yodel</i> eller
-  <i>joy.</i></td>
-</tr>
+  <i>joy.</i>
 <tr bgcolor="#aaa">
-  <td>{'}</td>
-  <td>&#42;</td>
+  <td>{'}
+  <td>&#42;
   <td>Detta är ett ljud som finns i svenskan men som vi aldrig
     skriver. Det är strypningen av lufttillförseln i mitten av <i>uh-uh</i> och
     före alla ord som börjar på en vokal. I klingonska räknas den som en
     bokstav i sin egen rätt, och det är en milsvid skillnad på t.ex. {QonoS}
     "journal, logg" och {Qo'noS} "Kronos" (namnet på den klingonska
-    hemvärlden).</td>
-</tr>
+    hemvärlden).
 </table>
 
 

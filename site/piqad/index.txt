@@ -11,13 +11,13 @@ style: piqad
 Contents
 --------
 <ol>
-  <li><a href="#preface">Preface</a></li>
-  <li><a href="#alphabet">The Klingon Alphabet ({pIqaD})</a></li>
-  <li><a href="#pronunciation">Pronunciation</a></li>
-  <li><a href="#stress">Stress</a></li>
-  <li><a href="#numerals">Numerals</a></li>
-  <li><a href="#dialects">Dialects</a></li>
-  <li><a href="#references">References</a></li>
+  <li><a href="#preface">Preface</a>
+  <li><a href="#alphabet">The Klingon Alphabet ({pIqaD})</a>
+  <li><a href="#pronunciation">Pronunciation</a>
+  <li><a href="#stress">Stress</a>
+  <li><a href="#numerals">Numerals</a>
+  <li><a href="#dialects">Dialects</a>
+  <li><a href="#references">References</a>
 </ol>
 
 
@@ -83,41 +83,37 @@ and helpful suggestions.</p>
 
   <table class="noborder spacy" style="margin: 2em auto">
     <tr align=center>
-      <td><img src="../piq/bg1/a.gif" width=38 height=39 alt=a><br>{a}</td>
-      <td><img src="../piq/bg1/b.gif" width=37 height=39 alt=b><br>{b}</td>
-      <td><img src="../piq/bg1/ch.gif" width=42 height=39 alt=ch><br>{ch}</td>
-      <td><img src="../piq/bg1/d.gif" width=29 height=39 alt=D><br>{D}</td>
-      <td><img src="../piq/bg1/e.gif" width=26 height=39 alt=e><br>{e}</td>
-      <td><img src="../piq/bg1/gh.gif" width=43 height=39 alt=gh><br>{gh}</td>
-      <td><img src="../piq/bg1/h.gif" width=21 height=39 alt=H><br>{H}</td>
-      <td><img src="../piq/bg1/i.gif" width=31 height=39 alt=I><br>{I}</td>
-      <td><img src="../piq/bg1/j.gif" width=36 height=39 alt=j><br>{j}</td>
-    </tr>
+      <td><img src="../piq/bg1/a.gif" width=38 height=39 alt=a><br>{a}
+      <td><img src="../piq/bg1/b.gif" width=37 height=39 alt=b><br>{b}
+      <td><img src="../piq/bg1/ch.gif" width=42 height=39 alt=ch><br>{ch}
+      <td><img src="../piq/bg1/d.gif" width=29 height=39 alt=D><br>{D}
+      <td><img src="../piq/bg1/e.gif" width=26 height=39 alt=e><br>{e}
+      <td><img src="../piq/bg1/gh.gif" width=43 height=39 alt=gh><br>{gh}
+      <td><img src="../piq/bg1/h.gif" width=21 height=39 alt=H><br>{H}
+      <td><img src="../piq/bg1/i.gif" width=31 height=39 alt=I><br>{I}
+      <td><img src="../piq/bg1/j.gif" width=36 height=39 alt=j><br>{j}
     <tr align=center>
-      <td><img src="../piq/bg1/l.gif" width=28 height=39 alt=l><br>{l}</td>
-      <td><img src="../piq/bg1/m.gif" width=27 height=39 alt=m><br>{m}</td>
-      <td><img src="../piq/bg1/n.gif" width=33 height=39 alt=n><br>{n}</td>
-      <td><img src="../piq/bg1/ng.gif" width=41 height=39 alt=ng><br>{ng}</td>
-      <td><img src="../piq/bg1/o.gif" width=36 height=39 alt=o><br>{o}</td>
-      <td><img src="../piq/bg1/p.gif" width=26 height=39 alt=p><br>{p}</td>
-      <td><img src="../piq/bg1/q.gif" width=18 height=39 alt=q><br>{q}</td>
-      <td><img src="../piq/bg1/qh.gif" width=27 height=39 alt=Q><br>{Q}</td>
-      <td><img src="../piq/bg1/r.gif" width=33 height=39 alt=r><br>{r}</td>
-    </tr>
+      <td><img src="../piq/bg1/l.gif" width=28 height=39 alt=l><br>{l}
+      <td><img src="../piq/bg1/m.gif" width=27 height=39 alt=m><br>{m}
+      <td><img src="../piq/bg1/n.gif" width=33 height=39 alt=n><br>{n}
+      <td><img src="../piq/bg1/ng.gif" width=41 height=39 alt=ng><br>{ng}
+      <td><img src="../piq/bg1/o.gif" width=36 height=39 alt=o><br>{o}
+      <td><img src="../piq/bg1/p.gif" width=26 height=39 alt=p><br>{p}
+      <td><img src="../piq/bg1/q.gif" width=18 height=39 alt=q><br>{q}
+      <td><img src="../piq/bg1/qh.gif" width=27 height=39 alt=Q><br>{Q}
+      <td><img src="../piq/bg1/r.gif" width=33 height=39 alt=r><br>{r}
     <tr align=center>
-      <td><img src="../piq/bg1/s.gif" width=39 height=39 alt=S><br>{S}</td>
-      <td><img src="../piq/bg1/t.gif" width=36 height=39 alt=t><br>{t}</td>
-      <td><img src="../piq/bg1/tlh.gif" width=35 height=39 alt=tlh><br>{tlh}</td>
-      <td><img src="../piq/bg1/u.gif" width=38 height=39 alt=u><br>{u}</td>
-      <td><img src="../piq/bg1/v.gif" width=44 height=39 alt=v><br>{v}</td>
-      <td><img src="../piq/bg1/w.gif" width=34 height=39 alt=w><br>{w}</td>
-      <td><img src="../piq/bg1/y.gif" width=35 height=39 alt=y><br>{y}</td>
-      <td><img src="../piq/bg1/z.gif" width=10 height=39 alt="’"><br>{'}</td>
-      <td></td>
-    </tr>
+      <td><img src="../piq/bg1/s.gif" width=39 height=39 alt=S><br>{S}
+      <td><img src="../piq/bg1/t.gif" width=36 height=39 alt=t><br>{t}
+      <td><img src="../piq/bg1/tlh.gif" width=35 height=39 alt=tlh><br>{tlh}
+      <td><img src="../piq/bg1/u.gif" width=38 height=39 alt=u><br>{u}
+      <td><img src="../piq/bg1/v.gif" width=44 height=39 alt=v><br>{v}
+      <td><img src="../piq/bg1/w.gif" width=34 height=39 alt=w><br>{w}
+      <td><img src="../piq/bg1/y.gif" width=35 height=39 alt=y><br>{y}
+      <td><img src="../piq/bg1/z.gif" width=10 height=39 alt="’"><br>{'}
+      <td>
     <tr><td colspan=9 align=center><small>[Note: Characters rearranged to
-          presented them in correct Okrandian alphabetic order.]</small></td>
-    </tr>
+          presented them in correct Okrandian alphabetic order.]</small>
   </table>
 
   <p class=indent>Unlike its predecessor, these glyphs provide an excellent fit
@@ -161,17 +157,16 @@ and helpful suggestions.</p>
 
   <table class="noborder spacy">
     <tr align=center>
-      <td><img src="../piq/bg1/0.gif" width=30 height=39 alt=0><br>{0}</td>
-      <td><img src="../piq/bg1/1.gif" width=36 height=39 alt=1><br>{1}</td>
-      <td><img src="../piq/bg1/2.gif" width=17 height=39 alt=2><br>{2}</td>
-      <td><img src="../piq/bg1/3.gif" width=26 height=39 alt=3><br>{3}</td>
-      <td><img src="../piq/bg1/4.gif" width=34 height=39 alt=4><br>{4}</td>
-      <td><img src="../piq/bg1/5.gif" width=20 height=39 alt=5><br>{5}</td>
-      <td><img src="../piq/bg1/6.gif" width=35 height=39 alt=6><br>{6}</td>
-      <td><img src="../piq/bg1/7.gif" width=28 height=39 alt=7><br>{7}</td>
-      <td><img src="../piq/bg1/8.gif" width=37 height=39 alt=8><br>{8}</td>
-      <td><img src="../piq/bg1/9.gif" width=27 height=39 alt=9><br>{9}</td>
-    </tr>
+      <td><img src="../piq/bg1/0.gif" width=30 height=39 alt=0><br>{0}
+      <td><img src="../piq/bg1/1.gif" width=36 height=39 alt=1><br>{1}
+      <td><img src="../piq/bg1/2.gif" width=17 height=39 alt=2><br>{2}
+      <td><img src="../piq/bg1/3.gif" width=26 height=39 alt=3><br>{3}
+      <td><img src="../piq/bg1/4.gif" width=34 height=39 alt=4><br>{4}
+      <td><img src="../piq/bg1/5.gif" width=20 height=39 alt=5><br>{5}
+      <td><img src="../piq/bg1/6.gif" width=35 height=39 alt=6><br>{6}
+      <td><img src="../piq/bg1/7.gif" width=28 height=39 alt=7><br>{7}
+      <td><img src="../piq/bg1/8.gif" width=37 height=39 alt=8><br>{8}
+      <td><img src="../piq/bg1/9.gif" width=27 height=39 alt=9><br>{9}
   </table>
 </div>
 
@@ -199,114 +194,105 @@ each of the sounds is given in the text below.
   <caption>Where characters appear in pairs, the one to the right represents a
     voiced consonant.</caption>
   <tr>
-    <th></th>
-    <th colspan=2><a href="http://en.wikipedia.org/wiki/Bilabial_consonant">Bilabial</a></th>
-    <th colspan=2><a href="http://en.wikipedia.org/wiki/Labiodental_consonant">Labio&shy;dental</a></th>
-    <th colspan=2><a href="http://en.wikipedia.org/wiki/Alveolar_consonant">Alveolar</a></th>
-    <th colspan=2><a href="http://en.wikipedia.org/wiki/Postalveolar_consonant">Post&shy;alveolar</a></th>
-    <th colspan=2><a href="http://en.wikipedia.org/wiki/Retroflex_consonant">Retro&shy;flex</a></th>
-    <th colspan=2><a href="http://en.wikipedia.org/wiki/Palatal_consonant">Palatal</a></th>
-    <th colspan=2><a href="http://en.wikipedia.org/wiki/Velar_consonant">Velar</a></th>
-    <th colspan=2><a href="http://en.wikipedia.org/wiki/Uvular_consonant">Uvular</a></th>
-    <th colspan=2><a href="http://en.wikipedia.org/wiki/Glottal_consonant">Glottal</a></th>
-  </tr>
+    <th>
+    <th colspan=2><a href="http://en.wikipedia.org/wiki/Bilabial_consonant">Bilabial</a>
+    <th colspan=2><a href="http://en.wikipedia.org/wiki/Labiodental_consonant">Labio&shy;dental</a>
+    <th colspan=2><a href="http://en.wikipedia.org/wiki/Alveolar_consonant">Alveolar</a>
+    <th colspan=2><a href="http://en.wikipedia.org/wiki/Postalveolar_consonant">Post&shy;alveolar</a>
+    <th colspan=2><a href="http://en.wikipedia.org/wiki/Retroflex_consonant">Retro&shy;flex</a>
+    <th colspan=2><a href="http://en.wikipedia.org/wiki/Palatal_consonant">Palatal</a>
+    <th colspan=2><a href="http://en.wikipedia.org/wiki/Velar_consonant">Velar</a>
+    <th colspan=2><a href="http://en.wikipedia.org/wiki/Uvular_consonant">Uvular</a>
+    <th colspan=2><a href="http://en.wikipedia.org/wiki/Glottal_consonant">Glottal</a>
   <tr align=center>
-    <th><a href="http://en.wikipedia.org/wiki/Plosive_consonant">Plosive</a></th>
-    <td style="border-right:0"><a href="#p">pʰ</a></td><td style="border-left:0"><a href="#b">b</a></td>
-    <td colspan=2></td>
-    <td style="border-right:0"><a href="#t">tʰ</a></td><td style="border-left:0"></td>
-    <td colspan=2></td>
-    <td style="border-right:0"></td><td style="border-left:0"><a href="#d">ɖ</a></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-    <td style="border-right:0"><a href="#q">qʰ</a></td><td style="border-left:0"></td>
-    <td style="border-right:0"><a href="#z">ʔ</a></td><td style="border-left:0"></td>
-  </tr>
+    <th><a href="http://en.wikipedia.org/wiki/Plosive_consonant">Plosive</a>
+    <td style="border-right:0"><a href="#p">pʰ</a><td style="border-left:0"><a href="#b">b</a>
+    <td colspan=2>
+    <td style="border-right:0"><a href="#t">tʰ</a><td style="border-left:0">
+    <td colspan=2>
+    <td style="border-right:0"><td style="border-left:0"><a href="#d">ɖ</a>
+    <td colspan=2>
+    <td colspan=2>
+    <td style="border-right:0"><a href="#q">qʰ</a><td style="border-left:0">
+    <td style="border-right:0"><a href="#z">ʔ</a><td style="border-left:0">
   <tr align=center>
-    <th><a href="http://en.wikipedia.org/wiki/Nasal_consonant">Nasal</a></th>
-    <td style="border-right:0"></td><td style="border-left:0"><a href="#m">m</a></td>
-    <td colspan=2></td>
-    <td style="border-right:0"></td><td style="border-left:0"><a href="#n">n</a></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-    <td style="border-right:0"></td><td style="border-left:0"><a href="#ng">ŋ</a></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-  </tr>
+    <th><a href="http://en.wikipedia.org/wiki/Nasal_consonant">Nasal</a>
+    <td style="border-right:0"><td style="border-left:0"><a href="#m">m</a>
+    <td colspan=2>
+    <td style="border-right:0"><td style="border-left:0"><a href="#n">n</a>
+    <td colspan=2>
+    <td colspan=2>
+    <td colspan=2>
+    <td style="border-right:0"><td style="border-left:0"><a href="#ng">ŋ</a>
+    <td colspan=2>
+    <td colspan=2>
   <tr align=center>
-    <th><a href="http://en.wikipedia.org/wiki/Trill_consonant">Trill</a></th>
-    <td colspan=2></td>
-    <td colspan=2></td>
-    <td style="border-right:0"></td><td style="border-left:0"><a href="#r">r</a></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-  </tr>
+    <th><a href="http://en.wikipedia.org/wiki/Trill_consonant">Trill</a>
+    <td colspan=2>
+    <td colspan=2>
+    <td style="border-right:0"><td style="border-left:0"><a href="#r">r</a>
+    <td colspan=2>
+    <td colspan=2>
+    <td colspan=2>
+    <td colspan=2>
+    <td colspan=2>
+    <td colspan=2>
   <tr align=center>
-    <th><a href="http://en.wikipedia.org/wiki/Fricative_consonant">Fricative</a></th>
-    <td colspan=2></td>
-    <td style="border-right:0"></td><td style="border-left:0"><a href="#v">v</a></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-    <td style="border-right:0"><a href="#s">ʂ</a></td><td style="border-left:0"></td>
-    <td colspan=2></td>
-    <td style="border-right:0"><a href="#h">x</a></td><td style="border-left:0"><a href="#gh">ɣ</a></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-  </tr>
+    <th><a href="http://en.wikipedia.org/wiki/Fricative_consonant">Fricative</a>
+    <td colspan=2>
+    <td style="border-right:0"><td style="border-left:0"><a href="#v">v</a>
+    <td colspan=2>
+    <td colspan=2>
+    <td style="border-right:0"><a href="#s">ʂ</a><td style="border-left:0">
+    <td colspan=2>
+    <td style="border-right:0"><a href="#h">x</a><td style="border-left:0"><a href="#gh">ɣ</a>
+    <td colspan=2>
+    <td colspan=2>
   <tr align=center>
-    <th><a href="http://en.wikipedia.org/wiki/Affricate_consonant">Affricate</a></th>
-    <td colspan=2></td>
-    <td colspan=2></td>
-    <td style="border-right:0"><a href="#tlh">t͡ɬ</a></td><td style="border-left:0"></td>
-    <td style="border-right:0"><a href="#ch">t͡ʃ</a></td><td style="border-left:0"><a href="#j">d͡ʒ</a></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-    <td style="border-right:0"><a href="#qh">q͡χ</a></td><td style="border-left:0"></td>
-    <td colspan=2></td>
-  </tr>
+    <th><a href="http://en.wikipedia.org/wiki/Affricate_consonant">Affricate</a>
+    <td colspan=2>
+    <td colspan=2>
+    <td style="border-right:0"><a href="#tlh">t͡ɬ</a><td style="border-left:0">
+    <td style="border-right:0"><a href="#ch">t͡ʃ</a><td style="border-left:0"><a href="#j">d͡ʒ</a>
+    <td colspan=2>
+    <td colspan=2>
+    <td colspan=2>
+    <td style="border-right:0"><a href="#qh">q͡χ</a><td style="border-left:0">
+    <td colspan=2>
   <tr align=center>
-    <th><a href="http://en.wikipedia.org/wiki/Approximant_consonant#Central_approximants">Approximant</a></th>
-    <td colspan=2></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-    <td style="border-right:0"></td><td style="border-left:0"><a href="#y">j</a></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-  </tr>
+    <th><a href="http://en.wikipedia.org/wiki/Approximant_consonant#Central_approximants">Approximant</a>
+    <td colspan=2>
+    <td colspan=2>
+    <td colspan=2>
+    <td colspan=2>
+    <td colspan=2>
+    <td style="border-right:0"><td style="border-left:0"><a href="#y">j</a>
+    <td colspan=2>
+    <td colspan=2>
+    <td colspan=2>
   <tr align=center>
-    <th><a href="http://en.wikipedia.org/wiki/Approximant_consonant#Lateral_approximants">Lateral Approximant</a></th>
-    <td colspan=2></td>
-    <td colspan=2></td>
-    <td style="border-right:0"></td><td style="border-left:0"><a href="#l">l</a></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-    <td colspan=2></td>
-  </tr>
+    <th><a href="http://en.wikipedia.org/wiki/Approximant_consonant#Lateral_approximants">Lateral Approximant</a>
+    <td colspan=2>
+    <td colspan=2>
+    <td style="border-right:0"><td style="border-left:0"><a href="#l">l</a>
+    <td colspan=2>
+    <td colspan=2>
+    <td colspan=2>
+    <td colspan=2>
+    <td colspan=2>
+    <td colspan=2>
 </table>
 
 <table class="th-sans">
   <tr style="text-align:center;">
-    <th></th>
-    <th style="width:64px;"><a href="http://en.wikipedia.org/wiki/Front_vowel">Front</a></th>
-    <th style="width:62px;"><a href="http://en.wikipedia.org/wiki/Near-front_vowel">Near-​front</a></th>
-    <th style="width:64px;"><a href="http://en.wikipedia.org/wiki/Central_vowel">Central</a></th>
-    <th style="width:62px;"><a href="http://en.wikipedia.org/wiki/Near-back_vowel">Near-​back</a></th>
-    <th style="width:64px;"><a href="http://en.wikipedia.org/wiki/Back_vowel">Back</a></th>
-  </tr>
+    <th>
+    <th style="width:64px;"><a href="http://en.wikipedia.org/wiki/Front_vowel">Front</a>
+    <th style="width:62px;"><a href="http://en.wikipedia.org/wiki/Near-front_vowel">Near-​front</a>
+    <th style="width:64px;"><a href="http://en.wikipedia.org/wiki/Central_vowel">Central</a>
+    <th style="width:62px;"><a href="http://en.wikipedia.org/wiki/Near-back_vowel">Near-​back</a>
+    <th style="width:64px;"><a href="http://en.wikipedia.org/wiki/Back_vowel">Back</a>
   <tr>
-    <th style="height:32px;text-align:right;"><a href="http://en.wikipedia.org/wiki/Close_vowel">Close</a></th>
+    <th style="height:32px;text-align:right;"><a href="http://en.wikipedia.org/wiki/Close_vowel">Close</a>
     <td style="height:210px;" colspan="5" rowspan="7">
       <div style="position:relative;"><img src="pic/320px-blank_vowel_trapezoid.png" width="320" height="224">
         <div style="background:transparent;position:absolute;top:0px;left:0px;">
@@ -326,31 +312,21 @@ each of the sounds is given in the text below.
                 <div style="position:absolute;top:198px;left:128px;width:60px;height:1px;background:transparent;"><span style="position:absolute;left:20px;width:20px;"><span style="background:#fff;padding:0px 8px;">•</span></span></div>
                 <div style="position:absolute;top:198px;left:191px;width:60px;height:1px;background:transparent;"><span style="position:absolute;left:20px;width:20px;"><span style="background:#fff;padding:0px 8px;">•</span></span></div>
                 <div style="position:absolute;top:198px;left:256px;width:60px;height:1px;background:transparent;"><span style="position:absolute;left:20px;width:20px;"><span style="background:#fff;padding:0px 8px;">•</span></span><span style="position:absolute;left:0px;width:25px;text-align:right;background:transparent;"><span style="background:#fff;padding:0px 0px 0px 4px;"><a href="#a">ɑ</a></span></span></div>
-              </td>
-            </tr>
           </table>
         </div>
       </div>
-    </td>
-  </tr>
   <tr>
-    <th align=right style="height:32px"><a href="http://en.wikipedia.org/wiki/Near-close_vowel">Near-close</a></th>
-  </tr>
+    <th align=right style="height:32px"><a href="http://en.wikipedia.org/wiki/Near-close_vowel">Near-close</a>
   <tr>
-    <th align=right style="height:32px"><a href="http://en.wikipedia.org/wiki/Close-mid_vowel">Close-mid</a></th>
-  </tr>
+    <th align=right style="height:32px"><a href="http://en.wikipedia.org/wiki/Close-mid_vowel">Close-mid</a>
   <tr>
-    <th align=right style="height:32px"><a href="http://en.wikipedia.org/wiki/Mid_vowel">Mid</a></th>
-  </tr>
+    <th align=right style="height:32px"><a href="http://en.wikipedia.org/wiki/Mid_vowel">Mid</a>
   <tr>
-    <th align=right style="height:32px"><a href="http://en.wikipedia.org/wiki/Open-mid_vowel">Open-mid</a></th>
-  </tr>
+    <th align=right style="height:32px"><a href="http://en.wikipedia.org/wiki/Open-mid_vowel">Open-mid</a>
   <tr>
-    <th align=right style="height:32px"><a href="http://en.wikipedia.org/wiki/Near-open_vowel">Near-open</a></th>
-  </tr>
+    <th align=right style="height:32px"><a href="http://en.wikipedia.org/wiki/Near-open_vowel">Near-open</a>
   <tr>
-    <th align=right style="height:32px"><a href="http://en.wikipedia.org/wiki/Open_vowel">Open</a></th>
-  </tr>
+    <th align=right style="height:32px"><a href="http://en.wikipedia.org/wiki/Open_vowel">Open</a>
   <caption>Parentheses indicate non-standard pronunciation.</caption>
 </table>
 
@@ -361,16 +337,15 @@ each of the sounds is given in the text below.
     <div class=noncanon>
 
       <table class="border center" style="background:inherit">
-        <tr><th colspan=4><big>Vowel inventory of Klingon</big></th></tr>
+        <tr><th colspan=4><big>Vowel inventory of Klingon</big>
         <tr>
-          <th align=left valign=top>[-cons]</th>
-          <th>[+front]<br>[-back]</th>
-          <th>[-front]<br>[-back]</th>
-          <th>[-front]<br>[+back]</th>
-        </tr>
-        <tr align=right><th>[+high]<br>[-low]</th><td align=center>{I}</td><td></td><td align=center>{u}</td></tr>
-        <tr align=right><th>[-high]<br>[-low]</th><td align=center>{e}</td><td></td><td align=center>{o}</td></tr>
-        <tr align=right><th>[-high]<br>[+low]</th><td></td><td align=center>{a}</td><td></td></tr>
+          <th align=left valign=top>[-cons]
+          <th>[+front]<br>[-back]
+          <th>[-front]<br>[-back]
+          <th>[-front]<br>[+back]
+        <tr align=right><th>[+high]<br>[-low]<td align=center>{I}<td><td align=center>{u}
+        <tr align=right><th>[-high]<br>[-low]<td align=center>{e}<td><td align=center>{o}
+        <tr align=right><th>[-high]<br>[+low]<td><td align=center>{a}<td>
       </table>
 
       <p class="blank indent">There are two noticable secondary features,
@@ -381,106 +356,97 @@ each of the sounds is given in the text below.
         IPA’s small capital I.</p>
 
       <table class="border center th-sans" style="background:inherit">
-        <tr><th colspan=17><big>Consonant inventory of Klingon</big></th></tr>
+        <tr><th colspan=17><big>Consonant inventory of Klingon</big>
         <tr>
-          <th></th>
-          <th colspan=2>Bilabial</th>
-          <th colspan=2>Labio-<br>dental</th>
-          <th colspan=2>Apico-<br>alveolar</th>
-          <th colspan=2>Apico-<br>palato-<br>alveolar<br>(possibly)</th>
-          <th colspan=2>Apico-<br>domal<br>(retroflex)</th>
-          <th colspan=2>Dorso-<br>velar</th>
-          <th colspan=2>Dorso-<br>uvular</th>
-          <th colspan=2>Glottal</th>
-        </tr>
+          <th>
+          <th colspan=2>Bilabial
+          <th colspan=2>Labio-<br>dental
+          <th colspan=2>Apico-<br>alveolar
+          <th colspan=2>Apico-<br>palato-<br>alveolar<br>(possibly)
+          <th colspan=2>Apico-<br>domal<br>(retroflex)
+          <th colspan=2>Dorso-<br>velar
+          <th colspan=2>Dorso-<br>uvular
+          <th colspan=2>Glottal
         <tr align=center>
-          <th>Stop</th>
-          <td style="border-right:0">{p}</td><td style="border-left:0">{b}</td>
-          <td colspan=2></td>
-          <td style="border-right:0">{t}</td><td style="border-left:0"></td>
-          <td colspan=2></td>
-          <td style="border-right:0"></td><td style="border-left:0">{D}</td>
-          <td colspan=2></td>
-          <td style="border-right:0">{q}</td><td style="border-left:0"></td>
-          <td style="border-right:0">{'}</td><td style="border-left:0"></td>
-        </tr>
+          <th>Stop
+          <td style="border-right:0">{p}<td style="border-left:0">{b}
+          <td colspan=2>
+          <td style="border-right:0">{t}<td style="border-left:0">
+          <td colspan=2>
+          <td style="border-right:0"><td style="border-left:0">{D}
+          <td colspan=2>
+          <td style="border-right:0">{q}<td style="border-left:0">
+          <td style="border-right:0">{'}<td style="border-left:0">
         <tr align=center>
-          <th>Fricative</th>
-          <td colspan=2></td>
-          <td style="border-right:0"></td><td style="border-left:0">{v}</td>
-          <td colspan=2></td>
-          <td colspan=2></td>
-          <td style="border-right:0">{S}</td><td style="border-left:0"></td>
-          <td style="border-right:0">{H}</td><td style="border-left:0">{gh}</td>
-          <td colspan=2></td>
-          <td colspan=2></td>
-        </tr>
+          <th>Fricative
+          <td colspan=2>
+          <td style="border-right:0"><td style="border-left:0">{v}
+          <td colspan=2>
+          <td colspan=2>
+          <td style="border-right:0">{S}<td style="border-left:0">
+          <td style="border-right:0">{H}<td style="border-left:0">{gh}
+          <td colspan=2>
+          <td colspan=2>
         <tr align=center>
-          <th>Affricate</th>
-          <td colspan=2></td>
-          <td colspan=2></td>
-          <td colspan=2></td>
-          <td style="border-right:0">{ch}</td><td style="border-left:0">{j}</td>
-          <td colspan=2></td>
-          <td colspan=2></td>
-          <td style="border-right:0">{Q}</td><td style="border-left:0"></td>
-          <td colspan=2></td>
-        </tr>
+          <th>Affricate
+          <td colspan=2>
+          <td colspan=2>
+          <td colspan=2>
+          <td style="border-right:0">{ch}<td style="border-left:0">{j}
+          <td colspan=2>
+          <td colspan=2>
+          <td style="border-right:0">{Q}<td style="border-left:0">
+          <td colspan=2>
         <tr align=center>
-          <th>Nasal Stop</th>
-          <td style="border-right:0"></td><td style="border-left:0">{m}</td>
-          <td colspan=2></td>
-          <td style="border-right:0"></td><td style="border-left:0">{n}</td>
-          <td colspan=2></td>
-          <td style="border-right:0">({N})</td><td style="border-left:0"></td>
-          <td style="border-right:0"></td><td style="border-left:0">{ng}</td>
-          <td colspan=2></td>
-          <td colspan=2></td>
-        </tr>
+          <th>Nasal Stop
+          <td style="border-right:0"><td style="border-left:0">{m}
+          <td colspan=2>
+          <td style="border-right:0"><td style="border-left:0">{n}
+          <td colspan=2>
+          <td style="border-right:0">({N})<td style="border-left:0">
+          <td style="border-right:0"><td style="border-left:0">{ng}
+          <td colspan=2>
+          <td colspan=2>
         <tr align=center>
-          <th>Glides</th>
-          <td style="border-right:0"></td><td style="border-left:0">{w}</td>
-          <td colspan=2></td>
-          <td colspan=2></td>
-          <td style="border-right:0"></td><td style="border-left:0">{y}</td>
-          <td colspan=2></td>
-          <td colspan=2></td>
-          <td colspan=2></td>
-          <td colspan=2></td>
-        </tr>
+          <th>Glides
+          <td style="border-right:0"><td style="border-left:0">{w}
+          <td colspan=2>
+          <td colspan=2>
+          <td style="border-right:0"><td style="border-left:0">{y}
+          <td colspan=2>
+          <td colspan=2>
+          <td colspan=2>
+          <td colspan=2>
         <tr align=center>
-          <th>Trill</th>
-          <td colspan=2></td>
-          <td colspan=2></td>
-          <td style="border-right:0"></td><td style="border-left:0">{r}</td>
-          <td colspan=2></td>
-          <td colspan=2></td>
-          <td colspan=2></td>
-          <td colspan=2></td>
-          <td colspan=2></td>
-        </tr>
+          <th>Trill
+          <td colspan=2>
+          <td colspan=2>
+          <td style="border-right:0"><td style="border-left:0">{r}
+          <td colspan=2>
+          <td colspan=2>
+          <td colspan=2>
+          <td colspan=2>
+          <td colspan=2>
         <tr align=center>
-          <th>Lateral</th>
-          <td colspan=2></td>
-          <td colspan=2></td>
-          <td style="border-right:0"></td><td style="border-left:0">{l}</td>
-          <td colspan=2></td>
-          <td colspan=2></td>
-          <td colspan=2></td>
-          <td colspan=2></td>
-          <td colspan=2></td>
-        </tr>
+          <th>Lateral
+          <td colspan=2>
+          <td colspan=2>
+          <td style="border-right:0"><td style="border-left:0">{l}
+          <td colspan=2>
+          <td colspan=2>
+          <td colspan=2>
+          <td colspan=2>
+          <td colspan=2>
         <tr align=center>
-          <th>Lateral Affricate</th>
-          <td colspan=2></td>
-          <td colspan=2></td>
-          <td style="border-right:0">{tlh}</td><td style="border-left:0"></td>
-          <td colspan=2></td>
-          <td colspan=2></td>
-          <td colspan=2></td>
-          <td colspan=2></td>
-          <td colspan=2></td>
-        </tr>
+          <th>Lateral Affricate
+          <td colspan=2>
+          <td colspan=2>
+          <td style="border-right:0">{tlh}<td style="border-left:0">
+          <td colspan=2>
+          <td colspan=2>
+          <td colspan=2>
+          <td colspan=2>
+          <td colspan=2>
         <caption>Where characters appear in pairs, the one to the right
           represents a voiced consonant.</caption>
       </table>
@@ -1349,10 +1315,10 @@ Adjectival verbs are stressed as verbs.
 <ul>
   <li><i>If a speaker emphasizes one or more suffixes,</i> then those suffixes
     are stressed, and all other syllables are unstressed. (Commonly emphasized
-    suffixes are: {-'a'}, {-be'}, {-Qo'}, {-Ha'} and {-qu'}.)</li>
+    suffixes are: {-'a'}, {-be'}, {-Qo'}, {-Ha'} and {-qu'}.)
   <li><i>Otherwise,</i> the last syllable of the stem is stressed, the first
     suffix is unstressed, and, after that, all suffixes ending in glottal stop
-    are stressed.</li>
+    are stressed.
 </ul>
 
 <small>[<a class=sources>Display Sources</a>]</small>
@@ -1409,9 +1375,9 @@ stressed as nouns.
 
 <ul>
   <li><i>If there are syllables ending in glottal stop,</i> those are stressed
-    (and stressed equally).</li>
+    (and stressed equally).
   <li><i>Otherwise,</i> the last syllable of the stem is stressed (in compound
-    nouns, only the last syllable of the <i>last stem</i> is stressed).</li>
+    nouns, only the last syllable of the <i>last stem</i> is stressed).
 </ul>
 
 <small>[<a class=sources>Display Sources</a>]</small>
@@ -1452,17 +1418,17 @@ exclamations that occur in the TKD “cheat sheet”, and all of these have thei
 final syllable stressed.
 
 <ul>
-  <li>Final syllable is stressed.</li>
+  <li>Final syllable is stressed.
 </ul>
 
 <small>[<a class=sources>Display Sources</a>]</small>
 
 <div class="canon hidden">
   <table>
-    <tr><td>Yes.</td><td>HIja’ <i>or</i> HISlaH</td><td>khi-JA <i>or</i> khish-LAKH</td></tr>
-    <tr><td>No.</td><td>ghobe’</td><td>gho-BE</td></tr>
-    <tr><td>Very good! Well done!</td><td>majQa’</td><td>maj-KKHA</td></tr>
-    <tr><td>What do you want? (greeting)</td><td>nuqneH</td><td>nook-NEKH</td></tr>
+    <tr><td>Yes.<td>HIja’ <i>or</i> HISlaH<td>khi-JA <i>or</i> khish-LAKH
+    <tr><td>No.<td>ghobe’<td>gho-BE
+    <tr><td>Very good! Well done!<td>majQa’<td>maj-KKHA
+    <tr><td>What do you want? (greeting)<td>nuqneH<td>nook-NEKH
     <caption><small>[TKD pp. 171--172]</small></caption>
   </table>
 </div>
@@ -1472,81 +1438,70 @@ final syllable stressed.
 -------------------
 <table align=center>
   <tr>
-    <th>Value</th>
-    <th>Pronunciation</th>
-    <th colspan=2>{pIqaD}</th>
-    <th>Name</th>
-  </tr>
+    <th>Value
+    <th>Pronunciation
+    <th colspan=2>{pIqaD}
+    <th>Name
   <tr align=center>
-    <td><img src="../piq/rom/0.gif" width=16 height=39 alt=0></td>
-    <td><img src="../piq/ipa/0.gif" width=67 height=39 alt=0></td>
-    <td><img src="../piq/bg1/0.gif" width=30 height=39 alt=0></td>
-    <td><img src="../piq/fncy/0.gif" width=25 height=39 alt=0></td>
-    <td>zero,<br>none</td>
-  </tr>
+    <td><img src="../piq/rom/0.gif" width=16 height=39 alt=0>
+    <td><img src="../piq/ipa/0.gif" width=67 height=39 alt=0>
+    <td><img src="../piq/bg1/0.gif" width=30 height=39 alt=0>
+    <td><img src="../piq/fncy/0.gif" width=25 height=39 alt=0>
+    <td>zero,<br>none
   <tr align=center>
-    <td><img src="../piq/rom/1.gif" width=13 height=39 alt=1></td>
-    <td><img src="../piq/ipa/1.gif" width=63 height=39 alt=1></td>
-    <td><img src="../piq/bg1/1.gif" width=36 height=39 alt=1></td>
-    <td><img src="../piq/fncy/1.gif" width=34 height=39 alt=1></td>
-    <td>one</td>
-  </tr>
+    <td><img src="../piq/rom/1.gif" width=13 height=39 alt=1>
+    <td><img src="../piq/ipa/1.gif" width=63 height=39 alt=1>
+    <td><img src="../piq/bg1/1.gif" width=36 height=39 alt=1>
+    <td><img src="../piq/fncy/1.gif" width=34 height=39 alt=1>
+    <td>one
   <tr align=center>
-    <td><img src="../piq/rom/2.gif" width=16 height=39 alt=2></td>
-    <td><img src="../piq/ipa/2.gif" width=62 height=39 alt=2></td>
-    <td><img src="../piq/bg1/2.gif" width=17 height=39 alt=2></td>
-    <td><img src="../piq/fncy/2.gif" width=19 height=39 alt=2></td>
-    <td>two</td>
-  </tr>
+    <td><img src="../piq/rom/2.gif" width=16 height=39 alt=2>
+    <td><img src="../piq/ipa/2.gif" width=62 height=39 alt=2>
+    <td><img src="../piq/bg1/2.gif" width=17 height=39 alt=2>
+    <td><img src="../piq/fncy/2.gif" width=19 height=39 alt=2>
+    <td>two
   <tr align=center>
-    <td><img src="../piq/rom/3.gif" width=14 height=39 alt=3></td>
-    <td><img src="../piq/ipa/3.gif" width=76 height=39 alt=3></td>
-    <td><img src="../piq/bg1/3.gif" width=26 height=39 alt=3></td>
-    <td><img src="../piq/fncy/3.gif" width=27 height=39 alt=3></td>
-    <td>three</td>
-  </tr>
+    <td><img src="../piq/rom/3.gif" width=14 height=39 alt=3>
+    <td><img src="../piq/ipa/3.gif" width=76 height=39 alt=3>
+    <td><img src="../piq/bg1/3.gif" width=26 height=39 alt=3>
+    <td><img src="../piq/fncy/3.gif" width=27 height=39 alt=3>
+    <td>three
   <tr align=center>
-    <td><img src="../piq/rom/4.gif" width=16 height=39 alt=4></td>
-    <td><img src="../piq/ipa/4.gif" width=49 height=39 alt=4></td>
-    <td><img src="../piq/bg1/4.gif" width=34 height=39 alt=4></td>
-    <td><img src="../piq/fncy/4.gif" width=36 height=39 alt=4></td>
-    <td>four</td>
-  </tr>
+    <td><img src="../piq/rom/4.gif" width=16 height=39 alt=4>
+    <td><img src="../piq/ipa/4.gif" width=49 height=39 alt=4>
+    <td><img src="../piq/bg1/4.gif" width=34 height=39 alt=4>
+    <td><img src="../piq/fncy/4.gif" width=36 height=39 alt=4>
+    <td>four
   <tr align=center>
-    <td><img src="../piq/rom/5.gif" width=16 height=39 alt=5></td>
-    <td><img src="../piq/ipa/5.gif" width=54 height=39 alt=5></td>
-    <td><img src="../piq/bg1/5.gif" width=20 height=39 alt=5></td>
-    <td><img src="../piq/fncy/5.gif" width=17 height=39 alt=5></td>
-    <td>five</td>
-  </tr>
+    <td><img src="../piq/rom/5.gif" width=16 height=39 alt=5>
+    <td><img src="../piq/ipa/5.gif" width=54 height=39 alt=5>
+    <td><img src="../piq/bg1/5.gif" width=20 height=39 alt=5>
+    <td><img src="../piq/fncy/5.gif" width=17 height=39 alt=5>
+    <td>five
   <tr align=center>
-    <td><img src="../piq/rom/6.gif" width=16 height=39 alt=6></td>
-    <td><img src="../piq/ipa/6.gif" width=70 height=39 alt=6></td>
-    <td><img src="../piq/bg1/6.gif" width=35 height=39 alt=6></td>
-    <td><img src="../piq/fncy/6.gif" width=28 height=39 alt=6></td>
-    <td>six</td>
-  </tr>
+    <td><img src="../piq/rom/6.gif" width=16 height=39 alt=6>
+    <td><img src="../piq/ipa/6.gif" width=70 height=39 alt=6>
+    <td><img src="../piq/bg1/6.gif" width=35 height=39 alt=6>
+    <td><img src="../piq/fncy/6.gif" width=28 height=39 alt=6>
+    <td>six
   <tr align=center>
-    <td><img src="../piq/rom/7.gif" width=16 height=39 alt=7></td>
-    <td><img src="../piq/ipa/7.gif" width=63 height=39 alt=7></td>
-    <td><img src="../piq/bg1/7.gif" width=28 height=39 alt=7></td>
-    <td><img src="../piq/fncy/7.gif" width=25 height=39 alt=7></td>
-    <td>seven</td>
-  </tr>
+    <td><img src="../piq/rom/7.gif" width=16 height=39 alt=7>
+    <td><img src="../piq/ipa/7.gif" width=63 height=39 alt=7>
+    <td><img src="../piq/bg1/7.gif" width=28 height=39 alt=7>
+    <td><img src="../piq/fncy/7.gif" width=25 height=39 alt=7>
+    <td>seven
   <tr align=center>
-    <td><img src="../piq/rom/8.gif" width=16 height=39 alt=8></td>
-    <td><img src="../piq/ipa/8.gif" width=69 height=39 alt=8></td>
-    <td><img src="../piq/bg1/8.gif" width=37 height=39 alt=8></td>
-    <td><img src="../piq/fncy/8.gif" width=39 height=39 alt=8></td>
-    <td>eight</td>
-  </tr>
+    <td><img src="../piq/rom/8.gif" width=16 height=39 alt=8>
+    <td><img src="../piq/ipa/8.gif" width=69 height=39 alt=8>
+    <td><img src="../piq/bg1/8.gif" width=37 height=39 alt=8>
+    <td><img src="../piq/fncy/8.gif" width=39 height=39 alt=8>
+    <td>eight
   <tr align=center>
-    <td><img src="../piq/rom/9.gif" width=16 height=39 alt=9></td>
-    <td><img src="../piq/ipa/9.gif" width=66 height=39 alt=9></td>
-    <td><img src="../piq/bg1/9.gif" width=27 height=39 alt=9></td>
-    <td><img src="../piq/fncy/9.gif" width=23 height=39 alt=9></td>
-    <td>nine</td>
-  </tr>
+    <td><img src="../piq/rom/9.gif" width=16 height=39 alt=9>
+    <td><img src="../piq/ipa/9.gif" width=66 height=39 alt=9>
+    <td><img src="../piq/bg1/9.gif" width=27 height=39 alt=9>
+    <td><img src="../piq/fncy/9.gif" width=23 height=39 alt=9>
+    <td>nine
 </table>
 
 <small>[<a class=sources>Display Sources</a>]</small>
@@ -1635,9 +1590,9 @@ dialect (that we know of) which most closely resembles Standard Klingon. It is
 only briefly described in canon.
 
 <ul>
-  <li>Nasal vowels</li>
-  <li>Pronounces {b} as {mb}</li>
-  <li>Pronounces {D} as {ND}</li>
+  <li>Nasal vowels
+  <li>Pronounces {b} as {mb}
+  <li>Pronounces {D} as {ND}
 </ul>
 
 <small>[<a class=sources>Display Sources</a>]</small>
@@ -1663,18 +1618,18 @@ other Klingons. Some of the dialects peculiarities have even influenced
 Standard Klingon.
 
 <ul>
-  <li>Nasal vowels</li>
-  <li>Pronounces {b} as {m} (as in English <i>mime</i>)</li>
-  <li>Pronounces {D} as {N}</li>
+  <li>Nasal vowels
+  <li>Pronounces {b} as {m} (as in English <i>mime</i>)
+  <li>Pronounces {D} as {N}
   <li>Often uses extra words in noun phrases, originally to differentiate
     between words with {b} and {m} (e.g. {'uS qam} <i>leg foot,</i> {nach
     qam} <i>head face</i>), but now prevalent even when no disambiguation is
     needed (e.g. {NeS ghop} <i>arm hand,</i> {nach ghIch} <i>head nose,</i>
     {qorNu' tuq} <i>family house</i> and even {yan 'etlh} or {'etlh
-    yan} <i>sword sword</i>)</li>
+    yan} <i>sword sword</i>)
   <li>Often adds short extra sentences to disambiguate between verbs with {b}
     and {m} (e.g. {mImoH. yIjotchoH.} <i>You’re impatient. Calm down!,</i>
-    {mImoH. 'oy' mInNu'wIj.} <i>You’re ugly. My eyes ache.</i>)</li>
+    {mImoH. 'oy' mInNu'wIj.} <i>You’re ugly. My eyes ache.</i>)
 </ul>
 
 <small>[<a class=sources>Display Sources</a>]</small>
@@ -1822,12 +1777,12 @@ The Morskan dialect is characterized by the following speech patterns.
 
 <ul>
   <li>Pronounces {tlh} as {ghl} at the beginning of syllables, and as {ts} (as
-    in English <i>cats</i>) at the end</li>
+    in English <i>cats</i>) at the end
   <li>Pronounces {H} as {h} (as in English <i>hat</i>) at beginning of
-    syllables, and not pronounced at all at end</li>
-  <li>Pronounces {Q} as Standard Klingon {H}</li>
+    syllables, and not pronounced at all at end
+  <li>Pronounces {Q} as Standard Klingon {H}
   <li>Usually drops {-'e'} from the final noun in “to be” phrases (except when
-    the subject of such phrases are emphasised)</li>
+    the subject of such phrases are emphasised)
 </ul>
 
 <small>[<a class=sources>Display Sources</a>]</small>
@@ -1934,29 +1889,29 @@ The Morskan dialect is characterized by the following speech patterns.
 <ul>
 <li>Elliot, Theron P. “Writing Klingon: The Easy Way.” In
     <i>{HolQeD},</i> Volume 2, Number 2 (<time datetime="1993-06">June 1993</time>). Lake Forest:
-    Klingon Language Institute.</li>
+    Klingon Language Institute.
 <li>Okrand, Marc. <time>1992</time>. <i>The Klingon Dictionary.</i> New York: Pocket
-    Books, Simon &amp; Schuster Inc.</li>
+    Books, Simon &amp; Schuster Inc.
 <li>Okrand, Marc. <time>1992</time>. <i>Conversational Klingon.</i> Audio cassette. New
-    York: Simon &amp; Schuster Audioworks.</li>
+    York: Simon &amp; Schuster Audioworks.
 <li>Okrand, Marc, and Levine, Barry. <time>1993</time>. <i>Power Klingon.</i> Audio
-    cassette. New York: Simon &amp; Schuster Audioworks.</li>
+    cassette. New York: Simon &amp; Schuster Audioworks.
 <li>Okrand, Marc. <time>1997</time>. <i>Klingon for the Galactic Traveler.</i> New York:
-    Pocket Books, Simon &amp; Schuster Inc.</li>
+    Pocket Books, Simon &amp; Schuster Inc.
 <li>Pullum, Geoffrey K., and Ladusaw, William A. <time>1986</time>. <i>Phonetic Symbol
-    Guide.</i> Chicago: The University of Chicago Press.</li>
+    Guide.</i> Chicago: The University of Chicago Press.
 <li>Schoen, Lawrence M. “<a href="../canon/1992-03-holqed-01-1-b.txt">Some Comments on Orthography</a>” In
     <i>{HolQeD},</i> Volume 1, Number 1 (<time datetime="1992-03">March 1992</time>). Lake Forest:
-    Klingon Language Institute.</li>
+    Klingon Language Institute.
 <li>Schoen, Lawrence M. “<a href="../canon/1992-12-holqed-01-04.txt">Numerals</a>” In <i>{HolQeD},</i> Volume 1,
-    Number 4 (<time datetime="1992-12">December 1992</time>). Lake Forest: Klingon Language Institute.</li>
+    Number 4 (<time datetime="1992-12">December 1992</time>). Lake Forest: Klingon Language Institute.
 <li>Wechsler, Allan C. “First Steps Towards a Phonological Theory of
     Klingon.” In <i>{HolQeD},</i> Volume 1, Number 1 (<time datetime="1992-03">March 1992</time>).
-    Lake Forest: Klingon Language Institute.</li>
+    Lake Forest: Klingon Language Institute.
 <li>Wells, Teresa Lynn. <time>1996</time>. <i>A Survey of the Artificial Language
     {tlhIngan Hol}: From Creation to Creativity.</i> A Thesis
     Presented in Partial Fulfillment of the Requirements for the Degree
-    Master of Arts at Arizona State University. Unpublished.</li>
+    Master of Arts at Arizona State University. Unpublished.
 </ul>
 
 <script>

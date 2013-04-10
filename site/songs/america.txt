@@ -11,8 +11,8 @@ Alla älskar vi Amerika -- <i>We all love America</i>
 <table class="noborder" style="text-align:left">
   <tbody>
     <tr>
-      <th lang="sv">Vers 1</th>
-      <th lang="tlh">'ay' wa'</th>
+      <th lang="sv">Vers 1
+      <th lang="tlh">'ay' wa'
     <tr>
       <td lang="sv" class="nobr">
         Rika människor är coolare,
@@ -24,13 +24,11 @@ Alla älskar vi Amerika -- <i>We all love America</i>
         <br>jIH’a’Daq ’e’ vIleghbejpu’.
         <br><i>beverlIy ’Il</i>Daq ’oH QI’tu’’e’.
         <br><i>lIvay</i> yopwaH ghojpa’ pa’ lengbe’.
-      </td>
-    </tr>
   </tbody>
   <tbody>
     <tr>
-      <th lang="sv">Refräng</th>
-      <th lang="tlh">'ay' joj</th>
+      <th lang="sv">Refräng
+      <th lang="tlh">'ay' joj
     <tr>
       <td lang="sv" class="nobr">
         Alla älskar vi Amerika.
@@ -46,13 +44,11 @@ Alla älskar vi Amerika -- <i>We all love America</i>
         <br><i>’amerIqa</i> moj <i>’erIqISDal</i>.
         <br>wa’leS <i>jo’nI Dep</i> vIDa;
         <br>     pawlI’DI’ jajlo’ vInajbogh.
-      </td>
-    </tr>
   </tbody>
   <tbody>
     <tr>
-      <th lang="sv">Vers 2</th>
-      <th lang="tlh">'ay' cha'</th>
+      <th lang="sv">Vers 2
+      <th lang="tlh">'ay' cha'
     <tr>
       <td lang="sv" class="nobr">
         Rika människor är lyckligare,
@@ -64,13 +60,11 @@ Alla älskar vi Amerika -- <i>We all love America</i>
         <br>bImIpchugh vaj DuQuchmoHchu’
         <br>Hoch Doch Daghajqu’bogh neH DaSaH
         <br>’e’ DaDamo’ qo’ Hoch Daje’laH
-      </td>
-    </tr>
   </tbody>
   <tbody>
     <tr>
-      <th lang="sv">Refräng</th>
-      <th lang="tlh">'ay' joj</th>
+      <th lang="sv">Refräng
+      <th lang="tlh">'ay' joj
     <tr>
       <td lang="sv" class="nobr">
         Alla älskar vi Amerika.
@@ -78,16 +72,13 @@ Alla älskar vi Amerika -- <i>We all love America</i>
         <br>     till vår egen lilla by.
         <br>Så blir Eriksdal Amerika.
         <br>Jag blir Johnny Depp imorgon
-        <br>     när en blå dags stjärnor gryr.
-      </td><td lang="tlh" class="nobr">
+        <br>     när en blå dags stjärnor gryr.<td lang="tlh" class="nobr">
         <i>’amerIqa</i> luHo’qu’taH Hoch.
         <br>vengHommaj botlhDaq DabtaH
         <br>     <i>maqDonal</i> Do Qe’ ’e’ wInaj.
         <br><i>’amerIqa</i> moj <i>’erIqISDal</i>.
         <br>wa’leS <i>jo’nI Dep</i> vIDa;
         <br>     pawlI’DI’ jajlo’ vInajbogh.
-      </td>
-    </tr>
   </tbody>
 </table>
 

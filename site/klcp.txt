@@ -85,57 +85,51 @@ to questions about grammar. An example of each type is provided here.
 <table class="noborder">
   <tbody>
     <tr>
-      <td>Translation</td>
-      <td>1a.</td>
+      <td>Translation
+      <td>1a.
       <td>Translate the following sentence:
         <br>{SuS'a'mo' pum Sorvetlh}
-        <br>["That tree fell because of the powerful wind."]</td>
-    </tr>
+        <br>["That tree fell because of the powerful wind."]
   </tbody>
   <tbody>
     <tr>
-      <td></td>
-      <td>1b.</td>
+      <td>
+      <td>1b.
       <td>Translate the following sentence:
         <br>"The guard chased the prisoner out of the jail."
-        <br>[{bIghHa'vo' qama' tlha' 'avwI'}]</td>
-    </tr>
+        <br>[{bIghHa'vo' qama' tlha' 'avwI'}]
   </tbody>
   <tbody>
     <tr>
-      <td class="nobr">Fill-in-the-blank</td>
-      <td>2a.</td>
+      <td class="nobr">Fill-in-the-blank
+      <td>2a.
       <td>Don't speak!
         <br>{yIjatlh___}
-        <br>[{-Qo'}]</td>
-    </tr>
+        <br>[{-Qo'}]
   </tbody>
   <tbody>
     <tr>
-      <td></td>
-      <td>2b.</td>
+      <td>
+      <td>2b.
       <td>{ya ghaH wo'rIv'e'}
         <br>Worf is the __________.
-        <br>["tactical officer"]</td>
-    </tr>
+        <br>["tactical officer"]
   </tbody>
   <tbody>
     <tr>
-      <td>Grammar</td>
-      <td>3a.</td>
+      <td>Grammar
+      <td>3a.
       <td>What is the connotation of using {-mey} with a noun capable of
         language?
-        <br>[scattered all about]</td>
-    </tr>
+        <br>[scattered all about]
   </tbody>
   <tbody>
     <tr>
-      <td></td>
-      <td>3b.</td>
+      <td>
+      <td>3b.
       <td>What is the connotation of using a general possessive suffix on a noun
         capable of language?
-        <br>[insult]</td>
-    </tr>
+        <br>[insult]
   </tbody>
 </table>
 
@@ -164,229 +158,173 @@ end of these guidelines for the beginner's vocabulary.
 
 <table>
   <tr>
-    <th>Topic</th>
-    <th>Source</th>
-  </tr>
+    <th>Topic
+    <th>Source
   <tr>
-    <td>Syllable stress</td>
-    <td><i>TKD</i> 1.3, p. 17</td>
-  </tr>
+    <td>Syllable stress
+    <td><i>TKD</i> 1.3, p. 17
   <tr>
-    <td>Parts of speech</td>
-    <td><i>TKD</i> 2, p. 18</td>
-  </tr>
+    <td>Parts of speech
+    <td><i>TKD</i> 2, p. 18
   <tr>
-    <td>NS1 {-'a'} <i>augmentative</i></td>
-    <td><i>TKD</i> 3.3.1, p. 21</td>
-  </tr>
+    <td>NS1 {-'a'} <i>augmentative</i>
+    <td><i>TKD</i> 3.3.1, p. 21
   <tr>
-    <td>NS1 {-Hom} <i>diminutive</i></td>
-    <td><i>TKD</i> 3.3.1, p. 21</td>
-  </tr>
+    <td>NS1 {-Hom} <i>diminutive</i>
+    <td><i>TKD</i> 3.3.1, p. 21
   <tr>
-    <td>NS3 {-qoq} <i>so-called</i></td>
-    <td><i>TKD</i> 3.3.3, p. 24</td>
-  </tr>
+    <td>NS3 {-qoq} <i>so-called</i>
+    <td><i>TKD</i> 3.3.3, p. 24
   <tr>
-    <td>NS3 {-Hey} <i>apparent</i></td>
-    <td><i>TKD</i> 3.3.3, p. 24</td>
-  </tr>
+    <td>NS3 {-Hey} <i>apparent</i>
+    <td><i>TKD</i> 3.3.3, p. 24
   <tr>
-    <td>NS3 {-na'} <i>definite</i></td>
-    <td><i>TKD</i> 3.3.3, p. 25</td>
-  </tr>
+    <td>NS3 {-na'} <i>definite</i>
+    <td><i>TKD</i> 3.3.3, p. 25
   <tr>
-    <td>NS4 {-wIj} <i>my</i></td>
-    <td><i>TKD</i> 3.3.4, p. 25</td>
-  </tr>
+    <td>NS4 {-wIj} <i>my</i>
+    <td><i>TKD</i> 3.3.4, p. 25
   <tr>
-    <td>NS4 {-wI'} <i>my</i></td>
-    <td><i>TKD</i> 3.3.4, p. 25</td>
-  </tr>
+    <td>NS4 {-wI'} <i>my</i>
+    <td><i>TKD</i> 3.3.4, p. 25
   <tr>
-    <td>NS4 {-lIj} <i>your</i></td>
-    <td><i>TKD</i> 3.3.4, p. 25</td>
-  </tr>
+    <td>NS4 {-lIj} <i>your</i>
+    <td><i>TKD</i> 3.3.4, p. 25
   <tr>
-    <td>NS4 {-lI'} <i>your</i></td>
-    <td><i>TKD</i> 3.3.4, p. 25</td>
-  </tr>
+    <td>NS4 {-lI'} <i>your</i>
+    <td><i>TKD</i> 3.3.4, p. 25
   <tr>
-    <td>NS4 {-maj} <i>our</i></td>
-    <td><i>TKD</i> 3.3.4, p. 25</td>
-  </tr>
+    <td>NS4 {-maj} <i>our</i>
+    <td><i>TKD</i> 3.3.4, p. 25
   <tr>
-    <td>NS4 {-ma'} <i>our</i></td>
-    <td><i>TKD</i> 3.3.4, p. 25</td>
-  </tr>
+    <td>NS4 {-ma'} <i>our</i>
+    <td><i>TKD</i> 3.3.4, p. 25
   <tr>
-    <td>NS4 {-Daj} <i>his/her/its/their</i></td>
-    <td><i>TKD</i> 3.3.4, p. 25</td>
-  </tr>
+    <td>NS4 {-Daj} <i>his/her/its/their</i>
+    <td><i>TKD</i> 3.3.4, p. 25
   <tr>
-    <td>NS4 {-vam} <i>this</i></td>
-    <td><i>TKD</i> 3.3.4, p. 26</td>
-  </tr>
+    <td>NS4 {-vam} <i>this</i>
+    <td><i>TKD</i> 3.3.4, p. 26
   <tr>
-    <td>NS4 {-vetlh} <i>that</i></td>
-    <td><i>TKD</i> 3.3.4, p. 26</td>
-  </tr>
+    <td>NS4 {-vetlh} <i>that</i>
+    <td><i>TKD</i> 3.3.4, p. 26
   <tr>
-    <td>NS5 {-Daq} <i>locative</i></td>
-    <td><i>TKD</i> 3.3.5, p. 27--28</td>
-  </tr>
+    <td>NS5 {-Daq} <i>locative</i>
+    <td><i>TKD</i> 3.3.5, p. 27--28
   <tr>
-    <td>NS5 {-vo'} <i>from</i></td>
-    <td><i>TKD</i> 3.3.5, p. 28</td>
-  </tr>
+    <td>NS5 {-vo'} <i>from</i>
+    <td><i>TKD</i> 3.3.5, p. 28
   <tr>
-    <td>NS5 {-mo'} <i>due to, because of</i></td>
-    <td><i>TKD</i> 3.3.5, p. 28</td>
-  </tr>
+    <td>NS5 {-mo'} <i>due to, because of</i>
+    <td><i>TKD</i> 3.3.5, p. 28
   <tr>
-    <td>NS5 {-'e'} <i>topic</i></td>
-    <td><i>TKD</i> 3.3.5, p. 29</td>
-  </tr>
+    <td>NS5 {-'e'} <i>topic</i>
+    <td><i>TKD</i> 3.3.5, p. 29
   <tr>
-    <td>Verb prefix {jI-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {jI-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Verb prefix {bI-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {bI-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Verb prefix {ma-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {ma-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Verb prefix {qa-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {qa-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Verb prefix {vI-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {vI-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Verb prefix {cho-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {cho-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Verb prefix {mu-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {mu-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Verb prefix {Da-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {Da-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Verb prefix (null)</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix (null)
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>VS1 {-'egh} <i>self</i></td>
-    <td><i>TKD</i> 4.2.1, p. 35</td>
-  </tr>
+    <td>VS1 {-'egh} <i>self</i>
+    <td><i>TKD</i> 4.2.1, p. 35
   <tr>
-    <td>VS1 {-chuq }<i>each other</i></td>
-    <td><i>TKD</i> 4.2.1, p. 36</td>
-  </tr>
+    <td>VS1 {-chuq }<i>each other</i>
+    <td><i>TKD</i> 4.2.1, p. 36
   <tr>
-    <td>VS2 {-nIS} <i>need</i></td>
-    <td><i>TKD</i> 4.2.2, p. 36</td>
-  </tr>
+    <td>VS2 {-nIS} <i>need</i>
+    <td><i>TKD</i> 4.2.2, p. 36
   <tr>
-    <td>VS2 {-rup} <i>ready</i></td>
-    <td><i>TKD</i> 4.2.2, p. 36</td>
-  </tr>
+    <td>VS2 {-rup} <i>ready</i>
+    <td><i>TKD</i> 4.2.2, p. 36
   <tr>
-    <td>VS2 {-qang} <i>willing</i></td>
-    <td><i>TKD</i> 4.2.2, p. 36</td>
-  </tr>
+    <td>VS2 {-qang} <i>willing</i>
+    <td><i>TKD</i> 4.2.2, p. 36
   <tr>
-    <td>VS2 {-beH} <i>ready</i></td>
-    <td><i>TKD</i> 4.2.2, p. 36--37</td>
-  </tr>
+    <td>VS2 {-beH} <i>ready</i>
+    <td><i>TKD</i> 4.2.2, p. 36--37
   <tr>
-    <td>VS2 {-vIp} <i>afraid</i></td>
-    <td><i>TKD</i> 4.2.2, p. 37</td>
-  </tr>
+    <td>VS2 {-vIp} <i>afraid</i>
+    <td><i>TKD</i> 4.2.2, p. 37
   <tr>
-    <td>VS3 {-choH} <i>change</i></td>
-    <td><i>TKD</i> 4.2.3, p. 37</td>
-  </tr>
+    <td>VS3 {-choH} <i>change</i>
+    <td><i>TKD</i> 4.2.3, p. 37
   <tr>
-    <td>VS3 {-qa'} <i>again/resume</i></td>
-    <td><i>TKD</i> 4.2.3, p. 37--38</td>
-  </tr>
+    <td>VS3 {-qa'} <i>again/resume</i>
+    <td><i>TKD</i> 4.2.3, p. 37--38
   <tr>
-    <td>VS4 {-moH} <i>cause</i></td>
-    <td><i>TKD</i> 4.2.4, p. 38</td>
-  </tr>
+    <td>VS4 {-moH} <i>cause</i>
+    <td><i>TKD</i> 4.2.4, p. 38
   <tr>
-    <td>VS5 {-laH} <i>ability</i></td>
-    <td><i>TKD</i> 4.2.5, p. 39</td>
-  </tr>
+    <td>VS5 {-laH} <i>ability</i>
+    <td><i>TKD</i> 4.2.5, p. 39
   <tr>
-    <td>VS6 {-ba'} <i>obviously</i></td>
-    <td><i>TKD</i> 4.2.6, p. 175 (addendum)</td>
-  </tr>
+    <td>VS6 {-ba'} <i>obviously</i>
+    <td><i>TKD</i> 4.2.6, p. 175 (addendum)
   <tr>
-    <td>VS6 {-law'} <i>apparently</i></td>
-    <td><i>TKD</i> 4.2.6, p. 40</td>
-  </tr>
+    <td>VS6 {-law'} <i>apparently</i>
+    <td><i>TKD</i> 4.2.6, p. 40
   <tr>
-    <td>VS6 {-bej} <i>certainly</i></td>
-    <td><i>TKD</i> 4.2.6, p. 40</td>
-  </tr>
+    <td>VS6 {-bej} <i>certainly</i>
+    <td><i>TKD</i> 4.2.6, p. 40
   <tr>
-    <td>VS6 {-chu'} <i>clearly/perfectly</i></td>
-    <td><i>TKD</i> 4.2.6, p. 40</td>
-  </tr>
+    <td>VS6 {-chu'} <i>clearly/perfectly</i>
+    <td><i>TKD</i> 4.2.6, p. 40
   <tr>
-    <td>VS8 {-neS} <i>honorific</i></td>
-    <td><i>TKD</i> 4.2.8, p. 43</td>
-  </tr>
+    <td>VS8 {-neS} <i>honorific</i>
+    <td><i>TKD</i> 4.2.8, p. 43
   <tr>
-    <td>VS9 {-'a'} <i>interrogative</i></td>
-    <td><i>TKD</i> 4.2.9, p. 44</td>
-  </tr>
+    <td>VS9 {-'a'} <i>interrogative</i>
+    <td><i>TKD</i> 4.2.9, p. 44
   <tr>
-    <td>Rover {-be'} <i>negation</i></td>
-    <td><i>TKD</i> 4.3, p. 46</td>
-  </tr>
+    <td>Rover {-be'} <i>negation</i>
+    <td><i>TKD</i> 4.3, p. 46
   <tr>
-    <td>Rover {-qu'} <i>emphatic</i></td>
-    <td><i>TKD</i> 4.3, p. 48--49</td>
-  </tr>
+    <td>Rover {-qu'} <i>emphatic</i>
+    <td><i>TKD</i> 4.3, p. 48--49
   <tr>
-    <td>Pronouns</td>
-    <td><i>TKD</i> 5.1, p. 51--52</td>
-  </tr>
+    <td>Pronouns
+    <td><i>TKD</i> 5.1, p. 51--52
   <tr>
-    <td>Conjunctions</td>
-    <td><i>TKD</i> 5.3, p. 55</td>
-  </tr>
+    <td>Conjunctions
+    <td><i>TKD</i> 5.3, p. 55
   <tr>
-    <td>Exclamations</td>
-    <td><i>TKD</i> 5.5, p. 57</td>
-  </tr>
+    <td>Exclamations
+    <td><i>TKD</i> 5.5, p. 57
   <tr>
-    <td>Question {chay'} <i>how</i></td>
-    <td><i>TKD</i> 6.4, p. 68--70</td>
-  </tr>
+    <td>Question {chay'} <i>how</i>
+    <td><i>TKD</i> 6.4, p. 68--70
   <tr>
-    <td>Question {ghorgh} <i>when</i></td>
-    <td><i>TKD</i> 6.4, p. 68--70</td>
-  </tr>
+    <td>Question {ghorgh} <i>when</i>
+    <td><i>TKD</i> 6.4, p. 68--70
   <tr>
-    <td>Question {'ar} <i>how many</i></td>
-    <td><i>TKD</i> 6.4, p. 68--70</td>
-  </tr>
+    <td>Question {'ar} <i>how many</i>
+    <td><i>TKD</i> 6.4, p. 68--70
   <tr>
-    <td>Question {qatlh} <i>why</i></td>
-    <td><i>TKD</i> 6.4, p. 68--70</td>
-  </tr>
+    <td>Question {qatlh} <i>why</i>
+    <td><i>TKD</i> 6.4, p. 68--70
 </table>
 
 
@@ -395,59 +333,49 @@ end of these guidelines for the beginner's vocabulary.
 <table class="noborder">
   <tbody>
     <tr>
-      <td>1.</td>
-      <td>Instructions</td>
-      <td>Fill in the blank.</td>
-    </tr>
+      <td>1.
+      <td>Instructions
+      <td>Fill in the blank.
     <tr>
-      <td></td>
-      <td>Question</td>
-      <td>How many enemies do you see?</td>
-    </tr>
+      <td>
+      <td>Question
+      <td>How many enemies do you see?
     <tr>
-      <td></td>
-      <td></td>
-      <td>{jagh _____ Dalegh}</td>
-    </tr>
+      <td>
+      <td>
+      <td>{jagh _____ Dalegh}
     <tr>
-      <td></td>
-      <td>Answer</td>
-      <td>{'ar}</td>
-    </tr>
+      <td>
+      <td>Answer
+      <td>{'ar}
   </tbody>
   <tbody>
     <tr>
-      <td>2. </td>
-      <td>Instructions</td>
-      <td>Translate the following sentence:</td>
-    </tr>
+      <td>2.
+      <td>Instructions
+      <td>Translate the following sentence:
     <tr>
-      <td></td>
-      <td>Question</td>
-      <td>This door is shut.</td>
-    </tr>
+      <td>
+      <td>Question
+      <td>This door is shut.
     <tr>
-      <td></td>
-      <td>Answer</td>
-      <td>{SoQ lojmItvam}</td>
-    </tr>
+      <td>
+      <td>Answer
+      <td>{SoQ lojmItvam}
   </tbody>
   <tbody>
     <tr>
-      <td>3. </td>
-      <td>Instructions</td>
-      <td></td>
-    </tr>
+      <td>3.
+      <td>Instructions
+      <td>
     <tr>
-      <td></td>
-      <td>Question</td>
-      <td>Identify the parts of speech in Klingon.</td>
-    </tr>
+      <td>
+      <td>Question
+      <td>Identify the parts of speech in Klingon.
     <tr>
-      <td></td>
-      <td>Answer</td>
-      <td>Nouns, verbs, and everything else. </td>
-    </tr>
+      <td>
+      <td>Answer
+      <td>Nouns, verbs, and everything else.
   </tbody>
 </table>
 
@@ -465,209 +393,159 @@ vocabulary found in <i>TKD</i> (2nd printing).
 
 <table>
   <tr>
-    <th>Topic</th>
-    <th>Source</th>
-  </tr>
+    <th>Topic
+    <th>Source
   <tr>
-    <td>Compound nouns</td>
-    <td><i>TKD</i> 3.2.1, p. 19</td>
-  </tr>
+    <td>Compound nouns
+    <td><i>TKD</i> 3.2.1, p. 19
   <tr>
-    <td>VS9 {-wI'} <i>thing/one which is/does</i></td>
+    <td>VS9 {-wI'} <i>thing/one which is/does</i>
     <td><i>TKD</i> 3.2.2, p. 19,
-      <br><i>TKD</i> 4.2.9, p. 44</td>
-  </tr>
+      <br><i>TKD</i> 4.2.9, p. 44
   <tr>
-    <td>NS2 {-Du'} <i>body part plural</i></td>
-    <td><i>TKD</i> 3.3.2, p. 23</td>
-  </tr>
+    <td>NS2 {-Du'} <i>body part plural</i>
+    <td><i>TKD</i> 3.3.2, p. 23
   <tr>
-    <td>NS2 {-mey} <i>general plural</i></td>
-    <td><i>TKD</i> 3.3.2, p. 23</td>
-  </tr>
+    <td>NS2 {-mey} <i>general plural</i>
+    <td><i>TKD</i> 3.3.2, p. 23
   <tr>
-    <td>NS2 {-pu'} <i>language-user plural</i></td>
-    <td><i>TKD</i> 3.3.2, p. 23</td>
-  </tr>
+    <td>NS2 {-pu'} <i>language-user plural</i>
+    <td><i>TKD</i> 3.3.2, p. 23
   <tr>
-    <td>Inherent plurals</td>
-    <td><i>TKD</i> 3.3.2, p. 23--24</td>
-  </tr>
+    <td>Inherent plurals
+    <td><i>TKD</i> 3.3.2, p. 23--24
   <tr>
-    <td>NS5 {-vaD} <i>beneficiary</i></td>
+    <td>NS5 {-vaD} <i>beneficiary</i>
     <td><i>TKD</i> 3.3.5, p. 28,
-      <br><i>TKD</i> 6.8 p. 180 (addendum)</td>
-  </tr>
+      <br><i>TKD</i> 6.8 p. 180 (addendum)
   <tr>
-    <td>N1-N2 genitives</td>
-    <td><i>TKD</i> 3.4, p. 30</td>
-  </tr>
+    <td>N1-N2 genitives
+    <td><i>TKD</i> 3.4, p. 30
   <tr>
-    <td>Verb prefix {bo-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {bo-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Verb prefix {che-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {che-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Verb prefix {DI-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {DI-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Verb prefix {Du-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {Du-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Verb prefix {ju-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {ju-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Verb prefix {lI-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {lI-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Verb prefix {lu-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {lu-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Verb prefix {nI-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {nI-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Verb prefix {nu-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {nu-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Verb prefix {pI-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {pI-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Verb prefix {re-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {re-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Verb prefix {Sa-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {Sa-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Verb prefix {Su-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {Su-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Verb prefix {tu-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {tu-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Verb prefix {wI-}</td>
-    <td><i>TKD</i> 4.1.1, p. 32--34</td>
-  </tr>
+    <td>Verb prefix {wI-}
+    <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>Imperative verb prefix {gho-}</td>
-    <td><i>TKD</i> 4.1.2, p. 34--35</td>
-  </tr>
+    <td>Imperative verb prefix {gho-}
+    <td><i>TKD</i> 4.1.2, p. 34--35
   <tr>
-    <td>Imperative verb prefix {HI-}</td>
-    <td><i>TKD</i> 4.1.2, p. 34--35</td>
-  </tr>
+    <td>Imperative verb prefix {HI-}
+    <td><i>TKD</i> 4.1.2, p. 34--35
   <tr>
-    <td>Imperative verb prefix {pe-}</td>
-    <td><i>TKD</i> 4.1.2, p. 34--35</td>
-  </tr>
+    <td>Imperative verb prefix {pe-}
+    <td><i>TKD</i> 4.1.2, p. 34--35
   <tr>
-    <td>Imperative verb prefix {tI-}</td>
-    <td><i>TKD</i> 4.1.2, p. 34--35</td>
-  </tr>
+    <td>Imperative verb prefix {tI-}
+    <td><i>TKD</i> 4.1.2, p. 34--35
   <tr>
-    <td>Imperative verb prefix {yI-}</td>
-    <td><i>TKD</i> 4.1.2, p. 34--35</td>
-  </tr>
+    <td>Imperative verb prefix {yI-}
+    <td><i>TKD</i> 4.1.2, p. 34--35
   <tr>
-    <td>VS5 {-lu'} <i>indefinite subject</i></td>
-    <td><i>TKD</i> 4.2.5, p. 38--39</td>
-  </tr>
+    <td>VS5 {-lu'} <i>indefinite subject</i>
+    <td><i>TKD</i> 4.2.5, p. 38--39
   <tr>
-    <td>VS7 {-ta'} <i>accomplished</i></td>
-    <td><i>TKD</i> 4.2.7, p. 41--42</td>
-  </tr>
+    <td>VS7 {-ta'} <i>accomplished</i>
+    <td><i>TKD</i> 4.2.7, p. 41--42
   <tr>
-    <td>VS7 {-taH} <i>continuous</i></td>
-    <td><i>TKD</i> 4.2.7, p. 42 </td>
-  </tr>
+    <td>VS7 {-taH} <i>continuous</i>
+    <td><i>TKD</i> 4.2.7, p. 42
   <tr>
-    <td>VS7 {-lI'} <i>in progress</i></td>
-    <td><i>TKD</i> 4.2.7, p. 42--43</td>
-  </tr>
+    <td>VS7 {-lI'} <i>in progress</i>
+    <td><i>TKD</i> 4.2.7, p. 42--43
   <tr>
-    <td>VS7 {-pu'} <i>perfective</i></td>
-    <td><i>TKD</i> 4.2.7, p.41</td>
-  </tr>
+    <td>VS7 {-pu'} <i>perfective</i>
+    <td><i>TKD</i> 4.2.7, p.41
   <tr>
-    <td>VS9 {-mo'} <i>due to/because</i></td>
-    <td><i>TKD</i> 4.2.9, p. 175 (addendum)</td>
-  </tr>
+    <td>VS9 {-mo'} <i>due to/because</i>
+    <td><i>TKD</i> 4.2.9, p. 175 (addendum)
   <tr>
-    <td>VS9 {-jaj} <i>may</i></td>
-    <td><i>TKD</i> 4.2.9, p. 175--176 (addendum)</td>
-  </tr>
+    <td>VS9 {-jaj} <i>may</i>
+    <td><i>TKD</i> 4.2.9, p. 175--176 (addendum)
   <tr>
-    <td>VS9 {-ghach} <i>nominalizer</i></td>
-    <td><i>TKD</i> 4.2.9, p. 176 (addendum)</td>
-  </tr>
+    <td>VS9 {-ghach} <i>nominalizer</i>
+    <td><i>TKD</i> 4.2.9, p. 176 (addendum)
   <tr>
-    <td>VS9 {-chugh} <i>if</i></td>
-    <td><i>TKD</i> 4.2.9, p. 43</td>
-  </tr>
+    <td>VS9 {-chugh} <i>if</i>
+    <td><i>TKD</i> 4.2.9, p. 43
   <tr>
-    <td>VS9 {-DI'} <i>as soon as/when</i></td>
-    <td><i>TKD</i> 4.2.9, p. 43</td>
-  </tr>
+    <td>VS9 {-DI'} <i>as soon as/when</i>
+    <td><i>TKD</i> 4.2.9, p. 43
   <tr>
-    <td>VS9 {-pa'} <i>before</i></td>
-    <td><i>TKD</i> 4.2.9, p. 43</td>
-  </tr>
+    <td>VS9 {-pa'} <i>before</i>
+    <td><i>TKD</i> 4.2.9, p. 43
   <tr>
-    <td>VS9 {-vIS} <i>while</i></td>
-    <td><i>TKD</i> 4.2.9, p. 43--44</td>
-  </tr>
+    <td>VS9 {-vIS} <i>while</i>
+    <td><i>TKD</i> 4.2.9, p. 43--44
   <tr>
-    <td>VS9 {-bogh} <i>relative</i> <i>clause</i></td>
+    <td>VS9 {-bogh} <i>relative</i> <i>clause</i>
     <td><i>TKD</i> 4.2.9, p. 44,
-      <br><i>TKD</i> 6.2.3, p. 63--64</td>
-  </tr>
+      <br><i>TKD</i> 6.2.3, p. 63--64
   <tr>
-    <td>VS9 {-meH} <i>purpose clause</i></td>
+    <td>VS9 {-meH} <i>purpose clause</i>
     <td><i>TKD</i> 4.2.9, p. 44,
-      <br><i>TKD</i> 6.2.4, p. 64--65</td>
-  </tr>
+      <br><i>TKD</i> 6.2.4, p. 64--65
   <tr>
-    <td>Rover {-Qo'} <i>won't</i></td>
-    <td><i>TKD</i> 4.3, p. 47</td>
-  </tr>
+    <td>Rover {-Qo'} <i>won't</i>
+    <td><i>TKD</i> 4.3, p. 47
   <tr>
-    <td>Rover {-Ha'} <i>undo</i></td>
-    <td><i>TKD</i> 4.3, p. 47--48</td>
-  </tr>
+    <td>Rover {-Ha'} <i>undo</i>
+    <td><i>TKD</i> 4.3, p. 47--48
   <tr>
-    <td>Adjectives</td>
-    <td><i>TKD</i> 4.4, p. 49--50</td>
-  </tr>
+    <td>Adjectives
+    <td><i>TKD</i> 4.4, p. 49--50
   <tr>
-    <td>Numbers</td>
-    <td><i>TKD</i> 5.2, p. 52--55</td>
-  </tr>
+    <td>Numbers
+    <td><i>TKD</i> 5.2, p. 52--55
   <tr>
-    <td>Adverbs</td>
-    <td><i>TKD</i> 5.4, p. 55--57, 177--178 (addendum)</td>
-  </tr>
+    <td>Adverbs
+    <td><i>TKD</i> 5.4, p. 55--57, 177--178 (addendum)
   <tr>
-    <td>Sentences as object</td>
-    <td><i>TKD</i> 6.2.5, p. 65--67</td>
-  </tr>
+    <td>Sentences as object
+    <td><i>TKD</i> 6.2.5, p. 65--67
   <tr>
-    <td>Pronouns as "to be"</td>
-    <td><i>TKD</i> 6.3, p. 67--68</td>
-  </tr>
+    <td>Pronouns as "to be"
+    <td><i>TKD</i> 6.3, p. 67--68
 </table>
 
 
@@ -676,61 +554,51 @@ vocabulary found in <i>TKD</i> (2nd printing).
 <table class="noborder">
   <tbody>
     <tr>
-      <td>1.</td>
-      <td>Instructions</td>
-      <td>Fill in the blank.</td>
-    </tr>
+      <td>1.
+      <td>Instructions
+      <td>Fill in the blank.
     <tr>
-      <td></td>
-      <td>Question</td>
-      <td>May you die before your children do.</td>
-    </tr>
+      <td>
+      <td>Question
+      <td>May you die before your children do.
     <tr>
-      <td></td>
-      <td></td>
-      <td>{Heghpa' puqpu'lI' __________.}</td>
-    </tr>
+      <td>
+      <td>
+      <td>{Heghpa' puqpu'lI' __________.}
     <tr>
-      <td></td>
-      <td>Answer</td>
-      <td>{bIHeghjaj}</td>
-    </tr>
+      <td>
+      <td>Answer
+      <td>{bIHeghjaj}
   </tbody>
   <tbody>
     <tr>
-      <td>2.</td>
-      <td>Instructions</td>
-      <td>Translate the following sentence.</td>
-    </tr>
+      <td>2.
+      <td>Instructions
+      <td>Translate the following sentence.
     <tr>
-      <td></td>
-      <td>Question</td>
-      <td>{De' lI'bogh boleghpu''a'?}</td>
-    </tr>
+      <td>
+      <td>Question
+      <td>{De' lI'bogh boleghpu''a'?}
     <tr>
-      <td></td>
-      <td>Answer</td>
-      <td>Have you (plural) seen the information that he transmitted?</td>
-    </tr>
+      <td>
+      <td>Answer
+      <td>Have you (plural) seen the information that he transmitted?
   </tbody>
   <tbody>
     <tr>
-      <td>3.</td>
-      <td>Instructions</td>
+      <td>3.
+      <td>Instructions
       <td>Identify the subject and object indicated by the following
-        prefix</td>
-    </tr>
+        prefix
     <tr>
-      <td></td>
-      <td>Question</td>
-      <td>{tu-}</td>
-    </tr>
+      <td>
+      <td>Question
+      <td>{tu-}
     <tr>
-      <td></td>
-      <td>Answer</td>
+      <td>
+      <td>Answer
       <td>Subject: you (plural)
-        <br>Object: me</td>
-    </tr>
+        <br>Object: me
   </tbody>
 </table>
 
@@ -760,56 +628,45 @@ category will be shown.
 <table class="noborder">
   <tbody>
     <tr>
-      <td colspan="2">Grammar and language use post-<i>TKD</i></td>
-    </tr>
+      <td colspan="2">Grammar and language use post-<i>TKD</i>
     <tr>
-      <td>Example:</td>
-      <td>{nargh 'eb} "too late"</td>
-    </tr>
+      <td>Example:
+      <td>{nargh 'eb} "too late"
     <tr>
-      <td>Example:</td>
+      <td>Example:
       <td>NS5 {-'e'} "topic" used to disambiguate the head noun
-        of a relative clause.</td>
-    </tr>
+        of a relative clause.
   </tbody>
   <tbody>
     <tr>
-      <td colspan="2">Little-known grammar rules</td>
-    </tr>
+      <td colspan="2">Little-known grammar rules
     <tr>
-      <td>Example:</td>
+      <td>Example:
       <td>It is culturally taboo to use the VS2 suffix {-vIp} with a
-        first-person subject prefix.</td>
-    </tr>
+        first-person subject prefix.
   </tbody>
   <tbody>
     <tr>
-      <td colspan="2">Regional variation in grammar</td>
-    </tr>
+      <td colspan="2">Regional variation in grammar
     <tr>
-      <td>Example:</td>
+      <td>Example:
       <td>In toasts, the last word is always the verb, except in Sakrej and
-        No'hvadut dialects.</td>
-    </tr>
+        No'hvadut dialects.
   </tbody>
   <tbody>
     <tr>
-      <td colspan="2">Societal variation in vocabulary</td>
-    </tr>
+      <td colspan="2">Societal variation in vocabulary
     <tr>
-      <td>Example:</td>
+      <td>Example:
       <td>{Dargh HIvje'} "teacup" (general) vs. {tu'lum}
-        "teacup" (upper-class only)</td>
-    </tr>
+        "teacup" (upper-class only)
   </tbody>
   <tbody>
     <tr>
-      <td colspan="2">Specialized vocabulary</td>
-    </tr>
+      <td colspan="2">Specialized vocabulary
     <tr>
-      <td>Example:</td>
-      <td>{ghe'naQ nIt} "Grand Opera"</td>
-    </tr>
+      <td>Example:
+      <td>{ghe'naQ nIt} "Grand Opera"
   </tbody>
 </table>
 
@@ -831,56 +688,47 @@ questions are written in Klingon, and you will provide your answers in Klingon.
 <table class="noborder">
   <tbody>
     <tr>
-      <td>1.</td>
-      <td>Instructions</td>
-      <td>Translate the following sentence.</td>
-    </tr>
+      <td>1.
+      <td>Instructions
+      <td>Translate the following sentence.
     <tr>
-      <td></td>
-      <td>Question</td>
-      <td>It's too late for you to spit out the poison.</td>
-    </tr>
+      <td>
+      <td>Question
+      <td>It's too late for you to spit out the poison.
     <tr>
-      <td></td>
-      <td>Answer</td>
-      <td>{nargh tar DatlhISmeH 'eb}</td>
-    </tr>
+      <td>
+      <td>Answer
+      <td>{nargh tar DatlhISmeH 'eb}
   </tbody>
   <tbody>
     <tr>
-      <td>2.</td>
-      <td>Instructions</td>
-      <td></td>
-    </tr>
+      <td>2.
+      <td>Instructions
+      <td>
     <tr>
-      <td></td>
-      <td>Question</td>
-      <td>Explain the difference between {yaS} and {'utlh}.</td>
-    </tr>
+      <td>
+      <td>Question
+      <td>Explain the difference between {yaS} and {'utlh}.
     <tr>
-      <td></td>
-      <td>Answer</td>
+      <td>
+      <td>Answer
       <td>{yaS} "officer" vs. {'utlh} "officer"
-        (emeritus)</td>
-    </tr>
+        (emeritus)
   </tbody>
   <tbody>
     <tr>
-      <td>3.</td>
-      <td>Instructions</td>
+      <td>3.
+      <td>Instructions
       <td>Explain the idiomatic interpretation of the following
-        expression.</td>
-    </tr>
+        expression.
     <tr>
-      <td></td>
-      <td>Question</td>
-      <td>{pe'vIl bI'chu'}</td>
-    </tr>
+      <td>
+      <td>Question
+      <td>{pe'vIl bI'chu'}
     <tr>
-      <td></td>
-      <td>Answer</td>
-      <td>Do something all at once</td>
-    </tr>
+      <td>
+      <td>Answer
+      <td>Do something all at once
   </tbody>
 </table>
 

@@ -168,12 +168,33 @@ optimization."
    Following the example set by GitHub (e.g. in commit messages in the 'Commit'
    view) -- why not also use 'text-decoration: underline;' as the hover style
    of links, but remove 'text-decoration: none;' for the usual style?
-** TODO Optimize page sizes
+** [22%] Optimize page sizes
    https://developers.google.com/speed/docs/best-practices/payload
-*** TODO Enable compression
+*** TODO Enable compression (webserver setting)
 *** TODO Remove unused stylesheets
 *** DONE Minify Javascript
 *** DONE Minify shylesheets
+*** [11%] Make HTML consistent
+**** DONE Remove optional tags: </td>, </th>, </li>, </dt>, </dd>, </tr>
+     CLOSED: [2013-04-10 Wed 21:21]
+**** [0%] Cleanup table design
+     Scout out the currently needed table design and homogenize them.
+***** TODO Remove NBSP layout in tables
+**** TODO Remove old "Feedback Forms"
+     grep 'Feedback Form' to find them
+**** TODO HTML comments should be removed when processing markdown
+     Currently (as evidenced by http://klingonska.lal/klcp.html) HTML style
+     comments <!-- ... --> messes up the output HTML code.
+**** TODO Remove unnecessary quotes around attributes (primarily classes)
+**** TODO In markdown replace "&ndash;" -> "--"
+**** TODO Make styling of links consistent.
+     Names of articles like "Archive of Okrandian Canon" should maybe always be
+     italic? (Regardless of whether they're linked or not.)
+**** TODO "Archive of Okrandian Canon" should be italic where mentioned
+     Fix in:
+     http://klingonska.lal/dict/intro.html
+**** TODO Dates in yyyy-mm-dd form should never be word wrapped
+**** TODO Make sure all HTML is lowercase
 *** TODO Minify HTML
 *** TODO Defer Javascript loading
 *** TODO Optimize images
@@ -1335,9 +1356,11 @@ optimization."
     Each transcript in the http://klingonska.org/canon/ list should have a link
     to the prettified version (as well as to the original text formatted
     transcript).
-*** [62%] Transcripts updating/improvement
+*** [61%] Transcripts updating/improvement
+**** TODO Decipher event card {taH pagh taHbe'} from 2002
+     What's the status of canonicity for this card?
+     https://mail.google.com/mail/u/0/#search/decipher+in%3Atlhingan-hol+card/ed6f9609d33c137
 **** TODO Add words from qepHom'a' 2011
-
      Date: Mon, 14 Nov 2011 21:44:59 +0100
      From: "De'vID jonpIn" <de.vid.jonpin@gmail.com>
      To: KLI <tlhingan-hol@kli.org>
@@ -1408,9 +1431,8 @@ optimization."
 
      https://mail.google.com/mail/u/0/?shva=1#search/ghungHa'/133a3d43a898e2e4
 
-
 **** TODO Add scans of Klingon trading cards                           :SCAN:
-     Decpiher Inc + SkyBox cards should be scanned. Links should then be added
+     Decipher Inc + SkyBox cards should be scanned. Links should then be added
      from the appropriate HTML files in the canon archive.
 
          canon/1993-sbx-99.html
@@ -2934,6 +2956,10 @@ optimization."
 
     Cheers,
     Philip
+** [0%] "A Quick Reference to Subjects and Objects in Klingon"
+*** TODO Example sentences with {-chuq} and {-'egh}
+*** TODO Add info on indirect objects with {-vaD}
+*** TODO Add info on the prefix trick
 ** [0%] "A Quick Reference to Colors in Klingon"
 *** TODO Add {rItlhmey} as an approximate word for “color”
    From: "qeSan \(KSFCN\)" <qeSan@ksfcn.com>

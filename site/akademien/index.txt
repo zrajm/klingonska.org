@@ -8,35 +8,30 @@ Om <i>Klingonska Akademien</i>
 
 <dl class="navigation">
 
-  <dt><a href="presentation.html">En presentation av de involverade</a></dt>
+  <dt><a href="presentation.html">En presentation av de involverade</a>
   <dd>Här kan du läsa om oss som ligger bakom <i>Klingonska Akademien</i> och
     vilka vi är (iallafall de av oss som orkat skriva en
     presentation). <small>[Ändrad 2007-07-15]</small>
-  </dd>
 
   <dt><a href="flygblad1.html">Flygblad 1</a>,
     <a href="flygblad2.html">flygblad 2</a>
-    och <a href="flygblad3.html">flygblad 3</a></dt>
+    och <a href="flygblad3.html">flygblad 3</a>
   <dd>Hittills har vi spridit ett fåtal flygblad, men här finns iaf texten till
     dem. <small>[Ändrad 2007-07-15]</small>
-  </dd>
 
-  <dt><a href="qephom.html">{'upSala' qepHom nI' wa'DIch}</a></dt>
+  <dt><a href="qephom.html">{'upSala' qepHom nI' wa'DIch}</a>
   <dd>Läs om hur vårt första icke-virtuella möte avlöpte. Kommentera och kom
     med förslag inför framtida möten! <small>[Ändrad 2007-07-15]</small>
-  </dd>
 
-  <dt><a href="photos/">Photos from {qep'a' SochDIch}</a></dt>
+  <dt><a href="photos/">Photos from {qep'a' SochDIch}</a>
   <dd>Read how {qa'naQ} and {maHvatlh}, as self-appointed representatives
     of <i>Klingonska Akademiens</i> crossed the Atlantic, and about their
     adventures at the Klingon Language Institute's yearly {qep'a'} in 2000, in
     Philadelphia, U.S. <small>[Updated 2007-07-15]</small>
-  </dd>
 
-  <dt><a href="logo/">Klingonska Akademien's Logo</a></dt>
+  <dt><a href="logo/">Klingonska Akademien's Logo</a>
   <dd>The story behind the logo of Klingonska Akademien, complete with
     pictures. <small>[Updated 2009-09-01]</small>
-  </dd>
 </dl>
 
 [[eof]]

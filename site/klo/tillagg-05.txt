@@ -14,17 +14,17 @@ flytande översättning. Tänk framför allt på följande:
 <ul>
   <li>Lämna bara in ren text. (Om du använder en ordbehandlare såsom t.ex.
     <i>Word</i>, spara som "Text" eller "Enbart text", eller klipp ut texten
-    och klistra in den direkt i ditt epost-program.)</li>
+    och klistra in den direkt i ditt epost-program.)
   <li>Separera stycken, rubriker, exempelfraser, etc. ifrån varandra med en
-    blankrad (inte indrag).</li>
+    blankrad (inte indrag).
   <li>Omge {text i fetstil} med klammrar/krullparanteser
-    (<code>&#123;</code>...<code>&#125;</code>).</li>
+    (<code>&#123;</code>...<code>&#125;</code>).
   <li>Omge <I>text i kursiv stil</I> med mindre/större än tecken
-    (<code>&lt;</code>...<code>&gt;</code>).</li>
+    (<code>&lt;</code>...<code>&gt;</code>).
   <li>Markera tveksamheter i översättningen med tre frågetecken
     (<code>???</code>) och lägg därefter till beskrivande kommentar inom
     hakparantes (<code>[</code>...<code>]</code>) med början på raden under.
-    (Det gör det lätt för korrläsaren att vara extra uppmärksam.)</li>
+    (Det gör det lätt för korrläsaren att vara extra uppmärksam.)
 </ul>
 
 Allra sist i innehållsförteckningen för <I>Projekt KLO</I> finns en

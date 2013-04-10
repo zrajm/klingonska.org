@@ -40,10 +40,8 @@ my $PAGE_HEAD = <<"EOF";
         <a href="http://klingonska.org/dict/">Klingon Pocket Dictionary</a> &gt;
         <a href="http://klingonska.org/dict/suffix.html">Suffix Guide</a>
       </nav>
-    </li>
     <li>
       Updated <time pubdate datetime="2012-11-10T00:50">November 10, 2012</time>
-    </li>
   </ul>
   <!-- end:status -->
   <div>
@@ -53,10 +51,8 @@ my $PAGE_HEAD = <<"EOF";
           <span class=crop>
             <img height=200 width=200 src="../pic/ka-logo.svg" alt="Klingonska Akademien">
           </span>
-        </td>
         <td>
           <h1>Klingonska<span id=logospace>&nbsp;</span>Akademien</h1>
-        </td>
       </table>
     </a>
     <nav class=pagetabs role=navigation>
@@ -104,7 +100,7 @@ EOF
 {
     blockquote      => sub { "<blockquote>" . shift() . "</blockquote>\n\n" },
     bulletlist      => sub { "<ul>" . shift() . "</ul>\n\n" },
-    bulletlist_item => sub { "<li>" . shift() . "</li>\n" },
+    bulletlist_item => sub { "<li>" . shift() . "\n" },
     code            => sub { "<code>" . shift() . "</code>" },
     doublequote     => sub { "&ldquo;" . shift() . "&rdquo;" },
     emdash          => sub { "&mdash;" },
@@ -120,7 +116,7 @@ EOF
     hr              => sub { "<hr>\n\n" },
     html            => sub { shift() . "\n\n" },
     numberlist      => sub { "<ol>" . shift() . "</ol>\n\n" },
-    numberlist_item => sub { "<li>" . shift() . "</li>\n\n" },
+    numberlist_item => sub { "<li>" . shift() . "\n\n" },
     paragraph       => sub { wrap("<p>" . shift() . "</p>", $WIDTH) . "\n\n" },
     plain           => sub { use HTML::Entities; encode_entities(shift(), "<>&") },
     root            => sub { $PAGE_HEAD . shift() . $PAGE_FOOT },
@@ -142,23 +138,20 @@ EOF
     suffix_guide    => sub { nl('<table class="suffixguide noborder">', shift() . '</table>') },
     sg_section1 => sub { indent(nl(
         '<tr class=head1>',
-        '  <td colspan=2>' . shift() . '</td>',
-        '</tr>',
+        '  <td colspan=2>' . shift(),
     ), '  ') },
     sg_section2 => sub { indent(nl(
         '<tr class=head2>',
-        indent(shift() . '</td>', '  '),
-        '</tr>',
+        indent(shift(), '  '),
     ), '  ') },
     sg_section3 => sub { indent(nl(
         '<tr class=head3>',
-        shift() . '</td>',
-        '</tr>',
+        shift(),
     ), '  ') },
     sg_head1 => sub { '<h3>' . shift() . '</h3>' },
     sg_head2 => sub { shift() },
     sg_head3 => sub { indent(
-        "<td></td>\n" .
+        "<td>\n" .
         wrap('<td><h3>' . shift() . '</h3>', $WIDTH-2),
         '  ',
     ) },
@@ -168,7 +161,7 @@ EOF
         sg_head1_type      => sub { '<span class=type>' . shift() . '.</span>' },
         sg_head1_text      => sub { shift() . nl() },
         sg_head1_reference => sub { '    ' . shift() },
-        sg_head2_klingon   => sub { nl('<td valign=top>' . shift() . '</td>') },
+        sg_head2_klingon   => sub { nl('<td valign=top>' . shift()) },
         sg_head2_english   => sub { '<td>' . shift() },
         sg_head2_reference => sub { ' ' . shift() },
 }

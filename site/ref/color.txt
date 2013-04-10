@@ -24,10 +24,9 @@ phrase {chay' nguv} <i>How is it tinted?</i> <small>[KGT p.82]</small>
 
 <table>
   <tr>
-    <td>{nguv}</td>
-    <td><i>be dyed, be stained, be tinted</i> (v)</td>
-    <td><small>[KGT]</small></td>
-  </tr>
+    <td>{nguv}
+    <td><i>be dyed, be stained, be tinted</i> (v)
+    <td><small>[KGT]</small>
 </table>
 
 There are only four distinct words for different colors (including
@@ -38,40 +37,33 @@ objects, other than hue alone.
 
 <table class="sortable">
   <tr>
-    <th>Klingon</th>
-    <th>English</th>
-    <th>Source</th>
-  </tr>
+    <th>Klingon
+    <th>English
+    <th>Source
   <tr>
-    <td sorttable_customkey="dnp">{Doq}</td>
-    <td><i>be orange, be red</i> (v)</td>
-    <td><small>[TKD]</small></td>
-  </tr>
+    <td sorttable_customkey="dnp">{Doq}
+    <td><i>be orange, be red</i> (v)
+    <td><small>[TKD]</small>
   <tr>
-    <td sorttable_customkey="svd">{SuD}</td>
-    <td><i>be green, be blue, be yellow</i> (v)</td>
-    <td><small>[TKD]</small></td>
-  </tr>
+    <td sorttable_customkey="svd">{SuD}
+    <td><i>be green, be blue, be yellow</i> (v)
+    <td><small>[TKD]</small>
   <tr>
-    <td sorttable_customkey="chs">{chIS}</td>
-    <td><i>be white</i> (v)</td>
-    <td><small>[TKD]</small></td>
-  </tr>
+    <td sorttable_customkey="chs">{chIS}
+    <td><i>be white</i> (v)
+    <td><small>[TKD]</small>
   <tr>
-    <td sorttable_customkey="phi">{qIj}</td>
-    <td><i>be black</i> (v)</td>
-    <td><small>[TKD]</small></td>
-  </tr>
+    <td sorttable_customkey="phi">{qIj}
+    <td><i>be black</i> (v)
+    <td><small>[TKD]</small>
   <tr>
-    <td sorttable_customkey="gvrf">{Hurgh}</td>
-    <td><i>be dark</i> (v)</td>
-    <td><small>[TKD]</small></td>
-  </tr>
+    <td sorttable_customkey="gvrf">{Hurgh}
+    <td><i>be dark</i> (v)
+    <td><small>[TKD]</small>
   <tr>
-    <td sorttable_customkey="xnw">{wov}</td>
-    <td><i>be light, be bright</i> (v)</td>
-    <td><small>[TKD]</small></td>
-  </tr>
+    <td sorttable_customkey="xnw">{wov}
+    <td><i>be light, be bright</i> (v)
+    <td><small>[TKD]</small>
 </table>
 
 One way of being more specific is to use the {-qu'} <i>emphatic</i> suffix,
@@ -82,18 +74,15 @@ lengthier methods of describing colors.
 <table>
   <tr>
     <td colspan="3" align="center"><font size=4>Expressing colors with the
-        {-qu'} <i>emphatic</i> suffix</font></td>
-  </tr>
+        {-qu'} <i>emphatic</i> suffix</font>
   <tr>
-    <td>{Doqqu'}</td>
-    <td><i>“a color more red than orange”</i> (v)</td>
-    <td><small>[KGT p.82]</small></td>
-  </tr>
+    <td>{Doqqu'}
+    <td><i>“a color more red than orange”</i> (v)
+    <td><small>[KGT p.82]</small>
   <tr>
-    <td>{SuDqu'}</td>
-    <td><i>“would probably be described as ‘green’&thinsp;”</i> (v)</td>
-    <td><small>[KGT p.82]</small></td>
-  </tr>
+    <td>{SuDqu'}
+    <td><i>“would probably be described as ‘green’&thinsp;”</i> (v)
+    <td><small>[KGT p.82]</small>
 </table>
 
 One may also use the words for <i>light</i> and <i>dark</i> to describe colors
@@ -106,67 +95,55 @@ light</i> would be used.
   <tr>
     <td colspan="3" align="center"><font size="4">Expressing colors with
         {wov} <i>be light, bright</i>
-        and {Hurgh} <i>be dark</i></font></td>
-  </tr>
+        and {Hurgh} <i>be dark</i></font>
   <tr>
-    <td rowspan="2">{SuD 'ej wov} or {SuD 'ach wov}</td>
-    <td><i>“a way to refer to a yellowish tinge”</i></td>
-    <td><small>[KGT p.82]</small></td>
-  </tr>
+    <td rowspan="2">{SuD 'ej wov} or {SuD 'ach wov}
+    <td><i>“a way to refer to a yellowish tinge”</i>
+    <td><small>[KGT p.82]</small>
   <tr>
-    <td><i>light blue</i></td>
-    <td><small>[Eurotalk]</small></td>
-  </tr>
+    <td><i>light blue</i>
+    <td><small>[Eurotalk]</small>
   <tr>
-    <td>{Doq 'ej wovbe'}</td>
-    <td><i>brown</i></td>
-    <td><small>[HQ8:1 p.7; Eurotalk]</small></td>
-  </tr>
+    <td>{Doq 'ej wovbe'}
+    <td><i>brown</i>
+    <td><small>[HQ8:1 p.7; Eurotalk]</small>
   <tr>
-    <td>{Doq 'ej wov} or {Doq 'ach wov}</td>
-    <td><i>light red or orange color</i></td>
-    <td><small>NOT CANON</small></td>
-  </tr>
+    <td>{Doq 'ej wov} or {Doq 'ach wov}
+    <td><i>light red or orange color</i>
+    <td><small>NOT CANON</small>
   <tr>
-    <td>{SuD 'ej Hurgh} or {SuD 'ach Hurgh}</td>
-    <td><i>dark blue</i></td>
-    <td><small>Eurotalk</small></td>
-  </tr>
+    <td>{SuD 'ej Hurgh} or {SuD 'ach Hurgh}
+    <td><i>dark blue</i>
+    <td><small>Eurotalk</small>
   <tr>
-    <td>{Doq 'ej Hurgh} or {Doq 'ach Hurgh}</td>
-    <td><i>brown or brownish color</i></td>
-    <td><small>NOT CANON</small></td>
-  </tr>
+    <td>{Doq 'ej Hurgh} or {Doq 'ach Hurgh}
+    <td><i>brown or brownish color</i>
+    <td><small>NOT CANON</small>
   <tr>
     <td>{Doqqu' 'ej wov}
-      or {Doqqu' 'ach wov}</td>
-    <td><i>pink</i></td>
-    <td><small>Eurotalk</small></td>
-  </tr>
+      or {Doqqu' 'ach wov}
+    <td><i>pink</i>
+    <td><small>Eurotalk</small>
   <tr>
     <td>{SuDqu' 'ej wov}
-      or {SuDqu' 'ach wov}</td>
-    <td><i>light green color</i></td>
-    <td><small>NOT CANON</small></td>
-  </tr>
+      or {SuDqu' 'ach wov}
+    <td><i>light green color</i>
+    <td><small>NOT CANON</small>
   <tr>
     <td>{SuDqu' 'ej Hurgh}
-      or {SuDqu' 'ach Hurgh}</td>
-    <td><i>dark green color</i></td>
-    <td><small>NOT CANON</small></td>
-  </tr>
+      or {SuDqu' 'ach Hurgh}
+    <td><i>dark green color</i>
+    <td><small>NOT CANON</small>
   <tr>
     <td>{Doqqu' 'ej Hurgh}
-      or {Doqqu' 'ach Hurgh}</td>
-    <td><i>dark red color</i></td>
-    <td><small>NOT CANON</small></td>
-  </tr>
+      or {Doqqu' 'ach Hurgh}
+    <td><i>dark red color</i>
+    <td><small>NOT CANON</small>
   <tr>
     <td>{qIj 'ej wov}
-      or {qIj 'ach wov}</td>
-    <td><i>gray</i></td>
-    <td><small>Eurotalk</small></td>
-  </tr>
+      or {qIj 'ach wov}
+    <td><i>gray</i>
+    <td><small>Eurotalk</small>
 </table>
 
 The color violet, or purple, is not actually a Klingon color. <i>Klingon for
@@ -183,12 +160,10 @@ Earth-centric view (including names of several Terran countries for example).
     “purple”. <small>[KGT p.82]</small></caption>
   <tr>
     <td colspan="3" align="CENTER"><font size="4">A non-Klingon color</font>
-  </tr>
   <tr>
-    <td>{Doq 'ej SuD}</td>
-    <td><i>purple</i></td>
-    <td><small>Eurotalk</small></td>
-  </tr>
+    <td>{Doq 'ej SuD}
+    <td><i>purple</i>
+    <td><small>Eurotalk</small>
 </table>
 
 Generally, when one needs to be more specific, the item in question is compared
@@ -197,22 +172,17 @@ expressions given to us in canon.
 
 <table>
   <tr>
-    <th colspan="3">Expressing colors with similies</th>
-  </tr>
+    <th colspan="3">Expressing colors with similies
   <tr>
-    <td>{Doq 'ej beqpuj rur}</td>
+    <td>{Doq 'ej beqpuj rur}
     <td><i>be {Doq} and resemble bekpuj</i>
       <br>(a common mineral that is bright orange)
-    </td>
-    <td><small>[KGT p.82]</small></td>
-  </tr>
+    <td><small>[KGT p.82]</small>
   <tr>
-    <td>{Doq 'ej Qaj wuS rur}</td>
+    <td>{Doq 'ej Qaj wuS rur}
     <td><i>be {Doq} and resemble kradge lips</i>
       <br>(lips of the kradge are a particular shade of brown)
-    </td>
-    <td><small>[HQ8:1 p.7]</small></td>
-  </tr>
+    <td><small>[HQ8:1 p.7]</small>
 </table>
 
 If you want to know more about how colors are expressed in different languages,

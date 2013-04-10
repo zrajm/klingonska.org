@@ -23,8 +23,7 @@ my $PAGE_HEAD = <<"EOF";
 <p>
   <table align=center bgcolor="#BBBBBB" cellpadding=5>
     <tr>
-      <td align=center><b>The last pages of text from the book.</b></td>
-    </tr>
+      <td align=center><b>The last pages of text from the book.</b>
   </table> 
 </center>
 EOF
@@ -35,18 +34,15 @@ my $PAGE_FOOT = <<"EOF";
 <!-- ==================== Copyright ==================== -->
 <P><CENTER><TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0>
   <TR>
-    <TD VALIGN=BOTTOM COLSPAN=3><HR NOSHADE></TD>
-  </TR>
+    <TD VALIGN=BOTTOM COLSPAN=3><HR NOSHADE>
   <TR>
-    <TD>         </TD>
+    <TD>         
     <TD ALIGN=CENTER><B>©1998-2002, Copyright 
       <A HREF="mailto:zrajm\@klingonska.org">Zrajm C Akfohg</A>, 
-      <A HREF="http://klingonska.org/">Klingonska Akademien</A>, Uppsala.</B></TD>
-    <TD>         </TD>
-  </TR>
+      <A HREF="http://klingonska.org/">Klingonska Akademien</A>, Uppsala.</B>
+    <TD>         
   <TR>
-    <TD VALIGN=TOP COLSPAN=3><HR NOSHADE></TD>
-  </TR>
+    <TD VALIGN=TOP COLSPAN=3><HR NOSHADE>
 </TABLE>
 
 
@@ -61,22 +57,19 @@ my $PAGE_FOOT = <<"EOF";
 </BODY>
 </HTML>
 
-</TD>
-
 <!-- ==================== Navigation flaps ==================== -->
 <TD VALIGN=TOP><TABLE CELLSPACING=2 CELLPADDING=0>
   <TR><TD><A HREF="./"               ><IMG
-    SRC="pic/about.gif"   WIDTH=21 HEIGHT=65  ALT="About"            BORDER=2></A></TD>
-  </TR><TR><TD><A HREF="intro.html"  ><IMG
-    SRC="pic/intro.gif"   WIDTH=21 HEIGHT=124 ALT="Introduction"     BORDER=2></A></TD>
-  </TR><TR><TD><A HREF="lexicon.cgi"><IMG
-    SRC="pic/lexicon.gif" WIDTH=21 HEIGHT=84  ALT="Lexicon"          BORDER=2></A></TD>
-  </TR><TR><TD                       ><IMG
-    SRC="pic/suffix.gif"  WIDTH=21 HEIGHT=128 ALT="Suffix Guide"     BORDER=0></TD>
-  </TR><TR><TD><A HREF="tables.html" ><IMG
-    SRC="pic/tables.gif"  WIDTH=21 HEIGHT=180 ALT="Reference Tables" BORDER=2></A></TD>
-  </TR>
-</TABLE></TD></TR></TABLE>
+    SRC="pic/about.gif"   WIDTH=21 HEIGHT=65  ALT="About"            BORDER=2></A>
+  <TR><TD><A HREF="intro.html"  ><IMG
+    SRC="pic/intro.gif"   WIDTH=21 HEIGHT=124 ALT="Introduction"     BORDER=2></A>
+  <TR><TD><A HREF="lexicon.cgi"><IMG
+    SRC="pic/lexicon.gif" WIDTH=21 HEIGHT=84  ALT="Lexicon"          BORDER=2></A>
+  <TR><TD                       ><IMG
+    SRC="pic/suffix.gif"  WIDTH=21 HEIGHT=128 ALT="Suffix Guide"     BORDER=0>
+  <TR><TD><A HREF="tables.html" ><IMG
+    SRC="pic/tables.gif"  WIDTH=21 HEIGHT=180 ALT="Reference Tables" BORDER=2></A>
+</TABLE></TABLE>
 </BODY></HTML>
 EOF
 
@@ -89,7 +82,7 @@ EOF
 {
     blockquote      => sub { "<blockquote>" . shift() . "</blockquote>\n\n" },
     bulletlist      => sub { "<ul>" . shift() . "</ul>\n\n" },
-    bulletlist_item => sub { "<li>" . shift() . "</li>\n" },
+    bulletlist_item => sub { "<li>" . shift() . "\n" },
     code            => sub { "<code>" . shift() . "</code>" },
     doublequote     => sub { "&ldquo;" . shift() . "&rdquo;" },
     emdash          => sub { "&mdash;" },
@@ -104,7 +97,7 @@ EOF
     hr              => sub { "<hr>\n\n" },
     html            => sub { shift() . "\n\n" },
     numberlist      => sub { "<ol>" . shift() . "</ol>\n\n" },
-    numberlist_item => sub { "<li>" . shift() . "</li>\n\n" },
+    numberlist_item => sub { "<li>" . shift() . "\n\n" },
     paragraph       => sub { wrap("<p>" . shift() . "</p>", $WIDTH) . "\n\n" },
     plain           => sub { use HTML::Entities; encode_entities(shift(), "<>&") },
     root            => sub { $PAGE_HEAD . shift() . $PAGE_FOOT },
@@ -129,8 +122,7 @@ EOF
         '<table border=0 cellpadding=0 cellspacing=0 width=75% align=center>',
         shift(),
         '  <tr>',
-        '    <td colspan=6 height=2 bgcolor=black><img src="pic/spacer.gif" width=2 height=2></td>',
-        '  </tr>',
+        '    <td colspan=6 height=2 bgcolor=black><img src="pic/spacer.gif" width=2 height=2>',
         '</table> ',
     ) },
     #sg_div1         => sub { '<hr>' . shift() . '<hr>' },
@@ -138,22 +130,19 @@ EOF
     #sg_div2 => sub { shift() },
     sg_head1 => sub { nl(
         '  <tr>',
-        '    <td colspan=6 height=2 bgcolor=black><img src="pic/spacer.gif" width=2 height=2></td>',
-        '  </tr>',
+        '    <td colspan=6 height=2 bgcolor=black><img src="pic/spacer.gif" width=2 height=2>',
         '  <tr valign=top>',
-        '    <td width=2 bgcolor=black><img src="pic/spacer.gif" width=2 height=2></td>',
+        '    <td width=2 bgcolor=black><img src="pic/spacer.gif" width=2 height=2>',
         shift(),
-        '    <td width=2 bgcolor=black><img src="pic/spacer.gif" width=2 height=2></td>',
-        '  </tr>',
+        '    <td width=2 bgcolor=black><img src="pic/spacer.gif" width=2 height=2>',
     ) },
     sg_head2 => sub { shift() },
     sg_div2 => sub { nl(
         '  <tr valign=top>',
-        '    <td width=2 bgcolor=black><img src="pic/spacer.gif" width=2 height=2></td>',
-        '    <td></td>',
-        shift() . '</td>',
-        '    <td width=2 bgcolor=black><img src="pic/spacer.gif" width=2 height=2></td>',
-        '  </tr>',
+        '    <td width=2 bgcolor=black><img src="pic/spacer.gif" width=2 height=2>',
+        '    <td>',
+        shift(),
+        '    <td width=2 bgcolor=black><img src="pic/spacer.gif" width=2 height=2>',
     ) },
     sg_head3        => sub { wrap('<h3 class="sg">' . shift() . "</h3>", $WIDTH) . "\n\n" },
     sg_paragraph    => sub {
@@ -161,10 +150,10 @@ EOF
         indent(wrap('<font size=2>' . shift() . '</font>', 64, 62), '      ', '        ');
     },
 
-        sg_head1_type      => sub { nl('    <td><font size=4> ' . shift() . '. </font></td>') },
-        sg_head1_text      => sub { nl('    <td colspan=2><font size=4>' . shift() . '</font></td>') },
-        sg_head1_reference => sub {    '    <td align=right>' . shift() . ' </td>' },
-        sg_head2_klingon   => sub { nl('    <td>' . shift() . '</td>') },
+        sg_head1_type      => sub { nl('    <td><font size=4> ' . shift() . '. </font>') },
+        sg_head1_text      => sub { nl('    <td colspan=2><font size=4>' . shift() . '</font>') },
+        sg_head1_reference => sub {    '    <td align=right>' . shift() . ' ' },
+        sg_head2_klingon   => sub { nl('    <td>' . shift()) },
         sg_head2_english   => sub {    '    <td colspan=2>' . shift() },
         sg_head2_reference => sub {    ' ' . shift() },
 }

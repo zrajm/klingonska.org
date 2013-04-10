@@ -299,26 +299,22 @@ sub developer_query_dump(\@\@\@\@$) {
     # developer info (dump word, rexes etc.)
     print "<table cellspacing=\"0\" border=\"1\" align=\"center\">\n";
     print "  <tr>\n";
-    print "    <th colspan=\"2\">word</th>\n";
-    print "    <th>regex</th>\n";
-    print "  </tr>\n";
+    print "    <th colspan=\"2\">word\n";
+    print "    <th>regex\n";
     for my $i (0..$#query_word) {
         print "  <tr".($query_not[$i]?" bgcolor=\"grey\"":"").">\n";
-        print "    <td>$query_not[$i]$query_case[$i]</td>";
-        print "    <td>$query_word[$i]</td>\n";
+        print "    <td>$query_not[$i]$query_case[$i]";
+        print "    <td>$query_word[$i]\n";
         my $x = $query_regex[$i];               # shorten long regexes
         $x =~ s#$cfg{re_alph}#[:alph:]#go;              # involving $cfg{re_alph}
-        print "    <td>$x</td>\n";
-        print "  </tr>\n";
+        print "    <td>$x\n";
     }
     print "  <tr>\n";
-    print "    <th colspan=\"3\">mark regex</th>\n";
-    print "  </tr>\n";
+    print "    <th colspan=\"3\">mark regex\n";
     print "  <tr>\n";
     my $x = $query_mark;               # shorten long regexes
     $x =~ s#$cfg{re_alph}#[:alph:]#go;              # involving $cfg{re_alph}
-    print "    <td colspan=\"3\">$x</td>\n";
-    print "  </tr>\n";
+    print "    <td colspan=\"3\">$x\n";
     print "</table> \n";
 }
 
@@ -537,7 +533,7 @@ sub store_match {
     $title = transcript2html($head{title}) if exists($head{title});
 
     my $output_buffer =
-        "  <dt><b><a href=\"$link\">$title</a></b></dt>\n" .   # FIXME
+        "  <dt><b><a href=\"$link\">$title</a></b>\n" .   # FIXME
         "  <dd><font size=\"-1\"><font color=\"#777777\"><i>" .
 	join(" - ",
 	     $date,                                                  # publish date
@@ -600,7 +596,7 @@ sub store_match {
     }                                           #
     $output_buffer .= ($incomplete <= 0 ? " <b>...</b>" : "") . "\n" .
 	($source_link ? "    <br /><font color=\"#777777\"><a href=\"$source_link\">Transcript</a>" : "") .
-	"</font></font></dd>\n\n";
+	"</font></font>\n\n";
     return $output_buffer;
 }
 
@@ -622,23 +618,20 @@ sub xx {
     my ($clean_link, $message, %form) = @_;
     my $file_arg = "\n".'<input type="hidden" name="file" value="' . html_encode($form{file}) . '" />'
             if $form{file};
-    $message = "\n      ".'<tr><td align="center"><small>' . $message . "</small></td></tr>" if $message;
+    $message = "\n      ".'<tr><td align="center"><small>' . $message . "</small>" if $message;
 return <<EOF;
 <p><form action="$cfg{SCRIPT_URL}" method="get">$file_arg
 <table class="layout">
   <tr>
-    <td rowspan="2" align="center"><a href=".."><img src="../../pic/kabutton.gif" width="92" height="82" alt="Klingonska Akdemien" border="0" /></a></td>
-    <td><h2>$ENV{X_TITLE}</h2></td>
-  </tr>
+    <td rowspan="2" align="center"><a href=".."><img src="../../pic/kabutton.gif" width="92" height="82" alt="Klingonska Akdemien" border="0" /></a>
+    <td><h2>$ENV{X_TITLE}</h2>
   <tr><td>
     <table class="layout">$message
       <tr class="middle">
         <td><input autofocus type="text" id="query" name="query" value="${\&html_encode($form{query})}" size="35"
-          /><input type="submit" value="Search" /></td>
-        <td><small>&nbsp;<a href="$cfg{SCRIPT_URL}?get=help">Search Help</a>$clean_link</small></td>
-      </tr>
+          /><input type="submit" value="Search" />
+        <td><small>&nbsp;<a href="$cfg{SCRIPT_URL}?get=help">Search Help</a>$clean_link</small>
     </table>
-  </td></tr>
 </table>
 </form>
 EOF
@@ -651,13 +644,12 @@ print <<"EOF";
 <form action="$cfg{SCRIPT_URL}" method="get">
 <table cellspacing="0" cellpadding="0" border="0">
   <tr valign="middle">
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td><input autofocus type="text" id="query" name="query" value="" size="30" /></td>
-    <td>&nbsp;</td>
-    <td><input type="submit" value="Search" /></td>
-    <td>&nbsp;</td>
-    <td><font size="1"><a href="$cfg{SCRIPT_URL}?get=help">Search Help</a></font></td>
-  </tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <td><input autofocus type="text" id="query" name="query" value="" size="30" />
+    <td>&nbsp;
+    <td><input type="submit" value="Search" />
+    <td>&nbsp;
+    <td><font size="1"><a href="$cfg{SCRIPT_URL}?get=help">Search Help</a></font>
 </table>
 </form>
 </center>
@@ -692,42 +684,37 @@ searched for case-insensetively. -->
 <!--
 <table border="2" cellspacing="0" cellpadding="5" width="90%" align="center">
 <tr valign="top">
-  <th>taHjaj wo\'</th>
+  <th>taHjaj wo\'
   <td>Will find all documents that contain both the word »<tt>wo\'</tt>« and
   the word »<tt>tahjaj</tt>«. The order and placement of the words in
   the document is not important, notice, however, that the search is
   case-insensetive (which is probably not something you want if
   you\'re searching for a word in Klingon).
-</tr>
 <tr valign="top">
-  <th>"taHjaj wo\'"</th>
+  <th>"taHjaj wo\'"
   <td>This will find any occurance of the phrase »<tt>tahjaj wo\'</tt>«
   (i.e. the words must occur in the same order you wrote them, and
   there may not be any other words between them). All non-alphabetical
   characters (e.g. puntuaction marks) in the document are ignored so
   this query would match a document containing the string »<tt>TAHJAJ,
-  WO\'</tt>«.</td>
-</tr>
+  WO\'</tt>«.
 <tr valign="top">
-  <th>.taHjaj wo\'</th>
+  <th>.taHjaj wo\'
   <td>This query matches any document that contains both the given
   words, however search for the word »taHjaj« is case-sensetive so it
   must be exactly matched (a wise thing if you\'re searching for a
-  word in Klingon).</td>
-</tr>
+  word in Klingon).
 <tr valign="top">
-  <th>taHjaj -wo\'</th>
+  <th>taHjaj -wo\'
   <td>This would match any document that contains the word
-  »<tt>taHjaj</tt>«, but not the word »<tt>wo\'</tt>«.</td>
-</tr>
+  »<tt>taHjaj</tt>«, but not the word »<tt>wo\'</tt>«.
 <tr valign="top">
-  <th>taH* wo\'</th>
+  <th>taH* wo\'
   <td>Matches any document that contains the word »<tt>wo\'</tt>« and a
   word that begins with »<tt>tah</tt>«. The asterisk matches any
   number of alphabetical characters (including apostrophe) and may be
   used anywhere in a word or phrase. (Any search word consisting of
-  only an asterisk is ignored, however.)</td>
-</tr>
+  only an asterisk is ignored, however.)
 </table>
 
 <p align="center"><b>Special chars:</b>  = ; - (minus) = exclude word from search; * (asterisk) = match
@@ -736,30 +723,28 @@ any number of letters, numbers or aphostrophes.
 
 <table border="2" cellspacing="0" cellpadding="5" xwidth="90%" align="center">
 <tr valign="top">
-  <th colspan="2">Character</th>
-  <th>Function</th>
-</tr><tr>
+  <th colspan="2">Character
+  <th>Function
 <tr valign="top">
-  <th>=</th>
-  <th>equal</th>
+  <th>=
+  <th>equal
   <td>Makes the matching of the search term case sensetive (prefix).
-</tr><tr>
-  <th>-</th>
-  <th>minus</th>
-  <td>Document matches only if the search term <i>does not</i> occur in it (prefix).</td>
-</tr><tr>
-  <th>"..."</th>
-  <th>quotes</th>
-  <td>Allow spaces inside search terms (circumfix).</td>
-</tr><tr>
-  <th>*</th>
-  <th>asterisk</th>
-  <td>Matches any sequence of numbers (0-9), letters (a-z) or apostrophes (\') (wildcard).</td>
-</tr><tr>
-  <th> </th>
-  <th>space</th>
-  <td>Wildcard matching the inverse of »*« (only inside phrases, i.e. within quotes) (wildcard).</td>
-</tr>
+<tr>
+  <th>-
+  <th>minus
+  <td>Document matches only if the search term <i>does not</i> occur in it (prefix).
+<tr>
+  <th>"..."
+  <th>quotes
+  <td>Allow spaces inside search terms (circumfix).
+<tr>
+  <th>*
+  <th>asterisk
+  <td>Matches any sequence of numbers (0-9), letters (a-z) or apostrophes (\') (wildcard).
+<tr>
+  <th> 
+  <th>space
+  <td>Wildcard matching the inverse of »*« (only inside phrases, i.e. within quotes) (wildcard).
 </table>
 
 <h3>Search Terms</h3>
@@ -814,10 +799,10 @@ EOF
     print "  <tr>\n";
     foreach (1..$part) {
         print "    <td><code><ul>\n";
-        print "      <li>$_</li>\n" foreach splice(@source, 0, $step);
-        print "    </ul></code></td>\n";
+        print "      <li>$_\n" foreach splice(@source, 0, $step);
+        print "    </ul></code>\n";
     }
-    print "  </tr>\n";
+    print "\n";
     print "</table>\n";
     print "-->\n";
     print page_footer();                        # page footer
@@ -1002,8 +987,7 @@ sub status_row (@) {
     return <<"EOF";
 <br /><table cellpadding="1" cellspacing="0" border="0" width="100%">
   <tr bgcolor="#000000">
-    <td><font size="-1" color="#ffffff">$text</font></td>
-  </tr>
+    <td><font size="-1" color="#ffffff">$text</font>
 </table>
 EOF
 }
@@ -1241,7 +1225,7 @@ sub display_file {
     print "<table>";
     foreach my $header (sort keys %head) {
 	next if $header eq "style";
-	print "  <tr><th valign=\"top\" align=\"left\">\u$header:</th><td>$head{$header}</tr></tr>";
+	print "  <tr><th valign=\"top\" align=\"left\">\u$header:<td>$head{$header}";
     }
     print "</table>";
     print "<hr noshade />";
@@ -1282,10 +1266,10 @@ if (not $ENV{X_CGI}) {                         # if not suppressed
 if ($form{debug}) {
     print <<EOF;
 <table border="1">
-<tr><th align="left">file</th><td>$form{file}</td></tr>
-<tr><th align="left">query</th><td>$form{query}</td></tr>
-<tr><th align="left">get</th><td>$form{get}</td></tr>
-<tr><th align="left">debug</th><td>$form{debug}</td></tr>
+<tr><th align="left">file<td>$form{file}
+<tr><th align="left">query<td>$form{query}
+<tr><th align="left">get<td>$form{get}
+<tr><th align="left">debug<td>$form{debug}
 </table>
 EOF
 }
