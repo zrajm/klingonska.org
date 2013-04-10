@@ -174,22 +174,21 @@ optimization."
 *** TODO Remove unused stylesheets
 *** DONE Minify Javascript
 *** DONE Minify shylesheets
-*** [11%] Make HTML consistent
+*** [20%] Make HTML consistent
 **** DONE Remove optional tags: </td>, </th>, </li>, </dt>, </dd>, </tr>
      CLOSED: [2013-04-10 Wed 21:21]
+**** TODO Remove all occurances of tags ending in '/>'
 **** [0%] Cleanup table design
      Scout out the currently needed table design and homogenize them.
 ***** TODO Remove NBSP layout in tables
-**** TODO Remove old "Feedback Forms"
+**** DONE Remove old "Feedback Forms"
+     CLOSED: [2013-04-10 Wed 21:29]
      grep 'Feedback Form' to find them
 **** TODO HTML comments should be removed when processing markdown
      Currently (as evidenced by http://klingonska.lal/klcp.html) HTML style
      comments <!-- ... --> messes up the output HTML code.
 **** TODO Remove unnecessary quotes around attributes (primarily classes)
 **** TODO In markdown replace "&ndash;" -> "--"
-**** TODO Make styling of links consistent.
-     Names of articles like "Archive of Okrandian Canon" should maybe always be
-     italic? (Regardless of whether they're linked or not.)
 **** TODO "Archive of Okrandian Canon" should be italic where mentioned
      Fix in:
      http://klingonska.lal/dict/intro.html
