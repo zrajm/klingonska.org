@@ -79,7 +79,7 @@ typesetter) and [NoteEdit](http://noteedit.berlios.de/) (a WYSIWYG music score
 editor), both for GNU/Linux. The melodies for voices II & III and the chords
 were contributed by Ryan Hart in December, 2012.
 
-There are probably still a couple of errors left &ndash; should you find one of
+There are probably still a couple of errors left -- should you find one of
 these, [please tell us so](mailt:zrajm@klingonska.org), so that we may continue
 to improve these scores.
 

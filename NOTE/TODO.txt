@@ -174,7 +174,7 @@ optimization."
 *** TODO Remove unused stylesheets
 *** DONE Minify Javascript
 *** DONE Minify shylesheets
-*** [20%] Make HTML consistent
+*** [33%] Make HTML consistent
 **** DONE Remove optional tags: </td>, </th>, </li>, </dt>, </dd>, </tr>
      CLOSED: [2013-04-10 Wed 21:21]
 **** TODO Remove all occurances of tags ending in '/>'
@@ -188,7 +188,8 @@ optimization."
      Currently (as evidenced by http://klingonska.lal/klcp.html) HTML style
      comments <!-- ... --> messes up the output HTML code.
 **** TODO Remove unnecessary quotes around attributes (primarily classes)
-**** TODO In markdown replace "&ndash;" -> "--"
+**** DONE In markdown replace "&ndash;" -> "--"
+     CLOSED: [2013-04-10 Wed 21:36]
 **** TODO "Archive of Okrandian Canon" should be italic where mentioned
      Fix in:
      http://klingonska.lal/dict/intro.html
