@@ -2,18 +2,19 @@
   [2004-10-28, 01.45-02.25] transcribed by Zrajm C Akfohg
   [2004-10-28, 02.25-02.44] spell checked & proofread
   [2008-05-07] corrected typo in title "Maltz'" -> "Maltz's"
+  [2013-04-11] minor source + summary update
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
   Date: September 2003
   Title: Maltz's Reward: Part II
   Author: Marc Okrand
-  Source: <{HolQeD} 12:3>, pages 8-10
+  Source: <{HolQeD} 12:3>, pages 8--10
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
   Summary: Maltz talks about the concept of <false honor>, and as a side note
     tells us how to say <Oh, yeah?!?> in Klingon. This is the reward for the
     second of those who succeeded in solving the "Frasier's Klingon" challenge
-    in {HolQeD} 11:4.
+    in <{HolQeD} 11:4>.
 
 ]][[p.8]]
 

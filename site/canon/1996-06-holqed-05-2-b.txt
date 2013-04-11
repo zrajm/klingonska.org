@@ -1,6 +1,7 @@
 [[
   [2012-01-30, 05:10-05:21] transcribed article
   [2012-01-30, 05:21-05:48] spell checking and proof reading against cards
+  [2013-04-11] minor summary update
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
@@ -9,9 +10,9 @@
   Author: Lawrence M. Schoen
   Source: <{HolQeD} 5:2>, page 14
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
-  Summary: Transcription of SkyBox trading cards S19, S20 and S21, for season
-    four of <Star Trek: The Next Generation.> Transcripts corrected against
-    original SkyBox cards.
+  Summary: Transcription of SkyBox trading cards <S19>, <S20> and <S21>, for
+    season four of <Star Trek: The Next Generation.> Transcripts corrected
+    against original SkyBox cards.
   Credit: Nancy Nielsen-Brown donated these SkyBox cards to Klingonska
     Akademien at the {qep'a' SochDIch}.
 

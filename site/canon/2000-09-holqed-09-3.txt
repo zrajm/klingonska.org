@@ -2,17 +2,18 @@
   [2001-04-09] Transcribed by Zrajm C Akfohg
   [2003-01-29] added file header
   [2004-08-19] changed faulty "Kong" to "Kang"
+  [2013-04-11] minor source update
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
   Date: September 2000
   Title: {matlh jup mu'mey}
   Author: Marc Okrand
-  Source: <{HolQeD} 9:3> pages 8-10
+  Source: <{HolQeD} 9:3> pages 8--10
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
   Summary: 
 
-  : "{matlh jup mu'mey}", from <{HolQeD} 9:3> pages 8-10
+  : "{matlh jup mu'mey}", from <{HolQeD} 9:3> pages 8--10
   : Article by Marc Okrand, September 2000
   : Klingon Language Institute, Flourtown, PA
   : ISSN 1061-2327

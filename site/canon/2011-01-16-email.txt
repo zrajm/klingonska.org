@@ -1,11 +1,13 @@
 [[
   [2011-02-06] added document
+  [2013-04-11] minor summary update
 
   Type: email
   Date: 16 January 2011
   Title: monastery: more
   Author: Lieven L. Litaer (describing an email from Marc Okrand)
-  Summary: Clarifications on the new word {ghIn} "monastery".
+  Summary: Clarifications on the new word {ghIn} <monastery>.
+
 ]]
 
 Date: Sun, 16 Jan 2011 22:04:32 +0100

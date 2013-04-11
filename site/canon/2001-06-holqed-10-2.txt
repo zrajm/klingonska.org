@@ -2,19 +2,20 @@
   [2001-08-20, ??.??-23.13] transcribed pages 7-8 by Zrajm C Akfohg
   [2001-08-23, 07.27-08.20] transcribed pages 8-10
   [2001-08-23, 09.09-09.49] transcribed the rest, and proofread it
+  [2013-04-11] minor source update
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
   Date: June 2001
   Title: A Friend of Maltz: {nItlhDu' yaDDu' je}
   Author: Marc Okrand (edited by Lawrence M. Schoen)
-  Source: <{HolQeD} 10:2>, pages 7-11
+  Source: <{HolQeD} 10:2>, pages 7--11
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
   Summary: How do the Klingons relate to their fingers? And then how do they
     consider their toes? Are they all just "flexible"? Maltz tell us a bit
     more about a previously neglected part of the Klingon vocabulary.
 
-  : "A Friend of Maltz: {nItlhDu' yaDDu' je}", from *{HolQeD} 10:2*, pages 7-11
+  : "A Friend of Maltz: {nItlhDu' yaDDu' je}", from *{HolQeD} 10:2*, pages 7--11
   : Article by Marc Okrand, edited by Lawrence M. Schoen, June 2001
   : Klingon Language Institute, Flourtown, PA
   : ISSN 1061-2327

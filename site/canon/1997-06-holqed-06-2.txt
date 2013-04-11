@@ -2,6 +2,7 @@
   [2012-02-01, 21:15-21:33] transcribed article
   [2012-02-01, 21:33-21:48] spell checking and proof reading against {HolQeD}
   [2012-02-01, 21:51-22:12] proof reading against SkyBox cards
+  [2013-04-11] minor summary update
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
@@ -10,9 +11,9 @@
   Author: Lawrence M. Schoen
   Source: <{HolQeD} 6:2>, page 9
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
-  Summary: Transcription of SkyBox trading cards S31, S32 and S33, for season
-    six of <Star Trek: The Next Generation.> Transcripts corrected against
-    original SkyBox cards.
+  Summary: Transcription of SkyBox trading cards <S31>, <S32> and <S33>, for
+    season six of <Star Trek: The Next Generation.> Transcripts corrected
+    against original SkyBox cards.
   Credit: Nancy Nielsen-Brown donated these SkyBox cards to Klingonska
     Akademien at the {qep'a' SochDIch}.
 

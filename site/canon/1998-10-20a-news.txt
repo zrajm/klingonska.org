@@ -1,10 +1,11 @@
 [[
   [2009-04-14] added document header
+  [2013-04-11] minor title update
   Style: /=bold
 
   Type: newsgroup posting
   Date: 20 October 1998
-  Title: Re: The spelling of the name of a weapon and the Klingon alphbet.
+  Title: Re: The spelling of the name of a weapon and the Klingon alphabet.
   Author: Marc Okrand
   Summary: On how to spell Bat'leth.
 ]]

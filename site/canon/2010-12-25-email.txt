@@ -1,11 +1,15 @@
 [[
   [2011-02-06] added document
+  [2013-04-11] minor summary update
 
   Type: email
   Date: 25 December 2010
   Title: Letter from Maltz
   Author: Lieven L. Litaer (reposting an email from Marc Okrand)
-  Summary: Christmas greetings from Maltz.
+  Summary: Longish Christmas greetings from Maltz, revealing a longer letter
+    from Marc Okrand that was fed to us piecemeal in the previous messages from
+    Lieven L. Litaer.
+
 ]]
 
 Date: Sat, 25 Dec 2010 16:56:47 +0100

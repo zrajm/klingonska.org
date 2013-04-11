@@ -1,18 +1,19 @@
 [[
   [2000-08-24] OCR scanned by Zrajm C Akfohg
   [2002-07-19] added new header, fixed some (very) minor errors
+  [2013-04-11] minor source update
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
   Date: June 1995
   Title: Interview: Okrand on {-bogh} and more
   Author: Lawrence M. Schoen (?)
-  Source: <{HolQeD} 4:2>, pages 5-6
+  Source: <{HolQeD} 4:2>, pages 5--6
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
   Summary: Okrand gives some (vague) answers on the topics of {-'e'} and
     {-bogh}.
 
-  : "Interview: Okrand on {-bogh} and more", from *{HolQeD} 4:2*, pages 5-6
+  : "Interview: Okrand on {-bogh} and more", from *{HolQeD} 4:2*, pages 5--6
   : Marc Okrand interviewed by Lawrence M. Schoen(?), June 1995
   : Klingon Language Institute, Flourtown, PA
   : ISSN 1061-2327

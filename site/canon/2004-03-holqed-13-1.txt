@@ -8,22 +8,23 @@
   [2008-05-07, 15:52-16:25] carefully checked spelling of all Klingon
     words/phrases against original
   [2010-08-31] fixed transcription typo found when machine-parsing Klingon
+  [2013-04-11] minor summary + source update
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
   Date: January 2004
   Title: Maltz's Reward: Part IV
   Author: Marc Okrand
-  Source: <{HolQeD} 13:1>, pages 8-10
+  Source: <{HolQeD} 13:1>, pages 8--10
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
   Summary: Maltz explains how to say "A is as Q as B" (e.g. expressing that two
-    different things are equally beautiful) and how to say "A isn't Q:er than
+    different things are equally beautiful) and how to say "A isn’t Q:er than
     B". This is the reward for the fourth of those who succeeded in solving the
-    "Frasier's Klingon" challenge in {HolQeD} 11:4.
+    "Frasier’s Klingon" challenge in <{HolQeD} 11:4>.
 
   TODO:
     * machine-check the Klingon syllables
-    * in the name of the article the word "Maltz's" is spelled with an "s" at
+    * in the name of the article the word "Maltz’s" is spelled with an "s" at
       the end here, but in "2003-12--holqed.txt" the "s" is excluded -- which
       one is correct?
     * compare line breaks to original

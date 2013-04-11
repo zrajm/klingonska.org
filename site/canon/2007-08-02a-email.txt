@@ -1,14 +1,16 @@
 [[
-  [2011-10-06] Added document
-  [2011-10-24] Added document header & and correction comment for {'elI'jaH}
+  [2011-10-06] added document
+  [2011-10-24] added document header & and correction comment for {'elI'jaH}
+  [2013-04-11] minor summary update
 
   Type: email
   Date: 2 August 2007
   Title: Re: {mu' chu'}
   Author: Robyn Stewart (describing what Marc Okrand said to Lawrence M.
     Schoen)
-  Summary: Describes the new word {qolqoS} "heart, core", and also the word
-    {'elI'jaH} "uninvited guest". (Written in Klingon.)
+  Summary: Describes the new word {qolqoS} <heart, core>, and also the word
+    {'elI'jaH} <uninvited guest>. (Written in Klingon.)
+
 ]]
 
 Date: Thu, 02 Aug 2007 07:50:56 -0700

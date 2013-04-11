@@ -1,17 +1,18 @@
 [[
   [2000-08-24] OCR scanned by Zrajm C Akfohg.
   [2003-01-28] added file header
+  [2013-04-11] minor source update
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
   Date: September 1994
   Title: Interview: Okrand on {-ghach}
   Author: Lawrence M. Schoen (?)
-  Source: <{HolQeD} 3:3>, pages 10-13
+  Source: <{HolQeD} 3:3>, pages 10--13
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
   Summary:
 
-  : "Interview: Okrand on {-ghach}", from <{HolQeD} 3:3>, pages 10-13
+  : "Interview: Okrand on {-ghach}", from <{HolQeD} 3:3>, pages 10--13
   : Interview by Lawrence M. Schoen (?), 1994
   : Klingon Language Institute, Flourtown, PA
   : ISSN 1061-2327

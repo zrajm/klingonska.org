@@ -2,17 +2,18 @@
   [2000-08-24] OCR scanned by Zrajm C Akfohg.
   [2003-01-29] added file header
   [2010-08-31] fixed transcription typo found when machine-parsing Klingon
+  [2013-04-11] minor source update
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
   Date: September 1999
   Title: {matlh juppu' mu'mey}
   Author: Marc Okrand
-  Source: <{HolQeD} 8:3>, pages 2-4
+  Source: <{HolQeD} 8:3>, pages 2--4
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
   Summary: 
 
-  : "{matlh juppu' mu'mey}", from <{HolQeD} 8:3>, pages 2-4
+  : "{matlh juppu' mu'mey}", from <{HolQeD} 8:3>, pages 2--4
   : Article by Marc Okrand, 1999
   : Klingon Language Institute, Flourtown, PA
   : ISSN 1061-2327

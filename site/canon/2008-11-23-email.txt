@@ -1,12 +1,13 @@
 [[
   [2012-05-12] added document header
+  [2013-04-11] minor summary update
 
   Type: email
   Date: 23 November 2008
   Title: {nIyma'}
   Author: Lieven L. Litaer (quoting part of email from Marc Okrand)
   Summary: Description of a letter from Marc Okrand, intoducing the new word
-    {nIyma'} "phantom, apparition".
+    {nIyma'} <phantom, apparition>.
 
 ]]
 

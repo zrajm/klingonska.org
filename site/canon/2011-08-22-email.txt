@@ -1,14 +1,16 @@
 [[
   [2011-08-24] added document
+  [2013-04-11] updated summary
 
   Type: email
   Date: 22 August 2011
   Title: Nine New Words from {qep'a'} 18
   Author: Alan Anderson (describing a manuscript by Marc Okrand et al.)
-  Summary: New words from {qep'a' wa'maH chorghDIch} 2011, {jul} "sun", {pan}
-    "emit sparks", {le'yo'} "pride", {ngIq} "individual one", {Hun} "khrun"
-    (animal), {QIncha'} "krincha" (animal), {yIr} "gather", {'o} "o" (in direct
-    address), {wel} "owe".
+  Summary: New words from {qep'a' wa'maH chorghDIch} 2011: {jul} <sun>, {pan}
+    <emit sparks>, {le'yo'} <pride>, {ngIq} <individual one>, {Hun} <khrun
+    (animal)>, {QIncha'} <krincha (animal)>, {yIr} <gather>, {'o} <o> (in
+    direct address), {wel} <owe>.
+
 ]]
 
 Date: Mon, 22 Aug 2011 00:14:54 -0400

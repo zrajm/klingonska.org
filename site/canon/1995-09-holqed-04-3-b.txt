@@ -1,12 +1,13 @@
 [[
   [2011-11-03] Transcribed + proofread by Zrajm C Akfohg
+  [2013-04-11] minor source update
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
   Date: June 1995
   Title: Interview: Mark Lenard, The First Klingon Speaker
   Author: Lawrence M. Schoen
-  Source: <{HolQeD} 4:3>, pages 10-12
+  Source: <{HolQeD} 4:3>, pages 10--12
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
   Summary: Mark Lenard talks about how it was to record the Klingon scenes of
     <ST1>. The lines spoken are listed (with the spelling originally used, i.e.

@@ -2,18 +2,18 @@
   [2011-09-16] Transcribed by Zrajm C Akfohg
   [2011-11-03] Compared transcript with http://www.kli.org/pdf/Orthography.pdf,
     changed discrepancies to correspond to printed {HolQeD} issue
-
+  [2013-04-11] minor source + summary update
   Style: {}=bold, <>=italics, ^=superscript, {{}}=float, corrections, paginated
 
   Type: article
   Date: March 1992
   Title: Some Comments on Orthography
   Author: Lawrence M. Schoen
-  Source: <{HolQeD} 1:1>, pages 18-20
+  Source: <{HolQeD} 1:1>, pages 18--20
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
   Summary: Descriptions of the alphabets of the Mandel and {pIqaD} writing
-    systems. Later followed up by the article "Numerals", published in {HolQeD}
-    1:4 (p.17) by the same author.
+    systems. Later followed up by the article “Numerals”, published in
+    <{HolQeD} 1:4> (p.17) by the same author.
 
 ]][[p.18]]
 

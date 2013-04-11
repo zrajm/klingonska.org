@@ -5,7 +5,6 @@
   [2011-10-02] added older KBP abbreviation
   [2012-06-06] proofread & compared with actual poster (added correction
     comments for errors found in poster), added missing file header info
-
   Style: {}=bold, corrections, paginated, hidden
 
   Type: poster

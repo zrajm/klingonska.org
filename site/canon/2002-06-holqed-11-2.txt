@@ -1,18 +1,19 @@
 [[
   [2002-07-12, 15.51-16.33] transcribed & spellchecked by Zrajm C Akfohg
   [2012-05-29] added corrections for errors in original (thanks Philip Newton!)
+  [2013-04-11] minor source update
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
   Date: June 2002
   Title: {matlh jup mu'mey}
   Author: Marc Okrand
-  Source: <{HolQeD} 11:2>, pages 8-9
+  Source: <{HolQeD} 11:2>, pages 8--9
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
   Summary: Maltz tells us something about how to discuss flying and piloting
     of airplanes and shuttlecrafts.
 
-  : "{matlh jup mu'mey}", from <{HolQeD} 11:2>, pages 8-9
+  : "{matlh jup mu'mey}", from <{HolQeD} 11:2>, pages 8--9
   : Article by Marc Okrand, June 2002
   : Klingon Language Institute, Flourtown, PA
   : ISSN 1061-2327

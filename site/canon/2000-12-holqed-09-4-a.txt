@@ -1,15 +1,18 @@
 [[
   [2012-05-29, 18:12-18.38] transcribed, proofread and compared with original
     trading card by Zrajm C Akfohg
+  [2013-04-11] minor summary update + corrected author field
   Style: {}=bold, <>=italics, paginated
 
   Type: article
   Date: December 2000
   Title: Everyday Klingon
-  Author: Author: Lawrence M. Schoen
+  Author: Lawrence M. Schoen
   Source: <{HolQeD} 9:4>, page 16
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
-  Summary: Transcript of the 1997 Decipher Inc. trading card, {qaghwI'}.
+  Summary: Transcript of the 1997 Decipher Inc. <Star Trek: Collectible Card
+    Game> card “{Qapla'!}” (from <The Fajo Collection>). The card is completely
+    written in Klingon.
 
 ]][[p.16]]
 

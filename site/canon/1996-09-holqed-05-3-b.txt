@@ -1,6 +1,7 @@
 [[
   [2012-05-11, 21:46-22:01] transcribed article
   [2012-05-11, 22:05-22:35] spell checking and proof reading against cards
+  [2013-04-11] minor summary update
   Style: {}=bold, <>=italics, paginated
 
   Type: article
@@ -9,9 +10,9 @@
   Author: Lawrence M. Schoen
   Source: <{HolQeD} 5:3>, page 15
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
-  Summary: Transcription of SkyBox trading cards S25, S26 and S27, for season
-    five of <Star Trek: The Next Generation.> Transcripts corrected against
-    original SkyBox cards.
+  Summary: Transcription of SkyBox trading cards <S25>, <S26> and <S27>, for
+    season five of <Star Trek: The Next Generation.> Transcripts corrected
+    against original SkyBox cards.
 
 ]][[p.15]]
 

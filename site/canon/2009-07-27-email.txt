@@ -1,12 +1,16 @@
 [[
   [2010-12-25] added document
+  [2013-04-11] updated summary
 
   Type: email
   Date: 27 July 2009
   Title: News from Maltz
   Author: Alan Anderson
-  Summary: New words from {qep'a' wa'maH javDIch} 2009, {vIlle'} "minion",
-    {vIl} and names for the sounds of the Klingon language
+  Summary: New words from the {qep'a'} of 2009, {vIlle'} <minion>, {vIl}
+    <ridge, bump>, and names for the sounds of the Klingon language: {'at},
+    {bay}, {chay}, {Day}, {'et} etc., until ending in {yay}, {qaghwI'} (or
+    {'}).
+
 ]]
 
 To: tlhingan-hol@kli.org

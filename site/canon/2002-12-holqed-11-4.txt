@@ -1,12 +1,13 @@
 [[
   [2002-10-08, 15.30-16.06] transcribed & spellchecked by Zrajm C Akfohg
+  [2013-04-11] minor source update
   Style: {}=bold, <>=italics, paginated
 
   Type: article
   Date: December 2002
   Title: Frasier's Klingon
   Author: Marc Okrand
-  Source: <{HolQeD} 11:4>, pages 10-11
+  Source: <{HolQeD} 11:4>, pages 10--11
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
   Summary: Maltz delivers a challenge to the Klingon speaking community through
     Marc Okrand.

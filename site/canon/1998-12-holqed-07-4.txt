@@ -2,17 +2,18 @@
   [2000-08-27] OCR scanned by Zrajm C Akfohg.
   [2003-01-28] added file header
   [2010-08-31] found {'avwI'} misstake in source when machine-parsing Klingon
+  [2013-04-11] minor source update
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
   Date: December 1998
   Title: Interview with Marc Okrand
   Author: Lawrence M. Schoen
-  Source: <{HolQeD} 7:4>, pages 2-12
+  Source: <{HolQeD} 7:4>, pages 2--12
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
   Summary: 
 
-  : "Interview with Marc Okrand", from <{HolQeD} 7:4>, pages 2-12
+  : "Interview with Marc Okrand", from <{HolQeD} 7:4>, pages 2--12
   : Article by Lawrence M. Schoen, December 1998
   : Klingon Language Institute, Flourtown, PA
   : ISSN 1061-2327

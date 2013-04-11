@@ -1,19 +1,20 @@
 [[
   [2000-06-30] OCR scanned by Zrajm C Akfohg.
   [2003-01-28] added file header
+  [2013-04-11] minor source update
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
   Date: December 1993
   Title: Okrand's Notes
   Author: Lawrence M. Schoen
-  Source: <{HolQeD} 2:4>, pages 17-18
+  Source: <{HolQeD} 2:4>, pages 17--18
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
   Summary: Okrand reveals words for <weather>, <ear>, <winning> and <losing>,
     <writing>, some musical terminology, and a suggestion on how to express
     <with> (in the sense of "accompanied by").
 
-  : "Okrand's Notes", from <{HolQeD} 2:4>, pages 17-18
+  : "Okrand's Notes", from <{HolQeD} 2:4>, pages 17--18
   : Article by Lawrence M. Schoen, 1993
   : Klingon Language Institute, Flourtown, PA
   : ISSN 1061-2327

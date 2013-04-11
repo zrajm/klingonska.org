@@ -1,19 +1,20 @@
 [[
   [2002-07-12, 19.06-19.45] transcribed & spellchecked
   [2002-07-30, 15.15-15.57] merged with old OCR-scan from [2002-01-18]
+  [2013-04-11] minor source update
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
   Date: December 2001
   Title: {matlh juppu' mu'mey}
   Author: Marc Okrand
-  Source: <{HolQeD} 10:4>, pages 4-5
+  Source: <{HolQeD} 10:4>, pages 4--5
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
   Summary: Maltz gives us a lesson in Klingon bird-watching, and talks about
     how to distinguish a few types of them, as well as how to discuss
     pecking, flying and the various body parts of birds.
 
-  : "{matlh juppu' mu'mey}", from <{HolQeD} 10:4>, pages 4-5
+  : "{matlh juppu' mu'mey}", from <{HolQeD} 10:4>, pages 4--5
   : Article by Marc Okrand, December 2002
   : Klingon Language Institute, Flourtown, PA
   : ISSN 1061-2327

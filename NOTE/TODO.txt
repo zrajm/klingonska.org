@@ -130,6 +130,13 @@ optimization."
    html5boilerplate html classes):
 
    http://stackoverflow.com/questions/4919076/outline-effect-to-text
+** TODO Make pretty hyphenations(?)
+   Justified right margin + hyphenation? That would be pretty. This page
+   suggests how to do it: http://alistapart.com/article/the-look-that-says-book
+
+   Could we do Graceful degradation of this?
+
+   Hyphenator.js could be useful.
 ** TODO Cleanup breadcrumbs
    Some breadcrums use '&#8250;' other use '&gt;' should prolly just '&gt;' (it
    doesn't look all that much worse, and is guaranteed to work with a larger
@@ -1356,7 +1363,19 @@ optimization."
     Each transcript in the http://klingonska.org/canon/ list should have a link
     to the prettified version (as well as to the original text formatted
     transcript).
-*** [61%] Transcripts updating/improvement
+*** [60%] Transcripts updating/improvement
+**** [0%] Rename 1995-02-01-sarek.txt -> 1994-01-01-sarek.txt
+     This is the original publication date of the hardcover, according to
+     wikipedia.
+***** TODO Rename file
+***** TODO Update links in canon/index.txt (+ any others)
+***** TODO Add web redirect from old to new name
+**** [0%] Rename 1997-decipher-ccg.txt -> 1997-12-31-decipher-ccg.txt
+     This is the original publication date according to
+     http://www.wixiban.com/ccg/1e-fajo.htm.
+***** TODO Rename file
+***** TODO Update links in canon/index.txt (+ any others)
+***** TODO Add web redirect from old to new name
 **** TODO Decipher event card {taH pagh taHbe'} from 2002
      What's the status of canonicity for this card?
      https://mail.google.com/mail/u/0/#search/decipher+in%3Atlhingan-hol+card/ed6f9609d33c137

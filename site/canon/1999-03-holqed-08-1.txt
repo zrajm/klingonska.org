@@ -1,17 +1,18 @@
 [[
   [2000-10-02] OCR scanned by Zrajm C Akfohg.
   [2002-07-12] Corrected minor error in brackets.
+  [2013-04-11] minor source update
   Style: {}=bold, <>=italics, paginated
 
   Type: article
   Date: March 1999
   Title: Maltz Online
   Author: Marc Okrand (edited by Lawrence M. Schoen)
-  Source: <{HolQeD} 8:1>, pages 7-12
+  Source: <{HolQeD} 8:1>, pages 7--12
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
   Summary:
 
-  : "Maltz Online", from <{HolQeD} 8:1>, pages 7-12
+  : "Maltz Online", from <{HolQeD} 8:1>, pages 7--12
   : Article edited by Lawrence M. Schoen, text by Marc Okrand, March 1999
   : Klingon Language Institute, Flourtown, PA
   : ISSN 1061-2327

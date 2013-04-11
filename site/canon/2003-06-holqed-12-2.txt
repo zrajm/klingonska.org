@@ -4,13 +4,14 @@
   [2008-05-07] corrected typo in title "Maltz'" -> "Maltz's"
   [2010-08-26, 09:42-09:52] fixed several typos
   [2010-08-26] proofreading
+  [2013-04-11] minor source update
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
   Date: June 2003
   Title: Maltz's Reward: Part I
   Author: Marc Okrand
-  Source: <{HolQeD} 12:2>, pages 6-9
+  Source: <{HolQeD} 12:2>, pages 6--9
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
   Summary: Maltz tell which words to use to refer to ends of physical objects,
     and periods of time. This is the reward for the first of those who

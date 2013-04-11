@@ -7,6 +7,7 @@
   [2003-01-30] hunted down errors using Steven Boozer's transcript
   [2010-10-05] replaced shy (latin1 char 173) with minus/hyphen (ascii char 45)
   [2012-05-17] superscripted 'TM'
+  [2013-04-11] minor summary update
   Style: {}=bold, <>=italic
 
   Type: trading card
@@ -16,7 +17,7 @@
   Publisher: SkyBox International Inc.
   Summary: This is the first of the three <Star Trek: The Next Generation>
     first season trading cards. (The text of this card was also reproduced,
-    with several errors, in <{HolQeD} 3:4>, pp.10-11. Some of the errors of
+    with several errors, in <{HolQeD} 3:4>, pp.10--11. Some of the errors of
     that reprint were pointed out by Will Martin in a letter to the editor in
     <{HolQeD} 4:1>, p.7.)
   Credit: Nancy Nielsen-Brown gave me this card at the {qep'a' SochDIch}.

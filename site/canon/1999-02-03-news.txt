@@ -1,11 +1,12 @@
 [[
   [2010-10-31] added document
+  [2013-04-11] author + summary update
 
   Type: newsgroup posting
   Date: 3 February 1999
   Title: Okrand Speaks: Measurement
-  Author: Marc Okrand & Will Martin
-  Summary: Will Martin forwards a post to the News list onto tlhingan-hol
+  Author: Marc Okrand
+  Summary: On the usage of suffixes {-'a'} and {-Hom} with measurements.
 ]]
 
 From: "William H. Martin" <whm2m@server1.mail.virginia.edu>

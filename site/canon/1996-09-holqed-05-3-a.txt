@@ -1,6 +1,7 @@
 [[
   [2000-08-27] OCR scanned by Zrajm C Akfohg.
   [2003-01-28] added file header
+  [2013-04-11] minor summary update
   Style: {}=bold, <>=italics, paginated
 
   Type: article
@@ -10,7 +11,7 @@
   Source: <{HolQeD} 5:3>, page 14
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
   Summary: Mark Shoulson retells the story about how Klingons got their
-    armpits.
+    {'I'Du'} <armpits>.
 
   : "The Tale of {'I'}", from <{HolQeD} 5:3>, page 14
   : Interview by Mark Shoulson, September 1996

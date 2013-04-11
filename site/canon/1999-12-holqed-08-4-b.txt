@@ -3,13 +3,14 @@
   [2012-02-03, 10:13-10:28] transcribed the rest
   [2012-05-11, 23:57-00:26] spell checking and proof reading
   [2012-05-29] corrected minor transcript error (thanks Philip Newton!)
+  [2013-04-11] minor source update
   Style: {}=bold, <>=italics, corrections, paginated, tlh-syllable-separated
 
   Type: article
   Date: December 1999
   Title: Notes from <Star Trek V: The Final Frontier>
   Author: Lawrence M. Schoen
-  Source: <{HolQeD} 8:4>, pages 11-13
+  Source: <{HolQeD} 8:4>, pages 11--13
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
   Summary: Description of the Klingon dialog of <Star Trek V: The Final
     Frontier>, as prepared for the actors by Marc Okrand.

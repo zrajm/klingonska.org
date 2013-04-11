@@ -1,14 +1,16 @@
 [[
   [2011-10-06] Added document
   [2011-10-24] Added document header
+  [2013-04-11] minor summary update
 
   Type: email
   Date: 12 February 1999
   Title: Another new word
   Author: William H. Martin (describing a recording of Marc Okrand)
   Summary: Describes a new word from a spoken recording of Marc Okrand made at
-    the Praxis convention in 1998. The new word is {ma'veq} "ceremonial knife
-    used in the ritual of ~Mauk To'Vor~".
+    the Praxis convention in 1998. The new word is {ma'veq} <ceremonial knife
+    used in the ritual of Mauk To'Vor>.
+
 ]]
 
 From: "William H. Martin" <whm2m@server1.mail.virginia.edu>

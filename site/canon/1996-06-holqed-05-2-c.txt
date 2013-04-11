@@ -1,6 +1,7 @@
 [[
   [2012-01-30, 06:13-06:30] transcribed article
   [2012-01-30, 06:30-06:39] spell checking and proof reading
+  [2013-04-11] minor summary update
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
@@ -9,10 +10,10 @@
   Author: Lawrence M. Schoen
   Source: <{HolQeD} 5:2>, page 20
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
-  Summary: Gives words {nav HablI'} "fax" and {ghogh HablI'} "telephone", and a
-    discussion aspect of whether or not {Hoch} can be used so mean 'all except
-    for what I'm specifying to the contrary' -- Marc Okrand instead suggest
-    {le'be'} "nonspecific" for this.
+  Summary: Gives words {nav HablI'} <fax> and {ghogh HablI'} <telephone>, and a
+    discussion aspect of whether or not {Hoch} can be used so mean ‘all except
+    for what I’m specifying to the contrary’ -- Marc Okrand instead suggest
+    {le'be'} <unexceptional> or <nonspecific> for this.
 
 ]][[p.20]]
 

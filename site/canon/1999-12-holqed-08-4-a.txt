@@ -6,17 +6,21 @@
   [2002-07-15] added a few missing curly brackets
   [2003-01-29] added file header
   [2006-08-21] corrected faulty {nogh} to {nagh}
+  [2013-04-11] minor source update + added summary
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
   Date: December 1999
   Title: Maltz Online
   Author: Marc Okrand
-  Source: <{HolQeD} 8:4>, pages 6-10
+  Source: <{HolQeD} 8:4>, pages 6--10
   Publisher: Klingon Language Institute, Flourtown, PA, ISSN 1061-2327
-  Summary:
+  Summary: New Klingon words for compass directions, {chan} <area eastward>,
+    {'ev} <area northwestward>, {tIng} <area southwestward>, plus a new
+    adverbial {ngugh} <then>, <at that time> (as opposed to <subsequently>)
+    and a related idiom.
 
-  : "Maltz Online", from <{HolQeD} 8:4>, pages 6-10
+  : "Maltz Online", from <{HolQeD} 8:4>, pages 6--10
   : Article by Marc Okrand
   : Klingon Language Institute, Flourtown, PA
   : ISSN 1061-2327

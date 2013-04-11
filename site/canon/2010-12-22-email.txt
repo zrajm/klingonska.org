@@ -1,12 +1,14 @@
 [[
   [2011-02-06] added document
+  [2013-04-11] minor summary update
 
   Type: email
   Date: 22 December 2010
-  Title: latlh 'e'nalpu'
+  Title: {latlh 'e'nalpu'}
   Author: Lieven L. Litaer (reposting part of an email from Marc Okrand)
-  Summary: Describing relationships like "brother-in-law", "sister-in-law", and
-    spouses siblings' spouses.
+  Summary: Describing relationships like <brother-in-law>, <sister-in-law>, and
+    spouses siblings’ spouses.
+
 ]]
 
 Date: Wed, 22 Dec 2010 21:12:04 +0100

@@ -1,6 +1,7 @@
 [[
   [2012-06-03, 06:24-06:32] transcribed from trading card by Zrajm C Akfohg
   [2012-06-03, 06:32-06:50] proofread, added file header
+  [2013-04-11] minor summary update
   Style: {}=bold, <>=italic
 
   Type: trading card
@@ -9,7 +10,7 @@
   Author: Marc Okrand (translation) (?)
   Publisher: Decipher Inc.
   Summary: Transcript of the <Star Trek: Customizable Card Game> card in
-    Klingon by Decipher Inc. The card has several phrases taken from the TKD,
+    Klingon by Decipher Inc. The card has several phrases taken from the <TKD>,
     instructions for game play and a copyright notice, all in Klingon. It is
     not known whether or not Marc Okrand provided the translation. (Abbreviated
     <CCG> or <ST:CCG>.)

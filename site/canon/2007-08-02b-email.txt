@@ -1,13 +1,15 @@
 [[
   [2011-09-15] added document
+  [2013-04-11] minor summary + title update
 
   Type: email
   Date: 2 August 2007
-  Title: RE: mu' chu'
+  Title: RE: {mu' chu'}
   Author: Eric Andeen (referring to conversation with Marc Okrand)
-  Summary: First mention of the new word {pu'jIn} "map", which was introduced
-    my Marc Okrand during {qep'a'} 2007, on the tlhingan-hol mailing list.
-    (Written in Klingon.)
+  Summary: First mention of the new word {pu'jIn} <map>, which was introduced
+    my Marc Okrand during the {qep'a'} of 2007, on the tlhingan-hol mailing
+    list. (Written in Klingon.)
+
 ]]
 
 From: "Eric Andeen" <eandeen@hotmail.com>

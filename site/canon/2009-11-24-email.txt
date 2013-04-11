@@ -1,13 +1,15 @@
 [[
   [2011-09-15] added document
+  [2013-04-11] minor summary update
 
   Type: email
   Date: 24 November 2009
   Title: {pu'jIn}
-  Author: Lieven Litaer (describing letter from Marc Okrand)
+  Author: Lieven L. Litaer (describing letter from Marc Okrand)
   Summary: Partial description of a letter from Marc Okrand, giving an
-    additional translation of the word {pu'jIn} "map". The new meaning is
-    "plan" (as in an architect's plan of a house).
+    additional translation of the word {pu'jIn} <map>. The new meaning is
+    <plan> (as in an architect’s plan of a house).
+
 ]]
 
 Date: Tue, 24 Nov 2009 22:12:50 +0100

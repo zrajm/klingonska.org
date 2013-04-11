@@ -1,17 +1,18 @@
 [[
   [2000-06-30] OCR scanned by Zrajm C Akfohg
   [2002-07-19] added new header
+  [2013-04-11] minor source update
   Style: {}=bold, <>=italics, ^=superscript, corrections, paginated
 
   Type: article
   Date: June 1992
   Title: An Interview with Marc Okrand
   Author: David Barron
-  Source: <{HolQeD} 1:2>, pages 10-15
+  Source: <{HolQeD} 1:2>, pages 10--15
   Publisher: Klingon Language Institute, Lake Bluff, IL, ISSN 1061-2327
   Summary:
 
-  : "An Interview with Marc Okrand", from <{HolQeD} 1:2>, pages 10-15
+  : "An Interview with Marc Okrand", from <{HolQeD} 1:2>, pages 10--15
   : Article by David Barron, June 1992
   : Klingon Language Institute, Lake Bluff, IL
   : ISSN 1061-2327
