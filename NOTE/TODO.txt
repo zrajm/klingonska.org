@@ -1367,7 +1367,7 @@ optimization."
     to the prettified version (as well as to the original text formatted
     transcript).
 *** [60%] Transcripts updating/improvement
-**** [75%] Rename files
+**** [85%] Rename files
      a) rename file
      b) remove any links to old file in local site
      c) remove links to old file in published site
@@ -1378,6 +1378,18 @@ optimization."
 ***** TODO 1997-decipher-ccg.txt -> 1997-12-31-decipher-ccg.txt
       This is the original publication date according to
       http://www.wixiban.com/ccg/1e-fajo.htm.
+***** DONE pic/1994-sbx-sp1a-big.jpg -> pic/1994-sbx-sp1a.jpg
+      CLOSED: [2013-04-12 Fri 04:10]
+***** DONE pic/1994-sbx-sp1b-big.jpg -> pic/1994-sbx-sp1b.jpg
+      CLOSED: [2013-04-12 Fri 04:10]
+***** DONE pic/1994-sbx-sp2a-big.jpg -> pic/1994-sbx-sp2a.jpg
+      CLOSED: [2013-04-12 Fri 04:10]
+***** DONE pic/1994-sbx-sp2b-big.jpg -> pic/1994-sbx-sp2b.jpg
+      CLOSED: [2013-04-12 Fri 04:10]
+***** DONE pic/1994-sbx-sp3a-big.jpg -> pic/1994-sbx-sp3a.jpg
+      CLOSED: [2013-04-12 Fri 04:10]
+***** DONE pic/1994-sbx-sp3b-big.jpg -> pic/1994-sbx-sp3b.jpg
+      CLOSED: [2013-04-12 Fri 04:10]
 ***** DONE pic/1993-sbx-01a-big.jpg -> pic/1993-sbx-01a.jpg
       CLOSED: [2013-04-11 Thu 19:08]
 ***** DONE pic/1993-sbx-01a-thmb.jpg -> pic/mini/1993-sbx-01a.jpg

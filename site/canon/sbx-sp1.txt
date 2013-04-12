@@ -1,7 +1,7 @@
 created: 2009-05-29
-updated: 2012-05-17 00:03
+updated: 2013-04-12T03:58:06+0200
 author: zrajm
-year: 2009--2012
+year: 2009--2013
 lang: en
 style: gallery
 
@@ -22,17 +22,15 @@ in <time datetime="1994-12">December 1994</time>.
 
 SkyBox Trading Card SP1
 -----------------------
-<div class="gallery">
-  <figure>
-    <a href="pic/1994-sbx-sp1a-big.jpg"><img src="pic/1994-sbx-sp1a-big.jpg"
-    width="250" height="180"></a>
-    <figcaption>Front, card SP1</figcaption>
-  </figure>
-  <figure>
-    <a href="pic/1994-sbx-sp1b-big.jpg"><img src="pic/1994-sbx-sp1b-big.jpg"
-    width="250" height="180"></a></p>
-    <figcaption>Back, card SP2</figcaption>
-  </figure>
+<div class=gallery>
+  <a class=item style="width:250px" href="pic/1994-sbx-sp1a.jpg">
+    <img src="pic/mini/1994-sbx-sp1a.jpg" width=250 height=181>
+    Front, card SP1
+  </a>
+  <a class=item style="width:250px" href="pic/1994-sbx-sp1b.jpg">
+    <img src="pic/mini/1994-sbx-sp1b.jpg" width=250 height=181>
+    Back, card SP2
+  </a>
 </div>
 
 ### SP1: {Qo’noS wo’} -- Empire of Kronos ###
@@ -62,19 +60,16 @@ OKRAND, AUTHOR OF *THE KLINGON DICTIONARY*.
 
 SkyBox Trading Card SP2
 -----------------------
-<div class="gallery">
-  <figure>
-    <a href="pic/1994-sbx-sp2a-big.jpg"><img src="pic/1994-sbx-sp2a-big.jpg"
-    width="250" height="180"></a>
-    <figcaption>Front, card SP2</figcaption>
-  </figure>
-  <figure>
-    <a href="pic/1994-sbx-sp2b-big.jpg"><img src="pic/1994-sbx-sp2b-big.jpg"
-    width="250" height="180"></a>
-    <figcaption>Back, card SP2</figcaption>
-  </figure>
+<div class=gallery>
+  <a class=item style="width:250px" href="pic/1994-sbx-sp2a.jpg">
+    <img src="pic/mini/1994-sbx-sp2a.jpg" width=250 height=181>
+    Front, card SP2
+  </a>
+    <a class=item style="width:250px" href="pic/1994-sbx-sp2b.jpg">
+    <img src="pic/mini/1994-sbx-sp2b.jpg" width=250 height=181>
+    Back, card SP2
+  </a>
 </div>
-
 
 ### SP2: {SuvwI' taj} -- Blade of the Warrior ###
 
@@ -101,19 +96,18 @@ TM, ® & © 1994 PARAMOUNT PICTURES. ALL RIGHTS RESERVED. STAR TREK AND RELATED
 MARKS ARE TRADEMARKS OF PARAMOUNT PICTURES. SKYBOX INTERNATIONAL, INC.
 AUTHORIZED USER.
 
+
 SkyBox Trading Card SP3
 -----------------------
-<div class="gallery">
-  <figure>
-    <a href="pic/1994-sbx-sp3a-big.jpg"><img src="pic/1994-sbx-sp3a-big.jpg"
-      width="250" height="180"></a>
-    <figcaption>Front, card SP3</figcaption>
-  </figure>
-  <figure>
-    <a href="pic/1994-sbx-sp3b-big.jpg"><img src="pic/1994-sbx-sp3b-big.jpg"
-      width="250" height="180"></a>
-    <figcaption>Back, card SP3</figcaption>
-  </figure>
+<div class=gallery>
+  <a class=item style="width:250px" href="pic/1994-sbx-sp3a.jpg">
+    <img src="pic/mini/1994-sbx-sp3a.jpg" width=250 height=181>
+    Front, card SP3
+  </a>
+  <a class=item style="width:250px" href="pic/1994-sbx-sp3b.jpg">
+    <img src="pic/mini/1994-sbx-sp3b.jpg" width=250 height=181>
+    Back, card SP3
+  </a>
 </div>
 
 ### SP3: {tlhIngan wIy} -- Klingon Tactical Display ###
