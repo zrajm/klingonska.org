@@ -283,7 +283,7 @@ optimization."
       are incorporated into the KLO pages. Old stuff is just an annoyance to
       maintain. (And, even after removal, would still be available in the git
       repo, if anyone *really* cared.)
-***** [55%] Convert all pages to new HTML template
+***** [56%] Convert all pages to new HTML template
       Thereby centralizing the page header/footer etc. `bin/markdown2html` is
       the tool used for this, except for files in /dict/, which uses `parse`.
       Unifying these two tools into one will become a later issue, though.
@@ -374,7 +374,10 @@ optimization."
 ****** DONE HCoop redirect: `canon/1994-sbx-sp1.html` -> `canon/sbx-sp1.html
        CLOSED: [2012-09-07 Fri 05:46]
 ****** TODO `canon/1995-sbx-s13.html`
-****** TODO `canon/1995-sbx-s7.html`
+****** DONE `canon/1995-sbx-s7.html`
+       CLOSED: [2013-04-12 Fri 05:04]
+****** DONE HCoop redirect: `canon/1995-sbx-s7.html` -> `canon/sbx-s7.html`
+       CLOSED: [2013-04-12 Fri 05:07]
 ****** DONE `canon/1996-04-kcd.html` -> `canon/kcd.txt`
        CLOSED: [2013-02-24 Sun 02:57]
 ****** DONE HCoop redirect: `canon/1996-04-kcd.html` -> `canon/kcd.html
@@ -1367,7 +1370,7 @@ optimization."
     to the prettified version (as well as to the original text formatted
     transcript).
 *** [60%] Transcripts updating/improvement
-**** [85%] Rename files
+**** [90%] Rename files
      a) rename file
      b) remove any links to old file in local site
      c) remove links to old file in published site
@@ -1378,6 +1381,20 @@ optimization."
 ***** TODO 1997-decipher-ccg.txt -> 1997-12-31-decipher-ccg.txt
       This is the original publication date according to
       http://www.wixiban.com/ccg/1e-fajo.htm.
+***** DONE 1995-sbx-s7.html -> sbx-s7.txt
+      CLOSED: [2013-04-12 Fri 05:23]
+***** DONE pic/1995-sbx-s7a-big.jpg -> pic/1995-sbx-s7a.jpg
+      CLOSED: [2013-04-12 Fri 05:22]
+***** DONE pic/1995-sbx-s7b-big.jpg -> pic/1995-sbx-s7b.jpg
+      CLOSED: [2013-04-12 Fri 05:22]
+***** DONE pic/1995-sbx-s8a-big.jpg -> pic/1995-sbx-s8a.jpg
+      CLOSED: [2013-04-12 Fri 05:22]
+***** DONE pic/1995-sbx-s8b-big.jpg -> pic/1995-sbx-s8b.jpg
+      CLOSED: [2013-04-12 Fri 05:22]
+***** DONE pic/1995-sbx-s9a-big.jpg -> pic/1995-sbx-s9a.jpg
+      CLOSED: [2013-04-12 Fri 05:22]
+***** DONE pic/1995-sbx-s9b-big.jpg -> pic/1995-sbx-s9b.jpg
+      CLOSED: [2013-04-12 Fri 05:22]
 ***** DONE pic/1994-sbx-sp1a-big.jpg -> pic/1994-sbx-sp1a.jpg
       CLOSED: [2013-04-12 Fri 04:10]
 ***** DONE pic/1994-sbx-sp1b-big.jpg -> pic/1994-sbx-sp1b.jpg

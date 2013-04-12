@@ -1,5 +1,5 @@
 created: 1999-08-08
-updated: 2013-04-11T08:05:18+0200
+updated: 2013-04-12T05:22:48+0200
 author: zrajm
 year: 1999-2013
 lang: en
@@ -259,7 +259,7 @@ publication, or a description of its contents and/or form).
   <tbody id=1995>
     <tr>
       <td class=nobr><big>1995</big>
-      <td><big><a href="1995-sbx-s7.html">SkyBox Trading
+      <td><big><a href="sbx-s7.html">SkyBox Trading
             Cards <i>S7</i>, <i>S8</i> and <i>S9</i></a>
             (<a href="1995-sbx-s07.txt">S7</a>, <a href="1995-sbx-s08.txt">S8</a>, <a href="1995-sbx-s09.txt">S9</a>)</big>
         <br><small>• Trading cards translated by Marc Okrand,
