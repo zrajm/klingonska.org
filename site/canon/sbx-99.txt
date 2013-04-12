@@ -1,7 +1,7 @@
 created: 2001-07-05
-updated: 2012-05-17 00:03
+updated: 2013-04-11T18:37:27+0200
 author: zrajm
-year: 2001--2012
+year: 2001--2013
 lang: en
 style: gallery
 
@@ -10,43 +10,47 @@ SkyBox Trading Card for DS9 Season 1
 <p class=center>[<a href="http://www.nslists.com/stdsn1.htm">Collector’s list
   of all cards in this series</a>]</p>
 
-One of the cards in the SkyBox trading card set for *Star Trek: Deep Space
-Nine* first season was produced in six different versions, with different
-languages: English (card 1), German (card 95), French (card 96), Spanish (card
-97), Japanese (card 98), and Klingon (card 99). The Klingon was translation
-made by Marc Okrand. The Klingon card is here faithfully reproduced with all
-errors occuring in the original. For more details on which these errors are,
-see the plain text transcription of [card 99](1993-sbx-99.txt). (I’ve so far
-been unable to obtain a copy [or scan of the text side] of the English card, so
-that image is missing, and the transcript for that card is Steven Boozer’s, not
-my own.) A transcript of card 99 was also printed in [*{HolQeD} 3:2,*
-page 9](1994-06-holqed-03-2.txt) in <time datetime="1994-06">June 1994</time>.
+One of the cards in the SkyBox trading card set for the first season of *Star
+Trek: Deep Space Nine* was produced in six different versions, with different
+languages: English (card 01), German (card 95), French (card 96), Spanish (card
+97), Japanese (card 98), and Klingon (card 99).
+
+Marc Okrand translated the Klingon card. It is here exactly reproduced, with
+all errors occuring in the original. For more details on which these errors
+are, see [plain text transcription of card 99](1993-sbx-99.txt).
+
+A transcript of card 99 was also printed in [*{HolQeD} 3:2,*
+(p. 9)](1994-06-holqed-03-2.txt) in <time datetime="1994-06">June 1994</time>.
 
 
-SkyBox Trading Card 99
-----------------------
-<div class="gallery">
-  <figure>
-    <a href="pic/1993-sbx-99a-big.jpg"><img src="pic/1993-sbx-99a-thmb.jpg"
-      width="250" height="180"></a>
-    <figcaption>Front, card #99</figcaption>
-  </figure>
-  <figure>
-    <a href="pic/1993-sbx-99b-big.jpg"><img src="pic/1993-sbx-99b-thmb.jpg"
-      width="250" height="180"></a>
-    <figcaption>Back, card #99</figcaption>
-  </figure>
+SkyBox Trading Card 99 (Klingon)
+--------------------------------
+<div class=gallery>
+  <a class=item style="width:250px" href="pic/1993-sbx-99a.jpg">
+    <img src="pic/mini/1993-sbx-99a.jpg" width=250 height=181>
+    Front, card 99 (Klingon)
+  </a>
+  <a class=item style="width:250px" href="pic/1993-sbx-99b.jpg">
+    <img src="pic/mini/1993-sbx-99b.jpg" width=250 height=181>
+    Back, card 99 (Klingon)
+  </a>
 </div>
 
 
-### {QU'} ###
+### 99 --- {QU'} ###
 
-{loS...qIb HeHDaq, 'u' SepmeyDaq Sovbe'lu'bogh lenglu'meH He ghoSlu'bogh
-retlhDaq 'oHtaH. HaDlu'meH, QuSlu'meH, SuDlu'meH lojmIt Da logh Hop Hut
-tengchaH. vaj loghDaq lenglaHtaH Humanpu'. veH Qav 'oH logh'e'.}
+{loS…qIb HeHDaq, 'u' SepmeyDaq
+Sovbe'lu'bogh lenglu'meH He
+ghoSlu'bogh retlhDaq 'oHtaH.
+HaDlu'meH, QuSlu'meH, SuDlu'meH
+lojmIt Da logh Hop Hut tengchaH.
+vaj loghDaq lenglaHtaH Humanpu'.
+veH Qav 'oH logh'e'.}
 
-STAR TREK<sup>®</sup> DEEP SPACE NINE<sup>TM</sup> Paramount<sup>®</sup>
-SkyBox<sup>TM</sup>
+1993 SERIES
+
+STAR TREK<sup>®</sup> DEEP SPACE NINE<sup>TM</sup>
+Paramount<sup>®</sup> SkyBox<sup>TM</sup>
 
 TM, ® & © 1993 Paramount Pictures. All Rights Reserved. STAR
 TREK and Related Marks are Trademarks of Paramount Pictures. SkyBox
@@ -55,22 +59,186 @@ International, Inc. Authorized User.
 *Phonetic translation by Marc Okrand, author of* The Klingon Dictionary.
 
 
-SkyBox Trading Card 1
----------------------
-<div class="gallery">
-  <figure>
-    <a href="pic/1993-sbx-01a-big.jpg"><img src="pic/1993-sbx-01a-thmb.jpg"
-      width="250" height="175"></a>
-    <figcaption>Front, card #1</figcaption>
-  </figure>
+
+SkyBox Trading Card 01 (English)
+--------------------------------
+<div class=gallery>
+  <a class=item style="width:250px" href="pic/1993-sbx-01a.jpg">
+    <img src="pic/mini/1993-sbx-01a.jpg" width=250 height=181>
+    Front, card 01 (English)
+  </a>
+  <a class=item style="width:250px" href="pic/1993-sbx-01b.jpg">
+    <img src="pic/mini/1993-sbx-01b.jpg" width=250 height=181>
+    Back, card 01 (English)
+  </a>
 </div>
 
 
-### The Mission ###
+### 01 --- THE MISSION ###
 
-It waits...on the edge of the galaxy, beside a passage to unknown regions of
-the universe, space station Deep Space Nine is the gateway for the exploration,
-intrigue and enterprise that mark the continuation of the human adventure into
-space---the final frontier.
+It waits…on the edge of the
+galaxy, beside a passage to
+unknown regions of the
+universe, space station
+<i>Deep Space Nine</i> is the
+gateway for the exploration,
+intrigue and enterprise that
+mark the continuation of the
+human adventure into space
+--- the final frontier.
+
+1993 SERIES
+
+STAR TREK<sup>®</sup> DEEP SPACE NINE<sup>TM</sup>
+Paramount<sup>®</sup> SkyBox<sup>TM</sup>
+
+TM, ® & © 1993 Paramount Pictures. All Rights Reserved.
+STAR TREK and Related Marks are Trademarks of Paramount
+Pictures. SkyBox International, Inc. Authorized User.
+
+
+SkyBox Trading Card 95 (German)
+-------------------------------
+<div class=gallery>
+  <a class=item style="width:250px" href="pic/1993-sbx-95a.jpg">
+    <img src="pic/mini/1993-sbx-95a.jpg" width=250 height=181>
+    Front, card 95 (German)
+  </a>
+  <a class=item style="width:250px" href="pic/1993-sbx-95b.jpg">
+    <img src="pic/mini/1993-sbx-95b.jpg" width=250 height=181>
+    Back, card 95 (German)
+  </a>
+</div>
+
+
+### 95 --- <span lang=de>DIE MISSION</span> ###
+
+<span lang=de>Sie wartet…am Rande der
+Galaxie neben einer Durchfahrt
+in unbekannte Regionen des
+Universums. Die Raumstation
+<i>Deep Space Nine</i> ist der
+Ausgangspunkt für
+Entdeckungen, Intrigen und
+Unternehmungen, die immer
+weitere Abenteuer des
+Menschen im Weltraum
+bedeuten --- die letzte Grenze.</span>
+
+1993 SERIES
+
+STAR TREK<sup>®</sup> DEEP SPACE NINE<sup>TM</sup>
+Paramount<sup>®</sup> SkyBox<sup>TM</sup>
+
+TM, ® & © 1993 Paramount Pictures. All Rights Reserved.
+STAR TREK and Related Marks are Trademarks of Paramount
+Pictures. SkyBox International, Inc. Authorized User.
+
+
+SkyBox Trading Card 96 (French)
+-------------------------------
+<div class=gallery>
+  <a class=item style="width:250px" href="pic/1993-sbx-96a.jpg">
+    <img src="pic/mini/1993-sbx-96a.jpg" width=250 height=181>
+    Front, card 96 (French)
+  </a>
+  <a class=item style="width:250px" href="pic/1993-sbx-96b.jpg">
+    <img src="pic/mini/1993-sbx-96b.jpg" width=250 height=181>
+    Back, card 96 (French)
+  </a>
+</div>
+
+### 96 --- <span lang=fr>LA MISSION</span> ###
+
+<span lang=fr>Elle attend…à la limite de la
+galaxie, tout près d'un passage
+vers des régions inconnues de
+l'univers, la station spatiale
+<i>“Deep Space Nine”</i> est la voie
+d'accès pour l'exploration,
+l'intrigue et l'enterprise qui
+marquent la continuation de
+l'aventure humaine dans
+l'espace --- l'ultime frontière.</span>
+
+1993 SERIES
+
+STAR TREK<sup>®</sup> DEEP SPACE NINE<sup>TM</sup>
+Paramount<sup>®</sup> SkyBox<sup>TM</sup>
+
+TM, ® & © 1993 Paramount Pictures. All Rights Reserved.
+STAR TREK and Related Marks are Trademarks of Paramount
+Pictures. SkyBox International, Inc. Authorized User.
+
+
+SkyBox Trading Card 97 (Spanish)
+--------------------------------
+<div class=gallery>
+  <a class=item style="width:250px" href="pic/1993-sbx-97a.jpg">
+    <img src="pic/mini/1993-sbx-97a.jpg" width=250 height=181>
+    Front, card 97 (Spanish)
+  </a>
+  <a class=item style="width:250px" href="pic/1993-sbx-97b.jpg">
+    <img src="pic/mini/1993-sbx-97b.jpg" width=250 height=181>
+    Back, card 97 (Spanish)
+  </a>
+</div>
+
+
+### 97 --- <span lang=es>LA MISION</span> ###
+
+<span lang=es>En espera…en el filo de la
+galaxia, junto a un pasadizo a
+las regiones desconocidas del
+universo, la estación espacial
+<i>Deep Space Nine</i> es la
+puerta de acceso para la
+exploración, intriga y misión
+que marcan la continuación de
+la aventura humana en el
+espacio --- la frontera final.</span>
+
+1993 SERIES
+
+STAR TREK<sup>®</sup> DEEP SPACE NINE<sup>TM</sup>
+Paramount<sup>®</sup> SkyBox<sup>TM</sup>
+
+TM, ® & © 1993 Paramount Pictures. All Rights Reserved.
+STAR TREK and Related Marks are Trademarks of Paramount
+Pictures. SkyBox International, Inc. Authorized User.
+
+
+SkyBox Trading Card 98 (Japanese)
+---------------------------------
+<div class=gallery>
+  <a class=item style="width:250px" href="pic/1993-sbx-98a.jpg">
+    <img src="pic/mini/1993-sbx-98a.jpg" width=250 height=181>
+    Front, card 98 (Japanese)
+  </a>
+  <a class=item style="width:250px" href="pic/1993-sbx-98b.jpg">
+    <img src="pic/mini/1993-sbx-98b.jpg" width=250 height=181>
+    Back, card 98 (Japanese)
+  </a>
+</div>
+
+
+### 98 --- <span lang=ja>ミッション</span> ###
+
+<span lang=ja style="line-break:strict;">銀河星雲のかなた、宇宙の未開地へ
+の通路近くに待機する宇宙ステーシ
+ョン、ディープ・スペース・ナインは、
+探求、好奇心、冒険などに象徴される
+未開のフロンティア、宇宙への人類
+の継続したアドべンチャーのゲイト
+ゥェイです。</span>
+
+1993 SERIES
+
+STAR TREK<sup>®</sup> DEEP SPACE NINE<sup>TM</sup>
+Paramount<sup>®</sup> SkyBox<sup>TM</sup>
+
+TM, ® & © 1993 Paramount Pictures. All Rights Reserved.
+STAR TREK and Related Marks are Trademarks of Paramount
+Pictures. SkyBox International, Inc. Authorized User.
 
 [[eof]]
