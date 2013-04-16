@@ -1,0 +1,98 @@
+created: 2012-04-16
+updated: 2013-04-16T16:36:58+0200
+author: zrajm
+year: 2013
+lang: en
+style: gallery
+
+Decipher Inc. Trading Card from  <i>The Fajo Collection</i>
+===========================================================
+
+<p class=center>[<a href="http://nslists.com/stccgfaj.htm">Collector’s list of
+    all cards in this series</a>]</p>
+
+One of the cards released in the <i>The Fajo Collection</i> of the [<i>Star
+Trek Customizable Card
+Game</i>](http://en.wikipedia.org/wiki/Star_Trek_Customizable_Card_Game) was
+written entirely in Klingon (an English translation was, however, provided in
+the rulebook accompanying the deck).
+
+The text on the card consists of a description of how to use the card in game
+play, copyright text, and some proverbs taken from <i>TKW.</i> The original
+Klingon is of high quality and this have led people to speculate that it was
+translated by Marc Okrand, but whether he was involved or not is not currently
+known.
+
+<table>
+  <tr><th>Proverb<th>Page
+  <tr>
+    <td>{DabuQlu'DI' yISuv.}
+      <br><i>When threatened, fight.</i>
+    <td>p. 7
+  <tr>
+    <td>{bISovbejbe'DI' tImer.}
+      <br><i>When in doubt, surprise them.</i>
+    <td>p. 25
+  <tr>
+    <td>{Suvlu'taHvIS yapbe' HoS neH.}
+      <br><i>Brute strength is not the most important asset in a fight.</i>
+    <td>p. 21
+  <tr>
+    <td>{tIqDaq HoSna' tu'lu'.}
+      <br><i>Real power is in the heart.</i>
+    <td>p. 23
+  <tr>
+    <td>{may'meyDajvo' Haw'be' tlhIngan.}
+      <br><i>A Klingon does not run away from his battles.</i>
+    <td>p. 91
+</table>
+
+
+Decipher Inc. Trading Card “{Qapla’!}”
+--------------------------------------
+
+<div class=gallery>
+  <a class=item style="width:181px" href="pic/1997-ccg-fajoa.jpg">
+    <img src="pic/mini/1997-ccg-fajoa.jpg" width=181 height=250>
+    Front, card “{Qapla’!}”
+  </a>
+  <a class=item style="width:181px" href="pic/1997-ccg-fajob.jpg">
+    <img src="pic/mini/1997-ccg-fajob.jpg" width=181 height=250>
+    Back, card “{Qapla’!}”
+  </a>
+</div>
+
+
+### {qaghwI'} ###
+
+{Qapla'!}
+
+{DabuQlu'DI' yISuv.
+bISovbejbe'DI' tImer.
+Suvlu'taHvIS yapbe'
+HoS neH. tIqDaq HoSna'
+tu'lu'. may'meyDajvo'
+Haw'be' tlhIngan.}
+
+{DuHIvchugh ghol vaj
+qaStaHvIS may'vetlh
+HoSDaq ghob luchel quv
+ghajbogh tlhInganpu'lI'.
+(vI'be'.)}
+
+TM & © 1997 PAR. PIC. † TM & © 1997 {ngoqDaq QayHa'}
+
+----
+
+SUCCESS!
+
+When threatened, fight. When in doubt, surprise them. Brute strength is not the
+most important asset in a fight. Real power is in the heart. A Klingon does not
+run away from his battles.
+
+If an opponent attacks you, during that battle your Klingons with Honor add
+INTEGRITY to STRENGTH. (Not cumulative.)
+
+<p class=right style="color:#888;">(Translation from <i>The Fajo Collection</i> rulebook.)</p>
+
+[[eof]]

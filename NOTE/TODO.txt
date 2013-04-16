@@ -1601,7 +1601,14 @@ optimization."
      HolQeD 3:4, pp.10--11
      Transcripts of SkyBox cards SP1, SP2 and SP3.
      (linked to by 1994-sbx-sp1.html above)
-**** TODO Add HTML page w/ image for Decipher ST:CCG card
+**** [100%] Add HTML page w/ image for Decipher ST:CCG card
+     Article should be called 'ccg-fajo', rather than 'decipher-ccg'.
+***** DONE Write subarticle
+      CLOSED: [2013-04-16 Tue 16:43]
+***** DONE HCoop redirect: decipher-ccg.html -> ccg-fajo.html
+      CLOSED: [2013-04-16 Tue 16:43]
+***** DONE HCoop redirect: 1997-12-31-decipher-ccg.txt -> 1997-12-31-ccg-fajo.txt
+      CLOSED: [2013-04-16 Tue 16:43]
 **** DONE Add transcript of Decipher trading card
      CLOSED: [2012-06-03 Sun 08:22]
      "Star Trek Fajo Collection Qapla Klingon Card"

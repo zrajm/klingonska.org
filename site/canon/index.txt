@@ -706,9 +706,9 @@ publication, or a description of its contents and/or form).
           to <i>msn.<wbr>onstage.<wbr>startrek.<wbr>expert.<wbr>okrand</i></small>
     <tr>
       <td class=nobr rowspan=2><big>1997-12-31</big>
-      <td><big><a href="decipher-ccg.html">Decipher Inc. <i>Star Trek
-            Customizable Card Game -- The Fajo Collection,</i> Card
-            “{Qapla'!}”</a> (<a href="1997-12-31-decipher-ccg.txt">text</a>)</big>
+      <td><big><a href="ccg-fajo.html">Decipher Inc. Trading Card from <i>The
+            Fajo Collection</i></a>
+            (<a href="1997-12-31-ccg-fajo.txt">text</a>)</big>
         <br><small>• Trading cards translated by Marc Okrand(?), Decipher
             Inc.</small>
         <br>     Transcript of the <i>Star Trek: Customizable Card Game</i>
