@@ -5,8 +5,8 @@ year: 2013
 lang: en
 style: gallery
 
-Decipher Inc. Trading Card from  <i>The Fajo Collection</i>
-===========================================================
+Decipher Inc. Trading Card from <i>The Fajo Collection</i>
+==========================================================
 
 <p class=center>[<a href="http://nslists.com/stccgfaj.htm">Collector’s list of
     all cards in this series</a>]</p>
@@ -47,6 +47,10 @@ known.
     <td>p. 91
 </table>
 
+See also [plain text transcription](1997-12-31-ccg-fajo.txt). A transcript of
+this card was printed in [<i>{HolQeD} 9:4,</i> page
+16](2000-12-holqed-09-4-a.txt) in <time datetime="2000-12">December
+2000</time>.
 
 Decipher Inc. Trading Card “{Qapla’!}”
 --------------------------------------
