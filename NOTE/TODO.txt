@@ -283,7 +283,7 @@ optimization."
       are incorporated into the KLO pages. Old stuff is just an annoyance to
       maintain. (And, even after removal, would still be available in the git
       repo, if anyone *really* cared.)
-***** [58%] Convert all pages to new HTML template
+***** [60%] Convert all pages to new HTML template
       Thereby centralizing the page header/footer etc. `bin/markdown2html` is
       the tool used for this, except for files in /dict/, which uses `parse`.
       Unifying these two tools into one will become a later issue, though.
@@ -385,7 +385,10 @@ optimization."
        CLOSED: [2013-02-24 Sun 02:57]
 ****** DONE HCoop redirect: `canon/1996-04-kcd.html` -> `canon/kcd.html
        CLOSED: [2013-02-24 Sun 03:20]
-****** TODO `canon/1996-sbx-s19.html`
+****** DONE `canon/1996-sbx-s19.html`
+       CLOSED: [2013-04-16 Tue 08:07]
+****** DONE HCoop redirect: `canon/1996-sbx-s19.html` -> `canon/sbx-s19.html`
+       CLOSED: [2013-04-16 Tue 08:11]
 ****** TODO `canon/1996-sbx-s25.html`
 ****** TODO `canon/1997-sbx-s31.html`
 ****** TODO `canon/1998-11-01-bop.html`
@@ -1395,6 +1398,20 @@ optimization."
      b) remove any links to old file in local site
      c) remove links to old file in published site
      d) web redirect from old to new name
+***** DONE 1996-sbx-s19.html -> sbx-s19.html
+      CLOSED: [2013-04-16 Tue 08:17]
+***** DONE pic/1996-sbx-s19a-big.jpg -> pic/1996-sbx-s19a.jpg
+      CLOSED: [2013-04-16 Tue 08:15]
+***** DONE pic/1996-sbx-s19b-big.jpg -> pic/1996-sbx-s19b.jpg
+      CLOSED: [2013-04-16 Tue 08:15]
+***** DONE pic/1996-sbx-s20a-big.jpg -> pic/1996-sbx-s20a.jpg
+      CLOSED: [2013-04-16 Tue 08:15]
+***** DONE pic/1996-sbx-s20b-big.jpg -> pic/1996-sbx-s20b.jpg
+      CLOSED: [2013-04-16 Tue 08:15]
+***** DONE pic/1996-sbx-s21a-big.jpg -> pic/1996-sbx-s21a.jpg
+      CLOSED: [2013-04-16 Tue 08:15]
+***** DONE pic/1996-sbx-s21b-big.jpg -> pic/1996-sbx-s21b.jpg
+      CLOSED: [2013-04-16 Tue 08:16]
 ***** DONE 1995-02-01-sarek.txt -> 1994-01-01-sarek.txt
       CLOSED: [2013-04-16 Tue 05:34]
       This is the original publication date of the hardcover, according to
