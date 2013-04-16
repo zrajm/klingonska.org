@@ -283,7 +283,7 @@ optimization."
       are incorporated into the KLO pages. Old stuff is just an annoyance to
       maintain. (And, even after removal, would still be available in the git
       repo, if anyone *really* cared.)
-***** [60%] Convert all pages to new HTML template
+***** [61%] Convert all pages to new HTML template
       Thereby centralizing the page header/footer etc. `bin/markdown2html` is
       the tool used for this, except for files in /dict/, which uses `parse`.
       Unifying these two tools into one will become a later issue, though.
@@ -389,7 +389,8 @@ optimization."
        CLOSED: [2013-04-16 Tue 08:07]
 ****** DONE HCoop redirect: `canon/1996-sbx-s19.html` -> `canon/sbx-s19.html`
        CLOSED: [2013-04-16 Tue 08:11]
-****** TODO `canon/1996-sbx-s25.html`
+****** DONE `canon/1996-sbx-s25.html`
+       CLOSED: [2013-04-16 Tue 09:03]
 ****** TODO `canon/1997-sbx-s31.html`
 ****** TODO `canon/1998-11-01-bop.html`
 ****** TODO `canon/2010-04-29-u-mtk.html`
@@ -1398,6 +1399,18 @@ optimization."
      b) remove any links to old file in local site
      c) remove links to old file in published site
      d) web redirect from old to new name
+***** DONE pic/1996-sbx-s25a-big.jpg -> pic/1996-sbx-s25a.jpg
+      CLOSED: [2013-04-16 Tue 09:07]
+***** DONE pic/1996-sbx-s25b-big.jpg -> pic/1996-sbx-s25b.jpg
+      CLOSED: [2013-04-16 Tue 09:07]
+***** DONE pic/1996-sbx-s26a-big.jpg -> pic/1996-sbx-s26a.jpg
+      CLOSED: [2013-04-16 Tue 09:07]
+***** DONE pic/1996-sbx-s26b-big.jpg -> pic/1996-sbx-s26b.jpg
+      CLOSED: [2013-04-16 Tue 09:07]
+***** DONE pic/1996-sbx-s27a-big.jpg -> pic/1996-sbx-s27a.jpg
+      CLOSED: [2013-04-16 Tue 09:07]
+***** DONE pic/1996-sbx-s27b-big.jpg -> pic/1996-sbx-s27b.jpg
+      CLOSED: [2013-04-16 Tue 09:07]
 ***** DONE 1996-sbx-s19.html -> sbx-s19.html
       CLOSED: [2013-04-16 Tue 08:17]
 ***** DONE pic/1996-sbx-s19a-big.jpg -> pic/1996-sbx-s19a.jpg
