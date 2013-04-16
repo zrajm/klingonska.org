@@ -5,7 +5,7 @@
   Style: {}=bold, <>=italic
 
   Type: trading card
-  Date: 1997
+  Date: 31 December 1997
   Title: {qaghwI'} (Decipher Card)
   Author: Marc Okrand (translation) (?)
   Publisher: Decipher Inc.

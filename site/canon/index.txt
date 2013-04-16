@@ -211,6 +211,18 @@ publication, or a description of its contents and/or form).
         abbreviated <i>SBX,</i> but the abbreviation <i>SBC</i> is also used
         sometimes.)
     <tr>
+      <td class=nobr><big>1994-01-01</big>
+      <td><big><a href="1994-01-01-sarek.txt"><i>Sarek</i></a></big>
+        <br><small>• Novel by Ann C. Crispin, Pocket Books, Simon &amp;
+          Schuster, New York, ISBN 0-671-79562-7</small>
+        <br>     This novel takes place in the years after <i>Star Trek VI: The
+          Undiscovered Country</i>. It focuses on Sarek’s attempt to uncover a
+          conspiracy threatening the entire Federation, a conspiracy which
+          causes Peter Kirk (James Kirk’s nephew) to become be captured by the
+          Klingons. -- Crispin apparently got Marc Okrand to provide her with
+          some Klingon words she felt she needed, most of them new (mostly
+          names of places and animals).
+    <tr>
       <td class=nobr><big>1994-06</big>
       <td><big>»<a href="1994-06-holqed-03-2.txt">Everyday Klingon</a>«</big>
         <br><small>• Article by Lawrence M. Schoen, <i>{HolQeD} 3:2,</i>
@@ -279,18 +291,6 @@ publication, or a description of its contents and/or form).
         third season of <i>Star Trek: The Next Generation</i>. (Usually
         abbreviated <i>SBX,</i> but the abbreviation <i>SBC</i> is also used
         sometimes.)
-    <tr>
-      <td class=nobr><big>1995-02</big>
-      <td><big><a href="1995-02-01-sarek.txt"><i>Sarek</i></a></big>
-        <br><small>• Novel by Ann C. Crispin, Pocket Books, Simon &amp;
-          Schuster, New York, ISBN 0-671-79562-7</small>
-        <br>     This novel takes place in the years after <i>Star Trek VI: The
-          Undiscovered Country</i>. It focuses on Sarek’s attempt to uncover a
-          conspiracy threatening the entire Federation, a conspiracy which
-          causes Peter Kirk (James Kirk’s nephew) to become be captured by the
-          Klingons. -- Crispin apparently got Marc Okrand to provide her with
-          some Klingon words she felt she needed, most of them new (mostly
-          names of places and animals).
     <tr>
       <td class=nobr><big>1995-03</big>
       <td><big>»<a href="1995-03-holqed-04-1.txt">Letters to the
@@ -708,7 +708,7 @@ publication, or a description of its contents and/or form).
       <td class=nobr rowspan=2><big>1997-12-31</big>
       <td><big><a href="decipher-ccg.html">Decipher Inc. <i>Star Trek
             Customizable Card Game -- The Fajo Collection,</i> Card
-            “{Qapla'!}”</a> (<a href="1997-decipher-ccg.txt">text</a>)</big>
+            “{Qapla'!}”</a> (<a href="1997-12-31-decipher-ccg.txt">text</a>)</big>
         <br><small>• Trading cards translated by Marc Okrand(?), Decipher
             Inc.</small>
         <br>     Transcript of the <i>Star Trek: Customizable Card Game</i>

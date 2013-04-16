@@ -1390,15 +1390,17 @@ optimization."
     to the prettified version (as well as to the original text formatted
     transcript).
 *** [60%] Transcripts updating/improvement
-**** [92%] Rename files
+**** [100%] Rename files
      a) rename file
      b) remove any links to old file in local site
      c) remove links to old file in published site
      d) web redirect from old to new name
-***** TODO 1995-02-01-sarek.txt -> 1994-01-01-sarek.txt
+***** DONE 1995-02-01-sarek.txt -> 1994-01-01-sarek.txt
+      CLOSED: [2013-04-16 Tue 05:34]
       This is the original publication date of the hardcover, according to
       wikipedia.
-***** TODO 1997-decipher-ccg.txt -> 1997-12-31-decipher-ccg.txt
+***** DONE 1997-decipher-ccg.txt -> 1997-12-31-decipher-ccg.txt
+      CLOSED: [2013-04-16 Tue 05:41]
       This is the original publication date according to
       http://www.wixiban.com/ccg/1e-fajo.htm.
 ***** DONE pic/1995-sbx-s13a-big.jpg -> pic/1995-sbx-s13a.jpg
