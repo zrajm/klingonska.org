@@ -283,7 +283,7 @@ optimization."
       are incorporated into the KLO pages. Old stuff is just an annoyance to
       maintain. (And, even after removal, would still be available in the git
       repo, if anyone *really* cared.)
-***** [61%] Convert all pages to new HTML template
+***** [62%] Convert all pages to new HTML template
       Thereby centralizing the page header/footer etc. `bin/markdown2html` is
       the tool used for this, except for files in /dict/, which uses `parse`.
       Unifying these two tools into one will become a later issue, though.
@@ -373,11 +373,11 @@ optimization."
        CLOSED: [2012-09-07 Fri 05:35]
 ****** DONE HCoop redirect: `canon/1994-sbx-sp1.html` -> `canon/sbx-sp1.html`
        CLOSED: [2012-09-07 Fri 05:46]
-****** DONE `canon/1995-sbx-s13.html`
+****** DONE `canon/1995-sbx-s13.html` -> canon/sbx-s13.txt
        CLOSED: [2013-04-16 Tue 04:40]
 ****** DONE HCoop redirect: `canon/1995-sbx-s13.html` -> `canon/sbx-s13.html`
        CLOSED: [2013-04-16 Tue 04:40]
-****** DONE `canon/1995-sbx-s7.html`
+****** DONE `canon/1995-sbx-s7.html` -> canon/sbx-s7.txt
        CLOSED: [2013-04-12 Fri 05:04]
 ****** DONE HCoop redirect: `canon/1995-sbx-s7.html` -> `canon/sbx-s7.html`
        CLOSED: [2013-04-12 Fri 05:07]
@@ -385,13 +385,16 @@ optimization."
        CLOSED: [2013-02-24 Sun 02:57]
 ****** DONE HCoop redirect: `canon/1996-04-kcd.html` -> `canon/kcd.html
        CLOSED: [2013-02-24 Sun 03:20]
-****** DONE `canon/1996-sbx-s19.html`
+****** DONE `canon/1996-sbx-s19.html` -> canon/sbx-s19.txt
        CLOSED: [2013-04-16 Tue 08:07]
 ****** DONE HCoop redirect: `canon/1996-sbx-s19.html` -> `canon/sbx-s19.html`
        CLOSED: [2013-04-16 Tue 08:11]
-****** DONE `canon/1996-sbx-s25.html`
+****** DONE `canon/1996-sbx-s25.html -> canon/sbx-s25.txt
        CLOSED: [2013-04-16 Tue 09:03]
-****** TODO `canon/1997-sbx-s31.html`
+****** DONE `canon/1997-sbx-s31.html` -> canon/sbx-s31.txt
+       CLOSED: [2013-04-16 Tue 14:58]
+****** DONE HCoop redirect: `canon/1996-sbx-s19.html` -> `canon/sbx-s19.html`
+       CLOSED: [2013-04-16 Tue 14:58]
 ****** TODO `canon/1998-11-01-bop.html`
 ****** TODO `canon/2010-04-29-u-mtk.html`
 ****** DONE `piq/index.html`
@@ -1233,6 +1236,9 @@ optimization."
 *** TODO Subarticle improvements
     I.e. the HTML pages linked to by the main article (e.g. the SkyBox
     articles).
+**** TODO The "collector's list" links should be normal paragraph
+     Not as now, a special centered top paragraph. Having a normal paragraph
+     looks ok too, and cuts down on HTML in the markdown source.
 **** TODO Logo linkback from the subarticles should be smarter
      The logo linkback should be equivalent of the "back" button if the user
      came from the main article. (Is this possible/desirable?)
@@ -1247,6 +1253,12 @@ optimization."
      linkback to questions/answers on stackoverflow.com).
 
      Can this highlighting happen when user clicks the "back" as well?
+**** TODO Buttons for displaying original/corrected text
+     Text should be marked with <ins> and <del> tags, and there should be a
+     button to display both/org/corrected.
+
+     Should all the text (that has corrections) be duplicated (with and without
+     errors) for the benefit of search engines?
 *** TODO Article on transcribing English words phonetically into Klingon(?)
     BoP:
     {lu'oghta' nIylo roDIS bIl jo'rIj je}
@@ -1399,6 +1411,10 @@ optimization."
      b) remove any links to old file in local site
      c) remove links to old file in published site
      d) web redirect from old to new name
+***** DONE pic/1996-sbx-s31a-big.jpg -> pic/1996-sbx-s31a.jpg
+      CLOSED: [2013-04-16 Tue 14:55]
+***** DONE pic/1996-sbx-s31b-big.jpg -> pic/1996-sbx-s31b.jpg
+      CLOSED: [2013-04-16 Tue 14:55]
 ***** DONE pic/1996-sbx-s25a-big.jpg -> pic/1996-sbx-s25a.jpg
       CLOSED: [2013-04-16 Tue 09:07]
 ***** DONE pic/1996-sbx-s25b-big.jpg -> pic/1996-sbx-s25b.jpg
