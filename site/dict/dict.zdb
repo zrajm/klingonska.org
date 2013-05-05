@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    56dd00722c7ecab00083b18af3ab75a97b1efa3d
+SHA1:    8bad5750d39a2a7a4486005279fd3e38c0a33a05
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -975,7 +975,7 @@ en:	«bank»
 def:	Eurotalk
 com:	{nuqDaq 'oH beylI''e'} "Where is the bank?" [Eurotalk]
 id:	ctx
-meta:	FIXME -- file missing
+file:	2011-11-04-email.txt
 
 tlh:	{bey'}
 pos:	noun
@@ -1024,7 +1024,7 @@ en:	«torture-by-women» (ritualized torture of prisoners, performed by
 def:	Sarek pp.163, 164, 180, 181
 ref:	KLINW
 id:	j6J
-file:	1995-02-01-sarek.txt
+file:	1994-01-01-sarek.txt
 
 tlh:	{be'nal}
 pos:	noun
@@ -1749,7 +1749,14 @@ sv:	«smuts» under naglarna
 en:	<dirt> under fingernails
 def:	TKD
 ref:	TKW p.142; KLINW
-com:	Symbolic equivalent of gall, an admirable trait to have.
+cite:	In Federation Standard, an approximate equivalent is gall. Indeed, Worf
+	said to Kevin Uxbridge, "Your attempt to hold the away team at bay with
+	a nonfunctioning weapon was an act of unmitigated gall... I admire
+	gall." Had Worf said that Uxbridge's action was "an act of unmitigated
+	dirt under the fingernails," he would have been misunderstood, at the
+	very least. The Klingon way to say, "you lack gall" is "{HuH DaHutlh.}"
+	This is literally "You lack bile," and a Klingon would probably only
+	understand it biologically. [TKW p.142]
 id:	TEj
 file:	1992-01-01-tkd.txt
 
@@ -3307,10 +3314,10 @@ pos:	verb
 sv:	«svänga», förflytta sig i sidled (om flygmaskin)
 en:	«sway», move to the side (about aircraft)
 def:	HQ11:2 p.9 ("{matlh jup mu'mey}")
-com:	"When it [an aircraft] moves to the side (not when the nose points to
+cite:	When it [an aircraft] moves to the side (not when the nose points to
 	the left or right, but when the plane slides to the left or right
-	without otherwise changing its orientation)" [HQ11:2 p.9 ("{matlh jup
-	mu'mey}")]
+	without otherwise changing its orientation), it is said to {Dav}
+	~sway~. [HQ11:2 p.9 ("{matlh jup mu'mey}")]
 id:	LTT
 file:	2002-06-holqed-11-2.txt
 
@@ -3555,8 +3562,9 @@ pos:	verb
 sv:	«gira» (om flygmaskin)
 en:	«yaw» (about aircraft)
 def:	HQ11:2 p.9 ("{matlh jup mu'mey}")
-com:	"When the nose of an airplane or similar craft moves to the left or
-	the right [...]" [HQ11:2 p.9 ("{matlh jup mu'mey}")]
+cite:	When the nose of an airplane or similar craft moves to the left or the
+	right, the plane is said to {Der} ~yaw~. [HQ11:2 p.9 ("{matlh jup
+	mu'mey}")]
 id:	wZe
 file:	2002-06-holqed-11-2.txt
 
@@ -3687,8 +3695,8 @@ pos:	noun
 sv:	«trillium»
 en:	<trillium>
 def:	TKD
-com:	STE: "Trillium. Gemstone traded on planet Organia."
-	TOS "Errand of Mercy", DS9 "Trials and Tribble-ations"
+cite:	Trillium. Gemstone traded on planet Organia. [STE]
+com:	Mentioned in TOS "Errand of Mercy" and DS9 "Trials and Tribble-ations".
 id:	xDD
 file:	1992-01-01-tkd.txt
 
@@ -4261,7 +4269,7 @@ sv:	«Duras»
 en:	«Duras»
 def:	S26
 ref:	HQ5:3 p.15 ("Everyday Klingon")
-com:	S26 was reprinted in HQ5:3 p.15
+com:	S26 was reprinted in HQ5:3 p.15.
 id:	9hz
 file:	1996-sbx-s26.txt; 1996-09-holqed-05-3-b.txt
 
@@ -4524,7 +4532,7 @@ sv:	«Gowron»
 en:	«Gowron»
 def:	S25; S26; KGT pp.25, 26, 197, 198
 ref:	HQ5:3 p.15 ("Everyday Klingon")
-com:	S25 and S26 were reprinted in HQ5:3 p.15
+com:	S25 and S26 were reprinted in HQ5:3 p.15.
 id:	Czk
 file:	1996-sbx-s25.txt; 1996-sbx-s26.txt; 1997-11-01-kgt.txt;
 	1996-09-holqed-05-3-b.txt
@@ -4844,7 +4852,7 @@ sv:	«strids«spjut»», «~gin'tak~»
 en:	<battle <spear>>, <~gin'tak~>
 def:	KGT
 com:	An advisor to a house so trusted that he becomes a part of the
-	family is called *gin'tak* according to the TNG episode "Firstborn".
+	family is called *gin'tak* according to TNG "Firstborn".
 tag:	fighting
 id:	BMV
 file:	1997-11-01-kgt.txt
@@ -5490,8 +5498,8 @@ sv:	*@$% («svordom»)
 en:	*@$% («curse»)
 def:	TKD 5.5 (p.58)
 ref:	CK
-com:	CK: "A Klingon might say it after receiving an unsettling
-	communiqué. It's a lot stronger that the Terran 'Darn it!'"
+cite:	A Klingon might say it after receiving an unsettling communiqué. It's a
+	lot stronger that the Terran "Darn it!" [CK]
 id:	1df
 file:	1992-01-01-tkd.txt; 1992-10-01-ck.txt
 
@@ -5853,7 +5861,7 @@ sv:	«rituellt «självmord»»
 en:	«ritual «suicide»»
 def:	Sarek
 id:	k5z
-file:	1995-02-01-sarek.txt
+file:	1994-01-01-sarek.txt
 meta:	FIXME -- This, perhaps, should be {Heghbat}, too?
 
 tlh:	{HeghmoH}
@@ -6118,10 +6126,10 @@ pos:	exclamation
 sv:	«ja» (svar på ja/nej fråga)
 en:	<yes>, «true» (answer to yes/no question)
 def:	TKD 5.5 (p.57) et al.
-com:	In ST3: Only Cathie Shirriff (Valkris) was filmed without benefit of
+cite:	Only Cathie Shirriff (Valkris) [in ST3] was filmed without benefit of
 	on-set coaching. It's her peculiar take on pronunciation which gives us
-	the variant words {jaw} for "lord" and {HISlaH} for "yes".
-	/Alan Anderson in email to tlhingan-hol mailing list, 2011-08-29
+	the variant words {jaw} for "lord" and {HISlaH} for "yes". [Email
+	2011-08-29 (by Alan Anderson, to tlhingan-hol, "Re: dialects")]
 tag:	KLCP1
 id:	Wni
 file:	1992-01-01-tkd.txt
@@ -6682,9 +6690,11 @@ sv:	«galla», «slem»
 en:	«gall», «bile», <slime>
 def:	TKW p.142; KGT
 ref:	PK; KCD
-com:	PK: "'May the bile of the vanquished fill your hands.'
-	{jagh lucharghlu'ta'bogh HuH ghopDu'lIj lungaSjaj.}"
-	See also comments in TKW p.142.
+cite:	"May the bile of the vanquished fill your hands." {jagh
+	lucharghlu'ta'bogh HuH ghopDu'lIj lungaSjaj.} [PK]
+cite:	The Klingon way to say, "you lack gall" is "{HuH DaHutlh.}" This is
+	literally "You lack bile," and a Klingon would probably only understand
+	it biologically. [TKW p.142]
 id:	HFs
 file:	1993-10-01-pk.txt; 1996-04-kcd.txt; 1996-05-01-tkw.txt;
 	1997-11-01-kgt.txt
@@ -6918,7 +6928,7 @@ pos:	exclamation
 sv:	(generellt «invektiv»)
 en:	(general «invective»)
 def:	TKDa 5.5 (p.178)
-com:	In HQ3:3, p.14 Rhonda E. Green comments that a probable translation of
+com:	In HQ3:3 p.14 Rhonda E. Green comments that a probable translation of
 	this word would be "fuck", this based on the usage of the word in
 	A.C. Crispin's "Sarek".
 id:	VSa
@@ -6996,8 +7006,7 @@ sv:	«dag», «dygn» (från gryning till gryning)
 en:	<day> (from dawn to dawn)
 def:	TKD
 ref:	TKW pp.69, 177
-com:	Used with {-vam} in the sentence: {Heghlu'meH QaQ jajvam.}
-	"It is a good day to die." in TKW p.69.
+cite:	It is a good day to die. {Heghlu'meH QaQ jajvam.} [TKW p.69]
 tag:	KLCP1; measure; time
 id:	jWh
 file:	1992-01-01-tkd.txt
@@ -7058,7 +7067,7 @@ sv:	«Jean-Luc Picard»
 en:	«Jean-Luc Picard»
 def:	S25
 ref:	HQ5:3 p.15 ("Everyday Klingon")
-com:	S25 was reprinted in HQ5:3 p.15
+com:	S25 was reprinted in HQ5:3 p.15.
 data:	non-phonotactic; phrase; {janluq} (name); {pIqarD} (name)
 id:	qLh
 file:	1996-sbx-s25.txt; 1996-09-holqed-05-3-b.txt
@@ -7202,10 +7211,11 @@ pos:	noun
 sv:	«herre»
 en:	<lord>
 def:	TKD
-com:	In ST3: Only Cathie Shirriff (Valkris) was filmed without benefit of
+cite:	Only Cathie Shirriff (Valkris) [in ST3] was filmed without benefit of
 	on-set coaching. It's her peculiar take on pronunciation which gives us
-	the variant words {jaw} for "lord" and {HISlaH} for "yes".
-	/Alan Anderson in email to tlhingan-hol mailing list, 2011-08-29
+	the variant words {jaw} for "lord" and {HISlaH} for "yes". [Email
+	2011-08-29 (by Alan Anderson, to tlhingan-hol, "Re: dialects")]
+see:	{joH}
 id:	ZBE
 file:	1992-01-01-tkd.txt
 
@@ -7389,8 +7399,8 @@ pos:	verb
 sv:	«rycka», plötsligt röra sig framåt eller bakåt (om flygmaskin)
 en:	«surge», suddenly move forward or backward (about aircraft)
 def:	HQ11:2 p.9 ("{matlh jup mu'mey}")
-com:	"if it suddenly moves forwards or backwards" [HQ11:2 p.9 ("{matlh jup
-	mu'mey}")]
+cite:	[...] And if it suddenly moves forwards or backwards, it is said to
+	{jer} ~surge~. [HQ11:2 p.9 ("{matlh jup mu'mey}")]
 id:	Yf4
 file:	2002-06-holqed-11-2.txt
 
@@ -7520,7 +7530,7 @@ data:	deprecated
 id:	AbA
 file:	1992-01-01-tkd.txt
 meta:	*{jIj}, in the sense of "cooperate", is here assumed to be a mistake.
-	This meaning only occurs in KTD K-E, "cooperate" is translated {yeq} in
+	This meaning only occurs in TKD K-E, "cooperate" is translated {yeq} in
 	TKD E-K, and all occurrences of {jIj} in later canon are translated as
 	"be cooperative". There is even an example in KGT p.159 explicitly
 	showing the difference between {jIj} and {yeq}: {reH yeq} ("always
@@ -7551,11 +7561,11 @@ pos:	verb
 sv:	«höja», «sänka» (om flygmaskin)
 en:	«heave» (about aircraft)
 def:	HQ11:2 p.9 ("{matlh jup mu'mey}")
-com:	"When the plane moves up or down (not when the nose points up or down,
+cite:	When the plane moves up or down (not when the nose points up or down,
 	but when the plane increases or decreases altitude, as if the whole
-	plane is being pushed up or down)" [HQ11:2 p.9 ("{matlh jup mu'mey}")]
-pun:	This is whan "Jim" Kirk does to outsmart Khan in the nebula, at the
-	end of "Star Trek II: The Wrath of Khan".
+	plane is being pushed up or down) [HQ11:2 p.9 ("{matlh jup mu'mey}")]
+pun:	This is what "Jim" Kirk does to outsmart Khan in the nebula at the end
+	of ST2.
 id:	1iY
 file:	2002-06-holqed-11-2.txt
 
@@ -7566,46 +7576,11 @@ sv:	«brygga»
 en:	«brew»
 def:	Email 2004-07-15 (by Steven Boozer, to tlhingan-hol, "Re: Klingon WOTD:
 	pub (v) > jIn")
-com:	Hmmm, this seems to come from an old entry in my notes:
-	> I remember [Okrand] and I actually were discussing *raktajino* while
-	> he was working on the book [KGT], as soon as we both found out that
-	> it was Klingon coffee... He really hated the /-ino/ ending, since it
-	> sounded too obviously like cappuccino, and said he'd have to check
-	> with Maltz about *raktaj* ... and I had the theory that the Klingon
-	> wasn't "raktaj" or whatever, but actually *raktajin* and the /-o/ was
-	> added by marketers for similarity with Terran brews. Why *raktajin*?
-	> Because it was brewed from {raHta'}, making it {raHta'jIn}." (~mark)
-	I had {jIn} "brew" in my notes, probably because I thought it had been
-	vetted by Okrand, since he was discussing it as a possibility. But as
-	it happened, Okrand rejected this hypothesis - no doubt because
-	{raHta'} *racht* is a type of large food worm served live. While
-	Klingons might enjoy a beverage made from liquefied worms, humans
-	definitely won't and *raktajino* wouldn't have become one of the
-	favorite beverages on DS9. We now read in KGT (pp. 95-96) that:
-	> Though not native to the Empire, Klingons have developed a way to
-	> make coffee ({qa'vIn}) particularly strong, both in flavor and in its
-	> effect as a stimulant, and it is a very popular beverage. As a rule,
-	> coffee is consumed plain--that is, black--but some Klingons prefer to
-	> mix other ingredients in with the coffee. If some kind of {HIq}
-	> ("liquor") is added to the coffee, the drink is called {ra'taj}. It
-	> is said that the drink was originally nicknamed {ra'wI' taj}
-	> ("commander's knife," suggestive of its potency), and that the name
-	> was shortened over time. This often repeated story cannot be
-	> confirmed. In any event, {ra'taj} became one of the few Klingon foods
-	> to become popular outside of the Empire, though in an altered form.
-	> Instead of containing liquor, as does the genuine Klingon {ra'taj},
-	> the "export" version (which came to be pronounced *raktaj* in
-	> Federation Standard) consists of strong Klingon coffee plus a nutlike
-	> flavoring. Eventually, a new fashion developed--adding cream to the
-	> *raktaj*--and with this innovation came yet another name,
-	> *raktajino*, modeled after the name of another popular coffee drink,
-	> cappuccino. *Raktajino* is now served hot or iced, with or without
-	> extra cream, and with or without the rind of some fruit to add even
-	> more flavor. Though it is sometimes called "Klingon coffee," it is
-	> quite different from both plain {qa'vIn} and the alcoholic {ra'taj}.
-	So, I will make the correction to my notes and mark *{jIn} as
-	speculation. Thanks for catching this. /Steven Boozer on tlhingan-hol,
-	15 July 2004
+com:	*{jIn} originated in a discussion where Marc Okrand speculated about
+	the origin of the Federation Standard word ~raktajino~, this
+	speculation was later shown incorrect by KGT, however. [Email
+	2004-07-15 (by Steven Boozer, to tlhingan-hol, "Re: Klingon WOTD: pub
+	(v) > jIn")]
 see:	{ra'taj}
 data:	non-canon
 id:	meY
@@ -7699,6 +7674,7 @@ sv:	«Dam», «Fru» (kvinnligt familjeöverhuvud), «Herre» (manligt
 	familjeöverhuvud)
 en:	<Lady> (female head of house), <Lord> (male head of house)
 def:	TKD; KGT
+see:	{jaw} [2]
 id:	cEC
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 meta:	Entries differ and have been combined here.
@@ -8950,14 +8926,14 @@ sv:	«positionskontrollraketer», «lägeskontrollraketer», «styrraketer»
 en:	<attitude-control «thrusters»>
 def:	TKD
 ref:	HQ11:2 pp.8--9 ("{matlh jup mu'mey}")
-com:	"Weirdly, although Maltz said he knew of no noun meaning "attitude,"
-	the noun {lol} may show up in {lolSeHcha} <attitude control thrusters>.
-	Although the middle element of this word, {SeH}, is certainly the verb
-	<control>, the full etymology of this word is far from clear. (If the
-	final element, {cha}, is, in fact, {cha} <torpedoes>, this may shed
+cite:	Weirdly, although Maltz said he knew of no noun meaning "attitude," the
+	noun {lol} may show up in {lolSeHcha} ~attitude control thrusters~.
+	Although the middle element of this wold, {SeH}, is certainly the verb
+	~control~, the full etymology of this word is far from clear. (If the
+	final element, {cha}, is, in fact, {cha} ~torpedoes~, this may shed
 	some light on early versions of the device. On the other hand,
 	something else may be going on here; maybe {lolSeHcha} is shortened
-	from a longer construction." [HQ11:2 p.8--9 ("{matlh jup mu'mey}")]
+	from a longer construction. [HQ11:2 pp.8--9 ("{matlh jup mu'mey}")]
 id:	z53
 file:	1992-01-01-tkd.txt; 2002-06-holqed-11-2.txt
 
@@ -8993,11 +8969,10 @@ sv:	«följa», «fira» (en ritual)
 en:	<observe>, <celebrate> (a ritual)
 def:	TKD; KGT
 ref:	TKW pp.153, 205
-com:	{yIlop! wa'leS chaq maHegh!} "Celebrate! Tomorrow we may die!"
+cite:	Celebrate! Tomorrow we may die! {yIlop! wa'leS chaq maHegh!}
 	[TKW p.153]
-	{'oy'naQ Dalo'be'chugh not nenghep lop puq.} "If you don't use the
-	painstik, the child will never celebrate his Age of Ascension."
-	[TKW p.205]
+cite:	If you don't use the painstik, the child will never celebrate his Age
+	of Ascension. {'oy'naQ Dalo'be'chugh not nenghep lop puq.} [TKW p.205]
 id:	zke
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 meta:	Translation here comes from KGT. -- TKD translates as "celebrate" (v),
@@ -9409,7 +9384,7 @@ sv:	«Lursa»
 en:	«Lursa»
 def:	S26; KGT p.197
 ref:	HQ5:3 p.15 ("Everyday Klingon")
-com:	S26 was reprinted in HQ5:3 p.15
+com:	S26 was reprinted in HQ5:3 p.15.
 	Lursa is one of the Duras sisters.
 id:	1NQ
 file:	1996-sbx-s26.txt; 1997-11-01-kgt.txt; 1996-09-holqed-05-3-b.txt
@@ -10300,12 +10275,15 @@ en:	<step>, <stage> (in a <procedure> or «process»)
 desc:	{mIw wa'DIch Data'} ~you accomplish the first step~
 def:	TKDa; KGT
 ref:	KGT p.177
-com:	"{'oy'naQ DaQeqDI' mIw wa'DIch Data', 'ach 'oy'naQ Dachu'DI' mIw
-	paghDIch Data'.} ('When you aim the painstik, you accomplish the first
+cite:	{'oy'naQ DaQeqDI' mIw wa'DIch Data', 'ach 'oy'naQ Dachu'DI' mIw
+	paghDIch Data'.} ("When you aim the painstik, you accomplish the first
 	step, but when you turn the painstik on, you accomplish the zeroth
-	step' [...] {mIw,} 'procedure'; [...] )" [KGT p.177]
-	"{'oy'naQ Dachu'Ha'DI' mIw HochDIch Data'} ('When you turn the painstik
-	off, you accomplish the last step'; [...] )" [KGT p.177]
+	step"; {'oy'naQ,} "painstik"; {DaQeqDI',} "when you aim it"; {mIw,}
+	"procedure"; {wa'DIch,} "first"; {Data',} "You accomplish it"; {'ach,}
+	"but"; {Dachu'DI',} "when you activate it") [KGT p.177]
+cite:	{'oy'naQ Dachu'Ha'DI' mIw HochDIch Data'} ("When you turn the painstik
+	off, you accomplish the last step"; {Dachu'Ha'DI',} "when you
+	deactivate it"). [KGT p.177]
 see:	{nab} "plan"
 id:	WkF
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
@@ -10733,8 +10711,8 @@ com:	"One of the more notable native animal forms on Neural [Zeta
 	projectile weapons. Direct Klingon interference, countered
 	by Federation involvement, has divided the inhabitants into
 	five major factions, each of which is feuding with the other
-	four." See also illustration. [Star Trek: The Worlds Of The
-	Federation, pp.140--141]
+	four." See also illustration. [Star Trek: The Worlds of the
+	Federation, pp.140--141]
 tag:	animal
 id:	UDd
 file:	1992-01-01-tkd.txt
@@ -11327,7 +11305,7 @@ sv:	«konsumera», «förtära», «förbruka»
 en:	<use> up, <consume>, <expend>
 def:	KGT
 ref:	S33
-com:	S33 was reprinted in HQ6:2 p.9
+com:	S33 was reprinted in HQ6:2 p.9.
 id:	7Hh
 file:	1997-11-01-kgt.txt
 
@@ -12109,8 +12087,8 @@ sv:	«snabbt», «kvickt»
 en:	<fast>, <quickly>
 def:	TKD
 ref:	TKW p.8
-com:	Could also be used as an exclamation (as can all adverbials)
-	meaning "Move fast! Move quickly!". [TKD 5.4 (p.57)]
+com:	When used alone, as an exclamation, may be translated as ~Move fast!
+	Move quickly!~. [TKD 5.4 (p.57)]
 tag:	time
 id:	vox
 file:	1992-01-01-tkd.txt
@@ -12157,11 +12135,10 @@ pos:	noun
 sv:	ett slags «djur», «~norg~» («haj»liknande havsvarelse)
 en:	type of <animal>, <~norg~> («shark»like sea creature)
 def:	KGT
-com:	Sarek (p.218): "A shark is an Earth animal, a huge fish...
-	you know, fish?" He racked his brain for the Klingon word.
-	"An animal that swims in the sea, a dangerous predator, you
-	know?"
-	"Oh!" she cried. "you mean ~norgh?~"
+cite:	"A shark is an Earth animal, a huge fish... you know, fish?" He racked
+	his brain for the Klingon word. "An animal that swims in the sea, a
+	dangerous predator, you know?" "Oh!" she cried. "you mean ~norgh?~"
+	[Sarek p.218]
 tag:	animal
 id:	sA3
 file:	1997-11-01-kgt.txt
@@ -12500,7 +12477,7 @@ com:	"Federation Catalog Name is Zeta Boötis III. This Class M
 	Federation involvement, has divided the inhabitants into five
 	major factions, each of which is feuding with the other four.
 	One of the more notable native animal forms on is the
-	mugato." [Star Trek: The Worlds Of The Federation,
+	mugato." [Star Trek: The Worlds of the Federation,
 	pp.140--141]
 id:	TYK
 file:	1992-01-01-tkd.txt
@@ -14950,7 +14927,7 @@ pos:	name
 sv:	«Kargan»
 en:	«Kargan»
 def:	S7
-com:	S7 was reprinted in HQ4:3 p.4
+com:	S7 was reprinted in HQ4:3 p.4.
 id:	6hY
 file:	1995-sbx-s07.txt
 
@@ -15394,8 +15371,8 @@ pos:	noun
 sv:	«kevas»
 en:	<kevas>
 def:	TKD
-com:	STE: "Kevas. Gemstone traded on planet Organia."
-	TOS "Errand of Mercy", DS9 "Trials and Tribble-ations"
+cite:	Kevas. Gemstone traded on planet Organia. [STE]
+com:	Mentioned in TOS "Errand of Mercy" and DS9 "Trials and Tribble-ations".
 id:	37U
 file:	1992-01-01-tkd.txt
 
@@ -16995,8 +16972,7 @@ sv:	«Paradiset»
 en:	<Paradise>
 def:	TKDa
 ref:	KCD
-com:	mythological place; source of all creation
-	According to KCD this was the source of all creation in Klingon
+com:	According to KCD this was the source of all creation in Klingon
 	mythology.
 tag:	religion
 id:	RGM
@@ -17305,10 +17281,9 @@ sv:	«höra»
 en:	<hear>
 def:	TKD
 ref:	TKW pp.31, 195
-com:	TKW p.31: "The verb {Qoy} means 'hear,' not just 'listen.'
-	One must actually percieve and understand that which is being
-	said."
-	TKW p.195: used with sentence-as-object construction.
+cite:	The verb "{Qoy}" means "hear," not just "listen." One must actually
+	perceive and understand that which is being said. [TKW p.31]
+cite:	Hear the warrior cry out! {jach SuvwI' 'e' yIQoy!} [TKW p.195]
 tag:	KLCP1
 id:	g24
 file:	1992-01-01-tkd.txt
@@ -17552,8 +17527,8 @@ sv:	#*@! (generellt «invektiv»)
 en:	#*@! (general «invective»)
 def:	TKD 5.5 (p.58); TKDa 5.5 (p.178)
 ref:	CK
-com:	CK: "This is something you might hear someone say in moments
-	of extreme anger."
+cite:	This is something you might hear someone say in moments of extreme
+	anger: {Qu'vatlh}. [CK]
 id:	Cg2
 file:	1992-01-01-tkd.txt; 1992-10-01-ck.txt
 
@@ -18001,7 +17976,7 @@ sv:	«använda» «tumme»n (vanligtvis använt om/till barn)
 en:	«use» the «thumb» (usually used to/about children)
 def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 com:	Most commonly used in reference to a child using a thumb.
-	See also {Sen}.
+see:	{Sen}
 tag:	body part
 id:	dLS
 file:	2001-06-holqed-10-2.txt
@@ -18025,7 +18000,7 @@ sv:	«tumme» (vanligtvis använt om/till barn)
 en:	«thumb» (usually used to/about children)
 def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 com:	Most commonly used in reference to a child's thumb.
-	See also {Sen}.
+see:	{SenwI'}
 tag:	body part
 id:	v6u
 file:	2001-06-holqed-10-2.txt
@@ -18240,10 +18215,10 @@ pos:	verb
 sv:	«banka», «rolla» (om flygmaskin)
 en:	«bank», «roll» (about aircraft)
 def:	HQ11:2 p.9 ("{matlh jup mu'mey}")
-com:	"When the plane banks or rolls to one side or the other so that,
-	say, the left wing is pointed somewhat (or even a lot) upwards while
-	the right wing is pointed somewhat (or a lot) downwards, or vice
-	versa [...]" [HQ11:2 p.9 ("{matlh jup mu'mey}")]
+cite:	When the plane banks or rolls to one side or the other so that, say,
+	the left wing is pointed somewhat (or even a lot) upwards while the
+	right wing is pointed somewhat (or a lot) downwards, or vice versa, it
+	is said to {ron} ~roll~. [HQ11:2 p.9 ("{matlh jup mu'mey}")]
 id:	c4G
 file:	2002-06-holqed-11-2.txt
 
@@ -18850,7 +18825,7 @@ sv:	«använda» «tumme»n (vanligtvis använt om/till vuxna)
 en:	«use» the «thumb» (usually used to/about adults)
 def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 com:	Most commonly used in reference to an adult using a thumb.
-	See also {rIl}.
+see:	{rIl}
 tag:	body part
 id:	q5r
 file:	2001-06-holqed-10-2.txt
@@ -18861,7 +18836,7 @@ sv:	«tumme» (vanligtvis använt om/till vuxna)
 en:	«thumb» (usually used to/about adults)
 def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
 com:	Most commonly used in reference to an adult thumb.
-	See also {rIl}.
+see:	{rIlwI'}
 tag:	body part
 id:	Nph
 file:	2001-06-holqed-10-2.txt
@@ -20393,10 +20368,11 @@ pos:	noun
 sv:	«last», «bagage»
 en:	<cargo>, «baggage»
 def:	TKD; CK
-com:	The word "baggage" is from CK.
-	{teplIj yIwoH 'ej pa'lIjDaq yIjaH.}
+cite:	~Pick up your baggage and go to your room!~ {teplIj yIwoH 'ej pa'lIjDaq
+	yIjaH.} [CK]
 id:	YCs
 file:	1992-01-01-tkd.txt; 1992-10-01-ck.txt
+meta:	Translation "baggage" is from CK.
 
 tlh:	{tepqengwI'}
 pos:	noun
@@ -20824,7 +20800,7 @@ pos:	name
 sv:	«T'Ong» (ett skepp)
 en:	«T'Ong» (a ship)
 def:	S15
-com:	S15 was reprinted in HQ4:3 p.5
+com:	S15 was reprinted in HQ4:3 p.5.
 id:	fPs
 file:	1995-sbx-s15.txt
 
@@ -20896,9 +20872,9 @@ sv:	(«epitet»)
 en:	(«epithet»)
 def:	TKDa 5.5 (p.178)
 ref:	CK
-com:	CK: "This word is something one Klingon would call another,
-	if they weren't on the best of terms"
-	Paramount Hol: "tohzah".
+cite:	This next word is something one Klingon would call another, if they
+	weren't on the best of terms: {toDSaH}. [CK]
+com:	Paramount Hol: "tohzah".
 id:	YvP
 file:	1992-01-01-tkd.txt; 1992-10-01-ck.txt
 
@@ -21038,11 +21014,11 @@ pos:	verb
 sv:	«tippa», «kränga» (om flygmaskin)
 en:	«pitch» (about aircraft)
 def:	HQ11:2 p.9 ("{matlh jup mu'mey}")
-com:	"And when the nose of the plane moves up or down, the plane is said
-	to {tor} <pitch>. (the word {tor} also means <kneel>, which Maltz
-	thought was apt, since if a four-legged animal is able to kneel
-	with either its hind legs or its front legs, it is able to pitch or
-	tilt up or down.)" [HQ11:2 p.9 ("{matlh jup mu'mey}")]
+cite:	And when the nose of the plane moves up or down, the plane is said to
+	{tor} ~pitch~. (the word {tor} also means ~kneel~, which Maltz thought
+	was apt, since if a four-legged animal is able to kneel with either its
+	hind legs or its front legs, it is able to pitch or tilt up or down.)
+	[HQ11:2 p.9 ("{matlh jup mu'mey}")]
 id:	oV2
 file:	2002-06-holqed-11-2.txt
 
@@ -21144,8 +21120,8 @@ pos:	adverbial
 sv:	«snart», «strax»
 en:	<soon>
 def:	TKD
-com:	Could also be used as an exclamation (as can all adverbials)
-	meaning "Hurry up!". [TKD 5.4 (p.57)]
+com:	When used alone, as an exclamation, may be translated as ~Hurry up!~.
+	[TKD 5.4 (p.57)]
 tag:	time
 id:	hUv
 file:	1992-01-01-tkd.txt
@@ -23407,8 +23383,8 @@ sv:	«inte än»
 en:	<not yet>
 def:	TKD
 ref:	TKW p.88
-com:	Could also be used as an exclamation (as can all adverbials)
-	meaning "Don't do it yet!". [TKD 5.4 (p.57)]
+com:	When used alone, as an exclamation, may be translated as ~Don't do it
+	yet!~. [TKD 5.4 (p.57)]
 id:	uKv
 file:	1992-01-01-tkd.txt
 
@@ -23789,7 +23765,7 @@ sv:	«Worf»
 en:	«Worf»
 def:	S8; S20
 ref:	HQ5:2 p.14 ("Everyday Klingon")
-com:	S8 was reprinted in HQ4:3 p.4, and S20 in HQ5:2 p.14
+com:	S8 was reprinted in HQ4:3 p.4 and S20 in HQ5:2 p.14.
 id:	P3L
 file:	1995-sbx-s08.txt; 1996-sbx-s20.txt; 1996-06-holqed-05-2-b.txt
 
@@ -24730,7 +24706,7 @@ cite:	{jav 'ujmey 'ab SuvwI'} <the warrior has a length of six ujs> (about
 tag:	measure
 id:	NKX
 file:	1997-10-22-news.txt; 1997-sbx-s32.txt
-meta:	S32 was reprinted in HQ6:2 p.9
+meta:	S32 was reprinted in HQ6:2 p.9.
 
 tlh:	{'ach}
 pos:	conjunction
@@ -25199,7 +25175,7 @@ cite:	{tera' vatlh DISpoH cha'maH loS bong QongmeH qItI'nga' Duj tI'ang
 	[S15]
 cite:	{nImbuS wejDaq 'ejDo' 'entepray' ngoHlu'pu'.} "The Starship Enterprise
 	has been dispatched to Nimbus III." [ST5]
-com:	S15 was reprinted in HQ4:3 p.5
+com:	S15 was reprinted in HQ4:3 p.5.
 id:	mBw
 file:	1995-sbx-s15.txt; 1999-12-holqed-08-4-b.txt
 
