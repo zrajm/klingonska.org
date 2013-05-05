@@ -241,7 +241,8 @@ sub ordinal {
 
 sub word_wrap {
     my ($_, $width) = (@_, 80);
-    s#(.{1,$width})(?:\s+|$)#$1\n#g;
+    s#\n# #g;
+    s#(.{1,$width})(?:[ ]+|$)#$1\n#g;
     return $_;
 }
 
@@ -337,6 +338,20 @@ sub get_entries {
                         warn map { "$_ entry at line $entry->{_LINE_}\n" } @warn;
                     } else {
                         push(@$entries, $entry);
+                        while (my ($field, $values) = each %$entry) {
+                            next if $field eq "_LINE_";
+                            foreach my $value (@$values) {
+                                my $wrapped = word_wrap($value, 71);
+                                if ("$value\n" ne $wrapped) {
+                                    my ($old, $new) = ($value, $wrapped);
+                                    s#^#        #gm foreach ($old, $new);
+                                    warn "Incorrectly wordwraped line in '$field:' field at line " .
+                                        "$entry->{_LINE_}\n" .
+                                            "    Current value:\n$old\n" .
+                                            "    Should be:\n$new";
+                                }
+                            }
+                        }
                         print prettify_entry($entry, $order) if $opt{verbose};
                     }
                     $current = "";
@@ -363,7 +378,7 @@ sub get_entries {
                 if ($current) {
                     warn "Leading space in '$current:' field at line ${\($offset + $i)}\n"
                         if $value =~ s#^\h+##;
-                    $entry->{$current}[-1] .= " $value";
+                    $entry->{$current}[-1] .= "\n$value";
                 } else {
                     warn "Unexpected indented line at line &{\($offset + $i)}\n";
                 }
@@ -371,7 +386,7 @@ sub get_entries {
             when (m#^===\h.*\h===$#) {        # section separator
                 warn "Unexpected '=== ... ===' line at line ${\($offset + $i)}\n";
             }
-            default { die "Syntax error at line ${\($offset + $i)}\n" }
+            default { die "Syntax error in ZDB file at line ${\($offset + $i)}\n" }
         }
     }
     warn "Missing blank line before '=== ... ===', at line ${\($offset + $#$data)}\n"
@@ -381,7 +396,7 @@ sub get_entries {
 
 sub source_ref_syntax {
     my ($_) = @_;
-    my $s  = qr/[  ]/x;                                     # spaces
+    my $s  = qr/[  \n]/x;                                   # spaces
     my $p  = qr/[ivx]+|\d+/x;                               # a page number
     my $pp = qr/ p\.$p | pp\.$p(--$p|(,$s$p(--$p)?)+) /x;   # p.#PAGE or pp.#RANGE
 
@@ -415,7 +430,7 @@ sub source_ref_syntax {
         Email      $s $date   $s \($by, $s $to    , $s $subj   \)    |
         News       $s $date ( $s \($by, $s $to (?:, $s $subj)? \) )? |
         Web        $s $date   $s \($by, $s $url   , $s $subj   \)    |
-        Recording  $s $mdate  $s \(.*?                         \)
+        Recording  $s $mdate  $s \([\s\S]*?                    \)
     }x;
     my $source       = qr/$paged_source|$holqed_source|$unpaged_source/x;
     return m#^ $source (;$s$source)* $#x ? TRUE : FALSE;
@@ -659,12 +674,11 @@ sub check_en {
 
 {
     my %lect = (
-        "äldre ord eller överklassord" =>
-            "older or upper-class word",
-        arkaiskt  => "archaic",
-        slang     => "slang",
-        regionalt => "regional",
-        "regionalt, slang" => "regional, slang",
+        "äldre ord eller överklassord" => qr/older\sor\supper-class\sword/,
+        "arkaiskt"                     => qr/archaic/,
+        "slang"                        => qr/slang/,
+        "regionalt"                    => qr/regional/,
+        "regionalt, slang"             => qr/regional,\sslang/,
     );
     sub check_sv {
         my ($entry, $field, $_, @warn) = @_;
@@ -691,12 +705,13 @@ sub check_en {
         }
         { # dialect (check that [...] in 'en' and 'sv' fields correspond)
             while (/\[([^][]*)\]/g) {
-                if (not exists $lect{$1}) {
-                    push @warn, "Unknown dialect description '[$1]' in";
+                (my $x = $1) =~ s/\s/ /g;
+                if (not exists $lect{$x}) {
+                    push @warn, "Unknown dialect description '[$x]' in";
                 } else {
-                    push @warn, "Missing dialect description '[$lect{$1}]' " .
-                        "in 'en:' field when '[$1]' is used in"
-                            unless $en =~ m#\[$lect{$1}\]$#m;
+                    push @warn, "Missing dialect description '[$lect{$x}]' " .
+                        "in 'en:' field when '[$x]' is used in"
+                            unless $en =~ m#\[$lect{$x}\]$#m;
                 }
             }
         }
@@ -801,7 +816,7 @@ sub check_data {
 sub check_file {
     my ($entry, $field, $_, @warn) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
-    foreach (split(m#;\h#, $_)) {
+    foreach (split(m#;[ \n]#, $_)) {
         my $file = "$cfg{canon_path}/$_";
         push @warn, "Invalid file '${\(File::Spec->abs2rel($file))}' in"
             unless -e $file;
@@ -913,7 +928,7 @@ foreach my $line (0..$#whole_file) {
     my $_ = $whole_file[$line];
     s{\t}{ " " x (8 - (pos() % 8)) }ge;  # replace tabs with spaces
     if (length($_) > 80) { # 80 = is with trailing newline
-        warn "Line wider than 79 characters at line " . ($line + 1) . "\n";
+        warn "Line may not exceed 79 characters in line " . ($line + 1) . "\n";
     }
     if (/\h+$/) {
         warn "Trailing space at line " . ($line + 1) . "\n";

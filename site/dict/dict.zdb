@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    8bad5750d39a2a7a4486005279fd3e38c0a33a05
+SHA1:    3b828102792262da638112faef7a12753354c81a
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -497,10 +497,9 @@ sv:	«fela», göra ett «misstag» [slang]
 en:	<err>, make a <mistake> [slang]
 def:	KGT
 ref:	KLINW
-pun:	This is the first word in the K-E side of the dictionary, and is
-	incorrectly given as a noun. MO has confirmed this to be an
-	intentional error (since there is always an error somewhere, in
-	every dictionary).
+pun:	This is the first word in the K-E side of the dictionary, and is
+	incorrectly given as a noun. MO has confirmed this to be an intentional
+	error (since there is always an error somewhere, in every dictionary).
 id:	yLa
 file:	1997-11-01-kgt.txt
 meta:	FIXME -- Should this word even be used? {Qagh} seem to mean the same
@@ -1001,9 +1000,8 @@ pos:	name
 sv:	«B'Etor»
 en:	«B'Etor»
 def:	S26; KGT p.197
-ref:	HQ5:3 p.15 ("Everyday Klingon"); KLINW
-com:	S26 was reprinted in HQ5:3 p.15.
-	B'Etor is one of the Duras sisters.
+ref:	HQ5:3 p.15 ("Everyday Klingon"); KLINW
+com:	S26 was reprinted in HQ5:3 p.15. B'Etor is one of the Duras sisters.
 id:	Y1F
 file:	1996-sbx-s26.txt; 1997-11-01-kgt.txt; 1996-09-holqed-05-3-b.txt
 
@@ -1135,7 +1133,7 @@ en:	<hundred thousand> (number-forming element)
 def:	TKD
 com:	Number-forming element, see also TKD 5.2.
 tag:	math
-data:	exclude from K-E
+data:	exclude from K-E
 id:	AWe
 file:	1992-01-01-tkd.txt
 
@@ -2239,9 +2237,9 @@ en:	big «~cheb~» («unit» of «weight»)
 desc:	9 ~cheb~ = about 45 pounds or 20.25 kilograms
 def:	News 1997-10-22; BoP
 com:	(n) unit weight approx. 45--46.4 pounds (20.4--21.05 kg) (9--9.28 cheb)
-	[The numbers don't quite mesh, but this is the best I can figure
-	from different equivalences we've been given.] [BoP poster] (Added:
-	12 March 2002) [KLINW]
+	[The numbers don't quite mesh, but this is the best I can figure from
+	different equivalences we've been given.] [BoP poster] (Added: 12 March
+	2002) [KLINW]
 tag:	measure
 id:	LL3
 file:	1997-10-22-news.txt; 1998-11-01-bop.txt
@@ -2262,7 +2260,7 @@ en:	type of <liquor>, <~chech'tluth~>
 def:	KGT
 id:	rZV
 file:	1997-11-01-kgt.txt
-meta:	Entries differ in source. The spelling "~baceh'tluth~" found in KGT K-E
+meta:	Entries differ in source. The spelling "~baceh'tluth~" found in KGT K-E
 	is presumed an error and not included here.
 
 tlh:	{chegh}
@@ -2435,7 +2433,7 @@ def:	KGT
 tag:	fighting
 id:	8bU
 file:	1997-11-01-kgt.txt
-meta:	The word "~chetvi~" found in definition of {wob} in KGT K-E.
+meta:	The word "~chetvi~" found in definition of {wob} in KGT K-E.
 
 tlh:	{chev}
 pos:	verb
@@ -3104,12 +3102,12 @@ cite:	{Dach} ("not pay attention, be distracted, lack focus") The verb {Dach}
 	person is, for whatever reason, not focusing on the task at hand.
 	Nonslang equivalents are {qImHa'} ("not pay attention") and {buSHa',}
 	("not focus [on], ignore.") [KGT p.149]
-cite:	{Dach} be not attentive, be distracted, lack focus (v) (slang)
-	[KGT K-E (p.214)]
-cite:	[be] distracted, lack focus (v) (slang) {Dach} [KGT E-K (p.240)]
-cite:	lack focus, to not pay attention, be distracted (v) {Dach} (slang) [KGT
-	E-K (p.248)]
-cite:	[be] not attentive, be distracted (v) (slang) {Dach} [KGT E-K (p.251)]
+cite:	{Dach} be not attentive, be distracted, lack focus (v) (slang) [KGT K-E
+	(p.214)]
+cite:	[be] distracted, lack focus (v) (slang) {Dach} [KGT E-K (p.240)]
+cite:	lack focus, to not pay attention, be distracted (v) {Dach} (slang)
+	[KGT E-K (p.248)]
+cite:	[be] not attentive, be distracted (v) (slang) {Dach} [KGT E-K (p.251)]
 id:	HE8
 file:	1997-11-01-kgt.txt
 meta:	Entries differ and have been combined here.
@@ -3283,8 +3281,8 @@ sv:	«känga», «stövel»
 en:	<boot>
 def:	TKD
 ref:	{qep'a'} 1996
-pun:	"Das Boot"! "Last year, I asked Marc Okrand if it was intentional;
-	he said yes." (Alan Anderson, {qep'a'} 1996)
+pun:	"Das Boot"! "Last year, I asked Marc Okrand if it was intentional; he
+	said yes." (Alan Anderson, {qep'a'} 1996)
 tag:	clothing; KLCP1
 id:	E5c
 file:	1992-01-01-tkd.txt
@@ -3584,7 +3582,7 @@ en:	<handle>, <ax handle>
 def:	KGT
 id:	MQW
 file:	1997-11-01-kgt.txt
-meta:	Entries differ in source. One of the KGT E-K entries is used here.
+meta:	Entries differ in source. One of the KGT E-K entries is used here.
 
 tlh:	{DeSqIv}
 pos:	noun
@@ -4071,7 +4069,7 @@ tlh:	{Do'Ha'} [2]
 pos:	verb
 sv:	vara «otursam», vara «olycksdrabbad», ha «otur»
 en:	be «unfortunate», be «unlucky»
-def:	TKD 4.3 (p.48), pp.1, 171
+def:	TKD 4.3 (p.48), pp.1, 171
 id:	VdJ
 file:	1992-01-01-tkd.txt
 
@@ -4081,7 +4079,7 @@ sv:	«förbättra»
 en:	<improve>
 desc:	{patlhwIj vIDub} ~I improve my status~; thing improved is obj.
 def:	TKD; S14; S26
-ref:	HQ5:3 p.15 ("Everyday Klingon"); TDNW
+ref:	HQ5:3 p.15 ("Everyday Klingon"); TDNW
 id:	V5K
 file:	1992-01-01-tkd.txt; 1995-sbx-s14.txt; 1996-sbx-s26.txt;
 	1996-09-holqed-05-3-b.txt
@@ -4111,7 +4109,7 @@ def:	KGT
 data:	derived form
 id:	KNi
 file:	1997-11-01-kgt.txt
-meta:	Entries differ in source. KGT E-K entry is used here.
+meta:	Entries differ in source. KGT E-K entry is used here.
 
 tlh:	{Dugh}
 pos:	verb
@@ -4268,7 +4266,7 @@ pos:	name
 sv:	«Duras»
 en:	«Duras»
 def:	S26
-ref:	HQ5:3 p.15 ("Everyday Klingon")
+ref:	HQ5:3 p.15 ("Everyday Klingon")
 com:	S26 was reprinted in HQ5:3 p.15.
 id:	9hz
 file:	1996-sbx-s26.txt; 1996-09-holqed-05-3-b.txt
@@ -4399,7 +4397,7 @@ sv:	vara «avundsjuk» (på), «avundas»
 en:	be «jealous» (of), «envy»
 def:	HQ8:3 p.4 ("{matlh juppu' mu'mey}")
 com:	{jIghal} "I am jealous", {choghal} "you envy me / you are jealous of
-	me", {torgh vIghal} "I am jealous of Torg" [HQ8:3 p.4 ({matlh juppu'
+	me", {torgh vIghal} "I am jealous of Torg" [HQ8:3 p.4 ({matlh juppu'
 	mu'mey})]
 id:	CgX
 file:	1999-09-holqed-08-3.txt
@@ -4531,7 +4529,7 @@ pos:	name
 sv:	«Gowron»
 en:	«Gowron»
 def:	S25; S26; KGT pp.25, 26, 197, 198
-ref:	HQ5:3 p.15 ("Everyday Klingon")
+ref:	HQ5:3 p.15 ("Everyday Klingon")
 com:	S25 and S26 were reprinted in HQ5:3 p.15.
 id:	Czk
 file:	1996-sbx-s25.txt; 1996-sbx-s26.txt; 1997-11-01-kgt.txt;
@@ -4549,8 +4547,8 @@ tlh:	[2] {ghaw'}
 pos:	noun
 sv:	«osäker person», någon uppfylld av självtvivel, «självtvivlare»
 	[regionalt, slang]
-en:	<insecure one>, one full of self-doubt, <self-doubter>
-	[regional, slang]
+en:	<insecure one>, one full of self-doubt, <self-doubter> [regional,
+	slang]
 def:	KGT
 com:	Slang term from the Vospeg region.
 id:	Sk4
@@ -4851,8 +4849,8 @@ pos:	noun
 sv:	«strids«spjut»», «~gin'tak~»
 en:	<battle <spear>>, <~gin'tak~>
 def:	KGT
-com:	An advisor to a house so trusted that he becomes a part of the
-	family is called *gin'tak* according to TNG "Firstborn".
+com:	An advisor to a house so trusted that he becomes a part of the family
+	is called *gin'tak* according to TNG "Firstborn".
 tag:	fighting
 id:	BMV
 file:	1997-11-01-kgt.txt
@@ -5527,7 +5525,7 @@ en:	<data <transceiving device>>
 def:	TKD
 id:	hdP
 file:	1992-01-01-tkd.txt
-meta:	Entries differ in source. TKD K-E entry is used here.
+meta:	Entries differ in source. TKD K-E entry is used here.
 
 tlh:	{Hach}
 pos:	verb
@@ -6213,7 +6211,7 @@ en:	<everyone>, <all>, «everything», «each», «every»
 desc:	{Hoch paqpu'} ~all books~ (as a whole); {Hoch paq} ~each book~
 	(separately) [HQ5:2 p.11 ("More on {Hoch}")]; {nIn Hoch} ~all of the
 	fuel~ [KGT p.155]
-def:	TKD; HQ5:2 p.11 ("More on {Hoch}"); KGT p.155
+def:	TKD; HQ5:2 p.11 ("More on {Hoch}"); KGT p.155
 ref:	TKW
 com:	First in a noun-noun pair in TKW. According to HQ "More on {Hoch}"; "If
 	noun following Hoch is explicitly plural, it means 'all'. If it is
@@ -6928,7 +6926,7 @@ pos:	exclamation
 sv:	(generellt «invektiv»)
 en:	(general «invective»)
 def:	TKDa 5.5 (p.178)
-com:	In HQ3:3 p.14 Rhonda E. Green comments that a probable translation of
+com:	In HQ3:3 p.14 Rhonda E. Green comments that a probable translation of
 	this word would be "fuck", this based on the usage of the word in
 	A.C. Crispin's "Sarek".
 id:	VSa
@@ -6950,7 +6948,7 @@ en:	<data <transmission>>
 def:	TKD
 id:	Syd
 file:	1992-01-01-tkd.txt
-meta:	Entries differ in source. TKD K-E entry is used here.
+meta:	Entries differ in source. TKD K-E entry is used here.
 
 tlh:	{jabwI'}
 pos:	noun
@@ -7066,7 +7064,7 @@ pos:	name
 sv:	«Jean-Luc Picard»
 en:	«Jean-Luc Picard»
 def:	S25
-ref:	HQ5:3 p.15 ("Everyday Klingon")
+ref:	HQ5:3 p.15 ("Everyday Klingon")
 com:	S25 was reprinted in HQ5:3 p.15.
 data:	non-phonotactic; phrase; {janluq} (name); {pIqarD} (name)
 id:	qLh
@@ -7356,7 +7354,7 @@ sv:	vara «hög»
 en:	be <high>
 def:	TKD
 cite:	{tlhIngan yoH jen verengan yoH 'eS} or {tlhIngan yoH 'eS verengan yoH
-	jen} ({jen,} <be high>; {'eS,} <be low>) [KGT p.179]
+	jen} ({jen,} <be high>; {'eS,} <be low>) [KGT p.179]
 tag:	placement
 id:	58Z
 file:	1992-01-01-tkd.txt
@@ -7531,7 +7529,7 @@ id:	AbA
 file:	1992-01-01-tkd.txt
 meta:	*{jIj}, in the sense of "cooperate", is here assumed to be a mistake.
 	This meaning only occurs in TKD K-E, "cooperate" is translated {yeq} in
-	TKD E-K, and all occurrences of {jIj} in later canon are translated as
+	TKD E-K, and all occurrences of {jIj} in later canon are translated as
 	"be cooperative". There is even an example in KGT p.159 explicitly
 	showing the difference between {jIj} and {yeq}: {reH yeq} ("always
 	cooperate"), and {reH jIj} ("always be cooperative").
@@ -7843,7 +7841,7 @@ tlh:	{jorneb}
 pos:	noun
 sv:	«stridsspets» (på en torped)
 en:	<warhead> (of a torpedo)
-def:	KGT E-K, p.57
+def:	KGT E-K, p.57
 see:	*{jornub}
 id:	Z46
 file:	1997-11-01-kgt.txt
@@ -8559,7 +8557,7 @@ tlh:	{lIghonngan}
 pos:	noun
 sv:	«ligonier»
 en:	«Ligonian»
-def:	KGT p.141
+def:	KGT p.141
 com:	Race of beings form the Ligon ({lIghon}) star system.
 see:	{lIghongan}
 id:	MRP
@@ -8569,7 +8567,7 @@ tlh:	{lIghonya'}
 pos:	noun
 sv:	«Ligon»
 en:	«Ligon»
-def:	KGT p.142
+def:	KGT p.142
 com:	Name of a solar system, also called {lIghon}.
 see:	{lIghon}
 id:	GMG
@@ -8579,7 +8577,7 @@ tlh:	{lIghonya'ngan}
 pos:	noun
 sv:	«ligonier»
 en:	«Ligonian»
-def:	KGT p.142
+def:	KGT p.142
 com:	Race of beings form the solar system {lIghon}.
 see:	{lIghonngan}, {lIghongan}
 id:	cGd
@@ -8589,7 +8587,7 @@ tlh:	{lIghongan}
 pos:	noun
 sv:	«ligonier»
 en:	«Ligonian»
-def:	KGT p.141
+def:	KGT p.141
 com:	Race of beings form the solar system {lIghon} (alternative spelling).
 see:	{lIghonngan}, {lIghonya'ngan}
 id:	Nkv
@@ -9383,9 +9381,8 @@ pos:	name
 sv:	«Lursa»
 en:	«Lursa»
 def:	S26; KGT p.197
-ref:	HQ5:3 p.15 ("Everyday Klingon")
-com:	S26 was reprinted in HQ5:3 p.15.
-	Lursa is one of the Duras sisters.
+ref:	HQ5:3 p.15 ("Everyday Klingon")
+com:	S26 was reprinted in HQ5:3 p.15. Lursa is one of the Duras sisters.
 id:	1NQ
 file:	1996-sbx-s26.txt; 1997-11-01-kgt.txt; 1996-09-holqed-05-3-b.txt
 
@@ -9455,7 +9452,7 @@ pos:	verb
 sv:	«förråda», «svika»
 en:	<betray>
 def:	TKD
-ref:	S26; HQ5:3 p.15 ("Everyday Klingon")
+ref:	S26; HQ5:3 p.15 ("Everyday Klingon")
 cite:	{ngoQvam luchavmeH ghawran maghpu' be'nI'pu'.} "To this end, the
 	sisters have acted against Gowron [...]" [S26]
 com:	S26 was reprinted in HQ5:3 p.15.
@@ -9489,7 +9486,7 @@ en:	<ten> (number-forming element)
 def:	TKD
 com:	Number-forming element, see also TKD 5.2.
 tag:	math
-data:	exclude from K-E
+data:	exclude from K-E
 id:	dTM
 file:	1992-01-01-tkd.txt
 
@@ -9945,8 +9942,8 @@ pos:	noun
 sv:	ett slags «rättegångsförfarande», «~Mek'ba~»
 en:	type of <legal proceeding>, «~Mek'ba~»
 def:	TKDa; STE
-com:	Translation "~Mek'ba~" taken from STE.
-	Portion of the trial or appeal where evidence is heard.
+com:	Translation "~Mek'ba~" taken from STE. Portion of the trial or appeal
+	where evidence is heard.
 id:	ZG6
 file:	1992-01-01-tkd.txt
 
@@ -9955,8 +9952,8 @@ pos:	noun
 sv:	ett slags «vapen», «~mek'leth~»
 en:	type of <weapon>, <~mek'leth~>
 def:	KGT
-com:	The short sword thing that Worf uses on DS9 and in the movie
-	"First Contact".
+com:	The short sword thing that Worf uses on DS9 and in the movie "First
+	Contact".
 tag:	fighting
 id:	Amq
 file:	1997-11-01-kgt.txt
@@ -10176,7 +10173,7 @@ pun:	"Marc nodded, smiling infuriatingly, to confirm {mIQ} (deep fry) as in
 	mIQ-Donald's french fries." (Robyn Stewart, {qep'a'} 1997)
 id:	5Rz
 file:	1997-11-01-kgt.txt
-meta:	Entries differ in source. One of the KGT E-K entries is used here.
+meta:	Entries differ in source. One of the KGT E-K entries is used here.
 
 tlh:	[2] {mIQ}
 pos:	noun
@@ -10381,7 +10378,7 @@ def:	KGT
 see:	{SIgh} "influence"
 id:	gZ4
 file:	1997-11-01-kgt.txt
-meta:	Entries differ in source. One of the KGT E-K entries is used here.
+meta:	Entries differ in source. One of the KGT E-K entries is used here.
 
 tlh:	{moHaq}
 pos:	noun
@@ -10692,27 +10689,24 @@ pos:	noun
 sv:	«mugato»
 en:	<mugato>
 def:	TKD
-com:	"One of the more notable native animal forms on Neural [Zeta
-	Boötis III] is the mugato, a large, white, ape-like creature
-	with dorsal spines and a cranial horn. The mugato are
-	monogamous, mating for life. Little or no provocation will
-	spark an attack by this hostile creature, whose bite is
-	highly poisonous and fatal if untreated. The only antidote
-	for the mugato bite is the proper application of the native
-	mako root, which has the ability to draw the toxin out of
-	the human nervous system. [No mention is made of how to draw
-	it out of a Klingon nervous system. Of the planet, the text
-	says:] The native inhabitants of the planet are humanoid,
-	possibly the descendants of a Centaurian exploration mission
-	that disappeared in the area some two hundred years ago. The
-	population was once one of tranquil, peace-loving hunters,
-	but a serious breach of the Prime Directive has resulted in
-	their development of war and comparatively advanced
-	projectile weapons. Direct Klingon interference, countered
-	by Federation involvement, has divided the inhabitants into
-	five major factions, each of which is feuding with the other
-	four." See also illustration. [Star Trek: The Worlds of the
-	Federation, pp.140--141]
+com:	"One of the more notable native animal forms on Neural [Zeta Boötis
+	III] is the mugato, a large, white, ape-like creature with dorsal
+	spines and a cranial horn. The mugato are monogamous, mating for life.
+	Little or no provocation will spark an attack by this hostile creature,
+	whose bite is highly poisonous and fatal if untreated. The only
+	antidote for the mugato bite is the proper application of the native
+	mako root, which has the ability to draw the toxin out of the human
+	nervous system. [No mention is made of how to draw it out of a Klingon
+	nervous system. Of the planet, the text says:] The native inhabitants
+	of the planet are humanoid, possibly the descendants of a Centaurian
+	exploration mission that disappeared in the area some two hundred years
+	ago. The population was once one of tranquil, peace-loving hunters, but
+	a serious breach of the Prime Directive has resulted in their
+	development of war and comparatively advanced projectile weapons.
+	Direct Klingon interference, countered by Federation involvement, has
+	divided the inhabitants into five major factions, each of which is
+	feuding with the other four." See also illustration. [Star Trek: The
+	Worlds of the Federation, pp.140--141]
 tag:	animal
 id:	UDd
 file:	1992-01-01-tkd.txt
@@ -10949,7 +10943,7 @@ pos:	verb
 sv:	«planera»
 en:	<plan>
 def:	TKD
-ref:	ST5; HQ8:4 pp.12, 13 ("Notes from Star Trek V: The Final Frontier")
+ref:	ST5; HQ8:4 pp.12, 13 ("Notes from Star Trek V: The Final Frontier")
 cite:	{nImbuS wej maghoS, He yInab.} "Plot course for Nimbus III." [ST5]
 cite:	{He pagh-pagh-vagh-jav-pagh-jav yInab} "Plot course 0.0.5.6.0.6." [ST5]
 tag:	KLCP1
@@ -11226,8 +11220,8 @@ en:	be <full>, be <whole>, be «entire», be <complete>
 def:	TKDa
 id:	KMY
 file:	1992-01-01-tkd.txt
-meta:	Entries differ and have been combined here, and the word "be" was
-	also inserted before the adjectival "entire".
+meta:	Entries differ and have been combined here, and the word "be" was also
+	inserted before the adjectival "entire".
 
 tlh:	[2] {naQ}
 pos:	noun
@@ -11544,7 +11538,7 @@ def:	KGT
 data:	derived form
 id:	CTm
 file:	1997-11-01-kgt.txt
-meta:	Entries differ in source. KGT K-E entry is used here.
+meta:	Entries differ in source. KGT K-E entry is used here.
 
 tlh:	{nenghep}
 pos:	noun
@@ -11623,7 +11617,7 @@ en:	<ten thousand> (number-forming element)
 def:	TKD
 com:	Number-forming element, see also TKD 5.2.
 tag:	math
-data:	exclude from K-E
+data:	exclude from K-E
 id:	WqW
 file:	1992-01-01-tkd.txt
 
@@ -11634,7 +11628,7 @@ en:	type of <pot> with handles (used for food preparation)
 def:	KGT
 id:	EXS
 file:	1997-11-01-kgt.txt
-meta:	Entries differ in source. KGT K-E entry is used here.
+meta:	Entries differ in source. KGT K-E entry is used here.
 
 tlh:	{ne'}
 pos:	noun
@@ -12460,25 +12454,22 @@ pos:	noun
 sv:	«Neural»
 en:	<Neural>
 def:	TKD
-com:	"Federation Catalog Name is Zeta Boötis III. This Class M
-	world is the third of ten that orbit a brilliant,
-	moderate-size yellow star in a binary system. The planet is
-	quite Earth-like, with vast oceans and desert, moderate, and
-	tropical climate zones. Neural is the only planet in the Zeta
-	Boötis system to have a moon, which has been named Asetia by
-	the native population of Neural's lower desert. The native
-	inhabitants of the planet are humanoid, possibly the
-	descendants of a Centaurian exploration mission that
-	disappeared in the area some two hundred years ago. The
-	population was once one of tranquil, peace-loving hunters,
-	but a serious breach of the Prime Directive has resulted in
-	their development of war and comparatively advanced
+com:	"Federation Catalog Name is Zeta Boötis III. This Class M world is the
+	third of ten that orbit a brilliant, moderate-size yellow star in a
+	binary system. The planet is quite Earth-like, with vast oceans and
+	desert, moderate, and tropical climate zones. Neural is the only planet
+	in the Zeta Boötis system to have a moon, which has been named Asetia
+	by the native population of Neural's lower desert. The native
+	inhabitants of the planet are humanoid, possibly the descendants of a
+	Centaurian exploration mission that disappeared in the area some two
+	hundred years ago. The population was once one of tranquil,
+	peace-loving hunters, but a serious breach of the Prime Directive has
+	resulted in their development of war and comparatively advanced
 	projectile weapons. Direct Klingon interference, countered by
-	Federation involvement, has divided the inhabitants into five
-	major factions, each of which is feuding with the other four.
-	One of the more notable native animal forms on is the
-	mugato." [Star Trek: The Worlds of the Federation,
-	pp.140--141]
+	Federation involvement, has divided the inhabitants into five major
+	factions, each of which is feuding with the other four. One of the more
+	notable native animal forms on is the mugato." [Star Trek: The Worlds
+	of the Federation, pp.140--141]
 id:	TYK
 file:	1992-01-01-tkd.txt
 
@@ -13914,8 +13905,8 @@ sv:	«klingonskt «skriftsystem»»
 en:	<Klingon <writing system>>
 def:	TKD
 pun:	MO stubbornly refuses to have anything to do with the native Klingon
-	writing system, but apparently he has challenged us. (The word
-	{pIqaD}, if read as a verb, means "We challenge you.")
+	writing system, but apparently he has challenged us. (The word {pIqaD},
+	if read as a verb, means "We challenge you.")
 id:	w6a
 file:	1992-01-01-tkd.txt
 
@@ -13946,8 +13937,7 @@ sv:	«klar», «färdig», allt «klart», allt «färdigt»
 en:	<done>, all done, all «finished»
 def:	TKD 5.5 (p.57) et al.
 ref:	KCD
-com:	KCD: "a common exclamation uttered upon the completion of a
-	project."
+com:	KCD: "a common exclamation uttered upon the completion of a project."
 tag:	KLCP1
 id:	cK5
 file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
@@ -13984,8 +13974,8 @@ en:	«warp factor»
 desc:	{pIvlob vagh} ~warp factor five~ [BoP]
 def:	TKD K-E
 ref:	BoP
-com:	Numbers are placed after when giving speed: {pIvlob vagh} "warp
-	factor five".
+com:	Numbers are placed after when giving speed: {pIvlob vagh} "warp factor
+	five".
 id:	Yeq
 file:	1992-01-01-tkd.txt
 
@@ -14718,7 +14708,7 @@ def:	TKDa; KGT
 id:	a3a
 file:	1997-11-01-kgt.txt; 1992-01-01-tkd.txt
 meta:	Word list entries says "challenge (n)" in TKD, and "test of one's
-	abilities (n)" in KGT K-E. They have been combined here.
+	abilities (n)" in KGT K-E. They have been combined here.
 
 tlh:	[1] {qagh}
 pos:	verb
@@ -14837,8 +14827,8 @@ pos:	verb
 sv:	«använda» «lill«fingret»»
 en:	«use» the «pinky» («little «finger»»)
 def:	HQ10:2 p.7 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
-com:	An idiomatic gesture: to point your pinky at someone is to
-	comment that you believe they are old.
+com:	An idiomatic gesture: to point your pinky at someone is to comment that
+	you believe they are old.
 tag:	body part
 id:	Tjf
 file:	2001-06-holqed-10-2.txt
@@ -14875,8 +14865,8 @@ tlh:	{qang} [.2]
 pos:	verb
 sv:	alltid (eller rutinmässigt) «hålla med» eller «samarbeta» med [slang]
 en:	always (or routinely) «cooperate» or «agree» with [slang]
-desc:	{jIHDaq Daqang} ~you always agree with me~ (lit. ~you pour [s.th.]
-	into me~)
+desc:	{jIHDaq Daqang} ~you always agree with me~ (lit. ~you pour [s.th.] into
+	me~)
 def:	KGT
 id:	zzk
 file:	1997-11-01-kgt.txt
@@ -15227,7 +15217,7 @@ tag:	measure
 id:	LbF
 file:	1992-01-01-tkd.txt
 meta:	In TKD translated as "kellicam (n)", added "unit of length" for clarity
-	here. TKD E-K has a quite obvious misspelling of the Klingon word as
+	here. TKD E-K has a quite obvious misspelling of the Klingon word as
 	*{quelI'qam}.
 
 tlh:	{qem}
@@ -15741,8 +15731,8 @@ pos:	noun
 sv:	en slags «mat»
 en:	type of <food>
 def:	KGT
-pun:	"Compost" it probably looks like one too (with all mashed up pieces
-	of food).
+pun:	"Compost" it probably looks like one too (with all mashed up pieces of
+	food).
 id:	vTH
 file:	1997-11-01-kgt.txt
 
@@ -16528,7 +16518,7 @@ ref:	TKW p.211
 tag:	KLCP1
 id:	uBj
 file:	1992-01-01-tkd.txt
-meta:	Incorrectly listed as noun in TKD K-E (noted in HQ4:1 p.7 and verified
+meta:	Incorrectly listed as noun in TKD K-E (noted in HQ4:1 p.7 and verified
 	as a verb by usage in TKD p.49 and TKW p.211).
 
 tlh:	{Qay} [1]
@@ -16984,8 +16974,8 @@ sv:	*?!#@ («svordom»)
 en:	*?!#@ («curse»)
 def:	TKD 5.5 (p.58)
 ref:	KCD
-com:	KCD: Vulgar Klingon expression; one of the strongest, most
-	foul Klingon expressions; it defies translation.
+com:	KCD: Vulgar Klingon expression; one of the strongest, most foul Klingon
+	expressions; it defies translation.
 id:	1dY
 file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
 
@@ -17073,7 +17063,7 @@ en:	experience an <earthquake> or <tremor>
 def:	TKD
 id:	2SH
 file:	1992-01-01-tkd.txt
-meta:	Entries differ in source. TKD K-E entry is used here.
+meta:	Entries differ in source. TKD K-E entry is used here.
 
 tlh:	{Qom} [.2]
 pos:	verb
@@ -17203,7 +17193,7 @@ def:	KGT
 tag:	fighting
 id:	tmK
 file:	1997-11-01-kgt.txt
-meta:	Entries differ somewhat in source. KGT K-E entry is used here.
+meta:	Entries differ somewhat in source. KGT K-E entry is used here.
 
 tlh:	{Qorgh}
 pos:	verb
@@ -17987,8 +17977,8 @@ pos:	verb
 sv:	«spela» (ett horn- eller lurinstrument)
 en:	«play» (a horn instrument)
 def:	HQ10:2 p.9 ("A Friend of Maltz: {nItlhDu' yaDDu' je}")
-com:	This is a brass technique, not a flute technique. Most typically
-	it is used with {gheb} as the object.
+com:	This is a brass technique, not a flute technique. Most typically it is
+	used with {gheb} as the object.
 tag:	music
 id:	BYh
 file:	2001-06-holqed-10-2.txt
@@ -18494,7 +18484,7 @@ def:	TKD
 ref:	TKW p.127
 com:	Number-forming element, see also TKD 5.2.
 tag:	math
-data:	exclude from K-E
+data:	exclude from K-E
 id:	XSQ
 file:	1992-01-01-tkd.txt
 
@@ -18567,7 +18557,7 @@ en:	<thousand> (number-forming element)
 def:	TKD
 com:	Number-forming element, see also TKD 5.2.
 tag:	math
-data:	exclude from K-E
+data:	exclude from K-E
 id:	jKy
 file:	1992-01-01-tkd.txt
 
@@ -19525,8 +19515,7 @@ tlh:	[2] {Sub} [2]
 pos:	verb
 sv:	vara «modig», vara «heroisk», vara «djärv», vara «dristig», vara
 	«tapper», vara «oförskräckt» [slang]
-en:	be <brave>, be <heroic>, be <bold>, be <valiant>, be <intrepid>
-	[slang]
+en:	be <brave>, be <heroic>, be <bold>, be <valiant>, be <intrepid> [slang]
 desc:	{Sub yaS} ~the officer is brave~; person is subj.
 def:	KGT
 com:	"Literally meaning 'be solid,' as opposed to gaseous or liquid, {Sub},
@@ -19542,7 +19531,7 @@ com:	"Literally meaning 'be solid,' as opposed to gaseous or liquid, {Sub},
 	used pretty much interchangeably." [KGT pp.165--166]
 id:	nNE
 file:	1997-11-01-kgt.txt
-meta:	Entries differ in source. KGT K-E entry is used here.
+meta:	Entries differ in source. KGT K-E entry is used here.
 
 tlh:	{Subpu' vaS}
 pos:	noun
@@ -19752,10 +19741,10 @@ ref:	Email 2001-02-17 (by David Yeung, to tlhingan-hol, "Diplomatic
 	Implausibility glossary"); TDNW
 com:	"{Sutovoqor} (n) Stovokor (spelling correction from {S'to...})" (NOTE:
 	Terrence Donnelly's spelling is without source reference and is assumed
-	wrong here.) [TDNW]
-	"The afterlife for the honored dead, where all true warriors go after
-	they die to fight an eternal battle. The closest Klingon equivalent to
-	heaven. [First mentioned by name in 'Rightful Heir' (TNG).]" [DI]
+	wrong here.) [TDNW] "The afterlife for the honored dead, where all true
+	warriors go after they die to fight an eternal battle. The closest
+	Klingon equivalent to heaven. [First mentioned by name in 'Rightful
+	Heir' (TNG).]" [DI]
 tag:	religion
 id:	DAa
 file:	2001-02-17-email.txt
@@ -19963,8 +19952,8 @@ sv:	vara i «negativ vinkel»
 en:	be at a <negative angle>
 def:	TKD
 com:	According to Cheesbro (and MO) this is one of MO's little private
-	jokes, unfortunately he refuses to explain the actual meaning or
-	origin of this word, and only gives us his cryptic smile.
+	jokes, unfortunately he refuses to explain the actual meaning or origin
+	of this word, and only gives us his cryptic smile.
 see:	{tajvaj}
 id:	XEP
 file:	1992-01-01-tkd.txt
@@ -20971,8 +20960,8 @@ tlh:	{toqvIr lung}
 pos:	noun
 sv:	ett slags «djur», «Tokvirisk «ödla»»
 en:	type of <animal>, <Tokvirian «skink»>
-def:	KGT p.88
-ref:	KGT K-E (p.228), E-K (p.261)
+def:	KGT p.88
+ref:	KGT K-E (p.228), E-K (p.261)
 tag:	animal
 data:	phrase; {toqvIr} (n)
 id:	YjW
@@ -21639,7 +21628,7 @@ def:	TKD; TKW pp.161, 173
 tag:	KLCP1
 id:	6vg
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
-meta:	This is labeled as a noun in TKD E-K, but MO corrected himself in
+meta:	This is labeled as a noun in TKD E-K, but MO corrected himself in
 	HQ2:4 p.18 ("Okrand's notes")
 
 tlh:	{tlhepQe'}
@@ -21676,7 +21665,7 @@ def:	KGT
 tag:	fighting
 id:	ouS
 file:	1997-11-01-kgt.txt
-meta:	Entries differ in source. KGT E-K entry is used here.
+meta:	Entries differ in source. KGT E-K entry is used here.
 
 tlh:	{tlhe'}
 pos:	verb
@@ -21959,7 +21948,7 @@ en:	<almost>, <nearly>, <virtually>, <not quite>
 def:	KGT
 id:	7Wv
 file:	1997-11-01-kgt.txt
-meta:	Incorrectly given as verb in KGT E-K (under lookup "not quite") given
+meta:	Incorrectly given as verb in KGT E-K (under lookup "not quite") given
 	as adverb everywhere else.
 
 tlh:	{tlhot}
@@ -22345,7 +22334,7 @@ en:	<hundred> (number-forming element)
 def:	TKD
 com:	Number-forming element, see also TKD 5.2.
 tag:	math
-data:	exclude from K-E
+data:	exclude from K-E
 id:	rNy
 file:	1992-01-01-tkd.txt
 
@@ -24792,8 +24781,8 @@ pos:	noun
 sv:	«akademi», «skola»
 en:	<academy>
 def:	KGT
-pun:	Could this have anything to do with "Academy of Motion Picture Arts
-	and Sciences", perhaps?
+pun:	Could this have anything to do with "Academy of Motion Picture Arts and
+	Sciences", perhaps?
 id:	6yC
 file:	1997-11-01-kgt.txt
 
@@ -25168,7 +25157,7 @@ pos:	name
 sv:	«Enterprise» (ett skepp)
 en:	«Enterprise» (a ship)
 def:	S15
-ref:	ST5; HQ8:4 pp.12, 13 ("Notes from Star Trek V: The Final Frontier")
+ref:	ST5; HQ8:4 pp.12, 13 ("Notes from Star Trek V: The Final Frontier")
 cite:	{tera' vatlh DISpoH cha'maH loS bong QongmeH qItI'nga' Duj tI'ang
 	ghompu' DIvI' 'ejDo' 'entepray'.} "A sleeper ship of this class, the
 	T'Ong, was encountered in the 24th century by the U.S.S. Enterprise."
@@ -25244,7 +25233,7 @@ sv:	vara «låg»
 en:	be <low>
 def:	KGT
 cite:	{tlhIngan yoH jen verengan yoH 'eS} or {tlhIngan yoH 'eS verengan yoH
-	jen} ({jen,} <be high>; {'eS,} <be low>) [KGT p.179]
+	jen} ({jen,} <be high>; {'eS,} <be low>) [KGT p.179]
 tag:	placement
 id:	GWb
 file:	1997-11-01-kgt.txt
@@ -26185,7 +26174,7 @@ en:	<million> (number-forming element)
 def:	TKD
 com:	Number-forming element, see also TKD 5.2.
 tag:	math
-data:	exclude from K-E
+data:	exclude from K-E
 id:	XV2
 file:	1992-01-01-tkd.txt
 
@@ -26486,9 +26475,9 @@ pos:	verb suffix type 9
 sv:	som (relativ bisats-markör)
 en:	which (relative-clause marker)
 def:	TKD 4.2.9 (p.44), 6.2.3 (p.63)
-com:	The relative clause modifies a noun. If the relative clause
-	includes another noun, then the head noun is marked with the
-	suffix {-'e'} "topic".
+com:	The relative clause modifies a noun. If the relative clause includes
+	another noun, then the head noun is marked with the suffix {-'e'}
+	"topic".
 id:	7DQ
 file:	1992-01-01-tkd.txt
 
@@ -26506,8 +26495,8 @@ pos:	verb suffix type 9
 sv:	om, ifall
 en:	if
 def:	TKD 4.2.9 (p.43), 6.2.2 (p.62)
-com:	The subordinate clause can occur either before or after the
-	rest of the sentence.
+com:	The subordinate clause can occur either before or after the rest of the
+	sentence.
 id:	fVn
 file:	1992-01-01-tkd.txt
 
@@ -26534,8 +26523,8 @@ pos:	verb suffix type 9
 sv:	när, så snart som
 en:	as soon as, when
 def:	TKD 4.2.9 (p.43), 6.2.2 (p.62)
-com:	The subordinate clause can occur either before or after the
-	rest of the sentence.
+com:	The subordinate clause can occur either before or after the rest of the
+	sentence.
 id:	Puq
 file:	1992-01-01-tkd.txt
 
@@ -26544,10 +26533,9 @@ pos:	verb suffix type 9
 sv:	substantiverare
 en:	nominalizer
 def:	TKDa 4.2.9 (p.176)
-com:	Makes a noun out of a verb with one or more suffixes
-	attached. The use of this suffix often makes bad Klingon, and
-	it is strongly suggested that you refrain from using it if at
-	all possible.
+com:	Makes a noun out of a verb with one or more suffixes attached. The use
+	of this suffix often makes bad Klingon, and it is strongly suggested
+	that you refrain from using it if at all possible.
 id:	RQb
 file:	1992-01-01-tkd.txt
 
@@ -26565,8 +26553,8 @@ pos:	verb suffix type 9
 sv:	må, månde (konjunktiv)
 en:	may, let
 def:	TKDa 4.2.9 (pp.175--176)
-com:	Express a desire or wish on the part of the speaker that
-	something take place in the future.
+com:	Express a desire or wish on the part of the speaker that something take
+	place in the future.
 id:	5tk
 file:	1992-01-01-tkd.txt
 
@@ -26609,8 +26597,8 @@ pos:	verb suffix type 9
 sv:	i syfte att, för att
 en:	for, for the purpose of, in order to (purpose-clause marker)
 def:	TKD 4.2.9 (p.44), 6.2.4 (pp.64--65)
-com:	The purpose clause always precedes the noun or verb whose
-	purpose it is describing.
+com:	The purpose clause always precedes the noun or verb whose purpose it is
+	describing.
 id:	p63
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
@@ -26629,8 +26617,8 @@ pos:	verb suffix type 9
 sv:	på grund av
 en:	due to, because of
 def:	TKDa 4.2.9 (p.175)
-com:	This suffix is used in the same way as the noun suffix {-mo'}
-	"due to, because of" (TKD 3.5.5).
+com:	This suffix is used in the same way as the noun suffix {-mo'} "due to,
+	because of" (TKD 3.5.5).
 id:	aJ6
 file:	1992-01-01-tkd.txt
 
@@ -26659,10 +26647,10 @@ en:	before
 def:	TKD 4.2.9 (p.43)
 ref:	TKW pp.32, 93, 117
 com:	It seems logical that a subordinate clause with {-pa'} (like
-	subordinate clauses with {-DI'}, {-chugh} and {-vIS}) should
-	be able to occur both before and after the main verb, however
-	in canon I have found no example where a subordinate clause
-	with {-pa'} comes after the main verb.
+	subordinate clauses with {-DI'}, {-chugh} and {-vIS}) should be able to
+	occur both before and after the main verb, however in canon I have
+	found no example where a subordinate clause with {-pa'} comes after the
+	main verb.
 id:	iQH
 file:	1992-01-01-tkd.txt
 
@@ -26752,10 +26740,9 @@ pos:	verb suffix type 9
 sv:	medan
 en:	while
 def:	TKD 4.2.9 (p.43), 6.2.2 (p.63)
-com:	The subordinate clause can occur either before or after the
-	rest of the sentence. The suffix {-vIS} is always used along
-	with the Type 7 suffix {-taH} (e.g. {qaStaHvIS} "while it
-	happened").
+com:	The subordinate clause can occur either before or after the rest of the
+	sentence. The suffix {-vIS} is always used along with the Type 7 suffix
+	{-taH} (e.g. {qaStaHvIS} "while it happened").
 id:	nBG
 file:	1992-01-01-tkd.txt
 
@@ -26763,7 +26750,7 @@ tlh:	{-wI'}
 pos:	verb suffix type 9
 sv:	en som gör, sak som gör, en som är
 en:	one who is, one who does, thing which is, thing which does
-def:	TKD 3.2.2 (p.19), 4.2.9 (p.44), pp.164, 168
+def:	TKD 3.2.2 (p.19), 4.2.9 (p.44), pp.164, 168
 id:	kPA
 file:	1992-01-01-tkd.txt
 meta:	Entries differ and have been combined here.
@@ -27014,8 +27001,8 @@ pos:	noun suffix type 5
 sv:	tema, ämne
 en:	topic
 def:	TKD 3.3.5 (p.29)
-com:	An object topicalized {-'e'} sometimes comes *before* the
-	adverb in the sentence (if any) [TKDa 6.7 (p.180)]
+com:	An object topicalized {-'e'} sometimes comes *before* the adverb in the
+	sentence (if any) [TKDa 6.7 (p.180)]
 tag:	KLCP1
 id:	fzK
 file:	1992-01-01-tkd.txt

@@ -3348,8 +3348,13 @@ optimization."
 *** DONE klingon phrases in {...} in gram: should have ' at beg of word replaced with right-hand quote
     CLOSED: [2012-01-20 Fri 13:01]
     (see example under {Soj})
-** `bin/check-dict`: Dictionary check tool
+** [88%] `bin/check-dict`: Dictionary check tool
+*** TODO Only look for too long lines in pre- and postamble
+    There is now a check which look for badly wrapped fields, which will catch
+    any too long lines, anyway. We don't need to check this twice.
 *** TODO Add check for unknown database sections
+*** DONE Check word wrapping of all fields
+    CLOSED: [2013-05-05 Sun 20:08]
 *** DONE Add documentation
     CLOSED: [2012-11-09 Fri 14:10]
 *** DONE Should check existance of new (start|end)-of-data markers
@@ -3377,7 +3382,6 @@ optimization."
      * standard >> slang/regional
      * by pos: adv >> v >> pro >> ques >> conj >> num >> n >> name
 **** TODO Check that irregular plurals links between singular <-> plural form
-**** TODO Check that lines aren't too short
 *** DONE Check that sentences in ~...~ in 'desc:' start with lower case letter
     CLOSED: [2012-01-30 Mon 22:56]
     Except for the word "I", which is of course allowed to be a capital
