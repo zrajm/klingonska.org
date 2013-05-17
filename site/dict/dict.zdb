@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    3b828102792262da638112faef7a12753354c81a
+SHA1:    7846ef396a652a1f398f678d68b1086cbffed4d5
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -21672,7 +21672,7 @@ pos:	verb
 sv:	«vända», «svänga», «vrida»
 en:	<turn>
 def:	TKD
-tag:	KLCP1
+tag:	KLCP1; placement
 id:	6zE
 file:	1992-01-01-tkd.txt
 
@@ -24488,7 +24488,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{yoy}
 pos:	verb
-sv:	vara «uppochned»
+sv:	vara «uppochnedvänd»
 en:	be <upside down>
 def:	TKD
 tag:	placement
