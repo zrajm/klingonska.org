@@ -5,23 +5,25 @@ year: 2013
 lang: en
 style: gallery
 
-Decipher Inc. Trading Card from <i>The Fajo Collection</i>
-==========================================================
+Decipher Inc. Trading Card from *The Fajo Collection*
+=====================================================
 
-<p class=center>[<a href="http://nslists.com/stccgfaj.htm">Collector’s list of
-    all cards in this series</a>]</p>
+[[Collector’s list of all cards in this
+series](http://nslists.com/stccgfaj.htm)]
 
-One of the cards released in the <i>The Fajo Collection</i> of the [<i>Star
-Trek Customizable Card
-Game</i>](http://en.wikipedia.org/wiki/Star_Trek_Customizable_Card_Game) was
+----
+
+One of the cards released in the *The Fajo Collection* of the [*Star Trek
+Customizable Card
+Game*](http://en.wikipedia.org/wiki/Star_Trek_Customizable_Card_Game) was
 written entirely in Klingon (an English translation was, however, provided in
 the rulebook accompanying the deck).
 
 The text on the card consists of a description of how to use the card in game
-play, copyright text, and some proverbs taken from <i>TKW.</i> The original
-Klingon is of high quality and this have led people to speculate that this card
-was translated by Marc Okrand, but when asked about it (by Zrajm, in 2013) he
-could neither confirm nor deny his involvement.
+play, copyright text, and some proverbs taken from *TKW.* The original Klingon
+is of high quality and this have led people to speculate that this card was
+translated by Marc Okrand, but when asked about it (by Zrajm, in 2013) he could
+neither confirm nor deny his involvement.
 
 <table>
   <tr><th>Proverb<th>Page
@@ -48,9 +50,9 @@ could neither confirm nor deny his involvement.
 </table>
 
 See also [plain text transcription](1997-12-31-ccg-fajo.txt). A transcript of
-this card was printed in [<i>{HolQeD} 9:4,</i> page
-16](2000-12-holqed-09-4-a.txt) in <time datetime="2000-12">December
-2000</time>.
+this card was printed in [*{HolQeD} 9:4,* page 16](2000-12-holqed-09-4-a.txt)
+in <time datetime="2000-12">December 2000</time>.
+
 
 Decipher Inc. Trading Card “{Qapla’!}”
 --------------------------------------

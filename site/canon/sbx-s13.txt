@@ -8,16 +8,18 @@ style: gallery
 SkyBox Trading Cards for TNG Season 3
 =====================================
 
-<p class=center>[<a href="http://www.nslists.com/sttng3.htm">Collector’s list
-  of all cards in this series</a>]</p>
+[[Collector’s list of all cards in this
+series](http://www.nslists.com/sttng3.htm)]
 
-Three of the cards in the SkyBox trading card set for <i>Star Trek: The Next
-Generation</i> third season had Klingon text specially translated by Marc
-Okrand. They are here faithfully reproduced with all errors occuring in the
-originals. For more details on which these errors are, see the plain text
-transcriptions of [card S13](1995-sbx-s13.txt), [card S14](1995-sbx-s14.txt),
-and [card S15](1995-sbx-s15.txt). A transcript of these cards was also printed
-in [<i>{HolQeD} 4:3,</i> pages 4--5](1995-09-holqed-04-3-a.txt)
+----
+
+Three of the cards in the SkyBox trading card set for *Star Trek: The Next
+Generation* third season had Klingon text specially translated by Marc Okrand.
+They are here faithfully reproduced with all errors occuring in the originals.
+For more details on which these errors are, see the plain text transcriptions
+of [card S13](1995-sbx-s13.txt), [card S14](1995-sbx-s14.txt), and [card
+S15](1995-sbx-s15.txt). A transcript of these cards was also printed in
+[*{HolQeD} 4:3,* pages 4--5](1995-09-holqed-04-3-a.txt)
 in <time datetime="1995-09">September 1995</time>.
 
 
@@ -50,7 +52,7 @@ SkyBox<sup>TM</sup>
 
 TM, ®, © {je tera’ DIS wa’-Hut-Hut-loS} Paramount Pictures. {Hoch SeH.} Paramount Pictures {malja’
 permey bIH} Star Trek {pong’e’ Deghmey’e’ je. bIH lo’} SkyBox International, Inc. {’e’ chaw’.}
-TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF <i>THE KLINGON DICTIONARY</i>.
+TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF *THE KLINGON DICTIONARY*.
 
 TM, ® & © 1995 PARAMOUNT PICTURES. ALL RIGHTS RESERVED.
 STAR TREK AND RELATED MARKS ARE TRADEMARKS OF PARAMOUNT
@@ -121,7 +123,7 @@ QongmeH qItI’nga’ Duj tI’ang ghompu’ DIvI’ ’ejDo’ ’entepray’.}
 Similar in configuration to the first Klingon vessels encountered, the
 K’Tinga-Class remained in use for most of the 23rd century. A sleeper
 ship of this class, the T’Ong, was encountered in the 24th century by the
-<i>U.S.S. Enterprise</i>.<sup>TM</sup>
+*U.S.S. Enterprise*.<sup>TM</sup>
 
 Paramount<sup>®</sup>
 SkyBox<sup>TM</sup>
@@ -132,7 +134,7 @@ PICTURES. SKYBOX INTERNATIONAL INC. AUTHORIZED USER.
 
 TM, ®, © {je tera’ DIS wa’-Hut-Hut-loS} Paramount Pictures. {Hoch SeH.} Paramount Pictures
 {malja’ permey bIH} Star Trek {pong’e’ Deghmey’e’ je. bIH lo’} SkyBox International, Inc. {’e’ chaw’.}
-TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF <i>THE KLINGON DICTIONARY</i>.
+TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF *THE KLINGON DICTIONARY*.
 ILLUSTRATION FROM THE STAR TREK ENCYCLOPEDIA
 
 [[eof]]

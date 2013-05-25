@@ -1251,9 +1251,27 @@ optimization."
 *** TODO Subarticle improvements
     I.e. the HTML pages linked to by the main article (e.g. the SkyBox
     articles).
-**** TODO The "collector's list" links should be normal paragraph
+**** [100%] The "collector's list" links should be normal paragraph
      Not as now, a special centered top paragraph. Having a normal paragraph
      looks ok too, and cuts down on HTML in the markdown source.
+***** DONE ccg-fajo.txt
+      CLOSED: [2013-05-25 Sat 15:00]
+***** DONE kcd.txt
+      CLOSED: [2013-05-25 Sat 14:58]
+***** DONE sbx-99.txt
+      CLOSED: [2013-05-25 Sat 15:01]
+***** DONE sbx-s7.txt
+      CLOSED: [2013-05-25 Sat 15:06]
+***** DONE sbx-s13.txt
+      CLOSED: [2013-05-25 Sat 15:09]
+***** DONE sbx-s19.txt
+      CLOSED: [2013-05-25 Sat 15:10]
+***** DONE sbx-s25.txt
+      CLOSED: [2013-05-25 Sat 15:12]
+***** DONE sbx-s31.txt
+      CLOSED: [2013-05-25 Sat 15:13]
+***** DONE sbx-sp1.txt
+      CLOSED: [2013-05-25 Sat 15:14]
 **** TODO Logo linkback from the subarticles should be smarter
      The logo linkback should be equivalent of the "back" button if the user
      came from the main article. (Is this possible/desirable?)

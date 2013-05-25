@@ -9,16 +9,16 @@ script: centerwidestuff
 Star Trek: Klingon (CD-ROM)
 ===========================
 
-<div class="gallery">
-  <figure>
-    <a href="pic/1996-04-kcd-big.jpg"><img src="pic/1996-04-kcd-sml.jpg"
-      width=308 height=370 alt="Star Trek: Klingon"></a>
-    <figcaption>Box cover</figcaption>
-  </figure>
+<div class=gallery>
+  <a class=item style="width:308px" href="pic/1996-04-kcd-big.jpg">
+    <img src="pic/1996-04-kcd-sml.jpg" width=308 height=370 alt="Star Trek: Klingon">
+    Front, Box cover
+  </a>
 </div>
 
-<p class=center>[Play *Star Trek: Klingon* on
-YouTube](http://youtu.be/hVo2kVVChU0).
+[[Play *Star Trek: Klingon* on YouTube](http://youtu.be/hVo2kVVChU0)]
+
+----
 
 *Star Trek: Klingon* was a computer game published by *Simon & Schuster
 Interactive* in 1996. It was available in two versions, one for *Windows* and
@@ -27,22 +27,25 @@ quite limited gameplay. Packaged with the game came came a bonus CD with a
 standalone piece of software, the “Language Lab”---a limited language course
 for learning Klingon which features the voice of Marc Okrand.
 
-<p class="noindent blank">In the package you’ll find three CDs, the first two
-of which contains the game “Star Trek: Klingon”. The game is more of an
-interactive video, and less of an actual computer game. (In todays standard –
-as of 2013 – the resolution of the video is subpar, but that’s to be expected
-considering the relatively long playing time and the limited space.)
+----
+
+In the package you’ll find three CDs, the first two of which contains the game
+“Star Trek: Klingon”. The game is more of an interactive video, and less of an
+actual computer game. (In todays standard – as of 2013 – the resolution of the
+video is subpar, but that’s to be expected considering the relatively long
+playing time and the limited space.)
 
 The video (or game, if you want to call it that) features all the actors we’ve
 come to know and love from TNG, and gives some insight in the Klingon culture,
 but apart from that there isn’t much be gained there.
 
-<p class="noindent blank">The third CD, the “Language Lab,” is an interactive
-language course with a Klingon style interface. It teaches Klingon words,
-divided into several different categories. This *Language Lab* also contains a
-tool to help you with your pronunciation---speak to it and the computer will
-aid you and give suggestions to help you improve (I have not tested this
-feature myself).
+----
+
+The third CD, the “Language Lab,” is an interactive language course with a
+Klingon style interface. It teaches Klingon words, divided into several
+different categories. This *Language Lab* also contains a tool to help you with
+your pronunciation---speak to it and the computer will aid you and give
+suggestions to help you improve (I have not tested this feature myself).
 
 Even if you manage to get a hold of a copy *Star Trek: Klingon,* getting it run
 might pose a bit of a challenge, since the game will only run under older
