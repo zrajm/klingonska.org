@@ -2,6 +2,7 @@
   [2012-06-03, 06:24-06:32] transcribed from trading card by Zrajm C Akfohg
   [2012-06-03, 06:32-06:50] proofread, added file header
   [2013-04-16] rewrote summary
+  [2013-05-24] added Marc Okrands comment on canonicity
   Style: {}=bold, <>=italic
 
   Type: trading card
@@ -12,8 +13,8 @@
   Summary: Transcript of the card “{Qapla’!}” from <The Fajo Collection> of the
     <Star Trek Customizable Card Game> by Decipher Inc. The card is entirely
     written in Klingon, and consists of five proverbs from <TKW>, instructions
-    for game play and a copyright notice. It is not known whether or not Marc
-    Okrand had a hand in the translation. (Abbreviated <CCG> or <ST:CCG>.)
+    for game play and a copyright notice. Marc Okrand may, or may not have had
+    a hand in the translation. (Abbreviated <CCG> or <ST:CCG>.)
 
 ]]
 
@@ -48,5 +49,17 @@ run away from his battles.
 
 If an opponent attacks you, during that battle your Klingons with Honor add
 INTEGRITY to STRENGTH. (Not cumulative.)
+
+----
+
+[[Marc Okrand in private messages on Facebook]]
+
+Zrajm C Akfohg: Did you have anything to do with the translation of the
+Decipher Inc. playing cards?
+
+Marc Okrand (May 16, 2013): The honest and real answer is: I don't know. I
+don't remember doing those cards, but I may have. I looked around to see if I
+had any evidence of doing them (like a contract!), but couldn't find anything.
+Which doesn't mean a thing. Sorry I can't be more definitive.
 
 [[eof]]

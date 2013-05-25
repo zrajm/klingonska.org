@@ -1,5 +1,5 @@
 #+STARTUP: overview hidestars -*- org -*-
-#+TAGS: { CONF(k) CGI(g) HTML(h) CSS(c) CLI(l) JS(j) } PROOF(p) SCAN TRANSCRIBE
+#+TAGS: { CONF(k) CGI(g) HTML(h) CSS(c) CLI(l) JS(j) } PROOF(p) TRANSCRIBE
 #+PRIORITIES: 1 5 4
 
 Priorities:
@@ -40,7 +40,6 @@ optimization."
 *** TODO Copy HCoop email settings used on zrajm.org to klingonska.org
 *** TODO Configure Loopia to use this
 *** TODO Test that email to *@klingonska.org (still) works
-
 *** TODO Why can't I sent mail to zrajm@zrajm.org from gmail and have them wind up in my gmail inbox?
     (This works excellently if I send mail to zrajm@klingonska.org.)
 *** TODO Remove mail redirects from zrajm.org when klingonska.org is working
@@ -1180,6 +1179,22 @@ optimization."
      CLOSED: [2012-11-16 Fri 04:13]
 ** TODO "Some Songs in Klingon"
 *** TODO Prettify song pages (HTML instead of text pages)
+*** TODO Add {Alphabet Song}
+    Discussed on tlhIngan Hol jatlhwI'pu' (on Facebook)
+    https://www.facebook.com/groups/tlhInganHol/permalink/483193075030290/
+
+    [[./alphabet_song.jpg][Music notes for "Alphabet Song" (jpg)]]
+
+    Michael Roney Jr.:
+
+    This was discussed on the KLI mailing list in July of 2009 right after we
+    gained {'at}, {bay}, {chay}, etc. I started the discussion, but Renee
+    Scherer is the one who did the image based on everyone's input up to that
+    point.
+
+    The 'o'megh that you see in English isn't the one that was translated into
+    Klingon. There are apparently several different ways to sing the song in
+    English.
 *** TODO {taHjaj wo'}
     To generate score thumbnail for web page use:
 
@@ -1405,7 +1420,17 @@ optimization."
     Each transcript in the http://klingonska.org/canon/ list should have a link
     to the prettified version (as well as to the original text formatted
     transcript).
-*** [60%] Transcripts updating/improvement
+*** [62%] Transcripts updating/improvement
+**** [33%] Add YouTube videos where Marc Okrand speaks about Klingon
+***** DONE http://youtu.be/ujliyG96Cf8 – “Message to Chronos” [1:07]
+      CLOSED: [2013-05-25 Sat 14:30]
+***** TODO http://youtu.be/e5Did-eVQDc – “Marc Okrand on Klingon” [20:05]
+***** TODO http://youtu.be/dbpal-4lMwA – “Language Crafters” [3:25]
+      Interview with Paul Frommer (Na'vi), Marc Okrand (Klingon), David
+      Peterson (Dothraki) and Grant Goodall (Esperanto), each presenting
+      themselves in their own language.
+
+      Okrand says: {Marc Okrand jIH. tlhIngan Hol vIchenmoHta'.}
 **** [100%] Rename files
      a) rename file
      b) remove any links to old file in local site
@@ -1497,6 +1522,7 @@ optimization."
       CLOSED: [2013-04-11 Thu 19:09]
 ***** DONE pic/1993-sbx-99b-thmb.jpg -> pic/mini/1993-sbx-99b.jpg
       CLOSED: [2013-04-11 Thu 19:09]
+**** TODO Add {paq'batlh}
 **** TODO Decipher event card {taH pagh taHbe'} from 2002
      What's the status of canonicity for this card?
      https://mail.google.com/mail/u/0/#search/decipher+in%3Atlhingan-hol+card/ed6f9609d33c137
@@ -1570,8 +1596,8 @@ optimization."
      Lieven.
 
      https://mail.google.com/mail/u/0/?shva=1#search/ghungHa'/133a3d43a898e2e4
-
-**** TODO Add scans of Klingon trading cards                           :SCAN:
+**** DONE Add scans of Klingon trading cards
+     CLOSED: [2013-05-24 Fri 22:59]
      Decipher Inc + SkyBox cards should be scanned. Links should then be added
      from the appropriate HTML files in the canon archive.
 
@@ -2373,11 +2399,17 @@ optimization."
       field. -- These words should be included in the Klingon--English version
       of the dictionary, but with a leading asterisk, and a warning they're not
       supposed to be used. Maybe add a 'warn' field, explaining why?
-**** [23%] Add new words
+**** [22%] Add new words
 ***** TODO Words from `canon/2011-11-02-email.txt`
 ***** TODO Words from `canon/2011-11-04-email.txt`
 ***** TODO Words from `canon/2011-11-05-email.txt`
 ***** TODO Words from `canon/2011-11-07-email.txt`
+***** [0%] Words from paq'batlh
+****** TODO {'opleS} one day
+       [[https://www.facebook.com/groups/tlhInganHol/permalink/480783335271264/]]
+       Similar to {wa' jaj} as in TKW p.177
+       "The son of a Klingon is a man the day he can first hold a blade."
+       {wa' jaj 'etlh 'uchchoHlaH tlhIngan puqloD; jajvetlh loD nen moj.}
 ***** TODO Spik / skruv
       Felix postade följande på [[https://www.facebook.com/groups/174607196006254/?fref=ts][Facebook]]
       2 - eller typ 2½, antar jag - nya ord idag, via allas vår älskade Qov!
@@ -2386,7 +2418,6 @@ optimization."
 
       Like · Comment · Follow post · 13 August at 21:11 near Johanneshov,
       Stockholms Län
-
 ***** TODO Add words from qepHom'a' 2011
       Given by De'vID in mail to tlhIngan-Hol, 2011-11-12 "[Tlhingan-hol]
       learnings from Saarbrücken qepHom'a'".
@@ -2941,7 +2972,6 @@ optimization."
 
      It should be included in the dictionary, with 'data: non-canon', so others
      won't include it in their dictionaries.
-
 *** Klingon Pocket Dictionary (paper version)
 **** English--Klingon part
 ***** TODO Change layout in English--Klingon part
