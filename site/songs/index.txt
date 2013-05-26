@@ -20,8 +20,8 @@ to me](mailto:zrajm@klingonska)!
 <dl class="navigation">
   <dt><a href="dahjaj_po.txt">{DaHjaj po} -- <i>An Imperial Parody</i></a>
   <dd><i>Music by Rich Yampell in 1993, lyrics by {’altaQ}.</i>
-    <br>This is a parody version of {taHjaj
-    wo’}. <small>[Changed 2007-07-15]</small>
+    <br>This is a parody version of <a href="tahjaj_wo/">{taHjaj
+    wo’}</a>. <small>[Changed 2007-07-15]</small>
 
   <dt><a href="gilligans_island.txt">{ghIlI’qan qo’} -- Gilligan’s
     Island</a>
@@ -66,7 +66,7 @@ to me](mailto:zrajm@klingonska)!
     <br>This is a hymn in honor of the Klingon Empire. It has been sung at all
     of the {qep’a’mey}. Hearing this song sung by a dozen or more klingonists,
     and in its full three part harmony, is really beautiful. There’s even a
-    parody of it, called {DaHjaj po} (see
+    parody of it, called <a href="dahjaj_po.txt">{DaHjaj po}</a> (see
     above). <small>[Changed 2010-11-05]</small>
 
   <dt><a href="toghmeh_bom.txt">{toghmeH bom} -- <i>A Song for

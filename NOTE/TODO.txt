@@ -129,6 +129,19 @@ optimization."
    html5boilerplate html classes):
 
    http://stackoverflow.com/questions/4919076/outline-effect-to-text
+** TODO Replace underscore in URLs with hyphen
+   Hyphens are easier to type, prettier to look (narrower) at and seem to be
+   emerging as a standard for separating words is URLs on the web.
+
+   Apparently Google (and other search engines?) treats and underscore as a
+   word joiner (so "red_sneakers" = "redsneakers") and hyphen as a word
+   separator (so "red-sneakers" = "red sneakers"). So from a SEO perspective
+   using dashes over underscores have a (minor) ranking benefit.
+** TODO Change thumbnail names *.thmb.* -> mini/*
+   Thumbnail should also (typically at least) be PNGs, to allow for transparent
+   backgrounds. E.g. see http://klingonska.org/songs/tahjaj_wo/ *_m.* and
+   *_sml.* is also in use for thumbnails (or smallish pictures), these should
+   all become mini/* as well.
 ** TODO Make pretty hyphenations(?)
    Justified right margin + hyphenation? That would be pretty. This page
    suggests how to do it: http://alistapart.com/article/the-look-that-says-book
@@ -1195,20 +1208,43 @@ optimization."
     The 'o'megh that you see in English isn't the one that was translated into
     Klingon. There are apparently several different ways to sing the song in
     English.
-*** TODO {taHjaj wo'}
+*** [90%] {taHjaj wo'}
+    CLOSED: [2013-05-26 Sun 20:45]
     To generate score thumbnail for web page use:
 
-    # make a png
+    # make a png (deb: lilypond)
     lilypond --png tahjaj_wo.ly
 
-    # rotate the png into landscape position
-    pngtopnm <tahjaj_wo-page1.png|pnmflip -cw|pnmtopng >GA.png
+    # rotate the png into landscape position (deb: netpbm)
+    pngtopnm <tahjaj_wo-page1.png|pnmflip -cw|pnmtopng >/tmp/ga.png
 
-    # make white in the picture transparent
-    convert GA.png -alpha copy -channel alpha -negate +channel -fx '#000' \
-        -filter box -resize 250x250 pic/tahjaj_wo1.thmb.png
+    # make white in the picture transparent (deb: imagemagick)
+    convert /tmp/ga.png -alpha copy -channel alpha -negate +channel -fx '#000' \
+        -filter box -resize 250x250 pic/mini/tahjaj_wo.png
+
+    # optimize image size and make interlaced (deb: optipng)
+    optipng -v -i1 pic/mini/tahjaj_wo.png
 **** TODO Include flash video directly, don't point to YouTube
      http://klingonska.elektra/songs/tahjaj_wo/
+**** DONE Rename *.thmb.* -> mini/*
+     CLOSED: [2013-05-26 Sun 20:45]
+***** DONE Hcoop server redirects
+      CLOSED: [2013-05-26 Sun 20:44]
+      songs/tahjaj_wo/pic/tahjaj_wo.thmb.jpg -> songs/tahjaj_wo/pic/mini/tahjaj_wo.png
+      songs/tahjaj_wo/pic/tahjaj_wo.thmb.png -> songs/tahjaj_wo/pic/mini/tahjaj_wo.png
+      songs/tahjaj_wo/pic/tahjaj_wo1.thmb.jpg -> songs/tahjaj_wo/pic/mini/tahjaj_wo-1.jpg
+      songs/tahjaj_wo/pic/tahjaj_wo1.thmb.png -> songs/tahjaj_wo/pic/mini/tahjaj_wo-1.jpg
+      songs/tahjaj_wo/pic/tahjaj_wo2.gif -> songs/tahjaj_wo/pic/tahjaj_wo-2.gif
+      songs/tahjaj_wo/pic/tahjaj_wo2.gif -> songs/tahjaj_wo/pic/tahjaj_wo-2.gif
+      songs/tahjaj_wo/pic/tahjaj_wo2.thmb.jpg -> songs/tahjaj_wo/pic/mini/tahjaj_wo-2.jpg
+      songs/tahjaj_wo/pic/tahjaj_wo2.thmb.png -> songs/tahjaj_wo/pic/mini/tahjaj_wo-2.jpg
+      songs/tahjaj_wo/pic/youtube-video.thmb.jpg -> songs/tahjaj_wo/pic/mini/youtube-video.jpg
+
+      Already existed:
+      songs/tahjaj_wo/tahjaj_wo-all_voices.midi -> songs/tahjaj_wo/tahjaj_wo.midi
+      songs/tahjaj_wo/tahjaj_wo-voice_1.midi -> songs/tahjaj_wo/tahjaj_wo-1.midi
+      songs/tahjaj_wo/tahjaj_wo-voice_2.midi -> songs/tahjaj_wo/tahjaj_wo-2.midi
+      songs/tahjaj_wo/tahjaj_wo-voice_3.midi -> songs/tahjaj_wo/tahjaj_wo-3.midi
 **** [100%] Rename MIDI files to whatever LilyPod genates
      CLOSED: [2012-12-27 Thu 22:44]
 ***** DONE tahjaj_wo-voice_1.midi => tahjaj_wo-1.midi
