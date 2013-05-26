@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    7846ef396a652a1f398f678d68b1086cbffed4d5
+SHA1:    2e96d33e1eabe4a17125b584ce44e0adb7ec23bf
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -5459,6 +5459,10 @@ pos:	verb
 sv:	vara «beredd», vara «redo» (att avfyra)
 en:	be <prepared>, be ready (to launch)
 def:	ST1; TKD
+cite:	This verb never takes the suffix {-rup.} It is used primarily in
+	reference to torpedoes---so much so that if the object is not
+	specifically stated, and context does not dictate otherwise, it is
+	always assumed to be ~torpedoes.~ [TKD pp.37--38]
 id:	1cG
 file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 meta:	The word "be" was inserted before the adjectival "ready".
@@ -24674,6 +24678,7 @@ sv:	«men», «ändå», «dock», «trots allt», «emellertid»
 en:	<but>, <nevertheless>, <even so>, <however>
 desc:	comes between sentences [TKD 5.3 (p.55)]
 def:	TKD
+see:	{'ach}
 id:	88V
 file:	1992-01-01-tkd.txt
 
@@ -24704,6 +24709,8 @@ en:	<but>, <nevertheless>, <even so>, <however>
 desc:	comes between sentences [TKD 5.3 (p.55)]
 def:	TKD
 ref:	TKW pp.59, 186
+cite:	This word is sometimes shortened to {'a.} [TKD p.55]
+see:	{'a}
 id:	kA3
 file:	1992-01-01-tkd.txt
 

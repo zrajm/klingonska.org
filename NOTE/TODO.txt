@@ -1438,7 +1438,10 @@ optimization."
     Each transcript in the http://klingonska.org/canon/ list should have a link
     to the prettified version (as well as to the original text formatted
     transcript).
-*** [62%] Transcripts updating/improvement
+*** [60%] Transcripts updating/improvement
+**** TODO Add deleted scene from “Star Trek” (2009)
+     http://youtu.be/pchkWmhCMXM
+**** TODO Scene from “Star Trek: Into Darkness” (2013)
 **** [33%] Add YouTube videos where Marc Okrand speaks about Klingon
 ***** DONE http://youtu.be/ujliyG96Cf8 – “Message to Chronos” [1:07]
       CLOSED: [2013-05-25 Sat 14:30]
