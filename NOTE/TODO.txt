@@ -108,8 +108,17 @@
    html5boilerplate html classes):
 
    http://stackoverflow.com/questions/4919076/outline-effect-to-text
-** TODO Allow -*- html -*- to be added to Markdown metadata
+** DONE Allow -*- html -*- to be added to Markdown metadata
+   CLOSED: [2013-05-30 Thu 18:42]
    So that Emacs understand immediately that the file should use html-mode.
+
+   bin/markdown2html now allows comments in metadata. Simply use ':' (without
+   preceding it with a field name -- continuation lines cannot be used after
+   comments).
+
+   With this in place, the first line of a markdown source file may contain the
+   line `: -*- html -*-` to signify that Emacs should highlight it as if it was
+   HTML.
 ** TODO Replace underscore in URLs with hyphen
    Hyphens are easier to type, prettier to look (narrower) at and seem to be
    emerging as a standard for separating words is URLs on the web.

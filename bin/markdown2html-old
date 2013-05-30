@@ -244,37 +244,41 @@ sub help {
         return <$in>                  or croak "cannot read file \"$file\": $!";
     }
 
-
     # Usage: BOOL = metadata(%META, @TEXT);
     #
     # Extracts any leading metadata fields from @TEXT. Returns FALSE on failure,
     # TRUE otherwise.
     sub metadata(\%\@) {
         my ($hashref, $arrayref) = @_;
-        #use feature "switch";
         my ($field, $count) = ("", 0, 0);
         foreach (@$arrayref) {
             $count ++;
-            if (m/^ (\w+): \s* ([^\n]*)\n /x) {
-                $$hashref{$1}  = "" unless exists($$hashref{$1});
-                $$hashref{$1} .= $2;
+            if (m/^ (\w*): \s* ([^\n]*)\n /x) {# new metadata field
+                if ($1 ne "") {                #   non-comment
+                    if (exists $hashref->{$1}) {
+                        $hashref->{$1} .= $2;
+                    } else {
+                        $hashref->{$1}  = $2;
+                    }
+                }
                 $field = $1;
-            } elsif (m/^ \s+ ([^\n]*)\n /x) {
+            } elsif (m/^ \s+ ([^\n]*)\n /x) {  # continuation line
                 if ($field ne "") {
-                    $$hashref{$field} .= " " . $1;
+                    $hashref->{$field} .= " " . $1;
                 } else {
-                    warn "$0: 1st line in file may not be metadata " .
-                        "continuation line (in line $count)\n";
+                    warn "$0: continuation line may not occur first in "
+                        . "metadata or after metadata comment (in line "
+                        . "$count)\n";
                     return '';
                 }
-            } elsif (m/^ \s* $/x) {
+            } elsif (m/^ \s* $/x) {            # blank line
                 if ($count == 1) {
                     warn "$0: 1st line in file may not be blank " .
                         "(in line $count)\n";
                     return '';
                 }
                 last;
-            } else  {
+            } else  {                          # all other cases
                 warn "$0: metadata is not terminated by blank line " .
                     "(in line $count)\n";
                 return '';
