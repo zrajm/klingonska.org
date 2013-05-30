@@ -1,26 +1,5 @@
 #+STARTUP: overview hidestars -*- org -*-
-#+TAGS: { CONF(k) CGI(g) HTML(h) CSS(c) CLI(l) JS(j) } PROOF(p) TRANSCRIBE
-#+PRIORITIES: 1 5 4
-
-Priorities:
-1) IMPORTANT -- page visibly broken in bad way (bad link or somesuch) or
-   new, very important information (like a new word in dictionary)
-2) ugly -- page has minor flaw which looks unprofessional (but works)
-3) EASY -- change or addition, material exists but is not shown/wasted
-4) WANTED -- could be better, but is okay
-5) MAYBE -- would be nice to have, but needs to be though about
-
-On CSS ideas:
-http://www.onextrapixel.com/2012/05/03/css-tricks-how-to-speed-up-css-rendering/
-
-I tend to go with Paul Irish on this one...
-
-"Aside from that, you are not allowed to care about the performance of * unless
-you concatenate all your javascript, have it at the bottom, minify your css and
-js, gzip all your assets, and losslessly compress all your images. If aren't
-getting 90+ Page Speed scores, its way too early to be thinking about selector
-optimization."
-
+#+TAGS: PROOF(p) TRANSCRIBE
 
 * INBOX
   These should be inserted in the hierachy below.
@@ -129,6 +108,8 @@ optimization."
    html5boilerplate html classes):
 
    http://stackoverflow.com/questions/4919076/outline-effect-to-text
+** TODO Allow -*- html -*- to be added to Markdown metadata
+   So that Emacs understand immediately that the file should use html-mode.
 ** TODO Replace underscore in URLs with hyphen
    Hyphens are easier to type, prettier to look (narrower) at and seem to be
    emerging as a standard for separating words is URLs on the web.
@@ -189,6 +170,15 @@ optimization."
    of links, but remove 'text-decoration: none;' for the usual style?
 ** [22%] Optimize page sizes
    https://developers.google.com/speed/docs/best-practices/payload
+
+   On CSS optimization:
+   http://www.onextrapixel.com/2012/05/03/css-tricks-how-to-speed-up-css-rendering/
+
+   "Aside from that, you are not allowed to care about the performance of *
+   unless you concatenate all your javascript, have it at the bottom, minify
+   your css and js, gzip all your assets, and losslessly compress all your
+   images. If aren't getting 90+ Page Speed scores, its way too early to be
+   thinking about selector optimization."
 *** TODO Enable compression (webserver setting)
 *** TODO Remove unused stylesheets
 *** DONE Minify Javascript
@@ -1190,7 +1180,7 @@ optimization."
      CLOSED: [2012-11-16 Fri 04:13]
 **** DONE Text explaining the "Delete" feature
      CLOSED: [2012-11-16 Fri 04:13]
-** TODO "Some Songs in Klingon"
+** "Some Songs in Klingon"
 *** TODO Prettify song pages (HTML instead of text pages)
 *** TODO Add {Alphabet Song}
     Discussed on tlhIngan Hol jatlhwI'pu' (on Facebook)
@@ -1283,7 +1273,7 @@ optimization."
      CLOSED: [2010-11-18 Thu 09:55]
 **** DONE Include Lilypond score (and source)
      CLOSED: [2010-11-18 Thu 09:55]
-** TODO "Archive of Okrandian Canon"
+** "Archive of Okrandian Canon"
 *** TODO Subarticle improvements
     I.e. the HTML pages linked to by the main article (e.g. the SkyBox
     articles).
@@ -1479,10 +1469,10 @@ optimization."
      http://youtu.be/pchkWmhCMXM
 **** TODO Scene from “Star Trek: Into Darkness” (2013)
 **** [33%] Add YouTube videos where Marc Okrand speaks about Klingon
-***** DONE http://youtu.be/ujliyG96Cf8 – “Message to Chronos” [1:07]
+***** DONE [[http://youtu.be/ujliyG96Cf8][Message to Chronos]] [1:07]
       CLOSED: [2013-05-25 Sat 14:30]
-***** TODO http://youtu.be/e5Did-eVQDc – “Marc Okrand on Klingon” [20:05]
-***** TODO http://youtu.be/dbpal-4lMwA – “Language Crafters” [3:25]
+***** TODO [[http://youtu.be/e5Did-eVQDc][Marc Okrand on Klingon]] [20:05]
+***** TODO [[http://youtu.be/dbpal-4lMwA][Language Crafters]] [3:25]
       Interview with Paul Frommer (Na'vi), Marc Okrand (Klingon), David
       Peterson (Dothraki) and Grant Goodall (Esperanto), each presenting
       themselves in their own language.
@@ -1579,7 +1569,7 @@ optimization."
       CLOSED: [2013-04-11 Thu 19:09]
 ***** DONE pic/1993-sbx-99b-thmb.jpg -> pic/mini/1993-sbx-99b.jpg
       CLOSED: [2013-04-11 Thu 19:09]
-**** TODO Add {paq'batlh}
+**** TODO Add {paq'batlh}                                        :TRANSCRIBE:
 **** TODO Decipher event card {taH pagh taHbe'} from 2002
      What's the status of canonicity for this card?
      https://mail.google.com/mail/u/0/#search/decipher+in%3Atlhingan-hol+card/ed6f9609d33c137
@@ -1801,16 +1791,16 @@ optimization."
 
      FIXED: The misspelling was in Alan Anderssons email (verified against
      KGT).
-**** TODO "Major" source transcripts should be indexed by Google        :CGI:
+**** TODO "Major" source transcripts should be indexed by Google
      Transcriptions of TKD/TKW/KGT/CK and PK should be indexable by Google
      (i.e. script should detect and allow anyone with a user agent string
      matching m#\bGooglebot\b#i).
-**** TODO Add movie transcripts                                        :HTML:
+**** TODO Add movie transcripts
 ***** TODO 1991-12-03-tuc.txt
 ****** TODO Improve summary
 **** TODO Add ST5 transcript
      http://mail.google.com/mail/#label/imported/12a129c1002403f8
-**** TODO Add text containing {Sa'Hut} "buttocks" (from {qep'a'} 2003) :HTML:
+**** TODO Add text containing {Sa'Hut} "buttocks" (from {qep'a'} 2003)
 **** TODO Add transcript of The Klingon Way (audio book)         :TRANSCRIBE:
 **** DONE Add Mike Neff's KCD transcripts
      CLOSED: [2011-09-18 Sun]
@@ -1994,12 +1984,12 @@ optimization."
 **** TODO Transcript list/table in article should be autogenerated
 ***** TODO File headers of major canon works should not be obfuscated
       TKD, CK, PK, TKW and KGT.
-** TODO "The {pIqaD} Playground"
+** "The {pIqaD} Playground"
 *** DONE Should parse {nenghep} as {nen-ghep} (not {negh-hep})
     CLOSED: [2011-08-30 Tue 11:57]
     Felix Malmenbeck reported this 2011-08-29.
 *** TODO Should support Unicode version of {pIqaD}
-** [44%] "{pIqaD}, And How to Read It"
+** "{pIqaD}, And How to Read It"
 *** [0%] All sources should link to "Archive of Okrandian Canon"
 **** TODO Both in References section
 **** TODO And sources in "foldable" source refereces
@@ -2083,7 +2073,44 @@ optimization."
     Is word "much" repeated twice? From HolQeD 1:1 p. 19. -- Yup. Word repeated
     twice in original HolQeD article. Also article is on pp. 19--20, and not
     just 19.
-** TODO "Klingon Pocket Dictionary"
+** "Some Pictures of {pIqaD}"
+*** TODO Move article inte directory if its own
+    What should the dir be called? piqadpic/ playis badly with tab completion
+    since there is a both a piq/ and piqad/ dir too...
+*** TODO Redesign using <div class=gallery>
+    Just like songs/tahjaj_wo/
+*** [26%] Get stuff from Facebook group {tlhIngan Hol jatlhwI'pu'}
+**** DONE Fetch https://www.facebook.com/groups/tlhInganHol/permalink/481544655195132/
+     CLOSED: [2013-05-27 Mon 00:23]
+**** DONE Fetch https://www.facebook.com/groups/tlhInganHol/permalink/544378392245091/
+     CLOSED: [2013-05-27 Mon 00:23]
+**** DONE Fetch https://www.facebook.com/groups/tlhInganHol/permalink/558022844213979/
+     CLOSED: [2013-05-27 Mon 00:23]
+**** DONE Fetch https://www.facebook.com/groups/tlhInganHol/permalink/607949829221280/
+     CLOSED: [2013-05-27 Mon 00:23]
+**** TODO Fetch https://www.facebook.com/groups/tlhInganHol/permalink/484284438254487/
+     1/3 of Rohan Fenwick's brush calligraphy.
+**** TODO Fetch https://www.facebook.com/groups/tlhInganHol/permalink/483024308380500/
+     2/3 of Rohan Fenwick's brush calligraphy.
+**** TODO Fetch https://www.facebook.com/groups/tlhInganHol/permalink/482454445104153/
+     3/3 of Rohan Fenwick's brush calligraphy.
+**** TODO Fetch https://www.facebook.com/groups/tlhInganHol/permalink/483694938313437/
+     Felix's handwritten pIqaD with "more emphasis on recognizability"
+**** TODO Fetch https://www.facebook.com/groups/tlhInganHol/permalink/480153515334246/
+     Felix's brush calligraphy.
+**** TODO Fetch https://www.facebook.com/groups/tlhInganHol/permalink/483233475026250/
+     1/3 of Qov's pIqaD scribbles
+**** TODO Fetch https://www.facebook.com/groups/tlhInganHol/permalink/483245355025062/
+     2/3 of Qov's pIqaD scribbles
+**** TODO Fetch https://www.facebook.com/groups/tlhInganHol/permalink/485535664796031/
+     3/3 of Qov's pIqaD scribbles (flying notes).
+**** TODO Fetch https://www.facebook.com/groups/tlhInganHol/permalink/483173248365606/
+     Michael Roney Jr.'s pIqaD
+**** TODO Fetch https://www.facebook.com/groups/tlhInganHol/permalink/369852673030998/
+     Klingon mode for Tengwar (Tolkien's alphabet)
+**** TODO Fetch http://www.trimboli.name/KlingonTengwar.html
+     Klingon mode for Tengwar (Tolkien's alphabet)
+** "Klingon Pocket Dictionary"
 *** Web page
 **** DONE Fix page tabs links
      CLOSED: [2013-02-24 Sun 04:49]
@@ -3173,7 +3200,7 @@ optimization."
 ***** DONE Usage of word found in brackets in 'en' and 'sv' fields
       CLOSED: [2011-11-05 Sat 11:55]
       Usage could be e.g. 'regional', 'archaic' or 'slang'.
-** TODO "Errors in Okrandian Sources"
+** "Errors in Okrandian Sources"
 *** DONE Fix spelling of {me'mey} -> {mu'mey}
     CLOSED: [2011-09-16 Fri 14:14]
     From: Philip Newton <philip.newton@gmail.com>
@@ -3191,11 +3218,12 @@ optimization."
 
     Cheers,
     Philip
-** [0%] "A Quick Reference to Subjects and Objects in Klingon"
+** "A Quick Reference to Subjects and Objects in Klingon"
+*** TODO Which prefix to use with a subject like {SoH jIH je}?
 *** TODO Example sentences with {-chuq} and {-'egh}
 *** TODO Add info on indirect objects with {-vaD}
 *** TODO Add info on the prefix trick
-** [0%] "A Quick Reference to Colors in Klingon"
+** "A Quick Reference to Colors in Klingon"
 *** TODO Add {rItlhmey} as an approximate word for “color”
    From: "qeSan \(KSFCN\)" <qeSan@ksfcn.com>
    To: <tlhingan-hol@kli.org>
@@ -3224,10 +3252,10 @@ optimization."
    Countries - Sepmey tlhab
 
    qe’San
-** [100%] "A Quick Reference to Adverbials in Klingon"
+** "A Quick Reference to Adverbials in Klingon"
 *** DONE Update list of adverbials
     CLOSED: [2013-04-02 Tue 05:27]
-** [0%] "A Quick Reference to Time Expressions in Klingon"
+** "A Quick Reference to Time Expressions in Klingon"
 *** TODO Add {ngugh} adverbial
     Are there more time related adverbials that should be included?
 *** TODO Add recommendations -- Which time system is best?
@@ -3235,7 +3263,7 @@ optimization."
     See: http://klingonska.org/canon/2011-11-07-email.txt
     Analyse and add notes on whether the Talk Now way of specifying time is the
     same as the CK way.
-** TODO "Links to Other Pages About the Klingon Language"
+** "Links to Other Pages About the Klingon Language"
 *** TODO Update "Links to Other Pages About the Klingon Language"
     This page need a major update, and removal of non-working links.
 
@@ -3309,7 +3337,7 @@ optimization."
       (A pretty good article on the klingon language)
 **** TODO "Wikipedia: Klingon writing systems"
       http://en.wikipedia.org/wiki/Klingon_writing_systems
-** TODO Project "Klingonsk ordbok" (KLO)
+** "Klingonsk ordbok" (KLO)
 *** TODO [#2] Phonetic descriptions should use IPA
     The sound transcription used in the cheat sheet (e.g. "sjis-LASJ") is
     stupid, ugly and US-centric. Since IPA is used in schools in Sweden, it
@@ -3328,7 +3356,7 @@ optimization."
 *** [#3] Tables with suffixes should be linked
     CLOSED: [2011-07-03 Sun 04:00]
     http://klingonska.org/klo/tillagg-01.txt
-** TODO "Om Klingonska Akademien" -- KA's Logo
+** "Om Klingonska Akademien" -- KA's Logo
 *** TODO Add the moon logos as thumnails on the page
 *** TODO Move all the logos to the pic directory?
 ** TODO Lesson list
@@ -3536,7 +3564,7 @@ optimization."
 *** TODO Check that all HTML is downcased
 *** TODO Check that all HTML have quoted attribute names
 *** TODO Check that HTML uses only approved tag/attribute names
-** TODO `git commit` hook                                         :IMPORTANT:
+** TODO `git commit` hook
 *** TODO Enforcement of git commit hook
     The make script should look to see if the commit hook is in place, and
     require (or ask) that it be used.
@@ -3544,8 +3572,7 @@ optimization."
 *** TODO Commit hook should check that commit message is well formed
     According to these recommendations:
     http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
-** DOING Makefile: Uploading of beta.klingonska.org / klingonska.org    :CLI:
-** TODO usr/bin/klingon_spell_check                                     :CLI:
+** TODO usr/bin/klingon_spell_check
 *** TODO Support for syllable {-oy}
     Do I have this somewhere?
 *** TODO Allow use for #...# words excepted from normal rules
@@ -3553,17 +3580,18 @@ optimization."
 *** TODO Support " between words in Klingon
 
 * Web server config
-** TODO All files should have just *one* canonical URL                 :CONF:
-   "http://klingonska.org/" should never be referred to as
-   "http://klingonska.org/index.html". Any references to the index.html version
-   should be rewritten to the former.
-** TODO Configure "MultiView" so users don't have to type file suffix  :CONF:
+** TODO Configure "MultiView" so users don't have to type file suffix
    Apache's "MultiView" seems like a cool config option. It makes it so that
    visitors can leave off the file suffix. (E.g. http://klingonska.org/links/
    would load "links.html" if there isn't also a "/links/index.html".)
 
    More on that topic
    http://httpd.apache.org/docs/current/content-negotiation.html#multiviews
+** DONE All files should have just *one* canonical URL
+   CLOSED: [2013-04-24 Wed 00:28]
+   "http://klingonska.org/" should never be referred to as
+   "http://klingonska.org/index.html". Any references to the index.html version
+   should be rewritten to the former.
 ** DONE Move from HCoop's old "mire" to the new "navajos" server
    CLOSED: [2013-01-29 Tue 19:15]
    Hopefully this should eliminate all the speed issues that have been plaguing
