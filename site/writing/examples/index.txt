@@ -4,6 +4,7 @@ author: zrajm
 year: 1998-2001
 lang: en
 style: gallery
+up: ../..
 
 Some Pictures of {pIqaD}
 ========================
@@ -20,14 +21,14 @@ If you have anything that you wish to contribute, you are more than welcome to
 contact [me](mailto:zrajm@klingonska.org), and share what you've got. All
 contributions will, of course, be fully credited.
 
-<div class="gallery">
+<div class=gallery>
   <figure>
-    <img src="pic/piqdemo.gif" width="530" height="491">
+    <img src="pic/kli-piqad.gif" width=530 height=491>
     <figcaption>{pIqaD} à lá KLI. (From from the KLI webpage.)
       <br>This is what is normally understood as {pIqaD}.</figcaption>
   </figure>
   <figure>
-    <img src="pic/piqad-3.gif" width="640" height="237">
+    <img src="pic/paramount-example.gif" width=640 height=237>
     <figcaption>The Paramount version of {pIqaD}. (Taken from <i>Star Trek
         Encyclopedia</i>.)
       <br>These are the glyphs that Paramount use on screen. You can see
@@ -35,14 +36,14 @@ contributions will, of course, be fully credited.
     </figcaption>
   </figure>
   <figure>
-    <img src="pic/piqad-4.gif" width="520" height="389">
+    <img src="pic/ka-piqad.gif" width=520 height=389>
     <figcaption>Klingon pronunciation in {ta' Hol} written in IPA.
       <br>I verified the IPA transcription with Marc Okrand during
       <br>{qep'a' chorghDIch}, so this is actually canon, boys and girls.
     </figcaption>
   </figure>
   <figure>
-    <img src="pic/dochmey.gif" width="544" height="99">
+    <img src="pic/geiselman-example.gif" width=544 height=99>
     <figcaption>
       An example of {pIqaD} typography in use
       (by <a href="mailto:kordite@fyi.net">Kevin A. Geiselman</a>).
@@ -53,13 +54,13 @@ contributions will, of course, be fully credited.
 
 [zrajm] By Zrajm C Akfohg ({maHvatlh})
 --------------------------------------
-<div class="gallery">
+<div class=gallery>
   <figure>
-    <a href="pic/longhand.jpg"><img src="pic/longhand_m.jpg" width="600"
-      height="434"></a>
+    <a href="pic/zrajm-piqad.jpg"><img src="pic/mini/zrajm-piqad.jpg" width=600
+      height=434></a>
     <figcaption>My own {pIqaD} handwriting, with additional instructions in
       Swedish (Sorry).
-      <br><small>[<a href="pic/longhand.jpg">large image</a>,
+      <br><small>[<a href="pic/zrajm-piqad.jpg">large image</a>,
       2982×2157 pixel]</small>
     </figcaption>
   </figure>
@@ -68,24 +69,24 @@ contributions will, of course, be fully credited.
 
 [cheesbro] By Roger Cheesbro ({DloraH}):
 ----------------------------------------
-<div class="gallery">
+<div class=gallery>
   <figure>
-    <a href="pic/byhand.gif"><img src="pic/byhand_m.gif" width="600" height="430"></a>
-    <br><a href="pic/byhand-number.gif"><img src="pic/byhand-number_m.gif" width="600" height="163"></a>
+    <a href="pic/cheesbro-piqad.gif"><img src="pic/mini/cheesbro-piqad.gif" width=600 height=430></a>
+    <br><a href="pic/cheesbro-number.gif"><img src="pic/mini/cheesbro-number.gif" width=600 height=163></a>
     <figcaption>{pIqaD} calligraphic longhand by Roger Cheesbro (sent to me
       in <time datetime="2001-09">September 2001</time>)
       <br>The first Klingon script that I've seen which actually looks
       beautiful.
-      <br><small>[<a href="pic/byhand.gif">large letter image</a>, 1196×860
-        pixel; <a href="pic/byhand-number.gif">large number image</a>, 1186×332
+      <br><small>[<a href="pic/cheesbro-piqad.gif">large letter image</a>, 1196×860
+        pixel; <a href="pic/cheesbro-number.gif">large number image</a>, 1186×332
         pixel]</small>
     </figcaption>
   </figure>
   <figure>
-    <img src="pic/byhand-example_m.gif" width="600" height="652">
+    <img src="pic/mini/cheesbro-example.gif" width=600 height=652>
     <figcaption>A small transcript from {ghIlghameS} made by the translator,
       Roger Cheesbro.
-      <br><small>[<a href="pic/byhand-example.gif">large image</a>, 762×828
+      <br><small>[<a href="pic/cheesbro-example.gif">large image</a>, 762×828
         pixel]</small>
     </figcaption>
   </figure>
@@ -94,18 +95,18 @@ contributions will, of course, be fully credited.
 
 [nicholas] By Nick Nicholas
 ---------------------------
-<div class="gallery">
+<div class=gallery>
   <figure>
-    <img src="pic/piqad-1.gif" width="341" height="469">
+    <img src="pic/nicholas-piqad.gif" width=341 height=469>
     <figcaption>{pIqaD} longhand. (Found on KLI's FTP-site, created by Nick Nicholas.)
       <br>When I spoke to him at the {qep'a' SochDIch}
       (<time datetime="2000-07">July 2000</time>) he declared this more or less
       outdated.</figcaption>
   </figure>
   <figure>
-    <a href="pic/piqad-2a.gif"><img src="pic/piqad-2b.gif" width="662" height="549"></a>
+    <a href="nicholas-evolution.gif"><img src="pic/mini/nicholas-evolution.gif" width=662 height=549></a>
     <figcaption>The evolution of {pIqaD}? (Found on KLI's FTP-site, created by Nick Nicholas.)
-      <br><small>[<a href="pic/piqad-2a.gif">large image</a>, 945×784 pixel]</small>
+      <br><small>[<a href="nicholas-evolution.gif">large image</a>, 945×784 pixel]</small>
     </figcaption>
   </figure>
 </div>

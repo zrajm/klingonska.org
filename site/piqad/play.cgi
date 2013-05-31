@@ -335,7 +335,7 @@ single one on this page.)
 <p>If you want to know more about the Klingon writing system, you may want to
 take a look at the article <i><a href="./"><b>pIqaD</b>, and How To Read
 It</a></i>. For a glimpse of Klingon handwriting, take a look at <i><a
-href="../piqadpic.html">Some Pictures of <b>pIqaD</b></a></i>. If you\'re
+href="../writing/examples/">Some Pictures of <b>pIqaD</b></a></i>. If you\'re
 interested in the (GIF-)typeface used above, take a look at <i><a
 href="../piq/">Some Klingon GIF Fonts</a></i>.
 
@@ -345,7 +345,6 @@ handwriting as GIF typefaces, as well a as the IPA characters needed to
 transcribe Klingon.
 
 EOF
-    # ' (syntax hilite fix)
     print html_footer();
     exit;
 }

@@ -664,7 +664,7 @@
     `/songs/tahjaj_wo/` has got it right, but all other occurances need to be
     updated.
 *** TODO Linked images should have border highlight
-    Maby have a 2px transparent border on all linked images, and then changing
+    Maybe have a 2px transparent border on all linked images, and then changing
     color on hover? Problem now is that if an image is linked or not isn't very
     obvious. Esp. look at:
 
@@ -1994,11 +1994,17 @@
 ***** TODO File headers of major canon works should not be obfuscated
       TKD, CK, PK, TKW and KGT.
 ** "The {pIqaD} Playground"
+*** [0%] Move into writing/play/index.cgi
+**** TODO Make all references to page point to new place
+**** TODO HCoop redirect from old to new
 *** DONE Should parse {nenghep} as {nen-ghep} (not {negh-hep})
     CLOSED: [2011-08-30 Tue 11:57]
     Felix Malmenbeck reported this 2011-08-29.
 *** TODO Should support Unicode version of {pIqaD}
 ** "{pIqaD}, And How to Read It"
+*** [0%] Move into writing/alphabet (?)
+**** TODO Make all references to page point to new place
+**** TODO HCoop redirect from old to new
 *** [0%] All sources should link to "Archive of Okrandian Canon"
 **** TODO Both in References section
 **** TODO And sources in "foldable" source refereces
@@ -2083,12 +2089,96 @@
     twice in original HolQeD article. Also article is on pp. 19--20, and not
     just 19.
 ** "Some Pictures of {pIqaD}"
-*** TODO Move article inte directory if its own
+*** [100%] Move article into writing/examples/ and clean up image names
+    Need to get rid of ridiculous tab completion situation (There are
+    files/dirs called pic/, piq/, piqad/, piqadpic/ and punct.txt... Baad when
+    tab completing filenames in that dir!)
+
+    Use new standard names for thumbnails: pic/mini/
+
+    Help in gathering all {pIqaD} related articles in their own subdir:
+    writing/ (use new subdir name, rather than piqad/, so we don't get
+    collisions between old/new names, and can [later] redirect piqad/ ->
+    writing/reading/, rather than conflicting piqad/ -> piqad/reading/).
+**** DONE Rename: piqadpic.txt -> writing/examples/index.txt
+     CLOSED: [2013-05-31 Fri 19:51]
+**** DONE Rename: pic/piqdemo.gif -> writing/examples/pic/kli-piqad.png
+     CLOSED: [2013-05-31 Fri 19:51]
+     KLI's pIqaD
+**** DONE Rename: pic/piqad-3.gif -> writing/examples/pic/paramount-example.png
+     CLOSED: [2013-05-31 Fri 19:51]
+     Paramount pIqaD example
+**** DONE Rename: pic/piqad-4.gif -> writing/examples/pic/ka-piqad.png
+     CLOSED: [2013-05-31 Fri 19:51]
+     Klingonska Akademien's pIqaD table
+**** DONE Rename: pic/dochmey.gif -> writing/examples/pic/geiselman-example.png
+     CLOSED: [2013-05-31 Fri 19:51]
+     Gieselman's pIqaD example
+**** DONE Rename: pic/longhand.jpg -> writing/examples/pic/zrajm-piqad.jpg
+     CLOSED: [2013-05-31 Fri 19:51]
+     Zrajm's pIqaD longhand
+**** DONE Rename: pic/longhand_m.jpg -> writing/examples/pic/mini/zrajm-piqad.png
+     CLOSED: [2013-05-31 Fri 19:52]
+     Thumbnail for Zrajm's pIqaD longhand
+**** DONE Rename: pic/byhand.gif -> writing/examples/pic/cheesbro-piqad.png
+     CLOSED: [2013-05-31 Fri 19:52]
+**** DONE Rename: pic/byhand-number.gif -> writing/examples/pic/cheesbro-piqad.png
+     CLOSED: [2013-05-31 Fri 19:52]
+**** DONE Rename: pic/byhand-example.gif -> writing/examples/pic/cheesbro-example.png
+     CLOSED: [2013-05-31 Fri 19:52]
+**** DONE Rename: pic/byhand_m.gif -> writing/examples/pic/mini/cheesbro-piqad.png
+     CLOSED: [2013-05-31 Fri 19:52]
+**** DONE Rename: pic/byhand-number_m.gif -> writing/examples/pic/mini/cheesbro-piqad.png
+     CLOSED: [2013-05-31 Fri 19:52]
+**** DONE Rename: pic/byhand-example_m.gif -> writing/examples/pic/mini/cheesbro-example.jpg
+     CLOSED: [2013-05-31 Fri 19:52]
+**** DONE Rename: pic/piqad-1.gif -> writing/examples/pic/nicholas-piqad.png
+     CLOSED: [2013-05-31 Fri 19:52]
+**** DONE Rename: pic/piqad-2a.gif -> writing/examples/pic/nicholas-evolution.png
+     CLOSED: [2013-05-31 Fri 19:52]
+**** DONE Rename: pic/piqad-2b.gif -> writing/examples/pic/mini/nicholas-evolution.png
+     CLOSED: [2013-05-31 Fri 19:52]
+**** DONE Check that none of the old file names are still in use
+     CLOSED: [2013-05-31 Fri 20:12]
+*** TODO Replace big images with smaller thumbnails
+    This will allow adding of more images to the article (planned) without the
+    page becoming overly long.
+
+      * Use <div class=gallery> (like songs/tahjaj_wo/)
+      * Convert GIF images to PNG.
+      * Transparent backgrounds in thumbnails.
+      * Optimize all images.
+*** [0%] Add redirects from old images to new ones
     What should the dir be called? piqadpic/ playis badly with tab completion
     since there is a both a piq/ and piqad/ dir too...
-*** TODO Redesign using <div class=gallery>
-    Just like songs/tahjaj_wo/
-*** [26%] Get stuff from Facebook group {tlhIngan Hol jatlhwI'pu'}
+**** TODO Redirect: piqadpic.html -> writing/examples/
+**** TODO Redirect: pic/piqdemo.gif -> writing/examples/pic/kli-piqad.png
+     KLI's pIqaD
+**** TODO Redirect: pic/piqad-3.gif -> writing/examples/pic/paramount-example.png
+     Paramount pIqaD example
+**** TODO Redirect: pic/piqad-4.gif -> writing/examples/pic/ka-piqad.png
+     Klingonska Akademien's pIqaD table
+**** TODO Redirect: pic/dochmey.gif -> writing/examples/pic/geiselman-example.png
+     Gieselman's pIqaD example
+**** TODO Redirect: pic/longhand.jpg -> writing/examples/pic/zrajm-piqad.jpg
+     Zrajm's pIqaD longhand
+**** TODO Redirect: pic/longhand_m.jpg -> writing/examples/pic/mini/zrajm-piqad.png
+     Thumbnail for Zrajm's pIqaD longhand
+**** TODO Redirect: pic/byhand.gif -> writing/examples/pic/cheesbro-piqad.png
+     byhand.gif + byhand-number.gif was merged into one.
+**** TODO Redirect: pic/byhand-number.gif -> writing/examples/pic/cheesbro-piqad.png
+     byhand.gif + byhand-number.gif was merged into one.
+**** TODO Redirect: pic/byhand-example.gif -> writing/examples/pic/cheesbro-example.png
+**** TODO Redirect: pic/byhand_m.gif -> writing/examples/pic/mini/cheesbro-piqad.png
+     byhand_m.gif + byhand-number_m.gif was merged into one.
+**** TODO Redirect: pic/byhand-number_m.gif -> writing/examples/pic/mini/cheesbro-piqad.png
+     byhand_m.gif + byhand-number_m.gif was merged into one.
+**** TODO Redirect: pic/byhand-example_m.gif -> writing/examples/pic/mini/cheesbro-example.jpg
+**** TODO Redirect: pic/piqad-1.gif -> writing/examples/pic/nicholas-piqad.png
+**** TODO Redirect: pic/piqad-2a.gif -> writing/examples/pic/nicholas-evolution.png
+**** TODO Redirect: pic/piqad-2b.gif -> writing/examples/pic/mini/nicholas-evolution.png
+*** [26%] Add new images from Facebook group
+    There has been a of interesting stuff posted to {tlhIngan Hol jatlhwI'pu'}.
 **** DONE Fetch https://www.facebook.com/groups/tlhInganHol/permalink/481544655195132/
      CLOSED: [2013-05-27 Mon 00:23]
 **** DONE Fetch https://www.facebook.com/groups/tlhInganHol/permalink/544378392245091/

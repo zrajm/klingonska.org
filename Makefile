@@ -81,6 +81,7 @@ html_targets =                                    \
             $(source_dir)/songs/america.txt      \
             $(source_dir)/songs/anthem/index.txt \
             $(source_dir)/songs/tahjaj_wo/index.txt \
+            $(source_dir)/writing/examples/*.txt \
     )))
 
 css_targets =                                               \

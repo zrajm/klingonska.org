@@ -70,7 +70,7 @@ style: banner dict
     handwriting is not yet
     covered.) <small class=nobr>[Updated <time>2007-08-17</time>]</small>
 
-  <dt><a href="piqadpic.html">Some Pictures of {pIqaD}</a>
+  <dt><a href="writing/examples/">Some Pictures of {pIqaD}</a>
   <dd>Pictures of interest. Paramount's version of {pIqaD}, a {pIqaD}
     typography example and a few examples of {pIqaD}
     handwriting. <small class=nobr>[Updated <time>2007-07-15</time>]</small>
