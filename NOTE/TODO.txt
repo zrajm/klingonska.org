@@ -2140,7 +2140,8 @@
      CLOSED: [2013-05-31 Fri 19:52]
 **** DONE Check that none of the old file names are still in use
      CLOSED: [2013-05-31 Fri 20:12]
-*** TODO Replace big images with smaller thumbnails
+*** DONE Replace big images with smaller thumbnails
+    CLOSED: [2013-05-31 Fri 21:00]
     This will allow adding of more images to the article (planned) without the
     page becoming overly long.
 
@@ -2148,35 +2149,51 @@
       * Convert GIF images to PNG.
       * Transparent backgrounds in thumbnails.
       * Optimize all images.
-*** [0%] Add redirects from old images to new ones
+*** [100%] Add redirects from old images to new ones
     What should the dir be called? piqadpic/ playis badly with tab completion
     since there is a both a piq/ and piqad/ dir too...
-**** TODO Redirect: piqadpic.html -> writing/examples/
-**** TODO Redirect: pic/piqdemo.gif -> writing/examples/pic/kli-piqad.png
+**** DONE Redirect: piqadpic.html -> writing/examples/
+     CLOSED: [2013-05-31 Fri 21:08]
+**** DONE Redirect: pic/piqdemo.gif -> writing/examples/pic/kli-piqad.png
+     CLOSED: [2013-05-31 Fri 21:08]
      KLI's pIqaD
-**** TODO Redirect: pic/piqad-3.gif -> writing/examples/pic/paramount-example.png
+**** DONE Redirect: pic/piqad-3.gif -> writing/examples/pic/paramount-example.png
+     CLOSED: [2013-05-31 Fri 21:08]
      Paramount pIqaD example
-**** TODO Redirect: pic/piqad-4.gif -> writing/examples/pic/ka-piqad.png
+**** DONE Redirect: pic/piqad-4.gif -> writing/examples/pic/ka-piqad.png
+     CLOSED: [2013-05-31 Fri 21:08]
      Klingonska Akademien's pIqaD table
-**** TODO Redirect: pic/dochmey.gif -> writing/examples/pic/geiselman-example.png
+**** DONE Redirect: pic/dochmey.gif -> writing/examples/pic/geiselman-example.png
+     CLOSED: [2013-05-31 Fri 21:08]
      Gieselman's pIqaD example
-**** TODO Redirect: pic/longhand.jpg -> writing/examples/pic/zrajm-piqad.jpg
+**** DONE Redirect: pic/longhand.jpg -> writing/examples/pic/zrajm-piqad.jpg
+     CLOSED: [2013-05-31 Fri 21:08]
      Zrajm's pIqaD longhand
-**** TODO Redirect: pic/longhand_m.jpg -> writing/examples/pic/mini/zrajm-piqad.png
+**** DONE Redirect: pic/longhand_m.jpg -> writing/examples/pic/mini/zrajm-piqad.png
+     CLOSED: [2013-05-31 Fri 21:08]
      Thumbnail for Zrajm's pIqaD longhand
-**** TODO Redirect: pic/byhand.gif -> writing/examples/pic/cheesbro-piqad.png
+**** DONE Redirect: pic/byhand.gif -> writing/examples/pic/cheesbro-piqad.png
+     CLOSED: [2013-05-31 Fri 21:08]
      byhand.gif + byhand-number.gif was merged into one.
-**** TODO Redirect: pic/byhand-number.gif -> writing/examples/pic/cheesbro-piqad.png
+**** DONE Redirect: pic/byhand-number.gif -> writing/examples/pic/cheesbro-piqad.png
+     CLOSED: [2013-05-31 Fri 21:08]
      byhand.gif + byhand-number.gif was merged into one.
-**** TODO Redirect: pic/byhand-example.gif -> writing/examples/pic/cheesbro-example.png
-**** TODO Redirect: pic/byhand_m.gif -> writing/examples/pic/mini/cheesbro-piqad.png
+**** DONE Redirect: pic/byhand-example.gif -> writing/examples/pic/cheesbro-example.png
+     CLOSED: [2013-05-31 Fri 21:08]
+**** DONE Redirect: pic/byhand_m.gif -> writing/examples/pic/mini/cheesbro-piqad.png
+     CLOSED: [2013-05-31 Fri 21:08]
      byhand_m.gif + byhand-number_m.gif was merged into one.
-**** TODO Redirect: pic/byhand-number_m.gif -> writing/examples/pic/mini/cheesbro-piqad.png
+**** DONE Redirect: pic/byhand-number_m.gif -> writing/examples/pic/mini/cheesbro-piqad.png
+     CLOSED: [2013-05-31 Fri 21:08]
      byhand_m.gif + byhand-number_m.gif was merged into one.
-**** TODO Redirect: pic/byhand-example_m.gif -> writing/examples/pic/mini/cheesbro-example.jpg
-**** TODO Redirect: pic/piqad-1.gif -> writing/examples/pic/nicholas-piqad.png
-**** TODO Redirect: pic/piqad-2a.gif -> writing/examples/pic/nicholas-evolution.png
-**** TODO Redirect: pic/piqad-2b.gif -> writing/examples/pic/mini/nicholas-evolution.png
+**** DONE Redirect: pic/byhand-example_m.gif -> writing/examples/pic/mini/cheesbro-example.jpg
+     CLOSED: [2013-05-31 Fri 21:08]
+**** DONE Redirect: pic/piqad-1.gif -> writing/examples/pic/nicholas-piqad.png
+     CLOSED: [2013-05-31 Fri 21:08]
+**** DONE Redirect: pic/piqad-2a.gif -> writing/examples/pic/nicholas-evolution.png
+     CLOSED: [2013-05-31 Fri 21:08]
+**** DONE Redirect: pic/piqad-2b.gif -> writing/examples/pic/mini/nicholas-evolution.png
+     CLOSED: [2013-05-31 Fri 21:08]
 *** [26%] Add new images from Facebook group
     There has been a of interesting stuff posted to {tlhIngan Hol jatlhwI'pu'}.
 **** DONE Fetch https://www.facebook.com/groups/tlhInganHol/permalink/481544655195132/
