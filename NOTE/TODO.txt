@@ -1473,7 +1473,13 @@
     Each transcript in the http://klingonska.org/canon/ list should have a link
     to the prettified version (as well as to the original text formatted
     transcript).
-*** [60%] Transcripts updating/improvement
+*** [59%] Transcripts updating/improvement
+**** TODO Is "Skybox" correctly spelled in HQ 4:2 article?            :PROOF:
+     SkyBox is spelled with capital "B", so there should either be a correction
+     note in this transcript, or spelling should be corrected (if it was
+     correctly reproduced in the original {HolQeD}).
+
+     See: [[1995-06-holqed-04-2-a.txt][Interview: Okrand on {-bogh} and more]]
 **** TODO Add deleted scene from “Star Trek” (2009)
      http://youtu.be/pchkWmhCMXM
 **** TODO Scene from “Star Trek: Into Darkness” (2013)
@@ -1875,7 +1881,7 @@
      And make web redirect from old to new file.
 **** DONE Add transcript of HQ5:3 p.15 (1996-09-holqed-05-3-b.txt)
      CLOSED: [2012-05-11 Fri 22:36]
-     Article with transcript of Skybox S26
+     Article with transcript of SkyBox S26
 
      Referenced in dict.zdb.
 **** DONE Rename old 1996-09-holqed-05-3.txt -> 1996-09-holqed-05-3-a.txt
@@ -1883,7 +1889,7 @@
      And make web redirect from old to new file.
 **** DONE Add transcript of HQ6:2 p.9 (1997-06-holqed-06-2.txt)
      CLOSED: [2012-02-01 Wed 21:50]
-     Article with transcripts of Skybox S32 and S33.
+     Article with transcripts of SkyBox S32 and S33.
      Also verify the 'com:' part under *{Soq} in dict.zdb.
 **** DONE Add transcript of HQ8:4 p.11--13
      CLOSED: [2012-02-03 Fri 17:42]

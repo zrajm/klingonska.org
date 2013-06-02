@@ -1,7 +1,7 @@
 : -*- html -*-
-updated: 2012-09-07 00:22:53
+updated: 2013-06-02 19:03:13 +0200
 author: zrajm
-year: 1998-2012
+year: 1998-2013
 lang: en
 script: centerwidestuff
 style: piqad
@@ -35,23 +35,25 @@ alphabet and its typographical and phonological nuances. Since there does not
 really exist any <i>canon</i> Klingon alphabet (Okrand speaks about {pIqaD} but
 he never makes use of it.) I have adopted the KLI approved alphabet, used by
 most klingonists. Paramount themselves use a typeface constructed by
-the <i>Image Astra Corporation</i> which contains only ten glyphs, but since
+the <i>Astra Image Corporation</i> which contains only ten glyphs, but since
 this is the Klingon alphabet we see in the movies and in <i>Star Trek: The Next
 Generation</i>, I intend to do a comparison between the two, and hopefully be
 able to create a typeface which looks more like the {pIqaD} we see on the
 silver screen.</p>
 
-I also intend to do a survey of the different styles of useage of {pIqaD} among
+I also intend to do a survey of the different styles of usage of {pIqaD} among
 klingonists (mainly on the Internet, but other contributions are also welcome
 if you have any) to see how much one can actually play around with the glyphs
 and still be able read them.
 
-<p class=noindent>There are also some interesting GIF-files in KLI’s FTP-area
-created and uploaded by Nick Nicholas, one of the people behind the restored
-version of the Klingon {Hamlet}. They are very interesting as they show what
-seems to be {pIqaD} written with a ballpen, a calligraphy pen (sort of
-frakture, perhaps used in the first printed books on Kronos?) and with a
-brush.</p>
+<p class=noindent>There are
+also <a href="http://localhost/writing/examples/#nicholas">some images created
+by Nick Nicholas</a> (one of the people behind the restored version of the
+Klingon {Hamlet}) that are quite interesting, as they show what seem to be
+{pIqaD} written with a ballpoint pen, a calligraphy pen (in a Fraktur hand –
+perhaps used in the first printed books on Kronos?), and with a brush. (These
+images were originally found on KLI’s FTP area in February 2000, but that FTP
+seems to have gone defunct in intervening years.)</p>
 
 Worth mentioning is also the article “Writing Klingon: The Easy Way” by Theron
 P. Elliot, (published in {HolQeD} 2:2 pp.10--11) in which he uses a
@@ -63,7 +65,7 @@ do not think that the grid makes the Klingon glyphs justice.
 “An Alien Writing System Primer” explaining how to write {pIqaD} in longhand.
 (It is non-canon, of course---and to my knowledge not endorsed by the KLI.)
 
-<p class=noindent>Many thanks to Nick Nicholas for his constructive critisism
+<p class=noindent>Many thanks to Nick Nicholas for his constructive criticism
 and helpful suggestions.</p>
 
 
@@ -73,7 +75,7 @@ and helpful suggestions.</p>
   <p>More recently we’ve been treated to a different alphabet, (often
     incorrectly attributed to Michael Okuda, scenic designer for <i>TNG</i>),
     one which corresponds to the phonemes of Klingon as described by Okrand
-    in <i>TKD</i>. While the characters themselves are easily indentifiable
+    in <i>TKD</i>. While the characters themselves are easily identifiable
     from background displays on <i>TNG</i> (assuming one has access to video
     equipment and a reasonably large television screen), there has never been
     an “official” release describing the particular relationship between
@@ -140,8 +142,8 @@ and helpful suggestions.</p>
     decoration.</p>
 
   <p>In any case, there is clearly much much more to be learned about Klingon
-    orthography, more tantilizing promises and secrects to be discovered. Of
-    course it’s unknown whether any futher explanations are apt to be
+    orthography, more tantalizing promises and secrets to be discovered. Of
+    course it’s unknown whether any further explanations are apt to be
     forthcoming, but at least the exotica is there. Or, to make the case more
     clear by example, what precisely is “the Klingon mummification glyph,” and
     what is its role in a larger writing
@@ -152,7 +154,7 @@ and helpful suggestions.</p>
 
 <div class=noncanon>
   <p class=noindent>And from the syllabary created by Astra Image Corporation
-    (though usually attributed to <i>ST:TNG</i> Senic Designer Michael
+    (though usually attributed to <i>ST:TNG</i> Scenic Designer Michael
     Okuda): <small>[<a href="../canon/1992-12-holqed-01-04.txt">{HolQeD} 1:4
     p. 17, Lawrence M. Schoen</a>]</small></p>
 
@@ -174,10 +176,10 @@ and helpful suggestions.</p>
 There also exist a “canon” set of Klingon punctuation marks, used on the SkyBox
 trading cards in their “{pIqaD}” text. Though the use is somewhat inconsistent
 on these cards I would like to concur with Nick Nicholas interpretation that
-the upturned triangle funtion as a full stop (period) and the downturned
+the upturned triangle function as a full stop (period) and the downturned
 triangle as a comma / semicolon. These are also the only punctuation marks that
-the Klingon language really requires, since both both questions and imperatives
-are clearly marked grammatically.
+the Klingon language really requires, since both questions and imperatives are
+clearly marked grammatically.
 
 <img src="../pic/punct2.gif" width=500 height=180
 alt="Klingon punctuation" style="margin: 1em auto">
@@ -185,8 +187,7 @@ alt="Klingon punctuation" style="margin: 1em auto">
 
 [pronunciation] Pronunciation
 -----------------------------
-
-The following tables are an overview of the sounds of Klingon Klingon, written
+The following tables are an overview of the sounds of Klingon, written
 in <a href="http://en.wikipedia.org/wiki/International_Phonetic_Alphabet"
 title="International Phonetic Alphabet">IPA</a>. A more complete description of
 each of the sounds is given in the text below.
@@ -349,7 +350,7 @@ each of the sounds is given in the text below.
         <tr align=right><th>[-high]<br>[+low]<td><td align=center>{a}<td>
       </table>
 
-      <p class="blank indent">There are two noticable secondary features,
+      <p class="blank indent">There are two noticeable secondary features,
         [round] and [tense], which are both linked to [back]. The result is
         that the front vowels are lax. In IPA they would be notated with iota
         or small capital I, and epsilon rather than with &lt;I&gt; and
@@ -458,7 +459,6 @@ each of the sounds is given in the text below.
 
 
 ### Doubled Consonants ###
-
 
 Though frowned upon by older Klingons it is not all that uncommon that doubled
 consonants are pronounced as only one letter by younger Klingons. The word
@@ -1398,7 +1398,7 @@ stressed as nouns.
       nova</i>, {bortáSmey} <i>revenges</i>.</p>
 
     <p>However, if any syllable in a noun, whether in the stem or in a suffix,
-      ends in a glottal stop, it is stressed instead of the the stem’s final
+      ends in a glottal stop, it is stressed instead of the stem’s final
       syllable. Thus: {bó'DIj} <i>court</i>, {ghopDú'} <i>hands</i>,
       {puyjaqvó'} <i>from the nova</i>. Adjacent syllables ending in glottal
       stops receive equal stress: {chú'wÍ'} <i>trigger</i>, although Klingon
