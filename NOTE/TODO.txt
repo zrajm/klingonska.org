@@ -1966,7 +1966,6 @@
       CLOSED: [2010-08-26 Thu 09:48]
 ***** DONE "one either {megh'an}" should be "once either {megh'an}"?
       CLOSED: [2010-08-26 Thu 09:55]
-
 *** TODO General corrections
 **** TODO Machine-check Klingon syllable structure
 **** TODO Machine-extract & check that all words are in dict.zdb
@@ -2462,12 +2461,20 @@
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** `dict.zdb`
-**** [33%] Field changes
+**** [20%] Field changes
+***** TODO Add 'lect:' field (for "slang", "regional" etc.)
 ***** TODO 'en:' field should come before 'sv:'
 ***** TODO 'tag:' field should come before 'com:'
       'tag:' field content is shorter, and more telling that the 'com:' field,
       so it should come earlier so as to allow user to faster get a 'feel' for
       the entry.
+***** TODO Systematize 'see:' field
+      Right now it's kind of haphazardly implemented. It should be more
+      systematic (and refer to the 'id:' of the of the linked-to entry + some
+      extra human-readable info). Maybe like this?
+
+          see: rqP ({quv} [1] (v) “be honored, be honorable”);
+          see: AKU ({HoQ} (v) “be honored falsely, be falsely honorable”)
 ***** DONE Add 'id:' field with (random) unique word ID number
       CLOSED: [2012-11-21 Wed 14:59]
       This would be useful, since programs (like the Glossary Extractor page)
@@ -2606,6 +2613,9 @@
       of the dictionary, but with a leading asterisk, and a warning they're not
       supposed to be used. Maybe add a 'warn' field, explaining why?
 **** [22%] Add new words
+***** TODO From Klingon Monopoly
+      See this discussion on tlhIngan Hol jatlhwI'pu':
+      https://www.facebook.com/groups/tlhInganHol/permalink/279142695435330/
 ***** TODO Words from `canon/2011-11-02-email.txt`
 ***** TODO Words from `canon/2011-11-04-email.txt`
 ***** TODO Words from `canon/2011-11-05-email.txt`
@@ -3585,11 +3595,16 @@
 *** DONE klingon phrases in {...} in gram: should have ' at beg of word replaced with right-hand quote
     CLOSED: [2012-01-20 Fri 13:01]
     (see example under {Soj})
-** [88%] `bin/check-dict`: Dictionary check tool
+** [89%] `bin/check-dict`: Dictionary check tool
 *** TODO Only look for too long lines in pre- and postamble
     There is now a check which look for badly wrapped fields, which will catch
     any too long lines, anyway. We don't need to check this twice.
 *** TODO Add check for unknown database sections
+*** DONE Check other (other than 'com:') fields for nesting of brackets
+    CLOSED: [2013-07-21 Sun 13:30]
+*** DONE Should check nesting of brackets in text fields
+    CLOSED: [2013-07-20 Sat 16:33]
+    {tlhuH} have a missing "]" in its `com:` field.
 *** DONE Check word wrapping of all fields
     CLOSED: [2013-05-05 Sun 20:08]
 *** DONE Add documentation
@@ -3615,9 +3630,9 @@
      Would this always work? If not how much smarts would be needed to get it to
      work?
 **** TODO Check sorting of 'tlh:' for homonyms
-    (In some places this will differ for other reasons.)
-     * standard >> slang/regional
-     * by pos: adv >> v >> pro >> ques >> conj >> num >> n >> name
+     (In some places this will differ for other reasons.)
+       * standard >> slang/regional
+       * by pos: adv >> v >> pro >> ques >> conj >> num >> n >> name
 **** TODO Check that irregular plurals links between singular <-> plural form
 *** DONE Check that sentences in ~...~ in 'desc:' start with lower case letter
     CLOSED: [2012-01-30 Mon 22:56]
@@ -3709,6 +3724,23 @@
 
    More on that topic
    http://httpd.apache.org/docs/current/content-negotiation.html#multiviews
+** DONE git.klingonska.org should point to individual dirs
+   CLOSED: [2013-07-20 Sat 15:26]
+   Redirects to github should point to the directory of the source file on
+   github. (It should not point to the exact path, since quite often the .html
+   file actually correspond to a .txt file in the site/ directory, which would
+   then result in a 404. [Or would require a *lot* of specialized redirects!])
+
+   I.e. the following redirects should work
+
+       git.klingonska.org/
+           -> github.com/zrajm/klingonska.org/tree/master/site/
+
+       git.klingonska.org/canon/
+           -> github.com/zrajm/klingonska.org/tree/master/site/canon/
+
+       git.klingonska.org/ref/ovs.html
+           -> github.com/zrajm/klingonska.org/tree/master/site/ref/
 ** DONE All files should have just *one* canonical URL
    CLOSED: [2013-04-24 Wed 00:28]
    "http://klingonska.org/" should never be referred to as

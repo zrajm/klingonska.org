@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    aa4e3fe5a30081b8961220f2bbfff4abaf2920c2
+SHA1:    5dfa06781252406858178666e83fcbc0eb9e54bf
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -181,7 +181,7 @@ once in the same entry).
     dictionary is unique.
 
     Ordering of homonyms is (currently) loosely based on dialect and
-    part-of-speech. Stardand dialect words are sorted before slang/regional
+    part-of-speech. Standard dialect words are sorted before slang/regional
     words, and part-of-speech order is as follows.
 
     > adv >> v >> excl >> pro >> ques >> conj >> num >> n >> name
@@ -243,7 +243,7 @@ once in the same entry).
     If a Swedish translation is missing it is marked with «», and the same
     entry also have a `meta: FIXME` comment.
 
-  * `en:` English definition (from canon sources) and [REQUIRED]
+  * `en:` English definition (from canon sources) [REQUIRED]
 
     English definition of the Klingon word, with all English lookup words
     (those words you you would look for in the English--Klingon side of the
@@ -418,13 +418,13 @@ once in the same entry).
     is likely to ever be needed. (Base58 was chosen for clarity, it is also
     used for Bitcoin addresses.)
 
-  * `file:` file names of source transcripts [REQUIRED]
+  * `file:` source transcript file name(s) [REQUIRED]
 
     File names (basename only) of the source transcripts in <Archive of
     Okrandian Canon>. Multiple filenames are separated with semicolon +
     whitespace.
 
-  * `meta:`  meta comment about entry [OPTIONAL]
+  * `meta:` meta comment about entry [OPTIONAL]
 
     Editor’s comments on the entry. This is, for example, comments on how the
     various sources have been combined to form the entry, concerns regarding
@@ -1830,12 +1830,12 @@ pos:	verb
 sv:	vara i «reserv», vara till för «nödläge»n
 en:	be «auxiliary», be for «backup» use
 def:	HQ1:3 p.9 ("Additional Vocabulary")
-com:	{chach!} ["Emergency!"] (untranslated) [ST6]; {tlham chach chu'qa'}
-	"Restoring auxiliary gravity." (clipped?) [ST6]; "If I heard this
-	correctly, {chach} appears to be acting as a quality here:
-	'backup/auxiliary gravity'. If it's a noun, I would expect the
-	noun+noun phrase ?{chach tlham} 'emergency gravity'." /Steven Boozer
-	[2006-10-04]
+cite:	{chach!} [~Emergency!~] (untranslated) [ST6]
+cite:	{tlham chach chu'qa'} ~Restoring auxiliary gravity.~ (clipped?) [ST6]
+cite:	If I heard this correctly, {chach} appears to be acting as a quality
+	here: "backup/auxiliary gravity". If it's a noun, I would expect the
+	noun+noun phrase ?{chach tlham} "emergency gravity". [Email 2006-10-04
+	(by Steven Boozer, to tlhingan-hol, "Re: Klingon WOTD: chach (noun)")]
 id:	1aF
 file:	1992-09-holqed-01-3.txt
 
@@ -4396,9 +4396,9 @@ pos:	verb
 sv:	vara «avundsjuk» (på), «avundas»
 en:	be «jealous» (of), «envy»
 def:	HQ8:3 p.4 ("{matlh juppu' mu'mey}")
-com:	{jIghal} "I am jealous", {choghal} "you envy me / you are jealous of
-	me", {torgh vIghal} "I am jealous of Torg" [HQ8:3 p.4 ({matlh juppu'
-	mu'mey})]
+cite:	{jIghal} ~I am jealous~; {choghal} ~you envy me / you are jealous of
+	me~; {torgh vIghal} ~I am jealous of Torg~ [HQ8:3 p.4 ("{matlh juppu'
+	mu'mey}")]
 id:	CgX
 file:	1999-09-holqed-08-3.txt
 
@@ -8173,8 +8173,10 @@ pos:	verb
 sv:	«flaxa», «slå» (om fågelvingar)
 en:	«flap» (bird's wings do this)
 def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
-com:	Used about a birds wings. "[...] in flight, a bird's wings {laq} (the
-	bird is said to {laqmoH} its wings)" [HQ10:4 p.5]
+cite:	Maltz pointed out that, in flight, a bird's wings {laq} (the bird is
+	said to {laqmoH} its wings), but when a banner or sail flaps, the
+	correct word to use is {joq} <flap, flutter, wave>. [HQ10:4 p.5
+	("{matlh juppu' mu'mey}")]
 id:	ntX
 file:	2001-12-holqed-10-4.txt
 
@@ -8217,8 +8219,8 @@ sv:	«ytterligare en», «en annan», «en till»
 en:	<additional one>, <other one>
 desc:	{latlh HIvje'} ~other glass~ [BoP]
 def:	TKDa
-com:	{latlh Datlhutlh'a'.} "Will you drink another one?" [PK] {latlh
-	tlhInganpu'} "other Klingons" [S31]
+cite:	~Will you drink another one?~ {latlh Datlhutlh'a'.} [CK]
+cite:	~other Klingons~ [...] {latlh tlhInganpu} [S31]
 tag:	KLCP1; quantity
 id:	xFN
 file:	1992-01-01-tkd.txt
@@ -8935,7 +8937,9 @@ cite:	Weirdly, although Maltz said he knew of no noun meaning "attitude," the
 	final element, {cha}, is, in fact, {cha} ~torpedoes~, this may shed
 	some light on early versions of the device. On the other hand,
 	something else may be going on here; maybe {lolSeHcha} is shortened
-	from a longer construction. [HQ11:2 pp.8--9 ("{matlh jup mu'mey}")]
+	from a longer construction. Maltz didn't know the answer, but he said
+	it was an interesting question.) [HQ11:2 pp.8--9 ("{matlh jup
+	mu'mey}")]
 id:	z53
 file:	1992-01-01-tkd.txt; 2002-06-holqed-11-2.txt
 
@@ -10085,7 +10089,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{mIl}
 pos:	verb
 sv:	vara «fordom «ärad»», vara «tidigare «hedrad»»
-en:	be formerly «honored»  but now «disgraced»
+en:	be formerly «honored» but now «disgraced»
 def:	HQ12:3 p.8 ("Maltz's Reward Part II")
 ref:	TDNW
 com:	"This would be applied to a leader who left office is disgrace, for
@@ -10106,13 +10110,14 @@ def:	{qep'a'} 2010
 ref:	Email 2010-12-05 (by Rohan Fenwick, to tlhingan-hol, "latlh mu' chu'");
 	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from
 	Maltz")
-com:	Lieven L. Litaer: Finally, someone last year asked for the word for
-	"picture." At first, Maltz wondered why {nagh beQ} wasn't good enough.
-	But then he thought about it some more and said that another word,
-	{mIllogh}, could be used for any sort of depiction, including drawings,
-	photographs, cartoons, icons on 21st-century computers, and so on.
-	(Marc Okrand) Tuesday [30 November 2010] at 10:51pm · Unlike · 6 people
-	[http://www.facebook.com/home.php?sk=group_165201996829401]
+cite:	Finally, someone last year asked for the word for "picture." At first,
+	Maltz wondered why {nagh beQ} wasn't good enough. But then he thought
+	about it some more and said that another word, {mIllogh}, could be used
+	for any sort of depiction, including drawings, photographs, cartoons,
+	icons on 21st-century computers, and so on. (Marc Okrand) [Web
+	2010-11-30 (by Lieven L. Litaer,
+	https://www.facebook.com/groups/tlhInganHol/permalink/179265855423015/,
+	"tlhIngan Hol jatlhwI'pu'")]
 id:	4E2
 file:	2010-12-05-email.txt; 2010-12-25-email.txt
 
@@ -10693,24 +10698,24 @@ pos:	noun
 sv:	«mugato»
 en:	<mugato>
 def:	TKD
-com:	"One of the more notable native animal forms on Neural [Zeta Boötis
-	III] is the mugato, a large, white, ape-like creature with dorsal
-	spines and a cranial horn. The mugato are monogamous, mating for life.
-	Little or no provocation will spark an attack by this hostile creature,
-	whose bite is highly poisonous and fatal if untreated. The only
-	antidote for the mugato bite is the proper application of the native
-	mako root, which has the ability to draw the toxin out of the human
-	nervous system. [No mention is made of how to draw it out of a Klingon
-	nervous system. Of the planet, the text says:] The native inhabitants
-	of the planet are humanoid, possibly the descendants of a Centaurian
+cite:	One of the more notable native animal forms on Neural [Zeta Boötis III]
+	is the mugato, a large, white, ape-like creature with dorsal spines and
+	a cranial horn. The mugato are monogamous, mating for life. Little or
+	no provocation will spark an attack by this hostile creature, whose
+	bite is highly poisonous and fatal if untreated. The only antidote for
+	the mugato bite is the proper application of the native mako root,
+	which has the ability to draw the toxin out of the human nervous
+	system. [No mention is made of how to draw it out of a Klingon nervous
+	system. Of the planet, the text says:] The native inhabitants of the
+	planet are humanoid, possibly the descendants of a Centaurian
 	exploration mission that disappeared in the area some two hundred years
 	ago. The population was once one of tranquil, peace-loving hunters, but
 	a serious breach of the Prime Directive has resulted in their
 	development of war and comparatively advanced projectile weapons.
 	Direct Klingon interference, countered by Federation involvement, has
 	divided the inhabitants into five major factions, each of which is
-	feuding with the other four." See also illustration. [Star Trek: The
-	Worlds of the Federation, pp.140--141]
+	feuding with the other four. [Star Trek: The Worlds of the Federation
+	pp.140--141]
 tag:	animal
 id:	UDd
 file:	1992-01-01-tkd.txt
@@ -12458,7 +12463,7 @@ pos:	noun
 sv:	«Neural»
 en:	<Neural>
 def:	TKD
-com:	"Federation Catalog Name is Zeta Boötis III. This Class M world is the
+cite:	Federation Catalog Name is Zeta Boötis III. This Class M world is the
 	third of ten that orbit a brilliant, moderate-size yellow star in a
 	binary system. The planet is quite Earth-like, with vast oceans and
 	desert, moderate, and tropical climate zones. Neural is the only planet
@@ -12472,8 +12477,8 @@ com:	"Federation Catalog Name is Zeta Boötis III. This Class M world is the
 	projectile weapons. Direct Klingon interference, countered by
 	Federation involvement, has divided the inhabitants into five major
 	factions, each of which is feuding with the other four. One of the more
-	notable native animal forms on is the mugato." [Star Trek: The Worlds
-	of the Federation, pp.140--141]
+	notable native animal forms on is the mugato. [Star Trek: The Worlds of
+	the Federation pp.140--141]
 id:	TYK
 file:	1992-01-01-tkd.txt
 
@@ -16574,9 +16579,9 @@ pos:	noun
 sv:	ett slags «djur»
 en:	type of <animal>
 def:	TKD
-com:	There are a few animals that make a particular ruckus at dawn. [...]
-	Another, though not a bird, is the {Qa'}, specifically the {jajlo'
-	Qa'}. [HQ10:4 p.5 ("{matlh juppu' mu'mey}")]]
+cite:	There are a few animals that make a particular ruckus at dawn. [...]
+	Another, though not a bird, is the {Qa'}, specifically the {jajlo' Qa'}
+	(~dawn~ {Qa'}). [HQ10:4 p.5 ("{matlh juppu' mu'mey}")]
 tag:	animal
 id:	atx
 file:	1992-01-01-tkd.txt; 2001-12-holqed-10-4.txt
@@ -20574,7 +20579,7 @@ file:	1997-11-01-kgt.txt
 meta:	*{tIb} is here assumed to be a misspelling of {bIt}, since it is
 	spelled {bIt} in a majority of sources: TKD (three occurrences in the
 	dictionary part), and it is spelled *{tIb} only once [KGT p.132].
-	*{tIb} was confirmed as unintentional by Marc Okrand when asked by
+	(*{tIb} was confirmed as unintentional by Marc Okrand when asked by
 	zrajm at {qep'a'} 2000).
 
 tlh:	{tIch}
@@ -22057,10 +22062,10 @@ pos:	verb
 sv:	vara «upprymd», vara «stimulerad», vara «upplivad» [slang]
 en:	be <exhilarated>, be <stimulated>, be <invigorated> [slang]
 def:	KGT
-com:	"Literally meaning 'breathe,' this word is used in such expressions as
-	{jItlhuH} ('I am exhilarated, it's exhilarating to me'; literally, 'I
-	breathe'). Perhaps a near equivalent in standard Klingon is {Sey} ('be
-	excited')." [KGT
+cite:	Literally meaning "breathe," this word is used in such expressions as
+	{jItlhuH} ("I am exhilarated, it's exhilarating to me"; literally, "I
+	breathe"). Perhaps a near equivalent in standard Klingon is {Sey} ("be
+	excited"). [KGT p.166]
 see:	{Sey}
 id:	ksZ
 file:	1997-11-01-kgt.txt
@@ -24696,7 +24701,7 @@ cite:	There are two words used for length: {'aD} and {'ab}. Both of these can
 	(potentially) longish, skinnyish things (for example, spears) and also
 	for heights. [News 1997-10-22]
 cite:	{jav 'ujmey 'ab SuvwI'} <the warrior has a length of six ujs> (about
-	6'10") [News 1997-10-22]
+	6′10″) [News 1997-10-22]
 tag:	measure
 id:	NKX
 file:	1997-10-22-news.txt; 1997-sbx-s32.txt
@@ -24831,7 +24836,7 @@ def:	KGT
 pun:	Marc Okrand really gets going in the KGT section about (kitchen)
 	knives, so this is probably a travesty of all those soap-opera
 	commercials: ...And finally, *act now*, and get this small all purpose
-	knife for free...!"
+	knife for free...!
 id:	DH2
 file:	1997-11-01-kgt.txt
 

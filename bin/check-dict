@@ -42,7 +42,9 @@ my %cfg = (
         ref  => \&check_source,
         cite => \&check_cite,
         com  => \&check_com,
+        pun  => \&check_pun,
         see  => \&check_see,
+        tag  => \&check_tag,
         data => \&check_data,
         id   => \&check_id,
         file => \&check_file,
@@ -241,8 +243,9 @@ sub ordinal {
 
 sub word_wrap {
     my ($_, $width) = (@_, 80);
-    s#\n# #g;
+    s#[ \n]+# #g;
     s#(.{1,$width})(?:[ ]+|$)#$1\n#g;
+    chomp;
     return $_;
 }
 
@@ -259,7 +262,7 @@ sub prettify_field {
     return map {
         my $x = word_wrap($_, 71);
         $x =~ s#^#\t#mg;
-        "$field:$x";
+        "$field:$x\n";
     } @{ $entry->{$field} };
 }
 
@@ -342,13 +345,17 @@ sub get_entries {
                             next if $field eq "_LINE_";
                             foreach my $value (@$values) {
                                 my $wrapped = word_wrap($value, 71);
-                                if ("$value\n" ne $wrapped) {
+                                if ($value ne $wrapped) {
                                     my ($old, $new) = ($value, $wrapped);
-                                    s#^#        #gm foreach ($old, $new);
-                                    warn "Incorrectly wordwraped line in '$field:' field at line " .
+                                    foreach ($old, $new) {
+                                        s#^#        #gm;
+                                        s# #\e[45m \e[m#g;
+                                        s#$#\e[34m¶\e[m#gm;
+                                    }
+                                    warn "Incorrect wordwrapping line in '$field:' field at line " .
                                         "$entry->{_LINE_}\n" .
                                             "    Current value:\n$old\n" .
-                                            "    Should be:\n$new";
+                                            "    Should be:\n$new\n";
                                 }
                             }
                         }
@@ -420,12 +427,13 @@ sub source_ref_syntax {
     my $subj  = qr/"[^"]+"/;            # "..."
     my $date  = qr/\d{4}-\d{2}-\d{2}/;  # "YYYY-MM-DD"
     my $mdate = qr/\d{4}-\d{2}/;        # "YYYY-MM"
+    my $wotf  = qr/Star\s+Trek:\s+The\s+Worlds\s+of\s+the\s+Federation/;
 
     my $holqed_source  = qr/HQ\d{1,2}:[1-4]+ $page_refs? (?: $s \( $subj \))/x;
-    my $paged_source   = qr/( TKDa? $tkd_refs? |KGT $kgt_refs? | (DI|Eurotalk|Sarek|TKW) $page_refs?) ($s et $s al\.)? /x;
+    my $paged_source   = qr/( TKDa? $tkd_refs? |KGT $kgt_refs? | (DI|Eurotalk|Sarek|TKW|$wotf) $page_refs?) ($s et $s al\.)? /x;
     my $unpaged_source = qr{
         BoP|CK|PK|KCD|KLINW|TDNW|Radio $s Times|
-        S7|S8|S14|S15|S20|S25|S26|S32|S33|ST1|ST5|STE|
+        S7|S8|S14|S15|S20|S25|S26|S31|S32|S33|ST1|ST5|ST6|STE|
         \{qep'a'\} $s \d{4}                                          |
         Email      $s $date   $s \($by, $s $to    , $s $subj   \)    |
         News       $s $date ( $s \($by, $s $to (?:, $s $subj)? \) )? |
@@ -434,6 +442,73 @@ sub source_ref_syntax {
     }x;
     my $source       = qr/$paged_source|$holqed_source|$unpaged_source/x;
     return m#^ $source (;$s$source)* $#x ? TRUE : FALSE;
+}
+
+{
+    my %bracket = ( '[' => ']', '{' => '}', '(' => ')',
+                    '“' => '”', '«' => '»', '<' => '>');
+    my %singlet = ( '~' => '~', '"' => '"' );
+    my $re = quotemeta join "", sort
+        keys %singlet, keys %bracket, values %bracket;
+    sub check_brackets {
+        my ($_) = @_;
+        my (@stack, @warn);
+        while (/[$re]/g) {
+            if ($singlet{$&}) {                # ~...~ and "..."
+                if (@stack and $& eq $stack[-1]) {
+                    pop @stack;
+                } else {
+                    push @stack, $&;
+                }
+            } elsif ($bracket{$&}) {           # leading bracket
+                push(@stack, $&);              #   put on stack
+            } else {                           # trailing bracket
+                if (@stack and $& eq ($bracket{ $stack[-1] } // "")) { # check ending
+                    pop @stack;
+                } else {
+                    push @warn, "Unexpected $& in";
+                }
+            }
+        }
+        push @warn, map { "Unterminated $_ in" } @stack;
+        return @warn;
+    }
+}
+
+{
+    my %lect = (
+        "older or upper-class word" => "äldre ord eller överklassord",
+        "archaic"                   => "arkaiskt",
+        "slang"                     => "slang",
+        "regional"                  => "regionalt",
+        "regional, slang"           => "regionalt, slang",
+    );
+    # dialect (check that [regional/slang/etc.] are same in 'en:' & 'sv:')
+    sub check_dialect {
+        my ($lang) = @_;
+        my @sv = $lang->{sv} =~ /\[ ([^]]*) \]/gx;
+        my @en = $lang->{en} =~ /\[ ([^]]*) \]/gx;
+        return () if @en == 0 && @sv == 0;     # no dialect info; skip check
+        if (@sv > 1 or @en > 1) {
+            return "Only one dialect description '" .
+                join(" ", map "[$_]", (@en > 1 ? @en : @sv)) .
+                    "' is allowed in 'sv:' and";
+        }
+        if (@en != @sv) {
+            return "Both or none of fields must have dialect " .
+                "description in 'en:' and";
+        }
+        my ($en, $sv) = ($en[0], $sv[0]);
+        s/\s/ /g for $en, $sv;
+        if (not exists $lect{$en}) {
+            return "Unknown dialect description '[$en]' in";
+        }
+        if ($sv ne $lect{$en}) {
+            return "Bad translation of dialect description ('en:[$en]' " .
+                "vs 'sv:[$sv]') in 'sv:' and";
+        }
+        return ();
+    }
 }
 
 
@@ -608,6 +683,7 @@ sub check_tlh {
 sub check_warn {
     my ($entry, $field, $_, @warn) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
+    push @warn, check_brackets($_);
     my $tlh  = $entry->{tlh}[0]  // "";
     my $data = $entry->{data}[0] // "";
     push @warn, "First letter not lower case in" if m#^[A-Z]# and !/^I\b/;
@@ -641,87 +717,51 @@ sub check_pos {
 sub check_en {
     my ($entry, $field, $_, @warn) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
+    push @warn, check_brackets($_);
+
+    # <...> or «...» are required (except for affixes)
     my $pos = $entry->{pos}[0] // "";          # part-of-speech
+    push @warn, "Missing «...» or <...> brackets in"
+        if $pos !~ m#\b(suf|pre)fix\b#m and !/[<«]/;
 
     # may not end in punctuation (question mark is okay)
     push @warn, "Last character is punctuation in" if m#[-!.,:;([{<«  ]$#;
     if (m#\((v|n|name|adv|conj|excl|num|pro|ques|ns[1-5]|vp|vs[1-9r])\)#) {
         push @warn, "Part-of-speech '($1)' must not be given in";
     }
-    my $missing_brackets = FALSE;
-    { # check for matching <...>
-        my $bra = () = m#<#g;  # count "<"
-        my $ket = () = m#>#g;  # count ">"
-        if ($bra != $ket) {
-            push @warn, "Mismatched <...> brackets ($bra '<' vs. $ket '>') in";
-        } elsif ($bra == 0) {
-            $missing_brackets = TRUE;
-        }
-    }
-    { # check for matching «...»
-        my $bra = () = m#«#g;  # count "«"
-        my $ket = () = m#»#g;  # count "»"
-        if ($bra != $ket) {
-            push @warn, "Mismatched «...» brackets ($bra '«' vs. $ket '»') in";
-        } elsif ($bra == 0 and $missing_brackets) {
-            # «...» or <...> are required except for affixes
-            push @warn, "Missing «...» or <...> brackets in"
-                if $pos !~ m#\b(suf|pre)fix\b#m;
-        }
-    }
+
+    push @warn, check_dialect({
+        en => $_,
+        sv => $entry->{sv}[0],
+    });
     return @warn;
 }
 
-{
-    my %lect = (
-        "äldre ord eller överklassord" => qr/older\sor\supper-class\sword/,
-        "arkaiskt"                     => qr/archaic/,
-        "slang"                        => qr/slang/,
-        "regionalt"                    => qr/regional/,
-        "regionalt, slang"             => qr/regional,\sslang/,
-    );
-    sub check_sv {
-        my ($entry, $field, $_, @warn) = @_;
-        return "Duplicate" if @{ $entry->{$field} } > 1;
-        my $en  = $entry->{en}[0]  // "";      # english word
-        my $pos = $entry->{pos}[0] // "";      # part-of-speech
-        # may not end in punctuation (question mark is okay)
-        push @warn, "Last character is punctuation in" if m#[-!.,:;([{<«  ]$#;
-        if (m#\((v|s|namn|adv|konj|interj|räkn|pro|fråg|ss[1-5]|vp|vs[1-9]s)\)#) {
-            push @warn, "Part-of-speech '($1)' must not be given in";
-        }
-        # <...> are not allowed
-        warn "<...> brackets are not allowed in" if m#<#;
-        { # check for matching «...»
-            my $bra = () = m#«#g;  # count "«"
-            my $ket = () = m#»#g;  # count "»"
-            if ($bra != $ket) {
-                push @warn, "Mismatched «...» brackets ($bra '«' vs. $ket '»') in";
-            } elsif ($bra == 0) {
-                # «...» or <...> are required except for affixes
-                push @warn, "Missing «...» brackets in"
-                    if $pos !~ m#\b(suf|pre)fix\b#m;
-            }
-        }
-        { # dialect (check that [...] in 'en' and 'sv' fields correspond)
-            while (/\[([^][]*)\]/g) {
-                (my $x = $1) =~ s/\s/ /g;
-                if (not exists $lect{$x}) {
-                    push @warn, "Unknown dialect description '[$x]' in";
-                } else {
-                    push @warn, "Missing dialect description '[$lect{$x}]' " .
-                        "in 'en:' field when '[$x]' is used in"
-                            unless $en =~ m#\[$lect{$x}\]$#m;
-                }
-            }
-        }
-        return @warn;
+sub check_sv {
+    my ($entry, $field, $_, @warn) = @_;
+    return "Duplicate" if @{ $entry->{$field} } > 1;
+    push @warn, check_brackets($_);
+
+    # «...» are required (except for affixes), <...> may not occur
+    my $pos = $entry->{pos}[0] // "";          # part-of-speech
+    push @warn, "Missing «...» brackets in"
+        if $pos !~ m#\b(suf|pre)fix\b#m and !/«/;
+    push @warn, "<...> brackets are not allowed in" if m#[<>]#;
+
+    # may not end in punctuation (question mark is okay)
+    push @warn, "Last character is punctuation in" if m#[-!.,:;([{<«  ]$#;
+    if (m#\((v|s|namn|adv|konj|interj|räkn|pro|fråg|ss[1-5]|vp|vs[1-9]s)\)# or
+            m#\((v|n|name|adv|conj|excl|num|pro|ques|ns[1-5]|vp|vs[1-9r])\)#) {
+        push @warn, "Part-of-speech '($1)' must not be given in";
     }
+
+    return @warn;
 }
 
 sub check_desc {
     my ($entry, $field, $_, @warn) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
+    push @warn, check_brackets($_);
     push @warn, "First letter not lower case in" if m#^[A-Z]# and !/^I\b/;
     while (m#~([^~]+)~#g) {                    # check ~...~ phrases
         my $_ = $1;
@@ -742,6 +782,8 @@ sub check_desc {
 sub check_source {
     my ($entry, $field, $_, @warn) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
+    (my $x = $_) =~ s/"[^"]*"//g;              # remove title from comp'd string
+    push @warn, check_brackets($x);
     push @warn, "Invalid source reference in" unless source_ref_syntax($_);
     return @warn;
 }
@@ -750,21 +792,36 @@ sub check_cite {
     my ($entry, $field, $_, @warn) = @_;
     my $i = 1;
     foreach (@{ $entry->{$field} }) {
-        if (m#\[([^][]*)\]$#) {
+        my $_ = $_;
+        if (s#\[([^][]*)\]$##) {
             if (not source_ref_syntax($1)) {
-                push @warn, "Invalid source reference '$1' in ${\(ordinal($i))}";
+                push @warn, "Invalid source reference '$1' in ${\( ordinal($i) )}";
             }
         } else {
-            push @warn, "Missing source reference in ${\(ordinal($i))}";
+            push @warn, "Missing source reference in ${\( ordinal($i) )}";
         }
+        push @warn, check_brackets($_);
         $i += 1;
     }
+    return @warn;
+}
+
+sub check_pun {
+    my ($entry, $field, $_, @warn) = @_;
+    return "Duplicate" if @{ $entry->{$field} } > 1;
+    push @warn, check_brackets($_);
+    push @warn, "Last character is mid-sentence punctuation in"
+        if m#[-,:;([{<«  ]$#;
     return @warn;
 }
 
 sub check_com {
     my ($entry, $field, $_, @warn) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
+    if (s#\s*\[([^\[\]]*)\]$## and not source_ref_syntax($1)) {
+        push @warn, "Invalid source reference '$1' in";
+    }
+    push @warn, check_brackets($_);
     push @warn, "Last character is mid-sentence punctuation in"
         if m#[-,:;([{<«  ]$#;
     return @warn;
@@ -773,6 +830,7 @@ sub check_com {
 sub check_see {
     my ($entry, $field, $_, @warn) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
+    push @warn, check_brackets($_);
     # FIXME what if 'tlh:' field isn't defined here (?)
     my ($tlh) = $entry->{tlh}[0] =~ m#(\{.*?\})#;
     push @warn, "See also '$tlh' points to itself in"
@@ -780,9 +838,29 @@ sub check_see {
     return @warn;
 }
 
+{
+    my %tag = map {
+        (my $_ = $_) =~ s/_/ /g;
+        $_ => 1;
+    } qw(animal architecture body_part clothing country family fighting KLCP1
+         landscape math measure money music placement quantity religion shape
+         time);
+    sub check_tag {
+        my ($entry, $field, $_) = @_;
+        return "Duplicate" if @{ $entry->{$field} } > 1;
+        my @warn;
+        foreach (split /;\s/) {
+            push @warn, "Unknown tag '$_' in"
+                unless exists $tag{$_};
+        }
+        return @warn;
+    }
+}
+
 sub check_data {
     my ($entry, $field, $_, @warn) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
+    push @warn, check_brackets($_);
     my $tlh = $entry->{tlh}[0] // "";
     if (/\b(deprecated|non-canon)\b/) {
         push @warn, "Missing leading asterisk in 'tlh:' field as '$1' is given in"
@@ -818,7 +896,7 @@ sub check_file {
     return "Duplicate" if @{ $entry->{$field} } > 1;
     foreach (split(m#;[ \n]#, $_)) {
         my $file = "$cfg{canon_path}/$_";
-        push @warn, "Invalid file '${\(File::Spec->abs2rel($file))}' in"
+        push @warn, "Invalid file '${\( File::Spec->abs2rel($file) )}' in"
             unless -e $file;
     }
     return @warn;
@@ -827,6 +905,7 @@ sub check_file {
 sub check_meta {
     my ($entry, $field, $_, @warn) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
+    push @warn, check_brackets($_);
     push @warn, "First letter not upper case in" unless m#^(["A-Z]|\*?\{)#x;
     push @warn, "Last character is mid-sentence punctuation in" if m#[-,:;([{<«  ]$#;
     return @warn;
@@ -902,7 +981,7 @@ die "$NAME: Missing input: Nothing on standard input, and no file specified\n" .
 my $warnings = 0;                              # count warnings
 local $SIG{__WARN__} = sub { $warnings ++; warn @_ };
 
-my @whole_file   = <>;  # read dictionary
+my @whole_file = <>;  # read dictionary
 my ($preamble, $datachunk, $enddelim, $postamble) =
     get_section("==", "data", \@whole_file) or exit 255;
 
