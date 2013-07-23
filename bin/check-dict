@@ -25,10 +25,12 @@ $NAME    = "check-dict";
 sub TRUE  {  1 }
 sub FALSE { "" }
 
-my %opt = ();
+my %opt = (
+    verbose => -t STDOUT ? 0 : 1,
+);
 my %cfg = (
     canon_path     => "../site/canon", # relative to executable's path
-    field_order    => [ qw(tlh  warn  pos  sv   en    desc  def   ref  cite
+    field_order    => [ qw(tlh  warn  pos  en   sv    desc  def   ref  cite
                            com  pun   see  tag  data  id    file  meta) ],
     field_required => [ qw(tlh pos sv en def id file) ],
     field_callbacks => {
@@ -964,7 +966,7 @@ GetOptions(                          # info displayed by help()
     'help|h'     => \&help,          ### display this help and exit
     'manpage|M'  => \&manpage,       ### display program manpage and exit
     'quiet|q'    => \$opt{quiet},    ### suppress word count summary at end
-    'verbose|v'  => \$opt{verbose},  ### output normalized dictionary on STDOUT
+    'verbose|v'  => \$opt{verbose},  ### output normalized dict (implied when piping STDOUT)
     'version|V'  => \&version,       ### output version information and exit
 ) or exit 255;
 
@@ -1138,14 +1140,17 @@ Documentation) documentation from the program and displays it using man(1).
 Suppress the word count summary at the end of processing.
 
 
-=item B<-v>, B<--verbose>
+=item B<-v>, B<--verbose> (default when piping STDOUT)
 
 Output a re-word wrapped dictionary on standard output during processing.
 
-This output should ideally be the same as the input, but if the B<check-dict>
-terminates with a zero exit status, then the dictionary is, for all intents and
-purposes, error free.
+When B<check-dict> terminates with a zero exit status, output should be
+identical to input, otherwise minor corrections (e.g. word wrap and field
+order) will be corrected in the output. (NOTE, however, that some errors can
+only be fixed manually. When in doubt, you can run B<check-dict> again on the
+outputted file to see if any errors remain.)
 
+The --verbose option is implied if standard output is piped somewhere.
 
 =item B<-V>, B<--version>
 
@@ -1178,12 +1183,13 @@ This forgoes most of the checks, loads the dictionary and only checks the
 commit hooks (as it is vitally important that this value never is incorrect for
 syncing to work well for external programs/apps).
 
-    bin/check-dict --verbose site/dict/dict.zdb | diff site/dict/dict.zdb -
+    bin/check-dict site/dict/dict.zdb | diff site/dict/dict.zdb -
 
 Compare difference in word wrapping between the existing dictionary file, and
-an "ideal" version of it. B<--verbose> outputs the file in re-wrapped for on
-standard output, here we simply feed that to diff(1) to see if there are any
-differences.
+an "ideal" version of it. (When standard output is redirected somewhere
+B<check-dict> will act as if given the B<--verbose> option -- thereby
+outputting a normalized version of the database -- here we simply feed that to
+diff(1) to see if B<check-dict> performed any changes.
 
 
 =head1 AUTHOR
