@@ -800,7 +800,7 @@ sub check_cite {
         } else {
             push @warn, "Missing source reference in ${\( ordinal($i) )}";
         }
-        push @warn, check_brackets($_);
+        push @warn, map { "$_ " . ordinal($i) } check_brackets($_);
         $i += 1;
     }
     return @warn;

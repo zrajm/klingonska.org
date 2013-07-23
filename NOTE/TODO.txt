@@ -2461,8 +2461,24 @@
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** `dict.zdb`
-**** [20%] Field changes
+**** [16%] Field/syntax changes
+***** TODO 'tag:' should contain year of coinage
+***** TODO Remove period in "p." and "pp." abbreviations
+      Page abbreviations should not have period in them, according to The
+      Elements of Typographic Style.
+***** TODO Use Unicode en-dash instead of '--' (?)
+***** TODO Use Unicode "typographical" double quotes
+      This would allow `check-dict` to do a better job, since there are
+      different symbols for opening and closing quotes. It'll also look prettier. :)
+***** TODO Use Unicode "typographical" single quotes & apostrophes
+      Can't really check them properly (because of apostrophe looking the same
+      as right single quote), but at least it'll look pretty.
+***** TODO Use single ‹guillemets› to mark lookup words(?)
+      Currently lesser/greater are used. This would require changes is all
+      scripts that work with the dictionary. Is it worth it?
 ***** TODO Add 'lect:' field (for "slang", "regional" etc.)
+      'regional', 'slang' etc. should have its own field, rather than be part
+      of the 'en:' and 'sv:' fields.
 ***** TODO 'en:' field should come before 'sv:'
 ***** TODO 'tag:' field should come before 'com:'
       'tag:' field content is shorter, and more telling that the 'com:' field,
@@ -2475,6 +2491,11 @@
 
           see: rqP ({quv} [1] (v) “be honored, be honorable”);
           see: AKU ({HoQ} (v) “be honored falsely, be falsely honorable”)
+***** DONE Remove non-breaking spaces
+      CLOSED: [2013-07-23 Tue 04:25]
+      Non-breaking spaces are used throughout the dictionary, but without any
+      particular system to it. They should only be used where typographically
+      required.
 ***** DONE Add 'id:' field with (random) unique word ID number
       CLOSED: [2012-11-21 Wed 14:59]
       This would be useful, since programs (like the Glossary Extractor page)
