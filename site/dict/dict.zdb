@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    5dfa06781252406858178666e83fcbc0eb9e54bf
+SHA1:    4abf88d8d7706422d549706bf726d025e1dbffdc
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -471,13 +471,13 @@ sv:	«skjuta»
 en:	<shoot>
 def:	TKD
 ref:	TKW p.148
-com:	"The verb used for 'shoot' when referring to disruptors is {bach}.
+cite:	The verb used for "shoot" when referring to disruptors is {bach}.
 	Technically speaking, one shoots the energy beam from the disruptor.
-	The general word for any energy beam ('ray') is {tIH}, so a disruptor's
+	The general word for any energy beam ("ray") is {tIH}, so a disruptor's
 	beam is {nISwI' tIH}. Thus, the correct formation is {nISwI' tIH bach}
-	('shoot the disruptor beam'). As a practical matter, however, the {tIH}
-	is often left out, and {nISwI' bach} is the common way to say 'shoot a
-	disruptor.' Similarly, {pu' bach} is 'shoot a phaser.'" [KGT p.56]
+	("shoot the disruptor beam"). As a practical matter, however, the {tIH}
+	is often left out, and {nISwI' bach} is the common way to say "shoot a
+	disruptor." Similarly, {pu' bach} is "shoot a phaser." [KGT p.56]
 tag:	fighting; KLCP1
 id:	Qmp
 file:	1992-01-01-tkd.txt
@@ -711,9 +711,9 @@ sv:	«ära»
 en:	<honor>
 def:	TKD
 ref:	TKW pp.53, 67; HQ12:3 p.9 ("Maltz's Reward Part II"); KLINW
-com:	"{batlh}, [...] is a grander [than {quv}], more general, more
+cite:	[...] {batlh}, on the other hand, is a grander, more general, more
 	philosophical concept, associated with integrity, rectitude, scruples,
-	and principles." [HQ12:3 p.9 ("Maltz's Reward Part II")]
+	and principles. [HQ12:3 p.9 ("Maltz's Reward Part II")]
 see:	{quv}
 id:	D7p
 file:	1992-01-01-tkd.txt
@@ -851,16 +851,16 @@ desc:	{loSmaH ben jIboghpu'} ~I'm 40 years old~ (lit. ~I was born 40 years
 	ago~); {cha'vatlh ben HIq} ~two century old ale~
 def:	TKD; PK; News 1996-12-12 (by Marc Okrand, to
 	msn.onstage.startrek.expert.okrand); KGT
-com:	{cha'vatlh ben HIq vItlhutlh.} "I will drink two century old ale."
-	[PK]; {vagh SanID ben buDbe' wamwI'pu'. ngugh Ho'Du'chaj lo' chaH, 'ach
-	DaH tajmey lo'.} "5,000 years ago, hunters were not lazy. Then (at that
-	time) they used their teeth, but now they use knives." [News 1999-11-05
+cite:	~I will drink two century old ale.~ {cha'vatlh ben HIq vItlhutlh.} [PK]
+cite:	{vagh SanID ben buDbe' wamwI'pu'. ngugh Ho'Du'chaj lo' chaH, 'ach DaH
+	tajmey lo'.} ~5,000 years ago, hunters were not lazy. Then (at that
+	time) they used their teeth, but now they use knives.~ [News 1999-11-05
 	(by Marc Okrand, to startrek.klingon, "Re: And then...? And then...?
-	(And then along came Jones...) - For MO")]; Combinations with {ben} and
-	quantity words other than numbers are often seen on tlhingan-hol, even
-	though canon support for them is (so far) missing. E.g. {ben law'}
-	"many years ago", {ben puS} "[a] few years ago", {'op ben} "some
-	(unknown number of) years ago".
+	(And then along came Jones...) - For MO")]
+com:	Combinations with {ben} and quantity words other than numbers are often
+	seen on tlhingan-hol, even though canon support for them is (so far)
+	missing. E.g. {ben law'} "many years ago", {ben puS} "[a] few years
+	ago", {'op ben} "some (unknown number of) years ago".
 pun:	Igor/Aryeh pointed out [on tlhingan-hol] that the Hebrew word *ben*
 	"son" is used when giving ages (for males); e.g. *Ani ben X* "I am X
 	[years] old", *Hu ben X* "He is X [years] old".
@@ -972,7 +972,7 @@ pos:	noun
 sv:	«bank»
 en:	«bank»
 def:	Eurotalk
-com:	{nuqDaq 'oH beylI''e'} "Where is the bank?" [Eurotalk]
+cite:	~Where is the bank?~ {nuqDaq 'oH beylI''e'?} [Eurotalk]
 id:	ctx
 file:	2011-11-04-email.txt
 
@@ -1051,15 +1051,15 @@ def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from
 	Maltz")
 ref:	Email 2010-12-22 (by Lieven L. Litaer, to tlhingan-hol, "latlh
 	'e'nalpu'")
-com:	"There was another question about whether {loDnI'nal} and {be'nI'nal}
-	could be 'brother-in-law' and 'sister-in-law.' Maltz said he didn't
+cite:	There was another question about whether {loDnI'nal} and {be'nI'nal}
+	could be "brother-in-law" and "sister-in-law." Maltz said he didn't
 	think there were specific words for these concepts. He said to just
 	describe the relationship: {loDnI' loDnal} and {be'nI' loDnal} for
-	'brother-in-law' and {loDnI' be'nal} and {be'nI' be'nal} for
-	'sister-in-law.' He said you could even say things like {be'nal loDnI'
-	be'nal} 'wife's brother's wife.' But he preferred to call all these
-	people {'e'nalpu'} 'people who married into the family.'" /Marc Okrand
-	in email to Lieven L. Litaer (2010-11-15)
+	"brother-in-law" and {loDnI' be'nal} and {be'nI' be'nal} for
+	"sister-in-law." He said you could even say things like {be'nal loDnI'
+	be'nal} "wife's brother's wife." But he preferred to call all these
+	people {'e'nalpu'} "people who married into the family." [Email
+	2012-12-22 (by Lieven L. Litaer, to tlhingan-hol, "{latlh 'e'nalpu'}")]
 see:	{loDnI' be'nal}; {be'nI' be'nal}
 data:	non-canon; derived form
 id:	f8p
@@ -1143,8 +1143,8 @@ sv:	«vatten»
 en:	<water>
 def:	TKD
 ref:	TKW pp.34--35; KLINW
-com:	Used metaphorically as the symbol of weakness and distain. [TKW
-	pp.34--35]
+cite:	Just as "blood" is used figuratively to refer to power, "water" carries
+	the opposite and negative connotation of lack of control. [TKW p.34]
 tag:	KLCP1
 id:	LmD
 file:	1992-01-01-tkd.txt
@@ -1213,8 +1213,7 @@ en:	«beach»
 def:	Eurotalk
 ref:	Email 2011-10-30 (by Felix Malmenbeck, to tlhingan-hol, "[Tlhingan-hol]
 	EuroTalk - New info - Phrases")
-com:	{nuqDaq 'oH bIQ'a' HeH'e'} "Where is the beach?" (lit. "Where is the
-	ocean's edge?") [Eurotalk]
+cite:	{nuqDaq 'oH bIQ'a' HeH'e'} ~Where is the beach?~ [Eurotalk]
 data:	phrase
 id:	qk5
 file:	2011-10-30-email.txt
@@ -1297,7 +1296,7 @@ pos:	noun
 sv:	«~B'rel~-klass» (av farkost)
 en:	«~B'rel~ class» (vessel)
 def:	BoP
-com:	"{bI'rel tlharghDuj} B'rel-class Scout" [KLINW]
+cite:	{Segh: bI'rel tlharghDuj} ~Model: B'rel Class Scout~ [BoP]
 id:	Nu7
 file:	1998-11-01-bop.txt
 
@@ -1449,15 +1448,18 @@ pos:	verb
 sv:	vara «om» (något), «handla» om (något)
 en:	be «about» (something), be «concerned» with
 def:	{qep'a'} 2005
-ref:	Web 2005-08-01 (by Rohan Fenwick,
+ref:	Email 2005-07-27 (by d'Armond Speers, to tlhingan-hol, "New word #3");
+	Web 2005-08-01 (by Rohan Fenwick,
 	http://klingon.livejournal.com/26647.html, "Marc Okrand nob: qep'a'
 	mu'mey chu'"); TDNW; KLINW
-com:	{'e' bop} "That's what it's all about." [TDNW]; "Got this from
-	http://www.livejournal.com/community/klingon/ entry August 1, 2005 by
-	ubykhlives Example: {HolQeD bopbe' paqvam} = 'This book is not about
-	linguistics.'" [KLINW]
+cite:	{'e' bop} "that's what it's all about." [Email 2005-07-27 (by d'Armond
+	Speers, to tlhingan-hol, "New word #3")]
+cite:	{HolQeD bopbe' paqvam} ~this book is not about linguistics~. [Web
+	2005-08-01 (by Rohan Fenwick,
+	http://klingon.livejournal.com/26647.html, "Marc Okrand nob: qep'a'
+	mu'mey chu'")]
 id:	75D
-file:	2005-08-01-web.txt
+file:	2005-07-27a-email.txt; 2005-08-01-web.txt
 
 tlh:	{boq} [1]
 pos:	verb
@@ -1478,7 +1480,7 @@ sv:	«allians», «block», «sammanslutning», «koalition», «fusion»
 en:	<alliance>, <bloc>, <coalition>, «fusion»
 def:	TKD; HQ4:4 p.11 ("More from Maltz"); KGT; BoP
 ref:	KLINW
-com:	"{Hong boq chuyDaH: loS} 'Impulse Fusion Thrusters -- 4'" [BoP]
+cite:	{Hong boq chuyDaH: loS} ~Impulse Fusion Thrusters -- 4~ [BoP]
 id:	aGW
 file:	1992-01-01-tkd.txt; 1995-12-holqed-04-4.txt; 1997-11-01-kgt.txt;
 	1998-11-01-bop.txt
@@ -1865,9 +1867,8 @@ pos:	noun
 sv:	«radio«frekvens»», hertz (frekvensenhet)
 en:	«radio <frequency>», Hertz («unit» of frequency)
 def:	KGT
-ref:	TDNW
-com:	According to HQ1:3 p.9 ("Additional Vocabulary"), this means "Hertz
-	(frequency)".
+ref:	TDNW; HQ1:3 p.9 ("Additional Vocabulary")
+cite:	~Hertz (frequency)~ {chaDvay'} [HQ1:3 p.9 ("Additional Vocabulary")]
 tag:	measure
 id:	1Ft
 file:	1997-11-01-kgt.txt
@@ -1928,9 +1929,15 @@ tlh:	{chan}
 pos:	noun
 sv:	område österut, område i «öster»
 en:	area eastward, area towards the «east»
-def:	News 1999-11-21
+def:	News 1999-11-21 (by Marc Okrand, to startrek.klingon, "Re: Cardinal
+	Directions (to Marc Okrand)")
 ref:	HQ8:4 pp.6--8 ("Maltz Online")
-com:	"90 degrees on Terran compass" [KLINW]
+cite:	The areas associated with {'ev} and {tIng} are something like 100
+	degrees apart from each other, and each is 130 degrees away from the
+	area associated with {chan}. [News 1999-11-21 (by Marc Okrand, to
+	startrek.klingon, "Re: Cardinal Directions (to Marc Okrand)")]
+cite:	90 degrees on Terran 360 degree compass with north as 0 and degrees
+	counted clockwise [KLINW]
 tag:	placement
 id:	aRc
 file:	1999-11-21-news.txt; 1999-12-holqed-08-4-a.txt
@@ -2224,7 +2231,7 @@ tlh:	{cheb}
 pos:	noun
 sv:	«~cheb~» («vikt«enhet»»)
 en:	«~cheb~» («unit» of «weight»)
-desc:	about 5 pounds or 2.25 kilograms
+desc:	about 5 lb or 2.25 kg
 def:	News 1997-10-22
 tag:	measure
 id:	MhD
@@ -2234,7 +2241,7 @@ tlh:	{cheb'a'}
 pos:	noun
 sv:	stor «~cheb~» («vikt«enhet»»)
 en:	big «~cheb~» («unit» of «weight»)
-desc:	9 ~cheb~ = about 45 pounds or 20.25 kilograms
+desc:	9 ~cheb~ = about 45 lb or 20.25 kg
 def:	News 1997-10-22; BoP
 com:	(n) unit weight approx. 45--46.4 pounds (20.4--21.05 kg) (9--9.28 cheb)
 	[The numbers don't quite mesh, but this is the best I can figure from
@@ -3005,6 +3012,9 @@ sv:	«nysa»
 en:	«sneeze»
 def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
+cite:	If one were to {chuy} "sneeze," one would likely eject {'IqnaH} "mucus"
+	(or sometimes {'IqnaH QaD} "dry mucus"). [HQ12:4 p.8 ("Maltz's Reward
+	Part III")]
 see:	{'IqnaH}
 id:	SDu
 file:	2003-12-holqed-12-4.txt
@@ -3971,15 +3981,15 @@ en:	«come to an «end»» (about period of time, e.g. month, year)
 desc:	{Dor jar} ~the month ends~; time period is subj.
 def:	HQ12:2 p.8 ("Maltz's Reward Part I")
 ref:	TDNW
-com:	"Generally, one expresses the end of a stretch of time by using a verb
-	rather than a noun. That is, one says 'when the month ends' rather than
-	'at the end of the month.' The verb for this kind of 'end' is {Dor}.
-	For example: {DorDI' jar mejpu'} 'At the end of the month, he/she
-	left'. Literally, this sentence means 'When the month ended, he/she
-	left' ({-DI'} <when>, {jar} <month>, {mejpu'} <he/she left>)." [HQ12:2
-	p.8 ("Maltz's Reward Part I")]; "He [Maltz] said there was no
-	connection at all between {Dor} <end> and {Dor} <escort>." [HQ12:2 p.8
+cite:	Generally, one expresses the end of a stretch of time by using a verb
+	rather than a noun. That is, one says "when the month ends" rather than
+	"at the end of the month." The verb for this kind of "end" is {Dor}.
+	example: {DorDI' jar mejpu'} "At the end of the month, he/she left."
+	Literally, this sentence means "When the month ended, he/she left"
+	({-DI'} ~when~, {jar} ~month~, {mejpu'} ~he/she left~). [HQ12:2 p.8
 	("Maltz's Reward Part I")]
+cite:	He said there was no connection at all between {Dor} ~end~ and {Dor}
+	~escort~. [HQ12:2 p.8 ("Maltz's Reward Part I")]
 see:	{van} (2), {ghang}
 tag:	time
 id:	Pxv
@@ -6930,9 +6940,10 @@ pos:	exclamation
 sv:	(generellt «invektiv»)
 en:	(general «invective»)
 def:	TKDa 5.5 (p.178)
-com:	In HQ3:3 p.14 Rhonda E. Green comments that a probable translation of
+com:	In HQ3:3 p.14 Rhonda E. Green points out that a possible translation of
 	this word would be "fuck", this based on the usage of the word in A.C.
-	Crispin's "Sarek".
+	Crispin's "Sarek". I (zrajm) disagree with this -- as almost any
+	invective (e.g. {jay'}) can be translated as "fuck".
 id:	VSa
 file:	1992-01-01-tkd.txt
 
@@ -8475,12 +8486,13 @@ pos:	noun
 sv:	«gom»
 en:	«roof» of «mouth», hard «palate»
 def:	{qep'a'} 2005
-ref:	Web 2005-08-01 (by Rohan Fenwick,
+ref:	Email 2005-07-27 (by Tad Stauffer, to tlhingan-hol, "new word #2"); Web
+	2005-08-01 (by Rohan Fenwick,
 	http://klingon.livejournal.com/26647.html, "Marc Okrand nob: qep'a'
 	mu'mey chu'"); TDNW
 tag:	body part
 id:	PDe
-file:	2005-08-01-web.txt
+file:	2005-07-27b-email.txt; 2005-08-01-web.txt
 
 tlh:	{ley'}
 pos:	noun
@@ -9381,6 +9393,7 @@ pos:	noun
 sv:	«riktning» (rumslig)
 en:	<direction> (spatial)
 def:	TKDa
+tag:	placement
 id:	VbJ
 file:	1992-01-01-tkd.txt
 
@@ -10037,12 +10050,16 @@ pos:	noun
 sv:	«fyrkant», «kvadrat»
 en:	«square» (geometrical shape)
 def:	{qep'a'} 2005
-ref:	Web 2005-08-01 (by Rohan Fenwick,
+ref:	Email 2005-07-24 (by Tad Stauffer, to tlhingan-hol, "qep'a'vo' jIchegh
+	+ new word #1"); Web 2005-08-01 (by Rohan Fenwick,
 	http://klingon.livejournal.com/26647.html, "Marc Okrand nob: qep'a'
 	mu'mey chu'"); TDNW
+cite:	{meyrI'Daq 'oHtaH gho'e'} ~The circle is in the square.~ [Email
+	2005-07-24 (by Tad Stauffer, to tlhingan-hol, "qep'a'vo' jIchegh + new
+	word #1")]
 tag:	shape
 id:	1Zu
-file:	2005-08-01-web.txt
+file:	2005-07-24-email.txt; 2005-08-01-web.txt
 
 tlh:	{me'}
 pos:	noun
@@ -13134,7 +13151,11 @@ sv:	vara «arrogant», vara «inbilsk», vara «högfärdig», vara «egenkär»
 en:	be «arrogant», be «haughty», be «conceited»
 def:	HQ12:3 p.9 ("Maltz's Reward Part II")
 ref:	TDNW
-com:	"an undesirable trait" [HQ12:3 p.9 ("Maltz's Reward Part II")]
+cite:	The notion of "too big for one's britches" ("be too haughty or arrogant
+	for one's status") as well as that of "commit hubris" ("be presumptuous
+	or arrogant") might best be rendered in Klingon not by {HoQ} but by
+	{nguq} <be arrogant, haughty, conceited> an undesirable trait. [HQ12:3
+	p.9 ("Maltz's Reward Part II")]
 id:	qyo
 file:	2003-09-holqed-12-3.txt
 
@@ -13539,9 +13560,11 @@ sv:	vara «hemlig»
 en:	be «secret»
 def:	CK; PK
 ref:	KGT
-com:	{pegh De'vetlh.} "That information is secret." [CK]; {De' pegh
-	vIghajlI' 'e' Datu'} "I have secret information, you will find it
-	useful." [PK]; {peghHa'moH} "cause to not keep a secret" [KGT]
+cite:	~That is classified information.~ {pegh De'vetlh.} [CK]
+cite:	~I have secret information, you will find it useful. We will talk after
+	dinner.~ {De' pegh vIghaj. lI', 'e' Datu'. 'uQ vISoppu'DI' maja'chuq.}
+	[PK]
+cite:	{peghHa'moH} ("cause to not keep a secret"). [KGT p.153]
 id:	qfd
 file:	1992-10-01-ck.txt; 1993-10-01-pk.txt; 1997-11-01-kgt.txt
 
@@ -15220,7 +15243,7 @@ tlh:	{qelI'qam}
 pos:	noun
 sv:	«~kellicam~» («längd«enhet»»)
 en:	<~kellicam~> («unit» of «length»)
-desc:	about 2 kilometers
+desc:	about 2 km
 def:	TKD; STE
 tag:	measure
 id:	LbF
@@ -15889,6 +15912,8 @@ sv:	«slem» (som man hostar upp)
 en:	«phlegm»
 def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
+cite:	If one were to {tuS} "cough," one might produce {qo'qaD} "phlegm."
+	[HQ12:4 p.8 ("Maltz's Reward Part III")]
 see:	{tuS}
 id:	paF
 file:	2003-12-holqed-12-4.txt
@@ -16264,13 +16289,13 @@ pos:	exclamation
 sv:	«storslaget», «underbart» [slang]
 en:	«great», «wonderful» [slang]
 def:	KGT pp.160--161
-com:	"The word {qu'} may also be used as an exclamation ('Great!'
-	'Wonderful!'). In this sense, it seems to be interchangeable with
-	{chong} (literally, 'be vertical'; see page 148). The slang usage of
+cite:	The word {qu'} may also be used as an exclamation ("Great!"
+	"Wonderful!"). In this sense, it seems to be interchangeable with
+	{chong} (literally, "be vertical"; see page 148). The slang usage of
 	{qu'} is currently extremely common among Klingons, and it has pretty
 	much displaced another slang term with the same set of meanings
-	('excellent, wonderful, etc.'), {Huv} (literally, 'be clear, not
-	obstructed'), which was in vogue not all that long ago." [KGT
+	("excellent, wonderful, etc."), {Huv} (literally, "be clear, not
+	obstructed"), which was in vogue not all that long ago. [KGT
 	pp.160--161]
 id:	JqA
 file:	1997-11-01-kgt.txt
@@ -16855,10 +16880,10 @@ sv:	«vass spets» (t.ex. på penna), «spjut«spets»»
 en:	«sharp end» (e.g. on pen), <spearhead>
 def:	KGT; HQ12:2 p.7 ("Maltz's Reward Part I")
 ref:	TDNW
-com:	"When shown a pencil, Maltz said that the sharp end could be called a
+cite:	When shown a pencil, Maltz said that the sharp end could be called a
 	{QIn}, but if the pencil were new and did not yet have a point, the
-	ready-to-be-sharpened end would be a {megh'an} or {'er'In}." [HQ12:2
-	p.7 ("Maltz's Reward Part I")]
+	ready-to-be-sharpened end would be a {megh'an} or {'er'In}. [HQ12:2 p.7
+	("Maltz's Reward Part I")]
 tag:	fighting
 id:	CuQ
 file:	1997-11-01-kgt.txt; 2003-06-holqed-12-2.txt
@@ -17506,6 +17531,7 @@ pos:	noun
 sv:	«koordinater»
 en:	<coordinates>
 def:	TKD
+tag:	placement
 id:	KFe
 file:	1992-01-01-tkd.txt
 
@@ -17705,7 +17731,7 @@ pos:	noun
 sv:	«minimum»
 en:	«minimum»
 def:	BoP
-cite:	{Hung buv rav: patlh Hut} <Classified Level 9 and Above> [BoP]
+cite:	{Hung buv rav: patlh Hut} ~Classified Level 9 and Above~ [BoP]
 see:	{'aqroS} [.2]
 tag:	math
 id:	wYx
@@ -19418,7 +19444,7 @@ pos:	noun
 sv:	¿?«enhet», «kärna»
 en:	«core»
 def:	BoP
-com:	BoP: {De'wI' SoSbor'a'} "Main Computer Core"
+cite:	{De'wI' SoSbor'a'} ~Main Computer Core~ [BoP]
 id:	dRg
 file:	1998-11-01-bop.txt
 
@@ -19427,7 +19453,7 @@ pos:	noun
 sv:	¿?«huvud«kärna»», «huvud«enhet»»
 en:	«main «core»»
 def:	BoP
-com:	BoP: {De'wI' SoSbor'a'} "Main Computer Core"
+cite:	{De'wI' SoSbor'a'} ~Main Computer Core~ [BoP]
 data:	derived form
 id:	2A1
 file:	1998-11-01-bop.txt
@@ -20675,7 +20701,12 @@ sv:	område sydvästerut, område i «sydväst»
 en:	area southwestward, area towards the «southwest»
 def:	News 1999-11-21
 ref:	HQ8:4 pp.6--8 ("Maltz Online")
-com:	"approx 220 degrees on Terran compass" [KLINW]
+cite:	The areas associated with {'ev} and {tIng} are something like 100
+	degrees apart from each other, and each is 130 degrees away from the
+	area associated with {chan}. [News 1999-11-21 (by Marc Okrand, to
+	startrek.klingon, "Re: Cardinal Directions (to Marc Okrand)")]
+cite:	approx 220 degrees on Terran 360 degree compass counting clockwise with
+	0 at north [KLINW]
 tag:	placement
 id:	wDR
 file:	1999-11-21-news.txt; 1999-12-holqed-08-4-a.txt
@@ -21343,6 +21374,8 @@ sv:	«hosta»
 en:	«cough»
 def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
+cite:	If one were to {tuS} "cough," one might produce {qo'qaD} "phlegm."
+	[HQ12:4 p.8 ("Maltz's Reward Part III")]
 see:	{qo'qaD}
 id:	jqD
 file:	2003-12-holqed-12-4.txt
@@ -21369,8 +21402,10 @@ sv:	«spotta» ut (om vätska)
 en:	«spit» out (liquids)
 def:	HQ12:4 pp.8--9 ("Maltz's Reward Part III")
 ref:	TDNW
-com:	Used when spitting out saliva and/or other liquids. Not used when
-	spitting out solid things. [HQ12:4 p.9 ("Maltz's Reward Part III")]
+cite:	If what one spits out is basically liquid, such as a mixture of saliva
+	and mucus, {tuy'} would be used; for spitting out a mixture of saliva
+	and something that is basically solid, {tlhIS} would be more
+	appropriate. [HQ12:4 p.9 ("Maltz's Reward Part III")]
 see:	{tlhepQe'} "saliva" (n); {bol} "drool" (v); {tlhIS} "spit out" (v)
 id:	Drv
 file:	2003-12-holqed-12-4.txt
@@ -21638,7 +21673,7 @@ tag:	KLCP1
 id:	6vg
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 meta:	This is labeled as a noun in TKD E-K, but MO corrected himself in HQ2:4
-	p.18 ("Okrand's notes")
+	p.18 ("Okrand's notes").
 
 tlh:	{tlhepQe'}
 pos:	noun
@@ -21834,9 +21869,10 @@ sv:	«spotta» ut (föremål)
 en:	<spit> out (solid thing)
 def:	KGT; HQ12:4 pp.8--9 ("Maltz's Reward Part III")
 ref:	TDNW
-com:	Used when spitting out solid things, possibly accopanied by some
-	saliva. Not used when just spitting saliva, or when spitting out
-	liquid. [HQ12:4 p.9 ("Maltz's Reward Part III")]
+cite:	If what one spits out is basically liquid, such as a mixture of saliva
+	and mucus, {tuy'} would be used; for spitting out a mixture of saliva
+	and something that is basically solid, {tlhIS} would be more
+	appropriate. [HQ12:4 p.9 ("Maltz's Reward Part III")]
 see:	{tuy'} "spit out (liquids)" (v)
 id:	4nL
 file:	1997-11-01-kgt.txt; 2003-12-holqed-12-4.txt
@@ -24284,18 +24320,18 @@ sv:	«förarga», «besvära», «reta», «irritera» [slang]
 en:	<annoy>, <bother>, <irk>, <irritate> [slang]
 desc:	{muyIv yaS} ~the officer irks me~; person/creature is subj.
 def:	KGT
-com:	"[...] literally means 'chew.' In its slang sense, it is found in such
-	constructions as {choyIv} ('You bother me'---literally, 'You chew me';
-	{cho-,} 'You [do something to] me') or {muyIv romuluS Ha'DIbaH} ('The
-	Romulan dog irks me'; literally, 'The Romulan animal chews me,' where
-	'Romulan animal' is a derogatory way to refer to a Romulan; {mu-,}
-	'He/she [does something to] me'; {romuluS,} 'Romulus'; {Ha'DIbaH,}
-	'animal'). The subject of {yIv} can be only a person or creature, not
-	an inanimate object or a situation. Thus, it is inappropriate to say
-	something like {muyIv 'Iw HIq bIr} ('cold bloodwine chews me'; {'Iw
-	HIq,} 'bloodwine'; {bIr,} 'be cold'). Standard ways to express the same
-	idea are {nuQ} ('annoy, bother') and {berghmoH} ('irritate')." [KGT
-	p.164]
+cite:	This verb literally means "chew." In its slang sense, it is found in
+	such constructions as {choyIv} ("You bother me"---literally, "You chew
+	me"; {cho-,} "You [do something to] me") or {muyIv romuluS Ha'DIbaH}
+	("The Romulan dog irks me"; literally, "The Romulan animal chews me,"
+	where "Romulan animal" is a derogatory way to refer to a Romulan;
+	{mu-,} "He/she [does something to] me"; {romuluS,} "Romulus";
+	{Ha'DIbaH,} "animal"). The subject of {yIv} can be only a person or
+	creature, not an inanimate object or a situation. Thus, it is
+	inappropriate to say something like {muyIv 'Iw HIq bIr} ("cold
+	bloodwine chews me"; {'Iw HIq,} "bloodwine"; {bIr,} "be cold").
+	Standard ways to express the same idea are {nuQ} ("annoy, bother") and
+	{berghmoH} ("irritate"). [KGT p.164]
 id:	5JM
 file:	1997-11-01-kgt.txt
 
@@ -24558,9 +24594,9 @@ def:	{qep'a'} 2010
 ref:	Email 2010-12-07 (by Lieven L. Litaer, to tlhingan-hol, "News from
 	Maltz"); Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol,
 	"Letter from Maltz")
-com:	He [Maltz] said he's seen humans eating {yuch ngoghmey} and found that
-	strange. I'm not sure what form he'd prefer his {yuch} to be. (part of
-	an email from Marc Okrand)
+cite:	He [Maltz] said he's seen humans eating {yuch ngoghmey} and found that
+	strange. I'm not sure what form he'd prefer his {yuch} to be. [Email
+	2010-12-07 (by Lieven L. Litaer, to tlhingan-hol, "News from Maltz")]
 data:	phrase; derived form
 id:	w7V
 file:	2010-12-07-email.txt; 2010-12-25-email.txt
@@ -24856,9 +24892,9 @@ sv:	«maximum»
 en:	«maximum»
 def:	BoP
 cite:	{jabbI'ID pup: Qapchu'meH 'aqroS chuq: cha' vI' chorgh loghqammey}
-	<High Resolution -- Maximum Effective Range -- 3.5 Light Years> [BoP]
-cite:	{'aqroS qughDo: pIvlob Hut vI' vagh} <Maximum Cruising Speed -- Warp
-	9.5> [BoP]
+	~High Resolution -- Maximum Effective Range -- 3.5 Light Years~ [BoP]
+cite:	{'aqroS qughDo: pIvlob Hut vI' vagh} ~Maximum Cruising Speed -- Warp
+	9.5~ [BoP]
 see:	{rav} [.2]
 tag:	math
 id:	Tbm
@@ -24980,7 +25016,7 @@ pos:	noun
 sv:	ett slags «dryck» (root beer)
 en:	type of <beverage> (root beer)
 def:	KGT
-com:	A popular effervescent drink, black in color, is called {'awje'}. This
+cite:	A popular effervescent drink, black in color, is called {'awje'}. This
 	is frequently, though not accurately, translated as "root beer,"
 	probably because of its superficial resemblance to the Federation soft
 	drink, but it is made from, among other things, the marrow ({melchoQ})
@@ -25132,8 +25168,8 @@ ref:	Email 2007-08-02 (by Robyn Stewart, to tlhingan-hol, "Re: mu' chu'");
 com:	Mark Okrand wrote the word in Angieszka Solska's notebook during
 	{qep'a'} 2006, but she expected it to be published in {HolQeD}, and did
 	not want to spoil the surprise, therefore the word was not made public
-	until a year later, in a discussion about new words from the next
-	{qep'a'} on the tlhingan-hol mailing list.
+	until a year later, in 2007, in a discussion about new words from the
+	2007 {qep'a'} on the tlhingan-hol mailing list.
 id:	h7D
 file:	2007-08-02a-email.txt; 2007-08-11-email.txt
 
@@ -25294,7 +25330,12 @@ sv:	område nordvästerut, område i «nordväst»
 en:	area northwestward, area towards the «northwest»
 def:	News 1999-11-21
 ref:	HQ8:4 pp.6--8 ("Maltz Online")
-com:	"320 degrees on Terran compass" [KLINW]
+cite:	The areas associated with {'ev} and {tIng} are something like 100
+	degrees apart from each other, and each is 130 degrees away from the
+	area associated with {chan}. [News 1999-11-21 (by Marc Okrand, to
+	startrek.klingon, "Re: Cardinal Directions (to Marc Okrand)")]
+cite:	320 degrees on Terran 360 degree compass counted clockwise with 0 at
+	north [KLINW]
 tag:	placement
 id:	1h6
 file:	1999-11-21-news.txt; 1999-12-holqed-08-4-a.txt
@@ -25374,13 +25415,13 @@ pos:	noun
 sv:	ett slags «djur», «~igvah~»
 en:	type of <animal>, <~igvah~>
 def:	KGT
-com:	"[...] throughout the Empire, a soup whose main component is ~igvah~
-	liver has a special name, {ghaw'}. This word is avoided in the Vospeg
-	region, however, because there, the word {ghaw'} is a slang term
-	meaning something like 'one who is full of self-doubt or who is
-	insecure' and is a word used only as an insult. To refer to the soup,
-	one simply says {'IghvaH chej chatlh} (literally, '~igvah~ liver
-	soup')." [KGT p.30]
+cite:	For example, throughout the Empire, a soup whose main component is
+	~igvah~ liver has a special name, {ghaw'}. This word is avoided in the
+	Vospeg region, however, because there, the word {ghaw'} is a slang term
+	meaning something like "one who is full of self-doubt or who is
+	insecure" and is a word used only as an insult. To refer to the soup,
+	one simply says {'IghvaH chej chatlh} (literally, "~igvah~ liver
+	soup"). [KGT p.30]
 tag:	animal
 id:	YVP
 file:	1997-11-01-kgt.txt
@@ -25462,10 +25503,9 @@ sv:	«snor», «slem»
 en:	«mucus»
 def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
-com:	"If one were to {chuy} 'sneeze,' one would likely eject {'IqnaH}
-	'mucus' (or sometimes {'IqnaH QaD} 'dry mucus'). If one were to {tuS}
-	'cough,' one might produce {qo'qaD} 'phlegm.'" [HQ12:4 p.8 ("Maltz's
-	Reward Part III")]
+cite:	If one were to {chuy} "sneeze," one would likely eject {'IqnaH} "mucus"
+	(or sometimes {'IqnaH QaD} "dry mucus"). [HQ12:4 p.8 ("Maltz's Reward
+	Part III")]
 see:	{chuy}
 id:	Jrh
 file:	2003-12-holqed-12-4.txt
@@ -25990,9 +26030,17 @@ tlh:	{'uj}
 pos:	noun
 sv:	«~uj~» («längd«enhet»»)
 en:	<~uj~> («unit» of «length»)
-desc:	about 13.7 inches or 35 centimeters
+desc:	about 13¾″ or 35 cm
 def:	News 1997-10-22 (by Marc Okrand, to msn.onstage.startrek.expert.okrand,
 	"Re: Weights and Measures"); KGT
+cite:	{wejvatlh loSmaH loS vI' vagh wej 'uj 'aD Duj} ~Length: 120M~ [BoP]
+cite:	{loSmaH jav vI' Soch loS 'uj 'ab meH} ~Bridge Height: 16.28M~ [BoP]
+cite:	{HIvtaHvIS toQDuj cha'vatlh wejmaH Soch vI' vagh chorgh 'uj 'ab 'oH}
+	~Attack Formation Height: 82.75M~ [BoP]
+cite:	{qughtaHvIS toQDuj HutmaH vI' jav wa' 'uj 'ab 'oH} ~Cruise Formation
+	Height: 31.56M~ [BoP]
+cite:	{SaqtaHvIS toQDuj wa'vatlh loS vI' jav chorgh 'uj 'ab 'oH} ~Landing
+	Formation Height: 36.46M~ [BoP]
 com:	More exactly one ~uj~ is 34.83 cm (as caculated from usage on BoP).
 tag:	measure
 id:	onN
@@ -26004,7 +26052,7 @@ tlh:	{'uj'a'}
 pos:	noun
 sv:	stor «~uj~» («längd«enhet»»)
 en:	big <~uj~> («unit» of «length»)
-desc:	9 ~uj~ = about 10 feet 4 inches or 315 centimeters
+desc:	9 ~uj~ = about 10′4″ or 315 cm
 def:	News 1999-02-03
 ref:	TDNW
 tag:	measure
