@@ -2467,7 +2467,7 @@
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** `dict.zdb`
-**** [33%] Field/syntax changes
+**** [38%] Field/syntax changes
 ***** TODO Remove period in "p." and "pp." abbreviations
       Page abbreviations should not have period in them, according to The
       Elements of Typographic Style.
@@ -2495,6 +2495,8 @@
 
           see: rqP ({quv} [1] (v) “be honored, be honorable”);
           see: AKU ({HoQ} (v) “be honored falsely, be falsely honorable”)
+***** DONE 'tag:' field should be sorted
+      CLOSED: [2013-07-23 Tue 08:37]
 ***** DONE 'tag:' should contain year of coinage
       CLOSED: [2013-07-23 Tue 06:57]
 ***** DONE 'en:' field should come before 'sv:'

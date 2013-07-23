@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    f11ab58a7878f4d621b32073b4656d3fcd66ce4b
+SHA1:    227efc64708ab6d746dfd3aaf47c2f03e432544e
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -2006,7 +2006,7 @@ pos:	noun
 en:	<sky>
 sv:	«himmel»
 def:	TKD
-tag:	1985; landscape; KLCP1
+tag:	1985; KLCP1; landscape
 id:	iqr
 file:	1992-01-01-tkd.txt
 
@@ -6093,7 +6093,7 @@ pos:	noun
 en:	<country>, countryside
 sv:	«landsort», «landsbygd»
 def:	TKD
-tag:	1985; landscape; KLCP1
+tag:	1985; KLCP1; landscape
 id:	M61
 file:	1992-01-01-tkd.txt
 
@@ -13652,7 +13652,7 @@ pos:	noun
 en:	<forest>, <woods>
 sv:	«skog»
 def:	TKD
-tag:	1985; landscape; KLCP1
+tag:	1985; KLCP1; landscape
 id:	7SF
 file:	1992-01-01-tkd.txt
 
@@ -13661,7 +13661,7 @@ pos:	noun
 en:	<lake>
 sv:	«sjö»
 def:	TKD
-tag:	1985; landscape; KLCP1
+tag:	1985; KLCP1; landscape
 id:	Z8F
 file:	1992-01-01-tkd.txt
 
@@ -20472,7 +20472,7 @@ pos:	verb
 en:	<rain>
 sv:	«regna»
 def:	TKD
-tag:	1985; landscape; KLCP1
+tag:	1985; KLCP1; landscape
 id:	Ce1
 file:	1992-01-01-tkd.txt
 
@@ -20713,7 +20713,7 @@ pos:	noun
 en:	<tree>
 sv:	«träd»
 def:	TKD
-tag:	1985; landscape; KLCP1
+tag:	1985; KLCP1; landscape
 id:	bs9
 file:	1992-01-01-tkd.txt
 
@@ -21083,7 +21083,7 @@ en:	<wind>, <breeze>
 sv:	«vind», «bris»
 def:	TKD
 ref:	TKW p.107
-tag:	1985; landscape; KLCP1
+tag:	1985; KLCP1; landscape
 id:	KN9
 file:	1992-01-01-tkd.txt
 
@@ -26927,7 +26927,7 @@ pos:	noun
 en:	<cloud>
 sv:	«moln»
 def:	TKD
-tag:	1985; landscape; KLCP1
+tag:	1985; KLCP1; landscape
 id:	TUo
 file:	1992-01-01-tkd.txt
 

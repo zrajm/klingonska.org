@@ -854,16 +854,15 @@ sub check_see {
         my $file = (sort split /;\s/, $entry->{file}[0])[0];
         if (my ($year) = $file =~ /^(\d{4})/) {
             $year = 1985 if $entry->{def}[0] =~ /\bTKD\b/;
-            if ($year eq $tag[0]) {
-                shift @tag;
-            } else {
-                push @warn, "First tag must be year (not '$tag[0]') in";
-            }
+            push @warn, "First tag must be year (not '$tag[0]') in"
+                unless $year eq $tag[0];
         }
-        foreach (@tag) {
+        foreach (@tag[1..$#tag]) {
             push @warn, "Unknown tag '$_' in"
                 unless exists $allowed{$_};
         }
+        my @sorted = sort { lc($a) cmp lc($b) } @tag;
+        push @warn, "Tags must be sorted in" unless @sorted ~~ @tag;
         return @warn;
     }
 }
