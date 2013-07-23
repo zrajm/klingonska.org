@@ -32,7 +32,7 @@ my %cfg = (
     canon_path     => "../site/canon", # relative to executable's path
     field_order    => [ qw(tlh  warn  pos  en   sv    desc  def   ref  cite
                            com  pun   see  tag  data  id    file  meta) ],
-    field_required => [ qw(tlh pos sv en def id file) ],
+    field_required => [ qw(tlh pos sv en def tag id file) ],
     field_callbacks => {
         tlh  => \&check_tlh,
         warn => \&check_warn,
@@ -841,7 +841,7 @@ sub check_see {
 }
 
 {
-    my %tag = map {
+    my %allowed = map {
         (my $_ = $_) =~ s/_/ /g;
         $_ => 1;
     } qw(animal architecture body_part clothing country family fighting KLCP1
@@ -850,10 +850,19 @@ sub check_see {
     sub check_tag {
         my ($entry, $field, $_) = @_;
         return "Duplicate" if @{ $entry->{$field} } > 1;
-        my @warn;
-        foreach (split /;\s/) {
+        my (@tag, @warn) = split /;\s/;
+        my $file = (sort split /;\s/, $entry->{file}[0])[0];
+        if (my ($year) = $file =~ /^(\d{4})/) {
+            $year = 1985 if $entry->{def}[0] =~ /\bTKD\b/;
+            if ($year eq $tag[0]) {
+                shift @tag;
+            } else {
+                push @warn, "First tag must be year (not '$tag[0]') in";
+            }
+        }
+        foreach (@tag) {
             push @warn, "Unknown tag '$_' in"
-                unless exists $tag{$_};
+                unless exists $allowed{$_};
         }
         return @warn;
     }
@@ -896,7 +905,7 @@ sub check_data {
 sub check_file {
     my ($entry, $field, $_, @warn) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
-    foreach (split(m#;[ \n]#, $_)) {
+    foreach (split /;\s/) {
         my $file = "$cfg{canon_path}/$_";
         push @warn, "Invalid file '${\( File::Spec->abs2rel($file) )}' in"
             unless -e $file;

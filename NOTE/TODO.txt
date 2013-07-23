@@ -1473,7 +1473,10 @@
     Each transcript in the http://klingonska.org/canon/ list should have a link
     to the prettified version (as well as to the original text formatted
     transcript).
-*** [59%] Transcripts updating/improvement
+*** [56%] Transcripts updating/improvement
+**** TODO Find & add {veS QonoS} transcript
+     All words in the dictionary that occurs in this transcript should be
+     linked to the transcript.
 **** TODO Is "Skybox" correctly spelled in HQ 4:2 article?            :PROOF:
      SkyBox is spelled with capital "B", so there should either be a correction
      note in this transcript, or spelling should be corrected (if it was
@@ -1746,7 +1749,6 @@
      {tera' poH jaj wa', jar wa', jaj loSDIch, DIS wa'-Hut-Hut-chorgh:
      HovpoHvetlh latlh nab yIHutlh}
      <Save this Stardate: Sunday, January 4, 1998.> STX
-
 **** TODO Add "Star Trek: Constellations"
      An anthology with Star Trek short stories, at least one of which contains
      sentences translated by Marc Okrand.
@@ -1780,7 +1782,6 @@
      {SajlIj 'oHbe' quvwIj'e'.}
      <My honor is not your play-thing.>
      ("My honor is not your pet.") [STConst p.259]
-
 **** DONE Add "Message to Kronos" video
      CLOSED: [2011-10-31 Mon 07:52]
 ***** DONE Create thumbnail for "Message to Kronos" video
@@ -1810,11 +1811,16 @@
      Transcriptions of TKD/TKW/KGT/CK and PK should be indexable by Google
      (i.e. script should detect and allow anyone with a user agent string
      matching m#\bGooglebot\b#i).
-**** TODO Add movie transcripts
-***** TODO 1991-12-03-tuc.txt
-****** TODO Improve summary
+**** TODO Add ST3 transcript
+     All words in the dictionary that occurs in this transcript should be
+     linked to the transcript.
 **** TODO Add ST5 transcript
      http://mail.google.com/mail/#label/imported/12a129c1002403f8
+     All words in the dictionary that occurs in this transcript should be
+     linked to the transcript.
+**** TODO Add ST6 transcript
+     All words in the dictionary that occurs in this transcript should be
+     linked to the transcript.
 **** TODO Add text containing {Sa'Hut} "buttocks" (from {qep'a'} 2003)
 **** TODO Add transcript of The Klingon Way (audio book)         :TRANSCRIBE:
 **** DONE Add Mike Neff's KCD transcripts
@@ -2461,8 +2467,7 @@
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** `dict.zdb`
-**** [25%] Field/syntax changes
-***** TODO 'tag:' should contain year of coinage
+**** [33%] Field/syntax changes
 ***** TODO Remove period in "p." and "pp." abbreviations
       Page abbreviations should not have period in them, according to The
       Elements of Typographic Style.
@@ -2490,6 +2495,8 @@
 
           see: rqP ({quv} [1] (v) “be honored, be honorable”);
           see: AKU ({HoQ} (v) “be honored falsely, be falsely honorable”)
+***** DONE 'tag:' should contain year of coinage
+      CLOSED: [2013-07-23 Tue 06:57]
 ***** DONE 'en:' field should come before 'sv:'
       CLOSED: [2013-07-23 Tue 05:13]
 ***** DONE Remove non-breaking spaces
@@ -3007,9 +3014,9 @@
 
       After this is done, adjust check-dict to require this in the future.
 ***** TODO Add category "food"
-      "cat: food"
+      "tag: food"
 ***** TODO Add category "transportation"
-      "cat: transportation"
+      "tag: transportation"
       airplane, various spaceships, bicycle etc.
 ***** DONE Rename 'cat:' field to 'tag'
       CLOSED: [2012-10-29 Mon 18:35]
