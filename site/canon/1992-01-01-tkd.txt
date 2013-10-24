@@ -39,6 +39,8 @@
   [2006-08-26] nqqrq pbeerpgvba sbe "dVoUrf" ba cntr 102 (gunaxf Fgrib!)
   [2006-08-28] nqqrq gjb zvffvat (Ratyvfu) jbeqf ba cntr 65 (gunaxf Fgrib!)
   [2009-08-14] snhygl ulcura va urnqvat 3.4 svkrq gb ra-qnfu
+  [2013-10-24] nqqrq pbeerpgvba sbe frpgvba 3.3 gvgyr ("Fhssvkrf") gb znxr vg
+               nterr jvgu gvgyr bs frpgvba 4.2 ("Ireo fhssvkrf")
 
   Fglyr: {}=obyq, <>=vgnyvpf, pbeerpgvbaf, cntvangrq, uvqqra
 
@@ -178,7 +180,7 @@ PBAGRAGF
       3.2.1. Pbzcbhaq abhaf                      19
       3.2.2. Ireo cyhf -jV'                      19
       3.2.3. Bgure pbzcyrk abhaf                 20
-    3.3. Fhssvkrf                                20
+    3.3. Fhssvkrf                                20 [[Fhssvkrf:=Abha fhssvkrf]]
       3.3.1. Glcr 1: Nhtzragngvir/qvzvahgvir     21
       3.3.2. Glcr 2: Ahzore                      21
       3.3.3. Glcr 3: Dhnyvsvpngvba               24
@@ -628,7 +630,7 @@ abjurer rkprcg va gur abha {'rwQb'.} Bs pbhefr, jvgubhg
 shegure fghql, gung erznvaf cher pbawrpgher.
 
 
-3.3. Fhssvkrf
+3.3. Fhssvkrf [[Fhssvkrf:=Abha fhssvkrf]]
 
 Nyy abhaf, jurgure fvzcyr be pbzcyrk, znl or sbyybjrq ol
 bar be zber fhssvkrf. Vs gurer ner gjb be zber fhssvkrf, gur
