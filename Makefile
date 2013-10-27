@@ -185,7 +185,8 @@ publish: .publish.done
 	    exit 1;                                            \
 	};                                                     \
 	echo "Publishing site to '$(remote_dir)':";            \
-	chmod g-w $$(find ./$(publish_dir) -perm -g=w);        \
+	FILES=$$(find ./$(publish_dir) -perm -g=w);            \
+	[ -n "$$FILES" ] && chmod g-w $$FILES;                 \
 	rsync -Pac --exclude-from=.gitignore --delete-excluded \
 	     --delete-after $(publish_dir)/ $(remote_dir)      \
 	     && echo "Last published from here: `date`" >"$@"
