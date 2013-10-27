@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    9501ed0f10a4a232a375102e07638e4816bf7a89
+SHA1:    7cfaee66616609f9ffd8297e2aca2aa0dbeea33f
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -25303,6 +25303,24 @@ def:	TKDa
 tag:	1992
 id:	Zhp
 file:	1992-01-01-tkd.txt
+
+tlh:	{weQmoQnaQ}
+pos:	noun
+en:	«world wide web»
+sv:	«webben»
+def:	Email 2012-11-11 (by Lieven L. Litaer, to tlhingan-hol, "[Tlhingan-hol]
+	new word")
+cite:	[Maltz is] fuzzy about Terran computer technology and computer terms,
+	but he said that {weQmoQnaQ} is not the same thing as the Internet. He
+	said, if he understands correctly, you can do many more things with the
+	Internet than just dealing with the {weQmoQnaQ}. But he stopped there,
+	so I'll have to bother him again to find out about these other things.
+	[Email 2012-11-11 (by Lieven L. Litaer, to tlhingan-hol,
+	"[Tlhingan-hol] new word")]
+pun:	the whole ball of wax (?), suggested by De'vID
+tag:	2012
+id:	MKF
+file:	2012-11-18-email.txt
 
 tlh:	{wew}
 pos:	verb
