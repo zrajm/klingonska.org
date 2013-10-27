@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    7cfaee66616609f9ffd8297e2aca2aa0dbeea33f
+SHA1:    00dc834df16c4708662a5908c33f7cb22564801c
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -18045,6 +18045,24 @@ def:	TKD
 tag:	1985; KLCP1
 id:	Nm3
 file:	1992-01-01-tkd.txt
+
+tlh:	{QI}
+pos:	noun
+en:	«bridge» (e.g. over river)
+sv:	«bro»
+def:	Email 2012-08-14 (by Robyn Stewart, to tlhingan-hol, "[Tlhingan-hol]
+	New word: bridge")
+cite:	The word for ~bridge~ (as in over a river) is {QI} (one of those weird
+	vowel-final words). Maltz said that would apply to the kind of rope
+	bridge you described (as well as more substantial bridges). [Email
+	2012-08-14 (by Robyn Stewart, to tlhingan-hol, "[Tlhingan-hol] New
+	word: bridge")]
+pun:	Likely a reference to the novel "The Bridge over the River Kwai" by
+	Pierre Boulle. (Spelling {QI} in English -- "queue-eye" -- sounds a bit
+	like "Kwai".)
+tag:	2012
+id:	8GS
+file:	2012-08-13-email.txt
 
 tlh:	{QIb}
 pos:	noun
