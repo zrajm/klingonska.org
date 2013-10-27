@@ -795,7 +795,7 @@ sub check_cite {
     my $i = 1;
     foreach (@{ $entry->{$field} }) {
         my $_ = $_;
-        if (s#\[([^][]*)\]$##) {
+        if (s#\[( (?:[^]"]+|"[^"]*")* )\]$##x) {
             if (not source_ref_syntax($1)) {
                 push @warn, "Invalid source reference '$1' in ${\( ordinal($i) )}";
             }
@@ -1087,7 +1087,11 @@ print STDERR
     "*deprecated: $marked_count)\n"
     unless $opt{quiet};
 
-exit !!$warnings;
+if ($warnings) {
+    print STDERR "$warnings problems found\n";
+    exit 1;
+}
+exit 0;
 
 __END__
 
