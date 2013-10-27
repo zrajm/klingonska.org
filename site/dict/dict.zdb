@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    00dc834df16c4708662a5908c33f7cb22564801c
+SHA1:    2c0ad6499d3708808b41fa1b2c005e05836652fd
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -7361,6 +7361,31 @@ tag:	2002
 id:	BsY
 file:	2002-09-holqed-11-3-b.txt
 
+tlh:	{Hut'In}
+pos:	noun
+en:	«nail» (for carpentry)
+sv:	«spik»
+def:	Email 2012-08-13 (by Robyn Stewart, to tlhingan-hol, "[Tlhingan-hol]
+	New words: screw and nail")
+tag:	2012
+id:	jp8
+file:	2012-08-12-email.txt
+
+tlh:	{Hut'In vIl}
+pos:	noun
+en:	«screw»
+sv:	«skruv»
+def:	Email 2012-08-13 (by Robyn Stewart, to tlhingan-hol, "[Tlhingan-hol]
+	New words: screw and nail")
+cite:	The word for ~screw~ is {Hut'In vIl}, which is, of course, a ridgy
+	{Hut'In}. Turns out {Hut'In} is the word for ~nail.~ [Email 2012-08-13
+	(by Robyn Stewart, to tlhingan-hol, "[Tlhingan-hol] New words: screw
+	and nail")]
+tag:	2012
+data:	phrase
+id:	bbi
+file:	2012-08-12-email.txt
+
 tlh:	{Hutlh}
 pos:	verb
 en:	<lack>, be <without>, to <not «have»>
@@ -12823,8 +12848,8 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{nItlhpach} [.1]
 pos:	noun
-en:	<fingernail>
-sv:	«fingernagel»
+en:	<finger«nail»>
+sv:	«finger«nagel»»
 def:	TKDa
 tag:	1992; body part
 id:	Srv
@@ -25402,6 +25427,18 @@ def:	TKD
 tag:	1985
 id:	cz6
 file:	1992-01-01-tkd.txt
+
+tlh:	{wIl}
+pos:	noun
+en:	«spike»
+sv:	«pigg», «spets»
+def:	Email 2012-08-13 (by Robyn Stewart, to tlhingan-hol, "[Tlhingan-hol]
+	New words: screw and nail")
+pun:	The character Spike from "Buffy the Vampire Slayer" was originally
+	named William. [Suggested by Robyn Stewart]
+tag:	2012
+id:	RNa
+file:	2012-08-12-email.txt
 
 tlh:	{wIlpuq}
 pos:	noun
