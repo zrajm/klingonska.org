@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    fdef9801ed89c75f067e9eafc35f31f757517350
+SHA1:    f5916b55f75504a24eb247921744b5c60e1190cc
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -6754,10 +6754,19 @@ tlh:	{Hol}
 pos:	noun
 en:	<language>
 sv:	«språk»
+desc:	{vulqan Hol} ~Vulcan~, {vIraS Hol} ~French~
 def:	TKD
+cite:	Maltz said that for language names the construction "country + {Hol}"
+	is most common (so he preferred {DoyIchlan Hol}). Of course, it doesn't
+	have to be a "country." It could be a region or a political unit or
+	alliance of another kind (which is why {DIvI' Hol} fits in). He noted
+	that {tlhIngan Hol} is really a shortened form of {tlhIngan wo' Hol},
+	but nobody ever says that in everyday speech. [Email 2012-04-01 (by
+	Lieven L. Litaer, to tlhingan-hol, "[Tlhingan-hol] a tiny information
+	from Maltz")]
 tag:	1985; KLCP1
 id:	ExS
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 2012-04-01-email.txt
 
 tlh:	{Hol ghoQ}
 pos:	noun
@@ -27635,6 +27644,22 @@ com:	Confirmed by Okrand at {qep'a'} 1996. (Mark Shoulson) "At {qep'a'
 tag:	1996; body part
 id:	emA
 file:	1997-11-01-kgt.txt; 1996-09-holqed-05-3-a.txt
+
+tlh:	{'I'SeghIm}
+pos:	noun
+en:	«curmudgeon»
+sv:	«surpuppa», «surkart»
+def:	Email 2012-04-01 (by Lieven L. Litaer, to tlhingan-hol, "[Tlhingan-hol]
+	a tiny information from Maltz")
+cite:	Maltz has been kind of a curmudgeon lately. (Do you know that English
+	word? The closest Klingon equivalent is {'I'SeghIm}.) [Email 2012-04-01
+	(by Lieven L. Litaer, to tlhingan-hol, "[Tlhingan-hol] a tiny
+	information from Maltz")]
+pun:	The wolf Isengrim (from the fables about Reynard the fox) is a
+	curmudgeon.
+tag:	2012
+id:	FFj
+file:	2012-04-01-email.txt
 
 tlh:	{'o}
 pos:	exclamation

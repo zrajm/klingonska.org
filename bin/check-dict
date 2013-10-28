@@ -768,7 +768,7 @@ sub check_desc {
     while (m#~([^~]+)~#g) {                    # check ~...~ phrases
         my $_ = $1;
         push @warn, "First letter in '~$_~' is not lower case in"
-            if m#^[A-Z]# and !/^I\b/;
+            if m#^[A-Z]# and !/^(I|Vulcan|French)\b/;
         push @warn, "Last character in '~$_~' is punctuation in"
             if m#[-.,:;([{<«  ]$# and not m#\b(?:subj|obj)\.$#;
     }
