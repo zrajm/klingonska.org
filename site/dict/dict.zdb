@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    f5916b55f75504a24eb247921744b5c60e1190cc
+SHA1:    7383ec66fbfa64d897bad2033929036810aa89c2
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -789,6 +789,17 @@ ref:	KLINW
 tag:	1998; architecture
 id:	5kS
 file:	1998-12-07-news.txt
+
+tlh:	{beb mutlhwI'}
+pos:	noun
+en:	«roofer»
+sv:	«takläggare»
+def:	Email 2012-01-12 (by by Lieven L. Litaer, to tlhingan-hol,
+	"[Tlhingan-hol] A little bit from Maltz")
+tag:	2012; architecture
+data:	phrase
+id:	68e
+file:	2012-01-12-email.txt
 
 tlh:	{bech}
 pos:	verb
@@ -10299,6 +10310,27 @@ tag:	1985; KLCP1
 id:	pzA
 file:	1992-01-01-tkd.txt
 
+tlh:	{majyang}
+pos:	noun
+en:	«tile»
+sv:	«platta», «bricka» (t.ex. kakel, klinker)
+def:	Email 2012-01-12 (by by Lieven L. Litaer, to tlhingan-hol,
+	"[Tlhingan-hol] A little bit from Maltz")
+tag:	2012; architecture
+id:	vVD
+file:	2012-01-12-email.txt
+
+tlh:	{majyang mutlhwI'}
+pos:	noun
+en:	«tiler»
+sv:	«plattsättare»
+def:	Email 2012-01-12 (by by Lieven L. Litaer, to tlhingan-hol,
+	"[Tlhingan-hol] A little bit from Maltz")
+tag:	2012; architecture
+data:	phrase
+id:	LcS
+file:	2012-01-12-email.txt
+
 tlh:	{malja'}
 pos:	noun
 en:	<business>
@@ -11716,6 +11748,32 @@ def:	TKD
 tag:	1985
 id:	gvz
 file:	1992-01-01-tkd.txt
+
+tlh:	{mutlh}
+pos:	verb
+en:	«construct», «assemble», «put together»
+sv:	«konstruera», «montera», «bygga», «sätta ihop»
+def:	Email 2012-01-12 (by by Lieven L. Litaer, to tlhingan-hol,
+	"[Tlhingan-hol] A little bit from Maltz")
+cite:	If you did say {tlhIm mutlh} (~he/she assembled a carpet~), that would
+	mean there were pieces of fabric (or squares of carpet?) that got put
+	together (sewn together?) to make a carpet or rug. [Email 2012-01-12
+	(by by Lieven L. Litaer, to tlhingan-hol, "[Tlhingan-hol] A little bit
+	from Maltz")]
+tag:	2012; architecture
+id:	1DB
+file:	2012-01-12-email.txt
+
+tlh:	{mutlhwI'}
+pos:	noun
+en:	«construction worker»
+sv:	«byggnadsarbetare», «konstruktör»
+def:	Email 2012-01-12 (by by Lieven L. Litaer, to tlhingan-hol,
+	"[Tlhingan-hol] A little bit from Maltz")
+tag:	2012; architecture
+data:	derived form
+id:	WQS
+file:	2012-01-12-email.txt
 
 tlh:	{muv}
 pos:	verb
@@ -13953,6 +14011,17 @@ tag:	2010
 id:	X73
 file:	2010-12-22-email.txt; 2010-12-25-email.txt
 
+tlh:	{ngogh mutlhwI'}
+pos:	noun
+en:	«bricklayer»
+sv:	«murare»
+def:	Email 2012-01-12 (by by Lieven L. Litaer, to tlhingan-hol,
+	"[Tlhingan-hol] A little bit from Maltz")
+tag:	2012; architecture
+data:	phrase
+id:	XJR
+file:	2012-01-12-email.txt
+
 tlh:	{ngogh tun}
 pos:	noun
 en:	«pillow»
@@ -16174,6 +16243,16 @@ ref:	TKW p.135
 tag:	1985
 id:	d42
 file:	1992-01-01-tkd.txt
+
+tlh:	{qatlhDa'}
+pos:	noun
+en:	«water «pipe»»
+sv:	«vatten«rör»», vatten«ledning»
+def:	Email 2012-01-12 (by by Lieven L. Litaer, to tlhingan-hol,
+	"[Tlhingan-hol] A little bit from Maltz")
+tag:	2012
+id:	eap
+file:	2012-01-12-email.txt
 
 tlh:	{qaw}
 pos:	verb
@@ -22461,6 +22540,17 @@ tag:	1997
 id:	aij
 file:	1997-11-01-kgt.txt
 
+tlh:	{tI'wI'}
+pos:	noun
+en:	«repairer», «repairman»
+sv:	«reparatör»
+def:	Email 2012-01-12 (by by Lieven L. Litaer, to tlhingan-hol,
+	"[Tlhingan-hol] A little bit from Maltz")
+tag:	2012
+data:	derived form
+id:	9Jz
+file:	2012-01-12-email.txt
+
 tlh:	{tob}
 pos:	verb
 en:	<test> conclusively, <prove>
@@ -23460,6 +23550,29 @@ data:	derived form
 id:	Q3r
 file:	1992-01-01-tkd.txt
 
+tlh:	{tlhIm}
+pos:	noun
+en:	«carpet», «rug», «wall hanging», «blanket»
+sv:	«matta», «väggbonad», «filt», «täcke»
+def:	Email 2012-01-12 (by by Lieven L. Litaer, to tlhingan-hol,
+	"[Tlhingan-hol] A little bit from Maltz")
+cite:	Maltz commented that Klingon rugs are primarily decorative. The idea of
+	a fabric floor covering being thick or soft was just bizarre to him.
+	[Email 2012-01-12 (by by Lieven L. Litaer, to tlhingan-hol,
+	"[Tlhingan-hol] A little bit from Maltz")]
+cite:	{tlhIm} is commonly used for a fabric wall hanging (that might, for
+	example, have a picture of the Klingon emblem on it). If a piece of
+	cloth is displayed at the end of a pole, it is considered a {joqwI'}
+	(~flag~); a {tlhIm} covers some sort of surface. Finally, {tlhIm} can
+	also mean ~blanket~. Maltz said that Klingons generally don't use
+	blankets (he certainly doesn't), but he's seen them and, if you have to
+	call them something, {tlhIm} is it. [Email 2012-01-12 (by by Lieven L.
+	Litaer, to tlhingan-hol, "[Tlhingan-hol] A little bit from Maltz")]
+see:	{vel} ~cover, coat, mask~
+tag:	2012
+id:	4Fo
+file:	2012-01-12-email.txt
+
 tlh:	{tlhImqaH}
 pos:	noun
 en:	type of <food>, <~zilm'kach~>
@@ -24235,6 +24348,37 @@ tag:	1992
 data:	phrase
 id:	wdz
 file:	1992-01-01-tkd.txt
+
+tlh:	{vel}
+pos:	verb
+en:	«cover», «coat», «mask»
+sv:	«täcka», «klä», «mattbelägga»
+def:	Email 2012-01-12 (by by Lieven L. Litaer, to tlhingan-hol,
+	"[Tlhingan-hol] A little bit from Maltz")
+cite:	One can say {rav vel tlhIm} (~the carpet covers the floor~). To to say
+	"lay a carpet," one says ~use a carpet to cover the floor~, or {rav
+	velmeH tlhIm lo'}. [Email 2012-01-12 (by by Lieven L. Litaer, to
+	tlhingan-hol, "[Tlhingan-hol] A little bit from Maltz")]
+see:	{tlhIm} ~carpet, rug, wall hanging~
+tag:	2012
+id:	dkn
+file:	2012-01-12-email.txt
+
+tlh:	{velwI'}
+pos:	noun
+en:	«coverer», «coater», «masker»
+sv:	«täckare», «mattläggare»
+def:	Email 2012-01-12 (by by Lieven L. Litaer, to tlhingan-hol,
+	"[Tlhingan-hol] A little bit from Maltz")
+cite:	The person who lays the carpet is a {velwI'} (literally ~coverer,
+	coater, masker~). You might think that the {velwI'} is the carpet
+	itself. That would make sense, but it doesn't work that way. [Email
+	2012-01-12 (by by Lieven L. Litaer, to tlhingan-hol, "[Tlhingan-hol] A
+	little bit from Maltz")]
+tag:	2012
+data:	derived form
+id:	cYL
+file:	2012-01-12-email.txt
 
 tlh:	{vem}
 pos:	verb
@@ -27712,6 +27856,17 @@ tag:	1985
 id:	3Kh
 file:	1992-01-01-tkd.txt; 1998-11-01-bop.txt
 
+tlh:	{'och mutlhwI'}
+pos:	noun
+en:	«plumber»
+sv:	«rörmokare»
+def:	Email 2012-01-12 (by by Lieven L. Litaer, to tlhingan-hol,
+	"[Tlhingan-hol] A little bit from Maltz")
+tag:	2012; architecture
+data:	phrase
+id:	GZJ
+file:	2012-01-12-email.txt
+
 tlh:	{'oD}
 pos:	verb
 en:	<arbitrate>, <mediate>
@@ -28126,6 +28281,17 @@ pun:	At {qep'a'} 1997 Okrand confirmed the suspicion of a list member about
 tag:	1997
 id:	guV
 file:	1997-11-01-kgt.txt
+
+tlh:	{'ul pat mutlhwI'}
+pos:	noun
+en:	«electrician»
+sv:	«elektriker»
+def:	Email 2012-01-12 (by by Lieven L. Litaer, to tlhingan-hol,
+	"[Tlhingan-hol] A little bit from Maltz")
+tag:	2012; architecture
+data:	phrase
+id:	ZBj
+file:	2012-01-12-email.txt
 
 tlh:	{'um}
 pos:	verb
