@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    7383ec66fbfa64d897bad2033929036810aa89c2
+SHA1:    991c0357958fdb69956743da4c42e2ea139a89a5
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -7500,6 +7500,22 @@ pos:	noun
 en:	<food <server>>, <waiter>, «waitress»
 sv:	«kypare», «servitör», «servitris»
 def:	KGT
+cite:	The person who takes the order and brings the food is the {jabwI'}
+	(~server~) and the chef is the {vutwI'} (~cook~; in a large restaurant,
+	the head chef is referred to as the {vutwI' quv,} the ~honored cook~).
+	In small establishments, the {jabwI'} and {vutwI'} are likely to be the
+	same individual. If there is a separate bar ({tach}), the bartender
+	({chom}) will mix drinks; otherwise, these chores fall to the {vutwI'}.
+	When taking a table's order, the {jabwI'} neither writes anything down
+	nor enters data into a computer. It is considered the duty of the
+	{jabwI'} to remember ({qaw}) the choices and to bring the correct food,
+	and servers tend to be quite skilled at this. On the rare occasion when
+	the {jabwI'} has remembered incorrectly ({qawHa'}), the patron may
+	reject ({lajQo'}) the dish. If the patron rejects a dish that the
+	server believes has been properly remembered, however, the
+	misunderstanding could develop into minor combat. For most of the other
+	diners in the restaurant, this is regarded as an exhilarating
+	diversion. [KGT pp.101--102]
 see:	{tebwI'}
 tag:	1997
 data:	derived form
@@ -20812,10 +20828,12 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{Soj} [.1]
 pos:	noun
-en:	<food>
-sv:	«mat»
+en:	<food>, «drink»
+sv:	«mat», «dryck»
 def:	TKDa
 ref:	HQ12:3 p.9 ("Maltz's Reward Part II")
+cite:	The term for food of any kind (including beverages) is {Soj}. [KGT
+	p.83]
 tag:	1992; KLCP1
 id:	phN
 file:	1992-01-01-tkd.txt
@@ -25015,12 +25033,13 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{vut}
 pos:	verb
-en:	<cook>
-sv:	«laga mat», «tillaga»
+en:	<cook>, «prepare», «make», «fix», «assemble» (food and beverages)
+sv:	«till«laga»», «förbereda», «göra» (mat och dryck)
 def:	TKD
+ref:	KGT p.83
 tag:	1985; KLCP1
 id:	ZCn
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
 tlh:	{vutmeH 'un}
 pos:	noun
@@ -25039,6 +25058,25 @@ sv:	«kök», «kabyss»
 def:	TKD
 tag:	1985
 id:	mQy
+file:	1992-01-01-tkd.txt
+
+tlh:	{vutwI'}
+pos:	verb
+en:	<cook>, «chef»
+sv:	«kock», «köksa»
+def:	KGT
+cite:	A Klingon food and/or beverage preparer is a {vutwI'} (for convenience,
+	this will continue to be translated as ~cook~). [KGT p.83]
+cite:	The person who takes the order and brings the food is the {jabwI'}
+	(~server~) and the chef is the {vutwI'} (~cook~; in a large restaurant,
+	the head chef is referred to as the {vutwI' quv,} the ~honored cook~).
+	In small establishments, the {jabwI'} and {vutwI'} are likely to be the
+	same individual. If there is a separate bar ({tach}), the bartender
+	({chom}) will mix drinks; otherwise, these chores fall to the {vutwI'}.
+	[KGT p.101]
+tag:	1992
+data:	derived form
+id:	D59
 file:	1992-01-01-tkd.txt
 
 tlh:	{vut'un}
@@ -28895,6 +28933,29 @@ tag:	1985; KLCP1
 id:	SBh
 file:	1992-01-01-tkd.txt
 
+tlh:	*{-la'}
+warn:	canon example of ungrammatical use
+pos:	verb suffix type 5
+en:	can, able + indefinite subject
+sv:	kan + indefinit subjekt
+def:	KGT p.181
+cite:	Rather than violating the rules by using the two [type 5] suffixes
+	sequentially (that is, {-lu'laH} or {-laHlu'}), however, these speakers
+	will say either {-luH} or {-la'}, employing totally artificial, made-up
+	suffixes formed by fusing {-lu'} and {-laH}, as in {jagh jonluH} or
+	{jagh jonla'} (~The enemy can be captured~). No one accepts such
+	constructions as grammatical; their inappropriateness, the way they
+	grate on the Klingon ear, is exactly what gives them elocutionary
+	clout. A visitor may hear one of these odd suffixes occasionally, but,
+	as with other intentionally ungrammatical forms, it is best to avoid
+	using them until one is extremely comfortable with the nuances of
+	Klingon style. [KGT p.181]
+see:	*{-luH}
+tag:	1997
+data:	deprecated
+id:	2gG
+file:	1997-11-01-kgt.txt
+
 tlh:	{-lI'}
 pos:	verb suffix type 7
 en:	in progress
@@ -28903,6 +28964,29 @@ def:	TKD 4.2.7 (p.42)
 tag:	1985
 id:	9Rx
 file:	1992-01-01-tkd.txt
+
+tlh:	*{-luH}
+warn:	canon example of ungrammatical use
+pos:	verb suffix type 5
+en:	can, able + indefinite subject
+sv:	kan + indefinit subjekt
+def:	KGT p.181
+cite:	Rather than violating the rules by using the two [type 5] suffixes
+	sequentially (that is, {-lu'laH} or {-laHlu'}), however, these speakers
+	will say either {-luH} or {-la'}, employing totally artificial, made-up
+	suffixes formed by fusing {-lu'} and {-laH}, as in {jagh jonluH} or
+	{jagh jonla'} (~The enemy can be captured~). No one accepts such
+	constructions as grammatical; their inappropriateness, the way they
+	grate on the Klingon ear, is exactly what gives them elocutionary
+	clout. A visitor may hear one of these odd suffixes occasionally, but,
+	as with other intentionally ungrammatical forms, it is best to avoid
+	using them until one is extremely comfortable with the nuances of
+	Klingon style. [KGT p.181]
+see:	*{-la'}
+tag:	1997
+data:	deprecated
+id:	SPR
+file:	1997-11-01-kgt.txt
 
 tlh:	{-lu'}
 pos:	verb suffix type 5
