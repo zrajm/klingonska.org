@@ -801,6 +801,9 @@
      CLOSED: [2011-06-14 Tue 10:34]
      (and "Uppdaterad" not "Ändrad" in Swedish)
 ** TODO Pages to add
+*** TODO Klingon Grammar Addenda
+    Terrence Donnelly have given permission for me to republish his, now
+    defunct, Klingon Grammar Addenda.
 *** TODO RSS/Atom feed for updates
     http://klingonska.org/feed.atom
 
