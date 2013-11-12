@@ -1,10 +1,10 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    991c0357958fdb69956743da4c42e2ea139a89a5
+SHA1:    0a66958b52823514923293b2e9d1cd415e087031
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
-AUTHOR:  Zrajm C Akfohg <zrajm@klingonska.org>
+AUTHOR:  Zrajm <zrajm@klingonska.org>
 
 
 1. About
@@ -25749,11 +25749,11 @@ def:	KGT
 com:	Oops! MO seem to have canonified an error occuring on KLI's list of new
 	words, originally caused by a slip of the eye while reading/
 	transcribing the {veS QonoS} list in HQ1:3 p.9 ("Additional
-	Vocabulary"). Zrajm C Akfohg: Actually, when I was at the {qep'a'}
-	2000, Will Martin told me that this error was *his* fault, since he was
-	the one who read the {veS QonoS} list wrong when writing his
-	dictionary. He gave a copy of this dictionary to MO, who as a kind of a
-	joke incorporated the error into the language.
+	Vocabulary"). Zrajm: When I was at the {qep'a'} 2000, Will Martin told
+	me that this error was *his* fault, since he was the one who read the
+	{veS QonoS} list wrong when writing his dictionary. He gave a copy of
+	this dictionary to MO, who as a kind of a joke incorporated the error
+	into the language.
 see:	{Say'qu'moH} is a synonym
 tag:	1992
 id:	2Az
@@ -29515,9 +29515,9 @@ MO attended; held in Las Vegas[1][5].
 MO attended (me and & Markus there)[1][7].
 
 * *{tIb} "be nervous, be uneasy" (v) -- [KGT p.132] Word confirmed as a typo,
-  real word is {bIt}, as it is spelled in other sources. (Zrajm C Akfohg)
+  real word is {bIt}, as it is spelled in other sources. (zrajm)
 * {woj} "sterilize" (v) -- Verified that word is canon, and also synonymous to
-  older word {Say'qu'moH}. (Zrajm C Akfohg)
+  older word {Say'qu'moH}. (zrajm)
 
 2001 -- {qep'a' chorghDIch}
 ---------------------------

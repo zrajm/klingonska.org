@@ -94,7 +94,7 @@ sub pod2ansi {
 
 sub version {
     print "$NAME (klingonska.org) $VERSION\n",
-        "Copyright (C) $YEAR Zrajm C Akfohg <zrajm\@klingonska.org>\n",
+        "Copyright (C) $YEAR zrajm <zrajm\@klingonska.org>\n",
         "License CC BY-SA 3.0: Creative Commons Attribution-ShareAlike 3.0 Unported\n",
         "    <http://creativecommons.org/licenses/by-sa/3.0/>\n";
     exit 0;
@@ -1206,12 +1206,12 @@ diff(1) to see if B<check-dict> performed any changes.
 
 =head1 AUTHOR
 
-Written by Zrajm C Akfohg <zrajm@klingonska.org>, 2009-2012.
+Written by zrajm <zrajm@klingonska.org>, 2009-2012.
 
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2012 Zrajm C Akfohg <zrajm@klingonska.org>.
+Copyright 2012 zrajm <zrajm@klingonska.org>.
 
 Distributed under Creative Commons Attribution-ShareAlike 3.0 Unported (CC
 BY-SA 3.0) http://creativecommons.org/licenses/by-sa/3.0/

@@ -1,5 +1,5 @@
 [[
-  [2000-11-06] copied from earlier notes of Zrajm C Akfohg
+  [2000-11-06] copied from earlier notes of zrajm
   [2003-01-29] added file header
   [2006-07-25] added "Summary" field, added day to "Date" (from Amazon)
   Style: {}=bold, paginated

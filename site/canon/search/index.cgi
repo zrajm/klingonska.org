@@ -358,7 +358,7 @@ sub page_footer {
 </div>
 
 <div id="foot">
-<p class="copyright">&copy;1998&ndash;2010, Copyright <span class="author"><a href="mailto:zrajm\@klingonska.org">Zrajm C Akfohg</a></span>, <a href="http://klingonska.org/">Klingonska Akademien</a>, Uppsala.</p>
+<p class="copyright">&copy;1998&ndash;2010, Copyright <span class="author"><a href="mailto:zrajm\@klingonska.org">zrajm</a></span>, <a href="http://klingonska.org/">Klingonska Akademien</a>, Uppsala.</p>
 <p class="validator">
  Validate:
   <a href="http://validator.w3.org/check?uri=http://klingonska.org/canon/">XHTML</a>,

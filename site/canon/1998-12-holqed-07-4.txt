@@ -1,5 +1,5 @@
 [[
-  [2000-08-27] OCR scanned by Zrajm C Akfohg.
+  [2000-08-27] OCR scanned by zrajm
   [2003-01-28] added file header
   [2010-08-31] found {'avwI'} misstake in source when machine-parsing Klingon
   [2013-04-11] minor source update

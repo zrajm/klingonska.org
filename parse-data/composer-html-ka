@@ -38,7 +38,7 @@ my $PAGE_FOOT = <<"EOF";
   <TR>
     <TD>         
     <TD ALIGN=CENTER><B>©1998-2002, Copyright 
-      <A HREF="mailto:zrajm\@klingonska.org">Zrajm C Akfohg</A>, 
+      <A HREF="mailto:zrajm\@klingonska.org">zrajm</A>, 
       <A HREF="http://klingonska.org/">Klingonska Akademien</A>, Uppsala.</B>
     <TD>         
   <TR>

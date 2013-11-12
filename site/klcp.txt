@@ -29,9 +29,8 @@ The Klingon Language Certification Program (KLCP) is a sponsored project of the
 <br>[Original document](http://www.speers.nu/Holtej/klingon/guidelines.htm) by
 d'Armond Speers, copyright (c) 2002 (<time
 datetime="2002-02-10">February 10, 2002</time>)
-<br>HTML/CSS (text itself not changed) by [Zrajm C
-Akfohg](mailto:zrajm@klingonska.org) (<time datetime="2011-09-29">September 29,
-2011</time>)
+<br>HTML/CSS (text itself not changed) by [zrajm](mailto:zrajm@klingonska.org)
+(<time datetime="2011-09-29">September 29, 2011</time>)
 
 
 # Certification Guidelines #

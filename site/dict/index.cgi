@@ -377,7 +377,7 @@ sub html_foot {
 
 <footer role=contentinfo>
   <p class=copyright>&copy;<time itemprop=copyrightYear>1998</time>&ndash;<time>2012</time> by
-    <a href="mailto:zrajm@klingonska.org" rel=author itemprop=author>Zrajm C Akfohg</a>,
+    <a href="mailto:zrajm@klingonska.org" rel=author itemprop=author>zrajm</a>,
     <a href="http://klingonska.org/" itemprop=sourceOrganization>Klingonska Akademien</a>, Uppsala
   </p>
   <p class=validator>

@@ -38,8 +38,8 @@
         1993
     }
     tagline = \markup \center-column {
-        \line { Zrajm C Akfohg, May 2006–May 2013 }
-        \line { 2nd & 3rd voices and chords by Ryan Hart, December 2012 }
+        \line { Score typeset by zrajm, May 2006–May 2013 }
+        \line { Chords and 2nd & 3rd voices provided by Ryan Hart, December 2012 }
         \line { Proofreading & suggestions by Leon Zendejas Medina, May 2013 }
         \line {
           \with-url #"http://klingonska.org/songs/tahjaj_wo/" {

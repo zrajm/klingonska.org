@@ -41,7 +41,7 @@ my %author = (
     markus  => '<a href="mailto:mp@klingonska.org">Markus Persson</a>',
     wallius => '<a href="mailto:wallius@rit.se">Robert Wallius</a>',
     yens    => '<a href="mailto:yenswahlgren@hotmail.com">Yens Wahlgren</a>',
-    zrajm   => '<a href="mailto:zrajm@klingonska.org">Zrajm C Akfohg</a>',
+    zrajm   => '<a href="mailto:zrajm@klingonska.org">zrajm</a>',
 );
 
 my $lang = "en";

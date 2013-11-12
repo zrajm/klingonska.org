@@ -31,10 +31,10 @@ sub read_file {
 
 sub version {
     print "$NAME $VERSION\n",
-        "Copyright (C) $YEAR Zrajm C Akfohg\n",
+        "Copyright (C) $YEAR zrajm\n",
         "License CC BY-SA: Creative Commons Attribution-Share Alike\n",
         "<http://creativecommons.org/licenses/by-sa/3.0/>.\n\n",
-        "Written by Zrajm C Akfohg <zrajm\@klingonska.org>.\n";
+        "Written by zrajm <zrajm\@klingonska.org>.\n";
 }
 
 sub help {
@@ -386,13 +386,13 @@ should be included when reporting bugs.
 
 =head1 AUTHOR
 
-Written by Zrajm C Akfohg <zrajm@klingonska.org>.
+Written by zrajm <zrajm@klingonska.org>.
 
 
 =head1 COPYRIGHT
 
-Copyright (C) 2012 Zrajm C Akfohg. License CC BY-SA: Creative Commons
-Attribution-Share Alike <http://creativecommons.org/licenses/by-sa/3.0/>.
+Copyright (C) 2012 zrajm. License CC BY-SA: Creative Commons Attribution-Share
+Alike <http://creativecommons.org/licenses/by-sa/3.0/>.
 
 You are allowed to freely copy and modify this program, as long as you release
 it under the same license, and give the original author(s) credit for their

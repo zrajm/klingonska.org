@@ -286,7 +286,7 @@ sub page_footer {
         p({ class => 'copyright' },
             '&copy;1998&ndash;2011, Copyright ',
             span({ -class => 'author' },
-                 a({ -href => 'mailto:zrajm@klingonska.org' }, 'Zrajm C Akfohg')
+                 a({ -href => 'mailto:zrajm@klingonska.org' }, 'zrajm')
             ) . ', ' .
             a({ -href => 'http://klingonska.org/' }, 'Klingonska Akademien') .
             ', Uppsala') .
