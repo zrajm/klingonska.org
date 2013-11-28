@@ -1,0 +1,55 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use encoding::warnings 'FATAL';
+use 5.10.0;
+use utf8;
+use open ':utf8';
+binmode(STDOUT, ':utf8');
+
+sub help {
+    print <<'EOF';
+Usage: zdb-make-id NUMBER [[<]ZDB-DICT]
+
+Generates NUMBER of ZDB 'id:' fields. If ZDB-DICT is specified (or passed on
+standard input), then any 'id:' given in that file will not be used. (Useful
+for creating 'id:' fields for new entries.)
+EOF
+    exit;
+}
+
+# Get number of id's to produce from arguments.
+my $count = '';
+foreach my $num (0..$#ARGV) {
+    last if $num > $#ARGV;
+    my $_ = $ARGV[$num];
+    last if m#^--$#;
+    help() if m#^(-h|--help)$#;
+    $count = splice(@ARGV, $num, 1) if m#^[0-9]+$#;
+}
+if ($count eq '') {
+    die "$0: What NUMBER of id:s did you want to generate?\n" .
+        "Try '$0 --help' for more information.\n";
+}
+
+# Get list of already used id's.
+my %id = ();
+if (@ARGV or not -t STDIN) {
+    while (<>) {
+        m/^id:\t(.*)/ and $id{$1} ++;
+    }
+}
+
+my @char = grep(!/[0OIl]/, "a".."z", "A".."Z", 0..9);
+my $tlh_re = qr/^([bDHj1mnpqQrStvwy]|ch|gh|ng|t1h)[ouae1]?[bDHj1mnpqQrStvwy]?$/x;
+for (my $i = 1; $i <= $count;) {
+    my $id = join "", @char[ map { int rand @char } ((1) x 3) ];
+
+    next if exists $id{$id} or $id =~ /$tlh_re/;
+
+    $id{$id} = 1;
+    say $id;
+    $i ++;
+}
+
+#[eof]
