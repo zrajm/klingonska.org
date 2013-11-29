@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    1c44f866e5038101a6d3d2d9369250847326a630
+SHA1:    6c61d96b621bffa0e079b399075f1f40eb10872a
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -2364,6 +2364,16 @@ tag:	2001; animal
 id:	68Z
 file:	2001-12-holqed-10-4.txt
 
+tlh:	{cha''etlh pe'wI'}
+pos:	noun
+en:	«scissors»
+sv:	«sax»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	EqW
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
+
 tlh:	{cheb}
 pos:	noun
 en:	«~cheb~» («unit» of «weight»)
@@ -3859,6 +3869,26 @@ tag:	1985; KLCP1
 id:	cVz
 file:	1992-01-01-tkd.txt
 
+tlh:	{De' chu' ghItlh}
+pos:	noun
+en:	«newspaper»
+sv:	«dagstidning», «nyhetstidning»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	D8h
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
+
+tlh:	{De' jengva'}
+pos:	noun
+en:	«compact disk», «CD»
+sv:	«CD»-skiva
+def:	TNK
+tag:	2011
+data:	phrase
+id:	oaY
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
+
 tlh:	{De'wI'}
 pos:	noun
 en:	<computer>
@@ -3990,6 +4020,16 @@ def:	KGT
 tag:	1997
 id:	q83
 file:	1997-11-01-kgt.txt
+
+tlh:	{DIr qanwI' taS}
+pos:	noun
+en:	«suntan lotion»
+sv:	«sololja»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	C8a
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{DIr «'In»}
 pos:	noun
@@ -5371,13 +5411,14 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{ghItlhwI'}
 pos:	noun
-en:	«stylus», «writing implement», «person who writes»
-sv:	«stylus», «skriftverktyg», «person som skriver»
+en:	«stylus», «writing implement», «pen», «person who writes»
+sv:	«stylus», «skriftverktyg», «penna», «person som skriver»
 def:	KGT p.79
+ref:	TNK
 tag:	1997
 data:	derived form
 id:	LQc
-file:	1997-11-01-kgt.txt
+file:	1997-11-01-kgt.txt; 2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{gho} [.1]
 pos:	noun
@@ -5519,6 +5560,16 @@ def:	TKD
 tag:	1985; KLCP1
 id:	gZW
 file:	1992-01-01-tkd.txt
+
+tlh:	{ghojmeH ghItlhwI'}
+pos:	noun
+en:	«pencil»
+sv:	«blyertspenna»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	na5
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{ghojmeH taj}
 pos:	noun
@@ -6168,6 +6219,16 @@ tag:	1985
 id:	GL9
 file:	1979-12-06-st1.txt; 1992-01-01-tkd.txt
 
+tlh:	{HaSta jIH}
+pos:	noun
+en:	«television»
+sv:	«teve»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	knF
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
+
 tlh:	[1] {Hat}
 pos:	verb
 en:	be <illegal>
@@ -6607,6 +6668,18 @@ def:	TKD 5.5 (p.57) et al.
 tag:	1985; KLCP1
 id:	VKu
 file:	1992-01-01-tkd.txt
+
+tlh:	{HIjmeH chaw'}
+pos:	noun
+en:	«stamp»
+sv:	«frimärke»
+def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
+tag:	2011
+data:	phrase
+id:	NBh
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{HIjwI'}
 pos:	noun
@@ -7146,6 +7219,26 @@ def:	TKD
 tag:	1985; body part
 id:	asv
 file:	1992-01-01-tkd.txt
+
+tlh:	{Ho'Du' Say'moHwI' tlhagh}
+pos:	noun
+en:	«toothpaste»
+sv:	«tandkräm»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	HcU
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
+
+tlh:	{Ho' teywI'}
+pos:	noun
+en:	«toothbrush»
+sv:	«tandborste»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	eSL
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{Ho' 'etlh}
 pos:	noun
@@ -8040,9 +8133,12 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{jengva'}
 pos:	noun
-en:	<plate> (for eating)
-sv:	«tallrik»
+en:	<plate> (for eating), «disk»
+sv:	«tallrik», «platta», «skiva»
 def:	KGT
+cite:	{De' jengva'} ~compact disk~ [TNK]
+com:	This seems to mean any kind of plate or disk if one is to take its
+	usage in the TNK as any kind of indication.
 see:	{ngop} is the plural form
 tag:	1997; food
 id:	Nu5
@@ -8198,6 +8294,26 @@ def:	TKD
 tag:	1985; body part
 id:	bFD
 file:	1992-01-01-tkd.txt
+
+tlh:	{jIb Ho'Du'}
+pos:	noun
+en:	«comb»
+sv:	«kam»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	ooJ
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
+
+tlh:	{jIb yachwI'}
+pos:	noun
+en:	«hairbrush»
+sv:	«hårborste»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	8sx
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	[1] {jIH} [1]
 pos:	verb
@@ -11060,6 +11176,26 @@ tag:	2010; color
 id:	4E2
 file:	2010-12-05-email.txt; 2010-12-25-email.txt
 
+tlh:	{mIllogh qonwI'}
+pos:	noun
+en:	«camera»
+sv:	«kamera»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	FeF
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
+
+tlh:	{mIllogh qonwI' qoSta'}
+pos:	noun
+en:	«film»
+sv:	«film»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	7q3
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
+
 tlh:	{mIl'oD}
 pos:	noun
 en:	type of <animal>, <sabre bear>
@@ -11068,6 +11204,16 @@ def:	KGT
 tag:	1997; animal; food
 id:	Pum
 file:	1997-11-01-kgt.txt
+
+tlh:	{mIl'oD ngeb}
+pos:	noun
+en:	«teddy bear»
+sv:	«nalle»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	H3F
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{mIm}
 pos:	verb
@@ -11087,6 +11233,18 @@ ref:	TKW pp.169, 19
 tag:	1985; body part
 id:	Emr
 file:	1992-01-01-tkd.txt
+
+tlh:	{mIn QanwI' nguv}
+pos:	noun
+en:	«sunglasses»
+sv:	«solglasögon»
+def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
+tag:	2011; clothing
+data:	phrase
+id:	nJo
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{mIp} [1]
 pos:	verb
@@ -11190,12 +11348,12 @@ file:	1996-04-kcd.txt
 
 tlh:	{mIv} [.1]
 pos:	noun
-en:	<helmet>
-sv:	«hjälm»
+en:	<helmet>, «hat»
+sv:	«hjälm», «hatt»
 def:	TKD
 tag:	1985; clothing
 id:	ZDP
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{mIv} [.2]
 pos:	noun
@@ -11464,6 +11622,16 @@ def:	TKD
 tag:	1985; clothing
 id:	wg7
 file:	1992-01-01-tkd.txt
+
+tlh:	{mong Ha'quj}
+pos:	noun
+en:	«tie»
+sv:	«slips»
+def:	TNK
+tag:	2011; clothing
+data:	phrase
+id:	rFd
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{mop}
 pos:	noun
@@ -12398,6 +12566,16 @@ tag:	1996
 data:	phrase; derived form
 id:	rCN
 file:	1996-06-holqed-05-2-c.txt
+
+tlh:	{nav qatwI'}
+pos:	noun
+en:	«envelope»
+sv:	«kuvert»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	n7y
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{nawlogh}
 pos:	noun
@@ -13891,6 +14069,35 @@ tag:	1992
 id:	u6w
 file:	1992-01-01-tkd.txt
 
+tlh:	*{ngeHmeH QIn nav}
+warn:	canon mistake, use {QIn 'echletHom} instead
+pos:	noun
+en:	«postcard»
+sv:	«vykort»
+def:	TNK
+ref:	Email 2011-11-05 (by Rohan Fenwick, to tlhingan-hol, "[Tlhingan-hol]
+	EuroTalk word for 'postcard'")
+cite:	I've just noticed something very peculiar about my copy of the Eurotalk
+	software while going through it again: 'echletHom is only found in the
+	pIqaD version. The romanised text gives it as {ngeHmeH QIn nav} ~paper
+	for sending a message~. [Email 2011-11-05 (by Rohan Fenwick, to
+	tlhingan-hol, "[Tlhingan-hol] EuroTalk word for 'postcard'")]
+cite:	I noticed it quickly and brought it to the attention of the EuroTalk
+	tech support. The "revised edition" of the CD-ROM has the {'echletHom}
+	spelling throughout (along with a couple of missing apostrophes and an
+	accidental double {H} corrected). [Email 2011-11-05 (by Alan Anderson,
+	to tlhingan-hol, "Re: [Tlhingan-hol] EuroTalk word for 'postcard'")]
+cite:	Yes, indeed. It's correct in the download version, and the CD version
+	(the first, uncorrected version) has it like you describe. [Email
+	2011-11-05 (by Lieven L. Litaer, to tlhingan-hol, "Re: [Tlhingan-hol]
+	EuroTalk word for 'postcard'")]
+see:	{QIn 'echletHom} ~postcard~
+tag:	2011
+data:	deprecated; phrase
+id:	8ts
+file:	2011-09-30-tnk.txt; 2011-11-05a-email.txt; 2011-11-05b-email.txt;
+	2011-11-05c-email.txt
+
 tlh:	{ngej}
 pos:	verb
 en:	<infect>
@@ -14458,12 +14665,23 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{paH}
 pos:	noun
-en:	<gown>
-sv:	«dräkt»
+en:	<gown>, «dress»
+sv:	«dräkt», «klänning»
 def:	TKD
+ref:	TNK
 tag:	1985; clothing
 id:	iH3
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 2011-09-30-tnk.txt; 2011-11-02-email.txt
+
+tlh:	{paH bID}
+pos:	noun
+en:	«skirt»
+sv:	«kjol»
+def:	TNK
+tag:	2011; clothing
+data:	phrase
+id:	PES
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{paj}
 pos:	verb
@@ -17094,7 +17312,7 @@ pos:	noun
 en:	<belt>
 sv:	«bälte»
 def:	TKD
-tag:	1985
+tag:	1985; clothing
 id:	KKp
 file:	1992-01-01-tkd.txt
 
@@ -17263,6 +17481,21 @@ tag:	1985; KLCP1
 id:	8Mn
 file:	1992-01-01-tkd.txt
 
+tlh:	{qoSta'}
+pos:	noun
+en:	«strip», «ribbon», «tape» (non-sticky)
+sv:	«band», «remsa»
+def:	TNK
+ref:	Email 2013-08-22 (by Jonathan Brown, to tlhingan-hol, "[Tlhingan-hol]
+	{qoSta'} clarified")
+cite:	{wab qoSta' 'aplo'} ~cassette~ [TNK]
+cite:	{mIllogh qonwI' qoSta'} ~film~ [TNK]
+tag:	2011
+id:	kQi
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt; 2013-08-22-email.txt
+meta:	The meaning of this word is not explicitly given in canon, we only have
+	it as part of other noun-noun constructions.
+
 tlh:	[1] {qotlh}
 pos:	verb
 en:	<tickle>
@@ -17428,6 +17661,16 @@ tag:	1997
 data:	phrase; derived form
 id:	QuG
 file:	1997-11-01-kgt.txt
+
+tlh:	{qul naQ}
+pos:	noun
+en:	«match» (for lighting fire)
+sv:	«tändsticka»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	Viq
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{qul tuq}
 pos:	name
@@ -17800,6 +18043,16 @@ see:	{Qan} "protect"
 tag:	1997
 id:	5R1
 file:	1997-11-01-kgt.txt
+
+tlh:	{QaDmoHwI' DIr}
+pos:	noun
+en:	«towel»
+sv:	«handduk»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	ux5
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{Qagh} [1]
 pos:	verb
@@ -18459,6 +18712,24 @@ data:	phrase
 id:	hgh
 file:	1997-11-01-kgt.txt
 
+tlh:	{QIn 'echletHom}
+pos:	noun
+en:	«postcard»
+sv:	«vykort»
+def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
+cite:	I've just noticed something very peculiar about my copy of the Eurotalk
+	software while going through it again: {'echletHom} is only found in
+	the {pIqaD} version. The romanised text gives it as {ngeHmeH QIn nav}
+	~paper for sending a message~. [Email 2011-11-05 (by Rohan Fenwick, to
+	tlhingan-hol, "[Tlhingan-hol] EuroTalk word for 'postcard'")]
+see:	*{ngeHmeH QIn nav} ~postcard~
+tag:	2011
+data:	phrase
+id:	Nyr
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
+
 tlh:	{QIp}
 pos:	verb
 en:	be <stupid>
@@ -18971,6 +19242,16 @@ def:	TKD
 tag:	1985
 id:	ca8
 file:	1992-01-01-tkd.txt
+
+tlh:	{QujmeH moQ}
+pos:	noun
+en:	«ball»
+sv:	«boll»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	qrH
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{Qul}
 pos:	verb
@@ -19824,6 +20105,16 @@ tag:	1985; body part
 id:	W6e
 file:	1992-01-01-tkd.txt
 
+tlh:	{rol taj}
+pos:	noun
+en:	«razor»
+sv:	«rakhyvel»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	byJ
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
+
 tlh:	{rom}
 pos:	noun
 en:	<accord>
@@ -20412,6 +20703,16 @@ tag:	1985; KLCP1
 id:	mkC
 file:	1992-01-01-tkd.txt
 
+tlh:	{Say'moHwI' tlhagh}
+pos:	noun
+en:	«soap»
+sv:	«tvål»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	Qmi
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
+
 tlh:	{Say'qu'moH}
 pos:	verb
 en:	«sterilize»
@@ -20683,6 +20984,15 @@ tag:	1985
 id:	REF
 file:	1992-01-01-tkd.txt
 
+tlh:	{Se'tu'}
+pos:	noun
+en:	«saucepan»
+sv:	«kastrull»
+def:	TNK
+tag:	2011
+id:	rSG
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
+
 tlh:	{SIbDoH}
 pos:	noun
 en:	<satellite>
@@ -20854,6 +21164,16 @@ def:	TKD
 tag:	1985; KLCP1; landscape
 id:	Ce1
 file:	1992-01-01-tkd.txt
+
+tlh:	{SIS yoD}
+pos:	noun
+en:	«umbrella»
+sv:	«paraply»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	SR8
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{SIv}
 pos:	verb
@@ -21503,6 +21823,16 @@ def:	TKD
 tag:	1985; clothing
 id:	8Db
 file:	1992-01-01-tkd.txt
+
+tlh:	{Sut HabmoHwI'}
+pos:	noun
+en:	«iron»
+sv:	«strykjärn»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	vEo
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{Suto'vo'qor}
 pos:	noun
@@ -23440,12 +23770,12 @@ file:	2010-12-25-email.txt; 2010-12-22-email.txt
 
 tlh:	{tlhaq}
 pos:	noun
-en:	<chronometer>
-sv:	«kronometer»
+en:	<chronometer>, «clock»
+sv:	«kronometer», «klocka»
 def:	TKD
 tag:	1985; KLCP1; time
 id:	kKa
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{tlhaQ}
 pos:	verb
@@ -25247,9 +25577,33 @@ pos:	noun
 en:	«sound», «noise»
 sv:	«ljud», «oljud»
 def:	News 1999-02-02
+cite:	{'arlogh wab Qoylu'pu'?} ~How many times has someone heard the sound?
+	How many times has the sound been heard?~ [HQ8:1 p.11 ("Maltz Online")]
+cite:	{wab qoSta' 'aplo'} ~cassette~ [TNK]
+cite:	{wab HevwI'} ~radio~ [TNK]
 tag:	1999
 id:	BjW
 file:	1999-02-02-email.txt
+
+tlh:	{wab HevwI'}
+pos:	noun
+en:	«radio»
+sv:	«radio»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	BHu
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
+
+tlh:	{wab qoSta' 'aplo'}
+pos:	noun
+en:	«cassette», audio tape
+sv:	«kassett», «band»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	YZ3
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{wagh}
 pos:	verb
@@ -25969,6 +26323,16 @@ data:	derived form
 id:	rXC
 file:	1998-11-01-bop.txt
 
+tlh:	{wovmoHwI' moQ}
+pos:	noun
+en:	«light bulb»
+sv:	«glödlampa»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	gwa
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
+
 tlh:	{wo'}
 pos:	noun
 en:	<empire>
@@ -26035,6 +26399,16 @@ def:	TKD
 tag:	1985; body part
 id:	jM5
 file:	1992-01-01-tkd.txt
+
+tlh:	{wuS rItlh naQ}
+pos:	noun
+en:	«lipstick»
+sv:	«läppstift»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	R1R
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{wutlh}
 pos:	noun
@@ -26556,12 +26930,13 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{yIvbeH} [.1]
 pos:	noun
-en:	<tunic>
-sv:	«tunika», «uniformsjacka», «uniformsrock»
+en:	<tunic>, «shirt»
+sv:	«tunika», «tröja»
 def:	TKD
+ref:	TNK
 tag:	1985; clothing
 id:	zqn
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{yIvbeH} [.2]
 pos:	noun
@@ -26571,6 +26946,16 @@ def:	KGT
 tag:	1997; clothing
 id:	QFi
 file:	1997-11-01-kgt.txt
+
+tlh:	{yIvbeH SeQHa'}
+pos:	noun
+en:	«t-shirt»
+sv:	«t-tröja»
+def:	TNK
+tag:	2011; clothing
+data:	phrase
+id:	LFf
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{yob}
 pos:	verb
@@ -26684,6 +27069,16 @@ def:	TKD
 tag:	1985; clothing
 id:	X7S
 file:	1992-01-01-tkd.txt
+
+tlh:	{yopwaH bID}
+pos:	noun
+en:	«shorts»
+sv:	«shorts», «kortbyxor»
+def:	TNK
+tag:	2011; clothing
+data:	phrase
+id:	ACS
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{yopwaH buq}
 pos:	noun
@@ -27108,6 +27503,21 @@ ref:	TKW pp.59, 61, 203
 tag:	1985; KLCP1
 id:	svu
 file:	1992-01-01-tkd.txt
+
+tlh:	{'aplo'}
+pos:	noun
+en:	«case», «container», «box»
+sv:	«fodral», «ask», «behållare», «låda»
+def:	TNK
+ref:	Email 2013-08-22 (by Jonathan Brown, to tlhingan-hol, "[Tlhingan-hol]
+	{qoSta'} clarified")
+cite:	{wab qoSta' 'aplo'} ~cassette~ [TNK]
+cite:	{'ul 'aplo'mey} ~batteries~ [TNK]
+tag:	2011
+id:	BSv
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt; 2013-08-22-email.txt
+meta:	The meaning of this word is not explicitly given in canon, we only have
+	it as part of other noun-noun constructions.
 
 tlh:	{'aqleH}
 pos:	noun
@@ -28460,6 +28870,26 @@ tag:	2012; architecture
 data:	phrase
 id:	ZBj
 file:	2012-01-12-email.txt
+
+tlh:	{'ul Sech}
+pos:	noun
+en:	«flashlight»
+sv:	«ficklampa»
+def:	TNK
+tag:	2011
+data:	phrase
+id:	gm8
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
+
+tlh:	{'ul 'aplo'}
+pos:	noun
+en:	«battery»
+sv:	«batteri» (som lagrar ström)
+def:	TNK
+tag:	2011
+data:	phrase
+id:	vnw
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{'um}
 pos:	verb

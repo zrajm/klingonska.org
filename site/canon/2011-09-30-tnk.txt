@@ -175,8 +175,10 @@ Subject: [Tlhingan-hol] Eurotalk - New Words - Shopping
 
 [[Shopping. Complete transcript?]]
 
-postcard - {QIn 'echletHom} [[in {pIqaD} version]]
-postcard - {ngeHmeH QIn nav} [[in romanized version]]
+Shopping - {je'meH lengmey} [[category title]]
+
+postcard - {QIn 'echletHom}
+postcard - {ngeHmeH QIn nav} [[an error, later corrected]]
 sunglasses - {mIn QanwI' nguv}
 stamp - {HIjmeH chaw'}
 shirt - {yIvbeH}
@@ -190,7 +192,7 @@ soap - {Say'moHwI' tlhagh}
 shoes - {waqmey}
 t-shirt - {yIvbeH SeQHa'}
 shorts - {yopwaH bID}
-pencil - {ghojmoH ghItlhwI'}
+pencil - {ghojmeH ghItlhwI'}
 scissors - {cha''etlh pe'wI'}
 envelope - {nav qatwI'}
 socks - {paSlogh}
@@ -410,107 +412,6 @@ Twenty past four (4:20) a.m.        - {loSvatlh cha'maH rep}
 ================================================================================
 
 
-{wab qoSta' 'aplo'}
-cassette (audiotape), audiocassette
-
-{'ul 'aplo'mey}
-batteries
-
-{bIQ ghaywI' pa'}
-shower (room)
-
-{'ul 'aplo'mey}
-batteries
-
-
-paH             gown, dress (TNK) (n)
-
-N.B. {yIvbeH SeQHa'} "t-shirt" (TalkNow!).
-
-yopwaH bID
-shorts (pants)
-
-paH bID
-skirt
-
-{naDev jIQal vIneH - Qobbe''a' bIQ}
-Is it safe to swim here? (TNK)
-
-
-be' puchpa'
-ladies' toilet TNK
-
-loD puchpa'
-gents' toilet TNK
-
-
-tera' na'ran            orange (TNK)
-tera' na'ran wIb        lemon (TNK)
-tera' na'ran'a'         grapefruit (TNK)
-
-{tera' yav 'atlhqam}
-mushrooms
-
-mIn QanwI' nguv
-sunglasses (TNK)
-
-'ul Sech
-flashlight (TNK)
-
-wovmoHwI' moQ
-light bulb (TNK)
-
-
-QujmeH moQ            ball (TNK)
-
-
-lupwI'                jitney (CK), bus (TNK)
-
-lupwI' mIr            train (TNK)
-
-ra'wI' lupwI'         taxi (TNK)
-
-
-
-nuqDaq bIH leng buqmey'e'
-Where are the suitcases? TNK
-
-From TNK we see that {jengva'} - lit. "plate" - seems to be used for any type
-of disk: {De' jengva'} "CD, compact disc".
-
-
-DIr QanwI' taS
-suntan lotion (TNK)
-
-mIn QanwI'
-eyeglasses (TNK)
-
-mIn QanwI' nguv
-sunglasses TNK
-
-
-
-pItSa' chab     pizza (TNK)
-
-
-QIn 'echletHom   postcard TNK
-
-
-{leng buq} "suitcase" (TNK).
-
-
-
-wuS rItlh naQ
-lipstick  TNK (n)
-
-FYI we also have {lupwI'} "jitney, bus" (CK/TNK/KGT), {ra'wI' lupwI'} "taxi"
-(TNK) and {lupwI' mIr} "train" (TNK). Cf. the verb {lup} "transport".
-
-
-'amerI'qa' SepjIjQa'  United States of America (TNK)
-tuqjIjQa'                     United Kingdom (TNK)
-    
-
 Finally, for UK--You're right. I had forgotten about {wo' tay'}. I think,
 though, for the CD, we should stick with {tuqjIjQa'}. If someone should ask why
 there are two names for the same country, I'd say that (1) it's not impossible
@@ -518,47 +419,12 @@ for one country to be referred to (especially in a language/culture not of that
 country) by more than one name (Holland/Netherlands, for example), and (2) {wo'
 tay'} is an older name -- perhaps the Klingons who gave it that name were
 thinking of the British Empire.
-                
-maj choS
-Good evening. TNK
 
-{ghItlhwI'} "stylus", extended to "pen" in TNK.
-
-
-tlhagh patat 'oQqar naQHommey   fries (n) (TNK)
-
-Other types of {'oQqar} "root, tuber" include:
-
-'anyan 'oQqar   onion (TNK)
-qe'rot 'oQqar   carrot (TNK)
-gharlIq 'oQqar  garlic (TNK)
-
-
-
-leng chaw'wIj nIHlu'ta'
-Someone stole my passport. TNK
-    
-
-
-nuqDaq ghaH ngevwI''e'
-Where is the shop? TNK
+mIn QanwI'
+eyeglasses (TNK)
 
 nuqDaq ghaH Hergh ngevwI''e'
 Where is the chemist (i.e. druggist, pharmacist) TNK
-
-je'meH lengmey
-Shopping (TNK Category Title)
-
-nuqDaq chaw' vIje'
-Where can I buy a ticket? (TNK)
-
-Huch chaw'      credit card (TNK)
-
-
-HIjmeH chaw'            stamp (TNK)
-Huch chaw'              credit card (TNK)
-leng chaw'              passport (TNK)
-
 
 
 [[eof]]
