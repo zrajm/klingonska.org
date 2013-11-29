@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    6c61d96b621bffa0e079b399075f1f40eb10872a
+SHA1:    dc08568e98ec104ad41fe61e3b14c8eaadf99ded
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -1026,6 +1026,8 @@ pos:	noun
 en:	«bank»
 sv:	«bank»
 def:	TNK
+ref:	Email 2011-11-04 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - First Words")
 cite:	~Where is the bank?~ {nuqDaq 'oH beylI''e'?} [TNK]
 tag:	2011; economics
 id:	ctx
@@ -1230,6 +1232,42 @@ see:	{ghotI'}
 tag:	1997; animal; food
 id:	Lnn
 file:	1997-11-01-kgt.txt
+
+tlh:	{bIQ Duj}
+pos:	noun
+en:	«ship», «boat»
+sv:	«skepp», «båt»
+def:	TNK
+ref:	Email 2011-11-04 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - First Words")
+tag:	2011
+data:	phrase
+id:	vqX
+file:	2011-09-30-tnk.txt; 2011-11-04-email.txt
+
+tlh:	{bIQ ghaywI'}
+pos:	noun
+en:	«shower»
+sv:	«dush»
+def:	TNK
+ref:	Email 2011-11-04 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - First Words")
+tag:	2011
+data:	phrase
+id:	iBf
+file:	2011-09-30-tnk.txt; 2011-11-04-email.txt
+
+tlh:	{bIQ ghaywI' pa'}
+pos:	noun
+en:	«shower» room
+sv:	«dush»rum
+def:	TNK
+ref:	Email 2011-11-04 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - First Words")
+tag:	2011
+data:	phrase
+id:	Ae2
+file:	2011-09-30-tnk.txt; 2011-11-04-email.txt
 
 tlh:	{bIQSIp}
 pos:	noun
@@ -2369,6 +2407,8 @@ pos:	noun
 en:	«scissors»
 sv:	«sax»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	EqW
@@ -3874,6 +3914,8 @@ pos:	noun
 en:	«newspaper»
 sv:	«dagstidning», «nyhetstidning»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	D8h
@@ -3884,6 +3926,8 @@ pos:	noun
 en:	«compact disk», «CD»
 sv:	«CD»-skiva
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	oaY
@@ -4026,6 +4070,8 @@ pos:	noun
 en:	«suntan lotion»
 sv:	«sololja»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	C8a
@@ -4515,9 +4561,14 @@ en:	<ship>, <vessel>
 sv:	«skepp», «farkost»
 def:	TKD
 ref:	TKW pp.27, 63, 74, 182
+cite:	{chach Duj} ~ambulance~ [TNK]
+cite:	{qam Do Duj} ~bicycle~ [TNK]
+cite:	{puH Duj} ~car~ [TNK]
+cite:	{muD Duj} ~airplane~ [TNK]
+cite:	{bIQ Duj} ~ship~ [TNK]
 tag:	1985; KLCP1
 id:	ny8
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
 
 tlh:	{Duj ngaDHa'}
 pos:	noun
@@ -5414,11 +5465,30 @@ pos:	noun
 en:	«stylus», «writing implement», «pen», «person who writes»
 sv:	«stylus», «skriftverktyg», «penna», «person som skriver»
 def:	KGT p.79
-ref:	TNK
+ref:	TNK; Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	1997
 data:	derived form
 id:	LQc
 file:	1997-11-01-kgt.txt; 2011-09-30-tnk.txt; 2011-11-02-email.txt
+
+tlh:	{ghI'boj Sech}
+pos:	noun
+en:	Torch of «G'boj»
+sv:	«G'boj»s fackla
+def:	KGT p.130
+cite:	{wov; ghI'boj Sech rur} (~bright as the Torch of G'boj~) [KGT p.130]
+cite:	Finally, the Torch of G'boj is one of the most revered historical
+	objects in the Empire, though exactly why is seldom revealed to
+	outsiders. [KGT p.130]
+com:	The Torch of G'boj is a highly esteemed icon from Klingon history that
+	is as nearly revered as such legendary items as the Sword of Kahless,
+	Sabak's armor, and the Emperor's Crown. (DS9: "The Sword of Kahless")
+	(From: Star Trek: Memory Alpha)
+tag:	1997
+data:	phrase
+id:	cT3
+file:	1997-11-01-kgt.txt
 
 tlh:	{gho} [.1]
 pos:	noun
@@ -5536,8 +5606,7 @@ sv:	«telefon»
 def:	HQ5:2 p.20 ("{chuvmey}")
 ref:	TNK; Email 2011-10-30 (by Felix Malmenbeck, to tlhingan-hol,
 	"[Tlhingan-hol] EuroTalk - New info - Phrases")
-cite:	{ghogh HablI'lIj vIlo' vIneH} ~May I use your phone?~ [TNK]
-cite:	{ghogh HablI' mI' yIper} ~What is the telephone number?~ [TNK]
+cite:	{ghogh HablI' mI' yIper!} ~What is the telephone number?~ [TNK]
 tag:	1996
 data:	phrase; derived form
 id:	zp9
@@ -5566,6 +5635,8 @@ pos:	noun
 en:	«pencil»
 sv:	«blyertspenna»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	na5
@@ -6224,6 +6295,8 @@ pos:	noun
 en:	«television»
 sv:	«teve»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	knF
@@ -7225,6 +7298,8 @@ pos:	noun
 en:	«toothpaste»
 sv:	«tandkräm»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	HcU
@@ -7235,6 +7310,8 @@ pos:	noun
 en:	«toothbrush»
 sv:	«tandborste»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	eSL
@@ -7305,6 +7382,18 @@ ref:	TKW p.189
 tag:	1985; economics
 id:	AcC
 file:	1992-01-01-tkd.txt
+
+tlh:	{Huch chaw'}
+pos:	noun
+en:	«credit card»
+sv:	«kreditkort»
+def:	TNK
+ref:	Email 2011-11-04 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - First Words")
+tag:	2011
+data:	phrase
+id:	CWb
+file:	2011-09-30-tnk.txt; 2011-11-04-email.txt
 
 tlh:	{HuchQeD}
 pos:	noun
@@ -8300,6 +8389,8 @@ pos:	noun
 en:	«comb»
 sv:	«kam»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	ooJ
@@ -8310,6 +8401,8 @@ pos:	noun
 en:	«hairbrush»
 sv:	«hårborste»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	8sx
@@ -8841,6 +8934,18 @@ tag:	1985; KLCP1
 id:	byb
 file:	1992-01-01-tkd.txt
 
+tlh:	{juH qach}
+pos:	noun
+en:	«house»
+sv:	«hus»
+def:	TNK
+ref:	Email 2011-11-04 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - First Words")
+tag:	2011
+data:	phrase
+id:	6CH
+file:	2011-09-30-tnk.txt; 2011-11-04-email.txt
+
 tlh:	{juHqo'}
 pos:	noun
 en:	<home world>
@@ -9272,6 +9377,18 @@ def:	TKD
 tag:	1985
 id:	C2V
 file:	1992-01-01-tkd.txt
+
+tlh:	{leng buq}
+pos:	noun
+en:	«suitcase»
+sv:	«resväska»
+def:	TNK
+ref:	Email 2011-11-04 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - First Words")
+tag:	2011
+data:	phrase
+id:	ZvC
+file:	2011-09-30-tnk.txt; 2011-11-04-email.txt
 
 tlh:	{leng chaw'}
 pos:	noun
@@ -10305,6 +10422,7 @@ en:	<shuttlecraft>
 sv:	«skyttel» (farkost)
 def:	TKDa
 tag:	1992
+data:	derived form
 id:	ecR
 file:	1992-01-01-tkd.txt
 
@@ -10312,10 +10430,12 @@ tlh:	{lupwI'}
 pos:	noun
 en:	<jitney>, <bus>
 sv:	«buss»
-def:	KGT
-tag:	1997
+def:	CK
+ref:	KGT
+cite:	{ghobe'. lupwI' DalIghnIS.} ~No. You must ride the jitney.~ [CK]
+tag:	1992
 id:	tSq
-file:	1997-11-01-kgt.txt
+file:	1992-10-01-ck.txt; 1997-11-01-kgt.txt
 
 tlh:	{lupwI' mIr}
 pos:	noun
@@ -11191,6 +11311,8 @@ pos:	noun
 en:	«film»
 sv:	«film»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	7q3
@@ -11210,6 +11332,8 @@ pos:	noun
 en:	«teddy bear»
 sv:	«nalle»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	H3F
@@ -11351,6 +11475,8 @@ pos:	noun
 en:	<helmet>, «hat»
 sv:	«hjälm», «hatt»
 def:	TKD
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	1985; clothing
 id:	ZDP
 file:	1992-01-01-tkd.txt; 2011-09-30-tnk.txt; 2011-11-02-email.txt
@@ -11628,6 +11754,8 @@ pos:	noun
 en:	«tie»
 sv:	«slips»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011; clothing
 data:	phrase
 id:	rFd
@@ -11836,6 +11964,18 @@ tag:	1997
 data:	phrase
 id:	t3d
 file:	1997-11-01-kgt.txt
+
+tlh:	{muD Duj}
+pos:	noun
+en:	«airplane»
+sv:	«flygplan»
+def:	TNK
+ref:	Email 2011-11-04 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - First Words")
+tag:	2011
+data:	phrase
+id:	B42
+file:	2011-09-30-tnk.txt; 2011-11-04-email.txt
 
 tlh:	{mugh}
 pos:	verb
@@ -12572,6 +12712,8 @@ pos:	noun
 en:	«envelope»
 sv:	«kuvert»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	n7y
@@ -13584,6 +13726,18 @@ tag:	1985; KLCP1
 id:	Mpn
 file:	1992-01-01-tkd.txt
 
+tlh:	{nuch Hergh}
+pos:	noun
+en:	«aspirin»
+sv:	«aspirin», «magnecyl», «treo»
+def:	TNK
+ref:	Email 2011-11-04 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - First Words")
+tag:	2011
+data:	phrase
+id:	5XU
+file:	2011-09-30-tnk.txt; 2011-11-04-email.txt
+
 tlh:	{nuD}
 pos:	verb
 en:	<examine>
@@ -13943,6 +14097,18 @@ ref:	TKW p.186
 tag:	1997
 id:	cLa
 file:	1997-11-01-kgt.txt
+
+tlh:	{ngaQHa'moHwI'}
+pos:	noun
+en:	«key»
+sv:	«nyckel»
+def:	TNK
+ref:	Email 2011-11-04 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - First Words")
+tag:	2011
+data:	derived form
+id:	kA4
+file:	2011-09-30-tnk.txt; 2011-11-04-email.txt
 
 tlh:	{ngaS}
 pos:	verb
@@ -14668,7 +14834,8 @@ pos:	noun
 en:	<gown>, «dress»
 sv:	«dräkt», «klänning»
 def:	TKD
-ref:	TNK
+ref:	TNK; Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	1985; clothing
 id:	iH3
 file:	1992-01-01-tkd.txt; 2011-09-30-tnk.txt; 2011-11-02-email.txt
@@ -14678,6 +14845,8 @@ pos:	noun
 en:	«skirt»
 sv:	«kjol»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011; clothing
 data:	phrase
 id:	PES
@@ -15840,12 +16009,16 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{puchpa'}
 pos:	noun
-en:	<washroom>
-sv:	«badrum»
+en:	<washroom>, «toilet», «bathroom»
+sv:	«badrum», «toalett»
 def:	TKD
+ref:	TNK; Email 2011-11-04 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - First Words")
+cite:	{be' puchpa'} ~ladies' toilet~ [TNK]
+cite:	{loD puchpa'} ~gents' toilet~ [TNK]
 tag:	1985
 id:	YsR
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 2011-09-30-tnk.txt
 
 tlh:	{pugh}
 pos:	noun
@@ -16362,6 +16535,18 @@ ref:	TKW p.200
 tag:	1985; KLCP1
 id:	6zV
 file:	1992-01-01-tkd.txt
+
+tlh:	{qam Do Duj}
+pos:	noun
+en:	«bicycle»
+sv:	«cykel»
+def:	TNK
+ref:	Email 2011-11-04 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - First Words")
+tag:	2011
+data:	phrase
+id:	LKo
+file:	2011-09-30-tnk.txt; 2011-11-04-email.txt
 
 tlh:	{qamor}
 pos:	name
@@ -17486,8 +17671,9 @@ pos:	noun
 en:	«strip», «ribbon», «tape» (non-sticky)
 sv:	«band», «remsa»
 def:	TNK
-ref:	Email 2013-08-22 (by Jonathan Brown, to tlhingan-hol, "[Tlhingan-hol]
-	{qoSta'} clarified")
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping"); Email 2013-08-22 (by
+	Jonathan Brown, to tlhingan-hol, "[Tlhingan-hol] {qoSta'} clarified")
 cite:	{wab qoSta' 'aplo'} ~cassette~ [TNK]
 cite:	{mIllogh qonwI' qoSta'} ~film~ [TNK]
 tag:	2011
@@ -17667,6 +17853,8 @@ pos:	noun
 en:	«match» (for lighting fire)
 sv:	«tändsticka»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	Viq
@@ -18049,6 +18237,8 @@ pos:	noun
 en:	«towel»
 sv:	«handduk»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	ux5
@@ -19248,6 +19438,8 @@ pos:	noun
 en:	«ball»
 sv:	«boll»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	qrH
@@ -20110,6 +20302,8 @@ pos:	noun
 en:	«razor»
 sv:	«rakhyvel»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	byJ
@@ -20191,6 +20385,18 @@ def:	TKD
 tag:	1985
 id:	JQ5
 file:	1992-01-01-tkd.txt
+
+tlh:	{ropyaH qach}
+pos:	noun
+en:	«hospital»
+sv:	«sjukhus»
+def:	TNK
+ref:	Email 2011-11-04 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - First Words")
+tag:	2011
+data:	phrase
+id:	UMf
+file:	2011-09-30-tnk.txt; 2011-11-04-email.txt
 
 tlh:	{roQ}
 pos:	verb
@@ -20708,6 +20914,8 @@ pos:	noun
 en:	«soap»
 sv:	«tvål»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	Qmi
@@ -20989,6 +21197,8 @@ pos:	noun
 en:	«saucepan»
 sv:	«kastrull»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 id:	rSG
 file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
@@ -21170,6 +21380,8 @@ pos:	noun
 en:	«umbrella»
 sv:	«paraply»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	SR8
@@ -21829,6 +22041,8 @@ pos:	noun
 en:	«iron»
 sv:	«strykjärn»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	vEo
@@ -23773,6 +23987,8 @@ pos:	noun
 en:	<chronometer>, «clock»
 sv:	«kronometer», «klocka»
 def:	TKD
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	1985; KLCP1; time
 id:	kKa
 file:	1992-01-01-tkd.txt; 2011-09-30-tnk.txt; 2011-11-02-email.txt
@@ -25590,6 +25806,8 @@ pos:	noun
 en:	«radio»
 sv:	«radio»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	BHu
@@ -25600,6 +25818,8 @@ pos:	noun
 en:	«cassette», audio tape
 sv:	«kassett», «band»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	YZ3
@@ -26328,6 +26548,8 @@ pos:	noun
 en:	«light bulb»
 sv:	«glödlampa»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	gwa
@@ -26405,6 +26627,8 @@ pos:	noun
 en:	«lipstick»
 sv:	«läppstift»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	R1R
@@ -26933,7 +27157,8 @@ pos:	noun
 en:	<tunic>, «shirt»
 sv:	«tunika», «tröja»
 def:	TKD
-ref:	TNK
+ref:	TNK; Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	1985; clothing
 id:	zqn
 file:	1992-01-01-tkd.txt; 2011-09-30-tnk.txt; 2011-11-02-email.txt
@@ -26952,6 +27177,8 @@ pos:	noun
 en:	«t-shirt»
 sv:	«t-tröja»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011; clothing
 data:	phrase
 id:	LFf
@@ -27075,6 +27302,8 @@ pos:	noun
 en:	«shorts»
 sv:	«shorts», «kortbyxor»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011; clothing
 data:	phrase
 id:	ACS
@@ -27509,8 +27738,9 @@ pos:	noun
 en:	«case», «container», «box»
 sv:	«fodral», «ask», «behållare», «låda»
 def:	TNK
-ref:	Email 2013-08-22 (by Jonathan Brown, to tlhingan-hol, "[Tlhingan-hol]
-	{qoSta'} clarified")
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping"); Email 2013-08-22 (by
+	Jonathan Brown, to tlhingan-hol, "[Tlhingan-hol] {qoSta'} clarified")
 cite:	{wab qoSta' 'aplo'} ~cassette~ [TNK]
 cite:	{'ul 'aplo'mey} ~batteries~ [TNK]
 tag:	2011
@@ -27737,6 +27967,21 @@ def:	TKDa
 tag:	1992
 id:	L1P
 file:	1992-01-01-tkd.txt
+
+tlh:	{'echletHom}
+pos:	noun
+en:	«card»
+sv:	«kort»
+def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping"); Email 2012-03-02 (by
+	David Yeung, to tlhingan-hol, "[Tlhingan-hol] sentences from Klingon
+	Monopoly (was: Klingon Word of the Day: {rop})")
+cite:	{QIn 'echletHom} ~postcard~ [TNK]
+tag:	2011
+data:	derived form
+id:	FYm
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
 
 tlh:	{'eDjen}
 pos:	noun
@@ -28876,6 +29121,8 @@ pos:	noun
 en:	«flashlight»
 sv:	«ficklampa»
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	gm8
@@ -28886,6 +29133,8 @@ pos:	noun
 en:	«battery»
 sv:	«batteri» (som lagrar ström)
 def:	TNK
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping")
 tag:	2011
 data:	phrase
 id:	vnw
