@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    fc4402379b10ca9fb17f240a912096b5777815cf
+SHA1:    ac24563c288fcc6cee87d5ce385eb7241744c132
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -343,6 +343,7 @@ once in the same entry).
     + `architecture`
     + `body part`
     + `clothing`
+    + `color`
     + `country`
     + `family`
     + `fighting`
@@ -941,9 +942,11 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{beqpuj}
 pos:	noun
-en:	type of <mineral>, <~bekpuj~> (orange in color)
-sv:	en slags «mineral», «~bekpuj~» (orange till färgen)
+en:	type of <mineral>, <~bekpuj~> (bright orange in color)
+sv:	en slags «mineral», «~bekpuj~» (starkt orange till färgen)
 def:	KGT
+cite:	{Doq 'ej beqpuj rur} means ~(it) is {Doq} and resembles bekpuj~, a
+	common mineral that is bright orange. [KGT p.82]
 tag:	1997
 id:	ufG
 file:	1997-11-01-kgt.txt
@@ -2702,7 +2705,7 @@ pos:	verb
 en:	be <white>
 sv:	vara «vit»
 def:	TKD
-tag:	1985; KLCP1
+tag:	1985; color; KLCP1
 id:	NYa
 file:	1992-01-01-tkd.txt
 
@@ -3912,7 +3915,7 @@ pos:	verb
 en:	use a pigment stick, <paint> with pigment stick
 sv:	använda en pigmentpinne, «måla» med pigmentpinne
 def:	KGT
-tag:	1997
+tag:	1997; color
 id:	mzZ
 file:	1997-11-01-kgt.txt
 
@@ -4179,18 +4182,65 @@ sv:	vara «orange», vara «röd»
 def:	TKD
 ref:	KGT p.82; News 1998-02-21 (by Marc Okrand, to startrek.klingon, "Re:
 	color (for Okrand)"); HQ8:1 p.8 ("Maltz Online"); TNK
-cite:	{Doqqu'} ~a color more red than orange~ [KGT p.82]
-cite:	{Doq 'ej beqpuj rur} ~bright orange~ [KGT p.82]
-cite:	{Doq 'ej wovbe'} ~brown~ [HQ8:1 p.7 ("Maltz Online"); TNK]
-cite:	{Doq 'ej Qaj wuS rur} ~be orange, red and resemble kradge lips~ [HQ8:1
+cite:	The word {Doqqu'} (literally, ~very {Doq}~) refers to a color more red
+	than orange. [KGT p.82]
+cite:	{Doq 'ej beqpuj rur} means ~(it) is {Doq} and resembles bekpuj~, a
+	common mineral that is bright orange. [KGT p.82]
+cite:	{Doq 'ej wovbe'} ~be orange, red and not be bright~ [i.e. ~brown~]
+	[HQ8:1 p.7 ("Maltz Online")]
+cite:	{Doq 'ej Qaj wuS rur} ~be orange, red and resemble kradge lips~ -- The
+	lips of the kradge are presumably a particular shade of brown. [HQ8:1
 	p.7 ("Maltz Online")]
+cite:	{Doq 'ej wovbe'} ~brown~ [TNK]
 cite:	{Doq 'ej SuD} ~purple~ [TNK]
 cite:	{Doqqu' 'ej wov} ~pink~ [TNK]
-tag:	1985; KLCP1
+tag:	1985; color; KLCP1
 id:	sva
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt; 1999-03-holqed-08-1.txt;
 	2011-09-30-tnk.txt; 2011-11-01-email.txt
 meta:	Entries differ and have been combined here.
+
+tlh:	{Doqqu' 'ej wov}
+pos:	verb
+en:	be «pink»
+sv:	vara «rosa»
+def:	TNK
+com:	Since this is a phrase (and not a single verb) it can't be used
+	adjectivally (without modifying it).
+tag:	2011; color
+data:	phrase
+id:	C7J
+file:	2011-09-30-tnk.txt
+
+tlh:	{Doq 'ej SuD}
+pos:	verb
+en:	be «purple»
+sv:	vara «lila»
+def:	TNK
+com:	Since this is a phrase (and not a single verb) it can't be used
+	adjectivally (without modifying it).
+tag:	2011; color
+data:	phrase
+id:	iDs
+file:	2011-09-30-tnk.txt
+
+tlh:	{Doq 'ej wovbe'}
+pos:	verb
+en:	be «brown»
+sv:	vara «brun»
+def:	HQ8:1 p.7 ("Maltz Online")
+cite:	{Doq 'ej wovbe'} ~be orange, red and not be bright~ [i.e. ~brown~]
+	[HQ8:1 p.7 ("Maltz Online")]
+cite:	{Doq 'ej Qaj wuS rur} ~be orange, red and resemble kradge lips~ -- The
+	lips of the kradge are presumably a particular shade of brown. [HQ8:1
+	p.7 ("Maltz Online")]
+cite:	{Doq 'ej wovbe'} ~brown~ [TNK]
+com:	Since this is a phrase (and not a single verb) it can't be used
+	adjectivally (without modifying it).
+tag:	1999; color
+data:	phrase
+id:	CuL
+file:	1999-03-holqed-08-1.txt
 
 tlh:	{DoQ}
 pos:	verb
@@ -7305,7 +7355,7 @@ pos:	verb
 en:	be <dark>
 sv:	vara «mörk»
 def:	TKD
-tag:	1985
+tag:	1985; color
 id:	WEC
 file:	1992-01-01-tkd.txt
 
@@ -10988,7 +11038,7 @@ cite:	Finally, someone last year asked for the word for "picture." At first,
 	2010-11-30 (by Lieven L. Litaer,
 	https://www.facebook.com/groups/tlhInganHol/permalink/179265855423015/,
 	"tlhIngan Hol jatlhwI'pu'")]
-tag:	2010
+tag:	2010; color
 id:	4E2
 file:	2010-12-05-email.txt; 2010-12-25-email.txt
 
@@ -12029,7 +12079,7 @@ pos:	noun
 en:	<stone <panel>> (artwork, similar to a painting)
 sv:	«sten«panel»» (konstverk, liknande en målning)
 def:	KGT
-tag:	1997
+tag:	1997; color
 data:	phrase
 id:	n6H
 file:	1997-11-01-kgt.txt
@@ -12942,7 +12992,7 @@ pos:	noun
 en:	<pigment «stick»> [slang]
 sv:	«pigment«pinne»» [slang]
 def:	KGT
-tag:	1997
+tag:	1997; color
 data:	phrase
 id:	BBy
 file:	1997-11-01-kgt.txt
@@ -12961,7 +13011,7 @@ pos:	noun
 en:	flat <end of pigment stick>
 sv:	platt «ände på pigmentpinne»
 def:	KGT
-tag:	1997
+tag:	1997; color
 id:	Nia
 file:	1997-11-01-kgt.txt
 
@@ -14072,7 +14122,7 @@ pos:	verb
 en:	<paint> using fingers
 sv:	«måla» med fingrarna
 def:	KGT
-tag:	1997
+tag:	1997; color
 id:	gnA
 file:	1997-11-01-kgt.txt
 
@@ -14278,7 +14328,7 @@ pos:	verb
 en:	be <dyed>, be <stained>, be <tinted>
 sv:	vara «färgad», vara «fläckad», vara «tonad»
 def:	KGT
-tag:	1997
+tag:	1997; color
 id:	6Db
 file:	1997-11-01-kgt.txt
 
@@ -14287,7 +14337,7 @@ pos:	verb
 en:	<dye>, <stain>, <tint>
 sv:	«färga», «fläcka», «tona»
 def:	KGT
-tag:	1997
+tag:	1997; color
 data:	derived form
 id:	yUA
 file:	1997-11-01-kgt.txt
@@ -16836,9 +16886,21 @@ pos:	verb
 en:	be <black>
 sv:	vara «svart»
 def:	TKD
-tag:	1985; KLCP1
+tag:	1985; color; KLCP1
 id:	9Ti
 file:	1992-01-01-tkd.txt
+
+tlh:	{qIj 'ej wov}
+pos:	verb
+en:	be «gray»
+sv:	vara «grå»
+def:	TNK
+com:	Since this is a phrase (and not a single verb) it can't be used
+	adjectivally (without modifying it).
+tag:	2011; color
+data:	phrase
+id:	mXR
+file:	2011-09-30-tnk.txt
 
 tlh:	{qIl}
 pos:	verb
@@ -18782,7 +18844,7 @@ file:	1992-01-01-tkd.txt
 tlh:	{Qo'noS}
 pos:	noun
 en:	<Kronos> (the Klingon «home world»)
-sv:	«Kronos» (den Klingonska «hemvärld»en)
+sv:	«Kronos» (den klingonska «hemvärld»en)
 def:	TKDa
 tag:	1992
 id:	jpD
@@ -19580,7 +19642,7 @@ pos:	noun
 en:	<pigment>, <paint>, <dye>
 sv:	«pigment», «färg»
 def:	KGT
-tag:	1997
+tag:	1997; color
 id:	SRz
 file:	1997-11-01-kgt.txt
 
@@ -19589,7 +19651,7 @@ pos:	noun
 en:	<pigment «stick»>
 sv:	«pigment«pinne»»
 def:	KGT
-tag:	1997
+tag:	1997; color
 data:	phrase
 id:	bSW
 file:	1997-11-01-kgt.txt
@@ -21208,12 +21270,21 @@ sv:	vara «grön», vara «blå», vara «gul»
 def:	TKD
 ref:	KGT p.82; News 1998-02-21 (by Marc Okrand, to startrek.klingon, "Re:
 	color (for Okrand)"); HQ8:1 p.8 ("Maltz Online"); TNK
-cite:	{SuDqu'} would probably be described as ~green~ [KGT p.82]
+cite:	{SuDqu'} (~very {SuD}~) would probably be described as ~green~ in
+	Federation Standard. [KGT p.82]
+cite:	{SuD 'ej wov} means ~(it) is {SuD} and light,~ a way to refer to a
+	yellowish tinge; {SuD 'ach wov} (~{SuD} <but> light~) is also heard.
+	[KGT p.82]
+cite:	{SuD 'ej wov} ~light blue~ [TNK]
 cite:	{Doq 'ej SuD} ~purple~ [TNK]
 cite:	{SuD 'ej Hurgh} ~dark blue~ [TNK]
-cite:	{SuD 'ej wov} or {SuD 'ach wov} ~a way to refer to a yellowish tinge~
-	[KGT] or ~light blue~ [TNK]
-tag:	1985; KLCP1
+com:	{SuD} can indicate quite a range of colors, and this (apparently) also
+	goes for some of the more complex expressions to refer to specific
+	colors, e.g. {SuD 'ej wov} (or {SuD 'ach wov}) could refer to either a
+	~light blue~ or a ~yellowish tinge~ (different sources give different
+	translations -- see below examples -- all which plausibly falls within
+	the meaning of the Klingon word).
+tag:	1985; color; KLCP1
 id:	1tv
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt; 1999-03-holqed-08-1.txt;
 	2011-11-01-email.txt
@@ -22108,7 +22179,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{tera' na'ran}
 pos:	noun
-en:	«orange»
+en:	«orange» (fruit)
 sv:	«apelsin»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
@@ -25839,7 +25910,7 @@ pos:	verb
 en:	be <light>, be <bright>
 sv:	vara «ljus»
 def:	TKD
-tag:	1985; KLCP1
+tag:	1985; color; KLCP1
 id:	T4g
 file:	1992-01-01-tkd.txt
 

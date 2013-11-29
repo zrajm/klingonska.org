@@ -844,9 +844,9 @@ sub check_see {
     my %allowed = map {
         (my $_ = $_) =~ s/_/ /g;
         $_ => 1;
-    } qw(animal architecture body_part clothing country family fighting KLCP1
-         landscape math measure money music placement quantity religion shape
-         time);
+    } qw(animal architecture body_part clothing color country family fighting
+         KLCP1 landscape math measure money music placement quantity religion
+         shape time);
     sub check_tag {
         my ($entry, $field, $_) = @_;
         return "Duplicate" if @{ $entry->{$field} } > 1;
@@ -854,8 +854,8 @@ sub check_see {
         my $file = (sort split /;\s/, $entry->{file}[0])[0];
         if (my ($year) = $file =~ /^(\d{4})/) {
             $year = 1985 if $entry->{def}[0] =~ /\bTKD\b/;
-            push @warn, "First tag must be year (not '$tag[0]') in"
-                unless $year eq $tag[0];
+            push @warn, "First tag should be year '$year' (not '$tag[0]') in"
+                if $year ne $tag[0];
         }
         foreach (@tag[1..$#tag]) {
             push @warn, "Unknown tag '$_' in"
