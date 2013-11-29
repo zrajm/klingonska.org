@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    ac24563c288fcc6cee87d5ce385eb7241744c132
+SHA1:    4204c280ed6e914cefad361bdefea01920b997d4
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -345,6 +345,7 @@ once in the same entry).
     + `clothing`
     + `color`
     + `country`
+    + `economics`
     + `family`
     + `fighting`
     + `KLCP1` = The 502 basic words which one needs to know in order to pass
@@ -352,7 +353,6 @@ once in the same entry).
     + `landscape`
     + `math`
     + `measure`
-    + `money`
     + `music`
     + `placement`
     + `quantity`
@@ -1026,7 +1026,7 @@ en:	«bank»
 sv:	«bank»
 def:	TNK
 cite:	~Where is the bank?~ {nuqDaq 'oH beylI''e'?} [TNK]
-tag:	2011
+tag:	2011; economics
 id:	ctx
 file:	2011-09-30-tnk.txt; 2011-11-04-email.txt
 
@@ -3482,7 +3482,7 @@ pos:	noun
 en:	<~darsek~> (<unit> of <currency>)
 sv:	«~darsek~» («valuta«enhet»»)
 def:	KGT
-tag:	1997; measure; money
+tag:	1997; economics; measure
 id:	MWJ
 file:	1997-11-01-kgt.txt
 meta:	In KGT as "~darsek,~ unit of currency (n)", here changed slightly to
@@ -3780,7 +3780,7 @@ pos:	noun
 en:	<credit> («unit» of «currency»)
 sv:	«kredit» («valuta«enhet»»)
 def:	TKD
-tag:	1985; measure; money
+tag:	1985; economics; measure
 id:	49z
 file:	1992-01-01-tkd.txt
 meta:	In TKD as "credit (monetary unit)", but "monetary unit" was here
@@ -3924,7 +3924,7 @@ pos:	verb
 en:	<pay> for
 sv:	«betala» för
 def:	TKD
-tag:	1985; KLCP1; money
+tag:	1985; economics; KLCP1
 id:	YVb
 file:	1992-01-01-tkd.txt
 
@@ -4831,7 +4831,7 @@ ref:	{qep'a'} 2010; Email 2010-07-26 (by Chris Lipscombe, to tlhingan-hol,
 	"Re: mu' chu'")
 com:	Second translation, "support (financially)", was given by Marc Okrand
 	at {qep'a'} 2010.
-tag:	1985; money
+tag:	1985; economics
 id:	4iR
 file:	1992-01-01-tkd.txt; 2010-07-26-email.txt
 
@@ -6605,7 +6605,7 @@ pos:	noun
 en:	<uniform>
 sv:	«uniform»
 def:	TKD
-tag:	1985
+tag:	1985; clothing
 id:	3a4
 file:	1992-01-01-tkd.txt
 
@@ -7191,7 +7191,7 @@ en:	<money>
 sv:	«pengar»
 def:	TKD
 ref:	TKW p.189
-tag:	1985; money
+tag:	1985; economics
 id:	AcC
 file:	1992-01-01-tkd.txt
 
@@ -7200,7 +7200,7 @@ pos:	noun
 en:	«economics»
 sv:	«ekonomi»
 def:	KGT p.148
-tag:	1997
+tag:	1997; economics
 id:	Edj
 file:	1997-11-01-kgt.txt
 
@@ -7934,7 +7934,7 @@ pos:	verb
 en:	<disguise>
 sv:	«förkläda», «klä ut»
 def:	TKD
-tag:	1985
+tag:	1985; clothing
 id:	Wbd
 file:	1992-01-01-tkd.txt
 
@@ -7943,7 +7943,7 @@ pos:	noun
 en:	<disguise>, <costume>
 sv:	«förklädnad», «dräkt»
 def:	TKDa
-tag:	1992
+tag:	1992; clothing
 id:	Jt3
 file:	1992-01-01-tkd.txt
 
@@ -8156,7 +8156,7 @@ en:	<buy>, <purchase>
 sv:	«köpa», «handla»
 def:	TKD
 ref:	TKW pp.7, 213
-tag:	1985; KLCP1; money
+tag:	1985; economics; KLCP1
 id:	8sF
 file:	1992-01-01-tkd.txt
 
@@ -10405,7 +10405,7 @@ pos:	noun
 en:	<business>
 sv:	«affär», «ärende», «syssla», «göromål», «angelägenhet»
 def:	TKD
-tag:	1985; money
+tag:	1985; economics
 id:	6Lk
 file:	1992-01-01-tkd.txt
 
@@ -10737,7 +10737,7 @@ pos:	verb
 en:	<trade>
 sv:	«handla», idka handel
 def:	TKD
-tag:	1985
+tag:	1985; economics
 id:	WxR
 file:	1992-01-01-tkd.txt
 
@@ -12463,6 +12463,7 @@ pos:	noun
 en:	type of <fruit>
 sv:	en slags «frukt»
 def:	KGT
+pun:	Spanish "naranja" ~orange~.
 tag:	1997
 id:	rEw
 file:	1997-11-01-kgt.txt
@@ -13080,7 +13081,7 @@ pos:	verb
 en:	<give>
 sv:	«ge»
 def:	TKD
-tag:	1985; KLCP1; money
+tag:	1985; economics; KLCP1
 id:	Pch
 file:	1992-01-01-tkd.txt
 
@@ -13090,7 +13091,7 @@ en:	<gift>
 sv:	«gåva»
 def:	TKD
 ref:	TKW p.189
-tag:	1985; KLCP1; money
+tag:	1985; economics; KLCP1
 id:	kZv
 file:	1992-01-01-tkd.txt
 
@@ -13100,7 +13101,7 @@ en:	<give back>, <return>
 sv:	«ge» tillbaka, «lämna» tillbaka
 def:	KGT
 ref:	TKW p.189
-tag:	1997; money
+tag:	1997; economics
 data:	derived form
 id:	TE8
 file:	1997-11-01-kgt.txt
@@ -13166,7 +13167,7 @@ pos:	verb
 en:	<lend>
 sv:	«låna»
 def:	TKD
-tag:	1985
+tag:	1985; economics
 id:	i6b
 file:	1992-01-01-tkd.txt
 
@@ -13941,7 +13942,7 @@ en:	<sell>
 sv:	«sälja»
 def:	TKD
 ref:	TKW p.190
-tag:	1985; KLCP1; money
+tag:	1985; economics; KLCP1
 id:	5sr
 file:	1992-01-01-tkd.txt
 
@@ -14008,7 +14009,7 @@ pos:	verb
 en:	<borrow>
 sv:	«låna»
 def:	TKD
-tag:	1985; KLCP1
+tag:	1985; economics; KLCP1
 id:	9hX
 file:	1992-01-01-tkd.txt
 
@@ -15429,7 +15430,7 @@ com:	"Neither {quv} nor {batlh} [is] the same as {pop}, usually translated
 	<reward> but sometimes translated <honor> in the sense of <token of
 	esteem>, that is, formal recognition of an accomplishment or
 	accomplishments." [HQ12:3 p.9 ("Maltz's Reward Part II")]
-tag:	1992
+tag:	1992; economics
 id:	t4f
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt; 2003-09-holqed-12-3.txt
 
@@ -19987,7 +19988,7 @@ pos:	verb
 en:	<fine>, <tax>
 sv:	«bötfälla», «beskatta», «taxera»
 def:	TKD
-tag:	1985; money
+tag:	1985; economics
 id:	epR
 file:	1992-01-01-tkd.txt
 
@@ -21562,7 +21563,7 @@ pos:	noun
 en:	<merchant>
 sv:	«handelsman», «köpman»
 def:	TKD
-tag:	1985
+tag:	1985; economics
 id:	SFc
 file:	1992-01-01-tkd.txt
 
@@ -21571,7 +21572,7 @@ pos:	noun
 en:	<merchant ship>
 sv:	«handelsskepp»
 def:	TKD
-tag:	1985
+tag:	1985; economics
 id:	BYs
 file:	1992-01-01-tkd.txt
 
@@ -21910,7 +21911,7 @@ pos:	verb
 en:	<return> (a thing to its origin or source)
 sv:	«placera» tillbaka, «återbörda», «återlämna»
 def:	News 1999-07-19
-tag:	1999
+tag:	1999; economics
 id:	tU3
 file:	1999-07-19b-email.txt
 
@@ -22280,7 +22281,7 @@ pos:	noun
 en:	<prize>
 sv:	«pris», «trofé»
 def:	TKD
-tag:	1985
+tag:	1985; economics
 id:	gfo
 file:	1992-01-01-tkd.txt
 
@@ -23847,7 +23848,7 @@ pos:	verb
 en:	<barter>, <bargain>
 sv:	idka «byteshandel», «byta», «köpslå»
 def:	TKD
-tag:	1985
+tag:	1985; economics
 id:	QmW
 file:	1992-01-01-tkd.txt
 
@@ -24238,7 +24239,7 @@ pos:	noun
 en:	<award>
 sv:	«pris», «belöning»
 def:	TKDa
-tag:	1992
+tag:	1992; economics
 id:	N3T
 file:	1992-01-01-tkd.txt
 
@@ -24913,7 +24914,7 @@ pos:	noun
 en:	<ransom>
 sv:	«lösensumma»
 def:	TKD
-tag:	1985
+tag:	1985; economics
 id:	nW3
 file:	1992-01-01-tkd.txt
 
@@ -25543,16 +25544,17 @@ file:	2012-01-26-email.txt
 tlh:	{wel}
 pos:	verb
 en:	«owe» (someone)
-sv:	stå i «skuld» till
+sv:	stå i «skuld» till (någon)
 def:	{qep'a'} 2011
 ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
 	from qep'a' 18")
-com:	When someone has earned a reward but the prize is not yet available to
-	be given, the person in charge of presenting it can say {qawel} "I owe
-	you." It is probably also appropriate when you have convinced someone
+cite:	When someone has earned a reward but the prize is not yet available to
+	be given, the person in charge of presenting it can say {qawel} ~I owe
+	you~. It is probably also appropriate when you have convinced someone
 	to give you some service or product with the understanding that you
-	will pay for it later. /Alan Anderson
-tag:	2011
+	will pay for it later. [Email 2011-08-22 (by Alan Anderson, to
+	tlhingan-hol, "Nine New Words from qep'a' 18")]
+tag:	2011; economics
 id:	F1G
 file:	2011-08-22-email.txt
 
@@ -25598,7 +25600,7 @@ pos:	noun
 en:	<shirt> with sleeves [regional]
 sv:	«skjorta» med ärmar [regionalt]
 def:	KGT
-tag:	1997
+tag:	1997; clothing
 id:	5UZ
 file:	1997-11-01-kgt.txt
 
@@ -27203,6 +27205,7 @@ pos:	noun
 en:	type of <fungus>
 sv:	ett slags «svamp»
 def:	KGT
+pun:	"athlete's foot"
 tag:	1997
 id:	6Qp
 file:	1997-11-01-kgt.txt

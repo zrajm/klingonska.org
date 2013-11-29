@@ -844,8 +844,8 @@ sub check_see {
     my %allowed = map {
         (my $_ = $_) =~ s/_/ /g;
         $_ => 1;
-    } qw(animal architecture body_part clothing color country family fighting
-         KLCP1 landscape math measure money music placement quantity religion
+    } qw(animal architecture body_part clothing color country economics family
+         fighting KLCP1 landscape math measure music placement quantity religion
          shape time);
     sub check_tag {
         my ($entry, $field, $_) = @_;
