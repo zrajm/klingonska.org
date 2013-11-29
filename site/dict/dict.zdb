@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    4204c280ed6e914cefad361bdefea01920b997d4
+SHA1:    1c44f866e5038101a6d3d2d9369250847326a630
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -348,6 +348,7 @@ once in the same entry).
     + `economics`
     + `family`
     + `fighting`
+    + `food`
     + `KLCP1` = The 502 basic words which one needs to know in order to pass
       the first level of KLI’s “Klingon Language Certification Program”.
     + `landscape`
@@ -530,7 +531,7 @@ sv:	«sked»
 def:	News 1998-05-05
 ref:	KLINW
 pun:	Spoonerism on {nagh beQ} ~flat stone~.
-tag:	1998
+tag:	1998; food
 id:	8aq
 file:	1998-05-05a-news.txt
 
@@ -589,7 +590,7 @@ sv:	«banan»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	8pp
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -648,7 +649,7 @@ pos:	verb
 en:	be <fresh>, be just picked (fruit, vegetable)
 sv:	vara «färsk», vara «nyplockad» (om frukt, grönsak)
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	HxN
 file:	1997-11-01-kgt.txt
 
@@ -687,7 +688,7 @@ pos:	noun
 en:	flat-bottomed <pot> for food preparation
 sv:	flatbottnad «skål» för matberedning
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	2Fk
 file:	1997-11-01-kgt.txt
 
@@ -1226,7 +1227,7 @@ en:	<fish>
 sv:	«fisk»
 def:	KGT
 see:	{ghotI'}
-tag:	1997; animal
+tag:	1997; animal; food
 id:	Lnn
 file:	1997-11-01-kgt.txt
 
@@ -1318,7 +1319,7 @@ sv:	«bregitlunga»
 def:	TKDa
 ref:	KLINW; KCD
 com:	Food item shown and described on KCD.
-tag:	1992
+tag:	1992; food
 id:	Z16
 file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
 
@@ -1588,7 +1589,7 @@ pos:	noun
 en:	type of <animal>, <~bokrat~>
 sv:	ett slags «djur», «~bokrat~»
 def:	KGT
-tag:	1997; animal
+tag:	1997; animal; food
 id:	HdE
 file:	1997-11-01-kgt.txt
 
@@ -1735,7 +1736,7 @@ pos:	noun
 en:	<scoop>, scooping implement (to serve food)
 sv:	«skopa», «skyffel» (för att servera mat)
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	MdP
 file:	1997-11-01-kgt.txt
 
@@ -2065,7 +2066,8 @@ pos:	noun
 en:	<marinade>
 sv:	«marinad»
 def:	KGT
-tag:	1997
+see:	{HaH} ~marinade~
+tag:	1997; food
 id:	LAJ
 file:	1997-11-01-kgt.txt
 
@@ -2150,7 +2152,7 @@ pos:	noun
 en:	<soup> (thick)
 sv:	«gryta», «soppa» (tjock)
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	rHq
 file:	1997-11-01-kgt.txt
 
@@ -2391,7 +2393,7 @@ pos:	verb
 en:	be <drunk>, be <intoxicated>
 sv:	vara «full», vara «berusad»
 def:	TKD
-tag:	1985; KLCP1
+tag:	1985; food; KLCP1
 id:	qbs
 file:	1992-01-01-tkd.txt
 
@@ -2400,7 +2402,7 @@ pos:	noun
 en:	type of <liquor>, <~chech'tluth~>
 sv:	en slags «sprit», «~chech'tluth~»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	rZV
 file:	1997-11-01-kgt.txt
 meta:	Entries differ in source. The spelling "~baceh'tluth~" found in KGT K-E
@@ -2442,7 +2444,7 @@ pos:	noun
 en:	<liver>
 sv:	«lever»
 def:	KGT
-tag:	1997; body part
+tag:	1997; body part; food
 id:	v6C
 file:	1997-11-01-kgt.txt
 
@@ -2874,7 +2876,7 @@ pos:	verb
 en:	<bite>
 sv:	«bita»
 def:	TKD
-tag:	1985; KLCP1
+tag:	1985; food; KLCP1
 id:	5BY
 file:	1992-01-01-tkd.txt
 
@@ -2883,7 +2885,7 @@ pos:	verb
 en:	<gnaw>
 sv:	«gnaga», «tugga»
 def:	KGT
-tag:	1997
+tag:	1997; food
 data:	derived form
 id:	cqJ
 file:	1997-11-01-kgt.txt
@@ -2921,7 +2923,7 @@ pos:	noun
 en:	ceramic flat-bottomed <pot> [regional]
 sv:	flatbottnad «skål» av keramik [regionalt]
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	YJ1
 file:	1997-11-01-kgt.txt
 
@@ -2930,7 +2932,7 @@ pos:	noun
 en:	ceramic flat-bottomed <pot> [regional]
 sv:	flatbottnad «skål» av keramik [regionalt]
 def:	KGT
-tag:	1997
+tag:	1997; food
 data:	phrase
 id:	wpH
 file:	1997-11-01-kgt.txt
@@ -3319,7 +3321,7 @@ pos:	noun
 en:	<mixture> of animal parts, <animal parts> mixed together
 sv:	«blandning» av djurdelar, ihopblandade «djurdelar»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	CkZ
 file:	1997-11-01-kgt.txt
 meta:	Entries differ and have been combined here.
@@ -3357,7 +3359,7 @@ pos:	noun
 en:	<dish> in a restaurant, "«catch of the day»"
 sv:	«rätt» på restaurang, "«dagens fångst»"
 def:	KGT
-tag:	1997
+tag:	1997; food
 data:	phrase
 id:	ghf
 file:	1997-11-01-kgt.txt
@@ -3463,7 +3465,7 @@ pos:	noun
 en:	<tea>
 sv:	«té»
 def:	TKDa
-tag:	1992
+tag:	1992; food
 id:	KGY
 file:	1992-01-01-tkd.txt
 
@@ -3472,7 +3474,8 @@ pos:	noun
 en:	<teacup>
 sv:	«témugg», «tékopp»
 def:	KGT
-tag:	1997
+see:	{tu'lum} ~teacup~
+tag:	1997; food
 data:	phrase; derived form
 id:	Ni6
 file:	1997-11-01-kgt.txt
@@ -3676,7 +3679,7 @@ pos:	verb
 en:	be <ripe>, be overripe (fruit, vegetable)
 sv:	vara «mogen», vara «övermogen» (frukt, grönsak)
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	Mh5
 file:	1997-11-01-kgt.txt
 
@@ -4256,7 +4259,7 @@ pos:	noun
 en:	«velocity «restaurant»», «fast-food restaurant», «~Dok'e~»
 sv:	«hastighets«restaurang»», «snabbmatsservering», «~Dok'e~»
 def:	KGT pp.102, 103 et al.
-tag:	1997
+tag:	1997; food
 data:	phrase
 id:	n5h
 file:	1997-11-01-kgt.txt
@@ -4538,7 +4541,7 @@ pos:	noun
 en:	<bowl> (small)
 sv:	«skål» (liten)
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	aSB
 file:	1997-11-01-kgt.txt
 
@@ -4588,7 +4591,7 @@ pos:	noun
 en:	«Durani lizard skins» (type of «food», never takes plural suffix)
 sv:	«Duraniska ödleskinn» (en slags «mat», tar aldrig pluralsuffix)
 def:	KCD
-tag:	1996
+tag:	1996; food
 data:	phrase; {Duran} (n)
 id:	r9L
 file:	1996-04-kcd.txt
@@ -4674,7 +4677,7 @@ pos:	noun
 en:	<farm>
 sv:	«gård», «bondgård»
 def:	TKD
-tag:	1985
+tag:	1985; food
 id:	KnY
 file:	1992-01-01-tkd.txt
 
@@ -4683,7 +4686,7 @@ pos:	noun
 en:	<produce>
 sv:	«jordbruksprodukter», «jordbruksvaror»
 def:	KGT
-tag:	1997
+tag:	1997; food
 data:	phrase; derived form
 id:	XyY
 file:	1997-11-01-kgt.txt
@@ -4693,7 +4696,7 @@ pos:	noun
 en:	<meat> from midsection of animal
 sv:	«kött» från mittdelen av djur
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	Q2Q
 file:	1997-11-01-kgt.txt
 
@@ -4702,7 +4705,7 @@ pos:	noun
 en:	<meat> from midsection of animal, no bones [regional]
 sv:	«kött» från mittdelen av djur, utan ben [regionalt]
 def:	KGT
-tag:	1997
+tag:	1997; food
 data:	phrase
 id:	9Ay
 file:	1997-11-01-kgt.txt
@@ -4753,7 +4756,8 @@ pos:	noun
 en:	<limb> (of an animal)
 sv:	«lem», «kroppsdel» (på djur)
 def:	KGT
-tag:	1997
+see:	{HajDob} ~leg (served as food)~
+tag:	1997; food
 id:	cYm
 file:	1997-11-01-kgt.txt
 
@@ -4869,7 +4873,7 @@ sv:	«vitlök»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	heb
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -5019,7 +5023,7 @@ pos:	noun
 en:	<midnight snack>
 sv:	«nattmat»
 def:	TKD
-tag:	1985
+tag:	1985; food
 id:	sgZ
 file:	1992-01-01-tkd.txt
 
@@ -5086,7 +5090,7 @@ pos:	noun
 en:	<sauce> for «~gagh~»
 sv:	«sås» till «~gagh~»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	Gbq
 file:	1997-11-01-kgt.txt
 
@@ -5301,7 +5305,7 @@ sv:	«vindruva»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	br6
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -5677,7 +5681,7 @@ pos:	verb
 en:	be <fresh>, be just killed (meat)
 sv:	vara «färsk», vara «nydödad» (om kött)
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	DN7
 file:	1997-11-01-kgt.txt
 
@@ -5752,7 +5756,7 @@ def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 ref:	TDNW
 pun:	Bernard Shaw's famous spelling of "fish".
 see:	{bIQDep}
-tag:	2001; animal
+tag:	2001; animal; food
 id:	kzU
 file:	2001-12-holqed-10-4.txt
 
@@ -5872,7 +5876,7 @@ pos:	verb
 en:	be <hungry>
 sv:	vara «hungrig»
 def:	TKD
-tag:	1985; KLCP1
+tag:	1985; food; KLCP1
 id:	mvi
 file:	1992-01-01-tkd.txt
 
@@ -5881,7 +5885,7 @@ pos:	verb
 en:	<swallow>
 sv:	«svälja»
 def:	TKD
-tag:	1985
+tag:	1985; food
 id:	aRG
 file:	1992-01-01-tkd.txt
 
@@ -6010,6 +6014,12 @@ pos:	verb
 en:	<soak>, <drench>
 sv:	«blöta» upp, «dränka» in
 def:	KGT
+cite:	The verb {HaH}, though once restricted to this form of food preparation
+	[marinading], is now often used in the more general sense of ~soak,
+	drench.~ It is frequently heard in the reflexive form ({HaH'egh,} ~soak
+	oneself~) in reference to such activities as drinking a great deal,
+	which has positive connotations, and bathing, an occasional undertaking
+	with negative connotations. [KGT p.91]
 tag:	1997
 id:	SmB
 file:	1997-11-01-kgt.txt
@@ -6019,7 +6029,8 @@ pos:	verb
 en:	<marinade>
 sv:	«marinera»
 def:	KGT
-tag:	1997
+see:	{chanDoq} ~marinade~
+tag:	1997; food
 id:	AcK
 file:	1997-11-01-kgt.txt
 
@@ -6034,10 +6045,17 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{HajDob}
 pos:	noun
-en:	<leg> (served as food)
-sv:	«ben», «lår» (serverat som mat)
+en:	<leg> (served as food) [older or upper-class word]
+sv:	«ben», «lår» (serverat som mat) [äldre ord eller överklassord]
 def:	KGT
-tag:	1997
+cite:	The archaic words tend to come up in conversations about food. For
+	example, the usual word for the leg of an animal, when prepared as
+	food, is {gham} (~limb~), the same word used for the leg of the living
+	animal. A leg served as food at a banquet in an upper-class household,
+	however, is likely to be called a {HajDob}, an old word for ~limb.~
+	[KGT pp.41--42]
+see:	{gham} ~limb~
+tag:	1997; food
 id:	EsR
 file:	1997-11-01-kgt.txt
 
@@ -6229,7 +6247,7 @@ en:	<meat>, <animal>
 sv:	«kött», «djur»
 def:	TKD; TKDa
 ref:	TKW p.163
-tag:	1985; KLCP1
+tag:	1985; food; KLCP1
 id:	vsZ
 file:	1992-01-01-tkd.txt
 
@@ -6249,7 +6267,7 @@ sv:	«hamburgare»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	x3G
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -6615,7 +6633,7 @@ en:	<liquor>, <ale>, <beer>, <wine>
 sv:	«sprit», «öl», «vin», «alkohol»
 def:	TKD; KGT
 ref:	TKW pp.35, 181
-tag:	1985
+tag:	1985; food
 id:	d8W
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
@@ -6658,7 +6676,7 @@ sv:	«glas» (dryckeskärl), «mugg»
 def:	TKD
 ref:	TNK; Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	1985; KLCP1
+tag:	1985; food; KLCP1
 id:	KBD
 file:	1992-01-01-tkd.txt; 2011-09-30-tnk.txt; 2011-10-31-email.txt
 
@@ -6667,7 +6685,7 @@ pos:	noun
 en:	<drinking «song»>
 sv:	«dryckes«visa»»
 def:	KGT
-tag:	1997; music
+tag:	1997; food; music
 data:	phrase
 id:	VtH
 file:	1997-11-01-kgt.txt
@@ -7364,7 +7382,7 @@ pos:	noun
 en:	<pickle> (cucumber)
 sv:	«pickels» (gurka)
 def:	TKD
-tag:	1985
+tag:	1985; food
 id:	5sn
 file:	1992-01-01-tkd.txt
 
@@ -7535,7 +7553,7 @@ en:	<serve> (food)
 sv:	«servera», «sätta fram» (mat)
 def:	TKD
 ref:	TKW pp.133, 141
-tag:	1985
+tag:	1985; food
 id:	cSh
 file:	1992-01-01-tkd.txt
 
@@ -7571,7 +7589,7 @@ cite:	The person who takes the order and brings the food is the {jabwI'}
 	diners in the restaurant, this is regarded as an exhilarating
 	diversion. [KGT pp.101--102]
 see:	{tebwI'}
-tag:	1997
+tag:	1997; food
 data:	derived form
 id:	xPY
 file:	1997-11-01-kgt.txt
@@ -8026,7 +8044,7 @@ en:	<plate> (for eating)
 sv:	«tallrik»
 def:	KGT
 see:	{ngop} is the plural form
-tag:	1997
+tag:	1997; food
 id:	Nu5
 file:	1997-11-01-kgt.txt
 
@@ -9444,7 +9462,7 @@ pos:	noun
 en:	type of <animal>, <~lingta~>
 sv:	ett slags «djur», «~lingta~»
 def:	KGT
-tag:	1997; animal
+tag:	1997; animal; food
 id:	nme
 file:	1997-11-01-kgt.txt
 
@@ -10357,7 +10375,7 @@ pos:	noun
 en:	<bowl> (large)
 sv:	«skål» (stor)
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	45N
 file:	1997-11-01-kgt.txt
 
@@ -10746,7 +10764,7 @@ pos:	noun
 en:	<lunch>
 sv:	«lunch»
 def:	TKD
-tag:	1985
+tag:	1985; food
 id:	3vz
 file:	1992-01-01-tkd.txt
 
@@ -10817,7 +10835,7 @@ sv:	«mango»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	eZK
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -10939,7 +10957,7 @@ sv:	«majs», sockermajs
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	S6k
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -11047,7 +11065,7 @@ pos:	noun
 en:	type of <animal>, <sabre bear>
 sv:	ett slags «djur», «sabelbjörn»
 def:	KGT
-tag:	1997; animal
+tag:	1997; animal; food
 id:	Pum
 file:	1997-11-01-kgt.txt
 
@@ -11105,7 +11123,7 @@ def:	KGT
 ref:	{qep'a'} 1997
 pun:	"Marc nodded, smiling infuriatingly, to confirm {mIQ} (deep fry) as in
 	mIQ-Donald's french fries." (Robyn Stewart, {qep'a'} 1997)
-tag:	1997
+tag:	1997; food
 id:	5Rz
 file:	1997-11-01-kgt.txt
 meta:	Entries differ in source. One of the KGT E-K entries is used here.
@@ -11184,7 +11202,7 @@ pos:	noun
 en:	metal flat-bottomed <pot> [regional]
 sv:	flatbottnad «skål» av metall [regionalt]
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	FCw
 file:	1997-11-01-kgt.txt
 
@@ -11193,7 +11211,7 @@ pos:	noun
 en:	metal flat-bottomed <pot> [regional]
 sv:	flatbottnad «skål» av metall [regionalt]
 def:	KGT
-tag:	1997
+tag:	1997; food
 data:	phrase
 id:	xru
 file:	1997-11-01-kgt.txt
@@ -12108,7 +12126,7 @@ pos:	noun
 en:	<fruit>, <vegetable>
 sv:	«frukt», «grönsak»
 def:	TKDa
-tag:	1992
+tag:	1992; food
 id:	SLm
 file:	1992-01-01-tkd.txt
 
@@ -12118,7 +12136,7 @@ en:	«thistle»
 sv:	«tistel»
 def:	KGT p.88
 see:	*{neHjej}
-tag:	1997
+tag:	1997; food
 id:	tGj
 file:	1997-11-01-kgt.txt
 
@@ -12127,7 +12145,7 @@ pos:	noun
 en:	<nut>, nuts
 sv:	«nöt», nötter
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	WYo
 file:	1997-11-01-kgt.txt
 
@@ -12136,7 +12154,7 @@ pos:	noun
 en:	«pit» (of fruit)
 sv:	«kärna» (i frukt)
 def:	KGT p.89
-tag:	1997
+tag:	1997; food
 id:	xbg
 file:	1997-11-01-kgt.txt
 
@@ -12145,7 +12163,7 @@ pos:	noun
 en:	<vegetable> knife, <fruit <knife>> (small knife)
 sv:	«grönsakskniv», «frukt«kniv»» (liten kniv)
 def:	KGT
-tag:	1997
+tag:	1997; food
 data:	phrase; derived form
 id:	GNW
 file:	1997-11-01-kgt.txt
@@ -12436,7 +12454,7 @@ en:	<course>, <dish> (at a meal)
 sv:	«rätt», «maträtt» (vid en måltid)
 def:	TKD
 ref:	TKW p.133
-tag:	1985
+tag:	1985; food
 id:	J8B
 file:	1992-01-01-tkd.txt
 
@@ -12464,7 +12482,7 @@ en:	type of <fruit>
 sv:	en slags «frukt»
 def:	KGT
 pun:	Spanish "naranja" ~orange~.
-tag:	1997
+tag:	1997; food
 id:	rEw
 file:	1997-11-01-kgt.txt
 
@@ -12703,7 +12721,7 @@ pos:	noun
 en:	type of <pot> with handles (used for food preparation)
 sv:	en slags «skål» med handtag (används vid matberedning)
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	EXS
 file:	1997-11-01-kgt.txt
 meta:	Entries differ in source. KGT K-E entry is used here.
@@ -12809,7 +12827,7 @@ pos:	noun
 en:	<milk>
 sv:	«mjölk»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	x7L
 file:	1997-11-01-kgt.txt
 
@@ -12830,7 +12848,7 @@ sv:	«smör»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	AVm
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -12842,7 +12860,7 @@ sv:	«ost»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	uUw
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -12872,7 +12890,7 @@ pos:	noun
 en:	<breakfast>
 sv:	«frukost»
 def:	TKD
-tag:	1985; KLCP1
+tag:	1985; food; KLCP1
 id:	zJW
 file:	1992-01-01-tkd.txt
 
@@ -13771,7 +13789,7 @@ pos:	noun
 en:	herbed granulated <cartilage> (for food preparation)
 sv:	örtkryddat kornat «brosk» (för matberedning)
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	VKb
 file:	1997-11-01-kgt.txt
 
@@ -14169,7 +14187,7 @@ en:	<plates> (for eating)
 sv:	«tallrikar»
 def:	KGT
 see:	{jengva'} is the singular form
-tag:	1997
+tag:	1997; food
 id:	KRa
 file:	1997-11-01-kgt.txt
 
@@ -14579,7 +14597,7 @@ sv:	«potatis»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	Yoi
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -14798,12 +14816,14 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{pel'aQ}
 pos:	noun
-en:	<shell> (of an egg)
-sv:	«skal» (på ett egg)
+en:	«egg<shell>»
+sv:	«ägg«skal»»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	YCP
 file:	1997-11-01-kgt.txt
+meta:	The word ~eggshell~ is from KGT p.92, while the word list have the
+	lengthier ~shell (of an egg)~. The shorter form is used here.
 
 tlh:	{pem}
 pos:	noun
@@ -14887,7 +14907,7 @@ sv:	«päron»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	QjR
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -14983,7 +15003,7 @@ pos:	verb
 en:	<coat> (food) with herbed mixture
 sv:	«bestryka», «täcka» (mat) med örtkryddad blandning
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	DMR
 file:	1997-11-01-kgt.txt
 
@@ -15049,7 +15069,7 @@ sv:	«plommon»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	yKW
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -15127,7 +15147,7 @@ sv:	«pippius»
 def:	TKDa
 ref:	TKW p.185
 com:	Animals whose claws are used for food, requiring breaking.
-tag:	1992; animal
+tag:	1992; animal; food
 id:	e13
 file:	1992-01-01-tkd.txt
 
@@ -15198,7 +15218,7 @@ sv:	«pizza»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	NeJ
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -15268,7 +15288,7 @@ pos:	verb
 en:	be <fat>
 sv:	vara «fet»
 def:	TKD
-tag:	1985; KLCP1; shape
+tag:	1985; food; KLCP1; shape
 id:	B3r
 file:	1992-01-01-tkd.txt
 meta:	FIXME -- Is there a difference in meaning between {pI'} and {ror}?
@@ -15587,7 +15607,7 @@ en:	<boil>
 sv:	«koka»
 def:	TKD
 ref:	TKW p.32
-tag:	1985
+tag:	1985; food
 id:	KuM
 file:	1992-01-01-tkd.txt
 
@@ -15764,7 +15784,7 @@ pos:	noun
 en:	«fork»
 sv:	«gaffel»
 def:	News 1998-05-05
-tag:	1998
+tag:	1998; food
 data:	phrase
 id:	2wB
 file:	1998-05-05a-news.txt
@@ -16039,7 +16059,7 @@ en:	<serpent worm> (as food), «~gagh~»
 sv:	«orm-mask» (som mat), «~gagh~»
 def:	TKDa
 ref:	TKW pp.137, 141
-tag:	1992
+tag:	1992; food
 id:	17D
 file:	1992-01-01-tkd.txt
 meta:	The word "~gagh~" found in definition of {ghevI'} in KGT.
@@ -16492,7 +16512,7 @@ en:	<coffee>, type of <beverage>
 sv:	«kaffe», ett slags «dryck»
 def:	KGT
 pun:	Probably intended as a word borrowed from English.
-tag:	1997
+tag:	1997; food
 id:	C2D
 file:	1997-11-01-kgt.txt
 meta:	Entries differ and have been combined here.
@@ -16529,7 +16549,7 @@ pos:	noun
 en:	<vat>, <barrel> (for storage of liquor)
 sv:	«fat», «tunna» (för lagring av vätska)
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	Lsb
 file:	1997-11-01-kgt.txt
 
@@ -16683,7 +16703,7 @@ pos:	noun
 en:	type of <sauce>
 sv:	ett slags «sås»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	3r9
 file:	1997-11-01-kgt.txt
 
@@ -16805,6 +16825,21 @@ tag:	1997
 id:	cwL
 file:	1997-09-01a-news.txt
 
+tlh:	{qeyvaq}
+pos:	name
+en:	«Kayvak»
+sv:	«Kayvak»
+def:	KGT pp.91--92
+cite:	Fermented meat is also known as {qeyvaq Ha'DIbaH} (~Kayvak's food~),
+	named, for now forgotten reasons, after a famous ancient warrior. As
+	with hunter's and emperor's food, the specific meat is used rather than
+	the word {Ha'DIbaH} (~meat~), as in {qeyvaq lIngta'} (~Kayvak's
+	lingta~). The Kayvak naming style does not apply to fermented plants;
+	its use is restricted to meat. [KGT pp.91--92]
+tag:	1997; food
+id:	kP5
+file:	1997-11-01-kgt.txt
+
 tlh:	{qe'rot 'oQqar}
 pos:	noun
 en:	«carrot»
@@ -16812,7 +16847,7 @@ sv:	«morot»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	Mry
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -17131,7 +17166,7 @@ sv:	en slags «mat»
 def:	KGT
 pun:	"Compost" it probably looks like one too (with all mashed up pieces of
 	food).
-tag:	1997
+tag:	1997; food
 id:	vTH
 file:	1997-11-01-kgt.txt
 
@@ -17272,7 +17307,7 @@ sv:	«cola»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	oK1
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -17282,6 +17317,9 @@ pos:	name
 en:	«Ko'lek»
 sv:	«Ko'lek»
 def:	KGT p.41
+cite:	[...] members of the lower classes are called only by their given names
+	or by their fathers' names ({mogh puqloD} [~Son of Mogh~]; {qo'leq
+	puqbe'} [~Daughter of Ko'lek~]). [KGT p.41]
 tag:	1997
 id:	NNb
 file:	1997-11-01-kgt.txt
@@ -17322,7 +17360,7 @@ pos:	noun
 en:	type of <sauce>
 sv:	ett slags «sås»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	dV1
 file:	1997-11-01-kgt.txt
 
@@ -17514,7 +17552,7 @@ pos:	noun
 en:	<bean>, beans
 sv:	«böna», «bönor»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	SQ1
 file:	1997-11-01-kgt.txt
 
@@ -17814,7 +17852,7 @@ pos:	noun
 en:	type of <food>, «~kradge~ tail»
 sv:	en slags «mat», «~kradge~-svans»
 def:	KGT
-tag:	1997
+tag:	1997; food
 data:	phrase
 id:	cn8
 file:	1997-11-01-kgt.txt
@@ -18201,7 +18239,7 @@ pos:	verb
 en:	<stew>
 sv:	«stuva»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	qKY
 file:	1997-11-01-kgt.txt
 
@@ -18249,7 +18287,7 @@ pos:	noun
 en:	<restaurant>
 sv:	«restaurang»
 def:	TKD
-tag:	1985; KLCP1
+tag:	1985; food; KLCP1
 id:	Nm3
 file:	1992-01-01-tkd.txt
 
@@ -18356,7 +18394,7 @@ pos:	noun
 en:	<egg>
 sv:	«ägg»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	12j
 file:	1997-11-01-kgt.txt
 
@@ -18700,7 +18738,7 @@ com:	"The word {Qop} means 'be worn out' and is usually applied to old
 	has died'). It is not appropriate to say {SuvwI' Qop} ('dead warrior,
 	worn-out warrior.')" [KGT p.162]
 see:	{Hegh}
-tag:	1997
+tag:	1997; food
 id:	iGu
 file:	1997-11-01-kgt.txt
 
@@ -19139,7 +19177,7 @@ pos:	noun
 en:	type of <food>, «~racht~»
 sv:	en slags «mat», «~racht~»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	2TJ
 file:	1997-11-01-kgt.txt
 
@@ -19243,7 +19281,7 @@ sv:	«hallon»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	Kn3
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -19334,7 +19372,7 @@ sv:	«ris» (mat)
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	N5H
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -19363,7 +19401,7 @@ pos:	noun
 en:	<coffee> with «liquor», type of <beverage>
 sv:	«kaffe» med «sprit» i, ett slags «dryck»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	WuP
 file:	1997-11-01-kgt.txt
 meta:	Entries differ and have been combined here.
@@ -19716,7 +19754,7 @@ pos:	verb
 en:	<ferment>
 sv:	«jäsa»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	UAA
 file:	1997-11-01-kgt.txt
 
@@ -19725,7 +19763,7 @@ pos:	verb
 en:	<cause to «ferment»>
 sv:	få att «jäsa», bringa i jäsning
 def:	KGT
-tag:	1997
+tag:	1997; food
 data:	derived form
 id:	K6A
 file:	1997-11-01-kgt.txt
@@ -19877,7 +19915,7 @@ pos:	verb
 en:	be <fat>
 sv:	vara «fet»
 def:	TKD
-tag:	1985; KLCP1
+tag:	1985; food; KLCP1
 id:	AAF
 file:	1992-01-01-tkd.txt
 meta:	FIXME -- Is there a difference in meaning between {pI'} and {ror}?
@@ -20330,7 +20368,7 @@ pos:	noun
 en:	<agriculture>
 sv:	«jordbruk», «agrikultur»
 def:	TKD
-tag:	1985
+tag:	1985; food
 id:	ZAQ
 file:	1992-01-01-tkd.txt
 
@@ -20728,7 +20766,7 @@ pos:	noun
 en:	type of <knife> (used for food preparation)
 sv:	ett slags «kniv» (används vid matberedning)
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	rf7
 file:	1997-11-01-kgt.txt
 
@@ -20897,7 +20935,7 @@ def:	TKDa
 ref:	HQ12:3 p.9 ("Maltz's Reward Part II")
 cite:	The term for food of any kind (including beverages) is {Soj}. [KGT
 	p.83]
-tag:	1992; KLCP1
+tag:	1992; food; KLCP1
 id:	phN
 file:	1992-01-01-tkd.txt
 
@@ -20924,7 +20962,7 @@ sv:	«ätpinne», «kinapinne»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	w2u
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -20934,7 +20972,7 @@ pos:	noun
 en:	<haute cuisine>
 sv:	«haute cuisine», fin «mat», «restaurangmat»
 def:	KGT p.84
-tag:	1997
+tag:	1997; food
 data:	phrase
 id:	pnE
 file:	1997-11-01-kgt.txt
@@ -20990,7 +21028,7 @@ en:	<eat>
 sv:	«äta»
 def:	TKD
 ref:	TKW pp.73, 163, 137, 185
-tag:	1985; KLCP1
+tag:	1985; food; KLCP1
 id:	Fct
 file:	1992-01-01-tkd.txt
 
@@ -20999,7 +21037,7 @@ pos:	noun
 en:	<mess hall>
 sv:	«mäss», «matsal»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	vas
 file:	1997-11-01-kgt.txt
 
@@ -21490,7 +21528,7 @@ sv:	«jordgubbe»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	9hf
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -21601,7 +21639,7 @@ sv:	«socker»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	gAD
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -21611,7 +21649,7 @@ pos:	noun
 en:	type of <food>
 sv:	en slags «mat»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	rCf
 file:	1997-11-01-kgt.txt
 
@@ -21630,7 +21668,7 @@ en:	<bar>, <saloon>, <cocktail lounge>
 sv:	«bar», «pub», «cocktailbar»
 def:	TKD
 ref:	TKW p.181
-tag:	1985; KLCP1
+tag:	1985; food; KLCP1
 id:	5Cy
 file:	1992-01-01-tkd.txt
 
@@ -21648,7 +21686,7 @@ pos:	verb
 en:	<freeze>
 sv:	«frysa»
 def:	TKD
-tag:	1985
+tag:	1985; food
 data:	derived form
 id:	d3M
 file:	1992-01-01-tkd.txt
@@ -21722,7 +21760,7 @@ en:	<knife>, <dagger>
 sv:	«kniv», «dolk»
 def:	TKD
 ref:	TKW p.169
-tag:	1985; KLCP1
+tag:	1985; food; KLCP1
 id:	KBr
 file:	1992-01-01-tkd.txt
 
@@ -21872,7 +21910,7 @@ en:	type of «food», «heart of «targ»»
 sv:	en slags «mat», «targ«hjärta»»
 def:	KCD
 com:	Food item described and shown on KCD.
-tag:	1996
+tag:	1996; food
 data:	phrase
 id:	BSa
 file:	1996-04-kcd.txt
@@ -22026,7 +22064,7 @@ pos:	verb
 en:	<fill>
 sv:	«fylla»
 def:	TKD
-tag:	1985; KLCP1
+tag:	1985; food; KLCP1
 id:	hJG
 file:	1992-01-01-tkd.txt
 
@@ -22044,7 +22082,7 @@ pos:	noun
 en:	<food <server>> in a «~Dok'e~» (fast-food restaurant)
 sv:	«servitris»/«servitör» i en «~Dok'e~» (snabbmatsservering)
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	NfR
 file:	1997-11-01-kgt.txt
 
@@ -22185,7 +22223,7 @@ sv:	«apelsin»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	cs1
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -22197,7 +22235,7 @@ sv:	«citron»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	Dr8
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -22209,7 +22247,7 @@ sv:	«grapefrukt»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	Aym
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -22230,7 +22268,7 @@ sv:	«gurka»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	VKx
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -22242,7 +22280,7 @@ sv:	«svamp»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	skV
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -22527,7 +22565,7 @@ pos:	noun
 en:	type of «food», «~tknag~ hooves», (always referred to in plural)
 sv:	en slags «mat», «~tknag~-hovar», (refereras alltid till i plural)
 def:	KCD
-tag:	1996
+tag:	1996; food
 data:	phrase
 id:	91j
 file:	1996-04-kcd.txt
@@ -22537,7 +22575,7 @@ pos:	verb
 en:	be <ancient>
 sv:	vara «ålderdomlig», vara «uråldrig»
 def:	TKD
-tag:	1985
+tag:	1985; time
 id:	C4u
 file:	1992-01-01-tkd.txt
 
@@ -22546,7 +22584,7 @@ pos:	noun
 en:	<grain>
 sv:	«gryn», «korn», «frö»
 def:	TKD
-tag:	1985
+tag:	1985; food
 id:	f7e
 file:	1992-01-01-tkd.txt
 
@@ -22556,7 +22594,7 @@ en:	«bread»
 sv:	«bröd»
 def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from
 	Maltz")
-tag:	2010
+tag:	2010; food
 data:	phrase
 id:	5c4
 file:	2010-12-25-email.txt
@@ -22568,7 +22606,7 @@ sv:	«rostat «bröd»»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	CCy
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -22746,7 +22784,7 @@ sv:	«tomat»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	Syr
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -22803,7 +22841,7 @@ en:	type of <animal>, <Tokvirian «skink»>
 sv:	ett slags «djur», «Tokvirisk «ödla»»
 def:	KGT p.88
 ref:	KGT K-E (p.228), E-K (p.261)
-tag:	1997; animal
+tag:	1997; animal; food
 data:	phrase; {toqvIr} (n)
 id:	YjW
 file:	1997-11-01-kgt.txt
@@ -23230,7 +23268,7 @@ cite:	If what one spits out is basically liquid, such as a mixture of saliva
 	and something that is basically solid, {tlhIS} would be more
 	appropriate. [HQ12:4 p.9 ("Maltz's Reward Part III")]
 see:	{tlhepQe'} "saliva" (n); {bol} "drool" (v); {tlhIS} "spit out" (v)
-tag:	2003
+tag:	2003; food
 id:	Drv
 file:	2003-12-holqed-12-4.txt
 
@@ -23257,9 +23295,14 @@ meta:	Entries differ and have been combined here.
 tlh:	{tu'lum}
 pos:	noun
 en:	<teacup> [older or upper-class word]
-sv:	«tékopp» [äldre ord eller överklassord]
+sv:	«témugg», «tékopp» [äldre ord eller överklassord]
 def:	KGT
-tag:	1997
+cite:	[...] the common word for ~teacup~ is {Dargh HIvje'} (literally, ~tea
+	drinking vessel~). Among the upper classes, the word {tu'lum} is used
+	with some frequency, though, strictly speaking, this archaic word used
+	to mean only a cup made of metal. [KGT p.42]
+see:	{Dargh HIvje'} ~teacup~
+tag:	1997; food
 id:	Z7n
 file:	1997-11-01-kgt.txt
 
@@ -23316,7 +23359,7 @@ pos:	noun
 en:	<fat>, «animal fat»
 sv:	«fett», «djurfett»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	8hP
 file:	1997-11-01-kgt.txt
 
@@ -23327,7 +23370,7 @@ sv:	«pommes frites»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	NLM
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -23436,7 +23479,7 @@ pos:	noun
 en:	type of <food>, <~gladst~>
 sv:	en slags «mat», «~gladst~»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	bAV
 file:	1997-11-01-kgt.txt
 
@@ -23681,7 +23724,7 @@ pos:	noun
 en:	type of <food>, <~zilm'kach~>
 sv:	en slags «mat», «~zilm'kach~»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	4z8
 file:	1997-11-01-kgt.txt
 
@@ -23752,7 +23795,7 @@ pos:	noun
 en:	<stew>
 sv:	«stuvning»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	9vm
 file:	1997-11-01-kgt.txt
 
@@ -23767,7 +23810,7 @@ cite:	If what one spits out is basically liquid, such as a mixture of saliva
 	and something that is basically solid, {tlhIS} would be more
 	appropriate. [HQ12:4 p.9 ("Maltz's Reward Part III")]
 see:	{tuy'} "spit out (liquids)" (v)
-tag:	1997
+tag:	1997; food
 id:	4nL
 file:	1997-11-01-kgt.txt; 2003-12-holqed-12-4.txt
 
@@ -23830,7 +23873,7 @@ pos:	noun
 en:	type of <food>
 sv:	en slags «mat»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	fwd
 file:	1997-11-01-kgt.txt
 
@@ -23875,7 +23918,7 @@ pos:	verb
 en:	be <pungent> (referring to food)
 sv:	vara «besk», vara «skarp» (om smak på mat)
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	c8o
 file:	1997-11-01-kgt.txt
 
@@ -23884,7 +23927,7 @@ pos:	verb
 en:	be <bland> (referring to food)
 sv:	vara «menlös», vara «mild» (om mat)
 def:	KGT
-tag:	1997
+tag:	1997; food
 data:	derived form
 id:	175
 file:	1997-11-01-kgt.txt
@@ -24052,7 +24095,7 @@ en:	<drink>
 sv:	«dricka»
 def:	TKD
 ref:	TKW pp.35, 87
-tag:	1985; KLCP1
+tag:	1985; food; KLCP1
 id:	fJz
 file:	1992-01-01-tkd.txt
 
@@ -24859,7 +24902,7 @@ pos:	noun
 en:	<juice>, <sap> of a plant
 sv:	«juice», «saft» ifrån en växt
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	JhE
 file:	1997-11-01-kgt.txt
 
@@ -25119,7 +25162,7 @@ en:	<cook>, «prepare», «make», «fix», «assemble» (food and beverages)
 sv:	«till«laga»», «förbereda», «göra» (mat och dryck)
 def:	TKD
 ref:	KGT p.83
-tag:	1985; KLCP1
+tag:	1985; food; KLCP1
 id:	ZCn
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
 
@@ -25128,7 +25171,7 @@ pos:	noun
 en:	flat-bottomed <pot> for food preparation [regional]
 sv:	flatbottnad «skål» för matberedning [regionalt]
 def:	KGT
-tag:	1997
+tag:	1997; food
 data:	phrase
 id:	MGz
 file:	1997-11-01-kgt.txt
@@ -25138,7 +25181,7 @@ pos:	noun
 en:	<galley>
 sv:	«kök», «kabyss»
 def:	TKD
-tag:	1985
+tag:	1985; food
 id:	mQy
 file:	1992-01-01-tkd.txt
 
@@ -25156,7 +25199,7 @@ cite:	The person who takes the order and brings the food is the {jabwI'}
 	same individual. If there is a separate bar ({tach}), the bartender
 	({chom}) will mix drinks; otherwise, these chores fall to the {vutwI'}.
 	[KGT p.101]
-tag:	1992
+tag:	1992; food
 data:	derived form
 id:	D59
 file:	1992-01-01-tkd.txt
@@ -25166,7 +25209,7 @@ pos:	noun
 en:	flat-bottomed <pot> for food preparation [regional]
 sv:	flatbottnad «skål» för matberedning [regionalt]
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	mD4
 file:	1997-11-01-kgt.txt
 
@@ -25231,7 +25274,7 @@ pos:	verb
 en:	<taste>, <try> out (food)
 sv:	«smaka», «prova» (mat)
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	ugi
 file:	1997-11-01-kgt.txt
 
@@ -25334,7 +25377,7 @@ pos:	noun
 en:	type of <knife> (used for food preparation)
 sv:	ett slags «kniv» (används vid matberedning)
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	7TT
 file:	1997-11-01-kgt.txt
 
@@ -25464,7 +25507,7 @@ pos:	verb
 en:	<serve> fermented food at its peak
 sv:	¿?«servera» jäst mat när den är som bäst
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	HtF
 file:	1997-11-01-kgt.txt
 
@@ -26534,7 +26577,7 @@ pos:	verb
 en:	<harvest>
 sv:	«skörda»
 def:	TKD
-tag:	1985
+tag:	1985; food
 id:	SaV
 file:	1992-01-01-tkd.txt
 
@@ -26765,7 +26808,10 @@ pos:	noun
 en:	<husk>, <rind>, <peel>, <shell> (of fruit, nut)
 sv:	«skal» (på frukt, nöt)
 def:	KGT
-tag:	1997
+cite:	The outer covering of a fruit or vegetable ({yub,} ~husk, rind, peel~)
+	is always consumed, except in the case of the {naHlet yub} (~nut
+	shell~). [KGT p.89]
+tag:	1997; food
 id:	beV
 file:	1997-11-01-kgt.txt
 
@@ -26774,7 +26820,7 @@ pos:	noun
 en:	<chocolate>
 sv:	«choklad»
 def:	TKD
-tag:	1985; KLCP1
+tag:	1985; food; KLCP1
 id:	7L4
 file:	1992-01-01-tkd.txt
 
@@ -27048,7 +27094,7 @@ sv:	«lök»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	Q3j
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -27206,7 +27252,7 @@ en:	type of <fungus>
 sv:	ett slags «svamp»
 def:	KGT
 pun:	"athlete's foot"
-tag:	1997
+tag:	1997; food
 id:	6Qp
 file:	1997-11-01-kgt.txt
 
@@ -27241,7 +27287,7 @@ cite:	A popular effervescent drink, black in color, is called {'awje'}. This
 	drink, but it is made from, among other things, the marrow ({melchoQ})
 	taken from the bones of a {teghbat} (~"teg'bat"~). It is considered
 	relatively mild, even for a Klingon nonalcoholic drink. [KGT p.95]
-tag:	1997
+tag:	1997; food
 id:	zxL
 file:	1997-11-01-kgt.txt
 
@@ -27410,7 +27456,7 @@ pos:	noun
 en:	<serving <platter>>
 sv:	«serverings«fat»», «uppläggsfat»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	8A1
 file:	1997-11-01-kgt.txt
 
@@ -27463,9 +27509,9 @@ file:	1992-01-01-tkd.txt
 tlh:	{'ep}
 pos:	verb
 en:	<consume> «soup», «eat» soup
-sv:	«konsumera» «soppa», konsumera «gryta»
+sv:	«konsumera» «soppa», äta «gryta»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	3N5
 file:	1997-11-01-kgt.txt
 meta:	The word "eat" does not occur in any canon sources, but was added to
@@ -27478,7 +27524,7 @@ sv:	«äpple»
 def:	TNK
 ref:	Email 2011-10-31 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Food")
-tag:	2011
+tag:	2011; food
 data:	phrase
 id:	HcX
 file:	2011-09-30-tnk.txt; 2011-10-31-email.txt
@@ -27595,7 +27641,7 @@ pos:	verb
 en:	be <good>, be <delicious>, be <tasty>, be <harmonious>
 sv:	vara «god», vara «delikat», vara «välsmakande», vara «harmonisk»
 def:	KGT
-tag:	1997
+tag:	1997; food; music
 id:	4aJ
 file:	1997-11-01-kgt.txt
 
@@ -27705,7 +27751,7 @@ pos:	verb
 en:	<render>, <boil> fat
 sv:	«smälta», «koka» fett
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	XK4
 file:	1997-11-01-kgt.txt
 
@@ -27873,7 +27919,7 @@ en:	<blood>
 sv:	«blod»
 def:	TKD
 ref:	TKW pp.17, 31, 32, 34, 174, 203
-tag:	1985; KLCP1
+tag:	1985; food; KLCP1
 id:	GzG
 file:	1992-01-01-tkd.txt
 
@@ -28032,7 +28078,7 @@ pos:	verb
 en:	be <thirsty>
 sv:	vara «törstig»
 def:	TKD
-tag:	1985; KLCP1
+tag:	1985; food; KLCP1
 id:	yfp
 file:	1992-01-01-tkd.txt
 
@@ -28082,7 +28128,7 @@ pos:	noun
 en:	<root>, <tuber>
 sv:	«rot», «rotknöl», «rotfrukt»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	Y3F
 file:	1997-11-01-kgt.txt
 
@@ -28353,7 +28399,7 @@ pos:	verb
 en:	have a <hangover>, be hung over
 sv:	ha «baksmälla», vara «bakfull»
 def:	TKD
-tag:	1985; KLCP1
+tag:	1985; food; KLCP1
 id:	ry8
 file:	1992-01-01-tkd.txt
 
@@ -28429,7 +28475,7 @@ pos:	noun
 en:	<pot> (for food preparation, general term)
 sv:	«skål» (för matberedning, generell term)
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	baL
 file:	1997-11-01-kgt.txt
 
@@ -28468,7 +28514,7 @@ pos:	noun
 en:	<dinner>
 sv:	«kvällsmat»
 def:	TKD
-tag:	1985; KLCP1
+tag:	1985; food; KLCP1
 id:	cfc
 file:	1992-01-01-tkd.txt
 
@@ -28534,7 +28580,7 @@ pos:	noun
 en:	<sauce> for «~gladst~»
 sv:	«sås» till «~gladst~»
 def:	KGT
-tag:	1997
+tag:	1997; food
 id:	yXB
 file:	1997-11-01-kgt.txt
 

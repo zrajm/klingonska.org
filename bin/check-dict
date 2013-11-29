@@ -845,8 +845,8 @@ sub check_see {
         (my $_ = $_) =~ s/_/ /g;
         $_ => 1;
     } qw(animal architecture body_part clothing color country economics family
-         fighting KLCP1 landscape math measure music placement quantity religion
-         shape time);
+         fighting food KLCP1 landscape math measure music placement quantity
+         religion shape time);
     sub check_tag {
         my ($entry, $field, $_) = @_;
         return "Duplicate" if @{ $entry->{$field} } > 1;
