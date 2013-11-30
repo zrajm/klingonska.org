@@ -1476,7 +1476,11 @@
     Each transcript in the http://klingonska.org/canon/ list should have a link
     to the prettified version (as well as to the original text formatted
     transcript).
-*** [56%] Transcripts updating/improvement
+*** [58%] Transcripts updating/improvement
+**** [0%] Improve MKE transcript
+***** TODO Buy copy of Monopoly: Klingon Edition
+**** [0%] Improve TNK transcript
+***** TODO Buy copy of Eurotalk TalkNow! Klingon
 **** TODO Find & add {veS QonoS} transcript
      All words in the dictionary that occurs in this transcript should be
      linked to the transcript.
@@ -1499,6 +1503,169 @@
       themselves in their own language.
 
       Okrand says: {Marc Okrand jIH. tlhIngan Hol vIchenmoHta'.}
+**** TODO Add {paq'batlh}                                        :TRANSCRIBE:
+**** TODO Decipher event card {taH pagh taHbe'} from 2002
+     What's the status of canonicity for this card?
+     https://mail.google.com/mail/u/0/#search/decipher+in%3Atlhingan-hol+card/ed6f9609d33c137
+**** TODO Add words from qepHom'a' 2011
+     Date: Mon, 14 Nov 2011 21:44:59 +0100
+     From: "De'vID jonpIn" <de.vid.jonpin@gmail.com>
+     To: KLI <tlhingan-hol@kli.org>
+     Subject: [Tlhingan-hol] learnings from Saarbrücken qepHom'a'
+
+     I've already written several messages about things we learned at the
+     qepHom'a' in Saarbrücken, Germany.  I'll write down the rest of what I
+     saw/heard here before I forget.
+
+     I saw several new words (words new to me; they may already be known to
+     others):
+     <'IvtIH>
+     <rajma'>
+     <'eQway>
+     <cha'neH>
+     <ren>
+     <Qur>
+     <qurbuSwI'> (Morskan?)
+
+     I don't have definitions from MO for the first four words, only what I saw
+     in others' notes.  The words <ren>, <Qur>, and <qurbuSwI'> were defined in
+     writing, but only in German, in a letter from MO.  Presumably, the letter
+     was written in English, and translated into German (by Lieven?), but I have
+     not seen the original.  However, I've had the meanings of <ren> and <Qur>
+     explained to me by German speakers.  <qurbuSwI'> appears to be a Morskan
+     dialect word, but I didn't understand its meaning.  Perhaps Lieven, or
+     someone who can read the letter in German, can explain their definitions.
+
+     We also learned that the verbs <ghur> and <nup> are intransitive (the
+     transitive forms have <-moH>), and also what the difference was between the
+     verbs <reH> and <Quj>.  <reH> applies to unstructured play, whereas <Quj>
+     refers to structured play (with rules).
+
+     The following is not new info, but was discussed with MO at the qepHom:
+     <Soj> refers not just to food, but anything consumed for sustenance (i.e.,
+     "food" in a more general sense than "solid food"); <Sop>, <tlhutlh>, and
+     <'ep> are verbs which can be applied to different kinds of <Soj>.
+
+     -- 
+     De'vID
+
+
+     ---------------------------------------------------------------------------
+
+     Date: Tue, 15 Nov 2011 14:02:40 +0100
+     From: Lieven Litaer <lieven.litaer@web.de>
+     To: "tlhingan-hol@kli.org" <tlhingan-hol@kli.org>
+     Subject: Re: [Tlhingan-hol] learnings from Saarbrücken qepHom'a'
+
+     ja' De'vID:
+     > <Soj> refers not just to food, but anything consumed for sustenance
+     > (i.e., "food" in a more general sense than "solid food")
+
+     Talking about food, no new word, but an interesting explanation:
+
+     I asked if there were a word for "satisfied", "I'm full", i.e. you had 
+     eaten enough.
+
+     MO said no, but accepted {ghungHa'} for "not hungry any more". You 
+     cannot use it though to say that you are not hungry, that should be 
+     {ghungbe'} "not hungry". But if you are hungry first, then you eat 
+     enough, then you can say {DaH jIghungHa'} "Now I am un-hungry." (="not 
+     hungry any more")
+
+     It also works with {'oj} the same way.
+
+     Lieven.
+
+     https://mail.google.com/mail/u/0/?shva=1#search/ghungHa'/133a3d43a898e2e4
+**** TODO Article about 'Expected Canon'
+     Listing sources one might expect to be canon, but which is not -- e.g.
+     'KW' (the audio tape of TKW), and the 7th season SkyBox cards (containing
+     only gibberish, and no real Klingon).
+**** TODO Update HTML page for DS99 cards with new text
+**** TODO Add HolQeD 2:1 p.15-20 transcript (article of mistakes in canon)
+     Mostly mistakes from the movies and the audio tapes. Go over this and
+     check that all the misstakes are present in the canon archive. -- Should
+     the article be added as well?
+**** TODO Add Washington Shakespeare Company's Klingon press release
+     https://mail.google.com/mail/#search/%22Washington+Shakespeare+Company%22/12a4f44a8588c816
+     An excerpt from a press release sent by the Washington Shakespeare Company
+     on June 10:
+
+     "In celebration of its groundbreaking 20 years as the metro area’s
+     cutting-edge classical theater company, WSC is pleased to present “By Any
+     Other Name: An Evening of Shakespeare in Klingon,” with special guest
+     George Takei. This unique production includes performances of memorable
+     Shakespearean scenes presented in both English and Klingon, the language
+     spoken by the fictional warrior race in the beloved Star Trek series."
+
+     [ http://washingtonshakespeare.org/klingon.pdf ]
+
+     Marc Okrand is currently the president of the WSC board.
+**** TODO Fix correction comments with "??" in KGT transcript
+**** TODO More canon stuff mentioned here (by Steven Boozer)
+     https://mail.google.com/mail/?shva=1#search/in%3Atlhingan-hol+stconst/1217ffac4948e9ab
+**** TODO What is "STX" ?
+     {tera' poH jaj wa', jar wa', jaj loSDIch, DIS wa'-Hut-Hut-chorgh:
+     HovpoHvetlh latlh nab yIHutlh}
+     <Save this Stardate: Sunday, January 4, 1998.> STX
+**** TODO Add "Star Trek: Constellations"
+     An anthology with Star Trek short stories, at least one of which contains
+     sentences translated by Marc Okrand.
+
+     Abbreviation
+
+     Paperback: 382 pages
+     Publisher: Pocket Books (September 5, 2006)
+     Language: English
+     ISBN-10: 0743492544
+     ISBN-13: 978-0743492546
+
+     {yIntaH qIrq 'e' vIneH.  DaSwIj bIngDaq latlhpu' vItap.}
+     <Kirk I want alive. The rest I will grind beneath my boot.>
+     ("I want that Kirk keeps living. I will mash the others under my boot.")
+     [STConst p.232]
+
+     >> {belHa'moH}  displease, disappoint [STConst]
+
+     {chobelHa'moH, DI'qar.} <You disappoint me, D'Kar.>
+     ("You displease me, D'Kar.) [STConst p.259]
+
+     >> {'aghHa'}  dis-display [STConst]
+
+     {qab yon Da'agh. qablIj yon yI'aghHa' 'aghHa'pa' 'etlhwIj.}
+     <Scrape that smug look from your face before my blade does it for you.>
+     ("You display a satisfied face. Dis-display your satisfied face before my
+     blade dis-displays it.") [STConst p.259]
+
+
+     {SajlIj 'oHbe' quvwIj'e'.}
+     <My honor is not your play-thing.>
+     ("My honor is not your pet.") [STConst p.259]
+**** TODO "Major" source transcripts should be indexed by Google
+     Transcriptions of TKD/TKW/KGT/CK and PK should be indexable by Google
+     (i.e. script should detect and allow anyone with a user agent string
+     matching m#\bGooglebot\b#i).
+**** TODO Add ST3 transcript
+     All words in the dictionary that occurs in this transcript should be
+     linked to the transcript.
+**** TODO Add ST5 transcript
+     http://mail.google.com/mail/#label/imported/12a129c1002403f8
+     All words in the dictionary that occurs in this transcript should be
+     linked to the transcript.
+**** TODO Add ST6 transcript
+     All words in the dictionary that occurs in this transcript should be
+     linked to the transcript.
+**** TODO Add text containing {Sa'Hut} "buttocks" (from {qep'a'} 2003)
+**** TODO Add transcript of The Klingon Way (audio book)         :TRANSCRIBE:
+**** TODO Add "Klingon words from _Diplomatic Implausibility_ (DI)"
+     (found in email to tlhingan-hol with same subject)
+***** TODO transcribe relevant portions
+***** DONE Order book from UEB
+      CLOSED: [2010-08-26 Thu 19:47]
+**** TODO HolQeD 1:1 pp.3-10 -- "First Stepws Towards a Phonological Theory of Klingon" by Allan C. Wechsler
+     Referenced in "{pIqaD}, And How to Read It".
+**** TODO HolQeD 2:2 pp.10-11 -- "Writing Klingon: The Easy Way" by Theron P. Elliot
+     Referenced in "{pIqaD}, And How to Read It".
 **** [100%] Rename files
      a) rename file
      b) remove any links to old file in local site
@@ -1590,80 +1757,10 @@
       CLOSED: [2013-04-11 Thu 19:09]
 ***** DONE pic/1993-sbx-99b-thmb.jpg -> pic/mini/1993-sbx-99b.jpg
       CLOSED: [2013-04-11 Thu 19:09]
-**** TODO Add {paq'batlh}                                        :TRANSCRIBE:
-**** TODO Decipher event card {taH pagh taHbe'} from 2002
-     What's the status of canonicity for this card?
-     https://mail.google.com/mail/u/0/#search/decipher+in%3Atlhingan-hol+card/ed6f9609d33c137
-**** TODO Add words from qepHom'a' 2011
-     Date: Mon, 14 Nov 2011 21:44:59 +0100
-     From: "De'vID jonpIn" <de.vid.jonpin@gmail.com>
-     To: KLI <tlhingan-hol@kli.org>
-     Subject: [Tlhingan-hol] learnings from Saarbrücken qepHom'a'
-
-     I've already written several messages about things we learned at the
-     qepHom'a' in Saarbrücken, Germany.  I'll write down the rest of what I
-     saw/heard here before I forget.
-
-     I saw several new words (words new to me; they may already be known to
-     others):
-     <'IvtIH>
-     <rajma'>
-     <'eQway>
-     <cha'neH>
-     <ren>
-     <Qur>
-     <qurbuSwI'> (Morskan?)
-
-     I don't have definitions from MO for the first four words, only what I saw
-     in others' notes.  The words <ren>, <Qur>, and <qurbuSwI'> were defined in
-     writing, but only in German, in a letter from MO.  Presumably, the letter
-     was written in English, and translated into German (by Lieven?), but I have
-     not seen the original.  However, I've had the meanings of <ren> and <Qur>
-     explained to me by German speakers.  <qurbuSwI'> appears to be a Morskan
-     dialect word, but I didn't understand its meaning.  Perhaps Lieven, or
-     someone who can read the letter in German, can explain their definitions.
-
-     We also learned that the verbs <ghur> and <nup> are intransitive (the
-     transitive forms have <-moH>), and also what the difference was between the
-     verbs <reH> and <Quj>.  <reH> applies to unstructured play, whereas <Quj>
-     refers to structured play (with rules).
-
-     The following is not new info, but was discussed with MO at the qepHom:
-     <Soj> refers not just to food, but anything consumed for sustenance (i.e.,
-     "food" in a more general sense than "solid food"); <Sop>, <tlhutlh>, and
-     <'ep> are verbs which can be applied to different kinds of <Soj>.
-
-     -- 
-     De'vID
-
-
-     ---------------------------------------------------------------------------
-
-     Date: Tue, 15 Nov 2011 14:02:40 +0100
-     From: Lieven Litaer <lieven.litaer@web.de>
-     To: "tlhingan-hol@kli.org" <tlhingan-hol@kli.org>
-     Subject: Re: [Tlhingan-hol] learnings from Saarbrücken qepHom'a'
-
-     ja' De'vID:
-     > <Soj> refers not just to food, but anything consumed for sustenance
-     > (i.e., "food" in a more general sense than "solid food")
-
-     Talking about food, no new word, but an interesting explanation:
-
-     I asked if there were a word for "satisfied", "I'm full", i.e. you had 
-     eaten enough.
-
-     MO said no, but accepted {ghungHa'} for "not hungry any more". You 
-     cannot use it though to say that you are not hungry, that should be 
-     {ghungbe'} "not hungry". But if you are hungry first, then you eat 
-     enough, then you can say {DaH jIghungHa'} "Now I am un-hungry." (="not 
-     hungry any more")
-
-     It also works with {'oj} the same way.
-
-     Lieven.
-
-     https://mail.google.com/mail/u/0/?shva=1#search/ghungHa'/133a3d43a898e2e4
+**** DONE File canon/2011-09-30-eurotalk.txt is empty; add transcript
+     CLOSED: [2013-11-30 Sat 01:45]
+**** DONE File canon/2011-11-17-monopoly.txt is empty; add transcript
+     CLOSED: [2013-11-30 Sat 01:45]
 **** DONE Add scans of Klingon trading cards
      CLOSED: [2013-05-24 Fri 22:59]
      Decipher Inc + SkyBox cards should be scanned. Links should then be added
@@ -1677,19 +1774,10 @@
          canon/1996-sbx-s25.html
          canon/1997-sbx-s31.html
          canon/1997-decipher-ccg.html
-**** TODO Article about 'Expected Canon'
-     Listing sources one might expect to be canon, but which is not -- e.g.
-     'KW' (the audio tape of TKW), and the 7th season SkyBox cards (containing
-     only gibberish, and no real Klingon).
 **** DONE Improve DS99 transcript & entry
      CLOSED: [2012-06-06 Wed 11:16]
      Add the text of the German, French, Spanish and Japanese cards. (Since I
      now have these in my collection of Okrandian Canon.)
-**** TODO Update HTML page for DS99 cards with new text
-**** TODO Add HolQeD 2:1 p.15-20 transcript (article of mistakes in canon)
-     Mostly mistakes from the movies and the audio tapes. Go over this and
-     check that all the misstakes are present in the canon archive. -- Should
-     the article be added as well?
 **** DONE Add transcript of 1994-12-holqed-03-4.txt
      CLOSED: [2012-05-17 Thu 02:29]
      HolQeD 3:4, pp.10--11
@@ -1730,61 +1818,6 @@
          S37   Bloodwine
          S38   Romance
          S39   Opera
-**** TODO Add Washington Shakespeare Company's Klingon press release
-     https://mail.google.com/mail/#search/%22Washington+Shakespeare+Company%22/12a4f44a8588c816
-     An excerpt from a press release sent by the Washington Shakespeare Company
-     on June 10:
-
-     "In celebration of its groundbreaking 20 years as the metro area’s
-     cutting-edge classical theater company, WSC is pleased to present “By Any
-     Other Name: An Evening of Shakespeare in Klingon,” with special guest
-     George Takei. This unique production includes performances of memorable
-     Shakespearean scenes presented in both English and Klingon, the language
-     spoken by the fictional warrior race in the beloved Star Trek series."
-
-     [ http://washingtonshakespeare.org/klingon.pdf ]
-
-     Marc Okrand is currently the president of the WSC board.
-**** TODO Fix correction comments with "??" in KGT transcript
-**** TODO More canon stuff mentioned here (by Steven Boozer)
-     https://mail.google.com/mail/?shva=1#search/in%3Atlhingan-hol+stconst/1217ffac4948e9ab
-**** TODO What is "STX" ?
-     {tera' poH jaj wa', jar wa', jaj loSDIch, DIS wa'-Hut-Hut-chorgh:
-     HovpoHvetlh latlh nab yIHutlh}
-     <Save this Stardate: Sunday, January 4, 1998.> STX
-**** TODO Add "Star Trek: Constellations"
-     An anthology with Star Trek short stories, at least one of which contains
-     sentences translated by Marc Okrand.
-
-     Abbreviation
-
-     Paperback: 382 pages
-     Publisher: Pocket Books (September 5, 2006)
-     Language: English
-     ISBN-10: 0743492544
-     ISBN-13: 978-0743492546
-
-     {yIntaH qIrq 'e' vIneH.  DaSwIj bIngDaq latlhpu' vItap.}
-     <Kirk I want alive. The rest I will grind beneath my boot.>
-     ("I want that Kirk keeps living. I will mash the others under my boot.")
-     [STConst p.232]
-
-     >> {belHa'moH}  displease, disappoint [STConst]
-
-     {chobelHa'moH, DI'qar.} <You disappoint me, D'Kar.>
-     ("You displease me, D'Kar.) [STConst p.259]
-
-     >> {'aghHa'}  dis-display [STConst]
-
-     {qab yon Da'agh. qablIj yon yI'aghHa' 'aghHa'pa' 'etlhwIj.}
-     <Scrape that smug look from your face before my blade does it for you.>
-     ("You display a satisfied face. Dis-display your satisfied face before my
-     blade dis-displays it.") [STConst p.259]
-
-
-     {SajlIj 'oHbe' quvwIj'e'.}
-     <My honor is not your play-thing.>
-     ("My honor is not your pet.") [STConst p.259]
 **** DONE Add "Message to Kronos" video
      CLOSED: [2011-10-31 Mon 07:52]
 ***** DONE Create thumbnail for "Message to Kronos" video
@@ -1810,22 +1843,6 @@
 
      FIXED: The misspelling was in Alan Anderssons email (verified against
      KGT).
-**** TODO "Major" source transcripts should be indexed by Google
-     Transcriptions of TKD/TKW/KGT/CK and PK should be indexable by Google
-     (i.e. script should detect and allow anyone with a user agent string
-     matching m#\bGooglebot\b#i).
-**** TODO Add ST3 transcript
-     All words in the dictionary that occurs in this transcript should be
-     linked to the transcript.
-**** TODO Add ST5 transcript
-     http://mail.google.com/mail/#label/imported/12a129c1002403f8
-     All words in the dictionary that occurs in this transcript should be
-     linked to the transcript.
-**** TODO Add ST6 transcript
-     All words in the dictionary that occurs in this transcript should be
-     linked to the transcript.
-**** TODO Add text containing {Sa'Hut} "buttocks" (from {qep'a'} 2003)
-**** TODO Add transcript of The Klingon Way (audio book)         :TRANSCRIBE:
 **** DONE Add Mike Neff's KCD transcripts
      CLOSED: [2011-09-18 Sun]
      Mike Neff posted KCD transcripts to tlhingan-hol in January 2008 with
@@ -1839,15 +1856,6 @@
      http://mail.google.com/mail/?shva=1#search/jin+to%3Atlhingan-hol%40kli.org/125280bf1b4e53a6
 
      Gives the additional translation "plan" for {pu'jIn}.
-**** TODO Add "Klingon words from _Diplomatic Implausibility_ (DI)"
-     (found in email to tlhingan-hol with same subject)
-***** TODO transcribe relevant portions
-***** DONE Order book from UEB
-      CLOSED: [2010-08-26 Thu 19:47]
-**** TODO HolQeD 1:1 pp.3-10 -- "First Stepws Towards a Phonological Theory of Klingon" by Allan C. Wechsler
-     Referenced in "{pIqaD}, And How to Read It".
-**** TODO HolQeD 2:2 pp.10-11 -- "Writing Klingon: The Easy Way" by Theron P. Elliot
-     Referenced in "{pIqaD}, And How to Read It".
 **** DONE Add transcript of HQ3:3 (p.14?)
      CLOSED: [2012-05-12 Sat 17:30]
      Wherein Rhonda E. Green comments that a probable translation of {Hu'tegh}
@@ -1985,12 +1993,15 @@
 ***** <...> (...) [...] etc.
 **** DONE Strip any trailing whitespace at eof/eol (anywhere)
      CLOSED: [2010-10-05 Tue 02:49]
-*** [50%] Stuff to add to main article
+*** [20%] Stuff to add to main article
+**** TODO Make sure all sources have a link to them
 **** DONE Add link to YouTube version of "Star Trek: Klingon"
      CLOSED: [2013-02-24 Sun 02:29]
      http://youtu.be/hVo2kVVChU0
 **** TODO Add "Star Trek: Klingon Bird-of-Prey Haynes Manual" to list of sources
      http://www.amazon.com/gp/customer-media/product-gallery/145169590X/ref=cm_ciu_pdp_images_1/189-1202925-7907055?ie=UTF8&index=1&isremote=0
+**** TODO Add Eurotalk subarticle w/ pictures
+**** TODO Add Monopoly subarticle w/ pictures
 *** [0%] Fixes for main article
 **** TODO Add IDs for table entries which have separate HTML article
      Entries which have their own separate HTML article (e.g. `canon/kcd.html`)
@@ -2054,6 +2065,9 @@
     As a gallery with thumbnails?
 *** TODO The KApIqaD font with thumbnails for download
     In both PostScript and TrueType.
+*** TODO Add this Chadqi's instagram pictures
+    (ask Chadqi first)
+    http://instagram.com/chadqi
 *** TODO Add my own handwriting
 *** TODO Add handwriting presented in "An Alien Writing System Primer"
 *** TODO Add Kala's grid writing from "Writing Klingon: The Easy Way"
@@ -2470,7 +2484,85 @@
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** `dict.zdb`
-**** [38%] Field/syntax changes
+**** [31%] Field/syntax changes
+***** TODO Better, clearer source references
+      Currently, second hand transcripts of sources (i.e. some unverified
+      transcripts gotten through tlhingan-hol etc., as opposed to my own
+      transcripts) are given as 'ref:', while the original source is given as
+      'def:'.
+
+      This sometimes get confusing: If there is a secondary source, i.e. a
+      'ref:' which expands upon the original meaning of a word (gives a new
+      English translation etc.) for which there is also a second hand
+      transcript. (See {yIvbeH} for an example.)
+
+      This could be solved by having all source references as filenames(?) --
+      and second hand sources given within parentheses (thereby also removing
+      the need for a separate 'file:' field). This way e.g. {yIvbeH} would look
+      like this:
+
+          tlh:    {yIvbeH} [.1]
+          pos:    noun
+          en:     <tunic>, «shirt»
+          sv:     «tunika», «tröja»
+          def:    1992-01-01-tkd
+          ref:    2011-09-30-tnk (2011-11-02-email)
+          tag:    1985; clothing
+          id:     zqn
+
+      The new source references are:
+
+        * A source name never contains space.
+
+        * Separated by semicolon. (Secondary sources too.) -- E.g. "XXX (AA;
+          BB); YYY".
+
+        * Case insensetive. -- However `check-dict` will require specific
+          casing in order to have the references look neat, i.e. 'TKD' must be
+          all upper, the word 'Email' must capitalised etc.
+
+        * Does not contain file path or extension.
+
+        * Leading date is optional (Unless required for disambiguation.) --
+          However `check-dict` will require that dates *not* be present where
+          they are not required.
+
+        * Secondary sources may be specified in paretheses. (A secondary source
+          is a different source, where a transcript of the primary source have
+          been published (whole or in part). Secondary sources are especially
+          important where the primary source can be difficult to find or
+          obtain.)
+
+          tlh:    {yIvbeH} [.1]
+          pos:    noun
+          en:     <tunic>, «shirt»
+          sv:     «tunika», «tröja»
+          def:    TKD
+          ref:    TNK (2011-11-02-Email)
+          tag:    1985; clothing
+          id:     zqn
+
+      Possible source reference list:
+
+      NOTE: We'll still want to make page references and section references
+      within the documents. E.g. "KGT p 15", "TKD 1.2" etc.
+
+          TKD, TKW, KGT, ST#, CK, PK, KCD, TKN
+
+          Sarek, RT, BoP, MKE, S7, S8, S14, S15, S20, S25, S26, S32, S33
+
+          XXXX-XX-XX-Email
+          XXXX-XX-XX#-Email (where # as "a", "b", "c" etc)
+          XXXX-XX-XX-News
+          XXXX-XX-XX#-News (where # as "a", "b", "c" etc)
+          XXXX-XX-XX-Web
+
+          2000-12-HolQeD-09-4-b
+          2000-09-HolQeD-09-3
+      ---------------------------------------------------------------------------
+***** TODO Add 'data:' value 'unconfirmed'
+      Used for words like {Qej} and {vabDot} for which we do not have a 100%
+      certain translation.
 ***** TODO Remove period in "p." and "pp." abbreviations
       Page abbreviations should not have period in them, according to The
       Elements of Typographic Style.
@@ -2487,6 +2579,11 @@
 ***** TODO Add 'lect:' field (for "slang", "regional" etc.)
       'regional', 'slang' etc. should have its own field, rather than be part
       of the 'en:' and 'sv:' fields.
+***** TODO 'com:' should come before any 'cite:' fields
+      When a 'com:' comment occurs it is usually more important than any
+      'cite:' fields -- it can be a brief instruction to something (something
+      gathered from several quotes, sometimes even with their separate quotes
+      given as 'cite:' fields) or similar.
 ***** TODO 'tag:' field should come before 'com:'
       'tag:' field content is shorter, and more telling that the 'com:' field,
       so it should come earlier so as to allow user to faster get a 'feel' for
@@ -2535,6 +2632,9 @@
           use strict;
           my @x = grep(!/[0OIl]/, "a".."z", "A".."Z", 0..9);
           say @x[ map { int rand @x } ((1) x 3) ];
+**** TODO Relationship between 'data: phrase' and 'data: derived form'?
+     Is a 'phrase' *always* a 'derived form'? Are all 'derived form's properly
+     marked in the dictionary? Can we test for this?
 **** DONE Add SHA1 metadata field
      CLOSED: [2012-11-05 Mon 06:21]
      This should be a SHA1 checksum (to simplify syncing for external clients)
@@ -2583,7 +2683,7 @@
 
      But all words source referenced with that {HolQeD} article, and that is
      also in the final move should have 'ref: ST5' or 'def: ST5'.
-**** TODO Make sure all Eurotalk words has proper 'data' fields
+**** TODO Make sure all Eurotalk words has proper 'data:' fields
 **** Design improvements (to think about)
 ***** TODO Should "some(one|body|thing)" really be abbreviated in 'desc:'?
       Or does this abbreviation look too silly/unintelligible?
@@ -2646,14 +2746,22 @@
       field. -- These words should be included in the Klingon--English version
       of the dictionary, but with a leading asterisk, and a warning they're not
       supposed to be used. Maybe add a 'warn' field, explaining why?
-**** [22%] Add new words
-***** TODO From Klingon Monopoly
+**** [39%] Add words
+***** TODO {HIq ngeb} "fake ale" / "synthehol"
+      Was mentioned on tlhingan-hol.
+***** DONE From Klingon Monopoly
+      CLOSED: [2013-11-30 Sat 03:09]
       See this discussion on tlhIngan Hol jatlhwI'pu':
       https://www.facebook.com/groups/tlhInganHol/permalink/279142695435330/
-***** TODO Words from `canon/2011-11-02-email.txt`
-***** TODO Words from `canon/2011-11-04-email.txt`
-***** TODO Words from `canon/2011-11-05-email.txt`
-***** TODO Words from `canon/2011-11-07-email.txt`
+***** DONE Words from `canon/2011-11-02-email.txt`
+      CLOSED: [2013-11-30 Sat 03:09]
+***** DONE Words from `canon/2011-11-04-email.txt`
+      CLOSED: [2013-11-30 Sat 03:10]
+***** DONE Words from `canon/2011-11-05a-email.txt`
+      CLOSED: [2013-11-30 Sat 03:10]
+***** DONE Words from `canon/2011-11-07-email.txt`
+      CLOSED: [2013-11-30 Sat 03:11]
+      Hmm. These are different times of the day. Won't add these.
 ***** [0%] Words from paq'batlh
 ****** TODO {'opleS} one day
        [[https://www.facebook.com/groups/tlhInganHol/permalink/480783335271264/]]
@@ -2683,7 +2791,8 @@
       This [[https://mail.google.com/mail/u/0/?shva=1#search/ghungHa'/133a3d43a898e2e4][GMail thread]] (where above was posted) also contain interesting
       comments originally from MO on various words, their transitivity and
       usage (e.g. {ghungHa'}).
-***** [0%] Add words from http://www.qephom.de/e/newwords.html
+***** [0%] Add words from qepHom.de's list
+      http://www.qephom.de/e/newwords.html
 ***** TODO Add {qatlhDa'} <water pipe>
       pun: The pun is carried on in {qatlhDa'} ("water pipe"): "Viaduct? Why a
       duck?" I have only seen this in Felix Malmenbeck's "Klingon Toddler
@@ -3629,11 +3738,13 @@
 *** DONE klingon phrases in {...} in gram: should have ' at beg of word replaced with right-hand quote
     CLOSED: [2012-01-20 Fri 13:01]
     (see example under {Soj})
-** [89%] `bin/check-dict`: Dictionary check tool
+** [86%] `bin/check-dict`: Dictionary check tool
+*** TODO Check that <...> does not occur in non-TKD/non-KGT sources
 *** TODO Only look for too long lines in pre- and postamble
     There is now a check which look for badly wrapped fields, which will catch
     any too long lines, anyway. We don't need to check this twice.
 *** TODO Add check for unknown database sections
+*** TODO Check that 'data: derived form' is parsable from simple parts
 *** DONE Check other (other than 'com:') fields for nesting of brackets
     CLOSED: [2013-07-21 Sun 13:30]
 *** DONE Should check nesting of brackets in text fields
@@ -3674,7 +3785,7 @@
     letter...
 *** DONE Check that lines aren't above 79 characters in length
     CLOSED: [2012-01-30 Mon 23:28]
-*** TODO 'tlh:' fields with multiple words should have corresponding data-field
+*** DONE 'tlh:' fields with multiple words should have corresponding data-field
     E.g. "data: phrase" and "data: derived form"
 *** DONE Check that if there is a [...] in 'sv' there is also one in 'en'
     CLOSED: [2012-01-31 Tue 00:17]

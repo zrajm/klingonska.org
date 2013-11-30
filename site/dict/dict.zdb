@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    dc08568e98ec104ad41fe61e3b14c8eaadf99ded
+SHA1:    c13b137069ee30c4060f29a8de324f013d06e2dd
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -1730,14 +1730,21 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{bot}
 pos:	verb
-en:	<prevent>, <block>, <prohibit>
-sv:	«förhindra», «blockera», «hindra»
+en:	<prevent>, <block>, <prohibit>, «intercept»
+sv:	«förhindra», «blockera», «hindra», «hejda», «stoppa»
 def:	TKD
-ref:	TKW p.9
+ref:	TKW p.9; MKE; Email 2012-03-02 (by David Yeung, to tlhingan-hol,
+	"[Tlhingan-hol] sentences from Klingon Monopoly (was: Klingon Word of
+	the Day: {rop})")
+cite:	{Dubotchugh yIpummoH.} ~If it's in your way, knock it down.~ [TKW p.9]
+cite:	{qarDaSQa'Daq ruDelya' rop'a' Hergh qengbogh yo' Dabot.} ~Intercept
+	Rudellian plague relief convoy to Cardassian Union.~ [Email 2012-03-02
+	(by David Yeung, to tlhingan-hol, "[Tlhingan-hol] sentences from
+	Klingon Monopoly (was: Klingon Word of the Day: {rop})")]
 see:	{waQ}
 tag:	1985; KLCP1
 id:	ui1
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 2011-11-17-mke.txt; 2012-03-02-email.txt
 meta:	FIXME -- Abstract/active meaning? (Such as a parent prohibiting a child
 	from buying candy, or moving an arm to block a blow etc.) See also
 	{waQ} which perhaps is the same thing in a more concrete/passive way?
@@ -2726,13 +2733,23 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{chIm}
 pos:	verb
-en:	be <empty>, be <deserted>, be <uninhabited>
-sv:	vara «tom», vara «övergiven», vara «obebodd»
-def:	TKD
+en:	be <empty>, be <deserted>, be <uninhabited>, be «drained»
+sv:	vara «tom», vara «övergiven», vara «obebodd», vara «förbrukad»
+def:	TKD; MKE
+ref:	Email 2012-01-01 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	Monopoly - New Canon"); Email 2012-03-02 (by David Yeung, to
+	tlhingan-hol, "[Tlhingan-hol] sentences from Klingon Monopoly (was:
+	Klingon Word of the Day: {rop})")
+cite:	{cha'pujqutmey chIm lutamlu'.} ~Drained dilithium crystals are
+	replaced.~ [Email 2012-03-02 (by David Yeung, to tlhingan-hol,
+	"[Tlhingan-hol] sentences from Klingon Monopoly (was: Klingon Word of
+	the Day: {rop})")]
 tag:	1985
 id:	aAc
-file:	1992-01-01-tkd.txt
-meta:	Entries differ and have been combined here.
+file:	1992-01-01-tkd.txt; 2011-11-17-mke.txt; 2012-01-01-email.txt;
+	2012-03-02-email.txt
+meta:	Entries differ and have been combined here; ~be drained~ meaning
+	appeared first in MKE.
 
 tlh:	{chIp}
 pos:	verb
@@ -3575,16 +3592,25 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{Dav}
 pos:	verb
-en:	«sway», move to the side (about aircraft)
-sv:	«svänga», förflytta sig i sidled (om flygmaskin)
+en:	be «sway»ing, be moving «left» or «right» (aircraft moving without
+	turning)
+sv:	vara i rörelse i «sidled» (flygmaskin rör sig till «höger» eller
+	«vänster» utan att svänga)
 def:	HQ11:2 p.9 ("{matlh jup mu'mey}")
 cite:	When it [an aircraft] moves to the side (not when the nose points to
 	the left or right, but when the plane slides to the left or right
 	without otherwise changing its orientation), it is said to {Dav}
 	~sway~. [HQ11:2 p.9 ("{matlh jup mu'mey}")]
+see:	{Der} ~be yawing~, {ron} ~be rolling~, {tor} ~be pitching~, {jIm} ~be
+	heaving~, {jer} ~be surging~
 tag:	2002
 id:	LTT
 file:	2002-06-holqed-11-2.txt
+meta:	Translation given in HQ11:2 is {Dav} ~sway~, however that article seems
+	to suggest that the word works similarly to {ron} ~be banking, be
+	rolling~, and is therefore translated as ~be heaving~ here. One would
+	probably say {Dav Duj} ~the vessel is moving left or right~, and {Duj
+	DavmoH 'orwI'} ~the pilot is moving the vessel left or right~.
 
 tlh:	{DavHam}
 pos:	noun
@@ -3841,15 +3867,23 @@ meta:	In TKD as "credit (monetary unit)", but "monetary unit" was here
 
 tlh:	{Der}
 pos:	verb
-en:	«yaw» (about aircraft)
-sv:	«gira» (om flygmaskin)
+en:	be «yaw»ing, be «turn»ing (aircraft move nose left or right)
+sv:	vara «gira»nde, vara «svänga»nde (flygmaskin rör nosen till höger eller
+	vänster)
 def:	HQ11:2 p.9 ("{matlh jup mu'mey}")
 cite:	When the nose of an airplane or similar craft moves to the left or the
 	right, the plane is said to {Der} ~yaw~. [HQ11:2 p.9 ("{matlh jup
 	mu'mey}")]
+see:	{ron} ~be rolling~, {tor} ~be pitching~, {jIm} ~be heaving~, {Dav} ~be
+	swaying~, {jer} ~be surging~
 tag:	2002
 id:	wZe
 file:	2002-06-holqed-11-2.txt
+meta:	Translation given in HQ11:2 is {Der} ~yaw~, however that article seems
+	to suggest that the word works similarly to {ron} ~be banking, be
+	rolling~, and is therefore translated as ~be yawing~ here. One would
+	probably say {Der Duj} ~the vessel is yawing~, and {Duj DermoH 'orwI'}
+	~the pilot is yawing the vessel~.
 
 tlh:	{DeS} [.1]
 pos:	noun
@@ -4561,11 +4595,8 @@ en:	<ship>, <vessel>
 sv:	«skepp», «farkost»
 def:	TKD
 ref:	TKW pp.27, 63, 74, 182
-cite:	{chach Duj} ~ambulance~ [TNK]
-cite:	{qam Do Duj} ~bicycle~ [TNK]
-cite:	{puH Duj} ~car~ [TNK]
-cite:	{muD Duj} ~airplane~ [TNK]
-cite:	{bIQ Duj} ~ship~ [TNK]
+see:	{bIQ Duj} ~ship~; {chach Duj} ~ambulance~; {muD Duj} ~airplane~; {puH
+	Duj} ~car~; {qam Do Duj} ~bicycle~
 tag:	1985; KLCP1
 id:	ny8
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt
@@ -4830,6 +4861,19 @@ tag:	1985; KLCP1
 id:	VgM
 file:	1992-01-01-tkd.txt
 
+tlh:	{ghajwI'}
+pos:	noun
+en:	«owner»
+sv:	«ägare»
+def:	MKE
+ref:	Email 2011-11-18 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Monopoly - New Canon - The Box")
+cite:	{ghajwI'vaD qav'ap le' yIDIl.} ~Pay the special rent to the owner.~
+	[MKE]
+tag:	2011
+id:	dsZ
+file:	2011-11-17-mke.txt; 2011-11-18-email.txt
+
 tlh:	{ghal}
 pos:	verb
 en:	be «jealous» (of), «envy»
@@ -5022,7 +5066,7 @@ id:	Sk4
 file:	1997-11-01-kgt.txt
 meta:	Entries differ and have been combined here.
 
-tlh:	{ghay}
+tlh:	[1] {ghay}
 pos:	noun
 en:	Klingon ~«{gh}»~ sound
 sv:	klingonskans «{gh}»-ljud
@@ -5031,6 +5075,30 @@ ref:	Email 2009-07-27 (by Alan Anderson, to tlhingan-hol, "News from Maltz")
 tag:	2009
 id:	qCx
 file:	2009-07-27-email.txt
+
+tlh:	[2] {ghay}
+pos:	verb
+en:	«spray», «bombard», «rain» down
+sv:	«spraya», «spruta», «bombardera», «fälla», «regna» ner
+def:	TNK; MKE
+ref:	Email 2011-11-04 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - First Words"); Email 2012-01-01
+	(by David Yeung, to tlhingan-hol, "[Tlhingan-hol] Monopoly - New
+	Canon"); Email 2012-03-02 (by David Yeung, to tlhingan-hol,
+	"[Tlhingan-hol] sentences from Klingon Monopoly (was: Klingon Word of
+	the Day: {rop})")
+cite:	{bIQ ghaywI' pa'} n. shower (room) [Email 2011-11-04 (by Michael Roney,
+	Jr., to tlhingan-hol, "[Tlhingan-hol] Eurotalk - New Words - First
+	Words")]
+cite:	{jorwI'mey ghaymo' qarDaSnganpu', Hegh SuvwI'pu'lI' law' 'ej rIQ
+	SuvwI'pu'lI' law'} ~Suffer major losses after Cardassian bombing
+	campaign.~ [Email 2012-03-02 (by David Yeung, to tlhingan-hol,
+	"[Tlhingan-hol] sentences from Klingon Monopoly (was: Klingon Word of
+	the Day: {rop})")]
+tag:	2011
+id:	P2n
+file:	2011-09-30-tnk.txt; 2011-11-04-email.txt; 2011-11-17-mke.txt;
+	2012-01-01-email.txt; 2012-03-02-email.txt
 
 tlh:	{ghaytan}
 pos:	adverbial
@@ -7395,6 +7463,20 @@ data:	phrase
 id:	CWb
 file:	2011-09-30-tnk.txt; 2011-11-04-email.txt
 
+tlh:	{Huch nav}
+pos:	noun
+en:	«bill», «banknote»
+sv:	«sedel»
+def:	MKE
+ref:	Email 2011-11-18 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Monopoly - New Canon - The Box")
+cite:	{Quj wa'DIch ~Monopoly~ Huch nav qa' tlhIngan QaS.} ~Klingon forces
+	replace original Monopoly bills.~ [MKE]
+tag:	2011
+data:	phrase
+id:	MAV
+file:	2011-11-17-mke.txt; 2011-11-18-email.txt
+
 tlh:	{HuchQeD}
 pos:	noun
 en:	«economics»
@@ -8262,14 +8344,23 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{jer}
 pos:	verb
-en:	«surge», suddenly move forward or backward (about aircraft)
-sv:	«rycka», plötsligt röra sig framåt eller bakåt (om flygmaskin)
+en:	be «surging», be moving «forwards» or «backwards» suddenly (about
+	aircraft)
+sv:	vara «rycka»nde, vara i plötsligt rörelse «framåt» eller «bakåt» (om
+	flygmaskin)
 def:	HQ11:2 p.9 ("{matlh jup mu'mey}")
-cite:	[...] And if it suddenly moves forwards or backwards, it is said to
-	{jer} ~surge~. [HQ11:2 p.9 ("{matlh jup mu'mey}")]
+cite:	And if it suddenly moves forwards or backwards, it is said to {jer}
+	~surge~. [HQ11:2 p.9 ("{matlh jup mu'mey}")]
+see:	{Der} ~be yawing~, {ron} ~be rolling~, {tor} ~be pitching~, {jIm} ~be
+	heaving~, {Dav} ~be swaying~
 tag:	2002
 id:	Yf4
 file:	2002-06-holqed-11-2.txt
+meta:	Translation given in HQ11:2 is {jer} ~surge~, however that article
+	seems to suggest that the word works similarly to {ron} ~be banking, be
+	rolling~, and is therefore translated as ~be heaving~ here. One would
+	probably say {jer Duj} ~the vessel is surging~, and {Duj jermoH 'orwI'}
+	~the pilot makes the vessel surge~.
 
 tlh:	{jeS}
 pos:	verb
@@ -8448,7 +8539,7 @@ data:	deprecated
 id:	AbA
 file:	1992-01-01-tkd.txt
 meta:	*{jIj}, in the sense of "cooperate", is here assumed to be a mistake.
-	This meaning only occurs in TKD K-E, "cooperate" is translated {yeq} in
+	This meaning occurs only in TKD K-E, "cooperate" is translated {yeq} in
 	TKD E-K, and all occurrences of {jIj} in later canon are translated as
 	"be cooperative". There is even an example in KGT p.159 explicitly
 	showing the difference between {jIj} and {yeq}: {reH yeq} ("always
@@ -8478,17 +8569,26 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{jIm}
 pos:	verb
-en:	«heave» (about aircraft)
-sv:	«höja», «sänka» (om flygmaskin)
+en:	be «heaving», be moving «up» or «down», be «descend»ing or «ascend»ing
+	(about aircraft)
+sv:	vara «stiga»nde eller «sjunka»nde, vara «lyfta»nde eller «falla»nde (om
+	flygmaskin)
 def:	HQ11:2 p.9 ("{matlh jup mu'mey}")
 cite:	When the plane moves up or down (not when the nose points up or down,
 	but when the plane increases or decreases altitude, as if the whole
 	plane is being pushed up or down) [HQ11:2 p.9 ("{matlh jup mu'mey}")]
 pun:	This is what "Jim" Kirk does to outsmart Khan in the nebula at the end
 	of ST2.
+see:	{Der} ~be yawing~, {ron} ~be rolling~, {tor} ~be pitching~, {Dav} ~be
+	swaying~, {jer} ~be surging~
 tag:	2002
 id:	1iY
 file:	2002-06-holqed-11-2.txt
+meta:	Translation given in HQ11:2 is {jIm} ~heave~, however that article
+	seems to suggest that the word works similarly to {ron} ~be banking, be
+	rolling~, and is therefore translated as ~be heaving~ here. One would
+	probably say {jIm Duj} ~the vessel is moving up or down~, and {Duj
+	jImmoH 'orwI'} ~the pilot is moving the vessel up or down~.
 
 tlh:	*{jIn}
 warn:	non-canon suggestion
@@ -8817,13 +8917,23 @@ meta:	*{jornub} is here assumed to be a misspelling of {jorneb}. The word
 
 tlh:	{jorwI'}
 pos:	noun
-en:	<explosive>
-sv:	«sprängämne»
+en:	<explosive>, «bomb»
+sv:	«sprängämne», «bomb»
 def:	TKD
+ref:	MKE; Email 2012-01-01 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	Monopoly - New Canon"); Email 2012-03-02 (by David Yeung, to
+	tlhingan-hol, "[Tlhingan-hol] sentences from Klingon Monopoly (was:
+	Klingon Word of the Day: {rop})")
+cite:	{jorwI'mey ghaymo' qarDaSnganpu', Hegh SuvwI'pu'lI' law' 'ej rIQ
+	SuvwI'pu'lI' law'} ~Suffer major losses after Cardassian bombing
+	campaign.~ [Email 2012-03-02 (by David Yeung, to tlhingan-hol,
+	"[Tlhingan-hol] sentences from Klingon Monopoly (was: Klingon Word of
+	the Day: {rop})")]
 tag:	1985
 data:	derived form
 id:	S1x
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 2011-11-17-mke.txt; 2012-01-01-email.txt;
+	2012-03-02-email.txt
 
 tlh:	{joS} [1]
 pos:	verb
@@ -9543,6 +9653,22 @@ tag:	1997
 id:	pWb
 file:	1997-11-01-kgt.txt
 
+tlh:	{le'mIS}
+pos:	noun
+en:	«blockade»
+sv:	«blockad»
+def:	MKE
+ref:	Email 2012-01-01 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	Monopoly - New Canon"); Email 2012-03-02 (by David Yeung, to
+	tlhingan-hol, "[Tlhingan-hol] sentences from Klingon Monopoly (was:
+	Klingon Word of the Day: {rop})")
+cite:	{DIvI' le'mISvo' bInargh.} ~Escape Federation blockade.~ [Email
+	2012-03-02 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol] sentences
+	from Klingon Monopoly (was: Klingon Word of the Day: {rop})")]
+tag:	2011
+id:	hLj
+file:	2011-11-17-mke.txt; 2012-01-01-email.txt; 2012-03-02-email.txt
+
 tlh:	{le'yo'}
 pos:	noun
 en:	«pride»
@@ -9550,7 +9676,7 @@ sv:	«stolthet»
 def:	{qep'a'} 2011
 ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
 	from qep'a' 18")
-com:	Just to be clear, this describes an emotion, as opposed to a pribe of
+com:	Just to be clear, this describes an emotion, as opposed to a pride of
 	lions. /Alan Anderson
 tag:	2011
 id:	Kcn
@@ -9759,7 +9885,7 @@ pos:	noun
 en:	<substitute>, <stand-in>, temporary <surrogate>
 sv:	«ersättning», «ersättare», tillfälligt «surrogat»
 def:	KGT
-see:	{qa'meH}
+see:	{qa'meH}; {qa'} ~replace~
 tag:	1997
 id:	W1T
 file:	1997-11-01-kgt.txt
@@ -9945,6 +10071,17 @@ en:	be in an «attitude», be in a «stance», be in a «pose»
 sv:	vara i en «position», vara i ett «läge», vara i en «pose», vara i en
 	«ställning», vara i en «hållning»
 def:	HQ11:2 p.8 ("{matlh jup mu'mey}")
+cite:	~Be in an attitude~ is {lol}. Derived forms in fairly common usage are
+	{lolchu'} ~be in a correct attitude~ ({-chu'} ~clearly, perfectly~),
+	{loltaH} ~maintain an attitude~ ({-taH} ~continuous~), and even
+	{lolchu'taH} ~maintain a correct attitude~. To maneuver the aircraft to
+	be in some attitude or other is to {lolmoH} the vehicle ({-moH}
+	~cause~), as in: {qughmeH Duj vIlolmoH} ~I put the vessel in the
+	attitude for cruise (or cruising)~ [HQ11:2 p.8 ("{matlh jup mu'mey}")]
+cite:	The verb {lol} can also apply to people or animals. When it does, it is
+	usually translated ~be in a stance~ or ~be in a pose~. Thus, it is used
+	in such sentences as: {DuHIvmeH SuvwI' lol ghaH} ~the warrior is in a
+	stance to attack you~ [HQ11:2 p.8 ("{matlh jup mu'mey}")]
 tag:	2002
 id:	pcL
 file:	2002-06-holqed-11-2.txt
@@ -11565,6 +11702,28 @@ tag:	1985
 id:	z5M
 file:	1992-01-01-tkd.txt
 
+tlh:	{mI' nagh}
+pos:	noun
+en:	«die», «dice» (for playing games)
+sv:	«tärning»
+def:	MKE
+ref:	Email 2012-01-01 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	Monopoly - New Canon"); Email 2012-03-02 (by David Yeung, to
+	tlhingan-hol, "[Tlhingan-hol] sentences from Klingon Monopoly (was:
+	Klingon Word of the Day: {rop})")
+cite:	{pIraqSIS HoS waw' ghajlu'chugh, loSlogh boq'egh mI' naghmey mI'; chen
+	qav'ap.} ~If Praxis Energy Facility is owned, rent is 4 times amount
+	shown on dice.~ [Email 2012-03-02 (by David Yeung, to tlhingan-hol,
+	"[Tlhingan-hol] sentences from Klingon Monopoly (was: Klingon Word of
+	the Day: {rop})")]
+cite:	{mI' naghmey tIronmoH} ~throw dice~ [Email 2012-03-02 (by David Yeung,
+	to tlhingan-hol, "[Tlhingan-hol] sentences from Klingon Monopoly (was:
+	Klingon Word of the Day: {rop})")]
+tag:	2011
+data:	phrase
+id:	jSJ
+file:	2011-11-17-mke.txt; 2012-01-01-email.txt; 2012-03-02-email.txt
+
 tlh:	{mob}
 pos:	verb
 en:	be <alone>
@@ -11673,9 +11832,9 @@ tag:	1985
 data:	deprecated
 id:	Acr
 file:	1992-01-01-tkd.txt
-meta:	*{mojaQ} is here assumed to be a misspelling of {mojaq}. The word only
-	occurs in TKD, the two spellings occur once each (in each side of the
-	dictionary part), however the word {moHaq} ~prefix~ is consistently
+meta:	*{mojaQ} is here assumed to be a misspelling of {mojaq}. The word
+	occurs only in TKD, the two spellings occur once each (in each side of
+	the dictionary part), however the word {moHaq} ~prefix~ is consistently
 	spelled with a lower case {q}. The case isn't strong, but it does lean
 	towards *{mojaQ} being a misspelling.
 
@@ -14165,6 +14324,23 @@ tag:	2009
 id:	bxN
 file:	2009-07-27-email.txt
 
+tlh:	{ngay'}
+pos:	noun
+en:	«glory»
+sv:	«härlighet», «prakt»
+def:	MKE
+ref:	Email 2012-03-02 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	sentences from Klingon Monopoly (was: Klingon Word of the Day: {rop})")
+cite:	{wo' ngay' bochoqmeH bowIvlu'pu'!} ~You have been chosen to preserve
+	the glory of the Empire!~ [MKE]
+com:	The word {ngay'} occurs only in one canon sentence, and a translation
+	is only given for the sentence as a whole, not for the specific word.
+	Hence the translation given here is uncertain and might be revised in
+	the future.
+tag:	2011
+id:	hqb
+file:	2011-11-17-mke.txt; 2012-03-02-email.txt
+
 tlh:	{nga'chuq}
 pos:	verb
 en:	have «sex», perform sex
@@ -14406,11 +14582,19 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{ngIq}
 pos:	noun
-en:	«singular one», «individual one»
-sv:	«enda en», «enstaka en»
+en:	«each», «singular one», «individual one»
+sv:	«vardera», «enda en», «enstaka en»
 def:	{qep'a'} 2011
-ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
-	from qep'a' 18")
+ref:	MKE; Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New
+	Words from qep'a' 18"); Email 2012-01-01 (by David Yeung, to
+	tlhingan-hol, "[Tlhingan-hol] Monopoly - New Canon"); Email 2012-03-02
+	(by David Yeung, to tlhingan-hol, "[Tlhingan-hol] sentences from
+	Klingon Monopoly (was: Klingon Word of the Day: {rop})")
+cite:	{ngIq raQ – 150 QaS} ~outposts cost 150 each~ / {ngIq raQvaD cha'maH
+	vagh QaS yInob.} ~For each outpost pay 25 forces.~ / {ngIq gholvo'
+	wa'maH QaS yItlhap.} ~Collect 10 forces from every player.~ [Email
+	2012-03-02 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol] sentences
+	from Klingon Monopoly (was: Klingon Word of the Day: {rop})")]
 com:	There were two distinct examples of this word's use seen in the opera.
 	One of them was obviously detailing how a group of warriors was killed
 	one at a time: {ngIq nuv luHoH} "they killed the warriors one by one."
@@ -14422,7 +14606,8 @@ com:	There were two distinct examples of this word's use seen in the opera.
 	inspected. /Alan Anderson (talking about the Klingon opera {'u'})
 tag:	2011
 id:	djn
-file:	2011-08-22-email.txt
+file:	2011-08-22-email.txt; 2011-11-17-mke.txt; 2012-01-01-email.txt;
+	2012-03-02-email.txt
 
 tlh:	{ngIv}
 pos:	verb
@@ -15588,6 +15773,22 @@ data:	derived form
 id:	7UN
 file:	2012-01-26-email.txt
 
+tlh:	{pIraqSIS}
+pos:	noun
+en:	«Praxis» (Klingon moon)
+sv:	«Praxis» (klingonsk måne)
+def:	MKE
+ref:	Email 2012-03-02 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	sentences from Klingon Monopoly (was: Klingon Word of the Day: {rop})")
+cite:	{pIraqSIS HoS waw' ghajlu'chugh, loSlogh boq'egh mI' naghmey mI'; chen
+	qav'ap.} ~If Praxis Energy Facility is owned, rent is 4 times amount
+	shown on dice.~ [Email 2012-03-02 (by David Yeung, to tlhingan-hol,
+	"[Tlhingan-hol] sentences from Klingon Monopoly (was: Klingon Word of
+	the Day: {rop})")]
+tag:	2011
+id:	haA
+file:	2011-11-17-mke.txt; 2012-03-02-email.txt
+
 tlh:	{pIrmuS}
 pos:	noun
 en:	«bottom» (underside of something, not interior bottom)
@@ -16426,14 +16627,18 @@ meta:	"challenge" [TKD]; "face" [TKW]; "confront", "face", "oppose", "resist"
 
 tlh:	{qaD} [2]
 pos:	noun
-en:	<challenge>, <test> of one's abilities
-sv:	«utmaning», «test» av ens förmågor
+en:	<challenge>, <test> of one's abilities, «contest»
+sv:	«utmaning», «test» av ens förmågor, «tävling»
 def:	TKDa; KGT
+ref:	MKE; Email 2012-01-01 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	Monopoly - New Canon")
 tag:	1992
 id:	a3a
-file:	1997-11-01-kgt.txt; 1992-01-01-tkd.txt
-meta:	Word list entries says "challenge (n)" in TKD, and "test of one's
-	abilities (n)" in KGT K-E. They have been combined here.
+file:	1997-11-01-kgt.txt; 1992-01-01-tkd.txt; 2011-11-17-mke.txt;
+	2012-01-01-email.txt
+meta:	Word list entries says ~challenge (n)~ in TKD, and ~test of one's
+	abilities (n)~ in KGT K-E. They have been combined here. The meaning
+	~contest~ comes from MKE.
 
 tlh:	[1] {qagh}
 pos:	verb
@@ -16664,6 +16869,23 @@ tag:	1997
 id:	HLt
 file:	1997-11-01-kgt.txt
 
+tlh:	{qarDaSQa'}
+pos:	noun
+en:	«Cardassian Union»
+sv:	«Cardassiska Unionen»
+def:	MKE
+ref:	Email 2012-01-01 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	Monopoly - New Canon"); Email 2012-03-02 (by David Yeung, to
+	tlhingan-hol, "[Tlhingan-hol] sentences from Klingon Monopoly (was:
+	Klingon Word of the Day: {rop})")
+cite:	{qarDaSQa'Daq ruDelya' rop'a' Hergh qengbogh yo' Dabot.} ~Intercept
+	Rudellian plague relief convoy to Cardassian Union.~ [Email 2012-03-02
+	(by David Yeung, to tlhingan-hol, "[Tlhingan-hol] sentences from
+	Klingon Monopoly (was: Klingon Word of the Day: {rop})")]
+tag:	2011
+id:	rhp
+file:	2011-11-17-mke.txt; 2012-01-01-email.txt; 2012-03-02-email.txt
+
 tlh:	{qarghan}
 pos:	name
 en:	«Kargan»
@@ -16746,6 +16968,26 @@ tag:	2012
 id:	eap
 file:	2012-01-12-email.txt
 
+tlh:	{qav'ap}
+pos:	noun
+en:	«value», «amount» (of money)
+sv:	«pris», «värde», «belopp», «summa» (pengar)
+def:	MKE
+ref:	Email 2012-03-02 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	sentences from Klingon Monopoly (was: Klingon Word of the Day: {rop})")
+cite:	{ghajwI'vaD qav'ap le' yIDIl.} ~Pay the special rent to the owner.~
+	[MKE]
+cite:	{voHDajbo' qav'ap} ~mortgage value~ [MKE]
+cite:	{HoSHal ghajchugh vay', mI' naghmey tIronmoH. wa'maHlogh boq'egh mI'
+	naghmey; chen qav'ap. ghajwI'vaD qav'ap yIDIl.} ~If [energy source is]
+	owned, throw dice and pay owner a total ten times amount shown.~ [MKE]
+cite:	{pIraqSIS HoS waw' ghajlu'chugh, loSlogh boq'egh mI' naghmey mI'; chen
+	qav'ap.} ~If Praxis Energy Facility is owned, rent is 4 times amount
+	shown on dice.~ [MKE]
+tag:	2011; economics
+id:	TxY
+file:	2011-11-17-mke.txt; 2012-03-02-email.txt
+
 tlh:	{qaw}
 pos:	verb
 en:	<remember>
@@ -16812,7 +17054,31 @@ tag:	1985; KLCP1
 id:	dzh
 file:	1992-01-01-tkd.txt
 
-tlh:	{qa'}
+tlh:	[1] {qa'}
+pos:	verb
+en:	«replace»
+sv:	«ersätta»
+def:	MKE
+ref:	HQ5:1 p.10 ("A Note on Proverbs")
+cite:	The Klingon term for a ~replacement proverb~ is {qa'meH vIttlhegh}.
+	This is the only way to say ~replacement proverb~ currently, but in the
+	past, the common term was the lengthier {quvqa'meH vIttlhegh},
+	literally, ~proverb for (the purpose of) being honored again.~ The word
+	{qa'meH}, clearly a shortened form of {quvqa'meH}, was originally used
+	only in the construction of {qa'meH vIttlhegh}, but, though
+	historically two verb suffixes, it has become accepted as a noun in its
+	own right, meaning ~replacement~ in the sense of something that takes
+	over for or is used instead of something that is gone or that has been
+	lost. It is not used for a temporary substitute or a stand-in; the word
+	for that is {lIw}. [HQ5:1 p.10 ("A Note on Proverbs")]
+cite:	{Quj wa'DIch ~Monopoly~ Huch nav qa' tlhIngan QaS} ~Klingon forces
+	replace original Monopoly bills~ [MKE]
+see:	{lIw}
+tag:	2011
+id:	fVD
+file:	2011-11-17-mke.txt
+
+tlh:	[2] {qa'}
 pos:	noun
 en:	<spirit>
 sv:	«ande»
@@ -18171,7 +18437,7 @@ tag:	1997
 id:	Uuv
 file:	1997-11-01-kgt.txt
 meta:	Entries differ and have been combined here. Translation "be
-	superlative" only occurs on KGT p.159, other translations can be found
+	superlative" occurs only on KGT p.159, other translations can be found
 	in KGT word list and main text, "be good" is only found in words lists
 	(not main text of book).
 
@@ -18610,6 +18876,24 @@ tag:	1985
 id:	HrJ
 file:	1992-01-01-tkd.txt
 
+tlh:	{Qej}
+pos:	verb
+en:	«cherish», «value», «prize», consider «precious»
+sv:	«uppskatta», «värdera», hålla av, anse värdefull
+def:	MKE
+ref:	Email 2012-03-02 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	sentences from Klingon Monopoly (was: Klingon Word of the Day: {rop})")
+cite:	{Qo'noS romuluS je boSuqlaH. vabDot tera' Qejbogh DIvI' ram boSuqlaH.}
+	~Kronos, Romulus and even the puny Federation's precious Earth, are all
+	up for grabs.~ [MKE]
+com:	The word {Qej} occurs only in one canon sentence, and a translation is
+	only given for the sentence as a whole, not for the specific word.
+	Hence the translation given here is uncertain and might be revised in
+	the future.
+tag:	2011
+id:	t6q
+file:	2011-11-17-mke.txt; 2012-03-02-email.txt
+
 tlh:	[1] {Qel}
 pos:	noun
 en:	<doctor>, <physician>
@@ -18809,12 +19093,14 @@ file:	1997-11-01-kgt.txt
 
 tlh:	{QIH} [2]
 pos:	noun
-en:	<damage>, <destruction>
-sv:	«skada», «förstörelse»
+en:	<damage>, <destruction>, «wound»
+sv:	«skada», «förstörelse», «wound»
 def:	TKD
 tag:	1985
 id:	QKE
 file:	1992-01-01-tkd.txt
+meta:	Meaning ~wound~ is added in parallel to {rIQ}, which has been
+	established to mean both ~be injured~ and ~be damaged~ (in MKE).
 
 tlh:	{QIj}
 pos:	verb
@@ -19444,6 +19730,19 @@ tag:	2011
 data:	phrase
 id:	qrH
 file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
+
+tlh:	{QujwI' lIwmey}
+pos:	noun
+en:	game «token», game «piece»
+sv:	«spelpjäs»
+def:	MKE
+ref:	Email 2011-11-18 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Monopoly - New Canon - The Box")
+cite:	{polmeH jav QujwI' lIwmey} ~6 collectible tokens~ [MKE]
+tag:	2011
+data:	derived form; phrase
+id:	zuE
+file:	2011-11-17-mke.txt; 2011-11-18-email.txt
 
 tlh:	{Qul}
 pos:	verb
@@ -20132,12 +20431,14 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{rIQ}
 pos:	verb
-en:	be <injured>
+en:	be <injured>, be «damaged»
 sv:	vara «skadad»
 def:	TKD
+ref:	MKE; Email 2012-03-02 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	sentences from Klingon Monopoly (was: Klingon Word of the Day: {rop})")
 tag:	1985
 id:	xur
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 2011-11-17-mke.txt; 2012-03-02-email.txt
 
 tlh:	{rIQmoH}
 pos:	verb
@@ -20148,6 +20449,22 @@ tag:	1985
 data:	derived form
 id:	Wsm
 file:	1992-01-01-tkd.txt
+
+tlh:	{rIt}
+pos:	verb
+en:	«summon»
+sv:	«tillkalla»
+def:	MKE
+ref:	Email 2012-01-01 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	Monopoly - New Canon"); Email 2012-03-02 (by David Yeung, to
+	tlhingan-hol, "[Tlhingan-hol] sentences from Klingon Monopoly (was:
+	Klingon Word of the Day: {rop})")
+cite:	{DurIt tlhIngan yejquv.} ~Summoned to the Klingon High Council.~ [Email
+	2012-03-02 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol] sentences
+	from Klingon Monopoly (was: Klingon Word of the Day: {rop})")]
+tag:	2011
+id:	LwP
+file:	2011-11-17-mke.txt; 2012-01-01-email.txt; 2012-03-02-email.txt
 
 tlh:	{rItlh}
 pos:	noun
@@ -20287,6 +20604,20 @@ tag:	1985
 id:	pbp
 file:	1992-01-01-tkd.txt
 
+tlh:	{rojmab qep}
+pos:	noun
+en:	«peace talks», «peace meeting»
+sv:	«fredsmöte»
+def:	MKE
+ref:	Email 2012-03-02 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	sentences from Klingon Monopoly (was: Klingon Word of the Day: {rop})")
+cite:	{DIvI' rojmab qep ghanglu' 'e' nIDlu', 'ach taH qep.} ~Despite efforts
+	to halt them, peace talks with Federation continue.~ [MKE]
+tag:	2011
+data:	phrase
+id:	WGJ
+file:	2011-11-17-mke.txt; 2012-03-02-email.txt
+
 tlh:	{rol}
 pos:	noun
 en:	<beard>
@@ -20347,16 +20678,54 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{ron}
 pos:	verb
-en:	«bank», «roll» (about aircraft)
-sv:	«banka», «rolla» (om flygmaskin)
-def:	HQ11:2 p.9 ("{matlh jup mu'mey}")
+en:	be «bank»ing, be «roll»ing (aircraft rotates around longitudinal axis),
+	be rolling (about dice)
+sv:	vara «banka»nde, vara «rolla»nde, vara «kränga»nde (flygmaskin roterar
+	runt sin ländaxel), vara «rulla»nde (om tärning)
+def:	HQ11:2 p.9 ("{matlh jup mu'mey}"); MKE
+ref:	Email 2012-01-01 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	Monopoly - New Canon"); Email 2012-03-02 (by David Yeung, to
+	tlhingan-hol, "[Tlhingan-hol] sentences from Klingon Monopoly (was:
+	Klingon Word of the Day: {rop})")
 cite:	When the plane banks or rolls to one side or the other so that, say,
 	the left wing is pointed somewhat (or even a lot) upwards while the
 	right wing is pointed somewhat (or a lot) downwards, or vice versa, it
 	is said to {ron} ~roll~. [HQ11:2 p.9 ("{matlh jup mu'mey}")]
+cite:	{Duj ronmoH 'orwI'} ~the pilot banks the vessel~ [HQ11:2 p.9 ("{matlh
+	jup mu'mey}")]
+cite:	{mI' naghmey tIronmoH} ~throw dice~ [Email 2012-03-02 (by David Yeung,
+	to tlhingan-hol, "[Tlhingan-hol] sentences from Klingon Monopoly (was:
+	Klingon Word of the Day: {rop})")]
+see:	{Der} ~be yawing~, {tor} ~be pitching~, {jIm} ~be heaving~, {Dav} ~be
+	swaying~, {jer} ~be surging~
 tag:	2002
 id:	c4G
-file:	2002-06-holqed-11-2.txt
+file:	2002-06-holqed-11-2.txt; 2011-11-17-mke.txt; 2012-01-01-email.txt;
+	2012-03-02-email.txt
+meta:	Translation given in HQ11:2 is {ron} ~roll~ and {ronmoH} ~cause to
+	roll~ or ~bank~. Since, quite obviously, an intransitive meaning is
+	intended for {ron} the word have here been translated ~be rolling, be
+	banking~, instead. This translation is also suggested by the use of
+	{ronmoH} for ~to roll (a die)~ in MKE.
+
+tlh:	{ronmoH}
+pos:	verb
+en:	«throw» (dice), «bank» (aircraft), «roll»
+sv:	«kasta» (tärning), «rolla» (flygmaskin), «rulla»
+def:	HQ11:2 p.9 ("{matlh jup mu'mey}"); MKE
+ref:	Email 2012-01-01 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	Monopoly - New Canon"); Email 2012-03-02 (by David Yeung, to
+	tlhingan-hol, "[Tlhingan-hol] sentences from Klingon Monopoly (was:
+	Klingon Word of the Day: {rop})")
+cite:	{Duj ronmoH 'orwI'} ~the pilot banks the vessel~ [HQ11:2 p.9 ("{matlh
+	jup mu'mey}")]
+cite:	{mI' naghmey tIronmoH} ~throw dice~ [Email 2012-03-02 (by David Yeung,
+	to tlhingan-hol, "[Tlhingan-hol] sentences from Klingon Monopoly (was:
+	Klingon Word of the Day: {rop})")]
+tag:	2011
+data:	derived form
+id:	9C8
+file:	2011-11-17-mke.txt; 2012-01-01-email.txt; 2012-03-02-email.txt
 
 tlh:	{rop} [1]
 pos:	verb
@@ -20490,6 +20859,43 @@ def:	TKDa
 tag:	1992
 id:	QyT
 file:	1992-01-01-tkd.txt
+
+tlh:	{ruDelya'}
+pos:	noun
+en:	«Rudellia»
+sv:	«Rudellia»
+def:	MKE
+ref:	Email 2012-01-01 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	Monopoly - New Canon"); Email 2012-03-02 (by David Yeung, to
+	tlhingan-hol, "[Tlhingan-hol] sentences from Klingon Monopoly (was:
+	Klingon Word of the Day: {rop})")
+cite:	{qarDaSQa'Daq ruDelya' rop'a' Hergh qengbogh yo' Dabot.} ~Intercept
+	Rudellian plague relief convoy to Cardassian Union.~ [Email 2012-03-02
+	(by David Yeung, to tlhingan-hol, "[Tlhingan-hol] sentences from
+	Klingon Monopoly (was: Klingon Word of the Day: {rop})")]
+com:	According to "Star Trek: Star Charts" by Geoffrey Mandel, Rudellia is a
+	planetary system located within Cardassian space.
+tag:	2011
+id:	vcj
+file:	2011-11-17-mke.txt; 2012-01-01-email.txt; 2012-03-02-email.txt
+
+tlh:	{ruDelya' rop'a'}
+pos:	noun
+en:	«Rudellian «plague»»
+sv:	«Rudellianska sjukan», «Rudellianska «pesten»»
+def:	MKE
+ref:	Email 2012-01-01 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	Monopoly - New Canon"); Email 2012-03-02 (by David Yeung, to
+	tlhingan-hol, "[Tlhingan-hol] sentences from Klingon Monopoly (was:
+	Klingon Word of the Day: {rop})")
+cite:	{qarDaSQa'Daq ruDelya' rop'a' Hergh qengbogh yo' Dabot.} ~Intercept
+	Rudellian plague relief convoy to Cardassian Union.~ [Email 2012-03-02
+	(by David Yeung, to tlhingan-hol, "[Tlhingan-hol] sentences from
+	Klingon Monopoly (was: Klingon Word of the Day: {rop})")]
+tag:	2011
+data:	phrase
+id:	8gT
+file:	2011-11-17-mke.txt; 2012-01-01-email.txt; 2012-03-02-email.txt
 
 tlh:	{rugh}
 pos:	noun
@@ -21220,6 +21626,23 @@ def:	TKDa
 tag:	1992
 id:	61f
 file:	1992-01-01-tkd.txt
+
+tlh:	{SIbI'Ha'}
+pos:	verb
+en:	«later», «eventually», after a «delay»
+sv:	«senare», så «småningom», om ett tag
+def:	MKE
+ref:	Email 2012-01-01 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	Monopoly - New Canon"); Email 2012-03-02 (by David Yeung, to
+	tlhingan-hol, "[Tlhingan-hol] sentences from Klingon Monopoly (was:
+	Klingon Word of the Day: {rop})")
+cite:	{chaw'vam yIpol 'ej SIbI'Ha' yIlo' pagh 'oH yImech.} ~This card may be
+	kept until needed or traded.~ [Email 2012-03-02 (by David Yeung, to
+	tlhingan-hol, "[Tlhingan-hol] sentences from Klingon Monopoly (was:
+	Klingon Word of the Day: {rop})")]
+tag:	2011
+id:	VU3
+file:	2011-11-17-mke.txt; 2012-01-01-email.txt; 2012-03-02-email.txt
 
 tlh:	{SIch}
 pos:	verb
@@ -22365,12 +22788,14 @@ file:	1992-01-01-tkd.txt
 
 tlh:	[2] {tam}
 pos:	verb
-en:	<exchange>, <substitute>
+en:	<exchange>, <substitute>, «replace»
 sv:	«byta» (ut), «ersätta»
 def:	TKD
+ref:	MKE; Email 2012-03-02 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	sentences from Klingon Monopoly (was: Klingon Word of the Day: {rop})")
 tag:	1985
 id:	fKW
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 2011-11-17-mke.txt; 2012-03-02-email.txt
 
 tlh:	{tammoH}
 pos:	verb
@@ -23425,17 +23850,24 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{tor} [.2]
 pos:	verb
-en:	«pitch» (about aircraft)
-sv:	«tippa», «kränga» (om flygmaskin)
+en:	be «pitch»ing, be «tilt»ing (aircraft tilts nose up or down)
+sv:	vara «tippa»nde, vara «vippa»nde (flygmaskin rör nosen upp eller ner)
 def:	HQ11:2 p.9 ("{matlh jup mu'mey}")
 cite:	And when the nose of the plane moves up or down, the plane is said to
 	{tor} ~pitch~. (the word {tor} also means ~kneel~, which Maltz thought
 	was apt, since if a four-legged animal is able to kneel with either its
 	hind legs or its front legs, it is able to pitch or tilt up or down.)
 	[HQ11:2 p.9 ("{matlh jup mu'mey}")]
+see:	{Der} ~be yawing~, {ron} ~be rolling~, {jIm} ~be heaving~, {Dav} ~be
+	swaying~, {jer} ~be surging~
 tag:	2002
 id:	oV2
 file:	2002-06-holqed-11-2.txt
+meta:	Translation given in HQ11:2 is {tor} ~pitch~, however that article
+	seems to suggest that the word works similarly to {ron} ~be banking, be
+	rolling~, and is therefore translated as ~be pitching~ here. One would
+	probably say {tor Duj} ~the vessel is pitching~, and {Duj tormoH
+	'orwI'} ~the pilot causes the vessel to pitch~.
 
 tlh:	{torgh}
 pos:	name
@@ -23963,6 +24395,26 @@ tag:	1985; KLCP1
 id:	3mE
 file:	1992-01-01-tkd.txt
 
+tlh:	{tlhapqa'}
+pos:	noun
+en:	«retrieve»
+sv:	«ta» tillbaka
+def:	MKE
+ref:	Email 2012-01-01 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	Monopoly - New Canon"); Email 2012-03-02 (by David Yeung, to
+	tlhingan-hol, "[Tlhingan-hol] sentences from Klingon Monopoly (was:
+	Klingon Word of the Day: {rop})")
+cite:	{jagh Duj DaQaw' 'ach pagh qama' Datlhapqa'.} ~Destroy enemy vessel
+	without retrieving prisoners.~ / {qeylIS 'etlh Datlhapqa' 'e'
+	DaQapbe'.} ~Fail to retrieve the Sword of Kahless.~ [Email 2012-03-02
+	(by David Yeung, to tlhingan-hol, "[Tlhingan-hol] sentences from
+	Klingon Monopoly (was: Klingon Word of the Day: {rop})")]
+com:	Obvious application of suffix {-qa'} to {tlhap}. /David Yeung
+tag:	2011
+data:	derived form
+id:	8Qf
+file:	2011-11-17-mke.txt; 2012-01-01-email.txt; 2012-03-02-email.txt
+
 tlh:	*{tlhaptIH}
 warn:	non-canon suggestion, use {luHwI' tIH} instead
 pos:	noun
@@ -24326,6 +24778,29 @@ data:	phrase
 id:	CtP
 file:	1997-11-01-kgt.txt
 
+tlh:	{tlhIngan 'IH qaD}
+pos:	noun
+en:	Klingon «beauty «contest»»
+sv:	klingonsk «skönhets«tävling»»
+def:	MKE
+ref:	Email 2012-01-01 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	Monopoly - New Canon"); Email 2012-03-02 (by David Yeung, to
+	tlhingan-hol, "[Tlhingan-hol] sentences from Klingon Monopoly (was:
+	Klingon Word of the Day: {rop})")
+cite:	{tlhIngan 'IH qaD DaQap.} ~Win Klingon beauty contest.~ [Email
+	2012-03-02 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol] sentences
+	from Klingon Monopoly (was: Klingon Word of the Day: {rop})")]
+com:	The beauty contest one is from the sentence {tlhIngan 'IH qaD DaQap}
+	~Win Klingon Beauty Contest~. I'm not sure if *{'IH qaD} can be
+	separated out as a noun meaning ~beauty contest~ (which would imply the
+	existence of *{'IH} n. beauty). It can also be parsed as {tlhIngan 'IH}
+	plus {qaD}, that is, a contest for a beautiful Klingon, so {'IH} is
+	probably a verb here. /David Yeung
+tag:	2011
+data:	phrase
+id:	bKf
+file:	2011-11-17-mke.txt; 2012-01-01-email.txt; 2012-03-02-email.txt
+
 tlh:	{tlhIng yoS}
 pos:	noun
 en:	«Kling district»
@@ -24672,6 +25147,24 @@ def:	TKDa 5.5 (p.178)
 tag:	1992
 id:	yNh
 file:	1992-01-01-tkd.txt
+
+tlh:	{vabDot}
+pos:	adverbial
+en:	«even», «also», «additionally»
+sv:	«även», «tillochmed», «också», «likaså», «dessutom»
+def:	MKE
+ref:	Email 2012-03-02 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	sentences from Klingon Monopoly (was: Klingon Word of the Day: {rop})")
+cite:	{Qo'noS romuluS je boSuqlaH. vabDot tera' Qejbogh DIvI' ram boSuqlaH.}
+	~Kronos, Romulus and even the puny Federation's precious Earth, are all
+	up for grabs.~ [MKE]
+com:	The word {vabDot} occurs only in one canon sentence, and a translation
+	is only given for the sentence as a whole, not for the specific word.
+	Hence the translation given here is uncertain and might be revised in
+	the future.
+tag:	2011
+id:	3d5
+file:	2011-11-17-mke.txt; 2012-03-02-email.txt
 
 tlh:	{vaD}
 pos:	verb
@@ -25056,6 +25549,18 @@ tag:	2012
 id:	dkn
 file:	2012-01-12-email.txt
 
+tlh:	{velqa'}
+pos:	noun
+en:	«replica», «copy»
+sv:	«replik», «kopia»
+def:	MKE
+ref:	Email 2011-11-18 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Monopoly - New Canon - The Box")
+cite:	{Qang naQ velqa'} ~chancellor's cane replica~ [MKE]
+tag:	2011
+id:	UiA
+file:	2011-11-17-mke.txt; 2011-11-18-email.txt
+
 tlh:	{velwI'}
 pos:	noun
 en:	«coverer», «coater», «masker»
@@ -25250,6 +25755,24 @@ def:	TKD
 tag:	1985; animal
 id:	5Kr
 file:	1992-01-01-tkd.txt
+
+tlh:	{vey}
+pos:	noun
+en:	«set», «pack», «package»
+sv:	«uppsättning», «packe», «bunt»
+def:	MKE
+ref:	Email 2012-03-02 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	sentences from Klingon Monopoly (was: Klingon Word of the Day: {rop})")
+cite:	{wa' tlhIngan QaS vey} ~one pack of Klingon forces~ [MKE]
+cite:	{veymey puS neH chenmoHlu'pu'} ~Limited Edition~ [MKE]
+cite:	{boSwI'vaD veyvam le' chenmoHlu'} ~Collector's Edition~ [MKE]
+com:	The word {vey} occurs only in three canon sentences for which
+	translations are only given for the sentences as a whole, not for the
+	specific word. Hence the translation given here is uncertain and might
+	be revised in the future.
+tag:	2011
+id:	H63
+file:	2011-11-17-mke.txt; 2012-03-02-email.txt
 
 tlh:	{vID}
 pos:	verb
@@ -25500,12 +26023,12 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{voHDajbo'}
 pos:	noun
-en:	<ransom>
+en:	<ransom>, «mortgage»
 sv:	«lösensumma»
-def:	TKD
+def:	TKD; MKE
 tag:	1985; economics
 id:	nW3
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 2011-11-17-mke.txt
 
 tlh:	{volchaH}
 pos:	noun
@@ -26013,13 +26536,16 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{wa'DIch}
 pos:	numeral
-en:	<first>, «beginning», «start»
-sv:	«första», «början», «start»
+en:	<first>, «beginning», «start», «original»
+sv:	«första», «början», «start», «original», «ursprunglig»
 def:	TKD
-ref:	TDNW
+ref:	TDNW; MKE; Email 2011-11-18 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Monopoly - New Canon - The Box")
+cite:	{Quj wa'DIch ~Monopoly~ Huch nav qa' tlhIngan QaS.} ~Klingon forces
+	replace original Monopoly bills.~ [MKE]
 tag:	1985; math
 id:	6b7
-file:	1992-01-01-tkd.txt
+file:	1992-01-01-tkd.txt; 2011-11-17-mke.txt; 2011-11-18-email.txt
 
 tlh:	{wa'Hu'}
 pos:	noun
@@ -26586,6 +27112,27 @@ tag:	2003
 id:	WEz
 file:	2003-12-holqed-12-4.txt
 
+tlh:	{wun}
+pos:	verb
+en:	be «unprotected», be «vulnerable»
+sv:	vara «oskyddad», vara «sårbar», vara «utsatt»
+def:	MKE
+ref:	Email 2012-01-01 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	Monopoly - New Canon"); Email 2012-03-02 (by David Yeung, to
+	tlhingan-hol, "[Tlhingan-hol] sentences from Klingon Monopoly (was:
+	Klingon Word of the Day: {rop})")
+cite:	{Dumer DIvI' QaS 'ej DuHIv, vaj bIwunchoH 'ej bIrIQchoH.} ~Surprise
+	attack by Federation leaves you unprotected and damaged.~ [Email
+	2012-03-02 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol] sentences
+	from Klingon Monopoly (was: Klingon Word of the Day: {rop})")]
+cite:	{DuHIv jagh Dangu'laHbe'bogh, vaj bIwunchoH 'ej bIpujchoH.} ~Attack by
+	unknown enemy leaves you vulnerable and weak.~ [Email 2012-03-02 (by
+	David Yeung, to tlhingan-hol, "[Tlhingan-hol] sentences from Klingon
+	Monopoly (was: Klingon Word of the Day: {rop})")]
+tag:	2011
+id:	yXk
+file:	2011-11-17-mke.txt; 2012-01-01-email.txt; 2012-03-02-email.txt
+
 tlh:	{wup}
 pos:	verb
 en:	<burst into song>
@@ -26781,6 +27328,23 @@ tag:	1997; fighting
 data:	derived form
 id:	CAD
 file:	1997-11-01-kgt.txt
+
+tlh:	{yan 'ISletlh}
+pos:	noun
+en:	«Yan-Isleth», Svärdets brödraskap
+sv:	«Yan-Isleth», Brotherhood of the Sword
+def:	MKE
+ref:	Email 2012-03-02 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
+	sentences from Klingon Monopoly (was: Klingon Word of the Day: {rop})")
+cite:	{Qang QanmeH yan 'ISletlh Damuv 'e' wIvlu'.} ~You are chosen to serve
+	on the Yan-Isleth and protect the Chancellor.~ [MKE]
+com:	The ~Yan-Isleth~, or ~Brotherhood of the Sword~, was an elite Klingon
+	division charged with protecting the Klingon chancellor. They guarded
+	the chancellor at all times. (DS9: "Apocalypse Rising")
+tag:	2011
+data:	phrase
+id:	PC6
+file:	2011-11-17-mke.txt; 2012-03-02-email.txt
 
 tlh:	{yap}
 pos:	verb
@@ -27968,20 +28532,40 @@ tag:	1992
 id:	L1P
 file:	1992-01-01-tkd.txt
 
+tlh:	{'echlet}
+pos:	noun
+en:	«board»
+sv:	«bräde»
+def:	TNK; MKE
+ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
+	"[Tlhingan-hol] Eurotalk - New Words - Shopping"); Email 2012-03-02 (by
+	David Yeung, to tlhingan-hol, "[Tlhingan-hol] sentences from Klingon
+	Monopoly (was: Klingon Word of the Day: {rop})")
+cite:	{'echletHom Dopvam yIcha'} ~[playing] card must be turned this side up~
+	[MKE]
+cite:	{Quj 'echlet} ~game board~ [MKE]
+tag:	2011
+id:	xd4
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt; 2011-11-17-mke.txt;
+	2012-03-02-email.txt
+
 tlh:	{'echletHom}
 pos:	noun
 en:	«card»
 sv:	«kort»
-def:	TNK
+def:	TNK; MKE
 ref:	Email 2011-11-02 (by Michael Roney, Jr., to tlhingan-hol,
 	"[Tlhingan-hol] Eurotalk - New Words - Shopping"); Email 2012-03-02 (by
 	David Yeung, to tlhingan-hol, "[Tlhingan-hol] sentences from Klingon
 	Monopoly (was: Klingon Word of the Day: {rop})")
 cite:	{QIn 'echletHom} ~postcard~ [TNK]
+cite:	{'echletHom Dopvam yIcha'} ~[playing] card must be turned this side up~
+	[MKE]
 tag:	2011
 data:	derived form
 id:	FYm
-file:	2011-09-30-tnk.txt; 2011-11-02-email.txt
+file:	2011-09-30-tnk.txt; 2011-11-02-email.txt; 2011-11-17-mke.txt;
+	2012-03-02-email.txt
 
 tlh:	{'eDjen}
 pos:	noun
