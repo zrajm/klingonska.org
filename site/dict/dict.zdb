@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    c13b137069ee30c4060f29a8de324f013d06e2dd
+SHA1:    0e0a7ab69b2b18ecd170f3014d580b3243874cb0
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -14333,13 +14333,13 @@ ref:	Email 2012-03-02 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
 	sentences from Klingon Monopoly (was: Klingon Word of the Day: {rop})")
 cite:	{wo' ngay' bochoqmeH bowIvlu'pu'!} ~You have been chosen to preserve
 	the glory of the Empire!~ [MKE]
-com:	The word {ngay'} occurs only in one canon sentence, and a translation
-	is only given for the sentence as a whole, not for the specific word.
-	Hence the translation given here is uncertain and might be revised in
-	the future.
 tag:	2011
 id:	hqb
 file:	2011-11-17-mke.txt; 2012-03-02-email.txt
+meta:	The word {ngay'} occurs only in one canon sentence, and a translation
+	is only given for the sentence as a whole, not for the specific word.
+	Hence the translation given here is uncertain and might be revised in
+	the future.
 
 tlh:	{nga'chuq}
 pos:	verb
@@ -18886,13 +18886,13 @@ ref:	Email 2012-03-02 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
 cite:	{Qo'noS romuluS je boSuqlaH. vabDot tera' Qejbogh DIvI' ram boSuqlaH.}
 	~Kronos, Romulus and even the puny Federation's precious Earth, are all
 	up for grabs.~ [MKE]
-com:	The word {Qej} occurs only in one canon sentence, and a translation is
-	only given for the sentence as a whole, not for the specific word.
-	Hence the translation given here is uncertain and might be revised in
-	the future.
 tag:	2011
 id:	t6q
 file:	2011-11-17-mke.txt; 2012-03-02-email.txt
+meta:	The word {Qej} occurs only in one canon sentence, and a translation is
+	only given for the sentence as a whole, not for the specific word.
+	Hence the translation given here is uncertain and might be revised in
+	the future.
 
 tlh:	[1] {Qel}
 pos:	noun
@@ -25158,13 +25158,13 @@ ref:	Email 2012-03-02 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
 cite:	{Qo'noS romuluS je boSuqlaH. vabDot tera' Qejbogh DIvI' ram boSuqlaH.}
 	~Kronos, Romulus and even the puny Federation's precious Earth, are all
 	up for grabs.~ [MKE]
-com:	The word {vabDot} occurs only in one canon sentence, and a translation
-	is only given for the sentence as a whole, not for the specific word.
-	Hence the translation given here is uncertain and might be revised in
-	the future.
 tag:	2011
 id:	3d5
 file:	2011-11-17-mke.txt; 2012-03-02-email.txt
+meta:	The word {vabDot} occurs only in one canon sentence, and a translation
+	is only given for the sentence as a whole, not for the specific word.
+	Hence the translation given here is uncertain and might be revised in
+	the future.
 
 tlh:	{vaD}
 pos:	verb
@@ -25766,13 +25766,13 @@ ref:	Email 2012-03-02 (by David Yeung, to tlhingan-hol, "[Tlhingan-hol]
 cite:	{wa' tlhIngan QaS vey} ~one pack of Klingon forces~ [MKE]
 cite:	{veymey puS neH chenmoHlu'pu'} ~Limited Edition~ [MKE]
 cite:	{boSwI'vaD veyvam le' chenmoHlu'} ~Collector's Edition~ [MKE]
-com:	The word {vey} occurs only in three canon sentences for which
-	translations are only given for the sentences as a whole, not for the
-	specific word. Hence the translation given here is uncertain and might
-	be revised in the future.
 tag:	2011
 id:	H63
 file:	2011-11-17-mke.txt; 2012-03-02-email.txt
+meta:	The word {vey} occurs only in three canon sentences for which
+	translations are only given for the sentences as a whole, not for the
+	specific word. Hence the translation given here is uncertain and might
+	be revised in the future.
 
 tlh:	{vID}
 pos:	verb
