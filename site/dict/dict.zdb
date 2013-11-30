@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.3
-SHA1:    0e0a7ab69b2b18ecd170f3014d580b3243874cb0
+SHA1:    5c5e9aaf32c7a61dd7f08e287cc23165f618d48d
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -903,8 +903,8 @@ cite:	{vagh SanID ben buDbe' wamwI'pu'. ngugh Ho'Du'chaj lo' chaH, 'ach DaH
 	(And then along came Jones...) - For MO")]
 com:	Combinations with {ben} and quantity words other than numbers are often
 	seen on tlhingan-hol, even though canon support for them is (so far)
-	missing. E.g. {ben law'} "many years ago", {ben puS} "[a] few years
-	ago", {'op ben} "some (unknown number of) years ago".
+	missing. E.g. {ben law'} ~many years ago~, {ben puS} ~[a] few years
+	ago~, {'op ben} ~some (unknown number of) years ago~.
 pun:	Igor/Aryeh pointed out [on tlhingan-hol] that the Hebrew word *ben*
 	"son" is used when giving ages (for males); e.g. *Ani ben X* "I am X
 	[years] old", *Hu ben X* "He is X [years] old".
@@ -2437,7 +2437,7 @@ en:	big «~cheb~» («unit» of «weight»)
 sv:	stor «~cheb~» («vikt«enhet»»)
 desc:	9 ~cheb~ = about 45 lb or 20.25 kg
 def:	News 1997-10-22; BoP
-com:	(n) unit weight approx. 45--46.4 pounds (20.4--21.05 kg) (9--9.28 cheb)
+cite:	(n) unit weight approx. 45--46.4 pounds (20.4--21.05 kg) (9--9.28 cheb)
 	[The numbers don't quite mesh, but this is the best I can figure from
 	different equivalences we've been given.] [BoP poster] (Added: 12 March
 	2002) [KLINW]
@@ -2510,7 +2510,7 @@ pos:	verb
 en:	<add>
 sv:	«addera», «lägga ihop», «lägga till»
 def:	TKD
-tag:	1985; KLCP1; math
+tag:	1985; economics; KLCP1; math
 id:	g2x
 file:	1992-01-01-tkd.txt
 
@@ -2519,10 +2519,10 @@ pos:	noun
 en:	<accountant>, <financier> [slang]
 sv:	«kamrer», «revisor», «finansman» [slang]
 def:	KGT
-com:	Mildly derogatory in its slang usage, this word literally means 'adder,
-	one who adds.' There is no known nonslang counterpart, though {HuchQeD}
-	(literally, 'money science') is often used for 'economics.' [KGT p.148]
-tag:	1997; math
+cite:	Mildly derogatory in its slang usage, this word literally means ~adder,
+	one who adds.~ There is no known nonslang counterpart, though {HuchQeD}
+	(literally, ~money science~) is often used for ~economics.~ [KGT p.148]
+tag:	1997; economics; math
 id:	dqX
 file:	1997-11-01-kgt.txt
 
@@ -2904,19 +2904,19 @@ sv:	vara «grundlig», vara «ordentlig», vara «omsorgsfull», vara «noggrann
 	[slang]
 desc:	{chong yaS} ~the officer is careful/profound~; person is subj.
 def:	KGT
-com:	"Literally 'be vertical,' this word is used to refer to one's
-	intellect, as in {chong tlhIngan SuvwI'} ('The Klingon warrior is
-	profound'---literally, 'The Klingon warrior is vertical'; {tlhIngan,}
-	'Klingon'; {SuvwI',} 'warrior'). In its literal sense, this word is the
-	opposite of {SaS} ('be horizontal'), and as a slang term, it is an
-	opposite as well, as {SaS} is used to mean 'be shallow, superficial.'
+cite:	Literally ~be vertical,~ this word is used to refer to one's intellect,
+	as in {chong tlhIngan SuvwI'} (~The Klingon warrior is
+	profound~---literally, ~The Klingon warrior is vertical~; {tlhIngan,}
+	~Klingon~; {SuvwI',} ~warrior~). In its literal sense, this word is the
+	opposite of {SaS} (~be horizontal~), and as a slang term, it is an
+	opposite as well, as {SaS} is used to mean ~be shallow, superficial.~
 	It is most likely that {chong} took on its slang meaning because of the
 	prior existence of {SaS}, which has been used as slang for a much
 	longer time. An equivalent meaning may be expressed without slang by
-	using a word such as {Qubchu'} ('think perfectly, think clearly';
-	{Qub,} 'think'; {-chu',} 'perfectly, clearly'), as in {Qubchu' tlhIngan
-	SuvwI'} ('The Klingon warrior thinks clearly')." [KGT p.148]
-see:	{Qub} "think"
+	using a word such as {Qubchu'} (~think perfectly, think clearly~;
+	{Qub,} ~think~; {-chu',} ~perfectly, clearly~), as in {Qubchu' tlhIngan
+	SuvwI'} (~The Klingon warrior thinks clearly~). [KGT p.148]
+see:	{Qub} ~think~
 tag:	1997
 id:	eWK
 file:	1997-11-01-kgt.txt
@@ -2926,14 +2926,14 @@ pos:	exclamation
 en:	«good», «excellent», «admirable» [slang]
 sv:	«bra», «utmärkt», «beundransvärt» [slang]
 def:	KGT pp.148--149
-com:	"Literally 'be vertical' [...] The word {chong} may also be used as an
+cite:	Literally ~be vertical~ [...] The word {chong} may also be used as an
 	exclamation expressing approval or satisfaction, somewhat like standard
-	{maj} ('good'). Thus, one may describe one's feelings about a
+	{maj} (~good~). Thus, one may describe one's feelings about a
 	skillfully made knife or about an upcoming social event by saying
-	simply {chong} (literally, 'vertical' but meaning 'good, excellent,
-	admirable'). See also {qu'} (literally, 'be fierce'), another slang
-	term used to express approval." [KGT pp.148--149]
-see:	{maj} <good> (excl); {qu'} <be great> (v) (slang)
+	simply {chong} (literally, ~vertical~ but meaning ~good, excellent,
+	admirable~). See also {qu'} (literally, ~be fierce~), another slang
+	term used to express approval. [KGT pp.148--149]
+see:	{maj} ~good~ (excl); {qu'} ~be great~ (v) (slang)
 tag:	1997
 id:	oJP
 file:	1997-11-01-kgt.txt
@@ -3120,7 +3120,7 @@ en:	<throw> (a spear) at, <hurl> (a spear) at
 sv:	«kasta» (ett spjut) mot, «slunga» (ett spjut) mot
 desc:	{qachuH} ~I throw (a spear) at you~; target is obj.
 def:	KGT
-com:	"the direct object is the target" [TDNW]
+cite:	the direct object is the target [TDNW]
 tag:	1997; fighting
 id:	Xv1
 file:	1997-11-01-kgt.txt
@@ -3131,12 +3131,12 @@ en:	<explain> clearly to, <clarify> for, <specify> for [slang]
 sv:	«förklara» noga för, «förtydliga» för, närmare «ange» för [slang]
 desc:	{qachuH} ~I clarify [it] for you~; one getting explanation is obj.
 def:	KGT
-com:	"In the slang sense, the object of the verb is the person who wants
-	clarification, as in {HIchuH!} ('Clarify for me!' 'Spell it out for
-	me!'; literally, 'Throw [a spear] at me!') or {yaS chuH} ('He/she
-	clarifies [it] for the officer'; literally, 'He/she throws [a spear] at
-	the officer')." [KGT p.149]
-see:	{QIj} "explain"
+cite:	In the slang sense, the object of the verb is the person who wants
+	clarification, as in {HIchuH!} (~Clarify for me!~ ~Spell it out for
+	me!~; literally, ~Throw [a spear] at me!~) or {yaS chuH} (~He/she
+	clarifies [it] for the officer~; literally, ~He/she throws [a spear] at
+	the officer~). [KGT p.149]
+see:	{QIj} ~explain~
 tag:	1997
 id:	4Ev
 file:	1997-11-01-kgt.txt
@@ -4056,8 +4056,8 @@ en:	«entryway» (to a tunnel, conduit, etc.; not a door)
 sv:	«ingång», «öppning» (till en tunnel, rör etc., utan dörr)
 def:	HQ12:2 p.7 ("Maltz's Reward Part I")
 ref:	TDNW
-com:	"If there's a door there, it's referred to by the usual word for door,
-	{lojmIt}." [HQ12:2 p.7 ("Maltz's Reward Part I")]
+cite:	If there's a door there, it's referred to by the usual word for door,
+	{lojmIt}. [HQ12:2 p.7 ("Maltz's Reward Part I")]
 see:	{qa'rI'}, {lojmIt}
 tag:	2003; architecture
 id:	wTZ
@@ -4682,8 +4682,8 @@ pos:	verb
 en:	<touch>, «move» (emotionally)
 sv:	göra (någon) «rörd»
 def:	KGT
-com:	"{muDuQ bom} ('The song stabs me,' or, in a more colloquial Federation
-	Standard form, 'The song moves me')" [KGT p.72]
+cite:	{muDuQ bom} (~The song stabs me,~ or, in a more colloquial Federation
+	Standard form, ~The song moves me~) [KGT p.72]
 tag:	1997
 id:	WWm
 file:	1997-11-01-kgt.txt
@@ -4927,13 +4927,13 @@ desc:	{may' ghang SuvwI'} ~the warrior ends the battle prematurely~;
 	participants are subj.
 def:	HQ12:2 p.8 ("Maltz's Reward Part I")
 ref:	TDNW
-com:	"[...] {ghang}, is used to express the idea of a premature ending. If
+cite:	[...] {ghang}, is used to express the idea of a premature ending. If
 	[...] the voyage is cut short or the song is interrupted before the
 	final part is sung, one would say: {leng ghangDI' SuvwI'pu' 'IQ chaH}
-	'When the warriors end the voyage prematurely, they are sad.'; {bom
-	ghangDI' SuvwI'pu' tlhutlh chaH} 'When the warriors end the song
-	prematurely, they drink.' Note that the voyage and the song cannot end
-	themselves. Someone has to end them." [HQ12:2 p.8 ("Maltz's Reward Part
+	~When the warriors end the voyage prematurely, they are sad.~; {bom
+	ghangDI' SuvwI'pu' tlhutlh chaH} ~When the warriors end the song
+	prematurely, they drink.~ Note that the voyage and the song cannot end
+	themselves. Someone has to end them. [HQ12:2 p.8 ("Maltz's Reward Part
 	I")]
 see:	{van} (2), {Dor} (2)
 tag:	2003; time
@@ -4968,11 +4968,11 @@ sv:	«bidra»
 def:	TKD
 ref:	{qep'a'} 2010; Email 2010-07-26 (by Chris Lipscombe, to tlhingan-hol,
 	"Re: mu' chu'")
-com:	Second translation, "support (financially)", was given by Marc Okrand
-	at {qep'a'} 2010.
 tag:	1985; economics
 id:	4iR
 file:	1992-01-01-tkd.txt; 2010-07-26-email.txt
+meta:	Second translation, ~support (financially)~, was given by Marc Okrand
+	at {qep'a'} 2010.
 
 tlh:	{ghar} [1]
 pos:	verb
@@ -5115,8 +5115,7 @@ tlh:	{ghaytanHa'}
 pos:	adverbial
 en:	«unlikely»
 sv:	«osannolikt»
-def:	Radio Times
-com:	"Radio Times" is a Brittish television magazine.
+def:	RT
 tag:	1996
 id:	AoX
 file:	1996-08-rt.txt
@@ -5191,10 +5190,10 @@ pos:	verb
 en:	«formulate», «compile», «pull together»
 sv:	«formulera», «sammanställa», «sätta ihop»
 def:	News 1998-07-09
-com:	"The idea seems to be that of bringing thoughts together into some kind
+cite:	The idea seems to be that of bringing thoughts together into some kind
 	of reasonably coherent form so that they can be conveyed to someone
 	else. [...] (Maltz laughed at, but accepted, {Soj tetlh gher} for
-	'he/she writes the grocery list' [{Soj} 'food'].)"
+	~he/she writes the grocery list~ [{Soj} ~food~].) [News 1998-07-09]
 tag:	1998
 id:	9uX
 file:	1998-07-09-news.txt
@@ -5390,13 +5389,15 @@ def:	Email 2010-12-25 (by Lieven L. Litaer, to tlhingan-hol, "Letter from
 ref:	Email 2010-12-19 (by Lieven L. Litaer, to tlhingan-hol, "monastery");
 	Email 2011-01-16 (by Lieven L. Litaer, to tlhingan-hol, "monastery:
 	more")
-com:	"The word for monastery is {ghIn}. [...] A {ghIn'a'} would be a pretty
-	important monastery, for example. {ghIn} would be a single building if
-	that's all the monastery was, it could also refer to a group of
-	buildings and accompanying grounds (gardens or whatever) -- the whole
-	defined area where the members of the religious community live or work
-	or do whatever they do there. It doesn't mean the group of people."
-	/Lieven L. Litaer
+cite:	The word for ~monastery~ is {ghIn}. [...] A {ghIn'a'} would be a pretty
+	important monastery, for example. [Email 2010-12-25 (by Lieven L.
+	Litaer, to tlhingan-hol, "Letter from Maltz")]
+cite:	{ghIn} could be a single building if that's all the monastery was, it
+	could also refer to a group of buildings and accompanying grounds
+	(gardens or whatever) -- the whole defined area where the members of
+	the religious community live or work or do whatever they do there. It
+	doesn't mean the group of people. [Email 2011-01-16 (by Lieven L.
+	Litaer, to tlhingan-hol, "monastery: more")]
 tag:	2010; religion
 id:	EHp
 file:	2010-12-25-email.txt; 2010-12-19-email.txt; 2011-01-16-email.txt
@@ -5407,7 +5408,7 @@ en:	<battle <spear>>, <~gin'tak~>
 sv:	«strids«spjut»», «~gin'tak~»
 def:	KGT
 com:	An advisor to a house so trusted that he becomes a part of the family
-	is called *gin'tak* according to TNG "Firstborn".
+	is called *gin'tak* (TNG "Firstborn").
 tag:	1997; fighting
 id:	BMV
 file:	1997-11-01-kgt.txt
@@ -5511,9 +5512,10 @@ pos:	verb
 en:	<write>, <engrave>, <incise>, <mark> (upon)
 sv:	«skriva», «gravera», «rista» in, «skära» in, «märka»
 def:	TKD; HQ2:4 p.18 ("Okrand's Notes"); KGT
-com:	"'To mark (upon)' something is {ghItlh}. This isn't just writing; it's
-	any kind of marking. (Note that {ghItlh}, 'to write,' refers to the
-	physical act of writing. It doesn't mean 'to create a composition.')"
+cite:	~To mark (upon)~ something is {ghItlh}. This isn't just writing; it's
+	any kind of marking. (Note that {ghItlh}, ~to write,~ refers to the
+	physical act of writing. It doesn't mean ~to create a composition.~)
+	[HQ2:4 p.17 ("Okrand's Notes")]
 tag:	1985; KLCP1
 id:	rHU
 file:	1992-01-01-tkd.txt; 1993-12-holqed-02-4.txt; 1997-11-01-kgt.txt
@@ -5551,7 +5553,7 @@ cite:	Finally, the Torch of G'boj is one of the most revered historical
 	outsiders. [KGT p.130]
 com:	The Torch of G'boj is a highly esteemed icon from Klingon history that
 	is as nearly revered as such legendary items as the Sword of Kahless,
-	Sabak's armor, and the Emperor's Crown. (DS9: "The Sword of Kahless")
+	Sabak's armor, and the Emperor's Crown. (DS9 "The Sword of Kahless")
 	(From: Star Trek: Memory Alpha)
 tag:	1997
 data:	phrase
@@ -5881,8 +5883,7 @@ en:	<break>
 sv:	«bryta»
 def:	TKD
 ref:	TKW p.185
-com:	Apparently means "break" in the sense of breaking something (e.g. a
-	shell) open. {pIpyuS yIghor!} "Break a pipius!" [TKW p.185]
+cite:	{pIpyuS yIghor!} ~Break a pipius!~ [TKW p.185]
 tag:	1985; KLCP1
 id:	zCm
 file:	1992-01-01-tkd.txt
@@ -6974,8 +6975,8 @@ en:	<most>, «greater part»
 sv:	«mesta», «större delen»
 desc:	see {Hoch}
 def:	KGT
-com:	{tera' vatlh DIS poH cha'maH wej HochHom lo'lu'taH.} "[It] remained in
-	use for most of the 23rd century." [S15]
+cite:	{tera' vatlh DIS poH cha'maH wej HochHom lo'lu'taH.} ~[It] remained in
+	use for most of the 23rd century.~ [S15]
 tag:	1997; quantity
 id:	WeJ
 file:	1997-11-01-kgt.txt
@@ -7190,10 +7191,10 @@ en:	be «honored» «falsely», be falsely honorable
 sv:	vara «falskt» «ärad», vara «felaktigt» «hedrad»
 def:	HQ12:3 p.8 ("Maltz's Reward Part II")
 ref:	TDNW
-com:	"[It can] be used in the same places {quv} 'be honored, be honorable'
-	could be used, but only when the honor was not legitimate." [HQ12:3 p.8
+cite:	[It can] be used in the same places {quv} ~be honored, be honorable~
+	could be used, but only when the honor was not legitimate. [HQ12:3 p.8
 	("Maltz's Reward Part II")]
-see:	{quv} "be honored, be honorable" (v)
+see:	{quv} ~be honored, be honorable~ (v)
 tag:	2003
 id:	AKU
 file:	2003-09-holqed-12-3.txt
@@ -7575,14 +7576,14 @@ sv:	ett slags «djur», «~khrun~»
 def:	{qep'a'} 2011
 ref:	Email 2011-08-22 (by Alan Anderson, to tlhingan-hol, "Nine New Words
 	from qep'a' 18")
-com:	I didn't read that section of the opera myself, but I think I heard
-	someone say it was a fast animal. The khrun is described in other
-	resources as a Klingon riding animal. Note: This isn't the way we saw
-	it in the draft of the opera. After being reminded that the name of the
-	animal had been given a tlhIngan Hol rendering in Keith DeCandido's
-	book "A Burning House", Marc Okrand decided to use the already
-	published spelling. /Alan Anderson (talking about the Klingon opera
-	{'u'})
+cite:	I didn't read that section of the opera [{'u'}] myself, but I think I
+	heard someone say it was a fast animal. The ~khrun~ is described in
+	other resources as a Klingon riding animal. Note: This isn't the way we
+	saw it in the draft of the opera. After being reminded that the name of
+	the animal had been given a {tlhIngan Hol} rendering in Keith
+	DeCandido's book "A Burning House", Marc Okrand decided to use the
+	already published spelling. [Email 2011-08-22 (by Alan Anderson, to
+	tlhingan-hol, "Nine New Words from qep'a' 18")]
 tag:	2011; animal
 id:	wqK
 file:	2011-08-22-email.txt
@@ -8297,7 +8298,7 @@ en:	be <high>
 sv:	vara «hög»
 def:	TKD
 cite:	{tlhIngan yoH jen verengan yoH 'eS} or {tlhIngan yoH 'eS verengan yoH
-	jen} ({jen,} <be high>; {'eS,} <be low>) [KGT p.179]
+	jen} ({jen,} ~be high~; {'eS,} ~be low~) [KGT p.179]
 tag:	1985; placement
 id:	58Z
 file:	1992-01-01-tkd.txt
@@ -8533,7 +8534,7 @@ pos:	verb
 en:	«cooperate»
 sv:	«samarbeta»
 def:	TKD K-E
-see:	{yeq} "cooperate"
+see:	{yeq} ~cooperate~
 tag:	1985
 data:	deprecated
 id:	AbA
@@ -8550,7 +8551,7 @@ pos:	verb
 en:	be <cooperative>
 sv:	vara «samarbetsvillig»
 def:	KGT
-see:	{yeq} "cooperate"
+see:	{yeq} ~cooperate~
 tag:	1997
 id:	rfR
 file:	1997-11-01-kgt.txt
@@ -9269,7 +9270,7 @@ sv:	«flaxa», «slå» (om fågelvingar)
 def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
 cite:	Maltz pointed out that, in flight, a bird's wings {laq} (the bird is
 	said to {laqmoH} its wings), but when a banner or sail flaps, the
-	correct word to use is {joq} <flap, flutter, wave>. [HQ10:4 p.5
+	correct word to use is {joq} ~flap, flutter, wave~. [HQ10:4 p.5
 	("{matlh juppu' mu'mey}")]
 tag:	2001
 id:	ntX
@@ -11402,10 +11403,10 @@ en:	be formerly «honored» but now «disgraced»
 sv:	vara «fordom «ärad»», vara «tidigare «hedrad»»
 def:	HQ12:3 p.8 ("Maltz's Reward Part II")
 ref:	TDNW
-com:	"This would be applied to a leader who left office is disgrace, for
+cite:	This would be applied to a leader who left office is disgrace, for
 	example, or an ousted ship's captain. It would not be used of a
 	{'utlh}, an officer who has stepped down or retired voluntarily and who
-	is still respected." [HQ12:3 pp.8--9 ("Maltz's Reward Part II")]
+	is still respected. [HQ12:3 pp.8--9 ("Maltz's Reward Part II")]
 pun:	{mIl} = MILhouse! Think about it: "This would be applied to a leader
 	who left office in disgrace". (Steven Boozer, 10 October 2003 in email
 	to tlhingan-hol)
@@ -11662,7 +11663,7 @@ cite:	{'oy'naQ DaQeqDI' mIw wa'DIch Data', 'ach 'oy'naQ Dachu'DI' mIw
 cite:	{'oy'naQ Dachu'Ha'DI' mIw HochDIch Data'} ("When you turn the painstik
 	off, you accomplish the last step"; {Dachu'Ha'DI',} "when you
 	deactivate it"). [KGT p.177]
-see:	{nab} "plan"
+see:	{nab} ~plan~
 tag:	1992
 id:	WkF
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
@@ -11786,7 +11787,7 @@ sv:	«influera», utöva otillbörligt «inflytande» på [slang]
 desc:	{DamoH} ~you exert undue influence on him/her~; (lit. ~you ugly
 	him/her~)
 def:	KGT
-see:	{SIgh} "influence"
+see:	{SIgh} ~influence~
 tag:	1997
 id:	gZ4
 file:	1997-11-01-kgt.txt
@@ -12460,7 +12461,7 @@ pos:	noun
 en:	<plan>, «procedure»
 sv:	«plan», «tillvägagångssätt», «förfarande», «procedur»
 def:	TKDa
-see:	{wIw} "step, stage (in a process)"
+see:	{wIw} ~step, stage (in a process)~
 tag:	1992
 id:	ReL
 file:	1992-01-01-tkd.txt
@@ -13239,9 +13240,9 @@ pos:	noun
 en:	<déjà vu>
 sv:	«déjà vu»
 def:	KGT
-com:	From TNG episode "Cause And Effect". Worf says "I am experiencing
-	nIb'poH, the feeling I've done this before." at the poker table the
-	third time we see that scene.
+com:	Worf says "I am experiencing {nIb'poH}, the feeling I've done this
+	before." at the poker table when we see that scene for the third time.
+	(TNG "Cause And Effect")
 tag:	1997
 id:	LL9
 file:	1997-11-01-kgt.txt
@@ -13950,7 +13951,7 @@ en:	<possibility>, «option»
 sv:	«möjlighet»
 desc:	{Hoch nuH yIqel} ~consider every option~ (lit. ~consider every weapon~)
 def:	KGT p.109
-see:	{DuH} "possibility, option"
+see:	{DuH} ~possibility, option~
 tag:	1997
 id:	axf
 file:	1997-11-01-kgt.txt
@@ -14597,11 +14598,11 @@ cite:	{ngIq raQ – 150 QaS} ~outposts cost 150 each~ / {ngIq raQvaD cha'maH
 	from Klingon Monopoly (was: Klingon Word of the Day: {rop})")]
 com:	There were two distinct examples of this word's use seen in the opera.
 	One of them was obviously detailing how a group of warriors was killed
-	one at a time: {ngIq nuv luHoH} "they killed the warriors one by one."
-	The other was a thrice-repeated {ngIq tonSaw' lo' 'ej...} "in one
-	single move, he...", making it clear that each of several results was
+	one at a time: {ngIq nuv luHoH} ~they killed the warriors one by one.~
+	The other was a thrice-repeated {ngIq tonSaw' lo' 'ej...} ~in one
+	single move, he...~, making it clear that each of several results was
 	the result of the same action. I surmise that {ngIq} by itself could
-	mean "the one and only". Again, I didn't copy the lyrics, and what I
+	mean ~the one and only~. Again, I didn't copy the lyrics, and what I
 	have written here is probably not exactly what was on the pages we
 	inspected. /Alan Anderson (talking about the Klingon opera {'u'})
 tag:	2011
@@ -14850,7 +14851,9 @@ pos:	verb
 en:	«perch»
 sv:	«sätta» sig, «slå» sig ned
 def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
-com:	If bird lands on land, use {Saq}, on water, use {tlhot}.
+cite:	[If a bird lands in a tree use] {ngun} ~perch~ (the verb {Saq} is used
+	if the bird alights on the ground, {tlhot} if it lands on the water)
+	[HQ10:4 p.5 ("{matlh juppu' mu'mey}")]
 tag:	2001
 id:	4C1
 file:	2001-12-holqed-10-4.txt
@@ -14871,7 +14874,7 @@ sv:	«auktoritet», «befogenhet», «makt», någon med auktoritet eller i
 	ledarposition [slang]
 desc:	{ngup qaD} ~challenge those in charge~ (lit. ~challenge the cape~)
 def:	KGT
-see:	{woQ} "authority, political power"; {qum} "government"
+see:	{woQ} ~authority, political power~; {qum} ~government~
 tag:	1997
 id:	Snf
 file:	1997-11-01-kgt.txt
@@ -14885,7 +14888,7 @@ ref:	TDNW
 cite:	The notion of "too big for one's britches" ("be too haughty or arrogant
 	for one's status") as well as that of "commit hubris" ("be presumptuous
 	or arrogant") might best be rendered in Klingon not by {HoQ} but by
-	{nguq} <be arrogant, haughty, conceited> an undesirable trait. [HQ12:3
+	{nguq} ~be arrogant, haughty, conceited~ an undesirable trait. [HQ12:3
 	p.9 ("Maltz's Reward Part II")]
 tag:	2003
 id:	qyo
@@ -15817,7 +15820,7 @@ en:	<done>, all done, all «finished»
 sv:	«klar», «färdig», allt «klart», allt «färdigt»
 def:	TKD 5.5 (p.57) et al.
 ref:	KCD
-com:	KCD: "a common exclamation uttered upon the completion of a project."
+cite:	a common exclamation uttered upon the completion of a project. [KCD]
 tag:	1985; KLCP1
 id:	cK5
 file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
@@ -16034,10 +16037,10 @@ en:	<reward>, «prize», «honor», «token of esteem» (for an achievement)
 sv:	«belöning», «pris», «ära», «aktningsbevis» (för en prestation)
 def:	TKDa; TKW p.47; HQ12:3 p.9 ("Maltz's Reward Part II")
 ref:	TDNW
-com:	"Neither {quv} nor {batlh} [is] the same as {pop}, usually translated
-	<reward> but sometimes translated <honor> in the sense of <token of
-	esteem>, that is, formal recognition of an accomplishment or
-	accomplishments." [HQ12:3 p.9 ("Maltz's Reward Part II")]
+cite:	Neither {quv} nor {batlh} [is] the same as {pop}, usually translated
+	~reward~ but sometimes translated ~honor~ in the sense of ~token of
+	esteem~, that is, formal recognition of an accomplishment or
+	accomplishments. [HQ12:3 p.9 ("Maltz's Reward Part II")]
 tag:	1992; economics
 id:	t4f
 file:	1992-01-01-tkd.txt; 1996-05-01-tkw.txt; 2003-09-holqed-12-3.txt
@@ -16095,9 +16098,9 @@ en:	«biology», «anatomy» (scientific study of bodily functions)
 sv:	«biologi», «anatomi» (vetenskapliga studier av kroppsfunktioner)
 def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
-com:	"Maltz was familiar with the scientific study of bodily functions, or
+cite:	Maltz was familiar with the scientific study of bodily functions, or
 	{porghQeD}, but he didn't consider himself terribly well versed in the
-	field." [HQ12:4 p.8 ("Maltz's Reward Part III")]
+	field. [HQ12:4 p.8 ("Maltz's Reward Part III")]
 tag:	2003
 id:	mGR
 file:	2003-12-holqed-12-4.txt
@@ -16571,7 +16574,7 @@ file:	1992-01-01-tkd.txt
 
 tlh:	{pu'jIn}
 pos:	noun
-en:	«map», «plan» (architect's plan of a building etc.)
+en:	«map», «blueprint» (architect's «plan» of a building etc.)
 sv:	«karta», «ritning»
 def:	{qep'a'} 2007
 ref:	Email 2007-08-02 (by Eric Andeen, to tlhingan-hol, "RE: mu' chu'");
@@ -16676,10 +16679,10 @@ en:	<sir>
 sv:	«herr», «sir»
 desc:	only used in direct address [KGT p.198]
 def:	TKD
-com:	"The word {qaH} is interesting because it is never heard except in
-	direct address. Thus, while one might say {yoH qor HoD} ('Captain Kor
-	is brave') or {yoH HoD} ('The captain is brave'), one would never say
-	{yoH qaH} ('Sir is brave.')" [KGT p.198]
+cite:	The word {qaH} is interesting because it is never heard except in
+	direct address. Thus, while one might say {yoH qor HoD} (~Captain Kor
+	is brave~) or {yoH HoD} (~The captain is brave~), one would never say
+	{yoH qaH} (~Sir is brave.~) [KGT p.198]
 tag:	1985; KLCP1
 id:	aWh
 file:	1992-01-01-tkd.txt
@@ -16698,7 +16701,7 @@ pos:	noun
 en:	<courage>, <audacity>
 sv:	«mod», «tapperhet», «djärvhet»
 def:	KGT
-com:	STE: "kajanpak't. Klingon word for courage. ('Blood Oath' [DS9])"
+com:	~kajanpak't~. Klingon word for courage. (DS9 "Blood Oath") [STE]
 tag:	1997
 id:	AR9
 file:	1997-11-01-kgt.txt
@@ -17130,15 +17133,15 @@ sv:	«slut», «ände» (på långsmalt avgränsat utrymme, t.ex. korridor, rör
 	väg, bro, fält etc.)
 def:	HQ12:2 pp.7--8 ("Maltz's Reward Part I")
 ref:	TDNW
-com:	"For the end of a longish enclosed space that one is typically inside
-	or experiences from the inside, such as a corridor, tunnel, or conduit
+cite:	For the end of a longish enclosed space that one is typically inside or
+	experiences from the inside, such as a corridor, tunnel, or conduit
 	(say, Jefferies tube or a branch of the sewers of Paris), a different
 	word is used: {qa'rI'}. [...] it's used for both (or all) ends. [...]
 	{qa'rI'} is also used for the end of bounded space which is seen as
 	having length even if it is not enclosed space. Thus, it is used for
 	the end of a road, the end of a bridge, the end of a long field. (Maltz
 	didn't think it would mean much of anything to refer to the {qa'rI'} of
-	a square field.)" [HQ12:2 pp.7--8 ("Maltz's Reward Part I")]
+	a square field.) [HQ12:2 pp.7--8 ("Maltz's Reward Part I")]
 pun:	Okrand confirmed that this is named after Kari, the mother of his twin
 	nieces Megan ({megh'an}) and Erin ({'er'In}). ({qep'a'} 2003)
 see:	{DIn}, {lojmIt}
@@ -17670,7 +17673,7 @@ pos:	name
 en:	«Kirk»
 sv:	«Kirk»
 def:	ST5; HQ8:4 p.12 ("Notes from Star Trek V: The Final Frontier")
-com:	{'entepray''a'. qIrq Duj 'oH} "Enterprise? That's Kirk's ship." [ST5]
+cite:	{'entepray''a'? qIrq Duj 'oH.} ~Enterprise? That's Kirk's ship.~ [ST5]
 tag:	1999
 data:	non-phonotactic
 id:	BQV
@@ -17772,7 +17775,7 @@ pos:	noun
 en:	<ear> (external, cartilaginous flap)
 sv:	«öra» (utvärtes broskflik)
 def:	KGT
-see:	{teS} "ear (internal, organ of hearing)" (n); {Serrum} earwax (n)
+see:	{teS} ~ear (internal, organ of hearing)~ (n); {Serrum} ~earwax~ (n)
 tag:	1997; body part
 id:	chz
 file:	1997-11-01-kgt.txt
@@ -18310,7 +18313,7 @@ com:	"[{quv} is] a sort of personal honor, the kind over which, by one's
 	bestowed on one, and is associated with reputation, dignity, and
 	respect." [HQ12:3 p.9 ("Maltz's Reward Part II")]; Used in comparative
 	in TKW p.179.
-see:	{batlh}; {HoQ} "be honored falsely, be falsely honorable" (v)
+see:	{batlh}; {HoQ} ~be honored falsely, be falsely honorable~ (v)
 tag:	1992; KLCP1
 id:	rqP
 file:	1992-01-01-tkd.txt
@@ -18403,36 +18406,36 @@ en:	be <great>, be <wonderful>, be <excellent>, be «superlative», be
 sv:	vara «storslagen», vara «underbar», vara «utmärkt», vara «fantastisk»,
 	vara «bra» [slang]
 def:	KGT
-com:	"The verb {qu'} literally means 'be fierce.' In its slang sense, it may
-	be used adjectivally, as in {taj qu'} ('excellent knife'; literally,
-	'fierce knife'), or as the main verb in a sentence, as in {qu' taj}
-	('the knife is excellent'; literally, 'the knife is fierce'). Though,
-	from the Klingon point of view, equating being 'fierce' with being
-	'great, wonderful,' and so on seems quite natural, the slang meaning of
+cite:	The verb {qu'} literally means ~be fierce.~ In its slang sense, it may
+	be used adjectivally, as in {taj qu'} (~excellent knife~; literally,
+	~fierce knife~), or as the main verb in a sentence, as in {qu' taj}
+	(~the knife is excellent~; literally, ~the knife is fierce~). Though,
+	from the Klingon point of view, equating being ~fierce~ with being
+	~great, wonderful,~ and so on seems quite natural, the slang meaning of
 	{qu'} probably receives further support because it sounds just like the
 	verb suffix {-qu',} which is used for emphasis (compare {Qatlh,}
-	'difficult,' and {Qatlhqu',} 'very difficult'). When applied to people
+	~difficult,~ and {Qatlhqu',} ~very difficult~). When applied to people
 	or animals, it is not always clear whether the slang or nonslang
-	meaning of {qu'} is intended. That is, {SuvwI' qu'} ('fierce warrior')
-	could be interpreted literally, or it could mean 'excellent warrior.'
+	meaning of {qu'} is intended. That is, {SuvwI' qu'} (~fierce warrior~)
+	could be interpreted literally, or it could mean ~excellent warrior.~
 	When applied to anything other than people or animals, the slang
-	meaning is more likely. Thus, {may' qu'} ('fierce battle') is really a
-	way of saying 'excellent battle.' In Klingon, only a participant in a
-	battle, not the battle itself, can literally be described as 'fierce.'
-	The word {qu'} may also be used as an exclamation ('Great!'
-	'Wonderful!'). In this sense, it seems to be interchangeable with
-	{chong} (literally, 'be vertical'; see page 148). The slang usage of
+	meaning is more likely. Thus, {may' qu'} (~fierce battle~) is really a
+	way of saying ~excellent battle.~ In Klingon, only a participant in a
+	battle, not the battle itself, can literally be described as ~fierce.~
+	The word {qu'} may also be used as an exclamation (~Great!~
+	~Wonderful!~). In this sense, it seems to be interchangeable with
+	{chong} (literally, ~be vertical~; see page 148). The slang usage of
 	{qu'} is currently extremely common among Klingons, and it has pretty
 	much displaced another slang term with the same set of meanings
-	('excellent, wonderful, etc.'), {Huv} (literally, 'be clear, not
-	obstructed'), which was in vogue not all that long ago. The use of
-	{Huv} for 'excellent' is now considered old-fashioned. This is also the
-	case with {nong} ('passionate'), an even older slang term for
-	'excellent.' (As of this writing, the slang usage of {nong} seems to be
+	(~excellent, wonderful, etc.~), {Huv} (literally, ~be clear, not
+	obstructed~), which was in vogue not all that long ago. The use of
+	{Huv} for ~excellent~ is now considered old-fashioned. This is also the
+	case with {nong} (~passionate~), an even older slang term for
+	~excellent.~ (As of this writing, the slang usage of {nong} seems to be
 	making a comeback, but it is still too early to say whether this will
-	really happen.) Nonslang verbs expressing similar ideas are {Dun} ('be
-	wonderful, great'), {pov} ('be excellent'), and, as an exclamation,
-	{maj!} ('Good!')." [KGT pp.159--161]
+	really happen.) Nonslang verbs expressing similar ideas are {Dun} (~be
+	wonderful, great~), {pov} (~be excellent~), and, as an exclamation,
+	{maj!} (~Good!~). [KGT pp.159--161]
 tag:	1997
 id:	Uuv
 file:	1997-11-01-kgt.txt
@@ -18493,7 +18496,7 @@ sv:	vara «säker», vara «skyddad» [slang]
 desc:	{QaD Sep} ~the land is protected~ (lit. ~the land is dry~); {puq QaD}
 	~safe child~ (lit. ~dry child~)
 def:	KGT
-see:	{Qan} "protect"
+see:	{Qan} ~protect~
 tag:	1997
 id:	5R1
 file:	1997-11-01-kgt.txt
@@ -18621,11 +18624,11 @@ pos:	verb
 en:	<win> (a competition)
 sv:	«vinna» (en tävlan)
 def:	HQ2:4 p.18 ("Okrand's notes"); TKW p.211; KGT
-com:	HQ2:4 p.18 ("Okrand's notes"): "To win" a competition is {Qap}. (If
-	it's a decisive or particularly gratifying victory, they'd say
-	{Qapchu'}, even though that's a bit redundant.) In TKD, {Qap} is
-	translated as "succeed, work, function". To a Klingon, to win is to
-	function perfectly.
+cite:	~To win~ a competition is {Qap}. (If it's a decisive or particularly
+	gratifying victory, they'd say {Qapchu'}, even though that's a bit
+	redundant.) In TKD, {Qap} is translated as ~succeed, work, function~.
+	To a Klingon, to win is to function perfectly. [HQ2:4 p.17 ("Okrand's
+	Notes")]
 tag:	1993
 id:	Vgk
 file:	1993-12-holqed-02-4.txt; 1996-05-01-tkw.txt; 1997-11-01-kgt.txt
@@ -18646,11 +18649,11 @@ en:	«behave» «falsely» «honorably», behave in a falsely «honorable» mann
 sv:	«agera» med låtsad «heder», «bete» sig på ett «falskt» «hedervärt» sätt
 def:	HQ12:3 p.8 ("Maltz's Reward Part II")
 ref:	TDNW
-com:	"This would be used of someone who purported to be someone or something
+cite:	This would be used of someone who purported to be someone or something
 	he or she was not. It is used in cases where one misrepresents oneself
 	in order to be accorded honor one is not entitled to, and in that way
-	it is different from {toj} <deceive> and {ghet} <pretend>, neither of
-	which has this kind of connection to honor." [HQ12:3 p.8 ("Maltz's
+	it is different from {toj} ~deceive~ and {ghet} ~pretend~, neither of
+	which has this kind of connection to honor. [HQ12:3 p.8 ("Maltz's
 	Reward Part II")]
 tag:	2003
 id:	4tQ
@@ -18707,13 +18710,13 @@ pos:	verb
 en:	be <complex>, be <difficult>
 sv:	vara «svår», vara «komplex», vara «komplicerad»
 def:	TKD; KGT
-com:	"[...] among Klingons, a task that is difficult ({Qatlh}) is more
-	highly valued than one that is easy ({ngeD})." [KGT p.179]
+cite:	[...] among Klingons, a task that is difficult ({Qatlh}) is more highly
+	valued than one that is easy ({ngeD}). [KGT p.179]
 tag:	1985; KLCP1
 id:	tMk
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
-meta:	"be difficult (v)" [TKD]; "difficult" [KGT pp.160, 179]; "be complex
-	(v)" [KGT]. Combined here.
+meta:	The words ~be difficult~ (v) [TKD], ~difficult~ [KGT pp.160, 179] and
+	~be complex~ (v) [KGT] have been combined here.
 
 tlh:	{Qav}
 pos:	verb
@@ -18802,7 +18805,7 @@ en:	type of <animal> (similar to a ~Qa'~, but smaller)
 sv:	ett slags «djur» (snarlik en ~Qa'~, men mindre)
 def:	KGT
 ref:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
-com:	The {Qa'Hom}, an animal similar to a {Qa'} but smaller, has been
+cite:	The {Qa'Hom}, an animal similar to a {Qa'} but smaller, has been
 	confused with a bird by some; Maltz does not know why, especially since
 	it is the {jajlo' Qa'}, not the {Qa'Hom}, that makes a fuss in the
 	morning like the {'uSgheb} does. [HQ10:4 p.5 ("{matlh juppu' mu'mey}")]
@@ -19110,10 +19113,10 @@ desc:	{SoHvaD nab vIQIj} ~I explain the plan for you~; that being explained
 	is obj.
 def:	TKD
 ref:	KGT p.149
-com:	"[...] object of {QIj} is that which is explained, while the person to
+cite:	[...] object of {QIj} is that which is explained, while the person to
 	whom the explanation is given is the indirect object: {yaSvaD nab QIj}
-	('He/she explains the plan to the officer'; {yaSvaD,} 'for the
-	officer'; {nab,} 'plan')." [KGT p.149]
+	(~He/she explains the plan to the officer~; {yaSvaD,} ~for the
+	officer~; {nab,} ~plan~). [KGT p.149]
 tag:	1985; KLCP1
 id:	w8y
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
@@ -19292,8 +19295,8 @@ en:	*?!#@ («curse»)
 sv:	*?!#@ («svordom»)
 def:	TKD 5.5 (p.58)
 ref:	KCD
-com:	KCD: Vulgar Klingon expression; one of the strongest, most foul Klingon
-	expressions; it defies translation.
+com:	Vulgar Klingon expression; one of the strongest, most foul Klingon
+	expressions; it defies translation. [KCD]
 tag:	1985
 id:	1dY
 file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
@@ -19474,16 +19477,16 @@ pos:	verb
 en:	be <dead> (referring to food) [slang]
 sv:	vara «död» (om mat) [slang]
 def:	KGT
-com:	"The word {Qop} means 'be worn out' and is usually applied to old
+cite:	The word {Qop} means ~be worn out~ and is usually applied to old
 	weapons, tools, mechanical devices, and the like. It is also used to
-	mean 'be dead,' but only in reference to an animal that one was
-	expecting to eat live. If a bowl of dead {qagh} ('<gagh,> serpent
-	worms') is placed before a Klingon, the disappointed diner will
-	probably criticize the cook for preparing {qagh Qop} ('dead <gagh'>).
-	The normal way to say 'be dead,' referring to a person or animal, is by
-	using the form {Heghpu'} ('has died'): {Heghpu' SuvwI'} ('The warrior
-	has died'). It is not appropriate to say {SuvwI' Qop} ('dead warrior,
-	worn-out warrior.')" [KGT p.162]
+	mean ~be dead,~ but only in reference to an animal that one was
+	expecting to eat live. If a bowl of dead {qagh} (~gagh, serpent worms~)
+	is placed before a Klingon, the disappointed diner will probably
+	criticize the cook for preparing {qagh Qop} (~dead gagh~). The normal
+	way to say ~be dead,~ referring to a person or animal, is by using the
+	form {Heghpu'} (~has died~): {Heghpu' SuvwI'} (~The warrior has died~).
+	It is not appropriate to say {SuvwI' Qop} (~dead warrior, worn-out
+	warrior.~) [KGT p.162]
 see:	{Hegh}
 tag:	1997; food
 id:	iGu
@@ -19890,7 +19893,7 @@ en:	<duty>, <quest>, <mission>, <task>, <chore>
 sv:	«plikt», «uppdrag», «uppgift», «jobb»
 def:	TKD
 ref:	TKW pp.66, 74, 139, 187
-see:	{ghIgh} "assignment, task, duty [slang]"
+see:	{ghIgh} ~assignment, task, duty [slang]~
 tag:	1985; KLCP1
 id:	iUM
 file:	1992-01-01-tkd.txt
@@ -20645,8 +20648,8 @@ pos:	noun
 en:	<accord>
 sv:	«överenskommelse», «fördrag», «samstämmighet»
 def:	TKD
-com:	Klingon grammarians refer to the rule that governs the use of
-	pronominal prefixes as the rule of {rom} (literally, "accord").
+cite:	Klingon grammarians refer to the rule that governs the use of
+	pronominal prefixes as the rule of {rom} (literally, ~accord~).
 	Grammarians of Federation Standard and many Earth languages call the
 	phenomenon "agreement." Thus, in the case of Klingon, the prefix used
 	must "agree" with the noun to which it refers; if the object noun is
@@ -21171,9 +21174,9 @@ pos:	verb
 en:	<land> (on ground)
 sv:	«landa», «landsätta», gå i land
 def:	TKD
-com:	also used about a bird landing on ground [HQ10:4 p.5 ("{matlh juppu'
-	mu'mey}")]
-see:	{tlhot} (for landing on water)
+cite:	[If a bird lands in a tree use] {ngun} ~perch~ (the verb {Saq} is used
+	if the bird alights on the ground, {tlhot} if it lands on the water)
+	[HQ10:4 p.5 ("{matlh juppu' mu'mey}")]
 tag:	1985
 id:	crC
 file:	1992-01-01-tkd.txt
@@ -21201,7 +21204,7 @@ pos:	verb
 en:	<cry> (not scream)
 sv:	«gråta»
 def:	TKD; HQ12:4 p.9 ("Maltz's Reward Part III")
-com:	Does not include tears, since Klingon don't have any tear ducts.
+com:	Does not include tears, since Klingons doesn't have any tear ducts.
 	[HQ12:4 p.9 ("Maltz's Reward Part III")]
 tag:	1985; KLCP1
 id:	4Fh
@@ -21230,8 +21233,7 @@ pos:	noun
 en:	type of <animal>, <~sark~>
 sv:	ett slags «djur», «~sark~»
 def:	KGT
-com:	Mentioned in TNG episode "Pen Pals", as "a Klingon Sark"---a riding
-	animal (similar to a horse).
+com:	"A Klingon Sark"---a riding animal similar to a horse. (TNG "Pen Pals")
 tag:	1997; animal
 id:	1Lb
 file:	1997-11-01-kgt.txt
@@ -21533,11 +21535,11 @@ en:	«earwax»
 sv:	«öronvax»
 def:	HQ12:4 p.9 ("Maltz's Reward Part III")
 ref:	TDNW
-com:	"Ears (at least healthy ones) produce no byproducts other than earwax
-	({Serrum}), which is said to somehow just {vI'} 'accumulate' in the
-	ear." [HQ12:4 p.9 ("Maltz's Reward Part III")]
-see:	{qogh} "ear (external, cartilaginous flap)" (n); {teS} "ear (internal,
-	organ of hearing)" (n)
+cite:	Ears (at least healthy ones) produce no byproducts other than ~earwax~
+	({Serrum}), which is said to somehow just {vI'} ~accumulate~ in the
+	ear. [HQ12:4 p.9 ("Maltz's Reward Part III")]
+see:	{qogh} ~ear (external, cartilaginous flap)~ (n); {teS} ~ear (internal,
+	organ of hearing)~ (n)
 tag:	2003
 id:	BJQ
 file:	2003-12-holqed-12-4.txt
@@ -21699,7 +21701,7 @@ sv:	vara «insiktsfull», vara «smart», vara «klipsk», vara «skarpsinnig»
 	[slang]
 desc:	{bISIj} ~you are insightful~; (lit. ~you slash~)
 def:	KGT
-see:	{val} "be clever, smart"; {'ong} "be cunning, sly"
+see:	{val} ~be clever, smart~; {'ong} ~be cunning, sly~
 tag:	1997
 id:	htM
 file:	1997-11-01-kgt.txt
@@ -21902,10 +21904,10 @@ desc:	{tlhIngan Soj 'oH} ~it's a Klingon affair~ (lit. ~it's Klingon food~)
 	[HQ12:3 p.9 ("Maltz's Reward Part II")]
 def:	HQ12:3 p.9 ("Maltz's Reward Part II")
 ref:	TDNW
-com:	"Maltz said, '{tlhIngan Soj 'oH---not bIyaj},' literally, 'It is
-	Klingon food---you will not understand,' using {Soj} <food> in its
-	idiomatic sense of <matter, concern, affair>." [HQ12:3 p.9 ("Maltz's
-	Reward Part II")]
+cite:	Maltz said, "{tlhIngan Soj 'oH---not bIyaj}," literally, ~It is Klingon
+	food---you will not understand,~ using {Soj} ~food~ in its idiomatic
+	sense of ~matter, concern, affair~. [HQ12:3 p.9 ("Maltz's Reward Part
+	II")]
 tag:	2003
 id:	16M
 file:	2003-09-holqed-12-3.txt
@@ -22003,9 +22005,9 @@ en:	«gain»
 sv:	«skaffa» (sig)
 def:	HQ6:2 p.9 ("Everyday Klingon")
 ref:	S33
-com:	"{boq lucherDI' tlhIngan wo' romuluS Hov wo' je So'wI' cham Soqpu'
+cite:	{boq lucherDI' tlhIngan wo' romuluS Hov wo' je So'wI' cham Soqpu'
 	tlhIngan wo'.} [...] Cloaking technology was gained through an alliance
-	with the Romulan Star Empire [...]" [HQ6:2 p.9 ("Everyday Klingon")]
+	with the Romulan Star Empire [...] [HQ6:2 p.9 ("Everyday Klingon")]
 see:	{Suq}
 tag:	1997
 data:	non-canon
@@ -22222,17 +22224,17 @@ sv:	vara «modig», vara «heroisk», vara «djärv», vara «dristig», vara
 	«tapper», vara «oförskräckt» [slang]
 desc:	{Sub yaS} ~the officer is brave~; person is subj.
 def:	KGT
-com:	"Literally meaning 'be solid,' as opposed to gaseous or liquid, {Sub},
+cite:	Literally meaning ~be solid,~ as opposed to gaseous or liquid, {Sub},
 	in its slang usage, may be applied to a person. Thus, {SuvwI' Sub} is
-	'brave warrior' (literally, 'solid warrior'; {SuvwI',} 'warrior') and
-	{Sub SuvwI'} means 'The warrior is brave' (literally, 'The warrior is
-	solid'). It is inappropriate to use the word to describe anything other
-	than a person; a phrase such as {may' Sub} ({may',} 'battle') would
-	mean only 'solid battle' and would probably be considered a meaningless
+	~brave warrior~ (literally, ~solid warrior~; {SuvwI',} ~warrior~) and
+	{Sub SuvwI'} means ~The warrior is brave~ (literally, ~The warrior is
+	solid~). It is inappropriate to use the word to describe anything other
+	than a person; a phrase such as {may' Sub} ({may',} ~battle~) would
+	mean only ~solid battle~ and would probably be considered a meaningless
 	utterance. The slang meaning of {Sub} is probably influenced by the
-	phonetically identical noun {Sub,} meaning 'hero.' Nonslang equivalents
-	for {Sub} are {yoH} ('be brave') and {jaq} ('be bold'), which can be
-	used pretty much interchangeably." [KGT pp.165--166]
+	phonetically identical noun {Sub,} meaning ~hero.~ Nonslang equivalents
+	for {Sub} are {yoH} (~be brave~) and {jaq} (~be bold~), which can be
+	used pretty much interchangeably. [KGT pp.165--166]
 tag:	1997
 id:	nNE
 file:	1997-11-01-kgt.txt
@@ -22267,8 +22269,8 @@ ref:	KGT p.82; News 1998-02-21 (by Marc Okrand, to startrek.klingon, "Re:
 cite:	{SuDqu'} (~very {SuD}~) would probably be described as ~green~ in
 	Federation Standard. [KGT p.82]
 cite:	{SuD 'ej wov} means ~(it) is {SuD} and light,~ a way to refer to a
-	yellowish tinge; {SuD 'ach wov} (~{SuD} <but> light~) is also heard.
-	[KGT p.82]
+	yellowish tinge; {SuD 'ach wov} (~{SuD} but light~) is also heard. [KGT
+	p.82]
 cite:	{SuD 'ej wov} ~light blue~ [TNK]
 cite:	{Doq 'ej SuD} ~purple~ [TNK]
 cite:	{SuD 'ej Hurgh} ~dark blue~ [TNK]
@@ -22478,12 +22480,9 @@ sv:	«Sto-Vo-Kor»
 def:	DI p.248
 ref:	Email 2001-02-17 (by David Yeung, to tlhingan-hol, "Diplomatic
 	Implausibility glossary"); TDNW
-com:	"{Sutovoqor} (n) Stovokor (spelling correction from {S'to...})" (NOTE:
-	Terrence Donnelly's spelling is without source reference and is assumed
-	wrong here.) [TDNW] "The afterlife for the honored dead, where all true
-	warriors go after they die to fight an eternal battle. The closest
-	Klingon equivalent to heaven. [First mentioned by name in 'Rightful
-	Heir' (TNG).]" [DI]
+com:	The afterlife for the honored dead, where all true warriors go after
+	they die to fight an eternal battle. The closest Klingon equivalent to
+	heaven. (First mentioned in TNG "Rightful Heir") [DI]
 tag:	2001; religion
 id:	DAa
 file:	2001-02-17-email.txt
@@ -23259,7 +23258,7 @@ pos:	noun
 en:	<ear> (internal, organ of hearing)
 sv:	«öra» (invärtes hörselorgan)
 def:	KGT
-see:	{qogh} "ear (external, cartilaginous flap)" (n); {Serrum} earwax (n)
+see:	{qogh} ~ear (external, cartilaginous flap)~ (n); {Serrum} ~earwax~ (n)
 tag:	1997; body part
 id:	e6B
 file:	1997-11-01-kgt.txt
@@ -23460,7 +23459,7 @@ en:	«salivate»
 sv:	utsöndra «saliv»
 def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
-see:	{tlhepQe'} "saliva" (n)
+see:	{tlhepQe'} ~saliva~ (n)
 tag:	2003
 id:	uyg
 file:	2003-12-holqed-12-4.txt
@@ -24167,9 +24166,9 @@ en:	<undress>, «take off» (clothes)
 sv:	«klä av» sig, «ta av» sig (kläder)
 def:	TKD
 ref:	HQ2:4 p.17 ("Okrand's Notes")
-com:	"[...] the Klingon slang expression {qogh tuQmoHHa'}, literally 'take
-	off one's belt' is used to mean 'to not hear,' for example, {qogh
-	vItuQmoHHa'pu'} 'I've taken off my belt; your secret is safe with me.'"
+cite:	[...] the Klingon slang expression {qogh tuQmoHHa'}, literally ~take
+	off one's belt~ is used to mean ~to not hear,~ for example, {qogh
+	vItuQmoHHa'pu'} ~I've taken off my belt; your secret is safe with me.~
 	[HQ2:4 p.17 ("Okrand's Notes")]
 tag:	1985; clothing
 data:	derived form
@@ -24182,9 +24181,9 @@ en:	«dress», <put on> (clothes)
 sv:	«klä på» sig, «sätta på» sig (kläder)
 def:	TKD
 ref:	HQ2:4 p.17 ("Okrand's Notes")
-com:	"[...] the Klingon slang expression {qogh tuQmoHHa'}, literally 'take
-	off one's belt' is used to mean 'to not hear,' for example, {qogh
-	vItuQmoHHa'pu'} 'I've taken off my belt; your secret is safe with me.'"
+cite:	[...] the Klingon slang expression {qogh tuQmoHHa'}, literally ~take
+	off one's belt~ is used to mean ~to not hear,~ for example, {qogh
+	vItuQmoHHa'pu'} ~I've taken off my belt; your secret is safe with me.~
 	[HQ2:4 p.17 ("Okrand's Notes")]
 tag:	1985; clothing
 data:	derived form
@@ -24243,7 +24242,7 @@ cite:	If what one spits out is basically liquid, such as a mixture of saliva
 	and mucus, {tuy'} would be used; for spitting out a mixture of saliva
 	and something that is basically solid, {tlhIS} would be more
 	appropriate. [HQ12:4 p.9 ("Maltz's Reward Part III")]
-see:	{tlhepQe'} "saliva" (n); {bol} "drool" (v); {tlhIS} "spit out" (v)
+see:	{tlhepQe'} ~saliva~ (n); {bol} ~drool~ (v); {tlhIS} ~spit out~ (v)
 tag:	2003; food
 id:	Drv
 file:	2003-12-holqed-12-4.txt
@@ -24368,19 +24367,19 @@ pos:	noun
 en:	<order>, <structure> (societal) [slang]
 sv:	«ordning», «struktur» (på samhälle) [slang]
 def:	KGT
-com:	"The word {tlham}, literally meaning 'gravity,' is used to mean 'order'
-	or 'structure' in the sense of an ordered or well-structured society.
+cite:	The word {tlham}, literally meaning ~gravity,~ is used to mean ~order~
+	or ~structure~ in the sense of an ordered or well-structured society.
 	In the same way that gravity holds one to a planet (or, in the case of
 	artificial gravity, to the floor of a space vessel), the structure of a
 	society holds its members in, preventing them from going off in all
 	directions. In other words, it ensures that a society function properly
 	by keeping it from coming apart. The word is used in phrases such as
-	{tlham ghaj} ('have gravity'---that is, 'have structure, order') or
-	{tlham Hutlh} ('lack gravity' or 'lack structure, order'). A very well
-	ordered society may be said to have {tlham'a'} ('big gravity') or
-	{tlham HoS} ('strong gravity'), while a society that is judged to be
-	falling apart may have {tlhamHom} ('little gravity') or {tlham puj}
-	('weak gravity')." [KGT p.166]
+	{tlham ghaj} (~have gravity~---that is, ~have structure, order~) or
+	{tlham Hutlh} (~lack gravity~ or ~lack structure, order~). A very well
+	ordered society may be said to have {tlham'a'} (~big gravity~) or
+	{tlham HoS} (~strong gravity~), while a society that is judged to be
+	falling apart may have {tlhamHom} (~little gravity~) or {tlham puj}
+	(~weak gravity~). [KGT p.166]
 tag:	1997
 id:	xvY
 file:	1997-11-01-kgt.txt
@@ -24562,7 +24561,7 @@ en:	«saliva»
 sv:	«saliv», «spott»
 def:	HQ12:4 p.8 ("Maltz's Reward Part III")
 ref:	TDNW
-see:	{tIl} "salivate" (v); {bol} "drool" (v); {tuy'} "spit" (v)
+see:	{tIl} ~salivate~ (v); {bol} ~drool~ (v); {tuy'} ~spit~ (v)
 tag:	2003
 id:	zn1
 file:	2003-12-holqed-12-4.txt
@@ -24830,7 +24829,7 @@ cite:	If what one spits out is basically liquid, such as a mixture of saliva
 	and mucus, {tuy'} would be used; for spitting out a mixture of saliva
 	and something that is basically solid, {tlhIS} would be more
 	appropriate. [HQ12:4 p.9 ("Maltz's Reward Part III")]
-see:	{tuy'} "spit out (liquids)" (v)
+see:	{tuy'} ~spit out (liquids)~ (v)
 tag:	1997; food
 id:	4nL
 file:	1997-11-01-kgt.txt; 2003-12-holqed-12-4.txt
@@ -24969,7 +24968,9 @@ pos:	verb
 en:	«land» (on water, like a bird)
 sv:	«landa» (på vatten)
 def:	HQ10:4 p.5 ("{matlh juppu' mu'mey}")
-com:	if bird lands on land, use {Saq}, in a tree, use {ngun}
+cite:	[If a bird lands in a tree use] {ngun} ~perch~ (the verb {Saq} is used
+	if the bird alights on the ground, {tlhot} if it lands on the water)
+	[HQ10:4 p.5 ("{matlh juppu' mu'mey}")]
 tag:	2001
 id:	iWK
 file:	2001-12-holqed-10-4.txt
@@ -25277,21 +25278,21 @@ sv:	«avsluta» (en händelse, t.ex. resa, strid, sång)
 desc:	{may' van SuvwI'} ~the warrior ends the battle~; participants are subj.
 def:	HQ12:2 p.8 ("Maltz's Reward Part I")
 ref:	TDNW
-com:	"When an event over which one has some control ends (one can't cause a
+cite:	When an event over which one has some control ends (one can't cause a
 	month to end), a different verb is used: {van}. This would apply to
 	such things as voyages, battles, plays, operas, stories, and songs.
 	Here, the event (the voyage, the song) doesn't end; the participant in
 	the event or the perpetrator of the event ends it. For example: {leng
-	vanDI' SuvwI'pu' 'IQ chaH} 'At the end of the voyage, the warriors are
-	sad.' {bom vanDI' SuvwI'pu' tlhutlh chaH} 'At the end of the song, the
-	warriors drink.'---Literally, these sentences mean 'When the warriors
-	end the voyage, they are sad' ({leng} <voyage>, {-DI'} <when>,
-	{SuvwI'pu'} <warriors>, {'IQ} <be sad>, {chaH} they) and 'When the
-	warriors end the song, they drink' ({bom} <song>, {tlhutlh} <drink>)."
-	[HQ12:2 p.8 ("Maltz's Reward Part I")]; "Maltz said he wasn't sure
-	whether {van} <end> and {van} <salute> were really the same word, but
-	he found it interesting that Klingons end things by saluting them."
+	vanDI' SuvwI'pu' 'IQ chaH} ~At the end of the voyage, the warriors are
+	sad.~ {bom vanDI' SuvwI'pu' tlhutlh chaH} ~At the end of the song, the
+	warriors drink.~---Literally, these sentences mean ~When the warriors
+	end the voyage, they are sad~ ({leng} ~voyage~, {-DI'} ~when~,
+	{SuvwI'pu'} ~warriors~, {'IQ} ~be sad~, {chaH} they) and ~When the
+	warriors end the song, they drink~ ({bom} ~song~, {tlhutlh} ~drink~).
 	[HQ12:2 p.8 ("Maltz's Reward Part I")]
+cite:	Maltz said he wasn't sure whether {van} ~end~ and {van} ~salute~ were
+	really the same word, but he found it interesting that Klingons end
+	things by saluting them. [HQ12:2 p.8 ("Maltz's Reward Part I")]
 see:	{Dor} (2), {ghang}
 tag:	2003; time
 id:	6cB
@@ -25350,17 +25351,17 @@ en:	be <aggressive>, be <effective>, be <vigorous>
 sv:	vara «aggressiv», vara «effektiv», vara «energisk», vara «kraftfull»
 desc:	about person or trad. weapon (rarely for modern weapon)
 def:	TKD; KGT
-com:	"A weapon that is particularly good, that is well designed and well
+cite:	A weapon that is particularly good, that is well designed and well
 	constructed, is normally described as {vaQ}. Thus, a {taj vaQ} is a
 	meticulously made knife and a {ghanjaq vaQ} is an especially nice mace.
 	In speaking about a fine weapon, one could compliment it even further
-	by adding the emphatic {-qu'} to {vaQ}. A really spectacular <bat'leth>
+	by adding the emphatic {-qu'} to {vaQ}. A really spectacular ~bat'leth~
 	would be a {betleH vaQqu'}. The word {vaQ} is not often used in
 	describing the newer weapons (disruptors and the like), though such
 	locutions are heard from time to time. The original meaning of {vaQ}
-	has been extended to mean 'effective, vigorous, aggressive' and is now
+	has been extended to mean ~effective, vigorous, aggressive~ and is now
 	heard applied not only to weapons but also to people: {SuvwI' vaQ}
-	('aggressive warrior')." [KGT p.68]
+	(~aggressive warrior~). [KGT p.68]
 tag:	1985
 id:	5kG
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
@@ -25654,7 +25655,7 @@ en:	<devil>, «demon», «~Fek'lhr~»
 sv:	«djävul», «demon», «~Fek'lhr~»
 def:	TKDa; KCD
 ref:	TKW p.197; HQ12:3 p.9 ("Maltz's Reward Part II")
-com:	KCD: "The beast who guards the dwelling place of the dishonored dead"
+cite:	The beast who guards the dwelling place of the dishonored dead [KCD]
 tag:	1992; religion
 id:	4J2
 file:	1992-01-01-tkd.txt; 1996-04-kcd.txt
@@ -27340,7 +27341,7 @@ cite:	{Qang QanmeH yan 'ISletlh Damuv 'e' wIvlu'.} ~You are chosen to serve
 	on the Yan-Isleth and protect the Chancellor.~ [MKE]
 com:	The ~Yan-Isleth~, or ~Brotherhood of the Sword~, was an elite Klingon
 	division charged with protecting the Klingon chancellor. They guarded
-	the chancellor at all times. (DS9: "Apocalypse Rising")
+	the chancellor at all times. (DS9 "Apocalypse Rising")
 tag:	2011
 data:	phrase
 id:	PC6
@@ -27524,7 +27525,7 @@ pos:	verb
 en:	<cooperate>
 sv:	«samarbeta»
 def:	TKD E-K
-see:	{jIj} "be cooperative"
+see:	{jIj} ~be cooperative~
 tag:	1985
 id:	6sc
 file:	1992-01-01-tkd.txt
@@ -28805,7 +28806,7 @@ en:	be <low>
 sv:	vara «låg»
 def:	KGT
 cite:	{tlhIngan yoH jen verengan yoH 'eS} or {tlhIngan yoH 'eS verengan yoH
-	jen} ({jen,} <be high>; {'eS,} <be low>) [KGT p.179]
+	jen} ({jen,} ~be high~; {'eS,} ~be low~) [KGT p.179]
 tag:	1997; placement
 id:	GWb
 file:	1997-11-01-kgt.txt
@@ -29356,8 +29357,8 @@ en:	<some>, an unknown or unspecified quantity
 sv:	«någon», «något», «några», en «del», en okänd eller ospecificerad mängd
 desc:	{'op SuvwI'} ~some warriors~ [S7]
 def:	KGT
-com:	{DujvamDaq 'op SuvwI' tu'lu'bogh po' law' tlhIngan yo' SuvwI' law' po'
-	puS.} "[S]ome of the finest warriors in the Klingon fleet." [S7]
+cite:	{DujvamDaq 'op SuvwI' tu'lu'bogh po' law' tlhIngan yo' SuvwI' law' po'
+	puS.} ~Some of the finest warriors in the Klingon fleet.~ [S7]
 tag:	1997; quantity
 id:	DyB
 file:	1997-11-01-kgt.txt
@@ -29873,10 +29874,10 @@ pos:	noun
 en:	<officer> «emeritus», «retired» officer
 sv:	«officer» «emeritus», «pensionerad» officer
 def:	TKD; KGT p.51
-com:	"[T]here are not many officers who end their service to the Empire by
+cite:	[T]here are not many officers who end their service to the Empire by
 	simply stepping down or retiring. There are some, however, and the word
-	{'utlh} is used to refer to an officer of this type. Perhaps 'officer
-	emeritus' is an appropriate translation." [KGT p.51]
+	{'utlh} is used to refer to an officer of this type. Perhaps ~officer
+	emeritus~ is an appropriate translation. [KGT p.51]
 tag:	1985
 id:	MDr
 file:	1992-01-01-tkd.txt; 1997-11-01-kgt.txt
@@ -30816,7 +30817,7 @@ pos:	noun suffix type 5
 en:	topic
 sv:	tema, ämne
 def:	TKD 3.3.5 (p.29)
-com:	An object topicalized {-'e'} sometimes comes *before* the adverb in the
+cite:	An object topicalized {-'e'} sometimes comes ~before~ the adverb in the
 	sentence (if any) [TKDa 6.7 (p.180)]
 tag:	1985; KLCP1
 id:	fzK

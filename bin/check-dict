@@ -434,7 +434,7 @@ sub source_ref_syntax {
     my $holqed_source  = qr/HQ\d{1,2}:[1-4]+ $page_refs? (?: $s \( $subj \))/x;
     my $paged_source   = qr/( TKDa? $tkd_refs? |KGT $kgt_refs? | (DI|Sarek|TKW|$wotf) $page_refs? | TNK | MKE ) ($s et $s al\.)? /x;
     my $unpaged_source = qr{
-        BoP|CK|PK|KCD|KLINW|TDNW|Radio $s Times|
+        BoP|CK|PK|KCD|KLINW|TDNW|RT|
         S7|S8|S14|S15|S20|S25|S26|S31|S32|S33|ST1|ST5|ST6|STE|
         \{qep'a'\} $s \d{4}                                          |
         Email      $s $date   $s \($by, $s $to    , $s $subj   \)    |
