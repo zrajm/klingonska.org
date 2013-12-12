@@ -1,6 +1,18 @@
 #+STARTUP: overview hidestars -*- org -*-
 #+TAGS: PROOF(p) TRANSCRIBE
 
+**** TODO Add 'def: ST3' for all words occurring in ST3
+**** TODO Add 'tag: 1984' for all words occurring in ST3
+**** TODO Add 'ref: ST5' for all words occurring in ST5
+**** TODO Add 'def: ST5' for all words in 1999-12-holqed-08-4-b.txt(?)
+     I'm not sure the HQ8:4 ("Notes from Star Trek V: The Final Frontier")
+     article actually reflects Klingon dialogue as it appears in the movie.
+
+     But all words source referenced with that {HolQeD} article, and that is
+     also in the final move should have 'ref: ST5' or 'def: ST5'.
+**** TODO Add 'ref: ST6' for all words occurring in ST6
+
+
 * INBOX
   These should be inserted in the hierachy below.
 ** NWL seems to be establish abbrev for KLI's new word list
@@ -1338,6 +1350,15 @@
     Star Trek Communicator #104:
     Buncha actor names.
 
+    barbara' ma'rIch    Barbara March
+    ghuwI'nItlh wa'lIS  Gwynyth Walsh
+    jan kalI'qoS        John Colicos
+    janluq pIqarD       Jean-Luc Picard
+    mayqel 'anSa'ra     Michael Ansara
+    mayqel Do'rIn       Michael Dorn
+    rabe'rIt 'o'raylIy  Robert O'Reilly
+    raqSan bIQ-DawSon   Roxann Biggs-Dawson
+
     Words for Picard and Kirk.
 *** DONE Prettier HTML transcripts of trading cards
     CLOSED: [2012-05-17 Thu 00:20]
@@ -1476,7 +1497,7 @@
     Each transcript in the http://klingonska.org/canon/ list should have a link
     to the prettified version (as well as to the original text formatted
     transcript).
-*** [58%] Transcripts updating/improvement
+*** [61%] Transcripts updating/improvement
 **** [0%] Improve MKE transcript
 ***** TODO Buy copy of Monopoly: Klingon Edition
 **** [0%] Improve TNK transcript
@@ -1645,21 +1666,24 @@
      Transcriptions of TKD/TKW/KGT/CK and PK should be indexable by Google
      (i.e. script should detect and allow anyone with a user agent string
      matching m#\bGooglebot\b#i).
-**** TODO Add ST3 transcript
-     All words in the dictionary that occurs in this transcript should be
-     linked to the transcript.
-**** TODO Add ST5 transcript
-     http://mail.google.com/mail/#label/imported/12a129c1002403f8
-     All words in the dictionary that occurs in this transcript should be
-     linked to the transcript.
+**** DONE 2010-11-30-web.txt -- linebreaks after names in FB transcript?
+     CLOSED: [2013-12-08 Sun 13:09]
+     Nope. Added screenshot for the reference, though.
+**** DONE Add ST3 transcript
+     CLOSED: [2013-12-08 Sun 15:37]
+**** DONE Add ST5 transcript
+     CLOSED: [2013-12-12 Thu 15:40]
 **** TODO Add ST6 transcript
-     All words in the dictionary that occurs in this transcript should be
-     linked to the transcript.
+**** TODO Compare ST3 transcript with movie
+**** DONE Compare ST5 transcript with movie
+     CLOSED: [2013-12-12 Thu 15:40]
+**** TODO Compare ST6 transcript with movie
 **** TODO Add text containing {Sa'Hut} "buttocks" (from {qep'a'} 2003)
 **** TODO Add transcript of The Klingon Way (audio book)         :TRANSCRIBE:
-**** TODO Add "Klingon words from _Diplomatic Implausibility_ (DI)"
-     (found in email to tlhingan-hol with same subject)
-***** TODO transcribe relevant portions
+**** [66%] Add "Klingon words from _Diplomatic Implausibility_ (DI)"
+***** TODO Add Klingon words from the body of text to transcript
+***** DONE Transcribe glossary part of book
+      CLOSED: [2013-12-09 Mon 07:56]
 ***** DONE Order book from UEB
       CLOSED: [2010-08-26 Thu 19:47]
 **** TODO HolQeD 1:1 pp.3-10 -- "First Stepws Towards a Phonological Theory of Klingon" by Allan C. Wechsler
@@ -2485,6 +2509,41 @@
       CLOSED: [2010-08-09 Mon 02:17]
 *** `dict.zdb`
 **** [31%] Field/syntax changes
+***** TODO Add 'data:' value 'unconfirmed'
+      Used for words like {Qej} and {vabDot} for which we do not have a 100%
+      certain translation.
+***** TODO Remove period in "p." and "pp." abbreviations
+      Page abbreviations should not have period in them, according to The
+      Elements of Typographic Style.
+***** TODO Use Unicode en-dash instead of '--' (?)
+***** TODO Use Unicode "typographical" double quotes
+      This would allow `check-dict` to do a better job, since there are
+      different symbols for opening and closing quotes. It'll also look prettier. :)
+***** TODO Use Unicode "typographical" single quotes & apostrophes
+      Can't really check them properly (because of apostrophe looking the same
+      as right single quote), but at least it'll look pretty.
+***** TODO Use single ‹guillemets› to mark lookup words(?)
+      Currently lesser/greater are used. This would require changes is all
+      scripts that work with the dictionary. Is it worth it?
+***** TODO Add 'lect:' field (for "slang", "regional" etc.)
+      'regional', 'slang' etc. should have its own field, rather than be part
+      of the 'en:' and 'sv:' fields.
+***** TODO 'com:' should come before any 'cite:' fields
+      When a 'com:' comment occurs it is usually more important than any
+      'cite:' fields -- it can be a brief instruction to something (something
+      gathered from several quotes, sometimes even with their separate quotes
+      given as 'cite:' fields) or similar.
+***** TODO 'tag:' field should come before 'com:'
+      'tag:' field content is shorter, and more telling that the 'com:' field,
+      so it should come earlier so as to allow user to faster get a 'feel' for
+      the entry.
+***** TODO Systematize 'see:' field
+      Right now it's kind of haphazardly implemented. It should be more
+      systematic (and refer to the 'id:' of the of the linked-to entry + some
+      extra human-readable info). Maybe like this?
+
+          see: rqP ({quv} [1] (v) “be honored, be honorable”);
+          see: AKU ({HoQ} (v) “be honored falsely, be falsely honorable”)
 ***** TODO Better, clearer source references
       Currently, second hand transcripts of sources (i.e. some unverified
       transcripts gotten through tlhingan-hol etc., as opposed to my own
@@ -2527,11 +2586,11 @@
           However `check-dict` will require that dates *not* be present where
           they are not required.
 
-        * Secondary sources may be specified in paretheses. (A secondary source
-          is a different source, where a transcript of the primary source have
-          been published (whole or in part). Secondary sources are especially
-          important where the primary source can be difficult to find or
-          obtain.)
+        * Secondary sources may be specified in parentheses. (A secondary
+          source is a different source, where a transcript of the primary
+          source have been published (whole or in part). Secondary sources are
+          especially important where the primary source can be difficult to
+          find or obtain.)
 
           tlh:    {yIvbeH} [.1]
           pos:    noun
@@ -2560,41 +2619,6 @@
           2000-12-HolQeD-09-4-b
           2000-09-HolQeD-09-3
       ---------------------------------------------------------------------------
-***** TODO Add 'data:' value 'unconfirmed'
-      Used for words like {Qej} and {vabDot} for which we do not have a 100%
-      certain translation.
-***** TODO Remove period in "p." and "pp." abbreviations
-      Page abbreviations should not have period in them, according to The
-      Elements of Typographic Style.
-***** TODO Use Unicode en-dash instead of '--' (?)
-***** TODO Use Unicode "typographical" double quotes
-      This would allow `check-dict` to do a better job, since there are
-      different symbols for opening and closing quotes. It'll also look prettier. :)
-***** TODO Use Unicode "typographical" single quotes & apostrophes
-      Can't really check them properly (because of apostrophe looking the same
-      as right single quote), but at least it'll look pretty.
-***** TODO Use single ‹guillemets› to mark lookup words(?)
-      Currently lesser/greater are used. This would require changes is all
-      scripts that work with the dictionary. Is it worth it?
-***** TODO Add 'lect:' field (for "slang", "regional" etc.)
-      'regional', 'slang' etc. should have its own field, rather than be part
-      of the 'en:' and 'sv:' fields.
-***** TODO 'com:' should come before any 'cite:' fields
-      When a 'com:' comment occurs it is usually more important than any
-      'cite:' fields -- it can be a brief instruction to something (something
-      gathered from several quotes, sometimes even with their separate quotes
-      given as 'cite:' fields) or similar.
-***** TODO 'tag:' field should come before 'com:'
-      'tag:' field content is shorter, and more telling that the 'com:' field,
-      so it should come earlier so as to allow user to faster get a 'feel' for
-      the entry.
-***** TODO Systematize 'see:' field
-      Right now it's kind of haphazardly implemented. It should be more
-      systematic (and refer to the 'id:' of the of the linked-to entry + some
-      extra human-readable info). Maybe like this?
-
-          see: rqP ({quv} [1] (v) “be honored, be honorable”);
-          see: AKU ({HoQ} (v) “be honored falsely, be falsely honorable”)
 ***** DONE 'tag:' field should be sorted
       CLOSED: [2013-07-23 Tue 08:37]
 ***** DONE 'tag:' should contain year of coinage
@@ -2677,9 +2701,10 @@
 
      Grep for this throughout website, I'm the misspelling must occur at least
      in all scripts working against the dictionary. (CGI + dictionary checker?)
+**** TODO Add 'def: ST3', and 'tag: 1984' for all words occurring in ST3
 **** TODO Add 'def: ST5' for all words in 1999-12-holqed-08-4-b.txt(?)
      I'm not sure the HQ8:4 ("Notes from Star Trek V: The Final Frontier")
-     article actually reflects Klingon dialogue, as it appears in the movie.
+     article actually reflects Klingon dialogue as it appears in the movie.
 
      But all words source referenced with that {HolQeD} article, and that is
      also in the final move should have 'ref: ST5' or 'def: ST5'.
@@ -2746,7 +2771,23 @@
       field. -- These words should be included in the Klingon--English version
       of the dictionary, but with a leading asterisk, and a warning they're not
       supposed to be used. Maybe add a 'warn' field, explaining why?
-**** [39%] Add words
+**** [34%] Add words
+***** TODO Words from Star Trek: Communicator #104
+      These are some words. There are more.
+
+      barbara' ma'rIch    Barbara March
+      ghuwI'nItlh wa'lIS  Gwynyth Walsh
+      jan kalI'qoS        John Colicos
+      janluq pIqarD       Jean-Luc Picard
+      mayqel 'anSa'ra     Michael Ansara
+      mayqel Do'rIn       Michael Dorn
+      rabe'rIt 'o'raylIy  Robert O'Reilly
+      raqSan bIQ-DawSon   Roxann Biggs-Dawson
+***** TODO Add {qep'a'} 2010 words to dictionary
+      They're in the dictionary postamble, but only a couple of them are in the
+      dictionary proper.
+***** TODO {'anDor} - "Andor"
+***** TODO {verenganar} - "Ferenginar"
 ***** TODO {HIq ngeb} "fake ale" / "synthehol"
       Was mentioned on tlhingan-hol.
 ***** DONE From Klingon Monopoly
@@ -3157,9 +3198,6 @@
 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco
                 laboris nisi ut aliquip ex ea commodo consequat.
-***** TODO Add article names for all HQ references
-      And thereafter make the article names obligatory in all HQ source
-      references.
 ***** TODO Puns
 ****** TODO See emails
 ******* "Reversals for puns"
@@ -3738,7 +3776,23 @@
 *** DONE klingon phrases in {...} in gram: should have ' at beg of word replaced with right-hand quote
     CLOSED: [2012-01-20 Fri 13:01]
     (see example under {Soj})
-** [86%] `bin/check-dict`: Dictionary check tool
+** [66%] `bin/check-dict`: Dictionary check tool
+*** TODO Ignore [...] inside parentheses in 'desc:'
+    Square brackets inside parentheses should *not* be checked for sources.
+    E.g. {qang} [.2].
+*** TODO Check that [...] occurring in 'cite:' fields are *not* source
+    references (except for the last one, which *must* be)
+*** TODO check_brackets()
+*** TODO Start checking page references (p.56) etc. -- (remove source_ref_syntax())
+*** TODO Re-enable checking of 'tag: YEAR'
+*** TODO Compare 'def:' + 'ref:' fields between old and new
+    Store all 'file:' references for each 'id:' in old dictionary, then do
+    the same thing based on 'def:' and 'ref:' in new dictionary. Compare the
+    two, and look for discrepancies.
+*** TODO Improve metadata header check
+    When I accidentally added had '~FORMAT:' instead of 'FORMAT:', the check
+    did not react -- but it should!
+*** TODO Check that <...> does not occur other than in 'en:' field
 *** TODO Check that <...> does not occur in non-TKD/non-KGT sources
 *** TODO Only look for too long lines in pre- and postamble
     There is now a check which look for badly wrapped fields, which will catch
@@ -3950,7 +4004,6 @@
      [https://customerzone.loopia.se/domains/transfer]
 
      Ref: https://mail.google.com/mail/?ui=2&shva=1#inbox/12a85dafd3a92ddf
-
 *** DONE Update DNS for web klingonska.org @ HCoop
     CLOSED: [2010-09-03 Fri 19:44]
 *** DONE Move mailing lists

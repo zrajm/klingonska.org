@@ -1,0 +1,945 @@
+[[
+  [2011-11-02] Added header
+
+  Type: movie
+  Date: 9 June 1989
+  Title: <Star Trek V: The Final Frontier>
+  Publisher: Paramount Pictures
+  Summary: Marc Okrand was again hired to write the Klingon dialogue, and coach
+    the actors. Usually abbreviated <ST5>, though sometimes abbreviated
+    <ST:TFF>.
+  File: 1999-12-holqed-08-4-b.txt
+
+]]
+
+Star Trek V: The Final Frontier
+
+The below transcript have been constructed from several sources.
+
+  * David Yonge-Mallo's excellent ST5 transcript.
+  * The "Revised Final" ST5 screenplay (dated November 21, 1988).
+  * {HolQeD} 8:4 article (p11--13), with notes on "The Final Frontier".
+  * The movie itself.
+  * The deleted scenes extras from the ST5 Special Edition DVD.
+
+This transcript uses the same format as the ST5 screenplay as far as
+possible. The Klingon dialogue (which is missing from the official
+screenplays) have been added (in curly brackets), and occasional comments
+have been added in double brackets [[...]].
+
+The Klingon material added is both from the "Notes from ~Star Trek V: The
+Final Frontier~" article in {HolQeD} 8:4, and David Yonge-Mallo's
+transcript of ST5. But all has been carefully checked against the primary
+sources (i.e. the movies and DVD extras).
+
+Closed captions are missing from this transcript.
+
+/zrajm, 2013-12-11
+
+===============================================================================
+
+The translations in parentheses are the (subtitles) as they appear in the movie
+followed by the [closed captions] in brackets, which was helpful in places
+where there were no subtitles. Angle brackets indicate <uncertainties> in the
+transcription due to muttered dialogue, background music or sound effects. I
+have added excerpts from J.M. Dillard's novelization in {curly brackets} which
+may reflect an earlier version of David Loughery's screenplay (story by William
+Shatner, Harve Bennett and David Loughery) used by the novelist in her
+adaptation.
+
+-------------------------------------------------------------------------------
+
+Klingon lines from scenes in an earlier draft of the script missing from the
+final cut (but included in the novelization) are in [square brackets]. Some of
+them were published in HolQeD 8.4:12-13.
+
+-------------------------------------------------------------------------------
+
+"Inside the commercially available script for Star Trek V: The Final Frontier
+you won't find much Klingon. The lines designated to be spoken in Klingon
+appear, parenthetically, in English. During the making of the film Marc Okrand
+created notes and tapes for the Klingon actors to work from in preparing their
+lines." (Lawrence Schoen in HolQeD 8.4)
+
+-------------------------------------------------------------------------------
+
+"Okrand mentioned [at qep'a'] that though he was present for the filming of the
+Klingon scenes, he was not there when the subtitles were inserted. Probably
+what happened is that someone (unfamiliar with Klingon) ... was involved in
+putting the subtitles..." (SuSvaj, 7/28/06)
+
+-------------------------------------------------------------------------------
+
+"Yesterday I had the occasion to view the extras on the Star Trek V and VI
+special edition DVDs (on the second disks). I don't know if they've already
+been discussed here, but there are some things that are of interest to
+Klingonists. There's a short segment on the Star Trek VI disc on the Klingon
+language in which Dr. Lawrence Schoen makes an appearance. There are interviews
+with the actors who played Klingons on both discs. The one on Star Trek V is
+called "That Klingon Couple" with the subtitle {tlhIngan chang'engvetlh}. While
+their lines in Star Trek V had a few problems that may annoy some Klingonists,
+the actors themselves had an excellent attitude towards learning the Klingon
+and took it very quite seriously. I was very impressed with that aspect of
+things. ... The most interesting thing for Klingonists is probably the deleted
+scene in which some Klingon was spoken by General Koord to Romulan Ambassador
+Caithlin Dar at Paradise City when they first meet.
+
+"At one point, Spice Williams exclaims "Brilliant!" and the word {chong!} is
+shown in the subtitle (all Klingon subtitles in this segment are given in Roman
+font). At another point she is describing her reaction to being hired for the
+movie, and says 'Wow, wow! For Star Trek! Omigosh!', and the subtitle said
+{yay, yay! Hov lengvaD! baQa'!} (Okay, I'm sure {yay} is a joke and isn't
+actually the Klingon way of saying wow. But it's cute.) She describes a scene
+from the movie (near the end) by saying the line "Oh, what wonderful muscles",
+and the subtitle was {toH, Somraw'Du' Dunqu'.} (That's not a typo on my part,
+the <'> is there on *{Somraw'} in the subtitle.)
+
+"Todd Bryant at one point asks Spice Williams if she remembers "that {Hoch Dun
+puS} line", and the subtitle said {Hoch Dun puS}. Then she looked up as if
+trying to remember it, and said something which was subtitled as {'entepray'
+Hub patmey luchu'be'}. Was this line in the movie? I didn't find it or a line
+like it in the movie, and I don't know if it's a deleted line that she
+remembered, or if she misremembered a line and whoever did the subtitles
+re-constructed it from what she said. (It does sound like that's what she said.
+If she remembered a deleted line after all these years then she has an amazing
+memory! A line like that--"They didn't activate Enterprise's defense
+systems"--would be perfect near the end of the movie when the Bird-of-Prey
+catches the Enterprise unawares.)
+
+"There's another deleted scene that was supposed to show that there was a
+romantic relationship between Klaa and Vixis. Presumably they're speaking
+Klingon in that scene, but unfortunately the commentary talks over it and you
+can't hear what's being said. (Anyone know how to read lips in Klingon? :) )
+
+"I wonder who supplied the subtitles. Was Okrand, or someone from KLI, involved
+in this? The subtitles are much better than the usual Paramount attempts at
+Klingon done without Okrand's help, and the little joke using {yay} to
+translate wow is quite characteristic of Okrand." (De'vID jonwI' [5/2003])
+
+===============================================================================
+
+                   [[Time: Approx. 12 minutes into the movie]]
+
+              33   INT. BACK ROOM                                                33
+
+                   The stranger lowers the breathing device from her face
+                   and is revealed to be a young woman. A Romulan. Her
+                   name is CAITHLIN DAR and she stands on the threshold
+                   of the room. She's a little nervous and a long way
+                   from home.
+
+                   The back room is an area for unwanted odds and ends.
+                   TWO MEN are sprawled in chairs at opposite ends of a
+                   table. The man seated closest to Caithlin slowly
+                   swivels his head in her direction. He's a Terran
+                   (specifically, an Englishman) named ST. JOHN TALBOT.
+                   Thin and dissipated, alcoholic, Talbot is a veteran of
+                   the diplomatic corps.
+
+                                           CAITHLIN
+                             Gentlemen, I'm Caithlin Dar.
+
+                   Talbot puffs out a cloud of smoke and slowly stands
+                   up. He speaks with his cigarette still in his mouth.
+
+                                           TALBOT
+                             Oh, yeah. Our new Romulan represent-
+                             ative. Welcome to Paradise City, my
+                             dear, capital of the so-called "Planet
+                             of Galactic Peace." I'm St. John
+                             Talbot, the Federation representative
+                             here on Nimbus III and my charming
+                             companion is the Klingon consul
+                             Korrd.
+
+                   Caithlin regards the hulking figure on the other end
+                   of the table. KORRD is an old, overweight Klingon, a
+                   once great warrior now past his prime. He doesn't
+                   rise to greet Caithlin. Instead, he takes a swig from
+                   a flagon and emits an earth-shaking belch.
+
+                                           CAITHLIN
+                             I expect that's Klingon for hello.
+
+                                           TALBOT
+                             Won't you come in, my dear?
+
+
+                   INTERCUT WITH:
+
+              XX   EXT. NIMBUS III - DESERT - DAY                                XX
+
+                   J'onn is looking out across the desert from a dune,
+                   clutching his crude pipe gun. Coming up from behind
+                   him Sybok approaches, mounted on his horse, and then
+                   ride majestically past. After Sybok comes a small army
+                   of ragged settlers, drawing up dust as they pass.
+
+              XX   ANGLE - PARADISE CITY                                         XX
+
+                   Beyond a stretch of desert lies, Paradise City, a
+                   small ramshackle village smack in the middle of no-
+                   where, surrounded by high walls. The small army moves
+                   onward towards the city.
+
+                                                                            CUT TO:
+
+              XX   INT. BACK ROOM                                                XX
+
+              ---- DELETED --------------------------------------------------------
+              --                                                                 --
+              --                           CAITHLIN                              --
+              --             There's hunger, poverty, no law                     --
+              --             enforcement. And here the two of you                --
+              --             sit... drinking.                                    --
+              --                                                                 --
+              --                           KORRD                                 --
+              --             {QotnIStaH romuluSngan be'pu'.} Hmph.               --
+              --             (Subtitle: Romulan women belong on                  --
+              --             their backs!)                                       --
+              --                                                                 --
+              --   [[Korrd definitely does _not_ say {DungDaq legh 'ej} at       --
+              --   the beginning of this sentence like the {HolQeD} 8:4          --
+              --   article states.]]                                             --
+              --                                                                 --
+              --                           CAITHLIN                              --
+              --             What did he say?                                    --
+              --                                                                 --
+              --                           TALBOT                                --
+              --             He says he hopes you enjoy yourself                 --
+              --             while you're here. Uh. May I ask                    --
+              --             you, Ms. Dar, what terrible mistake                 --
+              --             you made to get yourself banished to                --
+              --             this place, the armpit of the                       --
+              --             universe?                                           --
+              --                                                                 --
+              --                           CAITHLIN                              --
+              --             I volunteered.                                      --
+              --                                                                 --
+              --                           TALBOT                                --
+              --             Volunteered?                                        --
+              --                                                                 --
+              --   Talbot turns to Korrd and translates her answer into          --
+              --   Klingon.                                                      --
+              --                                                                 --
+              --                           TALBOT                                --
+              --             {Sap (t)uu ee kwee(j)}                              --
+              --                                                                 --
+              --   [[First word is definitely {Sap}. I can't make out the        --
+              --   rest. It *might* be {Sappu' 'e' QIj}. /David]]                --
+              --                                                                 --
+              --   Korrd chortles derisively.                                    --
+              --                                                                 --
+              --                           CAITHLIN                              --
+              --                     (nervous/embarrassed                        --
+              --                      laugh, then serious)                       --
+              --             Nimbus III is a great experiment.                   --
+              --                                                                 --
+              ---------------------------------------------------------------------
+
+                                           CAITHLIN
+                             Twenty years ago when our three
+                             governments agreed to develop this
+                             planet together, a new age was born.
+
+                                           TALBOT
+                             Our new age died a quick death, and
+                             the settlers we conned into coming
+                             here -- they were the dregs of the
+                             galaxy -- immediately took to
+                             fighting amongst themselves. We
+                             forbade them weapons -- they soon
+                             began to fashion their own.
+
+                                           CAITHLIN
+                             Well, then it appears I've arrived
+                             just in time.
+
+              ---- DELETED --------------------------------------------------------
+              --                                                                 --
+              --                           CAITHLIN                              --
+              --             The policies that the three of us                   --
+              --             agree on here will have far-reaching                --
+              --             results.                                            --
+              --                                                                 --
+              --                           TALBOT                                --
+              --             My dear child, we're not here to                    --
+              --             agree, we're here to disagree.                      --
+              --                                                                 --
+              --                           CAITHLIN                              --
+              --             But I'm here to open discussions -- to              --
+              --             find solutions to these problems.                   --
+              --                                                                 --
+              --                           KORRD                                 --
+              --             {yIvbeHlIj neH DapoSmoH.}                           --
+              --                     (laughs)                                    --
+              --                                                                 --
+              --   [[Not subtitled. There's no {vIneH} at the end of the         --
+              --   first sentence. And he turns to the human at the {neH},       --
+              --   which is too early.]]                                         --
+              --                                                                 --
+              --                           KORRD                                 --
+              --             {pImlaw' romuluSngan be' porgh.}                    --
+              --                     (laughs again)                              --
+              --                                                                 --
+              --   [[Not subtitled. This sentence is accompanied by a            --
+              --   hand gesture which leaves little doubt that he is             --
+              --   saying something inappropriate.]]                             --
+              --                                                                 --
+              --                           CAITHLIN                              --
+              --                     (losing patience)                           --
+              --             _What did he say?_ I want his exact                 --
+              --             words.                                              --
+              --                                                                 --
+              --                           TALBOT                                --
+              --                     (sighing)                                   --
+              --             He said the only thing he wants you to              --
+              --             open is your blouse. He's heard that                --
+              --             Romulan women are different.                        --
+              --                                                                 --
+              --                           CAITHLIN                              --
+              --                     (furious)                                   --
+              --             Well, you tell Consul Koord that I                  --
+              --             n... -- never mind. I'll tell him                   --
+              --             myself!                                             --
+              --                     (walks over to Koord)                       --
+              --             ...in the only Klingon I know!                      --
+              --                     (in Koord's face)                           --
+              --             {Qu'vatlh!}                                         --
+              --                                                                 --
+              --                           KORRD                                 --
+              --                     (slowly gets up;                            --
+              --                      growls, in Klingon)                        --
+              --             {Quu(gh)uuuuuuuuvat(lh) (tlh)lap!}                  --
+              --                                                                 --
+              --                           KORRD                                 --
+              --                     (in perfect English)                        --
+              --             _Screw you too!_                                    --
+              --                                                                 --
+              --                           CAITHLIN                              --
+              --             He _does_ speak English!                            --
+              --                                                                 --
+              --                           TALBOT                                --
+              --                     (laughs)                                    --
+              --                                                                 --
+              ---------------------------------------------------------------------
+
+                   Further argument is interrupted by shouts from outside
+                   and the whine of a warning klaxon.
+
+                   A handful of sentries brace themselves against the gate.
+                   It suddenly gives way. Camera climbs up over the top
+                   of the arch to reveal Sybok's army on the threshold
+                   of the city. In their midst, towering majestically
+                   above them, is Sybok on horseback. He urges his mount
+                   forward. With quiet determination, he and his army pour
+                   under the arch and proceed up the main drag.
+
+                   Townspeople scurrying for protection, anticipating an
+                   attack. Those who consider challenging Sybok are
+                   allayed by the crude weapons and intimidating looks
+                   of his followers. Sybok intends to take this town by
+                   show of force without having to fire a shot. And it
+                   looks like he'll succeed.
+
+                   [[Time: Approx. 14 minutes into the movie]]
+
+              =====================================================================
+
+                   [[Time: Approx. 24 minutes into the movie]]
+
+              44   EXT. SPACE                                                    44
+
+                   A NASA Pioneer probe tumbles through space. Ancient,
+                   forgotten, the device is flotsam. On it's side is a
+                   plaque showing image of two humans and simple mathe-
+                   matical and scientific symbols. It comes past camera
+                   and out of this distortion, _a Klingon Bird of Prey_
+                   _materializes_.
+
+              45   INT. BIRD OF PREY - BRIDGE                                    45
+
+                   Doors seperate to admit KLAA, the Bird of Prey's
+                   swashbuckling young captain. He is met by VIXIS, his
+                   first officer, a statuesque Klingon female. It's
+                   clear she adores Klaa.
+
+                                           VIXIS
+                             {tlha'a HoD, DoS wIpuSta'. nejwI'
+                              tIQ 'oH.}
+                             (Captain Klaa, we have a target in
+                              sight. A probe of ancient origin.)
+
+                                           KLAA
+                             {qIpmeH Qatlh'a'}
+                             (Difficult to hit?)
+
+                                           VIXIS
+                             {Qatlhqu'.}
+                             (Most difficult.)
+
+                                           KLAA
+                             {maj.}
+                             (Good.)
+
+                   Klaa's crew watches with excitement as their captain
+                   straps himself into his command chair which has been
+                   equipped with an elaborate gunner's rig allowing
+                   Klaa to do the shooting himself.
+
+                                           KLAA
+                             {vISeHmeH Hoch nuHmey Qay!}
+                             (All weapons to my control.)
+                             (Scope!)
+
+                   A periscope-like device swings into position in front
+                   of Klaa's flashing eyes.
+
+              46   PERISCOPE - KLAA'S POV                                        46
+
+                   The probe is a tiny traveling speck in the distance.
+                   Its course is erratic.
+
+              47   EXT. SPACE                                                    47
+
+                   The probe tumbles through space as the Bird of Prey
+                   swoops down for the attack. Machine gun-like phasers
+                   are mounted on the Bird's wings. They come to life
+                   and swivel, blasting a flange off the front of the
+                   probe. A second blast destroys a fin on the rear of
+                   the craft. A third shot blows away the antennae.
+                   Klaa is toying with the target.
+
+              48   INT. BIRD OF PREY - BRIDGE                                    48
+
+                   The crew cheers each hit. They admire their captain
+                   and his deadly skill. But Klaa seems dissatisfied.
+                   He hesitates finishing the probe off.
+
+                                           KLAA
+                             {vaj toDuj Daj ngeHbej DI vI'.}
+                             (Shooting space garbage is no test of
+                              a warrior's mettle.)
+
+                   [[NOTE: Lit. "Sharpshooting of the cosmos'
+                   litter inconclusively tests a warrior's
+                   courage." This is a notorious back-fit of a
+                   dittography in the shooting script!]]
+
+                                           KLAA
+                             {muSuvbogh DoS vIpoQ.} (?)
+                             (I need a target that fights back.)
+
+                                           VIXIS
+                             {HoD, yo'SeH yaHnIvvo' potlh De'
+                              wIHevtaH.} (?)
+                             (Captain, new data, hostages on
+                              Nimbus III.) [sic]
+
+                   [[NOTE: Original script had this line as
+                   "Captain, we are receiving a priority message
+                   from Operations Command." which is also what
+                   the Klingon says above, the subtitle in the
+                   movie is just plain wrong, though.]]
+
+                   The message from Operations Command play on a
+                   screen. KRELL is the Klingon speaking.
+
+                                           KRELL
+                             {...tlhIngan gharwI''e', tera'ngan'e',
+                              romuluSngan'e'...}
+
+                   [[
+
+                   NOTE: The message is not subtitled, and remain
+                   untranslated in the movie. Translation would be: "...a
+                   Klingon diplomat, a Terran, a Romulan..."
+
+                   A more complete message, though not used in the film,
+                   was translated by Marc Okrand:
+
+                       {tlh'a' HoD, nImbuS wej yIghoS. vubpu' jonta'
+                       HeSwI'. wa' vub ghaH tlhIngan gharwI''e'. wa' ghaH
+                       tera'ngan'e'. mImQo'. DaH Heraj yIchoH. batlh
+                       tlhIngan Segh yIHub. Qapla'!}
+
+                       (Captain Klaa, proceed to Nimbus III. A criminal
+                       has succeeded in taking hostages. One hostage is a
+                       Klingon diplomat. One is a Terran. One is a
+                       Romulan. Do not delay. Alter your course now.
+                       Defend the Klingon race with honor. Success.)
+
+                   ]]
+
+                   Klaa unstraps himself from the command chair and joins
+                   Vixis at a monitor screen. The fearsome face of A
+                   KLINGON COMMANDER fills the screen and starts barking
+                   Klingon over shots of Nimbus III and the Paradise
+                   outpost. It's clear the Bird of Prey is being ordered
+                   to Nimbus III. Klaa and Vixis are charged with
+                   excitement.
+
+                                           VIXIS
+                             {tlhIngan ghaH wa' vub'e'.}
+                             (One of the hostages is a Klingon.)
+
+                                           KLAA
+                             {latlh?}
+                             (And the others?)
+
+                                           VIXIS
+                             {wa' tera'ngan je wa' romuluSngan.}
+                             (A Terran and a Romulan.)
+
+                             [[NOTE: Incorrect placement of {je}.
+                             Dialect, maybe?]]
+
+                                           KLAA
+                             {vaj toDDujDaj ngeHbej DIvI'.}
+                             (That means the Federation will be
+                              sending a rescue ship of its own.)
+
+                                           KLAA
+                             {nImbuS wej maghoS, He yInab.}
+                             (Plot course for Nimbus III.)
+
+                   Unable to contain his excitement, Klaa returns to his
+                   command chair.
+
+                                           KLAA
+                                     (continuing)
+                             {reH DIvI' Duj vISuv vIneH.}
+                             (I've always wanted to engage a Fed-
+                             eration ship.)
+
+              49   EXT. SPACE - ANGLE - BIRD OF PREY                             49
+
+                   The crippled NASA probe wobbles into the foreground,
+                   almost out of range. In the far distance, the Bird of
+                   Prey. Klaa's guns come to sudden life and blow the
+                   probe to atoms in a blinding flash of light.
+
+
+              =====================================================================
+
+                   [[Time: Approx. 31 minutes into the movie]]
+
+              63   ANOTHER PART OF THE GALAXY                                    63
+
+                   The Bird of Prey slices through the fabric of space
+                   headed for Nimbus III.
+
+              64   INT. BIRD OF PREY - BRIDGE                                    64
+
+                   Klaa paces his deck like a restless buccaneer, eager
+                   for confrontation. Vixis approaches.
+
+              ---- DELETED --------------------------------------------------------
+              --                                                                 --
+              --                           VIXIS                                 --
+              --             {DIvI' Se' wI'IjtaHvIS DaH ngoqDe'                  --
+              --              wIHevta'.}                                         --
+              --             (We've just received an encoded                     --
+              --              message on the Federation frequency.)              --
+              --                                                                 --
+              ---------------------------------------------------------------------
+
+                                           VIXIS
+                             {nImbuS wejDaq 'ejDo' 'entepray'
+                              ngeHlu'pu'}
+                             (The Starship Enterprise has been
+                              dispatched to Nimbus III.)
+
+                                           KLAA
+                             {'entepray''a'?}
+                             (Enterprise?)
+
+                                           KLAA
+                             {qIrq Duj 'oH.}
+                             (That's Kirk's ship!)
+
+                   Klaa's eyes flash with excitement. This news is too
+                   good to be true.
+
+              ---- DELETED --------------------------------------------------------
+              --                                                                 --
+              --                           VIXIS                                 --
+              --                                                                 --
+              --             {"yIntaHvIS qIrq DuHbe' roj."                       --
+              --             jonlu'meH wo'maj pop tIn law' Hoch tIn              --
+              --             puS.}                                               --
+              --             ("There will be no peace as long as                 --
+              --             Kirk lives." Our Empire's highest                   --
+              --             bounty has been placed on his head.)                --
+              --                                                                 --
+              --                           KLAA                                  --
+              --             {jemS tIy qIrq. loDHom jIHDI' qIrq qun              --
+              --             vIqImchoH. ghotvam Ho'lu'. 'ej muSlu'.}             --
+              --             (James T. Kirk -- I've followed his                 --
+              --             career since I was a boy. A man to                  --
+              --             admire... and hate.)                                --
+              --                                                                 --
+              ---------------------------------------------------------------------
+
+                                           KLAA
+                             {qIrq vIjeylaHchugh...}
+                             (If I could defeat Kirk...)
+
+                                           VIXIS
+                             {qIbDaq SuvwI''e' SoH Dun law' Hoch
+                             Dun puS.}
+                             (... you would be the greatest warrior
+                             in the galaxy.)
+
+                   This fact isn't lost on Klaa.
+
+                                           KLAA
+                             {nom yIghoSqu'.}
+                             (Maximum speed!)
+
+                   The crew hops to it. Klaa turns to Vixis and gives her
+                   the chest thumping Klingon salute.
+
+                                           KLAA
+                             {Qapla'!}
+                             (Success!)
+
+              ---- DELETED --------------------------------------------------------
+              --                                                                 --
+              --   Vixis passionately returns the gesture.                       --
+              --                                                                 --
+              --                           VIXIS                                 --
+              --             {Qapla', HoDwI'.}                                   --
+              --             (Success... my captain.)                            --
+              --                                                                 --
+              ---------------------------------------------------------------------
+
+                   [[Time: Approx. 32 minutes into the movie]]
+
+              =====================================================================
+
+                   [[Time: Approx. 46 minutes into the movie]]
+
+             121   EXT. SPACE - ANGLE - BIRD OF PREY                            121
+
+                   The Klingon ship approaches Nimbus III.
+
+             122   INT. BIRD OF PREY - BRIDGE                                   122
+
+                   Klaa and Vixis react to Enterprise on their viewscreen.
+
+                                           VIXIS
+                             {chorghSaD qelI'qam HIvchuq 'e'
+                             vInoH.}
+                             (Estimating attack range in 8,000
+                             kellicams.)
+
+                                           KLAA
+                             {ghoSmeH yIpegh. cha'maHvagh vatlhvI'
+                             Hong; QIt yIghoS.}
+                             (Stealth approach, slow to one-quarter
+                             impulse power.)
+
+                                           KLAA
+                             {yISo'rup.}
+                             (Prepare to cloak.)
+
+                                           KLAA
+                             {So'wI' yIchu'!}
+                             (Engage cloaking device.)
+
+                   A klaxon sounds. The bridge is bathed in red light.
+
+             123   EXT. SPACE - ANGLE - BIRD OF PREY                            123
+
+                   The ship distorts and becomes invisible.
+
+              =====================================================================
+
+             127   INT. BIRD OF PREY                                            127
+
+                   The Klingons have been monitoring the exchange
+                   between Enterprise and Galileo.
+
+                                           KLAA
+                             {qIrq!}
+                             (Kirk!)
+
+                                           KLAA
+                             {DujHomDaq ghaHtaH!}
+                             (He's on the shuttlecraft!)
+
+                                           KLAA
+                             {HIvHe yIchoHmoH!}
+                             (Alter the attack course!)
+
+              =====================================================================
+
+                   [[Time: Approx. 49:20 minutes into the movie]]
+
+             133   INT. BIRD OF PREY - BRIDGE                                   133
+
+                   Klaa flexes his itchy trigger finger and peers into
+                   his view scope.
+
+             134   KLAA'S POV - VIEW SCOPE                                      134
+
+                   The shuttlecraft swims into the target crosshairs.
+
+                                           KLAA
+                             {yISo'Ha'rup, yIghuS.}
+                             (Stand by to de-cloak for firing.)
+
+              =====================================================================
+
+                   [[Time: Approx. 50:10 minutes into the movie]]
+
+             142   INT. BIRD OF PREY - BRIDGE                                   142
+
+                   Klaa gapes in surprise. The target has zoomed out of
+                   his sights.
+
+                                           KLAA
+                             {'entepray' yIghoS.}
+                             (Bear on Enterprise.)
+
+
+             143   INT. ENTERPRISE - BRIDGE                                     143
+
+                                           SCOTTY
+                             They're in!
+
+                                           CHEKOV
+                             Transfer power to the warp drive.
+                             Warp speed now!
+
+             144   INT. BIRD OF PREY - BRIDGE                                   144
+
+                                           VIXIS
+                             {'entepray' 'oH DoS'e'!}
+                             (Enterprise targeted!)
+
+                                           KLAA
+                             {vIbaH!}
+                             (Firing!)
+
+                   Klaa squeezes the trigger.
+
+             145   EXT. SPACE - ANGLE - ENTERPRISE                              145
+
+                   One moment she's there, the next she's gone in a flash
+                   of blinding light. Klaa's shot goes into the void.
+
+             146   INT. BIRD OF PREY - BRIDGE                                   146
+
+                   Klaa reacts with amazement to Enterprise's sudden
+                   departure.
+
+                                           KLAA
+                             {HeDaj yIqIm!}
+                             (Track her course!)
+
+                   As Vixis and the crew hop to it, camera pushes in on
+                   Klaa who throws off his gunner's rig, unable to hide
+                   his admiration for Kirk's cleverness.
+
+                                           KLAA
+                                     (to himself)
+                             {po'qu'!}
+                             (He's good.)
+
+              =====================================================================
+
+                   [[Time: Approx. 1:04:30 minutes into the movie]]
+
+             174   INT. BIRD OF PREY                                            174
+
+                   Vixis turns to Klaa. Klaa barks an order to his helms-
+                   man.
+
+              ---- DELETED --------------------------------------------------------
+              --                                                                 --
+              --                           KLAA                                  --
+              --             {He pagh-pagh-vagh-jav-pagh-jav                     --
+              --             yInab.}                                             --
+              --             (Plot course 0.0.5.6.0.6.)                          --
+              --                                                                 --
+              ---------------------------------------------------------------------
+
+                                           KLAA
+                             {He pagh-pagh-pagh-DoD-cha' yInab.}
+                             (Plot course zero-zero-zero, mark
+                             two.)
+
+                                           VIXIS
+                             {'ach HoD, Hevetlh wIghoSchugh veH tIn
+                             wI'el maH'e'.}
+                             (But, Captain, that course will take
+                             us into the Barrier as well.)
+
+              ---- DELETED --------------------------------------------------------
+              --                                                                 --
+              --                           VIXIS                                 --
+              --             {maHeghbejqu'.}                                     --
+              --             (It's certain death.)                               --
+              --                                                                 --
+              ---------------------------------------------------------------------
+
+                   Klaa isn't about to let a little thing like death stop
+                   him.
+
+                                           KLAA
+                             {qIrq wItlha'taHqu'.}
+                             (Where Kirk goes, we follow.)
+
+              =====================================================================
+
+                   [[Time: Approx. 1:33:00 minutes into the movie]]
+
+             251   ANGLE - DEFENSE STATION                                      251
+
+                   The unattended screen still depicts the Bird of Prey.
+                   "ESTIMATED TIME OF INTERCEPT: 4 MINUTES." Then, the
+                   graphic of the ship vanishes and is replaced with the
+                   warning: "CLOAKING DEVICE ENGAGED, POSITION UNKNOWN,"
+
+             252   INT. BIRD OF PREY - BRIDGE                                   252
+
+              ---- DELETED --------------------------------------------------------
+              --                                                                 --
+              --   Enterprise appears on the viewscreen. Klaa is out of          --
+              --   his command chair, pacing the deck like a restless            --
+              --   buccaneer.                                                    --
+              --                                                                 --
+              --                           VIXIS                                 --
+              --             {'entepray' Hub patmey                              --
+              --             luchu'be'lu'pu'. HoD, naDev maH 'e'                 --
+              --             luSovbe'.}                                          --
+              --             (Enterprise defense systems are down.               --
+              --             Captain they don't know we're here.)                --
+              --                                                                 --
+              --                           KLAA                                  --
+              --              {tugh luSovbej.}                                   --
+              --              (They will in a moment.)                           --
+              --                                                                 --
+              --   Klaa settles into his gunner's rig.                           --
+              --                                                                 --
+              ---------------------------------------------------------------------
+
+              =====================================================================
+
+                   [[Time: Approx. 1:37:00 minutes into the movie]]
+
+             266   INT. BIRD OF PREY - TRANSPORTER ROOM                         266
+
+                   Kirk materializes. He's immediately seized by two brutal-
+                   looking Klingons.
+
+                                           GUARD 1
+                             {HIghoS!}
+                             [untranslated]
+
+                                           GUARD 2
+                             {Ha'!}
+
+                   They march him out of the transporter room.
+
+
+             267   INT. BIRD OF PREY - BRIDGE                                   267
+
+                   The bridge doors slide open and Kirk is brought in The
+                   Klingon crew regard him from their stations. Klaa is
+                   off to one side looking petulant. Korrd stands beside
+                   him, chest puffed up with pride, obviously in charge.
+
+                                           KORRD
+                                     (to the guards)
+                             Release him.
+
+                   [[Marc Okrand prepared the phrase {yIjonHa'!}
+                   for use here, but it was never used in the
+                   movie.]]
+
+                   The guards step away from Kirk. Klaa glares at Korrd
+                   but it's clear the older Klingon is now calling the
+                   shots.
+
+                   Kirk regards Korrd with surprise.
+
+                                           KORRD
+                                     (continuing)
+                             Kirk, my junior officer has something he
+                             wants to say to you.
+
+                                           KORRD
+                                     (to Klaa)
+                             {yIjatlh!}
+                             [untranslated]
+
+                                           KLAA
+                             I apologize.
+
+                   Korrd speaks to Klaa in Klingon once again.
+
+
+                                           KORRD
+                                     (to Klaa again)
+                             {maj. 'ej...}
+                             [untranslated]
+
+
+                                           KLAA
+                                     (continuing)
+                             The attack upon your vessel was not
+                             authorized by my government.
+
+                                          KORRD
+                             Kirk, and now, may I present our new gunner.
+
+                   The command chair swivels around to reveal its
+                   occupant to be Spock. He unstraps himself from the
+                   gunner's rig, stands up and straightens his uniform in
+                   a dignified manner.
+
+                                           KIRK
+                             Spock?
+
+                                           SPOCK
+                             Welcome aboard, Captain.
+
+                   Kirk regards the stoic Spock with affection and
+                   wonder.
+
+                                           KIRK
+                                     (can't believe it)
+                             Spock, I thought I was going to die.
+
+                                           SPOCK
+                             Not possible. You were never alone.
+
+                   Kirk eyes Spock then approaches him as if to embrace
+                   him.
+
+                                           SPOCK
+                                     (continuing)
+                             Please, Captain, not in front of
+                             the Klingons.
+
+                   Kirk looks around and notices the Klingon crew, then
+                   he and Spock nod in acknowledgement to each other.
+
+              =====================================================================
+
+             269   INT. ENTERPRISE - FORWARD OBSERVATION ROOM                   269
+
+              ---- DELETED --------------------------------------------------------
+              --                                                                 --
+              --   At the reception aboard the Enterprise. Koord speaks          --
+              --   to a sullen Klaa and Vixis.                                   --
+              --                                                                 --
+              --                           KOORD                                 --
+              --             {petIv'egh. qara'qu'}                               --
+              --             (Enjoy yourselves. That's an order.)                --
+              ---------------------------------------------------------------------
+
+[[eof]]

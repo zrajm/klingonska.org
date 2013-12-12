@@ -5,11 +5,11 @@
   Date: 17 February 2001
   Title: <Diplomatic Implausibility> glossary
   Author: David Yeung (transcript of glossary vetted by Marc Okrand)
-  Summary: Transcript of the Klingon glossary from "Diplomatic Implausability"
-    by Keith R.A. DeCandido (ISBN 978-0671785543, published 1 February 2001).
-    The aknowledgements section of this book remarks that Marc Okrand kept the
-    "linguistics straight and vetted the glossary", and it generally assumed
-    that Klingon herein is canon.
+  Summary: Posting of David Yeung's Transcript of the Klingon glossary from
+    "Diplomatic Implausibility" by Keith R.A. DeCandido (ISBN 978-0671785543,
+    published 1 February 2001). The acknowledgements section of this book
+    remarks that Marc Okrand kept the "linguistics straight and vetted the
+    glossary", and it is generally assumed that Klingon herein is canon.
 
 ]]
 
@@ -29,7 +29,7 @@ The glossary also contains the English words of the Warrior's
 Anthem (the Klingon text is found in the book) which I won't
 retype since it's available elsewhere.
 
-As malqa said, the Acknowledgments include MO, who "vetted the
+As malqa said, the Acknowledgments include MO, who "vetted the [[Acknowledgments:=Acknowledgements]]
 glossary". 
 
 To keep the lawyers happy: "Buy the book!  Buy the book!" 
@@ -68,7 +68,7 @@ Ladder" (TNG).]
 
     d'k tahg (Daqtagh)  Personal dagger.  All Defense Force war-
 riors carry their own d'k tahg, which is personalized with their
-name and House.  [First seem in Star Trek III: The Search for 
+name and House.  [First seem in Star Trek III: The Search for [[seem:=seen]]
 Spock.]
 
     gagh (qagh)  Food made from live serpent worms.  [First seen in
@@ -84,7 +84,7 @@ which makes a slight buzzing sound.  [First referenced in "The Out-
 rageous Okona" (TNG).]
 
     grapok sauce (gha'poq)  Condiment, often used to bring out the 
-favor in gagh or racht.  [First seen in "Sons and Daughters" (DS9).]
+favor in gagh or racht.  [First seen in "Sons and Daughters" (DS9).] [[favor:=flavor]]
 
     Gre'thor (ghe'tor)  The afterlife for the dishonored dead -- the
 closest Klingon equivalent to hell.  [First mentioned in "Devil's
@@ -93,7 +93,7 @@ Due" (TNG).]
     Grishnar cat (ghISnar)  Small animal, apparently not a very 
 vicious one, though with perhaps a predilection for trying to sound
 fiercer than it actually is.  [First referenced in "The Way of the War-
-rrior" (DS9).]
+rrior" (DS9).] [[rrior:=rior]]
 
     Ha'DIbaH  Animal.  Often used as an insult.  [First used in "Sins 
 of the Father" (TNG).]

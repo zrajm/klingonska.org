@@ -1,0 +1,552 @@
+[[FIXME header]]
+
+Star Trek III: The Search for Spock
+
+The {tlhIngan Hol} in the movies is actually pretty good; Marc Okrand himself
+coached many of the actors.
+
+  'sub:' = Subtitles as they appear in the movie.
+
+  'capt:' = Closed captions (following the subtitles) which was helpful in
+  places where there were no subtitles.
+
+  <...> = Indicates an uncertainty in the transcription (usually due to
+  muttered dialogue, background music, sound effects or similar).
+
+  'novel:' = Excerpts from Vonda N. McIntyre's novelization which may reflect
+  an earlier version of Harve Bennett's screenplay used by the novelist in her
+  adaptation.
+
+  'trans:' = Translation (given where subtitle is missing from the movie).
+
+===============================================================================
+
+time:	00:07:40 (approx.)
+
+event:	Against a background of stars, we're slowly zooming in toward
+	a small ship.
+
+pers:	Merchant Ship Captain (Paul Sorenson)
+en:	Steady. Steady, boys. Keep scanning.
+
+pers:	Merchant Ship Captain (Paul Sorenson)
+en:	I thought you people were reliable. Where the hell is he?
+
+pers:	Valkris (Cathie Shirriff)
+en:	He's been here for some time. Put me on hailing frequency.
+
+pers:	Valkris (Cathie Shirriff)
+en:	Commander Kruge. This is Valkris.
+
+pers:	Valkris (Cathie Shirriff)
+tlh:	{qa'vam De' vIje' rIntaH.}
+sub:	I have purchased the Genesis data.
+
+pers:	Valkris (Cathie Shirriff)
+tlh:	{HablI' Su' labbeH.}
+sub:	Ready to transmit.
+novel:	"I have obtained the Federation data, and I am ready to transmit."
+com:	The line as written is "Ready to transmit." The line as spoken in
+	English by Ms. Shirriff was "Ready to transmit". Okrand just had to
+	invent sounds to fit her mouth movements when the people who make such
+	decisions decided, after the fact, to have her speaking Klingon. My
+	recently concocted theory on this line is that Okrand altered the line
+	to be a command to Valkris' computer (i.e. "Data transceiving-device,
+	attention: prepare to transmit"), but the subtitle didn't get changed.
+	/ghunchu'wI'
+
+pers:	Kruge (Christopher Lloyd)
+en:	Well done, Valkris. Well done.
+
+pers:	Merchant Ship Captain (Paul Sorenson)
+en:	What the hell is...?
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{So'wI' yIchu'Ha'!}
+sub:	Disengage cloaking device!
+novel:	The voice spoke a few words which only Valkris recognized, for they
+	were in a Klingon language.
+
+event:	Klingon bird of prey decloaks.
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{<...> yI<chu'>qa'}
+
+event:	Bridge crewman pushes button and the lights come back on.
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{De' yIlI'! DaH!}
+sub:	Transmit data. Now!
+
+event:	Valkris inserts tape into her instrument panel. Kruge watches the data
+	transmission on a screen.
+
+pers:	Valkris (Cathie Shirriff)
+tlh:	{jabbI'ID pItlh. Qu'vaD lI' net tu'bej.}
+sub:	Transmission completed. You will find it useful.
+novel:	"Transmission completed, Commander. You will find it essential to your
+	mission."
+com:	...this line was one of those Valkris was filmed saying in English,
+	then redubbed in Klingon. Okrand had to match lip movements. The
+	subtitle was something like "You'll find it useful." There was no
+	mention of "for the mission" in the subtitle, but Okrand needed to add
+	something to give her a reason to keep her lips moving. Note that lip
+	movements for "You'll find" look a lot like {Qu'vaD}, "it" looks a lot
+	like {lI'} and "useful" loosely matches {tu'bej}. /charghwI'
+	     Was the Klingon line {Qu'vaD lI' 'e' Datu'bej}, but the actress
+	dropped a syllable and said {qu'vaD lee' natu'bej} forcing Okrand to
+	come up with {net}?
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{vaj Daleghpu'.}
+sub:	Then you have seen it?
+novel:	"Then you have seen the transmission?" Kruge said, implying regret and
+	inevitability.
+
+pers:	Valkris (Cathie Shirriff)
+tlh:	{HISlaH, jawwI'.}
+sub:	I have, my lord.
+novel:	"I have, my lord," Valkris replied, granting permission in the second
+	stratum and offering forgiveness as the third.
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{Do'Ha'.}
+sub:	Unfortunate.
+novel:	"That is unfortunate," Kruge said.
+
+pers:	Valkris (Cathie Shirriff)
+tlh:	{jIyaj.}
+sub:	Understood.
+novel:	"I understand," Valkris said. She made all three strata the same, for
+	she wanted him to know that she understood what she was doing and why,
+	that she understood what he was doing and why, and that she understood
+	that he would make certain the promises made to her would be kept.
+
+event:	Kruge resumes his position in the captains seat.
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{chuyDaH.}
+sub:	Thrusters.
+novel:	"Thrusters," Kruge said, in the form of their language used by
+	commanders to subordinants.
+
+event:	The bird of prey starts to move away from the trader's ship.
+
+pers:	Merchant Ship Captain (Paul Sorenson)
+en:	What the hell's going on? When do I get paid off?
+
+pers:	Valkris (Cathie Shirriff)
+en:	Soon, captain. Quite soon.
+
+pers:	Valkris (Cathie Shirriff)
+tlh:	{Qapla', jawwI' bangwI' je.}
+sub:	Success my lord and my love.
+novel:	She spoke again, in formal tongue, to Kruge. "Success, Commander. And
+	my love." She did love him, indeed, as the instrument of her
+	bloodline's redemption.
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{batlh Daqawlu'taH.}
+sub:	You will be remembered with honor.
+
+event:	Bird of prey turns to approach the trader's ship again.
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{baH!}
+sub:	Fire!
+novel:	Then he switched dialects again. Valkris knew he was speaking so she
+	would be sure to hear his command: "Fire!"
+
+event:	The bird of prey fires. The trader's ship is hit and explodes. The bird
+	of prey moves away from the debris.
+
+event:	On the bridge Kruge rises from his seat and moves toward the bridge
+	exit.
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{He chu' yIghoS. DIvI' neHmaH.}
+sub:	New course. Federation neutral zone.
+novel:	"Execute a course to the Federation boundary."
+
+event:	Kruge's pet (which is lying on the floor beside the captain's seat)
+	growls loudly. Kruge stops at the door.
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{yIje'!}
+sub:	Feed him!
+novel:	Kruge gestured casually at Warrigul. "You may have the honor of feeding
+	my pet," he said.
+
+pers:	Gunner
+tlh:	{luq, joHwI'.}
+com:	heard: {jaHwI}
+sub:	Yes, my lord.
+
+time:	00:10:30 (approx.)
+
+===============================================================================
+
+time:	00:16:40 (approx.)
+
+event:	Kruge is watching the Genesis data "bought" from the trader.
+com:	This part contains no lines in Klingon, however several of the lines
+	here spoken by Klingons [in English] occurs as examples in The Klingon
+	Dictionary.
+
+pers:	Admiral James T. Kirk (William Shatner) [on recording]
+en:	To fully understand the events on which I report, it is necessary to
+	review the theoretical data on the Genesis Device, as developed by
+	doctors Carrol and David Marcus, Genesis, simply put, is life from
+	lifelessness. It was the intention is to introduce the Genesis Device
+	into preselected area of a lifeless space body, a moon or other dead
+	form. The device, when delivered, would instantaneously cause the
+	Genesis effect. Instead of a dead moon, a living, breathing planet now
+	exists, capable of sustaining whatever life-forms we see fit to deposit
+	on it.
+
+pers:	Kruge (Christopher Lloyd)
+en:	So? Speak!
+
+pers:	Torg (Stephen Liska)
+en:	Great power... To control, dominate.
+
+pers:	Kruge (Christopher Lloyd)
+en:	Speak!
+
+pers:	Maltz (John Larroquette)
+en:	Impressive. They can make a planet.
+
+pers:	Kruge (Christopher Lloyd)
+en:	Oh, yes! New cities, homes in the country, your woman at your side,
+	children playing at your feet, and overhead, fluttering in the breeze,
+	the flag of the Federation! Charming! - Station!
+
+pers:	Maltz (John Larroquette)
+en:	Yes, my lord.
+
+event:	Maltz leaves.
+
+pers:	Kruge (Christopher Lloyd)
+en:	Share this with no one.
+
+pers:	Torg (Stephen Liska)
+en:	Understood, my lord.
+
+pers:	Kruge (Christopher Lloyd)
+en:	We are going to this planet. Even as our emissaries negotiate for peace
+	with the Federation, we will act for the preservation for our race. We
+	will cease the secret of this weapon, the secret of ultimate power.
+
+pers:	Torg (Stephen Liska)
+en:	Success, my lord.
+
+time:	00:18:40 (approx.)
+
+===============================================================================
+
+time:	00:48:00 (approx.)
+
+event:	Kruge's bird of prey decloaks and attacks the U.S.S. Grissom
+	in orbit around the Genesis planet.
+
+pers:	Captain J.T. Esteban (Phillip R. Allen) [on U.S.S. Grissom]
+en:	Oh, my god!
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{matHa', DoS jonta' neH.}
+sub:	Gunner: target engine only.
+novel:	"I told you," he said dangerously, in the lowest of the low dialects,
+	"engine section only!"
+
+pers:	Lieutenant Saavik (Robin Curtis) [on planet Genesis surface]
+en:	Captain, what is happenin'?
+
+pers:	Captain J.T. Esteban (Phillip R. Allen)
+en:	We're under attack. Stand by for evasive!
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{baH!}
+capt:	BAH!
+trans:	Fire!
+
+event:	Kruge's bird of prey fires, as the torpedo hits U.S.S.
+	Grissom is destroyed.
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{qama'pu' jonta' neH!}
+sub:	I wanted prisoners!
+novel:	"I wanted prisoners," Kruge said, layering all the strata of his words
+	with contempt.
+com:	Maybe the same person who was supposed to fix the subtitle is
+	responsible for the "I told you - engine only!" / "I wanted prisoners"
+	mutation. /ghunchu'wI'
+
+pers:	Gunner #1 (Bob K. Cummings)
+tlh:	{bach Do', qaH.}
+sub:	A lucky shot sir...
+novel:	"A fortunate mistake," the gunner said.
+
+event:	Kruge shoots the gunner.
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{Ha'DIbaH!}
+sub:	Animal!
+novel:	"Animal," Kruge muttered.
+com:	If you look closely you can see that the actor was saying "animal", and
+	the Klingon was dubbed over later. /SuSvaj
+
+pers:	Torg (Stephen Liska)
+en:	Sir, may I suggest...
+
+pers:	Kruge (Christopher Lloyd)
+en:	Say the wrong thing, Torg!
+
+pers:	Torg (Stephen Liska)
+en:	If it's prisoners you want, there are life-signs on the planet, perhaps
+	the very scientists you seek.
+
+pers:	Kruge (Christopher Lloyd)
+en:	Very good.
+
+time:	00:48:50 (approx.)
+
+===============================================================================
+
+time:	00:51:00 (approx.)
+
+event:	Kruge with crew approach Spock's coffin on the Genesis surface.
+
+pers:	Sergeant (Dave Cadente)
+tlh:	{<yajchu'. ghargh... veQ!>}
+trans:	Understood clearly, sir. Worms... garbage!
+novel:	Kruge heard the sergeant whisper a protective curse.
+
+event:	Kruge grabs one of the large worms.
+
+pers:	Sergeant (Dave Cadente)
+tlh:	{jIyajHa'. chay' jura'?}
+trans:	I don't understand. What are your orders?
+
+event:	Kruge manage to kill the large worm using only one hand, grabs his
+	communicator and reports.
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{meH, naDev qaS wanI' ramqu'.}
+sub:	Bridge, nothing happening here.
+novel:	"Torg," he said easily, "I have found nothing of consequence. I am
+	continuing the search."
+
+time:	00:51:50 (approx.)
+
+===============================================================================
+
+time:	00:56:30 (approx.)
+
+pers:	Maltz (John Larroquette)
+en:	Vessel entering sector.
+
+pers:	Torg (Stephen Liska)
+en:	Yes, Federation battle cruiser. Have they scanned us?
+
+pers:	Maltz (John Larroquette)
+en:	Not yet.
+
+pers:	Torg (Stephen Liska)
+en:	Uhhh...
+
+pers:	Torg (Stephen Liska)
+tlh:	{So'wI' yIchu'!}
+sub:	Engage cloaking device.
+
+event:	Bird of prey cloaks. Kruge's pet make growling noises.
+
+time:	00:57:00 (approx.)
+
+===============================================================================
+
+event:	On the planet surface, Saavik, David and young soon-to-be
+	Spock is sleeping peacefully when Klingons wake them up.
+
+pers:	Admiral James T. Kirk (William Shatner) [through a communicator]
+en:	Grissom, this is Enterprise calling, do you read?
+
+pers:	Sergeant (Dave Cadente)
+tlh:	{yIHu'!}
+capt:	YIAHUQ!
+trans:	Get up!
+novel:	He flung his arms around her and began to squeeze, shouting angrily in
+	a dialect of Klingon she did not understand.
+
+event:	A Klingon crewman grabs Saavik by the collar, and hauls her up to a
+	standing position.
+
+pers:	Lieutenant Saavik (Robin Curtis)
+en:	Spock!
+
+pers:	Sergeant (Dave Cadente)
+tlh:	{peHu'!}
+trans:	Get up (all of you)!
+
+event:	The sergeant drags Saavik and Spock to a clearing, where Kruge awaits
+	them.
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{toH.}
+capt:	DAH!
+novel:	"So!" he said.
+
+pers:	Kruge (Christopher Lloyd)
+en:	...I've come a long way for the power of Genesis, and what do I find? A
+	weakly human, a Vulcan boy, and a woman.
+novel:	He spoke in Standard, but his faint accent did nothing to disguise his
+	impatience. "I have come a long way for the power of Genesis and what
+	do I find?"
+
+pers:	Lieutenant Saavik (Robin Curtis)
+en:	My lord, we are survivors of a doomed expidition. This planet will
+	destroy itself in hours. The Genesis experiment is a failure.
+
+pers:	Kruge (Christopher Lloyd)
+en:	A failure? The most powerful destructive force ever created? You will
+	tell me the secret of the Genesis torpedo.
+
+pers:	Lieutenant Saavik (Robin Curtis)
+en:	I have no knowledge.
+
+pers:	Kruge (Christopher Lloyd)
+en:	Then I hope pain is something you enjoy...
+
+pers:	Sergeant (Dave Cadente)
+tlh:	{joHwI'.}
+capt:	JOHWI'.
+trans:	My lord!
+
+event:	The sergeant steps forward with a communicator, and gives it to Kruge.
+
+pers:	Kruge (Christopher Lloyd)
+en:	I ordered no interruptions.
+
+pers:	Klingon sitting in the command seat on the bird of prey
+en:	But, sir, Federation battle starship approaching.
+
+pers:	Kruge (Christopher Lloyd)
+en:	Bring me up!
+
+time:	00:58:50 (approx.)
+
+===============================================================================
+
+event:	Kruge enters the bridge.
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{may' yIghuH!}
+sub:	Battle alert!
+
+===============================================================================
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{baHwI', DoS yIbuS! QuQ neH. yaj'a'?}
+sub:	Gunner: Target engine only -- Understood?
+novel:	"Sight on target, gunner," Kruge said. "Disabling only. Understood?"
+
+pers:	Gunner #2 (Branscombe Richmond)
+tlh:	{yajchu', qaH.}
+sub:	Understood clearly, sir.
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{wej... wej.}
+capt:	WAIT. WAIT.
+novel:	"Wait," Kruge said, as the Enterprise loomed larger in his viewport.
+	"Wait..."
+
+pers:	Maltz (John Larroquette)
+tlh:	{vaghvatlh qelI'qam.}
+capt:	VAQ VALIS KELIQAP
+trans:	Five hundred kellicams.
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{cha yIghuS! So'Ha'!}
+capt:	TYRUSCH. SHOHA!
+trans:	Stand by on torpedoes! Uncloak!
+
+pers:	Kruge (Christopher Lloyd)
+en:	Emergency power to the thrusters!
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{baH!}
+capt:	BAH!
+trans:	Fire!
+
+===============================================================================
+
+pers:	Kruge (Christopher Lloyd)
+en:	Now, to show that my intention is sincere I shall kill one of the
+	prisoners.
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{wa' yIHoH! jISaHbe'.}
+com:	or {wa' HoH}; heard: {yaHoH}
+sub:	Kill one of them. I don't care which.
+novel:	Saavik did not understand the order Kruge next gave to his sergeant
+	-- that is, she did not understand the words themselves, which were of
+	a dialect she did not know. But the intent was terribly clear.
+
+===============================================================================
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{jolpa' yIjaH! Qapla'!}
+com:	heard: {#gIjaH#}
+sub:	To the transport room. Success!
+novel:	"To the transport room," Kruge said. He saluted Torg. "Success!"
+
+pers:	Torg (Stephen Liska)
+tlh:	{Ha'!}
+capt:	HARA.
+trans:	Let's go!
+
+event:	Torg motions boarding party to follow him.
+
+===============================================================================
+
+pers:	Sergeant (Dave Cadente)
+tlh:	{joHwI'! joHwI'!}
+capt:	JOHWI'. JOHWI'.
+trans:	My lord! My lord!
+
+pers:	Kruge (Christopher Lloyd)
+tlh:	{matlh, jol yIchu'!}
+sub:	Maltz, activate beam!
+novel:	Then he spoke into the communicator in his own language. Kirk did not
+	understand the words, but it must have been the order to transport.
+
+pers:	Admiral James T. Kirk (William Shatner)
+tlh:	{matlh, jol yIchu'!}
+capt:	MALTZ, JOL YICHU!
+trans:	Maltz, activate beam!
+novel:	He opened his communicator, muffled the pickup by rubbing his thumbnail
+	back and forth across it, did his best to copy Kruge's low, harsh
+	voice, and repeated the last words Kruge had transmitted.
+
+===============================================================================
+
+On the back of the Star Trek III DVD case (translated by Okrand?):
+
+Qugh la'vaD QIn pav.
+[Urgent message for Commander Kruge.]
+
+qa'vam jan SeH DIvI'.
+[The Federation controls the Genesis Device.]
+
+qa'vam yuQ Quv DaghojmeH Duyma'vaD yIjatlh.
+[To learn the Genesis Planet's coordinates, speak to our agent.]
+
+qa'vam jan yISuq.
+[Aquire the Genesis Device!]
+
+potlhbe' to'.
+[Tactics aren't important.]
+(i.e. Do it anyway you can; we don't care how!)
+
+===============================================================================
+
+[[eof]]

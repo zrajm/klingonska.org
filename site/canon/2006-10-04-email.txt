@@ -1,0 +1,52 @@
+[[
+  [2013-12-03] added document
+
+  Type: email
+  Date: 4 October 2006
+  Title: Re: Klingon WOTD: chach (noun)
+  Author: Steven Boozer
+  Summary: Some more on {chach} ~be auxiliary~.
+
+]]
+
+Date: Wed, 04 Oct 2006 09:19:13 -0500
+To: tlhingan-hol@kli.org
+From: Steven Boozer <sboozer@uchicago.edu>
+Subject: Re: Klingon WOTD: chach (noun)
+
+
+>This is the Klingon Word Of The Day for Wednesday, October 4, 2006.
+>
+>Klingon word:   chach
+>Part of Speech: noun
+>Definition:     emergency
+>
+>Additional Notes:
+>Auxiliary, backup.  Originally from {veS Qo'noS}, printed in HolQeD 1:3 p9.
+
+Do we know this is a noun?  (Is it listed and labeled in KGT?)  Could it be 
+a quality?  Or a homophonous noun/verb pair?
+
+Two unverified examples from canon:
+
+   chach!
+   [Emergency!] ST6 (untranslated)
+
+   tlham chach chu'qa'
+   Restoring auxiliary gravity. ST6 (clipped?)
+
+If I heard this correctly, {chach} appears to be acting as a quality here: 
+"backup/auxiliary gravity".  If it's a noun, I would expect the noun+noun 
+phrase ?{chach tlham} "emergency gravity".
+
+Related noun:  ghuH "alert"
+
+
+
+
+--
+Voragh
+Ca'Non Master of the Klingons
+
+
+[[eof]]
