@@ -1,18 +1,6 @@
 #+STARTUP: overview hidestars -*- org -*-
 #+TAGS: PROOF(p) TRANSCRIBE
 
-**** TODO Add 'def: ST3' for all words occurring in ST3
-**** TODO Add 'tag: 1984' for all words occurring in ST3
-**** TODO Add 'ref: ST5' for all words occurring in ST5
-**** TODO Add 'def: ST5' for all words in 1999-12-holqed-08-4-b.txt(?)
-     I'm not sure the HQ8:4 ("Notes from Star Trek V: The Final Frontier")
-     article actually reflects Klingon dialogue as it appears in the movie.
-
-     But all words source referenced with that {HolQeD} article, and that is
-     also in the final move should have 'ref: ST5' or 'def: ST5'.
-**** TODO Add 'ref: ST6' for all words occurring in ST6
-
-
 * INBOX
   These should be inserted in the hierachy below.
 ** NWL seems to be establish abbrev for KLI's new word list
@@ -1497,7 +1485,7 @@
     Each transcript in the http://klingonska.org/canon/ list should have a link
     to the prettified version (as well as to the original text formatted
     transcript).
-*** [61%] Transcripts updating/improvement
+*** [62%] Transcripts updating/improvement
 **** [0%] Improve MKE transcript
 ***** TODO Buy copy of Monopoly: Klingon Edition
 **** [0%] Improve TNK transcript
@@ -2280,6 +2268,8 @@
      Klingon mode for Tengwar (Tolkien's alphabet)
 ** "Klingon Pocket Dictionary"
 *** Web page
+**** DONE index.cgi should work for new style sources
+     CLOSED: [2013-12-12 Thu 18:46]
 **** DONE Fix page tabs links
      CLOSED: [2013-02-24 Sun 04:49]
      The page tabs cannot be clicked anywhere, but only on the text. Fix so
@@ -2508,7 +2498,7 @@
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** `dict.zdb`
-**** [31%] Field/syntax changes
+**** [37%] Field/syntax changes
 ***** TODO Add 'data:' value 'unconfirmed'
       Used for words like {Qej} and {vabDot} for which we do not have a 100%
       certain translation.
@@ -2544,7 +2534,8 @@
 
           see: rqP ({quv} [1] (v) “be honored, be honorable”);
           see: AKU ({HoQ} (v) “be honored falsely, be falsely honorable”)
-***** TODO Better, clearer source references
+***** DONE Better, clearer source references
+      CLOSED: [2013-12-07 Sat 11:02]
       Currently, second hand transcripts of sources (i.e. some unverified
       transcripts gotten through tlhingan-hol etc., as opposed to my own
       transcripts) are given as 'ref:', while the original source is given as
@@ -2713,17 +2704,6 @@
 ***** TODO Should "some(one|body|thing)" really be abbreviated in 'desc:'?
       Or does this abbreviation look too silly/unintelligible?
       desc: referring to s.o.'s intellect
-***** TODO Use filenames as source references(?)
-      Or maybe one should go the other way? Have a check-dict that knows all
-      sources, and their filenames and complain unless it exists... (?) --
-      Problem with such an approach would be that the lexicon CGI script would
-      have to include this info as well in order to present links to the
-      Archive of Okrandian Canon.
-***** TODO <...> should mean translation/italic everywhere
-      And be used in 'see:' and 'com:' and 'desc:'..
-
-      This would require a different markup symbol for the lookup words in
-      'sv:', 'en:' and 'tlh:' fields.
 ***** TODO Better listing of sources is 'en:' and 'sv:' fields
       Specificly, since the 'en' and 'sv' fields are created from different
       sources, it would be desireble to list exactly which part of this fields
@@ -2751,9 +2731,6 @@
           ref: "bile" [PK, KCD, KGT];
                "slime" [KCD; KGT];
                "gall" [TKW]
-***** TODO Add 'date' field
-      With date of when word was added to dictionary. This field should be used
-      for sorting of otherwise identical words.
 ***** TODO Field for English synonyms?
       E.g. to make words easier to look up. E.g. {'IqnaH} has a 'com' field
       specifying 'booger', which is a useful synonym for the purpose of
@@ -3164,12 +3141,17 @@
 ****** TODO Check gender of all Swedish "vara"-verbs
 ****** TODO Check usage of Swedish reflexive pronoun "sig".
        (Should be within parentheses?)
-***** TODO Add specifying parentheses to all News references
-      Should be: News YYYY-MM-DD (by ..., to ..., "...")
+***** TODO Add 'def: ST3' for all words occurring in ST3
+      (Since ST3 is pre-TKD ST3 is the defining source for all these words.)
+***** TODO Add 'tag: 1984' for all words occurring in ST3
+***** TODO Add 'ref: ST5' for all words occurring in ST5
+***** TODO Add 'def: ST5' for all words in 1999-12-holqed-08-4-b.txt(?)
+      I'm not sure the HQ8:4 ("Notes from Star Trek V: The Final Frontier")
+      article actually reflects Klingon dialogue as it appears in the movie.
 
-      After this is done, adjust check-dict to require this in the future.
-***** TODO Add category "food"
-      "tag: food"
+      But all words source referenced with that {HolQeD} article, and that is
+      also in the final move should have 'ref: ST5' or 'def: ST5'.
+***** TODO Add 'ref: ST6' for all words occurring in ST6
 ***** TODO Add category "transportation"
       "tag: transportation"
       airplane, various spaceships, bicycle etc.

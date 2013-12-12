@@ -16,6 +16,17 @@ use Encode 'decode';
 binmode(STDIN,  ":encoding(utf8)");
 binmode(STDOUT, ":encoding(utf8)");
 
+$SIG{__DIE__} = sub {
+    my ($msg) = @_;
+    print '<h2>ERROR: Program halted</h2>',
+        '<ul>', (
+            map {
+                '<li>' . escapeHTML($_) . '</li>'
+            } split(/\n/, $msg)
+        ), '</ul>';
+    exit;
+};
+
 # output content-type header
 # (when used as SSI or loaded explicitly by
 # browser, but not when called by other script)
@@ -24,24 +35,85 @@ if (not $ENV{X_CGI}) {                         # if not suppressed
     $ENV{X_CGI} = "perl";                      #   and suppress it from now on
 }                                              #
 
-# language (en=english/sv=swedish)
-my $lang = lc ($ENV{LANG} || $ENV{X_LANG});    # get language
-$lang = $lang eq "sve" ? "sv" :                #
-        $lang eq "eng" ? "en" : $lang;         #
-$lang = "en" unless $lang =~ /^(en|sv)$/;      #
+sub get_source_names {
+    # read dir
+    my @file = do {
+        opendir(my $dh, "../canon")
+            or die "Can't open current dir: $!";
+        grep /^\d.*\.txt$/, readdir($dh);
+    };
+
+    # abbr contains source_abbrev => file
+    my %file = map {                           # for each transcript file
+        my $file = $_;
+        s/\.txt$//;                            #   strip '.txt'
+        if (not /-(news|email|qepa|web)$/) {   #   unless email/news/web/qep'a'
+            s/^(\d+-)+//;                      #     strip leading date
+        }
+        ($_ => $file);
+    } @file;
+    $file{tkda} = $file{tkd};                  # add for TKDa
+    return %file;
+}
+
+sub link_sources {
+    my @source = @_;
+    return join "; ", map {
+        s/^\s+//;
+        s/\s+$//;
+        link_source($_);
+    } split_sources(@source);
+}
+
+{
+    my %file;
+    sub link_source {
+        local ($_) = @_;
+        if (not %file) { %file = get_source_names() };
+
+        my ($abbr, $rest) = /^(\S*)(.*)/;      # 1st word of source + rest
+
+        # process secondary sources
+        my $has_secondary_source = do {
+            $rest =~ s{\((.*)\)}{
+                "(" . link_sources($1) . ")";
+            }e ? 1 : 0;
+        };
+
+        # downcase + remove apostrophes and HTML
+        # ('cuz HTML <mark> tags are inserted by query)
+        (my $lcabbr = lc $abbr) =~ s/(?:<.*?>|')//g;
+
+        my $file = $file{$lcabbr} || "";       # transcript file name
+        if (not $file) { return "$abbr$rest" } # fallback (should never happen)
+        if ($has_secondary_source) {
+            return '<a href="../canon/'.$file.'">'.$abbr.'</a>'.$rest;
+        } else {
+            return '<a href="../canon/'.$file.'">'.$abbr.$rest.'</a>';
+        }
+    }
+}
+
+# split string on semicolon, returns list with result
+# (semicolons inside parentheses are ignored when splitting)
+sub split_sources {
+    my ($str) = @_;
+    return ("$str;" =~ /(.*?(?:\([^)]*\)[^;(]*)*);/g);
+}
+
+sub link_last_source {
+    my ($cite) = @_;
+    $cite =~ s{(.*)\[(.*?)\]$}{
+        $1 . "[" . link_source($2) . "]";
+    }e;
+    return $cite;
+}
 
 our %postprocess = (
-    file => sub {
-        my ($value) = @_;
-        my $i = 0;
-        return map {
-            my $string = ($i++ ? "\n      <br>" : "") . "<a href=\"../canon/$_\">$_</a>";
-            $string .= " (<strong>NOTE:</strong> <abbr title=\"The Klingon " .
-                "Dictionary\">TKD</abbr> required to view this file.)"
-                    if defined($_) and m#-(tkd|tkw|kgt)\.txt#;
-            $string;
-        } split(m#;\s*#, $value);
-    },
+    def  => \&link_sources,
+    ref  => \&link_sources,
+    cite => \&link_last_source,                # link sources inside last [...]
+    desc => \&link_last_source,                # link sources inside last [...]
 );
 
 our %field = (
@@ -59,7 +131,6 @@ our %field = (
     tag  => "Tags",
     data => "Data",
     id   => "Permanent Entry ID",
-    file => "Transcript",
     meta => "Metadata",
 );
 
@@ -184,7 +255,7 @@ sub split_query {
         rover  => "verb suffix type rover",
     );
     # turn subqueries into regexes
-    my $w = "[\\w']";                             # word character class
+    my $w = qr/[\w']/;                         # word character class
     return map {
         # split subquery into field name & search phrase
         my ($field, $phrase) = /^ (?:([^":]*):)? "?(.*?)"? $/x;
@@ -315,7 +386,7 @@ return <<"EOF";
         <a href="http://klingonska.org/dict/">Klingon Pocket Dictionary</a>
       </nav>
     <li>
-      Updated <time pubdate datetime="2012-11-10T00:50">November 10, 2012</time>
+      Updated <time pubdate datetime="2013-12-12 18:24:37 +0100">December 12, 2013</time>
   </ul>
   <!-- end:status -->
   <div>
@@ -376,7 +447,7 @@ sub html_foot {
 </article>
 
 <footer role=contentinfo>
-  <p class=copyright>&copy;<time itemprop=copyrightYear>1998</time>&ndash;<time>2012</time> by
+  <p class=copyright>&copy;<time itemprop=copyrightYear>1998</time>&ndash;<time>2013</time> by
     <a href="mailto:zrajm@klingonska.org" rel=author itemprop=author>zrajm</a>,
     <a href="http://klingonska.org/" itemprop=sourceOrganization>Klingonska Akademien</a>, Uppsala
   </p>
@@ -436,7 +507,11 @@ print html_head() . html_form($query);
             if $matches > 0;
         $matches ++;
         # presentation
-        s#([{}])# $1 eq "{" ? "<b lang=\"tlh\">" : "</b>" #ge;  # boldify
+        s{ \{ (.*?) \} }{                      # boldify
+            my $tlh = $1;
+            $tlh =~ s/'/’/g;                   #   typographical quotes
+            '<b lang="tlh">' . $tlh . '</b>';
+        }gex;
         s#~(.*?)~#<i>$1</i>#g;      # apply italics
         s#(.*)¿\?(.*)#$1$2 (uncertain translation)#g;
         s/^\n//;
@@ -461,6 +536,7 @@ print html_head() . html_form($query);
     } else {
         print '<table class="noborder layout">' . "\n";
         print '  <tr><td colspan=2>' . $matches . ' match' . ($matches == 1 ? "" : "es") . ".\n";
+        print "  (Want the whole dictionary? Download it <i><a href=\"dict.zdb\">here</a></i>.)\n" if $matches > 100;
         print '  <tr><td colspan=2>&nbsp;' . "\n";
         print @output;
         print "</table>\n\n";

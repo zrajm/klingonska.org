@@ -26,13 +26,13 @@ sub TRUE  {  1 }
 sub FALSE { "" }
 
 my %opt = (
-    verbose => -t STDOUT ? 0 : 1,
+    verbose => 0, #-t STDOUT ? 0 : 1,
 );
 my %cfg = (
     canon_path     => "../site/canon", # relative to executable's path
-    field_order    => [ qw(tlh  warn  pos  en   sv    desc  def   ref  cite
-                           com  pun   see  tag  data  id    file  meta) ],
-    field_required => [ qw(tlh pos sv en def tag id file) ],
+    field_order    => [ qw(tlh  warn pos  en   sv   desc def  ref
+                           cite com  pun  see  tag  data id   meta) ],
+    field_required => [ qw(tlh pos sv en def tag id) ],
     field_callbacks => {
         tlh  => \&check_tlh,
         warn => \&check_warn,
@@ -40,8 +40,8 @@ my %cfg = (
         en   => \&check_en,
         sv   => \&check_sv,
         desc => \&check_desc,
-        def  => \&check_source,
-        ref  => \&check_source,
+        def  => \&check_defref,
+        ref  => \&check_defref,
         cite => \&check_cite,
         com  => \&check_com,
         pun  => \&check_pun,
@@ -49,7 +49,6 @@ my %cfg = (
         tag  => \&check_tag,
         data => \&check_data,
         id   => \&check_id,
-        file => \&check_file,
         meta => \&check_meta,
     },
 );
@@ -317,7 +316,6 @@ sub prettify_field {
 #             "{He pagh-pagh-vagh-jav-pagh-jav yInab} 'Plot...",
 #         ],
 #         tag    => [ "KLCP1" ],
-#         file   => [ "1992-01-01-tkd.txt; 1999-12-holqed-08-..." ],
 #     };
 #
 sub get_entries {
@@ -370,7 +368,7 @@ sub get_entries {
             when (m#^([^:\h]+):\t(.*)#) {      # field: value line
                 my ($field, $value) = ($1, $2);
                 if (not exists $order{$field}) {   #   unknown field
-                    warn "Unknown field '$field', at line ${\($offset + $i)}\n";
+                    warn "Unknown field '$field:' at line ${\($offset + $i)}\n";
                     # non-fatal error, continue processing
                 } elsif ($order{$field} < ($order{$current} // -1)) { # field order
                     warn "Field '$field:' too late in entry sort order " .
@@ -403,47 +401,81 @@ sub get_entries {
     return $entries;
 }
 
-sub source_ref_syntax {
-    my ($_) = @_;
-    my $s  = qr/[  \n]/x;                                   # spaces
-    my $p  = qr/[ivx]+|\d+/x;                               # a page number
-    my $pp = qr/ p\.$p | pp\.$p(--$p|(,$s$p(--$p)?)+) /x;   # p.#PAGE or pp.#RANGE
+{
+    # these source reference words have non-capital letters
+    my %tr = (
+        bop    => "BoP",    email => "Email", hallmark => "Hallmark",
+        holqed => "HolQeD", news  => "News",  praxis   => "Praxis",
+        "qepa" => "qep'a'", sarek  => "Sarek",  web   => "Web",
+    );
+    my $re = qr/${\( join("|", sort keys %tr) )}/;
 
-    my $chapter  = qr/(K-E|E-K|[0-9]+(\.[0-9]+)+) ($s\($pp\))?/x; # CHAPTER [ (PAGE) ]
-    my $chapters = qr/$s$chapter(,$s$chapter)*/x;           # CHAPTER [ (PAGE) ], ...
+    sub recase_source {
+        my ($_) = @_;
+        if (not s/\b($re)\b/$tr{$1}/) {
+            return uc($_);
+        }
+        return $_;
+    }
+}
 
-    # page numbers, chapter numbers, 'E-K' or 'K-E'
-    my $tkd_ref  = qr/($chapter|$pp)/x;             #
-    my $tkd_refs = qr/ $s $tkd_ref(, $s $tkd_ref)*/x;       #
+sub get_source_names {
+    # filenames in 'canon/' starting with number and ending in '.txt'
+    my @file = do {
+        opendir(my $dh, $cfg{canon_path})
+            or die "Failed open transcript dir '$cfg{canon_path}': $!";
+        grep /^\d.*\.txt$/, readdir($dh);
+    };
 
-    # page numbers, 'E-K' or 'K-E'
-    my $kgt_ref  = qr/(K-E|E-K) ($s\($pp\))? | $pp/x;
-    my $kgt_refs = qr/ $s $kgt_ref(, $s $kgt_ref)*/x;
+    # abbr contains source_abbrev => filename
+    my %file = map {                           # for each transcript file
+        my $file = $_;
+        s/\.txt$//;                            #   strip '.txt'
+        if (not /-(news|email|qepa|web)$/) {   #   if email, news, web then
+            s/^(\d+-)+//;                      #     strip leading date
+        }
+        (recase_source($_) => $file);
+    } @file;
+    $file{TKDa} = $file{TKD};                  # add for TKDa
+    return %file;
+}
 
-    # simple page numbers
-    my $page_refs = qr/ $s $pp(, $s $pp)*/x;
+# split string on semicolon, returns list with result
+# (semicolons inside parentheses are ignored when splitting)
+sub split_sources {
+    my ($str) = @_;
+    return ("$str;" =~ /(.*?(?:\([^)]*\)[^;(]*)*);/g);
+}
 
-    my $by    = qr/by$s[^()]+/;         # "by ..."
-    my $to    = qr/to$s[^()]+/;         # "to ..."
-    my $url   = qr/https?:\/\/[^()]+/;  # "http://..."
-    my $subj  = qr/"[^"]+"/;            # "..."
-    my $date  = qr/\d{4}-\d{2}-\d{2}/;  # "YYYY-MM-DD"
-    my $mdate = qr/\d{4}-\d{2}/;        # "YYYY-MM"
-    my $wotf  = qr/Star\s+Trek:\s+The\s+Worlds\s+of\s+the\s+Federation/;
+{
+    my %file = get_source_names();             # cache filenames
+    sub check_source {
+        my ($entry, $field, $_) = @_;
+        my @warn;
+        my $i = 0;
+        foreach (split_sources($_)) {
+            if ($i > 0) {
+                s/^\s//  or  push @warn, "Missing space after semicolon in";
+                s/^\s+// and push @warn, "Too many spaces after semicolon in";
+            }
+            $i ++;
+            my ($abbr, $rest) = /^(\S*)(.*)/;  # 1st word of source + rest
 
-    my $holqed_source  = qr/HQ\d{1,2}:[1-4]+ $page_refs? (?: $s \( $subj \))/x;
-    my $paged_source   = qr/( TKDa? $tkd_refs? |KGT $kgt_refs? | (DI|Sarek|TKW|$wotf) $page_refs? | TNK | MKE ) ($s et $s al\.)? /x;
-    my $unpaged_source = qr{
-        BoP|CK|PK|KCD|KLINW|TDNW|RT|
-        S7|S8|S14|S15|S20|S25|S26|S31|S32|S33|ST1|ST5|ST6|STE|
-        \{qep'a'\} $s \d{4}                                          |
-        Email      $s $date   $s \($by, $s $to    , $s $subj   \)    |
-        News       $s $date ( $s \($by, $s $to (?:, $s $subj)? \) )? |
-        Web        $s $date   $s \($by, $s $url   , $s $subj   \)    |
-        Recording  $s $mdate  $s \([\s\S]*?                    \)
-    }x;
-    my $source       = qr/$paged_source|$holqed_source|$unpaged_source/x;
-    return m#^ $source (;$s$source)* $#x ? TRUE : FALSE;
+            # FIXME: check source page references etc. here
+
+            # check primary source
+            if (not $file{$abbr}) {
+                push @warn, 'Invalid source "'.$_.'" in';
+            }
+            # check secondary references (given in parentheses)
+            if (my ($secondary) = $rest =~ m# \( (.*) \) #x) {
+                push @warn, map {
+                    $_ . " '($secondary)' in"
+                } check_source($entry, $field, $secondary);
+            }
+        }
+        return @warn;
+    }
 }
 
 {
@@ -537,10 +569,11 @@ sub source_ref_syntax {
 # Return list of error messages or empty list if ok.
 
 sub check_tlh {
-    my ($entry, $field, $_, @warn) = @_;
+    my ($entry, $field, $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
     my $pos  = $entry->{pos}[0]  // "";        # part-of-speech
     my $data = $entry->{data}[0] // "";        # data field
+    my @warn;
 
     # get/check word counters
     my ($pre, $word, $post) = m#^(.*?)(\*?\{[^{}]*\})(.*?)$#
@@ -683,8 +716,9 @@ sub check_tlh {
 }
 
 sub check_warn {
-    my ($entry, $field, $_, @warn) = @_;
+    my ($entry, $field, $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
+    my @warn;
     push @warn, check_brackets($_);
     my $tlh  = $entry->{tlh}[0]  // "";
     my $data = $entry->{data}[0] // "";
@@ -705,20 +739,22 @@ sub check_warn {
 }
 
 sub check_pos {
-    my ($entry, $field, $_, @warn) = @_;
+    my ($entry, $field, $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
     state $re = qr{^(?:
         verb(?:\s(?:prefix|suffix\stype\s(?:[1-9]|rover)))?|
         noun(?:\ssuffix\stype\s[1-5])?|
         name|adverbial|conjunction|exclamation|numeral|pronoun|question\sword
     )$}x;
+    my @warn;
     push @warn, "Invalid part-of-speech '$_' in" unless m#$re#o;
     return @warn;
 }
 
 sub check_en {
-    my ($entry, $field, $_, @warn) = @_;
+    my ($entry, $field, $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
+    my @warn;
     push @warn, check_brackets($_);
 
     # <...> or «...» are required (except for affixes)
@@ -740,8 +776,9 @@ sub check_en {
 }
 
 sub check_sv {
-    my ($entry, $field, $_, @warn) = @_;
+    my ($entry, $field, $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
+    my @warn;
     push @warn, check_brackets($_);
 
     # «...» are required (except for affixes), <...> may not occur
@@ -760,9 +797,14 @@ sub check_sv {
     return @warn;
 }
 
+
 sub check_desc {
-    my ($entry, $field, $_, @warn) = @_;
+    # Contents
+    #   * Any number source references [...]
+    #   * Any number of italics markers ~...~
+    my ($entry, $field, $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
+    my @warn;
     push @warn, check_brackets($_);
     push @warn, "First letter not lower case in" if m#^[A-Z]# and !/^I\b/;
     while (m#~([^~]+)~#g) {                    # check ~...~ phrases
@@ -777,30 +819,35 @@ sub check_desc {
         if m#[-.,:;([{<«  ]$# and !/(?:subj|obj)\.$/;
     push @warn, "Word '$1' should be abbreviated in"
         if m#\b(some(bod(y|ies)|ones?|things?))\b#;
+    while (m# \[( (?:[^]"]+|"[^"]*")* )\] #xg) { # check sources [...]
+        my $_ = $1;
+        s/\n/ /g;
+        push @warn, check_source($entry, $field, $_);
+    }
     return @warn;
 }
 
-# used for both 'def' and 'ref'
-sub check_source {
-    my ($entry, $field, $_, @warn) = @_;
+sub check_defref {
+    my ($entry, $field, $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
-    (my $x = $_) =~ s/"[^"]*"//g;              # remove title from comp'd string
-    push @warn, check_brackets($x);
-    push @warn, "Invalid source reference in" unless source_ref_syntax($_);
-    return @warn;
+    s/\n/ /g;
+    return check_source($entry, $field, $_)
 }
 
 sub check_cite {
-    my ($entry, $field, $_, @warn) = @_;
+    my ($entry, $field) = @_;
     my $i = 1;
-    foreach (@{ $entry->{$field} }) {
+    my @warn;
+    foreach (@{ $entry->{$field} }) {          # for each 'cite:' field
         my $_ = $_;
-        if (s#\[( (?:[^]"]+|"[^"]*")* )\]$##x) {
-            if (not source_ref_syntax($1)) {
-                push @warn, "Invalid source reference '$1' in ${\( ordinal($i) )}";
+        s/\n/ /g;
+        if (s{ \s* \[( (?:[^]"]+|"[^"]*")* )\] $}{}x) { # check (required) sources
+            my @source_warn = check_source($entry, $field, $1);
+            if (@source_warn) {
+                push @warn, map { "$_ " . ordinal($i) } @source_warn;
             }
         } else {
-            push @warn, "Missing source reference in ${\( ordinal($i) )}";
+            push @warn, "Missing source in " . ordinal($i);
         }
         push @warn, map { "$_ " . ordinal($i) } check_brackets($_);
         $i += 1;
@@ -809,8 +856,9 @@ sub check_cite {
 }
 
 sub check_pun {
-    my ($entry, $field, $_, @warn) = @_;
+    my ($entry, $field, $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
+    my @warn;
     push @warn, check_brackets($_);
     push @warn, "Last character is mid-sentence punctuation in"
         if m#[-,:;([{<«  ]$#;
@@ -818,10 +866,13 @@ sub check_pun {
 }
 
 sub check_com {
-    my ($entry, $field, $_, @warn) = @_;
+    my ($entry, $field, $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
-    if (s#\s*\[([^\[\]]*)\]$## and not source_ref_syntax($1)) {
-        push @warn, "Invalid source reference '$1' in";
+    my @warn;
+    if (s{ \s* \[( (?:[^]"]+|"[^"]*")* )\] $}{}x) { # check (optional) sources
+        my $_ = $1;
+        s/\n/ /g;
+        push @warn, check_source($entry, $field, $_);
     }
     push @warn, check_brackets($_);
     push @warn, "Last character is mid-sentence punctuation in"
@@ -830,8 +881,9 @@ sub check_com {
 }
 
 sub check_see {
-    my ($entry, $field, $_, @warn) = @_;
+    my ($entry, $field, $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
+    my @warn;
     push @warn, check_brackets($_);
     # FIXME what if 'tlh:' field isn't defined here (?)
     my ($tlh) = $entry->{tlh}[0] =~ m#(\{.*?\})#;
@@ -851,12 +903,15 @@ sub check_see {
         my ($entry, $field, $_) = @_;
         return "Duplicate" if @{ $entry->{$field} } > 1;
         my (@tag, @warn) = split /;\s/;
-        my $file = (sort split /;\s/, $entry->{file}[0])[0];
-        if (my ($year) = $file =~ /^(\d{4})/) {
-            $year = 1985 if $entry->{def}[0] =~ /\bTKD\b/;
-            push @warn, "First tag should be year '$year' (not '$tag[0]') in"
-                if $year ne $tag[0];
-        }
+
+        # FIXME -- calculate year of word based on source references
+        # my $file = (sort split /;\s/, $entry->{file}[0])[0];
+        # if (my ($year) = $file =~ /^(\d{4})/) {
+        #     $year = 1985 if $entry->{def}[0] =~ /\bTKD\b/;
+        #     push @warn, "First tag should be year '$year' (not '$tag[0]') in"
+        #         if $year ne $tag[0];
+        # }
+
         foreach (@tag[1..$#tag]) {
             push @warn, "Unknown tag '$_' in"
                 unless exists $allowed{$_};
@@ -868,8 +923,9 @@ sub check_see {
 }
 
 sub check_data {
-    my ($entry, $field, $_, @warn) = @_;
+    my ($entry, $field, $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
+    my @warn;
     push @warn, check_brackets($_);
     my $tlh = $entry->{tlh}[0] // "";
     if (/\b(deprecated|non-canon)\b/) {
@@ -891,30 +947,20 @@ sub check_data {
     my $tlh_re = qr/^([bDHj1mnpqQrStvwy]|ch|gh|ng|t1h)[ouae1]?[bDHj1mnpqQrStvwy]?$/x;
     my %id_found = ();
     sub check_id {
-        my ($entry, $field, $_, @warn) = @_;
+        my ($entry, $field, $_) = @_;
         return "Duplicate" if @{ $entry->{$field} } > 1;
         return "Not three base58 characters in in" if not /$content_ok_re/;
         return "Value '$_' is too similar to Klingon word in" if /$tlh_re/;
         return "Value '$_' already exist in" if $id_found{$_};
         $id_found{$_} = TRUE;
-        return @warn;
+        return ();
     }
-}
-
-sub check_file {
-    my ($entry, $field, $_, @warn) = @_;
-    return "Duplicate" if @{ $entry->{$field} } > 1;
-    foreach (split /;\s/) {
-        my $file = "$cfg{canon_path}/$_";
-        push @warn, "Invalid file '${\( File::Spec->abs2rel($file) )}' in"
-            unless -e $file;
-    }
-    return @warn;
 }
 
 sub check_meta {
-    my ($entry, $field, $_, @warn) = @_;
+    my ($entry, $field, $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
+    my @warn;
     push @warn, check_brackets($_);
     push @warn, "First letter not upper case in" unless m#^(["A-Z]|\*?\{)#x;
     push @warn, "Last character is mid-sentence punctuation in" if m#[-,:;([{<«  ]$#;
@@ -942,7 +988,7 @@ sub check_meta {
 # Multiple elements for the listrefs only occur for fields that occur multiple
 # times within the same entry (e.g. 'cite').
 sub check_entry {
-    my ($required, $callbacks, $entry) = @_;
+    my ($required, $field_callbacks, $entry) = @_;
     my @warn = ();
     # check that required fields exists
     foreach (@$required) {
@@ -951,11 +997,11 @@ sub check_entry {
     }
     # invoke callbacks for each field
     foreach (keys %$entry) {
-        next unless exists $callbacks->{$_};
+        next unless exists $field_callbacks->{$_};
         my $field = $_;
         push @warn, map {
             "$_ '$field:' field in";
-        } &{ $callbacks->{$_} }($entry, $_, $entry->{$_}[0]);
+        } &{ $field_callbacks->{$_} }($entry, $_, $entry->{$_}[0]);
     }
     return @warn;
 }
