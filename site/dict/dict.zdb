@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    63ac3f6dfcc4b8018d7c3534d28bae7720173cde
+SHA1:    2a97655252542f93f2d8458559cb241b30fedf10
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -598,9 +598,11 @@ tlh:	{baj}
 pos:	verb
 en:	<earn>, <work> for (actively)
 sv:	«tjäna», göra sig «förtjänt» av, «arbeta» för (aktivt)
-def:	KGT
-ref:	TKW p.125
-tag:	1997
+def:	TKW p.125; KGT
+cite:	{yInlu'taH 'e' bajnISlu'.} ~Survival must be earned.~ [TKW p.125]
+cite:	{yay chavlu' 'e' bajnISlu'.} ~Victory must be earned.~ [TKW p.125]
+cite:	{vuv be' 'e' baj} ~win the favor of a woman~ [KGT p.69]
+tag:	1996
 id:	msr
 
 tlh:	{bal}
@@ -764,9 +766,13 @@ tlh:	{batlhHa'}
 pos:	adverbial
 en:	<dishonorably>
 sv:	«skamligt», med «vanära»
-def:	KGT
-ref:	TKW pp.55, 139
-tag:	1997
+def:	TKW pp.55, 139; KGT
+cite:	{batlhHa' vanglu'taHvIS quv chavbe'lu'.} ~One does not achieve honor
+	while acting dishonorably.~ [TKW p.55]
+cite:	{Qu' buSHa'chugh SuvwI', batlhHa' vangchugh, qoj matlhHa'chugh, pagh
+	ghaH SuvwI''e'.} ~If a warrior ignores duty, acts dishonorably, or is
+	disloyal, he is nothing.~ [TKW p.139]
+tag:	1996
 id:	KCa
 
 tlh:	{bav}
@@ -1450,24 +1456,28 @@ tlh:	{bom} [1]
 pos:	verb
 en:	<sing>, <chant>
 sv:	«sjunga», «mässa»
-def:	KGT
-ref:	TKW p.17
-tag:	1997; music
+def:	TKW p.17; KGT
+cite:	{ta'mey Dun, bommey Dun.} ~Great deeds, great songs.~ [TKW p.15]
+cite:	{bomDI' 'IwwIj qaqaw.} ~The memory of you sings in my blood.~ [TKW
+	p.17]
+cite:	A song is a {bom}, and to sing a song is likewise {bom}. The set of
+	lyrics to a song is termed {bom mu'} (literally, ~song word~ or ~song
+	words~). [KGT p.71]
+tag:	1996; music
 id:	EYR
 
 tlh:	{bom} [2]
 pos:	noun
 en:	<song>, <chant>
 sv:	«sång»
-def:	KGT
-ref:	TKW p.15
-tag:	1997; music
+def:	TKW p.15; KGT
+tag:	1996; music
 id:	b9M
 
 tlh:	{bom «mu'»}
 pos:	noun
 en:	<lyric>, lyrics
-sv:	«sångtext»
+sv:	«sångtext», «låttext»
 def:	KGT
 tag:	1997; music
 data:	phrase; derived form
@@ -1619,9 +1629,11 @@ pos:	noun
 en:	<Right of Vengeance>
 sv:	«Vedergällningsrätt», «Rätt till hämnd»
 desc:	a legal right
-def:	KGT
-ref:	TKW p.121
-tag:	1997
+def:	TKW p.121; KGT
+cite:	In Klingon society revenge is not merely a desirable response to an
+	affront; it is, at least under some circumstances, a legal right called
+	the ~Right of Vengeance~ ({bortaS DIb}). [TKW p.121]
+tag:	1996
 data:	phrase
 id:	ssa
 
@@ -1769,12 +1781,16 @@ id:	Xed
 
 tlh:	{buSHa'}
 pos:	verb
-en:	<ignore>
-sv:	«ignorera»
-def:	KGT
-ref:	TKW p.139
-tag:	1997
+en:	<ignore>, not focus (on)
+sv:	«ignorera», inte «fokusera» (på)
+def:	TKW p.139; KGT
+cite:	{Qu' buSHa'chugh SuvwI', batlhHa' vangchugh, qoj matlhHa'chugh, pagh
+	ghaH SuvwI''e'.} ~If a warrior ignores duty, acts dishonorably, or is
+	disloyal, he is nothing.~ [TKW p.139]
+tag:	1996
+data:	derived form
 id:	utf
+meta:	Definition ~not focus [on]~ comes from KGT p.149.
 
 tlh:	{butlh}
 pos:	noun
@@ -1863,14 +1879,16 @@ tlh:	{chach} [1]
 pos:	verb
 en:	be «auxiliary», be for «backup» use
 sv:	vara i «reserv», vara till för «nödläge»n
-def:	HolQeD-01-3 p.9
+def:	veS-QonoS (HolQeD-01-3 p.9)
+cite:	{chach} ~auxiliary, backup~ (= ~emergency~) [veS-QonoS]
 cite:	{chach!} [~Emergency!~] (untranslated) [ST6]
 cite:	{tlham chach chu'qa'} ~Restoring auxiliary gravity.~ (clipped?) [ST6]
 cite:	If I heard this correctly, {chach} appears to be acting as a quality
 	here: "backup/auxiliary gravity". If it's a noun, I would expect the
 	noun+noun phrase ?{chach tlham} "emergency gravity". [2006-10-04-Email]
-tag:	1992
+tag:	1990
 id:	1aF
+meta:	Part-of-speech is not specified (and unclear) in {veS QonoS}.
 
 tlh:	{chach} [2]
 pos:	noun
@@ -1894,10 +1912,10 @@ tlh:	{chaDvay'}
 pos:	noun
 en:	«radio <frequency>», Hertz («unit» of frequency)
 sv:	«radio«frekvens»», hertz (frekvensenhet)
-def:	KGT
-ref:	TDNW; HolQeD-01-3 p.9
+def:	veS-QonoS (HolQeD-01-3 p.9); KGT
+ref:	TDNW
 cite:	~Hertz (frequency)~ {chaDvay'} [HolQeD-01-3 p.9]
-tag:	1997; measure
+tag:	1990; measure
 id:	1Ft
 
 tlh:	{chagh}
@@ -2026,9 +2044,11 @@ tlh:	{charghwI'}
 pos:	noun
 en:	<victor>, <conqueror>
 sv:	«segrare», «erövrare»
-def:	KGT
-ref:	TKW p.179
-tag:	1997
+def:	TKW p.179; KGT
+cite:	{reH lugh charghwI'.} ~The victor is always right.~ [TKW p.179]
+cite:	{qun qon charghwI'pu''e'.} ~History is written by the victors.~ [TKW
+	p.179]
+tag:	1996
 data:	derived form
 id:	Vyu
 
@@ -3037,8 +3057,8 @@ tlh:	{chu'wI'} [.1]
 pos:	noun
 en:	<trigger>
 sv:	«avtryckare»
-def:	TKDa
-tag:	1992
+def:	veS-QonoS (HolQeD-01-3 p.9); TKDa
+tag:	1990
 data:	derived form
 id:	2c1
 
@@ -3597,9 +3617,13 @@ tlh:	{DevwI'}
 pos:	noun
 en:	<leader>
 sv:	«ledare»
-def:	KGT
+def:	PK; KGT
 ref:	TKW pp.63, 66
-tag:	1997
+cite:	the word for ~leader~ is {DevwI'} [PK]
+cite:	{nIteb SuvnIS DevwI'.} ~A leader must stand alone.~ [TKW p.63]
+cite:	{wa' Qu'vaD wa' DevwI' tu'lu'.} ~For one mission, there is one leader.~
+	[TKW p.66]
+tag:	1993
 data:	derived form
 id:	7MA
 
@@ -3979,7 +4003,7 @@ cite:	{Doq 'ej Qaj wuS rur} ~be orange, red and resemble kradge lips~ -- The
 cite:	{Doq 'ej wovbe'} ~brown~ [TNK]
 com:	Since this is a phrase (and not a single verb) it can't be used
 	adjectivally (without modifying it).
-tag:	1999; color
+tag:	1998; color
 data:	phrase
 id:	CuL
 
@@ -4360,8 +4384,8 @@ tlh:	{Duy'a'}
 pos:	noun
 en:	<ambassador>
 sv:	«ambassadör»
-def:	TKDa
-tag:	1992
+def:	veS-QonoS (HolQeD-01-3 p.9); TKDa
+tag:	1990
 data:	derived form
 id:	whS
 
@@ -4669,9 +4693,10 @@ tlh:	{gheD}
 pos:	noun
 en:	<prey>
 sv:	«byte», «rov», «villebråd»
-def:	KGT
-ref:	TKW p.161
-tag:	1997
+def:	TKW p.161; KGT
+cite:	{QotDI' gheD tlhejbe' wamwI'.} ~The hunter does not lie down with the
+	prey.~ [TKW p.161]
+tag:	1996
 id:	rtC
 
 tlh:	{ghegh}
@@ -4855,9 +4880,12 @@ tlh:	{ghIlab ghew}
 pos:	noun
 en:	<glob fly>
 sv:	«globfluga»
-def:	KGT
-ref:	TKW pp.171, 173
-tag:	1997; animal
+def:	TKW pp.171, 173; KGT
+cite:	{ghIlab ghewmey tIbuSQo'.} ~Pay no heed to glob flies.~ A glob fly is a
+	tiny Klingon insect that makes a loud buzzing sound but has no stinger.
+	The proverb means "Don't pay attention to insignificant things." [TKW
+	p.171]
+tag:	1996; animal
 data:	phrase; {ghIlab} (n)
 id:	hqv
 
@@ -5054,9 +5082,17 @@ tlh:	{ghob} [1]
 pos:	verb
 en:	<fight>, <battle>, do battle, <wage war>
 sv:	«slåss», «strida», «föra krig»
-def:	KGT
-ref:	TKW pp.vii, 61, 179
-tag:	1997; fighting
+def:	TKW pp.vii, 61, 179; KGT
+cite:	The Klingon word {ghob} may be translated as ~ethics~ or ~virtue,~
+	linguistic evidence that the concept is not unknown or never discussed
+	among the Klingons themselves. It is probably significant that the
+	Klingon word for ~do battle,~ or ~wage war~ is likewise {ghob}. [TKW
+	p.vii]
+cite:	{'ang'eghQo' quv Hutlhbogh jagh neH ghobtaHvIS ghaH.} ~Only an enemy
+	without honor refuses to show himself in battle.~ [TKW p.61]
+cite:	{noH ghoblu'DI' yay quv law' Hoch quv puS.} ~In war, there is nothing
+	more honorable than victory.~ [TKW p.179]
+tag:	1996; fighting
 id:	rFz
 
 tlh:	{ghob} [2]
@@ -5065,6 +5101,7 @@ en:	<ethics>, <virtue>
 sv:	«etik», «moral», «dygd»
 def:	TKD; KGT
 ref:	TKW pp.vii, 47, 48
+cite:	{batlh ghob yIpab.} ~Adhere to virtue honorably.~ [TKW p.47]
 tag:	1985
 id:	AeD
 
@@ -5539,8 +5576,11 @@ tlh:	{ghuy'}
 pos:	exclamation
 en:	«damn» («curse»)
 sv:	«fan», «djävlar» («svordom»)
-def:	ST5 (HolQeD-08-4-b p.13)
-cite:	{ghuy' po'qu'} ~Damn he's good.~ [ST5]
+def:	HolQeD-08-4-b p.13
+cite:	{ghuy' po'qu'.} ~Damn he's good.~ [HolQeD-08-4-b p.13]
+com:	The {ghuy' po'qu'} line is supposedly from ST5, but in the movie the
+	line is shortened to only {po'qu'}. HolQeD-08-4-b p.13 reprints some of
+	MO working notes from the movie, and the line is printed there.
 tag:	1999
 id:	BaE
 
@@ -5824,19 +5864,24 @@ id:	fYH
 
 tlh:	{Ha'DIbaH} [.1]
 pos:	noun
-en:	<meat>, <animal>
-sv:	«kött», «djur»
-def:	TKD; TKDa
+en:	<animal>, <meat>
+sv:	«djur», «kött»
+def:	TKD; veS-QonoS (HolQeD-01-3 p.9); TKDa
 ref:	TKW p.163
+cite:	{Ha'DIbaH DaSop 'e' DaHechbe'chugh yIHoHQo'.} ~Do not kill an animal
+	unless you intend to eat it.~ [TKW p.163]
 tag:	1985; food; KLCP1
 id:	vsZ
+meta:	The meaning ~animal~ comes from TKD, ~meat~ comes from {veS-QonoS} and
+	later TKDa.
 
 tlh:	{Ha'DIbaH} [.2]
 pos:	noun
 en:	<dog>, <cur>, <inferior person> [slang]
 sv:	«fähund», «usling», «tölp», «underlägsen person» [slang]
-def:	KGT
-tag:	1997
+def:	ST3; KGT
+cite:	{Ha'DIbaH!} ~Animal!~ [ST3]
+tag:	1984
 id:	zVF
 
 tlh:	{Ha'DIbaH ghIH tIr ngogh je}
@@ -5912,9 +5957,11 @@ tlh:	{Heghbat}
 pos:	noun
 en:	<ritual <suicide>>
 sv:	«rituellt «självmord»»
-def:	KGT
-ref:	TKW p.147
-tag:	1997
+def:	TKW p.147, 177; KGT
+cite:	After being paralyzed from the waist down as the result of an accident,
+	Worf at first felt his life had ended and decided to commit ritual
+	suicide ({Heghbat}). [KGT p.147]
+tag:	1996
 id:	asU
 
 tlh:	{Heghba'}
@@ -6028,8 +6075,10 @@ tlh:	{Hergh QaywI'}
 pos:	noun
 en:	<hypo>, pneumatic hypo
 sv:	«spruta», pneumatisk spruta
-def:	TKDa
-tag:	1992
+def:	veS-QonoS (HolQeD-01-3 p.9); TKDa
+cite:	{Hergh QaywI'} (or {HerghwI'} for short) ~pneumatic hypo~ [veS-QonoS]
+see:	{QaywI'} ~hypo~
+tag:	1990
 data:	phrase; derived form
 id:	SUr
 
@@ -6037,8 +6086,9 @@ tlh:	{HerghwI'}
 pos:	noun
 en:	<hypo>, pneumatic hypo
 sv:	«spruta», pneumatisk spruta
-def:	TKDa
-tag:	1992
+def:	veS-QonoS (HolQeD-01-3 p.9); TKDa
+cite:	{Hergh QaywI'} (or {HerghwI'} for short) ~pneumatic hypo~ [veS-QonoS]
+tag:	1990
 data:	derived form
 id:	N8U
 
@@ -6218,8 +6268,8 @@ tlh:	{HIvDuj}
 pos:	noun
 en:	<attack fighter> (vessel)
 sv:	«attackskepp»
-def:	KGT
-tag:	1997; fighting
+def:	veS-QonoS (HolQeD-01-3 p.9); KGT
+tag:	1990; fighting
 id:	p19
 
 tlh:	{HIvHe}
@@ -6313,11 +6363,10 @@ pos:	noun
 en:	<most>, «greater part»
 sv:	«mesta», «större delen»
 desc:	see {Hoch}
-def:	KGT
-ref:	SBX-S15 (HolQeD-04-3-a)
+def:	SBX-S15 (HolQeD-04-3-a); KGT
 cite:	{tera' vatlh DIS poH cha'maH wej HochHom lo'lu'taH.} ~[It] remained in
 	use for most of the 23rd century.~ [SBX-S15]
-tag:	1997; quantity
+tag:	1995; quantity
 id:	WeJ
 
 tlh:	{Hochlogh}
@@ -6544,9 +6593,9 @@ tlh:	{HoS choHwI'}
 pos:	noun
 en:	«transtator»
 sv:	«transtator»
-def:	HolQeD-01-3 p.9
+def:	veS-QonoS (HolQeD-01-3 p.9)
 com:	This is a treknobabble word.
-tag:	1992
+tag:	1990
 data:	phrase
 id:	rhd
 
@@ -6995,9 +7044,8 @@ tlh:	{Hutlh}
 pos:	verb
 en:	<lack>, be <without>, to <not «have»>
 sv:	«sakna», vara «utan», «inte «ha»»
-def:	KGT
-ref:	TKW pp.59, 61, 142
-tag:	1997
+def:	TKW pp.59, 61, 142; KGT
+tag:	1996
 id:	1n2
 
 tlh:	{Huv}
@@ -7482,9 +7530,14 @@ tlh:	{jejHa'}
 pos:	verb
 en:	be <dull>, be <blunt> (of blades)
 sv:	vara «slö», vara «oskarp», vara «trubbig» (om egg)
-def:	KGT
-ref:	TKW p.101
-tag:	1997
+def:	TKW p.101; KGT
+cite:	{'etlh QorghHa'lu'chugh ragh 'etlh nIvqu' 'ej jejHa'choH.} ~Even the
+	best blade will rust and grow dull unless it is cared for.~ [TKW p.101]
+cite:	[There are] two idioms [that] refer to the taste of food. To say {jej
+	pach} (~The claw is sharp~) is to say that the food is pungent---that
+	is, good. If the food is bland, one may say {jejHa' pach} (~The claw is
+	dull~). [KGT p.126]
+tag:	1996
 data:	derived form
 id:	HF7
 
@@ -7495,7 +7548,7 @@ sv:	«James T. Kirk»
 def:	ST5 (HolQeD-08-4-b p.12)
 cite:	{jemS tIy qIrq. loDHom jIHDI' qIrq qun vIqImchoH.} ~James T. Kirk. I've
 	followed his history since I was a boy.~ [ST5]
-tag:	1999
+tag:	1989
 data:	non-phonotactic; phrase; {jemS} (name); {tIy} (name); {qIrq} (name)
 id:	uKp
 
@@ -7694,11 +7747,13 @@ id:	Ztw
 
 tlh:	[1] {jIH} [2]
 pos:	noun
-en:	<viewing <screen>>
-sv:	«bild«skärm»»
+en:	<viewing <screen>>, <monitor>
+sv:	«bild«skärm»», «monitor»
 def:	TKD
+ref:	veS-QonoS (HolQeD-01-3 p.9)
 tag:	1985
 id:	sja
+meta:	Definition ~monitor~ comes from {veS QonoS}.
 
 tlh:	[2] {jIH}
 pos:	pronoun
@@ -8470,9 +8525,9 @@ tlh:	{lay'Ha'}
 pos:	verb
 en:	<break one's word>
 sv:	«bryta sitt ord»
-def:	KGT
-ref:	TKW p.80
-tag:	1997
+def:	TKW p.80; KGT
+cite:	{not lay'Ha' tlhIngan.} ~No Klingon ever breaks his word.~ [TKW p.80]
+tag:	1996
 id:	C5p
 
 tlh:	{la'}
@@ -9521,8 +9576,8 @@ tlh:	{lupDujHom}
 pos:	noun
 en:	<shuttlecraft>
 sv:	«skyttel» (farkost)
-def:	TKDa
-tag:	1992
+def:	veS-QonoS (HolQeD-01-3 p.9); TKDa
+tag:	1990
 data:	derived form
 id:	ecR
 
@@ -9574,8 +9629,8 @@ tlh:	{lurgh}
 pos:	noun
 en:	<direction> (spatial)
 sv:	«riktning» (rumslig)
-def:	TKDa
-tag:	1992; placement
+def:	veS-QonoS (HolQeD-01-3 p.9); TKDa
+tag:	1990; placement
 id:	VbJ
 
 tlh:	{lurSa'}
@@ -9776,8 +9831,8 @@ tlh:	{maQmIgh}
 pos:	noun
 en:	dark «omen», «sign» of evil coming
 sv:	illavarslade «omen», «tecken» på förestående ondska, «järtecken»
-def:	HolQeD-01-3 p.9
-tag:	1992
+def:	veS-QonoS (HolQeD-01-3 p.9)
+tag:	1990
 id:	HFe
 
 tlh:	{mar}
@@ -9875,7 +9930,10 @@ en:	be <disloyal>
 sv:	vara «illojal»
 def:	KGT
 ref:	TKW p.139
-tag:	1997
+cite:	{Qu' buSHa'chugh SuvwI', batlhHa' vangchugh, qoj matlhHa'chugh, pagh
+	ghaH SuvwI''e'.} ~If a warrior ignores duty, acts dishonorably, or is
+	disloyal, he is nothing.~ [TKW p.139]
+tag:	1996
 data:	derived form
 id:	5mN
 
@@ -10667,11 +10725,13 @@ tlh:	[1] {mon}
 pos:	verb
 en:	<smile>, <grin>, «sneer»
 sv:	«le», «grina», «hånle»
-def:	KGT
-ref:	TKW p.167; 1996-qep'a'
+def:	TKW p.167; KGT
+ref:	1996-qep'a'
+cite:	{pIj monchugh vay' yIvoqQo'.} ~Don't trust those who frequently smile.~
+	[TKW p.167]
 pun:	"Mona Lisa" ({mon'a'} ~Is she smiling?~) Confirmed by MO at {qep'a'}
 	1996.
-tag:	1997
+tag:	1996
 id:	zbE
 
 tlh:	[2] {mon}
@@ -10743,9 +10803,8 @@ tlh:	{moQbara'}
 pos:	noun
 en:	<martial arts> form, <~Mok'bara~>
 sv:	«stridskonstform», «kampkonstform», «~Mok'bara~»
-def:	KGT
-ref:	TKW p.199
-tag:	1997; fighting
+def:	TKW p.199; KGT
+tag:	1996; fighting
 id:	xhH
 
 tlh:	{morgh}
@@ -11004,9 +11063,10 @@ tlh:	{mupwI'}
 pos:	noun
 en:	<hammer>
 sv:	«hammare»
-def:	KGT
-ref:	TKW p.120
-tag:	1997
+def:	TKW p.120; KGT
+cite:	{mupwI' yI'uchtaH!} ~Keep holding the hammer!~ [TKW p.120]
+cite:	{HoSghaj; mupwI' rur} ~powerful as a hammer~ [KGT p.129]
+tag:	1996
 id:	P1Q
 
 tlh:	{mupwI'Hom}
@@ -11146,9 +11206,9 @@ tlh:	{mu'qaD}
 pos:	noun
 en:	<curse>
 sv:	«svordom», «förbannelse»
-def:	KGT
-ref:	TKW p.148
-tag:	1997
+def:	TKW p.148; KGT
+cite:	{pe'vIl mu'qaDmey tIbach.} ~Curse well!~ [TKW p.148]
+tag:	1996
 id:	gbg
 
 tlh:	{mu'qaD veS}
@@ -11311,8 +11371,8 @@ tlh:	{naH}
 pos:	noun
 en:	<fruit>, <vegetable>
 sv:	«frukt», «grönsak»
-def:	TKDa
-tag:	1992; food
+def:	veS-QonoS (HolQeD-01-3 p.9); TKDa
+tag:	1990; food
 id:	SLm
 
 tlh:	{naHjej}
@@ -11748,9 +11808,11 @@ tlh:	{nen} [1]
 pos:	verb
 en:	be <mature>, be <grown-up>, be <adult>
 sv:	vara «mogen», vara «vuxen»
-def:	KGT
-ref:	TKW p.177
-tag:	1997
+def:	TKW p.177; KGT
+cite:	{wa' jaj 'etlh 'uchchoHlaH tlhIngan puqloD; jajvetlh loD nen moj.} ~The
+	son of a Klingon is a man the day he can first hold a blade.~ [TKW
+	p.177]
+tag:	1996
 id:	UYH
 
 tlh:	{nen} [2]
@@ -12203,9 +12265,10 @@ tlh:	{nobHa'}
 pos:	verb
 en:	<give back>, <return>
 sv:	«ge» tillbaka, «lämna» tillbaka
-def:	KGT
-ref:	TKW p.189
-tag:	1997; economics
+def:	TKW p.189; KGT
+cite:	{Huch nobHa'bogh verenganpu''e' yIvoqQo'.} ~Don't trust Ferengi who
+	give back money.~ [TKW p.189]
+tag:	1996; economics
 data:	derived form
 id:	TE8
 
@@ -12500,7 +12563,7 @@ pun:	{SuSvaj} happened to be sitting next to Okrand at {qep'a' wejDIch}
 	{tlhIngan Hol}! "He suggested that some word-borrowing was going on,
 	and I think he said he wasn't sure which culture had borrowed from
 	which." (SuStel)
-tag:	1997
+tag:	1996
 id:	Acm
 
 tlh:	{nuH} [.1]
@@ -12787,9 +12850,9 @@ tlh:	{ngaQ}
 pos:	verb
 en:	be <locked>, be <sealed>, be <secured>, be <fastened>
 sv:	vara «låst», vara «förseglad», vara «säkrad», vara «fäst»
-def:	KGT
-ref:	TKW p.186
-tag:	1997
+def:	TKW p.186; KGT
+cite:	{ngaQ lojmIt} ~The door is locked~ [TKW p.186]
+tag:	1996
 id:	cLa
 
 tlh:	{ngaQHa'moHwI'}
@@ -12868,11 +12931,11 @@ pos:	verb
 en:	have «sex», perform sex
 sv:	«sex» (d.v.s. ha sex; alltid subjekt)
 desc:	{nga'chuq bangwI'pu'} ~my loved ones have sex~; participants are subj.
-def:	HolQeD-01-3 p.9
+def:	veS-QonoS (HolQeD-01-3 p.9)
 com:	It is unclear about what part of speech this may be, though it is
 	probably a verb and "always subject" probably refers to the concept
 	that all involved parties collectively make the subject of this verb.
-tag:	1992
+tag:	1990
 id:	Byr
 
 tlh:	{ngeb}
@@ -13228,7 +13291,7 @@ sv:	«kodat meddelande»
 def:	ST5 (HolQeD-08-4-b p.12)
 cite:	{DIvI' Se' wI'IjtaHvIS DaH ngoqDe' wIHevta'.} ~We've just received an
 	encoded message on the Federation frequency.~ [ST5]
-tag:	1999
+tag:	1989
 id:	Q9k
 
 tlh:	{ngoQ}
@@ -13925,9 +13988,15 @@ tlh:	{pe''egh}
 pos:	verb
 en:	keep <score>
 sv:	«räkna» poäng
-def:	KGT
-ref:	TKW p.135
-tag:	1997
+def:	TKW p.135; KGT
+cite:	{potlhbe'chugh yay qatlh pe''eghlu'?} ~If winning is not important,
+	then why keep score?~ [TKW p.135]
+cite:	The Klingon way to say ~keep score~ is {pe''egh,} literally, ~cut
+	oneself.~ It comes form an old Klingon habit of keeping track of
+	accomplishments by making small cuts on one's skin, usually on the
+	face, as a tally. Perhaps coincidentally, Klingons' faces are often
+	similarly scratched following romantic encounters. [TKW p.135]
+tag:	1996
 id:	UrW
 
 tlh:	{pIch} [1]
@@ -14711,9 +14780,11 @@ tlh:	{puq poH}
 pos:	noun
 en:	<generation>
 sv:	«generation»
-def:	KGT
-ref:	TKW p.155
-tag:	1997; family
+def:	TKW p.155; KGT
+cite:	{qaStaHvIS wej puq poHmey vav puqloDpu' puqloDpu'chaj je quvHa'moH vav
+	quvHa'ghach.} ~The dishonor of the father dishonors his sons and their
+	sons for three generations.~ [TKW p.155]
+tag:	1996; family
 data:	phrase
 id:	eSd
 
@@ -15263,7 +15334,26 @@ pos:	verb
 en:	«replace»
 sv:	«ersätta»
 def:	MKE (2011-11-18-Email; 2012-03-02-Email)
-ref:	HolQeD-05-1 p.10
+cite:	{Quj wa'DIch ~Monopoly~ Huch nav qa' tlhIngan QaS} ~Klingon forces
+	replace original Monopoly bills~ [MKE]
+see:	{lIw}
+tag:	2011
+id:	fVD
+
+tlh:	[2] {qa'}
+pos:	noun
+en:	<spirit>
+sv:	«ande»
+def:	TKW pp.7, 145, 147; KGT
+cite:	~We fight to enrich the spirit.~ {qa' wIje'meH maSuv.} [TKW p.7]
+tag:	1996; religion
+id:	tb7
+
+tlh:	{qa'meH}
+pos:	noun
+en:	<replacement> (permanent)
+sv:	«ersättning» (permanent)
+def:	HolQeD-05-1 p.10; KGT
 cite:	The Klingon term for a ~replacement proverb~ is {qa'meH vIttlhegh}.
 	This is the only way to say ~replacement proverb~ currently, but in the
 	past, the common term was the lengthier {quvqa'meH vIttlhegh},
@@ -15275,31 +15365,6 @@ cite:	The Klingon term for a ~replacement proverb~ is {qa'meH vIttlhegh}.
 	over for or is used instead of something that is gone or that has been
 	lost. It is not used for a temporary substitute or a stand-in; the word
 	for that is {lIw}. [HolQeD-05-1 p.10]
-cite:	{Quj wa'DIch ~Monopoly~ Huch nav qa' tlhIngan QaS} ~Klingon forces
-	replace original Monopoly bills~ [MKE]
-see:	{lIw}
-tag:	2011
-id:	fVD
-
-tlh:	[2] {qa'}
-pos:	noun
-en:	<spirit>
-sv:	«ande»
-def:	KGT
-ref:	TKW pp.7, 145, 147
-tag:	1997; religion
-id:	tb7
-
-tlh:	{qa'meH}
-pos:	noun
-en:	<replacement> (permanent)
-sv:	«ersättning» (permanent)
-def:	HolQeD-05-1 p.10; KGT
-com:	It has become accepted as a noun in its own right, meaning
-	~replacement~ in the sense of something that takes over for or is used
-	instead of something that is gone or that has been lost. It is not used
-	for a temporary substitute or stand-in; the word for that is {lIw}.
-	[HolQeD-05-1 p.10]
 tag:	1996
 id:	6Sp
 
@@ -15362,11 +15427,10 @@ id:	wUh
 
 tlh:	{qa'vaQ}
 pos:	noun
-en:	«hoop-and-stick maneuver», «~qa'vak~» (traditional game)
-sv:	«käpp-och-tunnbands-övning», «~qa'vak~» (traditionell lek)
-def:	KGT
-ref:	TKW p.199
-tag:	1997
+en:	«hoop-and-stick maneuver», <~qa'vak~> (traditional <game>)
+sv:	«käpp-och-tunnbands-övning», «~qa'vak~» (traditionell «lek»)
+def:	TKW p.199; KGT
+tag:	1996
 id:	Lus
 
 tlh:	{qa'vIn}
@@ -15811,7 +15875,7 @@ en:	«Kirk»
 sv:	«Kirk»
 def:	ST5 (HolQeD-08-4-b p.12)
 cite:	{'entepray''a'? qIrq Duj 'oH.} ~Enterprise? That's Kirk's ship.~ [ST5]
-tag:	1999
+tag:	1989
 data:	non-phonotactic
 id:	BQV
 
@@ -15843,9 +15907,10 @@ tlh:	{qIvon}
 pos:	noun
 en:	<body part> (not further identified)
 sv:	«kroppsdel» (inte ytterligare identifierad)
-def:	KGT
-ref:	TKW p.174
-tag:	1997; body part
+def:	TKW p.174; KGT
+cite:	It is not clear what a {qIvon} is, aside from the fact that it is a
+	Klingon body part. [TKW p.174]
+tag:	1996; body part
 id:	PWw
 
 tlh:	{qIvo'rIt}
@@ -16403,9 +16468,13 @@ tlh:	{quvHa'}
 pos:	verb
 en:	be <dishonored>
 sv:	vara «vanärad», vara «vanhedrad»
-def:	KGT
-ref:	TKW p.155
-tag:	1997
+def:	TKW p.155; KGT
+cite:	{qaStaHvIS wej puq poHmey vav puqloDpu' puqloDpu'chaj je quvHa'moH vav
+	quvHa'ghach.} ~The dishonor of the father dishonors his sons and their
+	sons for three generations.~ [TKW p.155]
+cite:	{quvHa'; ghe'torngan rur} ~dishonored as an inhabitant of Gre'thor~
+	[KGT p.130]
+tag:	1996
 data:	derived form
 id:	2PT
 
@@ -16413,9 +16482,12 @@ tlh:	{quvHa'ghach}
 pos:	noun
 en:	<dishonor>
 sv:	«vanära», «skam»
-def:	KGT
-ref:	TKW p.155; HolQeD-12-3 p.9
-tag:	1997
+def:	TKW p.155; KGT
+ref:	HolQeD-12-3 p.9
+cite:	{qaStaHvIS wej puq poHmey vav puqloDpu' puqloDpu'chaj je quvHa'moH vav
+	quvHa'ghach.} ~The dishonor of the father dishonors his sons and their
+	sons for three generations.~ [TKW p.155]
+tag:	1996
 id:	KM1
 
 tlh:	{quvHa'moH}
@@ -16953,9 +17025,10 @@ tlh:	{Qeq}
 pos:	verb
 en:	<aim>
 sv:	«rikta», «sikta» (med sikte)
-def:	KGT
-ref:	TKW p.191
-tag:	1997
+def:	TKW p.191; KGT
+cite:	{yIQeqQo' neH. DoS yIqIp!} ~Don't just aim; hit the target!~ [TKW
+	p.191]
+tag:	1996
 id:	tnT
 
 tlh:	{Qev}
@@ -17374,9 +17447,10 @@ tlh:	{QongDaq}
 pos:	noun
 en:	<bed>
 sv:	«säng»
-def:	KGT
-ref:	TKW p.40
-tag:	1997
+def:	TKW p.40; KGT
+cite:	{QongDaqDaq Qotbe' tlhInganpu'.} ~Klingons do not lie in bed.~ [TKW
+	p.40]
+tag:	1996
 id:	7wU
 
 tlh:	{QongDaq buq}
@@ -18075,9 +18149,11 @@ tlh:	{regh}
 pos:	verb
 en:	<bleed>
 sv:	«blöda»
-def:	KGT
-ref:	TKW p.131
-tag:	1997
+def:	TKW p.131; KGT
+cite:	{cheqotlhchugh maHaghbe''a'? cheDuQchugh mareghbe''a'? cheQIHchugh
+	manoDbe''a'?} ~Tickle us, do we not laugh? Prick us, do we not bleed?
+	Wrong us, shall we not seek revenge?~ [TKW p.131]
+tag:	1996
 id:	LuC
 
 tlh:	{reghuluS}
@@ -18497,8 +18573,8 @@ en:	«throw» (dice), «bank» (aircraft), «roll»
 sv:	«kasta» (tärning), «rolla» (flygmaskin), «rulla»
 def:	HolQeD-11-2 p.9; MKE (2012-01-01-Email; 2012-03-02-Email)
 cite:	{Duj ronmoH 'orwI'} ~the pilot banks the vessel~ [HolQeD-11-2 p.9]
-cite:	{mI' naghmey tIronmoH} ~throw dice~ [2012-03-02-Email]
-tag:	2011
+cite:	{mI' naghmey tIronmoH} ~throw dice~ [MKE]
+tag:	2002
 data:	derived form
 id:	9C8
 
@@ -18573,10 +18649,10 @@ meta:	Should {roS} "lick" and "use third toe" be grouped together?
 
 tlh:	{roSHa'moH}
 pos:	verb
-en:	<paralyze>
-sv:	«paralysera»
-def:	KGT
-tag:	1997
+en:	<paralyze> (cause to be paralyzed)
+sv:	«paralysera» (få någon att bli paralyserad)
+def:	veS-QonoS (HolQeD-01-3 p.9); KGT
+tag:	1990
 id:	hFu
 
 tlh:	{roSwI'}
@@ -19027,9 +19103,9 @@ tlh:	{Say'qu'moH}
 pos:	verb
 en:	«sterilize»
 sv:	«sterilisera»
-def:	HolQeD-01-3 p.9
+def:	veS-QonoS (HolQeD-01-3 p.9)
 see:	{woj}
-tag:	1992
+tag:	1990
 data:	derived form
 id:	kS1
 
@@ -19515,11 +19591,11 @@ tlh:	{Soj} [.1]
 pos:	noun
 en:	<food>, «drink»
 sv:	«mat», «dryck»
-def:	TKDa
-ref:	HolQeD-12-3 p.9
+def:	veS-QonoS (HolQeD-01-3 p.9); TKDa
+ref:	HolQeD-12-3 p.9; KGT
 cite:	The term for food of any kind (including beverages) is {Soj}. [KGT
 	p.83]
-tag:	1992; food; KLCP1
+tag:	1990; food; KLCP1
 id:	phN
 
 tlh:	{Soj} [.2]
@@ -21104,7 +21180,7 @@ sv:	«räddningsskepp»
 def:	ST5 (HolQeD-08-4-b p.12)
 cite:	{vaj toDDujDaj ngeHbej DIvI'.} ~That means the Federation will be
 	sending a rescue ship of its own.~ [ST5]
-tag:	1999
+tag:	1989
 id:	4Lo
 
 tlh:	{toDSaH}
@@ -21165,9 +21241,10 @@ tlh:	{tonSaw'}
 pos:	noun
 en:	<fighting technique>
 sv:	«stridsteknik»
-def:	KGT
-tag:	1997; fighting
+def:	veS-QonoS (HolQeD-01-3 p.9); KGT
+tag:	1990; fighting
 id:	6WQ
+meta:	Translated as ~klingon fighting~ in {veS-QonoS}.
 
 tlh:	{tongDuj}
 pos:	noun
@@ -21410,8 +21487,8 @@ tlh:	{tuj muvwI'}
 pos:	noun
 en:	«thermo-suture»
 sv:	«termosutur»
-def:	HolQeD-01-3 p.9
-tag:	1992
+def:	veS-QonoS (HolQeD-01-3 p.9)
+tag:	1990
 data:	phrase
 id:	Jwe
 
@@ -21468,9 +21545,9 @@ tlh:	{tuq}
 pos:	noun
 en:	<tribe>, <house>, <ancestral unit>
 sv:	«stam», «släkte», «ätt»
-def:	KGT
-ref:	TKW p.34
-tag:	1997; family
+def:	TKW p.34; KGT
+cite:	{reH tay' ghot tuqDaj je.} ~One is always of his tribe.~ [TKW p.34]
+tag:	1996; family
 id:	CUd
 
 tlh:	{tuq Degh}
@@ -23412,7 +23489,7 @@ cite:	The person who takes the order and brings the food is the {jabwI'}
 	same individual. If there is a separate bar ({tach}), the bartender
 	({chom}) will mix drinks; otherwise, these chores fall to the {vutwI'}.
 	[KGT p.101]
-tag:	1992; food
+tag:	1997; food
 data:	derived form
 id:	D59
 
@@ -23516,9 +23593,10 @@ tlh:	{wamwI'}
 pos:	noun
 en:	<hunter>
 sv:	«jägare»
-def:	KGT
-ref:	TKW p.161
-tag:	1997
+def:	TKW p.161; KGT
+cite:	{QotDI' gheD tlhejbe' wamwI'.} ~The hunter does not lie down with the
+	prey.~ [TKW p.161]
+tag:	1996
 data:	derived form
 id:	Q5x
 
@@ -24024,8 +24102,7 @@ tlh:	[1] {woj}
 pos:	verb
 en:	<sterilize>
 sv:	«sterilisera»
-def:	KGT
-ref:	HolQeD-01-3
+def:	veS-QonoS (HolQeD-01-3 p.9); KGT
 com:	MO seem to have canonified an error occuring on KLI's list of new
 	words, originally caused by a slip of the eye while reading/
 	transcribing the {veS QonoS} list in HolQeD-01-3 p.9. Zrajm: When I was
@@ -24034,23 +24111,23 @@ com:	MO seem to have canonified an error occuring on KLI's list of new
 	writing his dictionary. He gave a copy of this dictionary to MO, who as
 	a kind of a joke incorporated the error into the language.
 see:	{Say'qu'moH} is a synonym
-tag:	1992
+tag:	1990
 id:	2Az
 
 tlh:	[2] {woj}
 pos:	noun
 en:	<radiation>
 sv:	«strålning»
-def:	TKDa
-tag:	1992
+def:	veS-QonoS (HolQeD-01-3 p.9); TKDa
+tag:	1990
 id:	XhS
 
 tlh:	{woj choHwI'}
 pos:	noun
 en:	<reactor>
 sv:	«reaktor»
-def:	TKDa
-tag:	1992
+def:	veS-QonoS (HolQeD-01-3 p.9); TKDa
+tag:	1990
 data:	phrase
 id:	Gkq
 
@@ -24414,8 +24491,8 @@ tlh:	{yatlh}
 pos:	verb
 en:	be <pregnant>
 sv:	vara «gravid»
-def:	KGT
-tag:	1997
+def:	veS-QonoS (HolQeD-01-3 p.9); KGT
+tag:	1990
 id:	W2F
 
 tlh:	{yav}
@@ -24642,9 +24719,8 @@ tlh:	{yIrIDngan}
 pos:	noun
 en:	<Yiridian> (person)
 sv:	«yridian» (person)
-def:	KGT
-ref:	TKW p.189
-tag:	1997
+def:	TKW p.189; KGT
+tag:	1996
 id:	rPu
 
 tlh:	{yISra'el}
@@ -24764,9 +24840,10 @@ tlh:	{yoHwI'}
 pos:	noun
 en:	<brave one>
 sv:	den «modig»e, den modiga
-def:	KGT
-ref:	TKW p.123
-tag:	1997
+def:	TKW p.123; KGT
+cite:	{reH Hegh yoHwI'pu''e'.} ~Always it is the brave ones who die.~ [TKW
+	p.123]
+tag:	1996
 data:	derived form
 id:	kL7
 
@@ -24918,7 +24995,7 @@ sv:	«Operationskommandot»
 def:	ST5 (HolQeD-08-4-b p.11)
 cite:	{HoD, yo'SeH yaHnIvvo' potlh De' wIHevtaH.} ~Captain, we are receiving
 	a priority message from Operations Command.~ [ST5]
-tag:	1999
+tag:	1989
 data:	phrase; {yo'SeH} (n); {yaHnIv} (n)
 id:	fZR
 
@@ -25544,7 +25621,7 @@ com:	Mark Okrand wrote the word in Angieszka Solska's notebook during
 	not want to spoil the surprise, therefore the word was not made public
 	until a year later, in 2007, in a discussion about new words from the
 	2007 {qep'a'} on the tlhingan-hol mailing list.
-tag:	2007
+tag:	2006
 id:	h7D
 
 tlh:	{'elpI'}
@@ -25579,13 +25656,13 @@ en:	«Enterprise» (a ship)
 sv:	«Enterprise» (ett skepp)
 def:	SBX-S15 (HolQeD-04-3-a)
 ref:	ST5 (HolQeD-08-4-b p.11, 12, 13)
+cite:	{nImbuS wejDaq 'ejDo' 'entepray' ngoHlu'pu'.} ~The Starship Enterprise
+	has been dispatched to Nimbus III.~ [ST5]
 cite:	{tera' vatlh DISpoH cha'maH loS bong QongmeH qItI'nga' Duj tI'ang
 	ghompu' DIvI' 'ejDo' 'entepray'.} ~A sleeper ship of this class, the
 	T'Ong, was encountered in the 24th century by the U.S.S. Enterprise.~
 	[SBX-S15]
-cite:	{nImbuS wejDaq 'ejDo' 'entepray' ngoHlu'pu'.} ~The Starship Enterprise
-	has been dispatched to Nimbus III.~ [ST5]
-tag:	1995
+tag:	1989
 id:	mBw
 
 tlh:	{'eng}
@@ -26335,9 +26412,9 @@ tlh:	{'uch}
 pos:	verb
 en:	<hold>, <grasp>
 sv:	«hålla» (i), «gripa» (om)
-def:	KGT
-ref:	TKW pp.120, 177
-tag:	1997
+def:	TKW pp.120, 177; KGT
+cite:	{mupwI' yI'uchtaH!} ~Keep holding the hammer!~ [TKW p.120]
+tag:	1996
 id:	x9d
 
 tlh:	{'uchHa'}
@@ -26362,8 +26439,8 @@ tlh:	{'uD Haqtaj}
 pos:	noun
 en:	«laser scalpel»
 sv:	«laserskalpell»
-def:	HolQeD-01-3 p.9
-tag:	1992
+def:	veS-QonoS (HolQeD-01-3 p.9)
+tag:	1990
 data:	phrase; derived form
 id:	mky
 
@@ -26371,8 +26448,8 @@ tlh:	{'uD'a'}
 pos:	noun
 en:	«laser»
 sv:	«laser»
-def:	HolQeD-01-3 p.9
-tag:	1992
+def:	veS-QonoS (HolQeD-01-3 p.9)
+tag:	1990
 data:	derived form
 id:	Etz
 

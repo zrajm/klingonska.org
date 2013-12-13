@@ -4,7 +4,8 @@
 * INBOX
   These should be inserted in the hierachy below.
 ** NWL seems to be establish abbrev for KLI's new word list
-** Email Will Martin about the Praxis recording
+** DONE Email Will Martin about the Praxis recording
+   CLOSED: [2013-12-13 Fri 14:00]
 * TODO FIXES
 ** DOING Email
 *** DOING Loopia mail settings
@@ -22,7 +23,6 @@
 *** TODO Why can't I sent mail to zrajm@zrajm.org from gmail and have them wind up in my gmail inbox?
     (This works excellently if I send mail to zrajm@klingonska.org.)
 *** TODO Remove mail redirects from zrajm.org when klingonska.org is working
-
 ** DOING Mailing lists
 *** DOING Move mailing lists
 *** DOING test that aliases {qanaq,sekreterare}@klingonska.org works
@@ -1485,7 +1485,12 @@
     Each transcript in the http://klingonska.org/canon/ list should have a link
     to the prettified version (as well as to the original text formatted
     transcript).
-*** [62%] Transcripts updating/improvement
+*** [61%] Transcripts updating/improvement
+**** [0%] Add more stuff to {qep'a'} descriptions/transcripts
+***** TODO Where was each {qep'a'} held?
+***** TODO Who was there?
+**** TODO Add missing transcript file headers
+     Some of them have FIXME written in them, some are just absent.
 **** [0%] Improve MKE transcript
 ***** TODO Buy copy of Monopoly: Klingon Edition
 **** [0%] Improve TNK transcript
@@ -2692,13 +2697,6 @@
 
      Grep for this throughout website, I'm the misspelling must occur at least
      in all scripts working against the dictionary. (CGI + dictionary checker?)
-**** TODO Add 'def: ST3', and 'tag: 1984' for all words occurring in ST3
-**** TODO Add 'def: ST5' for all words in 1999-12-holqed-08-4-b.txt(?)
-     I'm not sure the HQ8:4 ("Notes from Star Trek V: The Final Frontier")
-     article actually reflects Klingon dialogue as it appears in the movie.
-
-     But all words source referenced with that {HolQeD} article, and that is
-     also in the final move should have 'ref: ST5' or 'def: ST5'.
 **** TODO Make sure all Eurotalk words has proper 'data:' fields
 **** Design improvements (to think about)
 ***** TODO Should "some(one|body|thing)" really be abbreviated in 'desc:'?
@@ -3126,6 +3124,23 @@
       onwards.
 ***** TODO KGT main text words (names etc.)
       e.g. "Kayvak", "digna", "ka'raj", "bregit", "Saurian", "raktaj"
+**** [0%] Changes affecting several words
+***** [0%] Compare dictionary with {boQwI'} database
+      https://code.google.com/p/klingon-assistant/source/browse/KlingonAssistant/data/
+****** TODO Add synonyms/antonyms?
+****** TODO Check that all words in {boQwI'} are also in our database
+***** TODO Add 'def: ST3' for all words occurring in ST3
+      (Since ST3 is pre-TKD ST3 is the defining source for all these words.)
+***** TODO Add 'tag: 1984' for all words occurring in ST3
+***** TODO Add 'ref: ST5' for all words occurring in ST5
+***** TODO Add 'def: HolQeD-08-4-b' for words occurring that article, but not ST5
+      All words source referenced with that {HolQeD} article, that are also in the
+      final move should have 'ref: ST5' or 'def: ST5', the rest of them should
+      have 'def: HolQeD-08-4-b' or 'ref: HolQeD-08-4-b'.
+***** TODO Add 'ref: ST6' for all words occurring in ST6
+***** TODO Add category "transportation"
+      "tag: transportation"
+      airplane, various spaceships, bicycle, transporters etc.
 **** Systematic improvements / new markup
 ***** Swedish translation
 ****** TODO Check Swedish <-> English translation
@@ -3141,20 +3156,6 @@
 ****** TODO Check gender of all Swedish "vara"-verbs
 ****** TODO Check usage of Swedish reflexive pronoun "sig".
        (Should be within parentheses?)
-***** TODO Add 'def: ST3' for all words occurring in ST3
-      (Since ST3 is pre-TKD ST3 is the defining source for all these words.)
-***** TODO Add 'tag: 1984' for all words occurring in ST3
-***** TODO Add 'ref: ST5' for all words occurring in ST5
-***** TODO Add 'def: ST5' for all words in 1999-12-holqed-08-4-b.txt(?)
-      I'm not sure the HQ8:4 ("Notes from Star Trek V: The Final Frontier")
-      article actually reflects Klingon dialogue as it appears in the movie.
-
-      But all words source referenced with that {HolQeD} article, and that is
-      also in the final move should have 'ref: ST5' or 'def: ST5'.
-***** TODO Add 'ref: ST6' for all words occurring in ST6
-***** TODO Add category "transportation"
-      "tag: transportation"
-      airplane, various spaceships, bicycle etc.
 ***** DONE Rename 'cat:' field to 'tag'
       CLOSED: [2012-10-29 Mon 18:35]
       Maybe 'data:' should also be merged into the same?
@@ -3758,15 +3759,20 @@
 *** DONE klingon phrases in {...} in gram: should have ' at beg of word replaced with right-hand quote
     CLOSED: [2012-01-20 Fri 13:01]
     (see example under {Soj})
-** [66%] `bin/check-dict`: Dictionary check tool
+** [67%] `bin/check-dict`: Dictionary check tool
 *** TODO Ignore [...] inside parentheses in 'desc:'
     Square brackets inside parentheses should *not* be checked for sources.
     E.g. {qang} [.2].
 *** TODO Check that [...] occurring in 'cite:' fields are *not* source
     references (except for the last one, which *must* be)
 *** TODO check_brackets()
-*** TODO Start checking page references (p.56) etc. -- (remove source_ref_syntax())
-*** TODO Re-enable checking of 'tag: YEAR'
+*** TODO Check for multiple spaces
+    Checking number of spaces before and after ';' separator in tag:, def: and
+    ref:. Also check that no string contain multiple spaces.
+*** TODO Check source references pages etc. (e.g. "p.56")
+*** TODO Check that earliest mentioned source is in 'def:' field
+    If there are more than one source from the same year, should only one of
+    them be required in def:?
 *** TODO Compare 'def:' + 'ref:' fields between old and new
     Store all 'file:' references for each 'id:' in old dictionary, then do
     the same thing based on 'def:' and 'ref:' in new dictionary. Compare the
@@ -3781,6 +3787,9 @@
     any too long lines, anyway. We don't need to check this twice.
 *** TODO Add check for unknown database sections
 *** TODO Check that 'data: derived form' is parsable from simple parts
+*** DONE Re-enable checking of 'tag: YEAR'
+    CLOSED: [2013-12-13 Fri 16:44]
+    Check is based on date of oldest source reference in def: and ref: fields.
 *** DONE Check other (other than 'com:') fields for nesting of brackets
     CLOSED: [2013-07-21 Sun 13:30]
 *** DONE Should check nesting of brackets in text fields

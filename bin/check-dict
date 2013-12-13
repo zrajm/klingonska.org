@@ -402,11 +402,12 @@ sub get_entries {
 }
 
 {
-    # these source reference words have non-capital letters
+    # these source reference words are not in all capitals
     my %tr = (
-        bop    => "BoP",    email => "Email", hallmark => "Hallmark",
-        holqed => "HolQeD", news  => "News",  praxis   => "Praxis",
-        "qepa" => "qep'a'", sarek  => "Sarek",  web   => "Web",
+        bop    => "BoP",    email  => "Email",  hallmark    => "Hallmark",
+        holqed => "HolQeD", news   => "News",   praxis      => "Praxis",
+        "qepa" => "qep'a'", sarek  => "Sarek",  "ves-qonos" => "veS-QonoS",
+        web    => "Web",
     );
     my $re = qr/${\( join("|", sort keys %tr) )}/;
 
@@ -460,12 +461,8 @@ sub split_sources {
             }
             $i ++;
             my ($abbr, $rest) = /^(\S*)(.*)/;  # 1st word of source + rest
-
-            # FIXME: check source page references etc. here
-
-            # check primary source
-            if (not $file{$abbr}) {
-                push @warn, 'Invalid source "'.$_.'" in';
+            if (not $file{$abbr}) {            # check primary source
+                push @warn, 'Invalid source "' . $_ . '" in';
             }
             # check secondary references (given in parentheses)
             if (my ($secondary) = $rest =~ m# \( (.*) \) #x) {
@@ -473,6 +470,7 @@ sub split_sources {
                     $_ . " '($secondary)' in"
                 } check_source($entry, $field, $secondary);
             }
+            # FIXME: check source page references etc. here
         }
         return @warn;
     }
@@ -893,28 +891,45 @@ sub check_see {
 }
 
 {
-    my %allowed = map {
+    my %allowed_tag = map {
         (my $_ = $_) =~ s/_/ /g;
         $_ => 1;
     } qw(animal architecture body_part clothing color country economics family
          fighting food KLCP1 landscape math measure music placement quantity
          religion shape time);
+    my %year = do {                            # source transcript years
+        my %file = get_source_names();         #   transcript filenames
+        $file{TKD} = "1985";                   #   override TKD year
+        map {                                  #   make list of years
+            $file{$_} =~ /^\d{4}/              #     file prefix: 4 digit year
+                ? ($_ => $&)                   #       (skip files which do
+                : ();                          #       not have year prefix)
+        } keys %file;
+    };
     sub check_tag {
         my ($entry, $field, $_) = @_;
         return "Duplicate" if @{ $entry->{$field} } > 1;
         my (@tag, @warn) = split /;\s/;
 
-        # FIXME -- calculate year of word based on source references
-        # my $file = (sort split /;\s/, $entry->{file}[0])[0];
-        # if (my ($year) = $file =~ /^(\d{4})/) {
-        #     $year = 1985 if $entry->{def}[0] =~ /\bTKD\b/;
-        #     push @warn, "First tag should be year '$year' (not '$tag[0]') in"
-        #         if $year ne $tag[0];
-        # }
+        # FIXME: should references from other fields also be considered?
+        # (e.g. cite:, com: and desc:, maybe more?)
+        my ($year, $src) = do {                # creation year, based on source
+            my $_ = join("; ",                 #   combine 'def:' and 'ref:'
+                $entry->{def}[0],
+                $entry->{ref}[0] // (),
+            );
+            my %year = map {                   #   source years => source
+                exists $year{$_} ? ($year{$_} => $_) : ();       #     year for each word in $_
+            } (/(?:^|[;(])\s*([\w'-]+)/g);     #     after start '(', ';'
+            my $first = (sort keys %year)[0];
+            ($first, $year{$first});           #   oldest year + source
+        };
+        push @warn, "First tag should be '$year' (not '$tag[0]') based on source " .
+            "\"$src\" in" if $year ne $tag[0];
 
         foreach (@tag[1..$#tag]) {
             push @warn, "Unknown tag '$_' in"
-                unless exists $allowed{$_};
+                unless exists $allowed_tag{$_};
         }
         my @sorted = sort { lc($a) cmp lc($b) } @tag;
         push @warn, "Tags must be sorted in" unless @sorted ~~ @tag;
