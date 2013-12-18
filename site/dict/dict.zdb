@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    2a97655252542f93f2d8458559cb241b30fedf10
+SHA1:    566974414c0dd1f50d69f3b8bbfd6077113ff40c
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -1996,6 +1996,7 @@ sv:	«par»
 def:	BoP
 cite:	{tlhIngan chang'engvetlh} ~that klingon couple~ [ST5 Special Edition
 	DVD Extras]
+pun:	Chang and Eng is a famous pair of conjoined twins.
 tag:	1998; math
 id:	4dp
 
@@ -2154,6 +2155,8 @@ pos:	noun
 en:	type of «bird» (noted for its speed)
 sv:	en slags «fågel» (berömd för sin snabbhet)
 def:	HolQeD-10-4 p.4
+pun:	A long-legged bird that can run fast. The pun "beep-beep" suggests this
+	more like a roadrunner, than an ostrich.
 tag:	2001; animal
 id:	9Y4
 
@@ -2399,8 +2402,8 @@ tlh:	{cheng}
 pos:	name
 en:	«Chang»
 sv:	«Chang»
-def:	KGT p.52
-tag:	1997
+def:	ST6; KGT p.52
+tag:	1991
 id:	2SE
 
 tlh:	{chep}
@@ -2492,6 +2495,11 @@ pos:	noun
 en:	<battlefield>
 sv:	«slagfält»
 def:	KGT
+pun:	The planet Cheron was the home of the half-white/half-black aliens in
+	TOS "Let This Be Your Last Battlefield." (The Battle of Cheron was a
+	pivotal battle that took place in 2160, the outcome of which
+	effectively ended the Earth--Romulan War, with the "humiliating defeat"
+	of the Romulans. [ENT "In a Mirror, Darkly, Pt. II"].)
 tag:	1997
 id:	jdb
 
@@ -3016,6 +3024,7 @@ def:	HolQeD-12-4 p.8
 ref:	TDNW
 cite:	If one were to {chuy} ~sneeze,~ one would likely eject {'IqnaH} ~mucus~
 	(or sometimes {'IqnaH QaD} ~dry mucus~). [HolQeD-12-4 p.8]
+pun:	"achoo!" (interjection for the sound of sneezing)
 see:	{'IqnaH}
 tag:	2003
 id:	SDu
@@ -3185,7 +3194,7 @@ en:	be <boring>
 sv:	vara «tråkig»
 def:	TKD
 ref:	TKW p.201
-pun:	Prononced similar to English "dull".
+pun:	Prononced similar to English ~dull~.
 tag:	1985; KLCP1
 id:	9Hf
 
@@ -4720,6 +4729,7 @@ pos:	noun
 en:	<midnight snack>
 sv:	«nattmat»
 def:	TKD
+pun:	Is {megh} ~lunch~ backwards!
 tag:	1985; food
 id:	sgZ
 
@@ -6490,6 +6500,10 @@ pos:	noun
 en:	«second «toe»»
 sv:	«andra«tå»»
 def:	HolQeD-10-2 p.7
+pun:	{marwI'} big (first) toe: this little piggy went to MARket / {HomwI'}
+	second toe: this little piggy stayed HOME / {roSwI'} third toe: this
+	little piggy had ROAST beef / {nanwI'} fourth toe: this little piggy
+	had NONE / {Qay'wI'} little (fifth) toe: this little piggy CRIED
 tag:	2001; body part
 id:	dGP
 
@@ -9308,6 +9322,8 @@ pos:	verb
 en:	<wait> (for)
 sv:	«vänta» (på)
 def:	TKD
+pun:	"wait fo(u)r"? (Doneq); {wej} ~three~ means ~not yet~ (= "wait" as an
+	adverb/exclamation) {loS} ~four~ means ~wait~ as a verb. /zrajm
 tag:	1985; KLCP1
 id:	EQ5
 
@@ -9865,6 +9881,10 @@ pos:	noun
 en:	«big «toe»», «first toe»
 sv:	«stor«tå»», «förstatå»
 def:	HolQeD-10-2 p.7
+pun:	{marwI'} big (first) toe: this little piggy went to MARket / {HomwI'}
+	second toe: this little piggy stayed HOME / {roSwI'} third toe: this
+	little piggy had ROAST beef / {nanwI'} fourth toe: this little piggy
+	had NONE / {Qay'wI'} little (fifth) toe: this little piggy CRIED
 tag:	2001; body part
 id:	xkg
 
@@ -10033,6 +10053,9 @@ pos:	noun
 en:	<accordion>, <concertina>
 sv:	«dragspel», «bälg»
 def:	KGT
+pun:	Myron Floren (November 5, 1919--July 23, 2005) was an American musician
+	best known as the accordionist on The Lawrence Welk Show. "Myron" is
+	also the brand name of line of accordions, no doubt licensed by Floren.
 tag:	1997
 id:	Eh7
 
@@ -11490,6 +11513,10 @@ pos:	noun
 en:	«fourth «toe»»
 sv:	«fjärde«tå»»
 def:	HolQeD-10-2 p.7
+pun:	{marwI'} big (first) toe: this little piggy went to MARket / {HomwI'}
+	second toe: this little piggy stayed HOME / {roSwI'} third toe: this
+	little piggy had ROAST beef / {nanwI'} fourth toe: this little piggy
+	had NONE / {Qay'wI'} little (fifth) toe: this little piggy CRIED
 tag:	2001; body part
 id:	N4n
 
@@ -14119,6 +14146,7 @@ pos:	noun
 en:	territorial «wall» (e.g. Berlin Wall)
 sv:	territorial«mur» (t.ex. Berlinmuren)
 def:	1998-12-07-News
+pun:	A reference to Pink Floyd's album "The Wall".
 tag:	1998; architecture
 data:	phrase
 id:	KVy
@@ -14280,6 +14308,7 @@ pos:	verb
 en:	be <fat>
 sv:	vara «fet»
 def:	TKD
+see:	{run} ~be short~, {ror} ~be fat~ (synonym)
 tag:	1985; food; KLCP1; shape
 id:	B3r
 meta:	FIXME -- Is there a difference in meaning between {pI'} and {ror}?
@@ -15268,6 +15297,7 @@ cite:	{HoSHal ghajchugh vay', mI' naghmey tIronmoH. wa'maHlogh boq'egh mI'
 cite:	{pIraqSIS HoS waw' ghajlu'chugh, loSlogh boq'egh mI' naghmey mI'; chen
 	qav'ap.} ~If Praxis Energy Facility is owned, rent is 4 times amount
 	shown on dice.~ [MKE]
+pun:	"cough (it) up"
 tag:	2011; economics
 id:	TxY
 
@@ -16100,6 +16130,28 @@ def:	TKD 5.6/p.58
 tag:	1985
 id:	UcL
 
+tlh:	{qorgh}
+pos:	verb
+en:	«stop up», «fill» a hole
+sv:	«täppa» igen, «täta», «täcka» över (ett hål)
+def:	2013-11-12-Email
+cite:	MO: It does now. {qorgh} is ~to stop up, to fill a hole~. You can stop
+	up a hole, but not fill it in with dirt. That would be {teb}. {qorgh}
+	is to stop up an opening somehow. It's like filling in, and not put
+	stuff inside. So the word for the cork is a {qorghwI'.}
+	[2013-11-12-Email]
+tag:	2013
+id:	JuE
+
+tlh:	{qorghwI'}
+pos:	noun
+en:	«cork»
+sv:	«kork»
+def:	2013-11-12-Email
+tag:	2013
+data:	derived form
+id:	5G3
+
 tlh:	{qoS}
 pos:	noun
 en:	<birthday>
@@ -16345,6 +16397,8 @@ cite:	{qung}, the word for ~hole in a musical instrument,~ can't be used for
 	in a shirt (including buttonholes, moth holes, accidental rips, etc.)
 	or a hole in the roof. You can fill ({teb}) a {QemjIq}, but not a
 	{qung}. [2012-01-26-Email]
+pun:	Mandarin Chinese: "Pinyin *kong* ('hole') is pronounced with the same
+	[u] sound as Klingon {qung}" (André Müller, 12/21/2012)
 tag:	2001; music
 id:	EuN
 
@@ -16870,6 +16924,10 @@ pos:	noun
 en:	«little «toe»», «fifth toe»
 sv:	«lill«tå»», «femtetå»
 def:	HolQeD-10-2 p.7
+pun:	{marwI'} big (first) toe: this little piggy went to MARket / {HomwI'}
+	second toe: this little piggy stayed HOME / {roSwI'} third toe: this
+	little piggy had ROAST beef / {nanwI'} fourth toe: this little piggy
+	had NONE / {Qay'wI'} little (fifth) toe: this little piggy CRIED
 tag:	2001; body part
 id:	uKs
 
@@ -18625,6 +18683,7 @@ pos:	verb
 en:	be <fat>
 sv:	vara «fet»
 def:	TKD
+see:	{pI'} ~be fat~ (synonym)
 tag:	1985; food; KLCP1
 id:	AAF
 meta:	FIXME -- Is there a difference in meaning between {pI'} and {ror}?
@@ -18660,6 +18719,10 @@ pos:	noun
 en:	«third «toe»»
 sv:	«tredje«tå»»
 def:	HolQeD-10-2 p.7
+pun:	{marwI'} big (first) toe: this little piggy went to MARket / {HomwI'}
+	second toe: this little piggy stayed HOME / {roSwI'} third toe: this
+	little piggy had ROAST beef / {nanwI'} fourth toe: this little piggy
+	had NONE / {Qay'wI'} little (fifth) toe: this little piggy CRIED
 tag:	2001; body part
 id:	3LX
 
@@ -18731,6 +18794,7 @@ pos:	verb
 en:	be <short> (in stature)
 sv:	vara «kort» (kroppslängd)
 def:	KGT
+see:	{pI'}
 tag:	1997; measure; shape
 id:	eFy
 
@@ -18739,6 +18803,9 @@ pos:	noun
 en:	<teapot>
 sv:	«tékanna»
 def:	KGT
+pun:	From {run} ~be short~ plus {pI'} ~be fat~, as inspired by the nursery
+	rhyme "I'm a little teapot, short and stout."
+see:	{pI'} ~be fat~, {run} ~be short~
 tag:	1997
 id:	KJY
 
@@ -19156,6 +19223,10 @@ pos:	noun
 en:	barbed <spearhead>
 sv:	«spjutspets» med hullingar
 def:	KGT
+cite:	A spearhead that is barbed is a {SeDveq}, a word with unknown
+	etymological origins and otherwise unused. [KGT p.64]
+pun:	It seems likely that this would be a pun, though noone seem to have
+	been able to come up with what it would be.
 tag:	1997; fighting
 id:	Kjp
 
@@ -19787,6 +19858,7 @@ en:	«core»
 sv:	¿?«enhet», «kärna»
 def:	BoP
 cite:	{De'wI' SoSbor'a'} ~Main Computer Core~ [BoP]
+pun:	"motherboard"
 tag:	1998
 id:	dRg
 
@@ -21679,6 +21751,7 @@ cite:	If what one spits out is basically liquid, such as a mixture of saliva
 	and mucus, {tuy'} would be used; for spitting out a mixture of saliva
 	and something that is basically solid, {tlhIS} would be more
 	appropriate. [HolQeD-12-4 p.9]
+pun:	"ptui!" (interjection for the sound of spitting)
 see:	{tlhepQe'} ~saliva~ (n); {bol} ~drool~ (v); {tlhIS} ~spit out~ (v)
 tag:	2003; food
 id:	Drv
@@ -21955,6 +22028,7 @@ en:	«saliva»
 sv:	«saliv», «spott»
 def:	HolQeD-12-4 p.8
 ref:	TDNW
+pun:	"expectorate" (i.e. *{'eQpetlh}) backwards?
 see:	{tIl} ~salivate~ (v); {bol} ~drool~ (v); {tuy'} ~spit~ (v)
 tag:	2003
 id:	zn1
@@ -24259,6 +24333,9 @@ pos:	verb
 en:	<burst into song>
 sv:	«brista ut i sång»
 def:	KGT
+cite:	It is never inappropriate to burst into song (there is a special verb
+	for this: {wup}) and sing a {may' bom}. [KGT p.77]
+pun:	"whoop"
 tag:	1997; music
 id:	noG
 
@@ -25932,6 +26009,7 @@ def:	HolQeD-12-4 p.8
 ref:	TDNW
 cite:	If one were to {chuy} ~sneeze,~ one would likely eject {'IqnaH} ~mucus~
 	(or sometimes {'IqnaH QaD} ~dry mucus~). [HolQeD-12-4 p.8]
+pun:	"hanky" backwards.
 see:	{chuy}
 tag:	2003
 id:	Jrh

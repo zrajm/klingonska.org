@@ -225,11 +225,22 @@
 ** [11%] Systematic/site-wide changes
    I.e. changes that need to be applied to the web page as a whole.
 *** [0%] Social network interactivity
+**** TODO Same button design as The New Zealand Herald?
+     http://www.nzherald.co.nz/business/news/article.cfm?c_id=3&objectid=11142421
+     These are cool, not least cause the CSS look very fine, even without
+     Javascript.
+
+     Could these buttons be implemented as CGI (using "target=_top")? Maybe
+     even the like digits could be small static web pages included by means of
+     iframes?
+**** TODO Add Google+ 1+ button
+**** TODO Add Twitter button
 **** TODO Add Flattr button
      Are there any security issues with the Flattr button?
 **** TODO Add Facebook like button
      Is it possible to have a like button that does not allow facebook to track
      your visits?
+**** TODO Bitcoin donation button
 *** [33%] Site redesign
 **** TODO Add Open Graph tags for link previews (for Facebook etc.)
      More docs on the Open Graph protocol:
@@ -2746,7 +2757,98 @@
       field. -- These words should be included in the Klingon--English version
       of the dictionary, but with a leading asterisk, and a warning they're not
       supposed to be used. Maybe add a 'warn' field, explaining why?
-**** [34%] Add words
+**** [30%] Add words
+***** TODO {Qumran} ~scroll~
+          The students at qepHom 2013 wrote a letter to Marc Okrand on a 7 foot
+          long piece of paper adding short messages and funny drawings,
+          whatever came to their mind. Okrand answered, "Maltz and I really
+          liked the scroll. (He told me the word for scroll was {Qumran}, by
+          the way.) Thanks to everyone who wrote messages or drew pictures. We
+          really appreciate all of the nice thoughts." (Okrand's email to
+          Lieven, 6/03/2013)
+
+      After the inevitable questions, Okrand wrote Lieven again (6/08/2013):
+
+          Maltz was so pleased with the scroll/long letter that you sent, he
+          volunteered the word {Qumran} and I didn't think to ask him how a
+          {Qumran} differed from a {tetlh}. But I've asked him now. While
+          {tetlh} can refer to a scroll, it can also refer to any- thing rolled
+          up scroll-like (like toilet paper). The meaning of {tetlh}, over
+          time, got extended to refer not only to the scroll/roll, but the
+          contents of what may be written on a scroll and from there to refer
+          to the sort of thing that may be traditionally written on a scroll,
+          such as a "list" of things. So, even if not written on a scroll, a
+          shopping list could be a {tetlh}. So could a ship's manifest. A
+          {Qumran}, on the other hand, is only a scroll. And it has
+          connotations of something important or sacred or ancient, though a
+          {Qumran} need not be all three of those things. When a scroll is a
+          part of a cere- mony of some kind, it's typically referred to as a
+          {Qumran}, not a {tetlh}, even though it is a {tetlh}, so if you
+          called it that, you wouldn't be wrong, but it might sound
+          inappropriate. ... In short - any {Qumran} is a {tetlh}, but every
+          {tetlh} is not a {Qumran}.
+
+          PUN: "The Dead Sea scrolls from Qumran!"
+***** TODO {renwI'} designer, architect (n)
+      PUN: "Christopher Wren built St. Pauls' Cathedral in London. Next, one
+      branch of the Smithsonian Institute (where Marc Okrand used to teach, or
+      still does) in Washington D.C. is called the "Renwick Gallery", design by
+      the architect James Renwick. Marc Okrand said to me at qepHom X: 'These
+      are even two reasons for the word to be {renwI'}'." (Lieven, 1/26/2012)
+***** TODO {qurbuSwI'} architect (Morskan dialect) (n)
+***** TODO {petqaD} Haynes BoP Manual
+      >> Klingon word: petqaD
+      >> Part of speech: noun
+      >> Definition: a medical device for mending bones
+      >> Source: Haynes Klingon Bird of Prey manual, p. 107, November 2012
+      >
+      >   "The surgeon typically injects a combined stimulant and pain
+      >    killer, before using a {petqaD} to bond broken bones in place
+      >    and a dermal regenerator to suture any wounds. Typical turn-
+      >    around times allow an injured crewman to return to his post
+      >    within seven minutes." (p. 107)
+
+      Pun: http://en.wikipedia.org/wiki/Duct_tape
+
+      ----------------------------------------------------------------------
+      KGT 151: ... doctors spend a great deal of their time tending to
+      critically wounded patients and relatively little time performing routine
+      examinations or practicing preventive medicine.
+
+      Despite the considerable sophistication of Klingon technology,
+      significant gaps exist in Klingon medical science, in part due to
+      cultural biases that seriously injured warriors should be left to die or
+      to carry out the *Hegh'bat* rather than live in shame and humiliation.
+      (TNG "Ethics")
+
+      Sometimes called a "bone-knitter" in the Federation;  cf.
+         http://en.memory-alpha.org/wiki/Bone-knitting_laser
+         http://en.memory-alpha.org/wiki/Bone_regenerator
+
+      Some related words:
+
+      Hom                     bone (n)
+      melchoQ                 bone marrow (n)
+
+      'uD Haqtaj      laser scalpel (n)
+      Sev                     bandage (n)
+
+      rIQ                     be injured (v)
+      rIQmoH                  injure (v)
+      QID                     wound (v)
+      QIH                     damage, cause damage (v)
+      ghor            break (v)
+
+      vor                     cure (v)
+      tI'                     fix, repair (v)
+
+      Some more medical Treknology for those keeping track:
+
+      'uD Haqtaj      laser scalpel (n)
+      tuj muvwI'      thermo-suture (n)
+      Hergh QaywI'    pneumatic hypo (n)
+
+      /Voragh
 ***** TODO Words from Star Trek: Communicator #104
       These are some words. There are more.
 
