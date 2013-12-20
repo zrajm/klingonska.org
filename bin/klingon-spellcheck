@@ -1,0 +1,243 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use lib do {
+    use Cwd "realpath";
+    my $path = (__FILE__ =~ m#^(.*)/#) ? $1 : ".";
+    realpath("$path/../perl");
+};
+use KA::Klingon;
+use KA::Help;
+use vars qw($NAME $VERSION $YEAR);
+$VERSION = "0.2a";
+$YEAR    = "2010-2013";
+$NAME    = "klingon-spellcheck";
+
+my %cfg = (
+    verbose => '',
+    # things for regexes
+    re_alph => "'0-9A-Za-z".                       # alphabetical characters
+        "ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞß".         #   (note that apostrophe
+        "àáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ",         #   is included)
+);
+
+###############################################################################
+##                                                                           ##
+##  Functions                                                                ##
+##                                                                           ##
+###############################################################################
+
+sub help {
+    KA::Help::usage(<<EOF);
+Applies any occuring Klingonska Akademien correction comments found in the
+input, then check all text in curly brackets to see if it is valid Klingon or
+not.
+EOF
+}
+
+sub verb {
+    return("") unless $cfg{verbose};
+    print @_ if @_;
+    return(1);
+}
+
+# resolve hypenation and remove comments
+sub apply_corrections {
+    my (@text) = @_;
+    foreach (wantarray ? @text : $text[0]) {
+	s/(?<=[$cfg{re_alph}])- *\Q[[keep hyphen]]\E\n/-/g; # keep hyphen
+	s/(?<=[$cfg{re_alph}])-\n//g;          # remove hypenation
+	s/(?<=--)\n//g;                        # keep en-dashes
+        # remove comments & perform corrections
+        while (s{ \s* \[\[
+                  (?:
+                      ([^]]*) := ([^]]*)      # corrections
+                  |
+                      [^]]*                   # other comments
+                  )
+               \]\] $}{}x) {
+            next unless defined($1);
+            my ($a, $b) = ($1, $2);
+            $a =~ s/([().])/\\$1/g;
+            for ($a, $b) { s/[\\]n/\n/g }
+            s{$a}{$b}g;
+        }
+    }
+    return wantarray ? @text : $text[0];
+}
+
+###############################################################################
+##                                                                           ##
+##  Initialization                                                           ##
+##                                                                           ##
+###############################################################################
+
+use Getopt::Long qw(
+    :config posix_default bundling gnu_compat no_ignore_case permute
+);
+GetOptions(                             # info displayed by help()
+    'help|h'     => \&help,             ### display this help and exit
+    'manpage|M'  => \&KA::Help::manpage,### display program manpage and exit
+    'version|V'  => \&KA::Help::version,### output version information and exit
+    'verbose|v'  => \$cfg{verbose},     ### output info about correct words too
+) or exit 255;
+
+die "$NAME: Missing input: Nothing on standard input, and no file specified\n" .
+    "Use '$NAME --help' for more information.\n"
+    if -t STDIN and @ARGV == 0;
+
+###############################################################################
+##                                                                           ##
+##  Main                                                                     ##
+##                                                                           ##
+###############################################################################
+
+my %klingon_string = ();
+{
+    my $text = "";
+    while (<>) {
+        $_ = apply_corrections($_);
+        chomp($_);
+
+        s/^\s*/ /;
+        $text .= $_;
+        while ($text =~ s/ ^ .*? \{ ([^}]*) \} //xs) {
+            push @{$klingon_string{$1}}, "$ARGV:$.";
+        }
+        close(ARGV) if eof;
+    }
+}
+
+# sort by source reference
+sub by_source {
+    # get FILENAME:LINENUMBER strings
+    my ($a, $b) = (${$klingon_string{$a}}[0], ${$klingon_string{$b}}[0]);
+    # extract filename & line number
+    my ($file1, $line1, $file2, $line2) = map {
+        defined($_) ? /^(.*):(\d+)$/ : ("", 0);
+    } ($a, $b);
+    return ($file1 cmp $file2) || ($line1 <=> $line2);
+}
+
+foreach my $phrase (sort by_source keys %klingon_string) {
+    my $bad = 0;
+    my $out = "";
+    my @word = KA::Klingon::phrase_split($phrase);
+  WORD: foreach (@word) {
+        # single character
+        if (m/^(?:[abDeHIjlmnopqQrStuvwy']|ch|gh|ng|tlh)$/) {
+            $out .= "    (c)\t$_\n";
+            next WORD;
+        }
+        # lone suffix
+        if (s/^-//) {
+            my @syllable = KA::Klingon::syllable_split($_);
+            if (@syllable == 1) {
+                $out .= "    (s)\t-$_\n";
+                next WORD;
+            }
+        }
+        # lone prefix
+        if (s/-$//) {
+            my @syllable = KA::Klingon::syllable_split($_);
+            if (@syllable == 1) {
+                $out .= "    (p)\t$_-\n";
+                next WORD;
+            }
+        }
+        # multi-syllable, Klingon word
+        my @syllable = KA::Klingon::syllable_split($_);
+        if (@syllable) {
+            $out .= "    (" . @syllable . ")\t" .
+                join("-", @syllable) . "\n";
+            next WORD;
+        }
+        # ERROR: unrecognized word
+        $out .= "    ---\t$_\n";
+        $bad = 1;
+    }
+    # output
+    if ($bad or $cfg{verbose}) {
+        print(
+            ($bad ? "ERROR: " : "") . "{$phrase}\n",
+            $out,
+            map("    $_\n", sort by_source @{$klingon_string{$phrase}}),
+            "\n",
+        );
+    }
+}
+
+__END__
+
+
+=head1 NAME
+
+klingon-spellcheck - check spelling of Klingon in KA transcripts
+
+
+=head1 SYNOPSIS
+
+B<klingon-spellcheck> [I<OPTION>]... [I<FILE>]
+
+
+=head1 DESCRIPTION
+
+This is a simple (and simplistic) tool to check spelling of Klingon sentences
+inside larger texts.
+
+The program will ignore all text fed to it except text in curly brackets {...},
+which will be checked for syllables that do not conform to Klingon syllable
+structure.
+
+The program applies any Klingonska Akademien correction comment
+B<[[I<...>:=I<...>]]> found in the input file before doing spellchecking.
+
+
+=head1 OPTIONS
+
+=over 8
+
+=item B<-h>, B<--help>
+
+Output brief command line help on standard output, then exit.
+
+
+=item B<-M>, B<--manpage>
+
+Display program manpage and exit. This option extracts the Perl POD (Plain Old
+Documentation) documentation from the program and displays it using man(1).
+
+
+=item B<-v>, B<--verbose>
+
+Output information about each processed Klingon word, not just the misspelled
+ones.
+
+
+=item B<-V>, B<--version>
+
+Output version information on standard output, then exit.
+
+=back
+
+
+=head1 AUTHOR
+
+Written by zrajm <zrajm@klingonska.org>, 2010-2013.
+
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright 2010-2013 zrajm <zrajm@klingonska.org>.
+
+Distributed under Creative Commons Attribution-ShareAlike 3.0 Unported (CC
+BY-SA 3.0) http://creativecommons.org/licenses/by-sa/3.0/
+
+This means that you may copy, sell and change the program in any way you like,
+as long as you still attribute it to this author, and release your modified
+version under the same license.
+
+=cut
+
+#[eof]

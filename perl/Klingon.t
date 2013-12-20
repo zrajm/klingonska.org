@@ -4,6 +4,10 @@ use strict;
 use warnings;
 use utf8;
 use open ':locale';
+use lib do {
+    use Cwd 'realpath';
+    realpath($0) =~ m#^(.*)/#;
+};
 
 use Test::More;# tests => 4;
 

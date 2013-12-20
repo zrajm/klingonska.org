@@ -5,9 +5,15 @@ use 5.10.0;
 use utf8;
 use open ':locale';
 use lib do {
-    use Cwd 'realpath';
-    realpath($0) =~ m#^(.*)/#;
+    use Cwd "realpath";
+    my $path = (__FILE__ =~ m#^(.*)/#) ? $1 : ".";
+    realpath("$path/../perl");
 };
+use KA::Help;
+use vars qw($NAME $VERSION $YEAR);
+$VERSION = "0.1a";
+$YEAR    = "2012-2013";
+$NAME    = "dict2paqhom-html";
 
 use Data::Dumper;
 $Data::Dumper::Sortkeys = 1;
@@ -82,20 +88,16 @@ use Klingon qw/split_letter/;
 
 }
 
+###############################################################################
+##                                                                           ##
+##  Functions                                                                ##
+##                                                                           ##
+###############################################################################
 
-my $zdb = new zdb({ file  => 'dict.zdb' })->load;
-my %pos = (
-    adverbial   => "adv",
-    conjunction => "conj",
-    exclamation => "excl",
-    name        => "name",
-    noun        => "n",
-    numeral     => "num",
-    pronoun     => "pro",
-    "question word" => "ques",
-    verb        => "v",
-);
-
+sub help {
+    KA::Help::usage(<<EOF);
+EOF
+}
 
 sub header {
     return <<EOF;
@@ -225,6 +227,50 @@ sub attr {
     } sort keys %hash;
 }
 
+###############################################################################
+##                                                                           ##
+##  Initialization                                                           ##
+##                                                                           ##
+###############################################################################
+
+use Getopt::Long qw(
+    :config posix_default bundling gnu_compat no_ignore_case permute
+);
+GetOptions(                             # info displayed by help()
+    'help|h'     => \&help,             ### display this help and exit
+    'manpage|M'  => \&KA::Help::manpage,### display program manpage and exit
+    'version|V'  => \&KA::Help::version,### output version information and exit
+) or exit 255;
+
+die "$NAME: Missing input: Nothing on standard input, and no file specified\n" .
+    "Use '$NAME --help' for more information.\n"
+    if -t STDIN and @ARGV == 0;
+
+###############################################################################
+##                                                                           ##
+##  Main                                                                     ##
+##                                                                           ##
+###############################################################################
+
+my ($file) = @ARGV
+    or die do {
+        my ($bin) = __FILE__ =~ m#([^/]*)$#;
+        "$bin: No dictionary file specified\n";
+    };
+
+my $zdb = new zdb({ file  => $file })->load;
+my %pos = (
+    adverbial   => "adv",
+    conjunction => "conj",
+    exclamation => "excl",
+    name        => "name",
+    noun        => "n",
+    numeral     => "num",
+    pronoun     => "pro",
+    "question word" => "ques",
+    verb        => "v",
+);
+
 print header();
 my $previous_pos    = "";
 my $previous_word   = "";
@@ -325,5 +371,55 @@ while (defined(my $entry = $zdb->entry)) {
 say '  </p>';
 print footer();
 warn "Done.\n";
+
+__END__
+
+=head1 NAME
+
+dict2paqhom-html - convert ZDB file to HTML page
+
+
+=head1 SYNOPSIS
+
+B<dict2paqhom-html> [I<OPTION>]... [I<FILE>]
+
+
+=head1 DESCRIPTION
+
+This script converts a ZDB file into a HTML file with a layout similar
+Klingon--English side of the pocket dictionary.
+
+It is written to try out different ideas of dictionary layout, and attempting
+to find something suitable for a future version of the paper dictionary.
+
+
+=head1 AUTHOR
+
+Written by zrajm <zrajm@klingonska.org>, 2012-2013.
+
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright 2012-2013 zrajm <zrajm@klingonska.org>.
+
+Distributed under Creative Commons Attribution-ShareAlike 3.0 Unported (CC
+BY-SA 3.0) http://creativecommons.org/licenses/by-sa/3.0/
+
+This means that you may copy, sell and change the program in any way you like,
+as long as you still attribute it to this author, and release your modified
+version under the same license.
+
+
+=head1 SEE ALSO
+
+Take a look at the database file itself for a description of its format
+http://klingonska.org/dict/dict.zdb.
+
+For a web interface to the dictionary, see Klingonska Akademien's I<Online
+Klingon Pocket Dictionary> (at http://klingonska.org/dict/), and for other
+stuff about the Klingon language, see Klingonska Akademien's web site in
+general http://klingonska.org/.
+
+=cut
 
 #[eof]

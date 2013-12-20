@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use 5.10.0;
 use utf8;
-use Cwd 'realpath';
+use Cwd "realpath";
 use open qw(:std :utf8);
 #binmode(STDIN,  ":encoding(utf8)");
 #binmode(STDOUT, ":encoding(utf8)");
@@ -214,7 +214,7 @@ sub help {
     use strict;
     use warnings;
     use Carp;
-    use Cwd 'realpath';
+    use Cwd "realpath";
 
     sub new {
         my ($class, @arg) = @_;

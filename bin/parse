@@ -1,8 +1,12 @@
-#!/usr/bin/perl -w
-
-use 5.10.0;
+#!/usr/bin/perl
 use strict;
 use warnings;
+use 5.10.0;
+use lib do {
+    use Cwd "realpath";
+    my $path = (__FILE__ =~ m#^(.*)/#) ? $1 : ".";
+    realpath("$path/../perl");
+};
 
 # TODO
 #   o LaTeX output for actual dictionary suffix guide.
@@ -11,11 +15,6 @@ use warnings;
 #   o Implement full markdown.
 #   o Implement nested structures. (e.g. *emphasised *doubly emphasised**)
 #
-use lib do {
-    use Cwd "realpath";   # resolves symlinks
-    realpath($0) =~ m#^(.*)/[^/]*/#;
-    "$1/perl";
-};
 
 my $WIDTH = 79;  # number of columns to use in word wrap
 

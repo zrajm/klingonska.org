@@ -1,15 +1,20 @@
 #!/usr/bin/perl
-
 use strict;
 use warnings;
 use 5.10.0;
 use utf8;
-use open ':locale';
-
+use open ":locale";
+use lib do {
+    use Cwd "realpath";
+    my $path = (__FILE__ =~ m#^(.*)/#) ? $1 : ".";
+    realpath("$path/../perl");
+};
+use KA::Help;
 use vars qw($NAME $VERSION $YEAR);
 $VERSION = "0.1b";
-$YEAR    = "2012";
-$NAME    = "Sassy";
+$YEAR    = "2012-2013";
+$NAME    = "sassy";
+
 my %opt  = ();
 
 ###############################################################################
@@ -17,6 +22,19 @@ my %opt  = ();
 ##  Functions                                                                ##
 ##                                                                           ##
 ###############################################################################
+
+sub help {
+    KA::Help::usage(<<EOF);
+Input is read from given FILE(s) or standard input, output is written to
+standard output. Exits with exit status > 0 if there were any problems (in
+which the output is most probably incomplete).
+
+This implements a scaled down version of the 'Sassy CSS' format, as described
+here. http://sass-lang.com/.
+
+Currently only nesting is supported.
+EOF
+}
 
 sub lines { scalar(map "", $_[0] =~ /\n/g) }     # number of lines in string
 sub trim  { map { m#^\s*(.*?)\s*$#s; $1 } @_ }   # trim leading/trailing space
@@ -27,55 +45,6 @@ sub read_file {
     open(my $in, $file)
         or die "$0: Failed to open file '$file' for reading: $!\n";
     return wantarray ? <$in> : join("", <$in>);
-}
-
-sub version {
-    print "$NAME $VERSION\n",
-        "Copyright (C) $YEAR zrajm\n",
-        "License CC BY-SA: Creative Commons Attribution-Share Alike\n",
-        "<http://creativecommons.org/licenses/by-sa/3.0/>.\n\n",
-        "Written by zrajm <zrajm\@klingonska.org>.\n";
-}
-
-sub help {
-    use Cwd 'realpath';
-    my $_ = read_file(realpath($0));
-    my ($desc) = /^=head1\s+NAME\s+\w+\s+-\s+(.*)/m;
-    # FIXME extract usage from POD
-    print "Usage: $0 [OPTION]... [FILE]...\n",
-        ucfirst($desc) . ".\n\n",
-        "Options:\n";
-    # list --options (from comments) -- sort by longopt name
-    {
-        my %doc = ();
-        while (/^ \s*
-                (?: (['"])                  # start quote
-                    ([^\n'"=|]*?)           #   long-opt
-                    (?:\|([^\n'"=]*?))?     #   |o
-                    (?:\+|=  [^\n'"=]*)?    #   =s
-                    \1, \s*                 # end quote
-                )? \#\#\# \s+ (.*) $/xmg) { # ### description
-            my $long  = $2 ? "--$2"  : "";
-            my $short = $3 ?  "-$3," : "";
-            my $desc  = $4;
-            $doc{$long} = [ $short, $desc ];
-        }
-        my $length = max(map { length($_) } keys %doc);
-        printf "  %-3s %-${length}s  %s\n", $doc{$_}[0], $_, $doc{$_}[1]
-            foreach sort keys %doc;
-        # FIXME extract the below info from POD as well
-        print <<EOF;
-
-Input is read from given FILE(s) or standard input, output is written to
-standard output. Exits with exit status > 0 if there were any problems (in
-which the output is most probably incomplete).
-
-This implements a scaled down version of the 'Sassy CSS' format, as described
-here. http://sass-lang.com/.
-
-Currently only nesting is supported.
-EOF
-    }
 }
 
 sub test {
@@ -132,13 +101,15 @@ GetOptions(              # info displayed by help()
     \%opt,               # ========================
     'debug|D+',          ### display debug output on STDERR
     'help|h',            ### display this help and exit
+    'manpage|M',         ### display program manpage and exit
     'test',              ### run test suite
     'verbose|v+',        ### explain what is being done
     'version|V',         ### output version information and exit
 ) or exit 2;
 
-$opt{help}    and help(),    exit;
-$opt{version} and version(), exit;
+$opt{help}    and help();
+$opt{manpage} and KA::Help::manpage();
+$opt{version} and KA::Help::version();
 $opt{test}    and test(),    exit;
 
 push(@ARGV, "-") unless @ARGV;
@@ -391,8 +362,8 @@ Written by zrajm <zrajm@klingonska.org>.
 
 =head1 COPYRIGHT
 
-Copyright (C) 2012 zrajm. License CC BY-SA: Creative Commons Attribution-Share
-Alike <http://creativecommons.org/licenses/by-sa/3.0/>.
+Copyright (C) 2012-2013 zrajm. License CC BY-SA: Creative Commons
+Attribution-Share Alike <http://creativecommons.org/licenses/by-sa/3.0/>.
 
 You are allowed to freely copy and modify this program, as long as you release
 it under the same license, and give the original author(s) credit for their

@@ -5,6 +5,16 @@ use encoding::warnings 'FATAL';
 use 5.10.0;
 use utf8;
 use open ':locale';
+use lib do {
+    use Cwd "realpath";
+    my $path = (__FILE__ =~ m#^(.*)/#) ? $1 : ".";
+    realpath("$path/../perl");
+};
+use KA::Help;
+use vars qw($NAME $VERSION $YEAR);
+$VERSION = "0.2a";
+$YEAR    = "2011-2013";
+$NAME    = "check-dict";
 
 # FIXME
 #   o invoke 'check-dict --checksum' on git commit
@@ -17,16 +27,11 @@ use open ':locale';
 ##                                                                           ##
 ###############################################################################
 
-use vars qw($NAME $VERSION $YEAR);
-$VERSION = "0.2a";
-$YEAR    = "2012";
-$NAME    = "check-dict";
-
 sub TRUE  {  1 }
 sub FALSE { "" }
 
 my %opt = (
-    verbose => 0, #-t STDOUT ? 0 : 1,
+    verbose => 0,
 );
 my %cfg = (
     canon_path     => "../site/canon", # relative to executable's path
@@ -55,13 +60,12 @@ my %cfg = (
 
 # absolutify path to canon files
 $cfg{canon_path} = do {
-    use Cwd 'realpath';             # scripts absolute name
+    use Cwd "realpath";
     my $script = realpath($0);
     use File::Spec 'splitpath';     # dir part of scripts name
     my ($volume, $scriptdir) = File::Spec->splitpath($script);
     realpath($scriptdir . "/" . $cfg{canon_path});
 };
-
 
 ###############################################################################
 ##                                                                           ##
@@ -69,83 +73,12 @@ $cfg{canon_path} = do {
 ##                                                                           ##
 ###############################################################################
 
-sub read_file {
-    my ($file) = @_;
-    open(my $in, "<:utf8", $file)
-        or die "Failed to open file '$file' for reading\n";
-    return wantarray ? <$in> : join("", <$in>);
-}
-
-# Convert POD into ANSI escape sequences for the terminal. Does not do
-# recursion. (But since E<...> is handled first, those are allowed inside both
-# B<...> and I<...>, and since C<...> is treated last, all other POD sequences
-# are allowed inside those.)
-sub pod2ansi {
-    my ($_) = @_;
-    return undef unless defined($_);
-    my %char = (quot => '"', amp => '&', lt => '<', gt => '>');
-    s#E<([^>]*)>#$char{lc $1}#g;     # HTML-like entity
-    s#B<([^>]*)>#\e[1m$1\e[0m#g;     # bold
-    s#[FI]<([^>]*)>#\e[4m$1\e[0m#g;  # italic / filename
-    s#C<([^>]*)>#"$1"#g;             # quoted code
-    return $_;
-}
-
-sub version {
-    print "$NAME (klingonska.org) $VERSION\n",
-        "Copyright (C) $YEAR zrajm <zrajm\@klingonska.org>\n",
-        "License CC BY-SA 3.0: Creative Commons Attribution-ShareAlike 3.0 Unported\n",
-        "    <http://creativecommons.org/licenses/by-sa/3.0/>\n";
-    exit 0;
-}
-
-sub manpage {
-    use Cwd 'realpath';
-    exec 'pod2man "' . realpath($0) . '"|man -l -'
-        or die "Failed to exec 'pod2man'"
-}
-
 sub help {
-    use Cwd 'realpath';
-    my $_ = read_file(realpath($0));
-    my ($synopsis)    = m#^=head1 \s+ SYNOPSIS \s+ (.*)#mx;
-    my ($description) = m#^=head1 \s+ NAME \s+ [-\w]+ \s+-\s+ (.*)#mx;
-    print "Usage: " . pod2ansi($synopsis) . "\n",
-        ucfirst($description) . ".\n";
-    { # list --options (from comments) -- sort by longopt name
-        my @opt_doc = ();
-        my $opt_length = 0;
-        while (/^ \s*
-                (?: (['"])                  # start quote
-                    ([^\n'"=:|]*?)           #   long opt
-                    (?:\|([^\n'"=:]*))?      #   short opt
-                    (?:([:=])[^\n'"=]*)?    #   opt arg
-                    \1 [^#]*                # end quote
-                |.*?)?(?<!\#)\#\#\#\s+(.*)$/xmg) { # description
-            my $long  = $2 ? "--$2"  : "";
-            my $short = $3 ?  "-$3," : "";
-            my $arg   = $4;
-            my $desc  = $5;
-            if ($arg and $desc =~ s/([A-Z0-9]+)\s*//) {
-                $long .= $arg eq ":" ? "[=$1]" : "=$1";
-            }
-            push(@opt_doc, [ $short, $long, pod2ansi($desc) ]);
-            my $length = length($long);
-            $opt_length = $length if $length > $opt_length;
-        }
-        # length of longest option name
-        if (@opt_doc) {
-            print "\nOptions:\n", map {
-                sprintf "  %-3s %-${opt_length}s  %s\n", @$_
-            } @opt_doc;
-        }
-    }
-    print <<EOF;
-
+    KA::Help::usage(<<EOF);
 Exit value 0 means that no problems were encountered, 1 that one or more checks
-fail, 255 if there was some processing error (non-existing file, no input etc).
+failed, 255 if there was some processing error (non-existing file, no input
+etc).
 EOF
-    exit 0;
 }
 
 sub get_metadata {
@@ -1030,13 +963,13 @@ sub check_entry {
 use Getopt::Long qw(
     :config posix_default bundling gnu_compat no_ignore_case permute
 );
-GetOptions(                          # info displayed by help()
-    'checksum|c' => \$opt{checksum}, ### only check SHA1 sum in metadata
-    'help|h'     => \&help,          ### display this help and exit
-    'manpage|M'  => \&manpage,       ### display program manpage and exit
-    'quiet|q'    => \$opt{quiet},    ### suppress word count summary at end
-    'verbose|v'  => \$opt{verbose},  ### output normalized dict (implied when piping STDOUT)
-    'version|V'  => \&version,       ### output version information and exit
+GetOptions(                             # info displayed by help()
+    'checksum|c' => \$opt{checksum},    ### only check SHA1 sum in metadata
+    'help|h'     => \&help,             ### display this help and exit
+    'manpage|M'  => \&KA::Help::manpage,### display program manpage and exit
+    'quiet|q'    => \$opt{quiet},       ### suppress word count summary at end
+    'verbose|v'  => \$opt{verbose},     ### output normalized dict
+    'version|V'  => \&KA::Help::version,### output version information and exit
 ) or exit 255;
 
 die "$NAME: Missing input: Nothing on standard input, and no file specified\n" .
@@ -1213,9 +1146,9 @@ Documentation) documentation from the program and displays it using man(1).
 Suppress the word count summary at the end of processing.
 
 
-=item B<-v>, B<--verbose> (default when piping STDOUT)
+=item B<-v>, B<--verbose>
 
-Output a re-word wrapped dictionary on standard output during processing.
+Output a re-word-wrapped dictionary on standard output during processing.
 
 When B<check-dict> terminates with a zero exit status, output should be
 identical to input, otherwise minor corrections (e.g. word wrap and field
@@ -1223,7 +1156,6 @@ order) will be corrected in the output. (NOTE, however, that some errors can
 only be fixed manually. When in doubt, you can run B<check-dict> again on the
 outputted file to see if any errors remain.)
 
-The --verbose option is implied if standard output is piped somewhere.
 
 =item B<-V>, B<--version>
 
@@ -1267,12 +1199,12 @@ diff(1) to see if B<check-dict> performed any changes.
 
 =head1 AUTHOR
 
-Written by zrajm <zrajm@klingonska.org>, 2009-2012.
+Written by zrajm <zrajm@klingonska.org>, 2011-2013.
 
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2012 zrajm <zrajm@klingonska.org>.
+Copyright 2011-2013 zrajm <zrajm@klingonska.org>.
 
 Distributed under Creative Commons Attribution-ShareAlike 3.0 Unported (CC
 BY-SA 3.0) http://creativecommons.org/licenses/by-sa/3.0/
