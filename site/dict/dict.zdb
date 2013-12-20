@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    566974414c0dd1f50d69f3b8bbfd6077113ff40c
+SHA1:    96c3eab1b277bf5d1df61eab8725f5eb579b82bf
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -23550,7 +23550,7 @@ tag:	1985; food
 id:	mQy
 
 tlh:	{vutwI'}
-pos:	verb
+pos:	noun
 en:	<cook>, «chef»
 sv:	«kock», «köksa»
 def:	KGT
