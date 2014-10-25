@@ -210,9 +210,16 @@ linkcheck: $(all_targets)
 ## clean - remove all generated files
 .PHONY: clean
 clean:
-	@if [ -e $(publish_dir) ]; then \
-	    rm -vf $(all_targets);        \
-	    rmdir --ignore-fail-on-non-empty -vp `find publish -type d -empty`; \
+	@if [ -e $(publish_dir) ]; then                     \
+	    printf "Erasing files ........ ";               \
+	    rm -f $(all_targets);                           \
+	    echo "OK";                                      \
+	    DIRS=`find publish -type d -empty`;             \
+	    if [ -n "$$DIRS" ]; then                        \
+	        printf "Erasing directories .. ";           \
+	        rmdir --ignore-fail-on-non-empty -p $$DIRS; \
+	        echo "OK";                                  \
+	    fi;                                             \
 	fi
 
 ## help - display this information
