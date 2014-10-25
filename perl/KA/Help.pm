@@ -34,7 +34,7 @@ sub read_file {
 # B<...> and I<...>, and since C<...> is treated last, all other POD sequences
 # are allowed inside those.)
 sub pod2ansi {
-    my ($_) = @_;
+    local ($_) = @_;
     return undef unless defined($_);
     my %char = (quot => '"', amp => '&', lt => '<', gt => '>');
     s#E<([^>]*)>#$char{lc $1}#g;     # HTML-like entity
@@ -60,7 +60,7 @@ sub version {
 
 sub usage {
     my ($msg) = @_;
-    my $_ = read_file($includer);
+    local $_ = read_file($includer);
     my $out;
     $out .= m#^=head1 \s+ SYNOPSIS \s+ (.*)#mx
         ? "Usage: " . pod2ansi($1) . "\n" : "";

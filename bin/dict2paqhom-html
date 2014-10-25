@@ -320,7 +320,7 @@ while (defined(my $entry = $zdb->entry)) {
         if exists($entry->{data}) and $entry->{data} =~ /KLCP-1/;
 
     my $def = do {
-        my $_ = en($entry->{def});
+        local $_ = en($entry->{def});
         s/\s*\([^()]*(?:\([^()]*\))?[^()]*\)//s;
         $_;
     };

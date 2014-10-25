@@ -302,7 +302,7 @@ sub help {
 
         # if title unset in header, use 1st '==' header
         if (not exists($hashref->{title})) {
-            my ($_, $i) = ("", 0);
+            (local $_, my $i) = ("", 0);
             $i ++ while $arrayref->[$i] =~ /^$/;
             if (($arrayref->[$i+1] // "") =~ /^=+$/) {
                 $_ = ${$arrayref}[$i];
@@ -473,7 +473,7 @@ sub help {
 
         # FIXME: should ignore ISO dates inside <time>...</time> tags
         $meta{text} = process_xml_except_args(sub {
-            my $_ = shift;
+            local $_ = shift;
             s{(K-E|E-K)}{<span class="nobr">$1</span>}g;
             # s{\b(?:19|20)\d{2}(-\d{2}-\d{2})?\b}{         # ISO date
             #     defined($1)
@@ -482,7 +482,7 @@ sub help {
             # }gex;
             s{\{(.*?)\}}{<b lang="tlh">$1</b>}gs;          # {...} marks klingon
             s{<b lang="tlh">(.*?)</b>}{
-                my ($_)  = $1;
+                local ($_)  = $1;
                 my $xtra = (/^-[a-zA-Z']+$/ or /^[a-zA-Z']-$/) ? ' class="nobr"' : '';
                 s/'/&#8217;/g;
                 '<b lang="tlh"' . ($xtra ? $xtra : "") . '>' . $_ . '</b>';  # FIXME hyphenate words here
@@ -500,7 +500,7 @@ sub help {
         }
 
         sub replace {
-            my $_ = shift;
+            local $_ = shift;
             # quote replacement -- FIXME: should distinguish between 'lang="en"' and 'lang="sv"'
             my %repl = (
                 # typographical quotes
@@ -863,7 +863,7 @@ sub page_title {
     push(@title, $meta{title}) if exists $meta{title};
     if ($meta{sourcefile} !~ m#(?:^|/)index.txt$#) {
         if ($meta{text} =~ m#^\s*<h1\b[^<>]*>(.*)</h1>#i) {
-            my $_ = $1;
+            local $_ = $1;
             s#\s*<span\b[^<>]*>.*?</span>##gx;
             s/\.$//;
             unshift(@title, $_) unless $_ eq $title[0];
@@ -988,7 +988,7 @@ sub page_header {
 }
 
 sub urlify {
-    my ($_) = @_;
+    local ($_) = @_;
     return $_ if m#/$#;
     return "$_/" if m#\.$#;
     return "$_.html";

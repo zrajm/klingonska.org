@@ -83,7 +83,7 @@ EOF
 }
 
 sub css_compress {
-    my ($_) = @_;
+    local ($_) = @_;
     s/\s*([:;{}])\s*/$1/g;
     return $_;
 }
@@ -151,7 +151,7 @@ sub debug {
     sub _process_scss {
         my %arg  = @_;
         my $output = "";
-        my $_ = $arg{code};
+        local $_ = $arg{code};
         if ($last_context) {
             $output .= "}\n" . ($arg{depth} == 1 ? "\n" : "");
             $last_context = "";

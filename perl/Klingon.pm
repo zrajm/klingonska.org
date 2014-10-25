@@ -64,7 +64,7 @@ On failure returns undef (in scalar context), or empty list.
 =cut
 
 sub split_letter {
-    my ($_) = @_;
+    local ($_) = @_;
     my $alpha = re_alpha();
     my @text  = /\G$alpha(?=$alpha{2}|$alpha{0,1}$)/gc;
     return () unless /\G$/;  # failure (unless whole string is processed)

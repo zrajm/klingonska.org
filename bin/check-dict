@@ -151,7 +151,7 @@ sub sha1sum {
 }
 
 sub sortkey_tlh {
-    my ($_) = @_;
+    local ($_) = @_;
     # %alph{klingon_letter} = sort_key
     my %alph = (
         a   => 'a',   b => 'b',   ch => 'c',   D => 'd',   e => 'e',
@@ -168,7 +168,7 @@ sub sortkey_tlh {
 }
 
 sub ordinal {
-    my ($_) = @_;
+    local ($_) = @_;
     return $_ . "st" if m#1$#;
     return $_ . "nd" if m#2$#;
     return $_ . "rd" if m#3$#;
@@ -176,7 +176,7 @@ sub ordinal {
 }
 
 sub word_wrap {
-    my ($_, $width) = (@_, 80);
+    (local $_, my $width) = (@_, 80);
     s#[ \n]+# #g;
     s#(.{1,$width})(?:[ ]+|$)#$1\n#g;
     chomp;
@@ -345,7 +345,7 @@ sub get_entries {
     my $re = qr/${\( join("|", sort keys %tr) )}/;
 
     sub recase_source {
-        my ($_) = @_;
+        local ($_) = @_;
         if (not s/\b($re)\b/$tr{$1}/) {
             return uc($_);
         }
@@ -384,7 +384,7 @@ sub split_sources {
 {
     my %file = get_source_names();             # cache filenames
     sub check_source {
-        my ($entry, $field, $_) = @_;
+        (my $entry, my $field, local $_) = @_;
         my @warn;
         my $i = 0;
         foreach (split_sources($_)) {
@@ -416,7 +416,7 @@ sub split_sources {
     my $re = quotemeta join "", sort
         keys %singlet, keys %bracket, values %bracket;
     sub check_brackets {
-        my ($_) = @_;
+        local ($_) = @_;
         my (@stack, @warn);
         while (/[$re]/g) {
             if ($singlet{$&}) {                # ~...~ and "..."
@@ -500,7 +500,7 @@ sub split_sources {
 # Return list of error messages or empty list if ok.
 
 sub check_tlh {
-    my ($entry, $field, $_) = @_;
+    (my $entry, my $field, local $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
     my $pos  = $entry->{pos}[0]  // "";        # part-of-speech
     my $data = $entry->{data}[0] // "";        # data field
@@ -647,7 +647,7 @@ sub check_tlh {
 }
 
 sub check_warn {
-    my ($entry, $field, $_) = @_;
+    (my $entry, my $field, local $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
     my @warn;
     push @warn, check_brackets($_);
@@ -670,7 +670,7 @@ sub check_warn {
 }
 
 sub check_pos {
-    my ($entry, $field, $_) = @_;
+    (my $entry, my $field, local $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
     state $re = qr{^(?:
         verb(?:\s(?:prefix|suffix\stype\s(?:[1-9]|rover)))?|
@@ -683,7 +683,7 @@ sub check_pos {
 }
 
 sub check_en {
-    my ($entry, $field, $_) = @_;
+    (my $entry, my $field, local $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
     my @warn;
     push @warn, check_brackets($_);
@@ -707,7 +707,7 @@ sub check_en {
 }
 
 sub check_sv {
-    my ($entry, $field, $_) = @_;
+    (my $entry, my $field, local $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
     my @warn;
     push @warn, check_brackets($_);
@@ -733,13 +733,13 @@ sub check_desc {
     # Contents
     #   * Any number source references [...]
     #   * Any number of italics markers ~...~
-    my ($entry, $field, $_) = @_;
+    (my $entry, my $field, local $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
     my @warn;
     push @warn, check_brackets($_);
     push @warn, "First letter not lower case in" if m#^[A-Z]# and !/^I\b/;
     while (m#~([^~]+)~#g) {                    # check ~...~ phrases
-        my $_ = $1;
+        local $_ = $1;
         push @warn, "First letter in '~$_~' is not lower case in"
             if m#^[A-Z]# and !/^(I|Vulcan|French)\b/;
         push @warn, "Last character in '~$_~' is punctuation in"
@@ -751,7 +751,7 @@ sub check_desc {
     push @warn, "Word '$1' should be abbreviated in"
         if m#\b(some(bod(y|ies)|ones?|things?))\b#;
     while (m# \[( (?:[^]"]+|"[^"]*")* )\] #xg) { # check sources [...]
-        my $_ = $1;
+        local $_ = $1;
         s/\n/ /g;
         push @warn, check_source($entry, $field, $_);
     }
@@ -759,7 +759,7 @@ sub check_desc {
 }
 
 sub check_defref {
-    my ($entry, $field, $_) = @_;
+    (my $entry, my $field, local $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
     s/\n/ /g;
     return check_source($entry, $field, $_)
@@ -770,7 +770,7 @@ sub check_cite {
     my $i = 1;
     my @warn;
     foreach (@{ $entry->{$field} }) {          # for each 'cite:' field
-        my $_ = $_;
+        local $_ = $_;
         s/\n/ /g;
         if (s{ \s* \[( (?:[^]"]+|"[^"]*")* )\] $}{}x) { # check (required) sources
             my @source_warn = check_source($entry, $field, $1);
@@ -787,7 +787,7 @@ sub check_cite {
 }
 
 sub check_pun {
-    my ($entry, $field, $_) = @_;
+    (my $entry, my $field, local $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
     my @warn;
     push @warn, check_brackets($_);
@@ -797,11 +797,11 @@ sub check_pun {
 }
 
 sub check_com {
-    my ($entry, $field, $_) = @_;
+    (my $entry, my $field, local $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
     my @warn;
     if (s{ \s* \[( (?:[^]"]+|"[^"]*")* )\] $}{}x) { # check (optional) sources
-        my $_ = $1;
+        local $_ = $1;
         s/\n/ /g;
         push @warn, check_source($entry, $field, $_);
     }
@@ -812,7 +812,7 @@ sub check_com {
 }
 
 sub check_see {
-    my ($entry, $field, $_) = @_;
+    (my $entry, my $field, local $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
     my @warn;
     push @warn, check_brackets($_);
@@ -825,7 +825,7 @@ sub check_see {
 
 {
     my %allowed_tag = map {
-        (my $_ = $_) =~ s/_/ /g;
+        (local $_ = $_) =~ s/_/ /g;
         $_ => 1;
     } qw(animal architecture body_part clothing color country economics family
          fighting food KLCP1 landscape math measure music placement quantity
@@ -840,14 +840,14 @@ sub check_see {
         } keys %file;
     };
     sub check_tag {
-        my ($entry, $field, $_) = @_;
+        (my $entry, my $field, local $_) = @_;
         return "Duplicate" if @{ $entry->{$field} } > 1;
         my (@tag, @warn) = split /;\s/;
 
         # FIXME: should references from other fields also be considered?
         # (e.g. cite:, com: and desc:, maybe more?)
         my ($year, $src) = do {                # creation year, based on source
-            my $_ = join("; ",                 #   combine 'def:' and 'ref:'
+            local $_ = join("; ",              #   combine 'def:' and 'ref:'
                 $entry->{def}[0],
                 $entry->{ref}[0] // (),
             );
@@ -871,7 +871,7 @@ sub check_see {
 }
 
 sub check_data {
-    my ($entry, $field, $_) = @_;
+    (my $entry, my $field, local $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
     my @warn;
     push @warn, check_brackets($_);
@@ -895,7 +895,7 @@ sub check_data {
     my $tlh_re = qr/^([bDHj1mnpqQrStvwy]|ch|gh|ng|t1h)[ouae1]?[bDHj1mnpqQrStvwy]?$/x;
     my %id_found = ();
     sub check_id {
-        my ($entry, $field, $_) = @_;
+        (my $entry, my $field, local $_) = @_;
         return "Duplicate" if @{ $entry->{$field} } > 1;
         return "Not three base58 characters in in" if not /$content_ok_re/;
         return "Value '$_' is too similar to Klingon word in" if /$tlh_re/;
@@ -906,7 +906,7 @@ sub check_data {
 }
 
 sub check_meta {
-    my ($entry, $field, $_) = @_;
+    (my $entry, my $field, local $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
     my @warn;
     push @warn, check_brackets($_);
@@ -1008,7 +1008,7 @@ my %meta = get_metadata(@whole_file);
 # check line length and linefeed at end of file
 # FIXME: should also check for PC line endings, and non-UTF8 (?)
 foreach my $line (0..$#whole_file) {
-    my $_ = $whole_file[$line];
+    local $_ = $whole_file[$line];
     s{\t}{ " " x (8 - (pos() % 8)) }ge;  # replace tabs with spaces
     if (length($_) > 80) { # 80 = is with trailing newline
         warn "Line may not exceed 79 characters in line " . ($line + 1) . "\n";

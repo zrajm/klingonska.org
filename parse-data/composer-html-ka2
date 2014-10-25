@@ -126,7 +126,7 @@ EOF
     # KA-specific
     english         => sub { '<i class=translation>' . shift() . '</i>' },
     klingon         => sub { #'<b lang=tlh>' . shift() . '</b>';
-                             my ($_) = @_;
+                             local ($_) = @_;
                              my $class = (m#(?:^-|-$)# ? ' class=nobr' : '');
                              "<b$class lang=tlh>" . regex(
                                  hyphenate_tlh($_, "&shy;", "-"),

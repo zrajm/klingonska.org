@@ -3,6 +3,8 @@
 
 * INBOX
   These should be inserted in the hierachy below.
+** TODO Remove all 'is experimental' warnings for perl code
+*** TODO bin/check-dict: 'given', 'when' and 'smartmatch'
 ** NWL seems to be establish abbrev for KLI's new word list
 ** DONE Email Will Martin about the Praxis recording
    CLOSED: [2013-12-13 Fri 14:00]
@@ -4065,7 +4067,7 @@
 ** correspond in SMS:es
 
 
-* DONE ACCOMPLISHED STUFF
+* FINISHED
 ** DONE Transfer test.zrajm.org -> klingonska.org
    CLOSED: [2010-09-03 Sat 00:44]
 *** DONE Figure out how to transfer control of klingonska.org Manufrog -> HCoop
@@ -4185,3 +4187,5 @@
      CLOSED: [2010-10-05 Tue 15:53]
 **** TODO piqad/play.cgi - ok
 ***** TODO need new header/footer though
+** DONE Cleared away a bunch of Perl 'is experimental' warnings
+   CLOSED: [2014-10-25 sat 15:57]

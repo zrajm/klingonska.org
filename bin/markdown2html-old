@@ -288,7 +288,7 @@ sub help {
 
         # if title unset in header, use 1st '==' header
         if (not exists($hashref->{title})) {
-            my ($_, $i) = ("", 0);
+            (local $_, my $i) = ("", 0);
             $i ++ while $arrayref->[$i] =~ /^$/;
             if (($arrayref->[$i+1] // "") =~ /^=+$/) {
                 $_ = ${$arrayref}[$i];
@@ -450,7 +450,7 @@ sub help {
         my $re = join("|", map { quotemeta $_ } sort { length($b) <=> length($a) } keys %repl);
         return process_xml(
             sub {
-                my $_ = shift;
+                local $_ = shift;
                 s#($re)#$repl{$1}#g;
                 return $_;
             }, $page);
@@ -723,7 +723,7 @@ sub page_title {
     push(@title, $meta{title}) if exists $meta{title};
     if ($meta{filename} !~ m#(?:^|/)index.txt$#) {
         if ($meta{text} =~ m#^\s*<h1\b[^<>]*>(.*)</h1>#i) {
-            my $_ = $1;
+            local $_ = $1;
             s#\s*<span\b[^<>]*>.*?</span>##gx;
             s/\.$//;
             unshift(@title, $_) unless $_ eq $title[0];
