@@ -2297,7 +2297,7 @@
      Klingon mode for Tengwar (Tolkien's alphabet)
 ** "Klingon Pocket Dictionary"
 *** Web page
-**** [20%] "Advaced search"
+**** [33%] "Advanced search"
      The "Advanced search" feature is an interactive help feature which do not
      extend the search, but rather illustrates the more advanced features of
      the normal search.
@@ -2311,6 +2311,7 @@
 ****** DONE /
 ****** TODO glossary/
 ****** TODO piqad/play.cgi
+***** TODO Make sure CSS words in MSIE/Chrome/Firefox/Safari
 ***** TODO Add "Advanced search" dropdown (script)
       This script should add the dropdown button + its menu.
 **** DONE index.cgi should work for new style sources

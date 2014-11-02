@@ -12,7 +12,7 @@
 
 source_dir  := site
 publish_dir := publish
-remote_dir  := hcoop:Web/klingonska.org
+remote_dir  := ssh.hcoop.net:Web/klingonska.org
 ignore      := %.bak %.db %~ .\#% %\# %.tmp
 
 CSS_MINIFIER := \
