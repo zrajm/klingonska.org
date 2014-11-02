@@ -3,6 +3,7 @@
 
 * INBOX
   These should be inserted in the hierachy below.
+** TODO Link to github issue tracker from webpage somehow
 ** TODO Remove all 'is experimental' warnings for perl code
 *** TODO bin/check-dict: 'given', 'when' and 'smartmatch'
 ** NWL seems to be establish abbrev for KLI's new word list
@@ -121,6 +122,16 @@
    With this in place, the first line of a markdown source file may contain the
    line `: -*- html -*-` to signify that Emacs should highlight it as if it was
    HTML.
+** TODO Use a 'natural box model' for all of page
+   See Paul Irish's web page:
+   http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+
+       /* apply a natural box layout model to all elements */
+       html { box-sizing: border-box; }
+       *, *:before, *:after { box-sizing: inherit; }
+
+   Currently this trick is applied in the `dict.scss`. This will have to be
+   cleaned away when this is used everywhere.
 ** TODO Replace underscore in URLs with hyphen
    Hyphens are easier to type, prettier to look (narrower) at and seem to be
    emerging as a standard for separating words is URLs on the web.
@@ -2286,6 +2297,22 @@
      Klingon mode for Tengwar (Tolkien's alphabet)
 ** "Klingon Pocket Dictionary"
 *** Web page
+**** [20%] "Advaced search"
+     The "Advanced search" feature is an interactive help feature which do not
+     extend the search, but rather illustrates the more advanced features of
+     the normal search.
+***** DONE alt + title
+      CLOSED: [2014-11-02 sön 00:47]
+***** [50%] Use form element CSS for whole site.
+      Search field CSS should be moved from `includes/dict.scss` to the
+      `includes/base.scss` used by all pages. Need to make sure that this looks
+      good everywhere, and does not conflict with other CSS.
+****** DONE dict/
+****** DONE /
+****** TODO glossary/
+****** TODO piqad/play.cgi
+***** TODO Add "Advanced search" dropdown (script)
+      This script should add the dropdown button + its menu.
 **** DONE index.cgi should work for new style sources
      CLOSED: [2013-12-12 Thu 18:46]
 **** DONE Fix page tabs links

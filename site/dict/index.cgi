@@ -421,7 +421,6 @@ EOF
 
 sub html_form {
     my ($query) = (@_, "");
-    my $focus_attr = $query ? '' : ' autofocus';
     $query = escapeHTML($query);
     (my $script_name = $0) =~ s#^.*/##;
     my $tips = $tips[int(rand(@tips))];
@@ -430,10 +429,13 @@ sub html_form {
 <table class="noborder layout">
   <tr>
     <td class=center>
-      <form method=get action="" class=dict>
-        <input$focus_attr tabindex=1 name=q value="$query" size=35
-          placeholder="Search dictionary…"><input type=submit value=Search>
-      </form>
+      <form class=dict method=get action=""
+        ><input name=q autocomplete=off placeholder="Search dictionary…"
+           value="$query" autofocus
+        ><button class=submit title=Search
+          ><img alt="Magnifying glass" src="pic/magnify.svg"
+        ></button
+      ></form>
   <tr>
     <td class=center><small>$tips</small>
 </table>

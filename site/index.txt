@@ -22,10 +22,15 @@ style: banner dict
 <dl class="navigation">
   <dt><a href="dict/">Klingon Pocket Dictionary</a> (online version)
   <dd>
-    <form class=dict method=get action="dict/">
-      <input name=q size=20 placeholder="Search dictionary…"
-        ><input type=submit value=Search>
-    </form>
+    <form class=dict method=get action="dict/"
+      ><input name=q autocomplete=off placeholder="Search dictionary…"
+      ><!--button class=dropdown title="Advanced…"
+        ><img src="dict/pic/downarrow.svg"
+      ></button
+      --><button class=submit title=Search
+        ><img alt="Magnifying glass" src="dict/pic/magnify.svg"
+      ></button
+    ></form>
     A Klingon dictionary which includes a guide to the suffixes (with
     translations and examples), quick reference tables for {pIqaD} and all the
     affixes, notes on pronunciation and stress,
@@ -40,9 +45,10 @@ style: banner dict
     tapes.) <small class=nobr>[Updated <time>2007-08-17</time>]</small>
 
   <dt><a href="glossary/">Klingon Glossary Extractor &amp; Flashcards</a>
-  <dd>Analyze any Klingon text and teach yourself the words using flashcards!
-    (The page remembers which words you know, and only show you the new
-    ones.) <small class=nobr>[Updated <time>2012-12-22</time>]</small>
+  <dd>Analyze any Klingon text and teach yourself the words it contains using
+    flashcards! (The glossary extractor keeps track of what you've learned, and
+    only teach you the new
+    words.) <small class=nobr>[Updated <time>2012-12-22</time>]</small>
 
   <dt><a href="errors.html">Errors in Okrandian Sources</a>
   <dd>What errors are there in the <i>The Klingon Dictionary</i>? In the rest
