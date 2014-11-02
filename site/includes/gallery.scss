@@ -3,24 +3,22 @@
 [role="main"] {
     /*
     ** Created: November 7, 2011
+    ** Updated: November 3, 2014
     ** Author: Zrajm
     ** Description: Stylesheet to make thumbnail picture galleries.
     **
-    ** Use the following HTML to produce a gallery with two thumnails in it...
+    ** Use the following HTML to produce a gallery with two thumnails in it:
     **
-    **     <div class="gallery">
-    **       <figure style="width:208px">
-    **         <a href="pic/ka-logo-208x208.jpg"><img width="208" height="208"
-    **           src="pic/ka-logo-208x208.jpg" alt="Klingonska Akademien's
-    **           logo, 208x208 pixel, JPEG format" /></a>
-    **         <figcaption>208x208 Mini</figcaption>
-    **       </figure>
-    **       <figure style="width:250px">
-    **         <a href="pic/ka-logo-1280x1024.jpg"><img width="250" height="200"
-    **           src="pic/ka-logo-1280x1024.thmb.jpg" alt="Klingonska Akademien's
-    **           logo, 1280x1024 pixel, JPEG format" /></a>
-    **         <figcaption>1280x1024 Desktop</figcaption>
-    **       </figure>
+    **     <div class=gallery>
+    **       <a href="pic/front.jpg" class=item style="width:188px">
+    **         <img src="pic/mini/front.jpg" height=250 width=188>
+    **         Front cover / Title in <b lang=tlh>pIqaD</b>.
+    **       </a>
+    **
+    **       <a href="pic/back.jpg" class=item style="width:250px">
+    **         <img src="pic/mini/back.jpg" height=188 width=250>
+    **         Back cover / Prefix reference table.
+    **       </a>
     **     </div>
     */
     div.gallery {
@@ -43,28 +41,6 @@
             border: 2px inset #777;
             opacity: .5;
             padding: 0;
-        }
-
-        /* a img { */
-        /*     /\* border: 2px solid #444; *\/ */
-        /*     padding: 0; */
-        /* } */
-        /* a:visited img { border-color: #777; } */
-        /* a:hover img { */
-        /*     background: #ccc; */
-        /*     border-color: #000; */
-        /* } */
-        /* a:active img { color: #aaa; } */
-        figure {
-            box-sizing: content-box;
-            border: 2px solid #000;
-            padding: .125em;
-            vertical-align: middle;
-            margin: 1em;
-            display: inline-block;
-        }
-        figcaption {
-            text-align: center;
         }
     }
 }

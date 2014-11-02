@@ -873,6 +873,7 @@
     Which ones do we know of? Names of the dialects? What distinguishes them
     from each other? Phonetically, in terms of vocuabulary etc?
 ** TODO Search engine optimisations
+** TODO Add Klingon Scrabble page
 ** "Glossary" page
 *** General
 **** TODO Better placement of no-javascript warning

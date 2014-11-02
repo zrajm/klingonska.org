@@ -34,55 +34,46 @@ resolution situation (e.g. in printed documents). The last couple of logos in
 this batch contains measurement/outlines of the logo, which might be useful if
 you want to reproduce these using pen and paper.
 
-<div class="gallery">
-  <figure style="width:200px">
-      <a href="ka-logo/ka-logo-color.svg"><img width="200" height="200"
-        src="ka-logo/ka-logo-color.thmb.png" alt="Klingonska Akademien's
-        logo, black/white, SVG format"></a>
-    <figcaption>Color SVG</figcaption>
-  </figure>
-  <figure style="width:200px">
-      <a href="ka-logo/ka-logo-color_transparent_bg.svg"><img width="200" height="200"
-        src="ka-logo/ka-logo-color_transparent_bg.thmb.png" alt="Klingonska Akademien's
-        logo, black/white, SVG format"></a>
-    <figcaption>Color SVG (with transparent background)</figcaption>
-  </figure>
-  <figure style="width:200px">
-      <a href="ka-logo/ka-logo-x-background.svg"><img width="200" height="200"
-        src="ka-logo/ka-logo-x-background.thmb.png" alt="Klingonska Akademien's
-        logo, black/white, SVG format"></a>
-    <figcaption>Desktop backgound SVG</figcaption>
-  </figure>
-  <figure style="width:200px">
-    <a href="ka-logo/ka-logo-bw.svg"><img width="200" height="200"
-        src="ka-logo/ka-logo-bw.thmb.png" alt="Klingonska Akademien's
-        logo, black/white, SVG format"></a>
-    <figcaption>Monochrome SVG</figcaption>
-  </figure>
-  <figure style="width:200px">
-      <a href="ka-logo/ka-logo-bw-inverted.svg"><img width="200" height="200"
-        src="ka-logo/ka-logo-bw-inverted.thmb.png" alt="Klingonska Akademien's
-        logo, black/white, inverted colors, SVG format"></a>
-    <figcaption>Inverted monochrome SVG</figcaption>
-  </figure>
-  <figure style="width:200px">
-      <a href="ka-logo/ka-logo-bw.ps"><img width="200" height="200"
-        src="ka-logo/ka-logo-bw.thmb.png" alt="Klingonska Akademien's
-        logo, black/white, SVG format"></a>
-    <figcaption>Monochrome PostScript</figcaption>
-  </figure>
-  <figure style="width:200px">
-      <a href="ka-logo/ka-logo-sketch2.svg"><img width="200" height="200"
-        src="ka-logo/ka-logo-sketch2.thmb.png" alt="Klingonska Akademien's
-        logo, black/white, SVG format"></a>
-    <figcaption>Outline + logo SVG</figcaption>
-  </figure>
-  <figure style="width:200px">
-      <a href="ka-logo/ka-logo-sketch.svg"><img width="200" height="200"
-        src="ka-logo/ka-logo-sketch.thmb.png" alt="Klingonska Akademien's
-        logo, black/white, SVG format"></a>
-    <figcaption>Outline + measurements SVG</figcaption>
-  </figure>
+<div class=gallery>
+  <a href="ka-logo/ka-logo-color.svg" class=item style="width:200px">
+    <img width=200 height=200 src="ka-logo/ka-logo-color.thmb.png" alt="Klingonska Akademien's logo, black/white, SVG format">
+    Color SVG
+  </a>
+
+  <a href="ka-logo/ka-logo-color_transparent_bg.svg" class=item style="width:200px">
+    <img src="ka-logo/ka-logo-color_transparent_bg.thmb.png" width=200 height=200 alt="Klingonska Akademien's logo, black/white, SVG format">
+    Color SVG (with transparent background)
+  </a>
+
+  <a href="ka-logo/ka-logo-x-background.svg" class=item style="width:200px">
+    <img src="ka-logo/ka-logo-x-background.thmb.png" width=200 height=200 alt="Klingonska Akademien's logo, black/white, SVG format">
+    Desktop backgound SVG
+  </a>
+
+  <a href="ka-logo/ka-logo-bw.svg" class=item style="width:200px">
+    <img src="ka-logo/ka-logo-bw.thmb.png" width=200 height=200 alt="Klingonska Akademien's logo, black/white, SVG format">
+    Monochrome SVG
+  </a>
+
+  <a href="ka-logo/ka-logo-bw-inverted.svg" class=item style="width:200px">
+    <img src="ka-logo/ka-logo-bw-inverted.thmb.png" width=200 height=200 alt="Klingonska Akademien's logo, black/white, inverted colors, SVG format">
+    Inverted monochrome SVG
+  </a>
+
+  <a href="ka-logo/ka-logo-bw.ps" class=item style="width:200px">
+    <img src="ka-logo/ka-logo-bw.thmb.png" width=200 height=200 alt="Klingonska Akademien's logo, black/white, SVG format">
+    Monochrome PostScript
+  </a>
+
+  <a href="ka-logo/ka-logo-sketch2.svg" class=item style="width:200px">
+    <img src="ka-logo/ka-logo-sketch2.thmb.png" width=200 height=200 alt="Klingonska Akademien's logo, black/white, SVG format">
+    Outline + logo SVG
+  </a>
+
+  <a href="ka-logo/ka-logo-sketch.svg" class=item style="width:200px">
+    <img src="ka-logo/ka-logo-sketch.thmb.png" width=200 height=200 alt="Klingonska Akademien's logo, black/white, SVG format">
+    Outline + measurements SVG
+  </a>
 </div>
 
 
@@ -95,28 +86,26 @@ background photographed with the lo-rez camera of my old cellphone. (None of
 which matter when you're just going to display the image on the 208×208 pixel
 display of the same cell phone anyway.)
 
-<div class="gallery">
-  <figure style="width:208px">
-    <a href="pic/ka-logo-208x208.jpg"><img width="208" height="208"
-      src="pic/ka-logo-208x208.jpg" alt="Klingonska Akademien's
-      logo, 208x208 pixel, JPEG format"></a>
-    <figcaption>208x208 Mini</figcaption>
-  </figure><figure style="width:250px">
-      <a href="pic/ka-logo-1280x1024.jpg"><img width="250" height="200"
-        src="pic/ka-logo-1280x1024.thmb.jpg" alt="Klingonska Akademien's
-        logo, 1280x1024 pixel, JPEG format"></a>
-    <figcaption>1280x1024 Desktop</figcaption>
-  </figure><figure style="width:208px">
-    <a href="pic/ka-logo-zoomed-208x208.jpg"><img width="208" height="208"
-      src="pic/ka-logo-zoomed-208x208.jpg" alt="Klingonska Akademien's
-      logo, 208x208 pixel, JPEG format"></a>
-    <figcaption>208x208 Mini</figcaption>
-  </figure><figure style="width:250px">
-      <a href="pic/ka-logo-zoomed-1280x1024.jpg"><img width="250" height="200"
-        src="pic/ka-logo-zoomed-1280x1024.thmb.jpg" alt="Klingonska Akademien's
-        logo, 1280x1024 pixel, JPEG format"></a>
-    <figcaption>1280x1024 Desktop</figcaption>
-  </figure>
+<div class=gallery>
+  <a href="pic/ka-logo-208x208.jpg" class=item style="width:208px">
+    <img src="pic/ka-logo-208x208.jpg" width=208 height=208 alt="Klingonska Akademien's logo, 208x208 pixel, JPEG format">
+    208x208 Mini
+  </a>
+
+  <a href="pic/ka-logo-1280x1024.jpg" class=item style="width:250px">
+    <img src="pic/ka-logo-1280x1024.thmb.jpg" width=250 height=200 alt="Klingonska Akademien's logo, 1280x1024 pixel, JPEG format">
+    1280x1024 Desktop
+  </a>
+
+  <a href="pic/ka-logo-zoomed-208x208.jpg" class=item style="width:208px">
+    <img src="pic/ka-logo-zoomed-208x208.jpg" width=208 height=208 alt="Klingonska Akademien's logo, 208x208 pixel, JPEG format">
+    208x208 Mini
+  </a>
+
+  <a href="pic/ka-logo-zoomed-1280x1024.jpg" class=item style="width:250px">
+    <img src="pic/ka-logo-zoomed-1280x1024.thmb.jpg" width=250 height=200 alt="Klingonska Akademien's logo, 1280x1024 pixel, JPEG format">
+    1280x1024 Desktop
+  </a>
 </div>
 
 [[eof]]

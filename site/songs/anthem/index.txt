@@ -4,10 +4,15 @@ created: 2002-02-19
 author: zrajm
 year: 2002--2006
 lang: en
+style: gallery
 
 {SuvwI' van bom} -- *The Warrior's Anthem*
 ==========================================
-<a href="anthem-inline.png"><img width=528 height=250 src="anthem-inline.png"></a>
+<div class=gallery>
+  <a href="anthem-inline.png" class=item style="width:528px">
+    <img src="anthem-inline.png" width=528 height=250>
+  </a>
+</div>
 
 
 Klingon Lyrics
