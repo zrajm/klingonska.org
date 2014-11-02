@@ -175,8 +175,15 @@ auto: site
 .PHONY: publish
 publish: .publish.done
 .publish.done: $(all_targets)
-	@if [ "$(CSS_MINIFIER)" = cat -o "$(JS_MINIFIER)" = cat ]; then \
-	    echo "ERROR: Javascript/CSS is not minified,"      \
+	@NONMINIFIED="";                                       \
+	if [ "$(CSS_MINIFIER)" = cat ]; then                   \
+	    NONMINIFIED="CSS";                                 \
+	fi;                                                    \
+	if [ "$(JS_MINIFIER)" = cat ]; then                    \
+	    NONMINIFIED="$${NONMINIFIED+CSS and }Javascript";  \
+	fi;                                                    \
+	if [ -n "$$NONMINIFIED" ]; then                        \
+	    echo "ERROR: $$NONMINIFIED is not minified,"       \
 	        "won't publish site without minification" >&2; \
 	    exit 1;                                            \
 	fi;                                                    \
