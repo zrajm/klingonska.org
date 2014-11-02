@@ -1,5 +1,10 @@
 /* -*- css -*- */
 
+/* Use natural box layout model everywhere. */
+/* http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
 /*****************************************************************************\
 **                                                                           **
 **  Global Stuff                                                             **
@@ -213,7 +218,7 @@ header {
     margin: 0 auto;
     padding: .5em 4.5em;
     background: #fff;    /* white, page background */
-    max-width: 33em;
+    max-width: 42em;
     position: relative;  /* avoid header box-shadow */
     h1 { font: bold 2em sans-serif; text-align: center; }
     h2 { font: bold 1.5em sans-serif; }

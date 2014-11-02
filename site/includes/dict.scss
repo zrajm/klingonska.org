@@ -10,17 +10,9 @@ aside.note {
     padding: .5em;
 }
 
-/* FIXME: Should buttons + input have same size but smaller font? */
-/* FIXME: "Natural box layout" should be used on whole page, not here */
 form.dict {
     margin: 0;
     white-space: nowrap;
-
-    /* Natural box layout model. */
-    /* [http://www.paulirish.com/2012/box-sizing-border-box-ftw/] */
-    box-sizing: border-box;
-    *, *:before, *:after { box-sizing: inherit; }
-
     button, input {
         height: 2em;
         vertical-align: middle;

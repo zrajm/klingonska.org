@@ -122,7 +122,8 @@
    With this in place, the first line of a markdown source file may contain the
    line `: -*- html -*-` to signify that Emacs should highlight it as if it was
    HTML.
-** TODO Use a 'natural box model' for all of page
+** DONE Use a 'natural box model' for all of page
+   CLOSED: [2014-11-02 Sun 21:41]
    See Paul Irish's web page:
    http://www.paulirish.com/2012/box-sizing-border-box-ftw/
 
@@ -130,8 +131,9 @@
        html { box-sizing: border-box; }
        *, *:before, *:after { box-sizing: inherit; }
 
-   Currently this trick is applied in the `dict.scss`. This will have to be
-   cleaned away when this is used everywhere.
+   `includes/gallery.scss` have a couple of exceptions from this rule since the
+   <figure> element have its size set (in the HTML) according to the size of
+   the image it contains.
 ** TODO Replace underscore in URLs with hyphen
    Hyphens are easier to type, prettier to look (narrower) at and seem to be
    emerging as a standard for separating words is URLs on the web.
@@ -273,7 +275,7 @@
        * Building (minified) CSSes from SCSS (Sassy Stylesheets)
        * Using a HTML template = centralized header/footer
        * Page source (whenever possible) in markdown
-**** [61%] Add new look to all pages (except KLO for now)
+**** [57%] Add new look to all pages (except KLO for now)
 ***** DONE <script>...</script> blocks should not be parsed for markdown
       CLOSED: [2012-06-26 Tue 02:45]
       E.g. `/download.html`.
@@ -548,6 +550,9 @@
       CLOSED: [2012-11-10 Sat 00:42]
       Prefix table in the reference table section is align left, but it should
       be centered. Page: http://klingonska.lal/dict/tables.html
+***** TODO Center prefix table in "Some Klingon GIF Fonts"
+      Prefix table in the reference table section is align left, but it should
+      be centered. Page: http://klingonska.lal/piq/index.html
 ***** TODO <ul> lists should also use the little hexagonal bullets
       Page that uses it: http://klingonska.lal/akademien/qephom.html
       http://klingonska.org/punct.html
@@ -2303,12 +2308,13 @@
      the normal search.
 ***** DONE alt + title
       CLOSED: [2014-11-02 sön 00:47]
-***** [50%] Use form element CSS for whole site.
+***** [40%] Use form element CSS for whole site.
       Search field CSS should be moved from `includes/dict.scss` to the
       `includes/base.scss` used by all pages. Need to make sure that this looks
       good everywhere, and does not conflict with other CSS.
 ****** DONE dict/
 ****** DONE /
+****** TODO canon/
 ****** TODO glossary/
 ****** TODO piqad/play.cgi
 ***** TODO Make sure CSS words in MSIE/Chrome/Firefox/Safari
@@ -3684,6 +3690,7 @@
 *** DONE Update list of adverbials
     CLOSED: [2013-04-02 Tue 05:27]
 ** "A Quick Reference to Time Expressions in Klingon"
+*** TODO Add days of week
 *** TODO Add {ngugh} adverbial
     Are there more time related adverbials that should be included?
 *** TODO Add recommendations -- Which time system is best?
