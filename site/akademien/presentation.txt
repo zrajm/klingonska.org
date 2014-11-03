@@ -1,44 +1,56 @@
 : -*- html -*-
-updated: 2007-07-15 05:30+02
-author: zrajm
-year: 1999
+updated: 2014-11-03 02:36+01
+author: markus, zrajm
+year: 1999-2014
 lang: sv
 created: 1999-04-12
+style: gallery
 
 En presentation av de involverade
 =================================
 
 Ordförande/grundare
 -------------------
+<div class="gallery float-left" style="margin: 0 .5em 0 -.5em;">
+  <a href="pic/mahvatlh.jpg" class=item style="width:250px">
+    <img src="pic/mini/mahvatlh.jpg" height=167 width=250 alt=maHvatlh>
+    <small><i>Fotografi av Björn Lindström, augusti 2010.</i></small>
+  </a>
+</div>
 
-<img class="float-left" src="pic/mahvatlh.jpg" height="208" width="173" alt="maHvatlh">
-Zrajm <i>&lt;[zrajm@klingonska.org](mailto:zrajm@klingonska.org)&gt;</i>
-(a.k.a. <i>{maHvatlh}</i>, tel. 076-211 50 43)
+Zrajm (också känd som *{maHvatlh}*).  
+Epost: [*zrajm@klingonska.org*](mailto:zrajm@klingonska.org)  
+Telefon: <nobr>076-211 50 43</nobr>.
 
-<b>Presentation:</b> Jag har intresserat mig för klingonska sedan i gymnasiet,
-och kan i dagsläget tillräckligt för att kunna hålla en stapplande
-konversation. (Tilläggas kan att den första frasen jag lärde mig var {bImoHqu'}
-"Du är väldigt ful." -- Inte för att jag vet vad <i>det</i> säger om mig.)
-Sedan dess har jag bland annat skapat en [fickordbok](../dict/), varit på
-[Klingonska Språkinstitutets](http://www.kli.org/) {qep'a'} i Philadephia
-i <time datetime="2000-07">juli 2000</time> (där bl.a. fick chansen att träffa
-språkets upphovsman, Marc Okrand). Sedan våren <time>1999</time> undervisar jag
-(tillsammans med {qa'naQ}) i en studiecirkel i klingonska, och i juli samma år
-drog vi igång Klingonska Akademien.
+<b>Presentation:</b> Jag har ägnat mig åt klingonska sedan i gymnasiet, och kan
+i dagsläget tillräckligt för att konversera, givet att den jag pratar med visar
+lite tålamod. (Det har visat sig att hörförståelse är något av det svåraste att
+öva upp när man inte har någon närheten att prata med.) :|
 
-Jag och {qa'naQ} är de som hållit på längst med klingonska av oss
-i <i>Klingonska Akademien</i> och det händer att folk runtomkring får för sig
-att vi talar <i>flytande</i>. -- Så är dessvärre inte fallen (med någon av oss)
-men vi stundom föra en stapplande dialog på klingonska -- och det är schysst på
-uteställen och fester. (»{'Iv. ghaH'a'. 'ach moH.}« eller kanske »{Dal
-lopno'vam. jImej. qatlhej'a'.}«)
+År 1998 grundades *Klingonska Akademien* av mig och Markus Persson. Sedan dess
+har jag hunnit ägna mig åt klingonska i otaliga former och har besökt flera av
+*[Klingonska språkinstitutets](http://kli.org/) {qep&shy;'a'&shy;mey}* (i USA
+och Europa) och av de tyska *[{qep&shy;Hom&shy;mey}](http://qephom.de/)* som
+bägge hålls årligen.
+
+Utöver att bygga och underhålla den här webbsidan, jag har hunnit författa [en
+klingonsk fickordbok](../dict/), och jag håller då och då kurser i, eller
+föreläser om, klingonska (på ett antal science fiction-kongresser under åren,
+men också på *Medborgarskolan* och på *Uppsala Universitet*).
+
+Vid upprepade tillfällen har jag dessutom fått vara med i teve och radio --
+mest framträdande är kanske Klingonska Akademiens bidrag till SVTs *Kobra* då
+större delen av ett program ägnades åt ett inslag med Markus och mig, och då
+jag också fick coacha Christer Fuglesang i klingonska. Därtill har jag gästat
+*Nyhetsmorgon* (i TV4), *Lantz i P3*, och ZTV och vid olika tillf&auml;llen lokalradiostationer i Umeå
+och Uppsala.
 
 
 Ständig sekreterare
 -------------------
-<img class="float-left" src="pic/qanaq2.jpg" height="208" width="173" alt="qa'naQ">
-Markus Persson <i>&lt;[mp@klingonska.org](mailto:mp@klingonska.org)&gt;</i>
-(a.k.a. <I>{qa'naQ}</I>)
+<img class="float-left" src="pic/qanaq2.jpg" height=208 width=173 alt="qa'naQ">
+Markus Persson (också känd som *{qa'naQ}*).  
+Epost: [*mp@klingonska.org*](mailto:mp@klingonska.org)
 
 <b>Presentation:</b> Jag hade knappt tittat på Star Trek innan {maHvatlh}
 introducerade mig till {tlhIngan Hol}, men jag blev snart fängslad av det
