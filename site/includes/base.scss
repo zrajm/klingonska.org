@@ -26,6 +26,90 @@ table.sortable thead th:hover { /* sortable tables with 'sorttable.js' */
 [onclick]:hover a { color: #000; } /* link inside hovered onclick element */
 a:active  { color: #aaa; } /* selected link -- button pressed on link */
 
+form {
+    margin: 0;
+    button, input {
+        white-space: nowrap;
+        height: 2em;
+        vertical-align: middle;
+        border: 1px solid #888;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        outline: 0;          /* remove blue default shine on focus */
+        margin: 0 -1px 0 0;  /* right-margin: -1px to overlap borders */
+        z-index: 10;
+        position: relative;
+        padding: 0 .5em;
+    }
+    button {
+        background: #eee;
+        color: rgb(68, 68, 68);
+        padding: 0 .75em;
+    }
+    input {
+        box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+    }
+
+    /** hover **/
+    /* :hover selector requires preceding tag name (in Chrome) */
+    button:hover, input:hover {
+        position: relative;
+        z-index: 30;
+        border: 1px solid #444;
+        border: 1px solid rgba(0, 0, 0, 0.75);
+    }
+    button:hover {
+        background: rgb(249, 249, 249);
+        background-image:
+            -webkit-linear-gradient(top,
+                rgb(249, 249, 249),
+                rgb(244, 244, 244)
+            );
+        color: rgb(34, 34, 34);
+        outline-color: rgb(34, 34, 34);
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+    }
+    input:hover {
+        box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.375),
+                          0 1px 1px 0 rgba(0, 0, 0, 0.5);
+    }
+    button:focus, input:focus {
+        outline: 1px solid #88f;
+        outline: 1px solid rgba(127,127,255,.75);
+        z-index: 30;
+    }
+    button:active, button.pressed, input:active {
+        box-shadow: inset 0 2px 6px rgba(0,0,0,.5);
+    }
+    button:active, button.pressed {
+        background-image: none;
+        background: #bbb;
+    }
+    input:active { background: #f8f8f8; }
+    img {
+        height: 1.25em;
+        width: 1.25em;
+        vertical-align: middle;
+        user-drag: none;
+            -moz-user-drag: none;
+            -webkit-user-drag: none;
+    }
+    button.dropdown {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        color: blue;
+        background: transparent;
+        /* set absolute size and move on top of previous element */
+        position: absolute;
+        z-index: 100;
+        height: 2em;
+        width: 1.5em;
+        margin-left: -1.5em;
+        img { padding: .25em }
+    }
+    button.dropdown:hover { background: rgba(0,0,0,.0645); }
+}
+
 /* HTML5Boilerplate sets 'td { vertical-align: top; }' */
 th.left,   td.left   { text-align: left;   }
 th.right,  td.right  { text-align: right;  }

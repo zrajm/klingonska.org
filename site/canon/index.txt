@@ -25,13 +25,13 @@ into a single system/format yet. This is something I’m working on, but I thoug
 it better to offer the search facility to you now, than to wait for perfection
 (which might well take yet some time to achieve).
 
-<form action="search/" method=get>
-<table class=noborder>
-  <tr>
-    <td><input type=text id=query name=query value="" size=30>
-    <td><input type=submit value=Search>
-    <td><small>• <a href="search/?get=help">Search Help</a></small>
-</table>
+<form method=get action="search/">
+  <table class="noborder layout">
+    <tr>
+      <td><input name=query size=30 placeholder="Search archive…"
+        ><button>Search</button>
+      <td><small>• <a href="search/?get=help">Help</a></small>
+  </table>
 </form>
 
 If you prefer, you may instead use the table below to browse through the

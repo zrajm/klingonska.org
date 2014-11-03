@@ -2309,15 +2309,17 @@
      the normal search.
 ***** DONE alt + title
       CLOSED: [2014-11-02 sön 00:47]
-***** [40%] Use form element CSS for whole site.
+***** [60%] Use form element CSS for whole site.
       Search field CSS should be moved from `includes/dict.scss` to the
       `includes/base.scss` used by all pages. Need to make sure that this looks
       good everywhere, and does not conflict with other CSS.
 ****** DONE dict/
 ****** DONE /
-****** TODO canon/
+****** DONE canon/
+       CLOSED: [2014-11-03 Mon 08:52]
 ****** TODO glossary/
 ****** TODO piqad/play.cgi
+       Uses old design, upgrade new.
 ***** TODO Make sure CSS words in MSIE/Chrome/Firefox/Safari
 ***** TODO Add "Advanced search" dropdown (script)
       This script should add the dropdown button + its menu.
