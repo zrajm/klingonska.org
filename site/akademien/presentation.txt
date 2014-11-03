@@ -14,7 +14,7 @@ Ordförande/grundare
 <div class="gallery float-left" style="margin: 0 .5em 0 -.5em;">
   <a href="pic/mahvatlh.jpg" class=item style="width:250px">
     <img src="pic/mini/mahvatlh.jpg" height=167 width=250 alt=maHvatlh>
-    <small><i>Fotografi av Björn Lindström, augusti 2010.</i></small>
+    <small class=light><i>Fotografi av Björn Lindström, augusti 2010.</i></small>
   </a>
 </div>
 
