@@ -134,6 +134,8 @@
    `includes/gallery.scss` have a couple of exceptions from this rule since the
    <figure> element have its size set (in the HTML) according to the size of
    the image it contains.
+** DONE Prettify tab row (make more Chrome-like)
+   CLOSED: [2014-11-04 tis 17:39]
 ** TODO Replace underscore in URLs with hyphen
    Hyphens are easier to type, prettier to look (narrower) at and seem to be
    emerging as a standard for separating words is URLs on the web.
@@ -237,8 +239,10 @@
 *** TODO Make use of consistent URLs
 * Site content
 ** TODO Do a surf-through check for weird/old shit
-** [11%] Systematic/site-wide changes
+** [13%] Systematic/site-wide changes
    I.e. changes that need to be applied to the web page as a whole.
+*** TODO Read up on SMACSS apply those principles to CSS
+    http://smacss.com/
 *** [0%] Social network interactivity
 **** TODO Same button design as The New Zealand Herald?
      http://www.nzherald.co.nz/business/news/article.cfm?c_id=3&objectid=11142421
@@ -755,9 +759,9 @@
     --><!--#include virtual="/.log.cgi"
     --><!--#endif -->
 
-*** TODO Optimize jpeg images
-    Johan at work mentioned that JPEGs can be radically shrunk by optimizing
-    the hash tables in them.
+*** TODO Optimize PNG & JPEG images
+    JPEGs can sometimes be radically shrunk by optimizing the hash tables in
+    them. (Tools: `optipng` and `jpegoptim`)
 *** TODO Disable word-wrap for naked Klingon affixes
     Use 'class="affix"', e.g. <b lang="tlh" class="affix">...</b>.
 
@@ -795,6 +799,10 @@
      Use CSS from: http://klingonska.org/songs/tahjaj_wo/index.html
 **** TODO Name in footer/copyright notice should not be italics
 **** TODO Line width should max become something readable
+**** TODO Add polyfill to allow SVG in MSIE
+     It should be applied only to MSIE, other users should not have to load it.
+     More info about an appropriate polyfill 'SVGWeb' can be found here:
+     http://html5please.com/#polyfill
 **** DONE Replace all occurances of <table> navigation menu with <dl>
      CLOSED: [2011-04-12 Tue 00:12]
 **** DONE Design CSS for site navigation

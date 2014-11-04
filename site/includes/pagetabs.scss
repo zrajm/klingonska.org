@@ -11,33 +11,65 @@ header.tabbed {
         }
     }
     nav.pagetabs {
-        display: block;
+        /* content appearance */
         font-family: sans-serif;
         font-weight: bold;
-        font-size: 80%;
-        margin: .75em 0 0 0;
-        overflow: hidden;   /* avoids lower edge sticking out 1px (Chrome 22) */
+        font-size: 90%;
+        text-align: center;
+
+        /* tab row size & shape */
+        display: block;
+        margin: 0;
         padding: 0;
         position: relative; /* needed by 'z-index' */
-        text-align: center;
         z-index: 20;        /* tab row overlapping KA logo */
+
+        line-height: 2.25em;
+        height: 2.75em;
+        overflow: hidden;
+        padding: 0 20px;
+        white-space: nowrap;
         > * {
+            /* content appearance */
             color: inherit;
             background: #aaa;
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
-            border: solid #922;
-            border-width: 1px 1px 0;
-            display: inline-block;
-            margin: 0;
-            padding: .25em .75em .125em;
             text-decoration: inherit; /* remove link decorations */
+
+            /* tab size & shape */
+            border-top-left-radius: 25px 170px;
+            border-top-right-radius: 25px 170px;
+            display: inline-block;
+            margin: 10px -16px 0;
+            padding: 0 2em;
+            height: 170px;
+            box-shadow: 0 10px 20px rgba(0,0,0,.75);
+
+            /* tab max width */
+            max-width: 200px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+            /* tab overlapping */
+            position: relative;
+            z-index: 10;
         }
+        /* tab overlapping (cont.) */
+        > * + * { z-index: 9; }
+        > * + * + * { z-index: 8; }
+        > * + * + * + * { z-index: 7; }
+        > * + * + * + * + * { z-index: 6; }
+        > * + * + * + * + * + * { z-index: 5; }
+        > * + * + * + * + * + * + * { z-index: 4; }
+        > * + * + * + * + * + * + * + * { z-index: 3; }
+        > * + * + * + * + * + * + * + * + * { z-index: 2; }
+        > * + * + * + * + * + * + * + * + * + * { z-index: 1; }
         > *:hover {
+            z-index: 19;
             background: #ccc;
             color: #444;
         }
         > .selected {
+            z-index: 20;
             background: #fff;
             color: #000;
         }
