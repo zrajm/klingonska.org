@@ -19,10 +19,6 @@ section {
     overflow: auto;
 }
 
-button[disabled] {
-    color: #888;
-}
-
 article section > *:first-child {
     margin-top: 0;
 }
@@ -66,7 +62,6 @@ section {
 section.practice progress {
     background: #ddd;
     border: 1px inset #fff;
-    box-sizing: border-box;
     display: block;
     height: .5em;
 }
@@ -108,42 +103,27 @@ section.practice table ol {
     margin-bottom: 0;
 }
 
-section.practice .buttons {
-    padding: .5em 0 1.5em;
-}
-
+/* Colors + size of practice buttons. */
 section.practice button {
-    margin: .2em .1em;
+    margin: .2em 0;
     font-size: 150%;
     font-weight: bold;
 }
-
-section.practice button:active { border: inset #ccc; }
-section.practice button {
-    background: #aaa;
-    color: #333;
-    border: outset #ccc;
-}
-section.practice button.show {
-    width: 15em;
-}
-section.practice button.fail:active { border: inset #faa; }
-section.practice button.fail {
-    background: #f88;
+button.show { width: 15em; }
+button.fail:hover, button.fail:active  { color: #400; }
+button.fail {
+    background-color: #f88;
     color: #800;
-    border: outset #faa;
 }
-section.practice button.hard:active { border: inset #eea; }
-section.practice button.hard {
-    background: #cc8;
+button.hard:hover, button.hard:active { color: #220; }
+button.hard {
+    background-color: #cc8;
     color: #440;
-    border: outset #eea;
 }
-section.practice button.easy:active { border: inset #8f8; }
-section.practice button.easy {
-    background: #8f8;
+button.easy:hover, button.easy:active { color: #030; }
+button.easy {
+    background-color: #8f8;
     color: #060;
-    border: outset #afa;
 }
 
 /******************************************************************************\
@@ -190,16 +170,6 @@ section.input .input {
     height: 12em;
     overflow-y: auto;
     overflow-x: hidden;
-}
-
-section.input [contenteditable] span:hover {
-    outline: 2px solid rgba(0, 0, 0, .25);
-}
-
-section.input [contenteditable] {
-    border: 4px inset #888;
-    padding: .125em .25em;
-    line-height: 140%;
 }
 
 section.input .syllable {

@@ -27,62 +27,94 @@ table.sortable thead th:hover { /* sortable tables with 'sorttable.js' */
 a:active  { color: #aaa; } /* selected link -- button pressed on link */
 
 /* form elements */
+*[disabled] { opacity: .5; }
 form { margin: 0; }
-button, input {
-    white-space: nowrap;
-    height: 2em;
-    vertical-align: middle;
+button, input, textarea, *[contenteditable] {
     border: 1px solid #888;
     border: 1px solid rgba(0, 0, 0, 0.5);
-    outline: 0;          /* remove blue default shine on focus */
     margin: 0 -1px 0 0;  /* right-margin: -1px to overlap borders */
     z-index: 10;
     position: relative;
     padding: 0 .5em;
 }
+button, input {
+    white-space: nowrap;
+    height: 2em;
+    vertical-align: middle;
+}
 button {
     background: #eee;
-    color: rgb(68, 68, 68);
+    color: #444;
     padding: 0 .75em;
 }
-input {
+/* Text fields should have inside shadow. */
+input, input[type="text"], textarea, *[contenteditable] {
     box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.25);
 }
-/* :hover selector requires preceding tag name (in Chrome) */
-button:hover, input:hover {
-    position: relative;
+input[type] { box-shadow: none; }
+
+/* Hover over any form element. */
+button:hover, button:active,
+input:hover, input:active,
+textarea:hover, textarea:active,
+*[contenteditable]:hover, *[contenteditable]:active {
+    cursor: pointer;
     z-index: 30;
     border: 1px solid #444;
     border: 1px solid rgba(0, 0, 0, 0.75);
 }
-button:hover {
-    background: rgb(249, 249, 249);
-    background-image:
-        -webkit-linear-gradient(top,
-            rgb(249, 249, 249),
-            rgb(244, 244, 244)
-        );
-    color: rgb(34, 34, 34);
-    outline-color: rgb(34, 34, 34);
+button:hover, button:active {
+    background-image: -webkit-linear-gradient(
+        top,
+        rgba(255,255,255,.647),
+        rgba(255,255,255,.353)
+    );
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+    color: #222;
 }
-input:hover {
+
+/* Hover over text input field. */
+input:hover,  input[type="text"]:hover,
+input:active, input[type="text"]:active,
+textarea:hover, textarea:active,
+*[contenteditable]:hover, *[contenteditable]:active {
+    cursor: text;
     box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.375),
                       0 1px 1px 0 rgba(0, 0, 0, 0.5);
 }
-button:focus, input:focus {
+input[type]:hover {
+    cursor: pointer;
+    box-shadow: none;
+}
+
+/* Replace default blue shine on focus. */
+button:focus, input:focus, textarea:focus, *[contenteditable]:focus {
     outline: 1px solid #88f;
     outline: 1px solid rgba(127,127,255,.75);
     z-index: 30;
 }
-button:active, button.pressed, input:active {
+/* Pressed form element. */
+button:active, button.pressed, input:active, textarea:active,
+*[contenteditable]:active {
+    /* FIXME: Should use SCSS @extend to extend hovered element. */
     box-shadow: inset 0 2px 6px rgba(0,0,0,.5);
 }
-button:active, button.pressed {
-    background-image: none;
-    background: #bbb;
+button:active:after, button.pressed:after,
+textarea:active:after, *[contenteditable]:active:after, input:active:after {
+    /* Pseudo-element to darken both text and background. */
+    /* (NB: Does not cover button border.) */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: rgba(0, 0, 0, .25);
 }
-input:active { background: #f8f8f8; }
+textarea:active:after, *[contenteditable]:active:after, input:active:after {
+    /* Only darken input fields a little bit. */
+    background: rgba(0, 0, 0, .0625);
+}
 button img {
     height: 1.25em;
     width: 1.25em;

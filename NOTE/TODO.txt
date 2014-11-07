@@ -2317,10 +2317,7 @@
      the normal search.
 ***** DONE alt + title
       CLOSED: [2014-11-02 Sun 00:47]
-***** TODO Search button images should be DRY
-      Search (and dropdown) SVG images should be specified in CSS, so that we
-      can specify them just once for the entire website.
-***** [60%] Use form element CSS for whole site.
+***** [57%] Use form element CSS for whole site.
       Search field CSS should be moved from `includes/dict.scss` to the
       `includes/base.scss` used by all pages. Need to make sure that this looks
       good everywhere, and does not conflict with other CSS.
@@ -2328,10 +2325,16 @@
 ****** DONE /
 ****** DONE canon/
        CLOSED: [2014-11-03 Mon 08:52]
-****** TODO glossary/
+****** DONE glossary/
+       CLOSED: [2014-11-07 fri 15:06]
+****** TODO /canon/search/
 ****** TODO piqad/play.cgi
        Uses old design, upgrade new.
-***** TODO Make sure CSS words in MSIE/Chrome/Firefox/Safari
+****** TODO Make checkbox pretty (used by glossary/)
+***** TODO Search button images should be DRY
+      Search (and dropdown) SVG images should be specified in CSS, so that we
+      can specify them just once for the entire website.
+***** TODO Make sure CSS works in MSIE/Chrome/Firefox/Safari
 ***** TODO Add "Advanced search" dropdown (script)
       This script should add the dropdown button + its menu.
 **** DONE index.cgi should work for new style sources
