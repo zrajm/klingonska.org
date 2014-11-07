@@ -2316,7 +2316,10 @@
      extend the search, but rather illustrates the more advanced features of
      the normal search.
 ***** DONE alt + title
-      CLOSED: [2014-11-02 sön 00:47]
+      CLOSED: [2014-11-02 Sun 00:47]
+***** TODO Search button images should be DRY
+      Search (and dropdown) SVG images should be specified in CSS, so that we
+      can specify them just once for the entire website.
 ***** [60%] Use form element CSS for whole site.
       Search field CSS should be moved from `includes/dict.scss` to the
       `includes/base.scss` used by all pages. Need to make sure that this looks
