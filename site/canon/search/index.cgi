@@ -1,5 +1,16 @@
 #!/usr/bin/perl
 
+use strict;
+use warnings;
+use utf8;
+use CGI qw(:standard);
+binmode(STDIN,  ":encoding(utf8)");
+binmode(STDOUT, ":encoding(utf8)");
+
+my $YEAR    = "1998-2014";
+my $UPDATED = "2014-11-08T20:27:57+0100";
+my $VERSION = "0.9b";
+
 # TODO
 #
 #     o word index for fast searches
@@ -15,42 +26,8 @@
 #
 #     o show page numbers in search results preview (where applicable)
 #
-#     o logging(?)
-#
-#     o TKD/TKW/KGT displayable -- with proof of ownership (use cookie)
-#
 #     o test well-formedness of stylesheet + HTML
 #
-
-# HISTORY
-#
-# [2001-10-08, 21:41] - [2001-10-10, 07.50] 0.1b
-#
-# [2001-10-12, 05.29-09.19] 0.2b
-#
-# [2001-10-16, 13:43-15:17] 0.3b
-#
-# [2001-10-17, 18.45-22.09] v0.4b - At last fixed the bug that caused some
-# searches not to be correctly marked in the search output.
-#
-# [2001-10-20,~03.00] - v0.4b now automatically enables beta test mode if the
-# script is called 'found.cgi' (that's just to help me developing it).
-#
-# [2002-10-24, 16.19-17.03] - Just fooled around a bit. This code need serious
-# rewriting.
-#
-# [2009-04-13]
-#
-# [2010-03-03]
-#     o search at top of page doesn't work when displaying a file
-#     o proper scoping of all variables fixed
-#
-# [2011-07-03]
-#     o Now uses HTML5 "autofocus" attribute instead of Javascript
-#     o Added $PUBDATE variable for page update time
-#     o Changed logo so that it links back to "Archive of Okrandian Canon"
-
-my $PUBDATE = "2011-07-03T20:05";
 
 # Implementera vettig standardheader för filformatet.
 #
@@ -63,13 +40,6 @@ my $PUBDATE = "2011-07-03T20:05";
 # $query_mark       = single regex for marking matches in output
 #
 
-use strict;
-use warnings;
-use utf8;
-use CGI qw(:standard);
-binmode(STDIN,  ":encoding(utf8)");
-binmode(STDOUT, ":encoding(utf8)");
-
 {
     package Query;
     # $query            = original query (string)
@@ -80,7 +50,7 @@ binmode(STDOUT, ":encoding(utf8)");
     #   @query_case[$i] = true when $query_regex[$i] is case sensetive
     # $query_mark       = single regex for marking matches in output
 
-    # this thing splits a string into words if a "word" contains spaces it
+    # This thing splits a string into words if a "word" contains spaces it
     # should be quoted generate: four lists @query_{word,not,case,regex}[] and
     # the strings $query_mark (a regex for marking found things) and
     # $query_clean (a cleaned up version of the query - as interpreted by the
@@ -103,33 +73,39 @@ binmode(STDOUT, ":encoding(utf8)");
 	    my (@case, @clean, @mark, @not, @regex, @word) = ();
 	    my $not_count = 0;
 	    for (split_query($string)) {
-		next if /^[-+=]*[ *]*$/; # skip wildcard-only words
-		my ($prefix, $word) = m#^([-+=]*)"?([^"]*)#;    # extract prefix & del quotes
-		$word =~ s/([ *])\1*/$1/g;                       # compress multiple stars/spaces
+		next if /^[-+=]*[ *]*$/;       # skip wildcard-only words
+		my ($prefix, $word)            # extract prefix & del quotes
+                    = m#^([-+=]*)"?([^"]*)#;
+		$word =~ s/([ *])\1*/$1/g;     # compress multiple stars/spaces
 		my $not   = ($prefix =~ m/-/ ? "-" : "");
 		my $case  = ($prefix =~ m/=/ ? "=" : "");
 		my $regex = regexify($word, $case);
-		push @case,  $case;                  # ignore case prefix
-		push @clean, $not . $case .          # cleaned-up version of query
-		    ($word =~ m/(?:^[-+=]|\s)/ ? '"'.$word.'"' : $word);
+		push @case,  $case;            # ignore case prefix
+		push @clean, $not . $case .    # cleaned-up version of query
+		    ($word =~ m/(?:^[-+=]|\s)/ ? qq("$word") : $word);
 		if ($not) {
 		    $not_count ++;
 		} else {
-		    push @mark,  $regex;             # text highlight regex
+		    push @mark,  $regex;       # text highlight regex
 		}
-		push @not,   $not;                   # negation prefix
-		push @regex, $regex;                 # word -> regex
-		push @word,  $word;                  # word (excluding) prefix
+		push @not,   $not;             # negation prefix
+		push @regex, $regex;           # word -> regex
+		push @word,  $word;            # word (excluding) prefix
 	    }
-	    my $regex = "(".join("|", @mark).")";
+	    my $regex = "(" . join("|", @mark) . ")";
 	    $self->{case}  = \@case;
 	    $self->{clean} = join(" ", @clean);
 	    $self->{mark}  = qr/$regex/;
 	    $self->{not}   = \@not;
 	    $self->{regex} = \@regex;
 	    $self->{word}  = \@word;
-	    $self->{error} = "You may not negate all search words"
-		if $not_count == @word;
+            if ($not_count > 0) {
+                $self->{error} = "You may not negate all search words"
+                    if $not_count == @word;
+            } else {
+                $self->{error} = "No search words specified"
+                    if @word == 0;
+            }
 	}
 	return $self;
     }
@@ -193,48 +169,30 @@ binmode(STDOUT, ":encoding(utf8)");
     1;
 }
 
-
 ###############################################################################
 ##                                                                           ##
 ##  Settings                                                                 ##
 ##                                                                           ##
 ###############################################################################
 
-sub FALSE { "" }
-sub TRUE  {  1 }
 our %cfg = (
-    VERSION        => "BETA 0.8b",
-    MAX_MATCHES    => 30,                      # max allowed number of hits
     DESC_LENGTH    => 300,                     # max length of file descr.
     # context length is always shortened, so this is only an approximate value
     # (it can never grow bigger than this though)
     CONTEXT_LENGTH => 35,                      # max length of found context
-    SCRIPT_URL     => "",                 #$ENV{"SCRIPT_NAME"} =~ m#([^/]+)$#;
     BASE_DIR       => "..",
 
     # things for regexes
-    re_alph => "'0-9A-Za-z".                       # alphabetical characters
-        "ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞß".         #   (note that apostrophe
-        "àáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ",         #   is included)
+    re_alph => q/'0-9A-Za-z/                   # alphabetical characters
+        . q/ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞß/   #   (note that apostrophe
+        . q/àáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ/,  #   is included)
 
     # unit test stuff
-    TEST => {
-	html2transcript => FALSE,
-    }
+    TEST => { html2transcript => "" },
 );
 # word boundaries for regexes
-$cfg{re_bow} = "(?:\\A|(?<![$cfg{re_alph}]))";     # beginning of word
-$cfg{re_eow} = "(?:\\Z|(?![$cfg{re_alph}]))";      # end of word
-
-
-$ENV{"X_YEAR"}  = "2002";                      # year
-$ENV{"X_LANG"}  = "en";                        # language
-$ENV{"X_NOLOG"} = "YES";                       # turn of logging
-$ENV{"X_TITLE"} = "Okrandian Canon Search ($cfg{VERSION})";# page title
-
-# FIXME: check these variables (bad names?)
-my $path = ""; #"$ENV{DOCUMENT_ROOT}";               # path
-
+$cfg{re_bow} = "(?:\\A|(?<![$cfg{re_alph}]))"; # beginning of word
+$cfg{re_eow} = "(?:\\Z|(?![$cfg{re_alph}]))";  # end of word
 
 ###############################################################################
 ##                                                                           ##
@@ -242,82 +200,52 @@ my $path = ""; #"$ENV{DOCUMENT_ROOT}";               # path
 ##                                                                           ##
 ###############################################################################
 
+sub is_under_copyright {
+    my ($transcript_file) = @_;
+    return $transcript_file =~ m#-(tkd|tkw|kgt)\.txt$# ? 1 : "";
+}
+
 # Usage: $TEXTDATE = text_date($ISODATE);
 #
 # Converts datestring (beginning with a YEAR-MM-DD) into a descriptive plain
 # text date like "January 1, 2012". Only year, month and day is included, and
 # anything coming after the initial date in $ISODATE is ignored.
-sub text_date {
-    my ($date) = @_;
-    # Accepts only ISO dates beginning with "1999-12-31"
-    if ($date =~ m/^(\d{4})-0?(\d{1,2})-0?(\d{1,2})/) {
-        my ($year, $month, $day) = ($1, $2, $3);
-        my @month = qw(
-            January   February  March      April    May       June
-            July      August    September  October  November  December
-        );
-        return "$month[$month] $day, $year";
+{
+    my @month = qw(
+        January   February  March      April    May       June
+        July      August    September  October  November  December
+    );
+    sub text_date {
+        my ($date) = @_;
+        # Accepts only ISO dates beginning with "1999-12-31"
+        if ($date =~ m/^(\d{4})-0?(\d{1,2})-0?(\d{1,2})/) {
+            my ($year, $month, $day) = ($1, $2, $3);
+            return "$month[$month - 1] $day, $year";
+        }
+        return "UNKNOWN DATE";
     }
-    return "UNKNOWN DATE";
 }
 
-sub dump {
-    use Data::Dumper;
-    $Data::Dumper::Sortkeys = 1;
-    $Data::Dumper::Indent   = 1;
-    print "<pre>", Dumper(@_), "</pre>";
-}
-
-# Returns file modification time of this script.
-sub script_date {
-    my @time = localtime((stat $0)[9]);            # file modification date
-    return sprintf "%04u-%02u-%02u, %02u.%02u",    #   YYYY-MM-DD, HH.MM
-	1900+$time[5], 1+$time[4], @time[3,2,1];   #   year, month, day, hour, min
-}
-
-# Returns url of this script.
-# FIXME taint checks
-sub script_url {
-    my $url = "http://" . env("SERVER_NAME") . env("REQUEST_URI");
-    $url =~ s/\?.*$//;  #   chop off any "get" args
-    return $url;
+{
+    my %month = (
+        "01" => "Jan", "02" => "Feb", "03" => "Mar", "04" => "Apr",
+        "05" => "May", "06" => "Jun", "07" => "Jul", "08" => "Aug",
+        "09" => "Sep", "10" => "Oct", "11" => "Nov", "12" => "Dec",
+    );
+    sub short_text_date {
+        my ($year, $month, $day) = @_;
+        $month = $month{$month} if defined $month;
+        $day   =~ s/^0+//       if defined $day;
+        return defined($month)
+            ? $month . (defined $day ? " $day" : "") . ", $year"
+            : "$year";
+    }
 }
 
 sub env {
     my ($envname) = @_;
     return exists($ENV{$envname}) ? $ENV{$envname} : "";
 }
-
-
-sub developer_query_dump(\@\@\@\@$) {
-    my @query_word  = @{shift()};
-    my @query_not   = @{shift()};
-    my @query_case  = @{shift()};
-    my @query_regex = @{shift()};
-    my $query_mark  = shift();
-
-    # developer info (dump word, rexes etc.)
-    print "<table cellspacing=\"0\" border=\"1\" align=\"center\">\n";
-    print "  <tr>\n";
-    print "    <th colspan=\"2\">word\n";
-    print "    <th>regex\n";
-    for my $i (0..$#query_word) {
-        print "  <tr".($query_not[$i]?" bgcolor=\"grey\"":"").">\n";
-        print "    <td>$query_not[$i]$query_case[$i]";
-        print "    <td>$query_word[$i]\n";
-        my $x = $query_regex[$i];               # shorten long regexes
-        $x =~ s#$cfg{re_alph}#[:alph:]#go;              # involving $cfg{re_alph}
-        print "    <td>$x\n";
-    }
-    print "  <tr>\n";
-    print "    <th colspan=\"3\">mark regex\n";
-    print "  <tr>\n";
-    my $x = $query_mark;               # shorten long regexes
-    $x =~ s#$cfg{re_alph}#[:alph:]#go;              # involving $cfg{re_alph}
-    print "    <td colspan=\"3\">$x\n";
-    print "</table> \n";
-}
-
 
 # Usage: ($TEXT[, %HEAD]) = read_file($FILE);
 #
@@ -352,91 +280,136 @@ sub read_file {
     return $text;
 }
 
-
 sub page_footer {
-    return <<EOF;
+    my ($year1, $year2) = $YEAR =~ /(\d+)[[:punct:]]+(\d+)/;
+    return <<"EOF";
 </div>
 
-<div id="foot">
-<p class="copyright">&copy;1998&ndash;2010, Copyright <span class="author"><a href="mailto:zrajm\@klingonska.org">zrajm</a></span>, <a href="http://klingonska.org/">Klingonska Akademien</a>, Uppsala.</p>
-<p class="validator">
- Validate:
-  <a href="http://validator.w3.org/check?uri=http://klingonska.org/canon/">XHTML</a>,
-  <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://klingonska.org/canon/&amp;profile=css3">CSS3</a>,
-  <a href="http://validator.w3.org/checklink?uri=http://klingonska.org/canon/">links</a>.
- License:
-  <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">CC BY&ndash;SA</a>.&nbsp;
-</p>
-</div>
+<footer role=contentinfo>
+  <p class=copyright>© <time itemprop=copyrightYear>$year1</time>–<time>$year2</time> by
+    <a href="mailto:zrajm\@klingonska.org" rel=author itemprop=author>zrajm</a>,
+    <a href="http://klingonska.org/" itemprop=sourceOrganization>Klingonska Akademien</a>, Uppsala
+  <p class=validator>
+    Validate:
+    <a href="http://validator.w3.org/check?uri=http://klingonska.org/">HTML5</a>,
+    <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://klingonska.org/&profile=css3">CSS3</a>,
+    <a href="http://validator.w3.org/checklink?uri=http://klingonska.org/">links</a>.
+    License:
+    <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel=license>CC BY–SA</a>.
+</footer>
+<script>var _gaq=[['_setAccount','UA-5434527-2'],['_trackPageview']];
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+s.parentNode.insertBefore(g,s)}(document,'script'))</script>
+<script src="../../includes/titlewrap.js"></script>
 </body>
 </html>
 EOF
 }
 
+# Return array of HTML. One line per element (without trailing newlines).
+sub metadata_table {
+    my %hash = @_;
+    return qq(<table>),
+        %hash ? (
+            map {
+                (!/^style$/x and $hash{$_}) ? (
+                    qq(  <tr>),
+                    qq(    <th class="right light">\u$_),
+                    qq(    <td>) . transcript2html($hash{$_}),
+                ) : ();
+            } (sort keys %hash),
+        ) : qq(  <tr><th class=light>Missing metadata),
+        qq(</table>);
+}
+
+sub match_links {
+    my ($query, $found, $query_word) = @_;
+    my @out;
+
+    my @query_not  = $query->not();
+    my @query_case = $query->case();
+    my $count = 0;
+    foreach my $i (0..$#$query_word) {
+        next if $query_not[$i];
+	my $word = $query_word->[$i];
+        my @x = split(" ", $found->{$word});
+	if (@x) {
+            push @out, sprintf(
+                "%s»<tt>%s</tt>« ",
+                ($i > 0 ? "<br>" : ""),
+                $word,
+            );
+            push @out, join " ", map {
+                $count += 1;
+                qq(<a href="#$count">›$_</a>);
+            } 1..@x;
+	}
+    }
+    return @out;
+}
 
 sub page_header {
     my (%hash) = @_;
-    my $changed = script_date();
-    my $url     = script_url();
-    my ($headline, $big_logo) = ("", "");
-    if (exists($hash{title}) and $hash{title}) {
-	$headline = <<EOF;
-<h1>$ENV{X_TITLE}</h1>
-EOF
-	$big_logo = <<EOF;
-<p><a href=".."><img src="../../pic/ka.gif" width="600" height="176" alt="Klingonska Akademien" /></a></p>
-EOF
-    }
-    my $pubdate   = $PUBDATE;
-    my $text_date = text_date($pubdate);
-    return <<EOF;
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    my $isodate   = $UPDATED;
+    my $text_date = text_date($isodate);
+    my $backlink  = exists $hash{file}
+        ? qq(?q=) . url_encode($hash{query})
+        : "../";
+    return <<"EOF";
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=en> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang=en> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang=en> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=en> <!--<![endif]-->
 <head>
-<title>$ENV{X_TITLE} &ndash; Klingonska Akademien</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="geo.region" content="SE-C" />
-<meta name="geo.placename" content="Europe, Sweden, Uppsala, Kåbo" />
-<meta name="geo.position" content="59.845658;17.630797" />
-<link rel="stylesheet" type="text/css" href="../../includes/dict-layouttable.css" />
-<link rel="stylesheet" type="text/css" href="../../includes/page.css" />
-<link rel="stylesheet" type="text/css" href="../../includes/pagestats.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Archive of Okrandian Canon – Klingonska Akademien</title>
+  <meta name=viewport content="width=device-width">
+  <link rel=stylesheet href="../../includes/base.css">
+  <link rel=stylesheet href="../../includes/banner.css">
+  <link rel=stylesheet href="../../includes/dict.css">
+  <link rel=stylesheet href="../../includes/dict-layouttable.css">
+  <link rel=stylesheet href="../../includes/canon-search.css">
+  <link rel=icon href="/favicon.ico">
+  <link rel=canonical href="http://klingonska.org/">
+  <script src="../../includes/modernizr-2.5.3.js"></script>
 </head>
-<body>
+<body lang=en itemscope itemtype="http://schema.org/WebPage">
 
-<div id="head">
-<!-- begin:status -->
-<div id="pagestats">
-  <span id="crumbs">
-    <a href="http://klingonska.org/">Home</a> &gt;
-    <a href="http://klingonska.org/canon/">Archive of Okrandian Canon</a> &gt;
-    <a href="http://klingonska.org/canon/search/">Search</a>
-  </span>
-  <span id="pubdate">
-    Updated <time pubdate datetime="$pubdate">$text_date</time>
-  </span>
-</div>
-<!-- end:status -->
+<header role=banner>
+  <!-- begin:status -->
+  <ul>
+    <li>
+      <nav itemprop=breadcrumb role=navigation>
+        <a href="http://klingonska.org/">Home</a> ›
+        <a href="http://klingonska.org/canon/">Archive of Okrandian Canon</a> ›
+        <a href="http://klingonska.org/canon/search/" itemprop=url>Search</a>
+      </nav>
+    <li>
+      Updated <time pubdate itemprop=dateModified datetime="$isodate">$text_date</time>
+  </ul>
+  <!-- end:status -->
+  <div>
+    <a href="$backlink">
+      <table id=logotitle>
+        <td>
+          <span class=crop>
+            <img height=200 width=200 src="../../pic/ka-logo.svg" alt="Klingonska Akademien">
+          </span>
+        <td>
+          <h1>Klingonska<span id=logospace>&nbsp;</span>Akademien</h1>
+      </table>
+    </a>
+  </div>
+</header>
 
-$big_logo</div>
+<div role=main itemprop=mainContentOfPage>
 
-<div id="main">
-$headline
+<h1>Archive of Okrandian Canon</h1>
 EOF
 }
-
-
-sub page_title {
-    return <<EOF;
-
-<!-- ==================== Title ==================== -->
-<p align="center"><a href=".."><img src="/pic/ka.gif" width="600" height="176" alt="Klingonska Akademien" border="0" vspace="5" /></a>
-
-<h1 align="center">$ENV{X_TITLE}</h1>
-EOF
-}
-
 
 # Resolve hypenation and remove comments from a transcript.
 sub strip_comments {
@@ -450,301 +423,251 @@ sub strip_comments {
     return $text;
 }
 
-sub display_result {
+sub strip_after_comma {
+    (local $_) = @_;
+    s/,.*//;
+    return $_;
+}
+
+sub strip_leading {
+    (local $_, my $prefix) = @_;
+    s/^\Q$prefix//;
+    return $_;
+}
+
+# Usage: ($year, $month, $day, $suf, $title) = split_filename($file);
+#
+# Filenames are expected to be in format: YYYYa-TITLE.txt, YYYY-MMa-TITLE.txt
+# or YYYY-MM-DDa-TITLE.txt, where 'a' is an optional letter ('a', 'b', 'c'
+# etc.) to distinguish otherwise identical sources.
+#
+# Return empty array if filename couldn't be analyzed. One or more components
+# may be undef if they're not specified in the filename. Any leading path is
+# ignored.
+sub split_filename {
+    local ($_) = @_;
+    if (m{^ (?:.*/)? (0|\d{4}) (?:-(\d{2}) (?:-(\d{2}))? )? \w? - ([^/]*) [.]txt $}x) {
+        return ($1, $2, $3, $4, $5);
+    }
+    return ();
+}
+
+sub result_page {
     my ($path, %form) = @_;
     my $query = new Query($form{query});
-    print old_form($query->clean(), "", %form);      # output page header & form
-    if ($form{debug}) {
-	# TODO compare structures & fix them up
-	# (sort output from Dumper)
-	{
-	    my @query_word  = $query->word();
-	    my @query_not   = $query->not();
-	    my @query_case  = $query->case();
-	    my @query_regex = $query->regex();
-	    my $query_mark  = $query->mark();
-	    developer_query_dump(
-		@query_word, @query_not, @query_case,
-		@query_regex, $query_mark);        #   show query from string
-	}
-    } else {                                   #
-        #log_query();                           #   log the search
-    }                                          #
     # file name globbing
     my @file    = sort glob("$cfg{BASE_DIR}/[0-9]*.txt");  # glob up a file name list
     my $matches = 0;                           # number of matches found
-    my $output  = "";                          # output buffer
+    my $out  = "";                             # output buffer
     if ($query->error()) {
-        $output  = "<h2>" . $query->error() . "</h2>\n\n";
-        $output .= suggest_search();     #
-    } else {                                    # not all words are negated
-	$output .= "<dl>";
+        $out  = "<h2>" . $query->error() . "</h2>\n\n";
+        $out .= suggest_search();
+    } else {                                   # not all words are negated
+        $out .= qq(<dl class=found>\n);
 	my @query_regex = $query->regex();
 	my @query_not   = $query->not();
 	my $query_mark  = $query->mark();
-      FILE: foreach my $file (@file) {        #   for each file
-	    # read file
+        foreach my $file (@file) {
 	    my ($text, %head) = read_file($file);
 	    $text = strip_comments($text);
 	    foreach my $j (0..$#query_regex) {
 		if ($text =~ /$cfg{re_bow}$query_regex[$j]$cfg{re_eow}/ xor $query_not[$j]) {
-		    $matches++;
-		    $output .= store_match($file, $text, $form{query}, $query_mark, %head);
+		    $matches += 1;
+		    $out .= store_match(
+                        file  => $file,
+                        meta  => \%head,
+                        text  => $text,
+                        query => $form{query},
+                        mark  => $query_mark,
+                    );
 		}
 	    }
         }
-	$output .= "</dl>";
-        # override search result (if too many, or none at all)
-        #if ($matches == 0) {
-	#    $output = no_matches($matches) . suggest_search();
-        #} elsif ($matches > $cfg{MAX_MATCHES}) {
-        #    $output = too_many_matches($matches);
-        #}
+	$out .= "</dl>";
     }
-    print display_matches($matches, $query->clean());
-    print $output;
-    print page_footer();
+    return old_form($query->clean(), "", %form)
+        . status_row(
+            "%s document%s found.",
+            $matches == 0 ? "No" : $matches,
+            $matches == 1 ? ''   : 's',
+        )
+        . $out
+        . page_footer;
 }
 
-
-our %month = (
-    "01" => "Jan", "02" => "Feb", "03" => "Mar", "04" => "Apr", "05" => "May",
-    "06" => "Jun", "07" => "Jul", "08" => "Aug", "09" => "Sep", "10" => "Oct",
-    "11" => "Nov", "12" => "Dec",
-);
-
-sub store_match {
-    my ($file, $text, $query, $query_mark, %head) = @_;
-    # $text is the contents if $file, with comments and hyphenation removed and
-    # without the file header
-
-    # extract date
-    my $date = do {
-	my ($year, $month, $day) = $file =~ m#^ (?:.*/)? (\d+) (?: -(\d+) (?:-(\d+))? )? \w?--#x;
-	$month =  $month{$month} if defined($month);
-	$day   =~ s/^0+//        if defined($day);
-	"$day $month $year";
-    };
-
-    # FIXME: we should display matches of TKD, CK, PK the other canon works
-    # differently, so that page numbers are shown for each match
-    my ($title, $link, $source_link) = file2title($file, $query);   # get name of document
-
-    $title = transcript2html($head{title}) if exists($head{title});
-
-    my $output_buffer =
-        "  <dt><b><a href=\"$link\">$title</a></b>\n" .   # FIXME
-        "  <dd><font size=\"-1\"><font color=\"#777777\"><i>" .
-	join(" - ",
-	     $date,                                                  # publish date
-	     (exists($head{type})      ? ucfirst($head{type}) : ()), # type (book, email etc.)
-	     (exists($head{author})    ? $head{author}        : ()), # author
-	     (exists($head{publisher}) ? $head{publisher}     : ()), # author
-	) . "<i></font>\n" .
-	"    <br />";
-
-    my $characters = 0;
-    my $context = "";
-    # FIXME: This while loop should probably be re-written to use as many *different*
-    # matching words as possible. Instead of just outputting the x number of matches
-    # that comes first in each file. A loop over (parts of) $query_regex[$i] could
-    # prove fruitful.
-    my $incomplete = "";
+sub match_summary {
+    my ($text, $query_mark) = @_;
+    # FIXME: This while loop should probably be re-written to use as many
+    # *different* matching words as possible. Instead of just outputting the x
+    # number of matches that comes first in each file. A loop over (parts of)
+    # $query_regex[$i] could prove fruitful.
+    my ($characters, $context, $incomplete, $out) = (0, "", "", "");
     while (
         $characters < $cfg{DESC_LENGTH}
-        and $text =~ /$cfg{re_bow}$query_mark$cfg{re_eow}/gx
+            and $text =~ /$cfg{re_bow}$query_mark$cfg{re_eow}/gx
     ) {
-#        $foundpos = pos($text);
-        ($context, $incomplete) = context(      # get context of found word
-            $text,                              #
-            pos($text)-length($1)-$cfg{CONTEXT_LENGTH}, # left pos in string
-            $cfg{CONTEXT_LENGTH}*2+length($1)        # size of pre- & post-context
+        ($context, $incomplete) = context(     # get content around found word
+            $text,
+            pos($text) - length($1) - $cfg{CONTEXT_LENGTH}, # left pos in string
+            $cfg{CONTEXT_LENGTH} * 2 + length($1)        # size of pre- & post-context
         );
+        for ($context) {
+            s#\n+(?:[>:] *)*# #g;              # TODO: remove or keep?
+                                               # this thingy removes the line
+                                               # quote signs ":" and ">"
+            s#\A  [$cfg{re_alph}]* [^$cfg{re_alph}]+ ##sox   # trim initial half-word & space
+                unless $incomplete < 0;
+            s#   [^$cfg{re_alph}]+  [$cfg{re_alph}]* \Z##sox # trim final space & half-word
+                unless $incomplete > 0;
 
-        $context =~ s#\n+(?:[>:] *)*# #g;                 # TODO: remove or keep?
-                                                          # this thingy removes the line
-                                                          # quote signs ":" and ">"
+            s/\s+/ /g;                         # squash space & linefeeds
+            $characters += length $context;    # size of match description
 
-        $context =~ s#\A  [$cfg{re_alph}]* [^$cfg{re_alph}]+   ##sox      # trim initial half-word & space
-            unless $incomplete<0;                         #
-        $context =~ s#   [^$cfg{re_alph}]+  [$cfg{re_alph}]* \Z##sox      # trim final space & half-word
-            unless $incomplete>0;                         #
+            # Mark found words by inserting [[...]] around it (it is ok to use
+            # the comment symbols, because we've already removed all the
+            # comments in the text and we need something here that both is
+            # unaffected by the HTML encoding and guaranteed not to occur in
+            # the text naturally.
+            s{ \Q[[\E | \Q]]\E }{}gx;          # strip any remaining [[ or ]]
+            s#$cfg{re_bow}($query_mark)$cfg{re_eow}#[[$1]]#g;
+            $context = transcript2html($context);
 
-#        # break contexts at new paragraph or between words
-#        $left_context   =~ s#(?:.*(?:\n[\t  ]*  ){2,}  |\A [$cfg{re_alph}]*[^$cfg{re_alph}]+  )##sox
-#            if $lbeg;
-#        $right_context  =~ s#(?:  (?:  [\t  ]*\n){2,}.*|  [^$cfg{re_alph}]+ [$cfg{re_alph}]*\Z)##sox
-#            if length($right_context) == $cfg{CONTEXT_LENGTH};
+            # convert the found word marks (i.e. [[...]]) into HTML tags
+            s#\Q[[\E#<mark>#go;
+            s#\Q]]\E#</mark>#go;#
+        }
 
-        $context     =~ s/\n+/ /g;              # linefeed = space
-        $characters +=  length $context;        # size of match description
+        $out .= ($incomplete >= 0 ? qq(…) : qq()) . qq( $context);
+    }
+    return $out . ($incomplete <= 0 ? " …" : "");
+}
 
-        # mark found word(s) (by inserting [[...]] around it - it is ok to use the
-        # comment symbols, because we've already removed all the comments in the
-        # text and we need something here that both is unaffected by the HTML encoding
-        # and guaranteed not to occur in the text naturally
-        $context     =~ s#$cfg{re_bow}($query_mark)$cfg{re_eow}#[[$1]]#g;
-        $context     =  transcript2html($context);  # htmlify description
+# TEXT is contents if FILE, with comments and hyphenation removed and without
+# metadata header.
+sub store_match {
+    my %arg = @_;
+    my ($file, $text, $query, $query_mark, $head)
+        = @arg{qw(file text query mark meta)};
 
-        # convert the found word marks (i.e. [[...]]) into HTML tags
-        $context     =~ s#\Q[[\E#<font color="\#FF0000"><b>#go;
-        $context     =~ s#\Q]]\E#</b></font>#go;#
+    my ($isodate, $date) = ("");
+    if (my ($year, $month, $day) = split_filename($arg{file})) {
+        $isodate = join("-", grep { defined } $year, $month, $day);
+        $date    = short_text_date($year, $month, $day);
+    }
 
-        $output_buffer .= ($incomplete >= 0 ? "<b>...</b>\n      " : "").
-#            " ".($linked?"":"[$page****]").     # this should add the page number
-            " $context";
-    }                                           #
-    $output_buffer .= ($incomplete <= 0 ? " <b>...</b>" : "") . "\n" .
-	($source_link ? "    <br /><font color=\"#777777\"><a href=\"$source_link\">Transcript</a>" : "") .
-	"</font></font>\n\n";
-    return $output_buffer;
+    # FIXME: We should display matches of TKD, CK, PK the other canon works
+    # differently, so that page numbers are shown for each match.
+    my ($source_link, $title, $link) = file2title($arg{file}, $query);   # get name of document
+    $title = transcript2html($head->{title}) if exists($head->{title});
+
+    my @value = (
+	($source_link ? qq(<a href="$source_link">Transcript</a>) : ()),
+        (exists($head->{type})      ? ucfirst($head->{type}) : ()), # type (book, email etc.)
+        (exists($head->{author})    ? $head->{author}        : ()),
+        (exists($head->{publisher}) ? strip_after_comma($head->{publisher}) : ()),
+    );
+    if (@value == 1) {
+        push @value, "&lt;Missing metadata&gt;";
+    }
+    return qq(  <dt><a href="$link">$title</a>)
+        . qq(\n  <dd><small>)
+        . qq(<span class=light>) . join(" - ", @value) . qq(</span>)
+        . qq(\n    <br>)
+        . qq(<time class=light datetime="$isodate">$date</time> )
+        . match_summary($text, $query_mark)
+        . qq(</small>\n\n);
 }
 
 sub old_form {
-    my ($query_clean, $message, %form) = @_;
-    # "Clean Up Query" link
-    my $clean_link = "";
-    unless ($query_clean eq $form{query}) {     # is query string messy?
-        $clean_link = "\n      <br />&nbsp;" .  #   create "clean up" link
-            "<a href=\"$cfg{SCRIPT_URL}?query=".#   to add in form
-            url_encode($query_clean) .          #
-            "\">Clean Up Query</a>";            #
-    }
-    my $output .= page_header() . xx($clean_link, $message, %form);
-    return $output;
+    my ($cleaned_query, $message, %form) = @_;
+    return page_header(%form) . xx(\%form, $cleaned_query, $message);
 }
 
 sub xx {
-    my ($clean_link, $message, %form) = @_;
-    my $file_arg = "\n".'<input type="hidden" name="file" value="' . html_encode($form{file}) . '" />'
-            if $form{file};
-    $message = "\n      ".'<tr><td align="center"><small>' . $message . "</small>" if $message;
-return <<EOF;
-<p><form action="$cfg{SCRIPT_URL}" method="get">$file_arg
-<table class="layout">
-  <tr>
-    <td rowspan="2" align="center"><a href=".."><img src="../../pic/kabutton.gif" width="92" height="82" alt="Klingonska Akdemien" border="0" /></a>
-    <td><h2>$ENV{X_TITLE}</h2>
-  <tr><td>
-    <table class="layout">$message
-      <tr class="middle">
-        <td><input autofocus type="text" id="query" name="query" value="${\&html_encode($form{query})}" size="35"
-          /><input type="submit" value="Search" />
-        <td><small>&nbsp;<a href="$cfg{SCRIPT_URL}?get=help">Search Help</a>$clean_link</small>
-    </table>
-</table>
+    my ($formref, $prettified_query, $message) = @_;
+    # Hidden form element set when displaying a single file.
+    # This is set when displaying a single file.
+    my $file_arg = $formref->{file}
+        ? do {
+            my $value = html_encode($formref->{file});
+            qq(\n<input type=hidden name=file value="$value">)
+        } : "";
+    my $prettify = "";
+    if ($prettified_query ne ($formref->{query} // "")) {
+        my %q = (
+            q => url_encode($prettified_query),
+            exists $formref->{file}
+                ? (file => url_encode($formref->{file}))
+                : (),
+        );
+        my $param = join('&', map { "$_=$q{$_}" } keys %q);
+        $prettify = qq(<br>• <a href="?$param">Prettify</a>);
+    }
+    if ($message) {
+        $message = "\n    <tr><td class=center><small>$message</small>";
+    }
+    my $value = html_encode($formref->{query});
+    return raw_form(
+        url    => "",
+        hidden => $file_arg,
+        note   => $message,
+        query  => $value // "",
+        link   => $prettify,
+    );
+}
+
+sub raw_form {
+    my (%form) = @_;
+    return <<"EOF";
+
+<form method=get action="$form{url}">$form{hidden}
+  <table class="layout noborder">$form{note}
+    <tr class=middle>
+      <td><input name=q value="$form{query}"
+        size=35 autofocus placeholder="Search archive…"
+        ><button type=submit>Search</button>
+      <td><small>• <a href="$form{url}?get=help">Help</a>$form{link}</small>
+  </table>
 </form>
 EOF
-}
+};
 
 sub empty_form {
     my (%form) = @_;
-print <<"EOF";
-<center>
-<form action="$cfg{SCRIPT_URL}" method="get">
-<table cellspacing="0" cellpadding="0" border="0">
-  <tr valign="middle">
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <td><input autofocus type="text" id="query" name="query" value="" size="30" />
-    <td>&nbsp;
-    <td><input type="submit" value="Search" />
-    <td>&nbsp;
-    <td><font size="1"><a href="$cfg{SCRIPT_URL}?get=help">Search Help</a></font>
-</table>
-</form>
-</center>
-EOF
+    return xx(\%form, "", "");
 }
 
+sub search_help {
+return <<'EOF';
 
-sub new_form {
-    print page_header(title => TRUE);          # page header
-    empty_form();
-    print <<EOF;                               # empty form
-<p class="center"><b>Modifiers:</b> &ldquo;=&rdquo; = case sensetive / &ldquo;-&rdquo; = negative search
-<br /><b>Wildcards:</b> &ldquo;*&rdquo; = alphanumeric / space = other (only in phrases)</p>
-EOF
-    print page_footer();                       # page footer
-}
+<h2>Search Help</h2>
 
-sub help_page {
-    print page_header(title => TRUE);          # page header
-    empty_form();
-    print <<EOF;
-
-<h2>Help on Searching</h2>
-
-
-<!-- FIXME: Find a better example phrase to use in the table
-below. I.e. one that does not begin or end in an apostrophe (since
-this looks nasty in combination with the quotes) and that contains at
-least one word that is homographic with a word in English when
-searched for case-insensetively. -->
-
-<!--
-<table border="2" cellspacing="0" cellpadding="5" width="90%" align="center">
-<tr valign="top">
-  <th>taHjaj wo\'
-  <td>Will find all documents that contain both the word »<tt>wo\'</tt>« and
-  the word »<tt>tahjaj</tt>«. The order and placement of the words in
-  the document is not important, notice, however, that the search is
-  case-insensetive (which is probably not something you want if
-  you\'re searching for a word in Klingon).
-<tr valign="top">
-  <th>"taHjaj wo\'"
-  <td>This will find any occurance of the phrase »<tt>tahjaj wo\'</tt>«
-  (i.e. the words must occur in the same order you wrote them, and
-  there may not be any other words between them). All non-alphabetical
-  characters (e.g. puntuaction marks) in the document are ignored so
-  this query would match a document containing the string »<tt>TAHJAJ,
-  WO\'</tt>«.
-<tr valign="top">
-  <th>.taHjaj wo\'
-  <td>This query matches any document that contains both the given
-  words, however search for the word »taHjaj« is case-sensetive so it
-  must be exactly matched (a wise thing if you\'re searching for a
-  word in Klingon).
-<tr valign="top">
-  <th>taHjaj -wo\'
-  <td>This would match any document that contains the word
-  »<tt>taHjaj</tt>«, but not the word »<tt>wo\'</tt>«.
-<tr valign="top">
-  <th>taH* wo\'
-  <td>Matches any document that contains the word »<tt>wo\'</tt>« and a
-  word that begins with »<tt>tah</tt>«. The asterisk matches any
-  number of alphabetical characters (including apostrophe) and may be
-  used anywhere in a word or phrase. (Any search word consisting of
-  only an asterisk is ignored, however.)
-</table>
-
-<p align="center"><b>Special chars:</b>  = ; - (minus) = exclude word from search; * (asterisk) = match
-any number of letters, numbers or aphostrophes.
--->
-
-<table border="2" cellspacing="0" cellpadding="5" xwidth="90%" align="center">
-<tr valign="top">
-  <th colspan="2">Character
-  <th>Function
-<tr valign="top">
-  <th>=
-  <th>equal
-  <td>Makes the matching of the search term case sensetive (prefix).
-<tr>
-  <th>-
-  <th>minus
-  <td>Document matches only if the search term <i>does not</i> occur in it (prefix).
-<tr>
-  <th>"..."
-  <th>quotes
-  <td>Allow spaces inside search terms (circumfix).
-<tr>
-  <th>*
-  <th>asterisk
-  <td>Matches any sequence of numbers (0-9), letters (a-z) or apostrophes (\') (wildcard).
-<tr>
-  <th> 
-  <th>space
-  <td>Wildcard matching the inverse of »*« (only inside phrases, i.e. within quotes) (wildcard).
+<table>
+  <tr>
+    <th colspan=2>Character
+    <th>Function
+  <tr>
+    <th><code>=</code>
+    <th>equal
+    <td>Makes the matching of the search term case sensetive (prefix).
+  <tr>
+    <th><code>-</code>
+    <th>minus
+    <td>Document matches only if the search term <i>does not</i> occur in it (prefix).
+  <tr>
+    <th><code>"</code>…<code>"</code>
+    <th>quotes
+    <td>Search for a phrase which contains spaces.
+  <tr>
+    <th><code>*</code>
+    <th>asterisk
+    <td>Wildcard matching any sequence of numbers <nobr>(0–9),</nobr> letters
+      <nobr>(a–z)</nobr> and apostrophes <nobr>(')</nobr>.
+  <tr>
+    <th><code> </code>
+    <th>space
+    <td>Within quotes the space is a wildcard matching all non-alphabetic
+      characters (the opposite of “<code>*</code>”).
 </table>
 
 <h3>Search Terms</h3>
@@ -780,43 +703,22 @@ does not).</p>
 <h3>Wildcards</h3>
 
 <p>The <b>asterisk</b> is a wildcard character matching any sequence consisting
-of zero or more letters (a-z), aphostrophes (\') and/or numbers (0-9). The
-<b>space</b> is also a wildcard (when used within quotes) which matches the
-exact opposite of the asterisk, i.e. any sequence of characters that <i>does
-not</i> include a letter, aphostrophe or number. This means that the search
-term »<tt>=jatlh qama\' jI\'oj</tt>« e.g. will find any file that contains the
-text "jatlh qama'; jI'oj", even though when there is a semi-colon between the
-two sentences.</p>
-
-<!--
-<h3>Source Files</h3>
-
+of zero or more letters <nobr>(a–z),</nobr> aphostrophes (') and/or numbers
+<nobr>(0–9).</nobr> The <b>space</b> is also a wildcard (when used within
+quotes) which matches the exact opposite of the asterisk, i.e. any sequence of
+characters that <i>does not</i> include a letter, aphostrophe or number. This
+means that the search term »<tt>=jatlh qama' jI'oj</tt>« e.g. will find any
+file that contains the text "jatlh qama'; jI'oj", even though when there is a
+semicolon between the two sentences.</p>
 EOF
-    my @source = list_source_files();
-    my $part = 3;
-    my $step = $#source / $part + 1;
-    print "<table class=\"layout\">\n";
-    print "  <tr>\n";
-    foreach (1..$part) {
-        print "    <td><code><ul>\n";
-        print "      <li>$_\n" foreach splice(@source, 0, $step);
-        print "    </ul></code>\n";
-    }
-    print "\n";
-    print "</table>\n";
-    print "-->\n";
-    print page_footer();                        # page footer
 }
 
-sub list_source_files {
-    return map {
-        m#^\.\./(.*)\.txt$#;
-        $1;
-    } glob("../[0-9]*.txt");
+sub help_page {
+    return page_header . empty_form . search_help . page_footer;
 }
 
 # url encode ascii/latin1 strings
-sub url_encode ($) {                            #
+sub url_encode {
     $_ = $_[0];                                 #
     s/([^-.*0-9A-Z_a-z ])/sprintf("%%%X", ord $1)/goe;
     s/ /+/go;                                   #
@@ -846,12 +748,12 @@ sub transcript2html {
 	# single quote/aphostrophe
 	s#(?<![[:alpha:]])'#&lsquo;#g; 	# FIXME this should never happen in Klingon text!
 	s#'#&rsquo;#g;
+        s#(?<!-)--(?!-)#–#g;
 	$_ = matched_pair_subst($_, "<", ">", "<i>", "</i>");
-	$_ = matched_pair_subst($_, "{", "}", '<b lang="tlh">', '</b>');
+	$_ = matched_pair_subst($_, "{", "}", '<b lang=tlh>', '</b>');
     }
     return $str;
 }
-
 
 # $STRING = matched_pair_subst($TRING, $OLDBRA, $OLDKET[, $NEWBRA, $NEWKET]);
 #
@@ -898,9 +800,6 @@ sub matched_pair_subst {
     return join("", @head) . $string . join("", @tail);
 }
 
-
-
-
 sub test {
     my ($code, $correct) = @_;
     my $result = eval $code;
@@ -928,27 +827,6 @@ if ($cfg{TEST}{html2transcript}) {
     test('transcript2html("x<y>z")', 'x<em>y</em>z');
     exit;
 }
-
-
-#sub log_query {
-#    my $logpath = "$ENV{DOCUMENT_ROOT}/logs/";      # path
-#    # set $date to current time
-#    use Time::Local;                                #
-#    ($sec, $min, $hour, $mday, $mon, $year) = localtime(time);
-#    $date = sprintf "%04d-%02d-%02d, %02d.%02d.%02d",
-#        1900+$year, ++$mon, $mday, $hour, $min, $sec;
-#
-#    ##############################################
-#    # log query                                  #
-#    if ($form{query}) {                          # if there is a query
-#        if ( open(LOG,">>${logpath}archive_search.log") ) {
-#            print LOG "$date $form{query}\n";    #   print log
-#            close(LOG);                          #   close logfile
-#        }                                        #
-#        &inc_counter("${logpath}archive_search.count"); # inc log counter
-#    } ############################################
-#    return 1;
-#}
 
 sub inc_counter {
     my $file = shift;
@@ -982,69 +860,36 @@ sub context ($$$) {
         $incomplete;                            #   incomplete value
 }
 
-sub status_row (@) {
-    my $text = join '', @_;
-    return <<"EOF";
-<br /><table cellpadding="1" cellspacing="0" border="0" width="100%">
-  <tr bgcolor="#000000">
-    <td><font size="-1" color="#ffffff">$text</font>
-</table>
-EOF
+sub status_row {
+    my ($text, @var) = @_;
+    return sprintf qq(\n<div class=summary>$text</div>\n\n), map {
+        html_encode($_);
+    } @var;
 }
 
 # return result header
 # (e.g.: "There are 2 documents matching the query »chach«.")
 sub display_matches () {
     my ($results, $query) = @_;
-    my $num = ($results == 0 ? "no" : $results);
-    my ($is, $pl) = do {
-	if ($results == 1) {
-	    ("is", "");
-	} else {
-	    ("are", "s");
-	}
-    };
-    return status_row("There $is $num document$pl matching the query ",
-        "»<tt>", html_encode($query), "</tt>«.");
+    return status_row(
+        "%s document%s match%s: <tt>%s</tt>",
+        $results == 0 ? "No" : $results,
+        $results == 1 ? ''   : 's',
+        $results == 1 ? 'es' : '',
+        $query,
+    );
 }
-
-our %abbr = (
-    bop      => "<em>Bird of Prey Cutaway Poster</em>",
-    ck       => "<em>Conversational Klingon</em>",
-    email    => "Email",
-    ftg      => "<em>Star Trek: Federation Travel Guide</em> (excerpt)",
-    hallmark => "Hallmark Commercial",
-    holqed   => "HolQeD",
-    kgt      => "<em>Klingon for the Galactic Traveler</em>",
-    news     => "News Group Posting",
-    pk       => "<em>Power Klingon</em>",
-    rt       => "Radio Times",
-    sarek    => "<em>Sarek</em>",
-    stc      => "<em>Star Trek: Communicator #104</em>",
-    tkd      => "<em>The Klingon Dictionary</em>",
-    tkw      => "<em>The Klingon Way</em>",
-    sbx      => "<em>SkyBox Trading Card %s</em>",
-);
 
 sub file2title {
     my ($file, $query) = @_;
-    $file =~ s#^$cfg{BASE_DIR}/##;
-    my ($name) = $file =~ m/^.*--(.*).txt$/;
-    # $name becomes "holqed", "rt", "tkd" etc
-    my $title = do {
-	my $title = "";
-	if (my ($name2, $sbx) = $name =~ /^(sbx)-(.*)$/) {
-	    $sbx =~ s/^ (\w*) 0+ /\U$1/x;
-	    $title = sprintf($abbr{$name2}, $sbx);
-	} else {
-	    $title = "$abbr{$name}";
-	}
-    };
+    my ($title) = $file =~ m#([^/]*)$#;
     $file  = url_encode($file);
-    $query = url_encode($query);
-    return $title,
-	"$cfg{SCRIPT_URL}?file=$file&query=$query",
-        "$cfg{SCRIPT_URL}?file=$file&get=source";
+    $query = url_encode($query // "");
+    return (
+        "../$file",
+        $title,
+	"?file=$file&q=$query",
+    );
 }
 
 sub suggest_search () {
@@ -1052,56 +897,20 @@ sub suggest_search () {
 <p>You could try to:
 <ul>
   <li>Make sure all words are spelled correctly.
-  <li>Use different keywords.
-  <li>Use more general keywords.
+  <li>Use different search words.
+  <li>Use more general search words.
   <li>Turn off some negative search words (leading minus).
 </ul>
 EOF
 }
 
-sub no_matches {
-    my ($number_of_matches) = @_;
-    my ($pl) = ($number_of_matches == 1 ? "" : "s");
-    return <<EOF;
-<h2>There are no documents containing the string$pl you searched for</h2>\n\n
-EOF
-}
-
-sub too_many_matches {
-    my ($number_of_matches) = @_;
-    return <<"EOF";
-<h2>Allowed number of matches ($cfg{MAX_MATCHES}) exceeded, search result
-withheld</h2>
-
-<p align="justify">There are $number_of_matches files matching your query,
-however the maximum allowed number of matches is $cfg{MAX_MATCHES}, and the
-result of your query have therefore been withheld. You may try to narrow your
-search (e.g. by specifying more search words or making your search
-case-sensetive). More information on how to use this search engine can be found
-in the section »<a href="$cfg{SCRIPT_URL}?get=help">Search Help</a>«.
-
-<br />     This limitation has been imposed for copyright reasons, but should
-hopefully not be to much of a obstruction. If you would like to contribute (with
-ideas, suggestions, critisism, corrections, more data, whatever) please do not
-hesitate to contact me <i>&lt;<a
-href="mailto:zrajm\@klingonska.org">zrajm\@klingonska.org</a>&gt;</i>. I\'m
-always interested to know what you think of this site.
-
-EOF
-}
-
-sub display_source {
+sub source_page {
     my ($path, %form) = @_;
-    # require password for TKD, TKW & KGT (and set cookie)
-    if ($form{file} =~ m#-(tkd|tkw|kgt)\.txt$#) {
-	print "Sorry, TKD, TKW and KGT cannot be displayed yet.\n";
-	return;
+    if (is_under_copyright($form{file})) {
+	return "Sorry, TKD, TKW, KGT, CK and PK cannot be displayed yet.\n";
     }
-    print scalar read_file("$path/$form{file}");
-    #open(my $fh, "<:encoding(utf8)", $form{file});
-    #print <$fh>;
+    return scalar read_file("$path/$form{file}");
 }
-
 
 # resolve hypenation and remove comments
 sub apply_corrections {
@@ -1115,19 +924,31 @@ sub apply_corrections {
     return $text;
 }
 
-
 sub display_file {
     my ($path, %form) = @_;
-    $ENV{"X_PREV"} = "$cfg{SCRIPT_URL}?query=" . url_encode($form{query});
     my $query = new Query($form{query});
     print old_form($query->clean(), "Search only this file.", %form);      # output page header & form
 
-    print status_row("Displaying file »<tt>$form{file}</tt>« ",
-        "according to the query ",
-        "»<tt>", html_encode($query->clean()), "</tt>«.");
+    my ($transcript_link) = file2title($form{file});
+    print status_row(
+        qq(<a href="%s">Transcript</a> – Displaying file »<tt>%s</tt>«),
+        $transcript_link,
+        $form{file},
+    );
 
-    if ($form{file} =~ m#-(tkd|tkw|kgt)\.txt$#) {
-	print "Sorry, TKD, TKW and KGT cannot be displayed yet. :(\n";
+    if (is_under_copyright($form{file})) {
+	print "<p>Sorry, search results for the major canon works cannot "
+            . "be displayed yet. <nobr>:(</nobr> – You <i>can</i> "
+            . "look at their transcripts, however."
+            . qq(<ul>)
+            . qq(<li>1992 – <i><a href="../1992-01-01-tkd.txt">The Klingon Dictionary</a></i>)
+            . qq(<li>1992 – <i><a href="../1992-10-01-ck.txt">Conversational Klingon</a></i>)
+            . qq(<li>1993 – <i><a href="../1993-10-01-pk.txt">Power Klingon</a></i>)
+            . qq(<li>1996 – <i><a href="../1996-05-01-tkw.txt">The Klingon Way</a></i>)
+            . qq(<li>1997 – <i><a href="../1997-11-01-kgt.txt">Klingon for the Galactic Traveler</a></i>)
+            . qq(</ul>)
+            . qq(<p>In order to access these you’ll need a copy <i>The Klingon Dictionary</i>.)
+            . page_footer;
 	return;
     }
 
@@ -1148,91 +969,49 @@ sub display_file {
     /gex;
 
     $text = html_encode($text);                # htmlify text
-
     for ($text) {
 	# convert the found word marks (i.e. [[...[×]...]]) into HTML tags
-        s#\Q[[\E(.*?)\Q[×]\E(.*?)\Q]]\E#<font color="\#ff0000"><b><a name="$1">$2</a></b></font>#go;
-        s#^====+$#<hr noshade />#gm;            # thick <hr />
-        s#^----+$#<hr noshade width="50%" align="center" />#gm; # thin <hr />
+        s#\Q[[\E(.*?)\Q[×]\E(.*?)\Q]]\E#<mark id=$1>$2</mark>#go;
+        s#^====+$#<hr noshade>#gm;            # thick <hr>
+        s#^----+$#<hr noshade width="50%" align=center>#gm; # thin <hr>
         s#(?:\A\n+|\n+\Z)##sg;                  # leading/trailing blank lines
         s#\ (?=\ )# #g;                         # spaces = nbsp:es +1 space
         s#(\n\n+)(?!<)#$1<p>#g;                 # insert <p> after two lf
-        s{^( &gt; | : |  | To:   |              # insert <br /> before lines
+        s{^( &gt; | : |  | To:   |              # insert <br> before lines
              Subject:    | Date: |              #   starting w/ punctuation
              Newsgroups: | From:                #   (boldify prefixes)
-           )}{<br />$1}mxg;                     #
-        s{^(<(?i:br|p)>)                        # insert <br /> before rows
+           )}{<br>$1}mxg;                     #
+        s{^(<(?i:br|p)>)                        # insert <br> before rows
            ( (?:&gt;\ *|:\ *)+ | To:   |        #   befinning with punctuation
              Subject:          | Date: |        #   (boldify row prefixes)
              Newsgroups:       | From:          #
            )}{$1<b>$2</b>}mxg;                  #
     }
 
-    # FIXME: order links based on query strings
-
-#    @expression = (); @number = (); $i = 0;
-#    foreach $word (@name) {
-#        $j = 0;
-#        foreach my $regex (@query_regex) {  # for each regex
-#            if ( $word =~ /$cfg{re_bow}$regex$cfg{re_eow}/ ) {
-#                $expression[$j] = $query_word[$j];
-#                $number[$j]     = $i;
-#            }
-#        } continue { $j++ }
-#    } continue { $i++ }
-
-
     my %found = ();                                # clear a hash
-    #my @found = ();                                # and an array
     my @query_regex = $query->regex();
     my @query_word  = $query->word();
   FOUND: foreach my $i (0..$#name) {
       EXPRESSION: foreach my $j (0..$#query_regex) {
             if ($name[$i] =~ /$cfg{re_bow}$query_regex[$j]$cfg{re_eow}/ ) {
                 $found{$query_word[$j]} .= " $i";
-                #push @found, $query_word[$j];
                 next FOUND;
             }
         }
     }
 
-    print "<dl>\n";
-    my @query_not  = $query->not();
-    my @query_case = $query->case();
-    foreach my $i (0..$#query_word) {
-        next if $query_not[$i];
-        print "<dd>";
-	my $word = $query_word[$i];
-        my @x = split(" ", $found{$word});
-        print "»<tt>$word</tt>« ",
-            "(case ", ($query_case[$i] ? "" : "in"), "sensetive) ",
-            "occur", ($#x != 0 ? "" : "s"), " ",  scalar(@x), " ",
-            "time", ($#x == 0 ? "" : "s");
-	if (@x) {
-	    my $j = 0;
-	    print " (";
-	    foreach (@x) {
-		print ", " if $j;
-		print "<a href=\"#", ($_ + 1),"\">»", ++ $j, "</a>";
-	    }
-	    print ")";
-	}
-        print ".";
-    }
-    print "</dl>\n\n";
-    print "<hr noshade />";
-
-    print "<table>";
-    foreach my $header (sort keys %head) {
-	next if $header eq "style";
-	print "  <tr><th valign=\"top\" align=\"left\">\u$header:<td>$head{$header}";
-    }
-    print "</table>";
-    print "<hr noshade />";
-    print "\n$text\n\n";                     # output text
-    print page_footer();                        # page footer
+    print join(
+        "\n",
+        match_links($query, \%found, \@query_word),
+        "",
+        metadata_table(%head),
+        "",
+        $text,
+    ) . page_footer;
 }
 
+sub html_header { return header(              -charset => 'utf-8') }
+sub text_header { return header("text/plain", -charset => 'utf-8') }
 
 ###############################################################################
 ##                                                                           ##
@@ -1243,60 +1022,40 @@ sub display_file {
 # get form values
 my %form = map {
     my $value = param($_);
-    $_ => defined($value) ? $value : "";
-} qw(file query get debug);
+    defined($value) ? ($_ => $value) : ();
+} qw(file q query get debug);
+
+# Backward compatibility (so old links here continue to work)
+$form{query} = delete $form{q} if exists $form{q};    # 'q' = 'query'
 
 # strip path & untaint filename
-($form{file}) = $form{file} =~ m#([^/]*$)#;
-
-if ($form{file} and $form{get} eq "source") {
-    print header("text/plain", -charset=>'utf-8');           # Content-type header
-    display_source($cfg{BASE_DIR}, %form);
-    exit;
-}
-
-# output content-type header
-# (when used as SSI or loaded explicitly by
-# browser, but not when called by other script)
-if (not $ENV{X_CGI}) {                         # if not suppressed
-    print header(-charset=>'utf-8');           # Content-type header
-    $ENV{X_CGI} = "perl";                      #   and suppress it from now on
-}                                              #
-
-if ($form{debug}) {
-    print <<EOF;
-<table border="1">
-<tr><th align="left">file<td>$form{file}
-<tr><th align="left">query<td>$form{query}
-<tr><th align="left">get<td>$form{get}
-<tr><th align="left">debug<td>$form{debug}
-</table>
-EOF
-}
+($form{file}) = $form{file} =~ m{ ([^/]*) $}x
+    if exists $form{file};
 
 # main selection
-SWITCH: {
-    $form{get} eq "help" and do {                # help page
-	help_page();
-	last SWITCH;
-    };
-    $form{get} eq "list" and do {                # help page
-	help_page();
-	last SWITCH;
-    };
-    $form{file} and do {                         # display a file
-	display_file($cfg{BASE_DIR}, %form);
-	last SWITCH;
-    };
-    $form{query} and do {                        # search result
-	display_result($cfg{BASE_DIR}, %form);
-	last SWITCH;
-    };
-    env("SERVER_PROTOCOL") eq "INCLUDED" and do { # SSI
-	empty_form(%form);
-	last SWITCH;
-    };
-    new_form();                                  # empty form
+
+if ($form{get} // "") {
+    if ($form{get} eq "source" and ($form{file} // "")) {  # 'get=source'
+        print redirect("../$form{file}");
+        exit;
+    } elsif ($form{get} =~ /^(help|list)$/) {      # 'get=help' or 'get=list'
+        print html_header . help_page;
+        exit;
+    }
+}
+
+if ($form{file} // "") {                       # file specified
+    print html_header;
+    display_file($cfg{BASE_DIR}, %form);
+} elsif ($form{query}) {                       # search results
+    print html_header
+        . result_page($cfg{BASE_DIR}, %form);
+} elsif (($ENV{SERVER_PROTOCOL} // "") eq "INCLUDED") {
+    print html_header                          # used as server-side include
+        . empty_form(%form);
+} else {                                       # default page
+    print html_header
+        . help_page;
 }
 
 #[eof]

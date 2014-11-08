@@ -7,6 +7,15 @@ lang: en
 
 Archive of Okrandian Canon
 ==========================
+<form method=get action="search/">
+  <table class="noborder layout">
+    <tr>
+      <td><input name=q size=30 placeholder="Search archive…"
+        ><button type=sumbit>Search</button>
+      <td><small>• <a href="search/?get=help">Help</a></small>
+  </table>
+</form>
+
 This is an attempt to collect all known Okrandian sources in one place. If you
 feel that anything is missing or inaccurate, please *[send us an email so that
 we may fix
@@ -24,15 +33,6 @@ using this engine. This is because the data files haven’t been fully organised
 into a single system/format yet. This is something I’m working on, but I though
 it better to offer the search facility to you now, than to wait for perfection
 (which might well take yet some time to achieve).
-
-<form method=get action="search/">
-  <table class="noborder layout">
-    <tr>
-      <td><input name=query size=30 placeholder="Search archive…"
-        ><button>Search</button>
-      <td><small>• <a href="search/?get=help">Help</a></small>
-  </table>
-</form>
 
 If you prefer, you may instead use the table below to browse through the
 sources in chronological order.

@@ -113,6 +113,7 @@ textarea:active:after, *[contenteditable]:active:after, input:active:after {
 }
 textarea:active:after, *[contenteditable]:active:after, input:active:after {
     /* Only darken input fields a little bit. */
+    /* Fails in Chrome 25 (Feb 2013) for unknown reasons. */
     background: rgba(0, 0, 0, .0625);
 }
 button img {
@@ -321,6 +322,13 @@ header {
 **  Page Contents                                                            **
 **                                                                           **
 \*****************************************************************************/
+
+mark {
+    background: rgba(187, 51, 51, .5);
+    font-weight: inherit;
+    font-style: inherit;
+}
+small { font-size: small; }
 
 [role="main"] {
     -moz-box-shadow:    0 .5em 2em rgba(0,0,0,.25);

@@ -577,12 +577,12 @@
         `foot.css` (imported in `page.css`)
 ****** TODO Update design of "{pIqaD} Playground" script
        http://klingonska.lal/piqad/play.cgi
-****** TODO Update design of canon seach script
-       http://klingonska.lal/canon/search/?query=jdpps
 ****** TODO `dict/*`
        Uses `dict.css`.
 ****** TODO `klo/*`
 ****** TODO `qq/*`
+****** DONE Update design of `/canon/search/`
+       CLOSED: [2014-11-08 Sat 17:07]
 ***** TODO "lang" attribute in <body> tag should be set by build script
       'template.html' + 'markdown2html' should insert 'lang' into <body> tag
 
@@ -1447,7 +1447,6 @@
      request requires auth).
 
      The form should state explicitly that it uses cookies.
-
 ***** DONE Apache config(?)
       CLOSED: [2011-04-10 Sun 02:36]
 ****** DONE Make script work under redirect on HCoop
@@ -1476,11 +1475,10 @@
        This script works the same as the old download.cgi, but also stores a
        cookie. If user already has valid cookie, no login procedure is
        required.
-**** [33%] Search engine improvements (canon/search/index.cgi)
-***** TODO [#2] Review/improve match listings
+**** [50%] Search engine improvements (canon/search/)
+***** TODO Review/improve match listings
       This should, preferably, be as similar as possible to the list of sources
       in the main article. Try to imitate Google search results in appearance?
-
 ***** TODO Query prefix "file:" to search only a specific file
       This should allow globs and comma-separated file names, e.g.
       "file:*holqed*", "file:*email,*news" etc.
@@ -1496,6 +1494,17 @@
       support to work as well (test this out using Firefox with JavaScript disabled).
 
       [http://test.zrajm.org/canon/search/?file=1997-09-01c-news.txt&query=hello]
+***** DONE When viewing a file there should be a 'Transcript' link
+      CLOSED: [2014-11-08 Sat 19:16]
+***** DONE When viewing a file the page logo should link back to the query
+      CLOSED: [2014-11-08 Sat 18:18]
+      I.e. from this page:
+
+          http://klingonska.lal/canon/search/?file=1996-qepa.txt&query=at
+
+      The page logo should link to (same URL, but without the 'file' part):
+
+          http://klingonska.lal/canon/search/?query=at
 ***** DONE Add Chrome integration (some sort of open protocol?)
       CLOSED: [2013-02-04 Mon 11:26]
       Most sites search functions (e.g. YouTube, Wikipedia etc.) are
@@ -1507,7 +1516,7 @@
 
       How is this done? Is it some kind of microformat that makes Chrome detect
       search engines?
-***** DONE [#1] Logo beside search form should link back to main article
+***** DONE Logo beside search form should link back to main article
       CLOSED: [2011-07-03 Sun 20:09]
 *** TODO Improved transcript display script
     See also: NOTE/2010-09-01-original+corrected-display/index.html
@@ -2317,7 +2326,7 @@
      the normal search.
 ***** DONE alt + title
       CLOSED: [2014-11-02 Sun 00:47]
-***** [57%] Use form element CSS for whole site.
+***** [71%] Use form element CSS for whole site.
       Search field CSS should be moved from `includes/dict.scss` to the
       `includes/base.scss` used by all pages. Need to make sure that this looks
       good everywhere, and does not conflict with other CSS.
@@ -2327,7 +2336,8 @@
        CLOSED: [2014-11-03 Mon 08:52]
 ****** DONE glossary/
        CLOSED: [2014-11-07 fri 15:06]
-****** TODO /canon/search/
+****** DONE /canon/search/
+       CLOSED: [2014-11-08 Sat 17:10]
 ****** TODO piqad/play.cgi
        Uses old design, upgrade new.
 ****** TODO Make checkbox pretty (used by glossary/)
