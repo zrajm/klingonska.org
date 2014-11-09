@@ -514,12 +514,13 @@
       CLOSED: [2012-07-09 Mon 16:35]
       Some error in the build script causes Modernizr to be written with the
       jQuery content. Very non-functional.
-***** [28%] Add Google Analytics
-****** TODO To CGI canon/search/index.cgi
+***** [42%] Add Google Analytics
 ****** TODO To CGI canon/show.cgi
 ****** TODO To HTML files in `klo/`
 ****** TODO To HTML files in `qq/`
 ****** TODO To CGI piqad/play.cgi
+****** DONE To CGI canon/search/
+       CLOSED: [2014-11-08 Sat 17:07]
 ****** DONE To HTML files in `dict/`
        CLOSED: [2012-11-10 Sat 00:25]
 ****** DONE dict/index.cgi
@@ -581,7 +582,7 @@
        Uses `dict.css`.
 ****** TODO `klo/*`
 ****** TODO `qq/*`
-****** DONE Update design of `/canon/search/`
+****** DONE Update design of canon/search/
        CLOSED: [2014-11-08 Sat 17:07]
 ***** TODO "lang" attribute in <body> tag should be set by build script
       'template.html' + 'markdown2html' should insert 'lang' into <body> tag
@@ -897,12 +898,12 @@
 **** [60%] Add site design
 ***** TODO Give page a proper name and put that in titles etc.
       "Glossary extractor" is maybe a bit boring? Flashcards something? Learner?
-***** TODO Allow KA-logo to overlap the tabs
-      Either the tabs (only) should be clickable, or only the non-transparent
-      parts of the image should be clickable.
-
-      Should prolly use 'z-index:100' with the SVG image. (NOTE: This requires
-      'position:relative' in order to work.)
+***** TODO Better interaction between page logo and page tabs
+      It looks pretty fine as it is, but when there are tabs there is a small
+      area on the page below the page header (just the logo, left of the
+      leftmost tab) that activates the page logo link. Only the page header
+      should be clickable, not any overlapping (but transparent) parts of the
+      SVG.
 ***** DONE Move tab row inside page header
       CLOSED: [2012-11-15 Thu 23:44]
 ***** DONE Move language selector somewhere else
@@ -982,6 +983,8 @@
 **** [0%] Testing
 ***** [0%] Test/check older browsers
 ****** TODO Check that tabs look okay in older browsers
+       Removed the 'text-overflow: ellipsis;' to make tabs look okay in Chrome
+       25 (released February 2013).
 ***** [0%] Test suite
 ****** For language parsing
 ******* paghlogh / Hochlogh / paghDIch / HochDIch
@@ -1467,7 +1470,6 @@
 
        Is rewritten to:
            http://klingonska.org/canon/show.cgi?file=1992-01-01-tkd.txt
-
 ****** DONE Write script for showing transcripts
        CLOSED: [2011-04-09 Sat 21:57]
        Name: canon/show.cgi
@@ -1494,6 +1496,9 @@
       support to work as well (test this out using Firefox with JavaScript disabled).
 
       [http://test.zrajm.org/canon/search/?file=1997-09-01c-news.txt&query=hello]
+***** TODO Merge apply_corrections() and strip_comments() (they are identical?)
+***** DONE Searched for "bird" - several matches were lacking file/article names
+      CLOSED: [2014-11-08 Sat 17:10]
 ***** DONE When viewing a file there should be a 'Transcript' link
       CLOSED: [2014-11-08 Sat 19:16]
 ***** DONE When viewing a file the page logo should link back to the query
@@ -2146,7 +2151,6 @@
     languages" by Tim Conley & Stephen Cain, 2006).
 
     Steven Boozer / Voragh (Ca'Non Master of the Klingons) in email 2008-07-25
-
 *** TODO Should contain a link to "The {pIqaD} Playground"
 *** TODO Spell check
 *** TODO Make all {HolQeD} references links to /canon/
@@ -2320,7 +2324,7 @@
      Klingon mode for Tengwar (Tolkien's alphabet)
 ** "Klingon Pocket Dictionary"
 *** Web page
-**** [33%] "Advanced search"
+**** [20%] "Advanced search"
      The "Advanced search" feature is an interactive help feature which do not
      extend the search, but rather illustrates the more advanced features of
      the normal search.
@@ -2336,8 +2340,9 @@
        CLOSED: [2014-11-03 Mon 08:52]
 ****** DONE glossary/
        CLOSED: [2014-11-07 fri 15:06]
-****** DONE /canon/search/
+****** DONE canon/search/
        CLOSED: [2014-11-08 Sat 17:10]
+****** TODO canon/show.cgi
 ****** TODO piqad/play.cgi
        Uses old design, upgrade new.
 ****** TODO Make checkbox pretty (used by glossary/)
@@ -4240,14 +4245,5 @@
     CLOSED: [2009-04-04 Sat]
 *** DONE CGI scripts working
     CLOSED: [2010-08-09 Mon 03:01]
-**** DONE List CGI scripts on page
-     CLOSED: [2010-08-09 Mon 03:00]
-**** TODO canon/search/index.cgi - not pretty, but passable
-***** TODO searched for "bird" -- several matches were lacking file/article names
-***** TODO merge apply_corrections() and strip_comments() (they are identical?)
-**** DONE dict/lexicon.cgi - ok
-     CLOSED: [2010-10-05 Tue 15:53]
-**** TODO piqad/play.cgi - ok
-***** TODO need new header/footer though
 ** DONE Cleared away a bunch of Perl 'is experimental' warnings
    CLOSED: [2014-10-25 sat 15:57]
