@@ -7,9 +7,15 @@ use CGI qw(:standard);
 binmode(STDIN,  ":encoding(utf8)");
 binmode(STDOUT, ":encoding(utf8)");
 
+my $TITLE   = "Archive of Okrandian Canon";
 my $YEAR    = "1998-2014";
 my $UPDATED = "2014-11-08T20:27:57+0100";
 my $VERSION = "0.9b";
+my $DIR     = "../..";
+my @CRUMBS  = (
+    "canon/"         => "Archive of Okrandian Canon",
+    "canon/search/"  => "Search",
+);
 
 # TODO
 #
@@ -301,7 +307,7 @@ sub page_footer {
 (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
 g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
 s.parentNode.insertBefore(g,s)}(document,'script'))</script>
-<script src="../../includes/titlewrap.js"></script>
+<script src="$DIR/includes/titlewrap.js"></script>
 </body>
 </html>
 EOF
@@ -349,13 +355,25 @@ sub match_links {
     return @out;
 }
 
+sub breadcrumbs {
+    my @crumbs;
+    my @temp = ("" => "Home", @CRUMBS);
+    while (my ($path, $title) = splice(@temp, 0, 2)) {
+        my $attr = (@temp == 0) ? " itemprop=url" : "";
+        push @crumbs, qq(<a href="http://klingonska.org/$path"$attr>$title</a>);
+    }
+    return join(qq( ›\n        ), @crumbs);
+}
+
 sub page_header {
     my (%hash) = @_;
     my $isodate   = $UPDATED;
     my $text_date = text_date($isodate);
-    my $backlink  = exists $hash{file}
+    my $crumbs    = breadcrumbs();
+    my $backlink  = exists $hash{file}         # used by canon/index.cgi
         ? qq(?q=) . url_encode($hash{query})
         : "../";
+    (my $title = $TITLE) =~ s#<.*?>##g;
     return <<"EOF";
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=en> <![endif]-->
@@ -365,16 +383,16 @@ sub page_header {
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Archive of Okrandian Canon – Klingonska Akademien</title>
+  <title>$title – Klingonska Akademien</title>
   <meta name=viewport content="width=device-width">
-  <link rel=stylesheet href="../../includes/base.css">
-  <link rel=stylesheet href="../../includes/banner.css">
-  <link rel=stylesheet href="../../includes/dict.css">
-  <link rel=stylesheet href="../../includes/dict-layouttable.css">
-  <link rel=stylesheet href="../../includes/canon-search.css">
+  <link rel=stylesheet href="$DIR/includes/base.css">
+  <link rel=stylesheet href="$DIR/includes/banner.css">
+  <link rel=stylesheet href="$DIR/includes/dict.css">
+  <link rel=stylesheet href="$DIR/includes/dict-layouttable.css">
+  <link rel=stylesheet href="$DIR/includes/canon-search.css">
   <link rel=icon href="/favicon.ico">
   <link rel=canonical href="http://klingonska.org/">
-  <script src="../../includes/modernizr-2.5.3.js"></script>
+  <script src="$DIR/includes/modernizr-2.5.3.js"></script>
 </head>
 <body lang=en itemscope itemtype="http://schema.org/WebPage">
 
@@ -383,9 +401,7 @@ sub page_header {
   <ul>
     <li>
       <nav itemprop=breadcrumb role=navigation>
-        <a href="http://klingonska.org/">Home</a> ›
-        <a href="http://klingonska.org/canon/">Archive of Okrandian Canon</a> ›
-        <a href="http://klingonska.org/canon/search/" itemprop=url>Search</a>
+        $crumbs
       </nav>
     <li>
       Updated <time pubdate itemprop=dateModified datetime="$isodate">$text_date</time>
@@ -396,7 +412,7 @@ sub page_header {
       <table id=logotitle>
         <td>
           <span class=crop>
-            <img height=200 width=200 src="../../pic/ka-logo.svg" alt="Klingonska Akademien">
+            <img height=200 width=200 src="$DIR/pic/ka-logo.svg" alt="Klingonska Akademien">
           </span>
         <td>
           <h1>Klingonska<span id=logospace>&nbsp;</span>Akademien</h1>
@@ -407,7 +423,7 @@ sub page_header {
 
 <div role=main itemprop=mainContentOfPage>
 
-<h1>Archive of Okrandian Canon</h1>
+<h1>$TITLE</h1>
 EOF
 }
 
