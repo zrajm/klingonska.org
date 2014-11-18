@@ -69,7 +69,7 @@ style: banner dict
     soon. <small class=nobr>[Updated <time>2007-07-15</time>]</small>
 
   <dt><a href="piqad/">{pIqaD}, And How to Read It</a>
-    (and <a href="piqad/play.cgi">The {pIqaD} Playground</a>)
+    (and <a href="writing/play/">The {pIqaD} Playground</a>)
   <dd>Some stuff for the youthful mind, a writer's playground -- type in any
     Klingon text to see it in {pIqaD}. An article about the Klingon alphabet
     and numbers, with pronounciation and orthography. (Punctuation and

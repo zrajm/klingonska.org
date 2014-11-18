@@ -30,6 +30,7 @@ a:active  { color: #aaa; } /* selected link -- button pressed on link */
 *[disabled] { opacity: .5; }
 form { margin: 0; }
 button, input, textarea, *[contenteditable] {
+    font-family: sans-serif;
     border: 1px solid #888;
     border: 1px solid rgba(0, 0, 0, 0.5);
     margin: 0 -1px 0 0;  /* right-margin: -1px to overlap borders */
@@ -50,6 +51,9 @@ button {
 /* Text fields should have inside shadow. */
 input, input[type="text"], textarea, *[contenteditable] {
     box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+}
+textarea, *[contenteditable] { /* multiline text input */
+    padding: .25em .5em;
 }
 input[type] { box-shadow: none; }
 

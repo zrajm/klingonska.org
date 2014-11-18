@@ -136,6 +136,10 @@
    the image it contains.
 ** DONE Prettify tab row (make more Chrome-like)
    CLOSED: [2014-11-04 tis 17:39]
+** TODO CSS: Remove unnecessary styles for <input>
+   What's needed exactly? Currently there's a whole bunch of creating then
+   overriding <input> widgets to get buttons to look pretty, but <button> is
+   used instead of <input type=submit> everywhere on the site.
 ** TODO Replace underscore in URLs with hyphen
    Hyphens are easier to type, prettier to look (narrower) at and seem to be
    emerging as a standard for separating words is URLs on the web.
@@ -514,11 +518,12 @@
       CLOSED: [2012-07-09 Mon 16:35]
       Some error in the build script causes Modernizr to be written with the
       jQuery content. Very non-functional.
-***** [42%] Add Google Analytics
+***** [57%] Add Google Analytics
 ****** TODO To CGI canon/show.cgi
 ****** TODO To HTML files in `klo/`
 ****** TODO To HTML files in `qq/`
-****** TODO To CGI piqad/play.cgi
+****** DONE To CGI piqad/play.cgi
+       CLOSED: [2014-11-09 Sun 04:12]
 ****** DONE To CGI canon/search/
        CLOSED: [2014-11-08 Sat 17:07]
 ****** DONE To HTML files in `dict/`
@@ -576,12 +581,13 @@
         `head.css` (imported in `page.css`)
         `main.css` (imported in `page.css`)
         `foot.css` (imported in `page.css`)
-****** TODO Update design of "{pIqaD} Playground" script
-       http://klingonska.lal/piqad/play.cgi
 ****** TODO `dict/*`
        Uses `dict.css`.
 ****** TODO `klo/*`
 ****** TODO `qq/*`
+****** DONE Update design of piqad/play.cgi
+       CLOSED: [2014-11-09 Sun 04:11]
+       http://klingonska.lal/piqad/play.cgi
 ****** DONE Update design of canon/search/
        CLOSED: [2014-11-08 Sat 17:07]
 ***** TODO "lang" attribute in <body> tag should be set by build script
@@ -2088,10 +2094,11 @@
 ***** TODO File headers of major canon works should not be obfuscated
       TKD, CK, PK, TKW and KGT.
 ** "The {pIqaD} Playground"
-*** [0%] Move into writing/play/index.cgi
-**** TODO Make all references to page point to new place
+*** [50%] Move piqad/play.cgi -> writing/play/index.cgi
+**** DONE Make all links on page point to new place
+     CLOSED: [2014-11-18 tis 20:22]
 **** TODO HCoop redirect from old to new
-*** DONE Should parse {nenghep} as {nen-ghep} (not {negh-hep})
+*** DONE Should parse {nenghep} as {nen-ghep} (not {neng-hep})
     CLOSED: [2011-08-30 Tue 11:57]
     Felix Malmenbeck reported this 2011-08-29.
 *** TODO Should support Unicode version of {pIqaD}
@@ -2330,10 +2337,12 @@
      the normal search.
 ***** DONE alt + title
       CLOSED: [2014-11-02 Sun 00:47]
-***** [71%] Use form element CSS for whole site.
+***** [75%] Use <form> CSS from base.scss for whole site
       Search field CSS should be moved from `includes/dict.scss` to the
       `includes/base.scss` used by all pages. Need to make sure that this looks
       good everywhere, and does not conflict with other CSS.
+****** TODO canon/show.cgi
+****** TODO Make checkbox pretty (used by glossary/)
 ****** DONE dict/
 ****** DONE /
 ****** DONE canon/
@@ -2342,10 +2351,9 @@
        CLOSED: [2014-11-07 fri 15:06]
 ****** DONE canon/search/
        CLOSED: [2014-11-08 Sat 17:10]
-****** TODO canon/show.cgi
-****** TODO piqad/play.cgi
-       Uses old design, upgrade new.
-****** TODO Make checkbox pretty (used by glossary/)
+****** DONE piqad/play.cgi
+       CLOSED: [2014-11-09 Sun 04:13]
+       Uses old design, upgrade to new.
 ***** TODO Search button images should be DRY
       Search (and dropdown) SVG images should be specified in CSS, so that we
       can specify them just once for the entire website.
@@ -3792,7 +3800,6 @@
     > phrases and info in Swedish.
     > I'm working on a course plan and would like to start teaching a small
     > group in Stockholm, but we'll see how that works out.
-
 *** TODO Javascript to display only a single tag/category
 *** TODO Weed out links to non-existing pages
 *** TODO Links to add
