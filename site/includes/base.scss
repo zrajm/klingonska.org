@@ -223,15 +223,16 @@ header {
     font-family: sans-serif;
     margin: 0;
     width: 100%;
-    [itemprop="breadcrumb"] {
-        a, a:link, a:visited, a:hover, a:active {
-            color: #000;
-            text-decoration: none;
-        }
-        a:hover {
-            background: inherit;
-            text-shadow: 0 0 8px #fff, 0 0 4px #fff, 0 0 2px #000;
-        }
+    a, a:link, a:visited, a:hover, a:active {
+        color: inherit;
+        text-decoration: none;
+        transition: text-shadow 0.05s ease-out;
+    }
+    a:hover {
+        background: inherit;
+        text-shadow: 0 0 8px #fff,
+                     0 0 4px #fff,
+                     0 0 2px #000;
     }
     /* breadcrumbs & update date */
     > ul {
@@ -273,9 +274,6 @@ header {
         max-width: 42em;          /* max page width */
         padding: .5em 0;
         /* logo & site title */
-        a {
-            text-decoration: none; /* no underlining of logo in Firefox */
-        }
         a:hover table {
             h1 {
                 text-shadow:
@@ -296,6 +294,7 @@ header {
             }
             h1 {
                 color: #fff;
+                transition: text-shadow 0.05s ease-out;
                 text-shadow:
                      0px -2px 1px #000,  2px -2px 1px #000,
                      2px  0px 1px #000,  2px  2px 1px #000,

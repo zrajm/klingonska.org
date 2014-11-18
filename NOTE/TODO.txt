@@ -264,7 +264,7 @@
      Is it possible to have a like button that does not allow facebook to track
      your visits?
 **** TODO Bitcoin donation button
-*** [33%] Site redesign
+*** [40%] Site redesign
 **** TODO Add Open Graph tags for link previews (for Facebook etc.)
      More docs on the Open Graph protocol:
      https://developers.facebook.com/docs/opengraphprotocol/
@@ -273,6 +273,10 @@
      https://developers.facebook.com/tools/debug
 
      Have already added Open Graph to Glossary page, so see examples there.
+**** DONE CSS animation fading the logo glow in the page header
+     CLOSED: [2014-11-18 tis 23:22]
+     The page logo glows on hover. This should fade in, rather than just light
+     up.
 **** DONE Design new look (more modern looking, but still simple)
      CLOSED: [2012-06-09 Sat 11:21]
      This should fix:
