@@ -47,7 +47,7 @@ if you have any) to see how much one can actually play around with the glyphs
 and still be able read them.
 
 <p class=noindent>There are
-also <a href="http://localhost/writing/examples/#nicholas">some images created
+also <a href="../writing/examples/#nicholas">some images created
 by Nick Nicholas</a> (one of the people behind the restored version of the
 Klingon {Hamlet}) that are quite interesting, as they show what seem to be
 {pIqaD} written with a ballpoint pen, a calligraphy pen (in a Fraktur hand –
