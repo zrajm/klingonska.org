@@ -25,27 +25,16 @@ my @CRUMBS  = (
 #
 #     o cleanup of code/data, place HTML last(?)
 #
-#     o perhaps one could count in how many files each respective word in a
-#       search exists (multiple occurances counted as end). This would help if
-#       you get a a word which occurs to often to be able to display it (max= in
-#       more than 30 different öl!)
-#
 #     o show page numbers in search results preview (where applicable)
 #
 #     o test well-formedness of stylesheet + HTML
 #
 
-# Implementera vettig standardheader för filformatet.
-#
-# $query            = original query (string)
-# $query_clean      = query as it was interpreted
-# @query_regex[$i]  = the one used to grep through files, of i length
-#   @query_word[$i] = the words of the query (un-regexed)
-#   @query_not [$i] = true when $query_regex[$i] shouldn't match
-#   @query_case[$i] = true when $query_regex[$i] is case sensetive
-# $query_mark       = single regex for marking matches in output
-#
-
+##############################################################################
+##                                                                          ##
+##  Query                                                                   ##
+##                                                                          ##
+##############################################################################
 {
     package Query;
     # $query            = original query (string)
@@ -55,7 +44,7 @@ my @CRUMBS  = (
     #   @query_not [$i] = true when $query_regex[$i] shouldn't match
     #   @query_case[$i] = true when $query_regex[$i] is case sensetive
     # $query_mark       = single regex for marking matches in output
-
+    #
     # This thing splits a string into words if a "word" contains spaces it
     # should be quoted generate: four lists @query_{word,not,case,regex}[] and
     # the strings $query_mark (a regex for marking found things) and
@@ -82,7 +71,7 @@ my @CRUMBS  = (
 		next if /^[-+=]*[ *]*$/;       # skip wildcard-only words
 		my ($prefix, $word)            # extract prefix & del quotes
                     = m#^([-+=]*)"?([^"]*)#;
-		$word =~ s/([ *])\1*/$1/g;     # compress multiple stars/spaces
+		$word =~ s/([ *])\1*/$1/g;     # squash multiple stars/spaces
 		my $not   = ($prefix =~ m/-/ ? "-" : "");
 		my $case  = ($prefix =~ m/=/ ? "=" : "");
 		my $regex = regexify($word, $case);
@@ -175,16 +164,16 @@ my @CRUMBS  = (
     1;
 }
 
-###############################################################################
-##                                                                           ##
-##  Settings                                                                 ##
-##                                                                           ##
-###############################################################################
+##############################################################################
+##                                                                          ##
+##  Settings                                                                ##
+##                                                                          ##
+##############################################################################
 
 our %cfg = (
     DESC_LENGTH    => 300,                     # max length of file descr.
-    # context length is always shortened, so this is only an approximate value
-    # (it can never grow bigger than this though)
+    # Context length is always shortened, so this is only an approximate value
+    # (it can never grow bigger than this though).
     CONTEXT_LENGTH => 35,                      # max length of found context
     BASE_DIR       => "..",
 
@@ -200,11 +189,11 @@ our %cfg = (
 $cfg{re_bow} = "(?:\\A|(?<![$cfg{re_alph}]))"; # beginning of word
 $cfg{re_eow} = "(?:\\Z|(?![$cfg{re_alph}]))";  # end of word
 
-###############################################################################
-##                                                                           ##
-##  Functions                                                                ##
-##                                                                           ##
-###############################################################################
+##############################################################################
+##                                                                          ##
+##  Functions                                                               ##
+##                                                                          ##
+##############################################################################
 
 sub is_under_copyright {
     my ($transcript_file) = @_;
@@ -258,11 +247,11 @@ sub env {
 # In list context reads & parses $FILE, returning $TEXT [[...]] header data in
 # %HEAD.
 #
-# In scalar context $FILE is returned as-is, any header is unparsed and included
-# in $TEXT.
+# In scalar context $FILE is returned as-is, any header is unparsed and
+# included in $TEXT.
 #
-# $FILE is a plain text file, or KA transcript file with leading [[...]] header
-# containing metadata (such as author, date, publisher etc.).
+# $FILE is a plain text file, or KA transcript file with leading [[...]]
+# header containing metadata (such as author, date, publisher etc.).
 sub read_file {
     my ($file) = @_;
     # FIXME add error messages on error (for open/read/close)
@@ -360,7 +349,8 @@ sub breadcrumbs {
     my @temp = ("" => "Home", @CRUMBS);
     while (my ($path, $title) = splice(@temp, 0, 2)) {
         my $attr = (@temp == 0) ? " itemprop=url" : "";
-        push @crumbs, qq(<a href="http://klingonska.org/$path"$attr>$title</a>);
+        push @crumbs,
+            qq(<a href="http://klingonska.org/$path"$attr>$title</a>);
     }
     return join(qq( ›\n        ), @crumbs);
 }
@@ -472,9 +462,9 @@ sub result_page {
     my ($path, %form) = @_;
     my $query = new Query($form{query});
     # file name globbing
-    my @file    = sort glob("$cfg{BASE_DIR}/[0-9]*.txt");  # glob up a file name list
+    my @file    = sort glob "$cfg{BASE_DIR}/[0-9]*.txt";
     my $matches = 0;                           # number of matches found
-    my $out  = "";                             # output buffer
+    my $out     = "";                          # output buffer
     if ($query->error()) {
         $out  = "<h2>" . $query->error() . "</h2>\n\n";
         $out .= suggest_search();
@@ -487,7 +477,9 @@ sub result_page {
 	    my ($text, %head) = read_file($file);
 	    $text = strip_comments($text);
 	    foreach my $j (0..$#query_regex) {
-		if ($text =~ /$cfg{re_bow}$query_regex[$j]$cfg{re_eow}/ xor $query_not[$j]) {
+		if ($text =~ /$cfg{re_bow}$query_regex[$j]$cfg{re_eow}/
+                        xor $query_not[$j]
+                ) {
 		    $matches += 1;
 		    $out .= store_match(
                         file  => $file,
@@ -501,7 +493,12 @@ sub result_page {
         }
 	$out .= "</dl>";
     }
-    return old_form($query->clean(), "", %form)
+    return
+        old_form(
+            $query->clean(),
+            "",
+            %form,
+        )
         . status_row(
             "%s document%s found.",
             $matches == 0 ? "No" : $matches,
@@ -522,18 +519,23 @@ sub match_summary {
         $characters < $cfg{DESC_LENGTH}
             and $text =~ /$cfg{re_bow}$query_mark$cfg{re_eow}/gx
     ) {
-        ($context, $incomplete) = context(     # get content around found word
-            $text,
-            pos($text) - length($1) - $cfg{CONTEXT_LENGTH}, # left pos in string
-            $cfg{CONTEXT_LENGTH} * 2 + length($1)        # size of pre- & post-context
-        );
+        # Get word context (= text before and after word)
+        ($context, $incomplete) = do {
+            my $start  = pos($text) - length($1) - $cfg{CONTEXT_LENGTH};
+            my $length = $cfg{CONTEXT_LENGTH} * 2 + length($1);
+            context($text, $start, $length);
+        };
         for ($context) {
-            s#\n+(?:[>:] *)*# #g;              # TODO: remove or keep?
-                                               # this thingy removes the line
-                                               # quote signs ":" and ">"
-            s#\A  [$cfg{re_alph}]* [^$cfg{re_alph}]+ ##sox   # trim initial half-word & space
+            # TODO: remove or keep?
+            # (This thingy removes the line quote signs ":" and ">".)
+            s#\n+(?:[>:] *)*# #g;
+
+            # trim initial half-word & space
+            s#\A  [$cfg{re_alph}]* [^$cfg{re_alph}]+ ##sox
                 unless $incomplete < 0;
-            s#   [^$cfg{re_alph}]+  [$cfg{re_alph}]* \Z##sox # trim final space & half-word
+
+            # trim final space & half-word
+            s#   [^$cfg{re_alph}]+  [$cfg{re_alph}]* \Z##sox
                 unless $incomplete > 0;
 
             s/\s+/ /g;                         # squash space & linefeeds
@@ -550,9 +552,8 @@ sub match_summary {
 
             # convert the found word marks (i.e. [[...]]) into HTML tags
             s#\Q[[\E#<mark>#go;
-            s#\Q]]\E#</mark>#go;#
+            s#\Q]]\E#</mark>#go;
         }
-
         $out .= ($incomplete >= 0 ? qq(…) : qq()) . qq( $context);
     }
     return $out . ($incomplete <= 0 ? " …" : "");
@@ -573,7 +574,9 @@ sub store_match {
 
     # FIXME: We should display matches of TKD, CK, PK the other canon works
     # differently, so that page numbers are shown for each match.
-    my ($source_link, $title, $link) = file2title($arg{file}, $query);   # get name of document
+
+    # get name of document
+    my ($source_link, $title, $link) = file2title($arg{file}, $query);
     $title = transcript2html($head->{title}) if exists($head->{title});
 
     my @value = (
@@ -730,15 +733,20 @@ EOF
 }
 
 sub help_page {
-    return page_header . empty_form . search_help . page_footer;
+    return page_header
+        . empty_form
+        . search_help
+        . page_footer;
 }
 
 # url encode ascii/latin1 strings
 sub url_encode {
-    $_ = $_[0];                                 #
-    s/([^-.*0-9A-Z_a-z ])/sprintf("%%%X", ord $1)/goe;
-    s/ /+/go;                                   #
-    return $_;                                  #
+    my ($str) = @_;
+    for ($str) {
+        s/([^-.*0-9A-Z_a-z ])/sprintf("%%%X", ord $1)/goe;
+        s/ /+/go;
+    }
+    return $str;
 }
 
 # html encode ascii/latin1 strings
@@ -762,7 +770,7 @@ sub transcript2html {
 	s#(?<![[:alpha:]])"#&ldquo;#g;
 	s#"#&rdquo;#g;
 	# single quote/aphostrophe
-	s#(?<![[:alpha:]])'#&lsquo;#g; 	# FIXME this should never happen in Klingon text!
+	s#(?<![[:alpha:]])'#&lsquo;#g;
 	s#'#&rsquo;#g;
         s#(?<!-)--(?!-)#–#g;
 	$_ = matched_pair_subst($_, "<", ">", "<i>", "</i>");
@@ -773,20 +781,21 @@ sub transcript2html {
 
 # $STRING = matched_pair_subst($TRING, $OLDBRA, $OLDKET[, $NEWBRA, $NEWKET]);
 #
-# Replaces each $OLDBRA and $OLDKET with the corresponding $NEWBRA and $NEWKET.
+# Replaces each $OLDBRA and $OLDKET with the corresponding $NEWBRA and
+# $NEWKET.
 #
 # It is assumed that it is desired for each $OLDBRA and $OLDKET to be in
-# matching pairs (like brackets, $OLDBRA is the leading bracket, and $OLDKET is
-# the ending bracket), and if there are any brackets missing they will be added
-# to the output string. Missing leading brackets will be added to the beginning
-# of $STRING and missing trailing brackets will be added to the end.
+# matching pairs (like brackets, $OLDBRA is the leading bracket, and $OLDKET
+# is the ending bracket), and if there are any brackets missing they will be
+# added to the output string. Missing leading brackets will be added to the
+# beginning of $STRING and missing trailing brackets will be added to the end.
 #
 # If $NEWBRA & $NEWKET is unspecified any incomplete bracket pairs will simply
 # be completed, with no replacement made (resulting only in possible additions
 # to the start and end of $STRING).
 #
-# Each "bracket" may consist of any number of characters, and this function can
-# thus be used to convert e.g. bracket notation into HTML or vice versa.
+# Each "bracket" may consist of any number of characters, and this function
+# can thus be used to convert e.g. bracket notation into HTML or vice versa.
 #
 # Examples:
 #    matched_pair_subst("a(b", qw/( )/);             # -> "a(b)"
@@ -861,17 +870,17 @@ sub inc_counter {
 # takes:   STRING, STARTPOS, LENGTH
 # returns: SUBSTRING, INCOMPETEVALUE
 # (-1 if leftmost, 1 if rightmost, otherwise 0)
-sub context ($$$) {
+sub context {
     my ($start, $length, $incomplete) =         # get args
-        (@_[1, 2], 0);                          #
+        (@_[1, 2], 0);
     if ($start <= 0) {                          # if negative startvalue
         $length += $start;                      #   crop off right end
-        return "", -1 if $length <= 0;          #
-        $start   =  0;                          #
+        return "", -1 if $length <= 0;
+        $start   =  0;
         $incomplete  = -1;                      #   set incomplete to negative
     } elsif ($start+$length >= length($_[0])) { # if to big startvalue
         $incomplete = 1;                        #   set incomplete to negative
-    }                                           #
+    }
     return substr($_[0], $start, $length),      # return substring and
         $incomplete;                            #   incomplete value
 }
@@ -943,8 +952,12 @@ sub apply_corrections {
 sub display_file {
     my ($path, %form) = @_;
     my $query = new Query($form{query});
-    print old_form($query->clean(), "Search only this file.", %form);      # output page header & form
-
+    print
+        old_form(                              # output page header & form
+            $query->clean(),
+            "Search only this file.",
+            %form,
+        );
     my ($transcript_link) = file2title($form{file});
     print status_row(
         qq(<a href="%s">Transcript</a> – Displaying file »<tt>%s</tt>«),
@@ -996,12 +1009,12 @@ sub display_file {
         s{^( &gt; | : |  | To:   |              # insert <br> before lines
              Subject:    | Date: |              #   starting w/ punctuation
              Newsgroups: | From:                #   (boldify prefixes)
-           )}{<br>$1}mxg;                     #
+           )}{<br>$1}mxg;
         s{^(<(?i:br|p)>)                        # insert <br> before rows
            ( (?:&gt;\ *|:\ *)+ | To:   |        #   befinning with punctuation
              Subject:          | Date: |        #   (boldify row prefixes)
-             Newsgroups:       | From:          #
-           )}{$1<b>$2</b>}mxg;                  #
+             Newsgroups:       | From:
+           )}{$1<b>$2</b>}mxg;
     }
 
     my %found = ();                                # clear a hash
@@ -1029,11 +1042,11 @@ sub display_file {
 sub html_header { return header(              -charset => 'utf-8') }
 sub text_header { return header("text/plain", -charset => 'utf-8') }
 
-###############################################################################
-##                                                                           ##
-##  Initialization                                                           ##
-##                                                                           ##
-###############################################################################
+##############################################################################
+##                                                                          ##
+##  Initialization                                                          ##
+##                                                                          ##
+##############################################################################
 
 # get form values
 my %form = map {
@@ -1054,13 +1067,14 @@ if ($form{get} // "") {
     if ($form{get} eq "source" and ($form{file} // "")) {  # 'get=source'
         print redirect("../$form{file}");
         exit;
-    } elsif ($form{get} =~ /^(help|list)$/) {      # 'get=help' or 'get=list'
+    } elsif ($form{get} =~ /^(help|list)$/) {  # 'get=help' or 'get=list'
         print html_header . help_page;
         exit;
     }
 }
 
-if ($form{file} // "") {                       # file specified
+$form{file} //= "";
+if ($form{file}) {                             # file specified
     print html_header;
     display_file($cfg{BASE_DIR}, %form);
 } elsif ($form{query}) {                       # search results
