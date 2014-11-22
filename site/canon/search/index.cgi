@@ -195,7 +195,7 @@ $cfg{re_eow} = "(?:\\Z|(?![$cfg{re_alph}]))";  # end of word
 ##                                                                          ##
 ##############################################################################
 
-sub is_under_copyright {
+sub is_copyrighted {
     my ($transcript_file) = @_;
     return $transcript_file =~ m#-(tkd|tkw|kgt)\.txt$# ? 1 : "";
 }
@@ -237,11 +237,6 @@ sub is_under_copyright {
     }
 }
 
-sub env {
-    my ($envname) = @_;
-    return exists($ENV{$envname}) ? $ENV{$envname} : "";
-}
-
 # Usage: ($TEXT[, %HEAD]) = read_file($FILE);
 #
 # In list context reads & parses $FILE, returning $TEXT [[...]] header data in
@@ -273,6 +268,23 @@ sub read_file {
 	return ($text, %head);
     }
     return $text;
+}
+
+sub download_page {
+    return <<"EOF";
+<p>Sorry, search results for the major canon works cannot be displayed
+  yet. <nobr>:(</nobr> – You <i>can</i> look at their transcripts, however.
+
+<ul>
+  <li>1992 – <i><a href="../1992-01-01-tkd.txt">The Klingon Dictionary</a></i>
+  <li>1992 – <i><a href="../1992-10-01-ck.txt">Conversational Klingon</a></i>
+  <li>1993 – <i><a href="../1993-10-01-pk.txt">Power Klingon</a></i>
+  <li>1996 – <i><a href="../1996-05-01-tkw.txt">The Klingon Way</a></i>
+  <li>1997 – <i><a href="../1997-11-01-kgt.txt">Klingon for the Galactic Traveler</a></i>
+</ul>
+
+<p>In order to access these you’ll need a copy <i>The Klingon Dictionary</i>.
+EOF
 }
 
 sub page_footer {
@@ -320,11 +332,11 @@ sub metadata_table {
 
 sub match_links {
     my ($query, $found, $query_word) = @_;
+    return "" unless %$found;
     my @out;
-
     my @query_not  = $query->not();
     my @query_case = $query->case();
-    my $count = 0;
+    my $count      = 0;
     foreach my $i (0..$#$query_word) {
         next if $query_not[$i];
 	my $word = $query_word->[$i];
@@ -432,12 +444,6 @@ sub strip_comments {
 sub strip_after_comma {
     (local $_) = @_;
     s/,.*//;
-    return $_;
-}
-
-sub strip_leading {
-    (local $_, my $prefix) = @_;
-    s/^\Q$prefix//;
     return $_;
 }
 
@@ -757,17 +763,14 @@ sub html_encode {
 sub transcript2html {
     my ($str) = @_;
     for ($str) {
-	# ampersand
 	s#&#&amp;#g;
-	# double quotes
-	s#(?<![[:alpha:]])"#&ldquo;#g;
+	s#(?<![[:alpha:]])"#&ldquo;#g; 	       # double quote
 	s#"#&rdquo;#g;
-	# single quote/aphostrophe
-	s#(?<![[:alpha:]])'#&lsquo;#g;
-	s#'#&rsquo;#g;
-        s#(?<!-)--(?!-)#–#g;
+	s#(?<![[:alpha:]])'#&lsquo;#g;         # single quote/aphostrophe
+	s#'#’#g;
+        s#(?<!-)--(?!-)#–#g;                   # en-dash
 	$_ = matched_pair_subst($_, "<", ">", "<i>", "</i>");
-	$_ = matched_pair_subst($_, "{", "}", '<b lang=tlh>', '</b>');
+	$_ = matched_pair_subst($_, "{", "}", "<b lang=tlh>", "</b>");
     }
     return $str;
 }
@@ -846,20 +849,6 @@ if ($cfg{TEST}{html2transcript}) {
     exit;
 }
 
-sub inc_counter {
-    my $file = shift;
-    # Update counter in file
-    if ( open(my $fh,"<$file") ) {      # läs räknare från fil
-        ( my $count = <$fh> )++;
-        close($fh);
-        if (open($fh,">$file")) {    # skriv räknare till fil
-            print $fh "$count\n";
-            close($fh);
-        }
-        return $count;
-    }
-}
-
 # takes:   STRING, STARTPOS, LENGTH
 # returns: SUBSTRING, INCOMPETEVALUE
 # (-1 if leftmost, 1 if rightmost, otherwise 0)
@@ -885,19 +874,6 @@ sub status_row {
     } @var;
 }
 
-# return result header
-# (e.g.: "There are 2 documents matching the query »chach«.")
-sub display_matches () {
-    my ($results, $query) = @_;
-    return status_row(
-        "%s document%s match%s: <tt>%s</tt>",
-        $results == 0 ? "No" : $results,
-        $results == 1 ? ''   : 's',
-        $results == 1 ? 'es' : '',
-        $query,
-    );
-}
-
 sub file2title {
     my ($file, $query) = @_;
     my ($title) = $file =~ m#([^/]*)$#;
@@ -910,7 +886,7 @@ sub file2title {
     );
 }
 
-sub suggest_search () {
+sub suggest_search {
     return <<"EOF";
 <p>You could try to:
 <ul>
@@ -920,14 +896,6 @@ sub suggest_search () {
   <li>Turn off some negative search words (leading minus).
 </ul>
 EOF
-}
-
-sub source_page {
-    my ($path, %form) = @_;
-    if (is_under_copyright($form{file})) {
-	return "Sorry, TKD, TKW, KGT, CK and PK cannot be displayed yet.\n";
-    }
-    return scalar read_file("$path/$form{file}");
 }
 
 # resolve hypenation and remove comments
@@ -942,36 +910,23 @@ sub apply_corrections {
     return $text;
 }
 
-sub display_file {
+sub file_page {
     my ($path, %form) = @_;
     my $query = new Query($form{query});
-    print page_header(%form)
-        . old_form(                            # output page header & form
-            %form,
-            clean_query => $query->clean(),
-            message     => "Search only this file.",
-        );
+    my $out = page_header(%form) . old_form(   #   output search form
+        %form,
+        clean_query => $query->clean(),
+        message     => "Search only this file.",
+    );
     my ($transcript_link) = file2title($form{file});
-    print status_row(
+    $out .= status_row(
         qq(<a href="%s">Transcript</a> – Displaying file »<tt>%s</tt>«),
         $transcript_link,
         $form{file},
     );
 
-    if (is_under_copyright($form{file})) {
-	print "<p>Sorry, search results for the major canon works cannot "
-            . "be displayed yet. <nobr>:(</nobr> – You <i>can</i> "
-            . "look at their transcripts, however."
-            . qq(<ul>)
-            . qq(<li>1992 – <i><a href="../1992-01-01-tkd.txt">The Klingon Dictionary</a></i>)
-            . qq(<li>1992 – <i><a href="../1992-10-01-ck.txt">Conversational Klingon</a></i>)
-            . qq(<li>1993 – <i><a href="../1993-10-01-pk.txt">Power Klingon</a></i>)
-            . qq(<li>1996 – <i><a href="../1996-05-01-tkw.txt">The Klingon Way</a></i>)
-            . qq(<li>1997 – <i><a href="../1997-11-01-kgt.txt">Klingon for the Galactic Traveler</a></i>)
-            . qq(</ul>)
-            . qq(<p>In order to access these you’ll need a copy <i>The Klingon Dictionary</i>.)
-            . page_footer;
-	return;
+    if (is_copyrighted($form{file})) {
+        return download_page . page_footer;
     }
 
     my ($text, %head) = read_file("$path/$form{file}");
@@ -1022,7 +977,7 @@ sub display_file {
         }
     }
 
-    print join(
+    return $out . join(
         "\n",
         match_links($query, \%found, \@query_word),
         "",
@@ -1032,8 +987,7 @@ sub display_file {
     ) . page_footer;
 }
 
-sub html_header { return header(              -charset => 'utf-8') }
-sub text_header { return header("text/plain", -charset => 'utf-8') }
+sub html_header { return header(-charset => 'utf-8') }
 
 ##############################################################################
 ##                                                                          ##
@@ -1068,8 +1022,8 @@ if ($form{get} // "") {
 
 $form{file} //= "";
 if ($form{file}) {                             # file specified
-    print html_header;
-    display_file($cfg{BASE_DIR}, %form);
+    print html_header
+        . file_page($cfg{BASE_DIR}, %form);
 } elsif ($form{query}) {                       # search results
     print html_header
         . result_page($cfg{BASE_DIR}, %form);
