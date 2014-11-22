@@ -495,9 +495,8 @@ sub result_page {
     }
     return page_header(%form)
         . old_form(
-            \%form,
-            $query->clean(),
-            "",
+            %form,
+            clean_query => $query->clean,
         )
         . status_row(
             "%s document%s found.",
@@ -597,41 +596,39 @@ sub store_match {
         . qq(</small>\n\n);
 }
 
+# Called with no args results in empty form being rendered.
 sub old_form {
-    my ($form_ref, $cleaned_query, $message) = @_;
-    $form_ref      //= {
-        file  => "",
-        query => "",
-    };
-    $cleaned_query //= "";
-    $message       //= "";
+    my (%arg) = @_;
+    $arg{$_} //= "" foreach qw(file query clean_query message);
+
     # Hidden form element set when displaying a single file.
     # This is set when displaying a single file.
-    my $file_arg = $form_ref->{file}
+    my $file_arg = $arg{file}
         ? do {
-            my $value = html_encode($form_ref->{file});
+            my $value = html_encode($arg{file});
             qq(\n<input type=hidden name=file value="$value">)
         } : "";
     my $prettify = "";
-    if ($cleaned_query ne ($form_ref->{query} // "")) {
+    if ($arg{clean_query} ne $arg{query}) {
         my %q = (
-            q => url_encode($cleaned_query),
-            exists $form_ref->{file}
-                ? (file => url_encode($form_ref->{file}))
+            q => url_encode($arg{clean_query}),
+            exists $arg{file}
+                ? (file => url_encode($arg{file}))
                 : (),
         );
         my $param = join('&', map { "$_=$q{$_}" } keys %q);
         $prettify = qq(<br>• <a href="?$param">Prettify</a>);
     }
-    if ($message) {
-        $message = "\n    <tr><td class=center><small>$message</small>";
+    if ($arg{message}) {
+        $arg{message} =
+            "\n    <tr><td class=center><small>$arg{message}</small>";
     }
-    my $value = html_encode($form_ref->{query});
+    my $value = html_encode($arg{query} // "");
     return raw_form(
         url    => "",
         hidden => $file_arg,
-        note   => $message,
-        query  => $value // "",
+        note   => $arg{message},
+        query  => $value,
         link   => $prettify,
     );
 }
@@ -950,9 +947,9 @@ sub display_file {
     my $query = new Query($form{query});
     print page_header(%form)
         . old_form(                            # output page header & form
-            \%form,
-            $query->clean(),
-            "Search only this file.",
+            %form,
+            clean_query => $query->clean(),
+            message     => "Search only this file.",
         );
     my ($transcript_link) = file2title($form{file});
     print status_row(
@@ -1078,7 +1075,7 @@ if ($form{file}) {                             # file specified
         . result_page($cfg{BASE_DIR}, %form);
 } elsif (($ENV{SERVER_PROTOCOL} // "") eq "INCLUDED") {
     print html_header                          # used as server-side include
-        . old_form(\%form);
+        . old_form(%form);
 } else {                                       # default page
     print html_header
         . help_page;
