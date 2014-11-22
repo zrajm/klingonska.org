@@ -493,11 +493,11 @@ sub result_page {
         }
 	$out .= "</dl>";
     }
-    return
-        old_form(
+    return page_header(%form)
+        . old_form(
+            \%form,
             $query->clean(),
             "",
-            %form,
         )
         . status_row(
             "%s document%s found.",
@@ -598,25 +598,26 @@ sub store_match {
 }
 
 sub old_form {
-    my ($cleaned_query, $message, %form) = @_;
-    return page_header(%form) . xx(\%form, $cleaned_query, $message);
-}
-
-sub xx {
-    my ($formref, $prettified_query, $message) = @_;
+    my ($form_ref, $cleaned_query, $message) = @_;
+    $form_ref      //= {
+        file  => "",
+        query => "",
+    };
+    $cleaned_query //= "";
+    $message       //= "";
     # Hidden form element set when displaying a single file.
     # This is set when displaying a single file.
-    my $file_arg = $formref->{file}
+    my $file_arg = $form_ref->{file}
         ? do {
-            my $value = html_encode($formref->{file});
+            my $value = html_encode($form_ref->{file});
             qq(\n<input type=hidden name=file value="$value">)
         } : "";
     my $prettify = "";
-    if ($prettified_query ne ($formref->{query} // "")) {
+    if ($cleaned_query ne ($form_ref->{query} // "")) {
         my %q = (
-            q => url_encode($prettified_query),
-            exists $formref->{file}
-                ? (file => url_encode($formref->{file}))
+            q => url_encode($cleaned_query),
+            exists $form_ref->{file}
+                ? (file => url_encode($form_ref->{file}))
                 : (),
         );
         my $param = join('&', map { "$_=$q{$_}" } keys %q);
@@ -625,7 +626,7 @@ sub xx {
     if ($message) {
         $message = "\n    <tr><td class=center><small>$message</small>";
     }
-    my $value = html_encode($formref->{query});
+    my $value = html_encode($form_ref->{query});
     return raw_form(
         url    => "",
         hidden => $file_arg,
@@ -650,11 +651,6 @@ sub raw_form {
 </form>
 EOF
 };
-
-sub empty_form {
-    my (%form) = @_;
-    return xx(\%form, "", "");
-}
 
 sub search_help {
 return <<'EOF';
@@ -734,7 +730,7 @@ EOF
 
 sub help_page {
     return page_header
-        . empty_form
+        . old_form
         . search_help
         . page_footer;
 }
@@ -952,11 +948,11 @@ sub apply_corrections {
 sub display_file {
     my ($path, %form) = @_;
     my $query = new Query($form{query});
-    print
-        old_form(                              # output page header & form
+    print page_header(%form)
+        . old_form(                            # output page header & form
+            \%form,
             $query->clean(),
             "Search only this file.",
-            %form,
         );
     my ($transcript_link) = file2title($form{file});
     print status_row(
@@ -1082,7 +1078,7 @@ if ($form{file}) {                             # file specified
         . result_page($cfg{BASE_DIR}, %form);
 } elsif (($ENV{SERVER_PROTOCOL} // "") eq "INCLUDED") {
     print html_header                          # used as server-side include
-        . empty_form(%form);
+        . old_form(\%form);
 } else {                                       # default page
     print html_header
         . help_page;
