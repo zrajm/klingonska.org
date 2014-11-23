@@ -7,14 +7,16 @@ use CGI qw(:standard);
 binmode(STDIN,  ":encoding(utf8)");
 binmode(STDOUT, ":encoding(utf8)");
 
-my $TITLE   = "Archive of Okrandian Canon";
-my $YEAR    = "1998-2014";
-my $UPDATED = "2014-11-08T20:27:57+0100";
-my $VERSION = "0.9b";
-my $DIR     = "../..";
-my @CRUMBS  = (
-    "canon/"         => "Archive of Okrandian Canon",
-    "canon/search/"  => "Search",
+my %METADATA = (
+    title    => "Archive of Okrandian Canon",
+    year     => "1998-2014",
+    updated  => "2014-11-08T20:27:57+0100",
+    logolink => "..",
+    basedir  => "../..",
+    crumbs   => [
+        "canon/"         => "Archive of Okrandian Canon",
+        "canon/search/"  => "Search",
+    ],
 );
 
 # TODO
@@ -29,6 +31,154 @@ my @CRUMBS  = (
 #
 #     o test well-formedness of stylesheet + HTML
 #
+
+##############################################################################
+##                                                                          ##
+##  Page Header / Footer Module                                             ##
+##                                                                          ##
+##############################################################################
+{
+    package Local::Page;
+
+    sub new {
+        my ($class, %opt) = @_;
+        return bless({}, $class)->set(%opt);
+    }
+
+    sub set {
+        my ($self, %opt) = @_;
+        @$self{ keys %opt } = values %opt;
+        return $self;
+    }
+
+    # Usage: $TEXTDATE = _text_date($ISODATE);
+    #
+    # Converts datestring (beginning with a YEAR-MM-DD) into a descriptive
+    # plain text date like "January 1, 2012". Only year, month and day is
+    # included, and anything coming after the initial date in $ISODATE is
+    # ignored.
+    my @month = qw(
+        January   February  March      April    May       June
+        July      August    September  October  November  December
+    );
+    sub _text_date {
+        my ($date) = @_;
+        # Accepts only ISO dates beginning with "1999-12-31"
+        if ($date =~ m/^(\d{4})-0?(\d{1,2})-0?(\d{1,2})/) {
+            my ($year, $month, $day) = ($1, $2, $3);
+            return "$month[$month - 1] $day, $year";
+        }
+        return "UNKNOWN DATE";
+    }
+
+    sub _breadcrumbs {
+        my @temp = ("" => "Home", @_);
+        my @crumbs;
+        while (my ($path, $title) = splice(@temp, 0, 2)) {
+            my $attr = (@temp == 0) ? " itemprop=url" : "";
+            push @crumbs,
+                qq(<a href="http://klingonska.org/$path"$attr>$title</a>);
+        }
+        return join(qq( ›\n        ), @crumbs);
+    }
+
+    sub header {
+        my ($self) = @_;
+        my $isodate    = $self->{updated};
+        my $text_date  = _text_date($isodate);
+        my $basedir    = $self->{basedir};
+        my $logolink   = $self->{logolink};
+        my $crumbs     = _breadcrumbs(@{ $self->{crumbs} });
+        my $h1_title   = $self->{title};
+        my $head_title = do {
+            local $_ = $self->{title};
+            s#<.*?>##g;
+            $_;
+        };
+        return <<"EOF";
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=en> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang=en> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang=en> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=en> <!--<![endif]-->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>$head_title – Klingonska Akademien</title>
+  <meta name=viewport content="width=device-width">
+  <link rel=stylesheet href="$basedir/includes/base.css">
+  <link rel=stylesheet href="$basedir/includes/banner.css">
+  <link rel=stylesheet href="$basedir/includes/dict.css">
+  <link rel=stylesheet href="$basedir/includes/dict-layouttable.css">
+  <link rel=stylesheet href="$basedir/includes/canon-search.css">
+  <link rel=icon href="/favicon.ico">
+  <link rel=canonical href="http://klingonska.org/">
+  <script src="$basedir/includes/modernizr-2.5.3.js"></script>
+</head>
+<body lang=en itemscope itemtype="http://schema.org/WebPage">
+
+<header role=banner>
+  <!-- begin:status -->
+  <ul>
+    <li>
+      <nav itemprop=breadcrumb role=navigation>
+        $crumbs
+      </nav>
+    <li>
+      Updated <time pubdate itemprop=dateModified datetime="$isodate">$text_date</time>
+  </ul>
+  <!-- end:status -->
+  <div>
+    <a href="$logolink">
+      <table id=logotitle>
+        <td>
+          <span class=crop>
+            <img height=200 width=200 src="$basedir/pic/ka-logo.svg" alt="Klingonska Akademien">
+          </span>
+        <td>
+          <h1>Klingonska<span id=logospace>&nbsp;</span>Akademien</h1>
+      </table>
+    </a>
+  </div>
+</header>
+
+<div role=main itemprop=mainContentOfPage>
+
+<h1>$h1_title</h1>
+EOF
+    }
+
+    sub footer {
+        my ($self) = @_;
+        my ($year1, $year2) = $self->{year} =~ /(\d+)[[:punct:]]+(\d+)/;
+        my $basedir = $self->{basedir};
+        return <<"EOF";
+</div>
+
+<footer role=contentinfo>
+  <p class=copyright>© <time itemprop=copyrightYear>$year1</time>–<time>$year2</time> by
+    <a href="mailto:zrajm\@klingonska.org" rel=author itemprop=author>zrajm</a>,
+    <a href="http://klingonska.org/" itemprop=sourceOrganization>Klingonska Akademien</a>, Uppsala
+  <p class=validator>
+    Validate:
+    <a href="http://validator.w3.org/check?uri=http://klingonska.org/">HTML5</a>,
+    <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://klingonska.org/&profile=css3">CSS3</a>,
+    <a href="http://validator.w3.org/checklink?uri=http://klingonska.org/">links</a>.
+    License:
+    <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel=license>CC BY–SA</a>.
+</footer>
+<script>var _gaq=[['_setAccount','UA-5434527-2'],['_trackPageview']];
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+s.parentNode.insertBefore(g,s)}(document,'script'))</script>
+<script src="$basedir/includes/titlewrap.js"></script>
+</body>
+</html>
+EOF
+    }
+
+    1;
+}
 
 ##############################################################################
 ##                                                                          ##
@@ -195,30 +345,28 @@ $cfg{re_eow} = "(?:\\Z|(?![$cfg{re_alph}]))";  # end of word
 ##                                                                          ##
 ##############################################################################
 
+# Usage: all_but(\%HASH, ELEMENT...)
+#
+# Returns %HASH, except for specified ELEMENTS. Original %HASH is not
+# modified.
+sub all_but {
+    my ($hash_ref, @remove) = @_;
+    my %new = %$hash_ref;
+    delete @new{@remove};
+    return %new;
+}
+
+sub url_query {
+    my %arg = @_;
+    return "" if keys %arg == 0;
+    return "?" . join "&", map {
+        url_encode($_) . "=" . url_encode($arg{$_});
+    } sort keys %arg;
+}
+
 sub is_copyrighted {
     my ($transcript_file) = @_;
     return $transcript_file =~ m#-(tkd|tkw|kgt)\.txt$# ? 1 : "";
-}
-
-# Usage: $TEXTDATE = text_date($ISODATE);
-#
-# Converts datestring (beginning with a YEAR-MM-DD) into a descriptive plain
-# text date like "January 1, 2012". Only year, month and day is included, and
-# anything coming after the initial date in $ISODATE is ignored.
-{
-    my @month = qw(
-        January   February  March      April    May       June
-        July      August    September  October  November  December
-    );
-    sub text_date {
-        my ($date) = @_;
-        # Accepts only ISO dates beginning with "1999-12-31"
-        if ($date =~ m/^(\d{4})-0?(\d{1,2})-0?(\d{1,2})/) {
-            my ($year, $month, $day) = ($1, $2, $3);
-            return "$month[$month - 1] $day, $year";
-        }
-        return "UNKNOWN DATE";
-    }
 }
 
 {
@@ -287,33 +435,6 @@ sub download_page {
 EOF
 }
 
-sub page_footer {
-    my ($year1, $year2) = $YEAR =~ /(\d+)[[:punct:]]+(\d+)/;
-    return <<"EOF";
-</div>
-
-<footer role=contentinfo>
-  <p class=copyright>© <time itemprop=copyrightYear>$year1</time>–<time>$year2</time> by
-    <a href="mailto:zrajm\@klingonska.org" rel=author itemprop=author>zrajm</a>,
-    <a href="http://klingonska.org/" itemprop=sourceOrganization>Klingonska Akademien</a>, Uppsala
-  <p class=validator>
-    Validate:
-    <a href="http://validator.w3.org/check?uri=http://klingonska.org/">HTML5</a>,
-    <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://klingonska.org/&profile=css3">CSS3</a>,
-    <a href="http://validator.w3.org/checklink?uri=http://klingonska.org/">links</a>.
-    License:
-    <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel=license>CC BY–SA</a>.
-</footer>
-<script>var _gaq=[['_setAccount','UA-5434527-2'],['_trackPageview']];
-(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-s.parentNode.insertBefore(g,s)}(document,'script'))</script>
-<script src="$DIR/includes/titlewrap.js"></script>
-</body>
-</html>
-EOF
-}
-
 # Return array of HTML. One line per element (without trailing newlines).
 sub metadata_table {
     my %hash = @_;
@@ -354,79 +475,6 @@ sub match_links {
 	}
     }
     return @out;
-}
-
-sub breadcrumbs {
-    my @crumbs;
-    my @temp = ("" => "Home", @CRUMBS);
-    while (my ($path, $title) = splice(@temp, 0, 2)) {
-        my $attr = (@temp == 0) ? " itemprop=url" : "";
-        push @crumbs,
-            qq(<a href="http://klingonska.org/$path"$attr>$title</a>);
-    }
-    return join(qq( ›\n        ), @crumbs);
-}
-
-sub page_header {
-    my (%hash) = @_;
-    my $isodate   = $UPDATED;
-    my $text_date = text_date($isodate);
-    my $crumbs    = breadcrumbs();
-    my $backlink  = exists $hash{file}         # used by canon/index.cgi
-        ? qq(?q=) . url_encode($hash{query})
-        : "../";
-    (my $title = $TITLE) =~ s#<.*?>##g;
-    return <<"EOF";
-<!doctype html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=en> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang=en> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang=en> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=en> <!--<![endif]-->
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>$title – Klingonska Akademien</title>
-  <meta name=viewport content="width=device-width">
-  <link rel=stylesheet href="$DIR/includes/base.css">
-  <link rel=stylesheet href="$DIR/includes/banner.css">
-  <link rel=stylesheet href="$DIR/includes/dict.css">
-  <link rel=stylesheet href="$DIR/includes/dict-layouttable.css">
-  <link rel=stylesheet href="$DIR/includes/canon-search.css">
-  <link rel=icon href="/favicon.ico">
-  <link rel=canonical href="http://klingonska.org/">
-  <script src="$DIR/includes/modernizr-2.5.3.js"></script>
-</head>
-<body lang=en itemscope itemtype="http://schema.org/WebPage">
-
-<header role=banner>
-  <!-- begin:status -->
-  <ul>
-    <li>
-      <nav itemprop=breadcrumb role=navigation>
-        $crumbs
-      </nav>
-    <li>
-      Updated <time pubdate itemprop=dateModified datetime="$isodate">$text_date</time>
-  </ul>
-  <!-- end:status -->
-  <div>
-    <a href="$backlink">
-      <table id=logotitle>
-        <td>
-          <span class=crop>
-            <img height=200 width=200 src="$DIR/pic/ka-logo.svg" alt="Klingonska Akademien">
-          </span>
-        <td>
-          <h1>Klingonska<span id=logospace>&nbsp;</span>Akademien</h1>
-      </table>
-    </a>
-  </div>
-</header>
-
-<div role=main itemprop=mainContentOfPage>
-
-<h1>$TITLE</h1>
-EOF
 }
 
 # Resolve hypenation and remove comments from a transcript.
@@ -499,8 +547,8 @@ sub result_page {
         }
 	$out .= "</dl>";
     }
-    return page_header(%form)
-        . old_form(
+    return
+        old_form(
             %form,
             clean_query => $query->clean,
         )
@@ -509,8 +557,7 @@ sub result_page {
             $matches == 0 ? "No" : $matches,
             $matches == 1 ? ''   : 's',
         )
-        . $out
-        . page_footer;
+        . $out;
 }
 
 sub match_summary {
@@ -656,7 +703,7 @@ EOF
 };
 
 sub search_help {
-return <<'EOF';
+    return <<'EOF';
 
 <h2>Search Help</h2>
 
@@ -732,10 +779,7 @@ EOF
 }
 
 sub help_page {
-    return page_header
-        . old_form
-        . search_help
-        . page_footer;
+    return old_form . search_help;
 }
 
 # url encode ascii/latin1 strings
@@ -913,7 +957,7 @@ sub apply_corrections {
 sub file_page {
     my ($path, %form) = @_;
     my $query = new Query($form{query});
-    my $out = page_header(%form) . old_form(   #   output search form
+    my $out   = old_form(                      # output search form
         %form,
         clean_query => $query->clean(),
         message     => "Search only this file.",
@@ -926,7 +970,7 @@ sub file_page {
     );
 
     if (is_copyrighted($form{file})) {
-        return download_page . page_footer;
+        return download_page;
     }
 
     my ($text, %head) = read_file("$path/$form{file}");
@@ -984,10 +1028,10 @@ sub file_page {
         metadata_table(%head),
         "",
         $text,
-    ) . page_footer;
+    );
 }
 
-sub html_header { return header(-charset => 'utf-8') }
+sub http_header { return header(-charset => 'utf-8') }
 
 ##############################################################################
 ##                                                                          ##
@@ -1008,6 +1052,14 @@ $form{query} = delete $form{q} if exists $form{q};    # 'q' = 'query'
 ($form{file}) = $form{file} =~ m{ ([^/]*) $}x
     if exists $form{file};
 
+##############################################################################
+##                                                                          ##
+##  Main                                                                    ##
+##                                                                          ##
+##############################################################################
+
+my $page = Local::Page->new(%METADATA);
+
 # main selection
 
 if ($form{get} // "") {
@@ -1015,24 +1067,36 @@ if ($form{get} // "") {
         print redirect("../$form{file}");
         exit;
     } elsif ($form{get} =~ /^(help|list)$/) {  # 'get=help' or 'get=list'
-        print html_header . help_page;
+        print http_header
+            . $page->header
+            . help_page
+            . $page->footer;
         exit;
     }
 }
 
 $form{file} //= "";
 if ($form{file}) {                             # file specified
-    print html_header
-        . file_page($cfg{BASE_DIR}, %form);
+    $page->set(
+        logolink => url_query(all_but(\%form, "file"))
+    );
+    print http_header
+        . $page->header
+        . file_page($cfg{BASE_DIR}, %form)
+        . $page->footer;
 } elsif ($form{query}) {                       # search results
-    print html_header
-        . result_page($cfg{BASE_DIR}, %form);
+    print http_header
+        . $page->header
+        . result_page($cfg{BASE_DIR}, %form)
+        . $page->footer;
 } elsif (($ENV{SERVER_PROTOCOL} // "") eq "INCLUDED") {
-    print html_header                          # used as server-side include
+    print http_header                          # used as server-side include
         . old_form(%form);
 } else {                                       # default page
-    print html_header
-        . help_page;
+    print http_header
+        . $page->header
+        . help_page
+        . $page->footer;
 }
 
 #[eof]

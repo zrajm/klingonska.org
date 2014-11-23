@@ -1,8 +1,25 @@
 #!/usr/bin/perl -Tw
 use strict;
-$|++;
+use warnings;
 use utf8;
+use CGI qw(:standard);
+binmode(STDIN,  ":encoding(utf8)");
 binmode(STDOUT, ":encoding(utf8)");
+
+my $cgi = new CGI::Pages();
+my ($file, $question, $answer) = $cgi->get_form(qw/file question answer/);
+
+my %METADATA = (
+    title    => "Klingon Transcript Download",
+    year     => "1998-2014",
+    updated  => "2014-11-19T08:51:36+0100",
+    logolink => ".",
+    basedir  => "..",
+    crumbs   => [
+        "canon/"      => "Archive of Okrandian Canon",
+        "canon/$file" => "Klingon Transcript Download",
+    ],
+);
 
 =pod
 
@@ -12,18 +29,162 @@ TODO
   * Make sure length() is UTF-8 aware at all times
   * Encrypt access cookie
   * error_page() need prettification and CSS
-  * question_page() need prettification and CSS
-  * question_page should have a note about cookie use
 
 =cut
 
+##############################################################################
+##                                                                          ##
+##  Page Header / Footer Module                                             ##
+##                                                                          ##
+##############################################################################
+{
+    package Local::Page;
 
-###############################################################################
-##                                                                           ##
-##  CGI                                                                      ##
-##                                                                           ##
-###############################################################################
+    sub new {
+        my ($class, %opt) = @_;
+        return bless({}, $class)->set(%opt);
+    }
 
+    sub set {
+        my ($self, %opt) = @_;
+        @$self{ keys %opt } = values %opt;
+        return $self;
+    }
+
+    # Usage: $TEXTDATE = _text_date($ISODATE);
+    #
+    # Converts datestring (beginning with a YEAR-MM-DD) into a descriptive
+    # plain text date like "January 1, 2012". Only year, month and day is
+    # included, and anything coming after the initial date in $ISODATE is
+    # ignored.
+    my @month = qw(
+        January   February  March      April    May       June
+        July      August    September  October  November  December
+    );
+    sub _text_date {
+        my ($date) = @_;
+        # Accepts only ISO dates beginning with "1999-12-31"
+        if ($date =~ m/^(\d{4})-0?(\d{1,2})-0?(\d{1,2})/) {
+            my ($year, $month, $day) = ($1, $2, $3);
+            return "$month[$month - 1] $day, $year";
+        }
+        return "UNKNOWN DATE";
+    }
+
+    sub _breadcrumbs {
+        my @temp = ("" => "Home", @_);
+        my @crumbs;
+        while (my ($path, $title) = splice(@temp, 0, 2)) {
+            my $attr = (@temp == 0) ? " itemprop=url" : "";
+            push @crumbs,
+                qq(<a href="http://klingonska.org/$path"$attr>$title</a>);
+        }
+        return join(qq( ›\n        ), @crumbs);
+    }
+
+    sub header {
+        my ($self) = @_;
+        my $isodate    = $self->{updated};
+        my $text_date  = _text_date($isodate);
+        my $basedir    = $self->{basedir};
+        my $logolink   = $self->{logolink};
+        my $crumbs     = _breadcrumbs(@{ $self->{crumbs} });
+        my $h1_title   = $self->{title};
+        my $head_title = do {
+            local $_ = $self->{title};
+            s#<.*?>##g;
+            $_;
+        };
+        return <<"EOF";
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=en> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang=en> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang=en> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=en> <!--<![endif]-->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>$head_title – Klingonska Akademien</title>
+  <meta name=viewport content="width=device-width">
+  <link rel=stylesheet href="$basedir/includes/base.css">
+  <link rel=stylesheet href="$basedir/includes/banner.css">
+  <link rel=stylesheet href="$basedir/includes/dict.css">
+  <link rel=stylesheet href="$basedir/includes/dict-layouttable.css">
+  <link rel=stylesheet href="$basedir/includes/canon-search.css">
+  <link rel=icon href="/favicon.ico">
+  <link rel=canonical href="http://klingonska.org/">
+  <script src="$basedir/includes/modernizr-2.5.3.js"></script>
+</head>
+<body lang=en itemscope itemtype="http://schema.org/WebPage">
+
+<header role=banner>
+  <!-- begin:status -->
+  <ul>
+    <li>
+      <nav itemprop=breadcrumb role=navigation>
+        $crumbs
+      </nav>
+    <li>
+      Updated <time pubdate itemprop=dateModified datetime="$isodate">$text_date</time>
+  </ul>
+  <!-- end:status -->
+  <div>
+    <a href="$logolink">
+      <table id=logotitle>
+        <td>
+          <span class=crop>
+            <img height=200 width=200 src="$basedir/pic/ka-logo.svg" alt="Klingonska Akademien">
+          </span>
+        <td>
+          <h1>Klingonska<span id=logospace>&nbsp;</span>Akademien</h1>
+      </table>
+    </a>
+  </div>
+</header>
+
+<div role=main itemprop=mainContentOfPage>
+
+<h1>$h1_title</h1>
+EOF
+    }
+
+    sub footer {
+        my ($self) = @_;
+        my ($year1, $year2) = $self->{year} =~ /(\d+)[[:punct:]]+(\d+)/;
+        my $basedir = $self->{basedir};
+        return <<"EOF";
+</div>
+
+<footer role=contentinfo>
+  <p class=copyright>© <time itemprop=copyrightYear>$year1</time>–<time>$year2</time> by
+    <a href="mailto:zrajm\@klingonska.org" rel=author itemprop=author>zrajm</a>,
+    <a href="http://klingonska.org/" itemprop=sourceOrganization>Klingonska Akademien</a>, Uppsala
+  <p class=validator>
+    Validate:
+    <a href="http://validator.w3.org/check?uri=http://klingonska.org/">HTML5</a>,
+    <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://klingonska.org/&profile=css3">CSS3</a>,
+    <a href="http://validator.w3.org/checklink?uri=http://klingonska.org/">links</a>.
+    License:
+    <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel=license>CC BY–SA</a>.
+</footer>
+<script>var _gaq=[['_setAccount','UA-5434527-2'],['_trackPageview']];
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+s.parentNode.insertBefore(g,s)}(document,'script'))</script>
+<script src="$basedir/includes/titlewrap.js"></script>
+</body>
+</html>
+EOF
+    }
+
+    1;
+}
+
+##############################################################################
+##                                                                          ##
+##  CGI                                                                     ##
+##                                                                          ##
+##############################################################################
 {
     package CGI::Pages;
     use CGI qw(-nosticky);
@@ -150,66 +311,11 @@ TODO
     1;
 }
 
-
-###############################################################################
-##                                                                           ##
-##  Main                                                                     ##
-##                                                                           ##
-###############################################################################
-
-my $cgi    = new CGI::Pages();
-$SIG{__DIE__} = sub {                          # show msg in Apache on die()
-    print $cgi->page(error_page(@_));
-    exit;
-};
-
-# get cookie & form values
-my $cookie = $cgi->get_cookie("own");
-my ($file, $question, $answer) = $cgi->get_form(qw/file question answer/);
-
-# no file provided -- redirect to page for choosing file
-if (not defined $file) {
-    print redirect('http://' . ($ENV{HTTP_HOST} || 'localhost') .
-        '/download.html');
-    exit;
-}
-
-# cookie provided -- check it
-if (defined $cookie) {
-    # FIXME: if $file is unset, display file selector form
-    if (is_authorized($file, $cookie)) {
-        print $cgi->page({ -type => "text/plain" }, transcript_page($file));
-    } else {
-        $cgi->set_cookie(own => undef);        # clear bad cookie
-        print $cgi->page(question_page($file,
-            "Bad content »$cookie« in auth cookie."));
-    }
-    exit;
-}
-
-# answer provided -- check it
-if (defined $question) {
-    if (question($question, $answer)) {
-        $cgi->set_cookie(own => "tkd tkw kgt ck pk");
-        print $cgi->page({ -type => "text/plain" }, transcript_page($file));
-    } else {
-        $cgi->set_cookie(own => undef);        # clear cookie
-        print $cgi->page(question_page($file,
-            "Incorrect answer »$answer«. Please, try again."));
-    }
-    exit;
-}
-
-# nothing provided
-print $cgi->page(question_page($file));
-exit;
-
-
-###############################################################################
-##                                                                           ##
-##  Functions                                                                ##
-##                                                                           ##
-###############################################################################
+##############################################################################
+##                                                                          ##
+##  Functions                                                               ##
+##                                                                          ##
+##############################################################################
 
 # Usage: $BOOL = is_authorized($FILE, $ACCESS_COOKIE);
 #
@@ -239,137 +345,37 @@ sub error_page {
     return escapeHTML("@_");
 }
 
-
-sub page_header {
-    my ($file) = @_;
-    # <!-- begin:status -->
-    # <div id="pagestats">
-    #   <span id="crumbs">
-    #     <a href="http://klingonska.org/">Home</a> &gt;
-    #     <a href="http://klingonska.org/canon/">Archive of Okrandian Canon</a> &gt;
-    #     <a href="http://klingonska.org/canon/$file">$file</a>
-    #   </span>
-    #   <span id="pubdate">
-    #     Updated <time pubdate datetime="2007-07-15T05:44">July 15, 2007</time>
-    #   </span>
-    # </div>
-    # <!-- end:status -->
-    my $url = 'http://klingonska.org';
-    return div({ -id => 'head' },
-        comment('begin:status'),
-        div({ -id => 'pagestats' },
-            span({ -id => 'crumbs' },
-                 a({ href => "$url/"       }, 'Home'), '&gt;',
-                 a({ href => "$url/canon/" }, 'Archive of Okrandian Canon'), '&gt;',
-                 defined($file)
-                     ? a({ href => "$url/canon/$file"    }, $file)
-                     : a({ href => "$url/canon/show.cgi" }, 'Transcript Download')
-            ), span({ id => 'pubdate' }, 'Updated', Time({
-                -datetime => '2012-05-13T02:54',
-                -pubdate  => undef,
-            }, 'May 13, 2012'))),
-        comment('end:status'),
-        p({ -align => 'center' }, a({ -href => '..' }, img({
-            -alt    => 'Klingonska Akademien',
-            -border => '0',
-            -height => '176',
-            -src    => '/pic/ka.gif',
-            -vspace => '5',
-            -width  => '600',
-        })))
-    );
-}
-
-sub page_footer {
-    my ($place) = @_;
-    return div({ -id => "foot" },
-        p({ class => 'copyright' },
-            '&copy;1998&ndash;2011, Copyright ',
-            span({ -class => 'author' },
-                 a({ -href => 'mailto:zrajm@klingonska.org' }, 'zrajm')
-            ) . ', ' .
-            a({ -href => 'http://klingonska.org/' }, 'Klingonska Akademien') .
-            ', Uppsala') .
-        p({ class => 'validator' },
-            'Validate:',
-            a({
-                -href => "http://validator.w3.org/check?uri=$place",
-            }, 'XHTML') . ',',
-            a({
-                -href => 'http://jigsaw.w3.org/css-validator/validator' .
-                    "?uri=$place&amp;profile=css3",
-            }, 'CSS3') . ',',
-            a({
-                -href => "http://validator.w3.org/checklink?uri=$place"
-            }, 'links') . '.',
-            'License:',
-            a({
-                -href => 'http://creativecommons.org/licenses/by-sa/3.0/',
-                -rel  => 'license',
-            }, 'CC BY&ndash;SA') . '.')
-    );
-}
-
-# FIXME could be prettier w/ CSS and shit
 sub question_page {
     my ($file, $message) = @_;
-    my $question = question();                 # random question
-    my $answer   = undef;                      # clear answer
-    my ($book, $section, $paragraph, $line, $word) = split(/_/, $question);
-    $section =~ s/x/./g;
-    my $place = 'http://' . ($ENV{HTTP_HOST} || 'localhost') .
-        ($ENV{REQUEST_URI} || '');
-    use CGI qw(:standard Time); # "Time" is custom function for microdata
-    return
-        start_html({
-            -style => { src => [
-                '../includes/page.css',
-                '../includes/pagestats.css',
-            ]}, -title => 'Klingon Transcript Download' }) .
-        page_header($file) .
-        div({ -id => 'main' },
-            (defined($message) and p({ -style =>
-                'background-color: pink;' .
-                'padding: .5em;' .
-                'font-weight: bold;'
-            }, $message)) .
-            p({ -align => 'justify' },
-                'For copyright reasons you must own a copy of Marc',
-                'Okrand&rsquo;s book', i('The Klingon Dictionary'), 'to',
-                'access this document. To certify that this',
-                'is the case, please enter the specified word from the main',
-                'text of TKD below.',
-            ) .
-            div({ -align => 'center' },
-                start_form({ -action  => '', -method  => 'POST' }),
-                h3(escapeHTML("$book, section $section, paragraph $paragraph, " .
-                    "line $line, word $word")) .
-                p({ class => 'center' },
-                    hidden({
-                        -name     => 'file',
-                        -override => 1,
-                        -value    => $file }) .
-                    hidden({
-                        -name     => 'question',
-                        -override => 1,
-                        -value    => $question }) .
-                    textfield({
-                        -autofocus   => 'autofocus',
-                        -name        => 'answer',
-                        -override    => 1,
-                        -placeholder => 'Enter word…',
-                        -value       => $answer }) .
-                    submit({ -value => 'Reply' })),
-                end_form(),
-            ) .
-            p({ -align => 'justify' },
-                'When counting paragraphs, start after section title, ',
-                'skip Klingon example phrases. Hyphenated words counts as ',
-                'one. Half word at beginning of line counts.', i('Case counts.'),
-            )
-        ) .
-        page_footer($place) .
-        end_html();
+    my $ques = question();                      # random question
+    my ($book, $sect, $para, $line, $word) = split(/_/, $ques);
+    $sect =~ s/x/./g;
+    my $page = Local::Page->new(%METADATA);
+    return $page->header
+        . (defined($message) and do {
+            qq(<div style="background:pink; padding:.25em .5em; )
+                . qq(font-weight:bold;">$message</div>\n);
+        })
+        . <<"EOF" . $page->footer();
+
+<p>For copyright reasons you must own a copy of Marc Okrand’s book <i>The
+Klingon Dictionary</i> to access this document. To certify that this is the
+case, please enter the specified word from the main text of TKD below.
+
+<div align=center>
+  <form method=post action="">
+    <h3>$book, section $sect, paragraph $para, line $line, word $word</h3>
+    <input type=hidden name=file value="$file">
+    <input type=hidden name=question value="$ques">
+    <input name=answer placeholder="Enter word…" autofocus>
+    <button type=submit>Reply</button>
+  </form>
+</div>
+
+<p>When counting paragraphs, start after section title, skip Klingon example
+phrases. Hyphenated words counts as one. Half word at beginning of line
+counts. <i>Case counts.</i>
+EOF
 }
 
 sub transcript_page {
@@ -445,5 +451,55 @@ sub question {
     }
     return undef;
 }
+
+##############################################################################
+##                                                                          ##
+##  Main                                                                    ##
+##                                                                          ##
+##############################################################################
+
+$SIG{__DIE__} = sub {                          # show msg in Apache on die()
+    print $cgi->page(error_page(@_));
+    exit;
+};
+
+# get cookie & form values
+my $cookie = $cgi->get_cookie("own");
+
+# no file provided -- redirect to page for choosing file
+if (not defined $file) {
+    print redirect('http://' . ($ENV{HTTP_HOST} || 'localhost') .
+        '/download.html');
+    exit;
+}
+
+# cookie provided -- check it
+if (defined $cookie) {
+    # FIXME: if $file is unset, display file selector form
+    if (is_authorized($file, $cookie)) {
+        print $cgi->page({ -type => "text/plain" }, transcript_page($file));
+    } else {
+        $cgi->set_cookie(own => undef);        # clear bad cookie
+        print $cgi->page(question_page($file,
+            "Bad content »$cookie« in auth cookie."));
+    }
+    exit;
+}
+
+# answer provided -- check it
+if (defined $question) {
+    if (question($question, $answer)) {
+        $cgi->set_cookie(own => "tkd tkw kgt ck pk");
+        print $cgi->page({ -type => "text/plain" }, transcript_page($file));
+    } else {
+        $cgi->set_cookie(own => undef);        # clear cookie
+        print $cgi->page(question_page($file,
+            "Incorrect answer »$answer«. Please try again."));
+    }
+    exit;
+}
+
+# nothing provided
+print $cgi->page(question_page($file));
 
 #[eof]

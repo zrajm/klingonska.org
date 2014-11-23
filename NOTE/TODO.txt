@@ -136,6 +136,7 @@
    the image it contains.
 ** DONE Prettify tab row (make more Chrome-like)
    CLOSED: [2014-11-04 tis 17:39]
+** TODO Replace "Validate" in footer with link GitHub issue tracker
 ** TODO CSS: Remove unnecessary styles for <input>
    What's needed exactly? Currently there's a whole bunch of creating then
    overriding <input> widgets to get buttons to look pretty, but <button> is
@@ -287,7 +288,7 @@
        * Building (minified) CSSes from SCSS (Sassy Stylesheets)
        * Using a HTML template = centralized header/footer
        * Page source (whenever possible) in markdown
-**** [57%] Add new look to all pages (except KLO for now)
+**** [57%] Add new design to all pages (except KLO for now)
 ***** DONE <script>...</script> blocks should not be parsed for markdown
       CLOSED: [2012-06-26 Tue 02:45]
       E.g. `/download.html`.
@@ -412,38 +413,38 @@
        CLOSED: [2012-07-07 Sat 20:48]
 ****** DONE `canon/1993-sbx-99.html` -> `canon/sbx-99.txt`
        CLOSED: [2012-09-07 Fri 04:32]
-****** DONE HCoop redirect: `canon/1993-sbx-99.html` -> `canon/sbx-99.html`
-       CLOSED: [2012-09-07 Fri 05:46]
+******* DONE HCoop redirect: `canon/1993-sbx-99.html` -> `canon/sbx-99.html`
+        CLOSED: [2012-09-07 Fri 05:46]
 ****** DONE `canon/1994-10-hallmark.html` -> `canon/hallmark.txt`
        CLOSED: [2012-09-07 Fri 05:10]
-****** DONE HCoop redirect: `canon/1994-10-hallmark.html` -> `canon/hallmark.html`
-       CLOSED: [2012-09-07 Fri 05:46]
+******* DONE HCoop redirect: `canon/1994-10-hallmark.html` -> `canon/hallmark.html`
+        CLOSED: [2012-09-07 Fri 05:46]
 ****** DONE `canon/1994-sbx-sp1.html` -> `canon/sbx-sp1.txt`
        CLOSED: [2012-09-07 Fri 05:35]
-****** DONE HCoop redirect: `canon/1994-sbx-sp1.html` -> `canon/sbx-sp1.html`
-       CLOSED: [2012-09-07 Fri 05:46]
+******* DONE HCoop redirect: `canon/1994-sbx-sp1.html` -> `canon/sbx-sp1.html`
+        CLOSED: [2012-09-07 Fri 05:46]
 ****** DONE `canon/1995-sbx-s13.html` -> canon/sbx-s13.txt
        CLOSED: [2013-04-16 Tue 04:40]
-****** DONE HCoop redirect: `canon/1995-sbx-s13.html` -> `canon/sbx-s13.html`
-       CLOSED: [2013-04-16 Tue 04:40]
+******* DONE HCoop redirect: `canon/1995-sbx-s13.html` -> `canon/sbx-s13.html`
+        CLOSED: [2013-04-16 Tue 04:40]
 ****** DONE `canon/1995-sbx-s7.html` -> canon/sbx-s7.txt
        CLOSED: [2013-04-12 Fri 05:04]
-****** DONE HCoop redirect: `canon/1995-sbx-s7.html` -> `canon/sbx-s7.html`
-       CLOSED: [2013-04-12 Fri 05:07]
+******* DONE HCoop redirect: `canon/1995-sbx-s7.html` -> `canon/sbx-s7.html`
+        CLOSED: [2013-04-12 Fri 05:07]
 ****** DONE `canon/1996-04-kcd.html` -> `canon/kcd.txt`
        CLOSED: [2013-02-24 Sun 02:57]
-****** DONE HCoop redirect: `canon/1996-04-kcd.html` -> `canon/kcd.html
-       CLOSED: [2013-02-24 Sun 03:20]
+******* DONE HCoop redirect: `canon/1996-04-kcd.html` -> `canon/kcd.html
+        CLOSED: [2013-02-24 Sun 03:20]
 ****** DONE `canon/1996-sbx-s19.html` -> canon/sbx-s19.txt
        CLOSED: [2013-04-16 Tue 08:07]
-****** DONE HCoop redirect: `canon/1996-sbx-s19.html` -> `canon/sbx-s19.html`
-       CLOSED: [2013-04-16 Tue 08:11]
+******* DONE HCoop redirect: `canon/1996-sbx-s19.html` -> `canon/sbx-s19.html`
+        CLOSED: [2013-04-16 Tue 08:11]
 ****** DONE `canon/1996-sbx-s25.html -> canon/sbx-s25.txt
        CLOSED: [2013-04-16 Tue 09:03]
 ****** DONE `canon/1997-sbx-s31.html` -> canon/sbx-s31.txt
        CLOSED: [2013-04-16 Tue 14:58]
-****** DONE HCoop redirect: `canon/1996-sbx-s19.html` -> `canon/sbx-s19.html`
-       CLOSED: [2013-04-16 Tue 14:58]
+******* DONE HCoop redirect: `canon/1996-sbx-s19.html` -> `canon/sbx-s19.html`
+        CLOSED: [2013-04-16 Tue 14:58]
 ****** TODO `canon/1998-11-01-bop.html`
 ****** TODO `canon/2010-04-29-u-mtk.html`
 ****** DONE `piq/index.html`
@@ -522,10 +523,11 @@
       CLOSED: [2012-07-09 Mon 16:35]
       Some error in the build script causes Modernizr to be written with the
       jQuery content. Very non-functional.
-***** [57%] Add Google Analytics
-****** TODO To CGI canon/show.cgi
+***** [71%] Add Google Analytics
 ****** TODO To HTML files in `klo/`
 ****** TODO To HTML files in `qq/`
+****** DONE To CGI canon/show.cgi
+       CLOSED: [2014-11-23 Sun 14:50]
 ****** DONE To CGI piqad/play.cgi
        CLOSED: [2014-11-09 Sun 04:12]
 ****** DONE To CGI canon/search/
@@ -1487,7 +1489,7 @@
        This script works the same as the old download.cgi, but also stores a
        cookie. If user already has valid cookie, no login procedure is
        required.
-**** [50%] Search engine improvements (canon/search/)
+**** [46%] Search engine improvements (canon/search/)
 ***** TODO Review/improve match listings
       This should, preferably, be as similar as possible to the list of sources
       in the main article. Try to imitate Google search results in appearance?
@@ -1507,6 +1509,10 @@
 
       [http://test.zrajm.org/canon/search/?file=1997-09-01c-news.txt&query=hello]
 ***** TODO Merge apply_corrections() and strip_comments() (they are identical?)
+***** TODO Use "q" instead of "query" in GET URL
+***** TODO "Transcript" on result page should work
+***** DONE Use module for page header and footer
+      CLOSED: [2014-11-23 Sun 14:02]
 ***** DONE Searched for "bird" - several matches were lacking file/article names
       CLOSED: [2014-11-08 Sat 17:10]
 ***** DONE When viewing a file there should be a 'Transcript' link
@@ -2342,12 +2348,13 @@
      the normal search.
 ***** DONE alt + title
       CLOSED: [2014-11-02 Sun 00:47]
-***** [75%] Use <form> CSS from base.scss for whole site
+***** [87%] Use <form> CSS from base.scss for whole site
       Search field CSS should be moved from `includes/dict.scss` to the
       `includes/base.scss` used by all pages. Need to make sure that this looks
       good everywhere, and does not conflict with other CSS.
-****** TODO canon/show.cgi
 ****** TODO Make checkbox pretty (used by glossary/)
+****** DONE canon/show.cgi
+       CLOSED: [2014-11-23 Sun 14:50]
 ****** DONE dict/
 ****** DONE /
 ****** DONE canon/
