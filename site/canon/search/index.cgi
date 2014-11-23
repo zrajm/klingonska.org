@@ -345,17 +345,6 @@ $cfg{re_eow} = "(?:\\Z|(?![$cfg{re_alph}]))";  # end of word
 ##                                                                          ##
 ##############################################################################
 
-# Usage: all_but(\%HASH, ELEMENT...)
-#
-# Returns %HASH, except for specified ELEMENTS. Original %HASH is not
-# modified.
-sub all_but {
-    my ($hash_ref, @remove) = @_;
-    my %new = %$hash_ref;
-    delete @new{@remove};
-    return %new;
-}
-
 sub url_query {
     my %arg = @_;
     return "" if keys %arg == 0;
@@ -514,7 +503,7 @@ sub split_filename {
 
 sub result_page {
     my ($path, %form) = @_;
-    my $query = new Query($form{query});
+    my $query = Query->new($form{q});
     # file name globbing
     my @file    = sort glob "$cfg{BASE_DIR}/[0-9]*.txt";
     my $matches = 0;                           # number of matches found
@@ -539,7 +528,7 @@ sub result_page {
                         file  => $file,
                         meta  => \%head,
                         text  => $text,
-                        query => $form{query},
+                        query => $form{q},
                         mark  => $query_mark,
                     );
 		}
@@ -652,7 +641,7 @@ sub store_match {
 # Called with no args results in empty form being rendered.
 sub old_form {
     my (%arg) = @_;
-    $arg{$_} //= "" foreach qw(file query clean_query message);
+    $arg{$_} //= "" foreach qw(file q clean_query message);
 
     # Hidden form element set when displaying a single file.
     # This is set when displaying a single file.
@@ -662,7 +651,7 @@ sub old_form {
             qq(\n<input type=hidden name=file value="$value">)
         } : "";
     my $prettify = "";
-    if ($arg{clean_query} ne $arg{query}) {
+    if ($arg{clean_query} ne $arg{q}) {
         my %q = (
             q => url_encode($arg{clean_query}),
             exists $arg{file}
@@ -676,12 +665,11 @@ sub old_form {
         $arg{message} =
             "\n    <tr><td class=center><small>$arg{message}</small>";
     }
-    my $value = html_encode($arg{query} // "");
     return raw_form(
         url    => "",
         hidden => $file_arg,
         note   => $arg{message},
-        query  => $value,
+        query  => html_encode($arg{q} // ""),
         link   => $prettify,
     );
 }
@@ -956,7 +944,7 @@ sub apply_corrections {
 
 sub file_page {
     my ($path, %form) = @_;
-    my $query = new Query($form{query});
+    my $query = Query->new($form{q});
     my $out   = old_form(                      # output search form
         %form,
         clean_query => $query->clean(),
@@ -1046,7 +1034,7 @@ my %form = map {
 } qw(file q query get debug);
 
 # Backward compatibility (so old links here continue to work)
-$form{query} = delete $form{q} if exists $form{q};    # 'q' = 'query'
+$form{q} = delete $form{query} if exists $form{query}; # 'query' = 'q'
 
 # strip path & untaint filename
 ($form{file}) = $form{file} =~ m{ ([^/]*) $}x
@@ -1078,13 +1066,17 @@ if ($form{get} // "") {
 $form{file} //= "";
 if ($form{file}) {                             # file specified
     $page->set(
-        logolink => url_query(all_but(\%form, "file"))
+        logolink => url_query(do {
+            my %x = %form;
+            delete $x{file};
+            %x;
+        })
     );
     print http_header
         . $page->header
         . file_page($cfg{BASE_DIR}, %form)
         . $page->footer;
-} elsif ($form{query}) {                       # search results
+} elsif ($form{q}) {                           # search results
     print http_header
         . $page->header
         . result_page($cfg{BASE_DIR}, %form)

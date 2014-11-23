@@ -1489,7 +1489,7 @@
        This script works the same as the old download.cgi, but also stores a
        cookie. If user already has valid cookie, no login procedure is
        required.
-**** [46%] Search engine improvements (canon/search/)
+**** [50%] Search engine improvements (canon/search/)
 ***** TODO Review/improve match listings
       This should, preferably, be as similar as possible to the list of sources
       in the main article. Try to imitate Google search results in appearance?
@@ -1509,8 +1509,11 @@
 
       [http://test.zrajm.org/canon/search/?file=1997-09-01c-news.txt&query=hello]
 ***** TODO Merge apply_corrections() and strip_comments() (they are identical?)
-***** TODO Use "q" instead of "query" in GET URL
-***** TODO "Transcript" on result page should work
+***** TODO BUGFIX: "Transcript" on result page should work
+***** TODO Search button should use magnifying glass image
+      Just like the dictionary search.
+***** DONE Use "q" instead of "query" in GET URL
+      CLOSED: [2014-11-23 Sun 17:17]
 ***** DONE Use module for page header and footer
       CLOSED: [2014-11-23 Sun 14:02]
 ***** DONE Searched for "bird" - several matches were lacking file/article names
