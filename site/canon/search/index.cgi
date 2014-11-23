@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/perl -T
 
 use strict;
 use warnings;
@@ -466,6 +466,12 @@ sub match_links {
     return @out;
 }
 
+sub strip_path {
+    my ($file) = @_;
+    $file =~ m{ ([^/]*) $}x;
+    return $1;
+}
+
 # Resolve hypenation and remove comments from a transcript.
 sub strip_comments {
     my ($text) = @_;
@@ -525,7 +531,7 @@ sub result_page {
                 ) {
 		    $matches += 1;
 		    $out .= store_match(
-                        file  => $file,
+                        file  => strip_path($file),
                         meta  => \%head,
                         text  => $text,
                         query => $form{q},
@@ -617,25 +623,29 @@ sub store_match {
     # differently, so that page numbers are shown for each match.
 
     # get name of document
-    my ($source_link, $title, $link) = file2title($arg{file}, $query);
+    my ($source_link, $title, $view_link) = file2title($arg{file}, $query);
     $title = transcript2html($head->{title}) if exists($head->{title});
 
-    my @value = (
+    my @meta = (
 	($source_link ? qq(<a href="$source_link">Transcript</a>) : ()),
         (exists($head->{type})      ? ucfirst($head->{type}) : ()), # type (book, email etc.)
         (exists($head->{author})    ? $head->{author}        : ()),
         (exists($head->{publisher}) ? strip_after_comma($head->{publisher}) : ()),
     );
-    if (@value == 1) {
-        push @value, "&lt;Missing metadata&gt;";
+    if (@meta == 1) {
+        push @meta, "&lt;Missing metadata&gt;";
     }
-    return qq(  <dt><a href="$link">$title</a>)
-        . qq(\n  <dd><small>)
-        . qq(<span class=light>) . join(" - ", @value) . qq(</span>)
-        . qq(\n    <br>)
-        . qq(<time class=light datetime="$isodate">$date</time> )
-        . match_summary($text, $query_mark)
-        . qq(</small>\n\n);
+    my $summary = match_summary($text, $query_mark);
+    my $meta    = join(" - ", @meta);
+    return <<"EOF";
+  <dt><a href="$view_link">$title</a>
+  <dd><small>
+    <span class=light>$meta</span>
+    <br><time class=light datetime="$isodate">$date</time>
+    $summary
+  </small>
+
+EOF
 }
 
 # Called with no args results in empty form being rendered.
@@ -1033,11 +1043,11 @@ my %form = map {
     defined($value) ? ($_ => $value) : ();
 } qw(file q query get debug);
 
-# Backward compatibility (so old links here continue to work)
+# Backward compatibility (so old links to this page continue to work)
 $form{q} = delete $form{query} if exists $form{query}; # 'query' = 'q'
 
 # strip path & untaint filename
-($form{file}) = $form{file} =~ m{ ([^/]*) $}x
+$form{file} = strip_path($form{file})
     if exists $form{file};
 
 ##############################################################################
@@ -1064,8 +1074,8 @@ if ($form{get} // "") {
 }
 
 $form{file} //= "";
-if ($form{file}) {                             # file specified
-    $page->set(
+if ($form{file}) {                             # show file
+    $page->set(                                #   reset the logo-link URL
         logolink => url_query(do {
             my %x = %form;
             delete $x{file};
@@ -1076,14 +1086,11 @@ if ($form{file}) {                             # file specified
         . $page->header
         . file_page($cfg{BASE_DIR}, %form)
         . $page->footer;
-} elsif ($form{q}) {                           # search results
+} elsif ($form{q}) {                           # show search results
     print http_header
         . $page->header
         . result_page($cfg{BASE_DIR}, %form)
         . $page->footer;
-} elsif (($ENV{SERVER_PROTOCOL} // "") eq "INCLUDED") {
-    print http_header                          # used as server-side include
-        . old_form(%form);
 } else {                                       # default page
     print http_header
         . $page->header
