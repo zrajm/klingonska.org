@@ -304,10 +304,10 @@ EOF
 sub html_empty_page {
 return <<"EOF";
 
-<p>The book has a Klingon&ndash;English, and an English&ndash;Klingon side. The
-wordlists are automatically generated from <a href="dict.zdb">a simple text
-based database</a>, which is human readable and easy to update. The database
-has been continuously updated and improved since it was created in late
+<p>The book has a Klingon&ndash;English, and an English&ndash;Klingon side.
+The wordlists are automatically generated from <a href="dict.zdb">a flat text
+database</a>, which is human readable and easy to update. The database has
+been continuously updated and improved since it was created in late
 <time>1997</time>.</p>
 
 <table class="noborder layout">
@@ -432,8 +432,8 @@ sub html_form {
       <form class=dict method=get action=""
         ><input name=q autocomplete=off placeholder="Search dictionary…"
            value="$query" autofocus
-        ><button class=submit title=Search
-          ><img alt="Magnifying glass" src="pic/magnify.svg"
+        ><button type=submit title="Search"
+          ><img alt="Magnifying glass" src="../pic/magnify.svg"
         ></button
       ></form>
   <tr>

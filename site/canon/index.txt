@@ -4,14 +4,17 @@ updated: 2013-04-12T05:22:48+0200
 author: zrajm
 year: 1999-2013
 lang: en
+style: dict-layouttable
 
 Archive of Okrandian Canon
 ==========================
 <form method=get action="search/">
   <table class="noborder layout">
-    <tr>
+    <tr class=middle>
       <td><input name=q size=30 placeholder="Search archive…"
-        ><button type=sumbit>Search</button>
+        ><button type=submit title="Search"
+        ><img alt="Magnifying glass" src="../../pic/magnify.svg"
+        ></button>
       <td><small>• <a href="search/?get=help">Help</a></small>
   </table>
 </form>

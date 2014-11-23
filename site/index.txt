@@ -27,8 +27,8 @@ style: banner dict
       ><!--button class=dropdown title="Advanced…"
         ><img src="dict/pic/downarrow.svg"
       ></button
-      --><button class=submit title=Search
-        ><img alt="Magnifying glass" src="dict/pic/magnify.svg"
+      --><button type=submit title="Search"
+        ><img alt="Magnifying glass" src="pic/magnify.svg"
       ></button
     ></form>
     A Klingon dictionary which includes a guide to the suffixes (with

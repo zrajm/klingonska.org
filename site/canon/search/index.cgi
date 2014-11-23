@@ -693,7 +693,9 @@ sub raw_form {
     <tr class=middle>
       <td><input name=q value="$form{query}"
         size=35 autofocus placeholder="Search archive…"
-        ><button type=submit>Search</button>
+        ><button type=submit title="Search"
+        ><img alt="Magnifying glass" src="../../pic/magnify.svg"
+        ></button>
       <td><small>• <a href="$form{url}?get=help">Help</a>$form{link}</small>
   </table>
 </form>
