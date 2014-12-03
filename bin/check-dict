@@ -81,27 +81,35 @@ etc).
 EOF
 }
 
+sub list_eq(\@\@) {
+    my ($a_ref, $b_ref) = @_;
+    return "" if $#$a_ref != $#$b_ref;
+    foreach (0..$#$a_ref) {
+        if ($a_ref->[$_] ne $b_ref->[$_]) { return "" }
+    }
+    return 1;
+}
+
 sub get_metadata {
     my @dict = @_;
     my %metadata = ();
     my $field = "";
     foreach my $line (0..$#dict) {
-        given ($dict[$line]) {
-            when (/^\s*$/) { last }            # blank line = end of metadata
-            when (/^\s+(.*)/) {                # indented line
-                die "Unexpected continuation line in metadata at line " .
-                    ($line + 1) . "\n"
-                        unless $field;
-                $metadata{$field} .= " $1";
-            }
-            when (/([^:\s]+):\s*(.*)/) {       # field: value line
-                $field = $1;
-                $metadata{$field} = $2;
-            }
-            default {
-                die "Syntax error in metadata at line " . ($line + 1) . "\n";
-            }
-        }
+        local $_ = $dict[$line];
+        /^\s*$/ and last;                      # blank line = end of metadata
+        /^\s+(.*)/ and do {                    # indented line
+            die "Unexpected continuation line in metadata at line " .
+                ($line + 1) . "\n"
+                    unless $field;
+            $metadata{$field} .= " $1";
+            next;
+        };
+        /([^:\s]+):\s*(.*)/ and do {           # field: value line
+            $field = $1;
+            $metadata{$field} = $2;
+            next;
+        };
+        die "Syntax error in metadata at line " . ($line + 1) . "\n";
     }
     return %metadata;
 }
@@ -264,70 +272,73 @@ sub get_entries {
     warn "Missing blank line after '=== ... ===', at line ${\($offset + 1)}\n"
         if $data->[0] !~ m#^$#;
     $entry = { _LINE_ => $offset + 1 };  # initial value
-    LINE: foreach my $i (1 .. $#$data) {
-        given ($data->[$i]) {
-            when (m#^$#) {                     # blank line
-                if (not $current) {
-                    warn "Multiple blank lines, at line ${\($offset + $i)}\n";
+  LINE: foreach my $i (1 .. $#$data) {
+        local $_ = $data->[$i];
+        m#^$# and do {                         # blank line
+            if (not $current) {
+                warn "Multiple blank lines, at line ${\($offset + $i)}\n";
+            } else {
+                if (my @warn = &{ $callback }($entry)) {
+                    warn map { "$_ entry at line $entry->{_LINE_}\n" } @warn;
                 } else {
-                    if (my @warn = &{ $callback }($entry)) {
-                        warn map { "$_ entry at line $entry->{_LINE_}\n" } @warn;
-                    } else {
-                        push(@$entries, $entry);
-                        while (my ($field, $values) = each %$entry) {
-                            next if $field eq "_LINE_";
-                            foreach my $value (@$values) {
-                                my $wrapped = word_wrap($value, 71);
-                                if ($value ne $wrapped) {
-                                    my ($old, $new) = ($value, $wrapped);
-                                    foreach ($old, $new) {
-                                        s#^#        #gm;
-                                        s# #\e[45m \e[m#g;
-                                        s#$#\e[34m¶\e[m#gm;
-                                    }
-                                    warn "Incorrect wordwrapping line in '$field:' field at line " .
-                                        "$entry->{_LINE_}\n" .
-                                            "    Current value:\n$old\n" .
-                                            "    Should be:\n$new\n";
+                    push(@$entries, $entry);
+                    while (my ($field, $values) = each %$entry) {
+                        next if $field eq "_LINE_";
+                        foreach my $value (@$values) {
+                            my $wrapped = word_wrap($value, 71);
+                            if ($value ne $wrapped) {
+                                my ($old, $new) = ($value, $wrapped);
+                                foreach ($old, $new) {
+                                    s#^#        #gm;
+                                    s# #\e[45m \e[m#g;
+                                    s#$#\e[34m¶\e[m#gm;
                                 }
+                                warn "Incorrect wordwrapping line in '$field:' field at line " .
+                                    "$entry->{_LINE_}\n" .
+                                        "    Current value:\n$old\n" .
+                                        "    Should be:\n$new\n";
                             }
                         }
-                        print prettify_entry($entry, $order) if $opt{verbose};
                     }
-                    $current = "";
+                    print prettify_entry($entry, $order) if $opt{verbose};
                 }
-                $entry = { _LINE_ => $offset + $i + 1 };
+                $current = "";
             }
-            when (m#^([^:\h]+):\t(.*)#) {      # field: value line
-                my ($field, $value) = ($1, $2);
-                if (not exists $order{$field}) {   #   unknown field
-                    warn "Unknown field '$field:' at line ${\($offset + $i)}\n";
-                    # non-fatal error, continue processing
-                } elsif ($order{$field} < ($order{$current} // -1)) { # field order
-                    warn "Field '$field:' too late in entry sort order " .
-                        "at line ${\($offset + $i)}\n";
-                    # non-fatal error, continue processing
-                }
-                warn "Leading space in '$field:' field at line ${\($offset + $i)}\n"
+            $entry = { _LINE_ => $offset + $i + 1 };
+            next LINE;
+        };
+        m#^([^:\h]+):\t(.*)# and do {          # field: value line
+            my ($field, $value) = ($1, $2);
+            if (not exists $order{$field}) {   #   unknown field
+                warn "Unknown field '$field:' at line ${\($offset + $i)}\n";
+                # non-fatal error, continue processing
+            } elsif ($order{$field} < ($order{$current} // -1)) { # field order
+                warn "Field '$field:' too late in entry sort order " .
+                    "at line ${\($offset + $i)}\n";
+                # non-fatal error, continue processing
+            }
+            warn "Leading space in '$field:' field at line ${\($offset + $i)}\n"
+                if $value =~ s#^\h+##;
+            push(@{ $entry->{$field} }, $value);
+            $current = $field;
+            next LINE;
+        };
+        m#^\t(.*)# and do {                    # indented line
+            my $value = $1;
+            if ($current) {
+                warn "Leading space in '$current:' field at line ${\($offset + $i)}\n"
                     if $value =~ s#^\h+##;
-                push(@{ $entry->{$field} }, $value);
-                $current = $field;
+                $entry->{$current}[-1] .= "\n$value";
+            } else {
+                warn "Unexpected indented line at line &{\($offset + $i)}\n";
             }
-            when (m#^\t(.*)#) {               # indented line
-                my $value = $1;
-                if ($current) {
-                    warn "Leading space in '$current:' field at line ${\($offset + $i)}\n"
-                        if $value =~ s#^\h+##;
-                    $entry->{$current}[-1] .= "\n$value";
-                } else {
-                    warn "Unexpected indented line at line &{\($offset + $i)}\n";
-                }
-            }
-            when (m#^===\h.*\h===$#) {        # section separator
-                warn "Unexpected '=== ... ===' line at line ${\($offset + $i)}\n";
-            }
-            default { die "Syntax error in ZDB file at line ${\($offset + $i)}\n" }
-        }
+            next LINE;
+        };
+        m#^===\h.*\h===$# and do {             # section separator
+            warn "Unexpected '=== ... ===' line at line ${\($offset + $i)}\n";
+            next LINE;
+        };
+        die "Syntax error in ZDB file at line ${\($offset + $i)}\n";
     }
     warn "Missing blank line before '=== ... ===', at line ${\($offset + $#$data)}\n"
         if $data->[-1] !~ m#^$#;
@@ -865,7 +876,7 @@ sub check_see {
                 unless exists $allowed_tag{$_};
         }
         my @sorted = sort { lc($a) cmp lc($b) } @tag;
-        push @warn, "Tags must be sorted in" unless @sorted ~~ @tag;
+        push @warn, "Tags must be sorted in" unless list_eq(@sorted, @tag);
         return @warn;
     }
 }
@@ -1054,10 +1065,10 @@ foreach my $section (qw/word verb-prefix verb-suffix noun-suffix/) {
         $_ = $entry->{tlh}[0] // "";
         my ($marked, $word) = m#^.*? (\*?) \{([^}]*)\} .*? $#xm;
         $marked_count ++ if $marked;
-        given ($word) {
-            when (/-$/) { $prefix_count ++ }
-            when (/^-/) { $suffix_count ++ }
-            default     {   $word_count ++ unless $marked }
+        for ($word) {
+            m#-$# and do { $prefix_count ++; next };
+            m#^-# and do { $suffix_count ++; next };
+            $word_count ++ unless $marked;
         }
         my $sortkey = sortkey_tlh($word);
         my $order   = ($last_sortkey cmp $sortkey);
@@ -1082,7 +1093,7 @@ print STDERR
     unless $opt{quiet};
 
 if ($warnings) {
-    print STDERR "$warnings problems found\n";
+    print STDERR "$warnings problem(s) found\n";
     exit 1;
 }
 exit 0;
