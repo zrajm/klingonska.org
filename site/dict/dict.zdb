@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    96c3eab1b277bf5d1df61eab8725f5eb579b82bf
+SHA1:    66550ef3565c6ded334fbff74e3b6e87a556d560
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -7938,9 +7938,8 @@ id:	oqo
 
 tlh:	{joH}
 pos:	noun
-en:	<Lady> (female head of house), <Lord> (male head of house)
-sv:	«Dam», «Fru» (kvinnligt familjeöverhuvud), «Herre» (manligt
-	familjeöverhuvud)
+en:	<Lady>, <Lord> (head of house)
+sv:	«Dam», «Fru», «Herre» (familjeöverhuvud)
 def:	TKD; KGT
 cite:	The leader of a house is afforded the title {joH}, usually translated
 	as ~Lord.~ This title is also used to refer to his wife, translated as
@@ -7953,6 +7952,11 @@ cite:	The leader of a house is afforded the title {joH}, usually translated
 	an alternate form, {jaw}, which is used from time to time with no known
 	difference in meaning or connotation, though {joH} is heard far more
 	frequently. [KGT pp.40--41]
+cite:	[T]he head of a house is afforded the title {joH} (~Lord, Lady~),
+	which, when one is addressing such a personage, may be used either
+	after the name (as in {qamor joH} [~Lord Kahmor~]) or without the name
+	if followed by the possessive suffix {-wI'} (~my~), as in {joHwI'} (~my
+	Lord, my Lady~). [KGT p.198]
 see:	{jaw} [2]
 tag:	1985
 id:	cEC
@@ -8721,7 +8725,7 @@ id:	Mqx
 tlh:	{let}
 pos:	verb
 en:	be <hard> (like a rock)
-sv:	vara «hård» (som en sten)
+sv:	vara «hård»
 def:	TKD
 tag:	1985; KLCP1
 id:	hXZ
@@ -11773,8 +11777,16 @@ en:	<want>, «desire»
 sv:	«önska», «vilja», «vilja ha»
 def:	TKD; TKW p.149
 ref:	TKW p.185
+cite:	When the verb of the second sentence [in a sentence-as-object
+	construction] is {neH} ~want,~ neither {'e'} nor {net} is used, but the
+	construction is otherwise identical [...] [TKD pp.66--67]
+cite:	{jIQong vIneH} ~I want to sleep.~ [TKD p.67]
+cite:	{qalegh vIneH} ~I want to see you.~ [TKD p.67]
+cite:	{Dalegh vIneH} ~I want you to see him/her.~ [TKD p.67]
+cite:	{qama'pu' vIjonta' vIneH} ~I wanted to capture prisoners.~ [TKD p.67]
 cite:	{Dargh DaneH'a'?} ~Spot of tea?~ (~Do you want tea?~) [RT]
 cite:	{nuq Datlhutlh DaneH?} ~What do you want to drink?~ [TNK]
+com:	{'e'} ~that~ is not used with {neH}.
 tag:	1985; KLCP1
 id:	U3F
 
@@ -11925,7 +11937,37 @@ tlh:	{net}
 pos:	pronoun
 en:	<that> (previous topic)
 sv:	«det» (föregående ämne)
+desc:	only used as obj.
 def:	TKD
+cite:	{jabbI'ID pItlh. Qu'vaD lI' net tu'bej.} ~Transmission completed. You
+	will find it useful.~ [ST3]
+cite:	The pronouns {'e'} and {net} are used only in special sentence
+	constructions (see section 6.2.5). [TKD 5.1/p.51]
+cite:	Klingon has two special pronouns, {'e'} and {net,} which refer to the
+	previous sentence as a whole. They are used primarily, not exclusively,
+	with verbs of thinking or observation (such as ~know, see~). They are
+	always treated as the object of the verb, and the verb always takes a
+	prefix indicating a third-person singular object. What is a single
+	sentence in English is often two sentences in Klingon. {net} is used
+	only under special circumstances (see page 66), but {'e'} is common.
+	[TKD 6.2.5/p.65]
+cite:	When the verb of the second sentence has a third-person subject (that
+	is, the pronominal prefix is 0) but the intended meaning is ~one~ or
+	~someone,~ rather than ~he, she, it,~ or ~they,~ {net} is used instead
+	of {'e'.} ¶ {qama'pu' DIHoH net Sov} ~One knows we kill prisoners.~ ¶
+	As above, the first sentence here is {qama'pu' DIHoH} ~We kill
+	prisoners.~ The second sentence is {net Sov} ~One knows that.~ The full
+	construction implies that it is common knowledge that the group to
+	which the speaker belongs kills prisoners. ¶ {Qu'vaD lI' net tu'bej}
+	~One certainly finds it useful for the mission.~ [TKD 6.2.5/p.66]
+com:	{net} (like {'e'}) is always used as the object of a sentence, and
+	refers back to the previous sentence as a whole. When used, the verb of
+	the second sentence alway takes the 0 prefix (indicating third-person
+	subject/third-person singular object) and the full construction
+	indicates that the speaker express something they believe they have in
+	common with their peers (this is usually translated into English using
+	the generic pronoun ~one~).
+see:	{'e'} ~that~
 tag:	1985
 id:	u5m
 
@@ -13376,6 +13418,17 @@ pos:	adverbial
 en:	«then», «at» that time
 sv:	«då», «vid» den tiden
 def:	1999-11-05-News (HolQeD-08-4-a pp.8--9)
+cite:	The adverbial is {ngugh}. It is used mainly to emphasize that a
+	particular event occurred at the same time as something else, though
+	{ngugh} doesn't indicate what that time is. Something else in the
+	discussion makes that clear. {ngugh} does not mean "at some (vague)
+	time in the past" or "at some (unknown) time in the future." For
+	example: ¶ {vagh SanID ben buDbe' wamwI'pu'. ngugh Ho'Du'chaj lo' chaH,
+	'ach DaH tajmey lo'.} ~5,000 years ago, hunters were not lazy. Then (at
+	that time) they used their teeth, but now they use knives.~ ¶ {DungluQ
+	tIHIv. ngugh Qongbe' chaH.} ~Attack them at noon! They won't be
+	sleeping then.~ (or: ~Attack them at noon. They're not sleeping then.~)
+	[1999-11-05-News (HolQeD-08-4-a pp.8--9)]
 tag:	1999; time
 id:	VT6
 
@@ -14716,9 +14769,10 @@ en:	be <perfect>, be <exact>
 sv:	vara «perfekt», vara «exakt»
 def:	TKD
 ref:	BoP
-com:	BoP: {jabbI'ID pup} "High Resolution" (lit. "Exact data transmission"),
-	{jabbI'ID pupHa'} "Medium to Low Resolution" (lit. "Inexact data
-	transmission").
+cite:	{jabbI'ID pup: Qapchu'meH 'aqroS chuq: cha' vI' chorgh loghqammey}
+	~High Resolution -- Maximum Effective Range -- 3.5 Light Years~ [BoP]
+cite:	{jabbI'ID pupHa': Qapchu'meH chuq: chorgh vI' chorgh loghqammey}
+	~Medium to Low Resolution -- Effective Range -- 11 Light Years~ [BoP]
 tag:	1985
 id:	g86
 meta:	Entries differ and have been combined here.
@@ -25873,8 +25927,27 @@ tlh:	{'e'}
 pos:	pronoun
 en:	<that> (previous topic)
 sv:	«det» (föregående ämne)
+desc:	only used as obj.
 def:	TKD
 ref:	TKW pp.13, 19, 37, 73, 74, 87, 125, 163, 195
+cite:	The pronouns {'e'} and {net} are used only in special sentence
+	constructions (see section 6.2.5). [TKD 5.1/p.51]
+cite:	Klingon has two special pronouns, {'e'} and {net,} which refer to the
+	previous sentence as a whole. They are used primarily, not exclusively,
+	with verbs of thinking or observation (such as ~know, see~). They are
+	always treated as the object of the verb, and the verb always takes a
+	prefix indicating a third-person singular object. What is a single
+	sentence in English is often two sentences in Klingon. {net} is used
+	only under special circumstances (see page 66), but {'e'} is common.
+	Several examples should make the use of {'e'} clear. ¶ {qama'pu' DIHoH
+	'e' luSov} ~They know we kill prisoners.~ [TKD 6.2.5/pp.65--66]
+cite:	{yaS qIppu' 'e' vIlegh} ~I saw him/her hit the officers.~ [TKD
+	6.2.5/p.66]
+com:	{'e'} (like {net}) is always used as the object of a sentence, and
+	refers back to the previous sentence as a whole. When used, the verb of
+	the second sentence always takes a prefix indicating third-person
+	singular object.
+see:	{net} ~that~
 tag:	1985
 id:	h4t
 
@@ -27102,8 +27175,23 @@ id:	XTK
 tlh:	{-DI'}
 pos:	verb suffix type 9
 en:	as soon as, when
-sv:	när, så snart som
+sv:	då, när, så snart som, samtidigt som
 def:	TKD 4.2.9/p.43, 6.2.2/p.62
+cite:	{loDHom jIHDI' qIrq qun vIqImchoH.} ~I've followed his career since I
+	was a boy.~ [lit. ~I began paying attention to Kirk's history when I
+	was a boy.~] [ST5 deleted scene]
+cite:	{DopDaq qul yIchenmoH QobDI' ghu'.} ~Set fire on the side when there is
+	danger.~ [PK]
+cite:	{Dargh vItlhutlhDI' mutlhej torgh matlh je} ~I drink tea with Torg and
+	Maltz~ [lit. ~When I drink tea, Torg and Maltz accompany me~]
+	[HolQeD-02-4 p.18]
+cite:	{qaSDI' nenghep} ~Age of Ascension~ [lit. ~when Age of Ascension
+	happen~] [SBX-S09 (HolQeD-04-3-a p.5)]
+cite:	{janmey ngo' lulo'lu'DI' pIj jabbI'ID nISpu' woj.} ~Older models were
+	susceptible to radiation.~ [lit. ~When using old devices, often
+	radiation disrupted data transmission.~] [SBX-S19 (HolQeD-05-2-b p.14)]
+cite:	{DabuQlu'DI' yISuv.} ~When threatened, fight.~ [TKW p.7]
+cite:	{bISovbejbe'DI' tImer.} ~When in doubt, surprise them.~ [TKW p.25]
 com:	The subordinate clause can occur either before or after the rest of the
 	sentence.
 tag:	1985
@@ -27182,6 +27270,9 @@ pos:	verb suffix type 7
 en:	in progress
 sv:	fortskridande, framskridande
 def:	TKD 4.2.7/p.42
+com:	Indicates that an action is ongoing and progresses towards a known goal
+	or stopping point.
+see:	{-pu'} ~perfective~; {-taH} ~contiuous~; {-ta'} ~accomplished, done~
 tag:	1985
 id:	9Rx
 
@@ -27280,6 +27371,9 @@ en:	perfective
 sv:	perfektiv
 def:	TKD 4.2.7/p.41
 ref:	HolQeD-12-2 p.9
+com:	Indicates that an action is completed. Often translated by English
+	present perfect (~have done something~).
+see:	{-lI'} ~in progress~; {-taH} ~contiuous~; {-ta'} ~accomplished, done~
 tag:	1985
 id:	hm1
 
@@ -27330,6 +27424,8 @@ pos:	verb suffix type 7
 en:	continuous
 sv:	pågående
 def:	TKD 4.2.7/p.42
+com:	Indicates that an action is ongoing.
+see:	{-lI'} ~in progress~; {-pu'} ~perfective~; {-ta'} ~accomplished, done~
 tag:	1985
 id:	vKF
 
@@ -27339,6 +27435,8 @@ en:	accomplished, done
 sv:	utfört, gjort
 def:	TKD 4.2.7/p.41
 ref:	HolQeD-12-2 p.9
+com:	Indicates that an action that was deliberately undertaken is completed.
+see:	{-lI'} ~in progress~; {-pu'} ~perfective~; {-taH} ~contiuous~
 tag:	1985
 id:	R64
 
