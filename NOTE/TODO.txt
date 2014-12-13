@@ -1,5 +1,5 @@
 #+STARTUP: overview hidestars -*- org -*-
-#+TAGS: PROOF(p) TRANSCRIBE
+#+TAGS: PROOF(p) TRANSCRIBE IMPORTANT
 
 * INBOX
   These should be inserted in the hierachy below.
@@ -48,14 +48,6 @@
 
 *** TODO Update mailing list webpage to reflect current info
     http://klingonska.org/lista.html
-** DONE Web redirects
-   http://klingonska.org/~USER -> external site
-   LRC emailed, asking why is redirect had stopped working 2010-09-07,
-   notifying me of the problem. I realized that there were settings in an old
-   Apache .htaccess file I had forgot to take into consideration in the new
-   HCoop setup. I copied the relevant rewriteRules from the Apache file to
-   HCoop's domtool, and web redirects seem to be up and working again.
-   CLOSED: [2010-09-08 Wed 20:34]
 ** DOING Webpage
 *** DOING Find/eliminate faulty latin1 hyphens
     173 chars into proper hyphens/minuses
@@ -92,50 +84,14 @@
 *** DONE Redirect 2040.klingonska.org -> 2040.zrajm.org
     CLOSED: [2010-09-08 Wed 20:48]
 * Site design annoyances+fixes
-** DONE Cleanup page logo outline
-   CLOSED: [2012-12-30 Sun 17:57]
-   Turns out text-stroke is not needed after all. Just more careful text-shadows.
-
-   Text shadow on the "Klingonska Akademien" text have gaps. CSS property
-   'text-stroke' is supported by Chrome, and should be used (with the current
-   'text-shadow' used as fallback).
-
-   How to do this:
-   http://css-tricks.com/adding-stroke-to-web-text/
-
-   Browser support table:
-   http://caniuse.com/text-stroke
-
-   'filter' property could apparently be used to get it flying in Internet
-   Explorer. This question on stackoverflow have a CSS for that (which uses the
-   html5boilerplate html classes):
-
-   http://stackoverflow.com/questions/4919076/outline-effect-to-text
-** DONE Allow -*- html -*- to be added to Markdown metadata
-   CLOSED: [2013-05-30 Thu 18:42]
-   So that Emacs understand immediately that the file should use html-mode.
-
-   bin/markdown2html now allows comments in metadata. Simply use ':' (without
-   preceding it with a field name -- continuation lines cannot be used after
-   comments).
-
-   With this in place, the first line of a markdown source file may contain the
-   line `: -*- html -*-` to signify that Emacs should highlight it as if it was
-   HTML.
-** DONE Use a 'natural box model' for all of page
-   CLOSED: [2014-11-02 Sun 21:41]
-   See Paul Irish's web page:
-   http://www.paulirish.com/2012/box-sizing-border-box-ftw/
-
-       /* apply a natural box layout model to all elements */
-       html { box-sizing: border-box; }
-       *, *:before, *:after { box-sizing: inherit; }
-
-   `includes/gallery.scss` have a couple of exceptions from this rule since the
-   <figure> element have its size set (in the HTML) according to the size of
-   the image it contains.
-** DONE Prettify tab row (make more Chrome-like)
-   CLOSED: [2014-11-04 tis 17:39]
+** TODO Search engine for Firefox
+   In Firefox search engines can be added by clicking on the menu next to the
+   search field. If you go to YouTube their search engine appears in the menu,
+   i.e. "Add YouTube to search engines" (or something similar). With
+   Klingonska one should be able to add the dictionary search in this way.
+** TODO Remove wide page margins on mobiles                       :IMPORTANT:
+   Use a CSS media query (?) to remove the wide page margins when displayed on
+   cell phones and other small screens. (But not on iPad?)
 ** TODO Replace "Validate" in footer with link GitHub issue tracker
 ** TODO CSS: "display: inline" on floats avoids (avoid double margin in MSIE)
 ** TODO CSS: "overflow: visible" on buttons (avoids padding issues in MSIE)
@@ -244,6 +200,50 @@
     https://github.com/h5bp/html5-boilerplate/wiki/Using-PNG
 *** TODO Serve scaled images
 *** TODO Make use of consistent URLs
+** DONE Cleanup page logo outline
+   CLOSED: [2012-12-30 Sun 17:57]
+   Turns out text-stroke is not needed after all. Just more careful text-shadows.
+
+   Text shadow on the "Klingonska Akademien" text have gaps. CSS property
+   'text-stroke' is supported by Chrome, and should be used (with the current
+   'text-shadow' used as fallback).
+
+   How to do this:
+   http://css-tricks.com/adding-stroke-to-web-text/
+
+   Browser support table:
+   http://caniuse.com/text-stroke
+
+   'filter' property could apparently be used to get it flying in Internet
+   Explorer. This question on stackoverflow have a CSS for that (which uses the
+   html5boilerplate html classes):
+
+   http://stackoverflow.com/questions/4919076/outline-effect-to-text
+** DONE Allow -*- html -*- to be added to Markdown metadata
+   CLOSED: [2013-05-30 Thu 18:42]
+   So that Emacs understand immediately that the file should use html-mode.
+
+   bin/markdown2html now allows comments in metadata. Simply use ':' (without
+   preceding it with a field name -- continuation lines cannot be used after
+   comments).
+
+   With this in place, the first line of a markdown source file may contain the
+   line `: -*- html -*-` to signify that Emacs should highlight it as if it was
+   HTML.
+** DONE Use a 'natural box model' for all of page
+   CLOSED: [2014-11-02 Sun 21:41]
+   See Paul Irish's web page:
+   http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+
+       /* apply a natural box layout model to all elements */
+       html { box-sizing: border-box; }
+       *, *:before, *:after { box-sizing: inherit; }
+
+   `includes/gallery.scss` have a couple of exceptions from this rule since the
+   <figure> element have its size set (in the HTML) according to the size of
+   the image it contains.
+** DONE Prettify tab row (make more Chrome-like)
+   CLOSED: [2014-11-04 tis 17:39]
 * Site content
 ** TODO Do a surf-through check for weird/old shit
 ** [13%] Systematic/site-wide changes
@@ -267,6 +267,7 @@
      Is it possible to have a like button that does not allow facebook to track
      your visits?
 **** TODO Bitcoin donation button
+     Use bitcoin donations to pay for contributions to the dictionary?
 *** [40%] Site redesign
 **** TODO Add Open Graph tags for link previews (for Facebook etc.)
      More docs on the Open Graph protocol:
@@ -916,7 +917,17 @@
     Commenting on the informal structure of Klingonska Akademien, and stating
     that anyone is accepted as a member if they contribute something to the
     website.
-** TODO Search engine optimisations
+** TODO Search engine optimizations
+** [0%] Add "Where to find other Klingon speakers" page (or somesuch)
+   Page with links to resources to learn more about Klingon, and to find other
+   speakers. Make sure to include links to at least:
+*** TODO The German {qepHommey}
+*** TODO "Klingonska Akademien" on Facebook
+*** TODO "Klingonska" on Twitter
+*** TODO "Learn Klingon" on Facebook
+*** TODO {mu' HaqwI'}
+*** TODO The "other" {tlhIngan Hol} mailing list archive
+*** TODO {qurgh}'s web page
 ** TODO Add Klingon Scrabble page
 ** "Glossary" page
 *** General
@@ -2629,10 +2640,24 @@
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** `dict.zdb`
-**** [37%] Field/syntax changes
+**** TODO Add links to Lawrence Schoen's {DaHjaj Hol} episodes
+     Each word mentioned in a {DaHjaj Hol} should have a link, or some kind of
+     identifier pointing out which episode contain more info. A special field?
+     Use 'see:'? These shouldn't be full URLs (as that might change) but should
+     be presented as link to the show notes from the search engine.
+
+     Could we store the base URL for the show in the dictionary metadata, and
+     use paths relative to that?
+**** [33%] Field/syntax changes
+***** TODO Allow unconfirmed words without known source
+      Unconfirmed words should be added, even if source is missing, with a
+      comment that source need to be added.
+
+      Should words like these have an asterisk in their tlh: field + a warn:
+      field? More?
 ***** TODO Add 'data:' value 'unconfirmed'
-      Used for words like {Qej} and {vabDot} for which we do not have a 100%
-      certain translation.
+      Used for words like {Qej} and {vabDot} (from Monopoly: Klingon Edition)
+      for which we do not have a 100% certain translation.
 ***** TODO Remove period in "p." and "pp." abbreviations
       Page abbreviations should not have period in them, according to The
       Elements of Typographic Style.
@@ -2658,6 +2683,9 @@
       'tag:' field content is shorter, and more telling that the 'com:' field,
       so it should come earlier so as to allow user to faster get a 'feel' for
       the entry.
+***** TODO 'id:' field should not allow 'TKD', 'KGT' etc.
+      The 'id:' field should not contain anything that could be mistaken for
+      source references, as that would be confusing.
 ***** TODO Systematize 'see:' field
       Right now it's kind of haphazardly implemented. It should be more
       systematic (and refer to the 'id:' of the of the linked-to entry + some
@@ -2781,48 +2809,14 @@
 **** TODO Relationship between 'data: phrase' and 'data: derived form'?
      Is a 'phrase' *always* a 'derived form'? Are all 'derived form's properly
      marked in the dictionary? Can we test for this?
-**** DONE Add SHA1 metadata field
-     CLOSED: [2012-11-05 Mon 06:21]
-     This should be a SHA1 checksum (to simplify syncing for external clients)
-     of only the database part (i.e. comments should not be considered).
-**** DONE Add delimiters for the database part of the file
-     CLOSED: [2012-11-02 Fri 18:04]
-     A delimiter surrounding all of the database sections is needed to solve
-     the following bug [[Online pocket dictionary show parts of dict.zdb
-     postamble.]]
-
-         == start-of-data ==
-         ...
-         == end-of-data ==
 **** TODO Add "Everyday Klingon" references for all words on SkyBox crads
      (in the dictionary)
      S25, S26 & S27 are already have a 'ref:' field with reference to the
      {HolQed} article in which a transcription of these cards occured. Follow
      the same pattarn as used there for all other SkyBox cards.
-**** DONE Add Philip Newton's {toqvIr} correction & reply to him
-     CLOSED: [2012-03-25 Sun 20:32]
-     (Reported via email on Monday March 12, 2012.)
-
-     {toqvIr} is called a "Tokvirian skink" in the body of KGT (p. 88) but a
-     "Tokvarian skink" (-a- rather than -i-) in the dictionary part.
-
-     You have a note to this effect ("Tokvarian skink [[Tokvarian:=Tokvirian]]") in
-     the K-E portion of canon/1997-11-01-kgt.txt) but you have "Tokvirian
-     skink" with -i- in the E-K portion, even though my KGT has "Tokvarian"
-     there, too. ("My KGT" = First Pocket Books trade paperback printing
-     September 1997, ISBN 0-671-00995-8, in case editions vary.)
-
-     So the E-K should be updated to similar wording as in the K-E side
-     ("Tokvarian", with a correction note at the end of the line).
 **** TODO Check order of field names in description in preamble
      Check that it corresponds to the actual field ordering. Add a check for
      this in 'check-dict'?
-**** DONE Correct spelling of 'conjunction' in 'pos:' field
-     CLOSED: [2012-03-25 Sun 04:02]
-     It is currently spelled 'conjuction'.
-
-     Grep for this throughout website, I'm the misspelling must occur at least
-     in all scripts working against the dictionary. (CGI + dictionary checker?)
 **** TODO Make sure all Eurotalk words has proper 'data:' fields
 **** Design improvements (to think about)
 ***** TODO Should "some(one|body|thing)" really be abbreviated in 'desc:'?
@@ -2872,7 +2866,9 @@
       field. -- These words should be included in the Klingon--English version
       of the dictionary, but with a leading asterisk, and a warning they're not
       supposed to be used. Maybe add a 'warn' field, explaining why?
-**** [30%] Add words
+**** [29%] Add words
+***** TODO {qorghwI'} ("cork" or "plug"?)
+      Article describing Lieven and Marc Okrand in conversation.
 ***** TODO {Qumran} ~scroll~
           The students at qepHom 2013 wrote a letter to Marc Okrand on a 7 foot
           long piece of paper adding short messages and funny drawings,
@@ -3510,6 +3506,47 @@
 ***** TODO {wep buq}
 ***** TODO {yopwaH buq}
 ***** TODO {yuch ngogh}
+**** TODO Try to obtain the recording of {ma'veq} mentioned in the comments
+     See also: http://diswww.mit.edu/charon.MIT.EDU/ja'chuq/88542
+**** TODO "Diplomatic Implausibility"
+     canon/2001-02-17-email.txt
+***** Add comments from glossary to the various words
+***** Determine how canon source is
+***** Add missing words to dictionary (if source is judged canon)
+**** DONE Add SHA1 metadata field
+     CLOSED: [2012-11-05 Mon 06:21]
+     This should be a SHA1 checksum (to simplify syncing for external clients)
+     of only the database part (i.e. comments should not be considered).
+**** DONE Add delimiters for the database part of the file
+     CLOSED: [2012-11-02 Fri 18:04]
+     A delimiter surrounding all of the database sections is needed to solve
+     the following bug [[Online pocket dictionary show parts of dict.zdb
+     postamble.]]
+
+         == start-of-data ==
+         ...
+         == end-of-data ==
+**** DONE Add Philip Newton's {toqvIr} correction & reply to him
+     CLOSED: [2012-03-25 Sun 20:32]
+     (Reported via email on Monday March 12, 2012.)
+
+     {toqvIr} is called a "Tokvirian skink" in the body of KGT (p. 88) but a
+     "Tokvarian skink" (-a- rather than -i-) in the dictionary part.
+
+     You have a note to this effect ("Tokvarian skink [[Tokvarian:=Tokvirian]]") in
+     the K-E portion of canon/1997-11-01-kgt.txt) but you have "Tokvirian
+     skink" with -i- in the E-K portion, even though my KGT has "Tokvarian"
+     there, too. ("My KGT" = First Pocket Books trade paperback printing
+     September 1997, ISBN 0-671-00995-8, in case editions vary.)
+
+     So the E-K should be updated to similar wording as in the K-E side
+     ("Tokvarian", with a correction note at the end of the line).
+**** DONE Correct spelling of 'conjunction' in 'pos:' field
+     CLOSED: [2012-03-25 Sun 04:02]
+     It is currently spelled 'conjuction'.
+
+     Grep for this throughout website, I'm the misspelling must occur at least
+     in all scripts working against the dictionary. (CGI + dictionary checker?)
 **** DONE Mark "quantity" words
      CLOSED: [2012-02-02 Thu 08:26]
      They act as numerals and come before a word (usually). Is {Hoch} a special
@@ -3522,13 +3559,6 @@
      {bID} X "half an X, a half X" [BOP]
 **** DONE Add irregular plurals in dictionary (already done?)
      CLOSED: [2012-02-02 Thu 08:39]
-**** TODO Try to obtain the recording of {ma'veq} mentioned in the comments
-     See also: http://diswww.mit.edu/charon.MIT.EDU/ja'chuq/88542
-**** TODO "Diplomatic Implausibility"
-     canon/2001-02-17-email.txt
-***** Add comments from glossary to the various words
-***** Determine how canon source is
-***** Add missing words to dictionary (if source is judged canon)
 **** DONE Add 'excl' field for excluding a word from the paper dictionary
      CLOSED: [2011-11-05 Sat 08:30]
      Nope. This is perfectly handled by the 'data' field values 'non-canon'
@@ -3853,8 +3883,12 @@
 ** "Klingonsk ordbok" (KLO)
 *** TODO Phonetic descriptions should use IPA
     The sound transcription used in the cheat sheet (e.g. "sjis-LASJ") is
-    stupid, ugly and US-centric. Since IPA is used in schools in Sweden, it
-    should be used here as well. [http://klingonska.org/klo/ordlista-05.html]
+    stupid, ugly and US-centric. Since IPA is used whenever you teach
+    pronunciation in Europe, it should be used here as well.
+    [http://klingonska.org/klo/ordlista-05.html]
+
+    Besides, the "rough pronunciation guide" is wrong, the Klingon {u} sound
+    resebles Swedish "o" more than the Swedish "u".
 
     http://klingonska.org/dict/tables.html - Already uses IPA.
 *** DONE Prev/next links on KLO are broken
@@ -3980,8 +4014,8 @@
 *** TODO Ignore [...] inside parentheses in 'desc:'
     Square brackets inside parentheses should *not* be checked for sources.
     E.g. {qang} [.2].
-*** TODO Check that [...] occurring in 'cite:' fields are *not* source
-    references (except for the last one, which *must* be)
+*** TODO Check that [...] occurring in 'cite:' fields are *not* source refs
+    (except for last [...] one, which *must* be)
 *** TODO check_brackets()
 *** TODO Check for multiple spaces
     Checking number of spaces before and after ';' separator in tag:, def: and
@@ -4004,6 +4038,24 @@
     any too long lines, anyway. We don't need to check this twice.
 *** TODO Add check for unknown database sections
 *** TODO Check that 'data: derived form' is parsable from simple parts
+*** [0%] FUTURE Advanced features
+**** TODO Spellchecking of 'en' fields
+**** TODO Spellchecking of 'sv' fields
+**** TODO When separate sources given for each translation, check 'def:' field
+     When each translation is separately sourced, sources should be listed in
+     'def:' if one or more English translations exists (for the first time) in a
+     source, 'ref:' if a translation is repeated, or if the word is used in an
+     example.
+
+     I think.
+**** TODO Check that Klingon/English words occur in files given in 'file:' field
+     Would this always work? If not how much smarts would be needed to get it to
+     work?
+**** TODO Check sorting of 'tlh:' for homonyms
+     (In some places this will differ for other reasons.)
+       * standard >> slang/regional
+       * by pos: adv >> v >> pro >> ques >> conj >> num >> n >> name
+**** TODO Check that irregular plurals links between singular <-> plural form
 *** DONE Re-enable checking of 'tag: YEAR'
     CLOSED: [2013-12-13 Fri 16:44]
     Check is based on date of oldest source reference in def: and ref: fields.
@@ -4023,24 +4075,6 @@
     CLOSED: [2012-11-05 Mon 06:21]
 *** DONE Comments (non-section text) should not exeed 79 char line width
     CLOSED: [2012-03-25 Sun 03:49]
-*** FUTURE Advanced features
-**** TODO Spellchecking of 'en' fields
-**** TODO Spellchecking of 'sv' fields
-**** TODO When separate sources given for each translation, check 'def:' field
-     When each translation is separately sourced, sources should be listed in
-     'def:' if one or more English translations exists (for the first time) in a
-     source, 'ref:' if a translation is repeated, or if the word is used in an
-     example.
-
-     I think.
-**** TODO Check that Klingon/English words occur in files given in 'file:' field
-     Would this always work? If not how much smarts would be needed to get it to
-     work?
-**** TODO Check sorting of 'tlh:' for homonyms
-     (In some places this will differ for other reasons.)
-       * standard >> slang/regional
-       * by pos: adv >> v >> pro >> ques >> conj >> num >> n >> name
-**** TODO Check that irregular plurals links between singular <-> plural form
 *** DONE Check that sentences in ~...~ in 'desc:' start with lower case letter
     CLOSED: [2012-01-30 Mon 22:56]
     Except for the word "I", which is of course allowed to be a capital
@@ -4124,6 +4158,12 @@
 *** TODO Support " between words in Klingon
 
 * Web server config
+** TODO Add HTTPS version of site
+   All web traffic should be encrypted! Klingonska should allow that!
+*** TODO How to set up HTTPS on HCoop?
+*** DONE Where to get free certificates
+    CLOSED: [2014-12-03 ons 08:55]
+    Free one-year certificates can be obtained from startssl.com.
 ** TODO Configure "MultiView" so users don't have to type file suffix
    Apache's "MultiView" seems like a cool config option. It makes it so that
    visitors can leave off the file suffix. (E.g. http://klingonska.org/links/
@@ -4162,6 +4202,13 @@
    minutes), mostly thanks to me having experimented with the necessary
    configuration on zrajm.org (my other website, also hosted there).
 * Communicate
+** Flyers / business cards
+   Something to give to people at lectures etc. and on other occasions AFK.
+   There should be a URL to the web page, and the KA logo (a red header at the
+   top, like on the web page?).
+
+   Maybe another (social) resource should be pointed out as well? Like a
+   Klingon group on Facebook (or is using Facebook too excluding)?
 ** Reply to http://community.livejournal.com/klingon/
    The Archive of Okrandian Canon of the Swedish Klingonska Akademien doesn't
    seem to be updated anymore, since 2002. Or does it?
@@ -4173,7 +4220,6 @@
     CLOSED: [2010-12-25 Sat 05:47]
 *** DONE Marc Okrand
     CLOSED: [2010-12-25 Sat 05:48]
-
 * Add all tlhingan-hol archive stuff to my Gmail
 * Lesson ideas
 ** singing {taHjaj wo'}
@@ -4291,5 +4337,13 @@
     CLOSED: [2009-04-04 Sat]
 *** DONE CGI scripts working
     CLOSED: [2010-08-09 Mon 03:01]
+** DONE Web redirects
+   http://klingonska.org/~USER -> external site
+   LRC emailed, asking why is redirect had stopped working 2010-09-07,
+   notifying me of the problem. I realized that there were settings in an old
+   Apache .htaccess file I had forgot to take into consideration in the new
+   HCoop setup. I copied the relevant rewriteRules from the Apache file to
+   HCoop's domtool, and web redirects seem to be up and working again.
+   CLOSED: [2010-09-08 Wed 20:34]
 ** DONE Cleared away a bunch of Perl 'is experimental' warnings
    CLOSED: [2014-10-25 sat 15:57]
