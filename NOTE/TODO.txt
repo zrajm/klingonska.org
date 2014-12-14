@@ -4010,13 +4010,9 @@
 *** DONE klingon phrases in {...} in gram: should have ' at beg of word replaced with right-hand quote
     CLOSED: [2012-01-20 Fri 13:01]
     (see example under {Soj})
-** [67%] `bin/check-dict`: Dictionary check tool
-*** TODO Ignore [...] inside parentheses in 'desc:'
-    Square brackets inside parentheses should *not* be checked for sources.
-    E.g. {qang} [.2].
+** [71%] `bin/check-dict`: Dictionary check tool
 *** TODO Check that [...] occurring in 'cite:' fields are *not* source refs
     (except for last [...] one, which *must* be)
-*** TODO check_brackets()
 *** TODO Check for multiple spaces
     Checking number of spaces before and after ';' separator in tag:, def: and
     ref:. Also check that no string contain multiple spaces.
@@ -4056,6 +4052,11 @@
        * standard >> slang/regional
        * by pos: adv >> v >> pro >> ques >> conj >> num >> n >> name
 **** TODO Check that irregular plurals links between singular <-> plural form
+*** DONE Ignore [...] inside parentheses in 'desc:'               :IMPORTANT:
+    CLOSED: [2014-12-14 Sun 13:50]
+    Square brackets inside parentheses should *not* be checked for sources.
+    E.g. {qang} [.2]. -- Marked as 'IMPORTANT' since this currently results in
+    a warning every time the dictionary is checked.
 *** DONE Re-enable checking of 'tag: YEAR'
     CLOSED: [2013-12-13 Fri 16:44]
     Check is based on date of oldest source reference in def: and ref: fields.

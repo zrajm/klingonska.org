@@ -426,27 +426,62 @@ sub split_sources {
     my %singlet = ( '~' => '~', '"' => '"' );
     my $re = quotemeta join "", sort
         keys %singlet, keys %bracket, values %bracket;
+
+    # Usage: check_brackets(STRING[, CALLBACK]);
+    #
+    # Checks that all brackets are balanced in STRING. Return list of warnings
+    # not all opening brackets closed with the corresponding close bracket.
+    # Return empty list if no warnings were found.
+    #
+    # If CALLBACK is specified that function is called for each substring of
+    # text between the brackets. CALLBACK is passed the following arguments:
+    #
+    #     * Substring
+    #
+    #     * The expect stack (a list of the closing brackets that
+    #       check_brackets() expect to see before the end of the string).
+    #       CALLBACK is invoked before stack is updated, so if the stack is
+    #       empty you're on the 'base' level (outside all bracket structures).
+    #
+    #     * The current bracket found ("" when at end of string)
+    #
+    # E.g. if you call check_brackets("a(b)c") CALLBACK will be invoked three
+    # times, with arguments:
+    #
+    #     1st: "a", [],      "("   # found (, on base level '[]'
+    #     2nd: "b", [ ")" ], ")"   # found ), when expecting a ')'
+    #     3rd: "c", [],      ""    # found eof, when not expecting any more
+    #
     sub check_brackets {
-        local ($_) = @_;
-        my (@stack, @warn);
-        while (/[$re]/g) {
-            if ($singlet{$&}) {                # ~...~ and "..."
-                if (@stack and $& eq $stack[-1]) {
-                    pop @stack;
-                } else {
-                    push @stack, $&;
-                }
-            } elsif ($bracket{$&}) {           # leading bracket
-                push(@stack, $&);              #   put on stack
-            } else {                           # trailing bracket
-                if (@stack and $& eq ($bracket{ $stack[-1] } // "")) { # check ending
-                    pop @stack;
-                } else {
-                    push @warn, "Unexpected $& in";
-                }
+        my ($str, $callback) = @_;
+        my ($last_pos, @expect, @warn) = (0);
+        while ($str =~ /([$re])/g) {
+            my $bracket = $1;
+            if ($callback) {
+                my $pre_string = substr($str, $last_pos, ($-[1] - $last_pos));
+                $last_pos      = $+[1];
+                $callback->($pre_string, \@expect, $bracket);
             }
+            # expected closing bracket/singlet
+            if (@expect and $expect[-1] eq $bracket) {
+                pop @expect;
+                next;
+            }
+            if ($bracket{$bracket}) {          # opening bracket
+                push @expect, $bracket{$bracket};
+                next;
+            }
+            if ($singlet{$bracket}) {          # opening singlet
+                push @expect, $singlet{$bracket};
+                next;
+            }
+            push @warn, "Unexpected '$bracket' in";
         }
-        push @warn, map { "Unterminated $_ in" } @stack;
+        if ($callback) {
+            my $pre_string = substr($str, $last_pos);
+            $callback->($pre_string, \@expect, "")
+        }
+        push @warn, map { "Unterminated '$_' in" } @expect;
         return @warn;
     }
 }
@@ -739,6 +774,26 @@ sub check_sv {
     return @warn;
 }
 
+# Callback function for check_brackets(). Verifies that all square brackets are
+# correct source references, except if they're inside other brackets (in which
+# case they are checked to NOT be valid source references).
+sub check_desc_refs {
+    my ($entry, $field, $str, $stack_ref) = @_;
+    my @warn;
+    if (@$stack_ref and $stack_ref->[-1] eq "]") {
+        (my $src = $str) =~ s/\n/ /g;
+        my @source_warn = check_source($entry, $field, $src);
+        if (@$stack_ref == 1) {                # outmost level
+            push @warn, @source_warn;          #   MUST be source ref
+        } else {                               # inside other bracket
+            if (@source_warn == 0) {           #   must NOT be source ref
+                push @warn, "Square bracket '[$str]' inside other bracket may "
+                    . "not contain source ref in"
+            }
+        }
+    }
+    return @warn;
+}
 
 sub check_desc {
     # Contents
@@ -747,7 +802,9 @@ sub check_desc {
     (my $entry, my $field, local $_) = @_;
     return "Duplicate" if @{ $entry->{$field} } > 1;
     my @warn;
-    push @warn, check_brackets($_);
+    push @warn, check_brackets($_, sub {
+        push @warn, check_desc_refs($entry, $field, @_);
+    });
     push @warn, "First letter not lower case in" if m#^[A-Z]# and !/^I\b/;
     while (m#~([^~]+)~#g) {                    # check ~...~ phrases
         local $_ = $1;
@@ -761,11 +818,6 @@ sub check_desc {
         if m#[-.,:;([{<«  ]$# and !/(?:subj|obj)\.$/;
     push @warn, "Word '$1' should be abbreviated in"
         if m#\b(some(bod(y|ies)|ones?|things?))\b#;
-    while (m# \[( (?:[^]"]+|"[^"]*")* )\] #xg) { # check sources [...]
-        local $_ = $1;
-        s/\n/ /g;
-        push @warn, check_source($entry, $field, $_);
-    }
     return @warn;
 }
 
