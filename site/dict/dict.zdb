@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    66550ef3565c6ded334fbff74e3b6e87a556d560
+SHA1:    5883445a723468ce3e2e4f872bc9bf84436ebab2
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -11944,13 +11944,13 @@ cite:	{jabbI'ID pItlh. Qu'vaD lI' net tu'bej.} ~Transmission completed. You
 cite:	The pronouns {'e'} and {net} are used only in special sentence
 	constructions (see section 6.2.5). [TKD 5.1/p.51]
 cite:	Klingon has two special pronouns, {'e'} and {net,} which refer to the
-	previous sentence as a whole. They are used primarily, not exclusively,
-	with verbs of thinking or observation (such as ~know, see~). They are
-	always treated as the object of the verb, and the verb always takes a
-	prefix indicating a third-person singular object. What is a single
-	sentence in English is often two sentences in Klingon. {net} is used
-	only under special circumstances (see page 66), but {'e'} is common.
-	[TKD 6.2.5/p.65]
+	previous sentence as a whole. They are used primarily, though not
+	exclusively, with verbs of thinking or observation (such as ~know,
+	see~). They are always treated as the object of the verb, and the verb
+	always takes a prefix indicating a third-person singular object. What
+	is a single sentence in English is often two sentences in Klingon.
+	{net} is used only under special circumstances (see page 66), but {'e'}
+	is common. [TKD 6.2.5/p.65]
 cite:	When the verb of the second sentence has a third-person subject (that
 	is, the pronominal prefix is 0) but the intended meaning is ~one~ or
 	~someone,~ rather than ~he, she, it,~ or ~they,~ {net} is used instead
@@ -25933,14 +25933,15 @@ ref:	TKW pp.13, 19, 37, 73, 74, 87, 125, 163, 195
 cite:	The pronouns {'e'} and {net} are used only in special sentence
 	constructions (see section 6.2.5). [TKD 5.1/p.51]
 cite:	Klingon has two special pronouns, {'e'} and {net,} which refer to the
-	previous sentence as a whole. They are used primarily, not exclusively,
-	with verbs of thinking or observation (such as ~know, see~). They are
-	always treated as the object of the verb, and the verb always takes a
-	prefix indicating a third-person singular object. What is a single
-	sentence in English is often two sentences in Klingon. {net} is used
-	only under special circumstances (see page 66), but {'e'} is common.
-	Several examples should make the use of {'e'} clear. ¶ {qama'pu' DIHoH
-	'e' luSov} ~They know we kill prisoners.~ [TKD 6.2.5/pp.65--66]
+	previous sentence as a whole. They are used primarily, though not
+	exclusively, with verbs of thinking or observation (such as ~know,
+	see~). They are always treated as the object of the verb, and the verb
+	always takes a prefix indicating a third-person singular object. What
+	is a single sentence in English is often two sentences in Klingon.
+	{net} is used only under special circumstances (see page 66), but {'e'}
+	is common. Several examples should make the use of {'e'} clear. ¶
+	{qama'pu' DIHoH 'e' luSov} ~They know we kill prisoners.~ [TKD
+	6.2.5/pp.65--66]
 cite:	{yaS qIppu' 'e' vIlegh} ~I saw him/her hit the officers.~ [TKD
 	6.2.5/p.66]
 com:	{'e'} (like {net}) is always used as the object of a sentence, and

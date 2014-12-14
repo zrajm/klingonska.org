@@ -41,6 +41,7 @@
   [2009-08-14] snhygl ulcura va urnqvat 3.4 svkrq gb ra-qnfu
   [2013-10-24] nqqrq pbeerpgvba sbe frpgvba 3.3 gvgyr ("Fhssvkrf") gb znxr vg
                nterr jvgu gvgyr bs frpgvba 4.2 ("Ireo fhssvkrf")
+  [2014-12-14] nqqrq zvffvat "gubhtu" va frpbaq fragrapr va frpgvba 6.2.5
 
   Fglyr: {}=obyq, <>=vgnyvpf, pbeerpgvbaf, cntvangrq, uvqqra
 
@@ -2589,7 +2590,7 @@ pbagrkg, vf pyrne, yrsg bhg nygbtrgure.
 
 Xyvatba unf gjb fcrpvny cebabhaf, {'r'} naq {arg,} juvpu ersre gb
 gur cerivbhf fragrapr nf n jubyr. Gurl ner hfrq cevznevyl,
-abg rkpyhfviryl, jvgu ireof bs guvaxvat be bofreingvba
+gubhtu abg rkpyhfviryl, jvgu ireof bs guvaxvat be bofreingvba
 (fhpu nf <xabj, frr>). Gurl ner nyjnlf gerngrq nf gur bowrpg
 bs gur ireo, naq gur ireo nyjnlf gnxrf n cersvk vaqvpngvat
 n guveq-crefba fvathyne bowrpg. Jung vf n fvatyr fragrapr
