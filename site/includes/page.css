@@ -1,7 +1,79 @@
 /* -*- css -*- */
 
-@import url("head.css");
-@import url("foot.css");
+/**************************************************************************/
+/* Page Header                                                            */
+
+div#head {
+    font-family: sans-serif;
+    margin-bottom: 2.5em;
+    text-align: center;
+}
+
+div#head img {
+    border: 0em;
+    margin-bottom: .5em;
+    margin-top: .75em;
+}
+
+div#head table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#head table.status {
+    border: 0em;
+    font-size: x-small;
+    font-style: italic;
+    margin-top: 0em;
+    padding: 0em;
+    width: 100%;
+}
+
+div#head table.disclaimer {
+    background-color: #000000;
+    border: 0em;
+    color: #ffff00;
+    font-family: serif;
+    font-size: 150%;
+    font-style: italic;
+    margin-top: 0em;
+    padding: 1em 2em;
+}
+
+div#head table.disclaimer tr.big {
+    font-size: 175%;
+}
+
+div#head p {
+    text-align: center;
+}
+
+/**************************************************************************/
+/* Page Footer                                                            */
+
+#foot {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 2em;
+}
+
+#foot .copyright {
+    border-bottom: .2em solid black;
+    border-top: .2em solid black;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: .5em;
+    padding-bottom: .75em;
+    padding-top: .75em;
+}
+
+#foot > :last-child {
+    margin-bottom: 2em;
+    font-size: x-small;
+}
+
+/**************************************************************************/
+/* Page Body                                                              */
 
 body {
     margin: 0em 1em;

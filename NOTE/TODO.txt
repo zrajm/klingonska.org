@@ -587,9 +587,6 @@
       These pages still use and include:
       `pagestats.css`
       `page.css`
-        `head.css` (imported in `page.css`)
-        `main.css` (imported in `page.css`)
-        `foot.css` (imported in `page.css`)
 ****** TODO `dict/*`
        Uses `dict.css`.
 ****** TODO `klo/*`
@@ -743,7 +740,6 @@
     http://come.to/klingonska/
 *** TODO Replace <tt> with <code> (or whatever is appropriate)
 *** TODO Check HTML comments (and remove unnecessary ones)
-*** TODO "page.css" should be included by all pages(?)
 *** TODO Site search
     Using google? Chrome should autodetect this.
 *** TODO Fix icons & broken images
