@@ -3807,8 +3807,50 @@
     See: http://klingonska.org/canon/2011-11-07-email.txt
     Analyse and add notes on whether the Talk Now way of specifying time is the
     same as the CK way.
-** "Links to Other Pages About the Klingon Language"
-*** TODO Update "Links to Other Pages About the Klingon Language"
+** "Klingonsk ordbok" (KLO)
+*** TODO Phonetic descriptions should use IPA
+    The sound transcription used in the cheat sheet (e.g. "sjis-LASJ") is
+    stupid, ugly and US-centric. Since IPA is used whenever you teach
+    pronunciation in Europe, it should be used here as well.
+    [http://klingonska.org/klo/ordlista-05.html]
+
+    Besides, the "rough pronunciation guide" is wrong, the Klingon {u} sound
+    resebles Swedish "o" more than the Swedish "u".
+
+    http://klingonska.org/dict/tables.html - Already uses IPA.
+*** DONE Prev/next links on KLO are broken
+    CLOSED: [2011-07-03 Sun 03:56]
+    E.g. http://klingonska.cibo/klo/grammatik-05.html
+*** DONE Broken translation dates in TOC
+    CLOSED: [2011-07-03 Sun 03:56]
+    The translation dates are circumscribed with [...] which are not
+    superscript like the date itself. [http://klingonska.org/klo/]
+*** DONE TOC links should point to top of page instead of top headline
+    CLOSED: [2011-07-03 Sun 03:56]
+*** Tables with suffixes should be linked
+    CLOSED: [2011-07-03 Sun 04:00]
+    http://klingonska.org/klo/tillagg-01.txt
+** "Om Klingonska Akademien" -- KA's Logo
+*** TODO Add the moon logos as thumnails on the page
+*** TODO Move all the logos to the pic directory?
+** TODO Lesson list
+   http://klingonska.org/lektioner/
+*** Should be listed
+    These are linked to from http://klingonska.org/lektioner/ref/prefix.html.
+
+    lektioner/ref/=prefix_small.html
+    lektioner/ref/=prefix_big.html
+*** TODO List should use Apaches built-in filelist thingy
+** DONE Removed "Links to Other Pages About the Klingon Language"
+   CLOSED: [2015-03-08 Sun 20:11]
+   This page is in such a sorry state of disrepair that it's now time to
+   completely remove it.
+
+   According to Google Analytics it is ranked 360 (which several popular
+   dictionary searches having a much higher rank), and it's multiple broken
+   links probably have an adverse effect on Klingonska Akademien's Google
+   ranking.
+*** Update "Links to Other Pages About the Klingon Language"
     This page need a major update, and removal of non-working links.
 
     Should remove all stuff that does not work, and maybe focus more on being a
@@ -3869,9 +3911,9 @@
     > phrases and info in Swedish.
     > I'm working on a course plan and would like to start teaching a small
     > group in Stockholm, but we'll see how that works out.
-*** TODO Javascript to display only a single tag/category
-*** TODO Weed out links to non-existing pages
-*** TODO Links to add
+*** Javascript to display only a single tag/category
+*** Weed out links to non-existing pages
+*** Links to add
 **** TODO Klingon Unicode Table "Klingon: U+F8D0 - U+F8FF"
       http://www.evertype.com/standards/csur/klingon.html
       (include comma and period glyphs)
@@ -3880,40 +3922,6 @@
       (A pretty good article on the klingon language)
 **** TODO "Wikipedia: Klingon writing systems"
       http://en.wikipedia.org/wiki/Klingon_writing_systems
-** "Klingonsk ordbok" (KLO)
-*** TODO Phonetic descriptions should use IPA
-    The sound transcription used in the cheat sheet (e.g. "sjis-LASJ") is
-    stupid, ugly and US-centric. Since IPA is used whenever you teach
-    pronunciation in Europe, it should be used here as well.
-    [http://klingonska.org/klo/ordlista-05.html]
-
-    Besides, the "rough pronunciation guide" is wrong, the Klingon {u} sound
-    resebles Swedish "o" more than the Swedish "u".
-
-    http://klingonska.org/dict/tables.html - Already uses IPA.
-*** DONE Prev/next links on KLO are broken
-    CLOSED: [2011-07-03 Sun 03:56]
-    E.g. http://klingonska.cibo/klo/grammatik-05.html
-*** DONE Broken translation dates in TOC
-    CLOSED: [2011-07-03 Sun 03:56]
-    The translation dates are circumscribed with [...] which are not
-    superscript like the date itself. [http://klingonska.org/klo/]
-*** DONE TOC links should point to top of page instead of top headline
-    CLOSED: [2011-07-03 Sun 03:56]
-*** Tables with suffixes should be linked
-    CLOSED: [2011-07-03 Sun 04:00]
-    http://klingonska.org/klo/tillagg-01.txt
-** "Om Klingonska Akademien" -- KA's Logo
-*** TODO Add the moon logos as thumnails on the page
-*** TODO Move all the logos to the pic directory?
-** TODO Lesson list
-   http://klingonska.org/lektioner/
-*** Should be listed
-    These are linked to from http://klingonska.org/lektioner/ref/prefix.html.
-
-    lektioner/ref/=prefix_small.html
-    lektioner/ref/=prefix_big.html
-*** TODO List should use Apaches built-in filelist thingy
 ** DONE [100%] Home page replaces
    CLOSED: [2011-07-03 Sun 04:29]
 *** DONE "Quick References to..."

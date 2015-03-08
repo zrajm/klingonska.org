@@ -109,11 +109,6 @@ style: banner dict
   <dd>The sayings from the TKW here presented in {pIqaD} with translations and
     page references to the original book (warning: ~280Kb
     file). <small class=nobr>[Updated <time>2007-07-15</time>]</small>
-
-  <dt><a href="links.html">Links to Other Pages About the Klingon
-    Language</a>
-  <dd>Pages that I have found when looking for {tlhIngan Hol} material on the
-    web. <small class=nobr>[Updated <time>2007-07-15</time>]</small>
 </dl>
 
 <table id="sve" class="banner">
