@@ -24,7 +24,7 @@ license of the page.
     padding-top: .75em;
 }
 
-#foot .validator {
+#foot > :last-child {
     margin-bottom: 2em;
     font-size: x-small;
 }

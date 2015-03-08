@@ -229,13 +229,7 @@ sub page_footer {
   <p class=copyright>© <time itemprop=copyrightYear>$year1</time>–<time>$year2</time> by
     <a href="mailto:zrajm\@klingonska.org" rel=author itemprop=author>zrajm</a>,
     <a href="http://klingonska.org/" itemprop=sourceOrganization>Klingonska Akademien</a>, Uppsala
-  <p class=validator>
-    Validate:
-    <a href="http://validator.w3.org/check?uri=http://klingonska.org/">HTML5</a>,
-    <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://klingonska.org/&profile=css3">CSS3</a>,
-    <a href="http://validator.w3.org/checklink?uri=http://klingonska.org/">links</a>.
-    License:
-    <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel=license>CC BY–SA</a>.
+  <p>License: <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel=license>CC BY-SA</a>
 </footer>
 <script>var _gaq=[['_setAccount','UA-5434527-2'],['_trackPageview']];
 (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];

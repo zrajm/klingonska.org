@@ -539,7 +539,7 @@ footer {
        .copyright {
            margin-bottom: .5em;
        }
-       .validator {
+       > :last-child {
            font-size: small;
        }
 } /* <footer> */

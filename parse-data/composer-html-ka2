@@ -75,18 +75,10 @@ my $PAGE_FOOT = <<"EOF";
 </article>
 
 <footer role=contentinfo>
-  <p class=copyright>©<time itemprop=copyrightYear>1998</time>&ndash;<time>2012</time> by
+  <p class=copyright>© <time itemprop=copyrightYear>1998</time>&ndash;<time>2012</time> by
     <a href="mailto:zrajm\@klingonska.org" rel=author itemprop=author>zrajm</a>,
     <a href="http://klingonska.org/" itemprop=sourceOrganization>Klingonska Akademien</a>, Uppsala
-  </p>
-  <p class=validator>
-    Validate:
-    <a href="http://validator.w3.org/check?uri=http://klingonska.org/">HTML5</a>,
-    <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://klingonska.org/&amp;profile=css3">CSS3</a>,
-    <a href="http://validator.w3.org/checklink?uri=http://klingonska.org/">links</a>.
-    License:
-    <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel=license>CC BY&ndash;SA</a>.&nbsp;
-  </p>
+  <p>License: <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel=license>CC BY-SA</a>
 </footer>
 <script>var _gaq=[['_setAccount','UA-5434527-2'],['_trackPageview']];
 (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
