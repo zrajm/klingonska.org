@@ -1,0 +1,217 @@
+: -*- html -*-
+created: 1999-08-08
+updated: 2015-03-10T08:40:52+0100
+author: zrajm
+year: 1999-2015
+lang: en
+script: centerwidestuff
+
+Star Trek Klingon Bird of Prey Cutaway Poster
+=============================================
+
+<a class=center href="pic/1998-11-01-bop-big.jpg"><img src="pic/1998-11-01-bop-sml.jpg" width=539 height=375 alt="Bird of Prey Poster"></a>
+
+[[A large poster (36″×24″ = approx. 90×60cm) showing both the inside and
+outside of a Klingon Bird of Prey in great detail. Includes technical callouts
+of specifications in both English and Klingon. Klingon translation by Marc
+Okrand -- including a lot of new vocabulary! (Printed in five colours on acid
+free archival quality 65# cover weight stock with gloss aquies coating. Price:
+$20 for the regular version, $40 for a limited edition signed by the artists
+involved.)]]
+
+{tlhIngan toQDuj} <br>Klingon Bird Of Prey
+------------------------------------------
+
+### {tlhIngan toQDuj 'ey'mey tetlh} <br>Klingon Bird of Prey Technical Callouts
+
+1.  {So'wI' DaH} <br>Cloak Array
+2.  {Qum De'wI'} <br>Communications Computer
+3.  {lo' law' lojmIt} <br>Utility Hatch
+4.  {Degh} <br>Helm
+5.  {Qum SeHlaw} <br>Communications Console
+6.  {QeD SeHlaw} <br>Science Console
+7.  {'otlh peng baHjan} <br>Photon Torpedo Launcher
+8.  {peng baHjan tuj ghImwI'} <br>Heat Exhaust for Torpedo Launcher
+    <p>[[Transcriber's note: The word {ghImwI'} (above) is most likely a TKD
+    lookup error as the line “<i>exile</i> (v) {ghIm}” is adjacent to
+    “<i>exhaust</i> (v) {tlhuch}” in English--Klingon part of TKD (and the
+    dictionary, with is very wide columns, is quite easily misread). However,
+    since {ghImwI'} is used for <i>exhaust</i> (n) in this canon source, it is
+    now considered canon (and a synonym of {tlhuchwI'}).]]</p>
+9.  {qoD QutlhwI' ngaDmoHwI'}
+    <br>Inner Support Stabilizer
+10. {ya De'wI'}
+    <br>Tactical Computer
+11. {HoS QaymeH 'och}
+    <br>Power Transfer Conduit
+12. {Soj polmeH pa'}
+    <br>Food Storage
+13. {chob'a'}
+    <br>Main Corridor
+14. {cha'puj pa'}
+    <br>Dilithium Chamber
+15. {De'wI' SoSbor'a'}
+    <br>Main Computer Core
+16. {yaS pa'mey}
+    <br>Officers' Quarters
+17. {jolpa'}
+    <br>Transporter Room
+18. {beq pa'mey}
+    <br>Non-commissioned Crew Quarters
+19. {tep}
+    <br>Cargo
+20. {tepqengwI'}
+    <br>Cargo Lift
+21. {tel SeHwI' jo'}
+    <br>Wing Control Mechanism
+22. {tel vID'Irmey}
+    <br>Wing Baffles
+23. {pIvghor lIngwI'}
+    <br>Warp Generator
+24. {pIvchem SeHwI'mey}
+    <br>Warp Field Controllers
+25. {'o' chuyDaH Hongghor je}
+    <br>Aft Thrusters and Impulse Drive
+26. {leng Dotlh SeHwI' pat}
+    <br>Flight Reaction Control System
+27. {begh botjan}
+    <br>Deflector Shield(s)
+28. {begh DaH}
+    <br>Deflector Array
+29. {nuH HoS 'och}
+    <br>Weapon(s) Power Conduit
+30. {tal SeHwI' nguSDI'}
+    <br>Cannon Control Motor
+31. {tal QanwI'}
+    <br>Cannon Guard
+32. {jopwI' jo'}
+    <br>Recoil Machinery
+33. {nISwI' tal}
+    <br>Disruptor Cannon
+34. {nISwI' }
+    <br>Disruptor
+35. {tal jo'}
+    <br>Cannon Machinery
+36. {Saqjan}
+    <br>Landing Gear
+37. {telDaq wovmoHwI'mey}
+    <br>Wing Lights
+38. {pIvghor lIngwI' DaH}
+    <br>Warp Generation Array
+39. {muD ngeb SeHwI' pat}
+    <br>Atmospheric Control System
+40. {De'wI' Qulpa'}
+    <br>Computer Research Lab
+
+### {tlhIngan toQDuj Duj De' potlh} <br>Klingon Bird of Prey General Specifications
+
+  * {Segh: bI'rel tlharghDuj}
+    <br>Model: B'rel-Class Scout
+  * {(qIvo'rIt may'Duj mach)}
+    <br>(Smaller Version of a K'vort Class Cruiser)
+  * {lu'oghta' nIylo roDIS bIl jo'rIj je}
+    <br>Designed By: Nilo Rodis & Bill George
+  * {tlhIngan juHqo'Daq tlhIng yoSDaq 'oH toQDuj chenmoHlu'meH Daq wa'DIch'e'}
+    <br>1st Construction Site: The Kling District, Klingon Home World
+  * {Duj De' potlh}
+    <br>General Specifications
+  * {wejvatlh loSmaH loS vI' vagh wej 'uj 'aD Duj}
+    <br>Length: 120M
+  * {loSmaH jav vI' Soch loS 'uj 'ab meH}
+    <br>Bridge Height: 16.28M
+  * {HIvtaHvIS toQDuj cha'vatlh wejmaH Soch vI' vagh chorgh 'uj 'ab 'oH}
+    <br>Attack Formation Height: 82.75M
+  * {qughtaHvIS toQDuj HutmaH vI' jav wa' 'uj 'ab 'oH}
+    <br>Cruise Formation Height: 31.56M
+  * {SaqtaHvIS toQDuj wa'vatlh loS vI' jav chorgh 'uj 'ab 'oH}
+    <br>Landing Formation Height: 36.46M
+  * {cha' vI' vagh choQmey lutoghlu'}
+    <br>Number of Decks: 2.5
+  * {(cha' choQmey naQ tu'lu' 'ej tep choQ bIngDaq lo' law' bID choQ tu'lu')}
+    <br>(2 Full Decks and a Half Utility Deck unter the Cargo Deck)
+  * {wejvatlh SochmaH vagh SaD cheb'a'mey ngI' Duj}
+    <br>Mass: 8.7KT
+
+
+#### {Hongghor pat} <br>Impulse Drive System
+
+  * {Hong boq chuyDaH: loS}
+    <br>Impulse Fusion Thrusters -- 4
+  * {muDDaq 'eDSeHcha lulaQlu'bogh: jav}
+    <br>Atmospheric Take-Off/Landing Thursters -- 6
+
+
+#### {pIvghor pat} <br>Warp Drive System
+
+  * {pIvchem lIngwI' DaHmey: cha'}
+    <br>Warp Field Generation Arrays -- 2
+  * {pIvchem SeHwI': cha'}
+    <br>Warp Field Controller -- 2
+  * {qughDo motlh: pIvlob vagh}
+    <br>Normal Cruising Speed -- Warp 5
+  * {'aqroS qughDo: pIvlob Hut vI' vagh}
+    <br>Maximum Cruising Speed -- Warp 9.5
+  * {choH lISbogh Hap'e': cha'pujqut}
+    <br>Reaction Moderating Element -- Crystalline Dilithium
+  * {nIn: bIQSIp 'ugh}
+    <br>Fuel -- Deuterium Isotope
+  * {nIn: rugh bIQSIp}
+    <br>Fuel -- Anti Hydrogen
+
+
+#### {jolpatmey} <br>Transporter Systems
+
+  * {wey jolpat: wa' (jav ghotpu')}
+    <br>Personnel Transporter -- 1 (6 Man)
+  * {tep jolpat: wa'}
+    <br>Cargo Transporter -- 1
+  * {QeD patmey noch patmey je}
+    <br>Science and Remote Sensing Systems
+  * {chuq'a'}
+    <br>Long Range
+  * {jabbI'ID pup: Qapchu'meH 'aqroS chuq: cha' vI' chorgh loghqammey}
+    <br>High Resolution -- Maximum Effective Range -- 3.5 Light Years
+  * {jabbI'ID pupHa': Qapchu'meH chuq: chorgh vI' chorgh loghqammey}
+    <br>Medium to Low Resolution -- Effective Range -- 11 Light Years
+
+
+#### {ya patmey} <br>Tactical Systems
+
+  * {nISwI' talmey: cha' (telDaq lujomlu')}
+    <br>Disruptor Cannon -- 2 (Wing Mounted)
+  * {nISwI': cha' chang'engmey (telDaq lujomlu', nItebHa' lubaHlu')}
+    <br>Disruptor -- 2 Pairs (Wing Mounted, Fire Linked)
+
+
+#### {Qum patmey} <br>Communications Systems
+
+  * {'evnagh Se' HablI'}
+    <br>Sub Space Radio
+
+
+#### {De'wI' patmey} <br>Computer Systems
+
+  * {Hung buv rav: patlh Hut}
+    <br>Classified Level 9 and Above
+
+----
+
+  * Technical Illustration
+    <br>Matt Cushman
+  * Computer Illustration
+    <br>Bob Kayganich
+  * Creative Director
+    <br>Marty Petz
+  * Klingon Translation
+    <br>Marc Okrand
+
+Thanks for the support provided by the STAR TREK Art Department, John Eaves,
+Herman Zimmerman, Mike Okuda, Rick Sternbach, and Doug Drexler.
+
+TM, ® & © <time>1998</time> Paramount Pictures. All Rights Reserved. STAR TREK
+and Related Marks are Trademarks of Paramout Pictures. SciPubTech Authorized
+User. Visit the official STAR TREK website at http://www.startrek.com
+
+1-888-STAR · http://www.scipubtech.com
+
+[[eof]]

@@ -886,9 +886,8 @@ publication, or a description of its contents and/or form).
           to <i>startrek.<wbr>klingon</i></small>
     <tr>
       <td class=nobr><big>1998-11</big>
-      <td><big><a href="1998-11-01-bop.html"><i>Star Trek Klingon Bird
-              of Prey Cutaway Poster</i></a>
-              (<a href="1998-11-01-bop.txt">text</a>)</big>
+      <td><big><a href="bop.html"><i>Star Trek Klingon Bird of Prey Cutaway
+              Poster</i></a> (<a href="1998-11-01-bop.txt">text</a>)</big>
         <br><small>• Poster, translation by Marc Okrand, published by SciPubTech,
           Michigan</small>
         <br>     A large poster portaying a space battle between Enterprise and

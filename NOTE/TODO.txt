@@ -336,7 +336,7 @@
       are incorporated into the KLO pages. Old stuff is just an annoyance to
       maintain. (And, even after removal, would still be available in the git
       repo, if anyone *really* cared.)
-***** [62%] Convert all pages to new HTML template
+***** [60%] Convert all pages to new HTML template
       Thereby centralizing the page header/footer etc. `bin/markdown2html` is
       the tool used for this, except for files in /dict/, which uses `parse`.
       Unifying these two tools into one will become a later issue, though.
@@ -448,7 +448,8 @@
        CLOSED: [2013-04-16 Tue 14:58]
 ******* DONE HCoop redirect: `canon/1996-sbx-s19.html` -> `canon/sbx-s19.html`
         CLOSED: [2013-04-16 Tue 14:58]
-****** TODO `canon/1998-11-01-bop.html`
+****** DONE `canon/1998-11-01-bop.html`
+       CLOSED: [2015-03-10 Tue 08:45]
 ****** TODO `canon/2010-04-29-u-mtk.html`
 ****** DONE `piq/index.html`
        CLOSED: [2012-07-08 Sun 15:26]
