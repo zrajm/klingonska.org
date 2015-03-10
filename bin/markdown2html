@@ -432,8 +432,8 @@ sub help {
         $_ = $self->process_template($_, %$hashref);
 
         # [[...]] comments
-        s{ <p> \[\[ (.*?) \]\] </p> }{<div class="comment"><p>$1</p></div>}gxs;
-        s{ \[\[ (.*?) \]\] }{<span class="comment">$1</span>}gxs;
+        s{ <p> \[\[ (.*?) \]\] </p> }{<div class=comment><p>$1</p></div>}gxs;
+        s{ \[\[ (.*?) \]\] }{<span class=comment>$1</span>}gxs;
 
         # clean up some (useless) empty HTML elements
         s{ \s* <thead> \s* </thead> }{}gix;
@@ -474,18 +474,18 @@ sub help {
         # FIXME: should ignore ISO dates inside <time>...</time> tags
         $meta{text} = process_xml_except_args(sub {
             local $_ = shift;
-            s{(K-E|E-K)}{<span class="nobr">$1</span>}g;
+            s{(K-E|E-K)}{<span class=nobr>$1</span>}g;
             # s{\b(?:19|20)\d{2}(-\d{2}-\d{2})?\b}{         # ISO date
             #     defined($1)
-            #         ? '<time class="nobr">' . $& . '</time>'
+            #         ? '<time class=nobr>' . $& . '</time>'
             #         : '<time>' . $& . '</time>';
             # }gex;
-            s{\{(.*?)\}}{<b lang="tlh">$1</b>}gs;          # {...} marks klingon
-            s{<b lang="tlh">(.*?)</b>}{
+            s{\{(.*?)\}}{<b lang=tlh>$1</b>}gs;# {...} marks klingon
+            s{<b lang=tlh>(.*?)</b>}{
                 local ($_)  = $1;
-                my $xtra = (/^-[a-zA-Z']+$/ or /^[a-zA-Z']-$/) ? ' class="nobr"' : '';
+                my $xtra = (/^-[a-zA-Z']+$/ or /^[a-zA-Z']-$/) ? ' class=nobr' : '';
                 s/'/&#8217;/g;
-                '<b lang="tlh"' . ($xtra ? $xtra : "") . '>' . $_ . '</b>';  # FIXME hyphenate words here
+                '<b lang=tlh' . ($xtra ? $xtra : "") . '>' . $_ . '</b>';  # FIXME hyphenate words here
             }ges;
             return $_;
         }, $meta{text});
@@ -501,7 +501,8 @@ sub help {
 
         sub replace {
             local $_ = shift;
-            # quote replacement -- FIXME: should distinguish between 'lang="en"' and 'lang="sv"'
+            # quote replacement
+            # FIXME: should distinguish between 'lang=en' and 'lang=sv'
             my %repl = (
                 # typographical quotes
                 # #s#"\b#&ldquo;#g;  # english only
@@ -581,7 +582,7 @@ sub get_crumbs {
         s#(?:^|(?<=/))index\.\w+$##;  # strip 'index.*'
         s#\.txt$#\.html#;             # replace file ext '.txt' -> '.html'
         '<a href="' . ($base_url || "") . $_ . '"'
-            . (($i++ == $#crumb) ? ' itemprop="url"' : '')
+            . (($i++ == $#crumb) ? ' itemprop=url' : '')
             . '>' . $title . '</a>';
     } @crumb;
 }
@@ -721,7 +722,7 @@ sub find_include_file {
 sub page_meta {
     my ($self, %meta) = @_;
     return () unless $meta{desc};
-    return '<meta name="description" content="' . $meta{desc} . '">';
+    return '<meta name=description content="' . $meta{desc} . '">';
 }
 
 sub page_modernizr {
@@ -755,7 +756,7 @@ sub page_crumbs {
 # return time in "2009-12-31, 24:59" format
 sub page_changed {
     my ($self, %meta) = @_;
-    #<time pubdate itemprop="dateModified" datetime="2012-05-13 02:56+0200">May 13, 2012</time>
+    #<time pubdate itemprop=dateModified datetime="2012-05-13 02:56+0200">May 13, 2012</time>
     use Date::Format;
     use Date::Parse;
     die "Missing 'updated' metadata field in file '$meta{sourcefile}'\n"
@@ -764,7 +765,7 @@ sub page_changed {
         or die "Failed to parse 'updated' field in file '$meta{sourcefile}'\n";
     my $time = time2str("%Y-%m-%d %H:%M%z", $epoch);
     return $string{changed}{$lang}
-        . ' <time pubdate itemprop="dateModified" datetime="' . $time . '">'
+        . ' <time pubdate itemprop=dateModified datetime="' . $time . '">'
         . &{ $string{month}{$lang} }(split /[-: ]|(?=[-+]\d{4}$)/, $time)
         . '</time>';
 }
@@ -775,7 +776,7 @@ sub page_logoka {
     $file    = rel_filename($file, $meta{sourcefile});
 
     # FIXME "width" and "height" should be read from the image itself
-    my $img  = '<img src="' . $file . '" width="600" height="176" ' .
+    my $img  = '<img src="' . $file . '" width=600 height=176 ' .
         'alt="Klingonska Akademien">';
 
     # output file is root index.html
@@ -808,7 +809,7 @@ sub page_year {
     my $year = $meta{year};
     for ($year) {
         {
-            my $first = ' itemprop="copyrightYear"';
+            my $first = ' itemprop=copyrightYear';
             s{ (\b\d{4}\b) }{
                 my $x = "<time$first>$1</time>";
                 $first = "";
@@ -826,7 +827,7 @@ sub page_author {
     my @author = map {
         exists($author{$_})
             ? '<a href="mailto:' . $author{$_}[1]
-                . '" rel="author" itemprop="author">'
+                . '" rel=author itemprop=author>'
                 . $author{$_}[0] . '</a>'
             : $_;
     } split(/,\s*/, $meta{author});
@@ -844,7 +845,7 @@ sub page_style {
         : ()
     );
     return (map {
-        '<link rel="stylesheet" href="' .
+        '<link rel=stylesheet href="' .
         rel_filename(
             find_include_file($_, $meta{targetfile}),
             $meta{targetfile},
@@ -901,7 +902,7 @@ sub page_toc {
     my $depth = 0;
     my $prev_depth = 0;
 
-    my $toc .= qq{<div class="toc">\n};
+    my $toc .= qq{<div class=toc>\n};
     for my $file (glob("$dir/*.txt")) {
         next if realpath($file) eq realpath($meta{sourcefile});
 
@@ -1003,7 +1004,7 @@ sub page_prevnext {
             : ();
     } qw/prev toc next/;
     return @link
-        ? ('<p class="prevnext">', map("    $_", @link), '</p>')
+        ? ('<p class=prevnext>', map("    $_", @link), '</p>')
         : ();
 }
 
