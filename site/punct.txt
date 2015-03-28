@@ -17,16 +17,18 @@ A little bit of information about {pIqaD} is tossed in at the end however, but
 you might want to refer to »[{pIqaD}, and How to Read It](piqad/)« for more
 information on the Klingon writing system.
 
-## Table-of-Contents ##
+
+## Table of Contents ##
 
 <ul class="toc">
-  <li><a href="#okrand">Okrand&rsquo;s Way</a>
+  <li><a href="#okrand">Okrand's Way</a>
     <ul style="margin:0">
-      <li><a href="#sentences">Sencence Punctuation</a>
+      <li><a href="#sentences">Sentence Punctuation</a>
       <li><a href="#subsentence">Sub-Sentence Punctuation</a>
   </ul>
   <li><a href="#piqad"><b lang="tlh">pIqaD</b> Punctuation</a>
 </ul>
+
 
 ## [okrand] Okrand's Way ##
 
@@ -39,7 +41,7 @@ mark, and that occurs in the addendum (written for the second edition, seven
 years after the book was originally published). The sentence does not occur as
 an example, isolated from the surrounding text (like most other sentences), but
 is instead added as a final remark at the end of piece of a text in English.
-The sentence? Oh! It is: »{taHjaj boq.}« (*May the alliance endure.*)
+The sentence? Oh! It is: »{taHjaj boq.}« (<<May the alliance endure.>>)
 
 It looks as if Okrand early on decided to avoid taking a stance on how
 punctuation should work in Klingon -- which worked well for any sentence
@@ -58,7 +60,7 @@ punctuation used is the same as in the English translation of the sentence.
 Some examples of imperative sentences (one would expect all of them to end in
 an exclamation point!):
 
-<table class="sortable">
+<table class=sortable>
   <tr>
     <th>Klingon
     <th>Given Translation
@@ -66,32 +68,32 @@ an exclamation point!):
     <th>Source
   <tr>
     <td sorttable_customkey="bhhqcvfyhwam">{bI'IQchugh yIvang!}
-    <td><i>If you are sad, act!</i>
+    <td><<If you are sad, act!>>
     <td sorttable_customkey="1">!
     <td sorttable_customkey="b008" class="nobr">TKW p.8
   <tr>
     <td sorttable_customkey="thphopveilnkthpho">{tIqIpqu' 'ej nom tIqIp.}
-    <td><i>Hit them hard and hit them fast.</i>
+    <td><<Hit them hard and hit them fast.>>
     <td sorttable_customkey="2">.
     <td sorttable_customkey="b008" class="nobr">TKW p.8
   <tr>
     <td sorttable_customkey="gncebkeythinl">{Hoch 'ebmey tIjon.}
-    <td><i>Capture all opportunities.</i>
+    <td><<Capture all opportunities.>>
     <td sorttable_customkey="2">.
     <td sorttable_customkey="b051" class="nobr">TKW p.51
   <tr>
     <td sorttable_customkey="ohoyvsyhfnr">{pIpyuS yIghor!}
-    <td><i>Break a pipius!</i>
+    <td><<Break a pipius!>>
     <td sorttable_customkey="1">!
     <td sorttable_customkey="b185" class="nobr">TKW p.185
   <tr>
     <td sorttable_customkey="fexkeythsvpqn">{ghewmey tISuqQo'.}
-    <td><i>Don't catch any bugs.</i>
+    <td><<Don't catch any bugs.>>
     <td sorttable_customkey="2">.
     <td sorttable_customkey="b207" class="nobr">TKW p.207
   <tr>
     <td sorttable_customkey="iafthghw">{jagh tIHIv!}
-    <td><i>Attack the enemies!</i>
+    <td><<Attack the enemies!>>
     <td sorttable_customkey="1">!
     <td sorttable_customkey="c140" class="nobr">KGT p.140
 </table>
@@ -107,44 +109,40 @@ period):
     <th>Source
   <tr>
     <td sorttable_customkey="tagiaibnp">{taHjaj boq.}
-    <td><i>May the alliance endure.</i>
+    <td><<May the alliance endure.>>
     <td sorttable_customkey="2">.
     <td sorttable_customkey="a173" class="nobr">TKDa p.173
   <tr>
     <td sorttable_customkey="uhmalkag">{tlhIngan maH!}
-    <td><i>We are Klingons!</i>
+    <td><<We are Klingons!>>
     <td sorttable_customkey="1">!
     <td sorttable_customkey="b003" class="nobr">TKW p.3
   <tr>
     <td sorttable_customkey="gnwkeydawal">{Hovmey Davan.}
-    <td><i>You salute the stars.</i>
+    <td><<You salute the stars.>>
     <td sorttable_customkey="2">.
     <td sorttable_customkey="b083" class="nobr">TKW p.83
   <tr>
     <td sorttable_customkey="pafsnobe">{qagh Sopbe'!}
-    <td><i>He doesn't eat gagh!</i>
+    <td><<He doesn't eat gagh!>>
     <td sorttable_customkey="1">!
     <td sorttable_customkey="b137" class="nobr">TKW p.137
   <tr>
     <td sorttable_customkey="dnpbhqthpbhq">{Doq bIQtIq bIQ.}
-    <td><i>The river water is red.</i>
+    <td><<The river water is red.>>
     <td sorttable_customkey="2">.
     <td sorttable_customkey="c123" class="nobr">KGT p.123
   <tr>
     <td sorttable_customkey="svysng">{Suy SoH.}
-    <td><i>You are a merchant.</i>
+    <td><<You are a merchant.>>
     <td sorttable_customkey="2">.
     <td sorttable_customkey="c196" class="nobr">KGT p.196
 </table>
 
 Luckily, for the most part, Klingon doesn't need much in way of punctuation
--- questions and commands are always clearly marked.[^1]
+-- questions and commands are always clearly
+marked.<sup><a href="#fn1">[1]</a></sup>
 
-[^1]: Questions always have either the interrogative suffix {-'a'} attached to
-the verb, or one of the question words ({chay'}, {ghorgh}, {nuq}, {nuqDaq},
-{qatlh}, {'ar} or {'Iv}) present in the sentence. -- Commands always have one
-of the imperative prefixes ({yI-}, {pe-}, {tI-}, {gho-} or {HI-}) attached to
-the verb.
 
 ### [subsentence] Sub-Sentence Punctuation ###
 
@@ -153,55 +151,50 @@ to separate clauses, and otherwise help to make a sentence's internal structure
 become easier to grasp. In fact -- in Klingon -- this is probably where
 punctuation can help the most.
 
-I <i>think</i> Okrand is a little more consistent when it comes to sub-sentence
+I *think* Okrand is a little more consistent when it comes to sub-sentence
 punctuation, <!-- FIXME --> though this will have to become the target for some
 future research. Especially in similes he is *very* consistent in his use of
-semicolon in the »<i>&lt;stative verb&gt;{;} &lt;noun&gt; {rur}</i>« pattern
-(e.g. {ram; ghIlab ghew rur} *It is trivial as a glob fly*).
+semicolon in the »*&lt;stative verb&gt;{;} &lt;noun&gt; {rur}*« pattern (e.g.
+{ram; ghIlab ghew rur} <<It is trivial as a glob fly>>).
 
 
 <p class="noindent">Here are some cases to think about when I get back to
 this the next time:</p>
 
-<ul>
-  <li><b>With conjunctions?</b> -- Both sentence and noun conjunctions.
-  <li><b>Complex sentences?</b> [TKD p.61]
-  <li><b>Subordinate clauses</b> [TKD p.62] -- I.e. sentences with verb ending
-    in type 9 suffix (except {-wI'}), the two sentences follow each other in
-    any order. -- <i>Does this mean one period; a period and a comma; or two
-    periods?</i>
-  <ul>
-    <li><b>Relative clauses?</b> [TKD p.63] -- I.e. a sentence whose verb ends
-      in the type 9 suffix {-bogh} <i>which</i>, this sentence goes into
-      subject or object position in another sentence. -- <i>Probably just a
-      period after this one?</i>
-    <li><b>Purpose clauses?</b> [TKD p.64] -- .e. a sentence whose verb ends in
-      the type 9 suffix {-meH}, this sentence always come first in the complex
-      sentence. -- <i>Just a period after this one, or a comma and period?</i>
-    <li><b>Sentences as objects?</b> [TKD p.65] -- I.e. one sentence containing
-      the one of the pronouns {'e'} or {net}, with a preceding sentence as
-      object. -- <i>Just a period after this one, or a comma and period?</i>
-    <li><b>{vIneH}</b> [TKD p.67] -- Same as sentence-as-object, but second
-      sentence not preceded by {'e'} or {net}. -- <i>Just a period after this
-      one, or a comma and period?</i>
-    <li><b>Verbs of speaking (<i>say, tell, ask</i> etc.)</b> [TKD p.67] --
-      Practically the same thing as sentence-as-object, but the sentences can
-      occur in any order. -- <i>Just a period after this one, or a comma and
-      period?</i>
-    <li><b>{rIntaH}</b> [TKD p.67] -- Demonstrating that an action is complete.
-      Follows a sentence. -- <i>Just a period after this one, or a comma and
-      period?</i>
-  </ul>
-  <li><b>"To be" constructions?</b> [TKD p.67] -- E.g. »{puqpu' chaH
-    qama'pu''e'.}« -- <i>Should pronoun be followed by comma?</i>
-  <li><b>Comparatives/superlatives?</b> [TKD p.70] -- I.e. the {law'}/{puS}
-    construction. -- <i>Is {law'} followed by a comma?</i>
-  <li><b>Direct address?</b> [TKD p.58] -- I.e. calling someone by name or
-    title. The direct address follows or precede the sentence. -- <i>But should
-    a comma separate sentence and address?</i>
-  <li><b>Separating nouns that are not noun-noun constructions?</b>
-    -- <b>Commas?</b>
-</ul>
+  * **With conjunctions?** -- Both sentence and noun conjunctions.
+  * **Complex sentences?** [TKD p.61]
+  * **Subordinate clauses** [TKD p.62] -- I.e. sentences with verb ending in
+    type 9 suffix (except {-wI'}), the two sentences follow each other in any
+    order. -- *Does this mean one period; a period and a comma; or two
+    periods?*
+      * **Relative clauses?** [TKD p.63] -- I.e. a sentence whose verb ends in
+        the type 9 suffix {-bogh} *which*, this sentence goes into subject or
+        object position in another sentence. -- *Probably just a period after
+        this one?*
+      * **Purpose clauses?** [TKD p.64] -- .e. a sentence whose verb ends in
+        the type 9 suffix {-meH}, this sentence always come first in the
+        complex sentence. -- *Just a period after this one, or a comma and
+        period?*
+      * **Sentences as objects?** [TKD p.65] -- I.e. one sentence containing
+        the one of the pronouns {'e'} or {net}, with a preceding sentence as
+        object. -- *Just a period after this one, or a comma and period?*
+      * **{vIneH}** [TKD p.67] -- Same as sentence-as-object, but second
+        sentence not preceded by {'e'} or {net}. -- *Just a period after this
+        one, or a comma and period?*
+      * **Verbs of speaking (*say, tell, ask* etc.)** [TKD p.67] -- Practically
+        the same thing as sentence-as-object, but the sentences can occur in
+        any order. -- *Just a period after this one, or a comma and period?*
+      * **{rIntaH}** [TKD p.67] -- Demonstrating that an action is complete.
+        Follows a sentence. -- *Just a period after this one, or a comma and
+        period?*
+  * **"To be" constructions?** [TKD p.67] -- E.g. »{puqpu' chaH qama'pu''e'.}«
+    -- *Should pronoun be followed by comma?*
+  * **Comparatives/superlatives?** [TKD p.70] -- I.e. the {law'}/{puS}
+    construction. -- *Is {law'} followed by a comma?*
+  * **Direct address?** [TKD p.58] -- I.e. calling someone by name or title.
+    The direct address follows or precede the sentence. -- *But should a comma
+    separate sentence and address?*
+  * **Separating nouns that are not noun-noun constructions?** -- **Commas?**
 
 <table>
   <tr>
@@ -313,10 +306,27 @@ system some time back.)
 
 -->
 
-<img src="pic/punct.gif" width="720" height="150">
-<img src="pic/punct1.gif" width="490" height="210">
-<img src="pic/punct2.gif" width="500" height="180">
+<figure>
+  <img src="pic/punct.gif" width=720 height=150>
+</figure>
+
+<figure>
+  <img src="pic/punct1.gif" width=490 height=210>
+</figure>
+
+<figure>
+  <img src="pic/punct2.gif" width=500 height=180>
+</figure>
 
 
+Footnotes
+---------
+<ol>
+  <li id="fn1">Questions always have either the interrogative suffix {-'a'}
+    attached to the verb, or one of the question words ({chay'}, {ghorgh},
+    {nuq}, {nuqDaq}, {qatlh}, {'ar} or {'Iv}) present in the sentence.
+    -- Commands always have one of the imperative prefixes ({yI-}, {pe-},
+    {tI-}, {gho-} or {HI-}) attached to the verb.
+</ol>
 
 [[eof]]

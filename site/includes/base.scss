@@ -174,7 +174,6 @@ h1 span.comment {
 .sans { font-family: sans-serif; }
 [rel="author"] { font-style: italic; }
 
-
 /*****************************************************************************\
 **                                                                           **
 **  Web Fonts                                                                **
@@ -199,7 +198,6 @@ top of each page. Could also be included with:
       format('truetype');
 }
 
-
 /*****************************************************************************\
 **                                                                           **
 **  Selection color                                                          **
@@ -208,7 +206,6 @@ top of each page. Could also be included with:
 
 ::-moz-selection { background: #711; color: #fff; text-shadow: none; }
 ::selection { background: #711; color: #fff; text-shadow: none; }
-
 
 /*****************************************************************************\
 **                                                                           **
@@ -319,7 +316,6 @@ header {
     }
 } /* <header> */
 
-
 /*****************************************************************************\
 **                                                                           **
 **  Page Contents                                                            **
@@ -332,6 +328,21 @@ mark {
     font-style: inherit;
 }
 small { font-size: small; }
+
+figure {
+    background: inherit;
+    > * {
+        /* center element, even if wider than containing element */
+        left: 50%;
+        position: relative;
+        -webkit-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+
+        background: inherit;
+        display: table;      /* allows content to grow bigger than container */
+    }
+    audio { width: 100%; }
+}
 
 [role="main"] {
     -moz-box-shadow:    0 .5em 2em rgba(0,0,0,.25);
@@ -364,15 +375,17 @@ small { font-size: small; }
         text-align: center;
     }
     figure { margin: 1.5em auto; }
-    audio {
-        display: block;
-        margin: .5em auto;
-    }
     /* Table with border (default). */
     table {
+        /* center element, even if wider than containing element */
+        left: 50%;
+        position: relative;
+        -webkit-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+
         background: inherit;
         border: 4px solid #000;
-        margin: 1em auto;
+        margin: 1em 0;
         td, th {
             border: 2px solid #000;
             padding: .125em .5em;
@@ -407,6 +420,16 @@ small { font-size: small; }
      * border-free, table. It adds 1em vertical space between each table row.
      * */
     table.spacy tr + tr { border-top: 1em solid transparent; }
+
+    table.dialogue {
+        tr > th:first-child {
+            vertical-align: top;
+            text-align: left;
+            font-weight: inherit;
+            white-space: nowrap;
+            padding-right: .75em;
+        }
+    }
 
     /* Paragraph settings.
      *
@@ -511,7 +534,6 @@ small { font-size: small; }
         top: -.5em;
     }
 } /* <... role="main"..> */
-
 
 /*****************************************************************************\
 **                                                                           **

@@ -413,9 +413,32 @@ sub help {
         return $input;
     }
 
+    sub process_paragraph {
+        my ($text) = @_;
+        # <<...>> marks translations
+        $text =~ s#<<(.*?)>>#<i class=translation>$1</i>#gs;
+        return process_xml_except_args(sub {
+            local $_ = shift;
+            s{(K-E|E-K)}{<span class=nobr>$1</span>}g;
+            s{\{(.*?)\}}{<b lang=tlh>$1</b>}gs;# {...} marks klingon
+            s{<b\b([^>]*)\blang=(['"]?)tlh\b\2([^>]*)>(.*?)</b>}{
+                my ($preattr, $postattr, $content) = ($1, $3, $4);
+                "<b" . $preattr . "lang=tlh" . $postattr
+                    . (is_affix($content) ? " class=nobr" : "") . ">"
+                    . prettify_tlh($content) . "</b>";
+            }gesx;
+            return $_;
+        }, $text);
+    }
+
+    # If paragraph starts with one of these, don't add <p> tag.
+    my $p_level_tags = "address|article|aside|blockquote|div|dl|fieldset|"
+        . "footer|form|h1|h2|h3|h4|h5|h6|header|hr|menu|nav|ol|pre|section|"
+        . "table|ul|"
+        . "li|dl|dt|figure";
     sub markdown {
         my ($self, $hashref) = @_;
-        local $_ = $$hashref{text};
+        local $_ = $hashref->{text};
 
         s{ \n* \[\[eof\]\] \n* $ }{}ix;  # strip eof marker
         s#<>#&nbsp;#g;                   # <> = &nbsp;
@@ -427,8 +450,24 @@ sub help {
             tab_width            => 4,
             use_metadata         => '',
         );
-        $_ = $obj->markdown($_);
 
+        # Process each paragraph.
+        s/^\n+//;
+        $_ = join "\n\n", map {
+            # If starting with <p> level tag, remember to strip it aftewards.
+            my $strip_p_tag = m#^\s*</?($p_level_tags)\b# ? 1 : 0;
+
+            # FIXME: markdown() chokes on HTML tags that contain space &
+            # newlines between the attributes, so should we clean up all that
+            # (except in attribute values), and *then* run everything through
+            # markdown()?
+            $_ = process_paragraph($_);
+            if (not $strip_p_tag) {
+                $_ = $obj->markdown($_);
+            }
+            chomp;
+            $_;
+        } split /\n{2,}/, $_;
         $_ = $self->process_template($_, %$hashref);
 
         # [[...]] comments
@@ -459,6 +498,29 @@ sub help {
         return $_;
     }
 
+    sub split_tlh_syllables {
+        my ($str) = @_;
+        return split /(?=(?:[bDHjlmnpqQrStvwy'’]|ch|gh|ng|tlh)[aeIou])/, $str;
+    }
+
+    # Typographical quotes + insert hyphens.
+    sub prettify_tlh {
+        my ($str) = @_;
+        for ($str) {
+            s/'/’/g;
+            s{(?<![a-zA-Z0-9'’])([a-zA-Z0-9'’]+)(?![a-zA-Z0-9'’])}{
+                join("&shy;", split_tlh_syllables($1));
+            }ge;
+        }
+        return $str;
+    }
+
+    sub is_affix {
+        my ($str) = @_;
+        return 1 if $str =~ /^(?: -[a-zA-Z'’]+ | [a-zA-Z'’]+- )$/x;
+        return 0;
+    }
+
     # Usage: $obj->process_file(sourcefile => FILE, sourcedate => EPOCH[, template => HTMLFILE]);
     #
     # Process named $FILE, applying the $TEMPLATE_FILE and return processed
@@ -472,23 +534,6 @@ sub help {
         extract_tag('script', %meta);
 
         # FIXME: should ignore ISO dates inside <time>...</time> tags
-        $meta{text} = process_xml_except_args(sub {
-            local $_ = shift;
-            s{(K-E|E-K)}{<span class=nobr>$1</span>}g;
-            # s{\b(?:19|20)\d{2}(-\d{2}-\d{2})?\b}{         # ISO date
-            #     defined($1)
-            #         ? '<time class=nobr>' . $& . '</time>'
-            #         : '<time>' . $& . '</time>';
-            # }gex;
-            s{\{(.*?)\}}{<b lang=tlh>$1</b>}gs;# {...} marks klingon
-            s{<b lang=tlh>(.*?)</b>}{
-                local ($_)  = $1;
-                my $xtra = (/^-[a-zA-Z']+$/ or /^[a-zA-Z']-$/) ? ' class=nobr' : '';
-                s/'/&#8217;/g;
-                '<b lang=tlh' . ($xtra ? $xtra : "") . '>' . $_ . '</b>';  # FIXME hyphenate words here
-            }ges;
-            return $_;
-        }, $meta{text});
         $meta{text} = $self->markdown(\%meta);
 
         my $page = "";

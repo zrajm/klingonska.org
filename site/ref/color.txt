@@ -191,9 +191,8 @@ and how this relate to Klingon, read the article “Klingon Colours” by Nick
 Nicholas, published in Klingon Language Institute's quarterly journal {HolQeD}
 5:2 (<time datetime="1996-06">June 1996</time>). The further explanation of the
 color brown can also be found in {HolQeD} 8:1 (<time datetime="1999-03">March
-1999</time>) in an article called “[Maltz Online][]”.
-
-[Maltz Online]: ../canon/1999-03-holqed-08-1.txt "Maltz Online"
+1999</time>) in an article called “[Maltz
+Online](../canon/1999-03-holqed-08-1.txt)”.
 
 {HolQeD} may be purchased from [The Klingon Language
 Institute](http://www.kli.org).

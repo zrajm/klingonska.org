@@ -6,8 +6,8 @@ year: 2002--2006
 lang: en
 style: gallery
 
-{SuvwI' van bom} -- *The Warrior's Anthem*
-==========================================
+{SuvwI' van bom} -- <<The Warrior's Anthem>>
+============================================
 <div class=gallery>
   <a href="anthem-inline.png" class=item style="width:528px">
     <img src="anthem-inline.png" width=528 height=250>
@@ -50,47 +50,46 @@ Hear, sons of Kahless!
 <br>We fight, we are passionate, and we kill perfectly.
 <br>Our lives are not long, but they are very bright.
 <br>We will certainly die with honor, and we will join our fathers in
-<br>     the black fleet. There we will continue to <i>fight</i>.
+<br>     the black fleet. There we will continue to *fight*.
 <br>     We will not stop. We will continue to fight. We will compete.
 
 
 Recordings
 ----------
-Here are a few different recordings of {SuvwI' van bom} -- <i>The Warrior's
-Anthem</i> (or <i>The Klingon Anthem</i> as it is sometimes called):
+Here are a few different recordings of {SuvwI' van bom} -- <<The Warrior's
+Anthem>> (or <<The Klingon Anthem>> as it is sometimes called):
 
-<div>
-  <figure>
-    <audio controls title="The Warrior's Anthem -- from Star Trek: Klingon">
-      <source src="anthem.mp3" type="audio/mpeg" />
-    </audio>
-    <figcaption><a href="anthem.mp3">As sung in the computer game »Star Trek:
-        Klingon«</a> (published <time datetime="1996-04">April 1996</time>).
-        (Can anyone verify that this is where this recording came
-        from?)</figcaption>
-  </figure>
-  <figure>
-    <audio controls title="The Warrior's Anthem -- from Deep Space Nine">
-      <source src="anthem-ds9.mp3" type="audio/mpeg" />
-    </audio>
-    <figcaption><a href="anthem-ds9.mp3">As heard in »Soldiers of the
-      Empire«</a> (Deep Space Nine, 5th season, 21st episode,
-      aired <time datetime="1997-04">April 1997</time>) -- Thanks to Kevin
-      M. <!-- kjmergen(at)lvcm.com --> who sent to me this
-      in <time datetime="2002-10">October 2002</time>.</figcaption>
-  </figure>
-  <figure>
-    <audio controls title="The Warrior's Anthem -- from my answering machine">
-      <source src="anthem-qephom.mp3" type="audio/mpeg" />
-    </audio>
-    <figcaption><a href="anthem-qephom.mp3">Recording on my answering
-        machine</a> (as sung by a bunch of German klingonists through the wires
-        of the European telephone system, in early <time>2002</time>).
-        -- Thanks to Astrid Jekat for calling.<figcaption>
-  </figure>
-</div>
+<figure>
+  <audio controls title="The Warrior's Anthem -- from Star Trek: Klingon">
+    <source src="anthem.mp3" type="audio/mpeg" />
+  </audio>
+  <figcaption><a href="anthem.mp3">As sung in the computer game »Star Trek:
+      Klingon«</a> (published <time datetime="1996-04">April 1996</time>).
+      (Can anyone verify that this is where this recording came
+      from?)</figcaption>
+</figure>
 
-And last, but not least, a <a href="anthem.txt">plain text file with the
-lyrics</a>.
+<figure>
+  <audio controls title="The Warrior's Anthem -- from Deep Space Nine">
+    <source src="anthem-ds9.mp3" type="audio/mpeg" />
+  </audio>
+  <figcaption><a href="anthem-ds9.mp3">As heard in »Soldiers of the
+    Empire«</a> (Deep Space Nine, 5th season, 21st episode,
+    aired <time datetime="1997-04">April 1997</time>) -- Thanks to Kevin
+    M. <!-- kjmergen(at)lvcm.com --> who sent to me this
+    in <time datetime="2002-10">October 2002</time>.</figcaption>
+</figure>
+
+<figure>
+  <audio controls title="The Warrior's Anthem -- from my answering machine">
+    <source src="anthem-qephom.mp3" type="audio/mpeg" />
+  </audio>
+  <figcaption><a href="anthem-qephom.mp3">Recording on my answering
+      machine</a> (as sung by a bunch of German klingonists through the wires
+      of the European telephone system, in early <time>2002</time>).
+      -- Thanks to Astrid Jekat for calling.<figcaption>
+</figure>
+
+And last, but not least, a [plain text file with the lyrics](anthem.txt).
 
 [[eof]]

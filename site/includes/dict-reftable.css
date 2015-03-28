@@ -1,48 +1,18 @@
 /* -*- css -*- */
 
-/* Suffix guide: Border around table */
-table.reftable {
-    border: 4px solid black;
-    border-collapse: collapse;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 /* Suffix guide: Border above headlines in table */
 table.reftable td {
-    border: 0px solid black;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border: solid #000;
+    border-width: 2px 0;
     white-space: nowrap;
     text-align: center;
-    border-spacing: 5em;
-}
-
-
-table.right {
-    margin-left: auto;
-    margin-right: 0em;
-    background-color: yellow;
-}
-
-
-table.big td {
     font-size: 200%;
     padding: .125em .25em;
-    background-color: white;
-}
-
-table.reftable colgroup {
-    border: 2px solid black;
-}
-
-table.reftable img {
     vertical-align: middle;
 }
 
-table.reftable h3 {
-    margin: 0em;
-    padding: .125em 0em .125em 0em;
+table.reftable colgroup {
+    border: 2px solid #000;
 }
 
 /* eof */

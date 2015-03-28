@@ -4,12 +4,14 @@ updated: 2015-03-10T08:40:52+0100
 author: zrajm
 year: 1999-2015
 lang: en
-script: centerwidestuff
 
 Star Trek Klingon Bird of Prey Cutaway Poster
 =============================================
 
-<a class=center href="pic/1998-11-01-bop-big.jpg"><img src="pic/1998-11-01-bop-sml.jpg" width=539 height=375 alt="Bird of Prey Poster"></a>
+<figure>
+  <a href="pic/1998-11-01-bop-big.jpg"><img src="pic/1998-11-01-bop-sml.jpg"
+    width=539 height=375 alt="Bird of Prey Cutaway Poster"></a>
+</figure>
 
 [[A large poster (36″×24″ = approx. 90×60cm) showing both the inside and
 outside of a Klingon Bird of Prey in great detail. Includes technical callouts

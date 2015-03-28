@@ -4,8 +4,6 @@ updated: 2011-11-01 14:55
 author: zrajm
 year: 2011
 lang: en
-style: gallery
-script: centerwidestuff
 
 Hallmark Bird-of-Prey Christmas Ornament Commercial
 ===================================================
@@ -17,51 +15,62 @@ Generation*) rewards his officers for victory in battle by giving them a gift
 -- a Klingon Bird-of-Prey Christmas ornament. Gowron is played by Robert
 O’Reilly, Crewman 1 by Guy Vardaman.
 
-<div><embed class=center
-   style="margin:1em 0;"
-   flashvars="file=1994-10-hallmark.mp4&amp;image=1994-10-hallmark.jpg&amp;controlbar.position=over"
-   allowfullscreen=true
-   allowscriptaccess=always
-   src="jwplayer.swf"
-   width=640
-   height=480></div>
+<figure><embed
+    flashvars="file=1994-10-hallmark.mp4&amp;image=1994-10-hallmark.jpg&amp;controlbar.position=over"
+    allowfullscreen=true
+    allowscriptaccess=always
+    src="jwplayer.swf"
+    width=640
+    height=480
+  ></figure>
 
 
 Transcript
 ----------
-<p>Gowron: {Qapla'}
-<br><i>Greetings!</i></p>
-
-<p class="noindent">Gowron: {pIj maSuvpu' batlh maSuvpu' 'ej maQapbejta'}
-<br><i>In our many battles, we have fought with honor and achieved... victory!</i></p>
-
-<p class="noindent">Gowron: {vaj malopmeH tlhIHvaD nob SaSuqpu'}
-<br><i>So to celebrate, I’ve gotten you all a gift.</i></p>
-
-<p class="noindent">Gowron: {tlhIngan toQDujHom 'oH}
-<br><i>It’s a Klingon Bird-of-Prey ornament.</i></p>
-
-<p class="noindent">Crewman 1: {toQDujna' rurchu'}
-<br><i>It looks so real!</i></p>
-
-<p class="noindent">Crewman 2: {Qapqu' wovmoHbogh janHommey}
-<br><i>It even has working lights!</i></p>
-
-<p class="noindent">Speaker: Hallmark introduces the exclusive Klingon keepsake
-ornament. Call 1-800-HALLMARK for a Gold Crown store near you.</p>
-
-<p class="noindent">Crewman 1: ({peghmo' ... }) [?!?]
-<br><i>That was real nice of him.</i></p>
-
-<p class="noindent">Crewman 2: {HIja'} &lt;gibberish&gt; {wISuqnIS} [??]
-<br><i>Yeah, we should get him a thank you card.</i></p>
-
-<hr>
+<table class="noborder dialogue">
+<tr>
+  <th>Gowron
+  <td>{Qapla'}
+    <br><<Greetings!>>
+<tr>
+  <th>Gowron
+  <td>{pIj maSuvpu' batlh maSuvpu' 'ej maQapbejta'}
+    <br><<In our many battles, we have fought with honor and achieved...
+      victory!>>
+<tr>
+  <th>Gowron
+  <td>{vaj malopmeH tlhIHvaD nob SaSuqpu'}
+    <br><<So to celebrate, I’ve gotten you all a gift.>>
+<tr>
+  <th>Gowron
+  <td>{tlhIngan toQDujHom 'oH}
+    <br><<It’s a Klingon Bird-of-Prey ornament.>>
+<tr>
+  <th>Crewman 1
+  <td>{toQDujna' rurchu'}
+    <br><<It looks so real!>>
+<tr>
+  <th>Crewman 2
+  <td>{Qapqu' wovmoHbogh janHommey}
+    <br><<It even has working lights!>>
+<tr>
+  <th>Speaker
+  <td>Hallmark introduces the exclusive Klingon keepsake ornament. Call
+    1-800-HALLMARK for a Gold Crown store near you.
+<tr>
+  <th>Crewman 1
+  <td>({peghmo' ... }) [?!?]
+    <br><<That was real nice of him.>>
+<tr>
+  <th>Crewman 2
+  <td>{HIja'} &lt;gibberish&gt; {wISuqnIS} [??]
+    <br><<Yeah, we should get him a thank you card.>>
+</table>
 
 The last two lines are badly garbled. Whatever gibberish Crewman 2 is saying,
 from the verb prefix {wI-} it should be a singular object noun, probably formed
-from the verb {tlho'} *thank* or the noun {tlho'} *appreciation, gratitude* --
-*{tlho'meH nav/ghItlh} “thank you card”?
+from the verb {tlho'} <<thank>> or the noun {tlho'} <<appreciation, gratitude>>
+-- *{tlho'meH nav/ghItlh} “thank you card”?
 
 “The commercial switches to Federation Standard displaying the ship and giving
 the sales pitch. After that we see the warriors speaking to one another as they
@@ -74,9 +83,9 @@ them some legitimate lines and they chose to fake it instead.]” (Glen Proechel
 don’t think {wov} was used as a noun there. Though the Klingons in the ad may
 have ad libbed a bit, the phrase the one Klingon was supposed to say regarding
 the little lights in the Bird of Prey ornament was {wovmoHbogh janHommey}. That
-is, *little devices that cause (something) to be light or bright* or *little
-devices that brighten (something)* or *little devices that light (something)
-up* or the like. {wov} is a verb *be light, bright* followed by the suffix
-{-moH} *cause* (thus, *cause to be light*).”
+is, <<little devices that cause (something) to be light or bright>> or
+<<little devices that brighten (something)>> or <<little devices that light
+(something) up>> or the like. {wov} is a verb <<be light, bright>> followed by
+the suffix {-moH} <<cause>> (thus, <<cause to be light>>).”
 
 [[eof]]

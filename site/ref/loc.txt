@@ -44,10 +44,8 @@ area</i>.
   <tr><td>{pa'}<td><i>there, over there, thereabouts </i> (n)
 </table>
 
-Here's a list of some [location nouns][nouns] in Klingon:
-
-[nouns]: http://klingonska.lal/dict/?q=cat%3Aplacement+pos%3Anoun
-"Klingon Pocket Dictionary Search: 'cat:placement pos:noun'"
+Here's a list of some [location nouns](/dict/?q=tag:placement+pos:noun) in
+Klingon:
 
 <table>
 <tr><td>{vogh}<td><i>somewhere</i> (n)<td><small>[TKD]</small>
@@ -63,11 +61,8 @@ Here's a list of some [location nouns][nouns] in Klingon:
 <tr><td>{Hur}<td><i>outside</i> (n)<td><small>[TKD]</small>
 </table>
 
-And, finally, these are [verbs to describe size and position][verbs] of
-objects:
-
-[verbs]: http://klingonska.lal/dict/?q=cat%3Aplacement+pos%3Averb
-"Klingon Pocket Dictionary Search: 'cat:placement pos:verb'"
+And, finally, these are [verbs to describe size and
+position](/dict/?q=cat:placement+pos:verb) of objects:
 
 <table>
 <tr><td>{yoy}<td><i>be upside down</i> (v)<td><small>[TKD]</small>

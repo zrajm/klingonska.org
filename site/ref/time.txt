@@ -30,11 +30,10 @@ which themselves <em>are</em> adverbials.)
 
 [units] Units of Time
 ---------------------
-We don't know exactly how [the Klingon units of time][time units] relates to
-the Terran ones, but with that in mind, here is a list (largest first):
 
-[time units]: ../dict/?q=cat%3Atime+cat%3Ameasure
-"Klingon Pocket Dictionary: Lexicon -- Units of Time"
+We don't know exactly how [the Klingon units of
+time](../dict/?q=tag:time+tag:measure) relates to the Terran ones, but with
+that in mind, here is a list (largest first):
 
 <table>
   <tr><th>Klingon<th>English<th>Source
@@ -314,11 +313,9 @@ Let's lump it all together under this heading.
 </table>
 
 If you want to know more about how to tell time in Klingon, you may want to
-read the articles “[Maltz Online][HQ 8:1]” in <i>{HolQeD} 8:1</i> (pp. 7--12)
-and “[{matlh juppu' mu'mey}][HQ 8:3]” in <i>{HolQeD} 8:3</i> (pp. 2--4) written
-by Marc Okrand.
-
-[HQ 8:1]: ../canon/1999-03-holqed-08-1.txt "Maltz Online"
-[HQ 8:3]: ../canon/1999-09-holqed-08-3.txt "matlh juppu' mu'mey"
+read the articles “[Maltz Online](../canon/1999-03-holqed-08-1.txt)”
+in <i>{HolQeD} 8:1</i> (pp. 7--12) and “[{matlh juppu'
+mu'mey}](../canon/1999-09-holqed-08-3.txt)” in <i>{HolQeD} 8:3</i> (pp. 2--4)
+written by Marc Okrand.
 
 [[eof]]

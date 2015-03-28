@@ -245,9 +245,14 @@
 ** DONE Prettify tab row (make more Chrome-like)
    CLOSED: [2014-11-04 tis 17:39]
 * Site content
+** [0%] Improve Markdown documents (parsed by `markdown2html`)
+   Run `touch bin/markdown2html; make`, you'll see a list of updated files.
+*** TODO Replace all em-dashes with en-dashes (except in transcripts)
+*** TODO Use <<..>> to indicate translation in all Markdown
 ** TODO Do a surf-through check for weird/old shit
-** [13%] Systematic/site-wide changes
+** [12%] Systematic/site-wide changes
    I.e. changes that need to be applied to the web page as a whole.
+*** TODO Use <main> tag(?)
 *** TODO Read up on SMACSS apply those principles to CSS
     http://smacss.com/
 *** [0%] Social network interactivity
@@ -336,7 +341,7 @@
       are incorporated into the KLO pages. Old stuff is just an annoyance to
       maintain. (And, even after removal, would still be available in the git
       repo, if anyone *really* cared.)
-***** [60%] Convert all pages to new HTML template
+***** [61%] Convert all pages to new HTML template
       Thereby centralizing the page header/footer etc. `bin/markdown2html` is
       the tool used for this, except for files in /dict/, which uses `parse`.
       Unifying these two tools into one will become a later issue, though.
@@ -450,7 +455,8 @@
         CLOSED: [2013-04-16 Tue 14:58]
 ****** DONE `canon/1998-11-01-bop.html`
        CLOSED: [2015-03-10 Tue 08:45]
-****** TODO `canon/2010-04-29-u-mtk.html`
+****** DONE `canon/2010-04-29-u-mtk.html` -> canon/mtk.html
+       CLOSED: [2015-03-28 Sat 16:14]
 ****** DONE `piq/index.html`
        CLOSED: [2012-07-08 Sun 15:26]
 ****** DONE `piqad/index.html`
@@ -707,6 +713,7 @@
      * "*The* Klingon language reference site."?
      * "The one-shop-stop for all you Klingon language needs."?
      * "Klingon language reference tools since 1998."?
+*** TODO Merge <figure> <div and class=gallery>(?)
 *** TODO Redesign <div class=gallery>
     `/songs/tahjaj_wo/` has got it right, but all other occurances need to be
     updated.
@@ -1467,7 +1474,7 @@
 **** TODO A "see also" field
      URL + description of sources outside of klingonska.org.
 **** TODO A field for abbreviated name of source
-     Examples: TKD, Hallmark, 'u'-MTK, BoP (KBoP), KGT, HQ12:1, etc
+     Examples: TKD, Hallmark, MTK, BoP (KBoP), KGT, HQ12:1, etc
 *** TODO Script/Apache config
 **** DONE Replace 'canon/download.cgi' completely with 'canon/show.cgi'
      + 'download.html' which allows user to select which file to download.
@@ -3758,12 +3765,12 @@
 
     Cheers,
     Philip
-** "A Quick Reference to Subjects and Objects in Klingon"
+** "A Quick Reference to Subjects and Objects in Klingon" [ref/ovs]
 *** TODO Which prefix to use with a subject like {SoH jIH je}?
 *** TODO Example sentences with {-chuq} and {-'egh}
 *** TODO Add info on indirect objects with {-vaD}
 *** TODO Add info on the prefix trick
-** "A Quick Reference to Colors in Klingon"
+** "A Quick Reference to Colors in Klingon" [ref/color]
 *** TODO Add {rItlhmey} as an approximate word for “color”
    From: "qeSan \(KSFCN\)" <qeSan@ksfcn.com>
    To: <tlhingan-hol@kli.org>
@@ -3792,10 +3799,10 @@
    Countries - Sepmey tlhab
 
    qe’San
-** "A Quick Reference to Adverbials in Klingon"
+** "A Quick Reference to Adverbials in Klingon" [ref/adv]
 *** DONE Update list of adverbials
     CLOSED: [2013-04-02 Tue 05:27]
-** "A Quick Reference to Time Expressions in Klingon"
+** "A Quick Reference to Time Expressions in Klingon" [ref/time]
 *** TODO Add days of week
 *** TODO Add {ngugh} adverbial
     Are there more time related adverbials that should be included?
@@ -3934,8 +3941,22 @@
 ** DONE Remove KA bylaws
    CLOSED: [2010-10-07 Thu 07:27]
 * Build/check tools
-** [0%] `bin/check-html-nesting`
+** `bin/check-html-nesting`
 *** TODO Should be able to cope with tags that does not require end tags.
+** `bin/markdown2html`
+*** TODO Handle non-breaking spaces and en-dashes better
+    When a browser see "--<nbsp>WORD" or "WORD<nbsp>--" they take the liberty
+    of inserting linebreaks between <nbsp> and WORD, which looks ugly. To
+    suppress this browser behavior, `markdown2html` should wrap these in
+    <nobr>..</nobr>.
+** `bin/sassy`
+*** TODO Add support for '&' in nested selectors
+*** TODO Add support for mixins
+    And use that for
+        left: 50%;
+        position: relative;
+        -webkit-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
 ** `Makefile`
 *** TODO Build site from last commit
     A different (?) make target that builds site from the last checked in

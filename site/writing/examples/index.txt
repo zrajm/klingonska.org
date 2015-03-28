@@ -22,62 +22,52 @@ contact [zrajm](mailto:zrajm@klingonska.org), and share what you've got. All
 contributions will, of course, be fully credited.
 
 <div class=gallery>
-
   <a href="pic/kli-piqad.png" class=item style="width:250px">
     <img src="pic/mini/kli-piqad.png" width=250 height=232>
     KLI {pIqaD} chart. (From from the KLI webpage.)
     This is what is normally understood as {pIqaD}.
   </a>
-
   <a href="pic/ka-piqad.png" class=item style="width:250px">
     <img src="pic/mini/ka-piqad.png" width=250 height=187>
     Klingonska Akademien {pIqaD} chart, with pronunciation in IPA
     (pronunciation verified by Marc Okrand at 2001 {qep'a'}, so this is canon).
   </a>
-
   <a href="pic/paramount-example.png" class=item style="width:250px">
     <img src="pic/mini/paramount-example.png" width=250 heigth=93>
     Paramount example of {pIqaD} (from <i>Star Trek Encyclopedia</i>). These
     are the glyphs used in the show. Some of them differ quite a bit from
     {pIqaD} as we use it.
   </a>
-
   <a href="pic/geiselman-example.png" class=item style="width:250px">
     <img src="pic/mini/geiselman-example.png" width=250 height=45>
     Kevin A. Geiselman – Example of {pIqaD} in use (on
     website). <small>[Fetched in 1999, from
     http://<wbr>www.<wbr>fyi.<wbr>net/<wbr>~kordite/<wbr>dochmey.<wbr>htm]</small>
   </a>
-
   <a href="pic/zrajm-piqad.jpg" class=item id=zrajm style="width:250px">
     <img src="pic/mini/zrajm-piqad.png" width=250 height=181>
     Zrajm – {pIqaD} longhand description. (Instructions in Swedish; sorry.
     Start each line at the dot and you should be okay.)
   </a>
-
   <a href="pic/cheesbro-piqad.png" class=item id=cheesbro style="width:250px">
     <img src="pic/mini/cheesbro-piqad.png" width=250 height=247>
     Roger Cheesbro – {pIqaD} longhand
     (received <time datetime="2001-09">September 2001</time>). First longhand
     I've seen that is actually beautiful.
   </a>
-
   <a href="pic/cheesbro-example.png" class=item style="width:230px">
     <img src="pic/mini/cheesbro-example.png" width=230 height=250>
     Roger Cheesbro – Brief extract from {ghIlghameS} (which he translated).
   </a>
-
   <a href="pic/nicholas-piqad.png" class=item id=nicholas style="width:182px">
     <img src="pic/mini/nicholas-piqad.png" width=182 height=250>
     Nick Nicholas – {pIqaD} longhand. (At the <time>2000</time> {qep'a'} he
     declared this more or less outdated.)
   </a>
-
   <a href="pic/nicholas-evolution.png" class=item style="width:250px">
     <img src="pic/mini/nicholas-evolution.png" width=250 height=207>
     Nick Nicholas – Envisioning the evolution of {pIqaD}?
   </a>
-
 </div>
 
 [[eof]]

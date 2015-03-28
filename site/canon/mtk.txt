@@ -1,0 +1,79 @@
+: -*- html -*-
+created: 2011
+updated: 2015-03-10T08:59:47+0100
+author: zrajm
+year: 2011-2015
+lang: en
+
+Message to Kronos
+=================
+
+About
+-----
+Transcript of YouTube video “Message to Kronos”. This is a video recording of
+Marc Okrand reading an invitation for Klingons to come watch the performance of
+{'u'} -- “The First Authentic Klingon Opera on Earth”, first performed in The
+Hague, September 10, 2010. Transcript was taken from the *tlhingan-hol* mailing
+list (on July 28, 2010). Source commonly abbreviated *{'u'}-MTK* (or just
+*MKT*).
+
+<figure><embed
+    flashvars="file=2010-04-29-mtk.mp4&amp;image=2010-04-29-mtk.jpg&amp;controlbar.position=over"
+    allowfullscreen=true
+    allowscripaccess=always
+    src="jwplayer.swf"
+    width=640
+    height=480
+  ></figure>
+
+
+Transcript
+----------
+<table class="noborder dialogue">
+  <tr>
+    <td>{Qo'noS tlhInganpu' -- qeylIS puqloDpu' puqbe'pu' je.}
+      <br><<Klingons of Kronos -- sons and daughters of Kahless.>>
+  <tr>
+    <td>{tera'vo' SarI'.}
+      <br><<I hail you from Earth.>>
+  <tr>
+    <td>{Marc Okrand jIH.  De' potlh vIlab.}
+      <br><<I am Marc Okrand and I bring you an important message.>>
+  <tr>
+    <td>{may' ghe'naQ lumuchrup tera'nganpu'.}
+      <br><<We Terrans will be performing an authentic battle opera.>>
+  <tr>
+    <td>{'u' 'oH ghe'naQ pong.} [sic!]
+      <br><<The name of the opera is {'u'}.>>
+  <tr>
+    <td>{yuQmajDaq may' ghe'naQ wa'DIch wIQoybogh 'oH 'u'.} [sic!]
+      <br><<{'u'} will be the first authentic battle opera performed on our planet.>>
+  <tr>
+    <td>{ghorgh lumuch?}
+      <br><<When, you ask?>>
+  <tr>
+    <td>{poH tuj bI'reS nungbogh wa' jaj qeylIS DIS chorghvatlh loSmaH jav qaStaHvIS.} [sic!]
+      <br><<In the days that follow the summer solstice in the Year of Kahless 846.>>
+  <tr>
+    <td>{ghe'naQ Daqvo' QInvam wIlab.}
+      <br><<We will place a homing device transmitting this message at the site of the opera.>>
+  <tr>
+    <td>{wanI'vam Dun luleghlaHmeH tlhIngan SuvwI' Duypu' bongeH 'e' lutul tera'nganpu'.}
+      <br><<We hope that you can send a delegation of honorable emissaries to witness this glorious event.>>
+  <tr>
+    <td>{qeylIS wIquvmoHtaHvIS chetlhej wIneH.}
+      <br><<We hope you can join us while we honor Kahless.>>
+  <tr>
+    <td>{qa' wIje'meH maSuv!}
+      <br><<We fight to enrich the spirit!>>
+  <tr>
+    <td>{Qapla'!}
+      <br><<Success!>>
+</table>
+
+See also
+--------
+  * [*Message to Kronos* video on YouTube](http://youtu.be/ujliyG96Cf8)
+  * [Official page for *{'u'} -- The Opera*](http://www.u-theopera.org/)
+
+[[eof]]

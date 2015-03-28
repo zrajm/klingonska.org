@@ -5,7 +5,6 @@ author: zrajm
 year: 1998-2012
 lang: en
 up: ..
-script: centerwidestuff
 
 A Quick Reference to Subjects and Objects in Klingon
 ====================================================
@@ -14,7 +13,7 @@ i.e. the reversed order of English. However, also unlike English, the same
 pronouns are always used, not depending on whether used as subject or object
 (so there is, for example, no difference between <i>I</i> and <i>me</i>).
 
-<table class=center>
+<table>
   <colgroup><col span=2><col span=2></colgroup>
   <thead>
     <tr><th colspan=2>Singular<th colspan=2>Plural
@@ -38,7 +37,7 @@ own right. <small>[TKD 6.3]</small>
 
 It is, however, never outright wrong to use pronouns.
 
-<table class=center style="text-align:center">
+<table style="text-align:center">
   <colgroup><col span=7><col span=2></colgroup>
   <thead>
     <tr>

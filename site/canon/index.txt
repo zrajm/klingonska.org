@@ -1047,7 +1047,7 @@ publication, or a description of its contents and/or form).
         <br><small>• Article by Marc Okrand, <i>{HolQeD} 10:4,</i> pp. 4--5</small>
         <br>     Maltz gives us a lesson in Klingon bird watching, and talks
 	about how to distinguish a few types of them, as well as how to discuss
-	pecking, flying ad the various body parts of birds.
+	pecking, flying and the various body parts of birds.
   <tbody id=2002>
     <tr>
       <td class=nobr><big>2002-06</big>
@@ -1214,8 +1214,8 @@ publication, or a description of its contents and/or form).
   <tbody id=2010>
     <tr>
       <td class=nobr><big>2010-04-29</big>
-      <td><big>»<a href="2010-04-29-u-mtk.html">Message to Kronos</a>«
-          (<a href="2010-04-29-u-mtk.txt">text</a>)</big>
+      <td><big>»<a href="mtk.html">Message to Kronos</a>«
+          (<a href="2010-04-29-mtk.txt">text</a>)</big>
         <br><small>• Video, recorded by Marc Okrand, published via
           YouTube</small>
         <br>     Video recording of Marc Okrand reading an invitation for

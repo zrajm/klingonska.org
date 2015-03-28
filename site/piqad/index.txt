@@ -3,7 +3,6 @@ updated: 2013-06-02 19:03:13 +0200
 author: zrajm
 year: 1998-2013
 lang: en
-script: centerwidestuff
 style: piqad
 
 {pIqaD}, And How to Read It
@@ -46,20 +45,19 @@ klingonists (mainly on the Internet, but other contributions are also welcome
 if you have any) to see how much one can actually play around with the glyphs
 and still be able read them.
 
-<p class=noindent>There are
-also <a href="../writing/examples/#nicholas">some images created
-by Nick Nicholas</a> (one of the people behind the restored version of the
-Klingon {Hamlet}) that are quite interesting, as they show what seem to be
-{pIqaD} written with a ballpoint pen, a calligraphy pen (in a Fraktur hand –
-perhaps used in the first printed books on Kronos?), and with a brush. (These
-images were originally found on KLI’s FTP area in February 2000, but that FTP
-seems to have gone defunct in intervening years.)</p>
+<p class=noindent>There are also <a href="../writing/examples/#nicholas">some
+images created by Nick Nicholas</a> (one of the people behind the restored
+version of the Klingon {Hamlet}) that are quite interesting, as they show what
+seem to be {pIqaD} written with a ballpoint pen, a calligraphy pen (in a
+Fraktur hand – perhaps used in the first printed books on Kronos?), and with a
+brush. (These images were originally found on KLI’s FTP area in February 2000,
+but that FTP seems to have gone defunct in intervening years.)</p>
 
 Worth mentioning is also the article “Writing Klingon: The Easy Way” by Theron
-P. Elliot, (published in {HolQeD} 2:2 pp.10--11) in which he uses a
-triangular grid as a basis for writing {pIqaD}. It is interesting mostly
-because is also shows the direction of the pen while writing, but otherwise I
-do not think that the grid makes the Klingon glyphs justice.
+P. Elliot, (published in {HolQeD} 2:2 pp.10--11) in which he uses a triangular
+grid as a basis for writing {pIqaD}. It is interesting mostly because is also
+shows the direction of the pen while writing, but otherwise I do not think that
+the grid makes the Klingon glyphs justice.
 
 <i>Interstellar Language School</i> (lead by Glen F. Proechel) has published
 “An Alien Writing System Primer” explaining how to write {pIqaD} in longhand.
@@ -83,8 +81,7 @@ and helpful suggestions.</p>
     Klingon background displays are composed for appearance, not communication.
     And yet, an unofficial letter to a Klingon fan group from an unnamed source
     at Paramount resulted in the following alphabet:</p>
-
-  <table class="noborder spacy" style="margin: 2em auto">
+  <table class="noborder spacy">
     <tr align=center>
       <td><img src="../piq/bg1/a.gif" width=38 height=39 alt=a><br>{a}
       <td><img src="../piq/bg1/b.gif" width=37 height=39 alt=b><br>{b}
@@ -114,15 +111,12 @@ and helpful suggestions.</p>
       <td><img src="../piq/bg1/w.gif" width=34 height=39 alt=w><br>{w}
       <td><img src="../piq/bg1/y.gif" width=35 height=39 alt=y><br>{y}
       <td><img src="../piq/bg1/z.gif" width=10 height=39 alt="’"><br>{'}
-      <td>
-    <tr><td colspan=9 align=center><small>[Note: Characters rearranged to
-          presented them in correct Okrandian alphabetic order.]</small>
+    <caption><small>[Note: Characters rearranged to present them in correct
+      Okrandian alphabetic order.]</small></caption>
   </table>
-
   <p class=indent>Unlike its predecessor, these glyphs provide an excellent fit
     to the phonology of Klingon, or more specifically that of {tlhIngan Hol}.
     However, other questions still remain.</p>
-
   <p>The keen observer of <i>ST6</i> will note several Klingon glyphs which are
     not included in the alphabet above. While some appear to be simple
     rotations of characters (and one is reminded of Sequoyah’s creation of the
@@ -132,7 +126,6 @@ and helpful suggestions.</p>
     is replete with logographs, single characters representing whole ideas or
     words (e.g., !, @, #, $, %), clearly a part of the system but not a part of
     the alphabet.</p>
-
   <p>Then too, it may be helpful to keep in mind Allan Wechsler’s remarks […]
     on the sparse distribution of consonants in {tlhIngan Hol}. While perhaps a
     bit far fetched, the unexplained characters might be instances of
@@ -140,7 +133,6 @@ and helpful suggestions.</p>
     language, maintained either for historical purposes in affairs of state (I
     refer here to the trial scene in <i>ST6</i>), or more simply as
     decoration.</p>
-
   <p>In any case, there is clearly much much more to be learned about Klingon
     orthography, more tantalizing promises and secrets to be discovered. Of
     course it’s unknown whether any further explanations are apt to be
@@ -149,7 +141,6 @@ and helpful suggestions.</p>
     what is its role in a larger writing
     system? <small>[<a href="../canon/1992-03-holqed-01-1-b.txt">{HolQeD} 1:1
     pp. 19--20, Lawrence M. Schoen</a>]</small></p>
-
 </div>
 
 <div class=noncanon>
@@ -157,7 +148,6 @@ and helpful suggestions.</p>
     (though usually attributed to <i>ST:TNG</i> Scenic Designer Michael
     Okuda): <small>[<a href="../canon/1992-12-holqed-01-04.txt">{HolQeD} 1:4
     p. 17, Lawrence M. Schoen</a>]</small></p>
-
   <table class="noborder spacy">
     <tr align=center>
       <td><img src="../piq/bg1/0.gif" width=30 height=39 alt=0><br>{0}
@@ -181,18 +171,19 @@ triangle as a comma / semicolon. These are also the only punctuation marks that
 the Klingon language really requires, since both questions and imperatives are
 clearly marked grammatically.
 
-<img src="../pic/punct2.gif" width=500 height=180
-alt="Klingon punctuation" style="margin: 1em auto">
+<figure>
+  <img src="../pic/punct2.gif" width=500 height=180 alt="Klingon punctuation">
+</figure>
 
 
 [pronunciation] Pronunciation
 -----------------------------
-The following tables are an overview of the sounds of Klingon, written
-in <a href="http://en.wikipedia.org/wiki/International_Phonetic_Alphabet"
-title="International Phonetic Alphabet">IPA</a>. A more complete description of
-each of the sounds is given in the text below.
 
-<table class="border center th-sans" style="background:inherit" style="vertical-align:middle">
+The following tables are an overview of the sounds of Klingon, written in
+[IPA](http://en.wikipedia.org/wiki/International_Phonetic_Alphabet). A more
+complete description of each of the sounds is given in the text below.
+
+<table class="border th-sans">
   <caption>Where characters appear in pairs, the one to the right represents a
     voiced consonant.</caption>
   <tr>
@@ -285,7 +276,7 @@ each of the sounds is given in the text below.
     <td colspan=2>
 </table>
 
-<table class="th-sans">
+<table class="th-sans" >
   <tr style="text-align:center;">
     <th>
     <th style="width:64px;"><a href="http://en.wikipedia.org/wiki/Front_vowel">Front</a>
@@ -334,10 +325,8 @@ each of the sounds is given in the text below.
 
 <div>
   <p><small>[<a class=sources>Display Sources</a>]</small></p>
-
   <div class=hidden>
     <div class=noncanon>
-
       <table class="border center" style="background:inherit">
         <tr><th colspan=4><big>Vowel inventory of Klingon</big>
         <tr>
@@ -349,15 +338,13 @@ each of the sounds is given in the text below.
         <tr align=right><th>[-high]<br>[-low]<td align=center>{e}<td><td align=center>{o}
         <tr align=right><th>[-high]<br>[+low]<td><td align=center>{a}<td>
       </table>
-
       <p class="blank indent">There are two noticeable secondary features,
         [round] and [tense], which are both linked to [back]. The result is
         that the front vowels are lax. In IPA they would be notated with iota
         or small capital I, and epsilon rather than with &lt;I&gt; and
-        &lt;e&gt; respectively; presumably the use of &lt;I&gt; is a not to
+        &lt;e&gt; respectively; presumably the use of &lt;I&gt; is a nod to
         IPA’s small capital I.</p>
-
-      <table class="border center th-sans" style="background:inherit">
+      <table class="border th-sans">
         <tr><th colspan=17><big>Consonant inventory of Klingon</big>
         <tr>
           <th>
@@ -513,9 +500,7 @@ Swedish <i>j<u>а</u>g</i> [jɑːɡ] (meaning <i>I</i>).
 <div class=hidden>
   <p class=canon>{a} As in English <i>psalm;</i> never as in American
     English <i>crabapple.</i> <small>[TKD 1.2]</small></p>
-
   <p class=canon>[{a}] as in <i>pa</i> <small>[TKDa p. 169]</small></p>
-
   <p class=canon>Younger speakers also have a slight tendency to change the
     pronunciation of the vowel {a} in nonstressed syllables to something that
     sounds a bit like the <i>u</i> in Federation Standard <i>but</i>. If this
@@ -544,7 +529,6 @@ Swedish <i><u>b</u>ra</i> [ˈbrɑː] (<i>good</i>).
 
 <p class="canon hidden">{b} As in English <i>bronchitis</i>
   or <i>gazebo.</i> <small>[TKD 1.1]</small></p>
-
 
 <p id=ch class=noindent>
   <img src="../piq/rom/ch.gif" width=29 height=39 alt=ch>
@@ -605,12 +589,10 @@ following consonant.
     {b}, some speakers pronounce {D} as if it were more like an <i>nd,</i> and
     a distinct minority as if it were {n}---but, of course, with the tongue in
     the same position as for {D}. <small>[TKD 1.1]</small></p>
-
   <p class=canon>The sound at the end of the first syllable of this word,
     {toD}, is {D}. To make this sound, point the tip of your tongue directly
     upwards, and touch the hard part of the roof of your mouth, and the do the
     same thing you would do to make a <i>d</i> sound. <small>[CK]</small></p>
-
   <p class=canon>For instance {Dal} means <i>It is boring.</i> To get the first
     sound in that word right make sure your tongue is pointed straight up
     towards the roof of your mouth. <small>[PK]</small></p>
@@ -635,7 +617,6 @@ English</a> <i>b<u>e</u>d</i> [bɛd], as in German <i>B<u>e</u>tt</i> [bɛt]
 
 <div class=hidden>
   <p class=canon>{e} As in English <i>sensor.</i> <small>[TKD 1.2]</small></p>
-
   <p class=canon>[{e}] as in <i>pet</i> <small>[TKDa p. 169]</small></p>
 </div>
 
@@ -671,10 +652,8 @@ accent). <small>[<a class=sources>Display Sources</a>]</small>
     English <i>g</i> as in <i>gobble,</i> but relaxing the tongue somewhat and
     humming. It is the same as Klingon {H} (see below), but with the vocal
     cords vibrating at the same time. <small>[TKD 1.1]</small></p>
-
   <p class=canon>[{gh},] a softer <i>kh,</i> with humming (or voicing) at the
     same time <small>[TKDa p. 169]</small></p>
-
   <p class=canon>The first sound of the word is {gh}. It’s the same as the last
     sound of {toDSaH}, but hum while you say it. <small>[CK]</small></p>
 </div>
@@ -705,10 +684,8 @@ voiceless version of the Klingon {gh}.
     as Klingon {gh}, but is articulated with a very coarse, strong rasp. Unlike
     Klingon {gh}, the vocal cords do not vibrate in saying Klingon
     {H}. <small>[TKD 1.1]</small></p>
-
   <p class=canon>[{H} as in] <i>ch</i> in German <i>Bach</i> or
     Scottish <i>loch</i> <small>[TKDa p. 169]</small></p>
-
   <p class=canon>The last sound in the word is {H}, this is the same as the
     sound at the end of the name of the ancient Terran composer <i>Bach.</i>
     You’d make it the same way you make a <i>k</i> sound, but force air out of
@@ -736,7 +713,6 @@ in English <i>b<u>i</u>t</i> [bɪt], as in German <i>b<u>i</u>tte</i> [ˈbɪtə]
     is pronounced like <i>i</i> in <i>zucchini,</i> but this is very rare and
     it is not yet known exactly what circumstances account for
     it. <small>[TKD 1.2]</small></p>
-
   <p class=canon>[{i}] as in <i>pit</i> <small>[TKDa p. 169]</small></p>
 </div>
 
@@ -844,11 +820,9 @@ this happen in a number of Klingon words (e.g. {ngan} <i>inhabitant</i>).
     may practice making this sound at the beginning of a word by saying
     English <i>dang it!,</i> then saying it again without
     the <i>da.</i> <small>[TKD 1.1]</small></p>
-
   <p class=canon>The sound at the beginning of the second syllable, {ngan}, is
     the same as the sound that comes at the end of the word <i>thing</i>
     or <i>hang.</i> <small>[CK]</small></p>
-
   <p class=canon>That sound in the middle of the last word is the same as the
     sound in the end of the federation standard <i>thing.</i> Be sure to say
     {ngev}, not {nev} or {njev}. <small>[PK]</small></p>
@@ -874,9 +848,7 @@ considered indistinguishable from {o}).
 
 <div class=hidden>
   <p class=canon>{o} As in English <i>mosaic.</i> <small>[TKD 1.2]</small></p>
-
   <p class=canon>[{o}] as in <i>go</i> <small>[TKDa p. 169]</small></p>
-
   <p class=canon>No words in Klingon have {ow} or {uw.} If they did, they would
     be indistinguishable from words ending in {o} and {u,}
     respectively. <small>[TKD 1.2]</small></p>
@@ -934,13 +906,11 @@ pronounced <i>kw</i> as in English <i><u>q</u>uagmire.</i>
     accompanied by a slight puff of air. English speakers are reminded that
     Klingon {q} is never pronounced <i>kw</i> as in the beginning of
     English <i>quagmire.</i> <small>[TKD 1.1]</small></p>
-
   <p class=canon>There’s a new sound at both the beginning and end of the
     second syllable {qeq}, be careful, this is not the federation
     standard <i>k</i> sound. You make it like a <i>k,</i> but as you did for
     {Q}, shove the back of your tongue as far back into your mouth as you
     can. <small>[CK]</small></p>
-
   <p class=canon>{-qoq}---Be sure you pronounce the sound at the beginning and
     end of this suffix as far back in your mouth as you
     can. <small>[PK]</small></p>
@@ -967,7 +937,6 @@ and {H}. This sound is quite uncommon in Terran languages.
     It is and overdone Klingon {q}. It is identical to {q} except that it is
     very guttural and raspy and strongly articulated, somewhat like a blend of
     Klingon {q} and {H}. <small>[TKD 1.1]</small></p>
-
   <p class=canon>To make this sound, put the back of your tongue as far back
     into your mouth as you can, then force the air up harshly, as if you’re
     trying to dislodge a piece of food. <small>[CK]</small></p>
@@ -1024,7 +993,6 @@ as for Klingon {D}.
     and <i>sh,</i> as in <i>syringe</i> and <i>shuttlecock.</i> It is made with
     the tip of the tongue reaching toward that part of the roof of the mouth
     which it touches to produce the Klingon {D}. <small>[TKD 1.1]</small></p>
-
   <p class=canon>It’s not quite either the <i>s</i> or the <i>sh</i> sound
     you’re familiar with. For the Klingon {S}, put your tongue in the same
     place you did to make the {D} sound, and say it with
@@ -1105,7 +1073,6 @@ the <em>sides</em> of the tongue.
     produced with a great deal of friction, and the warning given in the
     description of Klingon {p} might be aptly repeated
     here. <small>[TKD 1.1]</small></p>
-
   <p class=canon>To make this {tlh} sound, say a <i>t</i> and at the same time
     whisper, loudly, but still just whisper, an <i>l.</i> […] Do you feel the
     sides of the tongue going down as you say the sound?---You
@@ -1135,9 +1102,7 @@ considered indistinguishable from {u}).
   <p class=canon>{u} As in English <i>gnu</i> or
     <i>prune;</i> never as in <i>but</i>
     or <i>cute.</i> <small>[TKD 1.2]</small></p>
-
   <p class=canon>[{u}] as in <i>soon</i> <small>[TKDa p. 169]</small></p>
-
   <p class=canon>No words in Klingon have {ow} or {uw.} If they did, they would
     be indistinguishable from words ending in {o} and {u,}
     respectively. <small>[TKD 1.2]</small></p>
@@ -1261,15 +1226,12 @@ latter.
     it!</i> can sound more like {yIlI'ghI}. This extra-heavy echo is heard most
     often when the speaker is particulary excited or
     angry. <small>[TKD 1.1]</small></p>
-
   <p class=canon>Did you hear the sounds cut off abruptly in the middle of the
     word? The correct pronounciation is {Qu'vatlh}, not {Quvatlh}. This abrupt
     cut-off is a very common feature of Klingon, you’ll hear it a
     lot. <small>[CK]</small></p>
-
   <p class=canon>{-na'} Notice how the sound stops abruptly at the end of this
     suffix, it’s {-na'}, not {-naaa}. <small>[PK]</small></p>
-
   <p class=canon>Many nonnative speakers of Klingon, especially those for whom
     Federation Standard is a first language, seem to have trouble with {'}, the
     glottal stop, at the end of a word. Articulated correctly, {'} is simply a
@@ -1389,14 +1351,11 @@ stressed as nouns.
     If, however, a syllable ending in {'} is present, it is usually stressed
     instead. If there are two syllables in a row {'} both ending in {'}, both
     are equally stressed. <small>[TKD 1.3]</small></p>
-
   <div class=noncanon>
-
     <p class=noindent>Nouns are stressed on the final syllable of the stem:
       {ghóp} <i>hand</i>, {puyjáq} <i>nova</i>, {bortáS} <i>revenge</i>. Any
       suffixes added on to the stem are not stressed: {puyjáqvam} <i>this
       nova</i>, {bortáSmey} <i>revenges</i>.</p>
-
     <p>However, if any syllable in a noun, whether in the stem or in a suffix,
       ends in a glottal stop, it is stressed instead of the stem’s final
       syllable. Thus: {bó'DIj} <i>court</i>, {ghopDú'} <i>hands</i>,
@@ -1407,7 +1366,6 @@ stressed as nouns.
       {vumtaHghách} <i>working</i>, {vumpú'ghach} <i>a bout of
       work</i>. <small>[{Hamlet} (pocket edition), Appendix II,
       pp. 215--216]</small></p>
-
   </div>
 </div>
 
@@ -1424,7 +1382,7 @@ final syllable stressed.
 
 <small>[<a class=sources>Display Sources</a>]</small>
 
-<div class="canon hidden">
+<div class="canon hidden noborder">
   <table>
     <tr><td>Yes.<td>HIja’ <i>or</i> HISlaH<td>khi-JA <i>or</i> khish-LAKH
     <tr><td>No.<td>ghobe’<td>gho-BE
@@ -1514,13 +1472,11 @@ final syllable stressed.
       2×3+2, 2×3+3; 3×3+1, 3×3+2, 3×3+3; and the it got complicated. In
       accordance with the more accepted practice, the Klingon Empire sometime
       back adopted a decimal number system, one based on ten.</p>
-
     <p>Though no one knows for sure, it is likely that this change was made
       more out of concern for understanding the scientific data of other
       civilizations than out of a spirit of cooperation. <small>[TKD
       pp. 52--53]</small></p>
   </div>
-
   <p class=canon>Older Klingon music was based on a nonatonic scale---that is,
     one made up of nine tones. Each tone has a specific name, comparable to the
     “do, re, mi” system used in describing music on Earth. The nine tone names
@@ -1564,16 +1520,13 @@ speech related to the speaker’s age, and social class).
       simultaneously. Speakers of English can approximate this sound by
       saying <i>imbalance</i> without the initial <i>i</i> sound. A very small
       number of Klingons pronounce {b} as if it were {m.}</p>
-
     <p>[…]</p>
-
     <p>{n} As in English <i>nectarine</i> or <i>sunspot.</i> Those Klingons who
       pronounce {D} more like {n} can easily articulate and hear the two sounds
       differently. Even a {D} that sounds like {n} is pronounced with the
       tongue in the Klingon {D} position, not in the English <i>d</i> position.
       Klingon {n} is produced with the tongue in same position as
       English <i>d.</i></p>
-
     <p>{m} As in English <i>mud</i> or <i>pneumatic.</i> Those few Klingons who
       pronounce {b} as {m} would say Klingon {baH} <i>fire</i> (<i>a
       torpedo</i>) and {maH} <i>we</i> the same way, and have to memorize which
@@ -1645,7 +1598,6 @@ Standard Klingon.
       like Federation Standard <i>m</i> as in <i>mime</i>. Thus, for example,
       the members of the following pairs of words sound exactly alike in the
       Krotmag dialect; however, they sound different in Standard Klingon:</p>
-
     <blockquote>
       {bup} (“quit”)/{mup} (“strike”)
       <br>{boH} (“be impatient”)/{moH} (“be ugly”)
@@ -1655,7 +1607,6 @@ Standard Klingon.
       <br>{Qub} (“think”)/{Qum} (“communicate”)
       <br>{teb} (“fill”)/{tem} (“deny”)
     </blockquote>
-
     <p>For the most part, this causes no problems for Krotmag dialect speakers.
       There are more homonyms (words that sound alike) in their dialect than in
       other dialects, but, as is the case with homonyms in general, context
@@ -1686,14 +1637,12 @@ Standard Klingon.
       alone, and a sword is often termed {yan 'etlh} (or even {'etlh
       yan})---literally, “sword sword.” This manner of speaking is quite
       characteristic of this region.</p>
-
     <p>For verbs, a somewhat different tactic is employed. In {ta' Hol},
       there is no problem distinguishing {bIboH} (“You are impatient”) from
       {bImoH} (“You are ugly”). In the Krotmag region, however, both are
       pronounced {mImoH}. To make the speaker’s intent clear, it is not
       uncommon to add a short sentence immediately after the potentially
       ambiguous one:</p>
-
     <blockquote>
       {mImoH. yIjotchoH.}
       <br>[Standard: {bIboH. yIjotchoH.}]
@@ -1704,7 +1653,6 @@ Standard Klingon.
       <br>(“You’re ugly. My eyes ache.”)
       <br>(See below regarding Krotmag {N}.)
     </blockquote>
-
     <p>Krotmag dialect speakers have a distinctive pronounciation of {D} as
       well: it sounds like {n}, except the tip of the tongue touches a point in
       the middle of the roof of the mouth rather than one behind the top teeth
@@ -1717,14 +1665,12 @@ Standard Klingon.
       the sounds {n} and {N} are distinct; the following pairs of words do not
       sound the same (the standard form of the second member of each pair
       follows in brackets):</p>
-
     <blockquote>
       {naH} (“fruit, vegetable”)/{NaH} (“now”) [{DaH}]
       <br>{nuj} (“mouth”)/{Nuj} (“vessel”) [{Duj}]
       <br>{mIn} (“eye”)/{mIN} (“colony”) [{mID}]
       <br>{nulegh} (“He/she sees us.”)/{Nulegh} (“He/she sees you.”) [{Dulegh}]
     </blockquote>
-
     <p>Though under most circumstances, speakers of the Krotmag dialect can
       easily distinguish between the two sounds, it is not unusual to hear a
       speaker add extra elements, as if to ensure clarity: {maH
@@ -1739,13 +1685,11 @@ Standard Klingon.
       fellow resident from an outsider, but also making communication
       difficult. Misunderstandings, sometimes with unfortunate consequences,
       are not all that uncommon.</p>
-
     <p>A third characteristic of the Krotmag accent is the nasal quality of the
       vowels, caused by the air being expelled through the mouth and nose at
       the same time while speaking. This in no way impedes communication with
       speakers of other dialects, but it does give the dialect a distinct
       tone.</p>
-
     <p>Although the number of speakers of the dialect of the Krotmag region is
       relatively small, their speech patterns are well known and easily
       recognized and have actually had an effect on other dialects. It is not
@@ -1810,7 +1754,6 @@ The Morskan dialect is characterized by the following speech patterns.
       {tlh,} Morskans say something that sounds very much like a combination of
       standard Klingon {gh} and {l}---that is, {ghl}. Compare, for example
       (Morskan/{ta' Hol}):</p>
-
     <blockquote>
       {ghIts}/{ghItlh} (“write”)
       <br>{mats}/{matlh} (“be loyal”)
@@ -1818,46 +1761,37 @@ The Morskan dialect is characterized by the following speech patterns.
       <br>{ghlo'}/{tlho'} (“thank”)
       <br>{ghluts}/{tlhutlh} (“drink”)
     </blockquote>
-
     <p>The Morskan dialect also pronounces {H} differently from the standard
       way. At the beginning of syllables, {H} sounds like Federation
       Standard <i>h</i> as in <i>hat</i>; at the ends of syllables, {H} is not
       pronounced at all:</p>
-
     <blockquote>
       {hIv}/{HIv} (“attack”)
       <br>{ba}/{baH} (“fire [a torpedo]”)
       <br>{hu}/{HuH} (“bile”)
     </blockquote>
-
     <p>Finally, {Q} at the beginning of syllables is pronounced the same as
       standard Klingon {H}:</p>
-
     <blockquote>
       {Hapla'}/{Qapla'} (“success”)
       <br>{Hoy}/{Qoy} (“hear”)
     </blockquote>
-
     <p>Because of this pronunciation difference, sometimes speakers of the
       Morskan dialect and those of {ta' Hol} misunderstand one another. Words
       such as the following have been responsible for the loss of more than one
       life:</p>
-
     <blockquote>
       {Hagh}: Morskan, “make a mistake”/Standard, “laugh”
       <br>{Hoj}: Morskan, “make war”/Standard, “be cautious”
       <br>{HoS}: Morskan, “be sorry”/Standard, “be strong”
     </blockquote>
-
     <h2>Grammar</h2>
-
     <p>Although the basic grammar of all dialects of Klingon is the same, there
       is some variation. The Morskan dialect, for example, does not put the
       suffix {-'e'} on the subject noun in a sentence translated with “to be”
       in Federation Standard (though the suffix is not missing in other
       contexts where it is used to focus attention on one noun rather than
       another within the sentence). Compare:</p>
-
     <blockquote>
       Morskan: {tera'ngan gha qama'.} (“The prisoner is a Terran.”)
       <br>Standard: {tera'ngan ghaH qama''e'} ({tera'ngan,} “Terran”; {ghaH,}
@@ -1867,7 +1801,6 @@ The Morskan dialect is characterized by the following speech patterns.
       <br>Standard: {bIghHa'Daq ghaHtaH qama''e'.} ({bIghHa'Daq,} “in the
       prison”; {-taH,} “continuous”)
     </blockquote>
-
     <p>Sometimes the {-'e'} is heard at the end of the subject noun in Morskan
       sentences of this type ({qama'} [“prisoner”] in the examples above),
       leading some speakers of {ta' Hol} to criticize speakers of the Morskan
