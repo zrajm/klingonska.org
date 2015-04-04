@@ -11,14 +11,13 @@ desc: Description of qepHom held in Uppsala in February 1999.
 <p class="center"><i>-- Det är bättre att det kommer få och har roligt,
     <br>än många som har tråkigt.</i></p>
 
-<b>Närvarande var:</b>
-<ul>
-<li>Axel Winkler
-<li>Björn Lindström
-<li>Björn X Öqvist
-<li>Daniel Swärd
-<li>Markus Persson
-</ul>
+**Närvarande var:**
+
+  * Axel Winkler
+  * Björn Lindström
+  * Björn X Öqvist
+  * Daniel Swärd
+  * Markus Persson
 
 Lördagen avlöpte i stort sett enligt programmet och vi gick igenom det vi
 planerat. Det visade sig att deltagarna hade fler gemensamma intressen än bara
@@ -89,7 +88,9 @@ Preliminärt program
 -------------------
 
 <table>
-  <tr><th colspan="2">Lördag
+  <thead>
+    <tr><th colspan="2">Lördag
+  </thead>
   <tr>
     <th>10:00
     <td>Hur 17 presenterar man sig på klingonska?
@@ -119,7 +120,9 @@ Preliminärt program
     <th>kvällen
     <td>Filmvisning: <i>Star Trek III: The search for Spock</i>. En film med
       tuffa klingoner och en hel del talad klingonska.
-  <tr><th colspan="2">Söndag
+  <thead>
+    <tr><th colspan="2">Söndag
+  </thead>
   <tr>
     <th>morgon
     <td>Frukost med PK i bakgrunden.

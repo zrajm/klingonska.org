@@ -4,12 +4,11 @@ updated: 2013-04-12T05:22:48+0200
 author: zrajm
 year: 1999-2013
 lang: en
-style: dict-layouttable
 
 Archive of Okrandian Canon
 ==========================
 <form method=get action="search/">
-  <table class="noborder layout">
+  <table class=noborder>
     <tr class=middle>
       <td><input name=q size=30 placeholder="Search archive…"
         ><button type=submit title="Search"
@@ -301,10 +300,10 @@ publication, or a description of its contents and/or form).
       <td><big>»<a href="1995-03-holqed-04-1.txt">Letters to the
             Editor</a>« (excerpt)</big>
         <br><small>• Letter from Christian Matzke, <i>{HolQeD} 4:1,</i> p. 7</small>
-        <br>     The words {Qaw'} <i>destroy</i> (n) and {jev} <i>storm</i> (v)
+        <br>     The words {Qaw'} <<destroy>> (n) and {jev} <<storm>> (v)
             are pointed out as having the wrong part-of-speech in TKD. --
             Correction about {jev} is likely to be wrong (cf. weather words
-            {SIS} <i>rain</i> [v], and {peD} <i>snow</i> [v]).
+            {SIS} <<rain>> [v], and {peD} <<snow>> [v]).
     <tr>
       <td class=nobr rowspan=2><big>1995-06</big>
       <td><big>»<a href="1995-06-holqed-04-2-a.txt">Interview: Okrand on
@@ -317,7 +316,7 @@ publication, or a description of its contents and/or form).
       <td><big>»<a href="1995-06-holqed-04-2-b.txt">{chuvmey}</a>«</big>
         <br><small>• Article by Lawrence M. Schoen(?), <i>{HolQeD} 4:2,</i>
           p. 7</small>
-        <br>     A small note on the existance of the word <i>coffee</i> in
+        <br>     A small note on the existance of the word <<coffee>> in
         Klingon.
     <tr>
       <td class=nobr><big>1995-08</big>
@@ -424,11 +423,11 @@ publication, or a description of its contents and/or form).
       <td><big>»<a href="1996-06-holqed-05-2-c.txt">{chuvmey}</a>«</big>
         <br><small>• Article by Lawrence M. Schoen, <i>{HolQeD} 5:2,</i>
           p. 20</small>
-        <br>     Gives words {nav HablI'} <i>fax</i> and {ghogh HablI'}
-        <i>telephone</i>, and a discussion aspect of whether or not {Hoch} can
-        be used so mean ‘all except for what I’m specifying to the contrary’
-        -- Marc Okrand instead suggest {le'be'} <i>unexceptional</i>
-        or <i>nonspecific</i> for this.
+        <br>     Gives us the words {nav HablI'} <<fax>> and {ghogh HablI'}
+        <<telephone>>, and a discussion aspect of whether or not {Hoch} can be
+        used so mean ‘all except for what I’m specifying to the contrary’
+        -- Marc Okrand instead suggest {le'be'} <<unexceptional>> or
+        <<nonspecific>> for this instead.
     <tr>
       <td class=nobr><big>1996-08</big>
       <td><big><a href="1996-08-rt.txt"><i>Radio Times</i></a></big>
@@ -448,7 +447,7 @@ publication, or a description of its contents and/or form).
       <td><big><a href="1996-08-06b-news.txt">(unknown title)</a></big>
         <br><small>• Newsgroup posting by Marc Okrand
           to <i>msn.<wbr>onstage.<wbr>startrek.<wbr>expert.<wbr>okrand</i></small>
-        <br>     Some comments on the word {mon} <i>smile</i> and on what to do
+        <br>     Some comments on the word {mon} <<smile>> and on what to do
         when a word you need can’t be found in the dictionary.
     <tr>
       <td><big><a href="1996-08-06c-news.txt">(unknown title)</a></big>
@@ -462,8 +461,8 @@ publication, or a description of its contents and/or form).
         <br><small>• Mailing list posting by David Trimboli
           to <i>tlhingan-hol</i></small>
         <br>     Refers to a conversation between Rachel Wyman and Marc Okrand
-        and briefly describes of how the second meaning for {ngech} (<i>woman’s
-        cleavage</i>) came into being during the {qep'a'} of 1996. (Written in
+        and briefly describes of how the second meaning for {ngech} (<<woman’s
+        cleavage>>) came into being during the {qep'a'} of 1996. (Written in
         Klingon.)
     <tr>
       <td class=nobr rowspan=2><big>1996-09</big>
@@ -472,7 +471,7 @@ publication, or a description of its contents and/or form).
         <br><small>• Column by Mark Schoulson, <i>{HolQeD} 5:3,</i>
           p. 14</small>
         <br>     Mark Shoulson retells the story about how Klingons got their
-        {'I'Du'} <i>armpits</i>.
+        {'I'Du'} <<armpits>>.
     <tr>
       <td><big>»<a href="1996-09-holqed-05-3-b.txt">Everyday Klingon</a>«</big>
         <br><small>• Column by Lawrence M. Schoen, <i>{HolQeD} 5:3,</i>
@@ -576,15 +575,15 @@ publication, or a description of its contents and/or form).
       <td><big><a href="1997-06-18a-news.txt">(unknown title)</a></big>
         <br><small>• Newsgroup posting by Marc Okrand
           to <i>msn.<wbr>onstage.<wbr>startrek.<wbr>expert.<wbr>okrand</i></small>
-        <br>     Explanation of the word {jeq} <i>protrude from</i>.
+        <br>     Explanation of the word {jeq} <<protrude from>>.
     <tr>
       <td><big><a href="1997-06-18b-news.txt">(unknown title)</a></big>
         <br><small>• Newsgroup posting by Marc Okrand
           to <i>msn.<wbr>onstage.<wbr>startrek.<wbr>expert.<wbr>okrand</i></small>
         <br>     Discussion on compound nouns that (apparently) are created
-        from a verb and a noun, like {QongDaq} <i>bed</i> and
-        {vutpa'} <i>galley</i>, also some talk about verb-noun homonyms, and
-        about constructing new words from verbs using {-pa'} and {-Daq}.
+        from a verb and a noun, like {QongDaq} <<bed>> and {vutpa'} <<galley>>,
+        also some talk about verb-noun homonyms, and about constructing new
+        words from verbs using {-pa'} and {-Daq}.
     <tr>
       <td class=nobr><big>1997-06-23</big>
       <td><big>»<a href="1997-06-23-news.txt">Re: MSN Wordlist</a>«</big>
@@ -598,7 +597,7 @@ publication, or a description of its contents and/or form).
             questions...</a>«</big>
         <br><small>• Newsgroup posting by Marc Okrand
           to <i>msn.<wbr>onstage.<wbr>startrek.<wbr>expert.<wbr>okrand</i></small>
-        <br>     About {jatlh} <i>speak</i>, and how to use it -- verb
+        <br>     About {jatlh} <<speak>>, and how to use it -- verb
         prefixes, object/indirect object, the prefix trick and direct
         quotations.
     <tr>
@@ -629,8 +628,8 @@ publication, or a description of its contents and/or form).
         <br>     A small booklet describing various tourist attractions
         available for the Federation tourist. This is a transcription of the
         article about {Qo'noS}, which contains a sentence translated into
-        Klingon by Marc Okrand. The word <b lang=tlh>jeq</b> <i>protrude</i>
-        occures here for the first time. (Abbreviated <i>FTG</i>.)
+        Klingon by Marc Okrand. The word {jeq} <<protrude from>> occures here
+        for the first time. (Abbreviated <i>FTG</i>.)
     <tr>
       <td><big>»<a href="1997-07-01-news.txt">Re: questions as
             objects</a>«</big>
@@ -641,14 +640,14 @@ publication, or a description of its contents and/or form).
       <td><big>»<a href="1997-07-13-news.txt">Re: Expensive word</a>«</big>
         <br><small>• Newsgroup posting by Marc Okrand
           to <i>msn.<wbr>onstage.<wbr>startrek.<wbr>expert.<wbr>okrand</i></small>
-        <br>     We’re given the words {wagh} <i>be expensive</i> and {waH} <i>try
-          out, use (experimentally)</i>.
+        <br>     We’re given the words {wagh} <<be expensive>> and {waH}
+          <<try out, use (experimentally)>>.
     <tr>
       <td class=nobr><big>1997-07-20</big>
       <td><big>»<a href="1997-07-20-email.txt">New word from Okrand</a>«</big>
         <br><small>• Mailing list posting by William H. Martin
           to <i>tlhingan-hol</i></small>
-        <br>     Describes word {vegh} <i>to go through</i> (v) given by Marc
+        <br>     Describes word {vegh} <<to go through>> (v) given by Marc
         Okrand during the {qep'a'} of 1997.
     <tr>
       <td class=nobr rowspan=4><big>1997-09-01</big>
@@ -936,8 +935,8 @@ publication, or a description of its contents and/or form).
         <br><small>• Mailing list posting by William H. Martin
           to <i>tlhingan-hol</i></small>
         <br>     Describes a new word from a spoken recording of Marc Okrand
-        made at the Praxis convention in 1998. The new word is
-        {ma'veq} <i>ceremonial knife used in the ritual of Mauk To’Vor</i>.
+        made at the Praxis convention in 1998. The new word is {ma'veq}
+        <<ceremonial knife used in the ritual of Mauk To’Vor>>.
     <tr>
       <td class=nobr><big>1999-03</big>
       <td><big>»<a href="1999-03-holqed-08-1.txt">Maltz Online</a>«</big>
@@ -982,10 +981,10 @@ publication, or a description of its contents and/or form).
       <td class=nobr rowspan=2><big>1999-12</big>
       <td><big>»<a href="1999-12-holqed-08-4-a.txt">Maltz Online</a>«</big>
         <br><small>• Article by Marc Okrand in <i>{HolQeD} 8:4,</i> pp. 6--10</small>
-        <br>     New Klingon words for compass directions, {chan} <i>area
-        eastward</i>, {'ev} <i>area northwestward</i>, {tIng} <i>area
-        southwestward</i>, plus a new adverbial {ngugh} <i>then, at that
-        time</i> (as opposed to <i>subsequently</i>) and a related idiom.
+        <br>     New Klingon words for compass directions, {chan}
+        <<area eastward>>, {'ev} <<area northwestward>>, {tIng}
+        <<area southwestward>>, plus a new adverbial {ngugh} <<then, at that
+        time>> (as opposed to <<subsequently>>) and a related idiom.
     <tr>
       <td><big>»<a href="1999-12-holqed-08-4-b.txt">Notes from <i>Star Trek V:
               The Final Frontier</i></a>«</big>
@@ -1017,7 +1016,7 @@ publication, or a description of its contents and/or form).
     <tr>
       <td><big>»<a href="2000-12-holqed-09-4-b.txt">More from Maltz</a>«</big>
         <br><small>• Article by Marc Okrand, <i>{HolQeD} 9:4,</i> p. 16</small>
-        <br>     A brief description of the Klingon word for <i>bull</i>.
+        <br>     A brief description of the Klingon word for <<bull>>.
   <tbody id=2001>
     <tr>
       <td class=nobr><big>2001-02-17</big>
@@ -1090,17 +1089,17 @@ publication, or a description of its contents and/or form).
             II</a>«</big>
         <br><small>• Article by Marc Okrand, <i>{HolQeD} 12:3,</i>
           pp. 8--10</small>
-        <br>     Maltz talks about the concept of <i>false honor</i>, and as a
-        side note tells us how to say <i>Oh, yeah?!?</i> in Klingon. This is
-        the reward for the second of those who succeeded in solving the
-        “Frasier’s Klingon” challenge in <i>{HolQeD} 11:4.</i>
+        <br>     Maltz talks about the concept of <<false honor>>, and as a
+          side note tells us how to say <<Oh, yeah?!?>> in Klingon. This is the
+          reward for the second of those who succeeded in solving the
+          “Frasier’s Klingon” challenge in <i>{HolQeD} 11:4.</i>
     <tr>
       <td class=nobr><big>2003-09-16</big>
       <td><big>»<a href="2003-09-16-email.txt">Re: An error ({qep'a' wa'maHDIch})</a>«</big>
         <br><small>• Mailing list posting by Tad Stauffer, Daniel Morse and
           Steven Boozer to <i>tlhingan-hol</i></small>
-        <br>     Description of the word {Sa'Hut} <i>buttocks</i> was presented
-        by Marc Okrand during the hokey pokey at {qep'a' wa'maHDIch} in 2003.
+        <br>     Description of the word {Sa'Hut} <<buttocks>> was presented by
+          Marc Okrand during the hokey pokey at {qep'a' wa'maHDIch} in 2003.
     <tr>
       <td class=nobr><big>2003-12</big>
       <td><big>»<a href="2003-12-holqed-12-4.txt">Maltz’s Reward: Part
@@ -1136,7 +1135,7 @@ publication, or a description of its contents and/or form).
         <br><small>• Mailing list posting by Steven Boozer
           to <i>tlhingan-hol</i></small>
         <br>     Clarifications on the hypothetical (but now disproven) word
-        *{jIn} <i>brew.</i>
+        *{jIn} <<brew.>>
   <tbody id=2005>
     <tr>
       <td class=nobr><big>2005-08-01</big>
@@ -1145,31 +1144,31 @@ publication, or a description of its contents and/or form).
           (on <a href="http://klingon.livejournal.com/26647.html">LiveJournal</a>)
           by Rohan Fenwick</small>
         <br>     A LiveJournal posting by Rohan Fenwick (ubykhlives) reporting
-        the new words gived by Marc Okrand at the {qep'a'} 2005. {lev} <i>hard
-        palate, roof of mouth</i> (n), {meyrI'} <i>square</i> (n) and
-        {bop} <i>to be about, to be concerned with</i> (v).
+        the new words gived by Marc Okrand at the {qep'a'} 2005. {lev}
+        <<hard palate, roof of mouth>> (n), {meyrI'} <<square>> (n) and {bop}
+        <<to be about, to be concerned with>> (v).
   <tbody id=2007>
     <tr>
       <td class=nobr rowspan=2><big>2007-08-02</big>
       <td><big>»<a href="2007-08-02a-email.txt">Re: {mu' chu'}</a>«</big>
         <br><small>• Mailing list posting by Robyn Stewart
           to <i>tlhingan-hol</i></small>
-        <br>     Describes the new word {qolqoS} <i>heart, core,</i> and also
-        the word {'elI'jaH} <i>uninvited guest.</i> (Written in Klingon.)
+        <br>     Describes the new word {qolqoS} <<heart, core,>> and also the
+          word {'elI'jaH} <<uninvited guest.>> (Written in Klingon.)
     <tr>
       <td><big>»<a href="2007-08-02b-email.txt">RE: {mu' chu'}</a>«</big>
         <br><small>• Mailing list posting by Eric Andeen
           to <i>tlhingan-hol</i></small>
-        <br>     First mention of the new word {pu'jIn} <i>map</i>, which was
-        introduced my Marc Okrand during the {qep'a'} of 2007, on the
-        tlhingan-hol mailing list. (Written in Klingon.)
+        <br>     First mention of the new word {pu'jIn} <<map>>, which was
+          introduced my Marc Okrand during the {qep'a'} of 2007, on the
+          tlhingan-hol mailing list. (Written in Klingon.)
     <tr>
       <td class=nobr><big>2007-08-03</big>
       <td><big>»<a href="2007-08-03-email.txt">RE: {mu' chu'}</a>«</big>
         <br><small>• Mailing list posting by Eric Andeen
           to <i>tlhingan-hol</i></small>
-        <br>     Tells the anecdote of how the new word {pu'jIn} <i>map</i>
-        came into being. (Written in Klingon.)
+        <br>     Tells the anecdote of how the new word {pu'jIn} <<map>> came
+          into being. (Written in Klingon.)
     <tr>
       <td class=nobr><big>2007-08-11</big>
       <td><big>»<a href="2007-08-11-email.txt">Re: {mu' chu' - 'elI'jaH}
@@ -1177,7 +1176,7 @@ publication, or a description of its contents and/or form).
         <br><small>• Mailing list posting by Agnieszka Solska
           to <i>tlhingan-hol</i></small>
         <br>     Agnieszka Solska tells that Marc Okrand wrote the new word
-        {'elI'jaH} <i>unexpected visitor</i> in her notebook during {qep'a'}
+        {'elI'jaH} <<unexpected visitor>> in her notebook during {qep'a'}
         2006. (Written in Klingon.)
   <tbody id=2008>
     <tr>
@@ -1185,22 +1184,22 @@ publication, or a description of its contents and/or form).
       <td><big>»<a href="2008-07-28-email.txt">More from Maltz</a>«</big>
         <br><small>• Mailing list posting by Lawrence M. Schoen
           to <i>tlhingan-hol</i></small>
-        <br>     New word from the {qep'a'} of 2008, {wIlpuq} <i>pudding</i>.
+        <br>     New word from the {qep'a'} of 2008, {wIlpuq} <<pudding>>.
     <tr>
       <td class=nobr><big>2008-11-23</big>
       <td><big>»<a href="2008-11-23-email.txt">{nIyma'}</a>«</big>
         <br><small>• Mailing list posting by Lieven L. Litaer
           to <i>tlhingan-hol</i></small>
         <br>     Description of a letter from Marc Okrand, intoducing the new
-        word {nIyma'} <i>phantom, apparition</i>.
+        word {nIyma'} <<phantom, apparition>>.
   <tbody id=2009>
     <tr>
       <td class=nobr><big>2009-07-27</big>
       <td><big>»<a href="2009-07-27-email.txt">News from Maltz</a>«</big>
         <br><small>• Mailing list posting by Alan Anderson
           to <i>tlhingan-hol</i></small>
-        <br>     New words from the {qep'a'} of 2009, {vIlle'} <i>minion</i>,
-        {vIl} <i>ridge, bump,</i> and names for the sounds of the Klingon
+        <br>     New words from the {qep'a'} of 2009, {vIlle'} <<minion>>,
+        {vIl} <<ridge, bump,>> and names for the sounds of the Klingon
         language: {'at}, {bay}, {chay}, {Day}, {'et} etc., until ending in
         {yay}, {qaghwI'} (or {'}).
     <tr>
@@ -1209,8 +1208,8 @@ publication, or a description of its contents and/or form).
         <br><small>• Mailing list posting by Lieven L. Litaer
           to <i>tlhingan-hol</i></small>
         <br>     Partial description of a letter from Marc Okrand, giving an
-        additional translation of the word {pu'jIn} <i>map</i>. The new meaning
-        is <i>plan</i> (as in an architect’s plan of a house).
+        additional translation of the word {pu'jIn} <<map>>. The new meaning
+        is <<plan>> (as in an architect’s plan of a house).
   <tbody id=2010>
     <tr>
       <td class=nobr><big>2010-04-29</big>
@@ -1230,44 +1229,43 @@ publication, or a description of its contents and/or form).
       <td><big>»<a href="2010-07-26-email.txt">Re: {mu' chu'}</a>«</big>
         <br><small>• Mailing list posting by Chris Lipscombe
           to <i>tlhingan-hol</i></small>
-        <br>     New word: {ghIv} <i>limb (of a person)</i>. Clarified meanings
-          for {Qutlh} <i>support</i> (which only means physically supporting
-          something) and {ghaq} <i>contribute</i> (which can be used to
-          mean <i>support financially</i>).
+        <br>     New word: {ghIv} <<limb (of a person)>>. Clarified meanings
+          for {Qutlh} <<support>> (which only means physically supporting
+          something) and {ghaq} <<contribute>> (which can be used to mean
+          <<support financially>>).
     <tr>
       <td class=nobr><big>2010-12-05</big>
       <td><big>»<a href="2010-12-05-email.txt">{latlh mu' chu'}</a>«</big>
         <br><small>• Mailing list posting by Rohan Fenwick
           to <i>tlhingan-hol</i></small>
-        <br>     New word: {mIllogh} <i>picture, (visual) deptiction</i>.
+        <br>     New word: {mIllogh} <<picture, (visual) deptiction>>.
     <tr>
       <td class=nobr><big>2010-12-07</big>
       <td><big>»<a href="2010-12-07-email.txt">News from Maltz</a>«</big>
         <br><small>• Mailing list posting by Lieven L. Litaer
           to <i>tlhingan-hol</i></small>
         <br>     Brief description of the {qepHom HutDIch} in Saarbrücken, and
-        introducing the new words {buq} <i>bag, sack, pouch</i> and
-        {ngogh} <i>block, lump, brick</i>.
+        introducing the new words {buq} <<bag, sack, pouch>> and {ngogh}
+        <<block, lump, brick>>.
     <tr>
       <td class=nobr><big>2010-12-13</big>
       <td><big>»<a href="2010-12-13-email.txt">tractor beam</a>«</big>
         <br><small>• Mailing list posting by Lieven L. Litaer
           to <i>tlhingan-hol</i></small>
-        <br>     New word {luHwI' tIH} <i>tractor beam</i> presented.
+        <br>     New word {luHwI' tIH} <<tractor beam>> presented.
     <tr>
       <td class=nobr><big>2010-12-19</big>
       <td><big>»<a href="2010-12-19-email.txt">monastery</a>«</big>
         <br><small>• Mailing list posting by Lieven L. Litaer
           to <i>tlhingan-hol</i></small>
-        <br>     New word {ghIn} <i>monastery</i> described.
+        <br>     New word {ghIn} <<monastery>> described.
     <tr>
       <td class=nobr><big>2010-12-22</big>
       <td><big>»<a href="2010-12-22-email.txt">{latlh 'e'nalpu'}</a>«</big>
         <br><small>• Mailing list posting by Lieven L. Litaer
           to <i>tlhingan-hol</i></small>
-        <br>     Describing relationships
-        like <i>brother-in-law</i>, <i>sister-in-law</i>, and spouses siblings’
-        spouses.
+        <br>     Describing relationships like <<brother-in-law>>,
+          <<sister-in-law>>, and spouses siblings’ spouses.
     <tr>
       <td class=nobr><big>2010-12-25</big>
       <td><big>»<a href="2010-12-25-email.txt">Letter from Maltz</a>«</big>
@@ -1282,17 +1280,16 @@ publication, or a description of its contents and/or form).
       <td><big>»<a href="2011-01-16-email.txt">monastery: more</a>«</big>
         <br><small>• Mailing list posting by Lieven L. Litaer
           to <i>tlhingan-hol</i></small>
-        <br>     Clarifications on the new word {ghIn} <i>monastery.</i>
+        <br>     Clarifications on the new word {ghIn} <<monastery.>>
     <tr>
       <td class=nobr><big>2011-08-22</big>
       <td><big>»<a href="2011-08-22-email.txt">Nine New Words from {qep'a'} 18</a>«</big>
         <br><small>• Mailing list posting by Alan Anderson
           to <i>tlhingan-hol</i></small>
-        <br>     New words from the {qep'a'} of 2011: {jul} <i>sun,</i>
-        {pan} <i>emit sparks,</i> {le'yo'} <i>pride,</i> {ngIq} <i>individual
-        one,</i> {Hun} <i>khrun (animal),</i> {QIncha'} <i>krincha
-        (animal),</i> {yIr} <i>gather,</i> {'o}
-        <i>o</i> (in direct address), {wel} <i>owe.</i>
+        <br>     New words from the {qep'a'} of 2011: {jul} <<sun,>> {pan}
+          <<emit sparks,>> {le'yo'} <<pride,>> {ngIq} <<individual one,>> {Hun}
+          <<khrun (animal),>> {QIncha'} <<krincha (animal),>> {yIr} <<gather,>>
+          {'o} <<o>> (in direct address), {wel} <<owe.>>
     <tr>
       <td class=nobr><big>2011-10-29</big>
       <td><big>»<a href="2011-10-29-email.txt">[Tlhingan-hol] Eurotalk -- New
@@ -1347,9 +1344,9 @@ publication, or a description of its contents and/or form).
             for “postcard”</a>«</big>
         <br><small>• Mailing list posting by Rohan Fenwick
           to <i>tlhingan-hol</i></small>
-        <br>     The Klingon word for <i>postcard</i> and a description of a
-        discrepancy between the {pIqaD} an the romanized text on the Eurotalk
-        Klingon language course.
+        <br>     The Klingon word for <<postcard>> and a description of a
+          discrepancy between the {pIqaD} an the romanized text on the Eurotalk
+          Klingon language course.
     <tr>
       <td class=nobr><big>2011-11-07</big>
       <td><big>»<a href="2011-11-07-email.txt">[Tlhingan-hol] Eurotalk -- New
@@ -1366,10 +1363,10 @@ publication, or a description of its contents and/or form).
         <br><small>• Mailing list posting by Agnieszka Solska
           to <i>tlhingan-hol</i></small>
         <br>     Email relaying two new messages from Marc Okrand. First
-        message with new words for <i>flavor; be indirect / be direct; double
-        agent</i> and two kinds of <i>hole</i>. Second message with <i>ditch;
-        be deep / be shallow; be straight / be crooked</i> and <i>model,
-        example, pattern</i>.
+          message with new words for <<flavor; be indirect / be direct; double
+          agent>> and two kinds of <<hole>>. Second message with <<ditch; be
+          deep / be shallow; be straight / be crooked>> and <<model, example,
+          pattern>>.
 </table>
 
 [[eof]]

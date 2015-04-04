@@ -24,7 +24,7 @@ ordning tillämpas i ordlistor etc.: {a}, {b}, {ch}, {D}, {e}, {gh}, {H}, {I},
 {w}, {y}, {'}
 
 Notera att {ch}, {gh}, {ng} och {tlh} räknas som en enda bostav. Således kommer
-ordet {nob} <i>ge</i> före {ngab} <i>försvinna</i> i en klingonsk ordlista.
+ordet {nob} <<ge>> före {ngab} <<försvinna>> i en klingonsk ordlista.
 
 Generellt kan sägas att de ljud som avviker från det engelska uttalet är
 skrivna så att de inte <i>ser ut</i> som engelsk stavning. Ljud som skrivs med
@@ -34,7 +34,7 @@ också ifrån engelskan i uttalet.
 
 Enligt konvention skrivs klingonsk text med fetstil ({Qapla'}) -- eller omgivet
 av krullparanteser (&#123;Qapla'&#125;), då fetstil inte är tillgängligt. På
-samma sätt markeras en översätt fras med kursiv stil (<i>framgång</i>) eller
+samma sätt markeras en översätt fras med kursiv stil (<<framgång>>) eller
 ibland med citattecken ("framgång"). -- Citattecken (som används i bl.a.
 <i>KGT</i>) är typografiskt klumpigare, och Okrand sagt att han hellre skulle
 använt kursiv stil (precis som i <i>TKD</i>), men att hans redaktör hade

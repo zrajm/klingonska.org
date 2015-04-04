@@ -56,7 +56,7 @@ style: banner dict
     When in doubt, check this list of known
     errors. <small class=nobr>[Updated <time>2007-07-15</time>]</small>
 
-  <dt><a href="qq/">{Qo'noS QonoS} -- <i>The Kronos Journal</i></a>
+  <dt><a href="qq/">{Qo'noS QonoS} -- <<The Kronos Journal>></a>
   <dd>KLI's online journal in Klingon. This is taken directly from the web page
     of <i>The Klingon Language Institute</i> and only slightly modified for
     better looking printouts. (With links back to the original page, of

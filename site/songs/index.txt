@@ -32,7 +32,7 @@ to me](mailto:zrajm@klingonska)!
     give me any information regarding writer, and year it was written I’d
     greatly appreciate it. <small>[Changed 2007-07-15]</small>
 
-  <dt><a href="gho_oh.txt">{gho ’oH} -- <i>It’s a Circle</i></a>
+  <dt><a href="gho_oh.txt">{gho ’oH} -- <<It’s a Circle>></a>
   <dd>This is a translation of the Sesame Street song called “The Circle Song”.
     Translation made by Alan Anderson. (Please correct me if I’m wrong, my
     email address is
@@ -40,7 +40,7 @@ to me](mailto:zrajm@klingonska)!
     Thanks to Agnieszka Solska for sending me the
     lyrics. <small>[Changed 2009-12-05]</small>
 
-  <dt><a href="qumbaya.txt">{qumbaya} -- <i>Kum ba yah</i></a>
+  <dt><a href="qumbaya.txt">{qumbaya} -- <<Kum ba yah>></a>
   <dd><i>Lyrics by unknown, trad. melody.</i>
     <br>One of the more playful songs I know of in
     Klingon. <small>[Changed 2007-07-15]</small>
@@ -53,14 +53,14 @@ to me](mailto:zrajm@klingonska)!
     Terran lyrics, but a complete restoration in which it becomes apparent what
     the song really is all about. <small>[Changed 2007-07-15]</small>
 
-  <dt><a href="anthem/">{SuvwI’ van bom} -- <i>The Warrior’s Anthem</i>
-    or <i>The Klingon Anthem</i></a>
+  <dt><a href="anthem/">{SuvwI’ van bom} -- <<The Warrior’s Anthem>></a>
   <dd><i>Music by Paramount Pictures 1993, English & Klingon lyrics by Hillary
     Bader 1997, Klingon title by Marc Okrand(?) 1997.</i>
-    <br>This song was first heard (in it’s Paramount Hol version) in the TNG
-    eposode “Birthright, Part II”, and then again in the computer game “Star
-    Trek: Klingon”, later on Hillary Bader wrote lyrics in English and
-    {tlhIngan Hol} (see also KGT p.175). <small>[Changed 2011-07-19]</small>
+    <br>Also known as “The Klingon Anthem”. This song was first heard (in it’s
+    Paramount Hol version) in the TNG eposode “Birthright, Part II”, and then
+    again in the computer game “Star Trek: Klingon”. Later on Hillary Bader
+    wrote lyrics in English and {tlhIngan Hol} (see also
+    KGT p.175). <small>[Changed 2011-07-19]</small>
 
   <dt><a href="tahjaj_wo/">{taHjaj wo’} -- <i>An Imperial Anthem</i></a>
   <dd><i>By Rich Yampell 1993.</i>
@@ -70,35 +70,35 @@ to me](mailto:zrajm@klingonska)!
     parody of it, called <a href="dahjaj_po.txt">{DaHjaj po}</a> (see
     above). <small>[Changed 2010-11-05]</small>
 
-  <dt><a href="toghmeh_bom.txt">{toghmeH bom} -- <i>A Song for
-    Counting</i></a>
+  <dt><a href="toghmeh_bom.txt">{toghmeH bom} -- <<A Song for Counting>></a>
   <dd><i>By Mark Shoulson in 1999.</i>
     <br>A children’s counting song, with one verse for each number between zero
     and nine. <small>[Changed 2007-07-15]</small>
 
-  <dt><a href="yih_bom.txt">{yIH bom} -- <i>The Tribble Song</i></a>
+  <dt><a href="yih_bom.txt">{yIH bom} -- <<The Tribble Song>></a>
   <dd><i>Lyrics by Lawrence Schoen, music by Rich Yampell, written in 2000.</i>
     <br>This is a song intended for the bar room. It was first sung by Lawrence
     at the {qep’a’ SochDIch} and then we all got to sing along. (The {qep’a’}
     had a tribble theme, and the song was written specifically for the
     occasion.) <small>[Changed 2007-07-15]</small>
 
-  <dt><a href="yih_ghupbogh_be_qan.txt">{yIH ghupbogh be’ qan} -- <i>There Was
-    an Old Lady Who Swallowed a Fly</i></a>
+  <dt><a href="yih_ghupbogh_be_qan.txt">{yIH ghupbogh be’ qan} -- <<There Was
+    an Old Lady Who Swallowed a Fly>></a>
   <dd><i>Lyrics by David Trimboli in 1997, trad. melody.</i>
     <br>The original version of a beloved Klingon nursery rhyme with the {jat
     qaD} still intact. <small>[Changed 2007-07-15]</small>
 
-  <dt><a href="america.html"><b lang="tlh"><i>’amerIqa</i> luHo’qu’taH Hoch</b>
-    -- <i>Alla älskar vi Amerika (“We All Love America”)</i></a>
-  <dd><i>Music and lyrics by <span lang="sv">Den Förlorade Generationen</span>
+  <dt><a href="america.html"><b lang=tlh><i>’amerIqa</i> luHo’qu’taH Hoch</b>
+    -- <i class=translation lang=sv>Alla älskar vi Amerika</i> (“<<We All Love
+    America>>”)</i></a>
+  <dd><i>Music and lyrics by <span lang=sv>Den Förlorade Generationen</span>
     (“The Lost Generation”) in 1999(?), translated by zrajm and Markus Persson
     in 2000.</i>
     <br>This song was originally written in Swedish, but at the request of the
     band who wrote it, we translated it into
     Klingon. <small>[Changed 2007-07-15]</small>
 
-  <dt><a href="iv_mah.txt">{’Iv maH} -- <i>Who are we?</i></a>
+  <dt><a href="iv_mah.txt">{’Iv maH} -- <<Who are we?>></a>
   <dd><i>By Rich Yampell in 1999.</i>
     <br>This is the KLI theme song. It was recorded at the {qep’a’ SochDIch} by
     a choir consisting of all attendants. (Including, among others: myself,

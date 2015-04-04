@@ -449,7 +449,7 @@ complete description of each of the sounds is given in the text below.
 
 Though frowned upon by older Klingons it is not all that uncommon that doubled
 consonants are pronounced as only one letter by younger Klingons. The word
-{qettaH} <i>He/she keeps on running,</i> can be pronounced, either (1) with two
+{qettaH} <<He/she keeps on running,>> can be pronounced, either (1) with two
 separately articulated {t}s in the middle, or (2) with one {t} held for an
 extra moment to indicate the doubling, or finally (3) as if it was written with
 just a single {t}. <small>[<a class=sources>Display Sources</a>]</small>
@@ -493,8 +493,8 @@ to single follows a clear pattern. Those most likely to be reduced are {pp},
 in <a href="http://en.wikipedia.org/wiki/General_American">General American</a>
 or <a href="http://en.wikipedia.org/wiki/Received_Pronunciation">BBC
 English</a> <i>sp<u>a</u></i> [spɑː], as in some dialects of
-German <i>T<u>a</u>g</i> [tʰɑːk] (meaning <i>day</i>), or as in
-Swedish <i>j<u>а</u>g</i> [jɑːɡ] (meaning <i>I</i>).
+German <i lang=de>T<u>a</u>g</i> [tʰɑːk] (meaning <<day>>), or as in
+Swedish <i lang=sv>j<u>а</u>g</i> [jɑːɡ] (meaning <<I>>).
 <small>[<a class=sources>Display Sources</a>]</small>
 
 <div class=hidden>
@@ -523,8 +523,8 @@ Swedish <i>j<u>а</u>g</i> [jɑːɡ] (meaning <i>I</i>).
 {b} [<a href="http://en.wikipedia.org/wiki/Voiced_bilabial_stop">b</a>]
 <i>Voiced bilabial stop</i> (called {bay} when spelling)---This sound is quite
 common in Terran languages. It is pronounced as in English <i>a<u>b</u>ack</i>
-[əˈbæk], as in German <i><u>B</u>ub</i> [buːp] (meaning <i>boy</i>) or as in
-Swedish <i><u>b</u>ra</i> [ˈbrɑː] (<i>good</i>).
+[əˈbæk], as in German <i lang=de><u>B</u>ub</i> [buːp] (meaning <<boy>>) or
+as in Swedish <i lang=sv><u>b</u>ra</i> [ˈbrɑː] (<<good>>).
 <small>[<a class=sources>Display Sources</a>]</small>
 
 <p class="canon hidden">{b} As in English <i>bronchitis</i>
@@ -542,8 +542,8 @@ Swedish <i><u>b</u>ra</i> [ˈbrɑː] (<i>good</i>).
 [<a href="http://en.wikipedia.org/wiki/Voiceless_palato-alveolar_affricate">t͡ʃ</a>]
 <i>Voiceless postalveolar affricate</i> (called {chay} when spelling)---This
 sound pronounced as in English <i>blea<u>ch</u></i> [bliːt͡ʃ], as in
-German <i><u>Tsch</u>inelle</i> [t͡ʃiˈnɛlə] (meaning <i>cymbal</i>), or as in
-Finland Swedish <i>tjugo</i> [t͡ʃʉ:gʉ] (<i>twenty</i>).
+German <i lang=de><u>Tsch</u>inelle</i> [t͡ʃiˈnɛlə] (meaning <<cymbal>>), or as
+in Fenno-Swedish <i lang="sv-fi">tjugo</i> [t͡ʃʉ:gʉ] (<<twenty>>).
 <small>[<a class=sources>Display Sources</a>]</small>
 
 <p class="canon hidden">{ch} As in English <i>chew</i>
@@ -562,7 +562,7 @@ Finland Swedish <i>tjugo</i> [t͡ʃʉ:gʉ] (<i>twenty</i>).
 [<a href="http://en.wikipedia.org/wiki/Voiced_retroflex_stop">ɖ</a>]
 <i>Voiced retroflex stop</i> (called {Day} when spelling)---In English, this
 sound only occur in some dialects, such as in Indian English <i><u>d</u>ine</i>
-[ɖaɪn] (<i>to eat</i>). The sound is similar to <i>d</i> in <i>dream</i>
+[ɖaɪn] (<<to eat>>). The sound is similar to <i>d</i> in <i>dream</i>
 or <i>android,</i> but the tip of the tongue touches the roof of the mouth
 further back, at the back
 of <a href="http://en.wikipedia.org/wiki/Alveolar_ridge">the alveolar ridge</a>
@@ -571,11 +571,10 @@ know, this sound does not occur in German.
 
 The {D} sound exist in most Swedish central and northern dialects. This is how
 the letters <i>rd</i> are pronounced when they occur together, e.g. in the
-word <i>no<u>rd</u></i> [nuːɖ] (meaning <i>north</i>). What is actually going
-on here is that when <i>r</i> comes before
-a <a href="http://en.wikipedia.org/wiki/Dental_consonant">dental consonant</a>
-the <i>r</i> is not pronounced, but instead causes retroflexation of the
-following consonant.
+word <i lang=sv>no<u>rd</u></i> [nuːɖ] (meaning <<north>>). What is actually
+going on here, phonetically, is that the <i>r</i> causes retroflexation of the
+following consonant when it comes before
+a <a href="http://en.wikipedia.org/wiki/Dental_consonant">dental consonant</a>.
 <small>[<a class=sources>Display Sources</a>]</small>
 
 <div class=hidden>
@@ -593,7 +592,7 @@ following consonant.
     {toD}, is {D}. To make this sound, point the tip of your tongue directly
     upwards, and touch the hard part of the roof of your mouth, and the do the
     same thing you would do to make a <i>d</i> sound. <small>[CK]</small></p>
-  <p class=canon>For instance {Dal} means <i>It is boring.</i> To get the first
+  <p class=canon>For instance {Dal} means <<It is boring.>> To get the first
     sound in that word right make sure your tongue is pointed straight up
     towards the roof of your mouth. <small>[PK]</small></p>
 </div>
@@ -611,8 +610,9 @@ following consonant.
 <i>Open-mid front unrounded vowel</i> (called {'et} when spelling)---As
 in <a href="http://en.wikipedia.org/wiki/General_American">General American</a>
 or <a href="http://en.wikipedia.org/wiki/Received_Pronunciation">BBC
-English</a> <i>b<u>e</u>d</i> [bɛd], as in German <i>B<u>e</u>tt</i> [bɛt]
-(meaning <i>bed</i>), or as in Swedish <i><u>e</u>n</i> [ɛn] (<i>one</i>).
+English</a> <i>b<u>e</u>d</i> [bɛd], as in German <i lang=de>B<u>e</u>tt</i>
+[bɛt] (meaning <<bed>>), or as in Swedish <i lang=sv><u>e</u>n</i> [ɛn]
+(<<one>>).
 <small>[<a class=sources>Display Sources</a>]</small>
 
 <div class=hidden>
@@ -634,9 +634,9 @@ English</a> <i>b<u>e</u>d</i> [bɛd], as in German <i>B<u>e</u>tt</i> [bɛt]
 velar fricative</i> (called {ghay} when spelling)---This sound is not like
 anything in English, German or Swedish. It is produced with the tongue in the
 same position as for <i>g</i>---as in English <i><u>g</u>a<u>gg</u>le</i>
-[ˈɡæɡɫ̩], German <i>Lü<u>g</u>e</i> [ˈlyːɡə] (meaning <i>lie</i>) or
-Swedish <i><u>g</u>ång</i> [ɡɔŋː], (<i>path</i>)---but relaxing somewhat and
-humming. It is a voiced version of the Klingon {H} sound.
+[ˈɡæɡɫ̩], German <i lang=de>Lü<u>g</u>e</i> [ˈlyːɡə] (meaning <<lie>>) or
+Swedish <i lang=sv><u>g</u>ång</i> [ɡɔŋː] (<<path>>)---but relaxing somewhat
+and humming. It is a voiced version of the Klingon {H} sound.
 
 The <i>guttural r</i>
 [<a href="http://en.wikipedia.org/wiki/Voiced_uvular_fricative">ʁ</a>] of
@@ -672,24 +672,25 @@ accent). <small>[<a class=sources>Display Sources</a>]</small>
 velar fricative</i> (called {Hay} when spelling)---This sound is not common in
 English but can be heard in some pronunciations of the American exclamation of
 disgust <i>yech</i> [jɛx]. It also occur in Scottish <i>lo<u>ch</u></i> [lɔx],
-and in German <i>Ku<u>ch</u>en</i> [kuːxən] (meaning <i>cake</i>). It is a
+and in German <i lang=de>Ku<u>ch</u>en</i> [kuːxən] (meaning <<cake>>). It is a
 voiceless version of the Klingon {gh}.
 <small>[<a class=sources>Display Sources</a>]</small>
 
 <div class=hidden>
   <p class=canon>{H} This is also not like anything in English, but it is just
-    like <i>ch</i> in the name of the German composer <i>Bach</i> or in the
-    Yiddish toast <i>l’chaim,</i> or the <i>j</i> in the Mexican city
-    of <i>Tijuana</i> in <i>Baja California.</i> It is produced in the same way
-    as Klingon {gh}, but is articulated with a very coarse, strong rasp. Unlike
-    Klingon {gh}, the vocal cords do not vibrate in saying Klingon
-    {H}. <small>[TKD 1.1]</small></p>
-  <p class=canon>[{H} as in] <i>ch</i> in German <i>Bach</i> or
-    Scottish <i>loch</i> <small>[TKDa p. 169]</small></p>
+    like <i>ch</i> in the name of the German composer <i lang=de>Bach</i> or in
+    the Yiddish toast <i lang=yi>l’chaim,</i> or the <i>j</i> in the Mexican
+    city of <i lang="es-mx">Tijuana</i> in <i lang="en-mx">Baja California.</i>
+    It is produced in the same way as Klingon {gh}, but is articulated with a
+    very coarse, strong rasp. Unlike Klingon {gh}, the vocal cords do not
+    vibrate in saying Klingon {H}. <small>[TKD 1.1]</small></p>
+  <p class=canon>[{H} as in] <i>ch</i> in German <i lang=de>Bach</i> or
+    Scottish <i lang=sco>loch</i> <small>[TKDa p. 169]</small></p>
   <p class=canon>The last sound in the word is {H}, this is the same as the
-    sound at the end of the name of the ancient Terran composer <i>Bach.</i>
-    You’d make it the same way you make a <i>k</i> sound, but force air out of
-    your mouth at the same time. <small>[CK]</small></p>
+    sound at the end of the name of the ancient Terran
+    composer <i lang=de>Bach.</i> You’d make it the same way you make
+    a <i>k</i> sound, but force air out of your mouth at the same
+    time. <small>[CK]</small></p>
 </div>
 
 
@@ -704,9 +705,9 @@ voiceless version of the Klingon {gh}.
 {I}
 [<a href="http://en.wikipedia.org/wiki/Near-close_near-front_unrounded_vowel">ɪ</a>]
 <i>Near-close near-front unrounded vowel</i> (called {'It} when spelling)---As
-in English <i>b<u>i</u>t</i> [bɪt], as in German <i>b<u>i</u>tte</i> [ˈbɪtə]
-(meaning <i>please</i>), or as in Swedish <i>sill</i> [sɪl] (<i>herring</i>).
-<small>[<a class=sources>Display Sources</a>]</small>
+in English <i>b<u>i</u>t</i> [bɪt], as in German <i lang=de>b<u>i</u>tte</i>
+[ˈbɪtə] (meaning <<please>>), or as in Swedish <i lang=sv>sill</i> [sɪl]
+(<<herring>>). <small>[<a class=sources>Display Sources</a>]</small>
 
 <div class=hidden>
   <p class=canon>{I} As English <i>i</i> in <i>misfit.</i> Once in a while, it
@@ -728,12 +729,12 @@ in English <i>b<u>i</u>t</i> [bɪt], as in German <i>b<u>i</u>tte</i> [ˈbɪtə]
 {j}
 [<a href="http://en.wikipedia.org/wiki/Voiced_palato-alveolar_affricate">d͡ʒ</a>]
 <i>Voiced postalveolar affricate</i> (called {jay} when spelling)---As in
-English <i><u>j</u>ump</i> [ˈd͡ʒʌmp] or German <i><u>Dsch</u>ungel</i> [d͡ʒʊŋəl]
-(meaning <i>jungle</i>), and similar to <i>dj</i> in
-Swedish <i>glä<u>dj</u>e</i> (meaning <i>joy</i>) or <i>ke<u>dj</u>a</i>
-(<i>chain</i>). This sound is always pronounced with a hard initial <i>d,</i>
-and never softly as in French <i>jour</i> (<i>day</i>) or as
-Swedish <i>jord</i> (<i>earth</i>).
+English <i><u>j</u>ump</i> [ˈd͡ʒʌmp] or German <i lang=de><u>Dsch</u>ungel</i>
+[d͡ʒʊŋəl] (meaning <<jungle>>), and similar to <i>dj</i> in
+Swedish <i lang=sv>glä<u>dj</u>e</i> (meaning <<joy>>) or <i>ke<u>dj</u>a</i>
+(<<chain>>). This sound is always pronounced with a hard initial <i>d,</i> and
+never softly as in French <i lang=fr>jour</i> (<<day>>) or as
+Swedish <i lang=sv>jord</i> (<<earth>>).
 <small>[<a class=sources>Display Sources</a>]</small>
 
 <p class="canon hidden">{j} As in English <i>junk;</i> never ever as in
@@ -750,8 +751,8 @@ Swedish <i>jord</i> (<i>earth</i>).
 
 {l} [<a href="http://en.wikipedia.org/wiki/Alveolar_lateral_approximant">l</a>]
 <i>Alveolar lateral approximant</i> (called {lay} when spelling)---As in
-English <i><u>l</u>et</i> [lɛt], German <i><u>L</u>iebe</i> [liːbə]
-(meaning <i>love</i>) or Swedish <i><u>l</u>ång</i> [lɔŋ] (<i>long</i>).
+English <i><u>l</u>et</i> [lɛt], German <i lang=de><u>L</u>iebe</i> [liːbə]
+(meaning <<love>>) or Swedish <i lang=sv><u>l</u>ång</i> [lɔŋ] (<<long>>).
 <small>[<a class=sources>Display Sources</a>]</small>
 
 <p class="canon hidden">{l} As in English <i>lunge</i>
@@ -768,10 +769,9 @@ English <i><u>l</u>et</i> [lɛt], German <i><u>L</u>iebe</i> [liːbə]
 
 {m} [<a href="http://en.wikipedia.org/wiki/Bilabial_nasal">m</a>]
 <i>Bilabial nasal</i> (called {may} when spelling)---As in
-English <i>hi<u>m</u></i> [hɪm], German <i>rüh<u>m</u>en</i> [ˈʁyːmən]
-(meaning <i>to praise</i>) or Swedish <i><u>m</u>ask</i> [mask]
-(<i>worm</i>).
-<small>[<a class=sources>Display Sources</a>]</small>
+English <i>hi<u>m</u></i> [hɪm], German <i lang=de>rüh<u>m</u>en</i> [ˈʁyːmən]
+(meaning <<to praise>>) or Swedish <i lang=sv><u>m</u>ask</i> [mask]
+(<<worm>>). <small>[<a class=sources>Display Sources</a>]</small>
 
 <p class="canon hidden">{m} As in English <i>mud</i>
   or <i>pneumatic.</i> <small>[TKD 1.1]</small></p>
@@ -787,8 +787,8 @@ English <i>hi<u>m</u></i> [hɪm], German <i>rüh<u>m</u>en</i> [ˈʁyːmən]
 
 {n} [<a href="http://en.wikipedia.org/wiki/Alveolar_nasal">n</a>]
 <i>Alveolar nasal</i> (called {nay} when spelling)---As in
-English <i><u>n</u>ice</i> [naɪs], German <i>La<u>n</u>ze</i> [ˈlant͡sə]
-(meaning <i>lance</i>), or Swedish <i><u>n</u>ord</i> [nuːɖ] (<i>north</i>).
+English <i><u>n</u>ice</i> [naɪs], German <i lang=de>La<u>n</u>ze</i> [ˈlant͡sə]
+(meaning <<lance>>), or Swedish <i lang=sv><u>n</u>ord</i> [nuːɖ] (<<north>>).
 <small>[<a class=sources>Display Sources</a>]</small>
 
 <p class="canon hidden">{n} As in English <i>nectarine</i>
@@ -806,10 +806,10 @@ English <i><u>n</u>ice</i> [naɪs], German <i>La<u>n</u>ze</i> [ˈlant͡sə]
 {ng} [<a href="http://en.wikipedia.org/wiki/Velar_nasal">ŋ</a>]
 <i>Velar nasal</i> (called {ngay} when spelling)---The letters <i>ng</i> are
 never pronounced separately, but always as in English <i>si<u>ng</u></i> [sɪŋ],
-German <i>la<u>ng</u></i> [laŋ] (meaning <i>long</i>), or
-Swedish <i>i<u>ng</u>enti<u>ng</u></i> [ɪŋːɛntʰɪŋ] (<i>nothing</i>). In the
-most Terran languages this sound never come at the beginning of a word, but
-this happen in a number of Klingon words (e.g. {ngan} <i>inhabitant</i>).
+German <i lang=de>la<u>ng</u></i> [laŋ] (meaning <<long>>), or
+Swedish <i lang=sv>i<u>ng</u>enti<u>ng</u></i> [ɪŋːɛntʰɪŋ] (<<nothing>>). In
+the most Terran languages this sound never come at the beginning of a word, but
+this happen in a number of Klingon words (e.g. {ngan} <<inhabitant>>).
 <small>[<a class=sources>Display Sources</a>]</small>
 
 <div class=hidden>
@@ -840,9 +840,9 @@ this happen in a number of Klingon words (e.g. {ngan} <i>inhabitant</i>).
 {o}
 [<a href="http://en.wikipedia.org/wiki/Close-mid_back_rounded_vowel">o</a>]
 <i>Close-mid back rounded vowel</i> (called {'ot} when spelling)---As
-English <i>g<u>o</u></i> [goː], in German <i><u>o</u>der</i> [ˈoːdɐ]
-(meaning <i>or</i>), or as in Swedish <i><u>å</u>ka</i> [ˈoːka]
-(<i>travel</i>). Note: There are no words ending in &#42;{ow} (as that is
+English <i>g<u>o</u></i> [goː], in German <i lang=de><u>o</u>der</i> [ˈoːdɐ]
+(meaning <<or>>), or as in Swedish <i lang=sv><u>å</u>ka</i> [ˈoːka]
+(<<travel>>). Note: There are no words ending in &#42;{ow} (as that is
 considered indistinguishable from {o}).
 <small>[<a class=sources>Display Sources</a>]</small>
 
@@ -865,8 +865,8 @@ considered indistinguishable from {o}).
 
 {p} [<a href="http://en.wikipedia.org/wiki/Voiceless_bilabial_stop">pʰ</a>]
 <i>Aspirated voiceless bilabial stop</i> (called {pay} when spelling)---As in
-English <i><u>p</u>ack</i> [pʰæk], German <i><u>P</u>ack</i> [pʰak]
-(meaning <i>pile</i>), or Swedish <i>a<u>p</u>a</i> [ˈɑːpʰa] (<i>monkey</i>).
+English <i><u>p</u>ack</i> [pʰæk], German <i lang=de><u>P</u>ack</i> [pʰak]
+(meaning <<pile>>), or Swedish <i lang=sv>a<u>p</u>a</i> [ˈɑːpʰa] (<<monkey>>).
 In Klingon, this sound is
 always <a href="http://en.wikipedia.org/wiki/Aspirated_consonant">aspirated</a>,
 that is, released with a strong burst of air.
@@ -953,9 +953,9 @@ and {H}. This sound is quite uncommon in Terran languages.
 
 {r} [<a href="http://en.wikipedia.org/wiki/Alveolar_trill">r</a>]
 <i>Alveolar trill</i> (called {ray} when spelling)---As in
-Scottish <i>cu<u>r</u>d</i> [kʌrd], German (in some
-dialects) <i>Schma<u>rr</u>n</i> [ʃmaːrn] (meaning <i>nonsense</i>), or
-Swedish <i><u>r</u>ov</i> [ruːv] (<i>prey</i>). This sounds differs from
+Scottish <i lang=sco>cu<u>r</u>d</i> [kʌrd], German (in some
+dialects) <i lang=de>Schma<u>rr</u>n</i> [ʃmaːrn] (meaning <<nonsense>>), or
+Swedish <i lang=sv><u>r</u>ov</i> [ruːv] (<<prey>>). This sounds differs from
 the <i>r</i> of American English, in that it is slightly trilled or rolled.
 
 Or---{r} [<a href="http://en.wikipedia.org/wiki/Alveolar_approximant">ɹ</a>]
@@ -982,10 +982,10 @@ a clear indicator of a Terran accent.
 
 {S} [<a href="http://en.wikipedia.org/wiki/Voiceless_retroflex_sibilant">ʂ</a>]
 <i>Voiceless retroflex sibilant</i> (called {Say} when spelling)---As in the
-Swedish word <i>fo<u>rs</u></i> [fɔʂ] (meaning <i>rapids</i>). This sound is
-halfway between English <i>s</i> (as in <i>syringe</i>) and <i>sh</i> (as
-in <i>shuttlecock</i>). It is pronounced with the tongue in the same position
-as for Klingon {D}.
+Swedish word <i lang=sv>fo<u>rs</u></i> [fɔʂ] (meaning <<rapids>>). This
+sound is halfway between English <i>s</i> (as in <i>syringe</i>) and <i>sh</i>
+(as in <i>shuttlecock</i>). It is pronounced with the tongue in the same
+position as for Klingon {D}.
 <small>[<a class=sources>Display Sources</a>]</small>
 
 <div class=hidden>
@@ -1011,9 +1011,9 @@ as for Klingon {D}.
 {t}
 [<a href="http://en.wikipedia.org/wiki/Voiceless_alveolar_stop">tʰ</a>]
 <i>Aspirated voiceless alveolar stop</i> (called {tay} when spelling)---As in
-English <i><u>t</u>ick</i> [tʰɪk], as in German <i><u>T</u>ochter</i> [ˈtʰɔxtɐ]
-(meaning <i>daughter</i>), or as in Swedish <i><u>t</u>ok</i> [tʰuːk]
-(<i>fool</i>). In Klingon, this sound is
+English <i><u>t</u>ick</i> [tʰɪk], as in German <i lang=de><u>T</u>ochter</i>
+[ˈtʰɔxtɐ] (meaning <<daughter>>), or as in Swedish <i lang=sv><u>t</u>ok</i>
+[tʰuːk] (<<fool>>). In Klingon, this sound is
 always <a href="http://en.wikipedia.org/wiki/Aspirated_consonant">aspirated</a>,
 that is, released with a strong burst of air.
 <small>[<a class=sources>Display Sources</a>]</small>
@@ -1037,7 +1037,7 @@ that is, released with a strong burst of air.
 <i>Voiceless alveolar lateral affricate</i> (called {tlhay} when
 spelling)---This sound does not occur in many Terran languages, but is common
 in Nahuatl (the Aztec language). It even occurs in the name of the
-language <i>náhua<u>tl</u></i> [ˈnaːwat͡ɬ].
+language <i lang=nah>Náhua<u>tl</u></i> [ˈnaːwat͡ɬ].
 
 One way to get the pronunciation right is to start off by saying <i>l</i>. As
 you do it, pay attention to two things: (1) Your vocal cords are vibrating (if
@@ -1065,13 +1065,13 @@ the <em>sides</em> of the tongue.
 
 <div class=hidden>
   <p class=canon>{tlh} This sound does not occur in English, but is very much
-    like the final sound in <i>tetl,</i> the Aztec word for <i>egg,</i> if
-    properly pronounced. To produce this sound, the tip of the tongue touches
-    the same part of the roof of the mouth it touches for {t}, the sides of the
-    tongue are lowered away from the side upper teeth, adn the air is forced
-    through the space on both sides between tongue and teeth. The sound is
-    produced with a great deal of friction, and the warning given in the
-    description of Klingon {p} might be aptly repeated
+    like the final sound in <i lang=nah>tetl,</i> the Aztec word for <<egg,>>
+    if properly pronounced. To produce this sound, the tip of the tongue
+    touches the same part of the roof of the mouth it touches for {t}, the
+    sides of the tongue are lowered away from the side upper teeth, adn the air
+    is forced through the space on both sides between tongue and teeth. The
+    sound is produced with a great deal of friction, and the warning given in
+    the description of Klingon {p} might be aptly repeated
     here. <small>[TKD 1.1]</small></p>
   <p class=canon>To make this {tlh} sound, say a <i>t</i> and at the same time
     whisper, loudly, but still just whisper, an <i>l.</i> […] Do you feel the
@@ -1093,9 +1093,9 @@ the <em>sides</em> of the tongue.
 <i>Close back rounded vowel</i> (called {'ut} when spelling)---As
 in <a href="http://en.wikipedia.org/wiki/General_American">General American</a>
 or <a href="http://en.wikipedia.org/wiki/Received_Pronunciation">BBC
-English</a> <i>b<u>oo</u>t</i> [buːt], or as in German <i>F<u>u</u>ß</i> [fuːs]
-(meaning <i>foot</i>). Note: There are no words ending in &#42;{uw} (as that is
-considered indistinguishable from {u}).
+English</a> <i>b<u>oo</u>t</i> [buːt], or as in
+German <i lang=de>F<u>u</u>ß</i> [fuːs] (meaning <<foot>>). Note: There are no
+words ending in &#42;{uw} (as that is considered indistinguishable from {u}).
 <small>[<a class=sources>Display Sources</a>]</small>
 
 <div class=hidden>
@@ -1120,8 +1120,9 @@ considered indistinguishable from {u}).
 {v}
 [<a href="http://en.wikipedia.org/wiki/Voiced_labiodental_fricative">v</a>]
 <i>Voiced labiodental fricative</i> (called {vay} when spelling)---As in
-English <i><u>v</u>alve</i> [væɫv], German <i><u>W</u>ächter</i> [ˈvɛçtɐ]
-(meaning <i>guard</i>) or Swedish <i><u>v</u>ägg</i> [ˈvɛɡ] (<i>wall</i>).
+English <i><u>v</u>alve</i> [væɫv], German <i lang=de><u>W</u>ächter</i>
+[ˈvɛçtɐ] (meaning <<guard>>) or Swedish <i lang=sv><u>v</u>ägg</i> [ˈvɛɡ]
+(<<wall>>).
 <small>[<a class=sources>Display Sources</a>]</small>
 
 <p class="canon hidden">{v} As in English <i>vulgar</i>
@@ -1156,13 +1157,13 @@ English <i><u>w</u>eep</i> [wiːp].
 
 {y} [<a href="http://en.wikipedia.org/wiki/Palatal_approximant">j</a>]
 <i>Palatal approximant</i> (called {yay} when spelling)---As in
-English <i><u>y</u>ou</i> [juː], German <i><u>J</u>och</i> [jɔx]
-(meaning <i>yoke</i>), or Swedish <i><u>j</u>ag</i> [jɑːɡ]
-(meaning <i>I</i>).
+English <i><u>y</u>ou</i> [juː], German <i lang=de><u>J</u>och</i> [jɔx]
+(meaning <<yoke>>), or Swedish <i lang=sv><u>j</u>ag</i> [jɑːɡ] (meaning
+<<I>>).
 
 Note: Making a clear distinction between {y} and {j} sounds are important, not
-least because of the {yI-} <i>(you--him/her/it (imperative))</i> and
-{jI-} <i>(I)</i> prefixes.
+least because of the {yI-} <<(you--him/her/it (imperative))>> and {jI-} <<(I)>>
+prefixes.
 <small>[<a class=sources>Display Sources</a>]</small>
 
 <p class="canon hidden">{y} As in English <i>yodel</i>
@@ -1182,33 +1183,33 @@ least because of the {yI-} <i>(you--him/her/it (imperative))</i> and
 exist in spoken English but is not written---it is the slight catch in the
 throat between the two syllables of <i>uh-oh</i> or <i>unh-unh,</i> meaning
 “no.” In some English dialects the letter <i>t</i> is pronounced this way
-(e.g. <a href="http://en.wikipedia.org/wiki/Cockney#Cockney_speech">Cockney</a> <i>bo<u>tt</u>le</i>
+(e.g. <a href="http://en.wikipedia.org/wiki/Cockney#Cockney_speech">Cockney</a> <i lang="en-uk-Cockney">bo<u>tt</u>le</i>
 [ˈbɔʔo]). In <a href="http://en.wikipedia.org/wiki/Received_Pronunciation">BBC
 English</a> the letter <i>t</i> is pronounced this way before <i>n,</i> e.g.
 in <i>bu<u>tt</u>on</i> [bʌʔn̩] (in speech with careful enunciation, however, a
 proper <i>t</i> sound is often heard instead).
 
 The Swedish term for this sound
-is <a href="http://sv.wikipedia.org/wiki/Glottal_klusil"><i>glottal
-klusil</i></a> (or <i>laryngal klusil</i>) and the sound is, as in English,
-commonly used, but not written. It is cessation of sound in the middle
-of <i>öh-oh</i> [œʔœ͜uː] (meaning <i>oops!</i>), or at end of some
-pronunciations of the word <i>meh</i> [meʔ] (used to express indifference or
-boredom).
+is <a href="http://sv.wikipedia.org/wiki/Glottal_klusil"><i lang=sv>glottal
+klusil</i></a> (or <i lang=sv>laryngal klusil</i>) and the sound is, as in
+English, commonly used, but not written. It is cessation of sound in the middle
+of <i lang=sv>öh-oh</i> [œʔœ͜uː] (meaning <<oops!>>), or at end of some
+pronunciations of the word <i lang=sv>meh</i> [meʔ] (used to express
+indifference or boredom).
 
 In German this sound is known
-as <i><a href="http://de.wiktionary.org/wiki/Knacklaut">Knacklaut</a></i> and
-it precedes any word or syllable that begins with a vowel. It has been
-suggested to me that the difference in pronunciation between <i>alkoholarmm</i>
-(meaning <i>low in alcohol content</i>) and <i>alkoholarm</i> (made-up word,
-meaning <i>warning about the destructive effects of alcohol</i>) would be the
-addition of a glottal stop in the middle.
+as <i lang=de><a href="http://de.wiktionary.org/wiki/Knacklaut">Knacklaut</a></i>
+and it precedes any word or syllable that begins with a vowel. It has been
+suggested to me that the difference in pronunciation
+between <i lang=de>alkoholarmm</i> (meaning <<low in alcohol content>>)
+and <i lang=de>alkoholarm</i> (made-up word, meaning <<warning about the
+destructive effects of alcohol>>) would be the addition of a glottal stop in
+the middle.
 
 In Klingon, when {'} comes at the end of a word, the preceding sound is
 abruptly cut off, and then repeated (after the glottal stop) in a soft whisper.
-If you articulate the word {paw} <i>(arrive)</i> and {paw'} <i>(collide)</i>
-there should be a clear and distinct sense of abrupt discontinuation in the
-latter.
+If you articulate the word {paw} (<<arrive>>) and {paw'} (<<collide>>) there
+should be a clear and distinct sense of abrupt discontinuation in the latter.
 <small>[<a class=sources>Display Sources</a>]</small>
 
 <div class=hidden>
@@ -1217,13 +1218,13 @@ latter.
     catch in the throat between the two syllables of <i>uh-oh</i>
     or <i>unh-unh,</i> meaning “no.” When Klingon {'} comes at the end of a
     word, the vowel preceeding the {'} is often repeated in a very soft
-    whisper, as if an echo. Thus, Klingon {je'} <i>feed</i> almost sound like
+    whisper, as if an echo. Thus, Klingon {je'} <<feed>> almost sound like
     {je'e}, where the articulation of the first {e} is abruptly cut off by the
     {'}, and the second {e} is an barely audible whisper. When {'} follows {w}
     or {y} at the end of a word, there is often a whispered, echoed {u} or {I}
     respectively. Occasionally the echo is quite audible, with a guttural sound
-    like {gh} preceeding the echoed vowel. For example, {yIlI'} <i>transmit
-    it!</i> can sound more like {yIlI'ghI}. This extra-heavy echo is heard most
+    like {gh} preceeding the echoed vowel. For example, {yIlI'} <<transmit
+    it!>> can sound more like {yIlI'ghI}. This extra-heavy echo is heard most
     often when the speaker is particulary excited or
     angry. <small>[TKD 1.1]</small></p>
   <p class=canon>Did you hear the sounds cut off abruptly in the middle of the
@@ -1252,7 +1253,7 @@ they have been simplified quite a bit to ease look-up and memorization.
 Stress is not normally indicated when writing Klingon, and the only piece of
 Klingon canon where stress is shown is the pronunciation key of the sentences
 in the TKD “cheat sheet” <small>[TKD pp. 171--172]</small>. In that
-pronunciation respelling {HIjol} (<i>Beam me aboard</i>) is written “khi-JOL”.
+pronunciation respelling {HIjol} (<<Beam me aboard>>) is written “khi-JOL”.
 <small>[<a class=sources>Display Sources</a>]</small>
 
 <div class="canon hidden">
@@ -1305,27 +1306,27 @@ Adjectival verbs are stressed as verbs.
     seen you”) might sound more like {qUleghpu'}. <small>[KGT
     p. 139]</small></p>
   <div class=noncanon>
-    <p>Verbs are likewise stressed on the final syllable of the stem:
-      {Dál} <i>to be boring</i>, {ghIpDÍj} <i>to court-martial</i>. Unlike
-      nouns, if the first suffix after the verb ends in a glottal stop, the
-      suffix is <i>not</i> stressed. Thus the verb <i>she has been an alien</i>
-      is {nóvpu'}, while the noun <i>aliens</i> in {novpú'}. If the suffix
-      ending in a glottal stop is <i>other</i> than the first, then both it and
-      the final syllable of the verb are stressed: {mughIpDÍjchoHDÍ'} <i>when
-      she started court-martialling me</i>, {HóH'eghrupmó'} <i>because he was
-      ready to suicide</i>.</p>
+    <p>Verbs are likewise stressed on the final syllable of the stem: {Dál}
+      <<to be boring>>, {ghIpDÍj} <<to court-martial>>. Unlike nouns, if the
+      first suffix after the verb ends in a glottal stop, the suffix
+      is <i>not</i> stressed. Thus the verb <<she has been an alien>> is
+      {nóvpu'}, while the noun <<aliens>> in {novpú'}. If the suffix ending in
+      a glottal stop is <i>other</i> than the first, then both it and the final
+      syllable of the verb are stressed: {mughIpDÍjchoHDÍ'} <<when she started
+      court-martialling me>>, {HóH'eghrupmó'} <<because he was ready to
+      suicide>>.</p>
     <p>Semantically important suffixes can end up stressed instead of the verb
       stem. In practice in Klingon metre (which systematises this tendency)
       negative and interrogative suffixes are <i>always</i> stressed:
-      {jIDalbé'} <i>I am not boring</i>, {bImatlhHá'} <i>you are disloyal</i>,
-      {luDelQó'} <i>they refuse to describe it</i>, {chol'á'} <i>is he
-      coming?</i> Note that adjectival verbs are considered verbs: {'útlh
-      mátlhqu'} <i>a truly loyal officer</i>. There are often cases where
-      monosyllabic verbs and nouns are juxtaposed. In this text, adjectival
-      verbs and subject nouns tend to be stressed more strongly, following an
-      iambic pattern. Thus {'utlh mátlh} <i>a loyal officer</i>, {matlh
-      'útlh} <i>the officer is loyal</i>. <small>[{Hamlet} (pocket edition),
-      Appendix II, pp. 215--216]</small></p>
+      {jIDalbé'} <<I am not boring>>, {bImatlhHá'} <<you are disloyal>>,
+      {luDelQó'} <<they refuse to describe it>>, {chol'á'} <<is he coming?>>
+      Note that adjectival verbs are considered verbs: {'útlh mátlhqu'}
+      <<a truly loyal officer>>. There are often cases where monosyllabic verbs
+      and nouns are juxtaposed. In this text, adjectival verbs and subject
+      nouns tend to be stressed more strongly, following an iambic pattern.
+      Thus {'utlh mátlh} <<a loyal officer>>, {matlh 'útlh} <<the officer is
+      loyal>>. <small>[{Hamlet} (pocket edition), Appendix II,
+      pp. 215--216]</small></p>
   </div>
 </div>
 
@@ -1353,19 +1354,18 @@ stressed as nouns.
     are equally stressed. <small>[TKD 1.3]</small></p>
   <div class=noncanon>
     <p class=noindent>Nouns are stressed on the final syllable of the stem:
-      {ghóp} <i>hand</i>, {puyjáq} <i>nova</i>, {bortáS} <i>revenge</i>. Any
-      suffixes added on to the stem are not stressed: {puyjáqvam} <i>this
-      nova</i>, {bortáSmey} <i>revenges</i>.</p>
+      {ghóp} <<hand>>, {puyjáq} <<nova>>, {bortáS} <<revenge>>. Any suffixes
+      added on to the stem are not stressed: {puyjáqvam} <<this nova>>,
+      {bortáSmey} <<revenges>>.</p>
     <p>However, if any syllable in a noun, whether in the stem or in a suffix,
       ends in a glottal stop, it is stressed instead of the stem’s final
-      syllable. Thus: {bó'DIj} <i>court</i>, {ghopDú'} <i>hands</i>,
-      {puyjaqvó'} <i>from the nova</i>. Adjacent syllables ending in glottal
-      stops receive equal stress: {chú'wÍ'} <i>trigger</i>, although Klingon
-      verse tends to stress the latter. Note that nouns derived from verbs are
-      considered nouns: {vúm} <i>to work</i>, {vumwÍ'} <i>worker</i>,
-      {vumtaHghách} <i>working</i>, {vumpú'ghach} <i>a bout of
-      work</i>. <small>[{Hamlet} (pocket edition), Appendix II,
-      pp. 215--216]</small></p>
+      syllable. Thus: {bó'DIj} <<court>>, {ghopDú'} <<hands>>, {puyjaqvó'}
+      <<from the nova>>. Adjacent syllables ending in glottal stops receive
+      equal stress: {chú'wÍ'} <<trigger>>, although Klingon verse tends to
+      stress the latter. Note that nouns derived from verbs are considered
+      nouns: {vúm} <<to work>>, {vumwÍ'} <<worker>>, {vumtaHghách} <<working>>,
+      {vumpú'ghach} <<a bout of work>>. <small>[{Hamlet} (pocket edition),
+      Appendix II, pp. 215--216]</small></p>
   </div>
 </div>
 

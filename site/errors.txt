@@ -58,11 +58,11 @@ contact me at <i>&lt;[zrajm@klingonska.org](mailto:zrajm@klingonska.org)&gt;</i>
 
 [TKD] The Klingon Dictionary (Book)
 -----------------------------------
-Christian Matzke notes (in {HolQeD} 4:1, p.7) that {jev} <i>storm</i> (v) (as
+Christian Matzke notes (in {HolQeD} 4:1, p.7) that {jev} <<storm>> (v) (as
 defined in TKD K-E) perhaps ought to be a noun, but I have chosen <i>not</i> to
 include it as an error here, since there are other words dealing with weather
-(namely {SIS} <i>rain</i> and {peD} <i>snow</i>) that are verbs, this suggests
-to me that {jev} really should be a verb, as stated in TKD.
+(namely {SIS} <<rain>> and {peD} <<snow>>) that are verbs, this suggests to me
+that {jev} really should be a verb, as stated in TKD.
 
 It is also worth mentioning that the word lists in TKD are incorrectly sorted
 in quite a number of places. However the divergences from the expected order
@@ -70,8 +70,9 @@ are so small (most frequently only two or three words are missorted) that they
 do not in a significant way impede the reader's chances of finding the word
 he/she is looking for.
 
-Thanks go to Yehuda Ronen (<nobr>2002-09-27</nobr>) and Stevo (<nobr>2004-01-24</nobr> and <nobr>2004-02-07</nobr>)
-for their contributions.
+Thanks go to Yehuda Ronen (<time class=nobr>2002-09-27</time>) and Stevo
+(<time class=nobr>2004-01-24</time> and <time class=nobr>2004-02-07</time>) for
+their contributions.
 
 
 ### [TKD_Errata] General Errata ###
@@ -102,7 +103,7 @@ for their contributions.
     <td class=nobr>TKD p.39/4.2.5
     <td class=nobr>2004-01-24
   <tr>
-    <td>"{-taH} <i>continuous</i>." should not begin new paragraph
+    <td>"{-taH} <<continuous>>." should not begin new paragraph
     <td class=nobr>TKD p.43/4.3
     <td class=nobr>2004-01-24
   <tr>
@@ -581,7 +582,7 @@ printing, I haven't been able to confirm this, so please if you have the second
 printing of the book, please compare it with the table below and report any
 differences [to me](mailto:zrajm@klingonska.org).)
 
-<b><nobr>2004-02-07</nobr></b>:
+<b><time class=nobr>2004-02-07</time></b>:
 [Stevo](mailto:morphemeaddict@wmconnect.com) reports that all the errors in the
 first printing (or at least all errors found and presented in the table below)
 have been corrected, except for the error on page 129 which, even though it has
@@ -678,7 +679,7 @@ All the errors added to this list <time datetime="2001-08-17">August 17,
     <td class=nobr>KGT p.130
     <td class=nobr>1998-09-22 (?)
   <tr>
-    <td>{tIb} (<i>be nervous, uneasy</i>) is misspelled, should be {bIt}
+    <td>{tIb} (<<be nervous, uneasy>>) is misspelled, should be {bIt}
     <td class=nobr>KGT p.132
     <td class=nobr>1998-09-22 (?)
   <tr>

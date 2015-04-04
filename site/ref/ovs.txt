@@ -4,6 +4,7 @@ created: 1998-02-26
 author: zrajm
 year: 1998-2012
 lang: en
+style: dict-prefixtable
 up: ..
 
 A Quick Reference to Subjects and Objects in Klingon
@@ -11,17 +12,17 @@ A Quick Reference to Subjects and Objects in Klingon
 The word order of a Klingon sentence is normally <i>object--verb--subject,</i>
 i.e. the reversed order of English. However, also unlike English, the same
 pronouns are always used, not depending on whether used as subject or object
-(so there is, for example, no difference between <i>I</i> and <i>me</i>).
+(so there is, for example, no difference between <<I>> and <<me>>).
 
 <table>
   <colgroup><col span=2><col span=2></colgroup>
   <thead>
     <tr><th colspan=2>Singular<th colspan=2>Plural
   </thead>
-  <tr><td>{jIH}<td><i>I, me</i><td>{maH}<td><i>we, us</i>
-  <tr><td>{SoH}<td><i>you</i><td>{tlhIH}<td><i>you</i>
-  <tr><td>{ghaH}<td><i>he, she, him, her</i><td>{chaH}<td><i>they, them</i>
-  <tr><td>{'oH}<td><i>it</i><td>{bIH}<td><i>they, them</i>
+  <tr><td>{jIH}<td><<I, me>><td>{maH}<td><<we, us>>
+  <tr><td>{SoH}<td><<you>><td>{tlhIH}<td><<you>>
+  <tr><td>{ghaH}<td><<he, she, him, her>><td>{chaH}<td><<they, them>>
+  <tr><td>{'oH}<td><<it>><td>{bIH}<td><<they, them>>
   <caption>The pronouns {ghaH} and {chaH} refers
     <i>only</i> to beings capable of language, other beings are refered to
     using {'oH} and {bIH}. <small>[TKD 5.1]</small></caption>
@@ -37,43 +38,43 @@ own right. <small>[TKD 6.3]</small>
 
 It is, however, never outright wrong to use pronouns.
 
-<table style="text-align:center">
+<table class=prefix>
   <colgroup><col span=7><col span=2></colgroup>
   <thead>
     <tr>
-      <td colspan="7"><h2 style="letter-spacing:1em; margin:.5em">OBJECT</h2>
-      <td colspan="2" rowspan="2">
+      <th colspan=7 class=obj>OBJECT
+      <td colspan=2 rowspan=2>
     <tr>
       <td>{jIH}
       <td>{maH}
       <td>{SoH}
       <td>{tlhIH}
-      <td><b lang="tlh">ghaH<br>'oH</b>
-      <td><b lang="tlh">chaH<br>bIH</b>
+      <td>{ghaH<br>’oH}
+      <td>{chaH<br>bIH}
       <td>({pagh})
   </thead>
   <tr>
     <td>{HI-}
     <td>{gho-}
-    <td style="color:#888;background:#888">×
-    <td style="color:#888;background:#888">×
+    <td class=na>×
+    <td class=na>×
     <td>{yI-}
     <td>{tI-}
     <td>{yI-}
-    <td>{SoH} ({ra'})
-    <td rowspan="9" style="vertical-align:middle"><h2 style="margin:.5em;line-height: 1.4em">S<br>U<br>B<br>J<br>E<br>C<br>T</h2>
+    <td>{SoH} ({ra’})
+    <th rowspan=9 class=subj>S<br>U<br>B<br>J<br>E<br>C<br>T
   <tr>
     <td>{HI-}
     <td>{gho-}
-    <td style="color:#888;background:#888">×
-    <td style="color:#888;background:#888">×
+    <td class=na>×
+    <td class=na>×
     <td>{yI-}
     <td>{tI-}
     <td>{pe-}
-    <td>{tlhIH} ({ra'})
+    <td>{tlhIH} ({ra’})
   <tr>
-    <td style="color:#888;background:#888">×
-    <td style="color:#888;background:#888">×
+    <td class=na>×
+    <td class=na>×
     <td>{qa-}
     <td>{Sa-}
     <td>{vI-}
@@ -81,8 +82,8 @@ It is, however, never outright wrong to use pronouns.
     <td>{jI-}
     <td>{jIH}
   <tr>
-    <td style="color:#888;background:#888">×
-    <td style="color:#888;background:#888">×
+    <td class=na>×
+    <td class=na>×
     <td>{pI-}
     <td>{re-}
     <td>{wI-}
@@ -92,8 +93,8 @@ It is, however, never outright wrong to use pronouns.
   <tr>
     <td>{cho-}
     <td>{ju-}
-    <td style="color:#888;background:#888">×
-    <td style="color:#888;background:#888">×
+    <td class=na>×
+    <td class=na>×
     <td>{Da-}
     <td>{Da-}
     <td>{bI-}
@@ -101,8 +102,8 @@ It is, however, never outright wrong to use pronouns.
   <tr>
     <td>{tu-}
     <td>{che-}
-    <td style="color:#888;background:#888">×
-    <td style="color:#888;background:#888">×
+    <td class=na>×
+    <td class=na>×
     <td>{bo-}
     <td>{bo-}
     <td>{Su-}
@@ -115,7 +116,7 @@ It is, however, never outright wrong to use pronouns.
     <td>{-}
     <td>{-}
     <td>{-}
-    <td>{ghaH}/{'oH}
+    <td>{ghaH}/{’oH}
   <tr>
     <td>{mu-}
     <td>{nu-}
@@ -126,21 +127,21 @@ It is, however, never outright wrong to use pronouns.
     <td>{-}
     <td>{chaH}/{bIH}
   <tr>
-    <td class="nobr">{vI-lu'}
-    <td class="nobr">{wI-lu'}
-    <td class="nobr">{Da-lu'}
-    <td class="nobr">{bo-lu'}
-    <td class="nobr">{-lu'}
-    <td class="nobr">{lu-lu'}
-    <td class="nobr">{-lu'}
-    <td>({vay'})
+    <td class=nobr>{vI-lu’}
+    <td class=nobr>{wI-lu’}
+    <td class=nobr>{Da-lu’}
+    <td class=nobr>{bo-lu’}
+    <td class=nobr>{-lu’}
+    <td class=nobr>{lu-lu’}
+    <td class=nobr>{-lu’}
+    <td>({vay’})
 </table>
 
 A shaded area indicates that pronouns and/or suffixes must be used, and a
 single dash “{-}” indicates that no prefix is applied to the verb for that
 particular combination of subject/object. Note that Type 1 verb suffixes
-{-’egh} <i>onself</i> and {-chuq} <i>each other</i> <small>[TKD 4.2.1]</small>,
-and Type 4 verb suffix {-moH} <i>cause</i> <small>[TKD 4.2.4]</small> also
-affect the way in which prefixes are used <small>[HQ 7:3, p.3]</small>.
+{-’egh} <<onself>> and {-chuq} <<each other>> <small>[TKD 4.2.1]</small>, and
+Type 4 verb suffix {-moH} <<cause>> <small>[TKD 4.2.4]</small> also affect the
+way in which prefixes are used <small>[HQ 7:3, p.3]</small>.
 
 [[eof]]

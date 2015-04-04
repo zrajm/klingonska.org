@@ -7,7 +7,7 @@ lang: sv
 ’amerIqa luHo’qu’taH Hoch
 =========================
 
-Alla älskar vi Amerika -- <i>We all love America</i>
+Alla älskar vi Amerika -- <<We all love America>>
 ----------------------------------------------------
 <table class="noborder" style="text-align:left">
   <tbody>
@@ -84,11 +84,11 @@ Alla älskar vi Amerika -- <i>We all love America</i>
 </table>
 
 This song was originally written and performed in Swedish by a band
-called <i>Den förlorade generationen</i> (<i>The Lost Generation</i>). Now,
-since both Markus and I know these people, and because they thought it would be
-fun, we were asked to translate the song into Klingon and sing it at the
-release party celebrating their new CD <i lang="sv">»...En dag som idag«</i>
-(<i>»...A Day Like Today«</i>). - We (of course) accepted the challenge, and
+called <i lang=sv>Den förlorade generationen</i> (<i>The Lost Generation</i>).
+Now, since both Markus and I know these people, and because they thought it
+would be fun, we were asked to translate the song into Klingon and sing it at
+the release party celebrating their new CD <i lang=sv>»...En dag som idag«</i>
+(<i>»...A Day Like Today«</i>). -- We (of course) accepted the challenge, and
 subsequently had two days to memorize the text and melody. We fought bravely
 and actually sung the song (in front of audience) accompanied by the band. But
 it probably sounded terrible (at least no one ever said that it was good).

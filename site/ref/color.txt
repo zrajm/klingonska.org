@@ -19,19 +19,19 @@ Let's begin with a nice color cheat sheet by Roger Cheesbro:
 height="100" width="474" /></a></p>
 
 There is no noun in Klingon meaning “color”, but there is a verb {nguv} which
-means <i>be dyed, stained, tinted</i>. This word is seldom used without the
-suffix {-moH} (as in {quS nguvmoH} <i>He stains the chair</i>) except in the
-phrase {chay' nguv} <i>How is it tinted?</i> <small>[KGT p.82]</small>
+means <<be dyed, stained, tinted>>. This word is seldom used without the
+suffix {-moH} (as in {quS nguvmoH} <<He stains the chair>>) except in the
+phrase {chay' nguv} <<How is it tinted?>> <small>[KGT p.82]</small>
 
 <table>
   <tr>
     <td>{nguv}
-    <td><i>be dyed, be stained, be tinted</i> (v)
+    <td><<be dyed, be stained, be tinted>> (v)
     <td><small>[KGT]</small>
 </table>
 
 There are only four distinct words for different colors (including
-{qIj} <i>black</i> and {chIS} <i>white</i>) in Klingon. These, for the most
+{qIj} <<black>> and {chIS} <<white>>) in Klingon. These, for the most
 part, are all that is used in everyday language -- there is rarely any need for
 more, since there are almost always other ways to distinguish between several
 objects, other than hue alone.
@@ -43,107 +43,106 @@ objects, other than hue alone.
     <th>Source
   <tr>
     <td sorttable_customkey="dnp">{Doq}
-    <td><i>be orange, be red</i> (v)
+    <td><<be orange, be red>> (v)
     <td><small>[TKD]</small>
   <tr>
     <td sorttable_customkey="svd">{SuD}
-    <td><i>be green, be blue, be yellow</i> (v)
+    <td><<be green, be blue, be yellow>> (v)
     <td><small>[TKD]</small>
   <tr>
     <td sorttable_customkey="chs">{chIS}
-    <td><i>be white</i> (v)
+    <td><<be white>> (v)
     <td><small>[TKD]</small>
   <tr>
     <td sorttable_customkey="phi">{qIj}
-    <td><i>be black</i> (v)
+    <td><<be black>> (v)
     <td><small>[TKD]</small>
   <tr>
     <td sorttable_customkey="gvrf">{Hurgh}
-    <td><i>be dark</i> (v)
+    <td><<be dark>> (v)
     <td><small>[TKD]</small>
   <tr>
     <td sorttable_customkey="xnw">{wov}
-    <td><i>be light, be bright</i> (v)
+    <td><<be light, be bright>> (v)
     <td><small>[TKD]</small>
 </table>
 
-One way of being more specific is to use the {-qu'} <i>emphatic</i> suffix,
+One way of being more specific is to use the {-qu'} <<emphatic>> suffix,
 this has the advantage that the word still can be used adjectivally (as in for
-example {HIq Doqqu'} <i>red liquor</i>) this can not be done with the other
+example {HIq Doqqu'} <<red liquor>>) this can not be done with the other
 lengthier methods of describing colors.
 
 <table>
   <tr>
     <td colspan="3" align="center"><font size=4>Expressing colors with the
-        {-qu'} <i>emphatic</i> suffix</font>
+        {-qu'} <<emphatic>> suffix</font>
   <tr>
     <td>{Doqqu'}
-    <td><i>“a color more red than orange”</i> (v)
+    <td>“a color more red than orange” (v)
     <td><small>[KGT p.82]</small>
   <tr>
     <td>{SuDqu'}
-    <td><i>“would probably be described as ‘green’&thinsp;”</i> (v)
+    <td>“would probably be described as ‘green’” (v)
     <td><small>[KGT p.82]</small>
 </table>
 
-One may also use the words for <i>light</i> and <i>dark</i> to describe colors
-in whole sentences (such as {SuD 'ej wov} for <i>it is {SuD} and light</i>
--- {'ach} <i>but</i> is also heard instead of {'ej}). To describe yellow tea, a
-sentence like {SuDbogh Dargh 'ej wovbogh SuD} <i>The tea that is {SuD} and
-light</i> would be used.
+One may also use the words for <<light>> and <<dark>> to describe colors in
+whole sentences (such as {SuD 'ej wov} for <<it is {SuD} and light>> -- {'ach}
+<<but>> is also heard instead of {'ej}). To describe yellow tea, a sentence
+like {SuDbogh Dargh 'ej wovbogh} <<The tea that is {SuD} and light>> would be
+used.
 
 <table>
   <tr>
-    <td colspan="3" align="center"><font size="4">Expressing colors with
-        {wov} <i>be light, bright</i>
-        and {Hurgh} <i>be dark</i></font>
+    <td colspan="3" align="center"><font size="4">Expressing colors with {wov}
+        <<be light, bright>> and {Hurgh} <<be dark>></font>
   <tr>
     <td rowspan="2">{SuD 'ej wov} or {SuD 'ach wov}
-    <td><i>“a way to refer to a yellowish tinge”</i>
+    <td>“a yellowish tinge”
     <td><small>[KGT p.82]</small>
   <tr>
-    <td><i>light blue</i>
+    <td><<light blue>>
     <td><small>[Eurotalk]</small>
   <tr>
     <td>{Doq 'ej wovbe'}
-    <td><i>brown</i>
+    <td><<brown>>
     <td><small>[HQ8:1 p.7; Eurotalk]</small>
   <tr>
     <td>{Doq 'ej wov} or {Doq 'ach wov}
-    <td><i>light red or orange color</i>
+    <td><<light red>> or <<orange>>
     <td><small>NOT CANON</small>
   <tr>
     <td>{SuD 'ej Hurgh} or {SuD 'ach Hurgh}
-    <td><i>dark blue</i>
+    <td><<dark blue>>
     <td><small>Eurotalk</small>
   <tr>
     <td>{Doq 'ej Hurgh} or {Doq 'ach Hurgh}
-    <td><i>brown or brownish color</i>
+    <td><<brown>> or <<brownish>>
     <td><small>NOT CANON</small>
   <tr>
     <td>{Doqqu' 'ej wov}
       or {Doqqu' 'ach wov}
-    <td><i>pink</i>
+    <td><<pink>>
     <td><small>Eurotalk</small>
   <tr>
     <td>{SuDqu' 'ej wov}
       or {SuDqu' 'ach wov}
-    <td><i>light green color</i>
+    <td><<light green>>
     <td><small>NOT CANON</small>
   <tr>
     <td>{SuDqu' 'ej Hurgh}
       or {SuDqu' 'ach Hurgh}
-    <td><i>dark green color</i>
+    <td><<dark green>>
     <td><small>NOT CANON</small>
   <tr>
     <td>{Doqqu' 'ej Hurgh}
       or {Doqqu' 'ach Hurgh}
-    <td><i>dark red color</i>
+    <td><<dark red>>
     <td><small>NOT CANON</small>
   <tr>
     <td>{qIj 'ej wov}
       or {qIj 'ach wov}
-    <td><i>gray</i>
+    <td><<gray>>
     <td><small>Eurotalk</small>
 </table>
 
@@ -163,7 +162,7 @@ Earth-centric view (including names of several Terran countries for example).
     <td colspan="3" align="CENTER"><font size="4">A non-Klingon color</font>
   <tr>
     <td>{Doq 'ej SuD}
-    <td><i>purple</i>
+    <td><<purple>>
     <td><small>Eurotalk</small>
 </table>
 
@@ -176,12 +175,12 @@ expressions given to us in canon.
     <th colspan="3">Expressing colors with similies
   <tr>
     <td>{Doq 'ej beqpuj rur}
-    <td><i>be {Doq} and resemble bekpuj</i>
+    <td><<be {Doq} and resemble bekpuj>>
       <br>(a common mineral that is bright orange)
     <td><small>[KGT p.82]</small>
   <tr>
     <td>{Doq 'ej Qaj wuS rur}
-    <td><i>be {Doq} and resemble kradge lips</i>
+    <td><<be {Doq} and resemble kradge lips>>
       <br>(lips of the kradge are a particular shade of brown)
     <td><small>[HQ8:1 p.7]</small>
 </table>

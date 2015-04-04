@@ -78,9 +78,9 @@ SkyBox Trading Card 01 (English)
 </div>
 
 
-### 01 --- THE MISSION ###
+### 01 --- <<THE MISSION>> ###
 
-It waits…on the edge of the
+<<It waits…on the edge of the
 galaxy, beside a passage to
 unknown regions of the
 universe, space station
@@ -89,7 +89,7 @@ gateway for the exploration,
 intrigue and enterprise that
 mark the continuation of the
 human adventure into space
---- the final frontier.
+--- the final frontier.>>
 
 1993 SERIES
 
@@ -115,9 +115,9 @@ SkyBox Trading Card 95 (German)
 </div>
 
 
-### 95 --- <span lang=de>DIE MISSION</span> ###
+### 95 --- <i class=translation lang=de>DIE MISSION</i> ###
 
-<span lang=de>Sie wartet…am Rande der
+<i class=translation lang=de>Sie wartet…am Rande der
 Galaxie neben einer Durchfahrt
 in unbekannte Regionen des
 Universums. Die Raumstation
@@ -127,7 +127,7 @@ Entdeckungen, Intrigen und
 Unternehmungen, die immer
 weitere Abenteuer des
 Menschen im Weltraum
-bedeuten --- die letzte Grenze.</span>
+bedeuten --- die letzte Grenze.</i>
 
 1993 SERIES
 
@@ -152,9 +152,9 @@ SkyBox Trading Card 96 (French)
   </a>
 </div>
 
-### 96 --- <span lang=fr>LA MISSION</span> ###
+### 96 --- <i class=translation lang=fr>LA MISSION</i> ###
 
-<span lang=fr>Elle attend…à la limite de la
+<i class=translation lang=fr>Elle attend…à la limite de la
 galaxie, tout près d'un passage
 vers des régions inconnues de
 l'univers, la station spatiale
@@ -163,7 +163,7 @@ d'accès pour l'exploration,
 l'intrigue et l'enterprise qui
 marquent la continuation de
 l'aventure humaine dans
-l'espace --- l'ultime frontière.</span>
+l'espace --- l'ultime frontière.</i>
 
 1993 SERIES
 
@@ -189,9 +189,9 @@ SkyBox Trading Card 97 (Spanish)
 </div>
 
 
-### 97 --- <span lang=es>LA MISION</span> ###
+### 97 --- <i class=translation lang=es>LA MISION</i> ###
 
-<span lang=es>En espera…en el filo de la
+<i class=translation lang=es>En espera…en el filo de la
 galaxia, junto a un pasadizo a
 las regiones desconocidas del
 universo, la estación espacial
@@ -200,7 +200,7 @@ puerta de acceso para la
 exploración, intriga y misión
 que marcan la continuación de
 la aventura humana en el
-espacio --- la frontera final.</span>
+espacio --- la frontera final.</i>
 
 1993 SERIES
 
@@ -226,9 +226,9 @@ SkyBox Trading Card 98 (Japanese)
 </div>
 
 
-### 98 --- <span lang=ja>ミッション</span> ###
+### 98 --- <i class=translation lang=ja>ミッション</i> ###
 
-<span lang=ja style="line-break:strict;">銀河星雲のかなた、宇宙の未開地へ
+<span class=translation lang=ja style="line-break:strict;">銀河星雲のかなた、宇宙の未開地へ
 の通路近くに待機する宇宙ステーシ
 ョン、ディープ・スペース・ナインは、
 探求、好奇心、冒険などに象徴される

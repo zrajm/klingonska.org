@@ -167,58 +167,58 @@ end of these guidelines for the beginner's vocabulary.
     <td>Parts of speech
     <td><i>TKD</i> 2, p. 18
   <tr>
-    <td>NS1 {-'a'} <i>augmentative</i>
+    <td>NS1 {-'a'} <<augmentative>>
     <td><i>TKD</i> 3.3.1, p. 21
   <tr>
-    <td>NS1 {-Hom} <i>diminutive</i>
+    <td>NS1 {-Hom} <<diminutive>>
     <td><i>TKD</i> 3.3.1, p. 21
   <tr>
-    <td>NS3 {-qoq} <i>so-called</i>
+    <td>NS3 {-qoq} <<so-called>>
     <td><i>TKD</i> 3.3.3, p. 24
   <tr>
-    <td>NS3 {-Hey} <i>apparent</i>
+    <td>NS3 {-Hey} <<apparent>>
     <td><i>TKD</i> 3.3.3, p. 24
   <tr>
-    <td>NS3 {-na'} <i>definite</i>
+    <td>NS3 {-na'} <<definite>>
     <td><i>TKD</i> 3.3.3, p. 25
   <tr>
-    <td>NS4 {-wIj} <i>my</i>
+    <td>NS4 {-wIj} <<my>>
     <td><i>TKD</i> 3.3.4, p. 25
   <tr>
-    <td>NS4 {-wI'} <i>my</i>
+    <td>NS4 {-wI'} <<my>>
     <td><i>TKD</i> 3.3.4, p. 25
   <tr>
-    <td>NS4 {-lIj} <i>your</i>
+    <td>NS4 {-lIj} <<your>>
     <td><i>TKD</i> 3.3.4, p. 25
   <tr>
-    <td>NS4 {-lI'} <i>your</i>
+    <td>NS4 {-lI'} <<your>>
     <td><i>TKD</i> 3.3.4, p. 25
   <tr>
-    <td>NS4 {-maj} <i>our</i>
+    <td>NS4 {-maj} <<our>>
     <td><i>TKD</i> 3.3.4, p. 25
   <tr>
-    <td>NS4 {-ma'} <i>our</i>
+    <td>NS4 {-ma'} <<our>>
     <td><i>TKD</i> 3.3.4, p. 25
   <tr>
-    <td>NS4 {-Daj} <i>his/her/its/their</i>
+    <td>NS4 {-Daj} <<his/her/its/their>>
     <td><i>TKD</i> 3.3.4, p. 25
   <tr>
-    <td>NS4 {-vam} <i>this</i>
+    <td>NS4 {-vam} <<this>>
     <td><i>TKD</i> 3.3.4, p. 26
   <tr>
-    <td>NS4 {-vetlh} <i>that</i>
+    <td>NS4 {-vetlh} <<that>>
     <td><i>TKD</i> 3.3.4, p. 26
   <tr>
-    <td>NS5 {-Daq} <i>locative</i>
+    <td>NS5 {-Daq} <<locative>>
     <td><i>TKD</i> 3.3.5, p. 27--28
   <tr>
-    <td>NS5 {-vo'} <i>from</i>
+    <td>NS5 {-vo'} <<from>>
     <td><i>TKD</i> 3.3.5, p. 28
   <tr>
-    <td>NS5 {-mo'} <i>due to, because of</i>
+    <td>NS5 {-mo'} <<due to, because of>>
     <td><i>TKD</i> 3.3.5, p. 28
   <tr>
-    <td>NS5 {-'e'} <i>topic</i>
+    <td>NS5 {-'e'} <<topic>>
     <td><i>TKD</i> 3.3.5, p. 29
   <tr>
     <td>Verb prefix {jI-}
@@ -248,61 +248,61 @@ end of these guidelines for the beginner's vocabulary.
     <td>Verb prefix (null)
     <td><i>TKD</i> 4.1.1, p. 32--34
   <tr>
-    <td>VS1 {-'egh} <i>self</i>
+    <td>VS1 {-'egh} <<self>>
     <td><i>TKD</i> 4.2.1, p. 35
   <tr>
-    <td>VS1 {-chuq }<i>each other</i>
+    <td>VS1 {-chuq }<<each other>>
     <td><i>TKD</i> 4.2.1, p. 36
   <tr>
-    <td>VS2 {-nIS} <i>need</i>
+    <td>VS2 {-nIS} <<need>>
     <td><i>TKD</i> 4.2.2, p. 36
   <tr>
-    <td>VS2 {-rup} <i>ready</i>
+    <td>VS2 {-rup} <<ready>>
     <td><i>TKD</i> 4.2.2, p. 36
   <tr>
-    <td>VS2 {-qang} <i>willing</i>
+    <td>VS2 {-qang} <<willing>>
     <td><i>TKD</i> 4.2.2, p. 36
   <tr>
-    <td>VS2 {-beH} <i>ready</i>
+    <td>VS2 {-beH} <<ready>>
     <td><i>TKD</i> 4.2.2, p. 36--37
   <tr>
-    <td>VS2 {-vIp} <i>afraid</i>
+    <td>VS2 {-vIp} <<afraid>>
     <td><i>TKD</i> 4.2.2, p. 37
   <tr>
-    <td>VS3 {-choH} <i>change</i>
+    <td>VS3 {-choH} <<change>>
     <td><i>TKD</i> 4.2.3, p. 37
   <tr>
-    <td>VS3 {-qa'} <i>again/resume</i>
+    <td>VS3 {-qa'} <<again/resume>>
     <td><i>TKD</i> 4.2.3, p. 37--38
   <tr>
-    <td>VS4 {-moH} <i>cause</i>
+    <td>VS4 {-moH} <<cause>>
     <td><i>TKD</i> 4.2.4, p. 38
   <tr>
-    <td>VS5 {-laH} <i>ability</i>
+    <td>VS5 {-laH} <<ability>>
     <td><i>TKD</i> 4.2.5, p. 39
   <tr>
-    <td>VS6 {-ba'} <i>obviously</i>
+    <td>VS6 {-ba'} <<obviously>>
     <td><i>TKD</i> 4.2.6, p. 175 (addendum)
   <tr>
-    <td>VS6 {-law'} <i>apparently</i>
+    <td>VS6 {-law'} <<apparently>>
     <td><i>TKD</i> 4.2.6, p. 40
   <tr>
-    <td>VS6 {-bej} <i>certainly</i>
+    <td>VS6 {-bej} <<certainly>>
     <td><i>TKD</i> 4.2.6, p. 40
   <tr>
-    <td>VS6 {-chu'} <i>clearly/perfectly</i>
+    <td>VS6 {-chu'} <<clearly/perfectly>>
     <td><i>TKD</i> 4.2.6, p. 40
   <tr>
-    <td>VS8 {-neS} <i>honorific</i>
+    <td>VS8 {-neS} <<honorific>>
     <td><i>TKD</i> 4.2.8, p. 43
   <tr>
-    <td>VS9 {-'a'} <i>interrogative</i>
+    <td>VS9 {-'a'} <<interrogative>>
     <td><i>TKD</i> 4.2.9, p. 44
   <tr>
-    <td>Rover {-be'} <i>negation</i>
+    <td>Rover {-be'} <<negation>>
     <td><i>TKD</i> 4.3, p. 46
   <tr>
-    <td>Rover {-qu'} <i>emphatic</i>
+    <td>Rover {-qu'} <<emphatic>>
     <td><i>TKD</i> 4.3, p. 48--49
   <tr>
     <td>Pronouns
@@ -314,16 +314,16 @@ end of these guidelines for the beginner's vocabulary.
     <td>Exclamations
     <td><i>TKD</i> 5.5, p. 57
   <tr>
-    <td>Question {chay'} <i>how</i>
+    <td>Question {chay'} <<how>>
     <td><i>TKD</i> 6.4, p. 68--70
   <tr>
-    <td>Question {ghorgh} <i>when</i>
+    <td>Question {ghorgh} <<when>>
     <td><i>TKD</i> 6.4, p. 68--70
   <tr>
-    <td>Question {'ar} <i>how many</i>
+    <td>Question {'ar} <<how many>>
     <td><i>TKD</i> 6.4, p. 68--70
   <tr>
-    <td>Question {qatlh} <i>why</i>
+    <td>Question {qatlh} <<why>>
     <td><i>TKD</i> 6.4, p. 68--70
 </table>
 
@@ -399,23 +399,23 @@ vocabulary found in <i>TKD</i> (2nd printing).
     <td>Compound nouns
     <td><i>TKD</i> 3.2.1, p. 19
   <tr>
-    <td>VS9 {-wI'} <i>thing/one which is/does</i>
+    <td>VS9 {-wI'} <<thing/one which is/does>>
     <td><i>TKD</i> 3.2.2, p. 19,
       <br><i>TKD</i> 4.2.9, p. 44
   <tr>
-    <td>NS2 {-Du'} <i>body part plural</i>
+    <td>NS2 {-Du'} <<body part plural>>
     <td><i>TKD</i> 3.3.2, p. 23
   <tr>
-    <td>NS2 {-mey} <i>general plural</i>
+    <td>NS2 {-mey} <<general plural>>
     <td><i>TKD</i> 3.3.2, p. 23
   <tr>
-    <td>NS2 {-pu'} <i>language-user plural</i>
+    <td>NS2 {-pu'} <<language-user plural>>
     <td><i>TKD</i> 3.3.2, p. 23
   <tr>
     <td>Inherent plurals
     <td><i>TKD</i> 3.3.2, p. 23--24
   <tr>
-    <td>NS5 {-vaD} <i>beneficiary</i>
+    <td>NS5 {-vaD} <<beneficiary>>
     <td><i>TKD</i> 3.3.5, p. 28,
       <br><i>TKD</i> 6.8 p. 180 (addendum)
   <tr>
@@ -482,54 +482,54 @@ vocabulary found in <i>TKD</i> (2nd printing).
     <td>Imperative verb prefix {yI-}
     <td><i>TKD</i> 4.1.2, p. 34--35
   <tr>
-    <td>VS5 {-lu'} <i>indefinite subject</i>
+    <td>VS5 {-lu'} <<indefinite subject>>
     <td><i>TKD</i> 4.2.5, p. 38--39
   <tr>
-    <td>VS7 {-ta'} <i>accomplished</i>
+    <td>VS7 {-ta'} <<accomplished>>
     <td><i>TKD</i> 4.2.7, p. 41--42
   <tr>
-    <td>VS7 {-taH} <i>continuous</i>
+    <td>VS7 {-taH} <<continuous>>
     <td><i>TKD</i> 4.2.7, p. 42
   <tr>
-    <td>VS7 {-lI'} <i>in progress</i>
+    <td>VS7 {-lI'} <<in progress>>
     <td><i>TKD</i> 4.2.7, p. 42--43
   <tr>
-    <td>VS7 {-pu'} <i>perfective</i>
+    <td>VS7 {-pu'} <<perfective>>
     <td><i>TKD</i> 4.2.7, p.41
   <tr>
-    <td>VS9 {-mo'} <i>due to/because</i>
+    <td>VS9 {-mo'} <<due to/because>>
     <td><i>TKD</i> 4.2.9, p. 175 (addendum)
   <tr>
-    <td>VS9 {-jaj} <i>may</i>
+    <td>VS9 {-jaj} <<may>>
     <td><i>TKD</i> 4.2.9, p. 175--176 (addendum)
   <tr>
-    <td>VS9 {-ghach} <i>nominalizer</i>
+    <td>VS9 {-ghach} <<nominalizer>>
     <td><i>TKD</i> 4.2.9, p. 176 (addendum)
   <tr>
-    <td>VS9 {-chugh} <i>if</i>
+    <td>VS9 {-chugh} <<if>>
     <td><i>TKD</i> 4.2.9, p. 43
   <tr>
-    <td>VS9 {-DI'} <i>as soon as/when</i>
+    <td>VS9 {-DI'} <<as soon as/when>>
     <td><i>TKD</i> 4.2.9, p. 43
   <tr>
-    <td>VS9 {-pa'} <i>before</i>
+    <td>VS9 {-pa'} <<before>>
     <td><i>TKD</i> 4.2.9, p. 43
   <tr>
-    <td>VS9 {-vIS} <i>while</i>
+    <td>VS9 {-vIS} <<while>>
     <td><i>TKD</i> 4.2.9, p. 43--44
   <tr>
-    <td>VS9 {-bogh} <i>relative</i> <i>clause</i>
+    <td>VS9 {-bogh} <<relative clause>>
     <td><i>TKD</i> 4.2.9, p. 44,
       <br><i>TKD</i> 6.2.3, p. 63--64
   <tr>
-    <td>VS9 {-meH} <i>purpose clause</i>
+    <td>VS9 {-meH} <<purpose clause>>
     <td><i>TKD</i> 4.2.9, p. 44,
       <br><i>TKD</i> 6.2.4, p. 64--65
   <tr>
-    <td>Rover {-Qo'} <i>won't</i>
+    <td>Rover {-Qo'} <<won't>>
     <td><i>TKD</i> 4.3, p. 47
   <tr>
-    <td>Rover {-Ha'} <i>undo</i>
+    <td>Rover {-Ha'} <<undo>>
     <td><i>TKD</i> 4.3, p. 47--48
   <tr>
     <td>Adjectives

@@ -24,8 +24,8 @@ time.
 
 When used, time expressions come at the very beginning of a Klingon sentence,
 even before any occurring adverbials. (Though there are some time expressions
--- namely, {qen} <i>recently, a short time ago,</i> and {tugh} <i>soon</i> --
-which themselves <em>are</em> adverbials.)
+-- namely, {qen} <<recently, a short time ago,>> and {tugh} <<soon>> -- which
+themselves <em>are</em> adverbials.)
 
 
 [units] Units of Time
@@ -37,71 +37,70 @@ that in mind, here is a list (largest first):
 
 <table>
   <tr><th>Klingon<th>English<th>Source
-  <tr><td>{DIS}<td><i>year (Klingon)</i><td><small>[TKD]</small>
-  <tr><td>{jar}<td><i>month (Klingon)</i><td><small>[TKD]</small>
-  <tr><td>{Hogh}<td><i>week (Klingon)</i><td><small>[TKD]</small>
-  <tr><td>{jaj}<td><i>day (from dawn to dawn)</i><td><small>[TKD]</small>
-  <tr><td>{rep}<td><i>hour</i><td><small>[TKD]</small>
-  <tr><td>{tup}<td><i>minute (of time)</i><td><small>[TKD]</small>
-  <tr><td>{lup}<td><i>second (of time)</i><td><small>[TKD]</small>
+  <tr><td>{DIS}<td><<year (Klingon)>><td><small>[TKD]</small>
+  <tr><td>{jar}<td><<month (Klingon)>><td><small>[TKD]</small>
+  <tr><td>{Hogh}<td><<week (Klingon)>><td><small>[TKD]</small>
+  <tr><td>{jaj}<td><<day (from dawn to dawn)>><td><small>[TKD]</small>
+  <tr><td>{rep}<td><<hour>><td><small>[TKD]</small>
+  <tr><td>{tup}<td><<minute (of time)>><td><small>[TKD]</small>
+  <tr><td>{lup}<td><<second (of time)>><td><small>[TKD]</small>
 </table>
 
 
 [present] Present
 -----------------
-The word for <i>now</i> is {DaH}, and the word for <i>today</i> is {DaHjaj.}
-<i>Today</i> can also be expressed as {jajvam} <i>this day</i> -- which
-actually means <i>this day (that we are talking about)</i> or <i>this day (that
-is obvious from context)</i> -- so {jajvam} may actually refer to last
-Thursday, if that happens to be the topic of the conversation.
+The word for <<now>> is {DaH}, and the word for <<today>> is {DaHjaj.}
+<<Today>> can also be expressed as {jajvam} <<this day>> -- which actually
+means <<this day (that we are talking about)>> or <<this day (that is obvious
+from context)>> -- so {jajvam} may actually refer to last Thursday, if that
+happens to be the topic of the conversation.
 
-Since {-vam} above is a type 4 noun suffix (meaning <i>this</i>), it can be
-used on any time unit: {DISvam} <i>this year,</i> {jarvam} <i>this month,</i>
-{Hoghvam} <i>this week</i> etc. <small>[TKD 3.3.4]</small> We have no
-indication that {DaH} can be used in this way, however, so a word
-like <b lang="tlh"><sup>*</sup>DaHtup</b> might be possible to understand, but
-it is most likely ungrammatical.
+Since {-vam} above is a type 4 noun suffix (meaning <<this>>), it can be used
+on any time unit: {DISvam} <<this year,>> {jarvam} <<this month,>> {Hoghvam}
+<<this week>> etc. <small>[TKD 3.3.4]</small> We have no indication that {DaH}
+can be used in this way, however, so a word like {<sup>*</sup>DaHtup} might be
+possible to understand, but it is most likely ungrammatical.
 
 <table>
   <thead><tr><th>Klingon<th>English<th>Source</thead>
-  <tr><td>{DaH}<td><i>now</i> (adv)<td><small>[TKD]</small>
-  <tr><td>{DaHjaj}<td><i>today</i> (n)<td><small>[TKD]</small>
+  <tr><td>{DaH}<td><<now>> (adv)<td><small>[TKD]</small>
+  <tr><td>{DaHjaj}<td><<today>> (n)<td><small>[TKD]</small>
 </table>
 
 
 [past] Past
 -----------
-The adverbial {qen} means <i>recently</i> or <i>a short time ago.</i>
+The adverbial {qen} means <<recently>> or <<a short time ago.>>
 
-When one needs to be more specific there are words to count <i>years,
-months,</i> and <i>days ago</i> -- there is also a general purpose word to
-express that something happened <i>X time units ago,</i> where any time unit
+When one needs to be more specific there are words to count <<years,
+months,>> and <<days ago>> -- there is also a general purpose word to
+express that something happened <<X time units ago,>> where any time unit
 can be inserted. Here are the words:
 
 <table>
   <thead><tr><th>Klingon<th>English<th>Source</thead>
-  <tr><td>{ben}<td><i>years ago</i> (n)<td><small>[TKD]</small>
-  <tr><td>{wen}<td><i>months ago</i> (n)<td><small>[HQ 8:3]</small>
-  <tr><td>{Hu'}<td><i>days ago</i> (n)<td><small>[TKD]</small>
-  <tr><td>{ret}<td><i>time period ago</i> (n)<td><small>[HQ 8:3]</small>
-  <tr><td>{qen}<td><i>recently, a short time ago</i> (adv)<td><small>[News 1999-02-02]</small>
+  <tr><td>{ben}<td><<years ago>> (n)<td><small>[TKD]</small>
+  <tr><td>{wen}<td><<months ago>> (n)<td><small>[HQ 8:3]</small>
+  <tr><td>{Hu'}<td><<days ago>> (n)<td><small>[TKD]</small>
+  <tr><td>{ret}<td><<time period ago>> (n)<td><small>[HQ 8:3]</small>
+  <tr><td>{qen}<td><<recently, a short time ago>> (adv)<td><small>[News 1999-02-02]</small>
 </table>
 
-The words {ben} <i>years ago,</i> {wen} <i>months ago,</i> and {Hu'} <i>days
-ago</i> can be immediately preceded by any number to form a time expression,
-while {ret} <i>time period ago</i> must be preceded by a number <em>and</em>
+The words {ben} <<years ago,>> {wen} <<months ago,>> and {Hu'} <<days
+ago>> can be immediately preceded by any number to form a time expression,
+while {ret} <<time period ago>> must be preceded by a number <em>and</em>
 the name of a time period. Here are some examples:
 
 <table class="noborder">
-  <tr><td>{cha'vatlh ben}<td><i>two hundred years ago, two centuries ago</i>
-  <tr><td>{Hut wen}<td><i>nine months ago</i>
-  <tr><td>{wa'Hu'}<td><i>yesterday, one day ago</i>
-  <tr><td>{cha' tup ret}<td><i>two minutes ago</i>
+  <tr><td>{cha'vatlh ben}<td><<two hundred years ago, two centuries ago>>
+  <tr><td>{Hut wen}<td><<nine months ago>>
+  <tr><td>{wa'Hu'}<td><<yesterday, one day ago>>
+  <tr><td>{cha' tup ret}<td><<two minutes ago>>
 </table>
 
-It might be added that {ret} <i>time period ago</i> is not used in combination
-with the time units for <i>years, months,</i> or <i>days,</i> in those cases
-{ben} <i>years ago,</i> {wen} <i>months ago,</i> or {Hu'} <i>days ago</i> are
+It might be added that {ret} <<time period ago>> is not used in combination
+with the time units for <<years, months,>> or <<days,>> in those cases
+{ben} <<years ago,>> {wen} <<months ago,>> or {Hu'} <<days ago>> are
 always preferred.
 
 
@@ -112,26 +111,26 @@ words, but they work the same.
 
 <table>
   <thead><tr><th>Klingon<th>English<th>Source</thead>
-  <tr><td>{nem}<td><i>years from now</i> (n)<td><small>[TKD]</small>
-  <tr><td>{waQ}<td><i>months from now</i> (n)<td><small>[HQ 8:3]</small>
-  <tr><td>{leS}<td><i>days from now</i> (n)<td><small>[TKD]</small>
-  <tr><td>{pIq}<td><i>time period from now</i> (n)<td><small>[HQ 8:3]</small>
-  <tr><td>{tugh}<td><i>soon</i> (adv)<td><small>[TKD]</small>
+  <tr><td>{nem}<td><<years from now>> (n)<td><small>[TKD]</small>
+  <tr><td>{waQ}<td><<months from now>> (n)<td><small>[HQ 8:3]</small>
+  <tr><td>{leS}<td><<days from now>> (n)<td><small>[TKD]</small>
+  <tr><td>{pIq}<td><<time period from now>> (n)<td><small>[HQ 8:3]</small>
+  <tr><td>{tugh}<td><<soon>> (adv)<td><small>[TKD]</small>
 </table>
 
 And here are some examples:
 
 <table class="noborder">
-  <tr><td>{cha'vatlh nem}<td><i>two hundred years from now, two centuries from now</i>
-  <tr><td>{Hut waQ}<td><i>nine months from now</i>
-  <tr><td>{wa'leS}<td><i>tomorrow, one day from now</i>
-  <tr><td>{cha' tup pIq}<td><i>two minutes from now</i>
+  <tr><td>{cha'vatlh nem}<td><<two hundred years from now, two centuries from now>>
+  <tr><td>{Hut waQ}<td><<nine months from now>>
+  <tr><td>{wa'leS}<td><<tomorrow, one day from now>>
+  <tr><td>{cha' tup pIq}<td><<two minutes from now>>
 </table>
 
-It might be added that {pIq} <i>time period from now</i> is not used in
-combination with the time units for <i>years, months,</i> or <i>days,</i> in
-those cases {nem} <i>years from now,</i> {waQ} <i>months from now,</i> or
-{leS} <i>days from now</i> are always preferred.
+It might be added that {pIq} <<time period from now>> is not used in
+combination with the time units for <<years, months,>> or <<days,>> in
+those cases {nem} <<years from now,>> {waQ} <<months from now,>> or
+{leS} <<days from now>> are always preferred.
 
 
 [year] Years and Months
@@ -148,7 +147,7 @@ As for names of the months, we have no canon examples. Alan Anderson
 &lt;caanders@netusa1.net&gt; has suggested to the [tlhingan-hol mailing
 list](http://www.kli.org/tlhIngan-Hol/) (in <time datetime="1996-05-20">20 May
 1996</time>) that one should apply the same pattern as for years above, thus
-saying {tera' jar vagh} for the Terran month <i>May</i>.
+saying {tera' jar vagh} for the Terran month <<May>>.
 
 
 [times] Times of the Day
@@ -157,14 +156,14 @@ There exist a bunch of words for describing the time of day:
 
 <table>
   <thead><tr><th>Klingon<th>English<th>Source</thead>
-  <tr><td>{jajlo'}<td><i>dawn</i> (n)<td><small>[TKD]</small>
-  <tr><td>{po}<td><i>morning</i> (n)<td><small>[TKD]</small>
-  <tr><td>{pem}<td><i>daytime</i> (n)<td><small>[TKD]</small>
-  <tr><td>{pemjep}<td><i>midday</i> (n)<td><small>[TKD]</small>
-  <tr><td>{pov}<td><i>afternoon</i> (n)<td><small>[TKD]</small>
-  <tr><td>{choS}<td><i>twilight</i> (n)<td><small>[TKD]</small>
-  <tr><td>{ram}<td><i>night</i> (n)<td><small>[TKD]</small>
-  <tr><td>{ramjep}<td><i>midnight</i> (n)<td><small>[TKD]</small>
+  <tr><td>{jajlo'}<td><<dawn>> (n)<td><small>[TKD]</small>
+  <tr><td>{po}<td><<morning>> (n)<td><small>[TKD]</small>
+  <tr><td>{pem}<td><<daytime>> (n)<td><small>[TKD]</small>
+  <tr><td>{pemjep}<td><<midday>> (n)<td><small>[TKD]</small>
+  <tr><td>{pov}<td><<afternoon>> (n)<td><small>[TKD]</small>
+  <tr><td>{choS}<td><<twilight>> (n)<td><small>[TKD]</small>
+  <tr><td>{ram}<td><<night>> (n)<td><small>[TKD]</small>
+  <tr><td>{ramjep}<td><<midnight>> (n)<td><small>[TKD]</small>
 </table>
 
 > “Although Klingons tell time the way most of the rest of the galaxy does, the
@@ -178,25 +177,25 @@ There exist a bunch of words for describing the time of day:
 -------------------------
 Asking what time it is is an idiomatic phrase in most languages, and Klingon is
 no exception in this. There are basically two ways of asking: The one usually
-used in military contexts is {rep yIper!} <i>Ascertain the hour!</i>
-or <i>Specify the hour!</i> Outside of those situations the expression {'arlogh
-Qoylu'pu'?} is most commonly used (it literally means <i>How many times has
-(someone) heard (it)?</i> or <i>How many times has it been
-heard?</i>) <small>[HQ 8:1]</small>
+used in military contexts is {rep yIper!} <<Ascertain the hour!>>
+or <<Specify the hour!>> Outside of those situations the expression {'arlogh
+Qoylu'pu'?} is most commonly used (it literally means <<How many times has
+(someone) heard (it)?>> or <<How many times has it been
+heard?>>) <small>[HQ 8:1]</small>
 
 <table class="noborder spacy">
   <tr>
     <td width="33%">{rep yIper!}
-    <td><i>Ascertain the hour! Specify the
-        hour!</i> <small>[HQ 8:1]</small>
+    <td><<Ascertain the hour! Specify the
+        hour!>> <small>[HQ 8:1]</small>
   <tr>
     <td>{'arlogh Qoylu'pu'?}
-    <td><i>What time is it?</i> (lit. <i>How many times has it been
-        heard?</i>) <small>[HQ 8:1]</small>
+    <td><<What time is it?>> (lit. <<How many times has it been
+        heard?>>) <small>[HQ 8:1]</small>
   <tr>
     <td>{mamejDI' 'arlogh Qoylu'pu'?}
-    <td><i>What time do we leave?</i> (lit. <i>When we leave, how many times
-        will it have been heard?</i>) <small>[HQ 8:1]</small>
+    <td><<What time do we leave?>> (lit. <<When we leave, how many times
+        will it have been heard?>>) <small>[HQ 8:1]</small>
 </table>
 
 
@@ -215,23 +214,23 @@ Klingon</i> has the following to say:
 <table class="noborder spacy">
   <tr>
     <td>{javvatlh rep}
-    <td><i>six hundred hours</i> or <i>six o'clock in the
-        morning</i> <small>[CK]</small>
+    <td><<six hundred hours>> or <<six o'clock in the
+        morning>> <small>[CK]</small>
   <tr>
     <td>{wa'maH cha'vatlh rep}
-    <td><i>twelve hundred hours</i> or <i>noon</i> <small>[CK]<sup>
+    <td><<twelve hundred hours>> or <<noon>> <small>[CK]<sup>
           1</sup></small>
   <tr>
     <td>{wa'maH Hutvatlh rep}
-    <td><i>nineteen hundred hours</i> or <i>seven
-        p.m.</i> <small>[CK]</small>
+    <td><<nineteen hundred hours>> or <<seven
+        p.m.>> <small>[CK]</small>
   <tr>
     <td>{pagh rep}
-    <td><i>zero hours</i> or <i>midnight</i> <small>[CK]</small>
+    <td><<zero hours>> or <<midnight>> <small>[CK]</small>
   <tr>
     <td>{wa'maH loSvatlh wejmaH rep}
-    <td><i>fourteen hundred thirty hours</i> or <i>2:30
-        p.m.</i> <small>[KML]<sup> 2</sup></small>
+    <td><<fourteen hundred thirty hours>> or <<2:30
+        p.m.>> <small>[KML]<sup> 2</sup></small>
 </table>
 
 <table class="noborder spacy">
@@ -248,54 +247,54 @@ Klingon</i> has the following to say:
 In <i>{HolQeD} 8:1</i> no less than <em>two different</em> ways of telling the
 time is described. The first system, used for interplanetary communication, is
 exemplified in the following phrases (if the context is clear, the word
-{tera'} <i>Earth</i> may be left out, as in the last example below):
+{tera'} <<Earth>> may be left out, as in the last example below):
 
 <table class="noborder spacy">
   <tr>
     <td>{tera' rep wa'}
-    <td><i>Earth hour one or one o'clock</i>
+    <td><<Earth hour one or one o'clock>>
   <tr>
     <td>{tera' rep cha'maH}
-    <td><i>Earth hour 20 or 20 o'clock
-        or eight o'clock p.m.</i>
+    <td><<Earth hour 20 or 20 o'clock
+        or eight o'clock p.m.>>
   <tr>
     <td>{tera' rep loS wejmaH}
-    <td><i>Earth hour 4:30</i>
+    <td><<Earth hour 4:30>>
   <tr>
     <td>{rep cha'maH}
-    <td><i>20 o'clock, eight o'clock p.m.</i>
+    <td><<20 o'clock, eight o'clock p.m.>>
 </table>
 
 The second, more informal system from <i>{HolQeD} 8:1,</i> is the way one
 responds to the above mentioned question: {'arlogh Qoylu'pu'?} -- In direct
 response to this question one may even drop the verb, and answer with only the
-word {chorghlogh} <i>eight o'clock</i> (lit. <i>Eight times</i>).
+word {chorghlogh} <<eight o'clock>> (lit. <<Eight times>>).
 
 <table class="noborder spacy">
   <tr>
     <td>{cha'logh Qoylu'pu'}
-    <td><i>It's two o'clock</i>
+    <td><<It's two o'clock>>
   <tr>
     <td class="nobr">{chorghlogh Qoylu'pu'}
-    <td><i>It's eight o'clock</i>
+    <td><<It's eight o'clock>>
 </table>
 
 Finally, the latest system given comes from the <i>EuroTalk: Talk Now!</i>
 language course in Klingon. It looks like this (notice the weird usage of
-{vatlh} in e.g. <i>ten o'clock a.m.</i>!):
+{vatlh} in e.g. <<ten o'clock a.m.>>!):
 
 <table class="noborder">
-  <tr><td>{pagh rep}<td><i>twelve p.m. (00:00)</i>
-  <tr><td>{pagh cha'maH vagh rep}<td><i>12:25 a.m. (00:25)</i>
-  <tr><td>{pagh vaghmaH rep}<td><i>12:50 a.m. (00:50)</i>
-  <tr><td>{wa'vatlh rep}<td><i>one a.m. (01:00)</i>
-  <tr><td>{wa'vatlh vagh rep}<td><i>five past one a.m. (01:05)</i>
-  <tr><td>{wa'vatlh wa'maH rep}<td><i>ten past one a.m. (01:10)</i>
-  <tr><td>{wa'maH vatlh rep}<td><i>ten a.m. (10:00)</i>
-  <tr><td>{wa'maH wa'vatlh rep}<td><i>eleven a.m. (11:00)</i>
-  <tr><td>{wa'maH cha'vatlh rep}<td><i>twelve a.m. (12:00)</i>
-  <tr><td>{wa'maH wejvatlh rep}<td><i>one p.m. (13:00)</i>
-  <tr><td>{cha'maH wejvatlh rep}<td><i>eleven p.m. (23:00)</i>
+  <tr><td>{pagh rep}<td><<twelve p.m. (00:00)>>
+  <tr><td>{pagh cha'maH vagh rep}<td><<12:25 a.m. (00:25)>>
+  <tr><td>{pagh vaghmaH rep}<td><<12:50 a.m. (00:50)>>
+  <tr><td>{wa'vatlh rep}<td><<one a.m. (01:00)>>
+  <tr><td>{wa'vatlh vagh rep}<td><<five past one a.m. (01:05)>>
+  <tr><td>{wa'vatlh wa'maH rep}<td><<ten past one a.m. (01:10)>>
+  <tr><td>{wa'maH vatlh rep}<td><<ten a.m. (10:00)>>
+  <tr><td>{wa'maH wa'vatlh rep}<td><<eleven a.m. (11:00)>>
+  <tr><td>{wa'maH cha'vatlh rep}<td><<twelve a.m. (12:00)>>
+  <tr><td>{wa'maH wejvatlh rep}<td><<one p.m. (13:00)>>
+  <tr><td>{cha'maH wejvatlh rep}<td><<eleven p.m. (23:00)>>
 </table>
 
 
@@ -306,10 +305,10 @@ Let's lump it all together under this heading.
 
 <table>
   <thead><tr><th>Klingon<th>English<th>Source</thead>
-  <tr><td>{poH}<td><i>time</i> (v)<td><small>[TKD]</small>
-  <tr><td>{poH}<td><i>period of time</i> (n)<td><small>[TKD]</small>
-  <tr><td>{nI'}<td><i>be long, lengthy (duration)</i> (v)<td><small>[TKD]</small>
-  <tr><td>{ngaj}<td><i>be short (in duration)</i> (v)<td><small>[KGT]</small>
+  <tr><td>{poH}<td><<time>> (v)<td><small>[TKD]</small>
+  <tr><td>{poH}<td><<period of time>> (n)<td><small>[TKD]</small>
+  <tr><td>{nI'}<td><<be long, lengthy (duration)>> (v)<td><small>[TKD]</small>
+  <tr><td>{ngaj}<td><<be short (in duration)>> (v)<td><small>[KGT]</small>
 </table>
 
 If you want to know more about how to tell time in Klingon, you may want to

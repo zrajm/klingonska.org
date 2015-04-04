@@ -14,8 +14,8 @@ To express locative concepts in Klingon one mostly make use of one of the
 following Type 5 noun suffixes:
 
 <table>
-  <tr><td>{-Daq}<td><i>locative</i> (n)<td><small>[TKD 3.3.5]</small>
-  <tr><td>{-vo'}<td><i>from</i> (n)<td><small>[TKD 3.3.5]</small>
+  <tr><td>{-Daq}<td><<locative>> (n)<td><small>[TKD 3.3.5]</small>
+  <tr><td>{-vo'}<td><<from>> (n)<td><small>[TKD 3.3.5]</small>
 </table>
 
 {-Daq} is used to express that something takes place in the vicinity of,
@@ -23,56 +23,55 @@ inside, or in the direction towards a noun. While {-vo'} indicates that
 something is going in a direction away from the noun. E.g.
 
 <table class="noborder">
-  <tr><td><b lang="tlh">DujwIj<u>Daq</u> jIHtaH</b><td><i>I'm <u>in</u> my ship.</i>
-  <tr><td><b lang="tlh">juHwIj<u>Daq</u> jIHtaH</b><td><i>I'm <u>at</u> my home.</i>
-  <tr><td><b lang="tlh">juHwIj<u>Daq</u> jIjaH</b><td><i>I'm going <u>to</u> my home.</i>
-  <tr><td><b lang="tlh">juHwIj<u>vo'</u> jIjaH</b><td><i>I'm going <u>away from</u> my home.</i>
+  <tr><td>{DujwIj<u>Daq</u> jIHtaH}<td><<I'm <u>in</u> my ship.>>
+  <tr><td>{juHwIj<u>Daq</u> jIHtaH}<td><<I'm <u>at</u> my home.>>
+  <tr><td>{juHwIj<u>Daq</u> jIjaH}<td><<I'm going <u>to</u> my home.>>
+  <tr><td>{juHwIj<u>vo'</u> jIjaH}<td><<I'm going <u>away from</u> my home.>>
 </table>
 
 Klingon uses nouns to express more complex spatial relationships (these words
 are adverbs in English) this means that for example the word {Dat} should be
-interpreted as something like <i>the everwhere place</i> or <i>all places</i>.
-And a phase like {Dat qalegh} (meaning <i>I see you everywhere</i>) is
-literally <i>I see you in all places</i>. Likewise {poSwIjDaq qalegh}
-(meaning <i>I see you to my left</i>) is literally <i> I see you in my left
-area</i>.
+interpreted as something like <<the everwhere place>> or <<all places>>. And a
+phase like {Dat qalegh} (meaning <<I see you everywhere>>) is literally <<I see
+you in all places>>. Likewise {poSwIjDaq qalegh} (meaning <<I see you to my
+left>>) is literally <<I see you in my left area>>.
 
 <table>
   <caption>These nouns never take the {-Daq} suffix. <small>[TKD 3.3.5]</small></caption>
-  <tr><td>{Dat}<td><i>everywhere, all places </i> (n)
-  <tr><td>{naDev}<td><i>here, hereabouts </i> (n)
-  <tr><td>{pa'}<td><i>there, over there, thereabouts </i> (n)
+  <tr><td>{Dat}<td><<everywhere, all places >> (n)
+  <tr><td>{naDev}<td><<here, hereabouts >> (n)
+  <tr><td>{pa'}<td><<there, over there, thereabouts >> (n)
 </table>
 
 Here's a list of some [location nouns](/dict/?q=tag:placement+pos:noun) in
 Klingon:
 
 <table>
-<tr><td>{vogh}<td><i>somewhere</i> (n)<td><small>[TKD]</small>
-<tr><td>{nIH}<td><i>right (side)</i> (n)<td><small>[TKD]</small>
-<tr><td>{poS}<td><i>left (side)</i> (n)<td><small>[TKD]</small>
-<tr><td>{tlhop}<td><i>front, area in front of</i> (n)<td><small>[KGT]</small>
-<tr><td>{'em}<td><i>behind, area behind</i> (n)<td><small>[KGT]</small>
-<tr><td>{Dung}<td><i>area above, area overhead</i> (n)<td><small>[TKD]</small>
-<tr><td>{bIng}<td><i>area below, area under</i> (n)<td><small>[TKD]</small>
-<tr><td>{retlh}<td><i>area beside, area next to</i> (n)<td><small>[TKD]</small>
-<tr><td>{joj}<td><i>area between</i> (n)<td><small>[KGT]</small>
-<tr><td>{qoD}<td><i>inside, interior</i> (n)<td><small>[KGT]</small>
-<tr><td>{Hur}<td><i>outside</i> (n)<td><small>[TKD]</small>
+<tr><td>{vogh}<td><<somewhere>> (n)<td><small>[TKD]</small>
+<tr><td>{nIH}<td><<right (side)>> (n)<td><small>[TKD]</small>
+<tr><td>{poS}<td><<left (side)>> (n)<td><small>[TKD]</small>
+<tr><td>{tlhop}<td><<front, area in front of>> (n)<td><small>[KGT]</small>
+<tr><td>{'em}<td><<behind, area behind>> (n)<td><small>[KGT]</small>
+<tr><td>{Dung}<td><<area above, area overhead>> (n)<td><small>[TKD]</small>
+<tr><td>{bIng}<td><<area below, area under>> (n)<td><small>[TKD]</small>
+<tr><td>{retlh}<td><<area beside, area next to>> (n)<td><small>[TKD]</small>
+<tr><td>{joj}<td><<area between>> (n)<td><small>[KGT]</small>
+<tr><td>{qoD}<td><<inside, interior>> (n)<td><small>[KGT]</small>
+<tr><td>{Hur}<td><<outside>> (n)<td><small>[TKD]</small>
 </table>
 
 And, finally, these are [verbs to describe size and
 position](/dict/?q=cat:placement+pos:verb) of objects:
 
 <table>
-<tr><td>{yoy}<td><i>be upside down</i> (v)<td><small>[TKD]</small>
-<tr><td>{ngaS}<td><i>contain (have inside)</i> (v)<td><small>[TKD]</small>
-<tr><td>{Sum}<td><i>be near, be nearby</i> (v)<td><small>[KGT]</small>
-<tr><td>{Hop}<td><i>be remote, be far</i> (v)<td><small>[TKD]</small>
-<tr><td>{tIn}<td><i>be big</i> (v)<td><small>[TKD]</small>
-<tr><td>{mach}<td><i>be small</i> (v)<td><small>[TKD]</small>
-<tr><td>{tIq}<td><i>be long, lengthy (of an object)</i> (v)<td><small>[TKD]</small>
-<tr><td>{run}<td><i>be short (in stature)</i> (v)<td><small>[KGT]</small>
+<tr><td>{yoy}<td><<be upside down>> (v)<td><small>[TKD]</small>
+<tr><td>{ngaS}<td><<contain (have inside)>> (v)<td><small>[TKD]</small>
+<tr><td>{Sum}<td><<be near, be nearby>> (v)<td><small>[KGT]</small>
+<tr><td>{Hop}<td><<be remote, be far>> (v)<td><small>[TKD]</small>
+<tr><td>{tIn}<td><<be big>> (v)<td><small>[TKD]</small>
+<tr><td>{mach}<td><<be small>> (v)<td><small>[TKD]</small>
+<tr><td>{tIq}<td><<be long, lengthy (of an object)>> (v)<td><small>[TKD]</small>
+<tr><td>{run}<td><<be short (in stature)>> (v)<td><small>[KGT]</small>
 </table>
 
 And that concludes this quick reference to locations in Klingon.

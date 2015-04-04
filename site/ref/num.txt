@@ -26,30 +26,31 @@ A Quick Reference to Numbers in Klingon
 </table>
 
 The basic numbers 1--9 may take a number-forming element to form a higher
-number such as {wa'vatlh} (<i>one hundred</i>) or {cha'vatlh wejmaH loS}
-(<i>two hundred thirty four</i>). When a number is used to modify a noun, that
+number such as {wa'vatlh} (<<one hundred>>) or {cha'vatlh wejmaH loS}
+(<<two hundred thirty four>>). When a number is used to modify a noun, that
 noun does not have to take a plural suffix (it is never mandatory, and
 plurality in clearly indicated anyway).
 
-Numbers preceding a noun it is used for counting (e.g. {cha' Duj} <i>two
-vessels</i>), numbers following is used for numbering (e.g. {Duj
-cha'} <i>vessel number two</i>). Numbers may also stand alone and serve as
-nouns in their own right (e.g {wa' yIHoH} <i>Kill one (of
-them)!</i>). <small>[TKD 5.2]</small>
+Numbers preceding a noun it is used for counting (e.g. {cha' Duj}
+<<two vessels>>), numbers following is used for numbering (e.g. {Duj cha'}
+<<vessel number two>>). Numbers may also stand alone and serve as nouns in
+their own right (e.g {wa' yIHoH} <<Kill one (of
+them)!>>). <small>[TKD 5.2]</small>
 
 <table>
   <tr><th colspan=3>Number Suffixes
-  <tr><td>{-DIch}<td>ordinal (follows the noun)<td>i.e. "first", "second", "third" etc.
-  <tr><td>{-logh}<td>repetitions (becomes adverb)<td>i.e. "once", "twice", "three times" etc.
+  <tr><td>{-DIch}<td>ordinal (follows the noun)<td>i.e. <<first>>, <<second>>, <<third>> etc.
+  <tr><td>{-logh}<td>repetitions (becomes adverb)<td>i.e. <<once>>, <<twice>>, <<three times>> etc.
 </table>
 
 When {-DIch} is used it always follows the noun in modifies (e.g. {Duj
-cha'DIch} <i>second vessel</i>).
+cha'DIch} <<second vessel>>).
 
 Adding {-logh} turns the number into an [adverbial](adv.html) that is placed in
-front of the entire object--verb--subject construction (e.g {wa'logh
-qalegh} <i>I saw you once</i>), or be placed between the object and the verb if
-the object noun is topicalized with {-'e'}. ({yaS'e' cha'logh Dabachpu'} <i>You
-shot the OFFICER twice.</i>) <small>[TKD 5.2, 5.4, TKDa 6.7]</small>
+front of the entire object--verb--subject construction (e.g {wa'logh qalegh}
+<<I saw you once>>). If the object noun is topicalized with {-'e'}, the number
+of repetitions may instead come between the object and the verb (e.g. {yaS'e'
+cha'logh Dabachpu'} <<You shot the OFFICER twice>>). <small>[TKD 5.2, 5.4, TKDa
+6.7]</small>
 
 [[eof]]

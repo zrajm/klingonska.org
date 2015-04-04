@@ -26,7 +26,6 @@ datetime="1997-06">June 1997</time>.
 
 SkyBox Trading Card S31
 -----------------------
-
 <div class=gallery>
   <a class=item style="width:250px" href="pic/1997-sbx-s31a.jpg">
     <img src="pic/mini/1997-sbx-s31a.jpg" width=250 height=181>
@@ -39,13 +38,13 @@ SkyBox Trading Card S31
 </div>
 
 
-### S31: Death Howl -- {Hegh bey} ###
+### S31: <<Death Howl>> -- {Hegh bey} ###
 
-When a Klingon warrior dies or is killed, other Klingons may perform a
+<<When a Klingon warrior dies or is killed, other Klingons may perform a
 ceremonial howl or yell as part of the Klingon death ritual. The eyes of the
 fallen Klingon are opened and others roar in a great crescendo. This yell
 is victorious in nature, rather than mournful and also serves to warn the
-other dead that a Klingon warrior is coming.
+other dead that a Klingon warrior is coming.>>
 
 {HeghDI’ tlhIngan SuvwI’ pagh tlhIngan SuvwI’ HoHlu’DI’ Heghtay lulop latlh tlhInganpu’. Heghtay luloptaHvIS chaH
 chaq bey SeQ lujach. Heghpu’bogh tlhIngan mInDu’ lupoSmoHlu’. beyHom bey bey’a’ jachtaH latlh tlhInganpu’. yay
@@ -53,11 +52,12 @@ chaq bey SeQ lujach. Heghpu’bogh tlhIngan mInDu’ lupoSmoHlu’. beyHom bey b
 
 SkyBox<sup>TM</sup>
 
-TM, ® & © 1997 PARAMOUNT PICTURES. ALL RIGHTS RESERVED. *STAR TREK* AND RELATED MARKS ARE TRADEMARKS OF
-PARAMOUNT PICTURES. FLEER/SKYBOX AUTHORIZED USER. PRINTED IN USA.
+<<TM, ® & © 1997 PARAMOUNT PICTURES. ALL RIGHTS RESERVED. *STAR TREK* AND RELATED MARKS ARE TRADEMARKS OF
+PARAMOUNT PICTURES. FLEER/SKYBOX AUTHORIZED USER.>> PRINTED IN USA.
 
-TM, ®, © {je tera’ DIS wa’-Hut-Hut-loS} Paramount Pictures. {Hoch SeH.} Paramount Pictures
-{malja’ permey bIH} *STAR TREK* {pong’e’ Deghmey’e’ je. bIH lo’} Fleer/SkyBox. {’e’ chaw’.}
+{TM, ®, © je tera’ DIS wa’-Hut-Hut-loS Paramount Pictures. Hoch SeH. Paramount Pictures
+malja’ permey bIH *STAR TREK* pong’e’ Deghmey’e’ je. bIH lo’ Fleer/SkyBox ’e’ chaw’.}
+
 TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF *the Klingon Dictionary*.
 ILLUSTRATION FROM THE *STAR TREK* ENCYCLOPEDIA
 
@@ -66,7 +66,6 @@ Paramount<sup>®</sup>
 
 SkyBox Trading Card S32
 -----------------------
-
 <div class=gallery>
   <a class=item style="width:250px" href="pic/1997-sbx-s32a.jpg">
     <img src="pic/mini/1997-sbx-s32a.jpg" width=250 height=181>
@@ -79,12 +78,12 @@ SkyBox Trading Card S32
 </div>
 
 
-### S32: Painstik -- {’oy’naQ} ###
+### S32: <<Painstik>> -- {’oy’naQ} ###
 
-The Klingon Painstik is an important part of a Klingon’s Age of Ascension ceremony. The Painstik is employed by friends
+<<The Klingon Painstik is an important part of a Klingon’s Age of Ascension ceremony. The Painstik is employed by friends
 of the recipient who use the devices to inflict pain in a manner which will allow the Klingon to attain a higher state of
 spirituality as a warrior, proving his mettle. Painstiks are a little over one meter long and emit a highly-charged shock
-for the express purpose of inflicting pain.
+for the express purpose of inflicting pain.>>
 
 {nentay loptaHvIS tlhIngan potlh tlhIngan ’oy’naQ’e’. SIQwI’ lu’oy’moHmeH juppu’Daj ’oy’naQmey lo’ chaH. SuvwI’
 qa’ patlh veb chavlaHmeH tlhIngan lo’chu’ chaH. toDujDaj toblu’. wej ’ujmey ’ab ’oy’naQ. chIch vay’ ’oy’moHmeH
@@ -92,11 +91,11 @@ qa’ patlh veb chavlaHmeH tlhIngan lo’chu’ chaH. toDujDaj toblu’. wej ’
 
 SkyBox<sup>TM</sup>
 
-TM, ® & © 1997 PARAMOUNT PICTURES. ALL RIGHTS RESERVED. *STAR TREK* AND RELATED MARKS ARE TRADEMARKS OF
-PARAMOUNT PICTURES. FLEER/SKYBOX AUTHORIZED USER. PRINTED IN USA.
+<<TM, ® & © 1997 PARAMOUNT PICTURES. ALL RIGHTS RESERVED. *STAR TREK* AND RELATED MARKS ARE TRADEMARKS OF
+PARAMOUNT PICTURES. FLEER/SKYBOX AUTHORIZED USER. PRINTED IN USA.>>
 
-TM, ®, © {je tera’ DIS wa’-Hut-Hut-loS} Paramount Pictures. {Hoch SeH.} Paramount Pictures
-{malja’ permey bIH} *STAR TREK* {pong’e’ Deghmey’e’ je. bIH lo’} Fleer/SkyBox. {’e’ chaw’.}
+{TM, ®, © je tera’ DIS wa’-Hut-Hut-loS Paramount Pictures. Hoch SeH. Paramount Pictures
+malja’ permey bIH *STAR TREK* pong’e’ Deghmey’e’ je. bIH lo’ Fleer/SkyBox ’e’ chaw’.}
 TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF *the Klingon Dictionary*.
 ILLUSTRATION FROM THE *STAR TREK* ENCYCLOPEDIA
 
@@ -105,7 +104,6 @@ Paramount<sup>®</sup>
 
 SkyBox Trading Card S33
 -----------------------
-
 <div class=gallery>
   <a class=item style="width:250px" href="pic/1997-sbx-s33a.jpg">
     <img src="pic/mini/1997-sbx-s33a.jpg" width=250 height=181>
@@ -118,13 +116,13 @@ SkyBox Trading Card S33
 </div>
 
 
-### S33: Cloaking Device -- {So’wI’} ###
+### S33: <<Cloaking Device>> -- {So’wI’} ###
 
-All Klingon vessels are equipped with a cloaking device, allowing the ship to fly in a
+<<All Klingon vessels are equipped with a cloaking device, allowing the ship to fly in a
 state of practical invisibility. Cloaking technology was gained through an alliance with
 the Romulan Star Empire, possibly in exchange for Warp Drive technology. Due to the
 tremendous energy drain of a cloaking device, weapons cannot be discharged while the
-cloak is in operation.
+cloak is in operation.>>
 
 {Hoch tlhIngan DujDaq So’wI’ jomlu’. puvtaHbogh DujngabmoHlaw’ So’wI’. boq lucherDI’ tlhIngan wo’ romuluS
 Hov wo’ je So’wI’ cham Suqpu’ tlhIngan wo’.chaq tampu’. chaq romulu Snganpu’vaD pIvghor cham lunobpu’
@@ -133,11 +131,11 @@ nuHmey nISbe’bogh So’wI’ jomlu’pu’. HovpoH Hut vagh cha’ wa’ vI’
 
 SkyBox<sup>TM</sup>
 
-TM, ® & © 1997 PARAMOUNT PICTURES. ALL RIGHTS RESERVED. *STAR TREK* AND RELATED MARKS ARE TRADEMARKS OF
-PARAMOUNT PICTURES. FLEER/SKYBOX AUTHORIZED USER. PRINTED IN USA.
+<<TM, ® & © 1997 PARAMOUNT PICTURES. ALL RIGHTS RESERVED. *STAR TREK* AND RELATED MARKS ARE TRADEMARKS OF
+PARAMOUNT PICTURES. FLEER/SKYBOX AUTHORIZED USER.>> PRINTED IN USA.
 
-TM, ®, © {je tera’ DIS wa’-Hut-Hut-loS} Paramount Pictures. {Hoch SeH.} Paramount Pictures
-{malja’ permey bIH} *STAR TREK* {pong’e’ Deghmey’e’ je. bIH lo’} Fleer/SkyBox. {’e’ chaw’.}
+{TM, ®, © je tera’ DIS wa’-Hut-Hut-loS Paramount Pictures. Hoch SeH. Paramount Pictures
+malja’ permey bIH *STAR TREK* pong’e’ Deghmey’e’ je. bIH lo’ Fleer/SkyBox ’e’ chaw’.}
 TRANSLATION PROVIDED BY MARC OKRAND, AUTHOR OF *the Klingon Dictionary*.
 ILLUSTRATION FROM THE *STAR TREK* ENCYCLOPEDIA
 

@@ -698,7 +698,7 @@ Examples
     ><img src="sml/_space.gif" width=11 height=19 alt=" "
     ><img src="sml/_full.gif" width=12 height=19 alt="."
   ></nobr>
-  <br><i>May you enemies run with fear.</i>
+  <br><<May you enemies run with fear.>>
   <br><small style="color:#888">[TKW p.65]</small>
 </p>
 
@@ -707,7 +707,7 @@ Examples
   <tr>
     <td colspan=7><h2>O   B   J   E   C   T</h2>
     <td colspan=2 rowspan=2 style="vertical-align:middle"
-      ><img src="bg1/_ka.gif" width=44 height=39 alt=”¶”>
+      ><img src="bg1/_ka.gif" width=44 height=39 alt="¶">
   <tr>
     <td class="nobr"
       ><img src="sml/j.gif" width=14 height=19 alt="j"
