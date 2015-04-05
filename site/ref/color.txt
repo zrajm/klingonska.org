@@ -1,5 +1,5 @@
 : -*- html -*-
-updated: 2012-02-07 15:30+01
+updated: 2015-04-05T19:03:47+0200
 created: 1998-02-26
 author: zrajm
 year: 1998-2012
@@ -9,73 +9,86 @@ up: ..
 
 A Quick Reference to Colors in Klingon
 ======================================
-In November 2010, with the release of <i>Talk Now! Eurotalk Klingon</i> we got
-a whole bunch of new words and expression, and with them quite a few new
-expressions covering colours. These new expressions have been included below.
+In November 2010, with the release of *Talk Now! Eurotalk Klingon*, we got a
+whole bunch of new words and expression, and with them quite a few new
+expressions concerning colours. These new expressions have been included below.
 
-Let's begin with a nice color cheat sheet by Roger Cheesbro:
+Let's begin with this color cheat sheet by Roger Cheesbro:
 
-<p class="center"><a href="pic/color.gif"><img src="pic/color_m.gif"
-height="100" width="474" /></a></p>
+<figure>
+  <a href="pic/color.gif"><img src="pic/color_m.gif" height=100 width=474></a>
+</figure>
 
 There is no noun in Klingon meaning “color”, but there is a verb {nguv} which
-means <<be dyed, stained, tinted>>. This word is seldom used without the
-suffix {-moH} (as in {quS nguvmoH} <<He stains the chair>>) except in the
-phrase {chay' nguv} <<How is it tinted?>> <small>[KGT p.82]</small>
+means <<be dyed, stained, tinted>>. This word is seldom used without the suffix
+{-moH} (as in {quS nguvmoH} <<He stains the chair>>) except in the phrase
+{chay' nguv} <<How is it tinted?>> (The usual way of asking what color
+something is.) <small>[KGT p.82]</small>
 
-<table>
+<table class=sortable>
+  <thead>
+    <tr>
+      <th>Klingon
+      <th>English
+      <th>Source
+  </thead>
   <tr>
     <td>{nguv}
     <td><<be dyed, be stained, be tinted>> (v)
     <td><small>[KGT]</small>
 </table>
 
-There are only four distinct words for different colors (including
-{qIj} <<black>> and {chIS} <<white>>) in Klingon. These, for the most
-part, are all that is used in everyday language -- there is rarely any need for
-more, since there are almost always other ways to distinguish between several
-objects, other than hue alone.
+There are only four distinct words for different colors (including {qIj}
+<<black>> and {chIS} <<white>>) in Klingon. These, for the most part, are all
+that is used in everyday language -- there is rarely any need for more, since
+there are almost always other ways than hue to distinguish between objects.
 
-<table class="sortable">
+<table class=sortable>
+  <thead>
+    <tr>
+      <th>Klingon
+      <th>English
+      <th>Source
+  </thead>
   <tr>
-    <th>Klingon
-    <th>English
-    <th>Source
-  <tr>
-    <td sorttable_customkey="dnp">{Doq}
+    <td sorttable_customkey=dnp>{Doq}
     <td><<be orange, be red>> (v)
     <td><small>[TKD]</small>
   <tr>
-    <td sorttable_customkey="svd">{SuD}
+    <td sorttable_customkey=svd>{SuD}
     <td><<be green, be blue, be yellow>> (v)
     <td><small>[TKD]</small>
   <tr>
-    <td sorttable_customkey="chs">{chIS}
+    <td sorttable_customkey=chs>{chIS}
     <td><<be white>> (v)
     <td><small>[TKD]</small>
   <tr>
-    <td sorttable_customkey="phi">{qIj}
+    <td sorttable_customkey=phi>{qIj}
     <td><<be black>> (v)
     <td><small>[TKD]</small>
   <tr>
-    <td sorttable_customkey="gvrf">{Hurgh}
+    <td sorttable_customkey=gvrf>{Hurgh}
     <td><<be dark>> (v)
     <td><small>[TKD]</small>
   <tr>
-    <td sorttable_customkey="xnw">{wov}
+    <td sorttable_customkey=xnw>{wov}
     <td><<be light, be bright>> (v)
     <td><small>[TKD]</small>
+  <caption>The Klingon basic color words.</caption>
 </table>
 
-One way of being more specific is to use the {-qu'} <<emphatic>> suffix,
-this has the advantage that the word still can be used adjectivally (as in for
+One way of being more specific is to use the {-qu'} <<emphatic>> suffix, this
+has the advantage that the word still can be used adjectivally (as in for
 example {HIq Doqqu'} <<red liquor>>) this can not be done with the other
 lengthier methods of describing colors.
 
-<table>
-  <tr>
-    <td colspan="3" align="center"><font size=4>Expressing colors with the
-        {-qu'} <<emphatic>> suffix</font>
+<table class=sortable>
+  <thead>
+    <tr>
+      <th>Klingon
+      <th>English
+      <th>Source
+  </thead>
   <tr>
     <td>{Doqqu'}
     <td>“a color more red than orange” (v)
@@ -84,6 +97,7 @@ lengthier methods of describing colors.
     <td>{SuDqu'}
     <td>“would probably be described as ‘green’” (v)
     <td><small>[KGT p.82]</small>
+  <caption>Expressing colors with the {-qu'} <<emphatic>> suffix.</caption>
 </table>
 
 One may also use the words for <<light>> and <<dark>> to describe colors in
@@ -92,15 +106,19 @@ whole sentences (such as {SuD 'ej wov} for <<it is {SuD} and light>> -- {'ach}
 like {SuDbogh Dargh 'ej wovbogh} <<The tea that is {SuD} and light>> would be
 used.
 
-<table>
+<table class=sortable>
+  <thead>
+    <tr>
+      <th>Klingon
+      <th>English
+      <th>Source
+  </thead>
   <tr>
-    <td colspan="3" align="center"><font size="4">Expressing colors with {wov}
-        <<be light, bright>> and {Hurgh} <<be dark>></font>
-  <tr>
-    <td rowspan="2">{SuD 'ej wov} or {SuD 'ach wov}
+    <td>{SuD 'ej wov} or {SuD 'ach wov}
     <td>“a yellowish tinge”
     <td><small>[KGT p.82]</small>
   <tr>
+    <td>{SuD 'ej wov} or {SuD 'ach wov}
     <td><<light blue>>
     <td><small>[Eurotalk]</small>
   <tr>
@@ -110,69 +128,81 @@ used.
   <tr>
     <td>{Doq 'ej wov} or {Doq 'ach wov}
     <td><<light red>> or <<orange>>
-    <td><small>NOT CANON</small>
+    <td><small>NON-CANON</small>
   <tr>
     <td>{SuD 'ej Hurgh} or {SuD 'ach Hurgh}
     <td><<dark blue>>
-    <td><small>Eurotalk</small>
+    <td><small>[Eurotalk]</small>
   <tr>
     <td>{Doq 'ej Hurgh} or {Doq 'ach Hurgh}
     <td><<brown>> or <<brownish>>
-    <td><small>NOT CANON</small>
+    <td><small>NON-CANON</small>
   <tr>
     <td>{Doqqu' 'ej wov}
       or {Doqqu' 'ach wov}
     <td><<pink>>
-    <td><small>Eurotalk</small>
+    <td><small>[Eurotalk]</small>
   <tr>
     <td>{SuDqu' 'ej wov}
       or {SuDqu' 'ach wov}
     <td><<light green>>
-    <td><small>NOT CANON</small>
+    <td><small>NON-CANON</small>
   <tr>
     <td>{SuDqu' 'ej Hurgh}
       or {SuDqu' 'ach Hurgh}
     <td><<dark green>>
-    <td><small>NOT CANON</small>
+    <td><small>NON-CANON</small>
   <tr>
     <td>{Doqqu' 'ej Hurgh}
       or {Doqqu' 'ach Hurgh}
     <td><<dark red>>
-    <td><small>NOT CANON</small>
+    <td><small>NON-CANON</small>
   <tr>
     <td>{qIj 'ej wov}
       or {qIj 'ach wov}
     <td><<gray>>
-    <td><small>Eurotalk</small>
+    <td><small>[Eurotalk]</small>
+  <caption>Expressing colors using {wov} <<be light, bright>> and {Hurgh}
+    <<be dark>>.</caption>
 </table>
 
 The color violet, or purple, is not actually a Klingon color. <i>Klingon for
 the Galactic Traveler</i> has the following to say on the subject: “The fact
-that neither {SuD} nor {Doq} includes what is called &lsquo;violet' or
-&lsquo;purple' in Federation Standard may be related to Klingon
-physiology---that is, exactly how the Klingon eye processes different
-wavelengths of light.” <small>[KGT pp.82--83]</small> However this color was
-still included in the Eurotalk language course which had a decidedly
-Earth-centric view (including names of several Terran countries for example).
+that neither {SuD} nor {Doq} includes what is called ‘violet’ or ‘purple’ in
+Federation Standard may be related to Klingon physiology---that is, exactly how
+the Klingon eye processes different wavelengths of
+light.” <small>[KGT pp.82--83]</small>
 
-<table>
-  <caption>Klingon does really not have a name for “violet” or
-    “purple”. <small>[KGT p.82]</small></caption>
-  <tr>
-    <td colspan="3" align="CENTER"><font size="4">A non-Klingon color</font>
+Irregardless of this, the color <<purple>> was still included in the Eurotalk
+language course (which had a decidedly Earth-centric view, e.g. including names
+of several Terran countries for example):
+
+<table class=sortable>
+  <thead>
+    <tr>
+      <th>Klingon
+      <th>English
+      <th>Source
+  </thead>
   <tr>
     <td>{Doq 'ej SuD}
-    <td><<purple>>
+    <td><<violet>> or <<purple>>
     <td><small>Eurotalk</small>
+  <caption>A non-Klingon color. Klingons probably cannot perceive the
+    “violet” or “purple”. <small>[KGT p.82; Eurotalk]</small></caption>
 </table>
 
 Generally, when one needs to be more specific, the item in question is compared
 to something else that typically has this color. Here is a table of such
 expressions given to us in canon.
 
-<table>
-  <tr>
-    <th colspan="3">Expressing colors with similies
+<table class=sortable>
+  <thead>
+    <tr>
+      <th>Klingon
+      <th>English
+      <th>Source
+  </thead>
   <tr>
     <td>{Doq 'ej beqpuj rur}
     <td><<be {Doq} and resemble bekpuj>>
@@ -183,6 +213,7 @@ expressions given to us in canon.
     <td><<be {Doq} and resemble kradge lips>>
       <br>(lips of the kradge are a particular shade of brown)
     <td><small>[HQ8:1 p.7]</small>
+  <caption>Expressing colors with similies.</caption>
 </table>
 
 If you want to know more about how colors are expressed in different languages,
