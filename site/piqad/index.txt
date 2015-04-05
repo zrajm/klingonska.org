@@ -61,7 +61,7 @@ the grid makes the Klingon glyphs justice.
 
 <i>Interstellar Language School</i> (lead by Glen F. Proechel) has published
 “An Alien Writing System Primer” explaining how to write {pIqaD} in longhand.
-(It is non-canon, of course---and to my knowledge not endorsed by the KLI.)
+(It is non-canon, of course -- and to my knowledge not endorsed by the KLI.)
 
 <p class=noindent>Many thanks to Nick Nicholas for his constructive criticism
 and helpful suggestions.</p>
@@ -489,7 +489,7 @@ to single follows a clear pattern. Those most likely to be reduced are {pp},
 </p>
 
 {a} [<a href="http://en.wikipedia.org/wiki/Open_back_unrounded_vowel">ɑ</a>]
-<i>Open back unrounded vowel</i> (called {'at} when spelling)---As
+<i>Open back unrounded vowel</i> (called {'at} when spelling) -- As
 in <a href="http://en.wikipedia.org/wiki/General_American">General American</a>
 or <a href="http://en.wikipedia.org/wiki/Received_Pronunciation">BBC
 English</a> <i>sp<u>a</u></i> [spɑː], as in some dialects of
@@ -521,7 +521,7 @@ Swedish <i lang=sv>j<u>а</u>g</i> [jɑːɡ] (meaning <<I>>).
 </p>
 
 {b} [<a href="http://en.wikipedia.org/wiki/Voiced_bilabial_stop">b</a>]
-<i>Voiced bilabial stop</i> (called {bay} when spelling)---This sound is quite
+<i>Voiced bilabial stop</i> (called {bay} when spelling) -- This sound is quite
 common in Terran languages. It is pronounced as in English <i>a<u>b</u>ack</i>
 [əˈbæk], as in German <i lang=de><u>B</u>ub</i> [buːp] (meaning <<boy>>) or
 as in Swedish <i lang=sv><u>b</u>ra</i> [ˈbrɑː] (<<good>>).
@@ -540,7 +540,7 @@ as in Swedish <i lang=sv><u>b</u>ra</i> [ˈbrɑː] (<<good>>).
 
 {ch}
 [<a href="http://en.wikipedia.org/wiki/Voiceless_palato-alveolar_affricate">t͡ʃ</a>]
-<i>Voiceless postalveolar affricate</i> (called {chay} when spelling)---This
+<i>Voiceless postalveolar affricate</i> (called {chay} when spelling) -- This
 sound pronounced as in English <i>blea<u>ch</u></i> [bliːt͡ʃ], as in
 German <i lang=de><u>Tsch</u>inelle</i> [t͡ʃiˈnɛlə] (meaning <<cymbal>>), or as
 in Fenno-Swedish <i lang="sv-fi">tjugo</i> [t͡ʃʉ:gʉ] (<<twenty>>).
@@ -560,7 +560,7 @@ in Fenno-Swedish <i lang="sv-fi">tjugo</i> [t͡ʃʉ:gʉ] (<<twenty>>).
 
 {D}
 [<a href="http://en.wikipedia.org/wiki/Voiced_retroflex_stop">ɖ</a>]
-<i>Voiced retroflex stop</i> (called {Day} when spelling)---In English, this
+<i>Voiced retroflex stop</i> (called {Day} when spelling) -- In English, this
 sound only occur in some dialects, such as in Indian English <i><u>d</u>ine</i>
 [ɖaɪn] (<<to eat>>). The sound is similar to <i>d</i> in <i>dream</i>
 or <i>android,</i> but the tip of the tongue touches the roof of the mouth
@@ -607,7 +607,7 @@ a <a href="http://en.wikipedia.org/wiki/Dental_consonant">dental consonant</a>.
 </p>
 
 {e} [<a href="http://en.wikipedia.org/wiki/Open-mid_front_unrounded_vowel">ɛ</a>]
-<i>Open-mid front unrounded vowel</i> (called {'et} when spelling)---As
+<i>Open-mid front unrounded vowel</i> (called {'et} when spelling) -- As
 in <a href="http://en.wikipedia.org/wiki/General_American">General American</a>
 or <a href="http://en.wikipedia.org/wiki/Received_Pronunciation">BBC
 English</a> <i>b<u>e</u>d</i> [bɛd], as in German <i lang=de>B<u>e</u>tt</i>
@@ -631,11 +631,11 @@ English</a> <i>b<u>e</u>d</i> [bɛd], as in German <i lang=de>B<u>e</u>tt</i>
 
 {gh}
 [<a href="http://en.wikipedia.org/wiki/Voiced_velar_fricative">ɣ</a>] <i>Voiced
-velar fricative</i> (called {ghay} when spelling)---This sound is not like
+velar fricative</i> (called {ghay} when spelling) -- This sound is not like
 anything in English, German or Swedish. It is produced with the tongue in the
-same position as for <i>g</i>---as in English <i><u>g</u>a<u>gg</u>le</i>
+same position as for <i>g</i> -- as in English <i><u>g</u>a<u>gg</u>le</i>
 [ˈɡæɡɫ̩], German <i lang=de>Lü<u>g</u>e</i> [ˈlyːɡə] (meaning <<lie>>) or
-Swedish <i lang=sv><u>g</u>ång</i> [ɡɔŋː] (<<path>>)---but relaxing somewhat
+Swedish <i lang=sv><u>g</u>ång</i> [ɡɔŋː] (<<path>>) -- but relaxing somewhat
 and humming. It is a voiced version of the Klingon {H} sound.
 
 The <i>guttural r</i>
@@ -669,7 +669,7 @@ accent). <small>[<a class=sources>Display Sources</a>]</small>
 
 {H}
 [<a href="http://en.wikipedia.org/wiki/Voiceless_velar_fricative">x</a>] <i>Voiceless
-velar fricative</i> (called {Hay} when spelling)---This sound is not common in
+velar fricative</i> (called {Hay} when spelling) -- This sound is not common in
 English but can be heard in some pronunciations of the American exclamation of
 disgust <i>yech</i> [jɛx]. It also occur in Scottish <i>lo<u>ch</u></i> [lɔx],
 and in German <i lang=de>Ku<u>ch</u>en</i> [kuːxən] (meaning <<cake>>). It is a
@@ -704,7 +704,7 @@ voiceless version of the Klingon {gh}.
 
 {I}
 [<a href="http://en.wikipedia.org/wiki/Near-close_near-front_unrounded_vowel">ɪ</a>]
-<i>Near-close near-front unrounded vowel</i> (called {'It} when spelling)---As
+<i>Near-close near-front unrounded vowel</i> (called {'It} when spelling) -- As
 in English <i>b<u>i</u>t</i> [bɪt], as in German <i lang=de>b<u>i</u>tte</i>
 [ˈbɪtə] (meaning <<please>>), or as in Swedish <i lang=sv>sill</i> [sɪl]
 (<<herring>>). <small>[<a class=sources>Display Sources</a>]</small>
@@ -728,7 +728,7 @@ in English <i>b<u>i</u>t</i> [bɪt], as in German <i lang=de>b<u>i</u>tte</i>
 
 {j}
 [<a href="http://en.wikipedia.org/wiki/Voiced_palato-alveolar_affricate">d͡ʒ</a>]
-<i>Voiced postalveolar affricate</i> (called {jay} when spelling)---As in
+<i>Voiced postalveolar affricate</i> (called {jay} when spelling) -- As in
 English <i><u>j</u>ump</i> [ˈd͡ʒʌmp] or German <i lang=de><u>Dsch</u>ungel</i>
 [d͡ʒʊŋəl] (meaning <<jungle>>), and similar to <i>dj</i> in
 Swedish <i lang=sv>glä<u>dj</u>e</i> (meaning <<joy>>) or <i>ke<u>dj</u>a</i>
@@ -750,7 +750,7 @@ Swedish <i lang=sv>jord</i> (<<earth>>).
 </p>
 
 {l} [<a href="http://en.wikipedia.org/wiki/Alveolar_lateral_approximant">l</a>]
-<i>Alveolar lateral approximant</i> (called {lay} when spelling)---As in
+<i>Alveolar lateral approximant</i> (called {lay} when spelling) -- As in
 English <i><u>l</u>et</i> [lɛt], German <i lang=de><u>L</u>iebe</i> [liːbə]
 (meaning <<love>>) or Swedish <i lang=sv><u>l</u>ång</i> [lɔŋ] (<<long>>).
 <small>[<a class=sources>Display Sources</a>]</small>
@@ -768,7 +768,7 @@ English <i><u>l</u>et</i> [lɛt], German <i lang=de><u>L</u>iebe</i> [liːbə]
 </p>
 
 {m} [<a href="http://en.wikipedia.org/wiki/Bilabial_nasal">m</a>]
-<i>Bilabial nasal</i> (called {may} when spelling)---As in
+<i>Bilabial nasal</i> (called {may} when spelling) -- As in
 English <i>hi<u>m</u></i> [hɪm], German <i lang=de>rüh<u>m</u>en</i> [ˈʁyːmən]
 (meaning <<to praise>>) or Swedish <i lang=sv><u>m</u>ask</i> [mask]
 (<<worm>>). <small>[<a class=sources>Display Sources</a>]</small>
@@ -786,7 +786,7 @@ English <i>hi<u>m</u></i> [hɪm], German <i lang=de>rüh<u>m</u>en</i> [ˈʁyːm
 </p>
 
 {n} [<a href="http://en.wikipedia.org/wiki/Alveolar_nasal">n</a>]
-<i>Alveolar nasal</i> (called {nay} when spelling)---As in
+<i>Alveolar nasal</i> (called {nay} when spelling) -- As in
 English <i><u>n</u>ice</i> [naɪs], German <i lang=de>La<u>n</u>ze</i> [ˈlant͡sə]
 (meaning <<lance>>), or Swedish <i lang=sv><u>n</u>ord</i> [nuːɖ] (<<north>>).
 <small>[<a class=sources>Display Sources</a>]</small>
@@ -804,7 +804,7 @@ English <i><u>n</u>ice</i> [naɪs], German <i lang=de>La<u>n</u>ze</i> [ˈlant͡
 </p>
 
 {ng} [<a href="http://en.wikipedia.org/wiki/Velar_nasal">ŋ</a>]
-<i>Velar nasal</i> (called {ngay} when spelling)---The letters <i>ng</i> are
+<i>Velar nasal</i> (called {ngay} when spelling) -- The letters <i>ng</i> are
 never pronounced separately, but always as in English <i>si<u>ng</u></i> [sɪŋ],
 German <i lang=de>la<u>ng</u></i> [laŋ] (meaning <<long>>), or
 Swedish <i lang=sv>i<u>ng</u>enti<u>ng</u></i> [ɪŋːɛntʰɪŋ] (<<nothing>>). In
@@ -839,7 +839,7 @@ this happen in a number of Klingon words (e.g. {ngan} <<inhabitant>>).
 
 {o}
 [<a href="http://en.wikipedia.org/wiki/Close-mid_back_rounded_vowel">o</a>]
-<i>Close-mid back rounded vowel</i> (called {'ot} when spelling)---As
+<i>Close-mid back rounded vowel</i> (called {'ot} when spelling) -- As
 English <i>g<u>o</u></i> [goː], in German <i lang=de><u>o</u>der</i> [ˈoːdɐ]
 (meaning <<or>>), or as in Swedish <i lang=sv><u>å</u>ka</i> [ˈoːka]
 (<<travel>>). Note: There are no words ending in &#42;{ow} (as that is
@@ -864,7 +864,7 @@ considered indistinguishable from {o}).
 </p>
 
 {p} [<a href="http://en.wikipedia.org/wiki/Voiceless_bilabial_stop">pʰ</a>]
-<i>Aspirated voiceless bilabial stop</i> (called {pay} when spelling)---As in
+<i>Aspirated voiceless bilabial stop</i> (called {pay} when spelling) -- As in
 English <i><u>p</u>ack</i> [pʰæk], German <i lang=de><u>P</u>ack</i> [pʰak]
 (meaning <<pile>>), or Swedish <i lang=sv>a<u>p</u>a</i> [ˈɑːpʰa] (<<monkey>>).
 In Klingon, this sound is
@@ -888,7 +888,7 @@ that is, released with a strong burst of air.
 </p>
 
 {q} [<a href="http://en.wikipedia.org/wiki/Voiceless_uvular_stop">qʰ</a>]
-<i>Aspirated voiceless uvular stop</i> (called {qay} when spelling)---This
+<i>Aspirated voiceless uvular stop</i> (called {qay} when spelling) -- This
 sound is similar to the <i>k</i> sound of English, German and Swedish but the
 tongue reaches further back so that it touches the uvula (the fleshy blob that
 dangles down from the back of the roof of the mouth). In Klingon, this sound is
@@ -911,7 +911,7 @@ pronounced <i>kw</i> as in English <i><u>q</u>uagmire.</i>
     standard <i>k</i> sound. You make it like a <i>k,</i> but as you did for
     {Q}, shove the back of your tongue as far back into your mouth as you
     can. <small>[CK]</small></p>
-  <p class=canon>{-qoq}---Be sure you pronounce the sound at the beginning and
+  <p class=canon>{-qoq} -- Be sure you pronounce the sound at the beginning and
     end of this suffix as far back in your mouth as you
     can. <small>[PK]</small></p>
 </div>
@@ -926,7 +926,7 @@ pronounced <i>kw</i> as in English <i><u>q</u>uagmire.</i>
 </p>
 
 {Q} [<a href="http://en.wikipedia.org/wiki/Voiceless_uvular_affricate">q͡χ</a>]
-<i>Voiceless uvular affricate</i> (called {Qay} when spelling)---It is
+<i>Voiceless uvular affricate</i> (called {Qay} when spelling) -- It is
 pronounced in the same way as {q}, except that it is held longer while air is
 forced out. It is very guttural and raspy, somewhat like a blend of Klingon {q}
 and {H}. This sound is quite uncommon in Terran languages.
@@ -952,14 +952,14 @@ and {H}. This sound is quite uncommon in Terran languages.
 </p>
 
 {r} [<a href="http://en.wikipedia.org/wiki/Alveolar_trill">r</a>]
-<i>Alveolar trill</i> (called {ray} when spelling)---As in
+<i>Alveolar trill</i> (called {ray} when spelling) -- As in
 Scottish <i lang=sco>cu<u>r</u>d</i> [kʌrd], German (in some
 dialects) <i lang=de>Schma<u>rr</u>n</i> [ʃmaːrn] (meaning <<nonsense>>), or
 Swedish <i lang=sv><u>r</u>ov</i> [ruːv] (<<prey>>). This sounds differs from
 the <i>r</i> of American English, in that it is slightly trilled or rolled.
 
-Or---{r} [<a href="http://en.wikipedia.org/wiki/Alveolar_approximant">ɹ</a>]
-<i>Alveolar approximant</i>---Many Americans (among them Marc Okrand, the
+Or -- {r} [<a href="http://en.wikipedia.org/wiki/Alveolar_approximant">ɹ</a>]
+<i>Alveolar approximant</i> -- Many Americans (among them Marc Okrand, the
 inventor of the Klingon language) are unable to roll their tongue to produce
 the trill of {r}, and therefore the flat <i>r</i> sound of American English is
 a often heard instead. It should be noted, however, that this pronunciation is
@@ -981,7 +981,7 @@ a clear indicator of a Terran accent.
 </p>
 
 {S} [<a href="http://en.wikipedia.org/wiki/Voiceless_retroflex_sibilant">ʂ</a>]
-<i>Voiceless retroflex sibilant</i> (called {Say} when spelling)---As in the
+<i>Voiceless retroflex sibilant</i> (called {Say} when spelling) -- As in the
 Swedish word <i lang=sv>fo<u>rs</u></i> [fɔʂ] (meaning <<rapids>>). This
 sound is halfway between English <i>s</i> (as in <i>syringe</i>) and <i>sh</i>
 (as in <i>shuttlecock</i>). It is pronounced with the tongue in the same
@@ -1010,7 +1010,7 @@ position as for Klingon {D}.
 
 {t}
 [<a href="http://en.wikipedia.org/wiki/Voiceless_alveolar_stop">tʰ</a>]
-<i>Aspirated voiceless alveolar stop</i> (called {tay} when spelling)---As in
+<i>Aspirated voiceless alveolar stop</i> (called {tay} when spelling) -- As in
 English <i><u>t</u>ick</i> [tʰɪk], as in German <i lang=de><u>T</u>ochter</i>
 [ˈtʰɔxtɐ] (meaning <<daughter>>), or as in Swedish <i lang=sv><u>t</u>ok</i>
 [tʰuːk] (<<fool>>). In Klingon, this sound is
@@ -1035,7 +1035,7 @@ that is, released with a strong burst of air.
 {tlh}
 [<a href="http://en.wikipedia.org/wiki/Voiceless_alveolar_lateral_affricate">t͡ɬ</a>]
 <i>Voiceless alveolar lateral affricate</i> (called {tlhay} when
-spelling)---This sound does not occur in many Terran languages, but is common
+spelling) -- This sound does not occur in many Terran languages, but is common
 in Nahuatl (the Aztec language). It even occurs in the name of the
 language <i lang=nah>Náhua<u>tl</u></i> [ˈnaːwat͡ɬ].
 
@@ -1051,7 +1051,7 @@ throat. (The sound you’re now pronouncing in written
 [<a href="http://en.wikipedia.org/wiki/Voiceless_alveolar_lateral_fricative">ɬ</a>]
 in <a href="http://en.wikipedia.org/wiki/Ipa">IPA</a>.)
 
-Now, say the sound yet again, but this time---<i>spit it out!</i> Build up a
+Now, say the sound yet again, but this time, <i>spit it out!</i> Build up a
 little bit of pressure behind the tongue, then push out the air on both sides
 of it. As before, there should be no humming from your vocal cords, and the tip
 of the tongue should never leave the roof of your mouth. This is the Klingon
@@ -1075,7 +1075,7 @@ the <em>sides</em> of the tongue.
     here. <small>[TKD 1.1]</small></p>
   <p class=canon>To make this {tlh} sound, say a <i>t</i> and at the same time
     whisper, loudly, but still just whisper, an <i>l.</i> […] Do you feel the
-    sides of the tongue going down as you say the sound?---You
+    sides of the tongue going down as you say the sound? -- You
     should. <small>[CK]</small></p>
 </div>
 
@@ -1090,7 +1090,7 @@ the <em>sides</em> of the tongue.
 
 {u}
 [<a href="http://en.wikipedia.org/wiki/Close_back_rounded_vowel">u</a>]
-<i>Close back rounded vowel</i> (called {'ut} when spelling)---As
+<i>Close back rounded vowel</i> (called {'ut} when spelling) -- As
 in <a href="http://en.wikipedia.org/wiki/General_American">General American</a>
 or <a href="http://en.wikipedia.org/wiki/Received_Pronunciation">BBC
 English</a> <i>b<u>oo</u>t</i> [buːt], or as in
@@ -1119,7 +1119,7 @@ words ending in &#42;{uw} (as that is considered indistinguishable from {u}).
 
 {v}
 [<a href="http://en.wikipedia.org/wiki/Voiced_labiodental_fricative">v</a>]
-<i>Voiced labiodental fricative</i> (called {vay} when spelling)---As in
+<i>Voiced labiodental fricative</i> (called {vay} when spelling) -- As in
 English <i><u>v</u>alve</i> [væɫv], German <i lang=de><u>W</u>ächter</i>
 [ˈvɛçtɐ] (meaning <<guard>>) or Swedish <i lang=sv><u>v</u>ägg</i> [ˈvɛɡ]
 (<<wall>>).
@@ -1137,7 +1137,7 @@ English <i><u>v</u>alve</i> [væɫv], German <i lang=de><u>W</u>ächter</i>
 </p>
 
 {w} [<a href="http://en.wikipedia.org/wiki/Labio-velar_approximant">w</a>]
-<i>Labio-velar approximant</i> (called {way} when spelling)---As in
+<i>Labio-velar approximant</i> (called {way} when spelling) -- As in
 English <i><u>w</u>eep</i> [wiːp].
 <small>[<a class=sources>Display Sources</a>]</small>
 
@@ -1156,7 +1156,7 @@ English <i><u>w</u>eep</i> [wiːp].
 </p>
 
 {y} [<a href="http://en.wikipedia.org/wiki/Palatal_approximant">j</a>]
-<i>Palatal approximant</i> (called {yay} when spelling)---As in
+<i>Palatal approximant</i> (called {yay} when spelling) -- As in
 English <i><u>y</u>ou</i> [juː], German <i lang=de><u>J</u>och</i> [jɔx]
 (meaning <<yoke>>), or Swedish <i lang=sv><u>j</u>ag</i> [jɑːɡ] (meaning
 <<I>>).
@@ -1179,8 +1179,8 @@ prefixes.
 </p>
 
 {'} [<a href="http://en.wikipedia.org/wiki/Glottal_stop">ʔ</a>]
-<i>Glottal stop</i> (called {qaghwI'} or just {'} when spelling)---This sound
-exist in spoken English but is not written---it is the slight catch in the
+<i>Glottal stop</i> (called {qaghwI'} or just {'} when spelling) -- This sound
+exist in spoken English but is not written -- it is the slight catch in the
 throat between the two syllables of <i>uh-oh</i> or <i>unh-unh,</i> meaning
 “no.” In some English dialects the letter <i>t</i> is pronounced this way
 (e.g. <a href="http://en.wikipedia.org/wiki/Cockney#Cockney_speech">Cockney</a> <i lang="en-uk-Cockney">bo<u>tt</u>le</i>
@@ -1715,7 +1715,7 @@ Standard Klingon.
 Dialect spoken on the conquered Klingon world Morska. We’re treated to brief
 bout of the Morskan dialect of Klingon in *ST6* when Enterprise encounters a
 Klingon listening post. (The Klingon spelling of the word “Morska” is
-unknown---the only canon occurrence is in spoken form, in the Morskan dialect,
+unknown -- the only canon occurrence is in spoken form, in the Morskan dialect,
 by that guard in *ST6*).
 
 The Morskan dialect is characterized by the following speech patterns.

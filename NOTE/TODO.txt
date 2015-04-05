@@ -245,9 +245,10 @@
 ** DONE Prettify tab row (make more Chrome-like)
    CLOSED: [2014-11-04 tis 17:39]
 * Site content
-** [50%] Improve Markdown documents (parsed by `markdown2html`)
+** [100%] Improve Markdown documents (parsed by `markdown2html`)
    Run `touch bin/markdown2html; make`, you'll see a list of updated files.
-*** TODO Replace all em-dashes with en-dashes (except in transcripts)
+*** DONE Replace all em-dashes with en-dashes (except in transcripts)
+    CLOSED: [2015-04-05 Sun 18:35]
 *** DONE Use <<..>> to indicate translation in all Markdown
     CLOSED: [2015-04-05 Sun 00:42]
 ** TODO Do a surf-through check for weird/old shit
