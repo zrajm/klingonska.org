@@ -22,7 +22,7 @@ following Type 5 noun suffixes:
 inside, or in the direction towards a noun. While {-vo'} indicates that
 something is going in a direction away from the noun. E.g.
 
-<table class="noborder">
+<table class=noborder>
   <tr><td>{DujwIj<u>Daq</u> jIHtaH}<td><<I'm <u>in</u> my ship.>>
   <tr><td>{juHwIj<u>Daq</u> jIHtaH}<td><<I'm <u>at</u> my home.>>
   <tr><td>{juHwIj<u>Daq</u> jIjaH}<td><<I'm going <u>to</u> my home.>>

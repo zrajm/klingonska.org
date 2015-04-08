@@ -8,7 +8,7 @@ desc: Description of qepHom held in Uppsala in February 1999.
 {'upSala' qepHom nI' wa'DIch}
 =============================
 
-<p class="center"><i>-- Det är bättre att det kommer få och har roligt,
+<p class=center><i>-- Det är bättre att det kommer få och har roligt,
     <br>än många som har tråkigt.</i></p>
 
 **Närvarande var:**
@@ -32,7 +32,7 @@ klingonska tillväligt hög grad för att kunna njuta av ett parti {mu'qaD veS})
 och dels tidsbrist. Vad vi däremot gick igenom {pIqaD} (inklusive handstil) och
 de olika kunskapskällorna till klingonska, samt i viss mån självstudieteknik.
 
-<p class="noindent">De slutsatser vi har dragit av helgens arrangemang är bland
+<p class=noindent>De slutsatser vi har dragit av helgens arrangemang är bland
 annat att man bör ha mer avgränsade "lektioner", med tydligare definierade
 uppgifter. Det är väldigt lätt att sidospåren brer ut sig på bekostnad av det
 tänkta programmet.</p>
@@ -47,7 +47,7 @@ men som vi lät bli på grund av tidsbrist) skulle med stor sannolikhet
 underlätta. Framförallt skulle detta leda till ett gemensamt referensmaterial
 och/eller ord och frasförråd.
 
-<p class="noindent">Resultatet av helgen är dels allt att vi har utökat
+<p class=noindent>Resultatet av helgen är dels allt att vi har utökat
 kontakten med personer intresserade av klingonska, dels den ökade publiciteten
 kring språket och Klingonska Akademien. (En artikel på <i>första sidan</i> i
 Upsala Nya Tidning, 1999-02-08.)</p>
@@ -56,18 +56,18 @@ Den positiva stämningen som uppstod har också verkat inspirerande för oss
 arrangörer, och vi kommer definitivt att återkomma med ett {'upSala' qepHom nI'
 cha'DIch} och använda oss av de erfarenheter vi samlat.
 
-<p class="noindent">Om du känner att du har några idéer, eller erfarenheter som du
+<p class=noindent>Om du känner att du har några idéer, eller erfarenheter som du
 vill dela med dig, om du är intresserad av att delta i, eller hjälpa till att
 arrangera ett {qepHom nI'}, varför inte ta kontakt med oss?</p>
 
-<p class="right">
+<p class=right>
   <i>Zrajm &lt;<a href="mailto:zrajm@iname.com">zrajm@iname.com</a>&gt;
     <br>Markus Persson &lt;<a href="mailto:void@psynet.net">void@psynet.net</a>&gt;
     <br>1999-02-09
   </i>
 </p>
 
-<p class="center">
+<p class=center>
   <big><time datetime="1999-02-06">6--7 Februari 1999</time>
     <br>Villavägen 33, 2tr
     <br>Uppsala
@@ -89,7 +89,7 @@ Preliminärt program
 
 <table>
   <thead>
-    <tr><th colspan="2">Lördag
+    <tr><th colspan=2>Lördag
   </thead>
   <tr>
     <th>10:00
@@ -121,7 +121,7 @@ Preliminärt program
     <td>Filmvisning: <i>Star Trek III: The search for Spock</i>. En film med
       tuffa klingoner och en hel del talad klingonska.
   <thead>
-    <tr><th colspan="2">Söndag
+    <tr><th colspan=2>Söndag
   </thead>
   <tr>
     <th>morgon
@@ -170,7 +170,7 @@ Preliminärt program
 
 Om du har en bra idé -- ta kontakt med oss redan nu.
 
-<p class="right"><i>Zrajm &lt;<a href="mailto:zrajm@iname.com">zrajm@iname.com</a>&gt;
+<p class=right><i>Zrajm &lt;<a href="mailto:zrajm@iname.com">zrajm@iname.com</a>&gt;
 <br>Markus Persson &lt;<a href="mailto:void@psynet.net">void@psynet.net</a>&gt;</i></p>
 
 [[eof]]

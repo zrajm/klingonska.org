@@ -20,7 +20,7 @@ code and whitespace) has been left unchanged.
 
 * * *
 
-<img style="float:left;margin:0 1em 1em 0;" src="pic/klibutton.gif" width="146" height="147">
+<img style="float:left;margin:0 1em 1em 0;" src="pic/klibutton.gif" width=146 height=147>
 
 <h1 style="font-family:serif">Klingon Language Certification Program</h1>
 
@@ -82,7 +82,7 @@ skills.
 The questions will either be translation, fill-in-the-blank, or require answers
 to questions about grammar. An example of each type is provided here.
 
-<table class="noborder">
+<table class=noborder>
   <tbody>
     <tr>
       <td>Translation
@@ -101,7 +101,7 @@ to questions about grammar. An example of each type is provided here.
   </tbody>
   <tbody>
     <tr>
-      <td class="nobr">Fill-in-the-blank
+      <td class=nobr>Fill-in-the-blank
       <td>2a.
       <td>Don't speak!
         <br>{yIjatlh___}
@@ -330,7 +330,7 @@ end of these guidelines for the beginner's vocabulary.
 
 ### [2.3] 2.3. Sample Questions ###
 
-<table class="noborder">
+<table class=noborder>
   <tbody>
     <tr>
       <td>1.
@@ -551,7 +551,7 @@ vocabulary found in <i>TKD</i> (2nd printing).
 
 ### [3.3] 3.3. Sample Questions ###
 
-<table class="noborder">
+<table class=noborder>
   <tbody>
     <tr>
       <td>1.
@@ -625,10 +625,10 @@ category will be shown.
 
 #### [4.2.1] 4.2.1. Main Questions ####
 
-<table class="noborder">
+<table class=noborder>
   <tbody>
     <tr>
-      <td colspan="2">Grammar and language use post-<i>TKD</i>
+      <td colspan=2>Grammar and language use post-<i>TKD</i>
     <tr>
       <td>Example:
       <td>{nargh 'eb} "too late"
@@ -639,7 +639,7 @@ category will be shown.
   </tbody>
   <tbody>
     <tr>
-      <td colspan="2">Little-known grammar rules
+      <td colspan=2>Little-known grammar rules
     <tr>
       <td>Example:
       <td>It is culturally taboo to use the VS2 suffix {-vIp} with a
@@ -647,7 +647,7 @@ category will be shown.
   </tbody>
   <tbody>
     <tr>
-      <td colspan="2">Regional variation in grammar
+      <td colspan=2>Regional variation in grammar
     <tr>
       <td>Example:
       <td>In toasts, the last word is always the verb, except in Sakrej and
@@ -655,7 +655,7 @@ category will be shown.
   </tbody>
   <tbody>
     <tr>
-      <td colspan="2">Societal variation in vocabulary
+      <td colspan=2>Societal variation in vocabulary
     <tr>
       <td>Example:
       <td>{Dargh HIvje'} "teacup" (general) vs. {tu'lum}
@@ -663,7 +663,7 @@ category will be shown.
   </tbody>
   <tbody>
     <tr>
-      <td colspan="2">Specialized vocabulary
+      <td colspan=2>Specialized vocabulary
     <tr>
       <td>Example:
       <td>{ghe'naQ nIt} "Grand Opera"
@@ -685,7 +685,7 @@ questions are written in Klingon, and you will provide your answers in Klingon.
 
 ### [4.3] 4.3. Sample Questions ###
 
-<table class="noborder">
+<table class=noborder>
   <tbody>
     <tr>
       <td>1.
@@ -754,7 +754,7 @@ Level I: Beginner's exam](#_2) use vocabulary only from this list. Due to
 copyright restrictions, only the English translation is included here; please
 refer to <i>TKD</i> for the Klingon translation.
 
-<p class="noindent">ability, (n)
+<p class=noindent>ability, (n)
 <br>accept, (v)
 <br>accompany, (v)
 <br>accomplish, (v)
@@ -787,7 +787,7 @@ refer to <i>TKD</i> for the Klingon translation.
 <br>attack, (v)
 <br>attempt, try, (v)</p>
 
-<p class="noindent">bar, saloon, cocktail lounge, (n)
+<p class=noindent>bar, saloon, cocktail lounge, (n)
 <br>battle, (n)
 <br>be a problem, be a hassle, (v)
 <br>be absent, (v)
@@ -920,7 +920,7 @@ refer to <i>TKD</i> for the Klingon translation.
 <br>burn, (v)
 <br>buy, purchase, (v)</p>
 
-<p class="noindent">calculate, (v)
+<p class=noindent>calculate, (v)
 <br>calendar, (n)
 <br>captain, (n)
 <br>care (about, (v)
@@ -953,7 +953,7 @@ refer to <i>TKD</i> for the Klingon translation.
 <br>coward, (n)
 <br>cry, (v)</p>
 
-<p class="noindent">danger, (n)
+<p class=noindent>danger, (n)
 <br>data, information, (n)
 <br>daughter, (n)
 <br>day, (n)
@@ -985,7 +985,7 @@ refer to <i>TKD</i> for the Klingon translation.
 <br>duty station, station, (n)
 <br>duty, quest, mission, task, chore, (n)</p>
 
-<p class="noindent">Earth, (n)
+<p class=noindent>Earth, (n)
 <br>eat, (v)
 <br>enemy, (n)
 <br>enjoy, (v)
@@ -996,7 +996,7 @@ refer to <i>TKD</i> for the Klingon translation.
 <br>expect, (v)
 <br>explain, (v)</p>
 
-<p class="noindent">face, (n)
+<p class=noindent>face, (n)
 <br>fact, (n)
 <br>fall, (v)
 <br>family, (n)
@@ -1019,7 +1019,7 @@ refer to <i>TKD</i> for the Klingon translation.
 <br>forget, (v)
 <br>friend, (n)</p>
 
-<p class="noindent">garbage, (n)
+<p class=noindent>garbage, (n)
 <br>gas, (n)
 <br>genius, (n)
 <br>gift, (n)
@@ -1036,7 +1036,7 @@ refer to <i>TKD</i> for the Klingon translation.
 <br>guard, (v)
 <br>gunner, (n)</p>
 
-<p class="noindent">hand, (n)
+<p class=noindent>hand, (n)
 <br>hate, detest, (v)
 <br>have a hangover, be hung over, (v)
 <br>have a headache, (v)
@@ -1057,7 +1057,7 @@ refer to <i>TKD</i> for the Klingon translation.
 <br>hurry, (v)
 <br>husband, (n)</p>
 
-<p class="noindent">I, me, (pro)
+<p class=noindent>I, me, (pro)
 <br>idea, (n)
 <br>identify, (v)
 <br>inhabitant, (n)
@@ -1065,10 +1065,10 @@ refer to <i>TKD</i> for the Klingon translation.
 <br>intend, mean to, (v)
 <br>it, (pro)</p>
 
-<p class="noindent">jacket, coat, (n)
+<p class=noindent>jacket, coat, (n)
 <br>judge, estimate, (v)</p>
 
-<p class="noindent">keep something secret, (v)
+<p class=noindent>keep something secret, (v)
 <br>keep, save, (v)
 <br>kill, (v)
 <br>Klingon, (n)
@@ -1076,7 +1076,7 @@ refer to <i>TKD</i> for the Klingon translation.
 <br>knife, dagger, (n)
 <br>know, (v)</p>
 
-<p class="noindent">label, (v)
+<p class=noindent>label, (v)
 <br>lake, (n)
 <br>language, (n)
 <br>laugh, (v)
@@ -1093,7 +1093,7 @@ refer to <i>TKD</i> for the Klingon translation.
 <br>look for seek, search for, (v)
 <br>loved one, (n)</p>
 
-<p class="noindent">make peace, (v)
+<p class=noindent>make peace, (v)
 <br>male, man, (n)
 <br>manuscript, (n)
 <br>meet (for the first time), (v)
@@ -1108,7 +1108,7 @@ refer to <i>TKD</i> for the Klingon translation.
 <br>mother, (n)
 <br>mouth, (n)</p>
 
-<p class="noindent">name, (n)
+<p class=noindent>name, (n)
 <br>navigate, (v)
 <br>night, (n)
 <br>no, (excl)
@@ -1119,14 +1119,14 @@ refer to <i>TKD</i> for the Klingon translation.
 <br>nothing, none, (n)
 <br>noun, (n)</p>
 
-<p class="noindent">oath, (n)
+<p class=noindent>oath, (n)
 <br>occur, happen, (v)
 <br>officer, (n)
 <br>opinion, (n)
 <br>opportunity, (n)
 <br>order, command, (v)</p>
 
-<p class="noindent">paper, (n)
+<p class=noindent>paper, (n)
 <br>pay attention, concentrate, (v)
 <br>pay for, (v)
 <br>peace, (n)
@@ -1147,9 +1147,9 @@ refer to <i>TKD</i> for the Klingon translation.
 <br>protect, (v)
 <br>push, (v)</p>
 
-<p class="noindent">question, interrogate, (v)</p>
+<p class=noindent>question, interrogate, (v)</p>
 
-<p class="noindent">rain, (v)
+<p class=noindent>rain, (v)
 <br>reach, (v)
 <br>read, (v)
 <br>ready, (excl)
@@ -1172,7 +1172,7 @@ refer to <i>TKD</i> for the Klingon translation.
 <br>room, (n)
 <br>run, jog, (v)</p>
 
-<p class="noindent">salute, (v)
+<p class=noindent>salute, (v)
 <br>scare, (v)
 <br>science, (n)
 <br>scientist, (n)
@@ -1215,7 +1215,7 @@ refer to <i>TKD</i> for the Klingon translation.
 <br>sword, (n)
 <br>system, (n)</p>
 
-<p class="noindent">take, (v)
+<p class=noindent>take, (v)
 <br>take away, (v)
 <br>tell the truth, (v)
 <br>tell, report, (v)
@@ -1235,10 +1235,10 @@ refer to <i>TKD</i> for the Klingon translation.
 <br>trust, have faith in, (v)
 <br>turn, (v)</p>
 
-<p class="noindent">understand, (v)
+<p class=noindent>understand, (v)
 <br>use, (v)</p>
 
-<p class="noindent">verb, (n)
+<p class=noindent>verb, (n)
 <br>verify, (v)
 <br>victory, triumph, (n)
 <br>violate, (v)
@@ -1249,7 +1249,7 @@ refer to <i>TKD</i> for the Klingon translation.
 <br>vow, swear, (v)
 <br>Vulcan, (n)</p>
 
-<p class="noindent">wait (for), (v)
+<p class=noindent>wait (for), (v)
 <br>wake up, cease sleeping, (v)
 <br>walk, (v)
 <br>want, (v)
@@ -1272,15 +1272,15 @@ refer to <i>TKD</i> for the Klingon translation.
 <br>wound, (v)
 <br>write, (v)</p>
 
-<p class="noindent">year, (n)
+<p class=noindent>year, (n)
 <br>yes, true, (excl)
 <br>yes, true, (excl)
 <br>yesterday, (n)
 <br>you, (pro)
 <br>you (plural), (pro)</p>
 
-<p class="noindent">© <time>2002</time> <a
+<p class=noindent>© <time>2002</time> <a
 href="http://www.speers.nu/Holtej/klingon/guidelines.htm">Original document</a>
-copyright by <span class="author">d'Armond Speers</span></p>
+copyright by <span class=author>d'Armond Speers</span></p>
 
 [[eof]]

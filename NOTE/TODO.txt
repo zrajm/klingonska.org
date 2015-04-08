@@ -251,6 +251,8 @@
     CLOSED: [2015-04-05 Sun 18:35]
 *** DONE Use <<..>> to indicate translation in all Markdown
     CLOSED: [2015-04-05 Sun 00:42]
+*** DONE Remove unnecessary quotes around attributes in Markdown
+    CLOSED: [2015-04-08 Wed 10:33]
 ** TODO Do a surf-through check for weird/old shit
 ** [12%] Systematic/site-wide changes
    I.e. changes that need to be applied to the web page as a whole.

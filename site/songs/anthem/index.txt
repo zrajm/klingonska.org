@@ -17,7 +17,7 @@ style: gallery
 
 Klingon Lyrics
 --------------
-<p lang="tlh">Qoy qeylIs puqloD.
+<p lang=tlh>Qoy qeylIs puqloD.
 <br>Qoy puqbe'pu'.
 <br>yoHbogh matlhbogh je SuvwI'
 <br>Say'moHchu' may' 'Iw.

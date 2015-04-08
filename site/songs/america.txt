@@ -9,18 +9,18 @@ lang: sv
 
 Alla älskar vi Amerika -- <<We all love America>>
 ----------------------------------------------------
-<table class="noborder" style="text-align:left">
+<table class=noborder style="text-align:left">
   <tbody>
     <tr>
-      <th lang="sv">Vers 1
-      <th lang="tlh">'ay' wa'
+      <th lang=sv>Vers 1
+      <th lang=tlh>'ay' wa'
     <tr>
-      <td lang="sv" class="nobr">
+      <td lang=sv class=nobr>
         Rika människor är coolare,
         <br>det har jag sett på min mega-tv.
         <br>Paradiset finns i Beverly Hills,
         <br>resan dit börjar med Levis jeans.
-      <td lang="tlh" class="nobr">
+      <td lang=tlh class=nobr>
         butlh’a’ lughajba’ ghotpu’ mIpqu’.
         <br>jIH’a’Daq ’e’ vIleghbejpu’.
         <br><i>beverlIy ’Il</i>Daq ’oH QI’tu’’e’.
@@ -28,17 +28,17 @@ Alla älskar vi Amerika -- <<We all love America>>
   </tbody>
   <tbody>
     <tr>
-      <th lang="sv">Refräng
-      <th lang="tlh">'ay' joj
+      <th lang=sv>Refräng
+      <th lang=tlh>'ay' joj
     <tr>
-      <td lang="sv" class="nobr">
+      <td lang=sv class=nobr>
         Alla älskar vi Amerika.
         <br>Drömmen är att få MacDonalds
         <br>     till vår egen lilla by.
         <br>Så blir Eriksdal Amerika.
         <br>Jag blir Johnny Depp imorgon
         <br>     när en blå dags stjärnor gryr.
-      <td lang="tlh" class="nobr">
+      <td lang=tlh class=nobr>
         <i>’amerIqa</i> luHo’qu’taH Hoch.
         <br>vengHommaj botlhDaq DabtaH
         <br>     <i>maqDonal</i> Do Qe’ ’e’ wInaj.
@@ -48,15 +48,15 @@ Alla älskar vi Amerika -- <<We all love America>>
   </tbody>
   <tbody>
     <tr>
-      <th lang="sv">Vers 2
-      <th lang="tlh">'ay' cha'
+      <th lang=sv>Vers 2
+      <th lang=tlh>'ay' cha'
     <tr>
-      <td lang="sv" class="nobr">
+      <td lang=sv class=nobr>
         Rika människor är lyckligare,
         <br>fula fattiga vill ingen se.
         <br>Allt du äger har du utanpå,
         <br>det är klart att allt kan köpas då.
-      <td lang="tlh" class="nobr">
+      <td lang=tlh class=nobr>
         mIpHa’wI’ leghlu’DI’ DalchoH ghu’
         <br>bImIpchugh vaj DuQuchmoHchu’
         <br>Hoch Doch Daghajqu’bogh neH DaSaH
@@ -64,16 +64,17 @@ Alla älskar vi Amerika -- <<We all love America>>
   </tbody>
   <tbody>
     <tr>
-      <th lang="sv">Refräng
-      <th lang="tlh">'ay' joj
+      <th lang=sv>Refräng
+      <th lang=tlh>'ay' joj
     <tr>
-      <td lang="sv" class="nobr">
+      <td lang=sv class=nobr>
         Alla älskar vi Amerika.
         <br>Drömmen är att få MacDonalds
         <br>     till vår egen lilla by.
         <br>Så blir Eriksdal Amerika.
         <br>Jag blir Johnny Depp imorgon
-        <br>     när en blå dags stjärnor gryr.<td lang="tlh" class="nobr">
+        <br>     när en blå dags stjärnor gryr.
+      <td lang=tlh class=nobr>
         <i>’amerIqa</i> luHo’qu’taH Hoch.
         <br>vengHommaj botlhDaq DabtaH
         <br>     <i>maqDonal</i> Do Qe’ ’e’ wInaj.
@@ -84,11 +85,11 @@ Alla älskar vi Amerika -- <<We all love America>>
 </table>
 
 This song was originally written and performed in Swedish by a band
-called <i lang=sv>Den förlorade generationen</i> (<i>The Lost Generation</i>).
+called <i lang=sv>Den förlorade generationen</i> (<<The Lost Generation>>).
 Now, since both Markus and I know these people, and because they thought it
 would be fun, we were asked to translate the song into Klingon and sing it at
 the release party celebrating their new CD <i lang=sv>»...En dag som idag«</i>
-(<i>»...A Day Like Today«</i>). -- We (of course) accepted the challenge, and
+(<<»...A Day Like Today«>>). -- We (of course) accepted the challenge, and
 subsequently had two days to memorize the text and melody. We fought bravely
 and actually sung the song (in front of audience) accompanied by the band. But
 it probably sounded terrible (at least no one ever said that it was good).

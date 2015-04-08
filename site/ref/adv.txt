@@ -12,7 +12,7 @@ A Quick Reference to Adverbials in Klingon
 
 The following is a list of all the regular adverbials in Klingon.
 
-<table class="sortable">
+<table class=sortable>
   <tr>
     <th>Klingon
     <th>English
@@ -20,166 +20,166 @@ The following is a list of all the regular adverbials in Klingon.
   <tr>
     <td sorttable_customkey="bau">{batlh}
     <td><<honored, with honor, honorably, honorable, well>>
-    <td sorttable_customkey="1985-01-01"><small class="nobr">[TKD, TKW]</small>
+    <td sorttable_customkey="1985-01-01"><small class=nobr>[TKD, TKW]</small>
   <tr>
     <td sorttable_customkey="baugaz">{batlhHa'}
     <td><<dishonorably>>
-    <td sorttable_customkey="1996-05-01"><small class="nobr">[TKW, KGT]</small>
+    <td sorttable_customkey="1996-05-01"><small class=nobr>[TKW, KGT]</small>
   <tr>
     <td sorttable_customkey="bnm">{bong}
     <td><<accidentally, by accident>>
-    <td sorttable_customkey="1985-01-01"><small class="nobr">[TKD]</small>
+    <td sorttable_customkey="1985-01-01"><small class=nobr>[TKD]</small>
   <tr>
     <td sorttable_customkey="cap">{chaq}
     <td><<perhaps, maybe>>
-    <td sorttable_customkey="1985-01-01"><small class="nobr">[TKD, TKW]</small>
+    <td sorttable_customkey="1985-01-01"><small class=nobr>[TKD, TKW]</small>
   <tr>
     <td sorttable_customkey="cazjnf">{cha'logh}
     <td><<twice>>
-    <td sorttable_customkey="1985-01-01"><small class="nobr">[TKD]</small>
+    <td sorttable_customkey="1985-01-01"><small class=nobr>[TKD]</small>
   <tr>
     <td sorttable_customkey="chc">{chIch}
     <td><<purposely, on purpose, intentionally>>
-    <td sorttable_customkey="1985-01-01"><small class="nobr">[TKD]</small>
+    <td sorttable_customkey="1985-01-01"><small class=nobr>[TKD]</small>
   <tr>
     <td sorttable_customkey="dag">{DaH}
     <td><<now>>
-    <td sorttable_customkey="1985-01-01"><small class="nobr">[TKD]</small>
+    <td sorttable_customkey="1985-01-01"><small class=nobr>[TKD]</small>
   <tr>
     <td sorttable_customkey="dnz">{Do'}
     <td><<luckily, with luck>>
-    <td sorttable_customkey="1985-01-01"><small class="nobr">[TKD]</small>
+    <td sorttable_customkey="1985-01-01"><small class=nobr>[TKD]</small>
   <tr>
     <td sorttable_customkey="dnzgaz">{Do'Ha'}
     <td><<unfortunately>>
-    <td sorttable_customkey="1997-11-01"><small class="nobr">[KGT]</small>
+    <td sorttable_customkey="1997-11-01"><small class=nobr>[KGT]</small>
   <tr>
     <td sorttable_customkey="faytal">{ghaytan}
     <td><<likely>>
-    <td sorttable_customkey="1992-01-01"><small class="nobr">[TKDa]</small>
+    <td sorttable_customkey="1992-01-01"><small class=nobr>[TKDa]</small>
   <tr>
     <td sorttable_customkey="faytalgaz">{ghaytanHa'}
     <td><<unlikely>>
-    <td sorttable_customkey="1996-08"><small class="nobr">[Radio Times]</small>
+    <td sorttable_customkey="1996-08"><small class=nobr>[Radio Times]</small>
   <tr>
     <td sorttable_customkey="fhp">{ghIq}
     <td><<and then, after that, by then, subsequently>>
-    <td sorttable_customkey="1999-09"><small class="nobr">[HQ 8:3]</small>
+    <td sorttable_customkey="1999-09"><small class=nobr>[HQ 8:3]</small>
   <tr>
     <td sorttable_customkey="gncjnf">{Hochlogh}
     <td><<all times, always (emphatic)>>
-    <td sorttable_customkey="1997-11-01"><small class="nobr">[KGT]</small>
+    <td sorttable_customkey="1997-11-01"><small class=nobr>[KGT]</small>
   <tr>
     <td sorttable_customkey="ias">{jaS}
     <td><<differently>>
-    <td sorttable_customkey="1992-01-01"><small class="nobr">[TKDa]</small>
+    <td sorttable_customkey="1992-01-01"><small class=nobr>[TKDa]</small>
   <tr>
     <td sorttable_customkey="jnq">{loQ}
     <td><<slightly, a little bit>>
-    <td sorttable_customkey="1985-01-01"><small class="nobr">[TKD, TKW]</small>
+    <td sorttable_customkey="1985-01-01"><small class=nobr>[TKD, TKW]</small>
   <tr>
     <td sorttable_customkey="knu">{motlh}
     <td><<usually, typically, as expected>>
-    <td sorttable_customkey="1997-11-01"><small class="nobr">[KGT]</small>
+    <td sorttable_customkey="1997-11-01"><small class=nobr>[KGT]</small>
   <tr>
     <td sorttable_customkey="lhteb">{nIteb}
     <td><<alone, acting alone>>
-    <td sorttable_customkey="1992-01-01"><small class="nobr">[TKDa, TKW]</small>
+    <td sorttable_customkey="1992-01-01"><small class=nobr>[TKDa, TKW]</small>
   <tr>
     <td sorttable_customkey="lhtebgaz">{nItebHa'}
     <td><<together>>
-    <td sorttable_customkey="1998-11-01"><small class="nobr">[BoP]</small>
+    <td sorttable_customkey="1998-11-01"><small class=nobr>[BoP]</small>
   <tr>
     <td sorttable_customkey="lnk">{nom}
     <td><<fast, quickly>>
-    <td sorttable_customkey="1985-01-01"><small class="nobr">[TKD, TKW]</small>
+    <td sorttable_customkey="1985-01-01"><small class=nobr>[TKD, TKW]</small>
   <tr>
     <td sorttable_customkey="lnt">{not}
     <td><<never>>
-    <td sorttable_customkey="1985-01-01"><small class="nobr">[TKD, TKW]</small>
+    <td sorttable_customkey="1985-01-01"><small class=nobr>[TKD, TKW]</small>
   <tr>
     <td sorttable_customkey="mvf">{ngugh}
     <td><<then, at that time>>
-    <td sorttable_customkey="1999-11-05"><small class="nobr">[News 1999-11-05]</small>
+    <td sorttable_customkey="1999-11-05"><small class=nobr>[News 1999-11-05]</small>
   <tr>
     <td sorttable_customkey="oafjnf">{paghlogh}
     <td><<zero times, never (emphatic)>>
-    <td sorttable_customkey="1997-11-01"><small class="nobr">[KGT]</small>
+    <td sorttable_customkey="1997-11-01"><small class=nobr>[KGT]</small>
   <tr>
     <td sorttable_customkey="oayz">{pay'}
     <td><<suddenly>>
-    <td sorttable_customkey="1985-01-01"><small class="nobr">[TKD]</small>
+    <td sorttable_customkey="1985-01-01"><small class=nobr>[TKD]</small>
   <tr>
     <td sorttable_customkey="oezwhj">{pe'vIl}
     <td><<forcefully, by force>>
-    <td sorttable_customkey="1992-01-01"><small class="nobr">[TKDa, TKW]</small>
+    <td sorttable_customkey="1992-01-01"><small class=nobr>[TKDa, TKW]</small>
   <tr>
     <td sorttable_customkey="ohi">{pIj}
     <td><<often, frequently>>
-    <td sorttable_customkey="1985-01-01"><small class="nobr">[TKD, TKW, KGT]</small>
+    <td sorttable_customkey="1985-01-01"><small class=nobr>[TKD, TKW, KGT]</small>
   <tr>
     <td sorttable_customkey="ohigaz">{pIjHa'}
     <td><<seldom, infrequently>>
-    <td sorttable_customkey="1997-11-01"><small class="nobr">[KGT]</small>
+    <td sorttable_customkey="1997-11-01"><small class=nobr>[KGT]</small>
   <tr>
     <td sorttable_customkey="pel">{qen}
     <td><<recently, a short time ago>>
-    <td sorttable_customkey="1999-03-02"><small class="nobr">[News 1999-03-02]</small>
+    <td sorttable_customkey="1999-03-02"><small class=nobr>[News 1999-03-02]</small>
   <tr>
     <td sorttable_customkey="qht">{QIt}
     <td><<slowly>>
-    <td sorttable_customkey="1985-01-01"><small class="nobr">[TKD]</small>
+    <td sorttable_customkey="1985-01-01"><small class=nobr>[TKD]</small>
   <tr>
     <td sorttable_customkey="reg">{reH}
     <td><<always>>
-    <td sorttable_customkey="1985-01-01"><small class="nobr">[TKD, TKW]</small>
+    <td sorttable_customkey="1985-01-01"><small class=nobr>[TKD, TKW]</small>
   <tr>
     <td sorttable_customkey="rnd">{roD}
     <td><<customarily, habitually, regularly>>
-    <td sorttable_customkey="1997-11-01"><small class="nobr">[KGT]</small>
+    <td sorttable_customkey="1997-11-01"><small class=nobr>[KGT]</small>
   <tr>
     <td sorttable_customkey="rvt">{rut}
     <td><<sometimes, occasionally>>
-    <td sorttable_customkey="1985-01-01"><small class="nobr">[TKD, TKW, KGT]</small>
+    <td sorttable_customkey="1985-01-01"><small class=nobr>[TKD, TKW, KGT]</small>
   <tr>
     <td sorttable_customkey="shbhz">{SIbI'}
     <td><<immediately>>
-    <td sorttable_customkey="1992-01-01"><small class="nobr">[TKDa]</small>
+    <td sorttable_customkey="1992-01-01"><small class=nobr>[TKDa]</small>
   <tr>
     <td sorttable_customkey="tafaz">{tagha'}
     <td><<finally, at last>>
-    <td sorttable_customkey="1999-11-05"><small class="nobr">[News 1999-11-05]</small>
+    <td sorttable_customkey="1999-11-05"><small class=nobr>[News 1999-11-05]</small>
   <tr>
     <td sorttable_customkey="tvf">{tugh}
     <td><<soon>>
-    <td sorttable_customkey="1985-01-01"><small class="nobr">[TKD]</small>
+    <td sorttable_customkey="1985-01-01"><small class=nobr>[TKD]</small>
   <tr>
     <td sorttable_customkey="uns">{tlhoS}
     <td><<almost, nearly, virtually, not quite>>
-    <td sorttable_customkey="1997-11-01"><small class="nobr">[KGT]</small>
+    <td sorttable_customkey="1997-11-01"><small class=nobr>[KGT]</small>
   <tr>
     <td sorttable_customkey="uny">{tlhoy}
     <td><<overly, to an excessive degree, too much>>
-    <td sorttable_customkey="1999-09"><small class="nobr">[HQ 8:3]</small>
+    <td sorttable_customkey="1999-09"><small class=nobr>[HQ 8:3]</small>
   <tr>
     <td sorttable_customkey="wai">{vaj}
     <td><<so, then, thus, in that case>>
-    <td sorttable_customkey="1985-01-01"><small class="nobr">[TKD, TKW]</small>
+    <td sorttable_customkey="1985-01-01"><small class=nobr>[TKD, TKW]</small>
   <tr>
     <td sorttable_customkey="xazjnf">{wa'logh}
     <td><<once>>
-    <td sorttable_customkey="1985-01-01"><small class="nobr">[TKD]</small>
+    <td sorttable_customkey="1985-01-01"><small class=nobr>[TKD]</small>
   <tr>
     <td sorttable_customkey="xey">{wej}
     <td><<not yet>>
-    <td sorttable_customkey="1985-01-01"><small class="nobr">[TKD, TKW]</small>
+    <td sorttable_customkey="1985-01-01"><small class=nobr>[TKD, TKW]</small>
 </table>
 
 Most commonly adverbials are come at the very beginning of a sentence (though
 occasionally an adverbial can be preceded by other stuff, such as a time
 element). <small>[TKD 5.4, TKDa 6.7]</small>
 
-<table class="noborder">
+<table class=noborder>
   <tr><td>{nom Soppu'}<td><<They ate quickly.>>
   <tr><td>{DaHjaj nom Soppu'}<td><<Today they ate quickly.>>
 </table>
@@ -192,7 +192,7 @@ yourself!)>> <small>[TKD 5.4]</small>
 And, finally, if an object is topicalized with the {-'e'} suffix, then the
 adverbial can <em>come after</em> the object noun. <small>[TKDa 6.7]</small>
 
-<table class="noborder">
+<table class=noborder>
   <tbody>
     <tr><td>{HaqwI' yISam}<td><<Find the surgeon!>>
     <tr><td>{DaH HaqwI' yISam}<td><<Find the surgeon now!>>
@@ -217,25 +217,25 @@ adverbials.<sup><a href="#note1">1</a></sup>
     <td>{jay'}
     <td><<intensely (invective)>>
     <td>At the end of a sentence
-    <td><small class="nobr">[TKDa 5.4]</small>
+    <td><small class=nobr>[TKDa 5.4]</small>
   <tr>
     <td>{neH}
     <td><<only, merely, just>>
     <td>Follows a verb <i>or noun</i> it modifies
-    <td><small class="nobr">[TKD 5.4, TKW]</small>
+    <td><small class=nobr>[TKD 5.4, TKW]</small>
 </table>
 
 {jay'} is always placed last in the sentence an has the effect of intensifying
 it.
 
-<table class="noborder">
+<table class=noborder>
   <tr><td>{tIbach}<td><<Shoot him!>>
   <tr><td>{tIbach jay'}<td><<Shoot him, goddamnit!>>
 </table>
 
 When {neH} comes after a verb it has the effect of trivializing it.
 
-<table class="noborder">
+<table class=noborder>
   <tbody>
     <tr><td>{vIqIppu'}<td><<I hit him.>>
     <tr><td>{vIqIppu' neH}<td><<I merely hit him.>>
@@ -252,7 +252,7 @@ disabled, but not damaged further.<sup><a href="#note2">2</a></sup>
 Alone among the adverbials {neH} can also be used to modify the meaning of a
 noun, it then comes after the noun, and means <<only, alone.>>
 
-<table class="noborder">
+<table class=noborder>
   <tr><td>{yaS neH}<td><<only the officer, the officer alone>>
   <tr><td>{jonta' neH}<td><<just the engine>>
 </table>
@@ -262,7 +262,7 @@ suffix {-logh}. This is not limited to the examples in the above list
 ({wa'logh} <<once>> and {cha'logh} <<twice>>), but may be used creatively with
 any number:
 
-<table class="noborder">
+<table class=noborder>
   <tr><td>{vIbachpu'}<td><<I shot him/her.>>
   <tr><td>{wa'logh vIbachpu'}<td><<I shot him/her once.>>
   <tr><td>{cha'logh vIbachpu'}<td><<I shot him/her twice.>>
@@ -276,7 +276,7 @@ These are {paghlogh} <<zero times, never>> (from {pagh} meaning <<nothing>> or
 <<every>>). These mean the same thing as {not} <<never>> and {reH} <<always>>
 but carry extra emphasis.
 
-<table class="noborder">
+<table class=noborder>
   <tr>
     <td>{not vIbachpu'}
     <td><<I never shot him/her.>>
@@ -295,7 +295,7 @@ adverbial, it is used in a similar fashion to {neH}. Both {je} and {neH} can be
 used after either verbs or nouns (though {je} follow one or more nouns, and
 {neH} a single one).</p>
 
-<table class="noborder">
+<table class=noborder>
   <tr>
     <td>{qama' vIbach neH}
     <td><<The only thing I did was to shoot the prisoner.>>
@@ -314,7 +314,7 @@ used after either verbs or nouns (though {je} follow one or more nouns, and
 <<she>> as subject, it can be hard to distinguish it from {neH} <<want>>. Extra
 pronouns or puctuation can then usually be used to clarify the meaning.</p>
 
-<table class="noborder">
+<table class=noborder>
   <tr>
     <td class=nobr>{qama' vIbach vIneH}
     <td><<I want to shoot the prisoner.>>

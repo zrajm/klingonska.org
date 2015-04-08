@@ -5,21 +5,21 @@ year: 1998-2015
 lang: en
 style: banner dict
 
-<p class="center"><big><b><i>-- Your guide to the Klingon language.</i></b></big></p>
+<p class=center><big><b><i>-- Your guide to the Klingon language.</i></b></big></p>
 
-<p class="center">[
+<p class=center>[
   <a href="#eng">English Projects</a> |
   <a href="#sve">Svenska projekt</a> ]</p>
 
-<table id="eng" class="banner">
+<table id=eng class=banner>
   <tr>
     <td class="left edge">
-    <td><img src="/pic/flag-eng.gif" width="39" height="21" alt="English">
+    <td><img src="/pic/flag-eng.gif" width=39 height=21 alt="English">
     <td>If you like this page, don't forget to link to it!
     <td class="right edge">
 </table>
 
-<dl class="navigation">
+<dl class=navigation>
   <dt><a href="dict/">Klingon Pocket Dictionary</a> (online version)
   <dd>
     <form class=dict method=get action="dict/"
@@ -90,16 +90,16 @@ style: banner dict
   <dd>These guides can to help you through some different aspects of the
     Klingon language. Each one gives some short, but useful information about a
     specific topic. <small class=nobr>[Updated <time>2007-07-15</time>]</small>
-    <table class="noborder"><tr>
-      <td><dl class="navigation">
+    <table class=noborder><tr>
+      <td><dl class=navigation>
           <dt><a href="ref/ovs.html">Subjects and Objects</a>
           <dt><a href="ref/loc.html">Locations</a>
       </dl>
-      <td><dl class="navigation">
+      <td><dl class=navigation>
           <dt><a href="ref/num.html">Numbers</a>
           <dt><a href="ref/time.html">Time Expressions</a>
       </dl>
-      <td><dl class="navigation">
+      <td><dl class=navigation>
           <dt><a href="ref/adv.html">Adverbials</a>
           <dt><a href="ref/color.html">Colors</a>
       </dl>
@@ -111,15 +111,15 @@ style: banner dict
     file). <small class=nobr>[Updated <time>2007-07-15</time>]</small>
 </dl>
 
-<table id="sve" class="banner">
+<table id=sve class=banner>
   <tr>
     <td class="left edge">
-    <td><img src="/pic/flag-swe.gif" width="35" height="21" alt="Svenska">
+    <td><img src="/pic/flag-swe.gif" width=35 height=21 alt="Svenska">
     <td>Om du gillar den här sidan, glöm inte att länka hit!
     <td class="right edge">
 </table>
 
-<dl class="navigation">
+<dl class=navigation>
   <dt><a href="akademien/">Om <i>Klingonska Akademien</i></a>
   <dd>Här hittar du samt beskrivningar av aktiviteter vi deltagit i och ordnat,
     lite propaganda och en historia (i bilder) om vår

@@ -91,7 +91,7 @@ ago>> can be immediately preceded by any number to form a time expression,
 while {ret} <<time period ago>> must be preceded by a number <em>and</em>
 the name of a time period. Here are some examples:
 
-<table class="noborder">
+<table class=noborder>
   <tr><td>{cha'vatlh ben}<td><<two hundred years ago, two centuries ago>>
   <tr><td>{Hut wen}<td><<nine months ago>>
   <tr><td>{wa'Hu'}<td><<yesterday, one day ago>>
@@ -120,7 +120,7 @@ words, but they work the same.
 
 And here are some examples:
 
-<table class="noborder">
+<table class=noborder>
   <tr><td>{cha'vatlh nem}<td><<two hundred years from now, two centuries from now>>
   <tr><td>{Hut waQ}<td><<nine months from now>>
   <tr><td>{wa'leS}<td><<tomorrow, one day from now>>
@@ -275,7 +275,7 @@ word {chorghlogh} <<eight o'clock>> (lit. <<Eight times>>).
     <td>{cha'logh Qoylu'pu'}
     <td><<It's two o'clock>>
   <tr>
-    <td class="nobr">{chorghlogh Qoylu'pu'}
+    <td class=nobr>{chorghlogh Qoylu'pu'}
     <td><<It's eight o'clock>>
 </table>
 
@@ -283,7 +283,7 @@ Finally, the latest system given comes from the <i>EuroTalk: Talk Now!</i>
 language course in Klingon. It looks like this (notice the weird usage of
 {vatlh} in e.g. <<ten o'clock a.m.>>!):
 
-<table class="noborder">
+<table class=noborder>
   <tr><td>{pagh rep}<td><<twelve p.m. (00:00)>>
   <tr><td>{pagh cha'maH vagh rep}<td><<12:25 a.m. (00:25)>>
   <tr><td>{pagh vaghmaH rep}<td><<12:50 a.m. (00:50)>>

@@ -77,7 +77,7 @@ their contributions.
 
 ### [TKD_Errata] General Errata ###
 
-<table class="sortable">
+<table class=sortable>
   <tr>
     <th>Description
     <th>Source
@@ -227,7 +227,7 @@ their contributions.
 
 ### [TKD_Main] Words Found Only in the Main Text ###
 
-<table class="sortable">
+<table class=sortable>
   <tr>
     <th>Klingon
     <th>English
@@ -365,7 +365,7 @@ their contributions.
 
 ### [TKD_KE] Words Found Only in the Klingon--English Dictionary Part ###
 
-<table class="sortable">
+<table class=sortable>
   <tr>
     <th>Klingon
     <th>English
@@ -476,7 +476,7 @@ their contributions.
 
 ### [TKD_EK] Words Found Only in the English--Klingon Dictionary Part ###
 
-<table class="sortable">
+<table class=sortable>
   <tr>
     <th>English
     <th>Klingon
@@ -558,7 +558,7 @@ word on the tape.
 
 ### [PK_New] New Words on the Tape ###
 
-<table class="sortable">
+<table class=sortable>
   <tr>
     <th>Klingon
     <th>English
@@ -591,7 +591,7 @@ been altered, still contains an error.
 
 ### [TKW_1st_Errata] Errata for 1st Printing ###
 
-<table class="sortable">
+<table class=sortable>
   <tr>
     <th>Description
     <th>Source
@@ -625,7 +625,7 @@ been altered, still contains an error.
 
 ### [TKW_2nd_Errata] Errata for 2nd Printing ###
 
-<table class="sortable">
+<table class=sortable>
   <tr>
     <th>Description
     <th>Source
@@ -645,7 +645,7 @@ been altered, still contains an error.
 All the errors added to this list <time datetime="2001-08-17">August 17,
 2001</time> were reported by Lieven L. Litaer (a fellow German klingonist).
 
-<table class="sortable">
+<table class=sortable>
   <tr>
     <th>Description
     <th>Source
@@ -719,7 +719,7 @@ All the errors added to this list <time datetime="2001-08-17">August 17,
 
 ### [KGT_Main] Words Found Only in the Main Text ###
 
-<table class="sortable">
+<table class=sortable>
   <tr>
     <th>Klingon
     <th>English
@@ -1097,7 +1097,7 @@ All the errors added to this list <time datetime="2001-08-17">August 17,
 
 ### [KGT_KE] Words Found Only in the Klingon--English Dictionary Part ###
 
-<table class="sortable">
+<table class=sortable>
   <tr>
     <th>Klingon
     <th>English
@@ -1109,7 +1109,7 @@ All the errors added to this list <time datetime="2001-08-17">August 17,
 
 ### [KGT_EK] Words Found Only in the English--Klingon Dictionary Part ###
 
-<table class="sortable">
+<table class=sortable>
   <tr>
     <th>English
     <th>Klingon

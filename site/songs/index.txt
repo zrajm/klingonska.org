@@ -18,7 +18,7 @@ one unaccompanied voice to get the melody across.
 If you have such a recording, or if you’re willing to make one, then [send it
 to me](mailto:zrajm@klingonska)!
 
-<dl class="navigation">
+<dl class=navigation>
   <dt><a href="dahjaj_po.txt">{DaHjaj po} -- <i>An Imperial Parody</i></a>
   <dd><i>Music by Rich Yampell in 1993, lyrics by {’altaQ}.</i>
     <br>This is a parody version of <a href="tahjaj_wo/">{taHjaj
@@ -114,7 +114,7 @@ previously thought. So, I made a list of songs that got to know the name of so
 that I would know the name of my prey and be able to hunt down the lyrics a bit
 easier. This is my list:
 
-<dl class="navigation">
+<dl class=navigation>
   <dt>“Good Morning Starshine” (by Mark Shoulson)
   <dd>This is a translation of one of the songs from the musical “Hair”.
 

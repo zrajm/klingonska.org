@@ -286,8 +286,8 @@ complete description of each of the sounds is given in the text below.
     <th style="width:64px;"><a href="http://en.wikipedia.org/wiki/Back_vowel">Back</a>
   <tr>
     <th style="height:32px;text-align:right;"><a href="http://en.wikipedia.org/wiki/Close_vowel">Close</a>
-    <td style="height:210px;" colspan="5" rowspan="7">
-      <div style="position:relative;"><img src="pic/320px-blank_vowel_trapezoid.png" width="320" height="224">
+    <td style="height:210px;" colspan=5 rowspan=7>
+      <div style="position:relative;"><img src="pic/320px-blank_vowel_trapezoid.png" width=320 height=224>
         <div style="background:transparent;position:absolute;top:0px;left:0px;">
           <table class=noborder style="margin:0;position:relative;width:320px;height:224px;text-align:center;background:transparent;font-size:131%;">
             <tr>
@@ -646,7 +646,7 @@ the proper {gh} is not likely to cause confusion, but if doing so one should be
 aware that one will be speaking with a bit of a Terran
 accent). <small>[<a class=sources>Display Sources</a>]</small>
 
-<div class="hidden">
+<div class=hidden>
   <p class=canon>{gh} This is not like anything in English. It can be produced
     by putting the tongue in the same position it would be in to say
     English <i>g</i> as in <i>gobble,</i> but relaxing the tongue somewhat and

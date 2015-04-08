@@ -20,13 +20,13 @@ information on the Klingon writing system.
 
 ## Table of Contents ##
 
-<ul class="toc">
+<ul class=toc>
   <li><a href="#okrand">Okrand's Way</a>
     <ul style="margin:0">
       <li><a href="#sentences">Sentence Punctuation</a>
       <li><a href="#subsentence">Sub-Sentence Punctuation</a>
   </ul>
-  <li><a href="#piqad"><b lang="tlh">pIqaD</b> Punctuation</a>
+  <li><a href="#piqad"><b lang=tlh>pIqaD</b> Punctuation</a>
 </ul>
 
 
@@ -69,39 +69,39 @@ an exclamation point!):
   <tr>
     <td sorttable_customkey="bhhqcvfyhwam">{bI'IQchugh yIvang!}
     <td><<If you are sad, act!>>
-    <td sorttable_customkey="1">!
-    <td sorttable_customkey="b008" class="nobr">TKW p.8
+    <td sorttable_customkey=1>!
+    <td sorttable_customkey="b008" class=nobr>TKW p.8
   <tr>
     <td sorttable_customkey="thphopveilnkthpho">{tIqIpqu' 'ej nom tIqIp.}
     <td><<Hit them hard and hit them fast.>>
-    <td sorttable_customkey="2">.
-    <td sorttable_customkey="b008" class="nobr">TKW p.8
+    <td sorttable_customkey=2>.
+    <td sorttable_customkey="b008" class=nobr>TKW p.8
   <tr>
     <td sorttable_customkey="gncebkeythinl">{Hoch 'ebmey tIjon.}
     <td><<Capture all opportunities.>>
-    <td sorttable_customkey="2">.
-    <td sorttable_customkey="b051" class="nobr">TKW p.51
+    <td sorttable_customkey=2>.
+    <td sorttable_customkey="b051" class=nobr>TKW p.51
   <tr>
     <td sorttable_customkey="ohoyvsyhfnr">{pIpyuS yIghor!}
     <td><<Break a pipius!>>
-    <td sorttable_customkey="1">!
-    <td sorttable_customkey="b185" class="nobr">TKW p.185
+    <td sorttable_customkey=1>!
+    <td sorttable_customkey="b185" class=nobr>TKW p.185
   <tr>
     <td sorttable_customkey="fexkeythsvpqn">{ghewmey tISuqQo'.}
     <td><<Don't catch any bugs.>>
-    <td sorttable_customkey="2">.
-    <td sorttable_customkey="b207" class="nobr">TKW p.207
+    <td sorttable_customkey=2>.
+    <td sorttable_customkey="b207" class=nobr>TKW p.207
   <tr>
     <td sorttable_customkey="iafthghw">{jagh tIHIv!}
     <td><<Attack the enemies!>>
-    <td sorttable_customkey="1">!
-    <td sorttable_customkey="c140" class="nobr">KGT p.140
+    <td sorttable_customkey=1>!
+    <td sorttable_customkey="c140" class=nobr>KGT p.140
 </table>
 
 And some examples of statements (which one would expect to all end with a
 period):
 
-<table class="sortable" style="width: 100%">
+<table class=sortable style="width: 100%">
   <tr>
     <th>Klingon
     <th>Given Translation
@@ -110,33 +110,33 @@ period):
   <tr>
     <td sorttable_customkey="tagiaibnp">{taHjaj boq.}
     <td><<May the alliance endure.>>
-    <td sorttable_customkey="2">.
-    <td sorttable_customkey="a173" class="nobr">TKDa p.173
+    <td sorttable_customkey=2>.
+    <td sorttable_customkey="a173" class=nobr>TKDa p.173
   <tr>
     <td sorttable_customkey="uhmalkag">{tlhIngan maH!}
     <td><<We are Klingons!>>
-    <td sorttable_customkey="1">!
-    <td sorttable_customkey="b003" class="nobr">TKW p.3
+    <td sorttable_customkey=1>!
+    <td sorttable_customkey="b003" class=nobr>TKW p.3
   <tr>
     <td sorttable_customkey="gnwkeydawal">{Hovmey Davan.}
     <td><<You salute the stars.>>
-    <td sorttable_customkey="2">.
-    <td sorttable_customkey="b083" class="nobr">TKW p.83
+    <td sorttable_customkey=2>.
+    <td sorttable_customkey="b083" class=nobr>TKW p.83
   <tr>
     <td sorttable_customkey="pafsnobe">{qagh Sopbe'!}
     <td><<He doesn't eat gagh!>>
-    <td sorttable_customkey="1">!
-    <td sorttable_customkey="b137" class="nobr">TKW p.137
+    <td sorttable_customkey=1>!
+    <td sorttable_customkey="b137" class=nobr>TKW p.137
   <tr>
     <td sorttable_customkey="dnpbhqthpbhq">{Doq bIQtIq bIQ.}
     <td><<The river water is red.>>
-    <td sorttable_customkey="2">.
-    <td sorttable_customkey="c123" class="nobr">KGT p.123
+    <td sorttable_customkey=2>.
+    <td sorttable_customkey="c123" class=nobr>KGT p.123
   <tr>
     <td sorttable_customkey="svysng">{Suy SoH.}
     <td><<You are a merchant.>>
-    <td sorttable_customkey="2">.
-    <td sorttable_customkey="c196" class="nobr">KGT p.196
+    <td sorttable_customkey=2>.
+    <td sorttable_customkey="c196" class=nobr>KGT p.196
 </table>
 
 Luckily, for the most part, Klingon doesn't need much in way of punctuation
@@ -158,7 +158,7 @@ semicolon in the »*&lt;stative verb&gt;{;} &lt;noun&gt; {rur}*« pattern (e.g.
 {ram; ghIlab ghew rur} <<It is trivial as a glob fly>>).
 
 
-<p class="noindent">Here are some cases to think about when I get back to
+<p class=noindent>Here are some cases to think about when I get back to
 this the next time:</p>
 
   * **With conjunctions?** -- Both sentence and noun conjunctions.
@@ -256,34 +256,34 @@ writing {tlhIngan Hol}, and look like this:
 
 <table class="noborder spacy" style="text-align: center">
   <tr>
-    <td><img src="piq/bg1/a.gif" width="38" height="39" alt="a"><br>{a}
-    <td><img src="piq/bg1/b.gif" width="37" height="39" alt="b"><br>{b}
-    <td><img src="piq/bg1/ch.gif" width="42" height="39" alt="ch"><br>{ch}
-    <td><img src="piq/bg1/d.gif" width="29" height="39" alt="D"><br>{I}
-    <td><img src="piq/bg1/e.gif" width="26" height="39" alt="e"><br>{e}
-    <td><img src="piq/bg1/gh.gif" width="43" height="39" alt="gh"><br>{gh}
-    <td><img src="piq/bg1/h.gif" width="21" height="39" alt="H"><br>{H}
-    <td><img src="piq/bg1/i.gif" width="31" height="39" alt="I"><br>{I}
-    <td><img src="piq/bg1/j.gif" width="36" height="39" alt="j"><br>{j}
+    <td><img src="piq/bg1/a.gif" width=38 height=39 alt="a"><br>{a}
+    <td><img src="piq/bg1/b.gif" width=37 height=39 alt="b"><br>{b}
+    <td><img src="piq/bg1/ch.gif" width=42 height=39 alt="ch"><br>{ch}
+    <td><img src="piq/bg1/d.gif" width=29 height=39 alt="D"><br>{I}
+    <td><img src="piq/bg1/e.gif" width=26 height=39 alt="e"><br>{e}
+    <td><img src="piq/bg1/gh.gif" width=43 height=39 alt="gh"><br>{gh}
+    <td><img src="piq/bg1/h.gif" width=21 height=39 alt="H"><br>{H}
+    <td><img src="piq/bg1/i.gif" width=31 height=39 alt="I"><br>{I}
+    <td><img src="piq/bg1/j.gif" width=36 height=39 alt="j"><br>{j}
   <tr>
-    <td><img src="piq/bg1/l.gif" width="28" height="39" alt="l"><br>{l}
-    <td><img src="piq/bg1/m.gif" width="27" height="39" alt="m"><br>{m}
-    <td><img src="piq/bg1/n.gif" width="33" height="39" alt="n"><br>{n}
-    <td><img src="piq/bg1/ng.gif" width="41" height="39" alt="ng"><br>{ng}
-    <td><img src="piq/bg1/o.gif" width="36" height="39" alt="o"><br>{o}
-    <td><img src="piq/bg1/p.gif" width="26" height="39" alt="p"><br>{p}
-    <td><img src="piq/bg1/q.gif" width="18" height="39" alt="q"><br>{q}
-    <td><img src="piq/bg1/qh.gif" width="27" height="39" alt="Q"><br>{Q}
-    <td><img src="piq/bg1/r.gif" width="33" height="39" alt="r"><br>{r}
+    <td><img src="piq/bg1/l.gif" width=28 height=39 alt="l"><br>{l}
+    <td><img src="piq/bg1/m.gif" width=27 height=39 alt="m"><br>{m}
+    <td><img src="piq/bg1/n.gif" width=33 height=39 alt="n"><br>{n}
+    <td><img src="piq/bg1/ng.gif" width=41 height=39 alt="ng"><br>{ng}
+    <td><img src="piq/bg1/o.gif" width=36 height=39 alt="o"><br>{o}
+    <td><img src="piq/bg1/p.gif" width=26 height=39 alt="p"><br>{p}
+    <td><img src="piq/bg1/q.gif" width=18 height=39 alt="q"><br>{q}
+    <td><img src="piq/bg1/qh.gif" width=27 height=39 alt="Q"><br>{Q}
+    <td><img src="piq/bg1/r.gif" width=33 height=39 alt="r"><br>{r}
   <tr>
-    <td><img src="piq/bg1/s.gif" width="39" height="39" alt="S"><br>{S}
-    <td><img src="piq/bg1/t.gif" width="36" height="39" alt="t"><br>{t}
-    <td><img src="piq/bg1/tlh.gif" width="35" height="39" alt="tlh"><br>{tlh}
-    <td><img src="piq/bg1/u.gif" width="38" height="39" alt="u"><br>{u}
-    <td><img src="piq/bg1/v.gif" width="44" height="39" alt="v"><br>{v}
-    <td><img src="piq/bg1/w.gif" width="34" height="39" alt="w"><br>{w}
-    <td><img src="piq/bg1/y.gif" width="35" height="39" alt="y"><br>{y}
-    <td><img src="piq/bg1/z.gif" width="10" height="39" alt="'"><br>{'}
+    <td><img src="piq/bg1/s.gif" width=39 height=39 alt="S"><br>{S}
+    <td><img src="piq/bg1/t.gif" width=36 height=39 alt="t"><br>{t}
+    <td><img src="piq/bg1/tlh.gif" width=35 height=39 alt="tlh"><br>{tlh}
+    <td><img src="piq/bg1/u.gif" width=38 height=39 alt="u"><br>{u}
+    <td><img src="piq/bg1/v.gif" width=44 height=39 alt="v"><br>{v}
+    <td><img src="piq/bg1/w.gif" width=34 height=39 alt="w"><br>{w}
+    <td><img src="piq/bg1/y.gif" width=35 height=39 alt="y"><br>{y}
+    <td><img src="piq/bg1/z.gif" width=10 height=39 alt="'"><br>{'}
 </table>
 
 There is also a set of Klingon numbers, which look like this: (Klingons earlier
@@ -292,16 +292,16 @@ system some time back.)
 
 <table class="noborder spacy" style="text-align: center">
   <tr>
-    <td><img src="piq/bg1/0.gif" width="30" height="39" alt="0"><br>{pagh}  <br>{0}
-    <td><img src="piq/bg1/1.gif" width="36" height="39" alt="1"><br>{wa'}   <br>{1}
-    <td><img src="piq/bg1/2.gif" width="17" height="39" alt="2"><br>{cha'}  <br>{2}
-    <td><img src="piq/bg1/3.gif" width="26" height="39" alt="3"><br>{wej}   <br>{3}
-    <td><img src="piq/bg1/4.gif" width="34" height="39" alt="4"><br>{loS}   <br>{4}
-    <td><img src="piq/bg1/5.gif" width="20" height="39" alt="5"><br>{vagh}  <br>{5}
-    <td><img src="piq/bg1/6.gif" width="35" height="39" alt="6"><br>{jav}   <br>{6}
-    <td><img src="piq/bg1/7.gif" width="28" height="39" alt="7"><br>{Soch}  <br>{7}
-    <td><img src="piq/bg1/8.gif" width="37" height="39" alt="8"><br>{chorgh}<br>{8}
-    <td><img src="piq/bg1/9.gif" width="27" height="39" alt="9"><br>{Hut}   <br>{9}
+    <td><img src="piq/bg1/0.gif" width=30 height=39 alt=0><br>{pagh}  <br>{0}
+    <td><img src="piq/bg1/1.gif" width=36 height=39 alt=1><br>{wa'}   <br>{1}
+    <td><img src="piq/bg1/2.gif" width=17 height=39 alt=2><br>{cha'}  <br>{2}
+    <td><img src="piq/bg1/3.gif" width=26 height=39 alt=3><br>{wej}   <br>{3}
+    <td><img src="piq/bg1/4.gif" width=34 height=39 alt=4><br>{loS}   <br>{4}
+    <td><img src="piq/bg1/5.gif" width=20 height=39 alt=5><br>{vagh}  <br>{5}
+    <td><img src="piq/bg1/6.gif" width=35 height=39 alt=6><br>{jav}   <br>{6}
+    <td><img src="piq/bg1/7.gif" width=28 height=39 alt=7><br>{Soch}  <br>{7}
+    <td><img src="piq/bg1/8.gif" width=37 height=39 alt=8><br>{chorgh}<br>{8}
+    <td><img src="piq/bg1/9.gif" width=27 height=39 alt=9><br>{Hut}   <br>{9}
 </table>
 
 -->
@@ -322,7 +322,7 @@ system some time back.)
 Footnotes
 ---------
 <ol>
-  <li id="fn1">Questions always have either the interrogative suffix {-'a'}
+  <li id=fn1>Questions always have either the interrogative suffix {-'a'}
     attached to the verb, or one of the question words ({chay'}, {ghorgh},
     {nuq}, {nuqDaq}, {qatlh}, {'ar} or {'Iv}) present in the sentence.
     -- Commands always have one of the imperative prefixes ({yI-}, {pe-},

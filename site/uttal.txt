@@ -63,7 +63,7 @@ inte färdigformulerade. -- De fallen har dock dock en kort beskrivning av
 ljudet ifråga, tagen direkt ur <i>TKD,</i> och inte bearbetad för svenska
 förhållanden.
 
-<table class="noborder">
+<table class=noborder>
 <tr bgcolor="#aaa">
   <td>{a}
   <td>&#42;

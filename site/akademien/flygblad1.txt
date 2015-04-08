@@ -28,10 +28,10 @@ möte, som till och med omtalats i dagspress.
 För mer information, kontakta oss på telefon 018-500 911 eller via epost. Vi
 har även en informativ hemsida. {batlh pIghojmoH.}
 
-<table class="noborder">
+<table class=noborder>
   <tr><td><hr noshade>
   <tr>
-    <td class="center">
+    <td class=center>
       <big>Klingonska Akademien
         <br>zrajm@iname.com
         <br><i>www.bahnhof.se/~dark/klingonska</i>
@@ -39,7 +39,7 @@ har även en informativ hemsida. {batlh pIghojmoH.}
   <tr><td><hr noshade>
 </table>
 
-<p class="center"><small>[Flygblad spridd i hundra exemplar på
+<p class=center><small>[Flygblad spridd i hundra exemplar på
 Insurrection-premiären i Uppsala.]</small></p>
 
 [[eof]]

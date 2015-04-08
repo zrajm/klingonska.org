@@ -7,7 +7,7 @@ lang: sv
 Om <i>Klingonska Akademien</i>
 ==============================
 
-<dl class="navigation">
+<dl class=navigation>
 
   <dt><a href="presentation.html">En presentation av de involverade</a>
   <dd>Här kan du läsa om oss som ligger bakom <i>Klingonska Akademien</i> och

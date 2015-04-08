@@ -709,23 +709,23 @@ Examples
     <td colspan=2 rowspan=2 style="vertical-align:middle"
       ><img src="bg1/_ka.gif" width=44 height=39 alt="¶">
   <tr>
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/j.gif" width=14 height=19 alt="j"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/h.gif" width=9 height=19 alt="H">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/m.gif" width=13 height=19 alt="m"
       ><img src="sml/a.gif" width=14 height=19 alt="a"
       ><img src="sml/h.gif" width=9 height=19 alt="H">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/s.gif" width=14 height=19 alt="S"
       ><img src="sml/o.gif" width=15 height=19 alt="o"
       ><img src="sml/h.gif" width=9 height=19 alt="H">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/tlh.gif" width=16 height=19 alt="tlh"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/h.gif" width=9 height=19 alt="H">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/gh.gif" width=16 height=19 alt="gh"
       ><img src="sml/a.gif" width=14 height=19 alt="a"
       ><img src="sml/h.gif" width=9 height=19 alt="H"
@@ -733,7 +733,7 @@ Examples
       ><img src="sml/z.gif" width=6 height=19 alt="’"
       ><img src="sml/o.gif" width=15 height=19 alt="o"
       ><img src="sml/h.gif" width=9 height=19 alt="H">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/ch.gif" width=16 height=19 alt="ch"
       ><img src="sml/a.gif" width=14 height=19 alt="a"
       ><img src="sml/h.gif" width=9 height=19 alt="H"
@@ -741,34 +741,34 @@ Examples
       ><img src="sml/b.gif" width=14 height=19 alt="b"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/h.gif" width=9 height=19 alt="H">
-    <td class="nobr"
+    <td class=nobr
       >(<img src="sml/p.gif" width=11 height=19 alt="p"
       ><img src="sml/a.gif" width=14 height=19 alt="a"
       ><img src="sml/gh.gif" width=16 height=19 alt="gh">)
   <tr>
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/h.gif" width=9 height=19 alt="H"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/gh.gif" width=16 height=19 alt="gh"
       ><img src="sml/o.gif" width=15 height=19 alt="o"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
     <td style="color:#888;background:#888">×
     <td style="color:#888;background:#888">×
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/y.gif" width=15 height=19 alt="y"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/t.gif" width=15 height=19 alt="t"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/y.gif" width=15 height=19 alt="y"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/s.gif" width=14 height=19 alt="S"
       ><img src="sml/o.gif" width=15 height=19 alt="o"
       ><img src="sml/h.gif" width=9 height=19 alt="H"
@@ -778,29 +778,30 @@ Examples
     <td style="vertical-align:middle;" rowspan=9
       ><h2 style="margin:0">S<br />U<br /> B <br />J<br />E<br />C<br />T</h2>
   <tr>
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/h.gif" width=9 height=19 alt="H"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/gh.gif" width=16 height=19 alt="gh"
       ><img src="sml/o.gif" width=15 height=19 alt="o"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
     <td style="color:#888;background:#888">×
     <td style="color:#888;background:#888">×
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/y.gif" width=15 height=19 alt="y"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/t.gif" width=15 height=19 alt="t"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/p.gif" width=11 height=19 alt="p"
       ><img src="sml/e.gif" width=11 height=19 alt="e"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"><img src="sml/tlh.gif" width=16 height=19 alt="tlh"
+    <td class=nobr
+      ><img src="sml/tlh.gif" width=16 height=19 alt="tlh"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/h.gif" width=9 height=19 alt="H"
       > (<img src="sml/r.gif" width=13 height=19 alt="r"
@@ -809,135 +810,136 @@ Examples
   <tr>
     <td style="color:#888;background:#888">×
     <td style="color:#888;background:#888">×
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/q.gif" width=8 height=19 alt="q"
       ><img src="sml/a.gif" width=14 height=19 alt="a"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/s.gif" width=14 height=19 alt="S"
       ><img src="sml/a.gif" width=14 height=19 alt="a"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/v.gif" width=19 height=19 alt="v"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/v.gif" width=19 height=19 alt="v"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/j.gif" width=14 height=19 alt="j"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/j.gif" width=14 height=19 alt="j"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/h.gif" width=9 height=19 alt="H">
   <tr>
     <td style="color:#888;background:#888">×
     <td style="color:#888;background:#888">×
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/p.gif" width=11 height=19 alt="p"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/r.gif" width=13 height=19 alt="r"
       ><img src="sml/e.gif" width=11 height=19 alt="e"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/w.gif" width=14 height=19 alt="w"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/d.gif" width=12 height=19 alt="D"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/m.gif" width=13 height=19 alt="m"
       ><img src="sml/a.gif" width=14 height=19 alt="a"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/m.gif" width=13 height=19 alt="m"
       ><img src="sml/a.gif" width=14 height=19 alt="a"
       ><img src="sml/h.gif" width=9 height=19 alt="H">
   <tr>
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/ch.gif" width=16 height=19 alt="ch"
       ><img src="sml/o.gif" width=15 height=19 alt="o"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/j.gif" width=14 height=19 alt="j"
       ><img src="sml/u.gif" width=14 height=19 alt="u"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
     <td style="color:#888;background:#888">×
     <td style="color:#888;background:#888">×
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/d.gif" width=12 height=19 alt="D"
       ><img src="sml/a.gif" width=14 height=19 alt="a"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/d.gif" width=12 height=19 alt="D"
       ><img src="sml/a.gif" width=14 height=19 alt="a"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/b.gif" width=14 height=19 alt="b"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/s.gif" width=14 height=19 alt="S"
       ><img src="sml/o.gif" width=15 height=19 alt="o"
       ><img src="sml/h.gif" width=9 height=19 alt="H">
   <tr>
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/t.gif" width=15 height=19 alt="t"
       ><img src="sml/u.gif" width=14 height=19 alt="u"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/ch.gif" width=16 height=19 alt="ch"
       ><img src="sml/e.gif" width=11 height=19 alt="e"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
     <td style="color:#888;background:#888">×
     <td style="color:#888;background:#888">×
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/b.gif" width=14 height=19 alt="b"
       ><img src="sml/o.gif" width=15 height=19 alt="o"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/b.gif" width=14 height=19 alt="b"
       ><img src="sml/o.gif" width=15 height=19 alt="o"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/s.gif" width=14 height=19 alt="S"
       ><img src="sml/u.gif" width=14 height=19 alt="u"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/tlh.gif" width=16 height=19 alt="tlh"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/h.gif" width=9 height=19 alt="H">
   <tr>
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/m.gif" width=13 height=19 alt="m"
       ><img src="sml/u.gif" width=14 height=19 alt="u"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/n.gif" width=12 height=19 alt="n"
       ><img src="sml/u.gif" width=14 height=19 alt="u"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/d.gif" width=12 height=19 alt="D"
       ><img src="sml/u.gif" width=14 height=19 alt="u"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/l.gif" width=11 height=19 alt="l"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"><img src="sml/gh.gif" width=16 height=19 alt="gh"
+    <td class=nobr
+      ><img src="sml/gh.gif" width=16 height=19 alt="gh"
       ><img src="sml/a.gif" width=14 height=19 alt="a"
       ><img src="sml/h.gif" width=9 height=19 alt="H"
       ><img src="sml/_slash.gif" width=8 height=19 alt="/"
@@ -945,31 +947,31 @@ Examples
       ><img src="sml/o.gif" width=15 height=19 alt="o"
       ><img src="sml/h.gif" width=9 height=19 alt="H">
   <tr>
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/m.gif" width=13 height=19 alt="m"
       ><img src="sml/u.gif" width=14 height=19 alt="u"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/n.gif" width=12 height=19 alt="n"
       ><img src="sml/u.gif" width=14 height=19 alt="u"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/n.gif" width=12 height=19 alt="n"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/l.gif" width=11 height=19 alt="l"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/l.gif" width=11 height=19 alt="l"
       ><img src="sml/u.gif" width=14 height=19 alt="u"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/ch.gif" width=16 height=19 alt="ch"
       ><img src="sml/a.gif" width=14 height=19 alt="a"
       ><img src="sml/h.gif" width=9 height=19 alt="H"
@@ -978,58 +980,57 @@ Examples
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/h.gif" width=9 height=19 alt="H">
   <tr>
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/v.gif" width=19 height=19 alt="v"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
       ><img src="sml/l.gif" width=11 height=19 alt="l"
       ><img src="sml/u.gif" width=14 height=19 alt="u"
       ><img src="sml/z.gif" width=6 height=19 alt="’">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/w.gif" width=14 height=19 alt="w"
       ><img src="sml/i.gif" width=14 height=19 alt="I"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
       ><img src="sml/l.gif" width=11 height=19 alt="l"
       ><img src="sml/u.gif" width=14 height=19 alt="u"
       ><img src="sml/z.gif" width=6 height=19 alt="’">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/d.gif" width=12 height=19 alt="D"
       ><img src="sml/a.gif" width=14 height=19 alt="a"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
       ><img src="sml/l.gif" width=11 height=19 alt="l"
       ><img src="sml/u.gif" width=14 height=19 alt="u"
       ><img src="sml/z.gif" width=6 height=19 alt="’">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/b.gif" width=14 height=19 alt="b"
       ><img src="sml/o.gif" width=15 height=19 alt="o"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
       ><img src="sml/l.gif" width=11 height=19 alt="l"
       ><img src="sml/u.gif" width=14 height=19 alt="u"
       ><img src="sml/z.gif" width=6 height=19 alt="’">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
       ><img src="sml/l.gif" width=11 height=19 alt="l"
       ><img src="sml/u.gif" width=14 height=19 alt="u"
       ><img src="sml/z.gif" width=6 height=19 alt="’">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/l.gif" width=11 height=19 alt="l"
       ><img src="sml/u.gif" width=14 height=19 alt="u"
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
       ><img src="sml/l.gif" width=11 height=19 alt="l"
       ><img src="sml/u.gif" width=14 height=19 alt="u"
       ><img src="sml/z.gif" width=6 height=19 alt="’">
-    <td class="nobr"
+    <td class=nobr
       ><img src="sml/_hypen.gif" width=9 height=19 alt="-"
       ><img src="sml/l.gif" width=11 height=19 alt="l"
       ><img src="sml/u.gif" width=14 height=19 alt="u"
       ><img src="sml/z.gif" width=6 height=19 alt="’">
-    <td class="nobr"
+    <td class=nobr
       >(<img src="sml/v.gif" width=19 height=19 alt="v"
       ><img src="sml/a.gif" width=14 height=19 alt="a"
       ><img src="sml/y.gif" width=15 height=19 alt="y"
       ><img src="sml/z.gif" width=6 height=19 alt="’">)
 </table>
-
 
 Shaded areas indicate that pronouns and/or suffixes must be used, a
 single <img src="sml/_shypen.gif" width=9 height=7 alt="-"> that no prefix is
