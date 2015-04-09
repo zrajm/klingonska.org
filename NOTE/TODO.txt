@@ -3850,7 +3850,8 @@
 ** "A Quick Reference to Adverbials in Klingon" [ref/adv]
 *** DONE Update list of adverbials
     CLOSED: [2013-04-02 Tue 05:27]
-*** TODO {ghaytanHa'} shouldn't be word wrapped in table on ref/adv.html
+*** DONE {ghaytanHa'} shouldn't be word wrapped in table on ref/adv.html
+    CLOSED: [2015-04-09 Thu 09:57]
 ** "A Quick Reference to Time Expressions in Klingon" [ref/time]
 *** TODO Add days of week
 *** TODO Add {ngugh} adverbial

@@ -9,7 +9,6 @@ up: ..
 
 A Quick Reference to Adverbials in Klingon
 ==========================================
-
 The following is a list of all the regular adverbials in Klingon.
 
 <table class=sortable>
@@ -58,7 +57,7 @@ The following is a list of all the regular adverbials in Klingon.
     <td><<likely>>
     <td sorttable_customkey="1992-01-01"><small class=nobr>[TKDa]</small>
   <tr>
-    <td sorttable_customkey="faytalgaz">{ghaytanHa'}
+    <td sorttable_customkey="faytalgaz" class=nobr>{ghaytanHa'}
     <td><<unlikely>>
     <td sorttable_customkey="1996-08"><small class=nobr>[Radio Times]</small>
   <tr>
