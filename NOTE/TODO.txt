@@ -245,7 +245,7 @@
 ** DONE Prettify tab row (make more Chrome-like)
    CLOSED: [2014-11-04 tis 17:39]
 * Site content
-** [100%] Improve Markdown documents (parsed by `markdown2html`)
+** [42%] Improve Markdown documents (parsed by `markdown2html`)
    Run `touch bin/markdown2html; make`, you'll see a list of updated files.
 *** DONE Replace all em-dashes with en-dashes (except in transcripts)
     CLOSED: [2015-04-05 Sun 18:35]
@@ -253,10 +253,54 @@
     CLOSED: [2015-04-05 Sun 00:42]
 *** DONE Remove unnecessary quotes around attributes in Markdown
     CLOSED: [2015-04-08 Wed 10:33]
+*** TODO Replace all <i> and <em> with *...*
+*** TODO Replace <strong> with appropriate Markdown
+*** TODO Single minus (' - ') should be ' -- ' when surrounded by space
+    Both with spaces and non-breaking spaces around it.
+*** TODO Replace HTML links with [...](...)
 ** TODO Do a surf-through check for weird/old shit
-** [12%] Systematic/site-wide changes
+** [11%] Systematic/site-wide changes
    I.e. changes that need to be applied to the web page as a whole.
+*** TODO Improve table sortability
+    Can all tables (with headers) be made sortable? (e.g. on /download.html)
+
+    Replace 'includes/sorttable.js' with something that can be minified It
+    should also pass JSLint.
+
+    Note that some files (e.g. `punct.html` uses sorttable's
+    "sorttable_customkey" attribute, which will probably have to be rewritten if
+    `sorttable.js` is replaced. It would be especially cool if the sort script
+    could take some comparison function so we could sort by Klingon.
+*** TODO Make source reference style consistent
+    Currently some sources [TKD] etc. are grey colored, others are set in
+    <small> -- unify this!
+
+    Brackets should be added by the CSS, so that we may strip them when
+    needed.
+
+    When a source reference is used alone in a table cell, maybe there should
+    be no brackets or coloring of it? Maybe use a selector like the following?
+
+        td > XXX:first-child:last-child
+
+    tkw.html = grey, Same with dates in menus. Note that some sources are on
+    green or red background (e.g. in /piqad/), so grey should be
+    `rgba(0,0,0,.5)` or something similar
+
+    As it is now it looks a bit weird with the small font when it occurs
+    alone, since the line height is not adjusted. Grey would look better
+    there. (e.g. last menu item on the /akademien/ page).
+
+    Source references need to look good when used in the middle of a block of
+    text (where a light grey would maybe look weird?), at the end of a long
+    text, and when occurring all by itself in a table cell.
+*** TODO Replace <br>nbsp-nbsp-nbsp with <p class=indent> + CSS
+*** TODO Drop margins for <p> used inside a <td>
+    CSS should also reduce margins in tables and similar? Useful especially
+    since that mean <p class=indent> can be used inside table cells instead of
+    <br>nbsp-nbsp-nbsp.
 *** TODO Use <main> tag(?)
+*** TODO Hexagon used as list bullet should be SVG, not bitmap
 *** TODO Read up on SMACSS apply those principles to CSS
     http://smacss.com/
 *** [0%] Social network interactivity
@@ -300,7 +344,7 @@
        * Building (minified) CSSes from SCSS (Sassy Stylesheets)
        * Using a HTML template = centralized header/footer
        * Page source (whenever possible) in markdown
-**** [57%] Add new design to all pages (except KLO for now)
+**** [66%] Add new design to all pages (except KLO for now)
 ***** DONE <script>...</script> blocks should not be parsed for markdown
       CLOSED: [2012-06-26 Tue 02:45]
       E.g. `/download.html`.
@@ -580,20 +624,9 @@
       CLOSED: [2012-11-10 Sat 00:42]
       Prefix table in the reference table section is align left, but it should
       be centered. Page: http://klingonska.lal/dict/tables.html
-***** TODO Center prefix table in "Some Klingon GIF Fonts"
-      Prefix table in the reference table section is align left, but it should
-      be centered. Page: http://klingonska.lal/piq/index.html
 ***** TODO <ul> lists should also use the little hexagonal bullets
       Page that uses it: http://klingonska.lal/akademien/qephom.html
       http://klingonska.org/punct.html
-***** TODO Re-enable insertion of <time>...</time> in markdown2html (?)
-      <time> should *not* be inserted inside previously existing <time> tags,
-      nor in HTML attributes.
-
-      <time> tag insertion was disabled since links to text documents in "The
-      Archive of Okrandian Canon" (e.g. the final link to an article {HolQeD}
-      8:1 on `/ref/color.html`) were messed up, by having <time> tags inserted
-      into the href of the link.
 ***** TODO Pages to update design of separately
       These pages still use and include:
       `pagestats.css`
@@ -1384,6 +1417,9 @@
 *** TODO Subarticle improvements
     I.e. the HTML pages linked to by the main article (e.g. the SkyBox
     articles).
+**** TODO "the Klingon Dictionary" correction [/canon/sbx-s31.html]
+     Initial lower case t should be marked for correction with <ins>/<del>
+     tags. (It occurs multiple times.)
 **** [100%] The "collector's list" links should be normal paragraph
      Not as now, a special centered top paragraph. Having a normal paragraph
      looks ok too, and cuts down on HTML in the markdown source.
@@ -2249,7 +2285,11 @@
     Is word "much" repeated twice? From HolQeD 1:1 p. 19. -- Yup. Word repeated
     twice in original HolQeD article. Also article is on pp. 19--20, and not
     just 19.
-** "Some Pictures of {pIqaD}"
+** "Some Pictures of {pIqaD}" [piq/]
+*** TODO Prefix table should use same HTML/CSS as dict/tables.html
+    Except, of course, for the fact that there are {pIqaD} images rather than
+    normal letters. Also, maybe use <span>...</span> for the alt texts,
+    instead of having an alt text per letter.
 *** [100%] Move article into writing/examples/ and clean up image names
     Need to get rid of ridiculous tab completion situation (There are
     files/dirs called pic/, piq/, piqad/, piqadpic/ and punct.txt... Baad when
@@ -2387,6 +2427,10 @@
      Klingon mode for Tengwar (Tolkien's alphabet)
 **** TODO Fetch http://www.trimboli.name/KlingonTengwar.html
      Klingon mode for Tengwar (Tolkien's alphabet)
+*** DONE Center prefix table in "Some Klingon GIF Fonts"
+    CLOSED: [2015-04-08 ons 18:59]
+    Prefix table in the reference table section is align left, but it should
+    be centered. Page: http://klingonska.lal/piq/index.html
 ** "Klingon Pocket Dictionary"
 *** Web page
 **** DONE index.cgi should work for new style sources
@@ -3806,6 +3850,7 @@
 ** "A Quick Reference to Adverbials in Klingon" [ref/adv]
 *** DONE Update list of adverbials
     CLOSED: [2013-04-02 Tue 05:27]
+*** TODO {ghaytanHa'} shouldn't be word wrapped in table on ref/adv.html
 ** "A Quick Reference to Time Expressions in Klingon" [ref/time]
 *** TODO Add days of week
 *** TODO Add {ngugh} adverbial
@@ -3838,9 +3883,13 @@
 *** Tables with suffixes should be linked
     CLOSED: [2011-07-03 Sun 04:00]
     http://klingonska.org/klo/tillagg-01.txt
-** "Om Klingonska Akademien" -- KA's Logo
-*** TODO Add the moon logos as thumnails on the page
-*** TODO Move all the logos to the pic directory?
+** "Om Klingonska Akademien" -- Photos from {qep'a' SochDIch}
+*** "Photos from {qep'a' SochDIch}"
+**** TODO Use <div class=gallery> on site/akademien/photos/2.txt
+
+*** "Klingonska Akademien's Logo"
+**** TODO Move all the logos to the pic directory?
+**** DONE Add the moon logos as thumnails on the page
 ** TODO Lesson list
    http://klingonska.org/lektioner/
 *** Should be listed
@@ -3948,6 +3997,14 @@
 ** `bin/check-html-nesting`
 *** TODO Should be able to cope with tags that does not require end tags.
 ** `bin/markdown2html`
+*** TODO Re-enable insertion of <time>...</time> in markdown2html (?)
+    <time> should *not* be inserted inside previously existing <time> tags, nor
+    in HTML attributes.
+
+    <time> tag insertion was disabled since links to text documents in "The
+    Archive of Okrandian Canon" (e.g. the final link to an article {HolQeD} 8:1
+    on `/ref/color.html`) were messed up, by having <time> tags inserted into
+    the href of the link.
 *** TODO Handle non-breaking spaces and en-dashes better
     When a browser see "--<nbsp>WORD" or "WORD<nbsp>--" they take the liberty
     of inserting linebreaks between <nbsp> and WORD, which looks ugly. To
@@ -4014,12 +4071,6 @@
      CLOSED: [2012-11-16 Fri 01:35]
      When first invoked `make auto` should do an ordinary make to get up to
      speed, then it should do the inotifywait thingy it already does.
-** TODO Replace 'includes/sorttable.js' with something that can be minified
-   It should also pass JSLint.
-
-   Note that some files (e.g. `punct.html` uses sorttable's
-   "sorttable_customkey" attribute, which will probably have to be rewritten if
-   `sorttable.js` is replaced.
 ** HTML preview tool for pocket dictionary (usr/bin/dict2paqhom-html)
 *** TODO Take input on STDIN instead of file
 *** TODO Join source references between sub-entries in pocket dict(?)
