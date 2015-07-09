@@ -2546,6 +2546,10 @@
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:16]
 **** [47%] lexicon.cgi
+***** TODO Search "tlh:*H* en:*'* -tlh:betleH" should result in matches
+      If one removes, or un-negates the last query word "-tlh:betleH" then the
+      above search return results, but with it nothing is found. This is quite
+      clearly a bug. :(
 ***** TODO take a look at why UTF-8 does not work on localhost
       It does work on klingonska.org, but not on localhost. Test search "råna".
 ***** TODO add proof of having TKD/TKW/KGT
@@ -2692,6 +2696,10 @@
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** `dict.zdb`
+**** TODO Tag for words which have an English 'transliteration' (e.g. kut'luch)
+     Words which do not have an English translation, but are 'transliterated'
+     e.g. kut'luch, bat'leth, zilm'kach etc should have a tag to distinguish
+     them.
 **** TODO Add links to Lawrence Schoen's {DaHjaj Hol} episodes
      Each word mentioned in a {DaHjaj Hol} should have a link, or some kind of
      identifier pointing out which episode contain more info. A special field?
