@@ -2696,10 +2696,6 @@
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** `dict.zdb`
-**** TODO Tag for words which have an English 'transliteration' (e.g. kut'luch)
-     Words which do not have an English translation, but are 'transliterated'
-     e.g. kut'luch, bat'leth, zilm'kach etc should have a tag to distinguish
-     them.
 **** TODO Add links to Lawrence Schoen's {DaHjaj Hol} episodes
      Each word mentioned in a {DaHjaj Hol} should have a link, or some kind of
      identifier pointing out which episode contain more info. A special field?
@@ -3573,6 +3569,11 @@
 ***** Add comments from glossary to the various words
 ***** Determine how canon source is
 ***** Add missing words to dictionary (if source is judged canon)
+**** DONE Tag for words which have an English 'transliteration' (e.g. kut'luch)
+     CLOSED: [2015-07-10 fre 02:22]
+     Added tags "Klingonism" (denoting that an English "translation" of the
+     word is just the Klingon word borrowed into English) and "Anglicism"
+     (denoting that the Klingon word is borrowed from English).
 **** DONE Add SHA1 metadata field
      CLOSED: [2012-11-05 Mon 06:21]
      This should be a SHA1 checksum (to simplify syncing for external clients)

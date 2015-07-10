@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    5883445a723468ce3e2e4f872bc9bf84436ebab2
+SHA1:    383812b591f2fd291c8ef657c4d209f9e5cfd585
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -383,6 +383,7 @@ once in the same entry).
 
     The following topics currently exist:
 
+    + `Anlicism` = The Klingon word is borrowed from English (e.g., {qa'vIn}).
     + `animal`
     + `architecture`
     + `body part`
@@ -395,6 +396,8 @@ once in the same entry).
     + `food`
     + `KLCP1` = The 502 basic words which one needs to know in order to pass
       the first level of KLI’s “Klingon Language Certification Program”.
+    + `Klingonism` = An English translation is borrowed from Klingon (e.g.,
+       ~bat'leth~).
     + `landscape`
     + `math`
     + `measure`
@@ -670,7 +673,7 @@ pos:	noun
 en:	type of <liquor>, <~bahgol~>
 sv:	en slags «sprit», «~bahgol~»
 def:	KGT
-tag:	1997
+tag:	1997; Klingonism
 id:	QHZ
 
 tlh:	[1] {baQ}
@@ -720,7 +723,7 @@ en:	«Barot»
 sv:	«Barot»
 def:	KGT p.182
 cite:	{tI'vIS barot puqloD} ~T'vis, son of Barot~ [KGT p.182]
-tag:	1997
+tag:	1997; Klingonism
 id:	HoG
 
 tlh:	{baS}
@@ -949,7 +952,7 @@ sv:	en slags «mineral», «~bekpuj~» (starkt orange till färgen)
 def:	KGT
 cite:	{Doq 'ej beqpuj rur} means ~(it) is {Doq} and resembles bekpuj~, a
 	common mineral that is bright orange. [KGT p.82]
-tag:	1997
+tag:	1997; Klingonism
 id:	ufG
 
 tlh:	{beQ}
@@ -990,7 +993,7 @@ en:	type of hand <weapon>, «~bat'leth~»
 sv:	ett slags hand«vapen», «~bat'leth~»
 def:	TKDa
 ref:	TKW p.79
-tag:	1992; fighting
+tag:	1992; fighting; Klingonism
 id:	j8C
 
 tlh:	{betleH «bey'»}
@@ -999,7 +1002,7 @@ en:	«~bat'leth~ display»
 sv:	¿?«~bat'leth~-ställ»
 def:	KCD
 ref:	KLINW
-tag:	1996; fighting
+tag:	1996; fighting; Klingonism
 data:	phrase
 id:	Wy7
 
@@ -1008,7 +1011,7 @@ pos:	noun
 en:	«Order of the «~Bat'leth~»»
 sv:	«~Bat'leth~-ordern» (ett ordensällskap)
 def:	KGT p.182
-tag:	1997
+tag:	1997; Klingonism
 data:	phrase
 id:	YAy
 
@@ -1054,7 +1057,7 @@ sv:	«B'Etor»
 def:	SBX-S26 (HolQeD-05-3-b); KGT p.197
 ref:	KLINW
 com:	B'Etor is one of the Duras sisters.
-tag:	1996
+tag:	1996; Klingonism
 id:	Y1F
 
 tlh:	{be'Hom}
@@ -1294,7 +1297,7 @@ pos:	noun
 en:	<~brak'lul~> (redundancy in body parts)
 sv:	«~brak'lul~» (dubbel uppsättning av kroppsorgan)
 def:	KGT
-tag:	1997
+tag:	1997; Klingonism
 id:	1dt
 
 tlh:	{bIreqtal}
@@ -1302,7 +1305,7 @@ pos:	noun
 en:	<~Brek'tal~ ritual>
 sv:	«~Brek'tal~ ritual»
 def:	KGT
-tag:	1997
+tag:	1997; Klingonism
 id:	MwK
 
 tlh:	{bIreQtagh}
@@ -1356,7 +1359,7 @@ en:	«~B'rel~ class» (vessel)
 sv:	«~B'rel~-klass» (av farkost)
 def:	BoP
 cite:	{Segh: bI'rel tlharghDuj} ~Model: B'rel Class Scout~ [BoP]
-tag:	1998
+tag:	1998; Klingonism
 id:	Nu7
 
 tlh:	{bI'reS}
@@ -1553,7 +1556,7 @@ pos:	noun
 en:	type of <animal>, <~bokrat~>
 sv:	ett slags «djur», «~bokrat~»
 def:	KGT
-tag:	1997; animal; food
+tag:	1997; animal; food; Klingonism
 id:	HdE
 
 tlh:	{boq «ru'»}
@@ -1766,7 +1769,7 @@ pos:	noun
 en:	<naturally produced «~qud~»>
 sv:	«naturligt framställd «~qud~»»
 def:	KGT
-tag:	1997
+tag:	1997; Klingonism
 data:	phrase
 id:	gVV
 
@@ -2271,7 +2274,7 @@ en:	«~cheb~» («unit» of «weight»)
 sv:	«~cheb~» («vikt«enhet»»)
 desc:	about 5 lb or 2.25 kg
 def:	1997-10-22-News
-tag:	1997; measure
+tag:	1997; Klingonism; measure
 id:	MhD
 
 tlh:	{cheb'a'}
@@ -2284,7 +2287,7 @@ cite:	(n) unit weight approx. 45--46.4 pounds (20.4--21.05 kg) (9--9.28 cheb)
 	[The numbers don't quite mesh, but this is the best I can figure from
 	different equivalences we've been given.] [BoP poster] (Added: 12 March
 	2002) [KLINW]
-tag:	1997; measure
+tag:	1997; Klingonism; measure
 id:	LL3
 
 tlh:	{chech}
@@ -2300,7 +2303,7 @@ pos:	noun
 en:	type of <liquor>, <~chech'tluth~>
 sv:	en slags «sprit», «~chech'tluth~»
 def:	KGT
-tag:	1997; food
+tag:	1997; food; Klingonism
 id:	rZV
 meta:	Entries differ in source. The spelling "~baceh'tluth~" found in KGT K-E
 	is presumed an error and not included here.
@@ -2363,7 +2366,7 @@ en:	type of <animal>, «~chemvah~»
 sv:	ett slags «djur», «~chemvah~»
 def:	KGT
 com:	Klingon females sound like this animal when courting a potential mate.
-tag:	1997; animal
+tag:	1997; animal; Klingonism
 id:	ezA
 
 tlh:	{chen}
@@ -2403,7 +2406,7 @@ pos:	name
 en:	«Chang»
 sv:	«Chang»
 def:	ST6; KGT p.52
-tag:	1991
+tag:	1991; Klingonism
 id:	2SE
 
 tlh:	{chep}
@@ -2461,7 +2464,7 @@ pos:	noun
 en:	«~chetvi~», <spear-throwing device>
 sv:	«~chetvi~», «spjutslunga»
 def:	KGT
-tag:	1997; fighting
+tag:	1997; fighting; Klingonism
 id:	8bU
 meta:	The word "~chetvi~" found in definition of {wob} in KGT K-E.
 
@@ -3246,7 +3249,7 @@ pos:	noun
 en:	<warrior's <knife>>, <~d'k tahg~>
 sv:	«krigares «kniv»», «~d'k tahg~»
 def:	KGT
-tag:	1997
+tag:	1997; Klingonism
 id:	dbQ
 
 tlh:	{DaQ}
@@ -3280,7 +3283,7 @@ pos:	noun
 en:	<~darsek~> (<unit> of <currency>)
 sv:	«~darsek~» («valuta«enhet»»)
 def:	KGT
-tag:	1997; economics; measure
+tag:	1997; economics; Klingonism; measure
 id:	MWJ
 meta:	In KGT as "~darsek,~ unit of currency (n)", here changed slightly to
 	reseble the other units.
@@ -3383,7 +3386,7 @@ sv:	«Lady Di»
 def:	RT
 cite:	{DaH nuq ta'pu' Day joH?} ~What has Lady Di done now?~ (~What has
 	Lord/Lady Di accomplished now?~) [RT]
-tag:	1996
+tag:	1996; Anglicism
 data:	phrase
 id:	SdJ
 
@@ -3733,8 +3736,11 @@ sv:	«trillium»
 def:	TKD
 com:	Trillium. Gemstone traded on planet Organia [STE]. Mentioned in TOS
 	"Errand of Mercy" and DS9 "Trials and Tribble-ations".
-tag:	1985
+tag:	1985; Anglicism
 id:	xDD
+meta:	One might argue that the word is actually a Klingonism (i.e. borrowed
+	from Klingon into English) but with a prefix like "tri-" it seems far
+	more likely that {DIlyum} is derived from the English word.
 
 tlh:	{DIn}
 pos:	noun
@@ -4029,7 +4035,7 @@ pos:	noun
 en:	«velocity «restaurant»», «fast-food restaurant», «~Dok'e~»
 sv:	«hastighets«restaurang»», «snabbmatsservering», «~Dok'e~»
 def:	KGT pp.102, 103 et al.
-tag:	1997; food
+tag:	1997; food; Klingonism
 data:	phrase
 id:	n5h
 meta:	This entry combines information from KGT p.102 and entry on {tebwI'} in
@@ -4337,7 +4343,7 @@ en:	«Duras»
 sv:	«Duras»
 def:	SBX-S26 (HolQeD-05-3-b)
 ref:	HolQeD-05-3-b p.15
-tag:	1996
+tag:	1996; Klingonism
 id:	9hz
 
 tlh:	{DuS}
@@ -4611,7 +4617,7 @@ en:	«Gowron»
 sv:	«Gowron»
 def:	SBX-S25 (HolQeD-05-3-b); SBX-S26 (HolQeD-05-3-b); KGT pp.25, 26, 197,
 	198
-tag:	1996
+tag:	1996; Klingonism
 id:	Czk
 
 tlh:	[1] {ghaw'}
@@ -4619,7 +4625,7 @@ pos:	noun
 en:	<~igvah~> liver soup
 sv:	«~igvah~»-leversoppa
 def:	KGT
-tag:	1997
+tag:	1997; Klingonism
 id:	FN6
 
 tlh:	[2] {ghaw'}
@@ -4820,7 +4826,7 @@ en:	<~Gre'thor~> (where spirits of dishonored go)
 sv:	«~Gre'thor~» (där de vanärades själar hamnar)
 def:	KGT
 com:	mythological place; similar to Hell
-tag:	1997; religion
+tag:	1997; Klingonism; religion
 id:	z5y
 meta:	FIXME -- Should be merged with {ghe''or}, or should one of these words
 	be deprecated?
@@ -4937,7 +4943,7 @@ sv:	«strids«spjut»», «~gin'tak~»
 def:	KGT
 com:	An advisor to a house so trusted that he becomes a part of the family
 	is called *gin'tak* (TNG "Firstborn").
-tag:	1997; fighting
+tag:	1997; fighting; Klingonism
 id:	BMV
 
 tlh:	{ghIpDIj}
@@ -4994,7 +5000,7 @@ pos:	name
 en:	«Grilka»
 sv:	«Grilka»
 def:	KGT p.41
-tag:	1997
+tag:	1997; Klingonism
 id:	tYg
 
 tlh:	{ghISDen}
@@ -6044,7 +6050,7 @@ sv:	«Henrik»
 def:	KGT pp.125--126
 cite:	In Shakespeare's original Klingon version of {HenrI' vagh}, known in
 	Federation Standard as <Henry V> [...] [KGT p.125--126]
-tag:	1997
+tag:	1997; Anglicism
 id:	auu
 
 tlh:	{Heng}
@@ -6743,8 +6749,8 @@ id:	eSL
 
 tlh:	{Ho' 'etlh}
 pos:	noun
-en:	«serrated blade» (e.g., ~kut'luch~)
-sv:	«sågtandat blad» (t.ex. ~kut'luch~)
+en:	«serrated blade» (e.g., on ~kut'luch~ knife)
+sv:	«sågtandat blad» (t.ex. på ~kut'luch~-kniv)
 def:	KGT p.61
 tag:	1997
 data:	phrase
@@ -6913,7 +6919,7 @@ cite:	I didn't read that section of the opera [{'u'}] myself, but I think I
 	the animal had been given a {tlhIngan Hol} rendering in Keith
 	DeCandido's book "A Burning House", Marc Okrand decided to use the
 	already published spelling. [2011-08-22-Email]
-tag:	2011; animal
+tag:	2011; animal; Klingonism
 id:	wqK
 
 tlh:	{Hung}
@@ -7001,7 +7007,7 @@ pos:	name
 en:	«Huss»
 sv:	«Huss»
 def:	KGT p.197
-tag:	1997
+tag:	1997; Klingonism
 id:	Fp5
 
 tlh:	{Hut}
@@ -7258,7 +7264,7 @@ cite:	{DaH che' ghawran. yejquv DevwI' moj ghawran 'e' wuqta' cho' 'oDwI'
 	Dapu'bogh janluq pIqarD HoD.} ~Gowron currently presides, named leader
 	of the High Council by Captain Jean-Luc Picard, who was acting as
 	Arbiter of Succession.~ [SBX-S25]
-tag:	1996
+tag:	1996; Anglicism
 data:	non-phonotactic; phrase; {janluq} (name); {pIqarD} (name)
 id:	qLh
 
@@ -7562,7 +7568,7 @@ sv:	«James T. Kirk»
 def:	ST5 (HolQeD-08-4-b p.12)
 cite:	{jemS tIy qIrq. loDHom jIHDI' qIrq qun vIqImchoH.} ~James T. Kirk. I've
 	followed his history since I was a boy.~ [ST5]
-tag:	1989
+tag:	1989; Anglicism
 data:	non-phonotactic; phrase; {jemS} (name); {tIy} (name); {qIrq} (name)
 id:	uKp
 
@@ -8109,7 +8115,7 @@ id:	jEz
 tlh:	{joQ} [.2]
 pos:	noun
 en:	<strip of material> in a «~susdek~» instrument
-sv:	«tygremsa» i ett «~susdek~» instrument
+sv:	«tygremsa» i ett «~susdek~»-instrument
 def:	KGT
 tag:	1997; music
 id:	Xjs
@@ -8934,7 +8940,7 @@ pos:	noun
 en:	type of <animal>, <~lingta~>
 sv:	ett slags «djur», «~lingta~»
 def:	KGT
-tag:	1997; animal; food
+tag:	1997; animal; food; Klingonism
 id:	nme
 
 tlh:	{lIngwI'}
@@ -9573,7 +9579,7 @@ pos:	noun
 en:	type of <animal>, «dragon», «~loong~» (lizardlike)
 sv:	ett slags «djur», «drake», «~loong~» (ödleliknande)
 def:	KGT pp.48--49
-tag:	1997; animal
+tag:	1997; animal; Klingonism
 id:	qSy
 
 tlh:	[1] {lup}
@@ -9659,7 +9665,7 @@ en:	«Lursa»
 sv:	«Lursa»
 def:	SBX-S26 (HolQeD-05-3-b); KGT p.197
 com:	Lursa is one of the Duras sisters.
-tag:	1996
+tag:	1996; Klingonism
 id:	1NQ
 
 tlh:	{luSpet}
@@ -9869,7 +9875,7 @@ en:	«Mara»
 sv:	«Mara»
 def:	TKD 5.6/p.58
 com:	From TOS "Day of the Dove", she is Kang's wife and science officer.
-tag:	1985
+tag:	1985; Klingonism
 id:	Tfz
 
 tlh:	{martaq}
@@ -9877,7 +9883,7 @@ pos:	name
 en:	«Martok»
 sv:	«Martok»
 def:	KGT p.198
-tag:	1997
+tag:	1997; Klingonism
 id:	UbS
 
 tlh:	{marwI'}
@@ -9945,7 +9951,7 @@ pos:	name
 en:	«Maltz»
 sv:	«Maltz»
 def:	TKD 5.6/p.58
-tag:	1985
+tag:	1985; Klingonism
 id:	e6g
 
 tlh:	{matlhHa'}
@@ -10081,7 +10087,7 @@ def:	Praxis (1999-02-12-Email)
 ref:	KLINW
 com:	Seen in DS9 "Sons of Mogh". English spelling (according to STE) is
 	~mevak~.
-tag:	1998; religion
+tag:	1998; Klingonism; religion
 id:	QzH
 
 tlh:	{meb}
@@ -10159,7 +10165,7 @@ en:	«Melota»
 sv:	«Melota»
 def:	TKW p.187
 com:	Name from a famous Klingon opera.
-tag:	1996
+tag:	1996; Klingonism
 id:	Nhh
 
 tlh:	{mem}
@@ -10213,7 +10219,7 @@ en:	type of <legal proceeding>, «~Mek'ba~»
 sv:	ett slags «rättegångsförfarande», «~Mek'ba~»
 def:	TKDa
 com:	Portion of the trial or appeal where evidence is heard.
-tag:	1992
+tag:	1992; Klingonism
 id:	ZG6
 meta:	Translation "~Mek'ba~" taken from STE.
 
@@ -10224,7 +10230,7 @@ sv:	ett slags «vapen», «~mek'leth~»
 def:	KGT
 com:	The short sword thing that Worf uses on DS9 and in the movie "First
 	Contact".
-tag:	1997; fighting
+tag:	1997; fighting; Klingonism
 id:	Amq
 
 tlh:	{meqro'vaq}
@@ -10232,7 +10238,7 @@ pos:	noun
 en:	«Mekro'vak» (region)
 sv:	«Mekro'vak» (region)
 def:	KGT p.29
-tag:	1997
+tag:	1997; Klingonism
 id:	2iS
 
 tlh:	{meQ}
@@ -10516,7 +10522,7 @@ com:	"This is also one of the rare cases where we know the {tlhIngan Hol}
 	spelling of a Klingon name but not the "Paramount {Hol}" - M'Stak (?)."
 	/Email 2008-01-28 (by Steven Boozer, to tlhingan-hol, "Re: KCD IP set
 	#1")
-tag:	1996
+tag:	1996; Klingonism
 id:	yx4
 
 tlh:	{mIv} [.1]
@@ -10656,7 +10662,7 @@ pos:	name
 en:	«Mogh»
 sv:	«Mogh»
 def:	KGT pp.41, 197
-tag:	1997
+tag:	1997; Klingonism
 id:	7c4
 
 tlh:	{moH} [.1]
@@ -10745,7 +10751,7 @@ def:	1997-09-01a-News
 ref:	KGT p.130
 com:	Molor is the nemesis of Kahless the Unforgettable, and an important
 	Klingon mythological figure.
-tag:	1997; religion
+tag:	1997; Klingonism; religion
 id:	Fms
 
 tlh:	[1] {mon}
@@ -10831,7 +10837,7 @@ pos:	noun
 en:	<martial arts> form, <~Mok'bara~>
 sv:	«stridskonstform», «kampkonstform», «~Mok'bara~»
 def:	TKW p.199; KGT
-tag:	1996; fighting
+tag:	1996; fighting; Klingonism
 id:	xhH
 
 tlh:	{morgh}
@@ -12461,7 +12467,7 @@ cite:	"A shark is an Earth animal, a huge fish... you know, fish?" He racked
 	his brain for the Klingon word. "An animal that swims in the sea, a
 	dangerous predator, you know?" "Oh!" she cried. "you mean ~norgh?~"
 	[Sarek p.218]
-tag:	1997; animal
+tag:	1997; animal; Klingonism
 id:	sA3
 
 tlh:	{noS}
@@ -15063,9 +15069,10 @@ en:	<serpent worm> (as food), «~gagh~»
 sv:	«orm-mask» (som mat), «~gagh~»
 def:	TKDa
 ref:	TKW pp.137, 141
-tag:	1992; food
+tag:	1992; food; Klingonism
 id:	17D
-meta:	The word "~gagh~" found in definition of {ghevI'} in KGT.
+meta:	Translation "~gagh~" taken from dictionary entry {ghevI'} ~sauce for
+	<gagh> (n)~ [KGT K-E, E-K]
 
 tlh:	{qaghwI'}
 pos:	noun
@@ -15153,7 +15160,7 @@ pos:	name
 en:	«Kahmor»
 sv:	«Kahmor»
 def:	KGT p.198
-tag:	1997
+tag:	1997; Klingonism
 id:	JKz
 
 tlh:	[1] {qan}
@@ -15267,7 +15274,7 @@ pos:	name
 en:	«Kargan»
 sv:	«Kargan»
 def:	SBX-S07 (HolQeD-04-3-a)
-tag:	1995
+tag:	1995; Klingonism
 id:	6hY
 
 tlh:	{qaryoq}
@@ -15514,16 +15521,22 @@ pos:	noun
 en:	«hoop-and-stick maneuver», <~qa'vak~> (traditional <game>)
 sv:	«käpp-och-tunnbands-övning», «~qa'vak~» (traditionell «lek»)
 def:	TKW p.199; KGT
-tag:	1996
+tag:	1996; Klingonism
 id:	Lus
 
 tlh:	{qa'vIn}
 pos:	noun
 en:	<coffee>, type of <beverage>
 sv:	«kaffe», ett slags «dryck»
-def:	KGT
-pun:	Probably intended as a word borrowed from English.
-tag:	1997; food
+def:	HolQeD-04-2-b p.7, KGT
+cite:	For example, one language may borrow (and, in the process, phonetically
+	modify) a word for a concept it lacks [...] Klingon {qa'vIn}
+	(~coffee~), which seems to be taken from Federation Standard
+	~caffeine~. [KGT p.205]
+com:	Though likely coincidental, it is interesting to note that the Finnish
+	word for coffee, ~kahvi~ (or ~kahvin~ in the genetive), is frightfully
+	similar to {qa'vIn}.
+tag:	1995; Anglicism; food
 id:	C2D
 meta:	Entries differ and have been combined here.
 
@@ -15590,7 +15603,7 @@ en:	<~kellicam~> («unit» of «length»)
 sv:	«~kellicam~» («längd«enhet»»)
 desc:	about 2 km
 def:	TKD; STE
-tag:	1985; measure
+tag:	1985; Klingonism; measure
 id:	LbF
 meta:	In TKD translated as "kellicam (n)", added "unit of length" for clarity
 	here. TKD E-K has a quite obvious misspelling of the Klingon word as
@@ -15637,7 +15650,7 @@ sv:	«Kang»
 def:	TKD 5.6/p.58
 ref:	TKW p.11; KGT p.52
 com:	Kang first appeared in TOS "Day of the Dove".
-tag:	1985
+tag:	1985; Klingonism
 id:	AbT
 
 tlh:	{qep}
@@ -15730,8 +15743,10 @@ sv:	«kevas»
 def:	TKD
 cite:	Kevas. Gemstone traded on planet Organia. [STE]
 com:	Mentioned in TOS "Errand of Mercy" and DS9 "Trials and Tribble-ations".
-tag:	1985
+tag:	1985; Anglicism; Klingonism
 id:	37U
+meta:	It is unclear whether this is a Klingonism (a Klingon word borrowed
+	into English) or an Anglicism (an English word borrow into Klingon).
 
 tlh:	{qevpob}
 pos:	noun
@@ -15762,7 +15777,7 @@ pos:	name
 en:	«Kahlin»
 sv:	«Kahlin»
 def:	1997-09-01a-News
-tag:	1997
+tag:	1997; Klingonism
 id:	kRi
 
 tlh:	{qeylIS}
@@ -15771,7 +15786,7 @@ en:	«Kahless»
 sv:	«Kahless»
 def:	TKD 5.6/p.58
 com:	Kahless the Unforgettable is an important Klingon mythological figure.
-tag:	1985; religion
+tag:	1985; Klingonism; religion
 id:	Rvn
 
 tlh:	{qeylIS betleH}
@@ -15798,7 +15813,7 @@ pos:	name
 en:	«Kahlor»
 sv:	«Kahlor»
 def:	1997-09-01a-News
-tag:	1997
+tag:	1997; Klingonism
 id:	cwL
 
 tlh:	{qeyvaq}
@@ -15812,7 +15827,7 @@ cite:	Fermented meat is also known as {qeyvaq Ha'DIbaH} (~Kayvak's food~),
 	the word {Ha'DIbaH} (~meat~), as in {qeyvaq lIngta'} (~Kayvak's
 	lingta~). The Kayvak naming style does not apply to fermented plants;
 	its use is restricted to meat. [KGT pp.91--92]
-tag:	1997; food
+tag:	1997; food; Klingonism
 id:	kP5
 
 tlh:	{qe'rot 'oQqar}
@@ -15933,7 +15948,7 @@ pos:	name
 en:	«K'mlak»
 sv:	«K'mlak»
 def:	KGT p.53
-tag:	1997
+tag:	1997; Klingonism
 id:	cCf
 
 tlh:	{qIp}
@@ -15959,7 +15974,7 @@ en:	«Kirk»
 sv:	«Kirk»
 def:	ST5 (HolQeD-08-4-b p.12)
 cite:	{'entepray''a'? qIrq Duj 'oH.} ~Enterprise? That's Kirk's ship.~ [ST5]
-tag:	1989
+tag:	1989; Anglicism
 data:	non-phonotactic
 id:	BQV
 
@@ -15976,7 +15991,7 @@ pos:	noun
 en:	<~K'Tinga~ class> (vessel)
 sv:	«~K'Tinga~-klass» (av farkost)
 def:	KGT
-tag:	1997
+tag:	1997; Klingonism
 id:	goC
 
 tlh:	{qIv}
@@ -16002,7 +16017,7 @@ pos:	noun
 en:	<~K'Vort~ class> (vessel)
 sv:	«~K'Vort~-klass» (av farkost)
 def:	KGT
-tag:	1997
+tag:	1997; Klingonism
 id:	26A
 
 tlh:	{qI'}
@@ -16018,7 +16033,7 @@ pos:	name
 en:	«K'mpec»
 sv:	«K'mpec»
 def:	HolQeD-10-2 p.8
-tag:	2001
+tag:	2001; Klingonism
 id:	6hZ
 
 tlh:	{qoch}
@@ -16086,7 +16101,7 @@ pos:	name
 en:	«Koloth»
 sv:	«Koloth»
 def:	TKD 5.6/p.58
-tag:	1985
+tag:	1985; Klingonism
 id:	cBp
 
 tlh:	{qolqoS}
@@ -16164,7 +16179,7 @@ en:	«Kor»
 sv:	«Kor»
 def:	TKD 5.6/p.58
 ref:	KGT p.198
-tag:	1985
+tag:	1985; Klingonism
 id:	whF
 
 tlh:	{qorDu'}
@@ -16181,7 +16196,7 @@ pos:	name
 en:	«Korax»
 sv:	«Korax»
 def:	TKD 5.6/p.58
-tag:	1985
+tag:	1985; Klingonism
 id:	UcL
 
 tlh:	{qorgh}
@@ -16276,7 +16291,7 @@ def:	KGT p.41
 cite:	[...] members of the lower classes are called only by their given names
 	or by their fathers' names ({mogh puqloD} [~Son of Mogh~]; {qo'leq
 	puqbe'} [~Daughter of Ko'lek~]). [KGT p.41]
-tag:	1997
+tag:	1997; Klingonism
 id:	NNb
 
 tlh:	{qo'qaD}
@@ -16514,10 +16529,10 @@ id:	KEr
 
 tlh:	{qutluch}
 pos:	noun
-en:	type of hand <weapon>, «~kut'luch~» (traditional assassin's knife)
-sv:	ett slags hand«vapen», «~kut'luch~» (traditionell lönnmördarkniv)
+en:	type of hand <weapon>, «~kut'luch~» (traditional assassin's «knife»)
+sv:	ett slags hand«vapen», «~kut'luch~» (traditionell lönnmördar«kniv»)
 def:	TKDa; TKW p.103; STE
-tag:	1992; fighting
+tag:	1992; fighting; Klingonism
 id:	kzr
 
 tlh:	{qutluch tay}
@@ -16525,7 +16540,7 @@ pos:	noun
 en:	«~Kut'luch~ ceremony»
 sv:	«~Kut'luch~-ceremoni»
 def:	KGT p.62
-tag:	1997; fighting; religion
+tag:	1997; fighting; Klingonism; religion
 data:	phrase; derived form
 id:	Gzc
 
@@ -16777,7 +16792,7 @@ pos:	noun
 en:	type of <animal>, <~kradge~>
 sv:	ett slags «djur», «~kradge~»
 def:	KGT
-tag:	1997; animal
+tag:	1997; animal; Klingonism
 id:	5AT
 
 tlh:	{Qaj tlhuQ}
@@ -16785,7 +16800,7 @@ pos:	noun
 en:	type of <food>, «~kradge~ tail»
 sv:	en slags «mat», «~kradge~-svans»
 def:	KGT
-tag:	1997; food
+tag:	1997; food; Klingonism
 data:	phrase
 id:	cn8
 
@@ -16897,7 +16912,7 @@ pos:	name
 en:	«Kras»
 sv:	«Kras»
 def:	TKD 5.6/p.58
-tag:	1985
+tag:	1985; Klingonism
 id:	fZV
 
 tlh:	{Qat}
@@ -17014,7 +17029,7 @@ pos:	noun
 en:	type of <animal>, <~ka'raj~>
 sv:	ett slags «djur», «~ka'raj~»
 def:	KGT
-tag:	1997; animal
+tag:	1997; animal; Klingonism
 id:	Wsz
 meta:	Entries differ and have been combined here.
 
@@ -17096,7 +17111,7 @@ pos:	name
 en:	«Krell»
 sv:	«Krell»
 def:	TKD 5.6/p.58
-tag:	1985
+tag:	1985; Klingonism
 id:	UWe
 
 tlh:	{QemjIq}
@@ -17324,7 +17339,7 @@ com:	The English accompanying the opera said "Krincha, short and fierce". I
 	four or six legs. I suspect that the opera's author intended to invoke
 	that animal but misspelled its name. /Alan Anderson (talking about the
 	Klingon opera {'u'})
-tag:	2011; animal
+tag:	2011; animal; Klingonism
 id:	4XW
 
 tlh:	{QIn pup}
@@ -17686,7 +17701,7 @@ sv:	«Krotmag»
 def:	KGT p.17
 com:	The leader of a powerful house who, centuries ago, conquered
 	neighboring areas. {Qotmagh Sep} was named after him.
-tag:	1997
+tag:	1997; Klingonism
 id:	2FJ
 
 tlh:	{Qotmagh Sep}
@@ -17797,7 +17812,7 @@ en:	«Kruge»
 sv:	«Kruge»
 def:	TKD 5.6/p.58
 ref:	KGT p.41
-tag:	1985
+tag:	1985; Klingonism
 id:	bHL
 
 tlh:	{Quj} [1]
@@ -18018,7 +18033,7 @@ pos:	noun
 en:	type of <food>, «~racht~»
 sv:	en slags «mat», «~racht~»
 def:	KGT
-tag:	1997; food
+tag:	1997; food; Klingonism
 id:	2TJ
 
 tlh:	{ral}
@@ -19138,7 +19153,7 @@ en:	type of <animal>, <~sark~>
 sv:	ett slags «djur», «~sark~»
 def:	KGT
 com:	"A Klingon Sark"---a riding animal similar to a horse. (TNG "Pen Pals")
-tag:	1997; animal
+tag:	1997; animal; Klingonism
 id:	1Lb
 meta:	Entries differ and have been combined here.
 
@@ -19368,7 +19383,7 @@ pos:	noun
 en:	type of <gemstone>, «~separ~»
 sv:	ett slags «ädelsten», «~separ~»
 def:	KGT p.127 et al.
-tag:	1997
+tag:	1997; Klingonism
 id:	C9U
 
 tlh:	{Seq}
@@ -20215,11 +20230,13 @@ id:	2NG
 
 tlh:	{SuSDeq}
 pos:	noun
-en:	<windbag>, <bellows>
-sv:	«vindsäck», «bälg», «blåsbälg»
+en:	<windbag>, <bellows>, «~susdek~» instrument
+sv:	«vindsäck», «bälg», «blåsbälg», «~susdek~»-instrument
 def:	KGT
-tag:	1997
+tag:	1997; Klingonism
 id:	fCL
+meta:	Translation "~susdek~ instrument" taken from dictionary entry {joQ}
+	~strip of material in a <susdek> instrument (n)~ [KGT K-E, E-K]
 
 tlh:	{Sut}
 pos:	noun
@@ -20334,7 +20351,7 @@ pos:	noun
 en:	type of <animal>, <~shooy~>
 sv:	ett slags «djur», «~shooy~»
 def:	KGT
-tag:	1997; animal
+tag:	1997; animal; Klingonism
 id:	ZxR
 
 tlh:	{Su'}
@@ -20754,7 +20771,7 @@ pos:	noun
 en:	type of <animal>, «~teg'bat~»
 sv:	ett slags «djur», «~teg'bat~»
 def:	KGT
-tag:	1997; animal
+tag:	1997; animal; Klingonism
 id:	Acv
 
 tlh:	{teH}
@@ -21161,7 +21178,7 @@ pos:	noun
 en:	type of <animal>, «~tknag~»
 sv:	ett slags «djur», «~tknag~»
 def:	KGT
-tag:	1997; animal
+tag:	1997; animal; Klingonism
 id:	SgP
 
 tlh:	{tIqnagh lemDu'}
@@ -21169,7 +21186,7 @@ pos:	noun
 en:	type of «food», «~tknag~ hooves», (always referred to in plural)
 sv:	en slags «mat», «~tknag~-hovar», (refereras alltid till i plural)
 def:	KCD
-tag:	1996; food
+tag:	1996; food; Klingonism
 data:	phrase
 id:	91j
 
@@ -21237,7 +21254,7 @@ pos:	name
 en:	«T'Ong» (a ship)
 sv:	«T'Ong» (ett skepp)
 def:	SBX-S15 (HolQeD-04-3-a)
-tag:	1995
+tag:	1995; Klingonism
 id:	fPs
 
 tlh:	{tI'qa' vIghro'}
@@ -21245,7 +21262,7 @@ pos:	noun
 en:	type of <animal>, <~tika~ cat>
 sv:	ett slags «djur», «~tika~ katt»
 def:	KGT
-tag:	1997; animal
+tag:	1997; animal; Klingonism
 data:	phrase; {tI'qa'} (n)
 id:	tDU
 
@@ -21255,7 +21272,7 @@ en:	«T'vis»
 sv:	«T'vis»
 def:	KGT p.182
 cite:	{tI'vIS barot puqloD} ~T'vis, son of Barot~ [KGT p.182]
-tag:	1997
+tag:	1997; Klingonism
 id:	aij
 
 tlh:	{tI'wI'}
@@ -21394,7 +21411,7 @@ en:	type of <animal>, «~topah~»
 sv:	ett slags «djur», «~topah~»
 def:	KGT
 ref:	KGT p.132
-tag:	1997; animal
+tag:	1997; animal; Klingonism
 id:	iEF
 
 tlh:	{toq}
@@ -21470,7 +21487,7 @@ pos:	name
 en:	«Torg»
 sv:	«Torg»
 def:	TKD 5.6/p.58
-tag:	1985
+tag:	1985; Klingonism
 id:	AM4
 
 tlh:	{toS}
@@ -21536,7 +21553,7 @@ pos:	noun
 en:	type of <animal>, «~tobbaj~»
 sv:	ett slags «djur», «~tobbaj~»
 def:	KGT
-tag:	1997; animal
+tag:	1997; animal; Klingonism
 id:	jWZ
 
 tlh:	{to'waQ}
@@ -22007,7 +22024,7 @@ pos:	noun
 en:	type of <food>, <~gladst~>
 sv:	en slags «mat», «~gladst~»
 def:	KGT
-tag:	1997; food
+tag:	1997; food; Klingonism
 id:	bAV
 
 tlh:	{tlhaw'}
@@ -22047,7 +22064,7 @@ pos:	name
 en:	«Klaa»
 sv:	«Klaa»
 def:	KGT pp.52, 198
-tag:	1997
+tag:	1997; Klingonism
 id:	d5m
 
 tlh:	{tlheD}
@@ -22223,7 +22240,7 @@ sv:	en slags «mat», «~zilm'kach~»
 def:	KGT
 cite:	~zilm'kach~ ({tlhImqaH}) Food made from something orange. [First seen
 	in "Melora" (DS9).] [DI p.246]
-tag:	1997; food
+tag:	1997; food; Klingonism
 id:	4z8
 
 tlh:	{tlhIngan}
@@ -22336,7 +22353,7 @@ sv:	«Cleopatra»
 def:	KGT p.110
 cite:	[...] first heard in a speech in the original Klingon version of
 	Shakespeare's ~{'antonI' tlhI'yopatra' je}~ [...] [KGT p.110]
-tag:	1997
+tag:	1997; Anglicism
 id:	Syb
 
 tlh:	{tlhob}
@@ -22709,7 +22726,7 @@ pos:	name
 en:	«Valkris»
 sv:	«Valkris»
 def:	TKD 5.6/p.58
-tag:	1985
+tag:	1985; Klingonism
 id:	hMD
 
 tlh:	{van} [1.1]
@@ -23063,7 +23080,7 @@ sv:	«djävul», «demon», «~Fek'lhr~»
 def:	TKDa; KCD
 ref:	TKW p.197; HolQeD-12-3 p.9
 cite:	The beast who guards the dwelling place of the dishonored dead [KCD]
-tag:	1992; religion
+tag:	1992; Klingonism; religion
 id:	4J2
 
 tlh:	{veQ}
@@ -23189,7 +23206,7 @@ pos:	noun
 en:	type of <animal>, «~v'gro~» (like a «cat»)
 sv:	ett slags «djur», «~v'gro~» («katt»lik)
 def:	KGT
-tag:	1997; animal
+tag:	1997; animal; Klingonism
 id:	kco
 
 tlh:	{vIH}
@@ -23294,7 +23311,7 @@ pos:	name
 en:	«Vixis»
 sv:	«Vixis»
 def:	KGT p.197
-tag:	1997
+tag:	1997; Klingonism
 id:	KMo
 
 tlh:	{vIraS}
@@ -24188,7 +24205,7 @@ pos:	verb
 en:	<hurl> a spear by means of a «~chetvi~»
 sv:	«kasta» spjut med en «~chetvi~»
 def:	KGT
-tag:	1997; fighting
+tag:	1997; fighting; Klingonism
 id:	hAc
 
 tlh:	{woch}
@@ -24281,7 +24298,7 @@ pos:	noun
 en:	<~warnog~>, Klingon <ale>
 sv:	«~warnog~», klingonskt «öl»
 def:	KGT
-tag:	1997
+tag:	1997; Klingonism
 id:	7CS
 
 tlh:	{woS}
@@ -24340,7 +24357,7 @@ pos:	name
 en:	«Worf»
 sv:	«Worf»
 def:	SBX-S08 (HolQeD-04-3-a); SBX-S20 (HolQeD-05-2-b)
-tag:	1995
+tag:	1995; Klingonism
 id:	P3L
 
 tlh:	{wo' tay'}
@@ -25397,7 +25414,7 @@ sv:	«Antonius»
 def:	KGT p.110
 cite:	[...] first heard in a speech in the original Klingon version of
 	Shakespeare's ~{'antonI' tlhI'yopatra' je}~ [...] [KGT p.110]
-tag:	1997
+tag:	1997; Anglicism
 id:	BUm
 
 tlh:	{'anyan 'oQqar}
@@ -25479,7 +25496,7 @@ en:	«Aktuh»
 sv:	«Aktuh»
 def:	TKW p.187; KGT p.49
 com:	Name from a famous Klingon opera.
-tag:	1996
+tag:	1996; Klingonism
 id:	u9c
 
 tlh:	{'aqtu' mellota' je}
@@ -25549,7 +25566,7 @@ pos:	name
 en:	«A'trom»
 sv:	«A'trom»
 def:	KGT p.197
-tag:	1997
+tag:	1997; Klingonism
 id:	ueG
 
 tlh:	{'atlhqam}
@@ -25793,7 +25810,7 @@ cite:	{tera' vatlh DISpoH cha'maH loS bong QongmeH qItI'nga' Duj tI'ang
 	ghompu' DIvI' 'ejDo' 'entepray'.} ~A sleeper ship of this class, the
 	T'Ong, was encountered in the 24th century by the U.S.S. Enterprise.~
 	[SBX-S15]
-tag:	1989
+tag:	1989; Anglicism
 id:	mBw
 
 tlh:	{'eng}
@@ -26006,7 +26023,7 @@ cite:	For example, throughout the Empire, a soup whose main component is
 	insecure" and is a word used only as an insult. To refer to the soup,
 	one simply says {'IghvaH chej chatlh} (literally, "~igvah~ liver
 	soup"). [KGT p.30]
-tag:	1997; animal
+tag:	1997; animal; Klingonism
 id:	YVP
 
 tlh:	{'IH}
@@ -26636,7 +26653,7 @@ cite:	{qughtaHvIS toQDuj HutmaH vI' jav wa' 'uj 'ab 'oH} ~Cruise Formation
 cite:	{SaqtaHvIS toQDuj wa'vatlh loS vI' jav chorgh 'uj 'ab 'oH} ~Landing
 	Formation Height: 36.46M~ [BoP]
 com:	More exactly one ~uj~ is 34.83 cm (as caculated from usage on BoP).
-tag:	1997; measure
+tag:	1997; Klingonism; measure
 id:	onN
 meta:	In KGT the words "linear measure" are used, but they have been changed
 	to "length" here (for brevity and clarity).
@@ -26648,7 +26665,7 @@ sv:	stor «~uj~» («längd«enhet»»)
 desc:	9 ~uj~ = about 10′4″ or 315 cm
 def:	1999-02-03-News
 ref:	TDNW
-tag:	1999; measure
+tag:	1999; Klingonism; measure
 id:	Wrf
 
 tlh:	{'ul}
@@ -26721,7 +26738,7 @@ pos:	noun
 en:	<artificially produced «~qud~»>
 sv:	«artificiellt framställd «~qud~»»
 def:	KGT
-tag:	1997
+tag:	1997; Klingonism
 data:	phrase
 id:	rSy
 
