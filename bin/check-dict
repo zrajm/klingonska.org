@@ -890,9 +890,9 @@ sub check_see {
     my %allowed_tag = map {
         (local $_ = $_) =~ s/_/ /g;
         $_ => 1;
-    } qw(animal architecture body_part clothing color country economics family
-         fighting food KLCP1 Klingonism landscape math measure music placement
-         quantity religion shape time);
+    } qw(Anglicism animal architecture body_part clothing color country
+         economics family fighting food KLCP1 Klingonism landscape math measure
+         music placement quantity religion shape time);
     my %year = do {                            # source transcript years
         my %file = get_source_names();         #   transcript filenames
         $file{TKD} = "1985";                   #   override TKD year
