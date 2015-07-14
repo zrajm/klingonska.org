@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    383812b591f2fd291c8ef657c4d209f9e5cfd585
+SHA1:    5150d54771651cc4edeeab9bcd5e14f0378c5c00
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -8507,6 +8507,9 @@ desc:	{latlh HIvje'} ~other glass~ [BoP]
 def:	TKDa
 cite:	~Will you drink another one?~ {latlh Datlhutlh'a'.} [CK]
 cite:	~other Klingons~ [...] {latlh tlhInganpu} [SBX-S31]
+com:	{latlh} goes before the noun if you want it to mean ~other~ or
+	~another~ ({Hoch latlh qepmey} - ~all other meetings~). {latlh} after a
+	noun is believed to mean ~additional part~. /Chris Lipscombe
 tag:	1992; KLCP1; quantity
 id:	xFN
 
