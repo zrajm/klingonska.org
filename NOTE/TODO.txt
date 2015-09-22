@@ -2696,6 +2696,19 @@
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** `dict.zdb`
+**** TODO 'ETag' instead of 'SHA1' metadata field
+     Rename 'SHA1' metadata tag 'ETag' instead (see
+     https://en.wikipedia.org/wiki/HTTP_ETag).
+
+     `dict.zdb` should be served by a CGI script, which should look at any
+     'If-None-Match' HTTP header field sent by the client:
+
+         If-None-Match: "5883445a723468ce3e2e4f872bc9bf84436ebab2"
+
+     If the client sent an 'If-None-Match' that matches the current `dict.zdb`
+     ETag, the CGI should send a '304 Not Modified' answer and no response
+     body. In all other instances, the CGI should return the entire `dict.zdb`
+     (as is currently done).
 **** TODO Add links to Lawrence Schoen's {DaHjaj Hol} episodes
      Each word mentioned in a {DaHjaj Hol} should have a link, or some kind of
      identifier pointing out which episode contain more info. A special field?
