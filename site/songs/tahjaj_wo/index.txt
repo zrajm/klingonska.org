@@ -1,19 +1,20 @@
 : -*- html -*-
 created: 2010-11-03
-updated: 2013-05-26 19:16:00 +0200
+updated: 2015-10-09T00:31:16+0200
 author: zrajm
-year: 2010-2013
+year: 2010-2015
 style: gallery
 lang: en
 
 {taHjaj wo'} – _An Imperial Anthem_
 ===================================
+
 This song was written in <time>1993</time> by Rich Yampell, and has, as far as
-I know, been sung at every {qep'a'mey} to date. To hear this song sung by a
-dozen or more klingonists in three-piece harmony is quite the experience!
+I know, been sung at every {qep'a'} to date. To hear this song sung by a dozen
+or more klingonists in three-piece harmony is quite the experience!
 
 There is also a parody of this song, set to the same melody, called [{DaHjaj
-po} – <<Today morning>>](../dahjaj_po.txt).
+po} -- <<Today morning>>](../dahjaj_po.txt).
 
 <div class=gallery>
   <a class=item style="width:250px" href="http://www.youtube.com/watch?v=MnvAGY1t9es"
@@ -82,7 +83,7 @@ contributed by Ryan Hart in December, 2012. Some additional improvements were
 made in May, 2013, after being suggested by Leon Zendejas Medina.
 
 There are probably still a couple of errors left -- should you find one of
-these, [please tell us so](mailt:zrajm@klingonska.org), so that we may continue
-to improve these scores.
+these, [please tell us so](mailto:zrajm@klingonska.org), so that we may
+continue to improve these scores.
 
 [[eof]]
