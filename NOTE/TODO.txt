@@ -2697,6 +2697,9 @@
       CLOSED: [2010-08-09 Mon 02:17]
 *** `dict.zdb`
 **** TODO 'ETag' instead of 'SHA1' metadata field
+     Hey! The Apache thingy on HCoop already implements ETag. Maybe remove SHA1
+     for the benefit of the already present ETag?
+
      Rename 'SHA1' metadata tag 'ETag' instead (see
      https://en.wikipedia.org/wiki/HTTP_ETag).
 
@@ -4265,6 +4268,8 @@
 * Web server config
 ** TODO Add HTTPS version of site
    All web traffic should be encrypted! Klingonska should allow that!
+   Good(?) guide on how to obtain a free certificate:
+   https://konklone.com/post/switch-to-https-now-for-free
 *** TODO How to set up HTTPS on HCoop?
 *** DONE Where to get free certificates
     CLOSED: [2014-12-03 ons 08:55]
