@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    783abbc4858efa00c9672e7232847ec3e4d65b42
+SHA1:    e7eee91658c5884fec07d128b5d2874569a529f2
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -22092,6 +22092,9 @@ pos:	verb
 en:	<accompany>, «be with»
 sv:	«sällskapa» med, «vara med»
 def:	TKD; TKW pp.161, 173
+cite:	{Dargh vItlhutlhDI' mutlhej torgh matlh je} ~I drink tea with Torg and
+	Maltz~ [lit. ~When I drink tea, Torg and Maltz accompany me~]
+	[HolQeD-02-4 p.18]
 tag:	1985; KLCP1
 id:	6vg
 meta:	This is labeled as a noun in TKD E-K, but MO corrected himself in
