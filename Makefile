@@ -15,10 +15,11 @@ publish_dir := publish
 remote_dir  := ssh.hcoop.net:Web/klingonska.org
 ignore      := %.bak %.db %~ .\#% %\# %.tmp
 
-CSS_MINIFIER := \
-    $(if $(shell which yui-compressor),yui-compressor --type css,cat)
-JS_MINIFIER := \
-    $(if $(shell which yui-compressor),yui-compressor --type js,cat)
+CSS_MINIFIER ?= $(if $(MINIFIER),$(MINIFIER),yui-compressor --type css)
+JS_MINIFIER  ?= $(if $(MINIFIER),$(MINIFIER),yui-compressor --type js)
+
+check-command = $(if $(shell which $2),,\
+    $(error $1 command '$2' not found ('make help' for more info)))
 
 ###############################################################################
 ##                                                                           ##
@@ -113,7 +114,7 @@ all_targets = $(copied_targets) $(jslib_targets) $(css_targets) $(html_targets)
 ###############################################################################
 
 # Erase outputted file if rule fails.
-# (If this is not done, then failed outputs will not be rebuild next time.)
+# (Needed to make Make rebuild a failed target when run again.)
 .DELETE_ON_ERROR:
 
 ## site - build web site
@@ -235,7 +236,15 @@ help:
 	@echo "Available targets:";                     \
 	cat "$(CURDIR)/Makefile"                      | \
 	    awk '/^## [^ ]/{sub(/^## */,"  ");print}' | \
-	    sort
+	    sort;                                       \
+	echo;                                           \
+	echo "Options:";                                \
+	echo "  MINIFIER=<COMMAND>     (default: n/a)"; \
+	echo "  CSS_MINIFIER=<COMMAND> (default: '$(CSS_MINIFIER)')"; \
+	echo "  JS_MINIFIER=<COMMAND>  (default: '$(JS_MINIFIER)')";  \
+	echo;                                           \
+	echo 'To disable minifying altogether use `make MINIFIER=cat` (this';  \
+	echo 'sets both the CSS_MINIFIER and JS_MINIFIER commands to `cat`).'
 
 # HTML5 Boilerplate zipfile
 $(h5bp_files): $(h5bp_zip)
@@ -251,7 +260,8 @@ $(publish_dir)/%.cgi: $(source_dir)/%.cgi
 # SCSS (sassy stylesheet) + CSS normalizer -> minified base CSS
 $(publish_dir)/includes/base.css: $(h5bp_dir)/css/style.css \
     $(source_dir)/includes/base.scss bin/sassy
-	@[ -e "$(@D)" ] || mkdir -p "$(@D)";      \
+	@$(call check-command,CSS_MINIFIER,$(firstword $(CSS_MINIFIER)))\
+	[ -e "$(@D)" ] || mkdir -p "$(@D)";      \
 	echo "CSSifying  '$(filter %.scss,$^)' -> '$@'"; \
 	{                                         \
 	    cat $(filter %.css,$^);               \
@@ -260,14 +270,16 @@ $(publish_dir)/includes/base.css: $(h5bp_dir)/css/style.css \
 
 # SCSS (sassy stylesheet) -> minified CSS
 $(publish_dir)/%.css: $(source_dir)/%.scss bin/sassy
-	@[ -e "$(@D)" ] || mkdir -p "$(@D)";      \
+	@$(call check-command,CSS_MINIFIER,$(firstword $(CSS_MINIFIER)))\
+	[ -e "$(@D)" ] || mkdir -p "$(@D)";       \
 	echo "Processing '$<' -> '$@'";           \
 	bin/sassy $(filter %.scss,$^) |           \
 	    $(CSS_MINIFIER) >"$@"
 
 # CSS (stylesheet) -> minified CSS
 $(publish_dir)/%.css: $(source_dir)/%.css
-	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	@$(call check-command,CSS_MINIFIER,$(firstword $(CSS_MINIFIER)))\
+	[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Minifying  '$<' -> '$@'";      \
 	$(CSS_MINIFIER) <"$<" >"$@"
 
@@ -346,13 +358,15 @@ $(publish_dir)/includes/%.js: $(h5bp_dir)/js/libs/%.min.js
 
 # JS (client-side script, Javascript)
 $(publish_dir)/%.js: $(source_dir)/%.js
-	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	@$(call check-command,JS_MINIFIER,$(firstword $(JS_MINIFIER)))\
+	[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Minifying  '$<' -> '$@'";      \
 	$(JS_MINIFIER) <"$<" >"$@"
 
 # JS (client-side script, Javascript)
 $(publish_dir)/%.js: $(source_dir)/%.js
-	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	@$(call check-command,JS_MINIFIER,$(firstword $(JS_MINIFIER)))\
+	[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Minifying  '$<' -> '$@'";      \
 	$(JS_MINIFIER) <"$<" >"$@"
 
