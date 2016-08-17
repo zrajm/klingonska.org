@@ -255,7 +255,8 @@ sub help {
     sub read_file {
         my ($file) = shift;
         open(my $in, "<:utf8", $file) or croak "cannot open file \"$file\": $!";
-        return <$in>                  or croak "cannot read file \"$file\": $!";
+        my @line = <$in>              or croak "cannot read file \"$file\": $!";
+        return @line;
     }
 
     # Usage: BOOL = metadata(%META, @TEXT);
@@ -1079,9 +1080,13 @@ sub page_main {
 
 sub read_file {
     my ($file) = @_;
-    local $/ = undef unless wantarray;
     open my $in, "<", $file or die "Failed to open file '$file' for reading: $!\n";
-    return <$in>            or die "Failed to read file '$file': $!\n";
+    my @line;
+    while (not eof $in) {
+        defined(my $tmp = <$in>) or die "Failed to read file '$file': $!\n";
+        push @line, $tmp;
+    }
+    return wantarray ? @line : join("", @line);
 }
 
 sub write_file {
