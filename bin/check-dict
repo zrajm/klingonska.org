@@ -890,7 +890,7 @@ sub check_see {
     my %allowed_tag = map {
         (local $_ = $_) =~ s/_/ /g;
         $_ => 1;
-    } qw(Anglicism animal architecture body_part clothing color country
+    } qw(Anglicism animal architecture body_part clothing color country curse
          economics family fighting food KLCP1 Klingonism landscape math measure
          music placement quantity religion shape time);
     my %year = do {                            # source transcript years

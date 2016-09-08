@@ -1,10 +1,10 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    5150d54771651cc4edeeab9bcd5e14f0378c5c00
+SHA1:    783abbc4858efa00c9672e7232847ec3e4d65b42
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
-AUTHOR:  Zrajm <zrajm@klingonska.org>
+AUTHOR:  zrajm <zrajm@klingonska.org>
 
 
 1. About
@@ -383,13 +383,14 @@ once in the same entry).
 
     The following topics currently exist:
 
-    + `Anlicism` = The Klingon word is borrowed from English (e.g., {qa'vIn}).
+    + `Anglicism` = The Klingon word is borrowed from English (e.g., {qa'vIn}).
     + `animal`
     + `architecture`
     + `body part`
     + `clothing`
     + `color`
     + `country`
+    + `curse`
     + `economics`
     + `family`
     + `fighting`
@@ -698,7 +699,7 @@ en:	(general «invective»)
 sv:	(generellt «invektiv»)
 def:	TKDa 5.5/p.178
 ref:	KLINW
-tag:	1992
+tag:	1992; curse
 id:	gJz
 
 tlh:	{barat}
@@ -4684,7 +4685,7 @@ pos:	exclamation
 en:	(general «invective»)
 sv:	(generellt «invektiv»)
 def:	TKDa 5.5/p.178
-tag:	1992
+tag:	1992; curse
 id:	Vhe
 
 tlh:	{gha'tlhIq}
@@ -5597,7 +5598,7 @@ cite:	{ghuy' po'qu'.} ~Damn he's good.~ [HolQeD-08-4-b p.13]
 com:	The {ghuy' po'qu'} line is supposedly from ST5, but in the movie the
 	line is shortened to only {po'qu'}. HolQeD-08-4-b p.13 reprints some of
 	MO working notes from the movie, and the line is printed there.
-tag:	1999
+tag:	1999; curse
 id:	BaE
 
 tlh:	{ghuy'cha'}
@@ -5608,7 +5609,7 @@ def:	TKD 5.5/p.58
 ref:	CK
 cite:	A Klingon might say it after receiving an unsettling communiqué. It's a
 	lot stronger that the Terran "Darn it!" [CK]
-tag:	1985
+tag:	1985; curse
 id:	1df
 
 tlh:	{ghu'}
@@ -5897,7 +5898,7 @@ en:	<dog>, <cur>, <inferior person> [slang]
 sv:	«fähund», «usling», «tölp», «underlägsen person» [slang]
 def:	ST3; KGT
 cite:	{Ha'DIbaH!} ~Animal!~ [ST3]
-tag:	1984
+tag:	1984; curse
 id:	zVF
 
 tlh:	{Ha'DIbaH ghIH tIr ngogh je}
@@ -7038,7 +7039,7 @@ cite:	On his drive up to attend {qep'a' HutDIch} [...]. Traffic along the
 	place all at once~. Maltz further indicated that the term was used as a
 	word play, a substitution for the more common {Qu'vatlh} which might
 	otherwise be heard in such situations. [HolQeD-11-3-b p.13]
-tag:	2002
+tag:	2002; curse
 id:	BsY
 
 tlh:	{Hut'In}
@@ -7118,7 +7119,7 @@ com:	In HQ3:3 p.14 Rhonda E. Green points out that a possible translation of
 	this word would be "fuck", this based on the usage of the word in A.C.
 	Crispin's "Sarek". I (zrajm) disagree with this -- as almost any
 	invective (e.g. {jay'}) can be translated as "fuck".
-tag:	1992
+tag:	1992; curse
 id:	VSa
 
 tlh:	{jab}
@@ -7456,7 +7457,7 @@ def:	TKDa 5.4/p.177
 cite:	{qaStaH nuq jay'} ~What the #$*@ is happening?~ [TKDa]
 cite:	{mIch 'elpu' jay'} ~They've entered the #$%@ sector!~ [TKDa]
 cite:	{ghaytanHa' jay'!} ~Not bloody likely!~ (~Not &*@%# likely!~) [RT]
-tag:	1992
+tag:	1992; curse
 id:	hvn
 
 tlh:	{ja'}
@@ -14036,7 +14037,7 @@ en:	(«epithet»)
 sv:	(«epitet»)
 def:	TKDa 5.5/p.178
 com:	Paramount Hol: "pahtk".
-tag:	1992
+tag:	1992; curse
 id:	vCz
 
 tlh:	{pey}
@@ -17457,7 +17458,7 @@ def:	TKD 5.5/p.58
 ref:	KCD
 com:	Vulgar Klingon expression; one of the strongest, most foul Klingon
 	expressions; it defies translation. [KCD]
-tag:	1985
+tag:	1985; curse
 id:	1dY
 
 tlh:	{Qob} [1]
@@ -17729,7 +17730,7 @@ pos:	exclamation
 en:	(«epithet»)
 sv:	(«epitet»)
 def:	TKDa 5.5/p.178
-tag:	1992
+tag:	1992; curse
 id:	BVq
 
 tlh:	{Qoy}
@@ -17995,7 +17996,7 @@ def:	TKD 5.5/p.58; TKDa 5.5/p.178
 ref:	CK
 cite:	This is something you might hear someone say in moments of extreme
 	anger: {Qu'vatlh}. [CK]
-tag:	1985
+tag:	1985; curse
 id:	Cg2
 
 tlh:	{rach}
@@ -20470,7 +20471,7 @@ sv:	(«epitet»)
 def:	TKDa 5.5/p.178
 ref:	CK
 cite:	This is a classic insult: {taHqeq}. [CK]
-tag:	1992
+tag:	1992; curse
 id:	6NL
 
 tlh:	{taj}
@@ -21338,7 +21339,7 @@ ref:	CK
 cite:	This next word is something one Klingon would call another, if they
 	weren't on the best of terms: {toDSaH}. [CK]
 com:	Paramount Hol: "tohzah".
-tag:	1992
+tag:	1992; curse
 id:	YvP
 
 tlh:	{toDuj}
@@ -22630,7 +22631,7 @@ pos:	exclamation
 en:	(general «invective»)
 sv:	(generellt «invektiv»)
 def:	TKDa 5.5/p.178
-tag:	1992
+tag:	1992; curse
 id:	yNh
 
 tlh:	{vabDot}
@@ -24843,7 +24844,7 @@ pos:	exclamation
 en:	(«epithet»)
 sv:	(«epitet»)
 def:	TKDa 5.5/p.178
-tag:	1992
+tag:	1992; curse
 id:	aCP
 
 tlh:	{yIQ}
