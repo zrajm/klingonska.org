@@ -395,6 +395,11 @@ figure {
             caption-side: bottom;
         }
     }
+    table.left {
+        transform: none;
+        -webkit-transform: none;
+        position: static;
+    }
     /* Borderless table, class 'noborder'.
      *
      * This table has no vertical distance between cells or lines, and a .5em
@@ -418,11 +423,40 @@ figure {
      *
      * Use class 'noborder spacy' to make a more spacious, but still
      * border-free, table. It adds 1em vertical space between each table row.
-     * */
+     */
     table.spacy tr + tr { border-top: 1em solid transparent; }
 
+    /*
+     * Dialogue tables are intended to be used for dialogue and sentence
+     * examples. They and are indented to the left and right. They should
+     * follow one of the following patterns:
+     *
+     *    Dialogue without names:
+     *    <tr><td>HANGING [ <td>HANGING ... ]
+     *
+     *    Example sentences:
+     *    <tr><td>HANGING   <td>HANGING [ <td>HANGING ...]
+     *
+     *    Dialogue with names:
+     *    <tr><th>NORMAL    <td>NORMAL  [ <td>HANGING ... ]
+     *
+     * Hanging indent is used for all <td> (but never <th>) cells,
+     * except first in a <tr>, and immediately after <th>.
+     *
+     * <th> cells are intended for (short) names only and wordwrapping is
+     * disabled inside them.
+     *
+     * FIXME: 'noborder' should be implicit for 'dialogue'.
+     *
+     */
     table.dialogue {
-        tr > th:first-child {
+        border: solid transparent;
+        border-width: 0 1.5em;
+        td:first-child, td + td {              /* hanging indent */
+            padding-left: 1.5em;
+            text-indent: -1.5em;
+        }
+        th {
             vertical-align: top;
             text-align: left;
             font-weight: inherit;
@@ -491,7 +525,7 @@ figure {
      *
      *    * 32px is one indentation used
      *    * 16px is the width of the list bullet
-    */
+     */
     dl.navigation {
         list-style-type: none;
         margin: 32px 0;
