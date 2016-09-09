@@ -8,15 +8,144 @@ up: ..
 
 A Quick Reference to Time Expressions in Klingon
 ================================================
+* [Telling Time](#tell)
+* [Asking for the Time](#ask)
 * [Units of Time](#units)
 * [Present](#present)
 * [Past](#past)
 * [Future](#future)
 * [Years and Months](#year)
 * [Time of Day](#times)
-* [Asking for the Time](#ask)
-* [Telling Time](#tell)
 * [Other](#other)
+
+
+[tell] Telling Time
+-------------------
+There are several ways of telling time in Klingon, though by far most complete
+and coherent system is the 24 hour “military time” described in *Conversational
+Klingon* (1992) and *TalkNow: Klingon* (2011):
+
+> “Klingons have adopted the way most civilized planets in the galaxy tell
+> time; They have twenty-four hour days. ‘Zero hours’, means midnight; ‘twelve
+> hundred hours’, means noon; ‘nineteen hundred hours’ means seven p.m., and so
+> on. Klingons pride themself on punctuality, so it is important to be precise
+> when referring to time. Though Klingons are sometimes inaccurate, they are
+> never approximate.” <small>[CK]</small>
+
+<style>
+    #time24h.error { background: #faa; }
+    #time24h {
+        background: #ff4;
+        font-family: monospace;
+    }
+</style>
+<table style="width:100%">
+  <caption style="text-align:right;padding-right:2em;caption-side:top">
+    Enter a time here! ↴
+  </caption>
+  <tr>
+    <td id=timeTlh>{cha'maH wejvatlh vaghmaH Hut rep}
+    <td width=1% id=time12h>11:59pm
+    <td width=1%><input id=time24h size=4 value="23:59">
+</table>
+
+The formula is “*hour* [{vatlh}] *minute* {rep}” where *hour* is 0–23, and
+*minute* is 0–59. If *hour* is {pagh} <<(zero)>> you drop the {vatlh}. It looks
+like this in use:
+
+<table class="noborder dialogue left" width=100%>
+  <tr><td width=42%>{pagh rep}<td><<(00:00) zero hours,
+    midnight>> <small>[CK]</small> or <<twelve p.m.>>
+  <tr><td>{pagh cha'maH vagh rep}<td><<(00:25) 12:25 a.m.>>
+  <tr><td>{pagh vaghmaH rep}<td><<(00:50) 12:50 a.m.>>
+  <tr><td>{wa'vatlh rep}<td><<(01:00) one a.m.>>
+  <tr><td>{wa'vatlh vagh rep}<td><<(01:05) five past one a.m.>>
+  <tr><td>{wa'vatlh wa'maH rep}<td><<(01:10) ten past one a.m.>>
+  <tr><td>{javvatlh rep}<td><<(06:00) six hundred hours, six o'clock in the morning>> <small>[CK]</small>
+  <tr><td>{wa'maH vatlh rep}<td><<(10:00) ten a.m.>>
+  <tr><td>{wa'maH wa'vatlh rep}<td><<(11:00) eleven a.m.>>
+  <tr><td>{wa'maH cha'vatlh rep}<td><<(12:00) twelve hundred hours, noon>> <small>[CK]</small><sup> <a href="#fn1">1</a></sup> or <<twelve a.m.>>
+  <tr><td>{wa'maH wejvatlh rep}<td><<(13:00) one p.m.>>
+  <tr><td>{wa'maH loSvatlh wejmaH rep}<td><<(14:30) fourteen hundred thirty hours>> or <<2:30 p.m.>> <small>[KML]</small><sup> <a href="#fn2">2</a></sup>
+  <tr><td>{wa'maH Hutvatlh rep}<td><<(19:00) nineteen hundred hours>> or <<seven p.m.>> <small>[CK]</small>
+  <tr><td>{cha'maH wejvatlh rep}<td><<(23:00) eleven p.m.>>
+  <caption>
+    <small>Source is <i>TalkNow: Klingon,</i> except where otherwise noted.</small>
+  </caption>
+</table>
+
+<table class="noborder spacy">
+  <tr>
+    <td id="fn1"><sup><b>1</b></sup>
+    <td>Here assuming that “{cha'maH wa'vatlh rep}” in <i>Conversational
+      Klingon</i> just got {cha'} and {wa'} swapped around.
+  <tr>
+    <td id="fn2"><sup><b>2</b></sup>
+    <td>Alan Anderson &lt;caanders@netusa1.net&gt; on the <i>{tlhIngan-Hol}
+        Mailing List</i>, <time datetime="1996-05-20">20 May 1996</time>.
+</table>
+
+In <i>{HolQeD} 8:1</i> (March 1999) <em>two different</em> ways of telling the
+time were described. The first system, used for interplanetary communication,
+is exemplified in the following phrases (if the context is clear, the word
+{tera'} <<Earth>> may be left out, as in the last example below):
+
+<table class="noborder dialogue">
+  <tr>
+    <td>{tera' rep wa'}
+    <td><<Earth hour one or one o'clock>>
+  <tr>
+    <td>{tera' rep cha'maH}
+    <td><<Earth hour 20 or 20 o'clock
+        or eight o'clock p.m.>>
+  <tr>
+    <td>{tera' rep loS wejmaH}
+    <td><<Earth hour 4:30>>
+  <tr>
+    <td>{rep cha'maH}
+    <td><<20 o'clock, eight o'clock p.m.>>
+</table>
+
+The second system is an informal way of answering the question {'arlogh
+Qoylu'pu'?} <<What time is it?>> (lit. <<How many times has it been heard?>>)
+In direct response to this question one may even drop the verb, and answer only
+{chorghlogh} <<eight o'clock>> (lit. <<eight times>>).
+
+<table class="noborder dialogue left">
+  <tr>
+    <td>{cha'logh Qoylu'pu'}
+    <td><<It's two o'clock>>
+  <tr>
+    <td class=nobr>{chorghlogh Qoylu'pu'}
+    <td><<It's eight o'clock>>
+</table>
+
+
+[ask] Asking for the Time
+-------------------------
+Asking what time it is is an idiomatic phrase in almost all languages, and
+Klingon is no exception in this. There are basically two ways of asking: The
+one usually used in military contexts is {rep yIper!} <<Ascertain the hour!>>
+or <<Specify the hour!>>
+
+Outside of those situations the expression {'arlogh Qoylu'pu'?} is most
+commonly used (it literally means <<How many times has [someone] heard [it]?>>
+or <<How many times has it been heard?>>) <small>[HQ 8:1]</small>
+
+<table class="noborder dialogue">
+  <tr>
+    <td width="33%">{rep yIper!}
+    <td><<Ascertain the hour! Specify the
+        hour!>> <small>[HQ 8:1]</small>
+  <tr>
+    <td>{'arlogh Qoylu'pu'?}
+    <td><<What time is it?>> (lit. <<How many times has it been
+        heard?>>) <small>[HQ 8:1]</small>
+  <tr>
+    <td>{mamejDI' 'arlogh Qoylu'pu'?}
+    <td><<What time do we leave?>> (lit. <<When we leave, how many times
+        will it have been heard?>>) <small>[HQ 8:1]</small>
+</table>
 
 
 [units] Units of Time
@@ -177,134 +306,6 @@ There exist a bunch of words for describing the time of day:
 > midnight. You might think this could cause some confusion, but it is really
 > comparable to when a Terran says something like, ‘Thursday night, at three
 > o’clock in the morning’.” <small>[CK]</small>
-
-
-[ask] Asking for the Time
--------------------------
-Asking what time it is is an idiomatic phrase in almost all languages, and
-Klingon is no exception in this. There are basically two ways of asking: The
-one usually used in military contexts is {rep yIper!} <<Ascertain the hour!>>
-or <<Specify the hour!>> Outside of those situations the expression {'arlogh
-Qoylu'pu'?} is most commonly used (it literally means <<How many times has
-[someone] heard [it]?>> or <<How many times has it been
-heard?>>) <small>[HQ 8:1]</small>
-
-<table class="noborder dialogue">
-  <tr>
-    <td width="33%">{rep yIper!}
-    <td><<Ascertain the hour! Specify the
-        hour!>> <small>[HQ 8:1]</small>
-  <tr>
-    <td>{'arlogh Qoylu'pu'?}
-    <td><<What time is it?>> (lit. <<How many times has it been
-        heard?>>) <small>[HQ 8:1]</small>
-  <tr>
-    <td>{mamejDI' 'arlogh Qoylu'pu'?}
-    <td><<What time do we leave?>> (lit. <<When we leave, how many times
-        will it have been heard?>>) <small>[HQ 8:1]</small>
-</table>
-
-
-[tell] Telling Time
--------------------
-There are several ways of telling time in Klingon, though by far most complete
-and coherent system is the 24 hour “military time” described in *Conversational
-Klingon* (1992) and *TalkNow: Klingon* (2011):
-
-> “Klingons have adopted the way most civilized planets in the galaxy tell
-> time; They have twenty-four hour days. ‘Zero hours’, means midnight; ‘twelve
-> hundred hours’, means noon; ‘nineteen hundred hours’ means seven p.m., and so
-> on. Klingons pride themself on punctuality, so it is important to be precise
-> when referring to time. Though Klingons are sometimes inaccurate, they are
-> never approximate.” <small>[CK]</small>
-
-<style>
-    #time24h.error { background: #faa; }
-    #time24h {
-        background: #ff4;
-        font-family: monospace;
-    }
-</style>
-<table style="width:100%">
-  <caption style="text-align:right;padding-right:2em;caption-side:top">
-    Enter a time here! ↴
-  </caption>
-  <tr>
-    <td id=timeTlh>{cha'maH wejvatlh vaghmaH Hut rep}
-    <td width=1% id=time12h>11:59pm
-    <td width=1%><input id=time24h size=4 value="23:59">
-</table>
-
-The formula is “*hour* [{vatlh}] *minute* {rep}” where *hour* is 0–23, and
-*minute* is 0–59. If *hour* is {pagh} <<(zero)>> you drop the {vatlh}. It looks
-like this in use:
-
-<table class="noborder dialogue left" width=100%>
-  <tr><td width=42%>{pagh rep}<td><<(00:00) zero hours,
-    midnight>> <small>[CK]</small> or <<twelve p.m.>>
-  <tr><td>{pagh cha'maH vagh rep}<td><<(00:25) 12:25 a.m.>>
-  <tr><td>{pagh vaghmaH rep}<td><<(00:50) 12:50 a.m.>>
-  <tr><td>{wa'vatlh rep}<td><<(01:00) one a.m.>>
-  <tr><td>{wa'vatlh vagh rep}<td><<(01:05) five past one a.m.>>
-  <tr><td>{wa'vatlh wa'maH rep}<td><<(01:10) ten past one a.m.>>
-  <tr><td>{javvatlh rep}<td><<(06:00) six hundred hours, six o'clock in the morning>> <small>[CK]</small>
-  <tr><td>{wa'maH vatlh rep}<td><<(10:00) ten a.m.>>
-  <tr><td>{wa'maH wa'vatlh rep}<td><<(11:00) eleven a.m.>>
-  <tr><td>{wa'maH cha'vatlh rep}<td><<(12:00) twelve hundred hours, noon>> <small>[CK]</small><sup> <a href="#fn1">1</a></sup> or <<twelve a.m.>>
-  <tr><td>{wa'maH wejvatlh rep}<td><<(13:00) one p.m.>>
-  <tr><td>{wa'maH loSvatlh wejmaH rep}<td><<(14:30) fourteen hundred thirty hours>> or <<2:30 p.m.>> <small>[KML]</small><sup> <a href="#fn2">2</a></sup>
-  <tr><td>{wa'maH Hutvatlh rep}<td><<(19:00) nineteen hundred hours>> or <<seven p.m.>> <small>[CK]</small>
-  <tr><td>{cha'maH wejvatlh rep}<td><<(23:00) eleven p.m.>>
-  <caption>
-    <small>Source is <i>TalkNow: Klingon,</i> except where otherwise noted.</small>
-  </caption>
-</table>
-
-<table class="noborder spacy">
-  <tr>
-    <td id="fn1"><sup><b>1</b></sup>
-    <td>Here assuming that “{cha'maH wa'vatlh rep}” in <i>Conversational
-      Klingon</i> just got {cha'} and {wa'} swapped around.
-  <tr>
-    <td id="fn2"><sup><b>2</b></sup>
-    <td>Alan Anderson &lt;caanders@netusa1.net&gt; on the <i>{tlhIngan-Hol}
-        Mailing List</i>, <time datetime="1996-05-20">20 May 1996</time>.
-</table>
-
-In <i>{HolQeD} 8:1</i> (March 1999) <em>two different</em> ways of telling the
-time were described. The first system, used for interplanetary communication,
-is exemplified in the following phrases (if the context is clear, the word
-{tera'} <<Earth>> may be left out, as in the last example below):
-
-<table class="noborder dialogue">
-  <tr>
-    <td>{tera' rep wa'}
-    <td><<Earth hour one or one o'clock>>
-  <tr>
-    <td>{tera' rep cha'maH}
-    <td><<Earth hour 20 or 20 o'clock
-        or eight o'clock p.m.>>
-  <tr>
-    <td>{tera' rep loS wejmaH}
-    <td><<Earth hour 4:30>>
-  <tr>
-    <td>{rep cha'maH}
-    <td><<20 o'clock, eight o'clock p.m.>>
-</table>
-
-The second system is an informal way of answering the question {'arlogh
-Qoylu'pu'?} <<What time is it?>> (lit. <<How many times has it been heard?>>)
-In direct response to this question one may even drop the verb, and answer only
-{chorghlogh} <<eight o'clock>> (lit. <<eight times>>).
-
-<table class="noborder dialogue left">
-  <tr>
-    <td>{cha'logh Qoylu'pu'}
-    <td><<It's two o'clock>>
-  <tr>
-    <td class=nobr>{chorghlogh Qoylu'pu'}
-    <td><<It's eight o'clock>>
-</table>
 
 
 [other] Other
