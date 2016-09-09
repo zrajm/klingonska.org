@@ -1,8 +1,8 @@
 : -*- html -*-
-updated: 2012-07-10 08:09:00+02
+updated: 2016-09-09 20:29:23+02
 created: 1998-02-26
 author: zrajm
-year: 1998-2012
+year: 1998-2016
 lang: en
 up: ..
 
@@ -297,6 +297,22 @@ language course in Klingon. It looks like this (notice the weird usage of
   <tr><td>{cha'maH wejvatlh rep}<td><<eleven p.m. (23:00)>>
 </table>
 
+<style>
+    #time24h.error { background: #faa; }
+    #time24h {
+        background: #ff4;
+        font-family: monospace;
+    }
+</style>
+<table style="width:100%">
+  <caption style="text-align:right;padding-right:2em;caption-side:top">
+    Enter time here! ↴
+  </caption>
+  <tr>
+    <td id=timeTlh>{cha'maH wejvatlh vaghmaH Hut rep}
+    <td width=1% id=time12h>11:59pm
+    <td width=1%><input id=time24h size=4 value="23:59">
+</table>
 
 [other] Other
 -------------
@@ -316,5 +332,77 @@ read the articles “[Maltz Online](../canon/1999-03-holqed-08-1.txt)”
 in <i>{HolQeD} 8:1</i> (pp. 7--12) and “[{matlh juppu'
 mu'mey}](../canon/1999-09-holqed-08-3.txt)” in <i>{HolQeD} 8:3</i> (pp. 2--4)
 written by Marc Okrand.
+
+<script>
+    var tlhElem = $('#timeTlh'), h12Elem = $('#time12h');
+
+    // Return hour + minutes from 24 hour time, or 'null' if badly formatted.
+    function hourMinute(timeStr) {
+        var hour, minute,
+            values = timeStr.replace(/[ ]+/g, "")  // strip all space
+                .match(/^([0-9]{1,2})(?:[.:]([0-9]{0,2}))?$/); // split 'HH:MM'
+        if (values) {
+            hour   = parseInt(values[1] || 0, 10);
+            minute = parseInt(values[2] || 0, 10);
+            if (hour < 24 && minute < 60) {
+                return [ hour, minute ];
+            }
+        }
+        return null;
+    }
+
+    // Turn number 0-99 into Klingon word (empty string for zero).
+    function wordify(number) {
+        var digits = ("" + number).split(""), word = [], tlh = [
+            "",     "wa’", "cha’", "wej",    "loS",
+            "vagh", "jav", "Soch", "chorgh", "Hut"
+        ];
+        if (digits.length === 2) {
+            word.push(tlh[ digits.shift() ] + "maH");
+        }
+        word.push(tlh[ digits.shift() ]);
+        return word.join(" ");
+    }
+
+    // Turn hours + minutes into Klingon time word.
+    function klingonTime(hour, minute) {
+        var tlhTime = [ (hour === 0) ? "pagh" : wordify(hour) + "vatlh" ];
+        if (minute > 0) { tlhTime.push(wordify(minute)); }
+        tlhTime.push("rep");
+        return tlhTime.join(" ");
+    }
+
+    // Turn hours + minutes into am/pm time format.
+    function ampm(hour, minute) {
+        var xm;
+        if (minute === 0) {
+            if (hour === 12) { return "noon"; }
+            if (hour === 0)  { return "midnight"; }
+        }
+        minute = ("0" + minute).slice(-2);     // zero pad
+        if (hour >= 12) {
+            xm = "pm";
+            if (hour !== 12) { hour = hour - 12; }
+        } else {
+            xm = "am";
+            if (hour === 0) { hour = 12; }
+        }
+        return hour + ":" + minute + xm;
+    }
+
+    $('#time24h').keyup(function () {
+        var elem = $(this),
+            time = hourMinute(elem.val());
+        if (time) {
+            elem.removeClass('error');
+            tlhElem.html("<b lang=tlh>" + klingonTime(time[0], time[1]) + "</b>");
+            h12Elem.text(ampm(time[0], time[1]));
+        } else {
+            elem.addClass('error');
+            tlhElem.html("<i>Enter time in 24 hour format!</i>");
+            h12Elem.html("<nobr>--:--xm</nobr>");
+        }
+    });
+</script>
 
 [[eof]]
