@@ -259,8 +259,39 @@
     Both with spaces and non-breaking spaces around it.
 *** TODO Replace HTML links with [...](...)
 ** TODO Do a surf-through check for weird/old shit
-** [11%] Systematic/site-wide changes
+** [10%] Systematic/site-wide changes
    I.e. changes that need to be applied to the web page as a whole.
+*** TODO Improve table centering
+    Fill tables (called 'fill tables' since they can fill the page
+    horizontally, but grow no wider than that) are used with dialogue or
+    example sentences:
+      * Can't grow wider than the page.
+      * Left aligned (but indented). Not transform-translated.
+      * Not sortable.
+      * No borders.
+    FIXME: left alignment, remove transform-translate.
+
+    Figure tables (and <figure>):
+      * Can grow wider than page (if content is wide enough).
+      * Are centered on page (even if content is wider than page). This is
+        achieved with 'transform: translated'.
+      * Not sortable.
+      * No borders.
+    FIXME: remove transform-translate(?)
+
+    Reference tables:
+      * Can't grow wider than the page.
+      * Centered. (But do not need 'transform: translate'.
+      * Sortable.
+      * Borders.
+
+    A reference table:
+
+        | Klingon  | English       | Reference |
+        |----------+---------------+-----------|
+        | {DaH}    | <<now>> (adv) | [TKD]     |
+        | {DaHjaj} | <<today>> (n) | [TKD]     |
+        |----------+---------------+-----------|
 *** TODO Improve table sortability
     Can all tables (with headers) be made sortable? (e.g. on /download.html)
 
@@ -2545,7 +2576,21 @@
       CLOSED: [2010-08-09 Mon 02:16]
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:16]
-**** [47%] lexicon.cgi
+**** [41%] lexicon.cgi
+***** TODO BUGFIX quoting in search query does not seem to work(?)
+***** TODO Smart query: Linking to related articles?
+      'tag:time' should link to the quick reference on time article?
+
+      If someone searches for something time related, can the interactive
+      script to produce time expressions be shown above the search result?
+***** TODO Search results should have 'tag:' field linked
+      In the displayed search result, if a word has a 'tag:' field, then each
+      of these tag fields should be linked to a new search. E.g. an entry has
+      'tag: 1985; fighting', then clicking on the word '1985' should perform a
+      search for 'tag:1985', and clicking on 'fighting' should perform a search
+      for 'tag:fighting'.
+***** TODO Javascript version of dictionary (Faaast! Offline!)
+      Use Etag, use LocalStorage.
 ***** TODO Search "tlh:*H* en:*'* -tlh:betleH" should result in matches
       If one removes, or un-negates the last query word "-tlh:betleH" then the
       above search return results, but with it nothing is found. This is quite
@@ -2609,6 +2654,10 @@
 ****** TODO Make sure CSS works in MSIE/Chrome/Firefox/Safari
 ****** TODO Add "Advanced search" dropdown (script)
        This script should add the dropdown button + its menu.
+***** DONE Fix bad search suggestion
+      CLOSED: [2016-09-10 Sat 20:11]
+      Sometimes the suggestion to search for 'def:HQ10:4' appears. This is
+      incorrect and should be 'def:holqed-10-4'.
 ***** DONE new page header
       CLOSED: [2010-08-08 Sun 10:31]
 ***** DONE new page footer
@@ -3821,6 +3870,37 @@
       CLOSED: [2011-11-05 Sat 11:55]
       Usage could be e.g. 'regional', 'archaic' or 'slang'.
 ** "Errors in Okrandian Sources"
+*** TODO Add SkyBox S8 (and other SkyBox errors)
+    [http://www.klingon.org/smboard/index.php?topic=1659.0]
+    ------------------------------------------------------------
+    kreide2000
+    Scribe
+
+    Re: error in Conversational Klingon?
+    « Reply #3 on: 04 26, 2009, 01:12: AM »
+    http://klingonska.org/errors.html
+
+    This is quite a long list of errors. Strangely enough, it doesn't include
+    the error that you just found.
+
+    kreide
+    ------------------------------------------------------------
+    QoghtlhIH'u'
+    Old Guard
+    Lettered Veteran
+
+    Re: error in Conversational Klingon?
+    « Reply #4 on: 04 27, 2009, 02:35: AM »
+
+    It does not contain the typo's in the Skybox cards either.
+    For instance S8 with the title:
+
+    {Bat'telh}
+    Klingon Sword of Honor
+
+    In the Klingon text it is called: {batleH}
+    And elsewhere it is known as: {betleH}
+    ------------------------------------------------------------
 *** DONE Fix spelling of {me'mey} -> {mu'mey}
     CLOSED: [2011-09-16 Fri 14:14]
     From: Philip Newton <philip.newton@gmail.com>
@@ -3878,11 +3958,18 @@
 *** DONE {ghaytanHa'} shouldn't be word wrapped in table on ref/adv.html
     CLOSED: [2015-04-09 Thu 09:57]
 ** "A Quick Reference to Time Expressions in Klingon" [ref/time]
-*** TODO Add days of week
-*** TODO Add {ngugh} adverbial
-    Are there more time related adverbials that should be included?
-*** TODO Add recommendations -- Which time system is best?
-*** TODO Is the Eurotalk system the same as the CK one?
+*** DONE Javascript thingy to translate 24 hour time into Klingon
+    CLOSED: [2016-09-09 Fri 20:32]
+*** DONE Add days of week
+    CLOSED: [2016-09-10 Sat 02:17]
+*** DONE Add {ngugh} adverbial
+    CLOSED: [2016-09-10 Sat 01:42]
+*** DONE Are there more time related adverbials that should be included? - NO
+    CLOSED: [2016-09-10 Sat 19:00]
+*** DONE Add recommendations -- Which time system is best?
+    CLOSED: [2016-09-10 Sat 01:53]
+*** DONE Is the Eurotalk system the same as the CK one? - YES
+    CLOSED: [2016-09-10 Sat 01:53]
     See: http://klingonska.org/canon/2011-11-07-email.txt
     Analyse and add notes on whether the Talk Now way of specifying time is the
     same as the CK way.

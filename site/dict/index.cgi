@@ -138,7 +138,7 @@ our @tips = (
     'Hover over a field in search results to see field description.',
     'Use a search prefix (e.g. <a href="?q=tag:klcp1"><b>tag:klcp1</b></a>) ' .
         'to search only a given field (here: <b>tag:</b>).',
-    'Use <a href="?q=def:HQ10:4"><b>def:HQ10:4</b></a> to lists all words ' .
+    'Use <a href="?q=def:holqed-10-4"><b>def:holqed-10-4</b></a> to find all words ' .
         'first occurring in <i><a href="../canon/2001-12-holqed-10-4.txt">' .
         '<b lang=tlh>HolQeD</b> issue 10:4</a>.</i>',
     'Prefixes: <b>tlh:</b> = Klingon, <b>en:</b> = English, <b>sv:</b> = ' .
@@ -169,7 +169,7 @@ our @tips = (
     'Use quotes (<b>"…"</b>) to search for several words after each other.',
     'With multiple search words, all are needed for a match (e.g. ' .
         '<a href="?q=en:battle pos:v"><b>en:battle pos:v</b></a>).',
-    'Search is never case sensetive, except with <b>tlh:</b> prefix.',
+    'Search is case insensitive, except with <b>tlh:</b> prefix.',
 );
 
 
