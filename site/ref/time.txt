@@ -15,6 +15,7 @@ A Quick Reference to Time Expressions in Klingon
 * [Past](#past)
 * [Future](#future)
 * [Years and Months](#year)
+* [Days of the Week](#week)
 * [Time of Day](#times)
 * [Other](#other)
 
@@ -283,6 +284,31 @@ As for names of the months, we have no canon examples. Alan Anderson
 list](http://www.kli.org/tlhIngan-Hol/) (in <time datetime="1996-05-20">20 May
 1996</time>) that one should apply the same pattern as for years above, thus
 saying {tera' jar vagh} for the Terran month <<May>>.
+
+
+[week] Days of the Week
+-----------------------
+
+The Klingon week has six days. When Klingon have encountered cultures where the
+week is longer than their own, they use their traditional names until they run
+out and then number any remaining days, thus naming our <<Sunday>> {jaj wa'}
+<<day one>>.
+
+<table>
+  <thead><tr><th>Klingon<th>English</thead>
+  <tr><td>{DaSjaj}<td><<Monday>>
+  <tr><td>{povjaj}<td><<Tuesday>>
+  <tr><td>{ghItlhjaj}<td><<Wednesday>>
+  <tr><td>{loghjaj}<td><<Thursday>>
+  <tr><td>{buqjaj}<td><<Friday>>
+  <tr><td>{ghInjaj} or {lojmItjaj}<td><<Saturday>>
+  <tr><td>{jaj wa'}<td><<Sunday>>
+</table>
+
+
+The longer form for <<Saturday>>, {lojmItjaj}, is used for formal occasions, on
+other occasions the two forms are heard about equally often. <small>[{qepHom}
+12]</small>
 
 
 [times] Time of Day
