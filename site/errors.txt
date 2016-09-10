@@ -1,14 +1,13 @@
 : -*- html -*-
-updated: 2012-06-24 22:28+02
+updated: 2016-09-10T15:37:46+02
 created: 1998-09-22
 author: zrajm
-year: 1998-2011
+year: 1998-2016
 lang: en
 script: sorttable
 
 Errors in Okrandian Sources
 ===========================
-
 <ul>
   <li><a href="#TKD">The Klingon Dictionary</a>
   <li><a href="#CK">Conversational Klingon</a>
@@ -539,24 +538,66 @@ their contributions.
     <td>TKDa
 </table>
 
-[CK] Conversational Klingon (Audio Cassette)
---------------------------------------------
-I know of no errors, as of now.
+[CK] Conversational Klingon (Audio Course)
+------------------------------------------
+Playing time: 49:36 (49 minutes and 36 seconds).
 
 
-[PK] Power Klingon (Audio Cassette)
------------------------------------
-There are some words that occured here for the first time. The ones that I have
-discovered are listed below, note however, that I have made no systematic
-search, and that there are bound to be more of them.
+### [CK_Errata] Errata ###
 
-The spelling/pronunciation of the word {QI'lop} (the name of a Klingon holiday)
-from the tape is somewhat uncertain. This is due to the fact that Michael Dorn
-(whose pronunciation isn't exactly unambigious) is the only one speaking the
-word on the tape.
+<table class=sortable>
+  <caption>Time given in MM:SS.</caption>
+  <tr>
+    <th>Description
+    <th>Source
+    <th>Added
+  <tr>
+    <td>{maj} -- {qab} should be {QaQ} -- {qab}
+    <td class=nobr>CK 14:35
+    <td class=nobr>2016-09-09
+  <tr>
+    <td>{yIHmey DIHIj'a'} should be {yIHmey DaHIj'a'}
+    <td class=nobr>CK 21:38
+    <td class=nobr>2016-09-09
+  <tr>
+    <td>{wa'maH yIHmey lI'be'} suffix {-be'} not allowed on adjectival
+      verb (TKD 4.4)
+    <td class=nobr>CK 27:12
+    <td class=nobr>2016-09-09
+  <tr>
+    <td>{cha'maH wa'vatlh} should be
+      {wa'maH cha'vatlh} (noted in {HolQeD} 2:3 p.14)
+    <td class=nobr>CK 29:50
+    <td class=nobr>2016-09-09
+  <tr>
+    <td>{mu'aw' mInDu'wIj} maybe better written as {'oy' mInDu'wIj}
+    <td class=nobr>CK 36:35
+    <td class=nobr>2016-09-10
+  <tr>
+    <td>{peSop, tera'ngan} should be singular {yISop, tera'ngan}
+    <td class=nobr>CK 40:24
+    <td class=nobr>2016-09-10
+  <tr>
+    <td>{pIpyuS pach vISop!} has wrong prefix, should be {pIpyuS pach yISop!}
+    <td class=nobr>CK 41:03
+    <td class=nobr>2016-09-10
+  <tr>
+    <td>{'IwlIj jachjaj} backwards word order later explained (KGT p.25)
+    <td class=nobr>CK 44:09
+    <td class=nobr>2016-09-10
+  <tr>
+    <td>{pa'Daq qaStaH nuq} incorrect use of {-Daq} on {pa'} <<thereabouts>>
+    (TKD 3.3.5)
+    <td class=nobr>CK 44:16
+    <td class=nobr>2016-09-10
+  <tr>
+    <td>{qIp'egh nachDu'chaj, tlhIngan SuvwI'pu'} is weird
+    <td class=nobr>CK 44:21
+    <td class=nobr>2016-09-10
+</table>
 
 
-### [PK_New] New Words on the Tape ###
+### [PK_New] New Words ###
 
 <table class=sortable>
   <tr>
@@ -564,13 +605,88 @@ word on the tape.
     <th>English
     <th>Added
   <tr>
+    <td>{lupwI'}
+    <td>jitney, bus (n)
+    <td class=nobr>2016-09-10
+  <tr>
+    <td>{pegh}
+    <td>be secret (v)
+    <td class=nobr>2016-09-10
+</table>
+
+
+[PK] Power Klingon (Audio Course)
+---------------------------------
+Playing time: 1:12:01 (1 hour, 12 minutes and 1 second).
+
+
+### [PK_Errata] General Errata ###
+
+<table class=sortable>
+  <caption>Time given in MM:SS.</caption>
+  <tr>
+    <th>Description
+    <th>Source
+    <th>Added
+  <tr>
+    <td>{ghe'·'orDaq} contains superfluous space, should be {ghe''orDaq}
+    <td class=nobr>PK folder
+    <td class=nobr>2016-09-10
+  <tr>
+    <td>{DeSveth} is misspelled, should be {DeSvetlh}
+    <td class=nobr>PK folder
+    <td class=nobr>2016-09-10
+  <tr>
+    <td>*{puhIchwIj Dalegbu?} (regional dialect) is <i>probably</i> missing
+      {-'a'} suffix
+    <td class=nobr>PK 32:31
+    <td class=nobr>2016-09-10
+  <tr>
+    <td>{pu'HIchwIj Daleghpu'?} (standard dialect) is missing {-'a'} suffix
+    <td class=nobr>PK 32:39
+    <td class=nobr>2016-09-10
+  <tr>
+    <td>“I want eat meat” should be “I want to eat meat”
+    <td class=nobr>PK 32:58
+    <td class=nobr>2016-09-10
+</table>
+
+
+### [PK_New] New Words ###
+
+Spelling/pronunciation of {QI'lop} is somewhat uncertain, as only Michael Dorn
+speaks the word it on the tape, and his pronunciation isn't exactly…
+*unambiguous.*
+
+<table class=sortable>
+  <tr>
+    <th>Klingon
+    <th>English
+    <th>Added
+  <tr>
+    <td>{DevwI'}
+    <td>leader (n)
+    <td class=nobr>2016-09-10
+  <tr>
+    <td>{HuH}
+    <td>bile, slime (n)
+    <td class=nobr>2016-09-10
+  <tr>
+    <td>{mIp}
+    <td>wealth, richness (n)
+    <td class=nobr>2000-11-12 (?)
+  <tr>
+    <td>{mu'qaD veS}
+    <td>curse warefare (n)
+    <td class=nobr>2016-09-10
+  <tr>
     <td>{ngagh}
     <td>mate with (v)
     <td class=nobr>2000-11-12 (?)
   <tr>
-    <td>{mIp}
-    <td>wealth (n)
-    <td class=nobr>2000-11-12 (?)
+    <td>{QI'lop}
+    <td>a traditional holiday (n)
+    <td class=nobr>2016-09-10
 </table>
 
 [TKW] The Klingon Way (Book)
