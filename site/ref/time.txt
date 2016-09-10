@@ -1,5 +1,5 @@
 : -*- html -*-
-updated: 2016-09-09 20:29:23+02
+updated: 2016-09-10 18:56:23+02
 created: 1998-02-26
 author: zrajm
 year: 1998-2016
@@ -23,8 +23,9 @@ A Quick Reference to Time Expressions in Klingon
 [tell] Telling Time
 -------------------
 There are several ways of telling time in Klingon, though by far most complete
-and coherent system is the 24 hour “military time” described in *Conversational
-Klingon* (1992) and *TalkNow: Klingon* (2011):
+and coherent system is the 24 hour “military time” described in
+[*Conversational Klingon*](../canon/1992-10-01-ck.txt) (1992) and [*TalkNow:
+Klingon*](../canon/2011-11-07-email.txt) (2011):
 
 > “Klingons have adopted the way most civilized planets in the galaxy tell
 > time; They have twenty-four hour days. ‘Zero hours’, means midnight; ‘twelve
@@ -86,10 +87,11 @@ like this in use:
         Mailing List</i>, <time datetime="1996-05-20">20 May 1996</time>.
 </table>
 
-In <i>{HolQeD} 8:1</i> (March 1999) <em>two different</em> ways of telling the
-time were described. The first system, used for interplanetary communication,
-is exemplified in the following phrases (if the context is clear, the word
-{tera'} <<Earth>> may be left out, as in the last example below):
+In [*{HolQeD} 8:1*](../canon/1999-03-holqed-08-1.txt) (March 1999) *two
+different* ways of telling the time were described. The first system, used for
+interplanetary communication, is exemplified in the following phrases (if the
+context is clear, the word {tera'} <<Earth>> may be left out, as in the last
+example below):
 
 <table class="noborder dialogue">
   <tr>
@@ -272,12 +274,12 @@ now,>> and {leS} <<days from now>> are always preferred.
 [year] Years and Months
 -----------------------
 We have an example of how to write the year in the form of a copyright notice
-on the SkyBox trading cards, in which Marc Okrand translated the
-year <i>1994</i> into {tera' DIS wa'-Hut-Hut-loS}. This gives a pattern for
-writing years (which might be useful for large numbers, or series of numbers,
-as well -- e.g. telephone numbers). Saying the digits one after the other is
-also conveniently shorter than using the numeric elements for multiples of ten
-({-maH, -vatlh} etc.).
+on the SkyBox trading cards, in which Marc Okrand translated the year <<1994>>
+into {tera' DIS wa'-Hut-Hut-loS}. This gives a pattern for writing years (which
+might be useful for large numbers, or series of numbers, as well -- e.g.
+telephone numbers). Saying the digits one after the other is also conveniently
+shorter than using the numeric elements for multiples of ten ({-maH, -vatlh}
+etc.).
 
 As for names of the months, we have no canon examples. Alan Anderson
 &lt;caanders@netusa1.net&gt; has suggested to the [tlhingan-hol mailing
@@ -288,7 +290,6 @@ saying {tera' jar vagh} for the Terran month <<May>>.
 
 [week] Days of the Week
 -----------------------
-
 The Klingon week has six days. When Klingon have encountered cultures where the
 week is longer than their own, they use their traditional names until they run
 out and then number any remaining days, thus naming our <<Sunday>> {jaj wa'}
@@ -304,7 +305,6 @@ out and then number any remaining days, thus naming our <<Sunday>> {jaj wa'}
   <tr><td>{ghInjaj} or {lojmItjaj}<td><<Saturday>>
   <tr><td>{jaj wa'}<td><<Sunday>>
 </table>
-
 
 The longer form for <<Saturday>>, {lojmItjaj}, is used for formal occasions, on
 other occasions the two forms are heard about equally often. <small>[{qepHom}
@@ -348,9 +348,9 @@ Let's lump it all together under this heading.
 </table>
 
 If you want to know more about how to tell time in Klingon, you may want to
-read the articles “[Maltz Online](../canon/1999-03-holqed-08-1.txt)”
-in <i>{HolQeD} 8:1</i> (pp. 7--12) and “[{matlh juppu'
-mu'mey}](../canon/1999-09-holqed-08-3.txt)” in <i>{HolQeD} 8:3</i> (pp. 2--4)
+read the articles “[Maltz Online](../canon/1999-03-holqed-08-1.txt)” in
+*{HolQeD} 8:1* (pp. 7--12) and “[{matlh juppu'
+mu'mey}](../canon/1999-09-holqed-08-3.txt)” in *{HolQeD} 8:3* (pp. 2--4)
 written by Marc Okrand.
 
 <script>
