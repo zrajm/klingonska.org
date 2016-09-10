@@ -1,8 +1,8 @@
 : -*- html -*-
 created: 1999-08-08
-updated: 2013-04-12T05:22:48+0200
+updated: 2016-09-10T15:36:06+02
 author: zrajm
-year: 1999-2013
+year: 1999-2016
 lang: en
 
 Archive of Okrandian Canon
@@ -1215,7 +1215,7 @@ publication, or a description of its contents and/or form).
       <td class=nobr><big>2010-04-29</big>
       <td><big>»<a href="mtk.html">Message to Kronos</a>«
           (<a href="2010-04-29-mtk.txt">text</a>)</big>
-        <br><small>• Video, recorded by Marc Okrand, published via
+        <br><small>• Video, recorded by Marc Okrand, published on
           YouTube</small>
         <br>     Video recording of Marc Okrand reading an invitation for
         Klingons to come watch the performance of {'u'} -- “The First Authentic
@@ -1223,7 +1223,7 @@ publication, or a description of its contents and/or form).
         2010. Transcript from <i>tlhingan-hol</i> (28 July 2010). See also:
         “<a href="http://youtu.be/ujliyG96Cf8">Message to Kronos</a>” [YouTube]
         and <a href="http://www.u-theopera.org/">{'u'} -- The Opera</a> web
-        page. Abbreviated <i>’u’-MtK</i>.
+        page. Abbreviated <i>’u’-MtK</i> or just <i>MtK</i>.
     <tr>
       <td class=nobr><big>2010-07-26</big>
       <td><big>»<a href="2010-07-26-email.txt">Re: {mu' chu'}</a>«</big>

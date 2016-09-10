@@ -1,8 +1,8 @@
 : -*- html -*-
 created: 2011-11-01
-updated: 2011-11-01 14:55
+updated: 2016-09-10T15:29:11+02
 author: zrajm
-year: 2011
+year: 2011-2016
 lang: en
 
 Hallmark Bird-of-Prey Christmas Ornament Commercial
@@ -69,23 +69,24 @@ Transcript
 
 The last two lines are badly garbled. Whatever gibberish Crewman 2 is saying,
 from the verb prefix {wI-} it should be a singular object noun, probably formed
-from the verb {tlho'} <<thank>> or the noun {tlho'} <<appreciation, gratitude>>
--- *{tlho'meH nav/ghItlh} “thank you card”?
+from {tlho'} (v) <<thank>> or {tlho'} (n) <<appreciation, gratitude>> --
+*{tlho'meH nav/ghItlh} “thank you card”?
 
-“The commercial switches to Federation Standard displaying the ship and giving
-the sales pitch. After that we see the warriors speaking to one another as they
-leave through the door. [This scene seems to follow the rule: ‘If you can’t
-remember your lines, mumble a lot.’ We can only surmise that Dr. Okrand gave
-them some legitimate lines and they chose to fake it instead.]” (Glen Proechel)
+> **Glen Proechel:** “The commercial switches to Federation Standard displaying
+> the ship and giving the sales pitch. After that we see the warriors speaking
+> to one another as they leave through the door. [This scene seems to follow
+> the rule: ‘If you can’t remember your lines, mumble a lot.’ We can only
+> surmise that Dr. Okrand gave them some legitimate lines and they chose to
+> fake it instead.]”
 
-[Marc Okrand commented on the old MSN BBS (June 18,
-1997)](1997-06-18b-news.txt): “I haven’t seen the commercial in a while, but I
-don’t think {wov} was used as a noun there. Though the Klingons in the ad may
-have ad libbed a bit, the phrase the one Klingon was supposed to say regarding
-the little lights in the Bird of Prey ornament was {wovmoHbogh janHommey}. That
-is, <<little devices that cause (something) to be light or bright>> or
-<<little devices that brighten (something)>> or <<little devices that light
-(something) up>> or the like. {wov} is a verb <<be light, bright>> followed by
-the suffix {-moH} <<cause>> (thus, <<cause to be light>>).”
+> **Marc Okrand:** “I haven’t seen the commercial in a while, but I don’t think
+> {wov} was used as a noun there. Though the Klingons in the ad may have ad
+> libbed a bit, the phrase the one Klingon was supposed to say regarding the
+> little lights in the Bird of Prey ornament was: ‘{wovmoHbogh janHommey}’.
+> That is, <<little devices that cause (something) to be light or bright>> or
+> <<little devices that brighten (something)>> or <<little devices that light
+> (something) up>> or the like. {wov} is a verb <<be light, bright>> followed
+> by the suffix {-moH} <<cause>> (thus, <<cause to be light>>).” [[News
+> 1997-06-18b](1997-06-18b-news.txt)]
 
 [[eof]]

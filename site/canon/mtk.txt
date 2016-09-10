@@ -1,21 +1,17 @@
 : -*- html -*-
 created: 2011
-updated: 2015-03-10T08:59:47+0100
+updated: 2016-09-10T15:31:11+02
 author: zrajm
-year: 2011-2015
+year: 2011-2016
 lang: en
 
 Message to Kronos
 =================
 
-About
------
-Transcript of YouTube video “Message to Kronos”. This is a video recording of
-Marc Okrand reading an invitation for Klingons to come watch the performance of
-{'u'} -- “The First Authentic Klingon Opera on Earth”, first performed in The
-Hague, September 10, 2010. Transcript was taken from the *tlhingan-hol* mailing
-list (on July 28, 2010). Source commonly abbreviated *{'u'}-MTK* (or just
-*MKT*).
+This is a video recording of Marc Okrand reading an invitation for Klingons to
+come watch the performance of {'u'} -- “The First Authentic Klingon Opera on
+Earth”, first performed in The Hague, September 10, 2010. This source commonly
+referred to as *{'u'}-MTK* or just *MTK*.
 
 <figure><embed
     flashvars="file=2010-04-29-mtk.mp4&amp;image=2010-04-29-mtk.jpg&amp;controlbar.position=over"
@@ -26,19 +22,18 @@ list (on July 28, 2010). Source commonly abbreviated *{'u'}-MTK* (or just
     height=480
   ></figure>
 
+Below transcript was taken from the *tlhingan-hol* mailing list (posted July
+28, 2010):
 
-Transcript
-----------
 <table class="noborder dialogue">
   <tr>
-    <td>{Qo'noS tlhInganpu' -- qeylIS puqloDpu' puqbe'pu' je.}
-      <br><<Klingons of Kronos -- sons and daughters of Kahless.>>
+    <td>{Qo'noS tlhInganpu' -- qeylIS puqloDpu' puqbe'pu' je.} <<Klingons of
+      Kronos -- sons and daughters of Kahless.>>
   <tr>
-    <td>{tera'vo' SarI'.}
-      <br><<I hail you from Earth.>>
+    <td>{tera'vo' SarI'.} <<I hail you from Earth.>>
   <tr>
-    <td>{Marc Okrand jIH.  De' potlh vIlab.}
-      <br><<I am Marc Okrand and I bring you an important message.>>
+    <td>{Marc Okrand jIH. De' potlh vIlab.} <<I am Marc Okrand and I bring you
+      an important message.>>
   <tr>
     <td>{may' ghe'naQ lumuchrup tera'nganpu'.}
       <br><<We Terrans will be performing an authentic battle opera.>>
