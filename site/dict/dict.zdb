@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    e7eee91658c5884fec07d128b5d2874569a529f2
+SHA1:    1bb3b02e5bbf6770d2d98cbaf404c9bc2e6da080
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -1703,6 +1703,9 @@ en:	«bird»
 sv:	«fågel»
 def:	HolQeD-10-4 p.4
 ref:	KLINW
+cite:	The most general Klingon word for a creature of this type is {bo'Degh},
+	and this is the Klingon word Maltz would use to translate ~bird.~
+	[HolQeD-10-4 p.4]
 com:	general word for bird-like creature
 tag:	2001; animal
 id:	ZwB
@@ -2366,7 +2369,9 @@ pos:	noun
 en:	type of <animal>, «~chemvah~»
 sv:	ett slags «djur», «~chemvah~»
 def:	KGT
-com:	Klingon females sound like this animal when courting a potential mate.
+cite:	[I]t is relatively easy to tell if a Klingon is interested in you as a
+	potential mate. [...] [F]emale Klingons slink around like a Hellenian
+	Mynx and make sounds like the {chemvaH}. [PK]
 tag:	1997; animal; Klingonism
 id:	ezA
 
@@ -8546,6 +8551,7 @@ pos:	verb
 en:	<promise>
 sv:	«lova»
 def:	TKD
+pun:	Sounds quite a lot like English 'lie'.
 tag:	1985
 id:	2Ud
 
@@ -12739,6 +12745,11 @@ sv:	«vad»?
 desc:	{Dochvam nuq} ~what is this (thing)?~ [CK]; {qaStaH nuq} ~what is
 	happening?~ [TKD p.177]; acts as pronoun
 def:	TKD
+cite:	{Duj ghoStaH nuq} <What is coming toward the ship?> [TKD 6.4/p.69]
+cite:	{nuq legh yaS} <What does the officer see?> [TKD 6.4/p.69]
+cite:	Both {'Iv} and {nuq} are treated as nouns as far as the pronominal
+	prefixes are concerned. That is, they are considered third person. [TKD
+	6.4/p.69]
 tag:	1985
 id:	SPp
 
@@ -17424,8 +17435,8 @@ pos:	noun
 en:	a traditional «holiday»
 sv:	en traditionell «högtid»
 def:	PK
-com:	PK: "One which comes every tenth Klingon month is {QI'lop}. {QI'lop}
-	celebrates the superiority of the Klingon military."
+cite:	One [holiday] which comes every tenth Klingon month is {QI'lop}.
+	{QI'lop} celebrates the superiority of the Klingon military. [PK]
 tag:	1993
 id:	xpY
 meta:	This is a guess as to what Michael Dorn was pronouncing.
@@ -18820,6 +18831,8 @@ pos:	noun
 en:	<rokeg blood pie>
 sv:	«rokegsk blodpaj»
 def:	TKDa
+cite:	{ro'qegh'Iwchab 'ey law' qagh 'ey law'} ~The rokeg blood pie is as
+	delicious as the gagh.~ [HolQeD-13-1]
 tag:	1992
 id:	x1a
 
@@ -22095,6 +22108,8 @@ def:	TKD; TKW pp.161, 173
 cite:	{Dargh vItlhutlhDI' mutlhej torgh matlh je} ~I drink tea with Torg and
 	Maltz~ [lit. ~When I drink tea, Torg and Maltz accompany me~]
 	[HolQeD-02-4 p.18]
+cite:	{'Iw HIq vItlhutlh. mutlhej ghaH.} ~He/she drinks bloodwine with me.~
+	[1999-01-04b-News]
 tag:	1985; KLCP1
 id:	6vg
 meta:	This is labeled as a noun in TKD E-K, but MO corrected himself in
@@ -26194,6 +26209,12 @@ en:	<who>?
 sv:	«vem»?
 desc:	{'Iv SoH} or {SoH 'Iv} ~who are you?~ [CK]; acts as pronoun
 def:	TKD
+cite:	{yaS legh 'Iv} ~Who sees the officer?~ [TKD 6.4/p.69]
+cite:	{'Iv legh yaS} ~Whom does the officer see?~ [TKD 6.4/p.69]
+cite:	Both {'Iv} and {nuq} are treated as nouns as far as the pronominal
+	prefixes are concerned. That is, they are considered third person. [TKD
+	6.4/p.69]
+cite:	{SoH 'Iv?} ~Who are you?~ [CK]
 tag:	1985
 id:	JbX
 
@@ -26218,10 +26239,28 @@ tlh:	{'Iwghargh}
 pos:	noun
 en:	type of <animal>, <bloodworm>
 sv:	ett slags «djur», «blodmask»
-def:	KGT
-tag:	1997; animal
+def:	PK; KGT
+cite:	{reH HIvje'lIjDaq 'Iwghargh Datu'jaj.} ~May you always find a bloodworm
+	in your glass.~ [PK]
+cite:	{tun; reghuluS 'Iwghargh rur} ~soft as a Regulan bloodworm~ [TKD p.135]
+tag:	1993; animal; food
 id:	YUU
 meta:	Entries differ and have been combined here.
+
+tlh:	{'Iw HIq}
+pos:	noun
+en:	«bloodwine»
+sv:	«blodvin»
+def:	1999-01-04b-News
+cite:	{'Iw HIq vItlhutlh. mutlhej ghaH.} ~He/she drinks bloodwine with me.~
+	[1999-01-04b-News]
+cite:	{ghun 'Iw HIq, rap boqrat chej.} ~The bokrat liver is as warm as the
+	bloodwine.~ [HolQeD-13-1]
+cite:	{'Iw HIq bIr puS chuch bIr puS} ~The bloodwine is as cold as the ice
+	is.~ or ~The bloodwine is as cold as ice.~ [HolQeD-13-1]
+tag:	1999; food
+data:	phrase
+id:	GHh
 
 tlh:	{'Iw 'Ip ghomey}
 pos:	name
