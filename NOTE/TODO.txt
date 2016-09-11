@@ -1,6 +1,8 @@
 #+STARTUP: overview hidestars -*- org -*-
 #+TAGS: PROOF(p) TRANSCRIBE IMPORTANT
 
+* SECURITY: Canon search should not allow direct access to 'encrypted' docs
+  http://klingonska.org/canon/search/?file=1993-10-01-pk.txt
 * INBOX
   These should be inserted in the hierachy below.
 ** TODO Link to github issue tracker from webpage somehow
@@ -172,7 +174,7 @@
 *** TODO Remove unused stylesheets
 *** DONE Minify Javascript
 *** DONE Minify shylesheets
-*** [33%] Make HTML consistent
+*** [44%] Make HTML consistent
 **** DONE Remove optional tags: </td>, </th>, </li>, </dt>, </dd>, </tr>
      CLOSED: [2013-04-10 Wed 21:21]
 **** TODO Remove all occurances of tags ending in '/>'
@@ -188,9 +190,8 @@
 **** TODO Remove unnecessary quotes around attributes (primarily classes)
 **** DONE In markdown replace "&ndash;" -> "--"
      CLOSED: [2013-04-10 Wed 21:36]
-**** TODO "Archive of Okrandian Canon" should be italic where mentioned
-     Fix in:
-     http://klingonska.lal/dict/intro.html
+**** DONE "Archive of Okrandian Canon" should be italic where mentioned
+     CLOSED: [2016-09-11 Sun 02:18]
 **** TODO Dates in yyyy-mm-dd form should never be word wrapped
 **** TODO Make sure all HTML is lowercase
 *** TODO Minify HTML
@@ -2549,10 +2550,16 @@
       CLOSED: [2010-08-09 Mon 02:16]
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:16]
-**** [78%] intro.html
+**** [87%] intro.html
 ***** TODO update number of words in text
-***** TODO update url to "The Klingon Mailing List FAQ"
 ***** TODO Update list of Source Abbreviations to reflect dict.zdb content
+***** DONE Re-align tables
+      CLOSED: [2016-09-11 Sun 02:25]
+      Tables are currently right aligned. :(
+***** DONE update url to "The Klingon Mailing List FAQ"
+      CLOSED: [2016-09-11 Sun 02:18]
+***** DONE "Archive of Okrandian Canon" mention should be in italic
+      CLOSED: [2016-09-11 Sun 02:18]
 ***** DONE Correct faulty cell phone number
       CLOSED: [2011-08-30 Tue 22:53]
       Area code given as "79", instead of the correct "76".
@@ -2576,8 +2583,15 @@
       CLOSED: [2010-08-09 Mon 02:16]
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:16]
-**** [41%] lexicon.cgi
-***** TODO BUGFIX quoting in search query does not seem to work(?)
+**** [40%] lexicon.cgi
+***** TODO BUGFIX Search for `pos:v` matches fewer words than `pos:verb`
+      Searching for the abbreviated form `pos:v` only finds `pos:verb` not
+      `pos:verb suffix type 6` and similar.
+
+      http://klingonska.org/dict/?q=pos%3Av
+      vs
+      http://klingonska.org/dict/?q=pos%3Averb
+***** TODO BUGFIX Quoting in search query does not seem to work(?)
 ***** TODO Smart query: Linking to related articles?
       'tag:time' should link to the quick reference on time article?
 
@@ -2988,6 +3002,7 @@
       of the dictionary, but with a leading asterisk, and a warning they're not
       supposed to be used. Maybe add a 'warn' field, explaining why?
 **** [29%] Add words
+***** TODO {jIr} (excl)
 ***** TODO {qorghwI'} ("cork" or "plug"?)
       Article describing Lieven and Marc Okrand in conversation.
 ***** TODO {Qumran} ~scroll~
@@ -3901,6 +3916,10 @@
     In the Klingon text it is called: {batleH}
     And elsewhere it is known as: {betleH}
     ------------------------------------------------------------
+*** DONE Added 'Conversational Klingon'
+    CLOSED: [2016-09-10 Sat 15:42]
+*** DONE Added 'Power Klingon'
+    CLOSED: [2016-09-10 Sat 15:42]
 *** DONE Fix spelling of {me'mey} -> {mu'mey}
     CLOSED: [2011-09-16 Fri 14:14]
     From: Philip Newton <philip.newton@gmail.com>
@@ -3999,7 +4018,6 @@
 ** "Om Klingonska Akademien" -- Photos from {qep'a' SochDIch}
 *** "Photos from {qep'a' SochDIch}"
 **** TODO Use <div class=gallery> on site/akademien/photos/2.txt
-
 *** "Klingonska Akademien's Logo"
 **** TODO Move all the logos to the pic directory?
 **** DONE Add the moon logos as thumnails on the page
