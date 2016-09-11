@@ -3618,9 +3618,12 @@
 ***** DONE {ben} -- merge "years ago" and "years old"
       CLOSED: [2012-02-02 Thu 01:54]
       And give good, short examples in 'desc:'.
-***** TODO Replace all '¿?' with 'meta: FIXME'
-***** TODO Check word {lo' law'}
-***** TODO Swedish translation of {yo'SeH yaHnIv}
+***** DONE Replace all '¿?' with 'meta: FIXME'
+      CLOSED: [2016-09-11 Sun 06:31]
+***** DONE Check word {lo' law'}
+      CLOSED: [2016-09-11 Sun 06:38]
+***** DONE Swedish translation of {yo'SeH yaHnIv}
+      CLOSED: [2016-09-11 Sun 06:45]
 ***** TODO Swedish translation of "officer"
       Should be "personal" or "tjänsteman" or somesuch? [2006-08-22]
 ***** DONE Shortened unit word descriptions

@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    f5fab800928211cfac4ac665fe3cc93726ef47c0
+SHA1:    309f962b3a6db877de9880f7dc4d06c0310919db
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -1000,12 +1000,13 @@ id:	j8C
 tlh:	{betleH «bey'»}
 pos:	noun
 en:	«~bat'leth~ display»
-sv:	¿?«~bat'leth~-ställ»
+sv:	«~bat'leth~-ställ»
 def:	KCD
 ref:	KLINW
 tag:	1996; fighting; Klingonism
 data:	phrase
 id:	Wy7
+meta:	FIXME -- Should the Swedish translation be "ställ" or "uppvisning"?
 
 tlh:	{betleH «'obe'»}
 pos:	noun
@@ -1668,7 +1669,7 @@ meta:	FIXME -- Abstract/active meaning? (Such as a parent prohibiting a child
 tlh:	{botjan}
 pos:	noun
 en:	<shields> (force field on ship)
-sv:	«sköldar» (kraftfält omkring ett skepp)
+sv:	«sköldar» (kraftfält på skepp)
 def:	KGT
 tag:	1997
 id:	nXB
@@ -2766,7 +2767,7 @@ id:	MWE
 tlh:	{choQ}
 pos:	noun
 en:	«deck» (on a ship)
-sv:	«däck» (på ett skepp)
+sv:	«däck» (på skepp)
 def:	BoP
 tag:	1998
 id:	fmr
@@ -3855,7 +3856,7 @@ meta:	Entries from TKD and HolQeD-04-4 p.11 have been combined here.
 tlh:	{DIvI'may'Duj}
 pos:	noun
 en:	<Federation «battle cruiser»>
-sv:	¿?«federations«stridskryssare»»
+sv:	«federations«stridskryssare»»
 def:	TKD
 tag:	1985
 id:	zcZ
@@ -3887,7 +3888,7 @@ id:	VdU
 tlh:	{DoD}
 pos:	noun
 en:	<mark> (in coordinates)
-sv:	¿?«punkt», «komma», «avskiljare» (i koordinater)
+sv:	«mark», «märke», «punkt», «komma», «avskiljare» (i koordinater)
 def:	TKDa
 tag:	1992
 id:	wSb
@@ -6594,9 +6595,10 @@ pos:	verb
 en:	be <strong>
 sv:	vara «stark»
 def:	TKD
-pun:	{HoS} = H.o.S. = "Head of State" (¿?)
+pun:	{HoS} = H.o.S. = "Head of State"
 tag:	1985; KLCP1
 id:	v3t
+meta:	Is this really an intentional pun?
 
 tlh:	{HoS} [2]
 pos:	noun
@@ -7110,7 +7112,7 @@ id:	PFD
 tlh:	[2] {Hu'}
 pos:	noun
 en:	<days> ago
-sv:	¿?för ... «dagar» sedan
+sv:	för ... «dagar» sedan
 def:	TKD
 tag:	1985; time
 id:	Nze
@@ -7362,8 +7364,10 @@ id:	zWx
 tlh:	{jatyIn}
 pos:	noun
 en:	<spiritual possession>
-sv:	¿?«andlig hemsökelse», «besatthet»
+sv:	«andlig hemsökelse», «besatthet»
 def:	KGT
+cite:	{jatyIn} According to legend, spirits of the dead that possess the
+	living. [First mentioned in “Power Play” (TNG).] [DI p.245]
 tag:	1997; religion
 id:	TK2
 
@@ -8709,7 +8713,7 @@ id:	x9a
 tlh:	[2] {leS}
 pos:	noun
 en:	<days> from now
-sv:	¿?om ... «dagar»
+sv:	om ... «dagar»
 def:	TKD
 tag:	1985; time
 id:	kfD
@@ -8733,7 +8737,7 @@ id:	Hv9
 tlh:	{leSSov}
 pos:	noun
 en:	<foresight>
-sv:	¿?«framsynthet», «förutseende» / «korn» (på vapen)
+sv:	«framsynthet», «förutseende»
 def:	TKDa
 tag:	1992
 id:	Mqx
@@ -8988,7 +8992,7 @@ id:	xp8
 tlh:	{lIt}
 pos:	verb
 en:	<get> on (to)
-sv:	¿?«gå» ombord (på), «gå» upp (på), «kliva» upp (på)
+sv:	«gå» ombord (på), «gå» upp (på), «kliva» upp (på)
 def:	KGT
 tag:	1997
 id:	AaD
@@ -8996,8 +9000,9 @@ id:	AaD
 tlh:	{lItHa'}
 pos:	verb
 en:	<get> off (of)
-sv:	¿?«gå» av (ifrån), «gå» ned (ifrån), «kliva» av (ifrån)
+sv:	«gå» av (ifrån), «gå» ned (ifrån), «kliva» av (ifrån)
 def:	KGT
+cite:	{jol SeHlaw lItHa'!} ~Get off that transporter control panel!~ [PK]
 tag:	1997
 data:	derived form
 id:	Nxe
@@ -9476,6 +9481,9 @@ pos:	noun
 en:	«utility» (preceeds noun it modifies)
 sv:	«nytto», «bruks»
 def:	BoP
+cite:	{lo' law' lojmIt} ~utility hatch~ [BoP]
+cite:	{cha' choQmey naQ tu'lu' 'ej tep choQ bIngDaq lo' law' bID choQ tu'lu'}
+	~2 full decks and a half utility deck unter the cargo deck~ [BoP]
 tag:	1998
 data:	phrase; derived form
 id:	WkW
@@ -10063,7 +10071,7 @@ id:	X5j
 tlh:	{may'morgh}
 pos:	noun
 en:	<battle array>
-sv:	¿?«slagordning», «slaguppställning»
+sv:	«slagordning», «krigsuppställning», «stridsgruppering»
 def:	TKD
 tag:	1985
 id:	UFx
@@ -10904,7 +10912,8 @@ id:	hXV
 tlh:	{moy'bI'}
 pos:	noun
 en:	<slingshot>
-sv:	¿?«slunga», «slungmanöver» (runt himlakropp med rymdskepp)
+sv:	«slunga», «slungmanöver», «gravitationsslunga» (runt himlakropp med
+	rymdskepp)
 def:	TKD
 tag:	1985
 id:	3eH
@@ -11311,7 +11320,7 @@ id:	b1s
 tlh:	{naD} [1]
 pos:	verb
 en:	<praise>, <commend>, <approve>
-sv:	«berömma», «lovorda», «rekommendera», «gilla», «samtycka», «bifalla»
+sv:	«berömma», «lovorda», «rekommendera», «bifalla»
 def:	TKDa
 tag:	1992
 id:	L2p
@@ -11319,7 +11328,7 @@ id:	L2p
 tlh:	{naD} [2]
 pos:	noun
 en:	<commendation>
-sv:	¿?«rekommendation», «lovord», «befordran»
+sv:	«rekommendation», «lovord», «eloge»
 def:	TKDa
 tag:	1992
 id:	KTq
@@ -11337,7 +11346,7 @@ id:	xR6
 tlh:	{naDHa'}
 pos:	verb
 en:	<discommend>, «disapprove»
-sv:	ta «avstånd» ifrån, «ogilla», «avslå», «förkasta»
+sv:	ta «avstånd» ifrån, «avslå», «förkasta», «förebrå»
 def:	TKDa
 tag:	1992
 data:	derived form
@@ -11346,7 +11355,7 @@ id:	VY1
 tlh:	{naDHa'ghach}
 pos:	noun
 en:	<discommendation>
-sv:	¿?«degradering»
+sv:	«förebråelse», «förastelse», «avståndstagande»
 def:	TKDa 4.2.9/p.176
 tag:	1992
 id:	sz5
@@ -11354,7 +11363,7 @@ id:	sz5
 tlh:	{naDqa'ghach}
 pos:	noun
 en:	«re-commendation»
-sv:	¿?«återbefordran»
+sv:	«återrekommendation», «återlovordande»
 def:	TKDa 4.2.9/p.176
 tag:	1992
 id:	CK9
@@ -11362,7 +11371,7 @@ id:	CK9
 tlh:	{naD tetlh}
 pos:	noun
 en:	<Commendation List>
-sv:	¿?«rekommendationslista»
+sv:	«rekommendationslista», «lovordslista»
 def:	KGT
 tag:	1997
 data:	phrase
@@ -11471,7 +11480,7 @@ id:	NAk
 tlh:	{nalqaD}
 pos:	noun
 en:	<mate challenge>
-sv:	¿?«parningsutmaning»
+sv:	«parnings«utmaning»»
 def:	KGT
 tag:	1997
 id:	EbC
@@ -11682,7 +11691,7 @@ id:	P81
 tlh:	{naw'} [1]
 pos:	verb
 en:	«access»
-sv:	¿?«tillträda», «komma åt», ha tillgång till
+sv:	«tillträda», «komma åt», ha tillgång till
 def:	TKD K-E
 tag:	1985
 id:	ByE
@@ -11853,7 +11862,7 @@ id:	6H5
 tlh:	{nem}
 pos:	noun
 en:	<years> from now
-sv:	¿?om ... «år»
+sv:	om ... «år»
 desc:	see {ben}
 def:	TKD
 tag:	1985; time
@@ -11900,7 +11909,7 @@ id:	eeJ
 tlh:	{nentay}
 pos:	noun
 en:	<Rite of Ascension>
-sv:	¿?«Uppstigningsriten»
+sv:	«Uppstigningsrit»
 def:	TKDa
 tag:	1992
 id:	nX5
@@ -11908,7 +11917,7 @@ id:	nX5
 tlh:	{nentay cha'DIch}
 pos:	noun
 en:	Second «Rite of Ascension»
-sv:	¿?Andra «Uppstigningsriten»
+sv:	Andra «Uppstigningsriten»
 def:	KGT p.65
 tag:	1997
 data:	phrase; derived form
@@ -11917,7 +11926,7 @@ id:	M2T
 tlh:	{nentay wa'DIch}
 pos:	noun
 en:	First «Rite of Ascension»
-sv:	¿?Första «Uppstigningsriten»
+sv:	Första «Uppstigningsriten»
 def:	KGT p.177
 tag:	1997
 data:	phrase; derived form
@@ -13128,7 +13137,7 @@ id:	Z8F
 tlh:	{ngep}
 pos:	verb
 en:	<override>
-sv:	¿?«sätta sig över», «överskrida», «dominera», «åsidosätta»
+sv:	«sätta sig över», «överskrida», «åsidosätta»
 def:	TKD
 tag:	1985
 id:	fhc
@@ -13266,8 +13275,12 @@ id:	AvU
 tlh:	{ngoch}
 pos:	noun
 en:	<policy>
-sv:	¿?«policy», «politik»
+sv:	«policy», «politik»
 def:	TKDa
+cite:	{juHqo’Daq vaS’a’ tu’lu’. ngoch luchermeH ’ej wo’ San luwuqmeH pa’ ghom
+	tlhIngan yejquv DevwI’pu’.} [...] ~On the Homeworld, there is a great
+	hall where the leaders of the Klingon High Council meet to determine
+	policy and decide upon the fate of the Empire.~ [SBX-S25]
 tag:	1992
 id:	rwq
 
@@ -14257,7 +14270,7 @@ id:	e13
 tlh:	{pIq}
 pos:	noun
 en:	«time» period from now
-sv:	¿?om ...s «tid»
+sv:	om ... «tid»
 desc:	{cha' tup pIq} ~two minutes from now~ (lit. ~two minute
 	time-period-from-now~)
 def:	HolQeD-08-3 p.3
@@ -15408,7 +15421,7 @@ id:	yfn
 tlh:	[1] {qay}
 pos:	verb
 en:	«use» the «middle «finger»» («second finger»)
-sv:	¿?«använda» «lång«fingret»»
+sv:	«använda» «lång«fingret»»
 def:	HolQeD-10-2 p.7
 tag:	2001; body part
 id:	JUG
@@ -15776,7 +15789,7 @@ id:	ns1
 tlh:	{qew}
 pos:	verb
 en:	«use» the «ring «finger»» («third finger»)
-sv:	¿?«använda» «ring«fingret»»
+sv:	«använda» «ring«fingret»»
 def:	HolQeD-10-2 p.7
 tag:	2001; body part
 id:	YvW
@@ -16264,14 +16277,18 @@ en:	<tickle>
 sv:	«kittla»
 def:	TKD
 ref:	TKW p.131
+cite:	{cheqotlhchugh maHaghbe''a'? cheDuQchugh mareghbe''a'? cheQIHchugh
+	manoDbe''a'?} ~Tickle us, do we not laugh? Prick us, do we not bleed?
+	Wrong us, shall we not seek revenge?~ [TKW p.131]
 tag:	1985
 id:	i2b
 
 tlh:	[2] {qotlh}
 pos:	verb
 en:	<deserve>, <warrant>
-sv:	¿?«förtjäna», vara «värd», «rättfärdiga», «försvara»
+sv:	«förtjäna», vara förtjänt av, vara «värd»
 def:	KGT
+cite:	{bIyIntaH 'e' Daqotlhbe'.} ~You do not deserve to live.~ [PK]
 tag:	1997
 id:	TRL
 
@@ -16598,11 +16615,12 @@ id:	6aP
 tlh:	{quv bey'}
 pos:	noun
 en:	«honor display»
-sv:	¿?«hedersställ»
+sv:	«hedersställ»
 def:	KCD
 tag:	1996
 data:	phrase
 id:	Z2a
+meta:	FIXME -- Should the Swedish translation be "ställ" or "uppvisning"?
 
 tlh:	{quvHa'}
 pos:	verb
@@ -17268,7 +17286,7 @@ id:	u7U
 tlh:	{QIghpej}
 pos:	noun
 en:	Klingon <agonizer>
-sv:	¿?klingonsk «pinare», «pinosond»
+sv:	klingonsk «pinare», «pinosond»
 def:	TKD
 tag:	1985
 id:	ZAe
@@ -18346,7 +18364,7 @@ id:	YJ8
 tlh:	{rejmorgh}
 pos:	noun
 en:	«worrywart»
-sv:	¿?«ängsling» (ängslig person)
+sv:	«ängslare», «fjant», «pessimist» (person som oroar sig mycket)
 def:	TKD K-E
 tag:	1985
 id:	7xq
@@ -18362,7 +18380,7 @@ id:	wXf
 tlh:	{ret}
 pos:	noun
 en:	«time» period ago
-sv:	¿?för ...s «tid» sedan
+sv:	för ... «tid» sedan
 desc:	{cha' tup ret} ~two minutes ago~ (lit. ~two minute time-period-ago~)
 def:	HolQeD-08-3 p.3
 tag:	1999; time
@@ -18419,11 +18437,12 @@ id:	agF
 tlh:	{rIHwI'}
 pos:	noun
 en:	<energizer>
-sv:	¿?«energiförsörjare», «aktivator»
+sv:	«energiförsörjare», «aktivator»
 def:	TKD
 tag:	1985
 data:	derived form
 id:	E2T
+meta:	FIXME -- Swedish translation.
 
 tlh:	{rIl} [.1]
 pos:	verb
@@ -18953,7 +18972,7 @@ id:	mvz
 tlh:	{ruStay}
 pos:	noun
 en:	<bonding ritual>
-sv:	¿?«föreningsritual», «bindningsritual»
+sv:	«föreningsritual», «bindningsritual»
 def:	TKDa
 tag:	1992
 id:	Yob
@@ -19627,7 +19646,7 @@ id:	kkt
 tlh:	{SIq}
 pos:	verb
 en:	«use» the «index «finger»» («first finger»)
-sv:	¿?«använda» «pek«fingret»»
+sv:	«använda» «pek«fingret»»
 def:	HolQeD-10-2 p.7
 tag:	2001; body part
 id:	SyF
@@ -19943,7 +19962,7 @@ id:	AUN
 tlh:	{SoSbor}
 pos:	noun
 en:	«core»
-sv:	¿?«enhet», «kärna»
+sv:	«enhet», «kärna»
 def:	BoP
 cite:	{De'wI' SoSbor'a'} ~Main Computer Core~ [BoP]
 pun:	"motherboard"
@@ -19953,7 +19972,7 @@ id:	dRg
 tlh:	{SoSbor'a'}
 pos:	noun
 en:	«main «core»»
-sv:	¿?«huvud«kärna»», «huvud«enhet»»
+sv:	«huvud«kärna»», «huvud«enhet»»
 def:	BoP
 cite:	{De'wI' SoSbor'a'} ~Main Computer Core~ [BoP]
 tag:	1998
@@ -20012,7 +20031,7 @@ id:	hSC
 tlh:	{So'}
 pos:	verb
 en:	<hide>, <cloak>
-sv:	«gömma», «maskera»
+sv:	«gömma», «bemantla»
 def:	TKD
 ref:	TKW p.182
 tag:	1985; KLCP1
@@ -20021,8 +20040,7 @@ id:	EDz
 tlh:	{So'wI'}
 pos:	noun
 en:	<cloaking device>
-sv:	«maskering», «maskeringsanordning», «cloaking device»,
-	««kamouflage»mekanism»
+sv:	«bemantlingsenhet», ««kamouflage»don»
 def:	TKD
 tag:	1985
 data:	derived form
@@ -21271,7 +21289,7 @@ id:	XXZ
 tlh:	{tI'ang}
 pos:	name
 en:	«T'Ong» (a ship)
-sv:	«T'Ong» (ett skepp)
+sv:	«T'Ong» (skepp)
 def:	SBX-S15 (HolQeD-04-3-a)
 tag:	1995; Klingonism
 id:	fPs
@@ -21528,7 +21546,8 @@ id:	P2b
 tlh:	{tova'Daq}
 pos:	noun
 en:	<mind sharing>
-sv:	¿?«tankedelning», «medvetandefusion» (att dela medvetande)
+sv:	«tankedelning», «sinnesdelning», «medvetandefusion» (att dela
+	medvetande)
 def:	KGT
 tag:	1997
 id:	ari
@@ -21762,7 +21781,7 @@ id:	4to
 tlh:	{tuQDoq}
 pos:	noun
 en:	<mind sifter> (Klingon psychic probe)
-sv:	¿?«tankesikt», «tankesil», «psykisk sond» (klingonsk sinnessond)
+sv:	«tankesil», «sinnessållare», «psykisk sond» (klingonsk sinnessond)
 def:	TKD
 tag:	1985
 id:	trA
@@ -23220,8 +23239,9 @@ id:	nNn
 tlh:	{vID'Ir}
 pos:	noun
 en:	«baffle»
-sv:	¿?«platta», «baffelplåt», «skiljevägg», «mellanvägg»
+sv:	«baffelplåt», «skiljevägg», «mellanvägg»
 def:	BoP
+cite:	{tel vID'Irmey} ~Wing Baffles~ [BoP]
 tag:	1998
 id:	41x
 
@@ -23827,7 +23847,7 @@ meta:	FIXME -- Concrete/passive meaning? (Such as a stone or other unmovable
 tlh:	[2] {waQ}
 pos:	noun
 en:	«months» from now
-sv:	¿?om ... «månader»
+sv:	om ... «månader»
 desc:	see {ben}
 def:	HolQeD-08-3 p.3
 tag:	1999; time
@@ -23955,7 +23975,7 @@ id:	frF
 tlh:	{wech}
 pos:	verb
 en:	<serve> fermented food at its peak
-sv:	¿?«servera» jäst mat när den är som bäst
+sv:	«servera» jäst mat när den är som bäst
 def:	KGT
 tag:	1997; food
 id:	HtF
@@ -24055,7 +24075,7 @@ id:	rvf
 tlh:	{wen}
 pos:	noun
 en:	«months» ago
-sv:	¿?för ... «månader» sedan
+sv:	för ... «månader» sedan
 desc:	see {ben}
 def:	HolQeD-08-3 p.3
 tag:	1999; time
@@ -24593,7 +24613,7 @@ id:	Zmp
 tlh:	{yanwI'}
 pos:	noun
 en:	«swordfighter»
-sv:	«svärdsman»
+sv:	«svärdsfäktare», svärdskämpe
 def:	KGT p.61
 tag:	1997; fighting
 data:	derived form
@@ -25163,7 +25183,7 @@ id:	tf3
 tlh:	{yo'SeH yaHnIv}
 pos:	noun
 en:	«Operations Command»
-sv:	«Operationskommandot»
+sv:	«Operationskommando»
 def:	ST5 (HolQeD-08-4-b p.11)
 cite:	{HoD, yo'SeH yaHnIvvo' potlh De' wIHevtaH.} ~Captain, we are receiving
 	a priority message from Operations Command.~ [ST5]
@@ -25253,8 +25273,8 @@ id:	eKu
 
 tlh:	{yuQjIjDIvI'}
 pos:	noun
-en:	<United Federation of Planets>
-sv:	«Förenade «Planetfederationen»» (United Federation of Planets)
+en:	<United «Federation» of Planets>
+sv:	«Förenade» planeters «federation» (United Federation of Planets)
 def:	TKD E-K
 see:	{yuQjIjQa'}
 tag:	1985
@@ -25263,7 +25283,7 @@ id:	ipA
 tlh:	{yuQjIjQa'}
 pos:	noun
 en:	«United Federation of Planets»
-sv:	«Förenade «Planetfederationen»» (United Federation of Planets)
+sv:	«Förenade» planeters «federation» (United Federation of Planets)
 def:	TKD K-E
 see:	{yuQjIjDIvI'}
 tag:	1985
@@ -25737,8 +25757,14 @@ id:	wFv
 tlh:	{'ejDo'}
 pos:	noun
 en:	<starship>, starship class
-sv:	¿?«stjärnkryssare», stjärnkryssarklass
+sv:	«stjärnskepp», stjärnskeppsklass
 def:	TKD
+cite:	{nImbuS wejDaq 'ejDo' 'entepray' ngoHlu'pu'.} ~The Starship Enterprise
+	has been dispatched to Nimbus III.~ [ST5]
+cite:	{tera' vatlh DISpoH cha'maH loS bong QongmeH qItI'nga' Duj tI'ang
+	ghompu' DIvI' 'ejDo' 'entepray'.} ~A sleeper ship of this class, the
+	T'Ong, was encountered in the 24th century by the U.S.S. Enterprise.~
+	[SBX-S15]
 tag:	1985
 id:	dZQ
 
@@ -26577,7 +26603,7 @@ meta:	Entries differ and have been combined here.
 tlh:	{'oy'naQ}
 pos:	noun
 en:	<painstik>
-sv:	¿?«smärtchocksbatong», «smärtstav», «smärtstång»
+sv:	«smärtbatong», «smärtstav», «smärtstång»
 def:	TKDa; STE
 ref:	TKW p.205
 com:	"Painstik" does not end in "ck". [STE]
