@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    1bb3b02e5bbf6770d2d98cbaf404c9bc2e6da080
+SHA1:    f5fab800928211cfac4ac665fe3cc93726ef47c0
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -13895,7 +13895,6 @@ def:	CK; PK
 ref:	KGT
 cite:	{pegh De'vetlh.} ~That is classified information.~ [CK]
 cite:	{De' pegh vIghaj.} ~I have secret information.~ [PK]
-cite:	{peghHa'moH} ~cause to not keep a secret~ [KGT p.153]
 tag:	1992
 id:	qfd
 
@@ -13904,7 +13903,10 @@ pos:	verb
 en:	«keep» something <secret>
 sv:	«hålla» något «hemligt»
 def:	TKD
-cite:	{pegh} is also a verb meaning ~keep something secret~ [HolQeD-05-1]
+cite:	{ghoSmeH yIpegh. cha'maHvagh vatlhvI' Hong; QIt yIghoS.} ~Stealth
+	approach, slow to one-quarter impulse power.~ [ST5]
+cite:	{pegh vIttlhegh.} ~A proverb keeps things secret.~ [HolQeD-05-1]
+cite:	{peghHa'moH} ~cause to not keep a secret~ [KGT p.153]
 tag:	1985; KLCP1
 id:	9nv
 

@@ -262,6 +262,8 @@
 ** TODO Do a surf-through check for weird/old shit
 ** [10%] Systematic/site-wide changes
    I.e. changes that need to be applied to the web page as a whole.
+*** TODO Use source abbreviations reccomended by Klingonwiki
+    http://www.klingonwiki.net/En/Abbreviations
 *** TODO Improve table centering
     Fill tables (called 'fill tables' since they can fill the page
     horizontally, but grow no wider than that) are used with dialogue or
@@ -1669,6 +1671,16 @@
     to the prettified version (as well as to the original text formatted
     transcript).
 *** [61%] Transcripts updating/improvement
+**** TODO Updated time stamp info in CK
+     There are various time stamps spread out in the transcript, update these
+     to make sure that they're correct vis-à-vis the the digital audio files.
+
+     Concatenate CK into one big file before playing it. (The following
+     command, from the Ubuntu package `oggvideotools`, can be used to
+     concatenate oggfiles: `oggCat total.ogg *.ogg`.)
+**** TODO Updated time stamp info in PK
+     There are various time stamps spread out in the transcript, update these
+     to make sure that they're correct vis-à-vis the the digital audio files.
 **** [0%] Add more stuff to {qep'a'} descriptions/transcripts
 ***** TODO Where was each {qep'a'} held?
 ***** TODO Who was there?
@@ -1696,7 +1708,7 @@
 ***** TODO [[http://youtu.be/e5Did-eVQDc][Marc Okrand on Klingon]] [20:05]
 ***** TODO [[http://youtu.be/dbpal-4lMwA][Language Crafters]] [3:25]
       Interview with Paul Frommer (Na'vi), Marc Okrand (Klingon), David
-      Peterson (Dothraki) and Grant Goodall (Esperanto), each presenting
+      Peterson (Dothraki) and Grant Goodall (Esperanto), each introducing
       themselves in their own language.
 
       Okrand says: {Marc Okrand jIH. tlhIngan Hol vIchenmoHta'.}
@@ -3601,8 +3613,8 @@
 ***** DONE Use English (not Klingon) names in ref/def
       CLOSED: [2011-09-04 Sun 20:27]
 **** Minor / individual corrections
-***** TODO {pegh} clarify difference & give examples of the two verbs
-      Examples in 'desc:'.
+***** DONE {pegh} clarify difference & give examples of the two verbs
+      CLOSED: [2016-09-11 Sun 03:46]
 ***** DONE {ben} -- merge "years ago" and "years old"
       CLOSED: [2012-02-02 Thu 01:54]
       And give good, short examples in 'desc:'.
