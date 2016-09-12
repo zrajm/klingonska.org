@@ -1670,7 +1670,7 @@
     Each transcript in the http://klingonska.org/canon/ list should have a link
     to the prettified version (as well as to the original text formatted
     transcript).
-*** [61%] Transcripts updating/improvement
+*** [62%] Transcripts updating/improvement
 **** TODO Updated time stamp info in CK
      There are various time stamps spread out in the transcript, update these
      to make sure that they're correct vis-à-vis the the digital audio files.
@@ -1866,7 +1866,8 @@
 **** DONE Compare ST5 transcript with movie
      CLOSED: [2013-12-12 Thu 15:40]
 **** TODO Compare ST6 transcript with movie
-**** TODO Add text containing {Sa'Hut} "buttocks" (from {qep'a'} 2003)
+**** DONE Add text containing {Sa'Hut} "buttocks" (from {qep'a'} 2003)
+     CLOSED: [2013-12-12 Thu 16:35]
 **** TODO Add transcript of The Klingon Way (audio book)         :TRANSCRIBE:
 **** [66%] Add "Klingon words from _Diplomatic Implausibility_ (DI)"
 ***** TODO Add Klingon words from the body of text to transcript
@@ -3013,7 +3014,10 @@
       field. -- These words should be included in the Klingon--English version
       of the dictionary, but with a leading asterisk, and a warning they're not
       supposed to be used. Maybe add a 'warn' field, explaining why?
-**** [29%] Add words
+**** [31%] Add words
+***** TODO Math terms
+      From: 2000-09-holqed-09-3.txt: {boq}, {boqHa'}, {boq'egh}, {boqHa''egh},
+      {chen} should have translations "plus", "minus", "equals" etc.
 ***** TODO {jIr} (excl)
 ***** TODO {qorghwI'} ("cork" or "plug"?)
       Article describing Lieven and Marc Okrand in conversation.
@@ -3145,7 +3149,8 @@
        Similar to {wa' jaj} as in TKW p.177
        "The son of a Klingon is a man the day he can first hold a blade."
        {wa' jaj 'etlh 'uchchoHlaH tlhIngan puqloD; jajvetlh loD nen moj.}
-***** TODO Spik / skruv
+***** DONE Spik / skruv
+      CLOSED: [2013-10-27 Sun 19:37]
       Felix postade följande på [[https://www.facebook.com/groups/174607196006254/?fref=ts][Facebook]]
       2 - eller typ 2½, antar jag - nya ord idag, via allas vår älskade Qov!
       <Hut'In> = "spik"; <Hut'In vIl> = "fårad spik" = "skruv"; <wIl> = "pigg"
@@ -3641,9 +3646,6 @@
       about linguistics.'" [KLINW]
 ***** DONE Source "KCD Lab" should perhaps be only "KCD"
       CLOSED: [2011-10-03 Mon 04:21]
-***** TODO Math terms
-      From: 2000-09-holqed-09-3.txt: {boq}, {boqHa'}, {boq'egh}, {boqHa''egh},
-      {chen} should have translations "plus", "minus", "equals" etc.
 **** TODO Check source of words (from a Saarbrücken {qepHom}?)
      Are they really from {qep'a'} 2010? I would think that they would be from
      from a Saarbrücken {qepHom}?

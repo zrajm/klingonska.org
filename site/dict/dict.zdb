@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    309f962b3a6db877de9880f7dc4d06c0310919db
+SHA1:    542083deeec8c04bdfccc36518aca1f09c63d1d7
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -3311,6 +3311,7 @@ pos:	noun
 en:	<boot spike>
 sv:	«stövelspik», «kängspik», «tåspik»
 def:	TKD
+see:	{wIl} ~spike~; {DuQwI'} ~spike~
 tag:	1985; clothing
 id:	9Q3
 
@@ -4322,6 +4323,7 @@ pos:	noun
 en:	<spike>
 sv:	«tagg», «pigg»
 def:	KGT
+see:	{DaSpu'} ~boot spike~; {wIl} ~spike~
 tag:	1997
 data:	derived form
 id:	nkr
@@ -7053,7 +7055,7 @@ tlh:	{Hut'In}
 pos:	noun
 en:	«nail» (for carpentry)
 sv:	«spik»
-def:	2012-08-13-Email
+def:	2012-08-12-Email
 tag:	2012
 id:	jp8
 
@@ -7061,11 +7063,11 @@ tlh:	{Hut'In vIl}
 pos:	noun
 en:	«screw»
 sv:	«skruv»
-def:	2012-08-13-Email
+def:	2012-08-12-Email
 cite:	The word for ~screw~ is {Hut'In vIl}, which is, of course, a ridgy
-	{Hut'In}. Turns out {Hut'In} is the word for ~nail.~ [2012-08-13-Email]
+	{Hut'In}. [2012-08-12-Email]
 tag:	2012
-data:	phrase
+data:	derived form; phrase
 id:	bbi
 
 tlh:	{Hutlh}
@@ -8811,10 +8813,11 @@ id:	pWb
 tlh:	{le'mIS}
 pos:	noun
 en:	«blockade»
-sv:	«blockad»
+sv:	«blockad», «barrikad»
 def:	MKE (2012-01-01-Email; 2012-03-02-Email)
-cite:	{DIvI' le'mISvo' bInargh.} ~Escape Federation blockade.~
+cite:	{DIvI' le'mISvo' bInargh.} ~[You] escape Federation blockade.~
 	[2012-03-02-Email]
+pun:	Les Miserables has a blockade in it.
 tag:	2011
 id:	hLj
 
@@ -16484,8 +16487,8 @@ id:	add
 
 tlh:	{qung}
 pos:	noun
-en:	«hole», «perforation»
-sv:	«hål», «reva»
+en:	hole in «wind «instrument»», «hole», «perforation»
+sv:	hål i «blås«instrument»», «hål», «reva»
 desc:	cannot be filled (goes through s.t.)
 def:	HolQeD-10-2 p.8
 ref:	2012-01-26-Email
@@ -18515,10 +18518,10 @@ id:	Wsm
 tlh:	{rIt}
 pos:	verb
 en:	«summon»
-sv:	«tillkalla»
+sv:	«tillkalla», «kalla»
 def:	MKE (2012-01-01-Email; 2012-03-02-Email)
-cite:	{DurIt tlhIngan yejquv.} ~Summoned to the Klingon High Council.~
-	[2012-03-02-Email]
+cite:	{DurIt tlhIngan yejquv.} ~[You are] summoned to the Klingon High
+	Council.~ [2012-03-02-Email]
 tag:	2011
 id:	LwP
 
@@ -19299,6 +19302,8 @@ def:	2003-qep'a' (2003-09-16-Email)
 ref:	TDNW
 com:	This word was revealed by Marc Okrand during the hokey pokey at {qep'a'
 	wa'maHDIch} in 2003.
+pun:	(1) ~tuchas~ (Yiddish for buttocks) backwards. (2) "ass-sa-nine", i.e.
+	{Hut} (naHQun)
 tag:	2003; body part
 id:	vwJ
 
@@ -19547,7 +19552,7 @@ id:	61f
 tlh:	{SIbI'Ha'}
 pos:	verb
 en:	«later», «eventually», after a «delay»
-sv:	«senare», så «småningom», om ett tag
+sv:	«senare», så «småningom», om ett tag, «tids nog»
 def:	MKE (2012-01-01-Email; 2012-03-02-Email)
 cite:	{chaw'vam yIpol 'ej SIbI'Ha' yIlo' pagh 'oH yImech.} ~This card may be
 	kept until needed or traded.~ [2012-03-02-Email]
@@ -23021,7 +23026,7 @@ id:	wdz
 tlh:	{vel}
 pos:	verb
 en:	«cover», «coat», «mask»
-sv:	«täcka», «klä», «mattbelägga»
+sv:	«täcka», «klä», «övertäcka», «mattbelägga»
 def:	2012-01-12-Email
 cite:	One can say {rav vel tlhIm} (~the carpet covers the floor~). To to say
 	"lay a carpet," one says ~use a carpet to cover the floor~, or {rav
@@ -23835,7 +23840,7 @@ id:	Gre
 tlh:	[1] {waQ}
 pos:	verb
 en:	<obstruct>
-sv:	«hindra», vara i vägen för
+sv:	«hindra», vara «i vägen» för
 def:	TKD
 see:	{bot}
 tag:	1985
@@ -24197,9 +24202,11 @@ tlh:	{wIl}
 pos:	noun
 en:	«spike»
 sv:	«pigg», «spets»
-def:	2012-08-13-Email
+def:	2012-08-12-Email
+com:	Probably a larger spike.
 pun:	The character Spike from "Buffy the Vampire Slayer" was originally
 	named William. [Suggested by Robyn Stewart]
+see:	{DaSpu'} ~boot spike~; {DuQwI'} ~spike~
 tag:	2012
 id:	RNa
 
@@ -25484,7 +25491,7 @@ pos:	noun
 en:	«case», «container», «box»
 sv:	«fodral», «ask», «behållare», «låda»
 def:	TNK (2011-11-02-Email)
-ref:	2013-08-22-Email
+ref:	MKE; 2013-08-22-Email
 cite:	{wab qoSta' 'aplo'} ~cassette~ [TNK]
 cite:	{'ul 'aplo'mey} ~batteries~ [TNK]
 tag:	2011

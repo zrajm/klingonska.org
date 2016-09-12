@@ -909,19 +909,24 @@ sub check_see {
 
         # FIXME: should references from other fields also be considered?
         # (e.g. cite:, com: and desc:, maybe more?)
-        my ($year, $src) = do {                # creation year, based on source
-            local $_ = join("; ",              #   combine 'def:' and 'ref:'
-                $entry->{def}[0],
-                $entry->{ref}[0] // (),
-            );
-            my %year = map {                   #   source years => source
-                exists $year{$_} ? ($year{$_} => $_) : ();       #     year for each word in $_
-            } (/(?:^|[;(])\s*([\w'-]+)/g);     #     after start '(', ';'
-            my $first = (sort keys %year)[0];
-            ($first, $year{$first});           #   oldest year + source
-        };
-        push @warn, "First tag should be '$year' (not '$tag[0]') based on source " .
-            "\"$src\" in" if $year ne $tag[0];
+        if ($entry->{def} or $entry->{ref}) {
+            my ($year, $src) = do {                # creation year, based on source
+                local $_ = join("; ",              #   combine 'def:' and 'ref:'
+                    $entry->{def}[0] // (),
+                    $entry->{ref}[0] // (),
+                );
+                my %year = map {                   #   source years => source
+                    exists $year{$_}               #     year for each word in $_
+                        ? ($year{$_} => $_) : ();
+                } (/(?:^|[;(])\s*([\w'-]+)/g);     #     after start '(', ';'
+                my $first = (sort keys %year)[0];
+                defined($first)
+                    ? ($first, $year{$first})     #   oldest year + source
+                    : (undef, undef);
+            };
+            push @warn, "First tag should be '$year' (not '$tag[0]') based on source " .
+                "\"$src\" in" if defined($year) and $year ne $tag[0];
+        }
 
         foreach (@tag[1..$#tag]) {
             push @warn, "Unknown tag '$_' in"
