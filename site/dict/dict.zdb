@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    542083deeec8c04bdfccc36518aca1f09c63d1d7
+SHA1:    e3e920eeba22aff4cae015bbebda4a95b7ec8642
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -938,13 +938,25 @@ def:	TKD
 tag:	1985
 id:	7EW
 
-tlh:	{beq}
+tlh:	{beq} [.1]
 pos:	noun
 en:	<crew>, crewman
 sv:	«manskap», «besättningsman»
 def:	TKD
 tag:	1985
 id:	AxK
+meta:	FIXME -- Should this be merged with {beq} [.2] ~bekk~?
+
+tlh:	{beq} [.2]
+pos:	noun
+en:	«bekk» (rank)
+sv:	«bekk» (rang)
+def:	DI p.242 (2001-02-17-Email)
+cite:	~bekk~ ({beq}) A rank given to enlisted personnel in the Defense Force.
+	[First referenced in "Sons and Daughters" (DS9).] [DI p.242]
+tag:	2001
+id:	AY9
+meta:	FIXME -- Should this be merged with {beq} [.2] ~crew, crewman~?
 
 tlh:	{beqpuj}
 pos:	noun
@@ -994,6 +1006,11 @@ en:	type of hand <weapon>, «~bat'leth~»
 sv:	ett slags hand«vapen», «~bat'leth~»
 def:	TKDa
 ref:	TKW p.79
+cite:	~bat'leth~ ({betleH}) Curved, four-bladed, two-handed weapon. This is
+	the most popular handheld, edged weapon used by Klingon warriors, due
+	to it being favored by Kahless. The legendary Sword of Kahless was a
+	~bat'leth,~ and most Defense Force warriors are proficient with it.
+	[First seen in "Reunion" (TNG).] [DI p.241]
 tag:	1992; fighting; Klingonism
 id:	j8C
 
@@ -1312,12 +1329,15 @@ id:	MwK
 
 tlh:	{bIreQtagh}
 pos:	noun
-en:	<bregit lung>
-sv:	«bregitlunga»
+en:	<~bregit~ lung>
+sv:	«~bregitlunga~»
 def:	TKDa
 ref:	KLINW; KCD
+cite:	~bregit~ lung ({bIreQtagh}) Food made from the lung of an animal,
+	presumably a ~bregit.~ [First seen in "A Matter of Honor" (TNG).] [DI
+	p.242]
 com:	Food item shown and described on KCD.
-tag:	1992; food
+tag:	1992; food; Klingonism
 id:	Z16
 
 tlh:	{bIS'ub}
@@ -1558,6 +1578,10 @@ pos:	noun
 en:	type of <animal>, <~bokrat~>
 sv:	ett slags «djur», «~bokrat~»
 def:	KGT
+cite:	~bok-rat~ liver, stewed ({boqrat chej}) Food made from the liver of a
+	~bok-rat,~ apparently cooked to some degree, making it unusual among
+	Klingon foods. [First seen in "Soldiers of the Empire" (DS9).] [DI
+	p.242]
 tag:	1997; animal; food; Klingonism
 id:	HdE
 
@@ -2181,6 +2205,10 @@ pos:	noun
 en:	«aide», «second»
 sv:	«medhjälpare», «sekond»
 def:	TKW p.21
+cite:	{cha'DIch} Literally, ~second.~ During a legal proceeding, the accused
+	is denied combat, and so must have a second, called a {cha'DIch,} to
+	defend him or her. [First referenced in "Sins of the Father" (TNG).]
+	[DI p.242]
 tag:	1996
 id:	h6p
 
@@ -2308,6 +2336,10 @@ pos:	noun
 en:	type of <liquor>, <~chech'tluth~>
 sv:	en slags «sprit», «~chech'tluth~»
 def:	KGT
+cite:	~chech'tluth~ ({chechtlhutlh}) An alcoholic beverage best served heated
+	and steaming. The word seems to derive from the verbs meaning ~to
+	drink~ and ~to get drunk.~ [First seen in "Up the Long Ladder" (TNG).]
+	[DI p.242]
 tag:	1997; food; Klingonism
 id:	rZV
 meta:	Entries differ in source. The spelling "~baceh'tluth~" found in KGT K-E
@@ -2559,10 +2591,11 @@ id:	xGo
 tlh:	{chIm}
 pos:	verb
 en:	be <empty>, be <deserted>, be <uninhabited>, be «drained»
-sv:	vara «tom», vara «övergiven», vara «obebodd», vara «förbrukad»
+sv:	vara «tom», vara «övergiven», vara «obebodd», vara «förbrukad», vara
+	«tömd»
 def:	TKD; MKE (2012-01-01-Email; 2012-03-02-Email)
 cite:	{cha'pujqutmey chIm lutamlu'.} ~Drained dilithium crystals are
-	replaced.~ [2012-03-02-Email]
+	replaced.~ [MKE]
 tag:	1985
 id:	aAc
 meta:	Entries differ and have been combined here; ~be drained~ meaning
@@ -3256,7 +3289,14 @@ pos:	noun
 en:	<warrior's <knife>>, <~d'k tahg~>
 sv:	«krigares «kniv»», «~d'k tahg~»
 def:	KGT
-tag:	1997; Klingonism
+cite:	~d'k tahg~ ({Daqtagh}) Personal dagger. All Defense Force warriors
+	carry their own ~d'k tahg,~ which is personalized with their name and
+	House. [First seen in ~Star Trek III: The Search for Spock.~] [DI
+	p.242]
+see:	{DuQwI'Hommey} ~small spikes on the d'k tahg pommel~; {moQ} [.2]
+	~spiked pommel of a d'k tahg knife~; {tajHommey} ~retractable small
+	blades on a d'k tahg knife~
+tag:	1997; fighting; Klingonism
 id:	dbQ
 
 tlh:	{DaQ}
@@ -4333,7 +4373,10 @@ pos:	noun
 en:	small «spike»s on the «~d'k tahg~» pommel
 sv:	«pommel«spik»»ar, «pigg»ar på pommeln till en «~d'k tahg~»
 def:	KGT p.61
-tag:	1997
+see:	{Daqtagh} ~warrior's knife, d'k tahg~; {moQ} [.2] ~spiked pommel of a
+	d'k tahg knife~; {tajHommey} ~retractable small blades on a d'k tahg
+	knife~
+tag:	1997; fighting
 data:	derived form
 id:	2k5
 
@@ -4696,6 +4739,17 @@ def:	TKDa 5.5/p.178
 tag:	1992; curse
 id:	Vhe
 
+tlh:	{gha'poq}
+pos:	noun
+en:	«~grapok~ «sauce»»
+sv:	«~grapok«sås»~»
+def:	DI p.243 (2001-02-17-Email)
+cite:	~grapok~ sauce ({gha'poq}) Condiment, often used to bring out the
+	flavor in ~gagh~ or ~racht.~ [First seen in "Sons and Daughters"
+	(DS9).] [DI p.243]
+tag:	2001; food
+id:	fhz
+
 tlh:	{gha'tlhIq}
 pos:	noun
 en:	<ode of respect>
@@ -4834,6 +4888,9 @@ pos:	noun
 en:	<~Gre'thor~> (where spirits of dishonored go)
 sv:	«~Gre'thor~» (där de vanärades själar hamnar)
 def:	KGT
+cite:	~Gre'thor~ ({ghe'tor}) The afterlife for the dishonored dead---the
+	closest Klingon equivalent to hell. [First mentioned in "Devil's Due"
+	(TNG).] [DI p.243]
 com:	mythological place; similar to Hell
 tag:	1997; Klingonism; religion
 id:	z5y
@@ -4903,13 +4960,16 @@ id:	DKf
 
 tlh:	{ghIlab ghew}
 pos:	noun
-en:	<glob fly>
-sv:	«globfluga»
+en:	<~glob~ fly>
+sv:	«~globfluga~»
 def:	TKW pp.171, 173; KGT
 cite:	{ghIlab ghewmey tIbuSQo'.} ~Pay no heed to glob flies.~ A glob fly is a
 	tiny Klingon insect that makes a loud buzzing sound but has no stinger.
 	The proverb means "Don't pay attention to insignificant things." [TKW
 	p.171]
+cite:	~glob~ fly ({ghIlab ghew}) Small, irritating insect with no sting,
+	which makes a slight buzzing sound. [First referenced in "The
+	Outrageous Okona" (TNG).] [DI p.242]
 tag:	1996; animal
 data:	phrase; {ghIlab} (n)
 id:	hqv
@@ -5019,6 +5079,18 @@ sv:	«fjäll» (på djur)
 def:	KGT
 tag:	1997
 id:	4on
+
+tlh:	{ghISnar}
+pos:	noun
+en:	«grishnar cat»
+sv:	«grishnar«katt»»
+def:	DI p.243 (2001-02-17-Email)
+cite:	~Grishnar cat~ ({ghISnar}) Small animal, apparently not a very vicious
+	one, though with perhaps a predilection for trying to sound fiercer
+	than it actually is. [First referenced in "The Way of the Warrior"
+	(DS9).] [DI p.243]
+tag:	2001; animal
+id:	Gz1
 
 tlh:	{ghIt} [.1]
 pos:	noun
@@ -5906,6 +5978,8 @@ en:	<dog>, <cur>, <inferior person> [slang]
 sv:	«fähund», «usling», «tölp», «underlägsen person» [slang]
 def:	ST3; KGT
 cite:	{Ha'DIbaH!} ~Animal!~ [ST3]
+cite:	{Ha'DIbaH} Animal. Often used as an insult. [First used in "Sins of the
+	Father" (TNG).] [DI p.243]
 tag:	1984; curse
 id:	zVF
 
@@ -6458,7 +6532,6 @@ tlh:	{Hol}
 pos:	noun
 en:	<language>
 sv:	«språk»
-desc:	{vulqan Hol} ~Vulcan~, {vIraS Hol} ~French~
 def:	TKD
 cite:	Maltz said that for language names the construction "country + {Hol}"
 	is most common (so he preferred {DoyIchlan Hol}). Of course, it doesn't
@@ -6466,6 +6539,8 @@ cite:	Maltz said that for language names the construction "country + {Hol}"
 	alliance of another kind (which is why {DIvI' Hol} fits in). He noted
 	that {tlhIngan Hol} is really a shortened form of {tlhIngan wo' Hol},
 	but nobody ever says that in everyday speech. [2012-04-01-Email]
+cite:	{vulqangan Hol} ~Vulcan~ [2012-04-01-Email]
+cite:	{vIraS Hol} [~French~] [2012-04-01-Email]
 tag:	1985; KLCP1
 id:	ExS
 
@@ -6860,6 +6935,16 @@ def:	KGT p.17
 tag:	1997
 data:	phrase
 id:	uSr
+
+tlh:	{HuDyuQ}
+pos:	noun
+en:	«{HuDyuQ}» (planet)
+sv:	«{HuDyuQ}» (planet)
+def:	DI p.243 (2001-02-17-Email)
+cite:	{HuDyuQ} A mountainous planet. The name derives from the words meaning
+	"mountain" and "planet." [DI p.243]
+tag:	2001; animal
+id:	zah
 
 tlh:	{Hugh}
 pos:	noun
@@ -7369,7 +7454,7 @@ en:	<spiritual possession>
 sv:	«andlig hemsökelse», «besatthet»
 def:	KGT
 cite:	{jatyIn} According to legend, spirits of the dead that possess the
-	living. [First mentioned in “Power Play” (TNG).] [DI p.245]
+	living. [First mentioned in "Power Play" (TNG).] [DI p.243]
 tag:	1997; religion
 id:	TK2
 
@@ -7540,6 +7625,18 @@ def:	TKD
 ref:	TKW p.89
 tag:	1985; KLCP1
 id:	md2
+
+tlh:	{jeghpu'wI'}
+pos:	noun
+en:	«conquered people»
+sv:	«erövrat «folk»»
+def:	DI p.243 (2001-02-17-Email)
+cite:	{jeghpu'wI'} Conquered people---more than slaves, less than citizens,
+	this status is given to occupants of worlds conquered by the Klingon
+	Empire. [DI p.243]
+tag:	2001
+data:	derived form
+id:	gSe
 
 tlh:	{jeH}
 pos:	verb
@@ -8957,6 +9054,9 @@ pos:	noun
 en:	type of <animal>, <~lingta~>
 sv:	ett slags «djur», «~lingta~»
 def:	KGT
+cite:	~lingta~ ({lIngta'}) Large game animal indigenous to Qo'noS. [First
+	seen in "Looking for ~par'Mach~ in All the Wrong Places" (DS9).] [DI
+	p.243]
 tag:	1997; animal; food; Klingonism
 id:	nme
 
@@ -9015,7 +9115,8 @@ pos:	noun
 en:	<substitute>, <stand-in>, temporary <surrogate>
 sv:	«ersättning», «ersättare», tillfälligt «surrogat»
 def:	KGT
-see:	{qa'meH}; {qa'} ~replace~
+see:	{qa'} ~replace~; {qa'meH}; ~replacement~; {tam} ~exchange, substitute,
+	replace~
 tag:	1997
 id:	W1T
 
@@ -10098,6 +10199,19 @@ def:	TKD
 tag:	1985
 id:	JPe
 
+tlh:	{ma' to'vor}
+pos:	noun
+en:	«Mauk-to'Vor» (ritual)
+sv:	«Mauk-to'Vor» (ritual)
+def:	DI p.243 (2001-02-17-Email)
+cite:	~Mauk-to'Vor~ ({ma' to'vor}) A death ritual that allows one who has
+	lost honor to die well and go to ~Sto-Vo-Kor~ by being honorably killed
+	by a House-mate or someone equally close. [First seen in "Sons of Mogh"
+	(DS9).] [DI p.243]
+tag:	2001
+data:	phrase
+id:	RzU
+
 tlh:	{ma'veq}
 pos:	noun
 en:	type of «ceremonial «knife»», «~mevak~» (used in the ~Mauk-To'Vor~
@@ -10249,6 +10363,9 @@ pos:	noun
 en:	type of <weapon>, <~mek'leth~>
 sv:	ett slags «vapen», «~mek'leth~»
 def:	KGT
+cite:	~mek'leth~ ({meqleH}) A sword-like one- or two-handed weapon about half
+	the size of a ~bat'leth~. [First seen in "Sons of Mogh" (DS9).] [DI
+	p.244]
 com:	The short sword thing that Worf uses on DS9 and in the movie "First
 	Contact".
 tag:	1997; fighting; Klingonism
@@ -10850,7 +10967,10 @@ pos:	noun
 en:	spiked «pommel» of a «~d'k tahg~» knife
 sv:	spikförsedd «pommel» på en «~d'k tahg~»-kniv
 def:	KGT p.61
-tag:	1997
+see:	{Daqtagh} ~warrior's knife, d'k tahg~; {DuQwI'Hommey} ~small spikes on
+	the d'k tahg pommel~; {tajHommey} ~retractable small blades on a d'k
+	tahg knife~
+tag:	1997; fighting
 id:	K6W
 
 tlh:	{moQbara'}
@@ -13280,8 +13400,8 @@ pos:	noun
 en:	<policy>
 sv:	«policy», «politik»
 def:	TKDa
-cite:	{juHqo’Daq vaS’a’ tu’lu’. ngoch luchermeH ’ej wo’ San luwuqmeH pa’ ghom
-	tlhIngan yejquv DevwI’pu’.} [...] ~On the Homeworld, there is a great
+cite:	{juHqo'Daq vaS'a' tu'lu'. ngoch luchermeH 'ej wo' San luwuqmeH pa' ghom
+	tlhIngan yejquv DevwI'pu'.} [...] ~On the Homeworld, there is a great
 	hall where the leaders of the Klingon High Council meet to determine
 	policy and decide upon the fate of the Empire.~ [SBX-S25]
 tag:	1992
@@ -13721,9 +13841,12 @@ id:	Edd
 
 tlh:	{parmaq}
 pos:	noun
-en:	<love>, <romance>
-sv:	«kärlek», «romans»
+en:	«~par'Mach~», <love>, <romance>
+sv:	«~par'Mach~», «kärlek», «romans»
 def:	KGT
+cite:	~par'Mach~ ({parmaq}) Love, Klingon style---with much more intense
+	connotations than the English word. [First used in "Looking for
+	~par'Mach~ in All the Wrong Places" (DS9).] [DI p.244]
 tag:	1997
 id:	t3P
 
@@ -14062,9 +14185,11 @@ id:	tzz
 
 tlh:	{petaQ}
 pos:	exclamation
-en:	(«epithet»)
-sv:	(«epitet»)
+en:	«~pahtk~» («epithet»)
+sv:	«~pahtk~» («epitet»)
 def:	TKDa 5.5/p.178
+cite:	{petaQ} Insult with no direct translation. Sometimes Anglicized as
+	~pahtk.~ [First used in "The Defector" (TNG).] [DI p.244]
 com:	Paramount Hol: "pahtk".
 tag:	1992; curse
 id:	vCz
@@ -14262,10 +14387,12 @@ id:	E1u
 
 tlh:	{pIpyuS}
 pos:	noun
-en:	<pipius>
-sv:	«pippius»
+en:	<~pipius~>
+sv:	«~pippius~»
 def:	TKDa
 ref:	TKW p.185
+cite:	~pipius claw~ ({pIpyuS pach}) Food made from the claw of an animal.
+	[First seen in "A Matter of Honor" (TNG).] [DI p.244]
 com:	Animals whose claws are used for food, requiring breaking.
 tag:	1992; animal; food
 id:	e13
@@ -15102,6 +15229,8 @@ en:	<serpent worm> (as food), «~gagh~»
 sv:	«orm-mask» (som mat), «~gagh~»
 def:	TKDa
 ref:	TKW pp.137, 141
+cite:	~gagh~ ({qagh}) Food made from live serpent worms. [First seen in "A
+	Matter of Honor" (TNG).] [DI p.242]
 tag:	1992; food; Klingonism
 id:	17D
 meta:	Translation "~gagh~" taken from dictionary entry {ghevI'} ~sauce for
@@ -15178,6 +15307,18 @@ def:	TKD
 ref:	TKW p.200
 tag:	1985; KLCP1
 id:	6zV
+
+tlh:	{qamchIy}
+pos:	noun
+en:	«~Qam-Chee~»
+sv:	«~Qam-Chee~»
+def:	DI p.244 (2001-02-17-Email)
+cite:	~Qam-Chee~ ({qamchIy}) According to legend, an ancient village on
+	{Qo'noS} where Kahless and Lukara fought a great battle, a major
+	component of their courtship. [First mentioned in "Looking for
+	~par'Mach~ in All the Wrong Places" (DS9).] [DI p.244]
+tag:	2001
+id:	g4J
 
 tlh:	{qam Do Duj}
 pos:	noun
@@ -15456,11 +15597,12 @@ id:	dzh
 tlh:	[1] {qa'}
 pos:	verb
 en:	«replace»
-sv:	«ersätta»
+sv:	«ersätta», «byta» (ut)
 def:	MKE (2011-11-18-Email; 2012-03-02-Email)
 cite:	{Quj wa'DIch ~Monopoly~ Huch nav qa' tlhIngan QaS} ~Klingon forces
 	replace original Monopoly bills~ [MKE]
-see:	{lIw}
+see:	{lIw} ~substitute, stand-in, temporary surrogate~; {qa'meH};
+	~replacement~; {tam} ~exchange, substitute, replace~
 tag:	2011
 id:	fVD
 
@@ -15489,6 +15631,8 @@ cite:	The Klingon term for a ~replacement proverb~ is {qa'meH vIttlhegh}.
 	over for or is used instead of something that is gone or that has been
 	lost. It is not used for a temporary substitute or a stand-in; the word
 	for that is {lIw}. [HolQeD-05-1 p.10]
+see:	{lIw} ~substitute, stand-in, temporary surrogate~; {qa'} ~replace~;
+	{tam} ~exchange, substitute, replace~
 tag:	1996
 id:	6Sp
 
@@ -15569,6 +15713,7 @@ cite:	For example, one language may borrow (and, in the process, phonetically
 com:	Though likely coincidental, it is interesting to note that the Finnish
 	word for coffee, ~kahvi~ (or ~kahvin~ in the genetive), is frightfully
 	similar to {qa'vIn}.
+see:	{ra'taj} ~raktaj, coffee with liquor~
 tag:	1995; Anglicism; food
 id:	C2D
 meta:	Entries differ and have been combined here.
@@ -15636,6 +15781,9 @@ en:	<~kellicam~> («unit» of «length»)
 sv:	«~kellicam~» («längd«enhet»»)
 desc:	about 2 km
 def:	TKD; STE
+cite:	{qelI'qam} Unit of measurement roughly akin to two kilometers.
+	Sometimes Anglicized as ~kellicam.~ [First used in <Star Trek III: The
+	Search for Spock.>] [DI p.244]
 tag:	1985; Klingonism; measure
 id:	LbF
 meta:	In TKD translated as "kellicam (n)", added "unit of length" for clarity
@@ -16868,13 +17016,26 @@ def:	TKD
 tag:	1985; KLCP1
 id:	9xk
 
-tlh:	{Qang}
+tlh:	{Qang} [.1]
 pos:	noun
 en:	<chancellor>
 sv:	«kansler»
 def:	TKDa
 tag:	1992
 id:	ynu
+
+tlh:	{Qang} [.2]
+pos:	noun
+en:	«{Qang} class» (vessel)
+sv:	«{Qang}-klass» (av farkost)
+def:	DI p.244 (2001-02-17-Email)
+cite:	{Qang} ~Chancellor.~ A new class of Defense Force ships, of which the
+	~I.K.S. Gorkon~ is one, is the {Qang}-class, and all are named after
+	past chancellors of the empire (three of the others in the line are the
+	~I.K.S. Gowron,~ the ~I.K.S. Azetbur,~ and the ~I.K.S. K'mpec~). [DI
+	p.244]
+tag:	2001
+id:	KbN
 
 tlh:	{Qap} [.1]
 pos:	verb
@@ -16903,6 +17064,8 @@ en:	<success>
 sv:	«framgång»
 def:	TKD
 ref:	TKW pp.x, 49
+cite:	{Qapla'} Ritual greeting that literally means "success." [First used in
+	~Star Trek III: The Search for Spock.~] [DI p.244]
 tag:	1985; KLCP1
 id:	P9i
 
@@ -17048,6 +17211,16 @@ cite:	There are a few animals that make a particular ruckus at dawn. [...]
 	(~dawn~ {Qa'}). [HolQeD-10-4 p.5]
 tag:	1985; animal
 id:	atx
+
+tlh:	{Qa'Da'}
+pos:	noun
+en:	type of «animal», «~krada~»
+sv:	ett slags «djur», «~krada~»
+def:	DI p.243 (2001-02-17-Email)
+cite:	~krada~ legs ({Qa'Da'}) Food made from the extremities of a ~krada.~
+	[First mentioned in "The Sound of Her Voice" (DS9).] [DI p.243]
+tag:	2001; food
+id:	wkA
 
 tlh:	{Qa'Hom}
 pos:	noun
@@ -17490,6 +17663,8 @@ en:	*?!#@ («curse»)
 sv:	*?!#@ («svordom»)
 def:	TKD 5.5/p.58
 ref:	KCD
+cite:	{QI'yaH} Interjection with no direct translation. [First used in "Sins
+	of the Father" (TNG).] [DI p.245]
 com:	Vulgar Klingon expression; one of the strongest, most foul Klingon
 	expressions; it defies translation. [KCD]
 tag:	1985; curse
@@ -17789,11 +17964,17 @@ id:	36G
 
 tlh:	{Qo'noS}
 pos:	noun
-en:	<Kronos> (the Klingon «home world»)
+en:	<Kronos> (the Klingon «homeworld»)
 sv:	«Kronos» (den klingonska «hemvärld»en)
 def:	TKDa
+cite:	{Qo'noS} The Klingon Homeworld. Sometimes Anglicized as ~Kronos.~
+	[First referenced by that name in <Star Trek VI: The Undiscovered
+	Country.>] [DI p.245]
 tag:	1992
 id:	jpD
+meta:	The spelling "homeworld" (without space) is used in a majority of
+	sources (Sarek, SBX, TKW, FTG and KGT), while "home world" (with space)
+	is only used in early sources (TKD and KCD).
 
 tlh:	{Qub}
 pos:	verb
@@ -18071,6 +18252,8 @@ pos:	noun
 en:	type of <food>, «~racht~»
 sv:	en slags «mat», «~racht~»
 def:	KGT
+cite:	~racht~ ({raHta'}) Food made from live serpent worms (not to be
+	confused with ~gagh~). [First seen in "Melora" (DS9).] [DI p.245]
 tag:	1997; food; Klingonism
 id:	2TJ
 
@@ -18101,13 +18284,23 @@ ref:	TKW p.127
 tag:	1985; KLCP1; time
 id:	Tmp
 
-tlh:	{ramjep}
+tlh:	{ramjep} [.1]
 pos:	noun
 en:	<midnight>
 sv:	«midnatt»
 def:	TKD
 tag:	1985; time
 id:	zYH
+
+tlh:	{ramjep} [.2]
+pos:	noun
+en:	«~ramjep~», a type of «bird»
+sv:	«~ramjep~», ett slags «fågel»
+def:	DI p.245 (2001-02-17-Email)
+cite:	{~ramjep~ bird} Avian life-form indigenous to {Qo'noS} that only comes
+	out in the dark. Name literally means "midnight." [DI p.245]
+tag:	2001; animal
+id:	mBo
 
 tlh:	{rap}
 pos:	verb
@@ -18263,12 +18456,35 @@ id:	xPP
 
 tlh:	{ra'taj}
 pos:	noun
-en:	<coffee> with «liquor», type of <beverage>
-sv:	«kaffe» med «sprit» i, ett slags «dryck»
+en:	«~raktaj~», <coffee> with «liquor», type of <beverage>
+sv:	«~raktaj~», «kaffe» med «sprit» i, ett slags «dryck»
 def:	KGT
+cite:	As a rule, coffee is consumed plain---that is, black---but some
+	Klingons prefer to mix other ingredients in with the coffee. If some
+	kind of {HIq} (~liquor~) is added to the coffee, the drink is called
+	{ra'taj}. It is said that the drink was originally nicknamed {ra'wI'
+	taj} (~commander's knife,~ suggestive of its potency), and that the
+	name was shortened over time. This often repeated story cannot be
+	confirmed. In any event, {ra'taj} became one of the few Klingon foods
+	to become popular outside of the Empire, though in an altered form.
+	Instead of containing liquor, as does the genuine Klingon {ra'taj}, the
+	"export" version (which came to be pronounced ~raktaj~ in Federation
+	Standard) consists of strong Klingon coffee plus a nutlike flavoring.
+	Eventually, a new fashion developed---adding cream to the
+	<raktaj>---and with this innovation came yet another name, <raktajino>,
+	modeled after the name of another popular coffee drink, cappuccino.
+	<Raktajino> is now served hot or iced, with or without extra cream, and
+	with or without the rind of some fruit to add even more flavor. Though
+	it is sometimes called ~Klingon coffee,~ it is quite different from
+	both plain {qa'vIn} and the alcoholic {ra'taj}. [KGT p.96]
+cite:	~raktajino~ ({ra'taj}) Coffee, Klingon style. [First seen in "The
+	Passenger" (DS9).] [DI p.245]
+see:	{qa'vIn} ~coffee~
 tag:	1997; food
 id:	WuP
-meta:	Entries differ and have been combined here.
+meta:	Entries differ and have been combined here. The translation of {ra'taj}
+	as ~raktajino~ (in DI) is here ignore (in light of the longer
+	explanation from KGT).
 
 tlh:	{ra'wI'}
 pos:	noun
@@ -18857,6 +19073,9 @@ sv:	«rokegsk blodpaj»
 def:	TKDa
 cite:	{ro'qegh'Iwchab 'ey law' qagh 'ey law'} ~The rokeg blood pie is as
 	delicious as the gagh.~ [HolQeD-13-1]
+cite:	~rokeg blood pie~ ({ro'qegh'Iwchab}) Food apparently made from or with
+	the blood of an animal, possibly a ~rokeg.~ [First seen in "A Matter of
+	Honor" (TNG).] [DI p.245]
 tag:	1992
 id:	x1a
 
@@ -18967,6 +19186,8 @@ en:	<Rura Penthe>
 sv:	«Rura Penthe»
 def:	TKDa
 ref:	TKW p.190
+cite:	~Rura Penthe~ ({rura' pente'}) Prison planet mostly covered in ice.
+	[First seen in ~Star Trek VI: The Undiscovered Country.~] [DI p.245]
 com:	A frozen asteroid used by Klingons as a penal colony.
 tag:	1992
 data:	phrase; {rura'} (n); {pente'} (n)
@@ -18977,6 +19198,9 @@ pos:	noun
 en:	<bonding ritual>
 sv:	«föreningsritual», «bindningsritual»
 def:	TKDa
+cite:	~R'uustai~ ({ruStay}) Literally, "the bonding," this is a ritual that
+	allows an orphan to join another House. [First seen in "The Bonding"
+	(TNG).] [DI p.245]
 tag:	1992
 id:	Yob
 
@@ -20299,11 +20523,11 @@ id:	vEo
 
 tlh:	{Suto'vo'qor}
 pos:	noun
-en:	«Sto-Vo-Kor»
-sv:	«Sto-Vo-Kor»
-def:	DI p.248 (2001-02-17-Email)
+en:	«~Sto-Vo-Kor~»
+sv:	«~Sto-Vo-Kor~»
+def:	DI p.245 (2001-02-17-Email)
 ref:	TDNW
-cite:	~Sto-Vo-Kor~ ({Suto’vo’qor}) The afterlife for the honored dead, where
+cite:	~Sto-Vo-Kor~ ({Suto'vo'qor}) The afterlife for the honored dead, where
 	all true warriors go after they die to fight an eternal battle. The
 	closest Klingon equivalent to heaven. [First mentioned by name in
 	"Rightful Heir" (TNG).] [DI p.245]
@@ -20438,13 +20662,23 @@ ref:	TKW p.181
 tag:	1985; food; KLCP1
 id:	5Cy
 
-tlh:	{taD}
+tlh:	{taD} [1]
 pos:	verb
 en:	be <frozen>
 sv:	vara «frusen»
 def:	TKD
 tag:	1985; KLCP1
 id:	8Um
+
+tlh:	{taD} [2]
+pos:	noun
+en:	«taD» (planet)
+sv:	«taD» (planet)
+def:	DI p.245 (2001-02-17-Email)
+cite:	{taD} An ice-covered colony planet. The word literally means "frozen."
+	[DI p.245]
+tag:	2001
+id:	Ey3
 
 tlh:	{taDmoH}
 pos:	verb
@@ -20526,7 +20760,9 @@ pos:	noun
 en:	retractable small «blade»s on a «~d'k tahg~» knife
 sv:	små infällbara «blad» på en «~d'k tahg~» kniv
 def:	KGT p.61
-tag:	1997
+see:	{Daqtagh} ~warrior's knife, d'k tahg~; {DuQwI'Hommey} ~small spikes on
+	the d'k tahg pommel~; {moQ} [.2] ~spiked pommel of a d'k tahg knife~;
+tag:	1997; fighting
 id:	TjB
 
 tlh:	{tajtIq}
@@ -20573,9 +20809,11 @@ id:	CMR
 tlh:	[2] {tam}
 pos:	verb
 en:	<exchange>, <substitute>, «replace»
-sv:	«byta» (ut), «ersätta»
+sv:	«ersätta», «byta» (ut)
 def:	TKD
 ref:	MKE (2012-03-02-Email)
+see:	{lIw} ~substitute, stand-in, temporary surrogate~; {qa'} ~replace~;
+	{qa'meH}; ~replacement~
 tag:	1985
 id:	fKW
 
@@ -20644,6 +20882,10 @@ en:	<targ>
 sv:	«targ»
 def:	TKDa
 ref:	TKW p.173
+cite:	~targ~ ({targh}) Animal that is popular as a pet, but the heart of
+	which is also considered a delicacy. [First seen as a pet in "Where No
+	One Has Gone Before" (TNG) and as a food in "A Matter of Honor" (TNG).]
+	[DI p.245--246]
 tag:	1992
 id:	N1j
 
@@ -20739,6 +20981,17 @@ def:	TKD
 ref:	TKW pp.34, 209
 tag:	1985; KLCP1
 id:	4DW
+
+tlh:	{tay'ghoqor}
+pos:	noun
+en:	«Ty'Gokor» (planet)
+sv:	«Ty'Gokor» (planet)
+def:	DI p.246 (2001-02-17-Email)
+cite:	~Ty'Gokor~ ({tay'ghoqor}) A planet where the induction into the Order
+	of the ~Bat'leth~ takes place. [First seen in "Apocalypse Rising"
+	(DS9).] [DI p.246]
+tag:	2001
+id:	Vkw
 
 tlh:	[1] {ta'} [1]
 pos:	verb
@@ -21215,6 +21468,16 @@ com:	TKW: "[...] the heart stands for one's spirit or principles."
 tag:	1985; body part
 id:	2Gq
 
+tlh:	{tIqleH}
+pos:	noun
+en:	«tik'leth»
+sv:	«tik'leth»
+def:	DI p.246 (2001-02-17-Email)
+cite:	~tik'leth~ ({tIqleH}) An edged weapon, similar to an Earth longsword.
+	[First seen in "Reunion" (TNG).] [DI p.246]
+tag:	2001
+id:	czw
+
 tlh:	{tIqnagh}
 pos:	noun
 en:	type of <animal>, «~tknag~»
@@ -21370,12 +21633,14 @@ id:	4Lo
 
 tlh:	{toDSaH}
 pos:	exclamation
-en:	(«epithet»)
-sv:	(«epitet»)
+en:	«~tohzah~» («epithet»)
+sv:	«~tohzah~» («epitet»)
 def:	TKDa 5.5/p.178
 ref:	CK
 cite:	This next word is something one Klingon would call another, if they
 	weren't on the best of terms: {toDSaH}. [CK]
+cite:	{toDSaH} Insult with no direct translation. Sometimes Anglicized as
+	~tohzah.~ [First used in "The Defector" (TNG).] [DI p.246]
 com:	Paramount Hol: "tohzah".
 tag:	1992; curse
 id:	YvP
@@ -22067,6 +22332,8 @@ pos:	noun
 en:	type of <food>, <~gladst~>
 sv:	en slags «mat», «~gladst~»
 def:	KGT
+cite:	~gladst~ ({tlhatlh}) Food made from brown leaves, best served without
+	sauce. [First seen in "Melora" (DS9).] [DI p.242]
 tag:	1997; food; Klingonism
 id:	bAV
 
@@ -23220,8 +23487,8 @@ id:	5Kr
 
 tlh:	{vey}
 pos:	noun
-en:	«set», «pack», «package»
-sv:	«uppsättning», «packe», «bunt», «uppsättning»
+en:	«set», pack, «package»
+sv:	«sats», «uppsättning», «packe», «bunt», «uppsättning»
 def:	MKE (2012-03-02-Email)
 cite:	{wa' tlhIngan QaS vey} ~one pack of Klingon forces~ [MKE]
 cite:	{veymey puS neH chenmoHlu'pu'} ~Limited Edition~ [MKE]
@@ -23373,7 +23640,7 @@ id:	aVP
 
 tlh:	{vIraS Hol}
 pos:	noun
-en:	«French»
+en:	«French» (language)
 sv:	«Franska»
 def:	2012-04-01-Email
 tag:	2012

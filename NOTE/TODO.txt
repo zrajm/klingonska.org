@@ -2772,6 +2772,7 @@
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** `dict.zdb`
+**** TODO Difference between {qa'} ~replace~ and {tam} ~replace, exchange~
 **** TODO 'ETag' instead of 'SHA1' metadata field
      Hey! The Apache thingy on HCoop already implements ETag. Maybe remove SHA1
      for the benefit of the already present ETag?
@@ -3113,16 +3114,7 @@
 
       /Voragh
 ***** TODO Words from Star Trek: Communicator #104
-      These are some words. There are more.
-
-      barbara' ma'rIch    Barbara March
-      ghuwI'nItlh wa'lIS  Gwynyth Walsh
-      jan kalI'qoS        John Colicos
-      janluq pIqarD       Jean-Luc Picard
-      mayqel 'anSa'ra     Michael Ansara
-      mayqel Do'rIn       Michael Dorn
-      rabe'rIt 'o'raylIy  Robert O'Reilly
-      raqSan bIQ-DawSon   Roxann Biggs-Dawson
+      Transcript: '1995-08-stc.txt'
 ***** TODO Add {qep'a'} 2010 words to dictionary
       They're in the dictionary postamble, but only a couple of them are in the
       dictionary proper.
@@ -3182,26 +3174,35 @@
 ***** TODO Add {qISa'ruj} <raptor> (?)
       Described by Felix as: "Used for 'raptor-type ship', but does it actually
       mean raptor? Pun on 'jurassic'."
-***** [0%] Add words from _Diplomatic Implausibility_ (DI)
-      Using 'file: 2001-02-17-email.txt' should work for these words.
-****** TODO {ramjep} <bird>
+***** [66%] Add words from _Diplomatic Implausibility_ (DI)
+      Transcripts are '2001-02-01-di.txt' and '2001-02-17-email.txt'.
+****** TODO Add {ghojmoHwI'} from DI glossary to dictionary?
+       Does the following word in DI qualify for a dictionary entry? Also,
+       shouldn't "teacher" be {ghojwI'}, not {ghojmoHwI'}?
+
+           ------------------------------------------------------------
+           {ghojmoHwI'} "Teacher or mentor." [DI p.242]
+           ------------------------------------------------------------
+****** TODO Add '{<mong'em> maneuver}' from DI glossary to dictionary?
+       Does the following word in DI qualify for a dictionary entry? ({mong}
+       ~neck~, {'em} ~area behind~)
+
+           ------------------------------------------------------------
+           {<mong'em> maneuver} A parry where you thrust a sword or other edged
+           weapon behind your neck in order to block an attack from the rear. [DI
+           p.244]
+           ------------------------------------------------------------
+****** DONE Add DI glossary definitions to dictionary
+       CLOSED: [2016-09-14 Wed 17:23]
+****** DONE {ramjep} <bird>
+       CLOSED: [2016-09-14 Wed 17:31]
        Should have "cat: animal".
-
-       Avian life-form indigenous to Qo'noS that only comes out in the dark.
-       Name literally means "midnight."
-****** TODO {ghISnar} <Grisnar cat>
+****** DONE {ghISnar} <Grisnar cat>
+       CLOSED: [2016-09-14 Web 17:32]
        Should have "cat: animal".
-
-       Should the word be {ghISnar vIghro'}?
-
-       Small animal, apparently not a very vicious one, though with perhaps a
-       predilection for trying to sound fiercer than it actually is. [First
-       referenced in "The Way of the Warrior" (DS9).]
-****** TODO {Qa'Da'} <krada>
+****** DONE {Qa'Da'} <krada>
+       CLOSED: [2016-09-14 Wed 17:33]
        Should have "cat: animal".
-
-       Food made from the extremities of a krada. [First mentioned in "The
-       Sound of Her Voice" (DS9).]
 ***** [0%] Words from the Klingon opera {'u'}
       https://mail.google.com/mail/#search/tlheng'IQ/12a0fa8c18c6f6a3
 ****** TODO {ghIv} limb (of a person)
@@ -3491,6 +3492,10 @@
 ***** TODO KGT main text words (names etc.)
       e.g. "Kayvak", "digna", "ka'raj", "bregit", "Saurian", "raktaj"
 **** [0%] Changes affecting several words
+***** TODO Place names in dictionary should be clearly marked as such
+      Use 'tag:place' or 'tag:location' or similar. Also add comment about what
+      kinda place (planet, town, country?). Preferable add references to
+      episodes as well (wherever possible).
 ***** [0%] Compare dictionary with {boQwI'} database
       https://code.google.com/p/klingon-assistant/source/browse/KlingonAssistant/data/
 ****** TODO Add synonyms/antonyms?
@@ -3989,6 +3994,8 @@
 
    qe’San
 ** "A Quick Reference to Adverbials in Klingon" [ref/adv]
+*** TODO Add {vabDot} ~even, also, additionary~ (from MKE)
+    More adverbials as well?
 *** DONE Update list of adverbials
     CLOSED: [2013-04-02 Tue 05:27]
 *** DONE {ghaytanHa'} shouldn't be word wrapped in table on ref/adv.html
