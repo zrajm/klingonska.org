@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    e3e920eeba22aff4cae015bbebda4a95b7ec8642
+SHA1:    7822e979ca40564ce9366d664db77de6cdbc3fab
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -1578,12 +1578,25 @@ pos:	noun
 en:	type of <animal>, <~bokrat~>
 sv:	ett slags «djur», «~bokrat~»
 def:	KGT
+see:	{boqrat chej} ~stewed bokrat liver~
+tag:	1997; food; Klingonism
+id:	HdE
+meta:	Spelled "bok-rat" in DI, "bokrat" in KGT. KGT spelling used here.
+
+tlh:	{boqrat chej}
+pos:	noun
+en:	«stew»ed «~bokrat~» «liver»
+sv:	«stuvad «~bokrat«lever»~»»
+def:	KGT
 cite:	~bok-rat~ liver, stewed ({boqrat chej}) Food made from the liver of a
 	~bok-rat,~ apparently cooked to some degree, making it unusual among
 	Klingon foods. [First seen in "Soldiers of the Empire" (DS9).] [DI
 	p.242]
-tag:	1997; animal; food; Klingonism
-id:	HdE
+see:	{boqrat} ~bokrat~
+tag:	1997; food; Klingonism
+data:	phrase
+id:	Ke6
+meta:	Spelled "bok-rat" in DI, "bokrat" in KGT. KGT spelling used here.
 
 tlh:	{boq «ru'»}
 pos:	noun
@@ -24895,8 +24908,8 @@ id:	CAD
 
 tlh:	{yan 'ISletlh}
 pos:	noun
-en:	«Yan-Isleth», Svärdets brödraskap
-sv:	«Yan-Isleth», Brotherhood of the Sword
+en:	«~Yan-Isleth~», «Svärdets «brödraskap»»
+sv:	«~Yan-Isleth~», «Brotherhood of the «Sword»»
 def:	MKE (2012-03-02-Email)
 cite:	{Qang QanmeH yan 'ISletlh Damuv 'e' wIvlu'.} ~You are chosen to serve
 	on the Yan-Isleth and protect the Chancellor.~ [MKE]

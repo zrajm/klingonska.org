@@ -3228,7 +3228,7 @@
       Add the words from canon/2011-08-22-email.txt
 ***** TODO Is there a word for "Morska"?
       (as in "the Morskan dialect")
-***** DOING Check that all mughom.wizage.net "New Words" are present [43%]
+***** DOING Check that all mughom.wizage.net "New Words" are present [70%]
       http://mughom.wizage.net
       This is a list of the last 100 words added to the database.
 ****** DONE Tell {qurgh} that {veH tIn} "great barrier" is a place name
@@ -3244,7 +3244,8 @@
        CLOSED: [2011-02-07 Mon 02:14]
 ****** DONE yopwaH buq	(noun)	pant (trouser) pouch, pocket
        CLOSED: [2011-02-07 Mon 02:18]
-****** TODO QongDaq buqHom	(noun)	pillow
+****** DONE QongDaq buqHom	(noun)	pillow
+       CLOSED: [2011-11-01 Tue 22:17]
 ****** TODO QongDaq buq'a'	(noun)	sleeping bag
 ****** DONE buq	(noun)	bag, sack, pouch, pocket
        CLOSED: [2011-02-07 Mon 02:18]
@@ -3290,8 +3291,10 @@
        CLOSED: [2011-02-07 Mon 12:15]
 ****** DONE pIn tlhoy'	(noun)	territorial wall
        CLOSED: [2011-02-07 Mon 12:16]
-****** TODO qolqoS	(noun)	core of a group, the essential part of something; essence
-****** TODO pu'jIn	(noun)	map, plan (as in a building plan)
+****** DONE qolqoS	(noun)	core of a group
+       CLOSED: [2010-12-03 Fri 21:23]
+****** DONE pu'jIn	(noun)	map, plan (as in a building plan)
+       CLOSED: [2010-12-03 Fri 21:23]
 ****** TODO tlhongaD	(noun)	klongat - Animal native to Qo'noS that is much larger than a targ and more difficult to subdue.
 ****** TODO vIHbe'	(noun)	A paralyzing poison that leaves no trace. Word literally means not move
 ****** TODO tlhIghaq	(noun)	trigak - A predatory animal with sharp teeth that it bares before it attacks.
@@ -3299,21 +3302,29 @@
 ****** TODO ghInaq	(noun)	grinnak - A game
 ****** TODO bolmaq	(noun)	An animal native to the planet Boreth that makes a bleating sound and tends to run around in circles a lot.
 ****** TODO QaS DevwI'	(noun)	Troop commander, troop leader, roughly analogous to sergeant, used as title such as QaS DevwI' Vok (Vok being the name of one of the characters in the book)
-****** TODO tIqleH	(noun)	tik'leth - An edged weapon similar to Earth long sword.
+****** DONE tIqleH	(noun)	tik'leth
+       CLOSED: [2016-09-14 Wed 17:49]
 ****** TODO taqnar	(noun)	taknar gizzards
 ****** DONE Suto'vo'qor	(noun)	Sto-Vo-Kor
        CLOSED: [2011-02-07 Mon 12:19]
 ****** TODO So'HIp	(noun)	Literally uniform of hiding, this is a camouflage outfit that changes color in order to blend with the background of the environment the wearer is currently inhabiting.
-****** TODO ramjep	(noun)	a type of bird (probably nocturnal)
-****** TODO moqbara	(noun)	mok'bara
+****** DONE ramjep	(noun)	a type of bird
+       CLOSED: [2016-09-14 Wed 17:49]
+****** DONE moqbara	(noun)	mok'bara
+       CLOSED: [2009-04-07 Tue 05:23]
 ****** TODO mevaq	(noun)	mevak dagger
-****** TODO ma'to'vor	(noun)	Mauk-to'Vor
-****** TODO jeghpu'wI'	(noun)	conquered people -- more than slaves, less than citizens. The status given to natives of worlds conquered by the Klingon Empire
+****** DONE ma'to'vor	(noun)	Mauk-to'Vor
+       CLOSED: [2016-09-14 Wed 17:49]
+****** DONE jeghpu'wI'	(noun)	conquered people
+       CLOSED: [2016-09-14 Wed 17:49]
 ****** TODO Habnagh	(noun)	a type of stone indigenous to Qo'noS. Often used in statuary
-****** TODO ghISnar	(noun)	grishnar cat (from Diplomatic Implausability)
-****** TODO gha'poq	(noun)	grapok sauce
+****** DONE ghISnar	(noun)	grishnar cat (from Diplomatic Implausability)
+       CLOSED: [2016-09-14 Wed 17:49]
+****** DONE gha'poq	(noun)	grapok sauce
+       CLOSED: [2016-09-14 Wed 17:49]
 ****** TODO Da'ar	(noun)	Dahar (master)
-****** TODO boqrat chej	(noun)	bok-rat liver, stewed
+****** DONE boqrat chej	(noun)	bok-rat liver, stewed
+       CLOSED: [2016-09-14 Wed 20:57]
 ****** TODO 'aDanjI'	(noun)	adanji
 ****** DONE vIlle'	(noun)	minion
        CLOSED: [2011-02-07 Mon 12:22]
@@ -3358,26 +3369,41 @@
        CLOSED: [2011-02-07 Mon 12:34]
 ****** DONE pIq	(noun)	time period from now (future)
        CLOSED: [2011-02-07 Mon 12:35]
-****** TODO peQ chem	(noun)	magnetic field
-****** TODO qan	(verb)	use the fourth finger (pinky/little finger)
-****** TODO qanwI'	(noun)	fourth finger, little finger
-****** TODO qaywI'	(noun)	second finger, middle finger
-****** TODO qewwI'	(noun)	ring finger, third finger
-****** TODO qew	(verb)	use the ring (third) finger
-****** TODO rIlwI'	(noun)	thumb
-****** TODO SenwI'	(noun)	thumb
-****** TODO Sen	(verb)	use the thumb
+****** DONE peQ chem	(noun)	magnetic field
+       CLOSED: [2009-04-07 Tue 05:23]
+****** DONE qan	(verb)	use the fourth finger (pinky/little finger)
+       CLOSED: [2012-01-26 Thu 12:52]
+****** DONE qanwI'	(noun)	fourth finger, little finger
+       CLOSED: [2009-04-07 Tue 05:23]
+****** DONE qaywI'	(noun)	second finger, middle finger
+       CLOSED: [2009-04-07 Tue 05:23]
+****** DONE qewwI'	(noun)	ring finger, third finger
+       CLOSED: [2009-04-07 Tue 05:23]
+****** DONE qew	(verb)	use the ring (third) finger
+       CLOSED: [2009-04-07 Tue 05:23]
+****** DONE rIlwI'	(noun)	thumb
+       CLOSED: [2009-04-07 Tue 05:23]
+****** DONE SenwI'	(noun)	thumb
+       CLOSED: [2009-04-07 Tue 05:23]
+****** DONE Sen	(verb)	use the thumb
+       CLOSED: [2009-04-07 Tue 05:23]
 ****** TODO Do QIn	(noun)	Instant Message (IM)
 ****** TODO moD Soj	(noun)	fast food
 ****** TODO Do Qe'	(noun)	fast food resturant
-****** TODO nIyma'	(noun)	phantom, apparition, something that appears to be there but is not
-****** TODO jorneb	(noun)	warhead (of a torpedo)
-****** TODO 'uSu'	(noun)	sauce for *gladst*
-****** TODO 'uQ'a'	(noun)	banquet, feast
-****** TODO 'up	(verb)	be unsavory, be disgusting, be repugnant, be loathsome, be icky
-****** TODO 'un quD	(noun)	artificially produced *qud*
-****** TODO 'un naQ	(noun)	stirring stick, mixing stick
-
+****** DONE nIyma'	(noun)	phantom, apparition, something that appears to be there but is not
+       CLOSED: [2011-09-17 Sat 19:10]
+****** DONE jorneb	(noun)	warhead (of a torpedo)
+       CLOSED: [2009-04-07 Tue 05:23]
+****** DONE 'uSu'	(noun)	sauce for *gladst*
+       CLOSED: [2009-04-07 Tue 05:23]
+****** DONE 'uQ'a'	(noun)	banquet, feast
+       CLOSED: [2009-04-07 Tue 05:23]
+****** DONE 'up	(verb)	be unsavory, be disgusting, be repugnant, be loathsome, be icky
+       CLOSED: [2009-04-07 Tue 05:23]
+****** DONE 'un quD	(noun)	artificially produced *qud*
+       CLOSED: [2009-04-07 Tue 05:23]
+****** DONE 'un naQ	(noun)	stirring stick, mixing stick
+       CLOSED: [2009-04-07 Tue 05:23]
 ***** DONE Add meaning "minimum" of {rav}
       CLOSED: [2012-06-02 Sat 20:29]
       B.J. Felix Malmenbeck
