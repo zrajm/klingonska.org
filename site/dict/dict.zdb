@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    7822e979ca40564ce9366d664db77de6cdbc3fab
+SHA1:    c2d8c85aff3c3723fcc1b8ca627e45109a4e01fd
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -1995,6 +1995,14 @@ sv:	«himmel»
 def:	TKD
 tag:	1985; KLCP1; landscape
 id:	iqr
+
+tlh:	{chalqach}
+pos:	noun
+en:	«tower»
+sv:	«torn»
+def:	2010-qep'a' (2010-07-26a-Email)
+tag:	2010
+id:	QbJ
 
 tlh:	{cham}
 pos:	noun
@@ -4554,7 +4562,11 @@ pos:	noun
 en:	<limb> (of an animal)
 sv:	«lem», «kroppsdel» (på djur)
 def:	KGT
-see:	{HajDob} ~leg (served as food)~
+cite:	[At the {qep'a'} in 2010] Marc [Okrand] was listening in while Eric
+	[Andeen] was telling me [Chris Lipscombe] the words. When we got to
+	{ghIv}, {gham} was brought up. Marc described {ghIv} as the "person"
+	version of {gham}. [2010-07-26b-Email]
+see:	{ghIv} ~limb (of a person)~; {HajDob} ~leg (served as food)~
 tag:	1997; food
 id:	cYm
 
@@ -4620,7 +4632,7 @@ pos:	verb
 en:	<contribute>, «support» (financially)
 sv:	«bidra»
 def:	TKD
-ref:	2010-qep'a' (2010-07-26-Email)
+ref:	2010-qep'a' (2010-07-26b-Email)
 tag:	1985; economics
 id:	4iR
 meta:	Second translation, ~support (financially)~, was given by Marc Okrand
@@ -5152,6 +5164,19 @@ ref:	TNK (2011-11-02-Email)
 tag:	1997
 data:	derived form
 id:	LQc
+
+tlh:	{ghIv}
+pos:	noun
+en:	«limb» (of a person)
+sv:	«lem», «kroppsdel» (på person)
+def:	2010-qep'a' (2010-07-26b-Email)
+cite:	[At the {qep'a'} in 2010] Marc [Okrand] was listening in while Eric
+	[Andeen] was telling me [Chris Lipscombe] the words. When we got to
+	{ghIv}, {gham} was brought up. Marc described {ghIv} as the "person"
+	version of {gham}. [2010-07-26b-Email]
+see:	{gham} ~limb~; {HajDob} ~leg (served as food)~
+tag:	2010; body part
+id:	aMX
 
 tlh:	{ghI'boj Sech}
 pos:	noun
@@ -9987,6 +10012,15 @@ sv:	«polare», «nära manlig «vän»» till en man
 def:	KGT
 tag:	1997
 id:	Jdj
+
+tlh:	{maQ}
+pos:	noun
+en:	«sign», «omen»
+sv:	«tecken», «omen»
+def:	2010-qep'a' (2010-07-26a-Email)
+see:	{maQmIgh} ~dark omen, sign of evil coming~
+tag:	2010
+id:	nkj
 
 tlh:	{maQmIgh}
 pos:	noun
@@ -18190,11 +18224,11 @@ pos:	verb
 en:	«support»
 sv:	«stödja», «stötta», «bära»
 def:	BoP
-ref:	2010-qep'a'; 2010-07-26-Email
+ref:	2010-qep'a'; 2010-07-26b-Email
 cite:	Marc also clarified that {Qutlh} (~support~) can only refer to
 	physically supporting something. It can't refer to monetary (he said
 	{ghaq} is for this), psychological or any other non-physical type of
-	support. [2010-07-26-Email]
+	support. [2010-07-26b-Email]
 tag:	1998
 id:	TY2
 
@@ -19205,6 +19239,15 @@ com:	A frozen asteroid used by Klingons as a penal colony.
 tag:	1992
 data:	phrase; {rura'} (n); {pente'} (n)
 id:	mvz
+
+tlh:	{ruS}
+pos:	noun
+en:	«bond»
+sv:	«band»
+def:	2010-qep'a' (2010-07-26a-Email)
+see:	{ruStay} ~bonding ritual~
+tag:	2010
+id:	yFp
 
 tlh:	{ruStay}
 pos:	noun
@@ -20539,7 +20582,7 @@ pos:	noun
 en:	«~Sto-Vo-Kor~»
 sv:	«~Sto-Vo-Kor~»
 def:	DI p.245 (2001-02-17-Email)
-ref:	TDNW
+ref:	2010-07-26a-Email; TDNW
 cite:	~Sto-Vo-Kor~ ({Suto'vo'qor}) The afterlife for the honored dead, where
 	all true warriors go after they die to fight an eternal battle. The
 	closest Klingon equivalent to heaven. [First mentioned by name in
@@ -24202,7 +24245,7 @@ pos:	numeral
 en:	<first>, «beginning», «start», «original»
 sv:	«första», «början», «start», «original», «ursprunglig»
 def:	TKD
-ref:	TDNW; MKE (2011-11-18-Email)
+ref:	2010-07-26a-Email; TDNW; MKE (2011-11-18-Email)
 cite:	{Quj wa'DIch ~Monopoly~ Huch nav qa' tlhIngan QaS.} ~Klingon forces
 	replace original Monopoly bills.~ [MKE]
 tag:	1985; math
