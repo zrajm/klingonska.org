@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    8cb709ea1d793adea33800cb77dc972af127c53d
+SHA1:    7deb93ab3a9a54355376fe3787bb8cacba99336a
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -5667,6 +5667,14 @@ pos:	verb
 en:	be <hungry>
 sv:	vara «hungrig»
 def:	TKD
+cite:	I [Lieven L. Litaer] asked if there were a word for "satisfied", "I'm
+	full", i.e. you had eaten enough. ¶ [Marc Okrand] said no, but accepted
+	{ghungHa'} for ~not hungry any more.~ You cannot use it though to say
+	that you are not hungry, that should be {ghungbe'} ~not hungry.~ But if
+	you are hungry first, then you eat enough, then you can say {DaH
+	jIghungHa'} ~Now I am un-hungry.~ (=~not hungry any more~)
+	[2011-11-15b-Email]
+see:	{'oj} ~be thirsty~ (v)
 tag:	1985; food; KLCP1
 id:	mvi
 
@@ -26652,7 +26660,7 @@ tlh:	{'IvtIH}
 pos:	noun
 en:	«hip»
 sv:	«höft»
-def:	2011-qepHom'a' (2011-11-14a-Email; 2011-11-15b-Email;
+def:	2011-qepHom'a' (2011-11-14a-Email; 2011-11-15c-Email;
 	2011-11-16a-Email)
 tag:	2011; body part
 id:	5Ne
@@ -26826,6 +26834,14 @@ pos:	verb
 en:	be <thirsty>
 sv:	vara «törstig»
 def:	TKD
+cite:	I [Lieven L. Litaer] asked if there were a word for "satisfied", "I'm
+	full", i.e. you had eaten enough. ¶ [Marc Okrand] said no, but accepted
+	{ghungHa'} for ~not hungry any more.~ You cannot use it though to say
+	that you are not hungry, that should be {ghungbe'} ~not hungry.~ But if
+	you are hungry first, then you eat enough, then you can say {DaH
+	jIghungHa'} ~Now I am un-hungry.~ (=~not hungry any more~) ¶ It also
+	works with {'oj} the same way. [2011-11-15b-Email]
+see:	{ghung} ~be hungry~ (v)
 tag:	1985; food; KLCP1
 id:	yfp
 

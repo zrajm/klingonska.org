@@ -1,6 +1,6 @@
 : -*- html -*-
 created: 1999-08-08
-updated: 2016-10-02 17:48:34+02
+updated: 2016-10-03 01:24:31+02
 author: zrajm
 year: 1999-2016
 lang: en
@@ -1375,7 +1375,7 @@ publication, or a description of its contents and/or form).
           of {ghur} <<increase>>, {nup} <<decrease>>, and the difference between
           {reH} and {Quj} (both meaning <<to play>>).
     <tr>
-      <td class=nobr rowspan=2><big>2011-11-15</big>
+      <td class=nobr rowspan=3><big>2011-11-15</big>
       <td><big>»<a href="2011-11-15a-email.txt">[Tlhingan-hol] new words from
             {qepHom} Germany</a>«</big>
         <br><small>• Mailing list posting by Lieven L. Litaer
@@ -1389,6 +1389,14 @@ publication, or a description of its contents and/or form).
           <<plan>>.
     <tr>
       <td><big>»<a href="2011-11-15b-email.txt">Re: [Tlhingan-hol] learnings
+            from Saarbrücken {qepHom'a'}</a>«</big>
+        <br><small>• Mailing list posting by Lieven L. Litaer
+          to <i>tlhingan-hol</i></small>
+        <br>     Marc Okrand says that there's no equivalent to “be
+          full/satisfied”, but that one can use {ghungHa'} <<not be hungry any
+          more>> and {'ojHa'} <<not be thirsty any more.>>
+    <tr>
+      <td><big>»<a href="2011-11-15c-email.txt">Re: [Tlhingan-hol] learnings
             from Saarbrücken {qepHom'a'}</a>«</big>
         <br><small>• Mailing list posting by David Yeung
           to <i>tlhingan-hol</i></small>

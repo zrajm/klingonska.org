@@ -1,62 +1,39 @@
 [[
-  [2016-10-02] added document
+  [2016-10-03] added document
 
   Type: email
   Date: 2011-11-15
   Title: Re: [Tlhingan-hol] learnings from Saarbrücken {qepHom'a'}
-  Author: David Yeung
-  Summary: Some further discussion on the origins of the new body part words
-    from the 2011 Saarbrücken {qepHom'a'}: {cha'neH}, {'IvtIH}, {rajma'},
-    {'eQway} and the (previously known) {lev} ~hard palate, roof of the mouth~.
+  Author: Lieven L. Litaer (describing conversation with Marc Okrand)
+  Summary: Marc Okrand says that there's no equivalent to “be full/satisfied”,
+    but that one can use {ghungHa'} ~not be hungry any more~ and {'ojHa'} ~not
+    be thirsty any more.~
 
 ]]
 
-Date: Tue, 15 Nov 2011 21:39:52 +0100
-From: "De'vID jonpIn" <de.vid.jonpin@gmail.com>
+Date: Tue, 15 Nov 2011 14:02:40 +0100
+From: Lieven Litaer <lieven.litaer@web.de>
 To: "tlhingan-hol@kli.org" <tlhingan-hol@kli.org>
 Subject: Re: [Tlhingan-hol] learnings from Saarbrücken qepHom'a'
 
-> ja' De'vID:
->
->> I saw several new words (words new to me; they may already be known to
->> others):
->> <'IvtIH>
->> <rajma'>
->> <'eQway>
->> <cha'neH>
->
->
-Lieven:
->
-> Where did you see those? Were they written by MO? Were they printed? Or
-> just written on table among a lot of weird drawings? pay attention to those
-> latter, many of our students like to "invent" funny klingon words :-)
+ja' De'vID:
+> <Soj> refers not just to food, but anything consumed for sustenance
+> (i.e., "food" in a more general sense than "solid food")
 
+Talking about food, no new word, but an interesting explanation:
 
-Qov had actually used <'IvtIH> in her story at some point.  The sentence
-was <'IvtIHDu'Daj 'uch Mahoun>, so I inferred it was a body part.
-ghunchu'wI' appeared to know it, so I wrote it down as a new word.  This
-was before the qepHom.
+I asked if there were a word for "satisfied", "I'm full", i.e. you had 
+eaten enough.
 
-At the qepHom, I happened to talk to 'ISqu' about this word, and she showed
-me a list of five words she'd typed out from a previous qep'a', under the
-title <porgh 'ay'>: the above four plus <lev> which I already had in my own
-dictionary.  All five words were parts of the body.  She also had
-definitions.  However, I didn't want to post the definitions I copied from
-her, since our definitions of <lev> differed slightly: my notes say "n.
-hard palate, roof of mouth (source: qep'a' 12)", and her definition simply
-said "n. palate".  So she may have abbreviated her definitions, or perhaps
-my source had elaborated it (link: http://klingon.livejournal.com/26647.html,
-from http://www.kli.org/tlh/newwords.html).
+MO said no, but accepted {ghungHa'} for "not hungry any more". You 
+cannot use it though to say that you are not hungry, that should be 
+{ghungbe'} "not hungry". But if you are hungry first, then you eat 
+enough, then you can say {DaH jIghungHa'} "Now I am un-hungry." (="not 
+hungry any more")
 
-If someone else has seen the above four words before, please post the
-definitions you have.  Otherwise, I'll post the ones I copied from her in a
-little bit.
+It also works with {'oj} the same way.
 
--- 
-De'vID
-
-
+Lieven.
 
 _______________________________________________
 Tlhingan-hol mailing list
