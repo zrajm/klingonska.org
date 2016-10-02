@@ -2973,7 +2973,7 @@
       field. -- These words should be included in the Klingon--English version
       of the dictionary, but with a leading asterisk, and a warning they're not
       supposed to be used. Maybe add a 'warn' field, explaining why?
-**** [31%] Add words
+**** [44%] Add words
 ***** TODO Math terms
       From: 2000-09-holqed-09-3.txt: {boq}, {boqHa'}, {boq'egh}, {boqHa''egh},
       {chen} should have translations "plus", "minus", "equals" etc.
@@ -3011,13 +3011,13 @@
           {tetlh} is not a {Qumran}.
 
           PUN: "The Dead Sea scrolls from Qumran!"
-***** TODO {renwI'} designer, architect (n)
+***** DONE {renwI'} designer, architect (n)
+      CLOSED: [2016-09-15 Thu 09:58]
       PUN: "Christopher Wren built St. Pauls' Cathedral in London. Next, one
       branch of the Smithsonian Institute (where Marc Okrand used to teach, or
       still does) in Washington D.C. is called the "Renwick Gallery", design by
       the architect James Renwick. Marc Okrand said to me at qepHom X: 'These
       are even two reasons for the word to be {renwI'}'." (Lieven, 1/26/2012)
-***** TODO {qurbuSwI'} architect (Morskan dialect) (n)
 ***** TODO {petqaD} Haynes BoP Manual
       >> Klingon word: petqaD
       >> Part of speech: noun
@@ -3108,18 +3108,25 @@
 
       Like · Comment · Follow post · 13 August at 21:11 near Johanneshov,
       Stockholms Län
-***** TODO Add words from qepHom'a' 2011
-      Given by De'vID in mail to tlhIngan-Hol, 2011-11-12 "[Tlhingan-hol]
-      learnings from Saarbrücken qepHom'a'".
-
-          <'IvtIH>
-          <rajma'>
-          <'eQway>
-          <cha'neH>
-          <ren>
-          <Qur>
-          <qurbuSwI'> (Morskan?)
-
+***** DONE {'IvtIH} ~hip~ (n) (qepHom'a' 2011)
+      CLOSED: [2016-10-02 Sun 18:03]
+***** DONE {rajma'} ~kidney~ (n) (qepHom'a' 2011)
+      CLOSED: [2016-10-02 Sun 18:03]
+      pun: Rajma is a red bean curry. A red *kidney* bean curry. /Alan Anderson
+***** DONE {'eQway} ~belly button~ (n) (qepHom'a' 2011)
+      CLOSED: [2016-10-02 Sun 18:03]
+      pun: "Kyle XY" was a short-lived American television series. The title
+      character's body had an unusual feature. /Alan Anderson
+***** DONE {cha'neH} ~forearm~ (n) (qepHom'a' 2011)
+       CLOSED: [2016-10-02 Sun 18:03]
+***** DONE {lev} ~palate~ (n) (qepHom'a' 2011)
+      CLOSED: [2012-01-26 Thu 12:52]
+***** DONE {ren} (qepHom'a' 2011)
+      CLOSED: [2016-09-15 Thu 18:32]
+***** DONE {Qur} (qepHom'a' 2011)
+      CLOSED: [2016-09-15 Thu 18:34]
+***** TODO {qurbuSwI'} architect (Morskan dialect) (n) (?) (qepHom'a' 2011)
+***** TODO Comments on {ghungHa'}
       This [[https://mail.google.com/mail/u/0/?shva=1#search/ghungHa'/133a3d43a898e2e4][GMail thread]] (where above was posted) also contain interesting
       comments originally from MO on various words, their transitivity and
       usage (e.g. {ghungHa'}).
@@ -3186,7 +3193,7 @@
       Add the words from canon/2011-08-22-email.txt
 ***** TODO Is there a word for "Morska"?
       (as in "the Morskan dialect")
-***** DOING Check that all mughom.wizage.net "New Words" are present [70%]
+***** [70%] Check that all mughom.wizage.net "New Words" are present
       http://mughom.wizage.net
       This is a list of the last 100 words added to the database.
 ****** DONE Tell {qurgh} that {veH tIn} "great barrier" is a place name
@@ -3497,6 +3504,25 @@
       "tag: transportation"
       airplane, various spaceships, bicycle, transporters etc.
 **** Systematic improvements / new markup
+***** TODO New paragraphs inside fields (esp. useful for `cite:`)
+      Currently paragraphs are marked by either `//` or `¶`, but they should be
+      marked by a double tab, e.g.:
+
+      def:    TKD
+      cite:   When the verb of the second sentence has a third-person subject
+              (that is, the pronominal prefix is 0) but the intended meaning is
+              ~one~ or ~someone,~ rather than ~he, she, it,~ or ~they,~ {net} is
+              used instead of {'e'.}
+                      {qama'pu' DIHoH net Sov} ~One knows we kill prisoners.~
+	              As above, the first sentence here is {qama'pu' DIHoH} ~We
+	      kill prisoners.~ The second sentence is {net Sov} ~One knows
+	      that.~ The full construction implies that it is common knowledge
+	      that the group to which the speaker belongs kills prisoners.
+      tag:    1985
+
+      Previous idea of using blank lines isn't too good, since (a) more
+      difficult to implement and (b) breaks up entries in a way that is less
+      easy to follow when editing the dictionary.
 ***** Swedish translation
 ****** TODO Check Swedish <-> English translation
        By looking up all the English words in my English-Swedish dictionary and
@@ -3527,15 +3553,6 @@
 
       With a single quote in each 'cite:' field, followed by a source reference
       is brackets. All quotes in 'com:' fields should be moved to 'cite:'.
-***** TODO Allow blank lines inside fields(?)
-      I.e. a blank lines should be allowed inside a field value, if the line
-      after the blank line is a continuation line as well.
-
-          com:  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat.
 ***** TODO Puns
 ****** TODO See emails
 ******* "Reversals for puns"
