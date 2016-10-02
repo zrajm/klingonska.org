@@ -1,6 +1,6 @@
 : -*- html -*-
 created: 1999-08-08
-updated: 2016-09-10T15:36:06+02
+updated: 2016-10-02 17:48:34+02
 author: zrajm
 year: 1999-2016
 lang: en
@@ -1363,6 +1363,61 @@ publication, or a description of its contents and/or form).
           to <i>tlhingan-hol</i></small>
         <br>     Many example phrases on how to tell time from the Eurotalk
         Klingon language course.
+    <tr>
+      <td class=nobr><big>2011-11-14</big>
+      <td><big>»<a href="2011-11-14a-email.txt">[Tlhingan-hol] learnings from
+            Saarbrücken {qepHom'a'}</a>«</big>
+        <br><small>• Mailing list posting by David Yeung
+          to <i>tlhingan-hol</i></small>
+        <br>     A list of new words (without definitions) from the 2011
+          Saarbrücken {qepHom'a'}: {'IvtIH}, {rajma'}, {'eQway}, {cha'neH},
+          {ren}, {Qur} and *{qurbuSwI'} (Morskan?). Some clarifications on usage
+          of {ghur} <<increase>>, {nup} <<decrease>>, and the difference between
+          {reH} and {Quj} (both meaning <<to play>>).
+    <tr>
+      <td class=nobr rowspan=2><big>2011-11-15</big>
+      <td><big>»<a href="2011-11-15a-email.txt">[Tlhingan-hol] new words from
+            {qepHom} Germany</a>«</big>
+        <br><small>• Mailing list posting by Lieven L. Litaer
+          to <i>tlhingan-hol</i></small>
+        <br>     Marc Okrand gives us definitions of some of the new words from
+          the 2011 Saarbrücken {qepHom'a'}: {Qur} <<structure, organization>>
+          (abstract) (n), {ren} <<design, map out>> or <<plan>> (v) and {renwI'}
+          <<designer>> (anyone who designs a physical object, e.g. an
+          <<architect>>) (n) Also clarifications were given on the differences
+          between the verbs {ren} <<design,>> {'ogh} <<invent>> and {nab}
+          <<plan>>.
+    <tr>
+      <td><big>»<a href="2011-11-15b-email.txt">Re: [Tlhingan-hol] learnings
+            from Saarbrücken {qepHom'a'}</a>«</big>
+        <br><small>• Mailing list posting by David Yeung
+          to <i>tlhingan-hol</i></small>
+        <br>     Some further discussion on the origins of the new body part
+          words from the 2011 Saarbrücken {qepHom'a'}: {cha'neH}, {'IvtIH},
+          {rajma'}, {'eQway} and the (previously known) {lev} <<hard palate,
+          roof of the mouth>>.
+    <tr>
+      <td class=nobr rowspan=2><big>2011-11-16</big>
+      <td><big>»<a href="2011-11-16a-email.txt">Re: [Tlhingan-hol] learnings
+            from Saarbrücken {qepHom'a'}</a>«</big>
+        <br><small>• Mailing list posting by David Yeung
+          to <i>tlhingan-hol</i></small>
+        <br>     Translations are given to the new body part words from the 2011
+          Saarbrücken {qepHom'a'}: {cha'neH} <<forearm,>> {'IvtIH} <<hip,>>
+          {rajma'} <<kidney>> and {'eQway} <<belly button.>>
+    <tr>
+      <td><big>»<a href="2011-11-16b-email.txt">Re: [Tlhingan-hol] learnings
+            from Saarbrücken {qepHom'a'}</a>«</big>
+        <br><small>• Mailing list posting by Alan Anderson
+          to <i>tlhingan-hol</i></small>
+        <br>     Explanation of the pun for {rajma'} <<kidney.>>
+    <tr>
+      <td class=nobr><big>2011-11-17</big>
+      <td><big>»<a href="2011-11-17-email.txt">Re: [Tlhingan-hol] learnings from
+            Saarbrücken {qepHom'a'}</a>«</big>
+        <br><small>• Mailing list posting by Alan Anderson
+          to <i>tlhingan-hol</i></small>
+        <br>     Explanation of the pun for {'eQway} <<belly button.>>
   <tbody id=2012>
     <tr>
       <td class=nobr><big>2012-01-26</big>

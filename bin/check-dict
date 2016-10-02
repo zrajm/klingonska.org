@@ -352,6 +352,7 @@ sub get_entries {
         holqed => "HolQeD", news   => "News",   praxis      => "Praxis",
         "qepa" => "qep'a'", sarek  => "Sarek",  "ves-qonos" => "veS-QonoS",
         web    => "Web",
+        qephoma => "qepHom'a'",
     );
     my $re = qr/${\( join("|", sort keys %tr) )}/;
 
@@ -376,7 +377,7 @@ sub get_source_names {
     my %file = map {                           # for each transcript file
         my $file = $_;
         s/\.txt$//;                            #   strip '.txt'
-        if (not /-(news|email|qepa|web)$/) {   #   if email, news, web then
+        if (not /-(news|email|qep(hom)?a|web)$/){# if email, news, web then
             s/^(\d+-)+//;                      #     strip leading date
         }
         (recase_source($_) => $file);

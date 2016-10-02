@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    c2d8c85aff3c3723fcc1b8ca627e45109a4e01fd
+SHA1:    8cb709ea1d793adea33800cb77dc972af127c53d
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -2272,6 +2272,14 @@ sv:	en slags «fågel» (liten, gräver upp småkryp att äta)
 def:	HolQeD-10-4 p.4
 tag:	2001; animal
 id:	s42
+
+tlh:	{cha'neH}
+pos:	noun
+en:	«forearm»
+sv:	«underarm»
+def:	2011-qepHom'a' (2011-11-14a-Email; 2011-11-15a-Email)
+tag:	2011; body part
+id:	z5D
 
 tlh:	{cha'nob}
 pos:	noun
@@ -18195,6 +18203,26 @@ def:	TKD
 tag:	1985
 id:	ptb
 
+tlh:	{Qur}
+pos:	noun
+en:	«structure», «organization», «anatomy»
+sv:	«struktur», «upplägg», «anatomi»
+def:	2011-qepHom'a' (2011-11-14a-Email; 2011-11-15a-Email)
+cite:	I [Marc Okrand] asked him [Maltz] about Morskan *{qurbuSwI'}. He said
+	he wasn't really all that familiar with Morskan, but then he thought
+	about it a little more and said he did know a word {Qur} that might be
+	related, though it was difficult to translate. The best he could come
+	up with was ~structure~ or ~organization.~ He was quick to point out
+	that this did not mean "structure" like a building is a structure, nor
+	did it mean "organization" like an organization of people or even an
+	organization of states. It means the way things fit together or the
+	arrangement of the parts of something bigger. He said it could be used
+	for ~anatomy~ when talking about animals. Though he looked a little
+	pained when I suggested it, he agreed that one could say that Scotty
+	understood the {Qur} of the Enterprise. [2011-11-15a-Email]
+tag:	2011
+id:	U7h
+
 tlh:	{QuS} [1]
 pos:	verb
 en:	<conspire>
@@ -18303,6 +18331,17 @@ cite:	~racht~ ({raHta'}) Food made from live serpent worms (not to be
 	confused with ~gagh~). [First seen in "Melora" (DS9).] [DI p.245]
 tag:	1997; food; Klingonism
 id:	2TJ
+
+tlh:	{rajma'}
+pos:	noun
+en:	«kidney»
+sv:	«njure»
+def:	2011-qepHom'a' (2011-11-14a-Email; 2011-11-16a-Email;
+	2011-11-16b-Email)
+pun:	[Alan Anderson:] Rajma is a red bean curry. ¶ A red ~kidney~ bean
+	curry. [2011-11-16b-Email]
+tag:	2011; body part
+id:	4eJ
 
 tlh:	{ral}
 pos:	verb
@@ -18634,6 +18673,20 @@ sv:	«ängslare», «fjant», «pessimist» (person som oroar sig mycket)
 def:	TKD K-E
 tag:	1985
 id:	7xq
+
+tlh:	{ren}
+pos:	verb
+en:	«design», «plan», «map out»
+sv:	«designa», «formge», «planera»
+def:	2011-qepHom'a' (2011-11-14a-Email; 2011-11-16a-Email)
+cite:	{ren} is not the same as {'ogh} ~invent,~ which implies creating
+	something that hasn't been created before. And it's not the same as
+	{nab} ~plan~ which is used for planning an event (or a battle strategy
+	or whatever), just as the noun {nab} ~plan~ cannot be used to refer to
+	blueprints. [2011-11-15a-Email]
+see:	{nab} ~plan~; {'ogh} ~invent, devise~
+tag:	2011; architecture
+id:	1Cf
 
 tlh:	{rep}
 pos:	noun
@@ -26228,6 +26281,17 @@ def:	KGT
 tag:	1997
 id:	eM4
 
+tlh:	{'eQway}
+pos:	noun
+en:	«belly button»
+sv:	«navel»
+def:	2011-qepHom'a' (2011-11-14a-Email; 2011-11-16a-Email; 2011-11-17-Email)
+pun:	[Alan Anderson:] "Kyle XY" was a short-lived American television
+	series. The title character's body had an unusual feature [no belly
+	button]. [2011-11-17-Email]
+tag:	2011; body part
+id:	xAj
+
 tlh:	{'er}
 pos:	noun
 en:	type of <animal>
@@ -26583,6 +26647,15 @@ sv:	«altitud», «höjd» (avstånd ned)
 def:	TKD
 tag:	1985
 id:	7ae
+
+tlh:	{'IvtIH}
+pos:	noun
+en:	«hip»
+sv:	«höft»
+def:	2011-qepHom'a' (2011-11-14a-Email; 2011-11-15b-Email;
+	2011-11-16a-Email)
+tag:	2011; body part
+id:	5Ne
 
 tlh:	{'Iw}
 pos:	noun

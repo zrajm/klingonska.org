@@ -1716,51 +1716,9 @@
 **** TODO Decipher event card {taH pagh taHbe'} from 2002
      What's the status of canonicity for this card?
      https://mail.google.com/mail/u/0/#search/decipher+in%3Atlhingan-hol+card/ed6f9609d33c137
-**** TODO Add words from qepHom'a' 2011
-     Date: Mon, 14 Nov 2011 21:44:59 +0100
-     From: "De'vID jonpIn" <de.vid.jonpin@gmail.com>
-     To: KLI <tlhingan-hol@kli.org>
-     Subject: [Tlhingan-hol] learnings from Saarbrücken qepHom'a'
-
-     I've already written several messages about things we learned at the
-     qepHom'a' in Saarbrücken, Germany.  I'll write down the rest of what I
-     saw/heard here before I forget.
-
-     I saw several new words (words new to me; they may already be known to
-     others):
-     <'IvtIH>
-     <rajma'>
-     <'eQway>
-     <cha'neH>
-     <ren>
-     <Qur>
-     <qurbuSwI'> (Morskan?)
-
-     I don't have definitions from MO for the first four words, only what I saw
-     in others' notes.  The words <ren>, <Qur>, and <qurbuSwI'> were defined in
-     writing, but only in German, in a letter from MO.  Presumably, the letter
-     was written in English, and translated into German (by Lieven?), but I have
-     not seen the original.  However, I've had the meanings of <ren> and <Qur>
-     explained to me by German speakers.  <qurbuSwI'> appears to be a Morskan
-     dialect word, but I didn't understand its meaning.  Perhaps Lieven, or
-     someone who can read the letter in German, can explain their definitions.
-
-     We also learned that the verbs <ghur> and <nup> are intransitive (the
-     transitive forms have <-moH>), and also what the difference was between the
-     verbs <reH> and <Quj>.  <reH> applies to unstructured play, whereas <Quj>
-     refers to structured play (with rules).
-
-     The following is not new info, but was discussed with MO at the qepHom:
-     <Soj> refers not just to food, but anything consumed for sustenance (i.e.,
-     "food" in a more general sense than "solid food"); <Sop>, <tlhutlh>, and
-     <'ep> are verbs which can be applied to different kinds of <Soj>.
-
-     -- 
-     De'vID
-
-
-     ---------------------------------------------------------------------------
-
+**** DONE Add words from qepHom'a' 2011
+     CLOSED: [2016-10-02 Sun 17:57]
+**** TODO Add {ghungHa'} from qepHom'a' 2011
      Date: Tue, 15 Nov 2011 14:02:40 +0100
      From: Lieven Litaer <lieven.litaer@web.de>
      To: "tlhingan-hol@kli.org" <tlhingan-hol@kli.org>
