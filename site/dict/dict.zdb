@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    c6f4ca2f16e92264f8493d69b36ffb7b64600615
+SHA1:    c8eccb9a58104ce1ca32cfc1498234f4db1bbb01
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -5694,6 +5694,9 @@ pos:	verb
 en:	<increase>
 sv:	«öka»
 def:	TKD
+cite:	[T]he verbs {ghur} and {nup} are intransitive (the transitive forms
+	have {-moH}) [2011-11-14a-Email]
+see:	{nup} ~decrease~
 tag:	1985
 id:	tZN
 
@@ -10046,6 +10049,7 @@ pos:	noun
 en:	dark «omen», «sign» of evil coming
 sv:	illavarslade «omen», «tecken» på förestående ondska, «järtecken»
 def:	veS-QonoS (HolQeD-01-3 p.9)
+see:	{maQ} ~sign, omen~
 tag:	1990
 id:	HFe
 
@@ -11486,6 +11490,12 @@ def:	TKD
 ref:	ST5 (HolQeD-08-4-b p.12, 13)
 cite:	{nImbuS wej maghoS, He yInab.} ~Plot course for Nimbus III.~ [ST5]
 cite:	{He pagh-pagh-vagh-jav-pagh-jav yInab} ~Plot course 0.0.5.6.0.6.~ [ST5]
+cite:	{ren} is not the same as {'ogh} ~invent,~ which implies creating
+	something that hasn't been created before. And it's not the same as
+	{nab} ~plan~ which is used for planning an event (or a battle strategy
+	or whatever), just as the noun {nab} ~plan~ cannot be used to refer to
+	blueprints. [2011-11-15a-Email]
+see:	{ren} ~design, plan, map out~; {'ogh} ~invent, devise~
 tag:	1985; KLCP1
 id:	7V1
 
@@ -12933,6 +12943,9 @@ pos:	verb
 en:	<decrease>
 sv:	«minska»
 def:	TKD
+cite:	[T]he verbs {ghur} and {nup} are intransitive (the transitive forms
+	have {-moH}) [2011-11-14a-Email]
+see:	{ghur} ~increase~
 tag:	1985
 id:	3CW
 
@@ -18125,6 +18138,9 @@ pos:	verb
 en:	<play> a «game»
 sv:	«spela»
 def:	TKD
+cite:	{reH} applies to unstructured play, whereas {Quj} refers to structured
+	play (with rules). [2011-11-14a-Email]
+see:	{reH} ~play~
 tag:	1985
 id:	2Ln
 
@@ -18694,6 +18710,9 @@ pos:	verb
 en:	<play>
 sv:	«leka»
 def:	TKD
+cite:	{reH} applies to unstructured play, whereas {Quj} refers to structured
+	play (with rules). [2011-11-14a-Email]
+see:	{Quj} ~play a game~
 tag:	1985
 id:	YJ8
 
@@ -18718,6 +18737,28 @@ cite:	{ren} is not the same as {'ogh} ~invent,~ which implies creating
 see:	{nab} ~plan~; {'ogh} ~invent, devise~
 tag:	2011; architecture
 id:	1Cf
+
+tlh:	{renwI'}
+pos:	noun
+en:	«designer»
+sv:	«formgivare», «designer»
+def:	2011-qepHom'a' (2011-11-14a-Email; 2011-11-16a-Email)
+cite:	[T]here is a verb {ren} that means ~design~ or ~map out~ or ~plan.~ He
+	[Maltz] said that {renwI'} (which I guess in its most general sense
+	means ~designer~) is a perfectly good term for architect, but it can
+	also be used for someone who designs a vehicle, say. That is, it's not
+	restricted to buildings. ¶ He said it would not be used for ~architect~
+	in the sense of someone being the architect of a plan to do something;
+	it has to be used of a person who designs a physical object of some
+	sort. [2011-11-15a-Email]
+pun:	"Christopher Wren built St. Pauls' Cathedral in London. Next, one
+	branch of the Smithsonian Institute (where Marc Okrand used to teach,
+	or still does) in Washington D.C. is called the "Renwick Gallery",
+	design by the architect James Renwick. Marc Okrand said to me at qepHom
+	X: 'These are even two reasons for the word to be {renwI'}'." (Lieven,
+	1/26/2012)
+tag:	2011; architecture
+id:	hQx
 
 tlh:	{rep}
 pos:	noun
@@ -19341,6 +19382,7 @@ def:	TKDa
 cite:	~R'uustai~ ({ruStay}) Literally, "the bonding," this is a ritual that
 	allows an orphan to join another House. [First seen in "The Bonding"
 	(TNG).] [DI p.245]
+see:	{ruS} ~bond~
 tag:	1992
 id:	Yob
 
@@ -21722,7 +21764,7 @@ id:	XXZ
 tlh:	{tI'ang}
 pos:	name
 en:	«T'Ong» (a ship)
-sv:	«T'Ong» (skepp)
+sv:	«T'Ong» (ett skepp)
 def:	SBX-S15 (HolQeD-04-3-a)
 tag:	1995; Klingonism
 id:	fPs
@@ -21730,7 +21772,7 @@ id:	fPs
 tlh:	{tI'qa' vIghro'}
 pos:	noun
 en:	type of <animal>, <~tika~ cat>
-sv:	ett slags «djur», «~tika~ katt»
+sv:	ett slags «djur», «~tika~-katt»
 def:	KGT
 tag:	1997; animal; Klingonism
 data:	phrase; {tI'qa'} (n)
@@ -26865,6 +26907,12 @@ pos:	verb
 en:	<invent>, <devise>
 sv:	«uppfinna», «hitta på»
 def:	TKD
+cite:	{ren} is not the same as {'ogh} ~invent,~ which implies creating
+	something that hasn't been created before. And it's not the same as
+	{nab} ~plan~ which is used for planning an event (or a battle strategy
+	or whatever), just as the noun {nab} ~plan~ cannot be used to refer to
+	blueprints. [2011-11-15a-Email]
+see:	{nab} ~plan~; {ren} ~design, plan, map out~
 tag:	1985
 id:	U79
 
