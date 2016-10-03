@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    7deb93ab3a9a54355376fe3787bb8cacba99336a
+SHA1:    44232ca48b37f037b7a9a16acbb2c1aad76c3fc0
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -1777,6 +1777,9 @@ pos:	noun
 en:	«bag», «sack», «pouch», «pocket»
 sv:	«påse», «säck», «pung», «ficka»
 def:	2010-12-07-Email (2010-12-25-Email)
+pun:	[Steven Boozer:] He's [Marc Okrand] made two previous puns on Pocket
+	Books, his New York publisher: i.e. {paq} and {buq}.
+	[2011-10-24c-Email]
 tag:	2010
 id:	NjK
 
@@ -13867,6 +13870,9 @@ en:	<book>
 sv:	«bok»
 def:	TKD
 ref:	TKW p.iii
+pun:	[Steven Boozer:] He's [Marc Okrand] made two previous puns on Pocket
+	Books, his New York publisher: i.e. {paq} and {buq}.
+	[2011-10-24c-Email]
 tag:	1985; KLCP1
 id:	V1F
 
@@ -19873,6 +19879,31 @@ sv:	«kastrull»
 def:	TNK (2011-11-02-Email)
 tag:	2011
 id:	rSG
+
+tlh:	{Se'vIr}
+pos:	noun
+en:	«publication»
+sv:	«publikation»
+def:	2011-10-24a-Email
+cite:	[Marc Okrand:] {Se'vIr} is a publication of any kind (print or
+	otherwise) [2011-10-24a-Email]
+pun:	"Reed Elsevier is a publisher and information provider operating in the
+	science, medical, legal, risk and business sectors."
+	[2011-10-24b-Email]
+tag:	2011
+id:	R2v
+
+tlh:	{Se'vIr malja'}
+pos:	noun
+en:	«publishing house»
+sv:	«förlag»
+def:	2011-10-24a-Email
+cite:	[Marc Okrand:] [T]he Klingon phrase for "publishing house" is {Se'vIr
+	malja'}. {Se'vIr} is a publication of any kind (print or otherwise);
+	it's a new word. {malja'} means "business." [2011-10-24a-Email]
+tag:	2011
+data:	phrase
+id:	yYa
 
 tlh:	{SIbDoH}
 pos:	noun

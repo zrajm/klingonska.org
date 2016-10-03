@@ -1,6 +1,6 @@
 : -*- html -*-
 created: 1999-08-08
-updated: 2016-10-03 01:24:31+02
+updated: 2016-10-03 03:35:51+02
 author: zrajm
 year: 1999-2016
 lang: en
@@ -1298,6 +1298,27 @@ publication, or a description of its contents and/or form).
           <<emit sparks,>> {le'yo'} <<pride,>> {ngIq} <<individual one,>> {Hun}
           <<khrun (animal),>> {QIncha'} <<krincha (animal),>> {yIr} <<gather,>>
           {'o} <<o>> (in direct address), {wel} <<owe.>>
+    <tr>
+      <td class=nobr rowspan=3><big>2011-10-24</big>
+      <td><big>»<a href="2011-10-24a-email.txt">[Tlhingan-hol] new word
+            found</a>«</big>
+        <br><small>• Mailing list posting by Lieven L. Litaer
+          to <i>tlhingan-hol</i></small>
+        <br>     New word {Se'vIr malja'} <<publishing house>> from the
+          {paq'batlh} web page. {Se'vIr} means <<publication>> (print or
+          otherwise).
+    <tr>
+      <td><big>»<a href="2011-10-24b-email.txt">[Tlhingan-hol] new word
+            found</a>«</big>
+        <br><small>• Mailing list posting by Lieven L. Litaer
+          to <i>tlhingan-hol</i></small>
+        <br>     Pun in the new word {Se'vIr}.
+    <tr>
+      <td><big>»<a href="2011-10-24c-email.txt">[Tlhingan-hol] new word
+            found</a>«</big>
+        <br><small>• Mailing list posting by Steven Boozer
+          to <i>tlhingan-hol</i></small>
+        <br>     Pun in the new word {Se'vIr}, and in {paq} and {buq}.
     <tr>
       <td class=nobr><big>2011-10-29</big>
       <td><big>»<a href="2011-10-29-email.txt">[Tlhingan-hol] Eurotalk -- New
