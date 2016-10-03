@@ -1,0 +1,149 @@
+[[
+  [2016-10-03] created document
+
+  Type: book
+  Date: 6 November 2012
+  Title: Klingon Bird-of-Prey: Owners' Workshop Manual
+  Author: Rick Sternbach, Ben Robinson
+  Publisher: Haynes Publishing, Somerset, UK, ISBN 978-0-85733-276-9
+  Summary: This book contains one new Klingon word, {petqaD} ~medical tool for
+    mending bones,~ which has later been verified by Okrand.
+
+  FIXME: This transcript needs cleanup.
+
+]]
+
+DloraH:
+
+
+Here is what I got from the pIqaD:
+
+Cover, left side:
+
+tlhIngan wo' toQDuj
+
+
+Cover, right side:
+
+rotarran
+bI'rel tlharghDuj
+jonwI' paq
+
+
+Cover, bottom, just above the names:
+
+paqvam luqon
+
+
+Top of the sample page:
+
+071
+
+Which matches the page number shown at the bottom of the page.
+
+
+The bottom of the sample page:
+
+ghoSlaHbe'chugh Duj my' yaH yIchenmoH
+HoS Hutlhchugh nISwI'mey qach QaDyIchenmoH
+jagh DajylaHbe'chugh batlh yIHegh
+
+Except for the typos, this matches the text above it.  That regular text above it does not have the
+typos that are in the pIqaD.
+[my'] -> [may']
+[QaDyIchenmoH] -> [QaD yIchenmoH]
+[DajylaHbe'chugh] -> [DajeylaHbe'chugh]
+
+
+
+--------------------------------------------------------------------------------
+
+Felix:
+
+How I understand it:
+
+Somebody (Okrand himself doesn't know who) translated and transcribed
+everything.
+
+MO and several qep'a' attendees looked over the chapter headings, corrected
+out-and-out errors and came with new suggestions (which I presume were then
+coneyed to MO).
+
+Marc commented, however, that most of the translations were already very good
+and needed no changes.
+
+I wonder if they also looked over any of the stuff within the text of the book.
+There's one proper mu' chu' in there, and also some metals that are not written
+in Okrandian romanized tlhIngan Hol.
+
+--------------------------------------------------------------------------------
+Qov: 
+
+Marc Okrand brought it to qep'a' and a number of experienced speakers had a look
+at it. Nothing radically new, but should be good quality. Buy it for BoP
+interest, not for language interest, though.
+
+We weren't providing anything, just proof reading and complaining about the
+font. I would say from his reactions to the titles that he wasn't approving them
+as the way to say anything in Klingon, just. informing they said something
+vaguely related to each topic.
+
+--------------------------------------------------------------------------------
+
+De'vID:
+
+> I think there are three named weapons whose names are noun-noun constructions
+> using known words.
+
+These are:
+* {pach peng} Talon's Strike (torpedo)
+* {moratlh ro'} Morath's Fist (torpedo)
+* {notqa' pach} Eagle's Claw (mine)
+
+
+
+--------------------------------------------------------------------------------
+
+http://www.klingonwiki.net/En/HaynesBirdOfPreyManual
+
+The book Klingon Bird of Prey - Owners' Workshop Manual is sometimes also called
+after its publisher's name as "Haynes Bird of Prey Manual". It's a book with
+many colored images describing technical issues about the Klingon spaceship
+"Rotarran" commanded by general Martok in Deep Space Nine. It has been written
+by Star Trek Designer Rick Sternbach and Ben Robinson.
+
+It contains only one new Klingon word (petqaD), but all the titles are written
+in pIqaD and both the KLI and Marc Okrand have reviewed the Klingon parts(1).
+
+Klingon titles
+==============
+All of the Klingon titles are displayed in a variation of pIqaD. The font itself
+looks a little unfamiliar, but one gets used to it quite quickly.
+
+Front Cover
+-----------
+
+|----------------------------+-------------------------------+-----------------------------|
+| Klingon                    | Translation on page 1         | literal translation         |
+|----------------------------+-------------------------------+-----------------------------|
+| tlhIngan wo'toQDuj         | Klingon Bird-Of-Prey          | Klingon empire Bird of Prey |
+| rotarran bI'rel tlharghDuj | I.K.S. Rotarran (B'Rel Class) | Rotarran B'Rel Scout vessel |
+| jonwI' paq                 | owner's workshop manual       | Engineer book               |
+| paqvam luqon               | (n/a)                         | they wrote this book        |
+|----------------------------+-------------------------------+-----------------------------|
+
+Page Titles
+-----------
+
+|------+-----------------+------------------------------+---------------------------|
+| page | Klingon         | Translation                  | literal translation       |
+|------+-----------------+------------------------------+---------------------------|
+|    2 | ngaS            | contents                     | it contains               |
+|    4 | 'et mu'         | foreword                     | word of the front         |
+| 7-16 | chen Duj        | Commissioning a Bird-Of-Prey | a bird of prey takes form |
+|   18 | bI'rel qIvo'rIt | B'Rel versus K'Vort-Class    | B'Rel K'Vort              |
+|   20 | So'wI' qun      | cloaking device history      | cloaking device history   |
+|   22 | tel lolmoH      | wing positions               | wing ...                  |
+|------+-----------------+------------------------------+---------------------------|
+
+[[eof]]

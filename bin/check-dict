@@ -352,6 +352,7 @@ sub get_entries {
         holqed => "HolQeD", news   => "News",   praxis      => "Praxis",
         "qepa" => "qep'a'", sarek  => "Sarek",  "ves-qonos" => "veS-QonoS",
         web    => "Web",
+        haynes   => "Haynes",
         qephoma => "qepHom'a'",
     );
     my $re = qr/${\( join("|", sort keys %tr) )}/;

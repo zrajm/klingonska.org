@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    44232ca48b37f037b7a9a16acbb2c1aad76c3fc0
+SHA1:    c6f4ca2f16e92264f8493d69b36ffb7b64600615
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -14262,6 +14262,23 @@ cite:	{petaQ} Insult with no direct translation. Sometimes Anglicized as
 com:	Paramount Hol: "pahtk".
 tag:	1992; curse
 id:	vCz
+
+tlh:	{petqaD}
+pos:	noun
+en:	«medical «tool»» for mending bones
+sv:	«medicinskt «verktyg»» för att läka ben
+def:	Haynes (2012-12-07-Email; 2014-12-17-Email)
+cite:	The surgeon typically injects a combined stimulant and pain killer,
+	before using a {petqaD} to bond broken bones in place and a dermal
+	regenerator to suture any wounds. Typical turnaround times allow an
+	injured crewman to return to his post within seven minutes. [Haynes
+	p.107]
+cite:	Only the word {petqaD} "medical device to bond broken bones", where
+	Okrand only said: "Maltz said it was a good word, though sort of
+	technical." (Email to Lieven, 13 december 2012) [2014-12-17-Email]
+pun:	{petqaD} backwards, {Daqtep} is similar to "Duct tape".
+tag:	2012
+id:	kQn
 
 tlh:	{pey}
 pos:	noun

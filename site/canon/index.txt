@@ -61,7 +61,7 @@ publication, or a description of its contents and/or form).
   • <a href="#2005">2005</a> • <a href="#2007">2007</a>
   • <a href="#2008">2008</a> • <a href="#2009">2009</a>
   • <a href="#2010">2010</a> • <a href="#2011">2011</a>
-  • <a href="#2012">2012</a>
+  • <a href="#2012">2012</a> • <a href="#2014">2014</a>
 </p>
 
 <table>
@@ -1459,6 +1459,34 @@ publication, or a description of its contents and/or form).
           agent>> and two kinds of <<hole>>. Second message with <<ditch; be
           deep / be shallow; be straight / be crooked>> and <<model, example,
           pattern>>.
+    <tr>
+      <td class=nobr><big>2012-11-06</big>
+      <td><big><a href="2012-11-06-haynes.txt"><i>Klingon Bird-of-Prey: Owners'
+              Workshop Manual</i></a></big>
+        <br><small>• Book by Rick Sternbach and Ben Robinson, Haynes Publishing,
+          Somerset, UK, ISBN 978-0-85733-276-9</small>
+        <br>     This book contains one new Klingon word, {petqaD}
+          <<medical tool for mending bones,>> which has later been verified by
+          Okrand.
+    <tr>
+      <td class=nobr><big>2012-12-07</big>
+      <td><big>»<a href="2012-12-07-email.txt">Re: [Tlhingan-hol] Klingon
+            Bird-of-Prey Haynes Manual</a>«</big>
+        <br><small>• Mailing list posting by David Yeung
+          to <i>tlhingan-hol</i></small>
+        <br>     About the word {petqaD} <<medical device to bond broken
+          bones,>> from Haynes’ <i>Klingon Bird-of-Prey: Owner's Workshop
+          Manual.</i>
+  <tbody id=2014>
+    <tr>
+      <td class=nobr><big>2014-12-17</big>
+      <td><big>»<a href="2014-12-17-email.txt">Re: [Tlhingan-hol] keeping “KLI
+            folklore” words in word lists</a>«</big>
+        <br><small>• Mailing list posting by Lieven L. Litaer
+          to <i>tlhingan-hol</i></small>
+        <br>     The word {petqaD} <<medical device to bond broken bones,>> from
+          Haynes’ <i>Klingon Bird-of-Prey: Owner's Workshop Manual</i> is
+          verified as correct by Marc Okrand.
 </table>
 
 [[eof]]
