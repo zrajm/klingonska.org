@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    c8eccb9a58104ce1ca32cfc1498234f4db1bbb01
+SHA1:    f3e72bc5869b265b89a114853cdaa99f9da10707
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -1133,6 +1133,15 @@ tag:	2010
 data:	non-canon; derived form
 id:	f8p
 
+tlh:	{be'taSeD}
+pos:	noun
+en:	«Betazed» (planet)
+sv:	«Betazed» (planet)
+def:	MKE (2011-09-01-Email)
+tag:	2011
+id:	CRc
+meta:	FIXME -- Federation; http://en.memory-alpha.org/wiki/Betazed
+
 tlh:	{bID}
 pos:	noun
 en:	<half>
@@ -1756,6 +1765,15 @@ def:	TKD
 tag:	1985
 id:	nsG
 
+tlh:	{bo'retlh}
+pos:	noun
+en:	«Boreth» (planet)
+sv:	«Boreth» (planet)
+def:	MKE (2011-09-01-Email)
+tag:	2011
+id:	opR
+meta:	Klingon Empire; http://memory-alpha.wikia.com/wiki/Boreth
+
 tlh:	{buD}
 pos:	verb
 en:	be <lazy>
@@ -2006,6 +2024,18 @@ sv:	«torn»
 def:	2010-qep'a' (2010-07-26a-Email)
 tag:	2010
 id:	QbJ
+meta:	FIXME: Reference to mention in {paq'batlh}.
+
+tlh:	{chaltoq loS}
+pos:	noun
+en:	«Chaltok IV» (planet)
+sv:	«Chaltok IV» (planet)
+def:	MKE (2011-09-01-Email)
+tag:	2011
+data:	phrase
+id:	Ufb
+meta:	FIXME -- Romulan Star Empire;
+	http://en.memory-alpha.org/wiki/Chaltok_IV
 
 tlh:	{cham}
 pos:	noun
@@ -8735,6 +8765,16 @@ def:	TKD
 tag:	1985
 id:	R9x
 
+tlh:	{la'pa' loS}
+pos:	noun
+en:	«Lappa IV» (planet)
+sv:	«Lappa IV» (planet)
+def:	MKE (2011-09-01-Email)
+tag:	2011
+data:	phrase
+id:	Qxu
+meta:	FIXME -- Ferengi Alliance; http://en.memory-alpha.org/wiki/Lappa_IV
+
 tlh:	{la'quv}
 pos:	noun
 en:	<Supreme Commander>
@@ -9582,6 +9622,15 @@ def:	TKD
 tag:	1985
 data:	derived form
 id:	2ic
+
+tlh:	{loval}
+pos:	noun
+en:	«Loval» (planet)
+sv:	«Loval» (planet)
+def:	MKE (2011-09-01-Email)
+tag:	2011
+id:	Ude
+meta:	FIXME -- Cardassian Union; http://en.memory-alpha.org/wiki/Loval
 
 tlh:	{loy}
 pos:	verb
@@ -11982,6 +12031,15 @@ see:	{mang} is the singular form
 tag:	1985
 id:	hds
 
+tlh:	{neghvar}
+pos:	noun
+en:	«Negh'Var» (a ship)
+sv:	«Negh'Var» (ett skepp)
+def:	MKE (2011-09-01-Email)
+tag:	2011
+id:	Ah2
+meta:	FIXME -- http://en.memory-alpha.org/wiki/Negh%27Var
+
 tlh:	[1] {neH}
 pos:	adverbial
 en:	<only>, <merely>, <just>, «alone»
@@ -14196,6 +14254,16 @@ def:	TKD
 tag:	1985; time
 id:	EZF
 
+tlh:	{pentatlh wej}
+pos:	noun
+en:	«Pentath III» (planet)
+sv:	«Pentath III» (planet)
+def:	MKE (2011-09-01-Email)
+tag:	2011
+data:	phrase
+id:	o3P
+meta:	FIXME -- Cardassian Union; http://en.memory-alpha.org/wiki/Pentath_III
+
 tlh:	{peng}
 pos:	noun
 en:	<torpedo>, «missile»
@@ -14542,12 +14610,13 @@ tlh:	{pIraqSIS}
 pos:	noun
 en:	«Praxis» (Klingon moon)
 sv:	«Praxis» (klingonsk måne)
-def:	MKE (2012-03-02-Email)
+def:	MKE (2011-09-01-Email; 2012-03-02-Email)
 cite:	{pIraqSIS HoS waw' ghajlu'chugh, loSlogh boq'egh mI' naghmey mI'; chen
 	qav'ap.} ~If Praxis Energy Facility is owned, rent is 4 times amount
 	shown on dice.~ [2012-03-02-Email]
 tag:	2011
 id:	haA
+meta:	FIXME -- The late moon of Qo'noS; nice to finally have a name for it.
 
 tlh:	{pIrmuS}
 pos:	noun
@@ -15542,6 +15611,17 @@ cite:	{qarDaSQa'Daq ruDelya' rop'a' Hergh qengbogh yo' Dabot.} ~Intercept
 tag:	2011
 id:	rhp
 
+tlh:	{qarDaS wa'}
+pos:	noun
+en:	«Cardassia Prime» (planet)
+sv:	«Cardassia Prime» (planet)
+def:	MKE (2011-09-01-Email)
+tag:	2011
+data:	phrase
+id:	w5H
+meta:	FIXME -- Swedish translation? Cardassia Prime (we've previously only
+	seen it be called {qarDaS} or {qarDaSya'}).
+
 tlh:	{qarghan}
 pos:	name
 en:	«Kargan»
@@ -16258,6 +16338,16 @@ tag:	1989; Anglicism
 data:	non-phonotactic
 id:	BQV
 
+tlh:	{qISa'ruj}
+pos:	noun
+en:	«Raptor class» (of ship)
+sv:	«Raptor-klass» (av skepp)
+def:	MKE (2011-09-01-Email)
+tag:	2011
+id:	dh1
+meta:	FIXME -- Used in the 22nd century, and in Star Trek Online also at the
+	dawn of the 25th. http://en.memory-alpha.org/wiki/Raptor_class
+
 tlh:	{qIt}
 pos:	verb
 en:	be <possible>
@@ -16589,6 +16679,16 @@ cite:	If one were to {tuS} "cough," one might produce {qo'qaD} "phlegm."
 see:	{tuS}
 tag:	2003
 id:	paF
+
+tlh:	{qo'rIDan}
+pos:	noun
+en:	«Coridan» (planet)
+sv:	«Coridan» (planet)
+def:	MKE (2011-09-01-Email)
+tag:	2011
+id:	CWo
+meta:	FIXME -- Federation;
+	http://en.memory-alpha.org/wiki/Coridan_%28planet%29
 
 tlh:	{qub}
 pos:	verb
@@ -16993,6 +17093,17 @@ cite:	The word {qu'} may also be used as an exclamation ("Great!"
 	pp.160--161]
 tag:	1997
 id:	JqA
+
+tlh:	{qu'rIl wa'}
+pos:	noun
+en:	«Kurill Prime» (planet)
+sv:	«Kurill Prime» (planet)
+def:	MKE (2011-09-01-Email)
+tag:	2011
+data:	phrase
+id:	5bc
+meta:	FIXME -- Swedish translation? Gamma Quadrant;
+	http://en.memory-alpha.org/wiki/Kurill_Prime
 
 tlh:	{Qab}
 pos:	noun
@@ -17768,6 +17879,17 @@ com:	Vulgar Klingon expression; one of the strongest, most foul Klingon
 	expressions; it defies translation. [KCD]
 tag:	1985; curse
 id:	1dY
+
+tlh:	{QI'yoS wa'}
+pos:	noun
+en:	«Krios Prime» (planet)
+sv:	«Krios Prime» (planet)
+def:	MKE (2011-09-01-Email)
+tag:	2011
+data:	phrase
+id:	i4A
+meta:	FIXME -- Swedish translation? Colonized by Klingons at one point;
+	http://en.memory-alpha.org/wiki/Krios_Prime
 
 tlh:	{Qob} [1]
 pos:	verb
@@ -18677,6 +18799,16 @@ sv:	«Regulus»
 def:	TKD
 tag:	1985
 id:	XbK
+
+tlh:	{reghuluS chorgh}
+pos:	noun
+en:	«M-113» (planet)
+sv:	«M-113» (planet)
+def:	MKE (2011-09-01-Email)
+tag:	2011
+data:	phrase
+id:	wie
+meta:	FIXME -- A.k.a. Regulus VIII; http://en.memory-alpha.org/wiki/M-113
 
 tlh:	{reghuluSngan}
 pos:	noun
@@ -21194,11 +21326,13 @@ pos:	noun
 en:	«Ty'Gokor» (planet)
 sv:	«Ty'Gokor» (planet)
 def:	DI p.246 (2001-02-17-Email)
+ref:	MKE (2011-09-01-Email)
 cite:	~Ty'Gokor~ ({tay'ghoqor}) A planet where the induction into the Order
 	of the ~Bat'leth~ takes place. [First seen in "Apocalypse Rising"
 	(DS9).] [DI p.246]
 tag:	2001
 id:	Vkw
+meta:	FIXME -- Klingon Empire; http://en.memory-alpha.org/wiki/Ty%27Gokor
 
 tlh:	[1] {ta'} [1]
 pos:	verb
@@ -23303,6 +23437,16 @@ tag:	1997; music
 data:	phrase
 id:	wYD
 
+tlh:	{vanDIroS loS}
+pos:	noun
+en:	«Vandros IV» (planet)
+sv:	«Vandros IV» (planet)
+def:	MKE (2011-09-01-Email)
+tag:	2011
+data:	phrase
+id:	FkR
+meta:	FIXME -- Gamma Quadrant; http://en.memory-alpha.org/wiki/Vandros_IV
+
 tlh:	{van'a'}
 pos:	noun
 en:	<award>
@@ -23638,6 +23782,15 @@ ref:	TKW p.189
 tag:	1992
 id:	jpT
 
+tlh:	{verenganar}
+pos:	noun
+en:	«Ferenginar» (planet)
+sv:	«Ferenginar» (planet)
+def:	MKE (2012-01-04-Email)
+tag:	2011
+id:	sBK
+meta:	FIXME -- Ferengi Alliance; http://en.memory-alpha.org/wiki/Ferenginar
+
 tlh:	{verengan Ha'DIbaH}
 pos:	noun
 en:	«Ferengi dog»
@@ -23654,8 +23807,9 @@ en:	<dock>, «park»
 sv:	«docka», «parkera»
 desc:	driver is subj., vessel is obj. [2011-10-30-Email]
 def:	TKD
-ref:	TNK (2011-10-30-Email)
+ref:	TNK (2011-10-30-Email); MKE (2011-09-01-Email)
 cite:	{nuqDaq puH Duj vIvergh?} ~Where can I park the car?~ [TNK]
+cite:	{vergh 'ach DIlnISbe'} ~free parking~ [MKE]
 tag:	1985; KLCP1
 id:	Q76
 
@@ -23696,7 +23850,7 @@ tlh:	{vey}
 pos:	noun
 en:	«set», pack, «package»
 sv:	«sats», «uppsättning», «packe», «bunt», «uppsättning»
-def:	MKE (2012-03-02-Email)
+def:	MKE (2011-11-18-Email; 2012-03-02-Email)
 cite:	{wa' tlhIngan QaS vey} ~one pack of Klingon forces~ [MKE]
 cite:	{veymey puS neH chenmoHlu'pu'} ~Limited Edition~ [MKE]
 cite:	{boSwI'vaD veyvam le' chenmoHlu'} ~Collector's Edition~ [MKE]
@@ -24016,6 +24170,15 @@ sv:	«hela», «bota»
 def:	TKD
 tag:	1985
 id:	wHB
+
+tlh:	{vorcha'}
+pos:	noun
+en:	«Vor'cha» (a ship)
+sv:	«Vor'cha» (ett skepp)
+def:	MKE (2011-09-01-Email)
+tag:	2011
+id:	fhs
+meta:	FIXME -- http://en.memory-alpha.org/wiki/Vor%27cha_class
 
 tlh:	{voSpegh Sep}
 pos:	noun
@@ -25033,6 +25196,17 @@ com:	Slang based on Krotmag dialect pronunciation.
 tag:	1997
 id:	zm8
 
+tlh:	{yaDe'ra' wa'}
+pos:	noun
+en:	«Yadera Prime» (planet)
+sv:	«Yadera Prime» (planet)
+def:	MKE (2011-09-01-Email)
+tag:	2011
+data:	phrase
+id:	ZcT
+meta:	FIXME -- Swedish translation? Gamma Quadrant; Dominion;
+	http://en.memory-alpha.org/wiki/Yadera_Prime
+
 tlh:	{yagh}
 pos:	noun
 en:	<organism>
@@ -25931,6 +26105,16 @@ pun:	Could this have anything to do with "Academy of Motion Picture Arts and
 	Sciences", perhaps?
 tag:	1997
 id:	6yC
+
+tlh:	{'anDor}
+pos:	noun
+en:	«Andor» (planet)
+sv:	«Andor» (planet)
+def:	MKE (2011-12-21-Email; 2012-01-04-Email)
+tag:	2011
+id:	se1
+meta:	FIXME -- Include {'anDorya'} ~Andoria~ (from earlier transcripts of
+	MKE) in entry? Federation; http://en.memory-alpha.org/wiki/Andoria
 
 tlh:	{'antonI'}
 pos:	name

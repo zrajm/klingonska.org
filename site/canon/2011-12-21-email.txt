@@ -1,0 +1,84 @@
+[[
+  [2016-10-03] added document
+
+  Type: email
+  Date: 21 December 2011
+  Title: Re: [Tlhingan-hol] New canon from Klingon Monopoly
+  Author: Felix Malmenbeck
+  Summary: Some discussion about the new words {'anDor} ~Andor,~ {pIraqSIS}
+    ~Praxis~ and {verenganar} ~Fereginar~.
+
+]]
+
+From: Felix Malmenbeck <felixm@kth.se>
+To: Steven Boozer <sboozer@uchicago.edu>, "tlhingan-hol@kli.org"
+ <tlhingan-hol@kli.org>
+Date: Wed, 21 Dec 2011 20:35:49 +0000
+Subject: Re: [Tlhingan-hol] New canon from Klingon Monopoly
+
+I believe that on the final version of the board, the name vas changed to verengannar (can't check right now; perhaps somebody can confirm).
+
+Also, 'anDorya' was changed to 'anDor (which is interesting, since people disagree on what the distinction is between Andor and Andoria; some claim one is the planet and the other the moon, while others claim "andor" is Andorian for "world", and -ia is some sort of augmentative suffix, so Andoria is "THE world"). Of course, for all we know, 'anDorya' is also correct (much like qarDaS and qarDaSya').
+
+I think the Klingon spelling of Praxis is a bit unfortunate; it looks like a Klingon backfit of a Human name (like 'entepray'), rather than it being the other way around (I'd have liked something like *pIratlh or *pIra'tlhIH).
+
+________________________________________
+From: Steven Boozer [sboozer@uchicago.edu]
+Sent: Wednesday, December 21, 2011 21:22
+To: tlhingan-hol@kli.org
+Subject: Re: [Tlhingan-hol] New canon from Klingon Monopoly
+
+loghaD:
+>> {verngannar} - Ferenginar (Ferengi Alliance;
+>> http://en.memory-alpha.org/wiki/Ferenginar)
+>> [NOTE: Some believe that this may be a typo; that it should in
+>> fact be verengannar, since Ferengi is verengan.]
+
+De'vID:
+> Well, based on {verengan}, shouldn't it be *{vere} or *{veren}?
+> But we know the Ferengis call it something that sounds like
+> "Ferenginar" to human ears, and perhaps the same word sounds like
+> {verngannar} to Klingons.  Maybe it's {verengan} that's unusual.
+> Perhaps Klingons think {verngannarngan} is too long and unwieldy,
+> or the presence of a {ngan} in the middle of a word ending in
+> {ngan} is confusing to them (what? what's a Verian's Narian?),
+> and so they shortened the word to {verengan} via some process
+> that added the middle "e".
+
+I used to think that *{vereng} was a short-form planet name in Klingon, perhaps used earlier in preference to *{verengannar}.
+
+  verengan < ?verengngan < ?vereng + ngan
+
+We've seen examples of such elision before:
+
+  lIghongan < lIghonngan < lIghon + ngan
+
+KGT 141:  A name for the inhabitant of a planet (and, therefore, the name of a race of beings) is formed by adding {ngan} (inhabitant) to the planet name (excluding the number, if any): {lIghonngan} (Ligonian) [...] (Actually, there is some phonetic variation here. Ligonian is often pronounced {lIghongan}, dropping the final {n} of {lIghon} before the initial {ng} of {ngan}. This is not considered an error, only an alternate pronunciation.)
+
+Another example:
+
+  vulgangan < ?vulganngan < vulqan + ngan (?)
+
+The word {tlhIngan} itself may be a variation:
+
+  tlhIngan < ?tlhIngngan < tlhIng + ngan (?)
+
+N.B. There's a {tlhIng yoS} "Kling District" on Kronos.
+
+
+--
+Voragh
+Ca'Non Master of the Klingons
+
+
+_______________________________________________
+Tlhingan-hol mailing list
+Tlhingan-hol@stodi.digitalkingdom.org
+http://stodi.digitalkingdom.org/mailman/listinfo/tlhingan-hol
+
+_______________________________________________
+Tlhingan-hol mailing list
+Tlhingan-hol@stodi.digitalkingdom.org
+http://stodi.digitalkingdom.org/mailman/listinfo/tlhingan-hol
+
+[[eof]]

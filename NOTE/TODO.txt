@@ -1672,6 +1672,8 @@
     transcript).
 *** [61%] Transcripts updating/improvement
 **** TODO Haynes Klingon Bird-of-Prey Manual
+***** DONE Buy copy of the Haynes Klingon Bird-of-Prey Manual
+      CLOSED: [2016-10-05 Wed 17:23]
 **** TODO Updated time stamp info in CK
      There are various time stamps spread out in the transcript, update these
      to make sure that they're correct vis-à-vis the the digital audio files.
@@ -1687,8 +1689,10 @@
 ***** TODO Who was there?
 **** TODO Add missing transcript file headers
      Some of them have FIXME written in them, some are just absent.
-**** [0%] Improve MKE transcript
-***** TODO Buy copy of Monopoly: Klingon Edition
+**** [50%] Improve MKE transcript
+***** TODO Check 2011-11-17-mke.txt against actual game
+***** DONE Buy copy of Monopoly: Klingon Edition
+      CLOSED: [2016-10-05 Wed 17:22]
 **** [0%] Improve TNK transcript
 ***** TODO Buy copy of Eurotalk TalkNow! Klingon
 **** TODO Find & add {veS QonoS} transcript

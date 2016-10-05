@@ -1,6 +1,6 @@
 : -*- html -*-
 created: 1999-08-08
-updated: 2016-10-03 03:35:51+02
+updated: 2016-10-05 17:33+02
 author: zrajm
 year: 1999-2016
 lang: en
@@ -1299,6 +1299,14 @@ publication, or a description of its contents and/or form).
           <<khrun (animal),>> {QIncha'} <<krincha (animal),>> {yIr} <<gather,>>
           {'o} <<o>> (in direct address), {wel} <<owe.>>
     <tr>
+      <td class=nobr><big>2011-09-01</big>
+      <td><big>»<a href="2011-09-01-email.txt">RE: New canon from Klingon Monopoly</a>«</big>
+        <br><small>• Mailing list posting by Felix Malmenbeck
+          to <i>tlhingan-hol</i></small>
+        <br>      Transcript of the Klingon words appearing on the game board
+          of Klingon monopoly, based on images published at the USAopoly web
+          site before the release of the game.
+    <tr>
       <td class=nobr rowspan=3><big>2011-10-24</big>
       <td><big>»<a href="2011-10-24a-email.txt">[Tlhingan-hol] new word
             found</a>«</big>
@@ -1447,7 +1455,23 @@ publication, or a description of its contents and/or form).
         <br><small>• Mailing list posting by Alan Anderson
           to <i>tlhingan-hol</i></small>
         <br>     Explanation of the pun for {'eQway} <<belly button.>>
+    <tr>
+      <td class=nobr><big>2011-12-21</big>
+      <td><big>»<a href="2011-12-21-email.txt">Re: [Tlhingan-hol] New canon
+            from Klingon Monopoly</a>«</big>
+        <br><small>• Mailing list posting by Felix Malmenbeck
+          to <i>tlhingan-hol</i></small>
+        <br>     Some discussion about the new words {'anDor} <<Andor,>>
+          {pIraqSIS} <<Praxis>> and {verenganar} <<Fereginar>>.
   <tbody id=2012>
+    <tr>
+      <td class=nobr><big>2012-01-04</big>
+      <td><big>»<a href="2012-01-04-email.txt">Re: [Tlhingan-hol] New canon
+            from Klingon Monopoly</a>«</big>
+        <br><small>• Mailing list posting by Lieven L. Litaer
+          to <i>tlhingan-hol</i></small>
+        <br>     Final, corrected versions of the words {'anDor} <<Andor>> and
+          {verenganar} <<Ferenginar>> on the Klingon Monopoly.
     <tr>
       <td class=nobr><big>2012-01-26</big>
       <td><big>»<a href="2012-01-26-email.txt">[Tlhingan-hol] More new words

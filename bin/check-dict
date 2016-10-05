@@ -348,12 +348,11 @@ sub get_entries {
 {
     # these source reference words are not in all capitals
     my %tr = (
-        bop    => "BoP",    email  => "Email",  hallmark    => "Hallmark",
-        holqed => "HolQeD", news   => "News",   praxis      => "Praxis",
-        "qepa" => "qep'a'", sarek  => "Sarek",  "ves-qonos" => "veS-QonoS",
-        web    => "Web",
-        haynes   => "Haynes",
-        qephoma => "qepHom'a'",
+        bop      => "BoP",       email  => "Email",  hallmark    => "Hallmark",
+        haynes   => "Haynes",    holqed => "HolQeD", news        => "News",
+        paqbatlh => "paq'batlh", praxis => "Praxis", qepa        => "qep'a'",
+        qephoma  => "qepHom'a'", sarek  => "Sarek",  "ves-qonos" => "veS-QonoS",
+        web      => "Web",
     );
     my $re = qr/${\( join("|", sort keys %tr) )}/;
 
@@ -980,7 +979,8 @@ sub check_meta {
     return "Duplicate" if @{ $entry->{$field} } > 1;
     my @warn;
     push @warn, check_brackets($_);
-    push @warn, "First letter not upper case in" unless m#^(["A-Z]|\*?\{)#x;
+    push @warn, "First letter not upper case in"
+        unless m#^\*?\{#x or (m#(\w)# and $1 eq uc($1));
     push @warn, "Last character is mid-sentence punctuation in" if m#[-,:;([{<«  ]$#;
     return @warn;
 }
