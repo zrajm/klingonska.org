@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    f3e72bc5869b265b89a114853cdaa99f9da10707
+SHA1:    7f5df74d1c237fb472cbb11493f3934ea65a5db3
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -21705,6 +21705,16 @@ ref:	TKW p.iii
 tag:	1985
 id:	qLm
 
+tlh:	{tIghla'}
+pos:	noun
+en:	type of <animal>, «~t'gla~»
+sv:	ett slags «djur», «~t'gla~»
+def:	KGT
+ref:	KGT p.132
+cite:	{Dogh; tIghla' rur} ~foolish as a t'gla~ [KGT p.132]
+tag:	1997; animal; Klingonism
+id:	pWq
+
 tlh:	{tIH} [.1]
 pos:	noun
 en:	<ray>, «beam»
@@ -22059,6 +22069,7 @@ en:	type of <animal>, «~topah~»
 sv:	ett slags «djur», «~topah~»
 def:	KGT
 ref:	KGT p.132
+cite:	{tlhIb; toppa' rur} ~incompetent as a <topah>~ [KGT p.132]
 tag:	1997; animal; Klingonism
 id:	iEF
 
