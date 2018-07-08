@@ -3896,7 +3896,7 @@ def:	KGT
 tag:	1997
 id:	q83
 
-tlh:	{DIr qanwI' taS}
+tlh:	{DIr QanwI' taS}
 pos:	noun
 en:	«suntan lotion»
 sv:	«sololja»
@@ -12667,8 +12667,8 @@ id:	RF8
 
 tlh:	{noHva'Dut}
 pos:	noun
-en:	«No'hvadut» (ett geografisk region)
-sv:	«No'hvadut» (a geographic region)
+en:	«No'hvadut» (a geographic region)
+sv:	«No'hvadut» (ett geografisk region)
 def:	KGT p.26
 tag:	1997
 id:	fUn
@@ -17201,7 +17201,7 @@ data:	phrase
 id:	cn8
 
 tlh:	{Qal}
-pos:	noun
+pos:	verb
 en:	«swim»
 sv:	«simma»
 def:	TNK (2011-10-30-Email)
@@ -20113,7 +20113,7 @@ tag:	1992
 id:	61f
 
 tlh:	{SIbI'Ha'}
-pos:	verb
+pos:	adverbial
 en:	«later», «eventually», after a «delay»
 sv:	«senare», så «småningom», om ett tag, «tids nog»
 def:	MKE (2012-01-01-Email; 2012-03-02-Email)
