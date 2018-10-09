@@ -893,7 +893,7 @@ sub check_see {
         $_ => 1;
     } qw(Anglicism animal architecture body_part clothing color country curse
          economics family fighting food KLCP1 Klingonism landscape math measure
-         music placement quantity religion shape time);
+         music placement quantity religion shape time weather);
     my %year = do {                            # source transcript years
         my %file = get_source_names();         #   transcript filenames
         $file{TKD} = "1985";                   #   override TKD year

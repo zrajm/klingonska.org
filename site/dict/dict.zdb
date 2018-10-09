@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    d5521b68a1c47c1fcaa1be3ef3f3f47c14d708a0
+SHA1:    0082adc72f8b42bdd13168a52f6784d779b2218b
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -408,6 +408,7 @@ once in the same entry).
     + `religion`
     + `shape`
     + `time`
+    + `weather`
 
     Possible/likely changes: Renaming of some categories to include more words.
 
@@ -1217,7 +1218,7 @@ def:	TKD
 ref:	TKW pp.34--35; KLINW
 cite:	Just as "blood" is used figuratively to refer to power, "water" carries
 	the opposite and negative connotation of lack of control. [TKW p.34]
-tag:	1985; KLCP1
+tag:	1985; KLCP1; weather
 id:	LmD
 
 tlh:	{bIQ «bal»}
@@ -1296,9 +1297,9 @@ id:	VdP
 tlh:	{bIQ'a'}
 pos:	noun
 en:	<ocean>
-sv:	«ocean», «världshav»
+sv:	«ocean», «hav»
 def:	TKD
-tag:	1985; landscape
+tag:	1985; landscape; weather
 id:	hX3
 
 tlh:	{bIQ'a' HeH}
@@ -1317,7 +1318,7 @@ en:	be <cold>
 sv:	vara «kall»
 def:	TKD
 ref:	TKW pp.133, 174
-tag:	1985; KLCP1
+tag:	1985; KLCP1; weather
 id:	EQE
 
 tlh:	{bIraqlul}
@@ -2014,7 +2015,7 @@ pos:	noun
 en:	<sky>
 sv:	«himmel»
 def:	TKD
-tag:	1985; KLCP1; landscape
+tag:	1985; KLCP1; landscape; weather
 id:	iqr
 
 tlh:	{chalqach}
@@ -2987,7 +2988,7 @@ en:	<ice>
 sv:	«is»
 def:	TKD
 ref:	TKW p.190
-tag:	1985
+tag:	1985; weather
 id:	XHH
 
 tlh:	{chuH} [.1]
@@ -3539,7 +3540,7 @@ pos:	noun
 en:	<desert>
 sv:	«öken», «ödemark»
 def:	TKD
-tag:	1985
+tag:	1985; weather
 id:	2dG
 
 tlh:	{Dech}
@@ -5692,7 +5693,7 @@ en:	be «warm»
 sv:	vara «varm»
 def:	HolQeD-13-1 p.8
 ref:	TDNW
-tag:	2004
+tag:	2004; weather
 id:	9TX
 
 tlh:	{ghung}
@@ -5997,7 +5998,7 @@ pos:	noun
 en:	<temperature>
 sv:	«temperatur»
 def:	TKD
-tag:	1985
+tag:	1985; weather
 id:	Cqu
 
 tlh:	{Hatlh}
@@ -7014,7 +7015,7 @@ pos:	noun
 en:	<mountain>, <hill>
 sv:	«berg», «kulle»
 def:	TKD
-tag:	1985; landscape
+tag:	1985; landscape; weather
 id:	Ek1
 
 tlh:	{HuD beQ yoS}
@@ -7849,7 +7850,7 @@ pos:	verb
 en:	<storm>
 sv:	«storma»
 def:	TKD
-tag:	1985; landscape
+tag:	1985; landscape; weather
 id:	M6u
 meta:	"Correction" in HQ4:1 p.7 disregarded here, since weather words {peD}
 	and {SIS} also are verbs.
@@ -8488,7 +8489,7 @@ sv:	«sol» (generell term)
 def:	2011-qep'a' (2011-08-22-Email)
 com:	This is a general term for a planet's sun. It is not the name of a
 	specific sun. /Alan Anderson
-tag:	2011
+tag:	2011; weather
 id:	FoV
 
 tlh:	{jum}
@@ -11222,7 +11223,7 @@ pos:	noun
 en:	<atmosphere>
 sv:	«atmosfär»
 def:	TKD
-tag:	1985
+tag:	1985; weather
 id:	VQJ
 
 tlh:	{muD} [.2]
@@ -11230,7 +11231,7 @@ pos:	noun
 en:	<weather> (in general)
 sv:	«väder» (generellt)
 def:	KGT
-tag:	1997
+tag:	1997; weather
 id:	97N
 
 tlh:	{muD Dotlh}
@@ -11238,7 +11239,7 @@ pos:	noun
 en:	<weather> (at any given moment)
 sv:	«väder» (vid ett givet tillfälle)
 def:	KGT
-tag:	1997
+tag:	1997; weather
 data:	phrase
 id:	t3d
 
@@ -14163,7 +14164,7 @@ pos:	verb
 en:	<snow>
 sv:	«snöa»
 def:	TKD
-tag:	1985; landscape
+tag:	1985; landscape; weather
 id:	ANL
 
 tlh:	{pegh} [1.1]
@@ -17127,7 +17128,7 @@ pos:	verb
 en:	be <dry>, be <dried> out
 sv:	vara «torr», vara «uttorkad»
 def:	TKD; KGT
-tag:	1985; KLCP1
+tag:	1985; KLCP1; weather
 id:	VvE
 
 tlh:	{QaD} [.2]
@@ -20257,7 +20258,17 @@ pos:	verb
 en:	<rain>
 sv:	«regna»
 def:	TKD
-tag:	1985; KLCP1; landscape
+cite:	{SIS}. In a way everyone was correct with this one. It rained a few
+	times during the weekend, so we were put into the situation to discuss
+	it. {SIS}, {SISqu'}, {SIStaH}, {SISchoH}. All correct. {SISlu'},
+	althought grammatically correct, he [Marc Okrand] didn't particularly
+	like. Someone COULD use it but to me it sounds like they skipped
+	science class and don't know what the subject is. You can also give it
+	an object and say things like the clouds rained down cats and dogs.
+	...or something like that; you get the idea. But when Marc and I went
+	outside and drops of water were falling on us, he looked up and simply
+	said "{SIS}". [1998-05-28-Email]
+tag:	1985; KLCP1; landscape; weather
 id:	Ce1
 
 tlh:	{SIS yoD}
@@ -20265,7 +20276,7 @@ pos:	noun
 en:	«umbrella»
 sv:	«paraply»
 def:	TNK (2011-11-02-Email)
-tag:	2011
+tag:	2011; weather
 data:	phrase
 id:	SR8
 
@@ -20306,7 +20317,7 @@ pos:	verb
 en:	<flood>
 sv:	«översvämma», «flöda över»
 def:	TKD
-tag:	1985
+tag:	1985; weather
 id:	yV7
 
 tlh:	{SoD} [2]
@@ -20314,7 +20325,7 @@ pos:	noun
 en:	<flood>
 sv:	«översvämmning», «flod»
 def:	TKD
-tag:	1985
+tag:	1985; weather
 id:	smH
 
 tlh:	{Sogh}
@@ -20822,7 +20833,7 @@ en:	<wind>, <breeze>
 sv:	«vind», «bris»
 def:	TKD
 ref:	TKW p.107
-tag:	1985; KLCP1; landscape
+tag:	1985; KLCP1; landscape; weather
 id:	KN9
 
 tlh:	{SuS} [2]
@@ -21006,7 +21017,7 @@ pos:	verb
 en:	be <frozen>
 sv:	vara «frusen»
 def:	TKD
-tag:	1985; KLCP1
+tag:	1985; KLCP1; weather
 id:	8Um
 
 tlh:	{taD} [2]
@@ -21024,7 +21035,7 @@ pos:	verb
 en:	<freeze>
 sv:	«frysa»
 def:	TKD
-tag:	1985; food
+tag:	1985; food; weather
 data:	derived form
 id:	d3M
 
@@ -25558,7 +25569,7 @@ pos:	verb
 en:	be «wet»
 sv:	vara «våt»
 def:	TKD K-E
-tag:	1985; KLCP1
+tag:	1985; KLCP1; weather
 id:	69D
 
 tlh:	{yIr}
@@ -26544,7 +26555,7 @@ pos:	noun
 en:	<cloud>
 sv:	«moln»
 def:	TKD
-tag:	1985; KLCP1; landscape
+tag:	1985; KLCP1; landscape; weather
 id:	TUo
 
 tlh:	{'ep}
