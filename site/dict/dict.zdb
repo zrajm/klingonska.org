@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    7f5df74d1c237fb472cbb11493f3934ea65a5db3
+SHA1:    d5521b68a1c47c1fcaa1be3ef3f3f47c14d708a0
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -3896,7 +3896,7 @@ def:	KGT
 tag:	1997
 id:	q83
 
-tlh:	{DIr qanwI' taS}
+tlh:	{DIr QanwI' taS}
 pos:	noun
 en:	«suntan lotion»
 sv:	«sololja»
@@ -7212,7 +7212,7 @@ tag:	1985; math
 id:	hHw
 
 tlh:	{Hutvagh}
-pos:	exclamation
+pos:	noun
 en:	too «many» people/things in a place all at once
 sv:	för «många» människor/saker på samma plats samtidigt
 def:	HolQeD-11-3-b p.13
@@ -12667,8 +12667,8 @@ id:	RF8
 
 tlh:	{noHva'Dut}
 pos:	noun
-en:	«No'hvadut» (ett geografisk region)
-sv:	«No'hvadut» (a geographic region)
+en:	«No'hvadut» (a geographic region)
+sv:	«No'hvadut» (ett geografisk region)
 def:	KGT p.26
 tag:	1997
 id:	fUn
@@ -17201,7 +17201,7 @@ data:	phrase
 id:	cn8
 
 tlh:	{Qal}
-pos:	noun
+pos:	verb
 en:	«swim»
 sv:	«simma»
 def:	TNK (2011-10-30-Email)
@@ -20113,7 +20113,7 @@ tag:	1992
 id:	61f
 
 tlh:	{SIbI'Ha'}
-pos:	verb
+pos:	adverbial
 en:	«later», «eventually», after a «delay»
 sv:	«senare», så «småningom», om ett tag, «tids nog»
 def:	MKE (2012-01-01-Email; 2012-03-02-Email)
