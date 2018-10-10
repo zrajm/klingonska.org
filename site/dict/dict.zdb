@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    0082adc72f8b42bdd13168a52f6784d779b2218b
+SHA1:    397f107f72c073f6d797c118037f45aa93373bb3
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -10260,7 +10260,7 @@ id:	UsJ
 tlh:	{may'}
 pos:	noun
 en:	<battle> (an individual battle)
-sv:	«strid» (ett enskild strid)
+sv:	«strid» (en enskild strid)
 def:	TKD; KGT p.47
 ref:	TKW pp.38, 91, 147, 211
 see:	{vIq}
