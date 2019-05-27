@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    397f107f72c073f6d797c118037f45aa93373bb3
+SHA1:    4ec4a6da8d2a7e97930643da25420799bb556d7b
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -4913,13 +4913,31 @@ tag:	2003
 data:	derived form
 id:	E6s
 
+tlh:	{ghevchoq}
+pos:	noun
+en:	«Gevchok» (region)
+sv:	«Gevchok» (region)
+def:	KGT p.17
+cite:	On rare occasion, a place's name can be traced to an individual or
+	family, such as [...] {ghevchoq Sep} ("Gevchok region") [...] [KGT
+	p.17]
+tag:	1997
+id:	a2J
+meta:	In KGT this word only occur as part a noun--noun construction with
+	{Sep} ~region~, however, the use of {Sep} in region names varies enough
+	that inclusion of the word here without {Sep} seems warranted. (Of six
+	regions named in KGT, one [{ghevchoq}] is only used with {Sep}, two
+	[{meqro'vaq} and {noHva'Dut}] are only used without it, and three
+	[{Qotmagh, Sa'Qej} and {voSpegh}] are used both with and without it.)
+
 tlh:	{ghevchoq Sep}
 pos:	noun
 en:	«Gevchok» region
 sv:	«Gevchok»-regionen
 def:	KGT p.17
+com:	A Klingon region in which the city {ruq'e'vet} ~Ruk'evet~ resides.
 tag:	1997
-data:	phrase; {ghevchoq} (n)
+data:	phrase
 id:	mwi
 
 tlh:	{ghevI'}
@@ -12668,8 +12686,8 @@ id:	RF8
 
 tlh:	{noHva'Dut}
 pos:	noun
-en:	«No'hvadut» (a geographic region)
-sv:	«No'hvadut» (ett geografisk region)
+en:	«No'hvadut» (region)
+sv:	«No'hvadut» (region)
 def:	KGT p.26
 tag:	1997
 id:	fUn
@@ -15591,6 +15609,8 @@ pos:	noun
 en:	<Cardassia>
 sv:	«Cardassia»
 def:	KGT
+cite:	Cardassia is both {qarDaS} and {qarDaSya'}. [KGT p.142]
+see:	{qarDaSya'} ~Cardassia~
 tag:	1997
 id:	Gcd
 
@@ -15622,6 +15642,16 @@ data:	phrase
 id:	w5H
 meta:	FIXME -- Swedish translation? Cardassia Prime (we've previously only
 	seen it be called {qarDaS} or {qarDaSya'}).
+
+tlh:	{qarDaSya'}
+pos:	noun
+en:	<Cardassia>
+sv:	«Cardassia»
+def:	KGT
+cite:	Cardassia is both {qarDaS} and {qarDaSya'}. [KGT p.142]
+see:	{qarDaS} ~Cardassia~
+tag:	1997
+id:	Q5G
 
 tlh:	{qarghan}
 pos:	name
@@ -18131,11 +18161,13 @@ id:	95J
 
 tlh:	{Qotmagh}
 pos:	name
-en:	«Krotmag»
-sv:	«Krotmag»
+en:	«Krotmag» (region)
+sv:	«Krotmag» (region)
 def:	KGT p.17
-com:	The leader of a powerful house who, centuries ago, conquered
-	neighboring areas. {Qotmagh Sep} was named after him.
+cite:	{Qotmagh Sep} ("Krotmag region"), derived from {Qotmagh}, the leader of
+	a powerful house who, centuries ago, conquered neighboring areas[...]
+	[KGT p.17]
+see:	{Qotmagh Sep} ~Krotmag region~ (n)
 tag:	1997; Klingonism
 id:	2FJ
 
@@ -18144,6 +18176,7 @@ pos:	noun
 en:	«Krotmag region»
 sv:	«Krotmag-regionen»
 def:	KGT p.17
+see:	{Qotmagh} ~Krotmag~ (n)
 tag:	1997
 data:	phrase
 id:	dHo
@@ -19466,6 +19499,11 @@ pos:	noun
 en:	«Ruk'evet» (city in Gevchok region)
 sv:	«Ruk'evet» (stad i Gevchok-regionen)
 def:	KGT pp.17, 30
+cite:	On rare occasion, a place's name can be traced to an individual or
+	family, such as [...] {ruq'e'vet} ("Ruk'evet"), a city in the {ghevchoq
+	Sep} ("Gevchok region"), named for a warrior (whether actual or
+	mythological is a matter of dispute) who singlehandedly defeated an
+	invading force. [KGT p.17]
 tag:	1997
 id:	TcA
 
@@ -19846,6 +19884,19 @@ pun:	(1) ~tuchas~ (Yiddish for buttocks) backwards. (2) "ass-sa-nine", i.e.
 tag:	2003; body part
 id:	vwJ
 
+tlh:	{Sa'Qej}
+pos:	noun
+en:	«Sakrej» (region)
+sv:	«Sakrej» (region)
+def:	KGT pp.17, 24
+cite:	Other regions have names that are distinct from the names of any
+	districts or cities within them, such as the large {Sa'Qej Sep}
+	("Sakrej region"), several thousand kilometers east of the First City.
+	[KGT p.17]
+see:	{Sa'Qej Sep} ~Sakrej region~ (n)
+tag:	1997
+id:	Uwd
+
 tlh:	{Sa'Qej Sep}
 pos:	noun
 en:	«Sakrej region»
@@ -19857,6 +19908,7 @@ com:	Sakrej Region {Sa'Qej Sep} is the source of many odd pronunciations and
 	{Sa'Qej} is *{jeQ'aS} - "jackass" - backwards, which may well have been
 	a frustrated Okrand's comment on some actor or Paramount's writing
 	staff!
+see:	{Sa'Qej} ~Sakrej~ (n)
 tag:	1997
 data:	phrase; {Sa'Qej} (n)
 id:	ELb
@@ -24202,11 +24254,21 @@ tag:	2011
 id:	fhs
 meta:	FIXME -- http://en.memory-alpha.org/wiki/Vor%27cha_class
 
+tlh:	{voSpegh}
+pos:	noun
+en:	«Vospeg» (region)
+sv:	«Vospeg» (region)
+def:	KGT p.16
+see:	{voSpegh Sep} ~Vospeg region~ (n)
+tag:	1997
+id:	QFN
+
 tlh:	{voSpegh Sep}
 pos:	noun
 en:	«Vospeg region»
 sv:	«Vospeg-regionen»
 def:	KGT p.16
+see:	{voSpegh} ~Vospeg~ (n)
 tag:	1997
 data:	phrase; {voSpegh} (n)
 id:	dvw
@@ -28516,9 +28578,9 @@ id:	fzK
 === end-of-noun-suffix-list ===
 == end-of-data ==
 
+
 KLINGON WORDS NEVER OCCURING BY THEM SELVES
 ===========================================
-
 The following words exist in the dictionary that are not accounted for
 separately, but instead only occurs in different noun-noun constructions. Most
 of these are logical derivates which can be understood either as built up of
@@ -28531,8 +28593,6 @@ the question remains whether {chem} can be considered a word in its own right.
 	{chevwI'}   "one who separates"
 	{choHwI'}   "one who changes"
 	{Duran}	    Durani (lizard skins)
-	{ghevchoq}  Gevchok (region)
-	{Sa'Qej}    Sakrej (region)
 	{ghIlab}    glob (fly)
 	{Hubbeq}    (Klingon) Defense Force
 	{mI'wI'}    (fire) dancer
@@ -28541,8 +28601,8 @@ the question remains whether {chem} can be considered a word in its own right.
 	{tI'qa'}    tika (cat)
 	{tlhIng}    Kling (discrict)
 	{toqvIr}    Tokvirian (skink)
-	{voSpegh}   Vospeg (region)
 	{yaHnIv}    Operations (command)
+
 
 {qep'a'mey} as Sources
 ======================
@@ -28779,6 +28839,7 @@ SOURCES REFERENCES AND ABBREVIATIONS
            Terrence Donnelly's list of new words, copyright 2005. This list has
            no source references, but has nontheless been important in hunting
            down some of the more elusive newer words for inclusion.
+
 
 HISTORY (LAST CHANGES FIRST)
 ============================
