@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    4ec4a6da8d2a7e97930643da25420799bb556d7b
+SHA1:    990cc427a4e7e46a024d1a7f163fa79449a96c84
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -13038,8 +13038,16 @@ cite:	{nuq legh yaS} <What does the officer see?> [TKD 6.4/p.69]
 cite:	Both {'Iv} and {nuq} are treated as nouns as far as the pronominal
 	prefixes are concerned. That is, they are considered third person. [TKD
 	6.4/p.69]
+see:	{nuqneH}, {nuqjatlh}, {nuqDaq}, {'Iv}
 tag:	1985
 id:	SPp
+meta:	{nuq} works as a pronoun (i.e. it can act as either a noun or a verb
+	meaning ~what is …?~) -- this means it probably can't be used in
+	noun-noun constructions. A phrase like {Dargh Segh nuq DaneH?} would
+	ungrammatical, as {nuq} would be interpreted as a verb, making the
+	first part of the phrase mean ~what is the kind of tea?~ (not ~what
+	kind of tea~). The whole phrase is better rephrased as {Dargh Segh
+	DaneHbogh yIngu'!}
 
 tlh:	{nuqDaq}
 pos:	question word
@@ -13048,6 +13056,7 @@ sv:	«var»?
 desc:	{nuqDaq 'oH puchpa''e'} ~where is the bathroom?~ [TKD p.170]; acts as
 	locative
 def:	TKD
+see:	{nuq}
 tag:	1985
 id:	nLB
 
@@ -13056,6 +13065,7 @@ pos:	exclamation
 en:	<what> did you say?, «huh»?, what?
 sv:	«vad» sa du?, «va»?, «hursa»?
 def:	TKDa
+see:	{nuq}
 tag:	1992
 id:	Ncj
 
@@ -13064,6 +13074,7 @@ pos:	exclamation
 en:	<what> do you want? (greeting)
 sv:	«vad» vill du? (hälsning)
 def:	TKD 5.5/p.57 et al.
+see:	{nuq}
 tag:	1985
 id:	upY
 
@@ -26313,12 +26324,24 @@ tlh:	{'ar}
 pos:	question word
 en:	<how> many?, how much?
 sv:	«hur» många?, hur mycket?
-desc:	{nIn 'ar wIghaj} ~how much fuel do we have left?~ [TKD p.70]; follows
-	noun
+desc:	{nIn 'ar wIghaj} ~how much fuel do we have?~; {'ar} ~how many?~ or ~how
+	much?~ [TKD p.70, 170; CK]; follows sg. noun or used by itself
 def:	TKD
 ref:	CK
-tag:	1985
+cite:	{Haw'pu' yaS 'ar} ~How many officers fled?~ [TKD p.70]
+cite:	{nIn 'ar wIghaj} ~How much fuel do we have?~ [TKD p.70, 170; CK]
+cite:	{Dochvetlh DIlmeH Huch 'ar DaneH} ~How much do you want for that?~ [TKD
+	p.171]
+cite:	{'ar?} ~How many?~ or ~How much?~ [CK]
+cite:	{mughoS 'avwI' 'ar.} ~How many guards are coming?~ [CK]
+see:	{'arlogh}
+tag:	1985; quantity
 id:	zhW
+meta:	{'ar?} ~How many?~ or ~How much?~ is a valid sentence according to CK.
+	Noun phrase consisting of only {'ar} (e.g. {'ar DaneH?} ~How many do
+	you want?~) is neither supported nor contradicted by canon. It is also
+	not known if {'arDIch} is allowed, or if a noun suffix type 5 comes
+	before or after the {'ar} in a noun phrase. [May 2019]
 
 tlh:	{'argh}
 pos:	verb
@@ -26335,6 +26358,7 @@ sv:	«hur många gånger»?
 desc:	{arlogh Qoylu'pu'} ~what time is it?~ (lit. How many times has it been
 	heard?) [1999-02-02-Email]; first in sentence
 def:	1999-02-02-Email (HolQeD-08-1)
+see:	{'ar}
 tag:	1999
 id:	mVu
 
@@ -27003,8 +27027,15 @@ cite:	Both {'Iv} and {nuq} are treated as nouns as far as the pronominal
 	prefixes are concerned. That is, they are considered third person. [TKD
 	6.4/p.69]
 cite:	{SoH 'Iv?} ~Who are you?~ [CK]
+see:	{nuq}
 tag:	1985
 id:	JbX
+meta:	{'Iv} works as a pronoun (i.e. it can act as either a noun or a verb
+	meaning ~who is …?~) -- this means it probably can't be used in
+	noun-noun constructions. A phrase like {Human 'Iv DaSov?} would
+	ungrammatical, as {'Iv} would be interpreted as a verb, making the
+	first part of the phrase mean ~who is the human?~ (not ~which human?~).
+	The whole phrase is better rephrased as {Human DaSovbogh yIngu'!}
 
 tlh:	[2] {'Iv}
 pos:	noun
