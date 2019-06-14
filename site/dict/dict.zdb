@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    990cc427a4e7e46a024d1a7f163fa79449a96c84
+SHA1:    be6dd7ebafc686a8971725795376a631069cb18d
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -7446,7 +7446,7 @@ meta:	FIXME -- This word (meaning "this day") need not be part of the
 tlh:	{jan} [.1]
 pos:	noun
 en:	<device>
-sv:	«apparat», «anordning», «manick»
+sv:	«apparat», «anordning», «manick», «enhet»
 def:	TKD
 tag:	1985
 id:	rHk
@@ -19957,8 +19957,10 @@ id:	YRz
 tlh:	{SeH}
 pos:	verb
 en:	<control>
-sv:	«kontrollera»
+sv:	«kontrollera», ha «kontroll» över
 def:	TKD
+cite:	{qa'vam jan SeH DIvI'.} [~The Federation controls the Genesis Device.~]
+	[ST3-DVD-case]
 tag:	1985; KLCP1
 id:	h3Q
 
@@ -22279,6 +22281,7 @@ pos:	noun
 en:	<tactics>
 sv:	«taktik»
 def:	TKD
+cite:	{potlhbe' to'.} [~Tactics aren't important.~] [ST3-DVD-case]
 tag:	1985
 id:	9d2
 
@@ -28217,6 +28220,8 @@ pos:	verb suffix type 9
 en:	for, for the purpose of, in order to (purpose-clause marker)
 sv:	i syfte att, för att
 def:	TKD 4.2.9/p.44, 6.2.4/pp.64--65
+cite:	{qa'vam yuQ Quv DaghojmeH Duyma'vaD yIjatlh.} [~To learn the Genesis
+	Planet's coordinates, speak to our agent.~] [ST3-DVD-case]
 com:	The purpose clause always precedes the noun or verb whose purpose it is
 	describing.
 tag:	1985
