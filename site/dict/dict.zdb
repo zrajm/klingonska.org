@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    be6dd7ebafc686a8971725795376a631069cb18d
+SHA1:    2dcf8140d011ff3dfcfdeeed04d67b48735ee65d
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -4903,8 +4903,8 @@ id:	axd
 
 tlh:	{ghetwI'}
 pos:	noun
-en:	«pretender»
-sv:	någon som «låtsas», person som låtsas
+en:	«pretender», «actor»
+sv:	någon som «låtsas», person som låtsas, «skådespelare»
 def:	HolQeD-12-3 p.8
 ref:	TDNW
 cite:	{ghet} and {ghetwI'} ~pretender~ generally do not imply deception, but
