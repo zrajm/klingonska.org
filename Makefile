@@ -302,9 +302,9 @@ $(publish_dir)/dict/%.html: $(source_dir)/dict/%.txt bin/parse \
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)";      \
 	echo "HTMLifying '$<' -> '$@'";           \
 	bin/parse                                 \
-	    --input=parse-data/parser-markdown-ka \
-	    --apply=parse-data/transformer-html-ka2 \
-	    --output=parse-data/composer-html-ka2 \
+	    --input=./parse-data/parser-markdown-ka \
+	    --apply=./parse-data/transformer-html-ka2 \
+	    --output=./parse-data/composer-html-ka2 \
 	    <"$<" >"$@";                          \
 	    [ -s "$@" ] || rm "$@"
 

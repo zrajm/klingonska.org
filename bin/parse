@@ -124,8 +124,8 @@ my %cfg = (
         m/^(-l|--list)/   and do { $cfg{command} = "list";   next };
         m/^(-o|--output)/ and do { $cfg{output}  = shift();  next };
         m/^(-p|--plot)/   and do { $cfg{command} = "plot";   next };
-        m/^--html$/       and do { $cfg{output}  = "usr/parse-data/composer-html";     next };
-        m/^--markdown$/   and do { $cfg{output}  = "usr/parse-data/composer-markdown"; next };
+        m/^--html$/       and do { $cfg{output}  = "./usr/parse-data/composer-html";     next };
+        m/^--markdown$/   and do { $cfg{output}  = "./usr/parse-data/composer-markdown"; next };
         m/^(-R|--raw)$/   and do { $cfg{output}  = "";       next };
         m/^-/             and do { warn "unknown option '$_'\n";  next };
         push @arg, $_;
