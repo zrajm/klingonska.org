@@ -111,7 +111,13 @@ TODO
   <link rel=stylesheet href="$basedir/includes/dict.css">
   <link rel=stylesheet href="$basedir/includes/dict-layouttable.css">
   <link rel=stylesheet href="$basedir/includes/canon-search.css">
-  <link rel=icon href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#bb3333">
+  <meta name="msapplication-TileColor" content="#bb3333">
+  <meta name="theme-color" content="#bb3333">
   <link rel=canonical href="http://klingonska.org/">
   <script src="$basedir/includes/modernizr-2.5.3.js"></script>
 </head>
