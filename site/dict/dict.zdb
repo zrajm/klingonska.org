@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    2dcf8140d011ff3dfcfdeeed04d67b48735ee65d
+SHA1:    fa9c21bd76527859a9b8f6754802a09ded2f287d
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -16419,6 +16419,7 @@ pos:	noun
 en:	<body part> (not further identified)
 sv:	«kroppsdel» (inte ytterligare identifierad)
 def:	TKW p.174; KGT
+ref:	1997-06-29c-News; 2003-09-16-Email
 cite:	It is not clear what a {qIvon} is, aside from the fact that it is a
 	Klingon body part. [TKW p.174]
 tag:	1996; body part
