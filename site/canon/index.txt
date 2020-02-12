@@ -1524,6 +1524,16 @@ publication, or a description of its contents and/or form).
         <br>     The word {petqaD} <<medical device to bond broken bones,>> from
           Haynes’ <i>Klingon Bird-of-Prey: Owner's Workshop Manual</i> is
           verified as correct by Marc Okrand.
+  <tbody id=2018>
+    <tr>
+      <td class=nobr><big>2018-02-17</big>
+      <td><big>»<a href="2018-02-17-email.txt">[tlhIngan Hol] info from Maltz:
+            mode, theme</a>«</big>
+        <br><small>• Mailing list posting by David Yeung
+          to <i>tlhingan-hol</i></small>
+        <br>     The noun {lo'} <<use>> may also be used to mean <<mode>>, and
+          {tu'qom} <<appearance, configuration>> can also be used to mean
+          <<theme>>.
 </table>
 
 [[eof]]

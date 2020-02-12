@@ -1,0 +1,37 @@
+[[
+  [2020-02-12] added document
+
+  Type: email
+  Date: 17 February 2018
+  Title: [tlhIngan Hol] info from Maltz: mode, theme
+  Author: David Yeung
+  Summary: The noun {lo'} "use" may also be used to mean "mode", and {tu'qom}
+    "appearance, configuration" can also be used to mean "theme".
+
+]]
+
+From: "De'vID" <de.vid.jonpin@gmail.com>
+Date: Sat, 17 Feb 2018 07:39:38 +0100
+To: tlhIngan-Hol <tlhingan-hol@kli.org>
+Subject: [tlhIngan Hol] info from Maltz: mode, theme
+Reply-To: tlhingan-hol@kli.org
+
+I still don't understand why, but several people have asked for {boQwI'} to
+have a {DIvI' tu'qom}.
+
+--- begin quote ---
+For “mode,” use {lo’} “use” (noun).  “Night mode” would be {ram lo’} “night
+use, night usage.”  “Search mode” could be {SammeH lo’}.  ({nejmeH lo’}
+also works; depends on how confident you are in your search engine
+apparently.) “Lesson mode” could be {ghojmeH mIw lo’}.
+
+For “theme,” {tu’qom} “appearance, configuration” should work.
+--- end quote ---
+
+-- 
+De'vID
+
+_______________________________________________
+tlhIngan-Hol mailing list
+tlhIngan-Hol@lists.kli.org
+http://lists.kli.org/listinfo.cgi/tlhingan-hol-kli.org
