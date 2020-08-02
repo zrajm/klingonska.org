@@ -3,6 +3,7 @@
   [2003-01-29] added file header
   [2004-08-19] changed faulty "Kong" to "Kang"
   [2013-04-11] minor source update
+  [2020-08-02] corrected misspelling "for an alliance" -> "form an alliance"
   Style: {}=bold, <>=italics, corrections, paginated
 
   Type: article
@@ -183,7 +184,7 @@ multiplication, division. There are
 several ways of talking about such
 things, but the most common
 involves using the verbs {boq} "ally
-with, for an alliance with" and
+with, form an alliance with" and
 {chen} "take form."
 
      Examples should make the usage of these words clear.
