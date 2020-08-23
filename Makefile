@@ -151,7 +151,8 @@ auto: site
 	    [ -n $$DISPLAY ]; then               \
 	    out() {                              \
 	        echo "$$1 $$2";                  \
-	        notify-send -u critical          \
+	        notify-send -t 1000              \
+                    --hint int:transient:1       \
 	            "$$1" "$$2";                 \
 	    };                                   \
 	else                                     \
