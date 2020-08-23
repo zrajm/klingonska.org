@@ -69,6 +69,7 @@ html_targets =                                    \
     $(patsubst $(source_dir)/%.txt,$(publish_dir)/%.html, \
         $(call exclude-ignores,$(wildcard        \
             $(source_dir)/*.txt                  \
+            $(source_dir)/academic/*.txt         \
             $(source_dir)/akademien/*.txt        \
             $(source_dir)/akademien/photos/*.txt \
             $(source_dir)/akademien/logo/*.txt   \

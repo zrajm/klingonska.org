@@ -36,6 +36,13 @@ style: banner dict
     affixes, notes on pronunciation and stress,
     etc. <small class=nobr>[Updated <time>2012-11-10</time>]</small>
 
+  <dt><a href="academic/">Klingon in Academia</a>
+    <dd>The Klingon language and its klingonists occasionally attract academic
+      interest, and there have been a few articles written about various
+      aspects of the language and the community it has spawned here on Earth.
+      This is a collection of these academic Klingon
+      articles. <small class=nobr>[Created <time>2020-08-23</time>]</small>
+
   <dt><a href="canon/">Archive of Okrandian Canon</a>
     (and <a href="download.html">Klingon Transcript Download</a>)
   <dd>There is now a search engine (BETA) for finding your way through the

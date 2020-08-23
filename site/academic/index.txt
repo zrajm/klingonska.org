@@ -1,0 +1,95 @@
+: -*- html -*-
+created: 2020-08-23T18:03+02:00
+updated: 2020-08-23T18:03+02:00
+author: zrajm
+year: 2020
+lang: en
+
+Klingon in Academia
+===================
+
+Below is a list of various academic papers written on the Klingon language
+and/or its community of Klingon speakers here on Earth.
+
+This attempt to collect these articles in one place, is in no way complete, and
+there are probably many more articles to be found out there. If you've spotted
+paper in the wild that we've failed to include below, [please send us a
+message](mailto:zrajm@klingonska.org?subject=Suggestion+for+Klingon+in+Academia).
+
+<p class=center style="margin-left: 1.5em; margin-right: 1.5em;">
+  • <a href="#1996">1996</a>
+  • <a href="#1999">1999</a>
+  • <a href="#2004">2004</a>
+  • <a href="#2009">2009</a>
+  • <a href="#2017">2017</a>
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Date
+      <th>Title/Info
+  </thead>
+  <tbody id=1996>
+    <tr>
+      <td class=nobr><big>1996</big>
+      <td><big><a href="annernas-1996-klingon_questionnaire"><i>Klingon
+          Questionnaire</i></a></big> (HTML)
+        <br><small>• Survey by Stefan Annernäs (no know academic
+          affiliation)</small>
+        <br>     This is an early investigation into the Klingon speaking
+          community, and though it is not tied to any university or other
+          academic institution it has been included here because it has been
+          cited in later works.
+  </tbody>
+  <tbody id=1999>
+    <tr>
+      <td class=nobr><big>1999</big>
+      <td><big><a href="hermans-1999-klingon_and_its_users.pdf"><i>Klingon and
+          Its Users: A Sociolinguistic Profile</i></a></big> (PDF)
+        <br><small>• Master's thesis in Language and culture studies by Judith
+          Hermans (Tilburg University, Netherlands)</small>
+        <br>     TODO DESCRIPTION
+  </tbody>
+  <tbody id=2004>
+    <tr>
+      <td class=nobr><big>2004</big>
+      <td><big><a href="wahlgren-2004-klingon_as_linguistic_capital.pdf"><i>Klingon as Linguistic Capital: A Sociologic Study of
+        Nineteen Advanced Klingonists</i></a></big> (PDF)
+        <br><small>• Bachelor’s thesis in Sociology by Yens Wahlgren (Lund
+          University, Sweden)</small>
+        <br>     <i>Klingon title:</i> {Hol Sup 'oH tlhIngan Hol'e': wa'maH Hut
+        tlhIngan Hol po'wI' nughQeD.} This thesis is based on interviews with
+        nineteen advanced speakers of Klingon (including Marc Okrand, inventor
+        of the Klingon language, and Lawrence Schoen, founder of the Klingon
+        Language Institute).
+  </tbody>
+  <tbody id=2009>
+    <tr>
+      <td class=nobr><big>2009</big>
+      <td><big><a href="dzurick-2009-question_formation_in_klingon.pdf"><i>Question
+          Formation in Klingon</i></a></big> (PDF)
+        <br><small>• Academic paper by Alex Dzurick (University of Missouri,
+          USA)</small>
+        <br>     A description of how to construct various types of questions
+          in Klingon.
+  </tbody>
+  <tbody id=2017>
+    <tr>
+      <td class=nobr><big>2017</big>
+      <td><big><a href="windsor+stewart-2017-can_unnatural_stress_patterns_be_learned.pdf"><i>Can
+          Unnatural Stress Patterns Be Learned: New Evidence from
+          Klingon</i></a></big> (PDF)
+        <br><small>• Academic paper
+          by <a href="https://sites.google.com/view/joseph-windsor/downloadable-papers-and-slides">Joseph
+          W. Windsor</a> (University of Calgary, Canada) and Robyn Stewart
+          (Klingon Language Institute)</small>
+        <br>     This article investigates the to what degree advanced Klingon
+          speakers apply the stress patterns described by <i>The Klingon
+          Dictionary</i>. The article was published in <i>Proceedings of the
+          2017 Annual Conference of the Canadian Linguistic Association</i>
+          (ed. Andrew Monti)
+  </tbody>
+</table>
+
+[[eof]]
