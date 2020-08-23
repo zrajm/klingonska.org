@@ -32,15 +32,26 @@ message](mailto:zrajm@klingonska.org?subject=Suggestion+for+Klingon+in+Academia)
   </thead>
   <tbody id=1996>
     <tr>
-      <td class=nobr><big>1996</big>
+      <td class=nobr><big>1996-04</big>
       <td><big><a href="annernas-1996-klingon_questionnaire"><i>Klingon
           Questionnaire</i></a></big> (HTML)
-        <br><small>• Survey by Stefan Annernäs (no know academic
+        <br><small>• Survey by Stefan Annernäs (no known academic
           affiliation)</small>
         <br>     This is an early investigation into the Klingon speaking
           community, and though it is not tied to any university or other
           academic institution it has been included here because it has been
           cited in later works.
+    <tr>
+      <td class=nobr><big>1996-04-19</big>
+      <td><big><a href="grune-1996-is_klingon_an_ohlonean_language.pdf"><i>Is
+          Klingon an Ohlonean Language? – A Comparison of Mutsun and
+          Klingon</i></a></big> (PDF)
+        <br><small>•  <a href="https://dickgrune.com/">Dick Grune</a> (Vrije
+          University Amsterdam, Netherlands)</small>
+        <br>     Marc Okrand's 1977 PhD thesis was a grammar of the native
+          Californian language Mutsun, and this paper sets out to compare
+          Mutsun and Klingon and establish to what degree Marc Okrand took
+          inspiration from Mutsun in his work on Klingon.
   </tbody>
   <tbody id=1999>
     <tr>
