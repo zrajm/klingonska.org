@@ -1,6 +1,6 @@
 : -*- html -*-
 created: 2020-08-23T18:03+02:00
-updated: 2020-08-23T18:03+02:00
+updated: 2020-08-24T06:08+02:00
 author: zrajm
 year: 2020
 lang: en
@@ -21,6 +21,7 @@ message](mailto:zrajm@klingonska.org?subject=Suggestion+for+Klingon+in+Academia)
   • <a href="#1999">1999</a>
   • <a href="#2004">2004</a>
   • <a href="#2009">2009</a>
+  • <a href="#2011">2011</a>
   • <a href="#2017">2017</a>
 </p>
 
@@ -60,13 +61,15 @@ message](mailto:zrajm@klingonska.org?subject=Suggestion+for+Klingon+in+Academia)
           Its Users: A Sociolinguistic Profile</i></a></big> (PDF)
         <br><small>• Master's thesis in Language and culture studies by Judith
           Hermans (Tilburg University, Netherlands)</small>
-        <br>     TODO DESCRIPTION
+        <br>     An additional survey of the community of Klingon speakers,
+          expanding on Annernäs.
   </tbody>
   <tbody id=2004>
     <tr>
       <td class=nobr><big>2004</big>
-      <td><big><a href="wahlgren-2004-klingon_as_linguistic_capital.pdf"><i>Klingon as Linguistic Capital: A Sociologic Study of
-        Nineteen Advanced Klingonists</i></a></big> (PDF)
+      <td><big><a href="wahlgren-2004-klingon_as_linguistic_capital.pdf"><i>Klingon
+          as Linguistic Capital: A Sociologic Study of Nineteen Advanced
+          Klingonists</i></a></big> (PDF)
         <br><small>• Bachelor’s thesis in Sociology by Yens Wahlgren (Lund
           University, Sweden)</small>
         <br>     <i>Klingon title:</i> {Hol Sup 'oH tlhIngan Hol'e': wa'maH Hut
@@ -84,6 +87,18 @@ message](mailto:zrajm@klingonska.org?subject=Suggestion+for+Klingon+in+Academia)
           USA)</small>
         <br>     A description of how to construct various types of questions
           in Klingon.
+  </tbody>
+  <tbody id=2011>
+    <tr>
+      <td class=nobr><big>2011</big>
+      <td><big><a href="okrand+adams+other-2011-wild_and_whirling_words.pdf"><i>Wild
+          and Whirling Words: The Invention and Use of Klingon</i></a></big> (PDF)
+        <br><small>• Book chapter in <i>From Elvish to Klingon: Exploring
+          Invented Languages</i> (ed. Michael Adams, 2011) by Marc Okrand,
+          Michael Adams, Judith Hendriks-Hermans, and Sjaak Kroon
+        </small>
+        <br>     An overview of the development and use of the Klingon
+          language.
   </tbody>
   <tbody id=2017>
     <tr>
