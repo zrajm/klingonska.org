@@ -1,6 +1,6 @@
 : -*- html -*-
 created: 2020-08-23T18:03+02:00
-updated: 2020-08-24T06:08+02:00
+updated: 2020-08-28T13:12+02:00
 author: zrajm
 year: 2020
 lang: en
@@ -21,6 +21,7 @@ message](mailto:zrajm@klingonska.org?subject=Suggestion+for+Klingon+in+Academia)
   • <a href="#1999">1999</a>
   • <a href="#2004">2004</a>
   • <a href="#2009">2009</a>
+  • <a href="#2010">2010</a>
   • <a href="#2011">2011</a>
   • <a href="#2017">2017</a>
 </p>
@@ -87,6 +88,19 @@ message](mailto:zrajm@klingonska.org?subject=Suggestion+for+Klingon+in+Academia)
           USA)</small>
         <br>     A description of how to construct various types of questions
           in Klingon.
+  </tbody>
+  <tbody id=2010>
+    <tr>
+      <td class=nobr><big>2010</big>
+      <td><big><a href="canfield-2010-machine_translation_of_klingon.pdf"><i>Machine
+          Translation of Klingon</i></a></big> (PDF)
+        <br><small>• Academic paper by Tracy Canfield (Georgetown University,
+          Washington, DC, USA)</small>
+        <br>     A qualifying paper written as a part of a PhD program. This
+         paper presents a machine translation architecture for translating
+         Klingon into English. The system itself was created
+         using <i>PC-PATR</i>, <i>ExpandLex</i> and <i>SyntacticTransfer</i>,
+         as well as custom code.
   </tbody>
   <tbody id=2011>
     <tr>
