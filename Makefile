@@ -58,6 +58,7 @@ copied_targets = \
                 -name '*.ps'   -or \
                 -name '*.svg'  -or \
                 -name '*.swf'  -or \
+                -name '*.ttf'  -or \
                 -name '*.txt'  -or \
                 -name '*.zdb'  -or \
                 -name '*.zip'      \
@@ -84,6 +85,7 @@ html_targets =                                    \
             $(source_dir)/songs/anthem/index.txt \
             $(source_dir)/songs/tahjaj_wo/index.txt \
             $(source_dir)/writing/examples/*.txt \
+            $(source_dir)/writing/play/*.txt     \
     )))
 
 css_targets =                                               \
@@ -434,6 +436,12 @@ $(publish_dir)/%.svg: $(source_dir)/%.svg
 
 # SWF (client-side program, Shockwave Flash)
 $(publish_dir)/%.swf: $(source_dir)/%.swf
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	echo "Copying    '$<' -> '$@'";      \
+	cp "$<" "$@"
+
+# TTF (TrueType Font)
+$(publish_dir)/%.ttf: $(source_dir)/%.ttf
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Copying    '$<' -> '$@'";      \
 	cp "$<" "$@"

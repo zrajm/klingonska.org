@@ -92,6 +92,7 @@ input[type]:hover {
 }
 
 /* Replace default blue shine on focus. */
+span:focus,
 button:focus, input:focus, textarea:focus, *[contenteditable]:focus {
     outline: 1px solid #88f;
     outline: 1px solid rgba(127,127,255,.75);

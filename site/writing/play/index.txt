@@ -1,0 +1,166 @@
+: -*- html -*-
+created: 2000
+updated: 2020-09-07T06:53:26+02:00
+author: zrajm
+year: 2000-2020
+lang: en
+up: ../..
+
+{pIqaD} Playground
+==================
+
+Type/paste Klingon text below. You may use either Okrandian transcription or
+*xifan hol*. I recommend putting space before *and*
+after <span class=piqad>.</span> and <span class=piqad>,</span> – the way they
+were used on the [SkyBox cards](http://klingonska.org/canon/sbx-s13.html).
+
+<mark style="background:#fd0">**KNOWN BUG:** <span class=piqad>.</span>
+and <span class=piqad>,</span> are swapped in the font below.</mark>
+
+<style>
+@font-face {
+  font-family: piqad;
+  src: url('piqadroman-medium.ttf');
+}
+textarea {
+  width: 100%;
+  min-height: 24em;
+  font-size: 1.25rem;
+  line-height: 2;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  padding: 0;
+}
+.roman-view textarea { font-family: inherit; }
+.piqad,
+.piqad-view textarea { font-family: piqad; }
+/******************************************
+* Switch for pIqaD/roman.
+*/
+.switch {
+  float: right;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #999;
+  padding: 2px 1px;
+  position: relative;
+  top: -2px;
+  right: -1px;
+  cursor: pointer;
+  border-radius: 4px; /* form border radius */
+}
+.switch > .knob {
+  vertical-align: top;
+  display: inline-block;
+  width: 1.6em;
+  height: .9em;
+  box-sizing: content-box;
+  background: #eee;
+  border: 1px solid #888;
+  border-radius: 1em;
+  box-shadow: inset 0 2px 5px 3px #ccc;
+  position: relative;
+  top: .1em;
+}
+.switch > .knob:before {
+  transition: all .05s ease-in;
+  content: '';
+  width: .9em;
+  height: 100%;
+  background: white;
+  position: absolute;
+  border: inherit;
+  border-radius: inherit;
+  margin: -1px;
+}
+.roman-view .switch > .knob:before { right: 0; }
+.piqad-view .switch > .knob:before { left:  0; }
+.piqad-view .switch > .piqad,
+.roman-view .switch > .roman  {
+  color: #065FD4;
+}
+</style>
+<div class="wrapper piqad-view">
+  <span class=switch tabindex=0 hidden>
+    <span class=piqad>tlhIngan</span>
+    <span class=knob></span>
+    <span class=roman>tlhIngan</span>
+  </span>
+  <textarea class=piqad autofocus>
+ 
+ 
+yIjatlh SoHvaD jIjatlh .
+bItam .
+yIjatlh jIjach .
+bItamqu' .
+yIjatlh jItlhup .
+'ach not bI'Ij . bItam .
+reH bItam .
+ 
+« qonta' maHvatlh »</textarea>
+</div>
+<script>$(() => {
+  let $w = $('.wrapper');
+  $('.switch').removeAttr('hidden').on('click keypress', (e) => {
+      if (e.type === 'keypress') {
+          if (e.shiftKey || e.ctrlKey || e.altKey || e.metaKey) { return; }
+          if (e.which !== 13 && e.which !== 32) { return; }
+      }
+      e.preventDefault();
+      $w.toggleClass('piqad-view roman-view')
+  });
+})</script>
+
+Conversion to {pIqaD} is done automatically by the font (which can be
+downloaded from [{qurgh}’s
+webpage](https://hol.kag.org/page/piqadsupport.html)).
+
+
+## Xifan hol
+
+<i>Xifan hol</i> uses the full English alphabet (*a–z*), it does not rely on
+capitalization, and each sound is written using just one character. This means
+that single letters are used instead of the digraphs {ch}, {gh}, and {ng} and
+the trigraph {tlh}, that lower case letters are used instead of {D}, {H}, {I},
+{Q} and {S}, that {q}/{Q} are written as `k`/`q` respectively, and that the
+apostrophe ({’}) may be written using `z`. In regards to digits (*0–9*) and
+punctuation marks *,;:* and *.!?* there’s no difference between *xifan hol* and
+Okrandian transcription.
+
+The following table illustrates the differences between the Okrandian
+transcription and *xifan hol*:
+
+<style>
+table.mapping tbody,
+table.mapping th,
+table.mapping td {
+  border: 0;
+  padding: 0;
+}
+table.mapping {
+  margin: 1.5em 0;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: .5em 0;
+  border: solid black;
+  border-width: 1px 0;
+}
+table.mapping th { text-align: left; }
+</style>
+<table class=mapping>
+<tr><th>Xifan hol<td><td><code>c</code><td><code>g</code><td><code>f</code><td><code>k</code><td><code>q</code><td><code>x</code><td><code>z</code><td><td><td><code>d</code><td><code>h</code><td><code>i</code><td><code>s</code>
+<tr><th>Okrandian<td><td>{ch}<td>{gh}<td>{ng}<td>{q}<td>{Q}<td>{tlh}<td>{’}<td><td><td>{D}<td>{H}<td>{I}<td>{S}
+</table>
+
+**Pros:** *Xifan hol* is eminently suitable for user input, especially where
+typing speed is limited, such as on-screen keyboards (it is used, for example,
+by the app *[{boQwI’}](https://www.google.com/search?q=boQwI%27+app)*). Since
+there is a one-to-one correspondence between glyphs of *xifan hol* and {pIqaD},
+*xifan hol* was used by all early {pIqaD} fonts (up until Unicode became widely
+adopted).
+
+**Cons:** Since we klingonists have all taught ourselves to read Klingon using
+the Okrandian transcription system, *xifan hol* is less suited for tasks where
+speed of comprehension is important (e.g. when reading or proofreading).
+
+[[eof]]

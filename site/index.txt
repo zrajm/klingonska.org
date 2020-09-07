@@ -76,12 +76,12 @@ style: banner dict
     soon. <small class=nobr>[Updated <time>2007-07-15</time>]</small>
 
   <dt><a href="piqad/">{pIqaD}, And How to Read It</a>
-    (and <a href="writing/play/">The {pIqaD} Playground</a>)
+    (and <a href="writing/play/">{pIqaD} Playground</a>)
   <dd>Some stuff for the youthful mind, a writer's playground -- type in any
     Klingon text to see it in {pIqaD}. An article about the Klingon alphabet
     and numbers, with pronounciation and orthography. (Punctuation and
     handwriting is not yet
-    covered.) <small class=nobr>[Updated <time>2007-08-17</time>]</small>
+    covered.) <small class=nobr>[Updated <time>2020-09-07</time>]</small>
 
   <dt><a href="writing/examples/">Some Pictures of {pIqaD}</a>
   <dd>Pictures of interest. Paramount's version of {pIqaD}, a {pIqaD}
