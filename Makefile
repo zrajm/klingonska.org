@@ -44,8 +44,8 @@ copied_targets = \
                 -name '*.css'  -or \
                 -name '*.gif'  -or \
                 -name '*.html' -or \
-                -name '*.jpg'  -or \
                 -name '*.ico'  -or \
+                -name '*.jpg'  -or \
                 -name '*.js'   -or \
                 -name '*.ly'   -or \
                 -name '*.midi' -or \
