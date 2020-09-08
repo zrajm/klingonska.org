@@ -60,6 +60,7 @@ copied_targets = \
                 -name '*.swf'  -or \
                 -name '*.ttf'  -or \
                 -name '*.txt'  -or \
+                -name '*.woff' -or \
                 -name '*.zdb'  -or \
                 -name '*.zip'      \
             ')' \
@@ -478,6 +479,12 @@ $(publish_dir)/%-kgt.txt: $(source_dir)/%-kgt.txt
 
 # TXT (text files)
 $(publish_dir)/%.txt: $(source_dir)/%.txt
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	echo "Copying    '$<' -> '$@'";      \
+	cp "$<" "$@"
+
+# WOFF (Web Open Font Format)
+$(publish_dir)/%.woff: $(source_dir)/%.woff
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Copying    '$<' -> '$@'";      \
 	cp "$<" "$@"

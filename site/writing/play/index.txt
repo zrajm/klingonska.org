@@ -1,6 +1,6 @@
 : -*- html -*-
 created: 2000
-updated: 2020-09-07T06:53:26+02:00
+updated: 2020-09-08T07:35+02:00
 author: zrajm
 year: 2000-2020
 lang: en
@@ -9,18 +9,16 @@ up: ../..
 {pIqaD} Playground
 ==================
 
-Type/paste Klingon text below. You may use either Okrandian transcription or
-*xifan hol*. I recommend putting space before *and*
-after <span class=piqad>.</span> and <span class=piqad>,</span> – the way they
-were used on the [SkyBox cards](http://klingonska.org/canon/sbx-s13.html).
-
-<mark style="background:#fd0">**KNOWN BUG:** <span class=piqad>.</span>
-and <span class=piqad>,</span> are swapped in the font below.</mark>
+Type/paste Klingon text below. You may use Okrandian transcription and
+*xifan hol*. I recommend putting spaces arround <span class=piqad
+title="Full Stop (.!?)">.</span> and <span class=piqad
+title="Half Stop (,;:)">,</span> – this is the way they were first written on
+the SkyBox cards.<sup>[[1]](#1)</sup>
 
 <style>
 @font-face {
   font-family: piqad;
-  src: url('piqadroman-medium.ttf');
+  src: url('kapiqadroman-medium.woff');
 }
 textarea {
   width: 100%;
@@ -111,9 +109,8 @@ reH bItam .
   });
 })</script>
 
-Conversion to {pIqaD} is done automatically by the font (which can be
-downloaded from [{qurgh}’s
-webpage](https://hol.kag.org/page/piqadsupport.html)).
+{pIqaD} conversion is performed automatically by the font
+used.<sup>[[2]](#2)</sup>
 
 
 ## Xifan hol
@@ -162,5 +159,28 @@ adopted).
 **Cons:** Since we klingonists have all taught ourselves to read Klingon using
 the Okrandian transcription system, *xifan hol* is less suited for tasks where
 speed of comprehension is important (e.g. when reading or proofreading).
+
+## Footnotes
+
+1. <a id="1"></a> These punctuation marks appeared on the SkyBox trading cards
+   [*SP1, SP2* and *SP3*](../../canon/sbx-sp1.html) (1994), on [*S7* and
+   *S9*](../../canon/sbx-s7.html) and [*S13* and
+   *S15*](../../canon/sbx-s13.html) (1995) and again then on [*S19, S20* and
+   *S21*](../../canon/sbx-s19.html) (1996) separated from the surrounding text
+   by spaces. There were also two cards, [*S8*](../../canon/sbx-s7.html) and
+   [*S14*](../../canon/sbx-s13.html) (1995), which did not separate punctuation
+   marks and text with space. Since then the punctuation marks have not
+   appeared again.
+2. <a id="2"></a> This page uses the font *KApIqaDRoman*, based on *pIqaDRoman*
+   v4.0 (created by [David J. Peterson](http://artoflanguageinvention.com/) and
+   [Chris Lipscombe](https://hol.kag.org/page/qurgh.html) – see also Chris’s
+   page on [*{pIqaD} Writing*](https://hol.kag.org/page/piqadsupport.html)).
+   *KApIqaDRoman* differs from its predecessor in that a punctuation bug
+   (<span class=piqad title="Full Stop (.!?)">.</span> and <span class=piqad
+   title="Half Stop (,;:)">,</span> were swapped) has been fixed, and that the
+   space was widened by 50% to make it more clearly discernible.
+   (*KApIqaDRoman* is available in [Truetype](kapiqadroman-medium.ttf),
+   [WOFF](kapiqadroman-medium.woff) and [Fontforge](kapiqadroman-medium.sfd)
+   formats.)
 
 [[eof]]
