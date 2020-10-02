@@ -451,31 +451,31 @@ $(publish_dir)/%.ttf: $(source_dir)/%.ttf
 $(publish_dir)/%-tkd.txt: $(source_dir)/%-tkd.txt
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Processing \`$<' -> \`$@'"; \
-	tr '[a-m][n-z][A-M][N-Z]' '[n-z][a-m][N-Z][A-M]' <"$<" >"$@"
+	tr 'A-Za-z' 'N-ZA-Mn-za-m' <"$<" >"$@"
 
 # TXT (text files)
 $(publish_dir)/%-ck.txt: $(source_dir)/%-ck.txt
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Processing \`$<' -> \`$@'"; \
-	tr '[a-m][n-z][A-M][N-Z]' '[n-z][a-m][N-Z][A-M]' <"$<" >"$@"
+	tr 'A-Za-z' 'N-ZA-Mn-za-m' <"$<" >"$@"
 
 # TXT (text files)
 $(publish_dir)/%-pk.txt: $(source_dir)/%-pk.txt
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Processing \`$<' -> \`$@'"; \
-	tr '[a-m][n-z][A-M][N-Z]' '[n-z][a-m][N-Z][A-M]' <"$<" >"$@"
+	tr 'A-Za-z' 'N-ZA-Mn-za-m' <"$<" >"$@"
 
 # TXT (text files)
 $(publish_dir)/%-tkw.txt: $(source_dir)/%-tkw.txt
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Processing \`$<' -> \`$@'"; \
-	tr '[a-m][n-z][A-M][N-Z]' '[n-z][a-m][N-Z][A-M]' <"$<" >"$@"
+	tr 'A-Za-z' 'N-ZA-Mn-za-m' <"$<" >"$@"
 
 # TXT (text files)
 $(publish_dir)/%-kgt.txt: $(source_dir)/%-kgt.txt
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Processing \`$<' -> \`$@'"; \
-	tr '[a-m][n-z][A-M][N-Z]' '[n-z][a-m][N-Z][A-M]' <"$<" >"$@"
+	tr 'A-Za-z' 'N-ZA-Mn-za-m' <"$<" >"$@"
 
 # TXT (text files)
 $(publish_dir)/%.txt: $(source_dir)/%.txt
