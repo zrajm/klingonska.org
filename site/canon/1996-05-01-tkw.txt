@@ -28,6 +28,7 @@
   [2006-08-26] nqqrq {{...}} nebhaq nyy vzntrf, pbeerpgrq snhygl cntr ahzoref
   [2006-09-18] zvabe pbeerpgvbaf
   [2011-09-16] nqqrq fglyr "{{}}=sybng" yvar
+  [2020-10-05] svkrq frireny zvabe reebef (va chapghngvba naq pbeerpgvbaf)
 
   Fglyr: {}=obyq, <>=vgnyvpf, {{}}=sybng, pbeerpgvbaf, cntvangrq, uvqqra
 
@@ -54,7 +55,7 @@
 FGNE GERX®
 
 GUR XYVATBA
-JNL
+JNL---
 
 Va obgu
 Ratyvfu naq
@@ -373,7 +374,7 @@ onggyr be cercnevat sbe onggyr, Xyvatbaf orpbzr engure pna-
 gnaxrebhf (gubhtu, gb gubfr hasnzvyvne jvgu Xyvatbaf, guvf
 zvtug abg or abgvprnoyr). Nf n erfhyg, Xyvatbaf ner yvxryl
 gb, ng gur fyvtugrfg cebibpngvba, vafgvtngr n onggyr bs fbzr
-fbeg
+fbeg.
      Yvrhgranag Pbzznaqre Jbes vf jryy njner bs gur
 Xyvatba cerqvyrpgvba ersyrpgrq va gurfr gjb fnlvatf.
 Gubhtu envfrq nzbat uhznaf, ur unf nyjnlf cevqrq uvz-
@@ -1435,7 +1436,7 @@ naq ehguyrff. Yvggyr ryfr bs gurve angher jnf xabja be, sbe
 gur zbfg cneg, pnerq nobhg. Sbyybjvat gur Xuvgbzre crnpr
 pbasrerapr, eryngvbaf orgjrra gur Srqrengvba naq gur
 Rzcver tenqhnyyl vzcebirq. Svsgl lrnef yngre, Pncgnva
-Enpury Tneergg, va pbzznaq bs gur <H.F.F. Ragrecevfr> APP-
+Enpury Tneergg, va pbzznaq bs gur <H.F.F. Ragrecevfr> APP- [[xrrc ulcura]]
 1701-P, jbhyq pbafvqre Xyvatbaf gb or crbcyr, abg bowrpgf
 bs qrevfvba, naq jbhyq eraqre nvq gb n Xyvatba bhgcbfg ba
 Aneraqen VVV, juvpu jnf orvat nggnpxrq ol Ebzhynaf. Guvf
@@ -1731,7 +1732,7 @@ ubcr bs rirel Xyvatba.
 Gb qvr va gur yvar bs qhgl vf gur
 ubcr bs rirel Xyvatba.
 
-{Dh'Qnw gn'gnUiVF Urtu 
+{Dh'Qnw gn'gnUiVF Urtu
 'r' ghy Ubpu gyuVatna.}
 
 
@@ -1762,7 +1763,7 @@ fgngvba Qrrc Fcnpr 9} [[9:=9.]]
 
 }}
 Qngn, "Sbe n Xyvatba, guvf vf n wblshy gvzr. N sevraq unf
-qvrf va gur yvar bs qhgl."
+qvrq va gur yvar bs qhgl."
 
 
 <Gur Arkg Trarengvba: Cbjre Cynl>
@@ -2094,7 +2095,7 @@ yvir ba bhe xarrf.
 Zber yvgrenyyl, guvf vf "Qlvat juvyr fgnaqvat vf cersrenoyr gb
 yvivat juvyr xarryvat." Gur tenzzngvpny pbafgehpgvba vf n
 ovg noreenag; bar jbhyq rkcrpg "{DnzgnUiVF}" ("juvyr
-pbagvahvat gb fgnaq") naq "{gbegnUiVF}" (juvyr pbagvahvat
+pbagvahvat gb fgnaq") naq "{gbegnUiVF}" ("juvyr pbagvahvat
 gb xarry"). V cebireof, ubjrire, tenzzngvpny fubegphgf ner
 abg hapbzzba. Rira gur Srqrengvba Fgnaqneq zvtug or
 pbafvqrerq fbzrjung vapbzcyrgr. Bar jbhyq rkcrpg "<Vg vf>
@@ -2362,7 +2363,7 @@ guerng gb Tbjeba'f ehyr.
 
 [[vzntr]]
 
-{Havgrq ntnvafg n pbzzba sbr ner jnel nyyvrf --- Xyvatba,
+{Havgrq ntnvafg n pbzzba sbr ner jnel nyyvrf --- Xyvatba,[[ --- :=---]]
 uhzna, naq Ihypna.}
 
 }}[[c.111]]
@@ -2396,7 +2397,7 @@ vzcbfrq sebz gur bhgfvqr ol gur cbjreshy Betnavnaf.
 
 {Pncgnva Xnetna (Puevfgbcure Pbyyvaf) rkcynvaf gur
 fhogyrgvrf bs Xyvatba fgengrtl gb uvf uhzna
-svefg bssvpre}
+svefg bssvpre.}
 
 }}[[c.113]]
 
@@ -2465,7 +2466,7 @@ EBOOVR EBOVAFBA
 [[vzntr]]
 
 {Uvtuyl fxrcgvpny bs Xnuyrff'f "nccrnenapr," Tbjeba
-pbasebag gur pyrevpf sebz gur zbanfgrel ba Obergu}
+pbasebag gur pyrevpf sebz gur zbanfgrel ba Obergu.}
 
 }}[[c.117]]
 
@@ -2888,9 +2889,10 @@ nyjnlf jnag gb snpr erny punyyratrf.
 <Gur Arkg Trarengvba: N Znggre bs Ubabe> [[c.142]]
 
 
+Nqzver gur crefba jvgu qveg haqre uvf svatreanvyf.
+
 {ohgyu tunwobtu ahi'r' lVUb'.}
 
-Nqzver gur crefba jvgu qveg haqre uvf svatreanvyf.
 
 Gur Xyvatba jbeq "{ohgyu}" ("qveg haqre svatreanvyf") pna or
 gnxra yvgrenyyl, ohg va guvf rkcerffvba vg zrnaf fbzrguvat
@@ -2985,7 +2987,7 @@ onggyr vf fgvyy tbvat ba.
 
 Guvf fnlvat, juvpu nyfb pbagnvaf gur jbeq {anetu} qvfphffrq
 ba cntr 145, vf hfrq gb pnhgvba gur yvfgrare abg gb qenj pba-
-pyhfvbaf gbb fbba. Vgf vzcbeg erfrzoyrf frireny gjragvrgu- [[gjragvrgu-:=gjragvrgu]]
+pyhfvbaf gbb fbba. Vgf vzcbeg erfrzoyrf frireny gjragvrgu- [[xrrc ulcura]]
 praghel Rnegu rkcerffvbaf ortvaavat "Vg'f abg bire hagvy.."
      Nsgre orvat cnenylmrq sebz gur jnvfg qbja nf gur erfhyg
 bs na nppvqrag, Jbes ng svefg sryg uvf yvsr unq raqrq naq
@@ -3527,7 +3529,7 @@ EBOOVR EBOVAFBA
 [[vzntr]]
 
 {Gur bjare bs gur one ba Qrrc Fcnpr 9 svaqf uvf
-arj erthyne...qvssrerag.}
+arj erthyne ... qvssrerag.}
 
 }}[[c.181]]
 
@@ -3862,7 +3864,7 @@ Pner nobhg lbhe fghqragf.
 
 Guvf ovg bs nqivpr vf npghnyyl---naq cebonoyl vagragvbany-
 yl---nzovthbhf. Vg pna or vagrecergrq gb zrna "pner nobhg
-lbhe fghqrag' cebterff naq jrysner," ohg vg pna nyfb zrna
+lbhe fghqragf' cebterff naq jrysner," ohg vg pna nyfb zrna
 "pner nobhg jub lbhe fghqragf ner"---gung vf, vzcneg xabjy-
 rqtr bayl gb gubfr jubz lbh gehfg.
      Gb Xyvatbaf, xabjyrqtr naq rkcregvfr ner znggref bs
@@ -3915,7 +3917,7 @@ nppbeqvat gb Xyvatba guvaxvat, bar zhfg unir na rarzl. [[c.202]]
 [[vzntr]]
 
 {Pryroengvat uvf oveguqnl, Jbes geniryf gur tnhagyrg gung
-znexf gur evgr bs gur Ntr bs Nfprafvba}
+znexf gur evgr bs gur Ntr bs Nfprafvba.}
 
 }}[[c.203]]
 
@@ -4101,8 +4103,8 @@ ybtf bs n yngre <Ragrecevfr>, APP-1701-N)
 Ragrecevfr>, APP-1701-Q, haqre gur pbzznaq bs Pncgnva
 Wrna-Yhp Cvpneq)
 
-<Fgne Gerx: Qrrc Fcnpr Avar> (ybtf bs fcnpr fgngvba Qrrc [[Qrrc:=<Qrrc]]
-Fcnpr 9 juvyr haqre gur pbzznaq bs Pncgnva Orawnzva [[9:=9>]]
+<Fgne Gerx: Qrrc Fcnpr Avar> (ybtf bs fcnpr fgngvba Qrrc
+Fcnpr 9 juvyr haqre gur pbzznaq bs Pncgnva Orawnzva
 Fvfxb)
 
 <Fgne Gerx: Iblntrf> (ybtf bs <H.F.F. Iblntre>, APP-74656,
