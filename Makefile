@@ -48,7 +48,9 @@ copied_targets = \
                 -name '*.jpg'  -or \
                 -name '*.js'   -or \
                 -name '*.ly'   -or \
+                -name '*.map'  -or \
                 -name '*.midi' -or \
+                -name '*.min.js' -or \
                 -name '*.mp3'  -or \
                 -name '*.mp4'  -or \
                 -name '*.ntd'  -or \
@@ -353,6 +355,18 @@ $(publish_dir)/%.mp3: $(source_dir)/%.mp3
 
 # MP4 (video)
 $(publish_dir)/%.mp4: $(source_dir)/%.mp4
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	echo "Copying    '$<' -> '$@'";      \
+	cp "$<" "$@"
+
+# MAP (source map file)
+$(publish_dir)/%.map: $(source_dir)/%.map
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	echo "Copying    '$<' -> '$@'";      \
+	cp "$<" "$@"
+
+# MIN JS (client-side script, pre-minified Javascript)
+$(publish_dir)/%.min.js: $(source_dir)/%.min.js
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Copying    '$<' -> '$@'";      \
 	cp "$<" "$@"
