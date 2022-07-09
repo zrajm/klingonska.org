@@ -183,20 +183,19 @@ h1 span.comment {
 
 /*
 
-Google Font 'Alegreya'. Small caps used for 'Klingonska Akademien' logotype at
-top of each page. Could also be included with:
+Google Font 'Alegreya Small Caps'. This only includes the glyphs necessary for
+the words 'Klingonska Akademien', and is used for the logo at top of each page.
+The CSS needed for this font can also be found here, but I chose to host it
+locally, by wgetting the font file and using the local font file below:
 
-    <link rel="stylesheet"
-    href="http://fonts.googleapis.com/css?family=Alegreya+SC&text=Klingonska+Akademien">
+http://fonts.googleapis.com/css?family=Alegreya+SC&text=Klingonska+Akademien
 
 */
 @font-face {
   font-family: 'Alegreya SC';
   font-style: normal;
   font-weight: 400;
-  src: local('Alegreya SC'), local('AlegreyaSC-Regular'),
-      url('http://themes.googleusercontent.com/font?kit=-74JUGs8W14C5cCBFRS3042YcPgOCUf_DHvgl8jR3FtEyB1zp-JrMkTnWSJRWg_-&text')
-      format('truetype');
+  src: url(alegreya-sc-reduced.woff2) format('woff2');
 }
 
 /*****************************************************************************\
