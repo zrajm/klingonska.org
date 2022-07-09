@@ -95,21 +95,7 @@ css_targets =                                               \
         $(wildcard $(source_dir)/includes/*.scss          \
     ))
 
-# HTML5 Boilerplate stuff
-h5bp_zip   = $(wildcard htm5-boilerplate-*.zip)
-h5bp_files = $(shell                                 \
-    unzip -l $(h5bp_zip)                             \
-        | awk '$$4 ~ /^\^/ { print substr($$4, 2) }' \
-)
-h5bp_dir = $(patsubst %/,%,$(firstword $(h5bp_files)))
-
-# JS libs (i.e. Modernizr and jQuery -- included in HTML5 Boilerplate)
-jslib_sources = $(filter $(h5bp_dir)/js/libs/%.min.js,$(h5bp_files))
-jslib_targets = \
-    $(patsubst %.min.js,$(publish_dir)/includes/%.js,  \
-        $(notdir $(jslib_sources)))
-
-all_targets = $(copied_targets) $(jslib_targets) $(css_targets) $(html_targets)
+all_targets = $(copied_targets) $(css_targets) $(html_targets)
 
 
 ###############################################################################
@@ -136,7 +122,7 @@ js: $(filter %.js,$(all_targets))
 ## ls-copied - list files used as-is
 .PHONY: ls-compiled ls-copied
 ls-compiled:
-	@for LINE in $(jslib_targets) $(css_targets) $(html_targets); do \
+	@for LINE in $(css_targets) $(html_targets); do \
 	    echo $$LINE; \
 	done | if [ -t 1 ]; then column; else cat; fi
 ls-copied:
@@ -252,27 +238,11 @@ help:
 	echo 'To disable minifying altogether use `make MINIFIER=cat` (this';  \
 	echo 'sets both the CSS_MINIFIER and JS_MINIFIER commands to `cat`).'
 
-# HTML5 Boilerplate zipfile
-$(h5bp_files): $(h5bp_zip)
-	@echo "Unzipping  '$<'"; \
-	unzip -qDD "$<"
-
 # CGI (server-side script)
 $(publish_dir)/%.cgi: $(source_dir)/%.cgi
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Copying    '$<' -> '$@'";      \
 	cp "$<" "$@"
-
-# SCSS (sassy stylesheet) + CSS normalizer -> minified base CSS
-$(publish_dir)/includes/base.css: $(h5bp_dir)/css/style.css \
-    $(source_dir)/includes/base.scss bin/sassy
-	@$(call check-command,CSS_MINIFIER,$(firstword $(CSS_MINIFIER)))\
-	[ -e "$(@D)" ] || mkdir -p "$(@D)";      \
-	echo "CSSifying  '$(filter %.scss,$^)' -> '$@'"; \
-	{                                         \
-	    cat $(filter %.css,$^);               \
-	    bin/sassy $(filter %.scss,$^);        \
-	} | $(CSS_MINIFIER) >"$@"
 
 # SCSS (sassy stylesheet) -> minified CSS
 $(publish_dir)/%.css: $(source_dir)/%.scss bin/sassy
@@ -352,12 +322,6 @@ $(publish_dir)/%.jpg: $(source_dir)/%.jpg
 # JS (client-side script, Javascript)
 # (Script appears to use MSIE hacks and gets mangled in minification.)
 $(publish_dir)/includes/sorttable.js: $(source_dir)/includes/sorttable.js
-	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
-	echo "Copying    '$<' -> '$@'";      \
-	cp "$<" "$@"
-
-# JS (client-side libraries, Javascript)
-$(publish_dir)/includes/%.js: $(h5bp_dir)/js/libs/%.min.js
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Copying    '$<' -> '$@'";      \
 	cp "$<" "$@"

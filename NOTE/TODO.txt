@@ -1,6 +1,8 @@
 #+STARTUP: overview hidestars -*- org -*-
 #+TAGS: PROOF(p) TRANSCRIBE IMPORTANT
 
+* TODO Clean out HTML5 boilerplate from top of base.scss
+* TODO Upgrade jQuery newest version
 * SECURITY: Canon search should not allow direct access to 'encrypted' docs
   http://klingonska.org/canon/search/?file=1993-10-01-pk.txt
 * INBOX
@@ -4470,8 +4472,6 @@
 * Lesson ideas
 ** singing {taHjaj wo'}
 ** correspond in SMS:es
-
-
 * FINISHED
 ** DONE Transfer test.zrajm.org -> klingonska.org
    CLOSED: [2010-09-03 Sat 00:44]
@@ -4593,3 +4593,4 @@
    CLOSED: [2010-09-08 Wed 20:34]
 ** DONE Cleared away a bunch of Perl 'is experimental' warnings
    CLOSED: [2014-10-25 sat 15:57]
+* [eof]

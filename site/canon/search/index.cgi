@@ -10,7 +10,7 @@ binmode(STDOUT, ":encoding(utf8)");
 my %METADATA = (
     title    => "Archive of Okrandian Canon",
     year     => "1998-2022",
-    updated  => "2022-07-09T10:52:24+0200",
+    updated  => "2022-07-09T14:01:51+0200",
     logolink => "..",
     basedir  => "../..",
     crumbs   => [
@@ -97,10 +97,7 @@ my %METADATA = (
         };
         return <<"EOF";
 <!doctype html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=en> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang=en> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang=en> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=en> <!--<![endif]-->
+<html lang=en>
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -119,7 +116,6 @@ my %METADATA = (
   <meta name="msapplication-TileColor" content="#bb3333">
   <meta name="theme-color" content="#bb3333">
   <link rel=canonical href="http://klingonska.org/">
-  <script src="$basedir/includes/modernizr-2.5.3.js"></script>
 </head>
 <body lang=en itemscope itemtype="http://schema.org/WebPage">
 

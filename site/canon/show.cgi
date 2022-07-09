@@ -12,7 +12,7 @@ my ($file, $question, $answer) = $cgi->get_form(qw/file question answer/);
 my %METADATA = (
     title    => "Klingon Transcript Download",
     year     => "1998-2022",
-    updated  => "2022-07-09T10:48:19+0200",
+    updated  => "2022-07-09T13:58:57+0200",
     logolink => ".",
     basedir  => "..",
     crumbs   => [
@@ -97,10 +97,7 @@ TODO
         };
         return <<"EOF";
 <!doctype html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=en> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang=en> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang=en> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=en> <!--<![endif]-->
+<html lang=en>
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -119,7 +116,6 @@ TODO
   <meta name="msapplication-TileColor" content="#bb3333">
   <meta name="theme-color" content="#bb3333">
   <link rel=canonical href="http://klingonska.org/">
-  <script src="$basedir/includes/modernizr-2.5.3.js"></script>
 </head>
 <body lang=en itemscope itemtype="http://schema.org/WebPage">
 

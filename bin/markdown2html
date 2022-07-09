@@ -33,7 +33,6 @@ my %code = (
     LOGOSRC   => \&page_logosrc,   #   in 'header.html'
     MAIN      => \&page_main,      # in 'template.html'
     META      => \&page_meta,      # in 'template.html'
-    MODERNIZR => \&page_modernizr, # in 'template.html'
     PREVNEXT  => \&page_prevnext,  # in 'template.html'
     SCRIPT    => \&page_script,    # in 'template.html'
     STYLE     => \&page_style,     # in 'template.html'
@@ -771,11 +770,6 @@ sub page_meta {
     my ($self, %meta) = @_;
     return () unless $meta{desc};
     return '<meta name=description content="' . $meta{desc} . '">';
-}
-
-sub page_modernizr {
-    my ($self, %meta) = @_;
-    return script_tag("includes/modernizr-*.js", $meta{targetfile});
 }
 
 # return page url

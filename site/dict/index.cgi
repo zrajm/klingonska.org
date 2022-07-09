@@ -350,10 +350,7 @@ EOF
 sub html_head {
 return <<"EOF";
 <!doctype html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=en> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang=en> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang=en> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=en> <!--<![endif]-->
+<html lang=en>
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -370,7 +367,6 @@ return <<"EOF";
   <meta name="msapplication-TileColor" content="#bb3333">
   <meta name="theme-color" content="#bb3333">
   <link rel=canonical href="http://klingonska.org/dict/">
-  <script src="../includes/modernizr-2.5.3.js"></script>
   <style><!--
     td, th { vertical-align: text-top; }
     th {
@@ -392,7 +388,7 @@ return <<"EOF";
         <a href="http://klingonska.org/dict/">Klingon Pocket Dictionary</a>
       </nav>
     <li>
-      Updated <time pubdate datetime="2022-07-09T10:58+02:00">July 9, 2022</time>
+      Updated <time pubdate datetime="2022-07-09T14:04+02:00">July 9, 2022</time>
   </ul>
   <!-- end:status -->
   <div>
