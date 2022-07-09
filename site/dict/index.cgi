@@ -392,7 +392,7 @@ return <<"EOF";
         <a href="http://klingonska.org/dict/">Klingon Pocket Dictionary</a>
       </nav>
     <li>
-      Updated <time pubdate datetime="2013-12-12 18:24:37 +0100">December 12, 2013</time>
+      Updated <time pubdate datetime="2022-07-09T10:58+02:00">July 9, 2022</time>
   </ul>
   <!-- end:status -->
   <div>
@@ -455,15 +455,11 @@ sub html_foot {
 </article>
 
 <footer role=contentinfo>
-  <p class=copyright>© <time itemprop=copyrightYear>1998</time>&ndash;<time>2013</time> by
+  <p class=copyright>© <time itemprop=copyrightYear>1998</time>&ndash;<time>2022</time> by
     <a href="mailto:zrajm@klingonska.org" rel=author itemprop=author>zrajm</a>,
     <a href="http://klingonska.org/" itemprop=sourceOrganization>Klingonska Akademien</a>, Uppsala
   <p>License: <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel=license>CC BY-SA</a>
 </footer>
-<script>var _gaq=[['_setAccount','UA-5434527-2'],['_trackPageview']];
-(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-s.parentNode.insertBefore(g,s)}(document,'script'))</script>
 <script src="../includes/titlewrap.js"></script>
 </body>
 </html>

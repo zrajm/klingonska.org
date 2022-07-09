@@ -1,4 +1,4 @@
-#!/usr/bin/perl -T
+#!/usr/bin/perl
 
 use strict;
 use warnings;
@@ -9,8 +9,8 @@ binmode(STDOUT, ":encoding(utf8)");
 
 my %METADATA = (
     title    => "Archive of Okrandian Canon",
-    year     => "1998-2014",
-    updated  => "2014-11-08T20:27:57+0100",
+    year     => "1998-2022",
+    updated  => "2022-07-09T10:52:24+0200",
     logolink => "..",
     basedir  => "../..",
     crumbs   => [
@@ -167,10 +167,6 @@ EOF
     <a href="http://klingonska.org/" itemprop=sourceOrganization>Klingonska Akademien</a>, Uppsala
   <p>License: <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel=license>CC BY-SA</a>
 </footer>
-<script>var _gaq=[['_setAccount','UA-5434527-2'],['_trackPageview']];
-(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-s.parentNode.insertBefore(g,s)}(document,'script'))</script>
 <script src="$basedir/includes/titlewrap.js"></script>
 </body>
 </html>

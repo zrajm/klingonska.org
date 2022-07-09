@@ -1,4 +1,4 @@
-#!/usr/bin/perl -Tw
+#!/usr/bin/perl
 use strict;
 use warnings;
 use utf8;
@@ -11,8 +11,8 @@ my ($file, $question, $answer) = $cgi->get_form(qw/file question answer/);
 
 my %METADATA = (
     title    => "Klingon Transcript Download",
-    year     => "1998-2014",
-    updated  => "2014-11-19T08:51:36+0100",
+    year     => "1998-2022",
+    updated  => "2022-07-09T10:48:19+0200",
     logolink => ".",
     basedir  => "..",
     crumbs   => [
@@ -167,10 +167,6 @@ EOF
     <a href="http://klingonska.org/" itemprop=sourceOrganization>Klingonska Akademien</a>, Uppsala
   <p>License: <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel=license>CC BY-SA</a>
 </footer>
-<script>var _gaq=[['_setAccount','UA-5434527-2'],['_trackPageview']];
-(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-s.parentNode.insertBefore(g,s)}(document,'script'))</script>
 <script src="$basedir/includes/titlewrap.js"></script>
 </body>
 </html>
