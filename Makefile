@@ -333,13 +333,6 @@ $(publish_dir)/%.js: $(source_dir)/%.js
 	echo "Minifying  '$<' -> '$@'";      \
 	$(JS_MINIFIER) <"$<" >"$@"
 
-# JS (client-side script, Javascript)
-$(publish_dir)/%.js: $(source_dir)/%.js
-	@$(call check-command,JS_MINIFIER,$(firstword $(JS_MINIFIER)))\
-	[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
-	echo "Minifying  '$<' -> '$@'";      \
-	$(JS_MINIFIER) <"$<" >"$@"
-
 # LY (typeset musical score, LilyPond)
 $(publish_dir)/%.ly: $(source_dir)/%.ly
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
