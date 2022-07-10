@@ -18,6 +18,7 @@ use open qw(:std :utf8);
 
 my %code = (
     AUTHOR   => \&page_author,     # in 'template.html'
+    AUTHORTXT=> \&page_authortxt,  # in 'template.html'
     CHANGED  => \&page_date,       # in 'template.html'
     CRUMBS   => \&page_crumbs,     # in 'template.html'
     EOF      => sub { "" },        # in all templates
@@ -34,6 +35,7 @@ my %code = (
     TOC      => \&page_toc,
     URL      => \&page_url,        # in 'template.html'
     YEAR     => \&page_year,       # in 'template.html'
+    YEARTXT  => \&page_yeartxt,    # in 'template.html'
 );
 
 my %author = (
@@ -459,9 +461,14 @@ sub help {
 
     sub process_template {
         my ($self, $text, %meta) = @_;
-        $text =~ s{ <!--(.*?)--> \n? }{
-            exists($code{$1}) ?
-                &{$code{$1}}($self, %meta) : $&;
+        $text =~ s{ (\h*) <!--([A-Z]+)--> (\n?) }{
+            my ($indent, $include, $newline) = ($1, $2, $3);
+            if (exists($code{$include})) {
+                my @out = &{ $code{$include} }($self, %meta);
+                join("\n", map { "$indent$_" } @out) . (@out ? $newline : "");
+            } else {
+                $&;
+            }
         }gexs;
         return $text;
     }
@@ -680,6 +687,13 @@ sub page_year {
     return $year;
 }
 
+sub page_yeartxt {
+    my ($self, %meta) = @_;
+    return "MISSING YEAR" unless exists($meta{year});
+    (my $year = $meta{year}) =~ s#(?<!-)-{1,2}(?!-)#–#g;
+    return $year;
+}
+
 sub page_author {
     my ($self, %meta) = @_;
     return "MISSING AUTHOR" unless exists($meta{author});
@@ -694,6 +708,16 @@ sub page_author {
     }
     my $credit = join(", ", @author);
     return $credit;
+}
+
+sub page_authortxt {
+    my ($self, %meta) = @_;
+    return "MISSING AUTHOR" unless exists($meta{author});
+    my @author = split(/,\s*/, $meta{author});
+    # Join author names (last two with '&', all others with ',').
+    return $#author
+        ? join(", ", @author[0..$#author-2], join(" & ", @author[-2,-1]))
+        : $author[0];
 }
 
 sub page_style {
