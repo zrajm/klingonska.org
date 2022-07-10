@@ -349,36 +349,31 @@ EOF
 
 sub html_head {
 return <<"EOF";
-<!doctype html>
-<html lang=en>
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Klingon Pocket Dictionary &ndash; Klingonska Akademien</title>
-  <meta name=viewport content="width=device-width">
-  <link rel=stylesheet href="../includes/base.css">
-  <link rel=stylesheet href="../includes/dict.css">
-  <link rel=stylesheet href="../includes/pagetabs.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#bb3333">
-  <meta name="msapplication-TileColor" content="#bb3333">
-  <meta name="theme-color" content="#bb3333">
-  <link rel=canonical href="http://klingonska.org/dict/">
-  <style><!--
-    td, th { vertical-align: text-top; }
-    th {
-      font-weight: normal;
-      white-space: nowrap;
-      text-align: left;
-    }
-    mark { background-color: #bbb; font-weight: inherit; font-style: inherit; }
-  --></style>
-</head>
-<body lang=en itemscope itemtype="http://schema.org/WebPage">
-
+<!DOCTYPE html>
+<!-- Copyright 1998–2022 by zrajm. License: CC BY-SA (text), GPLv2 (code) -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Klingon Pocket Dictionary &ndash; Klingonska Akademien</title>
+<link rel=stylesheet href="../includes/base.css">
+<link rel=stylesheet href="../includes/dict.css">
+<link rel=stylesheet href="../includes/pagetabs.css">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#bb3333">
+<meta name="msapplication-TileColor" content="#bb3333">
+<meta name="theme-color" content="#bb3333">
+<link rel=canonical href="http://klingonska.org/dict/">
+<style>
+  td, th { vertical-align: text-top; }
+  th {
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: left;
+  }
+  mark { background-color: #bbb; font-weight: inherit; font-style: inherit; }
+</style>
 <header role=banner class=tabbed>
   <!-- begin:status -->
   <ul>
@@ -388,7 +383,7 @@ return <<"EOF";
         <a href="http://klingonska.org/dict/">Klingon Pocket Dictionary</a>
       </nav>
     <li>
-      Updated <time pubdate datetime="2022-07-09T14:04+02:00">July 9, 2022</time>
+      Updated <time pubdate datetime="2022-07-10T12:49+02:00">July 10, 2022</time>
   </ul>
   <!-- end:status -->
   <div>
@@ -457,8 +452,7 @@ sub html_foot {
   <p>License: <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel=license>CC BY-SA</a>
 </footer>
 <script src="../includes/titlewrap.js"></script>
-</body>
-</html>
+<!--[eof]-->
 EOF
 }
 

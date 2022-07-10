@@ -12,7 +12,7 @@ my ($file, $question, $answer) = $cgi->get_form(qw/file question answer/);
 my %METADATA = (
     title    => "Klingon Transcript Download",
     year     => "1998-2022",
-    updated  => "2022-07-09T13:58:57+0200",
+    updated  => "2022-07-10T12:32:10+0200",
     logolink => ".",
     basedir  => "..",
     crumbs   => [
@@ -90,35 +90,31 @@ TODO
         my $logolink   = $self->{logolink};
         my $crumbs     = _breadcrumbs(@{ $self->{crumbs} });
         my $h1_title   = $self->{title};
+        (my $year = $self->{year}) =~ s/[[:punct:]]+/–/;
         my $head_title = do {
             local $_ = $self->{title};
             s#<.*?>##g;
             $_;
         };
         return <<"EOF";
-<!doctype html>
-<html lang=en>
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>$head_title – Klingonska Akademien</title>
-  <meta name=viewport content="width=device-width">
-  <link rel=stylesheet href="$basedir/includes/base.css">
-  <link rel=stylesheet href="$basedir/includes/banner.css">
-  <link rel=stylesheet href="$basedir/includes/dict.css">
-  <link rel=stylesheet href="$basedir/includes/dict-layouttable.css">
-  <link rel=stylesheet href="$basedir/includes/canon-search.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#bb3333">
-  <meta name="msapplication-TileColor" content="#bb3333">
-  <meta name="theme-color" content="#bb3333">
-  <link rel=canonical href="http://klingonska.org/">
-</head>
-<body lang=en itemscope itemtype="http://schema.org/WebPage">
-
+<!DOCTYPE html>
+<!-- Copyright $year by zrajm. License: CC BY-SA (text), GPLv2 (code) -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>$head_title – Klingonska Akademien</title>
+<link rel=stylesheet href="$basedir/includes/base.css">
+<link rel=stylesheet href="$basedir/includes/banner.css">
+<link rel=stylesheet href="$basedir/includes/dict.css">
+<link rel=stylesheet href="$basedir/includes/dict-layouttable.css">
+<link rel=stylesheet href="$basedir/includes/canon-search.css">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#bb3333">
+<meta name="msapplication-TileColor" content="#bb3333">
+<meta name="theme-color" content="#bb3333">
+<link rel=canonical href="http://klingonska.org/">
 <header role=banner>
   <!-- begin:status -->
   <ul>
@@ -164,8 +160,7 @@ EOF
   <p>License: <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel=license>CC BY-SA</a>
 </footer>
 <script src="$basedir/includes/titlewrap.js"></script>
-</body>
-</html>
+<!--[eof]-->
 EOF
     }
 

@@ -1,6 +1,7 @@
 #+STARTUP: overview hidestars -*- org -*-
 #+TAGS: PROOF(p) TRANSCRIBE IMPORTANT
 
+* TODO Check (remove?) 'rel=canonical' links
 * TODO Clean out HTML5 boilerplate from top of base.scss
 * TODO Upgrade jQuery newest version
 * SECURITY: Canon search should not allow direct access to 'encrypted' docs
