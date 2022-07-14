@@ -113,7 +113,7 @@ EOF
                              local ($_) = @_;
                              my $class = (m#(?:^-|-$)# ? ' class=nobr' : '');
                              "<b$class lang=tlh>" . regex(
-                                 hyphenate_tlh($_, "&shy;", "-"),
+                                 hyphenate_tlh($_, "­", "-"),
                                  qr/'/,
                                  "&rsquo;",
                              ) . "</b>"

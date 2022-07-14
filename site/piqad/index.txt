@@ -190,10 +190,10 @@ complete description of each of the sounds is given in the text below.
   <tr>
     <th>
     <th colspan=2><a href="http://en.wikipedia.org/wiki/Bilabial_consonant">Bilabial</a>
-    <th colspan=2><a href="http://en.wikipedia.org/wiki/Labiodental_consonant">Labio&shy;dental</a>
+    <th colspan=2><a href="http://en.wikipedia.org/wiki/Labiodental_consonant">Labio­dental</a>
     <th colspan=2><a href="http://en.wikipedia.org/wiki/Alveolar_consonant">Alveolar</a>
-    <th colspan=2><a href="http://en.wikipedia.org/wiki/Postalveolar_consonant">Post&shy;alveolar</a>
-    <th colspan=2><a href="http://en.wikipedia.org/wiki/Retroflex_consonant">Retro&shy;flex</a>
+    <th colspan=2><a href="http://en.wikipedia.org/wiki/Postalveolar_consonant">Post­alveolar</a>
+    <th colspan=2><a href="http://en.wikipedia.org/wiki/Retroflex_consonant">Retro­flex</a>
     <th colspan=2><a href="http://en.wikipedia.org/wiki/Palatal_consonant">Palatal</a>
     <th colspan=2><a href="http://en.wikipedia.org/wiki/Velar_consonant">Velar</a>
     <th colspan=2><a href="http://en.wikipedia.org/wiki/Uvular_consonant">Uvular</a>

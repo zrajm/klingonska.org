@@ -513,7 +513,7 @@ sub help {
         for ($str) {
             s/'/’/g;
             s{(?<![a-zA-Z0-9'’])([a-zA-Z0-9'’]+)(?![a-zA-Z0-9'’])}{
-                join("&shy;", split_tlh_syllables($1));
+                join("­", split_tlh_syllables($1));
             }ge;
         }
         return $str;
