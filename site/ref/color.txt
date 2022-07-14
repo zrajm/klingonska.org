@@ -4,7 +4,7 @@ created: 1998-02-26
 author: zrajm
 year: 1998-2012
 lang: en
-script: sorttable
+script: sorttable.js
 up: ..
 
 A Quick Reference to Colors in Klingon

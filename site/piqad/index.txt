@@ -4,7 +4,7 @@ author: zrajm
 year: 1998-2013
 lang: en
 style: piqad
-script: jquery-1.7.1
+script: jquery-1.7.1.js
 
 {pIqaD}, And How to Read It
 ===========================

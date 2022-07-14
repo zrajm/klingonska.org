@@ -4,7 +4,7 @@ created: 1998-09-22
 author: zrajm
 year: 1998-2016
 lang: en
-script: sorttable
+script: sorttable.js
 
 Errors in Okrandian Sources
 ===========================

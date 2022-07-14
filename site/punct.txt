@@ -4,7 +4,7 @@ author: zrajm
 year: 1998--2012
 lang: en
 desc: An attempt at figuring out how punctuation should work in Klingon.
-script: sorttable
+script: sorttable.js
 
 Punctuating Klingon
 ===================

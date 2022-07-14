@@ -1074,8 +1074,8 @@ sub page_script {
     my @script_tag  = $meta{script_tags} ? @{ $meta{script_tags} }     : ();
     my @script_file = $meta{script}      ? split(/\s+/, $meta{script}) : ();
     return (map {
-        script_tag("includes/$_.js", $meta{targetfile});
-    } 'titlewrap', @script_file), @script_tag;
+        script_tag("includes/$_", $meta{targetfile});
+    } 'titlewrap.js', @script_file), @script_tag;
 }
 
 sub page_footer {
