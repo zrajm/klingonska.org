@@ -793,11 +793,13 @@
         }
         object.index = makeDictionary_index;
 
-        $.get(url, function (data) {               // fetch dictionary
-            dict = parseZDB(data);                 //   parse
-            index = indexify(dict);
-            if (onLoadCallback) { onLoadCallback(object); }
-        });
+        fetch(url)
+            .then(function (resp) { return resp.text() })
+            .then(function (data) {
+                dict = parseZDB(data);                 //   parse
+                index = indexify(dict);
+                if (onLoadCallback) { onLoadCallback(object); }
+            })
 
         return object;
     }
