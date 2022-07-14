@@ -4,7 +4,7 @@ author: zrajm
 year: 2009-2011
 lang: en
 desc: The history, in pictures, of Klingonska Akademien's logotype.
-style: gallery
+style: gallery.css
 
 Klingonska Akademien's Logo
 ===========================

@@ -3,7 +3,7 @@ created: 2010-11-03
 updated: 2015-10-09T00:31:16+0200
 author: zrajm
 year: 2010-2015
-style: gallery
+style: gallery.css
 lang: en
 
 {taHjaj wo'} – _An Imperial Anthem_

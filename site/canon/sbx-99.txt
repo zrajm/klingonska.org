@@ -4,7 +4,7 @@ updated: 2013-04-11T18:37:27+0200
 author: zrajm
 year: 2001--2013
 lang: en
-style: gallery
+style: gallery.css
 
 SkyBox Trading Card for DS9 Season 1
 ====================================

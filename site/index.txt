@@ -3,7 +3,7 @@ updated: 2015-03-08T20:57:14+0100
 author: zrajm
 year: 1998-2015
 lang: en
-style: banner dict
+style: banner.css dict.css
 
 <p class=center><big><b><i>-- Your guide to the Klingon language.</i></b></big></p>
 

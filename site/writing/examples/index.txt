@@ -3,7 +3,7 @@ updated: 2013-05-31 20:57:54 +0200
 author: zrajm
 year: 1998-2013
 lang: en
-style: gallery
+style: gallery.css
 up: ../..
 
 Some Pictures of {pIqaD}

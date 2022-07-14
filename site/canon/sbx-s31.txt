@@ -4,7 +4,7 @@ updated: 2013-04-16T14:43:58+0200
 author: zrajm
 year: 2009--2013
 lang: en
-style: gallery
+style: gallery.css
 
 SkyBox Trading Cards for TNG Season 6
 =====================================

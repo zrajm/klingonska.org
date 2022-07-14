@@ -4,7 +4,7 @@ created: 2002-02-19
 author: zrajm
 year: 2002--2006
 lang: en
-style: gallery
+style: gallery.css
 
 {SuvwI' van bom} -- <<The Warrior's Anthem>>
 ============================================

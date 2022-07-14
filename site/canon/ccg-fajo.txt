@@ -4,7 +4,7 @@ updated: 2013-05-25 14:41:05 +0200
 author: zrajm
 year: 2013
 lang: en
-style: gallery
+style: gallery.css
 
 Decipher Inc. Trading Card from *The Fajo Collection*
 =====================================================

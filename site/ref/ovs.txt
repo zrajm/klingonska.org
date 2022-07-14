@@ -4,7 +4,7 @@ created: 1998-02-26
 author: zrajm
 year: 1998-2012
 lang: en
-style: dict-prefixtable
+style: dict-prefixtable.css
 up: ..
 
 A Quick Reference to Subjects and Objects in Klingon

@@ -900,8 +900,8 @@ sub page_style {
     my ($self, %meta) = @_;
     my @style_tag  = $meta{style_tags} ? @{ $meta{style_tags} } : ();
     my @style_file = map {
-        "includes/$_.css"
-    } 'base', ($meta{style}            # always include base stylesheet
+        "includes/$_"
+    } 'base.css', ($meta{style}        # always include base stylesheet
         ? split(/\s+/, $meta{style})   # user override defaults
         : ()
     );

@@ -723,7 +723,7 @@ sub page_authortxt {
 sub page_style {
     my ($self, %meta) = @_;
     my @stylesheet = $meta{style}
-        ? map { "includes/$_.css" } split(/\s+/, $meta{style})
+        ? map { "includes/$_" } split(/\s+/, $meta{style})
         : (
             "includes/page.css",
             "includes/pagestats.css",

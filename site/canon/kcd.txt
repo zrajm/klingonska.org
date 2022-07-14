@@ -4,7 +4,7 @@ updated: 2013-02-24T02:58:54+0100
 author: zrajm
 year: 1999-2013
 lang: en
-style: gallery
+style: gallery.css
 
 Star Trek: Klingon (CD-ROM)
 ===========================
