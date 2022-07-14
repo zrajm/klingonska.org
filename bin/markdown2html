@@ -1073,7 +1073,6 @@ sub page_script {
     my ($self, %meta) = @_;
     my @script_tag  = $meta{script_tags} ? @{ $meta{script_tags} }     : ();
     my @script_file = $meta{script}      ? split(/\s+/, $meta{script}) : ();
-    unshift(@script_file, "jquery-*") if @script_file or @script_tag;
     return (map {
         script_tag("includes/$_.js", $meta{targetfile});
     } 'titlewrap', @script_file), @script_tag;

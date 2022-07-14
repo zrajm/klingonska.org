@@ -5,6 +5,7 @@ author: zrajm
 year: 1998-2016
 lang: en
 up: ..
+script: jquery-1.7.1
 
 A Quick Reference to Time Expressions in Klingon
 ================================================

@@ -5,6 +5,7 @@ author: zrajm
 year: 2000-2020
 lang: en
 up: ../..
+script: jquery-1.7.1
 
 {pIqaD} Playground
 ==================
