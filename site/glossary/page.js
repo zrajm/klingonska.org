@@ -2300,9 +2300,9 @@
                 }
                 outputElement.addClass('sortable').on('click', glossaryTableClick);
                 knownElement.addClass('sortable');
-                analyzeButtonElement.removeAttr('disabled').on('click', analyzeButton);
-                $('button.clear').removeAttr('disabled').on('click', clearButton);
-                $('button.test').removeAttr('disabled').on('click', exampleTextButton);
+                analyzeButtonElement.prop('disabled', false).on('click', analyzeButton);
+                $('button.clear').prop('disabled', false).on('click', clearButton);
+                $('button.test').prop('disabled', false).on('click', exampleTextButton);
                 $('input.more').on('click', function () {
                     if ($(this).prop('checked')) {
                         $('.advanced').removeClass('hidden');
@@ -2483,12 +2483,12 @@
             var warn = [];
             if (!window.URL) {
                 warn.push('<i>blob urls</i> (required for downloading)');
-                $('button.download', pageElement).attr('disabled', true).
+                $('button.download', pageElement).prop('disabled', true).
                     attr('title', 'Missing browser support for this feature.');
             }
             if (!FileReader) {
                 warn.push('<i>FileReader</i> (required for uploading)');
-                $('button.upload', pageElement).attr('disabled', true).
+                $('button.upload', pageElement).prop('disabled', true).
                     attr('title', 'Missing browser support for this feature.');
             }
             if (warn.length) {
