@@ -1868,7 +1868,7 @@
         }
 
         function buttonFocusout() {
-            var point = store.get(questionEntry.id, 'point') || 0;
+            var point = store.get((questionEntry || {}).id, 'point') || 0;
             dom.pointMeter.attr('value', point);   // reset point meter for word
             dom.pointElement.html(point);
             outputHelp();                          // clear help text for button
