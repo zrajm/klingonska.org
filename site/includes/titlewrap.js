@@ -1,5 +1,3 @@
-/* -*- css -*- */
-
 /*jslint browser: true */
 //
 // This script does wordwrapping of the "Klingonska Akademien" page title in
