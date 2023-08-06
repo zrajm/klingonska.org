@@ -1,8 +1,8 @@
 : -*- html -*-
-updated: 2016-09-10 18:56:23+02
+updated: 2023-08-06T18:40:18+0200
 created: 1998-02-26
 author: zrajm
-year: 1998-2016
+year: 1998-2023
 lang: en
 up: ..
 script: jquery-1.7.1.js
@@ -52,7 +52,7 @@ Klingon*](../canon/2011-11-07-email.txt) (2011):
     <td width=1%><input id=time24h size=4 value="23:59">
 </table>
 
-The formula is “*hour* [{vatlh}] *minute* {rep}” where *hour* is 0–23, and
+The formula is “*hour*[{vatlh}] *minute* {rep}” where *hour* is 0–23, and
 *minute* is 0–59. If *hour* is {pagh} <<(zero)>> you drop the {vatlh}. It looks
 like this in use:
 
@@ -134,21 +134,23 @@ or <<Specify the hour!>>
 
 Outside of those situations the expression {'arlogh Qoylu'pu'?} is most
 commonly used (it literally means <<How many times has [someone] heard [it]?>>
-or <<How many times has it been heard?>>) <small>[HQ 8:1]</small>
+or <<How many times has it been heard?>>)
+<small>[[HQ 8:1](../canon/1999-03-holqed-08-1.txt)]</small>
 
 <table class="noborder dialogue">
   <tr>
     <td width="33%">{rep yIper!}
-    <td><<Ascertain the hour! Specify the
-        hour!>> <small>[HQ 8:1]</small>
+    <td><<Ascertain the hour! Specify the hour!>>
+        <small>[<a href="../canon/1999-03-holqed-08-1.txt">HQ 8:1</a>]</small>
   <tr>
     <td>{'arlogh Qoylu'pu'?}
-    <td><<What time is it?>> (lit. <<How many times has it been
-        heard?>>) <small>[HQ 8:1]</small>
+    <td><<What time is it?>> (lit. <<How many times has it been heard?>>)
+        <small>[<a href="../canon/1999-03-holqed-08-1.txt">HQ 8:1</a>]</small>
   <tr>
     <td>{mamejDI' 'arlogh Qoylu'pu'?}
     <td><<What time do we leave?>> (lit. <<When we leave, how many times
-        will it have been heard?>>) <small>[HQ 8:1]</small>
+        will it have been heard?>>)
+        <small>[<a href="../canon/1999-03-holqed-08-1.txt">HQ 8:1</a>]</small>
 </table>
 
 
@@ -182,6 +184,12 @@ means <<this day (that we are talking about)>> or <<this day (that is obvious
 from context)>> -- so {jajvam} may actually refer to last Thursday, if that
 happens to be the topic of the conversation.
 
+Note, however, that {DaHjaj} and {jajvam} are used in different ways. {DaHjaj}
+(but not {jajvam}) can be used as the time element in a sentence, while
+{jajvam} is more common in a noun position. (Though {DaHjaj} can also be used
+as a noun, especially in common phrases such as {DaHjaj gheD} <<catch of the
+day>>.) <small>[[News 1997-06-29](../canon/1997-06-29d-news.txt)]</small>
+
 Since {-vam} above is a type 4 noun suffix (meaning <<this>>), it can be used
 on any time unit: {DISvam} <<this year,>> {jarvam} <<this month,>> {Hoghvam}
 <<this week>> etc. <small>[TKD 3.3.4]</small> We have no indication that {DaH}
@@ -191,6 +199,7 @@ possible to understand, but it is most likely ungrammatical.
 <table>
   <thead><tr><th>Klingon<th>English<th>Source</thead>
   <tr><td>{DaH}<td><<now>> (adv)<td><small>[TKD]</small>
+  <tr><td>{'eQ}<td><<just now, just a few seconds/minutes ago, a moment ago>> (adv)<td><nobr><small>[{qepHom'a'} 2019]</small></nobr>
   <tr><td>{DaHjaj}<td><<today>> (n)<td><small>[TKD]</small>
 </table>
 
@@ -213,11 +222,11 @@ the words:
 <table>
   <thead><tr><th>Klingon<th>English<th>Source</thead>
   <tr><td>{ben}<td><<years ago>> (n)<td><small>[TKD]</small>
-  <tr><td>{wen}<td><<months ago>> (n)<td><small>[HQ 8:3]</small>
+  <tr><td>{wen}<td><<months ago>> (n)<td><small>[<a href="../canon/1999-09-holqed-08-3.txt">HQ 8:3</a>]</small>
   <tr><td>{Hu'}<td><<days ago>> (n)<td><small>[TKD]</small>
-  <tr><td>{ret}<td><<time period ago>> (n)<td><small>[HQ 8:3]</small>
-  <tr><td>{ngugh}<td><<then, at that time>> (adv)<td><small>[News 1999-11-05]</small>
-  <tr><td>{qen}<td><<recently, a short time ago>> (adv)<td><small>[News 1999-02-02]</small>
+  <tr><td>{ret}<td><<time period ago>> (n)<td><small>[<a href="../canon/1999-09-holqed-08-3.txt">HQ 8:3</a>]</small>
+  <tr><td>{ngugh}<td><<then, at that time>> (adv)<td><small>[<a href="../canon/1999-11-05-news.txt">News 1999-11-05</a>]</small>
+  <tr><td>{qen}<td><<recently, a short time ago>> (adv)<td><small>[<a href="../canon/1999-02-02-email.txt">News 1999-02-02</a>]</small>
 </table>
 
 The words {ben} <<years ago,>> {wen} <<months ago,>> and {Hu'} <<days ago>> can
@@ -234,12 +243,13 @@ words in the table above):
   <tr><td>{DungluQ tIHIv. <u>ngugh</u> Qongbe' chaH.}
     <td><<Attack them at noon! They won't be sleeping then.>> or
       <<Attack them at noon. They're not sleeping then.>>
-      <small>[HQ 8:4; News 1999-11-05]</small>
+      <small>[<a href="../canon/1999-12-holqed-08-4-a.txt">HQ 8:4</a>;
+        <a href="../canon/1999-11-05-news.txt">News 1999-11-05</a>]</small>
 </table>
 
-It might be added that {ret} <<time period ago>> is not when other words are
-available; {ben} <<years ago,>> {wen} <<months ago,>> and {Hu'} <<days ago>>
-are always preferred.
+It might be added that {ret} <<time period ago>> is not used when other words
+are available, as {ben} <<years ago,>> {wen} <<months ago,>> and {Hu'}
+<<days ago>> are always preferred.
 
 
 [future] Future
@@ -250,9 +260,9 @@ was that something happened using the following words:
 <table>
   <thead><tr><th>Klingon<th>English<th>Source</thead>
   <tr><td>{nem}<td><<years from now>> (n)<td><small>[TKD]</small>
-  <tr><td>{waQ}<td><<months from now>> (n)<td><small>[HQ 8:3]</small>
+  <tr><td>{waQ}<td><<months from now>> (n)<td><small>[<a href="../canon/1999-09-holqed-08-3.txt">HQ 8:3</a>]</small>
   <tr><td>{leS}<td><<days from now>> (n)<td><small>[TKD]</small>
-  <tr><td>{pIq}<td><<time period from now>> (n)<td><small>[HQ 8:3]</small>
+  <tr><td>{pIq}<td><<time period from now>> (n)<td><small>[<a href="../canon/1999-09-holqed-08-3.txt">HQ 8:3</a>]</small>
   <tr><td>{tugh}<td><<soon>> (adv)<td><small>[TKD]</small>
 </table>
 
@@ -308,8 +318,8 @@ out and then number any remaining days, thus naming our <<Sunday>> {jaj wa'}
 </table>
 
 The longer form for <<Saturday>>, {lojmItjaj}, is used for formal occasions, on
-other occasions the two forms are heard about equally often. <small>[{qepHom}
-12]</small>
+other occasions the two forms are heard about equally
+often. <small>[{qepHom'a'} 2013]</small>
 
 
 [times] Time of Day
