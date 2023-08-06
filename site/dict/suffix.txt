@@ -222,7 +222,7 @@ Turns a verb (which must have at least one other suffix attached) into a noun.
 The use of this suffix often makes for bad Klingon, and it is strongly
 suggested that you refrain from using any word with {-ghach,} unless it is
 found in the dictionary. E.g. {naDHa'ghach} <discommendation;> {naDqa'ghach}
-<re-commendation.>
+<recommendation.>
 
 
 R. Rovers [TKD 4.3]
@@ -332,9 +332,9 @@ Possessives for Beings Capable of Using Language
 {-ra'} <your (plural)>
 ----------------------
 These suffixes are used to indicate possessives when referring to beings
-capable of speech, e.g. {jupwI'} <my friend;> {be'nallI'} <your wife;> {puqma'}
-<our child.> The general possessive suffixes may also be used, but they are
-considered derogatory; {juHwIj} for <my lord> borders on the taboo.
+capable of language, e.g. {jupwI'} <my friend;> {be'nallI'} <your wife;>
+{puqma'} <our child.> The general possessive suffixes may also be used, but
+they are considered derogatory, {juHwIj} for <my lord> borders on the taboo.
 
 Possessives, General Usage
 --------------------------
@@ -356,10 +356,8 @@ Possessives, General Usage
 
 {-chaj} <their>
 ---------------
-Though it is grammatically correct, it is considered derogatory to use these
-general possessive suffixes when referring to first or second persons that are
-capable of language (i.e. <I, we, you> or <you [plural]>).
-
+It is grammatically correct, but derogatory, to use {-wIj}, {-maj}, {-lIj} or
+{-raj} when referring to beings capable of language.
 
 Specification
 -------------
@@ -383,20 +381,23 @@ just talking about).>
 
 {-Daq} <locative>
 -----------------
-This corresponds to English prepositions such as: <at, to, in, on,> depending
-on context, e.g. {juHDaq jIH} <I'm at home;> {meHDaq yIqet} <Run to the
-bridge!> It is not used in the abstract sense of <in English>. Some nouns never
-take this suffix (notably {naDev} <hereabouts;> {pa'} <thereabouts;> {Dat}
-<everywhere>). {pa'} can mean both <room> and <thereabouts> but is distinct in
-use, e.g. {pa' yIjaH} <Go over there!> {pa'Daq yIjaH} <Go to the room!> Some
-verbs include locative notions, and take a place as object rather than
-locative, e.g. {Duj ghoStaH} <It is approaching the ship.>
+Indicates a place or direction in which something is happening, e.g. {juHDaq
+jIH} <I’m at home;> {meHDaq yIqet} <Run to the bridge!> Not used for time or in
+the abstract sense of "in English."
+
+A few nouns never take this suffix: {naDev} <here;> {pa'} <there;> {Dat}
+<everywhere> and {vogh} <somewhere>. ({pa'} means both <room> and <there> but
+is distinct in use, e.g. {pa' yIjaH} <Go over there!> {pa'Daq yIjaH} <Go to the
+room!>)
+
+Many verbs have a locative notion built in, with the place as an object rather
+than locative, e.g. {Duj ghoStaH} <It is approaching the ship;> {veng vIDab} <I
+live in the city.>
 
 {-vo'} <from>
 -------------
-Similar to {-Daq} but used only for actions directed away from a place, e.g.
-{pa'vo' yIjaH} <Leave the room!> This suffix cannot be used in the abstract
-sense of <from the past.>
+Like {-Daq} but used only for movement *away* from a place, e.g. {pa'vo' yIjaH}
+<Leave the room!> Not used for time or in the abstract sense of "from memory."
 
 {-mo'} <due to, because of>
 ---------------------------
@@ -412,10 +413,13 @@ food;> {Qu'vaD lI' De'vam} <This information is useful for the mission.> [TKDa
 
 {-'e'} <topic>
 --------------
-Emphasizes that the noun it is attached to is the topic of the sentence. Is
-also used to mark the head noun of a relative clause (see verb suffix {-bogh}
-<which> above). If the object of a sentence is marked with {-'e'} adverbials
-may come after the object instead at the beginning of the sentence. [TKDa 6.7]
+
+Indicate that noun it is attached to is the topic of the sentence. When an
+object takes {-'e'}, the adverbials may come after the object instead before
+it. [TKDa 6.7]
+
+Also used to indicate head noun of a relative clause (see verb suffix {-bogh}
+<which> above).
 
 [[end:suffixguide]]
 
