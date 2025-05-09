@@ -4,12 +4,19 @@ Klingonska Akademien
 language. It contains an extensive [dictionary][dict] (with both English and
 Swedish translations), the [Archive of Okrandian Canon][canon], a [word
 extraction and learning tool][glossary], and lots of articles about various
-other stuff, such as [the Klingon alphabet][piqad], [songs in
-Klingon](http://klingonska.org/songs/) etc.
+other stuff, such as [the Klingon alphabet][piqad], [songs in Klingon][songs]
+etc.
 
 
 Changes
 -------
+**May 2025:** Page suddenly went offline on May 1, due to troubles with our
+hosting solution. It should now be up and running again (May 8). This time with
+HTTPS, and a few, older, server-side scripts will stop working until we
+reimplement using more modern means. (This means that the [Pocket
+dictionary][dict] and the [Archive of Okrandian Canon][canon] search functions
+unfortunately will remain offline for now.)
+
 **November 2013:** Adding new words from the dictionary! Trying to catch up
 with the backlog of words to added to the language in 2012 and 2013. There is
 [a Google document][gdoc] for words which will be added, which we're currently
@@ -32,17 +39,16 @@ Read It][piqad], with improved pronunciation info, info on dialects etc.
 means adding a new look to the pages, as well as changing into a fully
 automated build system. As we, slowly, painstakingly, convert all pages into
 the new format, you'll see the new red page header take over, until it is
-*everywhere*.
+*everywhere*. – Don't worry, we are not about to remove any content.
 
-Don't worry, we are not about to remove any content.
-
-[main]: http://klingonska.org/ "Klingonska Akademien"
-[dict]: http://klingonska.org/dict/ "Klingon Pocket Dictionary"
-[canon]: http://klingonska.org/canon/ "Archive of Okrandian Canon"
-[piqad]: http://klingonska.org/piqad/ "**pIqaD**, And How to Read It"
-[songs]: http://klingonska.org/songs/ "Songs in Klingon"
-[glossary]: http://klingonska.org/glossary/ "Klingon Glossary Extractor"
+[main]: https://klingonska.org/ "Klingonska Akademien"
+[dict]: https://klingonska.org/dict/ "Klingon Pocket Dictionary"
+[canon]: https://klingonska.org/canon/ "Archive of Okrandian Canon"
+[piqad]: https://klingonska.org/piqad/ "**pIqaD**, And How to Read It"
+[songs]: https://klingonska.org/songs/ "Songs in Klingon"
+[glossary]: https://klingonska.org/glossary/ "Klingon Glossary Extractor"
 [webmaster]: mailto:webmaster@klingonska.org "Klingonska webmaster email"
+[zrajm]: mailto:zrajm@klingonska.org
 [gdoc]: https://docs.google.com/spreadsheet/ccc?key=0AocJRGAGPKq7dFJwdFFNTkwzSUpKNEkxZ3BDTDdvNHc "Google Doc: Words to add"
 
 
@@ -58,5 +64,7 @@ using the [the GitHub issue tracking system for klingonska.org][issue].
 
 Author
 ------
-The site was written, and data gathered by
-[zrajm](mailto:zrajm@klingonska.org), from 1998 to the present day.
+The site was written, and data gathered by [zrajm], from 1998 to the present
+day.
+
+<!--[eof]-->
