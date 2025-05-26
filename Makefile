@@ -186,8 +186,10 @@ publish: .publish.done
 	echo "Publishing site to '$(remote_dir)':";            \
 	FILES=$$(find ./$(publish_dir) -perm -g=w);            \
 	[ -n "$$FILES" ] && chmod g-w $$FILES;                 \
-	rsync -Pac --exclude-from=.gitignore --delete-excluded \
-	     --delete-after $(publish_dir)/ $(remote_dir)      \
+	(cd $(publish_dir)                                     \
+	     && git add .                                      \
+	     && git commit -m "Sitebuild `date --iso=minutes`" \
+	     && git push)                                      \
 	     && echo "Last published from here: `date`" >"$@"
 
 ## fetch - fetch published site
