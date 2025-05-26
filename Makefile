@@ -16,7 +16,6 @@ remote_dir  := ssh.hcoop.net:Web/klingonska.org
 ignore      := %.bak %.db %~ .\#% %\# %.tmp
 
 CSS_MINIFIER ?= $(if $(MINIFIER),$(MINIFIER),yui-compressor --type css)
-JS_MINIFIER  ?= $(if $(MINIFIER),$(MINIFIER),yui-compressor --type js)
 
 check-command = $(if $(shell which $2),,\
     $(error $1 command '$2' not found ('make help' for more info)))
@@ -174,9 +173,6 @@ publish: .publish.done
 	if [ "$(CSS_MINIFIER)" = cat ]; then                   \
 	    NONMINIFIED="CSS";                                 \
 	fi;                                                    \
-	if [ "$(JS_MINIFIER)" = cat ]; then                    \
-	    NONMINIFIED="$${NONMINIFIED+CSS and }Javascript";  \
-	fi;                                                    \
 	if [ -n "$$NONMINIFIED" ]; then                        \
 	    echo "ERROR: $$NONMINIFIED is not minified,"       \
 	        "won't publish site without minification" >&2; \
@@ -235,10 +231,7 @@ help:
 	echo "Options:";                                \
 	echo "  MINIFIER=<COMMAND>     (default: n/a)"; \
 	echo "  CSS_MINIFIER=<COMMAND> (default: '$(CSS_MINIFIER)')"; \
-	echo "  JS_MINIFIER=<COMMAND>  (default: '$(JS_MINIFIER)')";  \
-	echo;                                           \
-	echo 'To disable minifying altogether use `make MINIFIER=cat` (this';  \
-	echo 'sets both the CSS_MINIFIER and JS_MINIFIER commands to `cat`).'
+	echo
 
 # CGI (server-side script)
 $(publish_dir)/%.cgi: $(source_dir)/%.cgi
@@ -322,18 +315,10 @@ $(publish_dir)/%.jpg: $(source_dir)/%.jpg
 	cp "$<" "$@"
 
 # JS (client-side script, Javascript)
-# (Script appears to use MSIE hacks and gets mangled in minification.)
-$(publish_dir)/includes/sorttable.js: $(source_dir)/includes/sorttable.js
+$(publish_dir)/%.js: $(source_dir)/%.js
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Copying    '$<' -> '$@'";      \
 	cp "$<" "$@"
-
-# JS (client-side script, Javascript)
-$(publish_dir)/%.js: $(source_dir)/%.js
-	@$(call check-command,JS_MINIFIER,$(firstword $(JS_MINIFIER)))\
-	[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
-	echo "Minifying  '$<' -> '$@'";      \
-	$(JS_MINIFIER) <"$<" >"$@"
 
 # LY (typeset musical score, LilyPond)
 $(publish_dir)/%.ly: $(source_dir)/%.ly
