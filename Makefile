@@ -50,6 +50,7 @@ copied_targets = \
                 -name '*.map'  -or \
                 -name '*.midi' -or \
                 -name '*.min.js' -or \
+                -name '*.mjs'  -or \
                 -name '*.mp3'  -or \
                 -name '*.mp4'  -or \
                 -name '*.ntd'  -or \
@@ -316,6 +317,12 @@ $(publish_dir)/%.jpg: $(source_dir)/%.jpg
 
 # JS (client-side script, Javascript)
 $(publish_dir)/%.js: $(source_dir)/%.js
+	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
+	echo "Copying    '$<' -> '$@'";      \
+	cp "$<" "$@"
+
+# JS (client-side script, Javascript)
+$(publish_dir)/%.mjs: $(source_dir)/%.mjs
 	@[ -e "$(@D)" ] || mkdir -p "$(@D)"; \
 	echo "Copying    '$<' -> '$@'";      \
 	cp "$<" "$@"
