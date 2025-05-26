@@ -1,19 +1,6 @@
 #+STARTUP: overview hidestars -*- org -*-
-#+TAGS: PROOF(p) TRANSCRIBE IMPORTANT
+#+TAGS: PROOF(p) TRANSCRIBE IMPORTANT SECURITY
 
-* TODO Check (remove?) 'rel=canonical' links
-* TODO Clean out HTML5 boilerplate from top of base.scss
-* TODO Upgrade jQuery newest version
-* SECURITY: Canon search should not allow direct access to 'encrypted' docs
-  http://klingonska.org/canon/search/?file=1993-10-01-pk.txt
-* INBOX
-  These should be inserted in the hierachy below.
-** TODO Link to github issue tracker from webpage somehow
-** TODO Remove all 'is experimental' warnings for perl code
-*** TODO bin/check-dict: 'given', 'when' and 'smartmatch'
-** NWL seems to be establish abbrev for KLI's new word list
-** DONE Email Will Martin about the Praxis recording
-   CLOSED: [2013-12-13 Fri 14:00]
 * TODO FIXES
 ** DOING Email
 *** DOING Loopia mail settings
@@ -88,16 +75,41 @@
     CLOSED: [2010-09-03 Fri 22:19]
 *** DONE Redirect 2040.klingonska.org -> 2040.zrajm.org
     CLOSED: [2010-09-08 Wed 20:48]
-* Site design annoyances+fixes
+* [0/14] Site code
+** TODO Fix <h1> element CSS warning
+   klingonska.org CSS warning:
+   Found a sectioned h1 element with no specified font-size or margin
+   properties. More information:
+   https://developer.mozilla.org/docs/Web/HTML/Element/Heading_Elements#specify_font-size_and_margin-block_on_h1
+** TODO Stop using Makefile to build?
+   Instead of using a Makefile to build the web page, would it be possible to
+   skip the build step entirely? If required, add Git hooks to verify that
+   committed content is in sync/valid etc.
+
+   This would require the whole page to use nothing but client side (Javscript)
+   'decryption' (of some canon source materials) and possible Markdown to HTML
+   conversion, and removal of all types of minification. But this is maybe
+   acceptable today?
+** TODO Replace old http:// links with no-protocol links
+** TODO Restrict access to 'encrypted' docs in Okrandian Archive   :SECURITY:
+   Currently transcripts of TKD, KGT etc are directly available through the
+   Archive of Okrandian Canon. These should be store 'encrypted' on the server
+   and be decrypted by Javascript.
+   https://klingonska.org/canon/
+
+   Maybe using a URLs schema like this?
+   https://klingonska.org/canon/search/?file=1993-10-01-pk.txt
+** TODO Clean out HTML5 boilerplate from top of base.scss
+** TODO Check (remove?) 'rel=canonical' links
+   These shouldn't be needed since all alternative pages redirect to the
+   correct one? (`www.klingonska.org` redirects to `klingonska.org` etc)
+** TODO Upgrade jQuery newest version
+** TODO Use Elemental instead of jQuery? (it's smaller)
 ** TODO Search engine for Firefox
    In Firefox search engines can be added by clicking on the menu next to the
    search field. If you go to YouTube their search engine appears in the menu,
    i.e. "Add YouTube to search engines" (or something similar). With
    Klingonska one should be able to add the dictionary search in this way.
-** TODO Remove wide page margins on mobiles                       :IMPORTANT:
-   Use a CSS media query (?) to remove the wide page margins when displayed on
-   cell phones and other small screens. (But not on iPad?)
-** TODO Replace "Validate" in footer with link GitHub issue tracker
 ** TODO CSS: "display: inline" on floats avoids (avoid double margin in MSIE)
 ** TODO CSS: "overflow: visible" on buttons (avoids padding issues in MSIE)
 ** TODO CSS: Remove unnecessary styles for <input>
@@ -117,6 +129,17 @@
    backgrounds. E.g. see http://klingonska.org/songs/tahjaj_wo/ *_m.* and
    *_sml.* is also in use for thumbnails (or smallish pictures), these should
    all become mini/* as well.
+* [4/13] Site design
+** TODO Add dark mode
+   Add a CSS-only for dark mode (no Javascript) and a toggle switch in the top
+   right corner of every page.
+** TODO Mobile friendly margins                                   :IMPORTANT:
+   Use a CSS media query to remove the wide page margins when displayed on cell
+   phones and other small screens. (But not on iPad?)
+** TODO Redesign search field to use rounded corners
+** TODO Add link to Github issue tracker
+   To allow for user feedback. Put link at bottom of each page?
+   https://github.com/zrajm/klingonska.org/issues
 ** TODO Make pretty hyphenations(?)
    Justified right margin + hyphenation? That would be pretty. This page
    suggests how to do it: http://alistapart.com/article/the-look-that-says-book
@@ -248,7 +271,7 @@
    the image it contains.
 ** DONE Prettify tab row (make more Chrome-like)
    CLOSED: [2014-11-04 tis 17:39]
-* Site content
+* [3/8] Site content
 ** [42%] Improve Markdown documents (parsed by `markdown2html`)
    Run `touch bin/markdown2html; make`, you'll see a list of updated files.
 *** DONE Replace all em-dashes with en-dashes (except in transcripts)
@@ -2738,6 +2761,18 @@
 ***** DONE verify CSS
       CLOSED: [2010-08-09 Mon 02:17]
 *** `dict.zdb`
+**** TODO Replace source abbrev 'KLINW' -> 'NWL' (?)
+     Verify that this abbreviation is common among klingonists, and if so,
+     replace it.
+
+     Places to check:
+     + https://klingon.wiki/
+     + KLI Discord
+     + https://hol.kag.org/
+     + KLI site?
+     + Mailing list
+     + Facebook group?
+     + Moar places?
 **** TODO Difference between {qa'} ~replace~ and {tam} ~replace, exchange~
 **** TODO 'ETag' instead of 'SHA1' metadata field
      Hey! The Apache thingy on HCoop already implements ETag. Maybe remove SHA1
@@ -4404,76 +4439,12 @@
     E.g. "{#Quvatlh#}", or "{tlhIngan #badword# something}"
 *** TODO Support " between words in Klingon
 
-* Web server config
-** TODO Add HTTPS version of site
-   All web traffic should be encrypted! Klingonska should allow that!
-   Good(?) guide on how to obtain a free certificate:
-   https://konklone.com/post/switch-to-https-now-for-free
-*** TODO How to set up HTTPS on HCoop?
-*** DONE Where to get free certificates
-    CLOSED: [2014-12-03 ons 08:55]
-    Free one-year certificates can be obtained from startssl.com.
-** TODO Configure "MultiView" so users don't have to type file suffix
-   Apache's "MultiView" seems like a cool config option. It makes it so that
-   visitors can leave off the file suffix. (E.g. http://klingonska.org/links/
-   would load "links.html" if there isn't also a "/links/index.html".)
-
-   More on that topic
-   http://httpd.apache.org/docs/current/content-negotiation.html#multiviews
-** DONE git.klingonska.org should point to individual dirs
-   CLOSED: [2013-07-20 Sat 15:26]
-   Redirects to github should point to the directory of the source file on
-   github. (It should not point to the exact path, since quite often the .html
-   file actually correspond to a .txt file in the site/ directory, which would
-   then result in a 404. [Or would require a *lot* of specialized redirects!])
-
-   I.e. the following redirects should work
-
-       git.klingonska.org/
-           -> github.com/zrajm/klingonska.org/tree/master/site/
-
-       git.klingonska.org/canon/
-           -> github.com/zrajm/klingonska.org/tree/master/site/canon/
-
-       git.klingonska.org/ref/ovs.html
-           -> github.com/zrajm/klingonska.org/tree/master/site/ref/
-** DONE All files should have just *one* canonical URL
-   CLOSED: [2013-04-24 Wed 00:28]
-   "http://klingonska.org/" should never be referred to as
-   "http://klingonska.org/index.html". Any references to the index.html version
-   should be rewritten to the former.
-** DONE Move from HCoop's old "mire" to the new "navajos" server
-   CLOSED: [2013-01-29 Tue 19:15]
-   Hopefully this should eliminate all the speed issues that have been plaguing
-   the site recently, and page loads should now be significantly faster.
-
-   This was achieved with a minimum of downtime (possibly just a couple of
-   minutes), mostly thanks to me having experimented with the necessary
-   configuration on zrajm.org (my other website, also hosted there).
-* Communicate
-** Flyers / business cards
-   Something to give to people at lectures etc. and on other occasions AFK.
-   There should be a URL to the web page, and the KA logo (a red header at the
-   top, like on the web page?).
-
-   Maybe another (social) resource should be pointed out as well? Like a
-   Klingon group on Facebook (or is using Facebook too excluding)?
-** Reply to http://community.livejournal.com/klingon/
-   The Archive of Okrandian Canon of the Swedish Klingonska Akademien doesn't
-   seem to be updated anymore, since 2002. Or does it?
-** Send paqHommey to
-*** TODO Terrence Donnelly <terrence.donnelly@sbcglobal.net>
-*** DONE Louse Whitty {lu'lu'}
-    CLOSED: [2010-12-25 Sat 05:47]
-*** DONE {Qov}
-    CLOSED: [2010-12-25 Sat 05:47]
-*** DONE Marc Okrand
-    CLOSED: [2010-12-25 Sat 05:48]
-* Add all tlhingan-hol archive stuff to my Gmail
 * Lesson ideas
 ** singing {taHjaj wo'}
 ** correspond in SMS:es
 * FINISHED
+** DONE Email Will Martin about the Praxis recording
+   CLOSED: [2013-12-13 Fri 14:00]
 ** DONE Transfer test.zrajm.org -> klingonska.org
    CLOSED: [2010-09-03 Sat 00:44]
 *** DONE Figure out how to transfer control of klingonska.org Manufrog -> HCoop
@@ -4585,13 +4556,13 @@
 *** DONE CGI scripts working
     CLOSED: [2010-08-09 Mon 03:01]
 ** DONE Web redirects
+   CLOSED: [2010-09-08 Wed 20:34]
    http://klingonska.org/~USER -> external site
    LRC emailed, asking why is redirect had stopped working 2010-09-07,
    notifying me of the problem. I realized that there were settings in an old
    Apache .htaccess file I had forgot to take into consideration in the new
    HCoop setup. I copied the relevant rewriteRules from the Apache file to
    HCoop's domtool, and web redirects seem to be up and working again.
-   CLOSED: [2010-09-08 Wed 20:34]
 ** DONE Cleared away a bunch of Perl 'is experimental' warnings
    CLOSED: [2014-10-25 sat 15:57]
 * [eof]
