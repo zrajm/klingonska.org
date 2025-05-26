@@ -1067,6 +1067,16 @@
 **** DONE Include Lilypond score (and source)
      CLOSED: [2010-11-18 Thu 09:55]
 ** "Archive of Okrandian Canon"
+*** TODO Query improvement?
+    Using «{-Daq}» (or «tlh:-Daq») to search for {-Daq} used as suffix. While
+    «Daq» should only match the stem 'Daq'. This would be useful (both here
+    and for `canon/`) when searching for longer inflected words.
+
+    Following should also work:
+    + -xxx (search suffix xxx)
+    + xx- (search prefix xx)
+    + -xxx- (find stem used with both prefix and suffix)
+    + xxx (find both unaffixed stems AND stems with affixes) (?)
 *** TODO Remove 'jwplayer.swf' from Canon Archive?
 *** TODO Subarticle improvements
     I.e. the HTML pages linked to by the main article (e.g. the SkyBox
@@ -1896,6 +1906,22 @@
 **** TODO Add 'scroll up' arrow at bottom of page
      Because list of matches can be looong!
 **** TODO Display tips when there's zero matches (not just on initial pageload)
+**** TODO Search result should have list of links to each <mark>?
+     Also, allow keys to jump between them? For example use «n» and «N» (or «/»
+     and «?») to jump to next/previous match?
+
+     Isn't there a standard for hiliting things using a hash-fragment? Can we
+     use that?
+**** TODO Query improvement?
+     Using «{-Daq}» (or «tlh:-Daq») to search for {-Daq} used as suffix. While
+     «Daq» should only match the stem 'Daq'. This would be useful (both here
+     and for `canon/`) when searching for longer inflected words.
+
+     Following should also work:
+     + -xxx (search suffix xxx)
+     + xx- (search prefix xx)
+     + -xxx- (find stem used with both prefix and suffix)
+     + xxx (find both unaffixed stems AND stems with affixes) (?)
 **** DONE index.cgi should work for new style sources
      CLOSED: [2013-12-12 Thu 18:46]
 **** DONE Fix page tabs links
