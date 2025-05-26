@@ -1067,6 +1067,7 @@
 **** DONE Include Lilypond score (and source)
      CLOSED: [2010-11-18 Thu 09:55]
 ** "Archive of Okrandian Canon"
+*** TODO Remove 'jwplayer.swf' from Canon Archive?
 *** TODO Subarticle improvements
     I.e. the HTML pages linked to by the main article (e.g. the SkyBox
     articles).
