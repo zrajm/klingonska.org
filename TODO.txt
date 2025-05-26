@@ -1,45 +1,8 @@
 #+STARTUP: overview hidestars -*- org -*-
 #+TAGS: PROOF(p) TRANSCRIBE IMPORTANT SECURITY
+#+TODO: TODO | DONE WONT
 
 * TODO FIXES
-** DOING Email
-*** DOING Loopia mail settings
-*** DONE Test that mails sent to zrajm@zrajm.org are received
-    CLOSED: [2010-09-03 Fri 22:28]
-*** DONE Fix email settings for zrajm.org
-    CLOSED: [2010-09-03 Fri 22:18]
-    Removed all attempted (but non-working) Google Apps settings for zrajm.org.
-*** TODO Fix email settings for klingonska.org
-    Email should be handled by HCoop as well, not by Loopia. MX thingies in DNS
-    (on Loopia) should point to HCoop.
-*** TODO Copy HCoop email settings used on zrajm.org to klingonska.org
-*** TODO Configure Loopia to use this
-*** TODO Test that email to *@klingonska.org (still) works
-*** TODO Why can't I sent mail to zrajm@zrajm.org from gmail and have them wind up in my gmail inbox?
-    (This works excellently if I send mail to zrajm@klingonska.org.)
-*** TODO Remove mail redirects from zrajm.org when klingonska.org is working
-** DOING Mailing lists
-*** DOING Move mailing lists
-*** DOING test that aliases {qanaq,sekreterare}@klingonska.org works
-*** TODO Set up so that list.klingonska.org works for mailing lists
-*** TODO Migrate old klingonska mailinglist archives to HCoop
-    old: http://mail.thaning.se/pipermail/klingonska_klingonska.org/
-    new: https://lists.hcoop.net/pipermail/klingonska/
-
-    Requires mailinglist archive in mbox format.
-    http://wiki.hcoop.net/MemberManual/Email/MailingLists#MigratinganExistingList
-
-*** TODO Migrate old 2040 mailinglist archives to HCoop
-    old: http://mail.thaning.se/pipermail/2040_klingonska.org/
-    new: https://lists.hcoop.net/pipermail/2040/
-
-    Requires mailinglist archive in mbox format.
-    http://wiki.hcoop.net/MemberManual/Email/MailingLists#MigratinganExistingList
-*** TODO Delete mailing lists on manufrog
-    http://thaning.se:2082/frontend/rvskin/mail/lists.html?domain=klingonska.org
-
-*** TODO Update mailing list webpage to reflect current info
-    http://klingonska.org/lista.html
 ** DOING Webpage
 *** DOING Find/eliminate faulty latin1 hyphens
     173 chars into proper hyphens/minuses
@@ -53,28 +16,9 @@
 ***** TODO object-verb-subject
 **** TODO Should use minus
 ***** TODO YYYY-MM-DD
-**** DONE Remove all occurances of latin1 char 173 (shy/soft hyphen)
-     CLOSED: [2010-10-05 Tue 16:26]
-     Remove occurances of "&#173;" & "&shy;", too
 *** TODO Page "Updated" dates...
 **** TODO Automatic update of filedates listed in pages (using includes?)
 **** TODO Restore file dates for all unchanged files
-*** DONE Find/eliminate dead links
-**** DONE Eliminate dead links internally
-     CLOSED: [2010-10-07 Thu 07:37]
-**** DONE Figure out a way to fetch page and check links
-     CLOSED: [2010-10-07 Thu 07:37]
-**** DONE Add link check to Makefile
-     CLOSED: [2010-10-07 Thu 07:36]
-**** DONE Dead links on canon/
-     CLOSED: [2010-10-07 Thu 07:27]
-     Quite a lot of trascripts have changed names.
-*** DONE Change all occurances of www.klingonska.org into klingonska.org
-    CLOSED: [2010-10-04 Mon 16:51]
-*** DONE Redirect test.zrajm.org -> test.klingonska.org
-    CLOSED: [2010-09-03 Fri 22:19]
-*** DONE Redirect 2040.klingonska.org -> 2040.zrajm.org
-    CLOSED: [2010-09-08 Wed 20:48]
 * [0/14] Site code
 ** TODO Fix <h1> element CSS warning
    klingonska.org CSS warning:
@@ -129,7 +73,7 @@
    backgrounds. E.g. see http://klingonska.org/songs/tahjaj_wo/ *_m.* and
    *_sml.* is also in use for thumbnails (or smallish pictures), these should
    all become mini/* as well.
-* [4/13] Site design
+* [0/9] Site design
 ** TODO Add dark mode
    Add a CSS-only for dark mode (no Javascript) and a toggle switch in the top
    right corner of every page.
@@ -185,7 +129,7 @@
    Following the example set by GitHub (e.g. in commit messages in the 'Commit'
    view) -- why not also use 'text-decoration: underline;' as the hover style
    of links, but remove 'text-decoration: none;' for the usual style?
-** [22%] Optimize page sizes
+** [0%] Optimize page sizes
    https://developers.google.com/speed/docs/best-practices/payload
 
    On CSS optimization:
@@ -198,26 +142,15 @@
    thinking about selector optimization."
 *** TODO Enable compression (webserver setting)
 *** TODO Remove unused stylesheets
-*** DONE Minify Javascript
-*** DONE Minify shylesheets
-*** [44%] Make HTML consistent
-**** DONE Remove optional tags: </td>, </th>, </li>, </dt>, </dd>, </tr>
-     CLOSED: [2013-04-10 Wed 21:21]
+*** [0%] Make HTML consistent
 **** TODO Remove all occurances of tags ending in '/>'
 **** [0%] Cleanup table design
      Scout out the currently needed table design and homogenize them.
 ***** TODO Remove NBSP layout in tables
-**** DONE Remove old "Feedback Forms"
-     CLOSED: [2013-04-10 Wed 21:29]
-     grep 'Feedback Form' to find them
 **** TODO HTML comments should be removed when processing markdown
      Currently (as evidenced by http://klingonska.lal/klcp.html) HTML style
      comments <!-- ... --> messes up the output HTML code.
 **** TODO Remove unnecessary quotes around attributes (primarily classes)
-**** DONE In markdown replace "&ndash;" -> "--"
-     CLOSED: [2013-04-10 Wed 21:36]
-**** DONE "Archive of Okrandian Canon" should be italic where mentioned
-     CLOSED: [2016-09-11 Sun 02:18]
 **** TODO Dates in yyyy-mm-dd form should never be word wrapped
 **** TODO Make sure all HTML is lowercase
 *** TODO Minify HTML
@@ -227,66 +160,20 @@
     https://github.com/h5bp/html5-boilerplate/wiki/Using-PNG
 *** TODO Serve scaled images
 *** TODO Make use of consistent URLs
-** DONE Cleanup page logo outline
-   CLOSED: [2012-12-30 Sun 17:57]
-   Turns out text-stroke is not needed after all. Just more careful text-shadows.
-
-   Text shadow on the "Klingonska Akademien" text have gaps. CSS property
-   'text-stroke' is supported by Chrome, and should be used (with the current
-   'text-shadow' used as fallback).
-
-   How to do this:
-   http://css-tricks.com/adding-stroke-to-web-text/
-
-   Browser support table:
-   http://caniuse.com/text-stroke
-
-   'filter' property could apparently be used to get it flying in Internet
-   Explorer. This question on stackoverflow have a CSS for that (which uses the
-   html5boilerplate html classes):
-
-   http://stackoverflow.com/questions/4919076/outline-effect-to-text
-** DONE Allow -*- html -*- to be added to Markdown metadata
-   CLOSED: [2013-05-30 Thu 18:42]
-   So that Emacs understand immediately that the file should use html-mode.
-
-   bin/markdown2html now allows comments in metadata. Simply use ':' (without
-   preceding it with a field name -- continuation lines cannot be used after
-   comments).
-
-   With this in place, the first line of a markdown source file may contain the
-   line `: -*- html -*-` to signify that Emacs should highlight it as if it was
-   HTML.
-** DONE Use a 'natural box model' for all of page
-   CLOSED: [2014-11-02 Sun 21:41]
-   See Paul Irish's web page:
-   http://www.paulirish.com/2012/box-sizing-border-box-ftw/
-
-       /* apply a natural box layout model to all elements */
-       html { box-sizing: border-box; }
-       *, *:before, *:after { box-sizing: inherit; }
-
-   `includes/gallery.scss` have a couple of exceptions from this rule since the
-   <figure> element have its size set (in the HTML) according to the size of
-   the image it contains.
-** DONE Prettify tab row (make more Chrome-like)
-   CLOSED: [2014-11-04 tis 17:39]
-* [3/8] Site content
-** [42%] Improve Markdown documents (parsed by `markdown2html`)
+* [0/6] Site content
+** TODO Deprecate "Klingonska Akademiens epostlista"              :IMPORTANT:
+   https://klingonska.org/lista.html
+   This page shouldn't exist. Remove all links to it, and replace the page
+   itself with a short note about the mailing list being defunct.
+** [0%] Improve Markdown documents (parsed by `markdown2html`)
    Run `touch bin/markdown2html; make`, you'll see a list of updated files.
-*** DONE Replace all em-dashes with en-dashes (except in transcripts)
-    CLOSED: [2015-04-05 Sun 18:35]
-*** DONE Use <<..>> to indicate translation in all Markdown
-    CLOSED: [2015-04-05 Sun 00:42]
-*** DONE Remove unnecessary quotes around attributes in Markdown
-    CLOSED: [2015-04-08 Wed 10:33]
 *** TODO Replace all <i> and <em> with *...*
 *** TODO Replace <strong> with appropriate Markdown
 *** TODO Single minus (' - ') should be ' -- ' when surrounded by space
     Both with spaces and non-breaking spaces around it.
 *** TODO Replace HTML links with [...](...)
 ** TODO Do a surf-through check for weird/old shit
-** [10%] Systematic/site-wide changes
+** [0%] Systematic/site-wide changes
    I.e. changes that need to be applied to the web page as a whole.
 *** TODO Use source abbreviations reccomended by Klingonwiki
     http://www.klingonwiki.net/En/Abbreviations
@@ -381,7 +268,7 @@
      your visits?
 **** TODO Bitcoin donation button
      Use bitcoin donations to pay for contributions to the dictionary?
-*** [40%] Site redesign
+*** [0%] Site redesign
 **** TODO Add Open Graph tags for link previews (for Facebook etc.)
      More docs on the Open Graph protocol:
      https://developers.facebook.com/docs/opengraphprotocol/
@@ -390,65 +277,7 @@
      https://developers.facebook.com/tools/debug
 
      Have already added Open Graph to Glossary page, so see examples there.
-**** DONE CSS animation fading the logo glow in the page header
-     CLOSED: [2014-11-18 tis 23:22]
-     The page logo glows on hover. This should fade in, rather than just light
-     up.
-**** DONE Design new look (more modern looking, but still simple)
-     CLOSED: [2012-06-09 Sat 11:21]
-     This should fix:
-       * Limiting line 'max-width' for readability
-       * Niftier design with a splash of red color in the header
-       * Using updated web standards (HTML5, Javascript, microdata etc.)
-       * Use HTML5 Boilerplate
-       * Building (minified) CSSes from SCSS (Sassy Stylesheets)
-       * Using a HTML template = centralized header/footer
-       * Page source (whenever possible) in markdown
-**** [66%] Add new design to all pages (except KLO for now)
-***** DONE <script>...</script> blocks should not be parsed for markdown
-      CLOSED: [2012-06-26 Tue 02:45]
-      E.g. `/download.html`.
-***** DONE Replace template with template containing new design
-      CLOSED: [2012-06-26 Tue 13:28]
-***** [100%] fix 'bin/markdown2html' to work with new template
-      CLOSED: [2012-06-26 Tue 13:28]
-****** DONE <!--YEAR--> = copyright year
-       CLOSED: [2012-06-26 Tue 02:47]
-****** DONE <!--AUTHOR--> = document author
-       CLOSED: [2012-06-26 Tue 03:29]
-****** DONE <!--LOGOSRC--> = logo image source
-       CLOSED: [2012-06-26 Tue 04:27]
-****** DONE Page title line breaking javascript
-       CLOSED: [2012-06-26 Tue 04:56]
-****** DONE <!--MODERNIZR--> = loading of modernizr
-       CLOSED: [2012-06-26 Tue 06:19]
-****** DONE <!--META--> = description meta tag
-       CLOSED: [2012-06-26 Tue 06:36]
-       Metainfo tag 'desc' may now be used in Markdown to provide a meta
-       description tag in HTML, it will be inserted with the other (if any
-       meta tags)
-****** DONE Page logo/title link (to above doc in page hierarchy)
-       CLOSED: [2012-06-26 Tue 07:03]
-****** DONE Stylesheet for hover over page logo/title
-       CLOSED: [2012-06-26 Tue 07:52]
-****** DONE Added 'updated' metadata header to Markdown
-       CLOSED: [2012-06-26 Tue 09:01]
-       The 'updated' date of the HTML page will *only* be taken from this
-       header from now on. Should add some script that strongly encourages
-       user to update this field when changes are made to the content.
-***** DONE Rename propaganda/flygblad{1..3}.html -> flygblad{1..3}.html
-      CLOSED: [2012-06-29 Fri 11:41]
-***** DONE Make HCoop redirects from old to new flygblad{1..3}.html names
-      CLOSED: [2012-06-29 Fri 11:47]
-***** DONE Remove `akademien/stadgar.html` + `akademien/verksamhet.html`
-      CLOSED: [2012-06-29 Fri 10:43]
-      There are no links to these documents. It is no longer relevant in any way.
-***** DONE Remove `klo/old` documents and subdirs
-      CLOSED: [2012-06-29 Fri 11:13]
-      They're not really interesting/relevant, since all the interesting parts
-      are incorporated into the KLO pages. Old stuff is just an annoyance to
-      maintain. (And, even after removal, would still be available in the git
-      repo, if anyone *really* cared.)
+**** [0%] Add new design to all pages (except KLO for now)
 ***** [61%] Convert all pages to new HTML template
       Thereby centralizing the page header/footer etc. `bin/markdown2html` is
       the tool used for this, except for files in /dict/, which uses `parse`.
@@ -623,37 +452,6 @@
 ****** TODO `lektioner/text/artikel1kli.html`
 ****** TODO `lektioner/text/artikel1sve.html`
 ****** TODO `lektioner/text/dialog.html`
-***** DONE Rename files/dirs in `http://klingonska.org/akademien/`
-      CLOSED: [2012-07-02 Mon 03:49]
-****** DONE Rename `akademien/foton` -> `akademien/photos`
-       CLOSED: [2012-07-02 Mon 03:49]
-****** DONE Rename `akademien/foton/index2` -> `akademien/foton/2`
-       CLOSED: [2012-07-02 Mon 03:49]
-****** DONE Add all relevant HCoop redirect from old to new pages
-       CLOSED: [2012-07-02 Mon 03:49]
-***** DONE Make last breadcrumb link point to HTML page instead of text source
-      CLOSED: [2012-07-09 Mon 15:56]
-***** DONE Logotitle link should support 'up' metadata field
-      CLOSED: [2012-07-09 Mon 16:03]
-      `/ref/adv.html` and `/akademien/photos/2.html` need it to point to `..`,
-      instead of the usual `.`.
-***** DONE BUGFIX: 'modernizr' file contains jQuery script
-      CLOSED: [2012-07-09 Mon 16:35]
-      Some error in the build script causes Modernizr to be written with the
-      jQuery content. Very non-functional.
-***** [71%] Add Google Analytics
-****** TODO To HTML files in `klo/`
-****** TODO To HTML files in `qq/`
-****** DONE To CGI canon/show.cgi
-       CLOSED: [2014-11-23 Sun 14:50]
-****** DONE To CGI piqad/play.cgi
-       CLOSED: [2014-11-09 Sun 04:12]
-****** DONE To CGI canon/search/
-       CLOSED: [2014-11-08 Sat 17:07]
-****** DONE To HTML files in `dict/`
-       CLOSED: [2012-11-10 Sat 00:25]
-****** DONE dict/index.cgi
-       CLOSED: [2012-11-10 Sat 00:26]
 ***** TODO Breadcrumbs should handle {...} notation in title
       Example of this not looking so good:
 
@@ -680,10 +478,6 @@
       Same goes for http://klingonska.org/dict/, where the logo should link to
       http://klingonska.org/ on all pages, since there are links to all other
       pages on each page.
-***** DONE Center prefix table in pocket dictionary
-      CLOSED: [2012-11-10 Sat 00:42]
-      Prefix table in the reference table section is align left, but it should
-      be centered. Page: http://klingonska.lal/dict/tables.html
 ***** TODO <ul> lists should also use the little hexagonal bullets
       Page that uses it: http://klingonska.lal/akademien/qephom.html
       http://klingonska.org/punct.html
@@ -695,11 +489,6 @@
        Uses `dict.css`.
 ****** TODO `klo/*`
 ****** TODO `qq/*`
-****** DONE Update design of piqad/play.cgi
-       CLOSED: [2014-11-09 Sun 04:11]
-       http://klingonska.lal/piqad/play.cgi
-****** DONE Update design of canon/search/
-       CLOSED: [2014-11-08 Sat 17:07]
 ***** TODO "lang" attribute in <body> tag should be set by build script
       'template.html' + 'markdown2html' should insert 'lang' into <body> tag
 
@@ -780,36 +569,6 @@
 ***** TODO Javascript to alert user of updated parts
       The navigation menus should have signage indicating that a section is
       newly updated if changed within the last -- month? two weeks?
-**** DONE [100%] Move site repo to GitHub
-     CLOSED: [2012-06-20 Wed 15:31]
-     This will save about 50M of diskspace on HCoop (where space is expensive),
-     and future minifications and file compressions will work to save even more
-     space. (As long as the git repo resided on HCoop all changes would make
-     the site take up more diskspace, since the repo always grows with each
-     commit).
-***** DONE Update the old repo on GitHub
-      CLOSED: [2012-06-19 Tue 21:00]
-      Change git repo remote 'origin' so it points to GitHub instead of HCoop.
-      All future 'git push' will thus feed into GitHub.
-***** DONE Remove HCoop git repo
-      CLOSED: [2012-06-19 Tue 21:21]
-      And un-publish it from HCoops list of git repos.
-***** DONE Redirect git.klingonska.org to GitHub
-      CLOSED: [2012-06-19 Tue 22:13]
-      Redirect to this URL: https://github.com/zrajm/klingonska.org
-***** DONE Publish modified site on HCoop
-      CLOSED: [2012-06-20 Wed 13:59]
-      New make target 'make publish' for publishing the site to HCoop.
-***** DONE Add README.md for GitHub
-      CLOSED: [2012-06-20 Wed 15:30]
-**** DONE New motto/tagline for site
-     CLOSED: [2012-09-26 Wed 09:07]
-     Changed to: "– Your guide to the Klingon language."
-
-     Other suggestions:
-     * "*The* Klingon language reference site."?
-     * "The one-shop-stop for all you Klingon language needs."?
-     * "Klingon language reference tools since 1998."?
 *** TODO Merge <figure> <div and class=gallery>(?)
 *** TODO Redesign <div class=gallery>
     `/songs/tahjaj_wo/` has got it right, but all other occurances need to be
@@ -928,15 +687,6 @@
      It should be applied only to MSIE, other users should not have to load it.
      More info about an appropriate polyfill 'SVGWeb' can be found here:
      http://html5please.com/#polyfill
-**** DONE Replace all occurances of <table> navigation menu with <dl>
-     CLOSED: [2011-04-12 Tue 00:12]
-**** DONE Design CSS for site navigation
-     CLOSED: [2011-04-10 Sun 19:44]
-     Now uses definition list with class "navigation" instead of the old tables
-     for layout.
-**** DONE Implement CSS for main menu page
-     CLOSED: [2011-04-10 Sun 19:45]
-
 *** TODO <p> tag should default to align=justify
 *** TODO Same style for all source references
     E.g. "(published in <B>HolQeD</B> 2:2 pp.10&ndash;11)" (from
@@ -948,20 +698,6 @@
         <{HolQeD} 2:2>, pp.10--12
         <{HolQeD} 2:2> (pp.10--12)
         <{HolQeD} 2:2> (pages 10--12)
-*** DONE Make page logo non-underlined in Firefox
-    CLOSED: [2013-02-24 Sun 13:19]
-*** DONE Replace <strong lang="tlh"> with <b lang="tlh">
-    CLOSED: [2011-07-03 Sun 18:19]
-*** DONE Mark all Klingon with <b lang="tlh">...</b>
-    CLOSED: [2011-07-04 Mon 09:37]
-*** DONE Add navigation breadcrumbs to all pages
-    CLOSED: [2011-07-02 Sat 22:29]
-    Commit breadcrumb on all pages in a single commit.
-**** DONE List pages that need manual fixes
-     CLOSED: [2011-07-02 Sat 22:28]
-**** DONE Right hand pagestats should say "Updated" not "Changed"
-     CLOSED: [2011-06-14 Tue 10:34]
-     (and "Uppdaterad" not "Ändrad" in Swedish)
 ** TODO Pages to add
 *** TODO Klingon Grammar Addenda
     Terrence Donnelly have given permission for me to republish his, now
@@ -1035,14 +771,7 @@
 **** TODO Better placement of no-javascript warning
      Many webpages seem to have this at the very top of the page, and maybe
      unscrollable?
-**** [100%] Code fixes
-***** DONE Merge all scripts into one
-      CLOSED: [2013-02-24 Sun 16:23]
-***** DONE Sorttable should be invoked from javascript
-      CLOSED: [2012-11-29 Thu 19:24]
-***** DONE tag() should accept number as content arg
-      CLOSED: [2012-11-23 Fri 19:28]
-**** [60%] Add site design
+**** [0/2] Add site design
 ***** TODO Give page a proper name and put that in titles etc.
       "Glossary extractor" is maybe a bit boring? Flashcards something? Learner?
 ***** TODO Better interaction between page logo and page tabs
@@ -1051,46 +780,13 @@
       leftmost tab) that activates the page logo link. Only the page header
       should be clickable, not any overlapping (but transparent) parts of the
       SVG.
-***** DONE Move tab row inside page header
-      CLOSED: [2012-11-15 Thu 23:44]
-***** DONE Move language selector somewhere else
-      CLOSED: [2012-11-15 Thu 23:44]
-      Since it makes the tab row look non-centered.
-
-      But where should it go? Top right corner of page (above title & page logo)?
-      Top right corner of the white part of the page?
-***** DONE Rudimentary
-      CLOSED: [2012-11-14 Wed 20:22]
-      Now inserted in very hacky, non-pretty way. (An outside div with negative
-      margins to fix the red background thingy – which should do nothing to make
-      the subtle box-shadows display correctly.) It is probably broken on many
-      browsers.
-
-      It also causes side scrolling on page. :(
-**** [83%] Site integration
+**** [0/1] Site integration
 ***** TODO Move CSS files into 'includes' directory
-***** DONE Add link to it from main page
-      CLOSED: [2012-12-22 Sat 23:06]
-***** DONE Update modernizr path in HTML
-      CLOSED: [2012-11-16 Fri 04:16]
-***** DONE Move the separate Glossary Extractor TODO into main TODO
-      CLOSED: [2012-11-16 Fri 04:14]
-***** DONE Move to glossary/ part of web page
-      CLOSED: [2012-11-16 Fri 02:02]
-***** DONE Move separate git repo into main one
-      CLOSED: [2012-11-16 Fri 02:02]
-**** [37%] User interface
+**** [0/5] User interface
 ***** TODO Multiple select for "Glossary" + "Known Words" tables
       Should allow for selecting multiple entries with using shift. (I.e. click
       one entry, then shift-click another entry to select those two entries,
       and all entries between them.)
-***** DONE Browser 'back' / 'forward' should work
-      CLOSED: [2013-03-02 Sat 00:36]
-      I.e. when switching between tabs, the new page should be added to the
-      page history, and 'back' should bring one back to the previous tab.
-
-      Tabs are now hashlocation links, and the hashchange event is used to
-      detect and act when a tab is clicked.
 ***** TODO Remove all 'style' references from HTML
       And put them into stylesheets instead.
 ***** TODO Word counters should update on reload
@@ -1101,12 +797,7 @@
 ***** TODO Fix translations of stats in "Glossary" & "Known" pages
       There's text outputted by script here. Change that so that all but the
       numbers are in HTML.
-***** DONE Open Graph tags (used by Facebook link preview)
-      CLOSED: [2012-12-22 Sat 02:24]
-***** DONE Paragraphs should be separated by blank lines
-      CLOSED: [2012-11-16 Fri 03:19]
-      And not use indented first lines.
-**** [0%] Language processing
+**** [0/6] Language processing
 ***** TODO Make sure naked numerical elements work
       Like {vatlh}, all by itself.
 ***** TODO Should all handle words graphotactically correct not in dictionary
@@ -1127,18 +818,16 @@
       The result of this should also be presented in the '# different' counter,
       as only the base {boch} should be use to increment the counter (the other,
       longer, word in the dictionary should not increase the counter).
-**** [0%] Testing
-***** [0%] Test/check older browsers
-****** TODO Check that tabs look okay in older browsers
-       Removed the 'text-overflow: ellipsis;' to make tabs look okay in Chrome
-       25 (released February 2013).
-***** [0%] Test suite
-****** For language parsing
-******* paghlogh / Hochlogh / paghDIch / HochDIch
-******* wa'Hu' .. wa'maHHu' (for number not in dictionary)
-******* cha'leS .. HutleS (for number not in dictionary)
-******* test on lots of canon text
-*** [46%] "Input" tab
+**** [0/0] Testing
+***** TODO Check that tabs look okay in older browsers
+      Removed the 'text-overflow: ellipsis;' to make tabs look okay in Chrome
+      25 (released February 2013).
+***** [0/1] Add test suite for language parser
+****** paghlogh / Hochlogh / paghDIch / HochDIch
+****** wa'Hu' .. wa'maHHu' (for number not in dictionary)
+****** cha'leS .. HutleS (for number not in dictionary)
+****** test on lots of canon text
+*** [0/7] "Input" tab
 **** TODO Multiple input texts
      Save input texts (somehow), and allow switching between different texts.
      (So that one may keep old favorites.
@@ -1175,24 +864,7 @@
 **** TODO Placeholder text in text input field
      Should explains what to do (placeholder should be shown only if 'div' is
      empty, but even if selected.
-**** DONE Rename tab "Klingon Text" -> "Input"
-     CLOSED: [2012-11-25 Sun 10:25]
-**** DONE Save number of words in text to localStorage
-     CLOSED: [2012-11-29 Thu 19:26]
-**** DONE Form buttons disabled on startup until all data is loaded
-     CLOSED: [2012-11-25 Sun 10:25]
-**** DONE Analyze button should cause immediate save
-     CLOSED: [2012-11-29 Thu 19:26]
-     Instead of waiting the usual 3 seconds.
-**** DONE Dictionary loading should not unwrap text
-     CLOSED: [2012-11-14 Wed 08:43]
-     WONTFIX. Turns out it doesn't matter. I mostly wanted it for prettier output
-     in Upload/Download tab, but the linebreaks are displayed as literal "\n"
-     anyway, so it's really no benefit over the current situation (= veeerry long
-     lines).
-**** DONE Clear button should clear glossary as well
-     CLOSED: [2012-11-14 Wed 03:53]
-*** [55%] "Glossary" tab
+*** [0/4] "Glossary" tab
 **** TODO "NaN" displayed instead of number in totals                   :BUG:
      This occurs when there are zero words in the glossary.
      "0 unknown (of 0) - NaN% of text known"
@@ -1208,22 +880,8 @@
      press the button again do remove the newly crossed out words.
 **** TODO Add affixes to the glossary list                            :LATER:
      The affixes found should also be included in the glossary. Low priority.
-**** DONE Word frequency counts in glossary table
-     CLOSED: [2012-11-24 Sat 20:17]
-**** DONE makeGlossary() auto load/save
-     CLOSED: [2012-11-24 Sat 20:15]
-     There should be no need to explicitly invoke .load() or .save() methods.
-**** DONE makeGlossary() should not use dictionary entries internally
-     CLOSED: [2012-11-25 Sun 10:25]
-     But dictionary entry IDs.
-**** DONE makeGlossary() returned entries should include 'count:'
-     CLOSED: [2012-11-25 Sun 10:25]
-**** DONE Display some stats on analyzed text
-     CLOSED: [2012-11-16 Fri 02:07]
-     Text and glossary list should have a line where the number of words,
-     verbs, nouns etc are listed.
-*** [60%] "Practice" tab
-**** [0%] User config
+*** [9/15] "Practice" tab
+**** [0/6] User config
 ***** TODO Practice state should only reset when glossary changes
       And maybe not even that?
 ***** TODO Click on progress bar to change between percent and absolute numbers
@@ -1287,54 +945,14 @@
        |   2.escape   |
        +--------------+
 **** TODO Progress bar for "Known Words" and "Glossary"
-**** DONE Non-repeat stack
-     CLOSED: [2013-02-27 Wed 02:41]
-     Having a small intermediate stack used to make sure that when randomly
-     selecting words, the last X number of words are not repeated. (E.g. the
-     one word should not occur twice in a row, or be repeated very soon.)
 **** TODO Help function
      Put a 'Help' link in top right (?) corner. It should display a text
      explaining the functioning of the various buttons and algorithms in more
      detail.
-**** DONE Loop deck
-     CLOSED: [2013-02-27 Wed 02:41]
-     Cycle through the loop deck, instead of the entire glossary when
-     practicing new words. This way the user's memory have a better chance of
-     picking up the words.
-
-     Write comment for John Harness on [[https://www.facebook.com/groups/tlhInganHol/permalink/569525713063692/][this facebook thread]], when it is done.
-     Tell "Christoph Pichlmann <pichlmann-at-fredlarts.at>" when this is working.
-**** DONE Part-of-speech should *not* be abbreviated
-     CLOSED: [2013-03-04 Mon 01:41]
 **** TODO Some way to mark especially troublesome words
      Words that you have a recurring problem with, and might want to rehearse
      often.
-**** DONE Keys for selecting buttons
-     CLOSED: [2012-12-25 Tue 04:35]
-**** DONE Displaying of homonyms in answer
-     CLOSED: [2012-12-20 Thu 07:52]
-**** [100%] Bare minimum of usable flashcard functionality
-***** DONE Finish words
-      CLOSED: [2012-12-20 Thu 07:53]
-      Word points above tlhEnCount + enTlhCount should move question to Known
-      Words, and add new word.
-***** DONE Ask questions in English-Klingon direction
-      CLOSED: [2012-12-19 Wed 19:35]
-      Word points above tlhEnCount should ask question in English--Klingon
-      direction.
-**** DONE Focus default buttons for answers
-     CLOSED: [2012-12-18 Tue 18:51]
-     I.e. "Show Answer" and "Got It" should be focused, so that user only have
-     to press enter, in order to select those choices.
-**** DONE Flashcard typographical apostrophes
-     CLOSED: [2012-12-18 Tue 18:44]
-     Currently straight apostrophes are used. Change that.
-**** DONE Abbreviate PoS in answer
-     CLOSED: [2012-12-18 Tue 18:44]
-**** DONE Any flashcard functionality
-     CLOSED: [2012-11-29 Thu 19:27]
-     Just seeing something that works.
-*** [55%] "Known Words" tab
+*** [0/4] "Known Words" tab
 **** TODO Date column (when word became known)
      Each of the known words should have a date showing when it became known.
      There should also be an indicator of *how* the word was marked as known --
@@ -1355,31 +973,6 @@
      Known list can grow HUUUGE. So should add a thingy at top of list where one
      can write words, and only table rows with matching words should be shown.
      (Similar to Transmission's search/filter feature.)
-**** DONE Glossary table should show some stats
-     CLOSED: [2012-11-14 Wed 10:35]
-     Specifically: Number of unknown words, known words, and total.
-**** DONE Glossary & known words tables should have common class
-     CLOSED: [2012-11-14 Wed 08:35]
-     Which should in turn be used to control the common styling for these
-     tables.
-**** DONE Ditch TableArray and HookedArray altogether(?)
-     CLOSED: [2012-11-14 Wed 07:35]
-**** DONE Automatic coloration of stuff in “Known Words”.
-     CLOSED: [2012-11-14 Wed 07:35]
-**** DONE Crossing out of stuff in glossary list
-     CLOSED: [2012-11-14 Wed 07:35]
-     Crossed out stuff should automatically appear under “Known Words”, and
-     anything under “Known Words” should automatically be crossed out when
-     extracting a new glossary.
-*** [66%] "Load/Save" tab
-**** TODO Fix error messages in old browsers                            :BUG:
-     (e.g. on Lucia's ThinkPad -- Chrome 6)
-     The error message is repeted several times. "Unfortunately your browser
-     does not support blob urls (required for downloading). :’("
-**** DONE Swedish translation of instructions
-     CLOSED: [2012-11-16 Fri 04:13]
-**** DONE Text explaining the "Delete" feature
-     CLOSED: [2012-11-16 Fri 04:13]
 ** "Some Songs in Klingon"
 *** TODO Prettify song pages (HTML instead of text pages)
 *** TODO Add {Alphabet Song}
@@ -1539,27 +1132,6 @@
     raqSan bIQ-DawSon   Roxann Biggs-Dawson
 
     Words for Picard and Kirk.
-*** DONE Prettier HTML transcripts of trading cards
-    CLOSED: [2012-05-17 Thu 00:20]
-    Include all text from transcripts, breif description of that series of
-    SkyBox cards at top of each HTML page + link to Collector's site with a
-    list off *all* the cards in that series. Also change pubdate!
-
-    (See `1994-sbx-sp1.html` for a good example.)
-**** DONE 1993-sbx-99.html
-    CLOSED: [2012-05-15 Tue 17:17]
-**** DONE 1994-sbx-sp1.html
-    CLOSED: [2012-05-15 Tue 17:17]
-**** DONE 1995-sbx-s7.html
-    CLOSED: [2012-05-15 Tue 17:18]
-**** DONE 1995-sbx-s13.html
-     CLOSED: [2012-05-16 Wed 20:59]
-**** DONE 1996-sbx-s19.html
-     CLOSED: [2012-05-16 Wed 22:08]
-**** DONE 1996-sbx-s25.html
-     CLOSED: [2012-05-16 Wed 23:34]
-**** DONE 1997-sbx-s31.html
-     CLOSED: [2012-05-17 Thu 00:19]
 *** [0%] New header fields for transcripts
 **** TODO Reason for canonicity
      Should be explaining the source's tie to Marc Okrand. E.g. "Translation by
@@ -1647,41 +1219,6 @@
 
       [http://test.zrajm.org/canon/search/?file=1997-09-01c-news.txt&query=hello]
 ***** TODO Merge apply_corrections() and strip_comments() (they are identical?)
-***** DONE Search button should use magnifying glass image
-      CLOSED: [2014-11-23 sön 20:23]
-      Just like the dictionary search.
-***** DONE BUGFIX: "Transcript" on result page should work
-      CLOSED: [2014-11-23 Sun 18:29]
-***** DONE Use "q" instead of "query" in GET URL
-      CLOSED: [2014-11-23 Sun 17:17]
-***** DONE Use module for page header and footer
-      CLOSED: [2014-11-23 Sun 14:02]
-***** DONE Searched for "bird" - several matches were lacking file/article names
-      CLOSED: [2014-11-08 Sat 17:10]
-***** DONE When viewing a file there should be a 'Transcript' link
-      CLOSED: [2014-11-08 Sat 19:16]
-***** DONE When viewing a file the page logo should link back to the query
-      CLOSED: [2014-11-08 Sat 18:18]
-      I.e. from this page:
-
-          http://klingonska.lal/canon/search/?file=1996-qepa.txt&query=at
-
-      The page logo should link to (same URL, but without the 'file' part):
-
-          http://klingonska.lal/canon/search/?query=at
-***** DONE Add Chrome integration (some sort of open protocol?)
-      CLOSED: [2013-02-04 Mon 11:26]
-      Most sites search functions (e.g. YouTube, Wikipedia etc.) are
-      automatically detected by Chrome, so that you can auto-complete the site
-      name in the navigation bar, and then automatically do a search on that
-      site without first having to visit it.
-
-      I want that for klingonska!
-
-      How is this done? Is it some kind of microformat that makes Chrome detect
-      search engines?
-***** DONE Logo beside search form should link back to main article
-      CLOSED: [2011-07-03 Sun 20:09]
 *** TODO Improved transcript display script
     See also: NOTE/2010-09-01-original+corrected-display/index.html
 
@@ -1747,8 +1284,6 @@
 **** TODO Decipher event card {taH pagh taHbe'} from 2002
      What's the status of canonicity for this card?
      https://mail.google.com/mail/u/0/#search/decipher+in%3Atlhingan-hol+card/ed6f9609d33c137
-**** DONE Add words from qepHom'a' 2011
-     CLOSED: [2016-10-02 Sun 17:57]
 **** TODO Add {ghungHa'} from qepHom'a' 2011
      Date: Tue, 15 Nov 2011 14:02:40 +0100
      From: Lieven Litaer <lieven.litaer@web.de>
@@ -1868,97 +1403,6 @@
      Referenced in "{pIqaD}, And How to Read It".
 **** TODO HolQeD 2:2 pp.10-11 -- "Writing Klingon: The Easy Way" by Theron P. Elliot
      Referenced in "{pIqaD}, And How to Read It".
-**** [100%] Rename files
-     a) rename file
-     b) remove any links to old file in local site
-     c) remove links to old file in published site
-     d) web redirect from old to new name
-***** DONE pic/1996-sbx-s31a-big.jpg -> pic/1996-sbx-s31a.jpg
-      CLOSED: [2013-04-16 Tue 14:55]
-***** DONE pic/1996-sbx-s31b-big.jpg -> pic/1996-sbx-s31b.jpg
-      CLOSED: [2013-04-16 Tue 14:55]
-***** DONE pic/1996-sbx-s25a-big.jpg -> pic/1996-sbx-s25a.jpg
-      CLOSED: [2013-04-16 Tue 09:07]
-***** DONE pic/1996-sbx-s25b-big.jpg -> pic/1996-sbx-s25b.jpg
-      CLOSED: [2013-04-16 Tue 09:07]
-***** DONE pic/1996-sbx-s26a-big.jpg -> pic/1996-sbx-s26a.jpg
-      CLOSED: [2013-04-16 Tue 09:07]
-***** DONE pic/1996-sbx-s26b-big.jpg -> pic/1996-sbx-s26b.jpg
-      CLOSED: [2013-04-16 Tue 09:07]
-***** DONE pic/1996-sbx-s27a-big.jpg -> pic/1996-sbx-s27a.jpg
-      CLOSED: [2013-04-16 Tue 09:07]
-***** DONE pic/1996-sbx-s27b-big.jpg -> pic/1996-sbx-s27b.jpg
-      CLOSED: [2013-04-16 Tue 09:07]
-***** DONE 1996-sbx-s19.html -> sbx-s19.html
-      CLOSED: [2013-04-16 Tue 08:17]
-***** DONE pic/1996-sbx-s19a-big.jpg -> pic/1996-sbx-s19a.jpg
-      CLOSED: [2013-04-16 Tue 08:15]
-***** DONE pic/1996-sbx-s19b-big.jpg -> pic/1996-sbx-s19b.jpg
-      CLOSED: [2013-04-16 Tue 08:15]
-***** DONE pic/1996-sbx-s20a-big.jpg -> pic/1996-sbx-s20a.jpg
-      CLOSED: [2013-04-16 Tue 08:15]
-***** DONE pic/1996-sbx-s20b-big.jpg -> pic/1996-sbx-s20b.jpg
-      CLOSED: [2013-04-16 Tue 08:15]
-***** DONE pic/1996-sbx-s21a-big.jpg -> pic/1996-sbx-s21a.jpg
-      CLOSED: [2013-04-16 Tue 08:15]
-***** DONE pic/1996-sbx-s21b-big.jpg -> pic/1996-sbx-s21b.jpg
-      CLOSED: [2013-04-16 Tue 08:16]
-***** DONE 1995-02-01-sarek.txt -> 1994-01-01-sarek.txt
-      CLOSED: [2013-04-16 Tue 05:34]
-      This is the original publication date of the hardcover, according to
-      wikipedia.
-***** DONE 1997-decipher-ccg.txt -> 1997-12-31-decipher-ccg.txt
-      CLOSED: [2013-04-16 Tue 05:41]
-      This is the original publication date according to
-      http://www.wixiban.com/ccg/1e-fajo.htm.
-***** DONE pic/1995-sbx-s13a-big.jpg -> pic/1995-sbx-s13a.jpg
-      CLOSED: [2013-04-16 Tue 04:42]
-***** DONE pic/1995-sbx-s13b-big.jpg -> pic/1995-sbx-s13b.jpg
-      CLOSED: [2013-04-16 Tue 04:42]
-***** DONE pic/1995-sbx-s14a-big.jpg -> pic/1995-sbx-s14a.jpg
-      CLOSED: [2013-04-16 Tue 04:43]
-***** DONE pic/1995-sbx-s14b-big.jpg -> pic/1995-sbx-s14b.jpg
-      CLOSED: [2013-04-16 Tue 04:43]
-***** DONE pic/1995-sbx-s15a-big.jpg -> pic/1995-sbx-s15a.jpg
-      CLOSED: [2013-04-16 Tue 04:43]
-***** DONE pic/1995-sbx-s15b-big.jpg -> pic/1995-sbx-s15b.jpg
-      CLOSED: [2013-04-16 Tue 04:43]
-***** DONE pic/1995-sbx-s7a-big.jpg -> pic/1995-sbx-s7a.jpg
-      CLOSED: [2013-04-12 Fri 05:22]
-***** DONE pic/1995-sbx-s7b-big.jpg -> pic/1995-sbx-s7b.jpg
-      CLOSED: [2013-04-12 Fri 05:22]
-***** DONE pic/1995-sbx-s8a-big.jpg -> pic/1995-sbx-s8a.jpg
-      CLOSED: [2013-04-12 Fri 05:22]
-***** DONE pic/1995-sbx-s8b-big.jpg -> pic/1995-sbx-s8b.jpg
-      CLOSED: [2013-04-12 Fri 05:22]
-***** DONE pic/1995-sbx-s9a-big.jpg -> pic/1995-sbx-s9a.jpg
-      CLOSED: [2013-04-12 Fri 05:22]
-***** DONE pic/1995-sbx-s9b-big.jpg -> pic/1995-sbx-s9b.jpg
-      CLOSED: [2013-04-12 Fri 05:22]
-***** DONE pic/1994-sbx-sp1a-big.jpg -> pic/1994-sbx-sp1a.jpg
-      CLOSED: [2013-04-12 Fri 04:10]
-***** DONE pic/1994-sbx-sp1b-big.jpg -> pic/1994-sbx-sp1b.jpg
-      CLOSED: [2013-04-12 Fri 04:10]
-***** DONE pic/1994-sbx-sp2a-big.jpg -> pic/1994-sbx-sp2a.jpg
-      CLOSED: [2013-04-12 Fri 04:10]
-***** DONE pic/1994-sbx-sp2b-big.jpg -> pic/1994-sbx-sp2b.jpg
-      CLOSED: [2013-04-12 Fri 04:10]
-***** DONE pic/1994-sbx-sp3a-big.jpg -> pic/1994-sbx-sp3a.jpg
-      CLOSED: [2013-04-12 Fri 04:10]
-***** DONE pic/1994-sbx-sp3b-big.jpg -> pic/1994-sbx-sp3b.jpg
-      CLOSED: [2013-04-12 Fri 04:10]
-***** DONE pic/1993-sbx-01a-big.jpg -> pic/1993-sbx-01a.jpg
-      CLOSED: [2013-04-11 Thu 19:08]
-***** DONE pic/1993-sbx-01a-thmb.jpg -> pic/mini/1993-sbx-01a.jpg
-      CLOSED: [2013-04-11 Thu 19:08]
-***** DONE pic/1993-sbx-99a-big.jpg -> pic/1993-sbx-99a.jpg
-      CLOSED: [2013-04-11 Thu 19:09]
-***** DONE pic/1993-sbx-99a-thmb.jpg -> pic/mini/1993-sbx-99a.jpg
-      CLOSED: [2013-04-11 Thu 19:09]
-***** DONE pic/1993-sbx-99b-big.jpg -> pic/1993-sbx-99b.jpg
-      CLOSED: [2013-04-11 Thu 19:09]
-***** DONE pic/1993-sbx-99b-thmb.jpg -> pic/mini/1993-sbx-99b.jpg
-      CLOSED: [2013-04-11 Thu 19:09]
 **** DONE File canon/2011-09-30-eurotalk.txt is empty; add transcript
      CLOSED: [2013-11-30 Sat 01:45]
 **** DONE File canon/2011-11-17-monopoly.txt is empty; add transcript
@@ -2221,14 +1665,6 @@
 ***** TODO File headers of major canon works should not be obfuscated
       TKD, CK, PK, TKW and KGT.
 ** "The {pIqaD} Playground"
-*** [100%] Move piqad/play.cgi -> writing/play/index.cgi
-**** DONE Make all links on page point to new place
-     CLOSED: [2014-11-18 tis 20:22]
-**** DONE HCoop redirect from old to new
-     CLOSED: [2014-11-18 tis 22:00]
-*** DONE Should parse {nenghep} as {nen-ghep} (not {neng-hep})
-    CLOSED: [2011-08-30 Tue 11:57]
-    Felix Malmenbeck reported this 2011-08-29.
 *** TODO Should support Unicode version of {pIqaD}
 ** "{pIqaD}, And How to Read It"
 *** [0%] Move into writing/alphabet (?)
@@ -2237,7 +1673,7 @@
 *** [0%] All sources should link to "Archive of Okrandian Canon"
 **** TODO Both in References section
 **** TODO And sources in "foldable" source refereces
-*** [16%] Pronunciation
+*** [0%] Pronunciation
 **** TODO Are IPA transcriptions of vowels really correct?
      Esp. {ow} and {uw} -- should there be some indication of the 'glide'? (is
      that what it is called?)
@@ -2247,22 +1683,12 @@
 **** TODO German/Swedish examples for pronunciation of {w}
 **** TODO Add Lieven's comments about glottal stop for Germans
      https://mail.google.com/mail/u/0/#inbox/1396cd8ab40d0c3a
-**** DONE Vowel chart is wonky
-     CLOSED: [2012-09-06 Thu 22:31]
-     The grid is displaced with regards to the letters on top of the grid.
-*** [50%] Dialects
+*** [0%] Dialects
 **** TODO Add Sakrej dialect
      * Different possessives and toasts
 **** TODO Add No'hvadut dialect
      * Different toasts
 **** TODO Young people's Klingon KGT e.g. {qUleghpu'}
-**** DONE Add more sources for Tak'ev dialect
-     CLOSED: [2012-09-06 Thu 21:10]
-**** DONE Add more sources for Krotmag dialect
-     CLOSED: [2012-09-06 Thu 21:10]
-**** DONE Add more sources for Morskan dialect
-     CLOSED: [2012-09-06 Thu 21:37]
-
 *** TODO Clean up "The Klingon Alphabet (pIqaD)" section.
 *** TODO Better section on punctuation
 *** TODO Insert "Some pictures of pIqaD" into this document?
@@ -2290,16 +1716,6 @@
 *** TODO Spell check
 *** TODO Make all {HolQeD} references links to /canon/
 *** TODO Add list of references(?)
-*** DONE Remove American phonetic descriptions in favour of IPA terms
-    CLOSED: [2012-09-05 Wed 04:07]
-*** DONE Links to wikipages for the various sounds?
-    CLOSED: [2012-09-05 Wed 04:07]
-*** DONE Make sure all HTML tags are terminated
-    CLOSED: [2011-05-16 Mon 02:55]
-*** DONE Make sure relevant HTML tags end with '/>'
-    CLOSED: [2011-05-16 Mon 02:55]
-*** DONE Lowercase all html
-    CLOSED: [2011-05-15 Sun 00:17]
 *** DONE Mark Klingon with lang="tlh"
     CLOSED: [2011-07-04 Mon 03:44]
 *** DONE Replace "-" with &ndash; & &mdash;
@@ -2638,7 +2054,7 @@
 ***** TODO typographical apostrophes, quotes and dashes
 ***** TODO add negated search expressions ("-PHRASE")
 ***** TODO move inline <style> CSS into separate file
-***** [20%] add "Advanced search"
+***** [25%] add "Advanced search"
       The "Advanced search" feature is an interactive help feature which do not
       extend the search, but rather illustrates the more advanced features of
       the normal search.
@@ -2729,10 +2145,9 @@
       the text, while those not followed by text should have it inserted
       immediately after the heading.
 
-      "usr/bin/parse" needs a new transform stage in which "sg_head2" &
-      subsequent "sg_paragraph"s should be lifted into "sg_div2" context and
-      "sg_head3" + subsequent "sg_paragraph"s should be lifted into "sg_div3"
-      context.
+      "bin/parse" needs a new transform stage in which "sg_head2" & subsequent
+      "sg_paragraph"s should be lifted into "sg_div2" context and "sg_head3" +
+      subsequent "sg_paragraph"s should be lifted into "sg_div3" context.
 
       Then the composer should be rewritten accordingly.
 ***** TODO apostrophes in english text should be typographic
@@ -3174,7 +2589,7 @@
       This [[https://mail.google.com/mail/u/0/?shva=1#search/ghungHa'/133a3d43a898e2e4][GMail thread]] (where above was posted) also contain interesting
       comments originally from MO on various words, their transitivity and
       usage (e.g. {ghungHa'}).
-***** [0%] Add words from qepHom.de's list
+***** [100%] Add words from qepHom.de's list
       http://www.qephom.de/e/newwords.html
 ***** TODO Add {qatlhDa'} <water pipe>
       pun: The pun is carried on in {qatlhDa'} ("water pipe"): "Viaduct? Why a
@@ -4098,101 +3513,6 @@
     lektioner/ref/=prefix_small.html
     lektioner/ref/=prefix_big.html
 *** TODO List should use Apaches built-in filelist thingy
-** DONE Removed "Links to Other Pages About the Klingon Language"
-   CLOSED: [2015-03-08 Sun 20:11]
-   This page is in such a sorry state of disrepair that it's now time to
-   completely remove it.
-
-   According to Google Analytics it is ranked 360 (which several popular
-   dictionary searches having a much higher rank), and it's multiple broken
-   links probably have an adverse effect on Klingonska Akademien's Google
-   ranking.
-*** Update "Links to Other Pages About the Klingon Language"
-    This page need a major update, and removal of non-working links.
-
-    Should remove all stuff that does not work, and maybe focus more on being a
-    resource for beginners.
-
-    Felix seems to have a bunch of good resources available in this email
-    thread:
-
-    > One good resource is Lawrence M. Schoen's podcast DaHjaj Hol:
-    > http://www.lawrencemschoen.com/podcasts/dahjaj-hol-110101/
-    > (I believe there's a total of 366 episodes)
-    >
-    > Quvar has 15 or so episodes (in English and German) as "the Klingon
-    > Teacher from Germany":
-    > http://www.facebook.com/Klingonteacher
-    > http://www.youtube.com/watch?v=auqS6FR_RDE
-    >
-    > Klingon Postal Course: http://www.kli.org/study/postcourse.html
-    > (first 6 lessons)
-    >
-    >
-    > Websites:
-    >
-    > maHvatlh's www.klingonska.org (dictionary, grammar guides, songs, canon
-    > archive...)
-    >
-    > qurgh's http://hol.kag.org (dictionary, parser, grammar guides, media,
-    > flash cards...)
-    >
-    > Quvar's www.qepHom.de (mainly info about qepHom, but also some general
-    > info on Klingon, as well as a new words list that build's on the KLI's)
-    > ter'eS' http://teresh.tdonnelly.org/ (Klingon grammar addenda, songs, movies...)
-    >
-    > I have a flash card set for KLCP1 on Memrise:
-    > http://www.memrise.com/set/10016624/klcp1/
-    >
-    >
-    > On Twitter, there's @kwotd (Klingon word of the day).
-    > @tlhInganHol is a bot that tweets Klingon phrases, but some of them aren't
-    > parsed properly, so it's worth taking with a pinch of salt.
-    > I also run @pIqaD, where I try to tweet in pIqaD at least once per day
-    > (though I tend to fail).
-    >
-    > There's also the tlhIngan Hol jatlhwI'pu' Facebook group:
-    > http://www.facebook.com/groups/tlhInganHol/
-    > (not sure if it's invite only or if you can apply to join; if it's invite
-    > only, PM one of the members so that they can add you)
-    >
-    > I have a YouTube series which I intended to be weekly, but I only ever
-    > manage to keep that up for a few weeks at a time :P
-    > http://www.youtube.com/playlist?list=PL0D8C08BAA890637D
-    >
-    > Also, I'd love to see the Klingon practice thread on the xkcd forums come
-    > back to life: http://forums.xkcd.com/viewtopic.php?f=25&t=26688
-    >
-    >
-    > I also have the channel @klingonska on Twitter which tweets Klingon
-    > phrases and info in Swedish.
-    > I'm working on a course plan and would like to start teaching a small
-    > group in Stockholm, but we'll see how that works out.
-*** Javascript to display only a single tag/category
-*** Weed out links to non-existing pages
-*** Links to add
-**** TODO Klingon Unicode Table "Klingon: U+F8D0 - U+F8FF"
-      http://www.evertype.com/standards/csur/klingon.html
-      (include comma and period glyphs)
-**** TODO "wordiQ - Klingon Language" article
-      http://www.wordiq.com/definition/Klingon_language
-      (A pretty good article on the klingon language)
-**** TODO "Wikipedia: Klingon writing systems"
-      http://en.wikipedia.org/wiki/Klingon_writing_systems
-** DONE [100%] Home page replaces
-   CLOSED: [2011-07-03 Sun 04:29]
-*** DONE "Quick References to..."
-    CLOSED: [2011-07-03 Sun 04:11]
-    -> "Quick References"
-*** DONE "The Klingon Way &ndash; A Warrior's Guide"
-    CLOSED: [2011-07-03 Sun 04:12]
-    -> "The Klingon Way in {pIqaD}".
-*** DONE "Lektionsmaterialet till studiecirkeln"
-    CLOSED: [2011-07-03 Sun 04:29]
-    -> "Lektionsmaterial till studiecirkeln"
-
-** DONE Remove KA bylaws
-   CLOSED: [2010-10-07 Thu 07:27]
 * Build/check tools
 ** `bin/check-html-nesting`
 *** TODO Should be able to cope with tags that does not require end tags.
@@ -4271,7 +3591,7 @@
      CLOSED: [2012-11-16 Fri 01:35]
      When first invoked `make auto` should do an ordinary make to get up to
      speed, then it should do the inotifywait thingy it already does.
-** HTML preview tool for pocket dictionary (usr/bin/dict2paqhom-html)
+** HTML preview tool for pocket dictionary (bin/dict2paqhom-html)
 *** TODO Take input on STDIN instead of file
 *** TODO Join source references between sub-entries in pocket dict(?)
         {HaH} /v/ 1 soak, drench [KGT] 2 marinade [KGT]
@@ -4288,10 +3608,7 @@
 
     since all subdefinitions have the same source
 *** TODO Write Email/News YYYY-MM-DD dates as YY-MM-DD instead(?)
-*** DONE klingon phrases in {...} in gram: should have ' at beg of word replaced with right-hand quote
-    CLOSED: [2012-01-20 Fri 13:01]
-    (see example under {Soj})
-** [71%] `bin/check-dict`: Dictionary check tool
+** [0%] `bin/check-dict`: Dictionary check tool
 *** TODO Check that [...] occurring in 'cite:' fields are *not* source refs
     (except for last [...] one, which *must* be)
 *** TODO Check for multiple spaces
@@ -4315,7 +3632,7 @@
     any too long lines, anyway. We don't need to check this twice.
 *** TODO Add check for unknown database sections
 *** TODO Check that 'data: derived form' is parsable from simple parts
-*** [0%] FUTURE Advanced features
+*** [0/6] FUTURE Advanced features
 **** TODO Spellchecking of 'en' fields
 **** TODO Spellchecking of 'sv' fields
 **** TODO When separate sources given for each translation, check 'def:' field
@@ -4333,78 +3650,6 @@
        * standard >> slang/regional
        * by pos: adv >> v >> pro >> ques >> conj >> num >> n >> name
 **** TODO Check that irregular plurals links between singular <-> plural form
-*** DONE Ignore [...] inside parentheses in 'desc:'               :IMPORTANT:
-    CLOSED: [2014-12-14 Sun 13:50]
-    Square brackets inside parentheses should *not* be checked for sources.
-    E.g. {qang} [.2]. -- Marked as 'IMPORTANT' since this currently results in
-    a warning every time the dictionary is checked.
-*** DONE Re-enable checking of 'tag: YEAR'
-    CLOSED: [2013-12-13 Fri 16:44]
-    Check is based on date of oldest source reference in def: and ref: fields.
-*** DONE Check other (other than 'com:') fields for nesting of brackets
-    CLOSED: [2013-07-21 Sun 13:30]
-*** DONE Should check nesting of brackets in text fields
-    CLOSED: [2013-07-20 Sat 16:33]
-    {tlhuH} have a missing "]" in its `com:` field.
-*** DONE Check word wrapping of all fields
-    CLOSED: [2013-05-05 Sun 20:08]
-*** DONE Add documentation
-    CLOSED: [2012-11-09 Fri 14:10]
-*** DONE Should check existance of new (start|end)-of-data markers
-    CLOSED: [2012-11-05 Mon 06:21]
-    Required because of "[[Add delimiters for the database part of the file]]".
-*** DONE Check validity of SHA1 metadata header
-    CLOSED: [2012-11-05 Mon 06:21]
-*** DONE Comments (non-section text) should not exeed 79 char line width
-    CLOSED: [2012-03-25 Sun 03:49]
-*** DONE Check that sentences in ~...~ in 'desc:' start with lower case letter
-    CLOSED: [2012-01-30 Mon 22:56]
-    Except for the word "I", which is of course allowed to be a capital
-    letter...
-*** DONE Check that lines aren't above 79 characters in length
-    CLOSED: [2012-01-30 Mon 23:28]
-*** DONE 'tlh:' fields with multiple words should have corresponding data-field
-    E.g. "data: phrase" and "data: derived form"
-*** DONE Check that if there is a [...] in 'sv' there is also one in 'en'
-    CLOSED: [2012-01-31 Tue 00:17]
-*** DONE Check sort order for each section separately
-    CLOSED: [2012-01-31 Tue 01:31]
-*** DONE Email/News should require "by", "to" and a subject in parentheses.
-    CLOSED: [2012-01-31 Tue 02:23]
-*** DONE Improve checks of Klingon graphotactic spelling
-    CLOSED: [2012-01-31 Tue 01:46]
-    Disallow combinations that are explicitly forbidden: "No words in Klingon
-    have {ow} or {uw}. If they did, they would be indistinguishable from words
-    ending in {o} and {u}, respectively." [TKD p.16]
-*** DONE Check-dict should complain at doubled blank lines
-    CLOSED: [2012-01-30 Mon 18:06]
-    Also checks for missing blank lines before entries and before after
-    separators (that look like this "=== TEXT ==".
-*** DONE Text fields should not be allowed to end in [,:; ]
-    CLOSED: [2012-01-30 Mon 19:03]
-*** DONE Allow article name in parethesis after HolQeD reference
-    CLOSED: [2012-01-28 Sat 02:16]
-    HQXX:XX p.XX ("XXXXXXXXXXXX")
-*** DONE Check for duplicated field names within entries
-    CLOSED: [2012-01-28 Sat 01:15]
-*** DONE Check if indentation is space instead of tab
-    CLOSED: [2012-01-28 Sat 00:59]
-*** DONE Check that [.#] is always used when pos is same
-    CLOSED: [2012-01-27 Fri 00:34]
-    (and [#] when pos differs)
-*** DONE Check ref/def format
-    CLOSED: [2011-08-31 Wed]
-*** DONE Check that all required fields exist in each post
-    Required fields: tlh, pos, sv, en, def
-    CLOSED: [2011-09-01 Thu]
-*** DONE Add 'file' to required fields
-    CLOSED: [2011-09-15 Thu 15:48]
-*** DONE Check that <...> and «...» marks occur in 'sv' and 'en' fields
-    CLOSED: [2011-09-15 Thu 15:49]
-*** DONE Check that all files mentioned in field 'file' exist
-    CLOSED: [2011-09-15 Thu 15:49]
-*** DONE Check Klingon spelling
-    CLOSED: [2011-09-15 Thu 15:50]
 ** HTML check tool
 *** TODO Rename 'linkcheck' -> 'check-html'
     To be consistent with 'check-dict'.
@@ -4432,21 +3677,18 @@
 *** TODO Commit hook should check that commit message is well formed
     According to these recommendations:
     http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
-** TODO usr/bin/klingon_spell_check
+** TODO bin/klingon-spellcheck
 *** TODO Support for syllable {-oy}
     Do I have this somewhere?
 *** TODO Allow use for #...# words excepted from normal rules
     E.g. "{#Quvatlh#}", or "{tlhIngan #badword# something}"
 *** TODO Support " between words in Klingon
-
 * Lesson ideas
 ** singing {taHjaj wo'}
 ** correspond in SMS:es
-* FINISHED
-** DONE Email Will Martin about the Praxis recording
-   CLOSED: [2013-12-13 Fri 14:00]
+* OLD/FINISHED
 ** DONE Transfer test.zrajm.org -> klingonska.org
-   CLOSED: [2010-09-03 Sat 00:44]
+   CLOSED: [2010-09-03 Fri 00:44]
 *** DONE Figure out how to transfer control of klingonska.org Manufrog -> HCoop
     CLOSED: [2010-09-03 Fri 19:45]
     zrajm.org has loopia.se as registrar
@@ -4547,7 +3789,6 @@
      emailAlias "qanaq"       "mackampackam@gmail.com";
      emailAlias "sekreterare" "mackampackam@gmail.com";
      emailAlias "troi"        "daniel_troi@hotmail.com";
-
 *** DONE Fetched current klingonska.org & installed that
     (= CGI's are not working)
     CLOSED: [2009-04-04 Sat]
@@ -4555,6 +3796,10 @@
     CLOSED: [2009-04-04 Sat]
 *** DONE CGI scripts working
     CLOSED: [2010-08-09 Mon 03:01]
+** DONE Redirect test.zrajm.org -> test.klingonska.org
+   CLOSED: [2010-09-03 Fri 22:19]
+** DONE Remove KA bylaws
+   CLOSED: [2010-10-07 Thu 07:27]
 ** DONE Web redirects
    CLOSED: [2010-09-08 Wed 20:34]
    http://klingonska.org/~USER -> external site
@@ -4563,6 +3808,778 @@
    Apache .htaccess file I had forgot to take into consideration in the new
    HCoop setup. I copied the relevant rewriteRules from the Apache file to
    HCoop's domtool, and web redirects seem to be up and working again.
+** DONE Redirect 2040.klingonska.org -> 2040.zrajm.org
+   CLOSED: [2010-09-08 Wed 20:48]
+** DONE Change all occurances of www.klingonska.org into klingonska.org
+   CLOSED: [2010-10-04 Mon 16:51]
+** DONE Remove all occurances of latin1 char 173 (shy/soft hyphen)
+   CLOSED: [2010-10-05 Tue 16:26]
+   Remove occurances of "&#173;" & "&shy;", too
+** [4/4] Find/eliminate dead links
+   CLOSED: [2010-10-07 Thu 07:36]
+*** DONE Eliminate dead links internally
+    CLOSED: [2010-10-07 Thu 07:37]
+*** DONE Figure out a way to fetch page and check links
+    CLOSED: [2010-10-07 Thu 07:37]
+*** DONE Add link check to Makefile
+    CLOSED: [2010-10-07 Thu 07:36]
+*** DONE Dead links on canon/
+    CLOSED: [2010-10-07 Thu 07:27]
+    Quite a lot of trascripts have changed names.
+** DONE Design CSS for site navigation
+   CLOSED: [2011-04-10 Sun 19:44]
+   Now uses definition list with class "navigation" instead of the old tables
+   for layout.
+** DONE Implement CSS for main menu page
+   CLOSED: [2011-04-10 Sun 19:45]
+** DONE Replace all occurances of <table> navigation menu with <dl>
+   CLOSED: [2011-04-12 Tue 00:12]
+** DONE pIqaD, And How to Read It: Lowercase all html
+   CLOSED: [2011-05-15 Sun 00:17]
+** DONE pIqaD, And How to Read It: Make sure all HTML tags are terminated
+   CLOSED: [2011-05-16 Mon 02:55]
+** DONE pIqaD, And How to Read It: Make sure relevant HTML tags end with '/>'
+   CLOSED: [2011-05-16 Mon 02:55]
+** DONE Add navigation breadcrumbs to all pages
+   CLOSED: [2011-07-02 Sat 22:29]
+   Commit breadcrumb on all pages in a single commit.
+*** DONE List pages that need manual fixes
+    CLOSED: [2011-07-02 Sat 22:28]
+*** DONE Right hand pagestats should say "Updated" not "Changed"
+    CLOSED: [2011-06-14 Tue 10:34]
+    (and "Uppdaterad" not "Ändrad" in Swedish)
+** DONE [100%] Home page replaces
+   CLOSED: [2011-07-03 Sun 04:29]
+*** DONE "Quick References to..."
+    CLOSED: [2011-07-03 Sun 04:11]
+    -> "Quick References"
+*** DONE "The Klingon Way – A Warrior's Guide"
+    CLOSED: [2011-07-03 Sun 04:12]
+    -> "The Klingon Way in {pIqaD}".
+*** DONE "Lektionsmaterialet till studiecirkeln"
+    CLOSED: [2011-07-03 Sun 04:29]
+    -> "Lektionsmaterial till studiecirkeln"
+** DONE Replace <strong lang="tlh"> with <b lang="tlh">
+   CLOSED: [2011-07-03 Sun 18:19]
+** DONE canon/search: Logo beside search form should link back to main article
+   CLOSED: [2011-07-03 Sun 20:09]
+** DONE Mark all Klingon with <b lang="tlh">...</b>
+   CLOSED: [2011-07-04 Mon 09:37]
+** DONE Should parse {nenghep} as {nen-ghep} (not {neng-hep})
+   CLOSED: [2011-08-30 Tue 11:57]
+   Felix Malmenbeck reported this 2011-08-29.
+** [6/6] check-dict: Improvements
+   CLOSED: [2011-09-15 Thu 15:50]
+*** DONE Check ref/def format
+    CLOSED: [2011-08-31 Wed]
+*** DONE Check that all required fields exist in each post
+    CLOSED: [2011-09-01 Thu]
+    Required fields: tlh, pos, sv, en, def
+*** DONE Add 'file' to required fields
+    CLOSED: [2011-09-15 Thu 15:48]
+*** DONE Check that <...> and «...» marks occur in 'sv' and 'en' fields
+    CLOSED: [2011-09-15 Thu 15:49]
+*** DONE Check that all files mentioned in field 'file' exist
+    CLOSED: [2011-09-15 Thu 15:49]
+*** DONE Check Klingon spelling
+    CLOSED: [2011-09-15 Thu 15:50]
+** DONE bin/dict2paqhom-html: Prettier Klingon phrases in {...} in `gram:`
+   CLOSED: [2012-01-20 Fri 13:01]
+   Klingon phrases in {...} in gram: should have ' at beg of word replaced with
+   right-hand quote
+
+   (see example under {Soj})
+** [13/13] check-dict: Improvements
+    CLOSED: [2012-01-31 Tue 02:23]
+*** DONE Check that [.#] is always used when pos is same
+    CLOSED: [2012-01-27 Fri 00:34]
+    (and [#] when pos differs)
+*** DONE Check if indentation is space instead of tab
+    CLOSED: [2012-01-28 Sat 00:59]
+*** DONE Check for duplicated field names within entries
+    CLOSED: [2012-01-28 Sat 01:15]
+*** DONE Allow article name in parethesis after HolQeD reference
+    CLOSED: [2012-01-28 Sat 02:16]
+    HQXX:XX p.XX ("XXXXXXXXXXXX")
+*** DONE Check-dict should complain at doubled blank lines
+    CLOSED: [2012-01-30 Mon 18:06]
+    Also checks for missing blank lines before entries and before after
+    separators (that look like this "=== TEXT ==".
+*** DONE Text fields should not be allowed to end in [,:; ]
+    CLOSED: [2012-01-30 Mon 19:03]
+*** DONE Check that sentences in ~...~ in 'desc:' start with lower case letter
+    CLOSED: [2012-01-30 Mon 22:56]
+    Except for the word "I", which is of course allowed to be a capital
+    letter...
+*** DONE Check that lines aren't above 79 characters in length
+    CLOSED: [2012-01-30 Mon 23:28]
+*** DONE 'tlh:' fields with multiple words should have corresponding data-field
+    E.g. "data: phrase" and "data: derived form"
+*** DONE Check that if there is a [...] in 'sv' there is also one in 'en'
+    CLOSED: [2012-01-31 Tue 00:17]
+*** DONE Check sort order for each section separately
+    CLOSED: [2012-01-31 Tue 01:31]
+*** DONE Improve checks of Klingon graphotactic spelling
+    CLOSED: [2012-01-31 Tue 01:46]
+    Disallow combinations that are explicitly forbidden: "No words in Klingon
+    have {ow} or {uw}. If they did, they would be indistinguishable from words
+    ending in {o} and {u}, respectively." [TKD p.16]
+*** DONE Email/News should require "by", "to" and a subject in parentheses.
+    CLOSED: [2012-01-31 Tue 02:23]
+** DONE check-dict: Comments (non-section) line length may not exeed 79 char
+   CLOSED: [2012-03-25 Sun 03:49]
+** [7/7] Prettier HTML transcripts of trading cards
+   CLOSED: [2012-05-17 Thu 00:20]
+   Include all text from transcripts, breif description of that series of
+   SkyBox cards at top of each HTML page + link to Collector's site with a
+   list off *all* the cards in that series. Also change pubdate!
+
+   (See `1994-sbx-sp1.html` for a good example.)
+*** DONE 1993-sbx-99.html
+    CLOSED: [2012-05-15 Tue 17:17]
+*** DONE 1994-sbx-sp1.html
+    CLOSED: [2012-05-15 Tue 17:17]
+*** DONE 1995-sbx-s7.html
+    CLOSED: [2012-05-15 Tue 17:18]
+*** DONE 1995-sbx-s13.html
+    CLOSED: [2012-05-16 Wed 20:59]
+*** DONE 1996-sbx-s19.html
+    CLOSED: [2012-05-16 Wed 22:08]
+*** DONE 1996-sbx-s25.html
+    CLOSED: [2012-05-16 Wed 23:34]
+*** DONE 1997-sbx-s31.html
+    CLOSED: [2012-05-17 Thu 00:19]
+** DONE Site redesign: Design new look (more modern looking, but simple)
+   CLOSED: [2012-06-09 Sat 11:21]
+   This should fix:
+     * Limiting line 'max-width' for readability
+     * Niftier design with a splash of red color in the header
+     * Using updated web standards (HTML5, Javascript, microdata etc.)
+     * Use HTML5 Boilerplate
+     * Building (minified) CSSes from SCSS (Sassy Stylesheets)
+     * Using a HTML template = centralized header/footer
+     * Page source (whenever possible) in markdown
+** DONE [100%] Move site repo to GitHub
+   CLOSED: [2012-06-20 Wed 15:31]
+   This will save about 50M of diskspace on HCoop (where space is expensive),
+   and future minifications and file compressions will work to save even more
+   space. (As long as the git repo resided on HCoop all changes would make the
+   site take up more diskspace, since the repo always grows with each commit).
+*** DONE Update the old repo on GitHub
+    CLOSED: [2012-06-19 Tue 21:00]
+    Change git repo remote 'origin' so it points to GitHub instead of HCoop.
+    All future 'git push' will thus feed into GitHub.
+*** DONE Remove HCoop git repo
+    CLOSED: [2012-06-19 Tue 21:21]
+    And un-publish it from HCoops list of git repos.
+*** DONE Redirect git.klingonska.org to GitHub
+    CLOSED: [2012-06-19 Tue 22:13]
+    Redirect to this URL: https://github.com/zrajm/klingonska.org
+*** DONE Publish modified site on HCoop
+    CLOSED: [2012-06-20 Wed 13:59]
+    New make target 'make publish' for publishing the site to HCoop.
+*** DONE Add README.md for GitHub
+    CLOSED: [2012-06-20 Wed 15:30]
+** DONE <script>...</script> blocks should not be parsed for markdown
+   CLOSED: [2012-06-26 Tue 02:45]
+   E.g. `/download.html`.
+** DONE Replace template with template containing new design
+   CLOSED: [2012-06-26 Tue 13:28]
+** [100%] fix 'bin/markdown2html' to work with new template
+   CLOSED: [2012-06-26 Tue 13:28]
+*** DONE <!--YEAR--> = copyright year
+    CLOSED: [2012-06-26 Tue 02:47]
+*** DONE <!--AUTHOR--> = document author
+    CLOSED: [2012-06-26 Tue 03:29]
+*** DONE <!--LOGOSRC--> = logo image source
+    CLOSED: [2012-06-26 Tue 04:27]
+*** DONE Page title line breaking javascript
+    CLOSED: [2012-06-26 Tue 04:56]
+*** DONE <!--MODERNIZR--> = loading of modernizr
+    CLOSED: [2012-06-26 Tue 06:19]
+*** DONE <!--META--> = description meta tag
+    CLOSED: [2012-06-26 Tue 06:36]
+    Metainfo tag 'desc' may now be used in Markdown to provide a meta
+    description tag in HTML, it will be inserted with the other (if any meta
+    tags)
+*** DONE Page logo/title link (to above doc in page hierarchy)
+    CLOSED: [2012-06-26 Tue 07:03]
+*** DONE Stylesheet for hover over page logo/title
+    CLOSED: [2012-06-26 Tue 07:52]
+*** DONE Added 'updated' metadata header to Markdown
+    CLOSED: [2012-06-26 Tue 09:01]
+    The 'updated' date of the HTML page will *only* be taken from this header
+    from now on. Should add some script that strongly encourages user to update
+    this field when changes are made to the content.
+** DONE Remove `akademien/stadgar.html` + `akademien/verksamhet.html`
+   CLOSED: [2012-06-29 Fri 10:43]
+   There are no links to these documents. It is no longer relevant in any way.
+** DONE Remove `klo/old` documents and subdirs
+   CLOSED: [2012-06-29 Fri 11:13]
+   They're not really interesting/relevant, since all the interesting parts are
+   incorporated into the KLO pages. Old stuff is just an annoyance to maintain.
+   (And, even after removal, would still be available in the git repo, if
+   anyone *really* cared.)
+** DONE Rename propaganda/flygblad{1..3}.html -> flygblad{1..3}.html
+   CLOSED: [2012-06-29 Fri 11:41]
+** DONE Make HCoop redirects from old to new flygblad{1..3}.html names
+   CLOSED: [2012-06-29 Fri 11:47]
+** DONE Minify shylesheets when building site
+   CLOSED: [2012-07-02 Mon 03:22]
+** DONE Minify Javascript when building site
+   CLOSED: [2012-07-02 Mon 03:22]
+** DONE Rename files/dirs in `http://klingonska.org/akademien/`
+   CLOSED: [2012-07-02 Mon 03:49]
+*** DONE Rename `akademien/foton` -> `akademien/photos`
+    CLOSED: [2012-07-02 Mon 03:49]
+*** DONE Rename `akademien/foton/index2` -> `akademien/foton/2`
+    CLOSED: [2012-07-02 Mon 03:49]
+*** DONE Add all relevant HCoop redirect from old to new pages
+    CLOSED: [2012-07-02 Mon 03:49]
+** DONE Make last breadcrumb link point to HTML page instead of text source
+   CLOSED: [2012-07-09 Mon 15:56]
+** DONE Logotitle link should support 'up' metadata field
+   CLOSED: [2012-07-09 Mon 16:03]
+   `/ref/adv.html` and `/akademien/photos/2.html` need it to point to `..`,
+   instead of the usual `.`.
+** DONE BUGFIX: 'modernizr' file contains jQuery script
+   CLOSED: [2012-07-09 Mon 16:35]
+   Some error in the build script causes Modernizr to be written with the
+   jQuery content. Very non-functional.
+** DONE Remove American phonetic descriptions in favour of IPA terms
+   CLOSED: [2012-09-05 Wed 04:07]
+** DONE Links to wikipages for the various sounds?
+   CLOSED: [2012-09-05 Wed 04:07]
+** DONE pIqaD, And How to Read It: Add more sources for Tak'ev dialect
+   CLOSED: [2012-09-06 Thu 21:10]
+** DONE pIqaD, And How to Read It: Add more sources for Krotmag dialect
+   CLOSED: [2012-09-06 Thu 21:10]
+** DONE pIqaD, And How to Read It: Add more sources for Morskan dialect
+   CLOSED: [2012-09-06 Thu 21:37]
+** DONE pIqaD, And How to Read It: Fix wonky Vowel chart
+   CLOSED: [2012-09-06 Thu 22:31]
+   The grid is displaced with regards to the letters on top of the grid.
+** DONE New motto/tagline for site
+   CLOSED: [2012-09-26 Wed 09:07]
+   Changed to: "– Your guide to the Klingon language."
+
+   Other suggestions:
+   * "*The* Klingon language reference site."?
+   * "The one-shop-stop for all you Klingon language needs."?
+   * "Klingon language reference tools since 1998."?
+** DONE check-dict: Check validity of SHA1 metadata header
+   CLOSED: [2012-11-05 Mon 06:21]
+** DONE check-dict: Should check existance of new (start|end)-of-data markers
+   CLOSED: [2012-11-05 Mon 06:21]
+   Required because of "[[Add delimiters for the database part of the file]]".
+** DONE check-dict: Add documentation
+   CLOSED: [2012-11-09 Fri 14:10]
+** WONT [5/7] Add Google Analytics
+   Rendered moot by the removal of Google Analytics [2022-07-09 Sat 11:17].
+*** TODO To HTML files in `klo/`
+*** TODO To HTML files in `qq/`
+*** DONE To HTML files in `dict/`
+    CLOSED: [2012-11-10 Sat 00:25]
+*** DONE dict/index.cgi
+    CLOSED: [2012-11-10 Sat 00:26]
+*** DONE To CGI canon/show.cgi
+    CLOSED: [2014-11-23 Sun 14:50]
+*** DONE To CGI piqad/play.cgi
+    CLOSED: [2014-11-09 Sun 04:12]
+*** DONE To CGI canon/search/
+    CLOSED: [2014-11-08 Sat 17:07]
+** DONE Center prefix table in pocket dictionary
+   CLOSED: [2012-11-10 Sat 00:42]
+   Prefix table in the reference table section is align left, but it should be
+   centered. Page: http://klingonska.lal/dict/tables.html
+** DONE glossary/ "input": Clear button should clear glossary as well
+   CLOSED: [2012-11-14 Wed 03:53]
+** DONE glossary/: Ditch TableArray and HookedArray altogether(?)
+   CLOSED: [2012-11-14 Wed 07:35]
+** DONE glossary/: Automatic coloration of stuff in “Known Words”.
+   CLOSED: [2012-11-14 Wed 07:35]
+** DONE glossary/: Crossing out of stuff in glossary list
+   CLOSED: [2012-11-14 Wed 07:35]
+   Crossed out stuff should automatically appear under “Known Words”, and
+   anything under “Known Words” should automatically be crossed out when
+   extracting a new glossary.
+** DONE glossary/: Glossary & known words tables should have common class
+   CLOSED: [2012-11-14 Wed 08:35]
+   Which should in turn be used to control the common styling for these tables.
+** WONT glossary/ "input": Dictionary loading should not unwrap text
+   CLOSED: [2012-11-14 Wed 08:43]
+   WONTFIX. Turns out it doesn't matter. I mostly wanted it for prettier output
+   in Upload/Download tab, but the linebreaks are displayed as literal "\n"
+   anyway, so it's really no benefit over the current situation (= veeerry long
+   lines).
+** DONE glossary/: Glossary table should show some stats
+   CLOSED: [2012-11-14 Wed 10:35]
+   Specifically: Number of unknown words, known words, and total.
+** DONE glossary/: Rudimentary
+   CLOSED: [2012-11-14 Wed 20:22]
+   Now inserted in very hacky, non-pretty way. (An outside div with negative
+   margins to fix the red background thingy – which should do nothing to make
+   the subtle box-shadows display correctly.) It is probably broken on many
+   browsers.
+
+   It also causes side scrolling on page. :(
+** DONE glossary/: Move tab row inside page header
+   CLOSED: [2012-11-15 Thu 23:44]
+** DONE glossary/: Move language selector somewhere else
+   CLOSED: [2012-11-15 Thu 23:44]
+   Since it makes the tab row look non-centered.
+
+   But where should it go? Top right corner of page (above title & page logo)?
+   Top right corner of the white part of the page?
+** DONE glossary/: Move to glossary/ part of web page
+   CLOSED: [2012-11-16 Fri 02:02]
+** DONE glossary/: Move separate git repo into main one
+   CLOSED: [2012-11-16 Fri 02:02]
+** DONE glossary/: Paragraphs should be separated by blank lines
+   CLOSED: [2012-11-16 Fri 03:19]
+   And not use indented first lines.
+** DONE glossary/: Move the separate Glossary Extractor TODO into main TODO
+   CLOSED: [2012-11-16 Fri 04:14]
+** DONE glossary/: Update modernizr path in HTML
+   CLOSED: [2012-11-16 Fri 04:16]
+** DONE glossary/: Abbreviate PoS in answer
+   CLOSED: [2012-12-18 Tue 18:44]
+** DONE glossary/: Flashcard typographical apostrophes
+   CLOSED: [2012-12-18 Tue 18:44]
+   Currently straight apostrophes are used. Change that.
+** DONE glossary/: Focus default buttons for answers
+   CLOSED: [2012-12-18 Tue 18:51]
+   I.e. "Show Answer" and "Got It" should be focused, so that user only have to
+   press enter, in order to select those choices.
+** DONE glossary/: Displaying of homonyms in answer
+   CLOSED: [2012-12-20 Thu 07:52]
+** [100%] glossary/: Bare minimum of usable flashcard functionality
+   CLOSED: [2012-12-20 Thu 07:53]
+*** DONE Finish words
+    CLOSED: [2012-12-20 Thu 07:53]
+    Word points above tlhEnCount + enTlhCount should move question to Known
+    Words, and add new word.
+*** DONE Ask questions in English-Klingon direction
+    CLOSED: [2012-12-19 Wed 19:35]
+    Word points above tlhEnCount should ask question in English--Klingon
+    direction.
+** DONE glossary/: Add Open Graph tags (used by Facebook link preview)
+   CLOSED: [2012-12-22 Sat 02:24]
+** DONE glossary/: Add link to it from main page
+   CLOSED: [2012-12-22 Sat 23:06]
+** DONE glossary/: Keys for selecting buttons
+   CLOSED: [2012-12-25 Tue 04:35]
+** DONE glossary/: Non-repeat stack
+   CLOSED: [2013-02-27 Wed 02:41]
+   Having a small intermediate stack used to make sure that when randomly
+   selecting words, the last X number of words are not repeated. (E.g. the one
+   word should not occur twice in a row, or be repeated very soon.)
+** DONE glossary/: Loop deck
+   CLOSED: [2013-02-27 Wed 02:41]
+   Cycle through the loop deck, instead of the entire glossary when practicing
+   new words. This way the user's memory have a better chance of picking up the
+   words.
+
+   Write comment for John Harness on [[https://www.facebook.com/groups/tlhInganHol/permalink/569525713063692/][this facebook thread]], when it is done.
+   Tell "Christoph Pichlmann <pichlmann-at-fredlarts.at>" when this is working.
+** DONE Cleanup page logo outline
+   CLOSED: [2012-12-30 Sun 17:57]
+   Turns out text-stroke is not needed after all. Just more careful
+   text-shadows.
+
+   Text shadow on the "Klingonska Akademien" text have gaps. CSS property
+   'text-stroke' is supported by Chrome, and should be used (with the current
+   'text-shadow' used as fallback).
+
+   How to do this:
+   http://css-tricks.com/adding-stroke-to-web-text/
+
+   Browser support table:
+   http://caniuse.com/text-stroke
+
+   'filter' property could apparently be used to get it flying in Internet
+   Explorer. This question on stackoverflow have a CSS for that (which uses the
+   html5boilerplate html classes):
+
+   http://stackoverflow.com/questions/4919076/outline-effect-to-text
+** DONE canon/search: Add Chrome integration (some sort of open protocol?)
+   CLOSED: [2013-02-04 Mon 11:26]
+   Most sites search functions (e.g. YouTube, Wikipedia etc.) are automatically
+   detected by Chrome, so that you can auto-complete the site name in the
+   navigation bar, and then automatically do a search on that site without
+   first having to visit it.
+
+   I want that for klingonska!
+
+   How is this done? Is it some kind of microformat that makes Chrome detect
+   search engines?
+** DONE Make page logo non-underlined in Firefox
+   CLOSED: [2013-02-24 Sun 13:19]
+** DONE glossary/: Merge all scripts into one
+   CLOSED: [2013-02-24 Sun 16:23]
+** DONE glossary/: Display some stats on analyzed text
+   CLOSED: [2012-11-16 Fri 02:07]
+   Text and glossary list should have a line where the number of words,
+   verbs, nouns etc are listed.
+** DONE glossary/: Swedish translation of instructions
+   CLOSED: [2012-11-16 Fri 04:13]
+** DONE glossary/: Text explaining the "Delete" feature
+   CLOSED: [2012-11-16 Fri 04:13]
+** DONE glossary/: tag() should accept number as content arg
+   CLOSED: [2012-11-23 Fri 19:28]
+** DONE glossary/: makeGlossary() auto load/save
+   CLOSED: [2012-11-24 Sat 20:15]
+   There should be no need to explicitly invoke .load() or .save() methods.
+** DONE glossary/: Word frequency counts in glossary table
+   CLOSED: [2012-11-24 Sat 20:17]
+** DONE glossary/: makeGlossary() should not use dictionary entries internally
+   CLOSED: [2012-11-25 Sun 10:25]
+   But dictionary entry IDs.
+** DONE glossary/: makeGlossary() returned entries should include 'count:'
+   CLOSED: [2012-11-25 Sun 10:25]
+** DONE glossary/: Rename tab "Klingon Text" -> "Input"
+   CLOSED: [2012-11-25 Sun 10:25]
+** DONE glossary/ "input": Form buttons disabled on startup until data is loaded
+   CLOSED: [2012-11-25 Sun 10:25]
+** DONE glossary/: Sorttable should be invoked from javascript
+   CLOSED: [2012-11-29 Thu 19:24]
+** DONE glossary/ "input": Save number of words in text to localStorage
+   CLOSED: [2012-11-29 Thu 19:26]
+** DONE glossary/ "input": Analyze button should cause immediate save
+   CLOSED: [2012-11-29 Thu 19:26]
+   Instead of waiting theal 3 seconds.
+** DONE glossary/: Any flashcard functionality
+   CLOSED: [2012-11-29 Thu 19:27]
+   Just seeing something that works.
+** DONE glossary/: Browser 'back' / 'forward' should work
+   CLOSED: [2013-03-02 Sat 00:36]
+   I.e. when switching between tabs, the new page should be added to the page
+   history, and 'back' should bring one back to the previous tab.
+
+   Tabs are now hashlocation links, and the hashchange event is used to detect
+   and act when a tab is clicked.
+** DONE glossary/: Part-of-speech should *not* be abbreviated
+   CLOSED: [2013-03-04 Mon 01:41]
+** DONE Remove optional HTML tags: </td>, </th>, </li>, </dt>, </dd>, </tr>
+   CLOSED: [2013-04-10 Wed 21:21]
+** DONE Remove old "Feedback Forms"
+   CLOSED: [2013-04-10 Wed 21:29]
+   grep 'Feedback Form' to find them
+** DONE In markdown replace "&ndash;" -> "--"
+   CLOSED: [2013-04-10 Wed 21:36]
+** [100%] canon/: Rename files
+   CLOSED: [2013-04-16 Tue 14:55]
+   a) rename file
+   b) remove any links to old file in local site
+   c) remove links to old file in published site
+   d) web redirect from old to new name
+*** DONE pic/1993-sbx-01a-big.jpg -> pic/1993-sbx-01a.jpg
+    CLOSED: [2013-04-11 Thu 19:08]
+*** DONE pic/1993-sbx-01a-thmb.jpg -> pic/mini/1993-sbx-01a.jpg
+    CLOSED: [2013-04-11 Thu 19:08]
+*** DONE pic/1993-sbx-99a-big.jpg -> pic/1993-sbx-99a.jpg
+    CLOSED: [2013-04-11 Thu 19:09]
+*** DONE pic/1993-sbx-99a-thmb.jpg -> pic/mini/1993-sbx-99a.jpg
+    CLOSED: [2013-04-11 Thu 19:09]
+*** DONE pic/1993-sbx-99b-big.jpg -> pic/1993-sbx-99b.jpg
+    CLOSED: [2013-04-11 Thu 19:09]
+*** DONE pic/1993-sbx-99b-thmb.jpg -> pic/mini/1993-sbx-99b.jpg
+    CLOSED: [2013-04-11 Thu 19:09]
+*** DONE pic/1994-sbx-sp1a-big.jpg -> pic/1994-sbx-sp1a.jpg
+    CLOSED: [2013-04-12 Fri 04:10]
+*** DONE pic/1994-sbx-sp1b-big.jpg -> pic/1994-sbx-sp1b.jpg
+    CLOSED: [2013-04-12 Fri 04:10]
+*** DONE pic/1994-sbx-sp2a-big.jpg -> pic/1994-sbx-sp2a.jpg
+    CLOSED: [2013-04-12 Fri 04:10]
+*** DONE pic/1994-sbx-sp2b-big.jpg -> pic/1994-sbx-sp2b.jpg
+    CLOSED: [2013-04-12 Fri 04:10]
+*** DONE pic/1994-sbx-sp3a-big.jpg -> pic/1994-sbx-sp3a.jpg
+    CLOSED: [2013-04-12 Fri 04:10]
+*** DONE pic/1994-sbx-sp3b-big.jpg -> pic/1994-sbx-sp3b.jpg
+    CLOSED: [2013-04-12 Fri 04:10]
+*** DONE pic/1995-sbx-s7a-big.jpg -> pic/1995-sbx-s7a.jpg
+    CLOSED: [2013-04-12 Fri 05:22]
+*** DONE pic/1995-sbx-s7b-big.jpg -> pic/1995-sbx-s7b.jpg
+    CLOSED: [2013-04-12 Fri 05:22]
+*** DONE pic/1995-sbx-s8a-big.jpg -> pic/1995-sbx-s8a.jpg
+    CLOSED: [2013-04-12 Fri 05:22]
+*** DONE pic/1995-sbx-s8b-big.jpg -> pic/1995-sbx-s8b.jpg
+    CLOSED: [2013-04-12 Fri 05:22]
+*** DONE pic/1995-sbx-s9a-big.jpg -> pic/1995-sbx-s9a.jpg
+    CLOSED: [2013-04-12 Fri 05:22]
+*** DONE pic/1995-sbx-s9b-big.jpg -> pic/1995-sbx-s9b.jpg
+    CLOSED: [2013-04-12 Fri 05:22]
+*** DONE pic/1995-sbx-s13a-big.jpg -> pic/1995-sbx-s13a.jpg
+    CLOSED: [2013-04-16 Tue 04:42]
+*** DONE pic/1995-sbx-s13b-big.jpg -> pic/1995-sbx-s13b.jpg
+    CLOSED: [2013-04-16 Tue 04:42]
+*** DONE pic/1995-sbx-s14a-big.jpg -> pic/1995-sbx-s14a.jpg
+    CLOSED: [2013-04-16 Tue 04:43]
+*** DONE pic/1995-sbx-s14b-big.jpg -> pic/1995-sbx-s14b.jpg
+    CLOSED: [2013-04-16 Tue 04:43]
+*** DONE pic/1995-sbx-s15a-big.jpg -> pic/1995-sbx-s15a.jpg
+    CLOSED: [2013-04-16 Tue 04:43]
+*** DONE pic/1995-sbx-s15b-big.jpg -> pic/1995-sbx-s15b.jpg
+    CLOSED: [2013-04-16 Tue 04:43]
+*** DONE 1995-02-01-sarek.txt -> 1994-01-01-sarek.txt
+    CLOSED: [2013-04-16 Tue 05:34]
+    This is the original publication date of the hardcover, according to
+    wikipedia.
+*** DONE 1997-decipher-ccg.txt -> 1997-12-31-decipher-ccg.txt
+    CLOSED: [2013-04-16 Tue 05:41]
+    This is the original publication date according to
+    http://www.wixiban.com/ccg/1e-fajo.htm.
+*** DONE pic/1996-sbx-s19a-big.jpg -> pic/1996-sbx-s19a.jpg
+    CLOSED: [2013-04-16 Tue 08:15]
+*** DONE pic/1996-sbx-s19b-big.jpg -> pic/1996-sbx-s19b.jpg
+    CLOSED: [2013-04-16 Tue 08:15]
+*** DONE pic/1996-sbx-s20a-big.jpg -> pic/1996-sbx-s20a.jpg
+    CLOSED: [2013-04-16 Tue 08:15]
+*** DONE pic/1996-sbx-s20b-big.jpg -> pic/1996-sbx-s20b.jpg
+    CLOSED: [2013-04-16 Tue 08:15]
+*** DONE pic/1996-sbx-s21a-big.jpg -> pic/1996-sbx-s21a.jpg
+    CLOSED: [2013-04-16 Tue 08:15]
+*** DONE pic/1996-sbx-s21b-big.jpg -> pic/1996-sbx-s21b.jpg
+    CLOSED: [2013-04-16 Tue 08:16]
+*** DONE 1996-sbx-s19.html -> sbx-s19.html
+    CLOSED: [2013-04-16 Tue 08:17]
+*** DONE pic/1996-sbx-s25a-big.jpg -> pic/1996-sbx-s25a.jpg
+    CLOSED: [2013-04-16 Tue 09:07]
+*** DONE pic/1996-sbx-s25b-big.jpg -> pic/1996-sbx-s25b.jpg
+    CLOSED: [2013-04-16 Tue 09:07]
+*** DONE pic/1996-sbx-s26a-big.jpg -> pic/1996-sbx-s26a.jpg
+    CLOSED: [2013-04-16 Tue 09:07]
+*** DONE pic/1996-sbx-s26b-big.jpg -> pic/1996-sbx-s26b.jpg
+    CLOSED: [2013-04-16 Tue 09:07]
+*** DONE pic/1996-sbx-s27a-big.jpg -> pic/1996-sbx-s27a.jpg
+    CLOSED: [2013-04-16 Tue 09:07]
+*** DONE pic/1996-sbx-s27b-big.jpg -> pic/1996-sbx-s27b.jpg
+    CLOSED: [2013-04-16 Tue 09:07]
+*** DONE pic/1996-sbx-s31a-big.jpg -> pic/1996-sbx-s31a.jpg
+    CLOSED: [2013-04-16 Tue 14:55]
+*** DONE pic/1996-sbx-s31b-big.jpg -> pic/1996-sbx-s31b.jpg
+    CLOSED: [2013-04-16 Tue 14:55]** DONE check-dict: Check word wrapping of all fields
+   CLOSED: [2013-05-05 Sun 20:08]
+** DONE Allow -*- html -*- to be added to Markdown metadata
+   CLOSED: [2013-05-30 Thu 18:42]
+   So that Emacs understand immediately that the file should use html-mode.
+
+   bin/markdown2html now allows comments in metadata. Simply use ':' (without
+   preceding it with a field name -- continuation lines cannot be used after
+   comments).
+
+   With this in place, the first line of a markdown source file may contain the
+   line `: -*- html -*-` to signify that Emacs should highlight it as if it was
+   HTML.
+** DONE check-dict: Check nesting of brackets in text fields
+   CLOSED: [2013-07-20 Sat 16:33]
+   {tlhuH} have a missing "]" in its `com:` field.
+** DONE check-dict: Check other (non-'com:') fields for nesting brackets
+   CLOSED: [2013-07-21 Sun 13:30]
+** DONE Email Will Martin about the Praxis recording
+   CLOSED: [2013-12-13 Fri 14:00]
+** DONE check-dict: Re-enable checking of 'tag: YEAR'
+   CLOSED: [2013-12-13 Fri 16:44]
+   Check is based on date of oldest source reference in def: and ref: fields.
 ** DONE Cleared away a bunch of Perl 'is experimental' warnings
    CLOSED: [2014-10-25 sat 15:57]
+** DONE Update design of canon/search/
+   CLOSED: [2014-11-08 Sat 17:07]
+** DONE canon/search: "bird" - several matches were lacking file/article names
+   CLOSED: [2014-11-08 Sat 17:10]
+** DONE canon/search: When viewing file page logo should link back to query
+   CLOSED: [2014-11-08 Sat 18:18]
+   I.e. from this page:
+
+       http://klingonska.lal/canon/search/?file=1996-qepa.txt&query=at
+
+   The page logo should link to (same URL, but without the 'file' part):
+
+       http://klingonska.lal/canon/search/?query=at
+** DONE canon/search: When viewing a file there should be a 'Transcript' link
+   CLOSED: [2014-11-08 Sat 19:16]
+** DONE canon/search: Use module for page header and footer
+   CLOSED: [2014-11-23 Sun 14:02]
+** DONE canon/search: Use "q" instead of "query" in GET URL
+   CLOSED: [2014-11-23 Sun 17:17]
+** DONE canon/search: BUGFIX: "Transcript" on result page should work
+   CLOSED: [2014-11-23 Sun 18:29]
+** DONE canon/search: Search button should use magnifying glass image
+   CLOSED: [2014-11-23 Sun 20:23]
+   Just like the dictionary search.
+** DONE Update design of piqad/play.cgi
+   CLOSED: [2014-11-09 Sun 04:11]
+   http://klingonska.lal/piqad/play.cgi
+** DONE Use a 'natural box model' for all of page
+   CLOSED: [2014-11-02 Sun 21:41]
+   See Paul Irish's web page:
+   http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+
+       /* apply a natural box layout model to all elements */
+       html { box-sizing: border-box; }
+       *, *:before, *:after { box-sizing: inherit; }
+
+   `includes/gallery.scss` have a couple of exceptions from this rule since the
+   <figure> element have its size set (in the HTML) according to the size of
+   the image it contains.
+** DONE Prettify tab row (make more Chrome-like)
+   CLOSED: [2014-11-04 tis 17:39]
+** [100%] Move piqad/play.cgi -> writing/play/index.cgi
+   CLOSED: [2014-11-18 tis 22:00]
+*** DONE Make all links on page point to new place
+    CLOSED: [2014-11-18 tis 20:22]
+*** DONE HCoop redirect from old to new
+    CLOSED: [2014-11-18 tis 22:00]
+** DONE Site redesign: CSS animation fade in glow on hover on page header logo
+   CLOSED: [2014-11-18 tis 23:22]
+   The page logo glows on hover. This should fade in, rather than just light
+   up.
+** DONE check-dict: Ignore [...] inside parens in 'desc:'         :IMPORTANT:
+   CLOSED: [2014-12-14 Sun 13:50]
+   Square brackets inside parentheses should *not* be checked for sources. E.g.
+   {qang} [.2]. -- Marked as 'IMPORTANT' since this currently results in a
+   warning every time the dictionary is checked.
+** DONE Remove "Links to Other Pages About the Klingon Language"
+   CLOSED: [2015-03-08 Sun 20:11]
+   This page is in such a sorry state of disrepair that it's now time to
+   completely remove it.
+
+   According to Google Analytics it is ranked 360 (which several popular
+   dictionary searches having a much higher rank), and it's multiple broken
+   links probably have an adverse effect on Klingonska Akademien's Google
+   ranking.
+*** Update "Links to Other Pages About the Klingon Language"
+    This page need a major update, and removal of non-working links.
+
+    Should remove all stuff that does not work, and maybe focus more on being a
+    resource for beginners.
+
+    Felix seems to have a bunch of good resources available in this email
+    thread:
+
+    > One good resource is Lawrence M. Schoen's podcast DaHjaj Hol:
+    > http://www.lawrencemschoen.com/podcasts/dahjaj-hol-110101/
+    > (I believe there's a total of 366 episodes)
+    >
+    > Quvar has 15 or so episodes (in English and German) as "the Klingon
+    > Teacher from Germany":
+    > http://www.facebook.com/Klingonteacher
+    > http://www.youtube.com/watch?v=auqS6FR_RDE
+    >
+    > Klingon Postal Course: http://www.kli.org/study/postcourse.html
+    > (first 6 lessons)
+    >
+    >
+    > Websites:
+    >
+    > maHvatlh's www.klingonska.org (dictionary, grammar guides, songs, canon
+    > archive...)
+    >
+    > qurgh's http://hol.kag.org (dictionary, parser, grammar guides, media,
+    > flash cards...)
+    >
+    > Quvar's www.qepHom.de (mainly info about qepHom, but also some general
+    > info on Klingon, as well as a new words list that build's on the KLI's)
+    > ter'eS' http://teresh.tdonnelly.org/ (Klingon grammar addenda, songs, movies...)
+    >
+    > I have a flash card set for KLCP1 on Memrise:
+    > http://www.memrise.com/set/10016624/klcp1/
+    >
+    >
+    > On Twitter, there's @kwotd (Klingon word of the day).
+    > @tlhInganHol is a bot that tweets Klingon phrases, but some of them aren't
+    > parsed properly, so it's worth taking with a pinch of salt.
+    > I also run @pIqaD, where I try to tweet in pIqaD at least once per day
+    > (though I tend to fail).
+    >
+    > There's also the tlhIngan Hol jatlhwI'pu' Facebook group:
+    > http://www.facebook.com/groups/tlhInganHol/
+    > (not sure if it's invite only or if you can apply to join; if it's invite
+    > only, PM one of the members so that they can add you)
+    >
+    > I have a YouTube series which I intended to be weekly, but I only ever
+    > manage to keep that up for a few weeks at a time :P
+    > http://www.youtube.com/playlist?list=PL0D8C08BAA890637D
+    >
+    > Also, I'd love to see the Klingon practice thread on the xkcd forums come
+    > back to life: http://forums.xkcd.com/viewtopic.php?f=25&t=26688
+    >
+    >
+    > I also have the channel @klingonska on Twitter which tweets Klingon
+    > phrases and info in Swedish.
+    > I'm working on a course plan and would like to start teaching a small
+    > group in Stockholm, but we'll see how that works out.
+*** Javascript to display only a single tag/category
+*** Weed out links to non-existing pages
+*** Links to add
+**** TODO Klingon Unicode Table "Klingon: U+F8D0 - U+F8FF"
+      http://www.evertype.com/standards/csur/klingon.html
+      (include comma and period glyphs)
+**** TODO "wordiQ - Klingon Language" article
+      http://www.wordiq.com/definition/Klingon_language
+      (A pretty good article on the klingon language)
+**** TODO "Wikipedia: Klingon writing systems"
+      http://en.wikipedia.org/wiki/Klingon_writing_systems
+** DONE markdown2html: Use <<..>> to indicate translation in all Markdown
+   CLOSED: [2015-04-05 Sun 00:42]
+** DONE markdown2html: Replace all em-dashes with en-dashes (except in transcripts)
+   CLOSED: [2015-04-05 Sun 18:35]
+** DONE markdown2html: Remove unnecessary quotes around attributes in Markdown
+   CLOSED: [2015-04-08 Wed 10:33]
+** DONE markdown2html: "Archive of Okrandian Canon" should be italic where mentioned
+   CLOSED: [2016-09-11 Sun 02:18]
+** DONE canon/: Add words from qepHom'a' 2011
+   CLOSED: [2016-10-02 Sun 17:57]
+** DONE Removed Google Analytics stuff
+   CLOSED: [2022-07-09 Sat 11:17]
+** WONT DOING Email
+   CLOSED: [2025-05-11 Sun 00:49]
+   The below was made moot with the move HCoop -> Github pages.
+*** DOING Loopia mail settings
+*** DONE Test that mails sent to zrajm@zrajm.org are received
+    CLOSED: [2010-09-03 Fri 22:28]
+*** DONE Fix email settings for zrajm.org
+    CLOSED: [2010-09-03 Fri 22:18]
+    Removed all attempted (but non-working) Google Apps settings for zrajm.org.
+*** TODO Fix email settings for klingonska.org
+    Email should be handled by HCoop as well, not by Loopia. MX thingies in DNS
+    (on Loopia) should point to HCoop.
+*** TODO Copy HCoop email settings used on zrajm.org to klingonska.org
+*** TODO Configure Loopia to use this
+*** TODO Test that email to *@klingonska.org (still) works
+*** TODO Why can't I sent mail to zrajm@zrajm.org from gmail and have them wind up in my gmail inbox?
+    (This works excellently if I send mail to zrajm@klingonska.org.)
+*** TODO Remove mail redirects from zrajm.org when klingonska.org is working
+** WONT Mailing lists
+   CLOSED: [2025-05-26 Mon 04:34]
+   Mailing list has, by now, been defunct for many years.
+*** DOING Move mailing lists
+*** DOING test that aliases {qanaq,sekreterare}@klingonska.org works
+*** TODO Set up so that list.klingonska.org works for mailing lists
+*** TODO Migrate old klingonska mailinglist archives to HCoop
+    old: http://mail.thaning.se/pipermail/klingonska_klingonska.org/
+    new: https://lists.hcoop.net/pipermail/klingonska/
+
+    Requires mailinglist archive in mbox format.
+    http://wiki.hcoop.net/MemberManual/Email/MailingLists#MigratinganExistingList
+
+*** TODO Migrate old 2040 mailinglist archives to HCoop
+    old: http://mail.thaning.se/pipermail/2040_klingonska.org/
+    new: https://lists.hcoop.net/pipermail/2040/
+
+    Requires mailinglist archive in mbox format.
+    http://wiki.hcoop.net/MemberManual/Email/MailingLists#MigratinganExistingList
+*** TODO Delete mailing lists on manufrog
+    http://thaning.se:2082/frontend/rvskin/mail/lists.html?domain=klingonska.org
+
+*** TODO Update mailing list webpage to reflect current info
+    http://klingonska.org/lista.html
+
+** WONT glossary/: Fix error messages in old browsers                   :BUG:
+   CLOSED: [2025-05-26 Mon 16:59]
+   WONTFIX: This is supported in all modern browsers (since 2010-ish).
+   In "Load/Save" tab.
+   (e.g. on Lucia's ThinkPad -- Chrome 6)
+   The error message is repeted several times. "Unfortunately your browser
+   does not support blob urls (required for downloading). :’("
 * [eof]
