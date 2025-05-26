@@ -1884,6 +1884,18 @@
     be centered. Page: http://klingonska.lal/piq/index.html
 ** "Klingon Pocket Dictionary"
 *** Web page
+**** TODO Fix searching for Klingon words                               :BUG:
+**** TODO Add replace 'title=""' attributes with actual values          :BUG:
+**** TODO Sources should be links
+**** TODO Resolve curly quotes etc in lexicon when it is loaded?
+     (That way we only need to do it once, and search matches curly quotes
+     anyway.)
+**** TODO Matching of whole words should detect input better
+     (a lone punctuation mark should match, while a-z or ' should only match
+     whole word)
+**** TODO Add 'scroll up' arrow at bottom of page
+     Because list of matches can be looong!
+**** TODO Display tips when there's zero matches (not just on initial pageload)
 **** DONE index.cgi should work for new style sources
      CLOSED: [2013-12-12 Thu 18:46]
 **** DONE Fix page tabs links

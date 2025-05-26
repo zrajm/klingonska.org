@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!-- Copyright 1998–2025 by zrajm. License: CC BY-SA (text), GPLv2 (code) -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Klingon Pocket Dictionary &ndash; Klingonska Akademien</title>
+<link rel=stylesheet href="../includes/base.css">
+<link rel=stylesheet href="../includes/dict.css">
+<link rel=stylesheet href="../includes/pagetabs.css">
+<link rel=stylesheet href="www/loading.css">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#bb3333">
+<meta name="msapplication-TileColor" content="#bb3333">
+<meta name="theme-color" content="#bb3333">
+<link rel=canonical href="http://klingonska.org/dict/">
+<style>
+  td, th { vertical-align: text-top; }
+  th {
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: left;
+  }
+  mark { background-color: #bbb; font-weight: inherit; font-style: inherit; }
+  table.results { position: static; transform: none; -webkit-transform: none }
+  table.results p { text-indent: 1.5em; margin: 0 }
+</style>
+<header role=banner class=tabbed>
+  <!-- begin:status -->
+  <ul>
+    <li>
+      <nav itemprop=breadcrumb role=navigation>
+        <a href="http://klingonska.org/">Home</a> &gt;
+        <a href="http://klingonska.org/dict/">Klingon Pocket Dictionary</a>
+      </nav>
+    <li>
+      Updated <time pubdate datetime="2022-07-10T12:49+02:00">July 10, 2022</time>
+  </ul>
+  <!-- end:status -->
+  <div>
+    <a href="../">
+      <table id=logotitle>
+        <td>
+          <span class=crop>
+            <img height=200 width=200 src="../pic/ka-logo.svg" alt="Klingonska Akademien">
+          </span>
+        <td>
+          <h1>Klingonska<span id=logospace>&nbsp;</span>Akademien</h1>
+      </table>
+    </a>
+    <nav class=pagetabs role=navigation>
+      <a href="about.html">About</a>
+      <a href="intro.html">Introduction</a>
+      <span class=selected>Lexicon</span>
+      <a href="suffix.html">Suffix Guide</a>
+      <a href="tables.html">Reference Tables</a>
+    </nav>
+  </div>
+</header>
+
+<article role=main itemprop=mainContentOfPage style="padding-top:1px">
+<h1>Klingon Pocket Dictionary</h1>
+
+<aside class=note>Some info + searchable version of the pocket dictionary database.</aside>
+
+<section>
+
+<table class="noborder layout">
+  <tr>
+    <td class=center>
+      <form class=dict method=get action=""
+        ><input name=q autocomplete=off placeholder="Search dictionary…"
+           value="" autofocus
+        ><button type=submit title="Search"
+          ><img alt="Magnifying glass" src="../pic/magnify.svg"
+        ></button
+      ></form>
+  <tr>
+    <td class=center><small id=tips></small>
+</table>
+
+<div class=loading><div></div><div></div><div></div><div></div></div>
+
+<div id=output>
+<p>The book has a Klingon&ndash;English, and an English&ndash;Klingon side.
+The wordlists are automatically generated from <a href="dict.zdb">a flat text
+database</a>, which is human readable and easy to update. The database has
+been continuously updated and improved since it was created in late
+<time>1997</time>.</p>
+
+<table class="noborder layout">
+  <tr>
+    <th colspan=2>Search Expressions
+  <tr>
+    <td class=center><b>"</b>…<b>"</b>&nbsp;
+    <td>search for a phrase (containing more than one word)
+  <tr>
+    <td class=center><b>*</b>&nbsp;
+    <td>matches any alphabetical character
+  <tr>
+    <td class=center><b>tlh:</b>…&nbsp;
+    <td>search Klingon words <i>(case sensetive)</i>
+  <tr>
+    <td class=center><b>en:</b>…&nbsp;
+    <td>search English translations
+  <tr>
+    <td class=center><b>sv:</b>…&nbsp;
+    <td>search Swedish translations
+  <tr>
+    <td class=center><b>pos:</b>…&nbsp;
+    <td>search part-of-speech field<br>(use abbrev
+      from <i><a href="intro.html">Introduction</a></i>, <i>ns#,</i> <i>vs#</i>
+      or free text)
+  <tr>
+    <td class=center><b>def:</b>…&nbsp;
+    <td>search defining sources
+  <tr>
+    <td class=center><b>ref:</b>…&nbsp;
+    <td>search referring sources
+</table>
+
+<p>Case <em>only</em> matters when you’re using the search prefix <b>tlh:</b>,
+otherwise all searches are case insensetive.</p>
+<div>
+
+</section>
+</article>
+
+<footer role=contentinfo>
+  <p class=copyright>© <time itemprop=copyrightYear>1998</time>&ndash;<time>2025</time> by
+    <a href="mailto:zrajm@klingonska.org" rel=author itemprop=author>zrajm</a>,
+    <a href="http://klingonska.org/" itemprop=sourceOrganization>Klingonska Akademien</a>, Uppsala
+  <p>License: <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel=license>CC BY-SA</a>
+</footer>
+<script type=module src="www/dict.js"></script>
+<script src="../includes/titlewrap.js"></script>
+<!--[eof]-->
