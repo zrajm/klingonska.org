@@ -77,7 +77,7 @@ function parseDictEntry(txtEntry) {
 /*****************************************************************************/
 
 // Test if char is 0-9, a-ö or apostrophes.
-const wordCharRe = /^[\d\p{Letter}\p{Number}‘’']$/u
+const wordCharRe = /^[\p{Letter}\p{Number}‘’']$/u
 
 // Unquoted special characters: Expand unquoted char into character class.
 let charClass = {
@@ -100,10 +100,11 @@ function finalizeTerm(state) {
     wordBeg, wordEnd,
   } = state
   function wordRegex(regex) {
-    const noWord = '[ 􌥠,:!?/.’()[\\]&+–-]'
-    return (wordBeg ? `(^|${noWord})` : '()')
+    // One <betweenWord> must match before & after search word.
+    const betweenWord = /[^\p{Letter}\p{Number}‘’']/u
+    return (wordBeg ? `(^|${betweenWord.source})` : '()')
       + `(${regex})`
-      + (wordEnd ? `(?=${noWord}|$)` : '')
+      + (wordEnd ? `(?=${betweenWord.source}|$)` : '')
   }
   return {
     regex: regex
