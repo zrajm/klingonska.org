@@ -339,6 +339,30 @@ function searchDict(queryStr, dict) {
     + `</table>`
 }
 
+// Fetch dict from server if it has changed, otherwise cache.
+function cacheFetch(href) {
+  const etag = localStorage.getItem('etag')
+  return fetch(href, { headers: {
+    'If-None-Match': (etag ? etag : {}),
+  }}).then(reply => {
+    if (reply.status === 304) {                // unmodified, use cache
+      return Promise.resolve(localStorage.getItem('dict'))
+    }
+    if (reply.ok) {                            // changed, save to cache
+      return reply.text().then(text => {
+        const etag = reply.headers.get('ETag')
+        if (etag && text) {
+          localStorage.setItem('etag', etag)
+          localStorage.setItem('dict', text)
+        }
+        return text
+      })
+    }
+    const { status, statusText } = reply
+    throw `ERROR: Can't fetch '${href}': Status ${status}: ${statusText}`
+  })
+}
+
 /** Main **/
 
 const outTag = document.querySelector('#output')
@@ -352,12 +376,11 @@ handleForm(formTag, formState => {
     outTag.innerHTML = searchDict(queryStr, dict)
   }
 })
-fetch('dict.zdb')
-  .then(reply => reply.text())
-  .then(txt => {
-    dict = parseDict(txt)
-    document.querySelector('.loading').remove()
-    formTag.requestSubmit()
-  })
+
+cacheFetch('dict.zdb').then((txt) => {
+  dict = parseDict(txt)
+  document.querySelector('.loading').remove()
+  formTag.requestSubmit()
+})
 
 //[eof]

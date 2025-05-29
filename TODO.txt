@@ -1894,7 +1894,8 @@
     be centered. Page: http://klingonska.lal/piq/index.html
 ** "Klingon Pocket Dictionary"
 *** Web page
-**** TODO Fix searching for Klingon words                               :BUG:
+**** TODO Complex searches should work
+     Searching for two words using AND «verb tests» or OR «verb,test».
 **** TODO Add replace 'title=""' attributes with actual values          :BUG:
 **** TODO Sources should be links
 **** TODO Resolve curly quotes etc in lexicon when it is loaded?
@@ -4621,4 +4622,6 @@
    (e.g. on Lucia's ThinkPad -- Chrome 6)
    The error message is repeted several times. "Unfortunately your browser
    does not support blob urls (required for downloading). :’("
+** DONE Fix searching for Klingon words                                 :BUG:
+   CLOSED: [2025-05-27 Tue 13:38]
 * [eof]
