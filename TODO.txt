@@ -2,6 +2,8 @@
 #+TAGS: PROOF(p) TRANSCRIBE IMPORTANT SECURITY
 #+TODO: TODO | DONE WONT
 
+* TODO Add 'buck-2024-klingon_alternative_script' to 'Klingon in Academia'?
+  Need to talk to author.
 * TODO FIXES
 ** DOING Webpage
 *** DOING Find/eliminate faulty latin1 hyphens
@@ -1896,6 +1898,8 @@
 *** Web page
 **** TODO Complex searches should work
      Searching for two words using AND «verb tests» or OR «verb,test».
+**** TODO Search for '*' results in 'Uncaught SyntaxError: nothing to repeat'
+**** TODO Support xifan hol in searches
 **** TODO Add replace 'title=""' attributes with actual values          :BUG:
 **** TODO Sources should be links
 **** TODO Resolve curly quotes etc in lexicon when it is loaded?

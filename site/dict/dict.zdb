@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    95f01d17de990455ee8ac49cdda639e32713ed52
+SHA1:    ded39ed0120d9d4171cbf6af325fa66dfa317e1d
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -1658,11 +1658,14 @@ ref:	TDNW; KLINW
 tag:	2003
 id:	Hdd
 
-tlh:	{borg}
+tlh:	{borgh}
 pos:	noun
-en:	<Borg>
-sv:	<borg>
-def:	LangFest19: Klingon Workshop (https://youtu.be/5G_v20YlwWc?t=3602)
+en:	«Borg»
+sv:	«borg»
+def:	LangFest
+tag:	2019
+id:	VgH
+meta:	Klingon Workshop; https://youtu.be/5G_v20YlwWc?t=3602
 
 tlh:	{borghel}
 pos:	noun

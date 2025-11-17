@@ -347,11 +347,14 @@ sub get_entries {
 {
     # these source reference words are not in all capitals
     my %tr = (
-        bop      => "BoP",       email  => "Email",  hallmark    => "Hallmark",
-        haynes   => "Haynes",    holqed => "HolQeD", news        => "News",
-        paqbatlh => "paq'batlh", praxis => "Praxis", qepa        => "qep'a'",
-        qephoma  => "qepHom'a'", sarek  => "Sarek",  "ves-qonos" => "veS-QonoS",
-        web      => "Web",       "st3-dvd-case" => "ST3-DVD-case",
+        bop            => "BoP",          email    => "Email",
+        hallmark       => "Hallmark",     haynes   => "Haynes",
+        holqed         => "HolQeD",       langfest => "LangFest",
+        news           => "News",         paqbatlh => "paq'batlh",
+        praxis         => "Praxis",       qepa     => "qep'a'",
+        qephoma        => "qepHom'a'",    sarek    => "Sarek",
+        "ves-qonos"    => "veS-QonoS",    web      => "Web",
+        "st3-dvd-case" => "ST3-DVD-case",
     );
     my $re = qr/${\( join("|", sort keys %tr) )}/;
 

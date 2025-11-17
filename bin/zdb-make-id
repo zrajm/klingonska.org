@@ -1,11 +1,13 @@
-#!/usr/bin/perl
-use strict;
-use warnings;
-use encoding::warnings 'FATAL';
-use 5.10.0;
-use utf8;
-use open ':utf8';
-binmode(STDOUT, ':utf8');
+#!/bin/env perl
+
+# https://perl.com/pub/2012/04/perlunicook-standard-preamble.html
+use utf8;      # so literals and identifiers can be in UTF-8
+use v5.12;     # or later to get "unicode_strings" feature
+use strict;    # quote strings, declare variables
+use warnings;  # on by default
+use warnings  qw(FATAL utf8);    # fatalize encoding glitches
+use open      qw(:std :utf8);    # undeclared streams in UTF-8
+use charnames qw(:full :short);  # unneeded in v5.16
 
 sub help {
     print <<'EOF';
@@ -22,7 +24,7 @@ EOF
 my $count = '';
 foreach my $num (0..$#ARGV) {
     last if $num > $#ARGV;
-    my $_ = $ARGV[$num];
+    local $_ = $ARGV[$num];
     last if m#^--$#;
     help() if m#^(-h|--help)$#;
     $count = splice(@ARGV, $num, 1) if m#^[0-9]+$#;

@@ -1,0 +1,26 @@
+[[FIXME header]]
+
+2019 -- LangFest
+----------------
+Marc Okrand attended.
+
+LangFest 2019 took place at Concordia University in Montreal, Canada, over the
+weekend August 23--25, 2019. Keynote speakers where David J. Peterson and Marc
+Okrand, who both also held workshop events during the weekend.
+
+Marc Okrand's Klingon workshop (held Sunday 25th), was recorded and put on
+YouTube (https://youtu.be/5G_v20YlwWc?t=3602). And one of the questions he get
+from the audience and during this workshop is the following:
+
+> **Audience member:** How do you say, for example, Borg or Vulcan?
+>
+> **Okrand:** Borg is {borgh}, and Vulcan is {vulqan}. {romuluS}...
+> {romuluSngan}, oh, {ngan}... {ngan} is a suffix that means 'people of'. So,
+> {romuluSngan}.
+
+Interestingly enough, this is the first time that the Borg are named in
+Klingon!
+
+* {borgh} "Borg" (n) -- New word.
+
+[[eof]]
