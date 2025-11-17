@@ -12,7 +12,6 @@
 
 source_dir  := site
 publish_dir := publish
-remote_dir  := ssh.hcoop.net:Web/klingonska.org
 ignore      := %.bak %.db %~ .\#% %\# %.tmp
 
 CSS_MINIFIER ?= $(if $(MINIFIER),$(MINIFIER),yui-compressor --type css)
@@ -183,7 +182,7 @@ publish: .publish.done
 	    echo "    in 'site/dict/dict.zdb'" >&2;            \
 	    exit 1;                                            \
 	};                                                     \
-	echo "Publishing site to '$(remote_dir)':";            \
+	echo "Pushing site to GitHub::";                       \
 	FILES=$$(find ./$(publish_dir) -perm -g=w);            \
 	[ -n "$$FILES" ] && chmod g-w $$FILES;                 \
 	(cd $(publish_dir)                                     \
@@ -191,16 +190,6 @@ publish: .publish.done
 	     && git commit -m "Sitebuild `date --iso=minutes`" \
 	     && git push)                                      \
 	     && echo "Last published from here: `date`" >"$@"
-
-## fetch - fetch published site
-.PHONY: fetch
-fetch:
-	@if [ ! -e fetched ]; then                        \
-	    [ -e $(publish_dir) ] || make site;           \
-	    cp -a publish fetched;                        \
-	fi;                                               \
-	echo "Fetching published site to 'fetched':";     \
-	rsync -Pac --delete-after $(remote_dir)/ fetched/
 
 ## linkcheck - check internal web page links
 .PHONY: linkcheck
