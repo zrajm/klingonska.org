@@ -198,6 +198,10 @@ their contributions.
     <td class=nobr>TKD p.176/4.2.9
     <td class=nobr>1998-09-22 (?)
   <tr>
+    <td>“hit the officers.” is plural, should be “hit the officer.”
+    <td class=nobr>TKD p.66/6.2.5.
+    <td class=nobr>2026-04-08
+  <tr>
     <td>{gar} is misspelled, should be {qar}
     <td class=nobr>TKD p.179/6.4
     <td class=nobr>1998-09-22 (?)
