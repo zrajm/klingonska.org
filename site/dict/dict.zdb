@@ -1,6 +1,6 @@
 FORMAT:  zrajm-database
 VERSION: 1.4
-SHA1:    ded39ed0120d9d4171cbf6af325fa66dfa317e1d
+SHA1:    4264bcb526b5040ad650c1cef0116d975d606e0e
 URL:     http://klingonska.org/dict/dict.zdb
 LICENSE: Creative Commons Attribution-ShareAlike 3.0
          <http://creativecommons.org/licenses/by-sa/3.0/>
@@ -21400,7 +21400,7 @@ id:	d2r
 
 tlh:	{tay'}
 pos:	verb
-en:	be <together>
+en:	be <together>, be «united»
 sv:	vara «tillsammans»
 def:	TKD
 ref:	TKW pp.34, 209
@@ -25161,7 +25161,7 @@ pos:	noun
 en:	«United Kingdom», «UK»
 sv:	«Storbritannien»
 def:	RT
-cite:	{wo' tay' tlhInganpu' maH!} ~We are U.K. Klingons!~ (~We are together
+cite:	{wo' tay' tlhInganpu' maH!} ~We are U.K. Klingons!~ (~We are United
 	Empire Klingons!~) [RT]
 com:	~UK~ is translated {wo' tay'} in RT (in 1996) and {tuqjIjQa'} in TNK
 	(in 2011). Both translations are likely to be acceptable (just
