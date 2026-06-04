@@ -1,7 +1,7 @@
 : -*- html -*-
-updated: 2013-06-02 19:03:13 +0200
+updated: 2026-06-04T02:29:29+02:00
 author: zrajm
-year: 1998-2013
+year: 1998-2026
 lang: en
 style: piqad.css
 script: jquery-1.7.1.js
@@ -255,7 +255,7 @@ complete description of each of the sounds is given in the text below.
     <td colspan=2>
   <tr align=center>
     <th><a href="http://en.wikipedia.org/wiki/Approximant_consonant#Central_approximants">Approximant</a>
-    <td colspan=2>
+    <td style="border-right:0"><td style="border-left:0"><a href="#w">w</a>
     <td colspan=2>
     <td colspan=2>
     <td colspan=2>
@@ -327,6 +327,37 @@ complete description of each of the sounds is given in the text below.
 <div>
   <p><small>[<a class=sources>Display Sources</a>]</small></p>
   <div class=hidden>
+    <div class=canon>
+      <h2>Klingon Orthography and Pronunciation</h2>
+      <p>The Klingon language has a rather asymmetric phoneme inventory, which
+      poses several difficulties for any new learners of the language. Anyone
+      familiar with Terran languages like Hindi or Telugu will recognize the
+      retroflex consonants, and several of the lateral, velar, and uvular
+      consonants can be found in Native American or Caucasian languages. Their
+      combination however is decidedly foreign to any Terran language.
+      <p>The vowels should not pose a problem for any speaker of a European
+      language. Except for one, they follow he “Italian,” open
+      pronunciation: <i>a</i> /a/, <i>e</i> /ɛ/, <i>I</i> /ɪ/, <i>o</i>
+      /o/, <i>u</i> /u/.
+      <p>Table 1 organizes the Klingon consonants according to the standards of
+      the International Phonetic Association. An extensive pronunciation guide
+      tailored to speakers of the English language may be found in
+      Okrand’s <i>Klingon Dictionary</i><sup>1</sup>
+      <table class="border center th-sans" style="background:inherit">
+        <caption><i>Table</i> 1: Klingon consonant inventory, standard
+          orthography between parentheses.</caption>
+        <tr><th><th>Labial<th>Alveolar<th>Retroflex<th>Palatal<th>Velar<th>Uvular<th>Laryngeal
+        <tr align=center><th>Nasal<td>m <i>(m)</i><td>n <i>(n)</i><td><td><td>ŋ <i>(ng)</i><td><td>
+        <tr align=center><th>Plosive<td>pʰ  b<br><i>(p  b)</i><td>tʰ<br><i>(t)</i><td>ɖ<br><i>(D)</i><td><td><td>qʰ<br><i>(q)</i><td>ʔ<br><i>(’)</i>
+        <tr align=center><th>Fricative<td>v<br><i>(v)</i><td><td>ʂ<br><i>(S)</i><td><td>x  ɣ<br><i>(H  gh)</i><td><td>
+        <tr align=center><th>Affricate<td><td>t͡ʃ  d͡ʒ<br><i>(ch  j)</i><td><td><td><td>q͡χ<br><i>(Q)</i><td>
+        <tr align=center><th>Lateral Affr.<td><td>t͡ɬ <i>(tlh)</i><td><td><td><td><td>
+        <tr align=center><th>Approximant<td>w <i>(w)</i><td><td><td>j <i>(y)</i><td><td><td>
+        <tr align=center><th>Lat. Approx.<td><td>l <i>(l)</i><td><td><td><td><td>
+        <tr align=center><th>Trill<td><td>r <i>(r)</i><td><td><td><td><td>
+      </table>
+      <p><small>[{paq’batlh} 2nd ed., p.40</small></p>
+    </div>
     <div class=noncanon>
       <table class="border center" style="background:inherit">
         <tr><th colspan=4><big>Vowel inventory of Klingon</big>
@@ -1840,6 +1871,9 @@ The Morskan dialect is characterized by the following speech patterns.
     Klingon Language Institute.
 <li>Schoen, Lawrence M. “<a href="../canon/1992-12-holqed-01-04.txt">Numerals</a>” In <i>{HolQeD},</i> Volume 1,
     Number 4 (<time datetime="1992-12">December 1992</time>). Lake Forest: Klingon Language Institute.
+<li>Schönfeld, Floris, et al. “Klingon Orthography and Pronunciation”
+    In <i><b>paq’batlh:</b> The Klingon Epic,</i> 2nd ed. (<time>2022</time>).
+    Tirana/The Hague: Punctum books.
 <li>Wechsler, Allan C. “First Steps Towards a Phonological Theory of
     Klingon.” In <i>{HolQeD},</i> Volume 1, Number 1 (<time datetime="1992-03">March 1992</time>).
     Lake Forest: Klingon Language Institute.
